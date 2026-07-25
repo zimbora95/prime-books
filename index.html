@@ -155,7 +155,7 @@
         text-decoration: none;
       }
       .brand img {
-        height: clamp(36px, 3.6vw, 48px);
+        height: clamp(48px, 4.8vw, 64px);
         width: auto;
         display: block;
         filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.35));
@@ -577,7 +577,7 @@
           padding: 18px 20px;
         }
         .hero-word {
-          top: 5.5vh;
+          top: 11vh;
         }
         .hero-word span.l1 {
           font-size: 24vw;
@@ -701,7 +701,7 @@
       /* ---------- cart dropdown ---------- */
       .cart-pop {
         position: fixed;
-        top: 86px;
+        top: 104px;
         right: 42px;
         z-index: 70;
         width: min(360px, calc(100vw - 32px));
@@ -1283,6 +1283,54 @@
         letter-spacing: normal;
         font-size: inherit;
         font-weight: inherit;
+        align-items: center;
+        gap: 14px;
+      }
+
+      /* segmented edition control */
+      .seg {
+        position: relative;
+        display: flex;
+        flex: none;
+        background: rgba(12, 19, 52, 0.07);
+        border-radius: 999px;
+        padding: 4px;
+      }
+      .seg .year-pill {
+        position: relative;
+        z-index: 1;
+        border: 0 !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        height: 36px;
+        padding: 0 16px;
+        font-size: 13px;
+        color: #4a5170;
+      }
+      .seg .year-pill.on {
+        color: var(--cream) !important;
+      }
+      .seg-thumb {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 60px;
+        height: calc(100% - 8px);
+        border-radius: 999px;
+        background: var(--navy);
+        box-shadow: 0 8px 18px rgba(12, 19, 52, 0.3);
+        transition:
+          transform 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+          width 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .seg-count {
+        margin-left: auto;
+        font-size: 12.5px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #8a90ac;
+        white-space: nowrap;
       }
       .cat-filters .flabel {
         align-self: center;
@@ -1516,7 +1564,7 @@
       @media (max-width: 760px) {
         /* top nav */
         .brand img {
-          height: 32px;
+          height: 38px;
         }
         .brand .wm {
           font-size: 17px;
@@ -1583,6 +1631,9 @@
         }
         .cat-filters button {
           flex: none;
+        }
+        .seg-count {
+          display: none;
         }
 
         /* flipbook header */
@@ -1674,7 +1725,7 @@
       </a>
       <div class="nav-r">
         <button class="cta" id="catalogueBtn">Catalogue</button>
-        <button class="cart-btn" id="cartBtn" aria-label="Cart">
+        <button class="cart-btn" id="cartBtn" aria-label="Basket">
           <svg
             viewBox="0 0 24 24"
             fill="none"
@@ -1786,7 +1837,11 @@
       </div>
       <div class="cat-stick">
         <div class="cat-filters" id="catFilters"></div>
-        <div class="cat-filters ed" id="edFilters"></div>
+        <div class="cat-filters ed" id="edFilters">
+          <span class="flabel">Edition</span>
+          <div class="seg" id="edSeg" role="tablist" aria-label="Edition"></div>
+          <span class="seg-count" id="catCount" aria-live="polite"></span>
+        </div>
       </div>
       <div class="cat-body" id="catBody"></div>
     </div>
@@ -5107,18 +5162,18 @@
         },
         {
           id: "portugues-y9",
-          title: "Português 1.ª Língua",
-          tag: "Português 1.ª Língua · Year 9",
+          title: "Portuguese 1st",
+          tag: "Portuguese 1st · Year 9",
           author: "Prime Books",
           year: "Year 9 · IGCSE",
           yearNum: 9,
           artSubj: "Portuguese 1st (IGCSE)",
           stage: "Cambridge Upper Secondary · IGCSE",
           stageLabel: "Cambridge Upper Secondary",
-          titleLines: ["Português", "1.ª Língua"],
+          titleLines: ["Portuguese 1st"],
           titleSize: 88,
           band: "Year 9 · IGCSE",
-          lang: "Português",
+          lang: "Portuguese",
           price: "€26,90",
           priceCents: 2690,
           audio: null,
@@ -5939,6 +5994,8 @@
       const catEl = document.getElementById("cat");
       const catFilters = document.getElementById("catFilters");
       const edFilters = document.getElementById("edFilters");
+      const edSeg = document.getElementById("edSeg");
+      const catCount = document.getElementById("catCount");
       const catBody = document.getElementById("catBody");
       let catData = null,
         catFilter = "All",
@@ -6221,28 +6278,45 @@
           }),
         );
 
-        /* edition pills */
-        edFilters.innerHTML =
-          '<span class="flabel">Edition</span>' +
-          [{ key: "all", label: "All editions" }]
-            .concat(EDITIONS)
+        /* edition segmented control (with sliding thumb) */
+        edSeg.innerHTML =
+          '<span class="seg-thumb" aria-hidden="true"></span>' +
+          [{ key: "all", label: "All" }]
+            .concat(
+              EDITIONS.map((e) => ({
+                key: e.key,
+                label: e.short.charAt(0) + e.short.slice(1).toLowerCase(),
+              })),
+            )
             .map(
               (e) =>
                 '<button class="year-pill edp' +
                 (edFilter === e.key ? " on" : "") +
                 '" data-e="' +
                 e.key +
-                '">' +
+                '" role="tab">' +
                 e.label +
                 "</button>",
             )
             .join("");
+        requestAnimationFrame(segThumb);
         edFilters.querySelectorAll(".year-pill").forEach((b) =>
           b.addEventListener("click", () => {
             edFilter = b.getAttribute("data-e");
             renderCatalogue();
           }),
         );
+
+        /* slide the navy thumb under the active segment */
+        function segThumb() {
+          const on = edSeg.querySelector(".year-pill.on");
+          const th = edSeg.querySelector(".seg-thumb");
+          if (!on || !th) return;
+          th.style.width = on.offsetWidth + "px";
+          th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
+        }
+        window.addEventListener("resize", segThumb);
+
 
         /* cards: one per (subject × edition in print) */
         function cardsFor(r) {
@@ -6348,6 +6422,10 @@
             );
           })
           .join("");
+
+        /* live result count */
+        const nCards = catBody.querySelectorAll(".book-card").length;
+        catCount.textContent = nCards === 0 ? "No matches" : nCards + (nCards === 1 ? " book" : " books");
 
         /* lazy cover rendering */
         catBody
