@@ -914,9 +914,15 @@
       }
       .cat-filters {
         display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        padding: 16px 42px;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 12px;
+        margin: 14px 42px;
+        padding: 10px 12px;
+        background: #fff;
+        border: 1px solid rgba(12, 19, 52, 0.1);
+        border-radius: 18px;
+        box-shadow: 0 12px 34px rgba(12, 19, 52, 0.1);
       }
       .year-pill {
         height: 38px;
@@ -1034,6 +1040,16 @@
       .book-card .from b {
         color: var(--navy);
         font-size: 15px;
+      }
+      .book-card .from.solo {
+        display: block;
+        margin: 4px 0 10px;
+      }
+      .foot-row .view3d {
+        align-self: center;
+      }
+      .bcov[data-feat] {
+        cursor: pointer;
       }
       .status {
         display: inline-flex;
@@ -1272,19 +1288,89 @@
         background: rgba(251, 247, 238, 0.88);
         backdrop-filter: blur(10px);
       }
-      .cat-filters.ed {
-        padding-top: 0;
-        padding-bottom: 18px;
+
+      /* year dropdown */
+      .ydrop {
+        position: relative;
+        flex: none;
       }
-      /* the container accidentally matches the .ed pill class — restore block flex */
-      #edFilters {
+      .ydrop-btn {
+        height: 42px;
+        padding: 0 14px;
+        border-radius: 12px;
+        border: 1.5px solid rgba(12, 19, 52, 0.16);
+        background: #fff;
+        color: var(--navy);
+        font-size: 13.5px;
+        font-weight: 700;
         display: flex;
-        height: auto;
-        letter-spacing: normal;
-        font-size: inherit;
-        font-weight: inherit;
         align-items: center;
-        gap: 14px;
+        gap: 10px;
+        cursor: pointer;
+        white-space: nowrap;
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+      .ydrop-btn:hover {
+        border-color: rgba(12, 19, 52, 0.4);
+      }
+      .ydrop.open .ydrop-btn {
+        border-color: var(--red);
+        box-shadow: 0 0 0 3px rgba(214, 31, 44, 0.12);
+      }
+      .ydrop-btn svg {
+        flex: none;
+        transition: transform 0.25s;
+      }
+      .ydrop.open .ydrop-btn svg {
+        transform: rotate(180deg);
+      }
+      .ydrop-pop {
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        min-width: 250px;
+        background: #fff;
+        border: 1px solid rgba(12, 19, 52, 0.12);
+        border-radius: 16px;
+        box-shadow: 0 24px 60px rgba(12, 19, 52, 0.2);
+        padding: 8px;
+        display: none;
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+        z-index: 40;
+      }
+      .ydrop.open .ydrop-pop {
+        display: grid;
+      }
+      .yopt {
+        height: 38px;
+        border: 0;
+        background: transparent;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #4a5170;
+        text-align: left;
+        padding: 0 12px;
+        cursor: pointer;
+      }
+      .yopt:hover {
+        background: rgba(12, 19, 52, 0.06);
+      }
+      .yopt.on {
+        background: var(--navy);
+        color: var(--cream);
+      }
+      .yopt.all {
+        grid-column: 1 / -1;
+      }
+      .fdiv {
+        width: 1px;
+        height: 26px;
+        background: rgba(12, 19, 52, 0.14);
+        flex: none;
       }
 
       /* segmented edition control */
@@ -1614,23 +1700,31 @@
 
         /* filters: swipeable single rows */
         .cat-filters {
-          flex-wrap: nowrap;
+          flex-wrap: wrap;
+          row-gap: 10px;
+          margin: 10px 20px;
+          padding: 10px;
+          overflow: visible;
+          -webkit-mask-image: none;
+          mask-image: none;
+        }
+        .seg {
+          order: 3;
+          flex: 1 1 100%;
           overflow-x: auto;
           scrollbar-width: none;
-          padding-top: 12px;
-          padding-bottom: 12px;
-          -webkit-overflow-scrolling: touch;
-          -webkit-mask-image: linear-gradient(90deg, #000 90%, transparent 100%);
-          mask-image: linear-gradient(90deg, #000 90%, transparent 100%);
+        }
+        .seg .year-pill {
+          flex: none;
+        }
+        .ydrop-pop {
+          min-width: 220px;
         }
         .cat-filters::-webkit-scrollbar {
           display: none;
         }
         .cat-filters .flabel {
           display: none;
-        }
-        .cat-filters button {
-          flex: none;
         }
         .seg-count {
           display: none;
@@ -1836,9 +1930,15 @@
         </p>
       </div>
       <div class="cat-stick">
-        <div class="cat-filters" id="catFilters"></div>
-        <div class="cat-filters ed" id="edFilters">
-          <span class="flabel">Edition</span>
+        <div class="cat-filters" id="catFilters">
+          <div class="ydrop" id="ydrop">
+            <button class="ydrop-btn" id="ydropBtn" aria-haspopup="listbox" aria-expanded="false">
+              <span id="ydropLabel">All years</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="ydrop-pop" id="ydropPop" role="listbox"></div>
+          </div>
+          <span class="fdiv" aria-hidden="true"></span>
           <div class="seg" id="edSeg" role="tablist" aria-label="Edition"></div>
           <span class="seg-count" id="catCount" aria-live="polite"></span>
         </div>
@@ -1850,7 +1950,7 @@
       <div class="fb-head">
         <div class="fb-title">
           <span class="tag">Preview</span>
-          <span id="fbName">Humanities · Year 7 — Student's Manual</span>
+          <span id="fbName">Humanities · Year 7 — Student Manual</span>
         </div>
         <div class="fb-nav">
           <button class="fb-btn" id="fbTocBtn" aria-label="Book sections">
@@ -5104,7 +5204,7 @@
           audioCents: 0,
           flipbook: null,
           editions: [
-            ["Student's Manual", true],
+            ["Student Manual", true],
             ["Teacher's Guide", true],
             ["Workbook", true],
           ],
@@ -5142,7 +5242,7 @@
           audioCents: 990,
           flipbook: "/PrimeBooks%20Humanities%20Year%207.pdf",
           editions: [
-            ["Student's Manual", true],
+            ["Student Manual", true],
             ["Teacher's Guide", true],
             ["Workbook", true],
           ],
@@ -5180,7 +5280,7 @@
           audioCents: 0,
           flipbook: null,
           editions: [
-            ["Student's Manual", true],
+            ["Student Manual", true],
             ["Teacher's Guide", true],
             ["Workbook", true],
           ],
@@ -5464,6 +5564,7 @@
 
         const b = {
           cfg,
+          texs: { fc, bc, sc, frontTex, backTex, spineTex },
           index,
           root,
           float,
@@ -5608,11 +5709,13 @@
               { p: [-1.36, -1.0, -0.12], r: [-0.045, 0.4, 0.185], s: 1.39 },
               { p: [0.2, -0.45, 0.6], r: [-0.05, -0.1, -0.035], s: 1.52 },
               { p: [1.62, -1.1, -0.34], r: [-0.045, -0.42, -0.17], s: 1.39 },
+              { p: [0, -8, -2], r: [0, 0, 0], s: 0.001 },
             ]
           : [
               { p: [-2.06, -1.23, -0.12], r: [-0.045, 0.4, 0.185], s: 1.39 },
               { p: [0.3, -1.08, 0.6], r: [-0.05, -0.1, -0.035], s: 1.52 },
               { p: [2.45, -1.41, -0.34], r: [-0.045, -0.42, -0.17], s: 1.39 },
+              { p: [0, -8, -2], r: [0, 0, 0], s: 0.001 },
             ];
 
         if (SLOTS.portrait) {
@@ -5968,7 +6071,7 @@
 
       buyBtn.addEventListener("click", () => {
         const cfg = state.selected && state.selected.cfg;
-        if (cfg) addToCart(cfg.tag + " — Student's Manual", cfg.priceCents);
+        if (cfg) addToCart(cfg.tag + " — Student Manual", cfg.priceCents);
       });
       audioBtn.addEventListener("click", () => {
         const cfg = state.selected && state.selected.cfg;
@@ -5986,20 +6089,42 @@
         toast(
           cfg.lang === "English"
             ? "This edition is published in English"
-            : "Esta edição é publicada em Português",
+            : "This edition is published in Portuguese",
         );
       });
 
       /* ---- catalogue overlay (parsed at runtime from the Subjects CSV) ---- */
       const catEl = document.getElementById("cat");
       const catFilters = document.getElementById("catFilters");
-      const edFilters = document.getElementById("edFilters");
       const edSeg = document.getElementById("edSeg");
       const catCount = document.getElementById("catCount");
+      const ydrop = document.getElementById("ydrop");
+      const ydropBtn = document.getElementById("ydropBtn");
+      const ydropPop = document.getElementById("ydropPop");
+      const ydropLabel = document.getElementById("ydropLabel");
+
+      /* year dropdown open/close (registered once; options are rebuilt per render) */
+      ydropBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const isOpen = ydrop.classList.toggle("open");
+        ydropBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      });
+      document.addEventListener("click", (e) => {
+        if (!ydrop.contains(e.target)) {
+          ydrop.classList.remove("open");
+          ydropBtn.setAttribute("aria-expanded", "false");
+        }
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          ydrop.classList.remove("open");
+          ydropBtn.setAttribute("aria-expanded", "false");
+        }
+      });
       const catBody = document.getElementById("catBody");
       let catData = null,
         catFilter = "All",
-        edFilter = "all";
+        edFilter = "manual";
 
       const FEATURED = [
         {
@@ -6125,20 +6250,20 @@
         "Portuguese 1st": {
           motif: "azulejo",
           accent: "#e9e2d0",
-          title: ["Português", "1.ª Língua"],
-          size: 88,
+          title: ["Portuguese 1st"],
+          size: 84,
         },
         "Portuguese 2nd": {
           motif: "azulejo",
           accent: "#e9e2d0",
-          title: ["Português", "2.ª Língua"],
-          size: 88,
+          title: ["Portuguese 2nd"],
+          size: 84,
         },
         "Portuguese 1st (IGCSE)": {
           motif: "azulejo",
           accent: "#e9e2d0",
-          title: ["Português", "1.ª Língua"],
-          size: 88,
+          title: ["Portuguese 1st"],
+          size: 84,
         },
         "Science & Lab": {
           motif: "atom",
@@ -6164,7 +6289,7 @@
       const EDITIONS = [
         {
           key: "manual",
-          label: "Student's Manual",
+          label: "Student Manual",
           short: "MANUAL",
           cents: 2490,
           price: "€24,90",
@@ -6248,6 +6373,100 @@
         { root: catEl, rootMargin: "500px" },
       );
 
+      /* ---- flex book: any catalogue title can take the 3D stage ---- */
+      function cfgForCard(row, edKey) {
+        const st = SUBJECT_STYLE[row.subj] || {};
+        const t = st.title
+          ? { lines: st.title, size: st.size }
+          : coverTitle(row.subj);
+        const ed = EDITIONS.find((e) => e.key === edKey) || EDITIONS[0];
+        const stage = stageFor(row.year);
+        return {
+          id: "flex-" + row.year + "-" + row.subj + "-" + ed.key,
+          title: row.subj,
+          tag: row.subj + " \u00b7 " + row.year,
+          author: "Prime Books",
+          year: row.year + " \u00b7 2025/26",
+          yearNum: parseInt(row.year.slice(5), 10),
+          artSubj: row.subj,
+          stage: stage + " \u00b7 " + row.year,
+          stageLabel: stage,
+          titleLines: t.lines,
+          titleSize: t.size,
+          subtitle: st.subtitle || null,
+          band: row.year + (row.subj.indexOf("IGCSE") >= 0 ? " \u00b7 IGCSE" : ""),
+          lang:
+            row.subj.indexOf("Portuguese") === 0
+              ? "Portuguese"
+              : row.subj === "Spanish"
+                ? "Spanish"
+                : "English",
+          price: ed.price,
+          priceCents: ed.cents,
+          audio: null,
+          audioCents: 0,
+          flipbook: null,
+          editions: [
+            ["Student Manual", !!row.s],
+            ["Teacher's Guide", !!row.t],
+            ["Workbook", !!row.w],
+          ],
+          desc:
+            row.subj +
+            " for " +
+            row.year +
+            " \u2014 the " +
+            ed.label.toLowerCase() +
+            " in the Prime Books series, written by our own teachers for the Cambridge Pathway: carefully sequenced units, worked examples and end-of-unit assessment throughout.",
+          motif: MOTIFS[st.motif] || motifBook,
+          accent: st.accent || "#aeb8dd",
+          front(x, cw, ch) {
+            paintPrime(x, cw, ch, this);
+          },
+          edge: "#e8e2d2",
+          backBg: "#101a3f",
+          backInk: "246,241,230",
+          spineBg: "#101a3f",
+          spineInk: "#f6f1e6",
+          spineFont: "700 44px Arial",
+          coverURL: null,
+        };
+      }
+
+      function repaintBook(b, cfg) {
+        b.cfg = cfg;
+        const t = b.texs;
+        const fx = t.fc.getContext("2d");
+        fx.clearRect(0, 0, 1024, 1536);
+        cfg.front(fx, 1024, 1536);
+        t.frontTex.needsUpdate = true;
+        const bx = t.bc.getContext("2d");
+        bx.clearRect(0, 0, 1024, 1536);
+        paintBack(bx, 1024, 1536, cfg);
+        t.backTex.needsUpdate = true;
+        const sx = t.sc.getContext("2d");
+        sx.clearRect(0, 0, 220, 1536);
+        paintSpine(sx, 220, 1536, cfg);
+        t.spineTex.needsUpdate = true;
+      }
+
+      /* the 4th book lives parked offscreen until a card summons it */
+      const flexBook = buildBook(
+        cfgForCard(
+          { year: "Year 1", subj: "Mathematics", s: true, t: true, w: true },
+          "manual",
+        ),
+        3,
+      );
+
+      function openFlex(year, subj, edKey) {
+        const row =
+          catData && catData.find((r) => r.year === year && r.subj === subj);
+        if (!row) return;
+        repaintBook(flexBook, cfgForCard(row, edKey));
+        open(flexBook);
+      }
+
       function renderCatalogue() {
         const years = [];
         catData.forEach((r) => {
@@ -6255,25 +6474,29 @@
         });
         years.sort((a, b) => parseInt(a.slice(5)) - parseInt(b.slice(5)));
 
-        /* year pills */
-        catFilters.innerHTML =
-          '<span class="flabel">Year</span>' +
-          ["All"]
-            .concat(years)
+        /* year dropdown */
+        ydropLabel.textContent = catFilter === "All" ? "All years" : catFilter;
+        ydropPop.innerHTML =
+          '<button class="yopt all' +
+          (catFilter === "All" ? " on" : "") +
+          '" data-y="All" role="option">All years</button>' +
+          years
             .map(
               (y) =>
-                '<button class="year-pill' +
+                '<button class="yopt' +
                 (catFilter === y ? " on" : "") +
                 '" data-y="' +
                 y +
-                '">' +
-                (y === "All" ? "All years" : y) +
+                '" role="option">' +
+                y +
                 "</button>",
             )
             .join("");
-        catFilters.querySelectorAll(".year-pill").forEach((b) =>
+        ydropPop.querySelectorAll(".yopt").forEach((b) =>
           b.addEventListener("click", () => {
             catFilter = b.getAttribute("data-y");
+            ydrop.classList.remove("open");
+            ydropBtn.setAttribute("aria-expanded", "false");
             renderCatalogue();
           }),
         );
@@ -6300,7 +6523,7 @@
             )
             .join("");
         requestAnimationFrame(segThumb);
-        edFilters.querySelectorAll(".year-pill").forEach((b) =>
+        edSeg.querySelectorAll(".year-pill").forEach((b) =>
           b.addEventListener("click", () => {
             edFilter = b.getAttribute("data-e");
             renderCatalogue();
@@ -6338,7 +6561,6 @@
               '<span class="status soon">Soon</span></div></div>'
             );
           }
-          const feat = FEATURED.find((f) => f.test(r.year, r.subj));
           return EDITIONS.filter(
             (e) =>
               (e.key === "manual" && r.s) ||
@@ -6349,7 +6571,9 @@
             .map((e) => {
               return (
                 '<div class="book-card">' +
-                '<div class="bcov"><img data-y="' +
+                '<div class="bcov" data-feat="' +
+                [r.year, r.subj, e.key].join("|") +
+                '"><img data-y="' +
                 r.year +
                 '" data-s="' +
                 r.subj +
@@ -6368,16 +6592,13 @@
                 '<div class="bed">' +
                 e.label +
                 "</div>" +
-                (feat && e.key === "manual"
-                  ? '<button class="view3d" data-feat="' +
-                    r.year +
-                    "|" +
-                    r.subj +
-                    '">Open in 3D &#8599;</button>'
-                  : "") +
-                '<div class="foot-row"><span class="from"><b>' +
+                '<span class="from solo"><b>' +
                 e.price +
                 "</b></span>" +
+                '<div class="foot-row">' +
+                '<button class="view3d" data-feat="' +
+                [r.year, r.subj, e.key].join("|") +
+                '">Open Book</button>' +
                 '<button class="addbtn" data-add="' +
                 [r.year, r.subj, e.key].join("|") +
                 '">Add +</button></div></div>'
@@ -6441,16 +6662,20 @@
             addToCart(p[1] + " · " + p[0] + " — " + ed.label, ed.cents);
             return;
           }
-          const v = e.target.closest(".view3d");
+          const v = e.target.closest("[data-feat]");
           if (!v) return;
           const parts = v.getAttribute("data-feat").split("|");
           const feat = FEATURED.find((f) => f.test(parts[0], parts[1]));
+          const useFeat = feat && parts[2] === "manual";
           closeCatalogue();
-          if (!feat) return;
-          if (state.mode === "hero") open(feat.book());
+          const go = () => {
+            if (useFeat) open(feat.book());
+            else openFlex(parts[0], parts[1], parts[2]);
+          };
+          if (state.mode === "hero") go();
           else if (state.mode === "detail") {
             close();
-            setTimeout(() => open(feat.book()), 1750);
+            setTimeout(go, 1750);
           }
         };
       }
