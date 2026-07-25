@@ -1276,6 +1276,14 @@
         padding-top: 0;
         padding-bottom: 18px;
       }
+      /* the container accidentally matches the .ed pill class — restore block flex */
+      #edFilters {
+        display: flex;
+        height: auto;
+        letter-spacing: normal;
+        font-size: inherit;
+        font-weight: inherit;
+      }
       .cat-filters .flabel {
         align-self: center;
         font-size: 11px;
@@ -1503,6 +1511,148 @@
         color: var(--mist);
         font-size: 18px;
         line-height: 1.6;
+      }
+      /* ================= mobile polish (consolidated) ================= */
+      @media (max-width: 760px) {
+        /* top nav */
+        .brand img {
+          height: 32px;
+        }
+        .brand .wm {
+          font-size: 17px;
+        }
+        .brand .sub {
+          display: none;
+        }
+        .cta {
+          height: 42px;
+          padding: 0 16px;
+          font-size: 14px;
+        }
+        .cart-btn {
+          width: 42px;
+          height: 42px;
+        }
+
+        /* cart popover */
+        .cart-pop {
+          top: 74px;
+          right: 16px;
+        }
+
+        /* catalogue: 2-up grid + compact cards */
+        .cat-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+        .book-card h4 {
+          font-size: 14px;
+          line-height: 1.25;
+        }
+        .book-card .bed {
+          font-size: 11px;
+        }
+        .book-card .foot-row .from b {
+          font-size: 14px;
+        }
+        .book-card .addbtn {
+          height: 32px;
+          padding: 0 12px;
+          font-size: 12px;
+        }
+        .book-card .view3d {
+          font-size: 11px;
+        }
+
+        /* filters: swipeable single rows */
+        .cat-filters {
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          scrollbar-width: none;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          -webkit-overflow-scrolling: touch;
+          -webkit-mask-image: linear-gradient(90deg, #000 90%, transparent 100%);
+          mask-image: linear-gradient(90deg, #000 90%, transparent 100%);
+        }
+        .cat-filters::-webkit-scrollbar {
+          display: none;
+        }
+        .cat-filters .flabel {
+          display: none;
+        }
+        .cat-filters button {
+          flex: none;
+        }
+
+        /* flipbook header */
+        .fb-head {
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+        .fb-title {
+          display: none;
+        }
+        .fb-nav {
+          margin-left: auto;
+          gap: 8px;
+        }
+        .fb-btn {
+          height: 38px;
+          min-width: 38px;
+          padding: 0 12px;
+          font-size: 14px;
+        }
+        #fbTocBtn {
+          font-size: 0;
+          width: 38px;
+          padding: 0;
+        }
+        #fbTocBtn::before {
+          content: "☰";
+          font-size: 15px;
+        }
+        #fbBack5,
+        #fbFwd5 {
+          display: none;
+        }
+        .fb-page-ind {
+          min-width: 78px;
+          font-size: 12.5px;
+        }
+        .fb-page-ind input {
+          width: 38px;
+          height: 32px;
+        }
+
+        /* detail panel: scrollable bottom sheet */
+        .dp {
+          max-height: 66vh;
+          overflow-y: auto;
+          overscroll-behavior: contain;
+        }
+
+        /* toast */
+        .toast {
+          max-width: 86vw;
+          text-align: center;
+          font-size: 14px;
+          padding: 12px 20px;
+          bottom: 22px;
+        }
+      }
+      @media (max-height: 560px) {
+        /* landscape phones */
+        .dp {
+          top: auto;
+          bottom: 2vh;
+          transform: none;
+          max-height: 92vh;
+          overflow-y: auto;
+        }
+        .dp p {
+          display: none;
+        }
       }
     </style>
   </head>
@@ -2421,8 +2571,2284 @@
         x.restore();
       }
 
+      /* ---- hue shifting: subject accent rotates a little each year -------- */
+      function shiftHue(hex, deg) {
+        if (!deg) return hex;
+        const n = parseInt(hex.slice(1), 16);
+        let r = ((n >> 16) & 255) / 255,
+          g = ((n >> 8) & 255) / 255,
+          b = (n & 255) / 255;
+        const max = Math.max(r, g, b),
+          min = Math.min(r, g, b);
+        let hh = 0,
+          s = 0;
+        const l = (max + min) / 2;
+        if (max !== min) {
+          const d = max - min;
+          s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+          if (max === r) hh = ((g - b) / d + (g < b ? 6 : 0)) / 6;
+          else if (max === g) hh = ((b - r) / d + 2) / 6;
+          else hh = ((r - g) / d + 4) / 6;
+        }
+        hh = (((hh * 360 + deg) % 360) + 360) % 360;
+        const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+        const p = 2 * l - q;
+        const f = (t) => {
+          t = ((t % 1) + 1) % 1;
+          if (t < 1 / 6) return p + (q - p) * 6 * t;
+          if (t < 1 / 2) return q;
+          if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
+          return p;
+        };
+        if (s !== 0) {
+          r = f(hh / 360 + 1 / 3);
+          g = f(hh / 360);
+          b = f(hh / 360 - 1 / 3);
+        } else {
+          r = g = b = l;
+        }
+        const to2 = (v) =>
+          Math.round(v * 255)
+            .toString(16)
+            .padStart(2, "0");
+        return "#" + to2(r) + to2(g) + to2(b);
+      }
+
+      /* ---- per-year pattern language: Year N speaks pattern N -------------- */
+      function patternDots(x, w, h, c) {
+        x.fillStyle = c;
+        for (let yy = 48; yy < h; yy += 64)
+          for (let xx = 48; xx < w; xx += 64) {
+            x.beginPath();
+            x.arc(xx, yy, 4.5, 0, 6.2832);
+            x.fill();
+          }
+      }
+      function patternStripes(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        for (let i = -h; i < w + h; i += 46) {
+          x.beginPath();
+          x.moveTo(i, 0);
+          x.lineTo(i + h, h);
+          x.stroke();
+        }
+      }
+      function patternWaves(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        for (let yy = 60; yy < h; yy += 90) {
+          x.beginPath();
+          for (let xx = 0; xx <= w; xx += 8)
+            x[xx === 0 ? "moveTo" : "lineTo"](
+              xx,
+              yy + Math.sin((xx / 140) * 6.2832) * 14,
+            );
+          x.stroke();
+        }
+      }
+      function patternRings(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        for (let r = 40; r < 560; r += 58) {
+          x.beginPath();
+          x.arc(w * 0.85, h * 0.16, r, 0, 6.2832);
+          x.stroke();
+        }
+      }
+      function patternHatch(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 2.5;
+        for (let i = -h; i < w + h; i += 52) {
+          x.beginPath();
+          x.moveTo(i, 0);
+          x.lineTo(i + h, h);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(i + h, 0);
+          x.lineTo(i, h);
+          x.stroke();
+        }
+      }
+      function patternTriangles(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        let row = 0;
+        for (let yy = 60; yy < h; yy += 96, row++)
+          for (let xx = 60; xx < w; xx += 96) {
+            const up = (Math.round(xx / 96) + row) % 2 === 0;
+            x.beginPath();
+            if (up) {
+              x.moveTo(xx, yy - 22);
+              x.lineTo(xx + 24, yy + 20);
+              x.lineTo(xx - 24, yy + 20);
+            } else {
+              x.moveTo(xx, yy + 22);
+              x.lineTo(xx + 24, yy - 20);
+              x.lineTo(xx - 24, yy - 20);
+            }
+            x.closePath();
+            x.stroke();
+          }
+      }
+      function patternStars(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        let row = 0;
+        for (let yy = 56; yy < h; yy += 88, row++)
+          for (let xx = 56 + (row % 2) * 44; xx < w; xx += 88) {
+            x.beginPath();
+            x.moveTo(xx - 10, yy);
+            x.lineTo(xx + 10, yy);
+            x.moveTo(xx, yy - 10);
+            x.lineTo(xx, yy + 10);
+            x.stroke();
+          }
+      }
+      function patternDiamonds(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        for (let yy = 56; yy < h; yy += 80)
+          for (let xx = 56; xx < w; xx += 80) {
+            x.beginPath();
+            x.moveTo(xx, yy - 16);
+            x.lineTo(xx + 16, yy);
+            x.lineTo(xx, yy + 16);
+            x.lineTo(xx - 16, yy);
+            x.closePath();
+            x.stroke();
+          }
+      }
+      function patternChevrons(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        for (let yy = 64; yy < h; yy += 88)
+          for (let xx = 40; xx < w; xx += 72) {
+            x.beginPath();
+            x.moveTo(xx - 28, yy + 13);
+            x.lineTo(xx, yy - 13);
+            x.lineTo(xx + 28, yy + 13);
+            x.stroke();
+          }
+      }
+      function patternArcs(x, w, h, c) {
+        x.strokeStyle = c;
+        x.lineWidth = 3;
+        let row = 0;
+        for (let yy = 48; yy < h; yy += 96, row++)
+          for (let xx = 48; xx < w; xx += 96) {
+            const rot = ((Math.round(xx / 96) + row) % 4) * 1.5708;
+            x.beginPath();
+            x.arc(xx, yy, 34, rot, rot + 1.5708);
+            x.stroke();
+          }
+      }
+      const YEAR_PATTERNS = [
+        patternDots,
+        patternStripes,
+        patternWaves,
+        patternRings,
+        patternHatch,
+        patternTriangles,
+        patternStars,
+        patternDiamonds,
+        patternChevrons,
+        patternArcs,
+      ];
+
+      /* ================= COVER ART ENGINE =================
+         Every (subject, year) gets its own illustration: the subject's
+         visual vocabulary rotates per year, composed six different ways,
+         in two tones of the year's hue-shifted accent. */
+      function lighten(hex, t) {
+        const n = parseInt(hex.slice(1), 16);
+        const r = (n >> 16) & 255,
+          g = (n >> 8) & 255,
+          b = n & 255;
+        const m = (v) => Math.round(v + (255 - v) * t);
+        const to2 = (v) => v.toString(16).padStart(2, "0");
+        return "#" + to2(m(r)) + to2(m(g)) + to2(m(b));
+      }
+      function hashStr(s) {
+        let h = 0;
+        for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+        return h;
+      }
+      function artStyle(x, col, lw) {
+        x.strokeStyle = col;
+        x.lineWidth = lw;
+        x.lineJoin = "round";
+        x.lineCap = "round";
+      }
+      function fillA(x, col, a) {
+        x.save();
+        x.globalAlpha = a;
+        x.fillStyle = col;
+        x.fill();
+        x.restore();
+      }
+      function scaled(x, cx, cy, s, fn) {
+        x.save();
+        x.translate(cx, cy);
+        x.scale(s, s);
+        x.translate(-cx, -cy);
+        fn();
+        x.restore();
+      }
+
+      const P = {};
+
+      /* ---- nature ---- */
+      P.leaf = (x, cx, cy, s, A, A2) => {
+        const R = 175 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy - R);
+        x.bezierCurveTo(cx + R, cy - R * 0.3, cx + R * 0.8, cy + R * 0.6, cx, cy + R);
+        x.bezierCurveTo(cx - R * 0.8, cy + R * 0.6, cx - R, cy - R * 0.3, cx, cy - R);
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R + 22 * s);
+        x.lineTo(cx, cy + R - 10 * s);
+        x.stroke();
+        x.lineWidth = 5;
+        for (let i = 0; i < 4; i++) {
+          const yy = cy - R * 0.5 + i * R * 0.38;
+          x.beginPath();
+          x.moveTo(cx, yy);
+          x.quadraticCurveTo(cx + R * 0.34, yy - R * 0.08, cx + R * 0.56, yy - R * 0.2);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(cx, yy);
+          x.quadraticCurveTo(cx - R * 0.34, yy - R * 0.08, cx - R * 0.56, yy - R * 0.2);
+          x.stroke();
+        }
+        x.fillStyle = A2;
+        [[0.3, -0.1], [-0.28, 0.3], [0.14, 0.52]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, 9 * s, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.butterfly = (x, cx, cy, s, A, A2) => {
+        const R = 175 * s;
+        artStyle(x, A, 7);
+        [[1, -1], [-1, -1], [1, 1], [-1, 1]].forEach(([sx, sy]) => {
+          const big = sy < 0;
+          x.beginPath();
+          x.moveTo(cx, cy);
+          x.bezierCurveTo(
+            cx + sx * R * (big ? 0.9 : 0.62), cy + sy * R * (big ? 1.05 : 0.25),
+            cx + sx * R * (big ? 1.0 : 0.7), cy + sy * R * (big ? 0.45 : 0.95),
+            cx, cy + sy * R * (big ? 0.25 : 0.6),
+          );
+          x.closePath();
+          fillA(x, A, 0.24);
+          x.stroke();
+        });
+        x.fillStyle = A2;
+        [[0.52, -0.5], [-0.52, -0.5], [0.34, 0.42], [-0.34, 0.42]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, 11 * s, 0, 6.2832);
+          x.fill();
+        });
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.42);
+        x.lineTo(cx, cy + R * 0.5);
+        x.stroke();
+        x.lineWidth = 5;
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.4);
+        x.quadraticCurveTo(cx - R * 0.2, cy - R * 0.72, cx - R * 0.3, cy - R * 0.78);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.4);
+        x.quadraticCurveTo(cx + R * 0.2, cy - R * 0.72, cx + R * 0.3, cy - R * 0.78);
+        x.stroke();
+      };
+      P.fish = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx - R, cy);
+        x.bezierCurveTo(cx - R * 0.3, cy - R * 0.75, cx + R * 0.55, cy - R * 0.6, cx + R * 0.78, cy);
+        x.bezierCurveTo(cx + R * 0.55, cy + R * 0.6, cx - R * 0.3, cy + R * 0.75, cx - R, cy);
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.95, cy);
+        x.lineTo(cx - R * 1.3, cy - R * 0.42);
+        x.lineTo(cx - R * 1.3, cy + R * 0.42);
+        x.closePath();
+        fillA(x, A, 0.3);
+        x.stroke();
+        x.lineWidth = 4;
+        for (let i = 0; i < 3; i++)
+          for (let j = 0; j < 2; j++) {
+            x.beginPath();
+            x.arc(cx - R * 0.25 + i * R * 0.3, cy - R * 0.18 + j * R * 0.36, R * 0.13, 0.6, 5.6);
+            x.stroke();
+          }
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.5, cy - R * 0.12, 10 * s, 0, 6.2832);
+        x.fill();
+        artStyle(x, A2, 4);
+        [[0.75, -0.62, 7], [0.92, -0.88, 5], [0.58, -0.92, 4]].forEach(([dx, dy, rr]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, rr * s, 0, 6.2832);
+          x.stroke();
+        });
+      };
+      P.bird = (x, cx, cy, s, A, A2) => {
+        const R = 150 * s;
+        const gull = (gx, gy, k, col, lw) => {
+          artStyle(x, col, lw);
+          x.beginPath();
+          x.moveTo(gx - R * k, gy);
+          x.quadraticCurveTo(gx - R * k * 0.4, gy - R * k * 0.55, gx, gy);
+          x.quadraticCurveTo(gx + R * k * 0.4, gy - R * k * 0.55, gx + R * k, gy);
+          x.stroke();
+        };
+        gull(cx, cy + R * 0.1, 1, A, 8);
+        gull(cx - R * 0.9, cy - R * 0.55, 0.5, A2, 6);
+        gull(cx + R * 0.95, cy - R * 0.35, 0.62, A2, 6);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.55, cy + R * 0.55, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.paw = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.ellipse(cx, cy + R * 0.35, R * 0.62, R * 0.48, 0, 0, 6.2832);
+        fillA(x, A, 0.25);
+        x.stroke();
+        [[-0.72, -0.28], [-0.24, -0.55], [0.24, -0.55], [0.72, -0.28]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.ellipse(cx + dx * R, cy + dy * R, R * 0.21, R * 0.27, 0, 0, 6.2832);
+          fillA(x, A, 0.35);
+          x.stroke();
+        });
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy + R * 0.35, 10 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.tree = (x, cx, cy, s, A, A2) => {
+        const R = 170 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.9);
+        x.lineTo(cx, cy - R * 0.1);
+        x.stroke();
+        x.lineWidth = 5;
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.25);
+        x.lineTo(cx - R * 0.35, cy - R * 0.1);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.25);
+        x.lineTo(cx + R * 0.35, cy - R * 0.1);
+        x.stroke();
+        artStyle(x, A, 7);
+        [[-0.42, -0.42, 0.5], [0.42, -0.42, 0.5], [0, -0.72, 0.55]].forEach(([dx, dy, k]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, R * k, 0, 6.2832);
+          fillA(x, A, 0.2);
+          x.stroke();
+        });
+        x.fillStyle = A2;
+        [[-0.5, -0.5], [0.55, -0.35], [0.05, -0.85], [-0.1, -0.3]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, 9 * s, 0, 6.2832);
+          x.fill();
+        });
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.8, cy + R * 0.92);
+        x.lineTo(cx + R * 0.8, cy + R * 0.92);
+        x.stroke();
+      };
+
+      /* ---- science ---- */
+      P.flask = (x, cx, cy, s, A, A2) => {
+        const R = 170 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx - R * 0.18, cy - R * 0.9);
+        x.lineTo(cx - R * 0.18, cy - R * 0.25);
+        x.lineTo(cx - R * 0.68, cy + R * 0.62);
+        x.quadraticCurveTo(cx - R * 0.78, cy + R * 0.85, cx - R * 0.5, cy + R * 0.85);
+        x.lineTo(cx + R * 0.5, cy + R * 0.85);
+        x.quadraticCurveTo(cx + R * 0.78, cy + R * 0.85, cx + R * 0.68, cy + R * 0.62);
+        x.lineTo(cx + R * 0.18, cy - R * 0.25);
+        x.lineTo(cx + R * 0.18, cy - R * 0.9);
+        x.closePath();
+        fillA(x, A, 0.15);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.3, cy - R * 0.9);
+        x.lineTo(cx + R * 0.3, cy - R * 0.9);
+        x.stroke();
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.5, cy + R * 0.3);
+        x.quadraticCurveTo(cx, cy + R * 0.18, cx + R * 0.5, cy + R * 0.3);
+        x.stroke();
+        x.fillStyle = A2;
+        [[-0.2, 0.5, 8], [0.1, 0.42, 11], [0.3, 0.6, 7], [-0.05, 0.66, 9]].forEach(([dx, dy, rr]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, rr * s, 0, 6.2832);
+          x.fill();
+        });
+        artStyle(x, A2, 4);
+        [[-0.1, -1.15, 5], [0.15, -1.35, 4], [-0.25, -1.5, 3]].forEach(([dx, dy, rr]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, rr * s, 0, 6.2832);
+          x.stroke();
+        });
+      };
+      P.atom = (x, cx, cy, s, A, A2) => {
+        scaled(x, cx, cy, s, () => motifAtom(x, cx, cy, A));
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy, 9 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.molecule = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        const pts = [[-0.7, 0.35, 0.34], [0, -0.45, 0.42], [0.72, 0.3, 0.3]];
+        x.beginPath();
+        x.moveTo(cx - 0.7 * R, cy + 0.35 * R);
+        x.lineTo(cx, cy - 0.45 * R);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - 0.45 * R);
+        x.lineTo(cx + 0.72 * R, cy + 0.3 * R);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - 0.7 * R, cy + 0.35 * R);
+        x.lineTo(cx + 0.72 * R, cy + 0.3 * R);
+        x.stroke();
+        pts.forEach(([dx, dy, k]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, R * k, 0, 6.2832);
+          fillA(x, A, 0.25);
+          x.stroke();
+          x.fillStyle = A2;
+          x.beginPath();
+          x.arc(cx + dx * R - R * k * 0.25, cy + dy * R - R * k * 0.25, R * k * 0.22, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.dna = (x, cx, cy, s, A, A2) => {
+        const R = 175 * s;
+        artStyle(x, A, 6);
+        [-1, 1].forEach((ph) => {
+          x.beginPath();
+          for (let i = 0; i <= 40; i++) {
+            const yy = cy - R + (i / 40) * 2 * R;
+            const xx = cx + Math.sin((i / 40) * 6.2832 * 1.5 + (ph > 0 ? 3.1416 : 0)) * R * 0.42;
+            i === 0 ? x.moveTo(xx, yy) : x.lineTo(xx, yy);
+          }
+          x.stroke();
+        });
+        x.lineWidth = 4;
+        for (let i = 2; i <= 38; i += 6) {
+          const yy = cy - R + (i / 40) * 2 * R;
+          const x1 = cx + Math.sin((i / 40) * 6.2832 * 1.5) * R * 0.42;
+          const x2 = cx + Math.sin((i / 40) * 6.2832 * 1.5 + 3.1416) * R * 0.42;
+          x.beginPath();
+          x.moveTo(x1, yy);
+          x.lineTo(x2, yy);
+          x.stroke();
+        }
+        x.fillStyle = A2;
+        [8, 20, 32].forEach((i) => {
+          const yy = cy - R + (i / 40) * 2 * R;
+          x.beginPath();
+          x.arc(cx, yy, 6 * s, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.magnet = (x, cx, cy, s, A, A2) => {
+        const R = 170 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.arc(cx, cy - R * 0.1, R * 0.62, 3.1416, 0);
+        x.lineTo(cx + R * 0.62, cy + R * 0.55);
+        x.lineTo(cx + R * 0.28, cy + R * 0.55);
+        x.lineTo(cx + R * 0.28, cy - R * 0.1);
+        x.arc(cx, cy - R * 0.1, R * 0.28, 0, 3.1416, true);
+        x.lineTo(cx - R * 0.28, cy + R * 0.55);
+        x.lineTo(cx - R * 0.62, cy + R * 0.55);
+        x.closePath();
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.fillStyle = A2;
+        x.fillRect(cx - R * 0.62, cy + R * 0.38, R * 0.34, R * 0.17);
+        x.fillRect(cx + R * 0.28, cy + R * 0.38, R * 0.34, R * 0.17);
+        artStyle(x, A, 4);
+        [0.85, 1.1].forEach((k) => {
+          x.beginPath();
+          x.arc(cx, cy - R * 0.1, R * 0.62 * k, 3.6, 5.8);
+          x.stroke();
+        });
+      };
+      P.scope = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 7);
+        x.save();
+        x.translate(cx + R * 0.1, cy - R * 0.35);
+        x.rotate(0.6);
+        x.strokeRect(-R * 0.16, -R * 0.55, R * 0.32, R * 0.8);
+        x.restore();
+        x.beginPath();
+        x.moveTo(cx - R * 0.1, cy - R * 0.5);
+        x.quadraticCurveTo(cx - R * 0.55, cy - R * 0.2, cx - R * 0.3, cy + R * 0.35);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.55, cy + R * 0.05);
+        x.lineTo(cx + R * 0.35, cy + R * 0.05);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.7, cy + R * 0.75);
+        x.lineTo(cx + R * 0.45, cy + R * 0.75);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.3, cy + R * 0.35);
+        x.lineTo(cx - R * 0.45, cy + R * 0.75);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.1, cy + R * 0.05, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+
+      /* ---- mathematics ---- */
+      P.piMark = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 5);
+        x.beginPath();
+        x.arc(cx, cy, R * 0.95, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A;
+        x.font = "800 " + Math.round(R * 1.5) + "px Georgia, serif";
+        x.textAlign = "center";
+        x.textBaseline = "middle";
+        x.fillText("π", cx, cy + R * 0.06);
+        x.fillStyle = A2;
+        [0.8, 2.4, 4.0, 5.6].forEach((a) => {
+          x.beginPath();
+          x.arc(cx + Math.cos(a) * R * 0.95, cy + Math.sin(a) * R * 0.95, 8 * s, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.compassTri = (x, cx, cy, s, A, A2) => {
+        const R = 170 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.75);
+        x.lineTo(cx + R * 0.8, cy + R * 0.6);
+        x.lineTo(cx - R * 0.8, cy + R * 0.6);
+        x.closePath();
+        fillA(x, A, 0.18);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy + R * 0.6, R * 0.75, -2.4, -0.75);
+        x.stroke();
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.3, cy + R * 0.6);
+        x.lineTo(cx - R * 0.3, cy + R * 0.42);
+        x.lineTo(cx - R * 0.12, cy + R * 0.42);
+        x.stroke();
+        x.fillStyle = A2;
+        [[0, -0.75], [0.8, 0.6], [-0.8, 0.6]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, 9 * s, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.geoboard = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        x.fillStyle = A;
+        for (let i = -2; i <= 2; i++)
+          for (let j = -2; j <= 2; j++) {
+            x.beginPath();
+            x.arc(cx + i * R * 0.36, cy + j * R * 0.36, 5.5 * s, 0, 6.2832);
+            x.fill();
+          }
+        artStyle(x, A2, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.72, cy - R * 0.36);
+        x.lineTo(cx, cy - R * 0.72);
+        x.lineTo(cx + R * 0.72, cy);
+        x.lineTo(cx + R * 0.36, cy + R * 0.72);
+        x.lineTo(cx - R * 0.72, cy + R * 0.36);
+        x.closePath();
+        fillA(x, A2, 0.25);
+        x.stroke();
+      };
+      P.abacus = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 5);
+        x.strokeRect(cx - R * 0.85, cy - R * 0.75, R * 1.7, R * 1.5);
+        [-0.4, 0, 0.4].forEach((dy, r) => {
+          x.beginPath();
+          x.moveTo(cx - R * 0.85, cy + dy * R);
+          x.lineTo(cx + R * 0.85, cy + dy * R);
+          x.stroke();
+          const beads = [[-0.55, -0.3, -0.05], [0.1, 0.35], [-0.2, 0.05, 0.3, 0.55]][r];
+          beads.forEach((bx, i) => {
+            x.beginPath();
+            x.arc(cx + bx * R, cy + dy * R, R * 0.13, 0, 6.2832);
+            fillA(x, i % 2 ? A2 : A, 0.55);
+            x.stroke();
+          });
+        });
+      };
+      P.protractor = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx, cy + R * 0.5, R * 0.9, 3.1416, 0);
+        x.closePath();
+        fillA(x, A, 0.18);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy + R * 0.5, R * 0.55, 3.1416, 0);
+        x.stroke();
+        x.lineWidth = 4;
+        for (let i = 0; i <= 6; i++) {
+          const a = 3.1416 + (i / 6) * 3.1416;
+          x.beginPath();
+          x.moveTo(cx + Math.cos(a) * R * 0.9, cy + R * 0.5 + Math.sin(a) * R * 0.9);
+          x.lineTo(cx + Math.cos(a) * R * 0.72, cy + R * 0.5 + Math.sin(a) * R * 0.72);
+          x.stroke();
+        }
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy + R * 0.5, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.dice = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        const die = (dx, dy, rot, pips) => {
+          x.save();
+          x.translate(cx + dx * R, cy + dy * R);
+          x.rotate(rot);
+          artStyle(x, A, 6);
+          const k = R * 0.5;
+          x.beginPath();
+          if (x.roundRect) x.roundRect(-k, -k, k * 2, k * 2, R * 0.13);
+          else x.rect(-k, -k, k * 2, k * 2);
+          fillA(x, A, 0.2);
+          x.stroke();
+          x.fillStyle = A2;
+          pips.forEach(([px, py]) => {
+            x.beginPath();
+            x.arc(px * k * 0.52, py * k * 0.52, R * 0.07, 0, 6.2832);
+            x.fill();
+          });
+          x.restore();
+        };
+        die(-0.35, -0.2, -0.2, [[-1, -1], [0, 0], [1, 1]]);
+        die(0.4, 0.3, 0.25, [[-1, -1], [1, -1], [-1, 1], [1, 1], [0, 0]]);
+      };
+
+      /* ---- languages ---- */
+      P.bookOpen = (x, cx, cy, s, A, A2) => {
+        const R = 170 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.5);
+        x.quadraticCurveTo(cx - R * 0.55, cy - R * 0.85, cx - R, cy - R * 0.55);
+        x.lineTo(cx - R, cy + R * 0.45);
+        x.quadraticCurveTo(cx - R * 0.55, cy + R * 0.15, cx, cy + R * 0.55);
+        x.quadraticCurveTo(cx + R * 0.55, cy + R * 0.15, cx + R, cy + R * 0.45);
+        x.lineTo(cx + R, cy - R * 0.55);
+        x.quadraticCurveTo(cx + R * 0.55, cy - R * 0.85, cx, cy - R * 0.5);
+        x.closePath();
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.5);
+        x.lineTo(cx, cy + R * 0.55);
+        x.stroke();
+        x.lineWidth = 4;
+        [-1, 1].forEach((sd) => {
+          for (let i = 0; i < 3; i++) {
+            x.beginPath();
+            x.moveTo(cx + sd * R * 0.2, cy - R * 0.22 + i * R * 0.26);
+            x.lineTo(cx + sd * R * 0.72, cy - R * 0.22 + i * R * 0.26);
+            x.stroke();
+          }
+        });
+        x.fillStyle = A2;
+        x.beginPath();
+        x.moveTo(cx + R * 0.42, cy - R * 0.68);
+        x.lineTo(cx + R * 0.58, cy - R * 0.68);
+        x.lineTo(cx + R * 0.58, cy - R * 0.28);
+        x.lineTo(cx + R * 0.5, cy - R * 0.38);
+        x.lineTo(cx + R * 0.42, cy - R * 0.28);
+        x.closePath();
+        x.fill();
+      };
+      P.quillInk = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.45, cy + R * 0.75);
+        x.bezierCurveTo(cx - R * 0.6, cy - R * 0.2, cx + R * 0.1, cy - R * 0.85, cx + R * 0.55, cy - R * 0.85);
+        x.bezierCurveTo(cx + R * 0.75, cy - R * 0.3, cx + R * 0.2, cy + R * 0.3, cx - R * 0.45, cy + R * 0.75);
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.45, cy + R * 0.75);
+        x.lineTo(cx + R * 0.5, cy - R * 0.78);
+        x.stroke();
+        x.lineWidth = 4;
+        for (let i = 1; i <= 4; i++) {
+          const t = i / 5;
+          const bx = cx - R * 0.45 + t * R * 0.95,
+            by = cy + R * 0.75 - t * R * 1.53;
+          x.beginPath();
+          x.moveTo(bx, by);
+          x.lineTo(bx + R * 0.18, by + R * 0.1);
+          x.stroke();
+        }
+        artStyle(x, A, 6);
+        x.strokeRect(cx + R * 0.25, cy + R * 0.35, R * 0.5, R * 0.45);
+        x.fillStyle = A2;
+        x.fillRect(cx + R * 0.31, cy + R * 0.44, R * 0.38, R * 0.12);
+      };
+      P.nib = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.9);
+        x.quadraticCurveTo(cx + R * 0.5, cy - R * 0.4, cx + R * 0.35, cy + R * 0.3);
+        x.lineTo(cx, cy + R * 0.8);
+        x.lineTo(cx - R * 0.35, cy + R * 0.3);
+        x.quadraticCurveTo(cx - R * 0.5, cy - R * 0.4, cx, cy - R * 0.9);
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.3);
+        x.lineTo(cx, cy + R * 0.5);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy - R * 0.1, R * 0.08, 0, 6.2832);
+        x.fill();
+        artStyle(x, A2, 5);
+        x.beginPath();
+        x.moveTo(cx + R * 0.55, cy + R * 0.5);
+        x.quadraticCurveTo(cx + R * 0.75, cy + R * 0.75, cx + R * 0.55, cy + R * 0.82);
+        x.quadraticCurveTo(cx + R * 0.35, cy + R * 0.75, cx + R * 0.55, cy + R * 0.5);
+        x.stroke();
+      };
+      P.bubbles = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        const bub = (dx, dy, k, tail) => {
+          artStyle(x, A, 6);
+          x.beginPath();
+          if (x.roundRect)
+            x.roundRect(cx + dx * R - R * k, cy + dy * R - R * k * 0.6, R * k * 2, R * k * 1.2, R * 0.15);
+          else x.rect(cx + dx * R - R * k, cy + dy * R - R * k * 0.6, R * k * 2, R * k * 1.2);
+          fillA(x, A, 0.16);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(cx + dx * R + tail * R * k * 0.4, cy + dy * R + R * k * 0.6);
+          x.lineTo(cx + dx * R + tail * R * k * 0.7, cy + dy * R + R * k * 0.95);
+          x.stroke();
+        };
+        bub(-0.25, -0.35, 0.55, 1);
+        bub(0.3, 0.45, 0.45, -1);
+        x.fillStyle = A2;
+        [-0.38, -0.25, -0.12].forEach((dx) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy - R * 0.35, 6 * s, 0, 6.2832);
+          x.fill();
+        });
+        x.fillStyle = A;
+        x.font = "italic 700 " + Math.round(R * 0.32) + "px Georgia, serif";
+        x.textAlign = "center";
+        x.textBaseline = "middle";
+        x.fillText("…", cx + R * 0.3, cy + R * 0.42);
+      };
+      P.bookStack = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        const book = (dy, k, rot) => {
+          x.save();
+          x.translate(cx, cy + dy * R);
+          x.rotate(rot);
+          artStyle(x, A, 6);
+          x.beginPath();
+          if (x.roundRect) x.roundRect(-R * k, -R * 0.14, R * k * 2, R * 0.28, R * 0.05);
+          else x.rect(-R * k, -R * 0.14, R * k * 2, R * 0.28);
+          fillA(x, A, 0.2);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(-R * k + R * 0.18, -R * 0.14);
+          x.lineTo(-R * k + R * 0.18, R * 0.14);
+          x.stroke();
+          x.restore();
+        };
+        book(0.55, 0.85, -0.04);
+        book(0.22, 0.75, 0.05);
+        book(-0.11, 0.65, -0.06);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.1, cy - R * 0.42, R * 0.16, 0, 6.2832);
+        x.fill();
+        artStyle(x, A, 4);
+        x.beginPath();
+        x.moveTo(cx + R * 0.1, cy - R * 0.58);
+        x.quadraticCurveTo(cx + R * 0.2, cy - R * 0.7, cx + R * 0.3, cy - R * 0.68);
+        x.stroke();
+      };
+      P.envelope = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        if (x.roundRect) x.roundRect(cx - R * 0.9, cy - R * 0.55, R * 1.8, R * 1.1, R * 0.08);
+        else x.rect(cx - R * 0.9, cy - R * 0.55, R * 1.8, R * 1.1);
+        fillA(x, A, 0.16);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.9, cy - R * 0.55);
+        x.lineTo(cx, cy + R * 0.15);
+        x.lineTo(cx + R * 0.9, cy - R * 0.55);
+        x.stroke();
+        x.fillStyle = A2;
+        x.fillRect(cx + R * 0.55, cy - R * 0.42, R * 0.22, R * 0.18);
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.6, cy + R * 0.3);
+        x.lineTo(cx - R * 0.1, cy + R * 0.3);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.6, cy + R * 0.45);
+        x.lineTo(cx - R * 0.25, cy + R * 0.45);
+        x.stroke();
+      };
+
+      /* ---- humanities & the world ---- */
+      P.globeWrap = (x, cx, cy, s, A) => {
+        scaled(x, cx, cy, s, () => motifGlobe(x, cx, cy, A));
+      };
+      P.compassRose = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 5);
+        x.beginPath();
+        x.arc(cx, cy, R * 0.95, 0, 6.2832);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy, R * 0.72, 0, 6.2832);
+        x.stroke();
+        for (let i = 0; i < 8; i++) {
+          const a = (i / 8) * 6.2832 - 1.5708;
+          const len = i % 2 === 0 ? R * 0.88 : R * 0.5;
+          const w2 = 0.12;
+          x.beginPath();
+          x.moveTo(cx + Math.cos(a) * len, cy + Math.sin(a) * len);
+          x.lineTo(cx + Math.cos(a + w2) * R * 0.16, cy + Math.sin(a + w2) * R * 0.16);
+          x.lineTo(cx + Math.cos(a - w2) * R * 0.16, cy + Math.sin(a - w2) * R * 0.16);
+          x.closePath();
+          fillA(x, i % 2 === 0 ? A : A2, 0.55);
+          x.stroke();
+        }
+        x.fillStyle = A;
+        x.beginPath();
+        x.arc(cx, cy, R * 0.08, 0, 6.2832);
+        x.fill();
+      };
+      P.globePath = (x, cx, cy, s, A, A2) => {
+        scaled(x, cx, cy, s * 0.9, () => motifGlobe(x, cx, cy, A));
+        artStyle(x, A2, 5);
+        x.setLineDash([10, 9]);
+        x.beginPath();
+        x.moveTo(cx - 230 * s, cy + 120 * s);
+        x.bezierCurveTo(cx - 100 * s, cy - 260 * s, cx + 180 * s, cy - 220 * s, cx + 230 * s, cy - 60 * s);
+        x.stroke();
+        x.setLineDash([]);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + 230 * s, cy - 60 * s, 8 * s, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.arc(cx - 230 * s, cy + 120 * s, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.mapPins = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 5);
+        [0.9, 0.62, 0.36].forEach((k) => {
+          x.beginPath();
+          x.ellipse(cx, cy, R * k, R * k * 0.7, 0.4, 0, 6.2832);
+          x.stroke();
+        });
+        const pin = (dx, dy, k, col) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R - R * 0.3 * k, R * 0.18 * k, 0, 6.2832);
+          fillA(x, col, 0.9);
+          x.beginPath();
+          x.moveTo(cx + dx * R - R * 0.14 * k, cy + dy * R - R * 0.18 * k);
+          x.lineTo(cx + dx * R, cy + dy * R + R * 0.14 * k);
+          x.lineTo(cx + dx * R + R * 0.14 * k, cy + dy * R - R * 0.18 * k);
+          x.closePath();
+          fillA(x, col, 0.9);
+        };
+        pin(-0.35, -0.2, 1, A);
+        pin(0.4, 0.3, 0.75, A2);
+        pin(0.15, -0.5, 0.55, A);
+      };
+      P.balloon = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.95);
+        x.bezierCurveTo(cx + R * 0.75, cy - R * 0.95, cx + R * 0.75, cy - R * 0.05, cx, cy + R * 0.15);
+        x.bezierCurveTo(cx - R * 0.75, cy - R * 0.05, cx - R * 0.75, cy - R * 0.95, cx, cy - R * 0.95);
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.95);
+        x.quadraticCurveTo(cx + R * 0.3, cy - R * 0.4, cx, cy + R * 0.15);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.95);
+        x.quadraticCurveTo(cx - R * 0.3, cy - R * 0.4, cx, cy + R * 0.15);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.15, cy + R * 0.25);
+        x.lineTo(cx - R * 0.22, cy + R * 0.45);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.15, cy + R * 0.25);
+        x.lineTo(cx + R * 0.22, cy + R * 0.45);
+        x.stroke();
+        x.strokeRect(cx - R * 0.25, cy + R * 0.45, R * 0.5, R * 0.3);
+        x.fillStyle = A2;
+        x.fillRect(cx - R * 0.25, cy + R * 0.45, R * 0.5, R * 0.1);
+      };
+      P.telescope = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.save();
+        x.translate(cx, cy - R * 0.25);
+        x.rotate(-0.5);
+        x.strokeRect(-R * 0.75, -R * 0.14, R * 1.3, R * 0.28);
+        x.strokeRect(R * 0.55, -R * 0.2, R * 0.25, R * 0.4);
+        x.fillStyle = A2;
+        x.fillRect(-R * 0.75, -R * 0.14, R * 0.2, R * 0.28);
+        x.restore();
+        x.beginPath();
+        x.moveTo(cx, cy);
+        x.lineTo(cx - R * 0.5, cy + R * 0.85);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy);
+        x.lineTo(cx + R * 0.5, cy + R * 0.85);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy);
+        x.lineTo(cx, cy + R * 0.85);
+        x.stroke();
+        x.fillStyle = A2;
+        [[0.62, -0.85, 6], [0.3, -0.6, 4], [0.75, -0.45, 4]].forEach(([dx, dy, rr]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, rr * s, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.planePath = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.7, cy + R * 0.4);
+        x.lineTo(cx + R * 0.75, cy - R * 0.55);
+        x.lineTo(cx + R * 0.15, cy + R * 0.6);
+        x.lineTo(cx - R * 0.05, cy + R * 0.15);
+        x.closePath();
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.05, cy + R * 0.15);
+        x.lineTo(cx + R * 0.75, cy - R * 0.55);
+        x.stroke();
+        x.setLineDash([9, 10]);
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.85, cy - R * 0.6);
+        x.bezierCurveTo(cx - R * 0.2, cy - R * 1.0, cx + R * 0.4, cy - R * 0.2, cx - R * 0.1, cy + R * 0.05);
+        x.stroke();
+        x.setLineDash([]);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.85, cy - R * 0.6, 7 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.column = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.strokeRect(cx - R * 0.55, cy - R * 0.85, R * 1.1, R * 0.18);
+        x.beginPath();
+        x.moveTo(cx - R * 0.38, cy - R * 0.67);
+        x.lineTo(cx - R * 0.45, cy + R * 0.5);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.38, cy - R * 0.67);
+        x.lineTo(cx + R * 0.45, cy + R * 0.5);
+        x.stroke();
+        x.lineWidth = 4;
+        [-0.15, 0, 0.15].forEach((dx) => {
+          x.beginPath();
+          x.moveTo(cx + dx * R, cy - R * 0.67);
+          x.lineTo(cx + dx * R * 1.15, cy + R * 0.5);
+          x.stroke();
+        });
+        artStyle(x, A, 6);
+        x.strokeRect(cx - R * 0.55, cy + R * 0.5, R * 1.1, R * 0.16);
+        x.beginPath();
+        x.moveTo(cx - R * 0.7, cy + R * 0.78);
+        x.lineTo(cx + R * 0.7, cy + R * 0.78);
+        x.stroke();
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx + R * 0.2, cy - R * 0.85);
+        x.lineTo(cx + R * 0.32, cy - R * 0.72);
+        x.lineTo(cx + R * 0.22, cy - R * 0.6);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.35, cy - R * 0.76, 6 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.pyramidSun = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.85, cy + R * 0.55);
+        x.lineTo(cx - R * 0.25, cy - R * 0.35);
+        x.lineTo(cx + R * 0.35, cy + R * 0.55);
+        x.closePath();
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.1, cy + R * 0.55);
+        x.lineTo(cx + R * 0.45, cy - R * 0.05);
+        x.lineTo(cx + R * 0.9, cy + R * 0.55);
+        x.closePath();
+        fillA(x, A, 0.3);
+        x.stroke();
+        x.lineWidth = 3;
+        [-0.05, 0.15, 0.35].forEach((dy) => {
+          x.beginPath();
+          x.moveTo(cx - R * 0.62, cy + (0.55 + dy) * R);
+          x.lineTo(cx + R * 0.12, cy + (0.55 + dy) * R);
+          x.stroke();
+        });
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.45, cy - R * 0.6, R * 0.16, 0, 6.2832);
+        x.fill();
+        artStyle(x, A2, 4);
+        for (let i = 0; i < 8; i++) {
+          const a = (i / 8) * 6.2832;
+          x.beginPath();
+          x.moveTo(cx + R * 0.45 + Math.cos(a) * R * 0.22, cy - R * 0.6 + Math.sin(a) * R * 0.22);
+          x.lineTo(cx + R * 0.45 + Math.cos(a) * R * 0.3, cy - R * 0.6 + Math.sin(a) * R * 0.3);
+          x.stroke();
+        }
+      };
+      P.scroll = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.55, cy - R * 0.7);
+        x.lineTo(cx + R * 0.55, cy - R * 0.7);
+        x.quadraticCurveTo(cx + R * 0.4, cy, cx + R * 0.55, cy + R * 0.7);
+        x.lineTo(cx - R * 0.55, cy + R * 0.7);
+        x.quadraticCurveTo(cx - R * 0.4, cy, cx - R * 0.55, cy - R * 0.7);
+        x.closePath();
+        fillA(x, A, 0.15);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx - R * 0.55, cy - R * 0.7, R * 0.12, 0, 6.2832);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx + R * 0.55, cy + R * 0.7, R * 0.12, 0, 6.2832);
+        x.stroke();
+        x.lineWidth = 4;
+        for (let i = 0; i < 4; i++) {
+          x.beginPath();
+          x.moveTo(cx - R * 0.32, cy - R * 0.4 + i * R * 0.26);
+          x.lineTo(cx + R * 0.32, cy - R * 0.4 + i * R * 0.26);
+          x.stroke();
+        }
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.25, cy + R * 0.45, R * 0.1, 0, 6.2832);
+        x.fill();
+      };
+
+      /* ---- computing ---- */
+      P.robot = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        if (x.roundRect) x.roundRect(cx - R * 0.6, cy - R * 0.45, R * 1.2, R * 0.95, R * 0.18);
+        else x.rect(cx - R * 0.6, cy - R * 0.45, R * 1.2, R * 0.95);
+        fillA(x, A, 0.18);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.25, cy - R * 0.05, R * 0.1, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.arc(cx + R * 0.25, cy - R * 0.05, R * 0.1, 0, 6.2832);
+        x.fill();
+        x.lineWidth = 4;
+        for (let i = -2; i <= 2; i++) {
+          x.beginPath();
+          x.moveTo(cx + i * R * 0.12, cy + R * 0.2);
+          x.lineTo(cx + i * R * 0.12, cy + R * 0.32);
+          x.stroke();
+        }
+        artStyle(x, A, 5);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.45);
+        x.lineTo(cx, cy - R * 0.8);
+        x.stroke();
+        x.fillStyle = A;
+        x.beginPath();
+        x.arc(cx, cy - R * 0.88, R * 0.09, 0, 6.2832);
+        x.fill();
+        x.strokeRect(cx - R * 0.78, cy - R * 0.12, R * 0.18, R * 0.3);
+        x.strokeRect(cx + R * 0.6, cy - R * 0.12, R * 0.18, R * 0.3);
+      };
+      P.chip = (x, cx, cy, s, A, A2) => {
+        scaled(x, cx, cy, s, () => motifChip(x, cx, cy, A));
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy, 9 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.brackets = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 10);
+        x.beginPath();
+        x.moveTo(cx - R * 0.25, cy - R * 0.5);
+        x.lineTo(cx - R * 0.7, cy);
+        x.lineTo(cx - R * 0.25, cy + R * 0.5);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.25, cy - R * 0.5);
+        x.lineTo(cx + R * 0.7, cy);
+        x.lineTo(cx + R * 0.25, cy + R * 0.5);
+        x.stroke();
+        artStyle(x, A2, 8);
+        x.beginPath();
+        x.moveTo(cx + R * 0.08, cy - R * 0.62);
+        x.lineTo(cx - R * 0.08, cy + R * 0.62);
+        x.stroke();
+      };
+      P.rocket = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.95);
+        x.bezierCurveTo(cx + R * 0.45, cy - R * 0.5, cx + R * 0.42, cy + R * 0.1, cx + R * 0.42, cy + R * 0.35);
+        x.lineTo(cx - R * 0.42, cy + R * 0.35);
+        x.bezierCurveTo(cx - R * 0.42, cy + R * 0.1, cx - R * 0.45, cy - R * 0.5, cx, cy - R * 0.95);
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy - R * 0.25, R * 0.16, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy - R * 0.25, R * 0.07, 0, 6.2832);
+        x.fill();
+        artStyle(x, A, 7);
+        [[-1], [1]].forEach(([sd]) => {
+          x.beginPath();
+          x.moveTo(cx + sd * R * 0.42, cy + R * 0.05);
+          x.quadraticCurveTo(cx + sd * R * 0.75, cy + R * 0.3, cx + sd * R * 0.6, cy + R * 0.62);
+          x.lineTo(cx + sd * R * 0.42, cy + R * 0.35);
+          x.closePath();
+          fillA(x, A, 0.3);
+          x.stroke();
+        });
+        artStyle(x, A2, 5);
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.45);
+        x.quadraticCurveTo(cx - R * 0.1, cy + R * 0.65, cx, cy + R * 0.85);
+        x.stroke();
+      };
+      P.gear = (x, cx, cy, s, A, A2) => {
+        const R = 155 * s;
+        artStyle(x, A, 7);
+        for (let i = 0; i < 8; i++) {
+          const a = (i / 8) * 6.2832;
+          x.save();
+          x.translate(cx, cy);
+          x.rotate(a);
+          x.strokeRect(-R * 0.12, -R * 1.05, R * 0.24, R * 0.3);
+          x.restore();
+        }
+        x.beginPath();
+        x.arc(cx, cy, R * 0.78, 0, 6.2832);
+        fillA(x, A, 0.18);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy, R * 0.34, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy, R * 0.12, 0, 6.2832);
+        x.fill();
+      };
+      P.cursor = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx - R * 0.4, cy - R * 0.85);
+        x.lineTo(cx + R * 0.55, cy + R * 0.05);
+        x.lineTo(cx + R * 0.1, cy + R * 0.12);
+        x.lineTo(cx + R * 0.32, cy + R * 0.62);
+        x.lineTo(cx + R * 0.1, cy + R * 0.72);
+        x.lineTo(cx - R * 0.12, cy + R * 0.22);
+        x.lineTo(cx - R * 0.42, cy + R * 0.5);
+        x.closePath();
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.lineWidth = 4;
+        x.beginPath();
+        x.arc(cx + R * 0.55, cy - R * 0.35, R * 0.16, 0, 6.2832);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx + R * 0.55, cy - R * 0.35, R * 0.3, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.55, cy - R * 0.35, R * 0.06, 0, 6.2832);
+        x.fill();
+      };
+
+      /* ---- art & crafts ---- */
+      P.palette = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.ellipse(cx, cy, R * 0.95, R * 0.75, -0.25, 0, 6.2832);
+        fillA(x, A, 0.16);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx + R * 0.45, cy + R * 0.3, R * 0.13, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A2;
+        [[-0.5, -0.3], [-0.05, -0.45], [0.42, -0.25], [-0.55, 0.2], [-0.1, 0.4]].forEach(([dx, dy], i) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, (10 + (i % 2) * 4) * s, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.brushPencil = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        x.save();
+        x.translate(cx, cy);
+        x.rotate(-0.5);
+        artStyle(x, A, 7);
+        x.strokeRect(-R * 0.14, -R * 0.9, R * 0.28, R * 1.1);
+        x.beginPath();
+        x.moveTo(-R * 0.14, R * 0.2);
+        x.lineTo(0, R * 0.55);
+        x.lineTo(R * 0.14, R * 0.2);
+        x.closePath();
+        fillA(x, A, 0.3);
+        x.stroke();
+        x.restore();
+        x.save();
+        x.translate(cx, cy);
+        x.rotate(0.55);
+        artStyle(x, A, 7);
+        x.strokeRect(-R * 0.09, -R * 0.6, R * 0.18, R * 1.1);
+        x.beginPath();
+        x.moveTo(-R * 0.09, -R * 0.6);
+        x.quadraticCurveTo(0, -R * 1.0, R * 0.09, -R * 0.6);
+        fillA(x, A2, 0.5);
+        x.stroke();
+        x.restore();
+      };
+      P.easel = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.5, cy + R * 0.9);
+        x.lineTo(cx - R * 0.2, cy - R * 0.6);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.5, cy + R * 0.9);
+        x.lineTo(cx + R * 0.2, cy - R * 0.6);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.9);
+        x.lineTo(cx, cy - R * 0.7);
+        x.stroke();
+        x.strokeRect(cx - R * 0.62, cy - R * 0.85, R * 1.24, R * 0.95);
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.62, cy - R * 0.1);
+        x.lineTo(cx - R * 0.2, cy - R * 0.45);
+        x.lineTo(cx + R * 0.15, cy - R * 0.1);
+        x.lineTo(cx + R * 0.4, cy - R * 0.32);
+        x.lineTo(cx + R * 0.62, cy - R * 0.12);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.35, cy - R * 0.62, R * 0.1, 0, 6.2832);
+        x.fill();
+      };
+      P.colorWheel = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx, cy, R * 0.9, 0, 6.2832);
+        x.stroke();
+        for (let i = 0; i < 6; i++) {
+          const a = (i / 6) * 6.2832;
+          x.beginPath();
+          x.moveTo(cx, cy);
+          x.arc(cx, cy, R * 0.62, a, a + 1.0472);
+          x.closePath();
+          fillA(x, i % 2 ? A2 : A, 0.3);
+          x.stroke();
+        }
+        x.beginPath();
+        x.arc(cx, cy, R * 0.2, 0, 6.2832);
+        x.stroke();
+      };
+      P.shapes = (x, cx, cy, s, A, A2) => {
+        const R = 150 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.arc(cx - R * 0.4, cy - R * 0.25, R * 0.42, 0, 6.2832);
+        fillA(x, A, 0.18);
+        x.stroke();
+        x.strokeRect(cx + R * 0.05, cy - R * 0.02, R * 0.7, R * 0.7);
+        x.beginPath();
+        x.moveTo(cx - R * 0.75, cy + R * 0.7);
+        x.lineTo(cx - R * 0.35, cy - R * 0.02);
+        x.lineTo(cx + R * 0.02, cy + R * 0.7);
+        x.closePath();
+        fillA(x, A2, 0.3);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.4, cy - R * 0.5, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.frameScene = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 7);
+        x.strokeRect(cx - R * 0.85, cy - R * 0.7, R * 1.7, R * 1.4);
+        x.lineWidth = 4;
+        x.strokeRect(cx - R * 0.68, cy - R * 0.53, R * 1.36, R * 1.06);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.32, cy - R * 0.2, R * 0.14, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.moveTo(cx - R * 0.68, cy + R * 0.3);
+        x.quadraticCurveTo(cx - R * 0.2, cy - R * 0.05, cx + R * 0.1, cy + R * 0.28);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.1, cy + R * 0.28);
+        x.quadraticCurveTo(cx + R * 0.4, cy + R * 0.05, cx + R * 0.68, cy + R * 0.3);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.28, cy - R * 0.3);
+        x.quadraticCurveTo(cx + R * 0.36, cy - R * 0.4, cx + R * 0.44, cy - R * 0.3);
+        x.stroke();
+      };
+      P.scissorsPaper = (x, cx, cy, s, A, A2) => {
+        scaled(x, cx, cy, s, () => motifCraft(x, cx, cy, A));
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + 170 * s, cy + 150 * s, 9 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.spool = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.ellipse(cx, cy - R * 0.5, R * 0.5, R * 0.16, 0, 0, 6.2832);
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.beginPath();
+        x.ellipse(cx, cy + R * 0.5, R * 0.5, R * 0.16, 0, 0, 6.2832);
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.5, cy - R * 0.5);
+        x.lineTo(cx - R * 0.5, cy + R * 0.5);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.5, cy - R * 0.5);
+        x.lineTo(cx + R * 0.5, cy + R * 0.5);
+        x.stroke();
+        x.lineWidth = 4;
+        for (let i = -2; i <= 2; i++) {
+          x.beginPath();
+          x.moveTo(cx - R * 0.48, cy + i * R * 0.16);
+          x.lineTo(cx + R * 0.48, cy + i * R * 0.16 - R * 0.08);
+          x.stroke();
+        }
+        x.beginPath();
+        x.moveTo(cx + R * 0.5, cy + R * 0.3);
+        x.bezierCurveTo(cx + R * 0.9, cy + R * 0.5, cx + R * 0.7, cy + R * 0.9, cx + R * 0.35, cy + R * 0.8);
+        x.stroke();
+        artStyle(x, A2, 5);
+        x.beginPath();
+        x.moveTo(cx + R * 0.3, cy + R * 0.68);
+        x.lineTo(cx + R * 0.12, cy + R * 0.95);
+        x.stroke();
+      };
+      P.boat = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx - R * 0.85, cy + R * 0.15);
+        x.lineTo(cx + R * 0.85, cy + R * 0.15);
+        x.lineTo(cx + R * 0.5, cy + R * 0.6);
+        x.lineTo(cx - R * 0.5, cy + R * 0.6);
+        x.closePath();
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.15);
+        x.lineTo(cx, cy - R * 0.85);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.85);
+        x.lineTo(cx - R * 0.55, cy - R * 0.05);
+        x.lineTo(cx, cy - R * 0.05);
+        x.closePath();
+        fillA(x, A2, 0.4);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.7);
+        x.lineTo(cx + R * 0.45, cy - R * 0.05);
+        x.lineTo(cx, cy - R * 0.05);
+        x.closePath();
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.lineWidth = 4;
+        [-0.6, 0, 0.6].forEach((dx) => {
+          x.beginPath();
+          x.moveTo(cx + dx * R - R * 0.18, cy + R * 0.82);
+          x.quadraticCurveTo(cx + dx * R, cy + R * 0.68, cx + dx * R + R * 0.18, cy + R * 0.82);
+          x.stroke();
+        });
+      };
+      P.heart = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.75);
+        x.bezierCurveTo(cx - R * 1.05, cy + R * 0.05, cx - R * 0.75, cy - R * 0.75, cx, cy - R * 0.25);
+        x.bezierCurveTo(cx + R * 0.75, cy - R * 0.75, cx + R * 1.05, cy + R * 0.05, cx, cy + R * 0.75);
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.setLineDash([8, 8]);
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.5);
+        x.bezierCurveTo(cx - R * 0.72, cy + R * 0.02, cx - R * 0.5, cy - R * 0.5, cx, cy - R * 0.12);
+        x.bezierCurveTo(cx + R * 0.5, cy - R * 0.5, cx + R * 0.72, cy + R * 0.02, cx, cy + R * 0.5);
+        x.stroke();
+        x.setLineDash([]);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy + R * 0.1, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.crane = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.7, cy + R * 0.1);
+        x.lineTo(cx - R * 0.1, cy - R * 0.15);
+        x.lineTo(cx + R * 0.15, cy + R * 0.45);
+        x.closePath();
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.1, cy - R * 0.15);
+        x.lineTo(cx + R * 0.35, cy - R * 0.75);
+        x.lineTo(cx + R * 0.45, cy + R * 0.05);
+        x.lineTo(cx + R * 0.15, cy + R * 0.45);
+        x.closePath();
+        fillA(x, A2, 0.35);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.45, cy + R * 0.05);
+        x.lineTo(cx + R * 0.8, cy - R * 0.45);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.8, cy - R * 0.45);
+        x.lineTo(cx + R * 0.95, cy - R * 0.3);
+        x.stroke();
+      };
+      P.button = (x, cx, cy, s, A, A2) => {
+        const R = 155 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.arc(cx, cy, R * 0.85, 0, 6.2832);
+        fillA(x, A, 0.18);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy, R * 0.6, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A2;
+        [[-0.2, -0.2], [0.2, -0.2], [-0.2, 0.2], [0.2, 0.2]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.arc(cx + dx * R, cy + dy * R, R * 0.08, 0, 6.2832);
+          x.fill();
+        });
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.2, cy - R * 0.2);
+        x.lineTo(cx + R * 0.2, cy + R * 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.2, cy - R * 0.2);
+        x.lineTo(cx - R * 0.2, cy + R * 0.2);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.6, cy - R * 0.6);
+        x.bezierCurveTo(cx + R * 1.1, cy - R * 0.9, cx + R * 1.2, cy - R * 0.3, cx + R * 0.9, cy - R * 0.1);
+        x.stroke();
+      };
+
+      /* ---- music & drama ---- */
+      P.notes = (x, cx, cy, s, A, A2) => {
+        scaled(x, cx, cy, s, () => motifNote(x, cx, cy, A));
+        x.fillStyle = A2;
+        x.beginPath();
+        x.ellipse(cx - 95 * s, cy + 115 * s, 30 * s, 20 * s, -0.3, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.ellipse(cx + 95 * s, cy + 75 * s, 30 * s, 20 * s, -0.3, 0, 6.2832);
+        x.fill();
+      };
+      P.masks = (x, cx, cy, s, A, A2) => {
+        const R = 155 * s;
+        const mask = (dx, dy, rot, smile) => {
+          x.save();
+          x.translate(cx + dx * R, cy + dy * R);
+          x.rotate(rot);
+          artStyle(x, A, 6);
+          x.beginPath();
+          x.moveTo(0, -R * 0.5);
+          x.bezierCurveTo(R * 0.5, -R * 0.5, R * 0.42, R * 0.3, 0, R * 0.55);
+          x.bezierCurveTo(-R * 0.42, R * 0.3, -R * 0.5, -R * 0.5, 0, -R * 0.5);
+          fillA(x, A, 0.2);
+          x.stroke();
+          x.fillStyle = A2;
+          x.beginPath();
+          x.ellipse(-R * 0.17, -R * 0.08, R * 0.08, R * 0.05, 0, 0, 6.2832);
+          x.fill();
+          x.beginPath();
+          x.ellipse(R * 0.17, -R * 0.08, R * 0.08, R * 0.05, 0, 0, 6.2832);
+          x.fill();
+          artStyle(x, A2, 4);
+          x.beginPath();
+          if (smile) x.arc(0, R * 0.08, R * 0.18, 0.4, 2.7);
+          else x.arc(0, R * 0.42, R * 0.18, 3.6, 5.9);
+          x.stroke();
+          x.restore();
+        };
+        mask(-0.32, -0.1, -0.18, true);
+        mask(0.35, 0.15, 0.18, false);
+      };
+      P.mic = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.ellipse(cx, cy - R * 0.35, R * 0.3, R * 0.45, 0, 0, 6.2832);
+        fillA(x, A, 0.22);
+        x.stroke();
+        x.lineWidth = 3;
+        [-0.55, -0.35, -0.15].forEach((dy) => {
+          x.beginPath();
+          x.moveTo(cx - R * 0.28, cy + dy * R);
+          x.lineTo(cx + R * 0.28, cy + dy * R);
+          x.stroke();
+        });
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx, cy - R * 0.15, R * 0.5, 0.3, 2.84);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.35);
+        x.lineTo(cx, cy + R * 0.75);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.4, cy + R * 0.75);
+        x.lineTo(cx + R * 0.4, cy + R * 0.75);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.55, cy - R * 0.6, 7 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.drum = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.ellipse(cx, cy - R * 0.2, R * 0.7, R * 0.22, 0, 0, 6.2832);
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.7, cy - R * 0.2);
+        x.lineTo(cx - R * 0.7, cy + R * 0.4);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.7, cy - R * 0.2);
+        x.lineTo(cx + R * 0.7, cy + R * 0.4);
+        x.stroke();
+        x.beginPath();
+        x.ellipse(cx, cy + R * 0.4, R * 0.7, R * 0.22, 0, 0, 3.1416);
+        x.stroke();
+        x.lineWidth = 4;
+        x.beginPath();
+        for (let i = 0; i < 6; i++) {
+          const xx = cx - R * 0.6 + i * R * 0.24;
+          i === 0 ? x.moveTo(xx, cy + R * 0.02) : x.lineTo(xx, cy + (i % 2 ? -0.02 : 0.18) * R);
+        }
+        x.stroke();
+        artStyle(x, A2, 5);
+        x.beginPath();
+        x.moveTo(cx - R * 0.4, cy - R * 0.85);
+        x.lineTo(cx - R * 0.1, cy - R * 0.3);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.4, cy - R * 0.85);
+        x.lineTo(cx + R * 0.1, cy - R * 0.3);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.42, cy - R * 0.88, 7 * s, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.arc(cx + R * 0.42, cy - R * 0.88, 7 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.spotlight = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.25, cy - R * 0.6);
+        x.lineTo(cx + R * 0.25, cy - R * 0.6);
+        x.lineTo(cx + R * 0.75, cy + R * 0.8);
+        x.lineTo(cx - R * 0.75, cy + R * 0.8);
+        x.closePath();
+        fillA(x, A, 0.14);
+        x.stroke();
+        x.save();
+        x.translate(cx, cy - R * 0.72);
+        x.beginPath();
+        x.arc(0, 0, R * 0.22, 0, 6.2832);
+        fillA(x, A2, 0.5);
+        x.stroke();
+        x.restore();
+        x.beginPath();
+        x.moveTo(cx - R * 0.9, cy + R * 0.8);
+        x.lineTo(cx + R * 0.9, cy + R * 0.8);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.18);
+        x.lineTo(cx + R * 0.09, cy + R * 0.42);
+        x.lineTo(cx - R * 0.09, cy + R * 0.42);
+        x.closePath();
+        x.fill();
+      };
+      P.guitar = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx - R * 0.05, cy + R * 0.35, R * 0.5, 0, 6.2832);
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx + R * 0.12, cy - R * 0.15, R * 0.38, 0, 6.2832);
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy + R * 0.15, R * 0.13, 0, 6.2832);
+        x.fill();
+        artStyle(x, A, 6);
+        x.strokeRect(cx + R * 0.3, cy - R * 0.75, R * 0.16, R * 0.75);
+        x.save();
+        x.translate(cx + R * 0.38, cy - R * 0.82);
+        x.rotate(0.3);
+        x.strokeRect(-R * 0.09, -R * 0.16, R * 0.18, R * 0.22);
+        x.restore();
+        x.lineWidth = 2.5;
+        [-0.04, 0.02, 0.08].forEach((dx) => {
+          x.beginPath();
+          x.moveTo(cx + (0.3 + dx) * R, cy - R * 0.75);
+          x.lineTo(cx + dx * R, cy + R * 0.55);
+          x.stroke();
+        });
+      };
+
+      /* ---- PE ---- */
+      P.whistle = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx - R * 0.85, cy - R * 0.25);
+        x.lineTo(cx + R * 0.15, cy - R * 0.25);
+        x.quadraticCurveTo(cx + R * 0.7, cy - R * 0.25, cx + R * 0.7, cy + R * 0.2);
+        x.quadraticCurveTo(cx + R * 0.7, cy + R * 0.65, cx + R * 0.1, cy + R * 0.65);
+        x.quadraticCurveTo(cx - R * 0.5, cy + R * 0.65, cx - R * 0.5, cy + R * 0.2);
+        x.lineTo(cx - R * 0.85, cy + R * 0.05);
+        x.closePath();
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.1, cy + R * 0.2, R * 0.12, 0, 6.2832);
+        x.fill();
+        artStyle(x, A, 5);
+        [[0.5, -0.6], [0.75, -0.35], [0.95, -0.05]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.moveTo(cx + dx * R, cy + dy * R);
+          x.lineTo(cx + (dx + 0.12) * R, cy + (dy - 0.12) * R);
+          x.stroke();
+        });
+      };
+      P.stopwatch = (x, cx, cy, s, A, A2) => {
+        const R = 155 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx, cy + R * 0.1, R * 0.72, 0, 6.2832);
+        fillA(x, A, 0.15);
+        x.stroke();
+        x.strokeRect(cx - R * 0.1, cy - R * 0.82, R * 0.2, R * 0.16);
+        x.beginPath();
+        x.moveTo(cx + R * 0.5, cy - R * 0.55);
+        x.lineTo(cx + R * 0.68, cy - R * 0.7);
+        x.stroke();
+        x.lineWidth = 4;
+        for (let i = 0; i < 12; i++) {
+          const a = (i / 12) * 6.2832;
+          x.beginPath();
+          x.moveTo(cx + Math.cos(a) * R * 0.6, cy + R * 0.1 + Math.sin(a) * R * 0.6);
+          x.lineTo(cx + Math.cos(a) * R * 0.5, cy + R * 0.1 + Math.sin(a) * R * 0.5);
+          x.stroke();
+        }
+        artStyle(x, A2, 5);
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.1);
+        x.lineTo(cx + R * 0.3, cy - R * 0.3);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx, cy + R * 0.1, 7 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.medal = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.3, cy - R * 0.9);
+        x.lineTo(cx - R * 0.1, cy - R * 0.2);
+        x.lineTo(cx, cy - R * 0.35);
+        x.lineTo(cx + R * 0.1, cy - R * 0.2);
+        x.lineTo(cx + R * 0.3, cy - R * 0.9);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy + R * 0.15, R * 0.5, 0, 6.2832);
+        fillA(x, A, 0.25);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy + R * 0.15, R * 0.36, 0, 6.2832);
+        x.stroke();
+        x.fillStyle = A2;
+        x.font = "800 " + Math.round(R * 0.5) + "px Georgia, serif";
+        x.textAlign = "center";
+        x.textBaseline = "middle";
+        x.fillText("1", cx, cy + R * 0.17);
+      };
+      P.ball = (x, cx, cy, s, A, A2) => {
+        const R = 155 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx, cy, R * 0.8, 0, 6.2832);
+        fillA(x, A, 0.15);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.8, cy);
+        x.lineTo(cx + R * 0.8, cy);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy - R * 0.8);
+        x.lineTo(cx, cy + R * 0.8);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx - R * 1.05, cy, R * 0.75, -0.9, 0.9);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx + R * 1.05, cy, R * 0.75, 2.24, 4.04);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx + R * 0.3, cy - R * 0.35, 8 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.shuttle = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.arc(cx, cy + R * 0.55, R * 0.28, 3.1416, 0);
+        x.closePath();
+        fillA(x, A2, 0.5);
+        x.stroke();
+        [-0.55, -0.28, 0, 0.28, 0.55].forEach((dx) => {
+          x.beginPath();
+          x.moveTo(cx + dx * R * 0.5, cy + R * 0.45);
+          x.lineTo(cx + dx * R, cy - R * 0.75);
+          x.stroke();
+        });
+        x.beginPath();
+        x.moveTo(cx - R * 0.62, cy - R * 0.45);
+        x.quadraticCurveTo(cx, cy - R * 0.15, cx + R * 0.62, cy - R * 0.45);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.75, cy - R * 0.72);
+        x.quadraticCurveTo(cx, cy - R * 0.4, cx + R * 0.75, cy - R * 0.72);
+        x.stroke();
+      };
+      P.bolt = (x, cx, cy, s, A) => {
+        scaled(x, cx, cy, s, () => motifBolt(x, cx, cy, A));
+      };
+
+      /* ---- portuguese & spanish ---- */
+      P.azulejo4 = (x, cx, cy, s, A, A2) => {
+        const R = 150 * s;
+        artStyle(x, A, 5);
+        const k = R * 0.72;
+        [[-1, -1], [1, -1], [-1, 1], [1, 1]].forEach(([sx, sy]) => {
+          const tx = cx + sx * k * 0.55,
+            ty = cy + sy * k * 0.55;
+          x.strokeRect(tx - k * 0.5, ty - k * 0.5, k, k);
+          x.beginPath();
+          x.arc(tx, ty, k * 0.28, 0, 6.2832);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(tx - k * 0.28, ty);
+          x.lineTo(tx + k * 0.28, ty);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(tx, ty - k * 0.28);
+          x.lineTo(tx, ty + k * 0.28);
+          x.stroke();
+          x.fillStyle = A2;
+          x.beginPath();
+          x.arc(tx, ty, k * 0.08, 0, 6.2832);
+          x.fill();
+        });
+      };
+      P.rooster = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.5, cy + R * 0.5);
+        x.bezierCurveTo(cx - R * 0.75, cy - R * 0.1, cx - R * 0.3, cy - R * 0.35, cx + R * 0.05, cy - R * 0.2);
+        x.bezierCurveTo(cx + R * 0.35, cy - R * 0.05, cx + R * 0.4, cy + R * 0.3, cx + R * 0.2, cy + R * 0.5);
+        x.closePath();
+        fillA(x, A, 0.22);
+        x.stroke();
+        [-0.15, 0.1, 0.35].forEach((dy) => {
+          x.beginPath();
+          x.moveTo(cx + R * 0.2, cy + R * 0.35);
+          x.quadraticCurveTo(cx + R * 0.85, cy + dy * R, cx + R * 0.95, cy + (dy - 0.25) * R);
+          x.stroke();
+        });
+        x.beginPath();
+        x.moveTo(cx - R * 0.45, cy + R * 0.1);
+        x.quadraticCurveTo(cx - R * 0.7, cy - R * 0.45, cx - R * 0.5, cy - R * 0.62);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.47, cy - R * 0.66, R * 0.1, 0, 6.2832);
+        x.fill();
+        [-0.14, 0, 0.14].forEach((dx) => {
+          x.beginPath();
+          x.arc(cx - R * 0.47 + dx * R, cy - R * 0.78, R * 0.06, 0, 6.2832);
+          x.fill();
+        });
+        artStyle(x, A, 5);
+        x.beginPath();
+        x.moveTo(cx - R * 0.58, cy - R * 0.66);
+        x.lineTo(cx - R * 0.72, cy - R * 0.6);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx - R * 0.15, cy + R * 0.5);
+        x.lineTo(cx - R * 0.15, cy + R * 0.85);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx + R * 0.1, cy + R * 0.5);
+        x.lineTo(cx + R * 0.1, cy + R * 0.85);
+        x.stroke();
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.1, cy + R * 0.18, R * 0.09, 0, 6.2832);
+        x.fill();
+      };
+      P.caravel = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx - R * 0.8, cy + R * 0.25);
+        x.quadraticCurveTo(cx - R * 0.85, cy - R * 0.1, cx - R * 0.6, cy - R * 0.15);
+        x.lineTo(cx + R * 0.7, cy - R * 0.05);
+        x.quadraticCurveTo(cx + R * 0.8, cy + R * 0.35, cx + R * 0.4, cy + R * 0.5);
+        x.lineTo(cx - R * 0.5, cy + R * 0.5);
+        x.closePath();
+        fillA(x, A, 0.22);
+        x.stroke();
+        [-0.25, 0.3].forEach((dx) => {
+          x.beginPath();
+          x.moveTo(cx + dx * R, cy - R * 0.1);
+          x.lineTo(cx + dx * R, cy - R * 0.85);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(cx + dx * R - R * 0.2, cy - R * 0.75);
+          x.quadraticCurveTo(cx + dx * R, cy - R * 0.5, cx + dx * R + R * 0.2, cy - R * 0.75);
+          x.lineTo(cx + dx * R + R * 0.2, cy - R * 0.35);
+          x.quadraticCurveTo(cx + dx * R, cy - R * 0.2, cx + dx * R - R * 0.2, cy - R * 0.35);
+          x.closePath();
+          fillA(x, A2, 0.35);
+          x.stroke();
+        });
+        x.lineWidth = 4;
+        x.beginPath();
+        x.moveTo(cx - R * 0.9, cy + R * 0.75);
+        x.quadraticCurveTo(cx - R * 0.45, cy + R * 0.6, cx, cy + R * 0.75);
+        x.stroke();
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.75);
+        x.quadraticCurveTo(cx + R * 0.45, cy + R * 0.6, cx + R * 0.9, cy + R * 0.75);
+        x.stroke();
+      };
+      P.heartViana = (x, cx, cy, s, A, A2) => {
+        const R = 150 * s;
+        artStyle(x, A, 6);
+        x.beginPath();
+        x.moveTo(cx, cy + R * 0.7);
+        x.bezierCurveTo(cx - R, cy, cx - R * 0.7, cy - R * 0.7, cx, cy - R * 0.2);
+        x.bezierCurveTo(cx + R * 0.7, cy - R * 0.7, cx + R, cy, cx, cy + R * 0.7);
+        fillA(x, A, 0.2);
+        x.stroke();
+        x.fillStyle = A2;
+        for (let i = 0; i < 10; i++) {
+          const a = (i / 10) * 6.2832;
+          x.beginPath();
+          x.arc(cx + Math.cos(a) * R * 0.95, cy + Math.sin(a) * R * 0.9, 5 * s, 0, 6.2832);
+          x.fill();
+        }
+        x.lineWidth = 4;
+        x.beginPath();
+        x.arc(cx, cy + R * 0.1, R * 0.25, 0.5, 5.5);
+        x.stroke();
+        x.beginPath();
+        x.arc(cx, cy + R * 0.1, R * 0.12, 2, 6.8);
+        x.stroke();
+      };
+      P.bookAa = (x, cx, cy, s, A, A2) => {
+        scaled(x, cx, cy, s * 0.85, () => motifBook(x, cx, cy, A));
+        x.fillStyle = A2;
+        x.font = "italic 700 " + Math.round(64 * s) + "px Georgia, serif";
+        x.textAlign = "center";
+        x.textBaseline = "middle";
+        x.fillText("Aa", cx, cy - 165 * s);
+      };
+      P.fan = (x, cx, cy, s, A, A2) => {
+        const R = 165 * s;
+        artStyle(x, A, 5);
+        const ox = cx,
+          oy = cy + R * 0.7;
+        for (let i = 0; i <= 6; i++) {
+          const a = -1.5708 + (i / 6 - 0.5) * 1.9;
+          x.beginPath();
+          x.moveTo(ox, oy);
+          x.lineTo(ox + Math.cos(a) * R * 1.35, oy + Math.sin(a) * R * 1.35);
+          x.stroke();
+        }
+        [0.9, 1.15].forEach((k) => {
+          x.beginPath();
+          x.arc(ox, oy, R * k, -1.5708 - 0.95, -1.5708 + 0.95);
+          x.stroke();
+        });
+        x.beginPath();
+        x.moveTo(ox, oy);
+        x.arc(ox, oy, R * 1.35, -1.5708 - 0.95, -1.5708 + 0.95);
+        x.closePath();
+        fillA(x, A, 0.1);
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(ox, oy, R * 0.08, 0, 6.2832);
+        x.fill();
+      };
+      P.bull = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        artStyle(x, A, 7);
+        x.beginPath();
+        x.moveTo(cx - R * 0.5, cy - R * 0.1);
+        x.bezierCurveTo(cx - R * 0.55, cy + R * 0.5, cx - R * 0.25, cy + R * 0.75, cx, cy + R * 0.75);
+        x.bezierCurveTo(cx + R * 0.25, cy + R * 0.75, cx + R * 0.55, cy + R * 0.5, cx + R * 0.5, cy - R * 0.1);
+        x.bezierCurveTo(cx + R * 0.45, cy - R * 0.5, cx + R * 0.2, cy - R * 0.55, cx, cy - R * 0.5);
+        x.bezierCurveTo(cx - R * 0.2, cy - R * 0.55, cx - R * 0.45, cy - R * 0.5, cx - R * 0.5, cy - R * 0.1);
+        fillA(x, A, 0.22);
+        x.stroke();
+        [[-1], [1]].forEach(([sd]) => {
+          x.beginPath();
+          x.moveTo(cx + sd * R * 0.45, cy - R * 0.35);
+          x.quadraticCurveTo(cx + sd * R * 0.9, cy - R * 0.55, cx + sd * R * 0.85, cy - R * 0.95);
+          x.quadraticCurveTo(cx + sd * R * 0.7, cy - R * 0.75, cx + sd * R * 0.35, cy - R * 0.55);
+          x.closePath();
+          fillA(x, A2, 0.45);
+          x.stroke();
+        });
+        x.fillStyle = A2;
+        x.beginPath();
+        x.arc(cx - R * 0.18, cy - R * 0.05, 6 * s, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.arc(cx + R * 0.18, cy - R * 0.05, 6 * s, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.arc(cx - R * 0.1, cy + R * 0.5, 5 * s, 0, 6.2832);
+        x.fill();
+        x.beginPath();
+        x.arc(cx + R * 0.1, cy + R * 0.5, 5 * s, 0, 6.2832);
+        x.fill();
+      };
+      P.maracas = (x, cx, cy, s, A, A2) => {
+        const R = 160 * s;
+        const maraca = (dx, dy, rot) => {
+          x.save();
+          x.translate(cx + dx * R, cy + dy * R);
+          x.rotate(rot);
+          artStyle(x, A, 6);
+          x.beginPath();
+          x.ellipse(0, -R * 0.35, R * 0.32, R * 0.42, 0, 0, 6.2832);
+          fillA(x, A, 0.22);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(-R * 0.22, -R * 0.5);
+          x.lineTo(R * 0.22, -R * 0.5);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(-R * 0.3, -R * 0.32);
+          x.lineTo(R * 0.3, -R * 0.32);
+          x.stroke();
+          x.strokeRect(-R * 0.07, R * 0.05, R * 0.14, R * 0.5);
+          x.fillStyle = A2;
+          [-0.1, 0.05, 0.15].forEach((ddx) => {
+            x.beginPath();
+            x.arc(ddx * R, -R * 0.62, 4.5 * s, 0, 6.2832);
+            x.fill();
+          });
+          x.restore();
+        };
+        maraca(-0.3, 0.1, -0.35);
+        maraca(0.35, -0.05, 0.4);
+      };
+
+      /* ---- composition frames ---- */
+      function decoRays(x, cx, cy, A) {
+        x.save();
+        artStyle(x, A, 4);
+        x.globalAlpha = 0.4;
+        for (let i = 0; i < 16; i++) {
+          const a = (i / 16) * 6.2832 + 0.2;
+          x.beginPath();
+          x.moveTo(cx + Math.cos(a) * 248, cy + Math.sin(a) * 248);
+          x.lineTo(cx + Math.cos(a) * 282, cy + Math.sin(a) * 282);
+          x.stroke();
+        }
+        x.restore();
+      }
+      function decoRingTicks(x, cx, cy, A) {
+        x.save();
+        artStyle(x, A, 4);
+        x.globalAlpha = 0.85;
+        x.beginPath();
+        x.arc(cx, cy, 262, 0, 6.2832);
+        x.stroke();
+        x.globalAlpha = 0.45;
+        x.beginPath();
+        x.arc(cx, cy, 238, 0, 6.2832);
+        x.stroke();
+        for (let i = 0; i < 24; i++) {
+          const a = (i / 24) * 6.2832;
+          x.beginPath();
+          x.moveTo(cx + Math.cos(a) * 238, cy + Math.sin(a) * 238);
+          x.lineTo(cx + Math.cos(a) * (i % 6 === 0 ? 224 : 231), cy + Math.sin(a) * (i % 6 === 0 ? 224 : 231));
+          x.stroke();
+        }
+        x.restore();
+      }
+      function decoWaves(x, cx, cy, A) {
+        x.save();
+        artStyle(x, A, 4);
+        x.globalAlpha = 0.5;
+        for (let r = 0; r < 3; r++) {
+          const yy = cy + 205 + r * 26;
+          x.beginPath();
+          for (let xx = -260; xx <= 260; xx += 8) {
+            const y2 = yy + Math.sin((xx / 90) * 3.1416 + r) * 8;
+            xx === -260 ? x.moveTo(cx + xx, y2) : x.lineTo(cx + xx, y2);
+          }
+          x.stroke();
+        }
+        x.globalAlpha = 0.7;
+        [[-180, -190], [150, -210], [-40, -235]].forEach(([dx, dy]) => {
+          x.beginPath();
+          x.moveTo(cx + dx - 8, cy + dy);
+          x.lineTo(cx + dx + 8, cy + dy);
+          x.stroke();
+          x.beginPath();
+          x.moveTo(cx + dx, cy + dy - 8);
+          x.lineTo(cx + dx, cy + dy + 8);
+          x.stroke();
+        });
+        x.restore();
+      }
+      function decoOrbit(x, cx, cy, A, A2) {
+        x.save();
+        artStyle(x, A, 3.5);
+        x.globalAlpha = 0.5;
+        x.beginPath();
+        x.arc(cx, cy, 252, 0, 6.2832);
+        x.stroke();
+        x.restore();
+        for (let i = 0; i < 6; i++) {
+          const a = (i / 6) * 6.2832 + 0.5;
+          x.save();
+          x.fillStyle = i % 2 ? A2 : A;
+          x.beginPath();
+          x.arc(cx + Math.cos(a) * 252, cy + Math.sin(a) * 252, i % 2 ? 6 : 9, 0, 6.2832);
+          x.fill();
+          x.restore();
+        }
+      }
+      function decoBurst(x, cx, cy, A, A2) {
+        x.save();
+        artStyle(x, A, 3.5);
+        x.globalAlpha = 0.45;
+        for (let i = 0; i < 24; i++) {
+          const a = (i / 24) * 6.2832;
+          const r1 = i % 2 ? 235 : 250;
+          x.beginPath();
+          x.moveTo(cx + Math.cos(a) * r1, cy + Math.sin(a) * r1);
+          x.lineTo(cx + Math.cos(a) * 268, cy + Math.sin(a) * 268);
+          x.stroke();
+        }
+        x.restore();
+        x.save();
+        x.fillStyle = A2;
+        for (let i = 0; i < 8; i++) {
+          const a = (i / 8) * 6.2832 + 0.4;
+          x.beginPath();
+          x.arc(cx + Math.cos(a) * 250, cy + Math.sin(a) * 250, 5, 0, 6.2832);
+          x.fill();
+        }
+        x.restore();
+      }
+      const ART_COMPS = [
+        (x, cx, cy, A, A2, prim) => {
+          decoRays(x, cx, cy, A);
+          prim(x, cx, cy, 1, A, A2);
+        },
+        (x, cx, cy, A, A2, prim) => {
+          prim(x, cx - 158, cy - 88, 0.52, A, A2);
+          prim(x, cx + 158, cy - 88, 0.52, A, A2);
+          prim(x, cx, cy + 128, 0.68, A, A2);
+        },
+        (x, cx, cy, A, A2, prim) => {
+          decoRingTicks(x, cx, cy, A);
+          prim(x, cx, cy, 0.8, A, A2);
+        },
+        (x, cx, cy, A, A2, prim) => {
+          decoWaves(x, cx, cy, A);
+          prim(x, cx, cy, 0.88, A, A2);
+        },
+        (x, cx, cy, A, A2, prim) => {
+          decoOrbit(x, cx, cy, A, A2);
+          prim(x, cx, cy, 0.82, A, A2);
+        },
+        (x, cx, cy, A, A2, prim) => {
+          decoBurst(x, cx, cy, A, A2);
+          prim(x, cx, cy, 0.85, A, A2);
+        },
+      ];
+
+      /* ---- the subject vocabularies ---- */
+      const ART_VOCAB = {
+        "Animal Nature Sciences": [P.leaf, P.butterfly, P.fish, P.bird, P.paw, P.tree],
+        "Art & Design": [P.palette, P.brushPencil, P.easel, P.colorWheel, P.shapes, P.frameScene],
+        "Computing & Robotics": [P.robot, P.chip, P.brackets, P.rocket, P.gear, P.cursor],
+        Crafts: [P.scissorsPaper, P.spool, P.boat, P.heart, P.crane, P.button],
+        English: [P.bookOpen, P.quillInk, P.nib, P.bubbles, P.bookStack, P.envelope],
+        "Global Perspectives": [P.compassRose, P.globePath, P.mapPins, P.balloon, P.telescope, P.planePath],
+        Mathematics: [P.piMark, P.compassTri, P.geoboard, P.abacus, P.protractor, P.dice],
+        "Music & Acting": [P.notes, P.masks, P.mic, P.drum, P.guitar, P.spotlight],
+        "Physical Education/Gym": [P.whistle, P.stopwatch, P.medal, P.ball, P.shuttle, P.bolt],
+        "Portuguese 1st": [P.azulejo4, P.rooster, P.caravel, P.heartViana, P.bookAa, P.quillInk],
+        "Portuguese 2nd": [P.rooster, P.caravel, P.heartViana, P.bookAa, P.quillInk, P.azulejo4],
+        "Science & Lab": [P.flask, P.atom, P.molecule, P.dna, P.magnet, P.scope],
+        "Humanities (History & Geography)": [P.globeWrap, P.column, P.pyramidSun, P.scroll],
+        "Music and Drama": [P.masks, P.notes, P.mic],
+        Science: [P.atom, P.flask, P.dna, P.molecule],
+        Spanish: [P.fan, P.guitar, P.bull, P.maracas],
+        "Portuguese 1st (IGCSE)": [P.azulejo4, P.rooster, P.caravel],
+      };
+
+      function drawCoverArt(x, cx, cy, subj, yr, A) {
+        const vocab = ART_VOCAB[subj];
+        if (!vocab) {
+          motifBook(x, cx, cy, A);
+          return;
+        }
+        const A2 = lighten(A, 0.55);
+        const prim = vocab[(yr - 1) % vocab.length];
+        const comp = ART_COMPS[(yr - 1 + hashStr(subj)) % ART_COMPS.length];
+        comp(x, cx, cy, A, A2, prim);
+      }
+
       /* ---- the Prime Books cover: one layout, branded per subject -------- */
       function paintPrime(x, w, h, cfg) {
+        const yr = cfg.yearNum || 0;
+        const accent = yr
+          ? shiftHue(cfg.accent, (((yr - 1) % 3) - 1) * 30)
+          : cfg.accent;
         const NAVY2 = "#0a1230",
           CREAM = "#f6f1e6",
           RED = "#c8102e",
@@ -2458,6 +4884,14 @@
 
         x.textAlign = "center";
 
+        /* per-year pattern language */
+        if (yr) {
+          x.save();
+          x.globalAlpha = 0.1;
+          YEAR_PATTERNS[(yr - 1) % YEAR_PATTERNS.length](x, w, h, accent);
+          x.restore();
+        }
+
         /* star + arc (the Prime mark) */
         x.strokeStyle = CREAM;
         x.lineWidth = 4;
@@ -2482,7 +4916,7 @@
         }
 
         /* stage label */
-        x.fillStyle = cfg.accent;
+        x.fillStyle = accent;
         x.font = "700 24px Arial";
         drawSpaced(x, cfg.stageLabel.toUpperCase(), w / 2, 428, 6);
 
@@ -2505,8 +4939,11 @@
           x.fillText(cfg.subtitle, w / 2, afterT + 102);
         }
 
-        /* subject emblem */
-        cfg.motif(x, w / 2, 985, cfg.accent);
+        /* cover art: a different illustration for every subject × year */
+        x.save();
+        if (yr) drawCoverArt(x, w / 2, 985, cfg.artSubj || cfg.title || "", yr, accent);
+        else if (cfg.motif) cfg.motif(x, w / 2, 985, accent);
+        x.restore();
 
         /* year band */
         x.font = "800 34px Arial";
@@ -2599,6 +5036,8 @@
           tag: "Mathematics · Year 3",
           author: "Prime Books",
           year: "Year 3 · 2025/26",
+          yearNum: 3,
+          artSubj: "Mathematics",
           stage: "Cambridge Primary · Year 3",
           stageLabel: "Cambridge Primary",
           titleLines: ["Mathematics"],
@@ -2634,6 +5073,8 @@
           tag: "Humanities · Year 7",
           author: "Prime Books",
           year: "Year 7 · 2025/26",
+          yearNum: 7,
+          artSubj: "Humanities (History & Geography)",
           stage: "Cambridge Lower Secondary · Year 7",
           stageLabel: "Cambridge Lower Secondary",
           titleLines: ["Humanities"],
@@ -2670,6 +5111,8 @@
           tag: "Português 1.ª Língua · Year 9",
           author: "Prime Books",
           year: "Year 9 · IGCSE",
+          yearNum: 9,
+          artSubj: "Portuguese 1st (IGCSE)",
           stage: "Cambridge Upper Secondary · IGCSE",
           stageLabel: "Cambridge Upper Secondary",
           titleLines: ["Português", "1.ª Língua"],
@@ -3718,6 +6161,8 @@
         const cx = cv.getContext("2d");
         cx.scale(360 / 1024, 540 / 1536);
         paintPrime(cx, 1024, 1536, {
+          yearNum: parseInt(year.slice(5), 10),
+          artSubj: subj,
           accent: st.accent || "#aeb8dd",
           titleLines: t.lines,
           titleSize: t.size,
