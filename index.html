@@ -5918,7 +5918,6 @@
           ? "Audiobook " + cfg.audio
           : "Audiobook coming soon";
         dpLang.textContent = cfg.lang;
-        previewBtn.style.display = cfg.flipbook ? "" : "none";
       }
 
       const pill = document.getElementById("openBtn");
@@ -6716,7 +6715,15 @@
       }
       previewBtn.addEventListener("click", () => {
         const cfg = state.selected && state.selected.cfg;
-        if (cfg && cfg.flipbook) openFlipbook(cfg);
+        if (!cfg) return;
+        /* every title previews the Humanities sample for now */
+        openFlipbook(
+          cfg.flipbook
+            ? cfg
+            : Object.assign({}, cfg, {
+                flipbook: "/PrimeBooks%20Humanities%20Year%207.pdf",
+              }),
+        );
       });
       document
         .getElementById("fbClose")
