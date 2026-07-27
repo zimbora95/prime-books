@@ -1,0 +1,188 @@
+
+                            Contents
+                       Introduction                                        4
+
+               7.1     Block it out: Moving from blocks to text             8
+
+              7.2 Decomposing problems: Creating a smart solution        44
+
+              7.3 Connections are made: Accessing the internet           82
+
+              7.4 The power of data: Using data modelling                112
+
+              7.5 Living with AI: Digital data                          150
+
+              7.6 Sequencing and pattern recognition:
+                       Getting the message across                       182
+
+                       Glossary                                        225
+
+                       Index                                           230
+
+                       Acknowledgements                                234
+
+                            Introduction
+            About this book                                            This Student’s Book will help you to understand
+                                                                       some of the key areas of computer science, such as:
+            Computer science is the study of computers,
+                                                                       ● How computing devices operate and
+            computing hardware and software, computer
+                                                                          communicate
+            networks and the design of computer
+                                                                       ● How computing devices store and process
+            programs. It also includes the study of the way
+                                                                          different types of data
+            humans interact with computers and computing
+                                                                       ● How to develop a program to solve a specific
+            technology.
+                                                                          problem
+            Computer science is linked to all areas of the             ● How computer systems and artificial intelligence
+            world you live in today. It helps you to make                 are used to model and simulate real-life
+            positive changes to the world you live in, and                situations to help with task completion and
+            provides important tools and applications to help             decision-making.
+            you solve a wide range of problems. Computer
+            science is continually evolving to provide new             This book also supports the learning objectives
+            and valuable ways of improving your life and               within the five strands of the Cambridge Lower
+            your interactions with the world around you.               Secondary Computing framework:
+
+              ●   Computational thinking is built into the                 create databases and spreadsheets to help
+                  tasks in this book. It looks at how computing            with managing different types of data.
+                  can be used to explore and analyse data              ●   Networks and digital communication
+                  collected from the world around you. It                  focuses on the methods used to transfer
+                  is also about the development of skills to               digital data between different computing
+                  support problem-solving, for example how to              devices, and how these devices are used
+                  describe a problem, and the data needed to               to support communication. In this book,
+                  solve that problem, in a way that a computer             you will explore how different computing
+                  can understand.                                          devices can be linked together to support
+              ●   Programming explores the steps involved in               data transfer.
+                  designing and creating a computer program            ●   Computer systems is about how computer
+                  that can be used to carry out a particular               hardware devices and computer programs
+                  task. In this book, you will be moving from              work together to support users in solving
+                  block-based to text-based programming                    problems. It involves considering how
+                  languages and explore how to program a                   the hardware and software and the data
+                  physical device to solve a problem.                      input is processed, stored and then output,
+              ●   Managing data looks at how computers                     to help a user solve a problem. In this
+                  and computer programs can be used to                     book, you will explore the network and
+                  store, organise and manage different types               communications devices used to transmit
+                  of data. It also explores how that data can              data and information around a computer
+                  be used to support problem-solving. In this              network, and the world, in the process of
+                  book, you will learn how to use, edit and                solving a problem.
+
+              KEYWORDS                                                 text-based programming: programming that
+              hardware: aspects of a computing device that you         requires the programmer to type text, e.g. Python
+              can touch; the physical components of a device           physical (computing) device: a small
+              software: aspects of a computing device that you         microprocessor that can be programmed using
+              cannot touch; the programs that run on a device          block or text-based programming languages
+              computer networks: groups of computers                   database: a computer application that is used to
+              connected together                                       organise data that can then be stored, processed
+                                                                       and accessed electronically
+              computer programs: the instructions used to tell a
+              computer system how to complete a task                   spreadsheet: a computer application that uses
+                                                                       rows and columns to organise data and carry out
+              evolving: changing and improving
+                                                                       calculations using that data
+              data: raw facts and figures
+              block-based programming: programming using
+              drag-and-drop blocks; a popular block-based
+              language is Scratch
+
+            This Student Book has six units:
+                7.1 Block it out: Moving from blocks to text provides a transition from block-based
+                programming to programming in Python, which is a text-based language. It focuses on the
+                key concepts that underpin programming, enabling you to develop a series of programs in
+                Python to be used in an educational environment.
+
+                7.2 Decomposing problems: Creating a smart solution provides an introduction to the text-
+                based programming language MicroPython. You will learn how to program a physical device,
+                the micro:bit, using its sensors to design a software solution for a smart device.
+
+                7.3 Connections are made: Accessing the internet explores how devices interact and send
+                data between each other. It focuses on how data can be kept safe and looks at how artificial
+                intelligence is changing the way in which computers function, enabling you to understand,
+                collect and explain how connectivity technologies work.
+
+                7.4 The power of data: Using data modelling examines how applications, such as
+                databases and spreadsheets, can be used to model data for real-life situations. You will
+                explore how to use some of the key features of these applications, in addition to evaluating
+                forms used to collect data for input into data models.
+
+                7.5 Living with AI: Digital data looks at the key differences between application and
+                systems software. You will revisit the concept of artificial intelligence and how it is used in
+                different industries. You’ll also examine the methods used to store data and learn how image
+                recognition is used in a range of applications.
+
+                7.6 Sequencing and pattern recognition: Getting the message across continues to explore
+                programming the micro:bit using the text-based programming language MicroPython. You
+                will learn to create a light sequence to convey a message, and you’ll discover how to look for
+                and use patterns to design and develop a prototype for a visual alarm.
+
+            How to use this book
+            In each unit, you will learn new skills by completing a series of tasks.
+            These features appear in each unit:
+
+             Get started!
+               This box introduces the unit and asks you some questions to
+               discuss in pairs or a small group.
+
+             Learning outcomes
+               This box lists the learning objectives that you will cover in the unit.
+
+             Warm up
+               This box provides a task to do in pairs or a small group to get the
+               learning started.
+
+              SCENARIO
+              This box contains a scenario that puts the tasks in the unit into a
+              real-world context.
+
+            Do you remember?
+               This box lists the skills you should already have before starting
+               the unit.                                                                 DID YOU KNOW?
+                                                                                         This box provides an
+                                                                                         interesting or important
+             Learn                                                                       fact about the task or
+                                                                                         theme.
+               This box introduces new concepts and skills.
+
+            Practise
+               This box contains tasks to apply and practise the new skills and
+               knowledge from the ‘Learn’ box.
+
+             Go further
+               This box contains tasks to enhance and develop the skills
+               previously learned in the unit.
+
+             Challenge yourself
+               This box provides challenging tasks with additional instructions
+               to support new skills.
+
+                Final project
+                This box contains a final project that encompasses all the skills
+                developed over the unit, in the context of the Scenario. The
+                tasks in this box can be used to support teacher assessment of
+                the learning objectives from the ‘Learning outcomes’ box.
+
+             Evaluation
+                                                                                        KEYWORDS
+               This box provides guidance on how to evaluate and, if necessary,
+                                                                                        Important words
+               test the final project tasks.                                            are shown in
+                                                                                        emboldened orange
+                                                                                        font and are defined
+            What can you do?                                                            in this box. They
+                                                                                        also appear in the
+                                                                                        glossary at the back
+                This box provides a summary of the skills you have learned in           of the book.
+                the unit and can be used to support self/peer assessment of
+                the learning objectives.
+
+             Computational thinking
+                                                                                              These speech
+               Most computational thinking skills are embedded into the
+                                                                                             bubbles provide
+               ‘Practise’ tasks. However, where you see this box, an individual
+                                                                                            hints and tips as
+               computational thinking skill is highlighted for your attention.              you complete the
+                                                                                                  tasks.
+            Student resource files, used in some of the Practise boxes, are available
+            at www.hoddereducation.com/cambridgeextras

@@ -1,0 +1,1137 @@
+                 Unit                        Connections are made:
+                 7.3                         Accessing the internet
+             Get started!
+               There are many different methods
+               of connecting to networks and the
+               internet, such as using wires or wireless
+               transmission methods to send and
+               receive data. Bluetooth, Wi-Fi and
+               cellular data are always improving, so it’s
+               important to know the key differences.
+               Discuss the following with a partner:
+               l What was the last thing that you did
+                  online?
+               l How many devices that connect to the internet are in your home?
+               l What’s the most unusual device that you know can connect to the internet?
+
+               In this unit, you will discover the technical differences between the different methods of
+               connecting to the internet. You will explore how devices connect and how connecting
+               to the internet gives you access to the world wide web. You will also develop your
+               understanding of how the internet works and how our devices can access the global
+               network of connected devices.
+
+             Learning outcomes
+               In this unit, you will learn to:
+               l explain different ways that devices can transmit data
+               l understand how DNS enables users to access websites on
+                  their devices and explain the steps DNS takes
+               l understand how IP addresses and web servers work
+               l explain what the structure of a URL looks like and identify the
+                  different parts
+               l explain what types of encryption can be used on websites
+               l find information on the security certificates of a website
+               l understand how errors can occur in data transmission and
+                  apply ways to check that a message has been sent correctly
+               l modify an algorithm in a flowchart based on a basic cipher
+               l encode and decode messages using a cipher
+               l understand how search engines categorise data
+               l explain how AI is used to improve search-engine results
+               l understand why a web browser is a type of application
+                  software.
+
+             Warm up
+               It’s quite likely that, in the last 24 hours, you have used a
+               device to connect to the internet.
+               Write a list of the devices that you have used over the last
+               week to connect to the internet.
+               For each device, you should note:
+               l what type of device you used (PC, mobile phone, tablet,
+                 and so on)
+               l how you connected to the internet (plugged a cable in or wirelessly).
+               When you have developed your list, discuss your findings with your partner as you will be
+               investigating a number of connectivity methods in this unit.
+
+              SCENARIO
+              A local technology company wants to develop a new
+              website for young people to share information about the
+              latest technologies. The tech company would like to add
+              a ‘news’ page to the website and has asked for your help
+              to develop this. To do this, you will need to understand,
+              collect and explain how connectivity technologies work.
+              First, you need to learn how the connections are made
+              between devices. Your challenge is to understand how
+              the internet works, including aspects such as artificial intelligence, websites, DNS, security
+              and connectivity. At the end of this unit, you will combine everything you have learned into
+              a presentation, which the technology company could use on their news page.
+
+              KEYWORDS
+              connectivity: the method that devices use to connect to each other to form a network
+              artificial intelligence: an area of computing that focuses on creating intelligent computers that can
+              mimic the way humans think and make decisions; a computer system able to perform tasks normally
+              done using human intelligence, such as understanding speech
+              DNS (Domain Name System): a system used to translate a URL to an IP address
+
+              DID YOU KNOW?
+              Tim Berners-Lee invented the world wide web in
+              1989. The internet was originally created so that
+              scientists could share information automatically
+              between universities.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+             Do you remember?
+               Before starting this unit, you should:
+               ✔ know that digital content is stored on servers
+               ✔ understand how digital devices can transfer data wirelessly
+               ✔ understand how bandwidth can affect a network
+               ✔ know that networks can be overloaded, if too many devices
+                 are on the network
+               ✔ understand that data needs to be transmitted securely
+               ✔ be able to describe how user authentication (passwords,
+                 fingerprints and facial recognition) works.
+
+            Getting online
+             Learn
+               There are many ways of getting online, whether at home, school or outdoors. The most
+               convenient way to connect is usually wirelessly, as this requires no wires and means that your
+               devices can be portable. A range of devices are used to connect to networks, including mobile
+               phones, tablets, laptops and PCs. Even some washing machines can now connect online!
+               Data can be transferred from one device to another wirelessly using radio waves. The
+               most popular methods of wireless data transfer are Wi-Fi, Bluetooth and cellular
+               data. For example, the image below shows how data is sent wirelessly between devices
+               using cellular data. Each method of transmitting data wirelessly has some advantages and
+               disadvantages. Some are more useful in certain situations than others.
+
+                            Binary data sent between
+                                devices wirelessly
+                              0110110110101010
+                              1010101011011110                          4G mast
+                              1101101101111110
+                              0011101101101000
+
+                      Mobile phone
+
+              KEYWORDS
+              portable: something that can easily be moved around
+              data: raw facts and figures; computers understand only binary data, which is
+              0s and 1s
+              Wi-Fi, Bluetooth, cellular data: methods for computing devices to
+              communicate with one another using radio waves
+
+            Practise
+               1 In a small group, discuss the following questions:
+                 – When was the last time you used Wi-Fi? What device were you using? What were you
+                    doing on the device?
+                 – When was the last time you used Bluetooth? What device were you using? What
+                    were you doing on the device?
+                 – When was the last time you used cellular data? What device were you using? What
+                    were you doing on the device?
+               2 For each type of transmission (wireless data transfer), discuss:
+                 – what you think the advantages or disadvantages might be
+                 – what information about the type of transmission would be important to include on a
+                    technology news page.
+               3 Summarise the points from the discussions above, as these may help you later in this unit.
+
+            Transmission methods
+             Learn
+               For each wireless transmission method, it is important that the following characteristics
+               are considered:
+
+                  Bandwidth
+                  Bandwidth is the amount of data that can be transmitted
+                  within a certain amount of time. This is important for
+                  actions like streaming video and is probably why you may
+                  have seen a video ‘buffer’ (spinning circle) when trying
+                  to stream content. Videos typically have large file sizes
+                  so lots of data needs to be transmitted. This means that
+                  videos need lots of bandwidth to play without buffering.
+                  Transmission distance
+                  Transmission distance is how far a signal can be sent using the transmission
+                  method. It is likely that you will have moved too far away from a Wi-Fi access point
+                  and have had the problem that your connection has dropped.
+                  Security
+                  When you consider which types of transmission are best for certain situations, it is
+                  crucial that security is considered. Some transmission methods can be hacked more
+                  easily than others!
+                  Interference
+                  Most transmission methods are affected by interference. It’s important to understand
+                  which of the transmission methods are more likely to be affected by interference.
+                  Interference is often caused by other electronic devices near to a network, or by
+                  physical obstructions such as walls. For example, equipment such as microwaves can
+                  cause laptops to lose connection to a Wi-Fi network because the radio waves in a
+                  microwave can interfere with the signal.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+               The most important considerations
+                                                                                                You measure
+               for each of the transfer methods are
+                                                                                the amount of data that can be transmitted
+               the bandwidth and the transmission
+                                                                                 in bits per second (bps), kilobits per second
+               distance that it can send data. For                        (Kbps = 1 thousand bits), megabits per second (Mbps =
+               example, if you wanted to transfer data                  1 million bits) or gigabits per second (Gbps = 1 billion bits).
+               between devices over a 500 metre
+                                                                          There are always new versions of each of the transfer
+               distance, then Bluetooth would not be
+                                                                              methods in development, so these speeds get
+               appropriate as it does not reach that far!
+                                                                                   fasterand the distances get longer
+                                                                                               every year.
+
+              KEYWORDS
+              bandwidth: the amount of data that can be transmitted within a certain amount of time
+              transmission distance: how far data can be sent using the transmission method
+              Wi-Fi access point: a hardware device that allows devices to connect to a network using Wi-Fi
+              hacked: when somebody accesses a system when they are not supposed to; this is often illegal
+              interference: what happens when something interrupts the transmission of a signal; this could be a
+              physical obstruction such as a wall, or other radio waves
+
+            Practise
+               For each of the scenarios below, identify the characteristic of the transmission method
+               that has caused the issue. For example, if a mobile phone is in a tunnel and has no
+               connection to the wireless access point, this would be caused by interference.
+
+                  Scenario 1
+                  Abid uses Wi-Fi to connect his laptop to the network to share some important files
+                  containing personal information (his name, address and medical details). Abid has
+                  set up his network without a password, so that anybody who joins the network can
+                  view his files.
+
+                  Scenario 2
+                  Alyssa uses cellular data to access the internet on her mobile phone while walking
+                  around a local town. Alyssa has entered a supermarket and her internet has stopped
+                  working.
+
+                  Scenario 3
+                  Adam has connected his Bluetooth headphones to his PC to listen to music.
+                  However, when he goes downstairs to the kitchen his headphones stop working.
+
+            Transmission characteristics
+             Learn
+               Take a deeper look at the characteristics of each wireless transmission method:
+
+               Wi-Fi
+
+                Characteristic            Information
+                Wired/wireless            Wireless
+                Bandwidth                 Wi-Fi is currently capable of transmitting data at
+                                          9.6 Gbps.
+                Transmission distance     Wi-Fi can transmit data up to about 50 metres
+                                          indoors, but this can be affected by interference.
+                                          This means that devices can be moved around,
+                                          but are only portable across one site (a home,
+                                          school or office, for example).
+                Security                  Security is poor. Anybody within range of the
+                                          Wi-Fi network can see the network and connect
+                                          to it using a password. Wi-Fi passwords can be
+                                          hacked using brute-force attacks (a computer
+                                          program trying lots of different combinations of
+                                          letters and numbers until a password is cracked).    KEYWORDS
+                Interference              Wi-Fi signals can be affected by walls and           brute-force attack: a type
+                                          electronic equipment such as microwaves and          of cyber-attack that a hacker
+                                          TVs.                                                 can make on a computer – it
+                                                                                               attempts to guess a password
+                                                                                               by using a large bank of words
+               Bluetooth                                                                       and phrases; it keeps trying
+                                                                                               different combinations until it
+                Characteristic            Information                                          finds the correct password
+                Wired/wireless            Wireless                                             Bluesnarfing: a method that
+                Bandwidth                 Bluetooth 5 is capable of transmitting data at       hackers use to access the data
+                                          2 Mbps.                                              on a device with Bluetooth
+
+                Transmission distance     Bluetooth 5 can transmit data 40 metres indoors,
+                                          but this can be affected by interference. This
+                                          means that devices are portable, but only across
+                                          one site (a home, school or office, for example).
+                Security                  Security is poor. Anybody within range of the
+                                          Bluetooth transmission can see the device. There
+                                          are a number of issues with Bluetooth security,
+                                          including Bluesnarfing, which means that a
+                                          hacker connects to a device without the user
+                                          knowing.
+                Interference              Bluetooth devices work best when there is a
+                                          clear line of sight between the devices (they can
+                                          physically see each other). Wi-Fi networks, as
+                                          well as walls and objects, can cause Bluetooth
+                                          interference.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+               Cellular data
+               There are two modern transmission methods using cellular data: 4G and 5G.
+
+                Characteristic     4G information                                     5G information
+
+                Wired/wireless     Wireless                                           Wireless
+                Bandwidth          The average speed of 4G is between 8 and           The average speed of 5G is around 100 Mbps.
+                                   10 Mbps.
+                Transmission       16 kilometres                                      500 metres
+                distance
+                Security           Security for both 4G and 5G is excellent, as cellular providers have advanced security features.
+
+                Interference       4G and 5G signals can be affected by walls and electronic equipment such as microwaves and
+                                   TVs. They can also be affected by the landscape: hills, valleys and weather.
+
+            Practise
+                                                                                                             DID YOU KNOW?
+               1 For each of the scenarios below, discuss with a partner which                               Before 3G, 4G and
+                 transmission type would be most appropriate. Remember                                       5G became available,
+                 to say why: for example, Wi-Fi would be an appropriate                                      the highest cellular
+                                                                                                             network speed was only
+                 transmission type to send data to laptops and other devices
+                                                                                                             114 Kbps. At this speed,
+                 on a home network. This is because most homes are no larger                                 it would have taken over
+                 than 50 metres, which means that the signal will reach the                                  five days to download
+                 devices without interference.                                                               an HD film!
+                 – Wirelessly connecting a PC to a network in the home
+                 – Wirelessly connecting a keyboard and mouse to a PC
+                 – Connecting a mobile phone to a tablet computer to share
+                    photos
+                 – Connecting a mobile phone to the internet while out
+                    walking
+               2 Which transmission method is most likely to be used to view
+                 a news page by someone using a tablet computer or mobile
+                 phone?
+
+            Accessing web pages: IP addresses
+             Learn
+               When you access content on the                                      Servers typically
+               internet, you are actually accessing files                  have lots of storage space and
+               that are stored on a server. This is the              power to supply web pages, video, audio or
+               case for web pages, video and audio               messaging as quickly as possible to the user. They
+               streaming and messaging services.               look slightly different from a PC, as they are stored in
+               The files are stored on servers in the        racks, so that many servers can be stacked on top of each
+               same way that you would store files               other. Servers that store web pages are known as
+               on your devices; the difference is that                web  servers, which allow users to access
+                                                                                   their files online.
+               the files on servers can be accessed via
+               the internet. Servers are often grouped
+               together in one location, which is known
+               as a server farm. There may be hundreds, or even
+               thousands, of servers in a single server farm.
+               To publish files on the internet, administrators add
+               files to the hard disk drive of the server. Users can
+               then access the files through their web browser by
+               typing in a URL (web address).
+               IP addresses
+               Each device that is on a network has an IP address
+               assigned to it. IP stands for ‘Internet Protocol’. On
+               a home network, this address will be given to each device on the network and it will be
+               unique. An IP address is designed to identify a device on a network, so that devices can
+               communicate with each other. Think of it as the ‘address’ of the device.
+               An IP address consists of four numbers, each separated by a full stop. Each number is
+               between 0 and 255. An example of an IP address could be:
+               192.124.2.213
+
+                 In the example below, a Wi-Fi robot vacuum cleaner is connected to the home network
+                 and has been given the IP address 192.168.1.42. If another device wanted to send a message
+                 to the vacuum cleaner, it would use the address 192.168.1.42 and not the name ‘360_
+                 CleanRobot_X9’, in case there were two devices with the same name.
+                  Device name                       IP Address
+                  Windows laptop                    192.168.1.2
+                  Android phone                     192.168.1.3                               In this example, all of
+                  Apple iPad                        192.168.1.4                               the IP addresses start
+                                                                                              with 192.168.1., which
+                  Kitchen lightbulb                 192.168.1.5
+                                                                                               is common on home
+                  Robot vacuum                      192.168.1.6                                      networks.
+                  Hallway smart plug                192.168.1.7
+                  Living room TV                    192.168.1.8
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+               IP addresses on the internet work in the same way. Each server has an IP address
+               assigned to it, so that it can be identified uniquely on the network.
+
+              KEYWORDS
+              server: a hardware device that stores and manages files and services for a network
+              streaming: watching or playing media over a computer network; playback can be started before all of
+              the data has downloaded
+              messaging service: software that allows users to send and receive text messages between devices
+              web server: a server that provides access to web pages stored on them
+              administrator: a person who is responsible for managing a network
+              hard disk drive: a hardware device that is used to store digital data
+              web browser: a software application that allows users to locate, access and display information on the
+              world wide web
+              URL: Uniform Resource Locator; the address of a web page
+              IP (Internet Protocol) address: an address assigned to each device on a network that is unique to the network
+              home network: a network of devices that can be found in a household
+              unique: only one exists; there are no duplicates
+
+            Practise
+               1 Explain to a partner what a server is and what it does.
+               2 In pairs, look at the list of IP addresses of servers for large websites below.
+                 – Now you know what IP addresses should look like, identify whether they are correct
+                    (valid) or incorrect (invalid).
+                 – If you find any that have problems, explain why the IP address is not valid.
+                 – Copy and complete the table to show your answers.
+                        Server IP address             Valid or invalid?   Why?
+                        69.171.224
+                        199.59.149.230
+                        255.255.255.255
+                        256.21.211
+                        207.9756
+                        74.125.65556.91
+                        65.55.72.541
+                        198.78.201.252
+                        212.58.241.7543
+                        98.137.149.56
+                        65.55.175.259
+
+               3 Think about what the readers of the technology company news page might need to
+                 understand about IP addresses.
+
+            URLs
+             Learn
+               If you were asked to remember the IP address for 20 different websites, do you think you
+               could do it? That’s why we use URLs!
+               A URL, or Uniform Resource Locator, is used to locate a file on a web server on the
+               internet. They are easier to remember than an IP address.
+
+                URL                                            Server IP address
+                https://www.google.com                         172.217.169.78
+                https://micropython.org/                       176.58.119.26
+                https://www.microsoft.com                      104.215.148.63
+
+               A URL has to be written in a certain way.
+               The different parts of a URL direct devices to the correct server. The domain name (an
+               easy-to-remember name) is the part that changes, depending on which web server you
+               would like to visit using your web browser.
+
+                 Domain levels
+                 A top-level domain (or TLD) is the part at the end of the domain
+                 name. There are over 1000 TLDs available to buy, but the most
+                 common is .com
+                  http://www.africanews.com
+                                      top-level domain name
+
+                 Other popular TLDs are:
+
+                  TLD                      Use
+                  .com                     Commercial
+                  .org                     Organisation
+                  .net                     Network
+                  .in                      India
+                  .au                      Australia
+                  .ng                      Nigeria
+                  .ph                      Philippines
+                  .eg                      Egypt
+                  .ae                      United Arab Emirates
+                  .id                      Indonesia
+
+              KEYWORD
+              domain name: an easy-to-remember name for a website, e.g. www.
+              hoddereducation.com
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+            Practise
+               1 Create a table listing five domain names that you have visited
+                 in the previous few weeks. Identify the URL, domain name and
+                 TLD for each, for example:
+
+                    URLs                                Domain name                     TLD
+                    https://www.netflix.com             netflix.com                     .com
+
+               2 Work with a partner and explain what a URL is to another
+                 pair. Make sure you include the following vocabulary in your
+                 explanation:
+                 – URL
+                 – Domain name
+                 – TLD.
+
+            Accessing web pages: DNS
+             Learn
+
+                                                                           Remember: every website is stored on a web
+                                                                        server that holds the files for the website and each
+                                                                               web server is assigned an IP address.
+                                                                        It would be extremely difficult to remember the IP
+                                                                           addresses for all of the websites that you use,
+                                                                             so URLs make them easier to remember.
+
+               How does a URL link to an IP address? DNS!
+               DNS (Domain Name System) is a system used to translate a URL to an IP address, so that
+               you don’t have to remember the IP addresses for web servers.
+               DNS allows you to type a URL (like google.com) into your web browser to retrieve the
+               files from the web server with the matching IP address (such as 142.250.74.142.) A DNS
+               server stores a large database of URLs and corresponding IP addresses. It looks like a list
+               of IP addresses and URLs, similar to the example below:
+
+                 google.com 209.85.231.104
+
+                 microsoft.com 207.46.170.123
+
+                 yahoo.com 72.30.2.43
+
+                 micropython.org 176.58.119.26
+
+                 wikipedia.com 208.80.152.2
+
+                 dell.com 143.166.83.38
+
+               You can think of DNS as being similar to the contacts list in a mobile phone. If you
+               want to call somebody, you look them up by their name, as it would be very difficult to
+               remember all of the phone numbers!
+
+                  What happens when you type a URL into your
+                  web browser?
+                  1 A user types into their web browser the URL
+                    of the website they would like to visit, for                                  www.africanews.com
+                    example http://www.africanews.com
+                  2 The URL (africanews.com) request gets sent to
+                    the DNS server to find the matching IP address.
+                  3 The IP address of the web server where the
+                    website is kept (81.92.228.150) is sent back to
+                    the user’s computer.
+                                                               DNS server
+
+                                                     africanews.com 81.92.228.150
+                        www.africanews.com           indonesia.travel 34.117.165.177
+                                                     u.ae 185.54.16.7
+                                                     netflix.com 54.155.178.5
+
+                  4 a If the DNS cannot find the IP address in its database, this search is then passed
+                       on to a higher-level DNS (another DNS that has access to an even larger list of
+                       domain names).
+                    b If the higher-level DNS still cannot find it, a 404 error is returned. This means
+                       that the page was not found and the web server sends an error page to the
+                       web browser.
+                  5 The web browser then sends a request to the web server’s IP address that returns
+                    the web page.
+                            81.92.228.150
+                                                             DNS server
+                                                   www.africanews.com
+                                                   africanews.com 81.92.228.150                             On average, DNS
+                                                   indonesia.travel 34.117.165.177     81.92.228.150        takes between 20
+                                                   u.ae 185.54.16.7                                       and 120 milliseconds
+                                                   netflix.com 54.155.178.5
+                                                                                     Web server           to translate a URL to
+                                                                                                              an IP address!
+
+              KEYWORDS
+              DNS (Domain Name System): a system used to translate a URL to an IP address
+              higher-level DNS: another DNS that is used for checking large lists of URLs
+              and IP addresses
+              404 error: an error sent to a web browser if the DNS could not find the web
+              server
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+             Practise
+               1 Explain to a partner how DNS enables users to access websites. Use this vocabulary in
+                 your explanation:
+                 – URL
+                 – IP address
+                 – Web browser
+                 – DNS server
+                 – Request
+                 – Web page.
+               2 The following table shows the steps that DNS takes to translate a URL to an IP address,
+                 but they are in the wrong order.
+                 Rewrite the steps in the correct order.
+
+                    The URL gets sent to the DNS server to find the correct IP address.
+                    If the higher-level DNS still cannot find it, a 404 error is returned.
+                    If the DNS cannot find the IP address in its database, this search is then passed on to a higher-level DNS.
+                    The web browser then sends a request to the web server’s IP address, which returns the web page.
+                    The IP address of the web server where the website is hosted is sent back to the user’s computer.
+                    A user types into their web browser the URL they would like to visit.
+
+               3 Explain to a partner how a user would be able to view the Technology Company News
+                 Page. Use the vocabulary in the first task above.
+
+             Computational thinking – algorithms
+                                                                                                   Start
+               Look at the flowchart below. It shows a basic version
+               of how a DNS works to translate a single URL to an
+               IP address.
+               l Follow the flowchart. Discuss with a partner what                              INPUT URL
+                  you think this program will do if netflix.com is
+                  entered.
+               l Create your own version of this flowchart that
+                                                                                             IP = 54.155.178.5
+                  returns the correct URL for:
+                  – yahoo.com
+                  – 72.30.2.43
+                                                                                               Does URL =        Yes
+                                                                                              “Netflix.com”?
+
+                                                                                                 No
+                                                                                                                        PRINT IP
+
+                                                                                                 PRINT
+                                                                                               “404 error”
+
+                                                                                                   End
+
+            Padlocks and HTTPS
+             Learn
+               Web browsers are used to view web pages and content on                                   A web browser
+               the world wide web. When a user requests a webpage on the                                is applications
+               world wide web, the web browser retrieves the content (using                         software, as it performs
+               DNS) and displays it in the display window.                                            the specific task of
+                                                                                                      browsing the world
+               There are lots of different web browsers available and                                      wide web.
+               most of them are free, but they all have a similar layout and
+               similar functions. All web browsers have navigation buttons
+               alongside the address bar that allow a user to go back and refresh web pages.
+
+               How secure are the web pages that you visit?
+               When using the internet, it is important to know whether a web page is secure. There
+               are many web pages that are secure, but there are also millions of websites that do not
+               require a high level of security.
+               Websites that take payment details online should use high-security SSL (Secure Sockets
+               Layer) certificates, otherwise the data could be seen by hackers, whereas a website that
+               simply displays information (for example, a list of cricket fixtures) would not need to use
+               an SSL certificate.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+               It can be difficult to tell which websites are secure and which are insecure, but web
+               browsers have some built-in tools that can help you decide whether to use them.
+               The address bar displays information about the security of a web page.
+               l Look at the padlock icon in the address bar. This shows that the page has an SSL
+                 certificate. This certificate proves that the owner of this website is genuine.
+               l The address bar also shows the protocol that data is sent by. In the following example,
+                 you can see that the URL begins with https, which is the secure way to send data
+                 between your computer and the webpage.
+
+               l   By clicking on the padlock, further information about the website’s security can be seen.
+
+               If a website has an SSL
+               certificate, it means that
+               anything sent between                                         Encryption converts data into
+               the web server and                                    something that cannot be recognised when it is
+               the browser, including                             transmitted. Only the device that the data is sent to is
+               any data typed in by                              able to decrypt the data using a key. This means that if
+               the user, is encrypted                          a hacker were to intercept the data, they would not be able
+                                                                                     to understand it.
+               (or scrambled) before
+               it is sent and is then                             In the example of google.com, the website uses a type
+               decrypted when it is                                  of encryption that would take modern computers
+               received.                                                    500 billion years to decrypt without
+                                                                                           the key.
+
+                 KEYWORDS
+                 display window: where the content is displayed when downloaded from a web server
+                 navigation buttons: back, forwards and refresh buttons are included to help navigate pages; all
+                 browsers also have bookmark features for saving pages
+                 address bar: allows the user to type in a URL to go to a chosen website, via DNS
+                 SSL (Secure Sockets Layer): technology for keeping a connection between devices secure through
+                 encryption
+                 SSL certificate: a digital certificate that confirms that a website is genuine and allows it to use an
+                 encrypted connection using SSL
+                 padlock icon: shows in the address bar if the page is sent via HTTPS and is secure
+                 protocol: set of rules for how data is sent between devices
+                 encryption: a process that scrambles data so that it cannot be read by unauthorised users; only the
+                 device that the data is sent to is able to decrypt the data using a key
+
+            Practise
+               1 Explain to a partner how encryption is used to send data from
+                 one device to another.
+                 Give some examples in your day-to-day life where you think it
+                 would be important to keep data secure during transmission.
+               2 Look at these examples and explain to a partner which need
+                 to be secure and which do not:
+                 – A website that takes card payments for sports tickets
+                 – A website that shows a list of top sports players and the
+                    number of points they have received in their sport
+                 – A website that allows users to send pictures of their pets,
+                    including the owner’s name and address.
+               3 Discuss with a partner whether a technology company's news
+                 page would need to be secure.
+               4 Explain to a partner exactly what to do to check a website’s
+                 security.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+            Insecure websites
+             Learn
+               Some websites do not use HTTPS with an SSL
+               certificate. This means that if you were to enter
+               any information on this website, it would not be
+               encrypted before it was sent, which means that
+               hackers could read your data.
+               This is what the address bar looks like on an
+               insecure website. When you click the triangle
+               icon, a message will appear.
+
+                  Checking the validity of a website
+                  Just because a website uses SSL and HTTPS does not mean that it is entirely safe.
+                  If your computer had a virus, it could trick your web browser into thinking that a
+                  website is secure when it is not.
+                  There are ways to verify the trusted certificate of a website, to check whether it is as
+                  secure as your web browser states:
+                  l By clicking the padlock, the certificate can be viewed. Below you can see the
+                    certificate given to micropython.org. You can also see who gave MicroPython the
+                    certificate: in this case, R3.
+
+                  l   It is also possible to check who owns the domain name, to make sure that this
+                      company actually owns the website. The website https://who.is can be used to
+                      find the owner of a website, and usually provides an address and contact details
+                      for the owner of a domain name.
+
+              KEYWORDS
+              hackers: people who may try to access data that they are not allowed to access
+              virus: software designed to cause damage to computer systems
+              verify: to check that something is correct
+
+            Practise
+               1 Identify whether the websites in the table below are
+                 secure or insecure.                                                                      To find the SSL
+                                                                                                      certificate issuer, you
+                 – If it is secure, find the SSL certificate issuer                            should click on the padlock, then
+                    (the organisation who gave the website its SSL                               click the 'certificate is
+                    certificate).                                                                  valid' option to see the
+                 – Copy and complete the table to show your results.                               certificate details. This will
+                                                                                                    reveal who issued the SSL
+                        Domain                Secure or             SSL certificate                         certificate.
+                                              insecure?             issuer
+                        neverssl.com
+                        bbc.co.uk
+                        info.cern.ch
+                        nasa.gov
+
+               2 Visit three websites that you use often to find out whether they are using an SSL
+                 certificate. Add these to the table.
+               3 Visit https://who.is and find out as much information as you can about the domain
+                 names listed below. This could include the owner, location or email address.
+                 – neverssl.com
+                 – bbc.co.uk
+                 – amazon.com
+                 – nasa.gov
+               4 Discuss with your partner why you think the websites you found with an SSL certificate
+                 have one. Do they send personal data?
+                 What about the websites that do not have an SSL certificate? Why is this?
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+            Keeping it all secure
+             Learn
+               Security is important when transmitting messages and using networks. Messages that
+               are transmitted between devices on a network can be intercepted, risking sensitive
+               information being stolen or misused. If devices were to send messages without
+               protecting them in any way, then the plaintext messages sent between devices could be
+               read and understood by anybody able to capture the
+               message.                                                               If a bank wanted
+                                                                                    to send you details to
+               Encryption allows devices to send messages to each               log into your account, would
+               other securely. These messages can still be intercepted,           they send a message in
+               but if the message is encrypted, the message could not              plaintext? Explain your
+               be understood. Encryption encodes or scrambles data                   answer to a partner.
+               into a format that cannot be understood and that can
+               only be decrypted using the correct key.
+
+                                                    Your password is:
+                   Computer 1                           aXa1239          Computer 2
+                      www.africanews.com
+                   Message:                                                 www.africanews.com
+                                                                         Message:
+                   Your password is: aXa1239                             Your password is: aXa1239
+
+               Unencrypted data transmission
+
+                                                    Your password is:
+                   Computer 1                       JHAF&^£-FDJG£        Computer 2
+                      www.africanews.com
+                   Message:                                                 www.africanews.com
+                                                                         Message:
+                   Your password is: aXa1239                             Your password is: aXa1239
+
+               Encrypted data transmission
+
+               Encryption algorithms
+               To encrypt data, an algorithm is used and agreed with the device receiving the data, so
+               that the device can decode the message.
+
+                 The Caesar cipher
+                 The Caesar cipher is a famous technique that can be used to encrypt messages. This
+                 cipher works by shifting the alphabet along by a specified number of places. The first
+                 row (containing the alphabet) is plaintext. The second row shows the cipher text. For
+                 example, a Caesar cipher with a shift of two would look like this:
+
+                  plaintext       A B     C   D E           F       G H I                J       K       L   M N O         P   Q R       S   T   U V         W X       Y   Z
+                  cipher          Y   Z   A B       C       D E          F       G H I                   J   K     L   M N O P           Q R     S   T       U   V     W X
+                  text
+
+                 Simple substitution cipher
+                 A simple substitution cipher works in a similar way to the Caesar shift. This time, letters
+                 are shifted at random, and to decode it, a user or device would need to know the full
+                 character list.
+
+                  plaintext       A B     C   D E           F       G H I                J       K       L       M N O P       Q R       S   T   U V W X               Y   Z
+                  cipher          C   K   U J       B       Q T          P       Y       H I             O A       X   R   Z   F   W M N E           S       G   L     V D
+                  text
+
+                 For example:                                                                                                                SSL is a form of
+                                                                                                                                       encryption that is incredibly
+                 The message in plaintext is: HELLO
+                                                                                                                                         powerful and cannot be
+                 Encrypted using a simple substitution cipher it is: PBOOR                                                                 decoded if the data
+                                                                                                                                              is intercepted.
+
+              KEYWORDS
+              plaintext: a message before encryption or after decryption; a message that can be read easily
+              encryption: a process that scrambles data so that it cannot be understood by unauthorised users; only
+              the device that the data is sent to is able to decrypt the data using a key
+              algorithm: a sequence of steps or instructions to solve a problem
+              cipher text: a message once it has been encrypted
+
+            Practise
+               1 a U
+                    sing the given Caesar cipher with a shift of two, write down the encrypted message
+                   for the plaintext message “COMPUTER”.
+                        A   B     C   D E     F     G           H I          J       K       L       M N O             P   Q R     S     T   U V     W X         Y     Z
+                        Y   Z     A   B   C   D     E           F   G        H       I       J       K       L    M N O        P   Q     R   S   T   U       V   W X
+
+                 b Now encrypt the word ‘CIPHER’ using the Caesar cipher table above.
+               2 Using the given simple substitution cipher, write down the decrypted message for the
+                 cipher message “UYZPBW”.
+                    A   B     C   D E     F     G       H I          J       K       L       M N O P                   Q R     S   T     U V     W X         Y     Z
+                    C   K     U J     B   Q     T       P       Y    H       I       O       A       X       R    Z    F   W M N E           S   G       L   V     D
+
+             CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+               3 Copy and complete this grid to create a Caesar cipher with a shift of six.
+
+                    A   B   C   D E     F   G   H I     J   K   L   M N O P   Q R   S   T   U V   W X   Y   Z
+
+                 – Create an encrypted message (a word of your choice).
+                 – Swap this message with a partner.
+                 – Decode each other’s messages.
+               4 Why is encryption used during data transmission? Explain to a partner how encryption
+                 works. Include this vocabulary in your explanation:
+                 – Network
+                 – Security
+                 – Plaintext
+                 – Scramble.
+               5 Discuss why is it important that users understand how encryption works.
+                 – How can users check whether websites they use are encrypted?
+                 – How would you explain to somebody who has not created a cipher before how to
+                    encrypt and decrypt a message?
+
+             Sending messages
+             Learn
+               On networks, data is frequently sent between devices. When devices send data between
+               each other, they use IP addresses to identify where to send the information.
+               Computers communicate with each other using binary code, but
+               sometimes these binary messages can be corrupted or interfered with,                    Look back
+               causing errors.                                                                      to page 47 for a
+                                                                                                    reminder about
+               There are a number of reasons why errors can occur:                                    binary code.
+               l power surges
+               l broken or damaged cables
+               l electrical interference
+               l hacking.
+               These issues can cause binary bits to flip between 1 and 0, causing errors in the data
+               being sent.
+
+                 Imagine that one computer (Computer 1) is transmitting a single byte of data to another
+                 computer (Computer 2). The computer that is receiving the data has a faulty cable.
+
+                 Computer 1 wants to send the byte 01000101 but, due to the faulty cable, Computer 2
+                 receives it as 00000101.
+
+                                                                           !
+
+                     Computer 1                                     Computer 2
+                     Message:
+                     www.africanews.com
+                                                                    Message:
+                                                                    www.africanews.com
+
+                     01000101                                       00000101
+
+                 In this example, the broken cable has caused the second digit of the byte to be flipped
+                 from a 1 to a 0, resulting in an error on Computer 2.
+
+              KEYWORDS
+              binary: a number system that uses combinations of two digits (0 and 1) to represent all numbers; used to
+              represent data in computer systems
+              corrupted: binary code can be lost or scrambled if an error occurs
+              power surge: computer hardware can be damaged by a temporary increase in power, often caused by lightning
+              electrical interference: when lots of electrical devices are operating in a small area, the electrical and
+              radio waves can cause other devices to work incorrectly
+              bit: short for ‘binary digit’; a single bit of data, either a 0 or a 1
+              byte: a group of 8 bits of data, often used to represent a single character in a computer, e.g. 01010011
+
+            Practise
+               In a small group, produce a mind map containing a section for each of the two bullet
+               points below:
+               l why errors occur in data transmission
+               l what an error looks like.
+
+            Intelligent search engines
+             Learn
+               Search engines on the internet store large databases of websites and their content.
+               Users type queries into the search engine’s website and a list of webpages from the
+               database that match the search criteria are returned.
+               Search engines are becoming more accurate from the use of machine learning and
+               artificial intelligence.
+               l Search engines use keywords to find content. They do not require users to write in
+                  full sentences and most searches are for one, two or three words.
+               l Search engines are a quick and easy way for users to find information online. The
+                  example below shows a user searching for game consoles.
+               l Search engines will pick out the keywords from a query, so if the user typed ‘Show me
+                  the latest game consoles’ the search engine would focus on the words ‘game consoles’.
+
+             CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+               Search engines have started to use artificial intelligence to improve their search results,
+               to make them more appropriate for what the user is looking for. For example, every
+               time somebody searches for ‘helicopters’,
+               search engines remember which page
+               the user actually wanted. They then move                          Google stores over
+               this page further up the search listings,                     35 trillion web pages in its
+                                                                        database. There is huge competition
+               to make it easier for other users to find it
+                                                                         from companies to be listed at the
+               quickly.
+                                                                         top of their search results. Search-
+               Some search engines track your location                     engine optimisation is a career
+               so that relevant information is displayed.                    path that many interested
+               For example, if a user in Cairo searches                          in the internet and
+               for ‘bicycle repair shops’, it would show                            searching take.
+               results in the Cairo area.
+
+              KEYWORDS
+              search engine: a website designed to search for content on other websites
+              database: a computer application that is used to organise data that can then be stored, processed and
+              accessed electronically
+              machine learning: computer systems that are able to learn and adapt by analysing patterns in data
+              artificial Intelligence: an area of computing that focuses on creating intelligent computers that can
+              mimic the way humans think and make decisions; a computer system able to perform tasks normally
+              done using human intelligence, such as understanding speech
+
+             Practise
+               1 Open the file Think like a search engine.docx provided by your teacher.
+                 – Match the appropriate search phrases to the keywords.
+                 – Match the keywords that you have identified for each phrase to an appropriate
+                   website. You should copy and paste the link from the address bar of your web
+                   browser into the ‘Website returned’ column of the table, for example:
+
+                        Search phrase                            Keywords             Website returned
+                        ‘A picture of a helicopter landing on    helicopter landing   https://www.researchgate.net/figure/
+                        an island’                               island               The-helicopter-landing-spot-on-
+                                                                                      Nuulua-Island-used-for-dropping-the-
+                                                                                      monitoring-team-and_fig2_258927849
+                        ‘Pictures of fast red cars driving’
+                        ‘A website with lots of information
+                        about the coolest gadgets’
+                        ‘Find me the top new songs that I can
+                        play’
+                        ‘What is the most popular film this
+                        year that I could watch?’
+
+               2 Think about the way in which search engines select the keywords from the search
+                 phrase. With a partner, discuss these questions:
+                 – Why is it important to have an awareness of keywords when typing a search phrase?
+                 – Did you find any examples that required more keywords to find the information you
+                   needed? Why?
+
+             AI and reverse image searches
+
+             Learn
+               Search engines are programmed to focus on the topic of the search query, picking
+               keywords from long search queries and ignoring anything that is not necessary. But what
+               if users want to search for something without typing in keywords?
+               Search engines have programmed their artificial intelligence to provide new ways to
+               search. It is now possible to search for pictures using an image. To do this, search engines
+               use image-recognition technology. This method of searching is called a reverse image
+               search and uses artificial intelligence to ‘view’ the image and decide what the image is of.
+
+                 How reverse image searches work
+                 From the web browser, select ‘search by image’. After pasting or uploading the file of an
+                 image into the browser, a selection of similar images and links to relevant web pages will
+                 appear.
+
+                 When a user uses a digitised image to search, the image gets compared with billions of
+                 other images in the database. The computer looks at distinctive points, colours, lines and
+                 textures and compares what it ‘sees’ against billions of other images in its database. When
+                 similar images are found in the database, these are returned to the user.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+                 In the example below, an image of a helicopter was uploaded. The reverse image
+                 search identified that the image was a helicopter and even managed to identify the
+                 exact make and model, a ‘Bell 206’.
+
+                                                                          There are an estimated 5.6 billion
+                                                                  searches using the Google search engine per day,
+                                                                which means Google has vast amounts of data for its
+                                                           AI systems to learn from. In the case of the helicopter, Google
+                                                           has automatically catalogued images similar to the helicopter
+                                                               image that was provided for the reverse image search.
+                                                               Gradually, search engines get more and more accurate,
+                                                                learning from previous searches. In this case, Google
+                                                                   would learn only to return images of helicopters,
+                                                                        as that is what the user is looking for.
+
+               Artificial intelligence in searches
+               AI technology is improving rapidly, and the more people use AI, the more accurate it
+               gets. Search engines use the same machine-learning technology as shown in the example
+               on the next page. Here, a computer has learned to match images drawn by the user with
+               images that have been drawn previously by other users.
+
+               In the example above, the website challenges the user to draw a picture (a giraffe) and
+               the AI in the program tries to work out what it thinks the user’s picture looks similar to.
+               As the user was drawing a giraffe, the machine learning and neural networks (a type of
+               machine learning designed to mimic the way the human brain works) were looking back
+               at all of the other users who drew a giraffe to try to find examples where the other users
+               were drawing a similar item.
+               Search engines are making use of image recognition to improve the results they can offer
+               to users in their searches, but also to offer new ways to search.
+
+              KEYWORDS
+              image recognition: computers identifying similarities in lines, colours, textures and shapes of an image
+              in an attempt to identify objects
+              digitised image: a computer representation of an image, often in file formats such as JPEG, GIF, PNG or TIFF
+              neural network: a type of machine learning designed to mimic the way the human brain works
+
+              DID YOU KNOW?
+              Machine-learning technology has
+              allowed new types of apps to be made,
+              for example an app that allows users to
+              take a photo of something, which then
+              identifies the object from the picture.
+
+            CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+            Practise
+               1 Open the file Reverse Image Search World Tour.docx provided by your teacher.
+                 – Find the location of as many images as you can.
+                 – For each image, perform a reverse image search and complete a row in a table like
+                   the one below, for example:
+
+                        Image name               Image                               Location
+                        Image 1                                                      Colosseum, Rome,
+                                                                                     Italy
+
+               2 Explain to your partner how AI has improved the way that search engines work.
+
+             Go further
+               This flowchart shows a basic example of the Caesar cipher                      Start
+
+               algorithm, used for encryption of messages.
+               1 Look at the algorithm, used to encrypt and decrypt messages
+                                                                                         INPUT plaintext
+                  sent.
+                  – In pairs, copy the flowchart and annotate it to show what
+                     each part of the algorithm does.                                      INPUT shift
+                  – Explain to your partner in less than one minute how this
+                     algorithm works, from start to finish.
+                                                                                  Convert plaintext to encrypted
+                  – If plaintext = ‘CHALLENGE’ and shift = 2, what would be the       (using shift number)
+                     output on the flowchart?
+               2 Create your own flowchart algorithm for the Caesar cipher.
+                  – Your flowchart should allow a user to input their name in          OUTPUT encrypted
+                     plaintext.
+                  – Any inputs will be shifted by five to the right.
+                                                                                              Stop
+                  – When completed, your algorithm should output the word
+                     ‘ENCRYPTED’, followed by the cipher text.
+
+             Challenge yourself
+               Your challenge is to investigate the IP addresses of the devices that you use. For this task,
+               you should gather any devices together that you have easy access to. This could include
+               laptops, PCs, mobile phones and tablets.
+               If you are in class and you do not have access to more than one device, you should swap
+               computers with someone else in your group and find the IP address of their computer.
+               You should amend the table below if required.
+
+               1 Copy the table below and add a row for any other devices that you have access to.
+                 Leave the IP address column blank.
+                    Device                                     IP address
+                    Mobile phone
+                    PC
+                    Laptop
+                    Tablet
+
+                 Finding the IP address of devices
+                 There are a number of ways to find the IP address for your devices. The appropriate
+                 method will depend on what operating system your device uses.
+                 Mobile phones and tablets
+                 The IP address of these devices can usually be found by visiting Settings > Network
+                 Settings > Wi-Fi Networks > Click your Wi-Fi network.
+                 Mac computer
+                 Go to Settings > Network then click on the Currently Connected network.
+                 Windows
+                 To find your IP address on Windows, move your mouse pointer over the network icon
+                 in the task bar at the bottom right of the screen and click properties.
+
+               2 Find the IP address of each of your devices and complete the table.
+
+             CAMBRIDGE LOWER SECONDARY COMPUTING 7
+
+              KEYWORD
+              operating system: the systems software that manages hardware and software
+              on a device
+
+                Final project
+                Look back at page 83 to remind yourself of the Scenario at the start of this unit. Your task
+                is to create a presentation to collate information about how certain technologies work. The
+                information in your presentation will be used on the news page for the technology website.
+                1 Open the file Final Project.pptx provided by your teacher. Use this file to create your
+                    presentation, following the criteria from the technology company below.
+
+                   The requirements of your presentation are:
+
+                   Slide 1
+                   a Explain how somebody could use Bluetooth, Wi-Fi and cellular data (4G and 5G)
+                      to connect their mobile device to the internet to access a web page.
+                   b Describe when it may be better to use 5G than 4G and explain why.
+
+                   Slides 2–3
+                   a Explain what IP addresses are, how they work and what they are used for.
+                   b Explain the structure of a URL and why we use URLs to locate web pages.
+
+                   Slides 4–5
+                   a Explain two ways that show a web page is secure and how to find information on
+                      the security certificates of a website.
+                   b Explain how data can be transmitted securely using encryption, what this is and
+                      why it is important.
+                   c Outline the reasons why errors can occur in data transmission.
+
+                   Slides 6–8
+                   a Explain how a search engine categorises data (selects keywords from a search
+                      query).
+                   b Explain how AI is used in search-engine results.
+                   c List the steps that a computer takes when using AI to match images.
+                   d Outline another way in which AI is used, apart from search engines.
+
+                2 Check that your presentation has covered all the requirements outlined above. Make
+                  sure that it explains the technologies clearly. You could add diagrams or images to
+                  the slides.
+
+             Evaluation
+               1 Swap presentations with a partner and read each other’s
+                 content. Add comments on each slide as follows:
+                 – Does it cover all of the requirements?
+                 – Is the content easy to understand?
+                 – How could the presentation be improved?
+               2 Open your presentation and read the comments left by your
+                 partner.
+               3 Make a list of recommendations to improve the information on
+                 the presentation. Apply some of the recommendations to your
+                 presentation.
+
+            What can you do?
+
+                 Read and review what you can do.
+                 4 I can explain how IP addresses work and are used.
+                 4 I can explain what the structure of a URL looks like and how it is used.
+                 4 I can explain how DNS enables users to access websites on their devices.
+                 4 I know the different ways in which devices transmit data and can explain the
+                   difference between the networks.
+                 4 I can explain how errors occur in data transmission and apply ways to check that a
+                   message is sent correctly.
+                 4 I can explain the use of encryption to keep data safe during transmission.
+                 4 I can encode and decode messages using a cipher.
+                 4 I can explain how to check if a website is secure.
+                 4 I can find information on the security certificates of a website.
+                 4 I can explain how AI is used to improve the output of search-engine results.
+                 4 I can explain the uses of AI in internet searching and other applications such as
+                   image recognition technologies.
+                 4 I understand that a web browser is a type of application software.

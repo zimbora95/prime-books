@@ -6373,6 +6373,24 @@
       );
 
       /* ---- flex book: any catalogue title can take the 3D stage ---- */
+      /* ---- Per-subject Prime Books PDFs -------------------------------
+         Key: "<year>|<subject>" exactly as they appear in the CSV
+         (the CSV uses "Year 7", not "Year 07" - the zero-padded form is
+         only used in the on-disk folder path).
+         NOTE: serve these from the public ROOT. Vite's dev server falls
+         back to index.html for deep public paths containing spaces and
+         "&" (pdf.js then chokes on HTML with InvalidPDFException), so the
+         master copy lives in Output/ and a serving copy sits at the root.
+         A match here makes the Preview button open that book's own real
+         flipbook instead of the shared Humanities sample.               */
+      const SUBJECT_PDFS = {
+        "Year 7|Computing & Robotics":
+          "/PrimeBooks%20Computing%20Year%207.pdf",
+      };
+      function pdfForSubject(year, subj) {
+        return SUBJECT_PDFS[year + "|" + subj] || null;
+      }
+
       function cfgForCard(row, edKey) {
         const st = SUBJECT_STYLE[row.subj] || {};
         const t = st.title
@@ -6404,7 +6422,7 @@
           priceCents: ed.cents,
           audio: null,
           audioCents: 0,
-          flipbook: null,
+          flipbook: pdfForSubject(row.year, row.subj),
           editions: [
             ["Student Manual", !!row.s],
             ["Teacher's Guide", !!row.t],
@@ -6700,13 +6718,36 @@
         fbHiT = null;
       const fbHiDone = new Set();
       let fbSections = [];
+      let fbUrl = null; /* which PDF the current flipbook was built from */
 
       pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
 
       function openFlipbook(cfg) {
         document.body.classList.add("fb-open");
         fbEl.setAttribute("aria-hidden", "false");
-        if (!fbFlip) buildFlipbook(cfg.flipbook);
+        /* header must name the book actually being previewed, not the
+           hardcoded Humanities sample */
+        const nameEl = document.getElementById("fbName");
+        if (nameEl)
+          nameEl.textContent =
+            (cfg.title || "Prime Books") +
+            (cfg.band ? " \u00b7 " + cfg.band : "") +
+            " \u2014 Student Manual";
+        if (!fbFlip || fbUrl !== cfg.flipbook) {
+          /* different book than the one already built: tear the old one
+             down first, otherwise pages from both PDFs stack up */
+          if (fbFlip) {
+            try {
+              fbFlip.destroy();
+            } catch (e) {}
+            fbFlip = null;
+          }
+          fbBook.innerHTML = "";
+          fbSections = [];
+          fbHiDone.clear();
+          fbUrl = cfg.flipbook;
+          buildFlipbook(cfg.flipbook);
+        }
       }
       function closeFlipbook() {
         document.body.classList.remove("fb-open");
