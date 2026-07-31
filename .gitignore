@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Serving copies of the real books (masters live on H: drive Output/ folders)
+public/*.pdf
+copy-books.sh

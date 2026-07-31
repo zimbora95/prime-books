@@ -1847,26 +1847,10 @@
       </div>
       <div class="price-row">
         <div class="price" id="dpPrice"></div>
-        <div class="price-note" id="dpAudio"></div>
       </div>
       <div class="rule"></div>
       <div class="actions">
-        <button class="pill lang" id="langPill">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-          >
-            <circle cx="12" cy="12" r="9" />
-            <path
-              d="M3 12h18M12 3c2.8 2.6 2.8 15.4 0 18M12 3c-2.8 2.6-2.8 15.4 0 18"
-            />
-          </svg>
-          <span id="dpLang">English</span>
-        </button>
         <button class="pill buy" id="buyBtn">Buy Now</button>
-        <button class="pill audio" id="audioBtn">Buy Audiobook</button>
         <button class="pill preview" id="previewBtn">
           <svg
             viewBox="0 0 24 24"
@@ -1995,7 +1979,6 @@
         <div class="toc-head">In this book</div>
         <div id="fbTocList"></div>
       </div>
-      <div class="fb-thumbs" id="fbThumbs"></div>
     </div>
 
     <div class="toast" id="toast"></div>
@@ -5202,7 +5185,7 @@
           priceCents: 2490,
           audio: null,
           audioCents: 0,
-          flipbook: null,
+          flipbook: "/PrimeBooks%20Mathematics%20Year%203.pdf",
           editions: [
             ["Student Manual", true],
             ["Teacher's Guide", true],
@@ -5220,7 +5203,7 @@
           spineBg: "#101a3f",
           spineInk: "#f6f1e6",
           spineFont: "700 44px Arial",
-          coverURL: null,
+          coverURL: "/covers/PrimeBooks%20Mathematics%20Year%203.jpg",
         },
         {
           id: "humanities-y7",
@@ -5258,7 +5241,7 @@
           spineBg: "#101a3f",
           spineInk: "#f6f1e6",
           spineFont: "700 44px Arial",
-          coverURL: null,
+          coverURL: "/covers/PrimeBooks%20Humanities%20Year%207.jpg",
         },
         {
           id: "portugues-y9",
@@ -5278,7 +5261,7 @@
           priceCents: 2690,
           audio: null,
           audioCents: 0,
-          flipbook: null,
+          flipbook: "/PrimeBooks%20Portuguese%201st%20Year%209.pdf",
           editions: [
             ["Student Manual", true],
             ["Teacher's Guide", true],
@@ -5296,7 +5279,7 @@
           spineBg: "#101a3f",
           spineInk: "#f6f1e6",
           spineFont: "700 38px Arial",
-          coverURL: null,
+          coverURL: "/covers/PrimeBooks%20Portuguese%201st%20Year%209.jpg",
         },
       ];
 
@@ -5564,7 +5547,7 @@
 
         const b = {
           cfg,
-          texs: { fc, bc, sc, frontTex, backTex, spineTex },
+          texs: { fc, bc, sc, frontTex, backTex, spineTex, mFront },
           index,
           root,
           float,
@@ -5890,13 +5873,9 @@
       const dpChips = document.getElementById("dpChips");
       const dpYear = document.getElementById("dpYear");
       const dpPrice = document.getElementById("dpPrice");
-      const dpAudio = document.getElementById("dpAudio");
-      const dpLang = document.getElementById("dpLang");
       const buyBtn = document.getElementById("buyBtn");
-      const audioBtn = document.getElementById("audioBtn");
       const previewBtn = document.getElementById("previewBtn");
       const saveBtn = document.getElementById("saveBtn");
-      const langPill = document.getElementById("langPill");
       function populatePanel(cfg) {
         dpStage.innerHTML = '<span class="dash"></span>' + cfg.stage;
         dpTitle.textContent = cfg.title;
@@ -5914,10 +5893,6 @@
           )
           .join("");
         dpPrice.textContent = cfg.price;
-        dpAudio.textContent = cfg.audio
-          ? "Audiobook " + cfg.audio
-          : "Audiobook coming soon";
-        dpLang.textContent = cfg.lang;
       }
 
       const pill = document.getElementById("openBtn");
@@ -6072,26 +6047,10 @@
         const cfg = state.selected && state.selected.cfg;
         if (cfg) addToCart(cfg.tag + " — Student Manual", cfg.priceCents);
       });
-      audioBtn.addEventListener("click", () => {
-        const cfg = state.selected && state.selected.cfg;
-        if (!cfg) return;
-        if (cfg.audioCents) addToCart(cfg.tag + " — Audiobook", cfg.audioCents);
-        else toast("Audiobook coming soon for this title");
-      });
       saveBtn.addEventListener("click", () => {
         const cfg = state.selected && state.selected.cfg;
         if (cfg) toast("Saved to your list — " + cfg.tag);
       });
-      langPill.addEventListener("click", () => {
-        const cfg = state.selected && state.selected.cfg;
-        if (!cfg) return;
-        toast(
-          cfg.lang === "English"
-            ? "This edition is published in English"
-            : "This edition is published in Portuguese",
-        );
-      });
-
       /* ---- catalogue overlay (parsed at runtime from the Subjects CSV) ---- */
       const catEl = document.getElementById("cat");
       const catFilters = document.getElementById("catFilters");
@@ -6334,6 +6293,12 @@
       function coverURL(year, subj) {
         const key = year + "|" + subj;
         if (coverCache.has(key)) return coverCache.get(key);
+        /* real books: page 1 of the PDF IS the cover */
+        const real = coverImgFor(year, subj);
+        if (real) {
+          coverCache.set(key, real);
+          return real;
+        }
         const st = SUBJECT_STYLE[subj] || {};
         const t = st.title ? { lines: st.title, size: st.size } : coverTitle(subj);
         const cv = document.createElement("canvas");
@@ -6378,17 +6343,83 @@
          (the CSV uses "Year 7", not "Year 07" - the zero-padded form is
          only used in the on-disk folder path).
          NOTE: serve these from the public ROOT. Vite's dev server falls
-         back to index.html for deep public paths containing spaces and
-         "&" (pdf.js then chokes on HTML with InvalidPDFException), so the
-         master copy lives in Output/ and a serving copy sits at the root.
+         back to index.html for public paths containing "&" (pdf.js then
+         chokes on HTML with InvalidPDFException) - verified at root level
+         too, so serving names use "and" instead of "&". The master copy
+         lives in Output/ on H: and a serving copy sits at the root.
          A match here makes the Preview button open that book's own real
          flipbook instead of the shared Humanities sample.               */
       const SUBJECT_PDFS = {
-        "Year 7|Computing & Robotics":
-          "/PrimeBooks%20Computing%20Year%207.pdf",
+        "Year 1|Art & Design": "/PrimeBooks%20Art%20and%20Design%20Year%201.pdf",
+        "Year 1|Computing & Robotics": "/PrimeBooks%20Computing%20and%20Robotics%20Year%201.pdf",
+        "Year 1|English": "/PrimeBooks%20English%20Year%201.pdf",
+        "Year 1|Global Perspectives": "/PrimeBooks%20Global%20Perspectives%20Year%201.pdf",
+        "Year 2|English": "/PrimeBooks%20English%20Year%202.pdf",
+        "Year 2|Mathematics": "/PrimeBooks%20Mathematics%20Year%202.pdf",
+        "Year 3|Mathematics": "/PrimeBooks%20Mathematics%20Year%203.pdf",
+        "Year 4|English": "/PrimeBooks%20English%20Year%204.pdf",
+        "Year 4|Mathematics": "/PrimeBooks%20Mathematics%20Year%204.pdf",
+        "Year 4|Science & Lab": "/PrimeBooks%20Science%20and%20Lab%20Year%204.pdf",
+        "Year 5|Mathematics": "/PrimeBooks%20Mathematics%20Year%205.pdf",
+        "Year 6|Mathematics": "/PrimeBooks%20Mathematics%20Year%206.pdf",
+        "Year 7|English": "/PrimeBooks%20English%20Year%207.pdf",
+        "Year 7|Humanities (History & Geography)": "/PrimeBooks%20Humanities%20Year%207.pdf",
+        "Year 7|Computing & Robotics": "/PrimeBooks%20Computing%20and%20Robotics%20Year%207.pdf",
+        "Year 7|Mathematics": "/PrimeBooks%20Mathematics%20Year%207.pdf",
+        "Year 7|Portuguese 1st": "/PrimeBooks%20Portuguese%201st%20Year%207.pdf",
+        "Year 7|Science": "/PrimeBooks%20Science%20Year%207.pdf",
+        "Year 8|English": "/PrimeBooks%20English%20Year%208.pdf",
+        "Year 8|Humanities (History & Geography)": "/PrimeBooks%20Humanities%20Year%208.pdf",
+        "Year 8|Mathematics": "/PrimeBooks%20Mathematics%20Year%208.pdf",
+        "Year 8|Science": "/PrimeBooks%20Science%20Year%208.pdf",
+        "Year 9|English": "/PrimeBooks%20English%20Year%209.pdf",
+        "Year 9|Humanities (History & Geography)": "/PrimeBooks%20Humanities%20Year%209.pdf",
+        "Year 9|Mathematics": "/PrimeBooks%20Mathematics%20Year%209.pdf",
+        "Year 9|Portuguese 1st (IGCSE)": "/PrimeBooks%20Portuguese%201st%20Year%209.pdf",
+        "Year 9|Science": "/PrimeBooks%20Science%20Year%209.pdf",
+        "Year 10|Physical Education Gym": "/PrimeBooks%20Physical%20Education%20Gym%20Year%2010.pdf",
+        "Year 12|Physical Education & Gym": "/PrimeBooks%20Physical%20Education%20and%20Gym%20Year%2012.pdf",
       };
       function pdfForSubject(year, subj) {
         return SUBJECT_PDFS[year + "|" + subj] || null;
+      }
+
+      /* Page-1 renders of the real PDFs (gen_covers.py), used as cover art
+         on catalogue cards and on the 3D book front. Same key format as
+         SUBJECT_PDFS. Subjects without a real book keep procedural covers. */
+      const COVER_IMGS = {
+        "Year 1|Art & Design": "/covers/PrimeBooks%20Art%20and%20Design%20Year%201.jpg",
+        "Year 1|Computing & Robotics": "/covers/PrimeBooks%20Computing%20and%20Robotics%20Year%201.jpg",
+        "Year 1|English": "/covers/PrimeBooks%20English%20Year%201.jpg",
+        "Year 1|Global Perspectives": "/covers/PrimeBooks%20Global%20Perspectives%20Year%201.jpg",
+        "Year 2|English": "/covers/PrimeBooks%20English%20Year%202.jpg",
+        "Year 2|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%202.jpg",
+        "Year 3|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%203.jpg",
+        "Year 4|English": "/covers/PrimeBooks%20English%20Year%204.jpg",
+        "Year 4|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%204.jpg",
+        "Year 4|Science & Lab": "/covers/PrimeBooks%20Science%20and%20Lab%20Year%204.jpg",
+        "Year 5|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%205.jpg",
+        "Year 6|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%206.jpg",
+        "Year 7|English": "/covers/PrimeBooks%20English%20Year%207.jpg",
+        "Year 7|Humanities (History & Geography)": "/covers/PrimeBooks%20Humanities%20Year%207.jpg",
+        "Year 7|Computing & Robotics": "/covers/PrimeBooks%20Computing%20and%20Robotics%20Year%207.jpg",
+        "Year 7|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%207.jpg",
+        "Year 7|Portuguese 1st": "/covers/PrimeBooks%20Portuguese%201st%20Year%207.jpg",
+        "Year 7|Science": "/covers/PrimeBooks%20Science%20Year%207.jpg",
+        "Year 8|English": "/covers/PrimeBooks%20English%20Year%208.jpg",
+        "Year 8|Humanities (History & Geography)": "/covers/PrimeBooks%20Humanities%20Year%208.jpg",
+        "Year 8|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%208.jpg",
+        "Year 8|Science": "/covers/PrimeBooks%20Science%20Year%208.jpg",
+        "Year 9|English": "/covers/PrimeBooks%20English%20Year%209.jpg",
+        "Year 9|Humanities (History & Geography)": "/covers/PrimeBooks%20Humanities%20Year%209.jpg",
+        "Year 9|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%209.jpg",
+        "Year 9|Portuguese 1st (IGCSE)": "/covers/PrimeBooks%20Portuguese%201st%20Year%209.jpg",
+        "Year 9|Science": "/covers/PrimeBooks%20Science%20Year%209.jpg",
+        "Year 10|Physical Education Gym": "/covers/PrimeBooks%20Physical%20Education%20Gym%20Year%2010.jpg",
+        "Year 12|Physical Education & Gym": "/covers/PrimeBooks%20Physical%20Education%20and%20Gym%20Year%2012.jpg",
+      };
+      function coverImgFor(year, subj) {
+        return COVER_IMGS[year + "|" + subj] || null;
       }
 
       function cfgForCard(row, edKey) {
@@ -6446,8 +6477,48 @@
           spineBg: "#101a3f",
           spineInk: "#f6f1e6",
           spineFont: "700 44px Arial",
-          coverURL: null,
+          coverURL: coverImgFor(row.year, row.subj),
         };
+      }
+
+      /* Real cover art on the 3D front face, one cached texture per URL.
+         Needed for the flex book: buildBook's own coverURL branch only runs
+         once at build time, but repaintBook swaps titles afterwards - without
+         this the front would stay stuck on whichever cover loaded first.
+         Falls back to the procedural canvas texture when no cover exists. */
+      const coverTexCache = new Map();
+      function applyCoverTex(b, url) {
+        const m = b.texs.mFront;
+        if (!url) {
+          if (m.map !== b.texs.frontTex) {
+            m.map = b.texs.frontTex;
+            m.needsUpdate = true;
+          }
+          return;
+        }
+        const hit = coverTexCache.get(url);
+        if (hit) {
+          if (m.map !== hit) {
+            m.map = hit;
+            m.needsUpdate = true;
+          }
+          return;
+        }
+        new THREE.TextureLoader().setCrossOrigin("anonymous").load(
+          url,
+          (t) => {
+            t.encoding = THREE.sRGBEncoding;
+            t.anisotropy = ANISO;
+            coverTexCache.set(url, t);
+            /* the flex book may have moved on to another title meanwhile */
+            if (b.cfg && b.cfg.coverURL === url) {
+              m.map = t;
+              m.needsUpdate = true;
+            }
+          },
+          undefined,
+          () => console.warn("Cover image missing:", url),
+        );
       }
 
       function repaintBook(b, cfg) {
@@ -6465,6 +6536,7 @@
         sx.clearRect(0, 0, 220, 1536);
         paintSpine(sx, 220, 1536, cfg);
         t.spineTex.needsUpdate = true;
+        applyCoverTex(b, cfg.coverURL || null);
       }
 
       /* the 4th book lives parked offscreen until a card summons it */
@@ -6712,7 +6784,6 @@
       const fbTocBtn = document.getElementById("fbTocBtn");
       const fbTocPanel = document.getElementById("fbTocPanel");
       const fbTocList = document.getElementById("fbTocList");
-      const fbThumbs = document.getElementById("fbThumbs");
       let fbFlip = null,
         fbCount = 0,
         fbHiT = null;
@@ -6742,6 +6813,12 @@
             } catch (e) {}
             fbFlip = null;
           }
+          /* PageFlip.destroy() also removes the #fbBook ROOT from the DOM
+             (this.block.remove()), so re-attach it before rebuilding -
+             otherwise the next book renders perfectly but off-DOM, i.e.
+             an invisible flipbook with the loader hidden. */
+          if (!fbBook.isConnected)
+            fbLoad.parentElement.insertBefore(fbBook, fbLoad);
           fbBook.innerHTML = "";
           fbSections = [];
           fbHiDone.clear();
@@ -6868,51 +6945,14 @@
         );
       }
 
-      /* thumbnail rail */
-      async function buildThumbs(doc, base) {
-        fbThumbs.innerHTML = "";
-        for (let i = 0; i < fbCount; i++) {
-          const b = document.createElement("button");
-          b.className = "fb-thumb";
-          b.setAttribute("aria-label", "Page " + (i + 1));
-          b.appendChild(document.createElement("canvas"));
-          b.addEventListener("click", () => fbFlip.flip(i));
-          fbThumbs.appendChild(b);
-        }
-        let i = 0;
-        async function step() {
-          if (!fbFlip) return;
-          const end = Math.min(fbCount, i + 4);
-          for (; i < end; i++) {
-            const page = await doc.getPage(i + 1);
-            const vp = page.getViewport({ scale: 122 / base.width });
-            const cv = fbThumbs.children[i].firstChild;
-            cv.width = Math.round(vp.width);
-            cv.height = Math.round(vp.height);
-            await page.render({
-              canvasContext: cv.getContext("2d"),
-              viewport: vp,
-            }).promise;
-          }
-          if (i < fbCount) setTimeout(step, 50);
-        }
-        step();
-      }
-      function markThumb(i) {
-        [...fbThumbs.children].forEach((el, k) =>
-          el.classList.toggle("cur", k === i),
-        );
-        const cur = fbThumbs.children[i];
-        if (cur)
-          cur.scrollIntoView({
-            behavior: "smooth",
-            inline: "center",
-            block: "nearest",
-          });
-      }
-
       async function buildFlipbook(url) {
         try {
+          /* re-arm the loader: it is hidden inline at the end of every build,
+             so without this a reopened preview shows a blank stage with no
+             spinner while the next book loads */
+          fbLoad.style.display = "flex";
+          fbBar.style.width = "0%";
+          fbTotal.textContent = "–";
           fbLbl.textContent = "Fetching the book…";
           const doc = await pdfjsLib.getDocument(url).promise;
           fbCount = doc.numPages;
@@ -6944,13 +6984,14 @@
             }).promise;
           }
 
-          /* low-res pass with progress */
+          /* fast open: only the first pages render before the loader lifts.
+             The remaining pages fill in the background afterwards - a
+             180-page book used to wait for all 180 renders before opening. */
           const loScale = 640 / base.height;
-          for (let i = 0; i < fbCount; i++) {
+          const firstN = Math.min(fbCount, 4);
+          for (let i = 0; i < firstN; i++) {
             await renderPage(i, loScale);
-            fbBar.style.width = Math.round(((i + 1) / fbCount) * 100) + "%";
-            fbLbl.textContent =
-              "Preparing the book — " + (i + 1) + " / " + fbCount;
+            fbBar.style.width = Math.round(((i + 1) / firstN) * 100) + "%";
           }
 
           fbFlip = new St.PageFlip(fbBook, {
@@ -6978,7 +7019,6 @@
             fbPageInput.value = i + 1;
             fbPrev.disabled = fbBack5.disabled = i <= 0;
             fbNext.disabled = fbFwd5.disabled = i >= fbCount - 1;
-            markThumb(i);
             markToc(i);
           }
           ind();
@@ -7011,8 +7051,15 @@
           }
           upgrade();
 
-          /* navigation extras: thumbs now, sections in the background */
-          buildThumbs(doc, base);
+          /* background-fill the remaining low-res pages (stops if the user
+             switches books); sections build in the background too */
+          let bgI = firstN;
+          (function fillRest() {
+            if (!fbFlip || fbUrl !== url) return;
+            const end = Math.min(fbCount, bgI + 2);
+            for (; bgI < end; bgI++) renderPage(bgI, loScale);
+            if (bgI < fbCount) setTimeout(fillRest, 30);
+          })();
           buildSections(doc).then((secs) => {
             fbSections = secs;
             renderToc();
