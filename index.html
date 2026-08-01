@@ -912,6 +912,174 @@
         line-height: 1.6;
         color: #4a5170;
       }
+      .collection-overview {
+        display: none;
+        --overview-accent: #f2b300;
+        max-width: 1500px;
+        margin: 40px auto 32px;
+        padding: 0 42px;
+      }
+      .collection-overview-head {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: end;
+        gap: 32px;
+        margin-bottom: 18px;
+      }
+      .collection-overview-copy {
+        display: flex;
+        align-items: baseline;
+        gap: 14px;
+        min-width: 0;
+      }
+      .collection-overview-copy b {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(24px, 2.4vw, 36px);
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: -0.025em;
+      }
+      .collection-overview-count {
+        flex: none;
+        color: var(--red);
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+      .collection-overview-note {
+        color: #6a7194;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+      .collection-shelf {
+        position: relative;
+        min-height: 440px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        overscroll-behavior-inline: contain;
+        scroll-snap-type: x proximity;
+        scrollbar-color: rgba(12, 19, 52, 0.32) transparent;
+        scrollbar-width: thin;
+        border-top: 1px solid rgba(12, 19, 52, 0.12);
+        border-bottom: 1px solid rgba(12, 19, 52, 0.12);
+        background:
+          linear-gradient(90deg, rgba(255,255,255,.55), transparent 7%, transparent 93%, rgba(255,255,255,.55)),
+          repeating-linear-gradient(90deg, rgba(12,19,52,.035) 0 1px, transparent 1px 112px);
+      }
+      .collection-shelf::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 45px;
+        height: 9px;
+        background:
+          linear-gradient(to bottom, rgba(255,255,255,.9), rgba(164,143,102,.28)),
+          var(--overview-accent);
+        box-shadow: 0 16px 28px rgba(12, 19, 52, 0.18);
+        pointer-events: none;
+      }
+      .collection-shelf-track {
+        display: flex;
+        align-items: flex-end;
+        gap: 7px;
+        width: max-content;
+        min-width: 100%;
+        min-height: 430px;
+        padding: 28px 28px 60px;
+      }
+      .collection-cover {
+        --cover-w: 148px;
+        position: relative;
+        flex: 0 0 var(--cover-w);
+        width: var(--cover-w);
+        aspect-ratio: 2480 / 3189;
+        padding: 0;
+        border: 0;
+        border-radius: 2px 7px 7px 2px;
+        background: #fff;
+        box-shadow:
+          0 2px 0 rgba(255,255,255,.75) inset,
+          -3px 0 0 rgba(12,19,52,.12) inset,
+          0 17px 25px rgba(12,19,52,.22);
+        overflow: hidden;
+        transform-origin: 50% 100%;
+        transform: translateY(var(--cover-lift, 0px)) rotate(var(--cover-tilt, 0deg));
+        transition:
+          transform 0.42s cubic-bezier(.2,.8,.2,1),
+          box-shadow 0.35s ease,
+          filter 0.35s ease;
+        scroll-snap-align: center;
+      }
+      .collection-cover:nth-child(5n + 1) { --cover-lift: -5px; --cover-tilt: -0.6deg; }
+      .collection-cover:nth-child(5n + 2) { --cover-lift: 2px; --cover-tilt: 0.45deg; }
+      .collection-cover:nth-child(5n + 3) { --cover-lift: -1px; --cover-tilt: -0.2deg; }
+      .collection-cover:nth-child(5n + 4) { --cover-lift: -7px; --cover-tilt: 0.65deg; }
+      .collection-cover img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .collection-cover::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(105deg, rgba(255,255,255,.22), transparent 12% 82%, rgba(12,19,52,.08));
+        pointer-events: none;
+      }
+      .collection-cover:hover,
+      .collection-cover:focus-visible {
+        z-index: 3;
+        transform: translateY(-18px) rotate(0deg) scale(1.12);
+        box-shadow: 0 28px 42px rgba(12,19,52,.34);
+        filter: saturate(1.06);
+      }
+      .collection-cover:focus-visible {
+        outline: 3px solid var(--red);
+        outline-offset: 4px;
+      }
+      .collection-cover-tip {
+        position: fixed;
+        z-index: 75;
+        max-width: min(290px, calc(100vw - 32px));
+        padding: 11px 14px;
+        border: 1px solid rgba(246,241,230,.14);
+        border-radius: 12px;
+        background: rgba(12,19,52,.95);
+        box-shadow: 0 16px 38px rgba(12,19,52,.28);
+        color: #fff;
+        opacity: 0;
+        pointer-events: none;
+        transform: translate(-50%, 8px);
+        transition: opacity .18s ease, transform .22s ease;
+      }
+      .collection-cover-tip.on {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+      .collection-cover-tip b {
+        display: block;
+        font-size: 13px;
+        line-height: 1.25;
+      }
+      .collection-cover-tip span {
+        display: block;
+        margin-top: 3px;
+        color: #cbd1e8;
+        font-size: 11px;
+      }
+      .collection-overview-status {
+        display: grid;
+        place-items: center;
+        min-height: 400px;
+        color: #6a7194;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        font-style: italic;
+      }
       .cat-filters {
         display: flex;
         align-items: center;
@@ -1101,6 +1269,37 @@
         .cat-body {
           padding-left: 20px;
           padding-right: 20px;
+        }
+        .collection-overview {
+          margin-top: 30px;
+          padding: 0 20px;
+        }
+        .collection-overview-head {
+          grid-template-columns: 1fr;
+          gap: 6px;
+        }
+        .collection-overview-copy {
+          align-items: center;
+          justify-content: space-between;
+        }
+        .collection-overview-note {
+          display: none;
+        }
+        .collection-shelf {
+          min-height: 342px;
+          margin-inline: -20px;
+        }
+        .collection-shelf-track {
+          min-height: 334px;
+          gap: 5px;
+          padding: 24px 20px 56px;
+        }
+        .collection-cover {
+          --cover-w: 108px;
+        }
+        .collection-cover:hover,
+        .collection-cover:focus-visible {
+          transform: translateY(-10px) rotate(0deg) scale(1.06);
         }
         .cat-filters {
           top: 86px;
@@ -1913,6 +2112,19 @@
           Workbook.
         </p>
       </div>
+      <section class="collection-overview" aria-labelledby="collectionOverviewTitle">
+        <div class="collection-overview-head">
+          <div class="collection-overview-copy">
+            <b id="collectionOverviewTitle">The whole shelf, at a glance.</b>
+            <span class="collection-overview-count" id="collectionOverviewCount">107 books</span>
+          </div>
+          <span class="collection-overview-note">Drag or scroll to travel from Year 1 to Year 12</span>
+        </div>
+        <div class="collection-shelf" id="collectionShelf" tabindex="0" aria-label="Overview of every Prime Book cover">
+          <div class="collection-overview-status">Loading the complete shelf&hellip;</div>
+        </div>
+        <div class="collection-cover-tip" id="collectionCoverTip" role="status" aria-live="polite"></div>
+      </section>
       <div class="cat-stick">
         <div class="cat-filters" id="catFilters">
           <div class="ydrop" id="ydrop">
@@ -5047,11 +5259,7 @@
         x.fillStyle = RED;
         x.font = "600 30px Arial";
         drawSpaced(x, "BOOKS", w / 2, 250, 24);
-        if (!cfg.small) {
-          x.fillStyle = MIST;
-          x.font = "500 19px Arial";
-          drawSpaced(x, "PRIME SCHOOL", w / 2, 292, 10);
-        }
+        /* PRIME SCHOOL text removed per user request */
 
         /* stage label */
         x.fillStyle = accent;
@@ -5095,13 +5303,7 @@
         x.fill();
         x.fillStyle = CREAM;
         drawSpaced(x, bandTxt, w / 2, 1297, 6);
-        if (!cfg.small) {
-          x.font = "600 21px Arial";
-          drawSpaced(x, cfg.edition || "STUDENT'S MANUAL", w / 2, 1372, 8);
-          x.fillStyle = MIST;
-          x.font = "500 19px Arial";
-          x.fillText("www.primeschool.pt", w / 2, 1444);
-        }
+        /* edition label, website URL, and PRIME SCHOOL removed per user request */
         x.textAlign = "left";
       }
 
@@ -5200,8 +5402,8 @@
           edge: "#dfe4ef",
           backBg: "#101a3f",
           backInk: "246,241,230",
-          spineBg: "#101a3f",
-          spineInk: "#f6f1e6",
+          spineBg: "#ee7623",
+          spineInk: "#12203a",
           spineFont: "700 44px Arial",
           coverURL: "/covers/PrimeBooks%20Mathematics%20Year%203.jpg",
         },
@@ -5238,8 +5440,8 @@
           edge: "#e8e2d2",
           backBg: "#101a3f",
           backInk: "246,241,230",
-          spineBg: "#101a3f",
-          spineInk: "#f6f1e6",
+          spineBg: "#c99a16",
+          spineInk: "#12203a",
           spineFont: "700 44px Arial",
           coverURL: "/covers/PrimeBooks%20Humanities%20Year%207.jpg",
         },
@@ -5276,8 +5478,8 @@
           edge: "#e8e2d2",
           backBg: "#101a3f",
           backInk: "246,241,230",
-          spineBg: "#101a3f",
-          spineInk: "#f6f1e6",
+          spineBg: "#7a1f2b",
+          spineInk: "#ffffff",
           spineFont: "700 38px Arial",
           coverURL: "/covers/PrimeBooks%20Portuguese%201st%20Year%209.jpg",
         },
@@ -6080,9 +6282,139 @@
         }
       });
       const catBody = document.getElementById("catBody");
+      const collectionShelf = document.getElementById("collectionShelf");
+      const collectionOverviewCount = document.getElementById(
+        "collectionOverviewCount",
+      );
+      const collectionCoverTip = document.getElementById("collectionCoverTip");
       let catData = null,
         catFilter = "All",
         edFilter = "manual";
+      let collectionBooks = null;
+
+      const YEAR_COLOURS = {
+        1: "#f2b300",
+        2: "#7fc4e8",
+        3: "#ee7623",
+        4: "#5fbb46",
+        5: "#c2247f",
+        6: "#825fc1",
+        7: "#c99a16",
+        8: "#5b2a86",
+        9: "#7a1f2b",
+        10: "#4a5d3a",
+        11: "#1f4fa8",
+        12: "#c8102e",
+        13: "#12a5c4",
+      };
+      /* spine text colour per year: dark ink on light spines, white on dark */
+      const YEAR_SPINE_INK = {
+        1: "#12203a", 2: "#12203a", 3: "#12203a", 4: "#12203a",
+        5: "#ffffff", 6: "#ffffff", 7: "#12203a", 8: "#ffffff",
+        9: "#ffffff", 10: "#ffffff", 11: "#ffffff", 12: "#ffffff",
+        13: "#12203a",
+      };
+
+      function escapeHTML(value) {
+        return String(value).replace(
+          /[&<>'"]/g,
+          (char) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              "'": "&#39;",
+              '"': "&quot;",
+            })[char],
+        );
+      }
+
+      function renderCollectionOverview(books) {
+        if (!collectionShelf) return;
+        const ordered = books
+          .slice()
+          .sort((a, b) => a.year - b.year || a.subject.localeCompare(b.subject));
+        collectionOverviewCount.textContent = ordered.length + " books";
+        collectionShelf.innerHTML =
+          '<div class="collection-shelf-track">' +
+          ordered
+            .map((book) => {
+              const label =
+                book.subject + ", Year " + book.year;
+              return (
+                '<button class="collection-cover" type="button"' +
+                ' data-year="Year ' +
+                book.year +
+                '" data-subject="' +
+                escapeHTML(book.subject) +
+                '" aria-label="' +
+                escapeHTML(label) +
+                '">' +
+                '<img src="' +
+                book.cover +
+                '" alt="" width="560" height="720" loading="lazy" decoding="async">' +
+                "</button>"
+              );
+            })
+            .join("") +
+          "</div>";
+
+        const covers = collectionShelf.querySelectorAll(".collection-cover");
+        function showCoverTip(cover) {
+          const rect = cover.getBoundingClientRect();
+          collectionCoverTip.innerHTML =
+            "<b>" +
+            escapeHTML(cover.dataset.subject) +
+            "</b><span>" +
+            escapeHTML(cover.dataset.year) +
+            "</span>";
+          collectionCoverTip.style.left =
+            Math.max(150, Math.min(window.innerWidth - 150, rect.left + rect.width / 2)) +
+            "px";
+          collectionCoverTip.style.top = Math.max(82, rect.top - 70) + "px";
+          collectionCoverTip.classList.add("on");
+          const yearNum = parseInt(cover.dataset.year.slice(5), 10);
+          collectionShelf.closest(".collection-overview").style.setProperty(
+            "--overview-accent",
+            YEAR_COLOURS[yearNum] || "#d61f2c",
+          );
+        }
+        function hideCoverTip() {
+          collectionCoverTip.classList.remove("on");
+        }
+        covers.forEach((cover) => {
+          cover.addEventListener("mouseenter", () => showCoverTip(cover));
+          cover.addEventListener("mouseleave", hideCoverTip);
+          cover.addEventListener("focus", () => showCoverTip(cover));
+          cover.addEventListener("blur", hideCoverTip);
+        });
+
+        collectionShelf.onclick = (event) => {
+          const cover = event.target.closest(".collection-cover");
+          if (!cover) return;
+          const row =
+            catData &&
+            catData.find(
+              (item) =>
+                item.year === cover.dataset.year &&
+                item.subj === cover.dataset.subject,
+            );
+          if (row) {
+            openFlex(row.year, row.subj, "manual");
+            closeCatalogue();
+          } else {
+            catFilter = cover.dataset.year;
+            edFilter = "manual";
+            renderCatalogue();
+            hideCoverTip();
+            document.querySelector(".cat-stick").scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        };
+
+      }
 
       const FEATURED = [
         {
@@ -6102,6 +6434,7 @@
       function openCatalogue() {
         document.body.classList.add("cat-open");
         catEl.setAttribute("aria-hidden", "false");
+        catEl.scrollTop = 0;
         if (!catData) loadCatalogue();
       }
       function closeCatalogue() {
@@ -6127,26 +6460,26 @@
         .getElementById("catHome")
         .addEventListener("click", closeCatalogue);
 
+      if (location.search.includes("catalogue=1")) {
+        requestAnimationFrame(openCatalogue);
+      }
+
       function loadCatalogue() {
-        fetch("/PRIMEBOOKS%20-%20Subjects.csv")
-          .then((r) => r.text())
-          .then((text) => {
-            const rows = [];
-            text.split(/\r?\n/).forEach((line) => {
-              const c = line.split(",");
-              if (c.length < 5) return;
-              const year = c[0].trim();
-              const subj = (c[1] || "").trim();
-              if (!/^Year \d+$/.test(year) || !subj) return;
-              rows.push({
-                year,
-                subj,
-                s: c[2].trim() === "TRUE",
-                t: c[3].trim() === "TRUE",
-                w: c[4].trim() === "TRUE",
-              });
-            });
-            catData = rows;
+        fetch("/collection-books.json")
+          .then((r) => {
+            if (!r.ok) throw new Error("Collection manifest unavailable");
+            return r.json();
+          })
+          .then((books) => {
+            collectionBooks = books;
+            catData = books.map((book) => ({
+              year: "Year " + book.year,
+              subj: book.subject,
+              s: true,
+              t: false,
+              w: false,
+              cover: book.cover,
+            }));
             renderCatalogue();
           })
           .catch(() => {
@@ -6293,6 +6626,12 @@
       function coverURL(year, subj) {
         const key = year + "|" + subj;
         if (coverCache.has(key)) return coverCache.get(key);
+        const catalogueBook =
+          catData && catData.find((item) => item.year === year && item.subj === subj);
+        if (catalogueBook && catalogueBook.cover) {
+          coverCache.set(key, catalogueBook.cover);
+          return catalogueBook.cover;
+        }
         /* real books: page 1 of the PDF IS the cover */
         const real = coverImgFor(year, subj);
         if (real) {
@@ -6474,10 +6813,10 @@
           edge: "#e8e2d2",
           backBg: "#101a3f",
           backInk: "246,241,230",
-          spineBg: "#101a3f",
-          spineInk: "#f6f1e6",
+          spineBg: YEAR_COLOURS[parseInt(row.year.slice(5), 10)] || "#101a3f",
+          spineInk: YEAR_SPINE_INK[parseInt(row.year.slice(5), 10)] || "#f6f1e6",
           spineFont: "700 44px Arial",
-          coverURL: coverImgFor(row.year, row.subj),
+          coverURL: row.cover || coverImgFor(row.year, row.subj),
         };
       }
 
@@ -6676,10 +7015,10 @@
                   : "") +
                 "</div>" +
                 "<h4>" +
-                r.subj +
+                (r.title || r.subj) +
                 "</h4>" +
                 '<div class="bed">' +
-                e.label +
+                r.subj + " · " + e.label +
                 "</div>" +
                 '<span class="from solo"><b>' +
                 e.price +
@@ -6724,7 +7063,7 @@
               " <span>" +
               (edFilter === "all"
                 ? nBooks + " books across " + rows.length + " subjects"
-                : nShown + " of " + nBooks + " books") +
+                : nShown + " books") +
               "</span></h3>" +
               '<div class="cat-grid">' +
               cards +
