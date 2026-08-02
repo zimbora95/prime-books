@@ -1022,6 +1022,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        object-position: left center;
       }
       .collection-cover::after {
         content: "";
@@ -1629,7 +1630,7 @@
       .bcov {
         position: relative;
         aspect-ratio: 2 / 3;
-        border-radius: 12px;
+        border-radius: 4px 12px 12px 4px;
         overflow: hidden;
         background: #101a3f;
         box-shadow: 0 8px 22px rgba(12, 19, 52, 0.18);
@@ -1638,6 +1639,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        object-position: left center;
         display: block;
         opacity: 0;
         transition: opacity 0.5s ease;
@@ -5341,13 +5343,17 @@
         x.translate(w / 2, h / 2);
         x.rotate(Math.PI / 2);
         x.fillStyle = cfg.spineInk;
-        x.font = cfg.spineFont;
         const spineTitle = cfg.yearNum
           ? cfg.title.toUpperCase() + " — YEAR " + cfg.yearNum
           : cfg.title.toUpperCase();
+        /* adaptive font: longer titles get smaller size to avoid crowding */
+        const baseSize = spineTitle.length > 28 ? 26
+          : spineTitle.length > 20 ? 30
+          : 34;
+        x.font = "700 " + baseSize + "px Arial";
         drawSpaced(x, spineTitle, -h * 0.1, 15, 6);
         x.globalAlpha = 0.85;
-        x.font = "600 25px Arial";
+        x.font = "600 20px Arial";
         drawSpaced(x, cfg.author.toUpperCase(), h * 0.325, 9, 4);
         x.globalAlpha = 1;
         x.restore();
