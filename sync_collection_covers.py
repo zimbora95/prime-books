@@ -11,8 +11,8 @@ from pathlib import Path
 
 from PIL import Image
 
-FACTORY = Path(r"C:\Users\alexa\Documents\The Prime Books\_assets\v2")
-PLAN = FACTORY / "plan.json"
+FACTORY = Path(r"C:\Users\alexa\Documents\The Prime Books\_assets\v3")
+PLAN = Path(r"C:\Users\alexa\Documents\The Prime Books\_assets\v2\plan.json")
 SOURCE_COVERS = FACTORY / "cover"
 PUBLIC = Path(__file__).resolve().parent / "public"
 OUT = PUBLIC / "collection-covers"

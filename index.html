@@ -5193,29 +5193,39 @@
         comp(x, cx, cy, A, A2, prim);
       }
 
-      /* ---- the Prime Books cover: one layout, branded per subject -------- */
+      /* ---- the Prime Books v3.1 cover: premium editorial + year spine -------- */
       function paintPrime(x, w, h, cfg) {
         const yr = cfg.yearNum || 0;
-        const accent = yr
-          ? shiftHue(cfg.accent, (((yr - 1) % 3) - 1) * 30)
-          : cfg.accent;
-        const NAVY2 = "#0a1230",
-          CREAM = "#f6f1e6",
-          RED = "#c8102e",
-          MIST = "#aeb8dd";
-        const g = x.createLinearGradient(0, 0, 0, h);
-        g.addColorStop(0, "#17234f");
-        g.addColorStop(0.55, "#101a3f");
-        g.addColorStop(1, NAVY2);
-        x.fillStyle = g;
+        const PAPER = "#faf5eb",
+          INK = "#1a1a1a",
+          MUTED = "#6b6b5e",
+          YEAR_SPINE = {
+            1: "#f2b300", 2: "#7fc4e8", 3: "#ee7623", 4: "#5fbb46",
+            5: "#c2247f", 6: "#825fc1", 7: "#c99a16", 8: "#5b2a86",
+            9: "#7a1f2b", 10: "#4a5d3a", 11: "#1f4fa8", 12: "#c8102e",
+            13: "#12a5c4",
+          },
+          YEAR_SPINE_INK = {
+            1: "#12203a", 2: "#12203a", 3: "#12203a", 4: "#12203a",
+            5: "#f6f1e6", 6: "#f6f1e6", 7: "#12203a", 8: "#f6f1e6",
+            9: "#f6f1e6", 10: "#f6f1e6", 11: "#f6f1e6", 12: "#f6f1e6",
+            13: "#12203a",
+          };
+        const spineCol = YEAR_SPINE[yr] || "#c27a4a";
+        const spineInk = YEAR_SPINE_INK[yr] || "#12203a";
+        const spineW = Math.round(w * 0.055);
+        const margin = spineW + Math.round(w * 0.062);
+
+        /* cream paper background */
+        x.fillStyle = PAPER;
         x.fillRect(0, 0, w, h);
 
-        /* cloth weave hint (skipped on small catalogue renders) */
+        /* subtle paper grain */
         if (!cfg.small) {
-          x.globalAlpha = 0.045;
-          x.strokeStyle = "#ffffff";
+          x.globalAlpha = 0.02;
+          x.strokeStyle = "#000";
           x.lineWidth = 1;
-          for (let i = 0; i < h; i += 6) {
+          for (let i = 0; i < h; i += 4) {
             x.beginPath();
             x.moveTo(0, i);
             x.lineTo(w, i);
@@ -5224,91 +5234,67 @@
           x.globalAlpha = 1;
         }
 
-        /* double frame */
-        x.strokeStyle = "rgba(246,241,230,.8)";
-        x.lineWidth = 3;
-        x.strokeRect(30, 30, w - 60, h - 60);
-        x.strokeStyle = "rgba(200,16,46,.85)";
-        x.lineWidth = 1.5;
-        x.strokeRect(46, 46, w - 92, h - 92);
+        /* year-coloured spine on left (no text) */
+        x.fillStyle = spineCol;
+        x.fillRect(0, 0, spineW, h);
 
-        x.textAlign = "center";
-
-        /* per-year pattern language */
-        if (yr) {
-          x.save();
-          x.globalAlpha = 0.1;
-          YEAR_PATTERNS[(yr - 1) % YEAR_PATTERNS.length](x, w, h, accent);
-          x.restore();
-        }
-
-        /* star + arc (the Prime mark) */
-        x.strokeStyle = CREAM;
-        x.lineWidth = 4;
-        x.beginPath();
-        x.arc(w / 2, 250, 168, Math.PI * 1.22, Math.PI * 1.78);
-        x.stroke();
-        x.fillStyle = RED;
-        starPath(x, w / 2, 102, 30, 12.5);
-        x.fill();
-
-        /* wordmark */
-        x.fillStyle = CREAM;
-        x.font = "800 62px Arial";
-        drawSpaced(x, "PRIME", w / 2, 208, 20);
-        x.fillStyle = RED;
-        x.font = "600 30px Arial";
-        drawSpaced(x, "BOOKS", w / 2, 250, 24);
-        /* PRIME SCHOOL text removed per user request */
-
-        /* stage label */
-        x.fillStyle = accent;
-        x.font = "700 24px Arial";
-        drawSpaced(x, cfg.stageLabel.toUpperCase(), w / 2, 428, 6);
-
-        /* title */
-        const ts = cfg.titleSize || 96;
-        x.fillStyle = CREAM;
-        cfg.titleLines.forEach((line, i) => {
-          x.font = "800 " + ts + "px Arial";
-          x.fillText(line, w / 2, 552 + i * (ts + 12));
-        });
-        const afterT = 552 + (cfg.titleLines.length - 1) * (ts + 12);
-        /* red rule */
-        x.fillStyle = RED;
-        rr(x, w / 2 - 70, afterT + 32, 140, 8, 4);
-        x.fill();
-        /* subtitle */
-        if (cfg.subtitle) {
-          x.fillStyle = MIST;
-          x.font = "italic 500 40px Georgia";
-          x.fillText(cfg.subtitle, w / 2, afterT + 102);
-        }
-
-        /* cover art: a different illustration for every subject × year */
-        x.save();
-        if (yr) drawCoverArt(x, w / 2, 985, cfg.artSubj || cfg.title || "", yr, accent);
-        else if (cfg.motif) cfg.motif(x, w / 2, 985, accent);
-        x.restore();
-
-        /* year band */
-        x.font = "800 34px Arial";
-        const bandTxt = cfg.band.toUpperCase();
-        const bw = Math.max(
-          320,
-          x.measureText(bandTxt).width + 6 * bandTxt.length + 90,
-        );
-        x.fillStyle = RED;
-        rr(x, w / 2 - bw / 2, 1246, bw, 78, 39);
-        x.fill();
-        x.fillStyle = CREAM;
-        drawSpaced(x, bandTxt, w / 2, 1297, 6);
-        /* edition label, website URL, and PRIME SCHOOL removed per user request */
         x.textAlign = "left";
+
+        /* Prime Books logo: small text version, top-left above title */
+        const logoY = margin * 0.55;
+        x.fillStyle = INK;
+        x.font = "700 " + Math.round(w * 0.022) + "px Arial";
+        x.fillText("PRIME", margin, logoY);
+        x.fillStyle = "#c8102e";
+        x.font = "600 " + Math.round(w * 0.016) + "px Arial";
+        x.fillText("BOOKS", margin, logoY + w * 0.02);
+
+        /* title — substantially smaller */
+        const titleY = logoY + w * 0.02 + margin * 0.5;
+        const titleLines = cfg.titleLines || [cfg.title || ""];
+        const ts = cfg.titleSize || Math.round(w * 0.055);
+        x.fillStyle = INK;
+        titleLines.forEach((line, i) => {
+          x.font = "800 " + ts + "px Arial";
+          x.fillText(line, margin, titleY + i * (ts + 4));
+        });
+        const afterT = titleY + (titleLines.length - 1) * (ts + 4);
+
+        /* year */
+        x.font = "700 " + Math.round(w * 0.032) + "px Arial";
+        x.fillStyle = INK;
+        x.fillText("Year " + yr, margin, afterT + w * 0.048);
+
+        /* Cambridge programme */
+        const prog = yr <= 4 ? "Cambridge Early Years"
+          : yr <= 6 ? "Cambridge Primary"
+          : yr <= 9 ? "Cambridge Lower Secondary"
+          : yr <= 11 ? "Cambridge Upper Secondary"
+          : "Cambridge Advanced";
+        x.font = "500 " + Math.round(w * 0.024) + "px Arial";
+        x.fillStyle = MUTED;
+        x.fillText(prog, margin, afterT + w * 0.072);
+
+        /* subtitle */
+        x.font = "400 " + Math.round(w * 0.024) + "px Arial";
+        x.fillStyle = MUTED;
+        x.fillText(cfg.edition || "Student Manual", margin, afterT + w * 0.092);
+
+        /* divider — year spine colour */
+        x.fillStyle = spineCol;
+        x.fillRect(margin, afterT + w * 0.105, w * 0.07, 3);
       }
 
       function paintBack(x, w, h, cfg) {
-        x.fillStyle = cfg.backBg;
+        /* back cover uses the year spine colour */
+        const yr = cfg.yearNum || 0;
+        const YEAR_SPINE = {
+          1: "#f2b300", 2: "#7fc4e8", 3: "#ee7623", 4: "#5fbb46",
+          5: "#c2247f", 6: "#825fc1", 7: "#c99a16", 8: "#5b2a86",
+          9: "#7a1f2b", 10: "#4a5d3a", 11: "#1f4fa8", 12: "#c8102e",
+          13: "#12a5c4",
+        };
+        x.fillStyle = YEAR_SPINE[yr] || cfg.backBg;
         x.fillRect(0, 0, w, h);
         const ink = cfg.backInk;
         x.fillStyle = "rgba(" + ink + ",.5)";
@@ -5356,7 +5342,10 @@
         x.rotate(Math.PI / 2);
         x.fillStyle = cfg.spineInk;
         x.font = cfg.spineFont;
-        drawSpaced(x, cfg.title.toUpperCase(), -h * 0.1, 15, 6);
+        const spineTitle = cfg.yearNum
+          ? cfg.title.toUpperCase() + " — YEAR " + cfg.yearNum
+          : cfg.title.toUpperCase();
+        drawSpaced(x, spineTitle, -h * 0.1, 15, 6);
         x.globalAlpha = 0.85;
         x.font = "600 25px Arial";
         drawSpaced(x, cfg.author.toUpperCase(), h * 0.325, 9, 4);
@@ -5400,12 +5389,12 @@
             paintPrime(x, w, h, this);
           },
           edge: "#dfe4ef",
-          backBg: "#101a3f",
-          backInk: "246,241,230",
+          backBg: "#ee7623",
+          backInk: "18,32,58",
           spineBg: "#ee7623",
           spineInk: "#12203a",
           spineFont: "700 44px Arial",
-          coverURL: "/covers/PrimeBooks%20Mathematics%20Year%203.jpg",
+          coverURL: "/collection-covers/Y03-Mathematics.webp",
         },
         {
           id: "humanities-y7",
@@ -5438,12 +5427,12 @@
             paintPrime(x, w, h, this);
           },
           edge: "#e8e2d2",
-          backBg: "#101a3f",
-          backInk: "246,241,230",
+          backBg: "#c99a16",
+          backInk: "18,32,58",
           spineBg: "#c99a16",
           spineInk: "#12203a",
           spineFont: "700 44px Arial",
-          coverURL: "/covers/PrimeBooks%20Humanities%20Year%207.jpg",
+          coverURL: "/collection-covers/Y07-HumanitiesHistoryGeography.webp",
         },
         {
           id: "portugues-y9",
@@ -5476,12 +5465,12 @@
             paintPrime(x, w, h, this);
           },
           edge: "#e8e2d2",
-          backBg: "#101a3f",
+          backBg: "#7a1f2b",
           backInk: "246,241,230",
           spineBg: "#7a1f2b",
           spineInk: "#ffffff",
           spineFont: "700 38px Arial",
-          coverURL: "/covers/PrimeBooks%20Portuguese%201st%20Year%209.jpg",
+          coverURL: "/collection-covers/Y09-Portuguese1stIGCSE.webp",
         },
       ];
 
@@ -7013,12 +7002,6 @@
                 (e.key !== "manual"
                   ? '<span class="bflag ' + e.key + '">' + e.short + "</span>"
                   : "") +
-                "</div>" +
-                "<h4>" +
-                (r.title || r.subj) +
-                "</h4>" +
-                '<div class="bed">' +
-                r.subj + " · " + e.label +
                 "</div>" +
                 '<span class="from solo"><b>' +
                 e.price +
