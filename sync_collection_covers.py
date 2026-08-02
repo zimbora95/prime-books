@@ -20,6 +20,16 @@ MANIFEST = PUBLIC / "collection-books.json"
 WEB_WIDTH = 720
 WEB_HEIGHT = round(WEB_WIDTH * 3189 / 2480)
 
+# Public Google Drive viewers for the books whose PDF previews have been
+# explicitly published. Keep these in the manifest so the static Vercel site
+# never needs access to the local H: drive or to a bundled PDF file.
+DRIVE_URLS = {
+    "Y01-ArtDesign": "https://drive.google.com/file/d/1sRRUu9X0IA2ICmOYOxo1c2GyJFnUbwS0/view?usp=drive_link",
+    "Y01-ComputingRobotics": "https://drive.google.com/file/d/1-aeunOX8o5DvtbUW84KWkOOgiTVfGKYw/view?usp=drive_link",
+    "Y01-English": "https://drive.google.com/file/d/1I3HvdNVfmn4ttY-tMMQFceQQ0b_MSWK8/view?usp=drive_link",
+    "Y01-GlobalPerspectives": "https://drive.google.com/file/d/1t2oLAmQifvYI0tigEaIMee09IpUH6y5F/view?usp=drive_link",
+}
+
 
 def main() -> None:
     books = json.loads(PLAN.read_text(encoding="utf-8"))
@@ -43,14 +53,15 @@ def main() -> None:
             image = image.resize((WEB_WIDTH, WEB_HEIGHT), Image.Resampling.LANCZOS)
             image.save(dst, "WEBP", quality=84, method=6)
 
-        manifest.append(
-            {
-                "key": key,
-                "year": book["year"],
-                "subject": book["subject"],
-                "cover": f"/collection-covers/{name}",
-            }
-        )
+        entry = {
+            "key": key,
+            "year": book["year"],
+            "subject": book["subject"],
+            "cover": f"/collection-covers/{name}",
+        }
+        if drive_url := DRIVE_URLS.get(key):
+            entry["driveUrl"] = drive_url
+        manifest.append(entry)
 
     for stale in OUT.glob("*.webp"):
         if stale.name not in expected:

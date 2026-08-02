@@ -3,25 +3,29 @@
     "key": "Y01-ArtDesign",
     "year": 1,
     "subject": "Art & Design",
-    "cover": "/collection-covers/Y01-ArtDesign.webp"
+    "cover": "/collection-covers/Y01-ArtDesign.webp",
+    "driveUrl": "https://drive.google.com/file/d/1sRRUu9X0IA2ICmOYOxo1c2GyJFnUbwS0/view?usp=drive_link"
   },
   {
     "key": "Y01-ComputingRobotics",
     "year": 1,
     "subject": "Computing & Robotics",
-    "cover": "/collection-covers/Y01-ComputingRobotics.webp"
+    "cover": "/collection-covers/Y01-ComputingRobotics.webp",
+    "driveUrl": "https://drive.google.com/file/d/1-aeunOX8o5DvtbUW84KWkOOgiTVfGKYw/view?usp=drive_link"
   },
   {
     "key": "Y01-English",
     "year": 1,
     "subject": "English",
-    "cover": "/collection-covers/Y01-English.webp"
+    "cover": "/collection-covers/Y01-English.webp",
+    "driveUrl": "https://drive.google.com/file/d/1I3HvdNVfmn4ttY-tMMQFceQQ0b_MSWK8/view?usp=drive_link"
   },
   {
     "key": "Y01-GlobalPerspectives",
     "year": 1,
     "subject": "Global Perspectives",
-    "cover": "/collection-covers/Y01-GlobalPerspectives.webp"
+    "cover": "/collection-covers/Y01-GlobalPerspectives.webp",
+    "driveUrl": "https://drive.google.com/file/d/1t2oLAmQifvYI0tigEaIMee09IpUH6y5F/view?usp=drive_link"
   },
   {
     "key": "Y01-Mathematics",

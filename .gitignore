@@ -23,9 +23,14 @@ dist-ssr
 *.sln
 *.sw?
 
-# Serving copies of the real books (masters live on H: drive Output/ folders)
+# Serving copies of the real books (masters live on H: drive Output/ folders).
+# Regenerate with: python tools/sync_books.py
+# The old flat root copies:
 public/*.pdf
 copy-books.sh
+# Web-optimised flipbook copies (~129 MB across 35 books). Committing these
+# would bloat the repo; see tools/sync_books.py for how they are produced.
+public/books/
 
 # Workspace data — not for deployment
 public/subjects/

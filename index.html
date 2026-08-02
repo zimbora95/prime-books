@@ -559,6 +559,10 @@
         background: var(--gold);
         color: #241a06;
       }
+      .pill.preview[disabled] {
+        cursor: not-allowed;
+        filter: grayscale(0.72) opacity(0.55);
+      }
       .pill.iconb {
         width: 54px;
         padding: 0;
@@ -5382,7 +5386,6 @@
           priceCents: 2490,
           audio: null,
           audioCents: 0,
-          flipbook: "/PrimeBooks%20Mathematics%20Year%203.pdf",
           editions: [
             ["Student Manual", true],
             ["Teacher's Guide", true],
@@ -5420,7 +5423,6 @@
           priceCents: 2690,
           audio: "€9,90",
           audioCents: 990,
-          flipbook: "/PrimeBooks%20Humanities%20Year%207.pdf",
           editions: [
             ["Student Manual", true],
             ["Teacher's Guide", true],
@@ -5458,7 +5460,6 @@
           priceCents: 2690,
           audio: null,
           audioCents: 0,
-          flipbook: "/PrimeBooks%20Portuguese%201st%20Year%209.pdf",
           editions: [
             ["Student Manual", true],
             ["Teacher's Guide", true],
@@ -6090,6 +6091,18 @@
           )
           .join("");
         dpPrice.textContent = cfg.price;
+        const fb = flipbookFor(cfg);
+        const hasPreview = Boolean(fb || cfg.driveUrl);
+        previewBtn.disabled = !hasPreview;
+        previewBtn.setAttribute(
+          "aria-disabled",
+          hasPreview ? "false" : "true",
+        );
+        previewBtn.title = fb
+          ? "Read a preview in the flipbook"
+          : cfg.driveUrl
+            ? "Open PDF preview in Google Drive"
+            : "Preview link is being published";
       }
 
       const pill = document.getElementById("openBtn");
@@ -6102,7 +6115,10 @@
         pillOn = false;
       }
 
-      function open(book) {
+      /* Avoid the browser-global name `open`: a top-level `function open()`
+         replaces window.open in a classic script, which prevented external
+         Preview links from opening. */
+      function openBookDetail(book) {
         if (state.mode !== "hero" || !book) return;
         state.mode = "opening";
         state.selected = book;
@@ -6310,6 +6326,23 @@
         13: "#12203a",
       };
 
+      /* Deploy-safe Google Drive previews. Keep this fallback in the app as
+         well as the JSON manifest so an older cached manifest still opens
+         the supplied PDF rather than a local-only fallback. */
+      const DRIVE_PREVIEW_URLS = {
+        "Year 1|Art & Design":
+          "https://drive.google.com/file/d/1sRRUu9X0IA2ICmOYOxo1c2GyJFnUbwS0/view?usp=drive_link",
+        "Year 1|Computing & Robotics":
+          "https://drive.google.com/file/d/1-aeunOX8o5DvtbUW84KWkOOgiTVfGKYw/view?usp=drive_link",
+        "Year 1|English":
+          "https://drive.google.com/file/d/1I3HvdNVfmn4ttY-tMMQFceQQ0b_MSWK8/view?usp=drive_link",
+        "Year 1|Global Perspectives":
+          "https://drive.google.com/file/d/1t2oLAmQifvYI0tigEaIMee09IpUH6y5F/view?usp=drive_link",
+      };
+      function drivePreviewFor(year, subject) {
+        return DRIVE_PREVIEW_URLS[year + "|" + subject] || null;
+      }
+
       function escapeHTML(value) {
         return String(value).replace(
           /[&<>'"]/g,
@@ -6460,27 +6493,34 @@
       }
 
       function loadCatalogue() {
-        fetch("/collection-books.json")
-          .then((r) => {
-            if (!r.ok) throw new Error("Collection manifest unavailable");
-            return r.json();
-          })
-          .then((books) => {
-            collectionBooks = books;
-            catData = books.map((book) => ({
-              year: "Year " + book.year,
-              subj: book.subject,
-              s: true,
-              t: false,
-              w: false,
-              cover: book.cover,
-            }));
-            renderCatalogue();
-          })
-          .catch(() => {
-            catBody.innerHTML =
-              '<p style="padding:40px">The catalogue could not be loaded.</p>';
-          });
+        /* Manifest first, so every card is built with its flipbook path
+           already resolved by pdfForSubject(). */
+        loadBooksManifest().then(() => {
+          fetch("/collection-books.json")
+            .then((r) => {
+              if (!r.ok) throw new Error("Collection manifest unavailable");
+              return r.json();
+            })
+            .then((books) => {
+              collectionBooks = books;
+              catData = books.map((book) => ({
+                year: "Year " + book.year,
+                subj: book.subject,
+                s: true,
+                t: false,
+                w: false,
+                cover: book.cover,
+                driveUrl:
+                  book.driveUrl ||
+                  drivePreviewFor("Year " + book.year, book.subject),
+              }));
+              renderCatalogue();
+            })
+            .catch(() => {
+              catBody.innerHTML =
+                '<p style="padding:40px">The catalogue could not be loaded.</p>';
+            });
+        });
       }
 
       /* ---- per-subject cover art direction ---- */
@@ -6673,50 +6713,64 @@
 
       /* ---- flex book: any catalogue title can take the 3D stage ---- */
       /* ---- Per-subject Prime Books PDFs -------------------------------
-         Key: "<year>|<subject>" exactly as they appear in the CSV
-         (the CSV uses "Year 7", not "Year 07" - the zero-padded form is
-         only used in the on-disk folder path).
-         NOTE: serve these from the public ROOT. Vite's dev server falls
-         back to index.html for public paths containing "&" (pdf.js then
-         chokes on HTML with InvalidPDFException) - verified at root level
-         too, so serving names use "and" instead of "&". The master copy
-         lives in Output/ on H: and a serving copy sits at the root.
+         Populated at runtime from /books-manifest.json, which
+         tools/sync_books.py writes when it syncs the real Student Books
+         out of H:/Shared drives/Prime Books/Year NN/<Subject>/PDF/Output
+         into public/books/Year NN/<Subject>/.
+
+         Key: "<year>|<subject>" exactly as the subject appears in the
+         catalogue ("Year 7", not "Year 07" - the zero-padded form is only
+         used in the on-disk folder path).
+
+         Serving paths use "and" instead of "&": Vite's dev server
+         SPA-falls-back on public paths containing "&" and pdf.js then
+         chokes on the returned HTML with InvalidPDFException.
+
          A match here makes the Preview button open that book's own real
-         flipbook instead of the shared Humanities sample.               */
-      const SUBJECT_PDFS = {
-        "Year 1|Art & Design": "/PrimeBooks%20Art%20and%20Design%20Year%201.pdf",
-        "Year 1|Computing & Robotics": "/PrimeBooks%20Computing%20and%20Robotics%20Year%201.pdf",
-        "Year 1|English": "/PrimeBooks%20English%20Year%201.pdf",
-        "Year 1|Global Perspectives": "/PrimeBooks%20Global%20Perspectives%20Year%201.pdf",
-        "Year 2|English": "/PrimeBooks%20English%20Year%202.pdf",
-        "Year 2|Mathematics": "/PrimeBooks%20Mathematics%20Year%202.pdf",
-        "Year 3|Mathematics": "/PrimeBooks%20Mathematics%20Year%203.pdf",
-        "Year 4|English": "/PrimeBooks%20English%20Year%204.pdf",
-        "Year 4|Mathematics": "/PrimeBooks%20Mathematics%20Year%204.pdf",
-        "Year 4|Science & Lab": "/PrimeBooks%20Science%20and%20Lab%20Year%204.pdf",
-        "Year 5|Mathematics": "/PrimeBooks%20Mathematics%20Year%205.pdf",
-        "Year 6|Mathematics": "/PrimeBooks%20Mathematics%20Year%206.pdf",
-        "Year 7|English": "/PrimeBooks%20English%20Year%207.pdf",
-        "Year 7|Humanities (History & Geography)": "/PrimeBooks%20Humanities%20Year%207.pdf",
-        "Year 7|Computing & Robotics": "/PrimeBooks%20Computing%20and%20Robotics%20Year%207.pdf",
-        "Year 7|Mathematics": "/PrimeBooks%20Mathematics%20Year%207.pdf",
-        "Year 7|Portuguese 1st": "/PrimeBooks%20Portuguese%201st%20Year%207.pdf",
-        "Year 7|Science": "/PrimeBooks%20Science%20Year%207.pdf",
-        "Year 8|English": "/PrimeBooks%20English%20Year%208.pdf",
-        "Year 8|Humanities (History & Geography)": "/PrimeBooks%20Humanities%20Year%208.pdf",
-        "Year 8|Mathematics": "/PrimeBooks%20Mathematics%20Year%208.pdf",
-        "Year 8|Science": "/PrimeBooks%20Science%20Year%208.pdf",
-        "Year 9|English": "/PrimeBooks%20English%20Year%209.pdf",
-        "Year 9|Humanities (History & Geography)": "/PrimeBooks%20Humanities%20Year%209.pdf",
-        "Year 9|Mathematics": "/PrimeBooks%20Mathematics%20Year%209.pdf",
-        "Year 9|Portuguese 1st (IGCSE)": "/PrimeBooks%20Portuguese%201st%20Year%209.pdf",
-        "Year 9|Science": "/PrimeBooks%20Science%20Year%209.pdf",
-        "Year 10|Physical Education Gym": "/PrimeBooks%20Physical%20Education%20Gym%20Year%2010.pdf",
-        "Year 12|Physical Education & Gym": "/PrimeBooks%20Physical%20Education%20and%20Gym%20Year%2012.pdf",
-      };
+         flipbook.                                                      */
+      const SUBJECT_PDFS = {};
+      const SUBJECT_PDF_PAGES = {};
       function pdfForSubject(year, subj) {
         return SUBJECT_PDFS[year + "|" + subj] || null;
       }
+
+      /* Resolve a book config to its synced PDF. The featured hero books in
+         BOOKS carry yearNum + artSubj rather than a hardcoded path, so they
+         pick up whatever tools/sync_books.py last published. */
+      function flipbookFor(cfg) {
+        if (!cfg) return null;
+        if (cfg.flipbook) return cfg.flipbook;
+        if (cfg.yearNum && cfg.artSubj)
+          return pdfForSubject("Year " + cfg.yearNum, cfg.artSubj);
+        return null;
+      }
+
+      /* Load the manifest once, before the catalogue, so every card is built
+         with its flipbook already attached. Resolves either way: a missing
+         manifest just leaves Preview showing the "being published" toast. */
+      let booksManifestReady = null;
+      function loadBooksManifest() {
+        if (booksManifestReady) return booksManifestReady;
+        booksManifestReady = fetch("/books-manifest.json")
+          .then((r) => (r.ok ? r.json() : []))
+          .then((rows) => {
+            if (!Array.isArray(rows)) return;
+            rows.forEach((row) => {
+              const key = "Year " + row.year + "|" + row.subject;
+              SUBJECT_PDFS[key] = row.pdf;
+              if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;
+            });
+          })
+          .catch(() => {});
+        return booksManifestReady;
+      }
+
+      /* Warm the manifest immediately so the featured hero books on the
+         landing stage can open their flipbook without the catalogue having
+         been opened first. loadCatalogue() awaits the same memoised promise.
+         Must sit AFTER the declaration above: booksManifestReady is a `let`,
+         so an earlier call would hit its temporal dead zone. */
+      loadBooksManifest();
 
       /* Page-1 renders of the real PDFs (gen_covers.py), used as cover art
          on catalogue cards and on the 3D book front. Same key format as
@@ -6787,6 +6841,9 @@
           priceCents: ed.cents,
           audio: null,
           audioCents: 0,
+          /* The synced flipbook is the preview; a supplied Drive viewer is
+             only the fallback for subjects with no book on H: yet. */
+          driveUrl: row.driveUrl || drivePreviewFor(row.year, row.subj),
           flipbook: pdfForSubject(row.year, row.subj),
           editions: [
             ["Student Manual", !!row.s],
@@ -6887,7 +6944,7 @@
           catData && catData.find((r) => r.year === year && r.subj === subj);
         if (!row) return;
         repaintBook(flexBook, cfgForCard(row, edKey));
-        open(flexBook);
+        openBookDetail(flexBook);
       }
 
       function renderCatalogue() {
@@ -7086,7 +7143,7 @@
           const useFeat = feat && parts[2] === "manual";
           closeCatalogue();
           const go = () => {
-            if (useFeat) open(feat.book());
+            if (useFeat) openBookDetail(feat.book());
             else openFlex(parts[0], parts[1], parts[2]);
           };
           if (state.mode === "hero") go();
@@ -7116,12 +7173,19 @@
         fbCount = 0,
         fbHiT = null;
       const fbHiDone = new Set();
+      /* Which page canvases currently hold a bitmap, and how many we allow.
+         Canvas backing stores are the binding constraint on long books: 40
+         pages is ~2 spreads of sharpened art plus a generous read-ahead. */
+      const fbLive = new Set();
+      const FB_LIVE_MAX = 40;
       let fbSections = [];
       let fbUrl = null; /* which PDF the current flipbook was built from */
 
       pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
 
-      function openFlipbook(cfg) {
+      function openFlipbook(cfg, url) {
+        const src = url || flipbookFor(cfg);
+        if (!src) return;
         document.body.classList.add("fb-open");
         fbEl.setAttribute("aria-hidden", "false");
         /* header must name the book actually being previewed, not the
@@ -7132,7 +7196,7 @@
             (cfg.title || "Prime Books") +
             (cfg.band ? " \u00b7 " + cfg.band : "") +
             " \u2014 Student Manual";
-        if (!fbFlip || fbUrl !== cfg.flipbook) {
+        if (!fbFlip || fbUrl !== src) {
           /* different book than the one already built: tear the old one
              down first, otherwise pages from both PDFs stack up */
           if (fbFlip) {
@@ -7150,8 +7214,9 @@
           fbBook.innerHTML = "";
           fbSections = [];
           fbHiDone.clear();
-          fbUrl = cfg.flipbook;
-          buildFlipbook(cfg.flipbook);
+          fbLive.clear();
+          fbUrl = src;
+          buildFlipbook(src);
         }
       }
       function closeFlipbook() {
@@ -7162,14 +7227,28 @@
       previewBtn.addEventListener("click", () => {
         const cfg = state.selected && state.selected.cfg;
         if (!cfg) return;
-        /* every title previews the Humanities sample for now */
-        openFlipbook(
-          cfg.flipbook
-            ? cfg
-            : Object.assign({}, cfg, {
-                flipbook: "/PrimeBooks%20Humanities%20Year%207.pdf",
-              }),
-        );
+        /* The in-page flipbook IS the preview. Books are synced into
+           public/books/ by tools/sync_books.py and deployed with the site,
+           so this works on Vercel exactly as it does locally - no Drive
+           round-trip, no new tab, no pop-up blocker. */
+        const fb = flipbookFor(cfg);
+        if (fb) {
+          openFlipbook(cfg, fb);
+          return;
+        }
+        /* Only books with no synced PDF fall back to a supplied Drive
+           viewer, so nothing that used to be previewable stops working. */
+        if (cfg.driveUrl) {
+          const driveWindow = window.open(
+            cfg.driveUrl,
+            "_blank",
+            "noopener,noreferrer",
+          );
+          if (!driveWindow)
+            toast("Your browser blocked the Drive preview — allow pop-ups for this site.");
+          return;
+        }
+        toast("Preview link is being published for " + cfg.title + ".");
       });
       document
         .getElementById("fbClose")
@@ -7206,6 +7285,12 @@
         for (let i = 0; i < doc.numPages; i++) {
           const pg = await doc.getPage(i + 1);
           const tc = await pg.getTextContent();
+          /* Release the page's internal buffers straight away: the text is
+             already copied out below, and without this the scan pins every
+             page object, which on a 600+ page book crashes the tab. */
+          try {
+            pg.cleanup();
+          } catch (e) {}
           const head = tc.items
             .slice(0, 8)
             .map((it) => it.str)
@@ -7295,6 +7380,12 @@
             const d = document.createElement("div");
             d.className = "fb-page";
             const cv = document.createElement("canvas");
+            /* A fresh canvas defaults to 300x150 and allocates a backing
+               store for it, so 628 empty shells cost ~113 MB before a single
+               page is drawn. Start them at zero; renderPage sets the real
+               size when the page is actually rendered. */
+            cv.width = 0;
+            cv.height = 0;
             d.appendChild(cv);
             fbBook.appendChild(d);
             shells.push(cv);
@@ -7310,6 +7401,30 @@
               canvasContext: cv.getContext("2d"),
               viewport: vp,
             }).promise;
+            fbLive.add(i);
+            evictFar(i);
+          }
+
+          /* Bounded canvas budget. Every rendered page holds its own canvas
+             bitmap (~1.1 MB at loScale, ~7 MB sharpened), so rendering a
+             whole book pins hundreds of MB and crashes the tab outright -
+             the 628-page Year 12 PE book killed it reliably. Keep only a
+             window of pages around the reader and release the rest by
+             zeroing their canvas, which frees the backing store while the
+             page shell stays in the DOM for StPageFlip. */
+          function evictFar(centre) {
+            if (fbLive.size <= FB_LIVE_MAX) return;
+            const keep = [];
+            fbLive.forEach((i) => keep.push(i));
+            keep.sort((a, b) => Math.abs(a - centre) - Math.abs(b - centre));
+            keep.slice(FB_LIVE_MAX).forEach((i) => {
+              const cv = shells[i];
+              if (!cv || !cv.width) return;
+              cv.width = 0;
+              cv.height = 0;
+              fbLive.delete(i);
+              fbHiDone.delete(i);
+            });
           }
 
           /* fast open: only the first pages render before the loader lifts.
@@ -7366,7 +7481,8 @@
             ),
           );
 
-          /* sharpen the visible spread once it settles */
+          /* sharpen the visible spread once it settles, and keep a small
+             low-res read-ahead either side so flipping never shows a blank */
           function upgrade() {
             const c = fbFlip.getCurrentPageIndex();
             const lo = Math.max(0, c - 1),
@@ -7376,18 +7492,16 @@
               fbHiDone.add(i);
               renderPage(i, 1560 / base.height);
             }
+            /* read-ahead at low resolution, bounded by FB_LIVE_MAX */
+            const aLo = Math.max(0, c - 6),
+              aHi = Math.min(fbCount - 1, c + 10);
+            for (let i = aLo; i <= aHi; i++) {
+              if (fbLive.has(i) || fbHiDone.has(i)) continue;
+              renderPage(i, loScale);
+            }
           }
           upgrade();
 
-          /* background-fill the remaining low-res pages (stops if the user
-             switches books); sections build in the background too */
-          let bgI = firstN;
-          (function fillRest() {
-            if (!fbFlip || fbUrl !== url) return;
-            const end = Math.min(fbCount, bgI + 2);
-            for (; bgI < end; bgI++) renderPage(bgI, loScale);
-            if (bgI < fbCount) setTimeout(fillRest, 30);
-          })();
           buildSections(doc).then((secs) => {
             fbSections = secs;
             renderToc();
@@ -7500,10 +7614,10 @@
             performance.now() - ptr.t0 < 450
           ) {
             if (ptr.type === "touch") {
-              if (state.pillLock === dragBook) open(dragBook);
+              if (state.pillLock === dragBook) openBookDetail(dragBook);
               else state.pillLock = dragBook;
             } else {
-              open(dragBook);
+              openBookDetail(dragBook);
             }
           }
           dragBook = null;
@@ -7544,7 +7658,7 @@
           state.pillLock = null;
           e.preventDefault();
         }
-        if (e.key === "Enter" && state.hovered) open(state.hovered);
+        if (e.key === "Enter" && state.hovered) openBookDetail(state.hovered);
       });
 
       function castRay() {
