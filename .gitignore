@@ -26,3 +26,7 @@ dist-ssr
 # Serving copies of the real books (masters live on H: drive Output/ folders)
 public/*.pdf
 copy-books.sh
+
+# Workspace data — not for deployment
+public/subjects/
+public/covers/
