@@ -25,12 +25,16 @@ dist-ssr
 
 # Serving copies of the real books (masters live on H: drive Output/ folders).
 # Regenerate with: python tools/sync_books.py
-# The old flat root copies:
+# The old flat root copies are superseded by public/books/:
 public/*.pdf
 copy-books.sh
-# Web-optimised flipbook copies (~129 MB across 35 books). Committing these
-# would bloat the repo; see tools/sync_books.py for how they are produced.
-public/books/
+
+# NOTE: public/books/ is deliberately NOT ignored. The flipbook Preview fetches
+# these over HTTP, so they must be committed and deployed with the site -
+# gitignoring them is what made Preview 404 with MissingPDFException on Vercel.
+# tools/sync_books.py keeps them web-sized (~130 MB total, largest file 25 MB,
+# well inside GitHub's 100 MB per-file limit; Vercel's 100 MB cap applies to
+# CLI uploads, not Git-integration deployments).
 
 # Workspace data — not for deployment
 public/subjects/
