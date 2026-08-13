@@ -98,6 +98,47 @@ export default async function handler(req, res) {
     }
   }
 
+  if (verb === "history") {
+    /* Rehydrate a returning reader's panel from the SERVER transcript, so
+       coming back to a book shows the conversation rather than an empty rail.
+       Read-only, and the reply is trimmed to what the panel renders. */
+    const sessionId = String(body.sessionId || "");
+    if (!/^[A-Za-z0-9_-]{6,80}$/.test(sessionId))
+      return res.status(400).json({ error: "bad session id" });
+    try {
+      const r = await fetch(
+        `${base}/api/sessions/${encodeURIComponent(sessionId)}/messages`,
+        {
+          headers: { Authorization: `Bearer ${key}` },
+          signal: AbortSignal.timeout(15000),
+        },
+      );
+      if (!r.ok) return res.status(200).json({ messages: [] });
+      const data = await r.json();
+      /* The API returns the transcript under `data`, NOT `messages`: reading
+         the wrong field silently yielded 0 messages and an empty panel while
+         the session itself had resumed correctly. Accept either. */
+      const raw = Array.isArray(data && data.data)
+        ? data.data
+        : Array.isArray(data && data.messages)
+          ? data.messages
+          : [];
+      const messages = raw
+        .filter((m) => m && (m.role === "user" || m.role === "assistant"))
+        .map((m) => ({
+          role: m.role,
+          content: typeof m.content === "string" ? m.content : "",
+        }))
+        .filter((m) => m.content && !m.content.startsWith("[READING CONTEXT"))
+        .filter((m) => !m.content.startsWith("You are Hermes,"))
+        .filter((m) => !m.content.startsWith("[Reminder:"))
+        .slice(-40);
+      return res.status(200).json({ messages });
+    } catch {
+      return res.status(200).json({ messages: [] });
+    }
+  }
+
   if (verb === "chat") {
     const sessionId = String(body.sessionId || "");
     const input = String(body.input || "");

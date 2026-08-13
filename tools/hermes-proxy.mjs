@@ -124,6 +124,46 @@ export async function handleHermes(req, res, verb, cfg) {
     return json(res, 200, { sessionId, title: data.session.title });
   }
 
+  if (verb === "history") {
+    /* Rehydrate a returning reader's panel from the SERVER transcript. Same
+       closed-verb rule: the client sends only a session id. */
+    const sessionId = String(body.sessionId || "");
+    if (!/^[A-Za-z0-9_-]{6,80}$/.test(sessionId))
+      return json(res, 400, { error: "bad session id" });
+    try {
+      const r = await fetch(
+        `${base}/api/sessions/${encodeURIComponent(sessionId)}/messages`,
+        {
+          headers: { Authorization: `Bearer ${key}` },
+          signal: AbortSignal.timeout(15000),
+        },
+      );
+      if (!r.ok) return json(res, 200, { messages: [] });
+      const data = await r.json();
+      /* The API returns the transcript under `data`, NOT `messages`: reading
+         the wrong field silently yielded 0 messages and an empty panel while
+         the session itself had resumed correctly. Accept either. */
+      const raw = Array.isArray(data && data.data)
+        ? data.data
+        : Array.isArray(data && data.messages)
+          ? data.messages
+          : [];
+      const messages = raw
+        .filter((m) => m && (m.role === "user" || m.role === "assistant"))
+        .map((m) => ({
+          role: m.role,
+          content: typeof m.content === "string" ? m.content : "",
+        }))
+        .filter((m) => m.content && !m.content.startsWith("[READING CONTEXT"))
+        .filter((m) => !m.content.startsWith("You are Hermes,"))
+        .filter((m) => !m.content.startsWith("[Reminder:"))
+        .slice(-40);
+      return json(res, 200, { messages });
+    } catch {
+      return json(res, 200, { messages: [] });
+    }
+  }
+
   if (verb === "chat") {
     const sessionId = String(body.sessionId || "");
     const input = String(body.input || "");

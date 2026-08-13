@@ -30,6 +30,7 @@
     health: "/hermes/health",
     session: "/hermes/session",
     chat: "/hermes/chat",
+    history: "/hermes/history",
   };
   var STORE = "pb.tutor.sessions.v1";
   var PAGE_TEXT_CAP = 6000; /* characters per page sent to the model */
@@ -55,19 +56,32 @@
     abort: null,
     briefed: {},
     history: {}, /* bookKey -> [{role, text}] so the panel survives a switch */
+    restored: {}, /* bookKey -> true once the server transcript was fetched */
   };
 
-  /* ---------- session map (per browser session) ---------- */
+  /* ---------- session map ----------
+     localStorage, NOT sessionStorage: the whole point is that closing the tab
+     and coming back to the same book RESUMES that book's conversation. The map
+     is bookKey -> sessionId, so switching books mints a new session and
+     returning reuses the old one. The transcript itself lives on the server,
+     fetched by ensureSession(), so a different device or a cleared browser can
+     still pick the thread up as long as the session id survives. */
   function loadMap() {
     try {
-      return JSON.parse(sessionStorage.getItem(STORE) || "{}");
+      var raw = localStorage.getItem(STORE);
+      if (!raw) {
+        /* migrate anyone who has a live tab from the old per-tab store */
+        raw = sessionStorage.getItem(STORE);
+        if (raw) localStorage.setItem(STORE, raw);
+      }
+      return JSON.parse(raw || "{}");
     } catch (e) {
       return {};
     }
   }
   function saveMap(m) {
     try {
-      sessionStorage.setItem(STORE, JSON.stringify(m));
+      localStorage.setItem(STORE, JSON.stringify(m));
     } catch (e) {}
   }
 
@@ -352,6 +366,9 @@
     var map = loadMap();
     if (key && map[key]) {
       state.sessionId = map[key];
+      /* A known session means the reader has been in this book before, so the
+         briefing already sits in server-side history. Do not resend it. */
+      state.briefed[key] = true;
       return state.sessionId;
     }
     state.creating = (async function () {
@@ -554,16 +571,50 @@
   }
 
   /* ---------- panel lifecycle ---------- */
+  /* Pull a returning reader's transcript back from the server. In-memory
+     state.history only survives a book switch within one page load; after a
+     reload or a new tab the messages live only in Hermes' own session store. */
+  async function restoreFor(bookKey) {
+    if (!bookKey || state.restored[bookKey]) return false;
+    var map = loadMap();
+    var sid = map[bookKey];
+    if (!sid) return false;
+    state.restored[bookKey] = true;
+    try {
+      var r = await fetch(EP.history, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId: sid }),
+      });
+      if (!r.ok) return false;
+      var data = await r.json();
+      var msgs = (data && data.messages) || [];
+      if (!msgs.length) return false;
+      state.history[bookKey] = msgs.map(function (m) {
+        return { role: m.role, text: m.content };
+      });
+      if (state.bookKey === bookKey) repaintFor(bookKey);
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
   function repaintFor(bookKey) {
     el.log.textContent = "";
     var hist = state.history[bookKey] || [];
     if (!hist.length) {
       var meta = state.meta || {};
+      var known = !!loadMap()[bookKey];
       var intro = addMsg(
         "assistant",
-        "Hello. I can see " +
-          (meta.title ? "\u201c" + meta.title + "\u201d" : "this book") +
-          " and the pages you are on. Ask me anything about what you are reading.",
+        known
+          ? "Welcome back. We were reading " +
+              (meta.title ? "\u201c" + meta.title + "\u201d" : "this book") +
+              " together. Carry on where you left off, or ask me something new."
+          : "Hello. I can see " +
+              (meta.title ? "\u201c" + meta.title + "\u201d" : "this book") +
+              " and the pages you are on. Ask me anything about what you are reading.",
       );
       intro.parentElement.classList.add("pbc-intro");
     } else {
@@ -586,8 +637,14 @@
       state.creating = null;
       state.lastPagesSent = null;
       var map = loadMap();
-      if (d.bookKey && map[d.bookKey]) state.sessionId = map[d.bookKey];
+      if (d.bookKey && map[d.bookKey]) {
+        state.sessionId = map[d.bookKey];
+        /* Been here before: the briefing is already in server history. */
+        state.briefed[d.bookKey] = true;
+      }
       repaintFor(d.bookKey);
+      /* Then pull the real transcript back, which repaints again when it lands. */
+      restoreFor(d.bookKey);
     }
     updatePageLabel(d.pages);
   }
