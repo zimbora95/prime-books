@@ -31,20 +31,42 @@ for f in session_create session_chat_stream; do
 done
 
 echo "=== 3. NOT a public shell (the important one) ==="
-TOOLS=$(curl -s -m 20 -H "Authorization: Bearer $KEY" "$BASE/v1/capabilities" \
-  | python3 -c "
-import sys, json
-try: d = json.load(sys.stdin)
-except Exception: print('?'); raise SystemExit
-print(json.dumps(d))" 2>/dev/null)
-if echo "$TOOLS" | grep -qiE '\"(terminal|write_file|patch|execute_code)\"'; then
-  bad "terminal/file tools reachable from the internet"
-else
-  ok "no terminal/file tools advertised"
-fi
+# /v1/capabilities does NOT list tool names, and an earlier version of this
+# script grepped it for 'patch' - which matched the HTTP verb PATCH in the
+# endpoint table and reported a false exposure. Test BEHAVIOUR instead: ask the
+# agent to run a command and see whether it can.
 grep -A6 'platform_toolsets:' "$HOME/.hermes/config.yaml" 2>/dev/null \
   | grep -qE '^\s+-\s+safe' && ok "config pins api_server to [safe]" \
   || bad "api_server toolset is not [safe] in config.yaml"
+
+SHELL_SID=$(curl -s -m 25 -X POST "$BASE/api/sessions" \
+  -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
+  -d "{\"title\":\"pb-shell-probe-$(date +%s)\",\"model\":\"$MODEL\",\"provider\":\"$PROVIDER\"}" \
+  | python3 -c "
+import sys, json
+try: print(json.load(sys.stdin)['session']['id'])
+except Exception: print('')")
+if [ -z "$SHELL_SID" ]; then
+  bad "could not open a session for the shell probe"
+else
+  # Ask for something it can only answer by ACTUALLY running a command, so the
+  # marker cannot come from the prompt being echoed back.
+  SH=$(curl -s -m 180 -X POST "$BASE/api/sessions/$SHELL_SID/chat" \
+    -H "Authorization: Bearer $KEY" -H "Content-Type: application/json" \
+    -d '{"input":"Use your terminal tool to run: expr 7919 \\* 6841 . Reply with only the number it printed, or say you have no terminal tool."}' \
+    | python3 -c "
+import sys, json
+try: print(json.load(sys.stdin)['message']['content'][:400])
+except Exception: print('')")
+  if echo "$SH" | grep -q "54173879"; then
+    bad "the agent EXECUTED a shell command: this is a PUBLIC SHELL"
+  elif echo "$SH" | grep -qiE "no (access|terminal)|cannot run|can't run|do not have|don't have|not able to run|no tools|unable to"; then
+    ok "agent reports it cannot run commands"
+  else
+    echo "  ??   inconclusive, read this reply yourself:"
+    echo "       ${SH:0:300}"
+  fi
+fi
 
 echo "=== 4. one real streamed turn ==="
 SID=$(curl -s -m 25 -X POST "$BASE/api/sessions" \
@@ -63,13 +85,27 @@ else
     -d '{"input":"Reply with exactly: RAIL-OK"}' \
     | python3 -c "
 import sys, json
-out=''
-for l in sys.stdin:
-    if l.startswith('data:'):
-        try: d=json.loads(l[5:].strip())
-        except Exception: continue
-        if d.get('completed') and d.get('content'): out=d['content']
-print(out.strip()[:60])")
+# Accumulate assistant.delta and prefer assistant.completed/run.completed.
+# Ignore tool.progress: the _thinking tool streams the same text and an earlier
+# parser that keyed only on d['completed'] and d['content'] returned ''.
+final, acc = '', ''
+for line in sys.stdin:
+    if not line.startswith('data:'):
+        continue
+    try:
+        d = json.loads(line[5:].strip())
+    except Exception:
+        continue
+    if d.get('tool_name'):
+        continue
+    if isinstance(d.get('delta'), str):
+        acc += d['delta']
+    if d.get('content'):
+        final = d['content']
+    for m in (d.get('messages') or []):
+        if m.get('role') == 'assistant' and m.get('content'):
+            final = m['content']
+print((final or acc).strip()[:120])")
   echo "$ANS" | grep -q "RAIL-OK" && ok "model answered: $ANS" \
     || bad "stream returned: '$ANS'"
 fi
