@@ -1,0 +1,154 @@
+/* Vercel serverless function for the reading assistant.
+ *
+ * Same three verbs as the dev proxy, same closed switch, same trust boundary:
+ * the key lives in Vercel's environment, never in the browser.
+ *
+ * Routes: /hermes/health | /hermes/session | /hermes/chat
+ * (see vercel.json for the rewrite that maps those onto this function).
+ *
+ * REQUIRED Vercel environment variables - WITHOUT THEM THIS RETURNS 503 AND THE
+ * RAIL SHOWS AS OFFLINE, which is the intended behaviour until a publicly
+ * reachable Hermes exists:
+ *   HERMES_BASE_URL   e.g. https://hermes.example.com  (a tunnel or a VPS)
+ *   HERMES_API_KEY    that instance's API_SERVER_KEY
+ *   HERMES_MODEL      e.g. z-ai/glm-5.2
+ *   HERMES_PROVIDER   e.g. openrouter
+ *
+ * SECURITY NOTE: exposing a Hermes API server to the public internet exposes an
+ * agent that can run terminal commands. Only point HERMES_BASE_URL at an
+ * instance whose profile has a deliberately minimal toolset (the
+ * primebooks-tutor profile uses `safe`), and keep the key secret.
+ */
+export const config = { runtime: "nodejs" };
+
+const MAX_BODY = 256 * 1024;
+
+function cfg() {
+  return {
+    base: (process.env.HERMES_BASE_URL || "").replace(/\/+$/, ""),
+    key: process.env.HERMES_API_KEY || "",
+    model: process.env.HERMES_MODEL || "",
+    provider: process.env.HERMES_PROVIDER || "",
+  };
+}
+
+function uniqueTitle(raw) {
+  const clean = String(raw || "Prime Books")
+    .replace(/[\r\n\t]+/g, " ")
+    .trim()
+    .slice(0, 80);
+  return `${clean} · ${new Date().toISOString().slice(0, 19).replace("T", " ")}`;
+}
+
+export default async function handler(req, res) {
+  const { base, key, model, provider } = cfg();
+  const verb = String((req.query && req.query.verb) || "")
+    .toLowerCase()
+    .replace(/[^a-z]/g, "");
+
+  res.setHeader("Cache-Control", "no-store");
+  res.setHeader("X-Content-Type-Options", "nosniff");
+
+  if (verb === "health") {
+    if (!base || !key) return res.status(200).json({ ok: false, configured: false });
+    try {
+      const r = await fetch(`${base}/health`, {
+        headers: { Authorization: `Bearer ${key}` },
+        signal: AbortSignal.timeout(4000),
+      });
+      return res.status(200).json({ ok: r.ok, configured: true });
+    } catch {
+      return res.status(200).json({ ok: false, configured: true });
+    }
+  }
+
+  if (!base || !key)
+    return res
+      .status(503)
+      .json({ error: "The reading assistant is not configured on this server." });
+  if (req.method !== "POST") return res.status(405).json({ error: "POST only" });
+
+  const body = typeof req.body === "object" && req.body ? req.body : {};
+  if (JSON.stringify(body).length > MAX_BODY)
+    return res.status(413).json({ error: "body too large" });
+
+  if (verb === "session") {
+    const payload = { title: uniqueTitle(body.title) };
+    if (model) payload.model = model;
+    if (provider) payload.provider = provider;
+    try {
+      const r = await fetch(`${base}/api/sessions`, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(20000),
+      });
+      const text = await r.text();
+      if (!r.ok)
+        return res.status(502).json({ error: `Hermes ${r.status}`, detail: text.slice(0, 400) });
+      const data = JSON.parse(text);
+      const sessionId = data && data.session && data.session.id;
+      if (!sessionId) return res.status(502).json({ error: "No session id in response." });
+      return res.status(200).json({ sessionId, title: data.session.title });
+    } catch {
+      return res.status(502).json({ error: "Hermes is not reachable." });
+    }
+  }
+
+  if (verb === "chat") {
+    const sessionId = String(body.sessionId || "");
+    const input = String(body.input || "");
+    if (!/^[A-Za-z0-9_-]{6,80}$/.test(sessionId))
+      return res.status(400).json({ error: "bad session id" });
+    if (!input.trim()) return res.status(400).json({ error: "empty input" });
+
+    let upstream;
+    try {
+      upstream = await fetch(
+        `${base}/api/sessions/${encodeURIComponent(sessionId)}/chat/stream`,
+        {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${key}`,
+            "Content-Type": "application/json",
+            Accept: "text/event-stream",
+          },
+          body: JSON.stringify({ input }),
+        },
+      );
+    } catch {
+      return res.status(502).json({ error: "Hermes is not reachable." });
+    }
+    if (!upstream.ok || !upstream.body)
+      return res.status(502).json({ error: `Hermes ${upstream.status}` });
+
+    res.writeHead(200, {
+      "Content-Type": "text/event-stream; charset=utf-8",
+      "Cache-Control": "no-cache, no-transform",
+      Connection: "keep-alive",
+      "X-Accel-Buffering": "no",
+    });
+    const reader = upstream.body.getReader();
+    let closed = false;
+    res.on("close", () => {
+      closed = true;
+      reader.cancel().catch(() => {});
+    });
+    try {
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done || closed) break;
+        res.write(Buffer.from(value));
+      }
+    } catch {
+      /* upstream ended: the client sees the stream close and recovers */
+    }
+    if (!closed) res.end();
+    return undefined;
+  }
+
+  return res.status(404).json({ error: "unknown verb" });
+}

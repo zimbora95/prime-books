@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+# Reading-assistant secrets. .env.local holds the Hermes API_SERVER_KEY, which
+# grants the agent's full toolset (including terminal) - it must NEVER be
+# committed or served. Covered by *.local above; named here so nobody "tidies"
+# that pattern away.
+.env.local
+.env
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -39,3 +46,16 @@ copy-books.sh
 # Workspace data — not for deployment
 public/subjects/
 public/covers/
+
+# Python bytecode. tools/__pycache__/webopt_pdf.cpython-311.pyc was committed by
+# accident and showed up as a modified file on every sync run.
+__pycache__/
+*.pyc
+
+# Verification-harness scratch output
+uiauth.log
+*.tmp.js
+
+# Manifest variant carrying absolute MEGA paths: local authoring only, must
+# never deploy (it would publish the folder layout of the masters).
+public/books-manifest.local.json

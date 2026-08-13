@@ -1715,6 +1715,298 @@
       .fb-page-ind input:focus {
         border-color: var(--red-hi);
       }
+      /* =====================================================================
+         Reading assistant rail (public/hermes-chat.js builds the markup)
+         ===================================================================== */
+      .pbc {
+        display: none;
+        flex: 0 0 var(--pbc-w, 380px);
+        width: var(--pbc-w, 380px);
+        align-self: stretch;
+        min-height: 0;
+        flex-direction: column;
+        margin-left: 22px;
+        background: linear-gradient(
+          180deg,
+          rgba(20, 29, 73, 0.96),
+          rgba(12, 19, 52, 0.99)
+        );
+        border: 1px solid rgba(246, 241, 230, 0.14);
+        border-radius: 20px;
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        position: relative;
+      }
+      /* a thin gold seam so the rail reads as part of the book, not a widget */
+      .pbc::before {
+        content: "";
+        position: absolute;
+        inset: 0 auto 0 0;
+        width: 2px;
+        background: linear-gradient(
+          180deg,
+          transparent,
+          var(--gold),
+          transparent
+        );
+        opacity: 0.5;
+      }
+      body.pbc-on .pbc {
+        display: flex;
+      }
+      body.pbc-offline .pbc-chips,
+      body.pbc-offline .pbc-form {
+        display: none;
+      }
+      .pbc-head {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 16px 16px 12px;
+        border-bottom: 1px solid rgba(246, 241, 230, 0.12);
+      }
+      .pbc-titles {
+        flex: 1;
+        min-width: 0;
+      }
+      .pbc-title {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--red-hi);
+      }
+      .pbc-where {
+        margin-top: 5px;
+        font-size: 12px;
+        color: var(--mist);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .pbc-x {
+        flex: none;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid rgba(246, 241, 230, 0.18);
+        background: transparent;
+        color: var(--cream);
+        font-size: 17px;
+        line-height: 1;
+        cursor: pointer;
+        transition:
+          background 0.2s ease,
+          border-color 0.2s ease;
+      }
+      .pbc-x:hover {
+        background: rgba(214, 31, 44, 0.22);
+        border-color: var(--red-hi);
+      }
+      .pbc-log {
+        flex: 1;
+        min-height: 0;
+        overflow-y: auto;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(246, 241, 230, 0.25) transparent;
+      }
+      .pbc-msg {
+        max-width: 100%;
+        font-size: 13.5px;
+        line-height: 1.62;
+      }
+      .pbc-msg p {
+        margin: 0 0 8px;
+      }
+      .pbc-msg p:last-child {
+        margin-bottom: 0;
+      }
+      .pbc-ul {
+        margin: 0 0 8px;
+        padding-left: 18px;
+      }
+      .pbc-ul li {
+        margin: 0 0 4px;
+      }
+      .pbc-msg code {
+        font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+        font-size: 0.92em;
+        padding: 1px 5px;
+        border-radius: 5px;
+        background: rgba(246, 241, 230, 0.1);
+      }
+      .pbc-user .pbc-body {
+        margin-left: auto;
+        max-width: 88%;
+        padding: 9px 13px;
+        border-radius: 14px 14px 4px 14px;
+        background: rgba(214, 31, 44, 0.9);
+        color: #fff;
+        font-weight: 500;
+      }
+      .pbc-assistant .pbc-body {
+        color: var(--cream);
+        padding-left: 12px;
+        border-left: 2px solid rgba(201, 163, 92, 0.55);
+      }
+      .pbc-intro .pbc-body,
+      .pbc-err .pbc-body {
+        color: var(--mist);
+        font-style: italic;
+      }
+      .pbc-err .pbc-body {
+        border-left-color: var(--red-hi);
+        font-style: normal;
+      }
+      .pbc-status {
+        display: none;
+        padding: 0 16px 8px;
+        font-size: 12px;
+        color: var(--mist);
+      }
+      .pbc-status.on {
+        display: block;
+      }
+      .pbc-status.spin::after {
+        content: "";
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        margin-left: 7px;
+        border-radius: 50%;
+        background: var(--red-hi);
+        animation: pbcPulse 1s ease-in-out infinite;
+      }
+      @keyframes pbcPulse {
+        0%,
+        100% {
+          opacity: 0.25;
+          transform: scale(0.8);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1.15);
+        }
+      }
+      .pbc-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 0 16px 12px;
+      }
+      .pbc-chip {
+        border: 1px solid rgba(246, 241, 230, 0.2);
+        background: transparent;
+        color: var(--mist);
+        font: inherit;
+        font-size: 11.5px;
+        padding: 5px 11px;
+        border-radius: 999px;
+        cursor: pointer;
+        transition:
+          color 0.2s ease,
+          border-color 0.2s ease,
+          background 0.2s ease;
+      }
+      .pbc-chip:hover {
+        color: var(--cream);
+        border-color: var(--red-hi);
+        background: rgba(214, 31, 44, 0.16);
+      }
+      .pbc-form {
+        display: flex;
+        align-items: flex-end;
+        gap: 8px;
+        padding: 12px 16px 16px;
+        border-top: 1px solid rgba(246, 241, 230, 0.12);
+      }
+      .pbc-input {
+        flex: 1;
+        min-width: 0;
+        resize: none;
+        font: inherit;
+        font-size: 13.5px;
+        line-height: 1.5;
+        color: var(--cream);
+        background: rgba(12, 19, 52, 0.9);
+        border: 1px solid rgba(246, 241, 230, 0.2);
+        border-radius: 12px;
+        padding: 9px 12px;
+        max-height: 120px;
+      }
+      .pbc-input:focus {
+        outline: none;
+        border-color: var(--red-hi);
+      }
+      .pbc-input::placeholder {
+        color: rgba(174, 184, 221, 0.7);
+      }
+      .pbc-send {
+        flex: none;
+        font: inherit;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+        background: var(--red);
+        border: 0;
+        border-radius: 12px;
+        padding: 11px 15px;
+        cursor: pointer;
+        transition:
+          background 0.2s ease,
+          opacity 0.2s ease;
+      }
+      .pbc-send:hover:not(:disabled) {
+        background: var(--red-hi);
+      }
+      .pbc-send:disabled {
+        opacity: 0.45;
+        cursor: default;
+      }
+      .pbc-toggle.pbc-toggle {
+        width: auto;
+        padding: 0 13px;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+      body.pbc-on .pbc-toggle {
+        background: rgba(214, 31, 44, 0.9);
+        border-color: var(--red-hi);
+        color: #fff;
+      }
+      /* Phones and narrow windows: the rail becomes a sheet UNDER the book so
+         the spread keeps its width instead of being squeezed to a sliver. */
+      @media (max-width: 900px) {
+        .fb-stage {
+          flex-direction: column;
+          padding-bottom: 12px;
+        }
+        .pbc {
+          flex: 0 1 auto;
+          width: min(100%, 640px);
+          max-height: 46vh;
+          margin: 12px auto 0;
+        }
+        .pbc::before {
+          inset: 0 0 auto 0;
+          width: auto;
+          height: 2px;
+          background: linear-gradient(
+            90deg,
+            transparent,
+            var(--gold),
+            transparent
+          );
+        }
+      }
       .fb-toc {
         position: absolute;
         top: 74px;
@@ -6715,7 +7007,7 @@
       /* ---- Per-subject Prime Books PDFs -------------------------------
          Populated at runtime from /books-manifest.json, which
          tools/sync_books.py writes when it syncs the real Student Books
-         out of H:/Shared drives/Prime Books/Year NN/<Subject>/PDF/Output
+         out of MEGA/Projects/Prime Books/BOOKS/<level>/Year NN/<Subject>/PDF/Output
          into public/books/Year NN/<Subject>/.
 
          Key: "<year>|<subject>" exactly as the subject appears in the
@@ -6730,6 +7022,9 @@
          flipbook.                                                      */
       const SUBJECT_PDFS = {};
       const SUBJECT_PDF_PAGES = {};
+      /* served pdf path -> the full manifest row (incl. MEGA master + MARKDOWN
+         paths and whether the book has a build engine) */
+      const BOOK_ROWS = {};
       function pdfForSubject(year, subj) {
         return SUBJECT_PDFS[year + "|" + subj] || null;
       }
@@ -6751,14 +7046,32 @@
       let booksManifestReady = null;
       function loadBooksManifest() {
         if (booksManifestReady) return booksManifestReady;
-        booksManifestReady = fetch("/books-manifest.json")
-          .then((r) => (r.ok ? r.json() : []))
+        /* The .local manifest carries the absolute MEGA paths the authoring
+           assistant needs. It is gitignored, so on the deployed site the fetch
+           404s and we fall back to the public manifest. */
+        const isLocal = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(
+          location.hostname,
+        );
+        booksManifestReady = (isLocal
+          ? fetch("/books-manifest.local.json")
+              .then((r) => (r.ok ? r.json() : null))
+              .catch(() => null)
+          : Promise.resolve(null)
+        )
+          .then((rows) =>
+            Array.isArray(rows) && rows.length
+              ? rows
+              : fetch("/books-manifest.json").then((r) => (r.ok ? r.json() : [])),
+          )
           .then((rows) => {
             if (!Array.isArray(rows)) return;
             rows.forEach((row) => {
               const key = "Year " + row.year + "|" + row.subject;
               SUBJECT_PDFS[key] = row.pdf;
               if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;
+              /* Keep the whole row, keyed by served path: the reading assistant
+                 needs the MEGA manuscript paths to answer authoring questions. */
+              BOOK_ROWS[row.pdf] = row;
             });
           })
           .catch(() => {});
@@ -6842,7 +7155,7 @@
           audio: null,
           audioCents: 0,
           /* The synced flipbook is the preview; a supplied Drive viewer is
-             only the fallback for subjects with no book on H: yet. */
+             only the fallback for subjects with no synced book yet. */
           driveUrl: row.driveUrl || drivePreviewFor(row.year, row.subj),
           flipbook: pdfForSubject(row.year, row.subj),
           editions: [
@@ -7177,9 +7490,156 @@
          Canvas backing stores are the binding constraint on long books: 40
          pages is ~2 spreads of sharpened art plus a generous read-ahead. */
       const fbLive = new Set();
+      /* Pages whose render is in flight. Their canvases are already allocated
+         but must not be evicted until the render settles. */
+      const fbRendering = new Set();
       const FB_LIVE_MAX = 40;
       let fbSections = [];
       let fbUrl = null; /* which PDF the current flipbook was built from */
+      /* Reading state for the AI assistant. The pdf.js document and its first
+         viewport are hoisted OUT of buildFlipbook's closure so the assistant
+         can pull text for any page without re-fetching the PDF. */
+      let fbDoc = null;
+      let fbBookKey = null; /* stable identity of the book being read */
+      let fbBookMeta = null;
+      const fbTextCache = new Map();
+
+      /* -------------------------------------------------------------------
+         PBReading: the reading-state contract the AI assistant reads.
+
+         The assistant never guesses what the pupil is looking at. This object
+         is the single source of truth for "which book, which pages, what do
+         they say", and it fires two events so the panel can react:
+
+           pb:book-open    a different book was opened (new Hermes session)
+           pb:page-change  the reader moved within the SAME book (same session)
+
+         spread() reports BOTH visible pages, because on a desktop spread the
+         pupil sees pages 42 and 43 at once and a question about "this page"
+         may mean either one.
+         ------------------------------------------------------------------- */
+      window.PBReading = {
+        get bookKey() {
+          return fbBookKey;
+        },
+        get meta() {
+          return fbBookMeta;
+        },
+        get ready() {
+          return !!(fbDoc && fbFlip);
+        },
+        get pageCount() {
+          return fbCount;
+        },
+        /* 1-based page numbers currently visible, left to right. */
+        spread() {
+          if (!fbFlip || !fbCount) return [];
+          const i = fbFlip.getCurrentPageIndex();
+          const single =
+            fbFlip.getOrientation && fbFlip.getOrientation() === "portrait";
+          /* StPageFlip lands on the left leaf of a spread; showCover means the
+             first and last pages stand alone. */
+          if (single || i === 0 || i === fbCount - 1) return [i + 1];
+          const left = i % 2 === 1 ? i : i - 1;
+          const pages = [left + 1];
+          if (left + 1 < fbCount) pages.push(left + 2);
+          return pages.filter((p) => p >= 1 && p <= fbCount);
+        },
+        /* Text of one 1-based page. Memoised, and bounded to the same order of
+           magnitude as the canvas budget so a 628-page book cannot grow this
+           without limit. */
+        async pageText(pageNo) {
+          if (!fbDoc || pageNo < 1 || pageNo > fbCount) return "";
+          if (fbTextCache.has(pageNo)) return fbTextCache.get(pageNo);
+          let out = "";
+          try {
+            const pg = await fbDoc.getPage(pageNo);
+            const tc = await pg.getTextContent();
+            /* Rebuild reading order with line breaks: pdf.js hands back
+               positioned fragments, and joining them with spaces alone turns a
+               worked example into an unreadable ribbon. */
+            let last = null;
+            const parts = [];
+            tc.items.forEach((it) => {
+              const y = it.transform && it.transform[5];
+              if (last !== null && Math.abs(y - last) > 2) parts.push("\n");
+              parts.push(it.str);
+              last = y;
+            });
+            out = parts
+              .join(" ")
+              .replace(/[ \t]+/g, " ")
+              .replace(/ *\n */g, "\n")
+              .replace(/\n{3,}/g, "\n\n")
+              .trim();
+            try {
+              pg.cleanup();
+            } catch (e) {}
+          } catch (e) {
+            out = "";
+          }
+          if (fbTextCache.size > FB_LIVE_MAX) fbTextCache.clear();
+          fbTextCache.set(pageNo, out);
+          return out;
+        },
+        /* Section label covering a page, for orientation in the prompt. */
+        sectionFor(pageNo) {
+          let cur = null;
+          fbSections.forEach((s) => {
+            if (s.page <= pageNo - 1) cur = s;
+          });
+          return cur ? cur.label + (cur.sub ? ": " + cur.sub : "") : "";
+        },
+        toc() {
+          return fbSections.map((s) => ({
+            label: s.label,
+            sub: s.sub,
+            page: s.page + 1,
+          }));
+        },
+        /* Text of the first few text-bearing pages, so a question asked on a
+           WORDLESS page (covers and full-bleed art have no text layer) can still
+           be answered from the book itself rather than from the model's guess.
+           Cheap: stops at the first ~3 pages that carry real text. */
+        async digest(limit) {
+          if (!fbDoc) return [];
+          const out = [];
+          const cap = limit || 3;
+          for (let p = 1; p <= Math.min(fbCount, 14) && out.length < cap; p++) {
+            const t = await this.pageText(p);
+            if (t && t.length > 200) out.push({ page: p, text: t });
+          }
+          return out;
+        },
+        /* Let the assistant turn pages: "show me the chapter on rivers". */
+        goToPage(pageNo) {
+          if (!fbFlip) return false;
+          const i = Math.max(0, Math.min(fbCount - 1, (pageNo | 0) - 1));
+          fbFlip.flip(i);
+          return true;
+        },
+        /* Open a book directly. Used by tools/verify_assistant.js and by any
+           deep link; the catalogue's Preview button remains the normal path. */
+        openBook(meta, url) {
+          if (!url) return false;
+          openFlipbook(meta || {}, url);
+          return true;
+        },
+      };
+
+      function pbEmit(name) {
+        try {
+          window.dispatchEvent(
+            new CustomEvent(name, {
+              detail: {
+                bookKey: fbBookKey,
+                meta: fbBookMeta,
+                pages: window.PBReading.spread(),
+              },
+            }),
+          );
+        } catch (e) {}
+      }
 
       pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
 
@@ -7196,6 +7656,27 @@
             (cfg.title || "Prime Books") +
             (cfg.band ? " \u00b7 " + cfg.band : "") +
             " \u2014 Student Manual";
+        /* Book identity for the reading assistant. Keyed on the PDF path,
+           which is what actually distinguishes one book from another (two
+           catalogue cards can share a title). Same book reopened = same key =
+           same Hermes session; a different book mints a new one. */
+        fbBookKey = "pb:" + src;
+        const row = BOOK_ROWS[src] || {};
+        fbBookMeta = {
+          title: cfg.title || "Prime Books",
+          band: cfg.band || "",
+          year: cfg.yearNum || row.year || null,
+          subject: cfg.artSubj || row.subject || cfg.title || "",
+          pdf: src,
+          /* Absolute, publicly fetchable URL. A remote Hermes cannot open our
+             disk, but it can download this. */
+          pdfUrl: location.origin + src,
+          /* authoring context: where this book really lives on disk */
+          sourcePdf: row.src || "",
+          bookDir: row.book_dir || "",
+          markdownDir: row.markdown || "",
+          buildable: !!row.buildable,
+        };
         if (!fbFlip || fbUrl !== src) {
           /* different book than the one already built: tear the old one
              down first, otherwise pages from both PDFs stack up */
@@ -7215,8 +7696,15 @@
           fbSections = [];
           fbHiDone.clear();
           fbLive.clear();
+          fbRendering.clear();
+          fbTextCache.clear();
+          fbDoc = null;
           fbUrl = src;
           buildFlipbook(src);
+        } else {
+          /* Same book reopened: the flipbook is already built, so announce the
+             reading position now - nothing else will fire an event. */
+          pbEmit("pb:book-open");
         }
       }
       function closeFlipbook() {
@@ -7267,7 +7755,18 @@
       function sizeFlipbook(ratio) {
         const pageH = Math.min(Math.round(innerHeight * 0.66), 860);
         let pageW = Math.round(pageH * ratio);
-        const maxSpread = Math.round(innerWidth * 0.92);
+        /* The assistant rail shares the stage, so the spread must be measured
+           against the space actually left over. Without this the book keeps its
+           full width and the rail pushes it off-centre (or off-screen). Below
+           900px the rail sits UNDER the book (see the media query), so it costs
+           no width there. */
+        const railEl = document.getElementById("pbChat");
+        const railOn =
+          railEl &&
+          document.body.classList.contains("pbc-on") &&
+          innerWidth > 900;
+        const railW = railOn ? (railEl.offsetWidth || 380) + 22 : 0;
+        const maxSpread = Math.round((innerWidth - railW) * 0.92);
         if (innerWidth < 720) {
           pageW = Math.min(Math.round(innerWidth * 0.88), pageW);
           fbBook.style.width = pageW + "px";
@@ -7278,6 +7777,31 @@
         fbBook.style.height = pageH + "px";
         return { pageW, pageH };
       }
+
+      /* Re-measure and re-lay-out the book after the rail is shown or hidden.
+         StPageFlip needs both an update() and fresh min/max bounds, otherwise it
+         keeps rendering at the width it was constructed with. */
+      let fbRatio = null;
+      window.pbResizeFlipbook = function () {
+        if (!fbFlip || !fbRatio) return;
+        const { pageW, pageH } = sizeFlipbook(fbRatio);
+        try {
+          /* getSettings() hands back the LIVE settings object, so mutating it
+             and calling update() re-lays-out the book at the new width. */
+          const s = fbFlip.getSettings && fbFlip.getSettings();
+          if (s) {
+            s.width = pageW;
+            s.height = pageH;
+            s.maxWidth = pageW;
+            s.maxHeight = pageH;
+          }
+          fbFlip.update();
+        } catch (e) {}
+      };
+      addEventListener("resize", () => {
+        clearTimeout(window.__pbResizeT);
+        window.__pbResizeT = setTimeout(() => window.pbResizeFlipbook(), 200);
+      });
 
       /* section list built from the running headers of the real pages */
       async function buildSections(doc) {
@@ -7368,10 +7892,12 @@
           fbTotal.textContent = "–";
           fbLbl.textContent = "Fetching the book…";
           const doc = await pdfjsLib.getDocument(url).promise;
+          fbDoc = doc; /* the assistant reads page text from this */
           fbCount = doc.numPages;
           const first = await doc.getPage(1);
           const base = first.getViewport({ scale: 1 });
           const ratio = base.width / base.height;
+          fbRatio = ratio; /* remembered so the rail toggle can re-size */
           const { pageW, pageH } = sizeFlipbook(ratio);
 
           /* page shells */
@@ -7397,11 +7923,23 @@
             const cv = shells[i];
             cv.width = Math.round(vp.width);
             cv.height = Math.round(vp.height);
-            await page.render({
-              canvasContext: cv.getContext("2d"),
-              viewport: vp,
-            }).promise;
+            /* Count the page as live HERE, not after the await. The backing
+               store is allocated the moment width/height are set, so booking it
+               only on completion let concurrent renders (upgrade() fires up to
+               17 at once) allocate far more bitmaps than FB_LIVE_MAX before the
+               first one finished and triggered an eviction. Measured: 81 live
+               canvases on the 628pp book against a budget of 40. */
             fbLive.add(i);
+            fbRendering.add(i);
+            evictFar(i);
+            try {
+              await page.render({
+                canvasContext: cv.getContext("2d"),
+                viewport: vp,
+              }).promise;
+            } finally {
+              fbRendering.delete(i);
+            }
             evictFar(i);
           }
 
@@ -7418,6 +7956,10 @@
             fbLive.forEach((i) => keep.push(i));
             keep.sort((a, b) => Math.abs(a - centre) - Math.abs(b - centre));
             keep.slice(FB_LIVE_MAX).forEach((i) => {
+              /* Never pull the canvas out from under an in-flight render:
+                 pdf.js throws and the page ends up blank. It will be evicted by
+                 the next pass once its render settles. */
+              if (fbRendering.has(i)) return;
               const cv = shells[i];
               if (!cv || !cv.width) return;
               cv.width = 0;
@@ -7465,8 +8007,10 @@
             markToc(i);
           }
           ind();
+          pbEmit("pb:book-open");
           fbFlip.on("flip", () => {
             ind();
+            pbEmit("pb:page-change");
             clearTimeout(fbHiT);
             fbHiT = setTimeout(upgrade, 350);
           });
@@ -7506,6 +8050,9 @@
             fbSections = secs;
             renderToc();
             markToc(fbFlip ? fbFlip.getCurrentPageIndex() : 0);
+            /* The TOC lands after the book opens, so tell the assistant again
+               now that section labels exist. */
+            pbEmit("pb:book-open");
           });
         } catch (err) {
           fbLbl.textContent = "The preview could not be loaded.";
@@ -7943,5 +8490,10 @@
 
       animate();
     </script>
+    <!-- Reading assistant. Loaded last so window.PBReading (declared in the
+         main script above) already exists when it mounts. Kept in its own
+         file rather than added to this 8000-line document: the panel is
+         self-contained and the single file is already an edit hazard. -->
+    <script src="/hermes-chat.js"></script>
   </body>
 </html>

@@ -7,12 +7,24 @@ web-sized WebP files plus public/collection-books.json for the storefront.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 from PIL import Image
 
-FACTORY = Path(r"C:\Users\alexa\Documents\The Prime Books\_assets\v3")
-PLAN = Path(r"C:\Users\alexa\Documents\The Prime Books\_assets\v2\plan.json")
+# NOTE (2026-08-12): the v3 cover factory and its plan.json lived in the RETIRED
+# 'Documents/The Prime Books/_assets' tree and have NO counterpart in the MEGA
+# project (searched: no _assets, no plan.json). This script therefore cannot run
+# until someone points it at wherever those assets now live. Set
+# PRIME_COVER_FACTORY to that folder; it exits with a clear message otherwise,
+# rather than half-working against a guessed path.
+FACTORY = Path(
+    os.environ.get(
+        "PRIME_COVER_FACTORY",
+        r"C:\Users\alexa\Documents\MEGA\Projects\Prime Books\RESOURCES\_assets\v3",
+    )
+)
+PLAN = FACTORY.parent / "v2" / "plan.json"
 SOURCE_COVERS = FACTORY / "cover"
 PUBLIC = Path(__file__).resolve().parent / "public"
 OUT = PUBLIC / "collection-covers"
@@ -32,6 +44,13 @@ DRIVE_URLS = {
 
 
 def main() -> None:
+    if not PLAN.exists():
+        raise SystemExit(
+            "cover factory not found: %s\n"
+            "The v3 factory lived in the RETIRED 'Documents/The Prime Books/_assets'\n"
+            "tree and has no counterpart in the MEGA project. Point\n"
+            "PRIME_COVER_FACTORY at wherever those assets now live." % PLAN
+        )
     books = json.loads(PLAN.read_text(encoding="utf-8"))
     OUT.mkdir(parents=True, exist_ok=True)
     expected = set()

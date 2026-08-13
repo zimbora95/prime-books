@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 """Web-optimise a Prime Book PDF for the in-browser flipbook.
 
-The masters in H:/.../PDF/Output are print-grade (300dpi+, the worst is
-265 MB). pdf.js in a browser tab chokes long before that, so the serving
-copy is re-encoded: every raster image is downsampled to the resolution it
-is actually *placed* at (DPI target) and recompressed as JPEG. Vector text
+The masters in <MEGA project>/BOOKS/.../PDF/Output are print-grade (300dpi+,
+the worst is 265 MB). pdf.js in a browser tab chokes long before that, so the
+serving copy is re-encoded: every raster image is downsampled to the resolution
+it is actually *placed* at (DPI target) and recompressed as JPEG. Vector text
 and line art are never touched, so pages stay crisp at flipbook zoom.
 
 Two things this deliberately does NOT do, both learned the hard way:

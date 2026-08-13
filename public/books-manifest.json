@@ -2,8 +2,8 @@
   {
     "year": 1,
     "subject": "Art & Design",
-    "pages": 74,
-    "mb": 14.7,
+    "pages": 90,
+    "mb": 6.78,
     "pdf": "/books/Year%2001/Art%20and%20Design/Art%20and%20Design%20-%20Year%201%20-%20Student%20Book.pdf"
   },
   {
@@ -23,8 +23,8 @@
   {
     "year": 1,
     "subject": "Global Perspectives",
-    "pages": 144,
-    "mb": 9.98,
+    "pages": 154,
+    "mb": 10.59,
     "pdf": "/books/Year%2001/Global%20Perspectives/Global%20Perspectives%20-%20Year%201%20-%20Student%20Book.pdf"
   },
   {
@@ -33,6 +33,20 @@
     "pages": 364,
     "mb": 16.69,
     "pdf": "/books/Year%2001/Mathematics/Mathematics%20-%20Year%201%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 1,
+    "subject": "Music & Acting",
+    "pages": 198,
+    "mb": 18.3,
+    "pdf": "/books/Year%2001/Music%20and%20Acting/Music%20and%20Acting%20-%20Year%201%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 1,
+    "subject": "Physical Education & Gym",
+    "pages": 207,
+    "mb": 9.73,
+    "pdf": "/books/Year%2001/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%201%20-%20Student%20Book.pdf"
   },
   {
     "year": 1,
@@ -50,38 +64,129 @@
   },
   {
     "year": 2,
+    "subject": "Art & Design",
+    "pages": 164,
+    "mb": 6.17,
+    "pdf": "/books/Year%2002/Art%20and%20Design/Art%20and%20Design%20-%20Year%202%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 2,
+    "subject": "Computing & Robotics",
+    "pages": 256,
+    "mb": 12.57,
+    "pdf": "/books/Year%2002/Computing%20and%20Robotics/Computing%20and%20Robotics%20-%20Year%202%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 2,
     "subject": "English",
-    "pages": 16,
-    "mb": 0.74,
+    "pages": 210,
+    "mb": 7.48,
     "pdf": "/books/Year%2002/English/English%20-%20Year%202%20-%20Student%20Book.pdf"
   },
   {
     "year": 2,
+    "subject": "Global Perspectives",
+    "pages": 252,
+    "mb": 18.62,
+    "pdf": "/books/Year%2002/Global%20Perspectives/Global%20Perspectives%20-%20Year%202%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 2,
     "subject": "Mathematics",
-    "pages": 14,
-    "mb": 0.74,
+    "pages": 751,
+    "mb": 15.99,
     "pdf": "/books/Year%2002/Mathematics/Mathematics%20-%20Year%202%20-%20Student%20Book.pdf"
   },
   {
     "year": 2,
-    "subject": "Portuguese 1st",
-    "pages": 82,
-    "mb": 2.66,
-    "pdf": "/books/Year%2002/Portuguese%201st/Portuguese%201st%20-%20Year%202%20-%20Student%20Book.pdf"
+    "subject": "Music & Acting",
+    "pages": 255,
+    "mb": 14.47,
+    "pdf": "/books/Year%2002/Music%20and%20Acting/Music%20and%20Acting%20-%20Year%202%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 2,
+    "subject": "Physical Education & Gym",
+    "pages": 244,
+    "mb": 6.93,
+    "pdf": "/books/Year%2002/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%202%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 2,
+    "subject": "Science & Lab",
+    "pages": 185,
+    "mb": 7.01,
+    "pdf": "/books/Year%2002/Science%20and%20Lab/Science%20and%20Lab%20-%20Year%202%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 3,
+    "subject": "Art & Design",
+    "pages": 98,
+    "mb": 3.82,
+    "pdf": "/books/Year%2003/Art%20and%20Design/Art%20and%20Design%20-%20Year%203%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 3,
+    "subject": "Computing & Robotics",
+    "pages": 32,
+    "mb": 1.22,
+    "pdf": "/books/Year%2003/Computing%20and%20Robotics/Computing%20and%20Robotics%20-%20Year%203%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 3,
+    "subject": "Global Perspectives",
+    "pages": 144,
+    "mb": 2.12,
+    "pdf": "/books/Year%2003/Global%20Perspectives/Global%20Perspectives%20-%20Year%203%20-%20Student%20Book.pdf"
   },
   {
     "year": 3,
     "subject": "Mathematics",
-    "pages": 14,
-    "mb": 0.75,
+    "pages": 77,
+    "mb": 0.9,
     "pdf": "/books/Year%2003/Mathematics/Mathematics%20-%20Year%203%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 3,
+    "subject": "Physical Education & Gym",
+    "pages": 52,
+    "mb": 1.97,
+    "pdf": "/books/Year%2003/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%203%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 3,
+    "subject": "Portuguese 1st",
+    "pages": 46,
+    "mb": 1.49,
+    "pdf": "/books/Year%2003/Portuguese%201st/Portuguese%201st%20-%20Year%203%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 4,
+    "subject": "Art & Design",
+    "pages": 60,
+    "mb": 2.73,
+    "pdf": "/books/Year%2004/Art%20and%20Design/Art%20and%20Design%20-%20Year%204%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 4,
+    "subject": "Computing & Robotics",
+    "pages": 30,
+    "mb": 1.54,
+    "pdf": "/books/Year%2004/Computing%20and%20Robotics/Computing%20and%20Robotics%20-%20Year%204%20-%20Student%20Book.pdf"
   },
   {
     "year": 4,
     "subject": "English",
-    "pages": 15,
-    "mb": 0.77,
+    "pages": 98,
+    "mb": 1.34,
     "pdf": "/books/Year%2004/English/English%20-%20Year%204%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 4,
+    "subject": "Global Perspectives",
+    "pages": 104,
+    "mb": 8.82,
+    "pdf": "/books/Year%2004/Global%20Perspectives/Global%20Perspectives%20-%20Year%204%20-%20Student%20Book.pdf"
   },
   {
     "year": 4,
@@ -92,6 +197,20 @@
   },
   {
     "year": 4,
+    "subject": "Physical Education & Gym",
+    "pages": 52,
+    "mb": 1.92,
+    "pdf": "/books/Year%2004/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%204%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 4,
+    "subject": "Portuguese 1st",
+    "pages": 140,
+    "mb": 1.18,
+    "pdf": "/books/Year%2004/Portuguese%201st/Portuguese%201st%20-%20Year%204%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 4,
     "subject": "Science & Lab",
     "pages": 17,
     "mb": 0.8,
@@ -99,17 +218,73 @@
   },
   {
     "year": 5,
+    "subject": "Art & Design",
+    "pages": 42,
+    "mb": 2.33,
+    "pdf": "/books/Year%2005/Art%20and%20Design/Art%20and%20Design%20-%20Year%205%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 5,
+    "subject": "Global Perspectives",
+    "pages": 108,
+    "mb": 4.76,
+    "pdf": "/books/Year%2005/Global%20Perspectives/Global%20Perspectives%20-%20Year%205%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 5,
     "subject": "Mathematics",
-    "pages": 13,
-    "mb": 0.61,
+    "pages": 32,
+    "mb": 0.71,
     "pdf": "/books/Year%2005/Mathematics/Mathematics%20-%20Year%205%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 5,
+    "subject": "Physical Education & Gym",
+    "pages": 52,
+    "mb": 3.3,
+    "pdf": "/books/Year%2005/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%205%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 5,
+    "subject": "Portuguese 1st",
+    "pages": 140,
+    "mb": 8.89,
+    "pdf": "/books/Year%2005/Portuguese%201st/Portuguese%201st%20-%20Year%205%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 6,
+    "subject": "Art & Design",
+    "pages": 46,
+    "mb": 2.17,
+    "pdf": "/books/Year%2006/Art%20and%20Design/Art%20and%20Design%20-%20Year%206%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 6,
+    "subject": "Global Perspectives",
+    "pages": 112,
+    "mb": 2.58,
+    "pdf": "/books/Year%2006/Global%20Perspectives/Global%20Perspectives%20-%20Year%206%20-%20Student%20Book.pdf"
   },
   {
     "year": 6,
     "subject": "Mathematics",
-    "pages": 14,
-    "mb": 0.65,
+    "pages": 122,
+    "mb": 2.3,
     "pdf": "/books/Year%2006/Mathematics/Mathematics%20-%20Year%206%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 6,
+    "subject": "Physical Education & Gym",
+    "pages": 64,
+    "mb": 3.23,
+    "pdf": "/books/Year%2006/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%206%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 6,
+    "subject": "Portuguese 1st",
+    "pages": 110,
+    "mb": 3.92,
+    "pdf": "/books/Year%2006/Portuguese%201st/Portuguese%201st%20-%20Year%206%20-%20Student%20Book.pdf"
   },
   {
     "year": 7,
@@ -121,15 +296,15 @@
   {
     "year": 7,
     "subject": "English",
-    "pages": 26,
-    "mb": 0.95,
+    "pages": 24,
+    "mb": 0.9,
     "pdf": "/books/Year%2007/English/English%20-%20Year%207%20-%20Student%20Book.pdf"
   },
   {
     "year": 7,
     "subject": "Humanities (History & Geography)",
-    "pages": 18,
-    "mb": 1.08,
+    "pages": 194,
+    "mb": 3.57,
     "pdf": "/books/Year%2007/Humanities%20%28History%20and%20Geography%29/Humanities%20%28History%20and%20Geography%29%20-%20Year%207%20-%20Student%20Book.pdf"
   },
   {
@@ -141,9 +316,16 @@
   },
   {
     "year": 7,
+    "subject": "Physical Education & Gym",
+    "pages": 58,
+    "mb": 5.43,
+    "pdf": "/books/Year%2007/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%207%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 7,
     "subject": "Portuguese 1st",
-    "pages": 98,
-    "mb": 3.83,
+    "pages": 138,
+    "mb": 7.15,
     "pdf": "/books/Year%2007/Portuguese%201st/Portuguese%201st%20-%20Year%207%20-%20Student%20Book.pdf"
   },
   {
@@ -152,6 +334,13 @@
     "pages": 28,
     "mb": 0.87,
     "pdf": "/books/Year%2007/Science/Science%20-%20Year%207%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 7,
+    "subject": "Spanish",
+    "pages": 176,
+    "mb": 4.59,
+    "pdf": "/books/Year%2007/Spanish/Spanish%20-%20Year%207%20-%20Student%20Book.pdf"
   },
   {
     "year": 8,
@@ -163,8 +352,8 @@
   {
     "year": 8,
     "subject": "Humanities (History & Geography)",
-    "pages": 15,
-    "mb": 0.92,
+    "pages": 320,
+    "mb": 6.16,
     "pdf": "/books/Year%2008/Humanities%20%28History%20and%20Geography%29/Humanities%20%28History%20and%20Geography%29%20-%20Year%208%20-%20Student%20Book.pdf"
   },
   {
@@ -176,10 +365,24 @@
   },
   {
     "year": 8,
+    "subject": "Physical Education & Gym",
+    "pages": 50,
+    "mb": 3.9,
+    "pdf": "/books/Year%2008/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%208%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 8,
     "subject": "Science",
     "pages": 20,
     "mb": 0.85,
     "pdf": "/books/Year%2008/Science/Science%20-%20Year%208%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 8,
+    "subject": "Spanish",
+    "pages": 115,
+    "mb": 0.35,
+    "pdf": "/books/Year%2008/Spanish/Spanish%20-%20Year%208%20-%20Student%20Book.pdf"
   },
   {
     "year": 9,
@@ -191,8 +394,8 @@
   {
     "year": 9,
     "subject": "Humanities (History & Geography)",
-    "pages": 16,
-    "mb": 0.94,
+    "pages": 306,
+    "mb": 6.62,
     "pdf": "/books/Year%2009/Humanities%20%28History%20and%20Geography%29/Humanities%20%28History%20and%20Geography%29%20-%20Year%209%20-%20Student%20Book.pdf"
   },
   {
@@ -201,6 +404,20 @@
     "pages": 16,
     "mb": 0.69,
     "pdf": "/books/Year%2009/Mathematics/Mathematics%20-%20Year%209%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 9,
+    "subject": "Music & Drama",
+    "pages": 74,
+    "mb": 1.51,
+    "pdf": "/books/Year%2009/Music%20and%20Drama/Music%20and%20Drama%20-%20Year%209%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 9,
+    "subject": "Physical Education & Gym",
+    "pages": 42,
+    "mb": 3.48,
+    "pdf": "/books/Year%2009/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%209%20-%20Student%20Book.pdf"
   },
   {
     "year": 9,
@@ -219,23 +436,30 @@
   {
     "year": 9,
     "subject": "Spanish",
-    "pages": 335,
-    "mb": 8.7,
+    "pages": 338,
+    "mb": 9.33,
     "pdf": "/books/Year%2009/Spanish/Spanish%20-%20Year%209%20-%20Student%20Book.pdf"
   },
   {
     "year": 10,
     "subject": "Physical Education & Gym",
-    "pages": 23,
-    "mb": 0.25,
+    "pages": 46,
+    "mb": 3.55,
     "pdf": "/books/Year%2010/Physical%20Education%20and%20Gym/Physical%20Education%20and%20Gym%20-%20Year%2010%20-%20Student%20Book.pdf"
   },
   {
     "year": 10,
     "subject": "Portuguese 1st (IGCSE)",
-    "pages": 80,
-    "mb": 2.12,
+    "pages": 422,
+    "mb": 2.26,
     "pdf": "/books/Year%2010/Portuguese%201st%20%28IGCSE%29/Portuguese%201st%20%28IGCSE%29%20-%20Year%2010%20-%20Student%20Book.pdf"
+  },
+  {
+    "year": 11,
+    "subject": "Portuguese 1st (IGCSE)",
+    "pages": 426,
+    "mb": 5.39,
+    "pdf": "/books/Year%2011/Portuguese%201st%20%28IGCSE%29/Portuguese%201st%20%28IGCSE%29%20-%20Year%2011%20-%20Student%20Book.pdf"
   },
   {
     "year": 12,

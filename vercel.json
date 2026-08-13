@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/hermes/:verb", "destination": "/api/hermes?verb=:verb" }]
+}

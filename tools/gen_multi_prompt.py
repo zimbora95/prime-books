@@ -6,8 +6,8 @@ import os
 from docx import Document
 from docx.shared import Pt
 
-BASE = r"H:\Shared drives\Prime Books"
-LOCAL_BASE = r"C:\Users\alexa\Documents\The Prime Books"
+BASE = r"C:\Users\alexa\Documents\MEGA\Projects\Prime Books\BOOKS"
+LOCAL_BASE = BASE  # single tree since DEC-040; H: and 'The Prime Books' are retired
 
 # folder name per year per subject
 FOLDER_MAP = {
