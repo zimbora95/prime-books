@@ -32,6 +32,20 @@ dist-ssr
 
 # Serving copies of the real books (masters live on H: drive Output/ folders).
 # Regenerate with: python tools/sync_books.py
+# ---------------------------------------------------------------------------
+# public/Prime Books/ is a 30 GB WORKING MIRROR of the MEGA masters. It must
+# NEVER be committed or deployed:
+#   * PDF/Input holds third-party publisher material (Cambridge, Pearson,
+#     Collins syllabuses) kept for SCOPE ONLY. Publishing it is a copyright
+#     breach, and it is reachable by URL the moment it lands in public/.
+#   * it carries FEEDBACK.docx, WORKSTATION/ build exhaust and _superseded_*
+#     editions that no reader should see.
+#   * Vercel would refuse the deployment long before that anyway.
+# The site serves a SELECTED, web-optimised subset built by tools/sync_books.py.
+public/Prime Books/
+public/PROJECT-HUB/
+# ---------------------------------------------------------------------------
+
 # The old flat root copies are superseded by public/books/:
 public/*.pdf
 copy-books.sh
