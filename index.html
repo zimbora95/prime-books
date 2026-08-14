@@ -2359,6 +2359,20 @@
         }
       }
     </style>
+    <script>
+      window.__PB_ALLOW_EDITING = true;
+      /* Live tunnel: when this machine is on, the flipbook and manifest
+         are fetched straight from disk through the ngrok tunnel, so a
+         rebuild shows on refresh with no deploy. When the machine is off,
+         the probe fails and the site falls back to the Vercel CDN copy.
+         Defined in the head so it exists before the app script loads the
+         book manifest. */
+      window.__PB_LIVE_BASE = "https://visor-domestic-dislocate.ngrok-free.dev";
+      window.__PB_LIVE = false;
+      fetch(window.__PB_LIVE_BASE + "/health").then(function (r) {
+        if (r.ok) window.__PB_LIVE = true;
+      }).catch(function () {});
+    </script>
   </head>
   <body>
     <div class="hero-word">
@@ -7098,6 +7112,17 @@
       /* Resolve a book config to its synced PDF. The featured hero books in
          BOOKS carry yearNum + artSubj rather than a hardcoded path, so they
          pick up whatever tools/sync_books.py last published. */
+      /* Live tunnel rewrite: a relative /library/ path points at this machine
+         through ngrok when the PC is on, so a rebuilt PDF shows on refresh. */
+      function liveUrl(p) {
+        if (
+          window.__PB_LIVE &&
+          p &&
+          p.indexOf("/library/") === 0
+        )
+          return window.__PB_LIVE_BASE + p;
+        return p;
+      }
       function flipbookFor(cfg) {
         if (!cfg) return null;
         if (cfg.flipbook) return cfg.flipbook;
@@ -7120,6 +7145,21 @@
       let booksManifestReady = null;
       let LIBRARY_ROWS = [];
       const BOOK_BY_SLUG = {};
+      /* Fetch the public manifest. Prefer the live tunnel when the PC is on
+         (a re-sync then shows new books instantly), else the CDN copy. */
+      function fetchLibraryManifest() {
+        const liveBase = window.__PB_LIVE_BASE;
+        const tryUrl = (u) =>
+          fetch(u)
+            .then((r) => (r.ok ? r.json() : null))
+            .catch(() => null);
+        if (liveBase) {
+          return tryUrl(liveBase + "/library.json").then((rows) =>
+            Array.isArray(rows) ? rows : tryUrl("/library.json"),
+          );
+        }
+        return tryUrl("/library.json");
+      }
       function loadBooksManifest() {
         if (booksManifestReady) return booksManifestReady;
         /* The .local manifest carries the absolute MEGA paths the authoring
@@ -7137,7 +7177,7 @@
           .then((rows) =>
             Array.isArray(rows) && rows.length
               ? rows
-              : fetch("/library.json").then((r) => (r.ok ? r.json() : [])),
+              : fetchLibraryManifest().then((r) => r || []),
           )
           .then((rows) => {
             if (!Array.isArray(rows)) return;
@@ -7732,78 +7772,78 @@
       pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
 
       function openFlipbook(cfg, url) {
-        const src = url || flipbookFor(cfg);
-        if (!src) return;
-        document.body.classList.add("fb-open");
-        fbEl.setAttribute("aria-hidden", "false");
-        /* header must name the book actually being previewed, not the
-           hardcoded Humanities sample */
-        const nameEl = document.getElementById("fbName");
-        if (nameEl)
-          nameEl.textContent =
-            (cfg.title || "Prime Books") +
-            (cfg.band ? " \u00b7 " + cfg.band : "") +
-            " \u2014 Student Manual";
-        /* Book identity for the reading assistant. Two catalogue cards can share
-           a title, so identity comes from the manifest row, never the label.
-           Keyed on the book's SLUG, the stable identity minted by
-           tools/sync_library.py from year + subject, so the Hermes session
-           survives a re-sync, a re-render or a rename of the served file. Falls
-           back to the served path for anything not in the manifest (a hero book
-           with a hardcoded flipbook). */
-        const rowForKey = BOOK_ROWS[src] || {};
-        fbBookKey = rowForKey.slug ? "pb:" + rowForKey.slug : "pb:" + src;
-        const row = rowForKey;
-        fbBookMeta = {
-          title: cfg.title || "Prime Books",
-          band: cfg.band || row.band || "",
-          year: cfg.yearNum || row.year || null,
-          subject: cfg.artSubj || row.subject || cfg.title || "",
-          pdf: src,
-          /* Absolute, publicly fetchable URL. A remote Hermes cannot open our
-             disk, but it can download this. */
-          pdfUrl: location.origin + src,
-          /* Stable per-book identity, also the URL path segment: /book/<slug>.
-             Minted by tools/sync_library.py from year + subject, so it survives
-             a re-sync, a re-render and a rename of the served file. */
-          slug: row.slug || "",
-          /* Editorial state, straight from the masters: `done` is true when the
-             student PDF sits in PDF/Output/Done. */
-          done: !!row.done,
-          pages: row.pages || 0,
-          /* authoring context: where this book really lives on disk. These keys
-             exist only in library.local.json, which is never deployed. */
-          sourcePdf: row.source_pdf || "",
-          bookDir: row.book_dir || "",
-          markdownDir: row.markdown_dir || "",
-          buildable: !!row.buildable,
-          editable: !!row.editable,
-        };
-        if (!fbFlip || fbUrl !== src) {
-          /* different book than the one already built: tear the old one
-             down first, otherwise pages from both PDFs stack up */
-          if (fbFlip) {
-            try {
-              fbFlip.destroy();
-            } catch (e) {}
-            fbFlip = null;
-          }
-          /* PageFlip.destroy() also removes the #fbBook ROOT from the DOM
-             (this.block.remove()), so re-attach it before rebuilding -
-             otherwise the next book renders perfectly but off-DOM, i.e.
-             an invisible flipbook with the loader hidden. */
-          if (!fbBook.isConnected)
-            fbLoad.parentElement.insertBefore(fbBook, fbLoad);
-          fbBook.innerHTML = "";
-          fbSections = [];
-          fbHiDone.clear();
-          fbLive.clear();
-          fbRendering.clear();
-          fbTextCache.clear();
-          fbDoc = null;
-          fbUrl = src;
-          buildFlipbook(src);
-        } else {
+              const src = url || flipbookFor(cfg);
+              const fetchSrc = liveUrl(src); /* live tunnel when PC is on */
+              if (!src) return;
+              document.body.classList.add("fb-open");
+              fbEl.setAttribute("aria-hidden", "false");
+              /* header must name the book actually being previewed, not the
+                 hardcoded Humanities sample */
+              const nameEl = document.getElementById("fbName");
+              if (nameEl)
+                nameEl.textContent =
+                  (cfg.title || "Prime Books") +
+                  (cfg.band ? " \u00b7 " + cfg.band : "") +
+                  " \u2014 Student Manual";
+              /* Book identity for the reading assistant. Two catalogue cards can share
+                 a title, so identity comes from the manifest row, never the label.
+                 Keyed on the book's SLUG, the stable identity minted by
+                 tools/sync_library.py from year + subject, so the Hermes session
+                 survives a re-sync, a re-render or a rename of the served file. Falls
+                 back to the served path for anything not in the manifest (a hero book
+                 with a hardcoded flipbook). */
+              const rowForKey = BOOK_ROWS[src] || {};
+              fbBookKey = rowForKey.slug ? "pb:" + rowForKey.slug : "pb:" + src;
+              const row = rowForKey;
+              fbBookMeta = {
+                title: cfg.title || "Prime Books",
+                band: cfg.band || row.band || "",
+                year: cfg.yearNum || row.year || null,
+                subject: cfg.artSubj || row.subject || cfg.title || "",
+                pdf: src,
+                /* Live tunnel URL when this machine is on; CDN path otherwise. */
+                pdfUrl: fetchSrc.indexOf("http") === 0 ? fetchSrc : location.origin + src,
+                /* Stable per-book identity, also the URL path segment: /book/<slug>.
+                   Minted by tools/sync_library.py from year + subject, so it survives
+                   a re-sync, a re-render and a rename of the served file. */
+                slug: row.slug || "",
+                /* Editorial state, straight from the masters: `done` is true when the
+                   student PDF sits in PDF/Output/Done. */
+                done: !!row.done,
+                pages: row.pages || 0,
+                /* authoring context: where this book really lives on disk. These keys
+                   exist only in library.local.json, which is never deployed. */
+                sourcePdf: row.source_pdf || "",
+                bookDir: row.book_dir || "",
+                markdownDir: row.markdown_dir || "",
+                buildable: !!row.buildable,
+                editable: !!row.editable,
+              };
+              if (!fbFlip || fbUrl !== src) {
+                /* different book than the one already built: tear the old one
+                   down first, otherwise pages from both PDFs stack up */
+                if (fbFlip) {
+                  try {
+                    fbFlip.destroy();
+                  } catch (e) {}
+                  fbFlip = null;
+                }
+                /* PageFlip.destroy() also removes the #fbBook ROOT from the DOM
+                   (this.block.remove()), so re-attach it before rebuilding -
+                   otherwise the next book renders perfectly but off-DOM, i.e.
+                   an invisible flipbook with the loader hidden. */
+                if (!fbBook.isConnected)
+                  fbLoad.parentElement.insertBefore(fbBook, fbLoad);
+                fbBook.innerHTML = "";
+                fbSections = [];
+                fbHiDone.clear();
+                fbLive.clear();
+                fbRendering.clear();
+                fbTextCache.clear();
+                fbDoc = null;
+                fbUrl = src;
+                buildFlipbook(fetchSrc);
+              } else {
           /* Same book reopened: the flipbook is already built, so announce the
              reading position now - nothing else will fire an event. */
           pbEmit("pb:book-open");
@@ -8639,7 +8679,6 @@
          main script above) already exists when it mounts. Kept in its own
          file rather than added to this 8000-line document: the panel is
          self-contained and the single file is already an edit hazard. -->
-             <script>window.__PB_ALLOW_EDITING = true;</script>
-             <script src="/hermes-chat.js"></script>
+    <script src="/hermes-chat.js"></script>
   </body>
 </html>
