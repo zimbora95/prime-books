@@ -1,4 +1,4 @@
-/* Vercel serverless function for the reading assistant.
+/* Vercel serverless function for the AI assistant.
  *
  * Same three verbs as the dev proxy, same closed switch, same trust boundary:
  * the key lives in Vercel's environment, never in the browser.
@@ -65,7 +65,7 @@ export default async function handler(req, res) {
   if (!base || !key)
     return res
       .status(503)
-      .json({ error: "The reading assistant is not configured on this server." });
+      .json({ error: "The AI assistant is not configured on this server." });
   if (req.method !== "POST") return res.status(405).json({ error: "POST only" });
 
   const body = typeof req.body === "object" && req.body ? req.body : {};

@@ -81,7 +81,7 @@ export async function handleHermes(req, res, verb, cfg) {
 
   if (!base || !key) {
     return json(res, 503, {
-      error: "The reading assistant is not configured on this server.",
+      error: "The AI assistant is not configured on this server.",
     });
   }
   if (req.method !== "POST") return json(res, 405, { error: "POST only" });

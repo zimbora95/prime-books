@@ -1,5 +1,5 @@
 /* =============================================================================
-   Prime Books - reading assistant
+   Prime Books - AI assistant
    =============================================================================
    An AI panel beside the flipbook that always knows which book is open, which
    pages are visible, and what those pages say.
@@ -267,7 +267,7 @@
     var toc = (R && R.toc && R.toc()) || [];
     var lines = [];
     lines.push(
-      "You are Hermes, running with your full toolset, embedded in the Prime Books website beside a page-flip reader. This session belongs to ONE book: everything below is that book, and it does not change for the life of this session.",
+      "You are Hermes, the Prime Books AI assistant, running with your full toolset beside a page-flip reader. This session belongs to ONE book: everything below is that book, and it does not change for the life of this session.",
     );
     lines.push("");
     lines.push("THE BOOK IN THIS SESSION");
@@ -335,13 +335,13 @@
     lines.push("");
     if (REMOTE) {
       lines.push(
-        "You are a reading companion here, not the workshop: no manuscript, no builds. Answer from the pages in front of the reader, and offer to look further into the book when that helps.",
+        "You are running as a full AI assistant, but on a remote instance with no access to the book's manuscript or build files. You cannot edit or rebuild from here; answer from the pages in front of the reader, and if asked to change the book, offer the exact change as a suggestion the workshop can apply.",
       );
       return lines.join("\n");
     }
-    lines.push("AUTHORING");
+    lines.push("AUTHORING (you have the files, so you CAN edit this book)");
     lines.push(
-      "- The manuscript is the numbered markdown in the folder above; the PDF is a build artefact. Edit the markdown, never the PDF.",
+      "- The manuscript is the numbered markdown in the folder above; the PDF is a build artefact. Edit the markdown, never the PDF. When the reader asks you to change a title, page, exercise or cover, do it with your tools rather than refusing.",
     );
     lines.push(
       "- Read a file before you change it, and show the author what you propose. Supersede rather than delete, and never silently overwrite reviewed material.",
@@ -950,7 +950,7 @@
       el.log.textContent = "";
       var n = addMsg(
         "assistant",
-        "The reading assistant is offline. It runs from the Prime Books workstation, so it is available when that machine is serving the site.",
+        "The AI assistant is offline. It runs from the Prime Books workstation, so it is available when that machine is serving the site.",
       );
       n.parentElement.classList.add("pbc-intro");
       if (el.chips) el.chips.textContent = "";
@@ -964,11 +964,11 @@
 
     var panel = h("aside", "pbc");
     panel.id = "pbChat";
-    panel.setAttribute("aria-label", "Reading assistant");
+    panel.setAttribute("aria-label", "AI assistant");
 
     var head = h("div", "pbc-head");
     var titles = h("div", "pbc-titles");
-    titles.appendChild(h("div", "pbc-title", "Reading assistant"));
+    titles.appendChild(h("div", "pbc-title", "AI assistant"));
     el.where = h("div", "pbc-where");
     titles.appendChild(el.where);
     el.sessionTag = h("div", "pbc-sess");
@@ -1043,8 +1043,8 @@
       var t = h("button", "fb-btn pbc-toggle");
       t.id = "pbChatBtn";
       t.type = "button";
-      t.title = "Reading assistant";
-      t.setAttribute("aria-label", "Reading assistant");
+      t.title = "AI assistant";
+      t.setAttribute("aria-label", "AI assistant");
       t.textContent = "Ask";
       t.addEventListener("click", togglePanel);
       nav.insertBefore(t, nav.firstChild);
