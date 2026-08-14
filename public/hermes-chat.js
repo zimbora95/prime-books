@@ -40,10 +40,12 @@
      Hermes behind the proxy is a remote VM or Hermes Cloud with no access to the
      MEGA masters. Drives whether we offer on-disk paths or public URLs.
      __PB_FORCE_REMOTE lets the verification harness exercise the deployed
-     shape without deploying. */
-  var REMOTE =
-    !!window.__PB_FORCE_REMOTE ||
-    !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+     shape without deploying. __PB_ALLOW_EDITING overrides the hostname check
+          so a deployment behind a tunnel can use the full editor. */
+       var REMOTE =
+         !!window.__PB_FORCE_REMOTE ||
+         (!window.__PB_ALLOW_EDITING &&
+           !/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname));
   window.__PB_REMOTE = REMOTE;
 
   var el = {};
@@ -353,9 +355,12 @@
       "- If rebuildable is NO, say so plainly rather than pretending to rebuild.",
     );
     lines.push(
-      "- After a rebuild, the bookshop needs re-syncing before the flipbook changes: python tools/sync_books.py --only \"<Year NN>/<Subject>\" in " +
-        "C:\\\\Users\\\\alexa\\\\Documents\\\\GitHub\\\\prime-books.",
-    );
+          "- After a rebuild, the bookshop needs re-syncing before the flipbook changes: python tools/sync_library.py in "
+            + "C:\\\\\\\\Users\\\\\\\\alexa\\\\\\\\Documents\\\\\\\\GitHub\\\\\\\\prime-books.",
+        );
+        lines.push(
+              "- After editing a book's markdown, sync to Firestore: python tools/firestore_sync.py \\\"<Level>/<Year>/<Subject>\\\" (e.g. \\\"Year 01/Global Perspectives\\\"). Then read the latest version with python tools/firestore_fetch.py \\\"<slug>\\\". The Firestore copy is the canonical current text; the PDF is a compiled snapshot that may be out of date until rebuilt.",
+            );
     return lines.join("\n");
   }
 
