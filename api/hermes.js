@@ -14,10 +14,20 @@
  *   HERMES_MODEL      e.g. z-ai/glm-5.2
  *   HERMES_PROVIDER   e.g. openrouter
  *
+ * WORKSHOP MODE (optional) - lets the site route "edit the book" requests to a
+ * SECOND Hermes that owns the manuscript and build tools (the authoring
+ * profile). Enabled by setting:
+ *   AUTHORING_BASE_URL   e.g. https://your-tunnel.example.com
+ *   AUTHORING_API_KEY    that instance's API_SERVER_KEY
+ *   EDIT_PASSWORD        (optional) if set, authoring requests must include
+ *                        `editPassword`; if left empty, authoring is OPEN.
+ *
  * SECURITY NOTE: exposing a Hermes API server to the public internet exposes an
  * agent that can run terminal commands. Only point HERMES_BASE_URL at an
  * instance whose profile has a deliberately minimal toolset (the
- * primebooks-tutor profile uses `safe`), and keep the key secret.
+ * primebooks-tutor profile uses `safe`), and keep the key secret. The authoring
+ * endpoint has file + terminal tools by design - gate it with EDIT_PASSWORD or
+ * keep it off the public internet.
  */
 export const config = { runtime: "nodejs" };
 
@@ -29,6 +39,9 @@ function cfg() {
     key: process.env.HERMES_API_KEY || "",
     model: process.env.HERMES_MODEL || "",
     provider: process.env.HERMES_PROVIDER || "",
+    authoringBase: (process.env.AUTHORING_BASE_URL || "").replace(/\/+$/, ""),
+    authoringKey: process.env.AUTHORING_API_KEY || "",
+    editPassword: process.env.EDIT_PASSWORD || "",
   };
 }
 
@@ -41,7 +54,7 @@ function uniqueTitle(raw) {
 }
 
 export default async function handler(req, res) {
-  const { base, key, model, provider } = cfg();
+  const { base, key, model, provider, authoringBase, authoringKey, editPassword } = cfg();
   const verb = String((req.query && req.query.verb) || "")
     .toLowerCase()
     .replace(/[^a-z]/g, "");
@@ -71,6 +84,20 @@ export default async function handler(req, res) {
   const body = typeof req.body === "object" && req.body ? req.body : {};
   if (JSON.stringify(body).length > MAX_BODY)
     return res.status(413).json({ error: "body too large" });
+
+  /* Workshop routing: a request tagged mode=authoring/workshop goes to the
+     authoring Hermes instead of the reading one. Gated by EDIT_PASSWORD when
+     that env var is set; open when it is not. */
+  const mode = String((body.mode || "")).toLowerCase();
+  const authoring = mode === "authoring" || mode === "workshop";
+  if (authoring) {
+    if (!authoringBase || !authoringKey)
+      return res.status(503).json({ error: "Editing is not configured on this server." });
+    if (editPassword && body.editPassword !== editPassword)
+      return res.status(403).json({ error: "Editing is locked. Provide the edit password." });
+  }
+  const upBase = authoring ? authoringBase : base;
+  const upKey = authoring ? authoringKey : key;
 
   if (verb === "models") {
     /* Feed the /model command. Mirrors the dev proxy's `models` verb exactly:
@@ -113,10 +140,10 @@ export default async function handler(req, res) {
     if (wantProvider && okId(wantProvider)) payload.provider = wantProvider;
     else if (provider) payload.provider = provider;
     try {
-      const r = await fetch(`${base}/api/sessions`, {
+      const r = await fetch(`${upBase}/api/sessions`, {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${key}`,
+          Authorization: `Bearer ${upKey}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify(payload),
@@ -143,9 +170,9 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: "bad session id" });
     try {
       const r = await fetch(
-        `${base}/api/sessions/${encodeURIComponent(sessionId)}/messages`,
+        `${upBase}/api/sessions/${encodeURIComponent(sessionId)}/messages`,
         {
-          headers: { Authorization: `Bearer ${key}` },
+          headers: { Authorization: `Bearer ${upKey}` },
           signal: AbortSignal.timeout(15000),
         },
       );
@@ -185,11 +212,11 @@ export default async function handler(req, res) {
     let upstream;
     try {
       upstream = await fetch(
-        `${base}/api/sessions/${encodeURIComponent(sessionId)}/chat/stream`,
+        `${upBase}/api/sessions/${encodeURIComponent(sessionId)}/chat/stream`,
         {
           method: "POST",
           headers: {
-            Authorization: `Bearer ${key}`,
+            Authorization: `Bearer ${upKey}`,
             "Content-Type": "application/json",
             Accept: "text/event-stream",
           },

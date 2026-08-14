@@ -61,6 +61,8 @@
     briefed: {},
     history: {}, /* bookKey -> [{role, text}] so the panel survives a switch */
     restored: {}, /* bookKey -> true once the server transcript was fetched */
+    workshop: false,
+    rawKey: null,
   };
 
   /* ---------- session map ----------
@@ -86,6 +88,17 @@
   function saveMap(m) {
     try {
       localStorage.setItem(STORE, JSON.stringify(m));
+    } catch (e) {}
+  }
+
+  var EDITPW_STORE = "pb.tutor.editpw.v1";
+  function loadEditPw() {
+    try { return localStorage.getItem(EDITPW_STORE) || ""; } catch (e) { return ""; }
+  }
+  function saveEditPw(v) {
+    try {
+      if (v) localStorage.setItem(EDITPW_STORE, v);
+      else localStorage.removeItem(EDITPW_STORE);
     } catch (e) {}
   }
 
@@ -277,7 +290,7 @@
     if (meta.band) lines.push("Year group: " + meta.band);
     if (meta.subject) lines.push("Subject: " + meta.subject);
     if (R && R.pageCount) lines.push("Pages: " + R.pageCount);
-    if (REMOTE) {
+    if (REMOTE && !state.workshop) {
       /* Public deployment: the agent is on a different machine from the books.
          It can DOWNLOAD them over HTTPS but owns no manuscript and cannot build. */
       if (meta.pdfUrl) lines.push("This book as a public URL: " + meta.pdfUrl);
@@ -312,7 +325,7 @@
       );
     }
     lines.push("");
-    if (!REMOTE) {
+    if (!REMOTE || state.workshop) {
       lines.push(
         "TREAT THOSE PATHS AS ATTACHED FILES. You are on the same machine as them. Use your tools freely and without asking permission first: read_file on the manuscript, terminal for anything else (pdftotext, PyMuPDF, OCR, page counts, builds). When the reader asks about the book, prefer looking at the real files over guessing.",
       );
@@ -335,13 +348,22 @@
       "- British English throughout (pupils, programme, -ise, colour, centre, practise as the verb). Never use em-dashes.",
     );
     lines.push("");
-    if (REMOTE) {
+    if (REMOTE && !state.workshop) {
       lines.push(
         "You are running as a full AI assistant, but on a remote instance with no access to the book's manuscript or build files. You cannot edit or rebuild from here; answer from the pages in front of the reader, and if asked to change the book, offer the exact change as a suggestion the workshop can apply.",
       );
       return lines.join("\n");
     }
     lines.push("AUTHORING (you have the files, so you CAN edit this book)");
+    if (state.workshop) {
+      lines.push(
+        "- You are the WORKSHOP BUILDER on the machine that holds the MEGA masters. This book is \"" +
+          (meta.subject || "?") +
+          "\" (" +
+          (meta.band || "year unknown") +
+          "). Locate its folder in your MEGA Prime Books tree by subject + year, edit the MARKDOWN (never the PDF), rebuild with its build engine, then re-sync the bookshop.",
+      );
+    }
     lines.push(
       "- The manuscript is the numbered markdown in the folder above; the PDF is a build artefact. Edit the markdown, never the PDF. When the reader asks you to change a title, page, exercise or cover, do it with your tools rather than refusing.",
     );
@@ -373,6 +395,7 @@
      subset: start again, switch model, look around, get help. */
   var COMMANDS = [
     { name: "/new", args: "", help: "Start a fresh session for this book" },
+    { name: "/workshop", args: "[on|off]", help: "Toggle book-editing (workshop) mode" },
     { name: "/model", args: "[name]", help: "Show or switch the model" },
     { name: "/models", args: "", help: "List the models this Hermes offers" },
     { name: "/session", args: "", help: "Show this book's session id" },
@@ -399,6 +422,37 @@
     var body = addMsg("assistant", text);
     body.parentElement.classList.add("pbc-note");
     return body;
+  }
+
+  /* Toggle the workshop (editing) mode. When on, the panel routes to the
+     authoring Hermes and sends the authoring briefing, so "change the title"
+     actually edits the book. The session key is namespaced so a workshop
+     conversation never shares a thread with the reading one. */
+  function setWorkshop(on) {
+    on = !!on;
+    if (state.workshop === on) return;
+    state.workshop = on;
+    var raw = state.rawKey;
+    var key = raw ? raw + (on ? "|workshop" : "") : null;
+    state.bookKey = key;
+    state.sessionId = null;
+    state.creating = null;
+    state.lastPagesSent = null;
+    if (key) {
+      var sid = loadMap()[key];
+      state.briefed[key] = !!sid;
+      state.history[key] = [];
+      state.restored[key] = true;
+      if (sid) state.sessionId = sid;
+    }
+    el.log.textContent = "";
+    note(
+      on
+        ? "Workshop mode ON. You can now edit this book - ask me to change a title, page or exercise and I will edit the manuscript and rebuild."
+        : "Workshop mode OFF. Back to the read-only companion.",
+    );
+    updateSessionLabel();
+    suggestChips();
   }
 
   /* Forget this book's session and start a clean one. The NEXT question mints
@@ -460,6 +514,11 @@
     }
     if (cmd === "/new") {
       newSession(false);
+      return true;
+    }
+    if (cmd === "/workshop") {
+      var target = arg ? arg === "on" || arg === "1" : !state.workshop;
+      setWorkshop(target);
       return true;
     }
     if (cmd === "/clear") {
@@ -619,7 +678,9 @@
         (meta.title || "Book") +
         (meta.band ? " \u00b7 " + meta.band : "");
       var chosen = loadModelChoice();
-      var payload = { title: title };
+      var payload = { title: title, mode: state.workshop ? "authoring" : "reading" };
+      var pw = loadEditPw();
+      if (pw) payload.editPassword = pw;
       /* A session's model is pinned at creation, so a /model choice has to
          travel with the create call, not with a turn. */
       if (chosen && chosen.model) {
@@ -632,6 +693,13 @@
         body: JSON.stringify(payload),
       });
       if (!r.ok) {
+        if (r.status === 403) {
+          var pw = prompt("Book editing is locked. Enter the edit password:");
+          if (pw) {
+            saveEditPw(pw.trim());
+            throw new Error("Password saved - send your message again.");
+          }
+        }
         var detail = "";
         try {
           detail = (await r.json()).error || "";
@@ -711,10 +779,17 @@
       parts.push("Pupil's question: " + question);
 
       state.abort = new AbortController();
+      var chatBody = {
+        sessionId: sid,
+        input: parts.join("\n\n"),
+        mode: state.workshop ? "authoring" : "reading",
+      };
+      var pw2 = loadEditPw();
+      if (pw2) chatBody.editPassword = pw2;
       var res = await fetch(EP.chat, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ sessionId: sid, input: parts.join("\n\n") }),
+        body: JSON.stringify(chatBody),
         signal: state.abort.signal,
       });
       if (!res.ok || !res.body) {
@@ -898,7 +973,10 @@
   function onBookOpen(e) {
     var d = (e && e.detail) || {};
     var changed = d.bookKey !== state.bookKey;
-    state.bookKey = d.bookKey;
+    state.rawKey = d.bookKey;
+    state.bookKey = d.bookKey
+      ? d.bookKey + (state.workshop ? "|workshop" : "")
+      : null;
     state.meta = d.meta;
     if (changed) {
       /* New book: drop the old session handle so the next question mints a
@@ -987,6 +1065,15 @@
       if (!state.busy) newSession(false);
     });
     head.appendChild(fresh);
+    var ws = h("button", "pbc-ws", "Edit");
+    ws.type = "button";
+    ws.title = "Toggle workshop (editing) mode";
+    ws.setAttribute("aria-label", "Toggle workshop editing mode");
+    ws.style.cssText = "border:1px solid #d8c9a8;background:transparent;color:#a98b4f;border-radius:6px;padding:0 8px;font:inherit;cursor:pointer;";
+    ws.addEventListener("click", function () {
+      if (!state.busy) setWorkshop(!state.workshop);
+    });
+    head.appendChild(ws);
     var hide = h("button", "pbc-x", "\u00d7");
     hide.type = "button";
     hide.title = "Hide the assistant";
