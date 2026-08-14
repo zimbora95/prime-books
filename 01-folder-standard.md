@@ -20,10 +20,8 @@ The five levels, with the exact year each holds:
 | Advanced Levels | Years 12-13 (including combined "Year 12-13") |
 
 These are the UK key stages in their Cambridge form. A book's level is decided
-by its YEAR, never by subject. The MEGA archive uses a different, older grouping
-(its "1. Lower Primary" spans Years 01-04); when copying from MEGA, remap by
-year, not by the MEGA level name. `6. Extracurricular` and `7. Kindergarden`
-sit outside the five levels and are not part of this tree.
+by its YEAR, never by subject. `6. Extracurricular` and `7. Kindergarden` sit
+outside the five levels and are not part of this tree.
 
 ## Inside one book
 
@@ -41,8 +39,8 @@ sit outside the five levels and are not part of this tree.
 
 No other folders belong here. In particular there is never a `FEEDBACK.docx`,
 never a `*superseded*` folder, and no `_kit` or machinery subfolders. Real
-teacher reviews live in the MEGA archive under `ARTIFACTS/reviews/`; build
-engines live in `WORKSTATION/_build` and are local only.
+teacher reviews live in `ARTIFACTS/reviews/`; build engines live in
+`WORKSTATION/_build` and are local only.
 
 ## File naming
 
@@ -62,9 +60,8 @@ location IS the state.
 
 ## Where the pieces come from
 
-- Source input PDFs: the MEGA archive
-  `C:\Users\alexa\Documents\MEGA\Projects\Prime Books\BOOKS\<level>\...`
-  Copy each book's single source PDF into its `PDF/Input/`.
+- Source input PDFs: each book's `PDF/Input/` holds its single source PDF,
+  copied in when the book was migrated into `public/Prime Books/`.
 - Cover art: `public/collection-covers/` (one file per book). Copy the single
   cover into the book's `BOOK COVER/`.
 - Logos (Prime Book and Prime School) and fonts: `public/Resources/`.
@@ -93,7 +90,6 @@ Every run reports, in `docs/PATHS-TO-CORRECT.md`, the exact paths of any book
 that does not hold exactly one Input, one Output and one cover. Those are the
 paths to correct; the script never guesses and never deletes.
 
-The MEGA archive is the archival master. `public/Prime Books/` is the canonical
-working tree (gitignored, local to the workshop, never deployed). The site
-serves web-optimised copies built from it by `tools/sync_library.py` into
-`public/library/`.
+`public/Prime Books/` is the tree (gitignored, local to the workshop, never
+deployed). The site serves web-optimised copies built from it by
+`tools/sync_library.py` into `public/library/`.

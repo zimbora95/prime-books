@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Build the Prime Books library the site serves, straight from the MEGA masters.
+"""Build the Prime Books library the site serves, straight from the canonical
+tree at public/Prime Books/.
 
 REPLACES tools/sync_books.py, public/books/, public/covers/ and public/subjects/.
 
@@ -44,8 +45,10 @@ import unicodedata
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-MEGA = Path(r"C:\Users\alexa\Documents\MEGA\Projects\Prime Books")
-BOOKS = MEGA / "BOOKS"
+# The canonical tree is the repo's own public/Prime Books/. Everything the site
+# and the AI assistant touch lives here; the MEGA archive is no longer a working
+# dependency.
+BOOKS = REPO / "public" / "Prime Books"
 LIBRARY = REPO / "public" / "library"
 COLLECTION_COVERS = REPO / "public" / "collection-covers"
 PUBLIC_MANIFEST = REPO / "public" / "library.json"

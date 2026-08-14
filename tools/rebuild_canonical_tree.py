@@ -240,13 +240,19 @@ def build(publishable: list[dict]) -> int:
         (dest / "MARKDOWN").mkdir(parents=True, exist_ok=True)
         (dest / "BOOK COVER").mkdir(parents=True, exist_ok=True)
 
-        if len(r["in_pdfs"]) == 1:
-            copy_if_new(r["in_pdfs"][0], dest / "PDF" / "Input" / r["in_pdfs"][0].name)
+        # Copy every reference PDF, so the mirror is faithful. The "exactly one
+        # input" invariant is reported separately in PATHS-TO-CORRECT.md, never
+        # enforced by dropping files.
+        for p in r["in_pdfs"]:
+            copy_if_new(p, dest / "PDF" / "Input" / p.name)
 
-        if r["output"] is not None:
-            out_sub = dest / "PDF" / "Output" / ("Done" if r["done"] else "")
-            out_sub.mkdir(parents=True, exist_ok=True)
-            copy_if_new(r["output"], out_sub / r["output"].name)
+        # Copy every built PDF, Done/ and Output/ kept apart so the site's
+        # longest-pick (Done wins) works exactly as it did against the masters.
+        for p in r["done_pdfs"]:
+            (dest / "PDF" / "Output" / "Done").mkdir(parents=True, exist_ok=True)
+            copy_if_new(p, dest / "PDF" / "Output" / "Done" / p.name)
+        for p in r["out_pdfs"]:
+            copy_if_new(p, dest / "PDF" / "Output" / p.name)
 
         if r["cover"] is not None:
             copy_if_new(r["cover"], dest / "BOOK COVER" / r["cover"].name)
@@ -270,8 +276,36 @@ def build(publishable: list[dict]) -> int:
                 f"MARKDOWN is the editable source of truth; the PDF is the rendered output.\n",
                 encoding="utf-8",
             )
+        # Mirror the rest of the book (IMAGES, WORKSTATION build engine, KDP
+        # pack) so the assistant can edit AND rebuild entirely within
+        # public/Prime Books/, with no MEGA dependency.
+        mirror_book(r["path"], dest)
         n += 1
     return n
+
+
+SKIP_TOP = {"book cover", "pdf", "markdown"}
+
+
+def mirror_book(src: Path, dest: Path) -> None:
+    """Copy everything in the source book folder except the canonical parts that
+    build() already placed (BOOK COVER, PDF, MARKDOWN, OWNER.md). Superseded
+    folders are excluded. Idempotent via copy_if_new."""
+    if not src.is_dir():
+        return
+    for child in src.iterdir():
+        if child.is_dir():
+            if child.name.lower() in SKIP_TOP:
+                continue
+            for dirpath, dirnames, filenames in os.walk(child):
+                dirnames[:] = [d for d in dirnames if "supersed" not in d.lower()]
+                for fn in filenames:
+                    s = Path(dirpath) / fn
+                    copy_if_new(s, dest / child.name / s.relative_to(child))
+        elif child.is_file():
+            if child.name.lower() == "owner.md":
+                continue
+            copy_if_new(child, dest / child.name)
 
 
 def copy_if_new(src: Path, dest: Path) -> None:

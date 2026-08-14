@@ -54,7 +54,7 @@ YEAR: outside the five levels (extracurricular, kindergarden)  [2]
   6. Extracurricular/
   7. Kindergarden/
 ------------------------------------------------------------------------------
-OUTPUT: more than one pdf (which one is the student book?)  [21]
+OUTPUT: more than one pdf (which one is the student book?)  [22]
 ------------------------------------------------------------------------------
   1. Lower Primary/Year 01/English
       Output/ Prime Book - English - Year 1 - Student Book - horiz-fullart.pdf
@@ -68,13 +68,15 @@ OUTPUT: more than one pdf (which one is the student book?)  [21]
   1. Lower Primary/Year 03/Portuguese
       Output/ Prime Book - Physical Education - Year 3 - Student Book.pdf
       Output/ Prime Book - Portuguese - Year 3 - Student Book.pdf
-      Output/ Prime Book - Portuguese - Year 3 - Unit 1 - Student Book.pdf
   1. Lower Primary/Year 04/English
       Output/ Prime Book - English - Year 4 - Student Book.pdf
       Output/ Prime Book - English - Year 4 - Unit 1 - Story openings.pdf
   1. Lower Primary/Year 04/Portuguese
       Output/ Prime Book - Portuguese 1st - Year 4 - Student Book.pdf
       Output/ Prime Book - Portuguese 1st - Year 4 - Workbook.pdf
+  2. Upper Primary/Year 05/Global Perspectives
+      Output/ Prime Book - Global Perspectives - Year 5 - Student Book - FIXED.pdf
+      Output/ Prime Book - Global Perspectives - Year 5 - Unit 1 - Improving communication.pdf
   2. Upper Primary/Year 05/Portuguese
       Output/ Prime Book - Portuguese 1st - Year 5 - Student Book.pdf
       Output/ Prime Book - Portuguese 1st - Year 5 - Workbook.pdf
@@ -262,7 +264,7 @@ BOOK COVER: no collection cover found  [7]
 SUMMARY
     37  OUTPUT: no pdf at all
     2  YEAR: outside the five levels
-    21  OUTPUT: more than one pdf
+    22  OUTPUT: more than one pdf
     20  INPUT: no reference pdf
     15  INPUT: more than one reference pdf
     7  BOOK COVER: no collection cover found

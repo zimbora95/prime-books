@@ -17,25 +17,16 @@ The corpus has an authority that overrides anything in this file:
 3. `<PROJECT>\PROJECT-HUB\03-MEMORY.md` - hard rules.
 4. `<PROJECT>\PROJECT-HUB\STANDARD.md` - before touching any book's files.
 
-# PATHS (2026-08-14: public/Prime Books/ is the canonical working tree)
+# PATHS (2026-08-14: public/Prime Books/ is the one tree)
 
-There are three trees. Do not confuse them.
+Two trees, one source of truth. Do not confuse them.
 
-1. `public/Prime Books/` is the canonical working tree, inside the site repo at
-   `C:\Users\alexa\Documents\GitHub\prime-books`. It is gitignored and local to
-   the workshop; it is never committed or deployed. The full standard is
-   `01-folder-standard.md` at the repo root.
-2. The MEGA archive is the archival master, the backup plus the raw source
-   PDFs: `C:\Users\alexa\Documents\MEGA\Projects\Prime Books`. Derive its root
-   by walking up to the folder holding `BOOKS` and `PROJECT-HUB`:
-
-   ```python
-   import sys; sys.path.insert(0, r"<MEGA>\RESOURCES\System\_system")
-   import primebooks as pb; ROOT = pb.find_root()
-   ```
-
-3. `public/library/` is the web-optimised serving copy, built from the
-   canonical tree by `tools/sync_library.py`.
+1. `public/Prime Books/` is the tree: every book lives here, inside the site
+   repo at `C:\Users\alexa\Documents\GitHub\prime-books`. It is gitignored and
+   local to the workshop; it is never committed or deployed. The full standard
+   is `01-folder-standard.md` at the repo root.
+2. `public/library/` is the web-optimised serving copy, built from the tree by
+   `tools/sync_library.py`.
 
 A book lives at `public/Prime Books/<Level>/Year NN/<Subject>/`. `<Level>` is one
 of five, chosen by the book's YEAR, never by subject:
@@ -65,10 +56,10 @@ public/Prime Books/Lower Primary/Year 01/Art & Design/
   OWNER.md         <- lock, per 05-collaboration.md
 ```
 A book folder holds NO `FEEDBACK.docx` and no `*superseded*` folders. Real
-teacher reviews live in the MEGA archive under `ARTIFACTS/reviews/<book>.md`.
+teacher reviews live in `ARTIFACTS/reviews/<book>.md`.
 
-- INPUT for this book (copied from the MEGA archive):
-  `...\MEGA\Projects\Prime Books\BOOKS\1. Lower Primary\Year 01\Art & Design\PDF\Input\...`
+- INPUT for this book:
+  `public/Prime Books/Lower Primary/Year 01/Art & Design/PDF/Input/...`
 - OUTPUT pdf:
   `public/Prime Books/Lower Primary/Year 01/Art & Design/PDF/Output/Prime Book - Art & Design - Year 1 - Student Book.pdf`
 - OUTPUT markdown: `...\Art & Design\MARKDOWN\` (numbered set, no subfolders)
