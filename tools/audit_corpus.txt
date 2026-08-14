@@ -1,0 +1,18 @@
+=== mega: C:\Users\alexa\Documents\MEGA\Projects\Prime Books\BOOKS (115 books) ===
+  output != 1 pdf : 60
+  input  != 1 pdf : 71
+  cover  != 1 file: 30
+  no MARKDOWN     : 44
+  superseded dirs : 29
+  FEEDBACK files  : 87
+  in Done folder  : 0
+  buildable       : 29
+=== public: C:\Users\alexa\Documents\GitHub\prime-books\public\Prime Books (113 books) ===
+  output != 1 pdf : 58
+  input  != 1 pdf : 69
+  cover  != 1 file: 28
+  no MARKDOWN     : 42
+  superseded dirs : 29
+  FEEDBACK files  : 87
+  in Done folder  : 0
+  buildable       : 29

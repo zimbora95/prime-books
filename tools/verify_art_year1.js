@@ -17,11 +17,11 @@ const BASE = "http://127.0.0.1:5173";
     /* Prefer the local manifest: it is the one carrying the MEGA paths that the
        authoring assistant needs, and the one index.html itself uses on
        localhost. Reading the public manifest here reports markdown=undefined. */
-    let rows = await fetch("/books-manifest.local.json")
+    let rows = await fetch("/library.local.json")
       .then((x) => (x.ok ? x.json() : null))
       .catch(() => null);
     if (!Array.isArray(rows) || !rows.length)
-      rows = await fetch("/books-manifest.json").then((x) => x.json());
+      rows = await fetch("/library.json").then((x) => x.json());
     return rows.find((x) => x.year === 1 && x.subject.indexOf("Art") === 0);
   });
   console.log("BOOK: Year " + bk.year + " " + bk.subject + " (" + bk.pages + "pp)");

@@ -31,8 +31,10 @@
     session: "/hermes/session",
     chat: "/hermes/chat",
     history: "/hermes/history",
+    models: "/hermes/models",
   };
   var STORE = "pb.tutor.sessions.v1";
+  var MODEL_STORE = "pb.tutor.model.v1";
   var PAGE_TEXT_CAP = 6000; /* characters per page sent to the model */
   /* True when the site is NOT being served from a developer machine, i.e. the
      Hermes behind the proxy is a remote VM or Hermes Cloud with no access to the
@@ -357,6 +359,244 @@
     return lines.join("\n");
   }
 
+  /* ---------- slash commands ----------
+     The reader asked for the commands Hermes itself uses (/new, /model, ...).
+     They are handled ENTIRELY in the client and never reach the model: a line
+     starting with "/" is a UI instruction, so it must not be sent as a question
+     or the assistant would helpfully try to answer "/new" in prose.
+
+     Deliberately NOT offered: anything that changes the host machine or spends
+     money without the reader understanding it (no /tools, no /cron, no /skill).
+     This panel is reachable by any visitor, so the command set is the safe
+     subset: start again, switch model, look around, get help. */
+  var COMMANDS = [
+    { name: "/new", args: "", help: "Start a fresh session for this book" },
+    { name: "/model", args: "[name]", help: "Show or switch the model" },
+    { name: "/models", args: "", help: "List the models this Hermes offers" },
+    { name: "/session", args: "", help: "Show this book's session id" },
+    { name: "/clear", args: "", help: "Clear the panel, keep the session" },
+    { name: "/pages", args: "", help: "What the assistant can see right now" },
+    { name: "/help", args: "", help: "List these commands" },
+  ];
+
+  function loadModelChoice() {
+    try {
+      return JSON.parse(localStorage.getItem(MODEL_STORE) || "null");
+    } catch (e) {
+      return null;
+    }
+  }
+  function saveModelChoice(choice) {
+    try {
+      if (choice) localStorage.setItem(MODEL_STORE, JSON.stringify(choice));
+      else localStorage.removeItem(MODEL_STORE);
+    } catch (e) {}
+  }
+
+  function note(text) {
+    var body = addMsg("assistant", text);
+    body.parentElement.classList.add("pbc-note");
+    return body;
+  }
+
+  /* Forget this book's session and start a clean one. The NEXT question mints
+     it, so clicking + never litters state.db with empty sessions. This is the
+     "+ new session" the reader asked for: close the tab, come back, and the
+     book resumes; press + and the same book starts empty. */
+  function newSession(quiet) {
+    var key = state.bookKey;
+    if (key) {
+      var map = loadMap();
+      delete map[key];
+      saveMap(map);
+      state.history[key] = [];
+      state.restored[key] = true; /* nothing on the server to restore */
+      state.briefed[key] = false; /* a fresh session needs the briefing again */
+    }
+    state.sessionId = null;
+    state.creating = null;
+    state.lastPagesSent = null;
+    el.log.textContent = "";
+    if (!quiet) {
+      var meta = state.meta || {};
+      note(
+        "New session started for " +
+          (meta.title ? "\u201c" + meta.title + "\u201d" : "this book") +
+          ". Nothing from the earlier conversation carries over.",
+      );
+    }
+    suggestChips();
+    updateSessionLabel();
+  }
+
+  async function listModels() {
+    var r = await fetch(EP.models, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({}),
+    });
+    if (!r.ok) throw new Error("Could not read the model list.");
+    return r.json();
+  }
+
+  /* Returns true when the input was a command and has been dealt with. */
+  async function runCommand(line) {
+    var m = line.match(/^\/([a-z]+)\s*(.*)$/i);
+    if (!m) return false;
+    var cmd = "/" + m[1].toLowerCase();
+    var arg = (m[2] || "").trim();
+    addMsg("user", line);
+
+    if (cmd === "/help") {
+      note(
+        "Commands:\n" +
+          COMMANDS.map(function (c) {
+            return "- " + c.name + (c.args ? " " + c.args : "") + " \u2014 " + c.help;
+          }).join("\n"),
+      );
+      return true;
+    }
+    if (cmd === "/new") {
+      newSession(false);
+      return true;
+    }
+    if (cmd === "/clear") {
+      el.log.textContent = "";
+      if (state.bookKey) state.history[state.bookKey] = [];
+      note("Panel cleared. The session and its memory are intact: ask /new for a truly fresh start.");
+      return true;
+    }
+    if (cmd === "/session") {
+      note(
+        state.sessionId
+          ? "Session id: " + state.sessionId + "\nIt is stored against this book, so returning to the book resumes it."
+          : "No session yet for this book. It is created when you ask your first question.",
+      );
+      return true;
+    }
+    if (cmd === "/pages") {
+      var R = window.PBReading;
+      if (!R || !R.ready) {
+        note("The book is still loading.");
+        return true;
+      }
+      var pages = R.spread();
+      var txt = await R.pageText(pages[0]);
+      note(
+        "Open: " +
+          pagesLabel(pages) +
+          " of " +
+          (R.pageCount || "?") +
+          "\nSection: " +
+          (R.sectionFor(pages[0]) || "not detected") +
+          "\nText layer on this page: " +
+          (txt && txt.length > 20
+            ? txt.length + " characters, so I can read it"
+            : "none, so this page is artwork and I will not describe it"),
+      );
+      return true;
+    }
+    if (cmd === "/models" || (cmd === "/model" && !arg)) {
+      var chosen = loadModelChoice();
+      setStatus("Reading the model list\u2026", true);
+      try {
+        var data = await listModels();
+        setStatus("", false);
+        var names = (data.models || []).map(function (x) {
+          return x.model;
+        });
+        var uniq = names.filter(function (n, i) {
+          return names.indexOf(n) === i;
+        });
+        var current = (chosen && chosen.model) || data.current || "the server default";
+        if (cmd === "/model") {
+          note(
+            "Current model: " +
+              current +
+              "\nSwitch with /model <name>. " +
+              uniq.length +
+              " available; /models lists them.",
+          );
+        } else {
+          note(
+            "Current model: " +
+              current +
+              "\n\n" +
+              uniq.slice(0, 60).join("\n") +
+              (uniq.length > 60 ? "\n\u2026and " + (uniq.length - 60) + " more" : "") +
+              "\n\nSwitch with /model <name>.",
+          );
+        }
+      } catch (e) {
+        setStatus("", false);
+        note("I could not read the model list. " + (e.message || ""));
+      }
+      return true;
+    }
+    if (cmd === "/model") {
+      setStatus("Checking that model\u2026", true);
+      try {
+        var d = await listModels();
+        setStatus("", false);
+        var match = (d.models || []).filter(function (x) {
+          return x.model.toLowerCase() === arg.toLowerCase();
+        })[0];
+        if (!match) {
+          /* Substring rescue: "opus" should find anthropic/claude-opus-5
+             rather than being rejected as unknown. */
+          var near = (d.models || []).filter(function (x) {
+            return x.model.toLowerCase().indexOf(arg.toLowerCase()) !== -1;
+          });
+          if (near.length === 1) match = near[0];
+          else if (near.length > 1) {
+            note(
+              "That matches " +
+                near.length +
+                " models. Did you mean one of these?\n" +
+                near
+                  .slice(0, 10)
+                  .map(function (x) {
+                    return "- " + x.model;
+                  })
+                  .join("\n"),
+            );
+            return true;
+          }
+        }
+        if (!match) {
+          note("I do not have a model called \u201c" + arg + "\u201d. Try /models.");
+          return true;
+        }
+        saveModelChoice({ model: match.model, provider: match.provider });
+        /* A session's model is pinned AT CREATION and the stored value wins
+           over anything sent per turn, so the choice can only take effect on a
+           NEW session. Say that plainly rather than appearing to switch and
+           silently not switching. */
+        newSession(true);
+        note(
+          "Model set to " +
+            match.model +
+            ".\nA session's model is fixed when it is created, so I have started a fresh session for this book to apply it.",
+        );
+      } catch (e) {
+        setStatus("", false);
+        note("I could not switch model. " + (e.message || ""));
+      }
+      return true;
+    }
+    note("Unknown command " + cmd + ". Try /help.");
+    return true;
+  }
+
+  function updateSessionLabel() {
+    if (!el.sessionTag) return;
+    var chosen = loadModelChoice();
+    var bits = [];
+    if (state.sessionId) bits.push("session live");
+    if (chosen && chosen.model) bits.push(chosen.model);
+    el.sessionTag.textContent = bits.join(" \u00b7 ");
+  }
+
   /* ---------- transport ---------- */
   async function ensureSession() {
     if (state.sessionId) return state.sessionId;
@@ -376,10 +616,18 @@
         "Prime Books \u00b7 " +
         (meta.title || "Book") +
         (meta.band ? " \u00b7 " + meta.band : "");
+      var chosen = loadModelChoice();
+      var payload = { title: title };
+      /* A session's model is pinned at creation, so a /model choice has to
+         travel with the create call, not with a turn. */
+      if (chosen && chosen.model) {
+        payload.model = chosen.model;
+        if (chosen.provider) payload.provider = chosen.provider;
+      }
       var r = await fetch(EP.session, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title: title }),
+        body: JSON.stringify(payload),
       });
       if (!r.ok) {
         var detail = "";
@@ -396,6 +644,7 @@
         saveMap(m);
       }
       state.creating = null;
+      updateSessionLabel();
       return state.sessionId;
     })();
     return state.creating;
@@ -403,6 +652,25 @@
 
   async function send(question) {
     if (state.busy) return;
+    /* A slash command is a UI instruction, not a question: handle it here and
+       never spend a model turn on it. Checked BEFORE the book-ready guard so
+       /help and /model still work while a large PDF is loading. */
+    if (/^\//.test(question)) {
+      state.busy = true;
+      el.send.disabled = true;
+      el.input.value = "";
+      try {
+        var handled = await runCommand(question);
+        if (handled) return;
+      } catch (e) {
+        note("That command failed: " + ((e && e.message) || "unknown error"));
+        return;
+      } finally {
+        state.busy = false;
+        el.send.disabled = false;
+        scrollDown();
+      }
+    }
     var R = window.PBReading;
     if (!R || !R.ready) {
       setStatus("The book is still loading.", false);
@@ -645,6 +913,7 @@
       repaintFor(d.bookKey);
       /* Then pull the real transcript back, which repaints again when it lands. */
       restoreFor(d.bookKey);
+      updateSessionLabel();
     }
     updatePageLabel(d.pages);
   }
@@ -702,7 +971,20 @@
     titles.appendChild(h("div", "pbc-title", "Reading assistant"));
     el.where = h("div", "pbc-where");
     titles.appendChild(el.where);
+    el.sessionTag = h("div", "pbc-sess");
+    titles.appendChild(el.sessionTag);
     head.appendChild(titles);
+    /* + starts a fresh session for THIS book. The reader asked for exactly this:
+       returning to a book resumes its conversation, and + gives them a clean one
+       on the same book without touching any other book's thread. */
+    var fresh = h("button", "pbc-new", "+");
+    fresh.type = "button";
+    fresh.title = "New session for this book";
+    fresh.setAttribute("aria-label", "New session for this book");
+    fresh.addEventListener("click", function () {
+      if (!state.busy) newSession(false);
+    });
+    head.appendChild(fresh);
     var hide = h("button", "pbc-x", "\u00d7");
     hide.type = "button";
     hide.title = "Hide the assistant";
@@ -725,7 +1007,7 @@
     var form = h("form", "pbc-form");
     el.input = h("textarea", "pbc-input");
     el.input.rows = 1;
-    el.input.placeholder = "Ask about this page\u2026";
+    el.input.placeholder = "Ask about this page, or / for commands\u2026";
     el.input.setAttribute("aria-label", "Ask about this page");
     el.send = h("button", "pbc-send", "Ask");
     el.send.type = "submit";

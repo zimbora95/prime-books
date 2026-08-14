@@ -10,7 +10,7 @@ from urllib.parse import unquote
 
 REPO = Path(__file__).resolve().parent.parent
 PUBLIC = REPO / "public"
-MANIFEST = PUBLIC / "books-manifest.json"
+MANIFEST = PUBLIC / "library.json"
 
 rows = json.loads(MANIFEST.read_text(encoding="utf-8"))
 bad = []

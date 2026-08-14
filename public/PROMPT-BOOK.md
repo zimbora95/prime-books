@@ -17,47 +17,64 @@ The corpus has an authority that overrides anything in this file:
 3. `<PROJECT>\PROJECT-HUB\03-MEMORY.md` - hard rules.
 4. `<PROJECT>\PROJECT-HUB\STANDARD.md` - before touching any book's files.
 
-# PATHS (2026-08-13: MEGA is the only live tree)
+# PATHS (2026-08-14: public/Prime Books/ is the canonical working tree)
 
-`<PROJECT>` = `C:\Users\alexa\Documents\MEGA\Projects\Prime Books`
+There are three trees. Do not confuse them.
+
+1. `public/Prime Books/` is the canonical working tree, inside the site repo at
+   `C:\Users\alexa\Documents\GitHub\prime-books`. It is gitignored and local to
+   the workshop; it is never committed or deployed. The full standard is
+   `01-folder-standard.md` at the repo root.
+2. The MEGA archive is the archival master, the backup plus the raw source
+   PDFs: `C:\Users\alexa\Documents\MEGA\Projects\Prime Books`. Derive its root
+   by walking up to the folder holding `BOOKS` and `PROJECT-HUB`:
+
+   ```python
+   import sys; sys.path.insert(0, r"<MEGA>\RESOURCES\System\_system")
+   import primebooks as pb; ROOT = pb.find_root()
+   ```
+
+3. `public/library/` is the web-optimised serving copy, built from the
+   canonical tree by `tools/sync_library.py`.
+
+A book lives at `public/Prime Books/<Level>/Year NN/<Subject>/`. `<Level>` is one
+of five, chosen by the book's YEAR, never by subject:
+
+| Level | Years |
+|---|---|
+| Lower Primary | Year 01-02 |
+| Upper Primary | Year 03-06 |
+| Lower Secondary | Year 07-09 |
+| Upper Secondary | Year 10-11 (incl. combined "Year 10-11") |
+| Advanced Levels | Year 12-13 (incl. combined "Year 12-13") |
 
 The old `H:\Shared drives\Prime Books` and `C:\Users\alexa\Documents\The Prime Books`
-are RETIRED. H: may still be mounted with a full stale copy: **never read or write
-it.** Never hardcode a drive letter; derive the root by walking up to the folder
-holding `BOOKS` and `PROJECT-HUB`:
-
-```python
-import sys; sys.path.insert(0, r"<PROJECT>\RESOURCES\System\_system")
-import primebooks as pb; ROOT = pb.find_root()
-```
-
-A book lives at `<PROJECT>\BOOKS\<level>\Year NN\<Subject>\`, where `<level>` is one
-of `1. Lower Primary`, `2. Upper Primary`, `3. Lower Secondary`,
-`4. Upper Secondary`, `5. Advanced Levels`, `6. Extracurricular`.
+trees are RETIRED and must never be read or written.
 
 Worked example, Art & Design Year 1:
 
 ```
-<PROJECT>\BOOKS\1. Lower Primary\Year 01\Art & Design\
-  MARKDOWN\        <- THE MANUSCRIPT. Numbered set only. The editable record.
-  BOOK COVER\      <- EXACTLY ONE cover file (see below)
-  IMAGES\          <- generated art
-  KDP\             <- Amazon pack
-  PDF\Input\       <- SOURCE MATERIAL. Reference for SCOPE only. NEVER republish.
-  PDF\Output\      <- EXACTLY ONE pdf: the student book
-  PDF\Output\READY\ <- promoted pack, 3 files, zero corrections pending
-  WORKSTATION\_build\   <- the engine (build.py). Not in any delivery set.
-  FEEDBACK.docx    <- teacher review; often empty
+public/Prime Books/Lower Primary/Year 01/Art & Design/
+  MARKDOWN/        <- THE MANUSCRIPT. Numbered set only. The editable record.
+  BOOK COVER/      <- EXACTLY ONE cover file (the collection cover)
+  PDF/Input/       <- SOURCE MATERIAL. Reference for SCOPE only. NEVER republish.
+  PDF/Output/      <- EXACTLY ONE pdf: the student book
+  PDF/Output/Done/ <- the STATUS SWITCH: move the pdf in here and the book shows
+                      as DONE on the site; move it back out and it is in
+                      progress again. The folder IS the status, nothing else.
+  OWNER.md         <- lock, per 05-collaboration.md
 ```
+A book folder holds NO `FEEDBACK.docx` and no `*superseded*` folders. Real
+teacher reviews live in the MEGA archive under `ARTIFACTS/reviews/<book>.md`.
 
-- INPUT for this book:
-  `<PROJECT>\BOOKS\1. Lower Primary\Year 01\Art & Design\PDF\Input\Student Book\...`
+- INPUT for this book (copied from the MEGA archive):
+  `...\MEGA\Projects\Prime Books\BOOKS\1. Lower Primary\Year 01\Art & Design\PDF\Input\...`
 - OUTPUT pdf:
-  `<PROJECT>\BOOKS\1. Lower Primary\Year 01\Art & Design\PDF\Output\Prime Book - Art & Design - Year 1 - Student Book.pdf`
+  `public/Prime Books/Lower Primary/Year 01/Art & Design/PDF/Output/Prime Book - Art & Design - Year 1 - Student Book.pdf`
 - OUTPUT markdown: `...\Art & Design\MARKDOWN\` (numbered set, no subfolders)
-- OUTPUT images: `...\Art & Design\IMAGES\`
-- Logos: `<PROJECT>\RESOURCES\Prime School Logo\` (print: two flat colours only,
-  blue `#004990`, red `#EE3023`, no tagline, no gold). Composite the REAL logo
+- Cover art: `public/collection-covers/Y01-ArtDesign.webp` (one file per book)
+- Logos and fonts: `public/Resources/`. Print logo: two flat colours only,
+  blue `#004990`, red `#EE3023`, no tagline, no gold. Composite the REAL logo
   file. Never let an image model draw it.
 
 # COPYRIGHT-SAFE REWRITE (mandatory)
@@ -85,12 +102,20 @@ En-dashes only for ranges (`Ages 11-14`, written `&ndash;`).
 
 The corpus has two art directions, and a book must sit cleanly in one:
 
-- **Years 1-6: storybook.** Beatrix Potter lineage. Soft watercolour and ink,
-  gentle naturalistic palette, hand-drawn warmth, generous white space, characters
-  and animals. Cover art and interior art share this vocabulary.
-- **Years 7-13: geometric.** Grown-up, editorial, not "kiddy". Flat geometric
-  construction, confident blocks of colour, diagrams and structure over cuteness,
-  strong typographic hierarchy.
+- **Storybook.** Beatrix Potter lineage. Soft watercolour and ink, gentle
+  naturalistic palette, hand-drawn warmth, generous white space, characters and
+  animals. Cover art and interior art share this vocabulary.
+- **Geometric.** Grown-up, editorial, not "kiddy". Flat geometric construction,
+  confident blocks of colour, diagrams and structure over cuteness, strong
+  typographic hierarchy.
+
+BOUNDARY (2026-08-14, set in 02-design-system.md): Pack A "Beatrix Potter" runs
+Year 1-6 (Lower and Upper Primary); Pack B "Geometrical" runs Year 7+
+(Secondary and Advanced Levels). A book is 100% in one pack, decided by its
+year, never by subject. Both packs share the SAME title block (logo top-left,
+bold black title, "Year N", Cambridge band, "Student Manual", accent rule,
+full-height coloured spine bar); only the art below the rule differs. The exact
+palettes and image prompts for each pack are in 02-design-system.md.
 
 Whichever family applies, the FRONT cover, BACK cover, unit openers and interior
 art must share one vocabulary within the book, and vary in composition between
@@ -146,6 +171,14 @@ python one_pdf.py                         # EXACTLY ONE pdf in PDF\Output
 python covers_front_back.py --go          # cover files
 python build_registry.py                  # re-index from evidence on disk
 ```
+
+To PUBLISH to the bookshop site (its own repo at
+`C:\Users\alexa\Documents\GitHub\prime-books`), run
+`python tools/sync_library.py` there: it web-optimises each student PDF into
+`public/library/<slug>/book.pdf`, copies the cover, and writes `library.json`.
+The book appears DONE on the site when its pdf sits in `PDF\Output\Done`. Moving
+the file into or out of `Done` is the entire status switch; re-run the sync to
+reflect it. (`tools/sync_books.py` is retired; `tools/sync_library.py` replaces it.)
 
 Gates read no pixels. **ALL PASS means the review STARTS**: open the PDF and look
 at it. A status field is a cached opinion; when it disagrees with the artefacts,

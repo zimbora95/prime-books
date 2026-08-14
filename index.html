@@ -1671,6 +1671,30 @@
         background: #8fd6b0;
         color: #0c2b1c;
       }
+      /* Editorial state, bottom-left of the cover so it never collides with the
+         edition flag top-right. Driven by PDF/Output/Done in the masters. */
+      .bstate {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        padding: 4px 9px;
+        border-radius: 999px;
+        font-size: 9px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        backdrop-filter: blur(6px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
+      }
+      .bstate.done {
+        background: rgba(143, 214, 176, 0.94);
+        color: #0c2b1c;
+      }
+      .bstate.wip {
+        background: rgba(12, 19, 52, 0.72);
+        color: var(--mist);
+        border: 1px solid rgba(174, 184, 221, 0.34);
+      }
       .bed {
         font-size: 12px;
         font-weight: 800;
@@ -1784,6 +1808,24 @@
         overflow: hidden;
         text-overflow: ellipsis;
       }
+      /* Session state line: which model is pinned, whether a session is live.
+         An invisible session reads as a broken one, so it is surfaced. */
+      .pbc-sess {
+        margin-top: 4px;
+        font-size: 10px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(174, 184, 221, 0.66);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .pbc-sess:empty {
+        display: none;
+      }
+      /* "+" starts a fresh session for the book on screen. Same footprint as
+         the close button so the header stays a tidy pair of controls. */
+      .pbc-new,
       .pbc-x {
         flex: none;
         width: 30px;
@@ -1799,9 +1841,29 @@
           background 0.2s ease,
           border-color 0.2s ease;
       }
+      .pbc-new {
+        font-size: 19px;
+        font-weight: 600;
+      }
+      .pbc-new:hover {
+        background: rgba(201, 163, 92, 0.24);
+        border-color: var(--gold);
+      }
       .pbc-x:hover {
         background: rgba(214, 31, 44, 0.22);
         border-color: var(--red-hi);
+      }
+      /* A command reply (/help, /model, ...) is the app talking, not the model:
+         mark it so a reader never mistakes it for the assistant's own words. */
+      .pbc-note .pbc-body {
+        border-left: 2px solid var(--gold);
+        padding-left: 10px;
+        color: var(--mist);
+        font-size: 12.5px;
+      }
+      .pbc-note .pbc-body p,
+      .pbc-note .pbc-body li {
+        white-space: pre-wrap;
       }
       .pbc-log {
         flex: 1;
@@ -7005,10 +7067,10 @@
 
       /* ---- flex book: any catalogue title can take the 3D stage ---- */
       /* ---- Per-subject Prime Books PDFs -------------------------------
-         Populated at runtime from /books-manifest.json, which
-         tools/sync_books.py writes when it syncs the real Student Books
-         out of MEGA/Projects/Prime Books/BOOKS/<level>/Year NN/<Subject>/PDF/Output
-         into public/books/Year NN/<Subject>/.
+         Populated at runtime from /library.json, which tools/sync_library.py
+         writes when it syncs the real Student Books out of
+         MEGA/Projects/Prime Books/BOOKS/<level>/Year NN/<Subject>/PDF/Output
+         into public/library/<slug>/.
 
          Key: "<year>|<subject>" exactly as the subject appears in the
          catalogue ("Year 7", not "Year 07" - the zero-padded form is only
@@ -7022,6 +7084,15 @@
          flipbook.                                                      */
       const SUBJECT_PDFS = {};
       const SUBJECT_PDF_PAGES = {};
+      /* Cover art per book, filled from /library.json by loadBooksManifest().
+         Declared HERE, beside its siblings, not next to coverImgFor() below:
+         loadBooksManifest() is invoked earlier in this script and writes into
+         it, so a `const` further down would be in its temporal dead zone and
+         throw before a single card was built. */
+      const SUBJECT_COVERS = {};
+      /* "Year N|Subject" -> the whole manifest row, so any view can ask for a
+         book's page count, editorial state or slug without re-deriving a path. */
+      const SUBJECT_ROWS = {};
       /* served pdf path -> the full manifest row (incl. MEGA master + MARKDOWN
          paths and whether the book has a build engine) */
       const BOOK_ROWS = {};
@@ -7042,8 +7113,18 @@
 
       /* Load the manifest once, before the catalogue, so every card is built
          with its flipbook already attached. Resolves either way: a missing
-         manifest just leaves Preview showing the "being published" toast. */
+         manifest just leaves Preview showing the "being published" toast.
+
+         SOURCE OF TRUTH (rewired 2026-08-14): /library.json, written by
+         tools/sync_library.py straight from the MEGA masters. It replaces the
+         old books-manifest.json + hardcoded COVER_IMGS pair, and every row
+         carries its own slug, cover, page count, done flag and whether the book
+         is editable/buildable. The site still reads only its own origin: the
+         masters are never fetched at runtime, so a stale sync ships stale
+         books. */
       let booksManifestReady = null;
+      let LIBRARY_ROWS = [];
+      const BOOK_BY_SLUG = {};
       function loadBooksManifest() {
         if (booksManifestReady) return booksManifestReady;
         /* The .local manifest carries the absolute MEGA paths the authoring
@@ -7053,7 +7134,7 @@
           location.hostname,
         );
         booksManifestReady = (isLocal
-          ? fetch("/books-manifest.local.json")
+          ? fetch("/library.local.json")
               .then((r) => (r.ok ? r.json() : null))
               .catch(() => null)
           : Promise.resolve(null)
@@ -7061,17 +7142,21 @@
           .then((rows) =>
             Array.isArray(rows) && rows.length
               ? rows
-              : fetch("/books-manifest.json").then((r) => (r.ok ? r.json() : [])),
+              : fetch("/library.json").then((r) => (r.ok ? r.json() : [])),
           )
           .then((rows) => {
             if (!Array.isArray(rows)) return;
+            LIBRARY_ROWS = rows;
             rows.forEach((row) => {
               const key = "Year " + row.year + "|" + row.subject;
               SUBJECT_PDFS[key] = row.pdf;
               if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;
+              if (row.cover) SUBJECT_COVERS[key] = row.cover;
+              SUBJECT_ROWS[key] = row;
               /* Keep the whole row, keyed by served path: the reading assistant
                  needs the MEGA manuscript paths to answer authoring questions. */
               BOOK_ROWS[row.pdf] = row;
+              if (row.slug) BOOK_BY_SLUG[row.slug] = row;
             });
           })
           .catch(() => {});
@@ -7085,42 +7170,15 @@
          so an earlier call would hit its temporal dead zone. */
       loadBooksManifest();
 
-      /* Page-1 renders of the real PDFs (gen_covers.py), used as cover art
-         on catalogue cards and on the 3D book front. Same key format as
-         SUBJECT_PDFS. Subjects without a real book keep procedural covers. */
-      const COVER_IMGS = {
-        "Year 1|Art & Design": "/covers/PrimeBooks%20Art%20and%20Design%20Year%201.jpg",
-        "Year 1|Computing & Robotics": "/covers/PrimeBooks%20Computing%20and%20Robotics%20Year%201.jpg",
-        "Year 1|English": "/covers/PrimeBooks%20English%20Year%201.jpg",
-        "Year 1|Global Perspectives": "/covers/PrimeBooks%20Global%20Perspectives%20Year%201.jpg",
-        "Year 2|English": "/covers/PrimeBooks%20English%20Year%202.jpg",
-        "Year 2|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%202.jpg",
-        "Year 3|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%203.jpg",
-        "Year 4|English": "/covers/PrimeBooks%20English%20Year%204.jpg",
-        "Year 4|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%204.jpg",
-        "Year 4|Science & Lab": "/covers/PrimeBooks%20Science%20and%20Lab%20Year%204.jpg",
-        "Year 5|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%205.jpg",
-        "Year 6|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%206.jpg",
-        "Year 7|English": "/covers/PrimeBooks%20English%20Year%207.jpg",
-        "Year 7|Humanities (History & Geography)": "/covers/PrimeBooks%20Humanities%20Year%207.jpg",
-        "Year 7|Computing & Robotics": "/covers/PrimeBooks%20Computing%20and%20Robotics%20Year%207.jpg",
-        "Year 7|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%207.jpg",
-        "Year 7|Portuguese 1st": "/covers/PrimeBooks%20Portuguese%201st%20Year%207.jpg",
-        "Year 7|Science": "/covers/PrimeBooks%20Science%20Year%207.jpg",
-        "Year 8|English": "/covers/PrimeBooks%20English%20Year%208.jpg",
-        "Year 8|Humanities (History & Geography)": "/covers/PrimeBooks%20Humanities%20Year%208.jpg",
-        "Year 8|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%208.jpg",
-        "Year 8|Science": "/covers/PrimeBooks%20Science%20Year%208.jpg",
-        "Year 9|English": "/covers/PrimeBooks%20English%20Year%209.jpg",
-        "Year 9|Humanities (History & Geography)": "/covers/PrimeBooks%20Humanities%20Year%209.jpg",
-        "Year 9|Mathematics": "/covers/PrimeBooks%20Mathematics%20Year%209.jpg",
-        "Year 9|Portuguese 1st (IGCSE)": "/covers/PrimeBooks%20Portuguese%201st%20Year%209.jpg",
-        "Year 9|Science": "/covers/PrimeBooks%20Science%20Year%209.jpg",
-        "Year 10|Physical Education Gym": "/covers/PrimeBooks%20Physical%20Education%20Gym%20Year%2010.jpg",
-        "Year 12|Physical Education & Gym": "/covers/PrimeBooks%20Physical%20Education%20and%20Gym%20Year%2012.jpg",
-      };
+      /* Cover art comes from the manifest (see SUBJECT_COVERS above). This was a
+         hardcoded 30-entry COVER_IMGS table of /covers/ page-1 renders
+         (gen_covers.py): it covered 29 of 76 books and drifted the moment a
+         subject was renamed. Every row now brings its own cover from
+         public/collection-covers via tools/sync_library.py, so the catalogue
+         card, the list row and the 3D book front all read the same one file.
+         Subjects with no artwork yet fall back to the procedural cover. */
       function coverImgFor(year, subj) {
-        return COVER_IMGS[year + "|" + subj] || null;
+        return SUBJECT_COVERS[year + "|" + subj] || null;
       }
 
       function cfgForCard(row, edKey) {
@@ -7334,6 +7392,20 @@
         window.addEventListener("resize", segThumb);
 
 
+        /* Editorial state badge. `done` is true when the student PDF sits in
+           PDF/Output/Done in the masters, so moving the file in or out of that
+           folder is the whole status switch: re-run tools/sync_library.py and the
+           badge follows. Shown on the card AND in list view, because the user
+           reads the collection as a list and needs to see progress at a glance
+           without opening anything. */
+        function stateBadge(year, subj) {
+          const row = SUBJECT_ROWS[year + "|" + subj];
+          if (!row) return "";
+          return row.done
+            ? '<span class="bstate done" title="Finished: the PDF is in PDF/Output/Done">Done</span>'
+            : '<span class="bstate wip" title="In progress: the PDF is still in PDF/Output">In progress</span>';
+        }
+
         /* cards: one per (subject × edition in print) */
         function cardsFor(r) {
           const ok = r.s || r.t || r.w;
@@ -7378,6 +7450,7 @@
                 (e.key !== "manual"
                   ? '<span class="bflag ' + e.key + '">' + e.short + "</span>"
                   : "") +
+                stateBadge(r.year, r.subj) +
                 "</div>" +
                 '<span class="from solo"><b>' +
                 e.price +
@@ -7628,6 +7701,17 @@
       };
 
       function pbEmit(name) {
+        /* Keep the address bar on the book being read, so a reader can bookmark
+           or share it and land back on the same book AND the same assistant
+           session. Only on open: page turns must not spam the history stack. */
+        if (
+          name === "pb:book-open" &&
+          window.PBRouter &&
+          fbBookMeta &&
+          fbBookMeta.slug
+        ) {
+          window.PBRouter.setUrlForSlug(fbBookMeta.slug, fbBookMeta.title);
+        }
         try {
           window.dispatchEvent(
             new CustomEvent(name, {
@@ -7656,26 +7740,40 @@
             (cfg.title || "Prime Books") +
             (cfg.band ? " \u00b7 " + cfg.band : "") +
             " \u2014 Student Manual";
-        /* Book identity for the reading assistant. Keyed on the PDF path,
-           which is what actually distinguishes one book from another (two
-           catalogue cards can share a title). Same book reopened = same key =
-           same Hermes session; a different book mints a new one. */
-        fbBookKey = "pb:" + src;
-        const row = BOOK_ROWS[src] || {};
+        /* Book identity for the reading assistant. Two catalogue cards can share
+           a title, so identity comes from the manifest row, never the label.
+           Keyed on the book's SLUG, the stable identity minted by
+           tools/sync_library.py from year + subject, so the Hermes session
+           survives a re-sync, a re-render or a rename of the served file. Falls
+           back to the served path for anything not in the manifest (a hero book
+           with a hardcoded flipbook). */
+        const rowForKey = BOOK_ROWS[src] || {};
+        fbBookKey = rowForKey.slug ? "pb:" + rowForKey.slug : "pb:" + src;
+        const row = rowForKey;
         fbBookMeta = {
           title: cfg.title || "Prime Books",
-          band: cfg.band || "",
+          band: cfg.band || row.band || "",
           year: cfg.yearNum || row.year || null,
           subject: cfg.artSubj || row.subject || cfg.title || "",
           pdf: src,
           /* Absolute, publicly fetchable URL. A remote Hermes cannot open our
              disk, but it can download this. */
           pdfUrl: location.origin + src,
-          /* authoring context: where this book really lives on disk */
-          sourcePdf: row.src || "",
+          /* Stable per-book identity, also the URL path segment: /book/<slug>.
+             Minted by tools/sync_library.py from year + subject, so it survives
+             a re-sync, a re-render and a rename of the served file. */
+          slug: row.slug || "",
+          /* Editorial state, straight from the masters: `done` is true when the
+             student PDF sits in PDF/Output/Done. */
+          done: !!row.done,
+          pages: row.pages || 0,
+          /* authoring context: where this book really lives on disk. These keys
+             exist only in library.local.json, which is never deployed. */
+          sourcePdf: row.source_pdf || "",
           bookDir: row.book_dir || "",
-          markdownDir: row.markdown || "",
+          markdownDir: row.markdown_dir || "",
           buildable: !!row.buildable,
+          editable: !!row.editable,
         };
         if (!fbFlip || fbUrl !== src) {
           /* different book than the one already built: tear the old one
@@ -7711,6 +7809,56 @@
         document.body.classList.remove("fb-open");
         fbEl.setAttribute("aria-hidden", "true");
         fbTocPanel.classList.remove("on");
+        /* Drop back to the catalogue URL: leaving /book/<slug> in the address
+           bar over a closed reader means a reload reopens a book the reader
+           just dismissed. */
+        if (window.PBRouter) window.PBRouter.clearUrl();
+      }
+
+      /* ---------------------------------------------------------------------
+         PBLibrary: the contract public/pb-router.js drives.
+
+         Deep links (/book/y01-art-and-design) are handled OUTSIDE this file so
+         the routing logic is reviewable on its own, but only this file can open
+         a flipbook. openSlug() is the whole bridge: it waits for the manifest,
+         finds the row, builds the same cfg a catalogue card would, and opens it.
+         --------------------------------------------------------------------- */
+      window.PBLibrary = {
+        rows: function () {
+          return LIBRARY_ROWS;
+        },
+        bySlug: function (slug) {
+          return BOOK_BY_SLUG[slug] || null;
+        },
+        openSlug: async function (slug) {
+          /* A deep link arrives before anything is built, so wait for the
+             manifest rather than reporting the book missing. */
+          await loadBooksManifest();
+          const row = BOOK_BY_SLUG[slug];
+          if (!row || !row.pdf) return false;
+          openFlipbook(cfgForRow(row), row.pdf);
+          return true;
+        },
+        closeBook: function () {
+          closeFlipbook();
+        },
+        notFound: function (slug) {
+          if (typeof toast === "function")
+            toast("No book at /book/" + slug + " yet.");
+        },
+      };
+
+      /* Build the flipbook config for a manifest row. Mirrors what a catalogue
+         card supplies, so a deep-linked book gets the same header, band and
+         reading-assistant context as a clicked one. */
+      function cfgForRow(row) {
+        return {
+          title: row.subject,
+          band: row.band || "",
+          yearNum: row.year,
+          artSubj: row.subject,
+          flipbook: row.pdf,
+        };
       }
       previewBtn.addEventListener("click", () => {
         const cfg = state.selected && state.selected.cfg;
@@ -8490,6 +8638,7 @@
 
       animate();
     </script>
+    <script src="/pb-router.js"></script>
     <!-- Reading assistant. Loaded last so window.PBReading (declared in the
          main script above) already exists when it mounts. Kept in its own
          file rather than added to this 8000-line document: the panel is

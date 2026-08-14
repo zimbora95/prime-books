@@ -1,3 +1,11 @@
+# ---------------------------------------------------------------------------
+# SUPERSEDED 2026-08-14. The site no longer reads public/books/ nor
+# books-manifest.json. The replacement is tools/sync_library.py, which builds
+# public/library/<slug>/{book.pdf,cover.webp} + library.json / library.local.json
+# straight from the MEGA masters, and folds the Done-folder status switch in.
+# This file is kept only so the history of the web-optimisation contract is not
+# lost; DO NOT RUN IT - it writes to folders the app has stopped reading.
+# ---------------------------------------------------------------------------
 #!/usr/bin/env python
 """Sync the real Student Books from the MEGA project into public/books/.
 

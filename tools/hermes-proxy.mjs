@@ -1,7 +1,7 @@
 /* Prime Books reading assistant - the trust boundary.
  *
  * The browser talks to this proxy; this proxy talks to Hermes. The bearer key
- * never leaves the server. Three verbs, chosen by an explicit switch: the
+ * never leaves the server. Five verbs, chosen by an explicit switch: the
  * client cannot pass a path through, so it cannot reach any other Hermes
  * endpoint (/v1/runs, the jobs CRUD, terminal-capable surfaces) even if the
  * page is compromised or someone crafts a request by hand.
@@ -9,6 +9,11 @@
  *   GET  /hermes/health            -> { ok, configured }
  *   POST /hermes/session           -> { sessionId }        body: { title }
  *   POST /hermes/chat              -> SSE passthrough      body: { sessionId, input }
+ *   POST /hermes/history           -> { messages }         body: { sessionId }
+ *   POST /hermes/models            -> { models, current }  for the /model command
+ *
+ * Every verb except health is POST, matching the guard below; a GET-only verb
+ * added here would 405 on the shared `req.method !== "POST"` check.
  *
  * Used by vite.config.js in dev. The Vercel function for production is a thin
  * wrapper over the same handleHermes() so the contract cannot drift.
@@ -88,6 +93,37 @@ export async function handleHermes(req, res, verb, cfg) {
     return json(res, 400, { error: "malformed JSON" });
   }
 
+  if (verb === "models") {
+    /* Feed the /model command. Read-only: it lists what this Hermes offers and
+       which model is current. /v1/models is NOT the right surface (it advertises
+       the agent as a single model); /api/model/options is the rich picker
+       payload. Flattened to <=200 "provider/model" strings so a compromised page
+       learns nothing but names it could read off the picker anyway. */
+    try {
+      const r = await fetch(`${base}/api/model/options`, {
+        headers: { Authorization: `Bearer ${key}` },
+        signal: AbortSignal.timeout(10000),
+      });
+      if (!r.ok) return json(res, 200, { models: [], current: model });
+      const data = await r.json();
+      const out = [];
+      for (const p of (data && data.providers) || []) {
+        for (const m of p.models || []) {
+          out.push({ provider: p.slug, model: m, current: !!p.is_current });
+          if (out.length >= 200) break;
+        }
+        if (out.length >= 200) break;
+      }
+      return json(res, 200, {
+        models: out,
+        current: model,
+        currentProvider: provider,
+      });
+    } catch {
+      return json(res, 200, { models: [], current: model });
+    }
+  }
+
   if (verb === "session") {
     /* Pin model + provider AT CREATION. Hermes stores the session's model and
        that stored value wins over anything sent per-turn (session_model_lock).
@@ -95,8 +131,18 @@ export async function handleHermes(req, res, verb, cfg) {
        provider as a literal model id and fails with
        "primebooks-tutor is not a valid model ID". */
     const payload = { title: uniqueTitle(body.title) };
-    if (model) payload.model = model;
-    if (provider) payload.provider = provider;
+    /* A reader may pick a model with /model, so honour an explicit choice from
+       the client. It is validated against the names /hermes/models advertised,
+       which is why that verb exists: a free-text model id would be passed
+       straight to the provider. */
+    const wantModel = typeof body.model === "string" ? body.model.trim() : "";
+    const wantProvider =
+      typeof body.provider === "string" ? body.provider.trim() : "";
+    const okId = (s) => /^[A-Za-z0-9._\/:-]{2,80}$/.test(s);
+    if (wantModel && okId(wantModel)) payload.model = wantModel;
+    else if (model) payload.model = model;
+    if (wantProvider && okId(wantProvider)) payload.provider = wantProvider;
+    else if (provider) payload.provider = provider;
     let r;
     try {
       r = await fetch(`${base}/api/sessions`, {
