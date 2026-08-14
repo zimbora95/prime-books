@@ -47,7 +47,12 @@ export default defineConfig(() => {
        handled explicitly by bookDeepLinkFallback() below. */
     appType: "mpa",
     plugins: [hermesTutorProxy(env), bookDeepLinkFallback()],
-    server: { host: "127.0.0.1", port: 5173 },
+    server: {
+      host: "127.0.0.1",
+      port: 5173,
+      allowedHosts: [".ngrok-free.dev", ".ngrok.app"],
+      hmr: { protocol: "ws", clientPort: 5173 },
+    },
   };
 });
 

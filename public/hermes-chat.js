@@ -355,13 +355,10 @@
       "- If rebuildable is NO, say so plainly rather than pretending to rebuild.",
     );
     lines.push(
-          "- After a rebuild, the bookshop needs re-syncing before the flipbook changes: python tools/sync_library.py in "
+          "- After a rebuild, re-sync the bookshop: python tools/sync_library.py in "
             + "C:\\\\\\\\Users\\\\\\\\alexa\\\\\\\\Documents\\\\\\\\GitHub\\\\\\\\prime-books.",
         );
-        lines.push(
-              "- After editing a book's markdown, sync to Firestore: python tools/firestore_sync.py \\\"<Level>/<Year>/<Subject>\\\" (e.g. \\\"Year 01/Global Perspectives\\\"). Then read the latest version with python tools/firestore_fetch.py \\\"<slug>\\\". The Firestore copy is the canonical current text; the PDF is a compiled snapshot that may be out of date until rebuilt.",
-            );
-    return lines.join("\n");
+        return lines.join("\n");
   }
 
   /* ---------- slash commands ----------
