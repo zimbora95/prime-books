@@ -6446,17 +6446,11 @@
           .join("");
         dpPrice.textContent = cfg.price;
         const fb = flipbookFor(cfg);
-        const hasPreview = Boolean(fb || cfg.driveUrl);
-        previewBtn.disabled = !hasPreview;
-        previewBtn.setAttribute(
-          "aria-disabled",
-          hasPreview ? "false" : "true",
-        );
+        previewBtn.disabled = !fb;
+        previewBtn.setAttribute("aria-disabled", fb ? "false" : "true");
         previewBtn.title = fb
           ? "Read a preview in the flipbook"
-          : cfg.driveUrl
-            ? "Open PDF preview in Google Drive"
-            : "Preview link is being published";
+          : "Preview link is being published";
       }
 
       const pill = document.getElementById("openBtn");
@@ -6680,22 +6674,9 @@
         13: "#12203a",
       };
 
-      /* Deploy-safe Google Drive previews. Keep this fallback in the app as
-         well as the JSON manifest so an older cached manifest still opens
-         the supplied PDF rather than a local-only fallback. */
-      const DRIVE_PREVIEW_URLS = {
-        "Year 1|Art & Design":
-          "https://drive.google.com/file/d/1sRRUu9X0IA2ICmOYOxo1c2GyJFnUbwS0/view?usp=drive_link",
-        "Year 1|Computing & Robotics":
-          "https://drive.google.com/file/d/1-aeunOX8o5DvtbUW84KWkOOgiTVfGKYw/view?usp=drive_link",
-        "Year 1|English":
-          "https://drive.google.com/file/d/1I3HvdNVfmn4ttY-tMMQFceQQ0b_MSWK8/view?usp=drive_link",
-        "Year 1|Global Perspectives":
-          "https://drive.google.com/file/d/1t2oLAmQifvYI0tigEaIMee09IpUH6y5F/view?usp=drive_link",
-      };
-      function drivePreviewFor(year, subject) {
-        return DRIVE_PREVIEW_URLS[year + "|" + subject] || null;
-      }
+      /* Google Drive previews are retired. The in-page flipbook (with the
+         reading assistant beside it) is the only preview, resolved from
+         /library.json via pdfForSubject(). */
 
       function escapeHTML(value) {
         return String(value).replace(
@@ -6864,9 +6845,6 @@
                 t: false,
                 w: false,
                 cover: book.cover,
-                driveUrl:
-                  book.driveUrl ||
-                  drivePreviewFor("Year " + book.year, book.subject),
               }));
               renderCatalogue();
             })
@@ -7096,8 +7074,25 @@
       /* served pdf path -> the full manifest row (incl. MEGA master + MARKDOWN
          paths and whether the book has a build engine) */
       const BOOK_ROWS = {};
+      /* Canonical subject key: lowercased, stripped to letters and digits, then
+         mapped from the old bookshop vocabulary ("Music & Acting", "Physical
+         Education & Gym", "Science & Lab", "Humanities (History & Geography)")
+         onto the MEGA/library vocabulary ("Music & Drama", "Physical
+         Education", "Science", "Humanities") that tools/sync_library.py now
+         publishes. Both sides key through this, so the catalogue can still use
+         its older names while the flipbook resolves against library.json. */
+      function normSubject(s) {
+        let v = String(s).toLowerCase().replace(/[^a-z0-9]/g, "");
+        const ALIAS = {
+          musicacting: "musicdrama",
+          physicaleducationgym: "physicaleducation",
+          sciencelab: "science",
+          humanitieshistorygeography: "humanities",
+        };
+        return ALIAS[v] || v;
+      }
       function pdfForSubject(year, subj) {
-        return SUBJECT_PDFS[year + "|" + subj] || null;
+        return SUBJECT_PDFS[year + "|" + normSubject(subj)] || null;
       }
 
       /* Resolve a book config to its synced PDF. The featured hero books in
@@ -7148,11 +7143,22 @@
             if (!Array.isArray(rows)) return;
             LIBRARY_ROWS = rows;
             rows.forEach((row) => {
-              const key = "Year " + row.year + "|" + row.subject;
+              const key = "Year " + row.year + "|" + normSubject(row.subject);
               SUBJECT_PDFS[key] = row.pdf;
               if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;
               if (row.cover) SUBJECT_COVERS[key] = row.cover;
               SUBJECT_ROWS[key] = row;
+              /* Primary has a single "Portuguese" book; the catalogue still
+                 calls it "Portuguese 1st", so register the primary row under
+                 that name too. Secondary "Portuguese 1st" already matches its
+                 own row directly. */
+              if (normSubject(row.subject) === "portuguese") {
+                const alt = "Year " + row.year + "|portuguese1st";
+                SUBJECT_PDFS[alt] = row.pdf;
+                if (row.pages) SUBJECT_PDF_PAGES[alt] = row.pages;
+                if (row.cover) SUBJECT_COVERS[alt] = row.cover;
+                SUBJECT_ROWS[alt] = row;
+              }
               /* Keep the whole row, keyed by served path: the reading assistant
                  needs the MEGA manuscript paths to answer authoring questions. */
               BOOK_ROWS[row.pdf] = row;
@@ -7178,7 +7184,7 @@
          card, the list row and the 3D book front all read the same one file.
          Subjects with no artwork yet fall back to the procedural cover. */
       function coverImgFor(year, subj) {
-        return SUBJECT_COVERS[year + "|" + subj] || null;
+        return SUBJECT_COVERS[year + "|" + normSubject(subj)] || null;
       }
 
       function cfgForCard(row, edKey) {
@@ -7212,9 +7218,7 @@
           priceCents: ed.cents,
           audio: null,
           audioCents: 0,
-          /* The synced flipbook is the preview; a supplied Drive viewer is
-             only the fallback for subjects with no synced book yet. */
-          driveUrl: row.driveUrl || drivePreviewFor(row.year, row.subj),
+          /* The synced flipbook is the preview; there is no Drive fallback. */
           flipbook: pdfForSubject(row.year, row.subj),
           editions: [
             ["Student Manual", !!row.s],
@@ -7399,7 +7403,7 @@
            reads the collection as a list and needs to see progress at a glance
            without opening anything. */
         function stateBadge(year, subj) {
-          const row = SUBJECT_ROWS[year + "|" + subj];
+          const row = SUBJECT_ROWS[year + "|" + normSubject(subj)];
           if (!row) return "";
           return row.done
             ? '<span class="bstate done" title="Finished: the PDF is in PDF/Output/Done">Done</span>'
@@ -7872,18 +7876,10 @@
           openFlipbook(cfg, fb);
           return;
         }
-        /* Only books with no synced PDF fall back to a supplied Drive
-           viewer, so nothing that used to be previewable stops working. */
-        if (cfg.driveUrl) {
-          const driveWindow = window.open(
-            cfg.driveUrl,
-            "_blank",
-            "noopener,noreferrer",
-          );
-          if (!driveWindow)
-            toast("Your browser blocked the Drive preview — allow pop-ups for this site.");
-          return;
-        }
+        /* No Google Drive fallback: the in-page flipbook (with the reading
+           assistant beside it) IS the preview. The Drive tree was retired, and
+           opening a Drive link here is exactly the bug this fixes. A book with
+           no synced PDF yet shows the "being published" notice instead. */
         toast("Preview link is being published for " + cfg.title + ".");
       });
       document
