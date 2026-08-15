@@ -306,11 +306,11 @@
   "band": "Cambridge Early Years",
   "family": "storybook",
   "level": "Upper Primary",
-  "pages": 77,
+  "pages": 80,
   "done": false,
   "pdf": "/library/y03-mathematics/book.pdf",
   "cover": "/library/y03-mathematics/cover.webp",
-  "mb": 0.95,
+  "mb": 1.25,
   "buildable": true,
   "editable": true
  },
