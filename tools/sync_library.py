@@ -176,13 +176,33 @@ def collection_cover(year: int, subject: str) -> Path | None:
     return best[1] if best else None
 
 
+def level_of(year: int | None) -> str:
+    """Level name derived from the year, for the flat Year NN tree."""
+    if year is None:
+        return ""
+    if year <= 2:
+        return "Lower Primary"
+    if year <= 6:
+        return "Upper Primary"
+    if year <= 9:
+        return "Lower Secondary"
+    if year <= 11:
+        return "Upper Secondary"
+    return "Advanced Levels"
+
+
 def scan() -> list[dict]:
+    """The tree is FLAT: public/Prime Books/Year NN/<Subject>/.
+    (2026-08-14: the five level folders were flattened by the user.)"""
     rows = []
-    for level in sorted(p for p in BOOKS.iterdir() if p.is_dir()):
-        for year_dir in sorted(p for p in level.iterdir() if p.is_dir()):
-            year = year_of(year_dir.name)
-            for subject_dir in sorted(p for p in year_dir.iterdir() if p.is_dir()):
-                rows.append(scan_book(level.name, year_dir.name, year, subject_dir))
+    for year_dir in sorted(p for p in BOOKS.iterdir() if p.is_dir()):
+        year = year_of(year_dir.name)
+        if year is None:
+            continue
+        for subject_dir in sorted(p for p in year_dir.iterdir() if p.is_dir()):
+            rows.append(
+                scan_book(level_of(year), year_dir.name, year, subject_dir)
+            )
     return rows
 
 
