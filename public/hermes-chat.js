@@ -214,7 +214,7 @@
         lines.push("Editable manuscript (markdown) on disk: " + meta.markdownDir);
       if (meta.bookDir) lines.push("Book folder on disk: " + meta.bookDir);
       lines.push(
-        "editable: true (the PDF in the repo is the master; edit it with pymupdf, regenerate the cover, commit and push)",
+        "editable: true (the PDF in the repo is the master; edit it with pymupdf and regenerate the cover - no commit needed, the teacher sees it on refresh)",
       );
     }
     lines.push("Currently visible: " + pagesLabel(pages));
@@ -293,7 +293,7 @@
     lines.push("Repository on this machine: /root/prime-books");
     if (meta.pdf) lines.push("Served copy the reader is displaying: " + meta.pdf);
     lines.push(
-      "The book PDFs in the repository ARE the masters. Edit them directly with pymupdf (see the prime-books-book-builder skill), regenerate the cover.webp, then commit and push - Vercel redeploys and the teacher sees the change on refresh.",
+      "The book PDFs in the repository ARE the masters. Edit them directly with pymupdf (see the prime-books-book-builder skill) and regenerate the cover.webp. Do NOT commit or push: the site serves the books live from this machine, so the teacher sees your edit the moment they refresh the page.",
     );
     if (toc.length) {
       lines.push(
@@ -754,7 +754,7 @@
            sitting on the same machine as these files, not a chat box. Cheap,
            and it stops "I can't open files" answers later in a session. */
         parts.push(
-          "[Reminder: you have file and terminal tools on this machine. The book master lives in /root/prime-books/public/library/ and you may read, inspect and edit it without asking permission. Edit requests from teachers: do them with pymupdf per the prime-books-book-builder skill.]",
+          "[Reminder: you have file and terminal tools on this machine. The book master lives in /root/prime-books/public/library/ and you may read, inspect and edit it without asking permission. Edit requests from teachers: do them with pymupdf per the prime-books-book-builder skill. Do not commit or push - edits are served live; tell the teacher to refresh.]",
         );
       }
       var ctx = await readingBlock();
