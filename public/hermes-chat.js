@@ -61,7 +61,6 @@
     briefed: {},
     history: {}, /* bookKey -> [{role, text}] so the panel survives a switch */
     restored: {}, /* bookKey -> true once the server transcript was fetched */
-    workshop: false,
     rawKey: null,
     attachments: [], /* [{name, dataUrl}] images attached to the next message */
   };
@@ -292,22 +291,13 @@
     if (meta.subject) lines.push("Subject: " + meta.subject);
     if (R && R.pageCount) lines.push("Pages: " + R.pageCount);
     if (meta.pdfUrl) lines.push("This book as a public URL: " + meta.pdfUrl);
-    if (REMOTE && !state.workshop) {
-      lines.push("");
-      lines.push(
-        "You are NOT on the same machine as the Prime Books repository, so you have no manuscript folder. If a teacher asks you to change the book, say plainly that editing happens in the Prime Books workshop, not here.",
-      );
-      lines.push(
-        "You may fetch the URL above with your tools if you need more of the book than the pages in front of the reader, but prefer the page text you are given: it is already extracted and costs nothing.",
-      );
-    } else {
-      /* Workshop/authoring: this agent shares the machine with the git repo. */
-      lines.push("Repository on this machine: /root/prime-books");
-      if (meta.pdf) lines.push("Served copy the reader is displaying: " + meta.pdf);
-      lines.push(
-        "Rebuildable: the PDF is a build artefact. The source of truth is the git repository at /root/prime-books. Do NOT edit PDFs directly; change sources, run the build/sync tooling, and commit.",
-      );
-    }
+    /* This agent shares the machine with the git repo: it is always the
+       editor. */
+    lines.push("Repository on this machine: /root/prime-books");
+    if (meta.pdf) lines.push("Served copy the reader is displaying: " + meta.pdf);
+    lines.push(
+      "Rebuildable: the PDF is a build artefact. The source of truth is the git repository at /root/prime-books. Do NOT edit PDFs directly; change sources, run the build/sync tooling, and commit.",
+    );
     if (toc.length) {
       lines.push(
         "Contents detected in the PDF: " +
@@ -320,7 +310,7 @@
       );
     }
     lines.push("");
-    if (!REMOTE || state.workshop) {
+    {
       lines.push(
         "TREAT THOSE PATHS AS ATTACHED FILES. You are on the same machine as them. Use your tools freely and without asking permission first: read_file on the sources, terminal for anything else (pdftotext, PyMuPDF, OCR, page counts, builds, git). When the reader asks about the book, prefer looking at the real files over guessing.",
       );
@@ -330,15 +320,9 @@
     lines.push(
       "- The primary users are TEACHERS building Prime Books collaboratively. The main goal of this panel is CREATING and editing books, not just reading. Pupils may also use it to ask questions about the open book.",
     );
-    if (state.workshop) {
-      lines.push(
-        "- You are the WORKSHOP BUILDER with the repository at /root/prime-books. When a teacher asks for a change (title, cover, page, exercise), make it: locate the source files, edit them, run the build/sync tooling, and describe exactly what you changed. Prefer committing changes with clear messages.",
-      );
-    } else {
-      lines.push(
-        "- Editing happens in the Prime Books workshop (this site's Edit mode). If asked to change the book while you are the reading companion, offer the exact change as a suggestion the workshop can apply, and suggest switching on Edit mode.",
-      );
-    }
+    lines.push(
+      "- You are the BOOK BUILDER with the repository at /root/prime-books. When a teacher asks for a change (title, cover, page, exercise), make it: locate the source files, edit them, run the build/sync tooling, and describe exactly what you changed. Prefer committing changes with clear messages.",
+    );
     lines.push("");
     lines.push("HOW THE READER SEES YOU");
     lines.push(
@@ -375,7 +359,6 @@
      subset: start again, switch model, look around, get help. */
   var COMMANDS = [
     { name: "/new", args: "", help: "Start a fresh session for this book" },
-    { name: "/workshop", args: "[on|off]", help: "Toggle book-editing (workshop) mode" },
     { name: "/model", args: "[name]", help: "Show or switch the model" },
     { name: "/models", args: "", help: "List the models this Hermes offers" },
     { name: "/session", args: "", help: "Show this book's session id" },
@@ -402,37 +385,6 @@
     var body = addMsg("assistant", text);
     body.parentElement.classList.add("pbc-note");
     return body;
-  }
-
-  /* Toggle the workshop (editing) mode. When on, the panel routes to the
-     authoring Hermes and sends the authoring briefing, so "change the title"
-     actually edits the book. The session key is namespaced so a workshop
-     conversation never shares a thread with the reading one. */
-  function setWorkshop(on) {
-    on = !!on;
-    if (state.workshop === on) return;
-    state.workshop = on;
-    var raw = state.rawKey;
-    var key = raw ? raw + (on ? "|workshop" : "") : null;
-    state.bookKey = key;
-    state.sessionId = null;
-    state.creating = null;
-    state.lastPagesSent = null;
-    if (key) {
-      var sid = loadMap()[key];
-      state.briefed[key] = !!sid;
-      state.history[key] = [];
-      state.restored[key] = true;
-      if (sid) state.sessionId = sid;
-    }
-    el.log.textContent = "";
-    note(
-      on
-        ? "Workshop mode ON. You can now edit this book - ask me to change a title, page or exercise and I will edit the manuscript and rebuild."
-        : "Workshop mode OFF. Back to the read-only companion.",
-    );
-    updateSessionLabel();
-    suggestChips();
   }
 
   /* Forget this book's session and start a clean one. The NEXT question mints
@@ -494,11 +446,6 @@
     }
     if (cmd === "/new") {
       newSession(false);
-      return true;
-    }
-    if (cmd === "/workshop") {
-      var target = arg ? arg === "on" || arg === "1" : !state.workshop;
-      setWorkshop(target);
       return true;
     }
     if (cmd === "/clear") {
@@ -660,7 +607,7 @@
       var chosen = loadModelChoice();
       var payload = {
         title: title,
-        mode: state.workshop ? "authoring" : "reading",
+        mode: "authoring",
         /* Bind every Prime Books session into one Hermes Project (the repo
            checkout is the project key on the authoring host). */
         cwd: "/root/prime-books",
@@ -781,7 +728,7 @@
       var chatBody = {
         sessionId: sid,
         input: parts.join("\n\n"),
-        mode: state.workshop ? "authoring" : "reading",
+        mode: "authoring",
       };
       if (pendingImages.length) chatBody.images = pendingImages;
       var pw2 = loadEditPw();
@@ -954,12 +901,12 @@
       var intro = addMsg(
         "assistant",
         known
-          ? "Welcome back. We were reading " +
-              (meta.title ? "\u201c" + meta.title + "\u201d" : "this book") +
-              " together. Carry on where you left off, or ask me something new."
-          : "Hello. I can see " +
-              (meta.title ? "\u201c" + meta.title + "\u201d" : "this book") +
-              " and the pages you are on. Ask me anything about what you are reading.",
+          ? "Welcome back to the " +
+              (meta.title ? "\u201c" + meta.title + "\u201d" : "book") +
+              " workshop. Carry on where you left off, or ask me something new."
+          : "Hello. This is the " +
+              (meta.title ? "\u201c" + meta.title + "\u201d" : "book") +
+              " editing workshop: ask me to change a title, page or exercise and I will edit the sources, rebuild and commit. Pupils can also ask questions about the open pages.",
       );
       intro.parentElement.classList.add("pbc-intro");
     } else {
@@ -974,9 +921,7 @@
     var d = (e && e.detail) || {};
     var changed = d.bookKey !== state.bookKey;
     state.rawKey = d.bookKey;
-    state.bookKey = d.bookKey
-      ? d.bookKey + (state.workshop ? "|workshop" : "")
-      : null;
+    state.bookKey = d.bookKey || null;
     state.meta = d.meta;
     if (changed) {
       /* New book: drop the old session handle so the next question mints a
@@ -1120,15 +1065,6 @@
       if (!state.busy) newSession(false);
     });
     head.appendChild(fresh);
-    var ws = h("button", "pbc-ws", "Edit");
-    ws.type = "button";
-    ws.title = "Toggle workshop (editing) mode";
-    ws.setAttribute("aria-label", "Toggle workshop editing mode");
-    ws.style.cssText = "border:1px solid #d8c9a8;background:transparent;color:#a98b4f;border-radius:6px;padding:0 8px;font:inherit;cursor:pointer;";
-    ws.addEventListener("click", function () {
-      if (!state.busy) setWorkshop(!state.workshop);
-    });
-    head.appendChild(ws);
     var hide = h("button", "pbc-x", "\u00d7");
     hide.type = "button";
     hide.title = "Hide the assistant";
