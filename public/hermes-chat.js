@@ -797,7 +797,8 @@
         var stale =
           res.status === 404 ||
           /bad session/i.test(msg + " " + detail) ||
-          /not found/i.test(msg + " " + detail);
+          /not found/i.test(msg + " " + detail) ||
+          /hermes 404/i.test(msg + " " + detail);
         if (stale && !retried) {
           retried = true;
           dropStaleSession(sid);
