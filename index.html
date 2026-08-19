@@ -2429,11 +2429,27 @@
          the probe fails and the site falls back to the Vercel CDN copy.
          Defined in the head so it exists before the app script loads the
          book manifest. */
-      window.__PB_LIVE_BASE = "https://visor-domestic-dislocate.ngrok-free.dev";
+      /* Multiple live bases: try each in order. The build server publishes
+         its current tunnel URL on every boot (see tools/publish_tunnel.py),
+         and the list here is the last-known set. First one that answers
+         /library.json wins. When none answer (host down), the site falls
+         back to the Vercel CDN copy. */
+      window.__PB_LIVE_BASES = [
+        "https://showcase-polyphonic-tmp-mix.trycloudflare.com",
+      ];
+      window.__PB_LIVE_BASE = window.__PB_LIVE_BASES[0];
       window.__PB_LIVE = false;
-      fetch(window.__PB_LIVE_BASE + "/health").then(function (r) {
-        if (r.ok) window.__PB_LIVE = true;
-      }).catch(function () {});
+      (function probeLive(i) {
+        if (i >= window.__PB_LIVE_BASES.length) return;
+        fetch(window.__PB_LIVE_BASES[i] + "/library.json")
+          .then(function (r) {
+            if (r.ok) {
+              window.__PB_LIVE_BASE = window.__PB_LIVE_BASES[i];
+              window.__PB_LIVE = true;
+            } else probeLive(i + 1);
+          })
+          .catch(function () { probeLive(i + 1); });
+      })(0);
     </script>
   </head>
   <body>
