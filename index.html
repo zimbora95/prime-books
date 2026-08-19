@@ -1778,9 +1778,71 @@
       body.pbc-on .pbc {
         display: flex;
       }
-      body.pbc-offline .pbc-chips,
-      body.pbc-offline .pbc-form {
+      body.pbc-offline .pbc-chips {
         display: none;
+      }
+      /* The composer stays VISIBLE while offline: a missing health probe
+         must never make the panel look broken. Inputs are disabled by JS. */
+      body.pbc-offline .pbc-input,
+      body.pbc-offline .pbc-send {
+        opacity: 0.45;
+        pointer-events: none;
+      }
+      /* Attachments: removable thumbnail chips above the composer. */
+      .pbc-attach {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        padding: 8px 16px 0;
+      }
+      .pbc-attach-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 3px 8px 3px 3px;
+        border: 1px solid rgba(246, 241, 230, 0.25);
+        border-radius: 8px;
+        background: rgba(246, 241, 230, 0.08);
+      }
+      .pbc-attach-thumb {
+        width: 28px;
+        height: 28px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .pbc-attach-name {
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 11.5px;
+      }
+      .pbc-attach-rm {
+        border: none;
+        background: transparent;
+        color: inherit;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+      .pbc-attach-rm:hover {
+        background: rgba(246, 241, 230, 0.15);
+      }
+      .pbc-attachbtn {
+        border: 1px solid rgba(246, 241, 230, 0.25);
+        background: transparent;
+        color: inherit;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 1;
+        padding: 6px 9px;
+        flex: 0 0 auto;
+      }
+      .pbc-attachbtn:hover {
+        background: rgba(246, 241, 230, 0.12);
       }
       .pbc-head {
         display: flex;

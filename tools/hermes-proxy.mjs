@@ -19,7 +19,7 @@
  * wrapper over the same handleHermes() so the contract cannot drift.
  */
 
-const MAX_BODY = 256 * 1024; /* a page of book text plus a question, no more */
+const MAX_BODY = 10 * 1024 * 1024; /* images arrive as base64 data URLs */
 
 function readBody(req) {
   return new Promise((resolve, reject) => {
@@ -213,12 +213,23 @@ export async function handleHermes(req, res, verb, cfg) {
   if (verb === "chat") {
     const sessionId = String(body.sessionId || "");
     const input = String(body.input || "");
+    const images = Array.isArray(body.images)
+      ? body.images.filter((s) => typeof s === "string" && s.startsWith("data:image/")).slice(0, 4)
+      : [];
     /* Session ids are Hermes-minted (api_<epoch>_<hex>); anything else is a
        path-traversal attempt, not a session. */
     if (!/^[A-Za-z0-9_-]{6,80}$/.test(sessionId)) {
       return json(res, 400, { error: "bad session id" });
     }
-    if (!input.trim()) return json(res, 400, { error: "empty input" });
+    if (!input.trim() && !images.length) return json(res, 400, { error: "empty input" });
+
+    /* Multimodal: attached images travel as OpenAI vision content parts. */
+    const messagePayload = images.length
+      ? [
+          { type: "text", text: input },
+          ...images.map((url) => ({ type: "image_url", image_url: { url } })),
+        ]
+      : input;
 
     let upstream;
     try {
@@ -231,7 +242,7 @@ export async function handleHermes(req, res, verb, cfg) {
             "Content-Type": "application/json",
             Accept: "text/event-stream",
           },
-          body: JSON.stringify({ input }),
+          body: JSON.stringify({ message: messagePayload }),
         },
       );
     } catch {

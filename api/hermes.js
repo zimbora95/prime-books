@@ -31,7 +31,7 @@
  */
 export const config = { runtime: "nodejs" };
 
-const MAX_BODY = 256 * 1024;
+const MAX_BODY = 10 * 1024 * 1024; /* images arrive as base64 data URLs */
 
 function cfg() {
   return {
@@ -129,6 +129,10 @@ export default async function handler(req, res) {
 
   if (verb === "session") {
     const payload = { title: uniqueTitle(body.title) };
+    /* Optional workspace binding: groups the session under a Project in the
+       Hermes desktop/TUI sidebar (cwd -> git repo root is the project key). */
+    if (typeof body.cwd === "string" && body.cwd.trim()) payload.cwd = body.cwd.trim();
+    if (typeof body.project === "string" && body.project.trim()) payload.project = body.project.trim();
     /* Honour a model chosen in the panel with /model, validated by shape. Kept
        identical to tools/hermes-proxy.mjs so dev and prod cannot diverge. */
     const wantModel = typeof body.model === "string" ? body.model.trim() : "";
@@ -205,9 +209,24 @@ export default async function handler(req, res) {
   if (verb === "chat") {
     const sessionId = String(body.sessionId || "");
     const input = String(body.input || "");
+    const images = Array.isArray(body.images)
+      ? body.images.filter((s) => typeof s === "string" && s.startsWith("data:image/")).slice(0, 4)
+      : [];
     if (!/^[A-Za-z0-9_-]{6,80}$/.test(sessionId))
       return res.status(400).json({ error: "bad session id" });
-    if (!input.trim()) return res.status(400).json({ error: "empty input" });
+    if (!input.trim() && !images.length)
+      return res.status(400).json({ error: "empty input" });
+
+    /* Multimodal: when images are attached, send OpenAI vision content parts
+       instead of a plain string. The Hermes API server accepts both shapes on
+       /api/sessions/{id}/chat/stream. Text parts carry the full composed
+       prompt (briefing + reading context + question). */
+    const messagePayload = images.length
+      ? [
+          { type: "text", text: input },
+          ...images.map((url) => ({ type: "image_url", image_url: { url } })),
+        ]
+      : input;
 
     let upstream;
     try {
@@ -220,7 +239,7 @@ export default async function handler(req, res) {
             "Content-Type": "application/json",
             Accept: "text/event-stream",
           },
-          body: JSON.stringify({ input }),
+          body: JSON.stringify({ message: messagePayload }),
         },
       );
     } catch {
