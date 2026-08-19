@@ -1361,18 +1361,6 @@
         text-overflow: ellipsis;
         white-space: nowrap;
       }
-      /* ---------- focus mode: near-fullscreen reading ---------- */
-      body.fb-focus .fb-head,
-      body.fb-focus .hero-word,
-      body.fb-focus .fb-hint {
-        display: none;
-      }
-      body.fb-focus #fbStage {
-        padding-top: 8px;
-      }
-      body.fb-focus #gl {
-        opacity: 0.25;
-      }
       .fb-nav {
         display: flex;
         align-items: center;
@@ -2637,9 +2625,6 @@
           </button>
           <button class="fb-btn" id="fbFwd5" aria-label="Forward 5 pages">
             &raquo;
-          </button>
-          <button class="fb-btn" id="fbFocusBtn" aria-label="Focus reading mode" title="Focus mode: bigger book, less chrome">
-            &#x26F6;
           </button>
           <button class="fb-btn" id="fbClose" aria-label="Close preview">
             &#10005;
@@ -8030,7 +8015,7 @@
       });
 
       function sizeFlipbook(ratio) {
-        const pageH = Math.min(Math.round(innerHeight * (document.body.classList.contains("fb-focus") ? 0.92 : 0.80)), 1040);
+        const pageH = Math.min(Math.round(innerHeight * 0.84), 1080);
         let pageW = Math.round(pageH * ratio);
         /* The assistant rail shares the stage, so the spread must be measured
            against the space actually left over. Without this the book keeps its
@@ -8043,7 +8028,7 @@
           document.body.classList.contains("pbc-on") &&
           innerWidth > 900;
         const railW = railOn ? (railEl.offsetWidth || 380) + 22 : 0;
-        const maxSpread = Math.round((innerWidth - railW) * (document.body.classList.contains("fb-focus") ? 0.985 : 0.95));
+        const maxSpread = Math.round((innerWidth - railW) * 0.965);
         if (innerWidth < 720) {
           pageW = Math.min(Math.round(innerWidth * 0.88), pageW);
           fbBook.style.width = pageW + "px";
@@ -8076,22 +8061,7 @@
         } catch (e) {}
       };
 
-      /* Focus mode: hides the header and dims the 3D stage so the book takes
-         nearly the whole viewport. Wired once at top level so it works even
-         while a book is still loading. Escape leaves it too. */
-      (function () {
-        const btn = document.getElementById("fbFocusBtn");
-        if (btn) btn.addEventListener("click", () => {
-          document.body.classList.toggle("fb-focus");
-          window.pbResizeFlipbook();
-        });
-        document.addEventListener("keydown", (ev) => {
-          if (ev.key === "Escape" && document.body.classList.contains("fb-focus")) {
-            document.body.classList.remove("fb-focus");
-            window.pbResizeFlipbook();
-          }
-        });
-      })();
+
       addEventListener("resize", () => {
         clearTimeout(window.__pbResizeT);
         window.__pbResizeT = setTimeout(() => window.pbResizeFlipbook(), 200);
