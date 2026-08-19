@@ -586,6 +586,42 @@
   }
 
   /* ---------- transport ---------- */
+  /* Forget a session id that the server no longer knows (e.g. the backend
+     was rebuilt or migrated) and mint a fresh one. Self-healing: the reader
+     should never see a dead "Hermes 404" with no way forward. */
+  function dropStaleSession(reason) {
+    var key = state.bookKey;
+    if (key) {
+      var map = loadMap();
+      delete map[key];
+      saveMap(map);
+      state.history[key] = [];
+      state.restored[key] = true;
+      state.briefed[key] = false; /* the fresh session needs the briefing */
+    }
+    state.sessionId = null;
+    state.creating = null;
+    if (reason) console.warn("[pb-chat] dropped stale session:", reason);
+  }
+
+  /* Validate a stored session id against the server (cheap GET). Returns the
+     id when it exists, null when it is stale. */
+  async function sessionExists(sid) {
+    try {
+      var r = await fetch(EP.history, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId: sid }),
+      });
+      /* 200 with any shape means the session exists; a 4xx from the upstream
+         Hermes means it does not. The history endpoint returns 200 + empty
+         list rather than 404 for unknown ids, so also accept that. */
+      return r.ok ? sid : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   async function ensureSession() {
     if (state.sessionId) return state.sessionId;
     if (state.creating) return state.creating;
@@ -593,11 +629,18 @@
     var key = state.bookKey;
     var map = loadMap();
     if (key && map[key]) {
-      state.sessionId = map[key];
-      /* A known session means the reader has been in this book before, so the
-         briefing already sits in server-side history. Do not resend it. */
-      state.briefed[key] = true;
-      return state.sessionId;
+      var stored = await sessionExists(map[key]);
+      if (stored) {
+        state.sessionId = stored;
+        /* A known session means the reader has been in this book before, so
+           the briefing already sits in server-side history. Do not resend. */
+        state.briefed[key] = true;
+        return state.sessionId;
+      }
+      /* The stored id is stale (server restart, migration, swap): forget it
+         and fall through to creating a brand-new session below. The fresh
+         session gets the full briefing again, so the agent knows the book. */
+      dropStaleSession(map[key]);
     }
     state.creating = (async function () {
       var title =
@@ -701,6 +744,7 @@
 
     var bubble = null;
     var acc = "";
+    var retried = false;
     try {
       var sid = await ensureSession();
       var first = !state.briefed[state.bookKey];
@@ -741,11 +785,55 @@
       });
       if (!res.ok || !res.body) {
         var msg = "The assistant is unavailable.";
+        var detail = "";
         try {
           var j = await res.json();
           if (j && j.error) msg = j.error;
+          if (j && j.detail) detail = String(j.detail);
         } catch (e) {}
-        throw new Error(msg);
+        /* Stale session on the server (404 / bad session id / session not
+           found): drop it, mint a fresh one WITH the briefing, and retry the
+           question once. The reader never has to know. */
+        var stale =
+          res.status === 404 ||
+          /bad session/i.test(msg + " " + detail) ||
+          /not found/i.test(msg + " " + detail);
+        if (stale && !retried) {
+          retried = true;
+          dropStaleSession(sid);
+          state.lastPagesSent = null; /* force page text into the retry */
+          setStatus("Starting a fresh session\u2026", true);
+          var sid2 = await ensureSession();
+          var parts2 = [briefing()];
+          var ctx2 = await readingBlock();
+          if (ctx2) parts2.push(ctx2);
+          parts2.push("Pupil's question: " + question);
+          var retryBody = {
+            sessionId: sid2,
+            input: parts2.join("\n\n"),
+            mode: "authoring",
+          };
+          if (pendingImages.length) retryBody.images = pendingImages;
+          var res2 = await fetch(EP.chat, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(retryBody),
+            signal: state.abort.signal,
+          });
+          if (res2.ok && res2.body) {
+            res = res2;
+            /* stream from res2 below via the shared reader */
+          } else {
+            var msg2 = "The assistant is unavailable.";
+            try {
+              var j2 = await res2.json();
+              if (j2 && j2.error) msg2 = j2.error;
+            } catch (e) {}
+            throw new Error(msg2);
+          }
+        } else {
+          throw new Error(msg);
+        }
       }
 
       /* SSE frames arrive split across chunks: buffer until a blank line. */
