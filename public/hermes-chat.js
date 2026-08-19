@@ -214,10 +214,7 @@
         lines.push("Editable manuscript (markdown) on disk: " + meta.markdownDir);
       if (meta.bookDir) lines.push("Book folder on disk: " + meta.bookDir);
       lines.push(
-        "buildable: " +
-          (meta.buildable
-            ? "true (WORKSTATION/_build/build.py exists, the PDF can be regenerated)"
-            : "false (NO build engine for this book, its PDF cannot be regenerated)"),
+        "editable: true (the PDF in the repo is the master; edit it with pymupdf, regenerate the cover, commit and push)",
       );
     }
     lines.push("Currently visible: " + pagesLabel(pages));
@@ -296,7 +293,7 @@
     lines.push("Repository on this machine: /root/prime-books");
     if (meta.pdf) lines.push("Served copy the reader is displaying: " + meta.pdf);
     lines.push(
-      "Rebuildable: the PDF is a build artefact. The source of truth is the git repository at /root/prime-books. Do NOT edit PDFs directly; change sources, run the build/sync tooling, and commit.",
+      "The book PDFs in the repository ARE the masters. Edit them directly with pymupdf (see the prime-books-book-builder skill), regenerate the cover.webp, then commit and push - Vercel redeploys and the teacher sees the change on refresh.",
     );
     if (toc.length) {
       lines.push(
@@ -756,13 +753,9 @@
         /* Re-state the one line that keeps drifting: it is a tool-using agent
            sitting on the same machine as these files, not a chat box. Cheap,
            and it stops "I can't open files" answers later in a session. */
-        var m = state.meta || {};
-        if (!REMOTE && m.bookDir)
-          parts.push(
-            "[Reminder: you have file and terminal tools on this machine. This session's book lives at " +
-              m.bookDir +
-              " and you may read, inspect and edit it without asking permission.]",
-          );
+        parts.push(
+          "[Reminder: you have file and terminal tools on this machine. The book master lives in /root/prime-books/public/library/ and you may read, inspect and edit it without asking permission. Edit requests from teachers: do them with pymupdf per the prime-books-book-builder skill.]",
+        );
       }
       var ctx = await readingBlock();
       if (ctx) parts.push(ctx);
