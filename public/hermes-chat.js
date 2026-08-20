@@ -751,6 +751,39 @@
     return state.creating;
   }
 
+  /* After a dropped stream, poll the server transcript until the in-flight
+     turn completes, then render the final answer where the user is looking. */
+  function pollForCompletion(sid, bubble) {
+    var tries = 0;
+    var seen = 0;
+    var t = setInterval(function () {
+      tries++;
+      fetch(EP.history, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId: sid }),
+      })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (d) {
+          var msgs = (d && d.messages) || [];
+          if (msgs.length > seen) {
+            seen = msgs.length;
+            var last = msgs[msgs.length - 1];
+            if (last && last.role === "assistant" && last.content && !/^\u26a0/.test(last.content)) {
+              clearInterval(t);
+              setStatus("", false);
+              var b = bubble || addMsg("assistant", "");
+              renderText(b, last.content);
+              remember("assistant", last.content);
+              scrollDown();
+            }
+          }
+        })
+        .catch(function () {});
+      if (tries > 150) clearInterval(t); /* ~5 min */
+    }, 2000);
+  }
+
   async function send(question) {
     if (state.busy) {
       /* The agent is mid-turn: QUEUE the message instead of ignoring it.
@@ -989,6 +1022,15 @@
     } catch (err) {
       if (err && err.name === "AbortError") {
         /* the pupil closed the panel: nothing to report */
+      } else if (/network|fetch|failed/i.test(String(err && err.name) + " " + String(err && err.message))) {
+        /* Network dropped mid-turn (wifi blip, sleep...). The agent keeps
+           working on the server. Show a friendly note, then poll the
+           transcript: when the turn finishes, the real answer appears. */
+        var nmsg = addMsg("assistant", "");
+        nmsg.parentElement.classList.add("pbc-note");
+        renderText(nmsg, "Connection wobbled \u2014 still working on it. Your answer will appear here in a moment.");
+        setStatus("Reconnecting\u2026", true);
+        pollForCompletion(sid, bubble);
       } else {
         var note = addMsg("assistant", "");
         note.parentElement.classList.add("pbc-err");
