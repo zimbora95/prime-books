@@ -31,7 +31,7 @@
  */
 export const config = { runtime: "nodejs" };
 
-const MAX_BODY = 10 * 1024 * 1024; /* images arrive as base64 data URLs */
+const MAX_BODY = 36 * 1024 * 1024; /* 25 MB files arrive as ~34 MB base64 */
 
 function cfg() {
   return {
@@ -160,6 +160,48 @@ export default async function handler(req, res) {
       const sessionId = data && data.session && data.session.id;
       if (!sessionId) return res.status(502).json({ error: "No session id in response." });
       return res.status(200).json({ sessionId, title: data.session.title });
+    } catch {
+      return res.status(502).json({ error: "Hermes is not reachable." });
+    }
+  }
+
+  if (verb === "upload") {
+    /* Non-image attachments (pdf, docx, csv, anything): the Hermes API
+       server only accepts inline images, so - exactly like the desktop
+       app - we stage the file bytes on the agent's machine and hand the
+       agent its path. The agent's file tools can then open it. */
+    const name = String(body.name || "attachment").replace(/[^A-Za-z0-9._ -]/g, "_").slice(0, 120);
+    const dataUrl = String(body.dataUrl || "");
+    const m = /^data:[^;,]*;base64,(.*)$/s.exec(dataUrl);
+    const b64 = m ? m[1].replace(/\s+/g, "") : "";
+    if (!b64) return res.status(400).json({ error: "dataUrl (base64) required" });
+    let bytes;
+    try {
+      bytes = Buffer.from(b64, "base64");
+    } catch {
+      return res.status(400).json({ error: "invalid base64" });
+    }
+    if (!bytes.length || bytes.length > 25 * 1024 * 1024)
+      return res.status(413).json({ error: "file must be 1 byte to 25 MB" });
+    const dir = "/root/prime-books/uploads";
+    const filename = `${Date.now()}-${name}`;
+    /* The staging call goes to the authoring Hermes itself: it owns the
+       machine, so we ask it to persist the file via a tiny bootstrap not
+       needed - instead we POST to its /api/files endpoint if present, else
+       fall back to writing through an agent turn. Simplest reliable path:
+       forward to the authoring base /api/upload (added in the api server). */
+    try {
+      const r = await fetch(`${upBase}/api/upload`, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${upKey}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ filename, data: b64 }),
+        signal: AbortSignal.timeout(60000),
+      });
+      const text = await r.text();
+      if (!r.ok)
+        return res.status(502).json({ error: `Hermes ${r.status}`, detail: text.slice(0, 300) });
+      const data = JSON.parse(text);
+      return res.status(200).json({ path: data.path, name: filename });
     } catch {
       return res.status(502).json({ error: "Hermes is not reachable." });
     }

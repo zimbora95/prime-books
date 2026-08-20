@@ -19,7 +19,7 @@
  * wrapper over the same handleHermes() so the contract cannot drift.
  */
 
-const MAX_BODY = 10 * 1024 * 1024; /* images arrive as base64 data URLs */
+const MAX_BODY = 36 * 1024 * 1024; /* 25 MB files arrive as ~34 MB base64 */
 
 function readBody(req) {
   return new Promise((resolve, reject) => {
@@ -168,6 +168,39 @@ export async function handleHermes(req, res, verb, cfg) {
     const sessionId = data && data.session && data.session.id;
     if (!sessionId) return json(res, 502, { error: "No session id in response." });
     return json(res, 200, { sessionId, title: data.session.title });
+  }
+
+  if (verb === "upload") {
+    /* Non-image attachments: stage the bytes on the agent's machine (same
+       as the desktop file.attach) and return the stored path. */
+    const name = String(body.name || "attachment").replace(/[^A-Za-z0-9._ -]/g, "_").slice(0, 120);
+    const dataUrl = String(body.dataUrl || "");
+    const m = /^data:[^;,]*;base64,(.*)$/s.exec(dataUrl);
+    const b64 = m ? m[1].replace(/\s+/g, "") : "";
+    if (!b64) return json(res, 400, { error: "dataUrl (base64) required" });
+    let bytes;
+    try {
+      bytes = Buffer.from(b64, "base64");
+    } catch {
+      return json(res, 400, { error: "invalid base64" });
+    }
+    if (!bytes.length || bytes.length > 25 * 1024 * 1024)
+      return json(res, 413, { error: "file must be 1 byte to 25 MB" });
+    const filename = `${Date.now()}-${name}`;
+    try {
+      const r = await fetch(`${base}/api/upload`, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json" },
+        body: JSON.stringify({ filename, data: b64 }),
+        signal: AbortSignal.timeout(60000),
+      });
+      const text = await r.text();
+      if (!r.ok) return json(res, 502, { error: `Hermes ${r.status}`, detail: text.slice(0, 300) });
+      const data = JSON.parse(text);
+      return json(res, 200, { path: data.path, name: filename });
+    } catch {
+      return json(res, 502, { error: "Hermes is not reachable." });
+    }
   }
 
   if (verb === "history") {

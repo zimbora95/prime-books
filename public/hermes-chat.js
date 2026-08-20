@@ -32,6 +32,7 @@
     chat: "/hermes/chat",
     history: "/hermes/history",
     models: "/hermes/models",
+    upload: "/hermes/upload",
   };
   var STORE = "pb.tutor.sessions.v1";
   var MODEL_STORE = "pb.tutor.model.v1";
@@ -798,8 +799,11 @@
     el.send.disabled = true;
     el.input.value = "";
     el.input.focus();
-    var pendingImages = state.attachments.map(function (a) {
-      return a.dataUrl;
+    var pendingImages = [];
+    var fileRefs = [];
+    state.attachments.forEach(function (a) {
+      if (a.kind === "image" && a.dataUrl) pendingImages.push(a.dataUrl);
+      else if (a.kind === "file" && a.path) fileRefs.push(a.path);
     });
     state.attachments = [];
     renderAttachments();
@@ -810,6 +814,11 @@
         (pendingImages.length === 1
           ? " image attached)"
           : " images attached)");
+    }
+    if (fileRefs.length) {
+      question +=
+        "\nAttached files (on your machine, open with your file tools): " +
+        fileRefs.join(", ");
     }
     addMsg("user", question);
     remember("user", question);
@@ -1123,31 +1132,64 @@
   }
 
   /* ---------- attachments ---------- */
-  /* Teachers attach images (a photo of a worksheet, a cover draft, a sketch).
-     Read as data URLs (the api_server vision pipeline accepts data:image/
-     URLs) and shown as removable chips above the input. */
+  /* Attach anything Hermes itself accepts: images go inline to vision
+     (data URLs); every other file type (pdf, docx, csv, xlsx, txt...) is
+     uploaded to the agent's machine and referenced by path, exactly like
+     the desktop app's file.attach. The agent opens them with its file
+     tools. Caps mirror Hermes: 4 MB inline images, 25 MB uploaded files. */
   var MAX_ATTACH = 4;
   var MAX_IMAGE_BYTES = 4 * 1024 * 1024;
+  var MAX_FILE_BYTES = 25 * 1024 * 1024;
 
   function addAttachment(file) {
-    if (!file || !/^image\//.test(file.type)) {
-      note("Only image attachments are supported for now.");
-      return;
-    }
+    if (!file) return;
     if (state.attachments.length >= MAX_ATTACH) {
-      note("Up to " + MAX_ATTACH + " images per message.");
+      note("Up to " + MAX_ATTACH + " attachments per message.");
       return;
     }
-    if (file.size > MAX_IMAGE_BYTES) {
-      note("That image is larger than 4 MB. Please attach a smaller one.");
+    if (/^image\//.test(file.type)) {
+      if (file.size > MAX_IMAGE_BYTES) {
+        note("That image is larger than 4 MB. Please attach a smaller one.");
+        return;
+      }
+      var ir = new FileReader();
+      ir.onload = function () {
+        state.attachments.push({ name: file.name, dataUrl: ir.result, kind: "image" });
+        renderAttachments();
+      };
+      ir.readAsDataURL(file);
       return;
     }
-    var reader = new FileReader();
-    reader.onload = function () {
-      state.attachments.push({ name: file.name, dataUrl: reader.result });
+    /* Non-image: upload now, keep the server path. */
+    if (file.size > MAX_FILE_BYTES) {
+      note("Files up to 25 MB are supported. \"" + file.name + "\" is larger.");
+      return;
+    }
+    var fr = new FileReader();
+    fr.onload = function () {
+      state.attachments.push({ name: file.name, kind: "file", uploading: true });
       renderAttachments();
+      var idx = state.attachments.length - 1;
+      fetch(EP.upload, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: file.name, dataUrl: fr.result }),
+      })
+        .then(function (r) {
+          if (!r.ok) throw new Error("upload failed (" + r.status + ")");
+          return r.json();
+        })
+        .then(function (d) {
+          state.attachments[idx] = { name: file.name, kind: "file", path: d.path, uploading: false };
+          renderAttachments();
+        })
+        .catch(function (e) {
+          state.attachments.splice(idx, 1);
+          renderAttachments();
+          note("Could not attach \"" + file.name + "\": " + (e.message || "upload failed"));
+        });
     };
-    reader.readAsDataURL(file);
+    fr.readAsDataURL(file);
   }
 
   function renderAttachments() {
@@ -1156,10 +1198,16 @@
     el.attachRow.style.display = state.attachments.length ? "flex" : "none";
     state.attachments.forEach(function (a, idx) {
       var chip = h("span", "pbc-attach-chip");
-      var thumb = h("img", "pbc-attach-thumb");
-      thumb.src = a.dataUrl;
-      thumb.alt = a.name;
-      var nm = h("span", "pbc-attach-name", a.name);
+      if (a.kind === "image") {
+        var thumb = h("img", "pbc-attach-thumb");
+        thumb.src = a.dataUrl;
+        thumb.alt = a.name;
+        chip.appendChild(thumb);
+      } else {
+        var icon = h("span", "pbc-attach-fileicon", a.uploading ? "\u23f3" : "\u{1F4C4}");
+        chip.appendChild(icon);
+      }
+      var nm = h("span", "pbc-attach-name", a.uploading ? a.name + " (uploading\u2026)" : a.name);
       var rm = h("button", "pbc-attach-rm", "\u00d7");
       rm.type = "button";
       rm.title = "Remove attachment";
@@ -1168,7 +1216,6 @@
         state.attachments.splice(idx, 1);
         renderAttachments();
       });
-      chip.appendChild(thumb);
       chip.appendChild(nm);
       chip.appendChild(rm);
       el.attachRow.appendChild(chip);
@@ -1267,7 +1314,7 @@
     el.attachBtn.textContent = "\u{1F4CE}";
     el.fileInput = h("input");
     el.fileInput.type = "file";
-    el.fileInput.accept = "image/*";
+    el.fileInput.accept = ""; /* anything: images inline, files uploaded */
     el.fileInput.multiple = true;
     el.fileInput.style.display = "none";
     el.fileInput.addEventListener("change", function () {
