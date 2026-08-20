@@ -2546,9 +2546,6 @@
           <img src="/Logo-Prime-School.png" alt="Prime School" />
           <span>Prime <em>Books</em></span>
         </button>
-        <button class="cat-close" id="catClose" aria-label="Close catalogue">
-          &#10005;
-        </button>
       </div>
       <div class="cat-hero">
         <div class="kicker">The complete collection</div>
@@ -6919,10 +6916,11 @@
       }
       document
         .getElementById("catalogueBtn")
-        .addEventListener("click", openCatalogue);
-      document
-        .getElementById("catClose")
-        .addEventListener("click", closeCatalogue);
+        .addEventListener("click", () => {
+          if (document.body.classList.contains("cat-open")) {
+            catEl.scrollTo({ top: 0, behavior: "smooth" });
+          } else openCatalogue();
+        });
 
       /* logo → homepage: fold every overlay shut and return to the hero */
       document.getElementById("brandHome").addEventListener("click", (e) => {
@@ -8587,8 +8585,6 @@
           return;
         }
         if (e.key === "Escape") {
-          if (document.body.classList.contains("cat-open"))
-            return closeCatalogue();
           close();
         }
         if (state.mode !== "hero") return;
