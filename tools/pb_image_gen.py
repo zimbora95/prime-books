@@ -29,7 +29,12 @@ def main():
     ap.add_argument("--size", default="1024x1024")
     a = ap.parse_args()
 
-    body = json.dumps({"model": MODEL, "prompt": a.prompt, "size": a.size}).encode()
+    body = json.dumps({
+        "model": MODEL,
+        "prompt": a.prompt,
+        "size": a.size,
+        "quality": "medium",  # cost/speed sweet spot per user preference
+    }).encode()
     req = urllib.request.Request(API, data=body, headers={
         "Authorization": "Bearer " + key(),
         "Content-Type": "application/json",
