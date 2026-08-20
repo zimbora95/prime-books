@@ -6563,11 +6563,15 @@
           .join("");
         dpPrice.textContent = cfg.price;
         const fb = flipbookFor(cfg);
-        previewBtn.disabled = !fb;
-        previewBtn.setAttribute("aria-disabled", fb ? "false" : "true");
+        /* NEVER disable: a book without a PDF opens the workshop shell
+           (blank flipbook + live assistant) so teachers can create it. */
+        previewBtn.disabled = false;
+        previewBtn.setAttribute("aria-disabled", "false");
         previewBtn.title = fb
-          ? "Read a preview in the flipbook"
-          : "Preview link is being published";
+          ? "Read this book in the flipbook"
+          : "Open the workshop and create this book with the assistant";
+        const lbl = previewBtn.querySelector("span");
+        if (lbl) lbl.textContent = fb ? "Preview" : "Create";
       }
 
       const pill = document.getElementById("openBtn");
@@ -7902,7 +7906,7 @@
                 if (loadEl) {
                   loadEl.style.display = "flex";
                   loadEl.querySelector(".lbl").textContent =
-                    "This book has no pages yet \u2014 ask the assistant to build it.";
+                    "No pages yet \u2014 this book is yours to create. Ask the assistant to build it.";
                   const bar = loadEl.querySelector(".bar");
                   if (bar) bar.style.display = "none";
                 }
@@ -8069,11 +8073,10 @@
           openFlipbook(cfg, fb);
           return;
         }
-        /* No Google Drive fallback: the in-page flipbook (with the reading
-           assistant beside it) IS the preview. The Drive tree was retired, and
-           opening a Drive link here is exactly the bug this fixes. A book with
-           no synced PDF yet shows the "being published" notice instead. */
-        toast("Preview link is being published for " + cfg.title + ".");
+        /* No PDF yet: open the WORKSHOP SHELL - a blank flipbook stage with
+           the assistant ready to create the book. Teachers never hit a dead
+           end; this is a creation surface, not a shop. */
+        openFlipbook(cfg, null);
       });
       document
         .getElementById("fbClose")
