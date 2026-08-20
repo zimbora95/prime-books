@@ -2056,6 +2056,26 @@
       .pbc-toolbar .pbc-send {
         margin-left: auto;
       }
+      /* Queued messages: typed while the agent is working. */
+      .pbc-queued .pbc-body {
+        opacity: 0.6;
+      }
+      .pbc-queuedtag {
+        font-size: 10.5px;
+        color: rgba(218, 181, 108, 0.9);
+        margin-top: 4px;
+        letter-spacing: 0.02em;
+      }
+      /* Images the assistant generates: shown inline, capped height. */
+      .pbc-img {
+        margin: 6px 0;
+      }
+      .pbc-img img {
+        max-width: 100%;
+        max-height: 260px;
+        border-radius: 10px;
+        border: 1px solid rgba(246, 241, 230, 0.15);
+      }
       .pbc-reload {
         padding: 4px 16px 10px;
       }
@@ -8111,8 +8131,19 @@
             s.height = pageH;
             s.maxWidth = pageW;
             s.maxHeight = pageH;
+            s.minWidth = Math.min(260, pageW);
+            s.minHeight = Math.min(340, pageH);
           }
           fbFlip.update();
+          /* PageFlip's internal block keeps a stale width after rapid resizes
+             (e.g. opening devtools): force the wrapper geometry too, so the
+             book never ends up tiny and stranded on the left. */
+          if (fbBook.parentElement) {
+            fbBook.parentElement.style.width = "";
+            fbBook.parentElement.style.height = "";
+          }
+          fbBook.style.width = (innerWidth < 720 ? pageW : pageW * 2) + "px";
+          fbBook.style.height = pageH + "px";
         } catch (e) {}
       };
 

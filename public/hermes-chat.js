@@ -63,6 +63,7 @@
     restored: {}, /* bookKey -> true once the server transcript was fetched */
     rawKey: null,
     attachments: [], /* [{name, dataUrl}] images attached to the next message */
+    queue: [], /* messages typed while the agent is working; sent on completion */
   };
 
   /* ---------- session map ----------
@@ -116,6 +117,27 @@
   /* Render assistant text safely: no innerHTML anywhere near model output.
      Supports the little formatting a tutor actually uses - paragraphs, simple
      bullets, and **bold** - by building nodes, never by parsing HTML. */
+  /* Extract markdown/bare image references BEFORE the paragraph renderer,
+     so a generated illustration actually shows in the panel. Supports:
+       ![alt](url)   bare http(s)://...png|jpg|webp lines
+     Any image is proxied through the image verb when it is remote and on a
+     non-https origin we cannot trust; data: URLs are used as-is. */
+  function extractImages(line) {
+    var imgs = [];
+    var md = line.match(/!\[([^\]]*)\]\(([^\s)]+)\)/g) || [];
+    md.forEach(function (m) {
+      var url = m.replace(/^!\[[^\]]*\]\(/, "").replace(/\)$/, "");
+      if (/^(https?:\/\/|data:image\/)/.test(url)) imgs.push(url);
+      line = line.split(m).join("");
+    });
+    var bare = line.match(/https?:\/\/[^\s]+?\.(?:png|jpe?g|webp|gif)(?:\?[^\s]*)?/gi) || [];
+    bare.forEach(function (u) {
+      imgs.push(u);
+      line = line.split(u).join("");
+    });
+    return { line: line.replace(/\s{2,}/g, " ").trim(), imgs: imgs };
+  }
+
   function renderText(container, text) {
     container.textContent = "";
     var blocks = String(text).split(/\n{2,}/);
@@ -134,9 +156,28 @@
         });
         container.appendChild(ul);
       } else {
-        var p = h("p");
-        emphasise(p, lines.join(" "));
-        container.appendChild(p);
+        var joined = lines.join(" ");
+        var got = extractImages(joined);
+        if (got.imgs.length) {
+          got.imgs.forEach(function (u) {
+            var wrap = h("div", "pbc-img");
+            var im = h("img");
+            im.src = u;
+            im.alt = "generated image";
+            im.loading = "lazy";
+            wrap.appendChild(im);
+            container.appendChild(wrap);
+          });
+          if (got.line) {
+            var p = h("p");
+            emphasise(p, got.line);
+            container.appendChild(p);
+          }
+        } else {
+          var p2 = h("p");
+          emphasise(p2, joined);
+          container.appendChild(p2);
+        }
       }
     });
   }
@@ -707,7 +748,19 @@
   }
 
   async function send(question) {
-    if (state.busy) return;
+    if (state.busy) {
+      /* The agent is mid-turn: QUEUE the message instead of ignoring it.
+         The reader sees it immediately (marked as queued) and it is sent
+         automatically the moment the current turn completes - like Hermes
+         itself, where you can keep typing while it works. */
+      state.queue.push(question);
+      var qb = addMsg("user", question);
+      qb.parentElement.classList.add("pbc-queued");
+      var tag = h("div", "pbc-queuedtag", "queued \u2013 will send when the assistant finishes");
+      qb.appendChild(tag);
+      scrollDown();
+      return;
+    }
     /* A slash command is a UI instruction, not a question: handle it here and
        never spend a model turn on it. Checked BEFORE the book-ready guard so
        /help and /model still work while a large PDF is loading. */
@@ -740,12 +793,13 @@
     }
     state.busy = true;
     el.send.disabled = true;
+    el.input.value = "";
+    el.input.focus();
     var pendingImages = state.attachments.map(function (a) {
       return a.dataUrl;
     });
     state.attachments = [];
     renderAttachments();
-    el.input.value = "";
     if (pendingImages.length) {
       question +=
         " \n(" +
@@ -936,6 +990,14 @@
       state.busy = false;
       el.send.disabled = false;
       state.abort = null;
+      /* Flush any messages queued while the agent was working. Defer a tick
+         so the completed reply paints first. */
+      if (state.queue.length) {
+        var next = state.queue.shift();
+        setTimeout(function () {
+          if (next && !state.busy) send(next);
+        }, 350);
+      }
         scrollDown();
     }
   }
