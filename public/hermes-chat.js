@@ -1115,7 +1115,6 @@
   function onPageChange(e) {
     var d = (e && e.detail) || {};
     updatePageLabel(d.pages);
-    if (!state.busy) suggestChips();
   }
 
   function updatePageLabel(pages) {
