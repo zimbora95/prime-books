@@ -630,6 +630,21 @@
   "editable": true
  },
  {
+  "slug": "y07-art-and-design",
+  "year": 7,
+  "subject": "Art & Design",
+  "band": "Cambridge Lower Secondary",
+  "family": "storybook",
+  "level": "Lower Secondary",
+  "pages": 74,
+  "done": false,
+  "pdf": "/library/y07-art-and-design/book.pdf",
+  "cover": "/library/y07-art-and-design/cover.webp",
+  "mb": 6.48,
+  "buildable": true,
+  "editable": true
+ },
+ {
   "slug": "y07-computing-and-robotics",
   "year": 7,
   "subject": "Computing & Robotics",
@@ -951,7 +966,7 @@
   "band": "Cambridge Lower Secondary",
   "family": "geometric",
   "level": "Lower Secondary",
-  "pages": 19,
+  "pages": 20,
   "done": false,
   "pdf": "/library/y09-science/book.pdf",
   "cover": "/library/y09-science/cover.webp",
