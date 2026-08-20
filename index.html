@@ -1705,21 +1705,25 @@
       .book-card.soon .bed {
         color: #b08527;
       }
-      .addbtn {
+      .markbtn {
+        align-self: center;
         height: 32px;
         padding: 0 15px;
         border-radius: 999px;
-        background: var(--red);
-        color: #fff;
+        background: transparent;
+        color: var(--navy);
         font-size: 12.5px;
         font-weight: 800;
+        box-shadow: inset 0 0 0 1.5px rgba(16, 26, 63, 0.35);
         transition:
           background 0.2s,
+          color 0.2s,
           transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
       }
-      .addbtn:hover {
-        background: var(--red-hi);
-        transform: scale(1.07);
+      .markbtn:hover {
+        background: var(--navy);
+        color: var(--cream);
+        transform: scale(1.05);
       }
 
       /* ---------- flipbook: sections, page input, thumbs ---------- */
@@ -2340,7 +2344,7 @@
         .book-card .foot-row .from b {
           font-size: 14px;
         }
-        .book-card .addbtn {
+        .book-card .markbtn {
           height: 32px;
           padding: 0 12px;
           font-size: 12px;
@@ -2495,23 +2499,11 @@
         <img src="/Logo-Prime-School-light.png" alt="Prime School" />
         <span>
           <span class="wm">Prime <em>Books</em></span>
-          <span class="sub">Prime School Bookshop</span>
+          <span class="sub">Prime School Book Studio</span>
         </span>
       </a>
       <div class="nav-r">
         <button class="cta" id="catalogueBtn">Catalogue</button>
-        <button class="cart-btn" id="cartBtn" aria-label="Basket">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.8"
-          >
-            <path d="M6 7h12l-1.2 12.2a2 2 0 0 1-2 1.8H9.2a2 2 0 0 1-2-1.8L6 7z" />
-            <path d="M9 7V6a3 3 0 0 1 6 0v1" />
-          </svg>
-          <span class="cart-count" id="cartCount">0</span>
-        </button>
       </div>
     </nav>
 
@@ -2526,12 +2518,8 @@
         <div class="chips" id="dpChips"></div>
         <div class="year" id="dpYear"></div>
       </div>
-      <div class="price-row">
-        <div class="price" id="dpPrice"></div>
-      </div>
       <div class="rule"></div>
       <div class="actions">
-        <button class="pill buy" id="buyBtn">Buy Now</button>
         <button class="pill preview" id="previewBtn">
           <svg
             viewBox="0 0 24 24"
@@ -2544,33 +2532,12 @@
           </svg>
           <span>Preview</span>
         </button>
-        <button class="pill iconb" id="saveBtn" aria-label="Save">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-          >
-            <path d="M7 3h10v18l-5-4-5 4z" />
-          </svg>
-        </button>
       </div>
     </div>
 
     <div class="foot">
-      <div><b>Prime Books</b> — the official Prime School bookshop</div>
+      <div><b>Prime Books</b> — where Prime School teachers create their books</div>
       <div>Years 1–10 · Cambridge Pathway · primeschool.pt</div>
-    </div>
-
-    <div class="cart-pop" id="cartPop">
-      <h3>Your basket</h3>
-      <div class="cart-sub">Prime Books · school bookshop</div>
-      <div class="cart-items" id="cartItems"></div>
-      <div class="cart-total">
-        <span>Total</span>
-        <span id="cartTotal">€0,00</span>
-      </div>
-      <button class="cart-checkout" id="checkoutBtn">Checkout</button>
     </div>
 
     <div class="cat" id="cat" aria-hidden="true">
@@ -2587,11 +2554,9 @@
         <div class="kicker">The complete collection</div>
         <h2>Every year.<br />Every <em>subject.</em></h2>
         <p>
-          Student&rsquo;s Manuals, Teacher&rsquo;s Guides and Workbooks for the
-          full Cambridge Pathway at Prime School — written by our teachers,
-          printed for our pupils, and now available to every family. Each
-          edition is its own book: pick a year, then choose Manual, Guide or
-          Workbook.
+          Every Prime Book in progress — written and illustrated by our
+          teachers for the Cambridge Pathway. Open one to read it, or to
+          continue creating it with the assistant.
         </p>
       </div>
       <section class="collection-overview" aria-labelledby="collectionOverviewTitle">
@@ -2618,6 +2583,8 @@
           </div>
           <span class="fdiv" aria-hidden="true"></span>
           <div class="seg" id="edSeg" role="tablist" aria-label="Edition"></div>
+          <span class="fdiv" aria-hidden="true"></span>
+          <div class="seg" id="stSeg" role="tablist" aria-label="Status"></div>
           <span class="seg-count" id="catCount" aria-live="polite"></span>
         </div>
       </div>
@@ -6545,10 +6512,7 @@
       const dpDesc = document.getElementById("dpDesc");
       const dpChips = document.getElementById("dpChips");
       const dpYear = document.getElementById("dpYear");
-      const dpPrice = document.getElementById("dpPrice");
-      const buyBtn = document.getElementById("buyBtn");
       const previewBtn = document.getElementById("previewBtn");
-      const saveBtn = document.getElementById("saveBtn");
       function populatePanel(cfg) {
         dpStage.innerHTML = '<span class="dash"></span>' + cfg.stage;
         dpTitle.textContent = cfg.title;
@@ -6565,7 +6529,6 @@
               "</span>",
           )
           .join("");
-        dpPrice.textContent = cfg.price;
         const fb = flipbookFor(cfg);
         /* NEVER disable: a book without a PDF opens the workshop shell
            (blank flipbook + live assistant) so teachers can create it. */
@@ -6673,74 +6636,39 @@
         toastT = setTimeout(() => toastEl.classList.remove("on"), 2600);
       }
 
-      /* ---- basket ---- */
-      const cart = [];
-      const cartCount = document.getElementById("cartCount");
-      const cartItems = document.getElementById("cartItems");
-      const cartTotal = document.getElementById("cartTotal");
-      function eur(cents) {
-        return "€" + (cents / 100).toFixed(2).replace(".", ",");
+      /* ---- editorial status: mark a Prime Book Done or back In progress ----
+         Not e-commerce: the site is a workshop where teachers create Prime
+         Books. Status lives in localStorage (keyed by year|subject) and is
+         seeded from the library manifest's `done` flag, so the badge the
+         authoring pipeline publishes shows up for everyone, while any local
+         toggles persist per browser. */
+      const DONE_STORE = "pb-done-v1";
+      const doneMap = (() => {
+        try {
+          return JSON.parse(localStorage.getItem(DONE_STORE) || "{}");
+        } catch (e) {
+          return {};
+        }
+      })();
+      function bookIsDone(year, subj) {
+        const key = year + "|" + normSubject(subj);
+        if (Object.prototype.hasOwnProperty.call(doneMap, key))
+          return !!doneMap[key];
+        const row = SUBJECT_ROWS[key];
+        return !!(row && row.done);
       }
-      function renderCart() {
-        cartCount.textContent = cart.length;
-        cartCount.classList.toggle("on", cart.length > 0);
-        cartCount.classList.remove("bump");
-        void cartCount.offsetWidth;
-        cartCount.classList.add("bump");
-        cartItems.innerHTML = cart.length
-          ? cart
-              .map(
-                (it, idx) =>
-                  '<div class="cart-item"><span>' +
-                  it.label +
-                  "</span><span>" +
-                  eur(it.cents) +
-                  '</span><button class="rm" data-i="' +
-                  idx +
-                  '" aria-label="Remove">&#10005;</button></div>',
-              )
-              .join("")
-          : '<div class="cart-empty">Your basket is empty — the books are waiting.</div>';
-        cartTotal.textContent = eur(cart.reduce((s, it) => s + it.cents, 0));
+      function setBookDone(year, subj, done) {
+        doneMap[year + "|" + normSubject(subj)] = !!done;
+        try {
+          localStorage.setItem(DONE_STORE, JSON.stringify(doneMap));
+        } catch (e) {}
       }
-      cartItems.addEventListener("click", (e) => {
-        const b = e.target.closest(".rm");
-        if (!b) return;
-        cart.splice(+b.getAttribute("data-i"), 1);
-        renderCart();
-      });
-      function addToCart(label, cents) {
-        cart.push({ label, cents });
-        renderCart();
-        toast("Added to basket — " + label);
-      }
-      renderCart();
-      document.getElementById("cartBtn").addEventListener("click", (e) => {
-        e.stopPropagation();
-        document.body.classList.toggle("cart-open");
-      });
-      document
-        .getElementById("cartPop")
-        .addEventListener("click", (e) => e.stopPropagation());
-      window.addEventListener("pointerdown", () =>
-        document.body.classList.remove("cart-open"),
-      );
-      document.getElementById("checkoutBtn").addEventListener("click", () => {
-        toast("Online checkout opens soon — meanwhile, visit primeschool.pt");
-      });
 
-      buyBtn.addEventListener("click", () => {
-        const cfg = state.selected && state.selected.cfg;
-        if (cfg) addToCart(cfg.tag + " — Student Manual", cfg.priceCents);
-      });
-      saveBtn.addEventListener("click", () => {
-        const cfg = state.selected && state.selected.cfg;
-        if (cfg) toast("Saved to your list — " + cfg.tag);
-      });
       /* ---- catalogue overlay (parsed at runtime from the Subjects CSV) ---- */
       const catEl = document.getElementById("cat");
       const catFilters = document.getElementById("catFilters");
       const edSeg = document.getElementById("edSeg");
+      const stSeg = document.getElementById("stSeg");
       const catCount = document.getElementById("catCount");
       const ydrop = document.getElementById("ydrop");
       const ydropBtn = document.getElementById("ydropBtn");
@@ -6773,7 +6701,8 @@
       const collectionCoverTip = document.getElementById("collectionCoverTip");
       let catData = null,
         catFilter = "All",
-        edFilter = "manual";
+        edFilter = "manual",
+        stFilter = "all";
       let collectionBooks = null;
 
       const YEAR_COLOURS = {
@@ -6940,15 +6869,22 @@
       document.getElementById("brandHome").addEventListener("click", (e) => {
         e.preventDefault();
         closeFlipbook();
-        closeCatalogue();
-        document.body.classList.remove("cart-open");
         if (state.mode === "detail") close();
+        requestAnimationFrame(openCatalogue);
       });
-      document
-        .getElementById("catHome")
-        .addEventListener("click", closeCatalogue);
+      /* The catalogue IS the homepage now: the in-catalogue brand scrolls back
+         to the top of the collection instead of closing it. */
+      document.getElementById("catHome").addEventListener("click", () => {
+        catEl.scrollTo({ top: 0, behavior: "smooth" });
+      });
 
-      if (location.search.includes("catalogue=1")) {
+      /* The catalogue is the homepage: open it on load. A deep link
+         (/book/<slug>) supersedes it - pb-router opens the book and the
+         catalogue stays shut underneath. */
+      if (
+        !location.pathname.startsWith("/book/") &&
+        !location.search.includes("stage=1")
+      ) {
         requestAnimationFrame(openCatalogue);
       }
 
@@ -7536,6 +7472,32 @@
           }),
         );
 
+        /* status segmented control: Done / In progress */
+        const STAGES = [
+          { key: "all", label: "All" },
+          { key: "wip", label: "In progress" },
+          { key: "done", label: "Done" },
+        ];
+        stSeg.innerHTML =
+          '<span class="seg-thumb" aria-hidden="true"></span>' +
+          STAGES.map(
+            (s) =>
+              '<button class="year-pill stp' +
+              (stFilter === s.key ? " on" : "") +
+              '" data-st="' +
+              s.key +
+              '" role="tab">' +
+              s.label +
+              "</button>",
+          ).join("");
+        requestAnimationFrame(stThumb);
+        stSeg.querySelectorAll(".year-pill").forEach((b) =>
+          b.addEventListener("click", () => {
+            stFilter = b.getAttribute("data-st");
+            renderCatalogue();
+          }),
+        );
+
         /* slide the navy thumb under the active segment */
         function segThumb() {
           const on = edSeg.querySelector(".year-pill.on");
@@ -7544,25 +7506,38 @@
           th.style.width = on.offsetWidth + "px";
           th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
         }
+        function stThumb() {
+          const on = stSeg.querySelector(".year-pill.on");
+          const th = stSeg.querySelector(".seg-thumb");
+          if (!on || !th) return;
+          th.style.width = on.offsetWidth + "px";
+          th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
+        }
         window.addEventListener("resize", segThumb);
+        window.addEventListener("resize", stThumb);
 
 
-        /* Editorial state badge. `done` is true when the student PDF sits in
-           PDF/Output/Done in the masters, so moving the file in or out of that
-           folder is the whole status switch: re-run tools/sync_library.py and the
-           badge follows. Shown on the card AND in list view, because the user
-           reads the collection as a list and needs to see progress at a glance
-           without opening anything. */
+        /* Editorial state badge. The authoritative `done` flag comes from the
+           masters (PDF/Output/Done, republished by tools/sync_library.py) and
+           any local Done toggles override it per browser (see setBookDone).
+           Shown on the card AND in list view, because the user reads the
+           collection as a list and needs to see progress at a glance without
+           opening anything. */
         function stateBadge(year, subj) {
-          const row = SUBJECT_ROWS[year + "|" + normSubject(subj)];
-          if (!row) return "";
-          return row.done
-            ? '<span class="bstate done" title="Finished: the PDF is in PDF/Output/Done">Done</span>'
-            : '<span class="bstate wip" title="In progress: the PDF is still in PDF/Output">In progress</span>';
+          const done = bookIsDone(year, subj);
+          return done
+            ? '<span class="bstate done" title="Finished book">Done</span>'
+            : '<span class="bstate wip" title="Still being written">In progress</span>';
         }
 
         /* cards: one per (subject × edition in print) */
         function cardsFor(r) {
+          /* status filter (Done / In progress) applies to the whole subject */
+          if (stFilter !== "all") {
+            const done = bookIsDone(r.year, r.subj);
+            if (stFilter === "done" && !done) return "";
+            if (stFilter === "wip" && done) return "";
+          }
           const ok = r.s || r.t || r.w;
           if (!ok) {
             if (edFilter !== "all") return "";
@@ -7607,16 +7582,15 @@
                   : "") +
                 stateBadge(r.year, r.subj) +
                 "</div>" +
-                '<span class="from solo"><b>' +
-                e.price +
-                "</b></span>" +
                 '<div class="foot-row">' +
                 '<button class="view3d" data-feat="' +
                 [r.year, r.subj, e.key].join("|") +
                 '">Open Book</button>' +
-                '<button class="addbtn" data-add="' +
-                [r.year, r.subj, e.key].join("|") +
-                '">Add +</button></div></div>'
+                '<button class="markbtn" data-done="' +
+                [r.year, r.subj].join("|") +
+                '">' +
+                (bookIsDone(r.year, r.subj) ? "Done ✓" : "Mark done") +
+                "</button></div></div>"
               );
             })
             .join("");
@@ -7668,13 +7642,19 @@
           .querySelectorAll(".bcov img")
           .forEach((img) => coverObserver.observe(img));
 
-        /* delegation: add to basket + open in 3D */
+        /* delegation: toggle Done + open in 3D */
         catBody.onclick = (e) => {
-          const add = e.target.closest("[data-add]");
-          if (add) {
-            const p = add.getAttribute("data-add").split("|");
-            const ed = EDITIONS.find((x) => x.key === p[2]);
-            addToCart(p[1] + " · " + p[0] + " — " + ed.label, ed.cents);
+          const mark = e.target.closest("[data-done]");
+          if (mark) {
+            e.stopPropagation();
+            const parts = mark.getAttribute("data-done").split("|");
+            const nowDone = !bookIsDone(parts[0], parts[1]);
+            setBookDone(parts[0], parts[1], nowDone);
+            toast(
+              parts[1] + " · " + parts[0] +
+                (nowDone ? " marked done" : " back in progress"),
+            );
+            renderCatalogue();
             return;
           }
           const v = e.target.closest("[data-feat]");
@@ -8549,8 +8529,6 @@
         if (e.key === "Escape") {
           if (document.body.classList.contains("cat-open"))
             return closeCatalogue();
-          if (document.body.classList.contains("cart-open"))
-            return document.body.classList.remove("cart-open");
           close();
         }
         if (state.mode !== "hero") return;
