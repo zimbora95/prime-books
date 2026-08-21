@@ -6,19 +6,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>Prime Books — the Prime School bookshop</title>
+    <title>Prime Books — the Prime School book studio</title>
     <link rel="icon" type="image/png" href="/Logo-Prime-School.png" />
     <!--
-  Prime Books — interactive 3D bookshop for Prime School's Cambridge
-  Pathway titles (www.primeschool.pt).
+  Prime Books — the Prime School book studio: a catalogue where teachers
+  follow and create the school's Cambridge Pathway books (primeschool.pt).
 
   Notes for editing:
-  - Featured books + procedural Prime cover painters live in the BOOKS array.
-  - The full catalogue (Years 1-10) is parsed at runtime from
-    /PRIMEBOOKS%20-%20Subjects.csv.
-  - The page-flip preview renders the PDF with pdf.js into StPageFlip
+  - The catalogue (Years 1-10) loads from /collection-books.json; PDFs and
+    metadata come from /library.json (written by tools/sync_library.py).
+  - The page-flip reader renders the PDF with pdf.js into StPageFlip
     (both vendored in /vendor).
-  - All geometry, textures, lighting and the environment map are procedural.
+  - Procedural cover painters generate placeholder card art when a book has
+    no synced cover yet.
 -->
     <style>
       :root {
@@ -70,43 +70,6 @@
       }
 
       /* ---------- hero word ---------- */
-      .hero-word {
-        position: fixed;
-        top: 4vh;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 1;
-        user-select: none;
-        pointer-events: none;
-        text-align: center;
-        transition:
-          opacity 0.55s ease,
-          transform 0.55s ease;
-      }
-      .hero-word span {
-        display: block;
-        white-space: nowrap;
-        font-weight: 800;
-        letter-spacing: -0.02em;
-        line-height: 0.84;
-        animation: heroIn 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0.15s both;
-      }
-      .hero-word span.l1 {
-        font-size: min(15.5vw, 23vh);
-        color: var(--cream);
-      }
-      .hero-word span.l2 {
-        font-family: Georgia, "Times New Roman", serif;
-        font-style: italic;
-        font-weight: 500;
-        letter-spacing: 0.01em;
-        font-size: min(10vw, 15.5vh);
-        margin-top: -3.5vh;
-        margin-left: 30vw;
-        color: transparent;
-        -webkit-text-stroke: 2.5px var(--red);
-        animation-delay: 0.28s;
-      }
       @keyframes heroIn {
         from {
           opacity: 0;
@@ -124,13 +87,6 @@
       }
 
       /* ---------- canvas ---------- */
-      #gl {
-        position: fixed;
-        inset: 0;
-        z-index: 2;
-        display: block;
-        touch-action: none;
-      }
 
       /* ---------- nav ---------- */
       nav {
@@ -205,432 +161,31 @@
       .cta:hover {
         background: var(--red-hi);
       }
-      .cart-btn {
-        position: relative;
-        width: 48px;
-        height: 48px;
-        border-radius: 50%;
-        background: var(--cream);
-        color: var(--navy);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
-      }
-      .cart-btn svg {
-        width: 21px;
-        height: 21px;
-      }
-      .cart-count {
-        position: absolute;
-        top: -4px;
-        right: -4px;
-        min-width: 20px;
-        height: 20px;
-        border-radius: 999px;
-        background: var(--red);
-        color: #fff;
-        font-size: 11.5px;
-        font-weight: 800;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0 5px;
-        transform: scale(0);
-        transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-      }
-      .cart-count.on {
-        transform: scale(1);
-      }
-      .cart-count.bump {
-        animation: bump 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
-      }
       @keyframes bump {
         40% {
           transform: scale(1.45);
         }
       }
       .cta:hover,
-      .cart-btn:hover {
-        transform: scale(1.05);
-      }
 
       /* ---------- open slip: a torn scrap of page that trails the cursor ----------
          clip-path gives every edge a deckled tear; drop-shadow (not box-shadow)
          is used so the shadow follows the torn silhouette instead of a rectangle.
-         Never interactive: the click is handled by the book underneath. */
-      #openBtn {
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 30;
-        padding: 16px 38px 18px;
-        border: 0;
-        border-radius: 0;
-        background:
-          repeating-linear-gradient(
-            92deg,
-            rgba(90, 74, 40, 0.03) 0 2px,
-            transparent 2px 6px
-          ),
-          radial-gradient(
-            125% 150% at 28% 0%,
-            #fffdf7 0%,
-            #f8f2e3 58%,
-            #ede4cf 100%
-          );
-        color: var(--navy);
-        font-size: 15px;
-        font-weight: 700;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        clip-path: polygon(
-          0% 0.9%,
-          8.3% 0.8%,
-          16.7% 6.3%,
-          25% 3.8%,
-          33.3% 5.5%,
-          41.7% 2.7%,
-          50% 5.2%,
-          58.3% 0.4%,
-          66.7% 5.9%,
-          75% 6.5%,
-          83.3% 1%,
-          91.7% 6.4%,
-          100% 0.7%,
-          97.7% 20%,
-          97% 40%,
-          99.6% 60%,
-          98.7% 80%,
-          100% 96.5%,
-          91.7% 99.8%,
-          83.3% 95.6%,
-          75% 94.9%,
-          66.7% 96.6%,
-          58.3% 93.5%,
-          50% 97.9%,
-          41.7% 99.5%,
-          33.3% 93.2%,
-          25% 93.6%,
-          16.7% 93.2%,
-          8.3% 93.1%,
-          0% 93.5%,
-          0.2% 80%,
-          1.1% 60%,
-          3.9% 40%,
-          3.8% 20%
-        );
-        filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.16))
-          drop-shadow(0 14px 26px rgba(0, 0, 0, 0.4));
-        opacity: 0;
-        pointer-events: none;
-        transform: translate(-50%, -50%) rotate(-1.6deg) scale(0.94);
-        transition:
-          opacity 0.24s ease,
-          transform 0.32s cubic-bezier(0.22, 1, 0.36, 1);
-        will-change: transform, opacity, left, top;
-      }
-      #openBtn.on {
-        opacity: 1;
-        transform: translate(-50%, -50%) rotate(-1.6deg) scale(1);
-      }
-
-      /* ---------- close button ---------- */
-      #closeBtn {
-        position: fixed;
-        top: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 40;
-        width: 52px;
-        height: 52px;
-        border-radius: 50%;
-        background: transparent;
-        color: var(--cream);
-        border: 1.5px solid rgba(253, 251, 244, 0.4);
-        font-size: 17px;
-        line-height: 1;
-        opacity: 0;
-        pointer-events: none;
-        transition:
-          opacity 0.4s ease 0.15s,
-          border-color 0.25s ease;
-      }
-      #closeBtn:hover {
-        border-color: rgba(253, 251, 244, 0.9);
-      }
-      body.detail-open #closeBtn {
-        opacity: 1;
-        pointer-events: auto;
-      }
-
-      /* ---------- detail panel ---------- */
-      .dp {
-        position: fixed;
-        right: 7vw;
-        top: 50%;
-        transform: translateY(-50%);
-        width: min(560px, 42vw);
-        z-index: 15;
-        pointer-events: none;
-        visibility: hidden;
-        transition: visibility 0s 0.5s;
-      }
-      body.detail-open .dp {
-        visibility: visible;
-        transition: visibility 0s 0s;
-      }
-      .dp > * {
-        opacity: 0;
-        transform: translateY(28px);
-        transition:
-          opacity 0.28s ease,
-          transform 0.28s ease;
-      }
-      body.detail-open .dp > * {
-        opacity: 1;
-        transform: none;
-        transition:
-          opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-          transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-      }
-      body.detail-open .dp > *:nth-child(1) {
+         Never interactive: the click is handled by the book underneath. */      body.detail-open .dp > *:nth-child(1) {
         transition-delay: 0.05s;
-      }
-      body.detail-open .dp > *:nth-child(2) {
-        transition-delay: 0.13s;
-      }
-      body.detail-open .dp > *:nth-child(3) {
+      }      body.detail-open .dp > *:nth-child(3) {
         transition-delay: 0.21s;
-      }
-      body.detail-open .dp > *:nth-child(4) {
-        transition-delay: 0.27s;
-      }
-      body.detail-open .dp > *:nth-child(5) {
+      }      body.detail-open .dp > *:nth-child(5) {
         transition-delay: 0.33s;
-      }
-      body.detail-open .dp > *:nth-child(6) {
-        transition-delay: 0.39s;
-      }
-      body.detail-open .dp > *:nth-child(7) {
+      }      body.detail-open .dp > *:nth-child(7) {
         transition-delay: 0.45s;
       }
 
-      .eyebrow {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        color: var(--red-hi);
-        font-size: 13px;
-        font-weight: 800;
-        letter-spacing: 0.26em;
-        text-transform: uppercase;
-      }
-      .eyebrow .dash {
-        flex: none;
-        width: 34px;
-        height: 2px;
-        background: var(--red);
-      }
-      .dp h1 {
-        margin: 14px 0 0;
-        color: var(--cream);
-        font-size: clamp(52px, 5.6vw, 92px);
-        font-weight: 800;
-        line-height: 0.98;
-        letter-spacing: -0.015em;
-      }
-      .dp p {
-        margin: 26px 0 0;
-        color: var(--mist);
-        font-size: clamp(16px, 1.25vw, 19px);
-        line-height: 1.65;
-        font-weight: 400;
-        max-width: 54ch;
-      }
-      .meta {
-        margin-top: 30px;
-        display: flex;
-        align-items: center;
-        gap: 18px;
-      }
-      .chips {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-      }
-      .chip {
-        height: 30px;
-        padding: 0 13px;
-        border-radius: 999px;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 12.5px;
-        font-weight: 700;
-        letter-spacing: 0.04em;
-        border: 1px solid rgba(246, 241, 230, 0.35);
-        color: var(--cream);
-      }
-      .chip::before {
-        content: "";
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: var(--red-hi);
-      }
-      .chip.off {
-        opacity: 0.38;
-        border-style: dashed;
-      }
-      .chip.off::before {
-        background: var(--mist);
-      }
-      .year {
-        color: var(--mist);
-        font-style: italic;
-        font-size: 17px;
-        margin-left: auto;
-        white-space: nowrap;
-      }
-      .price-row {
-        margin-top: 20px;
-        display: flex;
-        align-items: baseline;
-        gap: 16px;
-      }
-      .price {
-        color: var(--cream);
-        font-size: clamp(28px, 2.6vw, 40px);
-        font-weight: 800;
-        letter-spacing: -0.01em;
-      }
-      .price-note {
-        color: var(--mist);
-        font-size: 14.5px;
-        font-style: italic;
-      }
-      .rule {
-        margin-top: 24px;
-        border-top: 1px solid rgba(200, 208, 240, 0.18);
-      }
-      .actions {
-        margin-top: 28px;
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        background: #10183c;
-        border-radius: 999px;
-        padding: 10px;
-        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
-        pointer-events: auto;
-      }
-      .pill {
-        height: 54px;
-        padding: 0 26px;
-        border-radius: 999px;
-        font-size: 16.5px;
-        font-weight: 600;
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        transition:
-          transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1),
-          filter 0.2s;
-      }
-      .pill:hover {
-        transform: scale(1.04);
-        filter: brightness(1.05);
-      }
-      .pill.lang {
-        background: var(--cream);
-        color: var(--navy);
-      }
-      .pill.buy {
-        background: var(--red);
-        color: #fff;
-      }
-      .pill.audio {
-        background: transparent;
-        color: var(--cream);
-        box-shadow: inset 0 0 0 1.5px rgba(246, 241, 230, 0.45);
-      }
-      .pill.preview {
-        background: var(--gold);
-        color: #241a06;
-      }
-      .pill.preview[disabled] {
-        cursor: not-allowed;
-        filter: grayscale(0.72) opacity(0.55);
-      }
-      .pill.iconb {
-        width: 54px;
-        padding: 0;
-        justify-content: center;
-        background: #242c50;
-        color: var(--mist);
-      }
-      .pill svg {
-        width: 20px;
-        height: 20px;
-      }
 
       /* ---------- portrait / small screens ---------- */
       @media (max-aspect-ratio: 17/20), (max-width: 760px) {
         nav {
           padding: 18px 20px;
-        }
-        .hero-word {
-          top: 11vh;
-        }
-        .hero-word span.l1 {
-          font-size: 24vw;
-        }
-        .hero-word span.l2 {
-          font-size: 15vw;
-          margin-top: -5vw;
-          margin-left: 24vw;
-        }
-        .dp {
-          right: auto;
-          left: 50%;
-          top: auto;
-          bottom: 3.5vh;
-          transform: translateX(-50%);
-          width: min(560px, 92vw);
-        }
-        .dp h1 {
-          font-size: clamp(36px, 9.5vw, 54px);
-        }
-        .dp p {
-          font-size: 15px;
-          margin-top: 16px;
-          display: -webkit-box;
-          -webkit-line-clamp: 4;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
-        .meta {
-          margin-top: 18px;
-        }
-        .rule {
-          margin-top: 16px;
-        }
-        .actions {
-          margin-top: 18px;
-          flex-wrap: wrap;
-          border-radius: 28px;
-        }
-        .pill {
-          height: 48px;
-          padding: 0 20px;
-          font-size: 15px;
-        }
-        #closeBtn {
-          top: 18px;
-          left: auto;
-          right: 18px;
-          transform: none;
         }
       }
 
@@ -642,27 +197,6 @@
       }
 
       /* ---------- footer strip ---------- */
-      .foot {
-        position: fixed;
-        left: 42px;
-        right: 42px;
-        bottom: 20px;
-        z-index: 10;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-        pointer-events: none;
-        color: var(--mist);
-        font-size: 12.5px;
-        letter-spacing: 0.08em;
-        opacity: 0.72;
-        transition: opacity 0.45s ease;
-      }
-      .foot b {
-        color: var(--cream);
-        font-weight: 700;
-      }
       body.detail-open .foot,
       body.transit .foot,
       body.cat-open .foot,
@@ -670,9 +204,6 @@
         opacity: 0;
       }
       @media (max-width: 760px) {
-        .foot {
-          display: none;
-        }
       }
 
       /* ---------- toast ---------- */
@@ -700,108 +231,6 @@
       .toast.on {
         opacity: 1;
         transform: translateX(-50%) translateY(0);
-      }
-
-      /* ---------- cart dropdown ---------- */
-      .cart-pop {
-        position: fixed;
-        top: 132px;
-        right: 42px;
-        z-index: 70;
-        width: min(360px, calc(100vw - 32px));
-        background: var(--cream);
-        color: var(--navy);
-        border-radius: 22px;
-        padding: 22px;
-        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
-        opacity: 0;
-        transform: translateY(-10px) scale(0.98);
-        transform-origin: top right;
-        pointer-events: none;
-        transition:
-          opacity 0.25s ease,
-          transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-      }
-      body.cart-open .cart-pop {
-        opacity: 1;
-        transform: none;
-        pointer-events: auto;
-      }
-      .cart-pop h3 {
-        margin: 0 0 4px;
-        font-size: 19px;
-        font-weight: 800;
-        letter-spacing: -0.01em;
-      }
-      .cart-pop .cart-sub {
-        font-size: 12.5px;
-        color: #6a7194;
-        margin-bottom: 14px;
-      }
-      .cart-items {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-height: 40vh;
-        overflow-y: auto;
-      }
-      .cart-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 12px;
-        font-size: 14px;
-        font-weight: 600;
-        border-bottom: 1px dashed rgba(12, 19, 52, 0.18);
-        padding-bottom: 10px;
-      }
-      .cart-item span:last-of-type {
-        font-weight: 800;
-        white-space: nowrap;
-        margin-left: auto;
-      }
-      .cart-item .rm {
-        flex: none;
-        width: 22px;
-        height: 22px;
-        border-radius: 50%;
-        background: transparent;
-        border: 1px solid rgba(12, 19, 52, 0.25);
-        color: #6a7194;
-        font-size: 11px;
-        line-height: 1;
-        align-self: center;
-        padding: 0;
-      }
-      .cart-item .rm:hover {
-        border-color: var(--red);
-        color: var(--red);
-      }
-      .cart-empty {
-        font-size: 14px;
-        color: #6a7194;
-        font-style: italic;
-        padding: 6px 0 12px;
-      }
-      .cart-total {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 14px;
-        font-size: 16px;
-        font-weight: 800;
-      }
-      .cart-checkout {
-        margin-top: 14px;
-        width: 100%;
-        height: 48px;
-        border-radius: 999px;
-        background: var(--red);
-        color: #fff;
-        font-size: 15px;
-        font-weight: 700;
-      }
-      .cart-checkout:hover {
-        background: var(--red-hi);
       }
 
       /* ---------- catalogue overlay ---------- */
@@ -1097,28 +526,6 @@
         border-radius: 18px;
         box-shadow: 0 12px 34px rgba(12, 19, 52, 0.1);
       }
-      .year-pill {
-        height: 38px;
-        padding: 0 18px;
-        border-radius: 999px;
-        background: transparent;
-        border: 1.5px solid rgba(12, 19, 52, 0.25);
-        color: var(--navy);
-        font-size: 13.5px;
-        font-weight: 700;
-        transition:
-          background 0.2s,
-          color 0.2s,
-          border-color 0.2s;
-      }
-      .year-pill:hover {
-        border-color: var(--navy);
-      }
-      .year-pill.on {
-        background: var(--navy);
-        border-color: var(--navy);
-        color: var(--cream);
-      }
       .cat-body {
         max-width: 1240px;
         margin: 0 auto;
@@ -1148,39 +555,6 @@
         grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
         gap: 14px;
       }
-      .book-card {
-        background: #fffdf8;
-        border: 1px solid rgba(12, 19, 52, 0.1);
-        border-radius: 18px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        transition:
-          transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
-          box-shadow 0.3s ease,
-          border-color 0.3s ease;
-      }
-      .book-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 18px 44px rgba(12, 19, 52, 0.14);
-        border-color: rgba(12, 19, 52, 0.22);
-      }
-      .book-card.soon {
-        opacity: 0.55;
-      }
-      .book-card h4 {
-        margin: 0;
-        font-size: 17.5px;
-        font-weight: 800;
-        letter-spacing: -0.01em;
-        line-height: 1.25;
-      }
-      .book-card .eds {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-      }
       .ed {
         height: 24px;
         padding: 0 10px;
@@ -1197,75 +571,6 @@
         background: transparent;
         border: 1px dashed rgba(12, 19, 52, 0.25);
         color: #8a90ac;
-      }
-      .book-card .foot-row {
-        margin-top: auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-      }
-      .book-card .from {
-        font-size: 13.5px;
-        font-weight: 700;
-        color: #4a5170;
-      }
-      .book-card .from b {
-        color: var(--navy);
-        font-size: 15px;
-      }
-      .book-card .from.solo {
-        display: block;
-        margin: 4px 0 10px;
-      }
-      .foot-row .view3d {
-        align-self: center;
-      }
-      .bcov[data-feat] {
-        cursor: pointer;
-      }
-      .status {
-        display: inline-flex;
-        align-items: center;
-        gap: 7px;
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: #1d7a3d;
-      }
-      .status::before {
-        content: "";
-        width: 7px;
-        height: 7px;
-        border-radius: 50%;
-        background: #27a04c;
-      }
-      .status.soon {
-        color: #9a5b13;
-      }
-      .status.soon::before {
-        background: #d8912b;
-      }
-      .view3d {
-        align-self: flex-start;
-        height: 34px;
-        padding: 0 15px;
-        border-radius: 999px;
-        background: var(--navy);
-        color: var(--cream);
-        font-size: 12.5px;
-        font-weight: 700;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        transition:
-          background 0.2s,
-          transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
-      }
-      .view3d:hover {
-        background: var(--red);
-        transform: scale(1.05);
       }
       @media (max-width: 760px) {
         .cat-head,
@@ -1600,19 +905,6 @@
       .seg .year-pill.on {
         color: var(--cream) !important;
       }
-      .seg-thumb {
-        position: absolute;
-        top: 4px;
-        left: 4px;
-        width: 60px;
-        height: calc(100% - 8px);
-        border-radius: 999px;
-        background: var(--navy);
-        box-shadow: 0 8px 18px rgba(12, 19, 52, 0.3);
-        transition:
-          transform 0.38s cubic-bezier(0.22, 1, 0.36, 1),
-          width 0.38s cubic-bezier(0.22, 1, 0.36, 1);
-      }
       .seg-count {
         margin-left: auto;
         font-size: 12.5px;
@@ -1631,80 +923,8 @@
         color: #8a90ac;
         margin-right: 4px;
       }
-      .bcov {
-        position: relative;
-        aspect-ratio: 2 / 3;
-        border-radius: 4px 12px 12px 4px;
-        overflow: hidden;
-        background: #101a3f;
-        box-shadow: 0 8px 22px rgba(12, 19, 52, 0.18);
-      }
-      .bcov img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: left center;
-        display: block;
-        opacity: 0;
-        transition: opacity 0.5s ease;
-      }
-      .bcov img[src] {
-        opacity: 1;
-      }
-      .bcov.dim img {
-        filter: grayscale(0.65) brightness(0.85);
-      }
-      .bflag {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        padding: 5px 10px;
-        border-radius: 999px;
-        font-size: 10px;
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        color: #241a06;
-        background: var(--gold);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-      }
-      .bflag.workbook {
-        background: #8fd6b0;
-        color: #0c2b1c;
-      }
       /* Editorial state, bottom-left of the cover so it never collides with the
          edition flag top-right. Driven by PDF/Output/Done in the masters. */
-      .bstate {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        padding: 4px 9px;
-        border-radius: 999px;
-        font-size: 9px;
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        backdrop-filter: blur(6px);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.28);
-      }
-      .bstate.done {
-        background: rgba(143, 214, 176, 0.94);
-        color: #0c2b1c;
-      }
-      .bstate.wip {
-        background: rgba(12, 19, 52, 0.72);
-        color: var(--mist);
-        border: 1px solid rgba(174, 184, 221, 0.34);
-      }
-      .bed {
-        font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--red);
-      }
-      .book-card.soon .bed {
-        color: #b08527;
-      }
       .markbtn {
         align-self: center;
         height: 32px;
@@ -2318,39 +1538,11 @@
           padding: 0 16px;
           font-size: 14px;
         }
-        .cart-btn {
-          width: 42px;
-          height: 42px;
-        }
-
-        /* cart popover */
-        .cart-pop {
-          top: 86px;
-          right: 16px;
-        }
 
         /* catalogue: 2-up grid + compact cards */
         .cat-grid {
           grid-template-columns: repeat(2, 1fr);
           gap: 10px;
-        }
-        .book-card h4 {
-          font-size: 14px;
-          line-height: 1.25;
-        }
-        .book-card .bed {
-          font-size: 11px;
-        }
-        .book-card .foot-row .from b {
-          font-size: 14px;
-        }
-        .book-card .markbtn {
-          height: 32px;
-          padding: 0 12px;
-          font-size: 12px;
-        }
-        .book-card .view3d {
-          font-size: 11px;
         }
 
         /* filters: swipeable single rows */
@@ -2426,11 +1618,6 @@
         }
 
         /* detail panel: scrollable bottom sheet */
-        .dp {
-          max-height: 66vh;
-          overflow-y: auto;
-          overscroll-behavior: contain;
-        }
 
         /* toast */
         .toast {
@@ -2443,16 +1630,6 @@
       }
       @media (max-height: 560px) {
         /* landscape phones */
-        .dp {
-          top: auto;
-          bottom: 2vh;
-          transform: none;
-          max-height: 92vh;
-          overflow-y: auto;
-        }
-        .dp p {
-          display: none;
-        }
       }
     </style>
     <script>
@@ -2487,13 +1664,6 @@
     </script>
   </head>
   <body>
-    <div class="hero-word">
-      <span class="l1">Prime</span>
-      <span class="l2">Books</span>
-    </div>
-
-    <canvas id="gl"></canvas>
-
     <nav>
       <a class="brand" href="/" id="brandHome">
         <img src="/Logo-Prime-School-light.png" alt="Prime School" />
@@ -2507,38 +1677,6 @@
       </div>
     </nav>
 
-    <button id="openBtn">Open</button>
-    <button id="closeBtn" aria-label="Close detail view">&#10005;</button>
-
-    <div class="dp" id="dp" aria-live="polite">
-      <div class="eyebrow" id="dpStage"></div>
-      <h1 id="dpTitle"></h1>
-      <p id="dpDesc"></p>
-      <div class="meta">
-        <div class="chips" id="dpChips"></div>
-        <div class="year" id="dpYear"></div>
-      </div>
-      <div class="rule"></div>
-      <div class="actions">
-        <button class="pill preview" id="previewBtn">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.7"
-          >
-            <path d="M2 5.5C4 4 7 3.5 12 5c5-1.5 8-1 10 .5v13c-2-1.5-5-2-10-.5-5-1.5-8-1-10 .5z" />
-            <path d="M12 5v13" />
-          </svg>
-          <span>Preview</span>
-        </button>
-      </div>
-    </div>
-
-    <div class="foot">
-      <div><b>Prime Books</b> — where Prime School teachers create their books</div>
-      <div>Years 1–10 · Cambridge Pathway · primeschool.pt</div>
-    </div>
 
     <div class="cat" id="cat" aria-hidden="true">
       <div class="cat-head">
@@ -2640,46 +1778,21 @@
 
     <div class="toast" id="toast"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="/vendor/pdf.min.js"></script>
     <script src="/vendor/page-flip.browser.js"></script>
-    <script>
-      /* =========================================================================
-   0. Small utilities
-   ========================================================================= */
+    <script>      /* 0. Utilities (3D stage retired: only what the catalogue + flipbook need) */
       const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 
-      class Spring {
-        constructor(v, k, d) {
-          this.v = v;
-          this.t = v;
-          this.vel = 0;
-          this.k = k || 120;
-          this.d = d || 14;
-        }
-        set(v) {
-          this.v = v;
-          this.t = v;
-          this.vel = 0;
-          return this;
-        }
-        update(dt) {
-          const a = this.k * (this.t - this.v) - this.d * this.vel;
-          this.vel += a * dt;
-          this.v += this.vel * dt;
-          return this.v;
-        }
-      }
-
-      function mkCanvas(w, h) {
+function mkCanvas(w, h) {
         const c = document.createElement("canvas");
         c.width = w;
         c.height = h;
         return c;
       }
 
-      function drawSpaced(x, text, cx, y, ls) {
+
+function drawSpaced(x, text, cx, y, ls) {
         const prev = x.textAlign;
         x.textAlign = "left";
         const chars = [...text];
@@ -2698,7 +1811,8 @@
         x.textAlign = prev;
       }
 
-      function rr(x, px, py, w, h, r) {
+
+function rr(x, px, py, w, h, r) {
         x.beginPath();
         x.moveTo(px + r, py);
         x.arcTo(px + w, py, px + w, py + h, r);
@@ -2708,216 +1822,7 @@
         x.closePath();
       }
 
-      /* =========================================================================
-   1. Renderer, scene, camera, lights
-   ========================================================================= */
-      let renderer;
-      try {
-        renderer = new THREE.WebGLRenderer({
-          canvas: document.getElementById("gl"),
-          antialias: true,
-          alpha: true,
-        });
-      } catch (e) {
-        document.body.insertAdjacentHTML(
-          "beforeend",
-          '<div class="webgl-fail">This experience needs WebGL, which your browser blocked or does not support.</div>',
-        );
-        throw e;
-      }
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-      renderer.setSize(window.innerWidth, window.innerHeight);
-      renderer.outputEncoding = THREE.sRGBEncoding;
-      renderer.toneMapping = THREE.ACESFilmicToneMapping;
-      /* held just under 1 so cover art keeps its printed saturation instead of
-         being rolled off toward white by the filmic curve */
-      renderer.toneMappingExposure = 0.92;
-      renderer.shadowMap.enabled = true;
-      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-      const ANISO = renderer.capabilities.getMaxAnisotropy();
 
-      const scene = new THREE.Scene();
-      const camera = new THREE.PerspectiveCamera(
-        26,
-        window.innerWidth / window.innerHeight,
-        0.1,
-        100,
-      );
-      camera.position.set(0, 0.1, 9.6);
-
-      /* studio environment: painted equirect, prefiltered */
-      function envBlob(x, cx, cy, r, rgb, a) {
-        const g = x.createRadialGradient(cx, cy, 0, cx, cy, r);
-        g.addColorStop(0, "rgba(" + rgb + "," + a + ")");
-        g.addColorStop(1, "rgba(" + rgb + ",0)");
-        x.fillStyle = g;
-        x.beginPath();
-        x.arc(cx, cy, r, 0, 6.2832);
-        x.fill();
-      }
-      (function buildEnv() {
-        const c = mkCanvas(512, 256),
-          x = c.getContext("2d");
-        const g = x.createLinearGradient(0, 0, 0, 256);
-        g.addColorStop(0, "#5a6ba6");
-        g.addColorStop(0.55, "#262e52");
-        g.addColorStop(1, "#0a0d1d");
-        x.fillStyle = g;
-        x.fillRect(0, 0, 512, 256);
-        envBlob(x, 140, 66, 95, "255,255,255", 0.95); // key
-        envBlob(x, 405, 84, 55, "255,214,168", 0.55); // warm kicker
-        envBlob(x, 256, 150, 120, "255,155,185", 0.28); // pink wash
-        const tex = new THREE.CanvasTexture(c);
-        tex.mapping = THREE.EquirectangularReflectionMapping;
-        const pmrem = new THREE.PMREMGenerator(renderer);
-        scene.environment = pmrem.fromEquirectangular(tex).texture;
-        tex.dispose();
-        pmrem.dispose();
-      })();
-
-      const hemi = new THREE.HemisphereLight(0x8fa0d8, 0x0d1024, 0.32);
-      scene.add(hemi);
-      const key = new THREE.DirectionalLight(0xffffff, 0.82);
-      key.position.set(3.5, 5, 6);
-      key.castShadow = true;
-      key.shadow.mapSize.set(2048, 2048);
-      key.shadow.camera.left = -4;
-      key.shadow.camera.right = 4;
-      key.shadow.camera.top = 4;
-      key.shadow.camera.bottom = -4;
-      key.shadow.camera.near = 1;
-      key.shadow.camera.far = 20;
-      key.shadow.bias = -0.0004;
-      key.shadow.normalBias = 0.02;
-      scene.add(key);
-      const fill = new THREE.DirectionalLight(0xa9b6ff, 0.2);
-      fill.position.set(-4, 1, 4);
-      scene.add(fill);
-      const rim = new THREE.DirectionalLight(0xff9db8, 0.3);
-      rim.position.set(-2, 3, -5);
-      scene.add(rim);
-
-      /* everything book-related lives under one root so it can be fit-scaled */
-      const bookRoot = new THREE.Group();
-      scene.add(bookRoot);
-
-      /* =========================================================================
-   2. Shared procedural textures
-   ========================================================================= */
-      function tex(c) {
-        const t = new THREE.CanvasTexture(c);
-        t.encoding = THREE.sRGBEncoding;
-        t.anisotropy = ANISO;
-        return t;
-      }
-
-      function noiseTexture(base, amp, scratches) {
-        const s = 256,
-          c = mkCanvas(s, s),
-          x = c.getContext("2d");
-        const img = x.createImageData(s, s),
-          d = img.data;
-        for (let i = 0; i < d.length; i += 4) {
-          const v = base + (Math.random() - 0.5) * 2 * amp;
-          d[i] = d[i + 1] = d[i + 2] = v;
-          d[i + 3] = 255;
-        }
-        x.putImageData(img, 0, 0);
-        if (scratches) {
-          x.strokeStyle = "rgba(200,200,200,.25)";
-          x.lineWidth = 1;
-          for (let i = 0; i < 5; i++) {
-            x.beginPath();
-            const y = Math.random() * s;
-            x.moveTo(0, y);
-            x.lineTo(s, y + (Math.random() - 0.5) * 22);
-            x.stroke();
-          }
-        }
-        return new THREE.CanvasTexture(c);
-      }
-      const laminateBump = noiseTexture(128, 10, true);
-      const clothBump = (function () {
-        const s = 128,
-          c = mkCanvas(s, s),
-          x = c.getContext("2d");
-        x.fillStyle = "#808080";
-        x.fillRect(0, 0, s, s);
-        for (let i = 0; i < s; i += 2) {
-          x.fillStyle =
-            i % 4 === 0 ? "rgba(255,255,255,.22)" : "rgba(0,0,0,.22)";
-          x.fillRect(i, 0, 1, s);
-          x.fillRect(0, i, s, 1);
-        }
-        return new THREE.CanvasTexture(c);
-      })();
-
-      function striationTexture(vertical) {
-        const s = 512,
-          c = mkCanvas(s, s),
-          x = c.getContext("2d");
-        x.fillStyle = "#ece4d2";
-        x.fillRect(0, 0, s, s);
-        let p = 0;
-        while (p < s) {
-          const w = 1 + Math.random() * 2.4,
-            tone = Math.random();
-          x.fillStyle =
-            tone < 0.12
-              ? "rgba(140,125,95,.5)"
-              : tone < 0.5
-                ? "rgba(255,255,252,.55)"
-                : "rgba(190,178,150,.45)";
-          if (vertical) x.fillRect(p, 0, w, s);
-          else x.fillRect(0, p, s, w);
-          p += w + 0.6 + Math.random() * 1.6;
-        }
-        for (let i = 0; i < 2600; i++) {
-          x.fillStyle =
-            "rgba(120,108,84," + (Math.random() * 0.1).toFixed(3) + ")";
-          x.fillRect(Math.random() * s, Math.random() * s, 1.2, 1.2);
-        }
-        return tex(c);
-      }
-      const striV = striationTexture(true); // fore edge (±x faces)
-      const striH = striationTexture(false); // top and bottom (±y faces)
-
-      const endpaperTex = (function () {
-        const s = 512,
-          c = mkCanvas(s, s),
-          x = c.getContext("2d");
-        x.fillStyle = "#f3edde";
-        x.fillRect(0, 0, s, s);
-        for (let i = 0; i < 1400; i++) {
-          x.fillStyle =
-            "rgba(120,105,70," + (0.04 + Math.random() * 0.08).toFixed(3) + ")";
-          x.fillRect(Math.random() * s, Math.random() * s, 1.4, 1.4);
-        }
-        const g = x.createLinearGradient(0, 0, s, 0);
-        g.addColorStop(0, "rgba(0,0,0,.07)");
-        g.addColorStop(0.12, "rgba(0,0,0,0)");
-        g.addColorStop(0.88, "rgba(0,0,0,0)");
-        g.addColorStop(1, "rgba(0,0,0,.07)");
-        x.fillStyle = g;
-        x.fillRect(0, 0, s, s);
-        return tex(c);
-      })();
-
-      const blobTex = (function () {
-        const s = 256,
-          c = mkCanvas(s, s),
-          x = c.getContext("2d");
-        const g = x.createRadialGradient(s / 2, s / 2, 0, s / 2, s / 2, s / 2);
-        g.addColorStop(0, "rgba(0,0,0,.85)");
-        g.addColorStop(1, "rgba(0,0,0,0)");
-        x.fillStyle = g;
-        x.fillRect(0, 0, s, s);
-        return new THREE.CanvasTexture(c);
-      })();
-
-      /* =========================================================================
-   3. Cover painters + book data
-   ========================================================================= */
       /* ---- Prime brand helpers ------------------------------------------
          The five-point star + arc echo the Prime School logo; every cover
          carries the mark above the wordmark. */
@@ -5730,899 +4635,8 @@
         x.fillRect(margin, afterT + w * 0.105, w * 0.07, 3);
       }
 
-      function paintBack(x, w, h, cfg) {
-        /* back cover uses the year spine colour */
-        const yr = cfg.yearNum || 0;
-        const YEAR_SPINE = {
-          1: "#f2b300", 2: "#7fc4e8", 3: "#ee7623", 4: "#5fbb46",
-          5: "#c2247f", 6: "#825fc1", 7: "#c99a16", 8: "#5b2a86",
-          9: "#7a1f2b", 10: "#4a5d3a", 11: "#1f4fa8", 12: "#c8102e",
-          13: "#12a5c4",
-        };
-        x.fillStyle = YEAR_SPINE[yr] || cfg.backBg;
-        x.fillRect(0, 0, w, h);
-        const ink = cfg.backInk;
-        x.fillStyle = "rgba(" + ink + ",.5)";
-        rr(x, 150, 190, w - 460, 28, 14);
-        x.fill();
-        for (let i = 0; i < 9; i++) {
-          const lw = i === 8 ? w - 560 : w - 300 - Math.random() * 180;
-          x.fillStyle = "rgba(" + ink + ",.2)";
-          rr(x, 150, 300 + i * 56, lw, 15, 7);
-          x.fill();
-        }
-        /* Prime roundel: red disc with a cream star */
-        x.fillStyle = "#c8102e";
-        x.beginPath();
-        x.arc(178, h - 186, 32, 0, 6.2832);
-        x.fill();
-        x.fillStyle = "#f6f1e6";
-        starPath(x, 178, h - 186, 16, 7);
-        x.fill();
-        x.fillStyle = "#fff";
-        rr(x, w - 330, h - 262, 236, 152, 8);
-        x.fill();
-        x.fillStyle = "#111";
-        let bx = w - 310;
-        while (bx < w - 118) {
-          const bw = 2 + Math.random() * 6;
-          if (Math.random() > 0.42) x.fillRect(bx, h - 242, bw, 96);
-          bx += bw + 2 + Math.random() * 4;
-        }
-        x.fillStyle = "rgba(" + ink + ",.85)";
-        x.font = "700 22px Arial";
-        x.textAlign = "center";
-        drawSpaced(x, "PRIME BOOKS", w - 212, h - 290, 6);
-        x.fillStyle = "#111";
-        x.font = "500 21px Arial";
-        x.fillText("9 781234 567890", w - 212, h - 124);
-        x.textAlign = "left";
-      }
-
-      function paintSpine(x, w, h, cfg) {
-        x.fillStyle = cfg.spineBg;
-        x.fillRect(0, 0, w, h);
-        x.save();
-        x.translate(w / 2, h / 2);
-        x.rotate(Math.PI / 2);
-        x.fillStyle = cfg.spineInk;
-        const spineTitle = cfg.yearNum
-          ? cfg.title.toUpperCase() + " — YEAR " + cfg.yearNum
-          : cfg.title.toUpperCase();
-        /* adaptive font: longer titles get smaller size to avoid crowding */
-        const baseSize = spineTitle.length > 28 ? 26
-          : spineTitle.length > 20 ? 30
-          : 34;
-        x.font = "700 " + baseSize + "px Arial";
-        drawSpaced(x, spineTitle, -h * 0.1, 15, 6);
-        x.globalAlpha = 0.85;
-        x.font = "600 20px Arial";
-        drawSpaced(x, cfg.author.toUpperCase(), h * 0.325, 9, 4);
-        x.globalAlpha = 1;
-        x.restore();
-        x.fillStyle = cfg.spineInk;
-        x.globalAlpha = 0.6;
-        x.fillRect(w / 2 - 26, 92, 52, 3);
-        x.fillRect(w / 2 - 26, h - 95, 52, 3);
-        x.globalAlpha = 1;
-      }
-
-      const BOOKS = [
-        {
-          id: "maths-y3",
-          title: "Mathematics",
-          tag: "Mathematics · Year 3",
-          author: "Prime Books",
-          year: "Year 3 · 2025/26",
-          yearNum: 3,
-          artSubj: "Mathematics",
-          stage: "Cambridge Primary · Year 3",
-          stageLabel: "Cambridge Primary",
-          titleLines: ["Mathematics"],
-          band: "Year 3",
-          lang: "English",
-          price: "€24,90",
-          priceCents: 2490,
-          audio: null,
-          audioCents: 0,
-          editions: [
-            ["Student Manual", true],
-            ["Teacher's Guide", true],
-            ["Workbook", true],
-          ],
-          desc: "Prime Books Mathematics turns the Cambridge Primary framework into a year of confident problem-solving. Number, measure and geometry grow in small, carefully sequenced steps — worked examples, talk prompts and colourful investigations in every unit, all written by our own teachers here at Prime School.",
-          motif: motifMaths,
-          accent: "#7fb3e8",
-          front(x, w, h) {
-            paintPrime(x, w, h, this);
-          },
-          edge: "#dfe4ef",
-          backBg: "#ee7623",
-          backInk: "18,32,58",
-          spineBg: "#ee7623",
-          spineInk: "#12203a",
-          spineFont: "700 44px Arial",
-          coverURL: "/collection-covers/Y03-Mathematics.webp",
-        },
-        {
-          id: "humanities-y7",
-          title: "Humanities",
-          tag: "Humanities · Year 7",
-          author: "Prime Books",
-          year: "Year 7 · 2025/26",
-          yearNum: 7,
-          artSubj: "Humanities (History & Geography)",
-          stage: "Cambridge Lower Secondary · Year 7",
-          stageLabel: "Cambridge Lower Secondary",
-          titleLines: ["Humanities"],
-          subtitle: "History & Geography",
-          band: "Year 7",
-          lang: "English",
-          price: "€26,90",
-          priceCents: 2690,
-          audio: "€9,90",
-          audioCents: 990,
-          editions: [
-            ["Student Manual", true],
-            ["Teacher's Guide", true],
-            ["Workbook", true],
-          ],
-          desc: "From the first farmers to the fall of Rome, and from rivers and volcanoes to the rise of megacities — Humanities weaves History and Geography into one grand enquiry into how people and places shape each other. Written for Year 7 and packed with maps, sources and enquiry questions, this is the book our pupils open first.",
-          motif: motifGlobe,
-          accent: "#c9a35c",
-          front(x, w, h) {
-            paintPrime(x, w, h, this);
-          },
-          edge: "#e8e2d2",
-          backBg: "#c99a16",
-          backInk: "18,32,58",
-          spineBg: "#c99a16",
-          spineInk: "#12203a",
-          spineFont: "700 44px Arial",
-          coverURL: "/collection-covers/Y07-HumanitiesHistoryGeography.webp",
-        },
-        {
-          id: "portugues-y9",
-          title: "Portuguese 1st",
-          tag: "Portuguese 1st · Year 9",
-          author: "Prime Books",
-          year: "Year 9 · IGCSE",
-          yearNum: 9,
-          artSubj: "Portuguese 1st (IGCSE)",
-          stage: "Cambridge Upper Secondary · IGCSE",
-          stageLabel: "Cambridge Upper Secondary",
-          titleLines: ["Portuguese 1st"],
-          titleSize: 88,
-          band: "Year 9 · IGCSE",
-          lang: "Portuguese",
-          price: "€26,90",
-          priceCents: 2690,
-          audio: null,
-          audioCents: 0,
-          editions: [
-            ["Student Manual", true],
-            ["Teacher's Guide", true],
-            ["Workbook", true],
-          ],
-          desc: "Our IGCSE Portuguese First Language manual builds fluent, confident reading, writing and speaking across fifteen themed units — from crónicas and poetry to formal correspondence — with exam-style practice woven through every chapter. Published in Portuguese, taught the Prime way.",
-          motif: motifAzulejo,
-          accent: "#e9e2d0",
-          front(x, w, h) {
-            paintPrime(x, w, h, this);
-          },
-          edge: "#e8e2d2",
-          backBg: "#7a1f2b",
-          backInk: "246,241,230",
-          spineBg: "#7a1f2b",
-          spineInk: "#ffffff",
-          spineFont: "700 38px Arial",
-          coverURL: "/collection-covers/Y09-Portuguese1stIGCSE.webp",
-        },
-      ];
-
       /* =========================================================================
-   4. Book construction
-   ========================================================================= */
-      const W = 1.42,
-        H = 2.14,
-        T = 0.34,
-        CT = 0.032,
-        OV = 0.05;
-      const PAGE_N = 12,
-        PW = W - 0.02,
-        PH = H - 0.02;
-      const BLOCK_D = 0.245,
-        BLOCK_Z = -0.0205,
-        PIVOT_Z = T / 2 + CT / 2,
-        BPIVOT_Z = -(T / 2 + CT / 2);
-
-      const coverGeo = new THREE.BoxGeometry(W + OV, H + OV * 2, CT);
-      const blockGeo = new THREE.BoxGeometry(W - 0.015, H, BLOCK_D);
-      const pageGeo = new THREE.PlaneGeometry(PW, PH);
-      const spineGeo = new THREE.BoxGeometry(
-        0.028,
-        H + OV * 2,
-        T + CT * 2 + 0.006,
-      );
-      const hitGeo = new THREE.BoxGeometry(1.8, 2.5, 1.15);
-      const blobGeo = new THREE.PlaneGeometry(1, 1);
-      const hitMat = new THREE.MeshBasicMaterial({ visible: false });
-
-      function std(o) {
-        return new THREE.MeshStandardMaterial(
-          Object.assign({ metalness: 0.02 }, o),
-        );
-      }
-
-      const paperFlat = std({
-        color: 0xf2ecdd,
-        roughness: 0.95,
-        envMapIntensity: 0.2,
-      });
-      const striMatV = std({
-        map: striV,
-        bumpMap: striV,
-        bumpScale: 0.0025,
-        roughness: 0.95,
-        envMapIntensity: 0.2,
-      });
-      const striMatH = std({
-        map: striH,
-        bumpMap: striH,
-        bumpScale: 0.0025,
-        roughness: 0.95,
-        envMapIntensity: 0.2,
-      });
-      const endpaperMat = std({
-        map: endpaperTex,
-        roughness: 0.9,
-        envMapIntensity: 0.25,
-      });
-      const pageMats = [0xf4eee0, 0xf1ebdb, 0xf6f0e3].map((c) =>
-        std({
-          color: c,
-          roughness: 0.92,
-          envMapIntensity: 0.22,
-          side: THREE.DoubleSide,
-        }),
-      );
-
-      const books = [];
-      const hitMeshes = [];
-
-      function buildBook(cfg, index) {
-        const root = new THREE.Group();
-        const float = new THREE.Group();
-        root.add(float);
-        bookRoot.add(root);
-
-        /* painted textures */
-        const fc = mkCanvas(1024, 1536);
-        cfg.front(fc.getContext("2d"), 1024, 1536);
-        const bc = mkCanvas(1024, 1536);
-        paintBack(bc.getContext("2d"), 1024, 1536, cfg);
-        const sc = mkCanvas(220, 1536);
-        paintSpine(sc.getContext("2d"), 220, 1536, cfg);
-        const frontTex = tex(fc),
-          backTex = tex(bc),
-          spineTex = tex(sc);
-
-        /* printed boards: matte enough that the environment reads as a soft sheen
-           rather than a wash over the artwork */
-        const mEdge = std({
-          color: cfg.edge,
-          bumpMap: laminateBump,
-          bumpScale: 0.0035,
-          roughness: 0.68,
-          envMapIntensity: 0.3,
-        });
-        const mFront = std({
-          map: frontTex,
-          bumpMap: laminateBump,
-          bumpScale: 0.0035,
-          roughness: 0.54,
-          envMapIntensity: 0.28,
-        });
-        const mBack = std({
-          map: backTex,
-          bumpMap: laminateBump,
-          bumpScale: 0.0035,
-          roughness: 0.58,
-          envMapIntensity: 0.26,
-        });
-        const mSpine = std({
-          map: spineTex,
-          bumpMap: clothBump,
-          bumpScale: 0.006,
-          roughness: 0.78,
-          envMapIntensity: 0.22,
-        });
-
-        /* optional real cover art, CORS permitting */
-        if (cfg.coverURL) {
-          new THREE.TextureLoader().setCrossOrigin("anonymous").load(
-            cfg.coverURL,
-            (t) => {
-              t.encoding = THREE.sRGBEncoding;
-              t.anisotropy = ANISO;
-              mFront.map = t;
-              mFront.needsUpdate = true;
-            },
-            undefined,
-            () =>
-              console.warn(
-                "Cover blocked by CORS, procedural kept:",
-                cfg.title,
-              ),
-          );
-        }
-
-        /* back cover, hinged at the spine, opens away from the block */
-        const backPivot = new THREE.Group();
-        backPivot.position.set(-W / 2, 0, BPIVOT_Z);
-        const backMesh = new THREE.Mesh(coverGeo, [
-          mEdge,
-          mEdge,
-          mEdge,
-          mEdge,
-          endpaperMat,
-          mBack,
-        ]);
-        backMesh.position.x = (W + OV) / 2;
-        backMesh.castShadow = backMesh.receiveShadow = true;
-        backPivot.add(backMesh);
-        float.add(backPivot);
-
-        /* front cover, hinged at the spine */
-        const pivot = new THREE.Group();
-        pivot.position.set(-W / 2, 0, PIVOT_Z);
-        const frontMesh = new THREE.Mesh(coverGeo, [
-          mEdge,
-          mEdge,
-          mEdge,
-          mEdge,
-          mFront,
-          endpaperMat,
-        ]);
-        frontMesh.position.x = (W + OV) / 2;
-        frontMesh.castShadow = frontMesh.receiveShadow = true;
-        pivot.add(frontMesh);
-        float.add(pivot);
-
-        /* cloth spine */
-        const spine = new THREE.Mesh(spineGeo, mSpine);
-        spine.position.set(-W / 2 - 0.013, 0, 0);
-        spine.castShadow = true;
-        float.add(spine);
-
-        /* page block with striated edges */
-        const block = new THREE.Mesh(blockGeo, [
-          striMatV,
-          paperFlat,
-          striMatH,
-          striMatH,
-          paperFlat,
-          paperFlat,
-        ]);
-        block.position.set(-0.0075, 0, BLOCK_Z);
-        block.castShadow = block.receiveShadow = true;
-        float.add(block);
-
-        /* individually hinged top sheets */
-        const pages = [],
-          pageF = [];
-        for (let i = 0; i < PAGE_N; i++) {
-          const pp = new THREE.Group();
-          pp.position.set(
-            -W / 2 + 0.01,
-            (Math.random() - 0.5) * 0.006,
-            0.166 - i * 0.0042,
-          );
-          const pm = new THREE.Mesh(pageGeo, pageMats[i % 3]);
-          pm.position.x = PW / 2;
-          pm.rotation.z = (Math.random() - 0.5) * 0.006;
-          pp.add(pm);
-          float.add(pp);
-          pages.push(pp);
-          pageF.push(0.3 * Math.pow(1 - i / PAGE_N, 2.6));
-        }
-
-        /* hinged rear sheets, revealed when the back cover fans */
-        const pagesB = [],
-          pageFB = [];
-        for (let i = 0; i < 6; i++) {
-          const pp = new THREE.Group();
-          pp.position.set(
-            -W / 2 + 0.01,
-            (Math.random() - 0.5) * 0.006,
-            -0.166 + i * 0.0042,
-          );
-          const pm = new THREE.Mesh(pageGeo, pageMats[i % 3]);
-          pm.position.x = PW / 2;
-          pm.rotation.z = (Math.random() - 0.5) * 0.006;
-          pp.add(pm);
-          float.add(pp);
-          pagesB.push(pp);
-          pageFB.push(0.3 * Math.pow(1 - i / 6, 2.6));
-        }
-
-        /* soft blob shadow against the background */
-        const blob = new THREE.Mesh(
-          blobGeo,
-          new THREE.MeshBasicMaterial({
-            map: blobTex,
-            transparent: true,
-            opacity: 0.45,
-            depthWrite: false,
-          }),
-        );
-        blob.scale.set(3.1, 3.9, 1);
-        blob.position.set(0.1, -0.3, -0.85);
-        blob.renderOrder = -5;
-        root.add(blob);
-
-        /* invisible raycast target */
-        const hit = new THREE.Mesh(hitGeo, hitMat);
-        float.add(hit);
-        hitMeshes.push(hit);
-
-        const springs = {
-          px: new Spring(0, 17, 6.8),
-          py: new Spring(0, 17, 6.8),
-          pz: new Spring(0, 17, 6.8),
-          rx: new Spring(0, 17, 6.8),
-          ry: new Spring(0, 17, 6.8),
-          rz: new Spring(0, 17, 6.8),
-          sc: new Spring(1, 17, 6.8),
-          tiltX: new Spring(0, 120, 13),
-          tiltY: new Spring(0, 120, 13),
-          lift: new Spring(0, 120, 13),
-          cover: new Spring(0, 90, 12),
-          coverB: new Spring(0, 90, 12),
-          drag: new Spring(0, 160, 16),
-        };
-
-        const b = {
-          cfg,
-          texs: { fc, bc, sc, frontTex, backTex, spineTex, mFront },
-          index,
-          root,
-          float,
-          pivot,
-          backPivot,
-          frontMesh,
-          spine,
-          block,
-          pages,
-          pageF,
-          pagesB,
-          pageFB,
-          hit,
-          springs,
-          phase: Math.random() * 6.28,
-          slotScale: 1,
-          hitEdge: null,
-          scr: { x: 0, y: 0 },
-          orbY: 0,
-          orbYv: 0,
-          orbPhase: "idle",
-          orbTarget: 0,
-          orbXs: new Spring(0, 60, 12),
-          exit: null,
-        };
-        books.push(b);
-        return b;
-      }
-      BOOKS.forEach(buildBook);
-      const bookByHit = (m) => books.find((b) => b.hit === m);
-
-      /* =========================================================================
-   5. Floating leaves (detail view)
-   ========================================================================= */
-      const leaves = { items: [], anchor: null };
-      (function buildLeaves() {
-        const shape = new THREE.Shape();
-        shape.moveTo(0, -0.5);
-        shape.bezierCurveTo(0.3, -0.28, 0.3, 0.22, 0, 0.55);
-        shape.bezierCurveTo(-0.3, 0.22, -0.3, -0.28, 0, -0.5);
-        const geo = new THREE.ShapeGeometry(shape, 10);
-        const cols = [0xc9a35c, 0xd61f2c, 0xe8dfc8, 0x8a6d3b];
-        for (let i = 0; i < 16; i++) {
-          const mat = std({
-            color: cols[i % 4],
-            roughness: 0.55,
-            envMapIntensity: 0.3,
-            side: THREE.DoubleSide,
-          });
-          const mesh = new THREE.Mesh(geo, mat);
-          mesh.visible = false;
-          bookRoot.add(mesh);
-          let hx = (Math.random() - 0.5) * 4.6;
-          if (i % 5 === 0) hx += 2.8 * Math.sign(hx || 1);
-          leaves.items.push({
-            mesh,
-            hx,
-            hy: (Math.random() - 0.5) * 3.2,
-            hz: -0.5 + Math.random() * 1.5,
-            sp: 0.25 + Math.random() * 0.5,
-            ph: Math.random() * 6.28,
-            rv: new THREE.Vector3(
-              (Math.random() - 0.5) * 0.8,
-              (Math.random() - 0.5) * 0.8,
-              (Math.random() - 0.5) * 0.8,
-            ),
-            kick: new THREE.Vector3(),
-            size: 0.14 + Math.random() * 0.16,
-            s: new Spring(0, 60, 10),
-          });
-        }
-      })();
-      leaves.activate = function (book) {
-        this.anchor = book;
-        this.items.forEach((l) => {
-          l.kick.set(
-            -l.hx + (Math.random() - 0.5) * 0.6,
-            -l.hy + (Math.random() - 0.5) * 0.6,
-            (Math.random() - 0.5) * 0.5,
-          );
-          l.s.t = l.size;
-          l.mesh.visible = true;
-        });
-      };
-      leaves.deactivate = function () {
-        this.items.forEach((l) => {
-          l.s.t = 0;
-        });
-      };
-      leaves.push = function (dx, dy) {
-        if (!this.anchor) return;
-        this.items.forEach((l) => {
-          l.kick.x += dx * 2.4 * Math.random();
-          l.kick.y += -dy * 2.4 * Math.random();
-        });
-      };
-      leaves.update = function (dt, t) {
-        if (!this.anchor) return;
-        const ap = this.anchor.root.position;
-        const w = RM ? 0.15 : 1;
-        this.items.forEach((l) => {
-          l.kick.multiplyScalar(Math.exp(-1.15 * dt));
-          l.mesh.position.set(
-            ap.x + l.hx + Math.sin(t * l.sp + l.ph) * 0.4 * w + l.kick.x,
-            ap.y +
-              l.hy +
-              Math.cos(t * l.sp * 0.83 + l.ph * 1.3) * 0.3 * w +
-              l.kick.y,
-            ap.z * 0.4 + l.hz + l.kick.z,
-          );
-          l.mesh.rotation.x += l.rv.x * dt * (0.3 + w);
-          l.mesh.rotation.y += l.rv.y * dt * (0.3 + w);
-          l.mesh.rotation.z += l.rv.z * dt * (0.3 + w);
-          const s = l.s.update(dt);
-          l.mesh.scale.setScalar(Math.max(s, 0.0001));
-          if (l.s.t === 0 && s < 0.01) l.mesh.visible = false;
-        });
-      };
-
-      /* =========================================================================
-   6. Layout slots + state machine
-   ========================================================================= */
-      const state = {
-        mode: "hero",
-        selected: null,
-        hovered: null,
-        pillLock: null,
-        kbIndex: -1,
-      };
-      const SLOTS = { hero: [], detail: null, portrait: false };
-
-      function computeSlots() {
-        const a = window.innerWidth / Math.max(1, window.innerHeight);
-        const fit = clamp(a / 1.75, 0.56, 1);
-        bookRoot.scale.setScalar(fit);
-        bookRoot.position.y = -(1 - fit) * 0.55;
-        SLOTS.portrait = a < 0.85;
-
-        /* hero: tight fan, center book dominant, tops at ~30vh / ~53vh like the reference */
-        SLOTS.hero = SLOTS.portrait
-          ? [
-              { p: [-1.36, -1.0, -0.12], r: [-0.045, 0.4, 0.185], s: 1.39 },
-              { p: [0.2, -0.45, 0.6], r: [-0.05, -0.1, -0.035], s: 1.52 },
-              { p: [1.62, -1.1, -0.34], r: [-0.045, -0.42, -0.17], s: 1.39 },
-              { p: [0, -8, -2], r: [0, 0, 0], s: 0.001 },
-            ]
-          : [
-              { p: [-2.06, -1.23, -0.12], r: [-0.045, 0.4, 0.185], s: 1.39 },
-              { p: [0.3, -1.08, 0.6], r: [-0.05, -0.1, -0.035], s: 1.52 },
-              { p: [2.45, -1.41, -0.34], r: [-0.045, -0.42, -0.17], s: 1.39 },
-              { p: [0, -8, -2], r: [0, 0, 0], s: 0.001 },
-            ];
-
-        if (SLOTS.portrait) {
-          /* center the book in the region between the nav and the info sheet */
-          const el = document.getElementById("dp");
-          const panelH =
-            el && el.offsetHeight > 40 ? el.offsetHeight : innerHeight * 0.44;
-          const gap = innerHeight * 0.035,
-            navB = innerHeight * 0.1;
-          const freeTop = navB;
-          const freeBot = Math.max(innerHeight - panelH - gap, freeTop + 140);
-          const midPx = (freeTop + freeBot) / 2;
-          const T13 = 0.23087,
-            camZp = 9.9,
-            zw = 0.8 * fit,
-            rootY = -(1 - fit) * 0.55;
-          const yw = 0.1 + (1 - (2 * midPx) / innerHeight) * T13 * (camZp - zw);
-          const availW =
-            (((freeBot - freeTop) * 0.92) / innerHeight) *
-            2 *
-            T13 *
-            (camZp - zw);
-          const s = clamp(availW / fit / 2.3, 0.5, 1.15);
-          SLOTS.detail = {
-            p: [0, (yw - rootY) / fit, 0.8],
-            r: [-0.02, -0.4, 0.06],
-            s: s,
-          };
-        } else {
-          SLOTS.detail = {
-            p: [-1.95, 0.0, 1.1],
-            r: [0.02, -0.52, 0.1],
-            s: 1.26,
-          };
-        }
-      }
-
-      function setTargets(b, slot) {
-        const s = b.springs;
-        s.px.t = slot.p[0];
-        s.py.t = slot.p[1];
-        s.pz.t = slot.p[2];
-        s.rx.t = slot.r[0];
-        s.ry.t = slot.r[1];
-        s.rz.t = slot.r[2];
-        b.slotScale = slot.s;
-      }
-
-      /* ---------------------------------------------------------------------
-         Exit / return motion.
-
-         A spring aimed far below the frame accelerates the whole way, which
-         reads as a fast drop. Instead the vertical axis is handed to a small
-         keyframed tween for the duration of the move, so the curve is designed:
-         a soft decelerating lift, a beat of hang time, then a long glide down
-         that eases in and out. Closing plays the same idea in reverse.
-         --------------------------------------------------------------------- */
-      const EASE = {
-        hold: () => 1,
-        /* short tail: reaches the apex without loitering there */
-        outQuad: (t) => 1 - (1 - t) * (1 - t),
-        outQuint: (t) => 1 - Math.pow(1 - t, 5),
-        /* leaves rest promptly, still zero velocity at both ends */
-        inOutSine: (t) => -(Math.cos(Math.PI * t) - 1) / 2,
-      };
-
-      const LIFT = 0.38, /* how far the book floats up before letting go */
-        CLEAR = 4.2; /* far enough below its slot to be out of frame */
-
-      function playY(b, segs) {
-        b.exit = { segs, i: 0, t: 0 };
-      }
-
-      /* advances the tween and writes straight into the y spring, keeping the
-         spring inert so it neither fights the curve nor snaps at handover */
-      function stepY(b, dt) {
-        const ex = b.exit,
-          s = b.springs;
-        ex.t += dt;
-        let seg = ex.segs[ex.i];
-        while (seg && ex.t >= seg.d) {
-          ex.t -= seg.d;
-          s.py.v = seg.to;
-          if (seg.end) seg.end();
-          seg = ex.segs[++ex.i];
-        }
-        if (seg) s.py.v = seg.from + (seg.to - seg.from) * seg.ease(ex.t / seg.d);
-        else b.exit = null;
-        s.py.t = s.py.v;
-        s.py.vel = 0;
-      }
-
-      /* x, z and rotation are pinned to wherever the book already stands, so the
-         whole move happens on the y axis and nothing slides sideways */
-      function pinInPlace(b) {
-        const s = b.springs;
-        s.px.t = s.px.v;
-        s.pz.t = s.pz.v;
-        s.rx.t = s.rx.v;
-        s.ry.t = s.ry.v;
-        s.rz.t = s.rz.v;
-      }
-
-      function sendOut(b, i, delay) {
-        const y0 = SLOTS.hero[i].p[1],
-          here = b.springs.py.v,
-          apex = y0 + LIFT;
-        b.root.visible = true;
-        pinInPlace(b);
-        playY(b, [
-          { d: delay, from: here, to: here, ease: EASE.hold },
-          { d: 0.28, from: here, to: apex, ease: EASE.outQuad },
-          {
-            d: 0.9,
-            from: apex,
-            to: y0 - CLEAR,
-            ease: EASE.inOutSine,
-            end: () => {
-              b.root.visible = false;
-            },
-          },
-        ]);
-      }
-
-      function bringBack(b, i, delay) {
-        const here = b.springs.py.v;
-        b.root.visible = true;
-        pinInPlace(b);
-        playY(b, [
-          { d: delay, from: here, to: here, ease: EASE.hold },
-          { d: 1.0, from: here, to: SLOTS.hero[i].p[1], ease: EASE.outQuint },
-        ]);
-      }
-
-      function applyMode() {
-        if (state.mode === "hero" || state.mode === "closing") {
-          books.forEach((b, i) => setTargets(b, SLOTS.hero[i]));
-        } else if (state.selected) {
-          /* only the open book is retargeted; the other two keep the x, z and
-             rotation they stood at while their y is tween-driven */
-          setTargets(state.selected, SLOTS.detail);
-        }
-      }
-
-      /* camera springs */
-      const camX = new Spring(0, 13, 6.5),
-        camY = new Spring(0.1, 13, 6.5),
-        camZ = new Spring(9.6, 13, 6.5);
-      const lookX = new Spring(0, 13, 6.5),
-        lookY = new Spring(0, 13, 6.5);
-      const parX = new Spring(0, 60, 10),
-        parY = new Spring(0, 60, 10);
-
-      function camTo(mode) {
-        if (mode === "detail") {
-          camX.t = SLOTS.portrait ? 0 : -0.4;
-          camZ.t = SLOTS.portrait ? 9.9 : 8.9;
-          lookX.t = SLOTS.portrait ? 0 : -0.5;
-          lookY.t = SLOTS.portrait ? 0 : 0.15;
-        } else {
-          camX.t = 0;
-          camZ.t = 9.6;
-          lookX.t = 0;
-          lookY.t = 0;
-        }
-      }
-
-      /* detail panel */
-      const dpStage = document.getElementById("dpStage");
-      const dpTitle = document.getElementById("dpTitle");
-      const dpDesc = document.getElementById("dpDesc");
-      const dpChips = document.getElementById("dpChips");
-      const dpYear = document.getElementById("dpYear");
-      const previewBtn = document.getElementById("previewBtn");
-      function populatePanel(cfg) {
-        dpStage.innerHTML = '<span class="dash"></span>' + cfg.stage;
-        dpTitle.textContent = cfg.title;
-        dpDesc.textContent = cfg.desc;
-        dpYear.textContent = cfg.year;
-        dpChips.innerHTML = cfg.editions
-          .map(
-            ([n, ok]) =>
-              '<span class="chip' +
-              (ok ? "" : " off") +
-              '">' +
-              n +
-              (ok ? "" : " · soon") +
-              "</span>",
-          )
-          .join("");
-        const fb = flipbookFor(cfg);
-        /* NEVER disable: a book without a PDF opens the workshop shell
-           (blank flipbook + live assistant) so teachers can create it. */
-        previewBtn.disabled = false;
-        previewBtn.setAttribute("aria-disabled", "false");
-        previewBtn.title = fb
-          ? "Read this book in the flipbook"
-          : "Open the workshop and create this book with the assistant";
-        const lbl = previewBtn.querySelector("span");
-        if (lbl) lbl.textContent = fb ? "Preview" : "Create";
-      }
-
-      const pill = document.getElementById("openBtn");
-      /* the slip trails the cursor with a touch of lag */
-      const pillX = new Spring(0, 190, 23),
-        pillY = new Spring(0, 190, 23);
-      let pillOn = false;
-      function hidePill() {
-        pill.classList.remove("on");
-        pillOn = false;
-      }
-
-      /* Avoid the browser-global name `open`: a top-level `function open()`
-         replaces window.open in a classic script, which prevented external
-         Preview links from opening. */
-      function openBookDetail(book) {
-        if (state.mode !== "hero" || !book) return;
-        state.mode = "opening";
-        state.selected = book;
-        state.pillLock = null;
-        state.kbIndex = -1;
-        hidePill();
-        book.exit = null; /* hand y back to the spring if it was still tweening */
-        book.orbY = RM ? 0 : -6.2832;
-        book.orbYv = RM ? 0 : 3;
-        book.orbPhase = "return";
-        book.orbTarget = 0;
-        book.orbXs.set(0);
-        document.body.classList.add("transit");
-        populatePanel(book.cfg);
-        computeSlots();
-        applyMode();
-        let out = 0;
-        books.forEach((b, i) => {
-          if (b !== book) sendOut(b, i, out++ * 0.08); /* slight stagger */
-        });
-        /* the frame stays put until the pair has dropped clear, otherwise the
-           pan would carry them sideways instead of straight down */
-        setTimeout(() => {
-          if (state.mode === "opening" || state.mode === "detail")
-            camTo("detail");
-        }, 700);
-        setTimeout(() => leaves.activate(book), 900);
-        setTimeout(() => {
-          if (state.mode === "opening") {
-            document.body.classList.add("detail-open");
-            state.mode = "detail";
-          }
-        }, 1250);
-      }
-
-      function close() {
-        if (state.mode !== "detail") return;
-        state.mode = "closing";
-        document.body.classList.remove("detail-open");
-        leaves.deactivate();
-        orbit.drag = false;
-        const b = state.selected;
-        if (b) {
-          /* one clean turn on the way home, landing front-on */
-          b.orbTarget = Math.round(b.orbY / 6.2832) * 6.2832 + 6.2832;
-          b.orbYv = Math.max(b.orbYv, 3);
-          b.orbPhase = "return";
-          b.orbXs.t = 0;
-        }
-        setTimeout(() => {
-          document.body.classList.remove("transit");
-          applyMode();
-          camTo("hero");
-          /* and they only climb back once the frame has finished returning */
-          let back = 0;
-          books.forEach((bk, i) => {
-            if (bk !== b) bringBack(bk, i, 0.85 + back++ * 0.1);
-          });
-        }, 250);
-        setTimeout(() => {
-          if (state.mode === "closing") {
-            state.mode = "hero";
-            state.selected = null;
-          }
-        }, 1600);
-      }
-
-      document.getElementById("closeBtn").addEventListener("click", close);
-
-      /* =========================================================================
-   10. Shop UI: toast, basket, catalogue overlay, PDF flipbook
+   7. Shop UI: toast, catalogue overlay, PDF flipbook
    ========================================================================= */
       const toastEl = document.getElementById("toast");
       let toastT = null;
@@ -6874,16 +4888,7 @@
             );
           if (row) {
             closeCatalogue();
-            /* same mid-flight guard as the catalogue cards: wait for the 3D
-               state machine to be home before opening the requested book */
-            (function tryOpen(n) {
-              if (state.mode === "hero") {
-                openFlex(row.year, row.subj, "manual");
-                return;
-              }
-              if (state.mode === "detail") close();
-              if (n < 45) setTimeout(() => tryOpen(n + 1), 100);
-            })(0);
+            openFlex(row.year, row.subj);
           } else {
             catFilter = cover.dataset.year;
             edFilter = "manual";
@@ -6921,7 +4926,6 @@
       document.getElementById("brandHome").addEventListener("click", (e) => {
         e.preventDefault();
         closeFlipbook();
-        if (state.mode === "detail") close();
         requestAnimationFrame(openCatalogue);
       });
       /* The catalogue IS the homepage now: the in-catalogue brand scrolls back
@@ -7157,23 +5161,6 @@
         { root: catEl, rootMargin: "500px" },
       );
 
-      /* ---- flex book: any catalogue title can take the 3D stage ---- */
-      /* ---- Per-subject Prime Books PDFs -------------------------------
-         Populated at runtime from /library.json, which tools/sync_library.py
-         writes when it syncs the real Student Books out of
-         MEGA/Projects/Prime Books/BOOKS/<level>/Year NN/<Subject>/PDF/Output
-         into public/library/<slug>/.
-
-         Key: "<year>|<subject>" exactly as the subject appears in the
-         catalogue ("Year 7", not "Year 07" - the zero-padded form is only
-         used in the on-disk folder path).
-
-         Serving paths use "and" instead of "&": Vite's dev server
-         SPA-falls-back on public paths containing "&" and pdf.js then
-         chokes on the returned HTML with InvalidPDFException.
-
-         A match here makes the Preview button open that book's own real
-         flipbook.                                                      */
       const SUBJECT_PDFS = {};
       const SUBJECT_PDF_PAGES = {};
       /* Cover art per book, filled from /library.json by loadBooksManifest().
@@ -7327,139 +5314,28 @@
         return SUBJECT_COVERS[year + "|" + normSubject(subj)] || null;
       }
 
-      function cfgForCard(row, edKey) {
-        const st = SUBJECT_STYLE[row.subj] || {};
-        const t = st.title
-          ? { lines: st.title, size: st.size }
-          : coverTitle(row.subj);
-        const ed = EDITIONS.find((e) => e.key === edKey) || EDITIONS[0];
-        const stage = stageFor(row.year);
-        return {
-          id: "flex-" + row.year + "-" + row.subj + "-" + ed.key,
-          title: row.subj,
-          tag: row.subj + " \u00b7 " + row.year,
-          author: "Prime Books",
-          year: row.year + " \u00b7 2025/26",
-          yearNum: parseInt(row.year.slice(5), 10),
-          artSubj: row.subj,
-          stage: stage + " \u00b7 " + row.year,
-          stageLabel: stage,
-          titleLines: t.lines,
-          titleSize: t.size,
-          subtitle: st.subtitle || null,
-          band: row.year + (row.subj.indexOf("IGCSE") >= 0 ? " \u00b7 IGCSE" : ""),
-          lang:
-            row.subj.indexOf("Portuguese") === 0
-              ? "Portuguese"
-              : row.subj === "Spanish"
-                ? "Spanish"
-                : "English",
-          price: ed.price,
-          priceCents: ed.cents,
-          audio: null,
-          audioCents: 0,
-          /* The synced flipbook is the preview; there is no Drive fallback. */
-          flipbook: pdfForSubject(row.year, row.subj),
-          editions: [
-            ["Student Manual", !!row.s],
-            ["Teacher's Guide", !!row.t],
-            ["Workbook", !!row.w],
-          ],
-          desc:
-            row.subj +
-            " for " +
-            row.year +
-            " \u2014 the " +
-            ed.label.toLowerCase() +
-            " in the Prime Books series, written by our own teachers for the Cambridge Pathway: carefully sequenced units, worked examples and end-of-unit assessment throughout.",
-          motif: MOTIFS[st.motif] || motifBook,
-          accent: st.accent || "#aeb8dd",
-          front(x, cw, ch) {
-            paintPrime(x, cw, ch, this);
-          },
-          edge: "#e8e2d2",
-          backBg: "#101a3f",
-          backInk: "246,241,230",
-          spineBg: YEAR_COLOURS[parseInt(row.year.slice(5), 10)] || "#101a3f",
-          spineInk: YEAR_SPINE_INK[parseInt(row.year.slice(5), 10)] || "#f6f1e6",
-          spineFont: "700 44px Arial",
-          coverURL: row.cover || coverImgFor(row.year, row.subj),
-        };
-      }
 
-      /* Real cover art on the 3D front face, one cached texture per URL.
-         Needed for the flex book: buildBook's own coverURL branch only runs
-         once at build time, but repaintBook swaps titles afterwards - without
-         this the front would stay stuck on whichever cover loaded first.
-         Falls back to the procedural canvas texture when no cover exists. */
-      const coverTexCache = new Map();
-      function applyCoverTex(b, url) {
-        const m = b.texs.mFront;
-        if (!url) {
-          if (m.map !== b.texs.frontTex) {
-            m.map = b.texs.frontTex;
-            m.needsUpdate = true;
-          }
+      /* Open any catalogue book straight in its flipbook - the same path a
+         deep link (/book/<slug>) takes. The 3D stage is retired; there is no
+         state machine to wait for anymore. */
+      function openFlex(year, subj) {
+        const crow = catData && catData.find((r) => r.year === year && r.subj === subj);
+        const mrow = SUBJECT_ROWS[year + "|" + normSubject(subj)] || null;
+        if (mrow) {
+          openFlipbook(cfgForRow(mrow), mrow.pdf || null);
           return;
         }
-        const hit = coverTexCache.get(url);
-        if (hit) {
-          if (m.map !== hit) {
-            m.map = hit;
-            m.needsUpdate = true;
-          }
-          return;
-        }
-        new THREE.TextureLoader().setCrossOrigin("anonymous").load(
-          url,
-          (t) => {
-            t.encoding = THREE.sRGBEncoding;
-            t.anisotropy = ANISO;
-            coverTexCache.set(url, t);
-            /* the flex book may have moved on to another title meanwhile */
-            if (b.cfg && b.cfg.coverURL === url) {
-              m.map = t;
-              m.needsUpdate = true;
-            }
+        /* Not in the manifest (not built yet): open the WORKSHOP SHELL so the
+           teacher can create it with the assistant. */
+        openFlipbook(
+          {
+            title: (crow && crow.subj) || subj,
+            band: year,
+            yearNum: parseInt(String(year).replace(/\D/g, ""), 10) || null,
+            artSubj: subj,
           },
-          undefined,
-          () => console.warn("Cover image missing:", url),
+          null,
         );
-      }
-
-      function repaintBook(b, cfg) {
-        b.cfg = cfg;
-        const t = b.texs;
-        const fx = t.fc.getContext("2d");
-        fx.clearRect(0, 0, 1024, 1536);
-        cfg.front(fx, 1024, 1536);
-        t.frontTex.needsUpdate = true;
-        const bx = t.bc.getContext("2d");
-        bx.clearRect(0, 0, 1024, 1536);
-        paintBack(bx, 1024, 1536, cfg);
-        t.backTex.needsUpdate = true;
-        const sx = t.sc.getContext("2d");
-        sx.clearRect(0, 0, 220, 1536);
-        paintSpine(sx, 220, 1536, cfg);
-        t.spineTex.needsUpdate = true;
-        applyCoverTex(b, cfg.coverURL || null);
-      }
-
-      /* the 4th book lives parked offscreen until a card summons it */
-      const flexBook = buildBook(
-        cfgForCard(
-          { year: "Year 1", subj: "Mathematics", s: true, t: true, w: true },
-          "manual",
-        ),
-        3,
-      );
-
-      function openFlex(year, subj, edKey) {
-        const row =
-          catData && catData.find((r) => r.year === year && r.subj === subj);
-        if (!row) return;
-        repaintBook(flexBook, cfgForCard(row, edKey));
-        openBookDetail(flexBook);
       }
 
       function renderCatalogue() {
@@ -7713,22 +5589,9 @@
           const v = e.target.closest("[data-feat]");
           if (!v) return;
           const parts = v.getAttribute("data-feat").split("|");
-          const go = () => openFlex(parts[0], parts[1], parts[2]);
-          /* The 3D state machine cycles hero -> opening -> detail -> closing
-             -> hero on ~1.3-1.6s timers. A request that arrives mid-opening
-             or mid-closing used to be dropped, which stranded the user on the
-             retired three-book hero stage. Drive the machine home first, then
-             open: poll until mode === "hero" (close() is idempotent and only
-             acts from "detail"), with a bounded number of retries. */
+          const go = () => openFlex(parts[0], parts[1]);
           closeCatalogue();
-          (function tryOpen(n) {
-            if (state.mode === "hero") {
-              go();
-              return;
-            }
-            if (state.mode === "detail") close();
-            if (n < 45) setTimeout(() => tryOpen(n + 1), 100);
-          })(0);
+          go();
         };
       }
 
@@ -8102,23 +5965,6 @@
           flipbook: row.pdf,
         };
       }
-      previewBtn.addEventListener("click", () => {
-        const cfg = state.selected && state.selected.cfg;
-        if (!cfg) return;
-        /* The in-page flipbook IS the preview. Books are synced into
-           public/books/ by tools/sync_books.py and deployed with the site,
-           so this works on Vercel exactly as it does locally - no Drive
-           round-trip, no new tab, no pop-up blocker. */
-        const fb = flipbookFor(cfg);
-        if (fb) {
-          openFlipbook(cfg, fb);
-          return;
-        }
-        /* No PDF yet: open the WORKSHOP SHELL - a blank flipbook stage with
-           the assistant ready to create the book. Teachers never hit a dead
-           end; this is a creation surface, not a shop. */
-        openFlipbook(cfg, null);
-      });
       document
         .getElementById("fbClose")
         .addEventListener("click", closeFlipbook);
@@ -8457,429 +6303,23 @@
       /* =========================================================================
    7. Input: pointer as hand, drag to peel, keyboard
    ========================================================================= */
-      const ptr = {
-        ndcX: 0,
-        ndcY: 0,
-        cx: innerWidth / 2,
-        cy: innerHeight / 2,
-        lastX: 0,
-        lastY: 0,
-        down: false,
-        downX: 0,
-        downY: 0,
-        moved: 0,
-        t0: 0,
-        type: "mouse",
-        seen: false,
-      };
-      let dragBook = null,
-        rayBook = null;
-      const orbit = { drag: false, dxAcc: 0, dyAcc: 0 };
-      const ray = new THREE.Raycaster();
-      const tmpV = new THREE.Vector3();
-
-      const canvas = renderer.domElement;
-      canvas.addEventListener("contextmenu", (e) => e.preventDefault());
-      /* pointer off the canvas: nothing is hovered, so the slip goes away */
-      canvas.addEventListener("pointerleave", () => {
-        rayBook = null;
-        state.pillLock = null;
-        state.kbIndex = -1;
-      });
-
-      canvas.addEventListener("pointermove", (e) => {
-        const dxN = (e.clientX - ptr.lastX) / innerWidth;
-        const dyN = (e.clientY - ptr.lastY) / innerHeight;
-        ptr.lastX = e.clientX;
-        ptr.lastY = e.clientY;
-        ptr.cx = e.clientX;
-        ptr.cy = e.clientY;
-        ptr.ndcX = (e.clientX / innerWidth) * 2 - 1;
-        ptr.ndcY = -(e.clientY / innerHeight) * 2 + 1;
-        ptr.type = e.pointerType || "mouse";
-        ptr.seen = true;
-        if (state.mode === "detail") leaves.push(dxN, dyN);
-        if (ptr.down && dragBook) {
-          ptr.moved += Math.abs(dxN * innerWidth) + Math.abs(dyN * innerHeight);
-          dragBook.springs.drag.t = clamp(
-            ((ptr.downX - e.clientX) / innerWidth) * 3.4,
-            0,
-            1.0,
-          );
-        }
-        if (ptr.down && orbit.drag) {
-          orbit.dxAcc += dxN;
-          orbit.dyAcc += dyN;
-          ptr.moved += Math.abs(dxN * innerWidth) + Math.abs(dyN * innerHeight);
-        }
-      });
-
-      canvas.addEventListener("pointerdown", (e) => {
-        ptr.cx = e.clientX;
-        ptr.cy = e.clientY;
-        ptr.ndcX = (e.clientX / innerWidth) * 2 - 1;
-        ptr.ndcY = -(e.clientY / innerHeight) * 2 + 1;
-        ptr.type = e.pointerType || "mouse";
-        ptr.seen = true;
-        castRay();
-        if (state.mode === "hero" && rayBook) {
-          ptr.down = true;
-          dragBook = rayBook;
-          ptr.downX = e.clientX;
-          ptr.downY = e.clientY;
-          ptr.moved = 0;
-          ptr.t0 = performance.now();
-          canvas.setPointerCapture(e.pointerId);
-        } else if (state.mode === "detail" && rayBook === state.selected) {
-          ptr.down = true;
-          orbit.drag = true;
-          orbit.dxAcc = 0;
-          orbit.dyAcc = 0;
-          ptr.moved = 0;
-          ptr.t0 = performance.now();
-          canvas.setPointerCapture(e.pointerId);
-        } else {
-          state.pillLock = null;
-          state.kbIndex = -1;
-        }
-      });
-
-      window.addEventListener("pointerup", (e) => {
-        orbit.drag = false;
-        if (dragBook) {
-          const wasDrag = ptr.moved > 14;
-          dragBook.springs.drag.t = 0;
-          if (
-            !wasDrag &&
-            state.mode === "hero" &&
-            performance.now() - ptr.t0 < 450
-          ) {
-            if (ptr.type === "touch") {
-              if (state.pillLock === dragBook) openBookDetail(dragBook);
-              else state.pillLock = dragBook;
-            } else {
-              openBookDetail(dragBook);
-            }
-          }
-          dragBook = null;
-        }
-        ptr.down = false;
-      });
-
       window.addEventListener("keydown", (e) => {
-        if (document.body.classList.contains("fb-open")) {
-          if (e.target && e.target.tagName === "INPUT") {
-            if (e.key === "Escape") e.target.blur();
-            return;
-          }
-          if (e.key === "Escape") {
-            if (fbTocPanel.classList.contains("on"))
-              fbTocPanel.classList.remove("on");
-            else closeFlipbook();
-          }
-          if (fbFlip) {
-            if (e.key === "ArrowRight") fbFlip.flipNext();
-            if (e.key === "ArrowLeft") fbFlip.flipPrev();
-          }
+        if (!document.body.classList.contains("fb-open")) return;
+        if (e.target && e.target.tagName === "INPUT") {
+          if (e.key === "Escape") e.target.blur();
           return;
         }
         if (e.key === "Escape") {
-          close();
+          if (fbTocPanel.classList.contains("on"))
+            fbTocPanel.classList.remove("on");
+          else closeFlipbook();
         }
-        if (state.mode !== "hero") return;
-        if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
-          const d = e.key === "ArrowRight" ? 1 : -1;
-          state.kbIndex =
-            ((state.kbIndex < 0 ? (d > 0 ? -1 : 1) : state.kbIndex) + d + 3) %
-            3;
-          state.pillLock = null;
-          e.preventDefault();
+        if (fbFlip) {
+          if (e.key === "ArrowRight") fbFlip.flipNext();
+          if (e.key === "ArrowLeft") fbFlip.flipPrev();
         }
-        if (e.key === "Enter" && state.hovered) openBookDetail(state.hovered);
       });
-
-      function castRay() {
-        ray.setFromCamera({ x: ptr.ndcX, y: ptr.ndcY }, camera);
-        const hits = ray.intersectObjects(hitMeshes, false);
-        if (hits.length) {
-          rayBook = bookByHit(hits[0].object);
-          const lp = rayBook.hit.worldToLocal(hits[0].point.clone());
-          rayBook.hitEdge = clamp((lp.x / 0.9) * 0.5 + 0.5, 0, 1);
-        } else {
-          rayBook = null;
-        }
-      }
-
-      /* =========================================================================
-   8. Frame loop
-   ========================================================================= */
-      const clock = new THREE.Clock();
-      const idle = RM ? 0 : 1;
-
-      function screenPos(b) {
-        b.root.getWorldPosition(tmpV).project(camera);
-        b.scr.x = (tmpV.x * 0.5 + 0.5) * innerWidth;
-        b.scr.y = (-tmpV.y * 0.5 + 0.5) * innerHeight;
-      }
-
-      function tickBook(b, dt, t) {
-        const s = b.springs;
-        const isHov = state.hovered === b;
-        const inDetail = state.mode === "detail" && state.selected === b;
-        const orbitActive = state.selected === b && state.mode !== "hero";
-
-        /* --- orbit: drag to tumble, flick to spin, settle facing front --- */
-        let activity = 0;
-        if (orbitActive) {
-          if (orbit.drag && inDetail) {
-            const step = orbit.dxAcc * 6.5;
-            orbit.dxAcc = 0;
-            b.orbY += step;
-            b.orbYv = clamp(
-              b.orbYv * 0.5 + (step / Math.max(dt, 0.001)) * 0.5,
-              -14,
-              14,
-            );
-            b.orbXs.t = clamp(b.orbXs.t + orbit.dyAcc * 3.2, -0.55, 0.55);
-            orbit.dyAcc = 0;
-            b.orbPhase = "drag";
-          } else {
-            b.orbXs.t = 0;
-            if (b.orbPhase === "drag") {
-              if (Math.abs(b.orbYv) > 0.6) {
-                b.orbPhase = "spin";
-              } else {
-                b.orbPhase = "return";
-                b.orbTarget =
-                  Math.round((b.orbY + b.orbYv * 1.2) / Math.PI) * Math.PI;
-              }
-            }
-            if (b.orbPhase === "spin") {
-              b.orbYv *= Math.exp(-0.9 * dt);
-              b.orbY += b.orbYv * dt;
-              if (Math.abs(b.orbYv) < 0.5) {
-                b.orbPhase = "return";
-                b.orbTarget =
-                  Math.round((b.orbY + b.orbYv * 1.2) / Math.PI) * Math.PI;
-              }
-            } else if (b.orbPhase === "return") {
-              const acc = 16 * (b.orbTarget - b.orbY) - 8 * b.orbYv;
-              b.orbYv += acc * dt;
-              b.orbY += b.orbYv * dt;
-              if (
-                Math.abs(b.orbTarget - b.orbY) < 0.002 &&
-                Math.abs(b.orbYv) < 0.01
-              ) {
-                b.orbY = b.orbTarget;
-                b.orbYv = 0;
-                b.orbPhase = "idle";
-              }
-            }
-          }
-          const distRest = Math.abs(
-            b.orbY - Math.round(b.orbY / 6.2832) * 6.2832,
-          );
-          activity = clamp(
-            Math.abs(b.orbYv) * 1.5 + (orbit.drag ? 1 : 0) + distRest * 2,
-            0,
-            1,
-          );
-        }
-        b.orbXs.update(dt);
-
-        /* --- targets --- */
-        let coverBase = 0;
-        if (inDetail)
-          coverBase =
-            0.02 +
-            (0.13 + Math.sin(t * 0.8 + b.phase) * 0.015 * idle) *
-              (1 - activity);
-        /* cover inertia: the trailing board gets flung open by the spin.
-     positive spin flings the front cover, negative spin the back cover */
-        const fan = orbitActive ? clamp(b.orbYv * 0.16, 0, 0.75) : 0;
-        const fanB = orbitActive ? clamp(-b.orbYv * 0.16, 0, 0.75) : 0;
-        let coverBBase = 0;
-        if (inDetail) {
-          const nearestBack =
-            Math.round((b.orbY - Math.PI) / 6.2832) * 6.2832 + Math.PI;
-          const activityB = clamp(
-            Math.abs(b.orbYv) * 1.5 +
-              (orbit.drag ? 1 : 0) +
-              Math.abs(b.orbY - nearestBack) * 2,
-            0,
-            1,
-          );
-          coverBBase =
-            (0.1 + Math.sin(t * 0.8 + b.phase + 1.7) * 0.012 * idle) *
-            (1 - activityB);
-        }
-
-        if (isHov && ptr.seen && state.mode === "hero") {
-          const dxN = (ptr.cx - b.scr.x) / (innerWidth * 0.25);
-          const dyN = (b.scr.y - ptr.cy) / (innerHeight * 0.3);
-          s.tiltY.t = clamp(dxN * 0.28, -0.15, 0.15);
-          s.tiltX.t = clamp(-dyN * 0.1, -0.09, 0.1);
-          s.lift.t = 0.3;
-          const edge = b.hitEdge != null ? b.hitEdge : 0.5;
-          coverBase = 0.085 + edge * 0.16 + clamp(dyN, 0, 1) * 0.09;
-        } else {
-          s.tiltY.t = 0;
-          s.tiltX.t = 0;
-          s.lift.t = 0;
-        }
-        s.cover.t = coverBase + fan;
-        s.coverB.t = coverBBase + fanB;
-        s.sc.t = b.slotScale * (isHov && state.mode === "hero" ? 1.09 : 1);
-
-        s.px.update(dt);
-        if (b.exit) stepY(b, dt);
-        else s.py.update(dt);
-        s.pz.update(dt);
-        s.rx.update(dt);
-        s.ry.update(dt);
-        s.rz.update(dt);
-        s.sc.update(dt);
-        s.tiltX.update(dt);
-        s.tiltY.update(dt);
-        s.lift.update(dt);
-        s.cover.update(dt);
-        s.coverB.update(dt);
-        s.drag.update(dt);
-
-        b.float.position.y = Math.sin(t * 0.7 + b.phase) * 0.035 * idle;
-        b.float.rotation.z = Math.sin(t * 0.9 + b.phase * 1.7) * 0.006 * idle;
-
-        b.root.position.set(s.px.v, s.py.v, s.pz.v + s.lift.v);
-        const sway = inDetail
-          ? Math.sin(t * 0.45 + b.phase) * 0.035 * idle * (1 - activity)
-          : 0;
-        const swing = clamp(-s.px.vel * 0.12, -0.5, 0.5);
-        b.root.rotation.set(
-          s.rx.v + s.tiltX.v + b.orbXs.v,
-          s.ry.v + s.tiltY.v + b.orbY + sway + swing,
-          s.rz.v,
-        );
-        b.root.scale.setScalar(Math.max(s.sc.v, 0.001));
-
-        const ang = Math.max(0, s.cover.v + s.drag.v);
-        const angB = Math.max(0, s.coverB.v);
-        b.pivot.rotation.y = -ang;
-        b.pivot.position.z = PIVOT_Z + ang * 0.022;
-        b.backPivot.rotation.y = angB;
-        b.backPivot.position.z = BPIVOT_Z - angB * 0.022;
-        b.spine.rotation.y = -ang * 0.16 + angB * 0.16;
-        b.block.scale.z = 1 - (ang + angB) * 0.05;
-        b.block.position.z = BLOCK_Z - ang * 0.006 + angB * 0.006;
-        for (let i = 0; i < PAGE_N; i++) {
-          const fl =
-            idle *
-            Math.sin(t * 1.15 + b.phase + i * 0.6) *
-            0.006 *
-            (1 - i / PAGE_N);
-          b.pages[i].rotation.y = -(ang * b.pageF[i] + Math.max(0, fl));
-        }
-        for (let i = 0; i < 6; i++) b.pagesB[i].rotation.y = angB * b.pageFB[i];
-      }
-
-      function animate() {
-        requestAnimationFrame(animate);
-        const dt = Math.min(clock.getDelta(), 0.05);
-        const t = clock.elapsedTime;
-
-        /* hover resolution */
-        if (ptr.seen && (ptr.type === "mouse" || ptr.down)) castRay();
-        let hov = null;
-        if (state.mode === "hero") {
-          hov =
-            rayBook ||
-            state.pillLock ||
-            (state.kbIndex >= 0 ? books[state.kbIndex] : null);
-        } else if (state.mode === "detail") {
-          hov = rayBook === state.selected ? rayBook : null;
-        }
-        state.hovered = hov;
-        let cur = "default";
-        if (state.mode === "hero" && hov) cur = "pointer";
-        else if (state.mode === "detail" && state.selected) {
-          if (orbit.drag) cur = "grabbing";
-          else if (rayBook === state.selected) cur = "grab";
-        }
-        canvas.style.cursor = cur;
-
-        books.forEach((b) => screenPos(b));
-        books.forEach((b) => tickBook(b, dt, t));
-        leaves.update(dt, t);
-
-        /* scene parallax */
-        parX.t = RM ? 0 : ptr.ndcX * 0.02;
-        parY.t = RM ? 0 : -ptr.ndcY * 0.012;
-        bookRoot.rotation.y = parX.update(dt);
-        bookRoot.rotation.x = parY.update(dt);
-
-        /* camera */
-        camera.position.set(camX.update(dt), camY.update(dt), camZ.update(dt));
-        camera.lookAt(lookX.update(dt), lookY.update(dt), 0);
-
-        /* open slip: rides just under the cursor while it is over a book */
-        if (
-          state.mode === "hero" &&
-          state.hovered &&
-          ptr.seen &&
-          !(ptr.down && ptr.moved > 14)
-        ) {
-          const tx = ptr.cx,
-            ty = ptr.cy + 34;
-          if (!pillOn) {
-            pillX.set(tx);
-            pillY.set(ty);
-            pillOn = true;
-          }
-          pillX.t = tx;
-          pillY.t = ty;
-          pill.style.left = pillX.update(dt) + "px";
-          pill.style.top = pillY.update(dt) + "px";
-          pill.classList.add("on");
-        } else {
-          hidePill();
-        }
-
-        renderer.render(scene, camera);
-      }
-
-      /* =========================================================================
-   9. Entrance + resize
-   ========================================================================= */
-      computeSlots();
-      books.forEach((b, i) => {
-        const slot = SLOTS.hero[i];
-        const s = b.springs;
-        s.px.set(slot.p[0]);
-        s.py.set(slot.p[1] - 3.9);
-        s.pz.set(slot.p[2]);
-        s.rx.set(slot.r[0]);
-        s.ry.set(slot.r[1]);
-        s.rz.set(slot.r[2] + 0.35 * (i === 1 ? -1 : Math.sign(slot.p[0])));
-        s.sc.set(slot.s);
-        b.slotScale = slot.s;
-        setTimeout(() => setTargets(b, slot), 240 + i * 150);
-      });
-      camTo("hero");
-
-      window.addEventListener("resize", () => {
-        renderer.setSize(innerWidth, innerHeight);
-        camera.aspect = innerWidth / innerHeight;
-        camera.updateProjectionMatrix();
-        computeSlots();
-        applyMode();
-        camTo(
-          state.mode === "detail" || state.mode === "opening"
-            ? "detail"
-            : "hero",
-        );
-      });
-
-      animate();
-    </script>
+</script>
     <script src="/pb-router.js"></script>
     <!-- Reading assistant. Loaded last so window.PBReading (declared in the
          main script above) already exists when it mounts. Kept in its own
