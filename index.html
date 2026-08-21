@@ -1603,12 +1603,6 @@
       .toc-it.cur {
         background: rgba(214, 31, 44, 0.16);
       }
-      .toc-it b {
-        flex: none;
-        font-size: 13px;
-        font-weight: 800;
-        min-width: 86px;
-      }
       .toc-it span {
         flex: 1;
         font-size: 12.5px;
@@ -1616,6 +1610,23 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+      }
+      .toc-it.unit {
+        margin-top: 8px;
+      }
+      .toc-it.unit .toc-name {
+        font-size: 13.5px;
+        font-weight: 800;
+        color: var(--cream);
+      }
+      .toc-it.sub {
+        padding-left: 22px;
+      }
+      .toc-it.sub:first-child {
+        margin-top: 0;
+      }
+      .toc-it.unit:first-child {
+        margin-top: 0;
       }
       .toc-it i {
         flex: none;
@@ -6222,45 +6233,90 @@ function rr(x, px, py, w, h, r) {
         window.__pbResizeT = setTimeout(() => window.pbResizeFlipbook(), 200);
       });
 
-      /* section list built from the running headers of the real pages */
+      /* Section list built from the book's own CONTENTS page.
+         The contents page is the source of truth the pupils see: it lists
+         "Unit 1 · The Mark Room  08" followed by numbered subunits
+         "1.1 Marks and lines  11" with the PRINTED page number beside each.
+         Printed folios map to PDF indices through the folio page itself
+         (the printed number sits in the page footer text), so clicking a
+         section lands on the real page, whatever the front-matter offset. */
       async function buildSections(doc) {
-        const secs = [];
+        /* 1. pass over the first ~12 pages: find the one whose text starts
+           with CONTENTS and contains "Unit" lines. */
+        let tocText = null;
+        const scan = Math.min(12, doc.numPages);
+        for (let i = 0; i < scan; i++) {
+          const pg = await doc.getPage(i + 1);
+          const tc = await pg.getTextContent();
+          try { pg.cleanup(); } catch (e) {}
+          const t = tc.items.map((it) => it.str).join("\n");
+          if (/^CONTENTS/m.test(t) && /Unit\s*\d/m.test(t)) { tocText = t; break; }
+        }
+        if (!tocText) return [];
+
+        /* 2. folio -> pdf index map: for every page, the last standalone
+           number in its text is the printed folio (the running footer). */
+        const folioOf = new Map(); /* pdfIdx -> folio */
+        const idxOfFolio = new Map(); /* folio -> pdfIdx (first occurrence) */
         for (let i = 0; i < doc.numPages; i++) {
           const pg = await doc.getPage(i + 1);
           const tc = await pg.getTextContent();
-          /* Release the page's internal buffers straight away: the text is
-             already copied out below, and without this the scan pins every
-             page object, which on a 600+ page book crashes the tab. */
-          try {
-            pg.cleanup();
-          } catch (e) {}
-          const head = tc.items
-            .slice(0, 8)
-            .map((it) => it.str)
-            .join(" ")
-            .trim();
-          const m = head.match(
-            /^(OPENING|CONTENTS|CHAPTER\s*\d+|PART\s*\d+|CONCLUSION)\b/i,
-          );
-          if (!m) continue;
-          const label = m[1]
-            .replace(/\s+/g, " ")
-            .toLowerCase()
-            .replace(/\b\w/g, (c) => c.toUpperCase());
-          if (secs.length && secs[secs.length - 1].label === label) continue;
-          let sub = "";
-          for (let k = 1; k < Math.min(6, tc.items.length); k++) {
-            const s = (tc.items[k].str || "").trim();
-            if (
-              s.length > 6 &&
-              s.length < 70 &&
-              !/^(OPENING|CHAPTER\s*\d+|CONCLUSION|CONTENTS)\b/i.test(s)
-            ) {
-              sub = s;
-              break;
-            }
+          try { pg.cleanup(); } catch (e) {}
+          const items = tc.items.map((it) => it.str);
+          /* last item that is purely a number of 1-3 digits */
+          let folio = null;
+          for (let k = items.length - 1; k >= 0; k--) {
+            const v = (items[k] || "").trim();
+            if (/^\d{1,3}$/.test(v)) { folio = parseInt(v, 10); break; }
           }
-          secs.push({ label, sub, page: i });
+          if (folio !== null) {
+            folioOf.set(i, folio);
+            if (!idxOfFolio.has(folio)) idxOfFolio.set(folio, i);
+          }
+        }
+        const toIdx = (folio) => {
+          if (idxOfFolio.has(folio)) return idxOfFolio.get(folio);
+          /* nearest folio at or below: contents sometimes skips pages */
+          for (let f = folio - 1; f >= 0; f--)
+            if (idxOfFolio.has(f)) return idxOfFolio.get(f);
+          return 0;
+        };
+
+        /* 3. parse the contents text into units + subunits */
+        const lines = tocText
+          .split("\n")
+          .map((l) => l.trim())
+          .filter(Boolean);
+        const secs = [];
+        let pending = null; /* {label,folio} awaiting its page number */
+        const unitRe = /^(Unit\s*\d+)\s*[·:\u2013-]\s*(.+)$/i;
+        const subRe = /^(\d+\.\d+)\s+(.+)$/;
+        const backRe = /^(Our studio show|My portfolio|Art all through the year|My word book|Where we found out|Glossary|Index)$/i;
+        let pendingPage = null; /* a bare number line belongs to the previous title */
+        for (const raw of lines) {
+          if (/^CONTENTS$/i.test(raw) || /^What is inside\?/i.test(raw)) continue;
+          const n = raw.match(/^(\d{1,3})$/);
+          if (n && pending) {
+            pending.page = toIdx(parseInt(n[1], 10));
+            secs.push(pending);
+            pending = null;
+            continue;
+          }
+          let m = raw.match(unitRe);
+          if (m) {
+            pending = { label: m[1] + " \u00b7 " + m[2], sub: "", unit: true, page: 0 };
+            continue;
+          }
+          m = raw.match(subRe);
+          if (m) {
+            pending = { label: m[1] + " " + m[2], sub: "", unit: false, page: 0 };
+            continue;
+          }
+          m = raw.match(backRe);
+          if (m) {
+            pending = { label: m[1], sub: "", unit: false, page: 0 };
+            continue;
+          }
         }
         return secs;
       }
@@ -6270,13 +6326,15 @@ function rr(x, px, py, w, h, r) {
           ? fbSections
               .map(
                 (s, i) =>
-                  '<button class="toc-it" data-i="' +
+                  '<button class="toc-it' +
+                  (s.unit ? " unit" : " sub") +
+                  '" data-i="' +
                   i +
-                  '"><b>' +
+                  '">' +
+                  '<span class="toc-name">' +
                   s.label +
-                  "</b><span>" +
-                  (s.sub || "") +
-                  "</span><i>p. " +
+                  "</span>" +
+                  '<i>p. ' +
                   (s.page + 1) +
                   "</i></button>",
               )
@@ -6310,7 +6368,13 @@ function rr(x, px, py, w, h, r) {
           fbBar.style.width = "0%";
           fbTotal.textContent = "–";
           fbLbl.textContent = "Fetching the book…";
-          const doc = await pdfjsLib.getDocument(url).promise;
+          /* Cache-buster: "See the updated book" re-fetches the same URL the
+             reader already has, and both the HTTP cache and pdf.js range
+             requests will happily serve the OLD bytes. A fresh query string
+             per build forces a real fetch, so an edited master always shows. */
+          const bustUrl =
+            url + (url.indexOf("?") < 0 ? "?" : "&") + "v=" + Date.now();
+          const doc = await pdfjsLib.getDocument(bustUrl).promise;
           fbDoc = doc; /* the assistant reads page text from this */
           fbCount = doc.numPages;
           const first = await doc.getPage(1);
