@@ -293,6 +293,49 @@
           }, cb);
         }
 
+        /* ---------- realtime: adopt other users' edits ----------
+           Shared-worksite behaviour: while THIS user is not editing (no focus
+           in the textarea / keyword input, no in-flight save), poll the live
+           amazon.json every 5 s. When another computer saves, the fresh entry
+           replaces what's on screen — the same "everyone sees everyone"
+           contract as the Done badges. A user mid-edit is never clobbered:
+           their focus wins until they click away or save. */
+        var saveInFlight = false;
+        function userIsEditing() {
+          var ae = document.activeElement;
+          return (
+            saveInFlight ||
+            (ae && (ae.id === "amDesc" || ae.id === "amKwInput"))
+          );
+        }
+        function applyEntry(entry) {
+          el("amDesc").value = (entry && entry.description) || "";
+          kwList = Array.isArray(entry && entry.keywords)
+            ? entry.keywords.slice(0, MAX_KW)
+            : [];
+          updateDescCount();
+          renderKeywords();
+        }
+        function pollForUpdates() {
+          if (userIsEditing()) return;
+          fetchBases("/amazon.json", { cache: "no-store" }, 0, function (m) {
+            if (!m || typeof m !== "object") return;
+            amzMap = m;
+            try { localStorage.setItem(AMZ_STORE, JSON.stringify(amzMap)); } catch (e) {}
+            var entry = m[slug];
+            var curDesc = el("amDesc").value;
+            var curKws = kwList.join("\u0001");
+            var newDesc = (entry && entry.description) || "";
+            var newKws = Array.isArray(entry && entry.keywords)
+              ? entry.keywords.slice(0, MAX_KW).join("\u0001")
+              : "";
+            if (newDesc !== curDesc || newKws !== curKws) {
+              applyEntry(entry);
+              msg("Updated \u2014 listing details changed by another user.", "ok");
+            }
+          }, function () {});
+        }
+
         var kwList = [];
         var MAX_KW = 7;
 
@@ -395,7 +438,9 @@
             btn.disabled = true;
             btn.textContent = "Saving\u2026";
             msg("", "");
+            saveInFlight = true;
             saveBookEntry({ description: desc, keywords: kwList }, function (ok) {
+              saveInFlight = false;
               btn.disabled = false;
               btn.textContent = "Save listing details";
               if (ok) msg("Saved \u2014 visible to everyone.", "ok");
@@ -418,21 +463,32 @@
           location.href = url;
         });
 
-        loadAmazonMap(function () {
-          loadLibrary(function () {
-            if (!row) {
-              el("amLoading").style.display = "none";
-              el("amNotFound").style.display = "";
-              el("amSub").textContent = "";
-              return;
-            }
-            initForm();
+        /* Wait for pb-live-probe.js to resolve the live base (bounded: the
+           probe itself has no timeout, so cap the wait — worst case we fall
+           back to same-origin, which is what a dead tunnel gives anyway). */
+        function waitForProbe(cb, n) {
+          n = n || 0;
+          if (window.__PB_LIVE === true || n > 24) return cb();
+          setTimeout(function () { waitForProbe(cb, n + 1); }, 250);
+        }
+
+        waitForProbe(function () {
+          loadAmazonMap(function () {
+            loadLibrary(function () {
+              if (!row) {
+                el("amLoading").style.display = "none";
+                el("amNotFound").style.display = "";
+                el("amSub").textContent = "";
+                return;
+              }
+              initForm();
+              /* Realtime: keep this page in step with other users' saves. */
+              setInterval(pollForUpdates, 5000);
+            });
           });
         });
       })();
     </script>
-    <!-- Probe the live file server FIRST so the app script above sees the
-         resolved __PB_LIVE_BASE(S); the app reads them at parse time. -->
     <script src="/pb-live-probe.js"></script>
   </body>
 </html>

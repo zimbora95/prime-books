@@ -4891,6 +4891,29 @@ function rr(x, px, py, w, h, r) {
             .catch(next);
         })();
       })();
+      /* Shared worksite: re-read the global done map every 10 s so a status
+         toggled on ANOTHER computer appears here without a refresh — same
+         "everyone sees everyone" contract as the Amazon listing details.
+         Only re-renders when something actually changed, and never while
+         a done-toggle POST from this page is still in flight. */
+      let donePostInFlight = false;
+      setInterval(function pollDone() {
+        if (donePostInFlight || !window.__PB_LIVE_BASE) return;
+        fetch(window.__PB_LIVE_BASE + "/done.json", { cache: "no-store" })
+          .then((r) => (r.ok ? r.json() : null))
+          .then(function (m) {
+            if (!m || typeof m !== "object") return;
+            let changed = false;
+            for (const k in m) {
+              if (m[k] !== doneMap[k]) { changed = true; break; }
+            }
+            if (!changed) return;
+            doneMap = m;
+            persistDoneCache();
+            if (typeof renderCatalogue === "function") renderCatalogue();
+          })
+          .catch(function () {});
+      }, 10000);
       function bookIsDone(year, subj) {
         const key = year + "|" + normSubject(subj);
         if (Object.prototype.hasOwnProperty.call(doneMap, key))
@@ -4907,8 +4930,10 @@ function rr(x, px, py, w, h, r) {
         const body = JSON.stringify({ [key]: !!done });
         const bases = window.__PB_LIVE_BASE ? [window.__PB_LIVE_BASE, ""] : [""];
         let i = 0;
+        donePostInFlight = true;
         (function post() {
           if (i >= bases.length) {
+            donePostInFlight = false;
             toast("Could not save status — will apply on this device only");
             return;
           }
@@ -4919,6 +4944,7 @@ function rr(x, px, py, w, h, r) {
           })
             .then((r) => {
               if (!r.ok) post();
+              else donePostInFlight = false;
             })
             .catch(post);
         })();
