@@ -845,6 +845,16 @@
       .fb-btn:hover {
         background: rgba(246, 241, 230, 0.16);
       }
+      /* Amazon KDP prep button: gold accent so "prepare for Amazon" reads as
+         the publishing action, distinct from navigation. */
+      .fb-btn-amz {
+        background: rgba(201, 163, 92, 0.16);
+        border-color: rgba(201, 163, 92, 0.55);
+        color: var(--gold);
+      }
+      .fb-btn-amz:hover {
+        background: rgba(201, 163, 92, 0.3);
+      }
       .fb-btn:disabled {
         opacity: 0.35;
         pointer-events: none;
@@ -1911,6 +1921,9 @@
         <div class="fb-nav">
           <button class="fb-btn" id="fbTocBtn" aria-label="Book sections">
             &#9776;&nbsp;Sections
+          </button>
+          <button class="fb-btn fb-btn-amz" id="fbAmazonBtn" aria-label="Amazon KDP preparation" title="Amazon KDP preparation for this book">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg>&nbsp;Amazon
           </button>
           <button class="fb-btn" id="fbBack5" aria-label="Back 5 pages">
             &laquo;
@@ -6161,6 +6174,14 @@ function rr(x, px, py, w, h, r) {
       fbTocBtn.addEventListener("click", () =>
         fbTocPanel.classList.toggle("on"),
       );
+      /* Amazon KDP preparation page: same route family as the deep link
+         (/book/<slug>/amazon). A real navigation, not pushState, because
+         amazon.html is its own document — the flipbook session survives
+         via the browser's back button / the page's Back button. */
+      document.getElementById("fbAmazonBtn").addEventListener("click", () => {
+        const slug = fbBookMeta && fbBookMeta.slug;
+        if (slug) location.href = "/book/" + slug + "/amazon";
+      });
       fbPageInput.addEventListener("keydown", (e) => {
         if (e.key !== "Enter" || !fbFlip) return;
         const n = parseInt(fbPageInput.value, 10);

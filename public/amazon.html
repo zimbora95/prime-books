@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon KDP · Prime Books</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        --cream: #f6f1e6;
+        --gold: #c9a35c;
+        --mist: #aeb8dd;
+        --ink: #14161d;
+        --paper: #1c1f29;
+        --paper2: #232735;
+        --line: rgba(246, 241, 230, 0.14);
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--ink);
+        color: var(--cream);
+        min-height: 100vh;
+      }
+      .am-wrap { max-width: 1080px; margin: 0 auto; padding: 28px 24px 60px; }
+      .am-top {
+        display: flex; align-items: center; justify-content: space-between;
+        gap: 16px; flex-wrap: wrap; margin-bottom: 8px;
+      }
+      .am-brand { display: flex; align-items: center; gap: 12px; }
+      .am-brand img { height: 34px; }
+      .am-h1 { font-size: 22px; font-weight: 800; letter-spacing: 0.2px; }
+      .am-h1 small { color: var(--mist); font-weight: 600; }
+      .am-back {
+        height: 42px; padding: 0 20px; border-radius: 999px;
+        background: rgba(246, 241, 230, 0.08);
+        border: 1px solid rgba(246, 241, 230, 0.22);
+        color: var(--cream); font-size: 14px; font-weight: 700; cursor: pointer;
+      }
+      .am-back:hover { background: rgba(246, 241, 230, 0.16); }
+      .am-sub { color: var(--mist); font-size: 13.5px; margin-bottom: 26px; }
+      .am-sub b { color: var(--cream); }
+
+      .am-grid { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 28px; }
+      @media (max-width: 900px) { .am-grid { grid-template-columns: 1fr; } }
+
+      .am-card {
+        background: var(--paper); border: 1px solid var(--line);
+        border-radius: 16px; padding: 22px;
+      }
+      .am-card h2 {
+        font-size: 12px; text-transform: uppercase; letter-spacing: 1.4px;
+        color: var(--gold); margin-bottom: 14px;
+      }
+      .am-card + .am-card { margin-top: 22px; }
+
+      /* ---- wrap cover ---- */
+      .am-cover-empty {
+        border: 1px dashed rgba(246, 241, 230, 0.3); border-radius: 12px;
+        padding: 34px 22px; text-align: center; color: var(--mist);
+        font-size: 14px; line-height: 1.6;
+      }
+      .am-cover-img { display: block; width: 100%; height: auto; border-radius: 8px; }
+      .am-cover-dl {
+        margin-top: 14px; display: inline-flex; align-items: center; gap: 8px;
+        height: 40px; padding: 0 18px; border-radius: 999px;
+        background: var(--gold); color: var(--ink); font-size: 13.5px;
+        font-weight: 800; cursor: pointer; text-decoration: none; border: none;
+      }
+      .am-cover-note { margin-top: 12px; color: var(--mist); font-size: 12.5px; line-height: 1.55; }
+
+      /* ---- fields ---- */
+      .am-field { margin-bottom: 18px; }
+      .am-field:last-child { margin-bottom: 0; }
+      .am-field label {
+        display: flex; justify-content: space-between; align-items: baseline;
+        font-size: 13px; font-weight: 700; margin-bottom: 7px;
+      }
+      .am-count { color: var(--mist); font-weight: 500; font-size: 12px; }
+      .am-count.over { color: #e88; }
+      textarea, .am-kw-input {
+        width: 100%; background: rgba(246, 241, 230, 0.05);
+        border: 1px solid var(--line); border-radius: 10px;
+        color: var(--cream); font: inherit; font-size: 14px; line-height: 1.6;
+        padding: 12px 14px; resize: vertical;
+      }
+      textarea:focus, .am-kw-input:focus { outline: 2px solid var(--gold); outline-offset: -1px; }
+      textarea { min-height: 170px; }
+
+      /* ---- keywords ---- */
+      .am-kw-row { display: flex; gap: 8px; }
+      .am-kw-add {
+        height: 44px; min-width: 44px; border-radius: 10px; cursor: pointer;
+        background: rgba(201, 163, 92, 0.18); border: 1px solid var(--gold);
+        color: var(--gold); font-size: 18px; font-weight: 800;
+      }
+      .am-kw-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+      .am-kw {
+        display: inline-flex; align-items: center; gap: 8px;
+        background: rgba(246, 241, 230, 0.07); border: 1px solid var(--line);
+        border-radius: 999px; padding: 7px 8px 7px 14px; font-size: 13.5px;
+      }
+      .am-kw button {
+        all: unset; cursor: pointer; color: var(--mist); font-size: 14px;
+        width: 18px; height: 18px; line-height: 18px; text-align: center;
+        border-radius: 50%;
+      }
+      .am-kw button:hover { color: #e88; background: rgba(255, 100, 100, 0.12); }
+      .am-kw-hint { color: var(--mist); font-size: 12px; margin-top: 10px; line-height: 1.5; }
+
+      .am-actions { margin-top: 26px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+      .am-save {
+        height: 46px; padding: 0 28px; border-radius: 999px; border: none;
+        background: var(--gold); color: var(--ink); font-size: 15px;
+        font-weight: 800; cursor: pointer;
+      }
+      .am-save:disabled { opacity: 0.4; cursor: default; }
+      .am-msg { font-size: 13px; color: var(--mist); }
+      .am-msg.ok { color: #8ec98e; }
+      .am-msg.err { color: #e88; }
+
+      .am-loading { padding: 90px 0; text-align: center; color: var(--mist); }
+      .am-notfound { padding: 90px 0; text-align: center; }
+      .am-notfound h2 { color: var(--cream); font-size: 20px; margin-bottom: 10px; }
+      .am-notfound p { color: var(--mist); }
+    </style>
+  </head>
+  <body>
+    <div class="am-wrap">
+      <div class="am-top">
+        <div class="am-brand">
+          <img src="/Logo-Prime-School-light.png" alt="Prime Books" />
+          <div class="am-h1">Amazon KDP <small>· Publishing preparation</small></div>
+        </div>
+        <button class="am-back" id="amBack">&larr; Back to the book</button>
+      </div>
+      <div class="am-sub" id="amSub">Loading the book&hellip;</div>
+
+      <div class="am-loading" id="amLoading">Loading the book&hellip;</div>
+      <div class="am-notfound" id="amNotFound" style="display:none">
+        <h2>Book not found</h2>
+        <p>This address does not match a book in the library.</p>
+      </div>
+
+      <div class="am-grid" id="amGrid" style="display:none">
+        <div>
+          <div class="am-card">
+            <h2>About this Book &mdash; description</h2>
+            <div class="am-field">
+              <label for="amDesc"
+                >Description
+                <span class="am-count" id="amDescCount">0 characters</span></label
+              >
+              <textarea
+                id="amDesc"
+                placeholder="Describe this book for its Amazon listing — what it teaches, who it is for, what makes it special. This is the text buyers will read."
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="am-card">
+            <h2>Keywords &mdash; max 7</h2>
+            <div class="am-kw-row">
+              <input
+                class="am-kw-input"
+                id="amKwInput"
+                placeholder="Type a keyword and press Enter"
+                maxlength="50"
+              />
+              <button class="am-kw-add" id="amKwAdd" aria-label="Add keyword">+</button>
+            </div>
+            <div class="am-kw-list" id="amKwList"></div>
+            <div class="am-kw-hint">
+              Amazon KDP accepts up to 7 keywords per book. Choose phrases buyers
+              search for &mdash; e.g. &ldquo;cambridge primary science workbook&rdquo;.
+            </div>
+          </div>
+
+          <div class="am-actions">
+            <button class="am-save" id="amSave">Save listing details</button>
+            <span class="am-msg" id="amMsg"></span>
+          </div>
+        </div>
+
+        <div>
+          <div class="am-card">
+            <h2>Wrap Cover &mdash; print file</h2>
+            <div id="amCoverBox"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* =====================================================================
+         Prime Books — Amazon KDP preparation page (/book/<slug>/amazon)
+
+         Workshop feature, not e-commerce: nothing here publishes to Amazon or
+         shows prices. It is where the author PREPARES the information a KDP
+         listing needs, so that when the books are ready to publish everything
+         is in one place:
+
+           - the WRAP COVER (back cover + spine + front cover, merged in one
+             print file, left to right) copied into the library by
+             tools/sync_library.py from the book's KDP folder
+           - the "About this Book" description
+           - up to 7 keywords
+
+         Persistence follows the Done-status pattern exactly: GLOBAL and
+         PERMANENT via amazon.json on the live file server (POST merges,
+         GET reads), localStorage only as an offline cache. Whatever is saved
+         here is visible to every visitor.
+         ===================================================================== */
+      (function () {
+        "use strict";
+
+        var slug = location.pathname
+          .replace(/^\/book\//, "")
+          .replace(/\/amazon\/?$/, "")
+          .replace(/\/+$/, "");
+
+        var el = function (id) { return document.getElementById(id); };
+        /* Resolved lazily: pb-live-probe.js may load (or a harness may pin
+           __PB_LIVE_BASES) after this inline script parses. */
+        function liveBaseList() {
+          return window.__PB_LIVE_BASES ||
+            (window.__PB_LIVE_BASE ? [window.__PB_LIVE_BASE] : [""]);
+        }
+
+        /* ---------- amazon.json: global, permanent listing details ---------- */
+        var AMZ_STORE = "pb-amazon-v1";
+        var amzMap = {};
+        try {
+          var m = JSON.parse(localStorage.getItem(AMZ_STORE) || "{}");
+          if (m && typeof m === "object") amzMap = m;
+        } catch (e) {}
+
+        function fetchBases(path, opts, i, onOk, onFail) {
+          /* Every request is bounded: a dead tunnel must fail fast and fall
+             through to same-origin, never hang the page on "Loading…". */
+          var ctrl = null;
+          if (typeof AbortController !== "undefined") {
+            ctrl = new AbortController();
+            opts = Object.assign({}, opts, { signal: ctrl.signal });
+            setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 8000);
+          }
+          i = i || 0;
+          var liveBases = liveBaseList();
+          if (i >= liveBases.length) return onFail();
+          fetch(liveBases[i] + path, opts)
+            .then(function (r) {
+              if (r.ok) return r.json().then(onOk, function () { fetchBases(path, opts, i + 1, onOk, onFail); });
+              fetchBases(path, opts, i + 1, onOk, onFail);
+            })
+            .catch(function () { fetchBases(path, opts, i + 1, onOk, onFail); });
+        }
+
+        function loadAmazonMap(cb) {
+          fetchBases("/amazon.json", { cache: "no-store" }, 0, function (m) {
+            if (m && typeof m === "object") {
+              amzMap = m;
+              try { localStorage.setItem(AMZ_STORE, JSON.stringify(amzMap)); } catch (e) {}
+            }
+            cb();
+          }, cb);
+        }
+
+        function saveBookEntry(entry, onDone) {
+          amzMap[slug] = entry;
+          try { localStorage.setItem(AMZ_STORE, JSON.stringify(amzMap)); } catch (e) {}
+          fetchBases(
+            "/amazon.json",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ __slug: slug, entry: entry }),
+            },
+            0,
+            function () { onDone(true); },
+            function () { onDone(false); },
+          );
+        }
+
+        /* ---------- library manifest ---------- */
+        var row = null;
+        function loadLibrary(cb) {
+          fetchBases("/library.json", { cache: "no-store" }, 0, function (rows) {
+            if (Array.isArray(rows)) {
+              for (var i = 0; i < rows.length; i++)
+                if (rows[i] && rows[i].slug === slug) { row = rows[i]; break; }
+            }
+            cb();
+          }, cb);
+        }
+
+        var kwList = [];
+        var MAX_KW = 7;
+
+        function esc(s) {
+          return String(s).replace(/[&<>"']/g, function (c) {
+            return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+          });
+        }
+
+        function renderKeywords() {
+          var box = el("amKwList");
+          box.innerHTML = kwList
+            .map(function (k, i) {
+              return (
+                '<span class="am-kw">' + esc(k) +
+                ' <button data-i="' + i + '" aria-label="Remove keyword">&times;</button></span>'
+              );
+            })
+            .join("");
+          box.querySelectorAll("button").forEach(function (b) {
+            b.addEventListener("click", function () {
+              kwList.splice(+b.getAttribute("data-i"), 1);
+              renderKeywords();
+            });
+          });
+        }
+
+        function updateDescCount() {
+          var n = el("amDesc").value.length;
+          var c = el("amDescCount");
+          c.textContent = n + " characters";
+          c.classList.toggle("over", n > 4000);
+        }
+
+        function renderCover() {
+          var box = el("amCoverBox");
+          var wrap = row && row.wrapCover;
+          if (wrap) {
+            var base = "";
+            if (wrap.indexOf("http") === 0) base = "";
+            else if (wrap.indexOf("/") === 0 && window.__PB_LIVE)
+              base = window.__PB_LIVE_BASE || "";
+            box.innerHTML =
+              '<img class="am-cover-img" src="' + esc(base + wrap) + '" alt="Wrap cover (back cover, spine and front cover merged)" />' +
+              '<a class="am-cover-dl" href="' + esc(base + wrap) + '" download="' +
+              esc("WRAP_COVER_" + slug + ".png") + '">&#8681;&nbsp; Download print file</a>';
+          } else {
+            box.innerHTML =
+              '<div class="am-cover-empty">No wrap cover in the library yet.<br />' +
+              "Add the file <b>*WRAP*COVER*.png</b> to this book's KDP folder and run " +
+              "<b>tools/sync_library.py</b> &mdash; it will be copied here automatically.</div>";
+          }
+        }
+
+        function initForm() {
+          el("amLoading").style.display = "none";
+          el("amGrid").style.display = "";
+          el("amSub").innerHTML =
+            "Preparing <b>" + esc(row ? row.subject : slug) + "</b>" +
+            (row && row.band ? " &middot; " + esc(row.band) : "") +
+            (row && row.year ? " &middot; Year " + row.year : "") +
+            " &mdash; saved details are global and permanent.";
+
+          var entry = amzMap[slug] || {};
+          el("amDesc").value = entry.description || "";
+          kwList = Array.isArray(entry.keywords) ? entry.keywords.slice(0, MAX_KW) : [];
+          updateDescCount();
+          renderKeywords();
+          renderCover();
+
+          el("amDesc").addEventListener("input", updateDescCount);
+
+          function addKw() {
+            var inp = el("amKwInput");
+            var v = inp.value.trim();
+            if (!v) return;
+            if (kwList.length >= MAX_KW) {
+              msg("Maximum " + MAX_KW + " keywords — remove one first.", "err");
+              return;
+            }
+            if (kwList.indexOf(v) < 0) {
+              kwList.push(v);
+              renderKeywords();
+            }
+            inp.value = "";
+            inp.focus();
+          }
+          el("amKwAdd").addEventListener("click", addKw);
+          el("amKwInput").addEventListener("keydown", function (e) {
+            if (e.key === "Enter") { e.preventDefault(); addKw(); }
+          });
+
+          el("amSave").addEventListener("click", function () {
+            var desc = el("amDesc").value.trim();
+            if (kwList.length > MAX_KW) {
+              msg("Maximum " + MAX_KW + " keywords.", "err");
+              return;
+            }
+            var btn = el("amSave");
+            btn.disabled = true;
+            btn.textContent = "Saving\u2026";
+            msg("", "");
+            saveBookEntry({ description: desc, keywords: kwList }, function (ok) {
+              btn.disabled = false;
+              btn.textContent = "Save listing details";
+              if (ok) msg("Saved \u2014 visible to everyone.", "ok");
+              else msg("Could not reach the server \u2014 applied on this device only.", "err");
+            });
+          });
+        }
+
+        function msg(t, cls) {
+          var m = el("amMsg");
+          m.textContent = t;
+          m.className = "am-msg" + (cls ? " " + cls : "");
+        }
+
+        el("amBack").addEventListener("click", function () {
+          var url = "/book/" + slug;
+          if (location.pathname !== url) {
+            try { history.pushState({}, "", url); } catch (e) {}
+          } else history.back();
+          location.href = url;
+        });
+
+        loadAmazonMap(function () {
+          loadLibrary(function () {
+            if (!row) {
+              el("amLoading").style.display = "none";
+              el("amNotFound").style.display = "";
+              el("amSub").textContent = "";
+              return;
+            }
+            initForm();
+          });
+        });
+      })();
+    </script>
+    <!-- Probe the live file server FIRST so the app script above sees the
+         resolved __PB_LIVE_BASE(S); the app reads them at parse time. -->
+    <script src="/pb-live-probe.js"></script>
+  </body>
+</html>

@@ -256,6 +256,25 @@ def scan_book(level: str, year_dir: str, year: int | None, sd: Path) -> dict:
     }
 
 
+WRAP_NAME = re.compile(r"wrap.*cover|cover.*wrap", re.IGNORECASE)
+
+def wrap_cover(sd: Path) -> Path | None:
+    """Find the book's Amazon KDP wrap cover (back + spine + front, merged).
+
+    Lives anywhere under the book folder — KDP/ per tools/clean_tree.py, but
+    users drop it next to the output PDF too. PNG preferred (print file)."""
+    cands = []
+    for p in sd.rglob("*.png"):
+        if WRAP_NAME.search(p.name):
+            cands.append(p)
+    if not cands:
+        return None
+    # Deterministic: prefer a path under KDP/, then the largest file (the
+    # full-resolution print file beats thumbnails/extracts of it).
+    cands.sort(key=lambda p: ("KDP" not in p.parts, -p.stat().st_size))
+    return cands[0]
+
+
 def merge_rows(manifest: Path, fresh: list[dict]) -> list[dict]:
     """Merge freshly scanned rows into an existing manifest, keyed on slug.
 
@@ -332,6 +351,19 @@ def main() -> int:
                 if args.force or not cdest.is_file() or cdest.stat().st_mtime < cov.stat().st_mtime:
                     shutil.copy2(cov, cdest)
 
+            # Amazon KDP wrap cover (back + spine + front, merged): copied
+            # verbatim as cover-wrap-amazon.png — a print file, never re-
+            # compressed. Absent for most books; the Amazon prep page shows
+            # "add it and re-sync" guidance in that case.
+            wrap = wrap_cover(Path(r["book_dir"]))
+            if wrap:
+                wdest = dest_dir / "cover-wrap-amazon.png"
+                if args.force or not wdest.is_file() or wdest.stat().st_mtime < wrap.stat().st_mtime:
+                    shutil.copy2(wrap, wdest)
+                    print(f"  wrap  {slug}  {wdest.stat().st_size / 1e6:.1f} MB")
+            else:
+                (dest_dir / "cover-wrap-amazon.png").unlink(missing_ok=True)
+
         cover_rel = None
         for c in sorted(dest_dir.glob("cover.*")) if dest_dir.is_dir() else []:
             cover_rel = f"/library/{slug}/{c.name}"
@@ -348,6 +380,9 @@ def main() -> int:
             "done": r["done"],
             "pdf": f"/library/{slug}/book.pdf",
             "cover": cover_rel,
+            "wrapCover": f"/library/{slug}/cover-wrap-amazon.png"
+            if (dest_dir / "cover-wrap-amazon.png").is_file()
+            else None,
             "mb": round(pdf_dest.stat().st_size / 1e6, 2) if pdf_dest.is_file() else 0,
             "buildable": r["buildable"],
             "editable": r["markdown_count"] > 0,

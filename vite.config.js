@@ -73,7 +73,8 @@ function bookDeepLinkFallback() {
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
         const path = (req.url || "").split("?")[0];
-        if (/^\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
+        if (/^\/book\/[a-z0-9-]+\/amazon\/?$/.test(path)) req.url = "/amazon.html";
+        else if (/^\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
         next();
       });
     },

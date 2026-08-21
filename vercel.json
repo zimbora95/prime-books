@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/hermes/:verb", "destination": "/api/hermes?verb=:verb" },
+    { "source": "/book/:slug/amazon", "destination": "/amazon.html" },
     { "source": "/book/:slug", "destination": "/index.html" }
   ]
 }
