@@ -6234,91 +6234,178 @@ function rr(x, px, py, w, h, r) {
       });
 
       /* Section list built from the book's own CONTENTS page.
-         The contents page is the source of truth the pupils see: it lists
-         "Unit 1 · The Mark Room  08" followed by numbered subunits
-         "1.1 Marks and lines  11" with the PRINTED page number beside each.
-         Printed folios map to PDF indices through the folio page itself
-         (the printed number sits in the page footer text), so clicking a
-         section lands on the real page, whatever the front-matter offset. */
+         The contents page is the source of truth the pupils see, and each
+         series uses its own vocabulary: "Unit 1 . The Mark Room" + "1.1 Marks
+         and lines" (Art & Design), "Stop 1 / Going places" (English),
+         "Unit 8.1 Portrait: People" (Y8/Y9 course books). The parser accepts
+         the common heading shapes, gathers the short title lines that follow
+         a heading, and binds the next bare number (the printed folio) to it.
+         Printed folios map to PDF indices through each page's footer number,
+         so clicking a section lands on the real page. */
       async function buildSections(doc) {
-        /* 1. pass over the first ~12 pages: find the one whose text starts
-           with CONTENTS and contains "Unit" lines. */
+        /* 1. find the contents page in the front matter */
         let tocText = null;
-        const scan = Math.min(12, doc.numPages);
+        const scan = Math.min(14, doc.numPages);
+        /* Several books letter-space their headings ("C O N T E N TS"), so
+           every test runs on a squeezed copy with single spaces collapsed. */
+        const squeeze = (t) =>
+          t.replace(/([A-Za-z]) (?=[A-Za-z](?:\s|$))/g, "$1");
         for (let i = 0; i < scan; i++) {
           const pg = await doc.getPage(i + 1);
           const tc = await pg.getTextContent();
           try { pg.cleanup(); } catch (e) {}
           const t = tc.items.map((it) => it.str).join("\n");
-          if (/^CONTENTS/m.test(t) && /Unit\s*\d/m.test(t)) { tocText = t; break; }
+          const sq = squeeze(t);
+          if (/contents|table of contents|what is inside|\u00edndice|indice/i.test(sq)) {
+            if (/\b(unit|unidade|unidad|stop|topic|theme|term|modulo|module|part|section)\s*\d/i.test(sq) ||
+                /^\d+\s*\n\S/m.test(sq)) { tocText = t; break; }
+          }
         }
-        if (!tocText) return [];
+        if (!tocText) {
+          /* No contents page (Y7+ Maths opens units directly). Build the
+             panel from the unit openers themselves: pages whose first lines
+             match "Unit N · Title" become the sections. */
+          const secs = [];
+          const unitHead = /^(unit|unidade|unidad|term|termo|modulo|module)\s*(\d+(?:\.\d+)?)\s*(?:\s*[·:\u2013\u2014-]\s*(.+))?$/i;
+          for (let i = 2; i < doc.numPages && secs.length < 40; i++) {
+            const pg = await doc.getPage(i + 1);
+            const tc = await pg.getTextContent();
+            try { pg.cleanup(); } catch (e) {}
+            const lines = tc.items
+              .map((it) => it.str)
+              .map((l) => squeeze(l.trim()))
+              .filter(Boolean)
+              .slice(0, 6);
+            const m = (lines[0] || "").match(unitHead);
+            if (m) {
+              const kind = m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase();
+              const label = m[3] ? kind + " " + m[2] + " \u00b7 " + m[3] : kind + " " + m[2];
+              secs.push({ label, sub: "", unit: true, page: i });
+              continue;
+            }
+            const m2 = (lines[0] || "").match(/^(\d+\.\d+)\s+(.+)$/);
+            if (m2 && secs.length && secs[secs.length - 1].label.indexOf("Unit") === 0) {
+              secs.push({ label: m2[1] + " " + m2[2], sub: "", unit: false, page: i });
+            }
+          }
+          return secs;
+        }
 
-        /* 2. folio -> pdf index map: for every page, the last standalone
-           number in its text is the printed folio (the running footer). */
-        const folioOf = new Map(); /* pdfIdx -> folio */
-        const idxOfFolio = new Map(); /* folio -> pdfIdx (first occurrence) */
+        /* 2. folio -> pdf index map from the running footer numbers */
+        const idxOfFolio = new Map();
+        const pageTexts = []; /* truncated text per page, for the body scan */
         for (let i = 0; i < doc.numPages; i++) {
           const pg = await doc.getPage(i + 1);
           const tc = await pg.getTextContent();
           try { pg.cleanup(); } catch (e) {}
           const items = tc.items.map((it) => it.str);
-          /* last item that is purely a number of 1-3 digits */
+          pageTexts.push(items.join("\n").slice(0, 600));
           let folio = null;
           for (let k = items.length - 1; k >= 0; k--) {
             const v = (items[k] || "").trim();
             if (/^\d{1,3}$/.test(v)) { folio = parseInt(v, 10); break; }
           }
-          if (folio !== null) {
-            folioOf.set(i, folio);
-            if (!idxOfFolio.has(folio)) idxOfFolio.set(folio, i);
-          }
+          if (folio !== null && !idxOfFolio.has(folio)) idxOfFolio.set(folio, i);
         }
         const toIdx = (folio) => {
           if (idxOfFolio.has(folio)) return idxOfFolio.get(folio);
-          /* nearest folio at or below: contents sometimes skips pages */
           for (let f = folio - 1; f >= 0; f--)
             if (idxOfFolio.has(f)) return idxOfFolio.get(f);
           return 0;
         };
 
-        /* 3. parse the contents text into units + subunits */
-        const lines = tocText
-          .split("\n")
-          .map((l) => l.trim())
-          .filter(Boolean);
-        const secs = [];
-        let pending = null; /* {label,folio} awaiting its page number */
-        const unitRe = /^(Unit\s*\d+)\s*[·:\u2013-]\s*(.+)$/i;
+        /* 3. parse: headings accumulate up to 2 short title lines; the next
+              bare number is the printed starting page. */
+        const lines = tocText.split("\n").map((l) => l.trim()).filter(Boolean);
+        const headRe = /^(unit|unidade|unidad|stop|topic|theme|term|termo|modulo|module|part|section)\s*(\d+(?:\.\d+)?)\s*(?:(?:\s*[·:\u2013\u2014-]\s*|\s+)(\S.*))?$|^(unit|unidade|unidad|stop|topic|theme|term|termo|modulo|module|part|section)\s*(\d+(?:\.\d+)?)$/i;
         const subRe = /^(\d+\.\d+)\s+(.+)$/;
-        const backRe = /^(Our studio show|My portfolio|Art all through the year|My word book|Where we found out|Glossary|Index)$/i;
-        let pendingPage = null; /* a bare number line belongs to the previous title */
-        for (const raw of lines) {
-          if (/^CONTENTS$/i.test(raw) || /^What is inside\?/i.test(raw)) continue;
+        const secs = [];
+        let pending = null; /* {labelParts:[], unit, page} */
+        const flush = () => {
+          if (pending && pending.labelParts.length) {
+            secs.push({
+              label: pending.labelParts.join(" \u00b7 "),
+              sub: "",
+              unit: pending.unit,
+              page: pending.page,
+            });
+          }
+          pending = null;
+        };
+        for (const rawRaw of lines) {
+          const raw = squeeze(rawRaw);
+          if (/^contents|table of contents|what is inside|what is in this book/i.test(raw)) continue;
           const n = raw.match(/^(\d{1,3})$/);
-          if (n && pending) {
-            pending.page = toIdx(parseInt(n[1], 10));
-            secs.push(pending);
-            pending = null;
+          if (n) {
+            if (pending) {
+              pending.page = toIdx(parseInt(n[1], 10));
+              flush();
+            } else if (parseInt(n[1], 10) <= 40) {
+              /* bare-number contents (Y2/Y3 Maths style: "1 / Numbers to 100"):
+                 the number is the UNIT number, the next short line its title. */
+              pending = { labelParts: [n[1]], unit: true, page: 0, numeric: true };
+            }
             continue;
           }
-          let m = raw.match(unitRe);
+          let m = raw.match(headRe);
           if (m) {
-            pending = { label: m[1] + " \u00b7 " + m[2], sub: "", unit: true, page: 0 };
+            flush(); /* a previous heading with no page after it */
+            const word = m[1] || m[4];
+            const num = m[2] || m[5];
+            const title = m[3];
+            const kind = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+            pending = { labelParts: [kind + " " + num], unit: true, page: 0 };
+            if (title && title.length <= 80) pending.labelParts.push(title);
+            continue;
+          }
+          m = raw.match(/^\d{1,2}\.\s+(\d+\.\d+)\s+(.+)$/);
+          if (m) {
+            flush();
+            pending = { labelParts: [m[1] + " " + m[2]], unit: false, page: 0 };
             continue;
           }
           m = raw.match(subRe);
           if (m) {
-            pending = { label: m[1] + " " + m[2], sub: "", unit: false, page: 0 };
+            flush();
+            pending = { labelParts: [m[1] + " " + m[2]], unit: false, page: 0 };
             continue;
           }
-          m = raw.match(backRe);
-          if (m) {
-            pending = { label: m[1], sub: "", unit: false, page: 0 };
+          /* a short standalone title line continues the pending heading */
+          if (
+            pending &&
+            pending.labelParts.length < 2 &&
+            raw.length > 1 &&
+            raw.length < 60 &&
+            !/[.:]$/.test(raw)
+          ) {
+            if (pending.numeric) {
+              pending.labelParts[0] = "Unit " + pending.labelParts[0];
+              pending.numeric = false;
+            }
+            pending.labelParts.push(raw);
             continue;
           }
         }
-        return secs;
+        flush();
+        /* Contents styles without printed page numbers (Y2 Maths lists bare
+           unit numbers; the Y8/Y9 course books list "Ch 1-7" descriptions):
+           locate the unit's opener by scanning body pages for its title,
+           starting after the contents page itself. */
+        const tocIdx = pageTexts.findIndex(
+          (t, i) =>
+            i < 14 &&
+            /contents|what is inside|what is in this book/i.test(squeeze(t)),
+        );
+        const start = tocIdx >= 0 ? tocIdx + 1 : 1;
+        for (const s of secs) {
+          if (s.page > 0) continue;
+          const probe = s.label.split(" \u00b7 ").pop().toLowerCase();
+          if (probe.length < 5) continue;
+          for (let i = start; i < pageTexts.length; i++) {
+            if (pageTexts[i].toLowerCase().indexOf(probe) >= 0) { s.page = i; break; }
+          }
+        }
+        return secs.filter((s) => s.page > 0);
       }
 
       function renderToc() {
