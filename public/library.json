@@ -12,7 +12,8 @@
   "cover": "/library/y01-art-and-design/cover.webp",
   "mb": 7.15,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-computing-and-robotics",
@@ -27,7 +28,8 @@
   "cover": "/library/y01-computing-and-robotics/cover.webp",
   "mb": 8.01,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-english",
@@ -42,7 +44,8 @@
   "cover": "/library/y01-english/cover.webp",
   "mb": 14.41,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-global-perspectives",
@@ -57,7 +60,8 @@
   "cover": "/library/y01-global-perspectives/cover.webp",
   "mb": 39.41,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-mathematics",
@@ -72,7 +76,8 @@
   "cover": "/library/y01-mathematics/cover.webp",
   "mb": 17.5,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-music-and-drama",
@@ -87,7 +92,8 @@
   "cover": "/library/y01-music-and-drama/cover.webp",
   "mb": 19.19,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-physical-education",
@@ -102,7 +108,8 @@
   "cover": "/library/y01-physical-education/cover.webp",
   "mb": 5.19,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-portuguese",
@@ -117,7 +124,8 @@
   "cover": "/library/y01-portuguese/cover.webp",
   "mb": 0.87,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y01-science",
@@ -132,7 +140,8 @@
   "cover": "/library/y01-science/cover.webp",
   "mb": 8.52,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-art-and-design",
@@ -147,7 +156,8 @@
   "cover": "/library/y02-art-and-design/cover.webp",
   "mb": 6.47,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-computing-and-robotics",
@@ -162,7 +172,8 @@
   "cover": "/library/y02-computing-and-robotics/cover.webp",
   "mb": 13.18,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-english",
@@ -177,7 +188,8 @@
   "cover": "/library/y02-english/cover.webp",
   "mb": 7.84,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-global-perspectives",
@@ -192,7 +204,8 @@
   "cover": "/library/y02-global-perspectives/cover.webp",
   "mb": 12.73,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-mathematics",
@@ -207,7 +220,8 @@
   "cover": "/library/y02-mathematics/cover.webp",
   "mb": 16.76,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-music-and-drama",
@@ -222,7 +236,8 @@
   "cover": "/library/y02-music-and-drama/cover.webp",
   "mb": 15.17,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-physical-education",
@@ -237,7 +252,8 @@
   "cover": "/library/y02-physical-education/cover.webp",
   "mb": 14.18,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y02-science",
@@ -252,7 +268,8 @@
   "cover": "/library/y02-science/cover.webp",
   "mb": 7.35,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y03-art-and-design",
@@ -267,7 +284,8 @@
   "cover": "/library/y03-art-and-design/cover.webp",
   "mb": 3.8,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y03-computing-and-robotics",
@@ -282,7 +300,8 @@
   "cover": "/library/y03-computing-and-robotics/cover.webp",
   "mb": 1.28,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y03-global-perspectives",
@@ -297,7 +316,8 @@
   "cover": "/library/y03-global-perspectives/cover.webp",
   "mb": 7.99,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y03-mathematics",
@@ -312,7 +332,8 @@
   "cover": "/library/y03-mathematics/cover.webp",
   "mb": 1.25,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y03-physical-education",
@@ -327,7 +348,8 @@
   "cover": "/library/y03-physical-education/cover.webp",
   "mb": 11.18,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y03-portuguese",
@@ -342,7 +364,8 @@
   "cover": "/library/y03-portuguese/cover.webp",
   "mb": 8.29,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-art-and-design",
@@ -357,7 +380,8 @@
   "cover": "/library/y04-art-and-design/cover.webp",
   "mb": 3.73,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-computing-and-robotics",
@@ -372,7 +396,8 @@
   "cover": "/library/y04-computing-and-robotics/cover.webp",
   "mb": 1.62,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-english",
@@ -387,7 +412,8 @@
   "cover": "/library/y04-english/cover.webp",
   "mb": 1.4,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-global-perspectives",
@@ -402,7 +428,8 @@
   "cover": "/library/y04-global-perspectives/cover.webp",
   "mb": 9.25,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-mathematics",
@@ -417,7 +444,8 @@
   "cover": "/library/y04-mathematics/cover.webp",
   "mb": 3.18,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-physical-education",
@@ -432,7 +460,8 @@
   "cover": "/library/y04-physical-education/cover.webp",
   "mb": 12.61,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-portuguese",
@@ -447,7 +476,8 @@
   "cover": "/library/y04-portuguese/cover.webp",
   "mb": 0.99,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y04-science",
@@ -462,7 +492,8 @@
   "cover": "/library/y04-science/cover.webp",
   "mb": 0.83,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y05-art-and-design",
@@ -477,7 +508,8 @@
   "cover": "/library/y05-art-and-design/cover.webp",
   "mb": 4.48,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y05-english",
@@ -492,7 +524,8 @@
   "cover": "/library/y05-english/cover.webp",
   "mb": 0.57,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y05-global-perspectives",
@@ -507,7 +540,8 @@
   "cover": "/library/y05-global-perspectives/cover.webp",
   "mb": 6.1,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y05-mathematics",
@@ -522,7 +556,8 @@
   "cover": "/library/y05-mathematics/cover.webp",
   "mb": 0.75,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y05-physical-education",
@@ -537,7 +572,8 @@
   "cover": "/library/y05-physical-education/cover.webp",
   "mb": 13.86,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y05-portuguese",
@@ -552,7 +588,8 @@
   "cover": "/library/y05-portuguese/cover.webp",
   "mb": 6.62,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y06-art-and-design",
@@ -567,7 +604,8 @@
   "cover": "/library/y06-art-and-design/cover.webp",
   "mb": 4.15,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y06-global-perspectives",
@@ -582,7 +620,8 @@
   "cover": "/library/y06-global-perspectives/cover.webp",
   "mb": 2.71,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y06-mathematics",
@@ -597,7 +636,8 @@
   "cover": "/library/y06-mathematics/cover.webp",
   "mb": 2.41,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y06-physical-education",
@@ -612,7 +652,8 @@
   "cover": "/library/y06-physical-education/cover.webp",
   "mb": 16.21,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y06-portuguese",
@@ -627,7 +668,8 @@
   "cover": "/library/y06-portuguese/cover.webp",
   "mb": 4.11,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-art-and-design",
@@ -642,7 +684,8 @@
   "cover": "/library/y07-art-and-design/cover.webp",
   "mb": 6.48,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": "/library/y07-art-and-design/cover-wrap-amazon.png"
  },
  {
   "slug": "y07-computing-and-robotics",
@@ -657,7 +700,8 @@
   "cover": "/library/y07-computing-and-robotics/cover.webp",
   "mb": 3.53,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-english",
@@ -672,7 +716,8 @@
   "cover": "/library/y07-english/cover.webp",
   "mb": 0.94,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-global-perspectives",
@@ -687,7 +732,8 @@
   "cover": "/library/y07-global-perspectives/cover.webp",
   "mb": 1.33,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  },
  {
   "slug": "y07-humanities",
@@ -702,7 +748,8 @@
   "cover": "/library/y07-humanities/cover.webp",
   "mb": 3.74,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-mathematics",
@@ -717,7 +764,8 @@
   "cover": "/library/y07-mathematics/cover.webp",
   "mb": 1.16,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-physical-education",
@@ -732,7 +780,8 @@
   "cover": "/library/y07-physical-education/cover.webp",
   "mb": 7.54,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  },
  {
   "slug": "y07-portuguese-1st",
@@ -747,7 +796,8 @@
   "cover": "/library/y07-portuguese-1st/cover.webp",
   "mb": 7.49,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-science",
@@ -762,7 +812,8 @@
   "cover": "/library/y07-science/cover.webp",
   "mb": 0.92,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y07-spanish",
@@ -777,7 +828,8 @@
   "cover": "/library/y07-spanish/cover.webp",
   "mb": 6.01,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y08-art-and-design",
@@ -792,7 +844,8 @@
   "cover": "/library/y08-art-and-design/cover.webp",
   "mb": 1.47,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y08-english",
@@ -807,7 +860,8 @@
   "cover": "/library/y08-english/cover.webp",
   "mb": 0.69,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y08-humanities",
@@ -822,7 +876,8 @@
   "cover": "/library/y08-humanities/cover.webp",
   "mb": 6.46,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y08-mathematics",
@@ -837,7 +892,8 @@
   "cover": "/library/y08-mathematics/cover.webp",
   "mb": 0.72,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y08-physical-education",
@@ -852,7 +908,8 @@
   "cover": "/library/y08-physical-education/cover.webp",
   "mb": 12.9,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  },
  {
   "slug": "y08-science",
@@ -867,7 +924,8 @@
   "cover": "/library/y08-science/cover.webp",
   "mb": 0.89,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y08-spanish",
@@ -882,7 +940,8 @@
   "cover": "/library/y08-spanish/cover.webp",
   "mb": 0.36,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-art-and-design",
@@ -897,7 +956,8 @@
   "cover": "/library/y09-art-and-design/cover.webp",
   "mb": 1.3,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-english",
@@ -912,7 +972,8 @@
   "cover": "/library/y09-english/cover.webp",
   "mb": 0.69,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-humanities",
@@ -927,7 +988,8 @@
   "cover": "/library/y09-humanities/cover.webp",
   "mb": 6.94,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-mathematics",
@@ -942,7 +1004,8 @@
   "cover": "/library/y09-mathematics/cover.webp",
   "mb": 0.72,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-music-and-drama",
@@ -957,7 +1020,8 @@
   "cover": "/library/y09-music-and-drama/cover.webp",
   "mb": 1.59,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-physical-education",
@@ -972,7 +1036,8 @@
   "cover": "/library/y09-physical-education/cover.webp",
   "mb": 9.05,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-portuguese",
@@ -987,7 +1052,8 @@
   "cover": "/library/y09-portuguese/cover.webp",
   "mb": 0.75,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-science",
@@ -1002,7 +1068,8 @@
   "cover": "/library/y09-science/cover.webp",
   "mb": 0.9,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y09-spanish",
@@ -1017,7 +1084,8 @@
   "cover": "/library/y09-spanish/cover.webp",
   "mb": 9.79,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y10-business-btec-l2",
@@ -1032,7 +1100,8 @@
   "cover": "/library/y10-business-btec-l2/cover.webp",
   "mb": 0.37,
   "buildable": true,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y10-physical-education",
@@ -1047,7 +1116,8 @@
   "cover": "/library/y10-physical-education/cover.webp",
   "mb": 6.72,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  },
  {
   "slug": "y10-portuguese-1st",
@@ -1062,7 +1132,8 @@
   "cover": "/library/y10-portuguese-1st/cover.webp",
   "mb": 2.35,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y10-portuguese-1st-igcse",
@@ -1077,7 +1148,8 @@
   "cover": "/library/y10-portuguese-1st-igcse/cover.webp",
   "mb": 3.83,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y10-spanish-1st-igcse",
@@ -1092,7 +1164,8 @@
   "cover": "/library/y10-spanish-1st-igcse/cover.webp",
   "mb": 1.87,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y11-physical-education",
@@ -1107,7 +1180,8 @@
   "cover": "/library/y11-physical-education/cover.webp",
   "mb": 2.19,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  },
  {
   "slug": "y11-portuguese-1st",
@@ -1122,7 +1196,8 @@
   "cover": "/library/y11-portuguese-1st/cover.webp",
   "mb": 2.25,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y12-physical-education",
@@ -1137,7 +1212,8 @@
   "cover": "/library/y12-physical-education/cover.webp",
   "mb": 3.6,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  },
  {
   "slug": "y12-portuguese-a-level",
@@ -1152,7 +1228,8 @@
   "cover": "/library/y12-portuguese-a-level/cover.webp",
   "mb": 0.52,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y12-spanish-a-level",
@@ -1167,7 +1244,8 @@
   "cover": "/library/y12-spanish-a-level/cover.webp",
   "mb": 0.74,
   "buildable": false,
-  "editable": true
+  "editable": true,
+  "wrapCover": null
  },
  {
   "slug": "y13-physical-education",
@@ -1182,6 +1260,7 @@
   "cover": "/library/y13-physical-education/cover.webp",
   "mb": 2.4,
   "buildable": false,
-  "editable": false
+  "editable": false,
+  "wrapCover": null
  }
 ]
