@@ -669,6 +669,9 @@
         opacity: 0;
         transition: opacity 0.5s ease;
       }
+      .bcov img[src] {
+        opacity: 1;
+      }
 
       .bcov.dim img {
         filter: grayscale(0.65) brightness(0.85);
@@ -5261,6 +5264,17 @@ function rr(x, px, py, w, h, r) {
       function coverURL(year, subj) {
         const key = year + "|" + subj;
         if (coverCache.has(key)) return coverCache.get(key);
+        /* The book's own cover first: every library/<slug>/ folder ships a
+           cover.webp rendered from the book's page 1 (tools/sync_library.py),
+           so the card shows exactly this edition's artwork. */
+        const row = SUBJECT_ROWS[key];
+        if (row && row.cover) {
+          const live = window.__PB_LIVE
+            ? window.__PB_LIVE_BASE + row.cover
+            : row.cover;
+          coverCache.set(key, live);
+          return live;
+        }
         const catalogueBook =
           catData && catData.find((item) => item.year === year && item.subj === subj);
         if (catalogueBook && catalogueBook.cover) {

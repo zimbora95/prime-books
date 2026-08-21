@@ -684,7 +684,7 @@
   "pages": 146,
   "done": false,
   "pdf": "/library/y07-global-perspectives/book.pdf",
-  "cover": null,
+  "cover": "/library/y07-global-perspectives/cover.webp",
   "mb": 1.33,
   "buildable": false,
   "editable": false
@@ -999,7 +999,7 @@
   "pages": 42,
   "done": false,
   "pdf": "/library/y10-business-btec-l2/book.pdf",
-  "cover": null,
+  "cover": "/library/y10-business-btec-l2/cover.webp",
   "mb": 0.37,
   "buildable": true,
   "editable": true
@@ -1059,7 +1059,7 @@
   "pages": 260,
   "done": false,
   "pdf": "/library/y10-spanish-1st-igcse/book.pdf",
-  "cover": null,
+  "cover": "/library/y10-spanish-1st-igcse/cover.webp",
   "mb": 1.87,
   "buildable": false,
   "editable": true
@@ -1074,7 +1074,7 @@
   "pages": 31,
   "done": false,
   "pdf": "/library/y11-physical-education/book.pdf",
-  "cover": null,
+  "cover": "/library/y11-physical-education/cover.webp",
   "mb": 2.19,
   "buildable": false,
   "editable": false
@@ -1119,7 +1119,7 @@
   "pages": 156,
   "done": false,
   "pdf": "/library/y12-portuguese-a-level/book.pdf",
-  "cover": null,
+  "cover": "/library/y12-portuguese-a-level/cover.webp",
   "mb": 0.52,
   "buildable": false,
   "editable": true
@@ -1134,7 +1134,7 @@
   "pages": 176,
   "done": false,
   "pdf": "/library/y12-spanish-a-level/book.pdf",
-  "cover": null,
+  "cover": "/library/y12-spanish-a-level/cover.webp",
   "mb": 0.74,
   "buildable": false,
   "editable": true
@@ -1149,7 +1149,7 @@
   "pages": 32,
   "done": false,
   "pdf": "/library/y13-physical-education/book.pdf",
-  "cover": null,
+  "cover": "/library/y13-physical-education/cover.webp",
   "mb": 2.4,
   "buildable": false,
   "editable": false
