@@ -85,7 +85,7 @@
         padding: 12px 14px; resize: vertical;
       }
       textarea:focus, .am-kw-input:focus { outline: 2px solid var(--gold); outline-offset: -1px; }
-      textarea { min-height: 170px; }
+      textarea { min-height: 320px; font-size: 15px; }
 
       /* ---- keywords ---- */
       .am-kw-row { display: flex; gap: 8px; }
@@ -153,7 +153,7 @@
               >
               <textarea
                 id="amDesc"
-                placeholder="Describe this book for its Amazon listing — what it teaches, who it is for, what makes it special. This is the text buyers will read."
+                placeholder="Write the description for this book's Amazon listing."
               ></textarea>
             </div>
           </div>
@@ -171,8 +171,7 @@
             </div>
             <div class="am-kw-list" id="amKwList"></div>
             <div class="am-kw-hint">
-              Amazon KDP accepts up to 7 keywords per book. Choose phrases buyers
-              search for &mdash; e.g. &ldquo;cambridge primary science workbook&rdquo;.
+              Amazon KDP accepts up to 7 keywords per book.
             </div>
           </div>
 
@@ -385,8 +384,7 @@
           } else {
             box.innerHTML =
               '<div class="am-cover-empty">No wrap cover in the library yet.<br />' +
-              "Add the file <b>*WRAP*COVER*.png</b> to this book's KDP folder and run " +
-              "<b>tools/sync_library.py</b> &mdash; it will be copied here automatically.</div>";
+              "Run <b>tools/make_wrap_cover.py " + esc(slug) + "</b> to build it from the book's own pages.</div>";
           }
         }
 

@@ -333,7 +333,7 @@
   "mb": 1.25,
   "buildable": true,
   "editable": true,
-  "wrapCover": null
+  "wrapCover": "/library/y03-mathematics/cover-wrap-amazon.png"
  },
  {
   "slug": "y03-physical-education",
@@ -950,7 +950,7 @@
   "band": "Cambridge Lower Secondary",
   "family": "geometric",
   "level": "Lower Secondary",
-  "pages": 122,
+  "pages": 71,
   "done": false,
   "pdf": "/library/y09-art-and-design/book.pdf",
   "cover": "/library/y09-art-and-design/cover.webp",
@@ -1069,7 +1069,7 @@
   "mb": 0.9,
   "buildable": false,
   "editable": true,
-  "wrapCover": null
+  "wrapCover": "/library/y09-science/cover-wrap-amazon.png"
  },
  {
   "slug": "y09-spanish",
