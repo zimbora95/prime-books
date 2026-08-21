@@ -6873,8 +6873,17 @@
                 item.subj === cover.dataset.subject,
             );
           if (row) {
-            openFlex(row.year, row.subj, "manual");
             closeCatalogue();
+            /* same mid-flight guard as the catalogue cards: wait for the 3D
+               state machine to be home before opening the requested book */
+            (function tryOpen(n) {
+              if (state.mode === "hero") {
+                openFlex(row.year, row.subj, "manual");
+                return;
+              }
+              if (state.mode === "detail") close();
+              if (n < 45) setTimeout(() => tryOpen(n + 1), 100);
+            })(0);
           } else {
             catFilter = cover.dataset.year;
             edFilter = "manual";
@@ -6889,20 +6898,6 @@
 
       }
 
-      const FEATURED = [
-        {
-          test: (y, s) => y === "Year 3" && s === "Mathematics",
-          book: () => books[0],
-        },
-        {
-          test: (y, s) => y === "Year 7" && s.indexOf("Humanities") === 0,
-          book: () => books[1],
-        },
-        {
-          test: (y, s) => y === "Year 9" && s.indexOf("Portuguese 1st") === 0,
-          book: () => books[2],
-        },
-      ];
 
       function openCatalogue() {
         document.body.classList.add("cat-open");
@@ -7718,18 +7713,22 @@
           const v = e.target.closest("[data-feat]");
           if (!v) return;
           const parts = v.getAttribute("data-feat").split("|");
-          const feat = FEATURED.find((f) => f.test(parts[0], parts[1]));
-          const useFeat = feat && parts[2] === "manual";
+          const go = () => openFlex(parts[0], parts[1], parts[2]);
+          /* The 3D state machine cycles hero -> opening -> detail -> closing
+             -> hero on ~1.3-1.6s timers. A request that arrives mid-opening
+             or mid-closing used to be dropped, which stranded the user on the
+             retired three-book hero stage. Drive the machine home first, then
+             open: poll until mode === "hero" (close() is idempotent and only
+             acts from "detail"), with a bounded number of retries. */
           closeCatalogue();
-          const go = () => {
-            if (useFeat) openBookDetail(feat.book());
-            else openFlex(parts[0], parts[1], parts[2]);
-          };
-          if (state.mode === "hero") go();
-          else if (state.mode === "detail") {
-            close();
-            setTimeout(go, 1750);
-          }
+          (function tryOpen(n) {
+            if (state.mode === "hero") {
+              go();
+              return;
+            }
+            if (state.mode === "detail") close();
+            if (n < 45) setTimeout(() => tryOpen(n + 1), 100);
+          })(0);
         };
       }
 
