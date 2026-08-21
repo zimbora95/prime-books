@@ -555,6 +555,156 @@
         grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
         gap: 14px;
       }
+
+      .book-card {
+        background: #fffdf8;
+        border: 1px solid rgba(12, 19, 52, 0.1);
+        border-radius: 18px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        transition:
+          transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+          box-shadow 0.3s ease,
+          border-color 0.3s ease;
+      }
+
+      .book-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 18px 44px rgba(12, 19, 52, 0.14);
+        border-color: rgba(12, 19, 52, 0.22);
+      }
+
+      .book-card.soon {
+        opacity: 0.55;
+      }
+
+      .book-card h4 {
+        margin: 0;
+        font-size: 17.5px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        line-height: 1.25;
+      }
+
+      .book-card .eds {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+
+      .ed {
+        height: 24px;
+        padding: 0 10px;
+        border-radius: 999px;
+        display: inline-flex;
+        align-items: center;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.05em;
+        background: rgba(12, 19, 52, 0.07);
+        color: var(--navy);
+      }
+
+      .ed.no {
+        background: transparent;
+        border: 1px dashed rgba(12, 19, 52, 0.25);
+        color: #8a90ac;
+      }
+
+      .book-card .foot-row {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .foot-row .view3d {
+        align-self: center;
+      }
+
+      .bcov[data-feat] {
+        cursor: pointer;
+      }
+
+      .view3d {
+        align-self: flex-start;
+        height: 34px;
+        padding: 0 15px;
+        border-radius: 999px;
+        background: var(--navy);
+        color: var(--cream);
+        font-size: 12.5px;
+        font-weight: 700;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        transition:
+          background 0.2s,
+          transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+      }
+
+      .view3d:hover {
+        background: var(--red);
+        transform: scale(1.05);
+      }
+
+      .bcov {
+        position: relative;
+        aspect-ratio: 2 / 3;
+        border-radius: 4px 12px 12px 4px;
+        overflow: hidden;
+        background: #101a3f;
+        box-shadow: 0 8px 22px rgba(12, 19, 52, 0.18);
+      }
+
+      .bcov img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: left center;
+        display: block;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+      }
+
+      .bcov.dim img {
+        filter: grayscale(0.65) brightness(0.85);
+      }
+
+      .bflag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        border-radius: 999px;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        color: #241a06;
+        background: var(--gold);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      }
+
+      .bflag.workbook {
+        background: #8fd6b0;
+        color: #0c2b1c;
+      }
+
+      .bed {
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--red);
+      }
+
+      .book-card.soon .bed {
+        color: #b08527;
+      }
+
       .ed {
         height: 24px;
         padding: 0 10px;
@@ -5893,6 +6043,8 @@ function rr(x, px, py, w, h, r) {
         document.body.classList.remove("fb-open");
         fbEl.setAttribute("aria-hidden", "true");
         fbTocPanel.classList.remove("on");
+        /* The catalogue is the homepage: closing a book returns there. */
+        requestAnimationFrame(openCatalogue);
         /* Drop back to the catalogue URL: leaving /book/<slug> in the address
            bar over a closed reader means a reload reopens a book the reader
            just dismissed. */
