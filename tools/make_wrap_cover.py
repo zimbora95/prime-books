@@ -82,25 +82,35 @@ def page_image(doc: pymupdf.Document, idx: int, dpi: int) -> Image.Image:
 
 
 def page_is_art(doc: pymupdf.Document, idx: int) -> bool:
-    """Textless and substantially non-white -> full artwork page."""
+    """Textless page that is not pure white — cream back covers (Y2) carry
+    their whole design as vector art, so whiteness must be measured against
+    pure paper (255) with a tolerance, and any textless page with a solid
+    non-white background or moderate colour counts as artwork."""
     if doc[idx].get_text().strip():
         return False
     pix = doc[idx].get_pixmap(dpi=10)
     d = pix.samples
     n = len(d) // 3
-    nonwhite = sum(
-        1
-        for i in range(0, len(d), 3)
-        if not (d[i] > 245 and d[i + 1] > 245 and d[i + 2] > 245)
-    )
-    return n > 0 and nonwhite / n > 0.5
+    nonwhite = 0
+    for i in range(0, len(d), 3):
+        if not (d[i] > 252 and d[i + 1] > 252 and d[i + 2] > 252):
+            nonwhite += 1
+    return n > 0 and nonwhite / n > 0.3
 
 
 def find_designed_back(doc: pymupdf.Document) -> int | None:
-    """Index of a real back-cover page, preferring the LAST page."""
+    """Index of the book's real back-cover page.
+
+    The back cover is nearly always the LAST page. Only walk further back
+    when the last page is provably interior (has running headers/page
+    numbers). "FOR TEACHERS" pages with 'about this book' are front-matter
+    or rear-matter INTERIOR pages, not covers — excluded explicitly.
+    """
     n = doc.page_count
-    for i in range(n - 1, max(n - 5, 0) - 1, -1):
+    for i in range(n - 1, max(n - 4, 0) - 1, -1):
         t = doc[i].get_text().strip().lower()
+        if "for teachers" in t or "page" == t[:4]:
+            continue  # interior furniture
         if any(m in t for m in BACK_MARKERS):
             return i
     if page_is_art(doc, n - 1):
