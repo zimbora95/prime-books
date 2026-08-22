@@ -289,6 +289,16 @@ def build(slug: str) -> pathlib.Path:
 
     out = LIBRARY / slug / "cover-wrap-amazon.png"
     canvas.save(out, "PNG", optimize=True)
+
+    # keep the manifest in step so the site sees wrapCover immediately
+    data = json.loads((REPO / "public" / "library.json").read_text())
+    for r in data:
+        if r.get("slug") == slug:
+            r["wrapCover"] = f"/library/{slug}/cover-wrap-amazon.png"
+    (REPO / "public" / "library.json").write_text(
+        json.dumps(data, indent=1, ensure_ascii=False)
+    )
+
     print(f"{slug}: {n}pp  spine {spine_in}in  back={back_src}  {out.stat().st_size/1e6:.1f} MB")
     return out
 

@@ -157,7 +157,7 @@
   "mb": 6.47,
   "buildable": true,
   "editable": true,
-  "wrapCover": null
+  "wrapCover": "/library/y02-art-and-design/cover-wrap-amazon.png"
  },
  {
   "slug": "y02-computing-and-robotics",
@@ -838,7 +838,7 @@
   "band": "Cambridge Lower Secondary",
   "family": "geometric",
   "level": "Lower Secondary",
-  "pages": 157,
+  "pages": 158,
   "done": false,
   "pdf": "/library/y08-art-and-design/book.pdf",
   "cover": "/library/y08-art-and-design/cover.webp",

@@ -41,8 +41,7 @@
       .am-sub { color: var(--mist); font-size: 13.5px; margin-bottom: 26px; }
       .am-sub b { color: var(--cream); }
 
-      .am-grid { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 28px; }
-      @media (max-width: 900px) { .am-grid { grid-template-columns: 1fr; } }
+      .am-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
 
       .am-card {
         background: var(--paper); border: 1px solid var(--line);
@@ -61,12 +60,23 @@
         font-size: 14px; line-height: 1.6;
       }
       .am-cover-img { display: block; width: 100%; height: auto; border-radius: 8px; }
+      .am-cover-actions { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
       .am-cover-dl {
-        margin-top: 14px; display: inline-flex; align-items: center; gap: 8px;
+        display: inline-flex; align-items: center; gap: 8px;
         height: 40px; padding: 0 18px; border-radius: 999px;
         background: var(--gold); color: var(--ink); font-size: 13.5px;
         font-weight: 800; cursor: pointer; text-decoration: none; border: none;
       }
+      .am-cover-regen {
+        display: inline-flex; align-items: center; gap: 8px;
+        height: 40px; padding: 0 18px; border-radius: 999px;
+        background: rgba(246, 241, 230, 0.08);
+        border: 1px solid rgba(246, 241, 230, 0.28);
+        color: var(--cream); font-size: 13.5px; font-weight: 700;
+        cursor: pointer;
+      }
+      .am-cover-regen:disabled { opacity: 0.45; cursor: default; }
+      .am-cover-regen.ok { border-color: var(--gold); color: var(--gold); }
       .am-cover-note { margin-top: 12px; color: var(--mist); font-size: 12.5px; line-height: 1.55; }
 
       /* ---- fields ---- */
@@ -144,6 +154,20 @@
 
       <div class="am-grid" id="amGrid" style="display:none">
         <div>
+          <!-- Wrap cover card ON TOP: the print file is the headline asset
+               of the KDP listing, so it leads the page. -->
+          <div class="am-card">
+            <h2>Wrap Cover &mdash; print file</h2>
+            <div id="amCoverBox"></div>
+            <div class="am-cover-note">
+              Back cover + spine + front cover, merged &mdash; generated from the
+              book&rsquo;s own PDF pages. When the book&rsquo;s cover or back cover is
+              updated, click <b>Regenerate</b> to rebuild the wrap from the new pages.
+              <span id="amCoverMeta"></span>
+            </div>
+            <div class="am-cover-actions" id="amCoverActions"></div>
+          </div>
+
           <div class="am-card">
             <h2>About this Book &mdash; description</h2>
             <div class="am-field">
@@ -178,13 +202,6 @@
           <div class="am-actions">
             <button class="am-save" id="amSave">Save listing details</button>
             <span class="am-msg" id="amMsg"></span>
-          </div>
-        </div>
-
-        <div>
-          <div class="am-card">
-            <h2>Wrap Cover &mdash; print file</h2>
-            <div id="amCoverBox"></div>
           </div>
         </div>
       </div>
@@ -234,14 +251,19 @@
           if (m && typeof m === "object") amzMap = m;
         } catch (e) {}
 
-        function fetchBases(path, opts, i, onOk, onFail) {
+        function fetchBases(path, opts, i, onOk, onFail, timeoutMs) {
           /* Every request is bounded: a dead tunnel must fail fast and fall
-             through to same-origin, never hang the page on "Loading…". */
+             through to same-origin, never hang the page on "Loading…".
+             timeoutMs overrides the default (the wrap REGENERATION build
+             takes well over 8 s, so it passes a long one). */
           var ctrl = null;
           if (typeof AbortController !== "undefined") {
             ctrl = new AbortController();
             opts = Object.assign({}, opts, { signal: ctrl.signal });
-            setTimeout(function () { try { ctrl.abort(); } catch (e) {} }, 8000);
+            setTimeout(
+              function () { try { ctrl.abort(); } catch (e) {} },
+              timeoutMs || 8000,
+            );
           }
           i = i || 0;
           var liveBases = liveBaseList();
@@ -267,17 +289,45 @@
         function saveBookEntry(entry, onDone) {
           amzMap[slug] = entry;
           try { localStorage.setItem(AMZ_STORE, JSON.stringify(amzMap)); } catch (e) {}
-          fetchBases(
-            "/amazon.json",
-            {
+          /* POST to the LIVE server only — the same-origin copy on Vercel is
+             a read-only snapshot, and posting to it silently "succeeds" with
+             a 200 while writing nothing. Retry up to 3 times, then verify by
+             reading back what the server now holds for this slug. */
+          var live = window.__PB_LIVE_BASE || "";
+          if (!live) return onDone(false);
+          var body = JSON.stringify({ __slug: slug, entry: entry });
+          var attempt = 0;
+          (function post() {
+            attempt++;
+            fetch(live + "/amazon.json", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ __slug: slug, entry: entry }),
-            },
-            0,
-            function () { onDone(true); },
-            function () { onDone(false); },
-          );
+              body: body,
+            })
+              .then(function (r) {
+                if (!r.ok) throw new Error("http " + r.status);
+                /* verify: read the map back and check OUR entry landed */
+                return fetch(live + "/amazon.json", { cache: "no-store" })
+                  .then(function (r2) { return r2.ok ? r2.json() : null; });
+              })
+              .then(function (m) {
+                if (m && m[slug] && m[slug].description === entry.description &&
+                    Array.isArray(m[slug].keywords) &&
+                    m[slug].keywords.join("\u0001") === entry.keywords.join("\u0001")) {
+                  amzMap = m;
+                  try { localStorage.setItem(AMZ_STORE, JSON.stringify(amzMap)); } catch (e) {}
+                  onDone(true);
+                } else if (attempt < 3) {
+                  setTimeout(post, 600 * attempt);
+                } else {
+                  onDone(false);
+                }
+              })
+              .catch(function () {
+                if (attempt < 3) setTimeout(post, 600 * attempt);
+                else onDone(false);
+              });
+          })();
         }
 
         /* ---------- library manifest ---------- */
@@ -371,21 +421,70 @@
 
         function renderCover() {
           var box = el("amCoverBox");
+          var actions = el("amCoverActions");
+          var meta = el("amCoverMeta");
           var wrap = row && row.wrapCover;
           if (wrap) {
             var base = "";
-            if (wrap.indexOf("http") === 0) base = "";
-            else if (wrap.indexOf("/") === 0 && window.__PB_LIVE)
+            if (wrap.indexOf("http") !== 0 && wrap.indexOf("/") === 0 && window.__PB_LIVE)
               base = window.__PB_LIVE_BASE || "";
             box.innerHTML =
-              '<img class="am-cover-img" src="' + esc(base + wrap) + '" alt="Wrap cover (back cover, spine and front cover merged)" />' +
+              '<img class="am-cover-img" src="' + esc(base + wrap + "?v=" + Date.now()) + '" alt="Wrap cover (back cover, spine and front cover merged)" />';
+            actions.innerHTML =
               '<a class="am-cover-dl" href="' + esc(base + wrap) + '" download="' +
-              esc("WRAP_COVER_" + slug + ".png") + '">&#8681;&nbsp; Download print file</a>';
+              esc("WRAP_COVER_" + slug + ".png") + '">&#8681;&nbsp; Download print file</a>' +
+              '<button class="am-cover-regen" id="amRegenBtn" title="Rebuild the wrap from the book\u2019s latest PDF pages">&#8635;&nbsp; Regenerate</button>';
+            if (meta && row.pages) meta.textContent = "";
+            var rb = el("amRegenBtn");
+            if (rb) rb.addEventListener("click", regenerateWrap);
           } else {
-            box.innerHTML =
-              '<div class="am-cover-empty">No wrap cover in the library yet.<br />' +
-              "Run <b>tools/make_wrap_cover.py " + esc(slug) + "</b> to build it from the book's own pages.</div>";
+            box.innerHTML = "";
+            actions.innerHTML =
+              '<button class="am-cover-regen ok" id="amRegenBtn">&#8635;&nbsp; Generate wrap cover</button>';
+            var rb2 = el("amRegenBtn");
+            if (rb2) rb2.addEventListener("click", regenerateWrap);
           }
+        }
+
+        /* Rebuild the wrap on the live server from the book's own PDF:
+           BACK COVER + SPINE + FRONT COVER, merged. The server runs
+           tools/make_wrap_cover.py; when it finishes we re-read the manifest
+           so the new wrapCover URL (cache-busted) appears immediately. */
+        function regenerateWrap() {
+          var btn = el("amRegenBtn");
+          btn.disabled = true;
+          btn.innerHTML = "&#8635;&nbsp; Generating\u2026";
+          fetchBases(
+            "/wrap/" + encodeURIComponent(slug),
+            { method: "POST" },
+            0,
+            function (r) {
+              if (!r || !r.ok) {
+                btn.disabled = false;
+                btn.innerHTML = "&#8635;&nbsp; Regenerate";
+                msg("Could not regenerate the wrap \u2014 is the build server online?", "err");
+                return;
+              }
+              /* re-read the manifest so the new wrap (and its new timestamp
+                 cache-buster) shows without a manual reload */
+              loadLibrary(function () {
+                renderCover();
+                var b2 = el("amRegenBtn");
+                if (b2) {
+                  b2.disabled = false;
+                  b2.innerHTML = "&#8635;&nbsp; Regenerate";
+                  b2.classList.add("ok");
+                }
+                msg("Wrap cover regenerated from the book\u2019s latest pages.", "ok");
+              });
+            },
+            function () {
+              btn.disabled = false;
+              btn.innerHTML = "&#8635;&nbsp; Regenerate";
+              msg("Could not reach the server to regenerate the wrap.", "err");
+            },
+            300000, /* the PDF render can take minutes on big books */
+          );
         }
 
         function initForm() {
@@ -441,8 +540,8 @@
               saveInFlight = false;
               btn.disabled = false;
               btn.textContent = "Save listing details";
-              if (ok) msg("Saved \u2014 visible to everyone.", "ok");
-              else msg("Could not reach the server \u2014 applied on this device only.", "err");
+              if (ok) msg("Saved \u2014 visible to everyone, on every computer.", "ok");
+              else msg("Could NOT save \u2014 the build server is offline. Your text is still on screen; try Save again once it is back.", "err");
             });
           });
         }
