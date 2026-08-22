@@ -161,8 +161,9 @@
             <div id="amCoverBox"></div>
             <div class="am-cover-note">
               Back cover + spine + front cover, merged &mdash; generated from the
-              book&rsquo;s own PDF pages. When the book&rsquo;s cover or back cover is
-              updated, click <b>Regenerate</b> to rebuild the wrap from the new pages.
+              book&rsquo;s own PDF pages. <b>Updates automatically</b>: whenever the
+              book&rsquo;s cover or back cover changes, this wrap rebuilds itself from
+              the new pages.
               <span id="amCoverMeta"></span>
             </div>
             <div class="am-cover-actions" id="amCoverActions"></div>
@@ -450,18 +451,46 @@
            BACK COVER + SPINE + FRONT COVER, merged. The server runs
            tools/make_wrap_cover.py; when it finishes we re-read the manifest
            so the new wrapCover URL (cache-busted) appears immediately. */
+        /* Wrap covers are DERIVED from the book's PDF (back + spine + front).
+           AUTOMATIC: the page asks the server whether the wrap is older than
+           the book's PDF; if it is (a new cover/back was published), the
+           wrap rebuilds itself right here — the Regenerate button stays for
+           a manual rebuild, but nobody needs to click it. */
+        function checkWrapFreshness() {
+          fetchBases(
+            "/wrap/" + encodeURIComponent(slug),
+            { cache: "no-store" },
+            0,
+            function (r) {
+              if (r && r.stale) {
+                autoRegen = true;
+                regenerateWrap();
+              }
+            },
+            function () {},
+            15000,
+          );
+        }
+        var autoRegen = false;
+
         function regenerateWrap() {
           var btn = el("amRegenBtn");
-          btn.disabled = true;
-          btn.innerHTML = "&#8635;&nbsp; Generating\u2026";
+          if (btn) {
+            btn.disabled = true;
+            btn.innerHTML = "&#8635;&nbsp; Generating\u2026";
+          }
+          if (autoRegen) msg("The book\u2019s cover changed \u2014 updating the wrap cover\u2026", "");
           fetchBases(
             "/wrap/" + encodeURIComponent(slug),
             { method: "POST" },
             0,
             function (r) {
               if (!r || !r.ok) {
-                btn.disabled = false;
-                btn.innerHTML = "&#8635;&nbsp; Regenerate";
+                autoRegen = false;
+                if (btn) {
+                  btn.disabled = false;
+                  btn.innerHTML = "&#8635;&nbsp; Regenerate";
+                }
                 msg("Could not regenerate the wrap \u2014 is the build server online?", "err");
                 return;
               }
@@ -475,12 +504,16 @@
                   b2.innerHTML = "&#8635;&nbsp; Regenerate";
                   b2.classList.add("ok");
                 }
-                msg("Wrap cover regenerated from the book\u2019s latest pages.", "ok");
+                msg("Wrap cover updated from the book\u2019s latest pages.", "ok");
+                autoRegen = false;
               });
             },
             function () {
-              btn.disabled = false;
-              btn.innerHTML = "&#8635;&nbsp; Regenerate";
+              autoRegen = false;
+              if (btn) {
+                btn.disabled = false;
+                btn.innerHTML = "&#8635;&nbsp; Regenerate";
+              }
               msg("Could not reach the server to regenerate the wrap.", "err");
             },
             300000, /* the PDF render can take minutes on big books */
@@ -502,6 +535,9 @@
           updateDescCount();
           renderKeywords();
           renderCover();
+          /* AUTO: if the book's PDF is newer than the wrap (a cover/back
+             update), rebuild it right away — no button click needed. */
+          checkWrapFreshness();
 
           el("amDesc").addEventListener("input", updateDescCount);
 
@@ -579,8 +615,10 @@
                 return;
               }
               initForm();
-              /* Realtime: keep this page in step with other users' saves. */
+              /* Realtime: keep this page in step with other users' saves,
+                 and keep the wrap in step with the book's latest PDF. */
               setInterval(pollForUpdates, 5000);
+              setInterval(function () { if (!autoRegen) checkWrapFreshness(); }, 30000);
             });
           });
         });
