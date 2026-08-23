@@ -160,10 +160,11 @@
             <h2>Wrap Cover &mdash; print file</h2>
             <div id="amCoverBox"></div>
             <div class="am-cover-note">
-              Back cover + spine + front cover, merged &mdash; generated from the
-              book&rsquo;s own PDF pages. <b>Updates automatically</b>: whenever the
-              book&rsquo;s cover or back cover changes, this wrap rebuilds itself from
-              the new pages.
+              Back cover + spine + front cover, merged into <b>one print PDF</b> at
+              KDP&rsquo;s 8.5&Prime;&nbsp;&times;&nbsp;11.5&Prime; Premium Color spec &mdash;
+              spine width from the page count (pages &times; 0.002347&Prime;), 0.125&Prime; bleed,
+              300 DPI, spine in this year&rsquo;s official Prime Books colour. <b>Updates
+              automatically</b> whenever the book&rsquo;s cover or back cover changes.
               <span id="amCoverMeta"></span>
             </div>
             <div class="am-cover-actions" id="amCoverActions"></div>
@@ -424,16 +425,18 @@
           var box = el("amCoverBox");
           var actions = el("amCoverActions");
           var meta = el("amCoverMeta");
-          var wrap = row && row.wrapCover;
+          var wrap = row && (row.wrapCoverPdf || row.wrapCover);
           if (wrap) {
             var base = "";
             if (wrap.indexOf("http") !== 0 && wrap.indexOf("/") === 0 && window.__PB_LIVE)
               base = window.__PB_LIVE_BASE || "";
+            var isPdf = wrap.slice(-4).toLowerCase() === ".pdf";
             box.innerHTML =
-              '<img class="am-cover-img" src="' + esc(base + wrap + "?v=" + Date.now()) + '" alt="Wrap cover (back cover, spine and front cover merged)" />';
+              '<img class="am-cover-img" src="' + esc(base + (row.wrapCover || wrap) + "?v=" + Date.now()) + '" alt="Wrap cover (back cover, spine and front cover merged)" />';
             actions.innerHTML =
               '<a class="am-cover-dl" href="' + esc(base + wrap) + '" download="' +
-              esc("WRAP_COVER_" + slug + ".png") + '">&#8681;&nbsp; Download print file</a>' +
+              esc("WRAP_COVER_" + slug + (isPdf ? ".pdf" : ".png")) + '">&#8681;&nbsp; ' +
+              (isPdf ? "Download print PDF (KDP)" : "Download print file") + "</a>" +
               '<button class="am-cover-regen" id="amRegenBtn" title="Rebuild the wrap from the book\u2019s latest PDF pages">&#8635;&nbsp; Regenerate</button>';
             if (meta && row.pages) meta.textContent = "";
             var rb = el("amRegenBtn");

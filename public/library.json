@@ -13,7 +13,8 @@
   "mb": 7.15,
   "buildable": true,
   "editable": true,
-  "wrapCover": "/library/y01-art-and-design/cover-wrap-amazon.png"
+  "wrapCover": "/library/y01-art-and-design/cover-wrap-amazon.png",
+  "wrapCoverPdf": "/library/y01-art-and-design/cover-wrap-amazon.pdf"
  },
  {
   "slug": "y01-computing-and-robotics",
@@ -157,7 +158,8 @@
   "mb": 6.47,
   "buildable": true,
   "editable": true,
-  "wrapCover": "/library/y02-art-and-design/cover-wrap-amazon.png"
+  "wrapCover": "/library/y02-art-and-design/cover-wrap-amazon.png",
+  "wrapCoverPdf": "/library/y02-art-and-design/cover-wrap-amazon.pdf"
  },
  {
   "slug": "y02-computing-and-robotics",
@@ -333,7 +335,8 @@
   "mb": 1.25,
   "buildable": true,
   "editable": true,
-  "wrapCover": "/library/y03-mathematics/cover-wrap-amazon.png"
+  "wrapCover": "/library/y03-mathematics/cover-wrap-amazon.png",
+  "wrapCoverPdf": "/library/y03-mathematics/cover-wrap-amazon.pdf"
  },
  {
   "slug": "y03-physical-education",
@@ -685,7 +688,8 @@
   "mb": 6.48,
   "buildable": true,
   "editable": true,
-  "wrapCover": "/library/y07-art-and-design/cover-wrap-amazon.png"
+  "wrapCover": "/library/y07-art-and-design/cover-wrap-amazon.png",
+  "wrapCoverPdf": "/library/y07-art-and-design/cover-wrap-amazon.pdf"
  },
  {
   "slug": "y07-computing-and-robotics",
@@ -838,7 +842,7 @@
   "band": "Cambridge Lower Secondary",
   "family": "geometric",
   "level": "Lower Secondary",
-  "pages": 158,
+  "pages": 109,
   "done": false,
   "pdf": "/library/y08-art-and-design/book.pdf",
   "cover": "/library/y08-art-and-design/cover.webp",
@@ -1069,7 +1073,8 @@
   "mb": 0.9,
   "buildable": false,
   "editable": true,
-  "wrapCover": "/library/y09-science/cover-wrap-amazon.png"
+  "wrapCover": "/library/y09-science/cover-wrap-amazon.png",
+  "wrapCoverPdf": "/library/y09-science/cover-wrap-amazon.pdf"
  },
  {
   "slug": "y09-spanish",

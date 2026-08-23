@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
 """Build KDP wrap covers for Prime Books, straight from the book PDF.
 
-THE WRAP IS DERIVED, NEVER HAND-DRAWN:
-  WRAP = BACK COVER + SPINE + FRONT COVER (left to right, merged).
+KDP PAPERBACK SPEC (user-confirmed, Premium Color):
+  Trim        8.5 x 11.5 in  (215.9 x 292.1 mm)
+  Bleed       0.125 in       (3.175 mm) on every edge
+  Spine       pages x 0.002347 in  (pages x 0.0596138 mm)
+  Output      ONE PDF, left to right: bleed + BACK + SPINE + FRONT + bleed
+  Resolution  300 DPI
+  Spine text  only when pages >= 79, kept clear of the spine edges
 
-  - FRONT COVER: the PDF's first page, full-bleed.
-  - BACK COVER: the PDF's LAST page when that page is a designed back cover
-    (detected via imprint/blurb markers, or textless full artwork); otherwise
-    a composed back: dimmed front-cover art + a blurb extracted from the
-    book's own "Welcome"/"About this book" page + imprint + barcode box.
-  - SPINE: width from the page count, solid colour that CHANGES THROUGH THE
-    YEARS (Y1 warm cream-gold deepening to terracotta by Y13), vertical
-    title + imprint.
+THE WRAP IS DERIVED, NEVER HAND-DRAWN:
+  - FRONT COVER  = the PDF's first page, full-bleed.
+  - BACK COVER   = the PDF's designed back page when present (detected via
+    imprint/blurb markers or a textless full-art page), else a composed back
+    (dimmed front art + blurb from the book's own Welcome/About page +
+    imprint + barcode box).
+  - SPINE        = solid colour from the OFFICIAL Prime Books year palette
+    (the same colour as each year's catalogue-cover band: Y1 amber, Y2 sky
+    blue, Y3 orange, ... Y12 red), vertical title + imprint when the page
+    count allows text.
 
 Because everything is derived from the book PDF, updating the book's cover
-or back cover and re-running this script (the site's "regenerate wrap" flow
-does exactly that) updates the wrap automatically.
+or back cover and re-running this script (the site does it automatically
+when it detects the PDF is newer than the wrap) updates the wrap.
 
 Usage:
   python make_wrap_cover.py <slug> [slug2 ...]
@@ -33,32 +40,36 @@ LIBRARY = REPO / "public" / "library"
 FONTS = REPO / "public" / "Resources" / "Fonts"
 
 DPI = 300
-TRIM_W, TRIM_H = 8.5, 11.0  # inches
-BLEED = 0.125
-SPINE_PER_PAGE = 0.002252  # inches, white paper
+TRIM_W, TRIM_H = 8.5, 11.5  # inches (user spec)
+BLEED = 0.125  # inches
+SPINE_PER_PAGE = 0.002347  # inches, Premium Color
+MIN_SPINE_TEXT_PAGES = 79  # KDP rule
 
 CREAM = (246, 241, 230)
 INK = (32, 38, 48)
 GOLD = (201, 163, 92)
 
-BACK_MARKERS = (
-    "about this book",
-    "www.prime",
-    "first edition",
-    "isbn",
-    "barcode",
-    "all rights",
-    "primeschool.pt",
-)
+# Official Prime Books year colours, sampled from the catalogue covers'
+# spine-side bands (public/collection-covers). Y13 has no cover yet; fall
+# back to the deepest tone.
+YEAR_COLOURS = {
+    1: (241, 179, 0),    # amber
+    2: (126, 196, 232),  # sky blue
+    3: (237, 118, 35),   # orange
+    4: (96, 188, 70),    # green
+    5: (193, 35, 127),   # magenta
+    6: (129, 94, 193),   # violet
+    7: (200, 153, 21),   # gold
+    8: (91, 42, 134),    # purple
+    9: (121, 31, 43),    # oxblood
+    10: (74, 94, 58),    # olive
+    11: (30, 79, 166),   # blue
+    12: (201, 15, 46),   # red
+}
 
 
 def spine_colour(year: int) -> tuple:
-    """Series spine gradient: warm cream-gold in Year 1 deepening to
-    terracotta by Year 13, so a shelf of Prime Books reads as one series."""
-    t = min(max((year - 1) / 12.0, 0.0), 1.0)
-    start = (232, 210, 165)
-    end = (146, 92, 66)
-    return tuple(round(a + (b - a) * t) for a, b in zip(start, end))
+    return YEAR_COLOURS.get(int(year), YEAR_COLOURS[12])
 
 
 def font(name: str, size: int) -> ImageFont.FreeTypeFont:
@@ -81,11 +92,21 @@ def page_image(doc: pymupdf.Document, idx: int, dpi: int) -> Image.Image:
     return Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
 
 
+BACK_MARKERS = (
+    "about this book",
+    "www.prime",
+    "first edition",
+    "isbn",
+    "barcode",
+    "all rights",
+    "primeschool.pt",
+)
+
+
 def page_is_art(doc: pymupdf.Document, idx: int) -> bool:
     """Textless page that is not pure white — cream back covers (Y2) carry
     their whole design as vector art, so whiteness must be measured against
-    pure paper (255) with a tolerance, and any textless page with a solid
-    non-white background or moderate colour counts as artwork."""
+    pure paper (255) with a tolerance."""
     if doc[idx].get_text().strip():
         return False
     pix = doc[idx].get_pixmap(dpi=10)
@@ -102,14 +123,14 @@ def find_designed_back(doc: pymupdf.Document) -> int | None:
     """Index of the book's real back-cover page.
 
     The back cover is nearly always the LAST page. Only walk further back
-    when the last page is provably interior (has running headers/page
-    numbers). "FOR TEACHERS" pages with 'about this book' are front-matter
-    or rear-matter INTERIOR pages, not covers — excluded explicitly.
+    when the last page is provably interior (running headers/page numbers).
+    "FOR TEACHERS" pages with 'about this book' are interior pages, not
+    covers — excluded explicitly.
     """
     n = doc.page_count
     for i in range(n - 1, max(n - 4, 0) - 1, -1):
         t = doc[i].get_text().strip().lower()
-        if "for teachers" in t or "page" == t[:4]:
+        if "for teachers" in t or t[:4] == "page":
             continue  # interior furniture
         if any(m in t for m in BACK_MARKERS):
             return i
@@ -121,15 +142,13 @@ def find_designed_back(doc: pymupdf.Document) -> int | None:
 def find_blurb(doc: pymupdf.Document) -> str:
     """Pull a back-cover blurb from the book's own front matter.
 
-    "about this book" > "welcome" > "introduction" — the weaker anchors also
-    appear on the FRONT COVER (e.g. Y7's cover collage carries an
-    "Introduction · Units" caption), so scan pages in order but only accept a
-    page whose anchored text is a real paragraph, and never the cover page
-    itself (index 0).
+    "about this book" > "welcome" > "introduction" — weaker anchors also
+    appear on the FRONT COVER, so never scan page 1 and only accept real
+    paragraphs.
     """
     n = doc.page_count
     anchors = ("about this book", "welcome", "introduction")
-    for i in range(1, min(6, n)):  # skip page 1: the front cover
+    for i in range(1, min(6, n)):
         t = doc[i].get_text()
         low = t.lower()
         for anchor in anchors:
@@ -141,10 +160,8 @@ def find_blurb(doc: pymupdf.Document) -> str:
                     for ln in snippet.splitlines()
                     if ln.strip() and not ln.strip().isdigit()
                 ]
-                text = " ".join(lines[1:])  # drop the anchor heading itself
+                text = " ".join(lines[1:])
                 text = " ".join(text.split())
-                # real paragraphs: long enough, no caption/Image markers,
-                # not page furniture
                 if (
                     len(text) > 120
                     and text.count("Prime Books") <= 2
@@ -217,8 +234,7 @@ def compose_synth_back(front: Image.Image, meta: dict, blurb: str) -> Image.Imag
             y += s
         y += g
 
-    # barcode + imprint (imprint bar sits ABOVE the barcode, full-width,
-    # so the two never overlap)
+    # barcode + imprint (imprint bar sits ABOVE the barcode, full-width)
     bx1 = W - round(W * 0.05)
     bx0 = bx1 - round(W * 0.24)
     by1 = H - round(H * 0.03)
@@ -245,7 +261,7 @@ def build(slug: str) -> pathlib.Path:
     blurb = find_blurb(doc)
     doc.close()
 
-    spine_in = round(n * SPINE_PER_PAGE, 3)
+    spine_in = n * SPINE_PER_PAGE
     W = round((TRIM_W * 2 + spine_in + BLEED * 2) * DPI)
     H = round((TRIM_H + BLEED * 2) * DPI)
     back_w = round((TRIM_W + BLEED) * DPI)
@@ -255,7 +271,6 @@ def build(slug: str) -> pathlib.Path:
     canvas = Image.new("RGB", (W, H), CREAM)
 
     if back_idx is not None:
-        # real designed back page (usually the last page)
         back = page_image(pymupdf.open(LIBRARY / slug / "book.pdf"), back_idx, DPI)
         canvas.paste(fit(back, back_w, H), (0, 0))
         back_src = "pdf-back"
@@ -266,22 +281,25 @@ def build(slug: str) -> pathlib.Path:
 
     canvas.paste(fit(front, front_w, H), (back_w + spine_w, 0))  # FRONT
 
-    # ---- spine ----
+    # ---- spine: official year colour, solid; text only when KDP allows ----
     col = spine_colour(year)
     canvas.paste(Image.new("RGB", (spine_w, H), col), (back_w, 0))
-    # KDP rule: no spine text under 79 pages — a thin spine's text would
-    # drift onto the covers at print tolerance. Solid colour only.
-    if n >= 79:
-        strip = Image.new("RGB", (H, spine_w))
+    if n >= MIN_SPINE_TEXT_PAGES:
+        # Text on a TRANSPARENT strip pasted over the year colour — never a
+        # black background (that was the bug: Image.new defaults to black).
+        strip = Image.new("RGBA", (H, spine_w), (0, 0, 0, 0))
         sd = ImageDraw.Draw(strip)
         f1 = font("Sora.dl", 34)
         f2 = font("Spectral-Medium.ttf.dl", 26)
+        # ink colour chosen for contrast against the year colour
+        lum = 0.299 * col[0] + 0.587 * col[1] + 0.114 * col[2]
+        ink = (32, 38, 48) if lum > 140 else CREAM
 
         def spine_line(text, f, x, color):
             bbox = sd.textbbox((0, 0), text, font=f)
             th = bbox[3] - bbox[1]
             ty = (spine_w - th) // 2 - bbox[1]
-            sd.text((x, ty), text, font=f, fill=color)
+            sd.text((x, ty), text, font=f, fill=color + (255,))
             return sd.textlength(text, font=f)
 
         title = f"{subject.upper()}  \u00b7  YEAR {year}"
@@ -290,27 +308,32 @@ def build(slug: str) -> pathlib.Path:
         w2 = sd.textlength(t2, font=f2)
         gap = 160
         x0 = (H - (w1 + gap + w2)) // 2
-        spine_line(title, f1, x0, CREAM)
-        spine_line(t2, f2, x0 + w1 + gap, GOLD)
-        canvas.paste(strip.transpose(Image.ROTATE_270), (back_w, 0))
+        spine_line(title, f1, x0, ink)
+        spine_line(t2, f2, x0 + w1 + gap, ink)
+        canvas.paste(strip.transpose(Image.ROTATE_270), (back_w, 0), strip.transpose(Image.ROTATE_270))
 
-    bd = ImageDraw.Draw(canvas)
-    bd.rectangle([back_w, 0, back_w + spine_w - 1, H - 1], outline=GOLD, width=6)
-
-    out = LIBRARY / slug / "cover-wrap-amazon.png"
-    canvas.save(out, "PNG", optimize=True)
+    # KDP deliverable is a single PDF
+    out_png = LIBRARY / slug / "cover-wrap-amazon.png"
+    canvas.save(out_png, "PNG", optimize=True)
+    out_pdf = LIBRARY / slug / "cover-wrap-amazon.pdf"
+    canvas.save(out_pdf, "PDF", resolution=DPI)
 
     # keep the manifest in step so the site sees wrapCover immediately
     data = json.loads((REPO / "public" / "library.json").read_text())
     for r in data:
         if r.get("slug") == slug:
             r["wrapCover"] = f"/library/{slug}/cover-wrap-amazon.png"
+            r["wrapCoverPdf"] = f"/library/{slug}/cover-wrap-amazon.pdf"
     (REPO / "public" / "library.json").write_text(
         json.dumps(data, indent=1, ensure_ascii=False)
     )
 
-    print(f"{slug}: {n}pp  spine {spine_in}in  back={back_src}  {out.stat().st_size/1e6:.1f} MB")
-    return out
+    print(
+        f"{slug}: {n}pp  spine {spine_in:.4f}in ({spine_in*25.4:.2f}mm)  "
+        f"{W}x{H}px  back={back_src}  "
+        f"pdf {out_pdf.stat().st_size/1e6:.1f}MB  png {out_png.stat().st_size/1e6:.1f}MB"
+    )
+    return out_pdf
 
 
 if __name__ == "__main__":
