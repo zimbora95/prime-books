@@ -1,0 +1,76 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Reading-assistant secrets. .env.local holds the Hermes API_SERVER_KEY, which
+# grants the agent's full toolset (including terminal) - it must NEVER be
+# committed or served. Covered by *.local above; named here so nobody "tidies"
+# that pattern away.
+.env.local
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Serving copies of the real books (masters live in the MEGA archive).
+# Regenerate with: python tools/sync_library.py
+# ---------------------------------------------------------------------------
+# public/Prime Books/ is a 30 GB WORKING MIRROR of the MEGA masters. It must
+# NEVER be committed or deployed:
+#   * PDF/Input holds third-party publisher material (Cambridge, Pearson,
+#     Collins syllabuses) kept for SCOPE ONLY. Publishing it is a copyright
+#     breach, and it is reachable by URL the moment it lands in public/.
+#   * it carries FEEDBACK.docx, WORKSTATION/ build exhaust and _superseded_*
+#     editions that no reader should see.
+#   * Vercel would refuse the deployment long before that anyway.
+# The site serves a SELECTED, web-optimised subset built by tools/sync_library.py.
+public/Prime Books/
+public/PROJECT-HUB/
+# ---------------------------------------------------------------------------
+
+# The old flat root copies and public/books/ are superseded by public/library/
+# + library.json (written by tools/sync_library.py). public/books/ was deleted
+# 2026-08-14, together with public/subjects/ and public/covers/.
+public/*.pdf
+copy-books.sh
+
+# The old flat-root served copies (public/books/, public/books-manifest.json) are
+# superseded by public/library/ + library.json, written by tools/sync_library.py.
+# public/library/ IS deployed (it is what the flipbook fetches); the local variant
+# carries absolute MEGA paths and must never ship.
+public/library.local.json
+
+# Python bytecode. tools/__pycache__/webopt_pdf.cpython-311.pyc was committed by
+# accident and showed up as a modified file on every sync run.
+__pycache__/
+*.pyc
+
+# Verification-harness scratch output
+uiauth.log
+*.tmp.js
+
+# Manifest variant carrying absolute MEGA paths: local authoring only, must
+# never deploy (it would publish the folder layout of the masters).
+# (Also listed above with the other served-copy rules; both entries agree.)
+work/
+public/inputs/y08-humanities - input.pdf
+public/library/y08-humanities/book.pdf
+dist/

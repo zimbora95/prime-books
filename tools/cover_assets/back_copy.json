@@ -1,0 +1,601 @@
+{
+  "comment": "Back-cover copy per book. hook = one-line opener; blurb = 2 short paragraphs; bullets = 5-6 'INSIDE THIS BOOK' items. British English, no em-dashes.",
+  "copy": {
+    "y01-art-and-design": {
+      "hook": "Every child is an artist. This book just keeps the studio open.",
+      "blurb": "Four units, sixteen topics and a making studio of your own. Draw, weave, print, paint and build with a grown-up nearby, and keep the portfolio at the end of the year.",
+      "bullets": [
+        "Sixteen topics across four units",
+        "Drawing, weaving, printing and painting",
+        "A modelled making in every topic",
+        "Four projects, and a gallery of your own to finish",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y01-computing-and-robotics": {
+      "hook": "A robot does exactly what you say. Not what you meant.",
+      "blurb": "Behind the school there is a yard, a garden and a machine room. Learn to say things precisely, build instructions out of blocks, and find out what a machine is really doing.",
+      "bullets": [
+        "Every Year 1 computing topic, in five units",
+        "Predict, run and compare on every unit",
+        "Real bug hunts, with the fix never printed",
+        "Projects along the way, and one big one at the end",
+        "QR codes, each printed in words as well"
+      ]
+    },
+    "y01-english": {
+      "hook": "A word a day is nine stops along the way.",
+      "blurb": "Meet the friends who will read with you all year. Learn a new word best when your brain meets it nine times, then use it in your own story the same day.",
+      "bullets": [
+        "Nine stops along the reading railway",
+        "Every new word met nine times, then used",
+        "Reading, writing, speaking and listening together",
+        "A story to share in every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y01-global-perspectives": {
+      "hook": "Dear World, what is it like where you are?",
+      "blurb": "One big question in every unit, and a letter to write back. Find out how other children live, play, learn and eat, then say what surprised you.",
+      "blurb2": "Look outwards, ask kindly, listen carefully, and act.",
+      "bullets": [
+        "One big question in every unit",
+        "Letters to and from the world",
+        "Ask, listen, compare and act, every time",
+        "Real photographs and real places",
+        "A project in every unit"
+      ]
+    },
+    "y01-mathematics": {
+      "hook": "Count it. Check it. Then say how you know.",
+      "blurb": "Down under the roots of the old oak there is a schoolroom. Otto the owl counts acorns, Hattie the hedgehog guesses and then checks, and Milo the mouse asks the question that matters most: how do you know?",
+      "blurb2": "Sixteen units of real mathematics, six projects along the way and a counting fair of your own at the end. Every page is meant to be written in.",
+      "bullets": [
+        "Sixteen units, six projects, a counting fair to finish",
+        "Every page meant to be written in",
+        "Count it, check it, say how you know",
+        "A second method whenever there is one",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y01-music-and-drama": {
+      "hook": "A whole year in the Hedgerow Theatre.",
+      "blurb": "Wake your voice up in the green room, open the sound cupboard, walk the pulse along the long bench, build a journey out of sound on the platform, and put it all together on the full stage.",
+      "blurb2": "Twenty-five topics, eleven traditional songs printed in full, and a big show at the end. Every rhythm counted, and every song's words free for everybody to sing.",
+      "bullets": [
+        "Twenty-five topics across five units",
+        "Eleven traditional songs printed in full",
+        "Voice, singing, listening and composing",
+        "A big show to finish the year",
+        "Every song's words free to sing"
+      ]
+    },
+    "y01-physical-education": {
+      "hook": "Run, jump, throw, and know why it worked.",
+      "blurb": "Your first full year of physical education. Find the space, move safely, take your turn, and learn the games you will play for the rest of your life.",
+      "bullets": [
+        "Every Early Years movement skill, in units",
+        "The rule of the game, printed every time",
+        "A decision to make on every topic",
+        "Named jobs, so everybody has one",
+        "A festival of games to finish the year"
+      ]
+    },
+    "y01-portuguese": {
+      "hook": "Português, primeiro. Palavras primeiro, também.",
+      "blurb": "A primeira língua aprende-se a ouvir, a dizer e a brincar. Este livro acompanha as primeiras letras, as primeiras palavras e as primeiras histórias, sempre em português de Portugal.",
+      "bullets": [
+        "Primeiras letras e primeiras palavras",
+        "Ouvir, dizer, ler e brincar",
+        "Uma história em cada unidade",
+        "Ilustração original em aguarela"
+      ]
+    },
+    "y01-science": {
+      "hook": "How do you know?",
+      "blurb": "Come out to the hedge bank, where a badger with a brass hand lens and a wood mouse with enormous ears want to know how everything works.",
+      "blurb2": "Twenty-four topics of real science for children of five and six. Sort the living from the never alive, find out where a sound begins, and discover which heavy things float after all.",
+      "bullets": [
+        "Twenty-four topics across six units",
+        "Over 280 things to do, say and draw",
+        "A modelled enquiry in every single topic",
+        "Six projects, and a class field guide to finish",
+        "A word list of every science word you meet"
+      ]
+    },
+    "y02-art-and-design": {
+      "hook": "Come into the studio. Four artists are waiting.",
+      "blurb": "This book is about making things. Draw, paint, print and build alongside four young artists who show you their way, then find yours.",
+      "bullets": [
+        "Four units, twenty-one topics",
+        "Drawing, painting, printing and building",
+        "A modelled making in every topic",
+        "A gallery of your own to finish",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y02-computing-and-robotics": {
+      "hook": "A robot does exactly what you say. Not what you meant.",
+      "blurb": "That one idea runs through this whole book. Cross five stepped gates with Fen, Pip and Cog: write instructions that are clear and complete, build a program out of blocks, collect real data from your own survey, send a message across the room, and find out what is actually inside the machine doing all of it.",
+      "blurb2": "Nearly two thirds of the practice in this book needs no screen at all, so the lesson happens whether the tablets are free or not.",
+      "bullets": [
+        "All 31 Computing Year 2 topics, in five units",
+        "Predict, run and compare on every unit",
+        "Real bug hunts, with the fix never printed",
+        "Five projects along the way, and one big one at the end",
+        "Three term checks, and a glossary of every word",
+        "Twelve QR codes, each printed in words as well"
+      ]
+    },
+    "y02-english": {
+      "hook": "Four pupils, one notebook, and every word earned.",
+      "blurb": "You will meet four pupils in these pages, each with a different way into writing. See how it goes before you try it, then try the awkward question, which is usually the best one.",
+      "bullets": [
+        "Reading, writing, speaking and listening together",
+        "Four young writers to learn alongside",
+        "Every new word met, used and kept",
+        "A story and a poem in every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y02-global-perspectives": {
+      "hook": "The Field Notebook. Look outwards.",
+      "blurb": "Ask, listen, compare and act. A field notebook for finding out how the world works, one careful question at a time.",
+      "bullets": [
+        "The four thinking steps in every unit",
+        "Field notes to write in every week",
+        "Real places, real people, real questions",
+        "A project in every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y02-mathematics": {
+      "hook": "Draw it. Work it out. Then check it a different way.",
+      "blurb": "Last year you learned to count something, and then to count it again to be sure. This book asks for the next thing, which is the thing that makes a mathematician: a method, and then a second, different method that agrees with the first.",
+      "blurb2": "Otto draws the plan. Rook lines everything into rows and columns. Bramble keeps the store, the scales and the money tin. And Tessa checks every single thing a different way, which is why this book exists.",
+      "bullets": [
+        "Twenty-one units covering the full Cambridge Primary Mathematics Stage 2 framework, with the objective codes printed on every unit",
+        "Over a thousand practice items, and not one printed answer to copy",
+        "A worked example, a reasoning prompt and a second method in every part",
+        "Seven Build it and show it projects, with the judging grid printed before the work starts",
+        "QR codes that only appear where the screen can do something the page cannot"
+      ]
+    },
+    "y02-music-and-drama": {
+      "hook": "You can keep a sound by remembering it. Or write it down.",
+      "blurb": "Thirty topics on listening, singing, playing and making. Keep a sound by putting it with a picture, a word or a shape, which is where writing music begins.",
+      "bullets": [
+        "Thirty topics across five units",
+        "Singing, playing, listening and composing",
+        "Every rhythm counted out loud first",
+        "A performance to work towards every term",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y02-physical-education": {
+      "hook": "How do I throw so that Tuft can catch it?",
+      "blurb": "Out on the court behind the school, a red squirrel who runs too fast to stop and a badger who never rushes a throw are learning the hardest thing in physical education: how to do it while somebody else is playing too.",
+      "blurb2": "Twenty-four topics of real physical education for children of six and seven. Land softly, call a name and pass so that person can actually catch it, and find your own heartbeat afterwards.",
+      "bullets": [
+        "Twenty-four topics across six units",
+        "Over 290 things to do, say and try",
+        "The rule of the game, printed on every topic",
+        "A decision to make on every topic, with no answer given",
+        "Named jobs, so everybody knows what theirs is",
+        "Six projects, and a whole tournament to finish"
+      ]
+    },
+    "y02-science": {
+      "hook": "How do you know?",
+      "blurb": "Come up the garden to the old potting shed, where a badger in a work jacket and a wood mouse in a green coat want to know how everything works.",
+      "blurb2": "Real science for children of six and seven. Find out why a woodlouse chooses one stone and not another, how tall a bean grows in five weeks, and how to make a bulb light up.",
+      "bullets": [
+        "Twenty-five topics across six units",
+        "Over 350 things to do, say and draw",
+        "A modelled enquiry in every single topic",
+        "Six projects, and a garden guide to finish",
+        "QR codes that open real science beyond the page",
+        "A word list of every science word you meet"
+      ]
+    },
+    "y03-art-and-design": {
+      "hook": "Welcome to the Bright Studio.",
+      "blurb": "Four units, twenty topics, one bright room full of materials. Mix the colour you want, print the pattern you designed, and make something nobody has seen before.",
+      "bullets": [
+        "Twenty topics across four units",
+        "Colour, print, texture and form",
+        "A modelled making in every topic",
+        "A gallery of your own to finish",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y03-computing-and-robotics": {
+      "hook": "Instructions are just stepping stones, and you write them.",
+      "blurb": "Five units that take you from clear instructions to real programs. Spot the bug before the machine does, collect honest data, and build a program that does exactly what you meant.",
+      "bullets": [
+        "Five units from instructions to programs",
+        "Predict, run and compare, every time",
+        "Real bug hunts, with the fix never printed",
+        "A project in every unit",
+        "QR codes, each printed in words as well"
+      ]
+    },
+    "y03-global-perspectives": {
+      "hook": "Ask. Listen. Compare. Act.",
+      "blurb": "Six units, one careful way of thinking. Go and ask a real person a real question, compare what you heard with what you expected, then act on what you found out.",
+      "bullets": [
+        "Ask, listen, compare, act, in every unit",
+        "A real question for a real person, safely",
+        "One project per unit, marked on the thinking",
+        "Sources and figures logged, not guessed",
+        "A letter that really gets sent in Unit 5"
+      ]
+    },
+    "y03-mathematics": {
+      "hook": "Measure the garden. Then prove you are right.",
+      "blurb": "Number, measuring, shapes and sharing, with a reason asked for every time. Draw it, build it or say it, then check it a different way.",
+      "bullets": [
+        "Every Stage 3 framework objective, in units",
+        "A worked example and a second method every time",
+        "Real measuring and real sharing, not just sums",
+        "Projects to build and show",
+        "Over a thousand practice items, no printed answers"
+      ]
+    },
+    "y03-physical-education": {
+      "hook": "Run, jump, throw. Then choose what you would do.",
+      "blurb": "Attack, defend, create and perform. The four families of movement, with the rule of the game printed every time and a real decision to make on every topic.",
+      "bullets": [
+        "Every topic prints the rule of its game",
+        "A decision to make, with no answer printed",
+        "A modelled attempt in every topic",
+        "Named jobs, so everybody knows theirs",
+        "A tournament of your own to finish"
+      ]
+    },
+    "y03-portuguese": {
+      "hook": "Ler, escrever e falar. Sempre em português.",
+      "blurb": "Seis unidades de língua portuguesa de Portugal: ler com atenção, escrever com intenção e falar com clareza, do primeiro parágrafo ao primeiro discurso.",
+      "bullets": [
+        "Seis unidades de leitura e escrita",
+        "Gramática e ortografia em contexto",
+        "Um texto longo em cada unidade",
+        "Oficinas de escrita guiadas",
+        "Ilustração original em aguarela"
+      ]
+    },
+    "y04-art-and-design": {
+      "hook": "Look closely. Then make something of what you saw.",
+      "blurb": "Four units, twenty topics, full control of the materials. Weave, sculpt, print and paint with intention, and curate the exhibition at the end.",
+      "bullets": [
+        "Twenty topics across four units",
+        "Weaving, sculpture, print and paint",
+        "A modelled making in every topic",
+        "An exhibition of your own to curate",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y04-computing-and-robotics": {
+      "hook": "Write it, test it, fix it, prove it.",
+      "blurb": "From clear instructions to real programs that sense and decide. Collect honest data, spot the bug before the machine does, and build a program that does exactly what you meant.",
+      "bullets": [
+        "Five units from instructions to programs",
+        "Predict, run and compare, every time",
+        "Real bug hunts, with the fix never printed",
+        "A project in every unit",
+        "QR codes, each printed in words as well"
+      ]
+    },
+    "y04-english": {
+      "hook": "Six units of reading, writing and saying what you mean.",
+      "blurb": "Read like a writer and write like a reader. Six units, each with a whole text at the heart of it, from poetry to persuasion.",
+      "bullets": [
+        "Six units, six whole texts",
+        "Reading, writing, speaking and listening together",
+        "Vocabulary met, used and kept",
+        "A piece of writing to be proud of in every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y04-global-perspectives": {
+      "hook": "One world, five units, thirty careful questions.",
+      "blurb": "Research it, debate it, then act on it. Global issues made honest for eight-year-olds, with sources logged and never guessed.",
+      "bullets": [
+        "Five units, thirty topics",
+        "Research, debate, reflect and act",
+        "Sources logged, never guessed",
+        "A team project in every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y04-mathematics": {
+      "hook": "Both ways from zero.",
+      "blurb": "Numbers do not stop at zero. This year, Year 4 follows the line in both directions: up into the thousands, and down past zero into the cold.",
+      "blurb2": "Unit 1 begins with a real question. On one January morning the thermometer at the Torre read −6 °C while Faro read 13 °C. How far apart are they? Answering that properly takes counting, a number line, and a clear head about which side of zero you are on.",
+      "bullets": [
+        "Every topic opens with a worked example that shows its answer",
+        "A real number line wherever a number line is mentioned",
+        "A full place value chart, with what every digit is worth",
+        "Over sixty practice questions, and twelve fresh ones to check yourself",
+        "Watch out! panels that name the mistake before you make it",
+        "A review page that says confident, almost there or needs more work"
+      ]
+    },
+    "y04-physical-education": {
+      "hook": "Adapted is not a lesser version. It is the same lesson.",
+      "blurb": "Run, jump, throw and cross, with distances, heights and timings all adjustable. The objective is control, not size.",
+      "blurb2": "Written so every pupil takes the same four families of movement into their own body's version of it, seated or standing, with the watcher's description mattering more than the handwriting.",
+      "bullets": [
+        "Four families: run, jump, throw and cross",
+        "Distances, heights and timings all adjustable",
+        "The rule of the game, printed on every topic",
+        "A decision to make, with no answer printed",
+        "Stay safe panels, written to the pupil"
+      ]
+    },
+    "y04-portuguese": {
+      "hook": "Este é o teu livro de Português.",
+      "blurb": "Vasco a raposa e os teus outros guias acompanham-te na leitura, na escrita e na fala. Três superpoderes: ler, escrever e falar, sempre em português de Portugal.",
+      "bullets": [
+        "Leitura, escrita e fala em todas as unidades",
+        "Gramática e ortografia em contexto",
+        "Um texto longo em cada unidade",
+        "Oficinas de escrita guiadas",
+        "Ilustração original em aguarela"
+      ]
+    },
+    "y04-science": {
+      "hook": "Look inside. Ask why.",
+      "blurb": "Five units of real science for eight and nine-year-olds: teeth and digestion, states of matter, sound, electricity and the water cycle, each opened with a real question and closed with how do you know?",
+      "bullets": [
+        "Five units of hands-on science",
+        "A modelled enquiry in every topic",
+        "Real experiments with honest results",
+        "QR codes that open real science beyond the page",
+        "A word list of every science word you meet"
+      ]
+    },
+    "y05-art-and-design": {
+      "hook": "Control and choice. That is the difference this year.",
+      "blurb": "Four units, twenty topics, and a step up: this year you decide the materials, the scale and the subject. Print, sculpt, paint and build with intention, then curate the show.",
+      "bullets": [
+        "Twenty topics across four units",
+        "Control and choice, on every page",
+        "A modelled making in every topic",
+        "A curated show of your own to finish",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y05-english": {
+      "hook": "Welcome to Year 5 English.",
+      "blurb": "Six units of reading, writing, speaking and listening, each built around a whole text. Read like a writer, write like a reader, and say exactly what you mean.",
+      "bullets": [
+        "Six units, six whole texts",
+        "Reading, writing, speaking and listening together",
+        "Vocabulary met, used and kept",
+        "A piece of writing to be proud of in every unit",
+        "Answers guidance for the teacher, not printed answers to copy"
+      ]
+    },
+    "y05-global-perspectives": {
+      "hook": "My Look Outwards notes.",
+      "blurb": "Six units, one careful habit of mind. Research the world, check the source, debate fairly, and act on what you found out.",
+      "bullets": [
+        "Research, evaluate, reflect and act",
+        "Sources checked, never guessed",
+        "A team project in every unit",
+        "Notes pages for your own look outwards",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y05-mathematics": {
+      "hook": "Thirty-five topics. One number line underneath them all.",
+      "blurb": "The Cambridge Primary Mathematics framework for Year 5, mapped end to end. Place value to a million, fractions that multiply, angles you measure yourself, and a second method every time.",
+      "bullets": [
+        "Every Stage 5 framework objective, mapped",
+        "A worked example and a second method every time",
+        "Real measuring, real data, real reasoning",
+        "Over a thousand practice items, no printed answers",
+        "Feedback boxes that say confident, nearly there or not yet"
+      ]
+    },
+    "y05-physical-education": {
+      "hook": "The objective is control, not size.",
+      "blurb": "Six units of running, jumping, throwing and crossing, with the rule of the game printed every time and a real decision to make on every topic. Distances, heights and timings all adjustable.",
+      "bullets": [
+        "Six units, twenty-nine topics",
+        "The rule of the game, printed on every topic",
+        "A decision to make, with no answer printed",
+        "Adaptations written into every unit",
+        "A round of eight to finish the year"
+      ]
+    },
+    "y05-portuguese": {
+      "hook": "Ler, escrever e falar. Cada vez melhor.",
+      "blurb": "O português do Year 5: leitura de textos longos, escrita com intenção e fala em público. Gramática e ortografia sempre em contexto, nunca decoradas.",
+      "bullets": [
+        "Leitura, escrita e fala em todas as unidades",
+        "Textos longos e oficinas de escrita",
+        "Gramática e ortografia em contexto",
+        "Apresentações orais guiadas",
+        "Ilustração original em aguarela"
+      ]
+    },
+    "y06-art-and-design": {
+      "hook": "Welcome to the Loft Studio.",
+      "blurb": "The last studio of primary school, and the most independent. Twenty topics across four units, a portfolio that is yours alone, and an exhibition to finish.",
+      "bullets": [
+        "Twenty topics across four units",
+        "The most independent making yet",
+        "A modelled making in every topic",
+        "A portfolio that is yours alone",
+        "An exhibition of your own to finish"
+      ]
+    },
+    "y06-global-perspectives": {
+      "hook": "Six units, six questions about the world.",
+      "blurb": "Improving communications, obeying the law, globalisation, the world of work, working with other countries, the digital world. Research it, debate it, then act on it.",
+      "bullets": [
+        "Six units, from law to the digital world",
+        "Research, debate, reflect and act",
+        "Sources checked, never guessed",
+        "A team project in every unit",
+        "QR codes for every unit, adult-supervised"
+      ]
+    },
+    "y06-mathematics": {
+      "hook": "Ten times smaller. Ten times bigger. Both, on one line.",
+      "blurb": "The last mathematics book of primary school. Fractions, decimals and percentages meeting on one number line, ratio that scales both ways, and algebra knocking politely at the door.",
+      "bullets": [
+        "Every Stage 6 framework objective, mapped",
+        "A worked example and a second method every time",
+        "Fractions, decimals and percentages on one line",
+        "Real data, real measuring, real reasoning",
+        "Over a thousand practice items, no printed answers"
+      ]
+    },
+    "y06-physical-education": {
+      "hook": "The finish field.",
+      "blurb": "The last year of primary physical education: healthy bodies, joints and muscles, how hard is hard enough, reading the risk before you go, and what a moving body eats.",
+      "bullets": [
+        "Six units, from fitness to the finish field",
+        "The rule of the game, printed on every topic",
+        "A decision to make, with no answer printed",
+        "How did it go? review in every unit",
+        "A whole tournament to finish"
+      ]
+    },
+    "y06-portuguese": {
+      "hook": "O último ano do ensino primário, em português.",
+      "blurb": "Leitura, escrita e fala em nível de exame. Textos longos, escrita com intenção, apresentações orais, e a gramática e a ortografia sempre em contexto.",
+      "bullets": [
+        "Leitura, escrita e fala em nível de exame",
+        "Textos longos e oficinas de escrita",
+        "Gramática e ortografia em contexto",
+        "Apresentações orais guiadas",
+        "Ilustração original em aguarela"
+      ]
+    },
+    "y03-english": {
+      "hook": "Read like a writer. Write like a reader.",
+      "blurb": "A full year of reading, writing, speaking and listening, each unit built around a whole text worth knowing by heart.",
+      "bullets": [
+        "A whole text at the heart of every unit",
+        "Reading, writing, speaking and listening together",
+        "Vocabulary met, used and kept",
+        "A piece of writing to be proud of every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y03-music-and-drama": {
+      "hook": "Perform it. Then make it yours.",
+      "blurb": "Sing, play, listen and make, from first rhythms to a full show. Every skill practised in the round, every term ends on the stage.",
+      "bullets": [
+        "Singing, playing, listening and composing",
+        "Every rhythm counted out loud first",
+        "A performance to work towards every term",
+        "Songs and scripts printed in full",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y03-science": {
+      "hook": "Look closely. Ask how do you know.",
+      "blurb": "Real science for curious minds: fair tests, honest results and a modelled enquiry in every topic, from the hedge bank to the experiment bench.",
+      "bullets": [
+        "A modelled enquiry in every topic",
+        "Real experiments with honest results",
+        "Over 300 things to do, say and draw",
+        "QR codes that open real science beyond the page",
+        "A word list of every science word you meet"
+      ]
+    },
+    "y04-music-and-drama": {
+      "hook": "Perform it. Then make it yours.",
+      "blurb": "Sing, play, listen and make, from first rhythms to a full show. Every skill practised in the round, every term ends on the stage.",
+      "bullets": [
+        "Singing, playing, listening and composing",
+        "Every rhythm counted out loud first",
+        "A performance to work towards every term",
+        "Songs and scripts printed in full",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y05-computing-and-robotics": {
+      "hook": "A robot does exactly what you say. Not what you meant.",
+      "blurb": "From clear instructions to real programs that sense and decide. Predict, run, compare, and fix the bug before the machine does.",
+      "bullets": [
+        "From instructions to programs, in units",
+        "Predict, run and compare, every time",
+        "Real bug hunts, with the fix never printed",
+        "A project in every unit",
+        "QR codes, each printed in words as well"
+      ]
+    },
+    "y05-music-and-drama": {
+      "hook": "Perform it. Then make it yours.",
+      "blurb": "Sing, play, listen and make, from first rhythms to a full show. Every skill practised in the round, every term ends on the stage.",
+      "bullets": [
+        "Singing, playing, listening and composing",
+        "Every rhythm counted out loud first",
+        "A performance to work towards every term",
+        "Songs and scripts printed in full",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y05-science": {
+      "hook": "Look closely. Ask how do you know.",
+      "blurb": "Real science for curious minds: fair tests, honest results and a modelled enquiry in every topic, from the hedge bank to the experiment bench.",
+      "bullets": [
+        "A modelled enquiry in every topic",
+        "Real experiments with honest results",
+        "Over 300 things to do, say and draw",
+        "QR codes that open real science beyond the page",
+        "A word list of every science word you meet"
+      ]
+    },
+    "y06-computing-and-robotics": {
+      "hook": "A robot does exactly what you say. Not what you meant.",
+      "blurb": "From clear instructions to real programs that sense and decide. Predict, run, compare, and fix the bug before the machine does.",
+      "bullets": [
+        "From instructions to programs, in units",
+        "Predict, run and compare, every time",
+        "Real bug hunts, with the fix never printed",
+        "A project in every unit",
+        "QR codes, each printed in words as well"
+      ]
+    },
+    "y06-english": {
+      "hook": "Read like a writer. Write like a reader.",
+      "blurb": "A full year of reading, writing, speaking and listening, each unit built around a whole text worth knowing by heart.",
+      "bullets": [
+        "A whole text at the heart of every unit",
+        "Reading, writing, speaking and listening together",
+        "Vocabulary met, used and kept",
+        "A piece of writing to be proud of every unit",
+        "Original watercolour illustration throughout"
+      ]
+    },
+    "y06-science": {
+      "hook": "Look closely. Ask how do you know.",
+      "blurb": "Real science for curious minds: fair tests, honest results and a modelled enquiry in every topic, from the hedge bank to the experiment bench.",
+      "bullets": [
+        "A modelled enquiry in every topic",
+        "Real experiments with honest results",
+        "Over 300 things to do, say and draw",
+        "QR codes that open real science beyond the page",
+        "A word list of every science word you meet"
+      ]
+    },
+    "y06-music-and-drama": {
+      "hook": "Perform it. Then make it yours.",
+      "blurb": "Sing, play, listen and make, from first rhythms to a full show. Every skill practised in the round, every term ends on the stage.",
+      "bullets": [
+        "Singing, playing, listening and composing",
+        "Every rhythm counted out loud first",
+        "A performance to work towards every term",
+        "Songs and scripts printed in full",
+        "Original watercolour illustration throughout"
+      ]
+    }
+  }
+}

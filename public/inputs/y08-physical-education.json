@@ -1,0 +1,358 @@
+{
+ "file": "y08-physical-education - input.xlsx",
+ "sheet": "Folha1",
+ "headers": [
+  "section_ids/name",
+  "section_ids/chapter_ids/name",
+  "section_ids/chapter_ids/name",
+  "hours in minutes",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "rows": [
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.1.1 What is cross country running\n2.1.2 Safety and terrain awareness\n2.1.3 Pacing strategies",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.2.1 Dynamic stretches\n2.2.2 Jogging and mobility drills\n2.2.3 Stride-outs",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.3.1 Correct posture\n2.3.2 Arm drive\n2.3.3 Uphill vs downhill running",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.4.1 Interval training\n2.4.2 Fartlek running\n2.4.3 Long slow runs",
+   "hours in minutes": "120",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.5.1 Starting pace\n2.5.2 Positioning in pack\n2.5.3 Finishing strong",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.6.1 Relay races\n2.6.2 Time trials\n2.6.3 Class competitions",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.7.1 Light jogging and walking\n2.7.2 Stretching legs and back\n2.7.3 Breathing and reflection",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.8.1 Individual Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.1.1 Court layout and markings\n5.1.2 Scoring system (rally point)\n5.1.3 Rotations and positions\n5.1.4 Basic rules (net touch, service, double hit)",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.2.1 Dynamic warm-up\n5.2.2 Partner ball control\n5.2.3 Reaction drills with ball",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.3.1 Forearm pass (bump)\n5.3.2 Overhead pass (set)\n5.3.3 Digging low balls",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.4.1 Spiking technique\n5.4.2 Tipping at the net\n5.4.3 Serving (underhand, overhand, jump serve)",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.5.1 Blocking technique\n5.5.2 Team defensive positions\n5.5.3 Reading opponents",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.6.1 Team rotations\n5.6.2 Offensive formations\n5.6.3 Defensive systems",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.7.1 Small-sided games\n5.7.2 Conditioned rallies\n5.7.3 Class matches",
+   "hours in minutes": "120",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.8.1 Stretching arms and legs\n5.8.2 Breathing exercises\n5.8.3 Reflection on teamwork",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.9.1 Collective Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.1.1 Court layout (singles vs doubles)\n8.1.2 Scoring system (games, sets, tie-breaks)\n8.1.3 Serving rules\n8.1.4 Etiquette and sportsmanship",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.2.1 Dynamic warm-up\n8.2.2 Mini tennis rallies\n8.2.3 Ladder and reaction drills",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.3.1 Forehand drive\n8/3.2 Backhand drive\n8.3.3 Defensive groundstrokes",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.4.1 Serve (flat, slice, topspin)\n8.4.2 Volley and smash\n8.4.3 Approach shots",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.5.1 Split step and recovery\n8.5.2 Baseline vs net positioning\n8.5.3 Anticipation and movement patterns",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.6.1 Singles strategies\n8.6.2 Doubles positioning\n8.6.3 Constructing points",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.7.1 Conditioned rallies\n8.7.2 Mini matches\n8.7.3 Class tournaments",
+   "hours in minutes": "80",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.8.1 Gentle hitting\n8.8.2 Stretching shoulders, arms, legs\n8.8.3 Match reflection",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "8. Tennis",
+   "section_ids/chapter_ids/name": "8.9.1 Collective Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.1.1 Track & field layout and markings\n7.1.2 Scoring system\n7.1.3 Safety rules",
+   "hours in minutes": "12",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.2.1 General stretching (arms, legs, core)\n7.2.2 Dynamic warm-up drills\n7.2.3 Breathing techniques",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.3.1 Starting techniques (standing & crouch start)\n7.3.2 Sprint mechanics (stride length & frequency)\n7.3.3 Finishing techniques",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.4.1 Long jump approach run\n7.4.2 Take-off techniques\n7.4.3 Landing safely",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.5.1 High jump approach run\n7.5.2 Take-off techniques\n7.5.3 Bar clearance and landing",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.6.1 Grip and stance\n7.6.2 Power position\n7.6.3 Delivery and follow-through",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.7.1 Grip and carry\n7.7.2 Run-up technique\n7.7.3 Release and follow-through",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.8.1 Grip and stance\n7.8.2 Rotational technique\n7.8.3 Release and balance recovery",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.9.1 Gentle jogging\n7.9.2 Static stretching\n7.9.3 Peer feedback / self-assessment",
+   "hours in minutes": "8",
+   "": ""
+  },
+  {
+   "section_ids/name": "7. Athletics",
+   "section_ids/chapter_ids/name": "7.10.1 Indvidual Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.1.1 History and safety adaptations of touch rugby\n9.1.2 Field layout and equipment\n9.1.3 Basic rules (touch instead of tackle, 6 touches rule)\n9.1.4 Scoring system (try values)\n9.1.5 Fair play and respect",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.2.1 Dynamic stretches and mobility\n9.2.2 Passing warm-ups in pairs\n9.2.3 Agility and evasion games",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.3.1 Correct grip and carrying\n9.3.2 Passing backward technique\n9.3.3 Receiving passes under pressure",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.4.1 Running lines and support play\n9.4.2 Offloads and quick passes\n9.4.3 Dummy runs and fakes",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.5.1 Marking and positioning\n9.5.2 Making touches safely\n9.5.3 Defensive line organisation",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.6.1 Creating overlaps\n9.6.2 Switching play\n9.6.3 Communication in attack and defense",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.7.1 Small-sided games\n9.7.2 Conditioned games (e.g., 3-touch limit)\n9.7.3 Mini-tournaments",
+   "hours in minutes": "120",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.8.1 Stretching major muscle groups\n9.8.2 Breathing exercises\n9.8.3 Peer feedback on teamwork",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "9. Rugby",
+   "section_ids/chapter_ids/name": "9.9.1 Collective Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.1.1 History\n6.1.2 Competition format\n6.1.3 Safety",
+   "hours in minutes": "10",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.2.1 Dynamic warm-up\n6.2.2 Mobility\n6.2.3 Pulse raiser",
+   "hours in minutes": "10",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.3.1 Marches\n6.3.2 Jumps\n6.3.3 Arm patterns",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.4.1 Push-ups\n6.4.2 Core\n6.4.3 Balance",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.5.1 Static\n6.5.2 Dynamic\n6.5.3 Splits progression",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.6.1 Transitions\n6.6.2 Musicality\n6.6.3 Synchronization",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.7.1 Group routines\n6.7.2 Performance skills\n6.7.3 Evaluation",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.8.1 Stretch\n6.8.2 Breathing\n6.8.3 Reflection",
+   "hours in minutes": "10",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.9.1 Individual Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  }
+ ]
+}

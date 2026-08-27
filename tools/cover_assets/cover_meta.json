@@ -1,0 +1,523 @@
+{
+  "comment": "Standardized cover metadata for Years 1-6 Prime Books. level/ages/footer_band per year. blurbs & bullets are the back-cover copy.",
+  "levels": {
+    "1": {
+      "level": "Cambridge Early Years",
+      "ages": "Ages 5–6",
+      "band": "Lower Primary"
+    },
+    "2": {
+      "level": "Cambridge Early Years",
+      "ages": "Ages 6–7",
+      "band": "Lower Primary"
+    },
+    "3": {
+      "level": "Cambridge Primary",
+      "ages": "Ages 7–8",
+      "band": "Lower Primary"
+    },
+    "4": {
+      "level": "Cambridge Primary",
+      "ages": "Ages 8–9",
+      "band": "Lower Primary"
+    },
+    "5": {
+      "level": "Cambridge Primary",
+      "ages": "Ages 9–10",
+      "band": "Upper Primary"
+    },
+    "6": {
+      "level": "Cambridge Primary",
+      "ages": "Ages 10–11",
+      "band": "Upper Primary"
+    },
+    "7": {
+      "level": "Cambridge Lower Secondary",
+      "ages": "Ages 11–12",
+      "band": "Lower Secondary"
+    },
+    "8": {
+      "level": "Cambridge Lower Secondary",
+      "ages": "Ages 12–13",
+      "band": "Lower Secondary"
+    },
+    "9": {
+      "level": "Cambridge Lower Secondary",
+      "ages": "Ages 13–14",
+      "band": "Lower Secondary"
+    },
+    "10": {
+      "level": "Cambridge Upper Secondary",
+      "ages": "Ages 14–16",
+      "band": "Upper Secondary"
+    },
+    "11": {
+      "level": "Cambridge Upper Secondary",
+      "ages": "Ages 15–16",
+      "band": "Upper Secondary"
+    },
+    "12": {
+      "level": "Cambridge International AS & A Level",
+      "ages": "Ages 16–18",
+      "band": "Advanced Levels"
+    }
+  },
+  "stripes": {
+    "1": [
+      241,
+      179,
+      0
+    ],
+    "2": [
+      127,
+      195,
+      232
+    ],
+    "3": [
+      239,
+      117,
+      34
+    ],
+    "4": [
+      96,
+      187,
+      70
+    ],
+    "5": [
+      195,
+      36,
+      128
+    ],
+    "6": [
+      131,
+      95,
+      193
+    ],
+    "7": [
+      26,
+      94,
+      104
+    ],
+    "8": [
+      84,
+      110,
+      158
+    ],
+    "9": [
+      196,
+      148,
+      58
+    ],
+    "10": [
+      130,
+      46,
+      66
+    ],
+    "11": [
+      52,
+      98,
+      70
+    ],
+    "12": [
+      42,
+      58,
+      106
+    ]
+  },
+  "subjects": {
+    "y01-art-and-design": {
+      "title": "Art & Design",
+      "art_hint": "a fox cub and a rabbit painting at a wooden easel in a sunny garden studio, Beatrix Potter watercolour"
+    },
+    "y01-computing-and-robotics": {
+      "title": "Computing & Robotics",
+      "art_hint": "a fox cub and a rabbit building a friendly toy robot from wooden blocks and gears on a rug, Beatrix Potter watercolour"
+    },
+    "y01-english": {
+      "title": "English",
+      "art_hint": "a fox cub and a rabbit reading a big storybook together at a garden table, Beatrix Potter watercolour"
+    },
+    "y01-global-perspectives": {
+      "title": "Global Perspectives",
+      "art_hint": "woodland animals gathered around a globe and map, curious and friendly, Beatrix Potter watercolour"
+    },
+    "y01-mathematics": {
+      "title": "Mathematics",
+      "art_hint": "an owl and a tortoise counting wooden numbers and measuring with a ruler, Beatrix Potter watercolour"
+    },
+    "y01-music-and-drama": {
+      "title": "Music & Drama",
+      "art_hint": "a robin and a mouse performing a little puppet show on a garden stage, Beatrix Potter watercolour"
+    },
+    "y01-physical-education": {
+      "title": "Physical Education",
+      "art_hint": "a squirrel and a badger racing and jumping on a sunny field, Beatrix Potter watercolour"
+    },
+    "y01-portuguese": {
+      "title": "Portuguese 1st Language",
+      "art_hint": "woodland animals reading Portuguese letters and words at a garden table, Beatrix Potter watercolour"
+    },
+    "y01-science": {
+      "title": "Science",
+      "art_hint": "a badger and a mouse examining plants and insects with a magnifying glass, Beatrix Potter watercolour"
+    },
+    "y02-art-and-design": {
+      "title": "Art & Design",
+      "art_hint": "a hedgehog and a rabbit painting at an easel with a garden view, Beatrix Potter watercolour"
+    },
+    "y02-computing-and-robotics": {
+      "title": "Computing & Robotics",
+      "art_hint": "woodland animals looking through a rustic gate at a friendly robot in a country lane, Beatrix Potter watercolour"
+    },
+    "y02-english": {
+      "title": "English",
+      "art_hint": "a fox and a rabbit writing stories with quill and ink at an old wooden desk, Beatrix Potter watercolour"
+    },
+    "y02-global-perspectives": {
+      "title": "Global Perspectives",
+      "art_hint": "woodland animals exploring a meadow with maps and binoculars, Beatrix Potter watercolour"
+    },
+    "y02-mathematics": {
+      "title": "Mathematics",
+      "art_hint": "an owl and a tortoise sharing out counters and shapes at a school table, Beatrix Potter watercolour"
+    },
+    "y02-music-and-drama": {
+      "title": "Music & Drama",
+      "art_hint": "a robin, a mouse and friends playing fiddle and drum on a garden stage, Beatrix Potter watercolour"
+    },
+    "y02-physical-education": {
+      "title": "Physical Education",
+      "art_hint": "woodland animals playing games and running races on a village green, Beatrix Potter watercolour"
+    },
+    "y02-science": {
+      "title": "Science",
+      "art_hint": "a badger and a mouse doing a simple experiment with jars and plants, Beatrix Potter watercolour"
+    },
+    "y03-art-and-design": {
+      "title": "Art & Design",
+      "art_hint": "a fox and a rabbit mixing paints and printing patterns in a sunny art corner, Beatrix Potter watercolour"
+    },
+    "y03-computing-and-robotics": {
+      "title": "Computing & Robotics",
+      "art_hint": "a fox and a rabbit following stepping-stone instructions across a stream, Beatrix Potter watercolour"
+    },
+    "y03-global-perspectives": {
+      "title": "Global Perspectives",
+      "art_hint": "woodland animals comparing their homes, foods and weather across a meadow, Beatrix Potter watercolour"
+    },
+    "y03-mathematics": {
+      "title": "Mathematics",
+      "art_hint": "an owl and a tortoise measuring the garden and sharing out seeds, Beatrix Potter watercolour"
+    },
+    "y03-physical-education": {
+      "title": "Physical Education",
+      "art_hint": "a squirrel, a badger and friends practising throwing, catching and balancing, Beatrix Potter watercolour"
+    },
+    "y03-portuguese": {
+      "title": "Portuguese 1st Language",
+      "art_hint": "woodland animals writing Portuguese words and reading a letter together, Beatrix Potter watercolour"
+    },
+    "y04-art-and-design": {
+      "title": "Art & Design",
+      "art_hint": "a fox and a rabbit weaving, printing and sculpting in a busy art room, Beatrix Potter watercolour"
+    },
+    "y04-computing-and-robotics": {
+      "title": "Computing & Robotics",
+      "art_hint": "a fox and a rabbit programming a small wheeled robot on a garden path, Beatrix Potter watercolour"
+    },
+    "y04-english": {
+      "title": "English",
+      "art_hint": "a fox and a rabbit sharing a storybook and acting out a tale, Beatrix Potter watercolour"
+    },
+    "y04-global-perspectives": {
+      "title": "Global Perspectives",
+      "art_hint": "woodland animals studying a big map and globe in a cosy study, Beatrix Potter watercolour"
+    },
+    "y04-mathematics": {
+      "title": "Mathematics",
+      "ArtHint": null,
+      "art_hint": "an owl and a tortoise solving puzzles with scales, shapes and number cards, Beatrix Potter watercolour"
+    },
+    "y04-physical-education": {
+      "title": "Physical Education",
+      "art_hint": "woodland animals running, jumping and team-playing on a sports field, Beatrix Potter watercolour"
+    },
+    "y04-portuguese": {
+      "title": "Portuguese 1st Language",
+      "art_hint": "woodland animals reading and writing Portuguese stories in a garden, Beatrix Potter watercolour"
+    },
+    "y04-science": {
+      "title": "Science",
+      "art_hint": "a badger and a mouse looking closely at nature with a hand lens, Beatrix Potter watercolour"
+    },
+    "y05-art-and-design": {
+      "title": "Art & Design",
+      "art_hint": "a fox and a rabbit painting, printing and sculpting in a pottery studio, Beatrix Potter watercolour"
+    },
+    "y05-english": {
+      "title": "English",
+      "art_hint": "a fox and a rabbit writing and reading stories at a sunny desk, Beatrix Potter watercolour"
+    },
+    "y05-global-perspectives": {
+      "title": "Global Perspectives",
+      "art_hint": "woodland animals researching the world with globe, books and magnifying glass, Beatrix Potter watercolour"
+    },
+    "y05-mathematics": {
+      "title": "Mathematics",
+      "art_hint": "an owl and a tortoise working with geometry tools, scales and number cards, Beatrix Potter watercolour"
+    },
+    "y05-physical-education": {
+      "title": "Physical Education",
+      "art_hint": "woodland athletes racing, leaping and passing the baton on a country track, Beatrix Potter watercolour"
+    },
+    "y05-portuguese": {
+      "title": "Portuguese 1st Language",
+      "art_hint": "woodland animals writing letters and reading books in Portuguese, Beatrix Potter watercolour"
+    },
+    "y06-art-and-design": {
+      "title": "Art & Design",
+      "art_hint": "a fox and a rabbit making a gallery of paintings, prints and clay models, Beatrix Potter watercolour"
+    },
+    "y06-global-perspectives": {
+      "title": "Global Perspectives",
+      "art_hint": "woodland animals presenting a project about the world to their class, Beatrix Potter watercolour"
+    },
+    "y06-mathematics": {
+      "title": "Mathematics",
+      "art_hint": "an owl and a tortoise solving a big puzzle with compass, scales and charts, Beatrix Potter watercolour"
+    },
+    "y06-physical-education": {
+      "title": "Physical Education",
+      "art_hint": "a hare sprinting on a chalk-lined lane while a badger keeps time and an owl referees, Beatrix Potter watercolour"
+    },
+    "y06-portuguese": {
+      "title": "Portuguese 1st Language",
+      "art_hint": "woodland animals presenting Portuguese writing to their friends, Beatrix Potter watercolour"
+    },
+    "y01-german-a1a2": {
+      "title": "German"
+    },
+    "y01-german-b1b2": {
+      "title": "German"
+    },
+    "y01-spanish-a1a2": {
+      "title": "Spanish"
+    },
+    "y01-spanish-b1b2": {
+      "title": "Spanish"
+    },
+    "y02-german-a1a2": {
+      "title": "German"
+    },
+    "y02-german-b1b2": {
+      "title": "German"
+    },
+    "y02-spanish-a1a2": {
+      "title": "Spanish"
+    },
+    "y02-spanish-b1b2": {
+      "title": "Spanish"
+    },
+    "y03-german-a1a2": {
+      "title": "German"
+    },
+    "y03-german-b1b2": {
+      "title": "German"
+    },
+    "y03-spanish-a1a2": {
+      "title": "Spanish"
+    },
+    "y03-spanish-b1b2": {
+      "title": "Spanish"
+    },
+    "y04-german-a1a2": {
+      "title": "German"
+    },
+    "y04-german-b1b2": {
+      "title": "German"
+    },
+    "y04-spanish-a1a2": {
+      "title": "Spanish"
+    },
+    "y04-spanish-b1b2": {
+      "title": "Spanish"
+    },
+    "y05-german-a1a2": {
+      "title": "German"
+    },
+    "y05-german-b1b2": {
+      "title": "German"
+    },
+    "y05-spanish-a1a2": {
+      "title": "Spanish"
+    },
+    "y05-spanish-b1b2": {
+      "title": "Spanish"
+    },
+    "y06-german-a1a2": {
+      "title": "German"
+    },
+    "y06-german-b1b2": {
+      "title": "German"
+    },
+    "y06-spanish-a1a2": {
+      "title": "Spanish"
+    },
+    "y06-spanish-b1b2": {
+      "title": "Spanish"
+    },
+    "y03-english": {
+      "title": "English"
+    },
+    "y03-music-and-drama": {
+      "title": "Music & Drama"
+    },
+    "y03-science": {
+      "title": "Science"
+    },
+    "y04-music-and-drama": {
+      "title": "Music & Drama"
+    },
+    "y05-computing-and-robotics": {
+      "title": "Computing & Robotics"
+    },
+    "y05-music-and-drama": {
+      "title": "Music & Drama"
+    },
+    "y05-science": {
+      "title": "Science"
+    },
+    "y06-computing-and-robotics": {
+      "title": "Computing & Robotics"
+    },
+    "y06-english": {
+      "title": "English"
+    },
+    "y06-science": {
+      "title": "Science"
+    },
+    "y06-music-and-drama": {
+      "title": "Music & Drama"
+    },
+    "y08-computing-and-robotics": {
+      "title": "Computing & Robotics"
+    },
+    "y08-art-and-design": {
+      "title": "Art & Design"
+    },
+    "y08-english": {
+      "title": "English"
+    },
+    "y08-humanities": {
+      "title": "Humanities"
+    },
+    "y08-music-and-drama": {
+      "title": "Music & Drama"
+    },
+    "y08-portuguese-1st": {
+      "title": "Portuguese 1st"
+    },
+    "y08-portuguese-2nd": {
+      "title": "Portuguese 2nd"
+    },
+    "y09-art-and-design": {
+      "title": "Art and Design"
+    },
+    "y09-english": {
+      "title": "English"
+    },
+    "y09-humanities": {
+      "title": "Humanities"
+    },
+    "y09-mathematics": {
+      "title": "Mathematics"
+    },
+    "y09-music-and-drama": {
+      "title": "Music and Drama"
+    },
+    "y09-physical-education": {
+      "title": "Physical Education"
+    },
+    "y09-portuguese": {
+      "title": "Portuguese"
+    },
+    "y09-science": {
+      "title": "Science"
+    },
+    "y09-spanish": {
+      "title": "Spanish"
+    },
+    "y10-business-btec-l2": {
+      "title": "Business BTEC L2"
+    },
+    "y10-physical-education": {
+      "title": "Physical Education"
+    },
+    "y10-portuguese-1st": {
+      "title": "Portuguese 1St"
+    },
+    "y10-portuguese-1st-igcse": {
+      "title": "Portuguese 1St Igcse"
+    },
+    "y10-spanish-1st-igcse": {
+      "title": "Spanish 1St Igcse"
+    },
+    "y07-art-and-design": {
+      "title": "Art & Design"
+    },
+    "y07-computing-and-robotics": {
+      "title": "Computing & Robotics"
+    },
+    "y07-english": {
+      "title": "English"
+    },
+    "y07-global-perspectives": {
+      "title": "Global Perspectives"
+    },
+    "y07-humanities": {
+      "title": "Humanities"
+    },
+    "y07-mathematics": {
+      "title": "Mathematics"
+    },
+    "y07-physical-education": {
+      "title": "Physical Education"
+    },
+    "y07-portuguese-1st": {
+      "title": "Portuguese 1st"
+    },
+    "y07-science": {
+      "title": "Science"
+    },
+    "y07-spanish": {
+      "title": "Spanish"
+    },
+    "y08-mathematics": {
+      "title": "Mathematics"
+    },
+    "y08-physical-education": {
+      "title": "Physical Education"
+    },
+    "y08-science": {
+      "title": "Science"
+    },
+    "y08-spanish": {
+      "title": "Spanish"
+    },
+    "y11-physical-education": {
+      "title": "Physical Education"
+    },
+    "y11-portuguese-1st": {
+      "title": "Portuguese 1st"
+    },
+    "y12-physical-education": {
+      "title": "Physical Education"
+    },
+    "y12-portuguese-a-level": {
+      "title": "Portuguese A Level"
+    },
+    "y12-spanish-a-level": {
+      "title": "Spanish A Level"
+    }
+  }
+}

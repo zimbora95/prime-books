@@ -1,0 +1,20 @@
+#!/bin/sh
+# Prime Books markdown/PDF sync guard (git pre-commit hook).
+# Installs via tools/hooks/install.sh. Blocks any commit where a book PDF
+# was staged without its markdown companion matching.
+REPO=$(git rev-parse --show-toplevel)
+PY="$REPO/.venv/bin/python"
+[ -x "$PY" ] || PY=python3
+
+STAGED_PDFS=$(git diff --cached --name-only -- 'public/library/*/book.pdf')
+if [ -z "$STAGED_PDFS" ]; then
+    exit 0
+fi
+
+echo "[md-sync] book PDFs staged; checking markdown companions..."
+if ! "$PY" "$REPO/tools/md_sync.py" --check; then
+    echo "[md-sync] DRIFT DETECTED."
+    echo "  Fix: run  .venv/bin/python tools/md_sync.py  then re-stage."
+    exit 1
+fi
+exit 0

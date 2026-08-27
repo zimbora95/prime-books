@@ -1,0 +1,352 @@
+{
+ "file": "y09-physical-education - input.xlsx",
+ "sheet": "Folha1",
+ "headers": [
+  "section_ids/name",
+  "section_ids/chapter_ids/name",
+  "section_ids/chapter_ids/name",
+  "hours in minutes",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "rows": [
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.1.1 History and development\n13.2.2 Court layout and zones\n13.3.3 Scoring and restart rules\n13.4.4  Mixed-gender gameplay",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.2.1 Dynamic warm-up\n13.2.2 Passing drills\n13.2.3 Movement games",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.3.1 Chest and overhead passes\n13.3.2 Pivoting\n13.3.3 Creating space",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.4.1 Set shot\n13.4.2 Running shot\n13.4.3 Penalty shot",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.5.1 Marking\n13.5.2 Interceptions\n13.5.3 Rebounding",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.6.1 Attack rotation\n13.6.2 Defensive positioning\n13.6.3 Communication",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.7.1 Small-sided games\n13.7.2 Match play\n13.7.3 Tournament",
+   "hours in minutes": "120",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.8.1 Stretching\n13.8.2 Reflection\n13.8.3 Peer feedback",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "13. Corfeball",
+   "section_ids/chapter_ids/name": "13.9.1 Collective Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.1.1 What is cross country running\n2.1.2 Safety and terrain awareness\n2.1.3 Pacing strategies",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.2.1 Dynamic stretches\n2.2.2 Jogging and mobility drills\n2.2.3 Stride-outs",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.3.1 Correct posture\n2.3.2 Arm drive\n2.3.3 Uphill vs downhill running",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.4.1 Interval training\n2.4.2 Fartlek running\n2.4.3 Long slow runs",
+   "hours in minutes": "120",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.5.1 Starting pace\n2.5.2 Positioning in pack\n2.5.3 Finishing strong",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.6.1 Relay races\n2.6.2 Time trials\n2.6.3 Class competitions",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.7.1 Light jogging and walking\n2.7.2 Stretching legs and back\n2.7.3 Breathing and reflection",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "2. Cross Country",
+   "section_ids/chapter_ids/name": "2.8.1 Individual Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.1.1 Court layout and markings\n5.1.2 Scoring system (rally point)\n5.1.3 Rotations and positions\n5.1.4 Basic rules (net touch, service, double hit)",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.2.1 Dynamic warm-up\n5.2.2 Partner ball control\n5.2.3 Reaction drills with ball",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.3.1 Forearm pass (bump)\n5.3.2 Overhead pass (set)\n5.3.3 Digging low balls",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.4.1 Spiking technique\n5.4.2 Tipping at the net\n5.4.3 Serving (underhand, overhand, jump serve)",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.5.1 Blocking technique\n5.5.2 Team defensive positions\n5.5.3 Reading opponents",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.6.1 Team rotations\n5.6.2 Offensive formations\n5.6.3 Defensive systems",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.7.1 Small-sided games\n5.7.2 Conditioned rallies\n5.7.3 Class matches",
+   "hours in minutes": "80",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.8.1 Stretching arms and legs\n5.8.2 Breathing exercises\n5.8.3 Reflection on teamwork",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "5. Volleyball",
+   "section_ids/chapter_ids/name": "5.9.1 Collective Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.1.1 History and development\n4.1.2 Court layout and markings\n4.1.3 Scoring system (rally point)\n4.1.4 Singles vs doubles rules",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.2.1 General dynamic warm-up\n4.2.2 Shadow badminton\n4.2.3 Shuttle control drills",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.3.1 Forehand and backhand grip\n4.3.2 Split step and recovery\n4.3.3 Movement to front, back, sides",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.4.1 Clears\n4.4.2 Drop shots\n4.4.3 Drives",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.5.1 Smash\n4.5.2 Net kills\n4.5.3 Fast flat play",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.6.1 Singles strategies\n4.6.2 Doubles formations\n4.6.3 Shot placement tactics",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.7.1 Mini matches\n4.7.2 Conditioned rallies\n4.7.3 Class tournaments",
+   "hours in minutes": "80",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.8.1 Gentle rallies\n4.8.2 Stretching (legs, arms, shoulders)\n4.8.3 Peer feedback",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "4. Badminton",
+   "section_ids/chapter_ids/name": "4.9.1 Individual Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.1.1 Field layout and equipment\n14.1.2 Downs system\n14.1.3 Scoring (touchdowns, extra points)\n14.1.4 Touch instead of tackle rules",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.2.1 Dynamic stretches\n14.2.2 Passing in pairs\n14.2.3 Sprint and reaction drills",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.3.1 Throwing (short and long)\n14.3.2 Catching at different heights\n14.3.3 Running with the ball",
+   "hours in minutes": "60",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.4.1 Simple passing plays\n14.4.2 Route running\n14.4.3 Decision making (run vs pass)",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.5.1 Marking receivers\n14.5.2 Interceptions\n14.5.3 Defensive positioning",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.6.1 Offensive play design\n14.6.2 Defensive team shape\n14.6.3 Communication",
+   "hours in minutes": "90",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.7.1 Small-sided games\n14.7.2 Conditioned games\n14.7.3 Mini tournaments",
+   "hours in minutes": "120",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.8.1 Stretching major muscle groups\n14.8.2 Breathing recovery\n14.8.3 Peer feedback",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "14. American Football",
+   "section_ids/chapter_ids/name": "14.9.1 Collective Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.1.1 History\n6.1.2 Competition format\n6.1.3 Safety",
+   "hours in minutes": "10",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.2.1 Dynamic warm-up\n6.2.2 Mobility\n6.2.3 Pulse raiser",
+   "hours in minutes": "10",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.3.1 Marches\n6.3.2 Jumps\n6.3.3 Arm patterns",
+   "hours in minutes": "20",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.4.1 Push-ups\n6.4.2 Core\n6.4.3 Balance",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.5.1 Static\n6.5.2 Dynamic\n6.5.3 Splits progression",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.6.1 Transitions\n6.6.2 Musicality\n6.6.3 Synchronization",
+   "hours in minutes": "30",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.7.1 Group routines\n6.7.2 Performance skills\n6.7.3 Evaluation",
+   "hours in minutes": "40",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.8.1 Stretch\n6.8.2 Breathing\n6.8.3 Reflection",
+   "hours in minutes": "10",
+   "": ""
+  },
+  {
+   "section_ids/name": "6. Aerobics",
+   "section_ids/chapter_ids/name": "6.9.1 Individual Assessment",
+   "hours in minutes": "90.0",
+   "": ""
+  }
+ ]
+}

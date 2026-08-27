@@ -1,0 +1,244 @@
+{
+ "file": "y05-physical-education - input.xlsx",
+ "sheet": "Template _ Level_subject_year_S",
+ "headers": [
+  "id",
+  "section_ids/name",
+  "section_ids/chapter_ids/name",
+  "section_ids/chapter_ids/name",
+  "Hours in minutes",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "rows": [
+  {
+   "id": "__export__.edu360_syllabus_1_7081caf2",
+   "section_ids/name": "Unit 1 Moving Well",
+   "section_ids/chapter_ids/name": "1.1 Practise, refine and consolidate a broad range of movement skills",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 1 Moving Well",
+   "section_ids/chapter_ids/name": "1.2 Perform and be able to link together a wider variety of movement skills in short sequences",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 1 Moving Well",
+   "section_ids/chapter_ids/name": "1.3 Display movement skills that demonstrate increasing control, fluency and variety",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 1 Moving Well",
+   "section_ids/chapter_ids/name": "1.4 Apply movement competence with confidence in a variety of self-selected and more structured physical activities, showing the ability to respond and adapt to changing contexts and to others’ movements, responses and roles",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 2 Understanding Movement",
+   "section_ids/chapter_ids/name": "2.1 Describe own and others’ movements using some activity-specific vocabulary and be able to identify more and less effective movement",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 2 Understanding Movement",
+   "section_ids/chapter_ids/name": "2.2 Demonstrate (through movement) and discuss understanding of language and concepts related to actions, dynamics, space and relationships",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 2 Understanding Movement",
+   "section_ids/chapter_ids/name": "2.3 Apply success criteria to own and others’ movement performances, and discuss ideas and plans for improvement with others",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 2 Understanding Movement",
+   "section_ids/chapter_ids/name": "2.4 Follow and understand the need for rules, apply tactics/strategies and develop variety in compositional ideas",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 3 Moving Creatively",
+   "section_ids/chapter_ids/name": "3.1 Show creativity and innovation in a range of individual, group, expressive, competitive and cooperative contexts",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 3 Moving Creatively",
+   "section_ids/chapter_ids/name": "3.2 Investigate, select and design alternative courses of action in response to given movement and environmental challenges.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 3 Moving Creatively",
+   "section_ids/chapter_ids/name": "3.3 Address given and self-directed tasks and challenges, finding solutions through innovative use of movement in individual and group tasks",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 3 Moving Creatively",
+   "section_ids/chapter_ids/name": "3.4 Identify and demonstrate a range of compositional ideas in order to express a selected theme, mood or emotion",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 4 Taking Part",
+   "section_ids/chapter_ids/name": "4.1 Show involvement in individual work, sharing space, playing together, working in pairs, and working in small groups across a range of physical activities.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 4 Taking Part",
+   "section_ids/chapter_ids/name": "4.2  Understand the concepts of team/group work and expectations and roles of individual team/group members.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 4 Taking Part",
+   "section_ids/chapter_ids/name": "4.3 Demonstrate independence and collaboration in evaluating own and others’ work, setting short-term personal goals and areas for development",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 4 Taking Part",
+   "section_ids/chapter_ids/name": "4.4 Take responsibility in leading and following the lead of others, contributing positively to the group’s tasks and activities.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 4 Taking Part",
+   "section_ids/chapter_ids/name": "4.5 Understand own and others’ movement strengths, areas for improvement and potential, applying this knowledge to improve movement proficiency and refine movement patterns and sequences.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 4 Taking Part",
+   "section_ids/chapter_ids/name": "4.6 Show patience and care when working with others. Listen to others and plan together to find solutions to movement challenges",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 5 Taking Responsibility",
+   "section_ids/chapter_ids/name": "5.1 Show ability to share space and equipment skilfully and safely, communicating and collaborating with others during this process.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 5 Taking Responsibility",
+   "section_ids/chapter_ids/name": "5.2 Show personal responsibility in physical activities, negotiating successfully and appropriately with other learners in respect of shared equipment, space and movement ideas.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 5 Taking Responsibility",
+   "section_ids/chapter_ids/name": "5.3 Understand and appreciate the need for rules and regulations to foster fair play, following these in a variety of collaborative and competitive physical activities in small teams/groups.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 5 Taking Responsibility",
+   "section_ids/chapter_ids/name": "5.4 Employ a range of appropriate help-seeking strategies at appropriate moments when undertaking group physical activities.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 5 Taking Responsibility",
+   "section_ids/chapter_ids/name": "5.5 Offer constructive and specific feedback to others on strengths and goals. Demonstrate respect for others when they are working to improve individual/group performances",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 6 Healthy Bodies",
+   "section_ids/chapter_ids/name": "6.1 Demonstrate understanding of the importance of physical activity in relation to health, fitness and wellbeing",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 6 Healthy Bodies",
+   "section_ids/chapter_ids/name": "6.2 Identify which body parts, including joints and muscles, are being used during a physical activity and discuss how working these can contribute to physical fitness. Describe the different components of fitness.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 6 Healthy Bodies",
+   "section_ids/chapter_ids/name": "6.3 Engage in and plan for a range of physical activities, evaluating and comparing the required level of intensity within each of these.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 6 Healthy Bodies",
+   "section_ids/chapter_ids/name": "6.4 Undertake physical activities responsibly and safely through assessing and managing risk and appropriate preparation and learning.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 6 Healthy Bodies",
+   "section_ids/chapter_ids/name": "6.5 Identify the key components of warm-up and cool-down routines in preparation for physical activity, understanding their importance.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Unit 6 Healthy Bodies",
+   "section_ids/chapter_ids/name": "6.6 Demonstrate understanding that a varied balanced diet contributes to a healthy and active lifestyle.",
+   "Hours in minutes": "89",
+   "": ""
+  },
+  {
+   "id": "",
+   "section_ids/name": "Test term 1, term 2 and term3",
+   "section_ids/chapter_ids/name": "",
+   "Hours in minutes": "",
+   "": ""
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "file": "y07-spanish - input.xlsx",
+ "sheet": "Hoja1",
+ "headers": [
+  "section_ids/name",
+  "section_ids/Unit_ids/name",
+  "section_ids/Unit_ids/name",
+  "Hours in minutes"
+ ],
+ "rows": [
+  {
+   "section_ids/name": "Unit 1.1: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "section_ids/Unit_ids/name": "Unit 1.1: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 1.2: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "section_ids/Unit_ids/name": "Unit 1.2: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 1.3: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "section_ids/Unit_ids/name": "Unit 1.3: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 1.4: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "section_ids/Unit_ids/name": "Unit 1.4: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Revision Block 1A + grammar",
+   "section_ids/Unit_ids/name": "Revision Block 1A + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "1st Test (2-Week Exam)",
+   "section_ids/Unit_ids/name": "1st Test (2-Week Exam)",
+   "Hours in minutes": "135"
+  },
+  {
+   "section_ids/name": "School activities and Projects 1",
+   "section_ids/Unit_ids/name": "School activities and Projects 1",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 2.1: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "section_ids/Unit_ids/name": "Unit 2.1: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 2.2: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "section_ids/Unit_ids/name": "Unit 2.2: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 2.3: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "section_ids/Unit_ids/name": "Unit 2.3: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 2.4: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "section_ids/Unit_ids/name": "Unit 2.4: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Revision Block 1B + grammar",
+   "section_ids/Unit_ids/name": "Revision Block 1B + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "2nd Test (2-Week Exam)",
+   "section_ids/Unit_ids/name": "2nd Test (2-Week Exam)",
+   "Hours in minutes": "135"
+  },
+  {
+   "section_ids/name": "School activities and Projects 2",
+   "section_ids/Unit_ids/name": "School activities and Projects 2",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 3.1: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "section_ids/Unit_ids/name": "Unit 3.1: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 3.2: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "section_ids/Unit_ids/name": "Unit 3.2: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 3.3: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "section_ids/Unit_ids/name": "Unit 3.3: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 3.4: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "section_ids/Unit_ids/name": "Unit 3.4: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 4.1: Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "section_ids/Unit_ids/name": "Unit 4.1: Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 4.2: Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "section_ids/Unit_ids/name": "Unit 4.2: Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 4.3: Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "section_ids/Unit_ids/name": "Unit 4.3: Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Revision Block 2 + grammar",
+   "section_ids/Unit_ids/name": "Revision Block 2 + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "3rd Test (2-Week Exam)",
+   "section_ids/Unit_ids/name": "3rd Test (2-Week Exam)",
+   "Hours in minutes": "135"
+  },
+  {
+   "section_ids/name": "School activities and Projects 3",
+   "section_ids/Unit_ids/name": "School activities and Projects 3",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 5.1: Travel, Transport, School Trips, Environment & Work + grammar",
+   "section_ids/Unit_ids/name": "Unit 5.1: Travel, Transport, School Trips, Environment & Work + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 5.2: Travel, Transport, School Trips, Environment & Work + grammar",
+   "section_ids/Unit_ids/name": "Unit 5.2: Travel, Transport, School Trips, Environment & Work + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Unit 5.3: Travel, Transport, School Trips, Environment & Work + grammar",
+   "section_ids/Unit_ids/name": "Unit 5.3: Travel, Transport, School Trips, Environment & Work + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Vocabulary & Grammar Consolidation 3.1",
+   "section_ids/Unit_ids/name": "Vocabulary & Grammar Consolidation 3.1",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Vocabulary & Grammar Consolidation 3.2",
+   "section_ids/Unit_ids/name": "Vocabulary & Grammar Consolidation 3.2",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "General Revision 3.3",
+   "section_ids/Unit_ids/name": "General Revision 3.3",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Final Exam Preparation + grammar",
+   "section_ids/Unit_ids/name": "Final Exam Preparation + grammar",
+   "Hours in minutes": "90"
+  },
+  {
+   "section_ids/name": "Final Term 3 Exams (2-Week Exam)",
+   "section_ids/Unit_ids/name": "Final Term 3 Exams (2-Week Exam)",
+   "Hours in minutes": "135"
+  },
+  {
+   "section_ids/name": "School activities and Projects 4",
+   "section_ids/Unit_ids/name": "School activities and Projects 4",
+   "Hours in minutes": "135"
+  }
+ ]
+}

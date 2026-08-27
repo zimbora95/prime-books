@@ -1,0 +1,684 @@
+[
+ {
+  "key": "Y01-ArtDesign",
+  "year": 1,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y01-ArtDesign.webp",
+  "driveUrl": "https://drive.google.com/file/d/1sRRUu9X0IA2ICmOYOxo1c2GyJFnUbwS0/view?usp=drive_link"
+ },
+ {
+  "key": "Y01-ComputingRobotics",
+  "year": 1,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y01-ComputingRobotics.webp",
+  "driveUrl": "https://drive.google.com/file/d/1-aeunOX8o5DvtbUW84KWkOOgiTVfGKYw/view?usp=drive_link"
+ },
+ {
+  "key": "Y01-English",
+  "year": 1,
+  "subject": "English",
+  "cover": "/collection-covers/Y01-English.webp",
+  "driveUrl": "https://drive.google.com/file/d/1I3HvdNVfmn4ttY-tMMQFceQQ0b_MSWK8/view?usp=drive_link"
+ },
+ {
+  "key": "Y01-GlobalPerspectives",
+  "year": 1,
+  "subject": "Global Perspectives",
+  "cover": "/collection-covers/Y01-GlobalPerspectives.webp",
+  "driveUrl": "https://drive.google.com/file/d/1t2oLAmQifvYI0tigEaIMee09IpUH6y5F/view?usp=drive_link"
+ },
+ {
+  "key": "Y01-Mathematics",
+  "year": 1,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y01-Mathematics.webp"
+ },
+ {
+  "key": "Y01-MusicActing",
+  "year": 1,
+  "subject": "Music & Acting",
+  "cover": "/collection-covers/Y01-MusicActing.webp"
+ },
+ {
+  "key": "Y01-PhysicalEducationGym",
+  "year": 1,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y01-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y01-ScienceLab",
+  "year": 1,
+  "subject": "Science & Lab",
+  "cover": "/collection-covers/Y01-ScienceLab.webp"
+ },
+ {
+  "key": "Y02-ArtDesign",
+  "year": 2,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y02-ArtDesign.webp"
+ },
+ {
+  "key": "Y02-ComputingRobotics",
+  "year": 2,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y02-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y02-English",
+  "year": 2,
+  "subject": "English",
+  "cover": "/collection-covers/Y02-English.webp"
+ },
+ {
+  "key": "Y02-GlobalPerspectives",
+  "year": 2,
+  "subject": "Global Perspectives",
+  "cover": "/collection-covers/Y02-GlobalPerspectives.webp"
+ },
+ {
+  "key": "Y02-Mathematics",
+  "year": 2,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y02-Mathematics.webp"
+ },
+ {
+  "key": "Y02-MusicActing",
+  "year": 2,
+  "subject": "Music & Acting",
+  "cover": "/collection-covers/Y02-MusicActing.webp"
+ },
+ {
+  "key": "Y02-PhysicalEducationGym",
+  "year": 2,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y02-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y02-ScienceLab",
+  "year": 2,
+  "subject": "Science & Lab",
+  "cover": "/collection-covers/Y02-ScienceLab.webp"
+ },
+ {
+  "key": "Y03-ArtDesign",
+  "year": 3,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y03-ArtDesign.webp"
+ },
+ {
+  "key": "Y03-ComputingRobotics",
+  "year": 3,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y03-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y03-English",
+  "year": 3,
+  "subject": "English",
+  "cover": "/collection-covers/Y03-English.webp"
+ },
+ {
+  "key": "Y03-GlobalPerspectives",
+  "year": 3,
+  "subject": "Global Perspectives",
+  "cover": "/collection-covers/Y03-GlobalPerspectives.webp"
+ },
+ {
+  "key": "Y03-Mathematics",
+  "year": 3,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y03-Mathematics.webp"
+ },
+ {
+  "key": "Y03-MusicActing",
+  "year": 3,
+  "subject": "Music & Acting",
+  "cover": "/collection-covers/Y03-MusicActing.webp"
+ },
+ {
+  "key": "Y03-PhysicalEducationGym",
+  "year": 3,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y03-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y03-Portuguese1st",
+  "year": 3,
+  "subject": "Portuguese 1st",
+  "cover": "/collection-covers/Y03-Portuguese1st.webp"
+ },
+ {
+  "key": "Y03-ScienceLab",
+  "year": 3,
+  "subject": "Science & Lab",
+  "cover": "/collection-covers/Y03-ScienceLab.webp"
+ },
+ {
+  "key": "Y04-ArtDesign",
+  "year": 4,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y04-ArtDesign.webp"
+ },
+ {
+  "key": "Y04-ComputingRobotics",
+  "year": 4,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y04-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y04-English",
+  "year": 4,
+  "subject": "English",
+  "cover": "/collection-covers/Y04-English.webp"
+ },
+ {
+  "key": "Y04-GlobalPerspectives",
+  "year": 4,
+  "subject": "Global Perspectives",
+  "cover": "/collection-covers/Y04-GlobalPerspectives.webp"
+ },
+ {
+  "key": "Y04-Mathematics",
+  "year": 4,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y04-Mathematics.webp"
+ },
+ {
+  "key": "Y04-MusicActing",
+  "year": 4,
+  "subject": "Music & Acting",
+  "cover": "/collection-covers/Y04-MusicActing.webp"
+ },
+ {
+  "key": "Y04-PhysicalEducationGym",
+  "year": 4,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y04-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y04-Portuguese1st",
+  "year": 4,
+  "subject": "Portuguese 1st",
+  "cover": "/collection-covers/Y04-Portuguese1st.webp"
+ },
+ {
+  "key": "Y04-ScienceLab",
+  "year": 4,
+  "subject": "Science & Lab",
+  "cover": "/collection-covers/Y04-ScienceLab.webp"
+ },
+ {
+  "key": "Y05-ArtDesign",
+  "year": 5,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y05-ArtDesign.webp"
+ },
+ {
+  "key": "Y05-ComputingRobotics",
+  "year": 5,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y05-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y05-English",
+  "year": 5,
+  "subject": "English",
+  "cover": "/collection-covers/Y05-English.webp"
+ },
+ {
+  "key": "Y05-GlobalPerspectives",
+  "year": 5,
+  "subject": "Global Perspectives",
+  "cover": "/collection-covers/Y05-GlobalPerspectives.webp"
+ },
+ {
+  "key": "Y05-Mathematics",
+  "year": 5,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y05-Mathematics.webp"
+ },
+ {
+  "key": "Y05-MusicActing",
+  "year": 5,
+  "subject": "Music & Acting",
+  "cover": "/collection-covers/Y05-MusicActing.webp"
+ },
+ {
+  "key": "Y05-PhysicalEducationGym",
+  "year": 5,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y05-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y05-Portuguese1st",
+  "year": 5,
+  "subject": "Portuguese 1st",
+  "cover": "/collection-covers/Y05-Portuguese1st.webp"
+ },
+ {
+  "key": "Y05-ScienceLab",
+  "year": 5,
+  "subject": "Science & Lab",
+  "cover": "/collection-covers/Y05-ScienceLab.webp"
+ },
+ {
+  "key": "Y06-ArtDesign",
+  "year": 6,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y06-ArtDesign.webp"
+ },
+ {
+  "key": "Y06-ComputingRobotics",
+  "year": 6,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y06-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y06-English",
+  "year": 6,
+  "subject": "English",
+  "cover": "/collection-covers/Y06-English.webp"
+ },
+ {
+  "key": "Y06-GlobalPerspectives",
+  "year": 6,
+  "subject": "Global Perspectives",
+  "cover": "/collection-covers/Y06-GlobalPerspectives.webp"
+ },
+ {
+  "key": "Y06-Mathematics",
+  "year": 6,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y06-Mathematics.webp"
+ },
+ {
+  "key": "Y06-MusicActing",
+  "year": 6,
+  "subject": "Music & Acting",
+  "cover": "/collection-covers/Y06-MusicActing.webp"
+ },
+ {
+  "key": "Y06-PhysicalEducationGym",
+  "year": 6,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y06-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y06-Portuguese1st",
+  "year": 6,
+  "subject": "Portuguese 1st",
+  "cover": "/collection-covers/Y06-Portuguese1st.webp"
+ },
+ {
+  "key": "Y06-ScienceLab",
+  "year": 6,
+  "subject": "Science & Lab",
+  "cover": "/collection-covers/Y06-ScienceLab.webp"
+ },
+ {
+  "key": "Y07-ArtDesign",
+  "year": 7,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y07-ArtDesign.webp"
+ },
+ {
+  "key": "Y07-ComputingRobotics",
+  "year": 7,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y07-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y07-English",
+  "year": 7,
+  "subject": "English",
+  "cover": "/collection-covers/Y07-English.webp"
+ },
+ {
+  "key": "Y07-HumanitiesHistoryGeography",
+  "year": 7,
+  "subject": "Humanities (History & Geography)",
+  "cover": "/collection-covers/Y07-HumanitiesHistoryGeography.webp"
+ },
+ {
+  "key": "Y07-Mathematics",
+  "year": 7,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y07-Mathematics.webp"
+ },
+ {
+  "key": "Y07-MusicDrama",
+  "year": 7,
+  "subject": "Music & Drama",
+  "cover": "/collection-covers/Y07-MusicDrama.webp"
+ },
+ {
+  "key": "Y07-PhysicalEducationGym",
+  "year": 7,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y07-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y07-Portuguese1st",
+  "year": 7,
+  "subject": "Portuguese 1st",
+  "cover": "/collection-covers/Y07-Portuguese1st.webp"
+ },
+ {
+  "key": "Y07-Portuguese2nd",
+  "year": 7,
+  "subject": "Portuguese 2nd",
+  "cover": "/collection-covers/Y07-Portuguese2nd.webp"
+ },
+ {
+  "key": "Y07-Science",
+  "year": 7,
+  "subject": "Science",
+  "cover": "/collection-covers/Y07-Science.webp"
+ },
+ {
+  "key": "Y07-Spanish",
+  "year": 7,
+  "subject": "Spanish",
+  "cover": "/collection-covers/Y07-Spanish.webp"
+ },
+ {
+  "key": "Y08-ArtDesign",
+  "year": 8,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y08-ArtDesign.webp"
+ },
+ {
+  "key": "Y08-ComputingRobotics",
+  "year": 8,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y08-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y08-English",
+  "year": 8,
+  "subject": "English",
+  "cover": "/collection-covers/Y08-English.webp"
+ },
+ {
+  "key": "Y08-HumanitiesHistoryGeography",
+  "year": 8,
+  "subject": "Humanities (History & Geography)",
+  "cover": "/collection-covers/Y08-HumanitiesHistoryGeography.webp"
+ },
+ {
+  "key": "Y08-Mathematics",
+  "year": 8,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y08-Mathematics.webp"
+ },
+ {
+  "key": "Y08-MusicDrama",
+  "year": 8,
+  "subject": "Music & Drama",
+  "cover": "/collection-covers/Y08-MusicDrama.webp"
+ },
+ {
+  "key": "Y08-PhysicalEducationGym",
+  "year": 8,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y08-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y08-Portuguese1st",
+  "year": 8,
+  "subject": "Portuguese 1st",
+  "cover": "/collection-covers/Y08-Portuguese1st.webp"
+ },
+ {
+  "key": "Y08-Portuguese2nd",
+  "year": 8,
+  "subject": "Portuguese 2nd",
+  "cover": "/collection-covers/Y08-Portuguese2nd.webp"
+ },
+ {
+  "key": "Y08-Science",
+  "year": 8,
+  "subject": "Science",
+  "cover": "/collection-covers/Y08-Science.webp"
+ },
+ {
+  "key": "Y08-Spanish",
+  "year": 8,
+  "subject": "Spanish",
+  "cover": "/collection-covers/Y08-Spanish.webp"
+ },
+ {
+  "key": "Y09-ArtDesign",
+  "year": 9,
+  "subject": "Art & Design",
+  "cover": "/collection-covers/Y09-ArtDesign.webp"
+ },
+ {
+  "key": "Y09-ComputingRobotics",
+  "year": 9,
+  "subject": "Computing & Robotics",
+  "cover": "/collection-covers/Y09-ComputingRobotics.webp"
+ },
+ {
+  "key": "Y09-English",
+  "year": 9,
+  "subject": "English",
+  "cover": "/collection-covers/Y09-English.webp"
+ },
+ {
+  "key": "Y09-HumanitiesHistoryGeography",
+  "year": 9,
+  "subject": "Humanities (History & Geography)",
+  "cover": "/collection-covers/Y09-HumanitiesHistoryGeography.webp"
+ },
+ {
+  "key": "Y09-Mathematics",
+  "year": 9,
+  "subject": "Mathematics",
+  "cover": "/collection-covers/Y09-Mathematics.webp"
+ },
+ {
+  "key": "Y09-MusicDrama",
+  "year": 9,
+  "subject": "Music & Drama",
+  "cover": "/collection-covers/Y09-MusicDrama.webp"
+ },
+ {
+  "key": "Y09-PhysicalEducationGym",
+  "year": 9,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y09-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y09-Portuguese1stIGCSE",
+  "year": 9,
+  "subject": "Portuguese 1st (IGCSE)",
+  "cover": "/collection-covers/Y09-Portuguese1stIGCSE.webp"
+ },
+ {
+  "key": "Y09-Portuguese2nd",
+  "year": 9,
+  "subject": "Portuguese 2nd",
+  "cover": "/collection-covers/Y09-Portuguese2nd.webp"
+ },
+ {
+  "key": "Y09-Science",
+  "year": 9,
+  "subject": "Science",
+  "cover": "/collection-covers/Y09-Science.webp"
+ },
+ {
+  "key": "Y09-Spanish",
+  "year": 9,
+  "subject": "Spanish",
+  "cover": "/collection-covers/Y09-Spanish.webp"
+ },
+ {
+  "key": "Y10-PhysicalEducationGym",
+  "year": 10,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y10-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y10-Portuguese1stIGCSE",
+  "year": 10,
+  "subject": "Portuguese 1st (IGCSE)",
+  "cover": "/collection-covers/Y10-Portuguese1stIGCSE.webp"
+ },
+ {
+  "key": "Y11-Portuguese1stIGCSE",
+  "year": 11,
+  "subject": "Portuguese 1st (IGCSE)",
+  "cover": "/collection-covers/Y11-Portuguese1stIGCSE.webp"
+ },
+ {
+  "key": "Y12-PhysicalEducationGym",
+  "year": 12,
+  "subject": "Physical Education & Gym",
+  "cover": "/collection-covers/Y12-PhysicalEducationGym.webp"
+ },
+ {
+  "key": "Y01-GermanA1A2",
+  "year": 1,
+  "subject": "German A1/A2",
+  "cover": "/collection-covers/Y01-GermanA1A2.webp"
+ },
+ {
+  "key": "Y01-GermanB1B2",
+  "year": 1,
+  "subject": "German B1/B2",
+  "cover": "/collection-covers/Y01-GermanB1B2.webp"
+ },
+ {
+  "key": "Y01-SpanishA1A2",
+  "year": 1,
+  "subject": "Spanish A1/A2",
+  "cover": "/collection-covers/Y01-SpanishA1A2.webp"
+ },
+ {
+  "key": "Y01-SpanishB1B2",
+  "year": 1,
+  "subject": "Spanish B1/B2",
+  "cover": "/collection-covers/Y01-SpanishB1B2.webp"
+ },
+ {
+  "key": "Y02-GermanA1A2",
+  "year": 2,
+  "subject": "German A1/A2",
+  "cover": "/collection-covers/Y02-GermanA1A2.webp"
+ },
+ {
+  "key": "Y02-GermanB1B2",
+  "year": 2,
+  "subject": "German B1/B2",
+  "cover": "/collection-covers/Y02-GermanB1B2.webp"
+ },
+ {
+  "key": "Y02-SpanishA1A2",
+  "year": 2,
+  "subject": "Spanish A1/A2",
+  "cover": "/collection-covers/Y02-SpanishA1A2.webp"
+ },
+ {
+  "key": "Y02-SpanishB1B2",
+  "year": 2,
+  "subject": "Spanish B1/B2",
+  "cover": "/collection-covers/Y02-SpanishB1B2.webp"
+ },
+ {
+  "key": "Y03-GermanA1A2",
+  "year": 3,
+  "subject": "German A1/A2",
+  "cover": "/collection-covers/Y03-GermanA1A2.webp"
+ },
+ {
+  "key": "Y03-GermanB1B2",
+  "year": 3,
+  "subject": "German B1/B2",
+  "cover": "/collection-covers/Y03-GermanB1B2.webp"
+ },
+ {
+  "key": "Y03-SpanishA1A2",
+  "year": 3,
+  "subject": "Spanish A1/A2",
+  "cover": "/collection-covers/Y03-SpanishA1A2.webp"
+ },
+ {
+  "key": "Y03-SpanishB1B2",
+  "year": 3,
+  "subject": "Spanish B1/B2",
+  "cover": "/collection-covers/Y03-SpanishB1B2.webp"
+ },
+ {
+  "key": "Y04-GermanA1A2",
+  "year": 4,
+  "subject": "German A1/A2",
+  "cover": "/collection-covers/Y04-GermanA1A2.webp"
+ },
+ {
+  "key": "Y04-GermanB1B2",
+  "year": 4,
+  "subject": "German B1/B2",
+  "cover": "/collection-covers/Y04-GermanB1B2.webp"
+ },
+ {
+  "key": "Y04-SpanishA1A2",
+  "year": 4,
+  "subject": "Spanish A1/A2",
+  "cover": "/collection-covers/Y04-SpanishA1A2.webp"
+ },
+ {
+  "key": "Y04-SpanishB1B2",
+  "year": 4,
+  "subject": "Spanish B1/B2",
+  "cover": "/collection-covers/Y04-SpanishB1B2.webp"
+ },
+ {
+  "key": "Y05-GermanA1A2",
+  "year": 5,
+  "subject": "German A1/A2",
+  "cover": "/collection-covers/Y05-GermanA1A2.webp"
+ },
+ {
+  "key": "Y05-GermanB1B2",
+  "year": 5,
+  "subject": "German B1/B2",
+  "cover": "/collection-covers/Y05-GermanB1B2.webp"
+ },
+ {
+  "key": "Y05-SpanishA1A2",
+  "year": 5,
+  "subject": "Spanish A1/A2",
+  "cover": "/collection-covers/Y05-SpanishA1A2.webp"
+ },
+ {
+  "key": "Y05-SpanishB1B2",
+  "year": 5,
+  "subject": "Spanish B1/B2",
+  "cover": "/collection-covers/Y05-SpanishB1B2.webp"
+ },
+ {
+  "key": "Y06-GermanA1A2",
+  "year": 6,
+  "subject": "German A1/A2",
+  "cover": "/collection-covers/Y06-GermanA1A2.webp"
+ },
+ {
+  "key": "Y06-GermanB1B2",
+  "year": 6,
+  "subject": "German B1/B2",
+  "cover": "/collection-covers/Y06-GermanB1B2.webp"
+ },
+ {
+  "key": "Y06-SpanishA1A2",
+  "year": 6,
+  "subject": "Spanish A1/A2",
+  "cover": "/collection-covers/Y06-SpanishA1A2.webp"
+ },
+ {
+  "key": "Y06-SpanishB1B2",
+  "year": 6,
+  "subject": "Spanish B1/B2",
+  "cover": "/collection-covers/Y06-SpanishB1B2.webp"
+ }
+]

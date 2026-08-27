@@ -1,0 +1,31 @@
+{
+ "file": "y07-science - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Cells",
+   "Page": "1"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Materials and their structure",
+   "Page": "18"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Forces and motion",
+   "Page": "26"
+  },
+  {
+   "Section type": "Section",
+   "Title": "Glossary",
+   "Page": "34"
+  }
+ ]
+}

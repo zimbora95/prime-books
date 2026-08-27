@@ -1,0 +1,369 @@
+{
+ "file": "y03-global-perspectives - input.xlsx",
+ "sheet": "Template _ Level_subject_year_S",
+ "headers": [
+  "section_ids/name",
+  "section_ids/chapter_ids/name",
+  "section_ids/chapter_ids/name",
+  "Hours in minutes",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  ""
+ ],
+ "rows": [
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.1 My favourite sport and game",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.2 Indoor and outdoor games",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.3 Traditional games around the world",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.4 Why do we exercise?",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.5 Playing safely",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.6 Teamwork in sports",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.7 Sports in our community",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.8 Different people, different sports",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.9 Recreation and free time",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.10 Weather and sports",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 1: Sports and recreation",
+   "section_ids/chapter_ids/name": "1.11 Healthy habits through sports",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 2: Rich and poor",
+   "section_ids/chapter_ids/name": "2.1 What do we need to live?",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 2: Rich and poor",
+   "section_ids/chapter_ids/name": "2.2 Needs and wants",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 2: Rich and poor",
+   "section_ids/chapter_ids/name": "2.3 Different homes around the world",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 2: Rich and poor",
+   "section_ids/chapter_ids/name": "2.4 Jobs and helping families",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 2: Rich and poor",
+   "section_ids/chapter_ids/name": "2.5 Communities helping together",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 2: Rich and poor",
+   "section_ids/chapter_ids/name": "2.6 Saving and spending wisely",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 1 Revision",
+   "section_ids/chapter_ids/name": "Term 1 Revision",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 1 Assessments",
+   "section_ids/chapter_ids/name": "Term 1 Assessments",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 1 School activities",
+   "section_ids/chapter_ids/name": "Term 1 School activities",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.1 What is digital world?",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.2 Digital devices around us",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.3 Technology around the world",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.4 Learning with technology",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.5 Staying safe online",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.6 Being kind online (digital citizenship)",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.7 Screen time control",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 3: Digital world",
+   "section_ids/chapter_ids/name": "3.8 Designing the technology of the future",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.1 What is communication?",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.2 Speaking and listening",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.3 Verbal and non-verbal communication",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.4 Feelings and communication",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.5 Communication around the world",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.6 Solving problems through communication",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 4: Improving communication",
+   "section_ids/chapter_ids/name": "4.7 Digital communication",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 2 Revision",
+   "section_ids/chapter_ids/name": "Term 2 Revision",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 2 Assessments",
+   "section_ids/chapter_ids/name": "Term 2 Assessments",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 2 School activities",
+   "section_ids/chapter_ids/name": "Term 2 School activities",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.1 Ways we travel",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.2 Moving goods",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.3 Land, water and air transport",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.4 Safe travel",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.5 Transport around the world",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.6 Helping the environment",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.7 Community helpers and transport",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 5: Moving goods and people",
+   "section_ids/chapter_ids/name": "5.8 Design future transport",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.1 My family",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.2 Different families around the world",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.3 Being a good friend",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.4 Our school and local community",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.5 Working together to build a caring community",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.6 Celebrations and traditions",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Unit 6: Family, friends, community and culture",
+   "section_ids/chapter_ids/name": "6.7 Respecting different cultures",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 3 Revision",
+   "section_ids/chapter_ids/name": "Term 3 Revision",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 3 Assessments",
+   "section_ids/chapter_ids/name": "Term 3 Assessments",
+   "Hours in minutes": "",
+   "": ""
+  },
+  {
+   "section_ids/name": "Term 3 School activities",
+   "section_ids/chapter_ids/name": "Term 3 School activities",
+   "Hours in minutes": "",
+   "": ""
+  }
+ ]
+}

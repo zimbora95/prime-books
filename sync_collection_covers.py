@@ -1,0 +1,102 @@
+#!/usr/bin/env python
+"""Export every approved Prime Books cover for the web collection overview.
+
+Reads the authoritative v2 cover plan and finished 300 dpi covers, then writes
+web-sized WebP files plus public/collection-books.json for the storefront.
+"""
+from __future__ import annotations
+
+import json
+import os
+from pathlib import Path
+
+from PIL import Image
+
+# NOTE (2026-08-12): the v3 cover factory and its plan.json lived in the RETIRED
+# 'Documents/The Prime Books/_assets' tree and have NO counterpart in the MEGA
+# project (searched: no _assets, no plan.json). This script therefore cannot run
+# until someone points it at wherever those assets now live. Set
+# PRIME_COVER_FACTORY to that folder; it exits with a clear message otherwise,
+# rather than half-working against a guessed path.
+FACTORY = Path(
+    os.environ.get(
+        "PRIME_COVER_FACTORY",
+        r"C:\Users\alexa\Documents\MEGA\Projects\Prime Books\RESOURCES\_assets\v3",
+    )
+)
+PLAN = FACTORY.parent / "v2" / "plan.json"
+SOURCE_COVERS = FACTORY / "cover"
+PUBLIC = Path(__file__).resolve().parent / "public"
+OUT = PUBLIC / "collection-covers"
+MANIFEST = PUBLIC / "collection-books.json"
+WEB_WIDTH = 720
+WEB_HEIGHT = round(WEB_WIDTH * 3189 / 2480)
+
+# Public Google Drive viewers for the books whose PDF previews have been
+# explicitly published. Keep these in the manifest so the static Vercel site
+# never needs access to the local H: drive or to a bundled PDF file.
+DRIVE_URLS = {
+    "Y01-ArtDesign": "https://drive.google.com/file/d/1sRRUu9X0IA2ICmOYOxo1c2GyJFnUbwS0/view?usp=drive_link",
+    "Y01-ComputingRobotics": "https://drive.google.com/file/d/1-aeunOX8o5DvtbUW84KWkOOgiTVfGKYw/view?usp=drive_link",
+    "Y01-English": "https://drive.google.com/file/d/1I3HvdNVfmn4ttY-tMMQFceQQ0b_MSWK8/view?usp=drive_link",
+    "Y01-GlobalPerspectives": "https://drive.google.com/file/d/1t2oLAmQifvYI0tigEaIMee09IpUH6y5F/view?usp=drive_link",
+}
+
+
+def main() -> None:
+    if not PLAN.exists():
+        raise SystemExit(
+            "cover factory not found: %s\n"
+            "The v3 factory lived in the RETIRED 'Documents/The Prime Books/_assets'\n"
+            "tree and has no counterpart in the MEGA project. Point\n"
+            "PRIME_COVER_FACTORY at wherever those assets now live." % PLAN
+        )
+    books = json.loads(PLAN.read_text(encoding="utf-8"))
+    OUT.mkdir(parents=True, exist_ok=True)
+    expected = set()
+    manifest = []
+
+    for book in sorted(books, key=lambda item: (item["year"], item["subject"])):
+        key = book["key"]
+        src = SOURCE_COVERS / f"{key}.png"
+        if not src.exists():
+            raise FileNotFoundError(f"Missing approved cover: {src}")
+
+        name = f"{key}.webp"
+        expected.add(name)
+        dst = OUT / name
+        with Image.open(src) as image:
+            image = image.convert("RGB")
+            if image.size != (2480, 3189):
+                raise ValueError(f"Unexpected dimensions for {src}: {image.size}")
+            image = image.resize((WEB_WIDTH, WEB_HEIGHT), Image.Resampling.LANCZOS)
+            image.save(dst, "WEBP", quality=84, method=6)
+
+        entry = {
+            "key": key,
+            "year": book["year"],
+            "subject": book["subject"],
+            "cover": f"/collection-covers/{name}",
+        }
+        if drive_url := DRIVE_URLS.get(key):
+            entry["driveUrl"] = drive_url
+        manifest.append(entry)
+
+    for stale in OUT.glob("*.webp"):
+        if stale.name not in expected:
+            stale.unlink()
+
+    MANIFEST.write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    total_bytes = sum(path.stat().st_size for path in OUT.glob("*.webp"))
+    print(
+        f"Exported {len(manifest)} covers at {WEB_WIDTH}x{WEB_HEIGHT} "
+        f"({total_bytes / 1024 / 1024:.1f} MiB) -> {OUT}"
+    )
+    print(f"Manifest -> {MANIFEST}")
+
+
+if __name__ == "__main__":
+    main()
