@@ -17,42 +17,34 @@ Student Manual
 **UNIT 0 · TOPIC 0.1**
 REPASO Y REENCUENTRO
 
+PRIME BOOKS · SPANISH · YEAR 8
+Reencuentro
+**9**
+
 **TOPIC 0.1**
-## 0.1 · Revision and Reconnection
+0.1 · Revision and Reconnection
 
 Repaso y reencuentro — you are not starting again.
-
-Repaso y reencuentro
-**9**
-PRIME BOOKS · SPANISH · YEAR 8
 
 You are not starting again. Today you will reconnect with Spanish from Year 7,
 discover what you remember and begin Year 8 with confidence.
 
-**BY THE END OF THIS LESSON, I CAN**
-Objetivos
+**BY THE END OF THIS LESSON, I CAN Objetivos**
 
--
 use essential Spanish in the classroom
 
--
 introduce myself and ask a partner basic questions
 
--
 recognise language about before, now and later
 
--
 understand the main ideas in a short text
 
--
 write a short connected paragraph
 
-**BILLETE DE ENTRADA**
-Entry ticket
+**BILLETE DE ENTRADA Entry ticket**
 
 Complete what you can without looking back. If you are new to Spanish, begin with your name
 and use a model from the board.
-
 1. Me llamo ________________________________________.
 
 2. Tengo ______________________ años.
@@ -67,16 +59,21 @@ and use a model from the board.
 **UNIT 0 · TOPIC 0.1**
 REPASO Y REENCUENTRO
 
+PRIME BOOKS · SPANISH · YEAR 8
+Reencuentro
+**10**
+
 **TOPIC 0.1**
-## El español de la clase
+· El español de la clase
 
 Spanish for the classroom — the language of the lesson itself.
 
-Repaso y reencuentro
-**10**
-PRIME BOOKS · SPANISH · YEAR 8
+**ASÍ FUNCIONA Here is how it works**
 
-**SPANISH**
+Seven phrases you will use every week. Say them until they are automatic: they are the engine of
+every lesson.
+
+**ESPAÑOL**
 **ENGLISH**
 
 No entiendo.
@@ -100,8 +97,7 @@ More slowly, please.
 ¿Puedo ir al baño?
 Can I go to the toilet?
 
-**PEDIR PRESTADO**
-Borrowing something
+**PEDIR PRESTADO Borrowing something**
 
 Ask a partner for two different objects. Reply politely, then swap roles.
 
@@ -111,34 +107,12 @@ Ask a partner for two different objects. Reply politely, then swap roles.
 ¿Me prestas un bolígrafo / un lápiz / una
 goma / una regla, por favor?
 
-Sí, claro. Aquí tienes. / Lo siento, no tengo.
+Sí, claro. Aquí tienes. / Lo siento, no
+tengo.
 
-**CORE LESSON**
+**TU TURNO Your turn**
 
-**YA LO TIENES**
-Quick retrieval from the real Year 7 course
-
-Do this from memory. It shows you where you are, not what you are worth.
-
-1. Write today's date: Hoy es ______________________________________.
-
-2. Write the time in Spanish: 9:15 _________________________________.
-
-3. Complete: Yo ______________ trece años. (tener)
-
-4. Choose: Mi amigo es / está simpático.
-
-5. Choose: Hoy mi amiga es / está cansada.
-
-6. Complete: En mi barrio ______________ un parque.
-
-7. Complete: Normalmente ______________ al colegio a las ocho. (ir)
-
-8. Complete: Me ______________ escuchar música.
-
-9. Write one question beginning with ¿Dónde ...? ______________________________
-
-10. Join the ideas with porque: Me gusta el español. Es interesante. ______________
+Practise: ask for three of the objects above. Your partner replies. Then swap roles.
 
 <!-- page 4 -->
 

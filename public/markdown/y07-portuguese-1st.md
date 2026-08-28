@@ -160,43 +160,41 @@ Relembra · o que aprendi.........................................
 O passaporte do leitor ...........................................
 **58**
 
-**UNIDADE 4 · TEXTO POÉTICO**
+**UNIDADE 4 · A PALAVRA EM MÚSICA**
 
-Unidade 4 · O Texto Poético
-.......................................
-**59**
-Características do texto poético.................................
-**60**
-Fernando Pessoa: Mar Português..............................
-**61**
-Exercícios · Mar Português
-...........................................
-**62**
-Florbela Espanca: Amar! ........................................
-**63**
-Exercícios · Amar!
-....................................................
-**64**
-Recursos expressivos do poema ..............................
-**65**
-Escrever um comentário.........................................
-**66**
-O teu comentário..................................................
-**67**
-Escrever poemas e narrativas .................................
-**68**
-Opinião sobre poesia..............................................
-**69**
-Gramática · Orações coordenadas
+Unidade 4 · A Palavra em Música
 .................................
+**59**
+Como se faz um poema · tabelas..............................
+**60**
+Vamos ler · Mar Português.......................................
+**61**
+Missão do leitor · Mar Português
+..................................
+**62**
+Vamos ler · Amar! (Florbela)....................................
+**63**
+Missão do leitor · Amar! e comparação
+..........................
+**64**
+Gramática · orações coordenadas
+...............................
+**65**
+Gramática · activa, passiva e subordinadas..................
+**66**
+Writing Lab · comentar um poema.............................
+**67**
+Writing Lab · os teus poemas...................................
+**68**
+Fala e escuta · declamar poesia...............................
+**69**
+Literatura em imagem · poema visual.........................
 **70**
-Gramática · Activa e passiva
-......................................
+Cambridge Focus · comentar com precisão...................
 **71**
-Gramática · Orações subordinadas
-................................
+Relembra + Checkpoint .........................................
 **72**
-Revisão da Unidade 4.............................................
+Passaporte do leitor · ficha......................................
 **73**
 
 **RECURSOS**
@@ -2724,44 +2722,51 @@ tipo de oração? 6. Escreve uma frase complexa com «quando» sobre um ensaio.
 <!-- page 59 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Unidade 4 – O Texto Poético
-
-**Pena, tinta e o Atlântico ao fundo: os instrumentos do poeta.**
-
-O poema é o texto em que a palavra vale pela música e pela imagem, tanto como pelo significado.
-Nesta unidade vais ler dois dos maiores poetas portugueses, Fernando Pessoa e Florbela Espanca,
-aprender os segredos do verso e da rima, e escrever os teus próprios poemas.
-
-LEITURA – as características do texto poético; leitura e interpretação de poemas; recursos
-expressivos.
-ESCRITA – comentário, texto de opinião, resumo, poemas e pequenas narrativas.
-GRAMÁTICA – orações coordenadas; frase activa e passiva; orações coordenadas e subordinadas.
-
-**PARA COMEÇAR**
-
-Lê em voz alta, para ti mesmo, o primeiro poema que encontrares nesta unidade. Não tentes
-compreender tudo à primeira: deixa os sons trabalharem primeiro. Depois responde: que imagem
-ficou na tua cabeça? Escreve-a no caderno, com as tuas palavras.
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
+
+## Unidade 4 – A Palavra em Música
+
+**Fernando Pessoa · Mar Português  |  Florbela Espanca · Amar!**
+
+**PENSA**
+
+Porque é que certas palavras, postas em certa ordem, nos ficam na memória para sempre?
+COMPETÊNCIAS: Ler · Compreender · Interpretar · Oralidade · Escrita · Gramática.
+
+**ENTRA NA POESIA · LÊ EM VOZ ALTA**
+O poema é o texto em que a palavra vale pela música e pela imagem, tanto como pelo significado.
+Nesta unidade vais ler dois dos maiores poetas portugueses, Fernando Pessoa e Florbela Espanca,
+aprender os segredos do verso e da rima e escrever os teus próprios poemas.
+
+**ANTES DE LER**
+1. Lê em voz alta o primeiro verso que te aparecer à frente. Que sons se repetem?
+2. Sabes algum poema ou canção de cor? Qual?
+3. O que distingue um poema de uma notícia? E de uma história?
+
+**VOCABULÁRIO DA POESIA**
+
+verso – cada linha do poema · estrofe – grupo de versos · rima – repetição de sons no fim dos versos ·
+métrica – número de sílabas até à última tónica.
 
 59
 
 <!-- page 60 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
-## Características do texto poético
+Prime School Press · www.primeschool.pt
+
+## Como se faz um poema
 
 **LEITURA · ESTUDAR O GÉNERO**
 
 O poema organiza-se em VERSOS (linhas) agrupados em ESTROFES. A rima e a métrica dão-lhe
 música; os recursos expressivos dão-lhe imagens. Ler um poema é ouvir com os olhos.
 
-**A FORMA DO POEMA**
+**A FORMA DO POEMA · TABELA**
 
 **Conceito**
 **Definição**
@@ -2769,475 +2774,336 @@ música; os recursos expressivos dão-lhe imagens. Ler um poema é ouvir com os 
 
 Verso
 Cada linha do poema
-«Ó mar salgado, quanto do teu
-sal»
+«Ó mar salgado…»
 
 Estrofe
-Grupo de versos; muda como um
-parágrafo
-
+Grupo de versos
 4 versos = quadra
 
 Rima
-Repetição de sons no fim dos
-versos
-
+Sons que se repetem no fim
 sal / Portugal
 
 Métrica
-N.º de sílabas até à última tónica
+Sílabas até à última tónica
 10 = decassílabo
 
-Aliteração
-Repetição de sons consonânticos
-«pó, cinza e nada»
+**ESQUEMA · TIPOS DE VERSO E RIMA**
 
-**TIPOS DE VERSO E ESQUEMAS DE RIMA**
+**VERSOS (sílabas)**
 
-**Versos**
-**Sílabas métricas**
-**Rima**
-**Esquema**
+• 5 — redondilha menor
+• 7 — redondilha maior
+• 10 — decassílabo
 
-Redondilha menor
-5
-Emparelhada
-AABB
+**RIMAS (esquema)**
 
-Redondilha maior
-7
-Cruzada
-ABAB
+• AABB — emparelhada
+• ABAB — cruzada
+• ABBA — interpolada
 
-Decassílabo
-10
-Interpolada
-ABBA
+**RECURSOS EXPRESSIVOS ESSENCIAIS · TABELA**
 
-**COMO ESCANDER UM VERSO**
+**Recurso**
+**O que faz**
+**Exemplo**
 
-Conta as sílabas em voz alta até à ÚLTIMA SÍLABA TÓNICA: «Quan-tas-noi-vas-fi-ca-ram-por-ca-sar»
-= 10 → decassílabo.
-EXERCÍCIO RÁPIDO: escande «Ó mar salgado, quanto do teu sal» e «Valeu a pena? Tudo vale a
-pena». Ambos são decassílabos?
+Comparação
+Liga com «como»
+«branca como a neve»
 
-Prime School Press · www.primeschool.pt
+Metáfora
+Substitui um termo
+«teu sal são lágrimas»
+
+Personificação
+Dá características humanas
+«Deus ao mar deu perigo»
+
+Hipérbole
+Exagero expressivo
+«amar toda a gente»
+
+Apóstrofe
+Chamamento directo
+«Ó mar salgado!»
+
+Anáfora
+Repetição no início dos versos
+«Quantas… Quantos…»
+
+**DICA**
+
+Como escandir um verso: conta as sílabas em voz alta até à ÚLTIMA TÓNICA:
+«Quan-tas-noi-vas-fi-ca-ram-por-ca-sar» = 10 → decassílabo.
 
 60
 
 <!-- page 61 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
-## Fernando Pessoa: Mar Português
+Prime School Press · www.primeschool.pt
 
-**EDUCAÇÃO LITERÁRIA · TEXTO 1 · POEMA INTEGRAL**
+## Vamos ler – Mar Português
 
-**Fernando Pessoa (1888-1935).**
-
-PRÉ-LEITURA
-1. Procura num mapa o Cabo Bojador. Porque lhe tinham medo os marinheiros do século XV?
-2. Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
-
-MAR PORTUGUÊS
+**MAR PORTUGUÊS**
 
 Ó mar salgado, quanto do teu sal
+
 São lágrimas de Portugal!
+
 Por te cruzarmos, quantas mães choraram,
+
 Quantos filhos em vão rezaram!
+
 Quantas noivas ficaram por casar
+
 Para que fosses nosso, ó mar!
 
 Valeu a pena? Tudo vale a pena
+
 Se a alma não é pequena.
 
 Quem quer passar além do Bojador
+
 Tem que passar além da dor.
 
 Deus ao mar o perigo e o abismo deu,
+
 Mas nele é que espelhou o céu.
 
 Fernando Pessoa, Mensagem, 1934
-
-INTERPRETAÇÃO · LÊ E RESPONDE NO CADERNO
-1. Porque é o mar «salgado», segundo o poema? Que metáfora o poeta constrói (sal = ______)?
-2. Quem chorou por causa do mar? Refere os três grupos de pessoas. Como se chama a figura que
-repete «Quantas… Quantos… Quantas…»?
-3. «Passar além do Bojador» e «passar além da dor»: que ligam estas duas frases?
-4. Explica os dois últimos versos: que contraste há entre «perigo e abismo» e «espelhou o céu»?
-Prime School Press · www.primeschool.pt
+**ENQUANTO LÊS... ESCUTA OS SONS**
+• Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
+• Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
 
 61
+
+**TEXTO LITERÁRIO · FERNANDO PESSOA · TEXTO INTEGRAL**
 
 <!-- page 62 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Exercícios – Mar Português
-
-**EDUCAÇÃO LITERÁRIA · INTERPRETAÇÃO**
-
-1. «Valeu a pena?» – que tipo de frase é esta e que efeito produz no meio do poema?
-2. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
-3. Escande o primeiro verso e confirma que é um decassílabo.
-4. «Tudo vale a pena se a alma não é pequena.» Concordas? Escreve um comentário de 6 linhas
-aplicado à tua vida.
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
+
+## Missão do leitor
+
+**LEITURA ORIENTADA · MAR PORTUGUÊS**
+
+**PROCURA DESCOBRIR**
+
+**Pergunta**
+**O que procuras**
+
+Quem?
+Quem fala no poema (o eu lírico)? A quem se dirige?
+
+O quê?
+Que imagem o poeta constrói do mar?
+
+Como?
+Que recursos expressivos dão força aos versos?
+
+**EXERCÍCIOS 1**
+1. Porque é o mar «salgado», segundo o poema? Que metáfora o poeta constrói (sal = ______)?
+
+2. Quem chorou por causa do mar? Como se chama a figura que repete «Quantas… Quantos…»?
+
+3. «Passar além do Bojador» e «passar além da dor»: que ligam estas duas frases?
+
+4. Explica os dois últimos versos: que contraste há entre «perigo e abismo» e «espelhou o céu»?
+
+5. Escande o primeiro verso e confirma que é um decassílabo.
+
+6. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
 
 62
 
 <!-- page 63 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
-## Florbela Espanca: Amar!
+Prime School Press · www.primeschool.pt
 
-**EDUCAÇÃO LITERÁRIA · TEXTO 2 · POEMA INTEGRAL**
+## Vamos ler – Amar!
 
-**Florbela Espanca (1894-1930).**
+**TEXTO LITERÁRIO · FLORBELA ESPANCA · TEXTO INTEGRAL**
 
-PRÉ-LEITURA
-1. Em 1894, ano em que Florbela nasceu, as mulheres não podiam votar. Como muda isso a leitura
-de «Quem disser que se pode amar alguém… é porque mente!»?
-2. Lê o poema em voz alta. Que emoção domina a primeira quadra? E a última estrofe?
+Florbela Espanca (1894-1930) nasceu em Vila Viçosa e é uma das grandes vozes da poesia portuguesa.
+Escreveu sobre o amor, a liberdade e o desejo de ser outra. Lê o soneto em voz alta.
 
-AMAR!
+**AMAR!**
 
 Eu quero amar, amar perdidamente!
+
 Amar só por amar: aqui… além…
+
 Mais Este e Aquele, o Outro e toda a gente…
+
 Amar! Amar! E não amar ninguém!
 
 Recordar? Esquecer? Indiferente!…
+
 Prender ou desprender? É mal? É bem?
+
 Quem disser que se pode amar alguém
+
 Durante a vida inteira é porque mente!
 
 Há uma Primavera em cada vida:
+
 É preciso cantá-la assim florida,
+
 Pois se Deus nos deu voz, foi pra cantar!
 
 E se um dia hei-de ser pó, cinza e nada
+
 Que seja a minha noite uma alvorada,
+
 Que me saiba perder… pra me encontrar…
 
 Florbela Espanca, Charneca em Flor
-
-INTERPRETAÇÃO
-1. Como quer a poetisa amar? Escolhe o verso que resume a sua atitude.
-2. Que perguntas faz na segunda estrofe? Que resposta dá?
-3. «Há uma Primavera em cada vida» – o que representa a Primavera?
-4. Explica a oposição perder / encontrar do último verso.
-Prime School Press · www.primeschool.pt
+**ENQUANTO LÊS... SENTE A EMOÇÃO**
+• Que emoção domina a primeira quadra? E a última estrofe?
+• O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
 
 63
 
 <!-- page 64 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Exercícios – Amar!
-
-**EDUCAÇÃO LITERÁRIA · INTERPRETAÇÃO**
-
-1. «Há uma Primavera em cada vida» – que estação do ano és tu agora e porquê?
-2. O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos) e copia o esquema
-de rimas da primeira quadra.
-3. «Amar! Amar! E não amar ninguém!» – que contraste há entre «amar toda a gente» e «não amar
-ninguém»? Que nome se dá a este contraste?
-4. Que efeito produz a repetição da palavra «amar» no primeiro verso?
-5. Compara Mar Português e Amar!: tema, sentimento dominante e tom. Escreve seis linhas: o que
-muda quando Pessoa fala do mar e Florbela fala do amor?
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
+
+## Missão do leitor – Amar!
+
+**LEITURA ORIENTADA · AMAR!**
+
+**EXERCÍCIOS 2**
+1. Como quer a poetisa amar? Escolhe o verso que resume a sua atitude.
+
+2. «Há uma Primavera em cada vida» – o que representa a Primavera?
+
+3. «Amar! Amar! E não amar ninguém!» – que contraste há entre «amar toda a gente» e «não amar
+ninguém»? Que nome se dá a este contraste?
+
+4. Explica a oposição perder / encontrar do último verso.
+
+5. Copia o esquema de rimas da primeira quadra. Que tipo de rima é?
+
+**COMPARA OS DOIS POEMAS · ESQUEMA**
+
+**MAR PORTUGUÊS**
+
+• tema: o mar e o destino
+• sentimento: saudade e orgulho
+• tom: solene, épico
+
+**AMAR!**
+
+• tema: o amor universal
+• sentimento: desejo ardente
+• tom: intimo, apaixonado
+
+**EXERCÍCIOS 3**
+6. Compara os dois poemas com a ajuda do esquema: o que muda quando Pessoa fala do mar e Florbela
+fala do amor? Escreve seis linhas.
 
 64
 
 <!-- page 65 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Recursos expressivos do poema
-
-**GRAMÁTICA E LEITURA · RECURSOS**
-
-Os recursos expressivos são as ferramentas do poeta, mas vivem em toda a literatura. Já os
-encontraste nas unidades anteriores; agora estuda-os em tabela para os dominar todos.
-
-**RECURSOS DE SENTIDO**
-
-**Recurso**
-**Definição**
-**Exemplo real dos poemas**
-
-Metáfora
-Um termo substitui outro
-«teu sal são lágrimas de
-Portugal»
-
-Comparação
-Liga com «como»
-«branca como um floco de neve»
-
-Personificação
-Seres não humanos agem
-«Deus ao mar o perigo deu»
-
-Hipérbole
-Exagero expressivo
-«amar toda a gente»
-
-Antítese
-Oposição de ideias
-«perder… pra me encontrar»
-
-Gradação
-Sequência crescente/decrescente
-«pó, cinza e nada»
-
-**RECURSOS DE SOM E DE ESTRUTURA**
-
-**Recurso**
-**Definição**
-**Exemplo real**
-
-Aliteração
-Repetição de consoantes
-«pó, cinza e nada» (p/c)
-
-Assonância
-Repetição de vogais
-«amar perdidamente» (a)
-
-Apóstrofe
-Chamamento directo
-«Ó mar salgado!»
-
-Interrog. retórica
-Pergunta sem resposta
-«Valeu a pena?»
-
-Anáfora
-Repetição no início de versos
-«Quantas… Quantos…
-Quantas…»
-
-EXERCÍCIO 1. Retira dos dois poemas: uma apóstrofe, uma interrogação retórica, uma metáfora,
-uma anáfora, uma antítese, uma gradação.
-EXERCÍCIO 2. Escreve três frases tuas sobre o mar: uma com comparação, uma com personificação,
-uma com hipérbole.
-EXERCÍCIO 3. Que efeito tem a gradação «pó, cinza e nada» no fecho do poema? Porque não
-escreveu Florbela só «nada»?
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
-
-65
-
-<!-- page 66 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Escrever um comentário
-
-**ESCRITA · ESTUDAR A TÉCNICA**
-
-Comentar um poema é explicá-lo: mostrar como a FORMA serve o CONTEÚDO. O comentário é a
-prova-rainha da educação literária: quem o domina, sabe ler poesia para a vida.
-
-**A ESTRUTURA DO COMENTÁRIO**
-
-**Parte**
-**O que escreves**
-**Ferramenta**
-
-1. Introdução
-Título, autor, tema (2-3 linhas)
-Apresentação
-
-2. Conteúdo
-Assunto e sentimentos, com
-citações
-
-Aspas («verso»)
-
-3. Forma
-Estrofes, rima, recursos e o SEU
-EFEITO
-
-Nome do recurso + efeito
-
-4. Conclusão
-A mensagem para ti; apreciação
-final
-
-Voz pessoal
-
-**MODELO DE FRASE DE COMENTÁRIO**
-
-«Na primeira estrofe, a apóstrofe ‘Ó mar salgado!’ (v. 1) dirige-se directamente ao mar, como se o
-poeta conversasse com ele, o que torna a saudade mais intensa e dramática.»
-Nota as três partes: onde está o verso · o nome do recurso · o efeito que produz. Cada frase de
-comentário deve ter as três.
-
-Prime School Press · www.primeschool.pt
-
-66
-
-<!-- page 67 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## O teu comentário
-
-**ESCRITA · ESCREVE AGORA**
-
-Escreve um comentário (25 a 30 linhas) sobre Mar Português, de Fernando Pessoa, ou sobre Amar!,
-de Florbela Espanca, seguindo a estrutura da tabela anterior.
-
-PLANO:
-1. INTRODUÇÃO: título, autor, tema (2-3 linhas).
-2. CONTEÚDO: assunto e sentimentos, com duas citações (8 linhas).
-3. FORMA: estrofes, um recurso expressivo e o seu efeito, com citação (8 linhas).
-4. CONCLUSÃO: a mensagem para ti e a tua apreciação (4 linhas).
-
-Prime School Press · www.primeschool.pt
-
-67
-
-<!-- page 68 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Escrever poemas e narrativas
-
-**ESCRITA · A TUA PRÓPRIA POESIA**
-
-EXERCÍCIO 1 · O POEMA DO MAR: escreve um poema de duas estrofes (4 versos cada) sobre o mar,
-imitando a estrutura de Mar Português: uma apóstrofe («Ó…»), uma comparação e uma
-interrogação retórica.
-
-EXERCÍCIO 2 · POEMA DO DIA-A-DIA: escreve um poema de 6 versos com rima emparelhada (AABB)
-sobre uma coisa simples: o autocarro da manhã, o cheiro da cantina, o recreio.
-
-EXERCÍCIO 3 · PEQUENA NARRATIVA: escreve uma narrativa de 12-15 linhas sobre um poeta
-imaginário que perde o caderno de poemas e o recupera de forma surpreendente.
-
-**DICAS DE POETA INICIANTE**
-
-Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
-um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio
-poema.
-
-Prime School Press · www.primeschool.pt
-
-68
-
-<!-- page 69 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Opinião sobre poesia
-
-**ESCRITA · OPINAR SOBRE LITERATURA**
-
-Dizer «gostei» não chega: um bom texto de opinião sobre literatura justifica.
-
-TEMA: «Fernando Pessoa ou Florbela Espanca: qual dos dois poetas fala melhor aos jovens de
-hoje?»
-
-PLANO:
-1. INTRODUÇÃO – apresenta os dois poetas e a tua tese (quem escolhes).
-2. ARGUMENTOS – dois ou três, cada um com um exemplo retirado dos poemas (cita versos!).
-3. CONTRA-ARGUMENTO – reconhece a força do outro poeta.
-4. CONCLUSÃO – reforça a tese com uma frase forte.
-
-Prime School Press · www.primeschool.pt
-
-69
-
-<!-- page 70 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
 
 ## Gramática – Orações coordenadas
 
 **GRAMÁTICA · COM OS POEMAS**
 
 As orações coordenadas são INDEPENDENTES: cada uma se entende sozinha. Ligam-se por
-conjunções coordenativas em cinco grupos, cada um com a sua cor e o seu efeito. Reconhece-as
-nos versos dos poetas.
+conjunções coordenativas em cinco grupos.
 
-**OS CINCO GRUPOS DE COORDENADAS**
+**OS CINCO GRUPOS · TABELA**
 
 **Grupo**
 **Conjunções**
-**Efeito**
-**Exemplo**
+**Efeito / Exemplo**
 
 Aditiva
 e, também
-Soma ideias
-«Amar e não amar
-ninguém»
+soma: «Amar e não amar ninguém»
 
 Adversativa
-mas, porém, no entanto
-Oponha ideias
-«Tremia, mas cantou.»
+mas, porém
+opõe: «Tremia, mas cantou.»
 
 Disjuntiva
 ou… ou
-Alterna
-«Ou ensaias ou falhas.»
+alterna: «Ou ensaias ou falhas.»
 
 Conclusiva
 logo, portanto
-Conclui
-«Estava pronta,
-portanto passou.»
+conclui: «Estava pronta, portanto passou.»
 
 Explicativa
 porque, pois
-Explica
-«Canta, pois gosta de
-cantar.»
+explica: «Canta, pois gosta de cantar.»
 
-**TESTE DA INDEPENDÊNCIA**
+**TESTE DA INDEPENDÊNCIA · ESQUEMA**
 
-Tapa uma das orações com a mão. A que fica faz sentido sozinha? São coordenadas.
-«Se eu falhar, tu finges» → «Tu finges» sim, mas «Se eu falhar» não: aqui há SUBORDINAÇÃO
-(página seguinte).
-EXERCÍCIO: classifica «Recordar? Esquecer? Indiferente!» e escreve uma frase tua com cada grupo.
+**TAPA UMA ORAÇÃO**
+
+a que fica faz sentido sozinha? → COORDENADAS
+
+**«Se eu falhar, tu finges»**
+
+«Tu finges» sim; «Se eu falhar» não → SUBORDINAÇÃO
+
+**EXERCÍCIOS 4**
+1. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» / «Ou ensaias ou falhas.» / «Estava
+pronta, portanto passou.»
+
+2.
+Classifica
+«Recordar?
+Esquecer?
+Indiferente!»
+e
+escreve
+uma
+frase
+tua
+com
+cada
+grupo
+de
+coordenadas.
+
+65
+
+<!-- page 66 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
 
-70
-
-<!-- page 71 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Gramática – Activa e passiva
+## Gramática – Activa, passiva e subordinadas
 
 **GRAMÁTICA · AS DUAS CARAS DA FRASE**
 
 FRASE ACTIVA: o sujeito pratica a acção («Deus deu o perigo ao mar.»). FRASE PASSIVA: o sujeito
-sofre a acção («O perigo foi dado ao mar por Deus.»). A mesma verdade, dois pontos de vista: a
-escolha do sujeito é uma escolha de ênfase.
+sofre a acção («O perigo foi dado ao mar por Deus.»). A mesma verdade, dois pontos de vista.
 
-**PASSAR DE ACTIVA PARA PASSIVA**
+**PASSAR DE ACTIVA PARA PASSIVA · TABELA**
 
 **Passo**
 **Regra**
@@ -3248,161 +3114,320 @@ O CD da activa torna-se sujeito
 o perigo → S
 
 2
-Verbo: ser (no mesmo tempo) +
-particípio
-
+Verbo: ser (no mesmo tempo) + particípio
 deu → foi dado
 
 3
 O sujeito da activa vira «por…»
-(agente)
-
 Deus → por Deus
 
-**EXEMPLOS COMPLETOS**
+**SUBORDINADAS ADVERBIAIS · TABELA**
 
-**Activa**
-**Passiva**
+**Tipo**
+**Conjunção**
+**Exemplo dos poemas**
 
-«Fernando Pessoa escreveu Mensagem.»
-«Mensagem foi escrito por Fernando Pessoa.»
+Temporal
+quando, enquanto
+«Quando a luz desvanece, saem.»
 
-«Os alunos leram o poema.»
-«O poema foi lido pelos alunos.»
+Causal
+porque
+«Cantou porque estava feliz.»
 
-«Os bombeiros resgataram o cão.»
-«O cão foi resgatado pelos bombeiros.»
+Condicional
+se
+«Se eu falhar, tu finges.»
 
-**QUANDO USAR A PASSIVA**
+Concessiva
+embora
+«Embora temesse, cantou.»
 
-A passiva destaca o que sofre a acção e esconde quem pratica («O caderno foi encontrado» – por
-quem?). É muito usada em notícias e textos formais. Reconheceste a ligação com a Unidade 1?
-EXERCÍCIO: passa para a passiva «Florbela escreveu este soneto.» e «Os marinheiros cruzaram o
-mar.»
+**EXERCÍCIOS 5**
+1. Passa para a passiva: «Florbela escreveu este soneto.» / «Os marinheiros cruzaram o mar.»
+
+2. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» / «Quando a luz desvanece, os
+actores saem.» / «Embora temesse, cantou.»
+
+3. Junta cada par numa frase complexa: «Estudámos o poema. Fizemos o comentário.» / «O poeta
+perdeu o caderno. Continuou a escrever.» (embora)
+
+66
+
+<!-- page 67 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
+
+## Writing Lab – comentar um poema
+
+**ESCRITA · COMENTÁRIO DE 25 A 30 LINHAS**
+
+Comentar um poema é explicá-lo: mostrar como a FORMA serve o CONTEÚDO. Escreve um comentário
+sobre Mar Português ou Amar!
+
+**A ESTRUTURA DO COMENTÁRIO · TABELA**
+
+**Parte**
+**O que escreves**
+**Ferramenta**
+
+Introdução
+Título, autor, tema
+2-3 linhas
+
+Conteúdo
+Assunto e sentimentos, com citações
+Aspas («verso»)
+
+Forma
+Estrofes, rima, um recurso e o SEU efeito
+Nome + efeito
+
+Conclusão
+A mensagem para ti
+Voz pessoal
+
+**MODELO DE FRASE**
+
+«Na primeira estrofe, a apóstrofe ‘Ó mar salgado!’ (v. 1) dirige-se directamente ao mar, como se o
+poeta conversasse com ele, o que torna a saudade mais intensa e dramática.» Nota as três partes:
+onde está o verso · o nome do recurso · o efeito.
+
+**EXERCÍCIOS 6**
+Escreve agora o teu comentário. Planifica primeiro: 1. INTRODUÇÃO (2 linhas) · 2. CONTEÚDO com duas
+citações (8 linhas) · 3. FORMA com um recurso e o seu efeito (8 linhas) · 4. CONCLUSÃO (4 linhas).
+
+67
+
+<!-- page 68 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
+
+Prime School Press · www.primeschool.pt
+
+## Writing Lab – escreve os teus poemas
+
+**ESCRITA · A TUA PRÓPRIA POESIA**
+
+**EXERCÍCIOS 7**
+1. O POEMA DO MAR: escreve um poema de duas estrofes (4 versos cada) sobre o mar, imitando Mar
+Português: uma apóstrofe («Ó…»), uma comparação e uma interrogação retórica.
+
+2. POEMA DO DIA-A-DIA: escreve um poema de 6 versos com rima emparelhada (AABB) sobre uma coisa
+simples: o autocarro da manhã, o cheiro da cantina, o recreio.
+
+**DICAS DE POETA INICIANTE**
+
+Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
+um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio poema.
+
+68
+
+<!-- page 69 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
+
+Prime School Press · www.primeschool.pt
+
+## Fala e escuta – declamar poesia
+
+**ORALIDADE · LEITURA EXPRESSIVA**
+
+Declamar é mais do que ler alto: é dar a cada verso a sua voz, o seu ritmo e a sua emoção. Trabalha em
+pares: um declama, o outro escuta e avalia.
+
+**DECIDE E REGISTA (com o teu colega)**
+
+Ritmo: onde fazes pausas? Onde aceleras?
+
+Voz: que versos dizes mais alto? Quais quase em segredo?
+
+Emoção: que sentimento dominou a tua leitura?
+
+Gesto: precisas de mexer as mãos? O corpo?
+
+**DESAFIO DE ORALIDADE 8**
+Cada par declama um dos poemas à turma (1 minuto). A turma avalia com a grelha: ritmo · volume ·
+emoção · contacto visual. Cada comentário começa com um elogio e acaba com uma sugestão.
+
+Notas para a minha declamação:
+
+**CRITÉRIOS**
+
+Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o público, não o papel.
+
+69
+
+<!-- page 70 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
+
+Prime School Press · www.primeschool.pt
+
+## Literatura em imagem – o poema visual
+
+**PROJECTO CRIATIVO**
+
+Transforma Mar Português numa imagem: desenha o que o poema te faz ver (o mar salgado, as mães, o
+navio além do Bojador, o céu espelhado).
+
+O MEU POEMA VISUAL:
+
+**CAMBRIDGE FOCUS**
+
+A imagem não ilustra o poema: interpreta-o. Escolhe os elementos que traduzem o SENTIDO dos
+versos, não apenas o cenário.
+
+70
+
+<!-- page 71 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
+
+Prime School Press · www.primeschool.pt
+
+## Cambridge Focus – comentar com precisão
+
+**INTERPRETAÇÃO · EVIDÊNCIA + EXPLICAÇÃO**
+
+No comentário de poesia, cada afirmação precisa de três apoios: o verso citado, o nome do recurso
+e o efeito.
+
+**RESPOSTA FRACA**
+
+«O poema fala do mar.» ✗ Não cita nem explica.
+
+**RESPOSTA MELHOR**
+
+«O mar é comparado a lágrimas: “teu sal são lágrimas de Portugal”, o que mostra a dor dos que
+perderam alguém no mar.»
+
+**RESPOSTA AINDA MELHOR**
+
+«A metáfora “teu sal são lágrimas de Portugal” (v. 1-2) transforma a água do mar na dor acumulada
+de todo um povo: o sal deixa de ser química e torna-se memória, o que dá ao mar um rosto humano
+e chorado.»
+
+**REGRA DE OURO**
+
+Não basta dizer. Explica. Pergunta sempre: «Como sei isso?» Cita o verso, diz o recurso, explica o
+efeito.
+
+**EXERCÍCIOS 9**
+Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quantos…” na segunda
+estrofe?»
 
 71
 
 <!-- page 72 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Gramática – Orações subordinadas
-
-**GRAMÁTICA · AS DEPENDENTES**
-
-Na subordinação, há uma oração SUBORDINANTE (principal) e uma SUBORDINADA (dependente),
-que não se entende sozinha. As subordinadas adverbiais dizem quando, porque, com que condição
-a acção acontece.
-
-**SUBORDINADAS ADVERBIAIS**
-
-**Tipo**
-**Conjunção**
-**Pergunta**
-**Exemplo**
-
-Temporal
-quando, enquanto
-Quando?
-«Quando a luz
-desvanece, saem.»
-
-Causal
-porque, pois
-Porquê?
-«Cantou porque estava
-feliz.»
-
-Condicional
-se, caso
-Em que condição?
-«Se eu falhar, tu
-finges.»
-
-Final
-para que
-Para quê?
-«Ensaiou para que tudo
-corresse bem.»
-
-Concessiva
-embora, ainda que
-Apesar de quê?
-«Embora temesse,
-cantou.»
-
-Consecutiva
-tanto… que
-Com que resultado?
-«Tremeu tanto que
-falhou.»
-
-**TABELA DE BOLSO · COORDENAÇÃO VERSUS SUBORDINAÇÃO**
-
-**Coordenadas**
-**Subordinadas**
-
-Conjunções
-e, mas, ou, logo, pois
-porque, se, quando, embora, que
-
-Independência
-Cada oração vale por si
-A subordinada depende da
-principal
-
-Teste
-Tapar uma: sobra faz sentido
-Tapar a principal: sobra não faz
-sentido
-
-EXERCÍCIO 1. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» / «Ou ensaias ou
-falhas.» / «Quando a luz desvanece, os actores saem.» / «Se eu falhar, tu finges que não notas.» /
-«Embora temesse, cantou.»
-EXERCÍCIO 2. Passa para a passiva: «Os alunos escreveram poemas.»
-EXERCÍCIO 3. Junta cada par numa frase complexa e justifica a escolha: «Estudámos o poema.
-Fizemos o comentário.» / «O poeta perdeu o caderno. Continuou a escrever.» (embora)
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
+
+## Relembra – o que aprendi
+
+**REVISÃO DA UNIDADE 4**
+
+**O POEMA**
+Verso · estrofe · rima (emparelhada, cruzada, interpolada) · métrica (até à última tónica) · recursos de
+sentido, de som e de estrutura.
+
+**APRENDI A...**
+☑ escandir versos e contar sílabas métricas
+☑ identificar rima, estrofes e esquemas (AABB, ABAB)
+☑ reconhecer comparação, metáfora, personificação, apóstrofe, anáfora
+☑ classificar orações coordenadas e subordinadas
+☑ passar frases da activa para a passiva
+☑ comentar um poema com citação + recurso + efeito
+☑ escrever poemas e declamá-los
+
+**CHECKPOINT · CLASSIFICA O TEU DESEMPENHO**
+
+**Consigo...**
+**Ainda não**
+**Com ajuda**
+**Sozinho**
+
+Identificar rima e estrofes
+
+Escandir um verso
+
+Reconhecer um recurso expressivo
+
+Explicar o efeito de um recurso
+
+Classificar coordenadas e subordinadas
+
+Comentar um poema com evidência
+
+Escrever um poema com rima
+
+**O MEU PRÓXIMO OBJECTIVO**
+Para o Year 8 quero melhorar...
 
 72
 
 <!-- page 73 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
-
-## Revisão da Unidade 4
-
-**REVISÃO · TESTE-TREINO**
-
-LEITURA – verso, estrofe, rima, métrica; li e interpretei poemas de Pessoa e Florbela Espanca.
-RECURSOS – todas as figas em tabela: de sentido, de som e de estrutura.
-ESCRITA – comentei um poema, escrevi textos de opinião, resumi, escrevi poemas e uma narrativa.
-GRAMÁTICA – orações coordenadas e subordinadas; frase activa e passiva.
-
-**TESTE-TREINO FINAL**
-
-**Pergunta**
-**A tua resposta**
-
-1. Diferença entre comparação e metáfora?
-
-2. Quantas sílabas tem um decassílabo?
-
-3. Que recurso há em «Ó mar salgado!»?
-
-4. «Cantou embora temesse» – que subordinada?
-
-5. Passa para a passiva: «Os alunos escreveram
-poemas.»
-
-6. As duas quadras + dois tercetos formam um…
+PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
 
 Prime School Press · www.primeschool.pt
+
+## O passaporte do leitor
+
+**DESAFIO FINAL · REGISTO DE LEITURA**
+
+**Campo**
+**O teu registo**
+
+Autores
+Fernando Pessoa · Florbela Espanca
+
+Obras
+Mensagem · Charneca em Flor
+
+País
+Portugal
+
+Género
+Texto poético (soneto e odes)
+
+Tema principal
+
+Poema que mais me marcou
+
+O que aprendi com estes poemas
+
+O meu verso favorito:
+A minha classificação:
+
+**★**
+**★**
+**★**
+**★**
+**★**
+
+**UMA FRASE PARA LEVAR CONTIGO**
+
+A poesia não se explica: escuta-se. Mas quem a explica bem, ouve-a duas vezes.
+
+**FICHA DE REVISÃO · COMO UM TESTE 10**
+
+Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos.
+GRUPO I · LEITURA: 1. Define: verso, estrofe, rima. 2. Diferença entre comparação e metáfora, com um
+exemplo. 3. Que recurso há em «Ó mar salgado!»? 4. Escande «Valeu a pena? Tudo vale a pena».
+GRUPO II · GRAMÁTICA: 5. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» 6. Passa para a
+passiva: «Os alunos escreveram poemas.»
 
 73
 
@@ -3449,7 +3474,6 @@ p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; On
 Como — trela improvisada e bombeiros; Porquê — o cão escorregou da margem.
 p.6 Ex.2: ordem 2 (essencial), 3 (desenvolvimento), 1 (pormenores).
 p.7 Ex.: advérbio — ontem; quantificador — dois; adjectivo — corajosos; determinante — os; verbo — salvaram.
-p.7 Ex.2: jovem — nome/adjectivo; para — preposição; e — conjunção; sorri — verbo.
 p.10 Ex.: Lisboa e Mensagem — próprios; poeta e cidade — comuns; biblioteca e rebanho — colectivos.
 p.11 Ex.: nasceu em Lisboa, 1888; morreu em 1935; «I know not what tomorrow will bring».
 p.13 Ex.1: primária, semanal, do Porto e matemático — relacionais; generoso e forte — qualificativos.
@@ -3457,9 +3481,7 @@ p.13 Ex.2: corajosa · capazes · leitora.  Ex.3: fortíssimo · capacíssimo ·
 p.13 Ex.5: tinha — auxiliar; estava — copulativo; vou — auxiliar; parece — copulativo.
 p.16 Ex.3 (F/O): F; O; O.  Ex.4: ontem — tempo; talvez — dúvida; bem — modo; aqui — lugar;
 não — negação; muito — quantidade; certamente — afirmação; longe — lugar.
-p.19 Ex.: pão de padaria artesanal; famílias do bairro.
 p.20 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma».
-p.20 Ex.3: cento e doze · três (cardinal) · sete (cardinal).  Ex.4: ela; -lha.
 p.23 Grupo II: rebanho; talvez; dois. Grupo III: F; O; F; O.
 
 UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -3477,12 +3499,15 @@ as falas e didascálias substituem o narrador; «a casa fala» — personificaç
 Grupo II: «Saiu e fechou a porta» — complexa (coordenada); «Saiu porque era tarde» — complexa
 (subordinada causal).
 
-UNIDADE 4
-p.61: as estrofes do soneto — duas quadras e dois tercetos; esquema ABAB ABBA CCD EED.
-p.64 coordenadas: adversativa; causal (subord.); disjuntiva; conclusiva.
-p.65 passiva: «Mensagem foi escrito por Fernando Pessoa.»; «O mar foi cruzado pelos marinheiros.»
-p.66 subordinadas: adversativa (coord.); causal (subord.); disjuntiva (coord.); temporal (subord.);
-condicional (subord.); concessiva (subord.).
+UNIDADE 4 · A PALAVRA EM MÚSICA
+p.62 Ex.: sal = lágrimas (metáfora); anáfora «Quantas… Quantos…»; o mar espelha o céu — o perigo
+e a beleza andam juntos; «Ó-mar-sa-la-do-quan-to-do-teu-sal» = 10 sílabas (decassílabo).
+p.64 Ex.: contraste amar toda a gente / não amar ninguém — antítese; quadra ABAB (rima cruzada).
+p.65 Ex.: «Tremia, mas cantou» — adversativa; «Cantou porque estava feliz» — causal (subord.);
+«Ou ensaias ou falhas» — disjuntiva; «Estava pronta, portanto passou» — conclusiva.
+p.66 Ex.1: «Este soneto foi escrito por Florbela.»; «O mar foi cruzado pelos marinheiros.»
+p.66 Ex.2: adversativa (coord.); causal (subord.); temporal (subord.); concessiva (subord.).
+p.73 Grupo I: 5. adversativa / causal; 6. «Poemas foram escritos pelos alunos.»
 
 NOTA: as respostas pessoais (opiniões, comentários, escrita criativa) não têm solução única: são
 corrigidas pelo professor com os critérios de cada oficina.

@@ -2605,6 +2605,8 @@ eﬀect.
 
 **3 Suggest why a plant grown in a windy place often has smaller, thicker leaves.**
 
+Figure 4.2  Transpiration: water rises through the xylem and evaporates from the leaf's stomata.
+
 <!-- page 67 -->
 
 ---
@@ -4122,36 +4124,51 @@ End of Unit 9, and of the Student Book. The current always comes back.
 ## How series and parallel circuits work
 
 **A series circuit is a single loop. The current has only one road, so the same current ﬂows through every**
-
 component, whatever their resistance. Each component takes a share of the battery's voltage: two identical
-
 lamps on a 6 V battery each receive 3 V, and glow at half brightness. Add a third lamp and all three grow
-
 dimmer still, because the total resistance has risen and the current everywhere falls. If one lamp blows, the
-
 loop is broken and every lamp goes dark.
 
+12 V
+
+Lamp 1
+Lamp 2
+
+A
+A
+
+same current
+same current
+
+**SERIES: one loop**
+
 **A parallel circuit is a set of branches. Each branch connects straight across the battery, so every lamp**
-
 receives the full battery voltage and glows at full brightness. The current from the battery splits at each
-
 junction: the total current leaving the battery equals the sum of the branch currents. Adding another branch
+draws more total current, but the other branches are untouched. If one lamp blows, the rest carry on, which is
+why your house is wired in parallel.
 
-draws more total current, but the other branches are untouched. If one lamp blows, the rest carry on, which
+12 V
 
-is why your house is wired in parallel.
+Lamp 1
+
+full 12 V
+
+Lamp 2
+
+full 12 V
+
+I splits ·
+
+**PARALLEL: branches**
 
 **Adding resistance, one after another. In series, each added resistor blocks the one road, so resistances**
+simply add up: two 6 Ω resistors in series give 12 Ω, and the current from a 12 V battery falls to 12 ÷ 12 = 1 A.
+**In parallel, each added resistor opens a new road, so the total resistance falls: two 6 Ω resistors in parallel**
+give 3 Ω, because the current has two equal routes. More paths, less blockage. This is the one rule pupils ﬁnd
+hardest to believe: adding resistors in parallel makes it easier for current to ﬂow.
 
-simply add up: two 6 Ω resistors in series give 12 Ω, and the current from a 12 V battery falls to 12 ÷ 12 = 1
-
-**A. In parallel, each added resistor opens a new road, so the total resistance falls: two 6 Ω resistors in**
-
-parallel give 3 Ω, because the current has two equal routes. More paths, less blockage. This is the one rule
-
-pupils ﬁnd hardest to believe: adding resistors in parallel makes it easier for current to ﬂow.
-
-Figure 9.1  The same two lamps in series (one loop, shared voltage) and in parallel (branches, full voltage).
+Figure 9.1  Above: a series circuit, one loop, same current everywhere. Below: a parallel circuit, each lamp gets the full voltage.
 
 <!-- page 119 -->
 
