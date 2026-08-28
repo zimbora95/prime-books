@@ -1,5 +1,5 @@
 # Global Perspectives - Year 3 (Prime Book)
-> Markdown companion of `public/library/y03-global-perspectives/book.pdf` (153 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y03-global-perspectives/book.pdf` (156 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -194,7 +194,7 @@ CONTENTS
 **53**
 
 **Term 1 review**
-**58**
+**59**
 
 <!-- page 7 -->
 
@@ -204,82 +204,82 @@ CONTENTS
 INTRODUCTION
 
 4.1  What is communication?
-**82**
+**84**
 
 4.2  Speaking and listening
-**83**
-
-4.3  Words, faces and hands
 **85**
 
-4.4  Feelings and communication
+4.3  Words, faces and hands
 **87**
 
-4.5  Communication around the world
-**88**
+4.4  Feelings and communication
+**89**
 
-4.6  Solving problems through communication
+4.5  Communication around the world
 **90**
 
+4.6  Solving problems through communication
+**92**
+
 4.7  Digital communication
-**93**
+**95**
 
 **Term 2 review**
-**97**
-
-**Unit 5 · Moving goods and people**
 **100**
 
+**Unit 5 · Moving goods and people**
+**103**
+
 5.1  Ways we travel
-**102**
+**105**
 
 5.2  Moving goods
-**104**
-
-5.3  Land, water and air transport
-**106**
-
-5.4  Safe travel
 **107**
 
-5.5  Transport around the world
+5.3  Land, water and air transport
 **109**
 
-5.6  Helping the environment
+5.4  Safe travel
 **110**
 
-5.7  Community helpers and transport
+5.5  Transport around the world
 **112**
 
+5.6  Helping the environment
+**113**
+
+5.7  Community helpers and transport
+**115**
+
 5.8  Designing future transport
-**114**
+**117**
 
 **Unit 6 · Family, friends, community and culture**
-**118**
-
-6.1  My family
-**120**
-
-6.2  Different families around the world
 **121**
 
-6.3  Being a good friend
+6.1  My family
 **123**
 
+6.2  Different families around the world
+**124**
+
+6.3  Being a good friend
+**126**
+
 6.4  Our school and local community
-**125**
+**128**
 
 6.5  Working together to build a caring community
-**127**
+**130**
 
 6.6  Celebrations and traditions
-**129**
+**132**
 
 6.7  Respecting different cultures
-**131**
+**134**
 
 **Term 3 review**
-**136**
+**139**
 
 <!-- page 8 -->
 
@@ -2331,7 +2331,38 @@ UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
 60
 
+**HUMANITIES CORNER**
+
+**History**
+Long before coins, people swapped what they had. Thousands of years ago, China made the
+first paper money.
+
+**Geography**
+Some countries have tall glass towers, others villages of small houses. Where you live
+changes what you have and what things cost.
+
 <!-- page 61 -->
+
+---
+## TIME CAPSULE
+**History**
+
+Long before coins, people swapped what they had. A farmer traded grain for cloth, and a fisher
+traded the morning catch. Thousands of years ago people in China were the first to use paper
+money. Rich and poor have existed in every age, and so has sharing.
+
+## GLOBAL TROTTERS
+**Geography**
+
+Some countries have tall glass towers. Others have villages of small houses. Coffee grows on
+mountains near the equator and is drunk in cold northern cities. Where you live changes what you
+have, and what things cost.
+
+UNIT 2 · RICH AND POOR
+
+61
+
+<!-- page 62 -->
 
 ---
 U N I T 3
@@ -2344,9 +2375,9 @@ What the machines are for, how to be safe and kind with them, and when to put th
 
 Who is in charge, you or the screen?
 
-61
+62
 
-<!-- page 62 -->
+<!-- page 63 -->
 
 ---
 ## Unit 3 · Digital world
@@ -2394,9 +2425,9 @@ The best inventions start with a person, not with a gadget.
 
 UNIT 3 · DIGITAL WORLD
 
-62
+63
 
-<!-- page 63 -->
+<!-- page 64 -->
 
 ---
 **NEW WORDS**
@@ -2440,9 +2471,9 @@ exactly as good as the first.
 
 UNIT 3 · DIGITAL WORLD
 
-63
+64
 
-<!-- page 64 -->
+<!-- page 65 -->
 
 ---
 ## The digital world is all of that put together: the machines, the numbers
@@ -2463,9 +2494,9 @@ which cannot.
 
 UNIT 3 · TOPIC 3.1 · WHAT IS THE DIGITAL WORLD?
 
-64
+65
 
-<!-- page 65 -->
+<!-- page 66 -->
 
 ---
 **LOOK CLOSER**
@@ -2521,9 +2552,9 @@ Keeping everything
 
 UNIT 3 · TOPIC 3.2 · DIGITAL DEVICES AROUND US
 
-65
+66
 
-<!-- page 66 -->
+<!-- page 67 -->
 
 ---
 Some devices are shared and some are personal. A classroom tablet belongs
@@ -2546,9 +2577,9 @@ looking at.
 
 UNIT 3 · TOPIC 3.2 · DIGITAL DEVICES AROUND US
 
-66
+67
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 **UNIT 3 - TOPIC 3.3**
@@ -2592,9 +2623,9 @@ on a telephone, having never owned a desktop computer at all.
 
 UNIT 3 · TOPIC 3.3 · TECHNOLOGY AROUND THE WORLD
 
-67
+68
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 2. Which of the four do you think is hardest to fix? Write one reason.
@@ -2636,9 +2667,9 @@ Tomás wants to know how tall the Torre de Belém is. Here is his method.
 
 UNIT 3 · TOPIC 3.4 · LEARNING WITH TECHNOLOGY
 
-68
+69
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 2. He looks it up, and finds a number.
@@ -2668,9 +2699,9 @@ you found it.
 
 UNIT 3 · TOPIC 3.4 · LEARNING WITH TECHNOLOGY
 
-69
+70
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 **UNIT 3 - TOPIC 3.5**
@@ -2716,9 +2747,9 @@ makes those decisions, not you, and that is a relief rather than a rule.
 
 UNIT 3 · TOPIC 3.5 · STAYING SAFE ONLINE
 
-70
+71
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 Stopping and fetching an adult. Look at where the paw is resting, and who is
@@ -2748,9 +2779,9 @@ seguranet.pt
 
 UNIT 3 · TOPIC 3.5 · STAYING SAFE ONLINE
 
-71
+72
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 **LOOK CLOSER**
@@ -2792,9 +2823,9 @@ one more voice does real harm. Tell an adult instead.
 
 UNIT 3 · TOPIC 3.6 · BEING KIND ONLINE
 
-72
+73
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 ## And the oldest rule of the digital world: once it is sent, it is out of your paws.
@@ -2824,9 +2855,9 @@ way.
 
 UNIT 3 · TOPIC 3.6 · BEING KIND ONLINE
 
-73
+74
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 **YOUR TURN**
@@ -2867,9 +2898,9 @@ waiting.
 
 UNIT 3 · TOPIC 3.7 · SCREEN TIME AND BALANCE
 
-74
+75
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 You can notice the effects yourself: eyes that feel tired, an afternoon that
@@ -2898,9 +2929,9 @@ Keep a record for one day. Use the 24 hour clock.
 
 UNIT 3 · TOPIC 3.7 · SCREEN TIME AND BALANCE
 
-75
+76
 
-<!-- page 76 -->
+<!-- page 77 -->
 
 ---
 **DIG DEEPER**
@@ -2944,9 +2975,9 @@ class".
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-76
+77
 
-<!-- page 77 -->
+<!-- page 78 -->
 
 ---
 2. Write what they do at the moment.
@@ -2997,9 +3028,9 @@ You wrote their words, not yours
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-77
+78
 
-<!-- page 78 -->
+<!-- page 79 -->
 
 ---
 **What we look**
@@ -3058,9 +3089,9 @@ I can say what to do if a stranger messages me.
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-78
+79
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 **MY NOTES**
@@ -3077,9 +3108,40 @@ Who is in charge, you or the screen?
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-79
+80
 
-<!-- page 80 -->
+**HUMANITIES CORNER**
+
+**History**
+The first messages were pictures. Ancient Egyptians wrote with signs called hieroglyphs, and for
+centuries letters travelled by horse, ship and carrier pigeon.
+
+**Geography**
+Under the oceans run glowing fibre‑optic cables that carry messages between continents in
+a blink. In space, satellites bounce signals to the farthest islands.
+
+<!-- page 81 -->
+
+---
+## TIME CAPSULE
+**History**
+
+For most of history, a message could only travel as fast as a horse, a ship or a pigeon could carry it.
+People carved words in stone, wrote on papyrus and paper, and sealed letters with wax. A letter
+once took weeks to cross the sea. Today the same words arrive before you finish blinking.
+
+## GLOBAL TROTTERS
+**Geography**
+
+Messages cross the world through cables under the oceans and satellites in space. Some villages
+still have no internet at all, so people talk face to face or write letters. Where you live changes how
+your words travel.
+
+UNIT 3 · DIGITAL WORLD
+
+81
+
+<!-- page 82 -->
 
 ---
 U N I T 4
@@ -3092,9 +3154,9 @@ Saying what you mean, hearing what was actually said, and mending it when neithe
 
 How do you know you have been understood?
 
-80
+82
 
-<!-- page 81 -->
+<!-- page 83 -->
 
 ---
 ## Unit 4 · Improving communication
@@ -3143,9 +3205,9 @@ Some things must be said face to face.
 
 UNIT 4 · IMPROVING COMMUNICATION
 
-81
+83
 
-<!-- page 82 -->
+<!-- page 84 -->
 
 ---
 ## message what you are trying to get across
@@ -3188,9 +3250,9 @@ So every message has three parts:
 
 UNIT 4 · IMPROVING COMMUNICATION
 
-82
+84
 
-<!-- page 83 -->
+<!-- page 85 -->
 
 ---
 The beans went in the shade because everybody did one half of the job well
@@ -3235,9 +3297,9 @@ Look at the speaker. Put down what is in your paws.
 
 UNIT 4 · TOPIC 4.1 · WHAT IS COMMUNICATION?
 
-83
+85
 
-<!-- page 84 -->
+<!-- page 86 -->
 
 ---
 Let them finish. The end of their sentence often changes the beginning.
@@ -3269,9 +3331,9 @@ right?
 
 UNIT 4 · TOPIC 4.2 · SPEAKING AND LISTENING
 
-84
+86
 
-<!-- page 85 -->
+<!-- page 87 -->
 
 ---
 **UNIT 4 - TOPIC 4.3**
@@ -3315,9 +3377,9 @@ the room hears the difference.
 
 UNIT 4 · TOPIC 4.3 · WORDS, FACES AND HANDS
 
-85
+87
 
-<!-- page 86 -->
+<!-- page 88 -->
 
 ---
 Six faces and pairs of paws, each carrying a message. Look for the one asking
@@ -3343,9 +3405,9 @@ Nodding for yes is common but not universal.
 
 UNIT 4 · TOPIC 4.3 · WORDS, FACES AND HANDS
 
-86
+88
 
-<!-- page 87 -->
+<!-- page 89 -->
 
 ---
 **UNIT 4 - TOPIC 4.4**
@@ -3387,9 +3449,9 @@ help with this. Saying one of those is not weakness; it is the fastest route out
 
 UNIT 4 · TOPIC 4.4 · FEELINGS AND COMMUNICATION
 
-87
+89
 
-<!-- page 88 -->
+<!-- page 90 -->
 
 ---
 One neighbour sitting down beside another at the same height. Look at what
@@ -3417,9 +3479,9 @@ spoken only at home?
 
 UNIT 4 · TOPIC 4.4 · FEELINGS AND COMMUNICATION
 
-88
+90
 
-<!-- page 89 -->
+<!-- page 91 -->
 
 ---
 **HERE IS HOW IT WORKS**
@@ -3461,9 +3523,9 @@ is.
 
 UNIT 4 · TOPIC 4.5 · COMMUNICATION AROUND THE WORLD
 
-89
+91
 
-<!-- page 90 -->
+<!-- page 92 -->
 
 ---
 **ASK FIRST**
@@ -3502,9 +3564,9 @@ Here is a method with four steps. Do them in order, even when you are cross.
 
 UNIT 4 · TOPIC 4.5 · COMMUNICATION AROUND THE WORLD
 
-90
+92
 
-<!-- page 91 -->
+<!-- page 93 -->
 
 ---
 ## 1. Cool down first. Nobody has ever solved anything in the first thirty
@@ -3533,9 +3595,9 @@ between them. Look for who is asking for a turn.
 
 UNIT 4 · TOPIC 4.6 · SOLVING PROBLEMS THROUGH COMMUNICATION
 
-91
+93
 
-<!-- page 92 -->
+<!-- page 94 -->
 
 ---
 **WATCH ME TRY ONE**
@@ -3572,9 +3634,9 @@ reach.
 
 UNIT 4 · TOPIC 4.6 · SOLVING PROBLEMS THROUGH COMMUNICATION
 
-92
+94
 
-<!-- page 93 -->
+<!-- page 95 -->
 
 ---
 **UNIT 4 - TOPIC 4.7**
@@ -3639,9 +3701,9 @@ time of a match, saying sorry properly.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-93
+95
 
-<!-- page 94 -->
+<!-- page 96 -->
 
 ---
 2. Write one thing that should never be sent as a written message.
@@ -3696,9 +3758,9 @@ why
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-94
+96
 
-<!-- page 95 -->
+<!-- page 97 -->
 
 ---
 **HOW DID IT GROW?**
@@ -3742,9 +3804,9 @@ I can say what should be said face to face.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-95
+97
 
-<!-- page 96 -->
+<!-- page 98 -->
 
 ---
 **MY NOTES**
@@ -3755,9 +3817,41 @@ How do you know you have been understood?
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-96
+98
 
-<!-- page 97 -->
+**HUMANITIES CORNER**
+
+**History**
+The Phoenician traders spread the first alphabet by ship, and for a thousand years monks
+copied books by hand, one slow page at a time.
+
+**Geography**
+Greeks theatre masks carried feelings to the back row. Flag signals spoke between ships at
+sea. Every culture invented its own ways to be understood.
+
+<!-- page 99 -->
+
+---
+## TIME CAPSULE
+**History**
+
+Words had to travel before they could spread. Phoenician sailors carried their alphabet of letters
+around the Mediterranean, and it became the ancestor of the letters you are reading now. Much
+later, monks in quiet rooms copied books by hand for years, because there was no other way to
+make a second copy.
+
+## GLOBAL TROTTERS
+**Geography**
+
+In Greek theatres, masks made feelings visible from far away. At sea, sailors signalled with flags.
+Around the world people greet, bow and sign in different ways, and every culture has its own way
+of saying I understand you.
+
+UNIT 4 · IMPROVING COMMUNICATION
+
+99
+
+<!-- page 100 -->
 
 ---
 ## Term 2 review
@@ -3811,9 +3905,9 @@ you do.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-97
+100
 
-<!-- page 98 -->
+<!-- page 101 -->
 
 ---
 4. Write the three parts of any message.
@@ -3858,9 +3952,9 @@ Wrote a message I would be happy to receive
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-98
+101
 
-<!-- page 99 -->
+<!-- page 102 -->
 
 ---
 **MY NOTES**
@@ -3869,9 +3963,9 @@ One thing I will do differently with a screen next term.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-99
+102
 
-<!-- page 100 -->
+<!-- page 103 -->
 
 ---
 U N I T 5
@@ -3884,9 +3978,9 @@ How everything you own got to you, how you get about, and what the journey costs
 
 How did that get here?
 
-100
+103
 
-<!-- page 101 -->
+<!-- page 104 -->
 
 ---
 ## Unit 5 · Moving goods and people
@@ -3934,9 +4028,9 @@ Start with the hill, the river or the person, not with the vehicle.
 
 UNIT 5 · MOVING GOODS AND PEOPLE
 
-101
+104
 
-<!-- page 102 -->
+<!-- page 105 -->
 
 ---
 **NEW WORDS**
@@ -3979,9 +4073,9 @@ Four things decide how you travel:
 
 UNIT 5 · MOVING GOODS AND PEOPLE
 
-102
+105
 
-<!-- page 103 -->
+<!-- page 106 -->
 
 ---
 ## What you are carrying. A schoolbag or a week's shopping are different
@@ -4011,9 +4105,9 @@ heaviest load.
 
 UNIT 5 · TOPIC 5.1 · WAYS WE TRAVEL
 
-103
+106
 
-<!-- page 104 -->
+<!-- page 107 -->
 
 ---
 **UNIT 5 - TOPIC 5.2**
@@ -4054,9 +4148,9 @@ Portugal in February is a small marvel and not just a piece of fruit.
 
 UNIT 5 · TOPIC 5.2 · MOVING GOODS
 
-104
+107
 
-<!-- page 105 -->
+<!-- page 108 -->
 
 ---
 One crate of vegetables, at four points on its journey. Look for the step where
@@ -4086,9 +4180,9 @@ en.wikipedia.org/wiki/Intermodal_container
 
 UNIT 5 · TOPIC 5.2 · MOVING GOODS
 
-105
+108
 
-<!-- page 106 -->
+<!-- page 109 -->
 
 ---
 **UNIT 5 - TOPIC 5.3**
@@ -4156,9 +4250,9 @@ ship, train.
 
 UNIT 5 · TOPIC 5.3 · LAND, WATER AND AIR TRANSPORT
 
-106
+109
 
-<!-- page 107 -->
+<!-- page 110 -->
 
 ---
 4. Something must reach Madeira from Lisbon tomorrow morning. Which
@@ -4202,9 +4296,9 @@ Get in and out on the pavement side.
 
 UNIT 5 · TOPIC 5.3 · LAND, WATER AND AIR TRANSPORT
 
-107
+110
 
-<!-- page 108 -->
+<!-- page 111 -->
 
 ---
 Sit properly and let the driver drive. A driver being entertained is a driver
@@ -4234,9 +4328,9 @@ place needing most care.
 
 UNIT 5 · TOPIC 5.4 · SAFE TRAVEL
 
-108
+111
 
-<!-- page 109 -->
+<!-- page 112 -->
 
 ---
 **DIG DEEPER**
@@ -4279,9 +4373,9 @@ Australia.
 
 UNIT 5 · TOPIC 5.4 · SAFE TRAVEL
 
-109
+112
 
-<!-- page 110 -->
+<!-- page 113 -->
 
 ---
 ## Old cities have narrow streets built long before cars, which is why Lisbon
@@ -4324,9 +4418,9 @@ each passenger's share is small.
 
 UNIT 5 · TOPIC 5.5 · TRANSPORT AROUND THE WORLD
 
-110
+113
 
-<!-- page 111 -->
+<!-- page 114 -->
 
 ---
 ## A car with one person in it uses the most fuel per person of any road
@@ -4356,9 +4450,9 @@ car with one person.
 
 UNIT 5 · TOPIC 5.6 · HELPING THE ENVIRONMENT
 
-111
+114
 
-<!-- page 112 -->
+<!-- page 115 -->
 
 ---
 4. Write one reason somebody might have no choice but to drive.
@@ -4408,9 +4502,9 @@ days
 
 UNIT 5 · TOPIC 5.6 · HELPING THE ENVIRONMENT
 
-112
+115
 
-<!-- page 113 -->
+<!-- page 116 -->
 
 ---
 **Who**
@@ -4467,9 +4561,9 @@ past with its siren on.
 
 UNIT 5 · TOPIC 5.7 · COMMUNITY HELPERS AND TRANSPORT
 
-113
+116
 
-<!-- page 114 -->
+<!-- page 117 -->
 
 ---
 **ASK FIRST**
@@ -4513,9 +4607,9 @@ question you met in Unit 1.
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-114
+117
 
-<!-- page 115 -->
+<!-- page 118 -->
 
 ---
 2. Write the ground, the load and the person in three short lines.
@@ -4569,9 +4663,9 @@ evidence
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-115
+118
 
-<!-- page 116 -->
+<!-- page 119 -->
 
 ---
 **What we look**
@@ -4630,9 +4724,9 @@ I can name three workers whose jobs depend on transport.
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-116
+119
 
-<!-- page 117 -->
+<!-- page 120 -->
 
 ---
 **MY NOTES**
@@ -4645,9 +4739,9 @@ How did that get here?
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-117
+120
 
-<!-- page 118 -->
+<!-- page 121 -->
 
 ---
 U N I T 6
@@ -4660,9 +4754,9 @@ The people who are yours, the people next door, and what a place does together
 
 What makes a group of people into a community?
 
-118
+121
 
-<!-- page 119 -->
+<!-- page 122 -->
 
 ---
 ## Unit 6 · Family, friends, community and
@@ -4711,9 +4805,9 @@ Ask, listen, do not mock, do not pretend it is yours.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-119
+122
 
-<!-- page 120 -->
+<!-- page 123 -->
 
 ---
 **NEW WORDS**
@@ -4757,9 +4851,9 @@ lodger may share a household and not be family.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-120
+123
 
-<!-- page 121 -->
+<!-- page 124 -->
 
 ---
 What families do is more consistent than what they look like: feed each other,
@@ -4800,9 +4894,9 @@ changes shape through the year.
 
 UNIT 6 · TOPIC 6.1 · MY FAMILY
 
-121
+124
 
-<!-- page 122 -->
+<!-- page 125 -->
 
 ---
 In some places children are raised largely by a wide group of aunts, uncles
@@ -4831,9 +4925,9 @@ what all five are doing.
 
 UNIT 6 · TOPIC 6.2 · DIFFERENT FAMILIES AROUND THE WORLD
 
-122
+125
 
-<!-- page 123 -->
+<!-- page 126 -->
 
 ---
 4. Write one question it would be rude to ask somebody about their family.
@@ -4875,9 +4969,9 @@ no rule that says you must have one particular best friend.
 
 UNIT 6 · TOPIC 6.3 · BEING A GOOD FRIEND
 
-123
+126
 
-<!-- page 124 -->
+<!-- page 127 -->
 
 ---
 One friend simply staying beside another after a bad morning. Look at what
@@ -4899,9 +4993,9 @@ case.
 
 UNIT 6 · TOPIC 6.3 · BEING A GOOD FRIEND
 
-124
+127
 
-<!-- page 125 -->
+<!-- page 128 -->
 
 ---
 **UNIT 6 - TOPIC 6.4**
@@ -4953,9 +5047,9 @@ other.
 
 UNIT 6 · TOPIC 6.4 · OUR SCHOOL AND LOCAL COMMUNITY
 
-125
+128
 
-<!-- page 126 -->
+<!-- page 129 -->
 
 ---
 A village square being looked after by the people who live in it. Look for the
@@ -4985,9 +5079,9 @@ bombeiros.pt
 
 UNIT 6 · TOPIC 6.4 · OUR SCHOOL AND LOCAL COMMUNITY
 
-126
+129
 
-<!-- page 127 -->
+<!-- page 130 -->
 
 ---
 **UNIT 6 - TOPIC 6.5**
@@ -5027,9 +5121,9 @@ decides.
 
 UNIT 6 · TOPIC 6.5 · WORKING TOGETHER TO BUILD A CARING COMMUNITY
 
-127
+130
 
-<!-- page 128 -->
+<!-- page 131 -->
 
 ---
 **YOUR TURN**
@@ -5067,9 +5161,9 @@ The last row is the one people skip. Fill it in.
 
 UNIT 6 · TOPIC 6.5 · WORKING TOGETHER TO BUILD A CARING COMMUNITY
 
-128
+131
 
-<!-- page 129 -->
+<!-- page 132 -->
 
 ---
 **UNIT 6 - TOPIC 6.6**
@@ -5142,9 +5236,9 @@ remembered.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-129
+132
 
-<!-- page 130 -->
+<!-- page 133 -->
 
 ---
 A village celebration at dusk. Look for the oldest person at the table and
@@ -5171,9 +5265,9 @@ the local harvest, kept going long after everyone stopped farming.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-130
+133
 
-<!-- page 131 -->
+<!-- page 134 -->
 
 ---
 **LOOK CLOSER**
@@ -5216,9 +5310,9 @@ joke either, because the joke is not yours to make.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-131
+134
 
-<!-- page 132 -->
+<!-- page 135 -->
 
 ---
 ## Do not treat it as a costume. Being interested is welcome. Dressing up as
@@ -5257,9 +5351,9 @@ somewhere?
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-132
+135
 
-<!-- page 133 -->
+<!-- page 136 -->
 
 ---
 **ASK FIRST**
@@ -5313,9 +5407,9 @@ You said how you know each one
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-133
+136
 
-<!-- page 134 -->
+<!-- page 137 -->
 
 ---
 **What we look**
@@ -5370,9 +5464,9 @@ I can describe São Martinho and say why it is in November.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-134
+137
 
-<!-- page 135 -->
+<!-- page 138 -->
 
 ---
 **MY NOTES**
@@ -5385,9 +5479,9 @@ What makes a group of people into a community?
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-135
+138
 
-<!-- page 136 -->
+<!-- page 139 -->
 
 ---
 ## Term 3 review
@@ -5444,9 +5538,9 @@ properly, and not mocking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-136
+139
 
-<!-- page 137 -->
+<!-- page 140 -->
 
 ---
 3. Sort into land, water and air: tram, ferry, helicopter, bicycle.
@@ -5493,9 +5587,9 @@ Asked a question worth asking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-137
+140
 
-<!-- page 138 -->
+<!-- page 141 -->
 
 ---
 **Over the whole year I**
@@ -5527,9 +5621,9 @@ practise next.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-138
+141
 
-<!-- page 139 -->
+<!-- page 142 -->
 
 ---
 ## Word list
@@ -5578,9 +5672,9 @@ UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
 WORD LIST
 
-139
+142
 
-<!-- page 140 -->
+<!-- page 143 -->
 
 ---
 ## unpaid work real work nobody pays for, such as caring for a family
@@ -5630,9 +5724,9 @@ along
 
 WORD LIST
 
-140
+143
 
-<!-- page 141 -->
+<!-- page 144 -->
 
 ---
 **Unit 5 · Moving goods and people**
@@ -5673,9 +5767,9 @@ grandparents
 
 WORD LIST
 
-141
+144
 
-<!-- page 142 -->
+<!-- page 145 -->
 
 ---
 ## Sources and references
@@ -5763,9 +5857,9 @@ vernacular architecture
 
 SOURCES AND REFERENCES
 
-142
+145
 
-<!-- page 143 -->
+<!-- page 146 -->
 
 ---
 **Where**
@@ -5860,9 +5954,9 @@ Portuguesa (CPLP)
 
 SOURCES AND REFERENCES
 
-143
+146
 
-<!-- page 144 -->
+<!-- page 147 -->
 
 ---
 **Where**
@@ -5947,9 +6041,9 @@ Municipal do Porto
 
 SOURCES AND REFERENCES
 
-144
+147
 
-<!-- page 145 -->
+<!-- page 148 -->
 
 ---
 **Where**
@@ -6001,9 +6095,9 @@ have been decoration rather than teaching, it was cut.
 
 SOURCES AND REFERENCES
 
-145
+148
 
-<!-- page 146 -->
+<!-- page 149 -->
 
 ---
 ## Answers
@@ -6047,9 +6141,9 @@ ignores the rules or blames others, with a reason why skill does not make up for
 
 ANSWERS
 
-146
+149
 
-<!-- page 147 -->
+<!-- page 150 -->
 
 ---
 ## it. 3. Gonçalo, because he is the only one talking about somebody being left out
@@ -6094,9 +6188,9 @@ caring for a child or an older relative.
 
 ANSWERS
 
-147
+150
 
-<!-- page 148 -->
+<!-- page 151 -->
 
 ---
 ## 2.5 1 and 2. Your own example, correctly sorted into food, time, skill or thing
@@ -6138,9 +6232,9 @@ something strange has come up. 4. Your own two adults.
 
 ANSWERS
 
-148
+151
 
-<!-- page 149 -->
+<!-- page 152 -->
 
 ---
 ## 3.6 1. Your own pair of messages. The rewritten one usually adds a name, a
@@ -6185,9 +6279,9 @@ somebody is being unkind on purpose.
 
 ANSWERS
 
-149
+152
 
-<!-- page 150 -->
+<!-- page 153 -->
 
 ---
 ## 4.7 1. Thanking a neighbour: face to face, or a note. The time of a match: a
@@ -6229,9 +6323,9 @@ would struggle with it, and a change that includes them.
 
 ANSWERS
 
-150
+153
 
-<!-- page 151 -->
+<!-- page 154 -->
 
 ---
 **Unit 6 · Family, friends, community and culture**
@@ -6266,9 +6360,9 @@ or wear it as a costume for fun. 4. Your own answer.
 
 ANSWERS
 
-151
+154
 
-<!-- page 152 -->
+<!-- page 155 -->
 
 ---
 ## For teachers
@@ -6312,9 +6406,9 @@ topic.
 
 FOR TEACHERS
 
-152
+155
 
-<!-- page 153 -->
+<!-- page 156 -->
 
 ---
 **P R I M E  B O O K S**

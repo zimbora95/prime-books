@@ -3075,6 +3075,8 @@ U N I T 5 - T O P I C 5 . 1
 
 71
 
+**Figure 5.2 · Greece: mountains split the land into small, separate communities.**
+
 <!-- page 72 -->
 
 ---
@@ -3425,6 +3427,8 @@ U N I T 6 - T O P I C 6 . 2
 
 78
 
+**Athenian democracy in action: citizens voting in the Assembly on the Pnyx.**
+
 <!-- page 79 -->
 
 ---
@@ -3718,6 +3722,8 @@ U N I T 7 - T O P I C 7 . 1
 · SACRED STONE IN THE GREEK LANDSCAPE.
 
 84
+
+**Mount Olympus: the highest mountain in Greece, home of the twelve gods.**
 
 <!-- page 85 -->
 
@@ -4136,6 +4142,8 @@ Prime School Press - www.primeschool.pt
 U N I T 7 - T O P I C 7 . 7
 
 93
+
+**Olisipo: the settlement at the mouth of the Tagus in the age of classical Greece.**
 
 <!-- page 94 -->
 
@@ -4627,6 +4635,8 @@ Prime School Press - www.primeschool.pt
 U N I T 8 - T O P I C 8 . 3
 
 104
+
+**The death of Alexander the Great in Babylon, 323 BCE. His empire was divided among his generals.**
 
 <!-- page 105 -->
 
@@ -5711,6 +5721,8 @@ Prime School Press - www.primeschool.pt
 U N I T 1 1 - T O P I C 1 1 . 2
 
 129
+
+**Augustus, the first Roman emperor: the republic in name, a monarchy in fact.**
 
 <!-- page 130 -->
 
@@ -6827,6 +6839,8 @@ UNIT 14 - TOPIC 14.4
 
 155
 
+**Figure 14.4 · Medieval trade routes across the Mediterranean: western, central and eastern sea lanes.**
+
 <!-- page 156 -->
 
 ---
@@ -7492,11 +7506,6 @@ Most medieval people lived in villages. They farmed strips of land, kept animals
 mending fences or harvesting. Houses were often timber and thatch. Life followed the seasons and the
 church calendar. A bad harvest could mean hunger. A good harvest meant bread, ale and a little to trade.
 Neighbours knew one another. The village was a community of work, not only a place on a map. When
-someone fell ill or a cart broke, help often came from the same people who shared the field strips.
-
-Figure 16.1 · Town market and craft stalls.
-Medieval villages and towns mixed food, guilds and faith. Notice colour and crowd: urban functions grow where people meet
-to buy and sell.
 
 **Towns were different. They grew at river crossings, bridges, castle gates and harbours where people met to**
 buy and sell. Walls and gates controlled who came in. Markets filled the main square with noise: cloth
@@ -7511,6 +7520,8 @@ Prime School Press - www.primeschool.pt
 UNIT 16 - TOPIC 16.1
 
 171
+
+**A medieval fair: merchants, goods and crowds gathered at set times of year.**
 
 <!-- page 172 -->
 
@@ -7823,6 +7834,8 @@ U N I T 1 6 - T O P I C 1 6 . 4
 
 178
 
+**An illuminated manuscript: gold, colour and learning preserved by patient hands.**
+
 <!-- page 179 -->
 
 ---
@@ -7926,6 +7939,8 @@ Prime School Press - www.primeschool.pt
 U N I T 1 6 - T O P I C 1 6 . 5
 
 181
+
+**Village, town, Church and university: each part of medieval society supported the others.**
 
 <!-- page 182 -->
 

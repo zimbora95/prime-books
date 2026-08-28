@@ -4,7 +4,6 @@
 <!-- page 1 -->
 
 ---
-
 ## Global Perspectives
 
 ## Year 6
@@ -68,16 +67,15 @@ Four habits: Ask · Listen · Compare · Act with care.
 
 On every page there is a Teacher notes band for the adult who teaches with you.
 
-TEACHER NOTES
-
-Objective: Orient the book and cast.
-Do: Read the welcome aloud; name the four habits.
-Listen / Correct: Pupils name Inês, Jamal, Sofia, Mateo.
-Support: Poster of four habits.
-
-Extra challenge: One question linking Year 5 to Year 6.
-
 Prime School Press · www.primeschool.pt
+
+**Objective Orient the book and cast.**
+**Do Read the welcome aloud; name the four habits.**
+**Listen / Correct Pupils name Inês, Jamal, Sofia, Mateo.**
+**Support Poster of four habits.**
+**Extra challenge One question linking Year 5 to Year 6.**
+
+**TEACHER NOTES**
 
 <!-- page 4 -->
 
@@ -101,15 +99,15 @@ Talk before you write. Give reasons with because. Listen until your partner fini
 
 At the back of the book: Word list, Answers, Sources, For teachers, and unit QR codes.
 
-TEACHER NOTES
-
-Objective: Explain page furniture and unit shape.
-Do: Walk the table; open one sample unit.
-Listen / Correct: Pupils find Opener / Outcomes / Project labels.
-Support: Point to Teacher notes band.
-Extra challenge: Preview Unit 1 big question.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Explain page furniture and unit shape.**
+**Do: Walk the table; open one sample unit.**
+**Listen / Correct: Pupils find Opener / Outcomes / Project labels.**
+**Support: Point to Teacher notes band.**
+**Extra challenge: Preview Unit 1 big question.**
+
+**TEACHER NOTES**
 
 <!-- page 5 -->
 
@@ -140,16 +138,15 @@ They are classmates in the early years of primary school, now in Year 6. Disagre
 ideas, not with them. Portuguese place names and euros appear where natural (Lisbon,
 Porto, Coimbra, Algarve, Azores, Madeira).
 
-TEACHER NOTES
-
-Objective: Introduce the cast as thinking tools, not celebrities.
-Do: Assign roles for one short dialogue.
-Listen / Correct: Pupils restate one role in their own words.
-Support: Role cards if useful.
-
-Extra challenge: Invent a fifth role the class needs.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce the cast as thinking tools, not celebrities.**
+**Do: Assign roles for one short dialogue.**
+**Listen / Correct: Pupils restate one role in their own words.**
+**Support: Role cards if useful.**
+**Extra challenge: Invent a fifth role the class needs.**
 
 <!-- page 6 -->
 
@@ -236,16 +233,15 @@ whiteboard, they collect five moments from the last twenty-four hours when a mes
 was misunderstood. Then they face the big question: what makes a message truly
 understood?
 
-TEACHER NOTES
-
-Objective: Warm up with the big question and unit story.
-Do: Read opener; pair talk 1–2 minutes each.
-Listen / Correct: Full sentences; respectful listening.
-Support: Sentence frame: I think… because…
-
-Extra challenge: One extra why question.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Warm up with the big question and unit story.**
+**Do: Read opener; pair talk 1–2 minutes each.**
+**Listen / Correct: Full sentences; respectful listening.**
+**Support: Sentence frame: I think… because…**
+**Extra challenge: One extra why question.**
 
 <!-- page 8 -->
 
@@ -282,16 +278,16 @@ Ask a grown-up to hold the device.
 
 UNICEF education / communication (adult-held)
 
-TEACHER NOTES
-
-Objective: Share outcomes and QR (adult-held).
-Do: Read outcomes; tick one personal goal.
-Listen / Correct: Pupils restate one outcome.
-
-Support: Highlight three focus outcomes if needed.
-Extra challenge: Link one outcome to a local example.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Share outcomes and QR (adult-held).**
+**Do: Read outcomes; tick one personal goal.**
+**Listen / Correct: Pupils restate one outcome.**
+**Support: Highlight three focus outcomes if needed.**
+**Extra challenge: Link one outcome to a local example.**
+
+**EACHER NOTES**
+**TEACHER NOTES**
 
 <!-- page 9 -->
 
@@ -326,16 +322,15 @@ In a Lisbon classroom, "Can you help?" can mean "I am stuck" or "Do this for me"
 depending on posture and voice. Year 6 communicators pause and check: "Did I hear
 you right?" That check is part of the equation, not a delay.
 
-TEACHER NOTES
-
-Objective: Introduce 1.1: The communication equation.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 1.1: The communication equation.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 10 -->
 
@@ -369,16 +364,15 @@ LOOK OUTWARDS NOTES
 
 Sketch the four-part equation as a diagram. Star the part you most often forget.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 1.1.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 1.1.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 11 -->
 
@@ -412,16 +406,15 @@ so both sides can be heard.
 Shouting the same sentence louder is not a bridge. Slowing down, pointing to a
 picture, and checking understanding are.
 
-TEACHER NOTES
-
-Objective: Introduce 1.2: Bridging the language gap.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 1.2: Bridging the language gap.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 12 -->
 
@@ -453,16 +446,15 @@ ONE STEP FURTHER
 Ask an adult which languages they meet at work or in town. Note one that surprised you
 and why.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 1.2.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 1.2.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 13 -->
 
@@ -497,16 +489,15 @@ handshake is preferred.
 The Year 6 skill is notice, ask, respect. Mocking a style is not curiosity. Asking
 "How do people usually greet in your family?" is.
 
-TEACHER NOTES
-
-Objective: Introduce 1.3: Cultural codes.
-
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 1.3: Cultural codes.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 14 -->
 
@@ -535,16 +526,15 @@ LOOK OUTWARDS NOTES
 
 Draw two chairs labelled Direct and Soft. Under each, write one good use and one risk.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 1.3.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 1.3.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 15 -->
 
@@ -577,16 +567,15 @@ adult if something feels wrong.
 Emojis can help tone, but they do not fix unkind words. Caps lock can feel like shouting.
 A delayed reply is allowed. Silence is not always agreement. Screenshots travel.
 
-TEACHER NOTES
-
-Objective: Introduce 1.4: Respectful messages online.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 1.4: Respectful messages online.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 16 -->
 
@@ -612,16 +601,15 @@ DID YOU KNOW?
 Many European schools teach e-safety as part of citizenship and computing, not only as
 a one-day talk.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 1.4.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 1.4.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 17 -->
 
@@ -655,16 +643,15 @@ or a short video script, but they still need facts they can check.
 Fair persuasion asks three questions: What is my claim? What is my evidence? Who might
 disagree, and why might they be right?
 
-TEACHER NOTES
-
-Objective: Introduce 1.5: The art of persuasion.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 1.5: The art of persuasion.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 18 -->
 
@@ -694,16 +681,15 @@ LOOK OUTWARDS NOTES
 Write a fair one-minute speech outline: claim, two reasons, one source type, one respectful
 close.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 1.5.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 1.5.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 19 -->
 
@@ -736,16 +722,15 @@ topics, it is how we avoid jumping to stereotypes about places we have never vis
 Listening is a skill. It can be practised like a sport. Year 6 listeners also notice
 when they are planning their answer instead of hearing the person.
 
-TEACHER NOTES
-
-Objective: Introduce 1.6: Active listening.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 1.6: Active listening.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 20 -->
 
@@ -773,16 +758,15 @@ LOOK OUTWARDS NOTES
 
 Draw a listening body: eyes (if comfortable), quiet hands, open questions bubble.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 1.6.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 1.6.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 21 -->
 
@@ -801,16 +785,15 @@ your school: five picture signs, two welcome phrases (Portuguese + another langu
 you know), one listening tip, and one "how to ask for help" line. Share in a
 two-minute presentation. Assess yourselves for clarity, kindness and usefulness.
 
-TEACHER NOTES
-
-Objective: Unit product with clear success criteria.
-
-Do: Pairs or small groups; time-box sharing.
-Listen / Correct: Clarity, kindness, evidence.
-Support: Role cards; scaffolded template.
-Extra challenge: Audience share of one strong idea.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Unit product with clear success criteria.**
+**Do: Pairs or small groups; time-box sharing.**
+**Listen / Correct: Clarity, kindness, evidence.**
+**Support: Role cards; scaffolded template.**
+**Extra challenge: Audience share of one strong idea.**
 
 <!-- page 22 -->
 
@@ -835,16 +818,15 @@ LOOKING AHEAD
 
 What is one careful communication habit you want to take into Unit 2?
 
-TEACHER NOTES
-
-Objective: Self-check and forward link.
-
-Do: Pupils tick honestly; share one star and one wish.
-Listen / Correct: Evidence of learning, not perfection.
-Support: Revisit weak outcome with a short task.
-Extra challenge: Write one goal for the next unit.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Self-check and forward link.**
+**Do: Pupils tick honestly; share one star and one wish.**
+**Listen / Correct: Evidence of learning, not perfection.**
+**Support: Revisit weak outcome with a short task.**
+**Extra challenge: Write one goal for the next unit.**
+
+**TEACHER NOTES**
 
 <!-- page 23 -->
 
@@ -872,15 +854,17 @@ Inês opens a notebook labelled "fair or unfair?". Before opinions become noise,
 collect three school rules and three town rules. Then they ask: who are laws for,
 and what makes a consequence fair?
 
-TEACHER NOTES
-
-Objective: Warm up with the big question and unit story.
-Do: Read opener; pair talk 1–2 minutes each.
-Listen / Correct: Full sentences; respectful listening.
-Support: Sentence frame: I think… because…
-Extra challenge: One extra why question.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+THE BIG QUESTION
+
+**Objective: Warm up with the big question and unit story.**
+**Do: Read opener; pair talk 1–2 minutes each.**
+**Listen / Correct: Full sentences; respectful listening.**
+**Support: Sentence frame: I think… because…**
+**Extra challenge: One extra why question.**
 
 <!-- page 24 -->
 
@@ -914,16 +898,15 @@ Ask a grown-up to hold the device.
 
 UN child rights overview (adult-held)
 
-TEACHER NOTES
-
-Objective: Share outcomes and QR (adult-held).
-
-Do: Read outcomes; tick one personal goal.
-Listen / Correct: Pupils restate one outcome.
-Support: Highlight three focus outcomes if needed.
-Extra challenge: Link one outcome to a local example.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Share outcomes and QR (adult-held).**
+**Do: Read outcomes; tick one personal goal.**
+**Listen / Correct: Pupils restate one outcome.**
+**Support: Highlight three focus outcomes if needed.**
+**Extra challenge: Link one outcome to a local example.**
+
+**TEACHER NOTES**
 
 <!-- page 25 -->
 
@@ -955,16 +938,19 @@ parliaments debate and update them. In Portugal, the national parliament is the
 Assembly of the Republic. For Year 6, the key is: laws are for people,
 including people who will never meet each other, and including children.
 
-TEACHER NOTES
-
-Objective: Introduce 2.1: Purpose of laws.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+DO YOU REMEMBER?
+
+BOOTS ON!
+
+**Objective: Introduce 2.1: Purpose of laws.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 26 -->
 
@@ -992,16 +978,17 @@ LOOK OUTWARDS NOTES
 Sketch a three-layer stack: classroom rules · town rules · country laws. Add one example
 each.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 2.1.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+DID YOU KNOW?
+
+**Objective: Practise and reflect on 2.1.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 27 -->
 
@@ -1035,16 +1022,19 @@ Example: you have a right to speak in a discussion. You also have a responsibili
 not to shout over someone else. You have a right to a safe playground. You also have
 a responsibility not to leave litter that could hurt others.
 
-TEACHER NOTES
-
-Objective: Introduce 2.2: Rights and responsibilities.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+DO YOU REMEMBER?
+
+BOOTS ON!
+
+**Objective: Introduce 2.2: Rights and responsibilities.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 28 -->
 
@@ -1073,16 +1063,15 @@ LOOK OUTWARDS NOTES
 
 Draw a balance scale: rights on one side, responsibilities on the other. Add one weight each.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 2.2.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 2.2.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 29 -->
 
@@ -1117,16 +1106,19 @@ postcode or popularity.
 A new phone is a want, not a human right. Safe schooling is closer to a human right.
 Year 6 discussion stays kind and age-safe: no graphic stories, no blaming whole peoples.
 
-TEACHER NOTES
-
-Objective: Introduce 2.3: Human rights.
-
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+DO YOU REMEMBER?
+
+BOOTS ON!
+
+**Objective: Introduce 2.3: Human rights.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 30 -->
 
@@ -1152,16 +1144,17 @@ DID YOU KNOW?
 The Universal Declaration of Human Rights was adopted by the UN General Assembly in
 1948.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 2.3.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+DID YOU KNOW?
+
+**Objective: Practise and reflect on 2.3.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 31 -->
 
@@ -1197,16 +1190,19 @@ safe and aimed at learning or repair?
 Unfair consequences punish the wrong person, are secret, or are much harsher than the
 harm done.
 
-TEACHER NOTES
-
-Objective: Introduce 2.4: Consequences of breaking the law.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+DO YOU REMEMBER?
+
+BOOTS ON!
+
+**Objective: Introduce 2.4: Consequences of breaking the law.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 32 -->
 
@@ -1236,16 +1232,15 @@ LOOK OUTWARDS NOTES
 
 Sketch a "fair consequence ladder" with three rungs and one example each.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 2.4.
-
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 2.4.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 33 -->
 
@@ -1281,16 +1276,19 @@ honesty connect to law and trust? who is responsible?
 Your job: name principles (safety, honesty, fairness), not scandals. If a discussion
 feels too heavy, tell a teacher. Stay age-safe.
 
-TEACHER NOTES
-
-Objective: Introduce 2.5: Real life examples.
-
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+DO YOU REMEMBER?
+
+BOOTS ON!
+
+**Objective: Introduce 2.5: Real life examples.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 34 -->
 
@@ -1318,16 +1316,17 @@ LOOK OUTWARDS NOTES
 Create a principle card: Safety · Fairness · Honesty · Dignity. Tick which principle each frame
 taught you.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 2.5.
-Do: Your turn first; then chair or notes.
-
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+DID YOU KNOW?
+
+**Objective: Practise and reflect on 2.5.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 35 -->
 
@@ -1345,16 +1344,15 @@ Class charter 2.0. In small groups, draft a one-page charter for Year 6:
 five rights, five responsibilities, three fair consequence ideas, and one sentence
 about dignity. Present in two minutes. Vote on which lines to keep for the wall.
 
-TEACHER NOTES
-
-Objective: Unit product with clear success criteria.
-Do: Pairs or small groups; time-box sharing.
-Listen / Correct: Clarity, kindness, evidence.
-Support: Role cards; scaffolded template.
-
-Extra challenge: Audience share of one strong idea.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Unit product with clear success criteria.**
+**Do: Pairs or small groups; time-box sharing.**
+**Listen / Correct: Clarity, kindness, evidence.**
+**Support: Role cards; scaffolded template.**
+**Extra challenge: Audience share of one strong idea.**
 
 <!-- page 36 -->
 
@@ -1378,16 +1376,15 @@ LOOKING AHEAD
 
 What is one fair-community idea you want to take into the globalisation unit?
 
-TEACHER NOTES
-
-Objective: Self-check and forward link.
-
-Do: Pupils tick honestly; share one star and one wish.
-Listen / Correct: Evidence of learning, not perfection.
-Support: Revisit weak outcome with a short task.
-Extra challenge: Write one goal for the next unit.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Self-check and forward link.**
+**Do: Pupils tick honestly; share one star and one wish.**
+**Listen / Correct: Evidence of learning, not perfection.**
+**Support: Revisit weak outcome with a short task.**
+**Extra challenge: Write one goal for the next unit.**
+
+**TEACHER NOTES**
 
 <!-- page 37 -->
 
@@ -1416,16 +1413,15 @@ to know who sewed the bag strap. Inês draws a dotted line from "cotton field" t
 five steps it might have taken. Then the big question: how does the world connect
 through things we use every day?
 
-TEACHER NOTES
-
-Objective: Warm up with the big question and unit story.
-Do: Read opener; pair talk 1–2 minutes each.
-
-Listen / Correct: Full sentences; respectful listening.
-Support: Sentence frame: I think… because…
-Extra challenge: One extra why question.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Warm up with the big question and unit story.**
+**Do: Read opener; pair talk 1–2 minutes each.**
+**Listen / Correct: Full sentences; respectful listening.**
+**Support: Sentence frame: I think… because…**
+**Extra challenge: One extra why question.**
 
 <!-- page 38 -->
 
@@ -1462,16 +1458,15 @@ Ask a grown-up to hold the device.
 
 UN global issues overview (adult-held)
 
-TEACHER NOTES
-
-Objective: Share outcomes and QR (adult-held).
-Do: Read outcomes; tick one personal goal.
-Listen / Correct: Pupils restate one outcome.
-
-Support: Highlight three focus outcomes if needed.
-Extra challenge: Link one outcome to a local example.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Share outcomes and QR (adult-held).**
+**Do: Read outcomes; tick one personal goal.**
+**Listen / Correct: Pupils restate one outcome.**
+**Support: Highlight three focus outcomes if needed.**
+**Extra challenge: Link one outcome to a local example.**
+
+**TEACHER NOTES**
 
 <!-- page 39 -->
 
@@ -1504,16 +1499,15 @@ a huge share of world goods. When one step fails, many people feel the effect.
 Year 6 thinkers map chains carefully and treat every worker as a person with dignity,
 not as a cartoon.
 
-TEACHER NOTES
-
-Objective: Introduce 3.1: The engine of trade.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 3.1: The engine of trade.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 40 -->
 
@@ -1537,16 +1531,15 @@ YOUR TURN
 DID YOU KNOW?
 Container shipping moves a large share of the world's goods trade across oceans.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 3.1.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 3.1.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 41 -->
 
@@ -1579,16 +1572,15 @@ shown?
 Ideas also travel slowly: books, teachers, family stories. Slow travel can be careful
 travel.
 
-TEACHER NOTES
-
-Objective: Introduce 3.2: How information and ideas travel.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 3.2: How information and ideas travel.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 42 -->
 
@@ -1617,16 +1609,15 @@ LOOK OUTWARDS NOTES
 
 Sketch a "nervous system" map: source → travel path → your class. Mark one check point.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 3.2.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 3.2.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 43 -->
 
@@ -1659,16 +1650,15 @@ welcomes new neighbours is not "less local" for sharing joy.
 
 Year 6 avoids stereotypes such as "all people from X are...". Individuals differ.
 
-TEACHER NOTES
-
-Objective: Introduce 3.3: Cultural exchange.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 3.3: Cultural exchange.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 44 -->
 
@@ -1700,16 +1690,15 @@ ONE STEP FURTHER
 With an adult, notice one product label that names a country of origin. Note it without
 judging the whole country.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 3.3.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 3.3.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 45 -->
 
@@ -1740,16 +1729,15 @@ We do not blame whole countries or peoples. We study systems: companies, laws,
 shipping, demand. Year 6 global citizens look for dignity and evidence, not winners
 to cheer and losers to mock.
 
-TEACHER NOTES
-
-Objective: Introduce 3.4: Winners and losers.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 3.4: Winners and losers.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 46 -->
 
@@ -1778,16 +1766,15 @@ LOOK OUTWARDS NOTES
 
 Draw a balance: Gains / Risks. Add two notes each side.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 3.4.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 3.4.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 47 -->
 
@@ -1820,16 +1807,15 @@ Year 6 stays age-safe: no graphic illness detail. Focus on cooperation and kindn
 
 Blaming "other people" as a whole is not science and not fairness.
 
-TEACHER NOTES
-
-Objective: Introduce 3.5: Problems without passports.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 3.5: Problems without passports.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 48 -->
 
@@ -1857,16 +1843,15 @@ LOOK OUTWARDS NOTES
 Sketch Earth with three arrows labelled problems without passports. Add one cooperation
 idea.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 3.5.
-Do: Your turn first; then chair or notes.
-
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 3.5.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 49 -->
 
@@ -1899,16 +1884,15 @@ stereotypes.
 
 Global citizenship is a habit, not a costume.
 
-TEACHER NOTES
-
-Objective: Introduce 3.6: Your role as a global citizen.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 3.6: Your role as a global citizen.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 50 -->
 
@@ -1936,16 +1920,15 @@ ONE STEP FURTHER
 With an adult, open the SDG overview (QR). Pick one goal that connects to your school life
 and note its number and name.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 3.6.
-Do: Your turn first; then chair or notes.
-
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 3.6.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 51 -->
 
@@ -1963,16 +1946,15 @@ Object biography. Choose one everyday object. Research (with adult help)
 a plausible supply chain. Make a one-page biography: materials, possible countries,
 one worker role, one environmental question, one fair-choice idea, one source you used.
 
-TEACHER NOTES
-
-Objective: Unit product with clear success criteria.
-Do: Pairs or small groups; time-box sharing.
-Listen / Correct: Clarity, kindness, evidence.
-Support: Role cards; scaffolded template.
-
-Extra challenge: Audience share of one strong idea.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Unit product with clear success criteria.**
+**Do: Pairs or small groups; time-box sharing.**
+**Listen / Correct: Clarity, kindness, evidence.**
+**Support: Role cards; scaffolded template.**
+**Extra challenge: Audience share of one strong idea.**
 
 <!-- page 52 -->
 
@@ -1997,16 +1979,15 @@ LOOKING AHEAD
 
 What is one careful question you want to take into the world of work?
 
-TEACHER NOTES
-
-Objective: Self-check and forward link.
-
-Do: Pupils tick honestly; share one star and one wish.
-Listen / Correct: Evidence of learning, not perfection.
-Support: Revisit weak outcome with a short task.
-Extra challenge: Write one goal for the next unit.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Self-check and forward link.**
+**Do: Pupils tick honestly; share one star and one wish.**
+**Listen / Correct: Evidence of learning, not perfection.**
+**Support: Revisit weak outcome with a short task.**
+**Extra challenge: Write one goal for the next unit.**
+
+**TEACHER NOTES**
 
 <!-- page 53 -->
 
@@ -2035,16 +2016,15 @@ folder labelled "skills I am building". Before they invent futures, they list te
 jobs they know and star which ones need a physical place. Then the big question:
 how is work changing, and which skills will still matter?
 
-TEACHER NOTES
-
-Objective: Warm up with the big question and unit story.
-Do: Read opener; pair talk 1–2 minutes each.
-
-Listen / Correct: Full sentences; respectful listening.
-Support: Sentence frame: I think… because…
-Extra challenge: One extra why question.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Warm up with the big question and unit story.**
+**Do: Read opener; pair talk 1–2 minutes each.**
+**Listen / Correct: Full sentences; respectful listening.**
+**Support: Sentence frame: I think… because…**
+**Extra challenge: One extra why question.**
 
 <!-- page 54 -->
 
@@ -2081,16 +2061,15 @@ Ask a grown-up to hold the device.
 
 ILO youth / work overview (adult-held)
 
-TEACHER NOTES
-
-Objective: Share outcomes and QR (adult-held).
-Do: Read outcomes; tick one personal goal.
-Listen / Correct: Pupils restate one outcome.
-
-Support: Highlight three focus outcomes if needed.
-Extra challenge: Link one outcome to a local example.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Share outcomes and QR (adult-held).**
+**Do: Read outcomes; tick one personal goal.**
+**Listen / Correct: Pupils restate one outcome.**
+**Support: Highlight three focus outcomes if needed.**
+**Extra challenge: Link one outcome to a local example.**
+
+**TEACHER NOTES**
 
 <!-- page 55 -->
 
@@ -2122,16 +2101,15 @@ Year 6 treats workers with dignity. Low prices in a shop can hide long chains of
 Asking "Who made this, and under what conditions?" is a fair global-citizen question,
 not a reason to insult a country.
 
-TEACHER NOTES
-
-Objective: Introduce 4.1: The global division of labour.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 4.1: The global division of labour.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 56 -->
 
@@ -2159,16 +2137,15 @@ LOOK OUTWARDS NOTES
 
 Draw a T-shirt with four journey arrows. On the back: one fair shopper question.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 4.1.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 4.1.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 57 -->
 
@@ -2199,16 +2176,15 @@ Flexible work can help families and reduce travel. It can also blur home and wor
 time. Year 6 does not decide careers. You practise sorting jobs by place, tools and
 people contact.
 
-TEACHER NOTES
-
-Objective: Introduce 4.2: Flexible and remote work.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 4.2: Flexible and remote work.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 58 -->
 
@@ -2235,16 +2211,15 @@ Mateo says: Everyone should work from home.
 Jamal says: Many essential jobs need people in a place.
 Then: Which local jobs keep your town running if everyone stayed home?
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 4.2.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 4.2.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 59 -->
 
@@ -2275,16 +2250,15 @@ Year 6 avoids panic stories. Machines change tasks. People still need judgement,
 kindness, creativity and responsibility. Some new jobs appear because machines exist
 (repair, design, safety checks).
 
-TEACHER NOTES
-
-Objective: Introduce 4.3: Automation and AI at work.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 4.3: Automation and AI at work.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 60 -->
 
@@ -2316,16 +2290,15 @@ ONE STEP FURTHER
 Ask an adult one way technology changed their work or a family member's work. Note one
 skill that still mattered.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 4.3.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 4.3.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 61 -->
 
@@ -2355,15 +2328,15 @@ means choosing products with care for people and planet, not only price.
 Year 6 choices are sized for age: reduce waste, repair when possible, notice labels,
 support school eco projects. Perfect purity is not required. Better questions are.
 
-TEACHER NOTES
-
-Objective: Introduce 4.4: Green jobs and ethical choices.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 4.4: Green jobs and ethical choices.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 62 -->
 
@@ -2392,16 +2365,15 @@ LOOK OUTWARDS NOTES
 
 Poster corner: Green job of the week + one ethical choice tip.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 4.4.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 4.4.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 63 -->
 
@@ -2431,15 +2403,15 @@ for new pupils, or a fair poster campaign.
 Year 6 enterprise is small, kind and checked with adults. You ask: Who benefits?
 What could go wrong? What evidence will show it helped?
 
-TEACHER NOTES
-
-Objective: Introduce 4.5: Entrepreneurial mindset.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 4.5: Entrepreneurial mindset.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 64 -->
 
@@ -2462,16 +2434,15 @@ LOOK OUTWARDS NOTES
 
 Problem → idea → first tiny test. Fill the three boxes.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 4.5.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 4.5.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 65 -->
 
@@ -2500,16 +2471,15 @@ are learning next. Many countries encourage lifelong learning in education polic
 Your portfolio is not a finished CV. It is a habit: notice skills, practise them,
 collect evidence (a project photo, a reflection, a teacher comment).
 
-TEACHER NOTES
-
-Objective: Introduce 4.6: Lifelong learning and skills portfolio.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 4.6: Lifelong learning and skills portfolio.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 66 -->
 
@@ -2536,15 +2506,15 @@ LOOK OUTWARDS NOTES
 
 Portfolio cover: name, year, motto, three skill stars.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 4.6.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 4.6.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 67 -->
 
@@ -2562,16 +2532,15 @@ Skills portfolio starter. Make a four-page mini portfolio: cover, skills I have,
 skills I am building, one project evidence page (photo space + reflection). Share in
 a three-minute partner interview using active listening from Unit 1.
 
-TEACHER NOTES
-
-Objective: Unit product with clear success criteria.
-Do: Pairs or small groups; time-box sharing.
-Listen / Correct: Clarity, kindness, evidence.
-Support: Role cards; scaffolded template.
-
-Extra challenge: Audience share of one strong idea.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Unit product with clear success criteria.**
+**Do: Pairs or small groups; time-box sharing.**
+**Listen / Correct: Clarity, kindness, evidence.**
+**Support: Role cards; scaffolded template.**
+**Extra challenge: Audience share of one strong idea.**
 
 <!-- page 68 -->
 
@@ -2596,16 +2565,15 @@ LOOKING AHEAD
 
 What is one skill you want ready before you think about countries working together?
 
-TEACHER NOTES
-
-Objective: Self-check and forward link.
-
-Do: Pupils tick honestly; share one star and one wish.
-Listen / Correct: Evidence of learning, not perfection.
-Support: Revisit weak outcome with a short task.
-Extra challenge: Write one goal for the next unit.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Self-check and forward link.**
+**Do: Pupils tick honestly; share one star and one wish.**
+**Listen / Correct: Evidence of learning, not perfection.**
+**Support: Revisit weak outcome with a short task.**
+**Extra challenge: Write one goal for the next unit.**
+
+**TEACHER NOTES**
 
 <!-- page 69 -->
 
@@ -2635,16 +2603,15 @@ a member of the European Union and the United Nations: real examples of
 countries working together. Then the big question: how can countries cooperate when
 they do not always want the same thing?
 
-TEACHER NOTES
-
-Objective: Warm up with the big question and unit story.
-
-Do: Read opener; pair talk 1–2 minutes each.
-Listen / Correct: Full sentences; respectful listening.
-Support: Sentence frame: I think… because…
-Extra challenge: One extra why question.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Warm up with the big question and unit story.**
+**Do: Read opener; pair talk 1–2 minutes each.**
+**Listen / Correct: Full sentences; respectful listening.**
+**Support: Sentence frame: I think… because…**
+**Extra challenge: One extra why question.**
 
 <!-- page 70 -->
 
@@ -2681,16 +2648,15 @@ Ask a grown-up to hold the device.
 
 UN cooperation overview (adult-held)
 
-TEACHER NOTES
-
-Objective: Share outcomes and QR (adult-held).
-Do: Read outcomes; tick one personal goal.
-Listen / Correct: Pupils restate one outcome.
-
-Support: Highlight three focus outcomes if needed.
-Extra challenge: Link one outcome to a local example.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Share outcomes and QR (adult-held).**
+**Do: Read outcomes; tick one personal goal.**
+**Listen / Correct: Pupils restate one outcome.**
+**Support: Highlight three focus outcomes if needed.**
+**Extra challenge: Link one outcome to a local example.**
+
+**TEACHER NOTES**
 
 <!-- page 71 -->
 
@@ -2721,16 +2687,15 @@ Understanding interests is not "taking sides" like a sports match. It is learnin
 talks start from different places. Year 6 stays respectful: no enemy stories, no
 hate of whole peoples.
 
-TEACHER NOTES
-
-Objective: Introduce 5.1: National interests.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 5.1: National interests.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 72 -->
 
@@ -2753,16 +2718,15 @@ LOOK OUTWARDS NOTES
 
 Three circles: Safety · Fair trade · Environment. Add one example note in each.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 5.1.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 5.1.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 73 -->
 
@@ -2792,15 +2756,15 @@ Nations give countries a place to discuss.
 Diplomacy tools include listening, proposing options, writing clear rules, and finding
 compromises. Force is not the Year 6 focus. Understanding talk tools is.
 
-TEACHER NOTES
-
-Objective: Introduce 5.2: The toolbox of diplomacy.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 5.2: The toolbox of diplomacy.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 74 -->
 
@@ -2830,16 +2794,15 @@ Mateo says: The strongest side should decide.
 Inês says: Clear agreements protect both sides later.
 Then: Why might a written treaty help more than a quick shout?
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 5.2.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 5.2.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 75 -->
 
@@ -2869,15 +2832,15 @@ protect everyone over time.
 Year 6 studies principles: voice for all sides, evidence about harm, rules that can
 be checked. We do not invent wars. We invent fair agreements.
 
-TEACHER NOTES
-
-Objective: Introduce 5.3: Shared resources.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 5.3: Shared resources.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 76 -->
 
@@ -2900,16 +2863,15 @@ LOOK OUTWARDS NOTES
 
 River diagram: upstream / downstream. Add one right and one duty each side.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 5.3.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 5.3.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 77 -->
 
@@ -2940,16 +2902,15 @@ Soft power is not a trick to "win" people as prizes. Year 6 uses it to notice ho
 attraction and respect work differently from threats. Your school can show soft power
 too: welcome, excellence, kindness.
 
-TEACHER NOTES
-
-Objective: Introduce 5.4: Soft power.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 5.4: Soft power.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 78 -->
 
@@ -2981,16 +2942,15 @@ ONE STEP FURTHER
 With an adult, find one international event (sport, festival, science) that Portugal hosts or
 joins. Note how it might build respect.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 5.4.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 5.4.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 79 -->
 
@@ -3021,16 +2981,15 @@ Help should protect dignity. Dumping unwanted goods can create waste. Spreading
 rumours can harm. Year 6 stays age-safe: no graphic conflict detail. Focus on careful
 help and respect for people in crisis.
 
-TEACHER NOTES
-
-Objective: Introduce 5.5: Crisis response.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 5.5: Crisis response.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 80 -->
 
@@ -3059,16 +3018,15 @@ LOOK OUTWARDS NOTES
 
 Checklist card: Ask · Listen · Send what is needed · Respect dignity.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 5.5.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 5.5.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 81 -->
 
@@ -3098,15 +3056,15 @@ attacks on hospitals, online crime.
 Year 6 does not design international law. You practise the idea: new technology still
 needs fairness, safety and talk tools from earlier topics.
 
-TEACHER NOTES
-
-Objective: Introduce 5.6: Future cooperation: space and cyberspace.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 5.6: Future cooperation: space and cyberspace.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 82 -->
 
@@ -3129,16 +3087,15 @@ LOOK OUTWARDS NOTES
 
 Two panels: Space rules we might need · Cyberspace rules we might need.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 5.6.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 5.6.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 83 -->
 
@@ -3157,16 +3114,15 @@ digital network. Write a one-page treaty: three resource rules, two diplomacy st
 for disputes, one soft-power exchange (sport or culture), one crisis plan. Present in
 three minutes.
 
-TEACHER NOTES
-
-Objective: Unit product with clear success criteria.
-
-Do: Pairs or small groups; time-box sharing.
-Listen / Correct: Clarity, kindness, evidence.
-Support: Role cards; scaffolded template.
-Extra challenge: Audience share of one strong idea.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Unit product with clear success criteria.**
+**Do: Pairs or small groups; time-box sharing.**
+**Listen / Correct: Clarity, kindness, evidence.**
+**Support: Role cards; scaffolded template.**
+**Extra challenge: Audience share of one strong idea.**
 
 <!-- page 84 -->
 
@@ -3191,16 +3147,15 @@ LOOKING AHEAD
 
 What is one cooperation habit you want to take into the digital world unit?
 
-TEACHER NOTES
-
-Objective: Self-check and forward link.
-
-Do: Pupils tick honestly; share one star and one wish.
-Listen / Correct: Evidence of learning, not perfection.
-Support: Revisit weak outcome with a short task.
-Extra challenge: Write one goal for the next unit.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Self-check and forward link.**
+**Do: Pupils tick honestly; share one star and one wish.**
+**Listen / Correct: Evidence of learning, not perfection.**
+**Support: Revisit weak outcome with a short task.**
+**Extra challenge: Write one goal for the next unit.**
+
+**TEACHER NOTES**
 
 <!-- page 85 -->
 
@@ -3229,16 +3184,15 @@ video. Inês pins a sign: "Check before you share". Before they argue about scre
 time, they map the path of one message from phone to friend. Then the big question:
 how do we stay human, fair and free in a world designed to keep us online?
 
-TEACHER NOTES
-
-Objective: Warm up with the big question and unit story.
-Do: Read opener; pair talk 1–2 minutes each.
-Listen / Correct: Full sentences; respectful listening.
-Support: Sentence frame: I think… because…
-
-Extra challenge: One extra why question.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Warm up with the big question and unit story.**
+**Do: Read opener; pair talk 1–2 minutes each.**
+**Listen / Correct: Full sentences; respectful listening.**
+**Support: Sentence frame: I think… because…**
+**Extra challenge: One extra why question.**
 
 <!-- page 86 -->
 
@@ -3275,16 +3229,15 @@ Ask a grown-up to hold the device.
 
 Safer Internet / digital care (adult-held)
 
-TEACHER NOTES
-
-Objective: Share outcomes and QR (adult-held).
-Do: Read outcomes; tick one personal goal.
-Listen / Correct: Pupils restate one outcome.
-
-Support: Highlight three focus outcomes if needed.
-Extra challenge: Link one outcome to a local example.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Share outcomes and QR (adult-held).**
+**Do: Read outcomes; tick one personal goal.**
+**Listen / Correct: Pupils restate one outcome.**
+**Support: Highlight three focus outcomes if needed.**
+**Extra challenge: Link one outcome to a local example.**
+
+**TEACHER NOTES**
 
 <!-- page 87 -->
 
@@ -3315,16 +3268,15 @@ help too, but much of the "cloud" is physical machines in buildings.
 Knowing the path makes the internet less mysterious and more something you can
 question: who controls a step, who can see data, what happens if a cable fails.
 
-TEACHER NOTES
-
-Objective: Introduce 6.1: How the internet really works.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 6.1: How the internet really works.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 88 -->
 
@@ -3351,15 +3303,15 @@ LOOK OUTWARDS NOTES
 
 Path diagram with five boxes. Star the step you understand least and write one question.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 6.1.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 6.1.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 89 -->
 
@@ -3390,16 +3342,15 @@ Year 6 does not ban joy. You learn to notice the design, set personal boundaries
 and use adult help for settings. Your attention is valuable. You can spend it on
 purpose.
 
-TEACHER NOTES
-
-Objective: Introduce 6.2: The attention economy.
-Do: Warm question, Boots on, then Let us find out.
-
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 6.2: The attention economy.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 90 -->
 
@@ -3429,16 +3380,15 @@ LOOK OUTWARDS NOTES
 
 My attention rules: three lines you can keep.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 6.2.
-
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 6.2.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 91 -->
 
@@ -3474,16 +3424,15 @@ Digital detective steps:
 
 Emotions are clues: fear and anger can rush you. Year 6 detectives slow down.
 
-TEACHER NOTES
-
-Objective: Introduce 6.3: Misinformation and media literacy.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 6.3: Misinformation and media literacy.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 92 -->
 
@@ -3508,16 +3457,15 @@ DID YOU KNOW?
 Many European programmes teach children media literacy so they can spot false claims
 online.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 6.3.
-
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 6.3.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 93 -->
 
@@ -3546,16 +3494,15 @@ private details, and telling a trusted adult when something feels wrong.
 School e-safety policy leads. This book supports it; it does not replace it. Global
 community online means a message can reach far. Kindness and caution travel with it.
 
-TEACHER NOTES
-
-Objective: Introduce 6.4: Digital citizenship rights and responsibilities.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 6.4: Digital citizenship rights and responsibilities.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 94 -->
 
@@ -3578,16 +3525,15 @@ LOOK OUTWARDS NOTES
 
 Shield drawing: rights inside, duties as the outer ring.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 6.4.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 6.4.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 95 -->
 
@@ -3619,16 +3565,15 @@ remember that once shared, control is limited
 
 Creating is power. Responsibility is the other half of power.
 
-TEACHER NOTES
-
-Objective: Introduce 6.5: From consumer to creator.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-Support: Re-read teach paragraph in pairs.
-
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 6.5: From consumer to creator.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 96 -->
 
@@ -3657,16 +3602,15 @@ LOOK OUTWARDS NOTES
 
 Creator checklist: purpose · permission · credit · fact · dignity.
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 6.5.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 6.5.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 97 -->
 
@@ -3699,16 +3643,15 @@ for what you hand in. Check with humans and trusted sources.
 
 AI cannot replace your kindness, your questions, or your duty to tell the truth.
 
-TEACHER NOTES
-
-Objective: Introduce 6.6: Artificial intelligence.
-Do: Warm question, Boots on, then Let us find out.
-Listen / Correct: Key vocabulary used correctly.
-
-Support: Re-read teach paragraph in pairs.
-Extra challenge: One extra example from school life.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Introduce 6.6: Artificial intelligence.**
+**Do: Warm question, Boots on, then Let us find out.**
+**Listen / Correct: Key vocabulary used correctly.**
+**Support: Re-read teach paragraph in pairs.**
+**Extra challenge: One extra example from school life.**
 
 <!-- page 98 -->
 
@@ -3735,15 +3678,15 @@ LOOK OUTWARDS NOTES
 
 Tool label for AI: helps with... / still needs a human for...
 
-TEACHER NOTES
-
-Objective: Practise and reflect on 6.6.
-Do: Your turn first; then chair or notes.
-Listen / Correct: Reasons with because; respectful language.
-Support: Sentence starters; reduce to two tasks if needed.
-Extra challenge: One step further if ready.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Practise and reflect on 6.6.**
+**Do: Your turn first; then chair or notes.**
+**Listen / Correct: Reasons with because; respectful language.**
+**Support: Sentence starters; reduce to two tasks if needed.**
+**Extra challenge: One step further if ready.**
+
+**TEACHER NOTES**
 
 <!-- page 99 -->
 
@@ -3762,16 +3705,15 @@ Digital citizen kit. In pairs, produce a one-page kit for younger pupils:
 (4) rights and duties icons, (5) AI caution line. Present in two minutes. A grown-up
 checks any links before they are shared.
 
-TEACHER NOTES
-
-Objective: Unit product with clear success criteria.
-
-Do: Pairs or small groups; time-box sharing.
-Listen / Correct: Clarity, kindness, evidence.
-Support: Role cards; scaffolded template.
-Extra challenge: Audience share of one strong idea.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Unit product with clear success criteria.**
+**Do: Pairs or small groups; time-box sharing.**
+**Listen / Correct: Clarity, kindness, evidence.**
+**Support: Role cards; scaffolded template.**
+**Extra challenge: Audience share of one strong idea.**
 
 <!-- page 100 -->
 
@@ -3796,16 +3738,15 @@ LOOKING AHEAD
 
 What is one digital habit you will keep as you leave Upper Primary?
 
-TEACHER NOTES
-
-Objective: Self-check and forward link.
-
-Do: Pupils tick honestly; share one star and one wish.
-Listen / Correct: Evidence of learning, not perfection.
-Support: Revisit weak outcome with a short task.
-Extra challenge: Write one goal for the next unit.
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Self-check and forward link.**
+**Do: Pupils tick honestly; share one star and one wish.**
+**Listen / Correct: Evidence of learning, not perfection.**
+**Support: Revisit weak outcome with a short task.**
+**Extra challenge: Write one goal for the next unit.**
+
+**TEACHER NOTES**
 
 <!-- page 101 -->
 
@@ -3846,16 +3787,15 @@ green job - work that helps protect or restore the environment
 remote work - working away from a central office, often online
 skills portfolio - a living list of what you can do and are learning
 
-TEACHER NOTES
-
-Objective: Review key terms.
-Do: Quiz oral definitions.
-
-Listen / Correct: Own words, not copy.
-Support: Picture cards.
-Extra challenge: Add one new word from class talk.
-
 Prime School Press · www.primeschool.pt
+
+**TEACHER NOTES**
+
+**Objective: Review key terms.**
+**Do: Quiz oral definitions.**
+**Listen / Correct: Own words, not copy.**
+**Support: Picture cards.**
+**Extra challenge: Add one new word from class talk.**
 
 <!-- page 102 -->
 
@@ -3975,16 +3915,15 @@ Dangerous/precise task vs care/creativity task
 4.4-4.6
 Open; portfolio and enterprise sized for age 10-11
 
-TEACHER NOTES
-
-Objective: Guide answers, not only keys.
-Do: Use after pupils try.
-Listen / Correct: Accept equivalent wording.
-
-Support: n/a
-Extra challenge: n/a
-
 Prime School Press · www.primeschool.pt
+
+**Objective: Guide answers, not only keys.**
+**Do: Use after pupils try.**
+**Listen / Correct: Accept equivalent wording.**
+**Support: n/a**
+**Extra challenge: n/a**
+
+**TEACHER NOTES**
 
 <!-- page 105 -->
 
@@ -4410,7 +4349,6 @@ Prime School Press · www.primeschool.pt
 <!-- page 112 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Global Perspectives

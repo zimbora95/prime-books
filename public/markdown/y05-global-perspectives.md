@@ -158,7 +158,7 @@ Compares life here with life in other places
 Mateo
 Turns ideas into small, kind actions
 
-They are classmates in a Portuguese primary class, now in Year 5. Disagree with their ideas, not with
+They are classmates in a primary class, now in Year 5. Disagree with their ideas, not with
 them.
 
 4
@@ -344,7 +344,7 @@ Think of communication as an equation, not a single word:
 
 words + tone + body language + listening = a message that can be understood
 
-Words are what you choose.
+Words are what you choose to say.
 
 Tone is how the voice sounds: kind, sharp, rushed, calm.
 

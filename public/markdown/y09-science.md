@@ -1,5 +1,5 @@
 # Science - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-science/book.pdf` (55 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-science/book.pdf` (118 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -467,33 +467,33 @@ The lamp becomes hot. Do not touch the bulb and keep water away from the electri
 
 hands after handling pond water.
 
+·
+K E Y W O R D S
+
+**photosynthesis: making glucose from carbon dioxide and water using light.**
+
+**chlorophyll: the green pigment that absorbs light energy.**
+
+**chloroplast: the part of a plant cell where photosynthesis happens.**
+
+**stoma: a tiny pore in a leaf that lets gases in and out. (Plural: stomata.)**
+
+**limiting factor: the factor that is currently restricting the rate.**
+
+·
+K E Y W O R D S
+
+**photosynthesis: making glucose from carbon dioxide and water using light.**
+
+**chlorophyll: the green pigment that absorbs light energy.**
+
+**chloroplast: the part of a plant cell where photosynthesis happens.**
+
+**stoma: a tiny pore in a leaf that lets gases in and out. (Plural: stomata.)**
+
+**limiting factor: the factor that is currently restricting the rate.**
+
 Figure 1.3 Light intensity affects photosynthesis from different distances.
-
-·
-K E Y W O R D S
-
-**photosynthesis: making glucose from carbon dioxide and water using light.**
-
-**chlorophyll: the green pigment that absorbs light energy.**
-
-**chloroplast: the part of a plant cell where photosynthesis happens.**
-
-**stoma: a tiny pore in a leaf that lets gases in and out. (Plural: stomata.)**
-
-**limiting factor: the factor that is currently restricting the rate.**
-
-·
-K E Y W O R D S
-
-**photosynthesis: making glucose from carbon dioxide and water using light.**
-
-**chlorophyll: the green pigment that absorbs light energy.**
-
-**chloroplast: the part of a plant cell where photosynthesis happens.**
-
-**stoma: a tiny pore in a leaf that lets gases in and out. (Plural: stomata.)**
-
-**limiting factor: the factor that is currently restricting the rate.**
 
 <!-- page 13 -->
 
@@ -571,27 +571,27 @@ Poor growth; small, pale yellow leaves
 Magnesium, for making chlorophyll
 Yellowing leaves, often oldest first
 
-**Figure 1.4 How roots take up minerals. Water and**
-dissolved mineral salts enter the ﬁne root hairs just
+**MINERAL**
+**PROVIDES**
+**SIGNS OF SHORTAGE**
+
+**Magnesium**
+Magnesium, for making chlorophyll
+Yellowing leaves, often oldest first
+
+**MINERAL**
+**PROVIDES**
+**SIGNS OF SHORTAGE**
+
+**Magnesium**
+Magnesium, for making chlorophyll
+Yellowing leaves, often oldest first
+
+Figure 1.4 How roots take up minerals. Water and
+dissolved mineral salts enter the ·ne root hairs just
 behind the growing tip. Nitrates supply nitrogen for
 proteins; magnesium ions are needed to make
 chlorophyll.
-
-**MINERAL**
-**PROVIDES**
-**SIGNS OF SHORTAGE**
-
-**Magnesium**
-Magnesium, for making chlorophyll
-Yellowing leaves, often oldest first
-
-**MINERAL**
-**PROVIDES**
-**SIGNS OF SHORTAGE**
-
-**Magnesium**
-Magnesium, for making chlorophyll
-Yellowing leaves, often oldest first
 
 <!-- page 15 -->
 
@@ -1101,31 +1101,37 @@ and electrons it has.
 **U N I T 2 · T O P I C 2 . 1 · P I C T U R E   A N D   A C T I V I T Y**
 ## Inside the atom
 
+**Inside an atom. Almost all of the mass sits in the tiny**
+nucleus at the centre, where protons, marked +, and
+
+neutrons cluster. Electrons, marked −, move around the
+nucleus in shells. In a neutral atom the number of
+electrons equals the number of protons, so the charges
+
+cancel exactly. The atomic number counts the protons
+
+and ﬁxes the element's place in the Periodic Table,
+shown as a fragment in the corner: each row is a
+period, each column a group. The atom drawn here is
+
+carbon: 6 protons and 6 electrons, with 2 in the inner
+
+shell and 4 in the outer. That outer shell of four lets
+carbon bond with up to four other atoms, which is why
+
+carbon forms so many compounds.
+
+**Figure 2.1**
+
 **·  A C T I V I T Y**
 
 **Build a model atom. Choose any element from the ﬁrst twenty of the Periodic Table. Draw its atom,**
 showing the nucleus with the correct numbers of protons and neutrons, and the electrons arranged in
-shells. Label the atomic number and the mass number. Then write two sentences: one on why the
-atom has no overall charge, and one on what makes your element unique in its group.
+shells. Label the atomic number and the mass number. Then write two sentences: one on why the atom
+has no overall charge, and one on what makes your element unique in its group.
 
 **Partner challenge. Swap drawings with a partner. From their diagram alone, work out which element**
 they chose. Check your answer against the Periodic Table.
-
-**Inside an atom. Almost all of the mass sits in the tiny**
-nucleus at the centre, where protons, marked +, and
-neutrons cluster. Electrons, marked −, move around the
-nucleus in shells. In a neutral atom the number of electrons
-equals the number of protons, so the charges cancel
-exactly. The atomic number counts the protons and ﬁxes
-the element's place in the Periodic Table, shown as a
-fragment in the corner: each row is a period, each column
-a group. Notice the carbon atom drawn here: 6 protons and
-6 electrons, with 2 electrons in the inner shell and 4 in the
-outer one. That outer shell of four is what lets carbon bond
-with up to four other atoms, which is why carbon forms so
-many diﬀerent compounds.
-
-**Figure 2.1**
 
 <!-- page 27 -->
 
@@ -1164,7 +1170,8 @@ give a reason.
 
 **3 Give two uses of noble gases and explain why each use depends on their unreactivity.**
 
-Figure 2.3  The Periodic Table: Group 1 (alkali metals), Group 7 (halogens) and Group 0 (noble gases) are colour-coded.
+Figure 2.3  The Perio
+ur-coded.
 
 <!-- page 28 -->
 
@@ -1383,19 +1390,6 @@ the nucleus, and metals lose it more easily while non-metals attract one less st
 **U N I T 2 · T O P I C 2 . 2 · R E A C T I V I T Y**
 ## Why reactivity changes down a group
 
-**Figure 2.4 Comparing the electronic structures of**
-lithium, sodium and potassium. Each atom has a single
-
-electron in its outer shell, but look how much further that
-electron sits from the nucleus each time a new shell is
-added. The pull of the positive nucleus weakens with
-
-distance, and the inner shells shield it too, so the outer
-
-electron is easier and easier to lose.
-
-**Figure 2.4**
-
 **The metals of Groups 1 and 2: reactivity rises. A metal reacts by giving away its outer electrons. Down**
 
 the group, each new period adds a whole shell, so the outer electron is further from the nucleus, and the
@@ -1419,6 +1413,16 @@ attraction is weaker and more shielded. Fluorine's new electron drops into the s
 strong pull, so ﬂuorine is the most reactive non-metal of all; iodine's must reach the ﬁfth shell, far out, so
 
 iodine reacts slowly and gently. The same distance rule decides both groups, but in opposite directions.
+
+Figure 2.4 Comparing the electronic structures of
+lithium, sodium and potassium. Each atom has a single
+electron in its outer shell, but look how much further that
+electron sits from the nucleus each time a new shell is
+added. The pull of the positive nucleus weakens with
+distance, and the inner shells shield it too, so the outer
+electron is easier and easier to lose.
+
+Figure 2.4
 
 <!-- page 32 -->
 
@@ -1503,7 +1507,7 @@ to a soft grey metal and a poisonous green gas.
 
 **3 Water has the formula H₂O. Explain what the formula tells you about a molecule of water.**
 
-**Figure 2.3 A compound**
+Figure 2.3 A compound
 (left) bonds atoms into
 identical molecules; a
 mixture (right) keeps its
@@ -1542,7 +1546,7 @@ is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺
 ions, in every direction, which is why a grain of salt forms
 such perfect little cubes.
 
-**Figure 2.2**
+Figure 2.2
 
 <!-- page 35 -->
 
@@ -1673,12 +1677,12 @@ moving electrons carry energy swiftly from hot end to cold, which is why metals 
 
 make such good pans.
 
-Figure 2.5  Metallic bonding: positive ions in a sea of free electrons.
-
 **T H E   T H R E E   B O N D S   A T   A   G L A N C E**
 
 **Ionic: electrons transferred, ions formed, metal with non-metal. Covalent: electrons shared between two non-**
 **metals. Metallic: electrons donated to a shared sea, metal with metal.**
+
+Figure 2.5  Metallic bonding: positive ions in a sea of free electrons.
 
 <!-- page 39 -->
 
@@ -1826,27 +1830,27 @@ End of Unit 2. In Unit 3 you will turn from matter to energy.
 
 ---
 **U N I T 3**
-## 3
-## Forces and energy
-## Why things sink or float,
-## and where energy really goes
 
-·
+## Forces and energy
+
+Why things sink or float,
+and where energy really goes
+
 **I N   T H I S   U N I T ,   Y O U   W I L L**
 
-·
+**·**
 Define and calculate density
 
-·
+**·**
 Distinguish heat from temperature
 
-·
+**·**
 Apply conservation of energy
 
-·
+**·**
 Describe how thermal energy moves from hot to cold
 
-·
+**·**
 Explain cooling by evaporation
 
 <!-- page 44 -->
@@ -1888,28 +1892,6 @@ measuring cylinder of water and read how far the water level rises.
 <!-- page 45 -->
 
 ---
-**U N I T 3 · T O P I C 3 . 1 · E X P E R I M E N T**
-
-## Finding the density of regular and irregular objects
-
-Figure 3.2  Measuring density: a regular block by ruler, an irregular stone by displacement.
-
-**·  M E T H O D**
-
-**Regular object. Measure the length, width and height of the block with a ruler to the nearest 0.1 cm,**
-and multiply them to ﬁnd the volume in cm³. Place the block on a balance to ﬁnd its mass in grams,
-checking the balance reads 0.0 g ﬁrst. Divide mass by volume to ﬁnd the density.
-
-**Irregular object. Half-ﬁll a measuring cylinder with water and record the starting volume. Lower the**
-stone gently on a thread until it is fully submerged, and record the new volume. The rise in the water
-level equals the stone's volume. Weigh the stone, then divide mass by volume.
-
-**Make it fair. Repeat each measurement three times and use the mean. Read the cylinder at eye level,**
-with your eye level with the bottom of the meniscus, and record results in a table with units.
-
-<!-- page 46 -->
-
----
 **U N I T 3 · T O P I C 3 . 1 · P I C T U R E   A N D   A C T I V I T Y**
 ## Sink or float?
 
@@ -1937,7 +1919,29 @@ weigh exactly the same, showing that a big object can still
 be light if its mass is thinly spread. Size never decides
 ﬂoating; density does.
 
-**Figure 3.1**
+Figure 3.1
+
+<!-- page 46 -->
+
+---
+**U N I T 3 · T O P I C 3 . 1 · E X P E R I M E N T**
+
+## Finding the density of regular and irregular objects
+
+Figure 3.2  Measuring density: a regular block by ruler, an irregular stone by displacement.
+
+**·  M E T H O D**
+
+**Regular object. Measure the length, width and height of the block with a ruler to the nearest 0.1 cm,**
+and multiply them to ﬁnd the volume in cm³. Place the block on a balance to ﬁnd its mass in grams,
+checking the balance reads 0.0 g ﬁrst. Divide mass by volume to ﬁnd the density.
+
+**Irregular object. Half-ﬁll a measuring cylinder with water and record the starting volume. Lower the**
+stone gently on a thread until it is fully submerged, and record the new volume. The rise in the water
+level equals the stone's volume. Weigh the stone, then divide mass by volume.
+
+**Make it fair. Repeat each measurement three times and use the mean. Read the cylinder at eye level,**
+with your eye level with the bottom of the meniscus, and record results in a table with units.
 
 <!-- page 47 -->
 
@@ -2040,6 +2044,71 @@ obeys the same rule, which is why engineers care so much about reducing unwanted
 <!-- page 50 -->
 
 ---
+**U N I T 3 · T O P I C 3 . 3 · E N E R G Y   M A T H S**
+
+## Conservation of energy: input and output
+
+**Energy in must equal energy out. A torch is fed 100 joules of chemical energy from its battery. Of that, 15**
+J leave as useful light; the rest, 85 J, is dissipated as heat. The bookkeeping always balances: input = useful
+
+**output + wasted output. So 100 = 15 + 85. Try the maths yourself. A motor takes in 500 J of electrical**
+
+energy and delivers 350 J of movement. The wasted energy is 500 − 350 = 150 J, all heat. A kettle is 80%
+
+eﬃcient: of 2000 J taken in, useful heating is 0.8 × 2000 = 1600 J, and 400 J is wasted. Eﬃciency is always
+useful energy ÷ total energy, as a percentage.
+
+Figure 3.6  Input energy splitting into useful output and dissipated heat; the totals always balance.
+
+<!-- page 51 -->
+
+---
+**U N I T 3 · T O P I C 3 . 3 · T A B L E**
+
+## Energy stores and their transfers
+
+**Energy stores**
+
+**STORE**
+**WHAT IT IS**
+**EXAMPLE**
+
+kinetic
+energy of movement
+a rolling ball
+
+gravitational
+energy stored by height
+a book on a shelf
+
+chemical
+energy stored in bonds
+food, fuel, batteries
+
+elastic
+energy in stretched things
+a drawn bow
+
+thermal
+energy of hot particles
+warm water, hot air
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+Draw a Sankey diagram for a torch: 100 J of chemical energy in, 15 J of light out and the rest dissipated as
+heat. What fraction of the energy becomes useful light?
+
+**·  A C T I V I T Y**
+
+**Energy circus. Move around stations: a torch, a bouncing ball, a stretched elastic band, a falling mass.**
+For each, name the energy store before, during and after.
+
+**Home audit. List ﬁve transfers of energy in your kitchen yesterday. For each, write the input store and**
+the output store, and identify any dissipated energy.
+
+<!-- page 52 -->
+
+---
 **U N I T 3 · T O P I C 3.4**
 ## Moving from hot to cold
 
@@ -2071,7 +2140,7 @@ was not wanted. The surroundings are always the ﬁnal destination.
 
 **3 Describe the eventual fate of the thermal energy from a hot cup of coﬀee left on a desk.**
 
-<!-- page 51 -->
+<!-- page 53 -->
 
 ---
 **U N I T 3 · T O P I C 3.5**
@@ -2106,7 +2175,35 @@ the Earth.
 
 **3 Give one design feature of a house that reduces each of the three methods of transfer.**
 
-<!-- page 52 -->
+<!-- page 54 -->
+
+---
+**U N I T 3 · T O P I C 3 . 5 · T H E   T H R E E   P R O C E S S E S**
+
+## Conduction, convection and radiation in detail
+
+**1. Conduction passes energy from particle to particle, mainly in solids. The hot end of a metal pan vibrates**
+ﬁercely; each vibrating particle jostles its neighbour, and the energy walks along the metal. Metals conduct
+
+best of all because their loose outer electrons drift, carrying energy swiftly through the whole lattice; wood
+
+and plastic, with no free electrons, barely conduct at all.
+
+**2. Convection moves energy with the ﬂuid itself. Warm air or warm water expands, becomes less dense,**
+
+and rises; cooler, denser ﬂuid sinks to replace it, and a circulating loop forms. It cannot happen in solids,
+where nothing can ﬂow, and it is why heaters are placed low and freezers high in a room.
+
+**3. Radiation needs nothing at all. Every object emits infrared waves, and these travel through empty space**
+
+at the speed of light. The Sun's warmth crosses 150 million kilometres of vacuum to reach your skin. Dull
+black surfaces both emit and absorb radiation best; shiny surfaces reﬂect it away, which is why emergency
+
+blankets are silver.
+
+Figure 3.7  The three roads of thermal energy: conduction along metal, convection in fluids, radiation across space.
+
+<!-- page 55 -->
 
 ---
 **U N I T 3 · T O P I C 3.6**
@@ -2140,7 +2237,72 @@ cool in hot climates by the same trick.
 
 **3 Why does sweating fail to cool you well on a hot, humid day?**
 
-<!-- page 53 -->
+<!-- page 56 -->
+
+---
+**U N I T 3 · T O P I C 3 . 6 · E V A P O R A T I O N**
+
+## Cooling by evaporation: the picture
+
+**Watch the fastest particles leave. Evaporation cools because only the quickest particles at the surface**
+have enough energy to escape into the air. When they go, the average energy of what remains falls, and
+
+lower average energy is exactly what a lower temperature means. Four factors speed the escape:
+
+**temperature (more particles reach escape speed), surface area (more escape routes), wind or draughts**
+
+**(escaping vapour is swept away, so the air never ﬁlls), and humidity (dry air accepts more vapour than**
+damp air). Sweating cools you only when the air can carry the vapour away.
+
+Figure 3.5  Evaporation: the fastest particles escape, and the liquid left behind cools.
+
+<!-- page 57 -->
+
+---
+**U N I T 3 · T O P I C 3 . 2 · T A B L E**
+
+## Comparing heat and temperature
+
+**Heat compared with temperature**
+
+**PROPERTY**
+**TEMPERATURE**
+**HEAT**
+
+What it is
+average particle speed
+energy on the move
+
+Units
+degrees Celsius (°C)
+joules (J)
+
+Measured with
+thermometer
+calculated or calorimeter
+
+Depends on
+nothing else
+mass and temperature both
+
+Direction
+no direction
+always hot to cold
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+A mug and a bath of water are both at 40 °C. A pupil says they contain the same amount of heat. Write
+three sentences correcting them, using the words particles, energy and mass.
+
+**·  A C T I V I T Y**
+
+**Feel the ﬂow. Hold a metal spoon and a wooden spoon in a cup of warm tea. After one minute, touch the**
+tip of each spoon. Explain the diﬀerence using conduction.
+
+**Order the materials. You are given metal, wood, plastic and glass rods. Design a fair test to rank them**
+as conductors, listing the variables you must keep the same.
+
+<!-- page 58 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 5 · P I C T U R E   A N D   A C T I V I T Y**
@@ -2174,9 +2336,9 @@ curved arrows. Use the legend at the foot of the diagram to
 tell the straight heat-ﬂow arrows from the wavy radiation
 and the looping convection currents.
 
-**Figure 3.4**
+Figure 3.4
 
-<!-- page 54 -->
+<!-- page 59 -->
 
 ---
 **G L O S S A R Y**
@@ -2206,7 +2368,1695 @@ destroyed.
 
 End of Unit 3. Follow the energy; it never disappears.
 
-<!-- page 55 -->
+<!-- page 60 -->
+
+---
+**U N I T 4**
+
+## Maintaining life
+
+How plants drink, how bodies stay
+clean, how a fetus grows safe
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Explain how water travels through plants
+
+**·**
+Describe transpiration and what affects it
+
+**·**
+Describe how the human body removes waste
+
+**·**
+Explain what a fetus needs to stay healthy
+
+<!-- page 61 -->
+
+---
+**U N I T 4 · T O P I C 4.1**
+## Plants and water
+
+**Learn**
+
+A plant is a slow fountain. Water enters the roots through root hairs, climbs the stem through narrow tubes
+
+**called xylem, and reaches every leaf. There it has two possible fates: it is used in photosynthesis, or it**
+
+escapes through the stomata as water vapour. The journey is one-way, always upwards, driven from
+
+above rather than pumped from below.
+
+The leaves pull, and the water follows. As water evaporates from the leaf surfaces, it draws more water up
+
+**behind it, rather like sipping through a straw. This pulling force, called the transpiration stream, carries**
+
+dissolved minerals from the soil along with the water, delivering nitrates and magnesium ions to the cells
+
+that need them. Without this stream, a plant could feed itself with sugar but starve for minerals.
+
+**·  Q U E S T I O N S**
+
+**1 Name the tubes that carry water up a plant, and state whether they carry water upwards, downwards**
+or both.
+
+**2 Explain why a plant left without water begins to wilt.**
+
+**3 A plant uses only about two per cent of the water it absorbs. Suggest what happens to the rest.**
+
+<!-- page 62 -->
+
+---
+**U N I T 4 · T O P I C 4 . 1 · F I G U R E**
+
+## Water's journey through the plant
+
+**Follow a drop of water. It enters a root hair, joins the transpiration stream in the xylem, climbs the stem,**
+and arrives in a leaf. There it either joins photosynthesis or evaporates through a stoma. The factors that
+
+**speed transpiration are the same ones that speed evaporation anywhere: bright light (stomata open wide),**
+
+**warm temperature (particles escape faster), moving air or wind (vapour is swept from the surface), and low**
+
+**humidity (dry air accepts more vapour). Dull, still, damp days are the quiet ones for a plant.**
+
+Figure 4.1  The journey of water from root hair to stomata, and the factors that drive transpiration.
+
+<!-- page 63 -->
+
+---
+**U N I T 4 · T O P I C 4.2**
+## Transpiration
+
+**Learn**
+
+**The loss of water vapour from leaves is called transpiration. It happens mostly through the stomata, the**
+
+same pores that let carbon dioxide in. A plant must keep its stomata open to photosynthesise, so every
+
+sugar it makes costs it water.
+
+The rate of transpiration rises and falls with the weather. On a hot, dry, windy, bright day, water evaporates
+
+fast and the plant can lose water quicker than its roots can replace it. On a cool, damp, still evening,
+
+transpiration slows to a trickle. Guard cells can close the stomata to reduce the loss, but a plant that closes
+
+all its pores for long also stops photosynthesising, so it must balance the two needs.
+
+**·  Q U E S T I O N S**
+
+**1 State three weather conditions that increase the rate of transpiration, and explain why each has that**
+eﬀect.
+
+**2 Why can a plant not simply close all its stomata during a drought?**
+
+**3 Suggest why a plant grown in a windy place often has smaller, thicker leaves.**
+
+<!-- page 64 -->
+
+---
+**U N I T 4 · T O P I C 4 . 2 · A C T I V I T Y**
+
+## Investigating transpiration
+
+**·  A C T I V I T Y**
+
+**Bag a leaf. Tie a small clear plastic bag around a leaf on a plant, still on the plant. After an hour in**
+sunlight, look inside. Explain what you see using transpiration.
+
+**Blotting paper test. Wet two strips of blotting paper. Hang one in still air and one in front of a fan. Time**
+how long each stays damp, and explain the diﬀerence.
+
+**Count the stomata. Using nail-varnish peels from both surfaces of the same leaf (as in Activity 1),**
+compare the counts with the rate of water loss from each surface.
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+A plant in a sealed jar still loses water from its leaves, yet the jar eventually fogs up and stays foggy.
+Explain, using evaporation and the air's limit for carrying water vapour, why the plant then stops losing
+water.
+
+<!-- page 65 -->
+
+---
+**U N I T 4 · T O P I C 4.3**
+## Excretion in humans
+
+**Learn**
+
+Every cell in your body makes waste as it works. Carbon dioxide comes from respiration and leaves
+
+through the lungs. But the chemical reactions of life also produce other unwanted products, and the job of
+
+**removing them is excretion.**
+
+**The cleaning organs are the kidneys, two bean-shaped ﬁlters in your lower back. Each kidney receives**
+
+blood through a renal artery, ﬁlters out urea, excess water and excess salts, and returns the cleaned blood
+
+**through a renal vein. The waste liquid, urine, drains to the bladder through tubes called ureters, and**
+
+leaves the body through the urethra.
+
+Urea itself is made by the liver, which takes the harmful ammonia from broken-down proteins and converts
+
+it into the safer urea. Together, liver and kidneys keep the composition of your blood steady, whatever you
+
+eat and drink.
+
+**·  Q U E S T I O N S**
+
+**1 Name the organ that makes urea and the organ that removes it.**
+
+**2 Describe the path a drop of urine takes from a kidney to leaving the body.**
+
+**3 Explain why a person who eats a lot of protein produces more urea.**
+
+<!-- page 66 -->
+
+---
+**U N I T 4 · T O P I C 4 . 3 · T A B L E**
+
+## The excretory system at a glance
+
+**Organs of excretion**
+
+**ORGAN**
+**JOB**
+**WASTE REMOVED**
+
+lungs
+gas exchange
+carbon dioxide
+
+liver
+chemical conversion
+ammonia to urea
+
+kidneys
+filtering blood
+urea, water, salts
+
+skin
+sweating
+water, salts, some urea
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+A patient's kidneys stop working. Explain, using the job of the kidneys, why the level of urea in the blood
+rises, and name the treatment that replaces the kidneys' ﬁltering.
+
+**·  A C T I V I T Y**
+
+**Model the kidney. Build a ﬁlter model: pour a mixture of water, salt and sand through ﬁlter paper. Which**
+parts represent blood, urea and the kidney's useful return to the blood?
+
+<!-- page 67 -->
+
+---
+**U N I T 4 · T O P I C 4.4**
+## Keeping a fetus healthy
+
+**Learn**
+
+A developing baby depends entirely on its mother. Everything it needs, oxygen, glucose, water and
+
+**minerals, arrives through the placenta, a ﬂat, blood-rich organ that grows with the fetus. The mother's**
+
+blood and the baby's blood ﬂow close beside each other in the placenta but never mix; substances simply
+
+diﬀuse across.
+
+Waste travels the other way: carbon dioxide and urea pass from the fetus into the mother's blood for her
+
+lungs and kidneys to deal with. The umbilical cord, containing two arteries and a vein, is the baby's lifeline
+
+to the placenta.
+
+Because the fetus shares whatever the mother takes in, smoking, alcohol and certain medicines can harm
+
+its development. Good nutrition, especially folic acid in the early weeks, builds a healthy brain and spine.
+
+The mother's own health, from her diet to her infections, is the baby's environment for nine months.
+
+**·  Q U E S T I O N S**
+
+**1 Name the structure that allows substances to pass between mother and fetus, and explain why the**
+two bloodstreams do not mix.
+
+**2 Explain how the fetus gets rid of its waste, given that its own lungs and kidneys are not yet working.**
+
+**3 Give two substances a pregnant woman is advised to avoid, and explain how each could harm the**
+fetus.
+
+<!-- page 68 -->
+
+---
+**U N I T 4 · F I G U R E S**
+
+## Cleaning the blood, growing the baby
+
+**Left: the excretory team. The lungs expel carbon dioxide, the liver converts harmful ammonia to urea, and**
+the kidneys ﬁlter urea, water and salts from the blood, sending urine to the bladder. Every organ keeps the
+
+blood's composition steady.
+
+**Right: keeping a fetus healthy. The placenta trades substances between mother and baby: oxygen,**
+glucose and nutrients pass in; carbon dioxide and urea pass out. The mother's choices reach the baby
+
+through this exchange, which is why good food, folic acid and avoiding smoke and alcohol matter so much.
+
+Figure 4.2  The excretory organs, and the placenta's two-way trade between mother and fetus.
+
+<!-- page 69 -->
+
+---
+**G L O S S A R Y**
+
+Unit 4 · Maintaining life
+
+**xylem: the tubes that carry water and dissolved minerals up a plant.**
+
+**transpiration: the loss of water vapour from leaves, mostly through stomata.**
+
+**transpiration stream: the unbroken column of water drawn up from roots to leaves.**
+
+**excretion: removal of the waste products made by the body's cells.**
+
+**urea: the harmless form of waste nitrogen made by the liver.**
+
+**kidney: the organ that ﬁlters urea, water and salts from the blood.**
+
+**urine: the waste liquid made by the kidneys.**
+
+**placenta: the organ that exchanges substances between mother and fetus.**
+
+**umbilical cord: the tube linking the fetus to the placenta.**
+
+End of Unit 4. In Unit 5 you will meet the most reactive metals.
+
+<!-- page 70 -->
+
+---
+**U N I T 5**
+
+## Reactivity
+
+Which metals fight hardest,
+and how to make salts
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Order metals by their reactivity
+
+**·**
+Explain and predict displacement reactions
+
+**·**
+Describe how acids and alkalis make salts
+
+**·**
+Write word equations for reactions
+
+**·**
+Explain how atoms rearrange in reactions
+
+## U N I T 55
+## Reactivity
+
+Which metals fight hardest,
+and how to make salts
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Order metals by their reactivity
+
+**·**
+Explain and predict displacement reactions
+
+**·**
+Describe how acids and alkalis make salts
+
+**·**
+Write word equations for reactions
+
+**·**
+Explain how atoms rearrange in reactions
+
+<!-- page 71 -->
+
+---
+**U N I T 5 · T O P I C 5.2**
+## Using the reactivity series and displacement reactions
+
+**Learn**
+
+Displacement is more than a demonstration; it is a tool. An unknown metal can be identiﬁed by testing
+
+which solutions it displaces and which it does not. If a grey metal strips copper from copper sulfate but
+
+leaves zinc sulfate untouched, it must sit between copper and zinc in the series.
+
+Industry uses the same trick on a grand scale. Scrap iron is used to recover copper from copper sulfate-
+
+rich waste water: cheap iron displaces valuable copper. Very reactive metals such as potassium and
+
+sodium are never displaced by anything cheaper, which is why extracting them from their ores needs
+
+electricity instead.
+
+**·  Q U E S T I O N S**
+
+**1 A metal displaces copper from copper sulfate but not zinc from zinc sulfate. What can you conclude**
+about the metal?
+
+**2 Explain why iron can be extracted from its ore with carbon, but potassium cannot.**
+
+**3 Design a simple experiment to place an unknown metal in the reactivity series.**
+
+<!-- page 72 -->
+
+---
+**U N I T 5 · T O P I C 5 . 2 · T A B L E**
+
+## The reactivity series
+
+**Metals from most to least reactive**
+
+**METAL**
+**REACTIVITY**
+**EVIDENCE**
+
+potassium
+very high
+ignites on water
+
+sodium
+very high
+fizzes violently
+
+calcium
+high
+steady fizz on water
+
+magnesium
+high
+bright flame in acid
+
+zinc
+medium
+slow fizz in acid
+
+iron
+lower
+rusts in damp air
+
+copper
+low
+no reaction with acid
+
+gold
+lowest
+found as the metal
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+Iron is more reactive than copper. Predict what happens when iron ﬁlings are added to copper sulfate
+solution, write the word equation, and explain the colour change you would observe.
+
+**·  A C T I V I T Y**
+
+**Displacement detective. You are given an unknown grey metal and three solutions: copper sulfate, zinc**
+sulfate and iron sulfate. Describe how you would use displacement tests to place the metal in the
+reactivity series, and what each possible result would tell you.
+
+<!-- page 73 -->
+
+---
+**U N I T 5 · T O P I C 5.3**
+## Salts
+
+**Learn**
+
+Acids and alkalis are opposites, and when they meet they neutralise each other. The products are always
+
+**the same two things: a salt and water. Hydrochloric acid neutralised by sodium hydroxide gives sodium**
+
+chloride, common salt, plus water.
+
+Every salt takes its name from its two parts. The metal comes ﬁrst, sodium, magnesium, copper, and the
+
+acid gives the rest: hydrochloric acid makes chlorides, sulfuric acid makes sulfates, nitric acid makes
+
+nitrates. Salts are useful compounds: fertilisers, bath salts, medicines and baking soda are all salts.
+
+**How much acid and alkalis to mix is judged with an indicator. Add drops of indicator to the acid, then**
+
+trickle in alkali until the colour shows the mixture is neutral, neither acidic nor alkaline. That point of exact
+
+balance is the endpoint.
+
+**·  Q U E S T I O N S**
+
+**1 Write the word equation for sulfuric acid neutralising sodium hydroxide.**
+
+**2 Name the salt made by nitric acid neutralising potassium hydroxide.**
+
+**3 Why is an indicator needed when making a salt by neutralisation?**
+
+<!-- page 74 -->
+
+---
+**U N I T 5 · T O P I C 5.4**
+## Other ways of making salts
+
+**Learn**
+
+Neutralisation is only one route to a salt. Acids also react with metals, giving a salt and hydrogen gas, so
+
+zinc and sulfuric acid give zinc sulfate and hydrogen. Acids react with bases, insoluble metal oxides and
+
+hydroxides, giving salt and water. And acids react with carbonates, giving salt, water and carbon dioxide,
+
+the ﬁzz of vinegar on chalk or sherbet.
+
+Choosing the method depends on the metal. Very reactive metals like potassium react dangerously with
+
+acids, and unreactive ones like copper do not react at all. But copper oxide plus warm sulfuric acid works
+
+nicely: the black powder disappears into a blue solution of copper sulfate. To collect pure salt crystals, the
+
+solution is evaporated slowly so the crystals have time to grow neat and large.
+
+**·  Q U E S T I O N S**
+
+**1 Write the word equation for copper oxide reacting with sulfuric acid.**
+
+**2 Describe the observations when hydrochloric acid is added to calcium carbonate.**
+
+**3 Why is copper metal useless for making copper sulfate, while copper oxide works well?**
+
+<!-- page 75 -->
+
+---
+**U N I T 5 · T O P I C 5 . 3 · I N D I C A T O R S**
+
+## Indicators and their colour changes
+
+**An indicator is a dye that changes colour depending on whether it meets acid or alkali. It is the referee**
+of neutralisation: drop it in, watch the colour, and you know instantly which side of neutral you are on. Diﬀerent
+
+indicators switch colour at diﬀerent points, so chemists choose the one that suits the job, or use universal
+indicator, which is a mixture blended to show the whole pH range from strong red acid to deep purple alkali.
+
+**The common indicators and their colours**
+
+**INDICATOR**
+**IN ACID**
+**NEUTRAL**
+**IN ALKALI**
+
+litmus
+red
+purple
+blue
+
+methyl orange
+red
+orange
+yellow
+
+phenolphthalein
+colourless
+colourless
+pink
+
+universal indicator
+red
+green
+purple
+
+Colour swatches: acid, neutral and alkali colours for each indicator, left to right.
+
+**Choosing an indicator. For a rough check, litmus alone will do: red means acid, blue means alkali. For titration**
+work, chemists pick an indicator that changes sharply at the endpoint, such as methyl orange or phenolphthalein.
+
+For the fullest picture, universal indicator carries a whole colour chart with it, matched to pH numbers 0 to 14, where
+
+7 is neutral, below 7 acid and above 7 alkaline.
+
+Figure 5.2  Common indicators shown in acid (top row) and in alkali (bottom row).
+
+<!-- page 76 -->
+
+---
+**U N I T 5 · F I G U R E S**
+
+## Making salts and spotting displacement
+
+**Making salts by word equation. Every salt-making route is a word equation. Acid + alkali: hydrochloric acid**
++ sodium hydroxide gives sodium chloride + water. Acid + metal oxide: sulfuric acid + copper oxide gives
+
+copper sulfate + water. Acid + carbonate: hydrochloric acid + calcium carbonate gives calcium chloride +
+
+water + carbon dioxide. Acid + metal: sulfuric acid + zinc gives zinc sulfate + hydrogen. Choose the route
+
+that reacts safely, then evaporate the solution slowly to grow crystals.
+
+**Spotting displacement. Only a more reactive metal can push out a less reactive one. Iron in copper sulfate**
+works: the blue fades and brown copper coats the nail. Copper in zinc sulfate does nothing, because copper
+
+sits below zinc in the series.
+
+Figure 5.1  Salt-making routes, and a displacement that works beside one that does not.
+
+<!-- page 77 -->
+
+---
+**U N I T 5 · T O P I C 5.5**
+## Rearranging atoms
+
+**Learn**
+
+In every reaction you have met, atoms have not appeared or vanished; they have simply changed
+
+partners. Magnesium displacing copper is really magnesium atoms handing electrons to copper ions. Acid
+
+neutralising alkalis is hydrogen ions joining hydroxide ions to make water molecules, leaving sodium and
+
+chloride to pair up.
+
+**This is the ﬁrst law of chemistry: atoms are conserved. Whatever enters a reaction leaves it, in some**
+
+arrangement or other. That is why chemical equations can be balanced: the same number of each type of
+
+atom must stand on each side of the arrow. Nothing is lost; everything is rearranged.
+
+**·  Q U E S T I O N S**
+
+**1 In a reaction, 12 g of magnesium reacts with 8 g of oxygen. What is the mass of magnesium oxide**
+formed, and why?
+
+**2 Why must every chemical equation be balanced?**
+
+**3 Name the atoms that end up in water when an acid neutralises an alkali, and say where each came**
+from.
+
+<!-- page 78 -->
+
+---
+**G L O S S A R Y**
+
+Unit 5 · Reactivity
+
+**reactivity series: the metals listed from most to least reactive.**
+
+**displacement reaction: a more reactive metal pushing a less reactive one out of its compound.**
+
+**neutralisation: acid plus alkali giving salt and water.**
+
+**salt: the compound made when an acid reacts with a metal or base.**
+
+**indicator: a substance that changes colour to show acid, alkali or neutral.**
+
+**endpoint: the exact point where neutralisation is complete.**
+
+**conservation of atoms: atoms are never created or destroyed, only rearranged.**
+
+End of Unit 5. In Unit 6 you will travel from sound waves to nebulae.
+
+<!-- page 79 -->
+
+---
+**U N I T 6**
+
+## Sound and space
+
+From ripples of air
+to the birth of stars
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Explain loudness and pitch of sound
+
+**·**
+Describe interference of sound waves
+
+**·**
+Explain how the Moon formed
+
+**·**
+Describe nebulae and star birth
+
+**·**
+Describe how tectonic plates move
+
+<!-- page 80 -->
+
+---
+**U N I T 6 · T O P I C 6.1**
+## Loudness and pitch of sound
+
+**Learn**
+
+Sound is a vibration travelling. A drum skin pushes air molecules together, then lets them spread; the
+
+**crowd-then-gap pattern ripples outwards as a sound wave. Two properties describe the wave. Its**
+
+amplitude, the size of the vibration, sets the loudness: strike harder, and the wave grows taller. Its
+
+frequency, the number of vibrations each second, sets the pitch: more vibrations per second, and the note
+
+sounds higher.
+
+Frequency is measured in hertz (Hz). A young ear can hear from about 20 Hz, a low rumble, up to 20 000
+
+Hz, a thin whine. Loudness is measured in decibels (dB), and prolonged exposure above about 85 dB
+
+damages hearing, which is why ear defenders matter near machinery and loud music.
+
+**·  Q U E S T I O N S**
+
+**1 State what property of a sound wave controls loudness, and what controls pitch.**
+
+**2 A guitar string is tightened. Explain what happens to its frequency and its pitch.**
+
+**3 Explain why ear defenders reduce the risk of hearing damage.**
+
+<!-- page 81 -->
+
+---
+**U N I T 6 · T O P I C 6 . 1 · F I G U R E S**
+
+## Reading sound waves
+
+**Loudness lives in the height. Draw a sound wave as a wiggly line, and the size of the wiggle, the**
+**amplitude, is the loudness: strike harder and the line climbs taller. Pitch lives in the spacing. Peaks**
+
+crowded close together mean high frequency in hertz and a high note; peaks spread wide mean low
+
+frequency and a low rumble. Reading any wave diagram is just asking two questions: how tall, and how
+
+crowded?
+
+Figure 6.1  Amplitude controls loudness; frequency controls pitch.
+
+<!-- page 82 -->
+
+---
+**U N I T 6 · T O P I C 6 . 1 · F I G U R E**
+
+## Frequency on a graph
+
+**Counting the peaks. A frequency graph plots the to-and-fro movement of air (displacement) against time.**
+Each full wiggle, from peak down through the middle to the next peak, is one cycle, and the distance
+
+between neighbouring peaks is the wavelength. Frequency counts how many cycles pass each second: 50
+
+cycles a second is 50 hertz, a low hum; 1000 hertz has peaks twenty times more crowded, and sounds a ﬁfth
+
+of an octave higher. The three curves here show the same time window: the taller the wave, the louder; the
+more crowded the peaks, the higher the pitch. Reading a frequency graph is just counting peaks per second
+
+and measuring the height.
+
+Figure 6.7  Three notes of rising frequency: 50 Hz, 200 Hz and 1000 Hz.
+
+<!-- page 83 -->
+
+---
+**U N I T 6 · T O P I C 6 . 1 · T A B L E**
+
+## Comparing sounds
+
+**Loudness and pitch**
+
+**PROPERTY**
+**CONTROLLED BY**
+**UNIT**
+**CHANGES WHEN...**
+
+loudness
+amplitude of wave
+decibels (dB)
+you strike harder
+
+pitch
+frequency of wave
+hertz (Hz)
+you tighten the string
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+A guitar string plays a note. Predict two changes that each raise the pitch, and one change that raises the
+loudness without changing the pitch.
+
+**·  A C T I V I T Y**
+
+**Bottle organ. Fill ﬁve bottles with diﬀerent depths of water and blow across the tops. Explain, using the**
+air column left, why the pitch changes.
+
+**Ruler twang. Hold a ruler on the edge of a desk, twang it, then shorten the overhang. Describe what**
+happens to pitch and why.
+
+<!-- page 84 -->
+
+---
+**U N I T 6 · T O P I C 6.2**
+## Interference of sound
+
+**Learn**
+
+Sound waves from two sources can meet and mix. Where two crests arrive together, they add to a louder
+
+**sound; where a crest meets a gap, they cancel to silence. This adding and cancelling is interference.**
+
+You can hear it with two loudspeakers playing the same tone: walk across the room and the sound swells
+
+**and fades as your ears pass through loud and quiet patches, called interference fringes. The quiet**
+
+patches are not missing sound; they are places where the waves have arrived perfectly out of step. Noise-
+
+cancelling headphones use the same idea deliberately, generating a wave exactly out of step with the
+
+incoming noise so the two cancel.
+
+**·  Q U E S T I O N S**
+
+**1 Describe what causes the quiet patches heard when walking between two speakers.**
+
+**2 Explain how noise-cancelling headphones use interference.**
+
+**3 Why can two sounds of the same loudness sometimes produce silence at one spot?**
+
+<!-- page 85 -->
+
+---
+**U N I T 6 · T O P I C 6 . 2 · F I G U R E**
+
+## Interference: waves meeting waves
+
+**Where the circles cross. Each speaker throws out circles of compression. Where two compressions meet,**
+the sound is louder; where a compression meets a rarefaction, they cancel and the sound is quiet. Walk
+
+across the room and your ears cross the stripes of loud and silence, spaced about a wavelength apart. The
+
+same adding and cancelling is what noise-cancelling headphones exploit, generating waves exactly out of
+
+step with the noise.
+
+Figure 6.2  Two speakers' waves overlapping into louder and quieter regions.
+
+<!-- page 86 -->
+
+---
+**U N I T 6 · T O P I C 6.3**
+## Formation of the Moon
+
+**Learn**
+
+The Moon's birth was violent. The best-supported theory says that around 4.5 billion years ago, a Mars-
+
+sized body, sometimes called Theia, struck the young Earth a glancing blow. The collision threw a ring of
+
+molten and vaporised rock into orbit around the Earth.
+
+Over time, gravity pulled that ring together into a single body: the Moon. The evidence ﬁts. Moon rock
+
+matches Earth rock closely in some elements, as if they were once the same material, but diﬀers in the
+
+lighter elements that a hot collision would boil away. And the Moon is surprisingly large for a moon, just
+
+what a giant impact would produce.
+
+**·  Q U E S T I O N S**
+
+**1 Describe the giant impact theory of the Moon's formation.**
+
+**2 State two pieces of evidence that support the theory.**
+
+**3 Why is the Moon's size, compared with Earth's, a clue to its origin?**
+
+<!-- page 87 -->
+
+---
+**U N I T 6 · T O P I C 6 . 3 · F I G U R E**
+
+## The Moon's violent beginning
+
+**Four stages, one collision. First, the young Earth circled the Sun alone. Then Theia, a body the size of**
+Mars, struck a glancing blow. The splash threw a ring of molten rock into orbit, and gravity slowly gathered
+
+that ring into the Moon. The evidence, matching yet not identical rock, the Moon's large size, its small iron
+
+core, all points to this single catastrophe about 4.5 billion years ago.
+
+Figure 6.3  The giant impact: Earth, collision, debris ring, Moon.
+
+<!-- page 88 -->
+
+---
+**U N I T 6 · T O P I C 6.4**
+## Nebulae
+
+**Learn**
+
+**Between the stars ﬂoat vast clouds of gas and dust, trillions of kilometres across, called nebulae. Most of**
+
+a nebula is hydrogen, the simplest atom, sprinkled with dust. Some nebulae glow in bright colours where
+
+nearby stars light them up; others are dark silhouettes blocking the stars behind.
+
+Nebulae are the cradles of stars. Where a cloud becomes dense enough, its own gravity pulls it inwards,
+
+the core grows hotter and hotter, and eventually hydrogen begins to fuse: a star switches on. The leftover
+
+dust can gather into planets, which is exactly how our Sun and Earth began. Every heavy atom in your
+
+body was forged in an earlier star and drifted through a nebula before reaching you.
+
+**·  Q U E S T I O N S**
+
+**1 What are nebulae made of, and what do they eventually become?**
+
+**2 Describe the process by which a nebula gives birth to a star.**
+
+**3 Explain the statement: every heavy atom in your body was made inside a star.**
+
+<!-- page 89 -->
+
+---
+**U N I T 6 · T O P I C 6 . 4 · F I G U R E**
+
+## The birthplace of stars
+
+**From cloud to star in four steps. A nebula's own gravity pulls its gas inward. The core contracts, grows**
+denser and hotter. When the centre reaches about ten million degrees, hydrogen nuclei begin to fuse, and a
+
+star switches on. Leftover dust in the spinning disc gathers into planets. Our Sun began exactly this way, and
+
+every atom heavier than helium in your body was made in an earlier, exploded star.
+
+Figure 6.4  A nebula contracting until fusion ignites a new star.
+
+<!-- page 90 -->
+
+---
+**U N I T 6 · T O P I C 6.5**
+## Tectonics
+
+**Learn**
+
+The Earth's surface is a jigsaw of rigid plates riding on a slowly moving layer beneath. Driven by heat rising
+
+from deep inside the planet, the plates creep a few centimetres each year, about as fast as ﬁngernails
+
+**grow. Their slow shuﬄe is tectonics.**
+
+Where plates meet, the ground shows it. Plates pulling apart open new oceans and let volcanoes rise
+
+along the crack. Plates crashing together push up mountain ranges, the Himalayas still rising from India
+
+colliding with Asia. Plates scraping past each other snag, stick, then jolt free: an earthquake. Portugal sits
+
+near a boundary in the Atlantic, which is why it felt the great earthquake of 1755 and still trembles
+
+occasionally today.
+
+**·  Q U E S T I O N S**
+
+**1 State what drives the movement of tectonic plates, and how fast they move.**
+
+**2 Explain how mountains such as the Himalayas form.**
+
+**3 Why does Portugal experience earthquakes? Refer to plate boundaries.**
+
+<!-- page 91 -->
+
+---
+**U N I T 6 · T O P I C 6 . 5 · F I G U R E**
+
+## Three kinds of plate boundary
+
+**Plates meet three ways. Where plates collide, one dives beneath the other and the crumple raises**
+**mountains, with volcanoes above the diving plate. Where plates pull apart, magma rises to ﬁll the gap and**
+
+**new ocean ﬂoor forms. Where plates scrape past each other, they snag and store energy, releasing it as**
+
+earthquakes. Portugal's mainland and Azores sit near the boundary where Africa meets Europe and the
+
+Atlantic opens, hence its earthquakes and volcanoes.
+
+Figure 6.5  Colliding, separating and sliding plates, and what each produces.
+
+<!-- page 92 -->
+
+---
+**U N I T 6 · T O P I C 6 . 5 · F I G U R E**
+
+## The world's tectonic plates
+
+**The Earth's jigsaw mapped. The plates cover the whole globe, and their edges are where all the action**
+happens. The Mid-Atlantic Ridge runs down the middle of the Atlantic, where plates pull apart and new sea
+
+ﬂoor forms; Iceland sits on it, splitting slowly in two. Around the Paciﬁc, the Ring of Fire traces plates
+
+colliding with their neighbours, feeding volcanoes from Japan to Chile. The African plate is rifting apart along
+
+the East African valley, and the Mediterranean shrinks each year as Africa pushes into Europe, the slow
+crunch that raised Portugal's neighbour, Spain's Sierra Nevada. Every boundary on the map is a plate edge;
+
+everywhere else is stable ground.
+
+Figure 6.6  The major plates and the direction each is moving.
+
+<!-- page 93 -->
+
+---
+**G L O S S A R Y**
+
+Unit 6 · Sound and space
+
+**amplitude: the size of a vibration; it sets loudness.**
+
+**frequency: vibrations per second, in hertz; it sets pitch.**
+
+**decibel: the unit of loudness of a sound.**
+
+**interference: waves adding to make louder sound or cancelling to silence.**
+
+**nebula: a vast cloud of gas and dust where stars are born.**
+
+**tectonic plate: one of the moving slabs that carry continents.**
+
+**earthquake: the jolt released when plates that were snagged suddenly move.**
+
+End of Unit 6. In Unit 7 you will unwrap the instruction manual of life.
+
+<!-- page 94 -->
+
+---
+**U N I T 7**
+
+## Genes and inheritance
+
+The instruction manual of life,
+handed down and shuffled
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Describe chromosomes, genes and DNA
+
+**·**
+Explain how gametes pass on inheritance
+
+**·**
+Explain variation between individuals
+
+**·**
+Describe natural selection
+
+<!-- page 95 -->
+
+---
+**U N I T 7 · T O P I C 7.1**
+## Chromosomes, genes and DNA
+
+**Learn**
+
+Inside the nucleus of almost every one of your cells sit the instructions for building you. The instructions
+
+**are written in DNA, a famous twisted-ladder molecule, the double helix. A DNA molecule carries a code**
+
+written in just four chemical letters, and the order of those letters spells out how to build every protein your
+
+body needs.
+
+**DNA is not loose in the nucleus; it is coiled into sturdy parcels called chromosomes. Humans have 46 of**
+
+**them, in 23 pairs, one of each pair from your mother and one from your father. A gene is a stretch of DNA**
+
+along a chromosome that carries the instructions for one feature, say eye colour or tongue-rolling. Diﬀerent
+
+**versions of the same gene are called alleles.**
+
+Figure 7.1  From cell to DNA: chromosomes in the nucleus unpack into the double helix.
+
+**·  Q U E S T I O N S**
+
+**1 Describe the relationship between DNA, genes and chromosomes.**
+
+**2 How many chromosomes does a human body cell contain, and where did each one come from?**
+
+**3 What is the diﬀerence between a gene and an allele?**
+
+<!-- page 96 -->
+
+---
+**U N I T 7 · T O P I C 7.2**
+## Gametes and inheritance
+
+**Learn**
+
+**Sex cells, or gametes, are made diﬀerently from all other cells. A sperm or an egg receives only half the**
+
+chromosomes, 23, one chosen from each pair. When sperm meets egg at fertilisation, the two halves join,
+
+**and the single new cell, the zygote, has the full 46 again, half from each parent.**
+
+This is why you inherit your features the way you do: one allele of every gene from your mother, one from
+
+your father. Which of each pair ends up in a particular sperm or egg is pure chance, like shuﬄing a deck
+
+and dealing half. That is why brothers and sisters from the same parents can look quite diﬀerent, and why
+
+every person, except identical twins, is genetically unique.
+
+**·  Q U E S T I O N S**
+
+**1 Explain why gametes must contain only 23 chromosomes.**
+
+**2 What is a zygote, and how many chromosomes does it contain?**
+
+**3 Two parents have brown eyes but their child has blue eyes. Explain how this can happen, using the**
+idea of alleles.
+
+Figure 7.2  Fertilisation: 23 chromosomes from each gamete join into 46 in the zygote.
+
+<!-- page 97 -->
+
+---
+**U N I T 7 · T O P I C 7 . 2 · A C T I V I T Y**
+
+## Coin-toss inheritance
+
+**·  A C T I V I T Y**
+
+**Coin toss genes. Take two coins. Heads = allele for tall (T), tails = allele for short (t). One coin is the**
+father's gamete, one the mother's. Toss both and record the child's pair: TT, Tt or tt. Repeat 20 times and
+tally the results.
+
+**Pool the class. Combine everyone's tallies. Compare the ratio of tall to short children with the expected**
+three tall to one short, and discuss why small samples wander.
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+Two tall parents (Tt) can have a short child (tt), but two short parents cannot have a tall one. Use alleles to
+explain both statements.
+
+<!-- page 98 -->
+
+---
+**U N I T 7 · T O P I C 7.3**
+## Variation
+
+**Learn**
+
+No two pupils in your class are identical. Some diﬀerences between individuals, like eye colour or blood
+
+**group, come only from the genes they inherited: this is inherited variation. Others, like scars, haircuts or**
+
+**a tan, come from the environment: environmental variation. Most human features, height, weight, skin**
+
+colour, intelligence, are a blend of both.
+
+Plant a row of identical seeds and grow them in diﬀerent conditions, and the inherited variation shows
+
+itself: same genes, yet the poorly watered seedling grows stunted while the well-fed one ﬂourishes.
+
+Variation matters because it gives natural selection something to work on. A population of clones has no
+
+variation, so a single disease can wipe it out entirely.
+
+**·  Q U E S T I O N S**
+
+**1 Give one example of inherited variation and one of environmental variation in humans.**
+
+**2 Why is height in humans described as both inherited and environmental?**
+
+**3 Explain why a ﬁeld of genetically identical banana plants is at risk from disease.**
+
+Figure 7.3  Inherited variation in traits, and environmental variation in growth.
+
+<!-- page 99 -->
+
+---
+**U N I T 7 · T O P I C 7.4**
+## Natural selection
+
+**Learn**
+
+Darwin's great idea is simple enough to state in one line: individuals with features that suit their
+
+surroundings survive and reproduce more, so those features become more common. Over many
+
+**generations, this slow ﬁlter reshapes a species. He called it natural selection.**
+
+Consider bacteria exposed to an antibiotic. A few, by chance, carry a gene that resists the drug. They
+
+survive while the others die, and their descendants inherit the resistance. Within a few generations the
+
+whole population is resistant, not because any bacterium chose to change, but because the survivors were
+
+the ones that bred. The same ﬁlter acting over millions of years has produced every living thing, including
+
+us.
+
+**·  Q U E S T I O N S**
+
+**1 Describe, in four steps, how antibiotic resistance develops in bacteria.**
+
+**2 Why is variation essential for natural selection to work?**
+
+**3 Suggest why natural selection is sometimes described as 'survival of the ﬁttest', and why that phrase**
+can mislead.
+
+Figure 7.4  Natural selection in bacteria: resistance spreads through survival.
+
+<!-- page 100 -->
+
+---
+**G L O S S A R Y**
+
+Unit 7 · Genes and inheritance
+
+**DNA: the molecule carrying the genetic code, a double helix.**
+
+**chromosome: a parcel of coiled DNA; humans have 46 in 23 pairs.**
+
+**gene: a stretch of DNA carrying instructions for one feature.**
+
+**allele: one version of a gene.**
+
+**gamete: a sex cell, sperm or egg, with half the chromosomes.**
+
+**zygote: the single cell formed when sperm meets egg.**
+
+**inherited variation: diﬀerences caused by the genes passed from parents.**
+
+**natural selection: better-suited individuals survive and pass on their features.**
+
+End of Unit 7, and of the Student Book. Follow the carbon, and the genes.
+
+<!-- page 101 -->
+
+---
+
+<!-- page 102 -->
+
+---
+**U N I T 8**
+
+## Rates of reaction
+
+How fast chemicals change,
+and what speeds them up
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Measure the rate of a reaction
+
+**·**
+Explain how surface area affects rate
+
+**·**
+Explain how temperature affects rate
+
+**·**
+Explain how concentration affects rate
+
+<!-- page 103 -->
+
+---
+**U N I T 8 · T O P I C 8.1**
+## Measuring rates of reaction
+
+**Learn**
+
+Some reactions ﬁnish in a ﬂash; a ﬁrework is over in seconds. Others, like iron rusting, take years. The
+
+**speed of a chemical change is its rate of reaction: how quickly the reactants are used up, or how quickly**
+
+the products appear.
+
+Rate can be measured in several ways, depending on the reaction. If a gas is produced, collect it in a
+
+syringe and record its volume every ten seconds. If the mixture turns cloudy, time how long it takes to hide
+
+a mark drawn behind the ﬂask. If a colour fades or deepens, a sensor can track it. Plot the results as a
+
+graph of amount against time, and the steepness of the line is the rate: steep means fast, ﬂattening means
+
+slowing as the reactants run out.
+
+**·  Q U E S T I O N S**
+
+**1 State two diﬀerent methods for measuring the rate of a reaction.**
+
+**2 Sketch a graph of gas volume against time for a reaction that starts fast and slows down, and explain**
+its shape.
+
+**3 Why does the rate of a reaction fall as the reaction proceeds?**
+
+<!-- page 104 -->
+
+---
+**U N I T 8 · T O P I C 8 . 1 · F I G U R E**
+
+## Reading a rate graph
+
+**The steepness is the speed. Collect the gas from a reaction and plot its volume every ten seconds. At the**
+start the line is steep: collisions are frequent because reactant particles are plentiful. As the reaction
+
+proceeds the line bends and ﬂattens, because the reactants are running out. Two experiments on one graph
+
+tell the whole story: the powder curve is steeper but the lump curve ﬁnishes at the same height, showing that
+
+rate changes while the total amount does not.
+
+Figure 8.1  Two rate curves: same finish, different speeds.
+
+<!-- page 105 -->
+
+---
+**U N I T 8 · T O P I C 8.2**
+## Surface area and rate
+
+**Learn**
+
+A lump of marble sits in acid barely ﬁzzing. Powder the same lump and the acid erupts. Same marble,
+
+**same acid, same mass, wildly diﬀerent speeds. The diﬀerence is surface area.**
+
+Reactions happen only where particles collide. A lump exposes only its outer skin to the acid; the atoms
+
+inside are locked away, waiting their turn. Powdering the lump exposes nearly every atom at once, so far
+
+more collisions happen each second, and the reaction races. This is why ﬂour dust in a mill can explode
+
+while a bag of ﬂour merely burns, and why cutting food into small pieces cooks it faster.
+
+**·  Q U E S T I O N S**
+
+**1 Explain, using particle collisions, why powdered marble reacts faster with acid than one large lump.**
+
+**2 Why is a powder sometimes dangerous where the solid lump is safe? Use ﬂour as an example.**
+
+**3 Give one everyday example where increasing surface area speeds up a useful process.**
+
+<!-- page 106 -->
+
+---
+**U N I T 8 · T A B L E**
+
+## Factors that change reaction rates
+
+**Rate factors and their effects**
+
+**FACTOR**
+**EFFECT ON RATE**
+**WHY**
+
+surface area
+increases
+more exposed particles to collide
+
+temperature
+increases
+faster, harder collisions
+
+concentration
+increases
+more particles in the same space
+
+catalyst
+increases
+lowers the energy needed
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+A reaction doubles in rate for every 10 °C rise. Starting at 20 °C, estimate the rate at 40 °C compared with
+the start, showing your reasoning.
+
+**·  A C T I V I T Y**
+
+**Eﬀervescence timing. Drop one whole tablet and one crushed tablet of the same kind into identical cups**
+of water. Time each to the last ﬁzz, and explain the result using surface area.
+
+<!-- page 107 -->
+
+---
+**U N I T 8 · T O P I C 8.3**
+## Temperature and concentration
+
+**Learn**
+
+**Two changes make collisions more frequent and more forceful. Raising the temperature speeds the**
+
+particles up, so they collide more often and hit harder, and only collisions with enough energy can break
+
+bonds. Even a rise of ten degrees can double the rate.
+
+**Raising the concentration packs more reactant particles into the same space, so collisions simply happen**
+
+more often. Strong acid ﬁzzes with magnesium far more ﬁercely than weak acid of the same volume. Both
+
+changes work the same way: more successful collisions each second, faster reaction.
+
+**·  Q U E S T I O N S**
+
+**1 Explain why reactions go faster at higher temperatures, mentioning collisions.**
+
+**2 Explain the diﬀerence between the eﬀects of concentration and temperature on collisions.**
+
+**3 A cake bakes at 180 °C rather than 60 °C. Explain what the higher temperature does to the rate of**
+the reactions in baking.
+
+<!-- page 108 -->
+
+---
+**G L O S S A R Y**
+
+Unit 8 · Rates of reaction
+
+**rate of reaction: how quickly reactants are used up or products form.**
+
+**surface area: the amount of solid exposed for collisions; powder has most.**
+
+**concentration: how much solute is dissolved in a given volume.**
+
+**collision theory: reactions happen when particles collide with enough energy.**
+
+End of Unit 8. One unit remains: electricity.
+
+<!-- page 109 -->
+
+---
+**U N I T 9**
+
+## Electricity
+
+Chasing the invisible current
+through wires and circuits
+
+**I N   T H I S   U N I T ,   Y O U   W I L L**
+
+**·**
+Describe current and how to measure it
+
+**·**
+Describe voltage and how to measure it
+
+**·**
+Build and explain series and parallel circuits
+
+**·**
+Explain resistance and calculate it
+
+<!-- page 110 -->
+
+---
+## Current and circuits
+
+**Learn**
+
+A circuit is a complete loop. Break the loop anywhere, with a switch or a loose wire, and everything stops.
+
+**Around the loop ﬂows current: a drift of electrons pushed along by the battery. Current is measured in**
+
+**amps (A) with an ammeter connected in line with the components.**
+
+Current is never used up. Whatever ﬂows out of the battery ﬂows all the way round and back in again; the
+
+lamp transforms the energy the current carries, not the current itself. That is why a single switch can
+
+control a whole string of lamps: break the loop once, and the ﬂow stops everywhere at once.
+
+**·  Q U E S T I O N S**
+
+**1 Explain why a circuit must be complete for a lamp to light.**
+
+**2 Is current used up as it passes through a lamp? Explain your answer.**
+
+**3 Where in a circuit should an ammeter be connected, and what does it measure?**
+
+**U N I T 9 · T O P I C 9.1**
+
+<!-- page 111 -->
+
+---
+**U N I T 9 · T A B L E**
+
+## Series and parallel compared
+
+**Series against parallel**
+
+**PROPERTY**
+**SERIES**
+**PARALLEL**
+
+number of loops
+one
+several branches
+
+current
+same everywhere
+shared between branches
+
+voltage per lamp
+shared out
+full battery voltage
+
+if one lamp blows
+all go dark
+others stay lit
+
+used at home for...
+festive string lights
+almost everything
+
+**·  T H I N K   L I K E   A   S C I E N T I S T**
+
+A series circuit has two identical lamps and a 6 V battery. Predict the voltage across each lamp, then
+explain what changes if the lamps are reconnected in parallel.
+
+**·  A C T I V I T Y**
+
+**Circuit detective. Your teacher gives you a battery, three bulbs, wires and a switch. Build one circuit**
+where one switch controls all three bulbs, and another where each bulb has its own switch. Explain which
+is series and which is parallel.
+
+<!-- page 112 -->
+
+---
+## Series and parallel circuits
+
+**Learn**
+
+**Components can be arranged in two ways. In a series circuit, there is one loop: the same current passes**
+
+**through every component, and if one lamp blows, all go dark. In a parallel circuit, components sit on**
+
+separate branches. Each branch receives the full battery voltage, lamps keep their full brightness, and one
+
+failing branch leaves the rest working.
+
+Your home is wired in parallel, which is why you can switch oﬀ one lamp without blacking out the house.
+
+Parallel branches also share the current between them: the total current leaving the battery equals the
+
+sum of the currents in the branches.
+
+**·  Q U E S T I O N S**
+
+**1 State two diﬀerences between series and parallel circuits.**
+
+**2 Explain why household wiring uses parallel circuits.**
+
+**3 In a parallel circuit, how does the current in the branches compare with the current leaving the**
+battery?
+
+**U N I T 9 · T O P I C 9.2**
+
+<!-- page 113 -->
+
+---
+## Voltage and resistance
+
+**Learn**
+
+Voltage, measured in volts (V), is the push. The battery gives each electron energy; the components take
+
+**that energy and turn it into light, heat or motion. A voltmeter measures voltage across a component,**
+
+connected in parallel with it rather than in line.
+
+**Components also resist the ﬂow. Resistance, measured in ohms (Ω), is a measure of how hard a**
+
+component pushes back. The three quantities link in a single law: voltage = current × resistance. Thin
+
+wires and long wires resist more; thick, short wires resist less. A lamp's resistance also rises as its ﬁlament
+
+heats, which is why lamps fail most often at switch-on, while the ﬁlament is still cold and the current is at its
+
+greatest.
+
+**·  Q U E S T I O N S**
+
+**1 State the units and measuring devices for current, voltage and resistance.**
+
+**2 A lamp has a resistance of 12 Ω and carries a current of 0.5 A. Calculate the voltage across it.**
+
+**3 Explain why the resistance of a lamp ﬁlament changes as it warms up, and why lamps usually blow at**
+switch-on.
+
+**U N I T 9 · T O P I C 9.3**
+
+<!-- page 114 -->
+
+---
+**G L O S S A R Y**
+
+Unit 9 · Electricity
+
+**current: the ﬂow of electric charge, measured in amps (A).**
+
+**ammeter: a meter for current, connected in line in the circuit.**
+
+**voltage: the electrical push, in volts (V), measured by a voltmeter.**
+
+**voltmeter: a meter for voltage, connected across a component.**
+
+**series circuit: one loop; the same current everywhere.**
+
+**parallel circuit: branches; each gets the full voltage.**
+
+**resistance: how strongly a component opposes current, in ohms (Ω).**
+
+End of Unit 9, and of the Student Book. The current always comes back.
+
+<!-- page 115 -->
+
+---
+**U N I T 9 · S E R I E S   A N D   P A R A L L E L**
+
+## How series and parallel circuits work
+
+**A series circuit is a single loop. The current has only one road, so the same current ﬂows through every**
+
+component, whatever their resistance. Each component takes a share of the battery's voltage: two identical
+
+lamps on a 6 V battery each receive 3 V, and glow at half brightness. Add a third lamp and all three grow
+
+dimmer still, because the total resistance has risen and the current everywhere falls. If one lamp blows, the
+
+loop is broken and every lamp goes dark.
+
+**A parallel circuit is a set of branches. Each branch connects straight across the battery, so every lamp**
+
+receives the full battery voltage and glows at full brightness. The current from the battery splits at each
+
+junction: the total current leaving the battery equals the sum of the branch currents. Adding another branch
+
+draws more total current, but the other branches are untouched. If one lamp blows, the rest carry on, which
+
+is why your house is wired in parallel.
+
+**Adding resistance, one after another. In series, each added resistor blocks the one road, so resistances**
+
+simply add up: two 6 Ω resistors in series give 12 Ω, and the current from a 12 V battery falls to 12 ÷ 12 = 1
+
+**A. In parallel, each added resistor opens a new road, so the total resistance falls: two 6 Ω resistors in**
+
+parallel give 3 Ω, because the current has two equal routes. More paths, less blockage. This is the one rule
+
+pupils ﬁnd hardest to believe: adding resistors in parallel makes it easier for current to ﬂow.
+
+Figure 9.1  The same two lamps in series (one loop, shared voltage) and in parallel (branches, full voltage).
+
+<!-- page 116 -->
+
+---
+**U N I T 9 · E X E R C I S E**
+
+## Unit 9 exercise: circuits to calculate
+
+Use V = I × R throughout. Remember: in series, resistances add; in parallel, each branch gets the full battery voltage.
+
+**1  Two resistors in series with a 12 V battery:**
+
+12 V
+
+Circuit A
+
+**2  Two resistors in parallel across a 12 V battery:**
+
+12 V
+
+Circuit B
+
+12 V
+
+Circuit C
+
+**1 Circuit A: two 6 Ω resistors in series on a 12 V battery. (a) Calculate the total resistance. (b) Use V = I × R to ﬁnd the**
+current in the loop. (c) What voltage does each resistor receive?
+
+**2 Circuit B: the same two 6 Ω resistors, now in parallel across the same 12 V battery. (a) Explain why each resistor**
+now receives 12 V. (b) Calculate the current in each branch. (c) Add them to ﬁnd the total current leaving the battery.
+(d) Show that the circuit behaves as if a single 3 Ω resistor were connected.
+
+**3 Circuit C: a 4 Ω and an 8 Ω resistor in series on 12 V. (a) Total resistance? (b) Current? (c) The voltage across each**
+resistor? (d) Check that your two voltages add back to 12 V.
+
+**4 A third 6 Ω resistor is added to Circuit A, in series. Explain, without calculating, what happens to the total resistance,**
+the current, and the brightness of any lamp in the loop.
+
+**3  A 4**
+**resistor in series with a 12 V battery:**
+
+6 ohm
+6 ohm
+
+6 ohm
+6 ohm
+
+4 ohm
+8 ohm
+
+**3  A 4 ohm and an 8 ohm resistor in series with a 12 V battery:**
+
+<!-- page 117 -->
+
+---
+**U N I T 9 · E X E R C I S E   ( C O N T I N U E D )**
+
+## More to calculate and explain
+
+**5 A third branch is added to Circuit B. Explain, without calculating, what happens to the total resistance and to**
+
+the current drawn from the battery.
+
+**6 A lamp of resistance 12 Ω carries a current of 0.5 A. Calculate the voltage across it, then the power it converts**
+using P = V × I.
+
+**W O R K E D   E X A M P L E**
+
+**A series circuit has a 12 V battery and resistors of 2 Ω and 4 Ω. Step 1: total resistance R = 2 + 4 = 6 Ω.**
+**Step 2: current I = V ÷ R = 12 ÷ 6 = 2 A. Step 3: voltage across the 2 Ω resistor = I × R = 2 × 2 = 4 V;**
+
+**across the 4 Ω resistor = 2 × 4 = 8 V. Check: 4 V + 8 V = 12 V, the battery voltage. Always ﬁnish with the**
+
+check.
+
+<!-- page 118 -->
 
 ---
 P R I M E B O O K S · Y E A R 9
