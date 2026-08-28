@@ -398,6 +398,16 @@ perspective a way of seeing from somebody else's place and story
 
 UNIT 1 · EDUCATION FOR ALL
 
+:growing knowledge and skills for life
+
+:something that blocks access
+
+:careful asking and checking before you decide
+
+:designed so that more people can take part
+
+:a way of seeing from somebody else
+
 <!-- page 11 -->
 
 ---
@@ -542,7 +552,7 @@ saying why it matters.
 
 UNIT 1 · TOPIC 1.1 · WHAT IS EDUCATION?
 
-Then: Inês' question: which skills help a town run, even if they never
+Then: Inês' question: which skills help a town run, even if they never
 
 <!-- page 15 -->
 
@@ -1996,8 +2006,6 @@ normal city life for many children.
 
 Food, holidays and games build belonging.
 
-Learning a new game can make a friend.
-
 **●YOUR TURN**
 
 1. Complete: My family food memory is… / A holiday I know is… / A game I
@@ -2011,6 +2019,8 @@ invasion).
 56
 
 UNIT 3 · TOPIC 3.5 · FOOD, HOLIDAYS AND GAMES
+
+Learning a new game can help you make new friends.
 
 <!-- page 57 -->
 
@@ -2237,6 +2247,12 @@ services helpful work people do for others
 
 UNIT 4 · THE WORLD OF WORK
 
+:something you can do better with practice
+
+:things you can hold that people make or grow
+
+:helpful work people do for others
+
 <!-- page 63 -->
 
 ---
@@ -2279,6 +2295,9 @@ for a week.
 63
 
 UNIT 4 · THE WORLD OF WORK
+
+:somebody who tries a new service or product to meet a need
+:somebody who tries a new service or product to meet a need
 
 <!-- page 64 -->
 
@@ -2821,6 +2840,10 @@ digital footprint the trail of posts and data you leave behind you
 
 UNIT 5 · DIGITAL WORLD
 
+:the devices
+
+:the trail of posts and data you leave behind you
+
 <!-- page 80 -->
 
 ---
@@ -2864,6 +2887,14 @@ family plan for screen time that is fair, not only strict.
 80
 
 UNIT 5 · DIGITAL WORLD
+
+:facts that stay protected
+
+:somebody who supports the person being treated unkindly
+
+:somebody who sees unkindness and does nothing
+
+:testing a claim against sources you trust
 
 <!-- page 81 -->
 

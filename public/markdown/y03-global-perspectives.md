@@ -1,5 +1,5 @@
 # Global Perspectives - Year 3 (Prime Book)
-> Markdown companion of `public/library/y03-global-perspectives/book.pdf` (157 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y03-global-perspectives/book.pdf` (158 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -279,7 +279,7 @@ INTRODUCTION
 **135**
 
 **Term 3 review**
-**140**
+**141**
 
 <!-- page 8 -->
 
@@ -5512,7 +5512,38 @@ UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
 139
 
+**HUMANITIES CORNER**
+
+**History**
+Roman families gathered in courtyards, and medieval villages danced at festivals. Celebrations
+have always glued communities together.
+
+**Geography**
+Every culture celebrates in its own way. Portugal roasts chestnuts for São Martinho, Japan
+lights lanterns at summer festivals, and children everywhere hold hands.
+
 <!-- page 140 -->
+
+---
+## TIME CAPSULE
+**History**
+
+Communities are older than countries. In ancient Rome, whole families gathered in the courtyard
+to eat and celebrate together. In medieval villages, festivals marked the seasons with dancing,
+banners and shared food. People have always needed days that belong to everyone.
+
+## GLOBAL TROTTERS
+**Geography**
+
+Every culture finds its own way to celebrate. In November, Portugal roasts chestnuts for São
+Martinho. In summer, Japan hangs paper lanterns and beats festival drums. Different places,
+different customs, the same wish to be together.
+
+UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
+
+140
+
+<!-- page 141 -->
 
 ---
 ## Term 3 review
@@ -5569,9 +5600,9 @@ properly, and not mocking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-140
+141
 
-<!-- page 141 -->
+<!-- page 142 -->
 
 ---
 3. Sort into land, water and air: tram, ferry, helicopter, bicycle.
@@ -5618,9 +5649,9 @@ Asked a question worth asking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-141
+142
 
-<!-- page 142 -->
+<!-- page 143 -->
 
 ---
 **Over the whole year I**
@@ -5652,9 +5683,9 @@ practise next.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-142
+143
 
-<!-- page 143 -->
+<!-- page 144 -->
 
 ---
 ## Word list
@@ -5703,9 +5734,9 @@ UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
 WORD LIST
 
-143
+144
 
-<!-- page 144 -->
+<!-- page 145 -->
 
 ---
 ## unpaid work real work nobody pays for, such as caring for a family
@@ -5755,9 +5786,9 @@ along
 
 WORD LIST
 
-144
+145
 
-<!-- page 145 -->
+<!-- page 146 -->
 
 ---
 **Unit 5 · Moving goods and people**
@@ -5798,9 +5829,9 @@ grandparents
 
 WORD LIST
 
-145
+146
 
-<!-- page 146 -->
+<!-- page 147 -->
 
 ---
 ## Sources and references
@@ -5888,9 +5919,9 @@ vernacular architecture
 
 SOURCES AND REFERENCES
 
-146
+147
 
-<!-- page 147 -->
+<!-- page 148 -->
 
 ---
 **Where**
@@ -5985,9 +6016,9 @@ Portuguesa (CPLP)
 
 SOURCES AND REFERENCES
 
-147
+148
 
-<!-- page 148 -->
+<!-- page 149 -->
 
 ---
 **Where**
@@ -6072,9 +6103,9 @@ Municipal do Porto
 
 SOURCES AND REFERENCES
 
-148
+149
 
-<!-- page 149 -->
+<!-- page 150 -->
 
 ---
 **Where**
@@ -6126,9 +6157,9 @@ have been decoration rather than teaching, it was cut.
 
 SOURCES AND REFERENCES
 
-149
+150
 
-<!-- page 150 -->
+<!-- page 151 -->
 
 ---
 ## Answers
@@ -6172,9 +6203,9 @@ ignores the rules or blames others, with a reason why skill does not make up for
 
 ANSWERS
 
-150
+151
 
-<!-- page 151 -->
+<!-- page 152 -->
 
 ---
 ## it. 3. Gonçalo, because he is the only one talking about somebody being left out
@@ -6219,9 +6250,9 @@ caring for a child or an older relative.
 
 ANSWERS
 
-151
+152
 
-<!-- page 152 -->
+<!-- page 153 -->
 
 ---
 ## 2.5 1 and 2. Your own example, correctly sorted into food, time, skill or thing
@@ -6263,9 +6294,9 @@ something strange has come up. 4. Your own two adults.
 
 ANSWERS
 
-152
+153
 
-<!-- page 153 -->
+<!-- page 154 -->
 
 ---
 ## 3.6 1. Your own pair of messages. The rewritten one usually adds a name, a
@@ -6310,9 +6341,9 @@ somebody is being unkind on purpose.
 
 ANSWERS
 
-153
+154
 
-<!-- page 154 -->
+<!-- page 155 -->
 
 ---
 ## 4.7 1. Thanking a neighbour: face to face, or a note. The time of a match: a
@@ -6354,9 +6385,9 @@ would struggle with it, and a change that includes them.
 
 ANSWERS
 
-154
+155
 
-<!-- page 155 -->
+<!-- page 156 -->
 
 ---
 **Unit 6 · Family, friends, community and culture**
@@ -6391,9 +6422,9 @@ or wear it as a costume for fun. 4. Your own answer.
 
 ANSWERS
 
-155
+156
 
-<!-- page 156 -->
+<!-- page 157 -->
 
 ---
 ## For teachers
@@ -6437,9 +6468,9 @@ topic.
 
 FOR TEACHERS
 
-156
+157
 
-<!-- page 157 -->
+<!-- page 158 -->
 
 ---
 **P R I M E  B O O K S**
