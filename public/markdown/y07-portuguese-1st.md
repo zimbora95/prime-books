@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (68 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (72 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -122,77 +122,83 @@ Ficha de revisão · Unidade 2
 .......................................
 **42**
 
-**UNIDADE 3 · TEXTO DRAMÁTICO**
+**UNIDADE 3 · O PALCO À ESPERA**
 
-Unidade 3 · O Texto Dramático
-....................................
+Unidade 3 · O Palco à Espera
+.....................................
 **43**
-Características do texto dramático..............................
+Conhece o autor · Garrett.......................................
 **44**
-Ler um texto dramático...........................................
+Vamos ler · Frei Luís de Sousa..................................
 **45**
 
-Exercícios · A audição
-................................................
+Missão do leitor.....................................................
 **46**
-Garrett em palco: Frei Luís de Sousa..........................
+Como interpretar o texto dramático............................
 **47**
-Exercícios · Frei Luís de Sousa (2)
-.................................
+Gramática · frases simples e complexas......................
 **48**
-Escrever um texto dramático....................................
+Writing Lab · a tua cena..........................................
 **49**
-Gramática · Frases simples e complexas
-.......................
+Writing Toolkit do dramaturgo ..................................
 **50**
-Revisão da Unidade 3.............................................
+Fala e escuta · encenação........................................
 **51**
+Literatura em imagem · o cenário...............................
+**52**
+Cambridge Focus · interpretar teatro..........................
+**53**
+Relembra + Checkpoint .........................................
+**54**
+Passaporte do leitor · ficha......................................
+**55**
 
 **UNIDADE 4 · TEXTO POÉTICO**
 
 Unidade 4 · O Texto Poético
 .......................................
-**52**
+**56**
 Características do texto poético.................................
-**53**
+**57**
 Fernando Pessoa: Mar Português..............................
-**54**
+**58**
 Exercícios · Mar Português
 ...........................................
-**55**
+**59**
 Florbela Espanca: Amar! ........................................
-**56**
+**60**
 Exercícios · Amar!
 ....................................................
-**57**
-Recursos expressivos do poema ..............................
-**58**
-Escrever um comentário.........................................
-**59**
-O teu comentário..................................................
-**60**
-Escrever poemas e narrativas .................................
 **61**
-Opinião sobre poesia..............................................
+Recursos expressivos do poema ..............................
 **62**
+Escrever um comentário.........................................
+**63**
+O teu comentário..................................................
+**64**
+Escrever poemas e narrativas .................................
+**65**
+Opinião sobre poesia..............................................
+**66**
 Gramática · Orações coordenadas
 .................................
-**63**
+**67**
 Gramática · Activa e passiva
 ......................................
-**64**
+**68**
 Gramática · Orações subordinadas
 ................................
-**65**
+**69**
 Revisão da Unidade 4.............................................
-**66**
+**70**
 
 **RECURSOS**
 
 Dossier do escritor ...............................................
-**67**
-· 68....................................................................
-**68**
+**71**
+Soluções (exercícios fechados)
+..................................
+**72**
 
 <!-- page 3 -->
 
@@ -1999,44 +2005,62 @@ Usa dois verbos no imperfeito e dois no perfeito.
 <!-- page 43 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Unidade 3 – O Texto Dramático
-
-**O palco espera: cortina vermelha, luz quente, madeira gasta.**
-
-O texto dramático nasce para ser representado: não se lê apenas, sobe ao palco. Cada fala é dita
-por uma personagem em voz alta, perante um público. Nesta unidade vais entrar nos bastidores:
-aprender a linguagem do teatro e escrever a tua própria cena.
-
-LEITURA – as características do texto dramático: acto, cena, fala e indicações cénicas.
-EDUCAÇÃO LITERÁRIA – leitura integral de textos dramáticos.
-ESCRITA – resumo e escrita de um texto dramático.
-GRAMÁTICA – frases simples e frases complexas.
-
-**PARA COMEÇAR**
-
-Lembra-te da última vez que viste uma peça de teatro ou representaste alguma coisa na escola. O
-que era diferente de ver um filme? Escreve três diferenças no caderno. Discute-as com o teu colega:
-as vossas listas coincidem?
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Unidade 3 – O Palco à Espera
+
+**Almeida Garrett · Frei Luís de Sousa**
+
+**PENSA**
+
+O que se sente quando a cortina se abre e a história acontece à nossa frente, ao vivo?
+COMPETÊNCIAS: Ler · Compreender · Interpretar · Oralidade · Escrita · Gramática.
+
+**ENTRA NA HISTÓRIA · A CORTINA VAI ABRIR...**
+O texto dramático nasce para ser representado: não se lê apenas, sobe ao palco. Cada fala é dita por
+uma personagem em voz alta, perante um público. Nesta unidade vais entrar nos bastidores: aprender a
+linguagem do teatro e escrever a tua própria cena.
+
+**ANTES DE LER**
+1. Lembra-te da última peça de teatro que viste (ou representaste na escola). O que era diferente de ver
+um filme?
+2. Se tivesses de representar uma personagem, preferias papel principal ou secundário? Porquê?
+3. O que é preciso para transformar um texto escrito num espectáculo?
+
+**VOCABULÁRIO DO TEATRO**
+
+acto – grande divisão da peça · cena – divisão menor; muda quando alguém entra ou sai · fala – o
+que cada personagem diz · didascália – indicação cénica entre parênteses · diálogo – conversa entre
+personagens · monólogo – uma personagem fala sozinha.
 
 43
 
 <!-- page 44 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
-## Características do texto dramático
+Prime School Press · www.primeschool.pt
 
-**LEITURA · ESTUDAR O GÉNERO**
+## Conhece o autor – Almeida Garrett
 
-O texto dramático é escrito para ser REPRESENTADO por actores, diante de um público. Ao
-contrário do narrativo, não há narrador: a história acontece através das falas e acções das
-personagens. As indicações cénicas (didascálias) substituem a voz do narrador, instruindo
-encenador e actores.
+**EDUCAÇÃO LITERÁRIA · O AUTOR**
+
+João Baptista da Silva Leitão de Almeida Garrett (1799-1854) nasceu no Porto e é o pai do
+Romantismo português. Viveu os anos agitados das invasões francesas e das guerras liberais, e
+esteve no exílio em Inglaterra, onde descobriu Shakespeare e Walter Scott.
+
+Foi poeta, novelista, dramaturgo, jornalista e político: fundou o Teatro Nacional D. Maria II e
+escreveu Frei Luís de Sousa (1844), Viagens na Minha Terra e o Romanceiro. No seu Romantismo
+pesam as paixões intensas, o nacionalismo, o gosto pelas ruínas e pelo passado, e a força do
+destino sobre as personagens.
+
+**SABIAS QUE...**
+
+Frei Luís de Sousa é uma tragédia: um género em que o destino pesa sobre as personagens e o final
+é inevitavelmente doloroso. Garrett inspirou-se numa lenda portuguesa do século XVII.
 
 **O VOCABULÁRIO DO TEATRO**
 
@@ -2046,300 +2070,540 @@ encenador e actores.
 
 Acto
 Grande divisão da peça
-«Acto I» de Frei Luís de Sousa
+«Acto I»
 
 Cena
 Divisão menor; muda quando
 alguém entra/sai
-
-Cena única de «A audição»
+cena única
 
 Fala
 O que cada personagem diz
-«BEATRIZ — Não consigo.»
+«D. MADALENA — Nada mando»
 
 Didascália
 Indicação cénica entre
 parênteses
-
 «(Entrando.)» «(Baixo.)»
 
 Diálogo
 Conversa entre personagens
-A matéria-prima do teatro
+a matéria-prima do teatro
 
 Monólogo
 Uma personagem fala sozinha
-D. Madalena, na abertura
+abertura de Frei Luís de Sousa
 
-**DRAMA VERSUS NARRAÇÃO**
+**REPARA**
 
-NA NARRAÇÃO: há narrador, conta-se a história («ela disse que…»).
-NO DRAMA: há diálogo directo e acção no palco; as didascálias substituem o narrador.
-Um mesmo enredo pode ser contado nos dois géneros: experimenta na página seguinte.
-
-Prime School Press · www.primeschool.pt
+No teatro não há narrador: as didascálias substituem a voz de quem conta, instruindo o encenador e
+os actores. Ler teatro é imaginar o palco.
 
 44
 
 <!-- page 45 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Ler um texto dramático
-
-**LEITURA · TEXTO 1 · PEÇA INTEGRAL**
-
-A AUDIÇÃO
-
-Peça num acto, cena única. Um grupo de teatro escolar prepara uma audição. Sala de ensaio:
-cadeiras desalinhadas, um piano fechado ao fundo. BEATRIZ e MARTIM entram.
-
-BEATRIZ — (Ajustando a mochila aos ombros.) Não consigo. Deixa-me ir para casa.
-
-MARTIM — Estás a desistir mesmo agora? A audição é em vinte minutos!
-
-BEATRIZ — (Sentando-se, cabeça baixa.) Há pessoas ali dentro que cantam desde os cinco anos. Eu
-comecei em Setembro.
-
-MARTIM — (Senta-se ao lado dela.) E daí? Também eu. A pergunta não é com quantos anos
-começaste; é se gostas de cantar.
-
-BEATRIZ — Gosto. Gosto imenso. É que… (Pausa.) Tenho medo de tremer na frente de todos.
-
-MARTIM — Todos tremem. O segredo é cantar com o tremor. (Levanta-se e estende a mão.)
-Vamos? Ensaia comigo uma última vez, aqui fora.
-
-BEATRIZ — (Levanta-se devagar. Respira fundo.) Vamos. Mas se eu falhar, tu finges que não notas.
-
-MARTIM — Combinado. (Sorrindo.) E se eu falhar, faz tu o mesmo por mim.
-
-Saem de mãos dadas. Luz desvanece lentamente.
-
-FIM
-
-**VOCABULÁRIO**
-
-**audição prova de selecção de actores ou cantores**
-
-**desvanece perde intensidade, apaga-se devagar**
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Vamos ler – Frei Luís de Sousa
+
+**TEXTO LITERÁRIO · ALMEIDA GARRETT · ADAPTADO**
+
+Porto, século XVII. Casa de D. Manuel de Sousa Coutinho. D. Madalena espera notícias do primeiro
+marido, D. João de Portugal, desaparecido na batalha de Alcácer-Quibir, há onze anos. Lemos a abertura
+da tragédia.
+
+D. MADALENA — (Sozinha.) Que tarde tão comprida! A luz demora-se a ir-se embora, como se também
+ela tivesse medo da noite… Telmo, Telmo!
+
+TELMO — (Entrando.) Aqui estou, minha senhora; que mandais?
+
+D. MADALENA — Nada mando, Telmo. Chamo por chamar, porque me pesa o silêncio desta casa.
+
+TELMO — A casa está calada como sempre esteve, senhora.
+
+D. MADALENA — Calada, dizes tu? Pois a mim parece-me que ela fala. Fala comigo das coisas que cá
+passaram… dos que cá morreram… dos que nunca mais voltaram!
+
+TELMO — (Baixo.) Onze anos…
+
+D. MADALENA — Que disseste, Telmo?
+
+TELMO — Disse que vem aí a tarde, minha senhora, e que a menina, vossa filha, vos procura.
+
+D. MADALENA — Vai, Telmo, vai; deixa-me só. Não é para ti o que eu tenho cá dentro. (Telmo sai.) Que
+inquietação é esta que me não deixa viver nem morrer?
+
+(Adaptado de Almeida Garrett, Frei Luís de Sousa, 1844.)
+
+**ENQUANTO LÊS... OBSERVA**
+• as didascálias (o que mandam fazer ao actor?)
+• as falas de D. Madalena (que sentimentos revelam?)
+• o que Telmo diz «(Baixo)» e não quer que a senhora ouça
 
 45
 
 <!-- page 46 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Exercícios – A audição
-
-**LEITURA · INTERPRETAÇÃO**
-
-1. Quantos actos e quantas cenas tem a peça? Como se chama cada divisão?
-2. Quem são as personagens e qual é o seu objectivo em cena?
-3. Copia três didascálias e explica o que cada uma manda fazer ao actor.
-4. Há monólogo nesta peça? E diálogo? Justifica.
-5. Que espaço descreve a didascália inicial? Quem o descreve ao leitor?
-6. «Todos tremem. O segredo é cantar com o tremor.» Explica esta frase de Martim: que conselho
-dá ele realmente?
-7. Que relação existe entre as personagens no início e no fim? Que a transformou?
-8. Reescreve em texto narrativo (3.ª pessoa, sem falas) o início da cena: «Beatriz entrou na salinha
-de ensaio…». O que se perdeu ao transformar teatro em narração?
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Missão do leitor
+
+**LEITURA ORIENTADA**
+
+**PROCURA DESCOBRIR**
+
+**Pergunta**
+**O que procuras**
+
+Quem?
+Quem são as personagens em cena?
+
+Onde?
+Onde e em que época decorre a cena?
+
+O quê?
+Qual é o mistério que pesa sobre a casa?
+
+Como?
+Como se revelam os sentimentos, sem narrador?
+
+**EXERCÍCIOS 1**
+1. Quem são as personagens em cena? Que relação têm com D. Madalena?
+
+2. Há quanto tempo desapareceu D. João de Portugal? Como o sabes?
+
+3. «A casa está calada» / «parece-me que ela fala»: que contraste é este? Que sentimento revela?
+
+4. O que Telmo diz em voz baixa? Porque não quer que a senhora ouça?
+
+5. Copia três didascálias e explica o que cada uma manda fazer ao actor.
+
+6. Há monólogo nesta cena? E diálogo? Justifica.
+
+**LÊ + INFERIR**
+
+A casa «que fala» é uma personificação: o espaço ganha vida e revela o que D. Madalena sente por
+dentro — medo, culpa, saudade. Pista do texto + interpretação = inferência.
 
 46
 
 <!-- page 47 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Garrett em palco: Frei Luís de Sousa
-
-**EDUCAÇÃO LITERÁRIA · TEXTO 2**
-
-LISBOA, SÉCULO XVII. Casa de D. Manuel de Sousa Coutinho. D. MADALENA espera notícias do
-marido, D. João de Portugal, desaparecido na batalha de Alcácer-Quibir, há onze anos.
-
-D. MADALENA — Onze anos, Maria! Onze anos que ele partiu para a guerra e nunca mais voltou…
-Nem o corpo me deixaram chorar.
-
-MARIA — Senhora, tendes ainda esperança?
-
-D. MADALENA — Esperança? Já nem sei o que é. Rezei tanto que me cansei. Casei de novo, fiz o
-meu dever… mas a noite, Maria, a noite é toda dele.
-
-MARIA — E a menina, vossa filha, cresce forte e alegre.
-
-D. MADALENA — É a minha consolação. Mas há dias… há dias em que um silêncio entra nesta casa,
-como se alguém aí andasse. Sinto-o, Maria, sinto-o!
-
-MARIA — São recordações, senhora; nada mais.
-
-D. MADALENA — Recordações? Que o céu me ouça e seja só isso.
-
-(Adaptado de Almeida Garrett, Frei Luís de Sousa, 1844.)
-
-**VOCABULÁRIO**
-
-**Alcácer-Quibir batalha de 1578, em Marrocos**
-
-**consolação alívio na tristeza**
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Como interpretar um texto dramático
+
+**RELEMBRA · A ESTRUTURA**
+
+O texto dramático é escrito para ser representado por actores, diante de um público. Não há
+narrador:
+a
+história
+acontece
+através
+das
+falas
+e
+acções
+das
+personagens.
+As
+didascálias
+substituem a voz do narrador.
+
+**NARRAÇÃO VERSUS DRAMA · COMPARA**
+
+**Narração**
+**Drama**
+
+Quem conta
+O narrador
+As personagens (falas)
+
+Indicações
+Descrições do narrador
+Didascálias
+
+Tempo
+Narrado
+Ao vivo, no palco
+
+Exemplo
+«ela disse que…»
+«D. MADALENA — Nada mando.»
+
+**O ESQUEMA DA PEÇA**
+
+**ACTO**
+
+grande divisão da peça
+
+**▼**
+
+**CENA**
+
+divisão menor; muda quando alguém entra ou sai
+
+**▼**
+
+**FALA**
+
+o que diz cada personagem
+
+**▼**
+
+**DIDASCÁLIA**
+
+indicação cénica entre parênteses
+
+**DICA**
+
+Quando leres teatro, imagina o palco: quem está em cena, onde entra, que tom de voz usa. As
+didascálias são as tuas instruções de encenação.
 
 47
 
 <!-- page 48 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Exercícios – Frei Luís de Sousa (2)
-
-**EDUCAÇÃO LITERÁRIA · INTERPRETAÇÃO**
-
-1. Porque diz D. Madalena que «a noite é toda dele»?
-2. Que sentimento domina a personagem: alegria, esperança ou angústia? Justifica com duas
-expressões do texto.
-3. O que D. Madalena «sente» na casa? Que pista dá o texto sobre o desfecho trágico?
-4. Compara as duas cenas de Garrett que leste (Unidades 2 e 3): o que muda quando a mesma
-angústia é dita a Maria e quando é dita a si própria? Que cena é mais intensa e porquê?
-5. Em grupos, encena este excerto (2 minutos): define movimentos, o tom de cada fala e a luz.
-Escreve no caderno as vossas opções de encenação e justifica cada uma.
-6. Resume o excerto em três linhas, seguindo as regras do resumo da Unidade 2.
-7. Interpretação em função do género: porque é que a mesma história funciona em teatro e não em
-notícia? Que características de cada género o explicam?
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Gramática – Frases simples e complexas
+
+**GRAMÁTICA · COM O TEXTO DE TEATRO**
+
+A frase simples tem uma só oração (um só verbo conjugado): «A luz desvanece lentamente.» A
+frase complexa tem duas ou mais orações: «A luz desvanece quando os actores saem.» Contar
+verbos conjugados é o truque para contar orações.
+
+**COMO SE LIGAM AS ORAÇÕES · TABELA**
+
+**Tipo**
+**Conjunções**
+**Orações…**
+
+Coordenação
+e, mas, ou, logo, pois
+independentes
+
+Subordinação
+porque, se, quando, embora
+dependentes
+
+**ESQUEMA · VERBOS QUE NÃO CONTAM DUAS ORAÇÕES**
+
+**TEMPO COMPOSTO**
+«tinha cantado»
+
+um só verbo: cantar
+
+**LOCUÇÃO VERBAL**
+«vou cantar», «estava a cantar»
+
+um só verbo principal
+
+**EXERCÍCIOS 2**
+1. Classifica (sublinha os verbos): «Beatriz ajustou a mochila e sentou-se.» / «A luz desvanece
+lentamente.» / «Ensaiamos porque a audição é amanhã.» / «Se eu falhar, tu finges.»
+
+2. Divide cada frase complexa do exercício 1 em orações e indica a conjunção.
+
+3. Junta cada par numa frase complexa: «Canto. Gosto de cantar.» (porque) / «Levantas-te devagar.
+Respiras fundo.» (e) / «Tens medo. Tremes.» (se)
 
 48
 
 <!-- page 49 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Escrever um texto dramático
-
-**ESCRITA · A TUA PEÇA**
-
-Escreve uma cena curta (18 a 24 falas) com duas personagens. Tema: um mal-entendido que se
-resolve no final (uma mensagem enviada para a pessoa errada, um convite esquecido, um objecto
-perdido).
-
-PLANO:
-1. PERSONAGENS – duas, com objectivos opostos (um quer esconder, outro quer descobrir).
-2. ESPAÇO ÚNICO – uma sala de aula, um recreio, uma cozinha.
-3. ESTRUTURA – início do conflito, subida da tensão, clímax, resolução rápida.
-4. DIDASCÁLIAS – pelo menos cinco, com gestos, tons e entradas/saídas.
-5. FALAS NATURAIS – como os jovens falam de verdade, mas sem palavrões.
-6. FECHO – uma indicação de saída ou de luz que fecha a cena com estilo.
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Writing Lab – escreve a tua cena
+
+**ESCRITA · CENA DE 18 A 24 FALAS**
+
+Escreve uma cena curta (18 a 24 falas) com duas personagens. Tema: um mal-entendido que se resolve
+no final (uma mensagem enviada para a pessoa errada, um convite esquecido, um objecto perdido).
+
+☑ duas personagens com objectivos opostos ☑ um espaço único ☑ início do conflito
+☑ subida da tensão ☑ clímax ☑ resolução rápida ☑ pelo menos cinco didascálias
+☑ falas naturais, como os jovens falam de verdade ☑ um fecho de saída ou de luz
+
+**PLANIFICA ANTES DE ESCREVER**
+
+Quem são as personagens (nomes e objectivos)?
+
+Qual é o espaço único?
+
+Qual é o mal-entendido?
+
+O que acontece no clímax?
+
+Como se resolve?
+
+**O MEU RASCUNHO (primeiras falas)**
 
 49
 
 <!-- page 50 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Gramática – Frases simples e complexas
-
-**GRAMÁTICA · COM O TEXTO DE TEATRO**
-
-FRASE SIMPLES tem uma só oração (um só verbo conjugado): «A luz desvanece lentamente.»
-FRASE COMPLEXA tem duas ou mais orações: «A luz desvanece quando os actores saem.» Contar
-verbos conjugados é o truque para contar orações.
-
-**COMO SE LIGAM AS ORAÇÕES**
-
-**Tipo**
-**Conjunções**
-**Orações…**
-**Exemplo do teatro**
-
-Coordenação
-e, mas, ou, logo, pois
-independentes
-«Tremia, mas cantou.»
-
-Subordinação
-porque, se, quando,
-embora
-
-dependentes
-«Se eu falhar, tu
-finges.»
-
-**VERBOS QUE NÃO CONTAAM DUAS ORAÇÕES**
-
-**Expressão**
-**Exemplo**
-**Porquê**
-
-Tempo composto
-«tinha cantado»
-Um só verbo: cantar
-
-Locução verbal
-«vou cantar», «estava a cantar»
-Um só verbo principal
-
-EXERCÍCIO 1. Classifica (sublinha os verbos): «Beatriz ajustou a mochila e sentou-se.» / «A luz
-desvanece lentamente.» / «Ensaiamos porque a audição é amanhã.» / «Se eu falhar, tu finges que
-não notas.»
-EXERCÍCIO 2. Divide cada frase complexa em orações e indica a conjunção.
-EXERCÍCIO 3. Junta cada par numa frase complexa: «Canto. Gosto de cantar.» (porque) /
-«Levantas-te devagar. Respiras fundo.» (e) / «Tens medo. Tremes.» (se)
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Writing Toolkit – a caixa de ferramentas do dramaturgo
+
+**ESCRITA · FERRAMENTAS PARA O TEATRO**
+
+**PARA ABRIR A CENA**
+
+• (Uma sala vazia. Ao fundo, uma porta fechada.)
+• (Manhã. Um banco de jardim. Entra LEONOR, apressada.)
+
+**DIDASCÁLIAS ÚTEIS**
+
+• (Entrando.) (Saindo apressadamente.)
+• (Baixo, para si.) (Surpreendido.)
+• (Pausa.) (Respira fundo.)
+• (Apanha o telemóvel da mesa.)
+
+**PARA CRIAR TENSÃO**
+
+• — Não devias ter vindo.
+• — Sabes perfeitamente o que isto significa.
+• (Silêncio. Ninguém se move.)
+
+**PARA FECHAR A CENA**
+
+• Saem, cada um para um lado. Luz desvanece.
+• (Fica só, a olhar para a porta.) Fim.
+• Riem, finalmente. Cortina.
+
+**REGLA DE OURO DO TEATRO**
+
+No drama, mostra — não contes. Em vez de «ele estava nervoso», escreve «(Treme-lhe a voz.)».
 
 50
 
 <!-- page 51 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
-
-## Revisão da Unidade 3
-
-**REVISÃO · TESTE-TREINO**
-
-LEITURA – acto, cena, fala, didascália; as diferenças entre drama e narração.
-LITERÁRIA – li uma peça integral e parte de uma peça de Garrett, e interpretei em função do
-género.
-ESCRITA – resumi cenas e escrevi a minha própria cena de teatro.
-GRAMÁTICA – frases simples e complexas; orações coordenadas e subordinadas.
-
-**TESTE-TREINO FINAL**
-
-**Pergunta**
-**A tua resposta**
-
-1. Define: acto, cena, didascália.
-
-2. Como se muda de cena numa peça?
-
-3. O que substitui o narrador no drama?
-
-4. «Saiu e fechou a porta» – simples ou complexa?
-
-5. «Saiu porque era tarde» – que tipo de oração?
-
-6. Escreve uma frase complexa com «quando»
-sobre um ensaio.
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
+
+## Fala e escuta – sobe ao palco
+
+**ORALIDADE · ENCENAÇÃO EM GRUPOS**
+
+Em grupos de três ou quatro, encenai a abertura de Frei Luís de Sousa (página 3 desta unidade), em
+cerca de dois minutos.
+
+**DECIDAM E REGISTEM**
+
+Movimentos: quem entra, quem sai, quando?
+
+Tom de cada fala: que voz tem D. Madalena? E Telmo?
+
+Luz e som: como é o silêncio da casa? Há música?
+
+Adereços: que objectos precisam em cena?
+
+**DESAFIO DE ORALIDADE 3**
+No final, cada grupo apresenta e a turma avalia com a grelha: volume · organização · contacto visual ·
+tempo. Cada comentário começa com um elogio e acaba com uma sugestão.
+
+Notas de encenação do meu grupo:
+
+**CRITÉRIOS**
+
+Fala devagar e com volume alto · olha para o público · marca pausas entre as ideias · corpo erecto,
+gestos naturais.
 
 51
 
 <!-- page 52 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Literatura em imagem – o cenário
+
+**PROJECTO CRIATIVO**
+
+Desenha o cenário da cena que leste: a casa de D. Manuel de Sousa Coutinho, com a luz da tarde a
+demorar-se. Depois responde.
+
+1. Que luz escolheste (manhã, tarde, noite)? Porque?
+
+2. Que objectos colocaste em cena para mostrar o peso do passado?
+
+3. Onde estaria D. Madalena no teu cenário? Justifica.
+
+**CAMBRIDGE FOCUS**
+
+No teatro, o espaço não é decoração: cria ambiente e revela sentimentos. A casa escura e calada de
+Garrett «fala» do passado de D. Madalena.
+
+52
+
+<!-- page 53 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Cambridge Focus – interpretar teatro
+
+**INTERPRETAÇÃO · EVIDÊNCIA + EXPLICAÇÃO**
+
+Uma resposta forte precisa de evidência (citação do texto) + explicação (o que essa citação prova).
+
+**RESPOSTA FRACA**
+
+«D. Madalena está triste.» ✗ Não explica porquê.
+
+**RESPOSTA MELHOR**
+
+«D. Madalena está angustiada porque diz “me pesa o silêncio desta casa”, o que mostra que o
+silêncio a incomoda.»
+
+**RESPOSTA AINDA MELHOR**
+
+«D. Madalena vive angustiada: chama por Telmo sem nada precisar (“chamo por chamar”), ouve a
+casa “falar” dos que morreram e confessa “uma inquietação que me não deixa viver nem morrer”. O
+silêncio revela a culpa e a espera de onze anos.»
+
+**REGRA DE OURO**
+
+Não basta dizer. Explica. Pergunta sempre: «Como sei isso?» Cita o texto.
+
+**EXERCÍCIOS 4**
+Escreve a TUA resposta forte: «Telmo é leal a D. Madalena?» Usa a fórmula evidência + explicação.
+
+53
+
+<!-- page 54 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Relembra – o que aprendi
+
+**REVISÃO DA UNIDADE 3**
+
+**O TEXTO DRAMÁTICO**
+Nasce para ser representado · não há narrador · as didascálias instruem encenador e actores ·
+organiza-se em actos, cenas e falas.
+
+**APRENDI A...**
+☑ definir acto, cena, fala e didascália
+☑ distinguir narração de drama
+☑ interpretar falas e didascálias com evidência do texto
+☑ classificar frases simples e complexas
+☑ escrever uma cena com didascálias
+☑ encenar e avaliar uma leitura dramatizada
+
+**CHECKPOINT · CLASSIFICA O TEU DESEMPENHO**
+
+**Consigo...**
+**Ainda não**
+**Com ajuda**
+**Sozinho**
+
+Definir acto, cena e didascália
+
+Explicar quem “conta” no drama
+
+Interpretar uma didascália
+
+Classificar frases simples e complexas
+
+Escrever falas naturais
+
+Encenar com voz e movimento
+
+**O MEU PRÓXIMO OBJECTIVO**
+Na próxima unidade quero melhorar...
+
+54
+
+<!-- page 55 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## O passaporte do leitor
+
+**DESAFIO FINAL · REGISTO DE LEITURA**
+
+**Campo**
+**O teu registo**
+
+Autor
+Almeida Garrett
+
+Obra
+Frei Luís de Sousa
+
+País
+Portugal
+
+Género
+Texto dramático (tragédia)
+
+Tema principal
+
+Personagem que mais me marcou
+
+O que aprendi com esta história
+
+A minha palavra favorita do texto:
+A minha classificação:
+
+**★**
+**★**
+**★**
+**★**
+**★**
+
+**UMA FRASE PARA LEVAR CONTIGO**
+
+No teatro, a palavra não se lê: sobe ao palco e ganha voz, corpo e luz.
+
+**FICHA DE REVISÃO · COMO UM TESTE 5**
+
+Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos.
+GRUPO I · LEITURA: 1. Define: acto, cena, didascália. 2. O que substitui o narrador no drama? 3. Que
+sentimento revela «a casa fala»? Justifica com o texto.
+GRUPO II · GRAMÁTICA: 4. «Saiu e fechou a porta» – simples ou complexa? 5. «Saiu porque era tarde» – que
+tipo de oração? 6. Escreve uma frase complexa com «quando» sobre um ensaio.
+
+55
+
+<!-- page 56 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2365,9 +2629,9 @@ ficou na tua cabeça? Escreve-a no caderno, com as tuas palavras.
 
 Prime School Press · www.primeschool.pt
 
-52
+56
 
-<!-- page 53 -->
+<!-- page 57 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2441,9 +2705,9 @@ pena». Ambos são decassílabos?
 
 Prime School Press · www.primeschool.pt
 
-53
+57
 
-<!-- page 54 -->
+<!-- page 58 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2486,9 +2750,9 @@ repete «Quantas… Quantos… Quantas…»?
 4. Explica os dois últimos versos: que contraste há entre «perigo e abismo» e «espelhou o céu»?
 Prime School Press · www.primeschool.pt
 
-54
+58
 
-<!-- page 55 -->
+<!-- page 59 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2505,9 +2769,9 @@ aplicado à tua vida.
 
 Prime School Press · www.primeschool.pt
 
-55
+59
 
-<!-- page 56 -->
+<!-- page 60 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2552,9 +2816,9 @@ INTERPRETAÇÃO
 4. Explica a oposição perder / encontrar do último verso.
 Prime School Press · www.primeschool.pt
 
-56
+60
 
-<!-- page 57 -->
+<!-- page 61 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2574,9 +2838,9 @@ muda quando Pessoa fala do mar e Florbela fala do amor?
 
 Prime School Press · www.primeschool.pt
 
-57
+61
 
-<!-- page 58 -->
+<!-- page 62 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2655,9 +2919,9 @@ escreveu Florbela só «nada»?
 
 Prime School Press · www.primeschool.pt
 
-58
+62
 
-<!-- page 59 -->
+<!-- page 63 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2706,9 +2970,9 @@ comentário deve ter as três.
 
 Prime School Press · www.primeschool.pt
 
-59
+63
 
-<!-- page 60 -->
+<!-- page 64 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2728,9 +2992,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-60
+64
 
-<!-- page 61 -->
+<!-- page 65 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2757,9 +3021,9 @@ poema.
 
 Prime School Press · www.primeschool.pt
 
-61
+65
 
-<!-- page 62 -->
+<!-- page 66 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2781,9 +3045,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-62
+66
 
-<!-- page 63 -->
+<!-- page 67 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2840,9 +3104,9 @@ EXERCÍCIO: classifica «Recordar? Esquecer? Indiferente!» e escreve uma frase 
 
 Prime School Press · www.primeschool.pt
 
-63
+67
 
-<!-- page 64 -->
+<!-- page 68 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2900,9 +3164,9 @@ mar.»
 
 Prime School Press · www.primeschool.pt
 
-64
+68
 
-<!-- page 65 -->
+<!-- page 69 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2986,9 +3250,9 @@ Fizemos o comentário.» / «O poeta perdeu o caderno. Continuou a escrever.» (
 
 Prime School Press · www.primeschool.pt
 
-65
+69
 
-<!-- page 66 -->
+<!-- page 70 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3022,9 +3286,9 @@ poemas.»
 
 Prime School Press · www.primeschool.pt
 
-66
+70
 
-<!-- page 67 -->
+<!-- page 71 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -3051,16 +3315,16 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-67
+71
 
-<!-- page 68 -->
+<!-- page 72 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
 
 Prime School Press · www.primeschool.pt
 
-68
+72
 
 UNIDADE 1
 p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; Onde — rio Douro, Ribeira;
@@ -3082,10 +3346,16 @@ p.22 V/F: V; F (decorre na Idade Média); V; V; F (o regresso fecha a viagem).
 p.26 Ex.1: Inverno — «uma tarde de Inverno». Ex.2: para sul — «passo a passo, para sul».
 p.30 Ex.: perfeito — partiu, deixou, cruzou; imperfeito — caminhava, era, mordia.
 p.31 Ex.: estava; caminhava; ouviu; parou; olhou.
-p.43 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
+p.42 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
 
-UNIDADE 3
-p.54 frases: complexa (e); simples; complexa (porque); complexa (se, que).
+UNIDADE 3 · O PALCO À ESPERA
+p.46 Ex.1: D. Madalena, Telmo (criado leal); onze anos — «Onze anos…» dito por Telmo.
+p.48 Ex.2: «ajustou e sentou-se» — complexa (e); «desvanece» — simples; «ensaiamos porque» — complexa
+(porque); «Se eu falhar, tu finges» — complexa (se).
+p.55 Grupo I: acto — grande divisão; cena — divisão menor; didascália — indicação cénica; as falas e
+didascálias substituem o narrador; «a casa fala» — personificação que revela angústia e culpa.
+Grupo II: «Saiu e fechou a porta» — complexa (coordenada); «Saiu porque era tarde» — complexa
+(subordinada causal).
 
 UNIDADE 4
 p.57: as estrofes do soneto — duas quadras e dois tercetos; esquema ABAB ABBA CCD EED.

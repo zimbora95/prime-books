@@ -1,5 +1,5 @@
 # Science - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-science/book.pdf` (119 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-science/book.pdf` (120 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -2102,6 +2102,39 @@ at each stage, and mark where energy is dissipated.
 <!-- page 52 -->
 
 ---
+**U N I T 3 · T O P I C 3 . 3 · A C T I V I T Y**
+
+## Activity: energy in and energy out
+
+**A Sankey diagram tells the whole story at a glance. The arrow going in is as thick as the energy supplied;**
+
+the arrows coming out are as thick as the energy leaving, each in its new form. Below, a hairdryer receives
+
+300 J of electrical energy. Of that, 240 J leaves as heat, 45 J as the movement of the air, and 15 J as sound.
+
+Add the outputs and you get the input exactly: 240 + 45 + 15 = 300 J. Nothing appeared, nothing vanished.
+
+Useful energy here is the heat and the airﬂow, so the hairdryer is (240 + 45) ÷ 300 = 95% eﬃcient.
+
+Figure 3.9  A Sankey diagram: 300 J of electrical energy in, split between heat, air movement and sound.
+
+**·  A C T I V I T Y**
+
+**Sankey for a torch. A torch takes in 100 J of electrical energy from its battery. It gives out 10 J of light and**
+90 J of heat. Draw the Sankey diagram, making each arrow's thickness match the energy it carries, and
+label every arrow with its number of joules.
+
+**Eﬃciency hunt. For the torch, calculate the eﬃciency as a percentage. Then repeat for a motor that takes**
+in 800 J and gives out 200 J of useful movement. Which device wastes more, and where does the wasted
+energy go?
+
+**Energy ledger for a day. Choose three devices you used today. For each, write the input energy store,**
+every useful output, and at least one dissipated output. Then check each ledger balances, input = all
+outputs.
+
+<!-- page 53 -->
+
+---
 **U N I T 3 · T O P I C 3 . 3 · T A B L E**
 
 ## Energy stores and their transfers
@@ -2145,7 +2178,7 @@ For each, name the energy store before, during and after.
 **Home audit. List ﬁve transfers of energy in your kitchen yesterday. For each, write the input store and**
 the output store, and identify any dissipated energy.
 
-<!-- page 53 -->
+<!-- page 54 -->
 
 ---
 **U N I T 3 · T O P I C 3.4**
@@ -2179,7 +2212,9 @@ was not wanted. The surroundings are always the ﬁnal destination.
 
 **3 Describe the eventual fate of the thermal energy from a hot cup of coﬀee left on a desk.**
 
-<!-- page 54 -->
+Figure 3.4  Energy passes from the hot particles to the cold ones, never the other way.
+
+<!-- page 55 -->
 
 ---
 **U N I T 3 · T O P I C 3.5**
@@ -2214,7 +2249,7 @@ the Earth.
 
 **3 Give one design feature of a house that reduces each of the three methods of transfer.**
 
-<!-- page 55 -->
+<!-- page 56 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 5 · T H E   T H R E E   P R O C E S S E S**
@@ -2242,31 +2277,32 @@ blankets are silver.
 
 Figure 3.7  The three roads of thermal energy: conduction along metal, convection in fluids, radiation across space.
 
-<!-- page 56 -->
+<!-- page 57 -->
 
 ---
-**U N I T 3 · T O P I C 3.6**
+**U N I T 3 · T O P I C 3 . 6**
 ## Cooling by evaporation
 
 **Learn**
 
-**After swimming, you shiver even on a warm day. The water on your skin is evaporating: its fastest-**
+**After swimming, you shiver even on a warm day. The water on your skin is evaporating: its fastest-moving**
 
-moving particles escape into the air as vapour. Only the speediest particles can break free, so when they
+particles escape into the air as vapour. Only the speediest particles can break free, so when they leave, the
 
-leave, the particles left behind are the slower, cooler ones. Your skin loses energy and you feel cold.
+particles left behind are the slower, cooler ones. Your skin loses energy and you feel cold. Evaporation is
 
-Evaporation is therefore a cooling process. It happens at any temperature, unlike boiling, but it speeds
+therefore a cooling process. It happens at any temperature, unlike boiling, but it speeds up when the surface
 
-up when the surface is warm, when the surface area is large, and when the air above carries the vapour
+is warm, when the surface area is large, and when the air above carries the vapour away, as it does on a
+windy day.
 
-away, as it does on a windy day.
+**Four factors control the rate: temperature (more particles reach escape speed), surface area (more escape**
 
-Living things exploit this. Sweating cools you because evaporating water carries thermal energy away
+**routes), wind (vapour swept away, so the air never ﬁlls), and humidity (dry air accepts more vapour than**
+damp air). Sweating cools you only when the air can carry the vapour away, which is why humid days defeat
+it.
 
-from your skin; dogs pant to evaporate water from their tongues; even a wet clay pot keeps its contents
-
-cool in hot climates by the same trick.
+Figure 3.5  Evaporation: the fastest particles escape, and the liquid left behind cools.
 
 **·  Q U E S T I O N S**
 
@@ -2276,26 +2312,44 @@ cool in hot climates by the same trick.
 
 **3 Why does sweating fail to cool you well on a hot, humid day?**
 
-<!-- page 57 -->
+<!-- page 58 -->
 
 ---
-**U N I T 3 · T O P I C 3 . 6 · E V A P O R A T I O N**
+**U N I T 3 · T O P I C 3 . 6 · E V A P O R A T I O N   E V E R Y W H E R E**
 
-## Cooling by evaporation: the picture
+## Evaporation at work: from ancient pots to other liquids
 
-**Watch the fastest particles leave. Evaporation cools because only the quickest particles at the surface**
-have enough energy to escape into the air. When they go, the average energy of what remains falls, and
+**The ancient cooler. Long before electricity, people in Egypt, India and Portugal's hot south kept water**
 
-lower average energy is exactly what a lower temperature means. Four factors speed the escape:
+**drinkable with evaporation alone. Water was stored in porous clay pots, sometimes wrapped in wet cloth**
 
-**temperature (more particles reach escape speed), surface area (more escape routes), wind or draughts**
+and set where the breeze passed. Tiny amounts of water seeped through the pot's pores and evaporated
 
-**(escaping vapour is swept away, so the air never ﬁlls), and humidity (dry air accepts more vapour than**
-damp air). Sweating cools you only when the air can carry the vapour away.
+from its outer surface, and each escaping particle carried thermal energy away. The pot sweats, and the
 
-Figure 3.5  Evaporation: the fastest particles escape, and the liquid left behind cools.
+water inside stays several degrees cooler than the air around it. The same physics still cools drinking
 
-<!-- page 58 -->
+fountains and the mud jars of villages today.
+
+**Evaporation is not just for water. Every liquid evaporates, but not equally. The particles of some liquids**
+
+**escape far more easily: alcohol and acetone evaporate much faster than water, which is why spilt hand**
+
+sanitiser or nail-varnish remover feels so cold on your skin, it is cooling you just as sweat does, only faster.
+
+**Oils evaporate so slowly that they hardly cool at all. The rule is general: the faster a liquid evaporates, the**
+
+more energy it removes per second, and the colder it makes the surface it leaves.
+
+Figure 3.5  The porous clay pot cools its water by evaporation; other liquids evaporate faster or slower than water.
+
+**·  T R Y   I T**
+
+**Feel the diﬀerence. With supervision, place one drop of water and one drop of hand sanitiser on the back**
+of your hand, a few centimetres apart. Blow gently across both. Describe which spot feels colder, and
+explain the diﬀerence using the rate of evaporation and the energy each escaping particle carries away.
+
+<!-- page 59 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 2 · T A B L E**
@@ -2341,7 +2395,7 @@ tip of each spoon. Explain the diﬀerence using conduction.
 **Order the materials. You are given metal, wood, plastic and glass rods. Design a fair test to rank them**
 as conductors, listing the variables you must keep the same.
 
-<!-- page 59 -->
+<!-- page 60 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 5 · P I C T U R E   A N D   A C T I V I T Y**
@@ -2377,7 +2431,7 @@ and the looping convection currents.
 
 Figure 3.4
 
-<!-- page 60 -->
+<!-- page 61 -->
 
 ---
 **G L O S S A R Y**
@@ -2407,7 +2461,7 @@ destroyed.
 
 End of Unit 3. Follow the energy; it never disappears.
 
-<!-- page 61 -->
+<!-- page 62 -->
 
 ---
 **U N I T 4**
@@ -2431,7 +2485,7 @@ Describe how the human body removes waste
 **·**
 Explain what a fetus needs to stay healthy
 
-<!-- page 62 -->
+<!-- page 63 -->
 
 ---
 **U N I T 4 · T O P I C 4.1**
@@ -2464,7 +2518,7 @@ or both.
 
 **3 A plant uses only about two per cent of the water it absorbs. Suggest what happens to the rest.**
 
-<!-- page 63 -->
+<!-- page 64 -->
 
 ---
 **U N I T 4 · T O P I C 4 . 1 · F I G U R E**
@@ -2482,7 +2536,7 @@ and arrives in a leaf. There it either joins photosynthesis or evaporates throug
 
 Figure 4.1  The journey of water from root hair to stomata, and the factors that drive transpiration.
 
-<!-- page 64 -->
+<!-- page 65 -->
 
 ---
 **U N I T 4 · T O P I C 4.2**
@@ -2513,7 +2567,7 @@ eﬀect.
 
 **3 Suggest why a plant grown in a windy place often has smaller, thicker leaves.**
 
-<!-- page 65 -->
+<!-- page 66 -->
 
 ---
 **U N I T 4 · T O P I C 4 . 2 · A C T I V I T Y**
@@ -2537,7 +2591,7 @@ A plant in a sealed jar still loses water from its leaves, yet the jar eventuall
 Explain, using evaporation and the air's limit for carrying water vapour, why the plant then stops losing
 water.
 
-<!-- page 66 -->
+<!-- page 67 -->
 
 ---
 **U N I T 4 · T O P I C 4.3**
@@ -2584,7 +2638,7 @@ urethra. The liver, shown for context, makes the urea; the lungs
 
 handle the carbon dioxide.
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 **U N I T 4 · T O P I C 4 . 3 · T A B L E**
@@ -2623,7 +2677,7 @@ rises, and name the treatment that replaces the kidneys' ﬁltering.
 **Model the kidney. Build a ﬁlter model: pour a mixture of water, salt and sand through ﬁlter paper. Which**
 parts represent blood, urea and the kidney's useful return to the blood?
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 **U N I T 4 · T O P I C 4.4**
@@ -2661,7 +2715,7 @@ two bloodstreams do not mix.
 **3 Give two substances a pregnant woman is advised to avoid, and explain how each could harm the**
 fetus.
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 **U N I T 4 · F I G U R E S**
@@ -2680,7 +2734,7 @@ through this exchange, which is why good food, folic acid and avoiding smoke and
 
 Figure 4.2  The excretory organs, and the placenta's two-way trade between mother and fetus.
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 **G L O S S A R Y**
@@ -2707,7 +2761,7 @@ Unit 4 · Maintaining life
 
 End of Unit 4. In Unit 5 you will meet the most reactive metals.
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 **U N I T 5**
@@ -2757,7 +2811,7 @@ Write word equations for reactions
 **·**
 Explain how atoms rearrange in reactions
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 **U N I T 5 · T O P I C 5.2**
@@ -2788,7 +2842,7 @@ about the metal?
 
 **3 Design a simple experiment to place an unknown metal in the reactivity series.**
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 **U N I T 5 · T O P I C 5 . 2 · T A B L E**
@@ -2844,7 +2898,7 @@ solution, write the word equation, and explain the colour change you would obser
 sulfate and iron sulfate. Describe how you would use displacement tests to place the metal in the
 reactivity series, and what each possible result would tell you.
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 **U N I T 5 · T O P I C 5.3**
@@ -2878,7 +2932,7 @@ balance is the endpoint.
 
 **3 Why is an indicator needed when making a salt by neutralisation?**
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 **U N I T 5 · T O P I C 5.4**
@@ -2910,7 +2964,7 @@ solution is evaporated slowly so the crystals have time to grow neat and large.
 
 **3 Why is copper metal useless for making copper sulfate, while copper oxide works well?**
 
-<!-- page 76 -->
+<!-- page 77 -->
 
 ---
 **U N I T 5 · T O P I C 5 . 3 · I N D I C A T O R S**
@@ -2961,7 +3015,7 @@ For the fullest picture, universal indicator carries a whole colour chart with i
 
 Figure 5.2  Common indicators shown in acid (top row) and in alkali (bottom row).
 
-<!-- page 77 -->
+<!-- page 78 -->
 
 ---
 **U N I T 5 · F I G U R E S**
@@ -2984,7 +3038,7 @@ sits below zinc in the series.
 
 Figure 5.1  Salt-making routes, and a displacement that works beside one that does not.
 
-<!-- page 78 -->
+<!-- page 79 -->
 
 ---
 **U N I T 5 · T O P I C 5.5**
@@ -3016,7 +3070,7 @@ formed, and why?
 **3 Name the atoms that end up in water when an acid neutralises an alkali, and say where each came**
 from.
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 **G L O S S A R Y**
@@ -3039,7 +3093,7 @@ Unit 5 · Reactivity
 
 End of Unit 5. In Unit 6 you will travel from sound waves to nebulae.
 
-<!-- page 80 -->
+<!-- page 81 -->
 
 ---
 **U N I T 6**
@@ -3066,7 +3120,7 @@ Describe nebulae and star birth
 **·**
 Describe how tectonic plates move
 
-<!-- page 81 -->
+<!-- page 82 -->
 
 ---
 **U N I T 6 · T O P I C 6.1**
@@ -3098,7 +3152,7 @@ damages hearing, which is why ear defenders matter near machinery and loud music
 
 **3 Explain why ear defenders reduce the risk of hearing damage.**
 
-<!-- page 82 -->
+<!-- page 83 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 1 · F I G U R E S**
@@ -3116,7 +3170,7 @@ crowded?
 
 Figure 6.1  Amplitude controls loudness; frequency controls pitch.
 
-<!-- page 83 -->
+<!-- page 84 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 1 · F I G U R E**
@@ -3137,7 +3191,7 @@ and measuring the height.
 
 Figure 6.7  Three notes of rising frequency: 50 Hz, 200 Hz and 1000 Hz.
 
-<!-- page 84 -->
+<!-- page 85 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 1 · T A B L E**
@@ -3174,27 +3228,32 @@ air column left, why the pitch changes.
 **Ruler twang. Hold a ruler on the edge of a desk, twang it, then shorten the overhang. Describe what**
 happens to pitch and why.
 
-<!-- page 85 -->
+<!-- page 86 -->
 
 ---
-**U N I T 6 · T O P I C 6.2**
+**U N I T 6 · T O P I C 6 . 2**
 ## Interference of sound
 
 **Learn**
 
 Sound waves from two sources can meet and mix. Where two crests arrive together, they add to a louder
 
-**sound; where a crest meets a gap, they cancel to silence. This adding and cancelling is interference.**
+**sound; where a crest meets a gap, they cancel to silence. This adding and cancelling is interference. Each**
+
+speaker throws out circles of compression: where two compressions meet, the sound is louder; where a
+
+compression meets a rarefaction, they cancel and the sound is quiet.
 
 You can hear it with two loudspeakers playing the same tone: walk across the room and the sound swells
 
-**and fades as your ears pass through loud and quiet patches, called interference fringes. The quiet**
+**and fades as your ears pass through interference fringes, stripes of loud and silence spaced about a**
 
-patches are not missing sound; they are places where the waves have arrived perfectly out of step. Noise-
+wavelength apart. The quiet patches are not missing sound; they are places where the waves have arrived
+perfectly out of step. Noise-cancelling headphones use the same idea deliberately, generating a wave
 
-cancelling headphones use the same idea deliberately, generating a wave exactly out of step with the
+exactly out of step with the incoming noise so the two cancel.
 
-incoming noise so the two cancel.
+Figure 6.2  Two speakers' waves overlapping into louder and quieter regions.
 
 **·  Q U E S T I O N S**
 
@@ -3204,25 +3263,50 @@ incoming noise so the two cancel.
 
 **3 Why can two sounds of the same loudness sometimes produce silence at one spot?**
 
-<!-- page 86 -->
+<!-- page 87 -->
 
 ---
-**U N I T 6 · T O P I C 6 . 2 · F I G U R E**
+**U N I T 6 · T O P I C 6 . 2 · I N T E R F E R E N C E**
 
-## Interference: waves meeting waves
+## Constructive and destructive interference
 
-**Where the circles cross. Each speaker throws out circles of compression. Where two compressions meet,**
-the sound is louder; where a compression meets a rarefaction, they cancel and the sound is quiet. Walk
+**Constructive: in step, they add**
 
-across the room and your ears cross the stripes of loud and silence, spaced about a wavelength apart. The
+two waves, crest on crest
 
-same adding and cancelling is what noise-cancelling headphones exploit, generating waves exactly out of
+result: twice as loud
 
-step with the noise.
+**Destructive: out of step, they cancel**
 
-Figure 6.2  Two speakers' waves overlapping into louder and quieter regions.
+two waves, crest on trough
 
-<!-- page 87 -->
+result: silence
+
+**Constructive interference happens when two waves arrive in step: crest meets crest and trough meets**
+
+trough. The displacements add, and the combined wave has twice the amplitude of either wave alone, which
+
+the ear hears as a louder sound. Any whole number of wavelengths of path diﬀerence gives the same result.
+
+**Destructive interference happens when two waves arrive exactly out of step: crest meets trough. One**
+
+wave pushes the air particles up while the other pulls them down, and the displacements cancel to nothing at
+
+that spot. The waves have not been destroyed; they pass through each other and re-emerge, but at the quiet
+
+points they momentarily sum to zero. A path diﬀerence of half a wavelength, or any odd number of half
+
+wavelengths, produces this silence.
+
+**Between the extremes, the waves are partly in step, and the sound is somewhere between full loudness**
+
+and silence. Walk across the room between two speakers and you sweep through all of these conditions,
+
+which is exactly the pattern of swelling and fading you can hear.
+
+Figure 6.3  In-step waves add to double amplitude; out-of-step waves cancel to silence.
+
+<!-- page 88 -->
 
 ---
 **U N I T 6 · T O P I C 6.3**
@@ -3252,7 +3336,7 @@ what a giant impact would produce.
 
 **3 Why is the Moon's size, compared with Earth's, a clue to its origin?**
 
-<!-- page 88 -->
+<!-- page 89 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 3 · F I G U R E**
@@ -3268,7 +3352,7 @@ core, all points to this single catastrophe about 4.5 billion years ago.
 
 Figure 6.3  The giant impact: Earth, collision, debris ring, Moon.
 
-<!-- page 89 -->
+<!-- page 90 -->
 
 ---
 **U N I T 6 · T O P I C 6.4**
@@ -3298,7 +3382,7 @@ body was forged in an earlier star and drifted through a nebula before reaching 
 
 **3 Explain the statement: every heavy atom in your body was made inside a star.**
 
-<!-- page 90 -->
+<!-- page 91 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 4 · F I G U R E**
@@ -3314,7 +3398,7 @@ every atom heavier than helium in your body was made in an earlier, exploded sta
 
 Figure 6.4  A nebula contracting until fusion ignites a new star.
 
-<!-- page 91 -->
+<!-- page 92 -->
 
 ---
 **U N I T 6 · T O P I C 6.5**
@@ -3346,7 +3430,7 @@ occasionally today.
 
 **3 Why does Portugal experience earthquakes? Refer to plate boundaries.**
 
-<!-- page 92 -->
+<!-- page 93 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 5 · F I G U R E**
@@ -3364,7 +3448,7 @@ Atlantic opens, hence its earthquakes and volcanoes.
 
 Figure 6.5  Colliding, separating and sliding plates, and what each produces.
 
-<!-- page 93 -->
+<!-- page 94 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 5 · F I G U R E**
@@ -3385,7 +3469,7 @@ everywhere else is stable ground.
 
 Figure 6.6  The major plates and the direction each is moving.
 
-<!-- page 94 -->
+<!-- page 95 -->
 
 ---
 **G L O S S A R Y**
@@ -3408,7 +3492,7 @@ Unit 6 · Sound and space
 
 End of Unit 6. In Unit 7 you will unwrap the instruction manual of life.
 
-<!-- page 95 -->
+<!-- page 96 -->
 
 ---
 **U N I T 7**
@@ -3432,7 +3516,7 @@ Explain variation between individuals
 **·**
 Describe natural selection
 
-<!-- page 96 -->
+<!-- page 97 -->
 
 ---
 **U N I T 7 · T O P I C 7.1**
@@ -3466,7 +3550,7 @@ Figure 7.1  From cell to DNA: chromosomes in the nucleus unpack into the double 
 
 **3 What is the diﬀerence between a gene and an allele?**
 
-<!-- page 97 -->
+<!-- page 98 -->
 
 ---
 **U N I T 7 · T O P I C 7.2**
@@ -3499,7 +3583,7 @@ idea of alleles.
 
 Figure 7.2  Fertilisation: 23 chromosomes from each gamete join into 46 in the zygote.
 
-<!-- page 98 -->
+<!-- page 99 -->
 
 ---
 **U N I T 7 · T O P I C 7 . 2 · A C T I V I T Y**
@@ -3520,7 +3604,7 @@ three tall to one short, and discuss why small samples wander.
 Two tall parents (Tt) can have a short child (tt), but two short parents cannot have a tall one. Use alleles to
 explain both statements.
 
-<!-- page 99 -->
+<!-- page 100 -->
 
 ---
 **U N I T 7 · T O P I C 7.3**
@@ -3554,7 +3638,7 @@ variation, so a single disease can wipe it out entirely.
 
 Figure 7.3  Inherited variation in traits, and environmental variation in growth.
 
-<!-- page 100 -->
+<!-- page 101 -->
 
 ---
 **U N I T 7 · T O P I C 7.4**
@@ -3589,7 +3673,7 @@ can mislead.
 
 Figure 7.4  Natural selection in bacteria: resistance spreads through survival.
 
-<!-- page 101 -->
+<!-- page 102 -->
 
 ---
 **G L O S S A R Y**
@@ -3614,11 +3698,11 @@ Unit 7 · Genes and inheritance
 
 End of Unit 7, and of the Student Book. Follow the carbon, and the genes.
 
-<!-- page 102 -->
+<!-- page 103 -->
 
 ---
 
-<!-- page 103 -->
+<!-- page 104 -->
 
 ---
 **U N I T 8**
@@ -3642,7 +3726,7 @@ Explain how temperature affects rate
 **·**
 Explain how concentration affects rate
 
-<!-- page 104 -->
+<!-- page 105 -->
 
 ---
 **U N I T 8 · T O P I C 8.1**
@@ -3675,7 +3759,7 @@ its shape.
 
 **3 Why does the rate of a reaction fall as the reaction proceeds?**
 
-<!-- page 105 -->
+<!-- page 106 -->
 
 ---
 **U N I T 8 · T O P I C 8 . 1 · F I G U R E**
@@ -3693,7 +3777,7 @@ rate changes while the total amount does not.
 
 Figure 8.1  Two rate curves: same finish, different speeds.
 
-<!-- page 106 -->
+<!-- page 107 -->
 
 ---
 **U N I T 8 · T O P I C 8.2**
@@ -3721,7 +3805,7 @@ while a bag of ﬂour merely burns, and why cutting food into small pieces cooks
 
 **3 Give one everyday example where increasing surface area speeds up a useful process.**
 
-<!-- page 107 -->
+<!-- page 108 -->
 
 ---
 **U N I T 8 · T A B L E**
@@ -3760,7 +3844,7 @@ the start, showing your reasoning.
 **Eﬀervescence timing. Drop one whole tablet and one crushed tablet of the same kind into identical cups**
 of water. Time each to the last ﬁzz, and explain the result using surface area.
 
-<!-- page 108 -->
+<!-- page 109 -->
 
 ---
 **U N I T 8 · T O P I C 8.3**
@@ -3789,7 +3873,7 @@ changes work the same way: more successful collisions each second, faster reacti
 **3 A cake bakes at 180 °C rather than 60 °C. Explain what the higher temperature does to the rate of**
 the reactions in baking.
 
-<!-- page 109 -->
+<!-- page 110 -->
 
 ---
 **G L O S S A R Y**
@@ -3806,7 +3890,7 @@ Unit 8 · Rates of reaction
 
 End of Unit 8. One unit remains: electricity.
 
-<!-- page 110 -->
+<!-- page 111 -->
 
 ---
 **U N I T 9**
@@ -3830,7 +3914,7 @@ Build and explain series and parallel circuits
 **·**
 Explain resistance and calculate it
 
-<!-- page 111 -->
+<!-- page 112 -->
 
 ---
 ## Current and circuits
@@ -3859,7 +3943,7 @@ control a whole string of lamps: break the loop once, and the ﬂow stops everyw
 
 **U N I T 9 · T O P I C 9.1**
 
-<!-- page 112 -->
+<!-- page 113 -->
 
 ---
 **U N I T 9 · T A B L E**
@@ -3903,7 +3987,7 @@ explain what changes if the lamps are reconnected in parallel.
 where one switch controls all three bulbs, and another where each bulb has its own switch. Explain which
 is series and which is parallel.
 
-<!-- page 113 -->
+<!-- page 114 -->
 
 ---
 ## Series and parallel circuits
@@ -3935,7 +4019,7 @@ battery?
 
 **U N I T 9 · T O P I C 9.2**
 
-<!-- page 114 -->
+<!-- page 115 -->
 
 ---
 ## Voltage and resistance
@@ -3969,7 +4053,7 @@ switch-on.
 
 **U N I T 9 · T O P I C 9.3**
 
-<!-- page 115 -->
+<!-- page 116 -->
 
 ---
 **G L O S S A R Y**
@@ -3992,7 +4076,7 @@ Unit 9 · Electricity
 
 End of Unit 9, and of the Student Book. The current always comes back.
 
-<!-- page 116 -->
+<!-- page 117 -->
 
 ---
 **U N I T 9 · S E R I E S   A N D   P A R A L L E L**
@@ -4031,7 +4115,7 @@ pupils ﬁnd hardest to believe: adding resistors in parallel makes it easier fo
 
 Figure 9.1  The same two lamps in series (one loop, shared voltage) and in parallel (branches, full voltage).
 
-<!-- page 117 -->
+<!-- page 118 -->
 
 ---
 **U N I T 9 · E X E R C I S E**
@@ -4083,7 +4167,7 @@ the current, and the brightness of any lamp in the loop.
 
 **3  A 4 ohm and an 8 ohm resistor in series with a 12 V battery:**
 
-<!-- page 118 -->
+<!-- page 119 -->
 
 ---
 **U N I T 9 · E X E R C I S E   ( C O N T I N U E D )**
@@ -4106,7 +4190,7 @@ using P = V × I.
 
 check.
 
-<!-- page 119 -->
+<!-- page 120 -->
 
 ---
 P R I M E B O O K S · Y E A R 9

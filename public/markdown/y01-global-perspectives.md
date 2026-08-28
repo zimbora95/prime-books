@@ -1725,6 +1725,20 @@ TOPIC 2.7
 ## a goat gives milk, and eats almost anything
 **✓**
 
+**YOUR TURN**
+
+**1**
+Match each animal to what it gives.
+
+**ANIMAL**
+**GIVES US**
+
+hen
+
+cow
+
+sheep
+
 <!-- page 59 -->
 
 ---
@@ -2091,8 +2105,6 @@ lived in castles with golden cups and fine clothes, while
 farming families grew their own food and made their own
 tools. Poor children worked from an early age, and only
 rich children had books and teachers. Poor families
-often shared one candle, one room and one bed, and
-everybody worked, even the smallest children.
 
 People everywhere need the same things, but the land
 changes what they have. In hot deserts families live in
@@ -2106,11 +2118,12 @@ house is made from. What is your home made of?
 **History**
 **Geography**
 
-Only rich boys learned to read and write; girls
-learned to cook, sew and mind the animals.
-
 Families in cold lands burn wood to keep warm,
 and families near rivers often fish for dinner.
+
+everybody worked, even the smallest children. Only
+rich boys learned to read and write; girls
+learned to cook, sew and mind the animals.
 
 <!-- page 71 -->
 
