@@ -1758,8 +1758,6 @@ TOPIC 2.8
 A plant needs four things, and it needs all four. Take one away and it
 stops.
 
-**One seedling, four things. Light, water, soil and air. Find each one in the picture.**
-
 <!-- page 60 -->
 
 ---
@@ -1789,6 +1787,8 @@ UNIT  2  RICH  AND  POOR
 TOPIC 2.8
 **59**
 
+**One seedling, four things. Light, water, soil and air. Find each one in the picture.**
+
 <!-- page 61 -->
 
 ---
@@ -1805,11 +1805,6 @@ which is the harder half.
 
 Draw a plant that has had no water for two weeks.
 **1**
-
-Which of the four is missing if a plant on a dark shelf goes pale
-and thin?
-
-**2**
 
 UNIT  2  RICH  AND  POOR
 TOPIC 2.9
@@ -2090,8 +2085,6 @@ TOPIC 2.12
 <!-- page 70 -->
 
 ---
-**Stamp two of six. Two down, four to go.**
-
 UNIT  2  RICH  AND  POOR
 TOPIC 2.12
 **69**

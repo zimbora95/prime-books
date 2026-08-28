@@ -1,5 +1,5 @@
 # Global Perspectives - Year 5 (Prime Book)
-> Markdown companion of `public/library/y05-global-perspectives/book.pdf` (111 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y05-global-perspectives/book.pdf` (112 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -816,6 +816,49 @@ _______________________________________________
 <!-- page 26 -->
 
 ---
+## TIME CAPSULE
+
+History
+
+Long before phones, people sent messages
+in ways that took days, weeks or even
+months. In 1844, Samuel Morse tapped the
+first telegraph message. By 1876, Alexander
+Graham Bell had spoken down the first
+telephone call. Each invention changed how
+quickly people could share ideas.
+
+Imagine sealing a message for pupils in the
+year 2075. What would you tell them about
+how your class communicates today?
+
+**★ CHALLENGE**
+Write one sentence for a class time capsule
+about your favourite way to communicate,
+and one question you would ask a pupil 50
+years from now.
+
+## GLOBAL TROTTERS
+
+Geography
+
+A message can travel around the world in a
+second, but people still communicate
+differently from country to country. In Japan,
+people bow to greet each other. In Kenya,
+many people greet in Swahili: "Habari?" In
+Portugal, friends often greet with two kisses on
+the cheek.
+
+Find three countries on a globe or map. For
+each one, discover one greeting, one language
+and one way of listening politely.
+
+**★ CHALLENGE**
+Which country would you most like to visit, and
+how would you say hello when you arrived?
+
+26
 
 <!-- page 27 -->
 
@@ -832,6 +875,9 @@ Wider Horizons · Why rules exist, rights, duties and fair consequences
 ◎THE B IG Q U ESTIO N
 
 Who are laws for?
+
+27
+27
 
 <!-- page 28 -->
 
@@ -872,6 +918,8 @@ What you will find: UN page introducing the Universal Declaration of Human Right
 language (adult-supervised). URL: https://www.un.org/en/about-us/universal-declaration-of-
 human-rights
 
+28
+
 <!-- page 29 -->
 
 ---
@@ -896,6 +944,8 @@ What is one rule that keeps people safe at school?
 
 In groups of three, invent a tiny island with five people. Write two laws you would need on day
 one.
+
+29
 
 <!-- page 30 -->
 
@@ -927,6 +977,8 @@ laws.
 
 Write a one-sentence purpose for a classroom "quiet work" rule.
 
+30
+
 <!-- page 31 -->
 
 ---
@@ -943,6 +995,8 @@ What is a right you enjoy every school day?
 ◉BOOTS ON!
 
 List three rights you think every pupil should have. Then add one responsibility next to each right.
+
+31
 
 <!-- page 32 -->
 
@@ -975,6 +1029,8 @@ Sofia says: Duties protect rights, so they travel together.
 
 Then: Give one example where ignoring a duty harms someone else's right.
 
+32
+
 <!-- page 33 -->
 
 ---
@@ -991,6 +1047,8 @@ Look for rights that protect dignity: learning, safety, care and a fair chance.
 ↺DO YOU REMEMBER?
 
 What do all children need to grow with dignity?
+
+33
 
 <!-- page 34 -->
 
@@ -1030,6 +1088,8 @@ in 1948.
 With an adult, open a child-friendly summary of children's rights. Copy one article in simple
 words.
 
+34
+
 <!-- page 35 -->
 
 ---
@@ -1046,6 +1106,8 @@ Look for a calm talk about fair consequences.
 ↺DO YOU REMEMBER?
 
 What is the difference between a mistake and a deliberate harm?
+
+35
 
 <!-- page 36 -->
 
@@ -1080,6 +1142,8 @@ This topic is not about naming classmates. It is about principles.
 Many justice systems for young people emphasise education and rehabilitation more than adult-
 style punishment.
 
+36
+
 <!-- page 37 -->
 
 ---
@@ -1096,6 +1160,8 @@ Look for community rules that keep people safe.
 ↺DO YOU REMEMBER?
 
 Why might a story about law be better with no real pupil names?
+
+37
 
 <!-- page 38 -->
 
@@ -1134,6 +1200,8 @@ Inês says: Rules matter most when nobody is watching, because that is when trus
 
 Then: Which view builds a safer playground?
 
+38
+
 <!-- page 39 -->
 
 ---
@@ -1162,7 +1230,55 @@ then live with the charter for two weeks and review.
 
 What is one careful question you want to take into the next unit?
 
+39
+
 <!-- page 40 -->
+
+---
+## TIME CAPSULE
+
+History
+
+Laws are older than paper. Nearly 4,000
+years ago, King Hammurabi of Babylon
+carved his laws into a stone pillar so
+everyone could read the same rules. In
+1215, English barons made King John seal
+the Magna Carta, which said even a king
+must obey the law.
+
+Imagine sealing a class rule into a time
+capsule for pupils in the year 2075. Which
+rule would still matter to them, and why?
+
+**★ CHALLENGE**
+Write one classroom rule you think pupils in
+2075 will still need, and one rule you think
+they will find funny.
+
+## GLOBAL TROTTERS
+
+Geography
+
+Rules travel across borders. In Japan, children
+learn to queue quietly for trains. In Singapore,
+chewing gum is banned to keep streets clean.
+In Portugal, drivers must stop at every zebra
+crossing until pedestrians have finished
+crossing.
+
+Find three countries on a globe or map. For
+each one, discover one travel rule or road rule
+that keeps people safe.
+
+**★ CHALLENGE**
+Which country rule would you most like to
+bring to your own town, and who would it
+protect?
+
+40
+
+<!-- page 41 -->
 
 ---
 ZZMARK-u3-ENDZZ
@@ -1178,7 +1294,9 @@ Wider Horizons · Trade chains, travelling ideas, culture mix and shared problem
 
 How connected is your ordinary day?
 
-<!-- page 41 -->
+41
+
+<!-- page 42 -->
 
 ---
 Unit 3 · Globalisation
@@ -1220,7 +1338,9 @@ Ask a grown-up to hold the device and open this page with you.
 What you will find: UN Sustainable Development Goals overview for learners (adult-supervised).
 URL: https://sdgs.un.org/goals
 
-<!-- page 42 -->
+42
+
+<!-- page 43 -->
 
 ---
 ✦GETTING STARTED
@@ -1245,7 +1365,9 @@ Where do you think your breakfast food began its journey?
 Choose a pencil or a snack wrapper. List three stages it might have passed through before it
 reached you.
 
-<!-- page 43 -->
+43
+
+<!-- page 44 -->
 
 ---
 ▸LET US FIND OUT
@@ -1274,7 +1396,9 @@ Container ships move a large share of world trade goods between ports.
 Label your chain with one Portuguese port that might appear in a real route (for example Sines or
 Leixões).
 
-<!-- page 44 -->
+44
+
+<!-- page 45 -->
 
 ---
 3.2
@@ -1299,7 +1423,9 @@ networks act like a nervous system: a message can jump continents in seconds.
 Speed is useful for science and family contact. Speed is risky for rumours. The skill is the same as
 in Unit 1: check before you treat a post as fact.
 
-<!-- page 45 -->
+45
+
+<!-- page 46 -->
 
 ---
 **●YOUR TURN**
@@ -1319,7 +1445,9 @@ only habit.
 
 Draw an "idea journey" from a creator to your classroom.
 
-<!-- page 46 -->
+46
+
+<!-- page 47 -->
 
 ---
 3.3
@@ -1344,7 +1472,9 @@ local recipes with new ingredients, music that mixes styles, bilingual street si
 Homogenisation means everything becoming the same. Hybridisation means mixing. Neither
 word is pure good or pure bad. The question is: who chooses, and is local voice respected?
 
-<!-- page 47 -->
+47
+
+<!-- page 48 -->
 
 ---
 **●YOUR TURN**
@@ -1367,7 +1497,9 @@ Then: How can a town keep both convenience and character?
 
 Sketch a street with one global shop and one local stall. Caption why both matter.
 
-<!-- page 48 -->
+48
+
+<!-- page 49 -->
 
 ---
 3.4
@@ -1393,7 +1525,9 @@ some places, or encourage unsafe conditions if rules are weak.
 A fair enquiry asks: Who gains money? Who gains choice? Who risks health or work? There is
 rarely one number that settles the whole story.
 
-<!-- page 49 -->
+49
+
+<!-- page 50 -->
 
 ---
 **●YOUR TURN**
@@ -1413,7 +1547,9 @@ need critical reading.
 
 Write a balanced sentence starting with "On one hand... On the other hand..."
 
-<!-- page 50 -->
+50
+
+<!-- page 51 -->
 
 ---
 3.5
@@ -1439,7 +1575,9 @@ loss. A river can carry waste downstream to another region. Smoke does not stop 
 Shared problems need shared care: science, rules, aid and everyday habits. Fear should not turn
 into blame of whole peoples. Evidence and cooperation beat panic.
 
-<!-- page 51 -->
+51
+
+<!-- page 52 -->
 
 ---
 **●YOUR TURN**
@@ -1459,7 +1597,9 @@ make many local decisions.
 
 Draw a cloud of smoke crossing two country outlines. Write one shared response.
 
-<!-- page 52 -->
+52
+
+<!-- page 53 -->
 
 ---
 3.6
@@ -1485,7 +1625,9 @@ You do not need to solve the planet alone. You do need to refuse indifference.
 
 Draw three circles: Me · My community · The wider world. Place one action in each circle.
 
-<!-- page 53 -->
+53
+
+<!-- page 54 -->
 
 ---
 **●YOUR TURN**
@@ -1521,14 +1663,40 @@ Object biography. Choose one everyday object. Research (with adult help) a plaus
 chain. Make a one-page biography: materials, possible countries, one worker role, one
 environmental question, one fair-choice idea.
 
-<!-- page 54 -->
+54
+
+<!-- page 55 -->
 
 ---
 →LOOKING AHEAD
 
 What is one careful question you want to take into the next unit?
 
-<!-- page 55 -->
+55
+
+**TIME CAPSULE**
+
+**HISTORY**
+
+People have traded across borders for thousands of years. About 2,000 years ago,
+camel caravans carried silk and spices along the Silk Road from China all the way to
+Europe, and a journey could take months. Later, faster ships, trains and aeroplanes
+moved goods more quickly. In 1956 the first shipping containers made worldwide
+trade cheaper than ever. Globalisation is an old idea that keeps speeding up! Talk
+with a partner: how is a camel caravan like a container ship?
+
+**GLOBAL TROTTERS**
+
+**GEOGRAPHY**
+
+Look at the things around you: many were made in another country! A T-shirt might
+begin as cotton grown in India, be sewn in Bangladesh and sold in the UK.
+Container ships like this one carry about 90 per cent of everything the world trades,
+crossing huge oceans to reach the shops near you. Find three objects close by and
+guess where each one began its journey, then trace the routes on a world map.
+Which ocean would each one cross to reach you?
+
+<!-- page 56 -->
 
 ---
 ZZMARK-u4-ENDZZ
@@ -1544,7 +1712,9 @@ Wider Horizons · Global jobs, flexible work, machines, green choices and skills
 
 How is work changing, and what skills still matter?
 
-<!-- page 56 -->
+56
+
+<!-- page 57 -->
 
 ---
 Unit 4 · The world of work
@@ -1586,7 +1756,9 @@ Ask a grown-up to hold the device and open this page with you.
 What you will find: ILO youth / future of work overview for adults supporting learners (adult-
 supervised). URL: https://www.ilo.org/global/topics/youth-employment/lang--en/index.htm
 
-<!-- page 57 -->
+57
+
+<!-- page 58 -->
 
 ---
 ✦GETTING STARTED
@@ -1609,7 +1781,9 @@ Look at a clothing label. What does "Made in..." tell you, and what does it hide
 
 Bring (or recall) one label from home. Record country of manufacture if shown.
 
-<!-- page 58 -->
+58
+
+<!-- page 59 -->
 
 ---
 ▸LET US FIND OUT
@@ -1637,7 +1811,9 @@ Bangladesh is a major exporter of ready-made garments in the world economy.
 
 Redraw a shirt and annotate design / make / sell countries as a hypothesis.
 
-<!-- page 59 -->
+59
+
+<!-- page 60 -->
 
 ---
 4.2
@@ -1664,7 +1840,9 @@ uncertainty about hours and rights.
 A hospital cleaner, a train driver and a restaurant cook still need to be on site. Year 5 learners
 should notice both the laptop story and the hands-on story.
 
-<!-- page 60 -->
+60
+
+<!-- page 61 -->
 
 ---
 **●YOUR TURN**
@@ -1687,7 +1865,9 @@ Then: Which jobs must stay local even if tech improves?
 
 Draw a split poster: On site | Remote.
 
-<!-- page 61 -->
+61
+
+<!-- page 62 -->
 
 ---
 4.3
@@ -1713,7 +1893,9 @@ Some jobs change when machines arrive. New jobs also appear (repair, design, car
 machines with good data). Panic titles ("robots will take everything") are too simple. The better
 question is: which tasks shift, and how do we retrain fairly?
 
-<!-- page 62 -->
+62
+
+<!-- page 63 -->
 
 ---
 **●YOUR TURN**
@@ -1733,7 +1915,9 @@ maintain systems.
 
 Caption a drawing: Human strength · Machine strength.
 
-<!-- page 63 -->
+63
+
+<!-- page 64 -->
 
 ---
 4.4
@@ -1759,7 +1943,9 @@ Ethical consumerism means choosing products with care when you can: less waste, 
 fairer supply. Not every family can buy the expensive option. Fair talk avoids shaming and focuses
 on better systems plus small habits.
 
-<!-- page 64 -->
+64
+
+<!-- page 65 -->
 
 ---
 **●YOUR TURN**
@@ -1778,7 +1964,9 @@ With an adult, find one green job advertised in Portugal or the EU. Copy the job
 
 Sketch a town with three green-job icons.
 
-<!-- page 65 -->
+65
+
+<!-- page 66 -->
 
 ---
 4.5
@@ -1803,7 +1991,9 @@ system, a buddy bench idea, a compost trial, or a kinder lunch queue, not a gian
 Good enterprise is honest about who benefits. "Opportunity" never means taking advantage of
 people in need.
 
-<!-- page 66 -->
+66
+
+<!-- page 67 -->
 
 ---
 **●YOUR TURN**
@@ -1824,7 +2014,9 @@ Skills you keep building
 
 Look for skills collected like a growing portfolio.
 
-<!-- page 67 -->
+67
+
+<!-- page 68 -->
 
 ---
 ↺DO YOU REMEMBER?
@@ -1856,7 +2048,9 @@ a forever career at age nine.
 Many countries promote lifelong learning policies because careers span longer lives and
 changing technology.
 
-<!-- page 68 -->
+68
+
+<!-- page 69 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -1886,7 +2080,9 @@ green-job interest, one question for a visitor worker.
 
 What is one careful question you want to take into the next unit?
 
-<!-- page 69 -->
+69
+
+<!-- page 70 -->
 
 ---
 ZZMARK-u5-ENDZZ
@@ -1902,7 +2098,9 @@ Wider Horizons · Interests, diplomacy, shared resources, soft power and crisis 
 
 How do countries work together when they want different things?
 
-<!-- page 70 -->
+70
+
+<!-- page 71 -->
 
 ---
 Unit 5 · Working with other countries
@@ -1944,7 +2142,9 @@ Ask a grown-up to hold the device and open this page with you.
 What you will find: United Nations Peace, dignity and equality overview (adult-supervised). URL:
 https://www.un.org/en/global-issues
 
-<!-- page 71 -->
+71
+
+<!-- page 72 -->
 
 ---
 ✦GETTING STARTED
@@ -1969,7 +2169,9 @@ What might a country try to protect for its people?
 List four: safety · food · energy · culture · friendship · money. Rank for a coastal country like
 Portugal.
 
-<!-- page 72 -->
+72
+
+<!-- page 73 -->
 
 ---
 ▸LET US FIND OUT
@@ -1993,7 +2195,9 @@ global thinking names interests honestly, then looks for fair deals.
 
 Draw a shield with four interest icons.
 
-<!-- page 73 -->
+73
+
+<!-- page 74 -->
 
 ---
 5.2
@@ -2019,7 +2223,9 @@ exchanges and quiet phone calls.
 Diplomacy is slow and sometimes frustrating. It is still how most international problems are
 handled every day without headlines.
 
-<!-- page 74 -->
+74
+
+<!-- page 75 -->
 
 ---
 **●YOUR TURN**
@@ -2039,7 +2245,9 @@ cooperation.
 
 Design a "talk first" poster for nations (and for playgrounds).
 
-<!-- page 75 -->
+75
+
+<!-- page 76 -->
 
 ---
 5.3
@@ -2065,7 +2273,9 @@ science and dispute panels.
 Conflict is possible. So is creative sharing. Geography makes neighbours of people who must
 cooperate whether they like each other or not.
 
-<!-- page 76 -->
+76
+
+<!-- page 77 -->
 
 ---
 **●YOUR TURN**
@@ -2088,7 +2298,9 @@ Then: Which view protects children living downstream?
 
 Map a simple river across two countries. Write a joint rule.
 
-<!-- page 77 -->
+77
+
+<!-- page 78 -->
 
 ---
 5.4
@@ -2114,7 +2326,9 @@ others feel about a country.
 Soft power can be used kindly or manipulatively. Year 5 skill: notice influence, ask who benefits,
 keep your own critical mind.
 
-<!-- page 78 -->
+78
+
+<!-- page 79 -->
 
 ---
 **●YOUR TURN**
@@ -2134,7 +2348,9 @@ influence.
 
 Poster: Hard tools | Soft tools (age-safe icons only).
 
-<!-- page 79 -->
+79
+
+<!-- page 80 -->
 
 ---
 5.5
@@ -2160,7 +2376,9 @@ channels.
 Good response needs coordination, respect for local leaders, and protection of children.
 Curiosity is fine; disaster tourism and rumour-spreading are not.
 
-<!-- page 80 -->
+80
+
+<!-- page 81 -->
 
 ---
 **●YOUR TURN**
@@ -2180,7 +2398,9 @@ Crescent).
 
 Design a relief backpack with five essential items labelled.
 
-<!-- page 81 -->
+81
+
+<!-- page 82 -->
 
 ---
 5.6
@@ -2206,7 +2426,9 @@ instantly; attacks and crime can start far away.
 Future cooperation is not science fiction only. It is today's treaties and tomorrow's habits of
 evidence and restraint.
 
-<!-- page 82 -->
+82
+
+<!-- page 83 -->
 
 ---
 **●YOUR TURN**
@@ -2240,14 +2462,18 @@ Draw Earth with one satellite and one fibre cable under the sea.
 River treaty simulation. Two teams share a paper river. Negotiate a one-page treaty: water use,
 pollution limit, science sharing, dispute steps. Present for peer review.
 
-<!-- page 83 -->
+83
+
+<!-- page 84 -->
 
 ---
 →LOOKING AHEAD
 
 What is one careful question you want to take into the next unit?
 
-<!-- page 84 -->
+84
+
+<!-- page 85 -->
 
 ---
 ZZMARK-u6-ENDZZ
@@ -2263,7 +2489,9 @@ Wider Horizons · Networks, attention, truth, citizenship, creating and AI
 
 Who is in charge of your attention online?
 
-<!-- page 85 -->
+85
+
+<!-- page 86 -->
 
 ---
 Unit 6 · Digital world
@@ -2305,7 +2533,9 @@ Ask a grown-up to hold the device and open this page with you.
 What you will find: Safer Internet / child online safety hub (adult-supervised; use national safer-
 internet centre if preferred). URL: https://www.betterinternetforkids.eu/
 
-<!-- page 86 -->
+86
+
+<!-- page 87 -->
 
 ---
 ✦GETTING STARTED
@@ -2328,7 +2558,9 @@ What physical things must exist for a video call to work?
 
 Trace a message: your device → home router → bigger networks → a server → back again. Sketch it.
 
-<!-- page 87 -->
+87
+
+<!-- page 88 -->
 
 ---
 ▸LET US FIND OUT
@@ -2356,7 +2588,9 @@ Undersea fibre-optic cables carry a huge share of international internet traffic
 
 Draw the Atlantic with one cable line from Portugal toward another continent.
 
-<!-- page 88 -->
+88
+
+<!-- page 89 -->
 
 ---
 6.2
@@ -2383,7 +2617,9 @@ product was engineered.
 Your power is awareness: timers, grey-scale modes, adult settings, and hobbies offline. Schools
 and families set boundaries because developing brains deserve protection.
 
-<!-- page 89 -->
+89
+
+<!-- page 90 -->
 
 ---
 **●YOUR TURN**
@@ -2406,7 +2642,9 @@ Then: Which payment is harder to see?
 
 Poster: Designed to hook | Designed by me (my rules).
 
-<!-- page 90 -->
+90
+
+<!-- page 91 -->
 
 ---
 6.3
@@ -2433,7 +2671,9 @@ Never share a shocking claim to be first. Being first with a falsehood still har
 
 one reason for each.
 
-<!-- page 91 -->
+91
+
+<!-- page 92 -->
 
 ---
 **●YOUR TURN**
@@ -2457,7 +2697,9 @@ With an adult, open one reputable fact-check site and read a single example toge
 
 Detective badge: Claim · Source · Evidence · Decision.
 
-<!-- page 92 -->
+92
+
+<!-- page 93 -->
 
 ---
 6.4
@@ -2482,7 +2724,9 @@ copyright still apply. Age rules on platforms exist for a reason.
 
 Two columns on a piece of paper: Rights online | Duties online.
 
-<!-- page 93 -->
+93
+
+<!-- page 94 -->
 
 ---
 **●YOUR TURN**
@@ -2503,7 +2747,9 @@ From consumer to creator
 
 Look for a pupil making, not only consuming, media.
 
-<!-- page 94 -->
+94
+
+<!-- page 95 -->
 
 ---
 ↺DO YOU REMEMBER?
@@ -2535,7 +2781,9 @@ noise.
 
 Storyboard your helpful video.
 
-<!-- page 95 -->
+95
+
+<!-- page 96 -->
 
 ---
 6.6
@@ -2561,7 +2809,9 @@ also invent false details, copy biases in their training data, and seem more sur
 AI is not a person. It has no childhood and no care. Your job is to use tools with adult guidance,
 check outputs, and keep human judgement in charge.
 
-<!-- page 96 -->
+96
+
+<!-- page 97 -->
 
 ---
 **●YOUR TURN**
@@ -2589,7 +2839,9 @@ Then: Which parts of school should stay human-first?
 
 Label a robot drawing: Pattern tool, not a friend.
 
-<!-- page 97 -->
+97
+
+<!-- page 98 -->
 
 ---
 ☑WHAT WE LEARNED
@@ -2611,7 +2863,9 @@ Label a robot drawing: Pattern tool, not a friend.
 Digital detective agency. In groups of four, invent an agency name, a four-step method poster,
 and one case file (invented claim) solved with evidence. Present in five minutes.
 
-<!-- page 98 -->
+98
+
+<!-- page 99 -->
 
 ---
 ZZMARK-glossary-ENDZZ
@@ -2663,7 +2917,9 @@ supply chain - the path from materials to finished product to buyer
 
 hybrid culture - local and global styles mixed together
 
-<!-- page 99 -->
+99
+
+<!-- page 100 -->
 
 ---
 Unit 4 · The world of work
@@ -2702,7 +2958,9 @@ misinformation - false or misleading information
 
 network - linked systems that carry data between devices
 
-<!-- page 100 -->
+100
+
+<!-- page 101 -->
 
 ---
 ZZMARK-sources-ENDZZ
@@ -2738,7 +2996,9 @@ PDF/Input/
 2026-08-
 10
 
-<!-- page 101 -->
+101
+
+<!-- page 102 -->
 
 ---
 Unit 1
@@ -2844,7 +3104,9 @@ No readable text
 2026-08-
 13
 
-<!-- page 102 -->
+102
+
+<!-- page 103 -->
 
 ---
 Unit 2
@@ -2933,7 +3195,9 @@ Adult holds device
 2026-08-
 10
 
-<!-- page 103 -->
+103
+
+<!-- page 104 -->
 
 ---
 Unit 4
@@ -3018,7 +3282,9 @@ device
 2026-08-
 10
 
-<!-- page 104 -->
+104
+
+<!-- page 105 -->
 
 ---
 Unit 6
@@ -3067,7 +3333,9 @@ Content illustrations (2026-08-10)
 Original teaching art generated for this title (Prime School Press interior figures). Captions tell pupils
 what to look for.
 
-<!-- page 105 -->
+105
+
+<!-- page 106 -->
 
 ---
 File
@@ -3133,7 +3401,9 @@ Refresh any live statistics before assembly quotes.
 
 Content figures are original Prime illustrations, not third-party Input art.
 
-<!-- page 106 -->
+106
+
+<!-- page 107 -->
 
 ---
 ZZMARK-answers-ENDZZ
@@ -3185,7 +3455,9 @@ Phone upgrade is not a human right; food, education, protection are
 2.4-2.5
 Fair consequences + no gossip; cases are principles
 
-<!-- page 107 -->
+107
+
+<!-- page 108 -->
 
 ---
 Unit 3 · Globalisation
@@ -3245,7 +3517,9 @@ Helpful vs harmful \"help\"
 5.6
 Space/cyber need cross-border rules
 
-<!-- page 108 -->
+108
+
+<!-- page 109 -->
 
 ---
 Unit 6 · Digital world
@@ -3268,7 +3542,9 @@ Rights + duties + tell an adult
 6.5-6.6
 Creator permissions; AI = pattern tool, not person
 
-<!-- page 109 -->
+109
+
+<!-- page 110 -->
 
 ---
 ZZMARK-teachers-ENDZZ
@@ -3310,11 +3586,14 @@ Independent publication. Map topics to your school Global Perspectives / citizen
 Folder name on disk may read Global Prespectives (historical spelling); product title uses Global
 Perspectives.
 
-<!-- page 110 -->
-
----
+110
 
 <!-- page 111 -->
+
+---
+111
+
+<!-- page 112 -->
 
 ---
 **P R I M E  B O O K S**

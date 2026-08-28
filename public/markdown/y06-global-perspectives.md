@@ -2330,7 +2330,7 @@ recycling systems, nature care, cleaner transport planning. Ethical consumerism
 means choosing products with care for people and planet, not only price.
 
 Year 6 choices are sized for age: reduce waste, repair when possible, notice labels,
-support school eco projects. Perfect purity is not required. Better questions are.
+support school eco projects. Perfect purity is not required Better questions are.
 
 Prime School Press · www.primeschool.pt
 
@@ -2341,6 +2341,8 @@ Prime School Press · www.primeschool.pt
 **Listen / Correct: Key vocabulary used correctly.**
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
+
+-
 
 <!-- page 62 -->
 
@@ -2472,9 +2474,6 @@ Lifelong learning means skills keep growing after a single lesson or even after
 school years. A skills portfolio is a living list of what you can do and what you
 are learning next. Many countries encourage lifelong learning in education policy.
 
-Your portfolio is not a finished CV. It is a habit: notice skills, practise them,
-collect evidence (a project photo, a reflection, a teacher comment).
-
 Prime School Press · www.primeschool.pt
 
 **TEACHER NOTES**
@@ -2484,6 +2483,9 @@ Prime School Press · www.primeschool.pt
 **Listen / Correct: Key vocabulary used correctly.**
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
+
+Your portfolio is not a finished CV. It is a growing record: notice a skill,
+practise it, and collect evidence (a project photo, a reflection, a teacher comment).
 
 <!-- page 66 -->
 

@@ -194,7 +194,7 @@ CONTENTS
 **53**
 
 **Term 1 review**
-**59**
+**57**
 
 <!-- page 7 -->
 
@@ -2218,7 +2218,38 @@ UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
 57
 
+**HUMANITIES CORNER**
+
+**History**
+Long before coins, people swapped what they had. Thousands of years ago, China made the
+first paper money.
+
+**Geography**
+Some countries have tall glass towers, others villages of small houses. Where you live
+changes what you have and what things cost.
+
 <!-- page 58 -->
+
+---
+## TIME CAPSULE
+**History**
+
+Long before coins, people swapped what they had. A farmer traded grain for cloth, and a fisher
+traded the morning catch. Thousands of years ago people in China were the first to use paper
+money. Rich and poor have existed in every age, and so has sharing.
+
+## GLOBAL TROTTERS
+**Geography**
+
+Some countries have tall glass towers. Others have villages of small houses. Coffee grows on
+mountains near the equator and is drunk in cold northern cities. Where you live changes what you
+have, and what things cost.
+
+UNIT 2 · RICH AND POOR
+
+58
+
+<!-- page 59 -->
 
 ---
 ## Term 1 review
@@ -2271,9 +2302,9 @@ A home is built for its weather and its materials
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-58
+59
 
-<!-- page 59 -->
+<!-- page 60 -->
 
 ---
 4. Name a traditional game from Portugal and say what you do in it.
@@ -2318,9 +2349,9 @@ Wrote about people with respect
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-59
+60
 
-<!-- page 60 -->
+<!-- page 61 -->
 
 ---
 **MY NOTES**
@@ -2328,37 +2359,6 @@ UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 One thing from this term I want to remember next year.
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
-
-60
-
-**HUMANITIES CORNER**
-
-**History**
-Long before coins, people swapped what they had. Thousands of years ago, China made the
-first paper money.
-
-**Geography**
-Some countries have tall glass towers, others villages of small houses. Where you live
-changes what you have and what things cost.
-
-<!-- page 61 -->
-
----
-## TIME CAPSULE
-**History**
-
-Long before coins, people swapped what they had. A farmer traded grain for cloth, and a fisher
-traded the morning catch. Thousands of years ago people in China were the first to use paper
-money. Rich and poor have existed in every age, and so has sharing.
-
-## GLOBAL TROTTERS
-**Geography**
-
-Some countries have tall glass towers. Others have villages of small houses. Coffee grows on
-mountains near the equator and is drunk in cold northern cities. Where you live changes what you
-have, and what things cost.
-
-UNIT 2 · RICH AND POOR
 
 61
 

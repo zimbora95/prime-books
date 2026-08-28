@@ -1358,7 +1358,6 @@ ones invite stories.
 you feel about moving seat? · Is blue your favourite? · What helps you
 concentrate?
 
-2. Interview a staff member with two open questions about their day (with
 permission).
 
 3. Pin the best class question of the week on a wall space your teacher
@@ -1372,6 +1371,8 @@ the point.
 37
 
 UNIT 2 · TOPIC 2.4 · GREAT QUESTIONS
+
+2. Interview a peer with two open questions about their day (with permission ).
 
 <!-- page 38 -->
 
@@ -1473,7 +1474,6 @@ thinking first.
 Some people talk with their hands. Some prefer writing first. Some need
 quiet. Different is not wrong.
 
-Agree class signals for "I need a break". Inclusive communication is part of
 disability rights and good teamwork everywhere. Offer a drawing option for
 
 Draw your group. Put a star on the encourager.
@@ -1481,6 +1481,8 @@ Draw your group. Put a star on the encourager.
 40
 
 UNIT 2 · TOPIC 2.5 · GROUPS AND TURNS
+
+Agree on class signals for "I need a break". Inclusive communication is part of
 
 <!-- page 41 -->
 
@@ -2014,13 +2016,13 @@ love is…
 2. Write one respectful question about someone else's tradition (no personal
 invasion).
 
-3. Plan a class "games from many places" afternoon with teacher approval.
-
 56
 
 UNIT 3 · TOPIC 3.5 · FOOD, HOLIDAYS AND GAMES
 
 Learning a new game can help you make new friends.
+
+3. Plan a class "games from different places", with teacher approval.
 
 <!-- page 57 -->
 
@@ -3139,8 +3141,6 @@ Report tools exist for a reason
 
 Defend without becoming unkind yourself
 
-Kindness online looks like kindness offline.
-
 If a message feels mean, stop and tell a
 
 trusted adult.
@@ -3162,6 +3162,8 @@ skill, not "telling tales".
 88
 
 UNIT 5 · TOPIC 5.4 · KINDNESS ONLINE
+
+Kindness online should look like kindness offline.
 
 <!-- page 89 -->
 
@@ -3211,8 +3213,6 @@ UNIT 5 · TOPIC 5.4 · KINDNESS ONLINE
 Deepfake and edited images exist. You do not need the technical details yet.
 You need the habit of checking.
 
-Check who wrote it and why before you
-
 believe it.
 
 Deepfakes and edits exist; ask for help.
@@ -3234,6 +3234,8 @@ repeating them. You can start the same habit with adult help.
 90
 
 UNIT 5 · TOPIC 5.5 · FINDING THE TRUTH
+
+Check who wrote it and why, before you
 
 <!-- page 91 -->
 
