@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (67 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (71 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -21,7 +21,7 @@ PRIME SCHOOL PRESS · YEAR 7 PORTUGUESE
 
 Prime School Press · www.primeschool.pt
 
-**UNIDADE 1 · TEXTOS DOS MEDIA ......... pág. 3**
+**UNIDADE 1 · TEXTOS DOS MEDIA**
 
 Unidade 1 · Textos dos Media....................................
 **3**
@@ -73,128 +73,126 @@ Ficha de revisão · Unidade 1
 .......................................
 **23**
 
-**UNIDADE 2 · TEXTO NARRATIVO ......... pág. 24**
+**UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS**
 
-Unidade 2 · O Texto Narrativo
-....................................
+Unidade 2 · Uma viagem, muitas histórias
+......................
 **24**
-Características do texto narrativo...............................
+Palavras para partir · a autora..................................
 **25**
-Acção, tempo e espaço
-............................................
+O Cavaleiro da Dinamarca · texto..............................
 **26**
-Ler um texto narrativo ...........................................
+Missão do leitor.....................................................
 **27**
-Exercícios · A luva branca
-..........................................
+Compreender e justificar · inferências..........................
 **28**
-Gramática · Recursos expressivos
-...............................
+A estrutura narrativa · esquema................................
 **29**
-Autores portugueses: Almeida Garrett .......................
+Personagem, espaço e tempo...................................
 **30**
-Exercícios · Frei Luís de Sousa
-.....................................
+Palavras em viagem · vocabulário..............................
 **31**
-Autores portugueses: Eça de Queirós
-...........................
+Gramática · tempos verbais......................................
 **32**
-Escrever um resumo .............................................
+Pretérito perfeito ou imperfeito?................................
 **33**
-Exercícios · O resumo
-...............................................
+Pintar com palavras · descrição..................................
 **34**
-Escrever um texto narrativo ....................................
+A arte do diálogo..................................................
 **35**
-Comentário e texto de opinião....................................
+A viagem como símbolo...........................................
 **36**
-Oralidade · Exposição oral
-..........................................
+Writing Lab · a tua narrativa.....................................
 **37**
-Gramática · Tempos e modos verbais
-...........................
+Writing Toolkit · frases úteis......................................
 **38**
-Gramática · Pronomes átonos
-.....................................
+Fala e escuta · oralidade.........................................
 **39**
-Gramática · Funções sintáticas
-......................................
+Literatura em imagem · o mapa................................
 **40**
-Revisão da Unidade 2.............................................
+Cambridge Focus · responder bem............................
 **41**
+Relembra · o que aprendi........................................
+**42**
+Checkpoint · autoavaliação.......................................
+**43**
+O passaporte do leitor ...........................................
+**44**
+Ficha de revisão · Unidade 2
+.......................................
+**45**
 
-**UNIDADE 3 · TEXTO DRAMÁTICO ......... pág. 42**
+**UNIDADE 3 · TEXTO DRAMÁTICO**
 
 Unidade 3 · O Texto Dramático
 ....................................
-**42**
+**46**
 Características do texto dramático..............................
-**43**
+**47**
 Ler um texto dramático...........................................
-**44**
+**48**
 Exercícios · A audição
 ................................................
-**45**
-
+**49**
 Garrett em palco: Frei Luís de Sousa..........................
-**46**
+**50**
 Exercícios · Frei Luís de Sousa (2)
 .................................
-**47**
+**51**
 Escrever um texto dramático....................................
-**48**
+**52**
 Gramática · Frases simples e complexas
 .......................
-**49**
+**53**
 Revisão da Unidade 3.............................................
-**50**
+**54**
 
-**UNIDADE 4 · TEXTO POÉTICO ......... pág. 51**
+**UNIDADE 4 · TEXTO POÉTICO**
 
 Unidade 4 · O Texto Poético
 .......................................
-**51**
+**55**
 Características do texto poético.................................
-**52**
+**56**
 Fernando Pessoa: Mar Português..............................
-**53**
+**57**
 Exercícios · Mar Português
 ...........................................
-**54**
+**58**
 Florbela Espanca: Amar! ........................................
-**55**
+**59**
 Exercícios · Amar!
 ....................................................
-**56**
-Recursos expressivos do poema ..............................
-**57**
-Escrever um comentário.........................................
-**58**
-O teu comentário..................................................
-**59**
-Escrever poemas e narrativas .................................
 **60**
-Opinião sobre poesia..............................................
+Recursos expressivos do poema ..............................
 **61**
+Escrever um comentário.........................................
+**62**
+O teu comentário..................................................
+**63**
+Escrever poemas e narrativas .................................
+**64**
+Opinião sobre poesia..............................................
+**65**
 Gramática · Orações coordenadas
 .................................
-**62**
+**66**
 Gramática · Activa e passiva
 ......................................
-**63**
+**67**
 Gramática · Orações subordinadas
 ................................
-**64**
+**68**
 Revisão da Unidade 4.............................................
-**65**
+**69**
 
-**RECURSOS ......... pág. 66**
+**RECURSOS**
 
 Dossier do escritor ...............................................
-**66**
+**70**
 Soluções (exercícios fechados)
 ..................................
-**67**
+**71**
 
 <!-- page 3 -->
 
@@ -1097,801 +1095,915 @@ escreveste, a que for uma opinião.
 <!-- page 24 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Unidade 2 – O Texto Narrativo
-
-**De um livro aberto navega uma caravela: a magia da narrativa.**
-
-Contar histórias é a mais antiga das artes: antes de existir a escrita, já as histórias viajavam de
-boca em boca à volta da fogueira. Nesta unidade vais aprender como se constrói uma narrativa,
-dos contos de fadas aos romances de Eça de Queirós, e vais escrever a tua.
-
-ORALIDADE – planificar textos orais e fazer exposição oral.
-LEITURA – as características do texto narrativo.
-EDUCAÇÃO LITERÁRIA – textos narrativos de autores portugueses.
-ESCRITA – resumo, texto de opinião, comentário e texto narrativo.
-GRAMÁTICA – verbos, pronomes átonos, funções sintáticas, recursos expressivos.
-
-**PARA COMEÇAR**
-
-Pensa na última história que te prendeu até ao fim: um filme, um livro, uma série. O que fez com
-que quisesses saber o que acontecia a seguir? Escreve três respostas no caderno e guarda-as:
-vamos compará-las no fim da unidade com o que aprendeste sobre a estrutura da narrativa.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Unidade 2 – Uma viagem, muitas histórias
+
+**Sophia de Mello Breyner Andresen · O Cavaleiro da Dinamarca**
+
+**PENSA**
+
+O que podemos descobrir quando partimos à aventura?
+COMPETÊNCIAS: Ler · Compreender · Interpretar · Oralidade · Escrita · Gramática.
+
+**ENTRA NA HISTÓRIA · UMA VIAGEM COMEÇA...**
+Imagina que tens de partir de casa durante muitos meses. Não sabes exactamente o que vais encontrar.
+Vais conhecer lugares desconhecidos, pessoas diferentes e talvez viver situações inesperadas. Que
+sentimentos terias?
+
+**ANTES DE LER**
+1. O que associas à palavra viagem?
+
+2. Preferias viajar sozinho ou acompanhado? Porquê?
+
+3. O que pode uma pessoa aprender durante uma viagem?
+
+4. Achas que regressamos iguais depois de uma grande viagem? Justifica.
+
+**PENSA**
+
+Uma viagem pode ser muito mais do que uma deslocação de um lugar para outro. Pode ser uma
+descoberta.
 
 24
 
 <!-- page 25 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Características do texto narrativo
-
-**LEITURA · ESTUDAR O GÉNERO**
-
-Narrar é contar factos, reais ou imaginários, situados no tempo. Toda a narrativa tem seis
-elementos essenciais: a acção, as personagens, o narrador, o tempo, o espaço e o tema. Quem
-conta a história nunca é o autor: é o narrador, uma voz criada pelo autor.
-
-**OS SEIS ELEMENTOS DA NARRAÇÃO**
-
-**Elemento**
-**O que é**
-**Exemplo em «A luva branca»**
-
-Acção
-A sequência de acontecimentos
-Encontrar a luva e devolvê-la
-
-Personagens
-Quem vive a acção
-Marta, a rapariga do 8.º ano
-
-Narrador
-Quem conta a história
-3.ª pessoa observadora
-
-Tempo
-Quando acontece
-Três dias, em Setembro
-
-Espaço
-Onde acontece
-Ginásio e cantina da escola
-
-Tema
-O que a história diz
-A honestidade e a amizade
-
-**A ESTRUTURA DA ACÇÃO**
-
-**Momento**
-**O que acontece**
-**Pergunta-chave**
-
-Introdução
-Apresenta personagens e cenário
-Quem e onde?
-
-Desenvolvimento
-O conflito surge e agrava, até ao
-clímax
-
-Que problema?
-
-Desenlace
-O conflito resolve-se
-Como acaba?
-
-**O NARRADOR: AS TRÊS PESSOAS**
-
-1.ª PESSOA – narrador-personagem: participa na acção («Eu vi tudo.»)
-3.ª PESSOA OBSERVADORA – conta de fora, só o que vê.
-3.ª PESSOA ONISCIENTE – sabe tudo, até os pensamentos das personagens.
-Pergunta de ouro: o narrador diz «eu» ou diz «ele/ela»?
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Palavras para partir
+
+**VOCABULÁRIO · ANTES DA LEITURA**
+
+**Palavra**
+**Significado**
+
+cavaleiro
+homem que, na Idade Média, combatia a cavalo
+
+peregrinação
+viagem feita por motivos religiosos ou espirituais
+
+aventura
+experiência inesperada que pode envolver risco ou
+descoberta
+
+regresso
+acto de voltar ao lugar de onde se partiu
+
+**CONHECE A AUTORA**
+Sophia de Mello Breyner Andresen (1919-2004) foi uma das mais importantes escritoras portuguesas do
+século XX. A sua obra inclui poesia, contos e histórias para crianças e jovens. O mar, a natureza, a
+justiça, a liberdade, a beleza e a relação entre o ser humano e o mundo são temas muito presentes na
+sua escrita.
+
+Entre as suas obras para jovens encontram-se: A Fada Oriana · O Rapaz de Bronze · O Cavaleiro da
+Dinamarca.
+
+**SABIAS QUE...**
+
+Sophia recebeu, em 1999, o Prémio Camões, uma das mais importantes distinções literárias da
+língua portuguesa.
+
+**REPARA**
+
+Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, a luz, a noite e outros
+elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
+significado simbólico.
 
 25
 
 <!-- page 26 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Acção, tempo e espaço
-
-**LEITURA · A PROFUNDAR**
-
-O TEMPO pode ser cronológico (os factos seguem a ordem real) ou conter ANACRONIAS: a
-ANALEPSE (flashback), quando o narrador volta ao passado, e a PROLEPSE, quando antecipa o
-futuro. O ESPAÇO é físico (a escola, a rua, o mar) e social (o meio em que as personagens vivem), e
-cria ambientes: alegres, misteriosos, tensos.
-
-**TEMPO E ANACRONIAS**
-
-**Conceito**
-**Definição**
-**Exemplo**
-
-Tempo cronológico
-Factos pela ordem real
-Nasceu, cresceu, venceu
-
-Analepse (flashback)
-Volta ao passado
-«Anos antes, tinha perdido a
-mãe.»
-
-Prolepse
-Salto para o futuro
-«Muitos anos depois, seria
-rainha.»
-
-TESTE RÁPIDO. «Era uma vez uma princesa que vivia num castelo. Anos antes, quando era criança,
-tinha perdido a mãe. Muitos anos depois, seria rainha.»
-Identifica a analepse e a prolepse. Que efeito produz saber o futuro antes do tempo?
-
-**O ESPAÇO CRIA AMBIENTE**
-
-«A casa estava calada como sempre esteve.» – espaço silencioso, ambiente pesado.
-Escreve duas frases que criem um ambiente misterioso usando adjectivos do espaço (escuridão,
-corredores, sombras).
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Vamos ler – O Cavaleiro da Dinamarca
+
+**TEXTO LITERÁRIO · SOPHIA DE M. B. ANDRESEN**
+
+«O Cavaleiro da Dinamarca» conta a história de um nobre dinamarquês que parte de casa numa longa
+viagem a pé, através da Europa, até Jerusalém. Ao longo do caminho encontra reis, povos diferentes e
+situações inesperadas. Lemos agora o início da viagem, adaptado para estudo.
+
+Era uma tarde de Inverno, cinzenta e fria, quando o cavaleiro deixou o castelo onde tinha nascido. A
+neve cobria os campos e os rios estavam gelados. Ele caminhava devagar, com o manto pesado e a
+espada ao lado, e não olhava para trás.
+
+Durante muitos dias atravessou florestas escuras e aldeias adormecidas. À noite, dormia junto ao
+fogo e sonhava com o mar que ainda não tinha visto. Pela manhã, o frio mordia-lhe as mãos, mas
+ele continuava, passo a passo, para sul.
+
+Na companhia de outros peregrinos cruzou montanhas e vales. Por vezes, o caminho desaparecia
+sob a neve e era preciso adivinhá-lo. O cavaleiro perguntava aos camponeses que estrada levar e
+estes, admirados, olhavam para o seu manto estrangeiro e apontavam para longe.
+
+Assim, pouco a pouco, o cavaleiro da Dinamarca ia deixando para trás a terra dos seus avós e
+aproximava-se de mundos que não conhecia: onde se falavam outras línguas, se cantavam outras
+canções e se adoravam outros deuses.
+
+(Adaptado de Sophia de Mello Breyner Andresen, O Cavaleiro da Dinamarca, 1964.)
+
+**ENQUANTO LÊS... ASSINALA NO TEXTO**
+• uma informação sobre a personagem principal
+• uma indicação de espaço • uma indicação temporal
+• um acontecimento importante
+
+**EXERCÍCIOS 1**
+1. Qual é a estação do ano em que a viagem começa? Retira a expressão do texto.
+
+2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
 26
 
 <!-- page 27 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Ler um texto narrativo
-
-**LEITURA · TEXTO 1**
-
-A LUVA BRANCA
-
-Marta encontrou a luva na terça-feira, à saída do ginásio. Estava caída no degrau mais baixo,
-branca como um floco de neve impossível em Setembro. Ergueu-a devagar, como se fosse um teste
-de ciências: se a apertasse demais, estragava-a; se a largasse, perdia-se para sempre.
-
-— Alguém perdeu isto — disse para si própria, olhando em volta. O recreio estava vazio; só se ouvia
-o resguardo do portão a bater.
-
-Guardou-a na mochila. Na quarta-feira, não resistiu: procurou a dona por todos os balneários, por
-todas as salas de aula abertas, até pelo pavilhão dos mais pequenos. Nada. Na quinta, colou um
-cartaz na porta da cantina com uma pergunta simples: «Procuras uma luva branca?»
-
-Ao fim da tarde, uma rapariga do 8.º ano apareceu, sem fôlego, o cabelo a escapar do apanhador.
-
-— É minha — disse, e sorriu. — É da minha avó. Já foi dela, das aulas de patinagem, em 1974.
-
-Marta entregou-lhe a luva. Sentiu qualquer coisa estranha: a pena de largar o objecto e o gosto de
-o ter devolvido, os dois sentimentos ao mesmo tempo, como duas notas de música.
-
-A mulher da cantina, que tudo vira, comentou:
-
-— Fizeste bem. As coisas têm dono, mas as boas acções não têm.
-
-Marta sorriu. A luva branca voltaria a patinar; e ela, sem saber, tinha acabado de começar uma
-amizade.
-
-**VOCABULÁRIO**
-
-**resguardo pequena porta junto à principal**
-
-**apanhador acessório que segura o cabelo**
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Missão do leitor
+
+**LEITURA ORIENTADA**
+
+Enquanto lês (ou relês) o excerto, procura descobrir:
+
+**Pergunta**
+**O que procuras**
+
+Quem?
+Quem é a personagem principal?
+
+Onde?
+Onde começa a história?
+
+Quando?
+Em que época decorre?
+
+O quê?
+Qual é o acontecimento que desencadeia a viagem?
+
+Porquê?
+Qual é a razão da viagem?
+
+**EXERCÍCIOS 2**
+1. Quem é a personagem principal do texto?
+
+2. Onde vive inicialmente? Em que época decorre a narrativa?
+
+3. Que decisão toma? Qual é a razão dessa decisão?
+
+4. Que obstáculos ou dificuldades surgem pela road adiante?
+
+5. Como reage a personagem perante as dificuldades?
+
+**VERDADEIRO OU FALSO? (indica V ou F e corrige as falsas)**
+
+**Afirmação**
+**V/F**
+
+A personagem principal inicia uma viagem.
+
+A narrativa decorre num contexto contemporâneo.
+
+A viagem implica afastamento do espaço familiar.
+
+A personagem enfrenta situações inesperadas.
+
+O regresso é irrelevante para a narrativa.
 
 27
 
 <!-- page 28 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Exercícios – A luva branca
-
-**LEITURA · INTERPRETAÇÃO**
-
-1. Resume a acção principal numa frase.
-2. Classifica as personagens: principais ou secundárias? Quais são humanas?
-3. O narrador é 1.ª ou 3.ª pessoa? Justifica com uma citação.
-4. Qual é o espaço físico da acção? E o tempo (duração)?
-5. Divide a história nas três partes da estrutura e indica a palavra onde cada uma começa.
-6. «Branca como um floco de neve impossível em Setembro.» Que comparação é esta? Que
-ambiente cria?
-7. Qual é o conflito da história? E o desenlace? É surpreendente?
-8. «como duas notas de música» – que comparação o narrador faz? Que efeito produz?
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Compreender e justificar
+
+**INTERPRETAÇÃO · PRIMEIRO OLHAR**
+
+A. A viagem é também uma experiência de aprendizagem. Concordas? Justifica a tua resposta com duas
+informações do texto.
+
+**LER NAS ENTRELINHAS · DETECTIVE DO TEXTO**
+Nem toda a informação aparece directamente escrita. Um bom leitor consegue inferir informações a
+partir de pistas.
+
+EXEMPLO: se o texto diz «A personagem olha demoradamente para o mar antes de partir», podemos
+inferir que está a pensar na viagem, que sente alguma emoção perante a partida e que o mar poderá ter
+importância simbólica.
+
+**EXERCÍCIOS 3**
+1. Que sentimentos da personagem consegues inferir? Que pistas do texto te permitem chegar a essa
+conclusão?
+
+2. A personagem parece corajosa? Justifica.
+
+3. O que poderá representar a viagem?
+
+**LER + INFERIR**
+
+Quando uma pergunta pede uma inferência, não basta copiar uma frase do texto. 1. Encontra a
+pista. 2. Pensa no que essa pista significa. 3. Explica a tua conclusão. Fórmula útil: pista do texto +
+interpretação = inferência.
 
 28
 
 <!-- page 29 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Gramática – Recursos expressivos
-
-**GRAMÁTICA · COM O TEXTO NARRATIVO**
-
-Os escritores usam recursos expressivos para dar cor, som e força às palavras. Já os encontraste
-nos textos; agora aprende os seus nomes. Esta tabela é o teu mapa para toda a unidade e para os
-poemas da Unidade 4.
-
-**RECURSOS EXPRESSIVOS ESSENCIAIS**
-
-**Recurso**
-**Definição**
-**Exemplo**
-
-Comparação
-Liga dois termos com «como»
-«branca como um floco de neve»
-
-Metáfora
-Substitui um termo por outro
-«as palavras eram notas de
-música»
-
-Personificação
-Dá características humanas
-«o portão batia», «a casa fala»
-
-Hipérbole
-Exagero para dar força
-«esperei um século»
-
-Anáfora
-Repetição no início dos versos
-«Quantas… Quantos…
-Quantas…»
-
-Apóstrofe
-Chamamento directo
-«Ó mar salgado!»
-
-EXERCÍCIO 1. Identifica o recurso: «A luva branca como um floco de neve» / «sentiu a pena e o
-gosto ao mesmo tempo» (ideias opostas) / «o recreio estava vazio, só se ouvia o portão» (silêncio
-que fala).
-EXERCÍCIO 2. Escreve três frases sobre a tua escola: uma com comparação, uma com
-personificação, uma com hipérbole.
-EXERCÍCIO 3. Explica o efeito de «branca como um floco de neve impossível em Setembro»: porque
-é que a palavra «impossível» torna a comparação mais forte?
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Como interpretar um texto narrativo
+
+**RELEMBRA · A ESTRUTURA**
+
+Um texto narrativo apresenta acontecimentos vividos por personagens, num determinado tempo e
+espaço, contados por um narrador.
+
+**OS 5 ELEMENTOS ESSENCIAIS**
+
+**Elemento**
+**Pergunta**
+
+Personagens
+Quem participa na história?
+
+Espaço
+Onde acontecem os acontecimentos?
+
+Tempo
+Quando acontecem?
+
+Narrador
+Quem conta a história?
+
+Acção
+O que acontece?
+
+**A ESTRUTURA DA NARRATIVA**
+
+**SITUAÇÃO INICIAL**
+
+conhecemos personagens, espaço e situação
+
+**▼**
+
+**DESENVOLVIMENTO**
+
+surge um problema ou acontecimento
+
+**▼**
+
+**CLÍMAX**
+
+momento de maior tensão ou importância
+
+**▼**
+
+**DESFECHO**
+
+a situação é resolvida ou transformada
+
+**DICA**
+
+Quando leres uma narrativa, pergunta primeiro: Quem? Onde? Quando? O quê? Porquê?
 
 29
 
 <!-- page 30 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Autores portugueses: Almeida Garrett
-
-**EDUCAÇÃO LITERÁRIA · TEXTO 2**
-
-PORTO, SÉCULO XVII. Casa de D. Manuel de Sousa Coutinho. D. MADALENA, sua mulher, passeia
-inquieta.
-
-D. MADALENA — (Sozinha.) Que tarde tão comprida! A luz demora-se a ir-se embora, como se
-também ela tivesse medo da noite… Telmo, Telmo!
-
-TELMO — (Entrando.) Aqui estou, minha senhora; que mandais?
-
-D. MADALENA — Nada mando, Telmo. Chamo por chamar, porque me pesa o silêncio desta casa.
-
-TELMO — A casa está calada como sempre esteve, senhora.
-
-D. MADALENA — Calada, dizes tu? Pois a mim parece-me que ela fala. Fala comigo das coisas que
-cá passaram… dos que cá morreram… dos que nunca mais voltaram!
-
-TELMO — (Baixo.) Onze anos…
-
-D. MADALENA — Que disseste, Telmo?
-
-TELMO — Disse que vem aí a tarde, minha senhora, e que a menina, vossa filha, vos procura.
-
-D. MADALENA — Vai, Telmo, vai; deixa-me só. Não é para ti o que eu tenho cá dentro. (Telmo sai.)
-Que inquietação é esta que me não deixa viver nem morrer?
-
-(Adaptado de Almeida Garrett, Frei Luís de Sousa, 1844.)
-
-**ALMEIDA GARRETT (1799-1854)**
-
-João Baptista da Silva Leitão de Almeida Garrett, visconde de Almeida Garrett, nasceu no
-Porto e é o pai do Romantismo português. Viveu os anos agitados das invasões francesas
-e das guerras liberais, e esteve no exílio em Inglaterra, onde descobriu Shakespeare e
-Walter Scott. Foi poeta, novelista, dramaturgo, jornalista e político: fundou o Teatro
-Nacional D. Maria II e escreveu Frei Luís de Sousa (1844), Viagens na Minha Terra e o
-Romanceiro. No Romantismo de Garrett pesam as paixões intensas, o nacionalismo, o
-gosto pelas ruínas e pelo passado, e a força do destino sobre as personagens.
-
-**VOCABULÁRIO**
-
-**exílio afastamento forçado do país**
-
-**dramaturgo autor de teatro**
-
-**romanceiro colectânea de romances populares**
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Personagem, espaço e tempo
+
+**ANÁLISE · PERFIL DA PERSONAGEM**
+
+**QUEM? · PREENCHE O PERFIL DA PERSONAGEM PRINCIPAL**
+
+Nome:
+
+Idade aproximada:
+Características físicas:
+
+Características psicológicas:
+
+Objectivo:
+
+Principal dificuldade:
+
+**ONDE? · OS ESPAÇOS DA NARRATIVA**
+Identifica os espaços referidos no texto. Depois explica como contribui o espaço para criar o ambiente
+da narrativa.
+
+**QUANDO? · A ÉPOCA DA NARRATIVA**
+Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
 30
 
 <!-- page 31 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Exercícios – Frei Luís de Sousa
-
-**EDUCAÇÃO LITERÁRIA · INTERPRETAÇÃO**
-
-1. Quanto tempo passou desde a partida de D. João de Portugal? Como o sabes?
-2. Porque chama D. Madalena por Telmo, se «nada manda»?
-3. «A casa fala comigo.» Que sentimento esta personificação revela?
-4. O que Telmo diz «(Baixo)» e não quer que a senhora ouça? Porque será?
-5. Que tipo de texto é este: narrativo, dramático ou poético? Justifica com duas provas da sua
-estrutura.
-6. Que características do Romantismo reconheces na cena: o peso do passado, o destino, o
-sofrimento? Explica.
-7. Escreve três linhas continuando o monólogo final de D. Madalena, no mesmo tom de angústia.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Palavras em viagem
+
+**VOCABULÁRIO**
+
+**1. RELACIONA CADA PALAVRA COM O SIGNIFICADO**
+
+**Palavra**
+**Significado**
+
+1. peregrino
+a. caminho ou percurso
+
+2. jornada
+b. pessoa que realiza uma peregrin
+
+3. destino
+c. lugar para onde alguém se dirige
+
+4. travessia
+d. passagem de um lugar para out
+
+**2. FAMÍLIA DE PALAVRAS · COMPLETA**
+
+viajar → viagem →
+
+partir → partida →
+
+regressar → regresso →
+
+**3. SINÓNIMOS · ENCONTRA NO TEXTO OU NO DICTIONÁRIO**
+
+corajoso →
+
+caminho →
+
+difícil →
+
+feliz →
+
+**DICA**
+
+Um vocabulário rico torna a tua escrita mais precisa e interessante. Evita repetir sempre: bonito ·
+bom · mau · grande · disse · foi. Procura palavras mais específicas.
 
 31
 
 <!-- page 32 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Autores portugueses: Eça de Queirós
-
-**EDUCAÇÃO LITERÁRIA · AUTOR**
-
-**A mesa de escrita do século XIX: a cidade de Eça atrás da janela.**
-
-José Maria Eça de Queirós (1845-1900) nasceu na Póvoa de Varzim e é o grande nome do Realismo
-português. Cônsul de carreira, viveu em Havana, Bristol e Paris, e foi de lá que escreveu, com a
-distância de quem vê Portugal de longe, os romances que retratam a sociedade portuguesa do
-século XIX com ironia e um olhar de espectador atento.
-
-As suas personagens são inesquecíveis: o político inescrupuloso, o padre hipócrita, a dama
-romântica, o jovem de boas intenções que a cidade corrói. Escreveu O Crime do Padre Amaro, O
-Primo Basílio, Os Maias e A Cidade e as Serras. Nas suas páginas, Lisboa, o Porto e o Douro
-tornam-se personagens vivas.
-
-Ao contrário de Garrett, que escrevia com o coração romântico, Eça escrevia com os olhos de um
-cientista: observar, descrever, expor. É por isso que a sua obra continua actual: as fraquezas
-humanas que ele retratou não envelheceram.
-
-EXERCÍCIO 1. Compara Garrett e Eça com a tabela do caderno: época literária, temas, modo de
-olhar o mundo.
-EXERCÍCIO 2. Que diferença há entre o olhar «romântico» e o olhar «realista»? Explica com um
-exemplo de cada.
-EXERCÍCIO 3. Eça viveu fora de Portugal para melhor o poder descrever. Que vantagens e
-desvantagens tem ver a própria casa de longe? Escreve cinco linhas.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Gramática – Os tempos verbais na narrativa
+
+**GRAMÁTICA EM CONTEXTO**
+
+Os verbos são fundamentais numa narrativa porque permitem apresentar acções, acontecimentos
+e estados. Observa:
+
+**O cavaleiro partiu.  ·  Durante a viagem, encontrou diferentes pessoas.**
+
+**Quando chegou, descobriu novas realidades.**
+
+Os verbos destacados estão no pretérito perfeito do indicativo.
+
+**RELEMBRA**
+
+O pretérito perfeito do indicativo apresenta, geralmente, uma acção passada e concluída.
+
+**EXERCÍCIOS 4**
+1. Retira do texto três verbos no pretérito perfeito e dois no pretérito imperfeito.
+
+Pretérito perfeito:
+
+Pretérito imperfeito:
+2. Completa as frases:
+
+Quando era criança, o cavaleiro
+
+Um dia,
+
+Durante a viagem,
+
+3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
+pretérito imperfeito.
 
 32
 
 <!-- page 33 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Escrever um resumo
-
-**ESCRITA · ESTUDAR A TÉCNICA**
-
-Resumir é dizer o essencial com poucas palavras, sem opinião pessoal. É a competência de escrita
-mais usada na escola e na vida: quem sabe resumir, sabe pensar com clareza.
-
-**AS SEIS REGRAS DO RESUMO**
-
-**Passo**
-**O que fazes**
-**Erro a evitar**
-
-1. Lê duas vezes
-Aprende o texto inteiro
-Resumir sem compreender
-
-2. Sublinha as ideias principais
-Uma por parágrafo, em geral
-Sublinhar tudo
-
-3. Elimina o acessório
-Exemplos, repetições, diálogos
-Copiar frases inteiras
-
-4. Não acrescentes nada
-Só o que está no texto
-Dar a tua opinião
-
-5. Usa as tuas palavras
-Reescreve com vocabulário teu
-Copiar e colar
-
-6. Verifica o tamanho
-1/4 a 1/3 do original
-Resumo do mesmo tamanho
-
-**RESUMO-MODELO · «A LUVa BRANCA» EM TRÊS LINHAS**
-
-Marta encontra uma luva perdida no ginásio e procura a dona durante três dias, com cartazes na
-cantina. A dona, uma aluna do 8.º ano, reclama-a: a luva pertencia à avó, de 1974. Marta entrega-a
-e ganha uma amizade.
-Nota como o resumo elimina diálogos e descrições e fica só com a espinha dorsal da acção.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Pretérito perfeito ou imperfeito?
+
+**GRAMÁTICA · DUAS FORMAS DE CONTAR O PASSADO**
+
+Compara:
+
+**O cavaleiro caminhava pela floresta.  (imperfeito)**
+
+**O cavaleiro encontrou um viajante.  (perfeito)**
+
+**PRETÉRITO IMPERFEITO**
+
+• descrever;
+• apresentar situações habituais;
+• indicar acções em desenvolvimento.
+
+**PRETÉRITO PERFEITO**
+
+• apresentar acontecimentos concluídos;
+• fazer avançar a acção.
+
+**EXERCÍCIOS 5**
+Completa o texto com os verbos adequados (imperfeito ou perfeito).
+
+A noite ______ (estar) fria e o cavaleiro ______ (caminhar) lentamente.
+
+De repente, ______ (ouvir) um ruído. ______ (parar) e
+
+______ (olhar) à sua volta.
+
+Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
 33
 
 <!-- page 34 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Exercícios – O resumo
-
-**ESCRITA · TREINAR**
-
-EXERCÍCIO 1. Resume no caderno, em três linhas, a notícia do cão Baguete (Unidade 1), seguindo
-as seis regras da tabela anterior. Não copies frases inteiras.
-
-EXERCÍCIO 2. No resumo da cena de Garrett, quais destas informações deviam FICAR (C) e quais
-deviam SAIR (S)?
-( ) D. Madalena espera há onze anos notícias do primeiro marido.
-( ) Telmo usa um fato escuro.
-( ) D. Madalena casou segunda vez.
-( ) A filha chama-se Maria.
-( ) D. Madalena pressente uma presença na casa.
-
-EXERCÍCIO 3. Resume a cena de Garrett em quatro linhas.
-
-EXERCÍCIO 4. Em pares: cada aluno resume oralmente, em um minuto, o último episódio de uma
-série que goste. O colega avalia: apareceu opinião pessoal? Faltou o essencial? Sobrou pormenor?
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Pintar com palavras – a descrição
+
+**ESCRITA · DESCRIÇÃO**
+
+Uma boa descrição permite ao leitor imaginar uma personagem, um lugar ou uma situação.
+Observa as palavras que podem construir uma descrição:
+
+**luz**
+**escuro**
+**silencioso**
+**distante**
+**imenso**
+**frio**
+**luminoso**
+**misterioso**
+
+**EXERCÍCIOS 6**
+Descreve agora o espaço da viagem do cavaleiro. Utiliza: pelo menos 3 adjectivos · uma referência a um
+som · uma referência à luz · uma comparação.
+
+**A MINHA DESCRIÇÃO**
+
+**CAMBRIDGE FOCUS**
+
+Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores específicos
+que ajudem o leitor a imaginar o lugar.
 
 34
 
 <!-- page 35 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Escrever um texto narrativo
-
-**ESCRITA · A TUA NARRATIVA**
-
-Escreve um texto narrativo (25 a 30 linhas) com este desafio: uma personagem encontra um
-objecto perdido que pertenceu a alguém do passado.
-
-PLANO:
-1. PERSONAGEM – quem é? Que idade tem? O que deseja?
-2. ESPAÇO E TEMPO – onde e quando (um só espaço, um só dia: mais fácil).
-3. CONFLITO – que problema o objecto traz?
-4. CLÍMAX – o momento de maior tensão.
-5. DESENLACE – como se resolve? Pode ser surpreendente.
-6. Escreve em 1.ª ou 3.ª pessoa, mas mantém a mesma até ao fim.
-7. Usa pelo menos dois recursos expressivos: uma comparação, uma personificação ou uma
-metáfora.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## A arte do diálogo
+
+**ESCRITA · QUANDO AS PERSONAGENS FALAM**
+
+O diálogo permite: conhecer melhor as personagens · apresentar informação · desenvolver a acção ·
+criar tensão · tornar a narrativa mais dinâmica.
+
+**EXERCÍCIOS 7**
+Imagina que o cavaleiro encontra uma pessoa desconhecida durante a viagem. Escreve um diálogo de 8
+a 10 falas. Deves incluir: uma pergunta · uma resposta inesperada · uma descrição breve · um momento
+de surpresa.
+
+**ESCREVE O TEU DIÁLOGO**
+
+Cavaleiro:
+
+Estranho:
+
+Cavaleiro:
+
+Estranho:
+
+Cavaleiro:
+
+**DICA**
+
+Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
+travessão (—) quando a personagem fala dentro da narração.
 
 35
 
 <!-- page 36 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Comentário e texto de opinião
-
-**ESCRITA · COMENTAR E OPINAR**
-
-O plano desta unidade pede também texto de opinião e comentário. A diferença é subtil: no texto
-de OPINIÃO defendes uma tese sobre um tema; no COMENTÁRIO analisas um texto ou obra e dás a
-tua apreciação com provas do próprio texto.
-
-TAREFA A · TEXTO DE OPINIÃO (15 linhas): «Devem os adolescentes ler livros obrigatórios na
-escola?» Introdução com a tese, dois argumentos com exemplos, um contra-argumento e
-conclusão.
-
-TAREFA B · COMENTÁRIO (15 linhas): comenta «A luva branca»: resumo em 2 linhas, o que mais
-gostaste na forma de contar (cita frases!), a mensagem da história e a tua apreciação final.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## A viagem como símbolo
+
+**INTERPRETAÇÃO · MAIS DO QUE UMA VIAGEM**
+
+Uma viagem pode representar:
+
+**crescimento**
+**descoberta**
+**coragem**
+**conhecimento**
+**transformação**
+
+Na narrativa, a viagem pode transformar a personagem. Completa:
+
+No início da história, a personagem é
+
+Durante a viagem, aprende
+
+No final, percebe
+
+**EXERCÍCIOS 8**
+QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
+mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
 36
 
 <!-- page 37 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Oralidade – Exposição oral
-
-**ORALIDADE · PLANIFICAR E EXPOR**
-
-Expor oralmente um tema é contar o que sabes a uma audiência, com organização e clareza.
-
-PLANIFICAR (antes):
-1. Define o tema e o objectivo: o que devem saber quando eu terminar?
-2. Faz um esquema de três partes: introdução, desenvolvimento (2-3 ideias com exemplos),
-conclusão.
-3. Prepara um apoio visual: cartaz, diapositivo ou objecto.
-
-EXPOR (durante): olha para a audiência, não leias as notas palavra por palavra, fala devagar com
-volume alto, marca pausas entre as ideias, usa conectores («em primeiro lugar», «para terminar»)
-e controla o corpo: postura erecta, gestos naturais.
-
-**A FICHA DE PLANIFICAÇÃO**
-
-**Campo**
-**O que escreves**
-
-Tema
-O meu livro preferido
-
-Tópico 1
-Enredo em 3 frases
-
-Tópico 2
-Personagem preferida + porque
-
-Tópico 3
-A quem recomendo + porque
-
-Abertura / fecho
-Frase de início / frase final
-
-Apoio visual
-Capa, objecto, cartaz
-
-EXERCÍCIO 1. Preenche a ficha para uma exposição de 3 minutos sobre «O meu livro preferido».
-EXERCÍCIO 2. Em pares, ensaia com o colega a cronometrar: objectivo, entre 2m30s e 3m. Curto?
-Acrescenta um exemplo. Longo? Corta pormenores.
-EXERCÍCIO 3. Painel de avaliação: durante as exposições, preenche a grelha para dois colegas
-(volume, organização, contacto visual, tempo). Cada comentário começa com um elogio e acaba
-com uma sugestão.
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Writing Lab – escreve a tua própria viagem
+
+**ESCRITA · NARRATIVA DE 180 A 220 PALAVRAS**
+
+Imagina que vais partir numa viagem para um lugar completamente desconhecido. Escreve uma
+narrativa de 180 a 220 palavras que inclua:
+
+☑ uma personagem principal ☑ um espaço desconhecido ☑ uma viagem
+☑ um acontecimento inesperado ☑ um momento de tensão ☑ um diálogo ☑ um desfecho
+
+**PLANIFICA ANTES DE ESCREVER**
+
+Quem?
+
+Para onde?
+
+Porquê?
+
+Qual é o problema?
+
+O que acontece no momento de maior tensão?
+
+Como termina?
+
+**O MEU RASCUNHO**
 
 37
 
 <!-- page 38 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Gramática – Tempos e modos verbais
-
-**GRAMÁTICA · OS TRÊS MODOS**
-
-O MODO indica a atitude de quem fala: o INDICATIVO afirma factos certos («eu leio»), o
-CONJUNTIVO exprime desejo, dúvida ou hipótese («que eu leia», «se eu lesse») e o IMPERATIVO dá
-ordem ou pedido («lê tu!»). O CONDICIONAL («eu leria») serve para hipóteses e polidez.
-
-**TEMPOS DO INDICATIVO**
-
-**Tempo**
-**Uso**
-**Exemplo**
-
-Presente
-Facto actual
-«Marta encontra a luva.»
-
-Pretérito perfeito
-Acção terminada
-«Encontrou-a na terça.»
-
-Pretérito imperfeito
-Acção habitual/em curso no
-passado
-
-«Procurava a dona.»
-
-Pret. mais-que-perfeito
-Passado antes do passado
-«Já a lera antes.»
-
-Futuro
-Acção futura
-«Voltará a patinar.»
-
-**TEMPOS DO CONJUNTIVO**
-
-**Tempo**
-**Marcador típico**
-**Exemplo**
-
-Presente
-que / esperar que
-«Espero que encontres.»
-
-Imperfeito
-se / como se
-«Se tivesses procurado…»
-
-Futuro
-quando (futuro)
-«Quando eu ler, aviso.»
-
-**DICAS DE OURO**
-
-PERFEITO: acção terminada («li ontem»).
-IMPERFEITO: hábito ou curso no passado («lia todos os dias», «estava a ler»).
-CONJUNTIVO depois de: que, se, esperar/desejar que.
-EXERCÍCIO: identifica o tempo de «encontrou», «procurava», «voltará», «lera», «tivesse procurado».
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Writing Toolkit – a caixa de ferramentas do escritor
+
+**ESCRITA · FRASES ÚTEIS**
+
+**PARA COMEÇAR**
+
+• Era uma manhã...
+• Tudo começou quando...
+• Nunca imaginara que...
+• Há muito tempo...
+
+**PARA FAZER AVANÇAR A ACÇÃO**
+
+• De repente...
+• Pouco depois...
+• Entretanto...
+• Nesse momento...
+• Sem avisar...
+
+**PARA CRIAR TENSÃO**
+
+• O silêncio tornou-se...
+• Algo não estava certo.
+• Por um instante, ficou imóvel.
+• Não sabia o que fazer.
+
+**PARA TERMINAR**
+
+• Finalmente...
+• A partir desse dia...
+• Quando regressou...
+• Nunca mais se esqueceu de...
+
+**LIGA AS TUAS IDEIAS**
+
+Evita frases isoladas. Utiliza conectores: primeiro → depois → entretanto → por isso → contudo →
+finalmente.
 
 38
 
 <!-- page 39 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Gramática – Pronomes átonos
-
-**GRAMÁTICA · PRÓCLISE E ÊNCLISE**
-
-Os pronomes pessoais átonos (me, te, se, o, a, lhe, nos, vos, os, as, lhes) podem ficar DEPOIS do
-verbo (ênclise), unidos por hífen: «Encontrei-a no degrau.» «Entregou-lhe a luva.» Ou ANTES do
-verbo (próclise), quando uma palavra atractora os puxa.
-
-**AS SITUAÇÕES DE PRÓCLISE**
-
-**Atractora**
-**Exemplo**
-
-Palavra negativa
-«Não a encontrei.»
-
-Advérbio sem vírgula
-«Ontem encontrou-a» (mas «Ontem, encontrou-a»)
-
-Pronome relativo
-«a luva que encontrei»
-
-Conjunção
-«Quando a vi, sorri.»
-
-Interrogativa/exclamativa
-«Onde a encontraste?»
-
-**REGRA DE OURO**
-
-Verbo no início da frase positiva → pronome DEPOIS: «Entreguei-lhe.»
-Qualquer palavra atractora antes do verbo → pronome ANTES: «Não lhe entreguei.»
-MESÓCLISE no futuro: «Encontrar-te-ei amanhã.» (formal, raro)
-EXERCÍCIO: corrige «Não encontrei-a.» / «Me dá a luva?» / «Ontem a encontrei e devolvi-lhe.»
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Fala e escuta – conversa de viajantes
+
+**ORALIDADE · EM PARES**
+
+Trabalha com um colega. SITUAÇÃO: um de vocês acabou de regressar de uma viagem extraordinária; o
+outro quer saber tudo.
+
+**PERGUNTA AO TEU COLEGA**
+1. Para onde foste?
+2. Porque decidiste partir?
+3. Qual foi o momento mais difícil?
+4. Conheceste alguém especial?
+5. O que aprendeste?
+6. Voltarias a fazer a mesma viagem?
+
+**DESAFIO DE ORALIDADE 9**
+No final, apresenta o teu colega à turma. Deves dizer: «A viagem do/a ______ foi especial porque...»
+
+Regista aqui as notas para a tua apresentação:
+
+**CRITÉRIOS**
+
+Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
+terminar») · controla o corpo: postura erecta, gestos naturais.
 
 39
 
 <!-- page 40 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Gramática – Funções sintáticas
-
-**GRAMÁTICA · OS GRUPOS DA FRASE**
-
-A frase organiza-se em grupos com funções próprias. O SUJEITO pratica a acção; o restante é o
-PREDICADO, que contém os complementos. A análise sintáctica parece difícil, mas com a tabela e o
-truque prático torna-se um jogo de perguntas.
-
-**AS FUNÇÕES SINTÁTICAS**
-
-**Função**
-**Pergunta**
-**Exemplo**
-**Resultado**
-
-Sujeito
-Quem pratica?
-Marta ofereceu…
-Marta (S)
-
-Compl. directo
-O quê? (sem
-preposição)
-
-ofereceu a luva
-a luva (CD)
-
-Compl. indirecto
-A quem? Para quem?
-à amiga
-à amiga (CI)
-
-Compl. oblíquo
-Com quê? De quê?
-falou com o professor
-com o professor (CO)
-
-Compl. agente
-Pela quem? (na passiva)
-foi encontrada por Marta
-por Marta
-
-Vocativo
-Chamamento
-«Maria, vem cá!»
-Maria
-
-**TRUQUE PRÁTICO**
-
-CD: «encontrou o quê?» → a luva.
-CI: «entregou a quem?» → à dona.
-PROVA DA PASSIVA: se a frase passa para a passiva, o CD torna-se sujeito: «A luva foi encontrada
-por Marta.»
-EXERCÍCIO: analisa «Marta ofereceu a luva à amiga.» / «O rapaz leu o cartaz na cantina.» / «Devolvi
-o livro à bibliotecária.»
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Literatura em imagem – o mapa da viagem
+
+**PROJECTO CRIATIVO**
+
+Cria um mapa da viagem da personagem. Em cada etapa, escreve uma frase explicando o que
+acontece.
+
+**ponto de partida →**
+
+**primeiro destino →**
+
+**obstáculo →**
+
+**novo lugar →**
+
+**descoberta →**
+
+**regresso**
+
+**CRIATIVIDADE EXTRA**
+
+Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu símbolo representa a
+viagem porque...»
+O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 
 40
 
 <!-- page 41 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · TEXTO NARRATIVO
-
-## Revisão da Unidade 2
-
-**REVISÃO · TESTE-TREINO**
-
-LEITURA – os seis elementos da narração, a estrutura da acção, tempo e espaço, o narrador.
-LITERÁRIA – li Garrett e conheci Eça de Queirós; distingui géneros literários.
-ESCRITA – resumi textos, escrevi uma narrativa, um comentário e um texto de opinião.
-ORALIDADE – planifiquei e fiz uma exposição oral.
-GRAMÁTICA – tempos e modos verbais, pronomes átonos, recursos expressivos e funções
-sintáticas.
-
-**TESTE-TREINO FINAL**
-
-**Pergunta**
-**A tua resposta**
-
-1. Quais são os seis elementos da narração?
-
-2. Diferença entre narrador de 1.ª e 3.ª pessoa?
-
-3. Três regras do resumo?
-
-4. Uma situação de próclise e uma de ênclise?
-
-5. «Ofereci flores à professora»: S, CD, CI?
-
-6. Passa para a passiva: «O vento derrubou a
-árvore.»
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+## Cambridge Focus – responder bem a uma pergunta
+
+**INTERPRETAÇÃO · EVIDÊNCIA + EXPLICAÇÃO**
+
+Uma resposta forte precisa de evidência + explicação.
+
+**RESPOSTA FRACA**
+
+«A personagem é corajosa.» ✗ Não explica porquê.
+
+**RESPOSTA MELHOR**
+
+«A personagem demonstra coragem porque decide partir apesar das dificuldades que sabe que
+poderá encontrar.»
+
+**RESPOSTA AINDA MELHOR**
+
+«A personagem demonstra coragem porque decide abandonar o espaço seguro onde vive e
+enfrentar o desconhecido. Esta decisão mostra que está disposta a correr riscos para concretizar o
+seu objectivo.»
+
+**REGRA DE OURO**
+
+Não basta dizer. Explica. Pergunta sempre: «Como sei isso?»
+
+**EXERCÍCIOS 10**
+Escreve agora a TUA resposta forte à pergunta: «O cavaleiro é uma personagem perseverante?» Usa a
+fórmula evidência + explicação.
 
 41
 
 <!-- page 42 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Relembra – o que aprendi
+
+**REVISÃO DA UNIDADE 2**
+
+**TEXTO NARRATIVO**
+Um texto narrativo apresenta: PERSONAGENS + ACÇÃO + ESPAÇO + TEMPO + NARRADOR.
+
+**APRENDI A...**
+☑ identificar personagens e o seu perfil
+☑ identificar o espaço e o tempo
+☑ reconhecer a estrutura narrativa (situação inicial → desenvolvimento → clímax → desfecho)
+☑ distinguir informação explícita de implícita e fazer inferências
+☑ utilizar o pretérito perfeito e o pretérito imperfeito
+☑ construir uma descrição e escrever diálogos
+☑ utilizar conectores e justificar as minhas respostas
+
+**A VIAGEM COMO SÍMBOLO**
+crescimento · descoberta · coragem · conhecimento · transformação
+
+Uma frase para levar contigo: as grandes viagens não mudam apenas o lugar onde estamos. Podem
+mudar a forma como vemos o mundo.
+
+42
+
+<!-- page 43 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Checkpoint – missão cumprida?
+
+**AUTOAVALIAÇÃO**
+
+Classifica o teu desempenho em cada competência.
+
+**Consigo...**
+**Ainda não**
+**Com ajuda**
+**Sozinho**
+
+Identificar a personagem principal
+
+Identificar o espaço e o tempo
+
+Explicar a estrutura da narrativa
+
+Fazer uma inferência
+
+Justificar uma resposta
+
+Utilizar correctamente os tempos verbais
+
+Escrever uma descrição
+
+Construir um diálogo
+
+Organizar uma narrativa
+
+**O MEU PRÓXIMO OBJECTIVO**
+Na próxima unidade quero melhorar...
+
+43
+
+<!-- page 44 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## O passaporte do leitor
+
+**DESAFIO FINAL · REGISTO DE LEITURA**
+
+Completa o teu primeiro registo de leitura.
+
+**Campo**
+**O teu registo**
+
+Autor
+Sophia de Mello Breyner Andresen
+
+Obra
+O Cavaleiro da Dinamarca
+
+País
+Portugal
+
+Género
+Narrativa
+
+Tema principal
+
+Personagem que mais me marcou
+
+O que aprendi com esta história
+
+A minha palavra favorita do texto:
+A minha classificação:
+
+**★**
+**★**
+**★**
+**★**
+**★**
+
+**UMA FRASE PARA LEVAR CONTIGO**
+
+As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma como vemos o
+mundo.
+
+44
+
+<!-- page 45 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Ficha de revisão – Unidade 2
+
+**TESTE-TREINO · COMO UM TESTE**
+
+Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos. No fim, consulta as soluções
+nos Recursos.
+
+**GRUPO I · LEITURA 11**
+1. Quem é a personagem principal e qual é o seu objectivo? 2. Identifica dois espaços e uma indicação
+temporal do texto. 3. Qual é o acontecimento que desencadeia a viagem?
+
+**GRUPO II · GRAMÁTICA 12**
+1. Classifica os verbos: «O cavaleiro caminhava devagar.» / «Encontrou um viajante.» 2. Completa: «A
+noite ______ (estar) fria e ele ______ (seguir) viagem.»
+
+**GRUPO III · VOCABULÁRIO 13**
+1. Relaciona: peregrino · jornada · destino · travessia. 2. Escreve um sinónimo de: corajoso · caminho ·
+difícil.
+
+**GRUPO IV · ESCRITA 14**
+Escreve um parágrafo (60-80 palavras) em que descrevas o momento em que o cavaleiro decide partir.
+Usa dois verbos no imperfeito e dois no perfeito.
+
+45
+
+<!-- page 46 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -1917,9 +2029,9 @@ as vossas listas coincidem?
 
 Prime School Press · www.primeschool.pt
 
-42
+46
 
-<!-- page 43 -->
+<!-- page 47 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -1975,9 +2087,9 @@ Um mesmo enredo pode ser contado nos dois géneros: experimenta na página segui
 
 Prime School Press · www.primeschool.pt
 
-43
+47
 
-<!-- page 44 -->
+<!-- page 48 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2022,9 +2134,9 @@ FIM
 
 Prime School Press · www.primeschool.pt
 
-44
+48
 
-<!-- page 45 -->
+<!-- page 49 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2046,9 +2158,9 @@ de ensaio…». O que se perdeu ao transformar teatro em narração?
 
 Prime School Press · www.primeschool.pt
 
-45
+49
 
-<!-- page 46 -->
+<!-- page 50 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2087,9 +2199,9 @@ D. MADALENA — Recordações? Que o céu me ouça e seja só isso.
 
 Prime School Press · www.primeschool.pt
 
-46
+50
 
-<!-- page 47 -->
+<!-- page 51 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2112,9 +2224,9 @@ notícia? Que características de cada género o explicam?
 
 Prime School Press · www.primeschool.pt
 
-47
+51
 
-<!-- page 48 -->
+<!-- page 52 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2137,9 +2249,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-48
+52
 
-<!-- page 49 -->
+<!-- page 53 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2195,9 +2307,9 @@ EXERCÍCIO 3. Junta cada par numa frase complexa: «Canto. Gosto de cantar.» (p
 
 Prime School Press · www.primeschool.pt
 
-49
+53
 
-<!-- page 50 -->
+<!-- page 54 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · TEXTO DRAMÁTICO
@@ -2232,9 +2344,9 @@ sobre um ensaio.
 
 Prime School Press · www.primeschool.pt
 
-50
+54
 
-<!-- page 51 -->
+<!-- page 55 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2260,9 +2372,9 @@ ficou na tua cabeça? Escreve-a no caderno, com as tuas palavras.
 
 Prime School Press · www.primeschool.pt
 
-51
+55
 
-<!-- page 52 -->
+<!-- page 56 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2336,9 +2448,9 @@ pena». Ambos são decassílabos?
 
 Prime School Press · www.primeschool.pt
 
-52
+56
 
-<!-- page 53 -->
+<!-- page 57 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2381,9 +2493,9 @@ repete «Quantas… Quantos… Quantas…»?
 4. Explica os dois últimos versos: que contraste há entre «perigo e abismo» e «espelhou o céu»?
 Prime School Press · www.primeschool.pt
 
-53
+57
 
-<!-- page 54 -->
+<!-- page 58 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2400,9 +2512,9 @@ aplicado à tua vida.
 
 Prime School Press · www.primeschool.pt
 
-54
+58
 
-<!-- page 55 -->
+<!-- page 59 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2447,9 +2559,9 @@ INTERPRETAÇÃO
 4. Explica a oposição perder / encontrar do último verso.
 Prime School Press · www.primeschool.pt
 
-55
+59
 
-<!-- page 56 -->
+<!-- page 60 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2469,9 +2581,9 @@ muda quando Pessoa fala do mar e Florbela fala do amor?
 
 Prime School Press · www.primeschool.pt
 
-56
+60
 
-<!-- page 57 -->
+<!-- page 61 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2550,9 +2662,9 @@ escreveu Florbela só «nada»?
 
 Prime School Press · www.primeschool.pt
 
-57
+61
 
-<!-- page 58 -->
+<!-- page 62 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2601,9 +2713,9 @@ comentário deve ter as três.
 
 Prime School Press · www.primeschool.pt
 
-58
+62
 
-<!-- page 59 -->
+<!-- page 63 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2623,9 +2735,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-59
+63
 
-<!-- page 60 -->
+<!-- page 64 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2652,9 +2764,9 @@ poema.
 
 Prime School Press · www.primeschool.pt
 
-60
+64
 
-<!-- page 61 -->
+<!-- page 65 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2676,9 +2788,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-61
+65
 
-<!-- page 62 -->
+<!-- page 66 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2735,9 +2847,9 @@ EXERCÍCIO: classifica «Recordar? Esquecer? Indiferente!» e escreve uma frase 
 
 Prime School Press · www.primeschool.pt
 
-62
+66
 
-<!-- page 63 -->
+<!-- page 67 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2795,9 +2907,9 @@ mar.»
 
 Prime School Press · www.primeschool.pt
 
-63
+67
 
-<!-- page 64 -->
+<!-- page 68 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2881,9 +2993,9 @@ Fizemos o comentário.» / «O poeta perdeu o caderno. Continuou a escrever.» (
 
 Prime School Press · www.primeschool.pt
 
-64
+68
 
-<!-- page 65 -->
+<!-- page 69 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2917,9 +3029,9 @@ poemas.»
 
 Prime School Press · www.primeschool.pt
 
-65
+69
 
-<!-- page 66 -->
+<!-- page 70 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -2946,9 +3058,9 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-66
+70
 
-<!-- page 67 -->
+<!-- page 71 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -2956,8 +3068,6 @@ PORTUGUÊS Y7 · RECURSOS
 ## Soluções (exercícios fechados)
 
 Prime School Press · www.primeschool.pt
-
-67
 
 **UNIDADE 1**
 
@@ -2972,26 +3082,25 @@ p.14 Ex.4: F; O; O; F.
 p.20 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma ajuda».
 p.23 Grupo II: rebanho; talvez; dois. Grupo III: F; O; F; O; F.
 
-**UNIDADE 2**
-
-p.35 recursos: comparação; antítese/ideias opostas; personificação do silêncio.
-p.44 verbos: encontrou — perfeito; procurava — imperfeito; voltará — futuro; lera — mais-que-perfeito;
-tivesse procurado — conjuntivo imperfeito.
-p.45 pronomes: Não a encontrei; Dá-me a luva; Ontem encontrei-a e devolvi-lha.
-p.46 sintaxe: S Marta, CD a luva, CI à amiga; S o rapaz, CD o cartaz, MOD na cantina; S (eu),
-CD o livro, CI à bibliotecária.
-
 **UNIDADE 3**
-
-p.55 frases: complexa (e); simples; complexa (porque); complexa (se, que).
 
 **UNIDADE 4**
 
 p.58: as estrofes do soneto — duas quadras e dois tercetos; esquema ABAB ABBA CCD EED.
-p.61 coordenadas: adversativa; causal (subord.); disjuntiva; conclusiva.
-p.62 passiva: «Mensagem foi escrito por Fernando Pessoa.»; «O mar foi cruzado pelos marinheiros.»
-p.63 subordinadas: adversativa (coord.); causal (subord.); disjuntiva (coord.); temporal (subord.);
+
 condicional (subord.); concessiva (subord.).
 
 NOTA: as respostas pessoais (opiniões, comentários, escrita criativa) não têm solução única: são
 corrigidas pelo professor com os critérios de cada oficina.
+
+71
+
+UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+p.27 Missão: personagem — o cavaleiro dinamarquês; espaço — castelo/Dinamarca; época — Idade Média;
+partida em peregrinação; obstáculos — neve, frio, caminho incerto; reage com perseverança.
+p.27 V/F: V; F (decorre na Idade Média); V; V; F (o regresso fecha a viagem).
+p.32 Ex.4: perfeito — partiu, deixou, cruzou; imperfeito — caminhava, era, mordia.
+p.33 Ex.5: estava; caminhava; ouviu; parou; olhou.
+p.45 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
+
+Nota: as referências da Unidade 3 (págs. 50-58) e Unidade 4 (págs. 59-73) indicam as páginas actuais.
