@@ -4,7 +4,6 @@
 <!-- page 1 -->
 
 ---
-
 ## Global Perspectives
 
 ## Year 5
@@ -158,10 +157,10 @@ Compares life here with life in other places
 Mateo
 Turns ideas into small, kind actions
 
+4
+
 They are classmates in a primary class, now in Year 5. Disagree with their ideas, not with
 them.
-
-4
 
 <!-- page 5 -->
 
@@ -344,8 +343,6 @@ Think of communication as an equation, not a single word:
 
 words + tone + body language + listening = a message that can be understood
 
-Words are what you choose to say.
-
 Tone is how the voice sounds: kind, sharp, rushed, calm.
 
 Body language is face, hands and posture.
@@ -370,6 +367,8 @@ check question instead of guessing.
 The equation failed on tone and body, not on spelling.
 
 10
+
+**Words are what you choose to say.**
 
 <!-- page 11 -->
 
@@ -404,7 +403,6 @@ Mateo says: If the words are clear, tone does not matter.
 
 Jamal says: Tone is half the message. I stop listening when someone sounds bored.
 
-Then: Inês's question: when have you been misunderstood even though the words were
 simple?
 
 ▭LOOK OUTWARDS NOTES
@@ -425,6 +423,8 @@ Sixty seconds: invent three silent signs for water, toilet and thank you. Test t
 Which sign was guessed first?
 
 12
+
+Then: Inês' question: when have you been misunderstood even though the words were
 
 <!-- page 13 -->
 
@@ -556,8 +556,6 @@ Then: Which style helps when someone is upset? Why?
 ---
 ▭LOOK OUTWARDS NOTES
 
-Draw two chairs labelled Direct and Soft. Under each, write one good use.
-
 1.4
 
 Digital citizenship
@@ -572,6 +570,8 @@ Write a two-word text that could be read two ways (for example "Fine."). Share h
 be misread when there is no face.
 
 17
+
+Draw a table labelled Direct and Soft. Under each, write one good use.
 
 <!-- page 18 -->
 
@@ -590,7 +590,7 @@ Online communication has three extra risks:
 3. Forwarding. A private joke can become a public message.
 
 A message can leave a trail, like footprints in sand. Even if you delete it on your screen, someone
-else may still have a copy. Tools that help:
+else may still have a copy.
 
 Kindness in the playground and kindness on a screen are
 the same duty.
@@ -3482,7 +3482,6 @@ Perspectives.
 <!-- page 110 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Global Perspectives

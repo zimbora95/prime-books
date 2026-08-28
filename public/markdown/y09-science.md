@@ -1,5 +1,5 @@
 # Science - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-science/book.pdf` (120 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-science/book.pdf` (121 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -1982,6 +1982,44 @@ more thermal energy.
 <!-- page 48 -->
 
 ---
+**U N I T 3 · T O P I C 3 . 2 · D E F I N I T I O N S**
+## What is heat? What is temperature?
+
+**Temperature is a measure of the average speed of the particles. Every substance is made of particles**
+
+that never stop jiggling, in solids vibrating about their places, in liquids sliding past one another, in gases
+
+darting freely. The hotter the substance, the faster those particles move on average. A thermometer simply
+
+reports that average: a hot cup of tea at 80 °C has quick-moving particles; a cold one at 20 °C has slow
+
+**ones. Temperature is measured in degrees Celsius with a thermometer, and it is an intensive property: a**
+
+thimble of boiling water and a lake of boiling water share the same temperature.
+
+**Heat is thermal energy on the move. It is not a thing an object contains like a liquid, but a ﬂow of energy**
+
+**passing from a hotter place to a colder one, measured in joules like all energy. Heat depends on both**
+
+temperature and how much matter is there: a bathtub at 40 °C holds far more thermal energy than a cup at
+
+**80 °C, because it has so many more particles, each carrying its share of energy. Heat is an extensive**
+
+property, and it always has a direction, from hot to cold, never back.
+
+**The two together. A useful comparison: temperature is the reading on the dial, heat is the delivery of energy**
+
+between two places. You cannot say an object 'contains 50 degrees'; you can say it contains 5000 joules.
+
+And when a hot object meets a cold one, heat ﬂows until the two temperatures agree, and then the ﬂow
+
+stops.
+
+Figure 3.4  Temperature measures average particle speed; heat is the total energy that flows from hot to cold.
+
+<!-- page 49 -->
+
+---
 **U N I T 3 · T O P I C 3 . 2 · E X P E R I M E N T**
 
 ## Heat and temperature: which holds more energy?
@@ -2006,7 +2044,7 @@ even though its temperature is lower.
 **Make it fair. Use the same amount of water in Part 1 for every trial, keep the thermometer bulbs fully**
 submerged but not touching the container, and read each thermometer at eye level.
 
-<!-- page 49 -->
+<!-- page 50 -->
 
 ---
 **U N I T 3 · T O P I C 3.3**
@@ -2041,7 +2079,7 @@ obeys the same rule, which is why engineers care so much about reducing unwanted
 
 **3 Explain why a torch obeying conservation of energy eventually goes dark.**
 
-<!-- page 50 -->
+<!-- page 51 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 3 · E N E R G Y   M A T H S**
@@ -2060,7 +2098,7 @@ useful energy ÷ total energy, as a percentage.
 
 Figure 3.6  Input energy splitting into useful output and dissipated heat; the totals always balance.
 
-<!-- page 51 -->
+<!-- page 52 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 3 · F I G U R E S   A N D   E X E R C I S E S**
@@ -2099,7 +2137,7 @@ Where did the other 300 J go? (b) Calculate the eﬃciency of the climb.
 **3 Draw your own energy transfer diagram for a mobile phone being charged and then used: name the stores**
 at each stage, and mark where energy is dissipated.
 
-<!-- page 52 -->
+<!-- page 53 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 3 · A C T I V I T Y**
@@ -2132,7 +2170,7 @@ energy go?
 every useful output, and at least one dissipated output. Then check each ledger balances, input = all
 outputs.
 
-<!-- page 53 -->
+<!-- page 54 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 3 · T A B L E**
@@ -2178,7 +2216,7 @@ For each, name the energy store before, during and after.
 **Home audit. List ﬁve transfers of energy in your kitchen yesterday. For each, write the input store and**
 the output store, and identify any dissipated energy.
 
-<!-- page 54 -->
+<!-- page 55 -->
 
 ---
 **U N I T 3 · T O P I C 3.4**
@@ -2214,7 +2252,7 @@ was not wanted. The surroundings are always the ﬁnal destination.
 
 Figure 3.4  Energy passes from the hot particles to the cold ones, never the other way.
 
-<!-- page 55 -->
+<!-- page 56 -->
 
 ---
 **U N I T 3 · T O P I C 3.5**
@@ -2249,7 +2287,7 @@ the Earth.
 
 **3 Give one design feature of a house that reduces each of the three methods of transfer.**
 
-<!-- page 56 -->
+<!-- page 57 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 5 · T H E   T H R E E   P R O C E S S E S**
@@ -2277,7 +2315,7 @@ blankets are silver.
 
 Figure 3.7  The three roads of thermal energy: conduction along metal, convection in fluids, radiation across space.
 
-<!-- page 57 -->
+<!-- page 58 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 6**
@@ -2312,7 +2350,7 @@ Figure 3.5  Evaporation: the fastest particles escape, and the liquid left behin
 
 **3 Why does sweating fail to cool you well on a hot, humid day?**
 
-<!-- page 58 -->
+<!-- page 59 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 6 · E V A P O R A T I O N   E V E R Y W H E R E**
@@ -2349,7 +2387,7 @@ Figure 3.5  The porous clay pot cools its water by evaporation; other liquids ev
 of your hand, a few centimetres apart. Blow gently across both. Describe which spot feels colder, and
 explain the diﬀerence using the rate of evaporation and the energy each escaping particle carries away.
 
-<!-- page 59 -->
+<!-- page 60 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 2 · T A B L E**
@@ -2395,7 +2433,7 @@ tip of each spoon. Explain the diﬀerence using conduction.
 **Order the materials. You are given metal, wood, plastic and glass rods. Design a fair test to rank them**
 as conductors, listing the variables you must keep the same.
 
-<!-- page 60 -->
+<!-- page 61 -->
 
 ---
 **U N I T 3 · T O P I C 3 . 5 · P I C T U R E   A N D   A C T I V I T Y**
@@ -2431,7 +2469,7 @@ and the looping convection currents.
 
 Figure 3.4
 
-<!-- page 61 -->
+<!-- page 62 -->
 
 ---
 **G L O S S A R Y**
@@ -2461,7 +2499,7 @@ destroyed.
 
 End of Unit 3. Follow the energy; it never disappears.
 
-<!-- page 62 -->
+<!-- page 63 -->
 
 ---
 **U N I T 4**
@@ -2485,7 +2523,7 @@ Describe how the human body removes waste
 **·**
 Explain what a fetus needs to stay healthy
 
-<!-- page 63 -->
+<!-- page 64 -->
 
 ---
 **U N I T 4 · T O P I C 4.1**
@@ -2518,7 +2556,7 @@ or both.
 
 **3 A plant uses only about two per cent of the water it absorbs. Suggest what happens to the rest.**
 
-<!-- page 64 -->
+<!-- page 65 -->
 
 ---
 **U N I T 4 · T O P I C 4 . 1 · F I G U R E**
@@ -2536,7 +2574,7 @@ and arrives in a leaf. There it either joins photosynthesis or evaporates throug
 
 Figure 4.1  The journey of water from root hair to stomata, and the factors that drive transpiration.
 
-<!-- page 65 -->
+<!-- page 66 -->
 
 ---
 **U N I T 4 · T O P I C 4.2**
@@ -2567,7 +2605,7 @@ eﬀect.
 
 **3 Suggest why a plant grown in a windy place often has smaller, thicker leaves.**
 
-<!-- page 66 -->
+<!-- page 67 -->
 
 ---
 **U N I T 4 · T O P I C 4 . 2 · A C T I V I T Y**
@@ -2591,7 +2629,7 @@ A plant in a sealed jar still loses water from its leaves, yet the jar eventuall
 Explain, using evaporation and the air's limit for carrying water vapour, why the plant then stops losing
 water.
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 **U N I T 4 · T O P I C 4.3**
@@ -2638,7 +2676,7 @@ urethra. The liver, shown for context, makes the urea; the lungs
 
 handle the carbon dioxide.
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 **U N I T 4 · T O P I C 4 . 3 · T A B L E**
@@ -2677,7 +2715,7 @@ rises, and name the treatment that replaces the kidneys' ﬁltering.
 **Model the kidney. Build a ﬁlter model: pour a mixture of water, salt and sand through ﬁlter paper. Which**
 parts represent blood, urea and the kidney's useful return to the blood?
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 **U N I T 4 · T O P I C 4.4**
@@ -2715,7 +2753,7 @@ two bloodstreams do not mix.
 **3 Give two substances a pregnant woman is advised to avoid, and explain how each could harm the**
 fetus.
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 **U N I T 4 · F I G U R E S**
@@ -2734,7 +2772,7 @@ through this exchange, which is why good food, folic acid and avoiding smoke and
 
 Figure 4.2  The excretory organs, and the placenta's two-way trade between mother and fetus.
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 **G L O S S A R Y**
@@ -2761,7 +2799,7 @@ Unit 4 · Maintaining life
 
 End of Unit 4. In Unit 5 you will meet the most reactive metals.
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 **U N I T 5**
@@ -2811,7 +2849,7 @@ Write word equations for reactions
 **·**
 Explain how atoms rearrange in reactions
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 **U N I T 5 · T O P I C 5.2**
@@ -2842,7 +2880,7 @@ about the metal?
 
 **3 Design a simple experiment to place an unknown metal in the reactivity series.**
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 **U N I T 5 · T O P I C 5 . 2 · T A B L E**
@@ -2898,7 +2936,7 @@ solution, write the word equation, and explain the colour change you would obser
 sulfate and iron sulfate. Describe how you would use displacement tests to place the metal in the
 reactivity series, and what each possible result would tell you.
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 **U N I T 5 · T O P I C 5.3**
@@ -2932,7 +2970,7 @@ balance is the endpoint.
 
 **3 Why is an indicator needed when making a salt by neutralisation?**
 
-<!-- page 76 -->
+<!-- page 77 -->
 
 ---
 **U N I T 5 · T O P I C 5.4**
@@ -2964,7 +3002,7 @@ solution is evaporated slowly so the crystals have time to grow neat and large.
 
 **3 Why is copper metal useless for making copper sulfate, while copper oxide works well?**
 
-<!-- page 77 -->
+<!-- page 78 -->
 
 ---
 **U N I T 5 · T O P I C 5 . 3 · I N D I C A T O R S**
@@ -3015,7 +3053,7 @@ For the fullest picture, universal indicator carries a whole colour chart with i
 
 Figure 5.2  Common indicators shown in acid (top row) and in alkali (bottom row).
 
-<!-- page 78 -->
+<!-- page 79 -->
 
 ---
 **U N I T 5 · F I G U R E S**
@@ -3038,7 +3076,7 @@ sits below zinc in the series.
 
 Figure 5.1  Salt-making routes, and a displacement that works beside one that does not.
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 **U N I T 5 · T O P I C 5.5**
@@ -3070,7 +3108,7 @@ formed, and why?
 **3 Name the atoms that end up in water when an acid neutralises an alkali, and say where each came**
 from.
 
-<!-- page 80 -->
+<!-- page 81 -->
 
 ---
 **G L O S S A R Y**
@@ -3093,7 +3131,7 @@ Unit 5 · Reactivity
 
 End of Unit 5. In Unit 6 you will travel from sound waves to nebulae.
 
-<!-- page 81 -->
+<!-- page 82 -->
 
 ---
 **U N I T 6**
@@ -3120,7 +3158,7 @@ Describe nebulae and star birth
 **·**
 Describe how tectonic plates move
 
-<!-- page 82 -->
+<!-- page 83 -->
 
 ---
 **U N I T 6 · T O P I C 6.1**
@@ -3152,7 +3190,7 @@ damages hearing, which is why ear defenders matter near machinery and loud music
 
 **3 Explain why ear defenders reduce the risk of hearing damage.**
 
-<!-- page 83 -->
+<!-- page 84 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 1 · F I G U R E S**
@@ -3170,7 +3208,7 @@ crowded?
 
 Figure 6.1  Amplitude controls loudness; frequency controls pitch.
 
-<!-- page 84 -->
+<!-- page 85 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 1 · F I G U R E**
@@ -3191,7 +3229,7 @@ and measuring the height.
 
 Figure 6.7  Three notes of rising frequency: 50 Hz, 200 Hz and 1000 Hz.
 
-<!-- page 85 -->
+<!-- page 86 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 1 · T A B L E**
@@ -3228,7 +3266,7 @@ air column left, why the pitch changes.
 **Ruler twang. Hold a ruler on the edge of a desk, twang it, then shorten the overhang. Describe what**
 happens to pitch and why.
 
-<!-- page 86 -->
+<!-- page 87 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 2**
@@ -3263,7 +3301,7 @@ Figure 6.2  Two speakers' waves overlapping into louder and quieter regions.
 
 **3 Why can two sounds of the same loudness sometimes produce silence at one spot?**
 
-<!-- page 87 -->
+<!-- page 88 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 2 · I N T E R F E R E N C E**
@@ -3306,7 +3344,7 @@ which is exactly the pattern of swelling and fading you can hear.
 
 Figure 6.3  In-step waves add to double amplitude; out-of-step waves cancel to silence.
 
-<!-- page 88 -->
+<!-- page 89 -->
 
 ---
 **U N I T 6 · T O P I C 6.3**
@@ -3336,7 +3374,7 @@ what a giant impact would produce.
 
 **3 Why is the Moon's size, compared with Earth's, a clue to its origin?**
 
-<!-- page 89 -->
+<!-- page 90 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 3 · F I G U R E**
@@ -3352,7 +3390,7 @@ core, all points to this single catastrophe about 4.5 billion years ago.
 
 Figure 6.3  The giant impact: Earth, collision, debris ring, Moon.
 
-<!-- page 90 -->
+<!-- page 91 -->
 
 ---
 **U N I T 6 · T O P I C 6.4**
@@ -3382,7 +3420,7 @@ body was forged in an earlier star and drifted through a nebula before reaching 
 
 **3 Explain the statement: every heavy atom in your body was made inside a star.**
 
-<!-- page 91 -->
+<!-- page 92 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 4 · F I G U R E**
@@ -3398,7 +3436,7 @@ every atom heavier than helium in your body was made in an earlier, exploded sta
 
 Figure 6.4  A nebula contracting until fusion ignites a new star.
 
-<!-- page 92 -->
+<!-- page 93 -->
 
 ---
 **U N I T 6 · T O P I C 6.5**
@@ -3430,7 +3468,7 @@ occasionally today.
 
 **3 Why does Portugal experience earthquakes? Refer to plate boundaries.**
 
-<!-- page 93 -->
+<!-- page 94 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 5 · F I G U R E**
@@ -3448,7 +3486,7 @@ Atlantic opens, hence its earthquakes and volcanoes.
 
 Figure 6.5  Colliding, separating and sliding plates, and what each produces.
 
-<!-- page 94 -->
+<!-- page 95 -->
 
 ---
 **U N I T 6 · T O P I C 6 . 5 · F I G U R E**
@@ -3469,7 +3507,7 @@ everywhere else is stable ground.
 
 Figure 6.6  The major plates and the direction each is moving.
 
-<!-- page 95 -->
+<!-- page 96 -->
 
 ---
 **G L O S S A R Y**
@@ -3492,7 +3530,7 @@ Unit 6 · Sound and space
 
 End of Unit 6. In Unit 7 you will unwrap the instruction manual of life.
 
-<!-- page 96 -->
+<!-- page 97 -->
 
 ---
 **U N I T 7**
@@ -3516,7 +3554,7 @@ Explain variation between individuals
 **·**
 Describe natural selection
 
-<!-- page 97 -->
+<!-- page 98 -->
 
 ---
 **U N I T 7 · T O P I C 7.1**
@@ -3550,7 +3588,7 @@ Figure 7.1  From cell to DNA: chromosomes in the nucleus unpack into the double 
 
 **3 What is the diﬀerence between a gene and an allele?**
 
-<!-- page 98 -->
+<!-- page 99 -->
 
 ---
 **U N I T 7 · T O P I C 7.2**
@@ -3583,7 +3621,7 @@ idea of alleles.
 
 Figure 7.2  Fertilisation: 23 chromosomes from each gamete join into 46 in the zygote.
 
-<!-- page 99 -->
+<!-- page 100 -->
 
 ---
 **U N I T 7 · T O P I C 7 . 2 · A C T I V I T Y**
@@ -3604,7 +3642,7 @@ three tall to one short, and discuss why small samples wander.
 Two tall parents (Tt) can have a short child (tt), but two short parents cannot have a tall one. Use alleles to
 explain both statements.
 
-<!-- page 100 -->
+<!-- page 101 -->
 
 ---
 **U N I T 7 · T O P I C 7.3**
@@ -3638,7 +3676,7 @@ variation, so a single disease can wipe it out entirely.
 
 Figure 7.3  Inherited variation in traits, and environmental variation in growth.
 
-<!-- page 101 -->
+<!-- page 102 -->
 
 ---
 **U N I T 7 · T O P I C 7.4**
@@ -3673,7 +3711,7 @@ can mislead.
 
 Figure 7.4  Natural selection in bacteria: resistance spreads through survival.
 
-<!-- page 102 -->
+<!-- page 103 -->
 
 ---
 **G L O S S A R Y**
@@ -3698,11 +3736,11 @@ Unit 7 · Genes and inheritance
 
 End of Unit 7, and of the Student Book. Follow the carbon, and the genes.
 
-<!-- page 103 -->
+<!-- page 104 -->
 
 ---
 
-<!-- page 104 -->
+<!-- page 105 -->
 
 ---
 **U N I T 8**
@@ -3726,7 +3764,7 @@ Explain how temperature affects rate
 **·**
 Explain how concentration affects rate
 
-<!-- page 105 -->
+<!-- page 106 -->
 
 ---
 **U N I T 8 · T O P I C 8.1**
@@ -3759,7 +3797,7 @@ its shape.
 
 **3 Why does the rate of a reaction fall as the reaction proceeds?**
 
-<!-- page 106 -->
+<!-- page 107 -->
 
 ---
 **U N I T 8 · T O P I C 8 . 1 · F I G U R E**
@@ -3777,7 +3815,7 @@ rate changes while the total amount does not.
 
 Figure 8.1  Two rate curves: same finish, different speeds.
 
-<!-- page 107 -->
+<!-- page 108 -->
 
 ---
 **U N I T 8 · T O P I C 8.2**
@@ -3805,7 +3843,7 @@ while a bag of ﬂour merely burns, and why cutting food into small pieces cooks
 
 **3 Give one everyday example where increasing surface area speeds up a useful process.**
 
-<!-- page 108 -->
+<!-- page 109 -->
 
 ---
 **U N I T 8 · T A B L E**
@@ -3844,7 +3882,7 @@ the start, showing your reasoning.
 **Eﬀervescence timing. Drop one whole tablet and one crushed tablet of the same kind into identical cups**
 of water. Time each to the last ﬁzz, and explain the result using surface area.
 
-<!-- page 109 -->
+<!-- page 110 -->
 
 ---
 **U N I T 8 · T O P I C 8.3**
@@ -3873,7 +3911,7 @@ changes work the same way: more successful collisions each second, faster reacti
 **3 A cake bakes at 180 °C rather than 60 °C. Explain what the higher temperature does to the rate of**
 the reactions in baking.
 
-<!-- page 110 -->
+<!-- page 111 -->
 
 ---
 **G L O S S A R Y**
@@ -3890,7 +3928,7 @@ Unit 8 · Rates of reaction
 
 End of Unit 8. One unit remains: electricity.
 
-<!-- page 111 -->
+<!-- page 112 -->
 
 ---
 **U N I T 9**
@@ -3914,7 +3952,7 @@ Build and explain series and parallel circuits
 **·**
 Explain resistance and calculate it
 
-<!-- page 112 -->
+<!-- page 113 -->
 
 ---
 ## Current and circuits
@@ -3943,7 +3981,7 @@ control a whole string of lamps: break the loop once, and the ﬂow stops everyw
 
 **U N I T 9 · T O P I C 9.1**
 
-<!-- page 113 -->
+<!-- page 114 -->
 
 ---
 **U N I T 9 · T A B L E**
@@ -3987,7 +4025,7 @@ explain what changes if the lamps are reconnected in parallel.
 where one switch controls all three bulbs, and another where each bulb has its own switch. Explain which
 is series and which is parallel.
 
-<!-- page 114 -->
+<!-- page 115 -->
 
 ---
 ## Series and parallel circuits
@@ -4019,7 +4057,7 @@ battery?
 
 **U N I T 9 · T O P I C 9.2**
 
-<!-- page 115 -->
+<!-- page 116 -->
 
 ---
 ## Voltage and resistance
@@ -4053,7 +4091,7 @@ switch-on.
 
 **U N I T 9 · T O P I C 9.3**
 
-<!-- page 116 -->
+<!-- page 117 -->
 
 ---
 **G L O S S A R Y**
@@ -4076,7 +4114,7 @@ Unit 9 · Electricity
 
 End of Unit 9, and of the Student Book. The current always comes back.
 
-<!-- page 117 -->
+<!-- page 118 -->
 
 ---
 **U N I T 9 · S E R I E S   A N D   P A R A L L E L**
@@ -4115,7 +4153,7 @@ pupils ﬁnd hardest to believe: adding resistors in parallel makes it easier fo
 
 Figure 9.1  The same two lamps in series (one loop, shared voltage) and in parallel (branches, full voltage).
 
-<!-- page 118 -->
+<!-- page 119 -->
 
 ---
 **U N I T 9 · E X E R C I S E**
@@ -4167,7 +4205,7 @@ the current, and the brightness of any lamp in the loop.
 
 **3  A 4 ohm and an 8 ohm resistor in series with a 12 V battery:**
 
-<!-- page 119 -->
+<!-- page 120 -->
 
 ---
 **U N I T 9 · E X E R C I S E   ( C O N T I N U E D )**
@@ -4190,7 +4228,7 @@ using P = V × I.
 
 check.
 
-<!-- page 120 -->
+<!-- page 121 -->
 
 ---
 P R I M E B O O K S · Y E A R 9

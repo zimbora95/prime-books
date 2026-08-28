@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (72 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (75 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -38,167 +38,174 @@ Gramática · as classes de palavras............................
 Oralidade · Escutar a notícia
 .......................................
 **8**
-A biografia · subclasses dos nomes...........................
+Escrever uma notícia..............................................
 **9**
-Fernando Pessoa ................................................
+A biografia · subclasses dos nomes...........................
 **10**
-Exercícios · A biografia · adjectivos
-................................
+Fernando Pessoa + exercícios..................................
 **11**
-Escrever uma biografia · verbos................................
+Ler outra biografia · Carolina Mendes.........................
 **12**
-O artigo de opinião · texto.........................................
+Exercícios · adjectivo e verbo....................................
 **13**
-Exercícios · O artigo de opinião · advérbios
-.........................
+Escrever uma biografia ..........................................
 **14**
+O artigo de opinião · texto.........................................
+**15**
+Exercícios · opinião, advérbio e escrita
+...........................
+**16**
+Ler outro artigo de opinião.......................................
+**17**
 O texto publicitário · o anúncio
 ....................................
-**15**
-Exercícios · O texto publicitário · esquema
-........................
-**16**
-Escrever uma notícia..............................................
-**17**
-Gramática · pronomes e determinantes.......................
 **18**
-Revisão da Unidade 1.............................................
+Exercícios · o esquema do anúncio
+...............................
 **19**
+Gramática · pronomes e quantificadores......................
+**20**
+Ler outra notícia · Tormenta......................................
+**21**
+Revisão da Unidade 1.............................................
+**22**
 Ficha de revisão · Unidade 1
 .......................................
-**20**
+**23**
 
 **UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS**
 
 Unidade 2 · Uma viagem, muitas histórias
 ......................
-**21**
+**24**
 Palavras para partir ..............................................
-**22**
+**25**
 Vamos ler · O Cavaleiro da Dinamarca
 .........................
-**23**
-Missão do leitor.....................................................
-**24**
-Compreender e justificar ........................................
-**25**
-Como interpretar um texto narrativo ..........................
 **26**
-Personagem, espaço e tempo...................................
+Missão do leitor.....................................................
 **27**
-Palavras em viagem .............................................
+Compreender e justificar ........................................
 **28**
+Como interpretar um texto narrativo ..........................
+**29**
+Personagem, espaço e tempo...................................
+**30**
+Palavras em viagem .............................................
+**31**
 Gramática · Os tempos verbais na narrativa
 ....................
-**29**
+**32**
 Pretérito perfeito ou imperfeito?................................
-**30**
+**33**
 Pintar com palavras · a descrição
 .................................
-**31**
+**34**
 A arte do diálogo..................................................
-**32**
+**35**
 A viagem como símbolo...........................................
-**33**
+**36**
 Writing Lab · escreve a tua própria viagem
 ......................
-**34**
-Writing Toolkit · a caixa de ferramentas do escritor..........
-**35**
-Fala e escuta · conversa de viajantes..........................
-**36**
-Literatura em imagem · o mapa da viagem....................
 **37**
-Cambridge Focus · responder bem a uma pergunta........
+Writing Toolkit · a caixa de ferramentas do escritor..........
 **38**
-Relembra · o que aprendi.........................................
+Fala e escuta · conversa de viajantes..........................
 **39**
+Literatura em imagem · o mapa da viagem....................
+**40**
+Cambridge Focus · responder bem a uma pergunta........
+**41**
+Relembra · o que aprendi.........................................
+**42**
 Checkpoint · missão cumprida?
 ....................................
-**40**
+**43**
 O passaporte do leitor ...........................................
-**41**
+**44**
 Ficha de revisão · Unidade 2
 .......................................
-**42**
+**45**
 
 **UNIDADE 3 · O PALCO À ESPERA**
 
 Unidade 3 · O Palco à Espera
 .....................................
-**43**
-Conhece o autor · Garrett.......................................
-**44**
-Vamos ler · Frei Luís de Sousa..................................
-**45**
-
-Missão do leitor.....................................................
 **46**
-Como interpretar o texto dramático............................
+Conhece o autor · Almeida Garrett..............................
 **47**
-Gramática · frases simples e complexas......................
+Vamos ler · Frei Luís de Sousa
+....................................
 **48**
-Writing Lab · a tua cena..........................................
+Missão do leitor.....................................................
 **49**
-Writing Toolkit do dramaturgo ..................................
+Como interpretar um texto dramático.........................
 **50**
-Fala e escuta · encenação........................................
+Gramática · Frases simples e complexas
+.......................
 **51**
-Literatura em imagem · o cenário...............................
+Writing Lab · escreve a tua cena.................................
 **52**
-Cambridge Focus · interpretar teatro..........................
+Writing Toolkit · a caixa de ferramentas do dramaturgo.....
 **53**
-Relembra + Checkpoint .........................................
+Fala e escuta · sobe ao palco....................................
 **54**
-Passaporte do leitor · ficha......................................
+Literatura em imagem · o cenário
+.................................
 **55**
+Cambridge Focus · interpretar teatro...........................
+**56**
+Relembra · o que aprendi.........................................
+**57**
+O passaporte do leitor ...........................................
+**58**
 
 **UNIDADE 4 · TEXTO POÉTICO**
 
 Unidade 4 · O Texto Poético
 .......................................
-**56**
+**59**
 Características do texto poético.................................
-**57**
+**60**
 Fernando Pessoa: Mar Português..............................
-**58**
+**61**
 Exercícios · Mar Português
 ...........................................
-**59**
+**62**
 Florbela Espanca: Amar! ........................................
-**60**
+**63**
 Exercícios · Amar!
 ....................................................
-**61**
-Recursos expressivos do poema ..............................
-**62**
-Escrever um comentário.........................................
-**63**
-O teu comentário..................................................
 **64**
-Escrever poemas e narrativas .................................
+Recursos expressivos do poema ..............................
 **65**
-Opinião sobre poesia..............................................
+Escrever um comentário.........................................
 **66**
+O teu comentário..................................................
+**67**
+Escrever poemas e narrativas .................................
+**68**
+Opinião sobre poesia..............................................
+**69**
 Gramática · Orações coordenadas
 .................................
-**67**
+**70**
 Gramática · Activa e passiva
 ......................................
-**68**
+**71**
 Gramática · Orações subordinadas
 ................................
-**69**
+**72**
 Revisão da Unidade 4.............................................
-**70**
+**73**
 
 **RECURSOS**
 
 Dossier do escritor ...............................................
-**71**
+**74**
 Soluções (exercícios fechados)
 ..................................
-**72**
+**75**
 
 <!-- page 3 -->
 
@@ -361,11 +368,8 @@ Prime School Press · www.primeschool.pt
 **Quando?**
 **Porquê?**
 
-2. Numera de 1 a 3, pela ordem em que aparecem na notícia:
-
-( ) Pormenores finais (consulta veterinária, medalha).
-( ) Informação essencial (o resgate).
-( ) Desenvolvimento dos factos (declarações dos jovens).
+2. Numera de 1 a 3, pela ordem em que aparecem na notícia: ( ) Pormenores finais (consulta veterinária,
+medalha). ( ) Informação essencial (o resgate). ( ) Desenvolvimento dos factos (declarações dos jovens).
 
 3. Escreve dois títulos diferentes para esta notícia: um sério e um chamativo.
 
@@ -456,10 +460,11 @@ Oh! Uau!
 • interjeição
 • NUNCA mudam
 
-**TESTE RÁPIDO**
+**EXERCÍCIOS 2**
+1. Na frase «Ontem, os dois alunos corajosos salvaram imediatamente o cão», encontra: um advérbio,
+um quantificador, um adjectivo, um determinante e um verbo.
 
-Na frase «Ontem, os dois alunos corajosos salvaram imediatamente o cão», encontra: um advérbio
-de tempo, um quantificador, um adjectivo, um determinante e um verbo.
+2. Classifica as palavras destacadas: «A jovem telefona para Lisboa e sorri.» (jovem · para · e · sorri)
 
 7
 
@@ -474,11 +479,11 @@ Prime School Press · www.primeschool.pt
 
 **ORALIDADE · ANTES DA ESCRITA**
 
-Antes de passares à biografia, treina a escuta com a notícia que acabaste de estudar. Ouvir bem
+Antes de passares à escrita, treina a escuta com a notícia que acabaste de estudar. Ouvir bem
 exige técnica: primeira escuta para perceber o assunto geral; segunda escuta para registar Quem?
 O quê? Quando? Onde?; terceira escuta para confirmar detalhes e distinguir factos de opiniões.
 
-**EXERCÍCIOS DE ORALIDADE 2**
+**EXERCÍCIOS DE ORALIDADE 3**
 1. EM GRUPO: o professor lê em voz alta a notícia do cão Baguete (duas vezes). Na primeira escuta,
 escreve apenas o assunto geral. Na segunda, completa as quatro perguntas com notas rápidas.
 
@@ -503,6 +508,31 @@ Dica: usa siglas e palavras-chave abreviadas ao tomar notas; depois transforma-a
 8
 
 <!-- page 9 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Escrever uma notícia
+
+**ESCRITA · A TUA NOTÍCIA**
+
+Escreve uma notícia (15 a 20 linhas) sobre um acontecimento real da tua escola ou da tua rua: uma
+festa de final de período, um jogo desportivo, uma obra no bairro, uma acção de voluntariado.
+
+**PLANO**
+1. Responde às seis perguntas (Quem? O quê? Quando? Onde? Como? Porquê?).
+2. Escreve o título: curto e informativo.
+3. Escreve o lead com o essencial no primeiro parágrafo.
+4. No corpo, desenvolve por ordem decrescente, com uma citação directa.
+5. Revisa: apagaste todas as opiniões? A notícia deve ser objectiva.
+
+**RASCUNHO**
+
+9
+
+<!-- page 10 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -550,51 +580,12 @@ Colectivo
 Singular que designa um conjunto
 biblioteca, rebanho
 
-**EXERCÍCIOS 3**
+**EXERCÍCIOS 4**
 1. Classifica os nomes: Lisboa · poeta · biblioteca · Mensagem · rebanho · cidade.
 
 2. Completa com um nome colectivo: uma ____ de peixes; uma ____ de aves; uma ____ de ovelhas.
 
 3. Escreve duas frases sobre a tua turma usando um nome próprio e um nome colectivo.
-
-9
-
-<!-- page 10 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-
-Prime School Press · www.primeschool.pt
-
-## Fernando Pessoa
-
-**LEITURA · TEXTO 2 · BIOGRAFIA**
-
-Fernando Nogueira Pessoa nasceu em Lisboa a 13 de Junho de 1888
-e morreu na mesma cidade a 30 de Novembro de 1935. É
-considerado um dos maiores poetas da língua portuguesa.
-
-O pai morreu de tuberculose quando Fernando tinha cinco anos. A
-mãe casou novamente com o cônsul de Portugal em Durban, na
-África do Sul. Foi lá, em inglês, que o jovem Pessoa fez os estudos e
-escreveu os primeiros poemas, assinados com nomes inventados.
-
-De regresso a Lisboa, trabalhou como correspondente comercial em
-línguas estrangeiras. Em 1914 criou os seus heterónimos, Alberto
-Caeiro, Ricardo Reis e Álvaro de Campos: poetas completos, com
-biografia, estilo e ideias próprias.
-
-Publicou em vida um único livro em português, Mensagem (1934). A
-sua obra imensa foi publicada depois da sua morte e é estudada no
-mundo inteiro. Morreu com 47 anos. O seu corpo repousa no
-Mosteiro dos Jerónimos, em Belém.
-
-**VOCABULÁRIO**
-
-heterónimo – poeta inventado, com personalidade própria · correspondente comercial – quem traduz cartas
-entre empresas
-
-Linha do tempo: 1888 nasce · 1896 África do Sul · 1914 heterónimos · 1934 Mensagem · 1935 morre.
 
 10
 
@@ -605,16 +596,89 @@ PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
-## Exercícios – A biografia
+## Fernando Pessoa
 
-**EXERCÍCIOS 4**
-1. Onde nasceu Fernando Pessoa e em que ano?
+**LEITURA · TEXTO 2 · BIOGRAFIA**
+
+Fernando Nogueira Pessoa nasceu em Lisboa a 13 de Junho de 1888 e
+morreu na mesma cidade a 30 de Novembro de 1935. É considerado um
+dos maiores poetas da língua portuguesa.
+
+O pai morreu de tuberculose quando Fernando tinha cinco anos. A mãe
+casou novamente com o cônsul de Portugal em Durban, na África do Sul. Foi
+lá, em inglês, que o jovem Pessoa fez os estudos e escreveu os primeiros
+poemas, assinados com nomes inventados.
+
+Em 1914 criou os seus heterónimos, Alberto Caeiro, Ricardo Reis e Álvaro
+de Campos: poetas completos, com biografia e ideias próprias. Publicou em
+vida um único livro em português, Mensagem (1934). Morreu com 47 anos;
+repousa no Mosteiro dos Jerónimos.
+
+VOCABULÁRIO: heterónimo – poeta inventado, com personalidade própria.
+
+**EXERCÍCIOS 5**
+
+1. Onde e quando nasceu Fernando Pessoa? Em que ano morreu?
 
 2. Porque estudou o jovem Pessoa em inglês, na África do Sul?
 
 3. O que são heterónimos? Dá três exemplos.
 
-4. Que livro único publicou Pessoa em vida, em português?
+4. Que livro único publicou Pessoa em vida, em português? Que frase famosa deixou no leito de morte?
+
+5. Completa a linha do tempo: 1888 nasce →____ →1896 África do Sul →____ →1914 heterónimos →____
+→ 1935 morre.
+
+11
+
+<!-- page 12 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Ler outra biografia – uma campeã
+
+**LEITURA · TEXTO 3 · BIOGRAFIA**
+
+**A CARREIRA DE UMA CAMPEÃ**
+Carolina Mendes nasceu numa pequena vila do Alentejo, filha de um
+electricista e de uma professora primária, e desde criança trocou as
+bonecas por uma bola de futebol. Treinou primeiro na rua, com os
+primos, até o anoitecer.
+
+Aos doze anos entrou na formação de um clube da região, onde a mãe a
+levava de carro duas vezes por semana, sessenta quilómetros por cada
+treino. Aos vinte e um vestiu pela primeira vez a camisola da selecção
+nacional.
+
+Hoje, com mais de cem jogos internacionais, é capitã e exemplo: criou
+uma fundação que leva treinos e material desportivo a aldeias do
+interior. «Se uma menina do Alentejo chegou ao topo, todas podem»,
+costuma repetir.
+
+**EXERCÍCIOS 6**
+
+1. Constrói a linha do tempo de Carolina Mendes com cinco marcos.
+
+2. Que sacrifícios a família fez pela carreira? Retira duas provas do texto.
+
+3. Retira a citação e explica porque é forte no fecho.
+
+4. Escolhe alguém da tua família e escreve a primeira biografia dessa pessoa, em 12 linhas, com uma
+citação real.
+
+12
+
+<!-- page 13 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Exercícios – A biografia
 
 **GRAMÁTICA · SUBCLASSES DO ADJECTIVO**
 
@@ -624,27 +688,48 @@ Prime School Press · www.primeschool.pt
 
 Qualificativo
 Diz uma qualidade; tem grau
-corajoso, muito corajoso
+corajosa, muito forte
 
 Relacional
 Indica relação ou origem; sem grau
 comercial, escolar
 
-**TESTE DO GRAU**
+**EXERCÍCIOS 7**
+1. Copia as expressões e sublinha o adjectivo; depois classifica-o: uma escola primária · um vinho
+generoso · uma revista semanal · uma equipa forte · um problema matemático · uma cardíaca operação.
 
-Se a palavra aceita «muito», é qualificativo: «muito corajoso» faz sentido; «muito comercial» não faz
-sentido como qualidade — é relacional.
+2. Escreve o feminino e o plural: aluno corajoso · jogador capaz · rapariga leitor.
 
-**EXERCÍCIOS 5**
-5. Qualificativo ou relacional? escola primária · vinho do Porto · revista semanal · equipa forte · problema
-matemático.
+3. Escreve o grau superlativo absoluto sintético de: forte · capaz · fácil · feliz.
 
-6. Escreve três frases sobre a tua escola: uma com adjectivo qualificativo, uma com relacional e uma
+4. Escreve três frases sobre a tua escola: uma com adjectivo qualificativo, uma com relacional e uma
 com superlativo.
 
-11
+**GRAMÁTICA · SUBCLASSES DO VERBO**
 
-<!-- page 12 -->
+**Subclasse**
+**Função**
+**Exemplos**
+
+Principal
+Traz o significado
+escreveu, nasceu
+
+Auxiliar
+Ajuda outro verbo
+tinha estudado, vai chegar
+
+Copulativo
+Liga o sujeito a uma qualidade
+ser, estar, parecer
+
+**EXERCÍCIOS 8**
+5. Principal, auxiliar ou copulativo? «Pessoa tinha escrito poemas.» / «A mãe estava preocupada.» / «Vou
+escrever a minha biografia.» / «A jogadora parece feliz.»
+
+13
+
+<!-- page 14 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -669,31 +754,11 @@ músico ou um familiar.
 ☐ Escreveste tudo em 3.ª pessoa? ☐ Seguiste a ordem cronológica?
 ☐ Incluíste datas verificáveis? ☐ Há uma citação ou facto curioso?
 
-**GRAMÁTICA · SUBCLASSES DO VERBO**
+**RASCUNHO**
 
-**Subclasse**
-**Função**
-**Exemplos**
+14
 
-Principal
-Traz o significado
-escreveu, nasceu
-
-Auxiliar
-Ajuda outro verbo
-tinha estudado, vai chegar
-
-Copulativo
-Liga o sujeito a uma qualidade
-ser, estar, parecer
-
-**EXERCÍCIOS 6**
-7. Principal, auxiliar ou copulativo? «Pessoa tinha escrito poemas.» / «A mãe estava preocupada.» / «Vou
-escrever a minha biografia.»
-
-12
-
-<!-- page 13 -->
+<!-- page 15 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -702,7 +767,7 @@ Prime School Press · www.primeschool.pt
 
 ## O artigo de opinião
 
-**LEITURA · ESTUDAR O GÉNERO · TEXTO 3**
+**LEITURA · ESTUDAR O GÉNERO · TEXTO 4**
 
 O artigo de opinião é um texto em que o autor defende uma ideia pessoal sobre um tema da
 actualidade. A tese é a opinião principal; os argumentos são as razões que a apoiam; o
@@ -728,16 +793,13 @@ Conclusão
 Reforça a tese
 Portanto, em conclusão…
 
-TELEMÓVEIS NA ESCOLA: SIM OU NÃO? (TEXTO 3)
+TELEMÓVEIS NA ESCOLA: SIM OU NÃO? (TEXTO 4)
 
 Em primeiro lugar, defendo que os telemóveis não devem ser proibidos na escola. São ferramentas de
 trabalho como qualquer outra, e o mundo para o qual a escola prepara já não funciona sem eles.
 
-Além disso, com o telemóvel podemos pesquisar o dicionário online, tirar fotografias aos resumos do quadro e
-gravar leituras em voz alta. Proibir é uma solução fácil; educar para o bom uso é melhor.
-
-No entanto, reconheço o perigo das notificações: o ping de uma mensagem rouba a atenção de uma sala
-inteira. Por isso, defendo uma regra simples: telemóvel em silêncio na mochila, a usar apenas quando o
+Além disso, com o telemóvel podemos pesquisar o dicionário online e gravar leituras em voz alta. No entanto,
+reconheço o perigo das notificações: defendo uma regra simples: silêncio na mochila, a usar quando o
 professor autorizar.
 
 Em conclusão, não é o telemóvel que perturba a aula: é a falta de regras claras.
@@ -746,9 +808,9 @@ Em conclusão, não é o telemóvel que perturba a aula: é a falta de regras cl
 
 tese – opinião principal defendida · contra-argumento – razão da opinião contrária, reconhecida
 
-13
+15
 
-<!-- page 14 -->
+<!-- page 16 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -757,14 +819,13 @@ Prime School Press · www.primeschool.pt
 
 ## Exercícios – O artigo de opinião
 
-**EXERCÍCIOS 7**
+**EXERCÍCIOS 9**
 1. Qual é a tese do artigo? Copia a frase que a mostra.
 
 2. Indica os dois argumentos a favor e o contra-argumento.
 
-3. Facto (F) ou opinião (O)?
-( ) «A escola termina às 16h30.» ( ) «O horário é cansativo.» ( ) «Proibir é uma solução fácil.» ( )
-«Uma biblioteca cabe no bolso.»
+3. Facto (F) ou opinião (O)? ( ) «A escola termina às 16h30.» ( ) «O horário é cansativo.» ( ) «Proibir é
+uma solução fácil.»
 
 **GRAMÁTICA · SUBCLASSES DO ADVÉRBIO**
 
@@ -796,15 +857,50 @@ Dúvida
 —
 talvez, possivelmente
 
-**EXERCÍCIOS 8**
-4. Classifica os advérbios: ontem · talvez · bem · aqui · não · muito.
+**EXERCÍCIOS 10**
+4. Classifica os advérbios: ontem · talvez · bem · aqui · não · muito · certamente · longe.
 
-5. Desafio: escreve um artigo curto (10 linhas) com a tese contrária: «O e-book deve substituir o papel
-nas escolas.»
+5. Escreve uma frase com um advérbio de modo e outra com um de dúvida.
 
-14
+**ESCRITA · A TUA OPINIÃO 11**
+Escreve um texto de opinião (15 a 20 linhas) sobre: «As redes sociais fazem bem à amizade?» Usa a
+estrutura da página 15: introdução com a tese, dois argumentos com exemplos, um contra-argumento e
+conclusão.
 
-<!-- page 15 -->
+16
+
+<!-- page 17 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Ler outro artigo de opinião
+
+**LEITURA · TEXTO 5**
+
+**LIVROS EM PAPEL: AINDA TÊM FUTURO?**
+
+Em primeiro lugar, defendo que o livro em papel não vai desaparecer das escolas. E explico porquê com
+uma imagem: ninguém fotografa a sua estante de e-books para mostrar aos amigos.
+
+Além disso, há algo que o e-book não substitui: o cheiro das páginas, o dedo a marcar o sítio onde ficámos,
+a estante que conta a nossa vida. No entanto, reconheço as vantagens do e-book: pesa menos e uma
+biblioteca inteira cabe no bolso.
+
+Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler mais, em qualquer suporte.
+
+**EXERCÍCIOS 12**
+
+1. Tese, dois argumentos e contra-argumento deste artigo.
+
+2. Facto ou opinião? «Uma biblioteca cabe no bolso.» · «O e-book pesa menos.» · «A leitura é um prazer
+dos sentidos.»
+
+17
+
+<!-- page 18 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -813,11 +909,11 @@ Prime School Press · www.primeschool.pt
 
 ## O texto publicitário
 
-**LEITURA · ESTUDAR O GÉNERO · TEXTO 4 · ANÚNCIO**
+**LEITURA · ESTUDAR O GÉNERO · TEXTO 6 · ANÚNCIO**
 
 O texto publicitário quer convencer: vender um produto, promover um serviço ou mudar um
 comportamento. Usa estratégias próprias, do slogan imperativo à imagem que vende um estilo de
-vida. A notícia INFORMA (factos, objectividade); a publicidade CONVENCE (emoção, persuasão).
+vida. A notícia INFORMA; a publicidade CONVENCE.
 
 **Estratégia**
 **O que é**
@@ -850,8 +946,7 @@ Acorda cedo. Passa a correr. Cheira a fila? Não: cheira a pão.
 
 O pão saído do forno às 7h, feito como antigamente: fermento
 lento, massa estendida à mão, crosta que estala. Três gerações
-da mesma família, o mesmo forno de lenha, a mesma espera
-daqueles que sabem.
+da mesma família, o mesmo forno de lenha.
 
 PEDE O TEU PÃO DE ONTEM, PARA HOJE.
 
@@ -878,9 +973,9 @@ Veracidade
 Factos verificáveis
 Promessas e emoções
 
-15
+18
 
-<!-- page 16 -->
+<!-- page 19 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -919,9 +1014,9 @@ tradição e aconchego
 
 O esquema mostra como o anúncio combina cinco estratégias: o slogan fica na memória, o imperativo dá
 ordem directa, o superlativo exalta a qualidade, o público-alvo é claro e a emoção vende tradição e
-aconchego, não apenas pão.
+aconchego.
 
-**EXERCÍCIOS 9**
+**EXERCÍCIOS 13**
 1. Qual é o produto e o público-alvo do anúncio?
 
 2. «PÃO QUENTE, MANHÃ SERENA» – que relação o slogan cria entre o produto e o bem-estar?
@@ -933,41 +1028,16 @@ aconchego, não apenas pão.
 **Publicidade portuguesa:**
 **mais exemplos**
 
-16
+19
 
-<!-- page 17 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-
-Prime School Press · www.primeschool.pt
-
-## Escrever uma notícia
-
-**ESCRITA · A TUA NOTÍCIA**
-
-Escreve uma notícia (15 a 20 linhas) sobre um acontecimento real da tua escola ou da tua rua: uma
-festa de final de período, um jogo desportivo, uma obra no bairro, uma acção de voluntariado.
-
-**PLANO**
-1. Responde às seis perguntas (Quem? O quê? Quando? Onde? Como? Porquê?).
-2. Escreve o título: curto e informativo.
-3. Escreve o lead com o essencial no primeiro parágrafo.
-4. No corpo, desenvolve por ordem decrescente, com uma citação directa.
-5. Revisa: apagaste todas as opiniões? A notícia deve ser objectiva.
-
-**RASCUNHO**
-
-17
-
-<!-- page 18 -->
+<!-- page 20 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
-## Gramática – Pronomes e determinantes
+## Gramática – Pronomes, determinantes e quantificadores
 
 **GRAMÁTICA · QUEM SUBSTITUI E QUEM ACOMPANHA**
 
@@ -1009,16 +1079,54 @@ acompanha um nome → DETERMINANTE
 
 «Este livro é meu.»
 
-**EXERCÍCIOS 10**
+**EXERCÍCIOS 14**
 1. Pronome ou determinante? «Este caderno é meu.» / «Este é meu.» / «Alguém me telefonou.» /
 «Preciso de alguma ajuda.»
 
-2. Substitui os nomes por pronomes: «A Maria disse à Maria que o livro da Maria estava na mesa da
-Maria.»
+2. Substitui os nomes repetidos por pronomes: «A Maria disse à Maria que o livro da Maria estava na
+mesa da Maria.»
 
-18
+3. Escreve o quantificador por extenso e classifica-o: «112» · «três gerações» · «sete minutos».
 
-<!-- page 19 -->
+4. Completa com o pronome pessoal adequado: «Onde está a bola? — ______ está aqui.» / «Deste o livro
+à Ana? — Sim, dei-______.»
+
+20
+
+<!-- page 21 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Ler outra notícia
+
+**LEITURA · TEXTO 7**
+
+**TORMENTA VENCE TORNEIO ESCOLAR NO ÚLTIMO SEGUNDO**
+
+A equipa da Escola da Colina venceu ontem o torneio de futsal inter-escolas, na cidade de Setúbal, com
+um golo nos últimos segundos do jogo. Foi o primeiro título da escola, que juntou doze equipas de todo o
+distrito.
+
+O extremo Rui Neto, de doze anos, marcou o golo da vitória. «Passei a bola sem olhar e, quando ouvi a
+buzina, já o Rui estava a celebrar», contou o guarda-redes Tomás. A final terminou 3-2.
+
+O professor Augusto Rivera, treinador, elogiou a atitude das crianças: «Ganharam com fair play. É isto que
+interessa.»
+
+**EXERCÍCIOS 15**
+
+1. Aplica a pirâmide invertida a esta notícia: identifica título, lead e corpo.
+
+2. Classifica os quantificadores que encontrares (doze, 3-2, últimos).
+
+3. Retira a citação directa e escreve o seu discurso indirecto.
+
+21
+
+<!-- page 22 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1036,8 +1144,18 @@ ESCRITA – escrevi uma notícia, uma biografia e um texto de opinião.
 
 ORALIDADE – escutei textos orais e destaquei a informação essencial.
 
-GRAMÁTICA – classes e subclasses de palavras (nomes, adjectivos, advérbios, pronomes, verbos,
-quantificadores), com tabelas e esquemas.
+GRAMÁTICA
+–
+classes
+e
+subclasses
+de
+palavras
+(nomes,
+adjectivos,
+advérbios,
+pronomes,
+determinantes, quantificadores, verbos), com tabelas e esquemas.
 
 **CHECKLIST DE REVISÃO**
 ☐ Sei dizer as seis perguntas da notícia de cor?
@@ -1050,14 +1168,14 @@ quantificadores), com tabelas e esquemas.
 
 ☐ Sei quando uma palavra é pronome e quando é determinante?
 
-**TESTE-TREINO · GRUPO ÚNICO 11**
+**TESTE-TREINO · GRUPO ÚNICO 16**
 1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
 colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
 
-19
+22
 
-<!-- page 20 -->
+<!-- page 23 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1071,27 +1189,27 @@ Prime School Press · www.primeschool.pt
 Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos. No fim, consulta as soluções
 nos Recursos.
 
-**GRUPO I · LEITURA 12**
+**GRUPO I · LEITURA 17**
 1. Desenha a pirâmide invertida e escreve, em cada nível, o que lá se encontra.
 2. Como se distingue uma biografia de uma autobiografia? Dá um exemplo de cada.
 3. O que é a tese de um artigo de opinião? E o contra-argumento?
 4. Dá duas características do texto publicitário, com um exemplo do anúncio da Padaria do Ponto.
 
-**GRUPO II · GRAMÁTICA 13**
+**GRUPO II · GRAMÁTICA 18**
 1. Dá um exemplo de nome colectivo, um advérbio de dúvida e um quantificador. 2. «Tinha estudado»:
 qual é o verbo auxiliar? E o principal? 3. Pronome ou determinante: «Este é meu.» / «Este livro é meu.»
 
-**GRUPO III · FACTO OU OPINIÃO? 14**
+**GRUPO III · FACTO OU OPINIÃO? 19**
 ( ) «O pão sai do forno às 7h.» ( ) «O melhor pão do mundo.» ( ) «A escola termina às 16h30.» ( ) «O
-horário é cansativo.» ( ) «Os bombeiros chegaram em sete minutos.»
+horário é cansativo.»
 
-**GRUPO IV · ORALIDADE 15**
+**GRUPO IV · ORALIDADE 20**
 O professor lê uma notícia em voz alta, duas vezes. Na primeira escuta, escreve o assunto geral. Na
 segunda, responde: Quem? O quê? Quando? Onde? Finalmente, sublinha a frase que for uma opinião.
 
-20
+23
 
-<!-- page 21 -->
+<!-- page 24 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1126,9 +1244,9 @@ sentimentos terias?
 Uma viagem pode ser muito mais do que uma deslocação de um lugar para outro. Pode ser uma
 descoberta.
 
-21
+24
 
-<!-- page 22 -->
+<!-- page 25 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1175,9 +1293,9 @@ Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, 
 elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
 significado simbólico.
 
-22
+25
 
-<!-- page 23 -->
+<!-- page 26 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1220,9 +1338,9 @@ canções e se adoravam outros deuses.
 
 2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
-23
+26
 
-<!-- page 24 -->
+<!-- page 27 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1279,9 +1397,9 @@ A personagem enfrenta situações inesperadas.
 
 O regresso é irrelevante para a narrativa.
 
-24
+27
 
-<!-- page 25 -->
+<!-- page 28 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1317,9 +1435,9 @@ Quando uma pergunta pede uma inferência, não basta copiar uma frase do texto. 
 pista. 2. Pensa no que essa pista significa. 3. Explica a tua conclusão. Fórmula útil: pista do texto +
 interpretação = inferência.
 
-25
+28
 
-<!-- page 26 -->
+<!-- page 29 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1381,9 +1499,9 @@ a situação é resolvida ou transformada
 
 Quando leres uma narrativa, pergunta primeiro: Quem? Onde? Quando? O quê? Porquê?
 
-26
+29
 
-<!-- page 27 -->
+<!-- page 30 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1414,9 +1532,9 @@ da narrativa.
 **QUANDO? · A ÉPOCA DA NARRATIVA**
 Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
-27
+30
 
-<!-- page 28 -->
+<!-- page 31 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1467,9 +1585,9 @@ feliz →
 Um vocabulário rico torna a tua escrita mais precisa e interessante. Evita repetir sempre: bonito ·
 bom · mau · grande · disse · foi. Procura palavras mais específicas.
 
-28
+31
 
-<!-- page 29 -->
+<!-- page 32 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1510,9 +1628,9 @@ Durante a viagem,
 3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
 pretérito imperfeito.
 
-29
+32
 
-<!-- page 30 -->
+<!-- page 33 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1551,9 +1669,9 @@ ______ (olhar) à sua volta.
 
 Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
-30
+33
 
-<!-- page 31 -->
+<!-- page 34 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1587,9 +1705,9 @@ som · uma referência à luz · uma comparação.
 Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores específicos
 que ajudem o leitor a imaginar o lugar.
 
-31
+34
 
-<!-- page 32 -->
+<!-- page 35 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1625,9 +1743,9 @@ Cavaleiro:
 Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
 travessão (—) quando a personagem fala dentro da narração.
 
-32
+35
 
-<!-- page 33 -->
+<!-- page 36 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1658,9 +1776,9 @@ No final, percebe
 QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
 mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
-33
+36
 
-<!-- page 34 -->
+<!-- page 37 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1693,9 +1811,9 @@ Como termina?
 
 **O MEU RASCUNHO**
 
-34
+37
 
-<!-- page 35 -->
+<!-- page 38 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1740,9 +1858,9 @@ Prime School Press · www.primeschool.pt
 Evita frases isoladas. Utiliza conectores: primeiro → depois → entretanto → por isso → contudo →
 finalmente.
 
-35
+38
 
-<!-- page 36 -->
+<!-- page 39 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1774,9 +1892,9 @@ Regista aqui as notas para a tua apresentação:
 Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
 terminar») · controla o corpo: postura erecta, gestos naturais.
 
-36
+39
 
-<!-- page 37 -->
+<!-- page 40 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1808,9 +1926,9 @@ Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu sím
 viagem porque...»
 O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 
-37
+40
 
-<!-- page 38 -->
+<!-- page 41 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1846,9 +1964,9 @@ Não basta dizer. Explica. Pergunta sempre: «Como sei isso?»
 Escreve agora a TUA resposta forte à pergunta: «O cavaleiro é uma personagem perseverante?» Usa a
 fórmula evidência + explicação.
 
-38
+41
 
-<!-- page 39 -->
+<!-- page 42 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1877,9 +1995,9 @@ crescimento · descoberta · coragem · conhecimento · transformação
 Uma frase para levar contigo: as grandes viagens não mudam apenas o lugar onde estamos. Podem
 mudar a forma como vemos o mundo.
 
-39
+42
 
-<!-- page 40 -->
+<!-- page 43 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1918,9 +2036,9 @@ Organizar uma narrativa
 **O MEU PRÓXIMO OBJECTIVO**
 Na próxima unidade quero melhorar...
 
-40
+43
 
-<!-- page 41 -->
+<!-- page 44 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1968,9 +2086,9 @@ A minha classificação:
 As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma como vemos o
 mundo.
 
-41
+44
 
-<!-- page 42 -->
+<!-- page 45 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2000,9 +2118,9 @@ difícil.
 Escreve um parágrafo (60-80 palavras) em que descrevas o momento em que o cavaleiro decide partir.
 Usa dois verbos no imperfeito e dois no perfeito.
 
-42
+45
 
-<!-- page 43 -->
+<!-- page 46 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2035,9 +2153,9 @@ acto – grande divisão da peça · cena – divisão menor; muda quando algué
 que cada personagem diz · didascália – indicação cénica entre parênteses · diálogo – conversa entre
 personagens · monólogo – uma personagem fala sozinha.
 
-43
+46
 
-<!-- page 44 -->
+<!-- page 47 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2099,9 +2217,9 @@ abertura de Frei Luís de Sousa
 No teatro não há narrador: as didascálias substituem a voz de quem conta, instruindo o encenador e
 os actores. Ler teatro é imaginar o palco.
 
-44
+47
 
-<!-- page 45 -->
+<!-- page 48 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2144,9 +2262,9 @@ inquietação é esta que me não deixa viver nem morrer?
 • as falas de D. Madalena (que sentimentos revelam?)
 • o que Telmo diz «(Baixo)» e não quer que a senhora ouça
 
-45
+48
 
-<!-- page 46 -->
+<!-- page 49 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2192,9 +2310,9 @@ Como se revelam os sentimentos, sem narrador?
 A casa «que fala» é uma personificação: o espaço ganha vida e revela o que D. Madalena sente por
 dentro — medo, culpa, saudade. Pista do texto + interpretação = inferência.
 
-46
+49
 
-<!-- page 47 -->
+<!-- page 50 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2271,9 +2389,9 @@ indicação cénica entre parênteses
 Quando leres teatro, imagina o palco: quem está em cena, onde entra, que tom de voz usa. As
 didascálias são as tuas instruções de encenação.
 
-47
+50
 
-<!-- page 48 -->
+<!-- page 51 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2323,9 +2441,9 @@ lentamente.» / «Ensaiamos porque a audição é amanhã.» / «Se eu falhar, t
 3. Junta cada par numa frase complexa: «Canto. Gosto de cantar.» (porque) / «Levantas-te devagar.
 Respiras fundo.» (e) / «Tens medo. Tremes.» (se)
 
-48
+51
 
-<!-- page 49 -->
+<!-- page 52 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2357,9 +2475,9 @@ Como se resolve?
 
 **O MEU RASCUNHO (primeiras falas)**
 
-49
+52
 
-<!-- page 50 -->
+<!-- page 53 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2398,9 +2516,9 @@ Prime School Press · www.primeschool.pt
 
 No drama, mostra — não contes. Em vez de «ele estava nervoso», escreve «(Treme-lhe a voz.)».
 
-50
+53
 
-<!-- page 51 -->
+<!-- page 54 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2435,9 +2553,9 @@ Notas de encenação do meu grupo:
 Fala devagar e com volume alto · olha para o público · marca pausas entre as ideias · corpo erecto,
 gestos naturais.
 
-51
+54
 
-<!-- page 52 -->
+<!-- page 55 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2462,9 +2580,9 @@ demorar-se. Depois responde.
 No teatro, o espaço não é decoração: cria ambiente e revela sentimentos. A casa escura e calada de
 Garrett «fala» do passado de D. Madalena.
 
-52
+55
 
-<!-- page 53 -->
+<!-- page 56 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2499,9 +2617,9 @@ Não basta dizer. Explica. Pergunta sempre: «Como sei isso?» Cita o texto.
 **EXERCÍCIOS 4**
 Escreve a TUA resposta forte: «Telmo é leal a D. Madalena?» Usa a fórmula evidência + explicação.
 
-53
+56
 
-<!-- page 54 -->
+<!-- page 57 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2546,9 +2664,9 @@ Encenar com voz e movimento
 **O MEU PRÓXIMO OBJECTIVO**
 Na próxima unidade quero melhorar...
 
-54
+57
 
-<!-- page 55 -->
+<!-- page 58 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2601,9 +2719,9 @@ sentimento revela «a casa fala»? Justifica com o texto.
 GRUPO II · GRAMÁTICA: 4. «Saiu e fechou a porta» – simples ou complexa? 5. «Saiu porque era tarde» – que
 tipo de oração? 6. Escreve uma frase complexa com «quando» sobre um ensaio.
 
-55
+58
 
-<!-- page 56 -->
+<!-- page 59 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2629,9 +2747,9 @@ ficou na tua cabeça? Escreve-a no caderno, com as tuas palavras.
 
 Prime School Press · www.primeschool.pt
 
-56
+59
 
-<!-- page 57 -->
+<!-- page 60 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2705,9 +2823,9 @@ pena». Ambos são decassílabos?
 
 Prime School Press · www.primeschool.pt
 
-57
+60
 
-<!-- page 58 -->
+<!-- page 61 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2750,9 +2868,9 @@ repete «Quantas… Quantos… Quantas…»?
 4. Explica os dois últimos versos: que contraste há entre «perigo e abismo» e «espelhou o céu»?
 Prime School Press · www.primeschool.pt
 
-58
+61
 
-<!-- page 59 -->
+<!-- page 62 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2769,9 +2887,9 @@ aplicado à tua vida.
 
 Prime School Press · www.primeschool.pt
 
-59
+62
 
-<!-- page 60 -->
+<!-- page 63 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2816,9 +2934,9 @@ INTERPRETAÇÃO
 4. Explica a oposição perder / encontrar do último verso.
 Prime School Press · www.primeschool.pt
 
-60
+63
 
-<!-- page 61 -->
+<!-- page 64 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2838,9 +2956,9 @@ muda quando Pessoa fala do mar e Florbela fala do amor?
 
 Prime School Press · www.primeschool.pt
 
-61
+64
 
-<!-- page 62 -->
+<!-- page 65 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2919,9 +3037,9 @@ escreveu Florbela só «nada»?
 
 Prime School Press · www.primeschool.pt
 
-62
+65
 
-<!-- page 63 -->
+<!-- page 66 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2970,9 +3088,9 @@ comentário deve ter as três.
 
 Prime School Press · www.primeschool.pt
 
-63
+66
 
-<!-- page 64 -->
+<!-- page 67 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -2992,9 +3110,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-64
+67
 
-<!-- page 65 -->
+<!-- page 68 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3021,9 +3139,9 @@ poema.
 
 Prime School Press · www.primeschool.pt
 
-65
+68
 
-<!-- page 66 -->
+<!-- page 69 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3045,9 +3163,9 @@ PLANO:
 
 Prime School Press · www.primeschool.pt
 
-66
+69
 
-<!-- page 67 -->
+<!-- page 70 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3104,9 +3222,9 @@ EXERCÍCIO: classifica «Recordar? Esquecer? Indiferente!» e escreve uma frase 
 
 Prime School Press · www.primeschool.pt
 
-67
+70
 
-<!-- page 68 -->
+<!-- page 71 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3164,9 +3282,9 @@ mar.»
 
 Prime School Press · www.primeschool.pt
 
-68
+71
 
-<!-- page 69 -->
+<!-- page 72 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3250,9 +3368,9 @@ Fizemos o comentário.» / «O poeta perdeu o caderno. Continuou a escrever.» (
 
 Prime School Press · www.primeschool.pt
 
-69
+72
 
-<!-- page 70 -->
+<!-- page 73 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · TEXTO POÉTICO
@@ -3286,9 +3404,9 @@ poemas.»
 
 Prime School Press · www.primeschool.pt
 
-70
+73
 
-<!-- page 71 -->
+<!-- page 74 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -3315,53 +3433,55 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-71
+74
 
-<!-- page 72 -->
+<!-- page 75 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
 
 Prime School Press · www.primeschool.pt
 
-72
+75
 
 UNIDADE 1
 p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; Onde — rio Douro, Ribeira;
 Como — trela improvisada e bombeiros; Porquê — o cão escorregou da margem.
 p.6 Ex.2: ordem 2 (essencial), 3 (desenvolvimento), 1 (pormenores).
-p.7 classes: advérbio — ontem; quantificador — dois; adjectivo — corajosos; determinante — os; verbo — salvaram.
-p.9 Ex.: Lisboa e Mensagem — próprios; poeta e cidade — comuns; biblioteca e rebanho — colectivos.
-p.11 Ex.5: primária, semanal, do Porto e matemático — relacionais; forte — qualificativo.
-p.12 Ex.7: tinha — auxiliar; estava — copulativo; vou — auxiliar.
-p.14 Ex.3 (F/O): F; O; O; F.   Ex.4: ontem — tempo; talvez — dúvida; bem — modo; aqui — lugar; não — negação;
-muito — quantidade.
-p.18 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma».
-p.20 Grupo II: rebanho; talvez; dois. Grupo III: F; O; F; O; F.
+p.7 Ex.: advérbio — ontem; quantificador — dois; adjectivo — corajosos; determinante — os; verbo — salvaram.
+p.7 Ex.2: jovem — nome/adjectivo; para — preposição; e — conjunção; sorri — verbo.
+p.10 Ex.: Lisboa e Mensagem — próprios; poeta e cidade — comuns; biblioteca e rebanho — colectivos.
+p.11 Ex.: nasceu em Lisboa, 1888; morreu em 1935; «I know not what tomorrow will bring».
+p.13 Ex.1: primária, semanal, do Porto e matemático — relacionais; generoso e forte — qualificativos.
+p.13 Ex.2: corajosa · capazes · leitora.  Ex.3: fortíssimo · capacíssimo · facílimo · felicíssimo.
+p.13 Ex.5: tinha — auxiliar; estava — copulativo; vou — auxiliar; parece — copulativo.
+p.16 Ex.3 (F/O): F; O; O.  Ex.4: ontem — tempo; talvez — dúvida; bem — modo; aqui — lugar;
+não — negação; muito — quantidade; certamente — afirmação; longe — lugar.
+p.19 Ex.: pão de padaria artesanal; famílias do bairro.
+p.20 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma».
+p.20 Ex.3: cento e doze · três (cardinal) · sete (cardinal).  Ex.4: ela; -lha.
+p.23 Grupo II: rebanho; talvez; dois. Grupo III: F; O; F; O.
 
 UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-p.22 Missão: personagem — o cavaleiro dinamarquês; espaço — castelo/Dinamarca; época — Idade Média;
-partida em peregrinação; obstáculos — neve, frio, caminho incerto; reage com perseverança.
-p.22 V/F: V; F (decorre na Idade Média); V; V; F (o regresso fecha a viagem).
-p.26 Ex.1: Inverno — «uma tarde de Inverno». Ex.2: para sul — «passo a passo, para sul».
-p.30 Ex.: perfeito — partiu, deixou, cruzou; imperfeito — caminhava, era, mordia.
-p.31 Ex.: estava; caminhava; ouviu; parou; olhou.
-p.42 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
+p.25 Missão: cavaleiro dinamarquês; castelo/Dinamarca, Inverno; parte em peregrinação;
+V/F: V; F (Idade Média); V; V; F.
+p.29 Ex.: perfeito — partiu, deixou, cruzou; imperfeito — caminhava, era, mordia.
+p.30 Ex.: estava; caminhava; ouviu; parou; olhou.
+p.45 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
 
 UNIDADE 3 · O PALCO À ESPERA
-p.46 Ex.1: D. Madalena, Telmo (criado leal); onze anos — «Onze anos…» dito por Telmo.
-p.48 Ex.2: «ajustou e sentou-se» — complexa (e); «desvanece» — simples; «ensaiamos porque» — complexa
-(porque); «Se eu falhar, tu finges» — complexa (se).
-p.55 Grupo I: acto — grande divisão; cena — divisão menor; didascália — indicação cénica; as falas e
-didascálias substituem o narrador; «a casa fala» — personificação que revela angústia e culpa.
+p.49 Ex.2: «ajustou e sentou-se» — complexa (e); «desvanece» — simples; «ensaiamos porque» —
+complexa (porque); «Se eu falhar, tu finges» — complexa (se).
+p.58 Grupo I: acto — grande divisão; cena — divisão menor; didascália — indicação cénica;
+as falas e didascálias substituem o narrador; «a casa fala» — personificação que revela angústia.
 Grupo II: «Saiu e fechou a porta» — complexa (coordenada); «Saiu porque era tarde» — complexa
 (subordinada causal).
 
 UNIDADE 4
-p.57: as estrofes do soneto — duas quadras e dois tercetos; esquema ABAB ABBA CCD EED.
-p.60 coordenadas: adversativa; causal (subord.); disjuntiva; conclusiva.
-p.61 passiva: «Mensagem foi escrito por Fernando Pessoa.»; «O mar foi cruzado pelos marinheiros.»
-p.62 subordinadas: adversativa (coord.); causal (subord.); disjuntiva (coord.); temporal (subord.);
+p.61: as estrofes do soneto — duas quadras e dois tercetos; esquema ABAB ABBA CCD EED.
+p.64 coordenadas: adversativa; causal (subord.); disjuntiva; conclusiva.
+p.65 passiva: «Mensagem foi escrito por Fernando Pessoa.»; «O mar foi cruzado pelos marinheiros.»
+p.66 subordinadas: adversativa (coord.); causal (subord.); disjuntiva (coord.); temporal (subord.);
 condicional (subord.); concessiva (subord.).
 
 NOTA: as respostas pessoais (opiniões, comentários, escrita criativa) não têm solução única: são
