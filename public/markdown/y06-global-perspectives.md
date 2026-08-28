@@ -1409,7 +1409,8 @@ GETTING STARTED
 Mateo empties his school bag onto a table: pencil case, water bottle, snack wrapper,
 football sticker. Sofia asks where each object might have started life. Jamal wants
 to know who sewed the bag strap. Inês draws a dotted line from "cotton field" to
-"our classroom". Before they invent wild countries, they choose one object and list
+
+efore they invent wild countries, they choose one object and list
 five steps it might have taken. Then the big question: how does the world connect
 through things we use every day?
 
@@ -1422,6 +1423,9 @@ Prime School Press · www.primeschool.pt
 **Listen / Correct: Full sentences; respectful listening.**
 **Support: Sentence frame: I think… because…**
 **Extra challenge: One extra why question.**
+
+their classroom". B
+"
 
 <!-- page 38 -->
 

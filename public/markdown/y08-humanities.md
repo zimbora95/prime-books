@@ -597,11 +597,6 @@ The account
 **A map is a drawn or printed picture of a place that shows selected features, not a perfect photograph of the**
 whole world. Map-makers decide what to show and what to leave out. That is why the same coastline can
 look different on two maps: one might colour the mountains, another might draw borders and capital cities.
-Your first skill is to notice that choice and match it to your question.
-
-Figure 1.1 · Maps on a learning desk.
-Colourful map sheets and tools spread on a desk. Notice how different sheets show landforms, borders or routes; each answers
-a different question about the past.
 
 **Define five common types, then use them. A physical map shows landforms and water: hills, rivers, seas and**
 **deserts. A political map shows borders, countries and capital cities. A topographic map adds elevation (how**
@@ -716,7 +711,7 @@ Prime School Press - www.primeschool.pt
 · MAPS ON A LEARNING DESK.
 UNIT 1 - TOPIC 1.1
 
-**Figure 1.1 · The world: continents, oceans and the Equator.**
+**Figure 1.1 · The world: continents and oceans, with the Equator and the Prime Meridian.**
 
 <!-- page 21 -->
 
@@ -740,47 +735,14 @@ intermediate direction. Most school maps put north at the top, but check every t
 without a rose can trick you.
 
 Everyday example: "The sports hall is north of the canteen" is clearer than "the sports hall is that way."
-**History needs the same precision. Armies expand northward; fleets sail south-east toward islands; migrants**
-**move west along a coast looking for farmland. If you only say "the Romans went out", the story stays vague.**
-If you say "Rome pushed west across the Italian peninsula and later south into North Africa", a listener can
-follow the path on a map.
-
-Year 8 places to practise: from Lisbon, the Atlantic opens west and south-west; Madrid lies roughly east;
-the Mediterranean coast of Spain lies south-east. From Athens, Egypt lies roughly south-east across the sea;
-the Black Sea lies north-east for many grain routes. From Rome, the Alps lie roughly north; Sicily lies south.
-Precision is not pedantry: it is the difference between a claim you can test and a claim you can only wave at.
-
-Cardinal
-Intermediate
-
-Main four
-N, S, E, W
-NE, NW, SE, SW
-
-Use
-Armies, coasts, maps
-Routes that are not straight
-
-Example
-North of the Alps
-South-east toward Asia Minor
-
-Figure 1.3 · Cardinal and intermediate directions.
-Use the left column for the main four points and the right for the in-between points. Practise naming a route from
-Athens toward Egypt before you write your next history sentence.
-
-Worked example: "Greek colonists settled in southern Italy and Sicily." Rewrite with directions: "From the
-**Aegean, many Greek settlers sailed west and south-west to southern Italy and Sicily." Now open a physical**
-map and check: the sea is the highway; the direction names match the coast they reached. That sentence is
-now evidence-ready.
-
-Why it matters: states and empires expand in directions, not in vague "outward" clouds. Clear direction
-language lets you track power across the Mediterranean and later across the Atlantic from Iberian ports.
+**History needs the same precision. Armies expand northward; fleets sail south-east toward islands; migran**
 
 **21**
 Prime School Press - www.primeschool.pt
 
 U N I T 1 - T O P I C 1 . 2
+
+**Figure 1.1 · The world: continents, oceans and the Equator.**
 
 <!-- page 22 -->
 
@@ -1339,10 +1301,9 @@ passes later mattered for any power crossing into Italy. Iberian ranges shaped h
 failed to link) to inland plains. Balkan heights slowed easy unification the same way Greek ridges did.
 
 Prime School Press - www.primeschool.pt
-
-**Figure 2.2 · A high mountain range. Cold, steep and difficult to cross, but a natural frontier.**
-
 33
+
+**Figure 2.2 · Mount Everest: the highest mountain in the world (8,849 metres).**
 
 <!-- page 34 -->
 

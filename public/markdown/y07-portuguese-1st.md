@@ -28,44 +28,46 @@ Unidade 1 · Textos dos Media....................................
 A notícia · a pirâmide invertida
 .....................................
 **4**
-Ler uma notícia.....................................................
+Ler uma notícia · desenha a pirâmide
+.............................
 **5**
 Exercícios · A notícia
 ..................................................
 **6**
-Gramática · as classes de palavras............................
+Ler outra notícia · Tormenta......................................
 **7**
+Gramática · as classes de palavras............................
+**8**
 Oralidade · Escutar a notícia
 .......................................
-**8**
-Escrever uma notícia..............................................
 **9**
-A biografia · subclasses dos nomes...........................
+Escrever uma notícia..............................................
 **10**
-Fernando Pessoa + exercícios..................................
+A biografia · subclasses dos nomes...........................
 **11**
-Ler outra biografia · Carolina Mendes.........................
+Fernando Pessoa + exercícios..................................
 **12**
-Exercícios · adjectivo e verbo....................................
+Ler outra biografia · Carolina Mendes.........................
 **13**
-Escrever uma biografia ..........................................
+Gramática · adjectivo e verbo (tempos)........................
 **14**
-O artigo de opinião · texto.........................................
+Escrever uma biografia ..........................................
 **15**
-Exercícios · opinião, advérbio e escrita
-...........................
+O artigo de opinião · texto.........................................
 **16**
-Ler outro artigo de opinião.......................................
+Exercícios · opinião e advérbio
+.....................................
 **17**
+Ler outro artigo de opinião.......................................
+**18**
 O texto publicitário · o anúncio
 ....................................
-**18**
+**19**
 Exercícios · o esquema do anúncio
 ...............................
-**19**
-Gramática · pronomes e quantificadores......................
 **20**
-Ler outra notícia · Tormenta......................................
+Gramática · pronomes e adjacência verbal
+.....................
 **21**
 Revisão da Unidade 1.............................................
 **22**
@@ -165,36 +167,38 @@ O passaporte do leitor ...........................................
 Unidade 4 · A Palavra em Música
 .................................
 **59**
-Como se faz um poema · tabelas..............................
+Como se faz um poema .........................................
 **60**
-Vamos ler · Mar Português.......................................
+Vamos ler · Mar Português
+..........................................
 **61**
-Missão do leitor · Mar Português
-..................................
+Missão do leitor.....................................................
 **62**
-Vamos ler · Amar! (Florbela)....................................
+Vamos ler · Amar!...................................................
 **63**
-Missão do leitor · Amar! e comparação
-..........................
+Missão do leitor · Amar!
+.............................................
 **64**
-Gramática · orações coordenadas
-...............................
+Gramática · Orações coordenadas
+.................................
 **65**
-Gramática · activa, passiva e subordinadas..................
+Gramática · Activa, passiva e subordinadas
+....................
 **66**
-Writing Lab · comentar um poema.............................
+Writing Lab · comentar um poema..............................
 **67**
-Writing Lab · os teus poemas...................................
+Writing Lab · escreve os teus poemas..........................
 **68**
-Fala e escuta · declamar poesia...............................
+Fala e escuta · declamar poesia.................................
 **69**
-Literatura em imagem · poema visual.........................
+Literatura em imagem · o poema visual........................
 **70**
-Cambridge Focus · comentar com precisão...................
+Cambridge Focus · comentar com precisão
+....................
 **71**
-Relembra + Checkpoint .........................................
+Relembra · o que aprendi.........................................
 **72**
-Passaporte do leitor · ficha......................................
+O passaporte do leitor ...........................................
 **73**
 
 **RECURSOS**
@@ -330,18 +334,16 @@ da água com uma escada de salvamento. O cão passou por
 uma consulta veterinária e está bem de saúde.
 
 A Câmara Municipal do Porto vai entregar aos dois alunos uma
-medalha de mérito civil na próxima sexta-feira, no Salão
-Nobre dos Paços do Concelho. «São o exemplo do que a
-cidade quer dos seus mais novos», afirmou a presidente da
-Câmara.
+medalha de mérito civil na próxima sexta-feira, no Salão Nobre
+dos Paços do Concelho. «São o exemplo do que a cidade quer
+dos seus mais novos», afirmou a presidente da Câmara.
 
-**VOCABULÁRIO**
+VOCABULÁRIO: entradilha – primeiro parágrafo da notícia · mérito civil –
+distinção por acto de coragem · curiosos – quem assiste.
 
-entradilha – primeiro parágrafo da notícia · mérito civil – distinção por acto de coragem · curiosos – quem
-assiste ao acontecimento
-
-Vê como a pirâmide invertida se aplica a esta notícia: o título resume o resgate; o lead responde às seis
-perguntas; o corpo acrescenta declarações, a operação dos bombeiros e a cerimónia da medalha.
+**DESENHA A PIRÂMIDE DESTE NOTÍCIA**
+No espaço ao lado, desenha a pirâmide invertida aplicada a esta notícia: escreve o título no topo, o lead no
+segundo nível e dois pormenores do corpo abaixo.
 
 5
 
@@ -369,22 +371,53 @@ Prime School Press · www.primeschool.pt
 2. Numera de 1 a 3, pela ordem em que aparecem na notícia: ( ) Pormenores finais (consulta veterinária,
 medalha). ( ) Informação essencial (o resgate). ( ) Desenvolvimento dos factos (declarações dos jovens).
 
-3. Escreve dois títulos diferentes para esta notícia: um sério e um chamativo.
+3. Escreve dois títulos diferentes para esta notícia: um sério e um chamativo. Qual atrairia mais leitores?
 
 4. Retira do texto as duas citações directas e identifica quem fala em cada uma.
 
 5. Se o jornalista só pudesse publicar o primeiro parágrafo, o leitor ficaria a saber o essencial? Porquê?
 
-6. Assinala no texto, com as letras T, L e C, título, lead e corpo. Confirma a pirâmide invertida da página
-4.
-
-**Lê notícias reais do dia**
-**(RTP) e identifica título,**
-**lead e 6 W**
-
 6
 
 <!-- page 7 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Ler outra notícia
+
+**LEITURA · TEXTO 2**
+
+**TORMENTA VENCE TORNEIO ESCOLAR NO ÚLTIMO SEGUNDO**
+
+A equipa da Escola da Colina venceu ontem o torneio de futsal inter-escolas, na cidade de Setúbal, com
+um golo nos últimos segundos do jogo. Foi o primeiro título da escola, que juntou doze equipas de todo o
+distrito.
+
+O extremo Rui Neto, de doze anos, marcou o golo da vitória. «Passei a bola sem olhar e, quando ouvi a
+buzina, já o Rui estava a celebrar», contou o guarda-redes Tomás Ferreira. A final, jogada no pavilhão
+municipal, terminou 3-2, com um penálti da capitã Sofia Marques a empatar a meio do segundo tempo.
+
+O professor Augusto Rivera, treinador da equipa, elogiou a atitude das crianças: «Ganharam com fair play.
+É isto que interessa.» Os campeões receberam o troféu das mãos da presidente da Câmara.
+
+**VOCABULÁRIO**
+
+extremo – jogador que joga na lateral · penálti – marcação de grande penalidade · fair play – jogo limpo
+
+**EXERCÍCIOS 2**
+
+1. Aplica a pirâmide invertida a esta notícia: identifica título, lead e corpo.
+
+2. Classifica os quantificadores que encontrares (doze, 3-2, últimos, sete).
+
+3. Retira as duas citações directas e escreve uma delas em discurso indirecto.
+
+7
+
+<!-- page 8 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -458,15 +491,15 @@ Oh! Uau!
 • interjeição
 • NUNCA mudam
 
-**EXERCÍCIOS 2**
+**EXERCÍCIOS 3**
 1. Na frase «Ontem, os dois alunos corajosos salvaram imediatamente o cão», encontra: um advérbio,
 um quantificador, um adjectivo, um determinante e um verbo.
 
 2. Classifica as palavras destacadas: «A jovem telefona para Lisboa e sorri.» (jovem · para · e · sorri)
 
-7
+8
 
-<!-- page 8 -->
+<!-- page 9 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -475,13 +508,13 @@ Prime School Press · www.primeschool.pt
 
 ## Oralidade – Escutar a notícia
 
-**ORALIDADE · ANTES DA ESCRITA**
+**ORALIDADE · TREINAR A ESCUTA**
 
-Antes de passares à escrita, treina a escuta com a notícia que acabaste de estudar. Ouvir bem
-exige técnica: primeira escuta para perceber o assunto geral; segunda escuta para registar Quem?
-O quê? Quando? Onde?; terceira escuta para confirmar detalhes e distinguir factos de opiniões.
+Ouvir bem exige técnica: primeira escuta para perceber o assunto geral; segunda escuta para
+registar Quem? O quê? Quando? Onde?; terceira escuta para confirmar detalhes e distinguir factos
+de opiniões.
 
-**EXERCÍCIOS DE ORALIDADE 3**
+**EXERCÍCIOS DE ORALIDADE 4**
 1. EM GRUPO: o professor lê em voz alta a notícia do cão Baguete (duas vezes). Na primeira escuta,
 escreve apenas o assunto geral. Na segunda, completa as quatro perguntas com notas rápidas.
 
@@ -503,9 +536,9 @@ Dica: usa siglas e palavras-chave abreviadas ao tomar notas; depois transforma-a
 **Escuta um noticiário RTP**
 **Play e regista o essencial**
 
-8
+9
 
-<!-- page 9 -->
+<!-- page 10 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -528,9 +561,9 @@ festa de final de período, um jogo desportivo, uma obra no bairro, uma acção 
 
 **RASCUNHO**
 
-9
+10
 
-<!-- page 10 -->
+<!-- page 11 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -578,16 +611,16 @@ Colectivo
 Singular que designa um conjunto
 biblioteca, rebanho
 
-**EXERCÍCIOS 4**
+**EXERCÍCIOS 5**
 1. Classifica os nomes: Lisboa · poeta · biblioteca · Mensagem · rebanho · cidade.
 
 2. Completa com um nome colectivo: uma ____ de peixes; uma ____ de aves; uma ____ de ovelhas.
 
 3. Escreve duas frases sobre a tua turma usando um nome próprio e um nome colectivo.
 
-10
+11
 
-<!-- page 11 -->
+<!-- page 12 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -596,7 +629,7 @@ Prime School Press · www.primeschool.pt
 
 ## Fernando Pessoa
 
-**LEITURA · TEXTO 2 · BIOGRAFIA**
+**LEITURA · TEXTO 3 · BIOGRAFIA**
 
 Fernando Nogueira Pessoa nasceu em Lisboa a 13 de Junho de 1888 e
 morreu na mesma cidade a 30 de Novembro de 1935. É considerado um
@@ -614,7 +647,7 @@ repousa no Mosteiro dos Jerónimos.
 
 VOCABULÁRIO: heterónimo – poeta inventado, com personalidade própria.
 
-**EXERCÍCIOS 5**
+**EXERCÍCIOS 6**
 
 1. Onde e quando nasceu Fernando Pessoa? Em que ano morreu?
 
@@ -627,46 +660,6 @@ VOCABULÁRIO: heterónimo – poeta inventado, com personalidade própria.
 5. Completa a linha do tempo: 1888 nasce →____ →1896 África do Sul →____ →1914 heterónimos →____
 → 1935 morre.
 
-11
-
-<!-- page 12 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-
-Prime School Press · www.primeschool.pt
-
-## Ler outra biografia – uma campeã
-
-**LEITURA · TEXTO 3 · BIOGRAFIA**
-
-**A CARREIRA DE UMA CAMPEÃ**
-Carolina Mendes nasceu numa pequena vila do Alentejo, filha de um
-electricista e de uma professora primária, e desde criança trocou as
-bonecas por uma bola de futebol. Treinou primeiro na rua, com os
-primos, até o anoitecer.
-
-Aos doze anos entrou na formação de um clube da região, onde a mãe a
-levava de carro duas vezes por semana, sessenta quilómetros por cada
-treino. Aos vinte e um vestiu pela primeira vez a camisola da selecção
-nacional.
-
-Hoje, com mais de cem jogos internacionais, é capitã e exemplo: criou
-uma fundação que leva treinos e material desportivo a aldeias do
-interior. «Se uma menina do Alentejo chegou ao topo, todas podem»,
-costuma repetir.
-
-**EXERCÍCIOS 6**
-
-1. Constrói a linha do tempo de Carolina Mendes com cinco marcos.
-
-2. Que sacrifícios a família fez pela carreira? Retira duas provas do texto.
-
-3. Retira a citação e explica porque é forte no fecho.
-
-4. Escolhe alguém da tua família e escreve a primeira biografia dessa pessoa, em 12 linhas, com uma
-citação real.
-
 12
 
 <!-- page 13 -->
@@ -676,11 +669,50 @@ PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
-## Exercícios – A biografia
+## Ler outra biografia – uma campeã
 
-**GRAMÁTICA · SUBCLASSES DO ADJECTIVO**
+**LEITURA · TEXTO 4 · BIOGRAFIA**
 
-**Subclasse**
+**A CARREIRA DE UMA CAMPEÃ**
+Carolina Mendes nasceu numa pequena vila do Alentejo, filha de um
+electricista e de uma professora primária, e desde criança trocou as
+bonecas por uma bola de futebol. Treinou primeiro na rua, com os
+primos, até o anoitecer, marcando golos contra a parede da adega do
+avô.
+
+Aos doze anos entrou na formação de um clube da região, onde a mãe a
+levava de carro duas vezes por semana, sessenta quilómetros por cada
+treino. Aos dezasseis estreou-se na equipa principal; aos vinte e um
+vestiu pela primeira vez a camisola da selecção nacional, num jogo em
+Alvalade que a família assistiu em lágrimas.
+
+Hoje, com mais de cem jogos internacionais, é capitã e exemplo: criou
+uma fundação que leva treinos e material desportivo a aldeias do
+interior. «Se uma menina do Alentejo chegou ao topo, todas podem»,
+costuma repetir em entrevistas.
+
+**EXERCÍCIOS 7**
+
+1. Constrói a linha do tempo de Carolina Mendes com cinco marcos.
+
+2. Que sacrifícios a família fez pela carreira? Retira duas provas do texto.
+
+3. Retira a citação e explica porque é forte no fecho.
+
+13
+
+<!-- page 14 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Gramática – O adjectivo e o verbo
+
+**GRAMÁTICA · SUBCLASSES DO ADJECTIVO E DO VERBO**
+
+**Adjectivo**
 **Definição**
 **Exemplos**
 
@@ -692,18 +724,15 @@ Relacional
 Indica relação ou origem; sem grau
 comercial, escolar
 
-**EXERCÍCIOS 7**
-1. Copia as expressões e sublinha o adjectivo; depois classifica-o: uma escola primária · um vinho
-generoso · uma revista semanal · uma equipa forte · um problema matemático · uma cardíaca operação.
+**EXERCÍCIOS 8**
+1. Copia as expressões, sublinha o adjectivo e classifica-o: uma escola primária · um vinho generoso ·
+uma revista semanal · uma equipa forte · um problema matemático.
 
 2. Escreve o feminino e o plural: aluno corajoso · jogador capaz · rapariga leitor.
 
-3. Escreve o grau superlativo absoluto sintético de: forte · capaz · fácil · feliz.
+3. Escreve o superlativo absoluto sintético: forte · capaz · fácil · feliz.
 
-4. Escreve três frases sobre a tua escola: uma com adjectivo qualificativo, uma com relacional e uma
-com superlativo.
-
-**GRAMÁTICA · SUBCLASSES DO VERBO**
+**SUBCLASSES DO VERBO · TABELA**
 
 **Subclasse**
 **Função**
@@ -721,13 +750,35 @@ Copulativo
 Liga o sujeito a uma qualidade
 ser, estar, parecer
 
-**EXERCÍCIOS 8**
-5. Principal, auxiliar ou copulativo? «Pessoa tinha escrito poemas.» / «A mãe estava preocupada.» / «Vou
+**OS TEMPOS VERBAIS DO INDICATIVO · TABELA**
+
+**Tempo**
+**Uso**
+**Exemplo**
+
+Presente
+Facto actual
+«O cão está bem.»
+
+Pretérito perfeito
+Acção terminada
+«Os bombeiros chegaram.»
+
+Pretérito imperfeito
+Hábito ou descrição no passado
+«Ela treinava na rua.»
+
+Futuro
+Acção futura
+«A Câmara vai entregar.»
+
+**EXERCÍCIOS 9**
+4. Principal, auxiliar ou copulativo? «Pessoa tinha escrito poemas.» / «A mãe estava preocupada.» / «Vou
 escrever a minha biografia.» / «A jogadora parece feliz.»
 
-13
+14
 
-<!-- page 14 -->
+<!-- page 15 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -754,9 +805,9 @@ músico ou um familiar.
 
 **RASCUNHO**
 
-14
+15
 
-<!-- page 15 -->
+<!-- page 16 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -765,7 +816,7 @@ Prime School Press · www.primeschool.pt
 
 ## O artigo de opinião
 
-**LEITURA · ESTUDAR O GÉNERO · TEXTO 4**
+**LEITURA · ESTUDAR O GÉNERO · TEXTO 5**
 
 O artigo de opinião é um texto em que o autor defende uma ideia pessoal sobre um tema da
 actualidade. A tese é a opinião principal; os argumentos são as razões que a apoiam; o
@@ -790,80 +841,26 @@ No entanto…
 Conclusão
 Reforça a tese
 Portanto, em conclusão…
-
-TELEMÓVEIS NA ESCOLA: SIM OU NÃO? (TEXTO 4)
+TELEMÓVEIS NA ESCOLA: SIM OU NÃO? (TEXTO 5)
 
 Em primeiro lugar, defendo que os telemóveis não devem ser proibidos na escola. São ferramentas de
-trabalho como qualquer outra, e o mundo para o qual a escola prepara já não funciona sem eles.
+trabalho como qualquer outra, e o mundo para o qual a escola prepara já não funciona sem eles. Proibir seria
+fingir que o mundo não existe.
 
-Além disso, com o telemóvel podemos pesquisar o dicionário online e gravar leituras em voz alta. No entanto,
-reconheço o perigo das notificações: defendo uma regra simples: silêncio na mochila, a usar quando o
-professor autorizar.
+Além disso, com o telemóvel podemos pesquisar no dicionário online, tirar fotografias aos resumos do
+quadro, consultar horários e gravar leituras em voz alta para revisão. Proibir é uma solução fácil; educar para
+o bom uso é uma solução melhor, ainda que exija mais de todos nós.
 
-Em conclusão, não é o telemóvel que perturba a aula: é a falta de regras claras.
+No entanto, reconheço o perigo das notificações durante as aulas: o ping de uma mensagem rouba a
+atenção de uma sala inteira. Por isso, defendo uma regra simples e clara: telemóvel no modo de silêncio
+dentro da mochila, e utilização apenas quando o professor autorizar.
+
+Em conclusão, não é o telemóvel que perturba a aula: é a falta de regras claras. Educar para o uso
+responsável prepara-nos melhor para o mundo de hoje do que proibir e fingir que o mundo não existe.
 
 **VOCABULÁRIO**
 
 tese – opinião principal defendida · contra-argumento – razão da opinião contrária, reconhecida
-
-15
-
-<!-- page 16 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-
-Prime School Press · www.primeschool.pt
-
-## Exercícios – O artigo de opinião
-
-**EXERCÍCIOS 9**
-1. Qual é a tese do artigo? Copia a frase que a mostra.
-
-2. Indica os dois argumentos a favor e o contra-argumento.
-
-3. Facto (F) ou opinião (O)? ( ) «A escola termina às 16h30.» ( ) «O horário é cansativo.» ( ) «Proibir é
-uma solução fácil.»
-
-**GRAMÁTICA · SUBCLASSES DO ADVÉRBIO**
-
-**Subclasse**
-**Pergunta**
-**Exemplos**
-
-Tempo
-Quando?
-ontem, hoje, já
-
-Modo
-Como?
-bem, devagar
-
-Lugar
-Onde?
-aqui, ali
-
-Negação
-—
-não, nunca
-
-Quantidade
-Quanto?
-muito, pouco
-
-Dúvida
-—
-talvez, possivelmente
-
-**EXERCÍCIOS 10**
-4. Classifica os advérbios: ontem · talvez · bem · aqui · não · muito · certamente · longe.
-
-5. Escreve uma frase com um advérbio de modo e outra com um de dúvida.
-
-**ESCRITA · A TUA OPINIÃO 11**
-Escreve um texto de opinião (15 a 20 linhas) sobre: «As redes sociais fazem bem à amizade?» Usa a
-estrutura da página 15: introdução com a tese, dois argumentos com exemplos, um contra-argumento e
-conclusão.
 
 16
 
@@ -874,27 +871,57 @@ PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
-## Ler outro artigo de opinião
+## Exercícios – O artigo de opinião
 
-**LEITURA · TEXTO 5**
+**EXERCÍCIOS 10**
+1. Qual é a tese do artigo? Copia a frase que a mostra.
 
-**LIVROS EM PAPEL: AINDA TÊM FUTURO?**
+2. Indica os dois argumentos a favor e o contra-argumento.
 
-Em primeiro lugar, defendo que o livro em papel não vai desaparecer das escolas. E explico porquê com
-uma imagem: ninguém fotografa a sua estante de e-books para mostrar aos amigos.
+3. Facto (F) ou opinião (O)? ( ) «A escola termina às 16h30.» ( ) «O horário é cansativo.» ( ) «Proibir é
+uma solução fácil.»
 
-Além disso, há algo que o e-book não substitui: o cheiro das páginas, o dedo a marcar o sítio onde ficámos,
-a estante que conta a nossa vida. No entanto, reconheço as vantagens do e-book: pesa menos e uma
-biblioteca inteira cabe no bolso.
+**GRAMÁTICA · O ADVÉRBIO**
+O advérbio é uma palavra INVARIÁVEL que modifica o verbo, o adjectivo ou outro advérbio: diz como,
+quando, onde ou quanto algo acontece. Não tem género nem número.
 
-Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler mais, em qualquer suporte.
+**Subclasse**
+**Pergunta**
+**Exemplos**
 
-**EXERCÍCIOS 12**
+Tempo
+Quando?
+ontem, hoje, já, cedo
 
-1. Tese, dois argumentos e contra-argumento deste artigo.
+Modo
+Como?
+bem, devagar, assim
 
-2. Facto ou opinião? «Uma biblioteca cabe no bolso.» · «O e-book pesa menos.» · «A leitura é um prazer
-dos sentidos.»
+Lugar
+Onde?
+aqui, ali, abaixo, longe
+
+Negação
+—
+não, nunca, tampouco
+
+Quantidade
+Quanto?
+muito, pouco, mais, tão
+
+Dúvida
+—
+talvez, possivelmente
+
+Afirmação
+—
+sim, certamente
+
+**EXERCÍCIOS 11**
+4. Copia as frases e sublinha os advérbios; depois classifica-os: «Amanhã, o jogo começa cedo.» /
+«Certamente ela joga bem.» / «Talvez não venham hoje.» / «O cão latiu muito.»
+
+5. Escreve uma frase com um advérbio de modo e outra com um de dúvida.
 
 17
 
@@ -905,9 +932,49 @@ PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
+## Ler outro artigo de opinião
+
+**LEITURA · TEXTO 6**
+
+**LIVROS EM PAPEL: AINDA TÊM FUTURO? (TEXTO 6)**
+
+Em primeiro lugar, defendo que o livro em papel não vai desaparecer das escolas. E explico porquê com
+uma imagem: ninguém fotografa a sua estante de e-books para mostrar aos amigos.
+
+Além disso, há algo que o e-book não substitui: o cheiro das páginas, o dedo a marcar o sítio onde ficámos,
+a estante que conta a nossa vida aos visitantes, o caderno de capa gasta que abrimos dez anos depois e
+encontramos a nossa caligrafia de criança. A leitura é também um prazer dos sentidos e da memória.
+
+No entanto, reconheço as vantagens do e-book: pesa menos na mochila, o dicionário abre num toque, uma
+biblioteca inteira cabe no bolso e o brilho ajusta-se à luz da cama. Para viagens e consultas rápidas, é
+imbatível.
+
+Por isso, a minha proposta é de paz: que cada formato cumpra a sua missão. O papel para os livros que
+amamos e queremos guardar e emprestar; o digital para os que usamos e devolvemos.
+
+Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler mais, em qualquer suporte.
+
+**EXERCÍCIOS 12**
+
+1. Qual é a tese deste artigo? E a da proposta de «paz» no quarto parágrafo?
+
+2. Indica dois argumentos a favor do papel e duas vantagens reconhecidas do e-book.
+
+3. Facto ou opinião? «Uma biblioteca cabe no bolso.» · «O e-book pesa menos.» · «A leitura é um prazer
+dos sentidos.»
+
+18
+
+<!-- page 19 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
 ## O texto publicitário
 
-**LEITURA · ESTUDAR O GÉNERO · TEXTO 6 · ANÚNCIO**
+**LEITURA · ESTUDAR O GÉNERO · TEXTO 7 · ANÚNCIO**
 
 O texto publicitário quer convencer: vender um produto, promover um serviço ou mudar um
 comportamento. Usa estratégias próprias, do slogan imperativo à imagem que vende um estilo de
@@ -971,9 +1038,9 @@ Veracidade
 Factos verificáveis
 Promessas e emoções
 
-18
+19
 
-<!-- page 19 -->
+<!-- page 20 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1026,20 +1093,18 @@ aconchego.
 **Publicidade portuguesa:**
 **mais exemplos**
 
-19
+20
 
-<!-- page 20 -->
+<!-- page 21 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
-Prime School Press · www.primeschool.pt
-
-## Gramática – Pronomes, determinantes e quantificadores
+## Gramática – Os pronomes
 
 **GRAMÁTICA · QUEM SUBSTITUI E QUEM ACOMPANHA**
 
-**SUBCLASSES DO PRONOME**
+**SUBCLASSES DO PRONOME · TABELA**
 
 **Subclasse**
 **O que faz**
@@ -1065,64 +1130,47 @@ Relativo
 Retoma um nome; une orações
 que, quem, o qual
 
-**ESQUEMA · PRONOME OU DETERMINANTE?**
+**O PRONOME PESSOAL E O VERBO · ADJACÊNCIA**
+O pronome pessoal pode ficar ANTES do verbo (próclise) ou DEPOIS, unido por hífen (ênclise). A posição
+depende da palavra que vem antes:
 
-**PALAVRA SOZINHA**
-sem nome a seguir → PRONOME
+**Posição**
+**Quando acontece**
+**Exemplo**
 
-«Este é meu.»
+Ênclise (depois)
+Verbo no início da frase positiva
+«Encontrei-a no degrau.»
 
-**PALAVRA + NOME**
-acompanha um nome → DETERMINANTE
+Próclise (antes)
+Palavra negativa antes
+«Não a encontrei.»
 
-«Este livro é meu.»
+Próclise (antes)
+Advérbio sem vírgula
+«Ontem encontrou-a.»
+
+Próclise (antes)
+Pergunta com «onde»
+«Onde a encontraste?»
+
+**REGRA DE OURO**
+
+Verbo no início da frase positiva → pronome DEPOIS: «Entreguei-lhe.» Palavra atractora antes do
+verbo (não, ontem, onde) → pronome ANTES: «Não lhe entreguei.»
 
 **EXERCÍCIOS 14**
 1. Pronome ou determinante? «Este caderno é meu.» / «Este é meu.» / «Alguém me telefonou.» /
 «Preciso de alguma ajuda.»
 
-2. Substitui os nomes repetidos por pronomes: «A Maria disse à Maria que o livro da Maria estava na
+2. Corrige: «Não encontrei-a.» / «Me dá a luva?» / «Ontem a encontrei e devolvi-lhe.»
+
+3. Substitui os nomes repetidos por pronomes: «A Maria disse à Maria que o livro da Maria estava na
 mesa da Maria.»
 
-3. Escreve o quantificador por extenso e classifica-o: «112» · «três gerações» · «sete minutos».
-
-4. Completa com o pronome pessoal adequado: «Onde está a bola? — ______ está aqui.» / «Deste o livro
-à Ana? — Sim, dei-______.»
-
-20
-
-<!-- page 21 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-
-Prime School Press · www.primeschool.pt
-
-## Ler outra notícia
-
-**LEITURA · TEXTO 7**
-
-**TORMENTA VENCE TORNEIO ESCOLAR NO ÚLTIMO SEGUNDO**
-
-A equipa da Escola da Colina venceu ontem o torneio de futsal inter-escolas, na cidade de Setúbal, com
-um golo nos últimos segundos do jogo. Foi o primeiro título da escola, que juntou doze equipas de todo o
-distrito.
-
-O extremo Rui Neto, de doze anos, marcou o golo da vitória. «Passei a bola sem olhar e, quando ouvi a
-buzina, já o Rui estava a celebrar», contou o guarda-redes Tomás. A final terminou 3-2.
-
-O professor Augusto Rivera, treinador, elogiou a atitude das crianças: «Ganharam com fair play. É isto que
-interessa.»
-
-**EXERCÍCIOS 15**
-
-1. Aplica a pirâmide invertida a esta notícia: identifica título, lead e corpo.
-
-2. Classifica os quantificadores que encontrares (doze, 3-2, últimos).
-
-3. Retira a citação directa e escreve o seu discurso indirecto.
-
 21
+
+4. Completa: «Onde está a bola? — Ela está aqui.» / «Deste o livro à Ana? — Sim, dei-lho.»
 
 <!-- page 22 -->
 
@@ -1153,7 +1201,7 @@ palavras
 adjectivos,
 advérbios,
 pronomes,
-determinantes, quantificadores, verbos), com tabelas e esquemas.
+determinantes, quantificadores, verbos e tempos verbais), com tabelas e esquemas.
 
 **CHECKLIST DE REVISÃO**
 ☐ Sei dizer as seis perguntas da notícia de cor?
@@ -1166,7 +1214,9 @@ determinantes, quantificadores, verbos), com tabelas e esquemas.
 
 ☐ Sei quando uma palavra é pronome e quando é determinante?
 
-**TESTE-TREINO · GRUPO ÚNICO 16**
+☐ Seio colocar o pronome antes ou depois do verbo?
+
+**TESTE-TREINO · GRUPO ÚNICO 15**
 1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
 colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
@@ -1187,21 +1237,22 @@ Prime School Press · www.primeschool.pt
 Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos. No fim, consulta as soluções
 nos Recursos.
 
-**GRUPO I · LEITURA 17**
+**GRUPO I · LEITURA 16**
 1. Desenha a pirâmide invertida e escreve, em cada nível, o que lá se encontra.
 2. Como se distingue uma biografia de uma autobiografia? Dá um exemplo de cada.
 3. O que é a tese de um artigo de opinião? E o contra-argumento?
 4. Dá duas características do texto publicitário, com um exemplo do anúncio da Padaria do Ponto.
 
-**GRUPO II · GRAMÁTICA 18**
+**GRUPO II · GRAMÁTICA 17**
 1. Dá um exemplo de nome colectivo, um advérbio de dúvida e um quantificador. 2. «Tinha estudado»:
 qual é o verbo auxiliar? E o principal? 3. Pronome ou determinante: «Este é meu.» / «Este livro é meu.»
+4. Corrige: «Não encontrei-a.»
 
-**GRUPO III · FACTO OU OPINIÃO? 19**
+**GRUPO III · FACTO OU OPINIÃO? 18**
 ( ) «O pão sai do forno às 7h.» ( ) «O melhor pão do mundo.» ( ) «A escola termina às 16h30.» ( ) «O
 horário é cansativo.»
 
-**GRUPO IV · ORALIDADE 20**
+**GRUPO IV · ORALIDADE 19**
 O professor lê uma notícia em voz alta, duas vezes. Na primeira escuta, escreve o assunto geral. Na
 segunda, responde: Quem? O quê? Quando? Onde? Finalmente, sublinha a frase que for uma opinião.
 
@@ -2848,6 +2899,8 @@ Prime School Press · www.primeschool.pt
 
 ## Vamos ler – Mar Português
 
+**TEXTO LITERÁRIO · FERNANDO PESSOA · TEXTO INTEGRAL**
+
 **MAR PORTUGUÊS**
 
 Ó mar salgado, quanto do teu sal
@@ -2880,8 +2933,6 @@ Fernando Pessoa, Mensagem, 1934
 • Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
 
 61
-
-**TEXTO LITERÁRIO · FERNANDO PESSOA · TEXTO INTEGRAL**
 
 <!-- page 62 -->
 
@@ -2968,6 +3019,7 @@ Que seja a minha noite uma alvorada,
 Que me saiba perder… pra me encontrar…
 
 Florbela Espanca, Charneca em Flor
+
 **ENQUANTO LÊS... SENTE A EMOÇÃO**
 • Que emoção domina a primeira quadra? E a última estrofe?
 • O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
@@ -3473,15 +3525,21 @@ UNIDADE 1
 p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; Onde — rio Douro, Ribeira;
 Como — trela improvisada e bombeiros; Porquê — o cão escorregou da margem.
 p.6 Ex.2: ordem 2 (essencial), 3 (desenvolvimento), 1 (pormenores).
-p.7 Ex.: advérbio — ontem; quantificador — dois; adjectivo — corajosos; determinante — os; verbo — salvaram.
-p.10 Ex.: Lisboa e Mensagem — próprios; poeta e cidade — comuns; biblioteca e rebanho — colectivos.
-p.11 Ex.: nasceu em Lisboa, 1888; morreu em 1935; «I know not what tomorrow will bring».
-p.13 Ex.1: primária, semanal, do Porto e matemático — relacionais; generoso e forte — qualificativos.
-p.13 Ex.2: corajosa · capazes · leitora.  Ex.3: fortíssimo · capacíssimo · facílimo · felicíssimo.
-p.13 Ex.5: tinha — auxiliar; estava — copulativo; vou — auxiliar; parece — copulativo.
-p.16 Ex.3 (F/O): F; O; O.  Ex.4: ontem — tempo; talvez — dúvida; bem — modo; aqui — lugar;
-não — negação; muito — quantidade; certamente — afirmação; longe — lugar.
-p.20 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma».
+p.7 Ex.2: doze e 3-2 — cardinais; últimos — ordinal; sete — cardinal.
+p.7 Ex.3: indirecto — «Tomás contou que passou a bola sem olhar e que o Rui já estava a celebrar».
+p.8 Ex.: advérbio — ontem; quantificador — dois; adjectivo — corajosos; determinante — os; verbo — salvaram.
+p.8 Ex.2: jovem — nome/adjectivo; para — preposição; e — conjunção; sorri — verbo.
+p.11 Ex.: Lisboa e Mensagem — próprios; poeta e cidade — comuns; biblioteca e rebanho — colectivos.
+p.12 Ex.: nasceu em Lisboa, 1888; morreu em 1935; «I know not what tomorrow will bring».
+p.14 Ex.1: primária, semanal e matemático — relacionais; generoso e forte — qualificativos.
+p.14 Ex.2: corajosa · capazes · leitora.  Ex.3: fortíssimo · capacíssimo · facílimo · felicíssimo.
+p.14 Ex.4: tinha — auxiliar; estava — copulativo; vou — auxiliar; parece — copulativo.
+p.14 Ex.5: chegaram — perfeito; treinava — imperfeito; vai entregar — futuro; está — presente.
+p.17 Ex.4: amanhã e cedo — tempo; certamente — afirmação; bem — modo; talvez — dúvida; não —
+negação; hoje — tempo; muito — quantidade.
+p.17 Ex.3 (F/O): F; O; O.
+p.21 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma».
+p.21 Ex.2: «Não a encontrei.» / «Dá-me a luva?» / «Ontem encontrou-a e devolveu-lha.»
 p.23 Grupo II: rebanho; talvez; dois. Grupo III: F; O; F; O.
 
 UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -3501,7 +3559,7 @@ Grupo II: «Saiu e fechou a porta» — complexa (coordenada); «Saiu porque era
 
 UNIDADE 4 · A PALAVRA EM MÚSICA
 p.62 Ex.: sal = lágrimas (metáfora); anáfora «Quantas… Quantos…»; o mar espelha o céu — o perigo
-e a beleza andam juntos; «Ó-mar-sa-la-do-quan-to-do-teu-sal» = 10 sílabas (decassílabo).
+e a beleza andam juntos; decassílabo (10 sílabas).
 p.64 Ex.: contraste amar toda a gente / não amar ninguém — antítese; quadra ABAB (rima cruzada).
 p.65 Ex.: «Tremia, mas cantou» — adversativa; «Cantou porque estava feliz» — causal (subord.);
 «Ou ensaias ou falhas» — disjuntiva; «Estava pronta, portanto passou» — conclusiva.
