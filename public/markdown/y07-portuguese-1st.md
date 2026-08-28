@@ -200,7 +200,6 @@ Soluções (exercícios fechados)
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**3**
 
 Prime School Press · www.primeschool.pt
 
@@ -222,11 +221,12 @@ Durante um dia inteiro, regista no caderno todos os textos dos media que passare
 conseguiste contar? Qual te marcou mais e porquê? Compara o teu registo com o do teu colega: as
 vossas listas são parecidas?
 
+3
+
 <!-- page 4 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**4**
 
 Prime School Press · www.primeschool.pt
 
@@ -290,11 +290,12 @@ Linguagem
 Neutra, precisa
 Imperativos, adjectivos
 
+4
+
 <!-- page 5 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**5**
 
 Prime School Press · www.primeschool.pt
 
@@ -329,14 +330,16 @@ Câmara.
 
 entradilha – primeiro parágrafo da notícia · mérito civil – distinção por acto de coragem · curiosos – quem
 assiste ao acontecimento
+
 Vê agora como a pirâmide invertida se aplica a esta notícia: o título resume o resgate; o lead responde às seis
 perguntas; o corpo acrescenta declarações, a operação dos bombeiros e a cerimónia da medalha.
+
+5
 
 <!-- page 6 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**6**
 
 Prime School Press · www.primeschool.pt
 
@@ -370,11 +373,12 @@ Prime School Press · www.primeschool.pt
 **(RTP) e identifica título,**
 **lead e 6 W**
 
+6
+
 <!-- page 7 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**7**
 
 Prime School Press · www.primeschool.pt
 
@@ -402,16 +406,20 @@ notas. Depois trocam. Compara as notas: o quê, quem e quando chegaram aos dois?
 5. O ANÚNCIO SONORO: o professor lê um anúncio de rádio. Que palavras se repetem? Qual é o slogan?
 Que público-alvo se adivinha só pelo som?
 
+Registo da escuta (exercício 1): escreve aqui as tuas notas rápidas e depois transforma-as em frases
+completas.
+
 Dica: usa siglas e palavras-chave abreviadas ao tomar notas; depois transforma-as em frases completas.
 
 **Escuta um noticiário RTP**
 **Play e regista o essencial**
 
+7
+
 <!-- page 8 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**8**
 
 Prime School Press · www.primeschool.pt
 
@@ -439,6 +447,12 @@ Exemplo
 «Florbela nasceu em 1894.»
 «Escrevi o meu primeiro poema.»
 
+**CARACTERÍSTICAS DA BIOGRAFIA**
+• Trata de uma pessoa real, não de personagens inventadas.
+• Segue a ordem cronológica da vida.
+• Usa a 3.ª pessoa e o pretérito perfeito e imperfeito.
+• Pode incluir datas, lugares, citações e factos verificáveis.
+
 **GRAMÁTICA · SUBCLASSES DOS NOMES**
 Na biografia encontras nomes de todos os tipos. Próprio: nomeia um ser único (Lisboa, Pessoa). Comum:
 nomeia uma classe de seres (poeta, livro). Colectivo: singular que designa um conjunto (biblioteca,
@@ -446,15 +460,17 @@ rebanho).
 
 **EXERCÍCIOS 3**
 1. Classifica os nomes: Lisboa · poeta · biblioteca · Mensagem · rebanho · cidade.
+
 2. Completa com um nome colectivo: uma ____ de peixes; uma ____ de aves; uma ____ de ovelhas.
 
 3. Escreve duas frases sobre a tua turma usando um nome próprio e um nome colectivo.
+
+8
 
 <!-- page 9 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**9**
 
 Prime School Press · www.primeschool.pt
 
@@ -490,11 +506,12 @@ entre empresas
 
 Linha do tempo: 1888 nasce · 1896 África do Sul · 1914 heterónimos · 1934 Mensagem · 1935 morre.
 
+9
+
 <!-- page 10 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**10**
 
 Prime School Press · www.primeschool.pt
 
@@ -519,11 +536,12 @@ grau (comercial, escolar). Teste: se aceita «muito», é qualificativo.
 6. Qualificativo ou relacional? escola primária · vinho do Porto · revista semanal · equipa forte · problema
 matemático.
 
+10
+
 <!-- page 11 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**11**
 
 Prime School Press · www.primeschool.pt
 
@@ -553,11 +571,12 @@ liga o sujeito a uma qualidade (ser, estar, parecer). Nos tempos compostos, o pr
 7. Principal, auxiliar ou copulativo? «Pessoa tinha escrito poemas.» / «A mãe estava preocupada.» / «Vou
 escrever a minha biografia.»
 
+11
+
 <!-- page 12 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**12**
 
 Prime School Press · www.primeschool.pt
 
@@ -592,11 +611,12 @@ Portanto, em conclusão…
 TELEMÓVEIS NA ESCOLA: SIM OU NÃO?
 **TELEMÓVEIS NA ESCOLA: SIM OU NÃO?**
 
+12
+
 <!-- page 13 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**13**
 
 Prime School Press · www.primeschool.pt
 
@@ -629,11 +649,12 @@ Afirmação (sim). O advérbio é invariável e modifica o verbo, o adjectivo ou
 
 Facto: «A escola termina às 16h30.» (verificável) Opinião: «O horário é cansativo.» (ponto de vista)
 
+13
+
 <!-- page 14 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**14**
 
 Prime School Press · www.primeschool.pt
 
@@ -659,11 +680,12 @@ sociais fazem bem à amizade?» · «Devem existir telemóveis nas aulas de Educ
 **Dúvidas de gramática?**
 **Pergunta ao Ciberdúvidas**
 
+14
+
 <!-- page 15 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**15**
 
 Prime School Press · www.primeschool.pt
 
@@ -713,11 +735,12 @@ PEDE O TEU PÃO DE ONTEM, PARA HOJE.
 
 PADARIA DO PONTO · RUA DAS FLORES, 12 · ABRE ÀS 6H
 
+15
+
 <!-- page 16 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**16**
 
 Prime School Press · www.primeschool.pt
 
@@ -767,11 +790,12 @@ aconchego, não apenas pão.
 **Publicidade portuguesa:**
 **mais exemplos**
 
+16
+
 <!-- page 17 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**17**
 
 Prime School Press · www.primeschool.pt
 
@@ -814,11 +838,12 @@ Classifica
 os
 quantificadores que encontrares (doze, 3-2, últimos).
 
+17
+
 <!-- page 18 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**18**
 
 Prime School Press · www.primeschool.pt
 
@@ -846,11 +871,12 @@ costuma repetir.
 1. Constrói a linha do tempo de Carolina Mendes com cinco marcos. 2. Retira a citação e explica porque
 é forte no fecho. 3. Que sacrifícios a família fez pela carreira?
 
+18
+
 <!-- page 19 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**19**
 
 Prime School Press · www.primeschool.pt
 
@@ -875,11 +901,12 @@ Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler 
 1. Tese, dois argumentos e contra-argumento do artigo. 2. Facto ou opinião? «Uma biblioteca cabe no
 bolso.» · «O e-book pesa menos.» · «A leitura é um prazer dos sentidos.»
 
+19
+
 <!-- page 20 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**20**
 
 Prime School Press · www.primeschool.pt
 
@@ -951,11 +978,12 @@ vizinha e gritaram: Uau!»
 **Exercícios de gramática**
 **no Ciberdúvidas**
 
+20
+
 <!-- page 21 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**21**
 
 Prime School Press · www.primeschool.pt
 
@@ -979,11 +1007,12 @@ festa de final de período, um jogo desportivo, uma obra no bairro, uma acção 
 
 **RASCUNHO**
 
+21
+
 <!-- page 22 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**22**
 
 Prime School Press · www.primeschool.pt
 
@@ -1016,11 +1045,12 @@ quantificadores), com tabelas de estudo.
 1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário.
 
+22
+
 <!-- page 23 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
-**23**
 
 Prime School Press · www.primeschool.pt
 
@@ -1061,6 +1091,8 @@ as
 frases
 que
 escreveste, a que for uma opinião.
+
+23
 
 <!-- page 24 -->
 
@@ -2924,8 +2956,6 @@ PORTUGUÊS Y7 · RECURSOS
 ## Soluções (exercícios fechados)
 
 Prime School Press · www.primeschool.pt
-
-os
 
 67
 

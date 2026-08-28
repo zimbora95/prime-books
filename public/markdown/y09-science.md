@@ -2534,6 +2534,17 @@ eat and drink.
 
 **3 Explain why a person who eats a lot of protein produces more urea.**
 
+**Figure 4.3 The excretory organs. Blood arrives at each kidney**
+
+through a renal artery, is ﬁltered, and leaves clean through a
+
+renal vein. The waste liquid, urine, drains down the ureters to
+the bladder, where it is stored before leaving through the
+
+urethra. The liver, shown for context, makes the urea; the lungs
+
+handle the carbon dioxide.
+
 <!-- page 66 -->
 
 ---

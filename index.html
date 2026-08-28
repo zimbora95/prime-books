@@ -2011,6 +2011,9 @@
           <button class="fb-btn fb-btn-amz" id="fbAmazonBtn" aria-label="Amazon KDP preparation" title="Amazon KDP preparation for this book">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 7.7l5.4-.8z"/></svg>&nbsp;Amazon
           </button>
+          <button class="fb-btn" id="fbPlatformBtn" aria-label="Interactive learning platform" title="Interactive learning platform: topics, quizzes, progress and badges" style="display:none">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 18v3"/><path d="M7 12l3 3 7-7"/></svg>&nbsp;Platform
+          </button>
           <button class="fb-btn" id="fbDownloadBtn" aria-label="Download PDF" title="Download the complete PDF of this book to your machine">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>&nbsp;Download PDF
           </button>
@@ -6147,6 +6150,15 @@ function rr(x, px, py, w, h, r) {
                   (cfg.title || "Prime Books") +
                   (cfg.band ? " \u00b7 " + cfg.band : "") +
                   " \u2014 Student Manual";
+              /* Platform button: only books with an interactive platform
+                 (currently the Y7 Computing structured edition) show it. */
+              const rowForPlatform = BOOK_ROWS[src] || {};
+              const platBtn = document.getElementById("fbPlatformBtn");
+              if (platBtn)
+                platBtn.style.display =
+                  rowForPlatform.slug === "y07-computing-structured"
+                    ? ""
+                    : "none";
               /* Book identity for the reading assistant. Two catalogue cards can share
                  a title, so identity comes from the manifest row, never the label.
                  Keyed on the book's SLUG, the stable identity minted by
@@ -6314,6 +6326,16 @@ function rr(x, px, py, w, h, r) {
          (e.g. tunnel down mid-session). Books without a PDF yet (workshop
          shells) toast instead of downloading nothing.
          ------------------------------------------------------------------- */
+      /* Interactive learning platform: shown in the flipbook header only for
+         books that have one (currently the Y7 Computing structured edition).
+         Opens the platform page in a new tab; progress lives in that page's
+         localStorage. */
+      document.getElementById("fbPlatformBtn").addEventListener("click", () => {
+        const slug = (fbBookMeta && fbBookMeta.slug) || "";
+        if (slug === "y07-computing-structured") {
+          window.open("/platform/y07-computing/", "_blank");
+        }
+      });
       document.getElementById("fbDownloadBtn").addEventListener("click", async () => {
         const meta = fbBookMeta;
         if (!meta || !meta.pdf || !meta.pdfUrl) {
