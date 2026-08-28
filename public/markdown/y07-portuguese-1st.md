@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (76 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (79 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -54,163 +54,173 @@ Gramática · adjectivo e subclasses do verbo.................
 Gramática · conjugações dos verbos
 ............................
 **15**
-Escrever uma biografia ..........................................
+Gramática · tempos verbais em acção
+..........................
 **16**
-O artigo de opinião · texto.........................................
+Escrever uma biografia ..........................................
 **17**
+O artigo de opinião · texto.........................................
+**18**
 Exercícios · opinião e advérbio
 .....................................
-**18**
-Ler outro artigo de opinião.......................................
 **19**
+Ler outro artigo de opinião.......................................
+**20**
 O texto publicitário · o anúncio
 ....................................
-**20**
+**21**
 Exercícios · o esquema do anúncio
 ...............................
-**21**
-Gramática · pronomes e adjacência verbal
-.....................
 **22**
-Revisão da Unidade 1.............................................
+Gramática · pronomes e colocação
+..............................
 **23**
-Ficha de revisão · Unidade 1
-.......................................
+Gramática · alterações fonéticas e contração
+....................
 **24**
+Exercícios · colocação dos pronomes
+............................
+**25**
+Revisão da Unidade 1.............................................
+**26**
+Ficha de revisão · Grupos I-IV
+......................................
+**27**
 
 **UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS**
 
 Unidade 2 · Uma viagem, muitas histórias
 ......................
-**25**
+**28**
 Palavras para partir ..............................................
-**26**
+**29**
 Vamos ler · O Cavaleiro da Dinamarca
 .........................
-**27**
-Missão do leitor.....................................................
-**28**
-Compreender e justificar ........................................
-**29**
-Como interpretar um texto narrativo ..........................
 **30**
-Personagem, espaço e tempo...................................
+Missão do leitor.....................................................
 **31**
-Palavras em viagem .............................................
+Compreender e justificar ........................................
 **32**
+Como interpretar um texto narrativo ..........................
+**33**
+Personagem, espaço e tempo...................................
+**34**
+Palavras em viagem .............................................
+**35**
 Gramática · Os tempos verbais na narrativa
 ....................
-**33**
+**36**
 Pretérito perfeito ou imperfeito?................................
-**34**
+**37**
 Pintar com palavras · a descrição
 .................................
-**35**
+**38**
 A arte do diálogo..................................................
-**36**
+**39**
 A viagem como símbolo...........................................
-**37**
+**40**
 Writing Lab · escreve a tua própria viagem
 ......................
-**38**
-Writing Toolkit · a caixa de ferramentas do escritor..........
-**39**
-Fala e escuta · conversa de viajantes..........................
-**40**
-Literatura em imagem · o mapa da viagem....................
 **41**
-Cambridge Focus · responder bem a uma pergunta........
+Writing Toolkit · a caixa de ferramentas do escritor..........
 **42**
-Relembra · o que aprendi.........................................
+Fala e escuta · conversa de viajantes..........................
 **43**
+Literatura em imagem · o mapa da viagem....................
+**44**
+Cambridge Focus · responder bem a uma pergunta........
+**45**
+Relembra · o que aprendi.........................................
+**46**
 Checkpoint · missão cumprida?
 ....................................
-**44**
+**47**
+
 O passaporte do leitor ...........................................
-**45**
+**48**
 Ficha de revisão · Unidade 2
 .......................................
-**46**
+**49**
 
 **UNIDADE 3 · O PALCO À ESPERA**
 
 Unidade 3 · O Palco à Espera
 .....................................
-**47**
+**50**
 Conhece o autor · Almeida Garrett..............................
-**48**
+**51**
 Vamos ler · Frei Luís de Sousa
 ....................................
-**49**
+**52**
 Missão do leitor.....................................................
-**50**
+**53**
 Como interpretar um texto dramático.........................
-**51**
+**54**
 Gramática · Frases simples e complexas
 .......................
-**52**
-Writing Lab · escreve a tua cena.................................
-**53**
-Writing Toolkit · a caixa de ferramentas do dramaturgo.....
-**54**
-Fala e escuta · sobe ao palco....................................
 **55**
+Writing Lab · escreve a tua cena.................................
+**56**
+Writing Toolkit · a caixa de ferramentas do dramaturgo.....
+**57**
+Fala e escuta · sobe ao palco....................................
+**58**
 Literatura em imagem · o cenário
 .................................
-**56**
-Cambridge Focus · interpretar teatro...........................
-**57**
-Relembra · o que aprendi.........................................
-**58**
-O passaporte do leitor ...........................................
 **59**
+Cambridge Focus · interpretar teatro...........................
+**60**
+Relembra · o que aprendi.........................................
+**61**
+O passaporte do leitor ...........................................
+**62**
 
 **UNIDADE 4 · A PALAVRA EM MÚSICA**
 
 Unidade 4 · A Palavra em Música
 .................................
-**60**
+**63**
 Como se faz um poema .........................................
-**61**
+**64**
 Vamos ler · Mar Português
 ..........................................
-**62**
+**65**
 Missão do leitor.....................................................
-**63**
+**66**
 Vamos ler · Amar!...................................................
-**64**
+**67**
 Missão do leitor · Amar!
 .............................................
-**65**
+**68**
 Gramática · Orações coordenadas
 .................................
-**66**
+**69**
 Gramática · Activa, passiva e subordinadas
 ....................
-**67**
-Writing Lab · comentar um poema..............................
-**68**
-Writing Lab · escreve os teus poemas..........................
-**69**
-Fala e escuta · declamar poesia.................................
 **70**
-Literatura em imagem · o poema visual........................
+Writing Lab · comentar um poema..............................
 **71**
+Writing Lab · escreve os teus poemas..........................
+**72**
+Fala e escuta · declamar poesia.................................
+**73**
+Literatura em imagem · o poema visual........................
+**74**
 Cambridge Focus · comentar com precisão
 ....................
-**72**
+**75**
 Relembra · o que aprendi.........................................
-**73**
+**76**
 O passaporte do leitor ...........................................
-**74**
+**77**
 
 **RECURSOS**
 
 Dossier do escritor ...............................................
-**75**
+**78**
 Soluções (exercícios fechados)
 ..................................
-**76**
+**79**
 
 <!-- page 3 -->
 
@@ -865,6 +875,19 @@ eles comeram
 eles partiram
 —
 
+15
+
+<!-- page 16 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Gramática – Os tempos verbais em acção
+
+**GRAMÁTICA · TREINAR A CONJUGAÇÃO**
+
 **OS TEMPOS VERBAIS DO INDICATIVO · TABELA**
 
 **Tempo**
@@ -883,13 +906,41 @@ Pretérito imperfeito
 Hábito ou descrição no passado
 «Ela treinava na rua.»
 
+Pret. mais-que-perfeito
+Passado antes do passado
+«Já o tinha visto.»
+
 Futuro
 Acção futura
 «A Câmara vai entregar.»
 
-15
+**EXERCÍCIO · CONJUGA O VERBO 9**
+Completa as frases conjugando o verbo entre parênteses no tempo pedido:
 
-<!-- page 16 -->
+Ontem, os alunos (estudar) ______________________ muito para o teste de Português.
+
+(pretérito perfeito)
+
+Antigamente, nós (jogar) ______________________ à bola no recreio todos os dias.
+
+(pretérito imperfeito)
+
+Quando a mãe chegou, o Pedro já (fazer) ______________________ os trabalhos de casa.
+
+(mais-que-perfeito composto: ter no imperfeito + particípio)
+
+Amanhã, a turma (fazer) ______________________ uma visita de estudo ao museu.
+
+(futuro)
+
+**DICA**
+
+No mais-que-perfeito composto, usa o verbo «ter» no imperfeito + o particípio: tinha feito. No futuro,
+o verbo inteiro muda: fará.
+
+16
+
+<!-- page 17 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -916,9 +967,9 @@ músico ou um familiar.
 
 **RASCUNHO**
 
-16
+17
 
-<!-- page 17 -->
+<!-- page 18 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -994,9 +1045,9 @@ Exemplo
 Exemplo
 «Os bombeiros chegaram em sete minutos.»«Proibir é uma solução fácil.»
 
-17
+18
 
-<!-- page 18 -->
+<!-- page 19 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1055,9 +1106,9 @@ sim, certamente
 
 5. Escreve uma frase com um advérbio de modo e outra com um de dúvida.
 
-18
+19
 
-<!-- page 19 -->
+<!-- page 20 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1095,9 +1146,9 @@ Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler 
 3. Facto ou opinião? «Uma biblioteca cabe no bolso.» · «O e-book pesa menos.» · «A leitura é um prazer
 dos sentidos.»
 
-19
+20
 
-<!-- page 20 -->
+<!-- page 21 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1170,9 +1221,9 @@ Veracidade
 Factos verificáveis
 Promessas e emoções
 
-20
+21
 
-<!-- page 21 -->
+<!-- page 22 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1225,92 +1276,187 @@ aconchego.
 **Publicidade portuguesa:**
 **mais exemplos**
 
-21
+22
 
-<!-- page 22 -->
+<!-- page 23 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
-## Gramática – Os pronomes
+## Gramática – Os pronomes e o verbo
 
-**GRAMÁTICA · QUEM SUBSTITUI E QUEM ACOMPANHA**
+**GRAMÁTICA · A COLOCAÇÃO DOS PRONOMES**
 
-**SUBCLASSES DO PRONOME · TABELA**
+A posição do pronome varia consoante o tipo de frase e as palavras que antecedem o verbo:
 
-**Subclasse**
-**O que faz**
-**Exemplos**
-
-Pessoal
-Substitui nomes de pessoas
-ele, me, te, nos
-
-Demonstrativo
-Mostra a posição no espaço/texto
-este, esse, aquele
-
-Possessivo
-Indica posse
-meu, teu, seu
-
-Indefinido
-Substitui de modo vago
-alguém, tudo, nada
-
-Relativo
-Retoma um nome; une orações
-que, quem, o qual
-
-**O PRONOME PESSOAL E O VERBO · ADJACÊNCIA**
-O pronome pessoal pode ficar ANTES do verbo (próclise) ou DEPOIS, unido por hífen (ênclise). A posição
-depende da palavra que vem antes:
+**TABELA GERAL DE COLOCAÇÃO · ÊNCLISE E PRÓCLISE**
 
 **Posição**
-**Quando acontece**
-**Exemplo**
+**Regra principal**
+**Frase base**
+**Com pronome**
 
-Ênclise (depois)
-Verbo no início da frase positiva
-«Encontrei-a no degrau.»
+Depois do verbo
+(ÊNCLISE)
+Frases afirmativas simples
+O João comprou o livro.
+O João comprou-o.
 
-Ênclise (depois)
-Advérbio SEPARADO por vírgula
-«Ontem, encontrou-a.»
+Antes do verbo
+(PRÓCLISE)
 
-Próclise (antes)
-Palavra negativa antes
-«Não a encontrei.»
+Frases negativas (não,
+nunca, jamais)
+Não vi o teu irmão.
+Não o vi.
 
-Próclise (antes)
-Advérbio colado ao verbo
-«Ontem a encontrou.»
+Antes do verbo
+(PRÓCLISE)
+Perguntas e exclamações
+Quem chamou a Maria? Quem a chamou?
 
-Próclise (antes)
-Pergunta com «onde»
-«Onde a encontraste?»
+Antes do verbo
+(PRÓCLISE)
+
+Orações subordinadas
+(que, porque)
+Este é o bolo que fiz.
+Este é o bolo que o fiz.
+
+Antes do verbo
+(PRÓCLISE)
+
+Certos advérbios (já,
+ainda, talvez, bem)
+Ele já leu a notícia.
+Ele já a leu.
+
+No interior do verbo
+(MESÓCLISE)
+Futuro ou condicional
+Eu trarei o livro.
+Eu tra-lo-ei.
 
 **REGRA DE OURO**
 
-Verbo no início da frase positiva → pronome DEPOIS: «Entreguei-lhe.» Palavra atractora antes do
-verbo (não, ontem, onde) → pronome ANTES: «Não lhe entreguei.»
+Verbo no início da frase positiva → pronome DEPOIS («Comprou-o.»). Palavra atractora antes (não, já,
+quem, que) → pronome ANTES («Já o comprou.»).
 
-**EXERCÍCIOS 14**
-1. Pronome ou determinante? «Este caderno é meu.» / «Este é meu.» / «Alguém me telefonou.» /
-«Preciso de alguma ajuda.»
+23
 
-2. Corrige: «Não encontrei-a.» / «Me dá a luva?» / «Ontem a encontrei e devolvi-lhe.»
+<!-- page 24 -->
 
-3. Substitui os nomes repetidos por pronomes: «A Maria disse à Maria que o livro da Maria estava na
-mesa da Maria.»
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
-4. Completa: «Onde está a bola? — ______ está aqui.» / «Deste o livro à Ana? — Sim, dei-______.»
+Prime School Press · www.primeschool.pt
 
-22
+## Gramática – Alterações fonéticas e contração
 
-<!-- page 23 -->
+**GRAMÁTICA · AS MUDANÇAS NO PRONOME**
+
+Quando o pronome o/a/os/as fica DEPOIS de um verbo, a sua forma pode mudar consoante a última
+letra do verbo:
+
+**ALTERAÇÕES FONÉTICAS · TABELA**
+
+**Verbo termina…**
+**O que acontece**
+**Frase base**
+**Com pronome**
+
+-r, -s, -z
+Cai a consoante:
+lo, la, los, las
+
+Vou vender o carro.
+Ele faz os trabalhos.
+
+Vou vendê-lo.
+Ele fá-los.
+
+Som nasal
+(-m, -ão, -õe)
+
+Verbo não muda:
+no, na, nos, nas
+
+Eles põem os pratos.
+Eles viram o filme.
+
+Eles põem-nos.
+Eles viram-no.
+
+**CONTRAÇÃO DE PRONOMES · CI + CD**
+No 7.º ano aprendes a juntar o Complemento Indirecto com o Complemento Directo na mesma frase:
+
+**Combinação**
+**Resultado**
+
+me + o/a/os/as
+mo, ma, mos, mas
+
+te + o/a/os/as
+to, ta, tos, tas
+
+lhe + o/a/os/as
+lho, lha, lhos, lhas
+
+nos + o/a/os/as
+no-lo, no-la, no-los, no-las
+
+vos + o/a/os/as
+vo-lo, vo-la, vo-los, vo-las
+
+lhes + o/a/os/as
+lho, lha, lhos, lhas (igual ao singular)
+
+**EXEMPLO**
+
+«Dei o livro à Maria.» → Dei-lhe (CI) o livro (CD). → Dei-lho.
+
+24
+
+<!-- page 25 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+
+Prime School Press · www.primeschool.pt
+
+## Exercícios – A colocação dos pronomes
+
+**GRAMÁTICA · TREINAR**
+
+**NÍVEL 1 · ÊNCLISE, PRÓCLISE E ALTERAÇÕES 14**
+1. O João comprou o caderno. → _______________________________
+
+2. Nós não vimos a Joana na escola. → _______________________________
+
+3. Os alunos vão ler os livros amanhã. → _______________________________
+
+4. Eles comeram o bolo todo. → _______________________________
+
+5. Quem trouxe estas flores? → _______________________________
+
+**NÍVEL 2 · FUTURO, CONDICIONAL E CONTRAÇÃO 15**
+1. Eu entregarei o teste ao professor. (futuro) → _______________________________
+
+2. O Pedro comprou um gelado para mim. (contração) → O Pedro comprou-______.
+
+3. Nós daríamos as novidades aos nossos pais. (contração + condicional) → Nós dar-______.
+
+**CONFIRMA DEPOIS DE FAZER**
+
+1. O João comprou-o. 2. Nós não a vimos na escola. 3. Os alunos vão lê-los amanhã. 4. Eles
+comeram-no todo. 5. Quem as trouxe? (Nível 2) 1. Eu entregá-lo-ei ao professor. 2. O Pedro
+comprou-mo. 3. Nós dar-lhas-íamos.
+
+25
+
+<!-- page 26 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1328,18 +1474,8 @@ ESCRITA – escrevi uma notícia, uma biografia e um texto de opinião.
 
 ORALIDADE – escutei textos orais e destaquei a informação essencial.
 
-GRAMÁTICA
-–
-classes
-e
-subclasses
-de
-palavras
-(nomes,
-adjectivos,
-advérbios,
-pronomes,
-determinantes, quantificadores, verbos e tempos verbais), com tabelas e esquemas.
+GRAMÁTICA – classes e subclasses de palavras, conjugações e tempos verbais, colocação dos
+pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquemas.
 
 **CHECKLIST DE REVISÃO**
 ☐ Sei dizer as seis perguntas da notícia de cor?
@@ -1350,18 +1486,18 @@ determinantes, quantificadores, verbos e tempos verbais), com tabelas e esquemas
 
 ☐ Sei três subclasses do advérbio com exemplos?
 
-☐ Sei quando uma palavra é pronome e quando é determinante?
+☐ Sei conjugar um verbo no presente e no pretérito perfeito?
 
-☐ Seio colocar o pronome antes ou depois do verbo?
+☐ Sei colocar o pronome antes, depois ou dentro do verbo?
 
-**TESTE-TREINO · GRUPO ÚNICO 15**
+**TESTE-TREINO · GRUPO ÚNICO 16**
 1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
 colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
 
-23
+26
 
-<!-- page 24 -->
+<!-- page 27 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
@@ -1372,31 +1508,53 @@ Prime School Press · www.primeschool.pt
 
 **TESTE-TREINO · COMO UM TESTE**
 
-Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos. No fim, consulta as soluções
-nos Recursos.
+Responde no caderno ou nas linhas, sem consultar o manual. Tempo sugerido: 45 minutos. No fim,
+consulta as soluções nos Recursos.
 
-**GRUPO I · LEITURA 16**
-1. Desenha a pirâmide invertida e escreve, em cada nível, o que lá se encontra.
-2. Como se distingue uma biografia de uma autobiografia? Dá um exemplo de cada.
-3. O que é a tese de um artigo de opinião? E o contra-argumento?
-4. Dá duas características do texto publicitário, com um exemplo do anúncio da Padaria do Ponto.
+**GRUPO I · A NOTÍCIA 17**
 
-**GRUPO II · GRAMÁTICA 17**
-1. Dá um exemplo de nome colectivo, um advérbio de dúvida e um quantificador. 2. «Tinha estudado»:
-qual é o verbo auxiliar? E o principal? 3. Pronome ou determinante: «Este é meu.» / «Este livro é meu.»
-4. Corrige: «Não encontrei-a.»
+Lê o parágrafo seguinte (o lead de uma notícia) e identifica:
 
-**GRUPO III · FACTO OU OPINIÃO? 18**
-( ) «O pão sai do forno às 7h.» ( ) «O melhor pão do mundo.» ( ) «A escola termina às 16h30.» ( ) «O
-horário é cansativo.»
+«Ontem à tarde, a equipa de robótica da Escola Secundária de Estoril venceu o
+torneio nacional de tecnologia em Lisboa. Os três jovens estudantes conquistaram o
+primeiro lugar graças a um protótipo de robô sustentável feito com materiais reciclados.»
 
-**GRUPO IV · ORALIDADE 19**
-O professor lê uma notícia em voz alta, duas vezes. Na primeira escuta, escreve o assunto geral. Na
-segunda, responde: Quem? O quê? Quando? Onde? Finalmente, sublinha a frase que for uma opinião.
+O quê (o acontecimento):
 
-24
+Quem (os protagonistas):
 
-<!-- page 25 -->
+Quando (o momento):
+
+Onde (o local):
+
+**GRUPO II · A BIOGRAFIA 18**
+
+Identifica a única alternativa que apresenta uma característica obrigatória de um texto biográfico:
+
+A) Uso da 1.ª pessoa do singular («eu») e foco nos sentimentos inventados do autor.
+B) Relato real e cronológico da vida de uma pessoa, escrito na 3.ª pessoa («ele/ela»).
+C) Presença de um slogan apelativo e rimas para convencer o leitor.
+
+**GRUPO III · O TEXTO PUBLICITÁRIO 19**
+
+Imagina o seguinte anúncio a um par de sapatilhas ecológicas: «Dá um passo pelo planeta. Sapatilhas
+EcoEarth: o futuro nos teus pés. Compre já!»
+
+a) Qual é o slogan deste anúncio?
+
+b) Qual é a principal função da linguagem publicitária (o modo imperativo)?
+
+**GRUPO IV · O ARTIGO DE OPINIÃO 20**
+
+Assinala a opção que descreve a estrutura correcta do artigo de opinião:
+
+A) Tese (opinião defendida) → Argumentos (razões e exemplos) → Conclusão.
+B) Título → Lead (o quê, quem, quando, onde) → Corpo da notícia.
+C) Introdução à vida da personagem → Data de nascimento → Morte.
+
+27
+
+<!-- page 28 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1431,9 +1589,9 @@ sentimentos terias?
 Uma viagem pode ser muito mais do que uma deslocação de um lugar para outro. Pode ser uma
 descoberta.
 
-25
+28
 
-<!-- page 26 -->
+<!-- page 29 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1480,9 +1638,9 @@ Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, 
 elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
 significado simbólico.
 
-26
+29
 
-<!-- page 27 -->
+<!-- page 30 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1525,9 +1683,9 @@ canções e se adoravam outros deuses.
 
 2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
-27
+30
 
-<!-- page 28 -->
+<!-- page 31 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1584,9 +1742,9 @@ A personagem enfrenta situações inesperadas.
 
 O regresso é irrelevante para a narrativa.
 
-28
+31
 
-<!-- page 29 -->
+<!-- page 32 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1622,9 +1780,9 @@ Quando uma pergunta pede uma inferência, não basta copiar uma frase do texto. 
 pista. 2. Pensa no que essa pista significa. 3. Explica a tua conclusão. Fórmula útil: pista do texto +
 interpretação = inferência.
 
-29
+32
 
-<!-- page 30 -->
+<!-- page 33 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1686,9 +1844,9 @@ a situação é resolvida ou transformada
 
 Quando leres uma narrativa, pergunta primeiro: Quem? Onde? Quando? O quê? Porquê?
 
-30
+33
 
-<!-- page 31 -->
+<!-- page 34 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1719,9 +1877,9 @@ da narrativa.
 **QUANDO? · A ÉPOCA DA NARRATIVA**
 Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
-31
+34
 
-<!-- page 32 -->
+<!-- page 35 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1772,9 +1930,9 @@ feliz →
 Um vocabulário rico torna a tua escrita mais precisa e interessante. Evita repetir sempre: bonito ·
 bom · mau · grande · disse · foi. Procura palavras mais específicas.
 
-32
+35
 
-<!-- page 33 -->
+<!-- page 36 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1815,9 +1973,9 @@ Durante a viagem,
 3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
 pretérito imperfeito.
 
-33
+36
 
-<!-- page 34 -->
+<!-- page 37 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1856,9 +2014,9 @@ ______ (olhar) à sua volta.
 
 Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
-34
+37
 
-<!-- page 35 -->
+<!-- page 38 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1892,9 +2050,9 @@ som · uma referência à luz · uma comparação.
 Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores específicos
 que ajudem o leitor a imaginar o lugar.
 
-35
+38
 
-<!-- page 36 -->
+<!-- page 39 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1930,9 +2088,9 @@ Cavaleiro:
 Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
 travessão (—) quando a personagem fala dentro da narração.
 
-36
+39
 
-<!-- page 37 -->
+<!-- page 40 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1963,9 +2121,9 @@ No final, percebe
 QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
 mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
-37
+40
 
-<!-- page 38 -->
+<!-- page 41 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1998,9 +2156,9 @@ Como termina?
 
 **O MEU RASCUNHO**
 
-38
+41
 
-<!-- page 39 -->
+<!-- page 42 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2045,9 +2203,9 @@ Prime School Press · www.primeschool.pt
 Evita frases isoladas. Utiliza conectores: primeiro → depois → entretanto → por isso → contudo →
 finalmente.
 
-39
+42
 
-<!-- page 40 -->
+<!-- page 43 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2079,9 +2237,9 @@ Regista aqui as notas para a tua apresentação:
 Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
 terminar») · controla o corpo: postura erecta, gestos naturais.
 
-40
+43
 
-<!-- page 41 -->
+<!-- page 44 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2113,9 +2271,9 @@ Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu sím
 viagem porque...»
 O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 
-41
+44
 
-<!-- page 42 -->
+<!-- page 45 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2151,9 +2309,9 @@ Não basta dizer. Explica. Pergunta sempre: «Como sei isso?»
 Escreve agora a TUA resposta forte à pergunta: «O cavaleiro é uma personagem perseverante?» Usa a
 fórmula evidência + explicação.
 
-42
+45
 
-<!-- page 43 -->
+<!-- page 46 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2182,9 +2340,9 @@ crescimento · descoberta · coragem · conhecimento · transformação
 Uma frase para levar contigo: as grandes viagens não mudam apenas o lugar onde estamos. Podem
 mudar a forma como vemos o mundo.
 
-43
+46
 
-<!-- page 44 -->
+<!-- page 47 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2223,9 +2381,9 @@ Organizar uma narrativa
 **O MEU PRÓXIMO OBJECTIVO**
 Na próxima unidade quero melhorar...
 
-44
+47
 
-<!-- page 45 -->
+<!-- page 48 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2273,9 +2431,9 @@ A minha classificação:
 As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma como vemos o
 mundo.
 
-45
+48
 
-<!-- page 46 -->
+<!-- page 49 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2305,9 +2463,9 @@ difícil.
 Escreve um parágrafo (60-80 palavras) em que descrevas o momento em que o cavaleiro decide partir.
 Usa dois verbos no imperfeito e dois no perfeito.
 
-46
+49
 
-<!-- page 47 -->
+<!-- page 50 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2340,9 +2498,9 @@ acto – grande divisão da peça · cena – divisão menor; muda quando algué
 que cada personagem diz · didascália – indicação cénica entre parênteses · diálogo – conversa entre
 personagens · monólogo – uma personagem fala sozinha.
 
-47
+50
 
-<!-- page 48 -->
+<!-- page 51 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2404,9 +2562,9 @@ abertura de Frei Luís de Sousa
 No teatro não há narrador: as didascálias substituem a voz de quem conta, instruindo o encenador e
 os actores. Ler teatro é imaginar o palco.
 
-48
+51
 
-<!-- page 49 -->
+<!-- page 52 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2449,9 +2607,9 @@ inquietação é esta que me não deixa viver nem morrer?
 • as falas de D. Madalena (que sentimentos revelam?)
 • o que Telmo diz «(Baixo)» e não quer que a senhora ouça
 
-49
+52
 
-<!-- page 50 -->
+<!-- page 53 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2497,9 +2655,9 @@ Como se revelam os sentimentos, sem narrador?
 A casa «que fala» é uma personificação: o espaço ganha vida e revela o que D. Madalena sente por
 dentro — medo, culpa, saudade. Pista do texto + interpretação = inferência.
 
-50
+53
 
-<!-- page 51 -->
+<!-- page 54 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2576,9 +2734,9 @@ indicação cénica entre parênteses
 Quando leres teatro, imagina o palco: quem está em cena, onde entra, que tom de voz usa. As
 didascálias são as tuas instruções de encenação.
 
-51
+54
 
-<!-- page 52 -->
+<!-- page 55 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2628,9 +2786,9 @@ lentamente.» / «Ensaiamos porque a audição é amanhã.» / «Se eu falhar, t
 3. Junta cada par numa frase complexa: «Canto. Gosto de cantar.» (porque) / «Levantas-te devagar.
 Respiras fundo.» (e) / «Tens medo. Tremes.» (se)
 
-52
+55
 
-<!-- page 53 -->
+<!-- page 56 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2662,9 +2820,9 @@ Como se resolve?
 
 **O MEU RASCUNHO (primeiras falas)**
 
-53
+56
 
-<!-- page 54 -->
+<!-- page 57 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2703,9 +2861,9 @@ Prime School Press · www.primeschool.pt
 
 No drama, mostra — não contes. Em vez de «ele estava nervoso», escreve «(Treme-lhe a voz.)».
 
-54
+57
 
-<!-- page 55 -->
+<!-- page 58 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2740,9 +2898,9 @@ Notas de encenação do meu grupo:
 Fala devagar e com volume alto · olha para o público · marca pausas entre as ideias · corpo erecto,
 gestos naturais.
 
-55
+58
 
-<!-- page 56 -->
+<!-- page 59 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2767,9 +2925,9 @@ demorar-se. Depois responde.
 No teatro, o espaço não é decoração: cria ambiente e revela sentimentos. A casa escura e calada de
 Garrett «fala» do passado de D. Madalena.
 
-56
+59
 
-<!-- page 57 -->
+<!-- page 60 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2804,9 +2962,9 @@ Não basta dizer. Explica. Pergunta sempre: «Como sei isso?» Cita o texto.
 **EXERCÍCIOS 4**
 Escreve a TUA resposta forte: «Telmo é leal a D. Madalena?» Usa a fórmula evidência + explicação.
 
-57
+60
 
-<!-- page 58 -->
+<!-- page 61 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2851,9 +3009,9 @@ Encenar com voz e movimento
 **O MEU PRÓXIMO OBJECTIVO**
 Na próxima unidade quero melhorar...
 
-58
+61
 
-<!-- page 59 -->
+<!-- page 62 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -2906,9 +3064,9 @@ sentimento revela «a casa fala»? Justifica com o texto.
 GRUPO II · GRAMÁTICA: 4. «Saiu e fechou a porta» – simples ou complexa? 5. «Saiu porque era tarde» – que
 tipo de oração? 6. Escreve uma frase complexa com «quando» sobre um ensaio.
 
-59
+62
 
-<!-- page 60 -->
+<!-- page 63 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -2939,9 +3097,9 @@ aprender os segredos do verso e da rima e escrever os teus próprios poemas.
 verso – cada linha do poema · estrofe – grupo de versos · rima – repetição de sons no fim dos versos ·
 métrica – número de sílabas até à última tónica.
 
-60
+63
 
-<!-- page 61 -->
+<!-- page 64 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3026,9 +3184,9 @@ Repetição no início dos versos
 Como escandir um verso: conta as sílabas em voz alta até à ÚLTIMA TÓNICA:
 «Quan-tas-noi-vas-fi-ca-ram-por-ca-sar» = 10 → decassílabo.
 
-61
+64
 
-<!-- page 62 -->
+<!-- page 65 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3070,9 +3228,9 @@ Fernando Pessoa, Mensagem, 1934
 • Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
 • Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
 
-62
+65
 
-<!-- page 63 -->
+<!-- page 66 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3110,9 +3268,9 @@ Que recursos expressivos dão força aos versos?
 
 6. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
 
-63
+66
 
-<!-- page 64 -->
+<!-- page 67 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3162,9 +3320,9 @@ Florbela Espanca, Charneca em Flor
 • Que emoção domina a primeira quadra? E a última estrofe?
 • O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
 
-64
+67
 
-<!-- page 65 -->
+<!-- page 68 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3205,9 +3363,9 @@ ninguém»? Que nome se dá a este contraste?
 6. Compara os dois poemas com a ajuda do esquema: o que muda quando Pessoa fala do mar e Florbela
 fala do amor? Escreve seis linhas.
 
-65
+68
 
-<!-- page 66 -->
+<!-- page 69 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3277,9 +3435,9 @@ grupo
 de
 coordenadas.
 
-66
+69
 
-<!-- page 67 -->
+<!-- page 70 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3342,9 +3500,9 @@ actores saem.» / «Embora temesse, cantou.»
 3. Junta cada par numa frase complexa: «Estudámos o poema. Fizemos o comentário.» / «O poeta
 perdeu o caderno. Continuou a escrever.» (embora)
 
-67
+70
 
-<!-- page 68 -->
+<!-- page 71 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3390,9 +3548,9 @@ onde está o verso · o nome do recurso · o efeito.
 Escreve agora o teu comentário. Planifica primeiro: 1. INTRODUÇÃO (2 linhas) · 2. CONTEÚDO com duas
 citações (8 linhas) · 3. FORMA com um recurso e o seu efeito (8 linhas) · 4. CONCLUSÃO (4 linhas).
 
-68
+71
 
-<!-- page 69 -->
+<!-- page 72 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3415,9 +3573,9 @@ simples: o autocarro da manhã, o cheiro da cantina, o recreio.
 Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
 um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio poema.
 
-69
+72
 
-<!-- page 70 -->
+<!-- page 73 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3451,9 +3609,9 @@ Notas para a minha declamação:
 
 Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o público, não o papel.
 
-70
+73
 
-<!-- page 71 -->
+<!-- page 74 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3474,9 +3632,9 @@ O MEU POEMA VISUAL:
 A imagem não ilustra o poema: interpreta-o. Escolhe os elementos que traduzem o SENTIDO dos
 versos, não apenas o cenário.
 
-71
+74
 
-<!-- page 72 -->
+<!-- page 75 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3514,9 +3672,9 @@ efeito.
 Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quantos…” na segunda
 estrofe?»
 
-72
+75
 
-<!-- page 73 -->
+<!-- page 76 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3564,9 +3722,9 @@ Escrever um poema com rima
 **O MEU PRÓXIMO OBJECTIVO**
 Para o Year 8 quero melhorar...
 
-73
+76
 
-<!-- page 74 -->
+<!-- page 77 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3619,9 +3777,9 @@ exemplo. 3. Que recurso há em «Ó mar salgado!»? 4. Escande «Valeu a pena? T
 GRUPO II · GRAMÁTICA: 5. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» 6. Passa para a
 passiva: «Os alunos escreveram poemas.»
 
-74
+77
 
-<!-- page 75 -->
+<!-- page 78 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -3648,16 +3806,16 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-75
+78
 
-<!-- page 76 -->
+<!-- page 79 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
 
 Prime School Press · www.primeschool.pt
 
-76
+79
 
 UNIDADE 1
 p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; Onde — rio Douro, Ribeira;
@@ -3669,38 +3827,43 @@ p.12 Ex.: nasceu em Lisboa, 1888; morreu em 1935; «I know not what tomorrow wil
 p.14 Ex.1: primária, semanal e matemático — relacionais; generoso e forte — qualificativos.
 p.14 Ex.2: corajosa · capazes · leitora.  Ex.3: fortíssimo · capacíssimo · facílimo · felicíssimo.
 p.14 Ex.4: tinha — auxiliar; estava — copulativo; vou — auxiliar; parece — copulativo.
-p.17 Ex.4: amanhã e cedo — tempo; certamente — afirmação; bem — modo; talvez — dúvida; não —
-negação; hoje — tempo; muito — quantidade.
-p.17 Ex.3 (F/O): F; O; O.
-p.21 Ex.1: pronome — «Este é meu», «Alguém»; determinante — «Este caderno», «alguma».
-p.21 Ex.2: «Não a encontrei.» / «Dá-me a luva?» / «Ontem encontrou-a e devolveu-lha.»
-p.21 Ex.4: Ela; dei-lho.
-p.24 Grupo II: rebanho; talvez; dois. Grupo III: F; O; F; O.
+p.16 Ex.9: estudaram; jogávamos; tinha feito; fará (ou vai fazer).
+p.19 Ex.4: amanhã e cedo — tempo; certamente — afirmação; bem — modo; talvez — dúvida; não —
+negação; hoje — tempo; muito — quantidade.  Ex.3 (F/O): F; O; O.
+p.24 Ex.14: O João comprou-o. / Nós não a vimos na escola. / Os alunos vão lê-los amanhã. /
+Eles comeram-no todo. / Quem as trouxe?
+p.24 Ex.15: Eu entregá-lo-ei ao professor. / O Pedro comprou-mo. / Nós dar-lhas-íamos.
+p.26 Teste-treino: 1. Quem? O quê? Quando? Onde? Como? Porquê? 2. biografia — 3.ª pessoa;
+autobiografia — 1.ª pessoa.  3. opinião principal defendida.  4. slogan e imperativo, por ex.
+5. rebanho; talvez.  6. tinha — auxiliar.
+p.27 Grupo I: vitória no torneio nacional de tecnologia; três estudantes de robótica do Estoril;
+ontem à tarde; Lisboa.  Grupo II: B.  Grupo III: a) «Dá um passo pelo planeta» ou «Sapatilhas
+EcoEarth: o futuro nos teus pés»; b) convencer/dar ordem ao recetor (imperativo).  Grupo IV: A.
 
 UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-p.26 Missão: cavaleiro dinamarquês; castelo/Dinamarca, Inverno; parte em peregrinação;
+p.29 Missão: cavaleiro dinamarquês; castelo/Dinamarca, Inverno; parte em peregrinação;
 V/F: V; F (Idade Média); V; V; F.
-p.30 Ex.: perfeito — partiu, deixou, cruzou; imperfeito — caminhava, era, mordia.
-p.31 Ex.: estava; caminhava; ouviu; parou; olhou.
-p.46 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
+p.33 Ex.: perfeito — partiu, deixou, cruzou; imperfeito — caminhava, era, mordia.
+p.34 Ex.: estava; caminhava; ouviu; parou; olhou.
+p.49 Grupo II: caminhava — imperfeito; encontrou — perfeito; estava — imperfeito; seguiu — perfeito.
 
 UNIDADE 3 · O PALCO À ESPERA
-p.50 Ex.2: «ajustou e sentou-se» — complexa (e); «desvanece» — simples; «ensaiamos porque» —
+p.53 Ex.2: «ajustou e sentou-se» — complexa (e); «desvanece» — simples; «ensaiamos porque» —
 complexa (porque); «Se eu falhar, tu finges» — complexa (se).
-p.59 Grupo I: acto — grande divisão; cena — divisão menor; didascália — indicação cénica;
+p.62 Grupo I: acto — grande divisão; cena — divisão menor; didascália — indicação cénica;
 as falas e didascálias substituem o narrador; «a casa fala» — personificação que revela angústia.
 Grupo II: «Saiu e fechou a porta» — complexa (coordenada); «Saiu porque era tarde» — complexa
 (subordinada causal).
 
 UNIDADE 4 · A PALAVRA EM MÚSICA
-p.63 Ex.: sal = lágrimas (metáfora); anáfora «Quantas… Quantos…»; o mar espelha o céu — o perigo
+p.66 Ex.: sal = lágrimas (metáfora); anáfora «Quantas… Quantos…»; o mar espelha o céu — o perigo
 e a beleza andam juntos; decassílabo (10 sílabas).
-p.65 Ex.: contraste amar toda a gente / não amar ninguém — antítese; quadra ABAB (rima cruzada).
-p.66 Ex.: «Tremia, mas cantou» — adversativa; «Cantou porque estava feliz» — causal (subord.);
+p.68 Ex.: contraste amar toda a gente / não amar ninguém — antítese; quadra ABAB (rima cruzada).
+p.69 Ex.: «Tremia, mas cantou» — adversativa; «Cantou porque estava feliz» — causal (subord.);
 «Ou ensaias ou falhas» — disjuntiva; «Estava pronta, portanto passou» — conclusiva.
-p.67 Ex.1: «Este soneto foi escrito por Florbela.»; «O mar foi cruzado pelos marinheiros.»
-p.67 Ex.2: adversativa (coord.); causal (subord.); temporal (subord.); concessiva (subord.).
-p.74 Grupo I: 5. adversativa / causal; 6. «Poemas foram escritos pelos alunos.»
+p.70 Ex.1: «Este soneto foi escrito por Florbela.»; «O mar foi cruzado pelos marinheiros.»
+p.70 Ex.2: adversativa (coord.); causal (subord.); temporal (subord.); concessiva (subord.).
+p.77 Grupo I: 5. adversativa / causal; 6. «Poemas foram escritos pelos alunos.»
 
 NOTA: as respostas pessoais (opiniões, comentários, escrita criativa) não têm solução única: são
 corrigidas pelo professor com os critérios de cada oficina.

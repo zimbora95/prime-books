@@ -1344,11 +1344,11 @@
     "band": "Cambridge Lower Secondary",
     "family": "geometric",
     "level": "Lower Secondary",
-    "pages": 76,
+    "pages": 79,
     "done": false,
     "pdf": "/library/y07-portuguese-1st/book.pdf",
     "cover": "/library/y07-portuguese-1st/cover.webp",
-    "mb": 5.67,
+    "mb": 5.68,
     "buildable": false,
     "editable": true,
     "wrapCover": null
