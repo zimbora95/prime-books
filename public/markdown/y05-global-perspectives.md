@@ -590,7 +590,6 @@ Online communication has three extra risks:
 3. Forwarding. A private joke can become a public message.
 
 A message can leave a trail, like footprints in sand. Even if you delete it on your screen, someone
-else may still have a copy.
 
 Kindness in the playground and kindness on a screen are
 the same duty.
@@ -598,6 +597,8 @@ the same duty.
 A digital message can leave a trail, like footprints in sand.
 
 18
+
+else may still have a copy.
 
 <!-- page 19 -->
 
@@ -945,9 +946,9 @@ What is a right you enjoy every school day?
 
 ◉BOOTS ON!
 
-List three rights you think every pupil should have. Then add one responsibility next to each.
-
 30
+
+List three rights you think every pupil should have. Then add one responsibility next to each right.
 
 <!-- page 31 -->
 
@@ -1348,9 +1349,9 @@ only habit.
 
 ▭LOOK OUTWARDS NOTES
 
-Draw a "idea journey" from a creator to your classroom.
-
 44
+
+Draw an "idea journey" from a creator to your classroom.
 
 <!-- page 45 -->
 
@@ -1519,8 +1520,6 @@ What does "citizen of the world" mean if you still have a home street?
 
 ◉BOOTS ON!
 
-Write three circles: Me · My community · The wider world. Place one action in each circle.
-
 ▸LET US FIND OUT
 
 A global citizen cares about fairness beyond their own postcode, while still serving their local
@@ -1531,6 +1530,8 @@ the story.
 You do not need to solve the planet alone. You do need to refuse indifference.
 
 51
+
+Draw three circles: Me · My community · The wider world. Place one action in each circle.
 
 <!-- page 52 -->
 
@@ -2179,9 +2180,9 @@ Then: Which view protects children living downstream?
 
 ▭LOOK OUTWARDS NOTES
 
-Map a simple river across two colours. Write a joint rule.
-
 75
+
+Map a simple river across two countries. Write a joint rule.
 
 <!-- page 76 -->
 
@@ -2543,7 +2544,6 @@ What is the difference between a mistake and a lie told on purpose?
 ◉BOOTS ON!
 
 Teacher shows three sample claims (invented). Sort: likely true / need check / likely false. Explain
-one reason each.
 
 ▸LET US FIND OUT
 
@@ -2554,6 +2554,8 @@ confirm it? What emotion is it trying to trigger?
 Never share a shocking claim to be first. Being first with a falsehood still harms.
 
 89
+
+one reason for each.
 
 <!-- page 90 -->
 
@@ -2596,8 +2598,6 @@ What rights should you have online, and what duties protect others?
 
 ◉BOOTS ON!
 
-Two columns on mini-whiteboards: Rights online | Duties online.
-
 ▸LET US FIND OUT
 
 Digital citizenship means belonging to online spaces with rights (safety, privacy, fair treatment)
@@ -2607,6 +2607,8 @@ Global community online means your words can reach strangers. Laws about hate, t
 copyright still apply. Age rules on platforms exist for a reason.
 
 91
+
+Two columns on a piece of paper: Rights online | Duties online.
 
 <!-- page 92 -->
 

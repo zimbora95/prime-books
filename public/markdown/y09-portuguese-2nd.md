@@ -6,12 +6,11 @@
 ---
 ## Portuguese 2nd
 
-## Português 2.ª Língua
-
 ## Year 9
 
-Cambridge Lower Secondary
-**Student Manual**
+Student Manual
+
+Prime Books Press
 
 <!-- page 2 -->
 

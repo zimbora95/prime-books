@@ -8,9 +8,8 @@
 
 ## Year 8
 
-Cambridge Lower Secondary
-
 Student Manual
+Prime Books Press
 
 <!-- page 2 -->
 
@@ -356,12 +355,12 @@ b) Ela ________ (fazer) desporto ao sábado.
 <!-- page 7 -->
 
 ---
-c) Nós ________ (ser) alunos da turma 8B.
-
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
 **7**
+
+c) Nós ________ (ser) alunos da turma 8B.
 
 d) Eles ________ (ter) aulas de manhã.
 
@@ -3767,8 +3766,6 @@ Sobrou espaço para mais ideias, palavras novas e regras de ouro do português.
 **PRIME BOOKS**
 ## Portuguese 2nd
 
-Year 8 · Cambridge Lower Secondary · Student Manual
-
 **Uma língua que se aprende a falar todos os dias.**
 
 A full year of Portuguese as a second language: seven units, four revision tests and two final activity sets.
@@ -3796,3 +3793,5 @@ Portuguese culture: food, sport and daily life
 **Prime Books · Portuguese 2nd**
 
 Ages 12-13 · Lower Secondary · primeschool.pt
+
+Year 8 · Prime Books Press · Student Manual

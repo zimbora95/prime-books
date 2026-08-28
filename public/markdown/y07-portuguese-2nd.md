@@ -8,72 +8,76 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
-
 Student Manual
+
+Prime Books Press
 
 <!-- page 2 -->
 
 ---
-## Índice
-
 Este manual segue o scheme of work de Português (2.ª língua) do Cambridge Lower
 
 Secondary, Year 7. Cada tema tem duas lições, e há quatro testes de revisão ao longo
 
 do ano.
+
 **UNIDADE 1 · CUMPRIMENTOS E IDENTIFICAÇÃO**
 
-Lições 1-2 · Cumprimentos formais e informais · Despedidas · Nomes e documentos de identificação ·
+Lições 1-2 · Cumprimentos formais e informais · Despedidas ·
+Nomes e documentos de identificação · Pronomes pessoais
 
-Pronomes pessoais
 **UNIDADE 2 · DADOS PESSOAIS**
 
 Lições 1-2 · Morada e contactos · Data e local de nascimento, idade, género, nacionalidade ·
-
 Formação e profissão · Artigos definidos
+
 **TESTE 1**
 
 Revisão das Unidades 1 e 2
+
 **UNIDADE 3 · FAMÍLIA E ALIMENTAÇÃO**
 
 Lições 1-2 · Presente do Indicativo: os verbos Estar, Ser e Chamar-se
+
 **UNIDADE 4 · HABITAÇÃO**
 
 Lições 1-2 · Nomes: flexão em género e número
+
 **UNIDADE 5 · ESPAÇOS COMERCIAIS E SERVIÇOS**
 
 Lições 1-2 · Adjectivos: flexão em género e número
+
 **TESTE 2**
 
 Revisão das Unidades 3, 4 e 5
+
 **UNIDADE 6 · SAÚDE E ACTIVIDADE FÍSICA**
 
 Presente do Indicativo: conjugação pronominal reflexa · Exercícios
+
 **UNIDADE 7 · TEMPOS LIVRES E CONVÍVIO SOCIAL**
 
 Estar a... + infinitivo · Actividades sazonais · Números cardinais 0-100 · Exercícios
+
 **UNIDADE 8 · INFORMAÇÃO PESSOAL**
 
 Presente do Indicativo: verbos regulares
+
 **TESTE 3**
 
 Revisão das Unidades 6, 7 e 8
+
 **UNIDADE 9 · ROTINA DIÁRIA**
 
 Presente do Indicativo dos verbos vestir, pentear, etc. · Exercícios
+
 **UNIDADE 10 · FAMÍLIA E COMPREENSÃO SOCIAL**
 
 Presente do Indicativo: verbos irregulares da 2.ª e 3.ª conjugação: ler, fazer, ir, ouvir · Exercícios
+
 **UNIDADE 11 · ALIMENTAÇÃO E DIETA**
 
-**TESTE 4**
-**ACTIVIDADES FINAIS**
-
-PORTUGUÊS 2.ª LÍNGUA · YEAR 7 · ÍNDICE
-
-Prime School Press · www.primeschool.pt
-**2**
+**TESTE 4 · ACTIVIDADES FINAIS**
 
 <!-- page 3 -->
 
@@ -98,9 +102,13 @@ vocabulário novo e termina com exercícios para praticar.
 
 2. Estuda o vocabulário e a gramática da lição.
 
-3. Faz os exercícios no livro ou no caderno.
+PORTUGUÊS 2.ª LÍNGUA · YEAR 7
 
-4. Revê as caixas verdes antes dos testes.
+Prime School Press · www.primeschool.pt
+**3**
+
+O cartão de identificação na escola.
+
 Português europeu: neste manual usamos a norma europeia, que é a que se fala e
 
 escreve em Portugal (por exemplo, «actividade», «óptimo», «contacto»). As palavras
@@ -114,12 +122,9 @@ de Barcelos, os azulejos, a guitarra portuguesa, as festas populares. Aprender u
 
 língua é também conhecer a cultura de quem a fala.
 
-PORTUGUÊS 2.ª LÍNGUA · YEAR 7
+3. Faz os exercícios no livro ou no caderno.
 
-Prime School Press · www.primeschool.pt
-**3**
-
-O cartão de identificação na escola.
+4. Revê as caixas verdes antes dos testes.
 
 <!-- page 4 -->
 
@@ -539,40 +544,41 @@ Ele é professor. Dá aulas de Matemática.
 
 A Marta é aluna. Estuda no Year 7.
 
-Os pais do Tomás são engenheiros.
+PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
+
+Prime School Press · www.primeschool.pt
+**13**
 
 O meu irmão está a estudar na universidade.
+
 Diálogo curto: «O que faz o teu pai?» — «O meu pai é enfermeiro. E o teu?» — «A
 
 minha mãe é cozinheira num restaurante.»
 **Gramática: os artigos definidos**
 
-Os artigos definidos acompanham os nomes que conhecemos bem. Têm de combinar
-
-com o género (masculino/feminino) e o número (singular/plural) do nome:
-
-**O NOME COMBINA COM O ARTIGO**
-
-o (masculino singular)
-**o cartão de cidadão**
-
-a (feminino singular)
-**a morada**
-
-os (masculino plural)
-**os documentos**
-
-as (feminino plural)
-**as profissões**
-
 Atenção: mesmo os nomes de coisas combinam — o telefone, a rua, os livros, as aulas.
 
 Se duvidares, põe o nome no plural: se o plural termina em -s, o artigo plural é os ou as.
 
-PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
+**o cartão de cidadão**
 
-Prime School Press · www.primeschool.pt
-**13**
+**a morada**
+
+**os documentos**
+
+**as profissões**
+
+o (masculino singular)
+
+a (feminino singular)
+
+os (masculino plural)
+
+as (feminino plural)
+
+**O NOME COMBINA COM O ARTIGO**
+
+Os pais do Tomás são engenheiros.
 
 <!-- page 14 -->
 
@@ -1450,7 +1456,15 @@ Atletismo — correr, saltar, lançar.
 
 Andar de bicicleta · passear · dançar · jogar à macaca.
 
+PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
+
+Prime School Press · www.primeschool.pt
+**36**
+
+No consultório e na farmácia.
+
 Praticar desporto — fazer desporto com regularidade.
+
 Perguntas úteis: Praticas algum desporto? — Pratico natação. · Quantas vezes por
 
 semana treinas? — Treino três vezes por semana. · Gostas de futebol? — Adoro!
@@ -1458,13 +1472,6 @@ semana treinas? — Treino três vezes por semana. · Gostas de futebol? — Ado
 O verbo Praticar é regular: pratico, praticas, pratica, praticamos, praticais, praticam.
 
 Os verbos terminados em -ar nunca levam acento nestas formas.
-
-PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
-
-Prime School Press · www.primeschool.pt
-**36**
-
-No consultório e na farmácia.
 
 <!-- page 37 -->
 
@@ -1975,7 +1982,13 @@ Código postal: _________   Cidade: _____________
 
 Nacionalidade: _____________   Género: _________
 
+PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
+
+Prime School Press · www.primeschool.pt
+**49**
+
 Desporto preferido: ____________________________
+
 Diálogo curto: «Já preencheste a ficha do clube?» — «Sim, já! Escrevi o meu nome, a
 
 morada e escolhi a natação.» — «Eu ainda não. Que escrevo em nacionalidade?» —
@@ -1985,11 +1998,6 @@ morada e escolhi a natação.» — «Eu ainda não. Que escrevo em nacionalidad
 Repara nos verbos: preencher, escrever, escolher. Pergunta com «Já preencheste?» e
 
 responde com «Sim, já preenchi.»
-
-PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
-
-Prime School Press · www.primeschool.pt
-**49**
 
 <!-- page 50 -->
 

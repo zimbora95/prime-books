@@ -4,7 +4,6 @@
 <!-- page 1 -->
 
 ---
-
 ## Global Perspectives
 
 ## Year 4
@@ -514,7 +513,6 @@ Mateo says: If it is not in a textbook, it is not real education.
 
 Sofia says: My uncle taught me to fix a bike. That was harder than any test.
 
-Then: Inês's question: which skills help a town run, even if they never
 appear on a spelling list?
 
 ▭LOOK OUTWARDS NOTES
@@ -543,6 +541,8 @@ saying why it matters.
 14
 
 UNIT 1 · TOPIC 1.1 · WHAT IS EDUCATION?
+
+Then: Inês' question: which skills help a town run, even if they never
 
 <!-- page 15 -->
 
@@ -1043,6 +1043,22 @@ closed question a question that can be answered yes or no
 28
 
 UNIT 2 · IMPROVING COMMUNICATION
+
+:
+
+:
+
+:
+
+:
+
+:messages your face, hands and posture send without words
+
+:how a voice sounds: kind, sharp, tired, teasing
+
+:a question that needs more than yes or no
+
+:a question that can be answered yes or no
 
 <!-- page 29 -->
 
@@ -1624,6 +1640,26 @@ perspective a way of seeing from somebody else's place and story
 45
 
 UNIT 3 · MOVING TO A NEW COUNTRY
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:to move from one place to live in another
+
+:to make a new home in a place
+
+:people who share a place or an interest and help each other
+
+:everyday ways of living : food , games , languages , holidays
+
+:a way of seeing from somebody else ' s place and story
 
 <!-- page 46 -->
 
@@ -3889,7 +3925,6 @@ FOR TEACHERS
 <!-- page 104 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Global Perspectives

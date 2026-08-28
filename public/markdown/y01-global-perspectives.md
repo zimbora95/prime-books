@@ -1742,13 +1742,6 @@ sheep
 <!-- page 59 -->
 
 ---
-**U N I T 2 - T O P I C 2 . 8**
-
-## What plants need to grow
-
-A plant needs four things, and it needs all four. Take one away and it
-stops.
-
 **WAKE UP**
 
 Stand up. Move like a hen, then like a cow, then like a goat on a
@@ -1759,11 +1752,17 @@ UNIT  2  RICH  AND  POOR
 TOPIC 2.8
 **58**
 
+**U N I T 2 - T O P I C 2 . 8**
+## What plants need to grow
+
+A plant needs four things, and it needs all four. Take one away and it
+stops.
+
+**One seedling, four things. Light, water, soil and air. Find each one in the picture.**
+
 <!-- page 60 -->
 
 ---
-**One seedling, four things. Light, water, soil and air. Find each one in the picture.**
-
 **LET'S FIND OUT**
 
 ## light, usually from the sun

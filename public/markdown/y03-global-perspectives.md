@@ -1,5 +1,5 @@
 # Global Perspectives - Year 3 (Prime Book)
-> Markdown companion of `public/library/y03-global-perspectives/book.pdf` (156 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y03-global-perspectives/book.pdf` (157 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -255,31 +255,31 @@ INTRODUCTION
 **117**
 
 **Unit 6 · Family, friends, community and culture**
-**121**
+**122**
 
 6.1  My family
-**123**
-
-6.2  Different families around the world
 **124**
 
+6.2  Different families around the world
+**125**
+
 6.3  Being a good friend
-**126**
+**127**
 
 6.4  Our school and local community
-**128**
+**129**
 
 6.5  Working together to build a caring community
-**130**
+**131**
 
 6.6  Celebrations and traditions
-**132**
+**133**
 
 6.7  Respecting different cultures
-**134**
+**135**
 
 **Term 3 review**
-**139**
+**140**
 
 <!-- page 8 -->
 
@@ -4741,7 +4741,38 @@ UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
 120
 
+**HUMANITIES CORNER**
+
+**History**
+The wheel was invented over five thousand years ago, and steam trains crossed bridges people
+said could never be built.
+
+**Geography**
+Canal boats float goods across flat Holland, camels carry them over burning deserts, and
+roads spiral around mountains. The land chooses the transport.
+
 <!-- page 121 -->
+
+---
+## TIME CAPSULE
+**History**
+
+People once dragged everything on sledges, until someone thought of the wheel over five
+thousand years ago. For centuries horses and sailing ships were the fastest things on Earth. Then
+steam engines arrived, and suddenly trains raced across countries faster than any bird.
+
+## GLOBAL TROTTERS
+**Geography**
+
+Flat lands dig canals for slow, heavy boats. Deserts trust the camel, the ship of the sand.
+Mountains bend their roads into spirals and pierce them with tunnels. Everywhere, the shape of
+the land decides how people and goods can travel.
+
+UNIT 5 · MOVING GOODS AND PEOPLE
+
+121
+
+<!-- page 122 -->
 
 ---
 U N I T 6
@@ -4754,9 +4785,9 @@ The people who are yours, the people next door, and what a place does together
 
 What makes a group of people into a community?
 
-121
+122
 
-<!-- page 122 -->
+<!-- page 123 -->
 
 ---
 ## Unit 6 · Family, friends, community and
@@ -4805,9 +4836,9 @@ Ask, listen, do not mock, do not pretend it is yours.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-122
+123
 
-<!-- page 123 -->
+<!-- page 124 -->
 
 ---
 **NEW WORDS**
@@ -4851,9 +4882,9 @@ lodger may share a household and not be family.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-123
+124
 
-<!-- page 124 -->
+<!-- page 125 -->
 
 ---
 What families do is more consistent than what they look like: feed each other,
@@ -4894,9 +4925,9 @@ changes shape through the year.
 
 UNIT 6 · TOPIC 6.1 · MY FAMILY
 
-124
+125
 
-<!-- page 125 -->
+<!-- page 126 -->
 
 ---
 In some places children are raised largely by a wide group of aunts, uncles
@@ -4925,9 +4956,9 @@ what all five are doing.
 
 UNIT 6 · TOPIC 6.2 · DIFFERENT FAMILIES AROUND THE WORLD
 
-125
+126
 
-<!-- page 126 -->
+<!-- page 127 -->
 
 ---
 4. Write one question it would be rude to ask somebody about their family.
@@ -4969,9 +5000,9 @@ no rule that says you must have one particular best friend.
 
 UNIT 6 · TOPIC 6.3 · BEING A GOOD FRIEND
 
-126
+127
 
-<!-- page 127 -->
+<!-- page 128 -->
 
 ---
 One friend simply staying beside another after a bad morning. Look at what
@@ -4993,9 +5024,9 @@ case.
 
 UNIT 6 · TOPIC 6.3 · BEING A GOOD FRIEND
 
-127
+128
 
-<!-- page 128 -->
+<!-- page 129 -->
 
 ---
 **UNIT 6 - TOPIC 6.4**
@@ -5047,9 +5078,9 @@ other.
 
 UNIT 6 · TOPIC 6.4 · OUR SCHOOL AND LOCAL COMMUNITY
 
-128
+129
 
-<!-- page 129 -->
+<!-- page 130 -->
 
 ---
 A village square being looked after by the people who live in it. Look for the
@@ -5079,9 +5110,9 @@ bombeiros.pt
 
 UNIT 6 · TOPIC 6.4 · OUR SCHOOL AND LOCAL COMMUNITY
 
-129
+130
 
-<!-- page 130 -->
+<!-- page 131 -->
 
 ---
 **UNIT 6 - TOPIC 6.5**
@@ -5121,9 +5152,9 @@ decides.
 
 UNIT 6 · TOPIC 6.5 · WORKING TOGETHER TO BUILD A CARING COMMUNITY
 
-130
+131
 
-<!-- page 131 -->
+<!-- page 132 -->
 
 ---
 **YOUR TURN**
@@ -5161,9 +5192,9 @@ The last row is the one people skip. Fill it in.
 
 UNIT 6 · TOPIC 6.5 · WORKING TOGETHER TO BUILD A CARING COMMUNITY
 
-131
+132
 
-<!-- page 132 -->
+<!-- page 133 -->
 
 ---
 **UNIT 6 - TOPIC 6.6**
@@ -5236,9 +5267,9 @@ remembered.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-132
+133
 
-<!-- page 133 -->
+<!-- page 134 -->
 
 ---
 A village celebration at dusk. Look for the oldest person at the table and
@@ -5265,9 +5296,9 @@ the local harvest, kept going long after everyone stopped farming.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-133
+134
 
-<!-- page 134 -->
+<!-- page 135 -->
 
 ---
 **LOOK CLOSER**
@@ -5310,9 +5341,9 @@ joke either, because the joke is not yours to make.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-134
+135
 
-<!-- page 135 -->
+<!-- page 136 -->
 
 ---
 ## Do not treat it as a costume. Being interested is welcome. Dressing up as
@@ -5351,9 +5382,9 @@ somewhere?
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-135
+136
 
-<!-- page 136 -->
+<!-- page 137 -->
 
 ---
 **ASK FIRST**
@@ -5407,9 +5438,9 @@ You said how you know each one
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-136
+137
 
-<!-- page 137 -->
+<!-- page 138 -->
 
 ---
 **What we look**
@@ -5464,9 +5495,9 @@ I can describe São Martinho and say why it is in November.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-137
+138
 
-<!-- page 138 -->
+<!-- page 139 -->
 
 ---
 **MY NOTES**
@@ -5479,9 +5510,9 @@ What makes a group of people into a community?
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-138
+139
 
-<!-- page 139 -->
+<!-- page 140 -->
 
 ---
 ## Term 3 review
@@ -5538,9 +5569,9 @@ properly, and not mocking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-139
+140
 
-<!-- page 140 -->
+<!-- page 141 -->
 
 ---
 3. Sort into land, water and air: tram, ferry, helicopter, bicycle.
@@ -5587,9 +5618,9 @@ Asked a question worth asking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-140
+141
 
-<!-- page 141 -->
+<!-- page 142 -->
 
 ---
 **Over the whole year I**
@@ -5621,9 +5652,9 @@ practise next.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-141
+142
 
-<!-- page 142 -->
+<!-- page 143 -->
 
 ---
 ## Word list
@@ -5672,9 +5703,9 @@ UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
 WORD LIST
 
-142
+143
 
-<!-- page 143 -->
+<!-- page 144 -->
 
 ---
 ## unpaid work real work nobody pays for, such as caring for a family
@@ -5724,9 +5755,9 @@ along
 
 WORD LIST
 
-143
+144
 
-<!-- page 144 -->
+<!-- page 145 -->
 
 ---
 **Unit 5 · Moving goods and people**
@@ -5767,9 +5798,9 @@ grandparents
 
 WORD LIST
 
-144
+145
 
-<!-- page 145 -->
+<!-- page 146 -->
 
 ---
 ## Sources and references
@@ -5857,9 +5888,9 @@ vernacular architecture
 
 SOURCES AND REFERENCES
 
-145
+146
 
-<!-- page 146 -->
+<!-- page 147 -->
 
 ---
 **Where**
@@ -5954,9 +5985,9 @@ Portuguesa (CPLP)
 
 SOURCES AND REFERENCES
 
-146
+147
 
-<!-- page 147 -->
+<!-- page 148 -->
 
 ---
 **Where**
@@ -6041,9 +6072,9 @@ Municipal do Porto
 
 SOURCES AND REFERENCES
 
-147
+148
 
-<!-- page 148 -->
+<!-- page 149 -->
 
 ---
 **Where**
@@ -6095,9 +6126,9 @@ have been decoration rather than teaching, it was cut.
 
 SOURCES AND REFERENCES
 
-148
+149
 
-<!-- page 149 -->
+<!-- page 150 -->
 
 ---
 ## Answers
@@ -6141,9 +6172,9 @@ ignores the rules or blames others, with a reason why skill does not make up for
 
 ANSWERS
 
-149
+150
 
-<!-- page 150 -->
+<!-- page 151 -->
 
 ---
 ## it. 3. Gonçalo, because he is the only one talking about somebody being left out
@@ -6188,9 +6219,9 @@ caring for a child or an older relative.
 
 ANSWERS
 
-150
+151
 
-<!-- page 151 -->
+<!-- page 152 -->
 
 ---
 ## 2.5 1 and 2. Your own example, correctly sorted into food, time, skill or thing
@@ -6232,9 +6263,9 @@ something strange has come up. 4. Your own two adults.
 
 ANSWERS
 
-151
+152
 
-<!-- page 152 -->
+<!-- page 153 -->
 
 ---
 ## 3.6 1. Your own pair of messages. The rewritten one usually adds a name, a
@@ -6279,9 +6310,9 @@ somebody is being unkind on purpose.
 
 ANSWERS
 
-152
+153
 
-<!-- page 153 -->
+<!-- page 154 -->
 
 ---
 ## 4.7 1. Thanking a neighbour: face to face, or a note. The time of a match: a
@@ -6323,9 +6354,9 @@ would struggle with it, and a change that includes them.
 
 ANSWERS
 
-153
+154
 
-<!-- page 154 -->
+<!-- page 155 -->
 
 ---
 **Unit 6 · Family, friends, community and culture**
@@ -6360,9 +6391,9 @@ or wear it as a costume for fun. 4. Your own answer.
 
 ANSWERS
 
-154
+155
 
-<!-- page 155 -->
+<!-- page 156 -->
 
 ---
 ## For teachers
@@ -6406,9 +6437,9 @@ topic.
 
 FOR TEACHERS
 
-155
+156
 
-<!-- page 156 -->
+<!-- page 157 -->
 
 ---
 **P R I M E  B O O K S**

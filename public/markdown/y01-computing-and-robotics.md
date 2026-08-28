@@ -8,8 +8,7 @@
 
 ## Year 1
 
-Cambridge Early Years
-Student Manual
+Prime Books Press
 
 <!-- page 2 -->
 
