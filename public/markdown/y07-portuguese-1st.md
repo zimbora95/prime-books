@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (90 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (118 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -23,225 +23,394 @@ Prime School Press · www.primeschool.pt
 
 **UNIDADE 1 · TEXTOS DOS MEDIA**
 
-Unidade 1 · Textos dos Media....................................
+Unidade 1 · Textos dos Media.........................
 **3**
-A notícia · a pirâmide invertida
-.....................................
+
+A notícia.......................................................
 **4**
-Ler uma notícia · desenha a pirâmide
-.............................
+
+Ler uma notícia.............................................
 **5**
+
 Exercícios · A notícia
-..................................................
+.........................................
 **6**
-Ler outra notícia · Tormenta......................................
+
+Ler outra notícia............................................
 **7**
-Gramática · as classes de palavras............................
+
+Gramática · As classes de palavras
+..................
 **8**
+
 Oralidade · Escutar a notícia
-.......................................
+.............................
 **9**
-Escrever uma notícia..............................................
+
+Escrever uma notícia....................................
 **10**
-A biografia · subclasses dos nomes...........................
+
+A biografia ..................................................
 **11**
-Fernando Pessoa + exercícios..................................
+
+Fernando Pessoa ........................................
 **12**
-Ler outra biografia · Carolina Mendes.........................
+
+Ler outra biografia · uma campeã....................
 **13**
-Gramática · adjectivo e subclasses do verbo.................
+
+Gramática · O adjectivo e o verbo
+.....................
 **14**
-Gramática · conjugações dos verbos
-............................
+
+Gramática · As conjugações dos verbos
+.............
 **15**
-Gramática · tempos verbais em acção
-..........................
+
+Gramática · Os tempos verbais em acção
+...........
 **16**
-Escrever uma biografia ..........................................
+
+Escrever uma biografia ................................
 **17**
-O artigo de opinião · texto.........................................
+
+O artigo de opinião........................................
 **18**
-Exercícios · opinião e advérbio
-.....................................
+
+Exercícios · O artigo de opinião
+...........................
 **19**
-Ler outro artigo de opinião.......................................
+
+Ler outro artigo de opinião.............................
 **20**
-O texto publicitário · o anúncio
-....................................
+
+O texto publicitário.......................................
 **21**
-Exercícios · o esquema do anúncio
-...............................
+
+Exercícios · O texto publicitário
+...........................
 **22**
-Gramática · pronomes e colocação
-..............................
+
+Gramática · Os pronomes e o verbo
+..................
 **23**
-Gramática · alterações fonéticas e contração
-....................
+
+Gramática · Alterações fonéticas e contração
+........
 **24**
-Exercícios · colocação dos pronomes
-............................
+
+Exercícios · A colocação dos pronomes
+..............
 **25**
-Revisão da Unidade 1.............................................
+
+Revisão da Unidade 1...................................
 **26**
+
 Ficha de revisão · Unidade 1
-.......................................
+.............................
 **27**
 
 **UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS**
 
-Unidade 2 · Uma viagem, muitas histórias....................
+Unidade 2 · Uma viagem, muitas histórias......
 **28**
-Palavras para partir ..............................................
+
+Palavras para partir .....................................
 **29**
-Vamos ler · O Cavaleiro da Dinamarca
-.........................
+
+Vamos ler · O Cavaleiro da Dinamarca.............
 **30**
-Missão do leitor.....................................................
+
+Missão do leitor............................................
 **31**
-Vamos ler · O Rapaz de Bronze................................
+
+Compreender e justificar ..............................
 **32**
-O Rapaz de Bronze · continuação...............................
+
+Personagem, espaço e tempo.......................
 **33**
-Exercícios · O Rapaz de Bronze.................................
+
+Palavras em viagem ....................................
 **34**
-Ler nas entrelinhas · personificação............................
-**35**
-Caracterização e escrita · a carta................................
-**36**
-Vamos ler · A Floresta............................................
-**37**
-A Floresta · continuação...........................................
-**38**
-Exercícios · A Floresta.............................................
-**39**
-Isabel e a floresta · caracterização..............................
-**40**
-Explícito e implícito · real e fantástico
-.............................
-**41**
-Vocabulário e gramática em contexto..........................
-**42**
-Comparação e desafio final......................................
-**43**
-Compreender e justificar ........................................
-**44**
-Como interpretar um texto narrativo ..........................
-**45**
-Personagem, espaço e tempo...................................
-**46**
-Palavras em viagem .............................................
-**47**
 
 Gramática · Os tempos verbais na narrativa
-....................
+......
+**35**
+
+Pretérito perfeito ou imperfeito?....................
+**36**
+
+A viagem como símbolo.................................
+**37**
+
+Vamos ler · O Rapaz de Bronze....................
+**38**
+
+Exercícios · O Rapaz de Bronze.....................
+**39**
+
+Ler nas entrelinhas ......................................
+**40**
+
+Vamos ler · A Floresta..................................
+**41**
+
+Caracterização e escrita................................
+**42**
+
+Exercícios · A Floresta...................................
+**43**
+
+Isabel e a floresta ........................................
+**44**
+
+Explícito e implícito.........................................
+**45**
+
+Vocabulário e gramática em contexto.............
+**46**
+
+Comparação e desafio final...........................
+**47**
+
+Conhece a autora · Maria Alberta Menéres
+........
 **48**
-Pretérito perfeito ou imperfeito?................................
+
+Ulisses · uma história de aventura
+....................
 **49**
-Pintar com palavras · a descrição
-.................................
+
+Ulisses · antes de ler......................................
 **50**
-A arte do diálogo..................................................
+
+Vamos ler · Ulisses e Polifemo........................
 **51**
-A viagem como símbolo...........................................
+
+Exercícios · Ulisses e Polifemo
+.........................
 **52**
-Laboratório de Escrita · a tua viagem..........................
+
+Exercícios · Ulisses e Polifemo
+.........................
 **53**
-Caixa de ferramentas do escritor ..............................
+
+Exercícios · Ulisses e Polifemo
+.........................
 **54**
-Fala e escuta · conversa de viajantes..........................
+
+Ler nas entrelinhas · Ulisses............................
 **55**
-Literatura em imagem · o mapa da viagem....................
+
+Caracterização das personagens...................
 **56**
-Relembra · o que aprendi.........................................
+
+Espaço e tempo · Ulisses
+..................................
 **57**
-Balanço da unidade · missão cumprida?
-........................
-**58**
-O passaporte do leitor ...........................................
-**59**
-Ficha de revisão · Unidade 2
+
+Vocabulário · Ulisses
 .......................................
+**58**
+
+Gramática em contexto · Ulisses
+......................
+**59**
+
+Recursos expressivos · Ulisses.......................
 **60**
+
+Educação literária · a aventura
+...........................
+**61**
+
+Interpretação aprofundada · Ulisses
+..................
+**62**
+
+Oficina de escrita · Ulisses..............................
+**63**
+
+Escrita criativa · um novo monstro...................
+**64**
+
+Debate · inteligência ou força?
+..........................
+**65**
+
+Desafio final · escapa da gruta!.......................
+**66**
+
+Autoavaliação · Ulisses
+.....................................
+**67**
+
+Passaporte literário · Ulisses
+............................
+**68**
+
+Como interpretar um texto narrativo .............
+**69**
+
+Pintar com palavras · a descrição
+.....................
+**70**
+
+A arte do diálogo..........................................
+**71**
+
+Laboratório de Escrita · a tua viagem..............
+**72**
+
+Caixa de ferramentas do escritor ..................
+**73**
+
+Fala e escuta · conversa de viajantes..............
+**74**
+
+Literatura em imagem · o mapa da viagem......
+**75**
+
+Relembra · o que aprendi...............................
+**76**
+
+Balanço da unidade · missão cumprida?
+...........
+**77**
+
+O passaporte do leitor .................................
+**78**
+
+Ficha de revisão · Unidade 2
+.............................
+**79**
 
 **UNIDADE 3 · O PALCO À ESPERA**
 
-Unidade 3 · O Palco à Espera
-.....................................
-**61**
-Conhece o autor · Almeida Garrett..............................
-**62**
-Vamos ler · Frei Luís de Sousa
+Unidade 3 · O Palco à Espera........................
+**80**
+
+Conhece a autora · Luísa Ducla Soares
+............
+**81**
+
+Gulliver chega a Portugal! ............................
+**82**
+
+Antes de ler ................................................
+**83**
+
+Vamos ler · Gulliver em Portugal......................
+**84**
+
+Gulliver em Portugal (continuação).................
+**85**
+
+Depois da leitura .........................................
+**86**
+
+Verdadeiro ou falso · Gulliver...........................
+**87**
+
+Lê nas entrelinhas · Gulliver
+.............................
+**88**
+
+Quem é quem?............................................
+**89**
+
+Onde e quando? .........................................
+**90**
+
+As palavras do texto ....................................
+**91**
+
+Lê como um actor........................................
+**92**
+
+Gramática em contexto................................
+**93**
+
+Rir... e pensar .............................................
+**94**
+
+Pensa como um leitor ..................................
+**95**
+
+Oficina de escrita · entrevista a Gulliver...........
+**96**
+
+Um novo olhar sobre Portugal ......................
+**97**
+
+Debate · viajar muda a nossa forma de ver o ..
+**98**
+
+Gulliver chega à tua escola!..........................
+**99**
+
+Relembra · texto dramático.............................
+**100**
+
+Autoavaliação · Gulliver
 ....................................
-**63**
-Missão do leitor.....................................................
-**64**
-Como interpretar um texto dramático.........................
-**65**
-Gramática · Frases simples e complexas
-.......................
-**66**
-Writing Lab · escreve a tua cena.................................
-**67**
-Writing Toolkit · a caixa de ferramentas do dramaturgo.....
-**68**
-Fala e escuta · sobe ao palco....................................
-**69**
-Literatura em imagem · o cenário
-.................................
-**70**
-Cambridge Focus · interpretar teatro...........................
-**71**
-Relembra · o que aprendi.........................................
-**72**
-O passaporte do leitor ...........................................
-**73**
+**101**
 
 **UNIDADE 4 · A PALAVRA EM MÚSICA**
 
 Unidade 4 · A Palavra em Música
-.................................
-**74**
-Como se faz um poema .........................................
-**75**
+.....................
+**102**
+
+Como se faz um poema ...............................
+**103**
+
 Vamos ler · Mar Português
-..........................................
-**76**
-Missão do leitor.....................................................
-**77**
-Vamos ler · Amar!...................................................
-**78**
+................................
+**104**
+
+Missão do leitor............................................
+**105**
+
+Vamos ler · Amar!..........................................
+**106**
+
 Missão do leitor · Amar!
-.............................................
-**79**
+....................................
+**107**
+
 Gramática · Orações coordenadas
-.................................
-**80**
+.....................
+**108**
+
 Gramática · Activa, passiva e subordinadas
-....................
-**81**
-Writing Lab · comentar um poema..............................
-**82**
-Writing Lab · escreve os teus poemas..........................
-**83**
-Fala e escuta · declamar poesia.................................
-**84**
-Literatura em imagem · o poema visual........................
-**85**
+**...... 109**
+
+Writing Lab · comentar um poema..................
+**110**
+
+**Writing Lab · escreve os teus poemas............. 111**
+
+**Fala e escuta · declamar poesia...................... 112**
+
+**Literatura em imagem · o poema visual........... 113**
+
 Cambridge Focus · comentar com precisão
-....................
-**86**
-Relembra · o que aprendi.........................................
-**87**
-O passaporte do leitor ...........................................
-**88**
+**....... 114**
+
+Relembra · o que aprendi...............................
+**115**
+
+O passaporte do leitor .................................
+**116**
 
 **RECURSOS**
 
-Dossier do escritor ...............................................
-**89**
-Soluções (exercícios fechados)
-..................................
-**90**
+Dossier do escritor ......................................
+**117**
+
+Soluções (exercícios fechados).......................
+**118**
 
 <!-- page 3 -->
 
@@ -733,12 +902,12 @@ costuma repetir em entrevistas.
 
 3. Retira a citação e explica porque é forte no fecho.
 
-13
-
 **DESAFIO CRIATIVO 8**
 
 Imagina a tua própria biografia futura: «Um dia serei campeão/campeã de·». Escreve 5-6 linhas sobre o maior obstáculo que terás
 de superar e a frase marcante que dirias no final, à maneira de Carolina: «Se eu consegui, tu também consegues.»
+
+13
 
 <!-- page 14 -->
 
@@ -914,8 +1083,6 @@ Prime School Press · www.primeschool.pt
 
 **GRAMÁTICA · TREINAR A CONJUGAÇÃO**
 
-16
-
 **CONJUGAÇÃO NO PRETÉRITO IMPERFEITO DO INDICATIVO**
 
 **falar (1.ª)**
@@ -1005,6 +1172,8 @@ Amanhã, a turma (fazer) ______________________ uma visita de estudo ao museu.
 
 (futuro)
 DICA: no mais-que-perfeito composto usa «ter» no imperfeito + particípio (tinha feito); no futuro o verbo inteiro muda (fará).
+
+16
 
 <!-- page 17 -->
 
@@ -1212,13 +1381,13 @@ Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler 
 3. Facto ou opinião? «Uma biblioteca cabe no bolso.» · «O e-book pesa menos.» · «A leitura é um prazer
 dos sentidos.»
 
-20
-
 **ESCRITA · A TUA PROPOSTA DE PAZ 13**
 
 Escreve um parágrafo (8-10 linhas) com a tua proposta de paz entre duas coisas que as pessoas põem em rivalidade: papel
 e ecrã · cidade e campo · futebol e ballet · aulas presenciais e online. Usa: em primeiro lugar (tese) · além disso (argumento) ·
 no entanto (contra-argumento) · em conclusão.
+
+20
 
 <!-- page 21 -->
 
@@ -1405,9 +1574,9 @@ Eu tra-lo-ei.
 Verbo no início da frase positiva → pronome DEPOIS («Comprou-o.»). Palavra atractora antes (não, já,
 quem, que) → pronome ANTES («Já o comprou.»).
 
-23
-
 **TABELA GERAL DE COLOCAÇÃO DO PRONOME**
+
+23
 
 <!-- page 24 -->
 
@@ -1476,8 +1645,6 @@ vo-lo, vo-la, vo-los, vo-las
 lhes + o/a/os/as
 lho, lha, lhos, lhas (igual ao singular)
 
-24
-
 Escreve um mini-diálogo de 4 falas entre dois amigos sobre um objecto perdido, usando pelo menos uma
 vez: um pronome depois do verbo (ex.: «encontrei-o»), um pronome antes (ex.: «não o encontrei») e uma
 contração (ex.: «dei-lho»).
@@ -1485,6 +1652,8 @@ contração (ex.: «dei-lho»).
 EXEMPLO: «Dei o livro à Maria.» · Dei-lhe (CI) o livro (CD). · Dei-lho.
 
 **DESAFIO CRIATIVO**
+
+24
 
 <!-- page 25 -->
 
@@ -1517,8 +1686,6 @@ Prime School Press · www.primeschool.pt
 1. O João comprou-o. 2. Nós não a vimos na escola. 3. Os alunos vão lê-los amanhã. 4. Eles
 comeram-no todo. 5. Quem as trouxe? (Nível 2) 1. Eu entregá-lo-ei ao professor. 2. O Pedro
 
-25
-
 DESAFIO CRIATIVO: escreve três frases sobre o teu dia: uma com ênclise (pronome depois do verbo), uma
 com próclise (palavra atractora antes) e uma com contração (CI+CD). Sublinha os pronomes.
 
@@ -1526,6 +1693,8 @@ com próclise (palavra atractora antes) e uma com contração (CI+CD). Sublinha 
 
 Confere depois de fazer · Nível 1: O João comprou-o. / Nós não a vimos na escola. / Os alunos vão lê-los amanhã.
 Nível 2: Eu entregá-lo-ei ao professor. / O Pedro comprou-mo. / Nós dar-lhas-íamos. (Soluções completas nos Recursos.)
+
+25
 
 <!-- page 26 -->
 
@@ -1566,13 +1735,13 @@ pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquema
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
 colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
 
-26
-
 **                   **
 
 Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um
 slogan curto e memorável, um imperativo e uma frase emotiva. Desenha-o no caderno ou em cartolina e
 apresenta-o à turma em 1 minuto.
+
+26
 
 <!-- page 27 -->
 
@@ -1636,8 +1805,6 @@ C) Introdução à vida da personagem → Data de nascimento → Morte.
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
-28
-
 ## Unidade 2 · Uma viagem, muitas histórias
 
 **Sophia de Mello Breyner Andresen · O Cavaleiro da Dinamarca**
@@ -1658,6 +1825,8 @@ lugares desconhecidos, pessoas diferentes e talvez viver situações inesperadas
 4. Achas que regressamos iguais depois de uma grande viagem? Justifica.
 
 Prime School Press · www.primeschool.pt
+
+28
 
 <!-- page 29 -->
 
@@ -1706,14 +1875,14 @@ Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, 
 elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
 significado simbólico.
 
-29
-
 **             **
 
 1. Escreve uma frase com cada palavra do vocabulário: cavaleiro · peregrinação · aventura · regresso.
 
 2. Imagina a mala do cavaleiro: que cinco objectos levaria numa viagem a pé até Jerusalém? Justifica cada
 escolha numa frase.
+
+29
 
 <!-- page 30 -->
 
@@ -1758,11 +1927,11 @@ canções e se adoravam outros deuses.
 
 2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
-30
-
 **             **
 
 1. Copia do texto duas palavras que revelem o frio e duas que revelem o movimento do cavaleiro.
+
+30
 
 <!-- page 31 -->
 
@@ -1830,38 +1999,39 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
-## Vamos ler · O Rapaz de Bronze
+## Compreender e justificar
 
-O JARDIM QUE ACORDAVA À NOITE
+**INTERPRETAÇÃO · PRIMEIRO OLHAR**
 
-Durante o dia, o jardim parecia pertencer às pessoas. Havia árvores altas, canteiros de flores, arbustos e caminhos
-por onde os habitantes da casa passeavam. O jardineiro tratava das plantas, cortava os ramos, regava as flores e
-cuidava para que tudo estivesse sempre bonito.
+A. A viagem é também uma experiência de aprendizagem. Concordas? Justifica a tua resposta com duas
+informações do texto.
 
-Mas, quando chegava a noite, o jardim transformava-se. As flores deixavam de estar silenciosas. As plantas
-começavam a conversar umas com as outras e cada uma revelava a sua maneira de ser.
+**LER NAS ENTRELINHAS · DETECTIVE DO TEXTO**
+Nem toda a informação aparece directamente escrita. Um bom leitor consegue inferir informações a
+partir de pistas.
 
-Entre todas, havia flores que gostavam muito de falar sobre si próprias. Os gladíolos, por exemplo, sentiam-se
-importantes. Achavam que eram flores muito elegantes e não escondiam a admiração que tinham pela sua própria
-beleza.
+EXEMPLO: se o texto diz «A personagem olha demoradamente para o mar antes de partir», podemos
+inferir que está a pensar na viagem, que sente alguma emoção perante a partida e que o mar poderá ter
+importância simbólica.
 
-Os buxos, mais antigos e discretos, observavam tudo com atenção. Não gostavam muito do comportamento dos
-gladíolos e, quando estes começavam a falar das suas qualidades, ouviam-nos em silêncio.
+**EXERCÍCIOS 3**
+1. Que sentimentos da personagem consegues inferir? Que pistas do texto te permitem chegar a essa
+conclusão?
 
-Havia também outras flores, mais simples, que não procuravam chamar a atenção. Algumas cresciam perto do chão;
-outras apareciam entre as árvores ou junto dos caminhos. Cada uma tinha a sua beleza, mesmo que os gladíolos não
-a reconhecessem.
+2. A personagem parece corajosa? Justifica.
 
-O texto continua na página seguinte…
+3. O que poderá representar a viagem?
+
+**LER + INFERIR**
+
+Quando uma pergunta pede uma inferência, não basta copiar uma frase do texto. 1. Encontra a
+pista. 2. Pensa no que essa pista significa. 3. Explica a tua conclusão. Fórmula útil: pista do texto +
+interpretação = inferência.
+
+DESAFIO: reescreve a última frase do texto em tempo presente, como se estivesses a ver o cavaleiro ao
+longe.
 
 32
-
-**TEXTO LITERÁRIO 2 · SOPHIA DE MELLO BREYNER ANDRESEN · ADAPTADO**
-
-**ENQUANTO LÊS· OBSERVA**
-· Sublinha, no texto, três verbos no pretérito imperfeito · que retratam o jardim de noite.
-
-· Rodeia o adjectivo que melhor descreve os gladíolos e os buxos.
 
 <!-- page 33 -->
 
@@ -1870,32 +2040,302 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
-## Vamos ler · O Rapaz de Bronze (continuação)
+## Personagem, espaço e tempo
 
-**TEXTO LITERÁRIO 2 · CONTINUAÇÃO**
+**ANÁLISE · PERFIL DA PERSONAGEM**
 
-No centro daquele universo existia uma figura muito especial: um rapaz feito de bronze. Durante o dia, permanecia
-imóvel, como qualquer estátua. À noite, porém, tornava-se uma presença viva no jardim. Era respeitado pelas plantas e
-pelas flores e conhecia todos os segredos daquele lugar.
+**QUEM? · PREENCHE O PERFIL DA PERSONAGEM PRINCIPAL**
 
-Certa noite, o jardim parecia particularmente animado. As flores conversavam sobre uma festa e sobre aquilo que
-poderia acontecer quando todos se reunissem.
+Nome:
 
-Os gladíolos estavam entusiasmados. Queriam que a festa fosse magnífica e desejavam que todos reparassem
-neles.
+Idade aproximada:
+Características físicas:
 
-Mas havia uma questão que ainda precisava de ser resolvida: era necessário pedir autorização ao Rapaz de Bronze.
+Características psicológicas:
 
-E, quando a noite ficou mais escura, as flores começaram a preparar-se para descobrir se a festa poderia realmente
-acontecer.
+Objectivo:
 
-**ENQUANTO LÊS· OBSERVA**
-• Que flores gostam de falar de si próprias?
-• Como é o Rapaz de Bronze de dia? E de noite?
+Principal dificuldade:
+
+**ONDE? · OS ESPAÇOS DA NARRATIVA**
+Identifica os espaços referidos no texto. Depois explica como contribui o espaço para criar o ambiente
+da narrativa.
+
+**QUANDO? · A ÉPOCA DA NARRATIVA**
+Retira do texto duas informações que permitam situar temporalmente a narrativa.
+
+**                   **
+
+Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
+andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
+sentimento e uma com um objectivo.
 
 33
 
 <!-- page 34 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Palavras em viagem
+
+**VOCABULÁRIO**
+
+**1. RELACIONA CADA PALAVRA COM O SIGNIFICADO**
+
+**Palavra**
+**Significado**
+
+1. peregrino
+(escreve a letra)
+
+2. jornada
+(escreve a letra)
+
+3. destino
+(escreve a letra)
+
+4. travessia
+(escreve a letra)
+
+a.
+caminho ou percurso
+
+b.
+pessoa que faz uma peregrinação
+
+c.
+lugar para onde alguém se dirige
+
+d.
+passagem de um lugar para outro
+
+**2. FAMÍLIA DE PALAVRAS · COMPLETA**
+viajar · viagem · ________________
+
+partir · partida · ________________
+
+regressar · regresso · ________________
+
+**3. SINÓNIMOS · PROCURA NO TEXTO OU NO DICIONÁRIO**
+corajoso ·
+
+caminho ·
+
+difícil ·
+
+feliz ·
+
+**DESAFIO CRIATIVO**
+Escreve uma frase de viagem que use três palavras desta página (ex.: «O peregrino iniciou a longa travessia»).
+Sublinha-as.
+
+**VOCABULÁRIO EM ACÇÃO**
+
+34
+
+<!-- page 35 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Gramática – Os tempos verbais na narrativa
+
+**GRAMÁTICA EM CONTEXTO**
+
+Os verbos são fundamentais numa narrativa porque permitem apresentar acções, acontecimentos
+e estados. Observa:
+
+**O cavaleiro partiu.  ·  Durante a viagem, encontrou diferentes pessoas.**
+
+**Quando chegou, descobriu novas realidades.**
+
+Os verbos destacados estão no pretérito perfeito do indicativo.
+
+**RELEMBRA**
+
+O pretérito perfeito do indicativo apresenta, geralmente, uma acção passada e concluída.
+
+**EXERCÍCIOS 4**
+1. Retira do texto três verbos no pretérito perfeito e dois no pretérito imperfeito.
+
+Pretérito perfeito:
+
+Pretérito imperfeito:
+2. Completa as frases:
+
+Quando era criança, o cavaleiro
+
+Um dia,
+
+Durante a viagem,
+
+3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
+pretérito imperfeito.
+
+**             **
+
+Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
+perfeito (acções). Sublinha os verbos.
+
+35
+
+<!-- page 36 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Pretérito perfeito ou imperfeito?
+
+**GRAMÁTICA · DUAS FORMAS DE CONTAR O PASSADO**
+
+Compara:
+
+**O cavaleiro caminhava pela floresta.  (imperfeito)**
+
+**O cavaleiro encontrou um viajante.  (perfeito)**
+
+**PRETÉRITO IMPERFEITO**
+
+• descrever;
+• apresentar situações habituais;
+• indicar acções em desenvolvimento.
+
+**PRETÉRITO PERFEITO**
+
+• apresentar acontecimentos concluídos;
+• fazer avançar a acção.
+
+**EXERCÍCIOS 5**
+Completa o texto com os verbos adequados (imperfeito ou perfeito).
+
+A noite ______ (estar) fria e o cavaleiro ______ (caminhar) lentamente.
+
+De repente, ______ (ouvir) um ruído. ______ (parar) e
+
+______ (olhar) à sua volta.
+
+Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
+
+**                   **
+
+«A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
+usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
+
+36
+
+<!-- page 37 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## A viagem como símbolo
+
+**INTERPRETAÇÃO · MAIS DO QUE UMA VIAGEM**
+
+Uma viagem pode representar:
+
+**crescimento**
+**descoberta**
+**coragem**
+**conhecimento**
+**transformação**
+
+Na narrativa, a viagem pode transformar a personagem. Completa:
+
+No início da história, a personagem é
+
+Durante a viagem, aprende
+
+No final, percebe
+
+**EXERCÍCIOS 8**
+QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
+mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
+
+**                   **
+
+Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
+objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
+representa o cansaço porque…»
+
+37
+
+<!-- page 38 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · O Rapaz de Bronze
+
+**TEXTO LITERÁRIO · SOPHIA DE M. BREYNER ANDRESEN · ADAPTADO**
+**O JARDIM QUE ACORDAVA À NOITE**
+
+Durante o dia, o jardim parecia pertencer às pessoas. Havia árvores altas, canteiros de flores, arbustos e
+
+caminhos por onde os habitantes da casa passeavam. O jardineiro tratava das plantas, cortava os ramos,
+
+regava as flores e cuidava para que tudo estivesse sempre bonito.
+
+Mas, quando chegava a noite, o jardim transformava-se. As flores deixavam de estar silenciosas. As plantas
+
+começavam a conversar umas com as outras e cada uma revelava a sua maneira de ser.
+
+Entre todas, havia flores que gostavam muito de falar sobre si próprias. Os gladíolos, por exemplo, sentiam-se
+
+importantes. Achavam que eram flores muito elegantes e não escondiam a admiração que tinham pela sua
+
+própria beleza.
+
+Os buxos, mais antigos e discretos, observavam tudo com atenção. Não gostavam muito do comportamento
+
+dos gladíolos e, quando estes começavam a falar das suas qualidades, ouviam-nos em silêncio.
+
+Havia também outras flores, mais simples, que não procuravam chamar a atenção. Algumas cresciam perto
+
+do chão; outras apareciam entre as árvores ou junto dos caminhos. Cada uma tinha a sua beleza, mesmo que
+
+os gladíolos não a reconhecessem.
+
+No centro daquele universo existia uma figura muito especial: um rapaz feito de bronze. Durante o dia,
+
+permanecia imóvel, como qualquer estátua. À noite, porém, tornava-se uma presença viva no jardim. Era
+
+respeitado pelas plantas e pelas flores e conhecia todos os segredos daquele lugar.
+
+Certa noite, o jardim parecia particularmente animado. As flores conversavam sobre uma festa e sobre aquilo
+
+que poderia acontecer quando todos se reunissem.
+
+Os gladíolos estavam entusiasmados. Queriam que a festa fosse magnífica e desejavam que todos
+
+reparassem neles.
+
+Mas havia uma questão que ainda precisava de ser resolvida: era necessário pedir autorização ao Rapaz de
+
+Bronze. E, quando a noite ficou mais escura, as flores começaram a preparar-se para descobrir se a festa
+
+poderia realmente acontecer.
+
+**ENQUANTO LÊS · OBSERVA**
+
+• Sublinha, no texto, três verbos no pretérito imperfeito que retratam o jardim de noite.
+• Rodeia o adjectivo que melhor descreve os gladíolos e os buxos.
+• Que flores gostam de falar de si próprias? Como é o Rapaz de Bronze de dia? E de noite?
+
+38
+
+<!-- page 39 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1938,11 +2378,11 @@ O Rapaz de Bronze é uma figura importante no jardim.
 
 As flores estão a preparar uma festa.
 
-34
-
 Corrige as afirmações falsas.
 
-<!-- page 35 -->
+39
+
+<!-- page 40 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -1968,9 +2408,71 @@ festa. Como se chama este recurso?
 
 Explica pelas tuas palavras e encontra no texto duas acções humanas atribuídas às flores.
 
-35
+40
 
-<!-- page 36 -->
+<!-- page 41 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · A Floresta
+
+**TEXTO LITERÁRIO · SOPHIA DE M. BREYNER ANDRESEN · ADAPTADO**
+**ISABEL E A QUINTA**
+
+Isabel tinha onze anos e vivia numa quinta situada nos arredores de uma cidade.
+
+A quinta era grande e bonita. Estava rodeada por muros e dentro dela havia árvores, jardins, fontes, lagos e
+
+muitos caminhos. Em cada estação do ano, o lugar parecia mudar.
+
+Na primavera, surgiam novas cores nos jardins. No verão, os dias eram longos e luminosos. No outono, as
+
+folhas começavam a mudar de cor e cobriam os caminhos. No inverno, a quinta parecia mais silenciosa e
+
+misteriosa.
+
+Isabel gostava muito daquele lugar. Entre todos os espaços da quinta, havia um que despertava
+
+especialmente a sua curiosidade: a floresta.
+
+Desde pequena que Isabel gostava de imaginar que nela poderiam viver seres fantásticos. Tinha uma
+
+preferência especial pelos anões. Durante muito tempo procurara um.
+
+Quando era mais pequena, espreitava atrás das árvores, procurava junto das pedras e observava
+
+atentamente os buracos existentes no chão. Esperava encontrar, a qualquer momento, uma pequena porta ou
+
+uma casa escondida.
+
+Nunca encontrara nenhum anão. Por isso, pouco a pouco, começou a pensar que talvez eles não existissem.
+
+Mesmo assim, não abandonou completamente a esperança.
+
+Certa tarde de Outubro, Isabel caminhou até à floresta. O lugar estava tranquilo. Entre as árvores encontrou
+
+um enorme carvalho cujas raízes formavam pequenos espaços semelhantes a grutas.
+
+Isabel ficou a observar aquelas raízes. Teve então uma ideia: talvez aquele fosse o lugar perfeito para
+
+construir uma casa para um anão.
+
+Começou a imaginar como seria a pequena casa: onde ficaria a porta, onde poderia existir uma cama e como
+
+seria o espaço onde o seu habitante viveria.
+
+Naquele momento, a floresta deixou de ser apenas uma floresta. Para Isabel, transformou-se num lugar onde
+
+alguma coisa extraordinária poderia acontecer.
+
+**ENQUANTO LÊS · OBSERVA**
+
+41
+
+<!-- page 42 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2005,75 +2507,9 @@ Porque é importante a mudança do dia para a noite neste texto?
 Imagina que uma das flores do jardim decide escrever uma carta ao Rapaz de Bronze a pedir autorizaçãopara a festa.
 Escreve 80 a 100 palavras, com saudação, pedido argumentado e despedida.
 
-36
+42
 
-<!-- page 37 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-## Vamos ler · A Floresta
-
-**TEXTO LITERÁRIO 3 · SOPHIA DE MELLO BREYNER ANDRESEN · ADAPTADO**
-
-ISABEL E A QUINTA
-
-Isabel tinha onze anos e vivia numa quinta situada nos arredores de uma cidade.
-
-A quinta era grande e bonita. Estava rodeada por muros e dentro dela havia árvores, jardins, fontes, lagos e muitos
-caminhos. Em cada estação do ano, o lugar parecia mudar.
-
-Na primavera, surgiam novas cores nos jardins. No verão, os dias eram longos e luminosos. No outono, as folhas
-começavam a mudar de cor e cobriam os caminhos. No inverno, a quinta parecia mais silenciosa e misteriosa.
-
-Isabel gostava muito daquele lugar. Entre todos os espaços da quinta, havia um que despertava especialmente a sua
-curiosidade: a floresta.
-
-Desde pequena que Isabel gostava de imaginar que nela poderiam viver seres fantásticos. Tinha uma preferência
-especial pelos anões. Durante muito tempo procurara um.
-
-O texto continua na página seguinte…
-
-37
-
-<!-- page 38 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-## Vamos ler · A Floresta (continuação)
-
-**TEXTO LITERÁRIO 3 · CONTINUAÇÃO**
-
-Quando era mais pequena, espreitava atrás das árvores, procurava junto das pedras e observava atentamente os
-buracos existentes no chão. Esperava encontrar, a qualquer momento, uma pequena porta ou uma casa escondida.
-
-Nunca encontrara nenhum anão. Por isso, pouco a pouco, começou a pensar que talvez eles não existissem. Mesmo
-assim, não abandonou completamente a esperança.
-
-Certa tarde de Outubro, Isabel caminhou até à floresta. O lugar estava tranquilo. Entre as árvores encontrou um
-enorme carvalho cujas raízes formavam pequenos espaços semelhantes a grutas.
-
-Isabel ficou a observar aquelas raízes. Teve então uma ideia: talvez aquele fosse o lugar perfeito para construir uma
-casa para um anão.
-
-Começou a imaginar como seria a pequena casa: onde ficaria a porta, onde poderia existir uma cama e como seria o
-espaço onde o seu habitante viveria.
-
-Naquele momento, a floresta deixou de ser apenas uma floresta. Para Isabel, transformou-se num lugar onde
-alguma coisa extraordinária poderia acontecer.
-
-**ENQUANTO LÊS· OBSERVA**
-• Que épocas do ano são descritas?
-• O que muda na floresta no final do texto?
-
-38
-
-<!-- page 39 -->
+<!-- page 43 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2105,11 +2541,12 @@ Verão
 Outono
 
 Inverno
-Porque é que a autora apresenta as quatro estações?
 
-39
+Porque é que a autora apresenta as quatro estações? O que isso mostra sobre a quinta?
 
-<!-- page 40 -->
+43
+
+<!-- page 44 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2136,9 +2573,9 @@ Porque…
 Antes de Isabel entrar na floresta, imagina: o que vê?O que ouve? O que sente? Que cheiro sente? Porque pode uma
 floresta ser um espaço perfeito para uma história fantástica?
 
-40
+44
 
-<!-- page 41 -->
+<!-- page 45 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2183,9 +2620,9 @@ Existe um carvalho.
 
 Em que momento começa a surgir a possibilidade de entrar no mundo fantástico?
 
-41
+45
 
-<!-- page 42 -->
+<!-- page 46 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2209,9 +2646,9 @@ Substitui: «Isabel ficou a observar aquelas raízes.» → Isabel ficou a _____
 A floresta pelos olhos de Isabel: escreve uma descriçãode 100-120 palavras com elementos da natureza, cores, sons,
 sensações, pelo menos três adjectivos e uma comparação. Dica: não escrevas «a floresta era bonita» — mostra porquê.
 
-42
+46
 
-<!-- page 43 -->
+<!-- page 47 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2254,50 +2691,892 @@ personagens do jardim.
 Nome: ____________________ Personalidade: ____________________
 Desejo: ____________________ Medo: ____________________ Segredo: ____________________
 
-43
+47
 
-<!-- page 44 -->
+<!-- page 48 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
-## Compreender e justificar
+## Conhece a autora – Maria Alberta Menéres
 
-**INTERPRETAÇÃO · PRIMEIRO OLHAR**
+**LITERATURA · A AUTORA**
 
-A. A viagem é também uma experiência de aprendizagem. Concordas? Justifica a tua resposta com duas
-informações do texto.
+A viagem de Ulisses (ilustração).
 
-**LER NAS ENTRELINHAS · DETECTIVE DO TEXTO**
-Nem toda a informação aparece directamente escrita. Um bom leitor consegue inferir informações a
-partir de pistas.
+Maria Alberta Menéres foi uma das mais importantes escritoras portuguesas de
+literatura para crianças e jovens. Nasceu em Vila Nova de Gaia, em 1930, e morreu
+em 2019. Foi professora, escritora, poetisa e autora de numerosos livros
+destinados a crianças e jovens.
 
-EXEMPLO: se o texto diz «A personagem olha demoradamente para o mar antes de partir», podemos
-inferir que está a pensar na viagem, que sente alguma emoção perante a partida e que o mar poderá ter
-importância simbólica.
+A sua escrita caracteriza-se pela imaginação, pelo humor e pela capacidade de
+transformar histórias antigas em narrativas próximas dos leitores mais novos.
 
-**EXERCÍCIOS 3**
-1. Que sentimentos da personagem consegues inferir? Que pistas do texto te permitem chegar a essa
-conclusão?
+Entre as suas obras encontra-se Ulisses, uma recriação da famosa viagem do herói grego Ulisses,
+personagem central da Odisseia, de Homero. Nesta obra, a autora apresenta aventuras, perigos,
+monstros, deuses e lugares fantásticos, mas também explora características humanas como a coragem,
+a inteligência, a curiosidade, a astúcia e a perseverança.
 
-2. A personagem parece corajosa? Justifica.
+**SABIAS QUE?**
 
-3. O que poderá representar a viagem?
+A história de Ulisses tem origem numa das grandes obras da literatura da Antiguidade: a Odisseia,
+atribuída ao poeta grego Homero. Maria Alberta Menéres recria essa história numa linguagem
+acessível aos leitores mais jovens, aproximando uma narrativa com milhares de anos do público de
+hoje.
 
-**LER + INFERIR**
+48
 
-Quando uma pergunta pede uma inferência, não basta copiar uma frase do texto. 1. Encontra a
-pista. 2. Pensa no que essa pista significa. 3. Explica a tua conclusão. Fórmula útil: pista do texto +
-interpretação = inferência.
+<!-- page 49 -->
 
-DESAFIO: reescreve a última frase do texto em tempo presente, como se estivesses a ver o cavaleiro ao
-longe.
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
-44
+Prime School Press · www.primeschool.pt
 
-<!-- page 45 -->
+## Ulisses – uma história de aventura
+
+**LITERATURA · A OBRA**
+
+Ulisses é rei de Ítaca e um dos grandes heróis da mitologia grega. Depois da guerra de Troia, inicia uma
+longa viagem de regresso à sua terra. No caminho, enfrenta tempestades, monstros, deuses e muitos
+outros perigos.
+
+Mas Ulisses não vence apenas pela força. A sua maior arma é frequentemente a inteligência. Ao longo
+da viagem, precisa de observar, pensar rapidamente e encontrar soluções para situações
+aparentemente impossíveis.
+
+Um dos episódios mais conhecidos é o encontro com Polifemo, um ciclope gigantesco que vive numa
+gruta. É neste episódio que Ulisses terá de usar a sua inteligência para salvar a sua vida e a dos seus
+companheiros.
+
+**UMA HISTÓRIA DE AVENTURA**
+
+Uma boa narrativa de aventura precisa de: conflito · viagem · perigo · personagens marcantes ·
+estratégias · suspense · consequências.
+Enquanto lês, procura estes elementos no texto.
+
+49
+
+<!-- page 50 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Ulisses – antes de ler
+
+**PRÉ-LEITURA**
+
+**Observa a imagem de Polifemo.**
+
+Imagina que estás dentro da sua gruta.
+O que esperarias encontrar?
+
+**1. O QUE SIGNIFICA SER ASTUTO?**
+
+☐  Ser muito forte.
+
+☐  Ser capaz de pensar rapidamente e encontrar soluções.
+
+☐  Ser mais rápido do que os outros.
+
+☐  Não ter medo de ninguém.
+
+**2. COMPLETA AS PREVISÕES**
+
+Ulisses poderá ter problemas porque ______________________________
+
+Polifemo parece ser perigoso porque ______________________________
+
+Para escapar, Ulisses provavelmente irá ______________________________
+
+**3. DESAFIO: força / inteligência / velocidade / coragem?**
+
+Qual seria mais importante para escapar de um gigante? Escolhe uma e justifica.
+
+50
+
+<!-- page 51 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler – Ulisses e Polifemo
+
+**TEXTO LITERÁRIO · MARIA ALBERTA MENÉRES · ADAPTADO**
+
+1  Chegados à ilha, Ulisses e os seus companheiros avistaram, no cimo de um monte, uma gruta enorme,
+
+sombreada por loureiros. Junto à entrada havia currais fechados com pedras enormes, cheios de queijos
+
+e de cordeiros. Os companheiros de Ulisses aconselharam-no a levar os queijos e os animais e a fugir
+
+depressa para o navio. Mas Ulisses quis, antes, conhecer o dono daquele lugar.
+
+2  Entraram, pois, na gruta e acenderam um fogo. Esperaram. Ao cair da tarde, o dono chegou: era um
+
+ciclope gigantesco, que só tinha um olho no meio da testa, chamado Polifemo. Trazia às costas uma
+
+carga de lenha seca, que atirou ao chão com um estrondo que fez tremer a caverna. Aterrados, os
+
+companheiros de Ulisses esconderam-se nos cantos mais escuros.
+
+3  Polifemo ordenou aos animais que entrassem e tamponou a entrada da gruta com uma pedra tão grande
+
+que vinte carros não a teriam conseguido mover. Depois, ordenhou as ovelhas e fez o seu jantar. Foi
+
+então que viu os homens. «Quem sois?», rugiu. Ninguém respondeu. «Respondei, ou não saireis vivos
+
+daqui!»
+
+4  Ulisses, com a voz firme, disse: «Somos gregos, vindos de Troia. Viemos pedir a tua hospitalidade. Tem
+
+piedade de nós, que os deuses castigam quem não respeita os viajantes.»
+
+5  Polifemo riu-se. «Os ciclopes não têm lei nem temor dos deuses.» E, num gesto de fúria, agarrou em dois
+
+companheiros de Ulisses e, como se fossem cachorros, bateu-lhes as cabeças nas pedras e devorou-os.
+
+6  Durante toda a noite, Ulisses pensou. Não podia matar o gigante adormecido, porque ninguém, sozinho,
+
+conseguiria remover a pedra da entrada. Precisava de um plano. Ao amanhecer, viu o gigante sair com
+
+os rebanhos e voltou a tapar a entrada. Então, com os seus homens, preparou a armadilha: cortou um
+
+tronco de oliveira, aguilhou-o na ponta e endureceu-o ao fogo.
+
+7  Quando Polifemo regressou, à tarde, Ulisses ofereceu-lhe vinho. O gigante bebeu três vezes e,
+
+entusiasmado, perguntou: «Diz-me o teu nome, estrangeiro, e eu dar-te-ei uma recompensa.» «O meu
+
+nome é Ninguém», respondeu Ulisses. «Ninguém será o último a ser devorado, prometo.»
+
+8  O vinho, generoso, fez o sono do gigante. Então, Ulisses e quatro companheiros espetaram no seu único
+
+olho o madeiro ardente, e giraram-no como uma broca. Polifemo despertou com um urro que fez tremer
+
+a ilha, e arrancou do olho o tronco aceso.
+
+9  Os ciclopes, vizinhos, acudiram de todas as partes e gritaram de fora da gruta: «Polifemo, quem te
+
+magoa?» «Ninguém me mata! Ninguém me engana!», uivava ele. «Se ninguém te faz mal», disseram os
+
+ciclopes, «então estás doente e a dor não se cura.» E foram-se embora, resmungando.
+
+10 Ulisses e os seus homens, porém, amarraram-se por baixo dos carneiros mais corpulentos. Quando a
+
+manhã abriu a entrada, os animais saíram um a um, e Polifemo, cego, apalpava o dorso de cada um, sem
+
+sentir os homens pendurados. Assim escaparam para o navio. E, já no mar, Ulisses gritou, vaidoso: «Se
+
+alguém te perguntar quem te cegou, responde que foi Ulisses, o saqueador de cidades!» E deste modo,
+
+por não saber calar, atraiu sobre si novas desgraças.
+
+(Adaptado de Maria Alberta Menéres, Ulisses, episódio de Polifemo.)
+
+**ENQUANTO LÊS · OBSERVA**
+
+• Sublinha três expressões que mostrem a força de Polifemo.
+• Numera mentalmente as etapas do plano de Ulisses.
+
+51
+
+<!-- page 52 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Exercícios – Ulisses e Polifemo
+
+**COMPREENSÃO DO TEXTO**
+
+**EXERCÍCIO 1 · RESPONDE DE FORMA COMPLETA**
+
+1. Onde se encontram Ulisses e os seus companheiros? Por que razão entram naquele lugar?
+
+2. Quem é Polifemo? Que características o tornam uma personagem ameaçadora?
+
+3. O que acontece quando Polifemo descobre a presença dos marinheiros?
+
+4. Como reage Ulisses perante o perigo? Que estratégia utiliza para escapar?
+
+5. Por que razão a estratégia depende mais da inteligência do que da força?
+
+6. O que acontece quando os outros ciclopes ouvem os gritos de Polifemo?
+
+7. Por que razão não compreendem aquilo que Polifemo está a tentar explicar?
+
+52
+
+<!-- page 53 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Exercícios – Ulisses e Polifemo
+
+**COMPREENSÃO DO TEXTO**
+
+**EXERCÍCIO 2 · RECONSTITUI A ACÇÃO**
+
+Ordena os acontecimentos de 1 a 6:
+
+___ Ulisses e os seus companheiros entram na gruta.
+
+___ Polifemo descobre a presença dos estrangeiros.
+
+___ Ulisses pensa numa estratégia.
+
+___ Polifemo pede ajuda aos outros ciclopes.
+
+___ Os outros ciclopes interpretam mal as palavras de Polifemo.
+
+___ Ulisses consegue concretizar o seu plano.
+
+**EXERCÍCIO 3 · VERDADEIRO OU FALSO**
+
+**Afirmação**
+**V**
+**F**
+
+Ulisses viaja acompanhado por outros marinheiros.
+☐
+☐
+
+Polifemo é uma personagem humana.
+☐
+☐
+
+A gruta constitui um espaço importante da acção.
+☐
+☐
+
+Ulisses enfrenta Polifemo apenas através da força física.
+☐
+☐
+
+Polifemo pede ajuda aos outros ciclopes.
+☐
+☐
+
+Os outros ciclopes compreendem imediatamente o que Polifemo quer dizer.
+☐
+☐
+
+Existe um equívoco provocado pelas palavras de Ulisses.
+☐
+☐
+
+A inteligência de Ulisses desempenha um papel fundamental na fuga.
+☐
+☐
+
+No final, o perigo desaparece imediatamente para todos.
+☐
+☐
+
+Corrige as afirmações falsas.
+
+53
+
+<!-- page 54 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Exercícios – Ulisses e Polifemo
+
+**ESCOLHA MÚLTIPLA**
+
+1. O principal conflito do excerto resulta...
+
+☐  A. da discussão entre os marinheiros.
+
+☐  B. do encontro entre Ulisses e Polifemo.
+
+☐  C. da tempestade no mar.
+
+☐  D. da discussão entre os ciclopes.
+
+2. Ulisses destaca-se sobretudo pela sua...
+
+☐  A. força.
+
+☐  B. velocidade.
+
+☐  C. astúcia.
+
+☐  D. autoridade.
+
+3. A situação de Polifemo torna-se particularmente cómica porque...
+
+☐  A. ele não consegue encontrar a saída da gruta.
+
+☐  B. os outros ciclopes interpretam as suas palavras de forma diferente daquilo que ele pretendia.
+
+☐  C. Ulisses começa a rir.
+
+☐  D. os marinheiros fogem antes de ele os encontrar.
+
+4. O episódio decorre predominantemente...
+
+☐  A. num palácio.
+
+☐  B. numa floresta.
+
+☐  C. numa gruta.
+
+☐  D. num navio.
+
+5. O narrador apresenta os acontecimentos...
+
+☐  A. na primeira pessoa.
+
+☐  B. na terceira pessoa.
+
+☐  C. através de cartas.
+
+☐  D. através de diálogos exclusivamente.
+
+6. O suspense resulta principalmente...
+
+☐  A. da ausência de personagens.
+
+☐  B. do perigo enfrentado pelos marinheiros.
+
+☐  C. da descrição da paisagem.
+
+☐  D. da viagem de regresso a Ítaca.
+
+54
+
+<!-- page 55 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Ler nas entrelinhas – Ulisses
+
+**EXPLÍCITO E IMPLÍCITO**
+
+**EXERCÍCIO 4 · INFORMAÇÃO EXPLÍCITA**
+
+Retira do texto informações que comprovem:
+
+• Polifemo é fisicamente poderoso.
+
+• Ulisses é responsável pela estratégia de fuga.
+
+• Os outros ciclopes não percebem a mensagem de Polifemo.
+
+**EXERCÍCIO 5 · AGORA, INFERIR**
+
+1. Por que razão Ulisses não enfrenta Polifemo directamente?
+
+2. O que podemos concluir sobre a personalidade de Ulisses?
+
+3. Por que razão o mal-entendido é essencial para a fuga?
+
+4. O que revela a reacção de Polifemo sobre o seu estado emocional?
+
+**FÓRMULA: IDEIA + PROVA DO TEXTO + EXPLICAÇÃO.**
+
+55
+
+<!-- page 56 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Caracterização das personagens
+
+**PERSONAGENS**
+
+**EXERCÍCIO 6 · POLIFEMO**
+
+Seleciona as características adequadas: gigantesco · astuto · impulsivo · assustador · ingénuo · agressivo
+· inteligente · vulnerável
+
+Escolhe quatro e justifica duas com elementos do texto.
+
+**EXERCÍCIO 7 · ULISSES**
+
+Seleciona: corajoso · estratega · impulsivo · inteligente · observador · determinado · ingénuo · astuto
+
+Escolhe quatro e justifica duas.
+
+**EXERCÍCIO 8 · CARACTERIZAÇÃO DIREITA E INDIRECTA**
+
+**Personagem**
+**Característica**
+**Como percebemos?**
+
+Ulisses
+
+Ulisses
+
+Polifemo
+
+Polifemo
+
+**PENSA**
+
+Polifemo é fisicamente mais poderoso do que Ulisses. Então, por que razão Ulisses consegue
+dominá-lo? Responde no caderno com uma frase completa.
+
+56
+
+<!-- page 57 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Espaço e tempo – Ulisses
+
+**ANÁLISE DO TEXTO**
+
+**EXERCÍCIO 9 · O ESPAÇO**
+
+1. Identifica o espaço principal da acção.
+
+2. Retira do texto duas expressões que caracterizem esse espaço.
+
+3. Consideras este espaço seguro ou ameaçador? Justifica.
+
+4. Explica de que forma a gruta contribui para criar suspense.
+
+**EXERCÍCIO 10 · O TEMPO**
+
+Momento do dia: __________________________
+Duração aproximada dos acontecimentos: ____________________
+Expressão que indica passagem temporal: ______________
+
+57
+
+<!-- page 58 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vocabulário – Ulisses
+
+**PALAVRAS DO TEXTO**
+
+**EXERCÍCIO 11 · CONTEXTO**
+
+ciclope: ____________________________________
+
+astúcia: ____________________________________
+
+acudir: ____________________________________
+
+cerrada: ____________________________________
+
+retirar-se: __________________________________
+
+**EXERCÍCIO 12 · SINÓNIMOS**
+
+**Palavra**
+**Sinónimo**
+
+zangado
+
+palermas
+
+enorme
+
+perigoso
+
+**EXERCÍCIO 13 · ANTÓNIMOS**
+
+**Palavra**
+**Antónimo**
+
+entrar
+
+acordado
+
+perto
+
+forte
+
+**EXERCÍCIO 14 · EXPRESSÕES**
+
+Explica o sentido de «mau génio» e de «dor de dentes». A segunda expressão é usada pelos ciclopes
+com o seu sentido habitual ou com um sentido relacionado com a situação? Explica.
+
+58
+
+<!-- page 59 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Gramática em contexto – Ulisses
+
+**GRAMÁTICA · PRONOMES INDEFINIDOS**
+
+**EXERCÍCIO 15 · IDENTIFICA**
+
+Identifica os pronomes indefinidos:
+
+«Ninguém quer matar-me.» · «Alguns marinheiros ficaram na gruta.» · «Todos procuravam uma
+solução.» · «Nenhum dos ciclopes percebeu o plano.»
+
+**EXERCÍCIO 16 · PRONOME OU DETERMINANTE?**
+
+Ninguém apareceu. → __________________
+
+Alguns marinheiros fugiram. → __________
+
+Todos compreenderam. → _______________
+
+Alguns homens chegaram. → _____________
+
+**EXERCÍCIO 17 · VERBOS DO TEXTO**
+
+Retira do excerto: dois verbos no pretérito perfeito; dois no pretérito imperfeito; dois no presente.
+
+**EXERCÍCIO 18 · DISCURSO DIRECTO**
+
+Escolhe uma fala de Polifemo. Identifica: personagem · verbo introdutor · sinais de pontuação. Depois,
+transforma-a em discurso indirecto.
+
+59
+
+<!-- page 60 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Recursos expressivos – Ulisses
+
+**LITERÁRIO · COM O TEXTO**
+
+**EXERCÍCIO 19 · HIPÉRBOLE**
+
+Polifemo é apresentado com características que acentuam a sua dimensão e força. Explica o efeito
+dessa descrição.
+
+**EXERCÍCIO 20 · COMPARAÇÃO**
+
+Procura no excerto uma comparação. Copia a expressão necessária e identifica os elementos
+comparados e a palavra comparativa.
+
+**EXERCÍCIO 21 · HUMOR E REPETIÇÃO**
+
+O humor nasce, em grande parte, do diálogo entre Polifemo e os outros ciclopes. Explica porquê.
+
+A repetição de palavras contribui para: ☐ criar suspense · ☐ reforçar a confusão · ☐ tornar a situação
+mais cómica · ☐ caracterizar uma personagem. Podes escolher mais do que uma. Justifica.
+
+60
+
+<!-- page 61 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Educação literária – a aventura
+
+**EDUCAÇÃO LITERÁRIA**
+
+**EXERCÍCIO 22 · A NARRATIVA DE AVENTURA**
+
+Encontra exemplos no texto de: perigo · conflito · estratégia · suspense · acção.
+
+**EXERCÍCIO 23 · ESTRUTURA NARRATIVA**
+
+**Momento**
+**O que acontece no episódio**
+
+Situação inicial
+
+Conflito
+
+Desenvolvimento
+
+Clímax
+
+Desenlace
+
+**QUESTÃO LITERÁRIA**
+
+Por que razão podemos considerar Ulisses um herói diferente de um herói que vence apenas pela
+força?
+
+61
+
+<!-- page 62 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Interpretação aprofundada – Ulisses
+
+**INTERPRETAÇÃO**
+
+1. «A inteligência pode ser mais poderosa do que a força.» Explica esta afirmação relacionando-a com
+Ulisses.
+
+2. Polifemo é assustador, mas também acaba por provocar humor. Como consegue a autora criar
+simultaneamente medo e comicidade?
+
+3. O engano desempenha um papel fundamental no episódio. Consideras que o comportamento de
+Ulisses é justificável? Porquê?
+
+4. Imagina que os outros ciclopes tinham compreendido imediatamente a mensagem de Polifemo.
+Como mudaria a história?
+
+**QUESTÃO DE VALORES**
+
+Qual destas características é mais importante para ultrapassar uma situação difícil? coragem ·
+inteligência · força · trabalho de equipa. Escolhe uma e apresenta dois argumentos.
+
+62
+
+<!-- page 63 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Oficina de escrita – Ulisses
+
+**ESCRITA · RECONTAR A FUGA**
+
+Reconta o episódio do ponto de vista de um dos companheiros de Ulisses. Escreve 180 a 220 palavras.
+
+Deves: usar a primeira pessoa · incluir os acontecimentos principais · transmitir o medo da personagem ·
+incluir pelo menos um momento de diálogo · utilizar conectores temporais · descrever uma reacção
+emocional · terminar com a fuga da gruta.
+
+**BANCO DE CONECTORES**
+
+primeiro · entretanto · de repente · nesse momento · finalmente · assim que · depois · por fim
+
+63
+
+<!-- page 64 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escrita criativa – um novo monstro
+
+**ESCRITA · E SE ULISSES TIVESSE ENCONTRADO OUTRO MONSTRO?**
+
+Cria uma nova aventura. O monstro deve: viver num espaço inesperado · possuir uma característica
+extraordinária · apresentar um desafio a Ulisses · obrigar o herói a usar a inteligência. Escreve 200 a 250
+palavras.
+
+Inclui obrigatoriamente: uma descrição · diálogo · uma comparação · uma pergunta · um momento de
+suspense · uma solução inesperada.
+
+64
+
+<!-- page 65 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Debate – inteligência ou força?
+
+**ORALIDADE · DEBATE**
+
+«A inteligência é mais importante do que a força para ultrapassar dificuldades.»
+
+Prepara a tua posição: Eu concordo / discordo porque...
+
+Argumento 1: ______________________ Exemplo: ______________________
+
+Argumento 2: ______________________ Exemplo: ______________________
+
+**NO DEBATE**
+
+Deves: apresentar argumentos · ouvir opiniões diferentes · responder aos argumentos dos colegas ·
+utilizar exemplos · evitar repetir a mesma ideia.
+
+FRASES ÚTEIS: Na minha opinião... · Concordo com esta ideia porque... · Discordo parcialmente porque...
+· Um exemplo que demonstra isto é... · No entanto...
+
+65
+
+<!-- page 66 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Desafio final – escapa da gruta!
+
+**DESAFIO · EM GRUPO**
+
+Imagina que és um dos companheiros de Ulisses. O plano original falhou. Tens cinco minutos para criar
+uma nova estratégia de fuga.
+
+1. O PROBLEMA: qual é a situação?
+
+2. OS RECURSOS (escolhe apenas três): cordas · madeira · animais · fogo · tecidos · inteligência
+
+3. O PLANO: explica passo a passo (três passos).
+
+4. TESTA O PLANO: outro grupo deve tentar descobrir uma falha na tua estratégia.
+
+5. REFLECTE: o que aprendeste com Ulisses?
+
+Passo 1: ______________________________________________
+
+Passo 2: ______________________________________________
+
+Passo 3: ______________________________________________
+
+66
+
+<!-- page 67 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Autoavaliação – Ulisses
+
+**AUTOAVALIAÇÃO**
+
+**MARCA A TUA RESPOSTA**
+
+**Consigo...**
+**ὠ**
+**ὰ**
+** **
+
+identificar o conflito de uma narrativa
+☐
+☐
+☐
+
+localizar uma acção no espaço e no tempo
+☐
+☐
+☐
+
+caracterizar uma personagem
+☐
+☐
+☐
+
+distinguir informação explícita de inferência
+☐
+☐
+☐
+
+reconhecer recursos expressivos
+☐
+☐
+☐
+
+identificar pronomes indefinidos
+☐
+☐
+☐
+
+reconhecer características da narrativa de aventura
+☐
+☐
+☐
+
+justificar uma interpretação
+☐
+☐
+☐
+
+escrever uma narrativa coerente
+☐
+☐
+☐
+
+defender uma opinião num debate
+☐
+☐
+☐
+
+A minha maior descoberta nesta unidade foi...
+
+A competência que preciso de melhorar é...
+
+Na próxima unidade vou tentar...
+
+67
+
+<!-- page 68 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Passaporte literário – Ulisses
+
+**REGISTO DE LEITURA**
+
+Obra: Ulisses
+
+Autora: Maria Alberta Menéres
+
+Episódio: Ulisses e Polifemo
+
+A personagem que mais me marcou: ______________________
+
+A característica mais importante de Ulisses: ______________
+
+Polifemo em três palavras: ________ · ________ · ________
+
+A estratégia de Ulisses, em poucas palavras: ______________
+
+O que aprendi com esta aventura: ________________________________
+
+**A MINHA FRASE**
+
+«Depois de conhecer a aventura de Ulisses, percebi que...»
+
+68
+
+<!-- page 69 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2359,210 +3638,9 @@ a situação é resolvida ou transformada
 
 Quando leres uma narrativa, pergunta primeiro: Quem? Onde? Quando? O quê? Porquê?
 
-45
+69
 
-<!-- page 46 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-## Personagem, espaço e tempo
-
-**ANÁLISE · PERFIL DA PERSONAGEM**
-
-**QUEM? · PREENCHE O PERFIL DA PERSONAGEM PRINCIPAL**
-
-Nome:
-
-Idade aproximada:
-Características físicas:
-
-Características psicológicas:
-
-Objectivo:
-
-Principal dificuldade:
-
-**ONDE? · OS ESPAÇOS DA NARRATIVA**
-Identifica os espaços referidos no texto. Depois explica como contribui o espaço para criar o ambiente
-da narrativa.
-
-**QUANDO? · A ÉPOCA DA NARRATIVA**
-Retira do texto duas informações que permitam situar temporalmente a narrativa.
-
-**                   **
-
-Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
-andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
-sentimento e uma com um objectivo.
-
-46
-
-<!-- page 47 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-in
-
-ge
-
-t
-
-## Palavras em viagem
-
-**VOCABULÁRIO**
-
-**1. RELACIONA CADA PALAVRA COM O SIGNIFICADO**
-
-**Palavra**
-**Significado**
-
-1. peregrino
-(escreve a letra)
-
-2. jornada
-(escreve a letra)
-
-3. destino
-(escreve a letra)
-
-4. travessia
-(escreve a letra)
-
-a.
-caminho ou percurso
-
-b.
-pessoa que faz uma peregrinação
-
-c.
-lugar para onde alguém se dirige
-
-d.
-passagem de um lugar para outro
-
-**2. FAMÍLIA DE PALAVRAS · COMPLETA**
-viajar · viagem · ________________
-
-partir · partida · ________________
-
-regressar · regresso · ________________
-
-**3. SINÓNIMOS · PROCURA NO TEXTO OU NO DICIONÁRIO**
-corajoso ·
-
-caminho ·
-
-difícil ·
-
-feliz ·
-
-**DESAFIO CRIATIVO**
-Escreve uma frase de viagem que use três palavras desta página (ex.: «O peregrino iniciou a longa travessia»).
-Sublinha-as.
-
-47
-
-<!-- page 48 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-## Gramática – Os tempos verbais na narrativa
-
-**GRAMÁTICA EM CONTEXTO**
-
-Os verbos são fundamentais numa narrativa porque permitem apresentar acções, acontecimentos
-e estados. Observa:
-
-**O cavaleiro partiu.  ·  Durante a viagem, encontrou diferentes pessoas.**
-
-**Quando chegou, descobriu novas realidades.**
-
-Os verbos destacados estão no pretérito perfeito do indicativo.
-
-**RELEMBRA**
-
-O pretérito perfeito do indicativo apresenta, geralmente, uma acção passada e concluída.
-
-**EXERCÍCIOS 4**
-1. Retira do texto três verbos no pretérito perfeito e dois no pretérito imperfeito.
-
-Pretérito perfeito:
-
-Pretérito imperfeito:
-2. Completa as frases:
-
-Quando era criança, o cavaleiro
-
-Um dia,
-
-Durante a viagem,
-
-3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
-pretérito imperfeito.
-
-**             **
-
-Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
-perfeito (acções). Sublinha os verbos.
-
-48
-
-<!-- page 49 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-## Pretérito perfeito ou imperfeito?
-
-**GRAMÁTICA · DUAS FORMAS DE CONTAR O PASSADO**
-
-Compara:
-
-**O cavaleiro caminhava pela floresta.  (imperfeito)**
-
-**O cavaleiro encontrou um viajante.  (perfeito)**
-
-**PRETÉRITO IMPERFEITO**
-
-• descrever;
-• apresentar situações habituais;
-• indicar acções em desenvolvimento.
-
-**PRETÉRITO PERFEITO**
-
-• apresentar acontecimentos concluídos;
-• fazer avançar a acção.
-
-**EXERCÍCIOS 5**
-Completa o texto com os verbos adequados (imperfeito ou perfeito).
-
-A noite ______ (estar) fria e o cavaleiro ______ (caminhar) lentamente.
-
-De repente, ______ (ouvir) um ruído. ______ (parar) e
-
-______ (olhar) à sua volta.
-
-Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
-
-**                   **
-
-«A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
-usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
-
-49
-
-<!-- page 50 -->
+<!-- page 70 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2601,9 +3679,9 @@ que ajudem o leitor a imaginar o lugar.
 Descreve agora um lugar que conheças bem (o teu quarto, a rua da escola, a casa dos avós) em 5-6
 linhas, com os mesmos requisitos: três adjectivos, um som, a luz e uma comparação.
 
-50
+70
 
-<!-- page 51 -->
+<!-- page 71 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2644,48 +3722,9 @@ travessão (—) quando a personagem fala dentro da narração.
 Transforma uma cena do teu dia-a-dia (o pequeno-almoço, o recreio, o autocarro) num mini-diálogo teatral
 de 6 falas, com duas didascálias.
 
-51
+71
 
-<!-- page 52 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-
-Prime School Press · www.primeschool.pt
-
-## A viagem como símbolo
-
-**INTERPRETAÇÃO · MAIS DO QUE UMA VIAGEM**
-
-Uma viagem pode representar:
-
-**crescimento**
-**descoberta**
-**coragem**
-**conhecimento**
-**transformação**
-
-Na narrativa, a viagem pode transformar a personagem. Completa:
-
-No início da história, a personagem é
-
-Durante a viagem, aprende
-
-No final, percebe
-
-**EXERCÍCIOS 8**
-QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
-mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
-
-**                   **
-
-Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
-objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
-representa o cansaço porque…»
-
-52
-
-<!-- page 53 -->
+<!-- page 72 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2722,9 +3761,9 @@ tempo para explicar como lá chegaste.
 
 ## Laboratório de Escrita · a tua viagem
 
-53
+72
 
-<!-- page 54 -->
+<!-- page 73 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2769,9 +3808,9 @@ finalmente.
 
 ## Caixa de ferramentas do escritor
 
-54
+73
 
-<!-- page 55 -->
+<!-- page 74 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2809,9 +3848,9 @@ Grava, com o telemóvel de um colega, um «podcast de viajante» de 1 minuto: de
 imaginária mais incrível que farias, com início, peripécia e regresso. Depois ouve a gravação e avalia: falei
 devagar? usei conectores?
 
-55
+74
 
-<!-- page 56 -->
+<!-- page 75 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2848,9 +3887,9 @@ O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 Escreve uma frase-poema para cada etapa do teu mapa: a partida, o obstáculo e o regresso. Junta as três
 frases: tens um mini-poema de viagem!
 
-56
+75
 
-<!-- page 57 -->
+<!-- page 76 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2879,9 +3918,9 @@ crescimento · descoberta · coragem · conhecimento · transformação
 Uma frase para levar contigo: as grandes viagens não mudam apenas o lugar onde estamos. Podem
 mudar a forma como vemos o mundo.
 
-57
+76
 
-<!-- page 58 -->
+<!-- page 77 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2923,9 +3962,9 @@ e pergunta-lhe o que ele aprendeu com a dele. Usa pelo menos dois tempos verbais
 
 ## Balanço da unidade · missão cumprida?
 
-58
+77
 
-<!-- page 59 -->
+<!-- page 78 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -2973,9 +4012,9 @@ A minha classificação:
 As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma como vemos o
 mundo.
 
-59
+78
 
-<!-- page 60 -->
+<!-- page 79 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -3005,610 +4044,854 @@ difícil.
 Escreve um parágrafo (60-80 palavras) em que descrevas o momento em que o cavaleiro decide partir.
 Usa dois verbos no imperfeito e dois no perfeito.
 
-60
+79
 
-<!-- page 61 -->
+<!-- page 80 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Unidade 3 – O Palco à Espera
+## Unidade 3 · O Palco à Espera
 
-**Almeida Garrett · Frei Luís de Sousa**
+**Luísa Ducla Soares · Gulliver em Portugal**
+
+[palco]
+
+**PARA PENSAR**
+
+E se um gigante chegasse a Portugal? O que é que ele veria de diferente em nós · e nós nele?
+
+ORALIDADE · ler em voz alta como um actor, debate.
+LEITURA · o texto dramático: acto, cena, fala, didascália.
+EDUCAÇÃO LITERÁRIA · Luísa Ducla Soares e Gulliver em Portugal.
+ESCRITA · entrevista e cena de teatro.
+GRAMÁTICA · frases simples e complexas, em contexto.
+
+**ANTES DE LER**
+1. Conheces o Gulliver? O que sabes das suas viagens?
+2. Imagina que um personagem gigante chega à tua cidade: que surpresas o esperam?
+3. O que é preciso para transformar um texto escrito num espectáculo?
+
+80
+
+<!-- page 81 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Conhece a autora – Luísa Ducla Soares
+
+**LITERATURA · A AUTORA**
+
+Lisboa, cenário da história (ilustração).
+
+Luísa Ducla Soares nasceu em Lisboa, em 1939, e é uma das mais importantes
+escritoras portuguesas para crianças e jovens. Ao longo da sua carreira, escreveu
+poesia, contos, teatro e muitos outros textos. A sua obra caracteriza-se pelo
+humor, pela criatividade, pelo gosto pelas palavras e pela capacidade de
+transformar situações conhecidas em histórias surpreendentes.
+
+A autora também gosta de recuperar personagens e histórias da literatura universal, dando-lhes
+novos caminhos e aproximando-as dos leitores portugueses. É isso que acontece em As Viagens
+de Gulliver com Escala em Portugal: a personagem Gulliver faz uma nova viagem e chega a
+Portugal. Através do seu olhar de viajante, o leitor descobre um país diferente e observa
+costumes, pessoas e acontecimentos de uma forma divertida e inesperada.
+
+**SABIAS QUE?**
+
+A personagem Gulliver foi criada pelo escritor irlandês Jonathan Swift, no século XVIII. Luísa Ducla
+Soares recupera esta personagem e imagina uma passagem por Portugal.
+PALAVRAS-CHAVE: viagem · aventura · humor · teatro · imaginação · crítica
+
+81
+
+<!-- page 82 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Gulliver chega a Portugal!
+
+**LITERATURA · A OBRA**
+
+Gulliver é um viajante extraordinário. Já conheceu lugares muito diferentes, encontrou povos
+desconhecidos e viveu aventuras que dificilmente alguém acreditaria. Mas uma nova viagem leva-o até
+Portugal.
+
+Estamos em Lisboa, no tempo de D. João V. Gulliver observa tudo com atenção: as pessoas, as roupas,
+os costumes e a riqueza da sociedade portuguesa despertam a sua curiosidade.
+
+Gulliver vê Portugal com olhos de estrangeiro: aquilo que para os portugueses pode parecer normal
+pode parecer estranho a alguém que chega de um lugar distante. É precisamente esse olhar que torna
+esta aventura divertida.
+
+**NESTA UNIDADE VAIS...**
+
+descobrir como funciona um texto dramático · conhecer melhor as personagens · identificar espaço
+e tempo · aprender a fazer inferências · interpretar diálogos · trabalhar palavras compostas ·
+escrever e representar uma cena.
+
+82
+
+<!-- page 83 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Antes de ler
+
+**PRÉ-LEITURA**
+
+Imagina que chegas a um país desconhecido. Não conheces as pessoas, não conheces os costumes, não
+sabes o que é normal naquele lugar.
+
+**1. O QUE OBSERVARIAS PRIMEIRO? ESCOLHE TRÊS.**
+
+☐  as pessoas
+☐  a comida
+
+☐  as casas
+☐  as roupas
+
+☐  os transportes
+☐  os monumentos
+
+☐  os costumes
+☐  a paisagem
+
+**2. EXPLICA UMA DAS TUAS ESCOLHAS.**
+
+**3. OBSERVA O TÍTULO**
+
+As Viagens de Gulliver com Escala em Portugal. O que significa fazer uma escala durante uma viagem?
+
+**4. FAZ UMA PREVISÃO**
+
+O que poderá surpreender Gulliver quando chegar a Portugal?
 
 **PENSA**
 
-O que se sente quando a cortina se abre e a história acontece à nossa frente, ao vivo?
-COMPETÊNCIAS: Ler · Compreender · Interpretar · Oralidade · Escrita · Gramática.
+Será que vemos o nosso país da mesma maneira que um estrangeiro o vê?
 
-**ENTRA NA HISTÓRIA · A CORTINA VAI ABRIR...**
-O texto dramático nasce para ser representado: não se lê apenas, sobe ao palco. Cada fala é dita por
-uma personagem em voz alta, perante um público. Nesta unidade vais entrar nos bastidores: aprender a
-linguagem do teatro e escrever a tua própria cena.
+83
 
-**ANTES DE LER**
-1. Lembra-te da última peça de teatro que viste (ou representaste na escola). O que era diferente de ver
-um filme?
-2. Se tivesses de representar uma personagem, preferias papel principal ou secundário? Porquê?
-3. O que é preciso para transformar um texto escrito num espectáculo?
-
-**VOCABULÁRIO DO TEATRO**
-
-acto – grande divisão da peça · cena – divisão menor; muda quando alguém entra ou sai · fala – o
-que cada personagem diz · didascália – indicação cénica entre parênteses · diálogo – conversa entre
-personagens · monólogo – uma personagem fala sozinha.
-
-61
-
-<!-- page 62 -->
+<!-- page 84 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Conhece o autor – Almeida Garrett
+## Vamos ler – Gulliver em Portugal
 
-**EDUCAÇÃO LITERÁRIA · O AUTOR**
+**TEXTO DRAMÁTICO · LUÍSA DUCLA SOARES**
 
-João Baptista da Silva Leitão de Almeida Garrett (1799-1854) nasceu no Porto e é o pai do
-Romantismo português. Viveu os anos agitados das invasões francesas e das guerras liberais, e
-esteve no exílio em Inglaterra, onde descobriu Shakespeare e Walter Scott.
+**ESPAÇO**
+**TEMPO**
+**PERSONAGENS**
 
-Foi poeta, novelista, dramaturgo, jornalista e político: fundou o Teatro Nacional D. Maria II e
-escreveu Frei Luís de Sousa (1844), Viagens na Minha Terra e o Romanceiro. No seu Romantismo
-pesam as paixões intensas, o nacionalismo, o gosto pelas ruínas e pelo passado, e a força do
-destino sobre as personagens.
+Lisboa
+Tempo de D. João V
+Gulliver · Maria · Manuel · Crianças · D. Pedro Mendes
 
-**SABIAS QUE...**
+Lisboa, no tempo de D. João V.
 
-Frei Luís de Sousa é uma tragédia: um género em que o destino pesa sobre as personagens e o final
-é inevitavelmente doloroso. Garrett inspirou-se numa lenda portuguesa do século XVII.
+O cenário é uma varanda com bancos de azulejo e, ao fundo, a vista da cidade.
 
-**O VOCABULÁRIO DO TEATRO**
+(Gulliver, junto à face exterior do palco, dirige-se às crianças.)
 
-**Termo**
-**Definição**
-**Exemplo**
+**GULLIVER — Apetrechei um barco e fiz-me novamente ao mar. Sonhava ir viver para uma ilha deserta. Mas a**
 
-Acto
-Grande divisão da peça
-«Acto I»
+ilha onde fui ter estava cheia de selvagens. Atacaram-me. Sabem quem me salvou?
 
-Cena
-Divisão menor; muda quando
-alguém entra/sai
-cena única
+**MARIA — Um golfinho...**
 
-Fala
-O que cada personagem diz
-«D. MADALENA — Nada mando»
+**GULLIVER — Quem me recolheu foram os marinheiros de um navio. Adivinham quem eram eles?**
 
-Didascália
-Indicação cénica entre
-parênteses
-«(Entrando.)» «(Baixo.)»
+**MANUEL — Eram piratas!**
 
-Diálogo
-Conversa entre personagens
-a matéria-prima do teatro
+**MARIA — Eram pescadores!**
 
-Monólogo
-Uma personagem fala sozinha
-abertura de Frei Luís de Sousa
+**GULLIVER — Eram portugueses, os grandes senhores dos mares. Vocês por acaso já ouviram falar dos**
 
-**REPARA**
+portugueses?
 
-No teatro não há narrador: as didascálias substituem a voz de quem conta, instruindo o encenador e
-os actores. Ler teatro é imaginar o palco.
+A cena continua na página seguinte…
 
-62
+84
 
-<!-- page 63 -->
+<!-- page 85 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Vamos ler – Frei Luís de Sousa
+## Gulliver em Portugal (continuação)
 
-**TEXTO LITERÁRIO · ALMEIDA GARRETT · ADAPTADO**
+**TEXTO DRAMÁTICO · CONTINUAÇÃO**
 
-Porto, século XVII. Casa de D. Manuel de Sousa Coutinho. D. Madalena espera notícias do primeiro
-marido, D. João de Portugal, desaparecido na batalha de Alcácer-Quibir, há onze anos. Lemos a abertura
-da tragédia.
+**CRIANÇAS — Nós vivemos em Portugal!**
 
-D. MADALENA — (Sozinha.) Que tarde tão comprida! A luz demora-se a ir-se embora, como se também
-ela tivesse medo da noite… Telmo, Telmo!
+**GULLIVER — A princípio, tive medo que eles fossem uma espécie de macacos como os que vivem na Ilha dos**
 
-TELMO — (Entrando.) Aqui estou, minha senhora; que mandais?
+Cavalos. (...) De facto, não podiam ser mais gentis, simpáticos e acolhedores. Vou
 
-D. MADALENA — Nada mando, Telmo. Chamo por chamar, porque me pesa o silêncio desta casa.
+apresentar-lhes o capitão do navio que me recolheu, D. Pedro Mendes. Levou-me para sua casa.
 
-TELMO — A casa está calada como sempre esteve, senhora.
+Ele aí vem.
 
-D. MADALENA — Calada, dizes tu? Pois a mim parece-me que ela fala. Fala comigo das coisas que cá
-passaram… dos que cá morreram… dos que nunca mais voltaram!
+(Gulliver sobe para o palco. D. Pedro Mendes avança e cumprimenta Gulliver.)
 
-TELMO — (Baixo.) Onze anos…
+**D. PEDRO — Então, meu amigo, chegámos a bom porto. É hora de descansar das viagens.**
 
-D. MADALENA — Que disseste, Telmo?
+(Gulliver relincha.)
 
-TELMO — Disse que vem aí a tarde, minha senhora, e que a menina, vossa filha, vos procura.
+**D. PEDRO — Senhor Gulliver, não se esqueça de que já não está na terra dos cavalos. Lisboa é uma cidade**
 
-D. MADALENA — Vai, Telmo, vai; deixa-me só. Não é para ti o que eu tenho cá dentro. (Telmo sai.) Que
-inquietação é esta que me não deixa viver nem morrer?
+de muitas e variadas gentes, onde quem governa é Sua Majestade D. João V.
 
-(Adaptado de Almeida Garrett, Frei Luís de Sousa, 1844.)
+(Começam a entrar os fidalgos e as fidalgas, ricamente vestidos, conversando e fazendo salamaleques.
 
-**ENQUANTO LÊS... OBSERVA**
-• as didascálias (o que mandam fazer ao actor?)
-• as falas de D. Madalena (que sentimentos revelam?)
-• o que Telmo diz «(Baixo)» e não quer que a senhora ouça
+Gulliver olha-os, espantado.)
 
-63
+**GULLIVER — Tantas joias! Tanto ouro! Portugal é um país cheio de minas?**
 
-<!-- page 64 -->
+**D. PEDRO — Tudo isto vem do Brasil. Lisboa é uma das cidades mais esplêndidas do mundo.**
 
----
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+**GULLIVER — É sem dúvida um belo país, cheio de sol. E a gente mais amável que conheci. Mas tenho um**
 
-Prime School Press · www.primeschool.pt
+barco à minha espera...
 
-## Missão do leitor
+(Gulliver escapa-se, (...) De um extremo do palco diz adeus à plateia com um lenço branco.)
 
-**LEITURA ORIENTADA**
+Luísa Ducla Soares (adapt. livre), As viagens de Gulliver com escala em Portugal, Porto, Porto Editora, 2015.
 
-**PROCURA DESCOBRIR**
+**ENQUANTO LÊS · COM LÁPIS DE CORES**
 
-**Pergunta**
-**O que procuras**
+Marca com cores diferentes: as FALAS de Gulliver · as falas das outras personagens · as
+DIDASCÁLIAS (indicações entre parênteses) · as informações sobre Portugal.
 
-Quem?
-Quem são as personagens em cena?
+85
 
-Onde?
-Onde e em que época decorre a cena?
-
-O quê?
-Qual é o mistério que pesa sobre a casa?
-
-Como?
-Como se revelam os sentimentos, sem narrador?
-
-**EXERCÍCIOS 1**
-1. Quem são as personagens em cena? Que relação têm com D. Madalena?
-
-2. Há quanto tempo desapareceu D. João de Portugal? Como o sabes?
-
-3. «A casa está calada» / «parece-me que ela fala»: que contraste é este? Que sentimento revela?
-
-4. O que Telmo diz em voz baixa? Porque não quer que a senhora ouça?
-
-5. Copia três didascálias e explica o que cada uma manda fazer ao actor.
-
-6. Há monólogo nesta cena? E diálogo? Justifica.
-
-**LÊ + INFERIR**
-
-A casa «que fala» é uma personificação: o espaço ganha vida e revela o que D. Madalena sente por
-dentro — medo, culpa, saudade. Pista do texto + interpretação = inferência.
-
-64
-
-<!-- page 65 -->
+<!-- page 86 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Como interpretar um texto dramático
+## Depois da leitura
 
-**RELEMBRA · A ESTRUTURA**
+**PRIMEIRA REACÇÃO**
 
-O texto dramático é escrito para ser representado por actores, diante de um público. Não há
-narrador:
-a
-história
-acontece
-através
-das
-falas
-e
-acções
-das
-personagens.
-As
-didascálias
-substituem a voz do narrador.
+Escolhe uma palavra para descrever a reacção de Gulliver perante Portugal:
 
-**NARRAÇÃO VERSUS DRAMA · COMPARA**
+surpresa · curiosidade · medo · admiração · desconfiança
 
-**Narração**
-**Drama**
+A minha escolha, porque...
 
-Quem conta
-O narrador
-As personagens (falas)
+**EXERCÍCIO 1 · COMPREENDER O TEXTO**
 
-Indicações
-Descrições do narrador
-Didascálias
+1. Onde se encontra Gulliver no início da cena?
 
-Tempo
-Narrado
-Ao vivo, no palco
+2. Quem são as crianças que encontra? Que informação dão?
 
-Exemplo
-«ela disse que…»
-«D. MADALENA — Nada mando.»
+3. Quem é D. Pedro Mendes e como recebe Gulliver?
 
-**O ESQUEMA DA PEÇA**
+4. O que chama a atenção de Gulliver nos portugueses? Que relação tem o ouro com o Brasil?
 
-**ACTO**
+5. Como termina a cena?
 
-grande divisão da peça
+**CAMBRIDGE FOCUS: resposta + evidência do texto = resposta completa.**
 
-**▼**
+86
 
-**CENA**
+<!-- page 87 -->
 
-divisão menor; muda quando alguém entra ou sai
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
-**▼**
+Prime School Press · www.primeschool.pt
 
-**FALA**
+## Verdadeiro ou falso – Gulliver
 
-o que diz cada personagem
+**COMPREENSÃO**
 
-**▼**
+**EXERCÍCIO 2 · ASSINALA V OU F**
 
-**DIDASCÁLIA**
+**Afirmação**
+**V**
+**F**
 
-indicação cénica entre parênteses
+Gulliver chega a Portugal depois de uma viagem.
+☐
+☐
+
+Gulliver é salvo por marinheiros portugueses.
+☐
+☐
+
+☐
+☐
+
+D. Pedro Mendes é um capitão de marinha.
+☐
+☐
+
+A acção decorre em Lisboa.
+☐
+☐
+
+A história decorre no reinado de D. João V.
+☐
+☐
+
+Gulliver fica surpreendido com a riqueza que observa.
+☐
+☐
+
+O ouro mencionado está relacionado com o Brasil.
+☐
+☐
+
+Gulliver decide ficar para sempre em Portugal.
+☐
+☐
+
+O texto apresenta indicações destinadas à representação.
+☐
+☐
+
+Corrige as afirmações falsas.
+
+Gulliver pensa inicialmente que os portugueses podem ser selvagens.
+
+87
+
+<!-- page 88 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Lê nas entrelinhas – Gulliver
+
+**EXPLÍCITO E IMPLÍCITO**
+
+**EXERCÍCIO 3 · INFERIR**
+
+1. Gulliver compara aquilo que encontra em Portugal com experiências que viveu antes. O que mostra
+esta comparação sobre a personagem?
+
+2. Como reage Gulliver à riqueza das igrejas e das ruas? O que concluis sobre a sociedade que
+observa?
+
+3. Porque é que a perspectiva de Gulliver pode provocar humor?
+
+4. «Que terra é esta, que gasta em pedras o que outros guardariam para o pão?» Que crítica se
+esconde nesta pergunta?
+
+**COMO FAZER UMA INFERÊNCIA**
+
+Encontra uma pista → pensa sobre ela → tira uma conclusão.
+Não copies simplesmente uma frase do texto: explica o que ela permite concluir.
+
+88
+
+<!-- page 89 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Quem é quem?
+
+**PERSONAGENS**
+
+**EXERCÍCIO 4 · GULLIVER**
+
+Assinala as características que melhor o descrevem:
+
+☐ curioso · ☐ observador · ☐ aventureiro · ☐ indiferente · ☐ surpreendido · ☐ crítico · ☐ desconfiado · ☐
+agressivo
+
+Escolhe duas e apresenta, para cada uma, uma prova do texto.
+
+**EXERCÍCIO 5 · D. PEDRO MENDES · MARIA E MANUEL**
+
+O que descobrimos sobre D. Pedro Mendes através das suas acções e das suas palavras? Que papel
+desempenham Maria e Manuel na cena?
+
+**DESAFIO**
+
+Qual das personagens gostarias de representar? Porquê?
+
+89
+
+<!-- page 90 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Onde e quando?
+
+**ESPAÇO E TEMPO**
+
+**EXERCÍCIO 6 · O ESPAÇO E O CENÁRIO**
+
+1. Indica o espaço principal da acção.
+
+2. Retira do texto dois elementos do cenário que ajudem a situar a acção.
+
+3. Que elementos do texto mostram que estamos num período histórico diferente do actual?
+
+**EXERCÍCIO 7 · CENÓGRAFO POR UM DIA**
+
+Imagina que montas esta cena num palco. Escolhe três objectos que não poderiam faltar.
+
+1 ______________________________
+
+2 ______________________________
+
+3 ______________________________
+
+90
+
+<!-- page 91 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## As palavras do texto
+
+**VOCABULÁRIO**
+
+**EXERCÍCIO 8 · DESCOBRE PELO CONTEXTO**
+
+fidalgo → ____________________________________
+
+selvagem → __________________________________
+
+acolhedor → __________________________________
+
+apetrechar → __________________________________
+
+salamaleque → ________________________________
+
+**EXERCÍCIO 9 · SINÓNIMOS**
+
+**Palavra**
+**Sinónimo**
+
+espantado
+
+simpático
+
+rico
+
+gentil
+
+**EXERCÍCIO 10 · EXPRESSÃO**
+
+«Chegámos a bom porto.» O que significa esta expressão no contexto? Pode também ser usada com
+sentido figurado? Explica.
+
+91
+
+<!-- page 92 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Lê como um actor
+
+**TEXTO DRAMÁTICO**
+
+Este texto não foi escrito apenas para ser lido. Foi pensado para ser representado.
+
+FALA — aquilo que uma personagem diz. DIDASCÁLIA — indicação que ajuda os actores: movimentos,
+gestos, expressões, entradas, saídas, cenário, sons.
+
+**EXERCÍCIO 11 · OBSERVA O EXCERTO**
+
+Encontra no texto: 1 didascália · 1 fala de Gulliver · 1 fala de outra personagem.
+
+AGORA PENSA: escolhe uma didascália. O que aconteceria se ela desaparecesse?
+
+**TRANSFORMA**
+
+Escolhe uma didascália do texto e explica-a como se estivesses a dar uma instrução a um actor:
+«Deves...»
+
+92
+
+<!-- page 93 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Gramática em contexto
+
+**GRAMÁTICA · PALAVRAS COMPOSTAS**
+
+COMPOSIÇÃO é o processo de formar uma palavra pela junção de duas ou mais palavras ou elementos.
+
+Exemplo: guarda + chuva → guarda-chuva.
+
+**EXERCÍCIO 12 · ANALISA**
+
+**Palavra composta**
+**Elementos que a formam**
+
+porta-chaves
+porta + chaves
+
+porco-espinho
+porco + espinho
+
+couve-flor
+couve + flor
+
+passatempo
+passa + tempo
+
+**EXERCÍCIO 13 · AGORA CRIA**
+
+Forma palavras compostas relacionadas com: viagem · mar · escola · aventura. (Uma para cada tema.)
+
+**PENSA**
+
+Porque razão é importante observar as palavras dentro do contexto em que aparecem?
+
+93
+
+<!-- page 94 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Rir... e pensar
+
+**HUMOR E CRÍTICA**
+
+1. Que situações do texto podem provocar humor?
+
+2. Porque é que o olhar de Gulliver é importante para o leitor português?
+
+3. Gulliver observa a riqueza, as joias e o ouro. A autora estará apenas a mostrar uma sociedade rica,
+ou também a criticar a ostentação? Justifica.
+
+**PENSA**
+
+Às vezes, uma história divertida também nos faz pensar sobre a sociedade.
+
+94
+
+<!-- page 95 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Pensa como um leitor
+
+**EDUCAÇÃO LITERÁRIA**
+
+1. «Gulliver é um viajante, mas é também um observador.» Explica esta afirmação.
+
+2. Qual é a vantagem de conhecer outras culturas?
+
+3. A autora escolheu um estrangeiro para observar Portugal. Consideras que esta escolha torna a
+história mais interessante? Justifica.
+
+4. Completa: «Através dos olhos de Gulliver, Portugal aparece como...»
+
+5. Escolhe uma palavra para definir este excerto: humorístico · histórico · fantástico · crítico ·
+aventureiro.
+
+95
+
+<!-- page 96 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Oficina de escrita – entrevista a Gulliver
+
+**ESCRITA · 200 A 250 PALAVRAS**
+
+Imagina que és jornalista e acabaste de conhecer Gulliver. Escreve uma entrevista.
+
+Deve incluir: uma introdução · pelo menos cinco perguntas · respostas desenvolvidas · uma pergunta
+sobre a viagem · uma sobre Portugal · uma sobre o que mais o surpreendeu · uma sobre o futuro · uma
+conclusão.
+
+**PLANIFICA PRIMEIRO**
+
+Pergunta 1: ____________________________
+
+Pergunta 2: ____________________________
+
+Pergunta 3: ____________________________
+
+Pergunta 4: ____________________________
+
+Pergunta 5: ____________________________
 
 **DICA**
 
-Quando leres teatro, imagina o palco: quem está em cena, onde entra, que tom de voz usa. As
-didascálias são as tuas instruções de encenação.
+Evita perguntas de resposta sim/não. Usa: Como...? Porquê...? O que pensaste quando...? Qual foi...?
+Se pudesses..., o que...?
 
-65
+96
 
-<!-- page 66 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
-
-Prime School Press · www.primeschool.pt
-
-## Gramática – Frases simples e complexas
-
-**GRAMÁTICA · COM O TEXTO DE TEATRO**
-
-A frase simples tem uma só oração (um só verbo conjugado): «A luz desvanece lentamente.» A
-frase complexa tem duas ou mais orações: «A luz desvanece quando os actores saem.» Contar
-verbos conjugados é o truque para contar orações.
-
-**COMO SE LIGAM AS ORAÇÕES · TABELA**
-
-**Tipo**
-**Conjunções**
-**Orações…**
-
-Coordenação
-e, mas, ou, logo, pois
-independentes
-
-Subordinação
-porque, se, quando, embora
-dependentes
-
-**ESQUEMA · VERBOS QUE NÃO CONTAM DUAS ORAÇÕES**
-
-**TEMPO COMPOSTO**
-«tinha cantado»
-
-um só verbo: cantar
-
-**LOCUÇÃO VERBAL**
-«vou cantar», «estava a cantar»
-
-um só verbo principal
-
-**EXERCÍCIOS 2**
-1. Classifica (sublinha os verbos): «Beatriz ajustou a mochila e sentou-se.» / «A luz desvanece
-lentamente.» / «Ensaiamos porque a audição é amanhã.» / «Se eu falhar, tu finges.»
-
-2. Divide cada frase complexa do exercício 1 em orações e indica a conjunção.
-
-3. Junta cada par numa frase complexa: «Canto. Gosto de cantar.» (porque) / «Levantas-te devagar.
-Respiras fundo.» (e) / «Tens medo. Tremes.» (se)
-
-66
-
-<!-- page 67 -->
+<!-- page 97 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Writing Lab – escreve a tua cena
+## Um novo olhar sobre Portugal
 
-**ESCRITA · CENA DE 18 A 24 FALAS**
+**ESCRITA CRIATIVA · 200 A 250 PALAVRAS**
 
-Escreve uma cena curta (18 a 24 falas) com duas personagens. Tema: um mal-entendido que se resolve
-no final (uma mensagem enviada para a pessoa errada, um convite esquecido, um objecto perdido).
+Imagina que és um viajante estrangeiro que acaba de chegar a Portugal. Escreve um texto que
+apresente:
 
-☑ duas personagens com objectivos opostos ☑ um espaço único ☑ início do conflito
-☑ subida da tensão ☑ clímax ☑ resolução rápida ☑ pelo menos cinco didascálias
-☑ falas naturais, como os jovens falam de verdade ☑ um fecho de saída ou de luz
+1. a chegada · 2. uma coisa que te surpreenda · 3. uma pessoa que conheças · 4. um mal-entendido · 5.
+um momento humorístico · 6. uma opinião sobre Portugal.
 
-**PLANIFICA ANTES DE ESCREVER**
+DESAFIO: escreve duas falas em discurso directo.
 
-Quem são as personagens (nomes e objectivos)?
+**ANTES DE ESCREVER**
 
-Qual é o espaço único?
+Quem sou? _______________________________
 
-Qual é o mal-entendido?
+De onde venho? ___________________________
 
-O que acontece no clímax?
+O que me surpreende? _____________________
 
-Como se resolve?
+Quem encontro? __________________________
 
-**O MEU RASCUNHO (primeiras falas)**
+Como termina? ___________________________
 
-67
+97
 
-<!-- page 68 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
-
-Prime School Press · www.primeschool.pt
-
-## Writing Toolkit – a caixa de ferramentas do dramaturgo
-
-**ESCRITA · FERRAMENTAS PARA O TEATRO**
-
-**PARA ABRIR A CENA**
-
-• (Uma sala vazia. Ao fundo, uma porta fechada.)
-• (Manhã. Um banco de jardim. Entra LEONOR, apressada.)
-
-**DIDASCÁLIAS ÚTEIS**
-
-• (Entrando.) (Saindo apressadamente.)
-• (Baixo, para si.) (Surpreendido.)
-• (Pausa.) (Respira fundo.)
-• (Apanha o telemóvel da mesa.)
-
-**PARA CRIAR TENSÃO**
-
-• — Não devias ter vindo.
-• — Sabes perfeitamente o que isto significa.
-• (Silêncio. Ninguém se move.)
-
-**PARA FECHAR A CENA**
-
-• Saem, cada um para um lado. Luz desvanece.
-• (Fica só, a olhar para a porta.) Fim.
-• Riem, finalmente. Cortina.
-
-**REGLA DE OURO DO TEATRO**
-
-No drama, mostra — não contes. Em vez de «ele estava nervoso», escreve «(Treme-lhe a voz.)».
-
-68
-
-<!-- page 69 -->
+<!-- page 98 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Fala e escuta – sobe ao palco
+## Debate – viajar muda a nossa forma de ver o mundo?
 
-**ORALIDADE · ENCENAÇÃO EM GRUPOS**
+**ORALIDADE · DEBATE**
 
-Em grupos de três ou quatro, encenai a abertura de Frei Luís de Sousa (página 3 desta unidade), em
-cerca de dois minutos.
+GRUPO A · SIM: viajar permite conhecer outras pessoas, culturas e formas de viver.
 
-**DECIDAM E REGISTEM**
+GRUPO B · NÃO NECESSARIAMENTE: é possível conhecer outras culturas sem viajar.
 
-Movimentos: quem entra, quem sai, quando?
+Cada grupo deve preparar: 2 argumentos · 1 exemplo · 1 possível argumento do grupo contrário · 1
+resposta.
 
-Tom de cada fala: que voz tem D. Madalena? E Telmo?
+**EXPRESSÕES ÚTEIS**
 
-Luz e som: como é o silêncio da casa? Há música?
+Na minha opinião... · Considero que... · Um argumento importante é... · Por outro lado... · Não
+concordo porque... · Um exemplo é... · Concluindo...
 
-Adereços: que objectos precisam em cena?
+98
 
-**DESAFIO DE ORALIDADE 3**
-No final, cada grupo apresenta e a turma avalia com a grelha: volume · organização · contacto visual ·
-tempo. Cada comentário começa com um elogio e acaba com uma sugestão.
-
-Notas de encenação do meu grupo:
-
-**CRITÉRIOS**
-
-Fala devagar e com volume alto · olha para o público · marca pausas entre as ideias · corpo erecto,
-gestos naturais.
-
-69
-
-<!-- page 70 -->
+<!-- page 99 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Literatura em imagem – o cenário
+## Gulliver chega à tua escola!
 
-**PROJECTO CRIATIVO**
+**DESAFIO FINAL · EM GRUPO**
 
-Desenha o cenário da cena que leste: a casa de D. Manuel de Sousa Coutinho, com a luz da tarde a
-demorar-se. Depois responde.
+MISSÃO: Gulliver viajou novamente e chegou à tua escola. Mas há um problema: ele não percebe nada
+do que está a acontecer! Criem uma pequena cena teatral de 3-4 minutos.
 
-1. Que luz escolheste (manhã, tarde, noite)? Porque?
+A cena deve ter: 4 personagens · pelo menos 12 falas · pelo menos 5 didascálias · um momento de
+humor · uma surpresa · uma diferença cultural · uma mensagem final.
 
-2. Que objectos colocaste em cena para mostrar o peso do passado?
+**PLANIFICAÇÃO**
 
-3. Onde estaria D. Madalena no teu cenário? Justifica.
+Título: ________________________________
 
-**CAMBRIDGE FOCUS**
+Personagens: ____________________________
 
-No teatro, o espaço não é decoração: cria ambiente e revela sentimentos. A casa escura e calada de
-Garrett «fala» do passado de D. Madalena.
+Local: ___________________________________
 
-70
+Problema: ________________________________
 
-<!-- page 71 -->
+Momento mais divertido: ____________________
 
----
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+Final: ____________________________________
 
-Prime School Press · www.primeschool.pt
+**DEPOIS DA REPRESENTAÇÃO**
 
-## Cambridge Focus – interpretar teatro
+O que aprendemos ao observar a nossa escola através dos olhos de Gulliver?
 
-**INTERPRETAÇÃO · EVIDÊNCIA + EXPLICAÇÃO**
+99
 
-Uma resposta forte precisa de evidência (citação do texto) + explicação (o que essa citação prova).
-
-**RESPOSTA FRACA**
-
-«D. Madalena está triste.» ✗ Não explica porquê.
-
-**RESPOSTA MELHOR**
-
-«D. Madalena está angustiada porque diz “me pesa o silêncio desta casa”, o que mostra que o
-silêncio a incomoda.»
-
-**RESPOSTA AINDA MELHOR**
-
-«D. Madalena vive angustiada: chama por Telmo sem nada precisar (“chamo por chamar”), ouve a
-casa “falar” dos que morreram e confessa “uma inquietação que me não deixa viver nem morrer”. O
-silêncio revela a culpa e a espera de onze anos.»
-
-**REGRA DE OURO**
-
-Não basta dizer. Explica. Pergunta sempre: «Como sei isso?» Cita o texto.
-
-**EXERCÍCIOS 4**
-Escreve a TUA resposta forte: «Telmo é leal a D. Madalena?» Usa a fórmula evidência + explicação.
-
-71
-
-<!-- page 72 -->
+<!-- page 100 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
 
-## Relembra – o que aprendi
+## Relembra – texto dramático
 
-**REVISÃO DA UNIDADE 3**
+**SÍNTESE**
 
-**O TEXTO DRAMÁTICO**
-Nasce para ser representado · não há narrador · as didascálias instruem encenador e actores ·
-organiza-se em actos, cenas e falas.
+**O ESSENCIAL DO TEXTO DRAMÁTICO**
 
-**APRENDI A...**
-☑ definir acto, cena, fala e didascália
-☑ distinguir narração de drama
-☑ interpretar falas e didascálias com evidência do texto
-☑ classificar frases simples e complexas
-☑ escrever uma cena com didascálias
-☑ encenar e avaliar uma leitura dramatizada
+**Elemento**
+**Lembra-te**
 
-**CHECKPOINT · CLASSIFICA O TEU DESEMPENHO**
+Fala
+aquilo que a personagem diz
+
+Didascália
+indicação para a representação
+
+Personagem
+participa na acção
+
+Cena
+unidade da acção dramática
+
+Acção
+acontecimentos representados
+
+INFERÊNCIA: pista → raciocínio → conclusão.
+
+COMPOSIÇÃO: dois ou mais elementos → nova palavra.
+
+**DICA DO LEITOR · LÊ COMO UM ENCENADOR**
+
+Quando encontrares uma didascália, pergunta: O que acontece? Quem faz? Como faz? Onde
+acontece? Que emoção transmite?
+Num texto dramático, as palavras e as acções trabalham juntas para contar a história.
+
+100
+
+<!-- page 101 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Autoavaliação – Gulliver
+
+**AUTOAVALIAÇÃO**
+
+**MARCA A TUA RESPOSTA**
 
 **Consigo...**
-**Ainda não**
-**Com ajuda**
-**Sozinho**
+**ὠ**
+**ὰ**
+** **
 
-Definir acto, cena e didascália
+compreender o texto dramático
+☐
+☐
+☐
 
-Explicar quem “conta” no drama
+encontrar informação explícita
+☐
+☐
+☐
 
-Interpretar uma didascália
+fazer inferências
+☐
+☐
+☐
 
-Classificar frases simples e complexas
+caracterizar personagens
+☐
+☐
+☐
 
-Escrever falas naturais
+identificar espaço e tempo
+☐
+☐
+☐
 
-Encenar com voz e movimento
+reconhecer falas e didascálias
+☐
+☐
+☐
 
-**O MEU PRÓXIMO OBJECTIVO**
-Na próxima unidade quero melhorar...
+compreender o humor
+☐
+☐
+☐
 
-72
+reconhecer palavras compostas
+☐
+☐
+☐
 
-<!-- page 73 -->
+escrever uma entrevista
+☐
+☐
+☐
 
----
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+participar num debate
+☐
+☐
+☐
 
-Prime School Press · www.primeschool.pt
+**PASSAPORTE LITERÁRIO**
 
-## O passaporte do leitor
+Autora: Luísa Ducla Soares
 
-**DESAFIO FINAL · REGISTO DE LEITURA**
+Obra: As Viagens de Gulliver com Escala em Portugal
 
-**Campo**
-**O teu registo**
+Personagem favorita: ____________________
 
-Autor
-Almeida Garrett
+Uma coisa que aprendi: __________________
 
-Obra
-Frei Luís de Sousa
+Uma palavra nova: ______________________
 
-País
-Portugal
+O que mais gostei: _____________________
 
-Género
-Texto dramático (tragédia)
+101
 
-Tema principal
-
-Personagem que mais me marcou
-
-O que aprendi com esta história
-
-A minha palavra favorita do texto:
-A minha classificação:
-
-**★**
-**★**
-**★**
-**★**
-**★**
-
-**UMA FRASE PARA LEVAR CONTIGO**
-
-No teatro, a palavra não se lê: sobe ao palco e ganha voz, corpo e luz.
-
-**FICHA DE REVISÃO · COMO UM TESTE 5**
-
-Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos.
-GRUPO I · LEITURA: 1. Define: acto, cena, didascália. 2. O que substitui o narrador no drama? 3. Que
-sentimento revela «a casa fala»? Justifica com o texto.
-GRUPO II · GRAMÁTICA: 4. «Saiu e fechou a porta» – simples ou complexa? 5. «Saiu porque era tarde» – que
-tipo de oração? 6. Escreve uma frase complexa com «quando» sobre um ensaio.
-
-73
-
-<!-- page 74 -->
+<!-- page 102 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3639,9 +4922,9 @@ aprender os segredos do verso e da rima e escrever os teus próprios poemas.
 verso – cada linha do poema · estrofe – grupo de versos · rima – repetição de sons no fim dos versos ·
 métrica – número de sílabas até à última tónica.
 
-74
+102
 
-<!-- page 75 -->
+<!-- page 103 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3726,9 +5009,9 @@ Repetição no início dos versos
 Como escandir um verso: conta as sílabas em voz alta até à ÚLTIMA TÓNICA:
 «Quan-tas-noi-vas-fi-ca-ram-por-ca-sar» = 10 → decassílabo.
 
-75
+103
 
-<!-- page 76 -->
+<!-- page 104 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3770,9 +5053,9 @@ Fernando Pessoa, Mensagem, 1934
 • Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
 • Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
 
-76
+104
 
-<!-- page 77 -->
+<!-- page 105 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3810,9 +5093,9 @@ Que recursos expressivos dão força aos versos?
 
 6. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
 
-77
+105
 
-<!-- page 78 -->
+<!-- page 106 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3862,9 +5145,9 @@ Florbela Espanca, Charneca em Flor
 • Que emoção domina a primeira quadra? E a última estrofe?
 • O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
 
-78
+106
 
-<!-- page 79 -->
+<!-- page 107 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3905,9 +5188,9 @@ ninguém»? Que nome se dá a este contraste?
 6. Compara os dois poemas com a ajuda do esquema: o que muda quando Pessoa fala do mar e Florbela
 fala do amor? Escreve seis linhas.
 
-79
+107
 
-<!-- page 80 -->
+<!-- page 108 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -3977,9 +5260,9 @@ grupo
 de
 coordenadas.
 
-80
+108
 
-<!-- page 81 -->
+<!-- page 109 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4042,9 +5325,9 @@ actores saem.» / «Embora temesse, cantou.»
 3. Junta cada par numa frase complexa: «Estudámos o poema. Fizemos o comentário.» / «O poeta
 perdeu o caderno. Continuou a escrever.» (embora)
 
-81
+109
 
-<!-- page 82 -->
+<!-- page 110 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4090,9 +5373,9 @@ onde está o verso · o nome do recurso · o efeito.
 Escreve agora o teu comentário. Planifica primeiro: 1. INTRODUÇÃO (2 linhas) · 2. CONTEÚDO com duas
 citações (8 linhas) · 3. FORMA com um recurso e o seu efeito (8 linhas) · 4. CONCLUSÃO (4 linhas).
 
-82
+110
 
-<!-- page 83 -->
+<!-- page 111 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4115,9 +5398,9 @@ simples: o autocarro da manhã, o cheiro da cantina, o recreio.
 Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
 um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio poema.
 
-83
+111
 
-<!-- page 84 -->
+<!-- page 112 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4151,9 +5434,9 @@ Notas para a minha declamação:
 
 Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o público, não o papel.
 
-84
+112
 
-<!-- page 85 -->
+<!-- page 113 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4174,9 +5457,9 @@ O MEU POEMA VISUAL:
 A imagem não ilustra o poema: interpreta-o. Escolhe os elementos que traduzem o SENTIDO dos
 versos, não apenas o cenário.
 
-85
+113
 
-<!-- page 86 -->
+<!-- page 114 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4214,9 +5497,9 @@ efeito.
 Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quantos…” na segunda
 estrofe?»
 
-86
+114
 
-<!-- page 87 -->
+<!-- page 115 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4264,9 +5547,9 @@ Escrever um poema com rima
 **O MEU PRÓXIMO OBJECTIVO**
 Para o Year 8 quero melhorar...
 
-87
+115
 
-<!-- page 88 -->
+<!-- page 116 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4319,9 +5602,9 @@ exemplo. 3. Que recurso há em «Ó mar salgado!»? 4. Escande «Valeu a pena? T
 GRUPO II · GRAMÁTICA: 5. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» 6. Passa para a
 passiva: «Os alunos escreveram poemas.»
 
-88
+116
 
-<!-- page 89 -->
+<!-- page 117 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -4348,16 +5631,14 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-89
+117
 
-<!-- page 90 -->
+<!-- page 118 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
 
 Prime School Press · www.primeschool.pt
-
-90
 
 UNIDADE 1
 p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; Onde — rio Douro, Ribeira;
@@ -4385,14 +5666,6 @@ Ex.17 comparação: ambos mostram a natureza viva e um objecto/lugar que ganha m
 a personificação e o fantástico para transformar jardins e florestas em mundos.
 p.48 Ficha: caminhava — imperfeito; encontrou — perfeito; estava; seguia.
 
-UNIDADE 3 · O PALCO À ESPERA
-p.65 Ex.2: «ajustou e sentou-se» — complexa (e); «desvanece» — simples; «ensaiamos porque» —
-complexa (porque); «Se eu falhar, tu finges» — complexa (se).
-p.74 Grupo I: acto — grande divisão; cena — divisão menor; didascália — indicação cénica;
-as falas e didascálias substituem o narrador; «a casa fala» — personificação que revela angústia.
-Grupo II: «Saiu e fechou a porta» — complexa (coordenada); «Saiu porque era tarde» — complexa
-(subordinada causal).
-
 UNIDADE 4 · A PALAVRA EM MÚSICA
 p.78 Ex.: sal = lágrimas (metáfora); anáfora «Quantas… Quantos…»; decassílabo (10 sílabas).
 p.80 Ex.: contraste amar toda a gente / não amar ninguém — antítese; quadra ABAB (rima cruzada).
@@ -4402,3 +5675,13 @@ p.82 Ex.1: «Este soneto foi escrito por Florbela.»; «O mar foi cruzado pelos 
 p.89 Grupo I: 5. adversativa / causal; 6. «Poemas foram escritos pelos alunos.»
 
 NOTA: as respostas pessoais (opiniões, comentários, escrita criativa) não têm solução única.
+
+118
+
+UNIDADE 3 · O PALCO À ESPERA
+p.84-85 (Gulliver em Portugal): texto dramático de Luísa Ducla Soares; as falas e didascálias
+substituem o narrador; Gulliver descobre Portugal com olhos novos — humor e crítica.
+p.87 V/F: as respostas dependem da cena lida; corrige com o texto à frente.
+p.93 Gramática: frases simples (um verbo conjugado) e complexas (dois ou mais verbos);
+«Se eu falhar, tu finges» — complexa (subordinada condicional).
+p.99 Debate: as respostas pessoais não têm solução única.

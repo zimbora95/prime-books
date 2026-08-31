@@ -74,3 +74,4 @@ work/
 public/inputs/y08-humanities - input.pdf
 public/library/y08-humanities/book.pdf
 dist/
+.venv
