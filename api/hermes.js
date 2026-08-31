@@ -33,6 +33,16 @@ export const config = { runtime: "nodejs" };
 
 const MAX_BODY = 36 * 1024 * 1024; /* 25 MB files arrive as ~34 MB base64 */
 
+/* Model + reasoning for the reading-assistant rail, kept in one place and sent
+   on BOTH session creation and every chat turn (server-side, so a visitor
+   cannot override them). Mirrors the authoring chat: z-ai/glm-5.3-flash with
+   reasoning effort "high". These win over the Vercel HERMES_MODEL env var on
+   purpose: that var is still set to the old z-ai/glm-5.3 and cannot be edited
+   from the repo. To change the rail's model, change these two constants. */
+const SITE_MODEL = "z-ai/glm-5.3-flash";
+const SITE_PROVIDER = "openrouter";
+const SITE_REASONING_EFFORT = "high";
+
 function cfg() {
   return {
     base: (process.env.HERMES_BASE_URL || "").replace(/\/+$/, ""),
@@ -109,7 +119,7 @@ export default async function handler(req, res) {
         headers: { Authorization: `Bearer ${key}` },
         signal: AbortSignal.timeout(10000),
       });
-      if (!r.ok) return res.status(200).json({ models: [], current: model });
+      if (!r.ok) return res.status(200).json({ models: [], current: SITE_MODEL });
       const data = await r.json();
       const out = [];
       for (const p of (data && data.providers) || []) {
@@ -121,7 +131,7 @@ export default async function handler(req, res) {
       }
       return res
         .status(200)
-        .json({ models: out, current: model, currentProvider: provider });
+        .json({ models: out, current: SITE_MODEL, currentProvider: SITE_PROVIDER });
     } catch {
       return res.status(200).json({ models: [], current: model });
     }
@@ -140,9 +150,14 @@ export default async function handler(req, res) {
       typeof body.provider === "string" ? body.provider.trim() : "";
     const okId = (s) => /^[A-Za-z0-9._\/:-]{2,80}$/.test(s);
     if (wantModel && okId(wantModel)) payload.model = wantModel;
-    else if (model) payload.model = model;
+    else payload.model = SITE_MODEL;
     if (wantProvider && okId(wantProvider)) payload.provider = wantProvider;
-    else if (provider) payload.provider = provider;
+    else payload.provider = SITE_PROVIDER;
+    /* Pin reasoning effort to match the authoring chat (glm-5.3-flash, high).
+       model_options ride the session's model lock at creation. */
+    payload.model_options = {
+      reasoning: { enabled: true, effort: SITE_REASONING_EFFORT },
+    };
     try {
       const r = await fetch(`${upBase}/api/sessions`, {
         method: "POST",
@@ -270,6 +285,14 @@ export default async function handler(req, res) {
         ]
       : input;
 
+    /* Per-turn model pin: same model + reasoning as session creation. Wins
+       over anything stale persisted on the session row. */
+    const turnOptions = {
+      model_options: {
+        reasoning: { enabled: true, effort: SITE_REASONING_EFFORT },
+      },
+    };
+
     let upstream;
     try {
       upstream = await fetch(
@@ -281,7 +304,7 @@ export default async function handler(req, res) {
             "Content-Type": "application/json",
             Accept: "text/event-stream",
           },
-          body: JSON.stringify({ message: messagePayload }),
+          body: JSON.stringify({ message: messagePayload, ...turnOptions }),
         },
       );
     } catch {

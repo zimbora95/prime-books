@@ -63,8 +63,13 @@ function uniqueTitle(raw) {
 export async function handleHermes(req, res, verb, cfg) {
   const base = (cfg.HERMES_BASE_URL || "").replace(/\/+$/, "");
   const key = cfg.HERMES_API_KEY || "";
-  const model = cfg.HERMES_MODEL || "";
-  const provider = cfg.HERMES_PROVIDER || "";
+  /* Model + reasoning for the rail, sent on BOTH session creation and every
+     chat turn. Mirrors the authoring chat: z-ai/glm-5.3-flash, effort high.
+     These win over HERMES_MODEL/HERMES_PROVIDER on purpose: the deployed env
+     still holds the old z-ai/glm-5.3. Change the model HERE. */
+  const model = "z-ai/glm-5.3-flash";
+  const provider = "openrouter";
+  const REASONING_EFFORT = "high";
 
   if (verb === "health") {
     if (!base || !key) return json(res, 200, { ok: false, configured: false });
@@ -116,11 +121,11 @@ export async function handleHermes(req, res, verb, cfg) {
       }
       return json(res, 200, {
         models: out,
-        current: model,
-        currentProvider: provider,
+        current: SITE_MODEL,
+        currentProvider: SITE_PROVIDER,
       });
     } catch {
-      return json(res, 200, { models: [], current: model });
+      return json(res, 200, { models: [], current: SITE_MODEL });
     }
   }
 
@@ -140,9 +145,13 @@ export async function handleHermes(req, res, verb, cfg) {
       typeof body.provider === "string" ? body.provider.trim() : "";
     const okId = (s) => /^[A-Za-z0-9._\/:-]{2,80}$/.test(s);
     if (wantModel && okId(wantModel)) payload.model = wantModel;
-    else if (model) payload.model = model;
+    else payload.model = model;
     if (wantProvider && okId(wantProvider)) payload.provider = wantProvider;
-    else if (provider) payload.provider = provider;
+    else payload.provider = provider;
+    /* Pin reasoning effort to match the authoring chat (glm-5.3-flash, high). */
+    payload.model_options = {
+      reasoning: { enabled: true, effort: REASONING_EFFORT },
+    };
     let r;
     try {
       r = await fetch(`${base}/api/sessions`, {
@@ -275,7 +284,12 @@ export async function handleHermes(req, res, verb, cfg) {
             "Content-Type": "application/json",
             Accept: "text/event-stream",
           },
-          body: JSON.stringify({ message: messagePayload }),
+          body: JSON.stringify({
+            message: messagePayload,
+            model_options: {
+              reasoning: { enabled: true, effort: REASONING_EFFORT },
+            },
+          }),
         },
       );
     } catch {
