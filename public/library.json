@@ -689,7 +689,7 @@
     "band": "Cambridge Primary",
     "family": "storybook",
     "level": "Upper Primary",
-    "pages": 104,
+    "pages": 109,
     "done": false,
     "pdf": "/library/y04-global-perspectives/book.pdf",
     "cover": "/library/y04-global-perspectives/cover.webp",
@@ -891,7 +891,7 @@
     "band": "Cambridge Primary",
     "family": "storybook",
     "level": "Upper Primary",
-    "pages": 108,
+    "pages": 113,
     "done": false,
     "pdf": "/library/y05-global-perspectives/book.pdf",
     "cover": "/library/y05-global-perspectives/cover.webp",
@@ -1344,11 +1344,11 @@
     "band": "Cambridge Lower Secondary",
     "family": "geometric",
     "level": "Lower Secondary",
-    "pages": 90,
+    "pages": 130,
     "done": false,
     "pdf": "/library/y07-portuguese-1st/book.pdf",
     "cover": "/library/y07-portuguese-1st/cover.webp",
-    "mb": 6.27,
+    "mb": 8.97,
     "buildable": false,
     "editable": true,
     "wrapCover": null
@@ -1615,7 +1615,7 @@
     "done": false,
     "pdf": "/library/y09-humanities/book.pdf",
     "cover": "/library/y09-humanities/cover.webp",
-    "mb": 8.48,
+    "mb": 10.04,
     "buildable": true,
     "editable": true,
     "wrapCover": null
@@ -1907,5 +1907,20 @@
     "buildable": false,
     "editable": false,
     "wrapCover": null
+  },
+  {
+    "slug": "y07-art-and-design-standard",
+    "year": 7,
+    "subject": "Art & Design",
+    "band": "Lower Secondary",
+    "family": "standardised",
+    "level": "Lower Secondary",
+    "pages": 73,
+    "done": false,
+    "pdf": "/library/y07-art-and-design-standard/book.pdf",
+    "cover": "/library/y07-art-and-design-standard/cover.webp",
+    "mb": 11.97,
+    "buildable": true,
+    "editable": false
   }
 ]

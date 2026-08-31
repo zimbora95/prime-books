@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Standardised Edition · Prime School Books</title>
+<style>
+  :root{
+    --cream:#FBF6EC; --ink:#1c1a13; --moss:#487025; --sage:#A8BF9B;
+    --gold:#F1B300; --grey:#6b6b5e; --teal:#1F6F6B;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0; background:#EFE9DA; color:var(--ink);
+    font-family:Verdana,Arial,sans-serif}
+  /* ---------- top bar ---------- */
+  #bar{
+    position:sticky; top:0; z-index:50; background:var(--cream);
+    border-bottom:2px solid var(--gold);
+    display:flex; align-items:center; gap:14px; padding:8px 16px; flex-wrap:wrap;
+  }
+  #bar img{height:34px; width:auto}
+  #bar .t{font-size:14.5px; font-weight:bold}
+  #bar .badge{
+    background:var(--moss); color:#fff; font-size:10.5px; letter-spacing:1px;
+    padding:3px 10px; border-radius:12px; text-transform:uppercase;
+  }
+  #bar .spacer{flex:1}
+  #bar a{color:var(--moss); font-size:13px; text-decoration:none}
+  #bar a:hover{text-decoration:underline}
+  #pgCtl{display:flex; align-items:center; gap:6px; font-size:13px}
+  #pgCtl button{
+    border:1px solid var(--sage); background:#fff; border-radius:6px;
+    width:30px; height:26px; cursor:pointer; font-size:15px; line-height:1;
+  }
+  #pgCtl button:disabled{opacity:.4; cursor:default}
+  #pgNum{width:52px; text-align:center; border:1px solid var(--sage);
+    border-radius:6px; padding:3px 4px; font-size:13px}
+  /* ---------- stage ---------- */
+  #stage{max-width:940px; margin:0 auto; padding:26px 14px 80px}
+  .sheet{
+    background:#fff; margin:0 auto 18px; box-shadow:0 2px 10px rgba(60,50,20,.18);
+    line-height:0; border-radius:2px; overflow:hidden;
+  }
+  .sheet canvas{width:100%; height:auto; display:block}
+  .sheet .ph{
+    display:flex; align-items:center; justify-content:center; color:#b9b2a0;
+    font-size:13px; letter-spacing:1px;
+  }
+  #loadmsg{max-width:940px; margin:40px auto; text-align:center; color:var(--grey);
+    font-size:14px}
+  #err{max-width:940px; margin:60px auto; text-align:center; color:#8a3b2a;
+    font-size:14px; display:none}
+  @media print{ #bar{display:none} .sheet{box-shadow:none; margin:0} }
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <img src="/Logo-Prime-School.png" alt="Prime School">
+  <span class="t" id="bkTitle">Loading…</span>
+  <span class="badge">Standardised Edition</span>
+  <span class="spacer"></span>
+  <span id="pgCtl">
+    <button id="prev" aria-label="Previous page">‹</button>
+    <input id="pgNum" inputmode="numeric" aria-label="Page number">
+    <button id="next" aria-label="Next page">›</button>
+    <span id="pgTot" style="color:var(--grey)"></span>
+  </span>
+  <a href="/standard">← The Standard</a>
+</div>
+
+<div id="loadmsg">Fetching the book…</div>
+<div id="stage"></div>
+<div id="loadmsg2"></div>
+
+<script src="/vendor/pdf.min.js"></script>
+<script>
+(function(){
+  "use strict";
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
+
+  var slug = (location.pathname.match(/\/standard\/book\/([a-z0-9-]+)/) || [])[1];
+  var loadEl = document.getElementById("loadmsg");
+  var load2 = document.getElementById("loadmsg2");
+  var titleEl = document.getElementById("bkTitle");
+  var stage = document.getElementById("stage");
+  var pgNum = document.getElementById("pgNum");
+  var pgTot = document.getElementById("pgTot");
+  var prevB = document.getElementById("prev");
+  var nextB = document.getElementById("next");
+  var doc = null, count = 0, sheets = [], rendered = {}, rendering = {};
+  var LIVE_MAX = 24, PREFETCH = 4, current = 1;
+
+  /* Try the live tunnel bases first (fresh from the workshop machine), then
+     same-origin (Vercel CDN). Same probe order as the main reader. */
+  function candidateUrls(){
+    var bases = [""];
+    try { (window.__PB_LIVE_BASES || []).forEach(function(b){ if (b) bases.unshift(b); }); }
+    catch (e) {}
+    var path = "/library/" + slug + "/book.pdf";
+    return bases.map(function(b){ return b + path; });
+  }
+
+  function titleFromSlug(s){
+    var parts = decodeURIComponent(slug).split("-");
+    var yr = (parts[0] || "").replace(/^y0?/i, "Year ");
+    var subj = parts.slice(1).join(" ").replace(/-/g, " ")
+      .replace(/\b\w/g, function(c){ return c.toUpperCase(); });
+    return subjFromSlug(subj) + " — Year " + yr.replace("Year ", "").trim();
+  }
+  function subjFromSlug(s){
+    return s.replace(/Standard$/, "").trim() || "Book";
+  }
+
+  async function fetchDoc(){
+    var urls = candidateUrls(), lastErr;
+    for (var i = 0; i < urls.length; i++){
+      try { return await pdfjsLib.getDocument(urls[i]).promise; }
+      catch (e) { lastErr = e; }
+    }
+    throw lastErr;
+  }
+
+  function setVisiblePage(n){
+    pgNum.value = n;
+    prevB.disabled = n <= 1;
+    nextB.disabled = n >= count;
+  }
+  setVisiblePage(1);
+
+  function renderPage(i, canvas){
+    if (rendered[i] || rendering[i]) return;
+    rendering[i] = true;
+    return doc.getPage(i + 1).then(function(page){
+      /* render at a fixed pixel width (~1400) for print-crisp zoom-out */
+      var base = page.getViewport({ scale: 1 });
+      var scale = Math.min(2, 1400 / base.width);
+      var vp = page.getViewport({ scale: scale });
+      var cv = canvas || sheets[i].querySelector("canvas");
+      cv.width = Math.round(vp.width);
+      cv.height = Math.round(vp.height);
+      return page.render({
+        canvasContext: cv.getContext("2d"), viewport: vp,
+      }).promise.then(function(){
+        rendered[i] = true;
+        delete rendering[i];
+        cv.style.aspectRatio = (base.width + " / " + base.height);
+      });
+    }).catch(function(){ delete rendering[i]; });
+  }
+
+  function evictFar(centre){
+    var keys = Object.keys(rendered).map(Number);
+    if (keys.length <= LIVE_MAX) return;
+    keys.sort(function(a,b){ return Math.abs(a-centre) - Math.abs(b-centre); });
+    keys.slice(LIVE_MAX).forEach(function(i){
+      if (rendering[i]) return;
+      var cv = sheets[i] && sheets[i].querySelector("canvas");
+      if (cv){ cv.width = 0; cv.height = 0; }
+      delete rendered[i];
+    });
+  }
+
+  /* Render the current page plus a small prefetch window, evict the rest.
+     Rendered pages hold ~2-8 MB of canvas bitmap each, so a whole 73-page
+     book rendered eagerly pins hundreds of MB - the exact failure the main
+     reader's FB_LIVE_MAX budget exists for. Keep the window tight. */
+  function renderWindow(centre){
+    var from = Math.max(0, centre - 1);
+    var to = Math.min(count - 1, centre - 1 + PREFETCH);
+    for (var i = from; i <= to; i++) renderPage(i);
+    evictFar(centre);
+  }
+
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (!en.isIntersecting) return;
+      var i = Number(en.target.dataset.pg) + 1;
+      if (i !== current){
+        current = i;
+        setVisiblePage(i);
+        renderWindow(i);
+      }
+    });
+  }, { rootMargin: "100px 0px" });
+
+  function jump(n){
+    n = Math.max(1, Math.min(count, n));
+    var t = sheets[n - 1];
+    if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  prevB.addEventListener("click", function(){ jump((parseInt(pgNum.value,10)||1) - 1); });
+  nextB.addEventListener("click", function(){ jump((parseInt(pgNum.value,10)||1) + 1); });
+  pgNum.addEventListener("keydown", function(e){
+    if (e.key === "Enter"){
+      var n = parseInt(pgNum.value, 10);
+      if (n) jump(n);
+    }
+  });
+
+  fetchDoc().then(async function(d){
+    doc = d; count = d.numPages;
+    pgTot.textContent = "of " + count;
+    setVisiblePage(1); /* now that count is real: re-enables the arrows */
+    loadEl.style.display = "none";
+    /* true page ratio first, so shells have real height before observing
+       (otherwise all 73 flat shells intersect at once and everything renders) */
+    const p1 = await d.getPage(1);
+    const b = p1.getViewport({ scale: 1 });
+    const ratio = b.width + " / " + b.height;
+    for (let i = 0; i < count; i++){
+      const sh = document.createElement("div");
+      sh.className = "sheet"; sh.dataset.pg = i;
+      sh.style.aspectRatio = ratio;
+      sh.innerHTML = '<div class="ph" style="line-height:1">page ' + (i+1) + "</div>";
+      const cv = document.createElement("canvas");
+      /* zero-size until rendered: a fresh canvas defaults to 300x150 and
+         allocates that backing store for all 73 shells */
+      cv.width = 0; cv.height = 0;
+      sh.appendChild(cv);
+      stage.appendChild(sh);
+      sheets.push(sh);
+      io.observe(sh);
+    }
+    renderWindow(1);
+  }).then(function(){
+    if (load2) load2.style.display = "none";
+  }).catch(function(e){
+    loadEl.textContent = "Could not load this book. " + e;
+    loadEl.style.color = "#8a3b2a";
+  });
+
+  /* name the page from the manifest when it arrives */
+  fetch("/library.json").then(function(r){ return r.json(); }).then(function(lib){
+    var row = null;
+    lib.forEach(function(r){
+      if (r.slug === slug || r.slug === String(slug).replace(/-standard$/, "")) row = r;
+    });
+    if (row){
+      titleEl.textContent = (row.subject || "Book") + " — Year " + row.year;
+      document.title = (row.subject || "Book") + " Year " + row.year +
+        " (Standardised) · Prime School Books";
+    }
+  }).catch(function(){});
+})();
+</script>
+</body>
+</html>
