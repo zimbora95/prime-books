@@ -1735,13 +1735,13 @@ pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquema
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
 colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
 
-**                   **
-
 Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um
 slogan curto e memorável, um imperativo e uma frase emotiva. Desenha-o no caderno ou em cartolina e
 apresenta-o à turma em 1 minuto.
 
 26
+
+**DESAFIO CRIATIVO 21**
 
 <!-- page 27 -->
 
@@ -1875,14 +1875,14 @@ Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, 
 elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
 significado simbólico.
 
-**             **
-
 1. Escreve uma frase com cada palavra do vocabulário: cavaleiro · peregrinação · aventura · regresso.
 
 2. Imagina a mala do cavaleiro: que cinco objectos levaria numa viagem a pé até Jerusalém? Justifica cada
 escolha numa frase.
 
 29
+
+**EXERCÍCIOS 22**
 
 <!-- page 30 -->
 
@@ -1927,11 +1927,11 @@ canções e se adoravam outros deuses.
 
 2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
-**             **
-
 1. Copia do texto duas palavras que revelem o frio e duas que revelem o movimento do cavaleiro.
 
 30
+
+**EXERCÍCIOS 33**
 
 <!-- page 31 -->
 
@@ -2064,13 +2064,13 @@ da narrativa.
 **QUANDO? · A ÉPOCA DA NARRATIVA**
 Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
-**                   **
-
 Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
 andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
 sentimento e uma com um objectivo.
 
 33
+
+**DESAFIO CRIATIVO 23**
 
 <!-- page 34 -->
 
@@ -2177,12 +2177,12 @@ Durante a viagem,
 3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
 pretérito imperfeito.
 
-**             **
-
 Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
 perfeito (acções). Sublinha os verbos.
 
 35
+
+**EXERCÍCIOS 24**
 
 <!-- page 36 -->
 
@@ -2223,12 +2223,12 @@ ______ (olhar) à sua volta.
 
 Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
-**                   **
-
 «A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
 usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
 
 36
+
+**DESAFIO CRIATIVO 25**
 
 <!-- page 37 -->
 
@@ -2261,13 +2261,15 @@ No final, percebe
 QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
 mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
-**                   **
-
 Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
 objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
 representa o cansaço porque…»
 
 37
+
+**DESAFIO CRIATIVO 26**
+
+O cavaleiro junto à fogueira: noites de viagem.
 
 <!-- page 38 -->
 
@@ -2509,6 +2511,8 @@ Escreve 80 a 100 palavras, com saudação, pedido argumentado e despedida.
 
 42
 
+O jardim à noite: as flores conversam.
+
 <!-- page 43 -->
 
 ---
@@ -2648,6 +2652,8 @@ sensações, pelo menos três adjectivos e uma comparação. Dica: não escrevas
 
 46
 
+A floresta esconde portas pequenas.
+
 <!-- page 47 -->
 
 ---
@@ -2680,7 +2686,7 @@ De que forma Sophia transforma espaços naturais em lugares de fantasia? Escreve
 ✨ O fantástico permite ultrapassar os limites da realidade.
 Ἲ A personificação atribui características humanas a seres ou objectos.
 ὔ Inferir significa retirar uma conclusão a partir de pistas do texto.
-✍  Uma boa resposta apresenta uma ideia e justifica-a.
+✍
 
 **DESAFIO FINAL · CRIA A TUA PERSONAGEM 19**
 
@@ -2692,6 +2698,8 @@ Nome: ____________________ Personalidade: ____________________
 Desejo: ____________________ Medo: ____________________ Segredo: ____________________
 
 47
+
+Gulliver chega a Portugal.
 
 <!-- page 48 -->
 
@@ -3386,6 +3394,8 @@ primeiro · entretanto · de repente · nesse momento · finalmente · assim que
 
 63
 
+Mar alto: a aventura de Ulisses.
+
 <!-- page 64 -->
 
 ---
@@ -3483,7 +3493,6 @@ Prime School Press · www.primeschool.pt
 **Consigo...**
 **ὠ**
 **ὰ**
-** **
 
 identificar o conflito de uma narrativa
 ☐
@@ -3542,6 +3551,8 @@ A competência que preciso de melhorar é...
 Na próxima unidade vou tentar...
 
 67
+
+Cada personagem, uma personalidade.
 
 <!-- page 68 -->
 
@@ -3672,10 +3683,6 @@ som · uma referência à luz · uma comparação.
 Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores específicos
 que ajudem o leitor a imaginar o lugar.
 
-**    **
-
-**             **
-
 Descreve agora um lugar que conheças bem (o teu quarto, a rua da escola, a casa dos avós) em 5-6
 linhas, com os mesmos requisitos: três adjectivos, um som, a luz e uma comparação.
 
@@ -3717,12 +3724,12 @@ Cavaleiro:
 Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
 travessão (—) quando a personagem fala dentro da narração.
 
-**                   **
-
 Transforma uma cena do teu dia-a-dia (o pequeno-almoço, o recreio, o autocarro) num mini-diálogo teatral
 de 6 falas, com duas didascálias.
 
 71
+
+**DESAFIO CRIATIVO 27**
 
 <!-- page 72 -->
 
@@ -3762,6 +3769,8 @@ tempo para explicar como lá chegaste.
 ## Laboratório de Escrita · a tua viagem
 
 72
+
+A floresta pelos olhos de Isabel.
 
 <!-- page 73 -->
 
@@ -3842,13 +3851,13 @@ Regista aqui as notas para a tua apresentação:
 Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
 terminar») · controla o corpo: postura erecta, gestos naturais.
 
-**             **
-
 Grava, com o telemóvel de um colega, um «podcast de viajante» de 1 minuto: descreve a viagem
 imaginária mais incrível que farias, com início, peripécia e regresso. Depois ouve a gravação e avalia: falei
 devagar? usei conectores?
 
 74
+
+**EXERCÍCIOS 28**
 
 <!-- page 75 -->
 
@@ -3882,12 +3891,12 @@ Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu sím
 viagem porque...»
 O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 
-**                   **
-
 Escreve uma frase-poema para cada etapa do teu mapa: a partida, o obstáculo e o regresso. Junta as três
 frases: tens um mini-poema de viagem!
 
 75
+
+**DESAFIO CRIATIVO 29**
 
 <!-- page 76 -->
 
@@ -4013,6 +4022,8 @@ As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma c
 mundo.
 
 78
+
+Regressemos iguais de uma grande viagem?
 
 <!-- page 79 -->
 
@@ -4227,6 +4238,8 @@ portugueses?
 A cena continua na página seguinte…
 
 84
+
+Gulliver chega a Portugal.
 
 <!-- page 85 -->
 
@@ -4542,6 +4555,8 @@ Escolhe uma didascália do texto e explica-a como se estivesses a dar uma instru
 
 92
 
+Lê como um actor: o palco é teu.
+
 <!-- page 93 -->
 
 ---
@@ -4764,6 +4779,8 @@ O que aprendemos ao observar a nossa escola através dos olhos de Gulliver?
 
 99
 
+Viajar muda a nossa forma de ver o mundo.
+
 <!-- page 100 -->
 
 ---
@@ -4823,7 +4840,6 @@ Prime School Press · www.primeschool.pt
 **Consigo...**
 **ὠ**
 **ὰ**
-** **
 
 compreender o texto dramático
 ☐
@@ -5436,6 +5452,8 @@ Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o p
 
 112
 
+A declamação dá voz ao poema.
+
 <!-- page 113 -->
 
 ---
@@ -5498,6 +5516,8 @@ Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quant
 estrofe?»
 
 114
+
+Escreve os teus próprios versos.
 
 <!-- page 115 -->
 
