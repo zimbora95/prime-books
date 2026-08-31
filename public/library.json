@@ -87,7 +87,7 @@
     "band": "Cambridge Early Years",
     "family": "storybook",
     "level": "Lower Primary",
-    "pages": 174,
+    "pages": 176,
     "done": false,
     "pdf": "/library/y01-global-perspectives/book.pdf",
     "cover": "/library/y01-global-perspectives/cover.webp",
@@ -1344,11 +1344,11 @@
     "band": "Cambridge Lower Secondary",
     "family": "geometric",
     "level": "Lower Secondary",
-    "pages": 130,
+    "pages": 118,
     "done": false,
     "pdf": "/library/y07-portuguese-1st/book.pdf",
     "cover": "/library/y07-portuguese-1st/cover.webp",
-    "mb": 8.97,
+    "mb": 7.05,
     "buildable": false,
     "editable": true,
     "wrapCover": null
@@ -1919,7 +1919,7 @@
     "done": false,
     "pdf": "/library/y07-art-and-design-standard/book.pdf",
     "cover": "/library/y07-art-and-design-standard/cover.webp",
-    "mb": 11.97,
+    "mb": 17.95,
     "buildable": true,
     "editable": false
   }
