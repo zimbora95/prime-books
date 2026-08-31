@@ -1703,45 +1703,40 @@ PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
+26
+
 ## Revisão da Unidade 1
 
 **REVISÃO · O QUE APRENDI**
 
-LEITURA – notícia (6 perguntas, pirâmide invertida), biografia (3.ª pessoa, cronologia), artigo de
-opinião (tese, argumentos, contra-argumento), publicidade (slogan, persuasão).
+LEITURA · notícia (6 perguntas, pirâmide invertida), biografia (3.ª pessoa, cronologia), artigo de opinião (tese, argumentos,
+contra-argumento), publicidade (slogan, persuasão).
 
-ESCRITA – escrevi uma notícia, uma biografia e um texto de opinião.
+ESCRITA · escrevi uma notícia, uma biografia e um texto de opinião.
 
-ORALIDADE – escutei textos orais e destaquei a informação essencial.
+ORALIDADE · escutei textos orais e destaquei a informação essencial.
 
-GRAMÁTICA – classes e subclasses de palavras, conjugações e tempos verbais, colocação dos
-pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquemas.
+GRAMÁTICA · classes e subclasses de palavras, conjugações e tempos verbais, colocação dos pronomes, com tabelas e
+esquemas.
 
 **CHECKLIST DE REVISÃO**
-☐ Sei dizer as seis perguntas da notícia de cor?
-
-☐ Consigo desenhar a pirâmide invertida e explicá-la?
-
-☐ Distingo facto de opinião com uma prova no texto?
-
-☐ Sei três subclasses do advérbio com exemplos?
-
-☐ Sei conjugar um verbo no presente e no pretérito perfeito?
-
-☐ Sei colocar o pronome antes, depois ou dentro do verbo?
+· Sei dizer as seis perguntas da notícia de cor?
+· Consigo desenhar a pirâmide invertida e explicá-la?
+· Distingo facto de opinião com uma prova no texto?
+· Sei três subclasses do advérbio com exemplos?
+· Sei conjugar um verbo no presente e no pretérito perfeito?
+· Sei colocar o pronome antes, depois ou dentro do verbo?
 
 **TESTE-TREINO · GRUPO ÚNICO 16**
-1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
-tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
-colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
-
-Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um
-slogan curto e memorável, um imperativo e uma frase emotiva. Desenha-o no caderno ou em cartolina e
-apresenta-o à turma em 1 minuto.
-
-26
+1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a tese de um artigo
+de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome colectivo e um advérbio de dúvida. 6.
+«Tinha estudado»: qual é o verbo auxiliar?
 
 **DESAFIO CRIATIVO 21**
+
+Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um slogan curto e
+me
+minuto.
 
 <!-- page 27 -->
 
@@ -2040,15 +2035,18 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
+33
+
 ## Personagem, espaço e tempo
 
-**ANÁLISE · PERFIL DA PERSONAGEM**
+**ANÁLISE · PERFIL DA PERSONAGEM E DO ESPAÇO**
 
-**QUEM? · PREENCHE O PERFIL DA PERSONAGEM PRINCIPAL**
+**QUEM? · PREENCHE O PERFIL DO CAVALEIRO**
 
 Nome:
 
 Idade aproximada:
+
 Características físicas:
 
 Características psicológicas:
@@ -2058,19 +2056,15 @@ Objectivo:
 Principal dificuldade:
 
 **ONDE? · OS ESPAÇOS DA NARRATIVA**
-Identifica os espaços referidos no texto. Depois explica como contribui o espaço para criar o ambiente
-da narrativa.
+Identifica os espaços referidos no texto e explica como contribui o espaço para criar o ambiente da narrativa.
 
 **QUANDO? · A ÉPOCA DA NARRATIVA**
 Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
-Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
-andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
-sentimento e uma com um objectivo.
-
-33
-
 **DESAFIO CRIATIVO 23**
+
+Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a andar para sul no
+Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um sentimento e uma com um objectivo.
 
 <!-- page 34 -->
 
@@ -2177,7 +2171,7 @@ Durante a viagem,
 3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
 pretérito imperfeito.
 
-Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
+R
 perfeito (acções). Sublinha os verbos.
 
 35
@@ -2223,7 +2217,7 @@ ______ (olhar) à sua volta.
 
 Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
-«A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
+«
 usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
 
 36
@@ -2236,6 +2230,8 @@ usando o imperfeito para descrever o cenário e o perfeito para os acontecimento
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
+
+37
 
 ## A viagem como símbolo
 
@@ -2258,16 +2254,14 @@ Durante a viagem, aprende
 No final, percebe
 
 **EXERCÍCIOS 8**
-QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
-mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
-Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
-objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
-representa o cansaço porque…»
-
-37
+QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao mesmo tempo,
+conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
 **DESAFIO CRIATIVO 26**
+
+Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco objectos-símbolo (um para
+cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra representa o cansaço porque·»
 
 O cavaleiro junto à fogueira: noites de viagem.
 
@@ -3738,13 +3732,17 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
+72
+
+## Laboratório de Escrita · a tua viagem
+
 **ESCRITA · NARRATIVA DE 180 A 220 PALAVRAS**
 
-Imagina que vais partir numa viagem para um lugar completamente desconhecido. Escreve uma
-narrativa de 180 a 220 palavras que inclua:
+Imagina que vais partir numa viagem para um lugar completamente desconhecido. Escreve uma narrativa de 180 a
+220 palavras que inclua:
 
-☑ uma personagem principal ☑ um espaço desconhecido ☑ uma viagem
-☑ um acontecimento inesperado ☑ um momento de tensão ☑ um diálogo ☑ um desfecho
+· uma personagem principal · um espaço desconhecido · uma viagem
+· um acontecimento inesperado · um momento de tensão · um diálogo · um desfecho
 
 **PLANIFICA ANTES DE ESCREVER**
 
@@ -3760,15 +3758,11 @@ O que acontece no momento de maior tensão?
 
 Como termina?
 
-**O MEU RASCUNHO**
+**DESAFIO CRIATIVO 30**
 
-Escreve o primeiro parágrafo da tua narrativa «in medias res»: começa pelo momento de maior tensão (o
-barco a entrar na tempestade, a porta que se abre sozinha, o comboio que não pára) e só depois recua no
-tempo para explicar como lá chegaste.
-
-## Laboratório de Escrita · a tua viagem
-
-72
+Escreve o primeiro parágrafo da tua narrativa «in medias res»: começa pelo momento de maior tensão (o barco a entrar na
+tempestade, a porta que se abre sozinha, o comboio que não pára) e só depois recua no tempo para explicar como lá
+chegaste.
 
 A floresta pelos olhos de Isabel.
 
