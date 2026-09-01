@@ -7,7 +7,7 @@
   "use strict";
   if (!window.__PB_LIVE_BASES) {
     window.__PB_LIVE_BASES = [
-      "https://small-gather-recruiting-hiv.trycloudflare.com",
+      "https://methods-museum-quizzes-muscles.trycloudflare.com",
     ];
   }
   window.__PB_LIVE_BASE = window.__PB_LIVE_BASES[0];
