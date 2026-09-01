@@ -1,5 +1,5 @@
 # Global Perspectives - Year 4 (Prime Book)
-> Markdown companion of `public/library/y04-global-perspectives/book.pdf` (104 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y04-global-perspectives/book.pdf` (109 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -96,107 +96,139 @@ Unit 1 · Education for all
 23
 
 Unit 2 · Improving communication
-27
 
 2.1  Talking and listening
-30
 
 2.2  Body language and tone
-32
 
 2.3  Superpower phrases
-34
 
 2.4  Great questions
-36
 
 2.5  Groups and turns
-38
 
 2.6  Different styles
-40
 
 Unit 3 · Moving to a new country
-44
 
 3.1  Why families move
-47
 
 3.2  A suitcase of feelings
-49
 
 3.3  What do you pack?
-51
 
 3.4  New sounds, new words
-53
 
 3.5  Food, holidays and games
-55
 
 4
+
+28
+
+31
+
+33
+
+35
+
+37
+
+39
+
+41
+
+46
+
+49
+
+51
+
+53
+
+55
+
+57
 
 <!-- page 5 -->
 
 ---
 3.6  Project · Welcome guide
-57
 
 Unit 4 · The world of work
-61
 
 4.1  How work helps us
-64
 
 4.2  Skills for the future
-65
 
 4.3  Jobs in different places
-68
 
 4.4  From passion to profession
-70
 
 4.5  Technology and work
-72
 
 4.6  Imagine creating a job
-74
 
 Unit 5 · Digital world
-78
 
 5.1  What is the digital world?
-81
 
 5.2  Digital footprint
-83
 
 5.3  Private information
-85
 
 5.4  Kindness online
-87
 
 5.5  Finding the truth
-89
 
 5.6  Screen time balance
-91
 
 Word list
-95
 
 Sources and references
-97
 
 Answers
-100
 
 For teachers
-102
 
 5
+
+59
+
+64
+
+67
+
+68
+
+71
+
+73
+
+75
+
+77
+
+82
+
+85
+
+87
+
+89
+
+91
+
+93
+
+95
+
+100
+
+102
+
+105
+
+107
 
 <!-- page 6 -->
 
@@ -383,30 +415,20 @@ You will design one page that removes a barrier and welcomes more children.
 Five words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-education growing knowledge and skills for life, not only school lessons
+education: growing knowledge and skills for life, not only school lessons
 
-barrier something that blocks access, such as cost, distance, danger or a
+barrier: something that blocks access, such as cost, distance, danger or
 building design
 
-enquiry careful asking and checking before you decide
+enquiry: careful asking and checking before you decide
 
-inclusive designed so that more people can take part
+inclusive: designed so that more people can take part
 
-perspective a way of seeing from somebody else's place and story
+perspective: a way of seeing from somebody else's place and story
 
 10
 
 UNIT 1 · EDUCATION FOR ALL
-
-:growing knowledge and skills for life
-
-:something that blocks access
-
-:careful asking and checking before you decide
-
-:designed so that more people can take part
-
-:a way of seeing from somebody else
 
 <!-- page 11 -->
 
@@ -990,6 +1012,58 @@ UNIT 1 · EDUCATION FOR ALL
 <!-- page 27 -->
 
 ---
+**UNIT 1 - EDUCATION FOR ALL**
+
+## TIME CAPSULE
+
+**HISTORY**
+
+Long ago, most schools had one room, one teacher and
+one fire. Pupils sat on wooden benches and wrote on small
+slate boards with chalk. There were no computers, no lights
+and no school buses.
+
+Some children walked many kilometres to school, and some
+never went at all. In many places girls were kept at home to
+work, and poor families could not spare their children from
+the fields.
+
+·
+Which of these things have changed by 2026?
+
+## GLOBAL TROTTERS
+
+**GEOGRAPHY**
+
+Around the world, children travel to school in many ways. In
+Bangladesh some pupils row a boat along flooded roads. In
+Nepal they cross high rope bridges over rivers. In Kenya
+many walk several kilometres before the first lesson.
+
+Journeys can be long, risky or costly, and that is a barrier to
+education. The United Nations says every child has the right
+to reach a classroom safely.
+
+Boat, bridge, footpath,
+bus: four journeys to the
+same goal.
+
+·
+Which of these journeys is nearest to your own? Which is the most different?
+
+27
+
+In 1925, a class of forty
+
+pupils shared one slate
+
+board and one box of
+
+chalk.
+
+<!-- page 28 -->
+
+---
 U N I T 2
 2
 Improving communication
@@ -1000,9 +1074,9 @@ The Talking Circle · Talk, listen, and include everyone
 
 Can you understand somebody without interrupting them?
 
-27
+28
 
-<!-- page 28 -->
+<!-- page 29 -->
 
 ---
 Unit 2 · Improving communication
@@ -1042,35 +1116,19 @@ Some people talk, draw or think first; different is not wrong.
 Five words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-body language messages your face, hands and posture send without words
+body language: messages your face, hands and posture send without words
 
-tone how a voice sounds: kind, sharp, tired, teasing
+tone: how a voice sounds: kind, sharp, tired, teasing
 
-open question a question that needs more than yes or no
+open question: a question that needs more than yes or no
 
-closed question a question that can be answered yes or no
-
-28
+closed question: a question that can be answered yes or no
 
 UNIT 2 · IMPROVING COMMUNICATION
 
-:
+29
 
-:
-
-:
-
-:
-
-:messages your face, hands and posture send without words
-
-:how a voice sounds: kind, sharp, tired, teasing
-
-:a question that needs more than yes or no
-
-:a question that can be answered yes or no
-
-<!-- page 29 -->
+<!-- page 30 -->
 
 ---
 I-message naming your own feeling instead of blaming: "I feel… when…"
@@ -1108,11 +1166,11 @@ The big question, note printed beside it. Mateo says if he heard the words, he
 listened. Jamal says waiting to speak is not the same as listening. Try it once,
 then write who turned out to be right for you.
 
-29
-
 UNIT 2 · IMPROVING COMMUNICATION
 
-<!-- page 30 -->
+30
+
+<!-- page 31 -->
 
 ---
 UNIT 2 - TOPIC 2.1
@@ -1137,11 +1195,11 @@ You know you were listening if you can say the other person's idea back, in
 your own words, and they say yes, that is what I meant. Teachers sometimes
 use talk partners because explaining an idea out loud strengthens memory.
 
-30
-
 UNIT 2 · TOPIC 2.1 · TALKING AND LISTENING
 
-<!-- page 31 -->
+31
+
+<!-- page 32 -->
 
 ---
 Talking and listening are both needed.
@@ -1162,11 +1220,11 @@ yours.
 Many classrooms use talk partners because saying an idea out loud helps the
 brain keep it.
 
-31
-
 UNIT 2 · TOPIC 2.1 · TALKING AND LISTENING
 
-<!-- page 32 -->
+32
+
+<!-- page 33 -->
 
 ---
 ◆FROM ANOTHER CHAIR
@@ -1202,11 +1260,11 @@ room changes. Eye contact norms differ between families and places.
 
 Write one thing somebody told you today that you actually remember.
 
-32
-
 UNIT 2 · TOPIC 2.1 · TALKING AND LISTENING
 
-<!-- page 33 -->
+33
+
+<!-- page 34 -->
 
 ---
 Different is not rude by default. Ask, do not assume.
@@ -1235,11 +1293,11 @@ without thinking.
 Watch a silent clip your teacher chooses. List three messages you think you
 saw. Then discuss.
 
-33
-
 UNIT 2 · TOPIC 2.2 · BODY LANGUAGE AND TONE
 
-<!-- page 34 -->
+34
+
+<!-- page 35 -->
 
 ---
 **▲CHALLENGE YOURSELF**
@@ -1272,11 +1330,11 @@ Try these tools: "I feel… when…" · "Can we try again?" · "I hear you sayin
 
 Draw two faces saying the same word with different meaning.
 
-34
-
 UNIT 2 · TOPIC 2.2 · BODY LANGUAGE AND TONE
 
-<!-- page 35 -->
+35
+
+<!-- page 36 -->
 
 ---
 Avoid name-calling and "you always". Phrases are tools, not magic spells.
@@ -1300,11 +1358,11 @@ Please, thank you and I disagree kindly.
 I-messages help people name a feeling without attacking the other person.
 Many schools teach them in friendship programmes.
 
-35
-
 UNIT 2 · TOPIC 2.3 · SUPERPOWER PHRASES
 
-<!-- page 36 -->
+36
+
+<!-- page 37 -->
 
 ---
 ◆FROM ANOTHER CHAIR
@@ -1339,11 +1397,11 @@ good?" becomes "What made lunch better or worse today?"
 
 Write your superpower phrase in big letters.
 
-36
-
 UNIT 2 · TOPIC 2.3 · SUPERPOWER PHRASES
 
-<!-- page 37 -->
+37
+
+<!-- page 38 -->
 
 ---
 Great questions open thinking.
@@ -1368,13 +1426,13 @@ chooses.
 A good enquiry question is often hard to answer with one word, and that is
 the point.
 
-37
-
 UNIT 2 · TOPIC 2.4 · GREAT QUESTIONS
 
 2. Interview a peer with two open questions about their day (with permission ).
 
-<!-- page 38 -->
+38
+
+<!-- page 39 -->
 
 ---
 →ONE STEP FURTHER
@@ -1407,11 +1465,11 @@ moment. The same one.
 
 Your best open question today:
 
-38
-
 UNIT 2 · TOPIC 2.4 · GREAT QUESTIONS
 
-<!-- page 39 -->
+39
+
+<!-- page 40 -->
 
 ---
 ▸LET US FIND OUT
@@ -1439,11 +1497,11 @@ One person talks while others listen.
 Taking turns is not only polite. It is how groups make better decisions,
 because more ideas reach the table.
 
-39
-
 UNIT 2 · TOPIC 2.5 · GROUPS AND TURNS
 
-<!-- page 40 -->
+40
+
+<!-- page 41 -->
 
 ---
 ◆FROM ANOTHER CHAIR
@@ -1478,13 +1536,13 @@ disability rights and good teamwork everywhere. Offer a drawing option for
 
 Draw your group. Put a star on the encourager.
 
-40
-
 UNIT 2 · TOPIC 2.5 · GROUPS AND TURNS
 
 Agree on class signals for "I need a break". Inclusive communication is part of
 
-<!-- page 41 -->
+41
+
+<!-- page 42 -->
 
 ---
 one oral task this week. Notice who blossoms.
@@ -1509,11 +1567,11 @@ anybody may answer by drawing or writing instead.
 Count how many different people contributed each time. Then write one
 sentence on what the count tells you about the word "including".
 
-41
-
 UNIT 2 · TOPIC 2.6 · DIFFERENT STYLES
 
-<!-- page 42 -->
+42
+
+<!-- page 43 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -1539,11 +1597,11 @@ because it tells your teacher what to teach next.
 
 One style you will respect more carefully this week:
 
-42
-
 UNIT 2 · IMPROVING COMMUNICATION
 
-<!-- page 43 -->
+43
+
+<!-- page 44 -->
 
 ---
 I can…
@@ -1584,11 +1642,60 @@ help.
 4. Choose one person you find hard to listen to, and give them a full thirty
 seconds without planning your reply.
 
-43
-
 UNIT 2 · IMPROVING COMMUNICATION
 
-<!-- page 44 -->
+44
+
+<!-- page 45 -->
+
+---
+**UNIT 2 - IMPROVING COMMUNICATION**
+
+## TIME CAPSULE
+
+**HISTORY**
+
+Before phones, messages moved slowly. People wrote
+letters with a quill, sealed them with wax, and waited weeks
+for a reply. Then came the telegraph, which sent coded taps
+along wires, and the telephone, which carried a voice
+across a whole country.
+
+Each new invention changed how people spoke to each
+other. Good manners changed too: letters began with a
+polite greeting, just as a good conversation begins today.
+
+A quill letter, a telegraph
+key and a candlestick
+telephone.
+
+·
+Which of these old ways of communicating can you still see or use today?
+
+## GLOBAL TROTTERS
+
+**GEOGRAPHY**
+
+Around the world, people communicate in more than 7,000
+languages, and most countries speak several. In Singapore
+many children learn in two languages at school. In Kenya
+you might hear English, Kiswahili and a home language in
+one morning.
+
+When messages cross borders, tone matters even more. A
+friendly face on a video call can be understood everywhere,
+but a written message can be read the wrong way.
+Communicating well is a global skill.
+
+Speech bubbles crossing
+oceans: talking worldwide.
+
+·
+How many languages can you say hello in? Try learning one more this week.
+
+45
+
+<!-- page 46 -->
 
 ---
 U N I T 3
@@ -1601,9 +1708,9 @@ The Suitcase Path · Welcome, not gossip
 
 What does a kind welcome look like on the first day?
 
-44
+46
 
-<!-- page 45 -->
+<!-- page 47 -->
 
 ---
 Unit 3 · Moving to a new country
@@ -1639,41 +1746,17 @@ Maps, kind rules and clear help make the first week less lonely.
 Five words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-migrate to move from one place to live in another
+migrate: to move from one place to live in another
 
-settle to make a new home in a place
+settle: to make a new home in a place
 
-community people who share a place or an interest and help each other
+community: people who share a place or an interest and help each other
 
-culture everyday ways of living: food, games, languages, holidays
+culture: everyday ways of living: food, games, languages, holidays
 
-perspective a way of seeing from somebody else's place and story
+perspective: a way of seeing from somebody else's place and story
 
-45
-
-UNIT 3 · MOVING TO A NEW COUNTRY
-
-:
-
-:
-
-:
-
-:
-
-:
-
-:to move from one place to live in another
-
-:to make a new home in a place
-
-:people who share a place or an interest and help each other
-
-:everyday ways of living : food , games , languages , holidays
-
-:a way of seeing from somebody else ' s place and story
-
-<!-- page 46 -->
+<!-- page 48 -->
 
 ---
 ▣LOOK CLOSER (QR) · UNIT 3
@@ -1710,11 +1793,11 @@ Jamal says a welcome is also knowing where the toilets are. Sofia says a
 welcome is not making someone perform their whole life story on day one.
 Collect three welcome ideas before you choose.
 
-46
-
 UNIT 3 · MOVING TO A NEW COUNTRY
 
-<!-- page 47 -->
+48
+
+<!-- page 49 -->
 
 ---
 UNIT 3 - TOPIC 3.1
@@ -1740,11 +1823,11 @@ new home), community (people who share a place or interest).
 Portugal's cities, such as Lisbon and Porto, are home to many languages.
 That is part of everyday public life.
 
-47
-
 UNIT 3 · TOPIC 3.1 · WHY FAMILIES MOVE
 
-<!-- page 48 -->
+49
+
+<!-- page 50 -->
 
 ---
 Families move for many reasons.
@@ -1772,11 +1855,11 @@ Sofia says: People also move towards something good.
 
 Then: Can both be true on the same journey?
 
-48
-
 UNIT 3 · TOPIC 3.1 · WHY FAMILIES MOVE
 
-<!-- page 49 -->
+50
+
+<!-- page 51 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -1804,11 +1887,11 @@ feeling words with children who change school mid-year.
 
 Draw a map pin for "from" and a pin for "to". No real addresses.
 
-49
-
 UNIT 3 · TOPIC 3.2 · A SUITCASE OF FEELINGS
 
-<!-- page 50 -->
+51
+
+<!-- page 52 -->
 
 ---
 A suitcase can hold feelings as well as clothes.
@@ -1832,11 +1915,11 @@ means your brain is tracking a big change.
 
 Invent a kind classroom signal for "I need a quiet minute".
 
-50
-
 UNIT 3 · TOPIC 3.2 · A SUITCASE OF FEELINGS
 
-<!-- page 51 -->
+52
+
+<!-- page 53 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -1863,11 +1946,11 @@ unless someone chooses to share it.
 
 Which feeling would you unpack first on a hard day?
 
-51
-
 UNIT 3 · TOPIC 3.3 · WHAT DO YOU PACK?
 
-<!-- page 52 -->
+53
+
+<!-- page 54 -->
 
 ---
 What do you pack for a new life?
@@ -1894,11 +1977,11 @@ Jamal says: A soft toy can be useful for sleep and courage.
 
 Then: Who decides what is useful?
 
-52
-
 UNIT 3 · TOPIC 3.3 · WHAT DO YOU PACK?
 
-<!-- page 53 -->
+54
+
+<!-- page 55 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -1926,11 +2009,11 @@ mock an accent. Teachers may use dual labels on classroom doors for a while.
 
 Draw one treasure that is not expensive.
 
-53
-
 UNIT 3 · TOPIC 3.4 · NEW SOUNDS, NEW WORDS
 
-<!-- page 54 -->
+55
+
+<!-- page 56 -->
 
 ---
 New sounds and new words take practice.
@@ -1955,11 +2038,11 @@ in play, not only in worksheets.
 
 Add pictures to your phrase card so meaning is clear without perfect spelling.
 
-54
-
 UNIT 3 · TOPIC 3.4 · NEW SOUNDS, NEW WORDS
 
-<!-- page 55 -->
+56
+
+<!-- page 57 -->
 
 ---
 **▲CHALLENGE YOURSELF**
@@ -1992,11 +2075,11 @@ greetings and stories. It is not a performance for others.
 
 One word you will teach kindly this week:
 
-55
-
 UNIT 3 · TOPIC 3.4 · NEW SOUNDS, NEW WORDS
 
-<!-- page 56 -->
+57
+
+<!-- page 58 -->
 
 ---
 Compare with care. "Different" is not a ranking. Try a game from another
@@ -2016,15 +2099,15 @@ love is…
 2. Write one respectful question about someone else's tradition (no personal
 invasion).
 
-56
-
 UNIT 3 · TOPIC 3.5 · FOOD, HOLIDAYS AND GAMES
 
 Learning a new game can help you make new friends.
 
 3. Plan a class "games from different places", with teacher approval.
 
-<!-- page 57 -->
+58
+
+<!-- page 59 -->
 
 ---
 ✧DID YOU KNOW?
@@ -2056,11 +2139,11 @@ List five places a new pupil must find in the first week.
 
 Draw a table set for welcome.
 
-57
-
 UNIT 3 · TOPIC 3.5 · FOOD, HOLIDAYS AND GAMES
 
-<!-- page 58 -->
+59
+
+<!-- page 60 -->
 
 ---
 ★PROJECT
@@ -2091,11 +2174,11 @@ Show the quiet places and kind people.
 2. Write the three rules in positive language (what to do, not only what not to
 do).
 
-58
-
 UNIT 3 · TOPIC 3.6 · PROJECT · WELCOME GUIDE
 
-<!-- page 59 -->
+60
+
+<!-- page 61 -->
 
 ---
 3. Add a quiet tip for someone who feels shy.
@@ -2133,11 +2216,11 @@ because it tells your teacher what to teach next.
 
 After presentations, write one improvement for your guide.
 
-59
-
 UNIT 3 · TOPIC 3.6 · PROJECT · WELCOME GUIDE
 
-<!-- page 60 -->
+61
+
+<!-- page 62 -->
 
 ---
 I can…
@@ -2179,11 +2262,59 @@ except moving.
 4. Find out which languages are spoken in your school, and make an honest
 count for the noticeboard.
 
-60
-
 UNIT 3 · MOVING TO A NEW COUNTRY
 
-<!-- page 61 -->
+62
+
+<!-- page 63 -->
+
+---
+**UNIT 3 - MOVING TO A NEW COUNTRY**
+
+## TIME CAPSULE
+
+**HISTORY**
+
+Families have always moved. Long ago, travellers wrote letters on paper and
+waited weeks, even months, for news from home. Photographs, coins and small
+treasures were packed in a suitcase so the old home would not be forgotten.
+Historians call these keepsakes from a journey.
+
+Today we keep the same memories in different ways: photographs on a phone,
+video calls across the world and voice messages that arrive in a second.
+What has not changed is the wish to stay close to the people and places
+we leave behind.
+
+A suitcase of memories: old
+photographs, letters and
+keepsakes from home.
+
+·
+Which of these old things would you pack to remember your home, and why?
+
+## GLOBAL TROTTERS
+
+**GEOGRAPHY**
+
+Geographers ask why people move from one place to another. Some families
+move for a new job, some because of floods or dry summers, and some to
+join family in another country. Every journey crosses rivers, seas and
+borders, and each border has its own flag and language.
+
+Where a family settles changes how they live: new foods, new weather and
+new school friends. On a world map, find a country somebody in your class
+has moved from, and trace the journey that family made.
+
+Tracing journeys on a world
+map: routes across seas and
+borders.
+
+·
+How many languages can you say hello in? Try learning one more this week.
+
+63
+
+<!-- page 64 -->
 
 ---
 U N I T 4
@@ -2196,9 +2327,10 @@ The Helping Town · Jobs keep a community standing
 
 Does every useful job need a fancy title?
 
-61
+63
+64
 
-<!-- page 62 -->
+<!-- page 65 -->
 
 ---
 Unit 4 · The world of work
@@ -2239,23 +2371,18 @@ Start from a real need, a fair plan and a kindness check.
 Four words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-skill something you can do better with practice
+skill: something you can do better with practice
 
-goods things you can hold that people make or grow
+goods: things you can hold that people make or grow
 
-services helpful work people do for others
-
-62
+services: helpful work people do for others
 
 UNIT 4 · THE WORLD OF WORK
 
-:something you can do better with practice
+64
+65
 
-:things you can hold that people make or grow
-
-:helpful work people do for others
-
-<!-- page 63 -->
+<!-- page 66 -->
 
 ---
 entrepreneur somebody who tries a new service or product to meet a need
@@ -2294,14 +2421,15 @@ important jobs. Mateo says the person who keeps the toilets working is
 important too. Ask five people which job would be missed first if it vanished
 for a week.
 
-63
-
 UNIT 4 · THE WORLD OF WORK
 
 :somebody who tries a new service or product to meet a need
 :somebody who tries a new service or product to meet a need
 
-<!-- page 64 -->
+65
+66
+
+<!-- page 67 -->
 
 ---
 UNIT 4 - TOPIC 4.1
@@ -2329,11 +2457,12 @@ Work helps families and communities.
 
 Care work and paid jobs both matter.
 
-64
-
 UNIT 4 · TOPIC 4.1 · HOW WORK HELPS US
 
-<!-- page 65 -->
+66
+67
+
+<!-- page 68 -->
 
 ---
 **●YOUR TURN**
@@ -2369,11 +2498,12 @@ What are you learning NOW that adults also use at work?
 
 Draw three workers who help your morning.
 
-65
-
 UNIT 4 · TOPIC 4.1 · HOW WORK HELPS US
 
-<!-- page 66 -->
+67
+68
+
+<!-- page 69 -->
 
 ---
 ◉BOOTS ON!
@@ -2402,11 +2532,12 @@ skills too.
 
 2. Write how one of them helps outside school.
 
-66
-
 UNIT 4 · TOPIC 4.2 · SKILLS FOR THE FUTURE
 
-<!-- page 67 -->
+68
+69
+
+<!-- page 70 -->
 
 ---
 3. Choose a skill to strengthen for two weeks. How will you practise?
@@ -2433,11 +2564,12 @@ not talent, is what the word "skill" means.
 
 My practice plan:
 
-67
-
 UNIT 4 · TOPIC 4.2 · SKILLS FOR THE FUTURE
 
-<!-- page 68 -->
+69
+70
+
+<!-- page 71 -->
 
 ---
 UNIT 4 - TOPIC 4.3
@@ -2464,11 +2596,12 @@ global work can sit side by side in one family.
 Compare fairly. Do not rank countries as "better". Rank the match between
 job and need.
 
-68
-
 UNIT 4 · TOPIC 4.3 · JOBS IN DIFFERENT PLACES
 
-<!-- page 69 -->
+70
+71
+
+<!-- page 72 -->
 
 ---
 Jobs look different in different places.
@@ -2491,11 +2624,12 @@ name.
 Tourism is important in many Portuguese regions, but it is not the only work
 people do. Everyday services still run when visitors leave.
 
-69
-
 UNIT 4 · TOPIC 4.3 · JOBS IN DIFFERENT PLACES
 
-<!-- page 70 -->
+71
+72
+
+<!-- page 73 -->
 
 ---
 ◆FROM ANOTHER CHAIR
@@ -2531,11 +2665,12 @@ someone who sketches plans for buildings. Many paths.
 
 Draw two workplaces: near and far.
 
-70
-
 UNIT 4 · TOPIC 4.3 · JOBS IN DIFFERENT PLACES
 
-<!-- page 71 -->
+72
+73
+
+<!-- page 74 -->
 
 ---
 Passion can grow into a profession.
@@ -2559,11 +2694,12 @@ much as choosing one forever job at age eight.
 
 Find a library book about a job that matches your interest.
 
-71
-
 UNIT 4 · TOPIC 4.4 · FROM PASSION TO PROFESSION
 
-<!-- page 72 -->
+73
+74
+
+<!-- page 75 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -2592,11 +2728,12 @@ the need for kindness and checking facts (see Unit 5).
 
 My interest and one next practice step:
 
-72
-
 UNIT 4 · TOPIC 4.5 · TECHNOLOGY AND WORK
 
-<!-- page 73 -->
+74
+75
+
+<!-- page 76 -->
 
 ---
 Technology changes how some jobs are done.
@@ -2625,11 +2762,12 @@ Inês says: Bodies, food, roads and care still need people in the real world.
 
 Then: Name three jobs that need hands in a place, not only a cursor.
 
-73
-
 UNIT 4 · TOPIC 4.5 · TECHNOLOGY AND WORK
 
-<!-- page 74 -->
+75
+76
+
+<!-- page 77 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -2665,11 +2803,12 @@ Your mini enterprise sketch:
 
 Draw a digital tool helping a real-world job.
 
-74
-
 UNIT 4 · TOPIC 4.6 · IMAGINE CREATING A JOB
 
-<!-- page 75 -->
+76
+77
+
+<!-- page 78 -->
 
 ---
 5. One risk and one safety rule
@@ -2696,11 +2835,12 @@ Write one sentence naming them, and one sentence on what you would
 change so the idea is still worth doing. That is the kindness check, done
 properly.
 
-75
-
 UNIT 4 · TOPIC 4.6 · IMAGINE CREATING A JOB
 
-<!-- page 76 -->
+77
+78
+
+<!-- page 79 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -2726,11 +2866,12 @@ because it tells your teacher what to teach next.
 
 One idea you will improve after hearing other pitches:
 
-76
-
 UNIT 4 · THE WORLD OF WORK
 
-<!-- page 77 -->
+78
+79
+
+<!-- page 80 -->
 
 ---
 I can…
@@ -2772,11 +2913,60 @@ measurements.
 4. Take your enterprise idea to a real test: ask three people whether they
 would actually use it, and write down what they said, not what you hoped.
 
-77
-
 UNIT 4 · THE WORLD OF WORK
 
-<!-- page 78 -->
+79
+80
+
+<!-- page 81 -->
+
+---
+**UNIT 4 - THE WORLD OF WORK**
+
+## TIME CAPSULE
+
+**HISTORY**
+
+Long ago, most people did the same work as their parents, in the place
+where they were born. A baker's child learned to bake; a farmer's child
+learned to farm. Tools were simple: ovens, anvils, needles and ploughs.
+Work filled the whole family's day, from sunrise to sunset.
+
+Then machines changed everything. Trains carried food to far cities,
+factories made goods faster than any pair of hands, and new jobs were
+born: engine drivers, telegraph operators, shopkeepers. Many old trades
+are still with us today, just done with new tools.
+
+Baker, blacksmith and farmer:
+work before machines.
+
+·
+Ask a grandparent or an older neighbour: what job did people do in your
+town long ago?
+
+## GLOBAL TROTTERS
+
+**GEOGRAPHY**
+
+Around the world, people do different jobs because places are different.
+Near the sea, many people fish. On rich flat land, people farm. In big
+cities, more people work in offices, shops and hospitals. Hot places,
+cold places and busy ports all create their own kinds of work.
+
+Coffee grows on mountains in Ethiopia and Colombia, and is drunk in
+London and Lisbon. One cup travels through many hands and many jobs:
+grower, picker, shipper, roaster and the café worker who serves it.
+
+Jobs around the world: work
+changes from place to place.
+
+·
+Pick one thing in your classroom. How many people's jobs helped bring it
+here?
+
+81
+
+<!-- page 82 -->
 
 ---
 U N I T 5
@@ -2789,9 +2979,11 @@ The Careful Screen · Same manners as the playground
 
 Can something on a screen be both fun and risky at the same time?
 
-78
+80
+81
+82
 
-<!-- page 79 -->
+<!-- page 83 -->
 
 ---
 Unit 5 · Digital world
@@ -2833,20 +3025,11 @@ Sleep, outdoor play and family time still need room in the day.
 Six words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-digital world the devices, apps and networks people use to learn, play and
-talk
+digital world: the devices, apps and networks people use to learn, play and talk
 
-digital footprint the trail of posts and data you leave behind you
+digital footprint: the trail of posts and data you leave behind
 
-79
-
-UNIT 5 · DIGITAL WORLD
-
-:the devices
-
-:the trail of posts and data you leave behind you
-
-<!-- page 80 -->
+<!-- page 84 -->
 
 ---
 private information facts that stay protected, such as passwords and
@@ -2886,8 +3069,6 @@ Mateo is excited about a new game. Inês asks who made the rules. Jamal
 notices how a mean comment feels even when it is only words. Sofia wants a
 family plan for screen time that is fair, not only strict.
 
-80
-
 UNIT 5 · DIGITAL WORLD
 
 :facts that stay protected
@@ -2898,7 +3079,11 @@ UNIT 5 · DIGITAL WORLD
 
 :testing a claim against sources you trust
 
-<!-- page 81 -->
+82
+83
+84
+
+<!-- page 85 -->
 
 ---
 The big question, note printed beside it. Mateo says fun means safe. Inês says
@@ -2927,11 +3112,13 @@ classroom quiz, a weather forecast, a library catalogue.
 
 Tools are not good or bad by themselves. How people use them matters.
 
-81
-
 UNIT 5 · TOPIC 5.1 · WHAT IS THE DIGITAL WORLD?
 
-<!-- page 82 -->
+83
+84
+85
+
+<!-- page 86 -->
 
 ---
 The digital world is tools plus people.
@@ -2960,11 +3147,13 @@ Sofia says: Digital life also holds school, health advice and family news.
 
 Then: Name one serious use and one playful use you accept as both real.
 
-82
-
 UNIT 5 · TOPIC 5.1 · WHAT IS THE DIGITAL WORLD?
 
-<!-- page 83 -->
+84
+85
+86
+
+<!-- page 87 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -2992,11 +3181,13 @@ for me, or my future self saw this? Deleting is not always complete.
 
 Draw the digital tools in your week as a simple map.
 
-83
-
 UNIT 5 · TOPIC 5.2 · DIGITAL FOOTPRINT
 
-<!-- page 84 -->
+85
+86
+87
+
+<!-- page 88 -->
 
 ---
 A digital footprint is what you leave online.
@@ -3021,11 +3212,13 @@ why pause-before-post is a superpower.
 
 Design a class poster: "Pause. Would I say this in the playground?"
 
-84
-
 UNIT 5 · TOPIC 5.2 · DIGITAL FOOTPRINT
 
-<!-- page 85 -->
+86
+87
+88
+
+<!-- page 89 -->
 
 ---
 ▭LOOK OUTWARDS NOTES
@@ -3060,11 +3253,13 @@ Kind people online still need the same safety rules.
 
 My pause question:
 
-85
-
 UNIT 5 · TOPIC 5.3 · PRIVATE INFORMATION
 
-<!-- page 86 -->
+87
+88
+89
+
+<!-- page 90 -->
 
 ---
 Private information stays private.
@@ -3087,11 +3282,13 @@ favourite animal · a home phone number.
 Passwords are like house keys. You would not glue your house key to a public
 noticeboard.
 
-86
-
 UNIT 5 · TOPIC 5.3 · PRIVATE INFORMATION
 
-<!-- page 87 -->
+88
+89
+90
+
+<!-- page 91 -->
 
 ---
 ◆FROM ANOTHER CHAIR
@@ -3128,11 +3325,13 @@ Same manners as the playground
 
 My trusted adults for online questions:
 
-87
-
 UNIT 5 · TOPIC 5.3 · PRIVATE INFORMATION
 
-<!-- page 88 -->
+89
+90
+91
+
+<!-- page 92 -->
 
 ---
 No pile-ons
@@ -3159,13 +3358,15 @@ anyone.
 Many platforms have report buttons. Knowing where they are is part of digital
 skill, not "telling tales".
 
-88
-
 UNIT 5 · TOPIC 5.4 · KINDNESS ONLINE
 
 Kindness online should look like kindness offline.
 
-<!-- page 89 -->
+90
+91
+92
+
+<!-- page 93 -->
 
 ---
 →ONE STEP FURTHER
@@ -3201,11 +3402,13 @@ Fact-check steps for Year 4:
 
 My upstander plan in one sentence:
 
-89
-
 UNIT 5 · TOPIC 5.4 · KINDNESS ONLINE
 
-<!-- page 90 -->
+91
+92
+93
+
+<!-- page 94 -->
 
 ---
 4. Do not forward until checked.
@@ -3231,13 +3434,15 @@ date · believe because friends sent it.
 Professional fact-checkers compare claims with reliable sources before
 repeating them. You can start the same habit with adult help.
 
-90
-
 UNIT 5 · TOPIC 5.5 · FINDING THE TRUTH
 
 Check who wrote it and why, before you
 
-<!-- page 91 -->
+92
+93
+94
+
+<!-- page 95 -->
 
 ---
 ◆FROM ANOTHER CHAIR
@@ -3270,11 +3475,13 @@ How does your body feel after a very long screen session?
 
 My fact-check question:
 
-91
-
 UNIT 5 · TOPIC 5.5 · FINDING THE TRUTH
 
-<!-- page 92 -->
+93
+94
+95
+
+<!-- page 96 -->
 
 ---
 ◉BOOTS ON!
@@ -3307,11 +3514,13 @@ people.
 
 A family agreement can protect rest and fun.
 
-92
-
 UNIT 5 · TOPIC 5.6 · SCREEN TIME BALANCE
 
-<!-- page 93 -->
+94
+95
+96
+
+<!-- page 97 -->
 
 ---
 **●YOUR TURN**
@@ -3348,11 +3557,13 @@ Balance protects health and learning.
 
 My balance goal for the next fortnight:
 
-93
-
 UNIT 5 · TOPIC 5.6 · SCREEN TIME BALANCE
 
-<!-- page 94 -->
+95
+96
+97
+
+<!-- page 98 -->
 
 ---
 ◈EVALUATION
@@ -3399,11 +3610,62 @@ turned out to be true.
 4. Teach a younger pupil the difference between private information and
 information they may share.
 
-94
-
 UNIT 5 · DIGITAL WORLD
 
-<!-- page 95 -->
+96
+97
+98
+
+<!-- page 99 -->
+
+---
+**UNIT 5 - DIGITAL WORLD**
+
+## TIME CAPSULE
+
+**HISTORY**
+
+The first computers filled whole rooms. They hummed, glowed and needed
+a small army of people to run them. Only scientists and big companies
+could use one. A single letter took many punched cards, and one small
+mistake meant starting all over again.
+
+Little by little, computers shrank. First they sat on desks in homes and
+schools, then they slid into our pockets as phones. The same machine
+that once filled a room can now fit in your hand, and it can do a
+thousand times more.
+
+From a room-sized computer
+to a phone in your pocket.
+
+·
+Ask an adult which machines they used before smartphones. Which one do they
+miss?
+
+## GLOBAL TROTTERS
+
+**GEOGRAPHY**
+
+The internet is not magic in the air. Messages travel through real cables
+that lie on the bottom of oceans, joining one country to another, and
+through wires and towers on land. A message to a friend far away may
+cross a whole sea in less time than it takes to blink.
+
+Different places use the digital world differently. In some villages, one
+shared phone serves a whole street; in big cities, most people carry
+their own. Some countries have fast internet everywhere; others are
+still laying the first cables. Digital work crosses all of these borders.
+
+Messages really travel
+through cables under the sea.
+
+·
+Pick a website or game you love. Can you find out which country it was made
+in?
+
+99
+
+<!-- page 100 -->
 
 ---
 Word list
@@ -3483,11 +3745,14 @@ services
 Helpful work people do for others
 4
 
-95
-
 WORD LIST
 
-<!-- page 96 -->
+97
+98
+99
+100
+
+<!-- page 101 -->
 
 ---
 Word
@@ -3522,11 +3787,14 @@ fact-check
 Testing a claim with trusted sources
 5
 
-96
-
 WORD LIST
 
-<!-- page 97 -->
+98
+99
+100
+101
+
+<!-- page 102 -->
 
 ---
 Sources and references
@@ -3607,11 +3875,14 @@ Unit 1.2; replaced an earlier claim about Porto
 trams, which are mainly heritage lines and not
 a normal school journey
 
-97
-
 SOURCES AND REFERENCES
 
-<!-- page 98 -->
+99
+100
+101
+102
+
+<!-- page 103 -->
 
 ---
 Claim / topic
@@ -3709,11 +3980,14 @@ guidance (general)
 
 Unit 5.6; non-alarmist
 
-98
-
 SOURCES AND REFERENCES
 
-<!-- page 99 -->
+100
+101
+102
+103
+
+<!-- page 104 -->
 
 ---
 Claim / topic
@@ -3779,11 +4053,14 @@ subunit 1.1–5.6); QR PNGs qr-u1 … qr-u5 ; logos from RESOURCES only (not
 redrawn). Cover band: Lower Primary · Student Book (Primary begins at Year 1;
 not Early Years).
 
-99
-
 SOURCES AND REFERENCES
 
-<!-- page 100 -->
+101
+102
+103
+104
+
+<!-- page 105 -->
 
 ---
 Answers
@@ -3853,11 +4130,14 @@ you do
 
 One action, chosen and finished. Judge follow-through, not ambition
 
-100
-
 ANSWERS
 
-<!-- page 101 -->
+102
+103
+104
+105
+
+<!-- page 106 -->
 
 ---
 Unit 2 · Improving communication
@@ -3898,11 +4178,14 @@ password, street address, a home phone number (not favourite colour/animal)
 5.5
 forward at once = risky; ask who posted / check date = helpful
 
-101
-
 ANSWERS
 
-<!-- page 102 -->
+103
+104
+105
+106
+
+<!-- page 107 -->
 
 ---
 For teachers
@@ -3940,22 +4223,28 @@ Observation of group turn-taking (Unit 2).
 Family balance goal conversation (Unit 5), never public shaming about screen
 time.
 
-102
-
 FOR TEACHERS
 
-<!-- page 103 -->
+104
+105
+106
+107
+
+<!-- page 108 -->
 
 ---
 Curriculum note
 Independent publication. Map topics to your school Global Perspectives /
 citizenship plan as needed.
 
-103
-
 FOR TEACHERS
 
-<!-- page 104 -->
+105
+106
+107
+108
+
+<!-- page 109 -->
 
 ---
 **P R I M E  B O O K S**

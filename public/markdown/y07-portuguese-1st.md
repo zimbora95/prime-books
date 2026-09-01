@@ -1703,40 +1703,45 @@ PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
 
 Prime School Press · www.primeschool.pt
 
-26
-
 ## Revisão da Unidade 1
 
 **REVISÃO · O QUE APRENDI**
 
-LEITURA · notícia (6 perguntas, pirâmide invertida), biografia (3.ª pessoa, cronologia), artigo de opinião (tese, argumentos,
-contra-argumento), publicidade (slogan, persuasão).
+LEITURA – notícia (6 perguntas, pirâmide invertida), biografia (3.ª pessoa, cronologia), artigo de
+opinião (tese, argumentos, contra-argumento), publicidade (slogan, persuasão).
 
-ESCRITA · escrevi uma notícia, uma biografia e um texto de opinião.
+ESCRITA – escrevi uma notícia, uma biografia e um texto de opinião.
 
-ORALIDADE · escutei textos orais e destaquei a informação essencial.
+ORALIDADE – escutei textos orais e destaquei a informação essencial.
 
-GRAMÁTICA · classes e subclasses de palavras, conjugações e tempos verbais, colocação dos pronomes, com tabelas e
-esquemas.
+GRAMÁTICA – classes e subclasses de palavras, conjugações e tempos verbais, colocação dos
+pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquemas.
 
 **CHECKLIST DE REVISÃO**
-· Sei dizer as seis perguntas da notícia de cor?
-· Consigo desenhar a pirâmide invertida e explicá-la?
-· Distingo facto de opinião com uma prova no texto?
-· Sei três subclasses do advérbio com exemplos?
-· Sei conjugar um verbo no presente e no pretérito perfeito?
-· Sei colocar o pronome antes, depois ou dentro do verbo?
+☐ Sei dizer as seis perguntas da notícia de cor?
+
+☐ Consigo desenhar a pirâmide invertida e explicá-la?
+
+☐ Distingo facto de opinião com uma prova no texto?
+
+☐ Sei três subclasses do advérbio com exemplos?
+
+☐ Sei conjugar um verbo no presente e no pretérito perfeito?
+
+☐ Sei colocar o pronome antes, depois ou dentro do verbo?
 
 **TESTE-TREINO · GRUPO ÚNICO 16**
-1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a tese de um artigo
-de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome colectivo e um advérbio de dúvida. 6.
-«Tinha estudado»: qual é o verbo auxiliar?
+1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
+tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
+colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
 
-**DESAFIO CRIATIVO 21**
+**                   **
 
-Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um slogan curto e
-me
-minuto.
+Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um
+slogan curto e memorável, um imperativo e uma frase emotiva. Desenha-o no caderno ou em cartolina e
+apresenta-o à turma em 1 minuto.
+
+26
 
 <!-- page 27 -->
 
@@ -1870,14 +1875,14 @@ Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, 
 elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
 significado simbólico.
 
+**             **
+
 1. Escreve uma frase com cada palavra do vocabulário: cavaleiro · peregrinação · aventura · regresso.
 
 2. Imagina a mala do cavaleiro: que cinco objectos levaria numa viagem a pé até Jerusalém? Justifica cada
 escolha numa frase.
 
 29
-
-**EXERCÍCIOS 22**
 
 <!-- page 30 -->
 
@@ -1922,11 +1927,11 @@ canções e se adoravam outros deuses.
 
 2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
+**             **
+
 1. Copia do texto duas palavras que revelem o frio e duas que revelem o movimento do cavaleiro.
 
 30
-
-**EXERCÍCIOS 33**
 
 <!-- page 31 -->
 
@@ -2035,18 +2040,15 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
-33
-
 ## Personagem, espaço e tempo
 
-**ANÁLISE · PERFIL DA PERSONAGEM E DO ESPAÇO**
+**ANÁLISE · PERFIL DA PERSONAGEM**
 
-**QUEM? · PREENCHE O PERFIL DO CAVALEIRO**
+**QUEM? · PREENCHE O PERFIL DA PERSONAGEM PRINCIPAL**
 
 Nome:
 
 Idade aproximada:
-
 Características físicas:
 
 Características psicológicas:
@@ -2056,15 +2058,19 @@ Objectivo:
 Principal dificuldade:
 
 **ONDE? · OS ESPAÇOS DA NARRATIVA**
-Identifica os espaços referidos no texto e explica como contribui o espaço para criar o ambiente da narrativa.
+Identifica os espaços referidos no texto. Depois explica como contribui o espaço para criar o ambiente
+da narrativa.
 
 **QUANDO? · A ÉPOCA DA NARRATIVA**
 Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
-**DESAFIO CRIATIVO 23**
+**                   **
 
-Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a andar para sul no
-Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um sentimento e uma com um objectivo.
+Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
+andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
+sentimento e uma com um objectivo.
+
+33
 
 <!-- page 34 -->
 
@@ -2171,12 +2177,12 @@ Durante a viagem,
 3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
 pretérito imperfeito.
 
-R
+**             **
+
+Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
 perfeito (acções). Sublinha os verbos.
 
 35
-
-**EXERCÍCIOS 24**
 
 <!-- page 36 -->
 
@@ -2217,12 +2223,12 @@ ______ (olhar) à sua volta.
 
 Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
-«
+**                   **
+
+«A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
 usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
 
 36
-
-**DESAFIO CRIATIVO 25**
 
 <!-- page 37 -->
 
@@ -2230,8 +2236,6 @@ usando o imperfeito para descrever o cenário e o perfeito para os acontecimento
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
-
-37
 
 ## A viagem como símbolo
 
@@ -2254,16 +2258,16 @@ Durante a viagem, aprende
 No final, percebe
 
 **EXERCÍCIOS 8**
+QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
+mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
-QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao mesmo tempo,
-conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
+**                   **
 
-**DESAFIO CRIATIVO 26**
+Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
+objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
+representa o cansaço porque…»
 
-Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco objectos-símbolo (um para
-cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra representa o cansaço porque·»
-
-O cavaleiro junto à fogueira: noites de viagem.
+37
 
 <!-- page 38 -->
 
@@ -2505,8 +2509,6 @@ Escreve 80 a 100 palavras, com saudação, pedido argumentado e despedida.
 
 42
 
-O jardim à noite: as flores conversam.
-
 <!-- page 43 -->
 
 ---
@@ -2646,8 +2648,6 @@ sensações, pelo menos três adjectivos e uma comparação. Dica: não escrevas
 
 46
 
-A floresta esconde portas pequenas.
-
 <!-- page 47 -->
 
 ---
@@ -2680,7 +2680,7 @@ De que forma Sophia transforma espaços naturais em lugares de fantasia? Escreve
 ✨ O fantástico permite ultrapassar os limites da realidade.
 Ἲ A personificação atribui características humanas a seres ou objectos.
 ὔ Inferir significa retirar uma conclusão a partir de pistas do texto.
-✍
+✍  Uma boa resposta apresenta uma ideia e justifica-a.
 
 **DESAFIO FINAL · CRIA A TUA PERSONAGEM 19**
 
@@ -2692,8 +2692,6 @@ Nome: ____________________ Personalidade: ____________________
 Desejo: ____________________ Medo: ____________________ Segredo: ____________________
 
 47
-
-Gulliver chega a Portugal.
 
 <!-- page 48 -->
 
@@ -3388,8 +3386,6 @@ primeiro · entretanto · de repente · nesse momento · finalmente · assim que
 
 63
 
-Mar alto: a aventura de Ulisses.
-
 <!-- page 64 -->
 
 ---
@@ -3487,6 +3483,7 @@ Prime School Press · www.primeschool.pt
 **Consigo...**
 **ὠ**
 **ὰ**
+** **
 
 identificar o conflito de uma narrativa
 ☐
@@ -3545,8 +3542,6 @@ A competência que preciso de melhorar é...
 Na próxima unidade vou tentar...
 
 67
-
-Cada personagem, uma personalidade.
 
 <!-- page 68 -->
 
@@ -3677,6 +3672,10 @@ som · uma referência à luz · uma comparação.
 Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores específicos
 que ajudem o leitor a imaginar o lugar.
 
+**    **
+
+**             **
+
 Descreve agora um lugar que conheças bem (o teu quarto, a rua da escola, a casa dos avós) em 5-6
 linhas, com os mesmos requisitos: três adjectivos, um som, a luz e uma comparação.
 
@@ -3718,12 +3717,12 @@ Cavaleiro:
 Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
 travessão (—) quando a personagem fala dentro da narração.
 
+**                   **
+
 Transforma uma cena do teu dia-a-dia (o pequeno-almoço, o recreio, o autocarro) num mini-diálogo teatral
 de 6 falas, com duas didascálias.
 
 71
-
-**DESAFIO CRIATIVO 27**
 
 <!-- page 72 -->
 
@@ -3732,17 +3731,13 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
-72
-
-## Laboratório de Escrita · a tua viagem
-
 **ESCRITA · NARRATIVA DE 180 A 220 PALAVRAS**
 
-Imagina que vais partir numa viagem para um lugar completamente desconhecido. Escreve uma narrativa de 180 a
-220 palavras que inclua:
+Imagina que vais partir numa viagem para um lugar completamente desconhecido. Escreve uma
+narrativa de 180 a 220 palavras que inclua:
 
-· uma personagem principal · um espaço desconhecido · uma viagem
-· um acontecimento inesperado · um momento de tensão · um diálogo · um desfecho
+☑ uma personagem principal ☑ um espaço desconhecido ☑ uma viagem
+☑ um acontecimento inesperado ☑ um momento de tensão ☑ um diálogo ☑ um desfecho
 
 **PLANIFICA ANTES DE ESCREVER**
 
@@ -3758,13 +3753,15 @@ O que acontece no momento de maior tensão?
 
 Como termina?
 
-**DESAFIO CRIATIVO 30**
+**O MEU RASCUNHO**
 
-Escreve o primeiro parágrafo da tua narrativa «in medias res»: começa pelo momento de maior tensão (o barco a entrar na
-tempestade, a porta que se abre sozinha, o comboio que não pára) e só depois recua no tempo para explicar como lá
-chegaste.
+Escreve o primeiro parágrafo da tua narrativa «in medias res»: começa pelo momento de maior tensão (o
+barco a entrar na tempestade, a porta que se abre sozinha, o comboio que não pára) e só depois recua no
+tempo para explicar como lá chegaste.
 
-A floresta pelos olhos de Isabel.
+## Laboratório de Escrita · a tua viagem
+
+72
 
 <!-- page 73 -->
 
@@ -3845,13 +3842,13 @@ Regista aqui as notas para a tua apresentação:
 Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
 terminar») · controla o corpo: postura erecta, gestos naturais.
 
+**             **
+
 Grava, com o telemóvel de um colega, um «podcast de viajante» de 1 minuto: descreve a viagem
 imaginária mais incrível que farias, com início, peripécia e regresso. Depois ouve a gravação e avalia: falei
 devagar? usei conectores?
 
 74
-
-**EXERCÍCIOS 28**
 
 <!-- page 75 -->
 
@@ -3885,12 +3882,12 @@ Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu sím
 viagem porque...»
 O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 
+**                   **
+
 Escreve uma frase-poema para cada etapa do teu mapa: a partida, o obstáculo e o regresso. Junta as três
 frases: tens um mini-poema de viagem!
 
 75
-
-**DESAFIO CRIATIVO 29**
 
 <!-- page 76 -->
 
@@ -4016,8 +4013,6 @@ As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma c
 mundo.
 
 78
-
-Regressemos iguais de uma grande viagem?
 
 <!-- page 79 -->
 
@@ -4232,8 +4227,6 @@ portugueses?
 A cena continua na página seguinte…
 
 84
-
-Gulliver chega a Portugal.
 
 <!-- page 85 -->
 
@@ -4549,8 +4542,6 @@ Escolhe uma didascália do texto e explica-a como se estivesses a dar uma instru
 
 92
 
-Lê como um actor: o palco é teu.
-
 <!-- page 93 -->
 
 ---
@@ -4773,8 +4764,6 @@ O que aprendemos ao observar a nossa escola através dos olhos de Gulliver?
 
 99
 
-Viajar muda a nossa forma de ver o mundo.
-
 <!-- page 100 -->
 
 ---
@@ -4834,6 +4823,7 @@ Prime School Press · www.primeschool.pt
 **Consigo...**
 **ὠ**
 **ὰ**
+** **
 
 compreender o texto dramático
 ☐
@@ -5446,8 +5436,6 @@ Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o p
 
 112
 
-A declamação dá voz ao poema.
-
 <!-- page 113 -->
 
 ---
@@ -5510,8 +5498,6 @@ Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quant
 estrofe?»
 
 114
-
-Escreve os teus próprios versos.
 
 <!-- page 115 -->
 

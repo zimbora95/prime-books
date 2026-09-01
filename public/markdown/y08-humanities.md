@@ -354,8 +354,6 @@ Prime School Press - www.primeschool.pt
 <!-- page 10 -->
 
 ---
-## s book
-
 Every numbered topic follows the same rhythm, so you learn the furniture once.
 
 **BEFORE YOU READ**
@@ -542,16 +540,14 @@ Population, migration and settlement
 
 Why do people live where they live, and why do they move?
 
+know the question each chapter is for.
+
+Revision tip: cover the enquiry column and say each unit title in order. Then un
+
 Unit 4
-Trade, transport and connection
+**Trade, transport and connection**
 
 Why do societies trade, and which routes shape power?
-
-Geographical thinking. Look for place and movement in the image, then name which unit enquiry it helps you
-answer first.
-
-Revision tip: cover the enquiry column and say each unit title in order. Then uncover and check you still
-know the question each chapter is for.
 
 <!-- page 17 -->
 
@@ -749,8 +745,6 @@ U N I T 1 - T O P I C 1 . 2
 ---
 Bridge: direction tells you which way; scale tells you how far. The next topic turns centimetres on paper
 
-YOUR T UR N
-
 C AR EFUL
 
 Always check the compass rose: north is not "up the page" until the map says so. Wrong orientation
@@ -774,13 +768,12 @@ Prime School Press - www.primeschool.pt
 
 U N I T 1 - T O P I C 1 . 2
 
-Sea routes need clear language for heading and return. Notice how a coast and open
-water force you to name directions if you want a ship (or an army) to meet a place, not a guess.
+**YOUR TURN**
 
-one sentence that uses a cardinal or intermediate direction correctly. Then swap with a partner and check
-each sentence against a map.
-
-Think like a geographer. Pick two Year 8 places (for example Athens and Egypt, or Lisbon and Rome). Write
+Sea routes need clear language for heading and return. Notice how a coast and open water force you to name
+directions if you want a ship (or an army) to meet a place, not a guess. Think like a geographer. Pick two
+Year 8 places (for example Athens and Egypt, or Lisbon and Rome). Write one sentence that uses a cardinal
+or intermediate direction correctly. Then swap with a partner and check each sentence against a map.
 
 <!-- page 23 -->
 
@@ -3230,13 +3223,12 @@ visitors than a quiet inland school with one road. Athens felt open to strangers
 both democracy debates and imperial ambition.
 
 Prime School Press - www.primeschool.pt
-
-**The Parthenon in Athens. Public buildings expressed the pride and wealth of the polis.**
-
 75
 
 · TEMPLE RUINS IN SUNLIGHT.
 UNIT 6 - TOPIC 6.1
+
+**The Parthenon in Athens. Public buildings expressed the pride and wealth of the polis.**
 
 <!-- page 76 -->
 
@@ -3288,6 +3280,8 @@ U N I T 6 - T O P I C 6 . 1
 · TEMPLE RUINS IN SUNLIGHT.
 
 76
+
+**Figure 6.1 · Athens and its port at Piraeus, joined by the Long Walls.**
 
 <!-- page 77 -->
 
@@ -3568,6 +3562,8 @@ U N I T 6 - T O P I C 6 . 4
 
 81
 
+**The agora of Sparta: the public square where citizen life and decisions met.**
+
 <!-- page 82 -->
 
 ---
@@ -3596,9 +3592,6 @@ Unit 7: Greek culture, ideas and conflict. Read the enquiry first, then the acco
 <!-- page 83 -->
 
 ---
-A temple on a hill shows how belief, place and politics mixed. Notice the open approach: festivals and processions used the
-whole site.
-
 **Myths are traditional stories about gods, heroes and origins. They carry values and explanations: why a**
 festival exists, why a landscape is sacred, how pride is punished. They are evidence of belief and identity, not
 modern science reports. A myth about a sea god does not replace a chart of winds, but it shows what sailors
@@ -4683,8 +4676,9 @@ U N I T 8 - T O P I C 8 . 4
 
 106
 
-**Hellenistic art: gold jewellery, bronze statuettes and carved gems. Greek craft met**
-**the wealth and tastes of a much wider world after Alexander.**
+**Hellenistic art: the Victory of Samothrace, gold jewellery, bronzes and carved stones.**
+
+**Greek craft met the wealth of the East after Alexander.**
 
 <!-- page 107 -->
 
@@ -4995,25 +4989,25 @@ U N I T 9 - T O P I C 9 . 3
 ---
 Prime School Press - www.primeschool.pt
 
-U N I T 9 - T O P I C 9 . 3
-
 114
+
+**Romulus and Remus with the she-wolf. Foundation myths explain a city·s origins in legend.**
 
 **WHAT YOU CAN NOW DO**
 
-Answer the unit enquiry with at least two pieces of evidence.
+Answer the unit enquiry with at least two
+pieces of evidence.
 
-Use one map skill or geographical term correctly in that answer.
-
-Explain how this unit connects to the year question: how states, empires and networks develop.
+Use one map skill or geographical term
+correctly in that answer.
 
 **THE ENQUIRY**
 
-Why did a city on the Tiber become a Mediterranean power?
+Why did a city on the Tiber become a
+Mediterranean power?
 
-Plan a one-page enquiry poster for this chapter's main question.
-
-**Romulus and Remus with the she-wolf. Foundation myths explain a city·s origins in legend.**
+Plan a one-page enquiry poster for this
+chapter's main question.
 
 <!-- page 115 -->
 
@@ -6281,7 +6275,7 @@ U N I T 1 3 - T O P I C 1 3 . 3
 <!-- page 143 -->
 
 ---
-Do not treat 476 CE as the day "everything Roman stopped". It marks the end of western imperial rule;
+Do not treat 476 CE as the day "everything Roman stoppe
 
 Prime School Press - www.primeschool.pt
 
@@ -6289,12 +6283,12 @@ Prime School Press - www.primeschool.pt
 
 **The division of the Roman Empire: the West ruled from Rome, the East from Constantinople.**
 
-**East and West after 395 CE**
-
 · INTERNAL AND EXTERNAL PRESSURES ON THE WEST.
 UNIT 13 - TOPIC 13.3
 
 143
+
+**Constantinople: the walled city on the strait that became the eastern capital.**
 
 <!-- page 144 -->
 
@@ -6373,21 +6367,7 @@ U N I T 1 3 - T O P I C 1 3 . 4
 <!-- page 145 -->
 
 ---
-WH AT YOU C AN NOW DO
-
-er?
-
-in question.
-
-Answer the unit enquiry with at least two pieces of evidence.
-
-Use one map skill or geographical term correctly in that answer.
-
-n: how states, empires and networks develop.
-
 Prime School Press - www.primeschool.pt
-
-U N I T 1 3 - T O P I C 1 3 . 4
 
 **Conímbriga, Portugal: mosaics and walls of a Roman town in Lusitania.**
 
@@ -7344,23 +7324,9 @@ U N I T 1 5 - T O P I C 1 5 . 4
 <!-- page 168 -->
 
 ---
-WOR DS FOR T H IS UNIT
-
-**vassal, manor, castle, feudalism**
-
-WH AT YOU C AN NOW DO
-
-T H E ENQUIR Y
-
 Why did feudal ties and castles develop where they did?
 
 Plan a one-page enquiry poster for this chapter's main question.
-
-Answer the unit enquiry with at least two pieces of evidence.
-
-Use one map skill or geographical term correctly in that ans
-
-Explain how this unit connects to the year question: how stat
 
 Prime School Press - www.primeschool.pt
 
@@ -7369,6 +7335,24 @@ U N I T 1 5 - T O P I C 1 5 . 4
 **Afonso Henriques, first King of Portugal.**
 
 168
+
+**WORDS FOR THIS UNIT**
+
+vassal, manor, castle, feudalism
+
+**WHAT YOU CAN NOW DO**
+
+Answer the unit enquiry with at least two pieces of evidence.
+
+Use one map skill or geographical term correctly in that answer.
+
+Explain how this unit connects to the year question: how states,
+
+empires and networks develop.
+
+**THE ENQUIRY**
+
+Why did feudal ties and castles develop where they did?
 
 <!-- page 169 -->
 
@@ -8015,8 +7999,6 @@ T O P IC 1 7. 2
 
 Mediterranean
 
-T e acc
-
 Prime School Press - www.primeschool.pt
 
 U N I T 1 7 - T O P I C 1 7 . 2
@@ -8046,6 +8028,8 @@ for many times the purchase price. Example 2. A caravan pays for water and prote
 one broken peace treaty can strand cargo for months. Why it matters: long-distance trade is a chain of costs
 and geography; break one link and prices jump. Bridge: faith also put people on the road as pilgrims,
 creating another layer of movement beside merchants.
+
+**The account**
 
 <!-- page 186 -->
 
@@ -11372,62 +11356,38 @@ A Lusitanian leader who resisted Roman conquest in the second century BCE. Unit 
 ---
 **SOURCES AND REFERENCES**
 
-Prime School Press - www.primeschool.pt
-
 ## Sources and references
 
 Every figure, date and statistic in this book was checked against a source named here before it was printed. The
 QR destinations are listed too, so the book works without a device.
-
-**Written and data sources**
-
+Written and data sources
 1. Classical Greek geography and the polis, Oxford Classical Dictionary / standard school histories. 2026-08-08. Units 5
 to 7
-
 2. Persian Wars major dates (Marathon 490 BCE; Thermopylae and Salamis 480 BCE), standard chronological
 consensus.
 2026-08-08. Topic 7.3
 3. Peloponnesian War 431 to 404 BCE, standard chronology. 2026-08-08. Topic 7.4
-
 4. Alexander dies 323 BCE; Hellenistic successor kingdoms, standard chronology. 2026-08-08. Unit 8
-
 5. Traditional Rome founding 753 BCE; Republic from 509 BCE, conventional textbook chronology. 2026-08-08. Unit 9
-
 6. Augustan principate from 27 BCE, standard chronology. 2026-08-08. Unit 11
-
 7. Empire near greatest extent under Trajan c. 117 CE, standard. 2026-08-08. Unit 12
-
 8. Constantine and Constantinople fourth century CE, standard. 2026-08-08. Unit 13
-
 9. Deposition of the last widely recognised western emperor 476 CE, conventional textbook date. 2026-08-08. Topic
 13.3
-
 10. Early Islamic expansion seventh century onward; presence in Iberia from 711, standard. 2026-08-08. Units 14 to 15
-
 11. First Crusade called 1095; Jerusalem taken 1099, standard. 2026-08-08. Unit 18
-
 12. Black Death mid-fourteenth century in western Europe, standard demographic history. 2026-08-08. Unit 19
-
 13. Hundred Years' War 1337 to 1453, standard. 2026-08-08. Unit 20
-
 14. Afonso Henriques and twelfth-century Portuguese kingship; Lisbon 1147, Portuguese standard narrative.
 2026-08-08. Units
 15 to 16
 15. Crisis of 1383 to 1385; Battle of Aljubarrota 1385; Avis dynasty, Portuguese standard narrative. 2026-08-08. Topic
 20.3
-
 17. Viriathus and Lusitanian resistance second century BCE, standard Iberian Roman history. 2026-08-08. Topic 10.4
-
 18. Map types, scale, latitude and longitude, Ordnance Survey education practice / standard school geography.
-2026-08-08. Unit
-119. Landforms and settlement relationships, standard physical geography pedagogy. 2026-08-08. Unit 2
-
-20. Push and pull migration factors, standard human geography. 2026-08-08. Unit 3
 
 21. Mediterranean as connecting sea, standard historical geography. 2026-08-08. Unit 4
-
 22. Silk Road as a network not a single road, standard world history teaching. 2026-08-08. Topics 4.4 and 17.2
-
 23. u1-maps, Ordnance Survey Mapzone. https://www.ordnancesurvey.co.uk/mapzone. Practise map types, symbols
 and scale with
 school-level tools.
@@ -11440,6 +11400,10 @@ world scale.
 26. u4-trade, National Geographic Education, trade. https://education.nationalgeographic.org/resource/trade/. Why
 places
 exchange goods and ideas.
+
+245
+
+19. Landforms and settlement relationships, standard physical geography pedagogy. 2026-08-08. Unit 2
 
 245
 
@@ -11494,7 +11458,6 @@ craft and materials of medieval life.
 ---
 **SOURCES AND REFERENCES**
 
-Prime School Press - www.primeschool.pt
 247
 
 39. u17-trade, Smarthistory, Silk Roads beginner guide. https://smarthistory.org/a-beginners-guide-to-the-silk-roads/. A
@@ -11508,6 +11471,8 @@ https://www.bl.uk/medieval-english-french-manuscripts/articles. Manuscripts and 
 42. u20-war, National Army Museum, Explore. https://www.nam.ac.uk/explore. How war changes more than battle lines.
 
 43. u20-batalha, National Gallery of Art. https://www.nga.gov/. Gothic art and architecture collections.
+
+Prime School Press - www.primeschool.pt
 
 <!-- page 248 -->
 

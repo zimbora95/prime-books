@@ -1,5 +1,5 @@
 # Global Perspectives - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-global-perspectives/book.pdf` (174 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-global-perspectives/book.pdf` (176 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -2117,6 +2117,8 @@ everybody worked, even the smallest children. Only
 rich boys learned to read and write; girls
 learned to cook, sew and mind the animals.
 
+**Stamp two of six. Two down, four to go.**
+
 <!-- page 71 -->
 
 ---
@@ -2334,23 +2336,19 @@ TOPIC 3.3
 
 A screen is good at some parts of learning and poor at others.
 
-while you think
+UNIT  3  DIGITAL  WORLD
+TOPIC 3.4
+**77**
 
-sitting next to you
-
-good at: showing you a place you cannot go to, saying a word
-again, waiting
+good at: showing you a place you cannot go to, saying a
+word again, waiting while you think
 
 **✓**
 
 poor at: noticing that you have stopped understanding,
-passing you a pencil,
+passing you a pencil, sitting next to you
 
 **✓**
-
-UNIT  3  DIGITAL  WORLD
-TOPIC 3.4
-**77**
 
 <!-- page 79 -->
 
@@ -2401,19 +2399,6 @@ TOPIC 3.5
 <!-- page 80 -->
 
 ---
-**Three rules, one page. Learn these three and you have the important part.**
-
-**WATCH HOW IT WORKS**
-
-A message arrives. It says: "Hi! What school do you go to?"
-
-Rule 1 says your school is one of your own things. So you do not
-answer that question.
-
-Rule 2 says you tell somebody. Not because you have done
-anything wrong, but because it is the sort of question a person
-should know about.
-
 **YOUR TURN**
 
 Which of these would you keep to yourself? Tick them.
@@ -2425,6 +2410,23 @@ TOPIC 3.5
 
 your favourite colour
 your address
+
+**Three rules, one page. Learn these three and you have the important part.**
+
+**WATCH HOW IT WORKS**
+
+A message arrives. It says: “Hi! What school do you go to?”
+
+Rule 1 says your school is one of your own things. So you do not
+answer that question.
+
+Rule 2 says you tell somebody. Not because you have done
+anything wrong, but because it is the sort of question a person
+should know about.
+
+Rule 3 says you do not know who is asking. A screen can say
+hi and a name, and still be anybody at all. So you keep
+your own things yours, even from a friendly message.
 
 <!-- page 81 -->
 
@@ -2610,8 +2612,11 @@ TOPIC 3.8
 <!-- page 88 -->
 
 ---
-**U N I T 3 - T O P I C 3 . 9**
+UNIT  3  DIGITAL  WORLD
+TOPIC 3.9
+**87**
 
+**U N I T 3 - T O P I C 3 . 9**
 ## Technology on the farm
 
 Farming is one of the oldest jobs in the world, and it is also one of the
@@ -2621,23 +2626,16 @@ places where the newest machines are turning up.
 
 **LET'S FIND OUT**
 
-goes only where it is needed
-
-up from above long before it shows up from the gate
-
 ## a sensor in the ground can tell the farmer how wet the soil
-is, so water
+is, so water goes only where it is needed
 
 **✓**
 
-## a drone can photograph a whole field in minutes, and a tired
-patch shows
+## a drone can photograph a whole field in minutes, and a
+tired patch shows up from above long before it shows up
+from the gate
 
 **✓**
-
-UNIT  3  DIGITAL  WORLD
-TOPIC 3.9
-**87**
 
 <!-- page 89 -->
 
@@ -2717,33 +2715,6 @@ TOPIC 3.9
 <!-- page 91 -->
 
 ---
-## TIME CAPSULE
-
-**History**
-
-Screens are new, but sending messages is very old. Long
-ago people wrote on clay tablets, then on paper letters
-carried by horse and ship. Later came the telegraph, the
-telephone, and at last the internet. Every screen you see
-today began as a stone with marks on it.
-
-## GLOBAL TROTTERS
-
-**Geography**
-
-The digital world reaches almost everywhere. In the
-desert a child can have her lesson on a screen, and in a
-jungle village one tablet can be shared by the whole
-class. But some children have no electricity at all, so
-their school has no screens - only books, chalk and talk.
-
-UNIT  3  DIGITAL  WORLD
-TOPIC 3.9
-**90**
-
-<!-- page 92 -->
-
----
 **Your third passport stamp**
 
 You have finished Unit 3, and half the book.
@@ -2769,7 +2740,11 @@ digital · device · screen · online · safe · kind sensor · drone · invent 
 
 IT  3  DIGITAL  WORLD
 TOPIC 3.9
-**91**
+**90**
+
+<!-- page 92 -->
+
+---
 
 <!-- page 93 -->
 
@@ -3323,6 +3298,51 @@ TOPIC 4.8
 <!-- page 112 -->
 
 ---
+## TIME CAPSULE
+
+**History**
+
+Talking is the oldest machine of all. Long ago, news
+travelled as fast as a runner could run or a horse could
+ride. Towns rang bells to call everyone together, and fire
+or drum beats on hills carried simple messages for many
+miles. Writing letters changed everything: for the first
+time a message could outlive the person who sent it.
+
+## GLOBAL TROTTERS
+
+**Geography**
+
+All over the world people talk without a single word.
+Some children use hand signs, some read braille with
+their fingers, and some write letters that travel for
+weeks. A wave, a smile or a nod means the same thing in
+almost every country on Earth. Wherever you go,
+kindness needs no translation.
+
+UNIT  4  IMPROVING  COMMUNICATION
+TOPIC 4.8
+**111**
+
+From talking to telephones.
+Talking without words, everywhere.
+
+**TRY THIS - THE SILENT GAME**
+
+Play it with a partner:
+
+**1**
+Think of an animal. Do not say its name.
+
+**2**
+Show it to your partner using only your hands and face.
+
+**3**
+Your partner gets three guesses. No words allowed!
+
+<!-- page 113 -->
+
+---
 **Your fourth passport stamp**
 
 You have finished Unit 4.
@@ -3338,12 +3358,6 @@ name two ways of communicating that are not speech
 use four steps to sort out an argument
 **✓**
 
-say why a written message is easy to misread
-**✓**
-
-name one way an animal sends a message
-**✓**
-
 **MY NEW WORDS**
 
 communicate · message · listen · verbal · non-verbal feelings · language · sign ·
@@ -3351,9 +3365,9 @@ braille · agree · apologise
 
 IT  4  IMPROVING  COMMUNICATION
 TOPIC 4.8
-**111**
+**112**
 
-<!-- page 113 -->
+<!-- page 114 -->
 
 ---
 **U N I T 5 · M O V I N G**
@@ -3392,9 +3406,9 @@ work out which journeys are kindest to the world
 design a way of travelling that nobody has built yet
 **✓**
 
-**112**
+**113**
 
-<!-- page 114 -->
+<!-- page 115 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 1**
@@ -3421,9 +3435,9 @@ Every journey is chosen from four things:
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.1
-**113**
+**114**
 
-<!-- page 115 -->
+<!-- page 116 -->
 
 ---
 **Sanne's morning. Rain, a bicycle that is too big, and she goes anyway.**
@@ -3452,9 +3466,9 @@ the other.
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.1
-**114**
+**115**
 
-<!-- page 116 -->
+<!-- page 117 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 2**
@@ -3471,9 +3485,9 @@ How long does it take?
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.2
-**115**
+**116**
 
-<!-- page 117 -->
+<!-- page 118 -->
 
 ---
 **At the shop. The last few metres of a very long journey.**
@@ -3505,9 +3519,9 @@ ripening.
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.2
-**116**
+**117**
 
-<!-- page 118 -->
+<!-- page 119 -->
 
 ---
 **DID YOU KNOW?**
@@ -3531,9 +3545,9 @@ reach us?
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.2
-**117**
+**118**
 
-<!-- page 119 -->
+<!-- page 120 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 3**
@@ -3566,9 +3580,9 @@ price of a few lorries. It takes a fortnight.
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.3
-**118**
+**119**
 
-<!-- page 120 -->
+<!-- page 121 -->
 
 ---
 ## A plane does the same distance overnight, and carries almost
@@ -3592,9 +3606,9 @@ Why would fresh flowers go by air and shoes go by ship?
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.3
-**119**
+**120**
 
-<!-- page 121 -->
+<!-- page 122 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 4**
@@ -3619,9 +3633,9 @@ TOPIC 5.3
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.4
-**120**
+**121**
 
-<!-- page 122 -->
+<!-- page 123 -->
 
 ---
 **In the car. The belt goes on before the car moves, not after.**
@@ -3636,9 +3650,9 @@ it is the stopping that hurts you.
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.4
-**121**
+**122**
 
-<!-- page 123 -->
+<!-- page 124 -->
 
 ---
 **The way to school. Sanne's route, and the two places she is**
@@ -3659,9 +3673,9 @@ listen. Then sit down.
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.4
-**122**
+**123**
 
-<!-- page 124 -->
+<!-- page 125 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 5**
@@ -3687,9 +3701,9 @@ Which of the six would work where you live?
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.5
-**123**
+**124**
 
-<!-- page 125 -->
+<!-- page 126 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 6**
@@ -3719,9 +3733,9 @@ first:
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.6
-**124**
+**125**
 
-<!-- page 126 -->
+<!-- page 127 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 7**
@@ -3760,9 +3774,9 @@ Choose one and try it this week. Which one?
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.7
-**125**
+**126**
 
-<!-- page 127 -->
+<!-- page 128 -->
 
 ---
 **Three vehicles with a job. When you hear one, you get out of its way.**
@@ -3783,9 +3797,9 @@ What should you do on the pavement when you hear a siren?
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.7
-**126**
+**127**
 
-<!-- page 128 -->
+<!-- page 129 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 8**
@@ -3811,9 +3825,9 @@ It travels on land, water or air:
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.8
-**127**
+**128**
 
-<!-- page 129 -->
+<!-- page 130 -->
 
 ---
 **U N I T 5 - T O P I C 5 . 9**
@@ -3830,9 +3844,9 @@ Draw it, and label the part you are proudest of.
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.9
-**128**
+**129**
 
-<!-- page 130 -->
+<!-- page 131 -->
 
 ---
 **LET'S FIND OUT**
@@ -3875,9 +3889,9 @@ harness?
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.9
-**129**
+**130**
 
-<!-- page 131 -->
+<!-- page 132 -->
 
 ---
 ## Along the way: our class journey map
@@ -3903,9 +3917,48 @@ Draw your own journey here first.
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.9
-**130**
+**131**
 
-<!-- page 132 -->
+<!-- page 133 -->
+
+---
+## TIME CAPSULE
+
+**History**
+
+The first travellers walked. Then people tamed horses,
+built boats from logs, and later laid railway tracks across
+whole countries. Moving things got faster in every
+century, and each new way of travelling changed what
+people could eat, wear and buy.
+
+From walking to railways.
+
+## GLOBAL TROTTERS
+
+**Geography**
+
+Every country moves things differently. Rich flat lands
+use long trains, mountains use donkeys and ropeways,
+hot deserts use camels, and islands use boats and
+planes. The world's busiest ports stack containers as tall
+as buildings.
+
+Travelling on every kind of land.
+
+UNIT  5  MOVING  GOODS  AND  PEOPLE
+TOPIC 5.9
+**132**
+
+**COLOUR IT - TRAVEL LONG AGO**
+
+Horse and cart - brown
+River - blue
+
+Fields - green
+Sun - yellow
+
+<!-- page 134 -->
 
 ---
 ## Now I can
@@ -3944,22 +3997,41 @@ journey · goods · transport · port · cargo route · fuel · environment · s
 
 IT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.9
-**131**
+**133**
 
-<!-- page 133 -->
+<!-- page 135 -->
 
 ---
 **Stamp five of six. One to go.**
 
 UNIT  5  MOVING  GOODS  AND  PEOPLE
 TOPIC 5.9
-**132**
+**134**
 
-<!-- page 134 -->
+**MY TRAVEL PROJECT - FOR HOMEWORK**
+
+Keep a travel diary for one week. Bring it to class to share!
+
+**1**
+Draw or photograph one journey you make this week.
+
+**2**
+Count how many cars, buses and bicycles you see on it.
+
+**3**
+Write down where the things in your lunchbox came from.
+
+**4**
+Choose your favourite way to travel and draw it here.
+
+**5**
+Ask a grown-up how they travelled when they were small.
+
+<!-- page 136 -->
 
 ---
 
-<!-- page 135 -->
+<!-- page 137 -->
 
 ---
 **U N I T 6 · F A M I L Y**
@@ -4000,9 +4072,9 @@ meet four celebrations from four countries
 say what respecting somebody actually looks like
 **✓**
 
-**134**
+**136**
 
-<!-- page 136 -->
+<!-- page 138 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 1**
@@ -4029,9 +4101,9 @@ Who is in your house?
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.1
-**135**
+**137**
 
-<!-- page 137 -->
+<!-- page 139 -->
 
 ---
 **LET'S FIND OUT**
@@ -4057,9 +4129,9 @@ Write one thing your family does together.
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.1
-**136**
+**138**
 
-<!-- page 138 -->
+<!-- page 140 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 2**
@@ -4085,9 +4157,9 @@ one, because it is the one you see every day.
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.2
-**137**
+**139**
 
-<!-- page 139 -->
+<!-- page 141 -->
 
 ---
 **Eating together. Different food, different table, same idea.**
@@ -4109,9 +4181,9 @@ Who counts as family?
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.2
-**138**
+**140**
 
-<!-- page 140 -->
+<!-- page 142 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 3**
@@ -4141,9 +4213,9 @@ A good friend:
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.3
-**139**
+**141**
 
-<!-- page 141 -->
+<!-- page 143 -->
 
 ---
 **Sharing. It is only sharing when you would rather not.**
@@ -4168,9 +4240,9 @@ Write one thing they do that makes them a good friend.
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.3
-**140**
+**142**
 
-<!-- page 142 -->
+<!-- page 144 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 4**
@@ -4192,9 +4264,9 @@ Somebody answers the telephone all day.
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.4
-**141**
+**143**
 
-<!-- page 143 -->
+<!-- page 145 -->
 
 ---
 **Around the school. The shop, the clinic, the park, the library, and the people in them.**
@@ -4209,9 +4281,9 @@ Draw a map of what is near your school.
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.4
-**142**
+**144**
 
-<!-- page 144 -->
+<!-- page 146 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 5**
@@ -4239,9 +4311,9 @@ One small thing our class could do together:
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.5
-**143**
+**145**
 
-<!-- page 145 -->
+<!-- page 147 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 6**
@@ -4263,9 +4335,9 @@ what happened.
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.6
-**144**
+**146**
 
-<!-- page 146 -->
+<!-- page 148 -->
 
 ---
 **Lunar New Year. A new year that begins with the moon,**
@@ -4276,9 +4348,9 @@ whole town outside.
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.6
-**145**
+**147**
 
-<!-- page 147 -->
+<!-- page 149 -->
 
 ---
 **Santos Populares, in Portugal. Grilled sardines, paper**
@@ -4293,9 +4365,9 @@ The reasons are different. The shape is remarkably similar.
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.6
-**146**
+**148**
 
-<!-- page 148 -->
+<!-- page 150 -->
 
 ---
 **Getting ready. Most of a celebration happens before it starts.**
@@ -4313,9 +4385,9 @@ Draw one thing you would see at it.
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.6
-**147**
+**149**
 
-<!-- page 149 -->
+<!-- page 151 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 7**
@@ -4349,9 +4421,9 @@ being interested rather than surprised
 
 UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.7
-**148**
+**150**
 
-<!-- page 150 -->
+<!-- page 152 -->
 
 ---
 **U N I T 6 - T O P I C 6 . 8**
@@ -4386,9 +4458,9 @@ What should happen when two people's traditions disagree?
 
 IT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
 TOPIC 6.8
-**149**
+**151**
 
-<!-- page 151 -->
+<!-- page 153 -->
 
 ---
 **Everybody at home. The cat and the dog live here too.**
@@ -4411,9 +4483,9 @@ mice.
 
 UNIT  2  RICH  AND  POOR
 TOPIC 6.8
-**150**
+**152**
 
-<!-- page 152 -->
+<!-- page 154 -->
 
 ---
 ## Along the way: our class culture wall
@@ -4446,9 +4518,9 @@ What I am bringing:
 
 IT  2  RICH  AND  POOR
 TOPIC 6.8
-**151**
+**153**
 
-<!-- page 153 -->
+<!-- page 155 -->
 
 ---
 ## Now I can
@@ -4488,9 +4560,9 @@ ask about somebody's culture instead of assuming
 
 UNIT  2  RICH  AND  POOR
 TOPIC 6.8
-**152**
+**154**
 
-<!-- page 154 -->
+<!-- page 156 -->
 
 ---
 **Your last passport stamp**
@@ -4509,9 +4581,66 @@ belong · share · care
 
 IT  2  RICH  AND  POOR
 TOPIC 6.8
-**153**
+**155**
 
-<!-- page 155 -->
+**TIME CAPSULE**
+**History**
+
+Children have always played. Long ago there were no
+plastic toys, so children raced, wrestled, rolled hoops and
+pulled ropes. Many games you play today are hundreds of
+years old.
+
+**GLOBAL TROTTERS**
+**Geography**
+
+Children play everywhere. Football is loved on every
+continent, cricket fills village greens, and kites fly over
+busy cities. Ask a friend which games their family played.
+
+**PLAY IT - GAMES GRANDPARENTS KNEW**
+
+**1**
+Ask a grandparent or grown-up which game they played
+
+when they were your age.
+
+**2**
+Learn the game and teach it to your class.
+
+**3**
+Play it together, then draw it in your book.
+
+<!-- page 157 -->
+
+---
+## TIME CAPSULE
+
+**History**
+
+Families have always looked after each other. Long ago,
+with no shops or fridges, families grew food together,
+grandparents told stories by candlelight because there
+were no books, and whole generations lived in one house.
+
+Families long ago.
+
+## GLOBAL TROTTERS
+
+**Geography**
+
+Every country shows family differently. Some families are
+big and loud, others small and quiet, and in many places
+neighbours are treated just like family. Festivals, food
+and songs are passed down from grandparents to you.
+
+Families and communities everywhere.
+
+UNIT  6  FAMILY,  FRIENDS,  COMMUNITY  AND  CULTURE
+TOPIC 6.9
+**156**
+
+<!-- page 158 -->
 
 ---
 ## Our World Fair
@@ -4548,9 +4677,9 @@ from Unit 6, your family, drawn exactly as it is
 
 UNIT  1  SPORTS  AND  RECREATION
 OUR WORLD FAIR
-**154**
+**157**
 
-<!-- page 156 -->
+<!-- page 159 -->
 
 ---
 **Setting up. Everything on this table was made by somebody in your class.**
@@ -4568,13 +4697,9 @@ Draw your table, and where each thing will go.
 
 IT  1  SPORTS  AND  RECREATION
 OUR WORLD FAIR
-**155**
+**158**
 
-<!-- page 157 -->
-
----
-
-<!-- page 158 -->
+<!-- page 160 -->
 
 ---
 ## How did it go?
@@ -4624,9 +4749,9 @@ friend
 
 IT  1  SPORTS  AND  RECREATION
 HOW DID IT GO?
-**157**
+**159**
 
-<!-- page 159 -->
+<!-- page 161 -->
 
 ---
 **I CAN**
@@ -4652,9 +4777,9 @@ The thing I would like to try again:
 
 UNIT  1  SPORTS  AND  RECREATION
 HOW DID IT GO?
-**158**
+**160**
 
-<!-- page 160 -->
+<!-- page 162 -->
 
 ---
 ## Words we used
@@ -4739,9 +4864,9 @@ a machine built to do a job for a person
 
 OBAL  PERSPECTIVES  YEAR  1
 WORDS WE USED
-**159**
+**161**
 
-<!-- page 161 -->
+<!-- page 163 -->
 
 ---
 **WORD**
@@ -4810,9 +4935,9 @@ seriously
 
 GLOBAL  PERSPECTIVES  YEAR  1
 WORDS WE USED
-**160**
+**162**
 
-<!-- page 162 -->
+<!-- page 164 -->
 
 ---
 ## Answers
@@ -4869,9 +4994,9 @@ Accept any answer with a reason.
 
 OBAL  PERSPECTIVES  YEAR  1
 ANSWERS
-**161**
+**163**
 
-<!-- page 163 -->
+<!-- page 165 -->
 
 ---
 **Unit 2**
@@ -4936,9 +5061,9 @@ ground to dig.
 
 GLOBAL  PERSPECTIVES  YEAR  1
 ANSWERS
-**162**
+**164**
 
-<!-- page 164 -->
+<!-- page 166 -->
 
 ---
 **Unit 3**
@@ -5002,9 +5127,9 @@ A gesture, a facial expression, a drawing, a picture sign.
 
 OBAL  PERSPECTIVES  YEAR  1
 ANSWERS
-**163**
+**165**
 
-<!-- page 165 -->
+<!-- page 167 -->
 
 ---
 **QUESTION**
@@ -5070,9 +5195,9 @@ The pupil's own route.
 
 GLOBAL  PERSPECTIVES  YEAR  1
 ANSWERS
-**164**
+**166**
 
-<!-- page 166 -->
+<!-- page 168 -->
 
 ---
 **QUESTION**
@@ -5137,9 +5262,9 @@ somebody who notices.
 
 OBAL  PERSPECTIVES  YEAR  1
 ANSWERS
-**165**
+**167**
 
-<!-- page 167 -->
+<!-- page 169 -->
 
 ---
 ## Where the facts came from
@@ -5234,9 +5359,9 @@ of living languages (over 7 100)
 
 GLOBAL  PERSPECTIVES  YEAR  1
 WHERE THE FACTS CAME FROM
-**166**
+**168**
 
-<!-- page 168 -->
+<!-- page 170 -->
 
 ---
 **THE FACT, AND WHERE IT PRINTS**
@@ -5293,9 +5418,9 @@ resources
 
 OBAL  PERSPECTIVES  YEAR  1
 WHERE THE FACTS CAME FROM
-**167**
+**169**
 
-<!-- page 169 -->
+<!-- page 171 -->
 
 ---
 ## For teachers
@@ -5338,9 +5463,9 @@ template and no fixed number of boxes. That is the point of the page.
 
 GLOBAL  PERSPECTIVES  YEAR  1
 FOR TEACHERS
-**168**
+**170**
 
-<!-- page 170 -->
+<!-- page 172 -->
 
 ---
 Some pupils will draw two people and some will draw nine, and both
@@ -5354,9 +5479,9 @@ and each is run by a named institution.
 
 OBAL  PERSPECTIVES  YEAR  1
 FOR TEACHERS
-**169**
+**171**
 
-<!-- page 171 -->
+<!-- page 173 -->
 
 ---
 **SCAN TO FIND OUT MORE**
@@ -5421,17 +5546,17 @@ SC038979
 
 GLOBAL  PERSPECTIVES  YEAR  1
 FOR TEACHERS
-**170**
-
-<!-- page 172 -->
-
----
-
-<!-- page 173 -->
-
----
+**172**
 
 <!-- page 174 -->
+
+---
+
+<!-- page 175 -->
+
+---
+
+<!-- page 176 -->
 
 ---
 **P R I M E  B O O K S**

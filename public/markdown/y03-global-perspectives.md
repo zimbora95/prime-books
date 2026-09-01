@@ -693,9 +693,6 @@ Malha
 Portugal
 Throw a metal disc along the ground at a wooden pin
 
-Boule
-s
-
 France
 Throw metal balls as close as you can to a small target
 ball
@@ -720,6 +717,8 @@ yet.
 19
 
 UNIT 1 · SPORTS AND RECREATION
+
+Boules
 
 <!-- page 20 -->
 
@@ -1178,23 +1177,22 @@ One free afternoon, four different choices. Look for who chose to be busy and
 
 who chose to be quiet.
 
-**YOUR TURN**
+33
 
-Fill in your own free-time record for yesterday. Use the 24 hour clock.
+UNIT 1 · SPORTS AND RECREATION
+
+**YOUR TURN**
+Fill in your own free‑time record for yesterday. Use the 24 hour clock.
 
 **Time**
 **What I chose to do**
 **Busy or quiet?**
 
-1. Which of your choices was the most active?
+1. Which of your choices was the most active?
 
-2. Which one rested you most?
+2. Which one rested you most?
 
-3. Write one thing you would like more time for.
-
-33
-
-UNIT 1 · SPORTS AND RECREATION
+3. Write one thing you would like more time for.
 
 <!-- page 34 -->
 
@@ -1488,11 +1486,12 @@ UNIT 1 · SPORTS AND RECREATION
 
 **History**
 People were playing board games thousands of years ago, long before phones or TVs. The
-Greeks started the Olympic Games, and football rules were written down in England in 1863.
+Greeks started the Olympic Games, and football rules were written down in England in
+1863.
 
 **Geography**
-Ice hockey where it snows. Football on sandy beaches. Swimming where the sea is warm.
-Every country has its own games.
+Ice hockey where it snows. Football on sandy beaches. Swimming where the sea is
+warm. Every country has its own games.
 
 <!-- page 40 -->
 
@@ -2221,8 +2220,8 @@ UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 **HUMANITIES CORNER**
 
 **History**
-Long before coins, people swapped what they had. Thousands of years ago, China made the
-first paper money.
+Long before coins, people swapped what they had. Thousands of years ago, China made
+the first paper money.
 
 **Geography**
 Some countries have tall glass towers, others villages of small houses. Where you live
@@ -2519,9 +2518,6 @@ them.
 
 **HERE IS HOW IT WORKS**
 
-## A device is a machine that does a job. It helps to name the job, because a
-device with no named job tends to eat your afternoon.
-
 **Device**
 **The job it does**
 **What it is not for**
@@ -2534,9 +2530,6 @@ just in case
 Tablet
 Reading, drawing, looking things up
 Being the only thing you do
-
-Compu
-ter
 
 Writing, making, working on something long
 Nothing in particular; it is a
@@ -2553,6 +2546,11 @@ Keeping everything
 UNIT 3 · TOPIC 3.2 · DIGITAL DEVICES AROUND US
 
 66
+
+Computer
+
+A device is a machine that does one job for you. Every device is good at its own
+job.
 
 <!-- page 67 -->
 
@@ -2605,9 +2603,6 @@ Four things have to be in place before a device is any use:
 
 ## Money, to buy the device and to keep paying for the signal.
 
-## Knowing how, which is why a school with tablets and no teacher training
-has expensive shelves.
-
 So the same country can have a city where everything is instant and a village
 an hour away where a single shared computer in the school is the whole of
 the digital world. That is not a story about clever people and backward
@@ -2624,6 +2619,8 @@ on a telephone, having never owned a desktop computer at all.
 UNIT 3 · TOPIC 3.3 · TECHNOLOGY AROUND THE WORLD
 
 68
+
+## Knowing how , someone who can show you what to do.
 
 <!-- page 69 -->
 
@@ -3113,12 +3110,12 @@ UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 **HUMANITIES CORNER**
 
 **History**
-The first messages were pictures. Ancient Egyptians wrote with signs called hieroglyphs, and for
-centuries letters travelled by horse, ship and carrier pigeon.
+The first messages were pictures. Ancient Egyptians wrote with signs called hieroglyphs,
+and for centuries letters travelled by horse, ship and carrier pigeon.
 
 **Geography**
-Under the oceans run glowing fibre‑optic cables that carry messages between continents in
-a blink. In space, satellites bounce signals to the farthest islands.
+Under the oceans run glowing fibre‑optic cables that carry messages between
+continents in a blink. In space, satellites bounce signals to the farthest islands.
 
 <!-- page 81 -->
 
@@ -3148,13 +3145,13 @@ U N I T 4
 ## 4
 ## Improving communication
 
-Saying what you mean, hearing what was actually said, and mending it when neither happens
-
 **THE B IG Q U ESTIO N**
 
 How do you know you have been understood?
 
 82
+
+How to say things clearly, listen well, and understand each other.
 
 <!-- page 83 -->
 
@@ -3826,8 +3823,8 @@ The Phoenician traders spread the first alphabet by ship, and for a 
 copied books by hand, one slow page at a time.
 
 **Geography**
-Greeks theatre masks carried feelings to the back row. Flag signals spoke between ships at
-sea. Every culture invented its own ways to be understood.
+Greeks theatre masks carried feelings to the back row. Flag signals spoke between
+ships at sea. Every culture invented its own ways to be understood.
 
 <!-- page 99 -->
 
@@ -4198,9 +4195,6 @@ something it is best at.
 **Best at**
 **Not good at**
 
-**Lan**
-**d**
-
 Foot, bicycle, car, bus,
 tram, lorry, train
 
@@ -4209,9 +4203,6 @@ cheaply
 
 Crossing water or
 mountains
-
-**Wat**
-**er**
 
 Ferry, fishing boat,
 cargo ship, river barge
@@ -4251,6 +4242,10 @@ ship, train.
 UNIT 5 · TOPIC 5.3 · LAND, WATER AND AIR TRANSPORT
 
 109
+
+**Land**
+
+**Water**
 
 <!-- page 110 -->
 
@@ -4744,12 +4739,12 @@ UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 **HUMANITIES CORNER**
 
 **History**
-The wheel was invented over five thousand years ago, and steam trains crossed bridges people
-said could never be built.
+The wheel was invented over five thousand years ago, and steam trains crossed bridges
+people said could never be built.
 
 **Geography**
-Canal boats float goods across flat Holland, camels carry them over burning deserts, and
-roads spiral around mountains. The land chooses the transport.
+Canal boats float goods across flat Holland, camels carry them over burning deserts,
+and roads spiral around mountains. The land chooses the transport.
 
 <!-- page 121 -->
 
@@ -5216,9 +5211,6 @@ In Portugal, for example:
 **When**
 **What it marks**
 
-Carnav
-al
-
 February or
 March,
 before Lent
@@ -5232,27 +5224,16 @@ April
 
 A religious festival; families gather and share food
 
-Santos
-Popula
-res
-
 June
 Street festivals for local saints, with grilled sardines, music
 and paper decorations. Lisbon celebrates Santo António on
 13 June, Porto celebrates São João on 24 June
-
-São
-Martin
-ho
 
 11
 November
 
 Roasted chestnuts and the new season's wine, at the turn
 towards winter
-
-Christ
-mas
 
 24 and 25
 December
@@ -5268,6 +5249,14 @@ remembered.
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
 133
+
+Carnaval
+
+Santos Populares
+
+São Martinho
+
+Christmas
 
 <!-- page 134 -->
 
@@ -5331,28 +5320,21 @@ same reason somebody else's feels normal to them.
 
 ## Respect is the practical part, and it is four habits:
 
-## Ask instead of assuming. One person does not speak for a whole country.
-
-## Say the name properly. Ask how it is said, then use it. It matters more than
-almost anything else you can do.
-
-## Do not mock. Not food, not clothes, not an accent, not a name. Not as a
-joke either, because the joke is not yours to make.
-
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
 135
 
+## Ask questions. If you do not know, just ask nicely.
+
+## Say names correctly. Learn how, and use it every time.
+
+## Be kind about differences. Never laugh at food, clothes or accents.
+
+## Be curious, not judgemental. Try new things and learn about others.
+
 <!-- page 136 -->
 
 ---
-## Do not treat it as a costume. Being interested is welcome. Dressing up as
-somebody's culture for fun is not.
-
-## And one more, which is harder: do not make somebody the representative
-## of their culture. A pupil who has moved to your school is a pupil, who would
-like to play, and not a walking geography lesson.
-
 **SEE IT THEIR WAY**
 
 A new pupil, Amina, joins the class in October. Three ideas about the first day.
@@ -5383,6 +5365,9 @@ somewhere?
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
 136
+
+One more thing: a new pupil is a person, not a poster for their country. Let them
+play, laugh and be themselves.
 
 <!-- page 137 -->
 
@@ -5515,12 +5500,12 @@ UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 **HUMANITIES CORNER**
 
 **History**
-Roman families gathered in courtyards, and medieval villages danced at festivals. Celebrations
-have always glued communities together.
+Roman families gathered in courtyards, and medieval villages danced at festivals.
+Celebrations have always glued communities together.
 
 **Geography**
-Every culture celebrates in its own way. Portugal roasts chestnuts for São Martinho, Japan
-lights lanterns at summer festivals, and children everywhere hold hands.
+Every culture celebrates in its own way. Portugal roasts chestnuts for São Martinho,
+Japan lights lanterns at summer festivals, and children everywhere hold hands.
 
 <!-- page 140 -->
 

@@ -1,5 +1,5 @@
 # Global Perspectives - Year 2 (Prime Book)
-> Markdown companion of `public/library/y02-global-perspectives/book.pdf` (176 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y02-global-perspectives/book.pdf` (178 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -1114,11 +1114,6 @@ THE PLAYING FIELDS
 
 Why do we walk, and not run, when the floor is wet?
 
-**BO O TS O N!**
-
-Look at the helmet in the picture. Show with your fingers where it should
-sit on your own head.
-
 **LET US FIND OUT**
 
 Nobody makes rules just to spoil your fun. Almost every rule in a game is
@@ -1158,17 +1153,16 @@ Think of a rule in a game you play. Write what it stops happening.
 
 The rule is
 
-**BIG THINKING**
-
-Rufus wants to take the goalposts away so nobody can crash into them.
-Bram says then it is not football any more. Is a safer game always a
-better game?
-
 **2**
 
 UNIT  1  ‑  TOPIC  1.5
 THE PLAYING FIELDS
 **30**
+
+BIG THINKING
+Rufus wants to take the goalposts away so nobody can crash into them.
+Bram says then it is not football any more. Is a safer game always a
+better game?
 
 <!-- page 31 -->
 
@@ -1808,24 +1802,31 @@ THE PLAYING FIELDS
 <!-- page 47 -->
 
 ---
+T H E   P L A Y I N G   F I E L D S   ·   H I S T O R Y
+Time capsule
 
-**T H E   P L A Y I N G   F I E L D S   ·   H I S T O R Y**
+History
 
-# Time capsule
+Children in ancient Egypt ran and jumped and wrestled.
+Children in ancient China kicked a ball called cuju, which
+was a little bit like football. In Ghana children played
+ampe, clapping and jumping. In India they played kabaddi,
+and in Portugal the old game of the péla was chased down
+the street.
 
-## History
+Nobody bought these games in a shop. Children taught
+them to each other, and they travelled from land to land
+the way a ball travels from player to player.
 
-Children in ancient Egypt ran and jumped and wrestled. Children in ancient China kicked a ball called cuju, which was a little bit like football. In Ghana children played ampe, clapping and jumping. In India they played kabaddi, and in Portugal the old game of the péla was chased down the street.
+T H E   P L A Y I N G   F I E L D S   ·   G E O G R A P H Y
+Global trotters
 
-Nobody bought these games in a shop. Children taught them to each other, and they travelled from land to land the way a ball travels from player to player.
+Geography
 
-**T H E   P L A Y I N G   F I E L D S   ·   G E O G R A P H Y**
-
-# Global trotters
-
-## Geography
-
-Sport is a map you can play. Football needs a field, ice hockey needs cold winters, and surfing needs a sea. Every game tells you something about the place it comes from, and every place plays something of its own.
+Sport is a map you can play. Football needs a field,
+ice hockey needs cold winters, and surfing needs a sea.
+Every game tells you something about the place it
+comes from, and every place plays something of its own.
 
 <!-- page 48 -->
 
@@ -2534,6 +2535,34 @@ THE LONG ROAD HOME
 <!-- page 66 -->
 
 ---
+T  H  E     L  O  N  G     R  O  A  D     H  O  M  E   ·   H  I  S  T  O  R  Y
+Time capsule
+History
+
+UNIT  2  ‑  THE  LONG  ROAD  HOME
+THE LONG ROAD HOME
+65
+
+Long ago, people made homes from whatever the land gave them. In Mongolia
+the ger uses wooden poles and thick felt from sheep, because the family moves
+and the home must move too. In Italy, trulli were built of dry stone with no
+cement at all, one roof balanced on the next. In the Netherlands some families
+live on houseboats on the canals, and in Madeira the little palheiro houses
+wear steep straw roofs painted red, white and blue.
+
+Every one of these homes is exactly right for where it stands. That is the
+test of a good home: not what it is made of, but how well it fits the weather,
+
+the ground and the lives of the people inside it.
+
+T  H  E     L  O  N  G     R  O  A  D     H  O  M  E   ·   G  E  O  G  R  A  P  H  Y
+Global trotters
+
+Geography
+
+<!-- page 67 -->
+
+---
 **U N I T 3 · T H E G L O WI N G WI N D O W · T E RM 2**
 ## Digital world
 
@@ -2550,7 +2579,7 @@ Where the Field Club looks into a screen and asks who is looking back
 
 **65**
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 **U NIT 3 · THE GL O WING WINDO W**
@@ -2586,7 +2615,7 @@ UNIT  3
 THE GLOWING WINDOW
 **66**
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 **U NIT 3 - TO P IC 3 .1**
@@ -2631,7 +2660,7 @@ UNIT  3  ‑  TOPIC  3.1
 THE GLOWING WINDOW
 **67**
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 **DID YO U KNO W?**
@@ -2659,7 +2688,7 @@ UNIT  3  ‑  TOPIC  3.1
 THE GLOWING WINDOW
 **68**
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 **U NIT 3 - TO P IC 3 . 2**
@@ -2690,7 +2719,7 @@ UNIT  3  ‑  TOPIC  3.2
 THE GLOWING WINDOW
 **69**
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 shop. Once you start counting them you will find far more than you
@@ -2729,7 +2758,7 @@ UNIT  3  ‑  TOPIC  3.2
 THE GLOWING WINDOW
 **70**
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 **U NIT 3 - TO P IC 3 . 3**
@@ -2758,7 +2787,7 @@ UNIT  3  ‑  TOPIC  3.3
 THE GLOWING WINDOW
 **71**
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 A small solar lamp charges in the sun all day and lets a child do their
@@ -2805,7 +2834,7 @@ UNIT  3  ‑  TOPIC  3.3
 THE GLOWING WINDOW
 **72**
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 **U NIT 3 - TO P IC 3 . 4**
@@ -2840,7 +2869,7 @@ UNIT  3  ‑  TOPIC  3.4
 THE GLOWING WINDOW
 **73**
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 That is exactly why the little squares in this book only ever take you to things
@@ -2860,7 +2889,6 @@ the electricity goes off.
 
 Write each one into the right column above.
 
-**above**
 **seeing something move**
 **writing your answer**
 **taking it outside**
@@ -2881,7 +2909,7 @@ UNIT  3  ‑  TOPIC  3.4
 THE GLOWING WINDOW
 **74**
 
-<!-- page 76 -->
+<!-- page 77 -->
 
 ---
 Then: Both of them are right about something. Write down what each of
@@ -2913,7 +2941,7 @@ UNIT  3  ‑  TOPIC  3.5
 THE GLOWING WINDOW
 **75**
 
-<!-- page 77 -->
+<!-- page 78 -->
 
 ---
 **LET US FIND OUT**
@@ -2952,7 +2980,7 @@ UNIT  3  ‑  TOPIC  3.5
 THE GLOWING WINDOW
 **76**
 
-<!-- page 78 -->
+<!-- page 79 -->
 
 ---
 **LO O K CLO SER**
@@ -2976,7 +3004,7 @@ UNIT  3  ‑  TOPIC  3.6
 THE GLOWING WINDOW
 **77**
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 **DO YO U REMEMBER?**
@@ -3025,7 +3053,7 @@ UNIT  3  ‑  TOPIC  3.6
 THE GLOWING WINDOW
 **78**
 
-<!-- page 80 -->
+<!-- page 81 -->
 
 ---
 **BIG THINKING**
@@ -3067,7 +3095,7 @@ UNIT  3  ‑  TOPIC  3.7
 THE GLOWING WINDOW
 **79**
 
-<!-- page 81 -->
+<!-- page 82 -->
 
 ---
 What they do say is this, and it is more useful anyway: the best thing to do
@@ -3083,7 +3111,7 @@ UNIT  3  ‑  TOPIC  3.7
 THE GLOWING WINDOW
 **80**
 
-<!-- page 82 -->
+<!-- page 83 -->
 
 ---
 **00h**
@@ -3124,7 +3152,7 @@ UNIT  3  ‑  TOPIC  3.7
 THE GLOWING WINDOW
 **81**
 
-<!-- page 83 -->
+<!-- page 84 -->
 
 ---
 **DID YO U KNO W?**
@@ -3167,7 +3195,7 @@ UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **82**
 
-<!-- page 84 -->
+<!-- page 85 -->
 
 ---
 problem: water is heavy. Tim Berners-Lee had a problem: scientists could
@@ -3200,7 +3228,7 @@ UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **83**
 
-<!-- page 85 -->
+<!-- page 86 -->
 
 ---
 **O NE STEP FU RTHER**
@@ -3247,7 +3275,7 @@ UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **84**
 
-<!-- page 86 -->
+<!-- page 87 -->
 
 ---
 ## Our plan (field notes). Write the five problems you collected. Circle the one
@@ -3296,7 +3324,7 @@ UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **85**
 
-<!-- page 87 -->
+<!-- page 88 -->
 
 ---
 explain why unkind words on a screen can hurt more than spoken ones
@@ -3341,7 +3369,7 @@ UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **86**
 
-<!-- page 88 -->
+<!-- page 89 -->
 
 ---
 **U N I T 4 · T H E TAL KI N G WO O D · T E RM 2**
@@ -3360,7 +3388,7 @@ Where the Field Club learns that talking and being understood are two different 
 
 **87**
 
-<!-- page 89 -->
+<!-- page 90 -->
 
 ---
 **U NIT 4 · THE TAL K ING WO O D**
@@ -3396,7 +3424,7 @@ UNIT  4
 THE TALKING WOOD
 **88**
 
-<!-- page 90 -->
+<!-- page 91 -->
 
 ---
 **U NIT 4 - TO P IC 4.1**
@@ -3424,7 +3452,7 @@ UNIT  4  ‑  TOPIC  4.1
 THE TALKING WOOD
 **89**
 
-<!-- page 91 -->
+<!-- page 92 -->
 
 ---
 You can do it with words, with your face, with your hands, with a picture,
@@ -3460,7 +3488,7 @@ UNIT  4  ‑  TOPIC  4.1
 THE TALKING WOOD
 **90**
 
-<!-- page 92 -->
+<!-- page 93 -->
 
 ---
 **U NIT 4 - TO P IC 4. 2**
@@ -3495,7 +3523,7 @@ UNIT  4  ‑  TOPIC  4.2
 THE TALKING WOOD
 **91**
 
-<!-- page 93 -->
+<!-- page 94 -->
 
 ---
 That is Nella's job in the Field Club, and it is the hardest job of the five.
@@ -3538,7 +3566,7 @@ UNIT  4  ‑  TOPIC  4.2
 THE TALKING WOOD
 **92**
 
-<!-- page 94 -->
+<!-- page 95 -->
 
 ---
 **U NIT 4 - TO P IC 4. 3**
@@ -3573,7 +3601,7 @@ UNIT  4  ‑  TOPIC  4.3
 THE TALKING WOOD
 **93**
 
-<!-- page 95 -->
+<!-- page 96 -->
 
 ---
 not Portuguese done with hands. Portugal thought it mattered enough to
@@ -3611,7 +3639,7 @@ UNIT  4  ‑  TOPIC  4.3
 THE TALKING WOOD
 **94**
 
-<!-- page 96 -->
+<!-- page 97 -->
 
 ---
 **U NIT 4 - TO P IC 4. 4**
@@ -3639,7 +3667,7 @@ UNIT  4  ‑  TOPIC  4.4
 THE TALKING WOOD
 **95**
 
-<!-- page 97 -->
+<!-- page 98 -->
 
 ---
 But putting a big feeling into exactly the right word makes it easier to carry.
@@ -3681,7 +3709,7 @@ UNIT  4  ‑  TOPIC  4.4
 THE TALKING WOOD
 **96**
 
-<!-- page 98 -->
+<!-- page 99 -->
 
 ---
 **LO O K CLO SER**
@@ -3722,7 +3750,7 @@ UNIT  4  ‑  TOPIC  4.5
 THE TALKING WOOD
 **97**
 
-<!-- page 99 -->
+<!-- page 100 -->
 
 ---
 And before telephones, people sent messages as long and short beeps
@@ -3756,7 +3784,7 @@ UNIT  4  ‑  TOPIC  4.5
 THE TALKING WOOD
 **98**
 
-<!-- page 100 -->
+<!-- page 101 -->
 
 ---
 **DID YO U KNO W?**
@@ -3783,7 +3811,7 @@ UNIT  4  ‑  TOPIC  4.5
 THE TALKING WOOD
 **99**
 
-<!-- page 101 -->
+<!-- page 102 -->
 
 ---
 **U NIT 4 - TO P IC 4. 6**
@@ -3815,7 +3843,7 @@ UNIT  4  ‑  TOPIC  4.6
 THE TALKING WOOD
 **100**
 
-<!-- page 102 -->
+<!-- page 103 -->
 
 ---
 _I felt left out when the hoop went past me. I would like a turn next._
@@ -3859,7 +3887,7 @@ UNIT  4  ‑  TOPIC  4.6
 THE TALKING WOOD
 **101**
 
-<!-- page 103 -->
+<!-- page 104 -->
 
 ---
 **LO O K CLO SER**
@@ -3903,7 +3931,7 @@ UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **102**
 
-<!-- page 104 -->
+<!-- page 105 -->
 
 ---
 another mast near your friend, and only then to their phone. All of that in
@@ -3954,7 +3982,7 @@ UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **103**
 
-<!-- page 105 -->
+<!-- page 106 -->
 
 ---
 **U NIT 4 · THE TAL K ING WO O D**
@@ -3996,7 +4024,7 @@ UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **104**
 
-<!-- page 106 -->
+<!-- page 107 -->
 
 ---
 **U NIT 4 · THE TAL K ING WO O D**
@@ -4044,7 +4072,7 @@ UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **105**
 
-<!-- page 107 -->
+<!-- page 108 -->
 
 ---
 **U NIT 4 · THE TAL K ING WO O D**
@@ -4083,7 +4111,7 @@ UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **106**
 
-<!-- page 108 -->
+<!-- page 109 -->
 
 ---
 **U N I T 5 · T H E L O N G H AU L · T E RM 3**
@@ -4102,7 +4130,7 @@ Where the Field Club follows a banana all the way home
 
 **107**
 
-<!-- page 109 -->
+<!-- page 110 -->
 
 ---
 **U NIT 5 · THE L O NG HAU L**
@@ -4138,7 +4166,7 @@ UNIT  5
 THE LONG HAUL
 **108**
 
-<!-- page 110 -->
+<!-- page 111 -->
 
 ---
 **U NIT 5 - TO P IC 5 .1**
@@ -4166,7 +4194,7 @@ UNIT  5  ‑  TOPIC  5.1
 THE LONG HAUL
 **109**
 
-<!-- page 111 -->
+<!-- page 112 -->
 
 ---
 Walking counts. So does a bicycle, a car, a bus, a tram, a train, a boat, an
@@ -4210,7 +4238,7 @@ UNIT  5  ‑  TOPIC  5.1
 THE LONG HAUL
 **110**
 
-<!-- page 112 -->
+<!-- page 113 -->
 
 ---
 **U NIT 5 - TO P IC 5 . 2**
@@ -4246,7 +4274,7 @@ UNIT  5  ‑  TOPIC  5.2
 THE LONG HAUL
 **111**
 
-<!-- page 113 -->
+<!-- page 114 -->
 
 ---
 That is why more than eight out of every ten things bought and sold
@@ -4307,7 +4335,7 @@ UNIT  5  ‑  TOPIC  5.2
 THE LONG HAUL
 **112**
 
-<!-- page 114 -->
+<!-- page 115 -->
 
 ---
 **LO O K CLO SER**
@@ -4330,7 +4358,7 @@ UNIT  5  ‑  TOPIC  5.3
 THE LONG HAUL
 **113**
 
-<!-- page 115 -->
+<!-- page 116 -->
 
 ---
 **DO YO U REMEMBER?**
@@ -4363,7 +4391,7 @@ UNIT  5  ‑  TOPIC  5.3
 THE LONG HAUL
 **114**
 
-<!-- page 116 -->
+<!-- page 117 -->
 
 ---
 **YOUR TURN**
@@ -4397,7 +4425,7 @@ UNIT  5  ‑  TOPIC  5.3
 THE LONG HAUL
 **115**
 
-<!-- page 117 -->
+<!-- page 118 -->
 
 ---
 **U NIT 5 - TO P IC 5 . 4**
@@ -4432,7 +4460,7 @@ UNIT  5  ‑  TOPIC  5.4
 THE LONG HAUL
 **116**
 
-<!-- page 118 -->
+<!-- page 119 -->
 
 ---
 **YOUR TURN**
@@ -4481,7 +4509,7 @@ UNIT  5  ‑  TOPIC  5.4
 THE LONG HAUL
 **117**
 
-<!-- page 119 -->
+<!-- page 120 -->
 
 ---
 **U NIT 5 - TO P IC 5 . 5**
@@ -4516,7 +4544,7 @@ UNIT  5  ‑  TOPIC  5.5
 THE LONG HAUL
 **118**
 
-<!-- page 120 -->
+<!-- page 121 -->
 
 ---
 A tram from the 1930s, a train that floats, and a cable car full of people going to
@@ -4555,7 +4583,7 @@ UNIT  5  ‑  TOPIC  5.5
 THE LONG HAUL
 **119**
 
-<!-- page 121 -->
+<!-- page 122 -->
 
 ---
 **LO O K CLO SER**
@@ -4582,7 +4610,7 @@ UNIT  5  ‑  TOPIC  5.6
 THE LONG HAUL
 **120**
 
-<!-- page 122 -->
+<!-- page 123 -->
 
 ---
 **BO O TS O N!**
@@ -4628,7 +4656,7 @@ UNIT  5  ‑  TOPIC  5.6
 THE LONG HAUL
 **121**
 
-<!-- page 123 -->
+<!-- page 124 -->
 
 ---
 **LO O K CLO SER**
@@ -4669,7 +4697,7 @@ UNIT  5  ‑  TOPIC  5.7
 THE LONG HAUL
 **122**
 
-<!-- page 124 -->
+<!-- page 125 -->
 
 ---
 **LET US FIND OUT**
@@ -4717,7 +4745,7 @@ UNIT  5  ‑  TOPIC  5.7
 THE LONG HAUL
 **123**
 
-<!-- page 125 -->
+<!-- page 126 -->
 
 ---
 **O NE STEP FU RTHER**
@@ -4739,7 +4767,7 @@ UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **124**
 
-<!-- page 126 -->
+<!-- page 127 -->
 
 ---
 **DO YO U REMEMBER?**
@@ -4780,7 +4808,7 @@ UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **125**
 
-<!-- page 127 -->
+<!-- page 128 -->
 
 ---
 **FRO M ANO THER CHAIR**
@@ -4823,7 +4851,7 @@ UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **126**
 
-<!-- page 128 -->
+<!-- page 129 -->
 
 ---
 ## Our plan (field notes). Write your categories here, before you start
@@ -4873,7 +4901,7 @@ UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **127**
 
-<!-- page 129 -->
+<!-- page 130 -->
 
 ---
 **U NIT 5 · THE L O NG HAU L**
@@ -4929,7 +4957,7 @@ UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **128**
 
-<!-- page 130 -->
+<!-- page 131 -->
 
 ---
 **U N I T 6 · T H E H O M E F I RE · T E RM 3**
@@ -4948,7 +4976,7 @@ Where the Field Club comes home and finds out that home means many things
 
 **129**
 
-<!-- page 131 -->
+<!-- page 132 -->
 
 ---
 **U NIT 6 · THE HO ME F IRE**
@@ -4984,7 +5012,7 @@ UNIT  6
 THE HOME FIRE
 **130**
 
-<!-- page 132 -->
+<!-- page 133 -->
 
 ---
 **U NIT 6 - TO P IC 6 .1**
@@ -5020,7 +5048,7 @@ UNIT  6  ‑  TOPIC  6.1
 THE HOME FIRE
 **131**
 
-<!-- page 133 -->
+<!-- page 134 -->
 
 ---
 **DRAW YOUR OWN FAMILY IN HERE**
@@ -5056,7 +5084,7 @@ UNIT  6  ‑  TOPIC  6.1
 THE HOME FIRE
 **132**
 
-<!-- page 134 -->
+<!-- page 135 -->
 
 ---
 **U NIT 6 - TO P IC 6 . 2**
@@ -5086,7 +5114,7 @@ UNIT  6  ‑  TOPIC  6.2
 THE HOME FIRE
 **133**
 
-<!-- page 135 -->
+<!-- page 136 -->
 
 ---
 live with an aunt while their mother or father works in another country.
@@ -5129,16 +5157,12 @@ UNIT  6  ‑  TOPIC  6.2
 THE HOME FIRE
 **134**
 
-<!-- page 136 -->
+<!-- page 137 -->
 
 ---
 Then: Nella is right about the people. Rufus is right that words matter.
 So write your own definition of family, one that fits everybody in your
 class.
-
-**FIELD NO TES**
-
-Draw your family doing something ordinary together.
 
 **U NIT 6 - TO P IC 6 . 3**
 **THE HO ME F IRE**
@@ -5151,7 +5175,7 @@ UNIT  6  ‑  TOPIC  6.3
 THE HOME FIRE
 **135**
 
-<!-- page 137 -->
+<!-- page 138 -->
 
 ---
 **DO YO U REMEMBER?**
@@ -5201,7 +5225,7 @@ UNIT  6  ‑  TOPIC  6.3
 THE HOME FIRE
 **136**
 
-<!-- page 138 -->
+<!-- page 139 -->
 
 ---
 **DID YO U KNO W?**
@@ -5242,7 +5266,7 @@ UNIT  6  ‑  TOPIC  6.4
 THE HOME FIRE
 **137**
 
-<!-- page 139 -->
+<!-- page 140 -->
 
 ---
 **LET US FIND OUT**
@@ -5286,7 +5310,7 @@ UNIT  6  ‑  TOPIC  6.4
 THE HOME FIRE
 **138**
 
-<!-- page 140 -->
+<!-- page 141 -->
 
 ---
 **U NIT 6 - TO P IC 6 . 5**
@@ -5317,7 +5341,7 @@ UNIT  6  ‑  TOPIC  6.5
 THE HOME FIRE
 **139**
 
-<!-- page 141 -->
+<!-- page 142 -->
 
 ---
 working. So shared things need shared rules, and somebody has to be
@@ -5355,7 +5379,7 @@ UNIT  6  ‑  TOPIC  6.5
 THE HOME FIRE
 **140**
 
-<!-- page 142 -->
+<!-- page 143 -->
 
 ---
 **BIG THINKING**
@@ -5394,7 +5418,7 @@ UNIT  6  ‑  TOPIC  6.6
 THE HOME FIRE
 **141**
 
-<!-- page 143 -->
+<!-- page 144 -->
 
 ---
 At Nowruz, in Iran and many other countries, the new year begins on the first
@@ -5430,7 +5454,7 @@ UNIT  6  ‑  TOPIC  6.6
 THE HOME FIRE
 **142**
 
-<!-- page 144 -->
+<!-- page 145 -->
 
 ---
 **YOUR TURN**
@@ -5480,7 +5504,7 @@ UNIT  6  ‑  TOPIC  6.6
 THE HOME FIRE
 **143**
 
-<!-- page 145 -->
+<!-- page 146 -->
 
 ---
 **U NIT 6 - TO P IC 6 . 7**
@@ -5509,7 +5533,7 @@ UNIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **144**
 
-<!-- page 146 -->
+<!-- page 147 -->
 
 ---
 When somebody does something differently from you, the first question is
@@ -5554,7 +5578,7 @@ UNIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **145**
 
-<!-- page 147 -->
+<!-- page 148 -->
 
 ---
 **LO O K CLO SER**
@@ -5600,7 +5624,7 @@ UNIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **146**
 
-<!-- page 148 -->
+<!-- page 149 -->
 
 ---
 ## Our plan (field notes). Write what you will bring, and one sentence about
@@ -5649,7 +5673,7 @@ UNIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **147**
 
-<!-- page 149 -->
+<!-- page 150 -->
 
 ---
 say what a junta de freguesia does
@@ -5707,7 +5731,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **148**
 
-<!-- page 150 -->
+<!-- page 151 -->
 
 ---
 I can sort games into indoors, outdoors and both, and spot the ones that are both
@@ -5747,7 +5771,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **149**
 
-<!-- page 151 -->
+<!-- page 152 -->
 
 ---
 ## Term 1: show what you know
@@ -5795,7 +5819,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **150**
 
-<!-- page 152 -->
+<!-- page 153 -->
 
 ---
 ## Term 1: out of the classroom
@@ -5838,7 +5862,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **151**
 
-<!-- page 153 -->
+<!-- page 154 -->
 
 ---
 ## Term 2: the spring revision expedition
@@ -5885,7 +5909,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **152**
 
-<!-- page 154 -->
+<!-- page 155 -->
 
 ---
 ## The question that came back twice. Expedition 3 asked whether a screen
@@ -5924,7 +5948,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **153**
 
-<!-- page 155 -->
+<!-- page 156 -->
 
 ---
 ## Term 2: out of the classroom
@@ -5966,7 +5990,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **154**
 
-<!-- page 156 -->
+<!-- page 157 -->
 
 ---
 ## Term 3: the summer revision expedition
@@ -6017,7 +6041,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **155**
 
-<!-- page 157 -->
+<!-- page 158 -->
 
 ---
 I can turn a why not into a why
@@ -6062,7 +6086,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 ANSWERS
 **156**
 
-<!-- page 158 -->
+<!-- page 159 -->
 
 ---
 ## Term 3: out of the classroom
@@ -6107,7 +6131,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 ANSWERS
 **157**
 
-<!-- page 159 -->
+<!-- page 160 -->
 
 ---
 ## My word store
@@ -6178,7 +6202,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **158**
 
-<!-- page 160 -->
+<!-- page 161 -->
 
 ---
 **euro**
@@ -6251,7 +6275,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **159**
 
-<!-- page 161 -->
+<!-- page 162 -->
 
 ---
 **EXPEDITION 5 · THE LONG HAUL**
@@ -6319,7 +6343,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **160**
 
-<!-- page 162 -->
+<!-- page 163 -->
 
 ---
 **EXPEDITION 1 · SPORTS AND RECREATION**
@@ -6365,7 +6389,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **161**
 
-<!-- page 163 -->
+<!-- page 164 -->
 
 ---
 **1.9.2 answers will vary; ask the pupil to say one sentence more**
@@ -6410,7 +6434,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **162**
 
-<!-- page 164 -->
+<!-- page 165 -->
 
 ---
 **EXPEDITION 3 · DIGITAL WORLD**
@@ -6455,7 +6479,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **163**
 
-<!-- page 165 -->
+<!-- page 166 -->
 
 ---
 **EXPEDITION 4 · IMPROVING COMMUNICATION**
@@ -6501,7 +6525,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **164**
 
-<!-- page 166 -->
+<!-- page 167 -->
 
 ---
 **5.2.2 answers will vary; ask the pupil to say one sentence more**
@@ -6547,7 +6571,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **165**
 
-<!-- page 167 -->
+<!-- page 168 -->
 
 ---
 **6.2.2 answers will vary; ask the pupil to say one sentence more**
@@ -6593,7 +6617,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **166**
 
-<!-- page 168 -->
+<!-- page 169 -->
 
 ---
 **Term 2.2 answers will vary; ask the pupil to say one sentence more**
@@ -6646,7 +6670,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 EVERY QR CODE
 **167**
 
-<!-- page 169 -->
+<!-- page 170 -->
 
 ---
 **Topic 1.7**
@@ -6717,7 +6741,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 EVERY QR CODE
 **168**
 
-<!-- page 170 -->
+<!-- page 171 -->
 
 ---
 **Topic 6.6**
@@ -6767,7 +6791,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **169**
 
-<!-- page 171 -->
+<!-- page 172 -->
 
 ---
 1.8-boccia International Paralympic Committee, Boccia, https://www.paralympic.org/boccia (accessed
@@ -6818,7 +6842,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **170**
 
-<!-- page 172 -->
+<!-- page 173 -->
 
 ---
 2.4-work Wikipedia, Junta de freguesia, https://en.wikipedia.org/wiki/Junta_de_freguesia (accessed 2026-
@@ -6871,7 +6895,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **171**
 
-<!-- page 173 -->
+<!-- page 174 -->
 
 ---
 3.8-future Wikipedia, QR code, https://en.wikipedia.org/wiki/QR_code (accessed 2026-08-03)
@@ -6922,7 +6946,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **172**
 
-<!-- page 174 -->
+<!-- page 175 -->
 
 ---
 5.5-amsterdam Wikipedia, Cycling in the Netherlands,
@@ -6974,7 +6998,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **173**
 
-<!-- page 175 -->
+<!-- page 176 -->
 
 ---
 https://www.bancoalimentar.pt/ (accessed 2026-08-03)
@@ -7018,7 +7042,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **174**
 
-<!-- page 176 -->
+<!-- page 177 -->
 
 ---
 ## For teachers
@@ -7063,7 +7087,7 @@ GLOBAL  PERSPECTIVES  YEAR  2
 FOR TEACHERS
 **175**
 
-<!-- page 177 -->
+<!-- page 178 -->
 
 ---
 **P R I M E  B O O K S**

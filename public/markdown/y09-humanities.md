@@ -148,25 +148,17 @@ Part one puts you on the planet. Everything after it is one causal chain, and no
 **divided world → the Cold War → the nuclear and space races → the end of the Cold War → the modern**
 connected world.
 
-That chain is the reason the book does not jump from the Industrial Revolution to
+Part two follows the chain link by link, and the timeline on page 14 draws the same line in dates.
 
 <!-- page 5 -->
 
 ---
-**can explain why it happened, not only when.**
-
 Portugal in the global story
-
-**At the end of every historical chapter with a Portuguese dimension there is a section called Portugal in the**
-**global story. It always answers the same four questions:**
 
 differently, or influencing events elsewhere?
 
 Portugal is never a separate national history bolted on at the end. It is the same chronology, seen from
 here.
-
-Parts three and four exist so that when you reach the First World War you
-1
 
 What was happening in Portugal?
 **✓**
@@ -179,6 +171,9 @@ What part did geography play?
 
 Was Portugal participating, resisting, following later, developing
 **✓**
+
+**At the end of every historical chapter with a Portuguese dimension there is a section called Portugal in the**
+**global story. It always answers the same four questions:**
 
 <!-- page 6 -->
 
@@ -644,7 +639,7 @@ Each chapter carries one code, and it leads to a checked English-language resour
 archive, a national survey or a public database. No code appears twice in this book. The full address is
 printed beside each one, so the page works with no device in the room.
 
-Ask your teacher before you scan. The codes are extension, never a substitute for the pages.
+Ask your teacher before you scan. The codes are an extension, never a substitute for the pages.
 
 <!-- page 14 -->
 
@@ -653,87 +648,6 @@ The two centuries at a glance
 
 This is the whole book on one page: the world above, Portugal below. Come back to it whenever you lose
 your place in the chronology.
-
-1800
-1839
-1878
-1917
-1956
-1995
-
-The w o rld
-
-Po rt ug a l
-
-1807Napoleonic wars
-
-1830Industry spreads in Europe
-
-1848Revolutions across Europe
-
-1871Germany and Italy unified
-
-1884Berlin Conference
-
-1914First World War begins
-
-1919Treaty of Versailles
-
-1929Great Depression
-
-1933Hitler in power
-
-1939Second World War begins
-
-1945United Nations founded
-
-1949NATO founded
-
-1957Sputnik; Treaty of Rome
-
-1962Cuban missile crisis
-
-1969Apollo 11
-
-1989Berlin Wall opens
-
-1991Soviet Union ends
-
-1807French invasions
-
-1820Liberal Revolution
-
-1822Constitution; Brazil independent
-
-1828Liberal Wars
-
-1851The Regeneration
-
-1856First railway
-
-1890British Ultimatum
-
-1910The Republic
-
-1916Portugal enters the war
-
-1926Military coup
-
-1933Estado Novo
-
-1943Azores granted
-
-1949NATO founder member
-
-1961Colonial War begins
-
-1974Carnation Revolution
-
-1976Democratic Constitution
-
-1986Joins the European Commun
-
-1992Maastricht Treaty
 
 Figure 0.1 · Two centuries, two lines, one chronology.
 Read the upper line, then the lower. Then read any year vertically, and ask what was happening in both places at once. You will meet this
@@ -751,6 +665,65 @@ from what.
 
 **Source analysis. Asking of any source: who made it, for whom, why, what it shows, and what it had**
 **reason not to say.**
+
+1400
+1500
+1600
+1700
+1800
+1900
+2000
+**1436Brunelleschi's dome finished**
+
+**1455Gutenberg prints his Bible**
+
+**1492Columbus reaches the Americas**
+
+**1517Luther's protest begins**
+
+**1588Spanish Armada defeated**
+
+**1789Storming of the Bastille**
+
+**1793Reign of Terror begins**
+
+**1804Napoleon's Code Civil**
+
+**1815Battle of Waterloo**
+
+**1819First Factory Act**
+
+**1877Great Railroad Strike**
+
+**1886May Day chosen**
+
+**1415Portugal takes Ceuta**
+
+**1494Treaty of Tordesillas**
+
+**1536Inquisition established**
+
+**1580União Ibérica begins**
+
+**1640Restoration of independence**
+
+**1758Pombal's silk manufactory**
+
+**1807Court flees to Brazil**
+
+**1822Brazil independent**
+
+**1856First railway**
+
+**1890British Ultimatum**
+
+**1910The Republic**
+
+**1986Joins the European Community**
+
+**The world**
+
+**Portugal**
 
 <!-- page 15 -->
 
@@ -777,12 +750,11 @@ global position
 
 P A R T O N E
 
-Everything in the rest of this book happens somewhere. Before
-you can explain why industry began where it did, why one
-country was fought over and another was left alone, or why a
-small state on the edge of Europe mattered to two world wars,
-you need to be able to say exactly where anything is and what its
-position does to it. That is what these four chapters are for.
+Everything in the rest of this book happens somewhere. Before you
+can explain why industry began where it did, why one country was
+fought over and another was left alone, you need to be able to say
+exactly where anything is and what its position does to it. That is
+what these four chapters are for.
 
 <!-- page 17 -->
 
@@ -3664,10 +3636,7 @@ Portugal in the global story: the Renaissance on the
 Atlantic edge
 
 W A T C H ,   R E A D   A N D   L I S T E N
-**Khan Academy, the Renaissance in Europe. A short course on the art, ideas and patrons**
-**of the period.**
 
-www.khanacademy.org/humanities/renaissance-reformation
 Extension only, and not a substitute for the pages. Ask your teacher before you scan.
 
 **✓**
@@ -3687,7 +3656,12 @@ Describe Portugal's own version of the
 Renaissance.
 
 60
-                                       
+Prime School Press - www.primeschool.pt
+
+**Smarthistory, the Renaissance in Europe. Short essays and videos on the art, ideas**
+**and patrons of the period.**
+
+smarthistory.org/period-culture-style/renaissance
 
 <!-- page 61 -->
 
@@ -3799,7 +3773,7 @@ U N I T   5   -   T O P I C   5 . 1
 U N I T   5   -
 
 62
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 63 -->
 
@@ -3849,7 +3823,7 @@ taught.
 U N I T   5   -   T O P I C   5 . 3
 
 63
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 64 -->
 
@@ -3864,7 +3838,11 @@ Portuguese late-Gothic architectural style of the age of discovery.
 U N I T   5   -   T O P I C   5 . 4
 
 64
-                                       
+
+Prime School Press - www.primeschool.pt
+
+**Figure 5.1 · The great figures of the Renaissance: Leonardo, Michelangelo, Galileo, Dante and Raphael.**
+Five men who measured, painted, built and wrote the modern world into being.
 
 <!-- page 65 -->
 
@@ -3909,10 +3887,7 @@ Portugal in the global story: the empire that ran on
 latitude
 
 W A T C H ,   R E A D   A N D   L I S T E N
-**Encyclopaedia Britannica, the Age of Discovery. How European voyages connected the**
-**oceans a֔ er 1418.**
 
-www.britannica.com/event/Age-of-Discovery
 Extension only, and not a substitute for the pages. Ask your teacher before you scan.
 
 **✓**
@@ -3932,7 +3907,12 @@ Explain why the 1500s count as globalisation's
 beginning.
 
 66
-                                       
+Prime School Press - www.primeschool.pt
+
+**World History Encyclopedia, the Age of Discovery. How European voyages connected**
+**the oceans after 1418.**
+
+www.worldhistory.org/Age_of_Exploration
 
 <!-- page 67 -->
 
@@ -4045,7 +4025,7 @@ U N I T   6   -   T O P I C   6 . 1
 U N I T   6   -
 
 68
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 69 -->
 
@@ -4094,7 +4074,7 @@ headland, turned the ocean into a known, repeatable set of sailing instructions.
 U N I T   6   -   T O P I C   6 . 3
 
 69
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 70 -->
 
@@ -4115,7 +4095,11 @@ U N I T   6   -   T O P I C   6 . 4
 U N I T   6   -
 
 70
-                                       
+
+Prime School Press - www.primeschool.pt
+
+**Figure 6.1 · The Treaty of Tordesillas, 1494: a line drawn down the Atlantic.**
+Portuguese and Spanish negotiators divide the newly found world between two crowns.
 
 <!-- page 71 -->
 
@@ -4175,7 +4159,7 @@ settlement.
 Describe the Elizabethan Age and its culture.
 
 71
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 72 -->
 
@@ -4264,7 +4248,7 @@ U N I T   7   -   T O P I C   7 . 1
 U N I T   7   -
 
 73
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 74 -->
 
@@ -4327,7 +4311,7 @@ reach, and the language itself was in one of its most inventive phases: scholars
 U N I T   7   -   T O P I C   7 . 3
 
 74
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 75 -->
 
@@ -4383,7 +4367,7 @@ Madrid: the União Ibérica, which ended in a successful restoration revolt in 1
 U N I T   7   -   T O P I C   7 . 4
 
 76
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 77 -->
 
@@ -4407,7 +4391,11 @@ over Portugal.
 U N I T   7   -   T O P I C   7 . 5
 
 77
-                                       
+
+Prime School Press - www.primeschool.pt
+
+**Figure 7.1 · Portuguese missionaries in the age of expansion.**
+Jesuits carried Catholicism through the seaborne empire to Brazil, Goa, Africa and Japan.
 
 <!-- page 78 -->
 
@@ -4464,7 +4452,7 @@ revolution.
 Describe the events of May to August 1789.
 
 78
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 79 -->
 
@@ -4577,7 +4565,7 @@ U N I T   8   -   T O P I C   8 . 1
 U N I T   8   -
 
 80
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 81 -->
 
@@ -4624,7 +4612,7 @@ issued the Declaration of the Rights of Man. That story is chapter 9's opening.
 U N I T   8   -   T O P I C   8 . 3
 
 81
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 82 -->
 
@@ -4640,7 +4628,11 @@ Third Estate declared itself in June 1789.
 U N I T   8   -   T O P I C   8 . 4
 
 82
-                                       
+
+Prime School Press - www.primeschool.pt
+
+**Figure 8.1 · The Enlightenment: reason, debate and the instruments of science.**
+In the salons of the eighteenth century, philosophers argued that authority must answer to reason.
 
 <!-- page 83 -->
 
@@ -4701,7 +4693,7 @@ Explain how the Napoleonic wars reached Portugal
 and Brazil.
 
 83
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 84 -->
 
@@ -4792,7 +4784,7 @@ U N I T   9   -   T O P I C   9 . 1
 U N I T   9   -
 
 85
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 86 -->
 
@@ -4862,7 +4854,7 @@ died in exile on Saint Helena in 1821.
 U N I T   9   -   T O P I C   9 . 3
 
 87
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 88 -->
 
@@ -4925,7 +4917,7 @@ passing through a French-style revolution.
 U N I T   9   -   T O P I C   9 . 4
 
 89
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 90 -->
 
@@ -4941,7 +4933,11 @@ rule.
 U N I T   9   -   T O P I C   9 . 5
 
 90
-                                       
+
+Prime School Press - www.primeschool.pt
+
+**Figure 9.1 · The guillotine, the machine the Terror made its own.**
+Designed as a humane and equal punishment, it became the symbol of the Revolution's darkest year.
 
 <!-- page 91 -->
 
@@ -5023,7 +5019,7 @@ Compare capitalism and socialism as economic
 and political systems.
 
 91
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 92 -->
 
@@ -5116,7 +5112,7 @@ U N I T   1 0   -   T O P I C   1 0 . 1
 U N I T   1 0
 
 93
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 94 -->
 
@@ -5171,7 +5167,7 @@ U N I T   1 0   -   T O P I C   1 0 . 3
 U N I T   1 0
 
 94
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 95 -->
 
@@ -5271,7 +5267,7 @@ most of the world.
 U N I T   1 0   -   T O P I C   1 0 . 5
 
 97
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 98 -->
 
@@ -5366,7 +5362,7 @@ leadership.
 U N I T   1 0   -   T O P I C   1 0 . 6
 
 99
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 100 -->
 
@@ -5417,7 +5413,7 @@ in liberal democracies.
 U N I T   1 0   -   T O P I C   1 0 . 7
 
 100
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 101 -->
 
@@ -5468,7 +5464,7 @@ constitutions and symbols of individual rights and political participation.
 U N I T   1 0   -   T O P I C   1 0 . 8
 
 102
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 103 -->
 
@@ -5529,7 +5525,7 @@ textiles; empires added tribute and taxes from conquered territories.
 U N I T   1 0   -   T O P I C   1 0 . 9
 
 103
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 104 -->
 
@@ -5599,7 +5595,7 @@ U N I T   1 0   -   T O P I C   1 0 . 1 0
 U N I T   1 0
 
 104
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 105 -->
 
@@ -5650,7 +5646,7 @@ Without that protection there would be little incentive to take risks or invest.
 U N I T   1 0   -   T O P I C   1 0 . 1 2
 
 105
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 106 -->
 
@@ -5705,7 +5701,7 @@ how fast news travelled, and each one fed the others.
 U N I T   1 0   -   T O P I C   1 0 . 1 3
 
 106
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 107 -->
 
@@ -5795,7 +5791,7 @@ whole of this chapter, and it did not end with the century.
 U N I T   1 0   -   T O P I C   1 0 . 1 4
 
 107
-                                       
+Prime School Press - www.primeschool.pt
 
 <!-- page 108 -->
 

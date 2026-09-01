@@ -112,13 +112,6 @@ the Sun, then to the planets, then to this one, then inside it, then out across 
 By the end of unit 5 you will be standing on a particular piece of land, knowing how it got there, what
 the weather is like, and who else lives on it.
 
-Part two brings on the players. Our species walks out of Africa, survives an ice age, learns to farm, and
-then, in four separate corners of the world,
-
-mountain. These are not four separate books stapled together. They run in order, on one timeline, so you
-
-can always answer the question, "and what was happening everywhere else?"
-
 Why the whole world, and not just part of it
 
 Because it is true. Civilisation is not something that happened in one place and spread. It started
@@ -150,15 +143,10 @@ a beginning, it also tells you how anybody could possibly know that.
 **Third, be willing to be wrong. Every unit has a Careful panel naming the mistake almost everybody**
 makes. Making it is fine. Making it after you have read the panel is a waste of a good panel.
 
-builds something remarkable: Egypt on its river, China
-builds something remarkable: Egypt on its river, China
-builds something remarkable: Egypt on its riv
-builds something remarkable: Eg
-builds something remarka
-builds something rema
-builds something re
-builds someth
-between two rivers, and the Inca along four thousand kilometres of
+Part two brings on the players. Our species walks out of Africa, survives an ice age, learns to farm, and
+
+then, in four separate corners of the world, builds something remarkable: Egypt on its river, China
+between two rivers, and the Inca along four thousand kilometres of mountain.
 
 <!-- page 6 -->
 
@@ -1487,6 +1475,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 2 - T O P I C 2 . 1
 
+Figure 2.4 · The Sun, photographed by NASA's Solar Dynamics Observatory.
+
 <!-- page 33 -->
 
 ---
@@ -1594,6 +1584,8 @@ Prime School Press - www.primeschool.pt
 U N I T 2 - T O P I C 2 . 2
 · TWO PLANETS THAT COULD NOT BE MORE DIFFEREN.
 
+Figure 2.7 · The Solar System, from the Sun outwards.
+
 <!-- page 35 -->
 
 ---
@@ -1635,6 +1627,8 @@ unseen planet would have to be, pointed a telescope there, and found it.
 Prime School Press - www.primeschool.pt
 
 U N I T 2 - T O P I C 2 . 3
+
+Figure 2.8 · Saturn, the ringed giant.
 
 <!-- page 36 -->
 
@@ -1882,6 +1876,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 2 - T O P I C 2 . 4
 
+Figure 2.9 · Earth from space: one planet, all four conditions.
+
 <!-- page 40 -->
 
 ---
@@ -2055,6 +2051,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 2 - T O P I C 2 . 5
 .
+
+Figure 2.10 · The Moon.
 
 <!-- page 43 -->
 
@@ -2296,6 +2294,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 3 - T O P I C 3 . 1
 
+Figure 3.7 · Lava meeting the sea, Iceland.
+
 <!-- page 48 -->
 
 ---
@@ -2421,6 +2421,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 3 - T O P I C 3 . 2
 
+Figure 3.8 · Pangaea, with Eurasia in the north and Gondwana in the south.
+
 <!-- page 51 -->
 
 ---
@@ -2491,6 +2493,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 3 - T O P I C 3 . 3
 
+Figure 3.9 · The tectonic plates of the Earth.
+
 <!-- page 52 -->
 
 ---
@@ -2533,6 +2537,8 @@ Why do sliding boundaries produce earthquakes but not volcanoes?
 Prime School Press - www.primeschool.pt
 
 U N I T 3 - T O P I C 3 . 3
+
+Figure 3.9 · The tectonic plates of the Earth.
 
 <!-- page 53 -->
 
@@ -3085,6 +3091,8 @@ Prime School Press - www.primeschool.pt
 U N I T 4 - T O P I C 4 . 1
 MILLION SQUARE KILOMETRES, THE SHALLOWEST AND.
 
+Figure 4.7 · The Pacific Ocean, with the Mariana Trench and Point Nemo.
+
 <!-- page 64 -->
 
 ---
@@ -3271,6 +3279,8 @@ Explain why the tropics do not get hotter and hotter every year.
 Prime School Press - www.primeschool.pt
 
 U N I T 4 - T O P I C 4 . 3
+
+Figure 4.6 · The great conveyor: red at the surface, blue in the deep.
 
 <!-- page 68 -->
 
@@ -3548,6 +3558,8 @@ Weigh up what people take from the ocean against what they put into it.
 Prime School Press - www.primeschool.pt
 
 U N I T 4 - T O P I C 4 . 5
+
+Figure 4.8 · The five oceans and the seven continents.
 
 <!-- page 73 -->
 
@@ -4756,6 +4768,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 6 - T O P I C 6 . 1
 
+Figure 6.2 · From primate to Homo sapiens: the long road to us.
+
 <!-- page 98 -->
 
 ---
@@ -4778,7 +4792,7 @@ We all start here
 
 roughly when people arrived, in years ago
 
-Figure 6.2 · Out of Africa.
+· Out of Africa.
 Start at the red pin and follow the arrows outwards. The numbers are years ago, and they are approximate: this is a map
 of a journey that took fifty thousand years.
 
@@ -4812,6 +4826,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 6 - T O P I C 6 . 1
 
+Figure 6.3
+
 <!-- page 99 -->
 
 ---
@@ -4842,6 +4858,8 @@ Correct this sentence: "About 60 000 years ago, humans left Africa."
 Prime School Press - www.primeschool.pt
 
 U N I T 6 - T O P I C 6 . 1
+
+Figure 6.4 · Daily life in a cave: fire, tools and the first art.
 
 <!-- page 100 -->
 
@@ -4940,6 +4958,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 6 - T O P I C 6 . 2
 
+Figure 6.5 · Humanity during the Ice Age: hunting mammoths in furs and hides.
+
 <!-- page 102 -->
 
 ---
@@ -4991,7 +5011,7 @@ Small groups, few possessions, no rulers.
 Villages, then towns, then kings, taxes, armies and
 writing.
 
-Figure 6.3 · Before and after.
+· Before and after.
 Read the rows across, not down. Notice that farming wins the first row and loses the third.
 
 Farming produced far more food from the same area of land, so populations grew, and they grew fast. But
@@ -5008,6 +5028,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 6 - T O P I C 6 . 3
 · BEFORE AND AFTER.
+
+Figure 6.5
 
 <!-- page 103 -->
 
@@ -5056,6 +5078,9 @@ Prime School Press - www.primeschool.pt
 U N I T 6 - T O P I C 6 . 3
 · BEFORE AND AFTER.
 
+village: houses on stilts, canoes and nets.
+Figure 6.6 · A lakeside
+
 <!-- page 104 -->
 
 ---
@@ -5082,7 +5107,7 @@ Indus valley, about 2600 BC
 
 China, about
 
-Figure 6.4 · Where the first cities appeared.
+· Where the first cities appeared.
 Four separate places, four different dates. None of them taught the others.
 
 And then somebody invented writing
@@ -5100,6 +5125,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 6 - T O P I C 6 . 4
 · WHERE THE FIRST CITIES APPEARED.
+
+Figure 6.7
 
 <!-- page 105 -->
 
@@ -5320,6 +5347,9 @@ Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 1
 
+, god of the Nile.
+Figure 7.2 · Hapi
+
 <!-- page 110 -->
 
 ---
@@ -5355,7 +5385,7 @@ year
 
 The year began with the flood, not with a date somebody chose. The river set the calendar.
 
-Figure 7.2 · The Egyptian year, set by the river.
+The Egyptian year, set by the river.
 Read the three seasons round the circle, starting at the top. The year did not begin on a chosen date; it began when the
 water rose.
 
@@ -5387,6 +5417,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 1
 
+Figure 7.3 ·
+
 <!-- page 111 -->
 
 ---
@@ -5408,6 +5440,9 @@ Why is Upper Egypt in the south?
 Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 1
+
+Egypt, and the river that joins them.
+Figure 7.4 · Upper and Lower
 
 <!-- page 112 -->
 
@@ -5451,7 +5486,7 @@ Farmers
 
 Nine people in ten. They fed everybody above them.
 
-Figure 7.3 · Egyptian society, from the top down.
+Egyptian society, from the top down.
 Read every box, then count them: nine people in ten are in the bottom one.
 
 Who did what
@@ -5460,6 +5495,8 @@ Who did what
 Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 2
+
+Figure 7.5 ·
 
 <!-- page 113 -->
 
@@ -5508,6 +5545,9 @@ slaves.
 Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 2
+
+mask of Tutankhamun.
+Figure 7.6 · The funerary
 
 <!-- page 114 -->
 
@@ -5639,7 +5679,7 @@ Cleopatra, written in hieroglyphs
 
 The oval means “everything the sun goes round”. Only a royal name is written inside one.
 
-Figure 7.4 · A royal name in a cartouche.
+A royal name in a cartouche.
 Read the signs left to right, then read what each one is underneath. Notice that the pictures are being used for their
 sounds, not their meanings.
 
@@ -5664,6 +5704,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 4
 · A ROYAL NAME IN A CARTOUCHE.
+
+Figure 7.7 ·
 
 <!-- page 116 -->
 
@@ -5711,6 +5753,9 @@ Prime School Press - www.primeschool.pt
 U N I T 7 - T O P I C 7 . 4
 · A ROYAL NAME IN A CARTOUCHE.
 
+amulet.
+Figure 7.8 · A scarab
+
 <!-- page 117 -->
 
 ---
@@ -5737,7 +5782,7 @@ Unfinished chamber
 
 146.6 m tall when new. 2.3 million blocks.
 
-Figure 7.5 · Inside the Great Pyramid.
+Inside the Great Pyramid.
 Follow the passage from the entrance on the left. There are three chambers, and only one of them was ever used.
 
 How, without machines
@@ -5759,6 +5804,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 5
 · INSIDE THE GREAT PYRAMID.
+
+Figure 7.9 ·
 
 <!-- page 118 -->
 
@@ -5948,7 +5995,7 @@ reject two popular myths.
 
 **✓**
 
-Use this page to revise before you go on. If you cannot do one of the things on the right, go back to
+e before you go on. If you cannot do one of the things on the right, go back to
 the topic that taught it, not to the answers.
 
 **120**
@@ -5956,6 +6003,10 @@ Prime School Press - www.primeschool.pt
 
 U N I T 7 - T O P I C 7 . 5
 · INSIDE THE GREAT PYRAMID.
+
+: ankh, Eye of Horus, scarab, lotus, pyramids and the Nile.
+
+Ancient Egypt in one emblem: ankh, Eye of Horus, scarab, lotus, pyramids and the Nile.
 
 <!-- page 121 -->
 
@@ -6072,6 +6123,10 @@ Prime School Press - www.primeschool.pt
 
 U N I T 8 - T O P I C 8 . 1
 
+Figure 8.1 · China, with its two great rivers.
+
+Figure 8.1 · The rivers of China: the Huang He in the north, the Chang Jiang in the south.
+
 <!-- page 124 -->
 
 ---
@@ -6084,9 +6139,6 @@ Chang'an
 Beijing
 
 mouth of the Chang Jiang
-
-Figure 8.2 · China's two great rivers.
-Find both, then notice that the cities marked are all on or near one of them. Nothing about that is a coincidence.
 
 China's Sorrow
 
@@ -6112,6 +6164,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 8 - T O P I C 8 . 1
 
+Figure 8.2 · The giant panda, China's most famous animal, eating bamboo.
+
 <!-- page 125 -->
 
 ---
@@ -6135,6 +6189,8 @@ China.
 Prime School Press - www.primeschool.pt
 
 U N I T 8 - T O P I C 8 . 1
+
+Figure 8.2 · Left: the Huang He in the loess gorges. Right: the Chang Jiang among green mountains.
 
 <!-- page 126 -->
 
@@ -6377,6 +6433,8 @@ Prime School Press - www.primeschool.pt
 
 U N I T 8 - T O P I C 8 . 3
 
+Figure 8.3 · Confucius, teacher and government adviser.
+
 <!-- page 130 -->
 
 ---
@@ -6463,6 +6521,8 @@ Correct the claim that gunpowder was only used for fireworks in China.
 Prime School Press - www.primeschool.pt
 
 U N I T 8 - T O P I C 8 . 4
+
+Figure 8.4 · More inventions from China: silk, the wheelbarrow, the hot air balloon and the seismoscope.
 
 <!-- page 132 -->
 
@@ -6561,6 +6621,8 @@ history, and it is still busy.
 Prime School Press - www.primeschool.pt
 
 U N I T 8 - T O P I C 8 . 5
+
+Figure 8.7 · The Great Wall along a ridge.
 
 <!-- page 134 -->
 
@@ -6763,6 +6825,8 @@ U N I T 1 0 - T O P I C 1 0 . 1
 138
 Prime School Press - www.primeschool.pt
 
+Figure 10.2 · Symbols of the Inca world: the sun god Inti, the Chakana, the rainbow of Tawantinsuyu.
+
 <!-- page 139 -->
 
 ---
@@ -6834,6 +6898,8 @@ U N I T 1 0 - T O P I C 1 0 . 2
 
 140
 Prime School Press - www.primeschool.pt
+
+Figure 10.4 · The three civilisations of the Americas: Aztec, Maya and Inca.
 
 <!-- page 141 -->
 
@@ -6930,6 +6996,8 @@ U N I T 1 0 - T O P I C 1 0 . 3
 
 142
 Prime School Press - www.primeschool.pt
+
+Figure 10.5 · The quipu, the mita and the ayllu: recording, working and belonging.
 
 <!-- page 143 -->
 
@@ -7029,6 +7097,8 @@ U N I T 1 0 - T O P I C 1 0 . 4
 
 144
 Prime School Press - www.primeschool.pt
+
+Figure 10.6 · A chasqui, the relay runner who carried messages along the Inca roads.
 
 <!-- page 145 -->
 

@@ -1,5 +1,5 @@
 # Global Perspectives - Year 5 (Prime Book)
-> Markdown companion of `public/library/y05-global-perspectives/book.pdf` (112 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y05-global-perspectives/book.pdf` (114 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -2085,6 +2085,42 @@ What is one careful question you want to take into the next unit?
 <!-- page 70 -->
 
 ---
+**TIME CAPSULE**
+
+**HISTORY**
+
+The world of work keeps changing. Two hundred years ago, the Industrial
+Revolution moved work from homes and fields into factories like this cotton mill.
+Whole families, even children, worked long hours among loud machines. Slowly,
+laws changed: school became every child's right, and new technology kept inventing
+new jobs. Ask a grandparent or older friend: what jobs existed when they were
+young that have now disappeared, and what jobs are new since then?
+
+·
+Then and now: name one machine that replaced a hand job, and one job a machine
+cannot do without a person.
+
+**GLOBAL TROTTERS**
+
+**GEOGRAPHY**
+
+Jobs look different around the world. In one country a nurse, a builder or a delivery
+cyclist works on a busy street like this; in another, people work on farms, in fishing
+ports or from home on a computer. Green jobs, such as building wind turbines and
+solar panels, are growing fast everywhere. Choose two jobs you know. For each
+one, find out: which country does it most? Does it need to be done on site or can it
+be done from anywhere?
+
+·
+Map it: choose three jobs from this page and mark on a world map a country where each
+one is common.
+
+70
+70
+
+<!-- page 71 -->
+
+---
 ZZMARK-u5-ENDZZ
 ZZUNITOPENERENDZZ
 
@@ -2098,9 +2134,10 @@ Wider Horizons · Interests, diplomacy, shared resources, soft power and crisis 
 
 How do countries work together when they want different things?
 
-70
+71
+71
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 Unit 5 · Working with other countries
@@ -2142,9 +2179,10 @@ Ask a grown-up to hold the device and open this page with you.
 What you will find: United Nations Peace, dignity and equality overview (adult-supervised). URL:
 https://www.un.org/en/global-issues
 
-71
+72
+72
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 ✦GETTING STARTED
@@ -2169,9 +2207,10 @@ What might a country try to protect for its people?
 List four: safety · food · energy · culture · friendship · money. Rank for a coastal country like
 Portugal.
 
-72
+73
+73
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 ▸LET US FIND OUT
@@ -2195,9 +2234,10 @@ global thinking names interests honestly, then looks for fair deals.
 
 Draw a shield with four interest icons.
 
-73
+74
+74
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 5.2
@@ -2223,9 +2263,10 @@ exchanges and quiet phone calls.
 Diplomacy is slow and sometimes frustrating. It is still how most international problems are
 handled every day without headlines.
 
-74
+75
+75
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 **●YOUR TURN**
@@ -2245,9 +2286,10 @@ cooperation.
 
 Design a "talk first" poster for nations (and for playgrounds).
 
-75
+76
+76
 
-<!-- page 76 -->
+<!-- page 77 -->
 
 ---
 5.3
@@ -2273,9 +2315,10 @@ science and dispute panels.
 Conflict is possible. So is creative sharing. Geography makes neighbours of people who must
 cooperate whether they like each other or not.
 
-76
+77
+77
 
-<!-- page 77 -->
+<!-- page 78 -->
 
 ---
 **●YOUR TURN**
@@ -2298,9 +2341,10 @@ Then: Which view protects children living downstream?
 
 Map a simple river across two countries. Write a joint rule.
 
-77
+78
+78
 
-<!-- page 78 -->
+<!-- page 79 -->
 
 ---
 5.4
@@ -2326,9 +2370,10 @@ others feel about a country.
 Soft power can be used kindly or manipulatively. Year 5 skill: notice influence, ask who benefits,
 keep your own critical mind.
 
-78
+79
+79
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 **●YOUR TURN**
@@ -2348,9 +2393,10 @@ influence.
 
 Poster: Hard tools | Soft tools (age-safe icons only).
 
-79
+80
+80
 
-<!-- page 80 -->
+<!-- page 81 -->
 
 ---
 5.5
@@ -2376,9 +2422,10 @@ channels.
 Good response needs coordination, respect for local leaders, and protection of children.
 Curiosity is fine; disaster tourism and rumour-spreading are not.
 
-80
+81
+81
 
-<!-- page 81 -->
+<!-- page 82 -->
 
 ---
 **●YOUR TURN**
@@ -2398,9 +2445,10 @@ Crescent).
 
 Design a relief backpack with five essential items labelled.
 
-81
+82
+82
 
-<!-- page 82 -->
+<!-- page 83 -->
 
 ---
 5.6
@@ -2426,9 +2474,10 @@ instantly; attacks and crime can start far away.
 Future cooperation is not science fiction only. It is today's treaties and tomorrow's habits of
 evidence and restraint.
 
-82
+83
+83
 
-<!-- page 83 -->
+<!-- page 84 -->
 
 ---
 **●YOUR TURN**
@@ -2462,18 +2511,49 @@ Draw Earth with one satellite and one fibre cable under the sea.
 River treaty simulation. Two teams share a paper river. Negotiate a one-page treaty: water use,
 pollution limit, science sharing, dispute steps. Present for peer review.
 
-83
+84
+84
 
-<!-- page 84 -->
+<!-- page 85 -->
 
 ---
 →LOOKING AHEAD
 
 What is one careful question you want to take into the next unit?
 
-84
+85
+85
 
-<!-- page 85 -->
+**Time Capsule**
+
+**HISTORY**
+
+Long ago, countries shared ideas by sending envoys with gifts. Ancient China and
+Rome traded silk, spices and stories along routes that joined East and West.
+
+In 1851, nations came together in London for the Great Exhibition. Countries
+shared their inventions, such as the telegraph, so people could send messages
+across borders for the first time.
+
+In 1865, twenty countries signed a treaty to run the telegraph together. This was
+one of the first times nations agreed to share a service that crossed every border.
+
+**Global Trotters**
+
+**GEOGRAPHY**
+
+Countries work together across the map every day. Neighbours share rivers, such
+as the Mekong, which flows through six countries that must agree how to use its
+water.
+
+Tunnels under the sea, such as the Channel Tunnel, join the United Kingdom to
+France. Fibre cables under the oceans carry messages between continents in a
+second.
+
+TALK ABOUT IT: Which two countries would you connect with a bridge or tunnel,
+and why?
+
+<!-- page 86 -->
 
 ---
 ZZMARK-u6-ENDZZ
@@ -2489,9 +2569,10 @@ Wider Horizons · Networks, attention, truth, citizenship, creating and AI
 
 Who is in charge of your attention online?
 
-85
+86
+86
 
-<!-- page 86 -->
+<!-- page 87 -->
 
 ---
 Unit 6 · Digital world
@@ -2533,9 +2614,10 @@ Ask a grown-up to hold the device and open this page with you.
 What you will find: Safer Internet / child online safety hub (adult-supervised; use national safer-
 internet centre if preferred). URL: https://www.betterinternetforkids.eu/
 
-86
+87
+87
 
-<!-- page 87 -->
+<!-- page 88 -->
 
 ---
 ✦GETTING STARTED
@@ -2558,9 +2640,10 @@ What physical things must exist for a video call to work?
 
 Trace a message: your device → home router → bigger networks → a server → back again. Sketch it.
 
-87
+88
+88
 
-<!-- page 88 -->
+<!-- page 89 -->
 
 ---
 ▸LET US FIND OUT
@@ -2588,9 +2671,10 @@ Undersea fibre-optic cables carry a huge share of international internet traffic
 
 Draw the Atlantic with one cable line from Portugal toward another continent.
 
-88
+89
+89
 
-<!-- page 89 -->
+<!-- page 90 -->
 
 ---
 6.2
@@ -2617,9 +2701,10 @@ product was engineered.
 Your power is awareness: timers, grey-scale modes, adult settings, and hobbies offline. Schools
 and families set boundaries because developing brains deserve protection.
 
-89
+90
+90
 
-<!-- page 90 -->
+<!-- page 91 -->
 
 ---
 **●YOUR TURN**
@@ -2642,9 +2727,10 @@ Then: Which payment is harder to see?
 
 Poster: Designed to hook | Designed by me (my rules).
 
-90
+91
+91
 
-<!-- page 91 -->
+<!-- page 92 -->
 
 ---
 6.3
@@ -2671,9 +2757,10 @@ Never share a shocking claim to be first. Being first with a falsehood still har
 
 one reason for each.
 
-91
+92
+92
 
-<!-- page 92 -->
+<!-- page 93 -->
 
 ---
 **●YOUR TURN**
@@ -2697,9 +2784,10 @@ With an adult, open one reputable fact-check site and read a single example toge
 
 Detective badge: Claim · Source · Evidence · Decision.
 
-92
+93
+93
 
-<!-- page 93 -->
+<!-- page 94 -->
 
 ---
 6.4
@@ -2724,9 +2812,10 @@ copyright still apply. Age rules on platforms exist for a reason.
 
 Two columns on a piece of paper: Rights online | Duties online.
 
-93
+94
+94
 
-<!-- page 94 -->
+<!-- page 95 -->
 
 ---
 **●YOUR TURN**
@@ -2747,9 +2836,10 @@ From consumer to creator
 
 Look for a pupil making, not only consuming, media.
 
-94
+95
+95
 
-<!-- page 95 -->
+<!-- page 96 -->
 
 ---
 ↺DO YOU REMEMBER?
@@ -2781,9 +2871,10 @@ noise.
 
 Storyboard your helpful video.
 
-95
+96
+96
 
-<!-- page 96 -->
+<!-- page 97 -->
 
 ---
 6.6
@@ -2809,9 +2900,10 @@ also invent false details, copy biases in their training data, and seem more sur
 AI is not a person. It has no childhood and no care. Your job is to use tools with adult guidance,
 check outputs, and keep human judgement in charge.
 
-96
+97
+97
 
-<!-- page 97 -->
+<!-- page 98 -->
 
 ---
 **●YOUR TURN**
@@ -2839,9 +2931,10 @@ Then: Which parts of school should stay human-first?
 
 Label a robot drawing: Pattern tool, not a friend.
 
-97
+98
+98
 
-<!-- page 98 -->
+<!-- page 99 -->
 
 ---
 ☑WHAT WE LEARNED
@@ -2863,9 +2956,46 @@ Label a robot drawing: Pattern tool, not a friend.
 Digital detective agency. In groups of four, invent an agency name, a four-step method poster,
 and one case file (invented claim) solved with evidence. Present in five minutes.
 
-98
+99
+99
 
-<!-- page 99 -->
+<!-- page 100 -->
+
+---
+## Time Capsule
+
+**HISTORY**
+
+The first messages sent by electric telegraph in the 1840s crossed countries
+faster than any letter ever could. By 1866 a cable under the Atlantic Ocean
+joined Britain and America, and news that once took ten days by ship arrived in
+minutes.
+
+In 1969, computers at universities in different American states were joined
+together in ARPANET, the small network that grew into today's internet.
+
+TIME CAPSULE: You are burying a box for pupils in 2075. Which three digital
+things should go in to show how your world communicated?
+
+## Global Trotters
+
+**GEOGRAPHY**
+
+Almost everything you do online travels through real places. Thin fibre cables
+lie on the seabed between continents, carrying messages as flashes of light.
+Many land on quiet beaches in Cornwall, in the south-west of England.
+
+MAP TASK: Trace with your finger how a message from your home might
+reach a website in another country. Which seas, cables and landing stations
+would it pass?
+
+Fast internet is not spread fairly across the world. Roughly one in three people
+still cannot get online. Discuss: why might that make some countries stronger at
+digital work than others?
+
+100
+
+<!-- page 101 -->
 
 ---
 ZZMARK-glossary-ENDZZ
@@ -2917,9 +3047,9 @@ supply chain - the path from materials to finished product to buyer
 
 hybrid culture - local and global styles mixed together
 
-99
+101
 
-<!-- page 100 -->
+<!-- page 102 -->
 
 ---
 Unit 4 · The world of work
@@ -2958,9 +3088,9 @@ misinformation - false or misleading information
 
 network - linked systems that carry data between devices
 
-100
+102
 
-<!-- page 101 -->
+<!-- page 103 -->
 
 ---
 ZZMARK-sources-ENDZZ
@@ -2996,9 +3126,9 @@ PDF/Input/
 2026-08-
 10
 
-101
+103
 
-<!-- page 102 -->
+<!-- page 104 -->
 
 ---
 Unit 1
@@ -3104,9 +3234,9 @@ No readable text
 2026-08-
 13
 
-102
+104
 
-<!-- page 103 -->
+<!-- page 105 -->
 
 ---
 Unit 2
@@ -3195,9 +3325,9 @@ Adult holds device
 2026-08-
 10
 
-103
+105
 
-<!-- page 104 -->
+<!-- page 106 -->
 
 ---
 Unit 4
@@ -3282,9 +3412,9 @@ device
 2026-08-
 10
 
-104
+106
 
-<!-- page 105 -->
+<!-- page 107 -->
 
 ---
 Unit 6
@@ -3333,9 +3463,9 @@ Content illustrations (2026-08-10)
 Original teaching art generated for this title (Prime School Press interior figures). Captions tell pupils
 what to look for.
 
-105
+107
 
-<!-- page 106 -->
+<!-- page 108 -->
 
 ---
 File
@@ -3401,9 +3531,9 @@ Refresh any live statistics before assembly quotes.
 
 Content figures are original Prime illustrations, not third-party Input art.
 
-106
+108
 
-<!-- page 107 -->
+<!-- page 109 -->
 
 ---
 ZZMARK-answers-ENDZZ
@@ -3455,9 +3585,9 @@ Phone upgrade is not a human right; food, education, protection are
 2.4-2.5
 Fair consequences + no gossip; cases are principles
 
-107
+109
 
-<!-- page 108 -->
+<!-- page 110 -->
 
 ---
 Unit 3 · Globalisation
@@ -3517,9 +3647,9 @@ Helpful vs harmful \"help\"
 5.6
 Space/cyber need cross-border rules
 
-108
+110
 
-<!-- page 109 -->
+<!-- page 111 -->
 
 ---
 Unit 6 · Digital world
@@ -3542,9 +3672,9 @@ Rights + duties + tell an adult
 6.5-6.6
 Creator permissions; AI = pattern tool, not person
 
-109
+111
 
-<!-- page 110 -->
+<!-- page 112 -->
 
 ---
 ZZMARK-teachers-ENDZZ
@@ -3586,14 +3716,14 @@ Independent publication. Map topics to your school Global Perspectives / citizen
 Folder name on disk may read Global Prespectives (historical spelling); product title uses Global
 Perspectives.
 
-110
+112
 
-<!-- page 111 -->
+<!-- page 113 -->
 
 ---
-111
+113
 
-<!-- page 112 -->
+<!-- page 114 -->
 
 ---
 **P R I M E  B O O K S**

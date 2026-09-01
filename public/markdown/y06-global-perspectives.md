@@ -1,5 +1,5 @@
 # Global Perspectives - Year 6 (Prime Book)
-> Markdown companion of `public/library/y06-global-perspectives/book.pdf` (112 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y06-global-perspectives/book.pdf` (118 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -69,13 +69,13 @@ On every page there is a Teacher notes band for the adult who teaches with you.
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective Orient the book and cast.**
 **Do Read the welcome aloud; name the four habits.**
 **Listen / Correct Pupils name Inês, Jamal, Sofia, Mateo.**
 **Support Poster of four habits.**
 **Extra challenge One question linking Year 5 to Year 6.**
-
-**TEACHER NOTES**
 
 <!-- page 4 -->
 
@@ -101,13 +101,13 @@ At the back of the book: Word list, Answers, Sources, For teachers, and unit QR 
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Explain page furniture and unit shape.**
 **Do: Walk the table; open one sample unit.**
 **Listen / Correct: Pupils find Opener / Outcomes / Project labels.**
 **Support: Point to Teacher notes band.**
 **Extra challenge: Preview Unit 1 big question.**
-
-**TEACHER NOTES**
 
 <!-- page 5 -->
 
@@ -174,36 +174,46 @@ Unit 1 · Improving communications
 5
 
 Unit 2 · Obeying the law
-21
 
 Unit 3 · Globalisation
-35
 
 Unit 4 · The world of work
-51
 
 Unit 5 · Working with other countries
-67
 
 Unit 6 · Digital world
-83
 
 Word list
-99
 
 Answers
-101
 
 Sources and references
-103
 
 For teachers
-106
 
 QR codes
-108
 
 Prime School Press · www.primeschool.pt
+
+22
+
+37
+
+54
+
+71
+
+88
+
+105
+
+107
+
+109
+
+112
+
+114
 
 <!-- page 7 -->
 
@@ -280,14 +290,13 @@ UNICEF education / communication (adult-held)
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Share outcomes and QR (adult-held).**
 **Do: Read outcomes; tick one personal goal.**
 **Listen / Correct: Pupils restate one outcome.**
 **Support: Highlight three focus outcomes if needed.**
 **Extra challenge: Link one outcome to a local example.**
-
-**EACHER NOTES**
-**TEACHER NOTES**
 
 <!-- page 9 -->
 
@@ -366,13 +375,13 @@ Sketch the four-part equation as a diagram. Star the part you most often forget.
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 1.1.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
-
-**TEACHER NOTES**
 
 <!-- page 11 -->
 
@@ -448,13 +457,13 @@ and why.
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 1.2.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
-
-**TEACHER NOTES**
 
 <!-- page 13 -->
 
@@ -528,13 +537,13 @@ Draw two chairs labelled Direct and Soft. Under each, write one good use and one
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 1.3.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
-
-**TEACHER NOTES**
 
 <!-- page 15 -->
 
@@ -603,13 +612,13 @@ a one-day talk.
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 1.4.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
-
-**TEACHER NOTES**
 
 <!-- page 17 -->
 
@@ -683,13 +692,13 @@ close.
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 1.5.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
-
-**TEACHER NOTES**
 
 <!-- page 19 -->
 
@@ -760,13 +769,13 @@ Draw a listening body: eyes (if comfortable), quiet hands, open questions bubble
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 1.6.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
-
-**TEACHER NOTES**
 
 <!-- page 21 -->
 
@@ -820,29 +829,76 @@ What is one careful communication habit you want to take into Unit 2?
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Self-check and forward link.**
 **Do: Pupils tick honestly; share one star and one wish.**
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
 
-**TEACHER NOTES**
-
 <!-- page 23 -->
 
 ---
-GLOBAL PERSPECTIVES Y6 · UNIT 2 OF 6
+G L O B A L   P E R S P E C T I V E S   Y 6   ·   U N I T   1   ·   I M P R O V I N G   C O M M U N I C A T I O N S
 21
+
+Time Capsule
+
+History
+
+Imagine sealing a box that will only be opened in fifty
+years. Inside you place the messages of today: a
+handwritten letter, a voice note, a chat screenshot.
+That is a time capsule: a message to the future.
+
+Cave painters pressed handprints onto rock walls
+about 40,000 years ago.
+
+Ancient Greeks told stories in pictures on painted
+clay pots.
+
+Wax-sealed letters crossed countries by horse, ship
+and rail.
+
+In 1876 the first telephone carried a human voice
+along a wire.
+
+THINK
+Which invention changed communication the most?
+Why?
+
+Global Trotters
+
+Geography
+
+Global trotters explore the planet without leaving
+their seats. A message typed in Porto can reach a
+friend in Maputo in about one second.
+
+Cables on the ocean floor carry messages between
+continents.
+
+A fibre-optic thread is as thin as a strand of your
+hair.
+
+Time zones matter: a good-morning text may arrive
+at bedtime.
+
+THINK
+Pick two countries. Find the time difference between
+them.
+
+Prime School Press  ·  www.primeschool.pt
+
+<!-- page 24 -->
+
+---
+GLOBAL PERSPECTIVES Y6 · UNIT 2 OF 6
 
 Unit opener
 
-Unit 2 opener · Obeying the law
-
-Unit 2 of 6 · Look Outwards · Global Citizens
-
 Obeying the law
-
-THE BIG QUESTION
 
 Who are laws for, and what makes a consequence fair?
 
@@ -856,9 +912,9 @@ and what makes a consequence fair?
 
 Prime School Press · www.primeschool.pt
 
-**TEACHER NOTES**
+22
 
-THE BIG QUESTION
+**TEACHER NOTES**
 
 **Objective: Warm up with the big question and unit story.**
 **Do: Read opener; pair talk 1–2 minutes each.**
@@ -866,15 +922,18 @@ THE BIG QUESTION
 **Support: Sentence frame: I think… because…**
 **Extra challenge: One extra why question.**
 
-<!-- page 24 -->
+**Unit 2 opener · Obeying the law**
+
+**Unit 2 of 6 · Look Outwards · Global Citizens**
+
+**THE BIG QUESTION**
+
+<!-- page 25 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-22
 
 In this unit you will
-
-Unit 2 · Obeying the law
 
 IN THIS UNIT YOU WILL
 
@@ -900,19 +959,22 @@ UN child rights overview (adult-held)
 
 Prime School Press · www.primeschool.pt
 
+23
+
+**TEACHER NOTES**
+
 **Objective: Share outcomes and QR (adult-held).**
 **Do: Read outcomes; tick one personal goal.**
 **Listen / Correct: Pupils restate one outcome.**
 **Support: Highlight three focus outcomes if needed.**
 **Extra challenge: Link one outcome to a local example.**
 
-**TEACHER NOTES**
+**Unit 2 · Obeying the law**
 
-<!-- page 25 -->
+<!-- page 26 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-23
 
 2.1 · Purpose of laws
 
@@ -920,10 +982,8 @@ Unit 2 · 2.1 · Purpose of laws
 
 2.1 · Purpose of laws
 
-DO YOU REMEMBER?
 What is one rule that keeps people safe at school?
 
-BOOTS ON!
 In groups of three, invent a tiny island with eight people. Write three laws you would
 need on day one and one law you would not allow.
 
@@ -940,11 +1000,9 @@ including people who will never meet each other, and including children.
 
 Prime School Press · www.primeschool.pt
 
+24
+
 **TEACHER NOTES**
-
-DO YOU REMEMBER?
-
-BOOTS ON!
 
 **Objective: Introduce 2.1: Purpose of laws.**
 **Do: Warm question, Boots on, then Let us find out.**
@@ -952,11 +1010,14 @@ BOOTS ON!
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 26 -->
+**DO YOU REMEMBER?**
+
+**BOOTS ON!**
+
+<!-- page 27 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-24
 
 2.1 · Your turn
 
@@ -970,7 +1031,6 @@ deadlines · food safety rules.
 3. Explain why predictability matters (what would a road feel like with no shared rules?).
 4. Write one law idea for your island that protects someone weaker.
 
-DID YOU KNOW?
 Many countries publish laws online so people can read the rules that apply to them.
 
 LOOK OUTWARDS NOTES
@@ -980,7 +1040,9 @@ each.
 
 Prime School Press · www.primeschool.pt
 
-DID YOU KNOW?
+25
+
+**TEACHER NOTES**
 
 **Objective: Practise and reflect on 2.1.**
 **Do: Your turn first; then chair or notes.**
@@ -988,13 +1050,12 @@ DID YOU KNOW?
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
+**DID YOU KNOW?**
 
-<!-- page 27 -->
+<!-- page 28 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-25
 
 2.2 · Rights and responsibilities
 
@@ -1002,10 +1063,8 @@ Unit 2 · 2.2 · Rights and responsibilities
 
 2.2 · Rights and responsibilities
 
-DO YOU REMEMBER?
 What is one right you have at school, and one duty that goes with it?
 
-BOOTS ON!
 Complete the pair: "I have the right to be heard. My responsibility is..." Share once with a
 partner.
 
@@ -1024,11 +1083,9 @@ a responsibility not to leave litter that could hurt others.
 
 Prime School Press · www.primeschool.pt
 
+26
+
 **TEACHER NOTES**
-
-DO YOU REMEMBER?
-
-BOOTS ON!
 
 **Objective: Introduce 2.2: Rights and responsibilities.**
 **Do: Warm question, Boots on, then Let us find out.**
@@ -1036,11 +1093,14 @@ BOOTS ON!
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 28 -->
+**DO YOU REMEMBER?**
+
+**BOOTS ON!**
+
+<!-- page 29 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-26
 
 2.2 · Your turn
 
@@ -1065,19 +1125,20 @@ Draw a balance scale: rights on one side, responsibilities on the other. Add one
 
 Prime School Press · www.primeschool.pt
 
+27
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 2.2.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 29 -->
+<!-- page 30 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-27
 
 2.3 · Human rights
 
@@ -1085,10 +1146,8 @@ Unit 2 · 2.3 · Human rights
 
 2.3 · Human rights
 
-DO YOU REMEMBER?
 What is one thing every child should have, no matter where they live?
 
-BOOTS ON!
 Sort cards (or a list): human right or personal want? phone upgrade · food · education ·
 latest trainers · protection from harm · own bedroom.
 
@@ -1108,11 +1167,9 @@ Year 6 discussion stays kind and age-safe: no graphic stories, no blaming whole 
 
 Prime School Press · www.primeschool.pt
 
+28
+
 **TEACHER NOTES**
-
-DO YOU REMEMBER?
-
-BOOTS ON!
 
 **Objective: Introduce 2.3: Human rights.**
 **Do: Warm question, Boots on, then Let us find out.**
@@ -1120,11 +1177,14 @@ BOOTS ON!
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 30 -->
+**DO YOU REMEMBER?**
+
+**BOOTS ON!**
+
+<!-- page 31 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-28
 
 2.3 · Your turn
 
@@ -1140,13 +1200,14 @@ violence · newest game console.
 3. Explain why education is often listed as a right for children.
 4. Write one way a school can show respect for dignity every day.
 
-DID YOU KNOW?
 The Universal Declaration of Human Rights was adopted by the UN General Assembly in
 1948.
 
 Prime School Press · www.primeschool.pt
 
-DID YOU KNOW?
+29
+
+**TEACHER NOTES**
 
 **Objective: Practise and reflect on 2.3.**
 **Do: Your turn first; then chair or notes.**
@@ -1154,13 +1215,12 @@ DID YOU KNOW?
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
+**DID YOU KNOW?**
 
-<!-- page 31 -->
+<!-- page 32 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-29
 
 2.4 · Consequences of breaking the law
 
@@ -1168,10 +1228,8 @@ Unit 2 · 2.4 · Consequences of breaking the law
 
 2.4 · Consequences of breaking the law
 
-DO YOU REMEMBER?
 What is a fair consequence when someone breaks a class rule?
 
-BOOTS ON!
 In pairs, rank these consequences for a broken playground rule from least to most
 serious: apology · lost playtime · chat with teacher · call home. Explain one ranking
 choice.
@@ -1192,11 +1250,9 @@ harm done.
 
 Prime School Press · www.primeschool.pt
 
+30
+
 **TEACHER NOTES**
-
-DO YOU REMEMBER?
-
-BOOTS ON!
 
 **Objective: Introduce 2.4: Consequences of breaking the law.**
 **Do: Warm question, Boots on, then Let us find out.**
@@ -1204,11 +1260,14 @@ BOOTS ON!
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 32 -->
+**DO YOU REMEMBER?**
+
+**BOOTS ON!**
+
+<!-- page 33 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-30
 
 2.4 · Your turn
 
@@ -1234,19 +1293,20 @@ Sketch a "fair consequence ladder" with three rungs and one example each.
 
 Prime School Press · www.primeschool.pt
 
+31
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 2.4.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 33 -->
+<!-- page 34 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-31
 
 2.5 · Real life examples
 
@@ -1254,10 +1314,8 @@ Unit 2 · 2.5 · Real life examples
 
 2.5 · Real life examples
 
-DO YOU REMEMBER?
 Why do we avoid using real classmates' names when we discuss problems?
 
-BOOTS ON!
 Class rule for this topic: no names of real pupils as "cases". Invent characters only. Agree
 with a thumbs-up.
 
@@ -1278,11 +1336,9 @@ feels too heavy, tell a teacher. Stay age-safe.
 
 Prime School Press · www.primeschool.pt
 
+32
+
 **TEACHER NOTES**
-
-DO YOU REMEMBER?
-
-BOOTS ON!
 
 **Objective: Introduce 2.5: Real life examples.**
 **Do: Warm question, Boots on, then Let us find out.**
@@ -1290,11 +1346,14 @@ BOOTS ON!
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 34 -->
+**DO YOU REMEMBER?**
+
+**BOOTS ON!**
+
+<!-- page 35 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-32
 
 2.5 · Your turn
 
@@ -1307,7 +1366,6 @@ YOUR TURN
 3. Invent a third short frame (three sentences) about littering near a river. No real names.
 4. Write the class discussion rule you will keep when talking about "real life".
 
-DID YOU KNOW?
 News reports about courts are written for adults. Primary classes use simplified,
 invented frames instead.
 
@@ -1318,7 +1376,9 @@ taught you.
 
 Prime School Press · www.primeschool.pt
 
-DID YOU KNOW?
+33
+
+**TEACHER NOTES**
 
 **Objective: Practise and reflect on 2.5.**
 **Do: Your turn first; then chair or notes.**
@@ -1326,13 +1386,12 @@ DID YOU KNOW?
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
+**DID YOU KNOW?**
 
-<!-- page 35 -->
+<!-- page 36 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-33
 
 Project
 
@@ -1346,6 +1405,8 @@ about dignity. Present in two minutes. Vote on which lines to keep for the wall.
 
 Prime School Press · www.primeschool.pt
 
+34
+
 **TEACHER NOTES**
 
 **Objective: Unit product with clear success criteria.**
@@ -1354,11 +1415,10 @@ Prime School Press · www.primeschool.pt
 **Support: Role cards; scaffolded template.**
 **Extra challenge: Audience share of one strong idea.**
 
-<!-- page 36 -->
+<!-- page 37 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 2 · OBEYING THE LAW
-34
 
 What we learned
 
@@ -1378,19 +1438,73 @@ What is one fair-community idea you want to take into the globalisation unit?
 
 Prime School Press · www.primeschool.pt
 
+35
+
+**TEACHER NOTES**
+
 **Objective: Self-check and forward link.**
 **Do: Pupils tick honestly; share one star and one wish.**
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
 
-**TEACHER NOTES**
+<!-- page 38 -->
 
-<!-- page 37 -->
+---
+G  L  O  B  A  L       P  E  R  S  P  E  C  T  I  V  E  S       Y  6 ·  U  N  I  T       2       ·       O  B  E  Y  I  N  G       T  H  E       L  A  W
+Time Capsule
+
+History
+
+Rules are older than you might think. Long before
+parliaments, communities carved their laws onto
+stone so everyone could see them. A written law
+belongs to the whole community, not only to the
+strongest leader.
+
+Hammurabi, King of Babylon, had 282 laws carved on
+a stone pillar nearly 4,000 years ago.
+In ancient Athens, the laws of Draco were written on
+wooden blocks for all citizens to read.
+In 1215, King John of England sealed Magna Carta,
+agreeing that even a king must obey the law.
+In 1804, the Napoleonic Code spread one clear set of
+rules across much of Europe.
+
+THINK
+Which of these steps changed ordinary people's lives the
+most? Why?
+
+Global Trotters
+
+Geography
+
+Laws travel across borders, but they do not always
+match. Rules that feel normal in one country can
+surprise a visitor in another. Global trotters learn to
+spot the differences.
+
+In Japan and the United Kingdom cars drive on the
+left; in Portugal and Brazil, on the right.
+The age when you may vote, work or drive differs
+from country to country.
+National laws stop at borders, so countries sign
+treaties agreeing shared rules.
+Police forces share information through Interpol so
+justice crosses borders too.
+
+THINK
+Pick two countries. Find one rule that differs in each.
+Which seems fairer to you?
+
+Prime School Press  ·  www.primeschool.pt
+
+36
+
+<!-- page 39 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 OF 6
-35
 
 Unit opener
 
@@ -1416,6 +1530,11 @@ through things we use every day?
 
 Prime School Press · www.primeschool.pt
 
+their classroom". B
+"
+
+37
+
 **TEACHER NOTES**
 
 **Objective: Warm up with the big question and unit story.**
@@ -1424,14 +1543,10 @@ Prime School Press · www.primeschool.pt
 **Support: Sentence frame: I think… because…**
 **Extra challenge: One extra why question.**
 
-their classroom". B
-"
-
-<!-- page 38 -->
+<!-- page 40 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-36
 
 In this unit you will
 
@@ -1464,19 +1579,20 @@ UN global issues overview (adult-held)
 
 Prime School Press · www.primeschool.pt
 
+38
+
+**TEACHER NOTES**
+
 **Objective: Share outcomes and QR (adult-held).**
 **Do: Read outcomes; tick one personal goal.**
 **Listen / Correct: Pupils restate one outcome.**
 **Support: Highlight three focus outcomes if needed.**
 **Extra challenge: Link one outcome to a local example.**
 
-**TEACHER NOTES**
-
-<!-- page 39 -->
+<!-- page 41 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-37
 
 3.1 · The engine of trade
 
@@ -1505,6 +1621,8 @@ not as a cartoon.
 
 Prime School Press · www.primeschool.pt
 
+39
+
 **TEACHER NOTES**
 
 **Objective: Introduce 3.1: The engine of trade.**
@@ -1513,11 +1631,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 40 -->
+<!-- page 42 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-38
 
 3.1 · Your turn
 
@@ -1537,19 +1654,20 @@ Container shipping moves a large share of the world's goods trade across oceans.
 
 Prime School Press · www.primeschool.pt
 
+40
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 3.1.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 41 -->
+<!-- page 43 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-39
 
 3.2 · How information and ideas travel
 
@@ -1578,6 +1696,8 @@ travel.
 
 Prime School Press · www.primeschool.pt
 
+41
+
 **TEACHER NOTES**
 
 **Objective: Introduce 3.2: How information and ideas travel.**
@@ -1586,11 +1706,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 42 -->
+<!-- page 44 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-40
 
 3.2 · Your turn
 
@@ -1615,19 +1734,20 @@ Sketch a "nervous system" map: source → travel path → your class. Mark one c
 
 Prime School Press · www.primeschool.pt
 
+42
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 3.2.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 43 -->
+<!-- page 45 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-41
 
 3.3 · Cultural exchange
 
@@ -1656,6 +1776,8 @@ Year 6 avoids stereotypes such as "all people from X are...". Individuals differ
 
 Prime School Press · www.primeschool.pt
 
+43
+
 **TEACHER NOTES**
 
 **Objective: Introduce 3.3: Cultural exchange.**
@@ -1664,11 +1786,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 44 -->
+<!-- page 46 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-42
 
 3.3 · Your turn
 
@@ -1696,19 +1817,20 @@ judging the whole country.
 
 Prime School Press · www.primeschool.pt
 
+44
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 3.3.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 45 -->
+<!-- page 47 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-43
 
 3.4 · Winners and losers
 
@@ -1735,6 +1857,8 @@ to cheer and losers to mock.
 
 Prime School Press · www.primeschool.pt
 
+45
+
 **TEACHER NOTES**
 
 **Objective: Introduce 3.4: Winners and losers.**
@@ -1743,11 +1867,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 46 -->
+<!-- page 48 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-44
 
 3.4 · Your turn
 
@@ -1772,19 +1895,20 @@ Draw a balance: Gains / Risks. Add two notes each side.
 
 Prime School Press · www.primeschool.pt
 
+46
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 3.4.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 47 -->
+<!-- page 49 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-45
 
 3.5 · Problems without passports
 
@@ -1813,6 +1937,8 @@ Blaming "other people" as a whole is not science and not fairness.
 
 Prime School Press · www.primeschool.pt
 
+47
+
 **TEACHER NOTES**
 
 **Objective: Introduce 3.5: Problems without passports.**
@@ -1821,11 +1947,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 48 -->
+<!-- page 50 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-46
 
 3.5 · Your turn
 
@@ -1849,19 +1974,20 @@ idea.
 
 Prime School Press · www.primeschool.pt
 
+48
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 3.5.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 49 -->
+<!-- page 51 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-47
 
 3.6 · Your role as a global citizen
 
@@ -1890,6 +2016,8 @@ Global citizenship is a habit, not a costume.
 
 Prime School Press · www.primeschool.pt
 
+49
+
 **TEACHER NOTES**
 
 **Objective: Introduce 3.6: Your role as a global citizen.**
@@ -1898,11 +2026,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 50 -->
+<!-- page 52 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-48
 
 3.6 · Your turn
 
@@ -1926,19 +2053,20 @@ and note its number and name.
 
 Prime School Press · www.primeschool.pt
 
+50
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 3.6.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 51 -->
+<!-- page 53 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-49
 
 Project
 
@@ -1952,6 +2080,8 @@ one worker role, one environmental question, one fair-choice idea, one source yo
 
 Prime School Press · www.primeschool.pt
 
+51
+
 **TEACHER NOTES**
 
 **Objective: Unit product with clear success criteria.**
@@ -1960,11 +2090,10 @@ Prime School Press · www.primeschool.pt
 **Support: Role cards; scaffolded template.**
 **Extra challenge: Audience share of one strong idea.**
 
-<!-- page 52 -->
+<!-- page 54 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 3 · GLOBALISATION
-50
 
 What we learned
 
@@ -1985,19 +2114,78 @@ What is one careful question you want to take into the world of work?
 
 Prime School Press · www.primeschool.pt
 
+52
+
+**TEACHER NOTES**
+
 **Objective: Self-check and forward link.**
 **Do: Pupils tick honestly; share one star and one wish.**
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
 
-**TEACHER NOTES**
+<!-- page 55 -->
 
-<!-- page 53 -->
+---
+G L O B A L   P E R S P E C T I V E S   Y 6   ·   U N I T   3   ·   G L O B A L I S A T I O N
+53
+
+Time Capsule
+
+History
+
+Globalisation is not new. For thousands of years,
+people have carried goods, ideas and inventions
+along slow roads and stormy seas.
+
+Silk Road caravans linked China to the
+Mediterranean for centuries.
+
+Sailing ships carried spices, sugar and silver
+between continents.
+
+Steam trains and telegraph wires made trade faster
+in the 1800s.
+
+Container ships now move goods across oceans in
+days, not months.
+
+THINK
+Which journey changed the world the most?
+
+Trade journeys through time
+
+Global Trotters
+
+Geography
+
+Global trotters follow the journey of one T-shirt.
+Cotton may be grown in one country, sewn in
+another and sold in a third.
+
+A banana often travels 5,000 kilometres before it
+reaches your bowl.
+
+Coffee beans grow near the equator and are drunk
+nearly everywhere.
+
+Undersea cables and ports are the busy crossroads
+of global trade.
+
+Goods travel; so do ideas, music and football
+celebrations.
+
+THINK
+Trace one item you own. Which countries did it visit?
+
+Prime School Press  ·  www.prim
+
+Trade routes around the world
+
+<!-- page 56 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 OF 6
-51
 
 Unit opener
 
@@ -2022,6 +2210,8 @@ how is work changing, and which skills will still matter?
 
 Prime School Press · www.primeschool.pt
 
+54
+
 **TEACHER NOTES**
 
 **Objective: Warm up with the big question and unit story.**
@@ -2030,11 +2220,10 @@ Prime School Press · www.primeschool.pt
 **Support: Sentence frame: I think… because…**
 **Extra challenge: One extra why question.**
 
-<!-- page 54 -->
+<!-- page 57 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-52
 
 In this unit you will
 
@@ -2067,19 +2256,20 @@ ILO youth / work overview (adult-held)
 
 Prime School Press · www.primeschool.pt
 
+55
+
+**TEACHER NOTES**
+
 **Objective: Share outcomes and QR (adult-held).**
 **Do: Read outcomes; tick one personal goal.**
 **Listen / Correct: Pupils restate one outcome.**
 **Support: Highlight three focus outcomes if needed.**
 **Extra challenge: Link one outcome to a local example.**
 
-**TEACHER NOTES**
-
-<!-- page 55 -->
+<!-- page 58 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-53
 
 4.1 · The global division of labour
 
@@ -2107,6 +2297,8 @@ not a reason to insult a country.
 
 Prime School Press · www.primeschool.pt
 
+56
+
 **TEACHER NOTES**
 
 **Objective: Introduce 4.1: The global division of labour.**
@@ -2115,11 +2307,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 56 -->
+<!-- page 59 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-54
 
 4.1 · Your turn
 
@@ -2143,19 +2334,20 @@ Draw a T-shirt with four journey arrows. On the back: one fair shopper question.
 
 Prime School Press · www.primeschool.pt
 
+57
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 4.1.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 57 -->
+<!-- page 60 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-55
 
 4.2 · Flexible and remote work
 
@@ -2182,6 +2374,8 @@ people contact.
 
 Prime School Press · www.primeschool.pt
 
+58
+
 **TEACHER NOTES**
 
 **Objective: Introduce 4.2: Flexible and remote work.**
@@ -2190,11 +2384,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 58 -->
+<!-- page 61 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-56
 
 4.2 · Your turn
 
@@ -2217,19 +2410,20 @@ Then: Which local jobs keep your town running if everyone stayed home?
 
 Prime School Press · www.primeschool.pt
 
+59
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 4.2.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 59 -->
+<!-- page 62 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-57
 
 4.3 · Automation and AI at work
 
@@ -2256,6 +2450,8 @@ kindness, creativity and responsibility. Some new jobs appear because machines e
 
 Prime School Press · www.primeschool.pt
 
+60
+
 **TEACHER NOTES**
 
 **Objective: Introduce 4.3: Automation and AI at work.**
@@ -2264,11 +2460,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 60 -->
+<!-- page 63 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-58
 
 4.3 · Your turn
 
@@ -2291,10 +2486,11 @@ Robot / Human Venn diagram: three unique each side, two shared skills in the mid
 
 ONE STEP FURTHER
 
-Ask an adult one way technology changed their work or a family member's work. Note one
-skill that still mattered.
-
 Prime School Press · www.primeschool.pt
+
+61
+
+**TEACHER NOTES**
 
 **Objective: Practise and reflect on 4.3.**
 **Do: Your turn first; then chair or notes.**
@@ -2302,13 +2498,13 @@ Prime School Press · www.primeschool.pt
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
+Ask an adult how technology has changed their work, or the work of someone in
+your family. Note down one skill that still mattered.
 
-<!-- page 61 -->
+<!-- page 64 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-59
 
 4.4 · Green jobs and ethical choices
 
@@ -2334,6 +2530,10 @@ support school eco projects. Perfect purity is not required Better questions are
 
 Prime School Press · www.primeschool.pt
 
+-
+
+62
+
 **TEACHER NOTES**
 
 **Objective: Introduce 4.4: Green jobs and ethical choices.**
@@ -2342,13 +2542,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
--
-
-<!-- page 62 -->
+<!-- page 65 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-60
 
 4.4 · Your turn
 
@@ -2373,19 +2570,20 @@ Poster corner: Green job of the week + one ethical choice tip.
 
 Prime School Press · www.primeschool.pt
 
+63
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 4.4.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 63 -->
+<!-- page 66 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-61
 
 4.5 · Entrepreneurial mindset
 
@@ -2411,6 +2609,8 @@ What could go wrong? What evidence will show it helped?
 
 Prime School Press · www.primeschool.pt
 
+64
+
 **TEACHER NOTES**
 
 **Objective: Introduce 4.5: Entrepreneurial mindset.**
@@ -2419,11 +2619,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 64 -->
+<!-- page 67 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-62
 
 4.5 · Your turn
 
@@ -2442,19 +2641,20 @@ Problem → idea → first tiny test. Fill the three boxes.
 
 Prime School Press · www.primeschool.pt
 
+65
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 4.5.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 65 -->
+<!-- page 68 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-63
 
 4.6 · Lifelong learning and skills portfolio
 
@@ -2476,6 +2676,11 @@ are learning next. Many countries encourage lifelong learning in education polic
 
 Prime School Press · www.primeschool.pt
 
+Your portfolio is not a finished CV. It is a growing record: notice a skill,
+practise it, and collect evidence (a project photo, a reflection, a teacher comment).
+
+66
+
 **TEACHER NOTES**
 
 **Objective: Introduce 4.6: Lifelong learning and skills portfolio.**
@@ -2484,14 +2689,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-Your portfolio is not a finished CV. It is a growing record: notice a skill,
-practise it, and collect evidence (a project photo, a reflection, a teacher comment).
-
-<!-- page 66 -->
+<!-- page 69 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-64
 
 4.6 · Your turn
 
@@ -2514,19 +2715,20 @@ Portfolio cover: name, year, motto, three skill stars.
 
 Prime School Press · www.primeschool.pt
 
+67
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 4.6.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 67 -->
+<!-- page 70 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-65
 
 Project
 
@@ -2540,6 +2742,8 @@ a three-minute partner interview using active listening from Unit 1.
 
 Prime School Press · www.primeschool.pt
 
+68
+
 **TEACHER NOTES**
 
 **Objective: Unit product with clear success criteria.**
@@ -2548,11 +2752,10 @@ Prime School Press · www.primeschool.pt
 **Support: Role cards; scaffolded template.**
 **Extra challenge: Audience share of one strong idea.**
 
-<!-- page 68 -->
+<!-- page 71 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 4 · THE WORLD OF WORK
-66
 
 What we learned
 
@@ -2573,19 +2776,78 @@ What is one skill you want ready before you think about countries working togeth
 
 Prime School Press · www.primeschool.pt
 
+69
+
+**TEACHER NOTES**
+
 **Objective: Self-check and forward link.**
 **Do: Pupils tick honestly; share one star and one wish.**
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
 
-**TEACHER NOTES**
+<!-- page 72 -->
 
-<!-- page 69 -->
+---
+G L O B A L   P E R S P E C T I V E S   Y 6   ·   U N I T   4   ·   T H E   W O R L D   O F   W O R K
+70
+
+Time Capsule
+
+History
+
+Work has changed costume many times, but people
+have always made, mended and traded. Each new
+tool moved work somewhere new.
+
+For most of history, most people worked the land
+beside their families.
+
+Craftspeople in towns sold what their hands could
+make.
+
+Factories in the 1800s gathered workers under one
+roof.
+
+Offices, and then laptops, moved work onto desks
+and into homes.
+
+THINK
+Which change surprised workers the most?
+
+Work through the ages
+
+Global Trotters
+
+Geography
+
+Global trotters notice that where you live still shapes
+the work you find. Fishing needs a coast; farming
+needs soil; coding needs a signal.
+
+Some jobs are place-based: bakers, nurses and
+builders stay where people are.
+
+Remote jobs can live anywhere with a good internet
+connection.
+
+Coffee work follows the bean: grown near the
+equator, roasted far away.
+
+Green jobs, like turbine and solar work, are growing
+on every continent.
+
+THINK
+Which place-based job does your town need most?
+
+Jobs around the world
+
+Prime School Press  ·  www.primeschool.pt
+
+<!-- page 73 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 OF 6
-67
 
 Unit opener
 
@@ -2611,6 +2873,8 @@ they do not always want the same thing?
 
 Prime School Press · www.primeschool.pt
 
+71
+
 **TEACHER NOTES**
 
 **Objective: Warm up with the big question and unit story.**
@@ -2619,11 +2883,10 @@ Prime School Press · www.primeschool.pt
 **Support: Sentence frame: I think… because…**
 **Extra challenge: One extra why question.**
 
-<!-- page 70 -->
+<!-- page 74 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-68
 
 In this unit you will
 
@@ -2656,19 +2919,20 @@ UN cooperation overview (adult-held)
 
 Prime School Press · www.primeschool.pt
 
+72
+
+**TEACHER NOTES**
+
 **Objective: Share outcomes and QR (adult-held).**
 **Do: Read outcomes; tick one personal goal.**
 **Listen / Correct: Pupils restate one outcome.**
 **Support: Highlight three focus outcomes if needed.**
 **Extra challenge: Link one outcome to a local example.**
 
-**TEACHER NOTES**
-
-<!-- page 71 -->
+<!-- page 75 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-69
 
 5.1 · National interests
 
@@ -2685,7 +2949,8 @@ trade, culture...). Star the top one.
 
 LET US FIND OUT
 
-A national interest is a goal a country prioritises for its people: safety,
+A national interest
+safety,
 health, fair trade, environment, culture. Interests can overlap (everyone wants clean
 air) and can clash (who gets the water first).
 
@@ -2695,6 +2960,11 @@ hate of whole peoples.
 
 Prime School Press · www.primeschool.pt
 
+is a goal a country prioritises for its people
+,
+
+73
+
 **TEACHER NOTES**
 
 **Objective: Introduce 5.1: National interests.**
@@ -2703,11 +2973,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 72 -->
+<!-- page 76 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-70
 
 5.1 · Your turn
 
@@ -2726,19 +2995,20 @@ Three circles: Safety · Fair trade · Environment. Add one example note in each
 
 Prime School Press · www.primeschool.pt
 
+74
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 5.1.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 73 -->
+<!-- page 77 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-71
 
 5.2 · The toolbox of diplomacy
 
@@ -2764,6 +3034,8 @@ compromises. Force is not the Year 6 focus. Understanding talk tools is.
 
 Prime School Press · www.primeschool.pt
 
+75
+
 **TEACHER NOTES**
 
 **Objective: Introduce 5.2: The toolbox of diplomacy.**
@@ -2772,11 +3044,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 74 -->
+<!-- page 78 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-72
 
 5.2 · Your turn
 
@@ -2802,19 +3073,20 @@ Then: Why might a written treaty help more than a quick shout?
 
 Prime School Press · www.primeschool.pt
 
+76
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 5.2.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 75 -->
+<!-- page 79 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-73
 
 5.3 · Shared resources
 
@@ -2840,6 +3112,8 @@ be checked. We do not invent wars. We invent fair agreements.
 
 Prime School Press · www.primeschool.pt
 
+77
+
 **TEACHER NOTES**
 
 **Objective: Introduce 5.3: Shared resources.**
@@ -2848,11 +3122,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 76 -->
+<!-- page 80 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-74
 
 5.3 · Your turn
 
@@ -2871,19 +3144,20 @@ River diagram: upstream / downstream. Add one right and one duty each side.
 
 Prime School Press · www.primeschool.pt
 
+78
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 5.3.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 77 -->
+<!-- page 81 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-75
 
 5.4 · Soft power
 
@@ -2910,6 +3184,8 @@ too: welcome, excellence, kindness.
 
 Prime School Press · www.primeschool.pt
 
+79
+
 **TEACHER NOTES**
 
 **Objective: Introduce 5.4: Soft power.**
@@ -2918,11 +3194,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 78 -->
+<!-- page 82 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-76
 
 5.4 · Your turn
 
@@ -2950,19 +3225,20 @@ joins. Note how it might build respect.
 
 Prime School Press · www.primeschool.pt
 
+80
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 5.4.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 79 -->
+<!-- page 83 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-77
 
 5.5 · Crisis response
 
@@ -2989,6 +3265,8 @@ help and respect for people in crisis.
 
 Prime School Press · www.primeschool.pt
 
+81
+
 **TEACHER NOTES**
 
 **Objective: Introduce 5.5: Crisis response.**
@@ -2997,11 +3275,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 80 -->
+<!-- page 84 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-78
 
 5.5 · Your turn
 
@@ -3026,19 +3303,20 @@ Checklist card: Ask · Listen · Send what is needed · Respect dignity.
 
 Prime School Press · www.primeschool.pt
 
+82
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 5.5.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 81 -->
+<!-- page 85 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-79
 
 5.6 · Future cooperation: space and cyberspace
 
@@ -3064,6 +3342,8 @@ needs fairness, safety and talk tools from earlier topics.
 
 Prime School Press · www.primeschool.pt
 
+83
+
 **TEACHER NOTES**
 
 **Objective: Introduce 5.6: Future cooperation: space and cyberspace.**
@@ -3072,11 +3352,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 82 -->
+<!-- page 86 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-80
 
 5.6 · Your turn
 
@@ -3095,19 +3374,20 @@ Two panels: Space rules we might need · Cyberspace rules we might need.
 
 Prime School Press · www.primeschool.pt
 
+84
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 5.6.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 83 -->
+<!-- page 87 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-81
 
 Project
 
@@ -3122,6 +3402,8 @@ three minutes.
 
 Prime School Press · www.primeschool.pt
 
+85
+
 **TEACHER NOTES**
 
 **Objective: Unit product with clear success criteria.**
@@ -3130,11 +3412,10 @@ Prime School Press · www.primeschool.pt
 **Support: Role cards; scaffolded template.**
 **Extra challenge: Audience share of one strong idea.**
 
-<!-- page 84 -->
+<!-- page 88 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 5 · WORKING WITH OTHER COUNTRIES
-82
 
 What we learned
 
@@ -3155,19 +3436,79 @@ What is one cooperation habit you want to take into the digital world unit?
 
 Prime School Press · www.primeschool.pt
 
+86
+
+**TEACHER NOTES**
+
 **Objective: Self-check and forward link.**
 **Do: Pupils tick honestly; share one star and one wish.**
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
 
-**TEACHER NOTES**
+<!-- page 89 -->
 
-<!-- page 85 -->
+---
+G L O B A L   P E R S P E C T I V E S   Y 6   ·   U N I T   5   ·   W O R K I N G   W I T H   O T H E R   C O U N T R I E S
+87
+
+Time Capsule
+
+History
+
+Countries have always needed to talk. Long before
+telephones, rulers sent messengers with gifts to
+keep the peace.
+
+Ancient kings sealed promises with handshakes,
+marriages and gifts.
+
+Peace treaties were written on scrolls and stamped
+with wax seals.
+
+In 1945, after a world war, 51 countries founded the
+United Nations.
+
+Today almost every country on Earth meets to share
+problems.
+
+THINK
+Why do countries sign treaties instead of just
+promising?
+
+Promises between nations through time
+
+Global Trotters
+
+Geography
+
+Global trotters find that borders do not stop rivers,
+winds or fish. Neighbours must cooperate or
+everyone loses.
+
+Rivers cross borders, so upstream and downstream
+countries share water.
+
+Portugal works with European Union neighbours on
+trade and travel.
+
+The United Nations gives every country one seat
+and one voice.
+
+Countries rescue each other after earthquakes,
+floods and storms.
+
+THINK
+Two countries share one river. Design one fair rule.
+
+Talking it out around the world
+
+Prime School Press  ·  www.primeschool.pt
+
+<!-- page 90 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 OF 6
-83
 
 Unit opener
 
@@ -3192,6 +3533,8 @@ how do we stay human, fair and free in a world designed to keep us online?
 
 Prime School Press · www.primeschool.pt
 
+88
+
 **TEACHER NOTES**
 
 **Objective: Warm up with the big question and unit story.**
@@ -3200,11 +3543,10 @@ Prime School Press · www.primeschool.pt
 **Support: Sentence frame: I think… because…**
 **Extra challenge: One extra why question.**
 
-<!-- page 86 -->
+<!-- page 91 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-84
 
 In this unit you will
 
@@ -3237,19 +3579,20 @@ Safer Internet / digital care (adult-held)
 
 Prime School Press · www.primeschool.pt
 
+89
+
+**TEACHER NOTES**
+
 **Objective: Share outcomes and QR (adult-held).**
 **Do: Read outcomes; tick one personal goal.**
 **Listen / Correct: Pupils restate one outcome.**
 **Support: Highlight three focus outcomes if needed.**
 **Extra challenge: Link one outcome to a local example.**
 
-**TEACHER NOTES**
-
-<!-- page 87 -->
+<!-- page 92 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-85
 
 6.1 · How the internet really works
 
@@ -3276,6 +3619,8 @@ question: who controls a step, who can see data, what happens if a cable fails.
 
 Prime School Press · www.primeschool.pt
 
+90
+
 **TEACHER NOTES**
 
 **Objective: Introduce 6.1: How the internet really works.**
@@ -3284,11 +3629,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 88 -->
+<!-- page 93 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-86
 
 6.1 · Your turn
 
@@ -3311,19 +3655,20 @@ Path diagram with five boxes. Star the step you understand least and write one q
 
 Prime School Press · www.primeschool.pt
 
+91
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 6.1.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 89 -->
+<!-- page 94 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-87
 
 6.2 · The attention economy
 
@@ -3335,8 +3680,6 @@ DO YOU REMEMBER?
 What design makes an app hard to put down?
 
 BOOTS ON!
-List three app or game features that pull attention (endless scroll, streaks, bright
-notifications). No brand-bashing speeches: just features.
 
 LET US FIND OUT
 
@@ -3350,6 +3693,8 @@ purpose.
 
 Prime School Press · www.primeschool.pt
 
+92
+
 **TEACHER NOTES**
 
 **Objective: Introduce 6.2: The attention economy.**
@@ -3358,11 +3703,13 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 90 -->
+Write down three apps or game features that grab your attention: endless
+scrolling, streaks or bright notifications. Focus on the features, not the brands.
+
+<!-- page 95 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-88
 
 6.2 · Your turn
 
@@ -3388,19 +3735,20 @@ My attention rules: three lines you can keep.
 
 Prime School Press · www.primeschool.pt
 
+93
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 6.2.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 91 -->
+<!-- page 96 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-89
 
 6.3 · Misinformation and media literacy
 
@@ -3412,8 +3760,6 @@ DO YOU REMEMBER?
 What is the difference between a fact you checked and a claim you only saw once?
 
 BOOTS ON!
-Teacher shows three sample claims (invented, age-safe). Pupils sort: trust / check /
-reject, with one reason each.
 
 LET US FIND OUT
 
@@ -3432,6 +3778,8 @@ Emotions are clues: fear and anger can rush you. Year 6 detectives slow down.
 
 Prime School Press · www.primeschool.pt
 
+94
+
 **TEACHER NOTES**
 
 **Objective: Introduce 6.3: Misinformation and media literacy.**
@@ -3440,11 +3788,14 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 92 -->
+Your teacher will show you three claims: chocolate makes you run faster, school
+is closed on Monday, and a famous footballer ate in our canteen. Sort each
+claim into trust, check or reject, and give one reason for your choice.
+
+<!-- page 97 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-90
 
 6.3 · Your turn
 
@@ -3465,19 +3816,20 @@ online.
 
 Prime School Press · www.primeschool.pt
 
+95
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 6.3.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 93 -->
+<!-- page 98 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-91
 
 6.4 · Digital citizenship rights and responsibilities
 
@@ -3502,6 +3854,8 @@ community online means a message can reach far. Kindness and caution travel with
 
 Prime School Press · www.primeschool.pt
 
+96
+
 **TEACHER NOTES**
 
 **Objective: Introduce 6.4: Digital citizenship rights and responsibilities.**
@@ -3510,11 +3864,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 94 -->
+<!-- page 99 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-92
 
 6.4 · Your turn
 
@@ -3533,19 +3886,20 @@ Shield drawing: rights inside, duties as the outer ring.
 
 Prime School Press · www.primeschool.pt
 
+97
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 6.4.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 95 -->
+<!-- page 100 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-93
 
 6.5 · From consumer to creator
 
@@ -3573,6 +3927,8 @@ Creating is power. Responsibility is the other half of power.
 
 Prime School Press · www.primeschool.pt
 
+98
+
 **TEACHER NOTES**
 
 **Objective: Introduce 6.5: From consumer to creator.**
@@ -3581,11 +3937,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 96 -->
+<!-- page 101 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-94
 
 6.5 · Your turn
 
@@ -3610,19 +3965,20 @@ Creator checklist: purpose · permission · credit · fact · dignity.
 
 Prime School Press · www.primeschool.pt
 
+99
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 6.5.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 97 -->
+<!-- page 102 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-95
 
 6.6 · Artificial intelligence
 
@@ -3651,6 +4007,8 @@ AI cannot replace your kindness, your questions, or your duty to tell the truth.
 
 Prime School Press · www.primeschool.pt
 
+100
+
 **TEACHER NOTES**
 
 **Objective: Introduce 6.6: Artificial intelligence.**
@@ -3659,11 +4017,10 @@ Prime School Press · www.primeschool.pt
 **Support: Re-read teach paragraph in pairs.**
 **Extra challenge: One extra example from school life.**
 
-<!-- page 98 -->
+<!-- page 103 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-96
 
 6.6 · Your turn
 
@@ -3686,19 +4043,20 @@ Tool label for AI: helps with... / still needs a human for...
 
 Prime School Press · www.primeschool.pt
 
+101
+
+**TEACHER NOTES**
+
 **Objective: Practise and reflect on 6.6.**
 **Do: Your turn first; then chair or notes.**
 **Listen / Correct: Reasons with because; respectful language.**
 **Support: Sentence starters; reduce to two tasks if needed.**
 **Extra challenge: One step further if ready.**
 
-**TEACHER NOTES**
-
-<!-- page 99 -->
+<!-- page 104 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-97
 
 Project
 
@@ -3713,6 +4071,8 @@ checks any links before they are shared.
 
 Prime School Press · www.primeschool.pt
 
+102
+
 **TEACHER NOTES**
 
 **Objective: Unit product with clear success criteria.**
@@ -3721,11 +4081,10 @@ Prime School Press · www.primeschool.pt
 **Support: Role cards; scaffolded template.**
 **Extra challenge: Audience share of one strong idea.**
 
-<!-- page 100 -->
+<!-- page 105 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · UNIT 6 · DIGITAL WORLD
-98
 
 What we learned
 
@@ -3746,19 +4105,78 @@ What is one digital habit you will keep as you leave Upper Primary?
 
 Prime School Press · www.primeschool.pt
 
+103
+
+**TEACHER NOTES**
+
 **Objective: Self-check and forward link.**
 **Do: Pupils tick honestly; share one star and one wish.**
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
 
-**TEACHER NOTES**
+<!-- page 106 -->
 
-<!-- page 101 -->
+---
+G L O B A L   P E R S P E C T I V E S   Y 6   ·   U N I T   6   ·   D I G I T A L   W O R L D
+104
+
+Time Capsule
+
+History
+
+The digital world is young. Your great-grandparents
+sent telegrams ticked out in dots and dashes, and a
+single message could take a day to arrive.
+
+In the 1840s, the telegraph carried coded dots along
+the first long wires.
+
+Telephones put live voices in homes for the first
+time.
+
+Room-sized computers of the 1960s had less power
+than your phone.
+
+The internet joined computers together, and the web
+made it easy to browse.
+
+THINK
+Which of these steps would surprise you most, and
+why?
+
+Message machines through time
+
+Global Trotters
+
+Geography
+
+Global trotters follow a message across the planet.
+When you press send, it travels through cables
+buried under the sea.
+
+Over 500 undersea cables carry almost all
+messages between continents.
+
+A message from Porto to Maputo can cross the
+ocean in under a second.
+
+Not everywhere is equal: some villages still have
+slow or no internet.
+
+Satellites link places that cables cannot yet reach.
+
+THINK
+Where do you think a message to Australia travels?
+
+Messages under the ocean
+
+Prime School Press  ·  www.primeschool.pt
+
+<!-- page 107 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · WORD LIST
-99
 
 Word list
 
@@ -3795,6 +4213,8 @@ skills portfolio - a living list of what you can do and are learning
 
 Prime School Press · www.primeschool.pt
 
+105
+
 **TEACHER NOTES**
 
 **Objective: Review key terms.**
@@ -3803,11 +4223,10 @@ Prime School Press · www.primeschool.pt
 **Support: Picture cards.**
 **Extra challenge: Add one new word from class talk.**
 
-<!-- page 102 -->
+<!-- page 108 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · WORD LIST
-100
 
 Word list (continued)
 
@@ -3829,11 +4248,12 @@ media literacy - skills for checking sources before you trust or share
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 103 -->
+106
+
+<!-- page 109 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · ANSWERS
-101
 
 Answers
 
@@ -3906,7 +4326,9 @@ Guide
 4.1
 Multi-country making; dignity for workers
 
-<!-- page 104 -->
+107
+
+<!-- page 110 -->
 
 ---
 Topic
@@ -3923,19 +4345,18 @@ Open; portfolio and enterprise sized for age 10-11
 
 Prime School Press · www.primeschool.pt
 
+**TEACHER NOTES**
+
 **Objective: Guide answers, not only keys.**
 **Do: Use after pupils try.**
 **Listen / Correct: Accept equivalent wording.**
 **Support: n/a**
 **Extra challenge: n/a**
 
-**TEACHER NOTES**
-
-<!-- page 105 -->
+<!-- page 111 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · ANSWERS
-102
 
 Answers (continued)
 
@@ -3981,11 +4402,12 @@ Creator permissions; AI = pattern tool, not person
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 106 -->
+108
+
+<!-- page 112 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · SOURCES
-103
 
 Sources and references
 
@@ -4093,11 +4515,12 @@ Adult holds device
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 107 -->
+109
+
+<!-- page 113 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · SOURCES
-104
 
 Sources and references (continued)
 
@@ -4215,7 +4638,9 @@ knowledge
 2026-08-
 10
 
-<!-- page 108 -->
+110
+
+<!-- page 114 -->
 
 ---
 Claim
@@ -4233,11 +4658,10 @@ device
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 109 -->
+<!-- page 115 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · SOURCES
-105
 
 Sources and references (continued)
 
@@ -4289,11 +4713,12 @@ Refresh any live statistics before assembly quotes.
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 110 -->
+111
+
+<!-- page 116 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · FOR TEACHERS
-106
 
 For teachers
 
@@ -4337,11 +4762,12 @@ Skills portfolio (Unit 4) as formative evidence, not career locking.
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 111 -->
+112
+
+<!-- page 117 -->
 
 ---
 GLOBAL PERSPECTIVES Y6 · FOR TEACHERS
-107
 
 For teachers (continued)
 
@@ -4352,7 +4778,9 @@ citizenship plan. The Edu360 xlsx is the scope list used for unit titles only.
 
 Prime School Press · www.primeschool.pt
 
-<!-- page 112 -->
+113
+
+<!-- page 118 -->
 
 ---
 **P R I M E  B O O K S**

@@ -4,7 +4,6 @@
 <!-- page 1 -->
 
 ---
-
 ## Art & Design
 
 ## Year 6
@@ -259,7 +258,6 @@ and talk about process as well as product.
 ## How to use this book
 
 Dashed boxes are yours. Open making tasks have acceptance criteria in the
-Answers section, not right answers printed on the unit page.
 
 **Picture 0.1 Studio signs return on every page so you know what to do next.**
 
@@ -451,8 +449,6 @@ UNIT 1  COMBINING PRINTING APPROACHES
 <!-- page 12 -->
 
 ---
-**Picture 1.0 Step 1, lay the string plate. Step 2, roll the ink. Then pull.**
-
 **A printer works backwards. You do not draw the picture; you build the plate**
 that will make the picture, and the paper meets it once. That one moment is
 **called the pull. Everything in this unit happens before the pull: choosing a**
@@ -474,6 +470,12 @@ story."
 UNIT 1  COMBINING PRINTING APPROACHES
 
 12
+
+**STEP 1**
+**STEP 2**
+
+Picture 1.0
+Step 1, lay the string plate. Step 2, roll the ink. Then pull.
 
 <!-- page 13 -->
 
@@ -2665,9 +2667,6 @@ A successful 3D wire form:
 
 **The flat sculpture trap**
 
-The commonest fault in wire work is a piece that is really a drawing standing
-up: it looks right from the front and disappears from the side. Test for it early.
-
 has a stable base or wide feet
 **1**
 
@@ -2684,6 +2683,10 @@ UNIT 4  SCULPTING WITH WIRE
 TOPIC 4.4
 
 76
+
+The most common fault in wire work is a piece that is really a drawing
+standing up: it looks right from the front and disappears from the side. Test
+for it early.
 
 <!-- page 77 -->
 
@@ -3393,7 +3396,6 @@ ART & DESIGN  YEAR 6
 <!-- page 98 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Art & Design
