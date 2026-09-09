@@ -654,22 +654,37 @@ exponents, including zero, negative and fractional powers.
 <!-- page 16 -->
 
 ---
-P R I M E B O O K S · Y E A R 7
+**P R I M E  B O O K S**
 
-Mathematics that explains itself
+## Mathematics
 
-This Year 9 Student Book takes you across the whole number line and into the patterns
-that sit beneath arithmetic. Negative numbers stop being strange, multiples and factors
-become tools, and powers reveal their roots. Every idea is introduced with a reason,
-every example is worked in full, and every fact can be checked.
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-Written for Prime School pupils, in clear British English, with original scenarios drawn
-from life in Portugal.
+Mathematics that explains itself.
 
-INTEGERS
-ALGEBRA
-NUMBER
-GEOMETRY
-STATISTICS
+Year 9 mathematics moves step by step from concrete to abstract: every rule is
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+derived, every method modelled, every unit practised and reviewed.
+
+**INSIDE THIS BOOK**
+
+•
+Worked examples before every exercise
+
+•
+Fluency practice and problem-solving
+
+•
+Calculator and non-calculator skills
+
+•
+Cumulative unit reviews
+
+•
+Exam-style questions with answers
+
+**Prime Books · Mathematics**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

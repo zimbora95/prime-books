@@ -8,9 +8,8 @@
 
 ## Year 9
 
+Cambridge Lower Secondary
 Student Manual
-
-Prime Books Press
 
 <!-- page 2 -->
 
@@ -4085,27 +4084,37 @@ Prime School Press · www.primeschool.pt
 <!-- page 109 -->
 
 ---
-## PRIME BOOKS
+**P R I M E  B O O K S**
 
 ## Portuguese 2nd
 
 Year 9 · Cambridge Lower Secondary · Student Manual
 
-**A gramática do quotidiano, em português.**
+Português de verdade, passo a passo.
 
-Do presente do indicativo ao imperativo informal: um ano inteiro de Português como 2.ª
+Português Língua Segunda para o Year 9: comunicação do dia a dia, textos
 
-língua, com diálogos, receitas, entrevistas e visitas à padaria, ao mercado e à loja
-
-online. Vinte e seis lições para falar, ler e escrever a Portugal em português.
+autênticos e gramática que cresce aos poucos.
 
 **INSIDE THIS BOOK**
 
-• 26 lessons following the scheme of work
-• 4 revision tests and 2 activity blocks
-• Dialogues, recipes, interviews and projects
-• Homework page after every lesson
+•
+Unidades por temas do quotidiano
 
-**PRIME SCHOOL PRESS**
+•
+Diálogos e textos autênticos
 
-www.primeschool.pt
+•
+Gramática apresentada e revista
+
+•
+Cultura portuguesa e lusófona
+
+•
+Listas de vocabulário e revisões
+
+**Prime Books · Portuguese 2nd**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

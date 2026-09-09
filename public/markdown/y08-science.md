@@ -818,21 +818,37 @@ https://en.wikipedia.org/wiki/Breathing
 <!-- page 20 -->
 
 ---
-P R I M E B O O K S · Y E A R 8
+**P R I M E  B O O K S**
 
-Follow the oxygen.
+## Science
 
-This Year 8 Student Book traces one of biology's great journeys. You will name every
-structure oxygen passes through, explain gas exchange by diffusion, measure your own
-breathing rate, and finally distinguish breathing from respiration.
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-Written for Prime School pupils, in clear British English, with original diagrams and real
-investigations.
+Ask questions. Trust evidence.
 
-RESPIRATION
-GAS EXCHANGE
-BREATHING
-BLOOD
-INVESTIGATION
+Year 8 science combines clear explanations with hands-on investigation across
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+biology, chemistry and physics, building the habits of working scientifically.
+
+**INSIDE THIS BOOK**
+
+•
+Biology, chemistry and physics strands
+
+•
+Practical investigations throughout
+
+•
+Diagrams, data and vocabulary support
+
+•
+End-of-unit checkpoints
+
+•
+Full glossary and answer key
+
+**Prime Books · Science**
+
+Ages 12–13 · Lower Secondary
+
+**primeschool.pt**

@@ -3636,28 +3636,37 @@ Page
 <!-- page 71 -->
 
 ---
-Year 9 Art & Design  ·  Student Course Book
+**P R I M E  B O O K S**
 
-**Sources**
+## Art and Design
 
-Checked facts and look-further addresses used in this book. Ask a teacher or family adult to open any
-web address.
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-Still life as a term: Tate Art Term, https://www.tate.org.uk/art/art-terms/s/still-life
+Every child is an artist. Keep the studio open.
 
-Frida
-Kahlo
-context:
-Tate
-Modern,
-https://www.tate.org.uk/whats-on/tate-modern/frida-kahlo-the-making-of-an-icon
+Year 9 art and design develops making, looking and thinking: drawing, colour,
 
-Rachel Whiteread: Tate, https://www.tate.org.uk/art/artists/rachel-whiteread-2319
+print, 3D and the artists who changed how we see.
 
-Looking at hangs: CAM Gulbenkian, Lisbon, https://gulbenkian.pt/cam/en/
+**INSIDE THIS BOOK**
 
-Artist dates and works cited in Curiosity boxes are listed for teachers in the production sources file.
-Plates in this book are original teaching illustrations, not reproductions of copyrighted paintings.
+•
+Skills: drawing, paint, print, 3D
 
-Page
-71
+•
+Artists and movements in context
+
+•
+Sketchbook habit and portfolio building
+
+•
+Critique language and reflection
+
+•
+Final project per unit
+
+**Prime Books · Art and Design**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

@@ -9,7 +9,6 @@
 
 ## Year 5
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -5097,7 +5096,7 @@ FOR TEACHERS
 
 ## Art & Design
 
-Year 5 · Cambridge Primary · Student Manual
+Year 5 · Student Manual
 
 Control and choice. That is the difference this year.
 

@@ -141,14 +141,12 @@ T H E YEAR 9 QUEST ION
 
 The line this book follows
 
-Part one puts you on the planet. Everything after it is one causal chain, and no link in it is skipped:
-
-**Industrial Revolution → technological innovation → industrial capitalism → new political ideologies →**
-**nationalism and imperial rivalry → the First World War → interwar instability → the Second World War → a**
-**divided world → the Cold War → the nuclear and space races → the end of the Cold War → the modern**
-connected world.
-
 Part two follows the chain link by link, and the timeline on page 14 draws the same line in dates.
+
+**The Renaissance → humanism and the printed word → the Age of Discovery →**
+**the first global world → the Reformation → the Enlightenment →**
+**the French Revolution → revolution, terror and Napoleon →**
+**the Industrial Revolution → capitalism and socialism.**
 
 <!-- page 5 -->
 
@@ -639,7 +637,9 @@ Each chapter carries one code, and it leads to a checked English-language resour
 archive, a national survey or a public database. No code appears twice in this book. The full address is
 printed beside each one, so the page works with no device in the room.
 
-Ask your teacher before you scan. The codes are an extension, never a substitute for the pages.
+Ask your teacher before you scan. The codes are
+extension, never a substitute for the pages.
+an
 
 <!-- page 14 -->
 
@@ -866,11 +866,10 @@ and rising air cools and drops its moisture as rain. That is why a belt of very 
 rainforests that live on it, sits along the Equator rather than anywhere else.
 
 Prime School Press - www.primeschool.pt
+**19**
 
 U N I T 1 - T O P I C 1 . 1
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**19**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 20 -->
 
@@ -978,11 +977,10 @@ the planet, because rainfall varies within it even where temperature does not. C
 properly.
 
 Prime School Press - www.primeschool.pt
+**21**
 
 U N I T 1 - T O P I C 1 . 2
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**21**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 22 -->
 
@@ -1118,11 +1116,10 @@ for thousands of years? Give a geographical reason, not just a cold one.
 4
 
 Prime School Press - www.primeschool.pt
+**23**
 
 U N I T 1 - T O P I C 1 . 4
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**23**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 24 -->
 
@@ -1208,11 +1205,10 @@ Paris. Then say why it lost.
 4
 
 Prime School Press - www.primeschool.pt
+**25**
 
 U N I T 1 - T O P I C 1 . 5
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**25**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 26 -->
 
@@ -1339,11 +1335,10 @@ Use this page to revise before you go on. If you cannot do one of the things on 
 topic that taught it, not to the answers.
 
 Prime School Press - www.primeschool.pt
+**27**
 
 U N I T 1 - T O P I C 1 . 5
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**27**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 28 -->
 
@@ -1455,11 +1450,10 @@ get smaller as they approach the poles, because they are circles drawn round a b
 cylinder.
 
 Prime School Press - www.primeschool.pt
+**29**
 
 U N I T 2 - T O P I C 2 . 1
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**29**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 30 -->
 
@@ -1561,11 +1555,10 @@ Explain how both can be true.
 4
 
 Prime School Press - www.primeschool.pt
+**31**
 
 U N I T 2 - T O P I C 2 . 2
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**31**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 32 -->
 
@@ -1712,11 +1705,10 @@ description?
 4
 
 Prime School Press - www.primeschool.pt
+**33**
 
 U N I T 2 - T O P I C 2 . 4
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**33**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 34 -->
 
@@ -1880,11 +1872,10 @@ New York keeps UTC−5. The difference is −5 minus 0, which is −5. So 12:00
 Sydney keeps UTC+10 in its winter. The difference is +10, so **22:00 in
 
 Prime School Press - www.primeschool.pt
+**35**
 
 U N I T 2 - T O P I C 2 . 5
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**35**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 36 -->
 
@@ -1925,7 +1916,8 @@ Aviation, shipping, computing and science
 everywhere.
 
 In practice
-Britain moves to summer time and leaves GMT. UTC never moves. Offsets from it change inste
+Britain moves to summer
+GMT. UTC never moves. Offsets from it change inste
 
 Figure 2.5 · One is a place's clock, the other is the world's ruler.
 Read the last row first: it is the difference that actually matters in practice.
@@ -2029,11 +2021,10 @@ time. Give two reasons why.
 4
 
 Prime School Press - www.primeschool.pt
-
-U N I T 2 - T O P I C 2 . 7
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
 **37**
+
+U N I T   2   -   T O P I C   2 . 7
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 38 -->
 
@@ -2177,11 +2168,10 @@ Use this page to revise before you go on. If you cannot do one of the things on 
 topic that taught it, not to the answers.
 
 Prime School Press - www.primeschool.pt
+**39**
 
 U N I T 2 - T O P I C 2 . 7
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**39**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 40 -->
 
@@ -2310,11 +2300,10 @@ Now the chain that this whole chapter is built on. It starts with position and e
 is a cause of the next.
 
 Prime School Press - www.primeschool.pt
+**41**
 
 U N I T 3 - T O P I C 3 . 1
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**41**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 42 -->
 
@@ -2474,11 +2463,10 @@ Name three things other than latitude that affect a place's climate.
 4
 
 Prime School Press - www.primeschool.pt
+**43**
 
 U N I T 3 - T O P I C 3 . 2
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**43**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 44 -->
 
@@ -2636,11 +2624,10 @@ Explain why Mediterranean plants have small, tough leaves.
 4
 
 Prime School Press - www.primeschool.pt
+**45**
 
 U N I T 3 - T O P I C 3 . 4
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**45**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 46 -->
 
@@ -2756,7 +2743,6 @@ T H E Q U E S T I O N T H I S C H A P T E R A.
 <!-- page 47 -->
 
 ---
-Life in a desert is built round water. Plants space themselves widely so that each has enough ground to draw
 from, store water in stems or leaves, and often lose their leaves entirely in the driest months. People settle
 where water is: at oases, over aquifers, or along rivers that rise somewhere wetter and simply pass through.
 Egypt is the classic case, a narrow ribbon of dense settlement along a river running through one of the driest
@@ -2799,11 +2785,10 @@ Lisbon's.
 4
 
 Prime School Press - www.primeschool.pt
+**47**
 
 U N I T 3 - T O P I C 3 . 5
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**47**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 48 -->
 
@@ -3005,11 +2990,10 @@ than farmed.
 4
 
 Prime School Press - www.primeschool.pt
+**49**
 
 U N I T 3 - T O P I C 3 . 6
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**49**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 50 -->
 
@@ -3142,11 +3126,10 @@ Use this page to revise before you go on. If you cannot do one of the things on 
 topic that taught it, not to the answers.
 
 Prime School Press - www.primeschool.pt
+**51**
 
 U N I T 3 - T O P I C 3 . 6
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**51**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 52 -->
 
@@ -3243,13 +3226,6 @@ southern is mostly water. The whole of Europe, almost all of Asia and North Amer
 north of the Equator. The southern hemisphere has South America below the Equator, southern Africa,
 Australia and Antarctica, and a very great deal of ocean.
 
-Northern hemisphere: most of the land
-
-Southern hemisphere: most of the ocean
-
-Figure 4.1 · One cut, two very different halves.
-Compare the amount of land above the line with the amount below it. This single imbalance explains most of the differences in this topic.
-
 **People follow the land. Since people live on land rather than on water, and most of the land is northern, the**
 great majority of the world's population is in the northern hemisphere. So are most of the largest cities,
 most of the industry and most of the world's political and economic weight, for reasons that are historical as
@@ -3261,11 +3237,13 @@ extreme than northern ones at the same latitude, and there is no southern equiva
 winter of Siberia or central Canada, because there is no southern landmass at that latitude to have one.
 
 Prime School Press - www.primeschool.pt
-
-U N I T 4 - T O P I C 4 . 1
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
 **53**
+
+U N I T   4   -   T O P I C   4 . 1
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
+
+**Figure 4.1 · One cut, two very different halves.**
+The Equator divides the land-dominated north from the ocean-dominated south.
 
 <!-- page 54 -->
 
@@ -3364,11 +3342,10 @@ Why is this division a human decision when the Equator is not?
 4
 
 Prime School Press - www.primeschool.pt
+**55**
 
 U N I T 4 - T O P I C 4 . 3
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**55**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 56 -->
 
@@ -3460,8 +3437,6 @@ T H E Q U E S T I O N T H I S C H A P T E R A.
 <!-- page 57 -->
 
 ---
-large part of the land surface and hold a very small part of the population.
-
 The places that are crowded also have things in common, and they are the reverse of that list.
 
 Water
@@ -3518,11 +3493,10 @@ and news coverage that is not distributed by population either. Being able to no
 skewed, and in which direction, is a genuine geographical skill.
 
 Prime School Press - www.primeschool.pt
+**57**
 
 U N I T 4 - T O P I C 4 . 4
-T H E Q U E S T I O N T H I S C H A P T E R A.
-
-**57**
+T H E   Q U E S T I O N   T H I S   C H A P T E R   A .
 
 <!-- page 58 -->
 
@@ -3919,9 +3893,9 @@ www.worldhistory.org/Age_of_Exploration
 ---
 ## 6.1  Why Europe went to sea
 
-In the ﬁ֔ eenth century, Europeans set out to sail around a continent, and the reasons were strictly practical.
-Land routes from Asia, along which spices, silk and gold had travelled for centuries, passed through territories
-controlled by the Ottoman Empire a֔ er the fall of Constantinople in 1453, and each middleman raised the
+In the ﬁ֔ eenth century, Europeans set out to sail
+Land routes from Asia, along which spices, silk an
+controlled by the Ottoman Empire a֔ er the fall
 price. The Mediterranean powers of Venice and Genoa already dominated the eastern trade. The Atlantic
 powers, Portugal and Castile, needed a way round the monopoly.
 
@@ -3956,11 +3930,19 @@ entrepôt of Europe.
 
 Portugal then built the ﬁrst maritime empire in European history: forts and trading posts at Kilwa, Goa,
 Malacca, Hormuz and Macao. By 1513 the ﬁrst Portuguese ships reached China; by 1543 they reached Japan.
-**The Treaty of Tordesillas of 1494, negotiated with Castile through the Pope, drew a line down the Atlantic and**
-gave Portugal the eastern hemisphere, which is why Brazil speaks Portuguese today.
 
 67
 Prime School Press - www.primeschool.pt
+
+The Treaty of Tordesillas of 1494, negotiated with Castile through the Pope, drew a line
+down the Atlantic and gave Portugal everything to the east of the north–south line in the
+Atlantic (370 leagues west of the Cape Verde Islands), which is why Brazil speaks
+Portuguese today.
+
+d gold had travelled for centuries, passed through territories
+around Africa, and the reasons were strictly practical.
+
+of Constantinople in 1453, and each middleman raised the
 
 <!-- page 68 -->
 
@@ -3975,7 +3957,6 @@ Portugal takes Ceuta in North Africa
 Dias rounds the Cape of Good Hope
 
 1494
-Treaty of Tordesillas divides the oceans
 
 1498
 Vasco da Gama reaches Calicut
@@ -4026,6 +4007,8 @@ U N I T   6   -
 
 68
 Prime School Press - www.primeschool.pt
+
+Treaty of Tordesillas divides the oceans between Portugal and Spain
 
 <!-- page 69 -->
 
@@ -6580,151 +6563,37 @@ Prime School Press - www.primeschool.pt
 <!-- page 125 -->
 
 ---
-## Index
+**P R I M E  B O O K S**
 
-The names and terms a reader is most likely to need again.
+## Humanities
 
-**Act of Supremacy 79**
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-**Age of Discovery 73**
+Learn to read the world.
 
-**Agricultural Revolution 42**
+Year 9 humanities weaves history, geography and citizenship into one course:
 
-**Armada 80**
+sources, maps, case studies and big questions about people and place.
 
-**Bastille 98**
+**INSIDE THIS BOOK**
 
-**Bessemer process 113**
+•
+History: sources and enquiry
 
-**bourgeoisie 107**
+•
+Geography: maps, place and process
 
-**Brunelleschi 69**
+•
+Citizenship and global issues
 
-**Calvin, John 77**
+•
+Skills practice: sources, data, essays
 
-**Catherine of Aragon 78**
+•
+Unit reviews with model answers
 
-**Columbian Exchange 75**
+**Prime Books · Humanities**
 
-**Columbus, Christopher 75**
+Ages 13–14 · Lower Secondary
 
-**communism 107**
-
-**Copernicus, Nicolaus 70**
-
-**cotton gin 112**
-
-**Council of Trent 77**
-
-**Da Gama, Vasco 74**
-
-**Declaration of the Rights of Man 98**
-
-**Dias, Bartolomeu 74**
-
-**dissolution of the monasteries 79**
-
-**Elizabeth I 79**
-
-**Enclosure 43**
-
-**Engels, Friedrich 107**
-
-**Enlightenment 95**
-
-**Estates-General 96**
-
-**Factory Act 1819 105**
-
-**feudalism 110**
-
-**French Revolution 94**
-
-**Great Railroad Strike 1877 106**
-
-**guillotine 100**
-
-**Haymarket Aﬀair 106**
-
-**Henry VIII 78**
-
-**humanism 68**
-
-**indulgence 76**
-
-**Industrial Revolution 102**
-
-**Industrial Revolution in Portugal, the 110-111**
-
-**Jesuits 81**
-
-**Labour unions 105**
-
-**Luddites 114**
-
-**Luther, Martin 77**
-
-**Magellan, Ferdinand 76**
-
-**Manueline style 72**
-
-**Marx, Karl 107**
-
-**Medici family 68**
-
-**mercantilism 110**
-
-**National Assembly 97**
-
-**Napoleon Bonaparte 101**
-
-**one-party system 108**
-
-**Peninsular War 103**
-
-**perspective 69**
-
-**Portugal 16, 72, 74, 81, 89, 103, 110**
-
-**printing press 70**
-
-**property rights 112**
-
-**Protestantism 77**
-
-**Reign of Terror 100**
-
-**Renaissance 67**
-
-**Reformation 76**
-
-**Regeneração, the 111**
-
-**Robespierre, Maximilien 100**
-
-**Royal Silk Manufactory 110**
-
-**Shakespeare, William 80**
-
-**socialism 107**
-
-**Spinning jenny 112**
-
-**steam engine 103**
-
-**Tordesillas, Treaty of 74**
-
-**Terror, the 100**
-
-**trade unions 105**
-
-**Versailles 93**
-
-**Waterloo, battle of 102**
-
-**Watt, James 103**
-
-**working conditions 104**
-
-125
-Prime School Press - www.primeschool.pt
+**primeschool.pt**

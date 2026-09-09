@@ -1063,3 +1063,37 @@ ENGLISH  YEAR 7
 <!-- page 24 -->
 
 ---
+**P R I M E  B O O K S**
+
+## English
+
+Year 7 · Cambridge Lower Secondary · Student Manual
+
+Read between every line.
+
+This Year 7 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · English**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**

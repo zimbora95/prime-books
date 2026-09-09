@@ -150,8 +150,6 @@ Sequences and lights · Light brightness
 
 Glossary
 
-**Coding and programming**
-
 3
 
 7
@@ -168,7 +166,9 @@ Glossary
 
 114
 
-**Managing data**
+Coding and programming
+
+Managing data
 
 <!-- page 4 -->
 
@@ -4420,10 +4420,13 @@ Judge a source before trusting it
 
 64
 
-## Evaluation and review
-Think carefully about your work in this unit. For each statement, colour the circle that
 matches how confident you feel. Green means you could teach it to somebody else, amber means
 you can do it with your notes open, and red means you would like to go over it again.
+
+## Evaluation and review
+Think carefully about your work in this unit. For each statement, colour the circle that
+
+UNIT 7.3
 
 <!-- page 65 -->
 
@@ -4469,6 +4472,9 @@ choose the right chart, and the right software, for a given task
 
 65
 
+## Managing data
+## Managing data
+## Managing data
 ## Managing data
 
 <!-- page 66 -->
@@ -5459,8 +5465,13 @@ choose an appropriate chart and label it honestly
 
 decide whether a task needs a spreadsheet or a database
 
+79
+
+matches how confident you feel. Green means you could teach it to somebody else, amber means
+you can do it with your notes open, and red means you would like to go over it again.
+
 ·
-W H AT C A N YO U D O ?
+**W H AT  C A N  YO U  D O ?**
 
 Explain what a model is and what it ignores
 
@@ -5492,12 +5503,10 @@ Choose and label a chart honestly
 
 Pick the right tool for the job
 
-79
-
 ## Evaluation and review
 Think carefully about your work in this unit. For each statement, colour the circle that
-matches how confident you feel. Green means you could teach it to somebody else, amber means
-you can do it with your notes open, and red means you would like to go over it again.
+
+UNIT 7.4
 
 <!-- page 80 -->
 
@@ -7856,10 +7865,13 @@ Fade and grade LED brightness
 
 113
 
-## Evaluation and review
-Think carefully about your work in this unit. For each statement, colour the circle that
 matches how confident you feel. Green means you could teach it to somebody else, amber means
 you can do it with your notes open, and red means you would like to go over it again.
+
+## Evaluation and review
+Think carefully about your work in this unit. For each statement, colour the circle that
+
+UNIT 7.6
 
 <!-- page 114 -->
 
@@ -8231,54 +8243,37 @@ over the internet
 <!-- page 117 -->
 
 ---
-✦P R I M E B O O K S
-C A M B R I D G E L O W E R S E C O N D A R Y
+**P R I M E  B O O K S**
 
-Computing 7
+## Computing & Robotics
 
-Somebody had to write the software in your pocket. This year,
-that somebody starts to be you.
+Year 7 · Cambridge Lower Secondary · Student Manual
 
-A complete first year of computing, built around six units that move from your first line of typed
-Python to designing an artificial intelligence of your own. Every idea is introduced through a real
-situation, tested with real data, and finished with a project worth keeping.
+Understand the machine. Then build with it.
 
-Block it out: moving from blocks to text
-7.1
-Decomposing problems: creating a smart solution
-7.2
+Year 7 computing and robotics pairs computational thinking with hands-on builds:
 
-Connections are made: accessing the internet
-7.3
-The power of data: using data modelling
-7.4
+programming, data, networks and working robots.
 
-Living with AI: digital data
-7.5
-Sequencing and pattern recognition
-7.6
+**INSIDE THIS BOOK**
 
-Warm ups, scenarios and challenges in every unit
-✦
-Six full final projects with marking grids
-▲
+•
+Programming projects in every unit
 
-Test plans that teach you to break your own work
-●
-A glossary of 140 terms
-▮
+•
+How computers and networks really work
 
-Written by the Computing & Robotics faculty at Prime School, an international
-Cambridge school in Cascais, Portugal.
+•
+Data, logic and problem-solving
 
-An independent publication. Not endorsed by Cambridge Assessment International
+•
+Robotics builds with everyday kits
 
-Education.
+•
+Digital safety and responsibility
 
-978-989-0000-07-1
+**Prime Books · Computing & Robotics**
 
-P R I M E S C H O O L
+Ages 11–12 · Lower Secondary
 
-primeschool.pt
-
-117
+**primeschool.pt**

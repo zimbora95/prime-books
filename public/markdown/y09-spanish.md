@@ -21998,26 +21998,37 @@ VUELTA AL KM 0
 <!-- page 338 -->
 
 ---
-PA R A E L P R O F E S O R A DO · CO NT INUE D
+**P R I M E  B O O K S**
 
-✎False friends
+## Spanish
 
-Curva peligrosa panels address false friends between Portuguese and Spanish. For pupils who already
-speak Portuguese this is the highest-value content in the book, because the two languages are close
-enough for confidence to be dangerous. There is at least one in every unit.
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-✎Listening
+Real Spanish, from the first page.
 
-Listening: read the transcripts at the back aloud. Every Escucha task points at a numbered transcript,
-so the whole course is teachable without any recording. Reading them yourself also lets you control
-pace and repetition, which a recording does not.
+Year 9 Spanish builds confident communication: everyday topics, authentic texts
 
-✎Assessment
+and grammar that grows step by step.
 
-Assessment: three formative tests and a final paper follow the scheme's own assessment weeks. Mark
-allocations are printed and sum to their stated total. The self-assessment tables use named levels,
-confident / almost there / needs more work, rather than colours, so a pupil records what to practise
-next rather than a grade.
+**INSIDE THIS BOOK**
 
-VUELTA AL KM 0
-**338**
+•
+Topic-based units with real dialogues
+
+•
+Grammar introduced and recycled
+
+•
+Speaking, listening, reading, writing
+
+•
+Culture of the Spanish-speaking world
+
+•
+Vocabulary lists and review pages
+
+**Prime Books · Spanish**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

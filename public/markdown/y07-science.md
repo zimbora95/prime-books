@@ -1065,21 +1065,37 @@ prepared for this unit, 2026.
 <!-- page 28 -->
 
 ---
-P R I M E B O O K S · Y E A R 7
+**P R I M E  B O O K S**
+
+## Science
+
+Year 7 · Cambridge Lower Secondary · Student Manual
 
 Ask questions. Trust evidence.
 
-This Year 7 Student Book takes you past what your eyes can see, into the hidden world of
-the cell. You will learn that every living thing is built from the same tiny units, observe
-real cells through a microscope, and discover how scientists think, plan and conclude.
+Year 7 science combines clear explanations with hands-on investigation across
 
-Written for Prime School pupils, in clear British English, with original diagrams and real
-investigations.
+biology, chemistry and physics, building the habits of working scientifically.
 
-CELLS
-BIOLOGY
-EXERCISES
-EVIDENCE
-DISCOVERY
+**INSIDE THIS BOOK**
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+•
+Biology, chemistry and physics strands
+
+•
+Practical investigations throughout
+
+•
+Diagrams, data and vocabulary support
+
+•
+End-of-unit checkpoints
+
+•
+Full glossary and answer key
+
+**Prime Books · Science**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**

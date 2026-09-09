@@ -5951,4 +5951,37 @@ revisión con criterio.
 <!-- page 260 -->
 
 ---
-© Prime School Press · Textos originales de entrenamiento · No sustituye el syllabus oficial Cambridge 0502
+**P R I M E  B O O K S**
+
+## Spanish IGCSE
+
+Year 10 · Cambridge Upper Secondary · Student Manual
+
+Read between every line.
+
+This Year 10 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · Spanish IGCSE**
+
+Ages 14–16 · Upper Secondary
+
+**primeschool.pt**

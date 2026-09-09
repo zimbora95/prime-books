@@ -4316,42 +4316,37 @@ THE PLAY
 <!-- page 74 -->
 
 ---
-T H E R EH EAR SAL
+**P R I M E  B O O K S**
 
-Cast the play, read it round the table once, then block scene three
-only, on your feet, using the plan above. Do not attempt the whole
-play in one session. Finish by running scene three twice without
-stopping, including the music cue. Write the blocking into your own
-book as you go, because a blocking that lives only in somebody's
-memory is not a blocking.
+## Music and Drama
 
-WH AT YOU C AN NOW DO
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-WOR DS FOR T H IS C H APT ER
+Make something the room remembers.
 
-script, dialogue, stage direction, cast, character, objective, cue, dries,
-blocking, masking, opening out, ensemble, running order, blackout,
-music cue
+Year 9 music and drama builds performing, composing and responding alongside
 
-Read a play and work out what is happening from the dialogue
-alone.
+staging, voice and ensemble work.
 
-**✓**
+**INSIDE THIS BOOK**
 
-Say what your character wants and what is in their way.
-**✓**
+•
+Performing and composing units
 
-Learn lines by cue rather than by staring at the page.
-**✓**
+•
+Voice, movement and staging
 
-Recover out loud when you or somebody else drops a line.
-**✓**
+•
+Listening and repertoire study
 
-Block a scene so that every performer can be seen and heard.
-**✓**
+•
+Ensemble and group-devising work
 
-**74**
-Prime School Press - www.primeschool.pt
+•
+Showcase tasks per unit
 
-U N I T 1 8 - T O P I C 1 8 . 4
-THE PLAY
+**Prime Books · Music and Drama**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

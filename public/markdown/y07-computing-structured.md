@@ -1,5 +1,5 @@
 # Computing & Robotics (Structured) - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-computing-structured/book.pdf` (135 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-computing-structured/book.pdf` (137 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -9,10 +9,85 @@
 ## Year 7
 
 Cambridge Lower Secondary
-
-Student Manual · Structured edition
+Student Manual
 
 <!-- page 2 -->
+
+---
+**P R I M E  B O O K S**
+
+## Computing & Robotics
+
+Year 7 · Cambridge Lower Secondary · Student Manual
+
+Understand the machine. Then build with it.
+
+Year 7 computing and robotics pairs computational thinking with hands-on builds:
+
+programming, data, networks and working robots.
+
+**INSIDE THIS BOOK**
+
+•
+Programming projects in every unit
+
+•
+How computers and networks really work
+
+•
+Data, logic and problem-solving
+
+•
+Robotics builds with everyday kits
+
+•
+Digital safety and responsibility
+
+**Prime Books · Computing & Robotics**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**
+
+<!-- page 3 -->
+
+---
+**P R I M E  B O O K S**
+
+## Computing & Robotics
+
+Year 7 · Cambridge Lower Secondary · Student Manual
+
+Read between every line.
+
+This Year 7 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · Computing & Robotics**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**
+
+<!-- page 4 -->
 
 ---
 ## Contents
@@ -72,7 +147,7 @@ Glossary · End-of-unit tests · Teacher answer key
 
 **Contents**
 
-<!-- page 3 -->
+<!-- page 5 -->
 
 ---
 **UNIT 1 · TOPIC 1**
@@ -122,7 +197,7 @@ Compare your list with a partner. Did you both choose the same parts?
 **UNIT 1 · COMPUTATIONAL THINKING**
 1
 
-<!-- page 4 -->
+<!-- page 6 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -171,7 +246,7 @@ Why do programmers decompose programs into separate parts?
 **3**
 Write one subproblem of planning a school trip.
 
-<!-- page 5 -->
+<!-- page 7 -->
 
 ---
 **UNIT 1 · TOPIC 2**
@@ -224,7 +299,7 @@ drawing?
 **UNIT 1 · COMPUTATIONAL THINKING**
 3
 
-<!-- page 6 -->
+<!-- page 8 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -274,7 +349,7 @@ Write the next two terms: 1, 2, 4, 8, ...
 **3**
 Name one pattern you saw today outside Computing.
 
-<!-- page 7 -->
+<!-- page 9 -->
 
 ---
 **UNIT 1 · TOPIC 3**
@@ -325,7 +400,7 @@ keeping only what the robot's sensors can use.
 **UNIT 1 · COMPUTATIONAL THINKING**
 5
 
-<!-- page 8 -->
+<!-- page 10 -->
 
 ---
 **▮KEY WORDS**
@@ -370,7 +445,7 @@ Name two details a school map keeps and two it removes.
 **3**
 Why is abstraction useful in robotics?
 
-<!-- page 9 -->
+<!-- page 11 -->
 
 ---
 **UNIT 1 · TOPIC 4**
@@ -424,7 +499,7 @@ One step says 'Walk for a while'. Why is this a bad step? Rewrite it properly.
 **UNIT 1 · COMPUTATIONAL THINKING**
 7
 
-<!-- page 10 -->
+<!-- page 12 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -476,7 +551,7 @@ Write an algorithm with exactly four steps for a task you do every day.
 **3**
 What is the output of the algorithm 'input a number, multiply it by 2'?
 
-<!-- page 11 -->
+<!-- page 13 -->
 
 ---
 **UNIT 1 · TOPIC 5**
@@ -539,7 +614,7 @@ Following the arrows from START to END tells you exactly what the algorithm does
 **UNIT 1 · COMPUTATIONAL THINKING**
 9
 
-<!-- page 12 -->
+<!-- page 14 -->
 
 ---
 **●TRY IT**
@@ -594,7 +669,7 @@ Why are flowcharts useful before writing a program?
 **UNIT 1 · COMPUTATIONAL THINKING**
 10
 
-<!-- page 13 -->
+<!-- page 15 -->
 
 ---
 **●EXIT TICKET**
@@ -608,7 +683,7 @@ What is the rule about arrows leaving a diamond?
 **3**
 Sketch the flowchart for 'is it raining?' from memory.
 
-<!-- page 14 -->
+<!-- page 16 -->
 
 ---
 **UNIT 1 · TOPIC 6**
@@ -661,7 +736,7 @@ fights with the syntax of a real language.
 **UNIT 1 · COMPUTATIONAL THINKING**
 12
 
-<!-- page 15 -->
+<!-- page 17 -->
 
 ---
 **▮KEY WORDS**
@@ -706,7 +781,7 @@ Write pseudocode for: input a password, output 'welcome' if it is correct.
 **3**
 Why does pseudocode travel well between different programming languages?
 
-<!-- page 16 -->
+<!-- page 18 -->
 
 ---
 **UNIT 1 · TOPIC 7**
@@ -772,7 +847,7 @@ and a negative number.
 **UNIT 1 · COMPUTATIONAL THINKING**
 14
 
-<!-- page 17 -->
+<!-- page 19 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -829,7 +904,7 @@ Write the six steps of the debugging cycle from memory.
 **UNIT 1 · COMPUTATIONAL THINKING**
 15
 
-<!-- page 18 -->
+<!-- page 20 -->
 
 ---
 **UNIT 2 · TOPIC 1**
@@ -881,7 +956,7 @@ never by 'seeing' the world as we do.
 **UNIT 2 · MANAGING DATA**
 1
 
-<!-- page 19 -->
+<!-- page 21 -->
 
 ---
 **▮KEY WORDS**
@@ -927,7 +1002,7 @@ Name the five types of data from this topic.
 **3**
 How does sound become data?
 
-<!-- page 20 -->
+<!-- page 22 -->
 
 ---
 **UNIT 2 · TOPIC 2**
@@ -1013,7 +1088,7 @@ robot's brain.
 **UNIT 2 · MANAGING DATA**
 3
 
-<!-- page 21 -->
+<!-- page 23 -->
 
 ---
 **▮KEY WORDS**
@@ -1059,7 +1134,7 @@ Convert 9 to binary.
 **3**
 Why do computers use binary instead of decimal?
 
-<!-- page 22 -->
+<!-- page 24 -->
 
 ---
 **UNIT 2 · TOPIC 3**
@@ -1122,7 +1197,7 @@ Give one advantage and one disadvantage of keeping work only in the cloud.
 **UNIT 2 · MANAGING DATA**
 5
 
-<!-- page 23 -->
+<!-- page 25 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -1174,7 +1249,7 @@ What does one byte roughly hold?
 **3**
 Give one reason schools use cloud storage.
 
-<!-- page 24 -->
+<!-- page 26 -->
 
 ---
 **UNIT 2 · TOPIC 4**
@@ -1241,7 +1316,7 @@ Write down the records that pass this filter: HOUSE = Atlantico.
 **UNIT 2 · MANAGING DATA**
 7
 
-<!-- page 25 -->
+<!-- page 27 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -1293,7 +1368,7 @@ What makes a field suitable as a primary key?
 **3**
 Write a filter to find all Year 8 pupils.
 
-<!-- page 26 -->
+<!-- page 28 -->
 
 ---
 **UNIT 2 · TOPIC 5**
@@ -1344,7 +1419,7 @@ might find in the data.
 **UNIT 2 · MANAGING DATA**
 9
 
-<!-- page 27 -->
+<!-- page 29 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -1396,7 +1471,7 @@ Write one good survey question about screen time.
 **3**
 What is a conclusion?
 
-<!-- page 28 -->
+<!-- page 30 -->
 
 ---
 **UNIT 2 · TOPIC 6**
@@ -1445,7 +1520,7 @@ The query result becomes the robot's next destination.
 **UNIT 2 · MANAGING DATA**
 11
 
-<!-- page 29 -->
+<!-- page 31 -->
 
 ---
 **▮KEY WORDS**
@@ -1495,7 +1570,7 @@ What is the difference between a filter and a query?
 **UNIT 2 · MANAGING DATA**
 12
 
-<!-- page 30 -->
+<!-- page 32 -->
 
 ---
 **UNIT 3 · TOPIC 1**
@@ -1539,7 +1614,7 @@ privacy: data must be protected from snoopers
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 1
 
-<!-- page 31 -->
+<!-- page 33 -->
 
 ---
 **●TRY IT**
@@ -1594,7 +1669,7 @@ Is the internet a LAN or a WAN?
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 2
 
-<!-- page 32 -->
+<!-- page 34 -->
 
 ---
 **●EXIT TICKET**
@@ -1608,7 +1683,7 @@ Why do schools network their computers?
 **3**
 What happens to networked computers if the network goes down?
 
-<!-- page 33 -->
+<!-- page 35 -->
 
 ---
 **UNIT 3 · TOPIC 2**
@@ -1653,7 +1728,7 @@ server, the server thinks, and sends the decision back. The robot borrows a bigg
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 4
 
-<!-- page 34 -->
+<!-- page 36 -->
 
 ---
 **▮KEY WORDS**
@@ -1699,7 +1774,7 @@ Give an internet service that is not the web.
 **3**
 Why is the internet called a network of networks?
 
-<!-- page 35 -->
+<!-- page 37 -->
 
 ---
 **UNIT 3 · TOPIC 3**
@@ -1746,7 +1821,7 @@ so the control centre sends instructions to the right machine and not its neighb
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 6
 
-<!-- page 36 -->
+<!-- page 38 -->
 
 ---
 **▮KEY WORDS**
@@ -1792,7 +1867,7 @@ Who translates between public and private addresses?
 **3**
 Why must addresses be unique on a network?
 
-<!-- page 37 -->
+<!-- page 39 -->
 
 ---
 **UNIT 3 · TOPIC 4**
@@ -1840,7 +1915,7 @@ matters, so the router.
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 8
 
-<!-- page 38 -->
+<!-- page 40 -->
 
 ---
 **▮KEY WORDS**
@@ -1883,7 +1958,7 @@ Write the path from a classroom computer to a website.
 **3**
 Which device knows the way to other networks?
 
-<!-- page 39 -->
+<!-- page 41 -->
 
 ---
 **UNIT 3 · TOPIC 5**
@@ -1929,7 +2004,7 @@ cooperating through the same protocols.
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 10
 
-<!-- page 40 -->
+<!-- page 42 -->
 
 ---
 **▮KEY WORDS**
@@ -1975,7 +2050,7 @@ Which protocol is secure, and how do you know when you are using it?
 **3**
 What happens without DNS?
 
-<!-- page 41 -->
+<!-- page 43 -->
 
 ---
 **UNIT 3 · TOPIC 6**
@@ -2038,7 +2113,7 @@ nobody knows what to do next.
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 12
 
-<!-- page 42 -->
+<!-- page 44 -->
 
 ---
 **▮KEY WORDS**
@@ -2082,7 +2157,7 @@ Which would you use to write to a headteacher?
 **3**
 What is the golden rule of online communication?
 
-<!-- page 43 -->
+<!-- page 45 -->
 
 ---
 **UNIT 3 · TOPIC 7**
@@ -2148,7 +2223,7 @@ List which of your accounts offer MFA, and switch on two of them this week.
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 14
 
-<!-- page 44 -->
+<!-- page 46 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -2199,7 +2274,7 @@ Write one rule for spotting a phishing email.
 **3**
 What are the four defensive habits?
 
-<!-- page 45 -->
+<!-- page 47 -->
 
 ---
 **UNIT 3 · TOPIC 8**
@@ -2252,7 +2327,7 @@ Write the four steps you would take if a classmate receives cruel messages in a 
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 16
 
-<!-- page 46 -->
+<!-- page 48 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -2305,7 +2380,7 @@ What are the four steps when something goes wrong?
 **UNIT 3 · NETWORKS AND DIGITAL COMMUNICATION**
 17
 
-<!-- page 47 -->
+<!-- page 49 -->
 
 ---
 **UNIT 4 · TOPIC 1**
@@ -2358,7 +2433,7 @@ laptop.
 **UNIT 4 · COMPUTER SYSTEMS**
 1
 
-<!-- page 48 -->
+<!-- page 50 -->
 
 ---
 **▮KEY WORDS**
@@ -2402,7 +2477,7 @@ Name two internal and two external components.
 **3**
 Is a robot's motor hardware or software?
 
-<!-- page 49 -->
+<!-- page 51 -->
 
 ---
 **UNIT 4 · TOPIC 2**
@@ -2459,7 +2534,7 @@ order?
 **UNIT 4 · COMPUTER SYSTEMS**
 3
 
-<!-- page 50 -->
+<!-- page 52 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -2510,7 +2585,7 @@ What does ALU stand for?
 **3**
 Write the CPU cycle from memory.
 
-<!-- page 51 -->
+<!-- page 53 -->
 
 ---
 **UNIT 4 · TOPIC 3**
@@ -2571,7 +2646,7 @@ re-homing after a restart.
 **UNIT 4 · COMPUTER SYSTEMS**
 5
 
-<!-- page 52 -->
+<!-- page 54 -->
 
 ---
 **▮KEY WORDS**
@@ -2615,7 +2690,7 @@ Which memory survives a power cut, and why must it?
 **3**
 Where does a running program live?
 
-<!-- page 53 -->
+<!-- page 55 -->
 
 ---
 **UNIT 4 · TOPIC 4**
@@ -2677,7 +2752,7 @@ line-following robot inputs light readings and outputs motor speeds, many times 
 **UNIT 4 · COMPUTER SYSTEMS**
 7
 
-<!-- page 54 -->
+<!-- page 56 -->
 
 ---
 **▮KEY WORDS**
@@ -2723,7 +2798,7 @@ Classify: microphone, projector, touchscreen.
 **3**
 Why does a robot need both sensors and actuators?
 
-<!-- page 55 -->
+<!-- page 57 -->
 
 ---
 **UNIT 4 · TOPIC 5**
@@ -2789,7 +2864,7 @@ choose storage that survives radiation and years without power, so 'reliable' be
 **UNIT 4 · COMPUTER SYSTEMS**
 9
 
-<!-- page 56 -->
+<!-- page 58 -->
 
 ---
 **▮KEY WORDS**
@@ -2834,7 +2909,7 @@ SSD or HDD: which has moving parts?
 **3**
 Name the five comparison criteria.
 
-<!-- page 57 -->
+<!-- page 59 -->
 
 ---
 **UNIT 4 · TOPIC 6**
@@ -2884,7 +2959,7 @@ manages the touchscreen.
 **UNIT 4 · COMPUTER SYSTEMS**
 11
 
-<!-- page 58 -->
+<!-- page 60 -->
 
 ---
 **▮KEY WORDS**
@@ -2928,7 +3003,7 @@ Name two operating systems.
 **3**
 Who shares RAM between programs?
 
-<!-- page 59 -->
+<!-- page 61 -->
 
 ---
 **UNIT 4 · TOPIC 7**
@@ -2981,7 +3056,7 @@ application. Robots fail when hobbyists change system parts carelessly.
 **UNIT 4 · COMPUTER SYSTEMS**
 13
 
-<!-- page 60 -->
+<!-- page 62 -->
 
 ---
 **▮KEY WORDS**
@@ -3025,7 +3100,7 @@ Classify: word processor, driver.
 **3**
 Which type is an operating system?
 
-<!-- page 61 -->
+<!-- page 63 -->
 
 ---
 **UNIT 4 · TOPIC 8**
@@ -3079,7 +3154,7 @@ storage is the robot's log of what it did.
 **UNIT 4 · COMPUTER SYSTEMS**
 15
 
-<!-- page 62 -->
+<!-- page 64 -->
 
 ---
 **▮KEY WORDS**
@@ -3128,7 +3203,7 @@ How does the model apply to robots?
 **UNIT 4 · COMPUTER SYSTEMS**
 16
 
-<!-- page 63 -->
+<!-- page 65 -->
 
 ---
 **UNIT 5 · TOPIC 1**
@@ -3180,7 +3255,7 @@ Find the processor, buttons, light grid and pins on a micro:bit, and point to ea
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 1
 
-<!-- page 64 -->
+<!-- page 66 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -3228,7 +3303,7 @@ Name two sensors on the micro:bit.
 **3**
 Why does the micro:bit run without a computer attached?
 
-<!-- page 65 -->
+<!-- page 67 -->
 
 ---
 **UNIT 5 · TOPIC 2**
@@ -3296,7 +3371,7 @@ start and stop the program, and radio lets two robots talk.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 3
 
-<!-- page 66 -->
+<!-- page 68 -->
 
 ---
 **▮KEY WORDS**
@@ -3340,7 +3415,7 @@ Which parts give input and which give output?
 **3**
 What powers the micro:bit away from a computer?
 
-<!-- page 67 -->
+<!-- page 69 -->
 
 ---
 **UNIT 5 · TOPIC 3**
@@ -3388,7 +3463,7 @@ the sensors and motors. Every robot program, however fancy, is this loop repeati
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 5
 
-<!-- page 68 -->
+<!-- page 70 -->
 
 ---
 **▮KEY WORDS**
@@ -3432,7 +3507,7 @@ Give one input and one output for a step counter.
 **3**
 Where does the decision happen?
 
-<!-- page 69 -->
+<!-- page 71 -->
 
 ---
 **UNIT 5 · TOPIC 4**
@@ -3492,7 +3567,7 @@ Always eject the MICROBIT drive before unplugging the cable, exactly as with a m
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 7
 
-<!-- page 70 -->
+<!-- page 72 -->
 
 ---
 **●TRY IT**
@@ -3543,7 +3618,7 @@ What is the last step after testing fails?
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 8
 
-<!-- page 71 -->
+<!-- page 73 -->
 
 ---
 **●EXIT TICKET**
@@ -3557,7 +3632,7 @@ Name two troubleshooting fixes.
 **3**
 Why does the program start on its own after transfer?
 
-<!-- page 72 -->
+<!-- page 74 -->
 
 ---
 **UNIT 5 · TOPIC 5**
@@ -3626,7 +3701,7 @@ the loop, selection handles obstacles, and variables remember where the robot ha
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 10
 
-<!-- page 73 -->
+<!-- page 75 -->
 
 ---
 **▮KEY WORDS**
@@ -3672,7 +3747,7 @@ Write one event for the micro:bit.
 **3**
 What kind of structure does a robot's main program usually have?
 
-<!-- page 74 -->
+<!-- page 76 -->
 
 ---
 **UNIT 5 · TOPIC 6**
@@ -3723,7 +3798,7 @@ Explain the GND rule to a Year 6 pupil in two sentences.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 12
 
-<!-- page 75 -->
+<!-- page 77 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -3772,7 +3847,7 @@ Which pin never changes and why?
 **3**
 Write one safety rule for pins.
 
-<!-- page 76 -->
+<!-- page 78 -->
 
 ---
 **UNIT 5 · TOPIC 7**
@@ -3825,7 +3900,7 @@ programs without a single typed line, ideal for first robotics.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 14
 
-<!-- page 77 -->
+<!-- page 79 -->
 
 ---
 **▮KEY WORDS**
@@ -3868,7 +3943,7 @@ How does a loop appear in blocks?
 **3**
 What connects blocks to the micro:bit?
 
-<!-- page 78 -->
+<!-- page 80 -->
 
 ---
 **UNIT 5 · TOPIC 8**
@@ -3915,7 +3990,7 @@ three times' anywhere in the program.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 16
 
-<!-- page 79 -->
+<!-- page 81 -->
 
 ---
 **●TRY IT**
@@ -3966,7 +4041,7 @@ How do you run a MicroPython program on the board?
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 17
 
-<!-- page 80 -->
+<!-- page 82 -->
 
 ---
 **●EXIT TICKET**
@@ -3980,7 +4055,7 @@ What is a function?
 **3**
 Which symbol ends a line that starts a block?
 
-<!-- page 81 -->
+<!-- page 83 -->
 
 ---
 **UNIT 5 · TOPIC 9**
@@ -4031,7 +4106,7 @@ expressions, so people can read what the machine intends to do.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 19
 
-<!-- page 82 -->
+<!-- page 84 -->
 
 ---
 **▮KEY WORDS**
@@ -4075,7 +4150,7 @@ How many frames make an animation?
 **3**
 What is the command to show an image?
 
-<!-- page 83 -->
+<!-- page 85 -->
 
 ---
 **UNIT 5 · TOPIC 10**
@@ -4122,7 +4197,7 @@ together stop it. Choosing an order for the tests prevents dangerous shortcuts.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 21
 
-<!-- page 84 -->
+<!-- page 86 -->
 
 ---
 **▮KEY WORDS**
@@ -4166,7 +4241,7 @@ Why test A+B first?
 **3**
 Name a real device with a two-button safety pattern.
 
-<!-- page 85 -->
+<!-- page 87 -->
 
 ---
 **UNIT 5 · TOPIC 11**
@@ -4219,7 +4294,7 @@ pins drive the wheels. The micro:bit is the decision-maker between them.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 23
 
-<!-- page 86 -->
+<!-- page 88 -->
 
 ---
 **▮KEY WORDS**
@@ -4263,7 +4338,7 @@ What does write_analog(1023) mean?
 **3**
 Where does the decision happen in a pin system?
 
-<!-- page 87 -->
+<!-- page 89 -->
 
 ---
 **UNIT 5 · TOPIC 12**
@@ -4311,7 +4386,7 @@ musical commands are the same; only the purpose changes.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 25
 
-<!-- page 88 -->
+<!-- page 90 -->
 
 ---
 **▮KEY WORDS**
@@ -4355,7 +4430,7 @@ What separates a note's name and length?
 **3**
 How would a robot use music?
 
-<!-- page 89 -->
+<!-- page 91 -->
 
 ---
 **UNIT 5 · TOPIC 13**
@@ -4402,7 +4477,7 @@ predictable opponents.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 27
 
-<!-- page 90 -->
+<!-- page 92 -->
 
 ---
 **▮KEY WORDS**
@@ -4450,7 +4525,7 @@ Why is predictability sometimes a problem?
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 28
 
-<!-- page 91 -->
+<!-- page 93 -->
 
 ---
 **UNIT 6 · TOPIC 1**
@@ -4508,7 +4583,7 @@ Check spelling, then send. Re-reading finds almost every error.
 **UNIT 6 · COMMUNICATION**
 1
 
-<!-- page 92 -->
+<!-- page 94 -->
 
 ---
 **To: Mrs Ferreira**
@@ -4556,7 +4631,7 @@ request, sign-off.
 **UNIT 6 · COMMUNICATION**
 2
 
-<!-- page 93 -->
+<!-- page 95 -->
 
 ---
 **●CHECK YOUR UNDERSTANDING**
@@ -4587,7 +4662,7 @@ Write a good subject line for a lost homework query.
 **3**
 Who sees BCC addresses?
 
-<!-- page 94 -->
+<!-- page 96 -->
 
 ---
 **UNIT 6 · TOPIC 2**
@@ -4649,7 +4724,7 @@ listing them; fair use for schoolwork lets you copy small amounts with credit, n
 **UNIT 6 · COMMUNICATION**
 4
 
-<!-- page 95 -->
+<!-- page 97 -->
 
 ---
 **●TRY IT**
@@ -4702,7 +4777,7 @@ Why read more than one source?
 **UNIT 6 · COMMUNICATION**
 5
 
-<!-- page 96 -->
+<!-- page 98 -->
 
 ---
 **●EXIT TICKET**
@@ -4719,7 +4794,7 @@ How do you use a source honestly?
 **UNIT 6 · COMMUNICATION**
 6
 
-<!-- page 97 -->
+<!-- page 99 -->
 
 ---
 **UNIT 7 · TOPIC 1**
@@ -4770,7 +4845,7 @@ Set up a document template for your science reports and save it.
 **UNIT 7 · LAYOUT**
 1
 
-<!-- page 98 -->
+<!-- page 100 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -4818,7 +4893,7 @@ When is centred alignment appropriate?
 **3**
 What is a template?
 
-<!-- page 99 -->
+<!-- page 101 -->
 
 ---
 **UNIT 7 · TOPIC 2**
@@ -4891,7 +4966,7 @@ Rewrite a squashed table with better column widths and a shaded header.
 **UNIT 7 · LAYOUT**
 3
 
-<!-- page 100 -->
+<!-- page 102 -->
 
 ---
 **ROBOTICS CONNECTION**
@@ -4939,7 +5014,7 @@ Why shade the header row?
 **3**
 Give an example of information you would tabulate.
 
-<!-- page 101 -->
+<!-- page 103 -->
 
 ---
 **UNIT 7 · TOPIC 3**
@@ -4989,7 +5064,7 @@ author and the page number, so a dropped stack of papers can be rebuilt in order
 **UNIT 7 · LAYOUT**
 5
 
-<!-- page 102 -->
+<!-- page 104 -->
 
 ---
 **▮KEY WORDS**
@@ -5037,7 +5112,7 @@ Write a good footer for your project.
 **UNIT 7 · LAYOUT**
 6
 
-<!-- page 103 -->
+<!-- page 105 -->
 
 ---
 **UNIT 8 · TOPIC 1**
@@ -5108,7 +5183,7 @@ details live once, in the Books table.
 **UNIT 8 · DATABASES**
 1
 
-<!-- page 104 -->
+<!-- page 106 -->
 
 ---
 **●TRY IT**
@@ -5160,7 +5235,7 @@ What does a relationship connect?
 **UNIT 8 · DATABASES**
 2
 
-<!-- page 105 -->
+<!-- page 107 -->
 
 ---
 **●EXIT TICKET**
@@ -5174,7 +5249,7 @@ Give a field and a data type for a birthday.
 **3**
 Why does a Loans table beat writing names inside the Books table?
 
-<!-- page 106 -->
+<!-- page 108 -->
 
 ---
 **UNIT 8 · TOPIC 2**
@@ -5235,7 +5310,7 @@ update the day's routes. The robot is a moving part of the database.
 **UNIT 8 · DATABASES**
 4
 
-<!-- page 107 -->
+<!-- page 109 -->
 
 ---
 **▮KEY WORDS**
@@ -5281,7 +5356,7 @@ Write a filter for Genre = 'history'.
 **3**
 Why is deleting dangerous?
 
-<!-- page 108 -->
+<!-- page 110 -->
 
 ---
 **UNIT 8 · TOPIC 3**
@@ -5338,7 +5413,7 @@ charts, and a conclusion stating what the data shows, in honest language.
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 6
 
-<!-- page 109 -->
+<!-- page 111 -->
 
 ---
 **●TRY IT**
@@ -5391,7 +5466,7 @@ What does a report contain?
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 7
 
-<!-- page 110 -->
+<!-- page 112 -->
 
 ---
 **●EXIT TICKET**
@@ -5408,7 +5483,7 @@ Who decides what to include in a presentation?
 **UNIT 5 · MICRO:BIT AND ROBOTICS**
 8
 
-<!-- page 111 -->
+<!-- page 113 -->
 
 ---
 ## SMART SCHOOL PROJECT
@@ -5466,7 +5541,7 @@ what you learned; how you would improve it
 **SMART SCHOOL PROJECT**
 1
 
-<!-- page 112 -->
+<!-- page 114 -->
 
 ---
 **●IDEAS TO START FROM**
@@ -5501,7 +5576,7 @@ the presentation: five minutes, for the class and the teacher
 
 the reflection: what you learned, what you would improve
 
-<!-- page 113 -->
+<!-- page 115 -->
 
 ---
 **SMART SCHOOL PROJECT · GUIDEBOOK**
@@ -5550,7 +5625,7 @@ disagreements go to evidence: what does the data say?
 **SMART SCHOOL PROJECT**
 3
 
-<!-- page 114 -->
+<!-- page 116 -->
 
 ---
 **●CHALLENGE**
@@ -5587,7 +5662,7 @@ Which step do teams most often skip, and why is it fatal?
 **3**
 Write one sentence: why does your school need your Smart School?
 
-<!-- page 115 -->
+<!-- page 117 -->
 
 ---
 ## Glossary
@@ -5632,7 +5707,7 @@ Write one sentence: why does your school need your Smart School?
 
 **data information that a computer can store and process**
 
-<!-- page 116 -->
+<!-- page 118 -->
 
 ---
 **database an organised collection of data in tables**
@@ -5675,7 +5750,7 @@ Write one sentence: why does your school need your Smart School?
 
 **microcontroller a complete tiny computer on one chip**
 
-<!-- page 117 -->
+<!-- page 119 -->
 
 ---
 **network two or more computers connected to share data and devices**
@@ -5718,7 +5793,7 @@ Write one sentence: why does your school need your Smart School?
 
 **server the computer that stores data and answers requests**
 
-<!-- page 118 -->
+<!-- page 120 -->
 
 ---
 **software the programs that run on hardware**
@@ -5742,7 +5817,7 @@ Write one sentence: why does your school need your Smart School?
 **GLOSSARY**
 8
 
-<!-- page 119 -->
+<!-- page 121 -->
 
 ---
 ## End-of-unit tests
@@ -5799,7 +5874,7 @@ one input with expected and actual results.
 **ASSESSMENT**
 1
 
-<!-- page 120 -->
+<!-- page 122 -->
 
 ---
 **●SECTION D · SHORT ANSWER**
@@ -5823,7 +5898,7 @@ A robot should sweep a square room but instead sweeps the same strip forever. Th
 says REPEAT 4 TIMES: sweep strip, turn left, but the robot never turns. Identify the most likely
 error type, explain your reasoning, and write a test plan to prove your fix works.
 
-<!-- page 121 -->
+<!-- page 123 -->
 
 ---
 **Unit 2 test: Managing Data**
@@ -5888,7 +5963,7 @@ A survey asks 'Do you like games?' Explain one way this question is poorly desig
 Design a database table for a school tuck shop: five fields, types, primary key. Then write two
 queries the shop manager would run every day, and say what each returns.
 
-<!-- page 122 -->
+<!-- page 124 -->
 
 ---
 **Unit 3 test: Networks and Digital Communication**
@@ -5952,7 +6027,7 @@ What is a digital footprint, and why does it matter for your future?
 **ASSESSMENT**
 4
 
-<!-- page 123 -->
+<!-- page 125 -->
 
 ---
 **●SECTION E · PROBLEM SOLVING**
@@ -5962,7 +6037,7 @@ Your friend receives a message: 'Your account is locked! Click this link and ent
 keep it.' List every warning sign, describe what you would tell your friend to do, and explain who
 they should report it to.
 
-<!-- page 124 -->
+<!-- page 126 -->
 
 ---
 **Unit 4 test: Computer Systems**
@@ -6025,7 +6100,7 @@ Classify as system or application software: word processor, operating system, br
 **ASSESSMENT**
 6
 
-<!-- page 125 -->
+<!-- page 127 -->
 
 ---
 **●SECTION E · PROBLEM SOLVING**
@@ -6035,7 +6110,7 @@ A family buys a laptop with a small SSD. Recommend how they should store: the op
 photo library of 200 GB, and school work. Justify each choice on capacity, speed, portability,
 reliability and cost.
 
-<!-- page 126 -->
+<!-- page 128 -->
 
 ---
 **Unit 5 test: micro:bit and Robotics**
@@ -6098,7 +6173,7 @@ Write the two commands to read pin 0 and write half power to pin 1.
 **ASSESSMENT**
 8
 
-<!-- page 127 -->
+<!-- page 129 -->
 
 ---
 **●SECTION E · PROBLEM SOLVING**
@@ -6108,7 +6183,7 @@ Write, in pseudocode or MicroPython, a program for an automatic nightlight: read
 forever; if dark shows a dim heart; if very dark shows a bright one; otherwise clears the display.
 Then list two test cases with expected and actual results.
 
-<!-- page 128 -->
+<!-- page 130 -->
 
 ---
 **Unit 6 test: Communication**
@@ -6168,7 +6243,7 @@ Explain when you would use BCC instead of CC.
 **ASSESSMENT**
 10
 
-<!-- page 129 -->
+<!-- page 131 -->
 
 ---
 **●SECTION E · PROBLEM SOLVING**
@@ -6178,7 +6253,7 @@ Write a complete email to your Computing teacher explaining that a broken USB ca
 finishing the micro:bit project, and proposing a catch-up plan. Full etiquette: greeting, subject,
 clear request, sign-off.
 
-<!-- page 130 -->
+<!-- page 132 -->
 
 ---
 **Unit 7 test: Layout**
@@ -6238,7 +6313,7 @@ Describe how you would format a one-page project report for consistency.
 **ASSESSMENT**
 12
 
-<!-- page 131 -->
+<!-- page 133 -->
 
 ---
 **●SECTION E · PROBLEM SOLVING**
@@ -6247,7 +6322,7 @@ Describe how you would format a one-page project report for consistency.
 A test table has squashed columns, no header shading and units repeated in every cell. Describe
 every fault and rewrite the table design so a reader can use it at a glance.
 
-<!-- page 132 -->
+<!-- page 134 -->
 
 ---
 **Unit 8 test: Databases**
@@ -6315,7 +6390,7 @@ show what has been lost most, justifying your choice.
 **ASSESSMENT**
 14
 
-<!-- page 133 -->
+<!-- page 135 -->
 
 ---
 ## Teacher answer key
@@ -6354,7 +6429,7 @@ stock below five and sales today.
 **ASSESSMENT · TEACHER ANSWER KEY**
 1
 
-<!-- page 134 -->
+<!-- page 136 -->
 
 ---
 **Unit 3 · Networks and Digital Communication**
@@ -6405,7 +6480,7 @@ covered sensor (bright heart).
 **ASSESSMENT · TEACHER ANSWER KEY**
 2
 
-<!-- page 135 -->
+<!-- page 137 -->
 
 ---
 **Unit 6 · Communication**

@@ -1,5 +1,5 @@
 # Computing & Robotics - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-computing-and-robotics/book.pdf` (182 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-computing-and-robotics/book.pdf` (185 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -11,6 +11,120 @@
 Prime Books Press
 
 <!-- page 2 -->
+
+---
+**P R I M E  B O O K S**
+
+## Computing & Robotics
+
+Year 1 · Cambridge Early Years · Student Manual
+
+Understand the machine. Then build with it.
+
+Year 1 computing and robotics pairs computational thinking with hands-on builds:
+
+programming, data, networks and working robots.
+
+**INSIDE THIS BOOK**
+
+•
+Programming projects in every unit
+
+•
+How computers and networks really work
+
+•
+Data, logic and problem-solving
+
+•
+Robotics builds with everyday kits
+
+•
+Digital safety and responsibility
+
+**Prime Books · Computing & Robotics**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
+
+<!-- page 3 -->
+
+---
+**P R I M E  B O O K S**
+
+## Computing & Robotics
+
+Year 1 · Cambridge Early Years · Student Manual
+
+Understand the machine. Then build with it.
+
+Year 1 computing and robotics pairs computational thinking with hands-on builds:
+
+programming, data, networks and working robots.
+
+**INSIDE THIS BOOK**
+
+•
+Programming projects in every unit
+
+•
+How computers and networks really work
+
+•
+Data, logic and problem-solving
+
+•
+Robotics builds with everyday kits
+
+•
+Digital safety and responsibility
+
+**Prime Books · Computing & Robotics**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
+
+<!-- page 4 -->
+
+---
+**P R I M E  B O O K S**
+
+## Computing & Robotics
+
+Year 1 · Cambridge Early Years · Student Manual
+
+Understand the machine. Then build with it.
+
+Year 1 computing and robotics pairs computational thinking with hands-on builds:
+
+programming, data, networks and working robots.
+
+**INSIDE THIS BOOK**
+
+•
+Programming projects in every unit
+
+•
+How computers and networks really work
+
+•
+Data, logic and problem-solving
+
+•
+Robotics builds with everyday kits
+
+•
+Digital safety and responsibility
+
+**Prime Books · Computing & Robotics**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
+
+<!-- page 5 -->
 
 ---
 ABOUT THIS BOOK
@@ -43,7 +157,7 @@ approved by any examination body, or by any other publisher. References to curri
 frameworks represent the interpretation of the authors and may not fully reflect the
 approach of any awarding body.
 
-<!-- page 3 -->
+<!-- page 6 -->
 
 ---
 ABOUT THIS BOOK · CONTINUED
@@ -75,7 +189,7 @@ BEEP, THINK, GO!
 **Editorial and design: Prime School Press studio, Lisbon. Illustration: Prime School Press studio. Series**
 Prime School Press, Year 1, Ages 5 to 6.
 
-<!-- page 4 -->
+<!-- page 7 -->
 
 ---
 CONTENTS
@@ -150,7 +264,7 @@ CONTENTS
 
 **4**
 
-<!-- page 5 -->
+<!-- page 8 -->
 
 ---
 WELCOME
@@ -171,7 +285,7 @@ Beep is a robot. Beep is friendly, Beep is fast, and Beep will do
 WELCOME
 ## 5
 
-<!-- page 6 -->
+<!-- page 9 -->
 
 ---
 WELCOME · CONTINUED
@@ -201,7 +315,7 @@ by somebody.
 WELCOME
 ## 6
 
-<!-- page 7 -->
+<!-- page 10 -->
 
 ---
 WHO WORKS IN THE YARD
@@ -243,7 +357,7 @@ prints it on a little card for you.
 MEET THE TEAM
 ## 7
 
-<!-- page 8 -->
+<!-- page 11 -->
 
 ---
 HOW TO USE THIS BOOK
@@ -281,7 +395,7 @@ printed by Chip.
 HOW TO USE THIS BOOK
 ## 8
 
-<!-- page 9 -->
+<!-- page 12 -->
 
 ---
 HOW TO USE THIS BOOK · CONTINUED
@@ -313,7 +427,7 @@ NO SCREEN NEEDED
 HOW TO USE THIS BOOK
 ## 9
 
-<!-- page 10 -->
+<!-- page 13 -->
 
 ---
 THE YARD
@@ -347,7 +461,7 @@ NO SCREEN NEEDED
 THE YARD
 ## 10
 
-<!-- page 11 -->
+<!-- page 14 -->
 
 ---
 GETTING SET UP
@@ -388,7 +502,7 @@ often understand it better.
 GETTING SET UP
 ## 11
 
-<!-- page 12 -->
+<!-- page 15 -->
 
 ---
 The Instruction Shed
@@ -417,7 +531,7 @@ Find an error in an algorithm
 
 ## 12
 
-<!-- page 13 -->
+<!-- page 16 -->
 
 ---
 1.1 · SWITCH ON
@@ -445,7 +559,7 @@ make an algorithm of your own
 UNIT 1
 ## 13
 
-<!-- page 14 -->
+<!-- page 17 -->
 
 ---
 1.1 · SWITCH ON · CONTINUED
@@ -475,7 +589,7 @@ Was it still the same job?
 UNIT 1
 ## 14
 
-<!-- page 15 -->
+<!-- page 18 -->
 
 ---
 1.1 · HERE IS HOW IT WORKS
@@ -499,7 +613,7 @@ Eat it.
 UNIT 1
 ## 15
 
-<!-- page 16 -->
+<!-- page 19 -->
 
 ---
 1.1 · HERE IS HOW IT WORKS · CONTINUED
@@ -531,7 +645,7 @@ all the way into your computer.
 UNIT 1
 ## 16
 
-<!-- page 17 -->
+<!-- page 20 -->
 
 ---
 1.1 · YOUR TURN
@@ -553,7 +667,7 @@ Push the seed into the soil.
 UNIT 1
 ## 17
 
-<!-- page 18 -->
+<!-- page 21 -->
 
 ---
 1.1 · YOUR TURN · CONTINUED
@@ -579,7 +693,7 @@ draw step 1
 UNIT 1
 ## 18
 
-<!-- page 19 -->
+<!-- page 22 -->
 
 ---
 1.1 · YOUR TURN
@@ -615,7 +729,7 @@ Copy these two words. Say each one before you write it.
 UNIT 1
 ## 19
 
-<!-- page 20 -->
+<!-- page 23 -->
 
 ---
 1.1 · YOUR TURN · CONTINUED
@@ -638,7 +752,7 @@ last
 UNIT 1
 ## 20
 
-<!-- page 21 -->
+<!-- page 24 -->
 
 ---
 1.2 · SWITCH ON
@@ -664,7 +778,7 @@ Beep ever does is made out of these.
 UNIT 1
 ## 21
 
-<!-- page 22 -->
+<!-- page 25 -->
 
 ---
 1.2 · SWITCH ON · CONTINUED
@@ -705,7 +819,7 @@ enormous number of them.
 UNIT 1
 ## 22
 
-<!-- page 23 -->
+<!-- page 26 -->
 
 ---
 1.2 · HERE IS HOW IT WORKS
@@ -721,7 +835,7 @@ the arrows with your finger and see where Beep ends up.
 UNIT 1
 ## 23
 
-<!-- page 24 -->
+<!-- page 27 -->
 
 ---
 1.2 · HERE IS HOW IT WORKS · CONTINUED
@@ -767,7 +881,7 @@ NO SCREEN NEEDED
 UNIT 1
 ## 24
 
-<!-- page 25 -->
+<!-- page 28 -->
 
 ---
 1.2 · YOUR TURN
@@ -781,7 +895,7 @@ fetch. Draw one arrow in each empty card.
 UNIT 1
 ## 25
 
-<!-- page 26 -->
+<!-- page 29 -->
 
 ---
 1.2 · YOUR TURN · CONTINUED
@@ -816,7 +930,7 @@ your finger. Do they work?
 UNIT 1
 ## 26
 
-<!-- page 27 -->
+<!-- page 30 -->
 
 ---
 1.3 · SWITCH ON
@@ -856,7 +970,7 @@ it, taped it into their notebook, and wrote that they had been
 UNIT 1
 ## 27
 
-<!-- page 28 -->
+<!-- page 31 -->
 
 ---
 1.3 · HERE IS HOW IT WORKS
@@ -894,7 +1008,7 @@ Pour the milk into the cup.
 UNIT 1
 ## 28
 
-<!-- page 29 -->
+<!-- page 32 -->
 
 ---
 1.3 · YOUR TURN
@@ -939,7 +1053,7 @@ NO SCREEN NEEDED
 UNIT 1
 ## 29
 
-<!-- page 30 -->
+<!-- page 33 -->
 
 ---
 1.4 · HERE IS HOW IT WORKS
@@ -981,7 +1095,7 @@ NO SCREEN NEEDED
 UNIT 1
 ## 30
 
-<!-- page 31 -->
+<!-- page 34 -->
 
 ---
 1.4 · YOUR TURN
@@ -1025,7 +1139,7 @@ silly. Silly is how you know you have found the bug.
 UNIT 1
 ## 31
 
-<!-- page 32 -->
+<!-- page 35 -->
 
 ---
 1.4 · YOUR TURN
@@ -1054,7 +1168,7 @@ The black square is a wall. Beep cannot go through it.
 UNIT 1
 ## 32
 
-<!-- page 33 -->
+<!-- page 36 -->
 
 ---
 1.4 · YOUR TURN · CONTINUED
@@ -1089,7 +1203,7 @@ the wall.
 UNIT 1
 ## 33
 
-<!-- page 34 -->
+<!-- page 37 -->
 
 ---
 UNIT 1 · YARD WORDS
@@ -1132,7 +1246,7 @@ NO SCREEN NEEDED
 UNIT 1
 ## 34
 
-<!-- page 35 -->
+<!-- page 38 -->
 
 ---
 UNIT 1 · SHOW THE YARD
@@ -1168,7 +1282,7 @@ cards say and nothing else. It is even funnier.
 UNIT 1
 ## 35
 
-<!-- page 36 -->
+<!-- page 39 -->
 
 ---
 UNIT 1 · HOW DID IT GO?
@@ -1206,7 +1320,7 @@ Next, at the Block Bench, you will build your algorithms out of blocks.
 UNIT 1
 ## 36
 
-<!-- page 37 -->
+<!-- page 40 -->
 
 ---
 The Block Bench
@@ -1234,7 +1348,7 @@ Control: repeat, and if
 
 ## 37
 
-<!-- page 38 -->
+<!-- page 41 -->
 
 ---
 2.1 · SWITCH ON
@@ -1262,7 +1376,7 @@ make things move, change and make a sound
 UNIT 2
 ## 38
 
-<!-- page 39 -->
+<!-- page 42 -->
 
 ---
 2.1 · SWITCH ON · CONTINUED
@@ -1288,7 +1402,7 @@ find the block you want without reading a single word.
 UNIT 2
 ## 39
 
-<!-- page 40 -->
+<!-- page 43 -->
 
 ---
 2.1 · HERE IS HOW IT WORKS
@@ -1320,7 +1434,7 @@ seconds
 UNIT 2
 ## 40
 
-<!-- page 41 -->
+<!-- page 44 -->
 
 ---
 2.1 · HERE IS HOW IT WORKS · CONTINUED
@@ -1348,7 +1462,7 @@ know?
 UNIT 2
 ## 41
 
-<!-- page 42 -->
+<!-- page 45 -->
 
 ---
 2.1 · YOUR TURN
@@ -1412,7 +1526,7 @@ Sound
 UNIT 2
 ## 42
 
-<!-- page 43 -->
+<!-- page 46 -->
 
 ---
 2.2 · MOTION
@@ -1449,7 +1563,7 @@ y:
 UNIT 2
 ## 43
 
-<!-- page 44 -->
+<!-- page 47 -->
 
 ---
 2.2 · MOTION · CONTINUED
@@ -1480,7 +1594,7 @@ walk across the room.
 UNIT 2
 ## 44
 
-<!-- page 45 -->
+<!-- page 48 -->
 
 ---
 2.2 · YOUR TURN
@@ -1513,7 +1627,7 @@ way.
 UNIT 2
 ## 45
 
-<!-- page 46 -->
+<!-- page 49 -->
 
 ---
 2.2 · YOUR TURN · CONTINUED
@@ -1545,7 +1659,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 46
 
-<!-- page 47 -->
+<!-- page 50 -->
 
 ---
 2.3 · LOOKS
@@ -1579,7 +1693,7 @@ show
 UNIT 2
 ## 47
 
-<!-- page 48 -->
+<!-- page 51 -->
 
 ---
 2.3 · LOOKS · CONTINUED
@@ -1603,7 +1717,7 @@ appears in the bubble.
 UNIT 2
 ## 48
 
-<!-- page 49 -->
+<!-- page 52 -->
 
 ---
 2.3 · YOUR TURN
@@ -1628,7 +1742,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 49
 
-<!-- page 50 -->
+<!-- page 53 -->
 
 ---
 2.3 · YOUR TURN · CONTINUED
@@ -1660,7 +1774,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 50
 
-<!-- page 51 -->
+<!-- page 54 -->
 
 ---
 2.4 · SOUND
@@ -1704,7 +1818,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 51
 
-<!-- page 52 -->
+<!-- page 55 -->
 
 ---
 2.4 · YOUR TURN
@@ -1736,7 +1850,7 @@ walking.
 UNIT 2
 ## 52
 
-<!-- page 53 -->
+<!-- page 56 -->
 
 ---
 2.4 · YOUR TURN · CONTINUED
@@ -1760,7 +1874,7 @@ all? Talk about it.
 UNIT 2
 ## 53
 
-<!-- page 54 -->
+<!-- page 57 -->
 
 ---
 2.5 · EVENTS
@@ -1795,7 +1909,7 @@ when this sprite clicked
 UNIT 2
 ## 54
 
-<!-- page 55 -->
+<!-- page 58 -->
 
 ---
 2.5 · EVENTS · CONTINUED
@@ -1813,7 +1927,7 @@ itself tells you it goes first.
 UNIT 2
 ## 55
 
-<!-- page 56 -->
+<!-- page 59 -->
 
 ---
 2.5 · YOUR TURN
@@ -1841,7 +1955,7 @@ draw the missing hat block
 UNIT 2
 ## 56
 
-<!-- page 57 -->
+<!-- page 60 -->
 
 ---
 2.5 · YOUR TURN · CONTINUED
@@ -1876,7 +1990,7 @@ Press the space key, or change the hat block.
 UNIT 2
 ## 57
 
-<!-- page 58 -->
+<!-- page 61 -->
 
 ---
 2.6 · CONTROL
@@ -1915,7 +2029,7 @@ degrees
 UNIT 2
 ## 58
 
-<!-- page 59 -->
+<!-- page 62 -->
 
 ---
 2.6 · CONTROL · CONTINUED
@@ -1940,7 +2054,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 59
 
-<!-- page 60 -->
+<!-- page 63 -->
 
 ---
 2.6 · HERE IS HOW IT WORKS
@@ -1984,7 +2098,7 @@ repeat 4 times
 UNIT 2
 ## 60
 
-<!-- page 61 -->
+<!-- page 64 -->
 
 ---
 2.6 · HERE IS HOW IT WORKS · CONTINUED
@@ -2012,7 +2126,7 @@ million times, exactly the same.
 UNIT 2
 ## 61
 
-<!-- page 62 -->
+<!-- page 65 -->
 
 ---
 2.6 · CONTROL
@@ -2050,7 +2164,7 @@ seconds
 UNIT 2
 ## 62
 
-<!-- page 63 -->
+<!-- page 66 -->
 
 ---
 2.6 · CONTROL · CONTINUED
@@ -2086,7 +2200,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 63
 
-<!-- page 64 -->
+<!-- page 67 -->
 
 ---
 2.7 · SENSING
@@ -2114,7 +2228,7 @@ Beep's bumper is a sensor. When it is pressed, Beep knows.
 UNIT 2
 ## 64
 
-<!-- page 65 -->
+<!-- page 68 -->
 
 ---
 2.7 · SENSING · CONTINUED
@@ -2146,7 +2260,7 @@ still know it is there, because your skin senses the warmth.
 UNIT 2
 ## 65
 
-<!-- page 66 -->
+<!-- page 69 -->
 
 ---
 2.7 · HERE IS HOW IT WORKS
@@ -2177,7 +2291,7 @@ Boing ▾
 UNIT 2
 ## 66
 
-<!-- page 67 -->
+<!-- page 70 -->
 
 ---
 2.7 · HERE IS HOW IT WORKS · CONTINUED
@@ -2209,7 +2323,7 @@ A stretched hexagon.
 UNIT 2
 ## 67
 
-<!-- page 68 -->
+<!-- page 71 -->
 
 ---
 2.7 · YOUR TURN
@@ -2241,7 +2355,7 @@ the mouse.
 UNIT 2
 ## 68
 
-<!-- page 69 -->
+<!-- page 72 -->
 
 ---
 2.7 · YOUR TURN · CONTINUED
@@ -2268,7 +2382,7 @@ draw the sensor you found
 UNIT 2
 ## 69
 
-<!-- page 70 -->
+<!-- page 73 -->
 
 ---
 2.8 · VARIABLES
@@ -2311,7 +2425,7 @@ score ▾
 UNIT 2
 ## 70
 
-<!-- page 71 -->
+<!-- page 74 -->
 
 ---
 2.8 · VARIABLES · CONTINUED
@@ -2336,7 +2450,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 71
 
-<!-- page 72 -->
+<!-- page 75 -->
 
 ---
 2.8 · OPERATORS
@@ -2374,7 +2488,7 @@ block, where the number would go.
 UNIT 2
 ## 72
 
-<!-- page 73 -->
+<!-- page 76 -->
 
 ---
 2.8 · OPERATORS · CONTINUED
@@ -2412,7 +2526,7 @@ hungry mouth: it always opens towards the bigger number.
 UNIT 2
 ## 73
 
-<!-- page 74 -->
+<!-- page 77 -->
 
 ---
 2.9 · BACKDROPS
@@ -2445,7 +2559,7 @@ next backdrop
 UNIT 2
 ## 74
 
-<!-- page 75 -->
+<!-- page 78 -->
 
 ---
 2.9 · BACKDROPS · CONTINUED
@@ -2473,7 +2587,7 @@ different colour. You have just switched the backdrop.
 UNIT 2
 ## 75
 
-<!-- page 76 -->
+<!-- page 79 -->
 
 ---
 2.9 · YOUR TURN
@@ -2496,7 +2610,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 76
 
-<!-- page 77 -->
+<!-- page 80 -->
 
 ---
 2.9 · YOUR TURN · CONTINUED
@@ -2529,7 +2643,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 77
 
-<!-- page 78 -->
+<!-- page 81 -->
 
 ---
 2.10 · VARIABLES AND LISTS
@@ -2566,7 +2680,7 @@ names ▾
 UNIT 2
 ## 78
 
-<!-- page 79 -->
+<!-- page 82 -->
 
 ---
 2.10 · VARIABLES AND LISTS · CONTINUED
@@ -2597,7 +2711,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 79
 
-<!-- page 80 -->
+<!-- page 83 -->
 
 ---
 2.10 · YOUR TURN
@@ -2620,7 +2734,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 80
 
-<!-- page 81 -->
+<!-- page 84 -->
 
 ---
 2.10 · YOUR TURN · CONTINUED
@@ -2651,7 +2765,7 @@ bottom or cross one out of the middle.
 UNIT 2
 ## 81
 
-<!-- page 82 -->
+<!-- page 85 -->
 
 ---
 2.11 · LOGIC AND CONTROL FLOW
@@ -2679,7 +2793,7 @@ same one?
 UNIT 2
 ## 82
 
-<!-- page 83 -->
+<!-- page 86 -->
 
 ---
 2.11 · LOGIC AND CONTROL FLOW · CONTINUED
@@ -2726,7 +2840,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 83
 
-<!-- page 84 -->
+<!-- page 87 -->
 
 ---
 2.11 · YOUR TURN
@@ -2756,7 +2870,7 @@ steps
 UNIT 2
 ## 84
 
-<!-- page 85 -->
+<!-- page 88 -->
 
 ---
 2.11 · YOUR TURN · CONTINUED
@@ -2791,7 +2905,7 @@ Something that changes, so the answer can become yes.
 UNIT 2
 ## 85
 
-<!-- page 86 -->
+<!-- page 89 -->
 
 ---
 2.12 · INTERFACE ELEMENTS
@@ -2839,7 +2953,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 86
 
-<!-- page 87 -->
+<!-- page 90 -->
 
 ---
 2.12 · YOUR TURN
@@ -2884,7 +2998,7 @@ flag to go, red button to stop. Pretend to click each one now.
 UNIT 2
 ## 87
 
-<!-- page 88 -->
+<!-- page 91 -->
 
 ---
 UNIT 2 · YARD WORDS
@@ -2934,7 +3048,7 @@ list
 UNIT 2
 ## 88
 
-<!-- page 89 -->
+<!-- page 92 -->
 
 ---
 UNIT 2 · YARD WORDS · CONTINUED
@@ -2949,7 +3063,7 @@ NO SCREEN NEEDED
 UNIT 2
 ## 89
 
-<!-- page 90 -->
+<!-- page 93 -->
 
 ---
 UNIT 2 · SHOW THE YARD
@@ -2985,7 +3099,7 @@ and again. Then find out how to make it stop.
 UNIT 2
 ## 90
 
-<!-- page 91 -->
+<!-- page 94 -->
 
 ---
 UNIT 2 · HOW DID IT GO?
@@ -3025,7 +3139,7 @@ Next, at the Sorting Table, you will find out what is really true.
 UNIT 2
 ## 91
 
-<!-- page 92 -->
+<!-- page 95 -->
 
 ---
 The Sorting Table
@@ -3053,7 +3167,7 @@ Showing it, and reading it
 
 ## 92
 
-<!-- page 93 -->
+<!-- page 96 -->
 
 ---
 3.1 · SWITCH ON
@@ -3079,7 +3193,7 @@ draw a chart and read what it tells you
 UNIT 3
 ## 93
 
-<!-- page 94 -->
+<!-- page 97 -->
 
 ---
 3.1 · SWITCH ON · CONTINUED
@@ -3110,7 +3224,7 @@ nothing but numbers.
 UNIT 3
 ## 94
 
-<!-- page 95 -->
+<!-- page 98 -->
 
 ---
 3.2 · COLLECTING DATA
@@ -3140,7 +3254,7 @@ five
 UNIT 3
 ## 95
 
-<!-- page 96 -->
+<!-- page 99 -->
 
 ---
 3.2 · COLLECTING DATA · CONTINUED
@@ -3166,7 +3280,7 @@ thousands of years old, long before anybody wrote numbers down.
 UNIT 3
 ## 96
 
-<!-- page 97 -->
+<!-- page 100 -->
 
 ---
 3.2 · YOUR TURN
@@ -3205,7 +3319,7 @@ grapes
 UNIT 3
 ## 97
 
-<!-- page 98 -->
+<!-- page 101 -->
 
 ---
 3.2 · YOUR TURN · CONTINUED
@@ -3229,7 +3343,7 @@ row.
 UNIT 3
 ## 98
 
-<!-- page 99 -->
+<!-- page 102 -->
 
 ---
 3.2 · YOUR TURN
@@ -3259,7 +3373,7 @@ grapes
 UNIT 3
 ## 99
 
-<!-- page 100 -->
+<!-- page 103 -->
 
 ---
 3.2 · YOUR TURN · CONTINUED
@@ -3295,7 +3409,7 @@ Then add them all up for the bottom row.
 UNIT 3
 ## 100
 
-<!-- page 101 -->
+<!-- page 104 -->
 
 ---
 3.3 · SORTING AND GROUPING
@@ -3323,7 +3437,7 @@ shape, or anything else you can see.
 UNIT 3
 ## 101
 
-<!-- page 102 -->
+<!-- page 105 -->
 
 ---
 3.3 · SORTING AND GROUPING · CONTINUED
@@ -3349,7 +3463,7 @@ everything was sorted first.
 UNIT 3
 ## 102
 
-<!-- page 103 -->
+<!-- page 106 -->
 
 ---
 3.3 · YOUR TURN
@@ -3391,7 +3505,7 @@ NO SCREEN NEEDED
 UNIT 3
 ## 103
 
-<!-- page 104 -->
+<!-- page 107 -->
 
 ---
 3.3 · YOUR TURN · CONTINUED
@@ -3421,7 +3535,7 @@ Each thing must fit into exactly one group.
 UNIT 3
 ## 104
 
-<!-- page 105 -->
+<!-- page 108 -->
 
 ---
 3.4 · DISPLAYING DATA
@@ -3447,7 +3561,7 @@ one child
 UNIT 3
 ## 105
 
-<!-- page 106 -->
+<!-- page 109 -->
 
 ---
 3.4 · DISPLAYING DATA · CONTINUED
@@ -3475,7 +3589,7 @@ table on the page before?
 UNIT 3
 ## 106
 
-<!-- page 107 -->
+<!-- page 110 -->
 
 ---
 3.4 · DISPLAYING DATA
@@ -3523,7 +3637,7 @@ and tables must always agree.
 UNIT 3
 ## 107
 
-<!-- page 108 -->
+<!-- page 111 -->
 
 ---
 3.4 · YOUR TURN
@@ -3554,7 +3668,7 @@ my title and key
 UNIT 3
 ## 108
 
-<!-- page 109 -->
+<!-- page 112 -->
 
 ---
 3.5 · INTERPRETING DATA
@@ -3588,7 +3702,7 @@ NO SCREEN NEEDED
 UNIT 3
 ## 109
 
-<!-- page 110 -->
+<!-- page 113 -->
 
 ---
 3.5 · INTERPRETING DATA · CONTINUED
@@ -3620,7 +3734,7 @@ asked.
 UNIT 3
 ## 110
 
-<!-- page 111 -->
+<!-- page 114 -->
 
 ---
 3.5 · YOUR TURN
@@ -3645,7 +3759,7 @@ NO SCREEN NEEDED
 UNIT 3
 ## 111
 
-<!-- page 112 -->
+<!-- page 115 -->
 
 ---
 3.5 · YOUR TURN · CONTINUED
@@ -3672,7 +3786,7 @@ NO SCREEN NEEDED
 UNIT 3
 ## 112
 
-<!-- page 113 -->
+<!-- page 116 -->
 
 ---
 UNIT 3 · YARD WORDS
@@ -3721,7 +3835,7 @@ NO SCREEN NEEDED
 UNIT 3
 ## 113
 
-<!-- page 114 -->
+<!-- page 117 -->
 
 ---
 UNIT 3 · SHOW THE YARD
@@ -3754,7 +3868,7 @@ find out who was missed.
 UNIT 3
 ## 114
 
-<!-- page 115 -->
+<!-- page 118 -->
 
 ---
 UNIT 3 · HOW DID IT GO?
@@ -3794,7 +3908,7 @@ Next, in the Wire Garden, you will send your data to somebody else.
 UNIT 3
 ## 115
 
-<!-- page 116 -->
+<!-- page 119 -->
 
 ---
 The Wire Garden
@@ -3826,7 +3940,7 @@ Staying safe
 
 ## 116
 
-<!-- page 117 -->
+<!-- page 120 -->
 
 ---
 4.1 · SWITCH ON
@@ -3862,7 +3976,7 @@ know what to do if something worries you
 UNIT 4
 ## 117
 
-<!-- page 118 -->
+<!-- page 121 -->
 
 ---
 4.1 · SWITCH ON · CONTINUED
@@ -3889,7 +4003,7 @@ and the threads into cables, and you have the internet.
 UNIT 4
 ## 118
 
-<!-- page 119 -->
+<!-- page 122 -->
 
 ---
 4.1 · HERE IS HOW IT WORKS
@@ -3915,7 +4029,7 @@ phone
 UNIT 4
 ## 119
 
-<!-- page 120 -->
+<!-- page 123 -->
 
 ---
 4.1 · HERE IS HOW IT WORKS · CONTINUED
@@ -3947,7 +4061,7 @@ The router in the middle.
 UNIT 4
 ## 120
 
-<!-- page 121 -->
+<!-- page 124 -->
 
 ---
 4.2 · DIGITAL COMMUNICATION
@@ -3985,7 +4099,7 @@ sharing
 UNIT 4
 ## 121
 
-<!-- page 122 -->
+<!-- page 125 -->
 
 ---
 4.2 · YOUR TURN
@@ -4007,7 +4121,7 @@ Shout across the classroom.
 UNIT 4
 ## 122
 
-<!-- page 123 -->
+<!-- page 126 -->
 
 ---
 4.2 · YOUR TURN · CONTINUED
@@ -4039,7 +4153,7 @@ my message
 UNIT 4
 ## 123
 
-<!-- page 124 -->
+<!-- page 127 -->
 
 ---
 4.3 · DEVICES THAT CONNECT
@@ -4067,7 +4181,7 @@ through the air
 UNIT 4
 ## 124
 
-<!-- page 125 -->
+<!-- page 128 -->
 
 ---
 4.3 · DEVICES THAT CONNECT · CONTINUED
@@ -4097,7 +4211,7 @@ Circle YES if the thing could join a network.
 UNIT 4
 ## 125
 
-<!-- page 126 -->
+<!-- page 129 -->
 
 ---
 4.4 · HOW WE USE NETWORKS
@@ -4129,7 +4243,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 126
 
-<!-- page 127 -->
+<!-- page 130 -->
 
 ---
 4.4 · HOW WE USE NETWORKS · CONTINUED
@@ -4156,7 +4270,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 127
 
-<!-- page 128 -->
+<!-- page 131 -->
 
 ---
 4.4 · YOUR TURN
@@ -4179,7 +4293,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 128
 
-<!-- page 129 -->
+<!-- page 132 -->
 
 ---
 4.4 · YOUR TURN · CONTINUED
@@ -4212,7 +4326,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 129
 
-<!-- page 130 -->
+<!-- page 133 -->
 
 ---
 4.5 · ONLINE SAFETY
@@ -4256,7 +4370,7 @@ STOP
 UNIT 4
 ## 130
 
-<!-- page 131 -->
+<!-- page 134 -->
 
 ---
 4.5 · YOUR TURN
@@ -4291,7 +4405,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 131
 
-<!-- page 132 -->
+<!-- page 135 -->
 
 ---
 4.5 · YOUR TURN · CONTINUED
@@ -4319,7 +4433,7 @@ three people I trust
 UNIT 4
 ## 132
 
-<!-- page 133 -->
+<!-- page 136 -->
 
 ---
 4.5 · YOUR TURN
@@ -4352,7 +4466,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 133
 
-<!-- page 134 -->
+<!-- page 137 -->
 
 ---
 4.5 · YOUR TURN · CONTINUED
@@ -4382,7 +4496,7 @@ times harder to guess and much easier to remember.
 UNIT 4
 ## 134
 
-<!-- page 135 -->
+<!-- page 138 -->
 
 ---
 UNIT 4 · YARD WORDS
@@ -4433,7 +4547,7 @@ NO SCREEN NEEDED
 UNIT 4
 ## 135
 
-<!-- page 136 -->
+<!-- page 139 -->
 
 ---
 UNIT 4 · SHOW THE YARD
@@ -4471,7 +4585,7 @@ comes loose.
 UNIT 4
 ## 136
 
-<!-- page 137 -->
+<!-- page 140 -->
 
 ---
 UNIT 4 · HOW DID IT GO?
@@ -4511,7 +4625,7 @@ Next, in the Machine Room, you will look inside the machine itself.
 UNIT 4
 ## 137
 
-<!-- page 138 -->
+<!-- page 141 -->
 
 ---
 The Machine Room
@@ -4540,7 +4654,7 @@ Working together, and the rules
 
 ## 138
 
-<!-- page 139 -->
+<!-- page 142 -->
 
 ---
 5.1 · SWITCH ON
@@ -4576,7 +4690,7 @@ know the rules for looking after a machine
 UNIT 5
 ## 139
 
-<!-- page 140 -->
+<!-- page 143 -->
 
 ---
 5.1 · SWITCH ON · CONTINUED
@@ -4611,7 +4725,7 @@ look anything like a computer.
 UNIT 5
 ## 140
 
-<!-- page 141 -->
+<!-- page 144 -->
 
 ---
 5.2 · HARDWARE
@@ -4658,7 +4772,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 141
 
-<!-- page 142 -->
+<!-- page 145 -->
 
 ---
 5.2 · HARDWARE
@@ -4691,7 +4805,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 142
 
-<!-- page 143 -->
+<!-- page 146 -->
 
 ---
 5.2 · HARDWARE · CONTINUED
@@ -4717,7 +4831,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 143
 
-<!-- page 144 -->
+<!-- page 147 -->
 
 ---
 5.3 · SOFTWARE
@@ -4766,7 +4880,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 144
 
-<!-- page 145 -->
+<!-- page 148 -->
 
 ---
 5.3 · YOUR TURN
@@ -4798,7 +4912,7 @@ YES  /  NO
 UNIT 5
 ## 145
 
-<!-- page 146 -->
+<!-- page 149 -->
 
 ---
 5.3 · YOUR TURN · CONTINUED
@@ -4829,7 +4943,7 @@ The software. The hardware was working perfectly.
 UNIT 5
 ## 146
 
-<!-- page 147 -->
+<!-- page 150 -->
 
 ---
 5.4 · WORKING TOGETHER
@@ -4864,7 +4978,7 @@ The key sends a message to the box.
 UNIT 5
 ## 147
 
-<!-- page 148 -->
+<!-- page 151 -->
 
 ---
 5.4 · WORKING TOGETHER · CONTINUED
@@ -4889,7 +5003,7 @@ hundred times.
 UNIT 5
 ## 148
 
-<!-- page 149 -->
+<!-- page 152 -->
 
 ---
 5.4 · YOUR TURN
@@ -4921,7 +5035,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 149
 
-<!-- page 150 -->
+<!-- page 153 -->
 
 ---
 5.4 · YOUR TURN · CONTINUED
@@ -4954,7 +5068,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 150
 
-<!-- page 151 -->
+<!-- page 154 -->
 
 ---
 5.5 · THE RULES
@@ -4986,7 +5100,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 151
 
-<!-- page 152 -->
+<!-- page 155 -->
 
 ---
 5.5 · YOUR TURN
@@ -5018,7 +5132,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 152
 
-<!-- page 153 -->
+<!-- page 156 -->
 
 ---
 5.5 · YOUR TURN · CONTINUED
@@ -5042,7 +5156,7 @@ carrying it properly
 UNIT 5
 ## 153
 
-<!-- page 154 -->
+<!-- page 157 -->
 
 ---
 UNIT 5 · YARD WORDS
@@ -5095,7 +5209,7 @@ NO SCREEN NEEDED
 UNIT 5
 ## 154
 
-<!-- page 155 -->
+<!-- page 158 -->
 
 ---
 UNIT 5 · SHOW THE YARD
@@ -5134,7 +5248,7 @@ nothing works without it.
 UNIT 5
 ## 155
 
-<!-- page 156 -->
+<!-- page 159 -->
 
 ---
 UNIT 5 · HOW DID IT GO?
@@ -5174,7 +5288,7 @@ That is all five places. Now the whole yard is yours.
 UNIT 5
 ## 156
 
-<!-- page 157 -->
+<!-- page 160 -->
 
 ---
 Open day
@@ -5188,7 +5302,7 @@ one class, one afternoon.
 
 ## 157
 
-<!-- page 158 -->
+<!-- page 161 -->
 
 ---
 OPEN DAY · SHOW THE YARD
@@ -5229,7 +5343,7 @@ your team taught them written on it.
 OPEN DAY
 ## 158
 
-<!-- page 159 -->
+<!-- page 162 -->
 
 ---
 OPEN DAY · YOUR TURN
@@ -5249,7 +5363,7 @@ My job in the team
 OPEN DAY
 ## 159
 
-<!-- page 160 -->
+<!-- page 163 -->
 
 ---
 OPEN DAY · YOUR TURN · CONTINUED
@@ -5275,7 +5389,7 @@ our station
 OPEN DAY
 ## 160
 
-<!-- page 161 -->
+<!-- page 164 -->
 
 ---
 ASSESSMENTS
@@ -5291,7 +5405,7 @@ Everything you make this year belongs in the yard. This is where it all ends up.
 ASSESSMENTS
 ## 161
 
-<!-- page 162 -->
+<!-- page 165 -->
 
 ---
 ASSESSMENTS · CONTINUED
@@ -5349,7 +5463,7 @@ Open day
 ASSESSMENTS
 ## 162
 
-<!-- page 163 -->
+<!-- page 166 -->
 
 ---
 ASSESSMENTS · CONTINUED
@@ -5369,7 +5483,7 @@ NO SCREEN NEEDED
 ASSESSMENTS
 ## 163
 
-<!-- page 164 -->
+<!-- page 167 -->
 
 ---
 ASSESSMENTS
@@ -5392,7 +5506,7 @@ draw or stick in my best work
 ASSESSMENTS
 ## 164
 
-<!-- page 165 -->
+<!-- page 168 -->
 
 ---
 ASSESSMENTS
@@ -5422,7 +5536,7 @@ I know who to tell if something worries me.
 ASSESSMENTS
 ## 165
 
-<!-- page 166 -->
+<!-- page 169 -->
 
 ---
 ASSESSMENTS · CONTINUED
@@ -5441,7 +5555,7 @@ NO SCREEN NEEDED
 ASSESSMENTS
 ## 166
 
-<!-- page 167 -->
+<!-- page 170 -->
 
 ---
 SCHOOL ACTIVITIES
@@ -5485,7 +5599,7 @@ NO SCREEN NEEDED
 SCHOOL ACTIVITIES
 ## 167
 
-<!-- page 168 -->
+<!-- page 171 -->
 
 ---
 SCHOOL ACTIVITIES
@@ -5542,7 +5656,7 @@ this week we will
 SCHOOL ACTIVITIES
 ## 168
 
-<!-- page 169 -->
+<!-- page 172 -->
 
 ---
 YARD WORDS
@@ -5570,7 +5684,7 @@ NO SCREEN NEEDED
 YARD WORDS
 ## 169
 
-<!-- page 170 -->
+<!-- page 173 -->
 
 ---
 YARD WORDS · UNIT 1
@@ -5653,7 +5767,7 @@ after another
 YARD WORDS
 ## 170
 
-<!-- page 171 -->
+<!-- page 174 -->
 
 ---
 YARD WORDS · UNIT 2
@@ -5735,7 +5849,7 @@ everything
 YARD WORDS
 ## 171
 
-<!-- page 172 -->
+<!-- page 175 -->
 
 ---
 YARD WORDS · UNIT 2 (CONTINUED)
@@ -5780,7 +5894,7 @@ things, in order
 YARD WORDS
 ## 172
 
-<!-- page 173 -->
+<!-- page 176 -->
 
 ---
 YARD WORDS · UNIT 3
@@ -5858,7 +5972,7 @@ altogether
 YARD WORDS
 ## 173
 
-<!-- page 174 -->
+<!-- page 177 -->
 
 ---
 YARD WORDS · UNIT 3 (CONTINUED)
@@ -5880,7 +5994,7 @@ something out
 YARD WORDS
 ## 174
 
-<!-- page 175 -->
+<!-- page 178 -->
 
 ---
 YARD WORDS · UNIT 4
@@ -5962,7 +6076,7 @@ have it too
 YARD WORDS
 ## 175
 
-<!-- page 176 -->
+<!-- page 179 -->
 
 ---
 YARD WORDS · UNIT 4 (CONTINUED)
@@ -5995,7 +6109,7 @@ loud
 YARD WORDS
 ## 176
 
-<!-- page 177 -->
+<!-- page 180 -->
 
 ---
 YARD WORDS · UNIT 5
@@ -6077,7 +6191,7 @@ of the computer
 YARD WORDS
 ## 177
 
-<!-- page 178 -->
+<!-- page 181 -->
 
 ---
 YARD WORDS · UNIT 5 (CONTINUED)
@@ -6109,7 +6223,7 @@ screen onto paper
 YARD WORDS
 ## 178
 
-<!-- page 179 -->
+<!-- page 182 -->
 
 ---
 FOR TEACHERS
@@ -6150,7 +6264,7 @@ wrong, and then finding out why, is the lesson.
 FOR TEACHERS
 ## 179
 
-<!-- page 180 -->
+<!-- page 183 -->
 
 ---
 FOR TEACHERS
@@ -6176,7 +6290,7 @@ Scratch on it. All of it is ordinary classroom stock.
 FOR TEACHERS
 ## 180
 
-<!-- page 181 -->
+<!-- page 184 -->
 
 ---
 FOR TEACHERS · CONTINUED
@@ -6205,7 +6319,7 @@ minutes a week, and it teaches more than an hour of vocabulary.
 FOR TEACHERS
 ## 181
 
-<!-- page 182 -->
+<!-- page 185 -->
 
 ---
 ## Computing & Robotics

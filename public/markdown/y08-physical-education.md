@@ -4999,24 +4999,37 @@ sketches, not official construction drawings.
 <!-- page 146 -->
 
 ---
-## For teachers
+**P R I M E  B O O K S**
 
-This Student Book covers the Year 8 Physical Education course as mapped from the department source
-file: Volleyball, Cross Country, Tennis, Athletics, Rugby (touch) and Sports Aerobics. Each unit keeps
-the source topic list. Teaching prose is original.
+## Physical Education
 
-Assessment pages match the source policy: collective game assessment, three fitness tests, and a
-written paper when practical evidence is missing. Term dates and event days, if the school names them
-later, can be announced in class. They are not printed here as if they were already fixed.
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-Coach's tips are written in a staff voice without naming individual teachers. The printed title is Physical
-Education, Year 8.
+Move well. Understand why.
 
-Body type is 12 pt Source Sans 3. Do not shrink the type to fit a lesson onto fewer pages. Split the task
-instead.
+Year 8 physical education develops practical skill and the theory behind it:
 
-**BACK MATTER**
-**FOR TEACHERS**
+anatomy, training, tactics and healthy participation for life.
 
-**PHYSICAL EDUCATION · YEAR 8**
-**146**
+**INSIDE THIS BOOK**
+
+•
+Practical units across sports and athletics
+
+•
+Anatomy, physiology and training theory
+
+•
+Tactics, leadership and officiating
+
+•
+Health, fitness and wellbeing
+
+•
+Assessment preparation included
+
+**Prime Books · Physical Education**
+
+Ages 12–13 · Lower Secondary
+
+**primeschool.pt**

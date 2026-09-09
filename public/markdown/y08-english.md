@@ -555,21 +555,37 @@ https://en.wikipedia.org/wiki/English_verbs
 <!-- page 14 -->
 
 ---
-P R I M E B O O K S · Y E A R 8
+**P R I M E  B O O K S**
 
-Notice more. Write better.
+## English
 
-This Year 8 Student Book teaches travel writing from the inside. You will study an original
-account of a night train to Porto, learn how tense shifts create effect, master metaphor
-and simile, and write your own vivid journey.
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-Written for Prime School pupils, in clear British English, with original texts written for this
-book.
+Read between every line.
 
-TRAVEL WRITING
-TENSE
-METAPHOR
-EDITING
-VOICE
+This Year 8 English course builds confident readers and precise writers: wide
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · English**
+
+Ages 12–13 · Lower Secondary
+
+**primeschool.pt**

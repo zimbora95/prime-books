@@ -5139,15 +5139,37 @@ Covers Challenges 11–14 + project
 <!-- page 146 -->
 
 ---
-PrimeBooks Global Perspectives Year 7
+**P R I M E  B O O K S**
 
-7. Project: enquiry question quality (rewrite a weak
-question).
+## Global Perspectives
 
-8. Project: list four sources and rate credibility.
+Year 7 · Cambridge Lower Secondary · Student Manual
 
-9. Present a 6-bullet conclusion with personal/local/global.
+See every issue from every side.
 
-10. Year 8 readiness: three skills to improve next year.
+Year 7 global perspectives builds research, reasoning and collabor
 
-146
+big global topics, ending in a personal project you can defend.
+
+**INSIDE THIS BOOK**
+
+•
+Big global topics, locally explored
+
+•
+Research and evidence skills
+
+•
+Collaboration and debate
+
+•
+Reflection and personal projects
+
+•
+Assessment-ready checkpoints
+
+**Prime Books · Global Perspectives**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**

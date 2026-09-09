@@ -9,7 +9,6 @@
 ## Year 7
 
 Cambridge Lower Secondary
-
 Student Manual
 
 <!-- page 2 -->
@@ -5636,52 +5635,37 @@ Prime School Press · www.primeschool.pt
 <!-- page 118 -->
 
 ---
-PORTUGUÊS Y7 · RECURSOS
+**P R I M E  B O O K S**
 
-Prime School Press · www.primeschool.pt
+## Portuguese 1st
 
-UNIDADE 1
-p.6 Ex.1: Quem — dois alunos; O quê — resgate do cão; Quando — ontem; Onde — rio Douro, Ribeira;
-Como — trela improvisada e bombeiros; Porquê — o cão escorregou da margem.
-p.7 Ex.2: doze e 3-2 — cardinais; últimos — ordinal.  p.8: advérbio — ontem; quantificador — dois.
-p.11 Ex.: Lisboa e Mensagem — próprios; poeta e cidade — comuns; biblioteca e rebanho — colectivos.
-p.14 Ex.1: primária, semanal e matemático — relacionais; generoso e forte — qualificativos.
-p.14 Ex.4: tinha — auxiliar; estava — copulativo; vou — auxiliar; parece — copulativo.
-p.16 Ex.11: estudaram; jogávamos; tinha feito; fará.
-p.19 Ex.3 (F/O): F; O; O.  p.24 Ex.14: comprou-o; não a vimos; lê-los; comeram-no; quem as trouxe.
-p.24 Ex.15: entregá-lo-ei; comprou-mo; dar-lhas-íamos.
-p.26 Teste: 5. rebanho; talvez.  6. tinha.  p.27 Grupo I: vitória no torneio; três estudantes de
-robótica; ontem à tarde; Lisboa.  II: B.  III: slogan «Dá um passo pelo planeta»; convencer (imperativo).
-IV: A.
+Year 7 · Cambridge Lower Secondary · Student Manual
 
-UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
-p.29 Missão: cavaleiro dinamarquês; castelo/Dinamarca, Inverno; V/F: V; F (Idade Média); V; V; F.
-p.32-33 (Cavaleiro): Inverno; para sul.  p.33 Ex.: perfeito — partiu, deixou; imperfeito — caminhava, era.
-p.34-36 (Rapaz de Bronze): Ex.2 V/F: V; F (conversam à noite); V; F (discretos e observadores); V;
-V; F (precisa de autorização).  Ex.3: vaidosos — só falam da própria beleza.
-Ex.4: personificação — «conversavam», «observavam», «ouviam-nos».
-p.39-43 (Floresta): Ex.11 E/I: E; E; I; E; E; I.  Ex.12: mudou a imaginação de Isabel.
-Ex.15: imperfeito — vivia, estava, gostava; perfeito — caminhou, encontrou, ficou.
-Ex.17 comparação: ambos mostram a natureza viva e um objecto/lugar que ganha magia; Sophia usa
-a personificação e o fantástico para transformar jardins e florestas em mundos.
-p.48 Ficha: caminhava — imperfeito; encontrou — perfeito; estava; seguia.
+A língua que já é tua — agora escrita com orgulho.
 
-UNIDADE 4 · A PALAVRA EM MÚSICA
-p.78 Ex.: sal = lágrimas (metáfora); anáfora «Quantas… Quantos…»; decassílabo (10 sílabas).
-p.80 Ex.: contraste amar toda a gente / não amar ninguém — antítese; quadra ABAB (rima cruzada).
-p.81 Ex.: «Tremia, mas cantou» — adversativa; «Cantou porque estava feliz» — causal (subord.);
-«Ou ensaias ou falhas» — disjuntiva; «Estava pronta, portanto passou» — conclusiva.
-p.82 Ex.1: «Este soneto foi escrito por Florbela.»; «O mar foi cruzado pelos marinheiros.»
-p.89 Grupo I: 5. adversativa / causal; 6. «Poemas foram escritos pelos alunos.»
+Português Língua Materna para o Year 7: leitura, escrita, gramática e oralidade
 
-NOTA: as respostas pessoais (opiniões, comentários, escrita criativa) não têm solução única.
+com textos autênticos e projetos de escrita.
 
-118
+**INSIDE THIS BOOK**
 
-UNIDADE 3 · O PALCO À ESPERA
-p.84-85 (Gulliver em Portugal): texto dramático de Luísa Ducla Soares; as falas e didascálias
-substituem o narrador; Gulliver descobre Portugal com olhos novos — humor e crítica.
-p.87 V/F: as respostas dependem da cena lida; corrige com o texto à frente.
-p.93 Gramática: frases simples (um verbo conjugado) e complexas (dois ou mais verbos);
-«Se eu falhar, tu finges» — complexa (subordinada condicional).
-p.99 Debate: as respostas pessoais não têm solução única.
+•
+Leitura e interpretação de textos
+
+•
+Escrita guiada e criativa
+
+•
+Gramática em contexto
+
+•
+Oralidade e debate
+
+•
+Balanço no fim de cada unidade
+
+**Prime Books · Portuguese 1st**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**

@@ -5183,23 +5183,37 @@ sketches, not official construction drawings.
 <!-- page 148 -->
 
 ---
-## For teachers
+**P R I M E  B O O K S**
 
-This Student Book covers the Year 10 Physical Education course as mapped from the department source file:
-Futsal, Cross Country, Athletics, Aerobics, Korfball and non-contact American football. Source unit numbers 7, 6,
-13 and 14 are renumbered 3 to 6 here so the year reads as one book. Teaching prose is original.
+## Physical Education
 
-Assessment pages match the source policy: collective game assessment, three fitness tests, and a written paper
-when practical evidence is missing.
+Year 10 · Cambridge Upper Secondary · Student Manual
 
-Coach's tips are written in a staff voice without naming individual teachers. The printed title is Physical
-Education, Year 10. Gym is not used as a title. Body type is 11 pt Source Sans 3.
+Move well. Understand why.
 
-There are no blank padding leaves. Unit openers follow the previous page immediately, on the user's instruction
-for this title.
+Year 10 physical education develops practical skill and the theory behind it:
 
-**BACK MATTER**
-**FOR TEACHERS**
+anatomy, training, tactics and healthy participation for life.
 
-**PHYSICAL EDUCATION · YEAR 10**
-**148**
+**INSIDE THIS BOOK**
+
+•
+Practical units across sports and athletics
+
+•
+Anatomy, physiology and training theory
+
+•
+Tactics, leadership and officiating
+
+•
+Health, fitness and wellbeing
+
+•
+Assessment preparation included
+
+**Prime Books · Physical Education**
+
+Ages 14–16 · Upper Secondary
+
+**primeschool.pt**

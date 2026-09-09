@@ -3040,6 +3040,37 @@ Espaço alargado de treino para volume de curso completo.
 <!-- page 156 -->
 
 ---
-## Folha de paridade de impressão
+**P R I M E  B O O K S**
 
-Notas ﬁnais do aluno.
+## Portuguese A Level
+
+Year 12 · Cambridge International AS & A Level · Student Manual
+
+A língua ao nível do pensamento.
+
+Português A Level: análise literária, debate de ideias e escrita sofisticada, com os
+
+autores e os temas que preparam o ensino superior.
+
+**INSIDE THIS BOOK**
+
+•
+Literatura e análise textual
+
+•
+Ensaios argumentativos
+
+•
+Tradução e compreensão avançada
+
+•
+Tema: sociedade, cultura e atualidade
+
+•
+Preparação para o exame
+
+**Prime Books · Portuguese A Level**
+
+Ages 16–18 · Advanced Levels
+
+**primeschool.pt**

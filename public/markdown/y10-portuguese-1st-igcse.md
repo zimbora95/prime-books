@@ -4,7 +4,7 @@
 <!-- page 1 -->
 
 ---
-## Portuguese 1st IGCSE
+## Portuguese IGCSE
 
 ## Year 10
 
@@ -6120,11 +6120,37 @@ Composition — cerca de 350 a 500 palavras.
 <!-- page 251 -->
 
 ---
-## Fecho
+**P R I M E  B O O K S**
 
-Este manual é de treino Prime School. Os textos e as tarefas são originais. O teu progresso
-mede-se na clareza com que lês, selecionas, argumentas e reves — com honestidade e método.
+## Portuguese IGCSE
 
-**Prime School Press · Portuguese IGCSE · Year 10 e Year 11**
+Year 10 · Cambridge Upper Secondary · Student Manual
 
-© Prime School Press · Material pedagógico de treino · Não substitui o syllabus oﬁcial
+A língua que já é tua — agora escrita com orgulho.
+
+Português Língua Materna para o Year 10: leitura, escrita, gramática e oralidade
+
+com textos autênticos e projetos de escrita.
+
+**INSIDE THIS BOOK**
+
+•
+Leitura e interpretação de textos
+
+•
+Escrita guiada e criativa
+
+•
+Gramática em contexto
+
+•
+Oralidade e debate
+
+•
+Balanço no fim de cada unidade
+
+**Prime Books · Portuguese IGCSE**
+
+Ages 14–16 · Upper Secondary
+
+**primeschool.pt**

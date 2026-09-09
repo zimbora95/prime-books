@@ -22945,3 +22945,37 @@ stock required for identity frames.
 <!-- page 422 -->
 
 ---
+**P R I M E  B O O K S**
+
+## Portuguese 1st
+
+Year 10 · Cambridge Upper Secondary · Student Manual
+
+A língua que já é tua — agora escrita com orgulho.
+
+Português Língua Materna para o Year 10: leitura, escrita, gramática e oralidade
+
+com textos autênticos e projetos de escrita.
+
+**INSIDE THIS BOOK**
+
+•
+Leitura e interpretação de textos
+
+•
+Escrita guiada e criativa
+
+•
+Gramática em contexto
+
+•
+Oralidade e debate
+
+•
+Balanço no fim de cada unidade
+
+**Prime Books · Portuguese 1st**
+
+Ages 14–16 · Upper Secondary
+
+**primeschool.pt**

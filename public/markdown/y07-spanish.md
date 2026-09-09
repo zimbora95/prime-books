@@ -11369,66 +11369,37 @@ Sources and references
 <!-- page 178 -->
 
 ---
-For teachers
+**P R I M E  B O O K S**
 
-What this book is. A first year of Spanish as a second language for pupils who speak English at school and
-often Portuguese at home. It assumes no prior Spanish and it does not assume a slow class. Instructions
-are in English so that the Spanish on the page is the only thing a pupil has to decode.
+## Spanish
 
-COVERAG E
+Year 7 · Cambridge Lower Secondary · Student Manual
 
-Written from the Scheme of Work 2026 to 2027 and the department's own 24 topic booklets. Every theme in the
-scheme appears: self, family, body and health, daily routine; home, neighbourhood, school, urban areas,
-climate; food, drink, meals, shopping, leisure, hobbies, holidays; clothes, colours and the digital world; travel,
-transport, school trips, environment and work.
+Real Spanish, from the first page.
 
-The three two-week test blocks are rehearsed in topics 1.5, 2.5 and 4.4, and the final examination in 5.6. The
-four project slots close Units 1, 2, 4 and 5.
+Year 7 Spanish builds confident communication: everyday topics, authentic texts
 
-TH E ORD ER OF TH E G RAMMAR, AN D WH Y
+and grammar that grows step by step.
 
-TERM
-WHAT IS TAUGHT
-WHY THERE
+**INSIDE THIS BOOK**
 
-1
-Present tense, ser and estar, tener, agreement,
-possessives, reflexives, the clock
+•
+Topic-based units with real dialogues
 
-Everything else in the year needs them
+•
+Grammar introduced and recycled
 
-2
-hay, gustar, comparison, quantity, ir a + infinitive
-Opinion and the near future turn a list of facts
-into speech
+•
+Speaking, listening, reading, writing
 
-3
-The simple past of regular verbs, ir and ser; hay que
-and se debe
+•
+Culture of the Spanish-speaking world
 
-The past arrives once there are enough words
-for it to be worth having
+•
+Vocabulary lists and review pages
 
-WH AT IS D ELIB ERATELY N OT H ERE
+**Prime Books · Spanish**
 
-No subjunctive, no imperfect, no object pronouns beyond fixed phrases, and no formal usted beyond
-recognition in the restaurant and shop dialogues. A Year 7 who uses the present tense accurately and can talk
-about last weekend is further ahead than one who has met six tenses and controls none of them.
+Ages 11–12 · Lower Secondary
 
-MARKIN G TH E WRITIN G
-
-The writing tasks are marked on the grid printed in 1.5: content, accuracy, range. Reward the pupil who writes
-sixty accurate words over the one who writes a hundred and twenty guessed ones, and say so out loud, because
-the opposite belief is very hard to shift once a class has it.
-
-TH E TEACH ER MAN UAL
-
-Every topic in this book has an entry in the Teacher Manual: the objective, the expected outcome, the errors
-that really occur, a support route, a stretch task, and the full answers.
-
-FOR TEACHERS
-BACK MATTER
-
-PRIME BOOKS · SPANISH · YEAR 7
-For teachers
-178
+**primeschool.pt**

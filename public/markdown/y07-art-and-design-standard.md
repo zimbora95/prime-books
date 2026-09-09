@@ -1,5 +1,5 @@
 # Art & Design - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-art-and-design-standard/book.pdf` (73 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-art-and-design-standard/book.pdf` (74 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -13,6 +13,44 @@ Student Manual
 Lower Secondary
 
 <!-- page 2 -->
+
+---
+**P R I M E  B O O K S**
+
+## Art & Design
+
+Year 7 · Cambridge Lower Secondary · Student Manual
+
+Read between every line.
+
+This Year 7 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · Art & Design**
+
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**
+
+<!-- page 3 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -69,7 +107,7 @@ photos
 
 Only copying finished ideas
 
-<!-- page 3 -->
+<!-- page 4 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -193,7 +231,7 @@ Prime Books  ·  Lower Secondary
 **70**
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-<!-- page 4 -->
+<!-- page 5 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -232,7 +270,7 @@ communicate an idea and also advertise something. A piece of furniture can be us
 designed for a visual or emotional experience.
 This is why we study Art & Design together.
 
-<!-- page 5 -->
+<!-- page 6 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -275,7 +313,7 @@ more:
 Observational drawing teaches you to notice these details. The more carefully you look, the more you
 can see.
 
-<!-- page 6 -->
+<!-- page 7 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -329,7 +367,7 @@ The first pages of this handbook deliberately focus on your observation,
 experimentation and ideas. Finished "masterpieces" come later. Your process is as
 important as a polished final piece.
 
-<!-- page 7 -->
+<!-- page 8 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -377,7 +415,7 @@ Professional artists and designers use this cycle as well as students.
 ## ki
 ## i
 
-<!-- page 8 -->
+<!-- page 9 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -422,7 +460,7 @@ simple colour combination can become an abstract painting.
 
 **Art can change the way we see familiar things.**
 
-<!-- page 9 -->
+<!-- page 10 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -478,7 +516,7 @@ your chair · school uniform · phone · food packaging · school signs · books
 · public spaces · advertisements · photographs · films and animations.
 Art and design influence how the world looks, feels and functions.
 
-<!-- page 10 -->
+<!-- page 11 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -548,7 +586,7 @@ with respect
 
 Notice first; judge carefully
 
-<!-- page 11 -->
+<!-- page 12 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -603,7 +641,7 @@ edge of the metal." - "One leg looks darker because it faces away from the windo
 5. Compare: How is your drawing different from the picture you had in your head
 before you observed?
 
-<!-- page 12 -->
+<!-- page 13 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -643,7 +681,7 @@ What was ordinary about your subject?
 What did you change?
 How does your artwork make the viewer see it differently?
 
-<!-- page 13 -->
+<!-- page 14 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -687,7 +725,7 @@ The people who view, use or experience an artwork or design
 Context
 The circumstances surrounding an artwork, including time, place, culture and ideas
 
-<!-- page 14 -->
+<!-- page 15 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -744,7 +782,7 @@ a fuller making task
 REFLECT
 checklist or written evaluation
 
-<!-- page 15 -->
+<!-- page 16 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -791,7 +829,7 @@ tables. Wash hands before touching shared books.
 
 ## Unit 7.1 - Drawing
 
-<!-- page 16 -->
+<!-- page 17 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -852,7 +890,7 @@ short ticks for bark
 Artists using line (study set): Pablo Picasso (continuous-line drawings), Henri Matisse (contour drawings),
 Vincent van Gogh (energetic reed-pen lines), Bridget Riley (line used for optical movement).
 
-<!-- page 17 -->
+<!-- page 18 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -888,7 +926,7 @@ Make a one-minute continuous-line drawing of your non-drawing hand without lifti
 pen. Title it. Reflect: what detail appeared that you usually skip?
 Line vocabulary: contour · line weight · gesture · implied line · expressive line
 
-<!-- page 18 -->
+<!-- page 19 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -941,7 +979,7 @@ silhouette, you understand something important about its shape.
 Artists: Matisse (paper cut-outs as pure shape), Islamic geometric designers, logo designers who rely on
 silhouette clarity.
 
-<!-- page 19 -->
+<!-- page 20 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -990,7 +1028,7 @@ perspective and overlapping shapes.
 each one in your sketchbook. Then choose one object and reduce it to five simple
 shapes or fewer.
 
-<!-- page 20 -->
+<!-- page 21 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1044,7 +1082,7 @@ shadow fall?
 
 Form vocabulary: volume · modelling · highlight · mid-tone · core shadow · cast shadow
 
-<!-- page 21 -->
+<!-- page 22 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1092,7 +1130,7 @@ density, direction and weight of her marks.
 Ask: Where are the darkest areas? Where are marks most concentrated? Are they smooth or rough? How
 do the marks contribute to the emotional quality of the image?
 
-<!-- page 22 -->
+<!-- page 23 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1145,7 +1183,7 @@ peace? Would everyone make the same choice?
 Make a small tonal study in graphite, then add one accent colour only where it
 helps the focal point.
 
-<!-- page 23 -->
+<!-- page 24 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1187,7 +1225,7 @@ each. The purpose is six different decisions, not six beautiful drawings.
 
 Composition vocabulary: balance · crop · focal point · hierarchy · viewfinder · symmetrical · asymmetrical
 
-<!-- page 24 -->
+<!-- page 25 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1221,7 +1259,7 @@ Choose one ordinary object. Create six small studies:
 Then choose your strongest study.
 Final question: Which visual element changed the object most dramatically? Why?
 
-<!-- page 25 -->
+<!-- page 26 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1260,7 +1298,7 @@ Purpose: commit; observe instead of polishing too early.
 Art educator Kimon Nicolaïdes popularised contour practice in *The Natural Way to
 Draw* (1941), arguing that eye and hand must train together slowly, like musicians.
 
-<!-- page 26 -->
+<!-- page 27 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1284,7 +1322,7 @@ Second study of the same object from the opposite side. One sentence: what chang
 | timed set (same object) | 30 s / 2 / 10 |  |
 | no-eraser study | 5 min |  |
 
-<!-- page 27 -->
+<!-- page 28 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1340,7 +1378,7 @@ Light from (circle): left / right / above
 Media: pencil / charcoal / both
 Proportion check: what is the widest measurement compared with the tallest?
 
-<!-- page 28 -->
+<!-- page 29 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1377,7 +1415,7 @@ master drawings and prints, darkness is often layered marks, not a flat fill.
 1. Fill a 12-box mark chart. Label each box with a verb (*stab, drag, tick, swirl*).
 2. Pick three marks and make a small natural-object study using only those marks.
 
-<!-- page 29 -->
+<!-- page 30 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1407,7 +1445,7 @@ still use figure/ground flips so logos hide a second meaning in the gap.
 **Your turn**
 Left: draw objects normally. Right: shade only negative spaces.
 
-<!-- page 30 -->
+<!-- page 31 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1443,7 +1481,7 @@ with 2–3 tones.
 Object:
 Viewpoints:
 
-<!-- page 31 -->
+<!-- page 32 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1506,7 +1544,7 @@ Sketchbook evidence kept (tests, warm-up, photos)
 
 Assessment checklist
 
-<!-- page 32 -->
+<!-- page 33 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1545,7 +1583,7 @@ construct a multi-viewpoint (Cubist-idea) study
 plan and finish a personal still-life project
 reflect and set a next-step target
 
-<!-- page 33 -->
+<!-- page 34 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1581,7 +1619,7 @@ The thing I still need to practise is… _______________
 + Use negative space and multi-viewpoint ideas.
 + Deliver and evaluate a personal still life.
 
-<!-- page 34 -->
+<!-- page 35 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1624,7 +1662,7 @@ wheel usually begins with three primary colours:
 RED · YELLOW · BLUE
 From these, artists mix secondary and tertiary colours.
 
-<!-- page 35 -->
+<!-- page 36 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1675,7 +1713,7 @@ changing the proportions.
 Do you get exactly the same orange from more red + a little yellow, and a little red + more yellow? Why
 not?
 
-<!-- page 36 -->
+<!-- page 37 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1724,7 +1762,7 @@ Colours on a computer or phone screen are produced differently from paint. Scree
 red, green, blue). Artists working with paint deal with pigments and reflected light. That is one reason a
 screen colour may not match paint exactly.
 
-<!-- page 37 -->
+<!-- page 38 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1766,7 +1804,7 @@ Matisse is famous for bold colour. In some paintings, colour does not simply des
 wall may become intensely red; a landscape may contain colours that never appear that way in nature.
 Matisse used colour to create harmony, rhythm, contrast and energy.
 
-<!-- page 38 -->
+<!-- page 39 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1806,7 +1844,7 @@ Painting B: communicate ENERGY.
 Keep the subject and basic composition similar; change the colours.
 Reflect: Which colour choices created the biggest difference?
 
-<!-- page 39 -->
+<!-- page 40 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1855,7 +1893,7 @@ light->dark. Make transitions gradual.
 Create a darker version of blue without using only black. Try blue + a little violet, or blue + a little of its
 complementary. Which dark looks richer?
 
-<!-- page 40 -->
+<!-- page 41 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1903,7 +1941,7 @@ whether the change was intentional or accidental.
 **Studio tip**
 Keep separate mixing areas clean and wash your brush properly between colours.
 
-<!-- page 41 -->
+<!-- page 42 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1948,7 +1986,7 @@ useful for neutrals and muted colours. So complementary colours have two effects
 
 GREEN · BLUE · ORANGE · YELLOW · VIOLET
 
-<!-- page 42 -->
+<!-- page 43 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1989,7 +2027,7 @@ relationships rather than copying every detail.
 5. Reflect: The most important colour relationship is… / I noticed… / When I mixed the colours I
 discovered… / The colour choice I found most interesting was…
 
-<!-- page 43 -->
+<!-- page 44 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2025,7 +2063,7 @@ focus. His paintings may appear simple at first, but look carefully for subtle c
 edges, relationships between fields, differences in value and intensity, and the effect of one colour on
 another. Rothko wanted viewers to experience colour rather than simply identify it.
 
-<!-- page 44 -->
+<!-- page 45 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2062,7 +2100,7 @@ Development process:
 6. Refine — check palette clarity, variation, focal point, balance, mood, clean mixes
 7. Reflect — write about your decisions
 
-<!-- page 45 -->
+<!-- page 46 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2123,7 +2161,7 @@ analyse an artist's use of colour
 develop my own colour palette
 explain my colour choices
 
-<!-- page 46 -->
+<!-- page 47 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2196,7 +2234,7 @@ The colour experiment that worked best was… _______________
 One thing I would change in my final artwork is… _______________
 Next time I use colour, I will… _______________
 
-<!-- page 47 -->
+<!-- page 48 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2237,7 +2275,7 @@ of the artwork.
 Context can help us understand an artwork, but knowing the artist's biography does not automatically
 tell us what an artwork means. The artwork itself is always an important starting point.
 
-<!-- page 48 -->
+<!-- page 49 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2318,7 +2356,7 @@ Analysis asks: How has the artist created this effect?
 Instead of "The painting feels dramatic," try: "The artist creates a dramatic effect through strong
 contrasts between dark shadows and bright areas of colour." Now you have used visual evidence.
 
-<!-- page 49 -->
+<!-- page 50 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2386,7 +2424,7 @@ Are colours, shapes or lines repeated?
 Balance
 Does the composition feel stable or unstable?
 
-<!-- page 50 -->
+<!-- page 51 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2430,7 +2468,7 @@ Interpret: These choices can contribute to a disturbing and dramatic atmosphere.
 created in response to the bombing of the Spanish town of Guernica during the Spanish Civil War.
 Context helps us understand why the subject and visual language are so powerful.
 
-<!-- page 51 -->
+<!-- page 52 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2463,7 +2501,7 @@ flowing organic forms, whereas Picasso uses fragmented geometric shapes."
 Look at teaching studies inspired by Matisse's The Dance and Picasso's Les Demoiselles d'Avignon. You
 could compare: colour · line · shape · human figures · space · composition · realism · distortion · mood.
 
-<!-- page 52 -->
+<!-- page 53 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2509,7 +2547,7 @@ and develop your own visual language.
 5. Reflect — "I noticed…" / "I found it difficult to…" / "I learned that…" / "This technique could be useful in
 my own work because…"
 
-<!-- page 53 -->
+<!-- page 54 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2571,7 +2609,7 @@ Example: Pablo Picasso, *Guernica*, 1937, oil on canvas.
 If you use an image from a website, your teacher may also ask you to record the website or museum
 collection.
 
-<!-- page 54 -->
+<!-- page 55 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2623,7 +2661,7 @@ A simple artist presentation could have six slides:
 5. Visual analysis + techniques
 6. Personal response + what you learned
 
-<!-- page 55 -->
+<!-- page 56 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2664,7 +2702,7 @@ IMAGE 7.3.09 — Influence without copying. Purpose: show an original student re
 
 Presentation checklist
 
-<!-- page 56 -->
+<!-- page 57 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2722,7 +2760,7 @@ Flowers appear frequently in her work, but she does not always show them as smal
 by empty space. Instead, she often enlarges them dramatically. The viewer is invited to look at the
 flower in a completely different way.
 
-<!-- page 57 -->
+<!-- page 58 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2743,62 +2781,58 @@ shapes when they are enlarged?
 Choose an ordinary natural object (leaf, shell, stone, flower, seed, bark). Create an artwork in which the
 object is much larger than it would normally appear.
 
-<!-- page 58 -->
+<!-- page 59 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
 
 Page
 
+**[7.3.7] Review and project completion**
+
+IMAGE 7.3.11 — Looking method flowchart. Purpose: give a repeatable method for approaching any artist or artwork.
+
+**Artwork analysis checklist**
+When analysing an artwork, I can…
+
+☐ describe what I see
+☐ identify visual elements
+☐ discuss colour
+☐ discuss line and shape
+☐ discuss texture
+☐ discuss composition
+☐ identify techniques
+☐ use visual evidence
+☐ distinguish observation from interpretation
+☐ suggest possible meanings
+☐ explain my personal response
+
+**Artist research checklist**
+I can…
+
+☐ find reliable information
+☐ identify important artworks
+☐ describe an artist's style
+☐ explain relevant context
+☐ use appropriate art vocabulary
+☐ record my sources
+☐ paraphrase information
+☐ select useful images
+
+**Personal response checklist**
+I can…
+
+☐ identify something that interests me about an artist
+☐ experiment with the artist's techniques
+☐ develop my own ideas
+☐ avoid simply copying the original
+☐ explain the connection between my work and the artist
+☐ reflect on what I learned
+
 **58**
 Prime Books  ·  Lower Secondary
 
-## [7.3.7] Review and project completion
-
-IMAGE 7.3.11 — Looking method flowchart. Purpose: give a repeatable method for approaching any artist or artwork.
-## Artwork analysis checklist
-
-work, I can…
-
-## Artist research checklist
-I
-
-## Personal response checklist
-I
-
-describe what I see
-identify visual elements
-discuss colour
-discuss line and shape
-discuss texture
-discuss composition
-identify techniques
-use visual evidence
-distinguish observation from interpretation
-suggest possible meanings
-explain my personal response
-
-find reliable information
-identify important artworks
-describe an artist's style
-explain relevant context
-use appropriate art vocabulary
-record my sources
-paraphrase information
-select useful images
-
-identify something that interests me about an artist
-experiment with the artist's techniques
-develop my own ideas
-avoid simply copying the original
-explain the connection between my work and the artist
-reflect on what I learned
-
-When analysing an artwork, I can·
-
-I can·
-
-<!-- page 59 -->
+<!-- page 60 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2875,7 +2909,7 @@ something that affects an artist's ideas, methods or visual language
 Personal response
 an original creative or written reaction to an artist or artwork
 
-<!-- page 60 -->
+<!-- page 61 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2898,7 +2932,7 @@ Choose one artwork studied in this unit.
 7. Respond — your own artwork inspired by one aspect
 8. Reflect — What did I learn from this artist that I can use in my own Art & Design practice?
 
-<!-- page 61 -->
+<!-- page 62 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2950,7 +2984,7 @@ texture represented visually as an illusion hundreds of small marks that look li
 
 smooth paper
 
-<!-- page 62 -->
+<!-- page 63 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3022,7 +3056,7 @@ Choose three objects. Observe and, where appropriate, touch them. For each objec
 It looks… · It feels… · I can see… · The surface is… · The marks I would need to draw it are…
 This last question matters: you are translating physical experience into visual language.
 
-<!-- page 63 -->
+<!-- page 64 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3092,7 +3126,7 @@ marks that follow the direction of a form
 making a rounded stone feel
 three-dimensional
 
-<!-- page 64 -->
+<!-- page 65 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3128,7 +3162,7 @@ IMAGE 7.4.04 — Viewfinder selecting a detail. Purpose: show how framing isolat
 Choose five textures: bark · stone · fabric · metal · water. For each, create a small drawing using only
 marks. Do not draw the object itself · make the viewer recognise the surface from the marks alone.
 
-<!-- page 65 -->
+<!-- page 66 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3175,7 +3209,7 @@ You can create a simple printing surface using foam, cardboard, textured materia
 shapes. Apply a small amount of paint or printing ink to the raised surface. Press paper onto it. Lift
 carefully. The result is a print.
 
-<!-- page 66 -->
+<!-- page 67 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3223,7 +3257,7 @@ textiles · ceramics · architecture · tiles · carpets · wallpaper
 Design
 clothing · packaging · stationery · websites · interiors
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3270,7 +3304,7 @@ Develop four versions:
 4. Abstract version
 Which one works best as a repeated design?
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3308,7 +3342,7 @@ Pattern and colour should be considered together.
 A limited palette uses a small number of colours — for example blue + white + dark blue, or red +
 orange + cream + black. Fewer colours can make a pattern feel more unified and easier to read.
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3346,7 +3380,7 @@ M.C. Escher explored repetition, symmetry and tessellation — a pattern of shap
 without gaps or overlaps. He often transformed simple shapes into recognisable forms such as birds,
 fish, lizards or insects. Pattern can become much more than decoration; it can become a visual puzzle.
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3378,7 +3412,7 @@ Create an original pattern inspired by texture or natural forms. Your final desi
 observation · texture · a clear motif · repetition · pattern development · thoughtful colour choices ·
 composition.
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3424,7 +3458,7 @@ Look again: direction? repetition? concentration? change across the surface?
 "My colours don't work together."
 Reduce the number of colours — a limited palette creates stronger unity.
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3470,7 +3504,7 @@ experiment with positive and negative space
 develop a limited colour palette
 create an original pattern
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook

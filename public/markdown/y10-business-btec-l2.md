@@ -2362,33 +2362,37 @@ FOR TEACHERS
 <!-- page 42 -->
 
 ---
-**Real and constructed businesses are marked as such on the page. Four real organisations are used and cited:**
-a listed company, a co-operative, a public business entity and the state company registration service. Every other
-business in the unit is constructed for teaching and says so, which keeps the modelling honest while learners
-research real firms of their own.
+**P R I M E  B O O K S**
 
-**Employer involvement. The specification names guest speakers, interviews, work experience and visits. Topics**
-1.2, 1.5 and 1.6 all carry questions that a visiting owner can answer better than a textbook can.
+## Business BTEC L2
 
-**The figures are dated. Every statistic in the book carries its publisher and the date it was checked in Sources**
-and references. When a figure is superseded, replace it in MARKDOWN/05-SOURCES-01.md and rebuild, rather
-than editing a rendered page.
+Year 10 · Cambridge Upper Secondary · Student Manual
 
-A S S U M P T I O N S T H I S E D I T I O N M A K E S
+Business, learned by doing business.
 
-The book assumes a learner who reads British English comfortably and has no prior business study. Portuguese
-context is used throughout because the learners are in Portugal: euros, the metric system, the 24 hour clock, and
-organisations they can visit.
+This BTEC Level 2 course in Year 10 covers enterprise, finance, marketing and
 
-It assumes access to the internet for the six QR destinations, all of which are institutional sources suitable for
-citation in an assignment.
+people through real business scenarios and assessed coursework.
 
-It does not assume a particular size of qualification. Unit 1 is mandatory in the business sector suite at this level,
-and the units a centre teaches beyond it depend on the qualification size offered.
+**INSIDE THIS BOOK**
 
-FOR TEACHERS
-BACK MATTER
+•
+Enterprise and entrepreneurship
 
-PRIME BOOKS · BUSINESS · BTEC INTERNATIONAL LEVEL 2
-FOR TEACHERS
-42
+•
+Finance and record-keeping
+
+•
+Marketing and the customer
+
+•
+People and operations
+
+•
+Assignment-style practice tasks
+
+**Prime Books · Business BTEC L2**
+
+Ages 14–16 · Upper Secondary
+
+**primeschool.pt**

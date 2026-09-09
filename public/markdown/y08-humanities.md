@@ -11597,48 +11597,37 @@ legion 120, 123, 131·132, 136, 144
 <!-- page 250 -->
 
 ---
-**INDEX**
+**P R I M E  B O O K S**
 
-Prime School Press - www.primeschool.pt
+## Humanities
 
-physical map 18·20, 28·30
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-polis 8, 41·42, 47, 57, 67, 72, 70·73, 75·76, 79, 83, 85
+Learn to read the world.
 
-political map 18·20, 27, 29·30, 34, 86, 152, 155
+Year 8 humanities weaves history, geography and citizenship into one course:
 
-population density 18
+sources, maps, case studies and big questions about people and place.
 
-Prime Meridian 23·24
+**INSIDE THIS BOOK**
 
-province 19, 122, 128, 133·134, 137·138, 141, 143·144, 151, 153
+•
+History: sources and enquiry
 
-pull factor 43, 50·51, 53·54
+•
+Geography: maps, place and process
 
-push factor 50·51, 53·54
+•
+Citizenship and global issues
 
-Reconquista 10, 199·200
+•
+Skills practice: sources, data, essays
 
-republic 4, 8·9, 109, 114·115, 118·120, 126·131
+•
+Unit reviews with model answers
 
-scale 17, 20, 23·24, 29·30, 37, 44·45, 47, 50, 57, 85, 95, 111·112, 204·205
+**Prime Books · Humanities**
 
-Senate 8, 118, 120·121, 127·129
+Ages 12–13 · Lower Secondary
 
-Silk Road 10, 53, 55, 62·63, 65, 186·188, 193
-
-state 4, 11, 15, 21, 24, 29·30, 34, 36·37, 39
-
-strategic location 31, 41·42, 59, 86
-
-thematic map 18·19
-
-topographic map 18, 25, 30
-
-urbanisation 11, 42, 52·54
-
-vassal 9, 161·162, 164, 168·171, 213
-
-Viriathus 9, 124, 158
-
-250
+**primeschool.pt**

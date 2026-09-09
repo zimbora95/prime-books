@@ -6375,29 +6375,37 @@ instead.
 <!-- page 182 -->
 
 ---
-## A plan you will keep
+**P R I M E  B O O K S**
 
-Write a simple activity plan for the next four weeks. Name the day, the place and the person you will
-tell. A plan that stays in your head is not a plan.
+## Physical Education
 
-**Week**
-**What I will do**
-**When**
-**Done**
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-1
+Move well. Understand why.
 
-2
+Year 9 physical education develops practical skill and the theory behind it:
 
-3
+anatomy, training, tactics and healthy participation for life.
 
-4
+**INSIDE THIS BOOK**
 
-**COACH'S TIP**
-Ten honest minutes count. Waiting for a perfect hour is how activity disappears in July.
+•
+Practical units across sports and athletics
 
-**BACK MATTER**
-**KEEP MOVING**
+•
+Anatomy, physiology and training theory
 
-**PHYSICAL EDUCATION · YEAR 9**
-**182**
+•
+Tactics, leadership and officiating
+
+•
+Health, fitness and wellbeing
+
+•
+Assessment preparation included
+
+**Prime Books · Physical Education**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

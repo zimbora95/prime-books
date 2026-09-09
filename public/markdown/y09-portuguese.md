@@ -580,21 +580,37 @@ https://gml.noaa.gov/ccgg/trends/
 <!-- page 14 -->
 
 ---
-P R I M E B O O K S · A N O 9
+**P R I M E  B O O K S**
 
-Ler, pensar, argumentar.
+## Portuguese
 
-Este Manual do Aluno do Ano 9 trata do poder da palavra. Vais identificar a tese e os
-argumentos de um texto de opinião, distinguir opinião de notícia, dominar as funções
-sintáticas e escrever um comentário que se defende.
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-Escrito para os alunos da Prime School, em português europeu, com textos originais e
-uma notícia real que podes confirmar.
+A língua que já é tua — agora escrita com orgulho.
 
-OPINIÃO
-JORNALISMO
-GRAMÁTICA
-ESCRITA
-ARGUMENTAR
+Português Língua Materna para o Year 9: leitura, escrita, gramática e oralidade
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+com textos autênticos e projetos de escrita.
+
+**INSIDE THIS BOOK**
+
+•
+Leitura e interpretação de textos
+
+•
+Escrita guiada e criativa
+
+•
+Gramática em contexto
+
+•
+Oralidade e debate
+
+•
+Balanço no fim de cada unidade
+
+**Prime Books · Portuguese**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

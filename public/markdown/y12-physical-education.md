@@ -26440,17 +26440,37 @@ Page 626
 <!-- page 628 -->
 
 ---
-How to revise with this glossary
+**P R I M E  B O O K S**
 
-1. Cover the meaning column and define from memory.
+## Physical Education
 
-2. Add one sport example of your own for each term.
+Year 12 · Cambridge International AS & A Level · Student Manual
 
-3. Note one common mistake for the ten hardest terms.
+Move well. Understand why.
 
-4. Use terms accurately in assignment sentences (markers reward precise language).
+Year 12 physical education develops practical skill and the theory behind it:
 
-PRIMEBOOKS SPORT LEVEL 3
+anatomy, training, tactics and healthy participation for life.
 
-PrimeBooks · Sport Level 3 · Upper Secondary
-Page 627
+**INSIDE THIS BOOK**
+
+•
+Practical units across sports and athletics
+
+•
+Anatomy, physiology and training theory
+
+•
+Tactics, leadership and officiating
+
+•
+Health, fitness and wellbeing
+
+•
+Assessment preparation included
+
+**Prime Books · Physical Education**
+
+Ages 16–18 · Advanced Levels
+
+**primeschool.pt**

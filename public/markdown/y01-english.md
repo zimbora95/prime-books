@@ -1,5 +1,5 @@
 # English - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-english/book.pdf` (186 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-english/book.pdf` (189 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -12,6 +12,120 @@ Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
+
+---
+**P R I M E  B O O K S**
+
+## English
+
+Year 1 · Cambridge Early Years · Student Manual
+
+Read between every line.
+
+This Year 1 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · English**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
+
+<!-- page 3 -->
+
+---
+**P R I M E  B O O K S**
+
+## English
+
+Year 1 · Cambridge Early Years · Student Manual
+
+Read between every line.
+
+This Year 1 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · English**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
+
+<!-- page 4 -->
+
+---
+**P R I M E  B O O K S**
+
+## English
+
+Year 1 · Cambridge Early Years · Student Manual
+
+Read between every line.
+
+This Year 1 English course builds confident readers and precise writers: wide
+
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · English**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
+
+<!-- page 5 -->
 
 ---
 ABOUT THIS BOOK
@@ -57,7 +171,7 @@ for use within its own programmes of study. It is not affiliated with, licensed 
 otherwise approved by any examination body, or by any other publisher. References to curriculum
 frameworks represent the interpretation of the authors and may not fully reflect the approach of
 
-<!-- page 3 -->
+<!-- page 6 -->
 
 ---
 CONTENTS
@@ -139,7 +253,7 @@ Every new word with its picture
 
 CONTENTS
 
-<!-- page 4 -->
+<!-- page 7 -->
 
 ---
 WELCOME
@@ -177,7 +291,7 @@ WELCOME
 
 WELCOME
 
-<!-- page 5 -->
+<!-- page 8 -->
 
 ---
 WHO IS WALKING WITH YOU
@@ -218,7 +332,7 @@ trail with you: look for them on the cover.
 
 MEET YOUR FRIENDS
 
-<!-- page 6 -->
+<!-- page 9 -->
 
 ---
 HOW TO USE THIS BOOK
@@ -270,7 +384,7 @@ A true and surprising fact.
 
 HOW TO USE THIS BOOK
 
-<!-- page 7 -->
+<!-- page 10 -->
 
 ---
 GET TING SET UP
@@ -330,7 +444,7 @@ often in real reading, so it is taught first and capitals arrive as a job.
 
 GETTING SET UP
 
-<!-- page 8 -->
+<!-- page 11 -->
 
 ---
 First Steps
@@ -352,7 +466,7 @@ Ten words you will know by heart
 4
 Your very first story
 
-<!-- page 9 -->
+<!-- page 12 -->
 
 ---
 FIRST STEPS · THE VOWELS
@@ -399,7 +513,7 @@ FIRST STEPS
 FIRST STEPS
 1
 
-<!-- page 10 -->
+<!-- page 13 -->
 
 ---
 FIRST STEPS · WRITING
@@ -436,7 +550,7 @@ FIRST STEPS
 FIRST STEPS
 2
 
-<!-- page 11 -->
+<!-- page 14 -->
 
 ---
 FIRST STEPS · THE VOWELS
@@ -483,7 +597,7 @@ FIRST STEPS
 FIRST STEPS
 3
 
-<!-- page 12 -->
+<!-- page 15 -->
 
 ---
 FIRST STEPS · WRITING
@@ -520,7 +634,7 @@ FIRST STEPS
 FIRST STEPS
 4
 
-<!-- page 13 -->
+<!-- page 16 -->
 
 ---
 FIRST STEPS · THE VOWELS
@@ -567,7 +681,7 @@ FIRST STEPS
 FIRST STEPS
 5
 
-<!-- page 14 -->
+<!-- page 17 -->
 
 ---
 FIRST STEPS · WRITING
@@ -604,7 +718,7 @@ FIRST STEPS
 FIRST STEPS
 6
 
-<!-- page 15 -->
+<!-- page 18 -->
 
 ---
 FIRST STEPS · THE VOWELS
@@ -651,7 +765,7 @@ FIRST STEPS
 FIRST STEPS
 7
 
-<!-- page 16 -->
+<!-- page 19 -->
 
 ---
 FIRST STEPS · WRITING
@@ -688,7 +802,7 @@ FIRST STEPS
 FIRST STEPS
 8
 
-<!-- page 17 -->
+<!-- page 20 -->
 
 ---
 FIRST STEPS · THE VOWELS
@@ -735,7 +849,7 @@ FIRST STEPS
 FIRST STEPS
 9
 
-<!-- page 18 -->
+<!-- page 21 -->
 
 ---
 FIRST STEPS · WRITING
@@ -772,7 +886,7 @@ FIRST STEPS
 FIRST STEPS
 10
 
-<!-- page 19 -->
+<!-- page 22 -->
 
 ---
 FIRST STEPS · REVIEW
@@ -823,7 +937,7 @@ as fast as you can.
 FIRST STEPS
 11
 
-<!-- page 20 -->
+<!-- page 23 -->
 
 ---
 FIRST STEPS · REVIEW
@@ -872,7 +986,7 @@ FIRST STEPS
 FIRST STEPS
 12
 
-<!-- page 21 -->
+<!-- page 24 -->
 
 ---
 FIRST STEPS · FIRST SOUNDS
@@ -915,7 +1029,7 @@ m words
 FIRST STEPS
 13
 
-<!-- page 22 -->
+<!-- page 25 -->
 
 ---
 FIRST STEPS · FIRST SOUNDS
@@ -955,7 +1069,7 @@ letter on the line.
 FIRST STEPS
 14
 
-<!-- page 23 -->
+<!-- page 26 -->
 
 ---
 FIRST STEPS · WORDS I KNOW BY HE ART
@@ -1012,7 +1126,7 @@ FIRST STEPS
 FIRST STEPS
 15
 
-<!-- page 24 -->
+<!-- page 27 -->
 
 ---
 FIRST STEPS · WORDS I KNOW BY HE ART
@@ -1056,7 +1170,7 @@ Say a sentence out loud starting with I can. Then one starting with My.
 FIRST STEPS
 16
 
-<!-- page 25 -->
+<!-- page 28 -->
 
 ---
 FIRST STEPS · WORDS I KNOW BY HE ART
@@ -1109,7 +1223,7 @@ fox
 FIRST STEPS
 17
 
-<!-- page 26 -->
+<!-- page 29 -->
 
 ---
 FIRST STEPS · A G AME
@@ -1140,7 +1254,7 @@ how many?
 FIRST STEPS
 18
 
-<!-- page 27 -->
+<!-- page 30 -->
 
 ---
 FIRST STEPS · BUILDING
@@ -1174,7 +1288,7 @@ your sentence
 FIRST STEPS
 19
 
-<!-- page 28 -->
+<!-- page 31 -->
 
 ---
 FIRST STEPS · YOUR FIRST STORY
@@ -1212,7 +1326,7 @@ FIRST STEPS
 
 Your first story, by Prime School Press
 
-<!-- page 29 -->
+<!-- page 32 -->
 
 ---
 FIRST STEPS · YOUR FIRST STORY
@@ -1252,7 +1366,7 @@ Copy the two words from the story. Say each one first.
 FIRST STEPS
 21
 
-<!-- page 30 -->
+<!-- page 33 -->
 
 ---
 FIRST STEPS · CHECKPOINT
@@ -1284,7 +1398,7 @@ words. That is nineteen new things, and you did it in a few weeks.
 FIRST STEPS
 22
 
-<!-- page 31 -->
+<!-- page 34 -->
 
 ---
 Going places
@@ -1307,7 +1421,7 @@ The Bus to Berry Hill
 4
 Signs in the street
 
-<!-- page 32 -->
+<!-- page 35 -->
 
 ---
 STOP 1 · LET US TALK
@@ -1356,7 +1470,7 @@ hear the first sound in a word
 STOP 1
 23
 
-<!-- page 33 -->
+<!-- page 36 -->
 
 ---
 STOP 1 · YOUR TURN
@@ -1391,7 +1505,7 @@ making the streets wider.
 STOP 1
 24
 
-<!-- page 34 -->
+<!-- page 37 -->
 
 ---
 MEET THE LET TER
@@ -1427,7 +1541,7 @@ now trace
 STOP 1
 25
 
-<!-- page 35 -->
+<!-- page 38 -->
 
 ---
 WRITE THE LET TER
@@ -1457,7 +1571,7 @@ sound comes first there?
 STOP 1
 26
 
-<!-- page 36 -->
+<!-- page 39 -->
 
 ---
 STOP 1 · WARM UP YOUR VOICE
@@ -1505,7 +1619,7 @@ STOP 1
 
 A Prime School Press rhyme
 
-<!-- page 37 -->
+<!-- page 40 -->
 
 ---
 STOP 1 · LET US TALK
@@ -1537,7 +1651,7 @@ have ever seen before.
 STOP 1
 28
 
-<!-- page 38 -->
+<!-- page 41 -->
 
 ---
 STOP 1 · RE AD WITH ME
@@ -1566,7 +1680,7 @@ hill
 STOP 1
 29
 
-<!-- page 39 -->
+<!-- page 42 -->
 
 ---
 STOP 1 · RE AD WITH ME
@@ -1605,7 +1719,7 @@ STOP 1
 STOP 1
 30
 
-<!-- page 40 -->
+<!-- page 43 -->
 
 ---
 STOP 1 · RE AD WITH ME
@@ -1633,7 +1747,7 @@ The end. Tell your partner your favourite part.
 STOP 1
 31
 
-<!-- page 41 -->
+<!-- page 44 -->
 
 ---
 STOP 1 · YOUR TURN
@@ -1682,7 +1796,7 @@ STOP 1
 STOP 1
 32
 
-<!-- page 42 -->
+<!-- page 45 -->
 
 ---
 STOP 1 · YOUR TURN
@@ -1725,7 +1839,7 @@ A sentence begins with a big letter and ends with a full stop.
 STOP 1
 33
 
-<!-- page 43 -->
+<!-- page 46 -->
 
 ---
 STOP 1 · GO A BIT FURTHER
@@ -1765,7 +1879,7 @@ STOP 1
 STOP 1
 34
 
-<!-- page 44 -->
+<!-- page 47 -->
 
 ---
 STOP 1 · MY NEW WORDS
@@ -1812,7 +1926,7 @@ Sixteen new words. Point at one and say it. Now point at another.
 STOP 1
 35
 
-<!-- page 45 -->
+<!-- page 48 -->
 
 ---
 STOP 1 · SHOW AND TELL
@@ -1836,7 +1950,7 @@ second time feel easy.
 STOP 1
 36
 
-<!-- page 46 -->
+<!-- page 49 -->
 
 ---
 STOP 1 · HOW DID IT GO?
@@ -1877,7 +1991,7 @@ Next stop: 2 · Having fun
 STOP 1
 37
 
-<!-- page 47 -->
+<!-- page 50 -->
 
 ---
 Having fun
@@ -1900,7 +2014,7 @@ Doing words and naming words
 4
 Rhymes that end the same
 
-<!-- page 48 -->
+<!-- page 51 -->
 
 ---
 STOP 2 · LET US TALK
@@ -1949,7 +2063,7 @@ find words that end the same way
 STOP 2
 38
 
-<!-- page 49 -->
+<!-- page 52 -->
 
 ---
 MEET THE LET TER
@@ -1975,7 +2089,7 @@ now trace
 STOP 2
 39
 
-<!-- page 50 -->
+<!-- page 53 -->
 
 ---
 WRITE THE LET TER
@@ -2008,7 +2122,7 @@ sounds are easier to hear than middle ones, so they come first.
 STOP 2
 40
 
-<!-- page 51 -->
+<!-- page 54 -->
 
 ---
 STOP 2 · RE AD WITH ME
@@ -2036,7 +2150,7 @@ Read the story again. Use a proud voice for Kit.
 STOP 2
 41
 
-<!-- page 52 -->
+<!-- page 55 -->
 
 ---
 STOP 2 · RE AD WITH ME
@@ -2065,7 +2179,7 @@ Then it is your partner's turn.
 STOP 2
 42
 
-<!-- page 53 -->
+<!-- page 56 -->
 
 ---
 STOP 2 · RE AD WITH ME
@@ -2091,7 +2205,7 @@ A story can be funny and kind at the same time.
 STOP 2
 43
 
-<!-- page 54 -->
+<!-- page 57 -->
 
 ---
 STOP 2 · YOUR TURN
@@ -2130,7 +2244,7 @@ before.
 STOP 2
 44
 
-<!-- page 55 -->
+<!-- page 58 -->
 
 ---
 STOP 2 · YOUR TURN
@@ -2177,7 +2291,7 @@ STOP 2
 STOP 2
 45
 
-<!-- page 56 -->
+<!-- page 59 -->
 
 ---
 STOP 2 · YOUR TURN
@@ -2239,7 +2353,7 @@ STOP 2
 STOP 2
 46
 
-<!-- page 57 -->
+<!-- page 60 -->
 
 ---
 STOP 2 · MY NEW WORDS
@@ -2284,7 +2398,7 @@ Say four of these words in one sentence. Any four.
 STOP 2
 47
 
-<!-- page 58 -->
+<!-- page 61 -->
 
 ---
 STOP 2 · SHOW AND TELL
@@ -2308,7 +2422,7 @@ second time feel easy.
 STOP 2
 48
 
-<!-- page 59 -->
+<!-- page 62 -->
 
 ---
 STOP 2 · HOW DID IT GO?
@@ -2349,7 +2463,7 @@ Next stop: 3 · Let us find out
 STOP 2
 49
 
-<!-- page 60 -->
+<!-- page 63 -->
 
 ---
 Let us find out
@@ -2373,7 +2487,7 @@ What baby animals are called
 4
 The sounds ng and ck
 
-<!-- page 61 -->
+<!-- page 64 -->
 
 ---
 STOP 3 · LET US TALK
@@ -2413,7 +2527,7 @@ name the babies of five animals
 STOP 3
 50
 
-<!-- page 62 -->
+<!-- page 65 -->
 
 ---
 STOP 3 · RE AD WITH ME
@@ -2458,7 +2572,7 @@ A contents page saves you reading a whole book to find one fact.
 STOP 3
 51
 
-<!-- page 63 -->
+<!-- page 66 -->
 
 ---
 STOP 3 · RE AD WITH ME
@@ -2487,7 +2601,7 @@ A fact is something that is true whether you like it or not.
 STOP 3
 52
 
-<!-- page 64 -->
+<!-- page 67 -->
 
 ---
 STOP 3 · YOUR TURN
@@ -2539,7 +2653,7 @@ STOP 3
 STOP 3
 53
 
-<!-- page 65 -->
+<!-- page 68 -->
 
 ---
 STOP 3 · RE AD WITH ME
@@ -2567,7 +2681,7 @@ countryside, so town foxes often live in a smaller patch of land.
 STOP 3
 54
 
-<!-- page 66 -->
+<!-- page 69 -->
 
 ---
 MEET THE LET TER
@@ -2605,7 +2719,7 @@ now trace
 STOP 3
 55
 
-<!-- page 67 -->
+<!-- page 70 -->
 
 ---
 WRITE THE LET TER
@@ -2636,7 +2750,7 @@ ending, then the whole word again.
 STOP 3
 56
 
-<!-- page 68 -->
+<!-- page 71 -->
 
 ---
 STOP 3 · RE AD WITH ME
@@ -2680,7 +2794,7 @@ eight baby words without looking.
 STOP 3
 57
 
-<!-- page 69 -->
+<!-- page 72 -->
 
 ---
 STOP 3 · YOUR TURN
@@ -2718,7 +2832,7 @@ what all four have in common.
 STOP 3
 58
 
-<!-- page 70 -->
+<!-- page 73 -->
 
 ---
 STOP 3 · WARM UP YOUR VOICE
@@ -2754,7 +2868,7 @@ STOP 3
 
 A Prime School Press counting rhyme
 
-<!-- page 71 -->
+<!-- page 74 -->
 
 ---
 STOP 3 · MY NEW WORDS
@@ -2799,7 +2913,7 @@ Choose one animal word. Say a true fact about that animal.
 STOP 3
 60
 
-<!-- page 72 -->
+<!-- page 75 -->
 
 ---
 STOP 3 · SHOW AND TELL
@@ -2823,7 +2937,7 @@ second time feel easy.
 STOP 3
 61
 
-<!-- page 73 -->
+<!-- page 76 -->
 
 ---
 STOP 3 · HOW DID IT GO?
@@ -2864,7 +2978,7 @@ Next stop: 4 · Up in space
 STOP 3
 62
 
-<!-- page 74 -->
+<!-- page 77 -->
 
 ---
 Up in space
@@ -2887,7 +3001,7 @@ The -ast family
 4
 Write a postcard from the moon
 
-<!-- page 75 -->
+<!-- page 78 -->
 
 ---
 STOP 4 · LET US TALK
@@ -2932,7 +3046,7 @@ find words in the -ast family
 STOP 4
 63
 
-<!-- page 76 -->
+<!-- page 79 -->
 
 ---
 MEET THE LET TER
@@ -2962,7 +3076,7 @@ now trace
 STOP 4
 64
 
-<!-- page 77 -->
+<!-- page 80 -->
 
 ---
 WRITE THE LET TER
@@ -2993,7 +3107,7 @@ ast. Let students hear that only the first sound changes.
 STOP 4
 65
 
-<!-- page 78 -->
+<!-- page 81 -->
 
 ---
 STOP 4 · RE AD WITH ME
@@ -3023,7 +3137,7 @@ star
 STOP 4
 66
 
-<!-- page 79 -->
+<!-- page 82 -->
 
 ---
 STOP 4 · RE AD WITH ME
@@ -3050,7 +3164,7 @@ What would you take to the moon? Say one thing, and say why.
 STOP 4
 67
 
-<!-- page 80 -->
+<!-- page 83 -->
 
 ---
 STOP 4 · RE AD WITH ME
@@ -3080,7 +3194,7 @@ A story goes in order. Change the order and it stops making sense.
 STOP 4
 68
 
-<!-- page 81 -->
+<!-- page 84 -->
 
 ---
 STOP 4 · YOUR TURN
@@ -3126,7 +3240,7 @@ STOP 4
 STOP 4
 69
 
-<!-- page 82 -->
+<!-- page 85 -->
 
 ---
 STOP 4 · YOUR TURN
@@ -3157,7 +3271,7 @@ STOP 4
 STOP 4
 70
 
-<!-- page 83 -->
+<!-- page 86 -->
 
 ---
 STOP 4 · WARM UP YOUR VOICE
@@ -3190,7 +3304,7 @@ STOP 4
 
 A Prime School Press poem
 
-<!-- page 84 -->
+<!-- page 87 -->
 
 ---
 STOP 4 · MY NEW WORDS
@@ -3235,7 +3349,7 @@ Find the four words that end with -ast or -est. Say them.
 STOP 4
 72
 
-<!-- page 85 -->
+<!-- page 88 -->
 
 ---
 STOP 4 · SHOW AND TELL
@@ -3259,7 +3373,7 @@ second time feel easy.
 STOP 4
 73
 
-<!-- page 86 -->
+<!-- page 89 -->
 
 ---
 STOP 4 · HOW DID IT GO?
@@ -3300,7 +3414,7 @@ Next stop: 5 · Funny fish
 STOP 4
 74
 
-<!-- page 87 -->
+<!-- page 90 -->
 
 ---
 Funny fish
@@ -3324,7 +3438,7 @@ Colour words and joining with and
 4
 The -ight family
 
-<!-- page 88 -->
+<!-- page 91 -->
 
 ---
 STOP 5 · LET US TALK
@@ -3371,7 +3485,7 @@ read words in the -ight family
 STOP 5
 75
 
-<!-- page 89 -->
+<!-- page 92 -->
 
 ---
 MEET THE LET TER
@@ -3397,7 +3511,7 @@ now trace
 STOP 5
 76
 
-<!-- page 90 -->
+<!-- page 93 -->
 
 ---
 WRITE THE LET TER
@@ -3430,7 +3544,7 @@ ight, t-ight, m-ight, f-ight.
 STOP 5
 77
 
-<!-- page 91 -->
+<!-- page 94 -->
 
 ---
 STOP 5 · RE AD WITH ME
@@ -3458,7 +3572,7 @@ Read the story again. Which fish is spotty?
 STOP 5
 78
 
-<!-- page 92 -->
+<!-- page 95 -->
 
 ---
 STOP 5 · RE AD WITH ME
@@ -3484,7 +3598,7 @@ about it with your partner.
 STOP 5
 79
 
-<!-- page 93 -->
+<!-- page 96 -->
 
 ---
 STOP 5 · RE AD WITH ME
@@ -3509,7 +3623,7 @@ Being loud is not the same as being clever.
 STOP 5
 80
 
-<!-- page 94 -->
+<!-- page 97 -->
 
 ---
 STOP 5 · YOUR TURN
@@ -3546,7 +3660,7 @@ your sentence
 STOP 5
 81
 
-<!-- page 95 -->
+<!-- page 98 -->
 
 ---
 STOP 5 · WARM UP YOUR VOICE
@@ -3591,7 +3705,7 @@ STOP 5
 
 Two Prime School Press rhymes
 
-<!-- page 96 -->
+<!-- page 99 -->
 
 ---
 STOP 5 · YOUR TURN
@@ -3623,7 +3737,7 @@ your ending
 STOP 5
 83
 
-<!-- page 97 -->
+<!-- page 100 -->
 
 ---
 STOP 5 · MY NEW WORDS
@@ -3668,7 +3782,7 @@ Choose two describing words. Join them with and.
 STOP 5
 84
 
-<!-- page 98 -->
+<!-- page 101 -->
 
 ---
 STOP 5 · SHOW AND TELL
@@ -3692,7 +3806,7 @@ second time feel easy.
 STOP 5
 85
 
-<!-- page 99 -->
+<!-- page 102 -->
 
 ---
 STOP 5 · HOW DID IT GO?
@@ -3733,7 +3847,7 @@ Next stop: 6 · Good food
 STOP 5
 86
 
-<!-- page 100 -->
+<!-- page 103 -->
 
 ---
 Good food
@@ -3757,7 +3871,7 @@ Food from the oven
 4
 Joining sentences with and
 
-<!-- page 101 -->
+<!-- page 104 -->
 
 ---
 STOP 6 · LET US TALK
@@ -3802,7 +3916,7 @@ STOP 6
 STOP 6
 87
 
-<!-- page 102 -->
+<!-- page 105 -->
 
 ---
 STOP 6 · RE AD WITH ME
@@ -3839,7 +3953,7 @@ STOP 6
 STOP 6
 88
 
-<!-- page 103 -->
+<!-- page 106 -->
 
 ---
 STOP 6 · RE AD WITH ME
@@ -3875,7 +3989,7 @@ pear
 STOP 6
 89
 
-<!-- page 104 -->
+<!-- page 107 -->
 
 ---
 MEET THE LET TER
@@ -3901,7 +4015,7 @@ now trace
 STOP 6
 90
 
-<!-- page 105 -->
+<!-- page 108 -->
 
 ---
 WRITE THE LET TER
@@ -3930,7 +4044,7 @@ Words with ee in the middle, like green and sweet, come next.
 STOP 6
 91
 
-<!-- page 106 -->
+<!-- page 109 -->
 
 ---
 STOP 6 · RE AD WITH ME
@@ -3966,7 +4080,7 @@ are bubbles of air that got trapped inside while it cooked.
 STOP 6
 92
 
-<!-- page 107 -->
+<!-- page 110 -->
 
 ---
 STOP 6 · YOUR TURN
@@ -4005,7 +4119,7 @@ STOP 6
 STOP 6
 93
 
-<!-- page 108 -->
+<!-- page 111 -->
 
 ---
 STOP 6 · YOUR TURN
@@ -4038,7 +4152,7 @@ your cover
 STOP 6
 94
 
-<!-- page 109 -->
+<!-- page 112 -->
 
 ---
 STOP 6 · MY NEW WORDS
@@ -4083,7 +4197,7 @@ Choose two foods. Join them with and, then with or.
 STOP 6
 95
 
-<!-- page 110 -->
+<!-- page 113 -->
 
 ---
 STOP 6 · SHOW AND TELL
@@ -4107,7 +4221,7 @@ second time feel easy.
 STOP 6
 96
 
-<!-- page 111 -->
+<!-- page 114 -->
 
 ---
 STOP 6 · HOW DID IT GO?
@@ -4148,7 +4262,7 @@ Next stop: 7 · Story time
 STOP 6
 97
 
-<!-- page 112 -->
+<!-- page 115 -->
 
 ---
 Story time
@@ -4171,7 +4285,7 @@ How stories start
 4
 Read a recipe and put it in order
 
-<!-- page 113 -->
+<!-- page 116 -->
 
 ---
 STOP 7 · LET US TALK
@@ -4211,7 +4325,7 @@ read words with oa
 STOP 7
 98
 
-<!-- page 114 -->
+<!-- page 117 -->
 
 ---
 STOP 7 · RE AD WITH ME
@@ -4242,7 +4356,7 @@ back.
 STOP 7
 99
 
-<!-- page 115 -->
+<!-- page 118 -->
 
 ---
 STOP 7 · RE AD WITH ME
@@ -4272,7 +4386,7 @@ road
 STOP 7
 100
 
-<!-- page 116 -->
+<!-- page 119 -->
 
 ---
 STOP 7 · RE AD WITH ME
@@ -4301,7 +4415,7 @@ who was polite.
 STOP 7
 101
 
-<!-- page 117 -->
+<!-- page 120 -->
 
 ---
 MEET THE LET TER
@@ -4327,7 +4441,7 @@ now trace
 STOP 7
 102
 
-<!-- page 118 -->
+<!-- page 121 -->
 
 ---
 WRITE THE LET TER
@@ -4360,7 +4474,7 @@ get?
 STOP 7
 103
 
-<!-- page 119 -->
+<!-- page 122 -->
 
 ---
 STOP 7 · YOUR TURN
@@ -4401,7 +4515,7 @@ STOP 7
 STOP 7
 104
 
-<!-- page 120 -->
+<!-- page 123 -->
 
 ---
 STOP 7 · YOUR TURN
@@ -4441,7 +4555,7 @@ STOP 7
 STOP 7
 105
 
-<!-- page 121 -->
+<!-- page 124 -->
 
 ---
 STOP 7 · BIG CHALLENGE
@@ -4483,7 +4597,7 @@ STOP 7
 STOP 7
 106
 
-<!-- page 122 -->
+<!-- page 125 -->
 
 ---
 STOP 7 · MY NEW WORDS
@@ -4528,7 +4642,7 @@ Find the four words with oa in them. Say them out loud.
 STOP 7
 107
 
-<!-- page 123 -->
+<!-- page 126 -->
 
 ---
 STOP 7 · SHOW AND TELL
@@ -4552,7 +4666,7 @@ second time feel easy.
 STOP 7
 108
 
-<!-- page 124 -->
+<!-- page 127 -->
 
 ---
 STOP 7 · HOW DID IT GO?
@@ -4593,7 +4707,7 @@ Next stop: 8 · How I feel
 STOP 7
 109
 
-<!-- page 125 -->
+<!-- page 128 -->
 
 ---
 How I feel
@@ -4617,7 +4731,7 @@ Adding -ing to a word
 4
 Fact file: real penguins
 
-<!-- page 126 -->
+<!-- page 129 -->
 
 ---
 STOP 8 · LET US TALK
@@ -4664,7 +4778,7 @@ read words with oo in the middle
 STOP 8
 110
 
-<!-- page 127 -->
+<!-- page 130 -->
 
 ---
 STOP 8 · RE AD WITH ME
@@ -4697,7 +4811,7 @@ ice
 STOP 8
 111
 
-<!-- page 128 -->
+<!-- page 131 -->
 
 ---
 STOP 8 · RE AD WITH ME
@@ -4727,7 +4841,7 @@ Penguin slides on the frosty ice.
 STOP 8
 112
 
-<!-- page 129 -->
+<!-- page 132 -->
 
 ---
 STOP 8 · RE AD WITH ME
@@ -4758,7 +4872,7 @@ happy
 STOP 8
 113
 
-<!-- page 130 -->
+<!-- page 133 -->
 
 ---
 MEET THE LET TER
@@ -4792,7 +4906,7 @@ now trace
 STOP 8
 114
 
-<!-- page 131 -->
+<!-- page 134 -->
 
 ---
 WRITE THE LET TER
@@ -4825,7 +4939,7 @@ same?
 STOP 8
 115
 
-<!-- page 132 -->
+<!-- page 135 -->
 
 ---
 STOP 8 · YOUR TURN
@@ -4866,7 +4980,7 @@ STOP 8
 STOP 8
 116
 
-<!-- page 133 -->
+<!-- page 136 -->
 
 ---
 STOP 8 · RE AD WITH ME
@@ -4908,7 +5022,7 @@ STOP 8
 STOP 8
 117
 
-<!-- page 134 -->
+<!-- page 137 -->
 
 ---
 STOP 8 · GO A BIT FURTHER
@@ -4946,7 +5060,7 @@ answer. Say why you chose yours.
 STOP 8
 118
 
-<!-- page 135 -->
+<!-- page 138 -->
 
 ---
 STOP 8 · MY NEW WORDS
@@ -4991,7 +5105,7 @@ Choose a feeling word. Say when you last felt like that.
 STOP 8
 119
 
-<!-- page 136 -->
+<!-- page 139 -->
 
 ---
 STOP 8 · SHOW AND TELL
@@ -5016,7 +5130,7 @@ second time feel easy.
 STOP 8
 120
 
-<!-- page 137 -->
+<!-- page 140 -->
 
 ---
 STOP 8 · HOW DID IT GO?
@@ -5057,7 +5171,7 @@ Next stop: 9 · Kind and true
 STOP 8
 121
 
-<!-- page 138 -->
+<!-- page 141 -->
 
 ---
 Kind and true
@@ -5081,7 +5195,7 @@ The wh sound
 4
 Write a new ending
 
-<!-- page 139 -->
+<!-- page 142 -->
 
 ---
 STOP 9 · LET US TALK
@@ -5115,7 +5229,7 @@ read words that start with wh
 STOP 9
 122
 
-<!-- page 140 -->
+<!-- page 143 -->
 
 ---
 STOP 9 · RE AD WITH ME
@@ -5146,7 +5260,7 @@ different things.
 STOP 9
 123
 
-<!-- page 141 -->
+<!-- page 144 -->
 
 ---
 STOP 9 · RE AD WITH ME
@@ -5184,7 +5298,7 @@ mug
 STOP 9
 124
 
-<!-- page 142 -->
+<!-- page 145 -->
 
 ---
 MEET THE LET TER
@@ -5210,7 +5324,7 @@ now trace
 STOP 9
 125
 
-<!-- page 143 -->
+<!-- page 146 -->
 
 ---
 WRITE THE LET TER
@@ -5243,7 +5357,7 @@ as an oddity, and move on.
 STOP 9
 126
 
-<!-- page 144 -->
+<!-- page 147 -->
 
 ---
 STOP 9 · RE AD WITH ME
@@ -5271,7 +5385,7 @@ pocket
 STOP 9
 127
 
-<!-- page 145 -->
+<!-- page 148 -->
 
 ---
 STOP 9 · RE AD WITH ME
@@ -5297,7 +5411,7 @@ The way you treat other people usually comes back round to you.
 STOP 9
 128
 
-<!-- page 146 -->
+<!-- page 149 -->
 
 ---
 STOP 9 · YOUR TURN
@@ -5337,7 +5451,7 @@ write it properly
 STOP 9
 129
 
-<!-- page 147 -->
+<!-- page 150 -->
 
 ---
 STOP 9 · WARM UP YOUR VOICE
@@ -5370,7 +5484,7 @@ STOP 9
 
 A Prime School Press poem
 
-<!-- page 148 -->
+<!-- page 151 -->
 
 ---
 STOP 9 · BIG CHALLENGE
@@ -5400,7 +5514,7 @@ your new ending
 STOP 9
 131
 
-<!-- page 149 -->
+<!-- page 152 -->
 
 ---
 STOP 9 · MY NEW WORDS
@@ -5445,7 +5559,7 @@ Find the four words that start with wh. Ask a question with one.
 STOP 9
 132
 
-<!-- page 150 -->
+<!-- page 153 -->
 
 ---
 STOP 9 · SHOW AND TELL
@@ -5471,7 +5585,7 @@ second time feel easy.
 STOP 9
 133
 
-<!-- page 151 -->
+<!-- page 154 -->
 
 ---
 STOP 9 · HOW DID IT GO?
@@ -5512,7 +5626,7 @@ That is the end of the trail. Turn over.
 STOP 9
 134
 
-<!-- page 152 -->
+<!-- page 155 -->
 
 ---
 SHOW AND TELL
@@ -5547,7 +5661,7 @@ students choose their own passage. Choice is what makes the success real.
 SHOW AND TELL
 135
 
-<!-- page 153 -->
+<!-- page 156 -->
 
 ---
 SHOW AND TELL
@@ -5581,7 +5695,7 @@ why I chose it
 SHOW AND TELL
 136
 
-<!-- page 154 -->
+<!-- page 157 -->
 
 ---
 ALL YE AR ROUND
@@ -5622,7 +5736,7 @@ not very long, and it adds up to a great deal.
 ALL YEAR ROUND
 137
 
-<!-- page 155 -->
+<!-- page 158 -->
 
 ---
 MY WORD BOOK
@@ -5662,7 +5776,7 @@ MY WORD BOOK
 
 138
 
-<!-- page 156 -->
+<!-- page 159 -->
 
 ---
 MY WORD BOOK
@@ -5707,7 +5821,7 @@ sail
 MY WORD BOOK
 139
 
-<!-- page 157 -->
+<!-- page 160 -->
 
 ---
 MY WORD BOOK
@@ -5750,7 +5864,7 @@ together
 MY WORD BOOK
 140
 
-<!-- page 158 -->
+<!-- page 161 -->
 
 ---
 MY WORD BOOK
@@ -5784,7 +5898,7 @@ say why you like it.
 MY WORD BOOK
 141
 
-<!-- page 159 -->
+<!-- page 162 -->
 
 ---
 MY WORD BOOK
@@ -5819,7 +5933,7 @@ a cup with a handle
 MY WORD BOOK
 142
 
-<!-- page 160 -->
+<!-- page 163 -->
 
 ---
 MY WORD BOOK
@@ -5856,7 +5970,7 @@ it has bristles for brushing
 MY WORD BOOK
 143
 
-<!-- page 161 -->
+<!-- page 164 -->
 
 ---
 MY WORD BOOK
@@ -5886,7 +6000,7 @@ say why you like it.
 MY WORD BOOK
 144
 
-<!-- page 162 -->
+<!-- page 165 -->
 
 ---
 MY WORD BOOK
@@ -5921,7 +6035,7 @@ a baby duck
 MY WORD BOOK
 145
 
-<!-- page 163 -->
+<!-- page 166 -->
 
 ---
 MY WORD BOOK
@@ -5958,7 +6072,7 @@ you wear it on your foot
 MY WORD BOOK
 146
 
-<!-- page 164 -->
+<!-- page 167 -->
 
 ---
 MY WORD BOOK
@@ -5988,7 +6102,7 @@ say why you like it.
 MY WORD BOOK
 147
 
-<!-- page 165 -->
+<!-- page 168 -->
 
 ---
 MY WORD BOOK
@@ -6029,7 +6143,7 @@ a long stick for hitting a golf ball
 MY WORD BOOK
 148
 
-<!-- page 166 -->
+<!-- page 169 -->
 
 ---
 MY WORD BOOK
@@ -6064,7 +6178,7 @@ a bird builds it to hold its eggs
 MY WORD BOOK
 149
 
-<!-- page 167 -->
+<!-- page 170 -->
 
 ---
 MY WORD BOOK
@@ -6092,7 +6206,7 @@ say why you like it.
 MY WORD BOOK
 150
 
-<!-- page 168 -->
+<!-- page 171 -->
 
 ---
 MY WORD BOOK
@@ -6125,7 +6239,7 @@ shining, easy to see
 MY WORD BOOK
 151
 
-<!-- page 169 -->
+<!-- page 172 -->
 
 ---
 MY WORD BOOK
@@ -6160,7 +6274,7 @@ a sea animal with five arms
 MY WORD BOOK
 152
 
-<!-- page 170 -->
+<!-- page 173 -->
 
 ---
 MY WORD BOOK
@@ -6190,7 +6304,7 @@ say why you like it.
 MY WORD BOOK
 153
 
-<!-- page 171 -->
+<!-- page 174 -->
 
 ---
 MY WORD BOOK
@@ -6225,7 +6339,7 @@ an orange root you can eat
 MY WORD BOOK
 154
 
-<!-- page 172 -->
+<!-- page 175 -->
 
 ---
 MY WORD BOOK
@@ -6260,7 +6374,7 @@ a hen lays it, and you can cook it
 MY WORD BOOK
 155
 
-<!-- page 173 -->
+<!-- page 176 -->
 
 ---
 MY WORD BOOK
@@ -6292,7 +6406,7 @@ say why you like it.
 MY WORD BOOK
 156
 
-<!-- page 174 -->
+<!-- page 177 -->
 
 ---
 MY WORD BOOK
@@ -6329,7 +6443,7 @@ the hot box that bakes your food
 MY WORD BOOK
 157
 
-<!-- page 175 -->
+<!-- page 178 -->
 
 ---
 MY WORD BOOK
@@ -6366,7 +6480,7 @@ water
 MY WORD BOOK
 158
 
-<!-- page 176 -->
+<!-- page 179 -->
 
 ---
 MY WORD BOOK
@@ -6400,7 +6514,7 @@ say why you like it.
 MY WORD BOOK
 159
 
-<!-- page 177 -->
+<!-- page 180 -->
 
 ---
 MY WORD BOOK
@@ -6441,7 +6555,7 @@ swimming
 MY WORD BOOK
 160
 
-<!-- page 178 -->
+<!-- page 181 -->
 
 ---
 MY WORD BOOK
@@ -6484,7 +6598,7 @@ to point your eyes at something
 MY WORD BOOK
 161
 
-<!-- page 179 -->
+<!-- page 182 -->
 
 ---
 MY WORD BOOK
@@ -6514,7 +6628,7 @@ say why you like it.
 MY WORD BOOK
 162
 
-<!-- page 180 -->
+<!-- page 183 -->
 
 ---
 MY WORD BOOK
@@ -6549,7 +6663,7 @@ water that runs down to the sea
 MY WORD BOOK
 163
 
-<!-- page 181 -->
+<!-- page 184 -->
 
 ---
 MY WORD BOOK
@@ -6590,7 +6704,7 @@ it is round and it turns
 MY WORD BOOK
 164
 
-<!-- page 182 -->
+<!-- page 185 -->
 
 ---
 MY WORD BOOK
@@ -6620,7 +6734,7 @@ say why you like it.
 MY WORD BOOK
 165
 
-<!-- page 183 -->
+<!-- page 186 -->
 
 ---
 WHERE WE FOUND OUT
@@ -6666,7 +6780,7 @@ All illustrations in this book were made for Prime School.
 WHERE WE FOUND OUT
 166
 
-<!-- page 184 -->
+<!-- page 187 -->
 
 ---
 FOR TE ACHERS
@@ -6698,7 +6812,7 @@ stops. One tramline per word, with the picture beside it.
 FOR TEACHERS
 167
 
-<!-- page 185 -->
+<!-- page 188 -->
 
 ---
 FOR TE ACHERS
@@ -6754,7 +6868,7 @@ a story with a lesson · wh · naming words · a new ending
 FOR TEACHERS
 168
 
-<!-- page 186 -->
+<!-- page 189 -->
 
 ---
 ## English

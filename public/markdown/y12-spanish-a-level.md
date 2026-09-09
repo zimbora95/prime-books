@@ -3946,4 +3946,37 @@ Espacio ampliado de práctica (volumen de curso). Completa en clase o en casa.
 <!-- page 176 -->
 
 ---
-## Hoja de paridad de impresión
+**P R I M E  B O O K S**
+
+## Spanish A Level
+
+Year 12 · Cambridge International AS & A Level · Student Manual
+
+From fluent to formidable.
+
+Spanish A Level in Year 12: literature, essay craft and debate on Hispanic society
+
+and culture, with the grammar to hold any argument.
+
+**INSIDE THIS BOOK**
+
+•
+Literary and film study
+
+•
+Essay technique and argument
+
+•
+Translation both ways
+
+•
+Hispanic society and culture topics
+
+•
+Examination practice throughout
+
+**Prime Books · Spanish A Level**
+
+Ages 16–18 · Advanced Levels
+
+**primeschool.pt**

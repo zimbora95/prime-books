@@ -3906,93 +3906,37 @@ If I developed this project further, I would… _______________
 <!-- page 73 -->
 
 ---
-Year 7 Art & Design  ·  Student Handbook & Workbook
+**P R I M E  B O O K S**
 
-Prime Books  ·  Cambridge Lower Secondary
-Page
+## Art & Design
 
-**Term**
-**Meaning**
+Year 7 · Cambridge Lower Secondary · Student Manual
 
-Texture
-the surface quality of an object
+Every child is an artist. Keep the studio open.
 
-Actual texture
-physical texture that can be touched
+Year 7 art and design develops making, looking and thinking: drawing, colour,
 
-Visual texture
-an illusion of texture created through visual marks
+print, 3D and the artists who changed how we see.
 
-Mark-making
-creating different marks to communicate visual information
+**INSIDE THIS BOOK**
 
-Hatching
-creating tone or texture using parallel lines
+•
+Skills: drawing, paint, print, 3D
 
-Cross-hatching
-overlapping sets of lines at different angles
+•
+Artists and movements in context
 
-Stippling
-creating an image or tone using dots
+•
+Sketchbook habit and portfolio building
 
-Relief
-a raised or recessed surface
+•
+Critique language and reflection
 
-Printmaking
-creating an image by transferring marks from one surface to another
+•
+Final project per unit
 
-Pattern
-a repeated visual arrangement
+**Prime Books · Art & Design**
 
-Motif
-an individual visual element used within a pattern
+Ages 11–12 · Lower Secondary
 
-Repetition
-using an element more than once
-
-Rhythm
-visual movement created through repetition
-
-Symmetry
-correspondence between parts of a design
-
-Radial symmetry
-symmetry organised around a central point
-
-Tessellation
-repeated shapes that fit together without gaps or overlaps
-
-Positive space
-the area occupied by the main visual elements
-
-Negative space
-the empty or surrounding areas
-
-Limited palette
-a deliberately restricted selection of colours
-
-Abstract
-simplified, transformed or non-representational visual language
-
-**Final challenge — From texture to pattern**
-Choose one natural object.
-
-**OBSERVE** → find an interesting texture
-
-**RECORD** → create different marks
-
-**ENLARGE** → use a viewfinder to isolate a detail
-
-**TRANSFORM** → turn the detail into a motif
-
-**REPEAT** → develop different pattern arrangements
-
-**COLOUR** → test different limited palettes
-
-**DESIGN** → create your final pattern
-
-**REFLECT** → explain how your original observation became a finished design
-
-from texture to pattern — final challenge
-
-**73**
+**primeschool.pt**

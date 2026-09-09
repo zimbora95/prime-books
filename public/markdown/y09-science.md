@@ -4248,21 +4248,37 @@ check.
 <!-- page 121 -->
 
 ---
-P R I M E B O O K S · Y E A R 9
+**P R I M E  B O O K S**
 
-Follow the carbon.
+## Science
 
-This Year 9 Student Book connects a leaf to the whole planet. You will write the equation
-for photosynthesis, investigate what limits it, trace carbon through its cycle, and evaluate
-the real evidence for climate change.
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-Written for Prime School pupils, in clear British English, with original diagrams and real,
-cited data.
+Ask questions. Trust evidence.
 
-PHOTOSYNTHESIS
-CARBON CYCLE
-CLIMATE
-EVIDENCE
-INVESTIGATION
+Year 9 science combines clear explanations with hands-on investigation across
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+biology, chemistry and physics, building the habits of working scientifically.
+
+**INSIDE THIS BOOK**
+
+•
+Biology, chemistry and physics strands
+
+•
+Practical investigations throughout
+
+•
+Diagrams, data and vocabulary support
+
+•
+End-of-unit checkpoints
+
+•
+Full glossary and answer key
+
+**Prime Books · Science**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

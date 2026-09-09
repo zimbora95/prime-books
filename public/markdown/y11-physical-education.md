@@ -1244,3 +1244,37 @@ support your teammates on every down."
 <!-- page 31 -->
 
 ---
+**P R I M E  B O O K S**
+
+## Physical Education
+
+Year 11 · Cambridge Upper Secondary · Student Manual
+
+Move well. Understand why.
+
+Year 11 physical education develops practical skill and the theory behind it:
+
+anatomy, training, tactics and healthy participation for life.
+
+**INSIDE THIS BOOK**
+
+•
+Practical units across sports and athletics
+
+•
+Anatomy, physiology and training theory
+
+•
+Tactics, leadership and officiating
+
+•
+Health, fitness and wellbeing
+
+•
+Assessment preparation included
+
+**Prime Books · Physical Education**
+
+Ages 15–16 · Upper Secondary
+
+**primeschool.pt**

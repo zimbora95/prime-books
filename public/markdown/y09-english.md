@@ -544,21 +544,37 @@ https://en.wikipedia.org/wiki/Genre_fiction
 <!-- page 14 -->
 
 ---
-P R I M E B O O K S · Y E A R 9
+**P R I M E  B O O K S**
 
-What a writer withholds.
+## English
 
-This Year 9 Student Book studies the craft of restraint. You will identify genre from key
-features, use explicit information to interpret character, comment on structure and
-flashback, and write an opening a reader cannot put down.
+Year 9 · Cambridge Lower Secondary · Student Manual
 
-Written for Prime School pupils, in clear British English, with original fiction written for
-this book.
+Read between every line.
 
-GENRE
-STRUCTURE
-FLASHBACK
-DISCUSSION
-WRITING
+This Year 9 English course builds confident readers and precise writers: wide
 
-P R I M E S C H O O L · W W W . P R I M E S C H O O L . P T
+reading, real writing purposes and discussion that sharpens thinking.
+
+**INSIDE THIS BOOK**
+
+•
+Wide reading across genres and eras
+
+•
+Writing for real audiences and purposes
+
+•
+Vocabulary, grammar and style in context
+
+•
+Speaking, listening and debate
+
+•
+Regular checkpoints with model answers
+
+**Prime Books · English**
+
+Ages 13–14 · Lower Secondary
+
+**primeschool.pt**

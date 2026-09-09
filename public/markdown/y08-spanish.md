@@ -558,33 +558,37 @@ introducing yourself, age, ser / estar / tener, me gusta and essential questions
 <!-- page 11 -->
 
 ---
-**UNIT 0 · TOPIC 0.1**
-REPASO Y REENCUENTRO
+**P R I M E  B O O K S**
 
-PRIME BOOKS · SPANISH · YEAR 8
-Reencuentro
-**18**
+## Spanish
 
-**TOPIC 0.1**
-Después de la clase
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-Optional routes — use only the route that helps you.
+Real Spanish, from the first page.
 
-**SUPER CHALLENGE For confident learners**
+Year 8 Spanish builds confident communication: everyday topics, authentic texts
 
-Write 8-10 connected sentences about returning to school. Include present language, a past
-memory, a future plan, two opinions and at least four connectors. Underline one example of
-each time frame.
+and grammar that grows step by step.
 
-**ANTES DE ENTREGAR Before you finish**
+**INSIDE THIS BOOK**
 
-**I HAVE...**
-**CHECK**
+•
+Topic-based units with real dialogues
 
-used complete sentences
+•
+Grammar introduced and recycled
 
-checked noun-adjective agreement
+•
+Speaking, listening, reading, writing
 
-used porque correctly
+•
+Culture of the Spanish-speaking world
 
-checked that voy a is followed by an infinitive
+•
+Vocabulary lists and review pages
+
+**Prime Books · Spanish**
+
+Ages 12–13 · Lower Secondary
+
+**primeschool.pt**

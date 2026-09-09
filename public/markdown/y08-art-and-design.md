@@ -5586,10 +5586,37 @@ Use at the end of Units 8.1, 8.2, 8.3 and the School Project.
 <!-- page 109 -->
 
 ---
-Year 8 Art & Design  ·  Student Course Book
+**P R I M E  B O O K S**
 
-Prime Books  ·  Cambridge Lower Secondary
+## Art & Design
 
-ten questions, changed answers, evidence from this year
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-**Page 108**
+Every child is an artist. Keep the studio open.
+
+Year 8 art and design develops making, looking and thinking: drawing, colour,
+
+print, 3D and the artists who changed how we see.
+
+**INSIDE THIS BOOK**
+
+•
+Skills: drawing, paint, print, 3D
+
+•
+Artists and movements in context
+
+•
+Sketchbook habit and portfolio building
+
+•
+Critique language and reflection
+
+•
+Final project per unit
+
+**Prime Books · Art & Design**
+
+Ages 12–13 · Lower Secondary
+
+**primeschool.pt**

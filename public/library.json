@@ -23,7 +23,7 @@
     "band": "Cambridge Early Years",
     "family": "storybook",
     "level": "Lower Primary",
-    "pages": 182,
+    "pages": 185,
     "done": false,
     "pdf": "/library/y01-computing-and-robotics/book.pdf",
     "cover": "/library/y01-computing-and-robotics/cover.webp",
@@ -40,7 +40,7 @@
     "band": "Cambridge Early Years",
     "family": "storybook",
     "level": "Lower Primary",
-    "pages": 186,
+    "pages": 189,
     "done": false,
     "pdf": "/library/y01-english/book.pdf",
     "cover": "/library/y01-english/cover.webp",
@@ -87,7 +87,7 @@
     "band": "Cambridge Early Years",
     "family": "storybook",
     "level": "Lower Primary",
-    "pages": 176,
+    "pages": 179,
     "done": false,
     "pdf": "/library/y01-global-perspectives/book.pdf",
     "cover": "/library/y01-global-perspectives/cover.webp",
@@ -280,10 +280,10 @@
     "band": "Lower Primary",
     "family": "Languages",
     "level": "Cambridge Early Years",
-    "pages": 2,
+    "pages": 100,
     "pdf": "/library/y02-german-b1b2/book.pdf",
     "cover": "/library/y02-german-b1b2/cover.webp",
-    "mb": 0.5,
+    "mb": 2.64,
     "done": false,
     "editable": true,
     "buildable": false
@@ -299,7 +299,7 @@
     "done": false,
     "pdf": "/library/y02-global-perspectives/book.pdf",
     "cover": "/library/y02-global-perspectives/cover.webp",
-    "mb": 19.21,
+    "mb": 18.71,
     "buildable": true,
     "editable": true,
     "wrapCover": "/library/y02-global-perspectives/cover-wrap-amazon.png",
@@ -491,7 +491,8 @@
     "mb": 7.99,
     "buildable": true,
     "editable": true,
-    "wrapCover": null
+    "wrapCover": "/library/y03-global-perspectives/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y03-global-perspectives/cover-wrap-amazon.pdf"
   },
   {
     "slug": "y03-mathematics",
@@ -617,7 +618,8 @@
     "mb": 3.73,
     "buildable": true,
     "editable": true,
-    "wrapCover": null
+    "wrapCover": "/library/y04-art-and-design/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y04-art-and-design/cover-wrap-amazon.pdf"
   },
   {
     "slug": "y04-computing-and-robotics",
@@ -696,7 +698,8 @@
     "mb": 9.25,
     "buildable": false,
     "editable": true,
-    "wrapCover": null
+    "wrapCover": "/library/y04-global-perspectives/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y04-global-perspectives/cover-wrap-amazon.pdf"
   },
   {
     "slug": "y04-mathematics",
@@ -821,7 +824,8 @@
     "mb": 4.48,
     "buildable": true,
     "editable": true,
-    "wrapCover": null
+    "wrapCover": "/library/y05-art-and-design/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y05-art-and-design/cover-wrap-amazon.pdf"
   },
   {
     "slug": "y05-computing-and-robotics",
@@ -898,7 +902,8 @@
     "mb": 6.1,
     "buildable": false,
     "editable": true,
-    "wrapCover": null
+    "wrapCover": "/library/y05-global-perspectives/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y05-global-perspectives/cover-wrap-amazon.pdf"
   },
   {
     "slug": "y05-mathematics",
@@ -954,7 +959,7 @@
     "band": "Cambridge Primary",
     "family": "storybook",
     "level": "Upper Primary",
-    "pages": 130,
+    "pages": 133,
     "done": false,
     "pdf": "/library/y05-portuguese/book.pdf",
     "cover": "/library/y05-portuguese/cover.webp",
@@ -1022,7 +1027,8 @@
     "mb": 4.15,
     "buildable": true,
     "editable": true,
-    "wrapCover": null
+    "wrapCover": "/library/y06-art-and-design/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y06-art-and-design/cover-wrap-amazon.pdf"
   },
   {
     "slug": "y06-computing-and-robotics",
@@ -1248,7 +1254,7 @@
     "band": "Cambridge Lower Secondary",
     "family": "geometric",
     "level": "Lower Secondary",
-    "pages": 135,
+    "pages": 137,
     "done": false,
     "pdf": "/library/y07-computing-structured/book.pdf",
     "cover": "/library/y07-computing-structured/cover.webp",
@@ -1733,6 +1739,23 @@
     "wrapCover": null
   },
   {
+    "slug": "y09-computing-and-robotics",
+    "year": 9,
+    "subject": "Computing & Robotics",
+    "band": "Cambridge Lower Secondary",
+    "family": "Primary",
+    "level": "Lower Secondary",
+    "pages": 2,
+    "pdf": "/library/y09-computing-and-robotics/book.pdf",
+    "cover": "/library/y09-computing-and-robotics/cover.webp",
+    "mb": 2.89,
+    "done": false,
+    "editable": true,
+    "buildable": false,
+    "wrapCover": "/library/y09-computing-and-robotics/cover-wrap-amazon.png",
+    "wrapCoverPdf": "/library/y09-computing-and-robotics/cover-wrap-amazon.pdf"
+  },
+  {
     "slug": "y10-business-btec-l2",
     "year": 10,
     "subject": "Business BTEC L2",
@@ -1915,7 +1938,7 @@
     "band": "Lower Secondary",
     "family": "standardised",
     "level": "Lower Secondary",
-    "pages": 73,
+    "pages": 74,
     "done": false,
     "pdf": "/library/y07-art-and-design-standard/book.pdf",
     "cover": "/library/y07-art-and-design-standard/cover.webp",

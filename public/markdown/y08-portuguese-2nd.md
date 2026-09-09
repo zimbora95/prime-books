@@ -8,8 +8,8 @@
 
 ## Year 8
 
+Cambridge Lower Secondary
 Student Manual
-Prime Books Press
 
 <!-- page 2 -->
 
@@ -3763,35 +3763,37 @@ Sobrou espaço para mais ideias, palavras novas e regras de ouro do português.
 <!-- page 100 -->
 
 ---
-**PRIME BOOKS**
+**P R I M E  B O O K S**
+
 ## Portuguese 2nd
 
-**Uma língua que se aprende a falar todos os dias.**
+Year 8 · Cambridge Lower Secondary · Student Manual
 
-A full year of Portuguese as a second language: seven units, four revision tests and two final activity sets.
+Português de verdade, passo a passo.
+
+Português Língua Segunda para o Year 8: comunicação do dia a dia, textos
+
+autênticos e gramática que cresce aos poucos.
 
 **INSIDE THIS BOOK**
 
-**•**
-Seven units following the scheme of work
+•
+Unidades por temas do quotidiano
 
-**•**
-Dialogues for real everyday situations
+•
+Diálogos e textos autênticos
 
-**•**
-Grammar tables for every verb pattern
+•
+Gramática apresentada e revista
 
-**•**
-Four revision tests and two activity sets
+•
+Cultura portuguesa e lusófona
 
-**•**
-Texts by Portuguese authors throughout
-
-**•**
-Portuguese culture: food, sport and daily life
+•
+Listas de vocabulário e revisões
 
 **Prime Books · Portuguese 2nd**
 
-Ages 12-13 · Lower Secondary · primeschool.pt
+Ages 12–13 · Lower Secondary
 
-Year 8 · Prime Books Press · Student Manual
+**primeschool.pt**

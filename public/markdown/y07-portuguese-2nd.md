@@ -8,9 +8,8 @@
 
 ## Year 7
 
+Cambridge Lower Secondary
 Student Manual
-
-Prime Books Press
 
 <!-- page 2 -->
 
@@ -3040,40 +3039,37 @@ Prime School Press · www.primeschool.pt
 <!-- page 76 -->
 
 ---
-**PRIME BOOKS**
+**P R I M E  B O O K S**
 
 ## Portuguese 2nd
 
 Year 7 · Cambridge Lower Secondary · Student Manual
 
-**Uma língua que se aprende a falar todos os dias.**
+Português de verdade, passo a passo.
 
-A full year of Portuguese as a second language: eleven units, four revision tests and a
+Português Língua Segunda para o Year 7: comunicação do dia a dia, textos
 
-final project. Clear explanations, everyday dialogues and practice that builds, unit by
-
-unit, from greetings to full conversations.
+autênticos e gramática que cresce aos poucos.
 
 **INSIDE THIS BOOK**
 
-**•**
-Eleven units following the scheme of work
+•
+Unidades por temas do quotidiano
 
-**•**
-Dialogues for real everyday situations
+•
+Diálogos e textos autênticos
 
-**•**
-Grammar tables for every verb pattern
+•
+Gramática apresentada e revista
 
-**•**
-Four revision tests and answer practice
+•
+Cultura portuguesa e lusófona
 
-**•**
-A final project and four classroom games
-
-**•**
-Portuguese culture: traditions and seasons
+•
+Listas de vocabulário e revisões
 
 **Prime Books · Portuguese 2nd**
 
-Ages 11-12 · Lower Secondary · primeschool.pt
+Ages 11–12 · Lower Secondary
+
+**primeschool.pt**

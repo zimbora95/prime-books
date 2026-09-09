@@ -4,6 +4,12 @@
 <!-- page 1 -->
 
 ---
+## Physical Education
+
+## Year 13
+
+Cambridge International A Level
+Student Manual
 
 <!-- page 2 -->
 
@@ -1277,6 +1283,37 @@ consistency and smart decision-making control every rally."
 <!-- page 32 -->
 
 ---
+**P R I M E  B O O K S**
 
-**PrimeBooks Year 13 • Physical Education • Unit 11 – Table Tennis**
+## Physical Education
 
+Year 13 · Cambridge International A Level · Student Manual
+
+Move well. Understand why.
+
+Year 13 physical education develops practical skill and the theory behind it:
+
+anatomy, training, tactics and healthy participation for life.
+
+**INSIDE THIS BOOK**
+
+•
+Practical units across sports and athletics
+
+•
+Anatomy, physiology and training theory
+
+•
+Tactics, leadership and officiating
+
+•
+Health, fitness and wellbeing
+
+•
+Assessment preparation included
+
+**Prime Books · Physical Education**
+
+Ages 17–19 · Advanced Levels
+
+**primeschool.pt**
