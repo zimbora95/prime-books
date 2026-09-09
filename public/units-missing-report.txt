@@ -1,0 +1,66 @@
+=== 1. STUB BOOKS — cover only, no contents at all (38) ===
+  y01-german-a1a2                       2pp   12 units  STUB-BOOK (front/back only)
+  y01-german-b1b2                       2pp    0 units  STUB-BOOK (front/back only)
+  y01-spanish-a1a2                      2pp    0 units  STUB-BOOK (front/back only)
+  y01-spanish-b1b2                      2pp    0 units  STUB-BOOK (front/back only)
+  y02-german-a1a2                       2pp    0 units  STUB-BOOK (front/back only)
+  y02-spanish-a1a2                      2pp    0 units  STUB-BOOK (front/back only)
+  y02-spanish-b1b2                      2pp    0 units  STUB-BOOK (front/back only)
+  y03-english                           2pp    0 units  STUB-BOOK (front/back only)
+  y03-german-a1a2                       2pp    0 units  STUB-BOOK (front/back only)
+  y03-german-b1b2                       2pp    0 units  STUB-BOOK (front/back only)
+  y03-music-and-drama                   2pp    0 units  STUB-BOOK (front/back only)
+  y03-science                           2pp    0 units  STUB-BOOK (front/back only)
+  y03-spanish-a1a2                      2pp    0 units  STUB-BOOK (front/back only)
+  y03-spanish-b1b2                      2pp    0 units  STUB-BOOK (front/back only)
+  y04-german-a1a2                       2pp    0 units  STUB-BOOK (front/back only)
+  y04-german-b1b2                       2pp    0 units  STUB-BOOK (front/back only)
+  y04-music-and-drama                   2pp    0 units  STUB-BOOK (front/back only)
+  y04-spanish-a1a2                      2pp    0 units  STUB-BOOK (front/back only)
+  y04-spanish-b1b2                      2pp    0 units  STUB-BOOK (front/back only)
+  y05-computing-and-robotics            2pp    0 units  STUB-BOOK (front/back only)
+  y05-german-a1a2                       2pp    0 units  STUB-BOOK (front/back only)
+  y05-german-b1b2                       2pp    0 units  STUB-BOOK (front/back only)
+  y05-music-and-drama                   2pp    0 units  STUB-BOOK (front/back only)
+  y05-science                           2pp    0 units  STUB-BOOK (front/back only)
+  y05-spanish-a1a2                      2pp    0 units  STUB-BOOK (front/back only)
+  y05-spanish-b1b2                      2pp    0 units  STUB-BOOK (front/back only)
+  y06-computing-and-robotics            2pp    0 units  STUB-BOOK (front/back only)
+  y06-english                           2pp    0 units  STUB-BOOK (front/back only)
+  y06-german-a1a2                       2pp    0 units  STUB-BOOK (front/back only)
+  y06-german-b1b2                       2pp    0 units  STUB-BOOK (front/back only)
+  y06-music-and-drama                   2pp    0 units  STUB-BOOK (front/back only)
+  y06-science                           2pp    0 units  STUB-BOOK (front/back only)
+  y06-spanish-a1a2                      2pp    0 units  STUB-BOOK (front/back only)
+  y06-spanish-b1b2                      2pp    0 units  STUB-BOOK (front/back only)
+  y08-computing-and-robotics            2pp    0 units  STUB-BOOK (front/back only)
+  y08-music-and-drama                   2pp    0 units  STUB-BOOK (front/back only)
+  y08-portuguese-1st                    2pp    0 units  STUB-BOOK (front/back only)
+  y09-computing-and-robotics            2pp    0 units  STUB-BOOK (front/back only)
+
+=== 2. REAL BOOKS WITH NO CONTENTS PAGE (12) ===
+  y01-global-perspectives             179pp    1 units  no contents page
+  y01-portuguese                        8pp    0 units  no contents page; no units detected
+  y02-art-and-design                  164pp    4 units  no contents page
+  y03-mathematics                      80pp   17 units  no contents page
+  y05-portuguese                      133pp    0 units  no contents page; no units detected
+  y06-mathematics                     122pp   17 units  no contents page
+  y06-portuguese                      110pp   10 units  no contents page
+  y07-humanities                      176pp    0 units  no contents page; no units detected
+  y07-portuguese-2nd                   76pp   11 units  no contents page
+  y08-spanish                         115pp    1 units  no contents page
+  y11-physical-education               31pp    4 units  no contents page
+  y13-physical-education               32pp    4 units  no contents page
+
+=== 3. REAL BOOKS WITH NO DETECTABLE UNITS (8) ===
+  y01-english                         189pp    0 units  no units detected
+  y01-portuguese                        8pp    0 units  no contents page; no units detected
+  y05-portuguese                      133pp    0 units  no contents page; no units detected
+  y07-global-perspectives             146pp    0 units  no units detected
+  y07-humanities                      176pp    0 units  no contents page; no units detected
+  y09-portuguese-2nd                  109pp    0 units  no units detected
+  y10-spanish-1st-igcse               260pp    0 units  no units detected
+  y12-spanish-a-level                 176pp    0 units  no units detected
+
+=== 4. ALL OTHER BOOKS: units present (summary) ===
+68 books have contents + units — OK
