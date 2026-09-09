@@ -12,7 +12,7 @@ import argparse, base64, json, sys, urllib.request, urllib.error
 
 ENV_PATH = "/root/.hermes/.env"
 API = "https://openrouter.ai/api/v1/images/generations"
-MODEL = "openai/gpt-image-2"
+MODEL = "openai/gpt-image-2.5-sunburst"
 
 
 def key():
