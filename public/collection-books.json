@@ -142,12 +142,6 @@
     "cover": "/collection-covers/Y03-PhysicalEducationGym.webp"
   },
   {
-    "key": "Y03-Portuguese1st",
-    "year": 3,
-    "subject": "Portuguese 1st",
-    "cover": "/collection-covers/Y03-Portuguese1st.webp"
-  },
-  {
     "key": "Y03-ScienceLab",
     "year": 3,
     "subject": "Science & Lab",
@@ -194,12 +188,6 @@
     "year": 4,
     "subject": "Physical Education & Gym",
     "cover": "/collection-covers/Y04-PhysicalEducationGym.webp"
-  },
-  {
-    "key": "Y04-Portuguese1st",
-    "year": 4,
-    "subject": "Portuguese 1st",
-    "cover": "/collection-covers/Y04-Portuguese1st.webp"
   },
   {
     "key": "Y04-ScienceLab",
@@ -250,12 +238,6 @@
     "cover": "/collection-covers/Y05-PhysicalEducationGym.webp"
   },
   {
-    "key": "Y05-Portuguese1st",
-    "year": 5,
-    "subject": "Portuguese 1st",
-    "cover": "/collection-covers/Y05-Portuguese1st.webp"
-  },
-  {
     "key": "Y05-ScienceLab",
     "year": 5,
     "subject": "Science & Lab",
@@ -304,12 +286,6 @@
     "cover": "/collection-covers/Y06-PhysicalEducationGym.webp"
   },
   {
-    "key": "Y06-Portuguese1st",
-    "year": 6,
-    "subject": "Portuguese 1st",
-    "cover": "/collection-covers/Y06-Portuguese1st.webp"
-  },
-  {
     "key": "Y06-ScienceLab",
     "year": 6,
     "subject": "Science & Lab",
@@ -344,12 +320,6 @@
     "year": 7,
     "subject": "Mathematics",
     "cover": "/collection-covers/Y07-Mathematics.webp"
-  },
-  {
-    "key": "Y07-MusicDrama",
-    "year": 7,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y07-MusicDrama.webp"
   },
   {
     "key": "Y07-PhysicalEducationGym",
@@ -478,22 +448,10 @@
     "cover": "/collection-covers/Y09-Mathematics.webp"
   },
   {
-    "key": "Y09-MusicDrama",
-    "year": 9,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y09-MusicDrama.webp"
-  },
-  {
     "key": "Y09-PhysicalEducationGym",
     "year": 9,
     "subject": "Physical Education & Gym",
     "cover": "/collection-covers/Y09-PhysicalEducationGym.webp"
-  },
-  {
-    "key": "Y09-Portuguese1stIGCSE",
-    "year": 9,
-    "subject": "Portuguese 1st (IGCSE)",
-    "cover": "/collection-covers/Y09-Portuguese1stIGCSE.webp"
   },
   {
     "key": "Y09-Portuguese2nd",
@@ -524,12 +482,6 @@
     "year": 10,
     "subject": "Portuguese 1st (IGCSE)",
     "cover": "/collection-covers/Y10-Portuguese1stIGCSE.webp"
-  },
-  {
-    "key": "Y11-Portuguese1stIGCSE",
-    "year": 11,
-    "subject": "Portuguese 1st (IGCSE)",
-    "cover": "/collection-covers/Y11-Portuguese1stIGCSE.webp"
   },
   {
     "key": "Y12-PhysicalEducationGym",
@@ -682,58 +634,10 @@
     "cover": "/collection-covers/Y06-SpanishB1B2.webp"
   },
   {
-    "key": "Y01-MusicDrama",
-    "year": 1,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y01-MusicActing.webp"
-  },
-  {
-    "key": "Y01-PhysicalEducation",
-    "year": 1,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y01-PhysicalEducationGym.webp"
-  },
-  {
     "key": "Y01-Portuguese1stLanguage",
     "year": 1,
     "subject": "Portuguese 1st Language",
     "cover": "/collection-covers/Y01-Portuguese1st.webp"
-  },
-  {
-    "key": "Y01-Science",
-    "year": 1,
-    "subject": "Science",
-    "cover": "/collection-covers/Y01-ScienceLab.webp"
-  },
-  {
-    "key": "Y02-MusicDrama",
-    "year": 2,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y02-MusicActing.webp"
-  },
-  {
-    "key": "Y02-PhysicalEducation",
-    "year": 2,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y02-PhysicalEducationGym.webp"
-  },
-  {
-    "key": "Y02-Science",
-    "year": 2,
-    "subject": "Science",
-    "cover": "/collection-covers/Y02-ScienceLab.webp"
-  },
-  {
-    "key": "Y03-MusicDrama",
-    "year": 3,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y03-MusicActing.webp"
-  },
-  {
-    "key": "Y03-PhysicalEducation",
-    "year": 3,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y03-PhysicalEducationGym.webp"
   },
   {
     "key": "Y03-Portuguese",
@@ -742,46 +646,10 @@
     "cover": "/collection-covers/Y03-Portuguese1st.webp"
   },
   {
-    "key": "Y03-Science",
-    "year": 3,
-    "subject": "Science",
-    "cover": "/collection-covers/Y03-ScienceLab.webp"
-  },
-  {
-    "key": "Y04-MusicDrama",
-    "year": 4,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y04-MusicActing.webp"
-  },
-  {
-    "key": "Y04-PhysicalEducation",
-    "year": 4,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y04-PhysicalEducationGym.webp"
-  },
-  {
     "key": "Y04-Portuguese",
     "year": 4,
     "subject": "Portuguese",
     "cover": "/collection-covers/Y04-Portuguese1st.webp"
-  },
-  {
-    "key": "Y04-Science",
-    "year": 4,
-    "subject": "Science",
-    "cover": "/collection-covers/Y04-ScienceLab.webp"
-  },
-  {
-    "key": "Y05-MusicDrama",
-    "year": 5,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y05-MusicActing.webp"
-  },
-  {
-    "key": "Y05-PhysicalEducation",
-    "year": 5,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y05-PhysicalEducationGym.webp"
   },
   {
     "key": "Y05-Portuguese",
@@ -790,34 +658,10 @@
     "cover": "/collection-covers/Y05-Portuguese1st.webp"
   },
   {
-    "key": "Y05-Science",
-    "year": 5,
-    "subject": "Science",
-    "cover": "/collection-covers/Y05-ScienceLab.webp"
-  },
-  {
-    "key": "Y06-MusicDrama",
-    "year": 6,
-    "subject": "Music & Drama",
-    "cover": "/collection-covers/Y06-MusicActing.webp"
-  },
-  {
-    "key": "Y06-PhysicalEducation",
-    "year": 6,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y06-PhysicalEducationGym.webp"
-  },
-  {
     "key": "Y06-Portuguese",
     "year": 6,
     "subject": "Portuguese",
     "cover": "/collection-covers/Y06-Portuguese1st.webp"
-  },
-  {
-    "key": "Y06-Science",
-    "year": 6,
-    "subject": "Science",
-    "cover": "/collection-covers/Y06-ScienceLab.webp"
   },
   {
     "key": "Y07-ComputingRoboticsStructured",
@@ -832,46 +676,10 @@
     "cover": "/collection-covers/Y07-GlobalPerspectives.webp"
   },
   {
-    "key": "Y07-Humanities",
-    "year": 7,
-    "subject": "Humanities",
-    "cover": "/collection-covers/Y07-HumanitiesHistoryGeography.webp"
-  },
-  {
-    "key": "Y07-PhysicalEducation",
-    "year": 7,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y07-PhysicalEducationGym.webp"
-  },
-  {
-    "key": "Y08-Humanities",
-    "year": 8,
-    "subject": "Humanities",
-    "cover": "/collection-covers/Y08-HumanitiesHistoryGeography.webp"
-  },
-  {
-    "key": "Y08-PhysicalEducation",
-    "year": 8,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y08-PhysicalEducationGym.webp"
-  },
-  {
-    "key": "Y09-Humanities",
-    "year": 9,
-    "subject": "Humanities",
-    "cover": "/collection-covers/Y09-HumanitiesHistoryGeography.webp"
-  },
-  {
     "key": "Y09-MusicandDrama",
     "year": 9,
     "subject": "Music and Drama",
     "cover": "/collection-covers/Y09-MusicDrama.webp"
-  },
-  {
-    "key": "Y09-PhysicalEducation",
-    "year": 9,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y09-PhysicalEducationGym.webp"
   },
   {
     "key": "Y09-Portuguese",
@@ -886,21 +694,9 @@
     "cover": "/collection-covers/Y10-BusinessBtecL2.webp"
   },
   {
-    "key": "Y10-PhysicalEducation",
-    "year": 10,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y10-PhysicalEducationGym.webp"
-  },
-  {
     "key": "Y10-Portuguese1st",
     "year": 10,
     "subject": "Portuguese 1st",
-    "cover": "/collection-covers/Y10-Portuguese1stIGCSE.webp"
-  },
-  {
-    "key": "Y10-Portuguese1stIGCSE",
-    "year": 10,
-    "subject": "Portuguese 1st IGCSE",
     "cover": "/collection-covers/Y10-Portuguese1stIGCSE.webp"
   },
   {
@@ -920,12 +716,6 @@
     "year": 11,
     "subject": "Portuguese 1st",
     "cover": "/collection-covers/Y11-Portuguese1stIGCSE.webp"
-  },
-  {
-    "key": "Y12-PhysicalEducation",
-    "year": 12,
-    "subject": "Physical Education",
-    "cover": "/collection-covers/Y12-PhysicalEducationGym.webp"
   },
   {
     "key": "Y12-PortugueseALevel",
