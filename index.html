@@ -1874,8 +1874,8 @@
           content: "☰";
           font-size: 15px;
         }
-        #fbBack5,
-        #fbFwd5 {
+        #fbFirst,
+        #fbLast {
           display: none;
         }
         .fb-page-ind {
@@ -2017,7 +2017,7 @@
           <button class="fb-btn" id="fbDownloadBtn" aria-label="Download PDF" title="Download the complete PDF of this book to your machine">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>&nbsp;Download PDF
           </button>
-          <button class="fb-btn" id="fbBack5" aria-label="Back 5 pages">
+          <button class="fb-btn" id="fbFirst" aria-label="First page" title="Go to the first page">
             &laquo;
           </button>
           <button class="fb-btn" id="fbPrev" aria-label="Previous page">
@@ -2036,7 +2036,7 @@
           <button class="fb-btn" id="fbNext" aria-label="Next page">
             &rarr;
           </button>
-          <button class="fb-btn" id="fbFwd5" aria-label="Forward 5 pages">
+          <button class="fb-btn" id="fbLast" aria-label="Last page" title="Go to the last page">
             &raquo;
           </button>
           <button class="fb-btn" id="fbClose" aria-label="Close preview">
@@ -5930,8 +5930,8 @@ function rr(x, px, py, w, h, r) {
       const fbTotal = document.getElementById("fbTotal");
       const fbPrev = document.getElementById("fbPrev");
       const fbNext = document.getElementById("fbNext");
-      const fbBack5 = document.getElementById("fbBack5");
-      const fbFwd5 = document.getElementById("fbFwd5");
+      const fbFirst = document.getElementById("fbFirst");
+      const fbLast = document.getElementById("fbLast");
       const fbTocBtn = document.getElementById("fbTocBtn");
       const fbTocPanel = document.getElementById("fbTocPanel");
       const fbTocList = document.getElementById("fbTocList");
@@ -6902,8 +6902,8 @@ function rr(x, px, py, w, h, r) {
           function ind() {
             const i = fbFlip.getCurrentPageIndex();
             fbPageInput.value = i + 1;
-            fbPrev.disabled = fbBack5.disabled = i <= 0;
-            fbNext.disabled = fbFwd5.disabled = i >= fbCount - 1;
+            fbPrev.disabled = fbFirst.disabled = i <= 0;
+            fbNext.disabled = fbLast.disabled = i >= fbCount - 1;
             markToc(i);
           }
           ind();
@@ -6916,14 +6916,8 @@ function rr(x, px, py, w, h, r) {
           });
           fbPrev.addEventListener("click", () => fbFlip.flipPrev());
           fbNext.addEventListener("click", () => fbFlip.flipNext());
-          fbBack5.addEventListener("click", () =>
-            fbFlip.flip(Math.max(0, fbFlip.getCurrentPageIndex() - 5)),
-          );
-          fbFwd5.addEventListener("click", () =>
-            fbFlip.flip(
-              Math.min(fbCount - 1, fbFlip.getCurrentPageIndex() + 5),
-            ),
-          );
+          fbFirst.addEventListener("click", () => fbFlip.flip(0));
+          fbLast.addEventListener("click", () => fbFlip.flip(fbCount - 1));
 
           /* sharpen the visible spread once it settles, and keep a small
              low-res read-ahead either side so flipping never shows a blank */
