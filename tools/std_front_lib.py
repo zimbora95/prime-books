@@ -43,8 +43,6 @@ def build_front(page, year, subject_title, level, art_path, stripe_rgb, art_top=
     ymeta=140+len(lines)*38+26
     page.insert_text((x0,ymeta),f'Year {year}',fontsize=17,fontname='med',fontfile=FONT_TITLE_MED,color=INK)
     page.insert_text((x0,ymeta+24),'Student Manual',fontsize=11,fontname='body',fontfile=FONT_BODY,color=GREY)
-    ry=ymeta+36
-    page.draw_rect(pymupdf.Rect(x0,ry,x0+46,ry+2.6),color=None,fill=tuple(c/255 for c in stripe_rgb))
     page.insert_image(pymupdf.Rect(stripe_w,art_top,W,H),filename=art_path,keep_proportion=False)
 
 def find_front_art(page):
