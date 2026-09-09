@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -5139,22 +5138,21 @@ Covers Challenges 11–14 + project
 <!-- page 146 -->
 
 ---
+ation through
+ation through
+ation through
+
 **P R I M E  B O O K S**
 
 ## Global Perspectives
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
 See every issue from every side.
 
-Year 7 global perspectives builds research, reasoning and collabor
+Year 7 global perspectives builds research, reasoning and collaboration through
 
 big global topics, ending in a personal project you can defend.
 
 **INSIDE THIS BOOK**
-
-•
-Big global topics, locally explored
 
 •
 Research and evidence skills
@@ -5173,3 +5171,5 @@ Assessment-ready checkpoints
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

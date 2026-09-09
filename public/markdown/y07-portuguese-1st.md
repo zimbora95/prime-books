@@ -2077,6 +2077,10 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
+açã
+
+ro
+
 ## Palavras em viagem
 
 **VOCABULÁRIO**
@@ -5239,6 +5243,7 @@ a que fica faz sentido sozinha? → COORDENADAS
 «Tu finges» sim; «Se eu falhar» não → SUBORDINAÇÃO
 
 **EXERCÍCIOS 4**
+
 1. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» / «Ou ensaias ou falhas.» / «Estava
 pronta, portanto passou.»
 
