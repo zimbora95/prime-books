@@ -6914,8 +6914,14 @@ function rr(x, px, py, w, h, r) {
             clearTimeout(fbHiT);
             fbHiT = setTimeout(upgrade, 350);
           });
-          fbPrev.addEventListener("click", () => fbFlip.flipPrev());
-          fbNext.addEventListener("click", () => fbFlip.flipNext());
+          fbPrev.addEventListener("click", () =>
+            fbFlip.flip(Math.max(0, fbFlip.getCurrentPageIndex() - 1)),
+          );
+          fbNext.addEventListener("click", () =>
+            fbFlip.flip(
+              Math.min(fbCount - 1, fbFlip.getCurrentPageIndex() + 1),
+            ),
+          );
           fbFirst.addEventListener("click", () => fbFlip.flip(0));
           fbLast.addEventListener("click", () => fbFlip.flip(fbCount - 1));
 
@@ -6971,8 +6977,12 @@ function rr(x, px, py, w, h, r) {
           else closeFlipbook();
         }
         if (fbFlip) {
-          if (e.key === "ArrowRight") fbFlip.flipNext();
-          if (e.key === "ArrowLeft") fbFlip.flipPrev();
+          if (e.key === "ArrowRight")
+            fbFlip.flip(
+              Math.min(fbCount - 1, fbFlip.getCurrentPageIndex() + 1),
+            );
+          if (e.key === "ArrowLeft")
+            fbFlip.flip(Math.max(0, fbFlip.getCurrentPageIndex() - 1));
         }
       });
 </script>
