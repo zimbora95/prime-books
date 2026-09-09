@@ -4,6 +4,11 @@
 <!-- page 1 -->
 
 ---
+## Global Perspectives
+
+## Year 1
+
+Student Manual
 
 <!-- page 2 -->
 
@@ -12,13 +17,7 @@
 
 ## Global Perspectives
 
-Year 1 · Cambridge Early Years · Student Manual
-
-See every issue from every side.
-
-Year 1 global perspectives builds research, reasoning and collaboration through
-
-big global topics, ending in a personal project you can defend.
+boration through
 
 **INSIDE THIS BOOK**
 
@@ -42,6 +41,8 @@ Assessment-ready checkpoints
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual
 
 <!-- page 3 -->
 

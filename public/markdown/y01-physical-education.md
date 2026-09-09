@@ -8,7 +8,6 @@
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -2255,11 +2254,7 @@ WHERE THE FACTS CAME FROM
 
 ## Physical Education
 
-Run, jump, throw, and know why it worked.
-
-Your first full year of physical education. Find the space, move safely, take your
-
-turn, and learn the games you will play for the rest of your life.
+afely, take your
 
 **INSIDE THIS BOOK**
 
@@ -2284,4 +2279,4 @@ Ages 5–6 · Lower Primary
 
 **primeschool.pt**
 
-Year 1 · Prime School Press · Student Manual
+Student Manual

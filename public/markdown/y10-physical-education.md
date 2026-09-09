@@ -8,7 +8,6 @@
 
 ## Year 10
 
-Cambridge Upper Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -5187,13 +5186,7 @@ sketches, not official construction drawings.
 
 ## Physical Education
 
-Year 10 · Cambridge Upper Secondary · Student Manual
-
-Move well. Understand why.
-
-Year 10 physical education develops practical skill and the theory behind it:
-
-anatomy, training, tactics and healthy participation for life.
+eory behind it:
 
 **INSIDE THIS BOOK**
 
@@ -5217,3 +5210,5 @@ Assessment preparation included
 Ages 14–16 · Upper Secondary
 
 **primeschool.pt**
+
+Student Manual

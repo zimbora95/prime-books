@@ -131,11 +131,9 @@ def build_front(page, year, subject_title, level, art_path, stripe_rgb):
     ymeta = 140 + len(lines)*38 + 26
     page.insert_text((x0, ymeta), f'Year {year}', fontsize=17,
                      fontname='med', fontfile=FONT_TITLE_MED, color=INK)
-    page.insert_text((x0, ymeta + 24), level, fontsize=11,
+    page.insert_text((x0, ymeta + 24), 'Student Manual', fontsize=11,
                      fontname='body', fontfile=FONT_BODY, color=GREY)
-    page.insert_text((x0, ymeta + 40), 'Student Manual', fontsize=11,
-                     fontname='body', fontfile=FONT_BODY, color=GREY)
-    ry = ymeta + 52
+    ry = ymeta + 36
     page.draw_rect(pymupdf.Rect(x0, ry, x0+46, ry+2.6), color=None,
                    fill=tuple(c/255 for c in stripe_rgb))
     # artwork: full-bleed — fills the zone edge to edge (top 315pt to bottom,
@@ -198,7 +196,7 @@ def build_back(page, year, subject_title, level, ages, band, copy, art_path,
     page.draw_rect(pymupdf.Rect(x0, ty, x0+22, ty+3), color=None,
                    fill=tuple(c/255 for c in stripe_rgb))
     # metadata line
-    page.insert_text((x0, ty + 22), f'Year {year} · {level} · Student Manual',
+    page.insert_text((x0, ty + 22), f'Year {year} · Student Manual',
                      fontsize=11, fontname='body', fontfile=FONT_BODY, color=GREY)
     # blurb
     by = ty + 48

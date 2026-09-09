@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -1268,13 +1267,7 @@ print. If you find an error, we want to know: write to the mathematics team via 
 
 ## Mathematics
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
-Mathematics that explains itself.
-
-Year 7 mathematics moves step by step from concrete to abstract: every rule is
-
-derived, every method modelled, every unit practised and reviewed.
+very rule is
 
 **INSIDE THIS BOOK**
 
@@ -1298,3 +1291,5 @@ Exam-style questions with answers
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

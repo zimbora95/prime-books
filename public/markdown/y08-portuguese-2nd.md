@@ -8,7 +8,6 @@
 
 ## Year 8
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -3767,13 +3766,7 @@ Sobrou espaço para mais ideias, palavras novas e regras de ouro do português.
 
 ## Portuguese 2nd
 
-Year 8 · Cambridge Lower Secondary · Student Manual
-
-Português de verdade, passo a passo.
-
-Português Língua Segunda para o Year 8: comunicação do dia a dia, textos
-
-autênticos e gramática que cresce aos poucos.
+nicação do dia a dia, textos
 
 **INSIDE THIS BOOK**
 
@@ -3797,3 +3790,5 @@ Listas de vocabulário e revisões
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

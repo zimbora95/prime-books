@@ -8,7 +8,6 @@
 
 ## Year 5
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -79,33 +78,42 @@ Unit 1 · Improving communication
 7
 
 Unit 2 · Obeying the law
-26
 
 Unit 3 · Globalisation
-39
 
 Unit 4 · The world of work
-54
 
 Unit 5 · Working with other countries
-68
 
 Unit 6 · Digital world
-83
 
 Word list
-97
 
 Sources and references
-99
 
 Answers
-105
 
 For teachers
-108
 
 3
+
+27
+
+41
+
+56
+
+71
+
+86
+
+101
+
+103
+
+109
+
+112
 
 <!-- page 4 -->
 
@@ -2994,6 +3002,7 @@ still cannot get online. Discuss: why might that make some countries stronger at
 digital work than others?
 
 100
+100
 
 <!-- page 101 -->
 
@@ -3048,6 +3057,7 @@ supply chain - the path from materials to finished product to buyer
 hybrid culture - local and global styles mixed together
 
 101
+101
 
 <!-- page 102 -->
 
@@ -3089,6 +3099,7 @@ misinformation - false or misleading information
 network - linked systems that carry data between devices
 
 102
+102
 
 <!-- page 103 -->
 
@@ -3126,6 +3137,7 @@ PDF/Input/
 2026-08-
 10
 
+103
 103
 
 <!-- page 104 -->
@@ -3235,6 +3247,7 @@ No readable text
 13
 
 104
+104
 
 <!-- page 105 -->
 
@@ -3326,6 +3339,7 @@ Adult holds device
 10
 
 105
+105
 
 <!-- page 106 -->
 
@@ -3413,6 +3427,7 @@ device
 10
 
 106
+106
 
 <!-- page 107 -->
 
@@ -3463,6 +3478,7 @@ Content illustrations (2026-08-10)
 Original teaching art generated for this title (Prime School Press interior figures). Captions tell pupils
 what to look for.
 
+107
 107
 
 <!-- page 108 -->
@@ -3532,6 +3548,7 @@ Refresh any live statistics before assembly quotes.
 Content figures are original Prime illustrations, not third-party Input art.
 
 108
+108
 
 <!-- page 109 -->
 
@@ -3585,6 +3602,7 @@ Phone upgrade is not a human right; food, education, protection are
 2.4-2.5
 Fair consequences + no gossip; cases are principles
 
+109
 109
 
 <!-- page 110 -->
@@ -3648,6 +3666,7 @@ Helpful vs harmful \"help\"
 Space/cyber need cross-border rules
 
 110
+110
 
 <!-- page 111 -->
 
@@ -3672,6 +3691,7 @@ Rights + duties + tell an adult
 6.5-6.6
 Creator permissions; AI = pattern tool, not person
 
+111
 111
 
 <!-- page 112 -->
@@ -3717,10 +3737,12 @@ Folder name on disk may read Global Prespectives (historical spelling); product 
 Perspectives.
 
 112
+112
 
 <!-- page 113 -->
 
 ---
+113
 113
 
 <!-- page 114 -->
@@ -3730,13 +3752,9 @@ Perspectives.
 
 ## Global Perspectives
 
-Year 5 · Cambridge Primary · Student Manual
-
 My Look Outwards notes.
 
-Six units, one careful habit of mind. Research the world, check the source, debate
-
-fairly, and act on what you found out.
+search the world, check the source, debate
 
 **INSIDE THIS BOOK**
 
@@ -3760,3 +3778,5 @@ Original watercolour illustration throughout
 Ages 9–10 · Upper Primary
 
 **primeschool.pt**
+
+              

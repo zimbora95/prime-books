@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -5639,13 +5638,7 @@ Prime School Press · www.primeschool.pt
 
 ## Portuguese 1st
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
-A língua que já é tua — agora escrita com orgulho.
-
-Português Língua Materna para o Year 7: leitura, escrita, gramática e oralidade
-
-com textos autênticos e projetos de escrita.
+tura, escrita, gramática e oralidade
 
 **INSIDE THIS BOOK**
 
@@ -5669,3 +5662,5 @@ Balanço no fim de cada unidade
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

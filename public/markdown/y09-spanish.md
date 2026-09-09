@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -22002,13 +22001,7 @@ VUELTA AL KM 0
 
 ## Spanish
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-Real Spanish, from the first page.
-
-Year 9 Spanish builds confident communication: everyday topics, authentic texts
-
-and grammar that grows step by step.
+nication: everyday topics, authentic texts
 
 **INSIDE THIS BOOK**
 
@@ -22032,3 +22025,5 @@ Vocabulary lists and review pages
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

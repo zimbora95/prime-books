@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Mathematics
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -10676,24 +10674,17 @@ FOR TEACHERS
 <!-- page 364 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Mathematics
-
-Year 1 · Cambridge Early Years · Student Manual
 
 Count it. Check it. Then say how you know.
 
 Down under the roots of the old oak there is a schoolroom. Otto the owl counts
 
-acorns, Hattie the hedgehog guesses and then checks, and Milo the mouse asks the
+hecks, and Milo the mouse asks the
 
-question that matters most: how do you know?
-
-Sixteen units of real mathematics, six projects along the way and a counting fair of
-
-your own at the end. Every page is meant to be written in.
+ay and a counting fair of
 
 **INSIDE THIS BOOK**
 
@@ -10717,3 +10708,5 @@ Original watercolour illustration throughout
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

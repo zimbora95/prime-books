@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -3043,13 +3042,7 @@ Prime School Press · www.primeschool.pt
 
 ## Portuguese 2nd
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
-Português de verdade, passo a passo.
-
-Português Língua Segunda para o Year 7: comunicação do dia a dia, textos
-
-autênticos e gramática que cresce aos poucos.
+nicação do dia a dia, textos
 
 **INSIDE THIS BOOK**
 
@@ -3073,3 +3066,5 @@ Listas de vocabulário e revisões
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

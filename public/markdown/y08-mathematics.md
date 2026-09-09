@@ -8,7 +8,6 @@
 
 ## Year 8
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -716,13 +715,7 @@ Unit 1 scenario is drawn from real summer festivals in Portugal.
 
 ## Mathematics
 
-Year 8 · Cambridge Lower Secondary · Student Manual
-
-Mathematics that explains itself.
-
-Year 8 mathematics moves step by step from concrete to abstract: every rule is
-
-derived, every method modelled, every unit practised and reviewed.
+very rule is
 
 **INSIDE THIS BOOK**
 
@@ -746,3 +739,5 @@ Exam-style questions with answers
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

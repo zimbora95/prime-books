@@ -8,7 +8,6 @@
 
 ## Year 10
 
-Cambridge Upper Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -22949,13 +22948,7 @@ stock required for identity frames.
 
 ## Portuguese 1st
 
-Year 10 · Cambridge Upper Secondary · Student Manual
-
-A língua que já é tua — agora escrita com orgulho.
-
-Português Língua Materna para o Year 10: leitura, escrita, gramática e oralidade
-
-com textos autênticos e projetos de escrita.
+itura, escrita, gramática e oralidade
 
 **INSIDE THIS BOOK**
 
@@ -22979,3 +22972,5 @@ Balanço no fim de cada unidade
 Ages 14–16 · Upper Secondary
 
 **primeschool.pt**
+
+Student Manual

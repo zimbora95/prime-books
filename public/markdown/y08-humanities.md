@@ -8,7 +8,6 @@
 
 ## Year 8
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -11601,13 +11600,7 @@ legion 120, 123, 131·132, 136, 144
 
 ## Humanities
 
-Year 8 · Cambridge Lower Secondary · Student Manual
-
-Learn to read the world.
-
-Year 8 humanities weaves history, geography and citizenship into one course:
-
-sources, maps, case studies and big questions about people and place.
+ourse:
 
 **INSIDE THIS BOOK**
 
@@ -11631,3 +11624,5 @@ Unit reviews with model answers
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

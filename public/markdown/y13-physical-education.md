@@ -8,7 +8,6 @@
 
 ## Year 13
 
-Cambridge International A Level
 Student Manual
 
 <!-- page 2 -->
@@ -1287,13 +1286,7 @@ consistency and smart decision-making control every rally."
 
 ## Physical Education
 
-Year 13 · Cambridge International A Level · Student Manual
-
-Move well. Understand why.
-
-Year 13 physical education develops practical skill and the theory behind it:
-
-anatomy, training, tactics and healthy participation for life.
+eory behind it:
 
 **INSIDE THIS BOOK**
 
@@ -1317,3 +1310,5 @@ Assessment preparation included
 Ages 17–19 · Advanced Levels
 
 **primeschool.pt**
+
+Student Manual

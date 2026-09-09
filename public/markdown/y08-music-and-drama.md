@@ -8,7 +8,6 @@
 
 ## Year 8
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -18,13 +17,7 @@ Student Manual
 
 ## Music & Drama
 
-Year 8 · Cambridge Lower Secondary · Student Manual
-
-A subject worth practising every day.
-
-A full year of study: clear explanations, worked examples and practice that builds,
-
-unit by unit, toward mastery.
+anations, worked examples and practice that builds,
 
 **INSIDE THIS BOOK**
 
@@ -48,3 +41,5 @@ Designed for the Cambridge classroom
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

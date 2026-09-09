@@ -8,7 +8,6 @@
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -7109,13 +7108,9 @@ FOR TEACHERS
 
 ## Global Perspectives
 
-Year 2 · Cambridge Early Years · Student Manual
-
 The Field Notebook. Look outwards.
 
-Ask, listen, compare and act. A field notebook for finding out how the world works,
-
-one careful question at a time.
+field notebook for finding out how the world works,
 
 **INSIDE THIS BOOK**
 
@@ -7139,3 +7134,5 @@ Original watercolour illustration throughout
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
+
+              

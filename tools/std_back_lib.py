@@ -51,7 +51,7 @@ def build_back(page, year, subject_title, level, ages, band, copy, art_path, str
         page.insert_text((x0,y+32+i*36),line,fontsize=size,fontname='ttl',fontfile=FONT_TITLE,color=INK)
     ty=y+32+len(lines)*36+2
     page.draw_rect(pymupdf.Rect(x0,ty,x0+22,ty+3),color=None,fill=tuple(c/255 for c in stripe_rgb))
-    page.insert_text((x0,ty+22),f'Year {year} · {level} · Student Manual',fontsize=11,fontname='body',fontfile=FONT_BODY,color=GREY)
+    page.insert_text((x0,ty+22),f'Year {year} · Student Manual',fontsize=11,fontname='body',fontfile=FONT_BODY,color=GREY)
     by=ty+48
     paras=[copy['hook'],copy.get('blurb','')]
     for p in paras:

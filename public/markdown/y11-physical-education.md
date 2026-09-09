@@ -8,7 +8,6 @@
 
 ## Year 11
 
-Cambridge Upper Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -1248,13 +1247,7 @@ support your teammates on every down."
 
 ## Physical Education
 
-Year 11 · Cambridge Upper Secondary · Student Manual
-
-Move well. Understand why.
-
-Year 11 physical education develops practical skill and the theory behind it:
-
-anatomy, training, tactics and healthy participation for life.
+eory behind it:
 
 **INSIDE THIS BOOK**
 
@@ -1278,3 +1271,5 @@ Assessment preparation included
 Ages 15–16 · Upper Secondary
 
 **primeschool.pt**
+
+Student Manual

@@ -8,7 +8,6 @@
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -415,20 +414,30 @@ You will design one page that removes a barrier and welcomes more children.
 Five words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-education: growing knowledge and skills for life, not only school lessons
+education
 
-barrier: something that blocks access, such as cost, distance, danger or
-building design
+barrier
 
-enquiry: careful asking and checking before you decide
+enquiry
 
-inclusive: designed so that more people can take part
+inclusive
 
-perspective: a way of seeing from somebody else's place and story
+perspective
 
 10
 
 UNIT 1 · EDUCATION FOR ALL
+
+: growing knowledge and skills for life, not only school lessons
+
+: careful asking and checking before you decide
+
+: designed so that more people can take part
+
+: a way of seeing from somebody else's place and story
+
+: something that blocks access, such as cost, distance, danger or
+building design
 
 <!-- page 11 -->
 
@@ -1116,17 +1125,25 @@ Some people talk, draw or think first; different is not wrong.
 Five words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-body language: messages your face, hands and posture send without words
+body language
 
-tone: how a voice sounds: kind, sharp, tired, teasing
+tone
 
-open question: a question that needs more than yes or no
+open question
 
-closed question: a question that can be answered yes or no
+closed question
 
 UNIT 2 · IMPROVING COMMUNICATION
 
 29
+
+: messages your face, hands and posture send without words
+
+: how a voice sounds: kind, sharp, tired, teasing
+
+: a question that needs more than yes or no
+
+: a question that can be answered yes or no
 
 <!-- page 30 -->
 
@@ -1746,15 +1763,29 @@ Maps, kind rules and clear help make the first week less lonely.
 Five words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-migrate: to move from one place to live in another
+migrate
 
-settle: to make a new home in a place
+settle
 
-community: people who share a place or an interest and help each other
+community
 
-culture: everyday ways of living: food, games, languages, holidays
+culture
 
-perspective: a way of seeing from somebody else's place and story
+perspective
+
+UNIT 3 · MOVING TO A NEW COUNTRY
+
+47
+
+: to move from one place to live in another
+
+: to make a new home in a place
+
+: people who share a place or an interest and help each other
+
+: everyday ways of living: food, games, languages, holidays
+
+: a way of seeing from somebody else's place and story
 
 <!-- page 48 -->
 
@@ -2371,16 +2402,22 @@ Start from a real need, a fair plan and a kindness check.
 Four words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
 
-skill: something you can do better with practice
+skill
 
-goods: things you can hold that people make or grow
+goods
 
-services: helpful work people do for others
+services
 
 UNIT 4 · THE WORLD OF WORK
 
 64
 65
+
+: something you can do better with practice
+
+: things you can hold that people make or grow
+
+: helpful work people do for others
 
 <!-- page 66 -->
 
@@ -3024,6 +3061,12 @@ Sleep, outdoor play and family time still need room in the day.
 
 Six words for this unit. Say each one out loud, then find it again on the page
 where it is taught.
+
+UNIT 5 · DIGITAL WORLD
+
+81
+82
+83
 
 digital world: the devices, apps and networks people use to learn, play and talk
 
@@ -4251,13 +4294,9 @@ FOR TEACHERS
 
 ## Global Perspectives
 
-Year 4 · Cambridge Primary · Student Manual
-
 One world, five units, thirty careful questions.
 
-Research it, debate it, then act on it. Global issues made honest for
-
-eight-year-olds, with sources logged and never guessed.
+honest for
 
 **INSIDE THIS BOOK**
 
@@ -4281,3 +4320,5 @@ Original watercolour illustration throughout
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
+
+              

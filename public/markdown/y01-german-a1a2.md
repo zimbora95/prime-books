@@ -8,7 +8,6 @@
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -4709,9 +4708,7 @@ Deutsch lernen, ganz leicht gemacht.
 
 A first German course for young beginners, following the CEFR A1 and A2 steps.
 
-Say hello, count, order a pretzel, tell the time, and write your first postcard - all in
-
-German, all through story.
+etzel, tell the time, and write your first postcard - all in
 
 **INSIDE THIS BOOK**
 
@@ -4736,4 +4733,4 @@ Ages 5–6 · Lower Primary
 
 **primeschool.pt**
 
-Year 1 · Prime School Press · A1/A2 · Student Manual
+              

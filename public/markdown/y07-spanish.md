@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -11373,13 +11372,7 @@ Sources and references
 
 ## Spanish
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
-Real Spanish, from the first page.
-
-Year 7 Spanish builds confident communication: everyday topics, authentic texts
-
-and grammar that grows step by step.
+nication: everyday topics, authentic texts
 
 **INSIDE THIS BOOK**
 
@@ -11403,3 +11396,5 @@ Vocabulary lists and review pages
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

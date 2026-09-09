@@ -8,7 +8,6 @@
 
 ## Year 10
 
-Cambridge Upper Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -2366,13 +2365,7 @@ FOR TEACHERS
 
 ## Business BTEC L2
 
-Year 10 · Cambridge Upper Secondary · Student Manual
-
-Business, learned by doing business.
-
-This BTEC Level 2 course in Year 10 covers enterprise, finance, marketing and
-
-people through real business scenarios and assessed coursework.
+rketing and
 
 **INSIDE THIS BOOK**
 
@@ -2396,3 +2389,5 @@ Assignment-style practice tasks
 Ages 14–16 · Upper Secondary
 
 **primeschool.pt**
+
+Student Manual

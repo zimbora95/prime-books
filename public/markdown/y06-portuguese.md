@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Portuguese 1st Language
 
 ## Year 6
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -3967,18 +3965,11 @@ Prime School Press · www.primeschool.pt
 <!-- page 110 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Portuguese 1st Language
 
-Year 6 · Cambridge Primary · Student Manual
-
-O último ano do ensino primário, em português.
-
-Leitura, escrita e fala em nível de exame. Textos longos, escrita com intenção,
-
-apresentações orais, e a gramática e a ortografia sempre em contexto.
+enção,
 
 **INSIDE THIS BOOK**
 
@@ -4002,3 +3993,5 @@ Ilustração original em aguarela
 Ages 10–11 · Upper Primary
 
 **primeschool.pt**
+
+Student Manual

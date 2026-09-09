@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -714,13 +713,7 @@ Student Manual
 
 ## Humanities
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
-Learn to read the world.
-
-Year 7 humanities weaves history, geography and citizenship into one course:
-
-sources, maps, case studies and big questions about people and place.
+ourse:
 
 **INSIDE THIS BOOK**
 
@@ -744,3 +737,5 @@ Unit reviews with model answers
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

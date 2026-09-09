@@ -8,7 +8,7 @@
 
 ## Year 1
 
-Prime Books Press
+Student Manual
 
 <!-- page 2 -->
 
@@ -17,13 +17,7 @@ Prime Books Press
 
 ## Computing & Robotics
 
-Year 1 · Cambridge Early Years · Student Manual
-
-Understand the machine. Then build with it.
-
-Year 1 computing and robotics pairs computational thinking with hands-on builds:
-
-programming, data, networks and working robots.
+l thinking with hands-on builds:
 
 **INSIDE THIS BOOK**
 
@@ -47,6 +41,8 @@ Digital safety and responsibility
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual
 
 <!-- page 3 -->
 

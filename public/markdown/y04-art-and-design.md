@@ -8,7 +8,6 @@
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -2909,10 +2908,11 @@ and
 Who it is for, and how you know it fits them:
 3
 
-Draw your finished model from the side, in the box below, with the figure in
-place.
-
 4
+
+ART & DESIGN  YEAR 4
+
+75
 
 FINISHED MODEL, FROM THE SIDE
 
@@ -2922,9 +2922,7 @@ G O A B I T F U RT H E R
 Write your label card twice: once for a visitor of your own age, and once for
 an adult. Keep both on the table and watch which one people actually read.
 
-ART & DESIGN  YEAR 4
-
-75
+Draw your finished model from the side, in the box below, with the figure in place.
 
 <!-- page 76 -->
 
@@ -2969,36 +2967,34 @@ Its purpose, in one sentence:
 
 Where will a visitor stand to see it best, and why there?
 
-Sketch your part of the table, showing the model, the figure and the label
-card.
-
 ART & DESIGN  YEAR 4
 STUDIO SHOW
 
 76
 
+Sketch your part of the table, showing the model, the figure and the label
+
+card.
+
 <!-- page 77 -->
 
 ---
-[THE BUILD TABLE PLAN sketch box enlarged as the main white drawing area; Picture 4.6 placed below at reduced size]
-
-Picture 4.6 The build table at the end of the year: a shelter, a bridge, a tower and a market stall standing together, with a
-small figure sitting on the shelter bench. Look at that figure, because it is the only thing in the picture that tells you how
-big any of these buildings are.
-
-After the show
-What did visitors ask about first?
-
-What would you change if you built it again?
-
-THE BUILD TABLE PLAN
-
 ART & DESIGN  YEAR 4
 
 77
 
-Sketch your part of the table, showing the model, the figure and the label
-card.
+**THE BUILD TABLE PLAN**
+
+**After the show**
+
+What did visitors ask about first?
+
+What would you change if you built it again?
+
+Picture 4.6  The build table at the end of the year: a shelter, a bridge, a tower and a market stall standing
+together, with a small figure sitting on the shelter bench. Look at that figure, because it is the only thing in the
+
+picture that tells you how big any of these buildings are.
 
 <!-- page 78 -->
 
@@ -3211,13 +3207,9 @@ STUDIO SHOW
 
 ## Art & Design
 
-Year 4 · Cambridge Primary · Student Manual
-
 Look closely. Then make something of what you saw.
 
-Four units, twenty topics, full control of the materials. Weave, sculpt, print and
-
-paint with intention, and curate the exhibition at the end.
+ave, sculpt, print and
 
 **INSIDE THIS BOOK**
 
@@ -3241,3 +3233,5 @@ Original watercolour illustration throughout
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
+
+              

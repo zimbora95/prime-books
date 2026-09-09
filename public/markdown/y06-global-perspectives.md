@@ -8,7 +8,6 @@
 
 ## Year 6
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -2102,7 +2101,7 @@ Unit 3 reflection · Globalisation
 WHAT WE LEARNED
 
 [ ] I can sketch a supply chain and name interdependence.
-[ ] I can explain fast idea travel and its risks.
+
 [ ] I can discuss cultural mix with respect.
 [ ] I can name winners-and-losers questions.
 [ ] I can identify a borderless problem.
@@ -2123,6 +2122,8 @@ Prime School Press · www.primeschool.pt
 **Listen / Correct: Evidence of learning, not perfection.**
 **Support: Revisit weak outcome with a short task.**
 **Extra challenge: Write one goal for the next unit.**
+
+[ ] I can explain fast idea travel and its risks.
 
 <!-- page 55 -->
 
@@ -4787,15 +4788,11 @@ Prime School Press · www.primeschool.pt
 
 ## Global Perspectives
 
-Year 6 · Cambridge Primary · Student Manual
-
 Six units, six questions about the world.
 
 Improving communications, obeying the law, globalisation, the world of work,
 
-working with other countries, the digital world. Research it, debate it, then act on
-
-it.
+rking with other countries, the digital world. Research it, debate it, then act on
 
 **INSIDE THIS BOOK**
 
@@ -4819,3 +4816,5 @@ QR codes for every unit, adult-supervised
 Ages 10–11 · Upper Primary
 
 **primeschool.pt**
+
+              

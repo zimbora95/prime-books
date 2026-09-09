@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -584,13 +583,7 @@ https://gml.noaa.gov/ccgg/trends/
 
 ## Portuguese
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-A língua que já é tua — agora escrita com orgulho.
-
-Português Língua Materna para o Year 9: leitura, escrita, gramática e oralidade
-
-com textos autênticos e projetos de escrita.
+tura, escrita, gramática e oralidade
 
 **INSIDE THIS BOOK**
 
@@ -614,3 +607,5 @@ Balanço no fim de cada unidade
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

@@ -8,7 +8,6 @@
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -8253,9 +8252,7 @@ Four pupils, one notebook, and every word earned.
 
 You will meet four pupils in these pages, each with a different way into writing.
 
-See how it goes before you try it, then try the awkward question, which is usually
-
-the best one.
+s before you try it, then try the awkward question, which is usually
 
 **INSIDE THIS BOOK**
 
@@ -8280,4 +8277,4 @@ Ages 6–7 · Lower Primary
 
 **primeschool.pt**
 
-Year 2 · Prime School Press · Student Manual
+              

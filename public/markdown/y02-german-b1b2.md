@@ -6,16 +6,14 @@
 ---
 ## German
 
-## Year 2
-
-Cambridge Early Years
-Student Manual
-
 ## B1
 
 **FIRST LANGUAGE**
 
 **YEAR 2**
+## Year 2
+
+Student Manual
 
 <!-- page 2 -->
 
@@ -3123,15 +3121,9 @@ This is your treasure book. Keep your best work here!
 
 ## German
 
-Year 2 · Cambridge Early Years · B1/B2 · Student Manual
-
-Now German is yours to think in.
-
 The next German step: opinions, stories, plans and arguments. Read real texts,
 
-write real letters, and say exactly what you mean, from the first past tense to the
-
-subjunctive.
+ters, and say exactly what you mean, from the first past tense to the
 
 **INSIDE THIS BOOK**
 
@@ -3156,10 +3148,8 @@ Ages 6–7 · Lower Primary
 
 **primeschool.pt**
 
-Year 2 · Cambridge Early Years · B1 First Language · Student Manual
-
-Now German is yours to think in.
-
 B1 First Language of the Common European Framework
 
 **YEAR 2  ·  B1 LEVEL  ·  NATIVE / FIRST LANGUAGE**
+
+Student Manual

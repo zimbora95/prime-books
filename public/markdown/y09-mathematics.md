@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -658,13 +657,7 @@ exponents, including zero, negative and fractional powers.
 
 ## Mathematics
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-Mathematics that explains itself.
-
-Year 9 mathematics moves step by step from concrete to abstract: every rule is
-
-derived, every method modelled, every unit practised and reviewed.
+very rule is
 
 **INSIDE THIS BOOK**
 
@@ -688,3 +681,5 @@ Exam-style questions with answers
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

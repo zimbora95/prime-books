@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -6567,13 +6566,7 @@ Prime School Press - www.primeschool.pt
 
 ## Humanities
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-Learn to read the world.
-
-Year 9 humanities weaves history, geography and citizenship into one course:
-
-sources, maps, case studies and big questions about people and place.
+ourse:
 
 **INSIDE THIS BOOK**
 
@@ -6597,3 +6590,5 @@ Unit reviews with model answers
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

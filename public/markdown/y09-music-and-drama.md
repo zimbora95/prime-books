@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -4320,13 +4319,7 @@ THE PLAY
 
 ## Music and Drama
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-Make something the room remembers.
-
-Year 9 music and drama builds performing, composing and responding alongside
-
-staging, voice and ensemble work.
+forming, composing and responding alongside
 
 **INSIDE THIS BOOK**
 
@@ -4350,3 +4343,5 @@ Showcase tasks per unit
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Computing & Robotics
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -1337,20 +1335,13 @@ NOW I CAN
 <!-- page 30 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Computing & Robotics
 
-Year 4 · Cambridge Primary · Student Manual
-
 Write it, test it, fix it, prove it.
 
-From clear instructions to real programs that sense and decide. Collect honest
-
-data, spot the bug before the machine does, and build a program that does exactly
-
-what you meant.
+ctly
 
 **INSIDE THIS BOOK**
 
@@ -1374,3 +1365,5 @@ QR codes, each printed in words as well
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

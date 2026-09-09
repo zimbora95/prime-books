@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Mathematics
 
 ## Year 3
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -2742,18 +2740,11 @@ P R I M E S C H O O L · 2 0 2 6
 <!-- page 80 -->
 
 ---
-
 **P R I M E  B O O K S**
 
 ## Mathematics
 
-Year 3 · Cambridge Primary · Student Manual
-
-Measure the garden. Then prove you are right.
-
-Number, measuring, shapes and sharing, with a reason asked for every time. Draw
-
-it, build it or say it, then check it a different way.
+ason asked for every time. Draw
 
 **INSIDE THIS BOOK**
 
@@ -2777,3 +2768,5 @@ Over a thousand practice items, no printed answers
 Ages 7–8 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual
