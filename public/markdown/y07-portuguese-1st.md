@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (118 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (135 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -17,398 +17,337 @@ PRIME SCHOOL PRESS · YEAR 7 PORTUGUESE
 
 ## Índice
 
+**UNIDADE 1 · TEXTOS DOS MEDIA (pág. 3)**
+
+A notícia ...........................................................
+4
+
+Ler uma notícia .................................................
+5
+
+Exercícios · A notícia .........................................
+6
+
+Ler outra notícia ................................................
+7
+
+Gramática · As classes de palavras ....................
+8
+
+Oralidade · Escutar a notícia ..............................
+9
+
+Escrever uma notícia .......................................
+10
+
+A biografia ......................................................
+11
+
+Fernando Pessoa ............................................
+12
+
+Ler outra biografia ...........................................
+13
+
+Gramática · O adjectivo e o verbo ....................
+14
+
+Gramática · Conjugações ................................
+15
+
+Gramática · Tempos em acção .........................
+16
+
+Escrever uma biografia ....................................
+17
+
+O artigo de opinião ..........................................
+18
+
+Exercícios · Artigo de opinião ...........................
+19
+
+Ler outro artigo de opinião ...............................
+20
+
+O texto publicitário ..........................................
+21
+
+Exercícios · O texto publicitário ........................
+22
+
+A publicidade em esquema ..............................
+23
+
+Revisão da Unidade 1 .....................................
+26
+
+**UNIDADE 2 · UMA VIAGEM (pág. 28)**
+
+Abertura da Unidade 2 .....................................
+28
+
+Palavras para partir .........................................
+29
+
+Vamos ler · O Cavaleiro da Dinamarca .............
+30
+
+Missão do leitor ...............................................
+31
+
+Compreender e justificar ..................................
+32
+
+Personagem, espaço e tempo ..........................
+33
+
+Palavras em viagem ........................................
+34
+
+Gramática · Tempos verbais ............................
+35
+
+Pretérito perfeito ou imperfeito? .......................
+36
+
+A viagem como símbolo ..................................
+37
+
+Vamos ler · O Rapaz de Bronze .......................
+38
+
+Exercícios · O Rapaz de Bronze .......................
+39
+
+Ler nas entrelinhas ..........................................
+40
+
+Vamos ler · A Floresta .....................................
+41
+
+Caracterização e escrita ..................................
+42
+
+Exercícios · A Floresta .....................................
+43
+
+Isabel e a floresta ............................................
+44
+
+Explícito e implícito ..........................................
+45
+
+Vocabulário e gramática ..................................
+46
+
+Comparação e desafio final ..............................
+47
+
+Conhece a autora · Maria Alberta Menéres .......
+48
+
+Ulisses · uma história de aventura ....................
+49
+
+Ulisses · antes de ler .......................................
+50
+
+Vamos ler · Ulisses e Polifemo .........................
+51
+
+Exercícios · Ulisses e Polifemo .........................
+52
+
+Recursos expressivos · Ulisses ........................
+53
+
+O passaporte do leitor .....................................
+78
+
+Ficha de revisão · Unidade 2 ............................
+79
+
+**O ASSALTO · AGUALUSA (pág. 76)**
+
+O Assalto · uma história de suspense ...............
+76
+
+Conhece o autor · Agualusa .............................
+77
+
+Vocabulário antes da leitura .............................
+78
+
+Vamos ler · O Assalto ......................................
+79
+
+Compreensão do texto ....................................
+80
+
+Verdadeiro ou falso .........................................
+81
+
+Escolha múltipla ..............................................
+82
+
+Lê nas entrelinhas ...........................................
+83
+
+Quem é o rapaz? ............................................
+84
+
+Uma casa misteriosa .......................................
+85
+
+A construção do suspense ...............................
+86
+
+Gramática · Os tempos verbais ........................
+87
+
+Discurso e recursos .........................................
+88
+
+O narrador ......................................................
+89
+
+Oficina de escrita ............................................
+90
+
+Escrever com os sentidos ................................
+91
+
+Relembra e passaporte ...................................
+92
+
+Autoavaliação .................................................
+93
+
+Passaporte e ficha de revisão ..........................
+94
+
+**UNIDADE 3 · O PALCO À ESPERA (pág. 97)**
+
+Abertura da Unidade 3 .....................................
+97
+
+Conhece a autora · Ducla Soares .....................
+98
+
+Gulliver chega a Portugal! ................................
+99
+
+Antes de ler ..................................................
+100
+
+Vamos ler · Gulliver em Portugal ....................
+101
+
+Gulliver (continuação) ....................................
+102
+
+Depois da leitura ...........................................
+103
+
+Verdadeiro ou falso · Gulliver .........................
+104
+
+Lê nas entrelinhas · Gulliver ...........................
+105
+
+Quem é quem? .............................................
+106
+
+Onde e quando? ...........................................
+107
+
+As palavras do texto ......................................
+108
+
+Lê como um actor ..........................................
+109
+
+Gramática em contexto ..................................
+110
+
+Rir... e pensar ...............................................
+111
+
+Pensa como um leitor ....................................
+112
+
+Oficina de escrita · Gulliver ............................
+113
+
+Um novo olhar sobre Portugal ........................
+114
+
+Debate · viajar muda-nos? .............................
+115
+
+Gulliver chega à tua escola! ...........................
+116
+
+Relembra · texto dramático ............................
+117
+
+Autoavaliação · Gulliver .................................
+118
+
+**UNIDADE 4 · A PALAVRA EM MÚSICA (pág. 119)**
+
+Abertura da Unidade 4 ...................................
+119
+
+Como se faz um poema .................................
+120
+
+Vamos ler · Mar Português .............................
+121
+
+Missão do leitor .............................................
+122
+
+Vamos ler · Amar! ..........................................
+123
+
+Missão do leitor · Amar! .................................
+124
+
+Gramática · Orações coordenadas .................
+125
+
+Gramática · Activa e passiva ..........................
+126
+
+Laboratório · comentar um poema ..................
+127
+
+Laboratório · os teus poemas .........................
+128
+
+Fala e escuta · declamar poesia .....................
+129
+
+Literatura em imagem · poema visual .............
+130
+
+Comenta com precisão ..................................
+131
+
+Relembra · o que aprendi ...............................
+132
+
+O passaporte do leitor ...................................
+133
+
+**RECURSOS (pág. 134)**
+
+Dossier do escritor · Soluções ........................
+135
+
 Prime School Press · www.primeschool.pt
-
-**UNIDADE 1 · TEXTOS DOS MEDIA**
-
-Unidade 1 · Textos dos Media.........................
-**3**
-
-A notícia.......................................................
-**4**
-
-Ler uma notícia.............................................
-**5**
-
-Exercícios · A notícia
-.........................................
-**6**
-
-Ler outra notícia............................................
-**7**
-
-Gramática · As classes de palavras
-..................
-**8**
-
-Oralidade · Escutar a notícia
-.............................
-**9**
-
-Escrever uma notícia....................................
-**10**
-
-A biografia ..................................................
-**11**
-
-Fernando Pessoa ........................................
-**12**
-
-Ler outra biografia · uma campeã....................
-**13**
-
-Gramática · O adjectivo e o verbo
-.....................
-**14**
-
-Gramática · As conjugações dos verbos
-.............
-**15**
-
-Gramática · Os tempos verbais em acção
-...........
-**16**
-
-Escrever uma biografia ................................
-**17**
-
-O artigo de opinião........................................
-**18**
-
-Exercícios · O artigo de opinião
-...........................
-**19**
-
-Ler outro artigo de opinião.............................
-**20**
-
-O texto publicitário.......................................
-**21**
-
-Exercícios · O texto publicitário
-...........................
-**22**
-
-Gramática · Os pronomes e o verbo
-..................
-**23**
-
-Gramática · Alterações fonéticas e contração
-........
-**24**
-
-Exercícios · A colocação dos pronomes
-..............
-**25**
-
-Revisão da Unidade 1...................................
-**26**
-
-Ficha de revisão · Unidade 1
-.............................
-**27**
-
-**UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS**
-
-Unidade 2 · Uma viagem, muitas histórias......
-**28**
-
-Palavras para partir .....................................
-**29**
-
-Vamos ler · O Cavaleiro da Dinamarca.............
-**30**
-
-Missão do leitor............................................
-**31**
-
-Compreender e justificar ..............................
-**32**
-
-Personagem, espaço e tempo.......................
-**33**
-
-Palavras em viagem ....................................
-**34**
-
-Gramática · Os tempos verbais na narrativa
-......
-**35**
-
-Pretérito perfeito ou imperfeito?....................
-**36**
-
-A viagem como símbolo.................................
-**37**
-
-Vamos ler · O Rapaz de Bronze....................
-**38**
-
-Exercícios · O Rapaz de Bronze.....................
-**39**
-
-Ler nas entrelinhas ......................................
-**40**
-
-Vamos ler · A Floresta..................................
-**41**
-
-Caracterização e escrita................................
-**42**
-
-Exercícios · A Floresta...................................
-**43**
-
-Isabel e a floresta ........................................
-**44**
-
-Explícito e implícito.........................................
-**45**
-
-Vocabulário e gramática em contexto.............
-**46**
-
-Comparação e desafio final...........................
-**47**
-
-Conhece a autora · Maria Alberta Menéres
-........
-**48**
-
-Ulisses · uma história de aventura
-....................
-**49**
-
-Ulisses · antes de ler......................................
-**50**
-
-Vamos ler · Ulisses e Polifemo........................
-**51**
-
-Exercícios · Ulisses e Polifemo
-.........................
-**52**
-
-Exercícios · Ulisses e Polifemo
-.........................
-**53**
-
-Exercícios · Ulisses e Polifemo
-.........................
-**54**
-
-Ler nas entrelinhas · Ulisses............................
-**55**
-
-Caracterização das personagens...................
-**56**
-
-Espaço e tempo · Ulisses
-..................................
-**57**
-
-Vocabulário · Ulisses
-.......................................
-**58**
-
-Gramática em contexto · Ulisses
-......................
-**59**
-
-Recursos expressivos · Ulisses.......................
-**60**
-
-Educação literária · a aventura
-...........................
-**61**
-
-Interpretação aprofundada · Ulisses
-..................
-**62**
-
-Oficina de escrita · Ulisses..............................
-**63**
-
-Escrita criativa · um novo monstro...................
-**64**
-
-Debate · inteligência ou força?
-..........................
-**65**
-
-Desafio final · escapa da gruta!.......................
-**66**
-
-Autoavaliação · Ulisses
-.....................................
-**67**
-
-Passaporte literário · Ulisses
-............................
-**68**
-
-Como interpretar um texto narrativo .............
-**69**
-
-Pintar com palavras · a descrição
-.....................
-**70**
-
-A arte do diálogo..........................................
-**71**
-
-Laboratório de Escrita · a tua viagem..............
-**72**
-
-Caixa de ferramentas do escritor ..................
-**73**
-
-Fala e escuta · conversa de viajantes..............
-**74**
-
-Literatura em imagem · o mapa da viagem......
-**75**
-
-Relembra · o que aprendi...............................
-**76**
-
-Balanço da unidade · missão cumprida?
-...........
-**77**
-
-O passaporte do leitor .................................
-**78**
-
-Ficha de revisão · Unidade 2
-.............................
-**79**
-
-**UNIDADE 3 · O PALCO À ESPERA**
-
-Unidade 3 · O Palco à Espera........................
-**80**
-
-Conhece a autora · Luísa Ducla Soares
-............
-**81**
-
-Gulliver chega a Portugal! ............................
-**82**
-
-Antes de ler ................................................
-**83**
-
-Vamos ler · Gulliver em Portugal......................
-**84**
-
-Gulliver em Portugal (continuação).................
-**85**
-
-Depois da leitura .........................................
-**86**
-
-Verdadeiro ou falso · Gulliver...........................
-**87**
-
-Lê nas entrelinhas · Gulliver
-.............................
-**88**
-
-Quem é quem?............................................
-**89**
-
-Onde e quando? .........................................
-**90**
-
-As palavras do texto ....................................
-**91**
-
-Lê como um actor........................................
-**92**
-
-Gramática em contexto................................
-**93**
-
-Rir... e pensar .............................................
-**94**
-
-Pensa como um leitor ..................................
-**95**
-
-Oficina de escrita · entrevista a Gulliver...........
-**96**
-
-Um novo olhar sobre Portugal ......................
-**97**
-
-Debate · viajar muda a nossa forma de ver o ..
-**98**
-
-Gulliver chega à tua escola!..........................
-**99**
-
-Relembra · texto dramático.............................
-**100**
-
-Autoavaliação · Gulliver
-....................................
-**101**
-
-**UNIDADE 4 · A PALAVRA EM MÚSICA**
-
-Unidade 4 · A Palavra em Música
-.....................
-**102**
-
-Como se faz um poema ...............................
-**103**
-
-Vamos ler · Mar Português
-................................
-**104**
-
-Missão do leitor............................................
-**105**
-
-Vamos ler · Amar!..........................................
-**106**
-
-Missão do leitor · Amar!
-....................................
-**107**
-
-Gramática · Orações coordenadas
-.....................
-**108**
-
-Gramática · Activa, passiva e subordinadas
-**...... 109**
-
-Writing Lab · comentar um poema..................
-**110**
-
-**Writing Lab · escreve os teus poemas............. 111**
-
-**Fala e escuta · declamar poesia...................... 112**
-
-**Literatura em imagem · o poema visual........... 113**
-
-Cambridge Focus · comentar com precisão
-**....... 114**
-
-Relembra · o que aprendi...............................
-**115**
-
-O passaporte do leitor .................................
-**116**
-
-**RECURSOS**
-
-Dossier do escritor ......................................
-**117**
-
-Soluções (exercícios fechados).......................
-**118**
 
 <!-- page 3 -->
 
@@ -3898,6 +3837,665 @@ PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
 
 Prime School Press · www.primeschool.pt
 
+## O Assalto · uma história de suspense
+
+**José Eduardo Agualusa**
+
+**PERGUNTA DE PARTIDA**
+
+Quando entramos num lugar desconhecido, podemos confiar no que vemos? Imagina que entras numa casa
+aparentemente vazia. O que te faria desconfiar de que afinal não estás sozinho?
+
+**NESTA HISTÓRIA VAIS APRENDER A**
+compreender um texto narrativo e identificar informação explícita e implícita;
+caracterizar uma personagem pelas suas acções e reacções;
+reconhecer os elementos que criam suspense e analisar o espaço e o ambiente;
+distinguir pretérito perfeito de pretérito imperfeito;
+identificar discurso directo e reconhecer recursos expressivos;
+escrever uma narrativa de suspense.
+
+**UMA ESCURINHADA NA ESCURIDÃO**
+Há histórias que nos prendem logo nas primeiras linhas. Um rapaz sozinho, uma rua deserta, uma porta alta de
+madeira escura, uma chave fria na mão… e uma voz inesperada no fundo do corredor. Vamos descobrir como
+um escritor constrói o medo e a curiosidade, palavra a palavra.
+
+76
+
+<!-- page 77 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Conhece o autor · José Eduardo Agualusa
+
+**LITERATURA · O AUTOR**
+
+José Eduardo Agualusa nasceu em Angola e é um dos mais conhecidos escritores de língua portuguesa da
+actualidade. A sua obra inclui romances, contos e livros para crianças e jovens.
+
+**TEMAS FREQUENTES NA SUA ESCRITA**
+• identidade e cultura • viagens e descoberta • relações humanas
+
+• imaginação • memória • natureza
+
+A literatura de Agualusa permite também conhecer diferentes realidades e espaços do mundo de língua
+portuguesa.
+
+**RELEMBRA**
+
+Angola é um país africano onde o português é língua oficial. Na literatura angolana podem surgir referências
+culturais, linguísticas e sociais próprias desse contexto.
+
+**ANTES DE LER · O QUE ESPERAS ENCONTRAR?**
+Observa o título: «O Assalto». O título faz-te pensar numa história:
+
+☐ cómica ☐ misteriosa ☐ romântica ☐ policial ☐ de aventura
+
+(Podes escolher mais do que uma opção.)
+
+1. Quem poderá estar envolvido num assalto?
+
+2. Onde poderá acontecer?
+
+3. Que sentimentos esperas encontrar?
+
+4. Completa: «Um assalto pode tornar-se perigoso quando…»
+
+77
+
+<!-- page 78 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vocabulário antes da leitura
+
+**PALAVRAS DO TEXTO**
+
+**LIGA CADA PALAVRA AO SIGNIFICADO ADEQUADO**
+
+**Palavra**
+**Significado**
+
+castelo
+(escreve a letra)
+
+casarão
+(escreve a letra)
+
+corredor
+(escreve a letra)
+
+penumbra
+(escreve a letra)
+
+metal
+(escreve a letra)
+
+A.
+lugar por onde se passa
+
+B.
+construção grande e antiga
+
+C.
+edifício grande, geralmente antigo
+
+D.
+espaço comprido que liga divisões
+
+E.
+pouca luz; iluminação fraca
+
+**DESAFIO 31**
+Que três palavras desta página poderiam contribuir para criar uma atmosfera de suspense? Explica.
+
+78
+
+<!-- page 79 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · O Assalto
+
+**TEXTO LITERÁRIO · JOSÉ EDUARDO AGUALUSA · ADAPTADO**
+
+O rapaz avançou pela rua deserta, com o coração a bater com força contra as costelas. O plano parecia simples
+na sua cabeça, mas agora, diante da porta alta de madeira escura, tudo parecia mais difícil. Olhou para um lado e
+para o outro. Não havia ninguém.
+
+Introduziu a mão no bolso do casaco e sentiu o metal frio da chave que conseguira encontrar no dia anterior. A
+fechadura rangeu, um som agudo que lhe pareceu ecoar por toda a cidade. Empurrou a porta devagar. O interior
+da casa estava mergulhado numa penumbra densa, cheirando a livros velhos e a tempo guardado.
+
+— Quem está aí? — perguntou uma voz súbita, vinda do fundo do corredor.
+
+O rapaz congelou. Não esperava encontrar ninguém àquela hora. A voz não era ameaçadora; era a voz cansada
+de um velho que parecia já ter visto tudo nesta vida. O jovem pensou em fugir, mas os seus pés recusaram
+mover-se, presos ao chão de madeira como se fizessem parte da própria estrutura da casa.
+
+**PRIMEIRA LEITURA**
+Depois de leres, escolhe três palavras que, na tua opinião, criam maior suspense:
+
+1.
+
+2.
+
+3.
+
+**ENQUANTO LÊS·**
+
+Observa como o ambiente muda a cada passo: rua deserta →porta escura →chave →fechadura →penumbra →
+voz.
+
+A porta alta de madeira escura.
+
+79
+
+<!-- page 80 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Compreensão · primeiro olhar
+
+**LEITURA · RESPONDE COM FRASES COMPLETAS**
+
+**EXERCÍCIOS 32**
+1. Onde se encontra o rapaz no início do texto?
+
+2. Como é caracterizada a rua? E a porta?
+
+3. O que tem o rapaz no bolso? O que acontece quando introduz a chave na fechadura?
+
+4. Como é descrito o interior da casa?
+
+5. Quem fala a partir do fundo do corredor? Como é essa voz?
+
+6. Como reage o rapaz quando ouve a voz?
+
+80
+
+<!-- page 81 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Verdadeiro ou falso
+
+**LEITURA · INDICA V OU F**
+
+**VERDADEIRO OU FALSO 33**
+
+**Afirmação**
+**V/F**
+
+O rapaz caminha por uma rua movimentada.
+
+O rapaz está nervoso.
+
+O plano parecia simples antes de ele chegar à casa.
+
+A porta é pequena e clara.
+
+O rapaz tem uma chave.
+
+A fechadura faz um ruído.
+
+A casa está muito iluminada.
+
+O rapaz esperava encontrar alguém.
+
+Uma voz chama pelo rapaz.
+
+O rapaz decide fugir imediatamente.
+Corrige as afirmações falsas:
+
+81
+
+<!-- page 82 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escolha múltipla
+
+**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+
+**EXERCÍCIOS 34**
+1. O estado emocional do rapaz no início é sobretudo de:
+A. alegria B. nervosismo
+C. indiferença D. entusiasmo
+
+2. A rua é descrita como:
+A. movimentada B. barulhenta
+C. deserta D. perigosa
+
+3. O interior da casa encontra-se:
+A. completamente iluminado B. mergulhado numa penumbra
+C. cheio de pessoas D. vazio e moderno
+
+4. A voz que surge pertence:
+A. a uma criança B. a uma mulher
+C. a um jovem D. a um velho
+
+5. O rapaz não consegue fugir porque:
+A. não conhece o caminho B. perdeu a chave
+C. fica paralisado D. alguém o segura
+
+82
+
+<!-- page 83 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Lê nas entrelinhas
+
+**INFORMAÇÃO EXPLÍCITA E IMPLÍCITA**
+
+**LÊ NAS ENTRELINHAS 35**
+Nem tudo é dito directamente. Uma inferência deve ser baseada em pistas presentes no texto.
+
+1. O rapaz está tranquilo? (sim / não) Apresenta uma prova do texto.
+
+2. Como sabemos que ele está nervoso?
+
+3. Porque é que ele empurra a porta devagar?
+
+4. Porque poderá o som da fechadura parecer-lhe tão alto?
+
+5. O que podemos concluir sobre o estado de espírito do rapaz quando ouve a voz?
+
+**DICA**
+
+Uma inferência é uma conclusão retirada de pistas do texto, não uma adivinhação. Pista + interpretação =
+inferência.
+
+83
+
+<!-- page 84 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Quem é o rapaz?
+
+**PERSONAGEM · CARACTERIZAÇÃO**
+
+O texto não descreve fisicamente o rapaz. No entanto, conhecemos algumas características através das suas acções
+e reacções. Escolhe as que consideras adequadas:
+
+☐ corajoso ☐ nervoso ☐ determinado ☐ assustado
+
+☐ curioso ☐ indiferente ☐ impulsivo ☐ cauteloso
+
+Escolhe três e justifica cada uma com uma prova do texto:
+
+1.
+Prova:
+
+2.
+Prova:
+
+3.
+Prova:
+
+**«COM O CORAÇÃO A BATER COM FORÇA»**
+1. O coração do rapaz está literalmente a bater contra as costelas? (sim / não) O que significa a expressão e que
+sentimento transmite?
+
+2. Completa outras possibilidades:
+
+O coração batia como·
+
+As mãos estavam·
+
+A respiração tornou-se·
+
+**DESAFIO 36**
+Escreve uma frase que mostre que uma personagem está assustada sem usares a palavra «assustada».
+
+84
+
+<!-- page 85 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Uma casa misteriosa
+
+**ESPAÇO E AMBIENTE**
+
+O espaço é fundamental para criar o ambiente do texto. Identifica as informações fornecidas pelo narrador:
+
+A RUA é ·
+
+A PORTA é ·
+
+O INTERIOR está ·
+
+O CORREDOR é ·
+
+O CHÃO é ·
+
+**VOCABULÁRIO**
+
+Penumbra: zona de iluminação fraca, onde não há luz suficiente para ver claramente.
+Porque é que o autor não apresenta a casa como um espaço luminoso e acolhedor?
+
+**O ESPAÇO GANHA VIDA · OS SENTIDOS**
+
+**Sentido**
+**Expressão do texto**
+**Que efeito produz?**
+
+Audição
+«um som agudo»
+
+Olfacção
+«cheirando a livros velhos»
+
+Visão
+«uma penumbra densa»
+
+Tato
+«o metal frio da chave»
+
+85
+
+<!-- page 86 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## A construção do suspense
+
+**INTERPRETAÇÃO · PORQUE É QUE QUEREMOS CONTINUAR A LER?**
+
+**EXERCÍCIOS 37**
+Numera as etapas pela ordem em que aparecem no texto:
+
+( ) O rapaz ouve uma voz.
+( ) O rapaz chega a uma casa.
+( ) O rapaz introduz a chave.
+( ) O rapaz entra na casa.
+( ) O rapaz percebe que está alguém no interior.
+
+Qual é o momento de maior suspense do excerto? Justifica.
+
+**COMO O AUTOR AUMENTA A TENSÃO**
+Observa a sequência: rua deserta → porta escura → chave → fechadura → penumbra → voz
+
+1. O ambiente torna-se progressivamente mais tranquilo ou mais tenso? Porquê?
+
+2. Qual destes elementos contribui mais para o suspense?
+☐ a rua ☐ a chave ☐ o silêncio ☐ a voz
+
+**DICA DO LEITOR**
+
+Num texto de suspense, o autor revela a informação pouco a pouco, fazendo o leitor esperar pelo que vai
+acontecer.
+
+86
+
+<!-- page 87 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Gramática · Os tempos verbais
+
+**GRAMÁTICA EM CONTEXTO**
+
+Observa as frases do texto:
+
+«O rapaz avançou pela rua deserta·»
+«O plano parecia simples·»
+«Olhou para um lado e para o outro.»
+«Não havia ninguém.»
+
+**RELEMBRA · OS DOIS TEMPOS**
+
+**Pretérito perfeito**
+**Pretérito imperfeito**
+**Exemplos do texto**
+
+Acção passada e concluída
+Estado, descrição ou acção em desenvolvimentoavançou / parecia, havia
+
+**EXERCÍCIOS 38**
+1. Retira do texto dois verbos no pretérito perfeito.
+
+2. Retira dois verbos no pretérito imperfeito.
+
+3. Qual dos tempos apresenta acções concluídas? E qual é mais usado para descrever situações e estados?
+
+**APLICA · COMPLETA COM A FORMA CORRECTA**
+
+O rapaz ______ pela rua.
+(avançar)
+
+A rua ______ deserta.
+(estar)
+
+O plano ______ simples.
+(parecer)
+
+O rapaz ______ a porta.
+(empurrar)
+
+Não ______ ninguém.
+(haver)
+
+87
+
+<!-- page 88 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Discurso directo e recursos expressivos
+
+**GRAMÁTICA E LEITURA · AS PALAVRAS GANHAM VIDA**
+
+**A VOZ NO CORREDOR**
+No texto encontramos: «— Quem está aí? — perguntou uma voz súbita…» Esta fala está em discurso directo.
+
+1. Quem fala? Que sinal de pontuação introduz a fala?
+
+2. O que esta pergunta provoca no leitor?
+
+TRANSFORMA · passa para discurso indirecto:
+
+O velho perguntou: — Quem está aí?
+O velho perguntou
+
+**DICA**
+
+No discurso directo reproduzimos as palavras da personagem; no indirecto transmitimos o que a personagem
+disse.
+
+**«CHEIRANDO A LIVROS VELHOS E A TEMPO GUARDADO»**
+1. O «tempo» pode realmente ser guardado numa casa? (sim / não) O que significa esta expressão e que imagem
+cria?
+
+2. Encontra outra expressão do texto que torne o ambiente mais misterioso.
+
+**«PRESOS AO CHÃO»**
+1. O rapaz está literalmente preso ao chão? O que significa? Identifica a palavra que introduz a comparação.
+
+2. Cria uma comparação para descrever uma pessoa muito assustada.
+
+88
+
+<!-- page 89 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## O narrador e a interpretação
+
+**ANÁLISE · QUEM CONTA E O QUE SIGNIFICA**
+
+**QUEM CONTA?**
+O narrador descreve o que o rapaz faz, aquilo que vê, sente e pensa.
+
+1. O narrador participa directamente na história? (sim / não)
+
+2. Como sabemos que conhece os pensamentos do rapaz?
+
+3. O narrador ajuda a criar suspense? (sim / não) Explica.
+
+**PENSA MAIS FUNDO 39**
+1. «O plano parecia simples na sua cabeça, mas agora tudo parecia mais difícil.» Porque é que a situação muda
+quando o rapaz chega à casa?
+
+2. O que existe entre aquilo que o rapaz esperava encontrar e aquilo que realmente encontra?
+
+3. Porque é importante o texto referir que «não havia ninguém» antes de aparecer a voz?
+
+4. A voz do velho é ameaçadora? (sim / não) Justifica com o texto.
+
+**O MOMENTO DE MAIOR TENSÃO**
+Qual consideras ser o momento de maior tensão?
+A. Quando chega à casa. B. Quando introduz a chave. C. Quando ouve a voz. D. Quando fica imóvel.
+
+Escolhi:
+Justificação:
+
+89
+
+<!-- page 90 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Oficina de escrita · continua o suspense
+
+**ESCRITA · 180 A 220 PALAVRAS**
+
+**EXERCÍCIOS 40**
+O excerto termina com o rapaz imóvel no corredor. Continua a história. Escreve 180 a 220 palavras, incluindo:
+☐ o que o rapaz vê ☐ quem é o velho ☐ duas falas em discurso directo
+☐ uma descrição do espaço ☐ um momento de tensão ☐ um desfecho
+
+**PLANO**
+
+1. O rapaz·
+
+2. O velho·
+
+3. De repente·
+
+4. Finalmente·
+
+**RASCUNHO**
+
+90
+
+<!-- page 91 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escrever com os cinco sentidos
+
+**ESCRITA · UMA CASA MISTERIOSA**
+
+**EXERCÍCIOS 41**
+Escreve um pequeno parágrafo sobre uma casa misteriosa. Tens de utilizar: uma sensação visual, uma auditiva, uma
+olfativa e uma táctil.
+Exemplo de início: «A porta abriu-se lentamente. Lá dentro…»
+
+**DESAFIO DE ESCRITA · CENA DE SUSPENSE 42**
+Imagina: é noite. Estás sozinho numa casa antiga. Ouves um ruído vindo do andar de cima. Escreve 200 a 250
+palavras com:
+
+⭐ descrição do espaço ⭐ pensamentos da personagem ⭐ 3 verbos no imperfeito
+⭐ 5 verbos no pretérito perfeito ⭐ um diálogo ⭐ uma comparação
+⭐ um momento de suspense ⭐ um final surpreendente
+
+91
+
+<!-- page 92 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Relembra e passaporte literário
+
+**REVISÃO · O QUE APRENDI**
+
+TEXTO NARRATIVO – apresenta acontecimentos com personagens, num tempo e espaço.
+SUSPENSE – criado pela expectativa, incerteza e informação revelada gradualmente.
+CARACTERIZAÇÃO – conhecemos a personagem pelas acções, palavras, pensamentos e reacções.
+ESPAÇO – contribui para criar a atmosfera do texto.
+DISCURSO DIRECTO – reproduz as palavras das personagens.
+PRETÉRITO PERFEITO – acções concluídas. PRETÉRITO IMPERFEITO – estados e descrições.
+
+**PASSAPORTE LITERÁRIO · JOSÉ EDUARDO AGUALUSA**
+
+**«O Assalto»**
+**O teu registo**
+
+Personagem principal
+
+Espaço / ambiente
+
+Conflito
+
+Momento de maior suspense
+
+Recurso expressivo de que me lembro
+
+A minha opinião — gostei do texto?
+☐ Muito ☐ Bastante ☐ Mais ou menos ☐ Pouco
+
+Porquê?
+
+92
+
+<!-- page 93 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
 ## Relembra – o que aprendi
 
 **REVISÃO DA UNIDADE 2**
@@ -3920,9 +4518,9 @@ crescimento · descoberta · coragem · conhecimento · transformação
 Uma frase para levar contigo: as grandes viagens não mudam apenas o lugar onde estamos. Podem
 mudar a forma como vemos o mundo.
 
-76
+93
 
-<!-- page 77 -->
+<!-- page 94 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -3964,9 +4562,9 @@ e pergunta-lhe o que ele aprendeu com a dele. Usa pelo menos dois tempos verbais
 
 ## Balanço da unidade · missão cumprida?
 
-77
+94
 
-<!-- page 78 -->
+<!-- page 95 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -4014,9 +4612,9 @@ A minha classificação:
 As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma como vemos o
 mundo.
 
-78
+95
 
-<!-- page 79 -->
+<!-- page 96 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
@@ -4046,9 +4644,9 @@ difícil.
 Escreve um parágrafo (60-80 palavras) em que descrevas o momento em que o cavaleiro decide partir.
 Usa dois verbos no imperfeito e dois no perfeito.
 
-79
+96
 
-<!-- page 80 -->
+<!-- page 97 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4076,9 +4674,9 @@ GRAMÁTICA · frases simples e complexas, em contexto.
 2. Imagina que um personagem gigante chega à tua cidade: que surpresas o esperam?
 3. O que é preciso para transformar um texto escrito num espectáculo?
 
-80
+97
 
-<!-- page 81 -->
+<!-- page 98 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4109,9 +4707,9 @@ A personagem Gulliver foi criada pelo escritor irlandês Jonathan Swift, no séc
 Soares recupera esta personagem e imagina uma passagem por Portugal.
 PALAVRAS-CHAVE: viagem · aventura · humor · teatro · imaginação · crítica
 
-81
+98
 
-<!-- page 82 -->
+<!-- page 99 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4139,9 +4737,9 @@ descobrir como funciona um texto dramático · conhecer melhor as personagens ·
 e tempo · aprender a fazer inferências · interpretar diálogos · trabalhar palavras compostas ·
 escrever e representar uma cena.
 
-82
+99
 
-<!-- page 83 -->
+<!-- page 100 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4183,9 +4781,9 @@ O que poderá surpreender Gulliver quando chegar a Portugal?
 
 Será que vemos o nosso país da mesma maneira que um estrangeiro o vê?
 
-83
+100
 
-<!-- page 84 -->
+<!-- page 101 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4228,9 +4826,9 @@ portugueses?
 
 A cena continua na página seguinte…
 
-84
+101
 
-<!-- page 85 -->
+<!-- page 102 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4282,9 +4880,9 @@ Luísa Ducla Soares (adapt. livre), As viagens de Gulliver com escala em Portuga
 Marca com cores diferentes: as FALAS de Gulliver · as falas das outras personagens · as
 DIDASCÁLIAS (indicações entre parênteses) · as informações sobre Portugal.
 
-85
+102
 
-<!-- page 86 -->
+<!-- page 103 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4315,9 +4913,9 @@ A minha escolha, porque...
 
 **CAMBRIDGE FOCUS: resposta + evidência do texto = resposta completa.**
 
-86
+103
 
-<!-- page 87 -->
+<!-- page 104 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4377,9 +4975,9 @@ Corrige as afirmações falsas.
 
 Gulliver pensa inicialmente que os portugueses podem ser selvagens.
 
-87
+104
 
-<!-- page 88 -->
+<!-- page 105 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4408,9 +5006,9 @@ esconde nesta pergunta?
 Encontra uma pista → pensa sobre ela → tira uma conclusão.
 Não copies simplesmente uma frase do texto: explica o que ela permite concluir.
 
-88
+105
 
-<!-- page 89 -->
+<!-- page 106 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4439,9 +5037,9 @@ desempenham Maria e Manuel na cena?
 
 Qual das personagens gostarias de representar? Porquê?
 
-89
+106
 
-<!-- page 90 -->
+<!-- page 107 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4470,9 +5068,9 @@ Imagina que montas esta cena num palco. Escolhe três objectos que não poderiam
 
 3 ______________________________
 
-90
+107
 
-<!-- page 91 -->
+<!-- page 108 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4513,9 +5111,9 @@ gentil
 «Chegámos a bom porto.» O que significa esta expressão no contexto? Pode também ser usada com
 sentido figurado? Explica.
 
-91
+108
 
-<!-- page 92 -->
+<!-- page 109 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4542,9 +5140,9 @@ AGORA PENSA: escolhe uma didascália. O que aconteceria se ela desaparecesse?
 Escolhe uma didascália do texto e explica-a como se estivesses a dar uma instrução a um actor:
 «Deves...»
 
-92
+109
 
-<!-- page 93 -->
+<!-- page 110 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4584,9 +5182,9 @@ Forma palavras compostas relacionadas com: viagem · mar · escola · aventura. 
 
 Porque razão é importante observar as palavras dentro do contexto em que aparecem?
 
-93
+110
 
-<!-- page 94 -->
+<!-- page 111 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4608,9 +5206,9 @@ ou também a criticar a ostentação? Justifica.
 
 Às vezes, uma história divertida também nos faz pensar sobre a sociedade.
 
-94
+111
 
-<!-- page 95 -->
+<!-- page 112 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4633,9 +5231,9 @@ história mais interessante? Justifica.
 5. Escolhe uma palavra para definir este excerto: humorístico · histórico · fantástico · crítico ·
 aventureiro.
 
-95
+112
 
-<!-- page 96 -->
+<!-- page 113 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4669,9 +5267,9 @@ Pergunta 5: ____________________________
 Evita perguntas de resposta sim/não. Usa: Como...? Porquê...? O que pensaste quando...? Qual foi...?
 Se pudesses..., o que...?
 
-96
+113
 
-<!-- page 97 -->
+<!-- page 114 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4702,9 +5300,9 @@ Quem encontro? __________________________
 
 Como termina? ___________________________
 
-97
+114
 
-<!-- page 98 -->
+<!-- page 115 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4727,9 +5325,9 @@ resposta.
 Na minha opinião... · Considero que... · Um argumento importante é... · Por outro lado... · Não
 concordo porque... · Um exemplo é... · Concluindo...
 
-98
+115
 
-<!-- page 99 -->
+<!-- page 116 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4764,9 +5362,9 @@ Final: ____________________________________
 
 O que aprendemos ao observar a nossa escola através dos olhos de Gulliver?
 
-99
+116
 
-<!-- page 100 -->
+<!-- page 117 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4807,9 +5405,9 @@ Quando encontrares uma didascália, pergunta: O que acontece? Quem faz? Como faz
 acontece? Que emoção transmite?
 Num texto dramático, as palavras e as acções trabalham juntas para contar a história.
 
-100
+117
 
-<!-- page 101 -->
+<!-- page 118 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4891,9 +5489,9 @@ Uma palavra nova: ______________________
 
 O que mais gostei: _____________________
 
-101
+118
 
-<!-- page 102 -->
+<!-- page 119 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -4924,9 +5522,9 @@ aprender os segredos do verso e da rima e escrever os teus próprios poemas.
 verso – cada linha do poema · estrofe – grupo de versos · rima – repetição de sons no fim dos versos ·
 métrica – número de sílabas até à última tónica.
 
-102
+119
 
-<!-- page 103 -->
+<!-- page 120 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5011,9 +5609,9 @@ Repetição no início dos versos
 Como escandir um verso: conta as sílabas em voz alta até à ÚLTIMA TÓNICA:
 «Quan-tas-noi-vas-fi-ca-ram-por-ca-sar» = 10 → decassílabo.
 
-103
+120
 
-<!-- page 104 -->
+<!-- page 121 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5055,9 +5653,9 @@ Fernando Pessoa, Mensagem, 1934
 • Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
 • Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
 
-104
+121
 
-<!-- page 105 -->
+<!-- page 122 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5095,9 +5693,9 @@ Que recursos expressivos dão força aos versos?
 
 6. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
 
-105
+122
 
-<!-- page 106 -->
+<!-- page 123 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5147,9 +5745,9 @@ Florbela Espanca, Charneca em Flor
 • Que emoção domina a primeira quadra? E a última estrofe?
 • O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
 
-106
+123
 
-<!-- page 107 -->
+<!-- page 124 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5190,9 +5788,9 @@ ninguém»? Que nome se dá a este contraste?
 6. Compara os dois poemas com a ajuda do esquema: o que muda quando Pessoa fala do mar e Florbela
 fala do amor? Escreve seis linhas.
 
-107
+124
 
-<!-- page 108 -->
+<!-- page 125 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5263,9 +5861,9 @@ grupo
 de
 coordenadas.
 
-108
+125
 
-<!-- page 109 -->
+<!-- page 126 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5328,9 +5926,9 @@ actores saem.» / «Embora temesse, cantou.»
 3. Junta cada par numa frase complexa: «Estudámos o poema. Fizemos o comentário.» / «O poeta
 perdeu o caderno. Continuou a escrever.» (embora)
 
-109
+126
 
-<!-- page 110 -->
+<!-- page 127 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5376,9 +5974,9 @@ onde está o verso · o nome do recurso · o efeito.
 Escreve agora o teu comentário. Planifica primeiro: 1. INTRODUÇÃO (2 linhas) · 2. CONTEÚDO com duas
 citações (8 linhas) · 3. FORMA com um recurso e o seu efeito (8 linhas) · 4. CONCLUSÃO (4 linhas).
 
-110
+127
 
-<!-- page 111 -->
+<!-- page 128 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5401,9 +5999,9 @@ simples: o autocarro da manhã, o cheiro da cantina, o recreio.
 Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
 um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio poema.
 
-111
+128
 
-<!-- page 112 -->
+<!-- page 129 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5437,9 +6035,9 @@ Notas para a minha declamação:
 
 Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o público, não o papel.
 
-112
+129
 
-<!-- page 113 -->
+<!-- page 130 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5460,9 +6058,9 @@ O MEU POEMA VISUAL:
 A imagem não ilustra o poema: interpreta-o. Escolhe os elementos que traduzem o SENTIDO dos
 versos, não apenas o cenário.
 
-113
+130
 
-<!-- page 114 -->
+<!-- page 131 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5500,9 +6098,9 @@ efeito.
 Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quantos…” na segunda
 estrofe?»
 
-114
+131
 
-<!-- page 115 -->
+<!-- page 132 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5550,9 +6148,9 @@ Escrever um poema com rima
 **O MEU PRÓXIMO OBJECTIVO**
 Para o Year 8 quero melhorar...
 
-115
+132
 
-<!-- page 116 -->
+<!-- page 133 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5605,9 +6203,9 @@ exemplo. 3. Que recurso há em «Ó mar salgado!»? 4. Escande «Valeu a pena? T
 GRUPO II · GRAMÁTICA: 5. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» 6. Passa para a
 passiva: «Os alunos escreveram poemas.»
 
-116
+133
 
-<!-- page 117 -->
+<!-- page 134 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -5634,9 +6232,9 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-117
+134
 
-<!-- page 118 -->
+<!-- page 135 -->
 
 ---
 **P R I M E  B O O K S**
