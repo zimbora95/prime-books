@@ -1,5 +1,5 @@
 # Physical Education - Year 11 (Prime Book)
-> Markdown companion of `public/library/y11-physical-education/book.pdf` (31 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y11-physical-education/book.pdf` (32 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -1241,6 +1241,10 @@ support your teammates on every down."
 **PrimeBooks Year 11 • Physical Education • Unit 14 – American Football**
 
 <!-- page 31 -->
+
+---
+
+<!-- page 32 -->
 
 ---
 **P R I M E  B O O K S**

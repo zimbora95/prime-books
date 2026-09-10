@@ -1,15 +1,13 @@
 # Mathematics - Year 4 (Prime Book)
-> Markdown companion of `public/library/y04-mathematics/book.pdf` (69 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y04-mathematics/book.pdf` (70 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-
 ## Mathematics
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -3896,11 +3894,12 @@ REFERENCE
 
 ---
 
+<!-- page 70 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Mathematics
-
-Year 4 · Cambridge Primary · Student Manual
 
 Both ways from zero.
 
@@ -3908,13 +3907,7 @@ Numbers do not stop at zero. This year, Year 4 follows the line in both directio
 
 up into the thousands, and down past zero into the cold.
 
-Unit 1 begins with a real question. On one January morning the thermometer at
-
-the Torre read −6 °C while Faro read 13 °C. How far apart are they? Answering
-
-that properly takes counting, a number line, and a clear head about which side of
-
-zero you are on.
+of
 
 **INSIDE THIS BOOK**
 
@@ -3944,3 +3937,5 @@ work
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

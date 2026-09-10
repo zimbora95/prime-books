@@ -1,5 +1,5 @@
 # German A1/A2 - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-german-a1a2/book.pdf` (99 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-german-a1a2/book.pdf` (100 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -4698,6 +4698,10 @@ First edition, 2026 · primeschool.pt
 Prime Books · German · Year 1
 
 <!-- page 99 -->
+
+---
+
+<!-- page 100 -->
 
 ---
 **P R I M E  B O O K S**

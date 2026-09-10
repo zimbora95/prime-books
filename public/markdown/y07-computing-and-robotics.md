@@ -1,5 +1,5 @@
 # Computing & Robotics - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-computing-and-robotics/book.pdf` (117 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-computing-and-robotics/book.pdf` (118 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 7
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -8243,17 +8242,15 @@ over the internet
 <!-- page 117 -->
 
 ---
+
+<!-- page 118 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Computing & Robotics
 
-Year 7 · Cambridge Lower Secondary · Student Manual
-
-Understand the machine. Then build with it.
-
-Year 7 computing and robotics pairs computational thinking with hands-on builds:
-
-programming, data, networks and working robots.
+l thinking with hands-on builds:
 
 **INSIDE THIS BOOK**
 
@@ -8277,3 +8274,5 @@ Digital safety and responsibility
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

@@ -1,5 +1,5 @@
 # Humanities - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-humanities/book.pdf` (125 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-humanities/book.pdf` (126 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -6560,6 +6560,10 @@ The names and terms a reader is most likely to need again.
 Prime School Press - www.primeschool.pt
 
 <!-- page 125 -->
+
+---
+
+<!-- page 126 -->
 
 ---
 **P R I M E  B O O K S**

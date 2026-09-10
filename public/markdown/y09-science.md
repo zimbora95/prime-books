@@ -1,5 +1,5 @@
 # Science - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-science/book.pdf` (121 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-science/book.pdf` (122 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -4248,17 +4247,15 @@ check.
 <!-- page 121 -->
 
 ---
+
+<!-- page 122 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Science
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-Ask questions. Trust evidence.
-
-Year 9 science combines clear explanations with hands-on investigation across
-
-biology, chemistry and physics, building the habits of working scientifically.
+oss
 
 **INSIDE THIS BOOK**
 
@@ -4282,3 +4279,5 @@ Full glossary and answer key
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

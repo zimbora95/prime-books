@@ -1,5 +1,5 @@
 # English - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-english/book.pdf` (189 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-english/book.pdf` (190 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -18,13 +17,7 @@ Student Manual
 
 ## English
 
-Year 1 · Cambridge Early Years · Student Manual
-
-Read between every line.
-
-This Year 1 English course builds confident readers and precise writers: wide
-
-reading, real writing purposes and discussion that sharpens thinking.
+s: wide
 
 **INSIDE THIS BOOK**
 
@@ -48,6 +41,8 @@ Regular checkpoints with model answers
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual
 
 <!-- page 3 -->
 
@@ -6869,6 +6864,10 @@ FOR TEACHERS
 168
 
 <!-- page 189 -->
+
+---
+
+<!-- page 190 -->
 
 ---
 ## English

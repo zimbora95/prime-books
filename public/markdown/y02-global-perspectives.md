@@ -1,5 +1,5 @@
 # Global Perspectives - Year 2 (Prime Book)
-> Markdown companion of `public/library/y02-global-perspectives/book.pdf` (179 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y02-global-perspectives/book.pdf` (180 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -7102,6 +7102,10 @@ FOR TEACHERS
 **177**
 
 <!-- page 179 -->
+
+---
+
+<!-- page 180 -->
 
 ---
 **P R I M E  B O O K S**

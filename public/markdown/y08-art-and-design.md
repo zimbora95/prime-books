@@ -1,5 +1,5 @@
 # Art & Design - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-art-and-design/book.pdf` (109 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-art-and-design/book.pdf` (110 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 8
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -5586,17 +5585,15 @@ Use at the end of Units 8.1, 8.2, 8.3 and the School Project.
 <!-- page 109 -->
 
 ---
+
+<!-- page 110 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Art & Design
 
-Year 8 · Cambridge Lower Secondary · Student Manual
-
-Every child is an artist. Keep the studio open.
-
-Year 8 art and design develops making, looking and thinking: drawing, colour,
-
-print, 3D and the artists who changed how we see.
+thinking: drawing, colour,
 
 **INSIDE THIS BOOK**
 
@@ -5620,3 +5617,5 @@ Final project per unit
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

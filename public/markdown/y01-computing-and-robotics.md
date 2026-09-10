@@ -1,5 +1,5 @@
 # Computing & Robotics - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-computing-and-robotics/book.pdf` (185 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-computing-and-robotics/book.pdf` (186 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -6316,6 +6316,10 @@ FOR TEACHERS
 ## 181
 
 <!-- page 185 -->
+
+---
+
+<!-- page 186 -->
 
 ---
 ## Computing & Robotics

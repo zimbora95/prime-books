@@ -1,5 +1,5 @@
 # Portuguese 1st IGCSE - Year 10 (Prime Book)
-> Markdown companion of `public/library/y10-portuguese-1st-igcse/book.pdf` (251 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y10-portuguese-1st-igcse/book.pdf` (252 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -6117,6 +6117,10 @@ Composition — cerca de 350 a 500 palavras.
 **O que melhorar**
 
 <!-- page 251 -->
+
+---
+
+<!-- page 252 -->
 
 ---
 **P R I M E  B O O K S**

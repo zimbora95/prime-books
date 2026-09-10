@@ -1,15 +1,13 @@
 # Music & Drama - Year 2 (Prime Book)
-> Markdown companion of `public/library/y02-music-and-drama/book.pdf` (255 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y02-music-and-drama/book.pdf` (256 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-
 ## Music & Drama
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -11510,17 +11508,14 @@ CERTIFICATE
 
 ---
 
+<!-- page 256 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Music & Drama
 
-Year 2 · Cambridge Early Years · Student Manual
-
-You can keep a sound by remembering it. Or write it down.
-
-Thirty topics on listening, singing, playing and making. Keep a sound by putting it
-
-with a picture, a word or a shape, which is where writing music begins.
+putting it
 
 **INSIDE THIS BOOK**
 
@@ -11544,3 +11539,5 @@ Original watercolour illustration throughout
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

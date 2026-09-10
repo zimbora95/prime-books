@@ -1,5 +1,5 @@
 # Art & Design - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-art-and-design/book.pdf` (71 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-art-and-design/book.pdf` (72 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 9
 
-Cambridge Lower Secondary
 Student Manual
 
 <!-- page 2 -->
@@ -3636,17 +3635,15 @@ Page
 <!-- page 71 -->
 
 ---
+
+<!-- page 72 -->
+
+---
 **P R I M E  B O O K S**
 
-## Art and Design
+## Art & Design
 
-Year 9 · Cambridge Lower Secondary · Student Manual
-
-Every child is an artist. Keep the studio open.
-
-Year 9 art and design develops making, looking and thinking: drawing, colour,
-
-print, 3D and the artists who changed how we see.
+thinking: drawing, colour,
 
 **INSIDE THIS BOOK**
 
@@ -3665,8 +3662,10 @@ Critique language and reflection
 •
 Final project per unit
 
-**Prime Books · Art and Design**
+**Prime Books · Art & Design**
 
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

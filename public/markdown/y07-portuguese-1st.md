@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (135 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (136 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -6235,6 +6235,10 @@ Prime School Press · www.primeschool.pt
 134
 
 <!-- page 135 -->
+
+---
+
+<!-- page 136 -->
 
 ---
 **P R I M E  B O O K S**

@@ -1,15 +1,13 @@
 # Mathematics - Year 2 (Prime Book)
-> Markdown companion of `public/library/y02-mathematics/book.pdf` (751 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y02-mathematics/book.pdf` (752 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-
 ## Mathematics
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -25847,11 +25845,12 @@ SOURCES AND REFERENCES
 
 ---
 
+<!-- page 752 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Mathematics
-
-Year 2 · Cambridge Early Years · Student Manual
 
 Draw it. Work it out. Then check it a different way.
 
@@ -25860,12 +25859,6 @@ Last year you learned to count something, and then to count it again to be sure.
 This book asks for the next thing, which is the thing that makes a mathematician: a
 
 method, and then a second, different method that agrees with the first.
-
-Otto draws the plan. Rook lines everything into rows and columns. Bramble keeps
-
-the store, the scales and the money tin. And Tessa checks every single thing a
-
-different way, which is why this book exists.
 
 **INSIDE THIS BOOK**
 
@@ -25896,3 +25889,5 @@ the page cannot
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

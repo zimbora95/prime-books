@@ -1,5 +1,5 @@
 # Mathematics - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-mathematics/book.pdf` (17 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-mathematics/book.pdf` (18 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -709,6 +709,10 @@ Unit 1 scenario is drawn from real summer festivals in Portugal.
 3
 
 <!-- page 17 -->
+
+---
+
+<!-- page 18 -->
 
 ---
 **P R I M E  B O O K S**

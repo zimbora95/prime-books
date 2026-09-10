@@ -1,5 +1,5 @@
 # Spanish - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-spanish/book.pdf` (11 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-spanish/book.pdf` (12 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -555,6 +555,10 @@ direct you to the appropriate module in Y7 Essentials and Catch-up Pack. Begin w
 introducing yourself, age, ser / estar / tener, me gusta and essential questions.
 
 <!-- page 11 -->
+
+---
+
+<!-- page 12 -->
 
 ---
 **P R I M E  B O O K S**

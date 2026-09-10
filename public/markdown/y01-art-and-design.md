@@ -1,5 +1,5 @@
 # Art & Design - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-art-and-design/book.pdf` (89 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-art-and-design/book.pdf` (88 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -3058,24 +3057,13 @@ WHERE WE FOUND OUT
 <!-- page 88 -->
 
 ---
-**88**
-
-<!-- page 89 -->
-
----
 **P R I M E  B O O K S**
 
 ## Art & Design
 
-Year 1 · Cambridge Early Years · Student Manual
-
 Every child is an artist. This book just keeps the studio open.
 
-Four units, sixteen topics and a making studio of your own. Draw, weave, print,
-
-paint and build with a grown-up nearby, and keep the portfolio at the end of the
-
-year.
+Four
 
 **INSIDE THIS BOOK**
 
@@ -3099,3 +3087,5 @@ Original watercolour illustration throughout
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

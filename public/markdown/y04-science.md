@@ -1,15 +1,13 @@
 # Science - Year 4 (Prime Book)
-> Markdown companion of `public/library/y04-science/book.pdf` (17 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y04-science/book.pdf` (18 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-
 ## Science
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -567,19 +565,14 @@ https://www.healthline.com/health/how-many-bones-does-a-baby-have
 
 ---
 
+<!-- page 18 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Science
 
-Year 4 · Cambridge Primary · Student Manual
-
 Look inside. Ask why.
-
-Five units of real science for eight and nine-year-olds: teeth and digestion, states
-
-of matter, sound, electricity and the water cycle, each opened with a real question
-
-and closed with how do you know?
 
 **INSIDE THIS BOOK**
 
@@ -603,3 +596,5 @@ A word list of every science word you meet
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

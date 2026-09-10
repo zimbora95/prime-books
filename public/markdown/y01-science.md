@@ -1,15 +1,13 @@
 # Science - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-science/book.pdf` (183 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-science/book.pdf` (184 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-
 ## Science
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -6908,23 +6906,18 @@ FOR TEACHERS
 
 ---
 
+<!-- page 184 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Science
-
-Year 1 · Cambridge Early Years · Student Manual
 
 How do you know?
 
 Come out to the hedge bank, where a badger with a brass hand lens and a wood
 
 mouse with enormous ears want to know how everything works.
-
-Twenty-four topics of real science for children of five and six. Sort the living from
-
-the never alive, find out where a sound begins, and discover which heavy things
-
-float after all.
 
 **INSIDE THIS BOOK**
 
@@ -6948,3 +6941,5 @@ A word list of every science word you meet
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
+
+Student Manual

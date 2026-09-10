@@ -1,5 +1,5 @@
 # Science - Year 2 (Prime Book)
-> Markdown companion of `public/library/y02-science/book.pdf` (185 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y02-science/book.pdf` (186 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,7 +8,6 @@
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -7026,6 +7025,10 @@ BEYOND THE PAGE
 <!-- page 185 -->
 
 ---
+
+<!-- page 186 -->
+
+---
 **P R I M E  B O O K S**
 
 ## Science
@@ -7036,11 +7039,8 @@ Come up the garden to the old potting shed, where a badger in a work jacket and 
 
 wood mouse in a green coat want to know how everything works.
 
-Real science for children of six and seven. Find out why a woodlouse chooses one
-
-stone and not another, how tall a bean grows in five weeks, and how to make a
-
-bulb light up.
+Real science
+e
 
 **INSIDE THIS BOOK**
 
@@ -7066,6 +7066,6 @@ Ages 6–7 · Lower Primary
 
 **primeschool.pt**
 
-Year 2 · Prime School Press · Student Manual
-
 **Prime School Press · Science**
+
+Student Manual

@@ -1,5 +1,5 @@
 # Portuguese - Year 5 (Prime Book)
-> Markdown companion of `public/library/y05-portuguese/book.pdf` (133 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y05-portuguese/book.pdf` (134 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -633,5 +633,9 @@ Ages 9–10 · Upper Primary
 ---
 
 <!-- page 133 -->
+
+---
+
+<!-- page 134 -->
 
 ---

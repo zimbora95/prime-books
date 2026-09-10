@@ -1,5 +1,5 @@
 # Portuguese 2nd - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-portuguese-2nd/book.pdf` (109 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-portuguese-2nd/book.pdf` (110 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -4081,6 +4081,10 @@ Prime School Press · www.primeschool.pt
 ## As minhas notas
 
 <!-- page 109 -->
+
+---
+
+<!-- page 110 -->
 
 ---
 **P R I M E  B O O K S**
