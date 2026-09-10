@@ -84,7 +84,6 @@ up, and they do not always agree with each other. That is the whole point of the
 ## Four habits for the year. Look carefully. Say I think. Listen right to the end. Write it
 down while you can still see it.
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **3**
 
 <!-- page 4 -->
@@ -98,7 +97,6 @@ This is not a book you only read. It is a book you fill in. Every expedition has
 the same parts, and once you know them you will always know where you
 are.
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **4**
 
 <!-- page 5 -->
@@ -152,7 +150,6 @@ One more thing. In this book, questions that begin Do you think have no
 right answer. Do not look for one. Say what you think, listen to somebody
 who thinks the opposite, and then say what you think again.
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **5**
 
 <!-- page 6 -->
@@ -271,7 +268,6 @@ Being kind online
 Screen time control
 79
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **6**
 
 <!-- page 7 -->
@@ -393,7 +389,6 @@ Celebrations and traditions
 Respecting different cultures
 144
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **7**
 
 <!-- page 8 -->
@@ -440,7 +435,6 @@ This notebook belongs to
 
 My class
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **8**
 
 <!-- page 9 -->
@@ -459,7 +453,6 @@ Signed
 
 **DRAW YOURSELF AS A FIELD NATURALIST.**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **9**
 
 <!-- page 10 -->
@@ -485,7 +478,6 @@ felt about it.
 nothing. Pip comes back with the one tiny thing everybody
 else walked straight past.
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **10**
 
 <!-- page 11 -->
@@ -503,7 +495,6 @@ pictures in your head at once is what Global Perspectives is.
 
 You do not need much. Real naturalists never did.
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **11**
 
 <!-- page 12 -->
@@ -548,7 +539,6 @@ second half of that minute.
 
 **1**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **12**
 
 <!-- page 13 -->
@@ -591,7 +581,6 @@ written tomorrow is not a field note.
 
 **6**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **13**
 
 <!-- page 14 -->
@@ -625,7 +614,6 @@ you. If it does not sound interesting, do not go.
 
 **3**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **14**
 
 <!-- page 15 -->
@@ -658,7 +646,6 @@ cannot go. Then you come back and write what you found.
 Put your finger on the country you live in. Say its name out loud.
 **1**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **15**
 
 <!-- page 16 -->
@@ -682,7 +669,6 @@ hottest part of the world.
 Find one country you would like to visit. Write its name. (write-on)
 **3**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 **16**
 
 <!-- page 17 -->
@@ -735,7 +721,6 @@ Rufus says a game with no winner is just running about. Nella says the best
 afternoon she ever had was a game nobody won. Ask five people. Write
 down who said what. Do not try to settle it.
 
-UNIT  1
 THE PLAYING FIELDS
 **18**
 
@@ -764,7 +749,6 @@ no sounds. Can the class guess it?
 Your favourite game is not everybody's favourite game. That sounds
 obvious. It is one of the most useful things you will learn all year.
 
-UNIT  1  ‑  TOPIC  1.1
 THE PLAYING FIELDS
 **19**
 
@@ -812,7 +796,6 @@ no
 
 **3**
 
-UNIT  1  ‑  TOPIC  1.1
 THE PLAYING FIELDS
 **20**
 
@@ -838,7 +821,6 @@ best game, or just the most popular one? They are not the same word.
 Draw yourself playing your favourite game. Write one sentence saying why you love
 it.
 
-UNIT  1  ‑  TOPIC  1.1
 THE PLAYING FIELDS
 **21**
 
@@ -874,7 +856,6 @@ But look at the middle of the rings. Skipping works in a hall and in a yard. So
 does catch. Sorting things nearly always leaves something in the middle,
 and that is not a mistake.
 
-UNIT  1  ‑  TOPIC  1.2
 THE PLAYING FIELDS
 **22**
 
@@ -905,7 +886,6 @@ middle.
 
 **1**
 
-UNIT  1  ‑  TOPIC  1.2
 THE PLAYING FIELDS
 **23**
 
@@ -932,7 +912,6 @@ Invent a game that only works indoors. Give it a name and one rule.
 
 Four games, four countries, and not one of them needs a screen.
 
-UNIT  1  ‑  TOPIC  1.3
 THE PLAYING FIELDS
 **24**
 
@@ -970,7 +949,6 @@ tiny wooden ball instead.
 **Portugal**
 **France**
 
-UNIT  1  ‑  TOPIC  1.3
 THE PLAYING FIELDS
 **25**
 
@@ -1016,7 +994,6 @@ I would like to try
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.3
 THE PLAYING FIELDS
 **26**
 
@@ -1051,7 +1028,6 @@ Doctors all over the world worked together and agreed on one number:
 children should move their bodies for at least sixty minutes every single day.
 That is one hour. Running counts. Dancing counts. Climbing counts.
 
-UNIT  1  ‑  TOPIC  1.4
 THE PLAYING FIELDS
 **27**
 
@@ -1097,7 +1073,6 @@ Today I could
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.4
 THE PLAYING FIELDS
 **28**
 
@@ -1125,7 +1100,6 @@ protects nothing at all.
 And you warm up first. Gentle running, then stretching, then the game. Cold
 muscles tear. Warm muscles bend.
 
-UNIT  1  ‑  TOPIC  1.5
 THE PLAYING FIELDS
 **29**
 
@@ -1154,7 +1128,6 @@ The rule is
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.5
 THE PLAYING FIELDS
 **30**
 
@@ -1177,7 +1150,6 @@ hurt.
 
 Six players. Every one of them gets a turn to serve, because the rules say so.
 
-UNIT  1  ‑  TOPIC  1.6
 THE PLAYING FIELDS
 **31**
 
@@ -1227,7 +1199,6 @@ Once, my team
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.6
 THE PLAYING FIELDS
 **32**
 
@@ -1266,7 +1237,6 @@ school where somebody could
 play something. Count them on
 your fingers.
 
-UNIT  1  ‑  TOPIC  1.7
 THE PLAYING FIELDS
 **33**
 
@@ -1307,7 +1277,6 @@ I think it is looked after by
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.7
 THE PLAYING FIELDS
 **34**
 
@@ -1337,7 +1306,6 @@ moves quietly around the room. Point at where they are.
 In goalball, every single player wears a blindfold, and the ball has bells inside
 it. So the whole game is played by listening. The crowd has to stay
 
-UNIT  1  ‑  TOPIC  1.8
 THE PLAYING FIELDS
 **35**
 
@@ -1376,7 +1344,6 @@ Design a ball for a game played by listening.
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.8
 THE PLAYING FIELDS
 **36**
 
@@ -1407,7 +1374,6 @@ Free time is not empty time.
 
 A day has twenty four hours in it. Where do yours actually go?
 
-UNIT  1  ‑  TOPIC  1.9
 THE PLAYING FIELDS
 **37**
 
@@ -1455,7 +1421,6 @@ eating
 
 **THEN ITS SLICES**
 
-UNIT  1  ‑  TOPIC  1.9
 THE PLAYING FIELDS
 **38**
 
@@ -1483,7 +1448,6 @@ I would make bigger the slice for
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.9
 THE PLAYING FIELDS
 **39**
 
@@ -1517,7 +1481,6 @@ People who work out what the weather will do next are called forecasters.
 Checking a forecast before you go out means you take the right coat, and
 choose the right game.
 
-UNIT  1  ‑  TOPIC  1.10
 THE PLAYING FIELDS
 **40**
 
@@ -1566,7 +1529,6 @@ My game is best when the weather is
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.10
 THE PLAYING FIELDS
 **41**
 
@@ -1594,7 +1556,6 @@ are best at.
 
 A habit is something you do so often that you stop having to decide about it.
 
-UNIT  1  ‑  TOPIC  1.11
 THE PLAYING FIELDS
 **42**
 
@@ -1647,7 +1608,6 @@ This week I will
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.11
 THE PLAYING FIELDS
 **43**
 
@@ -1692,7 +1652,6 @@ rule.
 
 **2**
 
-UNIT  1  ‑  TOPIC  1.11
 THE PLAYING FIELDS
 **44**
 
@@ -1742,7 +1701,6 @@ work. Change it, and write down why you changed it.
 
 **4**
 
-UNIT  1  ‑  TOPIC  1.11
 THE PLAYING FIELDS
 **45**
 
@@ -1794,7 +1752,6 @@ the time in a day that is yours
 something you do without deciding
 to
 
-UNIT  1  ‑  TOPIC  1.11
 THE PLAYING FIELDS
 **46**
 
@@ -1880,7 +1837,6 @@ grandmother had less than anybody and always said she had plenty. Bram
 says somebody, somewhere, decided what enough means, and we should
 find out who.
 
-UNIT  2
 THE LONG ROAD HOME
 **48**
 
@@ -1908,7 +1864,6 @@ Name five things you have used already today that came out of a tap.
 There are only a few things a person truly cannot live without: clean water,
 food, warmth, a safe place to sleep, and somebody who cares about them.
 
-UNIT  2  ‑  TOPIC  2.1
 THE LONG ROAD HOME
 **49**
 
@@ -1949,7 +1904,6 @@ Draw the rolling water barrel.
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.1
 THE LONG ROAD HOME
 **50**
 
@@ -1981,7 +1935,6 @@ every argument about money is really about which is which.
 
 What is the last thing you really wanted? Did you get it?
 
-UNIT  2  ‑  TOPIC  2.2
 THE LONG ROAD HOME
 **51**
 
@@ -2022,7 +1975,6 @@ Write each of these into the right tray above.
 
 **1**
 
-UNIT  2  ‑  TOPIC  2.2
 THE LONG ROAD HOME
 **52**
 
@@ -2047,7 +1999,6 @@ We could not agree about
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.2
 THE LONG ROAD HOME
 **53**
 
@@ -2076,7 +2027,6 @@ In Mongolia, families live in a round tent called a ger. It has a wooden frame
 covered in thick felt and a stove in the middle, and the door always faces
 south to catch the most daylight. It can be taken down and moved.
 
-UNIT  2  ‑  TOPIC  2.3
 THE LONG ROAD HOME
 **54**
 
@@ -2126,7 +2076,6 @@ The door faces south so that
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.3
 THE LONG ROAD HOME
 **55**
 
@@ -2150,7 +2099,6 @@ where you live.
 
 Every job on this page finishes with somebody else getting what they need.
 
-UNIT  2  ‑  TOPIC  2.4
 THE LONG ROAD HOME
 **56**
 
@@ -2205,7 +2153,6 @@ A job that helps me is
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.4
 THE LONG ROAD HOME
 **57**
 
@@ -2244,7 +2191,6 @@ volunteers. They have other jobs, and they leave those jobs and come when
 the siren goes. Out of about four hundred and eighty fire stations, nearly all
 of them are volunteer stations.
 
-UNIT  2  ‑  TOPIC  2.5
 THE LONG ROAD HOME
 **58**
 
@@ -2278,7 +2224,6 @@ I think they do it because
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.5
 THE LONG ROAD HOME
 **59**
 
@@ -2305,7 +2250,6 @@ One side of every euro coin is the same everywhere. The other side is different 
 
 Have you ever saved up for something? How long did it take?
 
-UNIT  2  ‑  TOPIC  2.6
 THE LONG ROAD HOME
 **60**
 
@@ -2381,7 +2325,6 @@ It took me
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.6
 THE LONG ROAD HOME
 **61**
 
@@ -2425,7 +2368,6 @@ down, because the argument is the lesson.
 
 **2**
 
-UNIT  2  ‑  TOPIC  2.6
 THE LONG ROAD HOME
 **62**
 
@@ -2476,7 +2418,6 @@ answer.
 
 **4**
 
-UNIT  2  ‑  TOPIC  2.6
 THE LONG ROAD HOME
 **63**
 
@@ -2527,7 +2468,6 @@ the money used in Portugal
 **community**
 the people who share a place
 
-UNIT  2  ‑  TOPIC  2.6
 THE LONG ROAD HOME
 **64**
 
@@ -2538,9 +2478,8 @@ T  H  E     L  O  N  G     R  O  A  D     H  O  M  E   ·   H  I  S  T  O  R  Y
 Time capsule
 History
 
-UNIT  2  ‑  THE  LONG  ROAD  HOME
 THE LONG ROAD HOME
-65
+6
 
 Long ago, people made homes from whatever the land gave them. In Mongolia
 the ger uses wooden poles and thick felt from sheep, because the family moves
@@ -2569,9 +2508,8 @@ straw roof. Both look out of their windows at a world that is exact
 same size, and both can walk to the other one if they keep walking long
 enough.
 
-UNIT  2  ‑  THE  LONG  ROAD  HOME
 THE LONG ROAD HOME
-66
+6
 
 <!-- page 68 -->
 
@@ -2624,7 +2562,6 @@ Rufus says a screen that chooses for you saves you the bother. Nella says
 then it is not your choice any more. Bram wants to know who wrote the
 instructions the screen is following.
 
-UNIT  3
 THE GLOWING WINDOW
 **68**
 
@@ -2669,7 +2606,6 @@ Q and R stand for
 
 **1**
 
-UNIT  3  ‑  TOPIC  3.1
 THE GLOWING WINDOW
 **69**
 
@@ -2697,7 +2633,6 @@ Draw the little square.
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.1
 THE GLOWING WINDOW
 **70**
 
@@ -2728,7 +2663,6 @@ like computers at all.
 A washing machine has one inside it, deciding how long to spin. A traffic light
 has one, counting. A microwave, a car, a lift, a digital watch, the till at the
 
-UNIT  3  ‑  TOPIC  3.2
 THE GLOWING WINDOW
 **71**
 
@@ -2767,7 +2701,6 @@ In my home I counted
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.2
 THE GLOWING WINDOW
 **72**
 
@@ -2796,7 +2729,6 @@ mobile phone, through a service called M-Pesa. It started in 2007 and now
 more than forty million people in Kenya use it every month. It works by text
 message, so you do not need a smart phone and you do not need a bank.
 
-UNIT  3  ‑  TOPIC  3.3
 THE GLOWING WINDOW
 **73**
 
@@ -2843,7 +2775,6 @@ Near me, it would help if somebody invented
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.3
 THE GLOWING WINDOW
 **74**
 
@@ -2878,7 +2809,6 @@ cannot do any of that.
 But paper is better at some things. You can write on it. You can spread six
 pages out at once. It does not run out of battery. It does not interrupt you.
 
-UNIT  3  ‑  TOPIC  3.4
 THE GLOWING WINDOW
 **75**
 
@@ -2918,7 +2848,6 @@ I learn best from
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.4
 THE GLOWING WINDOW
 **76**
 
@@ -2950,7 +2879,6 @@ Who are the adults you would tell if something worried you? Name two.
 
 Say the three rules out loud without looking. Then check.
 
-UNIT  3  ‑  TOPIC  3.5
 THE GLOWING WINDOW
 **77**
 
@@ -2989,7 +2917,6 @@ ask them first
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.5
 THE GLOWING WINDOW
 **78**
 
@@ -3013,7 +2940,6 @@ Write the name of the adult you would tell. Then go and tell them you wrote it.
 
 There is always somebody at the other end. Always.
 
-UNIT  3  ‑  TOPIC  3.6
 THE GLOWING WINDOW
 **79**
 
@@ -3062,7 +2988,6 @@ First I would
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.6
 THE GLOWING WINDOW
 **80**
 
@@ -3104,7 +3029,6 @@ People will tell you a number of hours. We are not going to, because the
 world's doctors have not agreed on one for children of your age, and we are
 not going to invent one.
 
-UNIT  3  ‑  TOPIC  3.7
 THE GLOWING WINDOW
 **81**
 
@@ -3120,7 +3044,6 @@ the swap goes.
 
 Not a rule about hours. A rule about swapping.
 
-UNIT  3  ‑  TOPIC  3.7
 THE GLOWING WINDOW
 **82**
 
@@ -3161,7 +3084,6 @@ I could swap
 
 **2**
 
-UNIT  3  ‑  TOPIC  3.7
 THE GLOWING WINDOW
 **83**
 
@@ -3204,7 +3126,6 @@ once nothing but somebody's drawing on a piece of paper.
 And every one of them started with a problem, not with an idea. Masahiro
 Hara had a problem: car parts took too long to scan. Grant Gibbs had a
 
-UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **84**
 
@@ -3237,7 +3158,6 @@ It helps
 
 **3**
 
-UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **85**
 
@@ -3284,7 +3204,6 @@ visitor must ask each inventor the same question: what would go
 
 **4**
 
-UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **86**
 
@@ -3333,7 +3252,6 @@ say the three online safety rules without looking
 
 wrong with this? Inventors write the answers on the back.
 
-UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **87**
 
@@ -3378,7 +3296,6 @@ screen
 **kind**
 treating somebody as a real person
 
-UNIT  3  ‑  TOPIC  3.8
 THE GLOWING WINDOW
 **88**
 
@@ -3433,7 +3350,6 @@ once spent a whole afternoon playing with a girl in Spain and neither of
 them spoke the other's language, and it was one of her best afternoons.
 Bram wants to know what they actually did.
 
-UNIT  4
 THE TALKING WOOD
 **90**
 
@@ -3461,7 +3377,6 @@ sounds. Did it arrive?
 Communication is getting something out of your head and into somebody
 else's. That is all it is, and it is the hardest thing people do.
 
-UNIT  4  ‑  TOPIC  4.1
 THE TALKING WOOD
 **91**
 
@@ -3497,7 +3412,6 @@ I mostly communicate by
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.1
 THE TALKING WOOD
 **92**
 
@@ -3532,7 +3446,6 @@ book. Listening is not the same as waiting for your turn to talk.
 You know you were listening if you can say the other person's idea back to
 them, in your own words, and they say yes, that is what I meant.
 
-UNIT  4  ‑  TOPIC  4.2
 THE TALKING WOOD
 **93**
 
@@ -3575,7 +3488,6 @@ not really
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.2
 THE TALKING WOOD
 **94**
 
@@ -3610,7 +3522,6 @@ them is a message, and most of them arrive faster than words do.
 And here is something important. Portuguese Sign Language is a full
 language, with its own grammar, used by deaf people all over Portugal. It is
 
-UNIT  4  ‑  TOPIC  4.3
 THE TALKING WOOD
 **95**
 
@@ -3648,7 +3559,6 @@ My name has
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.3
 THE TALKING WOOD
 **96**
 
@@ -3676,7 +3586,6 @@ class without repeating one.
 When a feeling is very big, it is hard to find a word for it, and so people reach
 for the nearest one. Usually that is cross, or sad, or fine.
 
-UNIT  4  ‑  TOPIC  4.4
 THE TALKING WOOD
 **97**
 
@@ -3718,7 +3627,6 @@ Once I felt
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.4
 THE TALKING WOOD
 **98**
 
@@ -3759,7 +3667,6 @@ with cords down its sides. Squeeze the cords and the note changes. A skilled
 player can make it copy the rise and fall of a person speaking, so the drum
 really does talk.
 
-UNIT  4  ‑  TOPIC  4.5
 THE TALKING WOOD
 **99**
 
@@ -3793,9 +3700,8 @@ and two wide, like braille.
 
 **1**
 
-UNIT  4  ‑  TOPIC  4.5
 THE TALKING WOOD
-**100**
+**10**
 
 <!-- page 102 -->
 
@@ -3820,7 +3726,6 @@ He was about
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.5
 THE TALKING WOOD
 **101**
 
@@ -3852,7 +3757,6 @@ Compare these two.
 
 _You always grab it and you never share and you are selfish._
 
-NIT  4  ‑  TOPIC  4.6
 THE TALKING WOOD
 **102**
 
@@ -3896,7 +3800,6 @@ name the want, ask for the change, name the feeling
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.6
 THE TALKING WOOD
 **103**
 
@@ -3940,7 +3843,6 @@ is as much as a big bag of sugar.
 And your message does not fly straight to your friend. It goes up to a mast,
 along a wire, sometimes a wire that lies on the bottom of the sea, then up to
 
-NIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **104**
 
@@ -3991,7 +3893,6 @@ It weighed about
 
 **2**
 
-UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **105**
 
@@ -4033,7 +3934,6 @@ decide which kind is right.
 
 **4**
 
-NIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **106**
 
@@ -4081,7 +3981,6 @@ say who Louis Braille was and roughly how old he was
 
 trace a message from my phone to my friend's, in the right order
 
-UNIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **107**
 
@@ -4120,7 +4019,6 @@ beeps
 you have tried and tried and it will
 not work
 
-NIT  4  ‑  TOPIC  4.7
 THE TALKING WOOD
 **108**
 
@@ -4175,7 +4073,6 @@ Nella says somebody grew that banana and she wants to know what they
 got for it. Bram says the ship burned fuel all the way, and asks who pays for
 that.
 
-NIT  5
 THE LONG HAUL
 **110**
 
@@ -4203,7 +4100,6 @@ the total.
 You have already travelled in at least three different ways this week, and
 probably more than you think.
 
-UNIT  5  ‑  TOPIC  5.1
 THE LONG HAUL
 **111**
 
@@ -4247,7 +4143,6 @@ I mostly travel by
 
 **2**
 
-NIT  5  ‑  TOPIC  5.1
 THE LONG HAUL
 **112**
 
@@ -4283,7 +4178,6 @@ Because every box was the same, a crane could lift them straight off the ship
 and onto a lorry without anybody unpacking anything. Loading a ship went
 from taking weeks to taking hours.
 
-UNIT  5  ‑  TOPIC  5.2
 THE LONG HAUL
 **113**
 
@@ -4344,7 +4238,6 @@ just read.
 
 **2**
 
-NIT  5  ‑  TOPIC  5.2
 THE LONG HAUL
 **114**
 
@@ -4367,7 +4260,6 @@ Write the furthest-travelled thing you can find in your own home.
 
 Land, water, air. And a few awkward ones that refuse to choose.
 
-UNIT  5  ‑  TOPIC  5.3
 THE LONG HAUL
 **115**
 
@@ -4400,7 +4292,6 @@ write why.
 **WATER**
 **AIR**
 
-NIT  5  ‑  TOPIC  5.3
 THE LONG HAUL
 **116**
 
@@ -4434,7 +4325,6 @@ The hardest was
 
 **2**
 
-UNIT  5  ‑  TOPIC  5.3
 THE LONG HAUL
 **117**
 
@@ -4469,7 +4359,6 @@ In a car, a seatbelt only works if it lies flat across your hips and your should
 Never under your arm, and never behind your back. And you use a child seat
 until you are big enough for the belt to sit properly without one.
 
-NIT  5  ‑  TOPIC  5.4
 THE LONG HAUL
 **118**
 
@@ -4518,7 +4407,6 @@ running out between parked cars
 
 **2**
 
-UNIT  5  ‑  TOPIC  5.4
 THE LONG HAUL
 **119**
 
@@ -4553,7 +4441,6 @@ started running back in 1964.
 And in La Paz in Bolivia, the city is so steep that people go to work in cable
 cars hanging above the rooftops. There are ten lines and thirty two stations.
 
-NIT  5  ‑  TOPIC  5.5
 THE LONG HAUL
 **120**
 
@@ -4592,7 +4479,6 @@ Lisbon still uses them because
 
 **2**
 
-UNIT  5  ‑  TOPIC  5.5
 THE LONG HAUL
 **121**
 
@@ -4619,7 +4505,6 @@ A bike bus. Same children, same school, one car fewer each.
 
 What comes out of the back of a car?
 
-NIT  5  ‑  TOPIC  5.6
 THE LONG HAUL
 **122**
 
@@ -4665,7 +4550,6 @@ car with one person, bus, bicycle, walking
 
 **1**
 
-UNIT  5  ‑  TOPIC  5.6
 THE LONG HAUL
 **123**
 
@@ -4706,7 +4590,6 @@ We would have to ask
 
 **2**
 
-NIT  5  ‑  TOPIC  5.7
 THE LONG HAUL
 **124**
 
@@ -4754,7 +4637,6 @@ Everybody moves because
 
 **2**
 
-UNIT  5  ‑  TOPIC  5.7
 THE LONG HAUL
 **125**
 
@@ -4776,7 +4658,6 @@ Draw a vehicle that helps everybody. Write one thing it could not do without.
 
 Before somebody built the first cable car, everybody in that city walked up the hill.
 
-NIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **126**
 
@@ -4817,7 +4698,6 @@ Design your transport.
 
 **2**
 
-UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **127**
 
@@ -4860,7 +4740,6 @@ Changing them halfway ruins the data.
 
 **1**
 
-NIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **128**
 
@@ -4910,7 +4789,6 @@ Write a real letter to whoever could help, and post it.
 
 **4**
 
-UNIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **129**
 
@@ -4966,7 +4844,6 @@ the strap that holds you in a seat
 children cycling to school all
 together
 
-NIT  5  ‑  TOPIC  5.8
 THE LONG HAUL
 **130**
 
@@ -5021,7 +4898,6 @@ she knows neighbours who have never spoken and a friend three countries
 away who would come tomorrow. Pip thinks it is about who turns up when
 something goes wrong.
 
-NIT  6
 THE HOME FIRE
 **132**
 
@@ -5057,7 +4933,6 @@ So when you draw your family tree, draw yours. Not the one in the picture.
 Add branches, take them away, put somebody in twice if that is how it
 works.
 
-UNIT  6  ‑  TOPIC  6.1
 THE HOME FIRE
 **133**
 
@@ -5093,7 +4968,6 @@ I was taught something important by
 
 **2**
 
-NIT  6  ‑  TOPIC  6.1
 THE HOME FIRE
 **134**
 
@@ -5123,7 +4997,6 @@ Families come in every shape there is, and every one of them is a real family.
 Some children live with a grandmother. Some live with one adult. Some
 have two mothers or two fathers. Some are adopted, or fostered, and some
 
-UNIT  6  ‑  TOPIC  6.2
 THE HOME FIRE
 **135**
 
@@ -5166,7 +5039,6 @@ Every family has
 
 **2**
 
-NIT  6  ‑  TOPIC  6.2
 THE HOME FIRE
 **136**
 
@@ -5184,7 +5056,6 @@ class.
 
 Nobody is watching these two. That is when it counts.
 
-UNIT  6  ‑  TOPIC  6.3
 THE HOME FIRE
 
 **137**
@@ -5235,7 +5106,6 @@ This week I will
 
 **2**
 
-NIT  6  ‑  TOPIC  6.3
 THE HOME FIRE
 **138**
 
@@ -5276,7 +5146,6 @@ neighbourhood working. You may
 not know their names, so describe
 their jobs.
 
-UNIT  6  ‑  TOPIC  6.4
 THE HOME FIRE
 **139**
 
@@ -5320,7 +5189,6 @@ My freguesia is called
 
 **2**
 
-NIT  6  ‑  TOPIC  6.4
 THE HOME FIRE
 **140**
 
@@ -5351,7 +5219,6 @@ bookshelf, a village hall, a football pitch, a beach.
 And here is the difficulty with shared things, which is worth knowing at
 seven: if everybody uses them and nobody looks after them, they stop
 
-UNIT  6  ‑  TOPIC  6.5
 THE HOME FIRE
 **141**
 
@@ -5389,7 +5256,6 @@ Nobody notices that somebody
 
 **2**
 
-NIT  6  ‑  TOPIC  6.5
 THE HOME FIRE
 **142**
 
@@ -5428,7 +5294,6 @@ Here in Portugal, at the Festa dos Tabuleiros in Tomar, women carry towers
 of bread and paper flowers on their heads, built as tall as the woman
 carrying them and weighing about fifteen kilograms.
 
-UNIT  6  ‑  TOPIC  6.6
 THE HOME FIRE
 **143**
 
@@ -5464,7 +5329,6 @@ small clay lamps
 
 in a row
 
-NIT  6  ‑  TOPIC  6.6
 THE HOME FIRE
 **144**
 
@@ -5514,7 +5378,6 @@ All four of them
 
 **2**
 
-UNIT  6  ‑  TOPIC  6.6
 THE HOME FIRE
 **145**
 
@@ -5543,7 +5406,6 @@ Notice how different your voice sounds.
 Here is the most useful thing in this whole book, and it is only one word
 different from the unhelpful version.
 
-NIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **146**
 
@@ -5588,7 +5450,6 @@ I found out that
 
 **2**
 
-UNIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **147**
 
@@ -5634,7 +5495,6 @@ whole answer before speaking.
 
 **3**
 
-NIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **148**
 
@@ -5683,7 +5543,6 @@ surprise the owner.
 
 **4**
 
-UNIT  6  ‑  TOPIC  6.7
 THE HOME FIRE
 **149**
 
@@ -5741,7 +5600,6 @@ them.
 
 I can count up a survey and say what it shows
 
-LOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **150**
 
@@ -5781,7 +5639,6 @@ of them you agreed with in September, and whether you still do.
 
 **FIELD NO TES**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **151**
 
@@ -5829,7 +5686,6 @@ The crowd stays silent because
 
 **3**
 
-LOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **152**
 
@@ -5872,7 +5728,6 @@ grass or unlocks the door.
 
 **3**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **153**
 
@@ -5919,7 +5774,6 @@ what you decided and why.
 
 **4**
 
-LOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **154**
 
@@ -5958,7 +5812,6 @@ is.
 
 **2**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **155**
 
@@ -6000,7 +5853,6 @@ does not speak for twenty minutes. Write down the moment you were
 
 **2**
 
-LOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **156**
 
@@ -6051,7 +5903,6 @@ name in the manual alphabet, and then learns one other person's.
 
 **4**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 REVISION
 **157**
 
@@ -6096,7 +5947,6 @@ look, listen, think, stop
 
 **2**
 
-LOBAL  PERSPECTIVES  YEAR  2
 ANSWERS
 **158**
 
@@ -6141,7 +5991,6 @@ celebration their own family keeps, and writes their own label for it.
 
 **3**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 ANSWERS
 **159**
 
@@ -6212,7 +6061,6 @@ and read the reply out loud when it comes.
 
 **4**
 
-LOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **160**
 
@@ -6285,7 +6133,6 @@ beeps
 you have tried and tried and it will
 not work
 
-GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **161**
 
@@ -6353,7 +6200,6 @@ asking why instead of why not
 Only the questions that have an answer are here. Everything else in this
 notebook is your own looking, and nobody can mark that wrong.
 
-LOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **162**
 
@@ -6399,7 +6245,6 @@ above
 
 **1.9.1 answers will vary; ask the pupil to say one sentence more**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **163**
 
@@ -6444,7 +6289,6 @@ console; surface · above
 
 **2.6.2 answers will vary; ask the pupil to say one sentence more**
 
-LOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **164**
 
@@ -6489,7 +6333,6 @@ better for · writing your answer, spreading it all out, taking it outside; surf
 
 **3.8.3 answers will vary; ask the pupil to say one sentence more**
 
-GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **165**
 
@@ -6535,7 +6378,6 @@ have tried it nine times; nervous · it is my turn next
 
 **5.2.1 answers will vary; ask the pupil to say one sentence more**
 
-LOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **166**
 
@@ -6581,7 +6423,6 @@ clean; school bus · gets everybody to school
 **6.2.1 a child and a grandmother, one adult and two children, two mothers and a baby, an**
 adopted brother, a huge family in one house, a family in two countries
 
-GLOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **167**
 
@@ -6627,7 +6468,6 @@ MY WORD STORE
 **Term 2.1 Has a computer inside · a washing machine, a traffic light; Has no computer inside · a**
 wooden spoon, a paper book
 
-LOBAL  PERSPECTIVES  YEAR  2
 MY WORD STORE
 **168**
 
@@ -6680,7 +6520,6 @@ https://commons.wikimedia.org/wiki/Category:Oware
 **Topic 1.4**
 https://www.who.int/news-room/fact-sheets/detail/physical-activity
 
-GLOBAL  PERSPECTIVES  YEAR  2
 EVERY QR CODE
 **169**
 
@@ -6751,7 +6590,6 @@ https://en.wikipedia.org/wiki/Bicycle_bus
 **Topic 6.4**
 https://en.wikipedia.org/wiki/Volunteer_fire_department
 
-LOBAL  PERSPECTIVES  YEAR  2
 EVERY QR CODE
 **170**
 
@@ -6801,7 +6639,6 @@ well/exercise/physical-activity-guidelines-children-and-young-people/ (accessed 
 1.7-olympicmus Wikipedia, Olympic Museum, https://en.wikipedia.org/wiki/Olympic_Museum (accessed
 2026-08-03)
 
-GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **171**
 
@@ -6852,7 +6689,6 @@ https://www.discovermongolia.mn/about-mongolia/culture-art-history/ger-mongolian
 2.4-art32 UNICEF, Convention on the Rights of the Child, children's version, article 32,
 https://www.unicef.org/child-rights-convention/convention-text-childrens-version (accessed 2026-08-03)
 
-LOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **172**
 
@@ -6905,7 +6741,6 @@ https://www.internetmatters.org/issues/cyberbullying/resources/ (accessed 2026-0
 3.7-screen WHO, Guidelines on physical activity, sedentary behaviour and sleep,
 https://www.who.int/publications/i/item/9789241550536 (accessed 2026-08-03)
 
-GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **173**
 
@@ -6956,7 +6791,6 @@ https://www.think.gov.uk/education-resources/ (accessed 2026-08-03)
 5.4-seatbelt THINK! (UK Department for Transport), THINK! education resources,
 https://www.think.gov.uk/education-resources/ (accessed 2026-08-03)
 
-LOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **174**
 
@@ -7008,7 +6842,6 @@ https://ctif.org/country-member/portugal (accessed 2026-08-03)
 
 6.5-together Banco Alimentar Contra a Fome, Banco Alimentar Contra a Fome,
 
-GLOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **175**
 
@@ -7052,7 +6885,6 @@ video was excellent and the page around it carried advertisements aimed at
 adults, which breaks the promise on page 2 that every square is free and
 asks for nothing. Topic 4.5 points at the encyclopaedia article instead.
 
-LOBAL  PERSPECTIVES  YEAR  2
 WHERE WE FOUND OUT
 **176**
 
@@ -7097,7 +6929,6 @@ the child to say more.
 more should be sent to One step further, which appears wherever a topic has somewhere further to
 go.
 
-GLOBAL  PERSPECTIVES  YEAR  2
 FOR TEACHERS
 **177**
 
@@ -7108,13 +6939,17 @@ FOR TEACHERS
 <!-- page 180 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Global Perspectives
 
+Year 2 · Prime School Press · Student Manual
+
 The Field Notebook. Look outwards.
 
-field notebook for finding out how the world works,
+Ask, listen, compare and act. A field notebook for finding out how the world works,
+
+one careful question at a time.
 
 **INSIDE THIS BOOK**
 
@@ -7133,10 +6968,8 @@ A project in every unit
 •
 Original watercolour illustration throughout
 
-**Prime Books · Global Perspectives**
+**Prime School Press · Global Perspectives**
 
 Ages 6–7 · Lower Primary
 
-**primeschool.pt**
-
-              
+## 180

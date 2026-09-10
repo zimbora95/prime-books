@@ -3057,13 +3057,19 @@ WHERE WE FOUND OUT
 <!-- page 88 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Art & Design
 
+Year 1 · Prime School Press · Student Manual
+
 Every child is an artist. This book just keeps the studio open.
 
-Four
+Four units, sixteen topics and a making studio of your own. Draw, weave, print,
+
+paint and build with a grown-up nearby, and keep the portfolio at the end of the
+
+year.
 
 **INSIDE THIS BOOK**
 
@@ -3082,10 +3088,10 @@ Four projects, and a gallery of your own to finish
 •
 Original watercolour illustration throughout
 
-**Prime Books · Art & Design**
+**Prime School Press · Art & Design**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
 
-Student Manual
+## 88

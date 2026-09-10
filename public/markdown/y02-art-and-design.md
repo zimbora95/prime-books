@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Art & Design
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -5872,12 +5870,11 @@ FOR TEACHERS
 <!-- page 164 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Art & Design
 
-Year 2 · Cambridge Early Years · Student Manual
+Year 2 · Prime School Press · Student Manual
 
 Come into the studio. Four artists are waiting.
 
@@ -5902,8 +5899,10 @@ A gallery of your own to finish
 •
 Original watercolour illustration throughout
 
-**Prime Books · Art & Design**
+**Prime School Press · Art & Design**
 
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
+
+## 164

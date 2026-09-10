@@ -1,5 +1,5 @@
 # Global Perspectives - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-global-perspectives/book.pdf` (180 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-global-perspectives/book.pdf` (176 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -13,112 +13,14 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E  B O O K S**
-
-## Global Perspectives
-
-boration through
-
-**INSIDE THIS BOOK**
-
-•
-Big global topics, locally explored
-
-•
-Research and evidence skills
-
-•
-Collaboration and debate
-
-•
-Reflection and personal projects
-
-•
-Assessment-ready checkpoints
-
-**Prime Books · Global Perspectives**
-
-Ages 5–6 · Lower Primary
-
-**primeschool.pt**
-
-Student Manual
 
 <!-- page 3 -->
 
 ---
-**P R I M E  B O O K S**
-
-## Global Perspectives
-
-Year 1 · Cambridge Early Years · Student Manual
-
-See every issue from every side.
-
-Year 1 global perspectives builds research, reasoning and collaboration through
-
-big global topics, ending in a personal project you can defend.
-
-**INSIDE THIS BOOK**
-
-•
-Big global topics, locally explored
-
-•
-Research and evidence skills
-
-•
-Collaboration and debate
-
-•
-Reflection and personal projects
-
-•
-Assessment-ready checkpoints
-
-**Prime Books · Global Perspectives**
-
-Ages 5–6 · Lower Primary
-
-**primeschool.pt**
 
 <!-- page 4 -->
 
 ---
-**P R I M E  B O O K S**
-
-## Global Perspectives
-
-Year 1 · Cambridge Early Years · Student Manual
-
-See every issue from every side.
-
-Year 1 global perspectives builds research, reasoning and collaboration through
-
-big global topics, ending in a personal project you can defend.
-
-**INSIDE THIS BOOK**
-
-•
-Big global topics, locally explored
-
-•
-Research and evidence skills
-
-•
-Collaboration and debate
-
-•
-Reflection and personal projects
-
-•
-Assessment-ready checkpoints
-
-**Prime Books · Global Perspectives**
-
-Ages 5–6 · Lower Primary
-
-**primeschool.pt**
 
 <!-- page 5 -->
 
@@ -339,6 +241,11 @@ Ages 5–6 · Lower Primary
 <!-- page 59 -->
 
 ---
+i
+**YOUR TURN**
+
+**1**
+Draw a plant in the box below. Show the four things a plant needs. Label each thing.
 
 <!-- page 60 -->
 
@@ -351,11 +258,6 @@ Ages 5–6 · Lower Primary
 <!-- page 62 -->
 
 ---
-i
-**YOUR TURN**
-
-**1**
-Draw a plant in the box below. Show the four things a plant needs. Label each thing.
 
 <!-- page 63 -->
 
@@ -388,6 +290,7 @@ Draw a plant in the box below. Show the four things a plant needs. Label each th
 <!-- page 70 -->
 
 ---
+**Your second passport stamp**
 
 <!-- page 71 -->
 
@@ -400,7 +303,6 @@ Draw a plant in the box below. Show the four things a plant needs. Label each th
 <!-- page 73 -->
 
 ---
-**Your second passport stamp**
 
 <!-- page 74 -->
 
@@ -553,10 +455,13 @@ Draw a plant in the box below. Show the four things a plant needs. Label each th
 <!-- page 111 -->
 
 ---
+**110**
+UNIT 4 IMPROVING COMMUNICATION
 
 <!-- page 112 -->
 
 ---
+**111**
 
 <!-- page 113 -->
 
@@ -565,13 +470,10 @@ Draw a plant in the box below. Show the four things a plant needs. Label each th
 <!-- page 114 -->
 
 ---
-**110**
-UNIT 4 IMPROVING COMMUNICATION
 
 <!-- page 115 -->
 
 ---
-**111**
 
 <!-- page 116 -->
 
@@ -804,6 +706,32 @@ UNIT 4 IMPROVING COMMUNICATION
 <!-- page 173 -->
 
 ---
+## SCAN TO FIND OUT MORE
+
+**School gardens and growing**
+
+Free resources for school growing, for Unit 2 topics 2.8 and 2.9.
+
+Royal Horticultural Society, registered charity 222879 and SC038262.
+
+**Online safety, for the adult first**
+
+Teaching resources for Unit 3 topics 3.5 and 3.6.
+
+UK Safer Internet Centre.
+
+**Working animals and sight loss**
+
+Free resources for ages 5 to 11, for Unit 1 topic 1.8 and Unit 5 topic
+5.9.
+
+The Guide Dogs for the Blind Association, charity 209617 and SC038979.
+
+**AN ADULT OPENS THESE LINKS**
+
+GLOBAL  PERSPECTIVES  YEAR  1
+FOR  TEACHERS
+**172**
 
 <!-- page 174 -->
 
@@ -816,19 +744,4 @@ UNIT 4 IMPROVING COMMUNICATION
 <!-- page 176 -->
 
 ---
-
-<!-- page 177 -->
-
----
-
-<!-- page 178 -->
-
----
-
-<!-- page 179 -->
-
----
-
-<!-- page 180 -->
-
----
+Year 1 · Student Manual
