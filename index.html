@@ -6494,8 +6494,10 @@ function rr(x, px, py, w, h, r) {
       fbPageInput.addEventListener("keydown", (e) => {
         if (e.key !== "Enter" || !fbFlip) return;
         const n = parseInt(fbPageInput.value, 10);
+        /* turnToPage() (spread-aware show()), NOT flip(): flip() no-ops when
+           the target is already on the current spread. */
         if (!isNaN(n))
-          fbFlip.flip(Math.max(0, Math.min(fbCount - 1, n - 1)));
+          fbFlip.turnToPage(Math.max(0, Math.min(fbCount - 1, n - 1)));
         fbPageInput.blur();
       });
 
@@ -6818,21 +6820,29 @@ function rr(x, px, py, w, h, r) {
           }
 
           async function renderPage(i, scale) {
-            const page = await doc.getPage(i + 1);
-            const vp = page.getViewport({ scale });
-            const cv = shells[i];
-            cv.width = Math.round(vp.width);
-            cv.height = Math.round(vp.height);
-            /* Count the page as live HERE, not after the await. The backing
-               store is allocated the moment width/height are set, so booking it
-               only on completion let concurrent renders (upgrade() fires up to
-               17 at once) allocate far more bitmaps than FB_LIVE_MAX before the
-               first one finished and triggered an eviction. Measured: 81 live
-               canvases on the 628pp book against a budget of 40. */
-            fbLive.add(i);
+            /* A second render on the same canvas while one is in flight makes
+               pdf.js throw ("Cannot use the same canvas during multiple
+               render() operations") and leaves the page blank. Reserve the
+               slot SYNCHRONOUSLY before the first await: adding it after
+               doc.getPage() let two concurrent callers for the same page both
+               pass this check. The skipped call is harmless - the next
+               upgrade() pass (every flip) re-renders at the wanted scale. */
+            if (fbRendering.has(i)) return;
             fbRendering.add(i);
-            evictFar(i);
             try {
+              const page = await doc.getPage(i + 1);
+              const vp = page.getViewport({ scale });
+              const cv = shells[i];
+              cv.width = Math.round(vp.width);
+              cv.height = Math.round(vp.height);
+              /* Count the page as live HERE, not after the await. The backing
+                 store is allocated the moment width/height are set, so booking it
+                 only on completion let concurrent renders (upgrade() fires up to
+                 17 at once) allocate far more bitmaps than FB_LIVE_MAX before the
+                 first one finished and triggered an eviction. Measured: 81 live
+                 canvases on the 628pp book against a budget of 40. */
+              fbLive.add(i);
+              evictFar(i);
               await page.render({
                 canvasContext: cv.getContext("2d"),
                 viewport: vp,
@@ -6902,8 +6912,14 @@ function rr(x, px, py, w, h, r) {
           function ind() {
             const i = fbFlip.getCurrentPageIndex();
             fbPageInput.value = i + 1;
-            fbPrev.disabled = fbFirst.disabled = i <= 0;
-            fbNext.disabled = fbLast.disabled = i >= fbCount - 1;
+            /* Enable/disable by SPREAD position, not leaf index: on a two-page
+               spread the index is the left leaf, so i >= fbCount-1 is false on
+               the final spread and ">" stayed clickable (silently no-op). */
+            const pc = fbFlip.getPageCollection();
+            const sp = pc.getCurrentSpreadIndex();
+            const spCount = pc.getSpread().length;
+            fbPrev.disabled = fbFirst.disabled = sp <= 0;
+            fbNext.disabled = fbLast.disabled = sp >= spCount - 1;
             markToc(i);
           }
           ind();
@@ -6914,16 +6930,16 @@ function rr(x, px, py, w, h, r) {
             clearTimeout(fbHiT);
             fbHiT = setTimeout(upgrade, 350);
           });
-          fbPrev.addEventListener("click", () =>
-            fbFlip.flip(Math.max(0, fbFlip.getCurrentPageIndex() - 1)),
-          );
-          fbNext.addEventListener("click", () =>
-            fbFlip.flip(
-              Math.min(fbCount - 1, fbFlip.getCurrentPageIndex() + 1),
-            ),
-          );
-          fbFirst.addEventListener("click", () => fbFlip.flip(0));
-          fbLast.addEventListener("click", () => fbFlip.flip(fbCount - 1));
+          /* Spread-step navigation: flipNext()/flipPrev() move one SPREAD per
+             click - the same path as clicking the page corners - so they work
+             from any leaf. fbFlip.flip(index+1) is NOT safe here: flipToPage()
+             silently no-ops when the target page is already on the current
+             spread, which wedges the ">" button on the left leaf of a spread
+             (e.g. stuck on page 4 in spread [3,4]). */
+          fbPrev.addEventListener("click", () => fbFlip.flipPrev("bottom"));
+          fbNext.addEventListener("click", () => fbFlip.flipNext("bottom"));
+          fbFirst.addEventListener("click", () => fbFlip.turnToPage(0));
+          fbLast.addEventListener("click", () => fbFlip.turnToPage(fbCount - 1));
 
           /* sharpen the visible spread once it settles, and keep a small
              low-res read-ahead either side so flipping never shows a blank */
@@ -6977,12 +6993,9 @@ function rr(x, px, py, w, h, r) {
           else closeFlipbook();
         }
         if (fbFlip) {
-          if (e.key === "ArrowRight")
-            fbFlip.flip(
-              Math.min(fbCount - 1, fbFlip.getCurrentPageIndex() + 1),
-            );
-          if (e.key === "ArrowLeft")
-            fbFlip.flip(Math.max(0, fbFlip.getCurrentPageIndex() - 1));
+          /* spread-step, same as the corner-click path (see fbNext above) */
+          if (e.key === "ArrowRight") fbFlip.flipNext("bottom");
+          if (e.key === "ArrowLeft") fbFlip.flipPrev("bottom");
         }
       });
 </script>
