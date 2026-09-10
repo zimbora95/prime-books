@@ -6068,7 +6068,9 @@ function rr(x, px, py, w, h, r) {
         goToPage(pageNo) {
           if (!fbFlip) return false;
           const i = Math.max(0, Math.min(fbCount - 1, (pageNo | 0) - 1));
-          fbFlip.flip(i);
+          /* turnToPage, NOT flip(): flip() no-ops when the target is already
+             on the current spread (see the fbNext handler for the full story). */
+          fbFlip.turnToPage(i);
           return true;
         },
         /* Open a book directly. Used by tools/verify_assistant.js and by any
@@ -6762,7 +6764,9 @@ function rr(x, px, py, w, h, r) {
         fbTocList.querySelectorAll(".toc-it").forEach((b) =>
           b.addEventListener("click", () => {
             const s = fbSections[+b.getAttribute("data-i")];
-            fbFlip.flip(s.page);
+            /* turnToPage, not flip(): flip() no-ops if the section's page is
+               already on the current spread (silent nothing). */
+            fbFlip.turnToPage(s.page);
             fbTocPanel.classList.remove("on");
           }),
         );
