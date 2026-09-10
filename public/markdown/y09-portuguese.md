@@ -1,5 +1,5 @@
 # Portuguese - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-portuguese/book.pdf` (14 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-portuguese/book.pdf` (52 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -182,401 +182,1918 @@ O que faz um argumento ser convincente?
 <!-- page 5 -->
 
 ---
-1
+**UNIDADE 1**
 
-Textos diversos
+## TEXTOS DOS MEDIA
 
-◎
-N E STA U N I D A D E , VA I S
+**O mundo acontece. Tu lês. Tu questionas. Tu contas.**
 
-U N I D A D E 1
+Vivemos rodeados de textos. Lemos notícias no telemóvel, ouvimos entrevistas, vemos
+reportagens, comentamos acontecimentos nas redes sociais, escrevemos mensagens,
+enviamos candidaturas e discutimos assuntos que fazem parte da nossa vida.
 
-Opiniao, jornalismo e o poder de argumentar
+Mas ler não é apenas perceber palavras. É também perguntar:
 
-Ler e interpretar um texto de opinião.
-✓
+?
+Quem escreveu? Para quem? Com que intenção?
 
-Compreender o papel do jornalismo na sociedade.
-✓
+?
+Que informação é apresentada? O que é facto e o que é opinião?
 
-Identificar funções sintáticas na frase.
-✓
+?
+Que palavras procuram influenciar o leitor?
 
-Escrever um comentário fundamentado.
-✓
+?
+Que informação está explícita? O que temos de inferir?
+
+?
+Posso confiar nesta informação?
+
+**Nesta unidade vais conhecer diferentes géneros textuais dos media e aprender a**
+**produzi-los.**
+
+5
 
 <!-- page 6 -->
 
 ---
-UNIDADE 1 · SECÇÃO 1.1
+**UNIDADE 1 · OBJETIVOS**
 
-Um texto de opinião
+## O QUE VAIS APRENDER
 
-Ler para pensar
+No final desta unidade, deverás ser capaz de:
 
-Um texto de opinião defende um ponto de vista com argumentos. Não se limita a informar: procura convencer. Le
+**LER**
 
-este texto original, escrito para este livro.
+·
+identificar diferentes géneros dos media;
 
-✦
-PA R A C O M E C A R
+·
+reconhecer as características de uma reportagem, entrevista, autobiografia, comentário, texto
+de opinião e carta de apresentação;
 
-Pensa na última vez que soubeste de uma notícia importante. Em pares, conversem:
+·
+distinguir informação explícita de informação implícita;
 
-como e que soubeste: pela televisão, pela rádio, pela internet, por alguem?
+·
+identificar factos, opiniões, argumentos e pontos de vista;
 
-como saberias se aquela informação era verdadeira?
+·
+reconhecer a intenção comunicativa de um texto;
 
-o que aconteceria se ninguem verificasse os factos antes de os publicar?
+·
+analisar a organização interna de um texto;
 
-❝
-T E X TO 1 · ' P O R Q U E P R E C I S A M O S D E JO R N A L I S M O '
+·
+justificar interpretações com elementos textuais.
 
-Imagina uma conversa com os teus amigos sobre o assunto do dia. Imagina que não leste nenhum
+**ESCREVER**
 
-jornal, não ouviste a rádio, não viste televisão e não consultaste um único site de informação. Vais
+·
+escrever uma autobiografia;
 
-sentir-te de fora, e a tua participação na conversa vai reduzir-se a pouco mais do que o silencio.
+·
+produzir um comentário;
 
-E por isso que o jornalismo e um passaporte de inclusão social. Ao informar-te, desenvolves o sentido
+·
+construir um texto de opinião;
 
-de pertença a uma comunidade que pode ser a tua rua, o teu país, ou o mundo inteiro.
+·
+elaborar uma carta de apresentação;
 
-E não penses que as redes sociais podem substituir o jornalismo. Não o fazem, porque não cumprem
+·
+planificar, escrever e rever um texto;
 
-as suas regras mais elementares: a verificação dos factos, o cruzamento de fontes e o apuramento da
+·
+utilizar conectores para garantir coerência e coesão.
 
-verdade. Um jornalista responde por aquilo que escreve. Uma publicação anónima não responde por
+**FALAR E OUVIR**
 
-nada.
+·
+preparar uma entrevista;
 
-O jornalismo presta um serviço público de valor incomparavel. Um serviço que transforma pessoas
+·
+participar num debate;
 
-informadas em cidadãos capazes de tomar as decisões mais acertadas.
+·
+apresentar argumentos;
 
-Qual e a tese defendida no Texto 1? Escreve-a numa frase tua.
-1
+·
+concordar e discordar de forma fundamentada;
 
-O autor chama ao jornalismo um "passaporte de inclusão social". Explica esta
+·
+reformular uma ideia;
 
-metáfora.
+·
+responder a argumentos contrários.
 
-2
+**GRAMÁTICA**
 
-Que três regras do jornalismo o autor considera essenciais?
-3
+Ao longo dos textos, vais rever e aprofundar: classes e subclasses de palavras;
+quantificadores; valores dos tempos e modos verbais; funções sintáticas; orações
+subordinadas; relações de sentido entre palavras; conectores; coesão textual; discurso direto
+e indireto; frase ativa e passiva; mecanismos de formação de palavras.
 
-Segundo o autor, qual e a diferença fundamental entre um jornalista e uma
-4
+6
 
 <!-- page 7 -->
 
 ---
-UNIDADE 1 · SECÇÃO 1.2
+**UNIDADE 1 · TEXTO 1**
 
-O jornalismo e a informação
+## 1. REPORTAGEM
 
-Ler para saber
+**ANTES DE COMEÇAR**
 
-Um texto de opinião defende uma ideia. Uma notícia informa sobre factos verificáveis. Le esta notícia verdadeira.
+Imagina que, amanhã, acontece algo inesperado na tua escola. Durante uma manhã inteira, não
+há internet. Os telemóveis deixam de funcionar corretamente, os computadores não conseguem
+aceder às plataformas digitais e algumas aulas têm de ser reorganizadas.
 
-publicação anónima?
+O que faria um jornalista? Provavelmente, não escreveria simplesmente: «Hoje não houve
+internet na escola.» Precisaria de descobrir:
 
-Concordas com a ideia de que as redes sociais não substituem o jornalismo?
-Apresenta dois argumentos para justificar a tua posição.
+·
+O que aconteceu? Quando? Onde? Porquê?
 
-5
+·
+Quem foi afetado? Como reagiram as pessoas?
 
-✧
-D I C A
+·
+O que aconteceu depois?
 
-Num texto de opinião, procura primeiro a tese, ou seja, a ideia central que o autor defende. Depois procura
-os argumentos que a sustentam. Se conseguires separar estas duas coisas, compreendeste o texto.
+É isso que faz uma reportagem: transforma um acontecimento numa história informativa,
+contextualizada e documentada.
 
-➲
-H O R A D E L I G A R · N OT I C I A
+**CONHECE O GÉNERO — A REPORTAGEM**
 
-Dióxido de carbono na atmosfera atinge novo máximo
+A reportagem é um texto jornalístico que apresenta e desenvolve um acontecimento, situação
+ou problema. Ao contrário de uma notícia breve, a reportagem procura normalmente:
 
-O observatório de Mauna Loa, no Havai, mede a concentração de dioxido de carbono na atmosfera de forma
-contínua desde 1958. Em junho de 2026, o valor médio mensal atingiu 431,4 partes por milhão. Antes da revolução
-industrial, o valor rondava as 280 partes por milhão, o que representa um aumento superior a 50 por cento.
+·
+aprofundar um acontecimento; contextualizar a informação;
 
-Os cientistas recordam que estes dados são públicos e podem ser consultados por qualquer pessoa, e que a série de
-Mauna Loa e a mais longa medição direta de dioxido de carbono na atmosfera.
+·
+apresentar diferentes perspetivas; incluir testemunhos;
 
-Fonte: NOAA Global Monitoring Laboratory, julho de 2026.
+·
+descrever situações; apresentar dados; explicar causas e consequências;
 
-Distingue um texto de opinião de uma notícia. Dá duas diferenças.
-1
+·
+aproximar o leitor da realidade apresentada.
 
-Localiza na notícia: a. o valor medido em junho de 2026; b. o valor
-pré-industrial; c. a fonte da informação.
+**A reportagem pode combinar: informação + descrição + testemunhos + dados +**
+**contexto.**
 
-2
+**ATENÇÃO!**
 
-Porque é importante que uma notícia indique a sua fonte?
-3
+Uma reportagem não deve confundir:
 
-Calcula, em partes por milhão, o aumento entre o valor pré-industrial e junho
-de 2026.
+FACTO → informação que pode ser confirmada.
 
-4
+OPINIÃO → apreciação, interpretação ou avaliação de alguém.
 
-∴
-N Ã O P E R C A S O R U M O !
-
-Imagina que encontras esta mesma informação numa publicação anónima nas redes sociais, sem fonte
-
-indicada. Que passos darias para verificar se é verdadeira? Escreve três passos concretos.
+7
 
 <!-- page 8 -->
 
 ---
-UNIDADE 1 · SECÇÃO 1.3
+**TEXTO 1 · REPORTAGEM**
 
-Gramatica: funções sintáticas
+## QUANDO A ESCOLA FICOU EM SILÊNCIO
 
-Aprender
+Adaptação pedagógica para fins didáticos.
 
-Numa frase, cada grupo de palavras desempenha uma função sintática.
+Às oito e meia da manhã, o corredor principal da escola estava, como habitualmente, cheio de
+alunos. Havia mochilas pousadas no chão, professores a consultar horários e grupos de amigos a
+comentar o que tinham feito na tarde anterior.
 
-FUNCAO
-O QUE FAZ
-EXEMPLO
+Pouco depois, começaram a surgir os primeiros problemas.
 
-sujeito
-Aquele de quem se diz algo
-O jornalismo presta um serviço público.
+«Não consigo entrar na plataforma», disse um aluno junto à porta da sala de informática.
 
-predicado
-O que se diz do sujeito
-O jornalismo presta um serviço público.
+Na sala ao lado, uma professora tentava apresentar uma atividade, mas o computador não
+conseguia estabelecer ligação à internet. Alguns alunos levantaram imediatamente os
+telemóveis, convencidos de que o problema era apenas da rede da escola. Poucos minutos
+depois, perceberam que também os seus dispositivos apresentavam dificuldades.
 
-complemento direto
-Completa o verbo, sem preposição
-O jornalista verifica os factos.
+A escola tinha ficado praticamente sem acesso à internet.
 
-complemento indireto
-Completa o verbo, com preposição a
-Deu a notícia aos leitores.
+Inicialmente, a situação parecia apenas um incómodo. No entanto, à medida que a manhã
+avançava, tornou-se evidente que a dependência dos serviços digitais era maior do que muitos
+imaginavam.
 
-modificador
-Acrescenta informação não essencial
-O jornalista escreveu rapidamente.
+Algumas aulas tinham atividades preparadas exclusivamente para plataformas digitais. Numa
+das salas, os alunos tiveram de alterar o trabalho previsto e regressar aos cadernos. Noutra,
+uma apresentação preparada há vários dias teve de ser adiada.
 
-UNIDADE 1 · SECÇÃO 1.4
+«Foi estranho perceber como uma coisa tão invisível pode alterar completamente a rotina»,
+explicou uma professora.
 
-Escrita: o comentário
+Mas nem todos encararam a situação da mesma forma.
 
-Planear, escrever, rever
+Alguns alunos aproveitaram a interrupção para conversar mais com os colegas. Outros ficaram
+frustrados por não conseguirem concluir tarefas. Houve ainda quem descobrisse que
+determinadas informações que costumava procurar imediatamente no telemóvel podiam ser
+encontradas nos livros disponíveis na biblioteca.
 
-Um comentário e um texto curto em que reages a um texto ou a um acontecimento, apresentando a tua posição
-fundamentada.
+Na biblioteca, o movimento aumentou durante a manhã.
 
-↺
-R E C O R D A N U M M I N U TO
+«Vieram procurar livros que normalmente não procuram», contou a responsável pelo espaço.
 
-Para encontrar o complemento direto, pergunta ao verbo: o que? Para encontrar o complemento indireto,
-pergunta: a quem?
-
-Identifica o sujeito e o predicado em cada frase:
-
-a. Os cientistas publicaram os dados.
-
-b. O jornalismo transforma pessoas informadas em cidadãos.
-
-1
-
-Identifica os complementos diretos:
-
-a. O jornalista cruzou as fontes.
-
-b. Os leitores compreenderam a notícia.
-
-2
-
-Escreve uma frase tua que contenha sujeito, predicado e complemento direto.
-3
-
-Planeia o teu comentário ao Texto 1. No caderno, responde:
-1
+8
 
 <!-- page 9 -->
 
 ---
-UNIT 1 · PROJETO FINAL
+O episódio acabou por provocar uma discussão inesperada: até que ponto a escola depende da
+tecnologia?
 
-O nosso jornal de turma
+A resposta não é simples.
 
-qual e a tua posição, em uma frase?
+A tecnologia permite pesquisar informação rapidamente, comunicar com outras pessoas, aceder
+a documentos e criar novas formas de aprender. Ao mesmo tempo, uma dependência excessiva
+pode tornar mais difícil trabalhar quando esses recursos deixam de estar disponíveis.
 
-que dois argumentos a sustentam?
+No final da manhã, a ligação foi parcialmente restabelecida.
 
-que exemplo real podes usar?
+Os computadores voltaram a funcionar e os telemóveis recuperaram o acesso à rede. A rotina
+regressou.
 
-que objeção vais reconhecer e responder?
+Mas, para muitos alunos, alguma coisa tinha mudado.
 
-Escreve o teu comentário, entre 200 e 300 palavras. Deve ter introdução,
-desenvolvimento com dois argumentos, e conclusão.
+Durante algumas horas, tinham descoberto que uma escola sem internet continuava a ser uma
+escola.
 
-2
+E talvez essa tenha sido a parte mais inesperada da experiência.
 
-Revê o texto em voz alta. Verifica se cada parágrafo defende uma única ideia.
-3
+**COMPREENDER**
 
-★
-H O R A D A D I V E R S A O !
+1
+**INFORMAÇÃO EXPLÍCITA**
 
-O tribunal das notícias. Em grupos, um aluno apresenta uma afirmação e os outros devem perguntar: qual e
-a fonte? quem beneficia? o que falta saber? Ganha quem fizer a pergunta mais difícil de responder.
+Em que momento começaram a surgir os primeiros problemas?
 
-☑
-A T UA H O R A
+Que dificuldades foram sentidas nas aulas?
 
-Eu consigo identificar a tese e os argumentos de um texto de opinião.
-✓
+Que espaço da escola registou um aumento de movimento?
 
-Eu consigo distinguir um texto de opinião de uma notícia.
-✓
+Que solução foi encontrada para algumas das atividades inicialmente previstas?
 
-Eu consigo identificar funções sintáticas na frase.
-✓
-
-Eu consigo escrever um comentário fundamentado.
-✓
+9
 
 <!-- page 10 -->
 
 ---
-O nosso jornal de turma
+2
+**INFORMAÇÃO IMPLÍCITA**
 
-A turma vai produzir uma edição de um jornal. Cada aluno escreve um texto: uma notícia com fonte verificável,
-ou um texto de opinião fundamentado. Os textos serão revistos em pares antes de publicação.
+Por que razão a autora afirma que a situação deixou de ser «apenas um incómodo»?
 
-O que entregar
+O que podemos inferir sobre a relação dos alunos com a tecnologia?
 
-Como será avaliado
+Explica o significado da expressão: «uma coisa tão invisível pode alterar completamente a
+rotina».
 
-| Critério | Peso | |---|---| | Clareza da tese ou exatidão dos factos | 35% | | Qualidade da argumentação ou da fonte |
-30% | | Domínio da língua | 25% | | Qualidade da revisão feita a um colega | 10% |
+Por que motivo a biblioteca ganha importância durante o episódio?
 
-★
-P R O J E TO F I N A L
-
-O teu texto final, entre 250 e 400 palavras, com título.
-
-Se for notícia, a fonte indicada e verificável. Se for opinião, a tese e dois argumentos claros.
-
-Um parágrafo a explicar as tuas escolhas de linguagem.
-
-A revisão que fizeste ao texto de um colega.
+10
 
 <!-- page 11 -->
 
 ---
-UNIT 1 · VERIFICA O TEU PROGRESSO
-
-UNIT 1 · AVALIA-TE
-
-Sê honesto. Pinta o círculo que corresponde a como te sentes em cada objetivo: verde é "consigo", amarelo é
-"quase", vermelho é "preciso de treinar".
-
-EU CONSIGO …
-VERDE
-AMARELO
-VERMELHO
-
-identificar a tese e os argumentos de um texto de opinião
-
-distinguir um texto de opinião de uma notícia
-
-identificar funções sintáticas na frase
-
-escrever um comentário fundamentado
-
-UNIT 1 · O QUE CONSEGUES FAZER?
-
-✓
-O Q U E C O N S E G U E S FA Z E R ?
-
-MAPA DE PALAVRAS
-
-Unit 1
-
-tese: a ideia central que um texto de opinião defende.
-
-argumento: a razão que sustenta uma tese.
-
-notícia: um texto que relata factos verdadeiros e recentes.
-
-fonte: a origem verificável de uma informação.
-
-Qual é a tese do Texto 1? Escreve-a numa frase. [1]
-1
-
-Explica a metáfora 'passaporte de inclusão social'. [2]
-2
-
-Distingue um texto de opinião de uma notícia. Dá duas diferenças. [2]
 3
+**FACTO OU OPINIÃO?**
 
-Porque é importante que uma notícia indique a sua fonte? [2]
+Classifica as afirmações seguintes como F — facto ou O — opinião.
+
+a) A escola ficou sem acesso à internet. b) A situação foi estranha.
+
+c) Algumas atividades tiveram de ser adiadas. d) A tecnologia é indispensável em todas as
+aulas.
+
+e) Alguns alunos procuraram livros na biblioteca.
+
 4
+**ESTRUTURA**
 
-Identifica o sujeito e o predicado: 'Os cientistas publicaram os dados.' [2]
+Divide o texto em quatro momentos: A — apresentação da situação; B — desenvolvimento
+do problema; C — reflexão sobre as consequências; D — resolução e conclusão.
+
+Indica o parágrafo ou conjunto de parágrafos correspondente a cada momento.
+
+**COMO SE CONSTRÓI UMA REPORTAGEM?**
+
+1
+**TÍTULO**
+Deve despertar interesse e indicar o assunto.
+
+2
+**LEAD / ABERTURA**
+Apresenta o acontecimento e situa o leitor.
+
+3
+**DESENVOLVIMENTO**
+Acrescenta informação, contexto, descrições, dados e testemunhos.
+
+4
+**VOZES**
+Integra declarações de pessoas relacionadas com o acontecimento.
+
 5
+**CONTEXTUALIZAÇÃO**
+Explica causas, consequências ou questões relacionadas.
 
-Identifica o complemento direto: 'O jornalista cruzou as fontes.' [1]
 6
+**FECHO**
+Pode apresentar uma conclusão, consequência ou reflexão.
 
-Que passos darias para verificar uma informação sem fonte? [3]
-7
+**GRAMÁTICA EM CONTEXTO**
 
-Identificar a tese e os argumentos de um texto de
-opinião.
-
-Distinguir opinião de notícia e avaliar uma fonte.
-
-Identificar funções sintáticas na frase.
-
-Escrever um comentário fundamentado.
+11
 
 <!-- page 12 -->
 
 ---
-sujeito: aquele de quem se diz algo na frase.
+1
+**CLASSES E SUBCLASSES**
 
-predicado: o que se diz do sujeito.
+Retira do texto: dois nomes comuns; dois adjetivos; dois verbos; dois advérbios; dois
+determinantes; dois pronomes. Depois, identifica a respetiva subclasse sempre que
+possível.
 
-complemento direto: o que completa o verbo sem preposição.
+2
+**QUANTIFICADORES**
 
-comentário: um texto curto em que reages com uma posição fundamentada.
+Observa: «Alguns alunos aproveitaram a interrupção.» / «Muitos imaginavam que a
+situação seria rapidamente resolvida.»
 
-FONTES E REFERÊNCIAS
+a) Identifica os quantificadores. b) Indica o nome que determinam. c) Explica a diferença de
+sentido entre alguns e muitos.
 
-De onde veio tudo
-
-Os textos são originais. Os factos são reais e podem ser confirmados aqui. Ligações verificadas em julho de 2026.
+12
 
 <!-- page 13 -->
 
 ---
-§
-U N I T 1 · T E X TO S D I V E R S O S
+3
+**VERBOS**
 
-Dióxido de carbono na atmosfera. A média mensal de junho de 2026 em Mauna Loa foi de 431,4
-partes por milhão; o valor pré-industrial era cerca de 280.
-https://gml.noaa.gov/ccgg/trends/
+Explica o valor dos tempos verbais utilizados nestas frases: «A escola tinha ficado
+praticamente sem acesso à internet.» / «Os computadores voltaram a funcionar.»
 
-1
+Por que razão não seria adequado utilizar o mesmo tempo verbal nas duas situações?
 
-'Porque precisamos de jornalismo'. Texto de opinião original escrito para este livro. © Prime School
-2026.
+4
+**REESCRITA**
 
-2
+Transforma «A escola reorganizou algumas atividades.» numa frase na voz passiva.
+
+Depois explica o que acontece ao sujeito da frase ativa.
+
+**OFICINA DE ESCRITA — ESCREVE UMA REPORTAGEM**
+
+Imagina que a tua escola organizou um evento inesperado: um festival de música; uma feira
+científica; um torneio desportivo; uma campanha solidária; uma exposição; um dia sem
+telemóveis.
+
+**Escreve uma reportagem de 450–550 palavras. Antes de escrever, responde:**
+
+**O QUÊ?**
+
+**QUEM?**
+
+**QUANDO?**
+
+**ONDE?**
+
+**COMO?**
+
+**PORQUÊ?**
+
+Que consequências teve?
+
+**CHECKLIST**
+
+Tenho um título apelativo.
+
+Apresento informação concreta.
+
+Distingo factos de opiniões.
+
+Incluo pelo menos dois testemunhos.
+
+13
 
 <!-- page 14 -->
+
+---
+**UNIDADE 1 · TEXTO 2**
+
+## 2. ENTREVISTA
+
+**CONHECE O GÉNERO**
+
+A entrevista é um género discursivo organizado normalmente através de perguntas + respostas.
+
+**Pode ter diferentes objetivos:**
+
+·
+obter informação;
+
+·
+conhecer uma personalidade;
+
+·
+esclarecer um assunto;
+
+·
+apresentar diferentes perspetivas;
+
+·
+explorar experiências pessoais;
+
+·
+aprofundar um tema.
+
+Uma boa entrevista não consiste em fazer perguntas aleatórias. O entrevistador deve:
+
+·
+pesquisar previamente;
+
+·
+definir um objetivo;
+
+·
+preparar perguntas;
+
+·
+ordenar as perguntas;
+
+·
+saber ouvir;
+
+·
+formular perguntas de seguimento;
+
+·
+selecionar informação relevante.
+
+14
+
+<!-- page 15 -->
+
+---
+**TEXTO 2 · ENTREVISTA**
+
+## UMA CONVERSA QUE VAI MAIS LONGE
+
+Texto pedagógico construído para o manual.
+
+Quando uma pessoa é entrevistada, as respostas não surgem isoladamente. Cada pergunta abre
+uma possibilidade e cada resposta pode conduzir a uma nova pergunta.
+
+Imagina uma entrevista com uma jovem cientista que trabalha num laboratório e que está a
+desenvolver um projeto sobre água.
+
+**— Quando percebeste que querias seguir esta área?**
+
+— Não foi uma decisão tomada de um dia para o outro. Sempre gostei de perceber como
+funcionavam as coisas, mas durante muito tempo pensei que isso era apenas curiosidade. Só
+mais tarde percebi que essa curiosidade podia transformar-se numa profissão.
+
+**— E a escola teve influência nessa escolha?**
+
+— Teve, sobretudo algumas pessoas. Houve professores que não me deram simplesmente
+respostas. Fizeram-me perguntas. Isso obrigou-me a procurar, experimentar e aceitar que,
+muitas vezes, não sabia.
+
+**— Então não saber pode ser importante?**
+
+— Muito. Na ciência, dizer «não sei» não significa terminar uma investigação. Muitas vezes
+significa começar uma investigação.
+
+**— Mas não é difícil admitir que não sabemos?**
+
+— É. Principalmente quando estamos habituados a pensar que errar significa não ser
+suficientemente bom. Durante muito tempo também pensei assim.
+
+**— O que mudou?**
+
+— Percebi que uma experiência que não funciona pode ensinar-nos alguma coisa. O problema
+aparece quando desistimos antes de perceber por que razão não funcionou.
+
+**— Isso também se aplica à escola?**
+
+— Claro. Um aluno pode receber uma nota baixa e pensar imediatamente que não consegue.
+Mas uma nota não explica tudo. É preciso perguntar: o que correu mal? Faltou estudo? A matéria
+não foi compreendida? O método de trabalho não resultou? Houve falta de atenção?
+
+**— Portanto, a pergunta é mais importante do que a resposta?**
+
+— Algumas vezes, sim. Uma boa pergunta pode obrigar-nos a olhar para um problema de outra
+maneira.
+
+**— Se tivesses de deixar uma mensagem aos alunos, qual seria?**
+
+— Não tenham pressa de parecer que sabem tudo. Aprender implica fazer perguntas, mudar de
+ideias e começar outra vez.
+
+15
+
+<!-- page 16 -->
+
+---
+**COMPREENSÃO E ANÁLISE**
+
+1
+**COMPREENSÃO**
+
+Qual é o tema central da entrevista?
+
+Explica de que forma a entrevistada relaciona curiosidade e aprendizagem.
+
+Identifica uma pergunta que permita aprofundar uma resposta anterior.
+
+Qual é a função das perguntas finais?
+
+2
+**ANÁLISE**
+
+Explica a afirmação: «Na ciência, dizer «não sei» não significa terminar uma investigação.»
+
+Identifica uma ideia defendida pela entrevistada e apresenta uma justificação retirada do
+texto.
+
+O entrevistador limita-se a pedir informação ou também procura desenvolver ideias?
+Justifica.
+
+16
+
+<!-- page 17 -->
+
+---
+**GRAMÁTICA EM CONTEXTO**
+
+1
+**DISCURSO DIRETO**
+
+Observa: «— O que mudou?» / «— Percebi que uma experiência que não funciona pode
+ensinar-nos alguma coisa.»
+
+a) Identifica os sinais de pontuação utilizados. b) Explica a função do travessão. c) Passa a
+segunda fala para discurso indireto.
+
+2
+**ORAÇÕES SUBORDINADAS**
+
+Analisa: «Quando estamos habituados a pensar que errar significa não ser suficientemente
+bom, podemos desistir.»
+
+a) Identifica as orações. b) Classifica a oração introduzida por quando. c) Identifica a oração
+introduzida por que.
+
+3
+**CONECTORES**
+
+Substitui o conector destacado por outro com valor equivalente: «Mas uma nota não explica
+tudo.» / «Portanto, a pergunta é mais importante do que a resposta?»
+
+Explica se a substituição mantém exatamente o mesmo valor discursivo.
+
+**OFICINA DE ENTREVISTA**
+
+Prepara uma entrevista a uma pessoa que tenha uma experiência interessante. Pode ser:
+músico; atleta; professor; artista; cientista; empreendedor; escritor; familiar; antigo aluno da
+escola.
+
+**PREPARAÇÃO**
+
+17
+
+<!-- page 18 -->
+
+---
+**TEMA:**
+
+**OBJETIVO:**
+
+**ENTREVISTADO:**
+
+**PÚBLICO:**
+
+**Escreve: 3 perguntas de abertura; 4 perguntas de desenvolvimento; 2 perguntas de**
+**aprofundamento; 1 pergunta final.**
+
+**DESAFIO**
+
+Durante a entrevista, não leias simplesmente as perguntas. Escuta a resposta e formula uma
+pergunta nova a partir do que acabaste de ouvir.
+
+18
+
+<!-- page 19 -->
+
+---
+**UNIDADE 1 · TEXTO 3**
+
+## 3. AUTOBIOGRAFIA
+
+**QUANDO UMA VIDA SE TRANSFORMA EM HISTÓRIA**
+
+A autobiografia é um texto em que uma pessoa conta a própria vida. O autor, o narrador e a
+personagem principal coincidem.
+
+**CARACTERÍSTICAS**
+
+·
+primeira pessoa;
+
+·
+memórias;
+
+·
+episódios marcantes;
+
+·
+referências à infância;
+
+·
+lugares importantes;
+
+·
+pessoas significativas;
+
+·
+sentimentos;
+
+·
+reflexão sobre experiências;
+
+·
+seleção de acontecimentos;
+
+·
+comentários feitos pelo narrador adulto sobre o passado.
+
+**IMPORTANTE**
+
+Uma autobiografia não é uma simples lista de acontecimentos. O autor escolhe aquilo que
+considera significativo e atribui-lhe um sentido.
+
+19
+
+<!-- page 20 -->
+
+---
+**TEXTO 3 · AUTOBIOGRAFIA**
+
+## JORGE PALMA — UMA VIDA FEITA DE MÚSICA
+
+Jorge Palma é uma das figuras mais reconhecidas da música portuguesa contemporânea.
+
+A sua relação com a música começou muito cedo e atravessou diferentes momentos da sua
+
+vida. Na adolescência, descobriu o rock e interessou-se profundamente por grupos como os
+
+Beatles e os Rolling Stones. Mais tarde, voltou ao piano, estudou música e construiu uma
+
+carreira marcada por diferentes experiências artísticas.
+
+Em entrevistas, Palma recorda episódios da infância e da adolescência, fala da relação com
+
+Lisboa, das escolhas que fez, dos estudos, das viagens e da forma como a música foi
+
+ocupando um lugar central na sua vida.
+
+Numa entrevista publicada em 2024, recorda que nasceu e cresceu na Penha de França,
+
+em Lisboa, e fala de diferentes experiências da juventude. Noutro testemunho, recorda a
+
+descoberta do rock durante a adolescência e o impacto que essa música teve na sua forma
+
+de olhar para o mundo.
+
+Também relata uma passagem pelos estudos universitários. Entrou na Faculdade de
+
+Ciências com a expectativa de seguir uma área ligada à engenharia, mas acabou por
+
+abandonar esse percurso. A decisão mostra uma característica importante da sua
+
+trajetória: nem sempre o caminho que imaginamos inicialmente é aquele que acabamos
+
+por seguir.
+
+A música tornou-se, progressivamente, uma forma de expressão e de identidade.
+
+Palma fala ainda do seu processo criativo e da relação que mantém com a escrita. Refere
+
+que escreve em diferentes lugares — em viagens, em cafés, em momentos inesperados —
+
+mostrando que a criação artística não depende necessariamente de um espaço ideal.
+
+A sua história pode ser lida, por isso, como uma sequência de escolhas, mudanças e
+
+aprendizagens.
+
+Não existe apenas o músico que conhecemos hoje. Existe também o rapaz que descobriu
+
+novas músicas, o estudante que mudou de caminho, o jovem que saiu de casa, o adulto
+
+que continuou a aprender e o artista que transformou experiências pessoais em canções.
+
+A autobiografia permite precisamente esse olhar. Quando alguém conta a própria história,
+
+não está apenas a dizer o que aconteceu. Está também a explicar como interpreta aquilo
+
+que aconteceu.
+
+**«Até hoje continuo a aprender.» — Jorge Palma**
+
+20
+
+<!-- page 21 -->
+
+---
+**FONTE E LEITURA ORIENTADA**
+
+O texto acima é uma adaptação pedagógica baseada em testemunhos autobiográficos de
+Jorge Palma, nomeadamente entrevistas publicadas pela A Mensagem de Lisboa e pela FNAC.
+
+Para trabalho de aprofundamento, consulta a fonte integral indicada pelo professor.
+
+Uma formulação autêntica particularmente significativa de Jorge Palma é: «Até hoje continuo
+a aprender.» Esta pequena frase resume uma ideia central da sua trajetória: a aprendizagem
+como processo contínuo.
+
+**COMPREENDER**
+
+1
+**INFORMAÇÃO EXPLÍCITA**
+
+Onde nasceu e cresceu Jorge Palma?
+
+Que géneros musicais influenciaram a sua adolescência?
+
+Que curso pensou inicialmente seguir?
+
+Que relação mantém com a escrita?
+
+Que diferentes momentos da vida são recuperados no texto?
+
+21
+
+<!-- page 22 -->
+
+---
+2
+**INFERÊNCIA**
+
+Por que razão podemos afirmar que a música teve um papel identitário na vida de Jorge
+Palma?
+
+O que podemos inferir da mudança de percurso académico?
+
+Explica por que motivo o texto afirma: «Não existe apenas o músico que conhecemos
+hoje.»
+
+Que imagem de Jorge Palma é construída através da seleção dos episódios apresentados?
+
+22
+
+<!-- page 23 -->
+
+---
+**COMO RECONHECER UMA AUTOBIOGRAFIA?**
+
+Procura:
+
+**PESSOA — QUEM CONTA?**
+
+**TEMPO — QUE MOMENTOS SÃO RECORDADOS?**
+
+**ESPAÇO — QUE LUGARES APARECEM?**
+
+**MEMÓRIA — QUE ACONTECIMENTOS IMPORTAM?**
+
+**EMOÇÃO — QUE SENTIMENTOS APARECEM?**
+
+**REFLEXÃO — RECORDA OU INTERPRETA TAMBÉM?**
+
+**GRAMÁTICA EM CONTEXTO**
+
+1
+**PRONOMES PESSOAIS**
+
+Reescreve a frase seguinte na terceira pessoa: «Sempre gostei de perceber como
+funcionavam as coisas.» Depois explica as alterações necessárias.
+
+2
+**TEMPOS VERBAIS**
+
+Observa: «Nasci em Lisboa.» / «Durante muito tempo pensei…» / «Hoje continuo a
+aprender.»
+
+Explica a relação entre os tempos verbais e os diferentes momentos da vida.
+
+3
+**PRETÉRITO PERFEITO E PRETÉRITO IMPERFEITO**
+
+Completa adequadamente: Quando Jorge Palma __________ (ser) adolescente, __________
+(descobrir) novas influências musicais.
+
+Explica a escolha dos tempos verbais.
+
+23
+
+<!-- page 24 -->
+
+---
+4
+**ORAÇÕES SUBORDINADAS**
+
+Analisa: «Quando alguém conta a própria história, não está apenas a dizer o que
+aconteceu.»
+
+Identifica: a) oração subordinada; b) elemento subordinante; c) valor semântico da oração.
+
+24
+
+<!-- page 25 -->
+
+---
+**DESAFIO**
+
+## A BANDA SONORA DA MINHA VIDA
+
+Escolhe cinco músicas que poderiam representar cinco momentos da tua vida.
+
+**Para cada música, escreve: Música / Momento / Memória associada / Por que razão a**
+**escolheste.**
+
+**1.**
+
+**2.**
+
+**3.**
+
+**4.**
+
+**5.**
+
+**Depois transforma essas informações num texto autobiográfico de 500–600 palavras.**
+
+O objetivo não é contar tudo. É escolher aquilo que merece ser contado.
+
+25
+
+<!-- page 26 -->
+
+---
+**UNIDADE 1 · TEXTO 4**
+
+## 4. COMENTÁRIO
+
+**CONHECE O GÉNERO**
+
+O comentário apresenta uma posição pessoal e fundamentada sobre um assunto.
+
+Não é apenas: «Gostei.» ou «Não concordo.» Um comentário deve explicar porquê.
+
+**UM BOM COMENTÁRIO TEM:**
+
+**IDEIA / POSIÇÃO**
+
+·
+
+**ARGUMENTOS**
+
+·
+
+**EXEMPLOS**
+
+·
+
+**ANÁLISE**
+
+·
+
+**CONCLUSÃO**
+
+26
+
+<!-- page 27 -->
+
+---
+**TEXTO 5 · COMENTÁRIO**
+
+## ESTAMOS A PERDER A CAPACIDADE DE ESTAR SOZINHOS?
+
+Texto pedagógico para fins didáticos.
+
+Vivemos rodeados de possibilidades de comunicação. Basta pegar no telemóvel para enviar uma
+mensagem, comentar uma publicação, ouvir música, ver um vídeo ou entrar numa conversa que
+acontece do outro lado do mundo.
+
+Nunca foi tão fácil contactar alguém.
+
+Mas será que isso significa que sabemos estar connosco próprios?
+
+Passar algum tempo sozinho pode parecer estranho a quem está habituado a preencher todos os
+momentos vazios. Esperar pelo autocarro sem olhar para o telemóvel, caminhar sem ouvir
+música ou permanecer alguns minutos sem fazer nada pode provocar uma sensação de
+desconforto.
+
+É como se o silêncio tivesse deixado de ser espaço para pensar e tivesse passado a ser algo que
+precisamos de evitar.
+
+No entanto, estar sozinho não significa necessariamente estar isolado.
+
+Há uma diferença importante entre solidão e tempo de qualidade connosco próprios. A solidão
+pode ser dolorosa quando resulta da ausência involuntária de relações significativas. Estar
+sozinho por escolha pode, pelo contrário, permitir descansar, pensar, criar ou simplesmente
+observar.
+
+Muitos escritores e artistas procuram momentos de silêncio para trabalhar. Não porque rejeitem
+as outras pessoas, mas porque precisam de espaço mental.
+
+O problema talvez não esteja na tecnologia.
+
+A tecnologia pode aproximar pessoas que estão longe, facilitar o acesso à informação e permitir
+novas formas de criatividade. O problema surge quando sentimos que precisamos de estar
+permanentemente ligados.
+
+Uma notificação interrompe uma tarefa. Outra interrompe uma conversa. Outra chama a nossa
+atenção enquanto estudamos.
+
+Pouco a pouco, a nossa atenção torna-se fragmentada.
+
+Talvez seja necessário recuperar uma competência que parece simples, mas que exige treino:
+saber parar.
+
+Parar não significa abandonar a tecnologia. Significa decidir quando queremos utilizá-la e quando
+queremos simplesmente estar presentes.
+
+Se conseguimos escolher aquilo que vemos, ouvimos e partilhamos, talvez também devamos
+aprender a escolher os momentos em que não precisamos de ver, ouvir ou partilhar nada.
+
+Talvez o verdadeiro desafio não seja desligar o telemóvel. Talvez seja aprender a ligar-nos
+novamente a nós próprios.
+
+27
+
+<!-- page 28 -->
+
+---
+**COMPREENSÃO E ANÁLISE**
+
+1
+**COMPREENSÃO**
+
+Identifica o tema do comentário.
+
+Formula, por palavras tuas, a posição defendida pelo autor.
+
+Distingue os argumentos utilizados.
+
+Identifica um exemplo utilizado para desenvolver a argumentação.
+
+Explica a diferença entre «solidão» e «estar sozinho».
+
+O autor é contra a tecnologia? Justifica.
+
+Explica o significado da conclusão.
+
+Consideras que o título é adequado? Justifica.
+
+28
+
+<!-- page 29 -->
+
+---
+**GRAMÁTICA EM CONTEXTO**
+
+1
+**CONECTORES**
+
+Identifica o valor dos conectores: mas; no entanto; pelo contrário; porque; talvez; se.
+
+Depois cria uma frase argumentativa utilizando cada um deles.
+
+2
+**ORAÇÕES SUBORDINADAS**
+
+Analisa: «Se conseguimos escolher aquilo que vemos, ouvimos e partilhamos, também
+devemos aprender a escolher.»
+
+a) Classifica a oração subordinada. b) Identifica o verbo da oração subordinante. c) Explica
+o efeito produzido pela utilização desta estrutura.
+
+3
+**RELAÇÕES DE SENTIDO**
+
+Indica um hiperónimo para: telemóvel; tecnologia; música.
+
+Indica dois hipónimos de: comunicação; dispositivo eletrónico.
+
+4
+**FORMAÇÃO DE PALAVRAS**
+
+Explica o processo de formação de: criatividade; permanentemente; desconforto.
+
+29
+
+<!-- page 30 -->
+
+---
+**OFICINA DE ESCRITA — ESCREVE UM COMENTÁRIO**
+
+**Escolhe um dos temas:**
+
+A
+Os alunos deveriam ter períodos sem telemóveis durante o dia escolar.
+
+B
+As redes sociais aproximam mais as pessoas do que as afastam.
+
+C
+A escola deveria ensinar explicitamente literacia digital.
+
+Escreve um comentário de 450–550 palavras.
+
+**NÃO TE ESQUEÇAS**
+
+posição → argumento → exemplo → explicação → conclusão
+
+30
+
+<!-- page 31 -->
+
+---
+**UNIDADE 1 · TEXTO 6**
+
+## 5. TEXTO DE OPINIÃO
+
+**COMENTAR ≠ DAR UMA OPINIÃO**
+
+Num texto de opinião, a tua posição deve ser claramente identificável e sustentada por
+argumentos.
+
+**ESTRUTURA**
+
+**INTRODUÇÃO — apresenta o problema.**
+
+·
+
+**TESE — indica claramente a tua posição.**
+
+·
+
+**ARGUMENTO 1 — explica.**
+
+·
+
+**ARGUMENTO 2 — desenvolve.**
+
+·
+
+**CONTRA-ARGUMENTO — apresenta uma posição diferente.**
+
+·
+
+**REFUTAÇÃO — explica por que razão não concordas totalmente.**
+
+·
+
+**CONCLUSÃO — retoma a ideia principal.**
+
+31
+
+<!-- page 32 -->
+
+---
+**TEXTO 7 · TEXTO DE OPINIÃO**
+
+## A ESCOLA DEVE ENSINAR A UTILIZAR A INTELIGÊNCIA ARTIFICI
+
+Texto pedagógico para fins didáticos.
+
+A inteligência artificial deixou de ser uma realidade distante. Atualmente, muitos jovens
+contactam diariamente com ferramentas capazes de responder a perguntas, criar imagens,
+traduzir textos, resumir informação ou ajudar a organizar ideias.
+
+Perante esta realidade, surge uma questão inevitável: deve a escola ensinar os alunos a utilizar
+estas ferramentas?
+
+A resposta deve ser afirmativa.
+
+Em primeiro lugar, porque a escola prepara os jovens para o mundo em que vivem. Ignorar uma
+tecnologia que já faz parte da sociedade não impede a sua utilização. Pelo contrário, pode fazer
+com que os alunos a utilizem sem conhecer os seus riscos.
+
+Saber utilizar inteligência artificial não significa simplesmente saber escrever um pedido numa
+aplicação.
+
+Significa saber avaliar uma resposta, verificar uma fonte, reconhecer um erro, proteger dados
+pessoais e compreender que uma resposta apresentada por uma máquina não é
+automaticamente verdadeira.
+
+Em segundo lugar, a inteligência artificial pode ser utilizada como ferramenta de aprendizagem.
+Pode ajudar um aluno a identificar erros num texto, propor perguntas para estudar ou explicar
+um conceito de diferentes formas.
+
+No entanto, existe um risco evidente.
+
+Se um aluno utilizar uma ferramenta de inteligência artificial para realizar uma tarefa inteira sem
+compreender o conteúdo, a tecnologia deixa de ser um instrumento de aprendizagem e passa a
+substituir o próprio processo de aprendizagem.
+
+É por isso que a escola deve ensinar não apenas como utilizar, mas também quando utilizar e
+quando não utilizar.
+
+Algumas pessoas defendem que permitir estas ferramentas nas escolas facilita a fraude e reduz
+o esforço dos alunos. É uma preocupação legítima. Contudo, proibir completamente a tecnologia
+pode não resolver o problema.
+
+Talvez seja mais importante alterar as próprias tarefas.
+
+Se uma atividade exige apenas copiar informação, será facilmente substituída por uma
+ferramenta digital. Se exige interpretar, justificar, comparar, criar, discutir e relacionar ideias, o
+papel do aluno torna-se muito mais importante.
+
+A questão, portanto, não deve ser simplesmente «permitir ou proibir».
+
+A verdadeira questão é: como podemos ensinar os jovens a utilizar uma tecnologia poderosa
+sem deixar que ela pense por eles?
+
+32
+
+<!-- page 33 -->
+
+---
+**COMPREENDER**
+
+1
+**COMPREENSÃO**
+
+Identifica a tese do autor.
+
+Identifica dois argumentos utilizados.
+
+Qual é o contra-argumento apresentado?
+
+Como é feita a refutação?
+
+Explica por que razão o autor distingue «utilizar» de «saber utilizar».
+
+Que relação é estabelecida entre tecnologia e pensamento crítico?
+
+Identifica uma pergunta retórica.
+
+Explica a função dessa pergunta na conclusão.
+
+33
+
+<!-- page 34 -->
+
+---
+**GRAMÁTICA EM CONTEXTO**
+
+1
+**MODALIDADE**
+
+Observa: «A escola deve ensinar…» / «Talvez seja mais importante…»
+
+Explica a diferença entre o grau de certeza ou de obrigação transmitido pelas duas
+expressões.
+
+2
+**CONJUNÇÕES E LOCUÇÕES**
+
+Identifica o valor de: porque; contudo; no entanto; se; portanto.
+
+3
+**SUBORDINAÇÃO**
+
+Classifica as orações subordinadas:
+
+a) «Se um aluno utilizar uma ferramenta…» b) «quando não utilizar» c) «que uma resposta
+apresentada por uma máquina não é automaticamente verdadeira.»
+
+4
+**REFORMULAÇÃO**
+
+Reescreve «A tecnologia pode ajudar um aluno a organizar ideias.» começando por «Um
+aluno pode…».
+
+Depois transforma a frase numa construção passiva.
+
+34
+
+<!-- page 35 -->
+
+---
+**OFICINA DE ESCRITA — DEFENDE UMA IDEIA**
+
+Escreve um texto de opinião de 500–600 palavras sobre:
+
+**Deveriam existir limites ao uso do telemóvel**
+**pelos adolescentes?**
+
+**Obrigatoriamente, inclui:**
+
+uma tese clara;
+
+dois argumentos;
+
+pelo menos um exemplo;
+
+um contra-argumento;
+
+uma refutação;
+
+conectores argumentativos;
+
+conclusão.
+
+35
+
+<!-- page 36 -->
+
+---
+**UNIDADE 1 · TEXTO 8**
+
+## 6. CARTA DE APRESENTAÇÃO
+
+**CONHECE O GÉNERO**
+
+A carta de apresentação é um texto formal utilizado para acompanhar uma candidatura.
+
+**Pode ser utilizada para:**
+
+·
+candidatar-se a um emprego;
+
+·
+apresentar-se para um estágio;
+
+·
+candidatar-se a uma atividade;
+
+·
+responder a uma oportunidade;
+
+·
+apresentar competências e interesses.
+
+**UMA CARTA DE APRESENTAÇÃO DEVE SER:**
+
+clara + objetiva + formal + personalizada
+
+**MODELO**
+
+36
+
+<!-- page 37 -->
+
+---
+**Exmo. Senhor Diretor,**
+
+O meu nome é João Martins e frequento atualmente o 9.º ano de escolaridade. Venho,
+por este meio, apresentar a minha candidatura à participação no projeto de
+voluntariado jovem promovido pela escola.
+
+Tenho particular interesse em atividades relacionadas com a comunicação, a
+organização de eventos e o trabalho em equipa. Ao longo dos últimos anos, participei
+em diferentes projetos escolares, experiências que me permitiram desenvolver
+competências de responsabilidade, cooperação e gestão do tempo.
+
+Considero que a participação neste projeto seria uma oportunidade para colocar essas
+competências em prática e, simultaneamente, adquirir novas experiências.
+
+Sou uma pessoa responsável, empenhada e disponível para aprender. Tenho facilidade
+em trabalhar em grupo e procuro cumprir as tarefas que me são atribuídas dentro dos
+prazos definidos.
+
+Agradeço desde já a atenção dispensada à minha candidatura e coloco-me à
+disposição para uma eventual entrevista.
+
+Com os melhores cumprimentos,
+
+**João Martins**
+
+37
+
+<!-- page 38 -->
+
+---
+**ANALISA O MODELO**
+
+1
+**ANÁLISE**
+
+Quem escreve? A quem se dirige?
+
+Qual é a finalidade da carta?
+
+Que competências são apresentadas? Como é demonstrada a motivação?
+
+Que expressões revelam formalidade? Como termina a carta?
+
+**GRAMÁTICA EM CONTEXTO**
+
+2
+**REGISTO FORMAL**
+
+Substitui as expressões informais por formulações adequadas a uma carta formal:
+
+a) «Quero muito entrar neste projeto.» b) «Acho que sou bom a trabalhar com outras
+pessoas.» c) «Gostava que me escolhessem.»
+
+3
+**FUNÇÕES SINTÁTICAS**
+
+Analisa: «A participação neste projeto seria uma oportunidade importante.»
+
+Identifica: sujeito; predicado; complemento direto, se existir; complemento do nome.
+
+38
+
+<!-- page 39 -->
+
+---
+4
+**PRONOMES**
+
+Reformula: «O responsável poderá contactar-me.» Substitui o pronome por uma construção
+equivalente e explica a sua função.
+
+39
+
+<!-- page 40 -->
+
+---
+**OFICINA DE ESCRITA**
+
+**Escreve uma carta de apresentação para uma destas situações:**
+
+A
+Candidatura a um projeto Erasmus+.
+
+B
+Candidatura a um estágio de curta duração.
+
+C
+Candidatura a uma atividade de voluntariado.
+
+D
+Candidatura a um clube escolar.
+
+Extensão recomendada: 300–400 palavras.
+
+40
+
+<!-- page 41 -->
+
+---
+**UNIDADE 1 · ORALIDADE**
+
+## 7. DEBATE
+
+**QUANDO UMA OPINIÃO SE TORNA ARGUMENTO**
+
+Num debate, não basta falar. É necessário:
+
+·
+ouvir;
+
+·
+compreender;
+
+·
+argumentar;
+
+·
+responder;
+
+·
+justificar;
+
+·
+respeitar.
+
+**FRASES ÚTEIS**
+
+**PARA CONCORDAR**
+
+· Concordo com essa perspetiva porque…
+
+· Considero esse argumento válido, sobretudo porque…
+
+**PARA DISCORDAR**
+
+· Respeito essa posição, mas considero que…
+
+· Não concordo totalmente porque…
+
+**PARA ACRESCENTAR**
+
+· Gostaria de acrescentar que…
+
+· Há ainda outro aspeto a considerar…
+
+**PARA CONTRARIAR**
+
+· Esse argumento pode ser questionado porque…
+
+· Embora seja verdade que…, também é necessário considerar…
+
+**PARA CONCLUIR**
+
+· Em síntese…
+
+· Assim, considero que…
+
+41
+
+<!-- page 42 -->
+
+---
+**DESAFIO FINAL DA UNIDADE**
+
+## DEBATE: A TECNOLOGIA ESTÁ A TORNAR-NOS MAIS LIVRES?
+
+**Divide a turma em dois grupos.**
+
+**GRUPO A**
+
+A tecnologia aumenta a nossa liberdade.
+
+**GRUPO B**
+
+A tecnologia pode limitar a nossa
+liberdade.
+
+**Cada grupo deve preparar:**
+
+·
+3 argumentos;
+
+·
+2 exemplos;
+
+·
+1 contra-argumento;
+
+·
+1 resposta ao contra-argumento;
+
+·
+1 conclusão.
+
+**REGRA DE OURO**
+
+Não ataques a pessoa. Questiona a ideia.
+
+**PREPARAÇÃO DO GRUPO**
+
+**ARGUMENTO 1:**
+
+**ARGUMENTO 2:**
+
+**ARGUMENTO 3:**
+
+**EXEMPLO 1:**
+
+**EXEMPLO 2:**
+
+**CONTRA-ARGUMENTO:**
+
+42
+
+<!-- page 43 -->
+
+---
+**UNIDADE 1 · GRAMÁTICA**
+
+## GRAMÁTICA — CONSOLIDAÇÃO DA UNIDADE
+
+Agora que já trabalhaste a gramática em contexto, vais sistematizar os conteúdos.
+
+**1. CLASSES E SUBCLASSES DE PALAVRAS**
+
+**NOME**
+Designa seres, objetos, lugares, sentimentos, ideias ou conceitos.
+
+**ADJETIVO**
+Caracteriza ou qualifica um nome.
+
+**VERBO**
+Exprime ação, estado ou processo.
+
+**ADVÉRBIO**
+Modifica o sentido de um verbo, adjetivo, outro advérbio ou frase.
+
+**DETERMINANTE**
+Antecede e determina um nome.
+
+**PRONOME**
+Pode substituir ou representar um nome ou grupo nominal.
+
+**QUANTIFICADOR**
+Exprime quantidade ou número.
+
+1
+**EXERCÍCIO**
+
+Classifica as palavras destacadas: Muitos alunos utilizam frequentemente o telemóvel
+porque algumas tarefas escolares exigem pesquisa.
+
+**2. QUANTIFICADORES**
+
+**UNIVERSAIS: TODO, TODA, TODOS, TODAS**
+
+**EXISTENCIAIS: ALGUM, ALGUMA, ALGUNS, ALGUMAS**
+
+**OUTROS: MUITO, POUCO, VÁRIOS, BASTANTE, NENHUM, AM**
+
+1
+**DESAFIO**
+
+Explica a diferença de sentido: «Todos os alunos participaram.» / «Alguns alunos
+participaram.» / «Poucos alunos participaram.»
+
+43
+
+<!-- page 44 -->
+
+---
+**3. FUNÇÕES SINTÁTICAS**
+
+**SUJEITO**
+Constituinte sobre o qual se declara algo.
+
+**PREDICADO**
+Constituinte que contém aquilo que se declara sobre o sujeito.
+
+**COMPLEMENTO DIRETO**
+Completa o sentido de determinados verbos sem preposição.
+
+**COMPLEMENTO INDIRETO**
+É introduzido normalmente pela preposição a.
+
+**COMPLEMENTO OBLÍQUO**
+É exigido por determinados verbos e pode ser introduzido por
+preposição.
+**MODIFICADOR**
+Acrescenta informação, mas não é exigido pelo verbo.
+
+1
+**DESAFIO**
+
+Analisa: «Ontem, os alunos da turma apresentaram uma reportagem na biblioteca.»
+
+Identifica: modificador; sujeito; predicado; complemento direto; complemento do nome.
+
+**4. ORAÇÕES SUBORDINADAS**
+
+**CAUSAL**
+Não fomos à biblioteca porque estava fechada.
+
+**CONDICIONAL**
+Se estudarmos, teremos melhores resultados.
+
+**TEMPORAL**
+Quando terminou a aula, começaram a trabalhar.
+
+**FINAL**
+Estudou para melhorar a nota.
+
+**CONCESSIVA**
+Embora estivesse cansado, continuou a trabalhar.
+
+**COMPLETIVA**
+O professor explicou que a atividade começaria depois.
+
+**EXERCÍCIO DE TRANSFORMAÇÃO**
+
+Une cada par de frases utilizando o conector indicado.
+
+O aluno estudou. Melhorou os resultados. (porque)
+
+A escola utiliza tecnologia. Deve ensinar literacia digital. (por isso)
+
+O aluno pode discordar. Deve respeitar os colegas. (embora)
+
+Preparas os argumentos. Participarás melhor no debate. (se)
+
+44
+
+<!-- page 45 -->
+
+---
+**5. RELAÇÕES DE SENTIDO**
+
+**SINONÍMIA**
+palavras com significado semelhante.
+
+**ANTONÍMIA**
+palavras com significado oposto.
+
+**HIPERONÍMIA**
+animal → cão (do geral para o específico).
+
+**HIPONÍMIA**
+cão → animal (do específico para o geral).
+
+**HOLONÍMIA**
+corpo → mão (do todo para a parte).
+
+**MERONÍMIA**
+mão → corpo (da parte para o todo).
+
+1
+**DESAFIO**
+
+Constrói três redes lexicais relacionadas com: MEDIA; TECNOLOGIA; MÚSICA.
+
+Inclui hiperónimos, hipónimos, sinónimos e palavras relacionadas.
+
+**6. CONECTORES DISCURSIVOS**
+
+**ADIÇÃO**
+além disso, também, ainda
+
+**OPOSIÇÃO**
+mas, contudo, no entanto, porém
+
+**CAUSA**
+porque, visto que, uma vez que
+
+**CONSEQUÊNCIA**
+por isso, portanto, assim
+
+**EXEMPLIFICAÇÃO**
+por exemplo, nomeadamente
+
+**CONCLUSÃO**
+em suma, em síntese, finalmente
+
+2
+**REESCREVE**
+
+Melhora o seguinte texto através da utilização de conectores: «A tecnologia é útil. Pode
+facilitar a aprendizagem. Pode criar problemas. Os alunos devem aprender a utilizá-la. É
+importante verificar a informação.»
+
+45
+
+<!-- page 46 -->
+
+---
+**7. FRASE ATIVA E FRASE PASSIVA**
+
+**ATIVA**
+
+Os alunos escreveram a reportagem.
+
+**PASSIVA**
+
+A reportagem foi escrita pelos alunos.
+
+1
+**TRANSFORMA**
+
+O jornalista entrevistou o músico.
+
+A turma organizou o debate.
+
+Os alunos prepararam os argumentos.
+
+A escola publicou o texto.
+
+**8. DISCURSO DIRETO E INDIRETO**
+
+**DIRETO**
+
+— Não concordo com essa ideia.
+
+**INDIRETO**
+
+O aluno afirmou que não concordava com essa ideia.
+
+1
+**DESAFIO**
+
+Transforma para discurso indireto: «— Vou preparar melhor os meus argumentos antes do
+debate — afirmou a aluna.»
+
+46
+
+<!-- page 47 -->
+
+---
+**9. TEMPOS E MODOS VERBAIS**
+
+**INDICATIVO**
+Apresenta acontecimentos, estados ou factos.
+
+**CONJUNTIVO**
+Pode exprimir hipótese, possibilidade, desejo, dúvida, condição, finalidade,
+entre outros valores.
+**IMPERATIVO**
+Exprime ordem, pedido, conselho ou instrução.
+
+1
+**EXERCÍCIO**
+
+Explica o valor do modo verbal:
+
+a) É importante que os alunos participem. b) Se estudarem, terão melhores resultados.
+
+c) Prepara os teus argumentos. d) Talvez seja necessário alterar o plano.
+
+47
+
+<!-- page 48 -->
+
+---
+**PRODUÇÃO FINAL**
+
+## JOVENS REPÓRTERES
+
+Chegaste ao desafio final da unidade. Durante uma semana, vais transformar-te num jovem
+jornalista.
+
+**MISSÃO**
+
+Escolhe um tema relacionado com a comunidade escolar. Pode ser:
+
+·
+tecnologia;
+
+·
+desporto;
+
+·
+música;
+
+·
+sustentabilidade;
+
+·
+leitura;
+
+·
+alimentação;
+
+·
+voluntariado;
+
+·
+saúde;
+
+·
+relações entre jovens;
+
+·
+inteligência artificial;
+
+·
+utilização dos espaços escolares.
+
+48
+
+<!-- page 49 -->
+
+---
+**ETAPA 1 — INVESTIGAR**
+
+Recolhe informação em pelo menos três fontes. Não copies simplesmente. Seleciona. Compara.
+Confirma.
+
+**FONTE 1:**
+
+**FONTE 2:**
+
+**FONTE 3:**
+
+**ETAPA 2 — ENTREVISTAR**
+
+Entrevista pelo menos uma pessoa relacionada com o tema. Prepara previamente as perguntas.
+
+**ETAPA 3 — ESCREVER**
+
+Produz uma reportagem de 600–700 palavras. Deves incluir:
+
+título;
+
+abertura;
+
+informação factual;
+
+pelo menos dois testemunhos;
+
+contexto;
+
+diferentes perspetivas;
+
+conclusão.
+
+**ETAPA 4 — GRAMÁTICA**
+
+Antes de entregar, procura no teu texto: 5 nomes; 5 verbos; 3 adjetivos; 3 advérbios; 3
+conectores; 2 orações subordinadas; 1 exemplo de discurso direto. Identifica-os e explica a sua
+função.
+
+49
+
+<!-- page 50 -->
+
+---
+**CHECKPOINT**
+
+## JÁ CONSIGO?
+
+Sê honesto. Marca as caixas daquilo que já consegues fazer.
+
+**LEITURA**
+
+Consigo identificar o género de um texto dos media.
+
+Consigo distinguir facto de opinião.
+
+Consigo localizar informação explícita.
+
+Consigo fazer inferências.
+
+Consigo justificar uma interpretação.
+
+Consigo identificar a posição de um autor.
+
+**ESCRITA**
+
+Sei estruturar uma reportagem.
+
+Sei preparar uma entrevista.
+
+Sei escrever uma autobiografia.
+
+Sei construir um comentário.
+
+Sei defender uma opinião.
+
+Sei escrever uma carta formal.
+
+**ORALIDADE**
+
+Sei preparar uma intervenção.
+
+Sei apresentar argumentos.
+
+Sei responder a um contra-argumento.
+
+Sei discordar com respeito.
+
+**GRAMÁTICA**
+
+Sei identificar classes e subclasses.
+
+Sei reconhecer quantificadores.
+
+Sei identificar funções sintáticas.
+
+Sei classificar orações subordinadas.
+
+Sei utilizar conectores.
+
+Sei distinguir frase ativa e passiva.
+
+Sei transformar discurso direto em indireto.
+
+50
+
+<!-- page 51 -->
+
+---
+## AUTOAVALIAÇÃO
+
+Completa:
+
+**O conteúdo que achei mais fácil foi…**
+
+**O conteúdo que ainda preciso de estudar é…**
+
+**O texto que mais gostei de trabalhar foi…**
+
+**Uma competência que desenvolvi foi…**
+
+**Uma coisa que consigo fazer agora e antes tinha dificuldade em fazer é…**
+
+**O meu próximo objetivo é…**
+
+51
+
+<!-- page 52 -->
 
 ---
 **P R I M E  B O O K S**
