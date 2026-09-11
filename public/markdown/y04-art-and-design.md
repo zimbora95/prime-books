@@ -1,5 +1,5 @@
 # Art & Design - Year 4 (Prime Book)
-> Markdown companion of `public/library/y04-art-and-design/book.pdf` (82 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y04-art-and-design/book.pdf` (83 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -13,97 +13,154 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Contents
+Art & Design
 
-Welcome to the Wall Studio
-03
+Year 4 · Student Manual
+The Wall Studio
 
-Who you will meet
-05
+A student book for Lower Primary, written for pupils of about eight to nine
+years old. It teaches four kinds of making and one habit that runs through
+all of them: look closely, decide what the work is for, and then make it well.
 
-How to use this book
-05
+Four tables in one studio: printing, painting, drawing with perspective and
+building in three dimensions. Rufus the fox plans every print before the
+stamp goes down; Bruno the bear mixes colour slowly and paints the big
+shapes first. Work beside them through twenty topics and finish by
+curating the Studio show.
 
-Getting set up
-07
+Art & Design · Year 4
+Student Manual. First edition, 2026.
 
-Unit 1  Printing for a purpose
-09
+Prime Books is the publishing imprint of Prime School, Portugal.
+www.primeschool.pt
 
-1.1  Exploring printing techniques
-11
+© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system
+or transmitted in any form or by any means without the prior written permission of the publisher.
 
-1.2  Using colour in printing
-15
+Independent publication. This book was written and produced by Prime School International for use within its own
+programmes of study. It is not affiliated with, licensed by or endorsed by any
+examination board or awarding body. References to curriculum frameworks represent
+the interpretation of the authors.
 
-1.3  Designing for a purpose
-18
+Trademark acknowledgements. All product names, trademarks and registered trademarks named in this book are
+the property of their respective owners and are used for identification and
+educational comment only. No endorsement is implied and none should be
+inferred.
 
-1.4  Producing a final print
-21
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content Creation
+Team.
 
-Unit 2  Approaches to painting
-28
+Text, design and illustration. Written and designed by the Prime Books editorial studio. Original watercolour
+illustration produced for Prime School. All illustrations © Prime School 2026.
 
-2.1  Experimenting with brush techniques
-30
+Illustration note. The illustrations in this book were created with the assistance of generative artificial intelligence
+as part of the creative production process. All text was written, edited and checked by our subject
+authors and teachers.
 
-2.2  Mixing and using colour
-33
+Safety. The activities in this book are written for pupils aged eight to nine working with a teacher nearby. Cutting, and any
+clay or tool work, needs an adult. Teachers follow their own risk assessment and school safety policy.
 
-2.3  Exploring textures in painting
-36
-
-2.4  Working from observation
-38
-
-Unit 3  Drawing with perspective
-45
-
-3.1  One- and two-point perspective
-47
-
-3.2  Drawing dynamic figures
-50
+Interior 8.5 × 11 in. British English throughout. Printed in Portugal on paper from responsibly managed forests.
 
 <!-- page 3 -->
 
 ---
+Contents
+
+Welcome to the Wall Studio
+
+Who you will meet
+
+How to use this book
+
+Getting set up
+
+Unit 1  Printing for a purpose
+
+1.1  Exploring printing techniques
+
+1.2  Using colour in printing
+
+1.3  Designing for a purpose
+
+1.4  Producing a final print
+
+Unit 2  Approaches to painting
+
+2.1  Experimenting with brush techniques
+
+2.2  Mixing and using colour
+
+2.3  Exploring textures in painting
+
+2.4  Working from observation
+
+Unit 3  Drawing with perspective
+
+3.1  One- and two-point perspective
+
+3.2  Drawing dynamic figures
+
+04
+
+06
+
+06
+
+08
+
+10
+
+12
+
+16
+
+19
+
+22
+
+29
+
+31
+
+34
+
+37
+
+39
+
+46
+
+48
+
+51
+
+<!-- page 4 -->
+
+---
 3.3  Line, tone and shading for depth
-54
 
 3.4  Perspective and movement together
-56
 
 Unit 4  Architecture in 3D
-62
 
 4.1  Studying architectural forms
-64
 
 4.2  Constructing simple 3D models
-67
 
 4.3  Materials and textures
-71
 
 4.4  A 3D architectural project
-73
 
 Studio show
-74
 
 Studio words
-79
 
 Answers
-79
 
 Sources and references
-80
 
 For teachers
-80
 
 Welcome to the Wall Studio
 
@@ -118,7 +175,31 @@ draw so space feels deep, and build a small piece of architecture you can hold.
 
 Four kinds of making live here:
 
-<!-- page 4 -->
+55
+
+57
+
+63
+
+65
+
+68
+
+72
+
+74
+
+75
+
+80
+
+80
+
+81
+
+81
+
+<!-- page 5 -->
 
 ---
 Rufus the fox plans carefully before the stamp goes down. Bruno the bear mixes
@@ -143,7 +224,7 @@ In Year 3 you drew from encounter, made mosaics, painted and built
 structure. This year the craft words get sharper: purpose, perspective,
 architecture. Your hands still lead. Your eyes still check.
 
-<!-- page 5 -->
+<!-- page 6 -->
 
 ---
 Who you will meet
@@ -175,7 +256,7 @@ How to use this book
 
 The same friendly signs come back on every page. Learn them once.
 
-<!-- page 6 -->
+<!-- page 7 -->
 
 ---
 When you see a dashed box, that space is yours. Draw in it. Stick in it. There are
@@ -202,7 +283,7 @@ Big challenge - a harder task; take your time
 
 How did it go? - a short look back at your work
 
-<!-- page 7 -->
+<!-- page 8 -->
 
 ---
 Getting set up
@@ -250,12 +331,12 @@ Shake your hands for five seconds. Press your palms together hard, then
 open them wide like stars. Do it three times. Now your hands are ready to
 make.
 
-<!-- page 8 -->
+<!-- page 9 -->
 
 ---
 Picture 0.2 A tidy Year 4 kit: print block, paints, brushes, card and a small box ready to become a building.
 
-<!-- page 9 -->
+<!-- page 10 -->
 
 ---
 U N I T 1 · P R I N T T A B L E
@@ -289,9 +370,9 @@ run a print stall for a real audience
 
 UNIT 1  PRINTING FOR A PURPOSE
 
-9
+10
 
-<!-- page 10 -->
+<!-- page 11 -->
 
 ---
 Picture 1.0 The print table set out before anyone touches it: foam block, ink tray, roller and paper. Look at how much clear
@@ -320,9 +401,9 @@ first.
 
 UNIT 1  PRINTING FOR A PURPOSE
 
-10
+11
 
-<!-- page 11 -->
+<!-- page 12 -->
 
 ---
 What you will fetch
@@ -378,9 +459,9 @@ and feel the difference between a firm, even press and a squashing one.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.1
 
-11
+12
 
-<!-- page 12 -->
+<!-- page 13 -->
 
 ---
 Each one has a trap. Thin lines on a relief block fill with ink and disappear. A
@@ -400,9 +481,9 @@ ribbed stripes from the card and the veins the leaf prints.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.1
 
-12
+13
 
-<!-- page 13 -->
+<!-- page 14 -->
 
 ---
 Picture 1.2 Rufus and Bruno checking three prints pulled from one foam leaf block. Look for the pressed veins staying
@@ -445,9 +526,9 @@ it up.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.1
 
-13
+14
 
-<!-- page 14 -->
+<!-- page 15 -->
 
 ---
 **●**
@@ -491,9 +572,9 @@ edge? A printer chooses paper on purpose too.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.1
 
-14
+15
 
-<!-- page 15 -->
+<!-- page 16 -->
 
 ---
 U N I T 1 - TO P IC 1 . 2
@@ -529,9 +610,9 @@ small cross mark outside the picture.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.2
 
-15
+16
 
-<!-- page 16 -->
+<!-- page 17 -->
 
 ---
 Picture 1.4 The same stamp printed in soft yellow and then in deep blue on pale paper. Look at which of the two you can
@@ -571,9 +652,9 @@ prints two more. The third is exact.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.2
 
-16
+17
 
-<!-- page 17 -->
+<!-- page 18 -->
 
 ---
 Picture 1.5 An old Lisbon wall where one tile design repeats across the whole front of the house. Look for the single tile
@@ -606,9 +687,9 @@ DARKER TEST
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.2
 
-17
+18
 
-<!-- page 18 -->
+<!-- page 19 -->
 
 ---
 U N I T 1 - TO P IC 1 . 3
@@ -663,9 +744,9 @@ and write down what they say before you decide who was right.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.3
 
-18
+19
 
-<!-- page 19 -->
+<!-- page 20 -->
 
 ---
 Picture 1.6 Rufus's badge plan for the quiet reading corner: the open-book shape drawn big, two colour swatches beside
@@ -696,12 +777,11 @@ small stamp that fits a child's hand and prints hundreds of times.
 
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.3
-
-19
-
 Four steps take you from job to block.
 
-<!-- page 20 -->
+20
+
+<!-- page 21 -->
 
 ---
 ∎
@@ -734,9 +814,9 @@ He picks the cleaner, then cuts the final block.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.3
 
-20
+21
 
-<!-- page 21 -->
+<!-- page 22 -->
 
 ---
 U N I T 1 - TO P IC 1 .4
@@ -768,9 +848,9 @@ Which one had to lose detail, and why?
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-21
+22
 
-<!-- page 22 -->
+<!-- page 23 -->
 
 ---
 ▸ Here is how it works
@@ -802,9 +882,9 @@ there is space on the line or rack for the print to dry flat
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-22
+23
 
-<!-- page 23 -->
+<!-- page 24 -->
 
 ---
 ∎
@@ -839,9 +919,9 @@ He labels each one on the back in pencil: leaf block, fair tag, 12 August
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-23
+24
 
-<!-- page 24 -->
+<!-- page 25 -->
 
 ---
 **●**
@@ -868,9 +948,9 @@ B IG C H A L L E N G E
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-24
+25
 
-<!-- page 25 -->
+<!-- page 26 -->
 
 ---
 The print stall
@@ -924,9 +1004,9 @@ POSTER PLAN
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-25
+26
 
-<!-- page 26 -->
+<!-- page 27 -->
 
 ---
 Picture 1.8 A print stall at a school fair: one poster on the board, a stack of matching tags, pattern paper and two visitors
@@ -950,9 +1030,9 @@ I pulled a matching edition and labelled it.
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-26
+27
 
-<!-- page 27 -->
+<!-- page 28 -->
 
 ---
 ◎
@@ -996,9 +1076,9 @@ print · relief print · monoprint · found-object print · purpose · contrast 
 UNIT 1  PRINTING FOR A PURPOSE
 TOPIC 1.4
 
-27
+28
 
-<!-- page 28 -->
+<!-- page 29 -->
 
 ---
 U N I T 2 · P A I N T T A B L E
@@ -1034,9 +1114,9 @@ finish a painted panel for the studio wall
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 1.4
 
-28
+29
 
-<!-- page 29 -->
+<!-- page 30 -->
 
 ---
 Picture 2.0 The paint table before work starts: red, yellow and blue on the palette, three brushes, a water pot and a blank
@@ -1058,9 +1138,9 @@ it."
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 1.4
 
-29
+30
 
-<!-- page 30 -->
+<!-- page 31 -->
 
 ---
 What you will fetch
@@ -1107,9 +1187,9 @@ a wash does, and you steer it by how wet the paper is.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.1
 
-30
+31
 
-<!-- page 31 -->
+<!-- page 32 -->
 
 ---
 TECHNIQUE
@@ -1153,9 +1233,9 @@ work and comparing it after it dries, instead of trusting the wet colour.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.1
 
-31
+32
 
-<!-- page 32 -->
+<!-- page 33 -->
 
 ---
 ∎
@@ -1208,9 +1288,9 @@ THIN LINE
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.1
 
-32
+33
 
-<!-- page 33 -->
+<!-- page 34 -->
 
 ---
 U N I T 2 - TO P IC 2 . 2
@@ -1249,9 +1329,9 @@ green, violet) feel calm and far away.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.2
 
-33
+34
 
-<!-- page 34 -->
+<!-- page 35 -->
 
 ---
 red
@@ -1298,9 +1378,9 @@ red.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.2
 
-34
+35
 
-<!-- page 35 -->
+<!-- page 36 -->
 
 ---
 Picture 2.3 Bruno painting birds onto the mural, with the palette in front: a calm blue-green pool and an excited orange-
@@ -1327,9 +1407,9 @@ EXCITED MIX
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.2
 
-35
+36
 
-<!-- page 36 -->
+<!-- page 37 -->
 
 ---
 U N I T 2 - TO P IC 2 . 3
@@ -1377,9 +1457,9 @@ Leave tiny gaps of white paper, which read as sparkle on stone, water or fur.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.3
 
-36
+37
 
-<!-- page 37 -->
+<!-- page 38 -->
 
 ---
 Picture 2.4 Rufus and Bruno painting leaves straight onto a rough plaster wall outdoors. Look at how the wall's own grain
@@ -1414,9 +1494,9 @@ a chart.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.3
 
-37
+38
 
-<!-- page 38 -->
+<!-- page 39 -->
 
 ---
 U N I T 2 - TO P IC 2 .4
@@ -1455,9 +1535,9 @@ without being told.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-38
+39
 
-<!-- page 39 -->
+<!-- page 40 -->
 
 ---
 ▸ Here is how it works
@@ -1491,9 +1571,9 @@ Tiny highlights last, and only a few of them.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-39
+40
 
-<!-- page 40 -->
+<!-- page 41 -->
 
 ---
 ∎
@@ -1528,15 +1608,15 @@ white over the top.
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-40
-
 · DID YOU KNOW ?
 
 Josefa de Óbidos painted in Portugal more than three hundred years ago , and among her best known works are
 still lifes : bowls of fruit , flowers and sweets , painted from close looking . Painting the ordinary things on a table is
 an old and serious job , not a warm - up .
 
-<!-- page 41 -->
+41
+
+<!-- page 42 -->
 
 ---
 **●**
@@ -1566,9 +1646,9 @@ B IG C H A L L E N G E
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-41
+42
 
-<!-- page 42 -->
+<!-- page 43 -->
 
 ---
 The studio wall panel
@@ -1625,9 +1705,9 @@ BIG SHAPES PLAN
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-42
+43
 
-<!-- page 43 -->
+<!-- page 44 -->
 
 ---
 Picture 2.6 A finished panel standing against the studio wall while Rufus and Bruno look it over. Look for the three
@@ -1653,9 +1733,9 @@ your observation painting, with the colour you matched written beside it
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-43
+44
 
-<!-- page 44 -->
+<!-- page 45 -->
 
 ---
 ◎
@@ -1698,9 +1778,9 @@ observation
 UNIT 2  APPROACHES TO PAINTING
 TOPIC 2.4
 
-44
+45
 
-<!-- page 45 -->
+<!-- page 46 -->
 
 ---
 U N I T 3 · L I N E T A B L E
@@ -1735,9 +1815,9 @@ put space and movement together in one finished drawing
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 2.4
 
-45
+46
 
-<!-- page 46 -->
+<!-- page 47 -->
 
 ---
 Picture 3.0 Rufus at the line table, with one sheet carrying both jobs of this unit: a ruled corridor running back to a point,
@@ -1759,9 +1839,9 @@ drawing apart."
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 2.4
 
-46
+47
 
-<!-- page 47 -->
+<!-- page 48 -->
 
 ---
 What you will fetch
@@ -1809,9 +1889,9 @@ ground: exactly where your eyes are.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.1
 
-47
+48
 
-<!-- page 48 -->
+<!-- page 49 -->
 
 ---
 Things also get smaller as they go back, and they overlap. Those two facts do as
@@ -1843,9 +1923,9 @@ people small, whatever the distance.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.1
 
-48
+49
 
-<!-- page 49 -->
+<!-- page 50 -->
 
 ---
 Picture 3.2 A narrow street seen straight down its length. Look for the lines that are really parallel, the roof lines, the
@@ -1887,9 +1967,9 @@ the ones he needs.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.1
 
-49
+50
 
-<!-- page 50 -->
+<!-- page 51 -->
 
 ---
 U N I T 3 - TO P IC 3 . 2
@@ -1932,9 +2012,9 @@ upright. Nothing else changes.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.2
 
-50
+51
 
-<!-- page 51 -->
+<!-- page 52 -->
 
 ---
 A gesture drawing is a fast sketch, often under a minute, that goes for the
@@ -1966,9 +2046,9 @@ still all day.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.2
 
-51
+52
 
-<!-- page 52 -->
+<!-- page 53 -->
 
 ---
 ∎
@@ -2005,9 +2085,9 @@ explains the lean.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.2
 
-52
+53
 
-<!-- page 53 -->
+<!-- page 54 -->
 
 ---
 **●**
@@ -2041,9 +2121,9 @@ draw and quicker to read.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.2
 
-53
+54
 
-<!-- page 54 -->
+<!-- page 55 -->
 
 ---
 U N I T 3 - TO P IC 3 . 3
@@ -2087,11 +2167,11 @@ exactly as well as on a mountain.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.3
 
-54
-
 Near and far : the same tree , dark and sharp , or pale and soft .
 
-<!-- page 55 -->
+55
+
+<!-- page 56 -->
 
 ---
 Picture 3.4 Rufus and Bruno painting a wall, with the whole valley behind them. Look past them at the hills: the near slopes
@@ -2108,11 +2188,11 @@ of ruled corridors.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.3
 
-55
-
 **Depth built from pattern: a city seen from high up, like Vieira da Silva.**
 
-<!-- page 56 -->
+56
+
+<!-- page 57 -->
 
 ---
 U N I T 3 - TO P IC 3 .4
@@ -2154,9 +2234,9 @@ only a rubber. Lightening is a drawing tool, not a mistake tool.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.4
 
-56
+57
 
-<!-- page 57 -->
+<!-- page 58 -->
 
 ---
 running into the edge
@@ -2185,9 +2265,9 @@ Check the whole thing from across the room before you add any detail.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.4
 
-57
+58
 
-<!-- page 58 -->
+<!-- page 59 -->
 
 ---
 ∎
@@ -2225,9 +2305,9 @@ Only then does she start the full drawing, copying her third thumbnail.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.4
 
-58
+59
 
-<!-- page 59 -->
+<!-- page 60 -->
 
 ---
 **●**
@@ -2255,9 +2335,9 @@ FINAL COMPOSITION
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.4
 
-59
+60
 
-<!-- page 60 -->
+<!-- page 61 -->
 
 ---
 Picture 3.6 A finished Year 4 drawing pinned up above the line table. Look for the two things this unit asked for at once: a
@@ -2288,9 +2368,9 @@ I used line weight or tone to push something back.
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.4
 
-60
+61
 
-<!-- page 61 -->
+<!-- page 62 -->
 
 ---
 ◎
@@ -2333,9 +2413,9 @@ of action · gesture drawing · line weight · tone · overlap · composition
 UNIT 3  DRAWING WITH PERSPECTIVE
 TOPIC 3.4
 
-61
+62
 
-<!-- page 62 -->
+<!-- page 63 -->
 
 ---
 U N I T 4 · B U I L D T A B L E
@@ -2372,9 +2452,9 @@ finish an architectural model for the studio show
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 3.4
 
-62
+63
 
-<!-- page 63 -->
+<!-- page 64 -->
 
 ---
 Picture 4.0 The build table before anything is made: boxes, corrugated card, tape, clay and a small tower already in
@@ -2395,9 +2475,9 @@ tap knocks it over, it is a picture of a building, not a building."
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 3.4
 
-63
+64
 
-<!-- page 64 -->
+<!-- page 65 -->
 
 ---
 What you will fetch
@@ -2446,9 +2526,9 @@ more than material.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.1
 
-64
+65
 
-<!-- page 65 -->
+<!-- page 66 -->
 
 ---
 FORM
@@ -2492,9 +2572,9 @@ holds those arches up except their own shape and the stone at their feet.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.1
 
-65
+66
 
-<!-- page 66 -->
+<!-- page 67 -->
 
 ---
 Picture 4.2 Rufus and Bruno on an architecture walk, looking up at a painted house front with a round arched doorway
@@ -2529,9 +2609,9 @@ The wall itself, and a tiled roof resting on it.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.1
 
-66
+67
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 U N I T 4 - TO P IC 4 . 2
@@ -2573,9 +2653,9 @@ one is made of more pieces? Which one looks as though it is working harder?
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.2
 
-67
+68
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 four sides: leans over
@@ -2617,9 +2697,9 @@ corner rescues a wobbly model.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.2
 
-68
+69
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 Picture 4.4 Rufus and Bruno working on a card house with an arched door cut into it. Look at the base board, which is
@@ -2660,9 +2740,9 @@ sitting down.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.2
 
-69
+70
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 **●**
@@ -2699,9 +2779,9 @@ tool.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.2
 
-70
+71
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 U N I T 4 - TO P IC 4 . 3
@@ -2750,9 +2830,9 @@ behaves on each, catching on the ridges and sliding over the smooth face.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.3
 
-71
+72
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 ∎
@@ -2791,8 +2871,6 @@ YO U R T U R N
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.3
 
-72
-
 Choose three materials for your building and write what each one says.
 
 ## 1 Material one:
@@ -2804,7 +2882,9 @@ says:
 ## 3 Material three:
 says:
 
-<!-- page 73 -->
+73
+
+<!-- page 74 -->
 
 ---
 U N I T 4 - TO P IC 4 .4
@@ -2854,9 +2934,9 @@ nowhere to land.
 UNIT 4  ARCHITECTURE IN 3D
 TOPIC 4.4
 
-73
+74
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 ∎
@@ -2890,9 +2970,9 @@ visitor's height.
 ART & DESIGN  YEAR 4
 STUDIO SHOW
 
-74
+75
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 **●**
@@ -2912,8 +2992,6 @@ Who it is for, and how you know it fits them:
 
 ART & DESIGN  YEAR 4
 
-75
-
 FINISHED MODEL, FROM THE SIDE
 
 **→**
@@ -2924,7 +3002,9 @@ an adult. Keep both on the table and watch which one people actually read.
 
 Draw your finished model from the side, in the box below, with the figure in place.
 
-<!-- page 76 -->
+76
+
+<!-- page 77 -->
 
 ---
 The studio show
@@ -2970,18 +3050,16 @@ Where will a visitor stand to see it best, and why there?
 ART & DESIGN  YEAR 4
 STUDIO SHOW
 
-76
-
 Sketch your part of the table, showing the model, the figure and the label
 
 card.
 
-<!-- page 77 -->
+77
+
+<!-- page 78 -->
 
 ---
 ART & DESIGN  YEAR 4
-
-77
 
 **THE BUILD TABLE PLAN**
 
@@ -2996,7 +3074,9 @@ together, with a small figure sitting on the shelter bench. Look at that figure,
 
 picture that tells you how big any of these buildings are.
 
-<!-- page 78 -->
+78
+
+<!-- page 79 -->
 
 ---
 ◎
@@ -3047,9 +3127,9 @@ your label card, naming the building and its purpose
 ART & DESIGN  YEAR 4
 STUDIO SHOW
 
-78
+79
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 Studio words
@@ -3099,9 +3179,9 @@ disappears at that distance.
 ART & DESIGN  YEAR 4
 STUDIO WORDS
 
-79
+80
 
-<!-- page 80 -->
+<!-- page 81 -->
 
 ---
 1.3 Designing for a purpose
@@ -3150,9 +3230,9 @@ Write-on boxes are intentional empty space; do not fill them before printing.
 ART & DESIGN  YEAR 4
 SOURCES AND REFERENCES
 
-80
+81
 
-<!-- page 81 -->
+<!-- page 82 -->
 
 ---
 Cambridge Pathway note
@@ -3198,18 +3278,22 @@ Studio show for families: four tables (print, paint, line, build).
 ART & DESIGN  YEAR 4
 STUDIO SHOW
 
-81
+82
 
-<!-- page 82 -->
+<!-- page 83 -->
 
 ---
 **P R I M E  B O O K S**
 
 ## Art & Design
 
+Year 4 · Student Manual
+
 Look closely. Then make something of what you saw.
 
-ave, sculpt, print and
+Four units, twenty topics, full control of the materials. Weave, sculpt, print and
+
+paint with intention, and curate the exhibition at the end.
 
 **INSIDE THIS BOOK**
 
@@ -3233,5 +3317,3 @@ Original watercolour illustration throughout
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
-
-              
