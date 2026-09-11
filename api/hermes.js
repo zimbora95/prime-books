@@ -35,11 +35,11 @@ const MAX_BODY = 36 * 1024 * 1024; /* 25 MB files arrive as ~34 MB base64 */
 
 /* Model + reasoning for the reading-assistant rail, kept in one place and sent
    on BOTH session creation and every chat turn (server-side, so a visitor
-   cannot override them). Mirrors the authoring chat: z-ai/glm-5.3-flash with
-   reasoning effort "high". These win over the Vercel HERMES_MODEL env var on
+   cannot override them). Mirrors the authoring chat: deepseek/deepseek-v4.1-flash
+   with reasoning effort "high". These win over the Vercel HERMES_MODEL env var on
    purpose: that var is still set to the old z-ai/glm-5.3 and cannot be edited
    from the repo. To change the rail's model, change these two constants. */
-const SITE_MODEL = "z-ai/glm-5.3-flash";
+const SITE_MODEL = "deepseek/deepseek-v4.1-flash";
 const SITE_PROVIDER = "openrouter";
 const SITE_REASONING_EFFORT = "high";
 
@@ -153,7 +153,7 @@ export default async function handler(req, res) {
     else payload.model = SITE_MODEL;
     if (wantProvider && okId(wantProvider)) payload.provider = wantProvider;
     else payload.provider = SITE_PROVIDER;
-    /* Pin reasoning effort to match the authoring chat (glm-5.3-flash, high).
+    /* Pin reasoning effort to match the authoring chat (deepseek-v4.1-flash, high).
        model_options ride the session's model lock at creation. */
     payload.model_options = {
       reasoning: { enabled: true, effort: SITE_REASONING_EFFORT },

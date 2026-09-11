@@ -64,10 +64,10 @@ export async function handleHermes(req, res, verb, cfg) {
   const base = (cfg.HERMES_BASE_URL || "").replace(/\/+$/, "");
   const key = cfg.HERMES_API_KEY || "";
   /* Model + reasoning for the rail, sent on BOTH session creation and every
-     chat turn. Mirrors the authoring chat: z-ai/glm-5.3-flash, effort high.
+     chat turn. Mirrors the authoring chat: deepseek/deepseek-v4.1-flash, effort high.
      These win over HERMES_MODEL/HERMES_PROVIDER on purpose: the deployed env
      still holds the old z-ai/glm-5.3. Change the model HERE. */
-  const model = "z-ai/glm-5.3-flash";
+  const model = "deepseek/deepseek-v4.1-flash";
   const provider = "openrouter";
   const REASONING_EFFORT = "high";
 
@@ -148,7 +148,7 @@ export async function handleHermes(req, res, verb, cfg) {
     else payload.model = model;
     if (wantProvider && okId(wantProvider)) payload.provider = wantProvider;
     else payload.provider = provider;
-    /* Pin reasoning effort to match the authoring chat (glm-5.3-flash, high). */
+    /* Pin reasoning effort to match the authoring chat (deepseek-v4.1-flash, high). */
     payload.model_options = {
       reasoning: { enabled: true, effort: REASONING_EFFORT },
     };
