@@ -1,5 +1,5 @@
 # Global Perspectives - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-global-perspectives/book.pdf` (176 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-global-perspectives/book.pdf` (174 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -736,12 +736,39 @@ FOR  TEACHERS
 <!-- page 174 -->
 
 ---
+**P R I M E  S C H O O L  P R E S S**
 
-<!-- page 175 -->
+## Global Perspectives
 
----
+Year 1 · Prime School Press · Student Manual
 
-<!-- page 176 -->
+Dear World, what is it like where you are?
 
----
-Year 1 · Student Manual
+One big question in every unit, and a letter to write back. Find out how other
+
+children live, play, learn and eat, then say what surprised you. Look outwards, ask
+
+kindly, listen carefully, and act.
+
+**INSIDE THIS BOOK**
+
+•
+One big question in every unit
+
+•
+Letters to and from the world
+
+•
+Ask, listen, compare and act, every time
+
+•
+Real photographs and real places
+
+•
+A project in every unit
+
+**Prime School Press · Global Perspectives**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**
