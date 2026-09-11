@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Portuguese 1st Language
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -3980,12 +3978,11 @@ Prime School Press · www.primeschool.pt
 <!-- page 114 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Portuguese 1st Language
 
-Year 4 · Cambridge Primary · Student Manual
+Year 4 · Prime School Press · Student Manual
 
 Este é o teu livro de Português.
 
@@ -4010,7 +4007,7 @@ Oficinas de escrita guiadas
 •
 Ilustração original em aguarela
 
-**Prime Books · Portuguese 1st Language**
+**Prime School Press · Portuguese 1st Language**
 
 Ages 8–9 · Lower Primary
 

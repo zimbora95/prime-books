@@ -10674,17 +10674,23 @@ FOR TEACHERS
 <!-- page 364 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Mathematics
+
+Year 1 · Prime School Press · Student Manual
 
 Count it. Check it. Then say how you know.
 
 Down under the roots of the old oak there is a schoolroom. Otto the owl counts
 
-hecks, and Milo the mouse asks the
+acorns, Hattie the hedgehog guesses and then checks, and Milo the mouse asks the
 
-ay and a counting fair of
+question that matters most: how do you know?
+
+Sixteen units of real mathematics, six projects along the way and a counting fair of
+
+your own at the end. Every page is meant to be written in.
 
 **INSIDE THIS BOOK**
 
@@ -10703,10 +10709,8 @@ A second method whenever there is one
 •
 Original watercolour illustration throughout
 
-**Prime Books · Mathematics**
+**Prime School Press · Mathematics**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

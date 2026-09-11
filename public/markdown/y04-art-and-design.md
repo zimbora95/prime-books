@@ -3283,11 +3283,11 @@ STUDIO SHOW
 <!-- page 83 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Art & Design
 
-Year 4 · Student Manual
+Year 4 · Prime School Press · Student Manual
 
 Look closely. Then make something of what you saw.
 
@@ -3312,7 +3312,7 @@ An exhibition of your own to curate
 •
 Original watercolour illustration throughout
 
-**Prime Books · Art & Design**
+**Prime School Press · Art & Design**
 
 Ages 8–9 · Lower Primary
 

@@ -6909,15 +6909,23 @@ FOR TEACHERS
 <!-- page 184 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Science
+
+Year 1 · Prime School Press · Student Manual
 
 How do you know?
 
 Come out to the hedge bank, where a badger with a brass hand lens and a wood
 
 mouse with enormous ears want to know how everything works.
+
+Twenty-four topics of real science for children of five and six. Sort the living from
+
+the never alive, find out where a sound begins, and discover which heavy things
+
+float after all.
 
 **INSIDE THIS BOOK**
 
@@ -6936,10 +6944,8 @@ Six projects, and a class field guide to finish
 •
 A word list of every science word you meet
 
-**Prime Books · Science**
+**Prime School Press · Science**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

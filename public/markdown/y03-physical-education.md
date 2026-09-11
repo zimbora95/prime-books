@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Physical Education
 
 ## Year 3
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -6653,12 +6651,11 @@ FOR TEACHERS
 <!-- page 158 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Physical Education
 
-Year 3 · Cambridge Primary · Student Manual
+Year 3 · Prime School Press · Student Manual
 
 Run, jump, throw. Then choose what you would do.
 
@@ -6683,7 +6680,7 @@ Named jobs, so everybody knows theirs
 •
 A tournament of your own to finish
 
-**Prime Books · Physical Education**
+**Prime School Press · Physical Education**
 
 Ages 7–8 · Lower Primary
 

@@ -25848,9 +25848,11 @@ SOURCES AND REFERENCES
 <!-- page 752 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Mathematics
+
+Year 2 · Prime School Press · Student Manual
 
 Draw it. Work it out. Then check it a different way.
 
@@ -25860,34 +25862,36 @@ This book asks for the next thing, which is the thing that makes a mathematician
 
 method, and then a second, different method that agrees with the first.
 
+Otto draws the plan. Rook lines everything into rows and columns. Bramble keeps
+
+the store, the scales and the money tin. And Tessa checks every single thing a
+
+different way, which is why this book exists.
+
 **INSIDE THIS BOOK**
 
 •
-Twenty-one units covering the full Cambridge Primary
+Twenty-one units covering the full Cambridge Primary Mathematics
 
-Mathematics Stage 2 framework, with the objective codes
-printed on every unit
+Stage 2 framework, with the objective codes printed on every unit
 •
-Over a thousand practice items, and not one printed answer to
+Over a thousand practice items, and not one printed answer to copy
 
-copy
 •
-A worked example, a reasoning prompt and a second method in
+A worked example, a reasoning prompt and a second method in every
 
-every part
+part
 •
-Seven Build it and show it projects, with the judging grid
+Seven Build it and show it projects, with the judging grid printed before
 
-printed before the work starts
+the work starts
 •
-QR codes that only appear where the screen can do something
+QR codes that only appear where the screen can do something the page
 
-the page cannot
+cannot
 
-**Prime Books · Mathematics**
+**Prime School Press · Mathematics**
 
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

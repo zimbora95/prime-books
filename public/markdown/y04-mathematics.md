@@ -3897,9 +3897,11 @@ REFERENCE
 <!-- page 70 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Mathematics
+
+Year 4 · Prime School Press · Student Manual
 
 Both ways from zero.
 
@@ -3907,7 +3909,13 @@ Numbers do not stop at zero. This year, Year 4 follows the line in both directio
 
 up into the thousands, and down past zero into the cold.
 
-of
+Unit 1 begins with a real question. On one January morning the thermometer at
+
+the Torre read −6 °C while Faro read 13 °C. How far apart are they? Answering
+
+that properly takes counting, a number line, and a clear head about which side of
+
+zero you are on.
 
 **INSIDE THIS BOOK**
 
@@ -3921,21 +3929,16 @@ A real number line wherever a number line is mentioned
 A full place value chart, with what every digit is worth
 
 •
-Over sixty practice questions, and twelve fresh ones to check
+Over sixty practice questions, and twelve fresh ones to check yourself
 
-yourself
 •
 Watch out! panels that name the mistake before you make it
 
 •
-A review page that says confident, almost there or needs more
+A review page that says confident, almost there or needs more work
 
-work
-
-**Prime Books · Mathematics**
+**Prime School Press · Mathematics**
 
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

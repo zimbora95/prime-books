@@ -1,15 +1,13 @@
-# German - Year 1 (Prime Book)
+# Portuguese 1st Language - Year 1 (Prime Book)
 > Markdown companion of `public/library/y01-portuguese/book.pdf` (8 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-
 ## Portuguese 1st Language
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -486,12 +484,11 @@ diese als Malseite.
 <!-- page 8 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Portuguese 1st Language
 
-Year 1 · Cambridge Early Years · Student Manual
+Year 1 · Prime School Press · Student Manual
 
 Português, primeiro. Palavras primeiro, também.
 
@@ -515,7 +512,7 @@ Uma história em cada unidade
 •
 Ilustração original em aguarela
 
-**Prime Books · Portuguese 1st Language**
+**Prime School Press · Portuguese 1st Language**
 
 Ages 5–6 · Lower Primary
 

@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## English
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -3586,12 +3584,11 @@ Prime Books · Prime School · www.primeschool.pt
 <!-- page 98 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## English
 
-Year 4 · Cambridge Primary · Student Manual
+Year 4 · Prime School Press · Student Manual
 
 Six units of reading, writing and saying what you mean.
 
@@ -3616,7 +3613,7 @@ A piece of writing to be proud of in every unit
 •
 Original watercolour illustration throughout
 
-**Prime Books · English**
+**Prime School Press · English**
 
 Ages 8–9 · Lower Primary
 

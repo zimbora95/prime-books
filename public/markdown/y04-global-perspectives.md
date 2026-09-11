@@ -4294,13 +4294,17 @@ FOR TEACHERS
 <!-- page 110 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Global Perspectives
 
+Year 4 · Prime School Press · Student Manual
+
 One world, five units, thirty careful questions.
 
-honest for
+Research it, debate it, then act on it. Global issues made honest for
+
+eight-year-olds, with sources logged and never guessed.
 
 **INSIDE THIS BOOK**
 
@@ -4319,10 +4323,8 @@ A team project in every unit
 •
 Original watercolour illustration throughout
 
-**Prime Books · Global Perspectives**
+**Prime School Press · Global Perspectives**
 
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
-
-              

@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Physical Education
 
 ## Year 4
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -7779,12 +7777,11 @@ FOR TEACHERS
 <!-- page 170 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Physical Education
 
-Year 4 · Cambridge Primary · Student Manual
+Year 4 · Prime School Press · Student Manual
 
 Adapted is not a lesser version. It is the same lesson.
 
@@ -7815,7 +7812,7 @@ A decision to make, with no answer printed
 •
 Stay safe panels, written to the pupil
 
-**Prime Books · Physical Education**
+**Prime School Press · Physical Education**
 
 Ages 8–9 · Lower Primary
 

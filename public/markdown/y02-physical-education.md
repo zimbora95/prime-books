@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Physical Education
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -8884,9 +8882,6 @@ FOR TEACHERS
 ---
 FOR TEACHERS · CONTINUED
 
-Prime Books · Physical Education · Year 2 · Student Manual. An independent Prime School
-publication.
-
 The decisions have no answers on purpose. A pupil who defends a choice you would
 not have made has met objective 2.4; a pupil who guesses what the book wanted has
 not. Treat every defended choice as correct, and press only on the reason.
@@ -8908,6 +8903,8 @@ the thing they are playing in.
 
 204
 FOR TEACHERS
+
+Prime Books · Physical Education · Year 2 · Student Manual. An independent Prime School
 
 <!-- page 235 -->
 
@@ -9334,12 +9331,11 @@ FOR TEACHERS
 <!-- page 244 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Physical Education
 
-Year 2 · Cambridge Early Years · Student Manual
+Year 2 · Prime School Press · Student Manual
 
 How do I throw so that Tuft can catch it?
 
@@ -9375,7 +9371,7 @@ Named jobs, so everybody knows what theirs is
 •
 Six projects, and a whole tournament to finish
 
-**Prime Books · Physical Education**
+**Prime School Press · Physical Education**
 
 Ages 6–7 · Lower Primary
 

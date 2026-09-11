@@ -2740,11 +2740,17 @@ P R I M E S C H O O L · 2 0 2 6
 <!-- page 80 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Mathematics
 
-ason asked for every time. Draw
+Year 3 · Prime School Press · Student Manual
+
+Measure the garden. Then prove you are right.
+
+Number, measuring, shapes and sharing, with a reason asked for every time. Draw
+
+it, build it or say it, then check it a different way.
 
 **INSIDE THIS BOOK**
 
@@ -2763,10 +2769,8 @@ Projects to build and show
 •
 Over a thousand practice items, no printed answers
 
-**Prime Books · Mathematics**
+**Prime School Press · Mathematics**
 
 Ages 7–8 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

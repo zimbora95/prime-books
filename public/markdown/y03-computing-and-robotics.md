@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Computing & Robotics
 
 ## Year 3
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -1539,12 +1537,11 @@ COMPUTING & ROBOTICS  YEAR 3
 <!-- page 32 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Computing & Robotics
 
-Year 3 · Cambridge Primary · Student Manual
+Year 3 · Prime School Press · Student Manual
 
 Instructions are just stepping stones, and you write them.
 
@@ -1571,7 +1568,7 @@ A project in every unit
 •
 QR codes, each printed in words as well
 
-**Prime Books · Computing & Robotics**
+**Prime School Press · Computing & Robotics**
 
 Ages 7–8 · Lower Primary
 

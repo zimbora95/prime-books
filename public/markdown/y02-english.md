@@ -8244,15 +8244,19 @@ FOR TEACHERS
 <!-- page 210 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## English
+
+Year 2 · Prime School Press · Student Manual
 
 Four pupils, one notebook, and every word earned.
 
 You will meet four pupils in these pages, each with a different way into writing.
 
-s before you try it, then try the awkward question, which is usually
+See how it goes before you try it, then try the awkward question, which is usually
+
+the best one.
 
 **INSIDE THIS BOOK**
 
@@ -8271,10 +8275,8 @@ A story and a poem in every unit
 •
 Original watercolour illustration throughout
 
-**Prime Books · English**
+**Prime School Press · English**
 
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
-
-              

@@ -3117,13 +3117,19 @@ This is your treasure book. Keep your best work here!
 <!-- page 100 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## German
 
+Year 2 · Prime School Press · B1/B2 · Student Manual
+
+Now German is yours to think in.
+
 The next German step: opinions, stories, plans and arguments. Read real texts,
 
-ters, and say exactly what you mean, from the first past tense to the
+write real letters, and say exactly what you mean, from the first past tense to the
+
+subjunctive.
 
 **INSIDE THIS BOOK**
 
@@ -3142,14 +3148,8 @@ Discussion and presentation practice
 •
 Original watercolour illustration throughout
 
-**Prime Books · German**
+**Prime School Press · German**
 
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
-
-B1 First Language of the Common European Framework
-
-**YEAR 2  ·  B1 LEVEL  ·  NATIVE / FIRST LANGUAGE**
-
-Student Manual

@@ -1,36 +1,49 @@
 # Music & Drama - Year 4 (Prime Book)
-> Cover-only edition (2 pages). The interior will be built from the scheme of work.> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y04-music-and-drama/book.pdf` (2 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
+## Music & Drama
 
-Music & Drama
-Year 4
-Cambridge Primary
+## Year 4
+
 Student Manual
 
 <!-- page 2 -->
 
 ---
+**P R I M E  S C H O O L  P R E S S**
 
-P R I M E  B O O K S
-Music & Drama
-Year 4 · Cambridge Primary · Student Manual
+## Music & Drama
+
+Year 4 · Prime School Press · Student Manual
+
 Perform it. Then make it yours.
+
 Sing, play, listen and make, from first rhythms to a full show. Every skill practised
-in the round, and every term ends on the stage.
-INSIDE THIS BOOK
+
+in the round, every term ends on the stage.
+
+**INSIDE THIS BOOK**
+
 •
 Singing, playing, listening and composing
+
 •
 Every rhythm counted out loud first
+
 •
 A performance to work towards every term
+
 •
 Songs and scripts printed in full
+
 •
 Original watercolour illustration throughout
-Prime Books · Music & Drama
+
+**Prime School Press · Music & Drama**
+
 Ages 8–9 · Lower Primary
-primeschool.pt
+
+**primeschool.pt**

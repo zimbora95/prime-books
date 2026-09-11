@@ -2250,11 +2250,17 @@ WHERE THE FACTS CAME FROM
 <!-- page 68 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Physical Education
 
-afely, take your
+Year 1 · Prime School Press · Student Manual
+
+Run, jump, throw, and know why it worked.
+
+Your first full year of physical education. Find the space, move safely, take your
+
+turn, and learn the games you will play for the rest of your life.
 
 **INSIDE THIS BOOK**
 
@@ -2273,10 +2279,8 @@ Named jobs, so everybody has one
 •
 A festival of games to finish the year
 
-**Prime Books · Physical Education**
+**Prime School Press · Physical Education**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

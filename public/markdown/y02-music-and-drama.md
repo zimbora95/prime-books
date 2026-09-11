@@ -11511,11 +11511,17 @@ CERTIFICATE
 <!-- page 256 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Music & Drama
 
-putting it
+Year 2 · Prime School Press · Student Manual
+
+You can keep a sound by remembering it. Or write it down.
+
+Thirty topics on listening, singing, playing and making. Keep a sound by putting it
+
+with a picture, a word or a shape, which is where writing music begins.
 
 **INSIDE THIS BOOK**
 
@@ -11534,10 +11540,8 @@ A performance to work towards every term
 •
 Original watercolour illustration throughout
 
-**Prime Books · Music & Drama**
+**Prime School Press · Music & Drama**
 
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

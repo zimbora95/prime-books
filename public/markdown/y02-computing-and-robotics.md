@@ -4,12 +4,10 @@
 <!-- page 1 -->
 
 ---
-
 ## Computing & Robotics
 
 ## Year 2
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
@@ -11113,12 +11111,11 @@ FOR TEACHERS
 <!-- page 256 -->
 
 ---
-
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Computing & Robotics
 
-Year 2 · Cambridge Early Years · Student Manual
+Year 2 · Prime School Press · Student Manual
 
 A robot does exactly what you say. Not what you meant.
 
@@ -11154,7 +11151,7 @@ Three term checks, and a glossary of every word
 •
 Twelve QR codes, each printed in words as well
 
-**Prime Books · Computing & Robotics**
+**Prime School Press · Computing & Robotics**
 
 Ages 6–7 · Lower Primary
 

@@ -1,37 +1,51 @@
 # Spanish A1/A2 - Year 2 (Prime Book)
-> Cover-only edition (2 pages). The interior will be built from the scheme of work.> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y02-spanish-a1a2/book.pdf` (2 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
+## Spanish
 
-Spanish
-Year 2
-Cambridge Early Years · A1/A2
+## Year 2
+
 Student Manual
 
 <!-- page 2 -->
 
 ---
+**P R I M E  S C H O O L  P R E S S**
 
-P R I M E  B O O K S
-Spanish
-Year 2 · Cambridge Early Years · A1/A2 · Student Manual
+## Spanish
+
+Year 2 · Prime School Press · A1/A2 · Student Manual
+
 ¡Hola! Vamos a empezar.
+
 A first Spanish course for young beginners, following the CEFR A1 and A2 steps.
+
 Greet a friend, count, order churros con chocolate, describe your family, and sing
+
 along the way.
-INSIDE THIS BOOK
+
+**INSIDE THIS BOOK**
+
 •
 A1 and A2 of the Common European Framework
+
 •
 Listening, speaking, reading and writing together
+
 •
 A story to follow in every unit
+
 •
 Songs, rhymes and word games
+
 •
 Original watercolour illustration throughout
-Prime Books · Spanish
+
+**Prime School Press · Spanish**
+
 Ages 6–7 · Lower Primary
-primeschool.pt
+
+**primeschool.pt**

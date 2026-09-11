@@ -1335,13 +1335,19 @@ NOW I CAN
 <!-- page 30 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Computing & Robotics
 
+Year 4 · Prime School Press · Student Manual
+
 Write it, test it, fix it, prove it.
 
-ctly
+From clear instructions to real programs that sense and decide. Collect honest
+
+data, spot the bug before the machine does, and build a program that does exactly
+
+what you meant.
 
 **INSIDE THIS BOOK**
 
@@ -1360,10 +1366,8 @@ A project in every unit
 •
 QR codes, each printed in words as well
 
-**Prime Books · Computing & Robotics**
+**Prime School Press · Computing & Robotics**
 
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
-
-Student Manual

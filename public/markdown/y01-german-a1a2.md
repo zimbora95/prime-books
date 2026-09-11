@@ -4704,15 +4704,19 @@ Prime Books · German · Year 1
 <!-- page 100 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## German
+
+Year 1 · Prime School Press · A1/A2 · Student Manual
 
 Deutsch lernen, ganz leicht gemacht.
 
 A first German course for young beginners, following the CEFR A1 and A2 steps.
 
-etzel, tell the time, and write your first postcard - all in
+Say hello, count, order a pretzel, tell the time, and write your first postcard - all in
+
+German, all through story.
 
 **INSIDE THIS BOOK**
 
@@ -4731,10 +4735,8 @@ Songs, rhymes and word games
 •
 Original watercolour illustration throughout
 
-**Prime Books · German**
+**Prime School Press · German**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-              

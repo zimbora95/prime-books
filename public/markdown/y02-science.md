@@ -7029,9 +7029,11 @@ BEYOND THE PAGE
 <!-- page 186 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Science
+
+Year 2 · Prime School Press · Student Manual
 
 How do you know?
 
@@ -7039,8 +7041,11 @@ Come up the garden to the old potting shed, where a badger in a work jacket and 
 
 wood mouse in a green coat want to know how everything works.
 
-Real science
-e
+Real science for children of six and seven. Find out why a woodlouse chooses one
+
+stone and not another, how tall a bean grows in five weeks, and how to make a
+
+bulb light up.
 
 **INSIDE THIS BOOK**
 
@@ -7062,10 +7067,8 @@ QR codes that open real science beyond the page
 •
 A word list of every science word you meet
 
+**Prime School Press · Science**
+
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
-
-**Prime School Press · Science**
-
-Student Manual
