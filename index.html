@@ -5663,6 +5663,28 @@ function rr(x, px, py, w, h, r) {
         );
       }
 
+      /* Slide the navy thumb under the active segment. Registered ONCE, at the
+         top level: renderCatalogue() runs on every filter change, and wiring
+         these inside it stacked a fresh resize listener (with a fresh closure)
+         on every render — the same per-render attachment fault as the reader's
+         nav buttons. */
+      function segThumb() {
+        const on = edSeg.querySelector(".year-pill.on");
+        const th = edSeg.querySelector(".seg-thumb");
+        if (!on || !th) return;
+        th.style.width = on.offsetWidth + "px";
+        th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
+      }
+      function stThumb() {
+        const on = stSeg.querySelector(".year-pill.on");
+        const th = stSeg.querySelector(".seg-thumb");
+        if (!on || !th) return;
+        th.style.width = on.offsetWidth + "px";
+        th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
+      }
+      window.addEventListener("resize", segThumb);
+      window.addEventListener("resize", stThumb);
+
       function renderCatalogue() {
         const years = [];
         catData.forEach((r) => {
@@ -5752,24 +5774,8 @@ function rr(x, px, py, w, h, r) {
           }),
         );
 
-        /* slide the navy thumb under the active segment */
-        function segThumb() {
-          const on = edSeg.querySelector(".year-pill.on");
-          const th = edSeg.querySelector(".seg-thumb");
-          if (!on || !th) return;
-          th.style.width = on.offsetWidth + "px";
-          th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
-        }
-        function stThumb() {
-          const on = stSeg.querySelector(".year-pill.on");
-          const th = stSeg.querySelector(".seg-thumb");
-          if (!on || !th) return;
-          th.style.width = on.offsetWidth + "px";
-          th.style.transform = "translateX(" + (on.offsetLeft - 4) + "px)";
-        }
-        window.addEventListener("resize", segThumb);
-        window.addEventListener("resize", stThumb);
-
+        /* the thumb sliders (segThumb/stThumb) and their resize listeners are
+           declared once at the top level — see above renderCatalogue */
 
         /* Editorial state badge. The authoritative `done` flag comes from the
            masters (PDF/Output/Done, republished by tools/sync_library.py) and
@@ -6069,8 +6075,10 @@ function rr(x, px, py, w, h, r) {
           if (!fbFlip) return false;
           const i = Math.max(0, Math.min(fbCount - 1, (pageNo | 0) - 1));
           /* turnToPage, NOT flip(): flip() no-ops when the target is already
-             on the current spread (see the fbNext handler for the full story). */
-          fbFlip.turnToPage(i);
+             on the current spread (see the reference in the skill). fbJumpTo
+             also drops any queued step, so a click the pupil made a moment ago
+             cannot step on past the page the assistant was asked to show. */
+          fbJumpTo(i);
           return true;
         },
         /* Open a book directly. Used by tools/verify_assistant.js and by any
@@ -6108,6 +6116,79 @@ function rr(x, px, py, w, h, r) {
       }
 
       pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
+
+      /* ---------------------------------------------------------------------
+         BOOK NAVIGATION — «  ‹  ›  »
+
+         Wired ONCE, here. These four buttons are permanent chrome, but the
+         handlers used to be attached inside buildFlipbook(), which runs again
+         for EVERY different book opened in a session. Each open therefore
+         stacked another anonymous listener on the same elements, and one click
+         then fired as many flipNext() calls as books had been opened: open two
+         books and a single ">" from page 1 landed on pages 5-6, skipping
+         2-3-4. (On a narrow/portrait viewport the same stacking showed as
+         page 1 -> 3 -> 5.) "«" and "»" merely LOOKED healthy, because
+         turnToPage(0)/(last) is idempotent however many times it runs.
+
+         Nothing below holds per-book state — every handler reads the live
+         `fbFlip` global — so one registration serves every book.
+         --------------------------------------------------------------------- */
+      let fbQueue = 0; /* spread steps asked for while a fold is in flight */
+      let fbDrainT = null;
+      function fbFlipping() {
+        try {
+          /* StPageFlip: "read" is idle; "flipping"/"user_fold"/"fold_corner"
+             mean the animation is still in progress. */
+          return !!fbFlip && fbFlip.getState() !== "read";
+        } catch (e) {
+          return false;
+        }
+      }
+      /* One click = one spread. flipNext() force-finishes an in-flight fold and
+         starts the next one, so a click landing mid-animation is queued and
+         replayed instead of being lost or doubling the step. */
+      function fbStep(dir) {
+        if (!fbFlip) return;
+        if (fbFlipping()) {
+          fbQueue += dir;
+          fbDrainLater();
+          return;
+        }
+        fbGo(dir);
+      }
+      function fbGo(dir) {
+        if (dir > 0) {
+          if (!fbNext.disabled) fbFlip.flipNext("bottom");
+        } else if (!fbPrev.disabled) {
+          fbFlip.flipPrev("bottom");
+        }
+      }
+      function fbDrainLater() {
+        if (fbDrainT) return;
+        fbDrainT = setTimeout(function () {
+          fbDrainT = null;
+          if (!fbQueue || !fbFlip) return;
+          if (fbFlipping()) {
+            fbDrainLater();
+            return;
+          }
+          /* consumes one queued step; opposite directions cancel out */
+          const d = fbQueue > 0 ? 1 : -1;
+          fbQueue -= d;
+          fbGo(d);
+          if (fbQueue) fbDrainLater();
+        }, 120);
+      }
+      /* Absolute jump: the reader named a destination, so drop anything still
+         queued rather than stepping on from it. */
+      function fbJumpTo(pageIdx) {
+        fbQueue = 0;
+        if (fbFlip) fbFlip.turnToPage(pageIdx);
+      }
+      fbPrev.addEventListener("click", () => fbStep(-1));
+      fbNext.addEventListener("click", () => fbStep(1));
+      fbFirst.addEventListener("click", () => fbJumpTo(0));
+      fbLast.addEventListener("click", () => fbJumpTo(fbCount - 1));
 
       function openFlipbook(cfg, url) {
               const src = url || flipbookFor(cfg);
@@ -6228,6 +6309,12 @@ function rr(x, px, py, w, h, r) {
       function closeFlipbook() {
         document.body.classList.remove("fb-open");
         fbEl.setAttribute("aria-hidden", "true");
+        /* a step queued mid-animation must not fire into the next book */
+        fbQueue = 0;
+        if (fbDrainT) {
+          clearTimeout(fbDrainT);
+          fbDrainT = null;
+        }
         fbTocPanel.classList.remove("on");
         fbInputPanel && fbInputPanel.classList.remove("on");
         /* The catalogue is the homepage: closing a book returns there. */
@@ -6497,9 +6584,10 @@ function rr(x, px, py, w, h, r) {
         if (e.key !== "Enter" || !fbFlip) return;
         const n = parseInt(fbPageInput.value, 10);
         /* turnToPage() (spread-aware show()), NOT flip(): flip() no-ops when
-           the target is already on the current spread. */
+           the target is already on the current spread. fbJumpTo also clears a
+           queued step so the typed page is where the reader lands. */
         if (!isNaN(n))
-          fbFlip.turnToPage(Math.max(0, Math.min(fbCount - 1, n - 1)));
+          fbJumpTo(Math.max(0, Math.min(fbCount - 1, n - 1)));
         fbPageInput.blur();
       });
 
@@ -6765,8 +6853,9 @@ function rr(x, px, py, w, h, r) {
           b.addEventListener("click", () => {
             const s = fbSections[+b.getAttribute("data-i")];
             /* turnToPage, not flip(): flip() no-ops if the section's page is
-               already on the current spread (silent nothing). */
-            fbFlip.turnToPage(s.page);
+               already on the current spread (silent nothing). fbJumpTo also
+               clears a queued step and no-ops safely before the book is built. */
+            fbJumpTo(s.page);
             fbTocPanel.classList.remove("on");
           }),
         );
@@ -6931,19 +7020,16 @@ function rr(x, px, py, w, h, r) {
           fbFlip.on("flip", () => {
             ind();
             pbEmit("pb:page-change");
+            /* replay any click that arrived while this fold was animating */
+            fbDrainLater();
             clearTimeout(fbHiT);
             fbHiT = setTimeout(upgrade, 350);
           });
-          /* Spread-step navigation: flipNext()/flipPrev() move one SPREAD per
-             click - the same path as clicking the page corners - so they work
-             from any leaf. fbFlip.flip(index+1) is NOT safe here: flipToPage()
-             silently no-ops when the target page is already on the current
-             spread, which wedges the ">" button on the left leaf of a spread
-             (e.g. stuck on page 4 in spread [3,4]). */
-          fbPrev.addEventListener("click", () => fbFlip.flipPrev("bottom"));
-          fbNext.addEventListener("click", () => fbFlip.flipNext("bottom"));
-          fbFirst.addEventListener("click", () => fbFlip.turnToPage(0));
-          fbLast.addEventListener("click", () => fbFlip.turnToPage(fbCount - 1));
+          /* Spread-step navigation lives at the TOP LEVEL (fbStep/fbGo): wiring
+             it here attached a fresh listener on every book open, which stacked
+             up and made one click skip pages. Only the pending-step queue is
+             per-book, so reset it. */
+          fbQueue = 0;
 
           /* sharpen the visible spread once it settles, and keep a small
              low-res read-ahead either side so flipping never shows a blank */
@@ -6997,9 +7083,11 @@ function rr(x, px, py, w, h, r) {
           else closeFlipbook();
         }
         if (fbFlip) {
-          /* spread-step, same as the corner-click path (see fbNext above) */
-          if (e.key === "ArrowRight") fbFlip.flipNext("bottom");
-          if (e.key === "ArrowLeft") fbFlip.flipPrev("bottom");
+          /* spread-step through the same single click path as the buttons
+             (see fbStep) — one keypress is one spread, and a keypress during a
+             fold is queued rather than swallowed */
+          if (e.key === "ArrowRight") fbStep(1);
+          if (e.key === "ArrowLeft") fbStep(-1);
         }
       });
 </script>
