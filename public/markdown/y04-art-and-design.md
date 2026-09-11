@@ -1,5 +1,5 @@
 # Art & Design - Year 4 (Prime Book)
-> Markdown companion of `public/library/y04-art-and-design/book.pdf` (83 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y04-art-and-design/book.pdf` (84 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -3281,6 +3281,10 @@ STUDIO SHOW
 82
 
 <!-- page 83 -->
+
+---
+
+<!-- page 84 -->
 
 ---
 **P R I M E  S C H O O L  P R E S S**

@@ -74,8 +74,8 @@ year-olds actually learn to sequence, spot an error and fix it.
 BEEP, THINK, GO!
 ## 3
 
-**Editorial and design: Prime School Press studio, Lisbon. Illustration: Prime School Press studio. Series**
-Prime School Press, Year 1, Ages 5 to 6.
+**Editorial and design: Prime School Press studio, Lisbon. Illustration: Prime School Press studio.**
+**Series Prime School Press, Year 1, Ages 5 to 6.**
 
 <!-- page 4 -->
 

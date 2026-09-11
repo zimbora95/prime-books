@@ -15,11 +15,14 @@ Student Manual
 ---
 ## Global Perspectives · Year 3
 
+Student Book · The Shared Garden · Ages 7-8 · Cambridge Primary
+
 ## Ask. Listen. Compare. Act.
 
 ## About this book
 
 Global Perspectives, Year 3, Student Book. Part of the Prime Books Subject Series
+for Cambridge Primary.
 
 This book is set in a shared garden. Six neighbours work one patch of ground
 together: they plant, they argue gently about where the beans should go, they
@@ -48,10 +51,6 @@ and the 24 hour clock are used, as they are in Portuguese schools.
 
 Cover and interior illustration produced through the Prime Books image pipeline.
 The Prime School logo is composited from the official master artwork.
-
-Student Book · The Shared Garden · Ages 7–8 · Lower Primary
-
-for Lower Primary.
 
 <!-- page 3 -->
 

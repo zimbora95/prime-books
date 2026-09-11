@@ -18,6 +18,10 @@ Student Manual
 Year 3 · Student Manual
 The Bright Studio
 
+A Cambridge Primary student book for Lower Primary. Written
+for pupils of about seven years old who are ready to look
+harder, make longer, and talk about what they have made.
+
 Four tables in one bright studio: drawing, mosaic, painting and
 structure. Rufus the fox and Bruno the bear work beside you.
 
@@ -41,10 +45,6 @@ This book is meant to be used. Draw in it. Stick tiles in it. Get a little paint
 
 Safety: activities use washable paint, blunt tools and card. Cutting and any clay work need an adult nearby. Teachers follow their
 school safety policy.
-
-A student book for Lower Primary. Written for pupils of about
-seven years old who are ready to look harder, make longer, and
-talk about what they have made.
 
 <!-- page 3 -->
 
