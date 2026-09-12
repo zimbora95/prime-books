@@ -432,240 +432,235 @@ Drink water. Take turns.
 <!-- page 13 -->
 
 ---
-U N I T 1 · O P E N M E A D O W
-1
+**U N I T  O N E**
 
-Moving well
+## 1
+## Moving well
 
-This ground is about using a space, then using a body:
-walk, run, stop, hop, skip, and kit that changes the
-floor.
+## The Open Meadow
+
+This ground is about using a space, then using a body: walk, run, stop, hop, skip,
+and kit that changes the floor.
 
 Pip runs. Bramble leaves a space. Willow watches the stop.
 
-Picture 1.0 The Open Meadow at the start of the year. Six friends, six bodies, plenty of grass.
+**1.1 Space, walk, run, stop**
+**1.2 Hop, skip, join**
 
-UNIT 1  MOVING WELL
+**1.3 Fast, slow, high, low**
+**1.4 Hoops, benches, mats**
 
-13
+**Picture 1.0 The Open Meadow at the start of the year. Six friends, six bodies, plenty of grass.**
+
+**13**
 
 <!-- page 14 -->
 
 ---
-U N I T 1 - TO P IC 1 . 1
+**Unit 1 · Moving Well**
+The Open Meadow
 
-Space, walk, run, stop
+**UNIT 1 · TOPIC 1.1**
+## Space, walk, run, stop
 
-Picture 1.1 Pip and Bramble walk with a wide space between them. Sorrel waits further back. Look how nobody is
-touching.
+**Picture 1.1 Pip and Bramble walk with a wide space between them. Sorrel waits further back. Look**
+how nobody is touching.
 
-✓
-TODAY YOU WILL
+**TODAY YOU WILL**
 
 leave a space and stop when asked
-✓
-
 hop, skip and join two movements
-✓
-
 change speed and level on purpose
-✓
-
 move on, over and through simple apparatus
-✓
 
-▣
-THE KIT YOU NEED
+**THE KIT YOU NEED**
 
 Four cones, a clear floor, and a teacher with a bell or a clear word for stop.
 
-UNIT 1  MOVING WELL
-TOPIC 1.1
-
-14
+1.1  SPACE, WALK, RUN, STOP
+**14**
 
 <!-- page 15 -->
 
 ---
-A space is a gap you can see. In Year 1, a good space is one you could lie
-down in without touching anyone.
+**Unit 1 · Moving Well**
+The Open Meadow
+
+**UNIT 1 · TOPIC 1.1 · WALK, RUN AND STOP**
+## Walk, run and stop
+
+**A space is a gap you can see. In Year 1, a good space is one you could lie down in**
+without touching anyone.
 
 Walk uses both feet, one after the other. Run uses both feet too, but there is a
-moment when both are off the floor. Stop means freeze: feet still, eyes on the
+**moment when both are off the floor. Stop means freeze: feet still, eyes on the**
 teacher.
 
-✦
-MOVE IT
+**MOVE IT**
 
-Walk anywhere for one minute. Change direction when you meet
-somebody. Do not touch. Then stand still.
+Walk anywhere for one minute. Change direction when you meet somebody. Do
+not touch. Then stand still.
 
-∎
-WATCH ME TRY
+**WATCH ME TRY**
 
-Pip runs. Bramble calls stop. Pip's feet finish the step they started, then
-they stay. He does not skid into Sorrel.
+Pip runs. Bramble calls stop. Pip's feet finish the step they started,
+then they stay. He does not skid into Sorrel.
 
-⚑
-SAFETY FIRST
+**SAFETY FIRST**
 
-Look where you are going. Leave a lie-down space. Stop means stop,
-even if the game is exciting.
+Look where you are going. Leave a lie-down space. Stop means stop, even if the
+game is exciting.
 
-**●**
-TRY IT
+**TRY IT**
 
-Walk the space. Count how many children you can see without turning
-your head.
+**1**
+Walk the space. Count how many children you can see without turning your
+head.
 
-1
-
+**2**
 Run to a cone and stop before you touch it. Do this four times.
-2
 
+**3**
 When the teacher says stop, freeze. Tick if your feet were still.
-3
+
+**LOOK WHAT I CAN DO**
 
 I left a space.
 
 I stopped when I was asked.
 
-UNIT 1  MOVING WELL
-TOPIC 1.1
-
-15
+1.1  WALK, RUN AND STOP
+**15**
 
 <!-- page 16 -->
 
 ---
-U N I T 1 - TO P IC 1 . 2
+**Unit 1 · Moving Well**
+The Open Meadow
 
-Hop, skip, join
+**UNIT 1 · TOPIC 1.2**
+## Hop, skip, join
 
-Picture 1.2 Pip hops on one foot. Bramble skips with a rope. Two different movements, both using a spring.
+**Picture 1.2 Pip hops on one foot. Bramble skips with a rope. Two different movements, both using a**
+spring.
 
-◈
-PLAY TOGETHER
+**PLAY TOGETHER**
 
-Traffic. Green means walk. Yellow means slow. Red means stop. Play for
-two minutes. Nobody is out. If you bump, you just start again with a
-bigger space.
+Traffic. Green means walk. Yellow means slow. Red means stop. Play for two
+minutes. Nobody is out. If you bump, you just start again with a bigger space.
 
-▣
-THE KIT YOU NEED
+**THE KIT YOU NEED**
 
 Skipping ropes if you have them, or just a clear floor. Work in pairs.
 
-✦
-MOVE IT
+**MOVE IT**
 
 Ten heel raises. Ten gentle jumps on the spot. Shake your feet.
 
-UNIT 1  MOVING WELL
-TOPIC 1.2
-
-16
+1.2  HOP, SKIP, JOIN
+**16**
 
 <!-- page 17 -->
 
 ---
-A hop is a spring on one foot, landing on the same foot. A skip is a step and a
-hop, repeating. To join them, you finish the hop and start the skip with no
-long pause in the middle.
+**Unit 1 · Moving Well**
+The Open Meadow
 
-∎
-WATCH ME TRY
+**UNIT 1 · TOPIC 1.2 · THE JOIN**
+## The join
+
+**A hop is a spring on one foot, landing on the same foot. A skip is a step and a**
+hop, repeating. To join them, you finish the hop and start the skip with no long
+pause in the middle.
+
+**WATCH ME TRY**
 
 Tuft hops three times on his right foot. Then he skips to the cone. The
 join is the third landing, which becomes the first skip.
 
-⚑
-SAFETY FIRST
+**SAFETY FIRST**
 
-Land softly, with a little bend in the knee. If you wobble, put the other
-foot down. That is still good work.
+Land softly, with a little bend in the knee. If you wobble, put the other foot
+down. That is still good work.
 
-**●**
-TRY IT
+**TRY IT**
 
+**1**
 Hop four times on each foot. Hold a wall if you need to.
-1
 
+**2**
 Skip to a cone and skip back.
-2
 
+**3**
 Join them: hop, hop, skip, skip. Draw the order.
-3
 
-MY SEQUENCE
+**MY SEQUENCE**
 
-Do hop-hop-skip across the meadow without stopping in the middle. A
-partner watches the join.
+**CHALLENGE**
 
-**▲**
-CHALLENGE
+Do hop-hop-skip across the meadow without stopping in the middle. A partner
+watches the join.
 
-UNIT 1  MOVING WELL
-TOPIC 1.2
-
-17
+1.2  THE JOIN
+**17**
 
 <!-- page 18 -->
 
 ---
-U N I T 1 - TO P IC 1 . 3
+**Unit 1 · Moving Well**
+The Open Meadow
 
-Fast, slow, high, low
+**UNIT 1 · TOPIC 1.3**
+## Fast, slow, high, low
 
-Picture 1.3 Sorrel sprints. Tuft creeps. Same meadow, two speeds. Look at how high each body is.
+**Picture 1.3 Sorrel sprints. Tuft creeps. Same meadow, two speeds. Look at how high each body is.**
 
-Speed is how quickly a movement happens. Level is how high or low the
-body is. You can change one of them on purpose.
+**Speed is how quickly a movement happens. Level is how high or low the body is.**
+You can change one of them on purpose.
 
 Fast is not better than slow. Slow is often harder to hold.
 
-▣
-THE KIT YOU NEED
+**THE KIT YOU NEED**
 
 Two cones about eight metres apart, and a partner who watches.
 
-✦
-MOVE IT
+**MOVE IT**
 
 Walk, then jog, then walk. Thirty seconds each.
 
-UNIT 1  MOVING WELL
-TOPIC 1.3
-
-18
+1.3  FAST, SLOW, HIGH, LOW
+**18**
 
 <!-- page 19 -->
 
 ---
-∎
-WATCH ME TRY
+**Unit 1 · Moving Well**
+The Open Meadow
 
-Sorrel runs the eight metres as fast as she can. Then she crosses again
-as slowly as she can without stopping. Willow times both with a count of
-"one-elephant, two-elephant".
+**UNIT 1 · TOPIC 1.3 · FAST AND SLOW**
+## Fast and slow
 
-⚑
-SAFETY FIRST
+**WATCH ME TRY**
 
-Fast needs a long space behind the finish cone so you can slow down.
-Do not run at a wall.
+Sorrel runs the eight metres as fast as she can. Then she crosses
+again as slowly as she can without stopping. Willow times both with a
+count of “one-elephant, two-elephant”.
 
-**●**
-TRY IT
+**SAFETY FIRST**
 
+Fast needs a long space behind the finish cone so you can slow down. Do not
+run at a wall.
+
+**TRY IT**
+
+**1**
 Cross fast. Cross slow. Tell your partner which felt harder.
-1
 
+**2**
 Walk on tiptoes (high). Walk in a small squat (low).
-2
 
+**3**
 Tick the sentence that is true for you.
-3
 
 Slow was harder than fast.
 
@@ -673,83 +668,98 @@ High made me wobble.
 
 I could change speed when asked.
 
-UNIT 1  MOVING WELL
-TOPIC 1.3
+**FAST**
 
-19
+a long low run, arms working
+
+**SLOW**
+
+a small careful creep,
+body low
+
+1.3  FAST AND SLOW
+**19**
 
 <!-- page 20 -->
 
 ---
-U N I T 1 - TO P IC 1 .4
+**Unit 1 · Moving Well**
+The Open Meadow
 
-Hoops, benches, mats
+**UNIT 1 · TOPIC 1.4**
+## Hoops, benches, mats
 
-Picture 1.4 Pip crawls through a hoop. A bench and a mat wait behind. The whole hoop is in the picture, and so are Pip's
-feet.
+**Picture 1.4 Pip crawls through a hoop. A bench and a mat wait behind. The whole hoop is in the**
+picture, and so are Pip's feet.
 
-Apparatus is kit you move on, over or through. The movement you already
-know must still work when the floor changes.
+**Apparatus is kit you move on, over or through. The movement you already know**
+must still work when the floor changes.
 
-▣
-THE KIT YOU NEED
+**THE KIT YOU NEED**
 
 Hoops, a low bench or a line of mats, and a teacher who has tested the bench.
 
-✦
-MOVE IT
+**MOVE IT**
 
 Bear walk to a hoop and stand inside it.
 
-UNIT 1  MOVING WELL
-TOPIC 1.4
-
-20
+1.4  HOOPS, BENCHES, MATS
+**20**
 
 <!-- page 21 -->
 
 ---
-The meadow games
+**Unit 1 · Moving Well**
+The Open Meadow
+
+**UNIT 1 · TOPIC 1.4 · THE MEADOW GAMES**
+## The meadow games
 
 Play three stations. Spend four minutes at each.
 
-∎
-WATCH ME TRY
+**WATCH ME TRY**
 
 Pip steps into the hoop, crawls through, then walks along the bench
 with his eyes on the far end. He does not rush the bench.
 
-⚑
-SAFETY FIRST
+**SAFETY FIRST**
 
-Only one child on a bench. An adult stands at the side. Mats stay flat.
-Never jump off a bench in this topic: step down.
+Only one child on a bench. An adult stands at the side. Mats stay flat. Never
+jump off a bench in this topic: step down.
 
-**●**
-TRY IT
+**TRY IT**
 
+**1**
 Through a hoop, then along a line of mats.
-1
 
+**2**
 Change the order: mats first, hoop second.
-2
 
+**3**
 Tell Willow one thing that changed when the kit was there.
-3
 
-Space tag. Walk only. If you are tagged, freeze until someone gives you a
-thumbs-up from a lie-down space away.
+**1**
+**Space tag**
 
-1
+Walk only. If you are
+tagged, freeze until
+someone gives you a
+thumbs-up from a
+lie-down space away.
 
-Join the hop. Hop to a cone, skip home.
-2
+**2**
+**Join the hop**
 
-Hoop path. Three hoops in a line. In, through, out.
-3
+Hop to a cone, skip
+home.
 
-◻
-LOOK WHAT I CAN DO
+**3**
+**Hoop path**
+
+Three hoops in a line.
+In, through, out.
+
+**LOOK WHAT I CAN DO**
 
 I can stop when I am asked.
 
@@ -757,20 +767,37 @@ I can hop and skip.
 
 I can change speed.
 
-UNIT 1  MOVING WELL
-THE MEADOW GAMES
+I can use a hoop or a mat without rushing.
 
-21
+1.4  THE MEADOW GAMES
+**21**
 
 <!-- page 22 -->
 
 ---
+**Unit 1 · Moving Well**
+The Open Meadow
+
+**UNIT 1 · HOW DID IT GO?**
+## How did it go?
+
+## Colour one circle in each row. Green means yes, yellow means nearly, and
+red means not yet. Not yet is a fine answer: it just means you have more
+to do.
+
+I can stop when I am asked.
+
+I can hop and skip.
+
+I can change speed.
+
 I can use a hoop or a mat without rushing.
 
-UNIT 1  MOVING WELL
-THE MEADOW GAMES
+Which page in this unit did you enjoy most? Turn back to it and show someone why.
 
-22
+UNIT 1 · HOW DID IT GO?
+
+**22**
 
 <!-- page 23 -->
 

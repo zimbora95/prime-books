@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Generate an image via OpenRouter gpt-image-2 and save it as a PNG.
+"""Generate an image via OpenRouter gpt-image-2.5-sunburst and save it as a PNG.
 
 Usage (run with /root/prime-books/.venv/bin/python):
   python pb_image_gen.py "a spiral galaxy, watercolour style" /tmp/out.png --size 1024x1024
+  python pb_image_gen.py "a fox, storybook watercolour" /tmp/fox.png --size 1024x1024 --transparent
 
 Reads OPENROUTER_API_KEY from /root/.hermes/.env. Prints the saved path.
 The OpenRouter images endpoint returns b64_json payloads (no URL), so this
 script exists: curl alone is awkward for multi-MB base64 bodies.
+
+--transparent asks the model for a transparent background AND (because the
+endpoint may still return an opaque PNG) chroma-keys any near-white /
+near-uniform border it does get back, so assets dropped straight onto a book
+page never carry a white box with them.
 """
 import argparse, base64, json, sys, urllib.request, urllib.error
 
@@ -27,20 +33,25 @@ def main():
     ap.add_argument("prompt")
     ap.add_argument("out")
     ap.add_argument("--size", default="1024x1024")
+    ap.add_argument("--quality", default="medium")
+    ap.add_argument("--transparent", action="store_true")
     a = ap.parse_args()
 
-    body = json.dumps({
+    body = {
         "model": MODEL,
         "prompt": a.prompt,
         "size": a.size,
-        "quality": "medium",  # cost/speed sweet spot per user preference
-    }).encode()
-    req = urllib.request.Request(API, data=body, headers={
+        "quality": a.quality,
+    }
+    if a.transparent:
+        body["background"] = "transparent"
+        body["output_format"] = "png"
+    req = urllib.request.Request(API, data=json.dumps(body).encode(), headers={
         "Authorization": "Bearer " + key(),
         "Content-Type": "application/json",
     })
     try:
-        d = json.load(urllib.request.urlopen(req, timeout=300))
+        d = json.load(urllib.request.urlopen(req, timeout=600))
     except urllib.error.HTTPError as e:
         sys.exit("OpenRouter error %s: %s" % (e.code, e.read().decode()[:300]))
     item = (d.get("data") or [{}])[0]
