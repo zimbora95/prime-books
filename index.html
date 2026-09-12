@@ -6117,6 +6117,73 @@ function rr(x, px, py, w, h, r) {
 
       pdfjsLib.GlobalWorkerOptions.workerSrc = "/vendor/pdf.worker.min.js";
 
+      /* Draw-loop heartbeat. StPageFlip renders from a self-perpetuating
+         requestAnimationFrame chain, so counting EXECUTED frames gives the
+         watchdog a dead-or-alive signal for the render loop (a throw inside a
+         frame stops the chain from ever being rescheduled). Wrapped here, before
+         any flipbook is built, so the chain is inside the count. */
+      let fbFrameTick = 0;
+      (function countFrames() {
+        const raf = window.requestAnimationFrame;
+        if (!raf) return;
+        window.requestAnimationFrame = function (cb) {
+          return raf.call(window, function (ts) {
+            fbFrameTick++;
+            return cb(ts);
+          });
+        };
+      })();
+
+      /* Set by buildFlipbook: repaints any page of the visible spread whose
+         canvas has been evicted (width 0) and left blank. */
+      let fbEnsureVisible = null;
+
+      /* StPageFlip's own page-turn helpers walk PAST the last spread: showNext()
+         only checks `currentSpreadIndex < spread.length`, so completing a fold
+         from the last spread increments the index off the end, showSpread() then
+         reads spreads[n] === undefined and throws "Cannot read properties of
+         undefined (reading 'length')" INSIDE the animation-end callback — which
+         kills the draw loop and leaves the state stuck at "flipping" for good.
+         Clamp both ends on the instance, so no path (ours, a corner drag, or the
+         library's own completion) can step off the book. */
+      function fbGuard(flip) {
+        try {
+          const pc = flip.getPageCollection();
+          const count = function () {
+            return pc.getSpread().length;
+          };
+          const origNext = pc.showNext;
+          pc.showNext = function () {
+            if (pc.getCurrentSpreadIndex() >= count() - 1) return;
+            return origNext.apply(pc, arguments);
+          };
+          const origPrev = pc.showPrev;
+          pc.showPrev = function () {
+            if (pc.getCurrentSpreadIndex() <= 0) return;
+            return origPrev.apply(pc, arguments);
+          };
+          const origSpread = pc.showSpread;
+          pc.showSpread = function () {
+            const idx = pc.getCurrentSpreadIndex();
+            if (!pc.getSpread()[idx]) {
+              try {
+                pc.setCurrentSpreadIndex(
+                  Math.max(0, Math.min(count() - 1, idx | 0)),
+                );
+              } catch (e) {
+                return;
+              }
+            }
+            return origSpread.apply(pc, arguments);
+          };
+          const origShow = pc.show;
+          pc.show = function (t) {
+            if (!(t >= 0 && t < pc.getPageCount())) return;
+            return origShow.apply(pc, arguments);
+          };
+        } catch (e) {}
+      }
+
       /* ---------------------------------------------------------------------
          BOOK NAVIGATION — «  ‹  ›  »
 
@@ -6135,43 +6202,159 @@ function rr(x, px, py, w, h, r) {
          --------------------------------------------------------------------- */
       let fbQueue = 0; /* spread steps asked for while a fold is in flight */
       let fbDrainT = null;
-      function fbFlipping() {
+      let fbLastTick = 0; /* draw-loop heartbeat (see fbFrameTick) */
+      let fbStall = 0;
+
+      /* TRUE only while StPageFlip is genuinely mid-gesture: frames still queued
+         for a fold, or a corner fold/drag being held. getState() ALONE IS NOT
+         ENOUGH. An exception thrown inside the library's own animation-end
+         handler leaves the state at "flipping" with no animation left to finish
+         it — it never returns to "read" on its own, and gating navigation on
+         that wedges « < > » permanently. That is exactly what the back cover
+         used to do (see fbGuard), so busy-ness is read from the animation
+         itself, not from the state string. */
+      function fbBusy() {
+        if (!fbFlip) return false;
         try {
-          /* StPageFlip: "read" is idle; "flipping"/"user_fold"/"fold_corner"
-             mean the animation is still in progress. */
-          return !!fbFlip && fbFlip.getState() !== "read";
+          const r = fbFlip.getRender();
+          if (r && r.animation) return true;
+          const st = fbFlip.getState();
+          return st === "fold_corner" || st === "user_fold";
         } catch (e) {
           return false;
         }
       }
+
+      /* Drop an in-flight fold WITHOUT letting it finish its step.
+         StPageFlip completes a fold by turning the page itself —
+         animateFlippingTo's end callback calls turnToNextPage/turnToPrevPage —
+         so a destination named while a fold was running used to be overridden
+         the instant the fold ended: click "«" 150 ms into a forward fold and the
+         reader landed on page 2 instead of page 1. Nulling the animation object
+         removes both the remaining frames and that completion callback, and the
+         next frame redraws the spread underneath. */
+      function fbCancelFold() {
+        if (!fbFlip) return;
+        try {
+          const r = fbFlip.getRender && fbFlip.getRender();
+          if (r && r.animation) r.animation = null;
+          const c = fbFlip.getFlipController && fbFlip.getFlipController();
+          if (c) {
+            if (c.reset) c.reset();
+            if (c.getState && c.getState() !== "read") c.setState("read");
+          }
+          if (r) {
+            if (r.setBottomPage) r.setBottomPage(null);
+            if (r.setFlippingPage) r.setFlippingPage(null);
+            if (r.clearShadow) r.clearShadow();
+          }
+        } catch (e) {}
+      }
+
+      /* Refresh the whole chrome from live library state: page input, the four
+         buttons, the Sections highlight. It also REPAIRS a collection index that
+         has run off either end of the spread list, which is the wedged state the
+         reader used to get stuck in ("suddenly nothing works any more"). */
+      function ind() {
+        if (!fbFlip) return;
+        try {
+          const pc = fbFlip.getPageCollection();
+          const spreads = pc.getSpread();
+          if (!spreads.length) return;
+          let sp = pc.getCurrentSpreadIndex();
+          if (!(sp >= 0 && sp < spreads.length)) {
+            sp = Math.max(0, Math.min(spreads.length - 1, sp | 0));
+            try {
+              pc.setCurrentSpreadIndex(sp);
+            } catch (e) {
+              return;
+            }
+            pc.showSpread();
+          }
+          const i = pc.getCurrentPageIndex();
+          /* Never overwrite the box while the reader is typing in it: a page
+             turn settling mid-keystroke used to replace "61" with "6", so
+             Enter jumped to page 6 instead of page 61. */
+          if (fbPageInput && document.activeElement !== fbPageInput)
+            fbPageInput.value = i + 1;
+          /* Enable/disable by SPREAD position, not leaf index: on a two-page
+             spread the index is the left leaf, so i >= fbCount-1 is false on the
+             final spread and ">" stayed clickable (silently no-op). */
+          fbPrev.disabled = fbFirst.disabled = sp <= 0;
+          fbNext.disabled = fbLast.disabled = sp >= spreads.length - 1;
+          markToc(i);
+        } catch (e) {}
+      }
+
+      /* Reconcile everything the reader can see. Cheap and idempotent, so it is
+         called after every jump and every step, and again a few times while
+         StPageFlip settles. */
+      function fbSync() {
+        if (!fbFlip) return;
+        if (!fbBusy()) fbCancelFold(); /* unstick a state the library abandoned */
+        ind();
+        if (fbEnsureVisible) fbEnsureVisible();
+      }
+      /* Events and the settled index land a frame or two after the call, so
+         reconcile now, on the next frame, and twice more after that. */
+      function fbSyncSoon() {
+        if (window.requestAnimationFrame)
+          window.requestAnimationFrame(function () {
+            fbSync();
+          });
+        [120, 420].forEach(function (ms) {
+          setTimeout(fbSync, ms);
+        });
+      }
+
       /* One click = one spread. flipNext() force-finishes an in-flight fold and
          starts the next one, so a click landing mid-animation is queued and
          replayed instead of being lost or doubling the step. */
       function fbStep(dir) {
         if (!fbFlip) return;
-        if (fbFlipping()) {
-          fbQueue += dir;
+        if (fbBusy()) {
+          /* bounded so a burst cannot queue a runaway run through the book */
+          fbQueue = Math.max(-8, Math.min(8, fbQueue + dir));
           fbDrainLater();
           return;
         }
+        fbSync(); /* repair any stale index/state before moving through it */
         fbGo(dir);
       }
       function fbGo(dir) {
-        if (dir > 0) {
-          if (!fbNext.disabled) fbFlip.flipNext("bottom");
-        } else if (!fbPrev.disabled) {
-          fbFlip.flipPrev("bottom");
+        if (!fbFlip) return;
+        /* Guard on the LIVE spread position rather than the DOM disabled flags:
+           a stale flag either swallowed a real step or let a fold start past the
+           last spread (which is what killed the draw loop). */
+        const pc = fbFlip.getPageCollection();
+        const spreads = pc.getSpread();
+        const sp = pc.getCurrentSpreadIndex();
+        if (!spreads.length || (dir > 0 ? sp >= spreads.length - 1 : sp <= 0)) {
+          ind();
+          return;
         }
+        try {
+          if (dir > 0) fbFlip.flipNext("bottom");
+          else fbFlip.flipPrev("bottom");
+        } catch (e) {
+          fbCancelFold();
+          ind();
+        }
+        fbSyncSoon();
       }
       function fbDrainLater() {
         if (fbDrainT) return;
         fbDrainT = setTimeout(function () {
           fbDrainT = null;
-          if (!fbQueue || !fbFlip) return;
-          if (fbFlipping()) {
+          if (!fbQueue || !fbFlip) {
+            fbQueue = 0;
+            return;
+          }
+          if (fbBusy()) {
             fbDrainLater();
             return;
           }
+          if (fbFlip.getState() !== "read") fbCancelFold();
           /* consumes one queued step; opposite directions cancel out */
           const d = fbQueue > 0 ? 1 : -1;
           fbQueue -= d;
@@ -6180,15 +6363,68 @@ function rr(x, px, py, w, h, r) {
         }, 120);
       }
       /* Absolute jump: the reader named a destination, so drop anything still
-         queued rather than stepping on from it. */
+         queued and any fold still running rather than stepping on from either. */
       function fbJumpTo(pageIdx) {
         fbQueue = 0;
-        if (fbFlip) fbFlip.turnToPage(pageIdx);
+        if (fbDrainT) {
+          clearTimeout(fbDrainT);
+          fbDrainT = null;
+        }
+        if (!fbFlip || !fbCount) return;
+        const i = Math.max(0, Math.min(fbCount - 1, pageIdx | 0));
+        fbCancelFold();
+        try {
+          fbFlip.turnToPage(i);
+        } catch (e) {
+          fbCancelFold();
+        }
+        fbSync();
+        fbSyncSoon();
       }
       fbPrev.addEventListener("click", () => fbStep(-1));
       fbNext.addEventListener("click", () => fbStep(1));
       fbFirst.addEventListener("click", () => fbJumpTo(0));
       fbLast.addEventListener("click", () => fbJumpTo(fbCount - 1));
+
+      /* ---------------------------------------------------------------------
+         WATCHDOG — the reader must answer, whatever the library does.
+
+         StPageFlip draws from a self-perpetuating requestAnimationFrame chain
+         (`const t = e => { render(e); requestAnimationFrame(t); }`). ONE
+         exception inside a frame — the library's showNext() walking past the
+         last spread, "Cannot read properties of undefined (reading 'length')" —
+         stops the next frame from ever being scheduled. From then on the reader
+         still updates its internal index, so the page box says 1, while the
+         stage never repaints: every button looks dead. Measured on y01 Art &
+         Design (88 pp): jump to the back cover 150 ms into a forward fold, and
+         the loop is gone (rAF counter frozen) with the state stuck at
+         "flipping" for good.
+
+         fbFrameTick counts executed frames (the vendor script loads before this
+         block, so the chain started by buildFlipbook is inside the count). No
+         frames for a whole second means the loop died: drop the half-fold,
+         restart it, and reconcile the chrome.
+         --------------------------------------------------------------------- */
+      function fbWatch() {
+        if (!document.body.classList.contains("fb-open")) return;
+        if (!fbFlip || document.hidden) return;
+        if (fbFrameTick === fbLastTick) {
+          if (++fbStall >= 2) {
+            fbStall = 0;
+            fbCancelFold();
+            try {
+              fbFlip.getRender().start();
+            } catch (e) {}
+            fbSync();
+            pbEmit("pb:page-change");
+          }
+          return;
+        }
+        fbLastTick = fbFrameTick;
+        fbStall = 0;
+        if (!fbBusy()) fbCancelFold();
+      }
+      setInterval(fbWatch, 500);
 
       function openFlipbook(cfg, url) {
               const src = url || flipbookFor(cfg);
@@ -6297,6 +6533,8 @@ function rr(x, px, py, w, h, r) {
                 fbLive.clear();
                 fbRendering.clear();
                 fbTextCache.clear();
+                /* the repair hook closes over the OLD book's canvases */
+                fbEnsureVisible = null;
                 fbDoc = null;
                 fbUrl = src;
                 buildFlipbook(fetchSrc);
@@ -6585,10 +6823,15 @@ function rr(x, px, py, w, h, r) {
         const n = parseInt(fbPageInput.value, 10);
         /* turnToPage() (spread-aware show()), NOT flip(): flip() no-ops when
            the target is already on the current spread. fbJumpTo also clears a
-           queued step so the typed page is where the reader lands. */
-        if (!isNaN(n))
-          fbJumpTo(Math.max(0, Math.min(fbCount - 1, n - 1)));
+           queued step so the typed page is where the reader lands. Blur FIRST,
+           so the box goes back to reflecting the live page (ind() leaves a
+           focused box alone while it is being typed into). */
         fbPageInput.blur();
+        if (!isNaN(n)) fbJumpTo(Math.max(0, Math.min(fbCount - 1, n - 1)));
+      });
+      /* leaving the box without pressing Enter restores the real page number */
+      fbPageInput.addEventListener("blur", () => {
+        if (fbFlip) ind();
       });
 
       function sizeFlipbook(ratio) {
@@ -6918,9 +7161,9 @@ function rr(x, px, py, w, h, r) {
                render() operations") and leaves the page blank. Reserve the
                slot SYNCHRONOUSLY before the first await: adding it after
                doc.getPage() let two concurrent callers for the same page both
-               pass this check. The skipped call is harmless - the next
-               upgrade() pass (every flip) re-renders at the wanted scale. */
-            if (fbRendering.has(i)) return;
+               pass this check. Returns false when this call did NOT paint, so
+               callers that booked the page as done can re-arm it. */
+            if (fbRendering.has(i)) return false;
             fbRendering.add(i);
             try {
               const page = await doc.getPage(i + 1);
@@ -6944,6 +7187,7 @@ function rr(x, px, py, w, h, r) {
               fbRendering.delete(i);
             }
             evictFar(i);
+            return true;
           }
 
           /* Bounded canvas budget. Every rendered page holds its own canvas
@@ -6999,22 +7243,34 @@ function rr(x, px, py, w, h, r) {
             maxShadowOpacity: 0.45,
           });
           fbFlip.loadFromHTML(fbBook.querySelectorAll(".fb-page"));
+          /* clamp StPageFlip's own page-turn helpers onto the book before
+             anything can drive them (see fbGuard) */
+          fbGuard(fbFlip);
           fbLoad.style.display = "none";
           fbTotal.textContent = fbCount;
+          fbLastTick = 0;
+          fbStall = 0;
 
-          function ind() {
-            const i = fbFlip.getCurrentPageIndex();
-            fbPageInput.value = i + 1;
-            /* Enable/disable by SPREAD position, not leaf index: on a two-page
-               spread the index is the left leaf, so i >= fbCount-1 is false on
-               the final spread and ">" stayed clickable (silently no-op). */
-            const pc = fbFlip.getPageCollection();
-            const sp = pc.getCurrentSpreadIndex();
-            const spCount = pc.getSpread().length;
-            fbPrev.disabled = fbFirst.disabled = sp <= 0;
-            fbNext.disabled = fbLast.disabled = sp >= spCount - 1;
-            markToc(i);
-          }
+          /* Harness for the spread at the sharp scale: used by upgrade() and by
+             the watchdog's blank-page repair. */
+          const hiScale = (window.devicePixelRatio > 1 ? 2200 : 1700) / base.height;
+
+          /* Repaint any page of the spread the reader is actually looking at
+             whose canvas was evicted (or whose earlier render was skipped) and
+             is therefore still blank. Called on every reconcile. */
+          fbEnsureVisible = function () {
+            try {
+              const pc = fbFlip && fbFlip.getPageCollection();
+              if (!pc) return;
+              const sp = pc.getSpread()[pc.getCurrentSpreadIndex()] || [];
+              sp.forEach((i) => {
+                if (fbRendering.has(i)) return;
+                const cv = shells[i];
+                if (cv && !cv.width) renderPage(i, hiScale);
+              });
+            } catch (e) {}
+          };
+
           ind();
           pbEmit("pb:book-open");
           fbFlip.on("flip", () => {
@@ -7040,7 +7296,18 @@ function rr(x, px, py, w, h, r) {
             for (let i = lo; i <= hi; i++) {
               if (fbHiDone.has(i)) continue;
               fbHiDone.add(i);
-              renderPage(i, (window.devicePixelRatio > 1 ? 2200 : 1700) / base.height);
+              /* A skipped render (the page is already being drawn by another
+                 pass) must NOT leave this page booked as sharpened - the old
+                 code marked it done unconditionally, so the spread stayed soft
+                 for the rest of the session. Re-arm it instead. */
+              renderPage(i, hiScale).then(
+                (ok) => {
+                  if (!ok) fbHiDone.delete(i);
+                },
+                () => {
+                  fbHiDone.delete(i); /* a failed render must be retried too */
+                },
+              );
             }
             /* read-ahead at low resolution, bounded by FB_LIVE_MAX */
             const aLo = Math.max(0, c - 6),
