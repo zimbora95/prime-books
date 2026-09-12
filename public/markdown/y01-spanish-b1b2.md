@@ -1,5 +1,5 @@
 # Spanish B1/B2 - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-spanish-b1b2/book.pdf` (2 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-spanish-b1b2/book.pdf` (4 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -11,6 +11,56 @@
 Student Manual
 
 <!-- page 2 -->
+
+---
+**P R I M E S C H O O L P R E S S**
+
+## Spanish
+
+**Year 1 · B1 and B2 · Student Manual**
+
+Ahora el español es tuyo.
+
+## 01
+**T H E P U B L I C A T I O N**
+
+First edition, 2026. Printed in full colour on white stock.
+
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+## 02
+**R I G H T S A N D P E R M I S S I O N S**
+
+© Prime School 2026. All rights reserved. No part of this publication may be reproduced,
+stored in a retrieval system or transmitted in any form or by any means without the prior
+written permission of the publisher.
+
+## 03
+**C R E D I T S A N D C O N T A C T**
+
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department ·
+Content Creation Team.
+
+Text, design and illustration made in the Prime School Press studio, Lisbon. Original
+watercolour illustration produced for Prime School. www.primeschool.pt
+
+**P R I M E S C H O O L P R E S S**
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with, licensed
+by, endorsed by or approved by any examination board, or by any other publisher.
+
+**www.primeschool.pt**
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**2**
+
+<!-- page 3 -->
+
+---
+
+<!-- page 4 -->
 
 ---
 **P R I M E  S C H O O L  P R E S S**

@@ -1,5 +1,5 @@
 # Spanish A1/A2 - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-spanish-a1a2/book.pdf` (2 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-spanish-a1a2/book.pdf` (4 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -8,15 +8,69 @@
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E S C H O O L P R E S S**
 
 ## Spanish
+
+**Year 1 · A1 and A2 · Student Manual**
+
+¡Hola! Vamos a empezar.
+
+**I M P R I N T**
+
+**E D I T I O N**
+First edition, 2026. Printed in full colour on white stock.
+
+**P U B L I S H E R**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**R I G H T S**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**C R E D I T S**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team.
+
+**I N S I D E T H I S B O O K**
+
+A1 and A2 of the Common European Framework
+
+Listening, speaking, reading and writing together
+
+A story to follow in every unit
+
+Songs, rhymes and word games
+
+Original watercolour illustration throughout
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any other
+publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**2**
+
+<!-- page 3 -->
+
+---
+
+<!-- page 4 -->
+
+---
+**P R I M E  S C H O O L  P R E S S**
+
+## Spanish
+
+Year 1 · Prime School Press · A1/A2 · Student Manual
 
 ¡Hola! Vamos a empezar.
 
@@ -43,10 +97,8 @@ Songs, rhymes and word games
 •
 Original watercolour illustration throughout
 
-**Prime Books · Spanish**
+**Prime School Press · Spanish**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-Year 1 · Prime School Press · A1/A2 · Student Manual

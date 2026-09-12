@@ -1,5 +1,5 @@
 # Portuguese 1st Language - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-portuguese/book.pdf` (8 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-portuguese/book.pdf` (10 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -11,6 +11,47 @@
 Student Manual
 
 <!-- page 2 -->
+
+---
+**P R I M E S C H O O L P R E S S**
+
+## Português
+
+**Year 1 · Primeira Língua · Student Book**
+
+Português, primeiro.
+
+A primeira língua aprende-se a ouvir, a dizer e a brincar. Este livro acompanha
+as primeiras letras, as primeiras palavras e as primeiras histórias, sempre em
+português de Portugal.
+
+**N E S T E L I V R O**
+
+Primeiras letras e primeiras
+palavras
+
+Ouvir, dizer, ler e brincar
+
+Uma história em cada unidade
+
+Ilustração original em aguarela
+
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a
+retrieval system or transmitted in any form or by any means without the prior written permission of
+the publisher.
+
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content
+Creation Team.
+
+**www.primeschool.pt**
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**2**
+
+<!-- page 3 -->
 
 ---
 **ARBEITSBUCH · DEUTSCH A1 UND A2 · NIVEAU A1**
@@ -75,7 +116,7 @@ Buntstifte.
 
 **In dieser Einheit lernst du:**
 
-<!-- page 3 -->
+<!-- page 4 -->
 
 ---
 **LEKTION 1 · DEUTSCH A1 · BEGRÜSSUNGEN**
@@ -165,7 +206,7 @@ aus
 **LEKTION 1 · DEUTSCH A1 · BEGRÜSSUNGEN**
 **NAME:**
 
-<!-- page 4 -->
+<!-- page 5 -->
 
 ---
 **LEKTION 1 · DEUTSCH A1 · IM ZUG**
@@ -246,7 +287,7 @@ Bücher im Raum.
 **LEKTION 1 · DEUTSCH A1 · IM ZUG**
 **NAME:**
 
-<!-- page 5 -->
+<!-- page 6 -->
 
 ---
 **LEKTION 5 · DEUTSCH A2 · ALLTAG**
@@ -347,7 +388,7 @@ Brötchensorten. Auf Märkten grüßt man mit «Guten Tag!».
 
 **Schreibe einen eigenen Marktdialog mit zwei Sätzen:**
 
-<!-- page 6 -->
+<!-- page 7 -->
 
 ---
 **LEKTION 5 · DEUTSCH A2 · POSTKARTE**
@@ -434,7 +475,7 @@ das Wetter · der Gruß
 **Wissensbox: Hamburg hat mehr Brücken**
 **als Venedig · über 2.500!**
 
-<!-- page 7 -->
+<!-- page 8 -->
 
 ---
 **MALSEITE · DEUTSCH A1 UND A2**
@@ -481,7 +522,11 @@ diese als Malseite.
 **MALSEITE · DEUTSCH A1 UND A2**
 **NAME:**
 
-<!-- page 8 -->
+<!-- page 9 -->
+
+---
+
+<!-- page 10 -->
 
 ---
 **P R I M E  S C H O O L  P R E S S**

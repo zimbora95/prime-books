@@ -13,19 +13,19 @@ Student Manual
 <!-- page 2 -->
 
 ---
+**P R I M E S C H O O L P R E S S · Y E A R 1 · G E R M A N**
+
 ## Über dieses Buch
 
-About this book
+**A B O U T T H I S B O O K**
 
-Welcome to your German journey! This book takes you from your very first
+Welcome to your German journey! This book takes you from your very first Hallo! to
+confident A2 German, step by step, through twelve units.
 
-Hallo! to confident A2 German, step by step, through twelve units.
+You follow Anna, Tom and their friends from the first greeting to festivals, holidays and
+everything in between.
 
-You follow Anna, Tom and their friends from the first greeting to
-
-festivals, holidays and everything in between.
-
-**WHAT MAKES THIS BOOK SPECIAL**
+**W H A T M A K E S T H I S B O O K S P E C I A L**
 
 Twelve units from CEFR A1 to A2, made for young learners
 
@@ -37,16 +37,41 @@ Support, Core and Challenge tasks in every Wortwerkstatt
 
 Reviews, a picture dictionary and a German portfolio at the end
 
-**FOR THE CLASSROOM**
+**F O R T H E C L A S S R O O M**
 
 Use this book with the whole class, in pairs or alone.
 
 Every unit ends with ICH KANN so you can see your progress.
 
-Tick your own checkboxes - you are the captain of this journey!
+Tick your own checkboxes: you are the captain of this journey!
 
-2
-Prime Books · German · Year 1
+Prime School Press is the publishing
+imprint of Prime School, Portugal.
+
+www.primeschool.pt
+
+© Prime School 2026. All rights
+reserved. No part of this publication
+may be reproduced, stored in a
+retrieval system or transmitted in any
+form or by any means without the
+prior written permission of the
+publisher.
+
+Editorial Board. Pedagogical Academic
+Group · Pedagogical Team ·
+Pedagogical Department · Content
+Creation Team.
+
+Independent publication. This is an
+independent publication produced by
+Prime School for use within its own
+programmes of study. It is not
+affiliated with, licensed by, endorsed
+by or approved by any examination
+board, or by any other publisher.
+
+**2**
 
 <!-- page 3 -->
 

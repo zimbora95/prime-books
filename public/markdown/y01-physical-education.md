@@ -13,34 +13,63 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Physical Education · Year 1
-Student Book. First edition, 2026.
+**P R I M E S C H O O L P R E S S**
 
-Prime Books is the publishing imprint of Prime School, Portugal.
-www.primeschool.pt
+## Physical Education
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system
-or transmitted in any form or by any means without the prior written permission of the publisher.
+**Year 1 · Student Book**
 
-Independent publication. This book was written and produced by Prime School for use within its own programmes
-of study.
+**A B O U T T H I S P U B L I C A T I O N**
 
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content Creation
-Team.
+This book was written and produced by
+Prime School for use within its own
+programmes of study.
 
-Text, design and illustration. Written and designed by the Prime Books editorial studio. Original watercolour
-illustration produced for Prime School. All illustrations © Prime School 2026.
+Every comparison in this book asks a pupil
+to look at their own earlier attempt. No task
+ranks one pupil against another, and
+teachers adapt distances and timings freely.
 
-Safety. Every task assumes a teacher present, a space checked before the lesson, and apparatus set out by an adult. The teacher
-carries out their own risk assessment and follows the school's safety policy. Where a task carries a particular risk, the book says so
-in a Safety first panel.
+**S A F E T Y**
 
-Inclusion. Every comparison in this book asks a pupil to look at their own earlier attempt. No task ranks one pupil against another.
-Teachers adapt distances and timings freely.
+Every task assumes a teacher present, a
+space checked before the lesson, and
+apparatus set out by an adult. The teacher
+carries out their own risk assessment and
+follows the school safety policy. Where a
+task carries a particular risk, the book says
+so in a Safety first panel.
 
 British English throughout. Printed in Portugal on paper from responsibly managed forests.
 
-2
+Student Book. First edition, 2026.
+
+Prime School Press is the publishing imprint
+of Prime School, Portugal.
+
+www.primeschool.pt
+
+© Prime School 2026. All rights reserved.
+No part of this publication may be
+reproduced, stored in a retrieval system or
+transmitted in any form or by any means
+without the prior written permission of the
+publisher.
+
+Editorial Board. Pedagogical Academic
+Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team.
+
+Independent publication. This is an
+independent publication produced by Prime
+School for use within its own programmes
+of study. It is not affiliated with, licensed
+by, endorsed by or approved by any
+examination board, or by any other
+publisher.
+
+**www.primeschool.pt**
+**2**
 
 <!-- page 3 -->
 

@@ -13,42 +13,66 @@ Student Manual
 <!-- page 2 -->
 
 ---
-## About this book
+**P R I M E S C H O O L P R E S S**
 
-This is a book of letters. Six children live a long way from you, in six
-different countries, and this year they write to tell you about their
-games, their homes, their journeys and the days they look forward to
-most.
+## Global Perspectives
 
-You write back. There is a space on the page for your answer, and a
-pencil is the only thing you need to start.
+**Year 1 · Student Book**
 
-## The book is called Dear World, and it has six units. Each one is a
-colour. When you find that colour at the top of a page, you know
-which unit you are in.
+**Dear World**
+**ABOUT THIS BOOK**
 
-**One promise**
+This is a book of letters. Six children live a long
+way from you, in six different countries, and this
+year they write to tell you about their games,
+their homes, their journeys and the days they
+look forward to most.
 
-## In every unit there is one big question. Its answer is not printed
-anywhere in this book, and that is on purpose. Those are the
-questions worth talking about, with your class, at home, or with the
-six children who write to you.
+You write back. There is a space on the page for
+your answer, and a pencil is the only thing you
+need to start.
 
-**Global Perspectives · Year 1 · Student Book**
+The book is called Dear World, and it has six
+units. Each one is a colour. When you find that
+colour at the top of a page, you know which unit
+you are in.
 
-Editorial Board: Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content
-Creation Team.
+**O N E P R O M I S E**
 
-Copyright © 2026 Prime School. All rights reserved. No part of this book may be reproduced or
-transmitted in any form without the prior written permission of the publisher.
+In every unit there is one big question. Its answer is not printed anywhere in this book, and
+that is on purpose. Those are the questions worth talking about, with your class, at home, or
+with the six children who write to you.
+
+Prime School Press is the publishing
+imprint of Prime School, Portugal.
 
 www.primeschool.pt
 
-Prime School Press is the publishing imprint of Prime School, Portugal. First edition, 2026. Printed in
-full colour on white stock.
+© Prime School 2026. All rights reserved.
+No part of this publication may be
+reproduced, stored in a retrieval system
+or transmitted in any form or by any
+means without the prior written
+permission of the publisher.
 
-This is an independent Prime School Press publication. Every fact in it has been checked against the
-sources listed in Where the facts came from.
+Editorial Board. Pedagogical Academic
+Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team.
+
+Independent publication. This is an
+independent publication produced by
+Prime School for use within its own
+programmes of study. It is not affiliated
+with, licensed by, endorsed by or
+approved by any examination board, or by
+any other publisher.
+
+Text, design and illustration made in the Prime School Press studio, Lisbon. Original watercolour illustration produced for
+Prime School.
+
+Every fact in this book has been checked against the sources listed in Where the facts came from, at the back of the book.
+
+**2**
 
 <!-- page 3 -->
 
