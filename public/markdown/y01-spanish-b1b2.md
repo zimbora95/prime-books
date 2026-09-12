@@ -70,6 +70,65 @@ any other publisher.
 <!-- page 3 -->
 
 ---
+**P R I M E S C H O O L P R E S S**
+
+**S P A N I S H · Y E A R 1 · B 1 A N D B 2**
+
+## How this book works
+
+Ahora el español es tuyo.
+
+The next Spanish step: opinions, stories, plans and debates. Read
+real texts, write real letters, and hold your own in any conversation,
+from the past tenses to the subjunctive.
+
+**F O R T H E C L A S S R O O M**
+
+Use this book with the whole class, in pairs or alone. Every unit ends with a check you do yourself, and
+every sign below means the same thing in every unit.
+
+**T H E S I X S I G N S I N E V E R Y U N I T**
+
+**Listen**
+
+Real texts,
+read and
+heard.
+
+**Speak**
+
+Debate,
+present,
+argue.
+
+**Read**
+
+Letters, news,
+poems, songs.
+
+**Write**
+
+Real letters,
+real purposes.
+
+**Grammar**
+
+In context,
+never as a list.
+
+**Your turn**
+
+The page is
+yours.
+
+**S p a n i s h · Y e a r 1 · B 1 a n d B 2**
+
+For teachers: the discussion tasks have no printed answer on purpose. Grammar is taught
+in context, and every unit closes with a self-check.
+
+**www.primeschool.pt**
+
+**3**
 
 <!-- page 4 -->
 

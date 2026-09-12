@@ -74,34 +74,93 @@ other publisher.
 <!-- page 3 -->
 
 ---
-**Prime School Press**
-Physical Education · Year 1
+**P R I M E S C H O O L P R E S S**
 
-**PHYSICAL EDUCATION · YEAR 1**
-## About this book
+**P H Y S I C A L E D U C A T I O N · Y E A R 1**
+## Welcome
 
-This book is for children in Year 1, about five to six years old, and for the
-teachers and families who move with them.
+Behind the school there is a meadow. Grass, little flowers, room to run. When it rains,
+there is the hall instead: wooden floor, wall bars, mats in a stack. This book uses both
+places, and the jobs do not change.
 
-Physical Education in Year 1 is not a sport exam. It is how a body learns to share
-a space, to stop when asked, to try a jump again, and to be kind while it does
-those things.
+You will move. You will watch. You will take turns. You will stop when the teacher says stop.
+Success in this book is trying, looking after a partner, and leaving the space tidy.
 
-Children will practise walking, running, jumping, hopping, skipping, rolling,
-throwing, catching, kicking and balancing. They will dance, play simple team
-games, and notice what their body does when it works hard.
+**T H E S I X W H O M O V E W I T H Y O U**
 
-**SUCCESS IS TRYING**
+**P**
 
-The activities are written so a child can join in with confidence. Success is
-trying, looking after a partner, and leaving the space tidy.
+**Pip**
 
-Prime Books Physical Education Year 1 is a complete student book for the first year of primary
-school. It covers moving well, understanding movement, moving creatively, taking part, taking
-responsibility and healthy bodies, matching the school's Year 1 Physical Education scheme. Short
-teaching, unique watercolour plates, safety panels and play tasks sit on every topic.
+A red squirrel in
+a mustard
+jumper. He tries
+first.
 
-ABOUT THIS BOOK
+**B**
+
+**Bramble**
+
+A badger in a
+teal jacket.
+Steady, and he
+likes to count.
+
+**S**
+
+**Sorrel**
+
+A brown hare in
+an olive vest.
+She is fast.
+
+**T**
+
+**Tuft**
+
+A small
+hedgehog in a
+terracotta vest.
+Careful.
+
+**W**
+
+**Willow**
+
+A barn owl. She
+watches, and
+says what she
+saw.
+
+**R**
+
+**Rowan**
+
+An otter in a
+green vest. He
+likes games with
+a ball.
+
+**H O W T H I S B O O K W O R K S**
+
+**Try it**
+**Watch, then copy**
+**Talk about it**
+**How did it go?**
+**Safety first**
+
+**Words we used**
+
+Every topic runs the same way: a short teaching page, a modelled attempt to watch, then your turn. Unit
+checks are called How did it go? and they are yours to colour in, not to be marked.
+
+**W E L C O M E**
+
+For teachers: nothing in this book is a test. How did it go? is the pupil’s own check. Every
+task assumes a teacher present, a space checked before the lesson and apparatus set out by
+an adult.
+
+**www.primeschool.pt**
 
 **3**
 
@@ -114,7 +173,6 @@ Physical Education · Year 1
 **PHYSICAL EDUCATION · YEAR 1**
 ## What is inside?
 
-**About this book**
 **3**
 
 **Contents**
@@ -282,6 +340,8 @@ Unit 6 · How did it go?
 CONTENTS
 
 **4**
+
+**Welcome**
 
 <!-- page 5 -->
 

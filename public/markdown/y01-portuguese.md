@@ -1,5 +1,5 @@
 # Portuguese 1st Language - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-portuguese/book.pdf` (10 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-portuguese/book.pdf` (12 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -61,6 +61,67 @@ other publisher.
 **2**
 
 <!-- page 3 -->
+
+---
+**P R I M E S C H O O L P R E S S**
+
+**P O R T U G U Ê S · 1 . º A N O · P R I M E I R A L Í N G U A**
+
+## Bem-vindo
+
+Português, primeiro. Palavras primeiro, também.
+
+A primeira língua aprende-se a ouvir, a dizer e a brincar. Este livro
+acompanha as primeiras letras, as primeiras palavras e as primeiras
+histórias, sempre em português de Portugal.
+
+Cada unidade começa por uma história para ouvir e contar outra vez.
+Depois vêm as letras, as palavras novas e uma página para escrever com
+a tua mão.
+
+**C O M O E S T E L I V R O F U N C I O N A**
+
+**Ouvir**
+
+A história lida em voz alta, primeiro
+pela professora, depois por ti.
+
+**Dizer**
+
+Dizes o que vês, contas a história e
+dizes o que sentiste.
+
+**Ler**
+
+As primeiras letras e as primeiras
+palavras, passo a passo.
+
+**Escrever**
+
+Copiar, completar e depois escrever
+sozinho.
+
+**A tua vez**
+
+A página é tua: escreve, desenha e
+pinta.
+
+**O que aprendi**
+
+No fim da unidade, pintas o que já
+sabes fazer.
+
+**B E M - V I N D O**
+
+Para o professor: nada neste livro é um teste. «O que aprendi?» é a verificação do próprio
+aluno, e as soluções do fim do livro servem para conferir em conjunto. As páginas de escrita
+estão em português europeu.
+
+**www.primeschool.pt**
+
+**3**
+
+<!-- page 4 -->
 
 ---
 **ARBEITSBUCH · DEUTSCH A1 UND A2 · NIVEAU A1**
@@ -125,7 +186,7 @@ Buntstifte.
 
 **In dieser Einheit lernst du:**
 
-<!-- page 4 -->
+<!-- page 5 -->
 
 ---
 **LEKTION 1 · DEUTSCH A1 · BEGRÜSSUNGEN**
@@ -215,7 +276,7 @@ aus
 **LEKTION 1 · DEUTSCH A1 · BEGRÜSSUNGEN**
 **NAME:**
 
-<!-- page 5 -->
+<!-- page 6 -->
 
 ---
 **LEKTION 1 · DEUTSCH A1 · IM ZUG**
@@ -296,7 +357,7 @@ Bücher im Raum.
 **LEKTION 1 · DEUTSCH A1 · IM ZUG**
 **NAME:**
 
-<!-- page 6 -->
+<!-- page 7 -->
 
 ---
 **LEKTION 5 · DEUTSCH A2 · ALLTAG**
@@ -397,7 +458,7 @@ Brötchensorten. Auf Märkten grüßt man mit «Guten Tag!».
 
 **Schreibe einen eigenen Marktdialog mit zwei Sätzen:**
 
-<!-- page 7 -->
+<!-- page 8 -->
 
 ---
 **LEKTION 5 · DEUTSCH A2 · POSTKARTE**
@@ -484,7 +545,7 @@ das Wetter · der Gruß
 **Wissensbox: Hamburg hat mehr Brücken**
 **als Venedig · über 2.500!**
 
-<!-- page 8 -->
+<!-- page 9 -->
 
 ---
 **MALSEITE · DEUTSCH A1 UND A2**
@@ -531,11 +592,15 @@ diese als Malseite.
 **MALSEITE · DEUTSCH A1 UND A2**
 **NAME:**
 
-<!-- page 9 -->
+<!-- page 10 -->
 
 ---
 
-<!-- page 10 -->
+<!-- page 11 -->
+
+---
+
+<!-- page 12 -->
 
 ---
 **P R I M E  S C H O O L  P R E S S**
