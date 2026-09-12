@@ -13,6 +13,42 @@ Student Manual
 <!-- page 2 -->
 
 ---
+## About this book
+
+This is a book of letters. Six children live a long way from you, in six
+different countries, and this year they write to tell you about their
+games, their homes, their journeys and the days they look forward to
+most.
+
+You write back. There is a space on the page for your answer, and a
+pencil is the only thing you need to start.
+
+## The book is called Dear World, and it has six units. Each one is a
+colour. When you find that colour at the top of a page, you know
+which unit you are in.
+
+**One promise**
+
+## In every unit there is one big question. Its answer is not printed
+anywhere in this book, and that is on purpose. Those are the
+questions worth talking about, with your class, at home, or with the
+six children who write to you.
+
+**Global Perspectives · Year 1 · Student Book**
+
+Editorial Board: Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content
+Creation Team.
+
+Copyright © 2026 Prime School. All rights reserved. No part of this book may be reproduced or
+transmitted in any form without the prior written permission of the publisher.
+
+www.primeschool.pt
+
+Prime School Press is the publishing imprint of Prime School, Portugal. First edition, 2026. Printed in
+full colour on white stock.
+
+This is an independent Prime School Press publication. Every fact in it has been checked against the
+sources listed in Where the facts came from.
 
 <!-- page 3 -->
 
@@ -746,9 +782,9 @@ Dear World, what is it like where you are?
 
 One big question in every unit, and a letter to write back. Find out how other
 
-children live, play, learn and eat, then say what surprised you. Look outwards, ask
+children live, play, learn and eat, then say what surprised you.
 
-kindly, listen carefully, and act.
+Look outwards, ask kindly, listen carefully, and act.
 
 **INSIDE THIS BOOK**
 
