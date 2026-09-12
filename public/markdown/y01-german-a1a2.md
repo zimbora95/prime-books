@@ -13,63 +13,58 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E S C H O O L P R E S S · Y E A R 1 · G E R M A N**
+**P R I M E S C H O O L P R E S S**
 
-## Über dieses Buch
+## German
 
-**A B O U T T H I S B O O K**
+**Year 1 · A1 and A2 · Student Book**
 
-Welcome to your German journey! This book takes you from your very first Hallo! to
-confident A2 German, step by step, through twelve units.
+Deutsch lernen, ganz leicht gemacht.
 
-You follow Anna, Tom and their friends from the first greeting to festivals, holidays and
-everything in between.
+**I N S I D E T H I S B O O K**
 
-**W H A T M A K E S T H I S B O O K S P E C I A L**
+A1 and A2 of the Common European
+Framework
 
-Twelve units from CEFR A1 to A2, made for young learners
+Listening, speaking, reading and writing
+together
 
-Listening, speaking, reading and writing in every unit
+A story to follow in every unit
 
-QR-code audio places for every listening activity
+Songs, rhymes and word games
 
-Support, Core and Challenge tasks in every Wortwerkstatt
+Original watercolour illustration throughout
 
-Reviews, a picture dictionary and a German portfolio at the end
+**I M P R I N T**
 
-**F O R T H E C L A S S R O O M**
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Use this book with the whole class, in pairs or alone.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Every unit ends with ICH KANN so you can see your progress.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
 
-Tick your own checkboxes: you are the captain of this journey!
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
 
-Prime School Press is the publishing
-imprint of Prime School, Portugal.
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
 
-www.primeschool.pt
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
 
-© Prime School 2026. All rights
-reserved. No part of this publication
-may be reproduced, stored in a
-retrieval system or transmitted in any
-form or by any means without the
-prior written permission of the
-publisher.
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
 
-Editorial Board. Pedagogical Academic
-Group · Pedagogical Team ·
-Pedagogical Department · Content
-Creation Team.
-
-Independent publication. This is an
-independent publication produced by
-Prime School for use within its own
-programmes of study. It is not
-affiliated with, licensed by, endorsed
-by or approved by any examination
-board, or by any other publisher.
+**www.primeschool.pt**
 
 **2**
 

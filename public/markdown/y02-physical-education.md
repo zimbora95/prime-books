@@ -13,37 +13,63 @@ Student Manual
 <!-- page 2 -->
 
 ---
-PRIME BOOKS · CONTINUED
+**P R I M E S C H O O L P R E S S**
 
-**Curriculum. This book supports the Cambridge Early Years framework for Physical Education and**
-follows the Prime School scheme of work for Year 2, covering all twenty-nine learning objectives
-across its six units: Moving Well, Understanding Movement, Moving Creatively, Taking Part, Taking
-Responsibility and Healthy Bodies. Prime School is solely responsible for the interpretation of that
-framework in these pages.
+## Physical Education
 
-**How this year differs from the last. Year 1 and Year 2 share the same scheme of work, and that is**
-deliberate: a movement skill is not learned once. What changes is what the skill is for. In Year 1 each
-skill was practised on its own. In this book every skill is played inside a game that has a stated rule, a
-partner or a team, and a choice for the pupil to make. Each unit therefore carries two features the
-**Year 1 book did not: the rule of the game, printed so that pupils can read it for themselves, and what**
-**would you do?, which asks for a decision and prints no answer.**
+**Year 2 · Student Book**
 
-**Text, design and illustration. Written and designed by the Prime Books editorial studio. Original**
-watercolour illustration produced for Prime School. All illustrations © Prime School 2026.
+How do I throw so that Tuft can catch it?
 
-**Links and codes. The printed codes in this book lead to pages published by other organisations, which**
-Prime School does not control. Each address is also printed in words beside its code so that no device
-is needed to find it. Every address was checked before this edition went to press. Teachers should
-preview any linked page before showing it to a class.
+**I N S I D E T H I S B O O K**
 
-**Safety. The physical activities in this book have been written for use with pupils aged six to seven**
-under the direct supervision of a teacher. Teachers should carry out their own risk assessment of the
-space, the floor surface, the apparatus and the group before any activity, and should follow their
-school's own safety policy. Pupils should be dressed for movement, should have water available, and
-should never be asked to continue when they are in pain or distress. Prime School does not accept
-responsibility for the way in which these activities are carried out.
+Twenty-four topics across six units
 
-PRIME BOOKS
+Over 290 things to do, say and try
+
+The rule of the game, printed on every topic
+
+A decision to make on every topic, with no
+answer given
+
+Named jobs, so everybody knows what theirs
+is
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**SAFETY**
+The physical activities in this book have been written for use with pupils
+aged six to seven under the direct supervision of a teacher. Teachers
+should carry out their own risk assessment of the space, the floor surface,
+the apparatus and the group before any activity, and should follow their
+school's own safety policy.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 6 t o 7 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

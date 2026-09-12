@@ -13,41 +13,59 @@ Student Manual
 <!-- page 2 -->
 
 ---
+**P R I M E S C H O O L P R E S S**
+
 ## Art & Design
 
-Year 2 · Student Manual
-The Studio by the Wood
+**Year 2 · Student Book**
 
-**Prime Books · an imprint of Prime School · www.primeschool.pt**
-Rua de Santa Marinha 20, 1100‑293 Lisboa, Portugal
+Come into the studio. Four artists are waiting.
 
-**Art & Design, Year 2 · Student Manual · First edition, published 2026**
+**I N S I D E T H I S B O O K**
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a
-retrieval system or transmitted in any form or by any means without the prior written permission of Prime
-School, except that a school which has purchased this book may photocopy the pupil recording frames for
-use within that school only.
+Four units, twenty-one topics
 
-**Editorial Board. The Prime Books Subject Series has been developed under the guidance of the**
-Pedagogical Academic Group for each subject and coordinated by the Pedagogical Team of Prime School.
-This publication reflects our shared commitment to academic excellence, educational quality, professional
-integrity, and the continuous advancement of teaching and learning. We extend our sincere appreciation to
-the Pedagogical Department and the Content Creation Team of Prime School for their contributions and
-collaborative efforts in making this publication possible.
+Drawing, painting, printing and building
 
-**Illustration. Every picture in this book was made for this book. No artwork by another artist is reproduced**
-in these pages: works of art are named and described for study, and the addresses beside the square codes
-lead to the museums that hold them. Original watercolour illustration © Prime School 2026.
+A modelled making in every topic
 
-**Safety. The activities in this book are written for pupils aged six to seven working under the direct**
-supervision of a teacher. Clay is fired by an adult only, and no activity needs a blade, a solvent or an
-aerosol. Teachers carry out their own risk assessment and follow their school's safety policy.
+A gallery of your own to finish
 
-Web addresses. Every address in this book answered correctly when this edition went to press. Pages outside Prime
-School's control may move or close.
-The paper. Printed on paper from responsibly managed forests. Interior 8.5 × 11 in on white stock. British English
-throughout.
-ISBN 978‑989‑33‑7413‑9
+Original watercolour illustration throughout
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**SAFETY**
+The activities in this book are written for pupils aged six to seven working
+under the direct supervision of a teacher. Teachers carry out their own risk
+assessment and follow their school's safety policy.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 6 t o 7 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 
@@ -5904,5 +5922,3 @@ Original watercolour illustration throughout
 Ages 6–7 · Lower Primary
 
 **primeschool.pt**
-
-## 164

@@ -13,44 +13,65 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Prime Books
+**P R I M E S C H O O L P R E S S**
 
-Science & Lab · Year 2 · Student Manual
+## Science
 
-The Potting Shed Notebook
+**Year 2 · Student Book**
 
-First published in 2026 by Prime Books, the publishing imprint of Prime School, Rua do Camiño 12,
-Cascais, Portugal.
+How do you know?
 
-© Prime School 2026. All rights reserved.
+**I N S I D E T H I S B O O K**
 
-No part of this publication may be reproduced, stored in a retrieval system or transmitted in any
-form or by any means, electronic, mechanical, photocopying, recording or otherwise, without the
-prior written permission of Prime School. Pages marked as photocopiable may be copied by the
-purchasing school for use within that school only.
+Twenty-five topics across six units
 
-**Illustration. The interior watercolours were produced for this edition. The cover artwork and**
-layout were supplied by Prime School and are reproduced here as the design authority for the
-whole book.
+Over 350 things to do, say and draw
 
-**A note on safety. Every practical activity in this book was written for a primary classroom and**
-**reviewed against published primary science safety guidance. Activities marked Take care need an**
-adult alongside. Teachers remain responsible for risk assessment in their own setting.
+A modelled enquiry in every single topic
 
-**Websites. Every web address in this book was checked at the date of publication. Prime School is**
-not responsible for the content of third-party sites.
+Six projects, and a garden guide to finish
 
-British English throughout
-Printed on paper from responsibly managed forests
-Ages 6–7 · 210 × 270 mm
+QR codes that open real science beyond the
+page
 
-9 789893 374139
+**I M P R I N T**
 
-**An independent publication. This book is written and published by Prime School. It is designed**
-to support the teaching and learning of primary science in the early years classroom.
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-**Trademark acknowledgements. Prime School and Prime Books are trademarks of Prime School. All**
-other trademarks are the property of their respective owners and are acknowledged.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+Prime School and Prime School Press are trademarks of Prime School. All
+other trademarks are the property of their respective owners and are
+acknowledged.
+
+**SAFETY**
+Every practical activity in this book was written for a primary classroom
+and reviewed against published primary science safety guidance. Teachers
+remain responsible for risk assessment in their own setting.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 6 t o 7 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

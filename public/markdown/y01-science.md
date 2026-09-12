@@ -13,55 +13,71 @@ Student Manual
 <!-- page 2 -->
 
 ---
-PRIME BOOKS
+**P R I M E S C H O O L P R E S S**
 
-Science & Lab
+## Science
 
-**The Hedge Bank Field Notebook**
-Science & Lab, Year 1, Student Book
-First edition, published 2026
+**Year 1 · Student Book**
 
-Published by Prime School, Rua de Santa Marinha 20, 1100‑293 Lisboa, Portugal.
-www.primeschool.pt
+How do you know?
 
-© Prime School 2026. All rights reserved.
+**I N S I D E T H I S B O O K**
 
-No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form
-or by any means, electronic, mechanical, photocopying, recording or otherwise, without the prior
-written permission of Prime School, except that a school which has purchased this book may photocopy
-the pupil recording frames on pages marked with the copying symbol, for use within that school only.
+Twenty-four topics across six units
 
-**An independent publication. This book is written, illustrated and published by Prime School. It is not**
-endorsed by, affiliated with, licensed by or otherwise connected to Cambridge University Press,
-Cambridge Assessment International Education, or the University of Cambridge. Any reference to the
-Cambridge Primary Science curriculum framework is made for the purpose of describing the curriculum
-this book supports, and no endorsement of this book by those organisations is claimed or implied.
+Over 280 things to do, say and draw
 
-**Trademarks. Cambridge, Cambridge Primary, Cambridge Early Years and Cambridge Assessment**
-International Education are trademarks of the University of Cambridge. Prime School and Prime Books
-are trademarks of Prime School. All trademarks are acknowledged as the property of their respective
-owners and are used here for identification only.
+A modelled enquiry in every single topic
 
-**Curriculum. This book supports the Cambridge Primary Science curriculum framework at Stage 1,**
-covering the Biology, Chemistry, Physics, and Earth and Space strands together with Thinking and
-Working Scientifically. Prime School is solely responsible for the interpretation of that framework in
-these pages.
+Six projects, and a class field guide to finish
 
-**Text, design and illustration. Written and designed by the Prime Books editorial studio. Original**
-watercolour illustration produced for Prime School. All illustrations © Prime School 2026.
+A word list of every science word you meet
 
-**Safety. The practical activities in this book have been written for use with pupils aged five to six under**
-the direct supervision of a teacher. Teachers should carry out their own risk assessment before any
-activity and should follow their school's own safety policy. Prime School does not accept responsibility
-for the way in which these activities are carried out.
+**I M P R I N T**
 
-**A note on the paper. This book is printed on paper from responsibly managed forests.**
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Printed in Portugal.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-ISBN 978‑989‑33‑7412‑2
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any means
+without the prior written permission of the publisher.
 
-PRIME BOOKS
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written, illustrated and typeset in the Prime
+School Press studio, Lisbon.
+
+**TRADEMARKS**
+Cambridge, Cambridge Primary, Cambridge Early Years and Cambridge Assessment
+International Education are trademarks of the University of Cambridge. Prime School
+and Prime School Press are trademarks of Prime School. All trademarks are
+acknowledged as the property of their respective owners and are used here for
+identification only.
+
+**LICENCE**
+It is not endorsed by, affiliated with, licensed by or otherwise connected to Cambridge
+University Press, Cambridge Assessment International Education, or the University of
+Cambridge.
+
+**SAFETY**
+The practical activities in this book have been written for use with pupils aged five to
+six under the direct supervision of a teacher. Teachers should carry out their own risk
+assessment before any activity and should follow their school's own safety policy.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

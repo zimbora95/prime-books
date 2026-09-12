@@ -19,58 +19,50 @@ Student Manual
 
 **Year 1 · Student Book**
 
-**Dear World**
-**ABOUT THIS BOOK**
+Dear World, what is it like where you are?
 
-This is a book of letters. Six children live a long
-way from you, in six different countries, and this
-year they write to tell you about their games,
-their homes, their journeys and the days they
-look forward to most.
+**I N S I D E T H I S B O O K**
 
-You write back. There is a space on the page for
-your answer, and a pencil is the only thing you
-need to start.
+One big question in every unit
 
-The book is called Dear World, and it has six
-units. Each one is a colour. When you find that
-colour at the top of a page, you know which unit
-you are in.
+Letters to and from the world
 
-**O N E P R O M I S E**
+Ask, listen, compare and act, every time
 
-In every unit there is one big question. Its answer is not printed anywhere in this book, and
-that is on purpose. Those are the questions worth talking about, with your class, at home, or
-with the six children who write to you.
+Real photographs and real places
 
-Prime School Press is the publishing
-imprint of Prime School, Portugal.
+A project in every unit
 
-www.primeschool.pt
+**I M P R I N T**
 
-© Prime School 2026. All rights reserved.
-No part of this publication may be
-reproduced, stored in a retrieval system
-or transmitted in any form or by any
-means without the prior written
-permission of the publisher.
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Editorial Board. Pedagogical Academic
-Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Independent publication. This is an
-independent publication produced by
-Prime School for use within its own
-programmes of study. It is not affiliated
-with, licensed by, endorsed by or
-approved by any examination board, or by
-any other publisher.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
 
-Text, design and illustration made in the Prime School Press studio, Lisbon. Original watercolour illustration produced for
-Prime School.
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
 
-Every fact in this book has been checked against the sources listed in Where the facts came from, at the back of the book.
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
 
 **2**
 

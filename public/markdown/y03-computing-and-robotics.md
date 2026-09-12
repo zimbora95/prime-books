@@ -13,27 +13,62 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Computing & Robotics
+**P R I M E S C H O O L P R E S S**
 
-Year 3 · Student Manual
-The Mending Bench
+## Computing & Robotics
 
-A Cambridge Pathway student book for Lower Primary,
+**Year 3 · Student Book**
 
-written for pupils of about seven and eight years old.
+Instructions are just stepping stones, and you write them.
 
-**Prime Books · Prime School International**
-www.primeschool.pt
+**I N S I D E T H I S B O O K**
 
-First edition, 2026. Written and produced by Prime School International.
+Five units from instructions to programs
 
-This book is original Prime School material. It is an independent publication and is not an official
-Cambridge Assessment International Education or Oxford University Press publication.
+Predict, run and compare, every time
 
-Interior 210 × 270 mm. British English throughout. Printed on uncoated stock so that pencil and
-crayon work on the page.
+Real bug hunts, with the fix never printed
 
+A project in every unit
+
+QR codes, each printed in words as well
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**LICENCE**
+It is an independent publication and is not an official Cambridge
+Assessment International Education or Oxford University Press
+publication.
+
+**TEACHERS**
 Pupils write in this book. It is meant to be written in.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 7 t o 8 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

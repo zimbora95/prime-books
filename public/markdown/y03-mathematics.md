@@ -13,38 +13,65 @@ Student Manual
 <!-- page 2 -->
 
 ---
-◎
-P R I M E B O O K S
-Mathematics
+**P R I M E S C H O O L P R E S S**
 
-Ages 7 to 8 · Lower Primary · First edition 2026
+## Mathematics
 
-Published by Prime Books, the publishing imprint of Prime School, www.primeschool.pt
+**Year 3 · Student Book**
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted in
-any form or by any means without the prior written permission of the publisher, except for fair dealing for the purposes of research,
-private study or review, as permitted under copyright law.
+Measure the garden. Then prove you are right.
 
-An independent publication. This book is an original work produced by Prime School for use within its own programmes of study. It is
+**I N S I D E T H I S B O O K**
 
-not affiliated with, licensed by, endorsed by or otherwise approved by Cambridge University Press and Assessment, nor by any
-examination body. Where this book refers to Cambridge Primary Mathematics ideas, it does so descriptively to help teachers see the
-territory of each unit.
+Every Stage 3 framework objective, in units
 
-Original content. All teaching text, worked examples, practice items and explanations are original to this edition. Numerical answers
+A worked example and a second method every
+time
 
-were checked in Python before publication. The school syllabus in PDF/Input was used only as a scope and sequence reference.
+Real measuring and real sharing, not just sums
 
-Trademark acknowledgements. Cambridge and Cambridge Primary are trademarks of the University of Cambridge. All trademarks
-remain the property of their owners and are used here for identification only.
+Projects to build and show
 
-Typefaces. Fraunces, Space Grotesk, Source Sans 3 and JetBrains Mono, used under their respective open licences.
+Over a thousand practice items, no printed
+answers
 
-British English edition. Metric units and the euro throughout. Long numbers are grouped with a thin space (1 000) and the decimal
+**I M P R I N T**
 
-separator is a point.
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Year 3 · Student Book
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+Cambridge and Cambridge Primary are trademarks of the University of
+Cambridge. All trademarks remain the property of their owners and are
+used here for identification only.
+
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or otherwise approved by
+Cambridge University Press and Assessment, nor by any examination body.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 7 t o 8 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

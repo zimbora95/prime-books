@@ -13,64 +13,62 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Prime Books · Science & Lab Year 4 · Student Book
+**P R I M E S C H O O L P R E S S**
 
-First edition, 2026
+## Science
 
-Published by Prime Books, the publishing imprint of Prime School, www.primeschool.pt
+**Year 4 · Student Book**
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system,
-or transmitted in any form or by any means without the prior written permission of the publisher, except for fair
+Look inside. Ask why.
 
-dealing for the purposes of research, private study or review, as permitted under copyright law.
+**I N S I D E T H I S B O O K**
 
-An independent publication. This book is an original work produced by Prime School for use within its own
-programmes of study. It is not affiliated with, licensed by, endorsed by or otherwise approved by Cambridge
+Five units of hands-on science
 
-University Press & Assessment, nor by any examination body. References to curriculum frameworks represent the
-interpretation of the authors.
+A modelled enquiry in every topic
 
-Original content. All text, worked examples, diagrams and illustrations are original to this edition. Factual claims are
-drawn from real, credited sources listed in the Sources & references section.
+Real experiments with honest results
 
-Trademark acknowledgements. All trademarks are the property of their respective owners.
+QR codes that open real science beyond the
+page
 
-British English edition.
+A word list of every science word you meet
 
-CONTENTS
+**I M P R I N T**
 
-What is inside
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Before you begin
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Unit 1 · Living things
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
 
-SECTION
-TITLE
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
 
-1.1
-Bones and skeletons
+**TRADEMARKS**
+All trademarks are the property of their respective owners.
 
-1.2
-Why we need a skeleton
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or otherwise approved by
+Cambridge University Press & Assessment, nor by any examination body.
 
-1.3
-Skeletons and movement
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
 
-1.4
-Different kinds of skeletons
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
 
-Unit 1 also includes a Final project, Check your progress, Evaluation, What can you do, and a Key words round-up.
+**www.primeschool.pt**
 
-Looking ahead
-
-Introduction: how this book works
-
-How to use this book
-
-Getting set up
-
-Unit 2 · Energy
+**2**
 
 <!-- page 3 -->
 

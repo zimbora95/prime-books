@@ -13,52 +13,72 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Both Ways from Zero
+**P R I M E S C H O O L P R E S S**
 
-Mathematics · Year 4 · Student Book
-Prime Books, the publishing imprint of Prime School, Portugal.
-First edition, 2026. Printed in Portugal.
+## Mathematics
 
-© Prime School 2026. All rights reserved.
+**Year 4 · Student Book**
 
-No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any
-means, electronic, mechanical, photocopying, recording or otherwise, without the prior written permission of
-Prime School, except that a school which has purchased this book may photocopy the self-assessment pages
-for use with its own pupils.
+Both ways from zero.
 
-An independent publication. This book is written, illustrated and published by Prime School. It is an
-independent educational work. It is not affiliated with, authorised by, endorsed by, sponsored by or connected
-to Cambridge University Press & Assessment, Cambridge Assessment International Education, or any other
-examination board or publisher. Any syllabus outcomes referred to are the school's own reading of publicly
-available curriculum aims. No text, illustration, exercise, worked example or data set in this book has been
-taken from any other publisher's material: all of it was written and drawn for this edition.
+**I N S I D E T H I S B O O K**
 
-Trademarks. Cambridge, Cambridge Assessment International Education and IGCSE are trademarks of
-Cambridge University Press & Assessment. All other trademarks, product names and company names
-mentioned are the property of their respective owners and are used for identification and educational
-reference only.
+Every topic opens with a worked example that
+shows its answer
 
-Editorial and production. Written and edited by the Prime School Mathematics Department. Series design, typesetting
-and illustration direction by Prime Books. Reviewed in manuscript by the school's Year 4 teaching team, whose corrections
-are built into the structure of every unit.
+A real number line wherever a number line is
+mentioned
 
-Typeset in Grandstander (headings), Lexend (text), Kalam (annotations) and JetBrains Mono (figures). Lexend was chosen
-because it is designed to reduce visual crowding for developing readers, and JetBrains Mono because its figures are of
-equal width, which is what allows a digit to sit squarely in its place-value column. All four are used under the SIL Open
-Font Licence, version 1.1.
+A full place value chart, with what every digit
+is worth
 
-A note on the numbers. Every calculation, sequence, place value decomposition, temperature reading and marking total
-printed in this book was generated and checked by computer during production, and the answer section is derived from
-the same source as the questions. If you find an error nonetheless, the Mathematics Department would be glad to hear
-from you.
+Over sixty practice questions, and twelve
+fresh ones to check yourself
 
-Illustrations. Original artwork commissioned for this edition. Diagrams, number lines, place value charts, thermometers,
-sequence chains and tables are drawn as vector artwork by the Prime Books typesetting system, so they remain sharp at
-any size.
+Watch out! panels that name the mistake
+before you make it
 
-Prime School · Rua Poeta Bocage, Quinta do Anjo, Setúbal, Portugal · www.primeschool.pt
+**I M P R I N T**
 
-Paper from responsibly managed sources.
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any means
+without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written, illustrated and typeset in the Prime
+School Press studio, Lisbon.
+
+**TRADEMARKS**
+Cambridge, Cambridge Assessment International Education and IGCSE are
+trademarks of Cambridge University Press & Assessment. All other trademarks,
+product names and company names mentioned are the property of their respective
+owners and are used for identification and educational reference only.
+
+**LICENCE**
+It is not affiliated with, authorised by, endorsed by, sponsored by or connected to
+Cambridge University Press & Assessment, Cambridge Assessment International
+Education, or any other examination board or publisher. No text, illustration, exercise,
+worked example or data set in this book has been taken from any other publisher's
+material: all of it was written and drawn for this edition.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

@@ -13,52 +13,67 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Computing & Robotics
+**P R I M E S C H O O L P R E S S**
 
-Year 4 · Student Manual
-The Workshop
+## Computing & Robotics
 
-A student book for Lower Primary, written for pupils of about
-eight to nine years old. It teaches the one idea the whole
-subject rests on: a computer follows a plan, and the plan is
-yours to write.
+**Year 4 · Student Book**
 
-Five benches in one workshop: plan, code, sort, signal and
-machine. Rufus the fox and Hazel the rabbit work beside you,
-and Cog does exactly what he is told.
+Write it, test it, fix it, prove it.
 
-Computing & Robotics · Year 4
-Student Manual. First edition, 2026.
+**I N S I D E T H I S B O O K**
 
-Prime Books is the publishing imprint of Prime School, Portugal.
-www.primeschool.pt
+Five units from instructions to programs
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system
-or transmitted in any form or by any means without the prior written permission of the publisher.
+Predict, run and compare, every time
 
-Independent publication. This book was written and produced by Prime School International for use within its own
-programmes of study. It is not affiliated with, licensed by or endorsed by any examination board or awarding body.
-References to curriculum frameworks represent the interpretation of the authors.
+Real bug hunts, with the fix never printed
 
-Trademark acknowledgements. All product names, trademarks and registered trademarks named in this book are
-the property of their respective owners and are used for identification and educational comment only. No
-endorsement is implied and none should be inferred.
+A project in every unit
 
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content Creation
-Team.
+QR codes, each printed in words as well
 
-Text, design and illustration. Written and designed by the Prime Books editorial studio. Original watercolour
-illustration produced for Prime School. All illustrations © Prime School 2026.
+**I M P R I N T**
 
-Safety. The activities in this book are written for pupils aged eight to nine working with a teacher nearby. Cutting, and any work
-with mains-powered equipment, needs an adult. Teachers carry out their own risk assessment and follow their school’s safety
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+All product names, trademarks and registered trademarks named in this book
+are the property of their respective owners and are used for identification
+and educational comment only.
+
+**LICENCE**
+It is not affiliated with, licensed by or endorsed by any examination board or
+awarding body.
+
+**SAFETY**
+Teachers carry out their own risk assessment and follow their school’s safety
 policy.
 
-Square codes. Every square code in this book was scanned, and every address answered correctly, when this edition went to
-press. An adult holds the device and opens the page. Pages outside Prime School’s control may move or close, and Prime School is
-not responsible for their content.
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
 
-Interior 8.5 × 11 in. British English throughout. Printed in Portugal on paper from responsibly managed forests.
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

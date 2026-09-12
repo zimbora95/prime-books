@@ -13,42 +13,66 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**ABOUT THIS BOOK**
+**P R I M E S C H O O L P R E S S**
 
-## The Making Studio
+## Art & Design
 
-Art & Design · Year 1 · Student Book. First edition, 2026.
+**Year 1 · Student Book**
 
-Prime Books is the publishing imprint of Prime School, Portugal. www.primeschool.pt
+Every child is an artist. This book just keeps the studio open.
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored
-in a retrieval system or transmitted in any form without the prior written permission of the
-publisher.
+**I N S I D E T H I S B O O K**
 
-**Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department ·**
-Content Creation Team, Prime School, Lisbon.
+Sixteen topics across four units
 
-**Trademark acknowledgements. All product names, trademarks and registered trademarks**
-mentioned in this book are the property of their respective owners and are used for
+Drawing, weaving, printing and painting
+
+A modelled making in every topic
+
+Four projects, and a gallery of your own to
+finish
+
+Original watercolour illustration throughout
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+All product names, trademarks and registered trademarks mentioned in this
+book are the property of their respective owners and are used for
 identification purposes only.
 
-Every activity and illustration here was created for Prime School. Photographs of heritage
-objects come from open-licence sources, credited at the back of this book.
+**SAFETY**
+Safety note: the activities in this book use blunt needles, safety scissors and
+washable paint, and are designed to be done with an adult nearby.
 
-**Editorial and design: Prime Books studio, Lisbon. Illustration: Prime Books studio. Safety**
-**note: the activities in this book use blunt needles, safety scissors and washable paint, and are**
-designed to be done with an adult nearby.
+**TEACHERS**
+There are no printed answers in this book: a child says what they think out
+loud first, then circles, ticks or colours their own choice.
 
-A portfolio at the end of the year, holding a drawing, a weaving and a painting. Everything in this
-book is made to be kept.
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
 
-**A note for the adult reading with me**
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
 
-This book is meant to be used, not kept clean. It will be drawn in, stuck into and
-painted on, and that is the point. Read the instructions aloud together, then stand
-back and leave the choices to the artist. There are no printed answers in this book:
-a child says what they think out loud first, then circles, ticks or colours their own
-choice.
+**www.primeschool.pt**
 
 **2**
 
@@ -3093,5 +3117,3 @@ Original watercolour illustration throughout
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-## 88

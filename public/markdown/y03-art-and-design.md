@@ -13,38 +13,58 @@ Student Manual
 <!-- page 2 -->
 
 ---
+**P R I M E S C H O O L P R E S S**
+
 ## Art & Design
 
-Year 3 · Student Manual
-The Bright Studio
+**Year 3 · Student Book**
 
-A Cambridge Primary student book for Lower Primary. Written
-for pupils of about seven years old who are ready to look
-harder, make longer, and talk about what they have made.
+Welcome to the Bright Studio.
 
-Four tables in one bright studio: drawing, mosaic, painting and
-structure. Rufus the fox and Bruno the bear work beside you.
+**I N S I D E T H I S B O O K**
 
-**Prime Books · Prime School International**
-www.primeschool.pt
+Twenty topics across four units
 
-**Art & Design, Year 3 · Student Manual**
-First edition, 2026
+Colour, print, texture and form
 
-© Prime School 2026. All rights reserved. No part of this book may be reproduced or transmitted in any form without
-the written permission of the publisher, except that a school which has bought this book may photocopy a pupil
-page for use within its own classes.
+A modelled making in every topic
 
-**Editorial Board: Pedagogical Academic Group, Prime School International. Written, illustrated and produced in**
-house.
+A gallery of your own to finish
 
-Interior 8.5 × 11 in on white stock. British English throughout. Printed so that pencil, crayon and glue can work on
-the page.
+Original watercolour illustration throughout
 
-This book is meant to be used. Draw in it. Stick tiles in it. Get a little paint on it.
+**I M P R I N T**
 
-Safety: activities use washable paint, blunt tools and card. Cutting and any clay work need an adult nearby. Teachers follow their
-school safety policy.
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**SAFETY**
+Safety: activities use washable paint, blunt tools and card. Cutting and any
+clay work need an adult nearby. Teachers follow their school safety policy.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 7 t o 8 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

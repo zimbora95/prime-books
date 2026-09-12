@@ -13,73 +13,73 @@ Student Manual
 <!-- page 2 -->
 
 ---
-PRIME BOOKS
+**P R I M E S C H O O L P R E S S**
 
-an imprint of Prime School
+## Computing & Robotics
 
-Computing & Robotics
+**Year 2 · Student Book**
 
-Year 2 · Cambridge Early Years · Student Manual
+A robot does exactly what you say. Not what you meant.
 
-First published 2026 by Prime Books, the publishing imprint of Prime School, Rua Prime,
-**Portugal. © Prime School 2026. All rights reserved.**
+**I N S I D E T H I S B O O K**
 
-The moral rights of the authors have been asserted. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any means without
-the prior written permission of Prime School, except that a school which has purchased this
-book may photocopy the pages marked as worksheets for use with its own pupils.
+All 31 Computing Year 2 topics, in five units
 
-**An independent publication. This book is original Prime School material, written and**
-illustrated for Prime School by its own teaching staff. It is designed to support the teaching of
-**Computing and Robotics in Lower Primary. It is not an official Cambridge Assessment**
-International Education publication, it is not endorsed by, affiliated with or approved by
-Cambridge Assessment International Education, and it is not published by Oxford University
-Press, Cambridge University Press or any other educational publisher.
+Predict, run and compare on every unit
 
-**Trademark acknowledgements. Cambridge Early Years and Cambridge International are**
-trademarks of Cambridge Assessment International Education. ScratchJr is a project of the
-Lifelong Kindergarten Group at the MIT Media Lab, the DevTech Research Group at Tufts
-University and the Playful Invention Company. Scratch is a project of the Scratch Foundation.
-All other product and company names mentioned in this book are the trademarks or registered
-trademarks of their respective owners. Their use here is for identification and educational
-description only and does not imply any endorsement of this publication by them, or of them by
-Prime School.
+Real bug hunts, with the fix never printed
 
-**Illustration. The cover painting and the interior artwork were produced for Prime School and**
-are copyright Prime School 2026.
+Five projects along the way, and one big one
+at the end
 
-**A note on the internet addresses in this book. Every QR code and web address printed here**
-was checked and reachable at the date of publication, and each one is printed in readable
-words as well as in code so the page still works with no device at all. Prime School is not
-responsible for the content of any site it does not itself publish. An adult should look at a page
-before a child does.
+Three term checks, and a glossary of every
+word
 
-**Safety. The activities in this book were written to be done in a classroom with a teacher**
-present. No activity asks a pupil to enter personal information, to install anything, or to contact
-anybody outside the class.
+**I M P R I N T**
 
-TITLE
-Computing & Robotics, Year 2,
-Student Manual
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-PROGRAMME
-Cambridge Early Years, Lower
-Primary
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-AGES
-6–7
-EDITION
-First edition, 2026
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any means
+without the prior written permission of the publisher.
 
-ISBN
-978-989-33-7420-7
-LANGUAGE
-British English
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written, illustrated and typeset in the Prime
+School Press studio, Lisbon.
 
-PRINTED
-on paper from responsible sources
+**TRADEMARKS**
+Cambridge Early Years and Cambridge International are trademarks of Cambridge
+Assessment International Education. ScratchJr is a project of the Lifelong
+Kindergarten Group at the MIT Media Lab, the DevTech Research Group at Tufts
+University and the Playful Invention Company. Scratch is a project of the Scratch
+Foundation.
 
-PRIME BOOKS · PRIME SCHOOL · PRIMESCHOOL.PT
+**LICENCE**
+It is not an official Cambridge Assessment International Education publication, it is
+not endorsed by, affiliated with or approved by Cambridge Assessment International
+Education, and it is not published by Oxford University Press, Cambridge University
+Press or any other educational publisher.
+
+**TEACHERS**
+The activities in this book were written to be done in a classroom with a teacher
+present.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 6 t o 7 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

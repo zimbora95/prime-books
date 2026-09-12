@@ -13,44 +13,54 @@ Student Manual
 <!-- page 2 -->
 
 ---
-## Global Perspectives · Year 3
+**P R I M E S C H O O L P R E S S**
 
-Student Book · The Shared Garden · Ages 7-8 · Cambridge Primary
+## Global Perspectives
 
-## Ask. Listen. Compare. Act.
+**Year 3 · Student Book**
 
-## About this book
+Ask. Listen. Compare. Act.
 
-Global Perspectives, Year 3, Student Book. Part of the Prime Books Subject Series
-for Cambridge Primary.
+**I N S I D E T H I S B O O K**
 
-This book is set in a shared garden. Six neighbours work one patch of ground
-together: they plant, they argue gently about where the beans should go, they
-notice what the others are doing, and they find out that a job looks different
-depending on which end of the watering can you are holding. That is the whole
-subject in one picture.
+Ask, listen, compare, act, in every unit
 
-Across six units you will look at play, at what people need, at screens, at talking
-and listening, at how things and people travel, and at families and celebrations.
-## Each time you will do the same four things: ask, listen, compare, act.
+A real question for a real person, safely
 
-## Imprint
+One project per unit, marked on the thinking
 
-Global Perspectives · Year 3 · Student Book
+Sources and figures logged, not guessed
 
-Prime Books · an imprint of Prime School · www.primeschool.pt
+A letter that really gets sent in Unit 5
 
-First edition, 2026.
+**I M P R I N T**
 
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
 © Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form without the
-prior written permission of Prime School.
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
 
-Written and produced in Portugal. British English throughout. Metric units, euros
-and the 24 hour clock are used, as they are in Portuguese schools.
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
 
-Cover and interior illustration produced through the Prime Books image pipeline.
-The Prime School logo is composited from the official master artwork.
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 7 t o 8 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

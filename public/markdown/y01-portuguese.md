@@ -15,20 +15,15 @@ Student Manual
 ---
 **P R I M E S C H O O L P R E S S**
 
-## Português
+## Portuguese
 
-**Year 1 · Primeira Língua · Student Book**
+**Year 1 · Student Book**
 
-Português, primeiro.
+Português, primeiro. Palavras primeiro, também.
 
-A primeira língua aprende-se a ouvir, a dizer e a brincar. Este livro acompanha
-as primeiras letras, as primeiras palavras e as primeiras histórias, sempre em
-português de Portugal.
+**I N S I D E T H I S B O O K**
 
-**N E S T E L I V R O**
-
-Primeiras letras e primeiras
-palavras
+Primeiras letras e primeiras palavras
 
 Ouvir, dizer, ler e brincar
 
@@ -36,18 +31,32 @@ Uma história em cada unidade
 
 Ilustração original em aguarela
 
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
 Prime School Press is the publishing imprint of Prime School, Portugal.
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a
-retrieval system or transmitted in any form or by any means without the prior written permission of
-the publisher.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
 
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content
-Creation Team.
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
 
-**www.primeschool.pt**
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
 
 **A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
 
 **2**
 

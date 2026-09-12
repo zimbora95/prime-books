@@ -8,40 +8,67 @@
 
 ## Year 1
 
-Cambridge Early Years
 Student Manual
 
 <!-- page 2 -->
 
 ---
-PRIME BOOKS
+**P R I M E S C H O O L P R E S S**
 
-Music & Acting
+## Music & Drama
 
-**Songs and rhymes. Every song printed in full in this book is a traditional work whose text is out**
-of copyright, transcribed from the source recorded beside it rather than from any modern
-collection. Songs still in copyright are named for the teacher's reference and are not
-reproduced. The publisher has made every reasonable effort to establish the provenance of
-each text and welcomes any correction.
+**Year 1 · Student Book**
 
-Prime School Press
+A whole year in the Hedgerow Theatre.
 
-First published 2026 by Prime Books, the publishing imprint of Prime School, Portugal.
-Copyright © Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any means, electronic,
-mechanical, photocopying, recording or otherwise, without the prior written permission of the
-publisher, except that a school which has purchased this book may photocopy the writing
-frames for use with its own pupils.
+**I N S I D E T H I S B O O K**
 
-An independent publication. This book is written, illustrated and published independently by
-Prime School. It is not endorsed by, affiliated with, sponsored by or otherwise connected to
-any examination board, curriculum body or publisher. Where this book refers to a curriculum
-framework it does so for the guidance of teachers only, and no approval of any kind is
-claimed or implied.
+Twenty-five topics across five units
 
-Trademarks. All product and company names mentioned are the trademarks or registered
-trademarks of their respective owners. Their use in this book is for identification and
-educational reference only, and does not imply any endorsement.
+Eleven traditional songs printed in full
+
+Voice, singing, listening and composing
+
+A big show to finish the year
+
+Every song's words free to sing
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+All product and company names mentioned are the trademarks or
+registered trademarks of their respective owners.
+
+**LICENCE**
+It is not endorsed by, affiliated with, sponsored by or otherwise connected
+to any examination board, curriculum body or publisher.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 
@@ -8268,9 +8295,11 @@ curriculum Key Stage 1 music programme of study. Each topic's outcomes are
 <!-- page 198 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Music & Drama
+
+Year 1 · Prime School Press · Student Manual
 
 A whole year in the Hedgerow Theatre.
 
@@ -8301,10 +8330,8 @@ A big show to finish the year
 •
 Every song's words free to sing
 
-**Prime Books · Music & Drama**
+**Prime School Press · Music & Drama**
 
 Ages 5–6 · Lower Primary
 
 **primeschool.pt**
-
-Year 1 · Prime School Press · Student Manual

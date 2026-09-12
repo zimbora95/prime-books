@@ -19,56 +19,56 @@ Student Manual
 
 **Year 1 · Student Book**
 
-**A B O U T T H I S P U B L I C A T I O N**
+Run, jump, throw, and know why it worked.
 
-This book was written and produced by
-Prime School for use within its own
-programmes of study.
+**I N S I D E T H I S B O O K**
 
-Every comparison in this book asks a pupil
-to look at their own earlier attempt. No task
-ranks one pupil against another, and
-teachers adapt distances and timings freely.
+Every Early Years movement skill, in units
 
-**S A F E T Y**
+The rule of the game, printed every time
 
-Every task assumes a teacher present, a
-space checked before the lesson, and
-apparatus set out by an adult. The teacher
-carries out their own risk assessment and
-follows the school safety policy. Where a
-task carries a particular risk, the book says
-so in a Safety first panel.
+A decision to make on every topic
 
-British English throughout. Printed in Portugal on paper from responsibly managed forests.
+Named jobs, so everybody has one
 
-Student Book. First edition, 2026.
+A festival of games to finish the year
 
-Prime School Press is the publishing imprint
-of Prime School, Portugal.
+**I M P R I N T**
 
-www.primeschool.pt
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-© Prime School 2026. All rights reserved.
-No part of this publication may be
-reproduced, stored in a retrieval system or
-transmitted in any form or by any means
-without the prior written permission of the
-publisher.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Editorial Board. Pedagogical Academic
-Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
 
-Independent publication. This is an
-independent publication produced by Prime
-School for use within its own programmes
-of study. It is not affiliated with, licensed
-by, endorsed by or approved by any
-examination board, or by any other
-publisher.
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**SAFETY**
+The teacher carries out their own risk assessment and follows the school
+safety policy. Where a task carries a particular risk, the book says so in a
+Safety first panel.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
 
 **www.primeschool.pt**
+
 **2**
 
 <!-- page 3 -->

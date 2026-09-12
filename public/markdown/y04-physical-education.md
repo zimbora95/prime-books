@@ -13,48 +13,67 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Physical Education
+**P R I M E S C H O O L P R E S S**
 
-Year 4 · Student Manual
-The Sports Day Field
+## Physical Education
 
-A student book for Lower Primary, written for pupils of about
-eight to nine years old. Year 1 played in the meadow. Year 2
-played on a marked court. Year 3 worked on one measured lane,
-refining a single movement. This year the whole field is open,
-four events run at once, and you have to keep everything you
-can already do while other people are moving.
+**Year 4 · Student Book**
 
-Six parts of one field: the Grass Lanes, the Judges’ Table, the
-Open Field, the Team Enclosure, the Kit Marquee and the Finish
-Field. Pip, Bramble, Sorrel, Tuft, Willow and Rowan are all here
-again, a year older, and this year they are not alone on the grass.
+Adapted is not a lesser version. It is the same lesson.
 
-FOUR JOBS, AND YOU WILL DO ALL OF THEM
+**I N S I D E T H I S B O O K**
 
-Mover
+Four families: run, jump, throw and cross
 
-Does the movement,
-properly.
+Distances, heights and timings all adjustable
 
-Timer
+The rule of the game, printed on every topic
 
-Counts, and says the
-real number.
+A decision to make, with no answer printed
 
-Watcher
+Stay safe panels, written to the pupil
 
-Looks at one thing,
-and says what they
-saw.
+**I M P R I N T**
 
-Setter
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Lays the ground out,
-and changes it.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Last year you found out how good one movement could get. This year you
-find out how many of them you can keep.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+All product names, trademarks and registered trademarks named in this book
+are the property of their respective owners and are used for identification
+and educational comment only.
+
+**LICENCE**
+It is not affiliated with, licensed by or endorsed by any examination board or
+awarding body.
+
+**SAFETY**
+Teachers carry out their own risk assessment and follow their school safety
+policy.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

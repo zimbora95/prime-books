@@ -17,42 +17,53 @@ Student Manual
 
 ## Spanish
 
-**Year 1 · B1 and B2 · Student Manual**
+**Year 1 · B1 and B2 · Student Book**
 
 Ahora el español es tuyo.
 
-## 01
-**T H E P U B L I C A T I O N**
+**I N S I D E T H I S B O O K**
 
+B1 and B2 of the Common European
+Framework
+
+Real texts: letters, news, poems and songs
+
+Grammar in context, never as a list
+
+Discussion and presentation practice
+
+Original watercolour illustration throughout
+
+**I M P R I N T**
+
+**EDITION**
 First edition, 2026. Printed in full colour on white stock.
 
+**PUBLISHER**
 Prime School Press is the publishing imprint of Prime School, Portugal.
 
-## 02
-**R I G H T S A N D P E R M I S S I O N S**
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced,
-stored in a retrieval system or transmitted in any form or by any means without the prior
-written permission of the publisher.
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
 
-## 03
-**C R E D I T S A N D C O N T A C T**
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
 
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department ·
-Content Creation Team.
-
-Text, design and illustration made in the Prime School Press studio, Lisbon. Original
-watercolour illustration produced for Prime School. www.primeschool.pt
-
-**P R I M E S C H O O L P R E S S**
-
-Independent publication. This is an independent publication produced by Prime
-School for use within its own programmes of study. It is not affiliated with, licensed
-by, endorsed by or approved by any examination board, or by any other publisher.
-
-**www.primeschool.pt**
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
 
 **A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
 
 **2**
 

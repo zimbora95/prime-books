@@ -13,35 +13,54 @@ Student Manual
 <!-- page 2 -->
 
 ---
-PRIME SCHOOL PRESS · YEAR 4 PORTUGUESE
+**P R I M E S C H O O L P R E S S**
+
+## Portuguese
+
+**Year 4 · Student Book**
+
+Este é o teu livro de Português.
+
+**I N S I D E T H I S B O O K**
+
+Leitura, escrita e fala em todas as unidades
+
+Gramática e ortografia em contexto
+
+Um texto longo em cada unidade
+
+Oficinas de escrita guiadas
+
+Ilustração original em aguarela
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
 **2**
-
-Prime School Press
-
-## Prime School Press · Portuguese 1st · Year 4 · Student Book
-
-Publisher: Prime School Press, imprint of Prime School ·
-www.primeschool.pt
-
-Edition: First edition, 2026
-
-European Portuguese (pupil pages) · Manual de leitura · © Prime
-School 2026. All rights reserved.
-
-As actividades com linhas estão no Caderno de Actividades (workbook).
-
-**EDITORIAL BOARD**
-
-The Prime Books Subject Series has been developed under the
-guidance of the Pedagogical Academic Group for each subject and
-coordinated by the Pedagogical Team of Prime School. This
-publication reflects our shared commitment to academic excellence,
-educational quality, professional integrity, and the continuous
-advancement of teaching and learning.
-
-Independent publication of Prime School.
-
-Prime School Press · www.primeschool.pt
 
 <!-- page 3 -->
 

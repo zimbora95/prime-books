@@ -13,37 +13,68 @@ Student Manual
 <!-- page 2 -->
 
 ---
-ABOUT THIS BOOK
+**P R I M E S C H O O L P R E S S**
 
-Beep, Think, Go!
+## Computing & Robotics
 
-The furniture of the yard: a power plate, an instruction card, a coil of cable, green tape, a brass
-dial, a stop sign and a ladybird.
+**Year 1 · Student Book**
 
-Computing & Robotics · Year 1 · Student Book. First edition, 2026.
+A robot does exactly what you say. Not what you meant.
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored
-in a retrieval system or transmitted in any form or by any means without the prior written
+**I N S I D E T H I S B O O K**
 
-**Trademark acknowledgements. Scratch is a project of the Scratch Foundation, in**
-collaboration with the Lifelong Kindergarten group at the MIT Media Lab, and is available free
-at scratch.mit.edu. Scratch and the Scratch logo are trademarks of the Scratch Team. This
-book is not endorsed by or affiliated with the Scratch Foundation or MIT. All other product
-names, trademarks and registered trademarks named in this book are the property of their
-respective owners and are used for identification purposes only.
+Every Year 1 computing topic, in five units
 
-BEEP, THINK, GO!
-## 2
+Predict, run and compare on every unit
 
-Prime School Press is the publishing imprint of Prime School, Portugal. www.primeschool.pt
+Real bug hunts, with the fix never printed
 
-**Independent publication notice. This is an independent publication produced by Prime School**
-for use within its own programmes of study. It is not affiliated with, licensed by, endorsed by or
-approved by any examination body, or by any other publisher. References to curriculum
-frameworks represent the interpretation of the authors and may not fully reflect the
-approach of any awarding body.
+Projects along the way, and one big one at the
+end
 
-permission of the publisher.
+QR codes, each printed in words as well
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+Scratch is a project of the Scratch Foundation, in collaboration with the
+Lifelong Kindergarten group at the MIT Media Lab, and is available free at
+scratch.mit.edu. Scratch and the Scratch logo are trademarks of the
+Scratch Team. This book is not endorsed by or affiliated with the Scratch
+Foundation or MIT.
+
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or approved by any
+examination body, or by any other publisher. References to curriculum
+frameworks represent the interpretation of the authors and may not fully
+reflect the approach of any awarding body.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

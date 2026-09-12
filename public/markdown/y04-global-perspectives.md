@@ -13,23 +13,54 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Global Perspectives · Year 4
+**P R I M E S C H O O L P R E S S**
 
-Student Book · Look Outwards · Ages 8-9 · Lower Primary
+## Global Perspectives
 
-Ask. Listen. Compare. Act with care.
+**Year 4 · Student Book**
 
-About this book
+One world, five units, thirty careful questions.
 
-Prime Books · Global Perspectives · Year 4 Student Book · Look Outwards Ages
-8-9 · Lower Primary · First edition 2026
+**I N S I D E T H I S B O O K**
 
-This book invites you to look out from your classroom: at schools, conversations,
-moves, work and the digital world. You will ask, listen, compare and act with
-care.
+Five units, thirty topics
 
-Prime Books is the publishing imprint of Prime School, Portugal.
-www.primeschool.pt
+Research, debate, reflect and act
+
+Sources logged, never guessed
+
+A team project in every unit
+
+Original watercolour illustration throughout
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

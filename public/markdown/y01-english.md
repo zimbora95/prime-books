@@ -13,48 +13,68 @@ Student Manual
 <!-- page 2 -->
 
 ---
-ABOUT THIS BOOK
-My First English Book
+**P R I M E S C H O O L P R E S S**
 
-English · Year 1 · Student Book. First edition, 2026.
+## English
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored
-in a retrieval system or transmitted in any form or by any means without the prior written
-permission of the publisher.
+**Year 1 · Student Book**
 
-**Independent publication notice. This is an independent publication produced by Prime School**
+A word a day is nine stops along the way.
 
-**Trademark acknowledgements. All product names, trademarks and registered trademarks**
-named in this book are the property of their respective owners and are used for identification
-purposes only.
+**I N S I D E T H I S B O O K**
 
-Every story, rhyme, character, fact file and illustration in this book was written and drawn for
-Prime School. Any resemblance to real people, or to other published works, is coincidental. The
-**two traditional tales retold here, The Little Round Bun and Anansi and Tortoise, are new**
-retellings in our own words of folk stories that belong to everybody.
+Nine stops along the reading railway
 
-✎For teachers
+Every new word met nine times, then used
 
-This book is meant to be written in. Pupils will trace, circle, tick and draw on
-these pages, and that is the point.
+Reading, writing, speaking and listening
+together
 
-**There are no printed answers anywhere in this book. Let students say what**
-they think out loud first, then choose, circle or write. Read every instruction
-aloud together before pupils begin.
+A story to share in every unit
 
-**Every new word is printed with its own picture, so a child who cannot yet read**
-the word can still read the page.
+Original watercolour illustration throughout
 
-MY FIRST ENGLISH BOOK
+**I M P R I N T**
 
-Prime School Press is the publishing imprint of Prime School, Portugal. www.primeschool.pt
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Editorial and design: Prime School Press studio, Lisbon. Illustration: Prime School Press studio. Series:
-Prime School Press, Year 1, Ages 5 to 6.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-for use within its own programmes of study. It is not affiliated with, licensed by, endorsed by or
-otherwise approved by any examination body, or by any other publisher. References to curriculum
-frameworks represent the interpretation of the authors and may not fully reflect the approach of
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by
+any means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+All product names, trademarks and registered trademarks named in this
+book are the property of their respective owners and are used for
+identification purposes only.
+
+**LICENCE**
+It is not affiliated with, licensed by, endorsed by or otherwise approved by
+any examination body, or by any other publisher.
+
+**TEACHERS**
+This book is meant to be written in. There are no printed answers anywhere
+in this book. Read every instruction aloud together before pupils begin.
+
+Independent publication. This is an independent publication produced by
+Prime School for use within its own programmes of study. It is not affiliated
+with, licensed by, endorsed by or approved by any examination board, or by
+any other publisher.
+
+**A g e s 5 t o 6 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

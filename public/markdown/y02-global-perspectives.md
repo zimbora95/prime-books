@@ -13,52 +13,57 @@ Student Manual
 <!-- page 2 -->
 
 ---
-## The Field Notebook
+**P R I M E S C H O O L P R E S S**
 
-**The Field Notebook: Global Perspectives, Year 2, Student Book**
+## Global Perspectives
 
-First edition, published 2026 by Prime Books, the publishing imprint of Prime School, Lisbon, Portugal.
-www.primeschool.pt
+**Year 2 · Student Book**
 
-Text, illustration, diagrams, page design and typography © Prime School 2026. All rights reserved.
+The Field Notebook. Look outwards.
 
-**EDITORIAL BOARD**
+**I N S I D E T H I S B O O K**
 
-The Prime Books Subject Series is developed under the guidance of the Pedagogical Academic Group for each
-subject and coordinated by the Pedagogical Team of Prime School. This publication reflects our shared
-commitment to academic quality, professional integrity and the continuous advancement of teaching and
-learning.
+The four thinking steps in every unit
 
-**RIGHTS AND PERMISSIONS**
+Field notes to write in every week
 
-No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of Prime School, with these exceptions: a school that has bought
-copies of this book may photocopy the pages marked as making space for use with its own pupils, and any
-person may quote short passages for review, criticism or teaching, with acknowledgement.
+Real places, real people, real questions
 
-This book is meant to be written in. The making spaces, the ruled lines and the field notes pages belong to the
-pupil whose name is on the field licence. Writing in them is the point of them.
+A project in every unit
 
-**SOURCES, LINKS AND QR CODES**
+Original watercolour illustration throughout
 
-Every factual statement in this book is traced to a published source, and those sources are listed in Where we
-found out at the back. Every QR code was scanned, followed and checked on 3 August 2026, and every
-destination is printed in full in Every QR code in this book, so the book still works with no device at all. Prime
-School does not control those websites and is not responsible for their content, which may change. An adult
-opens every code before a child follows it.
-
-**ABOUT THE ILLUSTRATION**
-
-The cover painting and the interior watercolours were made for this book. Diagrams, maps and charts are drawn
-as vector artwork, so every label in them is real type and not part of a picture.
+**I M P R I N T**
 
 **EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-First edition, 2026. British English throughout. Metric measures. Euros where money appears.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Printed on paper from responsibly managed forests.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
 
-Bram checks everything twice. So did we.
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TEACHERS**
+This book is meant to be written in.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 6 t o 7 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 

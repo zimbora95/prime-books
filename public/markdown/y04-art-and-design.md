@@ -13,54 +13,66 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Art & Design
+**P R I M E S C H O O L P R E S S**
 
-Year 4 · Student Manual
-The Wall Studio
+## Art & Design
 
-A student book for Lower Primary, written for pupils of about eight to nine
-years old. It teaches four kinds of making and one habit that runs through
-all of them: look closely, decide what the work is for, and then make it well.
+**Year 4 · Student Book**
 
-Four tables in one studio: printing, painting, drawing with perspective and
-building in three dimensions. Rufus the fox plans every print before the
-stamp goes down; Bruno the bear mixes colour slowly and paints the big
-shapes first. Work beside them through twenty topics and finish by
-curating the Studio show.
+Look closely. Then make something of what you saw.
 
-Art & Design · Year 4
-Student Manual. First edition, 2026.
+**I N S I D E T H I S B O O K**
 
-Prime Books is the publishing imprint of Prime School, Portugal.
-www.primeschool.pt
+Twenty topics across four units
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system
-or transmitted in any form or by any means without the prior written permission of the publisher.
+Weaving, sculpture, print and paint
 
-Independent publication. This book was written and produced by Prime School International for use within its own
-programmes of study. It is not affiliated with, licensed by or endorsed by any
-examination board or awarding body. References to curriculum frameworks represent
-the interpretation of the authors.
+A modelled making in every topic
 
-Trademark acknowledgements. All product names, trademarks and registered trademarks named in this book are
-the property of their respective owners and are used for identification and
-educational comment only. No endorsement is implied and none should be
-inferred.
+An exhibition of your own to curate
 
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content Creation
-Team.
+Original watercolour illustration throughout
 
-Text, design and illustration. Written and designed by the Prime Books editorial studio. Original watercolour
-illustration produced for Prime School. All illustrations © Prime School 2026.
+**I M P R I N T**
 
-Illustration note. The illustrations in this book were created with the assistance of generative artificial intelligence
-as part of the creative production process. All text was written, edited and checked by our subject
-authors and teachers.
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
 
-Safety. The activities in this book are written for pupils aged eight to nine working with a teacher nearby. Cutting, and any
-clay or tool work, needs an adult. Teachers follow their own risk assessment and school safety policy.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Interior 8.5 × 11 in. British English throughout. Printed in Portugal on paper from responsibly managed forests.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
+Pedagogical Department · Content Creation Team. Written, illustrated and
+typeset in the Prime School Press studio, Lisbon.
+
+**TRADEMARKS**
+All product names, trademarks and registered trademarks named in this book
+are the property of their respective owners and are used for identification
+and educational comment only.
+
+**LICENCE**
+It is not affiliated with, licensed by or endorsed by any examination board or
+awarding body.
+
+**SAFETY**
+Teachers follow their own risk assessment and school safety policy.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any
+other publisher.
+
+**A g e s 8 t o 9 · L o w e r P r i m a r y**
+
+**www.primeschool.pt**
+
+**2**
 
 <!-- page 3 -->
 
