@@ -1049,9 +1049,19 @@ def _toc_col_w():
     return (CW - 20) / 2
 
 
-TOC_ROW = 14.6
-TOC_SUB = 9.8
-TOC_ITEM = 12.4
+# Card metrics. The last topic row must never sit on the card's bottom edge:
+# TOC_PAD_BOT is the clear air below the last baseline, descender included.
+TOC_ROW = 12.8          # plain front/back matter row pitch
+TOC_LABEL_Y = 12.5      # "UNIT n" baseline
+TOC_PAGE_Y = 15.0       # unit page-number baseline
+TOC_NAME_Y = 24.0       # unit name baseline
+TOC_SUB = 9.8           # strand summary leading
+TOC_SUB_TOP = 33.0      # first strand line baseline
+TOC_SUB_GAP = 4.0       # air between the summary and the first topic
+TOC_ITEM = 12.2         # topic leading
+TOC_ITEM_LEAD = 9.5     # baseline offset inside a topic row
+TOC_PAD_BOT = 14.0      # clear air below the last topic baseline
+TOC_GAP = 10.0          # air between two group cards           # air between two group cards
 
 
 def _toc_group_h(g, col_w=None):
@@ -1059,33 +1069,38 @@ def _toc_group_h(g, col_w=None):
     if g["kind"] == "rows":
         return len(g["items"]) * TOC_ROW
     sub, _t = autowrap([(g["sub"], "A")], col_w - 22, 9.4)
-    return 42.0 + max(2, len(sub)) * TOC_SUB + len(g["items"]) * TOC_ITEM
+    n = len(g["items"])
+    return (TOC_SUB_TOP + max(2, len(sub)) * TOC_SUB + TOC_SUB_GAP
+            + (n - 1) * TOC_ITEM + TOC_ITEM_LEAD + TOC_PAD_BOT)
 
 
 def _toc_split(groups, avail):
     """Cut the groups into two columns whose heights are as close as possible."""
     col_w = _toc_col_w()
     hs = [_toc_group_h(g, col_w) for g in groups]
-    total = sum(hs) + 4.0 * (len(groups) - 1)
-    best, bi = None, 1
+    total = sum(hs) + TOC_GAP * (len(groups) - 1)
+    best, bi, best_over = None, 1, None
     for k in range(1, len(groups)):
-        h0 = sum(hs[:k]) + 4.0 * (k - 1)
+        h0 = sum(hs[:k]) + TOC_GAP * (k - 1)
         h1 = total - h0
-        if h0 > avail or h1 > avail:
-            continue
-        d = abs(h0 - h1)
-        if best is None or d < best:
-            best, bi = d, k
+        over = max(h0, h1) - avail
+        if over <= 0:                       # fits: prefer the best balance
+            d = abs(h0 - h1)
+            if best is None or d < best:
+                best, bi = d, k
+        elif best is None:                  # nothing fits: least overspill
+            if best_over is None or over < best_over:
+                best_over, bi = over, k
     return groups[:bi], groups[bi:]
 
 
 def _toc_row(pg, x, yy, w, label, num, ink, mut, line, size=10.4):
-    draw(pg, x, yy + 10.5, label, "A", size, ink)
-    draw_r(pg, x + w, yy + 10.5, str(num), "F", size, mut)
+    draw(pg, x, yy + 10.0, label, "A", size, ink)
+    draw_r(pg, x + w, yy + 10.0, str(num), "F", size, mut)
     lw, nw = tw(label, "A", size), tw(str(num), "F", size)
     d, end = x + lw + 5, x + w - nw - 5
     while d < end:
-        pg.draw_circle((d, yy + 7.8), 0.5, color=line, fill=line)
+        pg.draw_circle((d, yy + 7.3), 0.5, color=line, fill=line)
         d += 4.4
 
 
@@ -1094,25 +1109,26 @@ def _toc_unit(pg, x, yy, w, g):
     pad = 11.0
     sub, _t = autowrap([(g["sub"], "A")], w - 2 * pad, 9.4)
     h = _toc_group_h(g, w)
-    box = pymupdf.Rect(x, yy, x + w, yy + h - 8)
+    box = pymupdf.Rect(x, yy, x + w, yy + h)
     rrect(pg, box, 9, fill=th["tint"], stroke=th["line"], width=0.9)
-    draw(pg, x + pad, yy + 12.5, "UNIT %d" % g["n"], "F", 8.4, th["mid"], track=0.9)
-    draw_r(pg, x + w - pad, yy + 15.0, str(g["page"]), "F", 13.0, th["mid"])
+    draw(pg, x + pad, yy + TOC_LABEL_Y, "UNIT %d" % g["n"], "F", 8.4, th["mid"],
+         track=0.9)
+    draw_r(pg, x + w - pad, yy + TOC_PAGE_Y, str(g["page"]), "F", 13.0, th["mid"])
     name = g["name"]
-    draw(pg, x + pad, yy + 26.0, name, "F",
+    draw(pg, x + pad, yy + TOC_NAME_Y, name, "F",
          fit_size(name, "F", 13.5, w - 2 * pad - 34, floor=10.5), th["deep"])
-    yn = yy + 36.0
+    yn = yy + TOC_SUB_TOP
     for ln in sub:
         draw(pg, x + pad, yn, " ".join(t for t, _ in ln), "A", 9.4, th["mid"])
         yn += TOC_SUB
-    yn += 2.0
+    yn += TOC_SUB_GAP
     for label, num in g["items"]:
-        draw(pg, x + pad, yn + 9.5, label, "A", 9.8, TH["ink"])
-        draw_r(pg, x + w - pad, yn + 9.5, str(num), "F", 9.8, th["mid"])
+        draw(pg, x + pad, yn + TOC_ITEM_LEAD, label, "A", 9.8, TH["ink"])
+        draw_r(pg, x + w - pad, yn + TOC_ITEM_LEAD, str(num), "F", 9.8, th["mid"])
         lw, nw = tw(label, "A", 9.8), tw(str(num), "F", 9.8)
         d, end = x + pad + lw + 4, x + w - pad - nw - 4
         while d < end:
-            pg.draw_circle((d, yn + 6.9), 0.45, color=th["line"], fill=th["line"])
+            pg.draw_circle((d, yn + 6.3), 0.45, color=th["line"], fill=th["line"])
             d += 4.2
         yn += TOC_ITEM
     return box.y1
@@ -1133,10 +1149,10 @@ def d_toc(pg, y, b):
             rrect(pg, r, 2.5, fill=theme_for(i + 1)["mid"])
         else:
             pg.draw_rect(r, color=None, fill=theme_for(i + 1)["mid"])
-    y += 20.0
+    y += 18.0
     if b.get("lead"):
         draw(pg, ML, y + 7.5, b["lead"], "A", 11.0, TH["sub"])
-        y += 15.0
+        y += 14.0
     split = _toc_split(groups, BOT - y)
     bottom = y
     for c in range(2):
@@ -1149,7 +1165,7 @@ def d_toc(pg, y, b):
                              TH["line"])
                     yy += TOC_ROW
             else:
-                yy = _toc_unit(pg, x, yy, col_w, g) + 7.0
+                yy = _toc_unit(pg, x, yy, col_w, g) + TOC_GAP
         bottom = max(bottom, yy - 8.0)
     return bottom + 8
 
@@ -1202,15 +1218,15 @@ def d_reflist(pg, y, b):
 def h_toc(b):
     col_w = _toc_col_w()
     split = _toc_split(b["groups"], BOT - TOP)
-    h = 20.0 + (15.0 if b.get("lead") else 0.0)
+    h = 18.0 + (14.0 if b.get("lead") else 0.0)
     for c in range(2):
         ch = 0.0
         for g in split[c]:
             if g["kind"] == "rows":
                 ch += len(g["items"]) * TOC_ROW
             else:
-                ch += _toc_group_h(g, col_w) + 7.0
-        h = max(h, 20.0 + ch)
+                ch += _toc_group_h(g, col_w) + TOC_GAP
+        h = max(h, 18.0 + ch)
     return h + 10.0
 
 
