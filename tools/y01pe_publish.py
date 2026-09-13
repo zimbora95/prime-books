@@ -10,12 +10,12 @@ OUT = "/tmp/y01pe_publish.pdf"
 
 new = pymupdf.open(NEW)
 old = pymupdf.open(MASTER)
-assert new.page_count == 71 + 1, new.page_count
-assert old.page_count == 68, old.page_count
+assert new.page_count == 72, new.page_count
+assert old.page_count == 72, old.page_count
 
 # cover untouched, imprint untouched, back cover untouched
 assert "Physical Education" in new[0].get_text()
-assert "I M P R I N T" in new[1].get_text().upper() or "IMPRINT" in new[1].get_text().upper()
+assert "IMPRINT" in new[1].get_text().upper()
 assert "P R I M E  S C H O O L  P R E S S" in new[new.page_count - 1].get_text()
 
 for i in range(2, new.page_count - 1):

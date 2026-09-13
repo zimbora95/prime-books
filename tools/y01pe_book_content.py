@@ -99,12 +99,38 @@ def cap(label, text):
 
 
 # ============================================================== the pages ===
+def _unit_of(spec):
+    """Which unit a page belongs to; 0 is front matter, back matter and contents."""
+    if spec and spec.get("num"):
+        return spec["num"]
+    hl_ = (spec or {}).get("hl", "")
+    if hl_.startswith("Unit "):
+        try:
+            return int(hl_.split()[1])
+        except ValueError:
+            return 0
+    return 0
+
+
+# Short strand line for each unit's card on the contents page. Written from the
+# topic list; it adds no new teaching, it only names what the unit already holds.
+UNIT_SUB = {
+    1: "Moving well: space, walking, running, stopping, hopping and skipping.",
+    2: "Understanding movement: words for a body, watching, copying, one simple rule.",
+    3: "Moving creatively: new shapes, what the kit suggests, answering with a body.",
+    4: "Taking part: joining in, jobs in a small game, your own goal, a turn at leading.",
+    5: "Taking responsibility: sharing, carrying kit, fair play, asking for help, kind words.",
+    6: "Healthy bodies: what changes when you move, how hard is hard enough, food and water.",
+}
+
+
 def build_pages():
-    pages, toc = [], []
+    pages, toc = [], [("Welcome", 3, 1)]
 
     def add(kind, spec, folio, toc_entry=None):
-        n = 3 + len(pages)
-        pages.append(dict(kind=kind, spec=spec, folio=folio, num=n))
+        n = 4 + len(pages)
+        pages.append(dict(kind=kind, spec=spec, folio=folio, num=n,
+                          unit=_unit_of(spec)))
         if toc_entry:
             toc.append((toc_entry[0], n, toc_entry[1]))
         return n
@@ -123,27 +149,8 @@ def build_pages():
                    f"UNIT {n}", (f"Unit {n} · {name}", 1))
 
     # ---------------------------------------------------- front matter ------
-    c("Prime School Press", "Physical Education · Year 1",
-      "PHYSICAL EDUCATION · YEAR 1", "About this book",
-      [B.lead("This book is for children in Year 1, about five to six years old, and for "
-              "the teachers and families who move with them."),
-       B.para("Physical Education in Year 1 is not a sport exam. It is how a body learns "
-              "to share a space, to stop when asked, to try a jump again, and to be kind "
-              "while it does those things."),
-       B.para("Children will practise walking, running, jumping, hopping, skipping, "
-              "rolling, throwing, catching, kicking and balancing. They will dance, play "
-              "simple team games, and notice what their body does when it works hard."),
-       B.panel("green", "Success is trying", [
-           "The activities are written so a child can join in with confidence. Success "
-           "is trying, looking after a partner, and leaving the space tidy."], icon="safety"),
-       B.plate("fm_warmup", None, flex=True, minh=200, maxh=270),
-       B.para("Prime Books Physical Education Year 1 is a complete student book for the "
-              "first year of primary school. It covers moving well, understanding "
-              "movement, moving creatively, taking part, taking responsibility and "
-              "healthy bodies, matching the school's Year 1 Physical Education scheme. "
-              "Short teaching, unique watercolour plates, safety panels and play tasks "
-              "sit on every topic.", size=11.0, pitch=14.6, after=0)],
-      "ABOUT THIS BOOK", ("About this book", 1))
+    # Page 3 is the Welcome page, kept from the master (it replaced the old
+    # "About this book" page). Everything from here is page 4 onward.
 
     add("toc", None, "CONTENTS", ("Contents", 1))
 
@@ -398,7 +405,26 @@ def build_pages():
            "people in this book."], icon="kit")],
       "OUR SOURCES", ("Our sources", 1))
 
-    return pages, toc
+    # ------------------------------------------- contents: units as cards ---
+    groups, run = [], []
+
+    def flush():
+        if run:
+            groups.append({"kind": "rows", "items": list(run)})
+            run.clear()
+
+    for label, num, lvl in toc:
+        if lvl == 1 and label.startswith("Unit "):
+            flush()
+            u = int(label[5:].split()[0])
+            groups.append({"kind": "unit", "n": u, "name": UNITS[u][0],
+                           "sub": UNIT_SUB[u], "page": num, "items": []})
+        elif lvl == 2 and groups and groups[-1]["kind"] == "unit":
+            groups[-1]["items"].append((label, num))
+        else:
+            run.append((label, num))
+    flush()
+    return pages, groups
 
 
 # ============================================================= unit content ==

@@ -65,6 +65,29 @@ PE = dict(
 TH = PE  # active theme, rebound by set_theme()
 
 
+def _themed(base, deep, mid, tint, line):
+    d = dict(base)
+    d.update(deep=hx(deep), mid=hx(mid), tint=hx(tint), line=hx(line))
+    return d
+
+
+# One colour per unit, so a reader always knows which unit they are in.
+# 0 is the house colour for front matter, back matter and the contents page.
+UNIT_THEMES = {
+    0: PE,
+    1: _themed(PE, "1E4E6B", "3C7CA6", "EAF3F9", "D3E5F0"),   # 1 light blue
+    2: _themed(PE, "2C4127", "4E6B45", "EDF3E6", "DAE6CE"),   # 2 meadow green
+    3: _themed(PE, "6E2A25", "B4564E", "FBEDEC", "F0D8D5"),   # 3 rose
+    4: _themed(PE, "6B4A0C", "C08A1E", "FDF3DC", "F2E3BC"),   # 4 golden
+    5: _themed(PE, "442F63", "7A5FA0", "F4EFF9", "E3DAF0"),   # 5 lilac
+    6: _themed(PE, "6B3410", "B4622A", "FAEDE2", "F0DCC8"),   # 6 clay
+}
+
+
+def theme_for(unit):
+    return UNIT_THEMES.get(unit or 0, PE)
+
+
 def set_theme(t):
     global TH
     TH = t
@@ -410,8 +433,8 @@ class B:
         return ("spot", dict(img=img, height=height, caption=caption))
 
     @staticmethod
-    def toc(entries):
-        return ("toc", dict(entries=entries))
+    def toc(groups, lead=None):
+        return ("toc", dict(groups=groups, lead=lead))
 
     @staticmethod
     def qrgrid(items, cols=4):
@@ -1022,38 +1045,113 @@ BLOCKS = {
 
 
 # ------------------------------------------------------------ toc / listings --
+def _toc_col_w():
+    return (CW - 20) / 2
+
+
+TOC_ROW = 14.6
+TOC_SUB = 9.8
+TOC_ITEM = 12.4
+
+
+def _toc_group_h(g, col_w=None):
+    col_w = col_w or _toc_col_w()
+    if g["kind"] == "rows":
+        return len(g["items"]) * TOC_ROW
+    sub, _t = autowrap([(g["sub"], "A")], col_w - 22, 9.4)
+    return 42.0 + max(2, len(sub)) * TOC_SUB + len(g["items"]) * TOC_ITEM
+
+
+def _toc_split(groups, avail):
+    """Cut the groups into two columns whose heights are as close as possible."""
+    col_w = _toc_col_w()
+    hs = [_toc_group_h(g, col_w) for g in groups]
+    total = sum(hs) + 4.0 * (len(groups) - 1)
+    best, bi = None, 1
+    for k in range(1, len(groups)):
+        h0 = sum(hs[:k]) + 4.0 * (k - 1)
+        h1 = total - h0
+        if h0 > avail or h1 > avail:
+            continue
+        d = abs(h0 - h1)
+        if best is None or d < best:
+            best, bi = d, k
+    return groups[:bi], groups[bi:]
+
+
+def _toc_row(pg, x, yy, w, label, num, ink, mut, line, size=10.4):
+    draw(pg, x, yy + 10.5, label, "A", size, ink)
+    draw_r(pg, x + w, yy + 10.5, str(num), "F", size, mut)
+    lw, nw = tw(label, "A", size), tw(str(num), "F", size)
+    d, end = x + lw + 5, x + w - nw - 5
+    while d < end:
+        pg.draw_circle((d, yy + 7.8), 0.5, color=line, fill=line)
+        d += 4.4
+
+
+def _toc_unit(pg, x, yy, w, g):
+    th = theme_for(g["n"])
+    pad = 11.0
+    sub, _t = autowrap([(g["sub"], "A")], w - 2 * pad, 9.4)
+    h = _toc_group_h(g, w)
+    box = pymupdf.Rect(x, yy, x + w, yy + h - 8)
+    rrect(pg, box, 9, fill=th["tint"], stroke=th["line"], width=0.9)
+    draw(pg, x + pad, yy + 12.5, "UNIT %d" % g["n"], "F", 8.4, th["mid"], track=0.9)
+    draw_r(pg, x + w - pad, yy + 15.0, str(g["page"]), "F", 13.0, th["mid"])
+    name = g["name"]
+    draw(pg, x + pad, yy + 26.0, name, "F",
+         fit_size(name, "F", 13.5, w - 2 * pad - 34, floor=10.5), th["deep"])
+    yn = yy + 36.0
+    for ln in sub:
+        draw(pg, x + pad, yn, " ".join(t for t, _ in ln), "A", 9.4, th["mid"])
+        yn += TOC_SUB
+    yn += 2.0
+    for label, num in g["items"]:
+        draw(pg, x + pad, yn + 9.5, label, "A", 9.8, TH["ink"])
+        draw_r(pg, x + w - pad, yn + 9.5, str(num), "F", 9.8, th["mid"])
+        lw, nw = tw(label, "A", 9.8), tw(str(num), "F", 9.8)
+        d, end = x + pad + lw + 4, x + w - pad - nw - 4
+        while d < end:
+            pg.draw_circle((d, yn + 6.9), 0.45, color=th["line"], fill=th["line"])
+            d += 4.2
+        yn += TOC_ITEM
+    return box.y1
+
+
 def d_toc(pg, y, b):
-    """Two-column contents list with dot leaders."""
-    entries = b["entries"]
-    col_w = (CW - 24) / 2
-    half = (len(entries) + 1) // 2
-    biggest = y
+    """Contents: a six-segment colour bar, then one card per unit."""
+    groups = b["groups"]
+    col_w = _toc_col_w()
+    seg = CW / 6.0
+    for i in range(6):
+        r = pymupdf.Rect(ML + i * seg, y, ML + (i + 1) * seg, y + 5.0)
+        if i:
+            r.x0 -= 0.4
+        if i < 5:
+            r.x1 += 0.4
+        if i in (0, 5):
+            rrect(pg, r, 2.5, fill=theme_for(i + 1)["mid"])
+        else:
+            pg.draw_rect(r, color=None, fill=theme_for(i + 1)["mid"])
+    y += 20.0
+    if b.get("lead"):
+        draw(pg, ML, y + 7.5, b["lead"], "A", 11.0, TH["sub"])
+        y += 15.0
+    split = _toc_split(groups, BOT - y)
+    bottom = y
     for c in range(2):
+        x = ML + c * (col_w + 20)
         yy = y
-        for label, num, lvl in entries[c * half:(c + 1) * half]:
-            if label is None:
-                yy += 8
-                continue
-            x = ML + c * (col_w + 24) + (14 if lvl == 2 else 0)
-            size = 13.0 if lvl == 1 else 11.5
-            key = "F" if lvl == 1 else "A"
-            col = TH["deep"] if lvl == 1 else TH["ink"]
-            draw(pg, x, yy + 13, label, key, size, col)
-            draw_r(pg, ML + c * (col_w + 24) + col_w, yy + 13, str(num), "F", 11.5,
-                   TH["mid"] if lvl == 1 else TH["muted"])
-            lw = tw(label, key, size)
-            ns = str(num)
-            nw = tw(ns, "F", 11.5)
-            dot_start = x + lw + 5
-            dot_end = ML + c * (col_w + 24) + col_w - nw - 5
-            if lvl == 2 and dot_end - dot_start > 8:
-                d = dot_start
-                while d < dot_end:
-                    pg.draw_circle((d, yy + 9.6), 0.5, color=TH["line"], fill=TH["line"])
-                    d += 4.4
-            yy += 19.0 if lvl == 2 else 24.0
-        biggest = max(biggest, yy)
-    return biggest + 12
+        for g in split[c]:
+            if g["kind"] == "rows":
+                for label, num in g["items"]:
+                    _toc_row(pg, x, yy, col_w, label, num, TH["ink"], TH["muted"],
+                             TH["line"])
+                    yy += TOC_ROW
+            else:
+                yy = _toc_unit(pg, x, yy, col_w, g) + 7.0
+        bottom = max(bottom, yy - 8.0)
+    return bottom + 8
 
 
 def h_qrgrid(b):
@@ -1101,7 +1199,22 @@ def d_reflist(pg, y, b):
     return y + len(b["items"]) * 30.0 + 10
 
 
-BLOCKS["toc"] = (lambda b: 30 + sum(19.0 for e in b["entries"]) / 2, d_toc)
+def h_toc(b):
+    col_w = _toc_col_w()
+    split = _toc_split(b["groups"], BOT - TOP)
+    h = 20.0 + (15.0 if b.get("lead") else 0.0)
+    for c in range(2):
+        ch = 0.0
+        for g in split[c]:
+            if g["kind"] == "rows":
+                ch += len(g["items"]) * TOC_ROW
+            else:
+                ch += _toc_group_h(g, col_w) + 7.0
+        h = max(h, 20.0 + ch)
+    return h + 10.0
+
+
+BLOCKS["toc"] = (h_toc, d_toc)
 BLOCKS["qrgrid"] = (h_qrgrid, d_qrgrid)
 BLOCKS["reflist"] = (h_reflist, d_reflist)
 
@@ -1110,6 +1223,7 @@ BLOCKS["reflist"] = (h_reflist, d_reflist)
 def render_opener(doc, spec, num):
     """Full-bleed unit opener: flood colour, squircle numeral, topic pills,
     arched plate, caption. Returns (page, bottom)."""
+    set_theme(theme_for(spec.get("num")))
     pg = doc.new_page(width=W, height=H)
     deep = TH["deep"]
     pg.draw_rect(pymupdf.Rect(0, 0, W, H), color=None, fill=deep)
@@ -1165,8 +1279,9 @@ def render_opener(doc, spec, num):
     return pg, cy
 
 
-def render_page(doc, spec, folio_label, num):
+def render_page(doc, spec, folio_label, num, unit=0):
     """Draw one content page from a spec dict; returns (page, bottom_y, over)."""
+    set_theme(theme_for(unit))
     pg, y = content_page(doc, spec["hl"], spec["hr"], spec["kick"], spec["title"])
     blocks = list(spec["blocks"])
     flex = [i for i, (n, p) in enumerate(blocks) if n == "plate" and p.get("flex")]

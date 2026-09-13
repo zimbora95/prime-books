@@ -70,6 +70,7 @@ other publisher.
 **www.primeschool.pt**
 
 **2**
+**2**
 
 <!-- page 3 -->
 
@@ -163,6 +164,7 @@ an adult.
 **www.primeschool.pt**
 
 **3**
+**3**
 
 <!-- page 4 -->
 
@@ -173,175 +175,157 @@ Physical Education · Year 1
 **PHYSICAL EDUCATION · YEAR 1**
 ## What is inside?
 
+Six units, one after another. Every unit has its own colour.
+
+Welcome
 **3**
-
-**Contents**
+Contents
 **4**
-
-**The year at a glance**
+The year at a glance
 **5**
-
-**Welcome to the meadow**
+Welcome to the meadow
 **6**
-
-**Meet the six**
+Meet the six
 **7**
-
-**How to use this book**
+How to use this book
 **8**
-
-**Getting set up**
+Getting set up
 **9**
-
-**The hall, and safety first**
+The hall, and safety first
 **10**
 
-**Unit 1 · Moving Well**
+**UNIT 1**
 **11**
+**Moving Well**
+Moving well: space, walking, running, stopping,
+hopping and skipping.
 
 1.1  Space, walk, run, stop
 **12**
-
 1.2  Hop, skip, join
 **14**
-
 1.3  Fast, slow, high, low
 **16**
-
 1.4  Hoops, benches, mats
 **18**
-
 Unit 1 · How did it go?
 **20**
-**Unit 2 · Understanding Movement**
+
+**UNIT 2**
 **21**
+**Understanding Movement**
+Understanding movement: words for a body,
+watching, copying, one simple rule.
 
 2.1  Words for a body
 **22**
-
 2.2  Watch, then copy
 **24**
-
 2.3  What good looks like
 **25**
-
 2.4  A simple rule
 **26**
-
 Unit 2 · How did it go?
 **28**
-**Unit 3 · Moving Creatively**
+
+**UNIT 3**
 **29**
+**Moving Creatively**
+Moving creatively: new shapes, what the kit
+suggests, answering with a body.
 
 3.1  New shapes
 **30**
-
 3.2  What the kit suggests
 **32**
-
 3.3  Answer with your body
 **33**
-
 3.4  Moving like weather
 **34**
-
 Unit 3 · How did it go?
 **36**
-**Unit 4 · Taking Part**
+
+**UNIT 4**
 **37**
+**Taking Part**
+Taking part: joining in, jobs in a small game, your
+own goal, a turn at leading.
 
 4.1  Joining in
 **38**
-
 4.2  Thrower, catcher, collector
 **39**
-
 4.3  Your own goal
 **40**
-
 4.4  A turn at leading
 **41**
-
 4.5  What I can do
 **42**
-
 4.6  Listen, then move
 **43**
-
 Unit 4 · How did it go?
 **45**
-**Unit 5 · Taking Responsibility**
+
+**UNIT 5**
 **46**
+**Taking Responsibility**
+Taking responsibility: sharing, carrying kit, fair
+play, asking for help, kind words.
 
 5.1  Share and take turns
 **47**
-
 5.2  Carry kit safely
 **48**
-
 5.3  Fair play
 **49**
-
 5.4  Ask for help
 **50**
-
 5.5  Kind words
 **51**
-
 Unit 5 · How did it go?
 **53**
-**Unit 6 · Healthy Bodies**
+
+**UNIT 6**
 **54**
+**Healthy Bodies**
+Healthy bodies: what changes when you move, how
+hard is hard enough, food and water.
 
 6.1  What changes when you move
 **55**
-
 6.2  Name the working parts
 **57**
-
 6.3  How hard is hard enough
 **58**
-
 6.4  Knowing your limit today
 **59**
-
 6.5  Before, and afterwards
 **60**
-
 6.6  Food and water for a moving body
 **61**
-
 Unit 6 · How did it go?
 **63**
-**Look back: the whole year**
+
+Look back: the whole year
 **64**
-
-**Words we used (1)**
+Words we used (1)
 **65**
-
-**Words we used (2)**
+Words we used (2)
 **66**
-
-**Answers for every unit (1)**
+Answers for every unit (1)
 **67**
-
-**Answers for every unit (2)**
+Answers for every unit (2)
 **68**
-
-**Where the facts came from**
+Where the facts came from
 **69**
-
-**Watch and learn (for the teacher)**
+Watch and learn (for the teacher)
 **70**
-
-**Our sources**
+Our sources
 **71**
 
 CONTENTS
 
 **4**
-
-**Welcome**
 
 <!-- page 5 -->
 
