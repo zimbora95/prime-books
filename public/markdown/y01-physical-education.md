@@ -197,8 +197,7 @@ The hall, and safety first
 **UNIT 1**
 **11**
 **Moving Well**
-Moving well: space, walking, running, stopping,
-hopping and skipping.
+Space, walking, running, stopping, skipping.
 
 1.1  Space, walk, run, stop
 **12**
@@ -214,8 +213,7 @@ Unit 1 · How did it go?
 **UNIT 2**
 **21**
 **Understanding Movement**
-Understanding movement: words for a body,
-watching, copying, one simple rule.
+Words for a body, watching, copying, one rule.
 
 2.1  Words for a body
 **22**
@@ -231,8 +229,7 @@ Unit 2 · How did it go?
 **UNIT 3**
 **29**
 **Moving Creatively**
-Moving creatively: new shapes, what the kit
-suggests, answering with a body.
+New shapes, kit ideas, answering with a body.
 
 3.1  New shapes
 **30**
@@ -248,8 +245,7 @@ Unit 3 · How did it go?
 **UNIT 4**
 **37**
 **Taking Part**
-Taking part: joining in, jobs in a small game, your
-own goal, a turn at leading.
+Joining in, jobs in a game, leading a turn.
 
 4.1  Joining in
 **38**
@@ -269,8 +265,7 @@ Unit 4 · How did it go?
 **UNIT 5**
 **46**
 **Taking Responsibility**
-Taking responsibility: sharing, carrying kit, fair
-play, asking for help, kind words.
+Sharing, kit, fair play, asking for help.
 
 5.1  Share and take turns
 **47**
@@ -288,8 +283,7 @@ Unit 5 · How did it go?
 **UNIT 6**
 **54**
 **Healthy Bodies**
-Healthy bodies: what changes when you move, how
-hard is hard enough, food and water.
+What moving changes, how hard is hard enough.
 
 6.1  What changes when you move
 **55**
@@ -326,8 +320,6 @@ Our sources
 CONTENTS
 
 **4**
-
-**Welcome**
 
 <!-- page 5 -->
 
