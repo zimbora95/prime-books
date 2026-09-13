@@ -1045,44 +1045,67 @@ BLOCKS = {
 
 
 # ------------------------------------------------------------ toc / listings --
+# ----------------------------------------------------- contents card metrics --
+# The height formula and the drawing below both read these, so they cannot
+# drift apart and leave a row sitting on a card border.
+TOC_ROW = 13.4          # plain front/back matter row pitch
+TOC_LABEL_Y = 13.0      # "UNIT n" baseline
+TOC_PAGE_Y = 15.5       # unit page-number baseline
+TOC_NAME_Y = 27.0       # unit name baseline
+TOC_SUB = 9.6           # strand summary leading
+TOC_SUB_TOP = 39.0      # first strand line baseline
+TOC_SUB_GAP = 5.0       # air between the summary and the first topic
+TOC_ITEM = 12.4         # topic leading
+TOC_ITEM_LEAD = 9.6     # baseline offset inside a topic row
+TOC_PAD_BOT = 14.0      # clear air below the last topic baseline
+TOC_GAP = 11.0          # air between two unit cards
+TOC_ROWS_GAP = 10.0     # air between a plain list and the card beside it
+
+
 def _toc_col_w():
     return (CW - 20) / 2
 
 
-# Card metrics. The last topic row must never sit on the card's bottom edge:
-# TOC_PAD_BOT is the clear air below the last baseline, descender included.
-TOC_ROW = 12.8          # plain front/back matter row pitch
-TOC_LABEL_Y = 12.5      # "UNIT n" baseline
-TOC_PAGE_Y = 15.0       # unit page-number baseline
-TOC_NAME_Y = 24.0       # unit name baseline
-TOC_SUB = 9.8           # strand summary leading
-TOC_SUB_TOP = 33.0      # first strand line baseline
-TOC_SUB_GAP = 4.0       # air between the summary and the first topic
-TOC_ITEM = 12.2         # topic leading
-TOC_ITEM_LEAD = 9.5     # baseline offset inside a topic row
-TOC_PAD_BOT = 14.0      # clear air below the last topic baseline
-TOC_GAP = 10.0          # air between two group cards           # air between two group cards
+def _toc_sub_lines(groups, col_w):
+    """One summary height for every card, so the topic rows all line up."""
+    n = 1
+    for g in groups:
+        if g["kind"] != "unit":
+            continue
+        lines, _t = autowrap([(g["sub"], "A")], col_w - 22, 9.6)
+        n = max(n, len(lines))
+    return n
 
 
-def _toc_group_h(g, col_w=None):
+def _toc_group_h(g, col_w=None, sub_lines=1):
     col_w = col_w or _toc_col_w()
     if g["kind"] == "rows":
         return len(g["items"]) * TOC_ROW
-    sub, _t = autowrap([(g["sub"], "A")], col_w - 22, 9.4)
-    n = len(g["items"])
-    return (TOC_SUB_TOP + max(2, len(sub)) * TOC_SUB + TOC_SUB_GAP
-            + (n - 1) * TOC_ITEM + TOC_ITEM_LEAD + TOC_PAD_BOT)
+    return (TOC_SUB_TOP + sub_lines * TOC_SUB + TOC_SUB_GAP
+            + (len(g["items"]) - 1) * TOC_ITEM + TOC_ITEM_LEAD + TOC_PAD_BOT)
 
 
-def _toc_split(groups, avail):
+def _toc_gap_after(g):
+    return TOC_ROWS_GAP if g["kind"] == "rows" else TOC_GAP
+
+
+def _toc_col_h(col, sub_lines, col_w):
+    h = 0.0
+    for i, g in enumerate(col):
+        h += _toc_group_h(g, col_w, sub_lines)
+        if i < len(col) - 1:
+            h += _toc_gap_after(g)
+    return h
+
+
+def _toc_split(groups, avail, col_w=None):
     """Cut the groups into two columns whose heights are as close as possible."""
-    col_w = _toc_col_w()
-    hs = [_toc_group_h(g, col_w) for g in groups]
-    total = sum(hs) + TOC_GAP * (len(groups) - 1)
+    col_w = col_w or _toc_col_w()
+    sub_lines = _toc_sub_lines(groups, col_w)
     best, bi, best_over = None, 1, None
     for k in range(1, len(groups)):
-        h0 = sum(hs[:k]) + TOC_GAP * (k - 1)
-        h1 = total - h0
+        h0 = _toc_col_h(groups[:k], sub_lines, col_w)
+        h1 = _toc_col_h(groups[k:], sub_lines, col_w)
         over = max(h0, h1) - avail
         if over <= 0:                       # fits: prefer the best balance
             d = abs(h0 - h1)
@@ -1091,7 +1114,7 @@ def _toc_split(groups, avail):
         elif best is None:                  # nothing fits: least overspill
             if best_over is None or over < best_over:
                 best_over, bi = over, k
-    return groups[:bi], groups[bi:]
+    return groups[:bi], groups[bi:], sub_lines
 
 
 def _toc_row(pg, x, yy, w, label, num, ink, mut, line, size=10.4):
@@ -1104,11 +1127,11 @@ def _toc_row(pg, x, yy, w, label, num, ink, mut, line, size=10.4):
         d += 4.4
 
 
-def _toc_unit(pg, x, yy, w, g):
+def _toc_unit(pg, x, yy, w, g, sub_lines=1):
     th = theme_for(g["n"])
     pad = 11.0
-    sub, _t = autowrap([(g["sub"], "A")], w - 2 * pad, 9.4)
-    h = _toc_group_h(g, w)
+    sub, _t = autowrap([(g["sub"], "A")], w - 2 * pad, 9.6)
+    h = _toc_group_h(g, w, sub_lines)
     box = pymupdf.Rect(x, yy, x + w, yy + h)
     rrect(pg, box, 9, fill=th["tint"], stroke=th["line"], width=0.9)
     draw(pg, x + pad, yy + TOC_LABEL_Y, "UNIT %d" % g["n"], "F", 8.4, th["mid"],
@@ -1119,9 +1142,9 @@ def _toc_unit(pg, x, yy, w, g):
          fit_size(name, "F", 13.5, w - 2 * pad - 34, floor=10.5), th["deep"])
     yn = yy + TOC_SUB_TOP
     for ln in sub:
-        draw(pg, x + pad, yn, " ".join(t for t, _ in ln), "A", 9.4, th["mid"])
+        draw(pg, x + pad, yn, " ".join(t for t, _ in ln), "A", 9.6, th["mid"])
         yn += TOC_SUB
-    yn += TOC_SUB_GAP
+    yn = yy + TOC_SUB_TOP + sub_lines * TOC_SUB + TOC_SUB_GAP
     for label, num in g["items"]:
         draw(pg, x + pad, yn + TOC_ITEM_LEAD, label, "A", 9.8, TH["ink"])
         draw_r(pg, x + w - pad, yn + TOC_ITEM_LEAD, str(num), "F", 9.8, th["mid"])
@@ -1153,20 +1176,23 @@ def d_toc(pg, y, b):
     if b.get("lead"):
         draw(pg, ML, y + 7.5, b["lead"], "A", 11.0, TH["sub"])
         y += 14.0
-    split = _toc_split(groups, BOT - y)
+    split = _toc_split(groups, BOT - y, col_w)
     bottom = y
     for c in range(2):
+        col = split[c]
         x = ML + c * (col_w + 20)
         yy = y
-        for g in split[c]:
+        for i, g in enumerate(col):
             if g["kind"] == "rows":
                 for label, num in g["items"]:
                     _toc_row(pg, x, yy, col_w, label, num, TH["ink"], TH["muted"],
                              TH["line"])
                     yy += TOC_ROW
             else:
-                yy = _toc_unit(pg, x, yy, col_w, g) + TOC_GAP
-        bottom = max(bottom, yy - 8.0)
+                yy = _toc_unit(pg, x, yy, col_w, g, split[2])
+            if i < len(col) - 1:
+                yy += _toc_gap_after(g)
+        bottom = max(bottom, yy)
     return bottom + 8
 
 

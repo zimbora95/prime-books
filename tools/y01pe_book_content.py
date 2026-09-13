@@ -114,13 +114,15 @@ def _unit_of(spec):
 
 # Short strand line for each unit's card on the contents page. Written from the
 # topic list; it adds no new teaching, it only names what the unit already holds.
+# One line each, so every card's topic rows start at the same height. The unit
+# name sits directly above, so it is not repeated here.
 UNIT_SUB = {
-    1: "Moving well: space, walking, running, stopping, hopping and skipping.",
-    2: "Understanding movement: words for a body, watching, copying, one simple rule.",
-    3: "Moving creatively: new shapes, what the kit suggests, answering with a body.",
-    4: "Taking part: joining in, jobs in a small game, your own goal, a turn at leading.",
-    5: "Taking responsibility: sharing, carrying kit, fair play, asking for help, kind words.",
-    6: "Healthy bodies: what changes when you move, how hard is hard enough, food and water.",
+    1: 'Space, walking, running, stopping, skipping.',
+    2: 'Words for a body, watching, copying, one rule.',
+    3: 'New shapes, kit ideas, answering with a body.',
+    4: 'Joining in, jobs in a game, leading a turn.',
+    5: 'Sharing, kit, fair play, asking for help.',
+    6: 'What moving changes, how hard is hard enough.',
 }
 
 
