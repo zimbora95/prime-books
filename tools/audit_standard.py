@@ -14,6 +14,11 @@ can gate a build or a commit.
 import json, os, re, sys
 import pymupdf
 
+# Malformed masters (missing Pattern resources) make MuPDF print warnings that
+# land in this tool's stdout and bury the table. The audit's own checks are what
+# matter, so silence the library.
+pymupdf.TOOLS.mupdf_display_errors(False)
+
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIB = os.path.join(REPO, "public", "library")
 
@@ -92,7 +97,20 @@ def badge(p):
 
 
 def audit(path, slug):
+    """Open, audit, and ALWAYS close.
+
+    Leaving the documents open lets fifty-odd PyMuPDF destructors run during
+    interpreter teardown, and a book with broken pattern resources can abort the
+    process there - a fully successful run then exits non-zero.
+    """
     doc = pymupdf.open(path)
+    try:
+        return _audit(doc, slug)
+    finally:
+        doc.close()
+
+
+def _audit(doc, slug):
     n = doc.page_count
     f = []                                   # failures
     w = []                                   # warnings
@@ -287,6 +305,7 @@ def main():
                                          "PASS" if r["ok"] else "FAIL"))
     nfail = sum(1 for r in results if not r["ok"])
     print("\n%d/%d books pass every hard check" % (len(results) - nfail, len(results)))
+    print("(exit status is the number of failing books, capped at 120 - 0 means all pass)")
     if out:
         json.dump(results, open(out, "w"), indent=1)
         print("written:", out)
