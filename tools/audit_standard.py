@@ -258,6 +258,14 @@ def main():
         del argv[i:i + 2]
     slugs = [a for a in argv if not a.startswith("--")]
     manifest = json.load(open(os.path.join(REPO, "public", "library.json")))
+    if slugs:
+        # A slug that resolves to no book is a bad argument, not a failing book.
+        # (Passing a --json output path here once produced a phantom "book"
+        # named after the file, reported as 0/1 - fail loudly instead.)
+        known = {r.get("slug") for r in manifest}
+        bad = [s for s in slugs if s not in known]
+        if bad:
+            sys.exit("not a book slug in public/library.json: %s" % ", ".join(bad))
     slugs = slugs or [r["slug"] for r in manifest
                       if r.get("slug", "").startswith(("y01", "y02", "y03", "y04"))]
     results = []
