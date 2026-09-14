@@ -118,7 +118,17 @@ SEG_DPI = 600             # resolution the edge is sampled at
 # phantom row into every colour, lightening the whole bleed margin.
 EDGE_BAND_INSET_PT = 0.15  # start this far inside the edge
 EDGE_BAND_PT = 0.7         # and stop this far inside (0.25 mm band in total)
+SMEAR_SMOOTH_PT = 3.4      # box-average the smear over ~1.2 mm along the edge:
+                           # see smooth_cols() -- 0 disables the averaging
 SEAM_WINDOW_PT = 3.0       # seam check: compare over ~1 mm windows (see seam_mismatch)
+MAX_EDGE_STEP = 20         # per-step colour change (of 255) that counts as a
+                           # photographic edge -- above it a flat smear is visible
+TRIM_DRIFT_MM = 1.0        # how far past the trim artwork must reach, so a
+                           # printer's trim drift cannot expose the margin fill
+EDGE_HAIR_MM = 0.25        # a margin fill reaching less than this inside the trim
+                           # is a hairline: under any printing tolerance, and what
+                           # a master 0.3 mm narrower than the trim produces
+FIT_MAX = 1.12             # never enlarge a page more than this to reach the trim
 GHOSTSCRIPT = shutil.which("gs")
 
 # BookVault print defaults for a Prime Books title. Editable per book on the
@@ -204,12 +214,13 @@ def sample_edge(page: pymupdf.Page, horizontal: bool, length_pt: float,
 
 def smear_columns(page: pymupdf.Page, horizontal: bool, offset_pt: float,
                   src_len_pt: float, media_len_pt: float, at_pt: float,
-                  steps_pt: float, thickness_pt: float = EDGE_BAND_PT) -> list[tuple[int, int, int]]:
+                  steps_pt: float, thickness_pt: float = EDGE_BAND_PT,
+                  scale: float = 1.0) -> list[tuple[int, int, int]]:
     """Edge colours mapped into MEDIA coordinates, with the ends clamped.
 
-    The page sits 1:1 inside a slightly larger media box, so media row r shows
-    source row r - offset_pt. The smear has to follow that mapping: sampling the
-    edge in the page's own coordinates and stretching the result across the
+    The page sits inside a slightly larger media box, so media row r shows source
+    row (r - offset_pt) / scale. The smear has to follow that mapping: sampling
+    the edge in the page's own coordinates and stretching the result across the
     margin shifts every abrupt edge in the artwork (a rule, a band bottom) by the
     offset, and the seam then shows a band of the wrong colour. Ends clamp to the
     first/last edge sample, which is what a bleed smear does at a corner.
@@ -223,8 +234,29 @@ def smear_columns(page: pymupdf.Page, horizontal: bool, offset_pt: float,
         # the media segment's CENTRE mapped into source space, then the sample
         # that contains it: floor, not round -- rounding picks the neighbouring
         # sample half the time and puts a 1 pt step at every abrupt edge.
-        j = int((i + 0.5) * steps_pt - offset_pt)
+        j = int(((i + 0.5) * steps_pt - offset_pt) / scale)
         out.append(first if j < 0 else last if j >= n_src else cols[j])
+    return out
+
+
+def smooth_cols(cols: list[tuple[int, int, int]], radius: int) -> list[tuple[int, int, int]]:
+    """Box-average the smear across `radius` segments either side.
+
+    At 1 pt segments the raw samples extrude the page's outermost row of pixels
+    up its full margin, which on a photographic edge prints as fine vertical
+    stripes. Averaging over ~1.2 mm turns the same colours into a soft
+    continuation, and a flat, gradient or blank edge is unchanged by it.
+    """
+    if radius < 1 or len(cols) < 3:
+        return cols
+    out = []
+    n = len(cols)
+    for i in range(n):
+        a, b = max(0, i - radius), min(n, i + radius + 1)
+        take = cols[a:b]
+        out.append((sum(c[0] for c in take) // len(take),
+                    sum(c[1] for c in take) // len(take),
+                    sum(c[2] for c in take) // len(take)))
     return out
 
 
@@ -258,12 +290,13 @@ def draw_runs(page: pymupdf.Page, cols, orientation: str, extent: float,
 
 
 def page_margins_mm(p: pymupdf.Page, w_mm: float, h_mm: float,
-                    ox: float, oy: float) -> dict | None:
+                    ox: float, oy: float, scale: float = 1.0) -> dict | None:
     """Live content's distance to the four trim edges, in mm.
 
     Text spans only: the full-bleed band and the artwork are meant to run off the
     page, so they are not "content" for this purpose. None when the page has no
-    text at all (a picture page has nothing to protect).
+    text at all (a picture page has nothing to protect). `ox`/`oy` are the
+    master's page box offset from the trim's top-left at `scale`.
     """
     blocks = p.get_text("blocks")
     if not blocks:
@@ -272,46 +305,123 @@ def page_margins_mm(p: pymupdf.Page, w_mm: float, h_mm: float,
     x1 = max(b[2] for b in blocks) * MM_PER_PT
     y0 = min(b[1] for b in blocks) * MM_PER_PT
     y1 = max(b[3] for b in blocks) * MM_PER_PT
-    return {"left": ox + x0, "right": ox + (w_mm - x1),
-            "top": oy + y0, "bottom": oy + (h_mm - y1)}
+    return {"left": ox + x0 * scale, "right": ox + (w_mm - x1) * scale,
+            "top": oy + y0 * scale, "bottom": oy + (h_mm - y1) * scale}
 
 
-def content_shift(src: pymupdf.Document, first: int, last: int) -> tuple[float, float, str]:
-    """How far to move the page furniture so live content clears their margins.
+def _master_size(slug: str) -> tuple[float, float]:
+    """The master's page box in points, or (0, 0) when it is missing."""
+    p = LIBRARY / slug / "book.pdf"
+    if not p.is_file():
+        return 0.0, 0.0
+    d = pymupdf.open(p)
+    rect = d[0].rect
+    d.close()
+    return rect.width, rect.height
 
-    BookVault wants a 20 mm safety margin on the gutter (guide p.3, interior
-    files) and 5 mm from the trim on the other three edges (their text template;
-    17 mm on the binding edge there). Our masters were drawn for US Letter, whose
-    margins are 13 - 18 mm, so the page is MOVED, never rescaled: a scale would
-    shrink every type size in the book. Moving it grows the gutter margin and
-    gives way at the outer edge, which is what a perfect-bound page wants.
-    Bounded so the side that gives way keeps its own rule plus the headroom.
 
-    Returns (mm toward the outer edge, mm down, a note for the printed sheet).
+def margin_fill_inside_trim(slug: str, doc: pymupdf.Document, fit: float = 1.0,
+                            shift: tuple = (0.0, 0.0)) -> tuple[int, float, float]:
+    """Where the margin fill lands relative to the trim, from the placement geometry.
+
+    Returns (pages whose fill reaches MORE THAN A HAIR inside the trim, the worst
+    such depth in mm, the least distance the artwork reaches PAST the trim in mm).
+    Counted rather than sampled, so it is exact for every page of a 750-page book
+    in milliseconds.
+    """
+    master_path = LIBRARY / slug / "book.pdf"
+    if not master_path.is_file():
+        return 0, 0.0, 0.0
+    md = pymupdf.open(master_path)
+    w, h = md[0].rect.width, md[0].rect.height
+    n = min(doc.page_count, max(0, md.page_count - 2))
+    bad, worst, least = 0, 0.0, 999.0
+    for i in range(n):
+        rect = place_rect(w, h, fit, i + 1, shift[0], shift[1])
+        # positive = the fill starts inside the trim; negative = the artwork
+        # reaches that far past the trim into the bleed
+        deep = max(BLEED_PT - rect.x0, rect.x1 - (TEXT_W - BLEED_PT),
+                   BLEED_PT - rect.y0, rect.y1 - (TEXT_H - BLEED_PT))
+        least = min(least, -pt_to_mm(deep))
+        if deep > EDGE_HAIR_MM * PT_PER_MM:
+            bad += 1
+            worst = max(worst, pt_to_mm(deep))
+    md.close()
+    return bad, worst, (0.0 if least == 999.0 else least)
+
+
+def margin_extremes(src: pymupdf.Document, first: int, last: int) -> dict:
+    """Tightest live-text margins in the MASTER's own coordinates, in mm.
+
+    Measured once per book and reused: the shift that clears BookVault's margins
+    depends on how much the page is scaled, and solving for that scale would
+    otherwise re-read every page of a 750-page master on each pass.
     """
     w_mm, h_mm = src[0].rect.width * MM_PER_PT, src[0].rect.height * MM_PER_PT
-    ox, oy = (TRIM_W_MM - w_mm) / 2.0, (TRIM_H_MM - h_mm) / 2.0
-    min_gutter, min_outer = 999.0, 999.0
-    min_top, min_bottom = 999.0, 999.0
-    tight = ""
+    out = {"w": w_mm, "h": h_mm, "gutter": 999.0, "outer": 999.0,
+           "top": 999.0, "bottom": 999.0, "tight": ""}
     for idx in range(first, last + 1):
-        mg = page_margins_mm(src[idx], w_mm, h_mm, ox, oy)
-        if not mg:
+        p = src[idx]
+        blocks = p.get_text("blocks")
+        if not blocks:
             continue
+        x0 = min(b[0] for b in blocks) * MM_PER_PT
+        x1 = max(b[2] for b in blocks) * MM_PER_PT
+        y0 = min(b[1] for b in blocks) * MM_PER_PT
+        y1 = max(b[3] for b in blocks) * MM_PER_PT
         recto = idx % 2 == 1              # pack page idx: odd pages are right-hand
-        gutter = mg["left"] if recto else mg["right"]
-        outer = mg["right"] if recto else mg["left"]
-        if gutter < min_gutter:
-            min_gutter, tight = gutter, f"page {idx}, {gutter:.1f} mm off the gutter"
-        min_outer = min(min_outer, outer)
-        min_top = min(min_top, mg["top"])
-        min_bottom = min(min_bottom, mg["bottom"])
-    # enough that every page reaches the rule, and no more than the outer edge can
-    # give back without breaking its own rule
+        left, right = x0, w_mm - x1
+        gutter = left if recto else right
+        outer = right if recto else left
+        if gutter < out["gutter"]:
+            out["gutter"], out["tight"] = gutter, f"page {idx}, {gutter:.1f} mm off the gutter"
+        out["outer"] = min(out["outer"], outer)
+        out["top"] = min(out["top"], y0)
+        out["bottom"] = min(out["bottom"], h_mm - y1)
+    return out
+
+
+def shift_for(scale: float, ex: dict) -> tuple[float, float]:
+    """The safety shift for a given fit scale: (outward mm, down mm).
+
+    The margins are measured from the TRIM, so the master's box offset at this
+    scale counts: below 1.0 the box sits inside the trim and gives the margin
+    away, above 1.0 it runs past the trim and takes it back.
+    """
+    if ex["gutter"] > 900:                # no live text anywhere (a picture book)
+        return 0.0, 0.0
+    ox = (TRIM_W_MM - ex["w"] * scale) / 2.0
+    oy = (TRIM_H_MM - ex["h"] * scale) / 2.0
+    min_gutter = ox + ex["gutter"] * scale
+    min_outer = ox + ex["outer"] * scale
+    min_top = oy + ex["top"] * scale
+    min_bottom = oy + ex["bottom"] * scale
     shift_x = max(0.0, min(GUTTER_SAFETY_MM + MARGIN_HEADROOM_MM - min_gutter,
                            min_outer - SAFETY_MM - MARGIN_HEADROOM_MM))
     shift_y = max(0.0, min(SAFETY_MM + MARGIN_HEADROOM_MM - min_top,
                            min_bottom - SAFETY_MM - MARGIN_HEADROOM_MM))
+    return shift_x, shift_y
+
+
+def content_shift(src: pymupdf.Document, first: int, last: int,
+                  scale: float = 1.0) -> tuple[float, float, str]:
+    """How far to move the page furniture so live content clears their margins.
+
+    BookVault wants a 20 mm safety margin on the gutter (guide p.3, interior
+    files) and 5 mm from the trim on the other three edges (their text template;
+    17 mm on the binding edge there). Our masters carry 13 mm to 18 mm gutter
+    margins, so the page is MOVED, never rescaled for this purpose.
+
+    Returns (mm toward the outer edge, mm down, a note for the printed sheet).
+    """
+    ex = margin_extremes(src, first, last)
+    if ex["gutter"] > 900:
+        return 0.0, 0.0, "no live text on the interior pages (a picture book); nothing to move"
+    shift_x, shift_y = shift_for(scale, ex)
+    ox = (TRIM_W_MM - ex["w"] * scale) / 2.0
+    oy = (TRIM_H_MM - ex["h"] * scale) / 2.0
+    min_gutter, min_outer = ox + ex["gutter"] * scale, ox + ex["outer"] * scale
+    min_top, min_bottom = oy + ex["top"] * scale, oy + ex["bottom"] * scale
     got_gutter, got_outer = min_gutter + shift_x, min_outer - shift_x
     got_top, got_bottom = min_top + shift_y, min_bottom - shift_y
     note = (f"content moved {shift_x:.1f} mm toward the outer edge and {shift_y:.1f} mm down: "
@@ -319,7 +429,7 @@ def content_shift(src: pymupdf.Document, first: int, last: int) -> tuple[float, 
             f"(was {min_gutter:.1f}), {got_outer:.1f} mm from the outer trim "
             f"(was {min_outer:.1f}) and {got_top:.1f} mm from the top trim "
             f"(their rules: {GUTTER_SAFETY_MM:g} mm gutter, {SAFETY_MM:g} mm trim; "
-            f"tightest {tight})")
+            f"tightest {ex['tight']})")
     if got_gutter < GUTTER_SAFETY_MM - 0.05:
         note += (f"; this page cannot reach {GUTTER_SAFETY_MM:g} mm without pushing the "
                  f"outer margin under {SAFETY_MM:g} mm")
@@ -328,8 +438,142 @@ def content_shift(src: pymupdf.Document, first: int, last: int) -> tuple[float, 
     return shift_x, shift_y, note
 
 
+def edge_detail(src: pymupdf.Document, first: int, last: int,
+                step_pt: float = 6.0) -> int:
+    """Worst colour step along the outermost sliver of the interior pages.
+
+    This is the measurement that decides whether a master smaller than the trim
+    can simply sit inside it. The margin outside a page's box is filled with a
+    flat smear of its edge colours: on a blank or flat-coloured edge that is
+    invisible, on a photographic one it prints as clamped streaks, and where the
+    master is smaller than the trim those streaks fall INSIDE the cut.
+    """
+    worst = 0
+    for idx in range(first, last + 1):
+        p = src[idx]
+        for horizontal, length, at in ((True, p.rect.width, EDGE_BAND_INSET_PT),
+                                       (True, p.rect.width, p.rect.height - EDGE_BAND_INSET_PT - EDGE_BAND_PT),
+                                       (False, p.rect.height, EDGE_BAND_INSET_PT),
+                                       (False, p.rect.height, p.rect.width - EDGE_BAND_INSET_PT - EDGE_BAND_PT)):
+            n = max(2, int(round(length / step_pt)))
+            cols = sample_edge(p, horizontal, length, at, n, EDGE_BAND_PT)
+            for a, b in zip(cols, cols[1:]):
+                worst = max(worst, max(abs(x - y) for x, y in zip(a, b)))
+            if worst > MAX_EDGE_STEP:
+                return worst
+    return worst
+
+
+def fit_scale(src: pymupdf.Document, first: int, last: int) -> tuple[float, str]:
+    """How much the master's page box has to grow to reach BookVault's 216x279.
+
+    1.0 unless the master is smaller than the trim AND its page edges carry
+    detail. Enlarging moves type sizes, so it is only done where leaving it
+    alone would print a flat smear of a photographic edge inside the cut --
+    which is what a 209.9 x 269.9 mm master otherwise does on 3.05 mm (sides) and
+    4.55 mm (top and bottom) of every page. The enlargement covers the whole
+    222 x 285 mm media, not just the trim, so the bleed beyond the cut is real
+    artwork too and no artificial band appears anywhere on the page. A master
+    that already meets the trim (the US Letter books are 0.3 mm narrower and
+    0.4 mm taller) never scales, and neither does one whose edges are blank or a
+    flat colour.
+
+    Oversized masters are NOT scaled down: the trim crops the overflow, which the
+    crop check proves is margin only.
+    """
+    w = pt_to_mm(src[0].rect.width)
+    h = pt_to_mm(src[0].rect.height)
+    media_w, media_h = pt_to_mm(TEXT_W), pt_to_mm(TEXT_H)
+    need = max(media_w / w, media_h / h)
+    if need <= 1.0:
+        return 1.0, (f"master page box {w:.1f} x {h:.1f} mm meets the "
+                     f"{TRIM_W_MM:g} x {TRIM_H_MM:g} mm trim; no rescaling")
+    if abs(w - TRIM_W_MM) < 1.0 and abs(h - TRIM_H_MM) < 1.0:
+        return 1.0, (f"master page box {w:.1f} x {h:.1f} mm matches the trim "
+                     f"within a printer's tolerance; no rescaling")
+    detail = edge_detail(src, first, last)
+    if detail <= MAX_EDGE_STEP:
+        return 1.0, (f"master {w:.1f} x {h:.1f} mm sits {TRIM_W_MM - w:.2f} mm "
+                     f"inside the trim on the sides and {TRIM_H_MM - h:.2f} mm "
+                     f"top and bottom; its edges are flat (worst step {detail}/255) "
+                     f"so the margin continues them invisibly -- no rescaling")
+    # Enlarge just enough that the artwork still reaches 1 mm PAST the trim on
+    # every side once the safety shift has moved the page -- the shift opens a
+    # gap on the side it moves away from, and that gap has to fall in the bleed,
+    # never on the printed page.
+    #
+    # Only taken when it converges: enlarging a page centred on the trim pushes
+    # its content outward (the inset the undersized box was giving away is spent
+    # on the enlargement), so a book whose text is already close to the gutter
+    # needs a bigger shift, which needs a bigger enlargement, and so on. When
+    # that diverges the page stays 1:1 -- its own inset keeps the gutter rule
+    # comfortable -- and the 3-5 mm band inside the trim carries a soft
+    # continuation of the page edge instead of artwork.
+    ex = margin_extremes(src, first, last)
+    scale, solved = need, False
+    for _ in range(6):
+        dx, dy = shift_for(scale, ex)
+        want = max((TRIM_W_MM + 2 * TRIM_DRIFT_MM + 2 * dx) / w,
+                   (TRIM_H_MM + 2 * TRIM_DRIFT_MM + 2 * dy) / h,
+                   need)
+        if abs(want - scale) < 0.0005:
+            scale, solved = want, True
+            break
+        scale = want
+    if not solved or scale > FIT_MAX:
+        dix = TRIM_W_MM - w
+        diy = TRIM_H_MM - h
+        return 1.0, (f"master {w:.1f} x {h:.1f} mm is smaller than the "
+                     f"{TRIM_W_MM:g} x {TRIM_H_MM:g} mm trim and its edges carry "
+                     f"detail (worst step {detail}/255). Enlarging it to reach the "
+                     f"cut would push its text out of the 20 mm gutter, so the page "
+                     f"is placed 1:1: the outer {dix / 2:.2f} mm (sides) and "
+                     f"{diy / 2:.2f} mm (top and bottom) of the printed page carry a "
+                     f"soft continuation of the page edge. Re-export this master at "
+                     f"{TRIM_W_MM:g} x {TRIM_H_MM:g} mm to remove it")
+    # An enlargement is only worth its type-size change if the page then MEETS
+    # their margins. It usually does not: growing an undersized page about the
+    # trim's centre pushes its content outward, so a master whose text is already
+    # close to the edges ends up further outside the rules, not closer.
+    dx, dy = shift_for(scale, ex)
+    ox = (TRIM_W_MM - w * scale) / 2.0
+    oy = (TRIM_H_MM - h * scale) / 2.0
+    if not (ox + ex["gutter"] * scale + dx >= GUTTER_SAFETY_MM - 0.05 and
+            ox + ex["outer"] * scale - dx >= SAFETY_MM - 0.05 and
+            oy + ex["top"] * scale + dy >= SAFETY_MM - 0.05 and
+            oy + ex["bottom"] * scale - dy >= SAFETY_MM - 0.05):
+        return 1.0, (f"master {w:.1f} x {h:.1f} mm is smaller than the "
+                     f"{TRIM_W_MM:g} x {TRIM_H_MM:g} mm trim and its edges carry "
+                     f"detail (worst step {detail}/255). Enlarging it would move "
+                     f"its text further outside their gutter and trim margins "
+                     f"rather than closer, so the page is placed 1:1 and its type "
+                     f"sizes are untouched; the outer {(TRIM_W_MM - w) / 2:.2f} mm "
+                     f"of the printed page carries a soft continuation of the page "
+                     f"edge. Re-export this master at {TRIM_W_MM:g} x "
+                     f"{TRIM_H_MM:g} mm with wider margins to remove it")
+    return scale, (f"master {w:.1f} x {h:.1f} mm is smaller than the "
+                   f"{TRIM_W_MM:g} x {TRIM_H_MM:g} mm trim and its edges carry "
+                   f"detail (worst step {detail}/255), so a flat margin would show: "
+                   f"the page is enlarged {scale * 100 - 100:.1f} % so the artwork "
+                   f"reaches the edge of the {BLEED_MM:g} mm bleed")
+
+
+def place_rect(w: float, h: float, scale: float, idx: int,
+               shift_x_mm: float, shift_y_mm: float) -> pymupdf.Rect:
+    """Where the master's page box lands on the media, at `scale`.
+
+    Right-hand pages move toward their outer (right) edge, left-hand pages toward
+    theirs, so the shift opens the gutter and gives way at the outer margin.
+    """
+    recto = idx % 2 == 1                 # pack page idx: odd pages are right-hand
+    px = (TEXT_W - w * scale) / 2.0 + (shift_x_mm * PT_PER_MM if recto else -shift_x_mm * PT_PER_MM)
+    py = (TEXT_H - h * scale) / 2.0 + shift_y_mm * PT_PER_MM
+    return pymupdf.Rect(px, py, px + w * scale, py + h * scale)
+
+
 def bleed_page(dst: pymupdf.Document, src: pymupdf.Document, idx: int,
-               shift_x_mm: float = 0.0, shift_y_mm: float = 0.0) -> None:
+               shift_x_mm: float = 0.0, shift_y_mm: float = 0.0,
+               scale: float = 1.0) -> None:
     """One interior page onto BookVault's text-file media, 222 x 285 mm.
 
     The master is 612 x 792 pt (US Letter); BookVault's trim is 216 x 279 mm,
@@ -347,22 +591,26 @@ def bleed_page(dst: pymupdf.Document, src: pymupdf.Document, idx: int,
     w, h = p.rect.width, p.rect.height
     page = dst.new_page(width=TEXT_W, height=TEXT_H)
 
-    # 1:1 on the trim box (vector -- text stays text, no rescaling), then the
-    # safety shift: outboard on a right-hand page, outboard-left on a left-hand.
-    recto = idx % 2 == 1                 # pack page idx: odd pages are right-hand
-    px = (TEXT_W - w) / 2.0 + (shift_x_mm * PT_PER_MM if recto else -shift_x_mm * PT_PER_MM)
-    py = (TEXT_H - h) / 2.0 + shift_y_mm * PT_PER_MM
-    page.show_pdf_page(pymupdf.Rect(px, py, px + w, py + h), src, idx)
+    # The master's page box on the media at `scale` (1.0 unless the master is
+    # undersized for the trim AND its edges carry detail -- see fit_scale), plus
+    # the safety shift: outboard on a right-hand page, outboard-left on a
+    # left-hand one.
+    rect = place_rect(w, h, scale, idx, shift_x_mm, shift_y_mm)
+    px, py, pw, ph = rect.x0, rect.y0, rect.width, rect.height
 
     # The band the bleed is sampled from, on each edge's inside. It must (a)
     # start inside the phantom white row MuPDF draws in the last ~0.1 pt (see
     # EDGE_BAND_PT) and (b) run right up to the cut, or the bleed continues
     # artwork from further inside the page and the cut line shows a step.
     ins, band = EDGE_BAND_INSET_PT, EDGE_BAND_PT
-    top = smear_columns(p, True, px, w, TEXT_W, ins, SEG_PT, band)
-    bot = smear_columns(p, True, px, w, TEXT_W, h - ins - band, SEG_PT, band)
-    lef = smear_columns(p, False, py, h, TEXT_H, ins, SEG_PT, band)
-    rig = smear_columns(p, False, py, h, TEXT_H, w - ins - band, SEG_PT, band)
+    top = smear_columns(p, True, px, w, TEXT_W, ins, SEG_PT, band, scale)
+    bot = smear_columns(p, True, px, w, TEXT_W, h - ins - band, SEG_PT, band, scale)
+    lef = smear_columns(p, False, py, h, TEXT_H, ins, SEG_PT, band, scale)
+    rig = smear_columns(p, False, py, h, TEXT_H, w - ins - band, SEG_PT, band, scale)
+    if SMEAR_SMOOTH_PT:
+        r = max(1, int(round(SMEAR_SMOOTH_PT / SEG_PT)))
+        top, bot = smooth_cols(top, r), smooth_cols(bot, r)
+        lef, rig = smooth_cols(lef, r), smooth_cols(rig, r)
 
     # each margin is painted to its own extent: the placement is centred, so
     # the top and bottom strips are not the same thickness as the sides.
@@ -370,18 +618,23 @@ def bleed_page(dst: pymupdf.Document, src: pymupdf.Document, idx: int,
     # paints a page-sized band over the artwork (white interiors, caught by
     # page_content_survives()).
     draw_runs(page, top, "v", TEXT_W, py, 0)
-    draw_runs(page, bot, "v", TEXT_W, TEXT_H - (py + h), py + h)
+    draw_runs(page, bot, "v", TEXT_W, TEXT_H - (py + ph), py + ph)
     draw_runs(page, lef, "h", TEXT_H, px, 0)
-    draw_runs(page, rig, "h", TEXT_H, TEXT_W - (px + w), px + w)
+    draw_runs(page, rig, "h", TEXT_H, TEXT_W - (px + pw), px + pw)
 
     # corners: filled with the corner colour so no white pinhole survives
-    for col, rect in (
+    for col, crect in (
         (top[0] if top else lef[0], pymupdf.Rect(0, 0, px, py)),
-        (top[-1] if top else rig[0], pymupdf.Rect(px + w, 0, TEXT_W, py)),
-        (bot[0] if bot else lef[-1], pymupdf.Rect(0, py + h, px, TEXT_H)),
-        (bot[-1] if bot else rig[-1], pymupdf.Rect(px + w, py + h, TEXT_W, TEXT_H)),
+        (top[-1] if top else rig[0], pymupdf.Rect(px + pw, 0, TEXT_W, py)),
+        (bot[0] if bot else lef[-1], pymupdf.Rect(0, py + ph, px, TEXT_H)),
+        (bot[-1] if bot else rig[-1], pymupdf.Rect(px + pw, py + ph, TEXT_W, TEXT_H)),
     ):
-        page.draw_rect(rect, color=None, fill=rgb01(col), width=0)
+        page.draw_rect(crect, color=None, fill=rgb01(col), width=0)
+
+    # The page itself, LAST, so it paints over the smear wherever it has artwork.
+    # Vector placement -- text stays text and no type size moves unless fit_scale
+    # had to enlarge the page to reach the cut.
+    page.show_pdf_page(rect, src, idx)
 
 
 def blank_page(dst: pymupdf.Document) -> None:
@@ -727,12 +980,13 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
     content, guide_pages = interior_page_count(slug)
     padded = guide_pages if pad_12n else content   # blanks at the rear only on request
 
-    shift_x_mm, shift_y_mm, shift_note = content_shift(src, 1, n - 2)
+    fit, fit_note = fit_scale(src, 1, n - 2)
+    shift_x_mm, shift_y_mm, shift_note = content_shift(src, 1, n - 2, fit)
 
     stripped_cover = True
     work = pymupdf.open()
     for i in range(1, n - 1):          # page 1 (cover) and last (back cover) out
-        bleed_page(work, src, i, shift_x_mm, shift_y_mm)
+        bleed_page(work, src, i, shift_x_mm, shift_y_mm, fit)
     for _ in range(padded - content):      # pad to 12n-1 for their barcode
         blank_page(work)
 
@@ -788,6 +1042,8 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
                f"{padded} supplied to carry their barcode on a blank last page")
         ),
         "trim_mm": [TRIM_W_MM, TRIM_H_MM],
+        "page_fit_scale": round(fit, 5),
+        "page_fit_note": fit_note,
         "content_shift_mm": [round(shift_x_mm, 2), round(shift_y_mm, 2)],
         "content_shift_note": shift_note,
         "media_mm": [round(pt_to_mm(doc[0].rect.width), 2),
@@ -989,6 +1245,13 @@ def ink_share(page: pymupdf.Page, dpi: int = 36) -> float:
     conversion moves a pale tint (the lavender header band, (238,230,249) ->
     (239,229,241)) across a fixed 245 threshold, which made a good page read as
     having lost a third of its ink.
+
+    NOTE: the modal colour is not stable between two renderings of the same
+    artwork at different scales -- a photographic page's most common colour
+    flips from its cream panel to a dark photo tone once the page is enlarged --
+    and the share then inverts. Comparing two pages this way is what
+    mean_ink() is for; this function is only for same-page, before/after
+    questions.
     """
     pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
     samples = pix.samples
@@ -1006,33 +1269,59 @@ def ink_share(page: pymupdf.Page, dpi: int = 36) -> float:
     return ink / max(1, n)
 
 
-def page_content_survives(slug: str, doc: pymupdf.Document, sample: int = 8) -> list[str]:
+def mean_ink(page: pymupdf.Page, clip: pymupdf.Rect | None = None,
+             dpi: int = 36) -> float:
+    """Mean darkness of a page (or of `clip` on it), 0.0 white .. 1.0 black.
+
+    Geometry-robust where ink_share() is not: no baseline colour to flip. Used to
+    compare a packed page's CONTENT AREA against the master page it came from --
+    artwork lost, covered or converted to white moves this number, and the
+    comparison survives the pack's own margin fill because only the content
+    rectangle is measured.
+    """
+    pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB, clip=clip)
+    s = pix.samples
+    n = max(1, pix.width * pix.height)
+    total = 0
+    for i in range(0, len(s), 3):
+        total += 255 * 3 - (s[i] + s[i + 1] + s[i + 2])
+    return total / (n * 255 * 3)
+
+
+def page_content_survives(slug: str, doc: pymupdf.Document, sample: int = 8,
+                          fit: float = 1.0, shift: tuple = (0.0, 0.0)) -> list[str]:
     """Compare sampled interior pages against the master pages they came from.
 
-    Returns a list of complaints (empty when healthy). The interior page k is
-    master page k+2 (the front cover is stripped), and its ink share should be at
-    least the master's minus what the trim does to it -- a little slack is given
-    for the 3 mm bleed and the centred placement.
+    Returns a list of complaints (empty when healthy). Interior page k comes from
+    master page k+2 (the front cover is stripped), and its CONTENT RECTANGLE --
+    the master's page box as placed on the media -- must carry the same mean
+    darkness as the master page. Only that rectangle is measured: the pack's own
+    margin fill is outside it, and mean_ink() cannot be fooled by the scale
+    change the way a modal-colour share can.
     """
     master_path = LIBRARY / slug / "book.pdf"
     if not master_path.is_file():
         return []
     md = pymupdf.open(master_path)
     bad = []
+    sx, sy = shift[0], shift[1]
     step = max(1, (doc.page_count - PAGES_MODULO) // sample) or 1
     for i in range(0, min(doc.page_count, md.page_count - 2), step):
         src_i = i + 1                      # 0-based master page: interior i -> master i+1
         try:
-            want = ink_share(md[src_i])
-            got = ink_share(doc[i])
+            want = mean_ink(md[src_i])
+            rect = place_rect(md[src_i].rect.width, md[src_i].rect.height,
+                              fit, i + 1, sx, sy)
+            got = mean_ink(doc[i], clip=rect)
         except Exception:
             continue
         if want < 0.02:                    # a blank or nearly blank master page
-            if got > 0.05:
+            if got > 0.06:
                 bad.append(f"page {i + 1}: master is blank, this page is {got:.0%} ink")
             continue
-        if got < want * 0.8:
-            bad.append(f"page {i + 1}: {got:.1%} ink against {want:.1%} in the master")
+        if got < want * 0.85 - 0.01:
+            bad.append(f"page {i + 1}: content {got:.1%} ink against {want:.1%} "
+                       f"in the master")
     md.close()
     return bad
 
@@ -1315,6 +1604,12 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     doc = pymupdf.open(LIBRARY / slug / "bookvault" / text["file"])
     n = doc.page_count
     media_w, media_h = pt_to_mm(doc[0].rect.width), pt_to_mm(doc[0].rect.height)
+    # A master smaller than the trim that had to stay 1:1 (see fit_scale): its
+    # outer 3-5 mm carry a continuation of the edge, so the seam and coverage
+    # checks report that as a limitation of the master, not as a build defect.
+    undersized_asis = (text.get("page_fit_scale", 1.0) == 1.0 and
+                       (pt_to_mm(_master_size(slug)[0]) < TRIM_W_MM - 1.0 or
+                        pt_to_mm(_master_size(slug)[1]) < TRIM_H_MM - 1.0))
 
     add("Text file page size is 222 x 285 mm",
         abs(media_w - (TRIM_W_MM + 2 * BLEED_MM)) < 0.5 and
@@ -1328,7 +1623,8 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     add("Bleed continues the page edge", bad == 0,
         f"{pts - bad} of {pts} points across the cut lines are flat"
         + ("" if bad == 0 else f" -- {bad} mismatch, a white sliver would print"))
-    survives = page_content_survives(slug, doc)
+    survives = page_content_survives(slug, doc, fit=text.get("page_fit_scale", 1.0),
+                                     shift=tuple(text.get("content_shift_mm", (0.0, 0.0))))
     add("Page artwork survives assembly", not survives,
         "sampled interior pages carry the master's artwork" if not survives
         else "; ".join(survives[:3])
@@ -1339,11 +1635,17 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
         "the smear meets the page with no visible step in the bleed"
         if seam <= 3 else
         f"a step over {seam * SEAM_WINDOW_PT / PT_PER_MM:.1f} mm at the {seam_where}"
-        + (" -- a band of the wrong colour across the bleed"
-           if seam_share > 0.2 else
-           " -- a flat bleed can only approximate artwork whose colour runs along "
-           "the cut as a steep gradient; the page inside the trim is unaffected"),
-        level="fail" if seam_share > 0.2 else "warn")
+        + (f" -- the clamp-to-edge continuation of a detailed page edge, on a "
+           f"master {TRIM_W_MM - pt_to_mm(doc[0].rect.width):.1f} mm narrower than "
+           f"the trim and {TRIM_H_MM - pt_to_mm(doc[0].rect.height):.1f} mm shorter "
+           f"(see the page-size line above); the artwork itself is untouched inside "
+           f"the trim"
+           if undersized_asis else
+           " -- a band of the wrong colour across the bleed")
+        if seam_share > 0.2 or undersized_asis else
+        " -- a flat bleed can only approximate artwork whose colour runs along "
+        "the cut as a steep gradient; the page inside the trim is unaffected",
+        level="warn" if (seam_share > 0.2 and undersized_asis) or seam_share <= 0.2 else "fail")
     # Live text against BookVault's own margins, read from the packed file: 20 mm
     # on the gutter (guide p.3) and 5 mm from the trim on the other three edges
     # (their template). This is what their preview draws over the page.
@@ -1420,6 +1722,25 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     add("Images at 300 DPI or better", not low,
         "every image is 300 DPI or better (guide p.9)" if not low
         else f"{len(low)} below 300 DPI, e.g. " + "; ".join(low[:3]), level="warn")
+    fit = text.get("page_fit_scale", 1.0)
+    add("Master page box fitted to their trim", fit == 1.0,
+        text.get("page_fit_note", "placed 1:1 on the trim"), level="warn")
+    inside, worst_pg, past = margin_fill_inside_trim(slug, doc, fit,
+                                                    tuple(text.get("content_shift_mm", (0.0, 0.0))))
+    undersized = undersized_asis
+    add("Artwork covers the printed area", inside == 0,
+        (f"the artwork reaches {past:.2f} mm past the {TRIM_W_MM:g} x "
+         f"{TRIM_H_MM:g} mm trim on every page, so the margin fill can only ever "
+         f"fall in the {BLEED_MM:g} mm bleed") if inside == 0
+        else (f"{inside} pages carry a soft continuation of the page edge up to "
+              f"{worst_pg:.1f} mm inside the trim: this master is smaller than the "
+              f"trim and cannot be enlarged without losing its gutter margin (see "
+              f"the page-size line above) -- re-export it at "
+              f"{TRIM_W_MM:g} x {TRIM_H_MM:g} mm to print artwork to the cut"
+              if undersized else
+              f"{inside} pages have the margin fill {worst_pg:.1f} mm inside the "
+              f"trim -- trim drift could expose it"),
+        level="warn" if undersized else "fail")
     clear, pg, side = binding_edge_clearance(doc)
     add("Binding-edge clearance", clear >= 20.0,
         f"closest text is {clear:.1f} mm from the {side} edge on page {pg}; "
@@ -1499,6 +1820,7 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     L.append(f"  ISBN ............... {settings['isbn'] or '(none yet - BookVault can issue a dummy)'}")
     L.append(f"  Print type ......... {settings.get('printType') or 'Colour interior (set it on their form)'}")
     L.append(f"  Content position ... {text.get('content_shift_note', 'page content centred on the trim')}")
+    L.append(f"  Page size ......... {text.get('page_fit_note', 'placed 1:1 on the trim')}")
     L.append("")
     L.append(thin)
     L.append("STEP 2  Upload the two files")
