@@ -1403,6 +1403,15 @@ def seam_mismatch(slug: str, doc: pymupdf.Document, sample: int = 4) -> tuple[in
             horiz = side in ("top", "bottom")
             n_along = pix.width if horiz else pix.height
             across = pix.height if horiz else pix.width
+            # A clip that misses the page renders EMPTY. That happens on the
+            # masters that are taller or wider than their media -- A4 (595.2 x
+            # 841.9 pt) and 8 x 11.5 in (576 x 828 pt) are both taller than the
+            # 285 mm media, so their page overhangs it by ~12 mm and the top and
+            # right clips land outside the page: y05-portuguese and
+            # y13-physical-education died on an IndexError here. Measure only
+            # sides the page actually reaches.
+            if n_along < 2 or across < 2 or len(s) < 12:
+                continue
             mid = across / 2.0
             # Which way the page lies from the cut: for the bottom edge, the page
             # is above and the bleed below, so the same band is mirrored.
@@ -1418,6 +1427,8 @@ def seam_mismatch(slug: str, doc: pymupdf.Document, sample: int = 4) -> tuple[in
                 tot = [0.0, 0.0, 0.0]
                 for j in range(lo, hi + 1):
                     o = ((j * pix.width + k) if horiz else (k * pix.width + j)) * 3
+                    if o + 2 >= len(s):
+                        continue
                     tot[0] += s[o]
                     tot[1] += s[o + 1]
                     tot[2] += s[o + 2]
