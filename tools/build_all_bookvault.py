@@ -32,7 +32,12 @@ import time
 REPO = pathlib.Path(__file__).resolve().parent.parent
 LIBRARY = REPO / "public/library"
 PY = REPO / ".venv/bin/python"
-SCRIPT = REPO / "tools/make_bookvault_files.py"
+SCRIPT = REPO / "tools" / "make_bookvault_files.py"
+# Bumped when the page GEOMETRY in the builder changes (placement, bleed, fit,
+# shift, smear). A pack built before the stamp is stale and gets rebuilt; a
+# check-only edit does not, because the checks can be re-run against the files
+# with tools/recheck_bookvault_pack.py.
+GEOMETRY_STAMP = REPO / "tools" / ".bookvault_geometry"
 
 # A master with fewer pages than this cannot yield a printable interior (the front
 # and back covers come out of it), so it is reported and skipped rather than built.
@@ -53,16 +58,20 @@ def pack_complete(slug: str) -> bool:
     a stray directory) would otherwise be left alone and the page would serve a
     missing download.
 
-    Both files must also be NEWER than the builder script. A pack built by an
+    Both files must also be NEWER than the GEOMETRY STAMP. A pack built by an
     earlier version of the builder carries that version's page geometry, and the
     live server only rebuilds when the MASTER changes -- so a stale pack would
-    otherwise survive untouched and be served as if it were current.
+    otherwise survive untouched and be served as if it were current. The stamp is
+    bumped by hand when the placement changes; a check-only edit must not force a
+    750-page rebuild, and tools/recheck_bookvault_pack.py re-runs the checks
+    against the files already on disk.
     """
     text, cover = pack_files(slug)
     for f in (text, cover, LIBRARY / slug / "bookvault" / "build.json"):
         if not f.is_file():
             return False
-    built_after = SCRIPT.stat().st_mtime
+    built_after = GEOMETRY_STAMP.stat().st_mtime if GEOMETRY_STAMP.is_file() \
+        else SCRIPT.stat().st_mtime
     for f in (text, cover):
         if f.stat().st_size < 20_000:
             return False

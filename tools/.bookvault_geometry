@@ -1,0 +1,9 @@
+Bumped when the page GEOMETRY in tools/make_bookvault_files.py changes:
+the placement of the master on the media, the bleed, the fit scale, the
+safety shift, or how the margin fill is drawn.
+
+touch this file whenever one of those changes, so tools/build_all_bookvault.py
+knows which packs on disk were built with the old placement. A check-only edit
+does NOT need it: re-run the checks against the files already built with
+
+    .venv/bin/python tools/recheck_bookvault_pack.py <slug> ...
