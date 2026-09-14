@@ -96,6 +96,8 @@ TRIM_H_MM = 279.0          # finished book height
 BLEED_MM = 3.0             # guide p.5: "the bleed that we require for text is 3mm"
 SAFETY_MM = 5.0            # guide p.19: content safety margin from the trim edge
 BINDING_SAFETY_MM = 17.0   # template: "17 mm on the binding edge" (guide text says 20)
+GUTTER_SAFETY_MM = 20.0    # guide p.3, interior files: "safety margin of 20mm on the gutter"
+MARGIN_HEADROOM_MM = 1.0   # aim a millimetre past each rule, so trimming drift is absorbed
 BARCODE_MM = (38.0, 25.0)  # template's barcode placement box
 BARCODE_FROM_TRIM_MM = (6.4, 3.3)   # ...and its inset from the back cover trim
 SPINE_PER_PAGE_MM = 0.056  # guide p.18: 100 pages on 80 gsm bond = 5.6 mm
@@ -255,21 +257,101 @@ def draw_runs(page: pymupdf.Page, cols, orientation: str, extent: float,
         i = j
 
 
-def bleed_page(dst: pymupdf.Document, src: pymupdf.Document, idx: int) -> None:
+def page_margins_mm(p: pymupdf.Page, w_mm: float, h_mm: float,
+                    ox: float, oy: float) -> dict | None:
+    """Live content's distance to the four trim edges, in mm.
+
+    Text spans only: the full-bleed band and the artwork are meant to run off the
+    page, so they are not "content" for this purpose. None when the page has no
+    text at all (a picture page has nothing to protect).
+    """
+    blocks = p.get_text("blocks")
+    if not blocks:
+        return None
+    x0 = min(b[0] for b in blocks) * MM_PER_PT
+    x1 = max(b[2] for b in blocks) * MM_PER_PT
+    y0 = min(b[1] for b in blocks) * MM_PER_PT
+    y1 = max(b[3] for b in blocks) * MM_PER_PT
+    return {"left": ox + x0, "right": ox + (w_mm - x1),
+            "top": oy + y0, "bottom": oy + (h_mm - y1)}
+
+
+def content_shift(src: pymupdf.Document, first: int, last: int) -> tuple[float, float, str]:
+    """How far to move the page furniture so live content clears their margins.
+
+    BookVault wants a 20 mm safety margin on the gutter (guide p.3, interior
+    files) and 5 mm from the trim on the other three edges (their text template;
+    17 mm on the binding edge there). Our masters were drawn for US Letter, whose
+    margins are 13 - 18 mm, so the page is MOVED, never rescaled: a scale would
+    shrink every type size in the book. Moving it grows the gutter margin and
+    gives way at the outer edge, which is what a perfect-bound page wants.
+    Bounded so the side that gives way keeps its own rule plus the headroom.
+
+    Returns (mm toward the outer edge, mm down, a note for the printed sheet).
+    """
+    w_mm, h_mm = src[0].rect.width * MM_PER_PT, src[0].rect.height * MM_PER_PT
+    ox, oy = (TRIM_W_MM - w_mm) / 2.0, (TRIM_H_MM - h_mm) / 2.0
+    min_gutter, min_outer = 999.0, 999.0
+    min_top, min_bottom = 999.0, 999.0
+    tight = ""
+    for idx in range(first, last + 1):
+        mg = page_margins_mm(src[idx], w_mm, h_mm, ox, oy)
+        if not mg:
+            continue
+        recto = idx % 2 == 1              # pack page idx: odd pages are right-hand
+        gutter = mg["left"] if recto else mg["right"]
+        outer = mg["right"] if recto else mg["left"]
+        if gutter < min_gutter:
+            min_gutter, tight = gutter, f"page {idx}, {gutter:.1f} mm off the gutter"
+        min_outer = min(min_outer, outer)
+        min_top = min(min_top, mg["top"])
+        min_bottom = min(min_bottom, mg["bottom"])
+    # enough that every page reaches the rule, and no more than the outer edge can
+    # give back without breaking its own rule
+    shift_x = max(0.0, min(GUTTER_SAFETY_MM + MARGIN_HEADROOM_MM - min_gutter,
+                           min_outer - SAFETY_MM - MARGIN_HEADROOM_MM))
+    shift_y = max(0.0, min(SAFETY_MM + MARGIN_HEADROOM_MM - min_top,
+                           min_bottom - SAFETY_MM - MARGIN_HEADROOM_MM))
+    got_gutter, got_outer = min_gutter + shift_x, min_outer - shift_x
+    got_top, got_bottom = min_top + shift_y, min_bottom - shift_y
+    note = (f"content moved {shift_x:.1f} mm toward the outer edge and {shift_y:.1f} mm down: "
+            f"closest live text is now {got_gutter:.1f} mm off the gutter "
+            f"(was {min_gutter:.1f}), {got_outer:.1f} mm from the outer trim "
+            f"(was {min_outer:.1f}) and {got_top:.1f} mm from the top trim "
+            f"(their rules: {GUTTER_SAFETY_MM:g} mm gutter, {SAFETY_MM:g} mm trim; "
+            f"tightest {tight})")
+    if got_gutter < GUTTER_SAFETY_MM - 0.05:
+        note += (f"; this page cannot reach {GUTTER_SAFETY_MM:g} mm without pushing the "
+                 f"outer margin under {SAFETY_MM:g} mm")
+    elif got_gutter < GUTTER_SAFETY_MM + MARGIN_HEADROOM_MM - 0.05:
+        note += "; the full 1 mm headroom will not fit, the rule itself does"
+    return shift_x, shift_y, note
+
+
+def bleed_page(dst: pymupdf.Document, src: pymupdf.Document, idx: int,
+               shift_x_mm: float = 0.0, shift_y_mm: float = 0.0) -> None:
     """One interior page onto BookVault's text-file media, 222 x 285 mm.
 
     The master is 612 x 792 pt (US Letter); BookVault's trim is 216 x 279 mm,
     which is 612.28 x 790.87 pt. Rather than rescale the page -- and with it
-    every type size in the book -- the page is placed 1:1 centred on the trim
-    box and the leftover margin is filled with the edge smear, so the artwork
-    still reaches the cut line on all four sides.
+    every type size in the book -- the page is placed 1:1 on the trim box and the
+    leftover margin is filled with the edge smear, so the artwork still reaches
+    the cut line on all four sides.
+
+    `shift_x_mm` moves the page toward its OUTER edge and `shift_y_mm` moves it
+    down, so live text clears BookVault's gutter and trim safety margins (see
+    content_shift). Right-hand pages move one way, left-hand pages the other, and
+    what the shift opens at the gutter the smear fills.
     """
     p = src[idx]
     w, h = p.rect.width, p.rect.height
     page = dst.new_page(width=TEXT_W, height=TEXT_H)
 
-    # centred on the trim box, 1:1 (vector -- text stays text, no rescaling)
-    px, py = (TEXT_W - w) / 2.0, (TEXT_H - h) / 2.0
+    # 1:1 on the trim box (vector -- text stays text, no rescaling), then the
+    # safety shift: outboard on a right-hand page, outboard-left on a left-hand.
+    recto = idx % 2 == 1                 # pack page idx: odd pages are right-hand
+    px = (TEXT_W - w) / 2.0 + (shift_x_mm * PT_PER_MM if recto else -shift_x_mm * PT_PER_MM)
+    py = (TEXT_H - h) / 2.0 + shift_y_mm * PT_PER_MM
     page.show_pdf_page(pymupdf.Rect(px, py, px + w, py + h), src, idx)
 
     # The band the bleed is sampled from, on each edge's inside. It must (a)
@@ -645,10 +727,12 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
     content, guide_pages = interior_page_count(slug)
     padded = guide_pages if pad_12n else content   # blanks at the rear only on request
 
+    shift_x_mm, shift_y_mm, shift_note = content_shift(src, 1, n - 2)
+
     stripped_cover = True
     work = pymupdf.open()
     for i in range(1, n - 1):          # page 1 (cover) and last (back cover) out
-        bleed_page(work, src, i)
+        bleed_page(work, src, i, shift_x_mm, shift_y_mm)
     for _ in range(padded - content):      # pad to 12n-1 for their barcode
         blank_page(work)
 
@@ -704,6 +788,8 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
                f"{padded} supplied to carry their barcode on a blank last page")
         ),
         "trim_mm": [TRIM_W_MM, TRIM_H_MM],
+        "content_shift_mm": [round(shift_x_mm, 2), round(shift_y_mm, 2)],
+        "content_shift_note": shift_note,
         "media_mm": [round(pt_to_mm(doc[0].rect.width), 2),
                      round(pt_to_mm(doc[0].rect.height), 2)],
         "trim_pt": [round(doc[0].rect.width, 2), round(doc[0].rect.height, 2)],
@@ -1258,6 +1344,36 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
            " -- a flat bleed can only approximate artwork whose colour runs along "
            "the cut as a steep gradient; the page inside the trim is unaffected"),
         level="fail" if seam_share > 0.2 else "warn")
+    # Live text against BookVault's own margins, read from the packed file: 20 mm
+    # on the gutter (guide p.3) and 5 mm from the trim on the other three edges
+    # (their template). This is what their preview draws over the page.
+    clear = {"gutter": 999.0, "gutter_pg": 0, "edge": 999.0, "edge_pg": 0, "edge_side": ""}
+    for i in range(n):
+        blocks = doc[i].get_text("blocks")
+        if not blocks:
+            continue
+        mw, mh = pt_to_mm(doc[0].rect.width), pt_to_mm(doc[0].rect.height)
+        mg = {"left": min(b[0] for b in blocks) * MM_PER_PT - BLEED_MM,
+              "right": (mw - BLEED_MM) - max(b[2] for b in blocks) * MM_PER_PT,
+              "top": min(b[1] for b in blocks) * MM_PER_PT - BLEED_MM,
+              "bottom": (mh - BLEED_MM) - max(b[3] for b in blocks) * MM_PER_PT}
+        recto = (i + 1) % 2 == 1
+        gutter = mg["left"] if recto else mg["right"]
+        if gutter < clear["gutter"]:
+            clear["gutter"], clear["gutter_pg"] = gutter, i + 1
+        for side in ("top", "bottom", "left", "right"):
+            if mg[side] < clear["edge"]:
+                clear["edge"], clear["edge_pg"], clear["edge_side"] = mg[side], i + 1, side
+    add("Live text clears their 20 mm gutter",
+        clear["gutter"] >= GUTTER_SAFETY_MM,
+        f"closest live text is {clear['gutter']:.1f} mm off the gutter "
+        f"(page {clear['gutter_pg']}); guide p.3 asks for {GUTTER_SAFETY_MM:g} mm")
+    add("Live text clears their 5 mm trim safety",
+        clear["edge"] >= SAFETY_MM,
+        f"closest live text is {clear['edge']:.1f} mm from the "
+        f"{clear['edge_side']} edge (page {clear['edge_pg']}); their template "
+        f"draws a {SAFETY_MM:g} mm safety line")
+
     add("Single pages, portrait",
         len({round(doc[i].rect.width, 1) for i in range(n)}) == 1 and media_h > media_w,
         f"{n} single pages, portrait, all {media_w:.1f} mm wide")
@@ -1382,6 +1498,7 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     L.append(f"  Mono pages ......... 0")
     L.append(f"  ISBN ............... {settings['isbn'] or '(none yet - BookVault can issue a dummy)'}")
     L.append(f"  Print type ......... {settings.get('printType') or 'Colour interior (set it on their form)'}")
+    L.append(f"  Content position ... {text.get('content_shift_note', 'page content centred on the trim')}")
     L.append("")
     L.append(thin)
     L.append("STEP 2  Upload the two files")

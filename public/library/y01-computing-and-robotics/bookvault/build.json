@@ -1,6 +1,6 @@
 {
  "slug": "y01-computing-and-robotics",
- "built": "2026-09-14T12:46:25+00:00",
+ "built": "2026-09-14T14:31:04+00:00",
  "source_pages": 182,
  "source_mtime": 1789235017.4460824,
  "source_bytes": 12631141,
@@ -16,7 +16,7 @@
  "text": {
   "file": "y01-computing-and-robotics-text-file.pdf",
   "url": "/library/y01-computing-and-robotics/bookvault/y01-computing-and-robotics-text-file.pdf",
-  "bytes": 12190476,
+  "bytes": 12417126,
   "pages": 180,
   "content_pages": 180,
   "padded_pages": 0,
@@ -27,6 +27,11 @@
    216.0,
    279.0
   ],
+  "content_shift_mm": [
+   5.08,
+   0.0
+  ],
+  "content_shift_note": "content moved 5.1 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 15.9), 13.0 mm from the outer trim (was 18.0) and 14.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 2, 15.9 mm off the gutter)",
   "media_mm": [
    222.0,
    285.0
@@ -115,6 +120,18 @@
    "level": "warn"
   },
   {
+   "name": "Live text clears their 20 mm gutter",
+   "pass": true,
+   "detail": "closest live text is 21.0 mm off the gutter (page 2); guide p.3 asks for 20 mm",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 5 mm trim safety",
+   "pass": true,
+   "detail": "closest live text is 13.0 mm from the right edge (page 113); their template draws a 5 mm safety line",
+   "level": "ok"
+  },
+  {
    "name": "Single pages, portrait",
    "pass": true,
    "detail": "180 single pages, portrait, all 222.0 mm wide",
@@ -164,9 +181,9 @@
   },
   {
    "name": "Binding-edge clearance",
-   "pass": false,
-   "detail": "closest text is 18.1 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
-   "level": "warn"
+   "pass": true,
+   "detail": "closest text is 23.1 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "level": "ok"
   },
   {
    "name": "No trim or bleed marks",
@@ -203,6 +220,5 @@
   "file": "y01-computing-and-robotics-bookvault.txt",
   "url": "/library/y01-computing-and-robotics/bookvault/y01-computing-and-robotics-bookvault.txt"
  },
- "ok": true,
- "rechecked": "2026-09-14T13:01:03+00:00"
+ "ok": true
 }

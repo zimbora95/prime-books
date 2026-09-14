@@ -1,6 +1,6 @@
 {
  "slug": "y01-art-and-design",
- "built": "2026-09-14T12:35:05+00:00",
+ "built": "2026-09-14T14:19:41+00:00",
  "source_pages": 88,
  "source_mtime": 1789235016.6810155,
  "source_bytes": 10941554,
@@ -16,7 +16,7 @@
  "text": {
   "file": "y01-art-and-design-text-file.pdf",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-text-file.pdf",
-  "bytes": 5242511,
+  "bytes": 5243100,
   "pages": 86,
   "content_pages": 86,
   "padded_pages": 0,
@@ -27,6 +27,11 @@
    216.0,
    279.0
   ],
+  "content_shift_mm": [
+   7.05,
+   0.56
+  ],
+  "content_shift_note": "content moved 7.0 mm toward the outer edge and 0.6 mm down: closest live text is now 20.1 mm off the gutter (was 13.0), 6.0 mm from the outer trim (was 13.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 7, 13.0 mm off the gutter); the full 1 mm headroom will not fit, the rule itself does",
   "media_mm": [
    222.0,
    285.0
@@ -115,6 +120,18 @@
    "level": "ok"
   },
   {
+   "name": "Live text clears their 20 mm gutter",
+   "pass": true,
+   "detail": "closest live text is 20.1 mm off the gutter (page 7); guide p.3 asks for 20 mm",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 5 mm trim safety",
+   "pass": true,
+   "detail": "closest live text is 6.0 mm from the top edge (page 8); their template draws a 5 mm safety line",
+   "level": "ok"
+  },
+  {
    "name": "Single pages, portrait",
    "pass": true,
    "detail": "86 single pages, portrait, all 222.0 mm wide",
@@ -164,9 +181,9 @@
   },
   {
    "name": "Binding-edge clearance",
-   "pass": false,
-   "detail": "closest text is 17.7 mm from the left edge on page 15; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
-   "level": "warn"
+   "pass": true,
+   "detail": "closest text is 24.7 mm from the left edge on page 15; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "level": "ok"
   },
   {
    "name": "No trim or bleed marks",
@@ -203,6 +220,5 @@
   "file": "y01-art-and-design-bookvault.txt",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-bookvault.txt"
  },
- "ok": true,
- "rechecked": "2026-09-14T13:00:22+00:00"
+ "ok": true
 }

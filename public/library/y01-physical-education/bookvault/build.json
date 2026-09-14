@@ -1,6 +1,6 @@
 {
  "slug": "y01-physical-education",
- "built": "2026-09-14T12:33:35+00:00",
+ "built": "2026-09-14T14:18:10+00:00",
  "source_pages": 98,
  "source_mtime": 1789364144.5683124,
  "source_bytes": 11115152,
@@ -17,7 +17,7 @@
  "text": {
   "file": "y01-physical-education-text-file.pdf",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-text-file.pdf",
-  "bytes": 9303569,
+  "bytes": 9306015,
   "pages": 96,
   "content_pages": 96,
   "padded_pages": 0,
@@ -28,6 +28,11 @@
    216.0,
    279.0
   ],
+  "content_shift_mm": [
+   7.03,
+   1.68
+  ],
+  "content_shift_note": "content moved 7.0 mm toward the outer edge and 1.7 mm down: closest live text is now 20.1 mm off the gutter (was 13.0), 6.0 mm from the outer trim (was 13.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 11, 13.0 mm off the gutter); the full 1 mm headroom will not fit, the rule itself does",
   "media_mm": [
    222.0,
    285.0
@@ -116,6 +121,18 @@
    "level": "ok"
   },
   {
+   "name": "Live text clears their 20 mm gutter",
+   "pass": true,
+   "detail": "closest live text is 20.1 mm off the gutter (page 11); guide p.3 asks for 20 mm",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 5 mm trim safety",
+   "pass": true,
+   "detail": "closest live text is 5.8 mm from the top edge (page 3); their template draws a 5 mm safety line",
+   "level": "ok"
+  },
+  {
    "name": "Single pages, portrait",
    "pass": true,
    "detail": "96 single pages, portrait, all 222.0 mm wide",
@@ -165,9 +182,9 @@
   },
   {
    "name": "Binding-edge clearance",
-   "pass": false,
-   "detail": "closest text is 17.8 mm from the left edge on page 17; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
-   "level": "warn"
+   "pass": true,
+   "detail": "closest text is 24.8 mm from the left edge on page 17; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "level": "ok"
   },
   {
    "name": "No trim or bleed marks",
@@ -204,6 +221,5 @@
   "file": "y01-physical-education-bookvault.txt",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-bookvault.txt"
  },
- "ok": true,
- "rechecked": "2026-09-14T12:59:50+00:00"
+ "ok": true
 }

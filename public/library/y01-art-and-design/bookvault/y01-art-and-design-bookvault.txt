@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Art & Design - Year 1
 slug y01-art-and-design
-generated 2026-09-14 13:00 UTC
+generated 2026-09-14 14:19 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -21,6 +21,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
+  Content position ... content moved 7.0 mm toward the outer edge and 0.6 mm down: closest live text is now 20.1 mm off the gutter (was 13.0), 6.0 mm from the outer trim (was 13.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 7, 13.0 mm off the gutter); the full 1 mm headroom will not fit, the rule itself does
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
@@ -47,6 +48,10 @@ STEP 3  Checks
          sampled interior pages carry the master's artwork
   [PASS] Bleed seam matches the artwork
          the smear meets the page with no visible step in the bleed
+  [PASS] Live text clears their 20 mm gutter
+         closest live text is 20.1 mm off the gutter (page 7); guide p.3 asks for 20 mm
+  [PASS] Live text clears their 5 mm trim safety
+         closest live text is 6.0 mm from the top edge (page 8); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
          86 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
@@ -63,8 +68,8 @@ STEP 3  Checks
          no soft masks, transparency groups or blend modes left (guide p.3)
   [OPEN] Images at 300 DPI or better
          107 below 300 DPI, e.g. page 2: 150 DPI; page 3: 150 DPI; page 4: 274 DPI
-  [OPEN] Binding-edge clearance
-         closest text is 17.7 mm from the left edge on page 15; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+  [PASS] Binding-edge clearance
+         closest text is 24.7 mm from the left edge on page 15; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [PASS] Text file is PDF/X-1a:2001 with CMYK

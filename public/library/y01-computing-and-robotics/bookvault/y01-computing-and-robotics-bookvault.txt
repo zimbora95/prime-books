@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Computing & Robotics - Year 1
 slug y01-computing-and-robotics
-generated 2026-09-14 13:01 UTC
+generated 2026-09-14 14:31 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -21,6 +21,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
+  Content position ... content moved 5.1 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 15.9), 13.0 mm from the outer trim (was 18.0) and 14.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 2, 15.9 mm off the gutter)
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
@@ -47,6 +48,10 @@ STEP 3  Checks
          sampled interior pages carry the master's artwork
   [OPEN] Bleed seam matches the artwork
          a step over 10.6 mm at the bottom edge of page 91, 10.6 mm of the bleed -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected
+  [PASS] Live text clears their 20 mm gutter
+         closest live text is 21.0 mm off the gutter (page 2); guide p.3 asks for 20 mm
+  [PASS] Live text clears their 5 mm trim safety
+         closest live text is 13.0 mm from the right edge (page 113); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
          180 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
@@ -63,8 +68,8 @@ STEP 3  Checks
          64 pages still carry it (page 7: transparency group); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)
   [OPEN] Images at 300 DPI or better
          163 below 300 DPI, e.g. page 2: 150 DPI; page 4: 150 DPI; page 5: 150 DPI
-  [OPEN] Binding-edge clearance
-         closest text is 18.1 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+  [PASS] Binding-edge clearance
+         closest text is 23.1 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [OPEN] Text file is PDF/X-1a:2001 with CMYK
