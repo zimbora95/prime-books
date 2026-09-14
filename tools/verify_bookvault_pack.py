@@ -8,6 +8,7 @@ master they came from. Run it after any change to the builder:
 
     .venv/bin/python tools/verify_bookvault_pack.py y01-physical-education
 """
+import json
 import pathlib
 import sys
 
@@ -23,12 +24,45 @@ def mm(v):
 
 
 def ink(page, dpi=36):
+    """Share of pixels that are not the page's own background colour.
+
+    A fixed "is it white?" test is not safe here: converting to CMYK moves a pale
+    tint like the lavender header band from (238,230,249) to (239,229,241), which
+    steps across a fixed threshold and reports a page as having lost a third of
+    its ink when it is pixel-for-pixel the same page. Comparing against the
+    page's modal colour instead measures ink as the eye sees it.
+    """
+    pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
+    s = pix.samples
+    step = pix.n
+    n = pix.width * pix.height
+    hist = {}
+    for i in range(0, len(s), step):
+        hist[s[i:i + 3]] = hist.get(s[i:i + 3], 0) + 1
+    bg = max(hist, key=hist.get)
+    ink = sum(1 for i in range(0, len(s), step)
+              if max(abs(s[i] - bg[0]), abs(s[i + 1] - bg[1]), abs(s[i + 2] - bg[2])) > 16)
+    return ink / max(1, n)
+
+
+def ink_share(page, dpi=36, thresh=45):
+    """Share of near-black pixels -- a masked plate composited on black shows up
+    here as a jump against the same page of the master."""
     pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
     s = pix.samples
     n = pix.width * pix.height
-    white = sum(1 for i in range(0, len(s), 3)
-                if s[i] > 245 and s[i + 1] > 245 and s[i + 2] > 245)
-    return 1.0 - white / max(1, n)
+    dark = sum(1 for i in range(0, len(s), 3)
+               if max(s[i], s[i + 1], s[i + 2]) < thresh)
+    return dark / max(1, n)
+
+
+def masked_images(doc):
+    out = []
+    for pno in range(doc.page_count):
+        for img in doc[pno].get_images(full=True):
+            if img[1]:
+                out.append((pno + 1, img[0]))
+    return out
 
 
 def marker(path):
@@ -59,12 +93,33 @@ def main(slug):
     # the interior's by the point grid, so exact equality is not meaningful.
     if abs(w - (TRIM_W + 2 * BLEED)) > 0.2 or abs(h - (TRIM_H + 2 * BLEED)) > 0.2:
         fails.append(f"text media is {w} x {h} mm, want 222.0 x 285.0")
-    if n % 12 != 11:
-        fails.append(f"{n} pages is not 12n-1")
+    # The page count is checked against what this pack says it is: the owner asked
+    # for no blank pages at the rear, so 12n-1 is only required when it was asked for.
+    declared = {}
+    bj = od / "build.json"
+    if bj.is_file():
+        declared = (json.loads(bj.read_text()).get("text") or {})
+    content = declared.get("content_pages")
+    if declared.get("pad_12n"):
+        if n % 12 != 11:
+            fails.append(f"{n} pages is not 12n-1, but the pack declares padding")
+    elif content is not None and n != content:
+        fails.append(f"{n} pages but the pack says {content} content pages and no padding")
+    else:
+        print(f"       {n} pages, no blank padding: guide p.5 would suggest "
+              f"{declared.get('guide_suggested_pages', '?')} for their barcode page")
     if not d[n - 1].get_text().strip():
         print("       last page blank (their barcode lands there)")
     else:
         print("       NOTE: last page carries content; their barcode goes on it")
+
+    masks = masked_images(d)
+    if masks:
+        fails.append(f"{len(masks)} image(s) still carry a soft mask, e.g. page "
+                     f"{masks[0][0]} xref {masks[0][1]} -- flatten them before "
+                     f"converting (PDF/X-1a allows no transparency)")
+    else:
+        print("       no soft-masked images left (artwork pre-composited)")
 
     md = pymupdf.open(master)
     step = max(1, (n - 12) // 8)
@@ -73,7 +128,14 @@ def main(slug):
         flag = "" if (b < 0.02 and a < 0.05) or a >= b * 0.8 else "  <-- LOST"
         if flag:
             fails.append(f"page {i + 1}: {a:.1%} ink vs master {b:.1%}{flag}")
-        print(f"       p{i + 1:>3} ink {a:6.1%}  master p{i + 2} ink {b:6.1%}{flag}")
+        da, db = ink_share(d[i]), ink_share(md[i + 1])
+        dflag = ""
+        if da - db > 0.03:
+            dflag = "  <-- DARK BLOCK"
+            fails.append(f"page {i + 1}: {da:.1%} near-black vs master {db:.1%}"
+                         f"{dflag} (a masked plate printed on its black base?)")
+        print(f"       p{i + 1:>3} ink {a:6.1%}  master p{i + 2} ink {b:6.1%}"
+              f"  dark {da:5.1%}/{db:5.1%}{flag}{dflag}")
     md.close()
     ver, intent = marker(text)
     print(f"       PDF/X: {ver or '(none - RGB)'}  output intent: {intent}")

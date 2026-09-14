@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education
-generated 2026-09-14 08:44 UTC
+generated 2026-09-14 12:59 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -13,11 +13,11 @@ STEP 1  Add the title on bookvault.app, then enter these specs
                        (Their own template for this book is v4_Text_279_216.pdf: 222 x 285 mm
                        with 3 mm bleed, i.e. 216 x 279 mm finished. BookVault's standard
                        list has no such size, so choose the custom option.)
-  Page count ......... 107 (interior only, covers excluded)
-                       = 96 pages of book + 11 blank at the rear so the
-                       total is one less than a multiple of 12 (guide p.5: their
-                       production barcode is added to the last page)
-  Colour pages ....... 107
+  Page count ......... 96 (interior only, covers excluded)
+                       = 96 pages of book. No blank pages at the rear, by request:
+                       their guide suggests 107 (one less than a multiple of 12) so their
+                       production barcode lands on a blank last page. Here the last page carries content.
+  Colour pages ....... 96
   Mono pages ......... 0
   ISBN ............... 978-1-9999-3624-0
   Print type ......... Colour interior (set it on their form)
@@ -26,12 +26,12 @@ STEP 1  Add the title on bookvault.app, then enter these specs
 STEP 2  Upload the two files
 --------------------------------------------------------------------------
   TEXT FILE   y01-physical-education-text-file.pdf
-              107 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              96 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
               PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
   COVER FILE  y01-physical-education-cover-file.pdf
               5244 x 3366 px at 300 DPI = 443.99 x 284.99 mm
               = back 216 + spine 6 + front 216 + 3 mm bleed (guide p.18)
-              spine 6 mm from 107 interior pages (padded count)
+              spine 6 mm from 96 interior pages (padded count)
               back cover art: pdf-back
 
 --------------------------------------------------------------------------
@@ -42,17 +42,17 @@ STEP 3  Checks
   [PASS] Bleed is 3 mm on all four edges
          guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
   [PASS] Bleed continues the page edge
-         112 of 112 points across the cut lines are flat
+         96 of 96 points across the cut lines are flat
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
   [PASS] Bleed seam matches the artwork
          the smear meets the page with no visible step in the bleed
   [PASS] Single pages, portrait
-         107 single pages, portrait, all 222.0 mm wide
-  [PASS] Page count is 12n-1
-         107 pages (96 of book, 11 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
-  [PASS] Last page is clear for their barcode
-         the final page is blank, so the barcode they add lands on nothing
+         96 single pages, portrait, all 222.0 mm wide
+  [OPEN] Page count is 12n-1
+         96 pages (96 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+  [OPEN] Last page is clear for their barcode
+         the final page carries content -- their barcode will be printed over it
   [PASS] Cover pages stripped from the interior
          the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
   [PASS] All fonts embedded
@@ -64,7 +64,7 @@ STEP 3  Checks
   [OPEN] Images at 300 DPI or better
          58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI
   [OPEN] Binding-edge clearance
-         closest text is 17.8 mm from the left edge on page 35; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         closest text is 17.8 mm from the left edge on page 17; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [PASS] Text file is PDF/X-1a:2001 with CMYK
@@ -74,21 +74,21 @@ STEP 3  Checks
   [PASS] Barcode area clear on the back cover
          the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
-         built at 6 mm from 107 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
+         built at 6 mm from 96 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 
 --------------------------------------------------------------------------
 NOTES
 --------------------------------------------------------------------------
   * In a Prime Books PDF, page 1 is the front cover and the last page
     is the back cover. Both are reprinted inside the cover file, so
-    they are removed from the text file: y01-physical-education.pdf has 109 pages,
-    this text file has 107.
+    they are removed from the text file: y01-physical-education.pdf has 98 pages,
+    this text file has 96.
   * Rules followed here are from BookVault's 'Your Guide to Supplying
     Print-Ready PDF Files', kept in docs/bookvault/ together with the
     two templates they published for this book:
       bleed 3 mm on every edge (p.5); text file media box is
       trim + bleed = 222 x 285 mm (p.5,p.18)
-      page count one less than a multiple of 12: 107 (p.5)
+      page count one less than a multiple of 12: 96 (p.5)
       first page prints on the first right-hand page (p.5), so page 1 is a
       recto. Prime Books pages are not mirrored, so no layout moves; the
       binding-edge check below measures the real clearance instead

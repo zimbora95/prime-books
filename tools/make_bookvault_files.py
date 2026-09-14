@@ -62,6 +62,7 @@ Usage
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import math
 import pathlib
@@ -109,6 +110,13 @@ DPI = 300                 # cover raster resolution (guide p.9: 300 DPI required
 SEG_PT = 1.0              # bleed smear segment length (1 pt: a piece of artwork
                           # no thicker than a rule must not be averaged away)
 SEG_DPI = 600             # resolution the edge is sampled at
+# The bleed continues the page's own edge colour, so it is sampled from a thin
+# band INSIDE the cut, never from the last row: MuPDF renders a page's final
+# ~0.1 pt as near-white (251,249,241), and a strip that touches it averages that
+# phantom row into every colour, lightening the whole bleed margin.
+EDGE_BAND_INSET_PT = 0.15  # start this far inside the edge
+EDGE_BAND_PT = 0.7         # and stop this far inside (0.25 mm band in total)
+SEAM_WINDOW_PT = 3.0       # seam check: compare over ~1 mm windows (see seam_mismatch)
 GHOSTSCRIPT = shutil.which("gs")
 
 # BookVault print defaults for a Prime Books title. Editable per book on the
@@ -174,16 +182,16 @@ def out_dir(slug: str) -> pathlib.Path:
 
 
 def sample_edge(page: pymupdf.Page, horizontal: bool, length_pt: float,
-                at_pt: float, steps: int) -> list[tuple[int, int, int]]:
-    """Average the page's outermost sliver into `steps` colour samples.
+                at_pt: float, steps: int, thickness_pt: float = 1.0) -> list[tuple[int, int, int]]:
+    """Average a strip of the page's edge into `steps` colour samples.
 
     Averaging is done by PIL's BOX resize (C speed). Hand-rolling the loop in
     Python made this 60x slower and is why protos took minutes per book.
     """
     if horizontal:
-        clip = pymupdf.Rect(0, at_pt, length_pt, at_pt + 1.0)
+        clip = pymupdf.Rect(0, at_pt, length_pt, at_pt + thickness_pt)
     else:
-        clip = pymupdf.Rect(at_pt, 0, at_pt + 1.0, length_pt)
+        clip = pymupdf.Rect(at_pt, 0, at_pt + thickness_pt, length_pt)
     pix = page.get_pixmap(clip=clip, dpi=SEG_DPI)
     im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
     if not horizontal:
@@ -194,7 +202,7 @@ def sample_edge(page: pymupdf.Page, horizontal: bool, length_pt: float,
 
 def smear_columns(page: pymupdf.Page, horizontal: bool, offset_pt: float,
                   src_len_pt: float, media_len_pt: float, at_pt: float,
-                  steps_pt: float) -> list[tuple[int, int, int]]:
+                  steps_pt: float, thickness_pt: float = EDGE_BAND_PT) -> list[tuple[int, int, int]]:
     """Edge colours mapped into MEDIA coordinates, with the ends clamped.
 
     The page sits 1:1 inside a slightly larger media box, so media row r shows
@@ -206,7 +214,7 @@ def smear_columns(page: pymupdf.Page, horizontal: bool, offset_pt: float,
     """
     n_media = max(1, int(round(media_len_pt / steps_pt)))
     n_src = max(1, int(round(src_len_pt / steps_pt)))
-    cols = sample_edge(page, horizontal, src_len_pt, at_pt, n_src)
+    cols = sample_edge(page, horizontal, src_len_pt, at_pt, n_src, thickness_pt)
     first, last = cols[0], cols[-1]
     out = []
     for i in range(n_media):
@@ -264,10 +272,15 @@ def bleed_page(dst: pymupdf.Document, src: pymupdf.Document, idx: int) -> None:
     px, py = (TEXT_W - w) / 2.0, (TEXT_H - h) / 2.0
     page.show_pdf_page(pymupdf.Rect(px, py, px + w, py + h), src, idx)
 
-    top = smear_columns(p, True, px, w, TEXT_W, 0.25, SEG_PT)
-    bot = smear_columns(p, True, px, w, TEXT_W, h - 1.25, SEG_PT)
-    lef = smear_columns(p, False, py, h, TEXT_H, 0.25, SEG_PT)
-    rig = smear_columns(p, False, py, h, TEXT_H, w - 1.25, SEG_PT)
+    # The band the bleed is sampled from, on each edge's inside. It must (a)
+    # start inside the phantom white row MuPDF draws in the last ~0.1 pt (see
+    # EDGE_BAND_PT) and (b) run right up to the cut, or the bleed continues
+    # artwork from further inside the page and the cut line shows a step.
+    ins, band = EDGE_BAND_INSET_PT, EDGE_BAND_PT
+    top = smear_columns(p, True, px, w, TEXT_W, ins, SEG_PT, band)
+    bot = smear_columns(p, True, px, w, TEXT_W, h - ins - band, SEG_PT, band)
+    lef = smear_columns(p, False, py, h, TEXT_H, ins, SEG_PT, band)
+    rig = smear_columns(p, False, py, h, TEXT_H, w - ins - band, SEG_PT, band)
 
     # each margin is painted to its own extent: the placement is centred, so
     # the top and bottom strips are not the same thickness as the sides.
@@ -567,19 +580,70 @@ def interior_page_count(slug: str) -> tuple[int, int]:
     return content, content + pad
 
 
-def build_text_file(slug: str, force: bool, do_pdfx: bool) -> dict:
+def alpha_flattened_source(src_path: pathlib.Path, od: pathlib.Path, slug: str):
+    """Composite soft-masked images over their backdrop and drop the mask.
+
+    Ghostscript's PDF/X path throws /SMask away: it writes the image without its
+    mask, so the masked area prints in the plate's own base colour -- for the
+    Prime School logo plate that base is black, which is why pages 1 and 2 of the
+    text file had a black box in the top-right corner. Compositing here also
+    satisfies the guide (PDF/X-1a:2001 allows no transparency) without trusting
+    the converter to get it right. Returns the path of a flattened copy, or None
+    when nothing carried a mask.
+    """
+    doc = pymupdf.open(src_path)
+    seen: set[int] = set()
+    done = 0
+    for pno in range(doc.page_count):
+        page = doc[pno]
+        for img in page.get_images(full=True):
+            xref, smask = img[0], img[1]
+            if not smask or xref in seen:
+                continue
+            seen.add(xref)
+            try:
+                base = doc.extract_image(xref)
+                mask = doc.extract_image(smask)
+                mi = Image.open(io.BytesIO(mask["image"])).convert("L")
+                bi = Image.open(io.BytesIO(base["image"]))
+                mode = bi.mode if bi.mode in ("RGB", "CMYK", "L") else "RGB"
+                if mi.getextrema()[0] == 255:      # mask is fully opaque: redundant
+                    new = bi.convert(mode)
+                else:
+                    backdrop = {"RGB": (255, 255, 255), "CMYK": (0, 0, 0, 0), "L": 255}[mode]
+                    canvas = Image.new(mode, bi.size, backdrop)
+                    canvas.paste(bi.convert(mode), (0, 0), mi)
+                    new = canvas
+                buf = io.BytesIO()
+                new.save(buf, format="PNG")
+                page.replace_image(xref, stream=buf.getvalue())
+                doc.xref_set_key(xref, "SMask", "null")
+                done += 1
+            except Exception as exc:               # never let artwork surgery be fatal
+                print(f"  {slug}: image {xref} left as-is ({type(exc).__name__}: {exc})")
+    if not done:
+        doc.close()
+        return None
+    out = od / f".{slug}-alpha-flat.pdf"
+    doc.save(str(out), garbage=4, deflate=True)
+    doc.close()
+    return out
+
+
+def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False) -> dict:
     src_path = LIBRARY / slug / "book.pdf"
     od = out_dir(slug)
     od.mkdir(parents=True, exist_ok=True)
     final = od / f"{slug}-text-file.pdf"
 
-    src = pymupdf.open(src_path)
+    src = pymupdf.open(alpha_flattened_source(src_path, od, slug) or src_path)
     n = src.page_count
     if n < 4:
         src.close()
         raise SystemExit(f"{slug}: only {n} pages -- not a book")
 
-    content, padded = interior_page_count(slug)
+    content, guide_pages = interior_page_count(slug)
+    padded = guide_pages if pad_12n else content   # blanks at the rear only on request
 
     stripped_cover = True
     work = pymupdf.open()
@@ -606,6 +670,7 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool) -> dict:
         tmp.unlink(missing_ok=True)
     else:
         shutil.move(str(tmp), str(final))
+    (od / f".{slug}-alpha-flat.pdf").unlink(missing_ok=True)
 
     # No PDF/X (Type 3 fonts, or Ghostscript bailed): still remove transparency,
     # which the guide lists as a hard requirement (p.3) rather than a preference.
@@ -628,7 +693,16 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool) -> dict:
         "pages": doc.page_count,
         "content_pages": content,
         "padded_pages": doc.page_count - content,
-        "pages_rule": f"12n-1 ({PAGES_MODULO} x {doc.page_count // PAGES_MODULO + (1 if doc.page_count % PAGES_MODULO else 0)} - 1)",
+        "guide_suggested_pages": guide_pages,
+        "pad_12n": bool(pad_12n),
+        "pages_rule": (
+            f"12n-1 supply ({PAGES_MODULO}n-1); packed {content} content pages, "
+            + ("no blank padding (count is already a multiple of 12)" if padded == content
+               and content % PAGES_MODULO == 0 else
+               f"guide p.5 suggests {guide_pages} -- blank padding not supplied at the owner's request"
+               if padded == content else
+               f"{padded} supplied to carry their barcode on a blank last page")
+        ),
         "trim_mm": [TRIM_W_MM, TRIM_H_MM],
         "media_mm": [round(pt_to_mm(doc[0].rect.width), 2),
                      round(pt_to_mm(doc[0].rect.height), 2)],
@@ -685,7 +759,7 @@ def cover_geometry(spine_mm: float) -> dict:
 
 
 def build_cover_file(slug: str, spine_per_page_mm: float | None, spine_mm: float | None,
-                     force: bool) -> dict:
+                     force: bool, pad_12n: bool = False) -> dict:
     od = out_dir(slug)
     od.mkdir(parents=True, exist_ok=True)
     meta = slug_meta(slug)
@@ -693,7 +767,9 @@ def build_cover_file(slug: str, spine_per_page_mm: float | None, spine_mm: float
     subject = meta["subject"]
 
     book = LIBRARY / slug / "book.pdf"
-    _content, interior_pages = interior_page_count(slug)   # padded: matches the text file
+    _content, interior_pages = interior_page_count(slug)   # matches the text file
+    if not pad_12n:
+        interior_pages = _content
     doc = pymupdf.open(book)
     front = mwc.page_image(doc, 0, DPI)
     back_idx = mwc.find_designed_back(doc)
@@ -816,21 +892,32 @@ def barcode_area_ink(canvas: Image.Image) -> tuple[float, list[int]]:
 
 
 def ink_share(page: pymupdf.Page, dpi: int = 36) -> float:
-    """Fraction of the page that is not near-white (0.0 - 1.0).
+    """Fraction of the page that is not the page's own background colour.
 
     Deliberately crude: it exists to answer "is the artwork still visible at
     all?", which is the question no structural check answers. A page whose text
     is present but invisible (covered by a band, or converted to white) reads as
     ~0.0 here and as perfect everywhere else.
+
+    Measured against the page's MODAL colour rather than against white: the CMYK
+    conversion moves a pale tint (the lavender header band, (238,230,249) ->
+    (239,229,241)) across a fixed 245 threshold, which made a good page read as
+    having lost a third of its ink.
     """
     pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
     samples = pix.samples
     n = pix.width * pix.height
-    white = 0
+    hist: dict[bytes, int] = {}
     for i in range(0, len(samples), 3):
-        if samples[i] > 245 and samples[i + 1] > 245 and samples[i + 2] > 245:
-            white += 1
-    return 1.0 - white / max(1, n)
+        key = samples[i:i + 3]
+        hist[key] = hist.get(key, 0) + 1
+    bg = max(hist, key=hist.get)
+    ink = 0
+    for i in range(0, len(samples), 3):
+        if max(abs(samples[i] - bg[0]), abs(samples[i + 1] - bg[1]),
+               abs(samples[i + 2] - bg[2])) > 16:
+            ink += 1
+    return ink / max(1, n)
 
 
 def page_content_survives(slug: str, doc: pymupdf.Document, sample: int = 8) -> list[str]:
@@ -864,13 +951,13 @@ def page_content_survives(slug: str, doc: pymupdf.Document, sample: int = 8) -> 
     return bad
 
 
-def seam_mismatch(slug: str, doc: pymupdf.Document, sample: int = 4) -> tuple[int, float, str]:
+def seam_mismatch(slug: str, doc: pymupdf.Document, sample: int = 4) -> tuple[int, int, str, int]:
     """Worst discontinuity where the bleed smear meets the artwork.
 
-    Returns (mismatching samples, page number, description). The two meet at the
-    placement edge, just outside the trim line, so a step there prints as a band
-    of the wrong colour in the bleed margin. Sampling is at 300 DPI: one sample
-    is a third of a millimetre.
+    Returns (mismatching windows, page number, description, windows on that edge).
+    The two meet at the placement edge, just outside the trim line, so a step
+    there prints as a band of the wrong colour in the bleed margin. Sampling is at
+    300 DPI: one sample is a third of a millimetre.
     """
     master = LIBRARY / slug / "book.pdf"
     if not master.is_file():
@@ -880,35 +967,86 @@ def seam_mismatch(slug: str, doc: pymupdf.Document, sample: int = 4) -> tuple[in
     md.close()
     px, py = (TEXT_W - w) / 2.0, (TEXT_H - h) / 2.0
     step = max(1, doc.page_count // max(1, sample))
-    worst, where, desc = 0, 0, ""
+    rpp = 300.0 / 72.0                  # pixmap rows (or columns) per point
+    worst, where, desc, worst_of = 0, 0, "", 0
     for i in range(0, doc.page_count, step):
         page = doc[i]
         for side, clip in (
-            ("left", pymupdf.Rect(px - 3, 0, px + 3, page.rect.height)),
-            ("right", pymupdf.Rect(px + w - 3, 0, px + w + 3, page.rect.height)),
-            ("top", pymupdf.Rect(0, py - 3, page.rect.width, py + 3)),
-            ("bottom", pymupdf.Rect(0, py + h - 3, page.rect.width, py + h + 3)),
+            ("left", pymupdf.Rect(px - 4, 0, px + 4, page.rect.height)),
+            ("right", pymupdf.Rect(px + w - 4, 0, px + w + 4, page.rect.height)),
+            ("top", pymupdf.Rect(0, py - 4, page.rect.width, py + 4)),
+            ("bottom", pymupdf.Rect(0, py + h - 4, page.rect.width, py + h + 4)),
         ):
             pix = page.get_pixmap(dpi=300, clip=clip, colorspace=pymupdf.csRGB)
-            s, n3 = pix.samples, pix.width * 3
-            mid = pix.width // 2
-            mrow = pix.height // 2          # top/bottom clips are 6 pt tall
-            rows = pix.height if side in ("left", "right") else pix.width
+            s = pix.samples
+            horiz = side in ("top", "bottom")
+            n_along = pix.width if horiz else pix.height
+            across = pix.height if horiz else pix.width
+            mid = across / 2.0
+            # Which way the page lies from the cut: for the bottom edge, the page
+            # is above and the bleed below, so the same band is mirrored.
+            page_dir = -1.0 if side in ("bottom", "right") else 1.0
+
+            def band_mean(k: int, a_pt: float, b_pt: float) -> list[float]:
+                """Mean colour of the band a_pt..b_pt from the cut, across it."""
+                lo = int(round(mid + a_pt * rpp))
+                hi = int(round(mid + b_pt * rpp))
+                lo, hi = max(0, min(lo, across - 1)), max(0, min(hi, across - 1))
+                if lo > hi:
+                    lo, hi = hi, lo
+                tot = [0.0, 0.0, 0.0]
+                for j in range(lo, hi + 1):
+                    o = ((j * pix.width + k) if horiz else (k * pix.width + j)) * 3
+                    tot[0] += s[o]
+                    tot[1] += s[o + 1]
+                    tot[2] += s[o + 2]
+                n = max(1, hi - lo + 1)
+                return [t / n for t in tot]
+
+            # Compare the artwork just inside the cut with the bleed just outside
+            # it, in windows of SEAM_WINDOW_PT, not column by column and not a
+            # single row. Three artefacts this avoids, each measured on a real
+            # pack: a single row hits MuPDF's phantom near-white row in the page's
+            # last 0.1 pt (reported 176 mm of a healthy bleed as a step); a
+            # per-column test reports the sub-segment texture a flat smear cannot
+            # reproduce; and a 1 pt window still reports the within-segment
+            # change where the artwork runs along the cut as a steep gradient
+            # (Computing & Robotics p91's illustrated right edge, 96 mm). A band
+            # the eye would see is wider than a millimetre.
+            win = SEAM_WINDOW_PT
+            # Windows are aligned to the smear's own segment grid: segment i
+            # starts at media coordinate i * SEG_PT, and the page starts at the
+            # placement offset. Aligning to the clip instead offsets the two
+            # series by up to a segment, and on an edge the artwork runs along as
+            # a steep gradient (Computing & Robotics p91) that alone reads as a
+            # step of 24+ per window.
+            off = px if horiz else py
+            acc: dict[int, list] = {}
+            for k in range(n_along):
+                pos = k * 72.0 / 300.0
+                w_i = int((pos - off) / win)
+                pa = band_mean(k, page_dir * EDGE_BAND_INSET_PT,
+                               page_dir * (EDGE_BAND_INSET_PT + EDGE_BAND_PT))
+                pb = band_mean(k, -page_dir * EDGE_BAND_INSET_PT,
+                               -page_dir * (EDGE_BAND_INSET_PT + EDGE_BAND_PT))
+                slot = acc.setdefault(w_i, [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0])
+                for c in range(3):
+                    slot[c] += pa[c]
+                    slot[3 + c] += pb[c]
+                slot[6] += 1
             bad = 0
-            for k in range(rows):
-                if side in ("left", "right"):
-                    a = s[k * n3 + (mid - 2) * 3: k * n3 + (mid - 2) * 3 + 3]
-                    b = s[k * n3 + (mid + 2) * 3: k * n3 + (mid + 2) * 3 + 3]
-                else:
-                    x = k
-                    a = s[(mrow - 2) * n3 + x * 3: (mrow - 2) * n3 + x * 3 + 3]
-                    b = s[(mrow + 2) * n3 + x * 3: (mrow + 2) * n3 + x * 3 + 3]
+            for slot in acc.values():
+                n = max(1, slot[6])
+                a = [slot[c] / n for c in range(3)]
+                b = [slot[3 + c] / n for c in range(3)]
                 if max(abs(x - y) for x, y in zip(a, b)) > 24:
                     bad += 1
             if bad > worst:
                 worst, where = bad, i + 1
-                desc = f"{side} edge of page {i + 1}, {bad / 300 * 25.4:.1f} mm of the bleed"
-    return worst, where, desc
+                desc = (f"{side} edge of page {i + 1}, "
+                        f"{bad * win / PT_PER_MM:.1f} mm of the bleed")
+                worst_of = len(acc)
+    return worst, where, desc, worst_of
 
 
 def _xref_embedded(doc: pymupdf.Document, xref: int) -> bool:
@@ -1109,12 +1247,17 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
         "sampled interior pages carry the master's artwork" if not survives
         else "; ".join(survives[:3])
              + (f" (and {len(survives) - 3} more)" if len(survives) > 3 else ""))
-    seam, _, seam_where = seam_mismatch(slug, doc)
-    add("Bleed seam matches the artwork", seam <= 8,
+    seam, _, seam_where, seam_of = seam_mismatch(slug, doc)
+    seam_share = seam / max(1, seam_of)
+    add("Bleed seam matches the artwork", seam <= 3,
         "the smear meets the page with no visible step in the bleed"
-        if seam <= 8 else
-        f"a step of {seam / 300 * 25.4:.1f} mm at the {seam_where} -- it sits in "
-        f"the bleed margin, but it should be flat")
+        if seam <= 3 else
+        f"a step over {seam * SEAM_WINDOW_PT / PT_PER_MM:.1f} mm at the {seam_where}"
+        + (" -- a band of the wrong colour across the bleed"
+           if seam_share > 0.2 else
+           " -- a flat bleed can only approximate artwork whose colour runs along "
+           "the cut as a steep gradient; the page inside the trim is unaffected"),
+        level="fail" if seam_share > 0.2 else "warn")
     add("Single pages, portrait",
         len({round(doc[i].rect.width, 1) for i in range(n)}) == 1 and media_h > media_w,
         f"{n} single pages, portrait, all {media_w:.1f} mm wide")
@@ -1227,6 +1370,14 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
         L.append(f"                       total is one less than a multiple of "
                  f"{PAGES_MODULO} (guide p.5: their")
         L.append(f"                       production barcode is added to the last page)")
+    else:
+        L.append(f"                       = {text['content_pages']} pages of book. "
+                 f"No blank pages at the rear, by request:")
+        L.append(f"                       their guide suggests "
+                 f"{text.get('guide_suggested_pages', text['pages'])} (one less than a "
+                 f"multiple of {PAGES_MODULO}) so their")
+        L.append(f"                       production barcode lands on a blank last page. "
+                 f"Here the last page carries content.")
     L.append(f"  Colour pages ....... {text['pages']}")
     L.append(f"  Mono pages ......... 0")
     L.append(f"  ISBN ............... {settings['isbn'] or '(none yet - BookVault can issue a dummy)'}")
@@ -1308,7 +1459,7 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
 
 def build(slug: str, force: bool = False, do_pdfx: bool = True,
           spine_per_page_mm: float | None = None,
-          spine_mm: float | None = None) -> dict:
+          spine_mm: float | None = None, pad_12n: bool = False) -> dict:
     od = out_dir(slug)
     od.mkdir(parents=True, exist_ok=True)
     text_path = od / f"{slug}-text-file.pdf"
@@ -1326,12 +1477,13 @@ def build(slug: str, force: bool = False, do_pdfx: bool = True,
     if fresh:
         text = json.loads((od / "build.json").read_text()) if (od / "build.json").is_file() else None
         if text and text.get("spine_mm") == spine_mm and \
-           text.get("spine_per_page_mm") == spine_per_page_mm:
+           text.get("spine_per_page_mm") == spine_per_page_mm and \
+           bool(text.get("pad_12n")) == bool(pad_12n):
             return {**text, "reused": True}
 
     settings = settings_for(slug)
-    text = build_text_file(slug, force, do_pdfx)
-    cover = build_cover_file(slug, spine_per_page_mm, spine_mm, force)
+    text = build_text_file(slug, force, do_pdfx, pad_12n)
+    cover = build_cover_file(slug, spine_per_page_mm, spine_mm, force, pad_12n)
     checks = validate(slug, text, cover)
     sheet = write_spec_sheet(slug, text, cover, checks, settings)
 
@@ -1362,6 +1514,9 @@ def main() -> None:
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--no-pdfx", action="store_true")
+    ap.add_argument("--pad-12n", action="store_true",
+                    help="pad the interior to 12n-1 blank-ended pages as the guide "
+                         "suggests; off by default so no blank pages reach the reader")
     ap.add_argument("--spine-per-page-mm", type=float, default=None,
                     help=f"mm of spine per interior page (default "
                          f"{SPINE_PER_PAGE_MM:g}, their 80gsm bond figure)")
@@ -1375,7 +1530,8 @@ def main() -> None:
         slugs = [r["slug"] for r in rows() if (LIBRARY / r["slug"] / "book.pdf").is_file()]
     for slug in slugs:
         r = build(slug, force=a.force, do_pdfx=not a.no_pdfx,
-                  spine_per_page_mm=a.spine_per_page_mm, spine_mm=a.spine_mm)
+                  spine_per_page_mm=a.spine_per_page_mm, spine_mm=a.spine_mm,
+                  pad_12n=a.pad_12n)
         fails = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "fail"]
         opens = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "warn"]
         print(f"{slug}: text {r['text']['pages']}pp "

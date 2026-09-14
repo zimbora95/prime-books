@@ -1,6 +1,6 @@
 {
  "slug": "y01-art-and-design",
- "built": "2026-09-14T08:04:59+00:00",
+ "built": "2026-09-14T12:35:05+00:00",
  "source_pages": 88,
  "source_mtime": 1789235016.6810155,
  "source_bytes": 10941554,
@@ -16,11 +16,13 @@
  "text": {
   "file": "y01-art-and-design-text-file.pdf",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-text-file.pdf",
-  "bytes": 5244319,
-  "pages": 95,
+  "bytes": 5242511,
+  "pages": 86,
   "content_pages": 86,
-  "padded_pages": 9,
-  "pages_rule": "12n-1 (12 x 8 - 1)",
+  "padded_pages": 0,
+  "guide_suggested_pages": 95,
+  "pad_12n": false,
+  "pages_rule": "12n-1 supply (12n-1); packed 86 content pages, guide p.5 suggests 95 -- blank padding not supplied at the owner's request",
   "trim_mm": [
    216.0,
    279.0
@@ -45,20 +47,20 @@
   "file": "y01-art-and-design-cover-file.pdf",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-cover-file.pdf",
   "preview": "/library/y01-art-and-design/bookvault/y01-art-and-design-cover-file.png",
-  "bytes": 1077648,
+  "bytes": 1070379,
   "px": [
-   5244,
+   5232,
    3366
   ],
-  "spine_mm": 6.0,
+  "spine_mm": 5.0,
   "full_cover_mm": [
-   443.99,
+   442.98,
    284.99
   ],
-  "width_mm": 443.99,
+  "width_mm": 442.98,
   "height_mm": 284.99,
   "formula_mm": [
-   444.0,
+   443.0,
    285.0
   ],
   "back_src": "pdf-back",
@@ -66,8 +68,8 @@
    216.0,
    279.0
   ],
-  "interior_pages": 95,
-  "spine_text": true,
+  "interior_pages": 86,
+  "spine_text": false,
   "barcode_mm": [
    38.0,
    25.0
@@ -115,20 +117,20 @@
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "95 single pages, portrait, all 222.0 mm wide",
+   "detail": "86 single pages, portrait, all 222.0 mm wide",
    "level": "ok"
   },
   {
    "name": "Page count is 12n-1",
-   "pass": true,
-   "detail": "95 pages (86 of book, 9 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
-   "level": "ok"
+   "pass": false,
+   "detail": "86 pages (86 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "level": "warn"
   },
   {
    "name": "Last page is clear for their barcode",
-   "pass": true,
-   "detail": "the final page is blank, so the barcode they add lands on nothing",
-   "level": "ok"
+   "pass": false,
+   "detail": "the final page carries content -- their barcode will be printed over it",
+   "level": "warn"
   },
   {
    "name": "Cover pages stripped from the interior",
@@ -163,7 +165,7 @@
   {
    "name": "Binding-edge clearance",
    "pass": false,
-   "detail": "closest text is 17.7 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 17.7 mm from the left edge on page 15; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "warn"
   },
   {
@@ -181,7 +183,7 @@
   {
    "name": "Cover file is a perfect-bound spread",
    "pass": true,
-   "detail": "443.99 x 284.99 mm = back 216 + spine 6 + front 216 + 3 mm bleed, by their p.18 formula",
+   "detail": "442.98 x 284.99 mm = back 216 + spine 5 + front 216 + 3 mm bleed, by their p.18 formula",
    "level": "ok"
   },
   {
@@ -193,7 +195,7 @@
   {
    "name": "Spine width taken from their sizing calculator",
    "pass": false,
-   "detail": "built at 6 mm from 95 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "detail": "built at 5 mm from 86 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
    "level": "warn"
   }
  ],
@@ -201,5 +203,6 @@
   "file": "y01-art-and-design-bookvault.txt",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-bookvault.txt"
  },
- "ok": true
+ "ok": true,
+ "rechecked": "2026-09-14T13:00:22+00:00"
 }

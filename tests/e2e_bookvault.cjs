@@ -135,6 +135,9 @@ function check(name, ok, detail) {
   check('upload sheet is offered', !!checks.sheet, checks.sheet || '');
 
   // ---- 6. specifications survive a real reload ---------------------------
+  // This store is production data, not a fixture: read what the title really
+  // has, prove persistence with a temporary value, then put the real one back.
+  const original = await page.inputValue('#bvIsbn');
   const isbn = '978-1-9999-' + String(Date.now()).slice(-4) + '-0';
   await page.fill('#bvIsbn', isbn);
   await page.click('#bvSave');
@@ -147,6 +150,17 @@ function check(name, ok, detail) {
     (want) => document.getElementById('bvIsbn').value === want, isbn, { timeout: 20000 });
   const after = await page.inputValue('#bvIsbn');
   check('specifications survive a real reload (server-side)', after === isbn, after);
+
+  await page.fill('#bvIsbn', original);
+  await page.click('#bvSave');
+  await page.waitForFunction(
+    () => /Saved/.test(document.getElementById('bvMsg').textContent), null,
+    { timeout: 20000 });
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('#bvBody', { state: 'visible', timeout: 30000 });
+  const restored = await page.inputValue('#bvIsbn');
+  check('the real ISBN is put back after the save test', restored === original,
+    `${original} -> ${isbn} -> ${restored}`);
 
   // ---- 7. the button across several books, and an unknown address --------
   const sample = ['y01-art-and-design', 'y01-english', 'y07-computing-structured'];

@@ -1,6 +1,6 @@
 {
  "slug": "y01-computing-and-robotics",
- "built": "2026-09-14T08:30:55+00:00",
+ "built": "2026-09-14T12:46:25+00:00",
  "source_pages": 182,
  "source_mtime": 1789235017.4460824,
  "source_bytes": 12631141,
@@ -16,11 +16,13 @@
  "text": {
   "file": "y01-computing-and-robotics-text-file.pdf",
   "url": "/library/y01-computing-and-robotics/bookvault/y01-computing-and-robotics-text-file.pdf",
-  "bytes": 12163558,
-  "pages": 191,
+  "bytes": 12190476,
+  "pages": 180,
   "content_pages": 180,
-  "padded_pages": 11,
-  "pages_rule": "12n-1 (12 x 16 - 1)",
+  "padded_pages": 0,
+  "guide_suggested_pages": 191,
+  "pad_12n": false,
+  "pages_rule": "12n-1 supply (12n-1); packed 180 content pages, no blank padding (count is already a multiple of 12)",
   "trim_mm": [
    216.0,
    279.0
@@ -38,8 +40,8 @@
   "type3": 85,
   "pdfx": false,
   "flattened": false,
-  "transparent_pages": 71,
-  "note": "kept RGB: 85 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 71 pages (the flattening pass could not clear it)"
+  "transparent_pages": 64,
+  "note": "kept RGB: 85 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 64 pages (the flattening pass could not clear it)"
  },
  "cover": {
   "file": "y01-computing-and-robotics-cover-file.pdf",
@@ -66,7 +68,7 @@
    216.0,
    279.0
   ],
-  "interior_pages": 191,
+  "interior_pages": 180,
   "spine_text": true,
   "barcode_mm": [
    38.0,
@@ -97,7 +99,7 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "112 of 112 points across the cut lines are flat",
+   "detail": "96 of 96 points across the cut lines are flat",
    "level": "ok"
   },
   {
@@ -108,27 +110,27 @@
   },
   {
    "name": "Bleed seam matches the artwork",
-   "pass": true,
-   "detail": "the smear meets the page with no visible step in the bleed",
-   "level": "ok"
+   "pass": false,
+   "detail": "a step over 10.6 mm at the bottom edge of page 91, 10.6 mm of the bleed -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected",
+   "level": "warn"
   },
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "191 single pages, portrait, all 222.0 mm wide",
+   "detail": "180 single pages, portrait, all 222.0 mm wide",
    "level": "ok"
   },
   {
    "name": "Page count is 12n-1",
-   "pass": true,
-   "detail": "191 pages (180 of book, 11 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
-   "level": "ok"
+   "pass": false,
+   "detail": "180 pages (180 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "level": "warn"
   },
   {
    "name": "Last page is clear for their barcode",
-   "pass": true,
-   "detail": "the final page is blank, so the barcode they add lands on nothing",
-   "level": "ok"
+   "pass": false,
+   "detail": "the final page carries content -- their barcode will be printed over it",
+   "level": "warn"
   },
   {
    "name": "Cover pages stripped from the interior",
@@ -151,19 +153,19 @@
   {
    "name": "Transparency flattened",
    "pass": false,
-   "detail": "71 pages still carry it (page 1: image soft mask); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)",
+   "detail": "64 pages still carry it (page 7: transparency group); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)",
    "level": "warn"
   },
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "150 below 300 DPI, e.g. page 2: 150 DPI; page 4: 150 DPI; page 5: 150 DPI",
+   "detail": "163 below 300 DPI, e.g. page 2: 150 DPI; page 4: 150 DPI; page 5: 150 DPI",
    "level": "warn"
   },
   {
    "name": "Binding-edge clearance",
    "pass": false,
-   "detail": "closest text is 18.1 mm from the left edge on page 63; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 18.1 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "warn"
   },
   {
@@ -175,7 +177,7 @@
   {
    "name": "Text file is PDF/X-1a:2001 with CMYK",
    "pass": false,
-   "detail": "kept RGB: 85 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 71 pages (the flattening pass could not clear it)",
+   "detail": "kept RGB: 85 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 64 pages (the flattening pass could not clear it)",
    "level": "warn"
   },
   {
@@ -193,7 +195,7 @@
   {
    "name": "Spine width taken from their sizing calculator",
    "pass": false,
-   "detail": "built at 11 mm from 191 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "detail": "built at 11 mm from 180 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
    "level": "warn"
   }
  ],
@@ -201,5 +203,6 @@
   "file": "y01-computing-and-robotics-bookvault.txt",
   "url": "/library/y01-computing-and-robotics/bookvault/y01-computing-and-robotics-bookvault.txt"
  },
- "ok": true
+ "ok": true,
+ "rechecked": "2026-09-14T13:01:03+00:00"
 }
