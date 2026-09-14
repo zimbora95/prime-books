@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education
-generated 2026-09-14 08:08 UTC
+generated 2026-09-14 08:44 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -19,7 +19,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
                        production barcode is added to the last page)
   Colour pages ....... 107
   Mono pages ......... 0
-  ISBN ............... 978-1-9999-2440-0
+  ISBN ............... 978-1-9999-3624-0
   Print type ......... Colour interior (set it on their form)
 
 --------------------------------------------------------------------------
