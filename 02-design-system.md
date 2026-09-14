@@ -1,5 +1,24 @@
 # 02 - Design System
 
+## Current Primary authority: Standard A 2.0
+
+For **Years 1–6**, use [the complete Primary specification](public/standards/primary-standard.md)
+and [machine-readable tokens](public/standards/primary-standard.json). The measured
+reference is **y01-art-and-design**, with **Beatrix Potter-style illustration**.
+Fredoka + Andika replace the old Primary Lexend/Noto rules. The reference's
+contents-on-page-3 layout replaces any universal welcome-on-3 instruction.
+Unit count follows the subject; the reference's legacy defects are not standards.
+
+The older shared-skeleton and Pack A notes below are historical background where
+they conflict with Standard A 2.0. In particular, the reference back cover DOES
+have a title and publisher block; a full-bleed opener IMAGE is not mandatory;
+authentic evidence photographs and precise technical diagrams may coexist with
+Potter-style narrative illustration. Do not recreate evidence as fictional art.
+Standard B and the Year 6/7 collection boundary remain unchanged.
+
+Replication preflight: `.venv/bin/python tools/audit_standard.py <slug>`.
+A clean automated check still requires editorial, visual, artwork and print review.
+
 One shared layout skeleton, two art directions. A book is 100% in one pack,
 decided by YEAR, never by subject. Never mix packs inside a book.
 

@@ -297,19 +297,16 @@ def build_pages():
         ("warm-up", "Gentle movement before the hard work."),
         ("cool-down", "Slowing the body after the hard work."),
     ]
-    c("Physical Education · Year 1", "Words we used", "WORDS WE USED · 1 TO 7",
+    c("Physical Education · Year 1", "Words we used", "WORDS WE USED · 1 TO 8",
       "Words we used",
       [B.lead("Every word here is used somewhere in this book. Read it, say it, then use "
               "it."),
-       B.table(["Word", "What it means"], [list(w) for w in words[:7]],
-               widths=[0.28, 0.72]),
-       B.spot("sp_words", 168)],
+       B.wordcards([("gl_" + w.replace(" ", "_"), w, m) for w, m in words[:8]], ch=96.0)],
       "WORDS WE USED 1", ("Words we used (1)", 1))
 
-    c("Physical Education · Year 1", "Words we used", "WORDS WE USED · 8 TO 14",
+    c("Physical Education · Year 1", "Words we used", "WORDS WE USED · 9 TO 14",
       "Words we used",
-      [B.table(["Word", "What it means"], [list(w) for w in words[7:]],
-               widths=[0.28, 0.72]),
+      [B.wordcards([("gl_" + w.replace(" ", "_"), w, m) for w, m in words[8:]], ch=96.0),
        B.steps("Try it", ["Carry a mat with a partner.",
                           "Jog twenty seconds, then rest and drink water.",
                           "Say one kind, true sentence."]),
