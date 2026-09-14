@@ -121,6 +121,34 @@ def main(slug):
     else:
         print("       no soft-masked images left (artwork pre-composited)")
 
+    # BookVault draws their safety margins over the preview: 20 mm on the gutter
+    # (guide p.3, interior files) and 5 mm from the trim on the other three edges
+    # (their text template). Read the clearances off the packed pages.
+    trim, edge, gutter = 3.0, 999.0, 999.0
+    where_e = where_g = ""
+    for i in range(n):
+        blocks = d[i].get_text("blocks")
+        if not blocks:
+            continue
+        lft = min(x[0] for x in blocks) / MM - trim
+        rgt = (d[i].rect.width / MM - trim) - max(x[2] for x in blocks) / MM
+        top = min(x[1] for x in blocks) / MM - trim
+        bot = (d[i].rect.height / MM - trim) - max(x[3] for x in blocks) / MM
+        g = lft if (i + 1) % 2 else rgt          # odd packed pages are right-hand
+        if g < gutter:
+            gutter, where_g = g, f"page {i + 1}"
+        for side, v in (("left", lft), ("right", rgt), ("top", top), ("bottom", bot)):
+            if v < edge:
+                edge, where_e = v, f"{side} of page {i + 1}"
+    print(f"       closest text {gutter:.1f} mm off the gutter ({where_g}), "
+          f"{edge:.1f} mm from the trim ({where_e})")
+    if gutter < 20.0:
+        fails.append(f"text {gutter:.1f} mm off the gutter on {where_g}: their "
+                     f"guide asks for 20 mm (guide p.3, interior files)")
+    if edge < 5.0:
+        fails.append(f"text {edge:.1f} mm from the {where_e}: their template "
+                     f"draws a 5 mm trim safety line")
+
     md = pymupdf.open(master)
     step = max(1, (n - 12) // 8)
     for i in range(0, min(n - 12, md.page_count - 2), step):
