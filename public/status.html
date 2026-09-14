@@ -73,6 +73,16 @@
   .stamp{font-family:Verdana,Arial,sans-serif; font-size:12px}
   .stamp.yes{color:var(--moss)}
   .stamp.no{color:#b9b2a2}
+  button.stamp{border:1px solid transparent; background:none; cursor:pointer;
+    border-radius:6px; padding:1px 8px; font-family:Verdana,Arial,sans-serif;
+    font-size:13px; line-height:1.6}
+  button.stamp:hover{border-color:var(--sage); background:#fffdf7}
+  button.stamp[disabled]{opacity:.5; cursor:progress}
+  .toast{position:fixed; left:50%; transform:translateX(-50%); bottom:22px;
+    background:var(--ink); color:#fff; font-family:Verdana,Arial,sans-serif;
+    font-size:12.5px; padding:10px 16px; border-radius:8px; max-width:min(560px,92vw);
+    box-shadow:0 4px 18px rgba(0,0,0,.25); z-index:20}
+  .toast.err{background:#8d3b22}
   tr.hide{display:none}
   .hidden{display:none}
   .note{background:#f4eedd; border:1px solid var(--sage); border-radius:8px;
@@ -123,16 +133,18 @@
 <div class="note">
   <b>Input</b> means the book's source file is on disk at
   <span class="ui">public/inputs/&lt;slug&gt; - input.&lt;ext&gt;</span> — PDF or spreadsheet.
-  <b>Standardised</b> is a manual sign-off, recorded in
-  <span class="ui">public/standardized.json</span>; it is deliberately empty, so every
-  title reads as not yet standardised rather than being inferred from the presence of
-  an input file. A title with no input is not necessarily unbuilt: many books were
-  made from a source that never reached this repository.
+  <b>Standardised</b> is a manual sign-off you make by clicking the column, recorded
+  server-side in <span class="ui">public/standardized.json</span>; it is deliberately
+  empty, so every title reads as not yet standardised rather than being inferred from
+  the presence of an input file. Save from the workshop page — the deployed site is
+  read-only. A title with no input is not necessarily unbuilt: many books were made
+  from a source that never reached this repository.
 </div>
 
 <p class="updated">Generated <span id="gen">–</span> · <a href="/">Catalogue</a> ·
 <a href="/standard">Publishing standard</a></p>
 </div>
+<div id="toast" class="toast hidden"></div>
 <script>
 (function () {
   "use strict";
@@ -178,10 +190,11 @@
     return '<span class="kind yes" title="' + esc(inp.file) + '">&#10003; ' +
       esc(inp.kind) + "</span>";
   }
-  function stdCell(v) {
-    return v
-      ? '<span class="stamp yes" title="signed off">&#10003;</span>'
-      : '<span class="stamp no" title="not yet standardised">—</span>';
+  function stdCell(v, slug) {
+    var t = v ? "signed off — click to undo" : "not yet standardised — click to sign off";
+    return '<button class="stamp ' + (v ? "yes" : "no") + '" data-slug="' + esc(slug) +
+      '" data-on="' + (v ? "1" : "0") + '" title="' + t + '">' +
+      (v ? "&#10003;" : "—") + "</button>";
   }
 
   function rowHtml(r) {
@@ -194,7 +207,7 @@
       '<td class="subject"><a href="/book/' + esc(r.slug) + '">' + esc(r.subject) + "</a></td>" +
       '<td class="pages">' + (r.pages || "–") + "</td>" +
       '<td class="input">' + inputCell(r.input) + "</td>" +
-      '<td class="flag">' + stdCell(r.standardized) + "</td></tr>";
+      '<td class="flag">' + stdCell(r.standardized, r.slug) + "</td></tr>";
   }
 
   function render() {
@@ -230,6 +243,70 @@
     else hint.textContent = Math.round(100 * t.standardized / t.books) + "% of titles";
     document.getElementById("gen").textContent = DATA.generated || "–";
   }
+
+  var toastTimer = null;
+  function toast(msg, isErr) {
+    var el = document.getElementById("toast");
+    el.textContent = msg;
+    el.className = "toast" + (isErr ? " err" : "");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { el.className = "toast hidden"; },
+                            isErr ? 10000 : 3200);
+  }
+
+  /* Recompute the tiles and the per-year roll-ups from the in-page data, so a
+     sign-off is reflected immediately without a reload. */
+  function retally() {
+    var total = 0, withIn = 0, std = 0;
+    DATA.years.forEach(function (y) {
+      y.withInput = y.books.filter(function (b) { return b.input; }).length;
+      y.standardized = y.books.filter(function (b) { return b.standardized; }).length;
+      y.pages = y.books.reduce(function (n, b) { return n + (b.pages || 0); }, 0);
+      total += y.books.length;
+      withIn += y.withInput;
+      std += y.standardized;
+    });
+    DATA.totals.withInput = withIn;
+    DATA.totals.noInput = total - withIn;
+    DATA.totals.standardized = std;
+    tiles(DATA.totals);
+  }
+
+  /* Sign-off: POST the one flag to the workshop file server, which owns
+     standardized.json (global + permanent, the same model as Done status). The
+     deployed site is static, so the POST is expected to fail there - say so
+     plainly rather than pretending it saved. */
+  document.getElementById("years").addEventListener("click", function (ev) {
+    var b = ev.target.closest ? ev.target.closest("button.stamp") : null;
+    if (!b) return;
+    var slug = b.dataset.slug, on = b.dataset.on !== "1";
+    b.disabled = true;
+    var body = {};
+    body[slug] = on;
+    fetch(bases()[0] + "/standardized.json", {
+      method: "POST",
+      cache: "no-store",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body)
+    }).then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    }).then(function () {
+      DATA.years.forEach(function (y) {
+        y.books.forEach(function (row) {
+          if (row.slug === slug) row.standardized = on;
+        });
+      });
+      retally();
+      render();
+      toast((on ? "Signed off: " : "Sign-off removed: ") + slug);
+    }).catch(function () {
+      b.disabled = false;
+      toast("Could not save from here (the deployed site is read-only). Run " +
+            "tools/mark_standardized.py " + slug + " on the workshop box, then " +
+            "refresh this page.", true);
+    });
+  });
 
   document.getElementById("q").addEventListener("input", function (e) {
     query = e.target.value.trim().toLowerCase();

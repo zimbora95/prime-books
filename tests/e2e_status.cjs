@@ -118,6 +118,61 @@ function ok(label, cond, extra) {
   ok('a search with no hits says so',
      /Nothing matches/.test(await page.textContent('#years')));
 
+  /* --- the sign-off: server-side and permanent, or honestly refused -------- */
+  const IS_LOCAL = /127\.0\.0\.1|localhost/.test(BASE);
+  await page.fill('#q', '');          /* the previous case left a no-hits query */
+  await page.click('.chip[data-f="all"]');
+  await page.waitForSelector('#years tbody tr button.stamp', { timeout: 10000 });
+  const slug = await page.getAttribute('#years tbody tr button.stamp', 'data-slug');
+  ok('every row carries a sign-off button', /^[a-z0-9-]+$/.test(slug || ''), String(slug));
+
+  await page.click('#years tbody tr button.stamp');
+  if (IS_LOCAL) {
+    await page.waitForFunction(
+      (s) => {
+        const b = document.querySelector('button.stamp[data-slug="' + s + '"]');
+        return b && b.dataset.on === '1';
+      }, slug, { timeout: 10000 });
+    ok('clicking signs a title off', true);
+    ok('the Standardised tile counts it',
+       (await page.textContent('#t-std')) === '1', await page.textContent('#t-std'));
+    ok('the year roll-up counts it',
+       /standardised 1\//.test(await page.textContent('.yearhead .bar')),
+       await page.textContent('.yearhead .bar'));
+
+    await page.reload({ waitUntil: 'domcontentloaded' });
+    await page.waitForSelector('#years tbody tr button.stamp', { timeout: 15000 });
+    await page.waitForFunction(() => document.getElementById('t-books').textContent !== '–',
+                               null, { timeout: 15000 });
+    ok('the sign-off survives a real reload (not localStorage)',
+       (await page.getAttribute(`button.stamp[data-slug="${slug}"]`, 'data-on')) === '1');
+
+    const store = await (await fetch(BASE + '/standardized.json?cb=' + Date.now())).json();
+    ok('the flag store on disk agrees', store[slug] === true, JSON.stringify(store));
+
+    /* leave the store exactly as we found it */
+    await page.click(`button.stamp[data-slug="${slug}"]`);
+    await page.waitForFunction(
+      (s) => {
+        const b = document.querySelector('button.stamp[data-slug="' + s + '"]');
+        return b && b.dataset.on === '0';
+      }, slug, { timeout: 10000 });
+    const after = await (await fetch(BASE + '/standardized.json?cb=' + Date.now())).json();
+    ok('undoing removes it (store left empty)', Object.keys(after).length === 0,
+       JSON.stringify(after));
+    ok('the tile goes back to none yet',
+       (await page.textContent('#t-std')) === '0' &&
+       /none yet/.test(await page.textContent('#t-std-hint')));
+  } else {
+    await page.waitForTimeout(600);
+    ok('on the static deploy, a click says so instead of pretending to save',
+       /read-only|Could not save/.test(await page.textContent('#toast')),
+       await page.textContent('#toast'));
+    const store = await (await fetch(BASE + '/standardized.json?cb=' + Date.now())).json();
+    ok('the deployed build cannot write the flag store',
+       Object.keys(store).length === 0, JSON.stringify(store));
+  }
+
   ok('no page errors', errors.length === 0, errors.slice(0, 2).join(' | '));
   ok('nothing on the page 404s', bad404.length === 0, bad404.slice(0, 3).join(' | '));
 
