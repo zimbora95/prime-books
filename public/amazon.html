@@ -434,10 +434,15 @@
             box.innerHTML =
               '<img class="am-cover-img" src="' + esc(base + (row.wrapCover || wrap) + "?v=" + Date.now()) + '" alt="Wrap cover (back cover, spine and front cover merged)" />';
             actions.innerHTML =
-              '<a class="am-cover-dl" href="' + esc(base + wrap) + '" download="' +
+              '<a class="am-cover-dl" id="amCoverDl" href="' + esc(base + wrap) + '" download="' +
               esc("WRAP_COVER_" + slug + (isPdf ? ".pdf" : ".png")) + '">&#8681;&nbsp; ' +
               (isPdf ? "Download print PDF (KDP)" : "Download print file") + "</a>" +
               '<button class="am-cover-regen" id="amRegenBtn" title="Rebuild the wrap from the book\u2019s latest PDF pages">&#8635;&nbsp; Regenerate</button>';
+            /* The file lives on the build server, so a plain click would open it
+               in a new tab: the shared helper downloads it in place. */
+            if (window.pbDownloadLink)
+              window.pbDownloadLink(el("amCoverDl"), base + wrap,
+                "WRAP_COVER_" + slug + (isPdf ? ".pdf" : ".png"));
             if (meta && row.pages) meta.textContent = "";
             var rb = el("amRegenBtn");
             if (rb) rb.addEventListener("click", regenerateWrap);
