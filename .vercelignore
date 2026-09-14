@@ -1,0 +1,9 @@
+# BookVault print packs (tools/make_bookvault_files.py) are 10-15 MB per title:
+# the interior text file and the 300 DPI cover wrap. They are derived from
+# library/<slug>/book.pdf, built on demand by the live server, and downloaded
+# through the live tunnel - the deployed page only needs the record (build.json)
+# and the upload sheet, which stay in the deployment.
+public/library/*/bookvault/*.pdf
+public/library/*/bookvault/*.png
+dist/library/*/bookvault/*.pdf
+dist/library/*/bookvault/*.png

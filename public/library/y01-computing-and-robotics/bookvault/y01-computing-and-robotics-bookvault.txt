@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
-Physical Education - Year 1
-slug y01-physical-education
-generated 2026-09-14 08:08 UTC
+Computing & Robotics - Year 1
+slug y01-computing-and-robotics
+generated 2026-09-14 08:30 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -13,25 +13,25 @@ STEP 1  Add the title on bookvault.app, then enter these specs
                        (Their own template for this book is v4_Text_279_216.pdf: 222 x 285 mm
                        with 3 mm bleed, i.e. 216 x 279 mm finished. BookVault's standard
                        list has no such size, so choose the custom option.)
-  Page count ......... 107 (interior only, covers excluded)
-                       = 96 pages of book + 11 blank at the rear so the
+  Page count ......... 191 (interior only, covers excluded)
+                       = 180 pages of book + 11 blank at the rear so the
                        total is one less than a multiple of 12 (guide p.5: their
                        production barcode is added to the last page)
-  Colour pages ....... 107
+  Colour pages ....... 191
   Mono pages ......... 0
-  ISBN ............... 978-1-9999-2440-0
-  Print type ......... Colour interior (set it on their form)
+  ISBN ............... (none yet - BookVault can issue a dummy)
+  Print type ......... Standard
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
 --------------------------------------------------------------------------
-  TEXT FILE   y01-physical-education-text-file.pdf
-              107 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
-              PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
-  COVER FILE  y01-physical-education-cover-file.pdf
-              5244 x 3366 px at 300 DPI = 443.99 x 284.99 mm
-              = back 216 + spine 6 + front 216 + 3 mm bleed (guide p.18)
-              spine 6 mm from 107 interior pages (padded count)
+  TEXT FILE   y01-computing-and-robotics-text-file.pdf
+              191 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              kept RGB: 85 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 71 pages (the flattening pass could not clear it)
+  COVER FILE  y01-computing-and-robotics-cover-file.pdf
+              5303 x 3366 px at 300 DPI = 448.99 x 284.99 mm
+              = back 216 + spine 11 + front 216 + 3 mm bleed (guide p.18)
+              spine 11 mm from 191 interior pages (padded count)
               back cover art: pdf-back
 
 --------------------------------------------------------------------------
@@ -48,47 +48,47 @@ STEP 3  Checks
   [PASS] Bleed seam matches the artwork
          the smear meets the page with no visible step in the bleed
   [PASS] Single pages, portrait
-         107 single pages, portrait, all 222.0 mm wide
+         191 single pages, portrait, all 222.0 mm wide
   [PASS] Page count is 12n-1
-         107 pages (96 of book, 11 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+         191 pages (180 of book, 11 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
   [PASS] Last page is clear for their barcode
          the final page is blank, so the barcode they add lands on nothing
   [PASS] Cover pages stripped from the interior
          the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
   [PASS] All fonts embedded
          every font is embedded (guide p.3)
-  [PASS] No Type 3 glyph-program fonts
-         none: every font is a real embedded font file (guide p.3)
-  [PASS] Transparency flattened
-         no soft masks, transparency groups or blend modes left (guide p.3)
+  [OPEN] No Type 3 glyph-program fonts
+         85 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves
+  [OPEN] Transparency flattened
+         71 pages still carry it (page 1: image soft mask); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)
   [OPEN] Images at 300 DPI or better
-         58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI
+         150 below 300 DPI, e.g. page 2: 150 DPI; page 4: 150 DPI; page 5: 150 DPI
   [OPEN] Binding-edge clearance
-         closest text is 17.8 mm from the left edge on page 35; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         closest text is 18.1 mm from the left edge on page 63; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
-  [PASS] Text file is PDF/X-1a:2001 with CMYK
-         PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  [OPEN] Text file is PDF/X-1a:2001 with CMYK
+         kept RGB: 85 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 71 pages (the flattening pass could not clear it)
   [PASS] Cover file is a perfect-bound spread
-         443.99 x 284.99 mm = back 216 + spine 6 + front 216 + 3 mm bleed, by their p.18 formula
-  [PASS] Barcode area clear on the back cover
-         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+         448.99 x 284.99 mm = back 216 + spine 11 + front 216 + 3 mm bleed, by their p.18 formula
+  [OPEN] Barcode area clear on the back cover
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 58.2% covered by artwork; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
-         built at 6 mm from 107 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
+         built at 11 mm from 191 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 
 --------------------------------------------------------------------------
 NOTES
 --------------------------------------------------------------------------
   * In a Prime Books PDF, page 1 is the front cover and the last page
     is the back cover. Both are reprinted inside the cover file, so
-    they are removed from the text file: y01-physical-education.pdf has 109 pages,
-    this text file has 107.
+    they are removed from the text file: y01-computing-and-robotics.pdf has 193 pages,
+    this text file has 191.
   * Rules followed here are from BookVault's 'Your Guide to Supplying
     Print-Ready PDF Files', kept in docs/bookvault/ together with the
     two templates they published for this book:
       bleed 3 mm on every edge (p.5); text file media box is
       trim + bleed = 222 x 285 mm (p.5,p.18)
-      page count one less than a multiple of 12: 107 (p.5)
+      page count one less than a multiple of 12: 191 (p.5)
       first page prints on the first right-hand page (p.5), so page 1 is a
       recto. Prime Books pages are not mirrored, so no layout moves; the
       binding-edge check below measures the real clearance instead
@@ -103,4 +103,12 @@ NOTES
     This file is converted to CMYK through Ghostscript's default CMYK
     profile, not a FOGRA one - ask BookVault for their output profile and
     rebuild with --profile <icc> if the press is calibrated.
+  * This book carries 85 Type 3 fonts (headings drawn as
+    glyph programs rather than an embedded font). Ghostscript 10.02.1
+    segfaults converting those to CMYK, so the interior is RGB - which
+    BookVault accept and convert themselves (guide p.6). The real fix
+    is in the source book: those headings should use an embedded font.
+  * 71 pages still carry transparency that
+    Ghostscript's flattening pass could not clear; run a preflight
+    flatten before the print run, or fix the same source.
 

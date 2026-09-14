@@ -1,27 +1,26 @@
 {
- "slug": "y01-physical-education",
- "built": "2026-09-14T08:08:21+00:00",
- "source_pages": 98,
- "source_mtime": 1789364144.5683124,
- "source_bytes": 11115152,
+ "slug": "y01-art-and-design",
+ "built": "2026-09-14T08:04:59+00:00",
+ "source_pages": 88,
+ "source_mtime": 1789235016.6810155,
+ "source_bytes": 10941554,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
   "binding": "Perfect bound (paperback)",
   "paper": "Colour interior, 80 gsm uncoated",
   "lamination": "Matte",
-  "isbn": "978-1-9999-2440-0",
-  "printType": "",
-  "spineMm": ""
+  "isbn": "",
+  "printType": "Standard"
  },
  "text": {
-  "file": "y01-physical-education-text-file.pdf",
-  "url": "/library/y01-physical-education/bookvault/y01-physical-education-text-file.pdf",
-  "bytes": 9306180,
-  "pages": 107,
-  "content_pages": 96,
-  "padded_pages": 11,
-  "pages_rule": "12n-1 (12 x 9 - 1)",
+  "file": "y01-art-and-design-text-file.pdf",
+  "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-text-file.pdf",
+  "bytes": 5244319,
+  "pages": 95,
+  "content_pages": 86,
+  "padded_pages": 9,
+  "pages_rule": "12n-1 (12 x 8 - 1)",
   "trim_mm": [
    216.0,
    279.0
@@ -43,10 +42,10 @@
   "note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text"
  },
  "cover": {
-  "file": "y01-physical-education-cover-file.pdf",
-  "url": "/library/y01-physical-education/bookvault/y01-physical-education-cover-file.pdf",
-  "preview": "/library/y01-physical-education/bookvault/y01-physical-education-cover-file.png",
-  "bytes": 1079915,
+  "file": "y01-art-and-design-cover-file.pdf",
+  "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-cover-file.pdf",
+  "preview": "/library/y01-art-and-design/bookvault/y01-art-and-design-cover-file.png",
+  "bytes": 1077648,
   "px": [
    5244,
    3366
@@ -67,7 +66,7 @@
    216.0,
    279.0
   ],
-  "interior_pages": 107,
+  "interior_pages": 95,
   "spine_text": true,
   "barcode_mm": [
    38.0,
@@ -116,13 +115,13 @@
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "107 single pages, portrait, all 222.0 mm wide",
+   "detail": "95 single pages, portrait, all 222.0 mm wide",
    "level": "ok"
   },
   {
    "name": "Page count is 12n-1",
    "pass": true,
-   "detail": "107 pages (96 of book, 11 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "detail": "95 pages (86 of book, 9 blank added at the rear); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
    "level": "ok"
   },
   {
@@ -158,13 +157,13 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI",
+   "detail": "107 below 300 DPI, e.g. page 2: 150 DPI; page 3: 150 DPI; page 4: 274 DPI",
    "level": "warn"
   },
   {
    "name": "Binding-edge clearance",
    "pass": false,
-   "detail": "closest text is 17.8 mm from the left edge on page 35; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 17.7 mm from the left edge on page 31; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "warn"
   },
   {
@@ -194,13 +193,13 @@
   {
    "name": "Spine width taken from their sizing calculator",
    "pass": false,
-   "detail": "built at 6 mm from 107 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "detail": "built at 6 mm from 95 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
    "level": "warn"
   }
  ],
  "sheet": {
-  "file": "y01-physical-education-bookvault.txt",
-  "url": "/library/y01-physical-education/bookvault/y01-physical-education-bookvault.txt"
+  "file": "y01-art-and-design-bookvault.txt",
+  "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-bookvault.txt"
  },
  "ok": true
 }

@@ -150,13 +150,15 @@
           <h2>Text file &mdash; the interior</h2>
           <div id="bvTextBox"></div>
           <div class="bv-note">
-            This is the file BookVault uploads into the <b>text file</b> box. It is the
-            book's own trim size, declared in BookVault as a <b>custom size</b>, with
-            <b>0.125&Prime; (3.175&nbsp;mm) bleed</b> extended from each page's own edge
-            artwork as vector. The <b>front cover and back cover are stripped out</b>:
-            in a Prime Books PDF page 1 is the front cover and the last page is the back
-            cover, and both are reprinted in the cover file &mdash; leaving them in
-            prints the cover twice.
+            This is the file BookVault uploads into the <b>text file</b> box. Trim
+            <b>216 &times; 279&nbsp;mm</b>, declared in BookVault as a <b>custom size</b>,
+            with the <b>3&nbsp;mm bleed</b> their guide asks for on every edge, extended
+            from each page's own edge artwork as vector. The <b>front cover and back
+            cover are stripped out</b>: in a Prime Books PDF page 1 is the front cover
+            and the last page is the back cover, and both are reprinted in the cover
+            file &mdash; leaving them in prints the cover twice. Pages are then padded
+            to <b>12n&minus;1</b> so the production barcode they add lands on a blank
+            last page.
           </div>
           <div class="bv-actions" id="bvTextActions"></div>
         </div>
@@ -165,7 +167,10 @@
           <h2>Cover file &mdash; the wrap</h2>
           <div id="bvCoverBox"></div>
           <div class="bv-note">
-            Back cover + spine + front cover in <b>one print PDF</b>, full bleed, 300&nbsp;DPI.
+            Back cover + spine + front cover in <b>one print PDF</b>, full bleed,
+            300&nbsp;DPI, sized by their own formula
+            <b>2 &times; 216 + spine + 3&nbsp;mm + 3&nbsp;mm</b> by <b>285&nbsp;mm</b>.
+            Their template's barcode box on the back cover is kept clear.
             <span id="bvCoverMeta"></span>
           </div>
           <div class="bv-actions" id="bvCoverActions"></div>
@@ -198,7 +203,19 @@
               <label for="bvIsbn">ISBN (blank = BookVault dummy)</label>
               <input id="bvIsbn" placeholder="978-…" />
             </div>
+            <div class="bv-field">
+              <label for="bvSpine">Spine width, mm (blank = calculated)</label>
+              <input id="bvSpine" type="number" step="0.5" min="1" max="40"
+                     placeholder="e.g. 6" />
+            </div>
           </div>
+          <p class="bv-note">
+            BookVault's guide takes the spine from their
+            <b>home &rarr; help &rarr; sizing calculator</b> for the paper you pick
+            and rounds it <b>up to a whole millimetre</b>. Enter that figure here
+            before building and the cover is cut to it; leave it blank and the spine
+            is estimated at 0.056&nbsp;mm per page, which the checks flag as open.
+          </p>
           <div class="bv-actions">
             <button class="bv-dl" id="bvSave">Save specifications</button>
             <span class="bv-msg" id="bvMsg"></span>
@@ -348,7 +365,8 @@
               .then(function (m) {
                 var got = m && m[slug];
                 if (got && got.binding === entry.binding && got.paper === entry.paper &&
-                    got.isbn === entry.isbn && got.lamination === entry.lamination) {
+                    got.isbn === entry.isbn && got.lamination === entry.lamination &&
+                    String(got.spineMm == null ? "" : got.spineMm) === String(entry.spineMm)) {
                   settings = got;
                   onDone(true);
                 } else if (attempt < 3) setTimeout(post, 600 * attempt);
@@ -376,10 +394,10 @@
           box.innerHTML =
             '<div class="bv-facts">' +
             fact("Interior pages", t.pages) +
-            fact("Trim size", fmtMm(t.trim_pt[0]) + " × " + fmtMm(t.trim_pt[1]) + " mm") +
-            fact("With bleed", fmtMm(t.media_pt[0]) + " × " + fmtMm(t.media_pt[1]) + " mm") +
+            fact("Trim size", fmtMm(t.trim_mm[0]) + " × " + fmtMm(t.trim_mm[1]) + " mm") +
+            fact("With bleed", fmtMm(t.media_mm[0]) + " × " + fmtMm(t.media_mm[1]) + " mm") +
             fact("Size", (t.bytes / 1e6).toFixed(1) + " MB") +
-            fact("Colour", t.pdfx ? "CMYK · PDF/X" : "RGB") +
+            fact("Colour", t.pdfx ? "CMYK · PDF/X-1a" : "RGB (they convert)") +
             "</div>";
           actions.innerHTML =
             '<a class="bv-dl" href="' + esc(fileUrl(t.url)) + '" download="' +
@@ -410,11 +428,14 @@
           el("bvCoverMeta").innerHTML =
             "Spine <b>" + c.spine_mm + " mm</b> from <b>" + c.interior_pages +
             "</b> interior pages; full cover <b>" + fmtMm(c.full_cover_mm[0]) + " × " +
-            fmtMm(c.full_cover_mm[1]) + " mm</b>." +
-            (c.spine_text ? "" : " Spine text is omitted below " +
-              "79 pages.") +
-            " Confirm the spine against the sizing template BookVault shows for this " +
-            "trim, binding and paper.";
+            fmtMm(c.full_cover_mm[1]) + " mm</b>, the p.18 formula " +
+            "(back + spine + front + 3 mm bleed)." +
+            (c.spine_confirmed
+              ? " Spine width taken from the figure saved above." : "") +
+            (c.spine_text ? "" : " Spine text is left off: the spine is under " +
+              "6 mm, too narrow to carry type.") +
+            " Confirm the spine with BookVault's sizing calculator for this trim, " +
+            "binding and paper, then save it above and rebuild.";
         }
 
         function renderChecks() {
@@ -443,6 +464,7 @@
           el("bvLamination").value = s.lamination || "Matte";
           el("bvPaper").value = s.paper || "Colour interior, 80 gsm uncoated";
           el("bvIsbn").value = s.isbn || "";
+          el("bvSpine").value = s.spineMm || "";
         }
 
         function msg(t, cls) {
@@ -547,6 +569,7 @@
             lamination: el("bvLamination").value,
             paper: el("bvPaper").value.trim(),
             isbn: el("bvIsbn").value.trim(),
+            spineMm: el("bvSpine").value.trim(),
           };
           var btn = el("bvSave");
           btn.disabled = true;
