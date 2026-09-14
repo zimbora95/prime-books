@@ -463,6 +463,10 @@
 
         function buildFiles() {
           if (building) return;
+          if (!row || !row.pdf) {
+            msg("This book has no PDF yet, so there is nothing to build for BookVault.", "err");
+            return;
+          }
           building = true;
           setBusy(true);
           msg("Building the interior and the cover on the server\u2026", "");
@@ -581,6 +585,15 @@
               renderSpecs();
               loadRecord(function () {
                 renderText(); renderCover(); renderChecks();
+                /* A book with no PDF yet has nothing to build: say so instead of
+                   starting a two-minute build that can only fail. */
+                if (!row || !row.pdf) {
+                  msg("This book has no PDF yet, so there is nothing to build for " +
+                    "BookVault. Build the book first, then come back.", "err");
+                  var b = el("bvBuild");
+                  if (b) b.disabled = true;
+                  return;
+                }
                 /* a pack built before the book's last edit is out of date:
                    rebuild it without being asked, exactly as the KDP lane does
                    for its wrap cover. */
