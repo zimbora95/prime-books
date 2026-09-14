@@ -1,108 +1,201 @@
 {
  "file": "y09-spanish - input.xlsx",
- "sheet": "Hoja1",
+ "sheet": "Contents",
  "headers": [
-  "section_ids/Unit_ids/name"
+  "Section type",
+  "Title",
+  "Page"
  ],
  "rows": [
   {
-   "section_ids/Unit_ids/name": "Unit 1.1: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar"
+   "Section type": "Unit",
+   "Title": "Unit 1",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 1.2: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar"
+   "Section type": "Subunit",
+   "Title": "1.1 Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 1.3: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar"
+   "Section type": "Subunit",
+   "Title": "1.2 Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 1.4: Self, Family, Friends, Body Health, Daily Routine & Habits + grammar"
+   "Section type": "Subunit",
+   "Title": "1.3 Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Revision Block 1A + grammar"
+   "Section type": "Subunit",
+   "Title": "1.4 Self, Family, Friends, Body Health, Daily Routine & Habits + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "1st Test (2-Week Exam)"
+   "Section type": "Unit",
+   "Title": "Unit 2",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "School activities and Projects 1"
+   "Section type": "Subunit",
+   "Title": "2.1 Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 2.1: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar"
+   "Section type": "Subunit",
+   "Title": "2.2 Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 2.2: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar"
+   "Section type": "Subunit",
+   "Title": "2.3 Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 2.3: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar"
+   "Section type": "Subunit",
+   "Title": "2.4 Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 2.4: Home, Neighborhood, My School, Urban Areas, Climate & Weather + grammar"
+   "Section type": "Unit",
+   "Title": "Unit 3",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Revision Block 1B + grammar"
+   "Section type": "Subunit",
+   "Title": "3.1 Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "2nd Test (2-Week Exam)"
+   "Section type": "Subunit",
+   "Title": "3.2 Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "School activities and Projects 2"
+   "Section type": "Subunit",
+   "Title": "3.3 Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 3.1: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar"
+   "Section type": "Subunit",
+   "Title": "3.4 Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 3.2: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar"
+   "Section type": "Unit",
+   "Title": "Unit 4",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 3.3: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar"
+   "Section type": "Subunit",
+   "Title": "4.1 Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 3.4: Food, Drinks, Meals, Shopping, Leisure Time, Hobbies & Holidays + grammar"
+   "Section type": "Subunit",
+   "Title": "4.2 Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 4.1: Clothes, Colors, Accessories & Communications (The Digital World) + grammar"
+   "Section type": "Subunit",
+   "Title": "4.3 Clothes, Colors, Accessories & Communications (The Digital World) + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 4.2: Clothes, Colors, Accessories & Communications (The Digital World) + grammar"
+   "Section type": "Unit",
+   "Title": "Unit 5",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 4.3: Clothes, Colors, Accessories & Communications (The Digital World) + grammar"
+   "Section type": "Subunit",
+   "Title": "5.1 Travel, Transport, School Trips, Environment & Work + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Revision Block 2 + grammar"
+   "Section type": "Subunit",
+   "Title": "5.2 Travel, Transport, School Trips, Environment & Work + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "3rd Test (2-Week Exam)"
+   "Section type": "Subunit",
+   "Title": "5.3 Travel, Transport, School Trips, Environment & Work + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "School activities and Projects 3"
+   "Section type": "Section",
+   "Title": "Revision Block 1A + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 5.1: Travel, Transport, School Trips, Environment & Work + grammar"
+   "Section type": "Section",
+   "Title": "1st Test (2-Week Exam)",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 5.2: Travel, Transport, School Trips, Environment & Work + grammar"
+   "Section type": "Section",
+   "Title": "School activities and Projects 1",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Unit 5.3: Travel, Transport, School Trips, Environment & Work + grammar"
+   "Section type": "Section",
+   "Title": "Revision Block 1B + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Vocabulary & Grammar Consolidation 3.1"
+   "Section type": "Section",
+   "Title": "2nd Test (2-Week Exam)",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Vocabulary & Grammar Consolidation 3.2"
+   "Section type": "Section",
+   "Title": "School activities and Projects 2",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "General Revision 3.3"
+   "Section type": "Section",
+   "Title": "Revision Block 2 + grammar",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Final Exam Preparation + grammar"
+   "Section type": "Section",
+   "Title": "3rd Test (2-Week Exam)",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "Final Term 3 Exams (2-Week Exam)"
+   "Section type": "Section",
+   "Title": "School activities and Projects 3",
+   "Page": ""
   },
   {
-   "section_ids/Unit_ids/name": "School activities and Projects 4"
+   "Section type": "Section",
+   "Title": "Vocabulary & Grammar Consolidation 3.1",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Vocabulary & Grammar Consolidation 3.2",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "General Revision 3.3",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Final Exam Preparation + grammar",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Final Term 3 Exams (2-Week Exam)",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "School activities and Projects 4",
+   "Page": ""
   }
  ]
 }
