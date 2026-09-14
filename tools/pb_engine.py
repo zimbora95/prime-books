@@ -64,6 +64,16 @@ PE = dict(
 
 TH = PE  # active theme, rebound by set_theme()
 
+# Standard A 2.0 type ladder for Years 1-6. Reading text is 16 pt on 21 pt
+# leading; panels, step lists and kit cards sit one tier below it, captions and
+# table cells below that. Every height function and its draw function read the
+# same key here, so a page measures itself exactly as it draws.
+A2 = dict(lead=16.0, lead_pitch=21.0, para=16.0, para_pitch=21.0,
+          panel=15.0, panel_pitch=18.6, item=15.0, item_pitch=18.6,
+          tail=15.0, tail_pitch=22.0, card=13.0, card_pitch=16.4,
+          card_title=13.0, table=12.5, table_pitch=14.0, cap=11.5,
+          cap_pitch=14.8, qr=13.5, subhead=15.0)
+
 
 def _themed(base, deep, mid, tint, line):
     d = dict(base)
@@ -362,13 +372,14 @@ class B:
         return ("lead", dict(text=text, after=after))
 
     @staticmethod
-    def para(text, size=13.5, pitch=18.7, after=8.0):
-        return ("para", dict(text=text, size=size, pitch=pitch, after=after))
+    def para(text, size=None, pitch=None, after=8.0):
+        return ("para", dict(text=text, size=size or A2["para"],
+                             pitch=pitch or A2["para_pitch"], after=after))
 
     @staticmethod
-    def panel(kind, title, paras, icon=None, bs=13.0, pitch=17.4):
+    def panel(kind, title, paras, icon=None, bs=None, pitch=None):
         return ("panel", dict(kind=kind, title=title, paras=paras, icon=icon,
-                              bs=bs, pitch=pitch))
+                              bs=bs or A2["panel"], pitch=pitch or A2["panel_pitch"]))
 
     @staticmethod
     def today(title, items):
@@ -445,6 +456,10 @@ class B:
         return ("reflist", dict(items=items))
 
     @staticmethod
+    def wordcards(items, cols=2, ch=104.0):
+        return ("wordcards", dict(items=items, cols=cols, ch=ch))
+
+    @staticmethod
     def note(text, who=None):
         return ("note", dict(text=text, who=who))
 
@@ -467,11 +482,11 @@ def bold(x):
 
 
 def h_lead(b):
-    return len(autowrap([(b["text"], "A")], CW, 15.0)[0]) * 20.5 + b["after"]
+    return len(autowrap([(b["text"], "A")], CW, A2["lead"])[0]) * A2["lead_pitch"] + b["after"]
 
 
 def d_lead(pg, y, b):
-    return _para(pg, y, [("", "A")], b["text"], 15.0, 20.5, TH["sub"], b["after"])
+    return _para(pg, y, [("", "A")], b["text"], A2["lead"], A2["lead_pitch"], TH["sub"], b["after"])
 
 
 def h_para(b):
@@ -491,11 +506,11 @@ def _para(pg, y, _runs, text, size, pitch, colour, after):
 
 
 def h_today(b):
-    return PAD + TS + 9 + len(b["items"]) * 19.5 + PAD - 4 + 10
+    return PAD + TS + 9 + len(b["items"]) * A2["item_pitch"] + PAD - 4 + 10
 
 
 def d_today(pg, y, b):
-    total = PAD + TS + 9 + len(b["items"]) * 19.5 + PAD - 4
+    total = PAD + TS + 9 + len(b["items"]) * A2["item_pitch"] + PAD - 4
     r = pymupdf.Rect(ML, y, MR, y + total)
     rrect(pg, r, 9, fill=TH["tint"])
     pg.draw_rect(pymupdf.Rect(ML, y + 5, ML + 4.2, r.y1 - 5), color=None, fill=TH["mid"])
@@ -506,7 +521,7 @@ def d_today(pg, y, b):
     for it in b["items"]:
         ry += 19.5
         ic_tick(pg, ML + PAD + 9.0, ry - 4.6, 6.0, TH["mid"])
-        draw(pg, ML + PAD + 24, ry, it, "A", 13.0, TH["ink"])
+        draw(pg, ML + PAD + 24, ry, it, "A", A2["item"], TH["ink"])
     return r.y1 + 10
 
 
@@ -566,19 +581,19 @@ def d_panel(pg, y, b):
 
 def h_steps(b):
     bw = CW - 2 * PAD - 26
-    wrapped = [autowrap([(t, "A")], bw, 13.0) for t in b["items"]]
-    body = sum(len(l) * 17.4 + 6 for l, _ in wrapped)
+    wrapped = [autowrap([(t, "A")], bw, A2["item"]) for t in b["items"]]
+    body = sum(len(l) * A2["item_pitch"] + 6 for l, _ in wrapped)
     body += 56 if b["extra"] else 0
-    body += len(b["tail"] or []) * 20.0 + (8 if b["tail"] else 0)
+    body += len(b["tail"] or []) * A2["tail_pitch"] + (8 if b["tail"] else 0)
     return PAD + TS + 7 + body + PAD - 2 + 10
 
 
 def d_steps(pg, y, b):
     bw = CW - 2 * PAD - 26
-    wrapped = [autowrap([(t, "A")], bw, 13.0) for t in b["items"]]
-    body = sum(len(l) * 17.4 + 6 for l, _ in wrapped)
+    wrapped = [autowrap([(t, "A")], bw, A2["item"]) for t in b["items"]]
+    body = sum(len(l) * A2["item_pitch"] + 6 for l, _ in wrapped)
     body += 56 if b["extra"] else 0
-    body += len(b["tail"] or []) * 20.0 + (8 if b["tail"] else 0)
+    body += len(b["tail"] or []) * A2["tail_pitch"] + (8 if b["tail"] else 0)
     total = PAD + TS + 7 + body + PAD - 2
     r = pymupdf.Rect(ML, y, MR, y + total)
     rrect(pg, r, 9, fill=(1, 1, 1), stroke=TH["line"], width=0.75)
@@ -592,7 +607,7 @@ def d_steps(pg, y, b):
         draw_c(pg, ML + PAD + 10.5, by + 8.6, str(i + 1), "F", 9.5, (1, 1, 1))
         for ln in ls:
             by += 17.4
-            draw_line_words(pg, ML + PAD + 26, by, ln, 13.0, TH["ink"], tr)
+            draw_line_words(pg, ML + PAD + 26, by, ln, A2["item"], TH["ink"], tr)
         by += 6
     if b["extra"]:
         draw(pg, ML + PAD + 26, by + 14, b["extra"], "F", 9.5, TH["muted"], track=0.45)
@@ -605,16 +620,16 @@ def d_steps(pg, y, b):
         for it in b["tail"]:
             by += 20.0
             ic_checkbox(pg, ML + PAD + 32, by - 4.4, 6.2, TH["mid"])
-            draw(pg, ML + PAD + 48, by, it, "A", 13.0, TH["ink"])
+            draw(pg, ML + PAD + 48, by, it, "A", A2["item"], TH["ink"])
     return r.y1 + 10
 
 
 def h_ticks(b):
-    return PAD + TS + 8 + len(b["items"]) * 20.0 + PAD - 4 + 10
+    return PAD + TS + 8 + len(b["items"]) * A2["item_pitch"] + PAD - 4 + 10
 
 
 def d_ticks(pg, y, b):
-    total = PAD + TS + 8 + len(b["items"]) * 20.0 + PAD - 4
+    total = PAD + TS + 8 + len(b["items"]) * A2["item_pitch"] + PAD - 4
     r = pymupdf.Rect(ML, y, MR, y + total)
     rrect(pg, r, 9, fill=(1, 1, 1), stroke=TH["line"], width=0.75)
     ic_checkbox(pg, ML + PAD + 6.4, y + PAD + TS * 0.36, 5.2, TH["mid"])
@@ -624,7 +639,7 @@ def d_ticks(pg, y, b):
     for it in b["items"]:
         ry += 20.0
         ic_checkbox(pg, ML + PAD + 7.4, ry - 4.4, 6.2, TH["mid"])
-        draw(pg, ML + PAD + 24, ry, it, "A", 13.0, TH["ink"])
+        draw(pg, ML + PAD + 24, ry, it, "A", A2["item"], TH["ink"])
     return r.y1 + 10
 
 
@@ -652,7 +667,7 @@ def _card_lines(cols, ncols):
     cw = (CW - (ncols - 1) * gap) / ncols
     wrapped, maxl = [], 0
     for title, body in cols:
-        ls, tr = autowrap([(body, "A")], cw - 40, 11.5)
+        ls, tr = autowrap([(body, "A")], cw - 40, A2["card"])
         wrapped.append((ls, tr))
         maxl = max(maxl, len(ls))
     return cw, gap, wrapped, maxl
@@ -661,13 +676,13 @@ def _card_lines(cols, ncols):
 def h_cards(b):
     n = len(b["cols"])
     _, _, _, maxl = _card_lines(b["cols"], n)
-    return 32 + maxl * 14.6 + 16 + 10
+    return 32 + maxl * A2["card_pitch"] + 16 + 10
 
 
 def d_cards(pg, y, b):
     n = len(b["cols"])
     cw, gap, wrapped, maxl = _card_lines(b["cols"], n)
-    h = 32 + maxl * 14.6 + 16
+    h = 32 + maxl * A2["card_pitch"] + 16
     for i, (title, body) in enumerate(b["cols"]):
         cx = ML + i * (cw + gap)
         r = pymupdf.Rect(cx, y, cx + cw, y + h)
@@ -678,20 +693,20 @@ def d_cards(pg, y, b):
             tx = cx + 36
         else:
             tx = cx + 14
-        draw(pg, tx, y + 26, title, "F", 12.0, TH["deep"])
+        draw(pg, tx, y + 26, title, "F", A2["card_title"], TH["deep"])
         by = y + 32
         for ln in wrapped[i][0]:
-            by += 14.6
-            draw_line_words(pg, cx + 14, by, ln, 11.5, TH["muted"], wrapped[i][1])
+            by += A2["card_pitch"]
+            draw_line_words(pg, cx + 14, by, ln, A2["card"], TH["muted"], wrapped[i][1])
     return y + h + 10
 
 
 def h_subhead(b):
-    return 14 * 0.8 + 12 + 8
+    return A2["subhead"] * 0.8 + 12 + 8
 
 
 def d_subhead(pg, y, b):
-    draw(pg, ML, y + 12, b["text"], "F", 14.0, TH["deep"])
+    draw(pg, ML, y + 12, b["text"], "F", A2["subhead"], TH["deep"])
     return y + 12 + 8
 
 
@@ -727,10 +742,10 @@ def _table_rows(b):
         cells = []
         for i, cell in enumerate(row):
             w = (xs[i + 1] - xs[i]) - 8
-            ls = autowrap([(cell, "A")], w, 12.0)[0] if cell.strip() else []
+            ls = autowrap([(cell, "A")], w, A2["table"])[0] if cell.strip() else []
             cells.append(ls)
         lines = max([len(c) for c in cells] or [1])
-        out.append((cells, 10 + lines * 13.5))
+        out.append((cells, 10 + lines * A2["table_pitch"]))
     return xs, out
 
 
@@ -753,7 +768,7 @@ def d_table(pg, y, b):
     for j, (cells, h) in enumerate(rows):
         for i, lines in enumerate(cells):
             for k, ln in enumerate(lines):
-                draw_line_words(pg, xs[i], yy + 14 + k * 13.5, ln, 12.0,
+                draw_line_words(pg, xs[i], yy + 14 + k * A2["table_pitch"], ln, A2["table"],
                                 TH["ink"] if i == 0 else TH["muted"], 0.0)
         yy += h
         if j < len(rows) - 1:
@@ -774,7 +789,7 @@ def d_qr(pg, y, b):
     tile = pymupdf.Rect(ML + 12, y + 12, ML + 80, y + 80)
     rrect(pg, tile, 7, fill=(1, 1, 1), stroke=TH["line"], width=0.6)
     pg.insert_image(pymupdf.Rect(tile.x0 + 4, tile.y0 + 4, tile.x1 - 4, tile.y1 - 4),
-                    filename=_qr_png(b["url"]))
+                    filename=_qr_png(b["url"], TH["deep"]))
     tx = ML + 94
     ic_qr(pg, tx + 4.0, y + 22.5, 4.0, TH["mid"])
     draw(pg, tx + 14, y + 26, b["title"].upper(), "F", 10.5, TH["mid"], track=0.45)
@@ -792,13 +807,21 @@ def d_qr(pg, y, b):
 _QR_CACHE = {}
 
 
-def _qr_png(url):
-    if url in _QR_CACHE:
-        return _QR_CACHE[url]
+def _qr_png(url, dark=None):
+    """The QR tile for an address. Modules are drawn in the colour of the unit
+    the code sits in (Standard A 2.0: every educational code is attributed to
+    its unit), never in plain black, so a code belongs to the page it is
+    printed on. Medium error correction keeps it readable from a phone."""
+    dark = dark or TH["deep"]
+    rgb = tuple(round(c * 255) for c in dark)
+    key = (url, rgb)
+    if key in _QR_CACHE:
+        return _QR_CACHE[key]
     import segno
-    path = "/tmp/_qr_%d.png" % (abs(hash(url)) % 10 ** 9)
-    segno.make(url, error="m").save(path, scale=8, border=2, dark="#2b2721")
-    _QR_CACHE[url] = path
+    path = "/tmp/_qr_%d.png" % (abs(hash(key)) % 10 ** 9)
+    segno.make(url, error="m").save(path, scale=8, border=2,
+                                    dark="#%02x%02x%02x" % rgb)
+    _QR_CACHE[key] = path
     return path
 
 
@@ -866,8 +889,8 @@ def h_plate(b):
     h = b["height"]
     if b["caption"]:
         lab, txt = b["caption"]
-        n = len(autowrap([(txt, "A")], CW - tw(lab + " ", "AB", 11.0), 11.0)[0])
-        h += 17 + 14.2 * (n - 1) + 12
+        n = len(autowrap([(txt, "A")], CW - tw(lab + " ", "AB", A2["cap"]), A2["cap"])[0])
+        h += 17 + A2["cap_pitch"] * (n - 1) + 12
     else:
         h += 12
     return h
@@ -894,21 +917,21 @@ def d_plate(pg, y, b):
     if b["caption"]:
         out += 17
         lab, txt = b["caption"]
-        draw(pg, ML, out, lab, "AB", 11.0, TH["deep"])
-        cw = tw(lab, "AB", 11.0) + tw(" ", "A", 11.0)
-        lines = wrap([(txt, "A")], CW - cw, 11.0)
-        draw(pg, ML + cw, out, " ".join(w for w, _ in lines[0]), "A", 11.0, TH["muted"])
+        draw(pg, ML, out, lab, "AB", A2["cap"], TH["deep"])
+        cw = tw(lab, "AB", A2["cap"]) + tw(" ", "A", A2["cap"])
+        lines = wrap([(txt, "A")], CW - cw, A2["cap"])
+        draw(pg, ML + cw, out, " ".join(w for w, _ in lines[0]), "A", A2["cap"], TH["muted"])
         for extra in lines[1:]:
-            out += 14.2
-            draw(pg, ML, out, " ".join(w for w, _ in extra), "A", 11.0, TH["muted"])
+            out += A2["cap_pitch"]
+            draw(pg, ML, out, " ".join(w for w, _ in extra), "A", A2["cap"], TH["muted"])
     return out + 12
 
 
 def h_watch(b):
     bust = 54.0
     bw = CW - 2 * PAD - bust - 12
-    lines = sum(len(autowrap([(t, "A")], bw, 13.0)[0]) for t in b["paras"])
-    return max(PAD + TS + 8 + lines * 17.4 + 4 * len(b["paras"]) + PAD - 2,
+    lines = sum(len(autowrap([(t, "A")], bw, A2["item"])[0]) for t in b["paras"])
+    return max(PAD + TS + 8 + lines * A2["item_pitch"] + 4 * len(b["paras"]) + PAD - 2,
                bust + 2 * PAD) + 10
 
 
@@ -916,8 +939,8 @@ def d_watch(pg, y, b):
     """'Watch me try' card with one of the six drawn in the corner."""
     bust = 54.0
     bw = CW - 2 * PAD - bust - 12
-    wrapped = [autowrap([(t, "A")], bw, 13.0) for t in b["paras"]]
-    bh = sum(len(l) * 17.4 + 4 for l, _ in wrapped)
+    wrapped = [autowrap([(t, "A")], bw, A2["item"]) for t in b["paras"]]
+    bh = sum(len(l) * A2["item_pitch"] + 4 for l, _ in wrapped)
     total = max(PAD + TS + 8 + bh + PAD - 2, bust + 2 * PAD)
     r = pymupdf.Rect(ML, y, MR, y + total)
     rrect(pg, r, 9, fill=(1, 1, 1), stroke=TH["line"], width=0.75)
@@ -930,8 +953,8 @@ def d_watch(pg, y, b):
     yy = y + PAD + TS + 8
     for ls, tr in wrapped:
         for ln in ls:
-            yy += 17.4
-            draw_line_words(pg, ML + PAD + 2, yy, ln, 13.0, TH["ink"], tr)
+            yy += A2["item_pitch"]
+            draw_line_words(pg, ML + PAD + 2, yy, ln, A2["item"], TH["ink"], tr)
         yy += 4
     return r.y1 + 10
 
@@ -993,6 +1016,39 @@ def d_spot(pg, y, b):
     if cap:
         draw_c(pg, W / 2, r.y1 - 8, cap, "A", 11.0, TH["muted"])
     return r.y1 + 10
+
+
+def h_wordcards(b):
+    """Picture-glossary grid: vignette, word, meaning."""
+    cols = b.get("cols", 2)
+    rows = (len(b["items"]) + cols - 1) // cols
+    return rows * (b.get("ch", 104.0) + 10) + 8
+
+
+def d_wordcards(pg, y, b):
+    items, cols = b["items"], b.get("cols", 2)
+    gap, ch = 12.0, b.get("ch", 104.0)
+    cw = (CW - gap * (cols - 1)) / cols
+    for i, (img, word, meaning) in enumerate(items):
+        cx = ML + (i % cols) * (cw + gap)
+        cy = y + (i // cols) * (ch + 10)
+        r = pymupdf.Rect(cx, cy, cx + cw, cy + ch)
+        rrect(pg, r, 10, fill=TH["cream"], stroke=TH["line"], width=0.75)
+        p = _spot_jpg(img, maxpx=340)
+        im = Image.open(p)
+        ih = ch - 24
+        iw = min(ih * im.width / im.height, cw * 0.42)
+        ih = iw * im.height / im.width
+        pg.insert_image(pymupdf.Rect(cx + 12, cy + (ch - ih) / 2, cx + 12 + iw,
+                                     cy + (ch - ih) / 2 + ih), filename=p)
+        tx = cx + 12 + iw + 13
+        draw(pg, tx, cy + 31, word, "F", 15.0, TH["deep"])
+        for k, ln in enumerate(autowrap([(meaning, "A")], cx + cw - 12 - tx,
+                                       12.5)[0][:3]):
+            draw(pg, tx, cy + 48 + k * 15.2, " ".join(w for w, _ in ln), "A", 12.5,
+                 TH["ink"])
+    rows = (len(items) + cols - 1) // cols
+    return y + rows * (ch + 10) + 8
 
 
 _SPOT_CACHE = {}
@@ -1214,7 +1270,7 @@ def d_qrgrid(pg, y, b):
         t = pymupdf.Rect(cx + (cw - 74) / 2, cy + 10, cx + (cw + 74) / 2, cy + 84)
         rrect(pg, t, 6, fill=(1, 1, 1), stroke=TH["line"], width=0.6)
         pg.insert_image(pymupdf.Rect(t.x0 + 4, t.y0 + 4, t.x1 - 4, t.y1 - 4),
-                        filename=_qr_png(url))
+                        filename=_qr_png(url, TH["deep"]))
         for ln in autowrap([(title, "A")], cw - 18, 10.5)[0][:2]:
             draw_c(pg, cx + cw / 2, cy + 98, " ".join(w for w, _ in ln), "A", 10.5, TH["ink"])
             break
@@ -1257,6 +1313,7 @@ def h_toc(b):
 
 
 BLOCKS["toc"] = (h_toc, d_toc)
+BLOCKS["wordcards"] = (h_wordcards, d_wordcards)
 BLOCKS["qrgrid"] = (h_qrgrid, d_qrgrid)
 BLOCKS["reflist"] = (h_reflist, d_reflist)
 

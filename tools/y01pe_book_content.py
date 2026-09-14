@@ -380,17 +380,6 @@ def build_pages():
        B.spot("sp_facts", 158)],
       "WHERE THE FACTS CAME FROM", ("Where the facts came from", 1))
 
-    c("Prime School Press", "Sources", "OUR SOURCES · FOR THE TEACHER", "Watch and learn",
-      [B.lead("Every link in this book, in one place. Open these on a staff device first, "
-              "then show the class."),
-       B.qrgrid([(LINKS[k][1], LINKS[k][0]) for k in (
-           "supermovers", "shakeup", "cosmic", "gonoodle", "yst", "nhs_active",
-           "nhs_five", "nature", "rspb", "bhf", "nhs_food", "cambridge")], cols=4),
-       B.para("All of these addresses were opened and checked before this book went to "
-              "print. If an address ever stops working, the teacher can find the same "
-              "organisation by name.", size=11.5, pitch=15.5, after=0)],
-      "WATCH AND LEARN", ("Watch and learn (for the teacher)", 1))
-
     c("Prime School Press", "Sources", "OUR SOURCES · FOR THE TEACHER", "Our sources",
       [B.lead("Every fact and every address in this book comes from a named organisation, "
               "so an adult can look it up."),
@@ -403,6 +392,17 @@ def build_pages():
            "drawn in the Prime School Press studio. There are no photographs of real "
            "people in this book."], icon="kit")],
       "OUR SOURCES", ("Our sources", 1))
+
+    c("Prime School Press", "Sources", "OUR SOURCES · FOR THE TEACHER", "Watch and learn",
+      [B.lead("Every link in this book, in one place. Open these on a staff device first, "
+              "then show the class."),
+       B.qrgrid([(LINKS[k][1], LINKS[k][0]) for k in (
+           "supermovers", "shakeup", "cosmic", "gonoodle", "yst", "nhs_active",
+           "nhs_five", "nature", "rspb", "bhf", "nhs_food", "cambridge")], cols=4),
+       B.para("All of these addresses were opened and checked before this book went to "
+              "print. If an address ever stops working, the teacher can find the same "
+              "organisation by name.", size=11.5, pitch=15.5, after=0)],
+      "WATCH AND LEARN", ("Watch and learn (for the teacher)", 1))
 
     # ------------------------------------------- contents: units as cards ---
     groups, run = [], []

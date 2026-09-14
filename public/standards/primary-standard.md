@@ -1,5 +1,16 @@
 # Standard A 2.0 · Prime Books · Years 1–6
 
+> **How this document now relates to the house gate.** `tools/audit_standard.py`
+> is the machine-checked authority for Years 1–6: it measures the published
+> master and fails a book that breaks the house rules. Where this document and
+> that tool differ, **the tool and the shipped book win** — specifically: the
+> interior display heading is 24.5 pt (not 24), unit openers flood the unit's
+> **deep** tone (not its mid tone), and the contents page is the six-segment
+> mid-tone colour bar followed by one card per unit (not a dot-leader list).
+> The unit colour order is fixed as: 1 light blue, 2 meadow green, 3 rose,
+> 4 golden, 5 lilac, 6 clay. This document's type ladder, component behaviour
+> and illustration direction remain the working specification on top of that.
+
 ## Authority and scope
 
 **Design reference: Year 1 Art & Design, with Beatrix Potter-style illustration direction.**

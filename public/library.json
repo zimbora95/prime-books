@@ -137,11 +137,11 @@
     "band": "Cambridge Early Years",
     "family": "storybook",
     "level": "Lower Primary",
-    "pages": 72,
+    "pages": 98,
     "done": false,
     "pdf": "/library/y01-physical-education/book.pdf",
     "cover": "/library/y01-physical-education/cover.webp",
-    "mb": 11.04,
+    "mb": 11.12,
     "buildable": true,
     "editable": true,
     "wrapCover": null

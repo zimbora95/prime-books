@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education
-generated 2026-09-14 04:32 UTC
+generated 2026-09-14 05:10 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -12,34 +12,34 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Trim size .......... CUSTOM 215.9 mm wide x 279.4 mm high
                        (US Letter: 8.5 x 11 in. BookVault's standard list
                        has no US Letter, so choose the custom size option.)
-  Page count ......... 70 (interior only, covers excluded)
-  Colour pages ....... 70
+  Page count ......... 96 (interior only, covers excluded)
+  Colour pages ....... 96
   Mono pages ......... 0
-  ISBN ............... 978-1-9999-9163-0
+  ISBN ............... 978-1-9999-2440-0
   Print type ......... 
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
 --------------------------------------------------------------------------
   TEXT FILE   y01-physical-education-text-file.pdf
-              70 pages, 630.0 x 810.0 pt = 222.25 x 285.75 mm with bleed
+              96 pages, 630.0 x 810.0 pt = 222.25 x 285.75 mm with bleed
               PDF/X-3:2002, CMYK, fonts embedded, text kept as text
   COVER FILE  y01-physical-education-cover-file.pdf
-              5224 x 3375 px at 300 DPI = 442.32 x 285.75 mm
-              spine 4.17 mm from 70 interior pages
+              5243 x 3375 px at 300 DPI = 443.87 x 285.75 mm
+              spine 5.72 mm from 96 interior pages
               back cover art: pdf-back
 
 --------------------------------------------------------------------------
 STEP 3  Checks
 --------------------------------------------------------------------------
   [PASS] Pages are single pages, not spreads
-         every page 222.25 x 285.75 mm (all 70 the same width)
+         every page 222.25 x 285.75 mm (all 96 the same width)
   [PASS] Page count is even (back cover lands alone in a spread)
-         70 interior pages
+         96 interior pages
   [PASS] Bleed on every edge
          3.17 mm (0.125 in) added all round
   [PASS] Bleed continues the page edge
-         112 of 112 points across the cut lines are flat
+         96 of 96 points across the cut lines are flat
   [PASS] Trim size declared
          215.9 x 279.4 mm as a BookVault CUSTOM size; enter these numbers exactly
   [PASS] Cover pages stripped from the interior
@@ -47,21 +47,21 @@ STEP 3  Checks
   [PASS] All fonts embedded
          every font embedded
   [OPEN] Images at 300 DPI or better
-         53 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 6: 138 DPI
+         58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI
   [PASS] PDF/X with CMYK colour
          PDF/X-3:2002, CMYK, fonts embedded, text kept as text
   [PASS] Cover file is a full wrap
-         back 442.32 x 285.75 mm, spine 4.17 mm
+         back 443.87 x 285.75 mm, spine 5.72 mm
   [OPEN] Spine width confirmed against BookVault's template
-         built at 4.17 mm from 70 pages x 0.002347 in/page -- check the template shown when you create the title and pass --spine-per-page if it differs
+         built at 5.72 mm from 96 pages x 0.002347 in/page -- check the template shown when you create the title and pass --spine-per-page if it differs
 
 --------------------------------------------------------------------------
 NOTES
 --------------------------------------------------------------------------
   * In a Prime Books PDF, page 1 is the front cover and the last page
     is the back cover. Both are reprinted inside the cover file, so
-    they are removed from the text file: y01-physical-education.pdf has 72 pages,
-    this text file has 70.
+    they are removed from the text file: y01-physical-education.pdf has 98 pages,
+    this text file has 96.
   * Bleed is extended from each page's own edge artwork, as vector,
     so the running-header band and any full-bleed art carry to the
     trim line with no hairline gap.

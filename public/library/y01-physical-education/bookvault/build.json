@@ -1,22 +1,22 @@
 {
  "slug": "y01-physical-education",
- "built": "2026-09-14T04:32:24+00:00",
- "source_pages": 72,
- "source_mtime": 1789359372.165383,
- "source_bytes": 11041729,
+ "built": "2026-09-14T05:10:56+00:00",
+ "source_pages": 98,
+ "source_mtime": 1789362357.8722215,
+ "source_bytes": 11115144,
  "spine_per_page": 0.002347,
  "settings": {
   "binding": "Perfect bound (paperback)",
   "paper": "Colour interior, 80 gsm uncoated",
   "lamination": "Matte",
-  "isbn": "978-1-9999-9163-0",
+  "isbn": "978-1-9999-2440-0",
   "printType": ""
  },
  "text": {
   "file": "y01-physical-education-text-file.pdf",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-text-file.pdf",
-  "bytes": 8305544,
-  "pages": 70,
+  "bytes": 9288256,
+  "pages": 96,
   "trim_pt": [
    612.0,
    792.0
@@ -34,15 +34,15 @@
   "file": "y01-physical-education-cover-file.pdf",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-cover-file.pdf",
   "preview": "/library/y01-physical-education/bookvault/y01-physical-education-cover-file.png",
-  "bytes": 1070333,
+  "bytes": 1083768,
   "px": [
-   5224,
+   5243,
    3375
   ],
-  "spine_in": 0.16429,
-  "spine_mm": 4.17,
+  "spine_in": 0.22531,
+  "spine_mm": 5.72,
   "full_cover_mm": [
-   442.32,
+   443.87,
    285.75
   ],
   "back_src": "pdf-back",
@@ -50,20 +50,20 @@
    8.5,
    11.0
   ],
-  "interior_pages": 70,
-  "spine_text": false
+  "interior_pages": 96,
+  "spine_text": true
  },
  "checks": [
   {
    "name": "Pages are single pages, not spreads",
    "pass": true,
-   "detail": "every page 222.25 x 285.75 mm (all 70 the same width)",
+   "detail": "every page 222.25 x 285.75 mm (all 96 the same width)",
    "level": "ok"
   },
   {
    "name": "Page count is even (back cover lands alone in a spread)",
    "pass": true,
-   "detail": "70 interior pages",
+   "detail": "96 interior pages",
    "level": "ok"
   },
   {
@@ -75,7 +75,7 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "112 of 112 points across the cut lines are flat",
+   "detail": "96 of 96 points across the cut lines are flat",
    "level": "ok"
   },
   {
@@ -99,7 +99,7 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "53 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 6: 138 DPI",
+   "detail": "58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI",
    "level": "warn"
   },
   {
@@ -111,13 +111,13 @@
   {
    "name": "Cover file is a full wrap",
    "pass": true,
-   "detail": "back 442.32 x 285.75 mm, spine 4.17 mm",
+   "detail": "back 443.87 x 285.75 mm, spine 5.72 mm",
    "level": "ok"
   },
   {
    "name": "Spine width confirmed against BookVault's template",
    "pass": false,
-   "detail": "built at 4.17 mm from 70 pages x 0.002347 in/page -- check the template shown when you create the title and pass --spine-per-page if it differs",
+   "detail": "built at 5.72 mm from 96 pages x 0.002347 in/page -- check the template shown when you create the title and pass --spine-per-page if it differs",
    "level": "warn"
   }
  ],

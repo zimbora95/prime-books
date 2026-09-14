@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Verify the built Year 1 Physical Education interior before publishing it.
+"""Verify the rebuilt Year 1 Physical Education interior before publishing it.
 
-Read-only: no page is written, nothing is published. It replays the builder's
-own page plan (tools/y01pe_a2_build.py: assemble()) and then checks the file on
-disk against it:
+Read-only. It replays the builder's own page plan (tools/y01pe_a2_build.py:
+assemble()) and then checks the file on disk against it:
 
-1. every contents entry points at a page that really carries that title;
+1. every contents card points at a page that really carries that title;
 2. every interior page carries its folio, in the folio position;
 3. no page runs past the type area, outside the margins, or sits empty;
-4. each unit has its own band and rule colour, and no two units share one;
+4. every interior page is set in its unit's own colour;
 5. every QR code decodes back to the address printed beside it;
-6. reading text is at least Standard A 2.0's Year 1 size (16 pt).
+6. reading text is at least Standard A 2.0's Year 1 size (16 pt);
+7. the page count is even, so the flipbook never shows the back cover alone.
 
   ./.venv/bin/python tools/y01pe_a2_verify.py [path-to-book.pdf]
 """
@@ -40,31 +40,56 @@ def bare(url):
     return re.sub(r"^https?://(www\.)?", "", (url or "").strip()).rstrip("/").lower()
 
 
+def hx(c):
+    return "#%02x%02x%02x" % tuple(round(v * 255) for v in c)
+
+
+def contents_items(groups):
+    """Every (label, page) pair on the contents cards, however they are nested."""
+    out = []
+
+    def row(x):
+        return (isinstance(x, (list, tuple)) and len(x) == 2
+                and isinstance(x[0], str) and isinstance(x[1], int))
+
+    def walk(node):
+        if row(node):
+            out.append((node[0], node[1]))
+        elif isinstance(node, dict):
+            walk(node.get("items"))
+        elif isinstance(node, (list, tuple)):
+            for x in node:
+                walk(x)
+
+    walk(groups)
+    return out
+
+
 def main(path):
-    flat, entries, _placed = build.assemble()
-    by_num = {p["num"]: p for p in flat}
+    flat, groups, _placed = build.assemble()
     doc = pymupdf.open(path)
     problems = []
 
-    # 1 ---- the contents page tells the truth -----------------------------
+    # 1 ---- the contents cards tell the truth -----------------------------
     checked = 0
-    for label, num, lvl, _col in entries:
-        if num is None or not (3 <= num <= doc.page_count):
+    for label, num in contents_items(groups):
+        if not (1 <= num <= doc.page_count):
             problems.append("contents: %r points at page %s" % (label, num))
             continue
-        # a contents label may describe its page ("Look back: the whole year",
-        # "Words we used (2)"): check the part that is the page's own title
-        core = norm(re.sub(r"\(.*?\)", "", label.split("·")[-1].split(":")[0]))
+        core = norm(re.sub(r"\(.*?\)", "", label.split(":")[0]))
         got = norm(" ".join(doc[num - 1].get_text().splitlines()[:8]))
         if core and core not in got:
             problems.append("contents: p%d should be %r, page reads %r"
-                            % (num, label, got[:64]))
+                            % (num, label, got[:60]))
         checked += 1
 
-    # 2/3 ---- folio, box, emptiness ---------------------------------------
+    # 2/3/4 ---- folio, box, emptiness, unit colour ------------------------
+    tints = {}
     for p in flat:
         num, page = p["num"], doc[p["num"] - 1]
         opener = p["kind"] == "opener"
+        unit = p.get("unit") or 0
+        theme = E.UNIT_THEMES.get(unit, E.UNIT_THEMES[0])
         marks = [w for w in page.get_text("words")
                  if w[4].strip() == str(num) and w[0] > 500 and w[3] > 745]
         if not marks:
@@ -81,22 +106,21 @@ def main(path):
                     break
             if len(page.get_text().strip()) < 120 and not page.get_images(full=True):
                 problems.append("empty: page %d has almost nothing on it" % num)
-
-    # 4 ---- one colour per unit ------------------------------------------
-    colours = {}
-    for p in flat:
-        u = build.unit_of(p.get("spec") or {}) or 0
-        page = doc[p["num"] - 1]
         pix = page.get_pixmap(alpha=False)
-        band = "#%02x%02x%02x" % pix.pixel(int(E.W / 2), int(E.BAND_H - 0.5))[:3]
-        rule = "#%02x%02x%02x" % pix.pixel(int(E.W / 2), int(E.BAND_H))[:3]
-        colours.setdefault(u, set()).add(band + "/" + rule)
-    for u, c in sorted(colours.items(), key=lambda kv: kv[0]):
-        if u and len(c) != 1:
-            problems.append("colour: unit %d mixes %s" % (u, sorted(c)))
-    bands = {u: sorted(c)[0].split("/")[1] for u, c in colours.items() if u}
-    if len(set(bands.values())) != len(bands):
-        problems.append("colour: units share a rule colour: %s" % bands)
+        band = "#%02x%02x%02x" % pix.pixel(int(E.W / 2), 20)[:3]
+        if opener:
+            flood = "#%02x%02x%02x" % pix.pixel(int(E.W) - 20, 600)[:3]
+            if flood != hx(theme["deep"]):
+                problems.append("colour: opener p%d flooded %s, unit %d deep is %s"
+                                % (num, flood, unit, hx(theme["deep"])))
+            tints.setdefault(unit, 0)
+            tints[unit] += 1
+            continue
+        tints.setdefault(unit, 0)
+        tints[unit] += 1
+        if band != hx(theme["tint"]):
+            problems.append("colour: p%d band %s, unit %d tint is %s"
+                            % (num, band, unit, hx(theme["tint"])))
 
     # 5 ---- QR codes decode back to the printed address -------------------
     import numpy as np
@@ -115,8 +139,6 @@ def main(path):
         qr_pages += 1
         qr_count += len(got)
         body = norm(page.get_text())
-        # a page that carries the teacher's link grid prints the titles, not the
-        # addresses; there the gate is that every code points somewhere known
         grid = any(n == "qrgrid" for n, _x in (p.get("spec") or {}).get("blocks", []))
         known = {bare(v[0]) for v in C.LINKS.values()}
         for u in got:
@@ -138,10 +160,20 @@ def main(path):
     if body_size < 16.0:
         problems.append("type: the most-read size is only %.1f pt" % body_size)
 
+    # 7 ---- parity, and the apparatus ends the book -------------------------
+    if doc.page_count % 2:
+        problems.append("parity: %d pages is odd" % doc.page_count)
+    tail = " ".join(doc[i].get_text().upper()
+                    for i in range(doc.page_count - 3, doc.page_count))
+    if "WATCH" not in tail:
+        problems.append("apparatus: no 'Watch and learn' link page in the last "
+                        "three pages")
+
     print("interior pages        :", len(flat))
+    print("total pages           :", doc.page_count)
     print("contents entries check:", checked)
     print("QR pages / codes      :", qr_pages, "/", qr_count)
-    print("unit rule colours     :", bands)
+    print("pages per unit        :", dict(sorted(tints.items())))
     print("reading text size     :", body_size, "pt")
     print("type histogram (top 6):", sizes.most_common(6))
     if problems:

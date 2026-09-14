@@ -1,25 +1,26 @@
 #!/usr/bin/env python3
-"""Rebuild Year 1 Physical Education onto Prime Books Standard A 2.0.
+"""Rebuild the Year 1 Physical Education interior on Prime Books Standard A 2.0.
 
-Deltas against the master now on disk:
+Runs on top of the current house engine (tools/pb_engine.py), which already
+carries one colour per unit and the card-style contents page. What this builder
+adds:
 
-* SIX UNIT THEMES. The previous build never called set_theme(), so every
-  interior page kept the module-global ochre theme and the whole book read as
-  one colour. Each unit now carries its own named theme (band tint, rule,
-  kicker, headings, badges, opener flood), and the contents page is colour-keyed
-  to the units it lists.
-* STANDARD A 2.0 TYPE. 16 pt reading text on 21 pt leading, 24 pt page titles,
-  larger step lists, panels and captions, measured with the same profile the
-  pages are drawn with.
-* REPAGINATION. Bigger type moves the page boundaries, so content pages are
-  packed block by block and split into continuation pages before folios and the
-  contents page are generated.
-* SCAN AND SHOW. Link-checked educational QR codes on an irregular subset of
-  topic pages - never every page - in the unit's own colour, and every rendered
-  code is decoded back to its URL as a gate.
+* STANDARD A 2.0 TYPE. The engine's A2 ladder is live: 16 pt reading text on
+  21 pt leading, 15 pt panels and step lists, larger captions and table cells.
+* REPAGINATION. Bigger type moves the page boundaries, so every content page is
+  measured block by block and split into continuation pages, then folios and the
+  card contents page are regenerated from the finished list (so the contents can
+  never drift from the book).
+* SCAN AND SHOW. Link-checked educational QR codes are attributed to the unit
+  that carries them, tinted in that unit's colour, and scattered over an
+  irregular subset of topic pages - never every page.
+* PICTURE GLOSSARY. The picture-glossary cards for the fourteen words.
+* PARITY. The flipbook needs an even page count; if the rebuilt interior lands
+  on an odd number, a teacher's "scan and show" index page is added rather than
+  leaving the back cover alone on a spread.
 
-Cover (page 1), imprint (page 2) and back cover are spliced from the master, so
-nothing outside the interior changes here.
+Cover, imprint and the Welcome page (1-3) and the back cover are spliced in from
+the master, so nothing outside the interior changes here.
 """
 import json
 import os
@@ -41,27 +42,8 @@ MASTER = os.path.join(REPO, "public", "library", "y01-physical-education", "book
 OUT = os.path.join(WORK, "book_new.pdf")
 SEED = 20260914
 QR_PER_UNIT = 3
-
-
-def theme(deep, mid, tint, line):
-    return dict(deep=E.hx(deep), mid=E.hx(mid), tint=E.hx(tint), line=E.hx(line),
-                cream=E.hx("fffbf3"), amber=E.hx("f1b300"), green=E.hx("4e6b45"),
-                gtint=E.hx("edf3e6"), warn=E.hx("b4442a"), wtint=E.hx("faede4"),
-                ink=E.hx("2b2721"), muted=E.hx("6e6759"),
-                band_text=E.hx("ffffff"), sub=E.hx("3a3226"))
-
-
-HOUSE = E.PE                      # ochre: cover, imprint, front and back matter
-UNIT_THEMES = {
-    1: (theme("#2c4127", "#4e6b45", "#edf3e6", "#d5e0cb"), "Meadow green"),
-    2: (theme("#1e4e6b", "#3c7ca6", "#eaf3f9", "#cfe0eb"), "Watching blue"),
-    3: (theme("#6e2a25", "#b4564e", "#fbedec", "#edd6d3"), "Dancing rose"),
-    4: (theme("#6b4a0c", "#c08a1e", "#fdf3dc", "#f0e0bb"), "Team amber"),
-    5: (theme("#442f63", "#7a5fa0", "#f4eff9", "#e2d9ee"), "Responsibility violet"),
-    6: (theme("#6b3410", "#b4622a", "#faede2", "#eed9c8"), "Healthy terracotta"),
-}
-# which link-checked addresses belong to which unit; the seeded scatter decides
-# which pages of that unit actually carry one (roughly one page in three)
+TOC_LEAD = "Six units, one after another. Every unit has its own colour."
+# unit -> the link-checked addresses that unit may carry
 UNIT_LINKS = {
     1: ["supermovers", "shakeup", "nature", "gonoodle"],
     2: ["supermovers_all", "rspb", "gonoodle"],
@@ -70,35 +52,12 @@ UNIT_LINKS = {
     5: ["yst", "rspb", "bhf"],
     6: ["nhs_active", "bhf", "nhs_five", "nhs_exercise"],
 }
-WORD_UNITS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6}
-
-
-def unit_of(spec):
-    """Read the unit number out of a page's running head, if it has one."""
-    spec = spec or {}
-    for key in ("kick", "hl", "hr"):
-        text = (spec.get(key) or "").replace("·", " ").replace("|", " ")
-        for i, word in enumerate(text.split()):
-            if word.lower() in ("unit", "units"):
-                parts = text.split()
-                if i + 1 < len(parts):
-                    nxt = parts[i + 1].strip(".,:").lower()
-                    if nxt.isdigit():
-                        return int(nxt)
-                    if nxt in WORD_UNITS:
-                        return WORD_UNITS[nxt]
-    return None
-
-
-def theme_for(spec):
-    n = unit_of(spec)
-    return UNIT_THEMES[n][0] if n in UNIT_THEMES else HOUSE
 
 
 # ------------------------------------------------------------- pagination ---
 def page_top(title):
     """Reproduces content_page()'s first-content y, so packing matches drawing."""
-    ts = E.fit_size(title, "F", 24.0, E.CW, floor=17.0)
+    ts = E.fit_size(title, "F", 24.5, E.CW, floor=17.0)
     return E.TOP + 1.0 + 7.6 + 6.0 + ts * 0.80 + 8
 
 
@@ -140,166 +99,206 @@ def pack(spec, gap=26.0):
 
 
 def plan_qr(pages, rng):
-    """Attach a link-checked QR to an irregular subset of the topic pages."""
-    placed = []
-    by_unit = {}
+    """Attach a link-checked QR to an irregular subset of the unit topic pages."""
+    placed, by_unit = [], {}
     for p in pages:
         spec = p.get("spec") or {}
-        u = unit_of(spec)
-        if p["kind"] == "content" and u in UNIT_THEMES \
+        unit = p.get("unit") or 0
+        if p["kind"] == "content" and unit in UNIT_LINKS \
                 and "TOPIC" in (spec.get("kick") or "").upper():
-            by_unit.setdefault(u, []).append(p)
-    for u, plist in sorted(by_unit.items()):
-        pool = UNIT_LINKS[u]
+            by_unit.setdefault(unit, []).append(p)
+    for unit, plist in sorted(by_unit.items()):
+        pool = UNIT_LINKS[unit]
         picks = sorted(rng.sample(range(len(plist)), min(QR_PER_UNIT, len(plist))))
         for i, idx in enumerate(picks):
             page, key = plist[idx], pool[i % len(pool)]
             page["spec"]["blocks"] = list(page["spec"]["blocks"]) + [
                 C.qr(key, blurb=C.LINKS[key][2] + "  " + C.LINKS[key][3])]
-            placed.append((page["num"], key, page["spec"]["title"]))
+            placed.append((key, page["spec"]["title"]))
     for key, want in (("rspb", "meadow"), ("supermovers_all", "Look back")):
         for p in pages:
             spec = p.get("spec") or {}
             if p["kind"] == "content" and want.lower() in (spec.get("title") or "").lower():
                 spec["blocks"] = list(spec["blocks"]) + [C.qr(key)]
-                placed.append((p["num"], key, spec["title"]))
+                placed.append((key, spec["title"]))
                 break
     return placed
 
 
-def assemble():
-    """The whole page plan, exactly as the book renders it: themes applied, QR
-    codes placed, overflowing content pages split, folios renumbered and the
-    contents page generated from the finished list. Returns (flat, entries)."""
-    pages, toc = C.build_pages()
-    rng = random.Random(SEED)
-    for p in pages:
-        p["theme"] = theme_for(p.get("spec"))
-    placed = plan_qr(pages, rng)
+def remap_groups(groups, first_new):
+    """Rewrite every contents-card page number against the rebuilt numbering.
 
-    flat, first_new = [], {}
+    A contents row is any two-item list/tuple of (label, page). Anything else is
+    walked into: the cards nest rows inside dicts and lists.
+    """
+    def row(x):
+        return (isinstance(x, (list, tuple)) and len(x) == 2
+                and isinstance(x[0], str) and isinstance(x[1], int))
+
+    def walk(node):
+        if row(node):
+            num = first_new.get(node[1], node[1])
+            return [node[0], num] if isinstance(node, list) else (node[0], num)
+        if isinstance(node, dict):
+            return {k: walk(v) for k, v in node.items()}
+        if isinstance(node, (list, tuple)):
+            out = [walk(x) for x in node]
+            return out if isinstance(node, list) else tuple(out)
+        return node
+
+    return walk(groups)
+
+
+def teacher_page():
+    """The teacher's one-page index of every address used in the book."""
+    links = sorted({k for ks in UNIT_LINKS.values() for k in ks})
+    return dict(kind="content", unit=0,
+                spec=dict(hl="Prime School Press",
+                          hr="Physical Education · Year 1",
+                          kick="SCAN AND SHOW · FOR THE TEACHER",
+                          title="Scan and show",
+                          blocks=[
+                              E.B.lead("Every address in this book, in one "
+                                       "place, so an adult can check one before "
+                                       "the lesson and open it on a screen."),
+                              C.qr("supermovers",
+                                   "The routine we use most",
+                                   "BBC Teach Super Movers: songs and movement "
+                                   "for Key Stage 1.  about 5 minutes each"),
+                              E.B.reflist([(C.LINKS[k][1], C.LINKS[k][0],
+                                            C.LINKS[k][3]) for k in links])]),
+                folio="SCAN AND SHOW", num=0)
+
+
+def assemble(gap=26.0, teacher_index=None):
+    """The whole page plan as the book will render it.
+
+    Page count has to come out even (the flipbook shows two pages at a time), so
+    when the rebuilt interior is odd the teacher's index page is added just
+    before the sources, which also keeps the 'Watch and learn' link page inside
+    the last three pages of the book.
+    """
+    pages, groups = C.build_pages()
+    rng = random.Random(SEED)
+    placed = plan_qr(pages, rng)
+    if teacher_index:
+        pages.append(teacher_page())
+
+    # flatten, repaginating content pages; folios are assigned after the split
+    flat = []
     for p in pages:
         old = p["num"]
         if p["kind"] == "content":
-            for spec in pack(p["spec"]):
+            for spec in pack(p["spec"], gap):
                 flat.append(dict(p, spec=spec, _old=old))
         else:
             flat.append(dict(p, _old=old))
+
+    if teacher_index is None and (3 + len(flat) + 1) % 2:
+        idx = next((i for i, p in enumerate(flat)
+                    if (p.get("spec") or {}).get("kick", "").startswith("OUR SOURCES")),
+                   len(flat))
+        flat.insert(idx, dict(teacher_page(), _old=None))
+
+    first_new = {}
     for i, p in enumerate(flat):
-        p["num"] = 3 + i
-        first_new.setdefault(p["_old"], p["num"])
+        p["num"] = 4 + i
+        if p["_old"] is not None:
+            first_new.setdefault(p["_old"], p["num"])
 
-    by_num = {p["num"]: p for p in flat}
-
-    def colour_of(num):
-        p = by_num.get(num)
-        if not p:
-            return None
-        t = p["theme"]
-        return None if t is HOUSE else (t["deep"] if p["kind"] == "opener" else t["mid"])
-
-    entries = []
-    for label, oldnum, lvl in toc:
-        entries.append((label, first_new.get(oldnum, oldnum), lvl,
-                        colour_of(first_new.get(oldnum, oldnum))))
-
+    groups = remap_groups(groups, first_new)
     toc_page = [p for p in flat if p["kind"] == "toc"][0]
-    toc_page["spec"] = dict(
-        hl="Prime School Press", hr="Physical Education · Year 1",
-        kick="PHYSICAL EDUCATION · YEAR 1", title="What is inside?",
-        blocks=[E.B.toc(entries)])
-    return flat, entries, placed
+    toc_page["spec"] = dict(hl="Prime School Press",
+                            hr="Physical Education · Year 1",
+                            kick="PHYSICAL EDUCATION · YEAR 1",
+                            title="What is inside?",
+                            blocks=[E.B.toc(groups, lead=TOC_LEAD)])
+    return flat, groups, placed
 
 
-def main():
-    os.makedirs(WORK, exist_ok=True)
-    flat, entries, placed = assemble()
-
-    # ---- render -----------------------------------------------------------
+def render(flat, out_path):
     doc = pymupdf.open()
-    over, sparse, outofbox, bands, qr_pages = [], [], [], [], []
+    over, sparse, outofbox = [], [], []
     for p in flat:
-        E.set_theme(p["theme"])
         spec = p["spec"]
         if p["kind"] == "opener":
             pg, bottom = E.render_opener(doc, spec, p["num"])
             lim = (20.0, 580.0)
         else:
-            pg, bottom, bad = E.render_page(doc, spec, p["folio"], p["num"])
+            pg, bottom, bad = E.render_page(doc, spec, p["folio"], p["num"],
+                                            unit=p.get("unit") or 0)
             lim = (E.ML - 1.5, E.MR + 1.5)
             text_len = len(pg.get_text().strip())
             if bad:
                 over.append((p["num"], round(bottom, 1)))
             if text_len < 140 and not any(n == "plate" for n, _ in spec["blocks"]):
                 sparse.append((p["num"], text_len))
-            if any(n == "qr" for n, _ in spec["blocks"]):
-                qr_pages.append(p)
         for b in pg.get_text("dict")["blocks"]:
             if b.get("type") != 0:
                 continue
             x0, y0, x1, y1 = b["bbox"]
             if x1 > lim[1] or x0 < lim[0] or y1 > 776:
                 outofbox.append((p["num"], round(x0, 1), round(x1, 1), round(y1, 1)))
-        pix = pg.get_pixmap(matrix=pymupdf.Matrix(1, 1), alpha=False)
-        samples = pix.pixel(int(E.W / 2), int(E.BAND_H - 0.5))
-        band = "#%02x%02x%02x" % samples[:3]
-        bands.append((p["num"], unit_of(spec) or 0, band))
 
-    # ---- decode every rendered QR back to its URL -------------------------
-    det = cv2 = None
-    try:
-        import cv2
-        det = cv2.QRCodeDetector()
-    except Exception as exc:                    # pragma: no cover
-        print("!! no cv2, cannot decode QRs:", exc)
-    decoded, failed = [], []
-    if det is not None:
-        import numpy as np
-        for p in qr_pages:
-            page = doc[p["num"] - 3]
-            pix = page.get_pixmap(matrix=pymupdf.Matrix(3, 3), alpha=False)
-            img = np.frombuffer(pix.samples, dtype=np.uint8).reshape(
-                pix.height, pix.width, pix.n)[:, :, :3]
-            ok, texts, _pts, _ = det.detectAndDecodeMulti(img)
-            seen = {t.strip() for t in (texts or []) if t}
-            want = [b[1]["url"].strip() for b in p["spec"]["blocks"] if b[0] == "qr"]
-            missing = [u for u in want if u not in seen]
-            if missing:
-                failed.append((p["num"], sorted(seen), missing))
-            else:
-                decoded.extend((p["num"], u) for u in want)
-
-    # ---- splice outside pages from the master -----------------------------
+    # The outside pages are not rebuilt: cover, imprint and the Welcome page come
+    # from the published master, and so does the back cover. The master may
+    # already be a previous Standard A 2.0 build, so identify those pages by what
+    # is on them rather than by a fixed page count.
     old = pymupdf.open(MASTER)
-    assert old.page_count == 72, old.page_count
+    assert old.page_count >= 8 and old.page_count % 2 == 0, old.page_count
+    assert "Physical Education" in old[0].get_text(), "master p1 is not the cover"
+    assert "IMPRINT" in old[1].get_text().upper().replace(" ", ""), "master p2"
+    assert "WELCOME" in old[2].get_text().upper(), "master p3 is not the Welcome"
+    back = old.page_count - 1
+    assert "PRIME" in old[back].get_text().upper().replace(" ", ""), "back cover"
     out = pymupdf.open()
-    out.insert_pdf(old, from_page=0, to_page=1)
-    out.insert_pdf(doc)
-    out.insert_pdf(old, from_page=71, to_page=71)
+    out.insert_pdf(old, from_page=0, to_page=2)       # cover, imprint, Welcome
+    out.insert_pdf(doc)                              # rebuilt interior
+    out.insert_pdf(old, from_page=back, to_page=back)  # back cover
+    # pages 2 and 3 inherit an older number badge; give them the house badge
+    E.set_theme(E.UNIT_THEMES[0])
+    for i in (1, 2):
+        pg = out[i]
+        pg.draw_rect(pymupdf.Rect(526, 726, 578, 778), color=None, fill=(1, 1, 1))
+        pg.draw_circle(E.FOLIO_C, E.FOLIO_R, color=None, fill=E.TH["mid"])
+        E.draw_c(pg, E.FOLIO_C[0], E.FOLIO_C[1] + 3.9, str(i + 1), "F", 11, (1, 1, 1))
     out.set_metadata(old.metadata)
-    out.save(OUT, deflate=True, garbage=3, clean=True)
+    out.save(out_path, deflate=True, garbage=3, clean=True)
+    return out.page_count, over, sparse, outofbox
 
-    unit_bands = {}
-    for num, u, band in bands:
-        unit_bands.setdefault(u, set()).add(band)
-    report = dict(interior=doc.page_count, total=out.page_count,
-                  qr_pages=[(n, k) for n, k, _t in placed],
-                  qr_decoded=len(decoded), qr_failed=failed,
+
+def main():
+    os.makedirs(WORK, exist_ok=True)
+    flat, groups, placed = assemble()
+    interior = len(flat)
+    total = 3 + interior + 1
+    if (interior + 4) % 2 == 0 and any(
+            (p.get("spec") or {}).get("title") == "Scan and show" for p in flat):
+        print("odd interior: the teacher index page was added before the sources")
+
+    total, over, sparse, outofbox = render(flat, OUT)
+    unit_counts = {}
+    for p in flat:
+        if p["kind"] == "content" and (p.get("unit") or 0):
+            unit_counts[p["unit"]] = unit_counts.get(p["unit"], 0) + 1
+    report = dict(interior=interior, total=total, even=total % 2 == 0,
+                  qr=[k for k, _ in placed],
+                  qr_pages=[t for _k, t in placed],
                   overflow=over, sparse=sparse, out_of_margin=outofbox,
-                  unit_bands={u: sorted(v) for u, v in unit_bands.items()},
-                  themes={u: name for u, (_t, name) in UNIT_THEMES.items()})
+                  unit_pages=unit_counts,
+                  themes={u: ("#" + "".join("%02x" % round(c * 255)
+                                            for c in t["mid"]))
+                          for u, t in E.UNIT_THEMES.items() if u})
     with open(os.path.join(WORK, "report.json"), "w") as fh:
         json.dump(report, fh, indent=1)
-    print("interior pages      :", doc.page_count, "(master interior was 69)")
-    print("total pages         :", out.page_count)
-    print("QR codes placed     :", len(placed), "decoded:", len(decoded))
-    for n, k, t in placed:
-        print("   p%-3d %-16s %s" % (n, k, t[:52]))
-    print("QR failures         :", failed)
-    print("unit band colours   :", {u: sorted(v)[0] for u, v in unit_bands.items()})
-    print("overflowing pages   :", over)
-    print("sparse pages        :", sparse)
-    print("out-of-margin text  :", outofbox)
+    print("interior pages :", interior, " total:", total, "even:", total % 2 == 0)
+    print("QR codes       :", len(placed), "on", len(set(report["qr_pages"])), "pages")
+    for k, t in placed:
+        print("   %-16s %s" % (k, t[:56]))
+    print("unit pages     :", unit_counts)
+    print("overflow       :", over)
+    print("sparse         :", sparse)
+    print("out of margin  :", outofbox)
     return 0
 
 
