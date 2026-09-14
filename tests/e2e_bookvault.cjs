@@ -119,6 +119,30 @@ function check(name, ok, detail) {
     cover && cover.status === 200 && +cover.len > 100000,
     cover ? `${(cover.len / 1e6).toFixed(1)} MB` : 'no link');
 
+  /* ---- 3b. the download starts IN PLACE ----------------------------------
+     A browser ignores an anchor's download attribute for a CROSS-ORIGIN URL,
+     and these files are served by the build server -- so a plain click used to
+     open the PDF in the browser's viewer in a new tab instead of downloading.
+     Reading the href and the download attribute cannot see that: click it. */
+  const tabsBefore = page.context().pages().length;
+  const urlBefore = page.url();
+  let dl = null;
+  try {
+    [dl] = await Promise.all([
+      page.waitForEvent('download', { timeout: 120000 }),
+      page.click('#bvTextDl'),
+    ]);
+  } catch (e) { dl = null; }
+  const dlName = dl ? dl.suggestedFilename() : '';
+  const sameUrl = page.url() === urlBefore;
+  const sameTabs = page.context().pages().length === tabsBefore;
+  if (dl) { try { await dl.cancel(); } catch (e) {} }
+  check('text file downloads in place, no new tab',
+    !!dl && /-text-file\.pdf$/.test(dlName) && sameUrl && sameTabs,
+    dl ? `${dlName}; url ${sameUrl ? 'unchanged' : 'CHANGED'}; ` +
+         `${page.context().pages().length - tabsBefore} extra tab(s)`
+       : 'no download event fired');
+
   // ---- 5. the checks ------------------------------------------------------
   const checks = await page.evaluate(() => ({
     rows: document.querySelectorAll('#bvChecks .bv-check').length,
