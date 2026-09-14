@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prime Books · Standard A for Years 1 to 4</title>
+<style>
+  :root{
+    --cream:#FBF6EC; --paper:#fffdf7; --ink:#241f16; --ink-soft:#4a4335;
+    --moss:#487025; --sage:#A8BF9B; --terra:#C97B5A; --gold:#F1B300;
+    --grey:#6b6b5e; --line:#e3d9c4;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--cream); color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif; line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1020px; margin:0 auto; padding:40px 24px 110px}
+  .sans{font-family:Verdana,Arial,sans-serif}
+
+  header.top{border-bottom:3px double var(--gold); padding-bottom:20px; margin-bottom:10px;
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap}
+  header.top img{height:58px; width:auto}
+  header.top h1{font-size:27px; margin:0; letter-spacing:.3px}
+  header.top .sub{width:100%; color:var(--grey); font-size:13.5px; margin:6px 0 0;
+    font-family:Verdana,Arial,sans-serif}
+  .chips{display:flex; gap:8px; flex-wrap:wrap; margin:16px 0 6px}
+  .chip{font-family:Verdana,Arial,sans-serif; font-size:11.5px; letter-spacing:.6px;
+    text-transform:uppercase; padding:4px 11px; border-radius:999px;
+    border:1px solid var(--sage); color:var(--moss); background:#f3f7ee}
+  .chip.gold{border-color:var(--gold); color:#7a5a00; background:#fdf6e3}
+  .chip.terra{border-color:var(--terra); color:#8c3a12; background:#fbe7d8}
+
+  h2{font-size:21px; margin:46px 0 6px; color:var(--ink)}
+  h2 .num{color:var(--terra); font-size:15px; font-family:Verdana,Arial,sans-serif;
+    display:block; letter-spacing:2px; margin-bottom:2px}
+  h3{font-size:15.5px; margin:26px 0 4px; color:var(--moss)}
+  p{margin:10px 0; font-size:15.5px}
+  .lead{font-size:17px; color:var(--ink-soft)}
+  .plain{background:var(--paper); border-left:4px solid var(--gold);
+    padding:14px 18px; margin:14px 0; font-size:15px; border-radius:0 8px 8px 0}
+  .plain strong{color:var(--moss)}
+  .rule{border:none; border-top:1px solid var(--line); margin:30px 0}
+  a{color:var(--moss)}
+  ul{margin:10px 0 10px 0; padding-left:22px}
+  li{margin:5px 0; font-size:15.5px}
+
+  figure{margin:26px 0; background:var(--paper); border:1px solid var(--line);
+    border-radius:12px; padding:14px 14px 10px}
+  figure img{width:100%; height:auto; display:block; border-radius:8px}
+  figcaption{font-family:Verdana,Arial,sans-serif; font-size:12.5px; color:var(--grey);
+    margin-top:10px; line-height:1.55}
+  figcaption b{color:var(--ink)}
+
+  table{width:100%; border-collapse:collapse; margin:16px 0; font-size:14.5px;
+    font-family:Verdana,Arial,sans-serif; background:var(--paper)}
+  caption{caption-side:top; text-align:left; font-family:Verdana,Arial,sans-serif;
+    font-size:11.5px; letter-spacing:1.4px; text-transform:uppercase; color:var(--grey);
+    padding:0 0 7px}
+  th,td{border:1px solid var(--line); padding:8px 11px; text-align:left; vertical-align:top}
+  th{background:#f2ecdc; font-weight:600; font-size:12.5px; letter-spacing:.4px;
+    text-transform:uppercase; color:var(--ink)}
+  td.num{white-space:nowrap; font-weight:600}
+  tr:nth-child(even) td{background:#fffef9}
+
+  .swatches{display:flex; gap:12px; flex-wrap:wrap; margin:18px 0}
+  .sw{flex:1 1 150px; min-width:140px; border:1px solid var(--line); border-radius:10px;
+    overflow:hidden; background:#fff}
+  .sw .tint{height:34px}
+  .sw .mid{height:18px}
+  .sw .deep{height:52px}
+  .sw .name{font-family:Verdana,Arial,sans-serif; font-size:12px; padding:8px 10px;
+    letter-spacing:.5px; color:var(--ink)}
+  .sw .name small{display:block; color:var(--grey); font-size:10.5px; letter-spacing:0}
+
+  .two{display:flex; gap:22px; flex-wrap:wrap}
+  .two>div{flex:1 1 320px}
+  .card{background:var(--paper); border:1px solid var(--sage); border-radius:12px;
+    padding:16px 20px; margin:16px 0}
+  .card h3{margin-top:0}
+  .card.open{border-color:var(--terra)}
+  .card.open h3{color:#8c3a12}
+  .gridmap{display:flex; flex-wrap:wrap; gap:8px; margin:16px 0}
+  .pg{flex:1 1 108px; background:var(--paper); border:1px solid var(--line);
+    border-top:4px solid var(--sage); border-radius:8px; padding:9px 11px;
+    font-family:Verdana,Arial,sans-serif; font-size:11.5px; color:var(--ink-soft)}
+  .pg b{display:block; font-size:12px; color:var(--ink); letter-spacing:.3px}
+  .pg.cover{border-top-color:var(--gold)}
+  .pg.unit{border-top-color:var(--terra)}
+  .pg.back{border-top-color:var(--grey)}
+  .btns{display:flex; gap:10px; flex-wrap:wrap; margin:22px 0}
+  .btn{display:inline-block; background:var(--moss); color:#fff; text-decoration:none;
+    font-family:Verdana,Arial,sans-serif; font-size:13px; padding:9px 18px; border-radius:7px}
+  .btn.ghost{background:transparent; color:var(--moss); border:1px solid var(--moss)}
+  .btn:hover{filter:brightness(1.08)}
+  .updated{color:var(--grey); font-size:12.5px; font-family:Verdana,Arial,sans-serif;
+    margin-top:44px; text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <img src="/Logo-Prime-School.png" alt="Prime School logo">
+  <h1>Standard A for Years 1 to 4</h1>
+  <p class="sub">One locked specification for every Prime Books primary title, Years 1 to 4,
+  set for how we actually print: BookVault, perfect bound paperback.</p>
+</header>
+
+<div class="chips">
+  <span class="chip gold">Locked 14 September 2026</span>
+  <span class="chip">Edition A-2.1</span>
+  <span class="chip">Years 1 to 4</span>
+  <span class="chip terra">5 items still open</span>
+</div>
+
+<p class="lead">This page is the short, working version. Everything a teacher, a designer or a
+build tool needs to know is either on this page or one click away. The old
+<a href="/standard">publishing standard page</a> stays as the full house record for Years 1 to 12.</p>
+
+<div class="plain">
+<p><strong>In one paragraph.</strong> Every Prime Books primary title is the same book underneath:
+the same size to the millimetre, the same two fonts, the same four or more units each wearing its own
+fixed colour, the same page order from cover to back cover, and the same kind of page for the same job
+in every subject. What changes from book to book is the teaching, not the furniture. Year 1 to Year 4
+are four steps on one ladder: the text gets a little smaller, the writing lines get tighter, the
+pictures carry more information, and the pupils are asked to do more. Nothing else changes.</p>
+</div>
+
+<h2><span class="num">PART ONE</span>What the books look like</h2>
+
+<figure>
+  <img src="/standards/art/y1-4-one-standard.webp" alt="Four Prime Books textbooks, Years 1 to 4, under the words ONE STANDARD">
+  <figcaption><b>One standard, four years.</b> Every title is the same object on the shelf. The cover
+  colour band names the year: Year 1 amber, Year 2 sky blue, Year 3 orange, Year 4 green. The cover
+  picture is new for each subject, the frame around it never moves.</figcaption>
+</figure>
+
+<h2><span class="num">PART TWO</span>The page map, in order</h2>
+
+<p>This is the single most useful thing to memorise. A book opens the same way every time, so a
+teacher can find the glossary, the safety page or the sources without hunting.</p>
+
+<figure>
+  <img src="/standards/art/y1-4-book-skeleton.webp" alt="Diagram of the eight fixed parts of a Prime Books title">
+  <figcaption><b>The skeleton.</b> Eight fixed stations. Only the middle of the book changes with the
+  subject: how many units there are and how many pages each unit takes.</figcaption>
+</figure>
+
+<div class="gridmap">
+  <div class="pg cover"><b>1</b>Cover, full-bleed art</div>
+  <div class="pg"><b>2</b>Imprint</div>
+  <div class="pg"><b>3</b>Contents</div>
+  <div class="pg"><b>4</b>Welcome and cast</div>
+  <div class="pg"><b>5</b>How to use</div>
+  <div class="pg"><b>6-7</b>Getting ready and safety</div>
+  <div class="pg unit"><b>8 onward</b>Units, one colour each</div>
+  <div class="pg unit"><b>after units</b>Portfolio and review</div>
+  <div class="pg unit"><b>after units</b>Illustrated glossary</div>
+  <div class="pg unit"><b>after units</b>Sources and credits</div>
+  <div class="pg unit"><b>after units</b>Closing reflection</div>
+  <div class="pg back"><b>last</b>Back cover</div>
+</div>
+
+<div class="plain">
+<p><strong>Inside a unit, always in this order:</strong> opener, get started, concept and model,
+your turn, extension, applied project, reflection, word bank. A subject with no need for the extension
+page simply does not have one. It never invents a different shape.</p>
+</div>
+
+<h3>The contents page is the book's business card</h3>
+<p>Page 3 carries a colour bar with one segment per unit, then one tinted card per unit giving the unit
+number, its starting page, its name, a one-line summary of the strand and its topic rows. Front matter
+and back matter sit underneath as plain dot-leader rows. Nothing on that page is typed by hand: the
+page numbers come out of the finished PDF, so the contents can never point at the wrong page again.</p>
+
+<h2><span class="num">PART THREE</span>One colour per unit, the same in every subject</h2>
+
+<figure>
+  <img src="/standards/art/y1-4-unit-colours.webp" alt="Six unit colour swatches labelled violet, rose, terracotta, blue, sage and ochre, with a watercolour mouse">
+  <figcaption><b>One colour per unit.</b> Unit 1 is always violet, unit 2 always rose, and so on down
+  the ladder, in every book of the series. Rungs 1 to 4 are measured from the reference book. Rungs 5
+  and 6 are my proposal and are waiting for your eye.</figcaption>
+</figure>
+
+<div class="swatches">
+  <div class="sw"><div class="tint" style="background:#EFE6FA"></div><div class="mid" style="background:#6B4BA1"></div><div class="deep" style="background:#4A3173"></div><div class="name">1 · VIOLET<small>Unit 1, measured</small></div></div>
+  <div class="sw"><div class="tint" style="background:#FCE4EC"></div><div class="mid" style="background:#D6336C"></div><div class="deep" style="background:#96204A"></div><div class="name">2 · ROSE<small>Unit 2, measured</small></div></div>
+  <div class="sw"><div class="tint" style="background:#FBE7D8"></div><div class="mid" style="background:#C4561F"></div><div class="deep" style="background:#8C3A12"></div><div class="name">3 · TERRACOTTA<small>Unit 3, measured</small></div></div>
+  <div class="sw"><div class="tint" style="background:#DEEAFB"></div><div class="mid" style="background:#1256B8"></div><div class="deep" style="background:#0B3C85"></div><div class="name">4 · BLUE<small>Unit 4, measured</small></div></div>
+  <div class="sw"><div class="tint" style="background:#E8F0E3"></div><div class="mid" style="background:#4E7C52"></div><div class="deep" style="background:#2F5233"></div><div class="name">5 · SAGE<small>proposal</small></div></div>
+  <div class="sw"><div class="tint" style="background:#FBF0D8"></div><div class="mid" style="background:#B5832A"></div><div class="deep" style="background:#6B4A0C"></div><div class="name">6 · OCHRE<small>proposal</small></div></div>
+</div>
+
+<p>Each rung has three tones and no more: <b>deep</b> for headings and the unit opener flood,
+<b>mid</b> for the rule under the header band, the folio badge and the kicker, <b>tint</b> for the
+header band and support panels. The gold accent stays gold in every unit, which is why six different
+colours still read as one publisher. The cover year stripe is a separate system and must never be
+confused with a unit colour.</p>
+
+<h2><span class="num">PART FOUR</span>The four-year ladder</h2>
+
+<figure>
+  <img src="/standards/art/y1-4-year-ladder.webp" alt="Four exercise book pages from Year 1 to Year 4 showing text getting smaller and writing lines getting tighter">
+  <figcaption><b>The ladder.</b> Year 1 to Year 4 are one book at four ages. Reading text shrinks by
+  one and a half points across four years, writing lines halve in height, and the page grows from one
+  sentence with a big picture into a short, structured paragraph with evidence.</figcaption>
+</figure>
+
+<table>
+<caption>Reading text and writing space, Years 1 to 4</caption>
+<thead><tr><th>Year</th><th>Reading text</th><th>Leading</th><th>Writing lines</th><th>Instruction length</th><th>Words per page</th></tr></thead>
+<tbody>
+  <tr><td class="num">Year 1</td><td class="num">16 pt</td><td>21 pt</td><td>4-line guides, 24 mm</td><td>3 to 7 words</td><td>up to 80</td></tr>
+  <tr><td class="num">Year 2</td><td class="num">16 pt</td><td>21 pt</td><td>3-line guides, 18 mm</td><td>5 to 9 words</td><td>up to 110</td></tr>
+  <tr><td class="num">Year 3</td><td class="num">15 pt</td><td>20 pt</td><td>single line with mid guide, 12 mm</td><td>8 to 12 words</td><td>up to 140</td></tr>
+  <tr><td class="num">Year 4</td><td class="num">14.5 pt</td><td>19.5 pt</td><td>single line, 9 mm</td><td>10 to 14 words</td><td>up to 170</td></tr>
+</tbody>
+</table>
+
+<p><b>Only Year 1's 16 pt is measured</b> from the reference book. Years 2 to 4 are the series defaults
+we are adopting, and the ruling and word counts are my proposal. They are the right shape and they are
+easy to tune once you have read a Year 3 book against a Year 2 one.</p>
+
+<table>
+<caption>The type ladder, all sizes in one place</caption>
+<thead><tr><th>Element</th><th>Font</th><th>Size</th></tr></thead>
+<tbody>
+  <tr><td>Page title</td><td>Fredoka SemiBold</td><td class="num">24 pt</td></tr>
+  <tr><td>Unit title on the opener</td><td>Fredoka SemiBold</td><td class="num">44 pt</td></tr>
+  <tr><td>Unit subtitle</td><td>Fredoka SemiBold</td><td class="num">17 pt</td></tr>
+  <tr><td>Topic pill</td><td>Fredoka SemiBold</td><td class="num">13 pt</td></tr>
+  <tr><td>Kicker above the title</td><td>Fredoka SemiBold</td><td class="num">9.5 pt</td></tr>
+  <tr><td>Running head, left and right</td><td>Fredoka 10.5, Andika 10</td><td class="num">10.5 / 10 pt</td></tr>
+  <tr><td>Folio numeral</td><td>Fredoka SemiBold</td><td class="num">11 pt</td></tr>
+  <tr><td>Reading text</td><td>Andika</td><td class="num">see the ladder above</td></tr>
+  <tr><td>Covers and publisher matter</td><td>Poppins</td><td class="num">33 / 17 / 11 pt</td></tr>
+</tbody>
+</table>
+
+<h2><span class="num">PART FIVE</span>How the book is printed</h2>
+
+<figure>
+  <img src="/standards/art/y1-4-print-spec.webp" alt="Printer's specification drawing showing trim, bleed, cover wrap, spine and barcode zone">
+  <figcaption><b>The print geometry.</b> The trim is the finished book, the dashed frame is the bleed
+  the printer needs, and the wrap on the right is one single sheet for the whole cover: back, spine,
+  front.</figcaption>
+</figure>
+
+<table>
+<caption>BookVault specification, now part of the standard</caption>
+<thead><tr><th>Item</th><th>Number</th><th>Why it matters</th></tr></thead>
+<tbody>
+  <tr><td>Trim, the finished size</td><td class="num">216 × 279 mm</td><td>US Letter portrait. Declare it on the title, or as a custom size if an older master is 215.9 × 279.4</td></tr>
+  <tr><td>Media, with bleed</td><td class="num">222 × 285 mm</td><td>3 mm of bleed on all four edges, extended in vector from the page's own artwork</td></tr>
+  <tr><td>Inner margin, the gutter</td><td class="num">20 mm</td><td>BookVault binds on the inner edge. This is the one margin that must be mirrored</td></tr>
+  <tr><td>Other three edges</td><td class="num">5 mm clear</td><td>Nothing critical within 5 mm of the trim, because trimming drifts</td></tr>
+  <tr><td>Page count</td><td class="num">11, 23, 35, 47, 59, 71, 83, 95, 107</td><td>One less than a multiple of 12, counted after the covers are stripped. Year targets: 59, 71, 83, 95</td></tr>
+  <tr><td>The last interior page</td><td class="num">keep clear</td><td>BookVault prints its production barcode there</td></tr>
+  <tr><td>Cover wrap</td><td class="num">443 × 285 mm</td><td>One sheet: back cover, spine, front cover. Front and back are also pages of the PDF, so they are stripped out of the interior file</td></tr>
+  <tr><td>Spine</td><td class="num">from the calculator</td><td>Rounded up to a whole millimetre for the paper actually ordered. Spine text only from 6 mm</td></tr>
+  <tr><td>Barcode zone</td><td class="num">38 × 25 mm</td><td>6.4 mm in from the back cover trim edge, 3.3 mm up. Mandatory, because Prime School is outside the UK</td></tr>
+  <tr><td>Smallest text</td><td class="num">4 pt</td><td>The printer's floor. Our smallest furniture is 8.2 pt, so we are clear</td></tr>
+  <tr><td>Thinnest line</td><td class="num">0.25 pt</td><td>Our thinnest hairline is 0.6 pt, so we are clear</td></tr>
+  <tr><td>Black</td><td class="num">100% K</td><td>Body and heading black as K only, never a rich four-colour black</td></tr>
+  <tr><td>Images</td><td class="num">300 dpi</td><td>150 dpi is the absolute floor. Record the real pixels, never an upscaled claim</td></tr>
+  <tr><td>Transparency</td><td class="num">flattened</td><td>Character art is composited onto the page, not delivered on a transparent layer</td></tr>
+  <tr><td>File</td><td class="num">PDF/X-1a:2001</td><td>Fonts embedded and subset, no Type3, no crop marks, overprint off</td></tr>
+</tbody>
+</table>
+
+<div class="plain">
+<p><strong>One honest warning.</strong> The print rules and the old house rule disagree in two places,
+and the print rules now win. BookVault wants a page count one less than a multiple of twelve, which is
+always an odd number, while the old gate fails any odd page count. And the old gate checks a
+612 × 792 pt page, while the printer's trim is 216 × 279 mm. Both gate rules have to change before a
+BookVault-compliant book can pass, and that is the first job on the list.</p>
+</div>
+
+<h2><span class="num">PART SIX</span>Pictures</h2>
+
+<p>Narrative scenes, objects and characters are original ink and watercolour in the Beatrix Potter
+direction: fine contours, transparent washes, warm muted pigments, cream paper, woodland animals in
+believable clothes, the same cast and clothing all the way through a book. The picture does a teaching
+job: if a page shows how to hold a brush, the picture shows the exact safe grip, tool and angle.</p>
+
+<p><b>Two things stay true whatever the style is.</b> Photographs of real artworks, places and
+specimens stay as photographs when they teach something an invented picture cannot. Diagrams, maths
+models, letterforms and colour wheels stay precise and their labels stay as live text. Never stretch a
+picture, never reuse one hero scene as filler, never let the model put lettering inside the artwork.
+Years 1 and 2 get large actions and generous space. Years 3 and 4 get more process, comparison and
+labelled evidence, in the same medium.</p>
+
+<h2><span class="num">PART SEVEN</span>What is locked, and what is still open</h2>
+
+<div class="two">
+  <div class="card">
+    <h3>Locked now, and not up for renegotiation per book</h3>
+    <ul>
+      <li>Trim 216 × 279 mm, media 222 × 285 mm, 3 mm bleed</li>
+      <li>Mirrored margins with a 20 mm gutter</li>
+      <li>Page count in the 11, 23, 35, 47 series</li>
+      <li>Fredoka for display, Andika for reading, Poppins for covers only</li>
+      <li>The page map in Part Two, in that order</li>
+      <li>One colour per unit, rung number fixed across the series</li>
+      <li>Contents on page 3 with a bar and one card per unit</li>
+      <li>Folio badge: 24 pt circle centred at (550, 758)</li>
+      <li>The rules that override everything: never delete or move teacher-placed content,
+      never shrink text to fit, readability before aesthetics</li>
+    </ul>
+  </div>
+  <div class="card open">
+    <h3>Still open, and I need your call</h3>
+    <ul>
+      <li>Palette rungs 5 and 6, sage and ochre as shown above</li>
+      <li>The real spine width for the stock actually ordered</li>
+      <li>Whether older 612 × 792 pt masters move to 216 × 279 mm, or keep printing as a
+      declared custom size</li>
+      <li>The page budget per year, currently proposed as 59, 71, 83, 95</li>
+      <li>The handwriting ruling and words-per-page numbers, once a Year 1 book is read
+      against a Year 4 book</li>
+    </ul>
+  </div>
+</div>
+
+<h3>Before a book is called done</h3>
+<ul>
+  <li>Every teacher-placed sentence, image and activity is still there, on its own page.</li>
+  <li>The contents, the index and every cross-reference point at the real page, taken from the
+  built PDF.</li>
+  <li>The page count lands in the print series, and the last interior page is clear for the
+  production barcode.</li>
+  <li>Every image is either credited or recorded as our own, at 300 dpi or better at the size
+  it is placed.</li>
+  <li>Every QR code is decoded back out of the printed page, and every URL opens.</li>
+  <li>Black text is K only, transparency is flattened, fonts are embedded, no crop marks.</li>
+  <li>One physical proof copy has been held in the hand before the rest of the year is built.</li>
+</ul>
+
+<div class="btns">
+  <a class="btn" href="/standards/years-1-4.json">The locked tokens, JSON</a>
+  <a class="btn ghost" href="/book/y01-art-and-design">Open the design reference</a>
+  <a class="btn ghost" href="/standards/primary-standard.md">Full component specification</a>
+  <a class="btn ghost" href="/standards/years-1-4.md">Summary sheet, markdown</a>
+  <a class="btn ghost" href="/standard">The Years 1 to 12 house record</a>
+</div>
+
+<p class="updated">Prime School Books, imprint of Prime School International · Standard A, edition A-2.1
+for Years 1 to 4 · locked 14 September 2026 · print route BookVault, perfect bound paperback</p>
+
+</div>
+</body>
+</html>

@@ -5,6 +5,8 @@
     { "source": "/book/:slug/bookvault", "destination": "/bookvault.html" },
     { "source": "/standard/book/:slug", "destination": "/standard-book.html" },
     { "source": "/standard", "destination": "/standard.html" },
+    { "source": "/standard/years-1-4", "destination": "/years-1-4.html" },
+    { "source": "/years-1-4", "destination": "/years-1-4.html" },
     { "source": "/status", "destination": "/status.html" },
     { "source": "/book/:slug", "destination": "/index.html" }
   ]
