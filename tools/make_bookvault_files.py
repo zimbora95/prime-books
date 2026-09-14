@@ -320,34 +320,80 @@ def _master_size(slug: str) -> tuple[float, float]:
     return rect.width, rect.height
 
 
+def source_font_note(slug: str, missing: list[str]) -> str:
+    """Say whether an unembedded font is ours or inherited from the master.
+
+    Neither MuPDF nor Ghostscript can embed a font whose program is not in the
+    file, and for a standard-14 name like Helvetica Ghostscript rewrites the file
+    and leaves the reference exactly as it was (measured on y01-english: the
+    reference survives `-dEmbedAllFonts=true`, `-sAlwaysEmbed`, and
+    `subset_fonts()`). So when the master references the same font, the pack is
+    only carrying the master's defect and the fix belongs in the source.
+    """
+    p = LIBRARY / slug / "book.pdf"
+    if not p.is_file():
+        return ""
+    wanted = {m.split(" [")[0].strip() for m in missing}
+    d = pymupdf.open(p)
+    seen = set()
+    for pno in range(d.page_count):
+        for f in d.get_page_fonts(pno, full=True):
+            if f[2] not in ("Type3", "Type 3") and f[3] in wanted:
+                seen.add(f[3])
+    d.close()
+    if not seen:
+        return ""
+    return (" -- the master references the same font (" + ", ".join(sorted(seen)[:3])
+            + "), so re-export the master without it: the pack cannot embed a font "
+              "whose program is not in the file")
+
+
 def margin_fill_inside_trim(slug: str, doc: pymupdf.Document, fit: float = 1.0,
-                            shift: tuple = (0.0, 0.0)) -> tuple[int, float, float]:
+                            shift: tuple = (0.0, 0.0)) -> tuple[int, float, float, float]:
     """Where the margin fill lands relative to the trim, from the placement geometry.
 
-    Returns (pages whose fill reaches MORE THAN A HAIR inside the trim, the worst
-    such depth in mm, the least distance the artwork reaches PAST the trim in mm).
-    Counted rather than sampled, so it is exact for every page of a 750-page book
-    in milliseconds.
+    Returns (pages whose fill reaches MORE THAN A HAIR inside the trim on a VISIBLE
+    edge, the worst such depth in mm, the deepest fill at the gutter in mm, the
+    least distance the artwork reaches PAST the trim on the visible edges).
+
+    The gutter is treated separately because the safety shift deliberately moves
+    the page away from it: the band that opens sits against the binding, inside
+    BookVault's own 20 mm gutter zone, and is the page's own edge colour
+    continuing into the spine. Outer, top and bottom are what the reader sees on
+    an open page, and nothing artificial may reach inside the trim there.
     """
     master_path = LIBRARY / slug / "book.pdf"
     if not master_path.is_file():
-        return 0, 0.0, 0.0
+        return 0, 0.0, 0.0, 0.0
     md = pymupdf.open(master_path)
     w, h = md[0].rect.width, md[0].rect.height
     n = min(doc.page_count, max(0, md.page_count - 2))
-    bad, worst, least = 0, 0.0, 999.0
+    bad, worst, worst_gutter, least = 0, 0.0, 0.0, 999.0
     for i in range(n):
         rect = place_rect(w, h, fit, i + 1, shift[0], shift[1])
-        # positive = the fill starts inside the trim; negative = the artwork
-        # reaches that far past the trim into the bleed
-        deep = max(BLEED_PT - rect.x0, rect.x1 - (TEXT_W - BLEED_PT),
-                   BLEED_PT - rect.y0, rect.y1 - (TEXT_H - BLEED_PT))
-        least = min(least, -pt_to_mm(deep))
-        if deep > EDGE_HAIR_MM * PT_PER_MM:
-            bad += 1
-            worst = max(worst, pt_to_mm(deep))
+        # positive = the margin fill starts INSIDE the trim; negative = the
+        # artwork reaches that far past the trim into the bleed
+        bands = {"left": rect.x0 - BLEED_PT,
+                 "right": (TEXT_W - BLEED_PT) - rect.x1,
+                 "top": rect.y0 - BLEED_PT,
+                 "bottom": (TEXT_H - BLEED_PT) - rect.y1}
+        recto = (i + 1) % 2 == 1          # pack page: odd pages are right-hand
+        gutter_side = "left" if recto else "right"
+        outer_side = "right" if recto else "left"
+        # the vertical side the shift gives way on: the page moves down, so the
+        # band opens along the top, and that edge is the page's own colour there
+        give = "top" if shift[1] > 0 else ("bottom" if shift[1] < 0 else None)
+        worst_gutter = max(worst_gutter, pt_to_mm(bands[gutter_side]))
+        for side in ("left", "right", "top", "bottom"):
+            if side in (gutter_side, give):
+                continue                  # where the page deliberately gives way
+            if bands[side] > EDGE_HAIR_MM * PT_PER_MM:
+                bad += 1
+                worst = max(worst, pt_to_mm(bands[side]))
+        other_v = "bottom" if give == "top" else "top"
+        least = min(least, -pt_to_mm(bands[outer_side]), -pt_to_mm(bands[other_v]))
     md.close()
-    return bad, worst, (0.0 if least == 999.0 else least)
+    return bad, worst, worst_gutter, (0.0 if least == 999.0 else least)
 
 
 def margin_extremes(src: pymupdf.Document, first: int, last: int) -> dict:
@@ -1698,7 +1744,7 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     emb, missing = fonts_embedded(doc)
     add("All fonts embedded", emb,
         "every font is embedded (guide p.3)" if emb
-        else "NOT embedded: " + ", ".join(missing[:4]))
+        else "NOT embedded: " + ", ".join(missing[:4]) + source_font_note(slug, missing))
     t3 = type3_fonts(doc)
     add("No Type 3 glyph-program fonts", t3 == 0,
         "none: every font is a real embedded font file (guide p.3)"
@@ -1725,13 +1771,16 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     fit = text.get("page_fit_scale", 1.0)
     add("Master page box fitted to their trim", fit == 1.0,
         text.get("page_fit_note", "placed 1:1 on the trim"), level="warn")
-    inside, worst_pg, past = margin_fill_inside_trim(slug, doc, fit,
-                                                    tuple(text.get("content_shift_mm", (0.0, 0.0))))
+    inside, worst_pg, gutter_fill, past = margin_fill_inside_trim(
+        slug, doc, fit, tuple(text.get("content_shift_mm", (0.0, 0.0))))
     undersized = undersized_asis
     add("Artwork covers the printed area", inside == 0,
-        (f"the artwork reaches {past:.2f} mm past the {TRIM_W_MM:g} x "
-         f"{TRIM_H_MM:g} mm trim on every page, so the margin fill can only ever "
-         f"fall in the {BLEED_MM:g} mm bleed") if inside == 0
+        (f"the artwork reaches {past:.1f} mm past the {TRIM_W_MM:g} x "
+         f"{TRIM_H_MM:g} mm trim on every visible edge"
+         + (f"; at the gutter, where the page gives way to reach their 20 mm rule, "
+            f"the fill sits {gutter_fill:.1f} mm inside the trim -- within the "
+            f"binding zone and the page's own edge colour"
+            if gutter_fill > EDGE_HAIR_MM else "")) if inside == 0
         else (f"{inside} pages carry a soft continuation of the page edge up to "
               f"{worst_pg:.1f} mm inside the trim: this master is smaller than the "
               f"trim and cannot be enlarged without losing its gutter margin (see "
