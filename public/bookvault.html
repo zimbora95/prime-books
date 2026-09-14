@@ -71,6 +71,12 @@
         border: 1px solid rgba(246, 241, 230, 0.28);
       }
       .bv-dl:disabled { opacity: 0.45; cursor: default; }
+      .bv-src {
+        font: 500 11.5px/1 inherit;
+        color: var(--muted);
+        margin-left: 8px;
+        white-space: nowrap;
+      }
       .bv-note { margin-top: 12px; color: var(--mist); font-size: 12.5px; line-height: 1.6; }
       .bv-note b { color: var(--cream); }
       .bv-facts { margin-top: 14px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
@@ -267,10 +273,24 @@
           });
         }
 
-        /* A built file is fetched straight from the file server: relative URLs
-           work on the live tunnel AND on the deployed site, because every
-           library/ path is served from the same origin as this page. */
-        function fileUrl(p) { return p; }
+        /* The pack files live on the workshop build server: they are derived
+           (10-15 MB per title) and are NOT in the repository, so the deployed
+           site has no copy. A download therefore points at the live base when
+           one answers, and only falls back to this origin - otherwise every
+           teacher on the deployed site gets a 404 from a link that looks fine. */
+        function fileUrl(p) {
+          var live = window.__PB_LIVE_BASE || "";
+          if (live && /^https?:/i.test(live)) return live + p;
+          return p;
+        }
+
+        /* Say so when the files come from the build server, so a slow download
+           off a tunnel is not mistaken for the site being broken. */
+        function srcHint() {
+          return fileUrl("/x") === "/x"
+            ? ""
+            : ' <span class="bv-src">from the build server</span>';
+        }
 
         function fmtMm(pt) { return (pt * 25.4 / 72).toFixed(1); }
 
@@ -364,6 +384,7 @@
           actions.innerHTML =
             '<a class="bv-dl" href="' + esc(fileUrl(t.url)) + '" download="' +
             esc(t.file) + '">&#8681;&nbsp; Download text file</a>' +
+            srcHint() +
             '<button class="bv-dl ghost" id="bvBuild">&#8635;&nbsp; Rebuild</button>';
           el("bvBuild").addEventListener("click", buildFiles);
         }
@@ -385,7 +406,7 @@
             "?v=" + Date.now() + '" alt="Cover wrap: back cover, spine and front cover" />';
           actions.innerHTML =
             '<a class="bv-dl" href="' + esc(fileUrl(c.url)) + '" download="' + esc(c.file) +
-            '">&#8681;&nbsp; Download cover file</a>';
+            '">&#8681;&nbsp; Download cover file</a>' + srcHint();
           el("bvCoverMeta").innerHTML =
             "Spine <b>" + c.spine_mm + " mm</b> from <b>" + c.interior_pages +
             "</b> interior pages; full cover <b>" + fmtMm(c.full_cover_mm[0]) + " × " +
