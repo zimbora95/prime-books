@@ -1,0 +1,1092 @@
+{
+ "generated": "2026-09-14 21:15 UTC",
+ "totals": {
+  "books": 123,
+  "pages": 12282,
+  "withInput": 38,
+  "noInput": 85,
+  "standardized": 0,
+  "years": 13
+ },
+ "years": [
+  {
+   "year": 1,
+   "books": [
+    {
+     "slug": "y01-art-and-design",
+     "subject": "Art & Design",
+     "pages": 88,
+     "input": {
+      "kind": "XLSX",
+      "file": "y01-art-and-design - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y01-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 182,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-english",
+     "subject": "English",
+     "pages": 186,
+     "input": {
+      "kind": "PDF",
+      "file": "y01-english - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y01-german-a1a2",
+     "subject": "German A1/A2",
+     "pages": 100,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-german-b1b2",
+     "subject": "German B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 174,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-mathematics",
+     "subject": "Mathematics",
+     "pages": 364,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 198,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-physical-education",
+     "subject": "Physical Education",
+     "pages": 98,
+     "input": {
+      "kind": "XLSX",
+      "file": "y01-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y01-portuguese",
+     "subject": "Portuguese 1st Language",
+     "pages": 12,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-science",
+     "subject": "Science",
+     "pages": 184,
+     "input": {
+      "kind": "PDF",
+      "file": "y01-science - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y01-spanish-a1a2",
+     "subject": "Spanish A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y01-spanish-b1b2",
+     "subject": "Spanish B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 4,
+   "standardized": 0,
+   "pages": 1598
+  },
+  {
+   "year": 2,
+   "books": [
+    {
+     "slug": "y02-art-and-design",
+     "subject": "Art & Design",
+     "pages": 164,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 256,
+     "input": {
+      "kind": "XLSX",
+      "file": "y02-computing-and-robotics - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y02-english",
+     "subject": "English",
+     "pages": 210,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-german-a1a2",
+     "subject": "German A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-german-b1b2",
+     "subject": "German B1/B2",
+     "pages": 100,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 180,
+     "input": {
+      "kind": "XLSX",
+      "file": "y02-global-perspectives - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y02-mathematics",
+     "subject": "Mathematics",
+     "pages": 752,
+     "input": {
+      "kind": "PDF",
+      "file": "y02-mathematics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y02-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 256,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-physical-education",
+     "subject": "Physical Education",
+     "pages": 244,
+     "input": {
+      "kind": "XLSX",
+      "file": "y02-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y02-science",
+     "subject": "Science",
+     "pages": 186,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-spanish-a1a2",
+     "subject": "Spanish A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y02-spanish-b1b2",
+     "subject": "Spanish B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 4,
+   "standardized": 0,
+   "pages": 2360
+  },
+  {
+   "year": 3,
+   "books": [
+    {
+     "slug": "y03-art-and-design",
+     "subject": "Art & Design",
+     "pages": 96,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 32,
+     "input": {
+      "kind": "XLSX",
+      "file": "y03-computing-and-robotics - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y03-english",
+     "subject": "English",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-german-a1a2",
+     "subject": "German A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-german-b1b2",
+     "subject": "German B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 158,
+     "input": {
+      "kind": "XLSX",
+      "file": "y03-global-perspectives - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y03-mathematics",
+     "subject": "Mathematics",
+     "pages": 80,
+     "input": {
+      "kind": "PDF",
+      "file": "y03-mathematics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y03-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-physical-education",
+     "subject": "Physical Education",
+     "pages": 158,
+     "input": {
+      "kind": "XLSX",
+      "file": "y03-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y03-portuguese",
+     "subject": "Portuguese",
+     "pages": 124,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-science",
+     "subject": "Science",
+     "pages": 4,
+     "input": {
+      "kind": "PDF",
+      "file": "y03-science - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y03-spanish-a1a2",
+     "subject": "Spanish A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y03-spanish-b1b2",
+     "subject": "Spanish B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 5,
+   "standardized": 0,
+   "pages": 676
+  },
+  {
+   "year": 4,
+   "books": [
+    {
+     "slug": "y04-art-and-design",
+     "subject": "Art & Design",
+     "pages": 84,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 30,
+     "input": {
+      "kind": "XLSX",
+      "file": "y04-computing-and-robotics - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y04-english",
+     "subject": "English",
+     "pages": 98,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-german-a1a2",
+     "subject": "German A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-german-b1b2",
+     "subject": "German B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 110,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-mathematics",
+     "subject": "Mathematics",
+     "pages": 70,
+     "input": {
+      "kind": "PDF",
+      "file": "y04-mathematics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y04-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-physical-education",
+     "subject": "Physical Education",
+     "pages": 170,
+     "input": {
+      "kind": "XLSX",
+      "file": "y04-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y04-portuguese",
+     "subject": "Portuguese",
+     "pages": 114,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-science",
+     "subject": "Science",
+     "pages": 18,
+     "input": {
+      "kind": "PDF",
+      "file": "y04-science - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y04-spanish-a1a2",
+     "subject": "Spanish A1/A2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y04-spanish-b1b2",
+     "subject": "Spanish B1/B2",
+     "pages": 4,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 4,
+   "standardized": 0,
+   "pages": 714
+  },
+  {
+   "year": 5,
+   "books": [
+    {
+     "slug": "y05-art-and-design",
+     "subject": "Art & Design",
+     "pages": 126,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 2,
+     "input": {
+      "kind": "PDF",
+      "file": "y05-computing-and-robotics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y05-english",
+     "subject": "English",
+     "pages": 20,
+     "input": {
+      "kind": "PDF",
+      "file": "y05-english - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y05-german-a1a2",
+     "subject": "German A1/A2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-german-b1b2",
+     "subject": "German B1/B2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 114,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-mathematics",
+     "subject": "Mathematics",
+     "pages": 32,
+     "input": {
+      "kind": "PDF",
+      "file": "y05-mathematics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y05-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-physical-education",
+     "subject": "Physical Education",
+     "pages": 138,
+     "input": {
+      "kind": "XLSX",
+      "file": "y05-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y05-portuguese",
+     "subject": "Portuguese",
+     "pages": 134,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-science",
+     "subject": "Science",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-spanish-a1a2",
+     "subject": "Spanish A1/A2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y05-spanish-b1b2",
+     "subject": "Spanish B1/B2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 4,
+   "standardized": 0,
+   "pages": 578
+  },
+  {
+   "year": 6,
+   "books": [
+    {
+     "slug": "y06-art-and-design",
+     "subject": "Art & Design",
+     "pages": 98,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 2,
+     "input": {
+      "kind": "PDF",
+      "file": "y06-computing-and-robotics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y06-english",
+     "subject": "English",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-german-a1a2",
+     "subject": "German A1/A2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-german-b1b2",
+     "subject": "German B1/B2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 118,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-mathematics",
+     "subject": "Mathematics",
+     "pages": 122,
+     "input": {
+      "kind": "PDF",
+      "file": "y06-mathematics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y06-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-physical-education",
+     "subject": "Physical Education",
+     "pages": 190,
+     "input": {
+      "kind": "XLSX",
+      "file": "y06-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y06-portuguese",
+     "subject": "Portuguese",
+     "pages": 110,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-science",
+     "subject": "Science",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-spanish-a1a2",
+     "subject": "Spanish A1/A2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y06-spanish-b1b2",
+     "subject": "Spanish B1/B2",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 3,
+   "standardized": 0,
+   "pages": 654
+  },
+  {
+   "year": 7,
+   "books": [
+    {
+     "slug": "y07-art-and-design",
+     "subject": "Art & Design",
+     "pages": 74,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-art-and-design-standard",
+     "subject": "Art & Design",
+     "pages": 74,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 118,
+     "input": {
+      "kind": "PDF",
+      "file": "y07-computing-and-robotics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y07-computing-structured",
+     "subject": "Computing & Robotics (Structured)",
+     "pages": 138,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-english",
+     "subject": "English",
+     "pages": 24,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 146,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-humanities",
+     "subject": "Humanities",
+     "pages": 176,
+     "input": {
+      "kind": "PDF",
+      "file": "y07-humanities - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y07-mathematics",
+     "subject": "Mathematics",
+     "pages": 30,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-physical-education",
+     "subject": "Physical Education",
+     "pages": 146,
+     "input": {
+      "kind": "XLSX",
+      "file": "y07-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y07-portuguese-1st",
+     "subject": "Portuguese 1st",
+     "pages": 136,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-portuguese-2nd",
+     "subject": "Portuguese 2nd",
+     "pages": 76,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y07-science",
+     "subject": "Science",
+     "pages": 28,
+     "input": {
+      "kind": "XLSX",
+      "file": "y07-science - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y07-spanish",
+     "subject": "Spanish",
+     "pages": 178,
+     "input": {
+      "kind": "XLSX",
+      "file": "y07-spanish - input.xlsx"
+     },
+     "standardized": false
+    }
+   ],
+   "withInput": 5,
+   "standardized": 0,
+   "pages": 1344
+  },
+  {
+   "year": 8,
+   "books": [
+    {
+     "slug": "y08-art-and-design",
+     "subject": "Art & Design",
+     "pages": 110,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y08-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y08-english",
+     "subject": "English",
+     "pages": 14,
+     "input": {
+      "kind": "PDF",
+      "file": "y08-english - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y08-humanities",
+     "subject": "Humanities",
+     "pages": 250,
+     "input": {
+      "kind": "PDF",
+      "file": "y08-humanities - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y08-mathematics",
+     "subject": "Mathematics",
+     "pages": 18,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y08-music-and-drama",
+     "subject": "Music & Drama",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y08-physical-education",
+     "subject": "Physical Education",
+     "pages": 146,
+     "input": {
+      "kind": "XLSX",
+      "file": "y08-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y08-portuguese-1st",
+     "subject": "Portuguese 1st",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y08-portuguese-2nd",
+     "subject": "Portuguese 2nd",
+     "pages": 100,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y08-science",
+     "subject": "Science",
+     "pages": 20,
+     "input": {
+      "kind": "XLSX",
+      "file": "y08-science - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y08-spanish",
+     "subject": "Spanish",
+     "pages": 12,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 4,
+   "standardized": 0,
+   "pages": 676
+  },
+  {
+   "year": 9,
+   "books": [
+    {
+     "slug": "y09-art-and-design",
+     "subject": "Art & Design",
+     "pages": 72,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-computing-and-robotics",
+     "subject": "Computing & Robotics",
+     "pages": 2,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-english",
+     "subject": "English",
+     "pages": 14,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-humanities",
+     "subject": "Humanities",
+     "pages": 126,
+     "input": {
+      "kind": "PDF",
+      "file": "y09-humanities - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y09-mathematics",
+     "subject": "Mathematics",
+     "pages": 16,
+     "input": {
+      "kind": "PDF",
+      "file": "y09-mathematics - input.pdf"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y09-music-and-drama",
+     "subject": "Music and Drama",
+     "pages": 74,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-physical-education",
+     "subject": "Physical Education",
+     "pages": 182,
+     "input": {
+      "kind": "XLSX",
+      "file": "y09-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y09-portuguese",
+     "subject": "Portuguese",
+     "pages": 52,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-portuguese-2nd",
+     "subject": "Portuguese 2nd",
+     "pages": 110,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-science",
+     "subject": "Science",
+     "pages": 122,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y09-spanish",
+     "subject": "Spanish",
+     "pages": 338,
+     "input": {
+      "kind": "XLSX",
+      "file": "y09-spanish - input.xlsx"
+     },
+     "standardized": false
+    }
+   ],
+   "withInput": 4,
+   "standardized": 0,
+   "pages": 1108
+  },
+  {
+   "year": 10,
+   "books": [
+    {
+     "slug": "y10-business-btec-l2",
+     "subject": "Business BTEC L2",
+     "pages": 42,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y10-physical-education",
+     "subject": "Physical Education",
+     "pages": 148,
+     "input": {
+      "kind": "XLSX",
+      "file": "y10-physical-education - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y10-portuguese-1st",
+     "subject": "Portuguese 1st",
+     "pages": 422,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y10-portuguese-1st-igcse",
+     "subject": "Portuguese 1st IGCSE",
+     "pages": 252,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y10-spanish-1st-igcse",
+     "subject": "Spanish 1st IGCSE",
+     "pages": 260,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 1,
+   "standardized": 0,
+   "pages": 1124
+  },
+  {
+   "year": 11,
+   "books": [
+    {
+     "slug": "y11-physical-education",
+     "subject": "Physical Education",
+     "pages": 32,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y11-portuguese-1st",
+     "subject": "Portuguese 1st",
+     "pages": 426,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 0,
+   "standardized": 0,
+   "pages": 458
+  },
+  {
+   "year": 12,
+   "books": [
+    {
+     "slug": "y12-physical-education",
+     "subject": "Physical Education",
+     "pages": 628,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y12-portuguese-a-level",
+     "subject": "Portuguese A Level",
+     "pages": 156,
+     "input": null,
+     "standardized": false
+    },
+    {
+     "slug": "y12-spanish-a-level",
+     "subject": "Spanish A Level",
+     "pages": 176,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 0,
+   "standardized": 0,
+   "pages": 960
+  },
+  {
+   "year": 13,
+   "books": [
+    {
+     "slug": "y13-physical-education",
+     "subject": "Physical Education",
+     "pages": 32,
+     "input": null,
+     "standardized": false
+    }
+   ],
+   "withInput": 0,
+   "standardized": 0,
+   "pages": 32
+  }
+ ]
+}

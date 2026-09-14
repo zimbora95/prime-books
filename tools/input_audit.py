@@ -4,7 +4,8 @@ xlsx/csv or publisher source PDF), and what is the state of the book itself.
 
 Definitions (per prime-books-book-builder doctrine):
   RAW   public/inputs/<slug> - input.<ext>      the real source (xlsx/csv/pdf)
-  CORR  public/input-corrections/<slug> - input.xlsx   spreadsheet copy for the site
+  CORR  spreadsheet copy for the site — now simply the .xlsx/.csv raw input;
+        the legacy public/input-corrections/ folder was retired 2026-09-14
   JSON  public/inputs/<slug>.json               rendered panel payload (derived)
   PDF   public/library/<slug>/book.pdf          the output master
 """
@@ -47,7 +48,8 @@ orphan_inputs = []
 for r in lib:
     slug = r["slug"]
     hits = raw_kind(slug)
-    corr = (PUB / "input-corrections" / f"{slug} - input.xlsx").exists()
+    # the site's spreadsheet payload comes straight from the raw .xlsx/.csv input now
+    corr = any(h.lower().endswith((".xlsx", ".xls", ".csv")) for h in hits)
     js = (PUB / "inputs" / f"{slug}.json").exists()
     pdf = PUB / "library" / slug / "book.pdf"
     has_pdf = pdf.exists()

@@ -77,6 +77,7 @@ function bookDeepLinkFallback() {
         else if (/^\/book\/[a-z0-9-]+\/bookvault\/?$/.test(path)) req.url = "/bookvault.html";
         else if (/^\/standard\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/standard-book.html";
         else if (/^\/standard\/?$/.test(path)) req.url = "/standard.html";
+        else if (/^\/status\/?$/.test(path)) req.url = "/status.html";
         else if (/^\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
         next();
       });

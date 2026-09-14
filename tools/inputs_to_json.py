@@ -21,7 +21,11 @@ from pathlib import Path
 import openpyxl
 
 REPO = Path(__file__).resolve().parent.parent
-SRC = REPO / "public" / "input-corrections"
+# ONE canonical input location. The 2026-09-14 standard: every book with a source
+# keeps it at public/inputs/<slug> - input.<ext>; the legacy input-corrections
+# folder is retired (its files were byte-identical duplicates of the raw inputs,
+# and the five books that had only a "corrected" copy were moved in here).
+SRC = REPO / "public" / "inputs"
 OUT_PUBLIC = REPO / "public" / "inputs"
 OUT_DIST = REPO / "dist" / "inputs"
 
@@ -59,16 +63,18 @@ def main() -> None:
         if path.suffix.lower() != ".xlsx":
             print(f"skip (not a spreadsheet, panel renders xlsx only): {path.name}")
             continue
+        slug = m.group("slug").lower()
         payload = convert(path)
         if not payload:
             print(f"skip (empty): {path.name}")
             continue
-        slug = m.group("slug").lower()
         out = OUT_PUBLIC / f"{slug}.json"
         out.write_text(json.dumps(payload, ensure_ascii=False, indent=1),
                        encoding="utf-8")
         shutil.copy2(out, OUT_DIST / out.name)
-        shutil.copy2(path, REPO / "dist" / "input-corrections" / path.name)
+        # keep the spreadsheet beside its rendered JSON so the deployed build
+        # carries both; dist/ is a build artefact (gitignored), not a source tree.
+        shutil.copy2(path, OUT_DIST / path.name)
         print(f"ok {slug}: {len(payload['rows'])} rows")
         n += 1
     print(f"{n} inputs converted")

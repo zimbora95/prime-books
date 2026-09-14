@@ -29,7 +29,7 @@ for r in lib:
     slug = r["slug"]
     hits = raw(slug)
     exts = sorted({Path(h).suffix.lower().lstrip(".") for h in hits})
-    corr = (PUB / "input-corrections" / f"{slug} - input.xlsx").exists()
+    corr = any(h.lower().endswith((".xlsx", ".xls", ".csv")) for h in hits)
     js = (PUB / "inputs" / f"{slug}.json").exists()
     rows.append(dict(slug=slug, year=r.get("year"), subject=r.get("subject"),
                      pages=r.get("pages") or 0, done=bool(r.get("done")),

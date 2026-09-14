@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prime School Books — Point of Situation</title>
+<style>
+  :root{
+    --cream:#FBF6EC; --ink:#1c1a13; --moss:#487025; --sage:#A8BF9B;
+    --terra:#C97B5A; --gold:#F1B300; --grey:#6b6b5e; --line:#e6ddc8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--cream); color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif; line-height:1.55}
+  .page{max-width:1080px; margin:0 auto; padding:44px 24px 90px}
+  header.top{border-bottom:3px double var(--gold); padding-bottom:16px; margin-bottom:26px;
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap}
+  header.top img{height:54px; width:auto}
+  header.top h1{font-size:25px; margin:0; letter-spacing:.4px}
+  header.top .sub{width:100%; color:var(--grey); font-size:13.5px; margin:4px 0 0;
+    font-family:Verdana,Arial,sans-serif}
+
+  .ui{font-family:Verdana,Arial,sans-serif}
+  .tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(148px,1fr));
+    gap:12px; margin:22px 0 8px}
+  .tile{background:#fffdf7; border:1px solid var(--sage); border-radius:10px;
+    padding:12px 14px}
+  .tile .n{font-size:26px; font-family:Verdana,Arial,sans-serif; font-weight:bold;
+    color:var(--moss); line-height:1.1}
+  .tile .n.zero{color:var(--terra)}
+  .tile .l{font-family:Verdana,Arial,sans-serif; font-size:10.5px; letter-spacing:1.1px;
+    text-transform:uppercase; color:var(--grey); margin-top:5px}
+  .tile .hint{font-family:Verdana,Arial,sans-serif; font-size:10.5px; color:var(--grey);
+    margin-top:3px}
+
+  .controls{position:sticky; top:0; z-index:5; background:var(--cream);
+    border-bottom:1px solid var(--line); padding:12px 0; margin:18px 0 4px;
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+  .controls input[type=search]{flex:1; min-width:200px; font-family:Verdana,Arial,sans-serif;
+    font-size:13px; padding:8px 11px; border:1px solid var(--sage); border-radius:7px;
+    background:#fffdf7; color:var(--ink)}
+  .chip{font-family:Verdana,Arial,sans-serif; font-size:11.5px; letter-spacing:.4px;
+    padding:7px 13px; border:1px solid var(--sage); border-radius:14px; background:#fffdf7;
+    color:var(--ink); cursor:pointer}
+  .chip.on{background:var(--moss); border-color:var(--moss); color:#fff}
+  .chip:hover{filter:brightness(1.05)}
+  .count{font-family:Verdana,Arial,sans-serif; font-size:11.5px; color:var(--grey);
+    margin-left:auto}
+
+  .yearblock{margin:26px 0 6px; break-inside:avoid}
+  .yearhead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+    font-family:Verdana,Arial,sans-serif; letter-spacing:2px; font-size:12.5px;
+    text-transform:uppercase; color:var(--moss); border-bottom:1px solid var(--sage);
+    padding-bottom:6px; margin:0 0 2px}
+  .yearhead .meta{letter-spacing:.3px; text-transform:none; color:var(--grey); font-size:11.5px}
+  .yearhead .bar{margin-left:auto; letter-spacing:.3px; text-transform:none; color:var(--grey);
+    font-size:11.5px}
+  table{width:100%; border-collapse:collapse}
+  th{text-align:left; font-family:Verdana,Arial,sans-serif; font-size:10.5px;
+    letter-spacing:1.1px; text-transform:uppercase; color:var(--grey); font-weight:normal;
+    padding:9px 8px 5px; border-bottom:1px solid var(--sage)}
+  td{padding:6px 8px; border-bottom:1px solid var(--line); font-size:15px;
+    vertical-align:middle}
+  th.pages,td.pages{text-align:right; width:78px; font-family:Verdana,Arial,sans-serif;
+    font-size:12.5px; color:var(--grey)}
+  th.flag,td.flag{text-align:center; width:120px}
+  th.input,td.input{width:130px}
+  td.subject a{color:var(--ink); text-decoration:none; border-bottom:1px dotted var(--sage)}
+  td.subject a:hover{color:var(--moss); border-bottom-color:var(--moss)}
+  .kind{font-family:Verdana,Arial,sans-serif; font-size:11.5px}
+  .kind.yes{color:var(--moss)}
+  .kind.no{color:#b9b2a2}
+  .stamp{font-family:Verdana,Arial,sans-serif; font-size:12px}
+  .stamp.yes{color:var(--moss)}
+  .stamp.no{color:#b9b2a2}
+  tr.hide{display:none}
+  .hidden{display:none}
+  .note{background:#f4eedd; border:1px solid var(--sage); border-radius:8px;
+    padding:13px 16px; margin:20px 0 0; font-size:14px}
+  .note b{color:var(--moss)}
+  .empty{color:var(--grey); font-family:Verdana,Arial,sans-serif; font-size:13px;
+    padding:18px 0}
+  .updated{color:var(--grey); font-size:12.5px; font-family:Verdana,Arial,sans-serif;
+    margin-top:34px; text-align:center}
+  .err{color:var(--terra)}
+  @media print{
+    .controls,.chip,.count{display:none}
+    body{background:#fff} .page{max-width:none; padding:0}
+    .yearblock{break-inside:avoid} .tile{border-color:#bbb}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="top">
+  <img src="/Logo-Prime-School.png" alt="Prime School logo">
+  <h1>Prime School Books — Point of Situation</h1>
+  <p class="sub">Every title, every year: how long it is, whether its source file is on
+  disk, and whether it has passed the house standard. Live from the workshop.</p>
+</header>
+
+<div class="tiles" id="tiles">
+  <div class="tile"><div class="n" id="t-books">–</div><div class="l">Titles</div></div>
+  <div class="tile"><div class="n" id="t-pages">–</div><div class="l">Pages</div></div>
+  <div class="tile"><div class="n" id="t-with">–</div><div class="l">With input</div></div>
+  <div class="tile"><div class="n zero" id="t-without">–</div><div class="l">Missing input</div></div>
+  <div class="tile"><div class="n zero" id="t-std">–</div><div class="l">Standardised</div>
+    <div class="hint" id="t-std-hint">none yet</div></div>
+</div>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Filter by subject, slug or year…" autocomplete="off">
+  <button class="chip on" data-f="all">All</button>
+  <button class="chip" data-f="input">Has input</button>
+  <button class="chip" data-f="missing">Missing input</button>
+  <button class="chip" data-f="std">Standardised</button>
+  <span class="count" id="shown"></span>
+</div>
+
+<div id="years"><div class="empty">Loading the point of situation…</div></div>
+
+<div class="note">
+  <b>Input</b> means the book's source file is on disk at
+  <span class="ui">public/inputs/&lt;slug&gt; - input.&lt;ext&gt;</span> — PDF or spreadsheet.
+  <b>Standardised</b> is a manual sign-off, recorded in
+  <span class="ui">public/standardized.json</span>; it is deliberately empty, so every
+  title reads as not yet standardised rather than being inferred from the presence of
+  an input file. A title with no input is not necessarily unbuilt: many books were
+  made from a source that never reached this repository.
+</div>
+
+<p class="updated">Generated <span id="gen">–</span> · <a href="/">Catalogue</a> ·
+<a href="/standard">Publishing standard</a></p>
+</div>
+<script>
+(function () {
+  "use strict";
+
+  /* Same data-loading contract as the other standalone pages (amazon.html):
+     try the live file server first so a freshly regenerated status.json shows up
+     without a deploy, then fall back to same-origin for the deployed site. */
+  function bases() {
+    return (window.__PB_LIVE_BASES && window.__PB_LIVE_BASES.length)
+      ? window.__PB_LIVE_BASES.concat([""])
+      : [window.__PB_LIVE_BASE || "", ""];
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function fetchBases(path, i, onOk, onFail) {
+    if (i >= bases().length) { onFail(); return; }
+    var done = false;
+    var t = setTimeout(function () {
+      if (!done) { done = true; fetchBases(path, i + 1, onOk, onFail); }
+    }, 8000);
+    fetch(bases()[i] + path, { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        if (done) return;
+        done = true; clearTimeout(t); onOk(j);
+      })
+      .catch(function () {
+        if (done) return;
+        done = true; clearTimeout(t); fetchBases(path, i + 1, onOk, onFail);
+      });
+  }
+
+  var DATA = null, filter = "all", query = "";
+
+  function inputCell(inp) {
+    if (!inp) return '<span class="kind no">—</span>';
+    return '<span class="kind yes" title="' + esc(inp.file) + '">&#10003; ' +
+      esc(inp.kind) + "</span>";
+  }
+  function stdCell(v) {
+    return v
+      ? '<span class="stamp yes" title="signed off">&#10003;</span>'
+      : '<span class="stamp no" title="not yet standardised">—</span>';
+  }
+
+  function rowHtml(r) {
+    var hay = (r.subject + " " + r.slug).toLowerCase();
+    if (query && hay.indexOf(query) === -1) return "";
+    if (filter === "input" && !r.input) return "";
+    if (filter === "missing" && r.input) return "";
+    if (filter === "std" && !r.standardized) return "";
+    return '<tr data-miss="' + (r.input ? "0" : "1") + '">' +
+      '<td class="subject"><a href="/book/' + esc(r.slug) + '">' + esc(r.subject) + "</a></td>" +
+      '<td class="pages">' + (r.pages || "–") + "</td>" +
+      '<td class="input">' + inputCell(r.input) + "</td>" +
+      '<td class="flag">' + stdCell(r.standardized) + "</td></tr>";
+  }
+
+  function render() {
+    if (!DATA) return;
+    var total = 0, html = "";
+    DATA.years.forEach(function (y) {
+      var rows = y.books.map(rowHtml).filter(function (s) { return s; });
+      if (!rows.length) return;
+      total += rows.length;
+      html += '<section class="yearblock">' +
+        '<h2 class="yearhead">Year ' + (y.year < 10 ? "0" + y.year : y.year) +
+        '<span class="meta">' + y.books.length + " titles · " + y.pages + " pages</span>" +
+        '<span class="bar">input ' + y.withInput + "/" + y.books.length +
+        " · standardised " + y.standardized + "/" + y.books.length + "</span></h2>" +
+        '<table><thead><tr><th>Subject</th><th class="pages">Pages</th>' +
+        '<th class="input">Input</th><th class="flag">Standardised</th></tr></thead>' +
+        "<tbody>" + rows.join("") + "</tbody></table></section>";
+    });
+    document.getElementById("years").innerHTML =
+      html || '<div class="empty">Nothing matches that filter.</div>';
+    document.getElementById("shown").textContent =
+      total + " of " + DATA.totals.books + " titles shown";
+  }
+
+  function tiles(t) {
+    document.getElementById("t-books").textContent = t.books;
+    document.getElementById("t-pages").textContent = t.pages.toLocaleString();
+    document.getElementById("t-with").textContent = t.withInput;
+    document.getElementById("t-without").textContent = t.noInput;
+    document.getElementById("t-std").textContent = t.standardized;
+    var hint = document.getElementById("t-std-hint");
+    if (t.standardized === 0) hint.textContent = "none yet";
+    else hint.textContent = Math.round(100 * t.standardized / t.books) + "% of titles";
+    document.getElementById("gen").textContent = DATA.generated || "–";
+  }
+
+  document.getElementById("q").addEventListener("input", function (e) {
+    query = e.target.value.trim().toLowerCase();
+    render();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (c) {
+    c.addEventListener("click", function () {
+      filter = c.dataset.f;
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (o) {
+        o.classList.toggle("on", o === c);
+      });
+      render();
+    });
+  });
+
+  fetchBases("/status.json", 0, function (j) {
+    DATA = j;
+    tiles(j.totals);
+    render();
+  }, function () {
+    document.getElementById("years").innerHTML =
+      '<div class="empty err">Could not load status.json — regenerate it with ' +
+      '<span class="ui">.venv/bin/python tools/make_status_json.py</span>.</div>';
+  });
+})();
+</script>
+</body>
+</html>

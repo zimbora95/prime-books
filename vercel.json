@@ -5,6 +5,7 @@
     { "source": "/book/:slug/bookvault", "destination": "/bookvault.html" },
     { "source": "/standard/book/:slug", "destination": "/standard-book.html" },
     { "source": "/standard", "destination": "/standard.html" },
+    { "source": "/status", "destination": "/status.html" },
     { "source": "/book/:slug", "destination": "/index.html" }
   ]
 }
