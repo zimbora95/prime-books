@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVault · Prime Books</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style>
+      :root {
+        --cream: #f6f1e6;
+        --gold: #c9a35c;
+        --mist: #aeb8dd;
+        --ink: #14161d;
+        --paper: #1c1f29;
+        --paper2: #232735;
+        --line: rgba(246, 241, 230, 0.14);
+        --good: #8ec98e;
+        --warn: #e8c073;
+        --bad: #e88a8a;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--ink);
+        color: var(--cream);
+        min-height: 100vh;
+      }
+      .bv-wrap { max-width: 1080px; margin: 0 auto; padding: 28px 24px 60px; }
+      .bv-top {
+        display: flex; align-items: center; justify-content: space-between;
+        gap: 16px; flex-wrap: wrap; margin-bottom: 8px;
+      }
+      .bv-brand { display: flex; align-items: center; gap: 12px; }
+      .bv-brand img { height: 34px; }
+      .bv-h1 { font-size: 22px; font-weight: 800; letter-spacing: 0.2px; }
+      .bv-h1 small { color: var(--mist); font-weight: 600; }
+      .bv-back {
+        height: 42px; padding: 0 20px; border-radius: 999px;
+        background: rgba(246, 241, 230, 0.08);
+        border: 1px solid rgba(246, 241, 230, 0.22);
+        color: var(--cream); font-size: 14px; font-weight: 700; cursor: pointer;
+        text-decoration: none; display: inline-flex; align-items: center;
+      }
+      .bv-back:hover { background: rgba(246, 241, 230, 0.16); }
+      .bv-sub { color: var(--mist); font-size: 13.5px; margin-bottom: 26px; }
+      .bv-sub b { color: var(--cream); }
+
+      .bv-card {
+        background: var(--paper); border: 1px solid var(--line);
+        border-radius: 16px; padding: 22px; margin-bottom: 22px;
+      }
+      .bv-card h2 {
+        font-size: 12px; text-transform: uppercase; letter-spacing: 1.4px;
+        color: var(--gold); margin-bottom: 14px;
+      }
+      .bv-cover-img { display: block; width: 100%; height: auto; border-radius: 8px; }
+      .bv-cover-empty {
+        border: 1px dashed rgba(246, 241, 230, 0.3); border-radius: 12px;
+        padding: 34px 22px; text-align: center; color: var(--mist);
+        font-size: 14px; line-height: 1.6;
+      }
+      .bv-actions { margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+      .bv-dl {
+        display: inline-flex; align-items: center; gap: 8px;
+        height: 40px; padding: 0 18px; border-radius: 999px;
+        background: var(--gold); color: var(--ink); font-size: 13.5px;
+        font-weight: 800; cursor: pointer; text-decoration: none; border: none;
+      }
+      .bv-dl.ghost {
+        background: rgba(246, 241, 230, 0.08); color: var(--cream);
+        border: 1px solid rgba(246, 241, 230, 0.28);
+      }
+      .bv-dl:disabled { opacity: 0.45; cursor: default; }
+      .bv-note { margin-top: 12px; color: var(--mist); font-size: 12.5px; line-height: 1.6; }
+      .bv-note b { color: var(--cream); }
+      .bv-facts { margin-top: 14px; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+      .bv-fact {
+        background: rgba(246, 241, 230, 0.05); border: 1px solid var(--line);
+        border-radius: 10px; padding: 10px 12px;
+      }
+      .bv-fact span { display: block; color: var(--mist); font-size: 11px; text-transform: uppercase; letter-spacing: 1px; }
+      .bv-fact b { font-size: 14px; font-weight: 700; }
+
+      .bv-field { margin-bottom: 16px; }
+      .bv-field label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 7px; }
+      .bv-grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+      input, select {
+        width: 100%; background: rgba(246, 241, 230, 0.05);
+        border: 1px solid var(--line); border-radius: 10px;
+        color: var(--cream); font: inherit; font-size: 14px; padding: 11px 13px;
+      }
+      input:focus, select:focus { outline: 2px solid var(--gold); outline-offset: -1px; }
+      select option { background: var(--paper2); color: var(--cream); }
+
+      .bv-check { display: flex; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+      .bv-check:last-child { border-bottom: none; }
+      .bv-tick {
+        flex: 0 0 auto; width: 20px; height: 20px; border-radius: 50%;
+        display: grid; place-items: center; font-size: 12px; font-weight: 800;
+        margin-top: 1px;
+      }
+      .bv-tick.ok { background: rgba(142, 201, 142, 0.18); color: var(--good); }
+      .bv-tick.warn { background: rgba(232, 192, 115, 0.18); color: var(--warn); }
+      .bv-tick.bad { background: rgba(232, 138, 138, 0.18); color: var(--bad); }
+      .bv-check div b { display: block; font-size: 13.5px; font-weight: 700; }
+      .bv-check div p { color: var(--mist); font-size: 12.5px; line-height: 1.55; margin-top: 3px; }
+      .bv-check div p.flagged { color: var(--warn); }
+
+      .bv-msg { font-size: 13px; color: var(--mist); }
+      .bv-msg.ok { color: var(--good); }
+      .bv-msg.err { color: var(--bad); }
+      .bv-loading { padding: 90px 0; text-align: center; color: var(--mist); }
+      .bv-notfound { padding: 90px 0; text-align: center; }
+      .bv-notfound h2 { color: var(--cream); font-size: 20px; margin-bottom: 10px; }
+      .bv-notfound p { color: var(--mist); }
+      .bv-spin {
+        display: inline-block; width: 13px; height: 13px; margin-right: 8px;
+        border: 2px solid rgba(20, 22, 29, 0.35); border-top-color: var(--ink);
+        border-radius: 50%; animation: bvspin 0.7s linear infinite;
+        vertical-align: -2px;
+      }
+      @keyframes bvspin { to { transform: rotate(360deg); } }
+    </style>
+  </head>
+  <body>
+    <div class="bv-wrap">
+      <div class="bv-top">
+        <div class="bv-brand">
+          <img src="/Logo-Prime-School-light.png" alt="Prime Books" />
+          <div class="bv-h1">BookVault <small>· Print files &amp; upload sheet</small></div>
+        </div>
+        <a class="bv-back" id="bvBack" href="#">&larr; Back to the book</a>
+      </div>
+      <div class="bv-sub" id="bvSub">Loading the book&hellip;</div>
+
+      <div class="bv-loading" id="bvLoading">Loading the book&hellip;</div>
+      <div class="bv-notfound" id="bvNotFound" style="display:none">
+        <h2>Book not found</h2>
+        <p>This address does not match a book in the library.</p>
+      </div>
+
+      <div id="bvBody" style="display:none">
+        <div class="bv-card">
+          <h2>Text file &mdash; the interior</h2>
+          <div id="bvTextBox"></div>
+          <div class="bv-note">
+            This is the file BookVault uploads into the <b>text file</b> box. It is the
+            book's own trim size, declared in BookVault as a <b>custom size</b>, with
+            <b>0.125&Prime; (3.175&nbsp;mm) bleed</b> extended from each page's own edge
+            artwork as vector. The <b>front cover and back cover are stripped out</b>:
+            in a Prime Books PDF page 1 is the front cover and the last page is the back
+            cover, and both are reprinted in the cover file &mdash; leaving them in
+            prints the cover twice.
+          </div>
+          <div class="bv-actions" id="bvTextActions"></div>
+        </div>
+
+        <div class="bv-card">
+          <h2>Cover file &mdash; the wrap</h2>
+          <div id="bvCoverBox"></div>
+          <div class="bv-note">
+            Back cover + spine + front cover in <b>one print PDF</b>, full bleed, 300&nbsp;DPI.
+            <span id="bvCoverMeta"></span>
+          </div>
+          <div class="bv-actions" id="bvCoverActions"></div>
+        </div>
+
+        <div class="bv-card">
+          <h2>Title specifications &mdash; what you enter on bookvault.app</h2>
+          <div class="bv-grid2">
+            <div class="bv-field">
+              <label for="bvBinding">Binding</label>
+              <select id="bvBinding">
+                <option>Perfect bound (paperback)</option>
+                <option>Case laminate hardcover</option>
+                <option>Jacketed hardcover</option>
+                <option>Coil / spiral bound</option>
+              </select>
+            </div>
+            <div class="bv-field">
+              <label for="bvLamination">Cover lamination</label>
+              <select id="bvLamination">
+                <option>Matte</option>
+                <option>Gloss</option>
+              </select>
+            </div>
+            <div class="bv-field">
+              <label for="bvPaper">Paper stock</label>
+              <input id="bvPaper" placeholder="Colour interior, 80 gsm uncoated" />
+            </div>
+            <div class="bv-field">
+              <label for="bvIsbn">ISBN (blank = BookVault dummy)</label>
+              <input id="bvIsbn" placeholder="978-…" />
+            </div>
+          </div>
+          <div class="bv-actions">
+            <button class="bv-dl" id="bvSave">Save specifications</button>
+            <span class="bv-msg" id="bvMsg"></span>
+          </div>
+        </div>
+
+        <div class="bv-card">
+          <h2>Checks &mdash; run before you upload</h2>
+          <div id="bvChecks"></div>
+          <div class="bv-actions" id="bvSheetActions"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* =====================================================================
+         Prime Books — BookVault print-pack page (/book/<slug>/bookvault)
+
+         Workshop feature, not e-commerce. BookVault (bookvault.app) prints a
+         title from exactly two uploads: a "text file" (the interior PDF) and a
+         "cover file" (the cover wrap). This page prepares both from the book's
+         own master PDF, shows the spec numbers BookVault will ask for, and runs
+         their validation list locally so problems surface here instead of in
+         the upload dialog.
+
+         Persistence follows the amazon.json / done.json pattern exactly: the
+         specifications are GLOBAL and PERMANENT on the live file server, and the
+         built files live beside the book master under library/<slug>/bookvault/.
+         ===================================================================== */
+      (function () {
+        "use strict";
+
+        var slug = location.pathname
+          .replace(/^\/book\//, "")
+          .replace(/\/bookvault\/?$/, "")
+          .replace(/\/+$/, "");
+
+        var el = function (id) { return document.getElementById(id); };
+        var row = null;
+        var record = null;
+        var settings = null;
+        var building = false;
+        var saveInFlight = false;
+
+        function liveBaseList() {
+          return window.__PB_LIVE_BASES ||
+            (window.__PB_LIVE_BASE ? [window.__PB_LIVE_BASE] : [""]);
+        }
+
+        function fetchBases(path, opts, i, onOk, onFail, timeoutMs) {
+          var ctrl = null;
+          if (typeof AbortController !== "undefined") {
+            ctrl = new AbortController();
+            opts = Object.assign({}, opts, { signal: ctrl.signal });
+            setTimeout(function () { try { ctrl.abort(); } catch (e) {} },
+              timeoutMs || 8000);
+          }
+          i = i || 0;
+          var bases = liveBaseList();
+          if (i >= bases.length) return onFail();
+          fetch(bases[i] + path, opts)
+            .then(function (r) {
+              if (r.ok) return r.json().then(onOk, function () { fetchBases(path, opts, i + 1, onOk, onFail); });
+              fetchBases(path, opts, i + 1, onOk, onFail);
+            })
+            .catch(function () { fetchBases(path, opts, i + 1, onOk, onFail); });
+        }
+
+        function esc(s) {
+          return String(s).replace(/[&<>"']/g, function (c) {
+            return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+          });
+        }
+
+        /* A built file is fetched straight from the file server: relative URLs
+           work on the live tunnel AND on the deployed site, because every
+           library/ path is served from the same origin as this page. */
+        function fileUrl(p) { return p; }
+
+        function fmtMm(pt) { return (pt * 25.4 / 72).toFixed(1); }
+
+        function loadLibrary(cb) {
+          fetchBases("/library.json", { cache: "no-store" }, 0, function (rows) {
+            if (Array.isArray(rows)) {
+              for (var i = 0; i < rows.length; i++)
+                if (rows[i] && rows[i].slug === slug) { row = rows[i]; break; }
+            }
+            cb();
+          }, cb);
+        }
+
+        /* ---------- the build record (library/<slug>/bookvault/build.json) ----
+           Read through the live server's endpoint when it answers, so a stale
+           pack is detected and rebuilt automatically; otherwise read the static
+           build.json, which is what the deployed site serves. */
+        function loadRecord(cb) {
+          fetchBases("/bookvault/" + encodeURIComponent(slug), { cache: "no-store" }, 0,
+            function (r) { record = (r && r.record) || null; stale = !!(r && r.stale); cb(r); },
+            function () {
+              fetchBases("/library/" + encodeURIComponent(slug) + "/bookvault/build.json",
+                { cache: "no-store" }, 0,
+                function (r2) { record = r2 || null; cb(null); },
+                function () { cb(null); });
+            }, 20000);
+        }
+
+        var stale = false;
+
+        function loadSettings(cb) {
+          fetchBases("/bookvault.json", { cache: "no-store" }, 0, function (m) {
+            settings = (m && typeof m === "object" && m[slug]) || {};
+            cb();
+          }, function () { settings = {}; cb(); });
+        }
+
+        function saveSettings(entry, onDone) {
+          var live = window.__PB_LIVE_BASE || "";
+          if (!live) return onDone(false);
+          var body = JSON.stringify({ __slug: slug, entry: entry });
+          var attempt = 0;
+          (function post() {
+            attempt++;
+            fetch(live + "/bookvault.json", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: body,
+            })
+              .then(function (r) {
+                if (!r.ok) throw new Error("http " + r.status);
+                return fetch(live + "/bookvault.json", { cache: "no-store" })
+                  .then(function (r2) { return r2.ok ? r2.json() : null; });
+              })
+              .then(function (m) {
+                var got = m && m[slug];
+                if (got && got.binding === entry.binding && got.paper === entry.paper &&
+                    got.isbn === entry.isbn && got.lamination === entry.lamination) {
+                  settings = got;
+                  onDone(true);
+                } else if (attempt < 3) setTimeout(post, 600 * attempt);
+                else onDone(false);
+              })
+              .catch(function () {
+                if (attempt < 3) setTimeout(post, 600 * attempt);
+                else onDone(false);
+              });
+          })();
+        }
+
+        /* ---------- render ---------- */
+        function renderText() {
+          var box = el("bvTextBox"), actions = el("bvTextActions");
+          var t = record && record.text;
+          if (!t) {
+            box.innerHTML = '<div class="bv-cover-empty">Not built yet. ' +
+              'Press <b>Build print files</b> to prepare the interior and the cover ' +
+              'from this book&rsquo;s master PDF. That runs on the build server.</div>';
+            actions.innerHTML = '<button class="bv-dl" id="bvBuild">Build print files</button>';
+            el("bvBuild").addEventListener("click", buildFiles);
+            return;
+          }
+          box.innerHTML =
+            '<div class="bv-facts">' +
+            fact("Interior pages", t.pages) +
+            fact("Trim size", fmtMm(t.trim_pt[0]) + " × " + fmtMm(t.trim_pt[1]) + " mm") +
+            fact("With bleed", fmtMm(t.media_pt[0]) + " × " + fmtMm(t.media_pt[1]) + " mm") +
+            fact("Size", (t.bytes / 1e6).toFixed(1) + " MB") +
+            fact("Colour", t.pdfx ? "CMYK · PDF/X" : "RGB") +
+            "</div>";
+          actions.innerHTML =
+            '<a class="bv-dl" href="' + esc(fileUrl(t.url)) + '" download="' +
+            esc(t.file) + '">&#8681;&nbsp; Download text file</a>' +
+            '<button class="bv-dl ghost" id="bvBuild">&#8635;&nbsp; Rebuild</button>';
+          el("bvBuild").addEventListener("click", buildFiles);
+        }
+
+        function fact(label, value) {
+          return '<div class="bv-fact"><span>' + esc(label) + "</span><b>" + esc(value) + "</b></div>";
+        }
+
+        function renderCover() {
+          var box = el("bvCoverBox"), actions = el("bvCoverActions");
+          var c = record && record.cover;
+          if (!c) {
+            box.innerHTML = '<div class="bv-cover-empty">The cover file is built with the ' +
+              'interior.</div>';
+            actions.innerHTML = "";
+            return;
+          }
+          box.innerHTML = '<img class="bv-cover-img" src="' + esc(fileUrl(c.preview)) +
+            "?v=" + Date.now() + '" alt="Cover wrap: back cover, spine and front cover" />';
+          actions.innerHTML =
+            '<a class="bv-dl" href="' + esc(fileUrl(c.url)) + '" download="' + esc(c.file) +
+            '">&#8681;&nbsp; Download cover file</a>';
+          el("bvCoverMeta").innerHTML =
+            "Spine <b>" + c.spine_mm + " mm</b> from <b>" + c.interior_pages +
+            "</b> interior pages; full cover <b>" + fmtMm(c.full_cover_mm[0]) + " × " +
+            fmtMm(c.full_cover_mm[1]) + " mm</b>." +
+            (c.spine_text ? "" : " Spine text is omitted below " +
+              "79 pages.") +
+            " Confirm the spine against the sizing template BookVault shows for this " +
+            "trim, binding and paper.";
+        }
+
+        function renderChecks() {
+          var box = el("bvChecks"), actions = el("bvSheetActions");
+          if (!record || !record.checks) {
+            box.innerHTML = '<div class="bv-note">Checks appear once the files are built.</div>';
+            actions.innerHTML = "";
+            return;
+          }
+          box.innerHTML = record.checks.map(function (c) {
+            var cls = c.pass ? "ok" : (c.level === "warn" ? "warn" : "bad");
+            var mark = c.pass ? "&#10003;" : (c.level === "warn" ? "!" : "&#10007;");
+            return '<div class="bv-check"><div class="bv-tick ' + cls + '">' + mark +
+              "</div><div><b>" + esc(c.name) + "</b><p" +
+              (c.pass ? "" : ' class="flagged"') + ">" + esc(c.detail) + "</p></div></div>";
+          }).join("");
+          actions.innerHTML = record.sheet
+            ? '<a class="bv-dl ghost" href="' + esc(fileUrl(record.sheet.url)) + '" download="' +
+              esc(record.sheet.file) + '">&#8681;&nbsp; Download upload sheet (.txt)</a>'
+            : "";
+        }
+
+        function renderSpecs() {
+          var s = settings || {};
+          el("bvBinding").value = s.binding || "Perfect bound (paperback)";
+          el("bvLamination").value = s.lamination || "Matte";
+          el("bvPaper").value = s.paper || "Colour interior, 80 gsm uncoated";
+          el("bvIsbn").value = s.isbn || "";
+        }
+
+        function msg(t, cls) {
+          var m = el("bvMsg");
+          m.textContent = t;
+          m.className = "bv-msg" + (cls ? " " + cls : "");
+        }
+
+        /* ---------- build ---------- */
+        function setBusy(on) {
+          var btn = el("bvBuild");
+          if (!btn) return;
+          btn.disabled = on;
+          btn.innerHTML = on
+            ? '<span class="bv-spin"></span>Building&hellip; a minute or two'
+            : "&#8635;&nbsp; Rebuild";
+        }
+
+        function buildFiles() {
+          if (building) return;
+          building = true;
+          setBusy(true);
+          msg("Building the interior and the cover on the server\u2026", "");
+          fetchBases("/bookvault/" + encodeURIComponent(slug), { method: "POST" }, 0,
+            function (r) {
+              /* 202 + busy: the server is already building (this book, or the
+                 book another teacher just opened). Wait for the pack instead of
+                 stacking a second two-minute build. */
+              if (r && r.busy) {
+                msg("The build server is busy \u2014 waiting for it to finish\u2026", "");
+                waitForBuild(0);
+                return;
+              }
+              building = false;
+              loadRecord(function () {
+                renderText(); renderCover(); renderChecks();
+                setBusy(false);
+                if (r && r.ok) msg("Print files built.", "ok");
+                else msg("The build reported a problem \u2014 see the checks below.", "err");
+              });
+            },
+            function () {
+              building = false;
+              renderText();
+              msg("Could not reach the build server. The files are built on the " +
+                "workshop server, so start it (or use the live tunnel) and try again.", "err");
+            },
+            600000);
+        }
+
+        function waitForBuild(n) {
+          n = n || 0;
+          if (n > 90) {                     /* ~7.5 minutes, then stop */
+            building = false;
+            setBusy(false);
+            msg("The build server is still busy. Try again in a moment.", "err");
+            return;
+          }
+          setTimeout(function () {
+            loadRecord(function () {
+              if (stale) return waitForBuild(n + 1);
+              building = false;
+              renderText(); renderCover(); renderChecks();
+              setBusy(false);
+              msg("Print files are up to date.", "ok");
+            });
+          }, 5000);
+        }
+
+        /* ---------- realtime: adopt other users' specifications ---------- */
+        function userIsEditing() {
+          var ae = document.activeElement;
+          return saveInFlight || (ae && /^bv(Binding|Lamination|Paper|Isbn)$/.test(ae.id));
+        }
+
+        function pollForUpdates() {
+          if (userIsEditing() || building) return;
+          fetchBases("/bookvault.json", { cache: "no-store" }, 0, function (m) {
+            if (!m || typeof m !== "object") return;
+            var fresh = m[slug] || {};
+            if (JSON.stringify(fresh) !== JSON.stringify(settings || {})) {
+              settings = fresh;
+              renderSpecs();
+              msg("Specifications changed by another user \u2014 updated.", "ok");
+            }
+          }, function () {});
+        }
+
+        function waitForProbe(cb, n) {
+          n = n || 0;
+          if (window.__PB_LIVE === true || n > 24) return cb();
+          setTimeout(function () { waitForProbe(cb, n + 1); }, 250);
+        }
+
+        el("bvSave").addEventListener("click", function () {
+          var entry = {
+            binding: el("bvBinding").value,
+            lamination: el("bvLamination").value,
+            paper: el("bvPaper").value.trim(),
+            isbn: el("bvIsbn").value.trim(),
+          };
+          var btn = el("bvSave");
+          btn.disabled = true;
+          saveInFlight = true;
+          msg("", "");
+          saveSettings(entry, function (ok) {
+            saveInFlight = false;
+            btn.disabled = false;
+            if (ok) msg("Saved \u2014 visible to everyone, on every computer.", "ok");
+            else msg("Could NOT save \u2014 the build server is offline.", "err");
+          });
+        });
+
+        waitForProbe(function () {
+          loadLibrary(function () {
+            if (!row) {
+              el("bvLoading").style.display = "none";
+              el("bvNotFound").style.display = "";
+              el("bvSub").textContent = "";
+              return;
+            }
+            el("bvBack").setAttribute("href", "/book/" + slug);
+            el("bvBack").addEventListener("click", function (e) {
+              e.preventDefault();
+              location.href = "/book/" + slug;
+            });
+            el("bvLoading").style.display = "none";
+            el("bvBody").style.display = "";
+            el("bvSub").innerHTML =
+              "Preparing <b>" + esc(row.subject) + "</b>" +
+              (row.band ? " &middot; " + esc(row.band) : "") +
+              (row.year ? " &middot; Year " + row.year : "") +
+              " for BookVault &mdash; specifications are global and permanent.";
+
+            loadSettings(function () {
+              renderSpecs();
+              loadRecord(function () {
+                renderText(); renderCover(); renderChecks();
+                /* a pack built before the book's last edit is out of date:
+                   rebuild it without being asked, exactly as the KDP lane does
+                   for its wrap cover. */
+                if (stale) {
+                  msg("This book changed since its print files were built \u2014 rebuilding\u2026", "");
+                  buildFiles();
+                }
+              });
+            });
+            setInterval(pollForUpdates, 5000);
+          });
+        });
+      })();
+    </script>
+    <script src="/pb-live-probe.js"></script>
+  </body>
+</html>

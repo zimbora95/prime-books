@@ -855,6 +855,17 @@
       .fb-btn-amz:hover {
         background: rgba(201, 163, 92, 0.3);
       }
+      /* BookVault print-pack button: its own teal accent so the two print
+         actions (Amazon KDP, BookVault) are told apart at a glance while both
+         still read as "prepare this book for printing", not navigation. */
+      .fb-btn-vault {
+        background: rgba(126, 178, 164, 0.16);
+        border-color: rgba(126, 178, 164, 0.55);
+        color: #9fd0c2;
+      }
+      .fb-btn-vault:hover {
+        background: rgba(126, 178, 164, 0.3);
+      }
       .fb-btn:disabled {
         opacity: 0.35;
         pointer-events: none;
@@ -2016,6 +2027,9 @@
           </button>
           <button class="fb-btn" id="fbDownloadBtn" aria-label="Download PDF" title="Download the complete PDF of this book to your machine">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>&nbsp;Download PDF
+          </button>
+          <button class="fb-btn fb-btn-vault" id="fbVaultBtn" aria-label="BookVault print files" title="BookVault print files: the interior text file, the cover wrap and the upload sheet">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h11l5 5v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><polyline points="15 4 15 9 20 9"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg>&nbsp;Download Bookvault
           </button>
           <button class="fb-btn" id="fbFirst" aria-label="First page" title="Go to the first page">
             &laquo;
@@ -6642,6 +6656,20 @@ function rr(x, px, py, w, h, r) {
       document.getElementById("fbAmazonBtn").addEventListener("click", () => {
         const slug = fbBookMeta && fbBookMeta.slug;
         if (slug) location.href = "/book/" + slug + "/amazon";
+      });
+      /* BookVault print pack: /book/<slug>/bookvault, same route family. That
+         page builds the "text file" (interior) and the "cover file" (wrap) that
+         bookvault.app asks for, and runs their validation list locally. Books
+         with no PDF yet have nothing to build, so they toast instead. */
+      document.getElementById("fbVaultBtn").addEventListener("click", () => {
+        const meta = fbBookMeta;
+        const slug = meta && meta.slug;
+        if (!slug) return;
+        if (!meta.pdf || !meta.pdfUrl) {
+          toast("This book has no PDF yet, so there is nothing to prepare for BookVault.");
+          return;
+        }
+        location.href = "/book/" + slug + "/bookvault";
       });
       /* -------------------------------------------------------------------
          DOWNLOAD PDF: save the complete flipbook PDF to the user's machine.

@@ -75,3 +75,12 @@ public/inputs/y08-humanities - input.pdf
 public/library/y08-humanities/book.pdf
 dist/
 .venv
+
+# BookVault print packs are DERIVED from library/<slug>/book.pdf by
+# tools/make_bookvault_files.py: a PDF/X interior plus a 300 DPI cover wrap,
+# 10-15 MB per title. 123 titles of that is ~1.7 GB the repo does not need, so
+# only the small record (build.json) and the upload sheet are tracked - the
+# deployed site can still show the checks, and the files themselves are built
+# on demand and served through the live tunnel.
+public/library/*/bookvault/*.pdf
+public/library/*/bookvault/*.png
