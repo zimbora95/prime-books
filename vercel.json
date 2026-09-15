@@ -1,14 +1,48 @@
 {
   "rewrites": [
-    { "source": "/hermes/:verb", "destination": "/api/hermes?verb=:verb" },
-    { "source": "/book/:slug/amazon", "destination": "/amazon.html" },
-    { "source": "/book/:slug/bookvault", "destination": "/bookvault.html" },
-    { "source": "/standard/book/:slug", "destination": "/standard-book.html" },
-    { "source": "/standard", "destination": "/standard.html" },
-    { "source": "/standard/years-1-4", "destination": "/years-1-4.html" },
-    { "source": "/years-1-4", "destination": "/years-1-4.html" },
-    { "source": "/status", "destination": "/status.html" },
-    { "source": "/syllabus", "destination": "/syllabus.html" },
-    { "source": "/book/:slug", "destination": "/index.html" }
+    {
+      "source": "/hermes/:verb",
+      "destination": "/api/hermes?verb=:verb"
+    },
+    {
+      "source": "/finished",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/book/:slug/amazon",
+      "destination": "/amazon.html"
+    },
+    {
+      "source": "/book/:slug/bookvault",
+      "destination": "/bookvault.html"
+    },
+    {
+      "source": "/standard/book/:slug",
+      "destination": "/standard-book.html"
+    },
+    {
+      "source": "/standard",
+      "destination": "/standard.html"
+    },
+    {
+      "source": "/standard/years-1-4",
+      "destination": "/years-1-4.html"
+    },
+    {
+      "source": "/years-1-4",
+      "destination": "/years-1-4.html"
+    },
+    {
+      "source": "/status",
+      "destination": "/status.html"
+    },
+    {
+      "source": "/syllabus",
+      "destination": "/syllabus.html"
+    },
+    {
+      "source": "/book/:slug",
+      "destination": "/index.html"
+    }
   ]
 }

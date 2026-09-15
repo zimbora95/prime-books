@@ -1597,6 +1597,18 @@
         transform: none;
         pointer-events: auto;
       }
+      /* /finished: the reader says what it is showing, and what it is not */
+      .fb-shell {
+        padding: 10px 16px;
+        font-size: 13px;
+        line-height: 1.55;
+        color: #2e2740;
+        background: #fdf6e3;
+        border-bottom: 1px solid rgba(201, 162, 39, 0.5);
+      }
+      .fb-shell b {
+        font-weight: 800;
+      }
       .toc-head {
         padding: 6px 10px 12px;
         font-size: 11px;
@@ -2078,6 +2090,12 @@
           </button>
         </div>
       </div>
+      <div class="fb-shell" id="fbShellNote" hidden>
+        <b>Standardised shell.</b> Only three pages are standardised so far &mdash;
+        the cover, the second page and the back cover &mdash; so that is what this
+        reader shows. The interior is authored from the input: open
+        <b>Sections</b> or <b>Input</b> to see everything this book must contain.
+      </div>
       <div class="fb-stage" id="fbStage">
         <div id="fbBook"></div>
         <div class="fb-load" id="fbLoad">
@@ -2105,6 +2123,29 @@
     <script>      /* 0. Utilities (3D stage retired: only what the catalogue + flipbook need) */
       const RM = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+
+      /* ---- FINISHED MODE (/finished) -------------------------------------
+         A replica of the catalogue whose reader shows only the pages that can
+         be standardised without touching the teaching: the cover, the second
+         page and the back cover. Sections and Input stay complete, because
+         they are how the assistant learns what the interior must contain.
+         ?finished=1 turns the same mode on for a local preview. */
+      const PB_FINISHED =
+        /^\/finished(\.html)?(\/|$)/.test(location.pathname) ||
+        /(?:^|[?&])finished=1(?:&|$)/.test(location.search);
+      /* flip index -> PDF page index, while a window is in force */
+      let fbWindow = null;
+      /* base slug -> the row of its standardised edition (<slug>-standard) */
+      const pbStandard = new Map();
+      const pbIndex = (i) => (fbWindow ? fbWindow[i] : i);
+      const pbInWindow = (pdfIdx) => !!fbWindow && fbWindow.indexOf(pdfIdx) >= 0;
+      /* A section row whose page is not part of the shell keeps its label -
+         the assistant still needs to know it exists - but loses its page, so
+         the list reads "not built yet" instead of pointing nowhere. */
+      const pbShellRow = (s) =>
+        fbWindow && s.page >= 0 && !pbInWindow(s.page)
+          ? Object.assign({}, s, { page: -1 })
+          : s;
 
 function mkCanvas(w, h) {
         const c = document.createElement("canvas");
@@ -5630,6 +5671,15 @@ function rr(x, px, py, w, h, r) {
           .then((rows) => {
             if (!Array.isArray(rows)) return;
             LIBRARY_ROWS = rows;
+            /* Finished mode: a title may carry a standardised edition beside
+               its master (<slug>-standard). Index those by their base slug, so
+               /finished opens the standardised book wherever one exists. */
+            pbStandard.clear();
+            rows.forEach((row) => {
+              const sl = String(row.slug || "");
+              if (sl.slice(-9) !== "-standard") return;
+              pbStandard.set(sl.slice(0, -9), row);
+            });
             rows.forEach((row) => {
               const key = "Year " + row.year + "|" + normSubject(row.subject);
               SUBJECT_PDFS[key] = row.pdf;
@@ -6059,7 +6109,7 @@ function rr(x, px, py, w, h, r) {
           if (fbTextCache.has(pageNo)) return fbTextCache.get(pageNo);
           let out = "";
           try {
-            const pg = await fbDoc.getPage(pageNo);
+            const pg = await fbDoc.getPage(pbIndex(pageNo - 1) + 1);
             const tc = await pg.getTextContent();
             /* Rebuild reading order with line breaks: pdf.js hands back
                positioned fragments, and joining them with spaces alone turns a
@@ -6474,7 +6524,14 @@ function rr(x, px, py, w, h, r) {
       setInterval(fbWatch, 500);
 
       function openFlipbook(cfg, url) {
-              const src = url || flipbookFor(cfg);
+              let src = url || flipbookFor(cfg);
+              /* Finished mode: show the standardised edition when this title
+                 has one, and the master when it does not. */
+              if (PB_FINISHED && src) {
+                const baseRow = BOOK_ROWS[src] || {};
+                const std = baseRow.slug ? pbStandard.get(baseRow.slug) : null;
+                if (std && std.pdf) src = std.pdf;
+              }
               const fetchSrc = liveUrl(src); /* live tunnel when PC is on */
               document.body.classList.add("fb-open");
               fbEl.setAttribute("aria-hidden", "false");
@@ -6516,7 +6573,8 @@ function rr(x, px, py, w, h, r) {
                 nameEl.textContent =
                   (cfg.title || "Prime Books") +
                   (cfg.yearNum ? " \u00b7 Year " + cfg.yearNum : "") +
-                  " \u2014 Student Manual";
+                  " \u2014 Student Manual" +
+                  (PB_FINISHED ? " \u00b7 standardised shell" : "");
               /* Platform button: only books with an interactive platform
                  (currently the Y7 Computing structured edition) show it. */
               const rowForPlatform = BOOK_ROWS[src] || {};
@@ -7339,19 +7397,35 @@ function rr(x, px, py, w, h, r) {
          pages); when there is none - the 4-page shells, the units-only books -
          the input source supplies the list instead. */
       async function loadSections(doc) {
+        const slug = (fbBookMeta && fbBookMeta.slug) || "";
+        /* Finished mode: the shell has no interior, so the complete list comes
+           from the input - and a standardised edition falls back to the input of
+           the master it was built from, which is the only place its units and
+           topics are written down. */
+        if (PB_FINISHED) {
+          const bases = [slug];
+          if (slug.slice(-9) === "-standard") bases.push(slug.slice(0, -9));
+          for (let b = 0; b < bases.length; b++) {
+            const full = await sectionsFromInput(bases[b]);
+            if (full.length) {
+              fbSectionsSrc = "input";
+              return full.map(pbShellRow);
+            }
+          }
+        }
         let secs = [];
         try {
           secs = await buildSections(doc);
         } catch (e) {
           secs = [];
         }
-        if (secs.length) return secs;
-        const fromInput = await sectionsFromInput(
-          (fbBookMeta && fbBookMeta.slug) || "",
-        );
+        /* Finished mode: a row must never point at a page the shell does not
+           carry, or the panel would promise a jump the reader cannot make. */
+        if (secs.length) return PB_FINISHED ? secs.map(pbShellRow) : secs;
+        const fromInput = await sectionsFromInput(slug);
         if (fromInput.length) {
           fbSectionsSrc = "input";
-          return fromInput;
+          return PB_FINISHED ? fromInput.map(pbShellRow) : fromInput;
         }
         fbSectionsSrc = "none";
         return secs;
@@ -7432,7 +7506,12 @@ function rr(x, px, py, w, h, r) {
             url + (url.indexOf("?") < 0 ? "?" : "&") + "v=" + Date.now();
           const doc = await pdfjsLib.getDocument(bustUrl).promise;
           fbDoc = doc; /* the assistant reads page text from this */
-          fbCount = doc.numPages;
+          const pdfPages = doc.numPages;
+          /* Finished mode shows a window of the book, not the whole book: the
+             cover, the second page and the back cover. fbCount stays what
+             StPageFlip sees, so every index below is a window index. */
+          fbWindow = PB_FINISHED && pdfPages > 3 ? [0, 1, pdfPages - 1] : null;
+          fbCount = fbWindow ? fbWindow.length : pdfPages;
           const first = await doc.getPage(1);
           const base = first.getViewport({ scale: 1 });
           const ratio = base.width / base.height;
@@ -7467,7 +7546,7 @@ function rr(x, px, py, w, h, r) {
             if (fbRendering.has(i)) return false;
             fbRendering.add(i);
             try {
-              const page = await doc.getPage(i + 1);
+              const page = await doc.getPage(pbIndex(i) + 1);
               const vp = page.getViewport({ scale });
               const cv = shells[i];
               cv.width = Math.round(vp.width);
@@ -7658,6 +7737,29 @@ function rr(x, px, py, w, h, r) {
           if (e.key === "ArrowLeft") fbStep(-1);
         }
       });
+
+      /* /finished frames the same catalogue as the finished shelf: three
+         standardised pages per title, and two panels that still show all. */
+      (function applyFinishedShell() {
+        if (!PB_FINISHED) return;
+        const kicker = document.querySelector(".cat-hero .kicker");
+        const head = document.querySelector(".cat-hero h2");
+        const copy = document.querySelector(".cat-hero p");
+        const note = document.querySelector(".collection-overview-note");
+        const shell = document.getElementById("fbShellNote");
+        if (kicker) kicker.textContent = "The finished shelf";
+        if (head) head.innerHTML = "Only what is <em>finished.</em>";
+        if (copy)
+          copy.textContent =
+            "The three pages that can be standardised without touching the " +
+            "teaching: the cover, the second page and the back cover. Open any " +
+            "title to see its standardised shell, then its Sections or Input to " +
+            "see everything the interior must contain.";
+        if (note)
+          note.textContent =
+            "Shell standardised: cover \u00b7 second page \u00b7 back cover";
+        if (shell) shell.hidden = false;
+      })();
 </script>
     <script src="/pb-router.js"></script>
     <!-- Reading assistant. Loaded last so window.PBReading (declared in the
