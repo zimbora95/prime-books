@@ -427,8 +427,31 @@ labelled evidence, in the same medium.</p>
   <li>One physical proof copy has been held in the hand before the rest of the year is built.</li>
 </ul>
 
+<h3>How a title becomes standardised</h3>
+<p>Two columns on <a href="/status">the point of situation</a>, and they mean different things.</p>
+<ul>
+  <li><b>Checks</b> is the machine verdict. <span class="ui">tools/standards_check.py</span> measures
+  the published PDF against the locked tokens and <span class="ui">tools/standards_bot.py</span> runs
+  it over the whole library, publishing to <span class="ui">public/standards-report.json</span>.
+  <b>Clean</b> means it passed every hard check: page size, embedded fonts, folio, a contents bar
+  matching the book's own unit count, a unit-colour opener, every word inside the safe area, a cover
+  without a folio and a labelled back cover. A <b>number</b> means that many hard failures, and
+  hovering shows the state.</li>
+  <li><b>Standardised</b> is your sign-off, and only yours. Clicking the column records it server-side
+  in <span class="ui">public/standardized.json</span>. The bot never writes that file, because it
+  cannot see whether teacher content survived, whether an image is licensed, whether a colour reads on
+  paper, whether a QR code scans off paper, or whether you held a proof. Clean means ready for
+  sign-off. Clean is not certified.</li>
+  <li><b>Scope.</b> The bot measures Years 1 to 4 only, the years this standard governs. Years 5 to 13
+  are a different standard, so they show no verdict rather than a misleading one.</li>
+  <li><b>It runs itself.</b> A scheduled job re-measures the library every night at 03:00 and pushes,
+  so the status page is always yesterday's truth or better. First full run, 14 September: 51 Years 1
+  to 4 titles measured, one clean, 50 with work outstanding.</li>
+</ul>
+
 <div class="btns">
-  <a class="btn" href="/standards/years-1-4.json">The locked tokens, JSON</a>
+  <a class="btn" href="/status">The point of situation, live</a>
+  <a class="btn ghost" href="/standards/years-1-4.json">The locked tokens, JSON</a>
   <a class="btn ghost" href="/book/y01-art-and-design">Open the design reference</a>
   <a class="btn ghost" href="/standards/primary-standard.md">Full component specification</a>
   <a class="btn ghost" href="/standards/years-1-4.md">Summary sheet, markdown</a>

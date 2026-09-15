@@ -2,6 +2,7 @@
   "id": "A-2.2-Y1-4",
   "title": "Prime Books Primary Standard, Years 1 to 4",
   "status": "locked by the teacher, 14 September 2026",
+  "scope_years": [1, 2, 3, 4],
   "locked_on": "2026-09-14",
   "revision_note": "A-2.2 supersedes A-2.1: the teacher delegated the five open items, added the Welcome cast, the QR policy, the References section, the safe-margin rule and the image-reference workflow.",
   "scope": {

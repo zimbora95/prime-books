@@ -30,6 +30,7 @@ import argparse
 import concurrent.futures as cf
 import json
 import os
+import re
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -48,6 +49,23 @@ def lock_id() -> str:
         return json.loads(LOCK.read_text(encoding="utf-8")).get("id", "A-2.2-Y1-4")
     except Exception:                                            # noqa: BLE001
         return "A-2.2-Y1-4"
+
+
+def scope_years() -> set:
+    """The years the locked standard actually governs. A-2.2 covers Years 1 to 4."""
+    try:
+        raw = json.loads(LOCK.read_text(encoding="utf-8"))
+        ys = raw.get("scope_years") or raw.get("scope", {}).get("years")
+        if isinstance(ys, list) and ys:
+            return {int(y) for y in ys}
+    except Exception:                                            # noqa: BLE001
+        pass
+    return {1, 2, 3, 4}
+
+
+def year_of(slug: str) -> int:
+    m = re.match(r"y(\d{1,2})", slug or "")
+    return int(m.group(1)) if m else 0
 
 
 def signoffs() -> dict:
@@ -86,16 +104,26 @@ def main() -> int:
     ap.add_argument("--jobs", type=int, default=min(6, (os.cpu_count() or 4)))
     ap.add_argument("--push", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="measure only the first N books")
+    ap.add_argument("--all-years", action="store_true",
+                    help="also measure books outside the standard's scope (noisy: they are not governed by it)")
     a = ap.parse_args()
 
     manifest = json.loads((PUB / "library.json").read_text(encoding="utf-8"))
-    jobs = [(r["slug"], PUB / "library" / r["slug"] / "book.pdf") for r in manifest]
+    inscope = scope_years()
+    jobs, skipped = [], []
+    for r in manifest:
+        item = (r["slug"], PUB / "library" / r["slug"] / "book.pdf")
+        if a.all_years or year_of(r["slug"]) in inscope:
+            jobs.append(item)
+        else:
+            skipped.append(r["slug"])
     if a.limit:
         jobs = jobs[:a.limit]
     signed = signoffs()
     started = datetime.now(timezone.utc)
 
-    print("measuring %d books against %s with %d workers" % (len(jobs), lock_id(), a.jobs))
+    print("measuring %d book(s) against %s with %d workers (%d outside scope, not governed)"
+          % (len(jobs), lock_id(), a.jobs, len(skipped)))
     results = []
     with cf.ProcessPoolExecutor(max_workers=a.jobs) as ex:
         for rec in ex.map(check_one, jobs):
@@ -106,6 +134,9 @@ def main() -> int:
 
     for r in results:
         r["state"] = state_of(r, bool(signed.get(r["slug"])))
+    results += [{"slug": s, "ok": None, "scope": False, "state": "out of scope",
+                 "failures": [], "warnings": [], "facts": {"reason": "not a Years 1-4 title"}}
+                for s in skipped]
     clean = [r for r in results if r["ok"]]
     report = {
         "generated": started.strftime("%Y-%m-%d %H:%M UTC"),
@@ -119,19 +150,21 @@ def main() -> int:
             "QR codes scanned off paper",
             "the physical print proof",
         ],
+        "scope": "Years 1 to 4 only; other years are measured only with --all-years",
         "totals": {
-            "books": len(results),
+            "books": len(jobs),
+            "out_of_scope": len(skipped),
             "machine_clean": len(clean),
             "signed_off": sum(1 for r in results if r["state"] == "signed-off"),
             "awaiting_sign_off": sum(1 for r in results if r["state"] == "machine-clean"),
-            "failing": len(results) - len(clean),
+            "failing": len(jobs) - len(clean),
         },
         "books": results,
     }
     REPORT.write_text(json.dumps(report, indent=1), encoding="utf-8")
-    print("\nmachine clean %d/%d, signed off %d, failing %d"
-          % (report["totals"]["machine_clean"], len(results),
-             report["totals"]["signed_off"], report["totals"]["failing"]))
+    print("\nmachine clean %d/%d in scope, signed off %d, failing %d, %d out of scope"
+          % (report["totals"]["machine_clean"], len(jobs),
+             report["totals"]["signed_off"], report["totals"]["failing"], len(skipped)))
     print("written:", REPORT.relative_to(REPO))
 
     # refresh status.json, then merge the machine verdict into every row
@@ -150,7 +183,7 @@ def main() -> int:
         for y in status.get("years", []):
             for row in y.get("books", []):
                 rec = by.get(row["slug"])
-                if rec:
+                if rec and rec.get("scope", True):
                     row["checked"] = {"ok": rec["ok"],
                                       "failures": len(rec["failures"]),
                                       "warnings": len(rec["warnings"]),
@@ -162,7 +195,7 @@ def main() -> int:
         rel = [str(REPORT.relative_to(REPO)), str(STATUS.relative_to(REPO))]
         subprocess.run(["git", "add", *rel], cwd=REPO, check=False)
         msg = ("standards bot: %d/%d machine clean, %d signed off (%s)"
-               % (report["totals"]["machine_clean"], len(results),
+               % (report["totals"]["machine_clean"], len(jobs),
                   report["totals"]["signed_off"], report["spec"]))
         c = subprocess.run(["git", "commit", "-q", "-m", msg], cwd=REPO, capture_output=True, text=True)
         if c.returncode != 0:
