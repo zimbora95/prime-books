@@ -1,0 +1,4799 @@
+{
+ "y01-art-and-design": {
+  "year": 1,
+  "subject": "Art & Design",
+  "has": true,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 295,
+    "code": "0067",
+    "name": "0067 ART & DESIGN",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 2.25,
+    "id": 937,
+    "code": "0068",
+    "name": "0068 Art and Design - 2026",
+    "state": "a",
+    "topics": 19
+   },
+   {
+    "score": 1.05,
+    "id": 37,
+    "code": "0067",
+    "name": "0067 ART & DESIGN [KINDER & Y01] - 2019",
+    "state": "d",
+    "topics": 10
+   },
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   }
+  ]
+ },
+ "y01-computing-and-robotics": {
+  "year": 1,
+  "subject": "Computing & Robotics",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.25,
+    "id": 381,
+    "code": "0059",
+    "name": "0059 COMPUTING - LX",
+    "state": "a",
+    "topics": 11
+   },
+   {
+    "score": 1.15,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y01-english": {
+  "year": 1,
+  "subject": "English",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 71,
+    "code": "0058",
+    "name": "0058 ENGLISH [Y01] - 2021",
+    "state": "a",
+    "topics": 86
+   },
+   {
+    "score": 1.217,
+    "id": 945,
+    "code": "0058",
+    "name": "0058 English (Y01) - 2026",
+    "state": "a",
+    "topics": 62
+   },
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y01-german-a1a2": {
+  "year": 1,
+  "subject": "German A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y01-german-b1b2": {
+  "year": 1,
+  "subject": "German B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y01-global-perspectives": {
+  "year": 1,
+  "subject": "Global Perspectives",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 382,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES - LX",
+    "state": "a",
+    "topics": 47
+   },
+   {
+    "score": 2.05,
+    "id": 939,
+    "code": "0828",
+    "name": "0828 Global Perspectives KS1 - 2026",
+    "state": "a",
+    "topics": 62
+   },
+   {
+    "score": 1.55,
+    "id": 79,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES [Y01] - 2022",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 1.25,
+    "id": 940,
+    "code": "0838",
+    "name": "0838 Global Perspectives (Y01) - 2026",
+    "state": "d",
+    "topics": 43
+   }
+  ]
+ },
+ "y01-mathematics": {
+  "year": 1,
+  "subject": "Mathematics",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y01-music-and-drama": {
+  "year": 1,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 353,
+    "code": "0068",
+    "name": "0068 DRAMA",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 1.25,
+    "id": 299,
+    "code": "0068",
+    "name": "0068 MUSIC - LX",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 0.983,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.983,
+    "id": 935,
+    "code": "0068",
+    "name": "0068 Music-and-Acting- - 2026",
+    "state": "a",
+    "topics": 27
+   }
+  ]
+ },
+ "y01-physical-education": {
+  "year": 1,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y01-portuguese": {
+  "year": 1,
+  "subject": "Portuguese 1st Language",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.983,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.9,
+    "id": 297,
+    "code": "0064",
+    "name": "0064 PORTUGUESE - LX",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 0.683,
+    "id": 354,
+    "code": "0064",
+    "name": "0064 Portuguese - 2025",
+    "state": "d",
+    "topics": 60
+   },
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   }
+  ]
+ },
+ "y01-science": {
+  "year": 1,
+  "subject": "Science",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 275,
+    "code": "0097",
+    "name": "0097 SCIENCE - Y01",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 1.25,
+    "id": 448,
+    "code": "0097",
+    "name": "0097 Science Lab (K/1) - 2021",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 1.217,
+    "id": 944,
+    "code": "0097",
+    "name": "0097 Science (Y01) - 2026",
+    "state": "a",
+    "topics": 57
+   },
+   {
+    "score": 0.5,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y01-spanish-a1a2": {
+  "year": 1,
+  "subject": "Spanish A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y01-spanish-b1b2": {
+  "year": 1,
+  "subject": "Spanish B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y02-art-and-design": {
+  "year": 2,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 304,
+    "code": "0067",
+    "name": "0067 Art & Design",
+    "state": "a",
+    "topics": 23
+   },
+   {
+    "score": 1.25,
+    "id": 38,
+    "code": "0067",
+    "name": "0067 ART & DESIGN [Y02] - 2019",
+    "state": "d",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y02-computing-and-robotics": {
+  "year": 2,
+  "subject": "Computing & Robotics",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.15,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 1.117,
+    "id": 375,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "d",
+    "topics": 31
+   },
+   {
+    "score": 0.55,
+    "id": 415,
+    "code": "0059",
+    "name": "0059 COMPUTING [Y02] - LX",
+    "state": "a",
+    "topics": 12
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y02-english": {
+  "year": 2,
+  "subject": "English",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.917,
+    "id": 946,
+    "code": "0058",
+    "name": "0058 English - 2026",
+    "state": "a",
+    "topics": 69
+   },
+   {
+    "score": 1.217,
+    "id": 72,
+    "code": "0058",
+    "name": "0058 ENGLISH [Y02] - 2021",
+    "state": "a",
+    "topics": 86
+   },
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y02-german-a1a2": {
+  "year": 2,
+  "subject": "German A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y02-german-b1b2": {
+  "year": 2,
+  "subject": "German B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y02-global-perspectives": {
+  "year": 2,
+  "subject": "Global Perspectives",
+  "has": true,
+  "cands": [
+   {
+    "score": 2.05,
+    "id": 939,
+    "code": "0828",
+    "name": "0828 Global Perspectives KS1 - 2026",
+    "state": "a",
+    "topics": 62
+   },
+   {
+    "score": 1.55,
+    "id": 80,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES [Y02] - 2022",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 1.55,
+    "id": 413,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES [Y02] - LX",
+    "state": "a",
+    "topics": 31
+   },
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   }
+  ]
+ },
+ "y02-mathematics": {
+  "year": 2,
+  "subject": "Mathematics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y02-music-and-drama": {
+  "year": 2,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 324,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "a",
+    "topics": 30
+   },
+   {
+    "score": 1.417,
+    "id": 373,
+    "code": "0068",
+    "name": "0068 DRAMA",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 0.983,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.983,
+    "id": 935,
+    "code": "0068",
+    "name": "0068 Music-and-Acting- - 2026",
+    "state": "a",
+    "topics": 27
+   }
+  ]
+ },
+ "y02-physical-education": {
+  "year": 2,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y02-science": {
+  "year": 2,
+  "subject": "Science",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.95,
+    "id": 414,
+    "code": "009",
+    "name": "009 Science",
+    "state": "d",
+    "topics": 25
+   },
+   {
+    "score": 1.217,
+    "id": 276,
+    "code": "0097",
+    "name": "0097 SCIENCE-Y02 - 2021",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 1.217,
+    "id": 943,
+    "code": "0097",
+    "name": "0097 Science (Y02) - 2026",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 1.15,
+    "id": 447,
+    "code": "0097",
+    "name": "0097 Science Lab (KS1) - 2021",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y02-spanish-a1a2": {
+  "year": 2,
+  "subject": "Spanish A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y02-spanish-b1b2": {
+  "year": 2,
+  "subject": "Spanish B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 58,
+    "code": "0059",
+    "name": "0059 COMPUTING KS1 - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y03-art-and-design": {
+  "year": 3,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 378,
+    "code": "0067",
+    "name": "0067 Art & Design",
+    "state": "a",
+    "topics": 19
+   },
+   {
+    "score": 1.25,
+    "id": 39,
+    "code": "0067",
+    "name": "0067 ART & DESIGN [Y03] - 2019",
+    "state": "d",
+    "topics": 17
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y03-computing-and-robotics": {
+  "year": 3,
+  "subject": "Computing & Robotics",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 396,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "a",
+    "topics": 13
+   },
+   {
+    "score": 1.117,
+    "id": 379,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "d",
+    "topics": 31
+   },
+   {
+    "score": 0.55,
+    "id": 59,
+    "code": "0059",
+    "name": "0059 COMPUTING [Y03] - 2026",
+    "state": "a",
+    "topics": 40
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y03-english": {
+  "year": 3,
+  "subject": "English",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 73,
+    "code": "0058",
+    "name": "0058 ENGLISH [Y03] - 2021",
+    "state": "a",
+    "topics": 90
+   },
+   {
+    "score": 1.217,
+    "id": 947,
+    "code": "0058",
+    "name": "0058 English (Y03) - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y03-german-a1a2": {
+  "year": 3,
+  "subject": "German A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y03-german-b1b2": {
+  "year": 3,
+  "subject": "German B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y03-global-perspectives": {
+  "year": 3,
+  "subject": "Global Perspectives",
+  "has": true,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 395,
+    "code": "0838",
+    "name": "0838 Global perspectives",
+    "state": "a",
+    "topics": 31
+   },
+   {
+    "score": 2.283,
+    "id": 376,
+    "code": "0838",
+    "name": "0838 Global Perspectives",
+    "state": "d",
+    "topics": 31
+   },
+   {
+    "score": 1.55,
+    "id": 81,
+    "code": "0383",
+    "name": "0383 GLOBAL PERSPECTIVES [Y03] - 2022",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 1.55,
+    "id": 938,
+    "code": "0838",
+    "name": "0838 Global Perspectives (Y03) - 2026",
+    "state": "a",
+    "topics": 62
+   }
+  ]
+ },
+ "y03-mathematics": {
+  "year": 3,
+  "subject": "Mathematics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y03-music-and-drama": {
+  "year": 3,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 377,
+    "code": "0068",
+    "name": "0068 Drama",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 1.117,
+    "id": 323,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "d",
+    "topics": 37
+   },
+   {
+    "score": 0.983,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.983,
+    "id": 933,
+    "code": "0068",
+    "name": "0068 Music-and-Acting - 2026",
+    "state": "a",
+    "topics": 25
+   }
+  ]
+ },
+ "y03-physical-education": {
+  "year": 3,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y03-portuguese": {
+  "year": 3,
+  "subject": "Portuguese",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.917,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 1.25,
+    "id": 523,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 2nd - LX",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y03-science": {
+  "year": 3,
+  "subject": "Science",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 277,
+    "code": "0097",
+    "name": "0097 SCIENCE-Y03 - 2021",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 1.217,
+    "id": 941,
+    "code": "0067",
+    "name": "0067 Science (Y03) - 2026",
+    "state": "a",
+    "topics": 59
+   },
+   {
+    "score": 1.15,
+    "id": 447,
+    "code": "0097",
+    "name": "0097 Science Lab (KS1) - 2021",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 0.5,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y03-spanish-a1a2": {
+  "year": 3,
+  "subject": "Spanish A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y03-spanish-b1b2": {
+  "year": 3,
+  "subject": "Spanish B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 86,
+    "code": "0069",
+    "name": "0069 GYM - Lower Primary - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y04-art-and-design": {
+  "year": 4,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 347,
+    "code": "0067",
+    "name": "0067 Art & Design (Y04) - 2026",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 1.25,
+    "id": 40,
+    "code": "0067",
+    "name": "0067 ART & DESIGN [Y04] - 2019",
+    "state": "d",
+    "topics": 15
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y04-computing-and-robotics": {
+  "year": 4,
+  "subject": "Computing & Robotics",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 392,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.55,
+    "id": 60,
+    "code": "0059",
+    "name": "0059 COMPUTING [Y04] - 2022",
+    "state": "a",
+    "topics": 31
+   },
+   {
+    "score": 0.55,
+    "id": 929,
+    "code": "0059",
+    "name": "0059 Computing (Y04) - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y04-english": {
+  "year": 4,
+  "subject": "English",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 75,
+    "code": "0058",
+    "name": "0058 ENGLISH [Y04] - 2021",
+    "state": "a",
+    "topics": 97
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   }
+  ]
+ },
+ "y04-german-a1a2": {
+  "year": 4,
+  "subject": "German A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y04-german-b1b2": {
+  "year": 4,
+  "subject": "German B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y04-global-perspectives": {
+  "year": 4,
+  "subject": "Global Perspectives",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.283,
+    "id": 393,
+    "code": "0838",
+    "name": "0838 Global perspectives",
+    "state": "d",
+    "topics": 30
+   },
+   {
+    "score": 1.55,
+    "id": 82,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES [Y04] - 2026",
+    "state": "a",
+    "topics": 44
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y04-mathematics": {
+  "year": 4,
+  "subject": "Mathematics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y04-music-and-drama": {
+  "year": 4,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 348,
+    "code": "0068",
+    "name": "0068 Drama",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 1.417,
+    "id": 412,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "a",
+    "topics": 37
+   },
+   {
+    "score": 1.117,
+    "id": 320,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "d",
+    "topics": 38
+   },
+   {
+    "score": 0.983,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y04-physical-education": {
+  "year": 4,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y04-portuguese": {
+  "year": 4,
+  "subject": "Portuguese",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 346,
+    "code": "0064",
+    "name": "0064 Portuguese",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 1.917,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 1.25,
+    "id": 349,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 2nd - LX",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y04-science": {
+  "year": 4,
+  "subject": "Science",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 278,
+    "code": "0067",
+    "name": "0067 SCIENCE-Y04 - 2026",
+    "state": "a",
+    "topics": 46
+   },
+   {
+    "score": 0.55,
+    "id": 446,
+    "code": "0097",
+    "name": "0097 Science Lab (Y04) - 2021",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 0.5,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y04-spanish-a1a2": {
+  "year": 4,
+  "subject": "Spanish A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y04-spanish-b1b2": {
+  "year": 4,
+  "subject": "Spanish B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 127,
+    "code": "0000",
+    "name": "0000 PORTUGUESE - 2026",
+    "state": "a",
+    "topics": 78
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y05-art-and-design": {
+  "year": 5,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 342,
+    "code": "0067",
+    "name": "0067 Art & Design (Y05) - 2026",
+    "state": "a",
+    "topics": 19
+   },
+   {
+    "score": 1.25,
+    "id": 41,
+    "code": "0067",
+    "name": "0067 ART & DESIGN [Y05] - 2019",
+    "state": "d",
+    "topics": 12
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y05-computing-and-robotics": {
+  "year": 5,
+  "subject": "Computing & Robotics",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.25,
+    "id": 928,
+    "code": "0059",
+    "name": "0059 Computing - 2026",
+    "state": "a",
+    "topics": 38
+   },
+   {
+    "score": 1.117,
+    "id": 345,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "d",
+    "topics": 44
+   },
+   {
+    "score": 1.117,
+    "id": 389,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "d",
+    "topics": 17
+   },
+   {
+    "score": 1.117,
+    "id": 403,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "d",
+    "topics": 17
+   }
+  ]
+ },
+ "y05-english": {
+  "year": 5,
+  "subject": "English",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 74,
+    "code": "0058",
+    "name": "0058 ENGLISH [Y05] - 2026",
+    "state": "a",
+    "topics": 99
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y05-german-a1a2": {
+  "year": 5,
+  "subject": "German A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y05-german-b1b2": {
+  "year": 5,
+  "subject": "German B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y05-global-perspectives": {
+  "year": 5,
+  "subject": "Global Perspectives",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 390,
+    "code": "0838",
+    "name": "0838 Global Perspectives",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 1.55,
+    "id": 925,
+    "code": "0838",
+    "name": "0838 Global Perspectives (Y05) - 2026",
+    "state": "a",
+    "topics": 50
+   },
+   {
+    "score": 1.25,
+    "id": 83,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES [Y05] - 2026",
+    "state": "d",
+    "topics": 34
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y05-mathematics": {
+  "year": 5,
+  "subject": "Mathematics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y05-music-and-drama": {
+  "year": 5,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 343,
+    "code": "0068",
+    "name": "0068 Drama",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 1.417,
+    "id": 411,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "a",
+    "topics": 37
+   },
+   {
+    "score": 1.117,
+    "id": 321,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "d",
+    "topics": 48
+   },
+   {
+    "score": 0.983,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y05-physical-education": {
+  "year": 5,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y05-portuguese": {
+  "year": 5,
+  "subject": "Portuguese",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.25,
+    "id": 337,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 2nd - LX",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 1.25,
+    "id": 339,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 1st - LX",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 1.217,
+    "id": 128,
+    "code": "0000",
+    "name": "0000 PORTUGUESE [Y05] - 2026",
+    "state": "a",
+    "topics": 62
+   },
+   {
+    "score": 0.95,
+    "id": 338,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 1st - LX",
+    "state": "d",
+    "topics": 60
+   }
+  ]
+ },
+ "y05-science": {
+  "year": 5,
+  "subject": "Science",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.95,
+    "id": 406,
+    "code": "0097",
+    "name": "0097 Science",
+    "state": "d",
+    "topics": 24
+   },
+   {
+    "score": 1.95,
+    "id": 408,
+    "code": "0097",
+    "name": "0097 Science",
+    "state": "d",
+    "topics": 24
+   },
+   {
+    "score": 1.217,
+    "id": 279,
+    "code": "0097",
+    "name": "0097 SCIENCE - Y05 - 2026",
+    "state": "a",
+    "topics": 42
+   },
+   {
+    "score": 0.55,
+    "id": 445,
+    "code": "0097",
+    "name": "0097 Science Lab (Y05) - 2021",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y05-spanish-a1a2": {
+  "year": 5,
+  "subject": "Spanish A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y05-spanish-b1b2": {
+  "year": 5,
+  "subject": "Spanish B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y06-art-and-design": {
+  "year": 6,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 926,
+    "code": "0067",
+    "name": "0067 Art & Design - 2026",
+    "state": "a",
+    "topics": 19
+   },
+   {
+    "score": 1.25,
+    "id": 42,
+    "code": "0067",
+    "name": "0067 ART & DESIGN [Y06] - 2026",
+    "state": "d",
+    "topics": 15
+   },
+   {
+    "score": 1.25,
+    "id": 332,
+    "code": "0067",
+    "name": "0067 Art & Design (Y06) - 2026",
+    "state": "d",
+    "topics": 20
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y06-computing-and-robotics": {
+  "year": 6,
+  "subject": "Computing & Robotics",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.117,
+    "id": 335,
+    "code": "0059",
+    "name": "0059 Computing",
+    "state": "d",
+    "topics": 44
+   },
+   {
+    "score": 0.55,
+    "id": 387,
+    "code": "0059",
+    "name": "0059 COMPUTING [Y06] - LX",
+    "state": "a",
+    "topics": 17
+   },
+   {
+    "score": 0.55,
+    "id": 927,
+    "code": "0059",
+    "name": "0059 Computing (Y06) - 2026",
+    "state": "a",
+    "topics": 58
+   },
+   {
+    "score": 0.25,
+    "id": 62,
+    "code": "0059",
+    "name": "0059 COMPUTING [Y06] - 2022",
+    "state": "d",
+    "topics": 44
+   }
+  ]
+ },
+ "y06-english": {
+  "year": 6,
+  "subject": "English",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.217,
+    "id": 76,
+    "code": "0058",
+    "name": "0058 ENGLISH [Y06] - 2026",
+    "state": "a",
+    "topics": 99
+   },
+   {
+    "score": 0.383,
+    "id": 272,
+    "code": "0057",
+    "name": "0057 English as a Second Language - Y06 - bi - 2021",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y06-german-a1a2": {
+  "year": 6,
+  "subject": "German A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y06-german-b1b2": {
+  "year": 6,
+  "subject": "German B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y06-global-perspectives": {
+  "year": 6,
+  "subject": "Global Perspectives",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.05,
+    "id": 386,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES - LX - 2002",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 1.55,
+    "id": 924,
+    "code": "0838",
+    "name": "0838 Global Perspectives (Y06) - 2026",
+    "state": "a",
+    "topics": 50
+   },
+   {
+    "score": 1.25,
+    "id": 84,
+    "code": "0838",
+    "name": "0838 GLOBAL PERSPECTIVES (Y06) - 2026",
+    "state": "d",
+    "topics": 42
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y06-mathematics": {
+  "year": 6,
+  "subject": "Mathematics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y06-music-and-drama": {
+  "year": 6,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.417,
+    "id": 334,
+    "code": "0068",
+    "name": "0068 Drama",
+    "state": "a",
+    "topics": 20
+   },
+   {
+    "score": 1.417,
+    "id": 410,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "a",
+    "topics": 37
+   },
+   {
+    "score": 1.117,
+    "id": 322,
+    "code": "0068",
+    "name": "0068 Music",
+    "state": "d",
+    "topics": 37
+   },
+   {
+    "score": 0.983,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y06-physical-education": {
+  "year": 6,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y06-portuguese": {
+  "year": 6,
+  "subject": "Portuguese",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.25,
+    "id": 336,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 2nd - LX",
+    "state": "a",
+    "topics": 60
+   },
+   {
+    "score": 1.25,
+    "id": 339,
+    "code": "0064",
+    "name": "0064 PORTUGUESE 1st - LX",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 1.217,
+    "id": 129,
+    "code": "0000",
+    "name": "0000 PORTUGUESE (Y06) - 2026",
+    "state": "a",
+    "topics": 38
+   },
+   {
+    "score": 1.083,
+    "id": 273,
+    "code": "0008",
+    "name": "0008 PORTUGUESE 1st - ST [bilingual] - 2025",
+    "state": "a",
+    "topics": 41
+   }
+  ]
+ },
+ "y06-science": {
+  "year": 6,
+  "subject": "Science",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.25,
+    "id": 416,
+    "code": "0097",
+    "name": "0097 Science Lab - 2021",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 1.217,
+    "id": 280,
+    "code": "0097",
+    "name": "0097 SCIENCE-Y06 - 2026",
+    "state": "a",
+    "topics": 39
+   },
+   {
+    "score": 0.5,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   }
+  ]
+ },
+ "y06-spanish-a1a2": {
+  "year": 6,
+  "subject": "Spanish A1/A2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y06-spanish-b1b2": {
+  "year": 6,
+  "subject": "Spanish B1/B2",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 87,
+    "code": "0069",
+    "name": "0069 GYM - 2026",
+    "state": "a",
+    "topics": 35
+   },
+   {
+    "score": 0.25,
+    "id": 122,
+    "code": "0068",
+    "name": "0068 MUSIC & ACTING - 2019",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 269,
+    "code": "0005",
+    "name": "0005 LIBRARY - 2025",
+    "state": "a",
+    "topics": 18
+   },
+   {
+    "score": 0.25,
+    "id": 270,
+    "code": "0006",
+    "name": "0006 ANIMAL AND NATURE SCIENCES - 2025",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y07-art-and-design": {
+  "year": 7,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 43,
+    "code": "1234",
+    "name": "1234 ART & DESIGN [Y07] LX",
+    "state": "a",
+    "topics": 30
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   }
+  ]
+ },
+ "y07-computing-and-robotics": {
+  "year": 7,
+  "subject": "Computing & Robotics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.417,
+    "id": 281,
+    "code": "0860",
+    "name": "0860 COMPUTING - LX [Y07]",
+    "state": "d",
+    "topics": 18
+   },
+   {
+    "score": 0.383,
+    "id": 733,
+    "code": "0860",
+    "name": "0860 COMPUTING [Y07] ESTORIL - 26 27",
+    "state": "a",
+    "topics": 47
+   }
+  ]
+ },
+ "y07-computing-structured": {
+  "year": 7,
+  "subject": "Computing & Robotics (Structured)",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   },
+   {
+    "score": 0.25,
+    "id": 787,
+    "code": "3333",
+    "name": "3333 HISTORY Y7 ES 26/27",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y07-english": {
+  "year": 7,
+  "subject": "English",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 77,
+    "code": "0861",
+    "name": "0861 ENGLISH [Y07]",
+    "state": "a",
+    "topics": 72
+   },
+   {
+    "score": 0.65,
+    "id": 566,
+    "code": "0861",
+    "name": "0861 ENGLISH [Y07] ESTORIL - 26 27",
+    "state": "d",
+    "topics": 72
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   }
+  ]
+ },
+ "y07-global-perspectives": {
+  "year": 7,
+  "subject": "Global Perspectives",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.883,
+    "id": 221,
+    "code": "1129",
+    "name": "1129 GLOBAL PERSPECTIVES [Y07]",
+    "state": "a",
+    "topics": 55
+   },
+   {
+    "score": 1.883,
+    "id": 666,
+    "code": "1129",
+    "name": "1129 GLOBAL PERSPECTIVES [Y07] - B",
+    "state": "a",
+    "topics": 55
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   }
+  ]
+ },
+ "y07-humanities": {
+  "year": 7,
+  "subject": "Humanities",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.75,
+    "id": 787,
+    "code": "3333",
+    "name": "3333 HISTORY Y7 ES 26/27",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.75,
+    "id": 788,
+    "code": "0000",
+    "name": "0000 HISTORY Y7 ES 26/27",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   }
+  ]
+ },
+ "y07-mathematics": {
+  "year": 7,
+  "subject": "Mathematics",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   },
+   {
+    "score": 0.25,
+    "id": 787,
+    "code": "3333",
+    "name": "3333 HISTORY Y7 ES 26/27",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y07-physical-education": {
+  "year": 7,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   },
+   {
+    "score": 0.25,
+    "id": 787,
+    "code": "3333",
+    "name": "3333 HISTORY Y7 ES 26/27",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y07-portuguese-1st": {
+  "year": 7,
+  "subject": "Portuguese 1st",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.9,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 1.883,
+    "id": 427,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 1ST [Y07]",
+    "state": "a",
+    "topics": 27
+   },
+   {
+    "score": 1.083,
+    "id": 794,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd",
+    "state": "a",
+    "topics": 23
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y07-portuguese-2nd": {
+  "year": 7,
+  "subject": "Portuguese 2nd",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 794,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd",
+    "state": "a",
+    "topics": 23
+   },
+   {
+    "score": 1.55,
+    "id": 130,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 2nd [Y07] LX",
+    "state": "a",
+    "topics": 65
+   },
+   {
+    "score": 1.233,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.75,
+    "id": 789,
+    "code": "0000",
+    "name": "0000 Spanish 2nd",
+    "state": "a",
+    "topics": 33
+   }
+  ]
+ },
+ "y07-science": {
+  "year": 7,
+  "subject": "Science",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 213,
+    "code": "1234",
+    "name": "1234 SCIENCE [Y07]",
+    "state": "a",
+    "topics": 66
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   }
+  ]
+ },
+ "y07-spanish": {
+  "year": 7,
+  "subject": "Spanish",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.917,
+    "id": 789,
+    "code": "0000",
+    "name": "0000 Spanish 2nd",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 1.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   }
+  ]
+ },
+ "y08-art-and-design": {
+  "year": 8,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 44,
+    "code": "1234",
+    "name": "1234 ART & DESIGN [Y08] LX",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 796,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 8",
+    "state": "a",
+    "topics": 32
+   }
+  ]
+ },
+ "y08-computing-and-robotics": {
+  "year": 8,
+  "subject": "Computing & Robotics",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.717,
+    "id": 285,
+    "code": "0860",
+    "name": "0860 COMPUTING - LX [Y08]",
+    "state": "a",
+    "topics": 17
+   },
+   {
+    "score": 0.55,
+    "id": 756,
+    "code": "0860",
+    "name": "0860 COMPUTING [Y08] ESTORIL - 26 27",
+    "state": "a",
+    "topics": 49
+   },
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y08-english": {
+  "year": 8,
+  "subject": "English",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 160,
+    "code": "0861",
+    "name": "0861 ENGLISH [Y08]",
+    "state": "a",
+    "topics": 65
+   },
+   {
+    "score": 0.95,
+    "id": 885,
+    "code": "0861",
+    "name": "0861 ENGLISH Y08 ESTORIL - 26 27",
+    "state": "a",
+    "topics": 30
+   },
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y08-humanities": {
+  "year": 8,
+  "subject": "Humanities",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.667,
+    "id": 801,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 8",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.75,
+    "id": 782,
+    "code": "0000",
+    "name": "0000 HISTORY Y8 ES 26/27",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.75,
+    "id": 783,
+    "code": "1111",
+    "name": "1111 HISTORY Y8 ES 26/27",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.75,
+    "id": 784,
+    "code": "2222",
+    "name": "2222 HISTORY Y8 ES 26/27",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y08-mathematics": {
+  "year": 8,
+  "subject": "Mathematics",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 796,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 8",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 801,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 8",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y08-music-and-drama": {
+  "year": 8,
+  "subject": "Music & Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.833,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 1.35,
+    "id": 494,
+    "code": "0078",
+    "name": "0078 MUSIC & DRAMA B [Y08] - ES - 26",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 1.35,
+    "id": 527,
+    "code": "0078",
+    "name": "0078 MUSIC & DRAMA A [Y08] - ES - 26",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 0.55,
+    "id": 217,
+    "code": "0078",
+    "name": "0078 MUSIC [Y08] - LX",
+    "state": "a",
+    "topics": 25
+   }
+  ]
+ },
+ "y08-physical-education": {
+  "year": 8,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 796,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 8",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 801,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 8",
+    "state": "a",
+    "topics": 16
+   }
+  ]
+ },
+ "y08-portuguese-1st": {
+  "year": 8,
+  "subject": "Portuguese 1st",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.833,
+    "id": 814,
+    "code": "0771",
+    "name": "0771 Portuguese 1st Year 8",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 1.883,
+    "id": 131,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 1ST [Y08]",
+    "state": "a",
+    "topics": 31
+   },
+   {
+    "score": 1.333,
+    "id": 796,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 8",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   }
+  ]
+ },
+ "y08-portuguese-2nd": {
+  "year": 8,
+  "subject": "Portuguese 2nd",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.833,
+    "id": 796,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 8",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 1.55,
+    "id": 428,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 2nd [Y08] LX",
+    "state": "a",
+    "topics": 65
+   },
+   {
+    "score": 1.333,
+    "id": 814,
+    "code": "0771",
+    "name": "0771 Portuguese 1st Year 8",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.583,
+    "id": 496,
+    "code": "1234",
+    "name": "1234 SPANISH (Y8) - 2026 (copy)",
+    "state": "a",
+    "topics": 108
+   }
+  ]
+ },
+ "y08-science": {
+  "year": 8,
+  "subject": "Science",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.95,
+    "id": 417,
+    "code": "0893",
+    "name": "0893 Science",
+    "state": "d",
+    "topics": 46
+   },
+   {
+    "score": 1.55,
+    "id": 418,
+    "code": "0893",
+    "name": "0893 SCIENCE (Y08]",
+    "state": "a",
+    "topics": 46
+   },
+   {
+    "score": 0.917,
+    "id": 9,
+    "code": "1234",
+    "name": "1234 SCIENCE [Y08] - 2021",
+    "state": "d",
+    "topics": 41
+   },
+   {
+    "score": 0.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   }
+  ]
+ },
+ "y08-spanish": {
+  "year": 8,
+  "subject": "Spanish",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.5,
+    "id": 790,
+    "code": "0000",
+    "name": "0000 Spanish Year 8",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 1.15,
+    "id": 496,
+    "code": "1234",
+    "name": "1234 SPANISH (Y8) - 2026 (copy)",
+    "state": "a",
+    "topics": 108
+   },
+   {
+    "score": 0.5,
+    "id": 795,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 8",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 796,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 8",
+    "state": "a",
+    "topics": 32
+   }
+  ]
+ },
+ "y09-art-and-design": {
+  "year": 9,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 45,
+    "code": "1234",
+    "name": "1234 ART & DESIGN [Y09] LX",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   }
+  ]
+ },
+ "y09-english": {
+  "year": 9,
+  "subject": "English",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 220,
+    "code": "1234",
+    "name": "1234 ENGLISH [Y09]",
+    "state": "a",
+    "topics": 63
+   },
+   {
+    "score": 0.95,
+    "id": 886,
+    "code": "0861",
+    "name": "0861 ENGLISH Y09 ESTORIL - 26 27",
+    "state": "a",
+    "topics": 30
+   },
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y09-humanities": {
+  "year": 9,
+  "subject": "Humanities",
+  "has": true,
+  "cands": [
+   {
+    "score": 1.667,
+    "id": 800,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 9",
+    "state": "a",
+    "topics": 15
+   },
+   {
+    "score": 0.75,
+    "id": 92,
+    "code": "1234",
+    "name": "1234 HISTORY [Y9] - False",
+    "state": "a",
+    "topics": 62
+   },
+   {
+    "score": 0.75,
+    "id": 786,
+    "code": "3333",
+    "name": "3333 HISTORY Y9 ES 26/27",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   }
+  ]
+ },
+ "y09-mathematics": {
+  "year": 9,
+  "subject": "Mathematics",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 800,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 9",
+    "state": "a",
+    "topics": 15
+   }
+  ]
+ },
+ "y09-music-and-drama": {
+  "year": 9,
+  "subject": "Music and Drama",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.833,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 1.35,
+    "id": 528,
+    "code": "0078",
+    "name": "0078 MUSIC & DRAMA A [Y09] - ES - 26",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 1.35,
+    "id": 530,
+    "code": "0078",
+    "name": "0078 MUSIC & DRAMA B [Y09] - ES - 26",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 0.55,
+    "id": 219,
+    "code": "0078",
+    "name": "0078 MUSIC [Y09] - LX",
+    "state": "a",
+    "topics": 25
+   }
+  ]
+ },
+ "y09-physical-education": {
+  "year": 9,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 800,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 9",
+    "state": "a",
+    "topics": 15
+   }
+  ]
+ },
+ "y09-portuguese": {
+  "year": 9,
+  "subject": "Portuguese",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.667,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 1.667,
+    "id": 815,
+    "code": "0771",
+    "name": "0771 Portuguese 1st Year 9",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.717,
+    "id": 429,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 1ST [Y09]",
+    "state": "a",
+    "topics": 25
+   },
+   {
+    "score": 0.55,
+    "id": 430,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 2nd [Y09] LX",
+    "state": "a",
+    "topics": 65
+   }
+  ]
+ },
+ "y09-portuguese-2nd": {
+  "year": 9,
+  "subject": "Portuguese 2nd",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.833,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 1.55,
+    "id": 430,
+    "code": "0071",
+    "name": "0071 PORTUGUESE 2nd [Y09] LX",
+    "state": "a",
+    "topics": 65
+   },
+   {
+    "score": 1.333,
+    "id": 815,
+    "code": "0771",
+    "name": "0771 Portuguese 1st Year 9",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   }
+  ]
+ },
+ "y09-science": {
+  "year": 9,
+  "subject": "Science",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 218,
+    "code": "1234",
+    "name": "1234 SCIENCE [Y09]",
+    "state": "a",
+    "topics": 59
+   },
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   }
+  ]
+ },
+ "y09-spanish": {
+  "year": 9,
+  "subject": "Spanish",
+  "has": true,
+  "cands": [
+   {
+    "score": 2.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 0.5,
+    "id": 800,
+    "code": "0839",
+    "name": "0839 Humanities - Geography Year 9",
+    "state": "a",
+    "topics": 15
+   }
+  ]
+ },
+ "y09-computing-and-robotics": {
+  "year": 9,
+  "subject": "Computing & Robotics",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.717,
+    "id": 384,
+    "code": "0860",
+    "name": "0860 COMPUTING - LX [Y09]",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.5,
+    "id": 791,
+    "code": "0000",
+    "name": "0000 Spanish Year 9",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.5,
+    "id": 798,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 9",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 799,
+    "code": "0000",
+    "name": "0000 Portuguese 2nd Year 9",
+    "state": "a",
+    "topics": 32
+   }
+  ]
+ },
+ "y10-business-btec-l2": {
+  "year": 10,
+  "subject": "Business BTEC L2",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 316,
+    "code": "0450",
+    "name": "0450 Business IGCSE",
+    "state": "a",
+    "topics": 159
+   },
+   {
+    "score": 0.917,
+    "id": 262,
+    "code": "0450",
+    "name": "0450 BUSINESS [Y10] - 2026",
+    "state": "d",
+    "topics": 176
+   },
+   {
+    "score": 0.5,
+    "id": 802,
+    "code": "0417",
+    "name": "0417 ICT Year 10 - 26 27",
+    "state": "a",
+    "topics": 27
+   },
+   {
+    "score": 0.25,
+    "id": 292,
+    "code": "0610",
+    "name": "0610 Biology",
+    "state": "a",
+    "topics": 34
+   }
+  ]
+ },
+ "y10-physical-education": {
+  "year": 10,
+  "subject": "Physical Education",
+  "has": true,
+  "cands": [
+   {
+    "score": 2.283,
+    "id": 318,
+    "code": "0413",
+    "name": "0413 Physical Education IGCSE",
+    "state": "d",
+    "topics": 36
+   },
+   {
+    "score": 0.5,
+    "id": 802,
+    "code": "0417",
+    "name": "0417 ICT Year 10 - 26 27",
+    "state": "a",
+    "topics": 27
+   },
+   {
+    "score": 0.25,
+    "id": 292,
+    "code": "0610",
+    "name": "0610 Biology",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.25,
+    "id": 294,
+    "code": "0625",
+    "name": "0625 Physics",
+    "state": "a",
+    "topics": 58
+   }
+  ]
+ },
+ "y10-portuguese-1st": {
+  "year": 10,
+  "subject": "Portuguese 1st",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 811,
+    "code": "0504",
+    "name": "0504 Portuguese 1st Language IGCSE",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 1.95,
+    "id": 810,
+    "code": "0504",
+    "name": "0504 Portuguese 1st Language IGCSE",
+    "state": "d",
+    "topics": 22
+   },
+   {
+    "score": 1.05,
+    "id": 266,
+    "code": "0504",
+    "name": "0504 PORTUGUESE [Y10] - 2026",
+    "state": "a",
+    "topics": 17
+   },
+   {
+    "score": 0.5,
+    "id": 802,
+    "code": "0417",
+    "name": "0417 ICT Year 10 - 26 27",
+    "state": "a",
+    "topics": 27
+   }
+  ]
+ },
+ "y10-portuguese-1st-igcse": {
+  "year": 10,
+  "subject": "Portuguese 1st IGCSE",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 811,
+    "code": "0504",
+    "name": "0504 Portuguese 1st Language IGCSE",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 1.95,
+    "id": 810,
+    "code": "0504",
+    "name": "0504 Portuguese 1st Language IGCSE",
+    "state": "d",
+    "topics": 22
+   },
+   {
+    "score": 1.05,
+    "id": 266,
+    "code": "0504",
+    "name": "0504 PORTUGUESE [Y10] - 2026",
+    "state": "a",
+    "topics": 17
+   },
+   {
+    "score": 0.5,
+    "id": 802,
+    "code": "0417",
+    "name": "0417 ICT Year 10 - 26 27",
+    "state": "a",
+    "topics": 27
+   }
+  ]
+ },
+ "y10-spanish-1st-igcse": {
+  "year": 10,
+  "subject": "Spanish 1st IGCSE",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.083,
+    "id": 365,
+    "code": "0530",
+    "name": "0530 Spanish 2nd IGCSE",
+    "state": "a",
+    "topics": 32
+   },
+   {
+    "score": 1.05,
+    "id": 261,
+    "code": "0502",
+    "name": "0502 SPANISH [Y10] - 2022",
+    "state": "a",
+    "topics": 157
+   },
+   {
+    "score": 0.983,
+    "id": 811,
+    "code": "0504",
+    "name": "0504 Portuguese 1st Language IGCSE",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.883,
+    "id": 771,
+    "code": "0502",
+    "name": "0502 SPANISH [Y10] ESTORIL - 26 27",
+    "state": "a",
+    "topics": 37
+   }
+  ]
+ },
+ "y11-physical-education": {
+  "year": 11,
+  "subject": "Physical Education",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.583,
+    "id": 319,
+    "code": "0413",
+    "name": "0413 Physical Education IGCSE",
+    "state": "a",
+    "topics": 28
+   },
+   {
+    "score": 0.5,
+    "id": 804,
+    "code": "0417",
+    "name": "0417 ICT IGCSE Year 11",
+    "state": "a",
+    "topics": 24
+   },
+   {
+    "score": 0.5,
+    "id": 805,
+    "code": "0654",
+    "name": "0654 Physics Co-ordinated Sciences Year 11",
+    "state": "a",
+    "topics": 36
+   },
+   {
+    "score": 0.25,
+    "id": 293,
+    "code": "0610",
+    "name": "0610 Biology",
+    "state": "a",
+    "topics": 23
+   }
+  ]
+ },
+ "y11-portuguese-1st": {
+  "year": 11,
+  "subject": "Portuguese 1st",
+  "has": false,
+  "cands": [
+   {
+    "score": 2.25,
+    "id": 812,
+    "code": "0504",
+    "name": "0504 Portuguese 1st Language IGCSE",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 1.083,
+    "id": 315,
+    "code": "0500",
+    "name": "0500 English 1st IGCSE",
+    "state": "a",
+    "topics": 33
+   },
+   {
+    "score": 0.75,
+    "id": 267,
+    "code": "0504",
+    "name": "0504 PORTUGUESE [Y11] - 2026",
+    "state": "d",
+    "topics": 17
+   },
+   {
+    "score": 0.5,
+    "id": 804,
+    "code": "0417",
+    "name": "0417 ICT IGCSE Year 11",
+    "state": "a",
+    "topics": 24
+   }
+  ]
+ },
+ "y12-physical-education": {
+  "year": 12,
+  "subject": "Physical Education",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 309,
+    "code": "9990",
+    "name": "9990 Psychology AS",
+    "state": "a",
+    "topics": 23
+   },
+   {
+    "score": 0.25,
+    "id": 357,
+    "code": "9626",
+    "name": "9626 ICT AS (12)",
+    "state": "a",
+    "topics": 29
+   },
+   {
+    "score": 0.25,
+    "id": 364,
+    "code": "9239",
+    "name": "9239 Global Perspectives AS",
+    "state": "a",
+    "topics": 52
+   },
+   {
+    "score": 0.25,
+    "id": 502,
+    "code": "9709",
+    "name": "9709 Math AS - LX",
+    "state": "a",
+    "topics": 93
+   }
+  ]
+ },
+ "y12-portuguese-a-level": {
+  "year": 12,
+  "subject": "Portuguese A Level",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.95,
+    "id": 362,
+    "code": "8684",
+    "name": "8684 Portuguese AS",
+    "state": "d",
+    "topics": 13
+   },
+   {
+    "score": 1.217,
+    "id": 422,
+    "code": "8684",
+    "name": "8684 Portuguese (Y12) - 22",
+    "state": "a",
+    "topics": 16
+   },
+   {
+    "score": 0.25,
+    "id": 309,
+    "code": "9990",
+    "name": "9990 Psychology AS",
+    "state": "a",
+    "topics": 23
+   },
+   {
+    "score": 0.25,
+    "id": 357,
+    "code": "9626",
+    "name": "9626 ICT AS (12)",
+    "state": "a",
+    "topics": 29
+   }
+  ]
+ },
+ "y12-spanish-a-level": {
+  "year": 12,
+  "subject": "Spanish A Level",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.05,
+    "id": 209,
+    "code": "8022",
+    "name": "8022 SPANISH [Y12] - 24-26",
+    "state": "a",
+    "topics": 127
+   },
+   {
+    "score": 0.95,
+    "id": 769,
+    "code": "8022",
+    "name": "8022 SPANISH [Y12] ESTORIL - 26 27",
+    "state": "a",
+    "topics": 38
+   },
+   {
+    "score": 0.25,
+    "id": 309,
+    "code": "9990",
+    "name": "9990 Psychology AS",
+    "state": "a",
+    "topics": 23
+   },
+   {
+    "score": 0.25,
+    "id": 357,
+    "code": "9626",
+    "name": "9626 ICT AS (12)",
+    "state": "a",
+    "topics": 29
+   }
+  ]
+ },
+ "y13-physical-education": {
+  "year": 13,
+  "subject": "Physical Education",
+  "has": false,
+  "cands": [
+   {
+    "score": 0.25,
+    "id": 88,
+    "code": "9489",
+    "name": "9489 HISTORY [AL] - 2026",
+    "state": "a",
+    "topics": 46
+   },
+   {
+    "score": 0.25,
+    "id": 311,
+    "code": "9868",
+    "name": "9868 Chinese AL",
+    "state": "a",
+    "topics": 6
+   },
+   {
+    "score": 0.25,
+    "id": 313,
+    "code": "9701",
+    "name": "9701 Chemistry AL",
+    "state": "a",
+    "topics": 64
+   },
+   {
+    "score": 0.25,
+    "id": 361,
+    "code": "9718",
+    "name": "9718 Portuguese AL",
+    "state": "a",
+    "topics": 18
+   }
+  ]
+ },
+ "y07-art-and-design-standard": {
+  "year": 7,
+  "subject": "Art & Design",
+  "has": false,
+  "cands": [
+   {
+    "score": 1.55,
+    "id": 43,
+    "code": "1234",
+    "name": "1234 ART & DESIGN [Y07] LX",
+    "state": "a",
+    "topics": 30
+   },
+   {
+    "score": 0.5,
+    "id": 793,
+    "code": "0078",
+    "name": "0078 Music and Drama Year 7",
+    "state": "a",
+    "topics": 34
+   },
+   {
+    "score": 0.5,
+    "id": 813,
+    "code": "0771",
+    "name": "0771 Portuguese Year 7 - 26 27",
+    "state": "a",
+    "topics": 22
+   },
+   {
+    "score": 0.25,
+    "id": 495,
+    "code": "1234",
+    "name": "1234 SPANISH (Y7) - 2026",
+    "state": "a",
+    "topics": 108
+   }
+  ]
+ }
+}
