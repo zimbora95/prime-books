@@ -2091,10 +2091,11 @@
         </div>
       </div>
       <div class="fb-shell" id="fbShellNote" hidden>
-        <b>Standardised shell.</b> Only three pages are standardised so far &mdash;
-        the cover, the second page and the back cover &mdash; so that is what this
-        reader shows. The interior is authored from the input: open
-        <b>Sections</b> or <b>Input</b> to see everything this book must contain.
+        <b>Standardised shell.</b> This reader shows the pages the standard has
+        already set for this book &mdash; <span id="fbShellPages">the cover, the
+        second page and the back cover</span> &mdash; and nothing else, because
+        the interior is authored from the input: open <b>Sections</b> or
+        <b>Input</b> to see everything this book must contain.
       </div>
       <div class="fb-stage" id="fbStage">
         <div id="fbBook"></div>
@@ -2125,10 +2126,12 @@
       const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 
       /* ---- FINISHED MODE (/finished) -------------------------------------
-         A replica of the catalogue whose reader shows only the pages that can
-         be standardised without touching the teaching: the cover, the second
-         page and the back cover. Sections and Input stay complete, because
-         they are how the assistant learns what the interior must contain.
+         A separate shelf of the editions rebuilt to the house standard, with
+         its own URLs: /finished for the shelf, /finished/book/<slug> for a book.
+         A book opened here shows only the pages the standard has already set for
+         it, read from its manifest row (`shell_pages`); Sections and Input stay
+         complete, because they are how the interior gets authored from scratch.
+         /book/<slug> still opens the master, so the two families never collide.
          ?finished=1 turns the same mode on for a local preview. */
       const PB_FINISHED =
         /^\/finished(\.html)?(\/|$)/.test(location.pathname) ||
@@ -5681,21 +5684,30 @@ function rr(x, px, py, w, h, r) {
               pbStandard.set(sl.slice(0, -9), row);
             });
             rows.forEach((row) => {
-              const key = "Year " + row.year + "|" + normSubject(row.subject);
-              SUBJECT_PDFS[key] = row.pdf;
-              if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;
-              if (row.cover) SUBJECT_COVERS[key] = row.cover;
-              SUBJECT_ROWS[key] = row;
-              /* Primary has a single "Portuguese" book; the catalogue still
-                 calls it "Portuguese 1st", so register the primary row under
-                 that name too. Secondary "Portuguese 1st" already matches its
-                 own row directly. */
-              if (normSubject(row.subject) === "portuguese") {
-                const alt = "Year " + row.year + "|portuguese1st";
-                SUBJECT_PDFS[alt] = row.pdf;
-                if (row.pages) SUBJECT_PDF_PAGES[alt] = row.pages;
-                if (row.cover) SUBJECT_COVERS[alt] = row.cover;
-                SUBJECT_ROWS[alt] = row;
+              /* The catalogue is the masters. A standardised edition is a book
+                 in its own right with its own URL (/book/<slug>-standard) and
+                 belongs on /finished, so it must not take a Year|Subject slot
+                 here: doing that silently swapped the book the PE Year 1 card
+                 opened. Two families of URL, two audiences, no overlap.
+                 It IS still indexed by path and by slug below, because that is
+                 the only way a deep link can reach it. */
+              if (String(row.slug || "").slice(-9) !== "-standard") {
+                const key = "Year " + row.year + "|" + normSubject(row.subject);
+                SUBJECT_PDFS[key] = row.pdf;
+                if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;
+                if (row.cover) SUBJECT_COVERS[key] = row.cover;
+                SUBJECT_ROWS[key] = row;
+                /* Primary has a single "Portuguese" book; the catalogue still
+                   calls it "Portuguese 1st", so register the primary row under
+                   that name too. Secondary "Portuguese 1st" already matches its
+                   own row directly. */
+                if (normSubject(row.subject) === "portuguese") {
+                  const alt = "Year " + row.year + "|portuguese1st";
+                  SUBJECT_PDFS[alt] = row.pdf;
+                  if (row.pages) SUBJECT_PDF_PAGES[alt] = row.pages;
+                  if (row.cover) SUBJECT_COVERS[alt] = row.cover;
+                  SUBJECT_ROWS[alt] = row;
+                }
               }
               /* Keep the whole row, keyed by served path: the reading assistant
                  needs the MEGA manuscript paths to answer authoring questions. */
@@ -5771,7 +5783,85 @@ function rr(x, px, py, w, h, r) {
       window.addEventListener("resize", segThumb);
       window.addEventListener("resize", stThumb);
 
+      /* ---- the finished shelf ------------------------------------------
+         /finished is not a filtered catalogue: it is the shelf of the editions
+         that have been rebuilt to the house standard. A title appears here only
+         when such an edition exists (<slug>-standard); it shows the book's own
+         cover and opens on /finished/book/<slug>, so the reader, the URL and
+         the shelf it was opened from all stay in the same mode. */
+      function pbStandardRows() {
+        return LIBRARY_ROWS.filter(
+          (r) => String(r.slug || "").slice(-9) === "-standard",
+        );
+      }
+
+      function renderFinishedShelf() {
+        const rows = pbStandardRows();
+        /* the year and edition filters describe the whole catalogue and have
+           nothing to say about a shelf of two books */
+        ["ydrop", "edSeg", "stSeg"].forEach((id) => {
+          const el = document.getElementById(id);
+          if (el) el.style.display = "none";
+        });
+        document
+          .querySelectorAll("#catFilters .fdiv")
+          .forEach((el) => (el.style.display = "none"));
+        if (!rows.length) {
+          catBody.innerHTML =
+            '<div class="cat-group"><h3>Nothing standardised yet' +
+            "<span>this shelf fills as each book is rebuilt</span></h3></div>";
+          catCount.textContent = "No books";
+          return;
+        }
+        rows.sort((a, b) => a.year - b.year || (a.subject || "").localeCompare(b.subject || ""));
+        const cards = rows
+          .map(
+            (r) =>
+              '<div class="book-card">' +
+              '<div class="bcov" data-slug="' +
+              r.slug +
+              '"><img src="' +
+              (r.cover || "") +
+              '" alt="' +
+              r.subject +
+              " Year " +
+              r.year +
+              '" loading="lazy">' +
+              '<span class="bflag manual">Standardised</span></div>' +
+              '<div class="foot-row">' +
+              '<button class="view3d" data-slug="' +
+              r.slug +
+              '">Open Book</button></div></div>',
+          )
+          .join("");
+        catBody.innerHTML =
+          '<div class="cat-group"><h3>Standardised <span>' +
+          rows.length +
+          (rows.length === 1 ? " book" : " books") +
+          " rebuilt to the house standard</span></h3>" +
+          '<div class="cat-grid">' +
+          cards +
+          "</div></div>";
+        catCount.textContent = rows.length + (rows.length === 1 ? " book" : " books");
+        /* A card here names a book by SLUG: that is the identity a standardised
+           edition has, whereas the catalogue's Year|Subject keys point at the
+           masters. The handler lives on the shelf because renderCatalogue()
+           returns before its own delegation is attached - without this the
+           shelf renders and answers nothing. */
+        catBody.onclick = (e) => {
+          const s = e.target.closest("[data-slug]");
+          if (!s || !window.PBLibrary || !window.PBLibrary.openSlug) return;
+          closeCatalogue();
+          window.PBLibrary.openSlug(s.getAttribute("data-slug"));
+        };
+      }
+
       function renderCatalogue() {
+        /* /finished has its own shelf, never a filtered catalogue. */
+        if (PB_FINISHED) {
+          renderFinishedShelf();
+          return;
+        }
         const years = [];
         catData.forEach((r) => {
           if (years.indexOf(r.year) < 0) years.push(r.year);
@@ -7510,8 +7600,39 @@ function rr(x, px, py, w, h, r) {
           /* Finished mode shows a window of the book, not the whole book: the
              cover, the second page and the back cover. fbCount stays what
              StPageFlip sees, so every index below is a window index. */
-          fbWindow = PB_FINISHED && pdfPages > 3 ? [0, 1, pdfPages - 1] : null;
+          /* Finished mode reads the SHELL: the pages the standard has already
+             set for this book, declared per book in the manifest
+             (`shell_pages`), so publishing a newly standardised page becomes a
+             data change and never a code change. A standardised edition that
+             has not declared its shell yet falls back to cover, second page and
+             back cover. */
+          const shellRow = BOOK_ROWS[fbBookMeta && fbBookMeta.pdf];
+          const declared =
+            shellRow && Array.isArray(shellRow.shell_pages) && shellRow.shell_pages.length
+              ? shellRow.shell_pages
+              : null;
+          if (PB_FINISHED) {
+            fbWindow = declared
+              ? declared
+                  .map((n) => Number(n) - 1)
+                  .filter((i) => Number.isFinite(i) && i >= 0 && i < pdfPages)
+              : pdfPages > 3
+                ? [0, 1, pdfPages - 1]
+                : null;
+          } else {
+            fbWindow = null;
+          }
           fbCount = fbWindow ? fbWindow.length : pdfPages;
+          const shellPagesEl = document.getElementById("fbShellPages");
+          if (shellPagesEl && PB_FINISHED) {
+            const nm = (fbWindow || []).map((i) => String(i + 1));
+            const tail = nm.pop();
+            shellPagesEl.textContent = nm.length
+              ? "pages " + nm.join(", ") + " and " + tail
+              : tail
+                ? "page " + tail
+                : "no page yet";
+          }
           const first = await doc.getPage(1);
           const base = first.getViewport({ scale: 1 });
           const ratio = base.width / base.height;
@@ -7751,13 +7872,13 @@ function rr(x, px, py, w, h, r) {
         if (head) head.innerHTML = "Only what is <em>finished.</em>";
         if (copy)
           copy.textContent =
-            "The three pages that can be standardised without touching the " +
-            "teaching: the cover, the second page and the back cover. Open any " +
-            "title to see its standardised shell, then its Sections or Input to " +
-            "see everything the interior must contain.";
+            "The editions rebuilt to the house standard, one book at a time. " +
+            "Open a title to read the pages that are already standardised; open " +
+            "its Sections or Input to see everything the interior must contain.";
         if (note)
           note.textContent =
-            "Shell standardised: cover \u00b7 second page \u00b7 back cover";
+            "Standardised editions only \u2014 the shelf fills as each book is " +
+            "rebuilt";
         if (shell) shell.hidden = false;
       })();
 </script>
