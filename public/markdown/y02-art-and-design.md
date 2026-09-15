@@ -94,6 +94,8 @@ Sometimes what they make is not what they meant to make. That happens
 to every artist. They look at it, say what they like about it, and try again. You
 are going to do the same.
 
+**03**
+
 <!-- page 4 -->
 
 ---
@@ -127,6 +129,8 @@ Each one helps with the making they know best.
 for the class, on the board
 
 collections.vam.ac.uk, Beatrix Potter, Squirrel in a wood
+
+**04**
 
 <!-- page 5 -->
 
@@ -186,6 +190,9 @@ Looking after your tools
 ## Every unit ends with Along the way, something to make with what you have
 just learnt. There are four of those, one for each unit, and then the whole
 class puts on an exhibition.
+
+**05**
+Contents
 
 <!-- page 6 -->
 
@@ -251,6 +258,9 @@ class puts on an exhibition.
 **For teachers**
 **161**
 
+**06**
+Contents
+
 <!-- page 7 -->
 
 ---
@@ -288,6 +298,8 @@ anything.
 A question to talk about before you start. There is no wrong answer
 here.
 
+**07**
+
 <!-- page 8 -->
 
 ---
@@ -322,6 +334,8 @@ you are going to do before you start.
 
 **1**
 
+**08**
+
 <!-- page 9 -->
 
 ---
@@ -347,6 +361,8 @@ Something you already know, from a topic you have done before.
 
 Something to make together, with a partner or in a group.
 
+**09**
+
 <!-- page 10 -->
 
 ---
@@ -370,6 +386,8 @@ A surprising fact, from Willa's own sketchbook.
 A puzzle for the whole group to argue about.
 
 **S T U DIO C H A L L E N G E**
+
+**10**
 
 <!-- page 11 -->
 
@@ -416,6 +434,8 @@ A question at the end of the unit.
 If you can do these, you are ready for the next unit.
 **2**
 
+**11**
+
 <!-- page 12 -->
 
 ---
@@ -441,6 +461,8 @@ squeezing, rolling, joining and smoothing.
 I know what each part of a page is for.
 
 I know what to do when I see a square code.
+
+**12**
 
 <!-- page 13 -->
 
@@ -488,6 +510,8 @@ you try
 Set your things out the same way every time. Then your hands know where
 to reach, and you can think about what you are making instead.
 
+**13**
+
 <!-- page 14 -->
 
 ---
@@ -511,6 +535,8 @@ Roll your sleeves up and put your apron on before you start. Wipe the table
 and wash your hands when you have finished.
 
 **!**
+
+**14**
 
 <!-- page 15 -->
 
@@ -550,6 +576,8 @@ hairs UP in a pot.
 Look along the class brushes. Which ones still come to a point? How do
 you know which of those were the ones left standing in water?
 
+**15**
+
 <!-- page 16 -->
 
 ---
@@ -582,6 +610,8 @@ the bag.
 
 Keep it away from the
 window.
+
+**16**
 
 <!-- page 17 -->
 
@@ -617,6 +647,8 @@ The clay bag is the one that catches classes out. Clay that has dried out cannot
 again by adding water at this age: it goes lumpy. Check the bag is sealed at the end of every
 clay lesson.
 
+**17**
+
 <!-- page 18 -->
 
 ---
@@ -638,7 +670,7 @@ came out of one lump.
 
 UNIT 1  SCULPTING WITH CLAY
 
-18
+**18**
 
 <!-- page 19 -->
 
@@ -667,7 +699,7 @@ say what clay does as it dries
 
 UNIT 1  SCULPTING WITH CLAY
 
-19
+**19**
 
 <!-- page 20 -->
 
@@ -682,7 +714,7 @@ there was clay in it. What shape would you have made?
 
 UNIT 1  SCULPTING WITH CLAY
 
-20
+**20**
 
 <!-- page 21 -->
 
@@ -717,7 +749,7 @@ movements.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.1
 
-21
+**21**
 
 <!-- page 22 -->
 
@@ -748,7 +780,7 @@ one thick and one thin. Which one bends? How do you know?
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.1
 
-22
+**22**
 
 <!-- page 23 -->
 
@@ -796,7 +828,7 @@ Join two coils together so they will not come apart.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.1
 
-23
+**23**
 
 <!-- page 24 -->
 
@@ -851,7 +883,7 @@ a lump of clay each, a wooden board, a clay tool and a small dish of water
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.1
 
-24
+**24**
 
 <!-- page 25 -->
 
@@ -880,7 +912,7 @@ your hands when you have finished.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.1
 
-25
+**25**
 
 <!-- page 26 -->
 
@@ -907,7 +939,7 @@ You know how to flatten clay into a slab. What did you use to do it?
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.2
 
-26
+**26**
 
 <!-- page 27 -->
 
@@ -939,7 +971,7 @@ made by string? How do you know?
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.2
 
-27
+**27**
 
 <!-- page 28 -->
 
@@ -976,7 +1008,7 @@ end of the strip.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.2
 
-28
+**28**
 
 <!-- page 29 -->
 
@@ -1024,7 +1056,7 @@ have handled it.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.2
 
-29
+**29**
 
 <!-- page 30 -->
 
@@ -1055,7 +1087,7 @@ You pressed a texture into a slab of clay. What did you press into it?
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.3
 
-30
+**30**
 
 <!-- page 31 -->
 
@@ -1104,7 +1136,7 @@ the corners. How do you know why that happened?
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.3
 
-31
+**31**
 
 <!-- page 32 -->
 
@@ -1141,7 +1173,7 @@ a dry clay tile each, paint, a brush, torn paper, glue and a pencil
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.3
 
-32
+**32**
 
 <!-- page 33 -->
 
@@ -1167,7 +1199,7 @@ touch your face.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.3
 
-33
+**33**
 
 <!-- page 34 -->
 
@@ -1206,7 +1238,7 @@ the firing.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.4
 
-34
+**34**
 
 <!-- page 35 -->
 
@@ -1248,7 +1280,7 @@ The dry side shrank while the damp side did not, so it split.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.4
 
-35
+**35**
 
 <!-- page 36 -->
 
@@ -1300,7 +1332,7 @@ Say one thing fired clay can do that dry clay cannot.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.4
 
-36
+**36**
 
 <!-- page 37 -->
 
@@ -1350,7 +1382,7 @@ survives?
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.4
 
-37
+**37**
 
 <!-- page 38 -->
 
@@ -1371,7 +1403,7 @@ only. Never touch a kiln, even when it looks cool.
 UNIT 1  SCULPTING WITH CLAY
 TOPIC 1.4
 
-38
+**38**
 
 <!-- page 39 -->
 
@@ -1436,7 +1468,7 @@ Describe one texture you pressed, and what made it.
 
 UNIT 1  SCULPTING WITH CLAY
 
-39
+**39**
 
 <!-- page 40 -->
 
@@ -1476,7 +1508,7 @@ I can say why my pot cracked, or why it did not.
 
 UNIT 1  SCULPTING WITH CLAY
 
-40
+**40**
 
 <!-- page 41 -->
 
@@ -1486,7 +1518,7 @@ keeps it on the shelf because it is the pot that taught him about drying.
 
 UNIT 1  SCULPTING WITH CLAY
 
-41
+**41**
 
 <!-- page 42 -->
 
@@ -1531,7 +1563,7 @@ The kiln is switched on, opened and emptied by an adult only.
 
 UNIT 1  SCULPTING WITH CLAY
 
-42
+**42**
 
 <!-- page 43 -->
 
@@ -1559,7 +1591,7 @@ and tell pupils that is why.
 
 UNIT 1  SCULPTING WITH CLAY
 
-43
+**43**
 
 <!-- page 44 -->
 
@@ -1581,7 +1613,7 @@ sitting on the sill in front of her. She is drawing from the beetle, not from me
 
 UNIT 2  DRAWING WITH PURPOSE
 
-44
+**44**
 
 <!-- page 45 -->
 
@@ -1609,12 +1641,12 @@ draw a group of objects that are standing still
 
 UNIT 2  DRAWING WITH PURPOSE
 
-45
-
 Willa had drawn the beetle she remembered instead of the beetle in front of
 
 before you draw.
 her. It is the most common mistake in drawing, and the cure is simple: count
+
+**45**
 
 <!-- page 46 -->
 
@@ -1629,7 +1661,7 @@ you count across one knuckle?
 
 UNIT 2  DRAWING WITH PURPOSE
 
-46
+**46**
 
 <!-- page 47 -->
 
@@ -1666,7 +1698,7 @@ antennae? Then draw what you counted.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.1
 
-47
+**47**
 
 <!-- page 48 -->
 
@@ -1695,7 +1727,7 @@ find out whether a spider is an insect?
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.1
 
-48
+**48**
 
 <!-- page 49 -->
 
@@ -1726,7 +1758,7 @@ Draw the same beetle again, smaller, without looking at your first.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.1
 
-49
+**49**
 
 <!-- page 50 -->
 
@@ -1776,7 +1808,7 @@ Which of your drawings today looks most like the real thing?
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.1
 
-50
+**50**
 
 <!-- page 51 -->
 
@@ -1811,7 +1843,7 @@ hands afterwards.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.1
 
-51
+**51**
 
 <!-- page 52 -->
 
@@ -1838,7 +1870,7 @@ a face?
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.2
 
-52
+**52**
 
 <!-- page 53 -->
 
@@ -1865,7 +1897,7 @@ The eyes sat halfway down, with a whole forehead above them.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.2
 
-53
+**53**
 
 <!-- page 54 -->
 
@@ -1901,7 +1933,7 @@ Look at your partner. Add one thing that is just theirs.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.2
 
-54
+**54**
 
 <!-- page 55 -->
 
@@ -1943,9 +1975,9 @@ Draw one eye on its own, as big as your whole palm.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.2
 
-55
-
 DRAW THE OTHER HALF HERE
+
+**55**
 
 <!-- page 56 -->
 
@@ -1979,7 +2011,7 @@ Keep pencils away from faces and eyes while you are drawing close up.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.2
 
-56
+**56**
 
 <!-- page 57 -->
 
@@ -2016,7 +2048,7 @@ everything else out.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.3
 
-57
+**57**
 
 <!-- page 58 -->
 
@@ -2065,7 +2097,7 @@ understood it. How could he find out what went wrong?
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.3
 
-58
+**58**
 
 <!-- page 59 -->
 
@@ -2086,8 +2118,6 @@ Test your drawings on somebody else, and write down what they said.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.3
 
-59
-
 **MY DRAWING MEANS**
 **WHAT MY PARTNER READ**
 **SAME?**
@@ -2098,6 +2128,8 @@ Test your drawings on somebody else, and write down what they said.
 **MY DRAWING MEANS**
 **WHAT MY PARTNER READ**
 **SAME?**
+
+**59**
 
 <!-- page 60 -->
 
@@ -2144,7 +2176,7 @@ Put the pen lids back on, and never draw on your skin.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.3
 
-60
+**60**
 
 <!-- page 61 -->
 
@@ -2173,7 +2205,7 @@ You drew a face by looking, not from memory. What did you look for first?
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.4
 
-61
+**61**
 
 <!-- page 62 -->
 
@@ -2202,7 +2234,7 @@ underneath.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.4
 
-62
+**62**
 
 <!-- page 63 -->
 
@@ -2238,7 +2270,7 @@ Shade the shadow each thing casts on the table.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.4
 
-63
+**63**
 
 <!-- page 64 -->
 
@@ -2273,7 +2305,7 @@ Which of your two drawings looks more solid? Say why.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.4
 
-64
+**64**
 
 <!-- page 65 -->
 
@@ -2300,7 +2332,7 @@ thing.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.4
 
-65
+**65**
 
 <!-- page 66 -->
 
@@ -2314,7 +2346,7 @@ Keep the jug away from the table edge, and let an adult move the lamp.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.4
 
-66
+**66**
 
 <!-- page 67 -->
 
@@ -2352,7 +2384,7 @@ how things look, so that people feel it.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.5
 
-67
+**67**
 
 <!-- page 68 -->
 
@@ -2384,7 +2416,7 @@ lines on the other.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.5
 
-68
+**68**
 
 <!-- page 69 -->
 
@@ -2438,7 +2470,7 @@ Choose one colour for your drawing. Say why that one.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.5
 
-69
+**69**
 
 <!-- page 70 -->
 
@@ -2486,7 +2518,7 @@ drawing makes you feel sad.
 UNIT 2  DRAWING WITH PURPOSE
 TOPIC 2.5
 
-70
+**70**
 
 <!-- page 71 -->
 
@@ -2551,7 +2583,7 @@ Name one artist who drew about something that happened.
 
 UNIT 2  DRAWING WITH PURPOSE
 
-71
+**71**
 
 <!-- page 72 -->
 
@@ -2595,7 +2627,7 @@ I can draw about something that really happened.
 
 UNIT 2  DRAWING WITH PURPOSE
 
-72
+**72**
 
 <!-- page 73 -->
 
@@ -2605,7 +2637,7 @@ antennae. The whole insect is in the picture, nothing cut off.
 
 UNIT 2  DRAWING WITH PURPOSE
 
-73
+**73**
 
 <!-- page 74 -->
 
@@ -2651,7 +2683,7 @@ Keep your pencil away from your face while you are looking closely.
 
 UNIT 2  DRAWING WITH PURPOSE
 
-74
+**74**
 
 <!-- page 75 -->
 
@@ -2681,7 +2713,7 @@ well.
 
 UNIT 2  DRAWING WITH PURPOSE
 
-75
+**75**
 
 <!-- page 76 -->
 
@@ -2703,7 +2735,7 @@ already pegged up on the line behind him. Every one of them came off that same b
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-76
+**76**
 
 <!-- page 77 -->
 
@@ -2735,7 +2767,7 @@ print a face using shapes an adult has cut
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-77
+**77**
 
 <!-- page 78 -->
 
@@ -2750,7 +2782,7 @@ off. Can you see the mark you left?
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-78
+**78**
 
 <!-- page 79 -->
 
@@ -2784,7 +2816,7 @@ block. That is what makes printing different from drawing.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.1
 
-79
+**79**
 
 <!-- page 80 -->
 
@@ -2826,7 +2858,7 @@ Next time he pressed once and lifted straight up.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.1
 
-80
+**80**
 
 <!-- page 81 -->
 
@@ -2862,7 +2894,7 @@ Count how many prints you got from one painting.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.1
 
-81
+**81**
 
 <!-- page 82 -->
 
@@ -2911,7 +2943,7 @@ towel
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.1
 
-82
+**82**
 
 <!-- page 83 -->
 
@@ -2937,7 +2969,7 @@ your hands as soon as you have finished.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.1
 
-83
+**83**
 
 <!-- page 84 -->
 
@@ -2968,7 +3000,7 @@ same?
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.2
 
-84
+**84**
 
 <!-- page 85 -->
 
@@ -2999,7 +3031,7 @@ gone? How do you know it was never on one tile?
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.2
 
-85
+**85**
 
 <!-- page 86 -->
 
@@ -3034,7 +3066,7 @@ Find a repeating pattern somewhere in this room.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.2
 
-86
+**86**
 
 <!-- page 87 -->
 
@@ -3078,7 +3110,7 @@ appear that none of you drew?
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.2
 
-87
+**87**
 
 <!-- page 88 -->
 
@@ -3102,7 +3134,7 @@ Wipe the stamp pad and put its lid on, and keep it off your clothes.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.2
 
-88
+**88**
 
 <!-- page 89 -->
 
@@ -3138,7 +3170,7 @@ Here is the surprising part. Press the block down and lift it, and your shape
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.3
 
-89
+**89**
 
 <!-- page 90 -->
 
@@ -3170,7 +3202,7 @@ do you know that would happen every time?
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.3
 
-90
+**90**
 
 <!-- page 91 -->
 
@@ -3234,7 +3266,7 @@ Say one thing you would change about your block.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.3
 
-91
+**91**
 
 <!-- page 92 -->
 
@@ -3268,7 +3300,7 @@ your block is built up with glue, never cut.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.3
 
-92
+**92**
 
 <!-- page 93 -->
 
@@ -3299,7 +3331,7 @@ fainter?
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.4
 
-93
+**93**
 
 <!-- page 94 -->
 
@@ -3327,7 +3359,7 @@ Almost nothing came off, because the first sheet took the ink.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.4
 
-94
+**94**
 
 <!-- page 95 -->
 
@@ -3363,7 +3395,7 @@ Say what mono means, in your own words.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.4
 
-95
+**95**
 
 <!-- page 96 -->
 
@@ -3413,7 +3445,7 @@ swap. Print both. Then try to tell which print came from which drawing.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.4
 
-96
+**96**
 
 <!-- page 97 -->
 
@@ -3433,7 +3465,7 @@ away from your face.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.4
 
-97
+**97**
 
 <!-- page 98 -->
 
@@ -3469,7 +3501,7 @@ good pair of eyes. A mushroom fan makes good hair.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.5
 
-98
+**98**
 
 <!-- page 99 -->
 
@@ -3496,7 +3528,7 @@ The hole looked exactly like the dark middle of an eye.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.5
 
-99
+**99**
 
 <!-- page 100 -->
 
@@ -3530,7 +3562,7 @@ How do you know which order to print in?
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.5
 
-100
+**100**
 
 <!-- page 101 -->
 
@@ -3594,7 +3626,7 @@ Name the two kinds of printing you have done.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.5
 
-101
+**101**
 
 <!-- page 102 -->
 
@@ -3624,7 +3656,7 @@ for eating, so wash your hands afterwards.
 UNIT 3  INTRODUCTION TO PRINTING
 TOPIC 3.5
 
-102
+**102**
 
 <!-- page 103 -->
 
@@ -3684,7 +3716,7 @@ Say who cuts the vegetables, and why.
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-103
+**103**
 
 <!-- page 104 -->
 
@@ -3728,7 +3760,7 @@ I can say why a print is a mirror of its block.
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-104
+**104**
 
 <!-- page 105 -->
 
@@ -3738,7 +3770,7 @@ where the paper moved. He keeps it because it is the print that taught him to li
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-105
+**105**
 
 <!-- page 106 -->
 
@@ -3783,7 +3815,7 @@ Ink stains clothes, so keep your apron on until the strip is hung up.
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-106
+**106**
 
 <!-- page 107 -->
 
@@ -3811,7 +3843,7 @@ idea. Ask which kind a pupil would choose for forty invitations, and why.
 
 UNIT 3  INTRODUCTION TO PRINTING
 
-107
+**107**
 
 <!-- page 108 -->
 
@@ -3834,7 +3866,7 @@ beside it.
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-108
+**108**
 
 <!-- page 109 -->
 
@@ -3867,7 +3899,7 @@ paint a place you have only imagined
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-109
+**109**
 
 <!-- page 110 -->
 
@@ -3883,7 +3915,7 @@ now? Say it out loud.
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-110
+**110**
 
 <!-- page 111 -->
 
@@ -3917,7 +3949,7 @@ things until the big shapes have dried.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.1
 
-111
+**111**
 
 <!-- page 112 -->
 
@@ -3949,7 +3981,7 @@ So he mixed blue and yellow himself, and added a touch of brown.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.1
 
-112
+**112**
 
 <!-- page 113 -->
 
@@ -4003,7 +4035,7 @@ Add the smallest details last of all.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.1
 
-113
+**113**
 
 <!-- page 114 -->
 
@@ -4038,7 +4070,7 @@ a real plant in a jar, paints, a round brush, water and thick paper
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.1
 
-114
+**114**
 
 <!-- page 115 -->
 
@@ -4064,7 +4096,7 @@ nobody slips.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.1
 
-115
+**115**
 
 <!-- page 116 -->
 
@@ -4093,7 +4125,7 @@ duller?
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.2
 
-116
+**116**
 
 <!-- page 117 -->
 
@@ -4124,7 +4156,7 @@ brush.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.2
 
-117
+**117**
 
 <!-- page 118 -->
 
@@ -4160,7 +4192,7 @@ Paint water using drags only.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.2
 
-118
+**118**
 
 <!-- page 119 -->
 
@@ -4213,7 +4245,7 @@ a round brush, a flat brush, paint, a cloth for drying and thick paper
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.2
 
-119
+**119**
 
 <!-- page 120 -->
 
@@ -4234,7 +4266,7 @@ swap brushes.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.2
 
-120
+**120**
 
 <!-- page 121 -->
 
@@ -4273,7 +4305,7 @@ scissors.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.3
 
-121
+**121**
 
 <!-- page 122 -->
 
@@ -4315,7 +4347,7 @@ So he dabbed three greens next to each other and stepped back.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.3
 
-122
+**122**
 
 <!-- page 123 -->
 
@@ -4351,7 +4383,7 @@ Which of the three ways did you like working in best?
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.3
 
-123
+**123**
 
 <!-- page 124 -->
 
@@ -4404,7 +4436,7 @@ tells you most about the view?
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.3
 
-124
+**124**
 
 <!-- page 125 -->
 
@@ -4433,7 +4465,7 @@ Look where you are walking when you step back from your work.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.3
 
-125
+**125**
 
 <!-- page 126 -->
 
@@ -4464,7 +4496,7 @@ added anything?
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.4
 
-126
+**126**
 
 <!-- page 127 -->
 
@@ -4491,7 +4523,7 @@ He tried again and waited until the blue was completely dry.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.4
 
-127
+**127**
 
 <!-- page 128 -->
 
@@ -4527,7 +4559,7 @@ Draw on top of everything with a pencil.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.4
 
-128
+**128**
 
 <!-- page 129 -->
 
@@ -4575,7 +4607,7 @@ Glue and paint both stain, so keep your apron on until everything is dry.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.4
 
-129
+**129**
 
 <!-- page 130 -->
 
@@ -4611,7 +4643,7 @@ long way.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.5
 
-130
+**130**
 
 <!-- page 131 -->
 
@@ -4640,7 +4672,7 @@ left.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.5
 
-131
+**131**
 
 <!-- page 132 -->
 
@@ -4676,7 +4708,7 @@ Say which two paints made your favourite colour.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.5
 
-132
+**132**
 
 <!-- page 133 -->
 
@@ -4722,9 +4754,9 @@ usually more than thirty.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.5
 
-133
-
 Paint the three empty squares, each one paler.
+
+**133**
 
 <!-- page 134 -->
 
@@ -4743,7 +4775,7 @@ Rinse your brush in clean water between colours, or every mix turns grey.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.5
 
-134
+**134**
 
 <!-- page 135 -->
 
@@ -4773,7 +4805,7 @@ You mixed a colour nobody else had. What two paints did you use?
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.6
 
-135
+**135**
 
 <!-- page 136 -->
 
@@ -4801,7 +4833,7 @@ He painted the far leaves smaller and paler, and the near ones big.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.6
 
-136
+**136**
 
 <!-- page 137 -->
 
@@ -4819,7 +4851,7 @@ know careful looking is behind an invented picture?
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.6
 
-137
+**137**
 
 <!-- page 138 -->
 
@@ -4870,7 +4902,7 @@ Add the nearest leaf last, big and strong.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.6
 
-138
+**138**
 
 <!-- page 139 -->
 
@@ -4919,7 +4951,7 @@ Paint on a covered table, and carry wet work flat with both hands.
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 TOPIC 4.6
 
-139
+**139**
 
 <!-- page 140 -->
 
@@ -4983,7 +5015,7 @@ Say which painter you would most like to have met, and why.
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-140
+**140**
 
 <!-- page 141 -->
 
@@ -5027,7 +5059,7 @@ I can paint a place I have only imagined.
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-141
+**141**
 
 <!-- page 142 -->
 
@@ -5073,7 +5105,7 @@ Wash your brush in cool water between colours, never hot.
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-142
+**142**
 
 <!-- page 143 -->
 
@@ -5102,7 +5134,7 @@ idea they keep.
 
 UNIT 4  PAINTING: PROCESSES AND MOVEMENTS
 
-143
+**143**
 
 <!-- page 144 -->
 
@@ -5131,7 +5163,7 @@ pencil
 ART & DESIGN  YEAR 2
 OUR OWN EXHIBITION
 
-144
+**144**
 
 <!-- page 145 -->
 
@@ -5165,7 +5197,7 @@ how you made it.
 
 ART & DESIGN  YEAR 2
 
-145
+**145**
 
 <!-- page 146 -->
 
@@ -5190,7 +5222,7 @@ Leave space around each piece, so the eye can rest.
 
 ART & DESIGN  YEAR 2
 
-146
+**146**
 
 <!-- page 147 -->
 
@@ -5222,7 +5254,7 @@ Which piece surprised you most when you made it?
 
 ART & DESIGN  YEAR 2
 
-147
+**147**
 
 <!-- page 148 -->
 
@@ -5241,7 +5273,7 @@ to reach.
 
 ART & DESIGN  YEAR 2
 
-148
+**148**
 
 <!-- page 149 -->
 
@@ -5289,7 +5321,7 @@ I can say what I would do differently next time.
 ART & DESIGN  YEAR 2
 SHOWING WHAT YOU CAN DO
 
-149
+**149**
 
 <!-- page 150 -->
 
@@ -5337,7 +5369,7 @@ three questions about it out loud.
 ART & DESIGN  YEAR 2
 SHOWING WHAT YOU CAN DO
 
-150
+**150**
 
 <!-- page 151 -->
 
@@ -5355,7 +5387,7 @@ minutes later.
 ART & DESIGN  YEAR 2
 FOR TEACHERS
 
-151
+**151**
 
 <!-- page 152 -->
 
@@ -5392,7 +5424,7 @@ Unit 2, one portrait each
 ART & DESIGN  YEAR 2
 ART AROUND THE SCHOOL
 
-152
+**152**
 
 <!-- page 153 -->
 
@@ -5409,7 +5441,7 @@ An adult puts up anything above head height.
 
 ART & DESIGN  YEAR 2
 
-153
+**153**
 
 <!-- page 154 -->
 
@@ -5464,7 +5496,7 @@ reaches. It is not the same as standing there, and it is much better than nothin
 ART & DESIGN  YEAR 2
 ART AROUND THE SCHOOL
 
-154
+**154**
 
 <!-- page 155 -->
 
@@ -5538,7 +5570,7 @@ Unit 4
 ART & DESIGN  YEAR 2
 NEW WORDS FOR THE STUDIO
 
-155
+**155**
 
 <!-- page 156 -->
 
@@ -5609,7 +5641,7 @@ to scratch clay before joining it · Unit 1
 ART & DESIGN  YEAR 2
 NEW WORDS FOR THE STUDIO
 
-156
+**156**
 
 <!-- page 157 -->
 
@@ -5669,7 +5701,7 @@ for washing your brush · Setting up
 ART & DESIGN  YEAR 2
 NEW WORDS FOR THE STUDIO
 
-157
+**157**
 
 <!-- page 158 -->
 
@@ -5715,7 +5747,7 @@ has eight legs, so a spider is not an insect.
 ART & DESIGN  YEAR 2
 ANSWERS
 
-158
+**158**
 
 <!-- page 159 -->
 
@@ -5759,7 +5791,7 @@ a reason.
 
 ART & DESIGN  YEAR 2
 
-159
+**159**
 
 <!-- page 160 -->
 
@@ -5793,7 +5825,7 @@ an adult
 ART & DESIGN  YEAR 2
 ANSWERS
 
-160
+**160**
 
 <!-- page 161 -->
 
@@ -5834,7 +5866,7 @@ breathed.
 ART & DESIGN  YEAR 2
 FOR TEACHERS
 
-161
+**161**
 
 <!-- page 162 -->
 
@@ -5862,7 +5894,7 @@ page still works with no device at all.
 ART & DESIGN  YEAR 2
 FOR TEACHERS
 
-162
+**162**
 
 <!-- page 163 -->
 
@@ -5883,7 +5915,7 @@ year's work is what makes that choice real.
 ART & DESIGN  YEAR 2
 FOR TEACHERS
 
-163
+**163**
 
 <!-- page 164 -->
 
