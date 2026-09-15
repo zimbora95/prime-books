@@ -1,100 +1,110 @@
 ==============================================================================
 PRIME BOOKS - INPUT POINT OF SITUATION
-catalogue rows: 123   with a raw input file: 33   MISSING AN INPUT FILE: 90
+catalogue rows: 123   with a raw input file: 83   MISSING AN INPUT FILE: 40
 ==============================================================================
 
-### A. HAS AN INPUT FILE (33)  -- source scheme-of-work / Student Book present
+### A. HAS AN INPUT FILE (83)  -- source scheme-of-work / Student Book present
+  Y1  y01-art-and-design                   88pp  Art & Design   [xlsx]
+  Y1  y01-computing-and-robotics          182pp  Computing & Robotics   [xlsx]
   Y1  y01-english                         186pp  English   [pdf]
-  Y1  y01-physical-education               72pp  Physical Education   [xlsx]
+  Y1  y01-german-a1a2                     100pp  German A1/A2   [xlsx]
+  Y1  y01-global-perspectives             174pp  Global Perspectives   [xlsx]
+  Y1  y01-mathematics                     364pp  Mathematics   [xlsx]
+  Y1  y01-music-and-drama                 198pp  Music & Drama   [xlsx]
+  Y1  y01-physical-education               98pp  Physical Education   [xlsx]
   Y1  y01-science                         184pp  Science   [pdf]
+  Y2  y02-art-and-design                  164pp  Art & Design   [xlsx]
   Y2  y02-computing-and-robotics          256pp  Computing & Robotics   [xlsx]
+  Y2  y02-english                         210pp  English   [xlsx]
   Y2  y02-global-perspectives             180pp  Global Perspectives   [xlsx]
   Y2  y02-mathematics                     752pp  Mathematics   [pdf]
+  Y2  y02-music-and-drama                 256pp  Music & Drama   [xlsx]
   Y2  y02-physical-education              244pp  Physical Education   [xlsx]
+  Y2  y02-science                         186pp  Science   [xlsx]
+  Y3  y03-art-and-design                   96pp  Art & Design   [xlsx]
   Y3  y03-computing-and-robotics           32pp  Computing & Robotics   [xlsx]
+  Y3  y03-english                           4pp  English   [xlsx]
   Y3  y03-global-perspectives             158pp  Global Perspectives   [xlsx]
   Y3  y03-mathematics                      80pp  Mathematics   [pdf]
+  Y3  y03-music-and-drama                   4pp  Music & Drama   [xlsx]
   Y3  y03-physical-education              158pp  Physical Education   [xlsx]
+  Y3  y03-portuguese                      124pp  Portuguese   [xlsx]
   Y3  y03-science                           4pp  Science   [pdf]
+  Y4  y04-art-and-design                   84pp  Art & Design   [xlsx]
   Y4  y04-computing-and-robotics           30pp  Computing & Robotics   [xlsx]
+  Y4  y04-english                          98pp  English   [xlsx]
+  Y4  y04-global-perspectives             110pp  Global Perspectives   [xlsx]
   Y4  y04-mathematics                      70pp  Mathematics   [pdf]
+  Y4  y04-music-and-drama                   4pp  Music & Drama   [xlsx]
   Y4  y04-physical-education              170pp  Physical Education   [xlsx]
   Y4  y04-science                          18pp  Science   [pdf]
+  Y5  y05-art-and-design                  126pp  Art & Design   [xlsx]
   Y5  y05-computing-and-robotics            2pp  Computing & Robotics   [pdf]
   Y5  y05-english                          20pp  English   [pdf]
+  Y5  y05-global-perspectives             114pp  Global Perspectives   [xlsx]
   Y5  y05-mathematics                      32pp  Mathematics   [pdf]
+  Y5  y05-music-and-drama                   2pp  Music & Drama   [xlsx]
   Y5  y05-physical-education              138pp  Physical Education   [xlsx]
+  Y5  y05-science                           2pp  Science   [xlsx]
+  Y6  y06-art-and-design                   98pp  Art & Design   [xlsx]
   Y6  y06-computing-and-robotics            2pp  Computing & Robotics   [pdf]
+  Y6  y06-english                           2pp  English   [xlsx]
+  Y6  y06-global-perspectives             118pp  Global Perspectives   [xlsx]
   Y6  y06-mathematics                     122pp  Mathematics   [pdf]
+  Y6  y06-music-and-drama                   2pp  Music & Drama   [xlsx]
   Y6  y06-physical-education              190pp  Physical Education   [xlsx]
+  Y6  y06-science                           2pp  Science   [xlsx]
+  Y7  y07-art-and-design                   74pp  Art & Design   [xlsx]
+  Y7  y07-art-and-design-standard          74pp  Art & Design   [xlsx]
   Y7  y07-computing-and-robotics          118pp  Computing & Robotics   [pdf]
+  Y7  y07-computing-structured            138pp  Computing & Robotics (Structured)   [xlsx]
+  Y7  y07-english                          24pp  English   [xlsx]
   Y7  y07-humanities                      176pp  Humanities   [pdf]
+  Y7  y07-physical-education              146pp  Physical Education   [xlsx]
+  Y7  y07-portuguese-1st                  136pp  Portuguese 1st   [xlsx]
+  Y7  y07-portuguese-2nd                   76pp  Portuguese 2nd   [xlsx]
+  Y7  y07-science                          28pp  Science   [xlsx]
   Y7  y07-spanish                         178pp  Spanish   [xlsx]
+  Y8  y08-art-and-design                  110pp  Art & Design   [xlsx]
   Y8  y08-english                          14pp  English   [pdf]
   Y8  y08-humanities                      250pp  Humanities   [pdf]
+  Y8  y08-mathematics                      18pp  Mathematics   [xlsx]
   Y8  y08-physical-education              146pp  Physical Education   [xlsx]
+  Y8  y08-science                          20pp  Science   [xlsx]
+  Y9  y09-art-and-design                   72pp  Art & Design   [xlsx]
+  Y9  y09-english                          14pp  English   [xlsx]
   Y9  y09-humanities                      126pp  Humanities   [pdf]
   Y9  y09-mathematics                      16pp  Mathematics   [pdf]
   Y9  y09-physical-education              182pp  Physical Education   [xlsx]
+  Y9  y09-science                         122pp  Science   [xlsx]
   Y9  y09-spanish                         338pp  Spanish   [xlsx]
+  Y10 y10-business-btec-l2                 42pp  Business BTEC L2   [xlsx]
+  Y10 y10-physical-education              148pp  Physical Education   [xlsx]
+  Y10 y10-portuguese-1st                  422pp  Portuguese 1st   [xlsx]
+  Y10 y10-portuguese-1st-igcse            252pp  Portuguese 1st IGCSE   [xlsx]
+  Y10 y10-spanish-1st-igcse               260pp  Spanish 1st IGCSE   [xlsx]
+  Y11 y11-portuguese-1st                  426pp  Portuguese 1st   [xlsx]
+  Y12 y12-physical-education              628pp  Physical Education   [xlsx]
+  Y12 y12-portuguese-a-level              156pp  Portuguese A Level   [xlsx]
+  Y12 y12-spanish-a-level                 176pp  Spanish A Level   [xlsx]
 
-### B. INPUT PANEL DATA ONLY - corrections xlsx / json exist but the RAW INPUT FILE IS MISSING (5)
-  Y1  y01-art-and-design                   88pp  Art & Design   corr=True json=True
-  Y7  y07-physical-education              146pp  Physical Education   corr=True json=True
-  Y7  y07-science                          28pp  Science   corr=True json=True
-  Y8  y08-science                          20pp  Science   corr=True json=True
-  Y10 y10-physical-education              148pp  Physical Education   corr=True json=True
+### B. INPUT PANEL DATA ONLY - corrections xlsx / json exist but the RAW INPUT FILE IS MISSING (0)
 
-### C. BUILT BOOK, NO INPUT AT ALL  (>=20pp - someone built these without an input on this host) (47)
-  Y1  y01-computing-and-robotics          182pp  Computing & Robotics
-  Y1  y01-german-a1a2                     100pp  German A1/A2
-  Y1  y01-global-perspectives             174pp  Global Perspectives
-  Y1  y01-mathematics                     364pp  Mathematics
-  Y1  y01-music-and-drama                 198pp  Music & Drama
-  Y2  y02-art-and-design                  164pp  Art & Design
-  Y2  y02-english                         210pp  English
+### C. BUILT BOOK, NO INPUT AT ALL  (>=20pp - someone built these without an input on this host) (12)
   Y2  y02-german-b1b2                     100pp  German B1/B2
-  Y2  y02-music-and-drama                 256pp  Music & Drama
-  Y2  y02-science                         186pp  Science
-  Y3  y03-art-and-design                   96pp  Art & Design
-  Y3  y03-portuguese                      124pp  Portuguese
-  Y4  y04-art-and-design                   84pp  Art & Design
-  Y4  y04-english                          98pp  English
-  Y4  y04-global-perspectives             110pp  Global Perspectives
   Y4  y04-portuguese                      114pp  Portuguese
-  Y5  y05-art-and-design                  126pp  Art & Design
-  Y5  y05-global-perspectives             114pp  Global Perspectives
   Y5  y05-portuguese                      134pp  Portuguese
-  Y6  y06-art-and-design                   98pp  Art & Design
-  Y6  y06-global-perspectives             118pp  Global Perspectives
   Y6  y06-portuguese                      110pp  Portuguese
-  Y7  y07-art-and-design                   74pp  Art & Design
-  Y7  y07-art-and-design-standard          74pp  Art & Design
-  Y7  y07-computing-structured            138pp  Computing & Robotics (Structured)
-  Y7  y07-english                          24pp  English
   Y7  y07-global-perspectives             146pp  Global Perspectives
   Y7  y07-mathematics                      30pp  Mathematics
-  Y7  y07-portuguese-1st                  136pp  Portuguese 1st
-  Y7  y07-portuguese-2nd                   76pp  Portuguese 2nd
-  Y8  y08-art-and-design                  110pp  Art & Design
   Y8  y08-portuguese-2nd                  100pp  Portuguese 2nd
-  Y9  y09-art-and-design                   72pp  Art & Design
   Y9  y09-music-and-drama                  74pp  Music and Drama
   Y9  y09-portuguese                       52pp  Portuguese
   Y9  y09-portuguese-2nd                  110pp  Portuguese 2nd
-  Y9  y09-science                         122pp  Science
-  Y10 y10-business-btec-l2                 42pp  Business BTEC L2
-  Y10 y10-portuguese-1st                  422pp  Portuguese 1st
-  Y10 y10-portuguese-1st-igcse            252pp  Portuguese 1st IGCSE
-  Y10 y10-spanish-1st-igcse               260pp  Spanish 1st IGCSE
   Y11 y11-physical-education               32pp  Physical Education
-  Y11 y11-portuguese-1st                  426pp  Portuguese 1st
-  Y12 y12-physical-education              628pp  Physical Education
-  Y12 y12-portuguese-a-level              156pp  Portuguese A Level
-  Y12 y12-spanish-a-level                 176pp  Spanish A Level
   Y13 y13-physical-education               32pp  Physical Education
 
-### D. NOT BUILT, NO INPUT  (<20pp - placeholder / cover-only shell) (38)
+### D. NOT BUILT, NO INPUT  (<20pp - placeholder / cover-only shell) (28)
   Y1  y01-german-b1b2                       4pp  German B1/B2   4pp
   Y1  y01-portuguese                       12pp  Portuguese 1st Language   12pp
   Y1  y01-spanish-a1a2                      4pp  Spanish A1/A2   4pp
@@ -102,77 +112,77 @@ catalogue rows: 123   with a raw input file: 33   MISSING AN INPUT FILE: 90
   Y2  y02-german-a1a2                       4pp  German A1/A2   4pp
   Y2  y02-spanish-a1a2                      4pp  Spanish A1/A2   4pp
   Y2  y02-spanish-b1b2                      4pp  Spanish B1/B2   4pp
-  Y3  y03-english                           4pp  English   4pp
   Y3  y03-german-a1a2                       4pp  German A1/A2   4pp
   Y3  y03-german-b1b2                       4pp  German B1/B2   4pp
-  Y3  y03-music-and-drama                   4pp  Music & Drama   4pp
   Y3  y03-spanish-a1a2                      4pp  Spanish A1/A2   4pp
   Y3  y03-spanish-b1b2                      4pp  Spanish B1/B2   4pp
   Y4  y04-german-a1a2                       4pp  German A1/A2   4pp
   Y4  y04-german-b1b2                       4pp  German B1/B2   4pp
-  Y4  y04-music-and-drama                   4pp  Music & Drama   4pp
   Y4  y04-spanish-a1a2                      4pp  Spanish A1/A2   4pp
   Y4  y04-spanish-b1b2                      4pp  Spanish B1/B2   4pp
   Y5  y05-german-a1a2                       2pp  German A1/A2   2pp
   Y5  y05-german-b1b2                       2pp  German B1/B2   2pp
-  Y5  y05-music-and-drama                   2pp  Music & Drama   2pp
-  Y5  y05-science                           2pp  Science   2pp
   Y5  y05-spanish-a1a2                      2pp  Spanish A1/A2   2pp
   Y5  y05-spanish-b1b2                      2pp  Spanish B1/B2   2pp
-  Y6  y06-english                           2pp  English   2pp
   Y6  y06-german-a1a2                       2pp  German A1/A2   2pp
   Y6  y06-german-b1b2                       2pp  German B1/B2   2pp
-  Y6  y06-music-and-drama                   2pp  Music & Drama   2pp
-  Y6  y06-science                           2pp  Science   2pp
   Y6  y06-spanish-a1a2                      2pp  Spanish A1/A2   2pp
   Y6  y06-spanish-b1b2                      2pp  Spanish B1/B2   2pp
   Y8  y08-computing-and-robotics            2pp  Computing & Robotics   2pp
-  Y8  y08-mathematics                      18pp  Mathematics   18pp
   Y8  y08-music-and-drama                   2pp  Music & Drama   2pp
   Y8  y08-portuguese-1st                    2pp  Portuguese 1st   2pp
   Y8  y08-spanish                          12pp  Spanish   12pp
   Y9  y09-computing-and-robotics            2pp  Computing & Robotics   2pp
-  Y9  y09-english                          14pp  English   14pp
 
 ==============================================================================
 BY YEAR - missing an input file
 ==============================================================================
-  Year 1   10/13  missing input
-  Year 2    8/12  missing input
-  Year 3    8/13  missing input
-  Year 4    9/13  missing input
-  Year 5    9/13  missing input
-  Year 6   10/13  missing input
-  Year 7   10/13  missing input
-  Year 8    8/11  missing input
-  Year 9    7/11  missing input
-  Year 10   5/5   missing input
-  Year 11   2/2   missing input
-  Year 12   3/3   missing input
+  Year 1    4/13  missing input
+  Year 2    4/12  missing input
+  Year 3    4/13  missing input
+  Year 4    5/13  missing input
+  Year 5    5/13  missing input
+  Year 6    5/13  missing input
+  Year 7    2/13  missing input
+  Year 8    5/11  missing input
+  Year 9    4/11  missing input
+  Year 10   0/5   missing input
+  Year 11   1/2   missing input
+  Year 12   0/3   missing input
   Year 13   1/1   missing input
 
 ==============================================================================
 CROSS-TAB: input present x book actually built
 ==============================================================================
 
-  input YES / book BUILT       (27)
+  input YES / book BUILT       (67)
 
-  input YES / book NOT BUILT   (6)
+  input YES / book NOT BUILT   (16)
+  Y3  y03-english                           4pp  English   [xlsx]
+  Y3  y03-music-and-drama                   4pp  Music & Drama   [xlsx]
   Y3  y03-science                           4pp  Science   [pdf]
+  Y4  y04-music-and-drama                   4pp  Music & Drama   [xlsx]
   Y4  y04-science                          18pp  Science   [pdf]
   Y5  y05-computing-and-robotics            2pp  Computing & Robotics   [pdf]
+  Y5  y05-music-and-drama                   2pp  Music & Drama   [xlsx]
+  Y5  y05-science                           2pp  Science   [xlsx]
   Y6  y06-computing-and-robotics            2pp  Computing & Robotics   [pdf]
+  Y6  y06-english                           2pp  English   [xlsx]
+  Y6  y06-music-and-drama                   2pp  Music & Drama   [xlsx]
+  Y6  y06-science                           2pp  Science   [xlsx]
   Y8  y08-english                          14pp  English   [pdf]
+  Y8  y08-mathematics                      18pp  Mathematics   [xlsx]
+  Y9  y09-english                          14pp  English   [xlsx]
   Y9  y09-mathematics                      16pp  Mathematics   [pdf]
 
-  input NO  / book BUILT       (52)
+  input NO  / book BUILT       (12)
 
-  input NO  / book NOT BUILT   (38)
+  input NO  / book NOT BUILT   (28)
 
 ==============================================================================
 ACTION LISTS
 ==============================================================================
-  1. Get/generate the input file for 52 built books -> group B + C
+  1. Get/generate the input file for 12 built books -> group B + C
   2. Chase the raw source for the 5 panel-only books (group B)
-  3. Build the 38 stub books once their input arrives (group D)
-  4. Build the 6 books whose input is already in the repo but the book is still a stub
+  3. Build the 28 stub books once their input arrives (group D)
+  4. Build the 16 books whose input is already in the repo but the book is still a stub

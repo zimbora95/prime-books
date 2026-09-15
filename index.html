@@ -6746,6 +6746,18 @@ function rr(x, px, py, w, h, r) {
           renderInputPanel();
         }
       });
+      /* Deep link /book/<slug>#input (the point-of-situation page links straight
+         to a title's input table). The book opens asynchronously and
+         renderInputPanel() reads fbBookMeta, so open on the book-open event
+         rather than on a timer. */
+      function openInputFromHash() {
+        if (location.hash !== "#input") return;
+        fbTocPanel.classList.remove("on");
+        fbInputPanel.classList.add("on");
+        renderInputPanel();
+      }
+      window.addEventListener("hashchange", openInputFromHash);
+      window.addEventListener("pb:book-open", openInputFromHash);
       fbTocBtn.addEventListener("click", () => {
         fbInputPanel.classList.remove("on");
       });

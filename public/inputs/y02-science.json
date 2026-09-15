@@ -9,157 +9,332 @@
  "rows": [
   {
    "Section type": "Unit",
-   "Title": "Unit 1 · Environments and habitats",
+   "Title": "Unit 1 · Living things in their environment",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "1.1 Habitats",
+   "Title": "1.1 Asking questions",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "1.2 Plants in different habitats",
+   "Title": "1.2 What is an environment?",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "1.3 Animals in different habitats",
+   "Title": "1.3 Compare natural environments",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "1.4 Rocks and the environment",
+   "Title": "1.4 Plants in different habitats",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "1.5 How can we care for our environment?",
+   "Title": "1.5 Animals in different habitats",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.6 Exploring local environments",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.7 Investigate a local environment",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 2 · Forces and movement",
+   "Title": "Unit 2 · Humans and other animals",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "2.1 Forces around us",
+   "Title": "2.1 Humans and other animals",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "2.2 Changing shape",
+   "Title": "2.2 Animals and their offsprings",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "2.3 Changing speed",
+   "Title": "2.3 Do we look like our parents?",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "2.4 Changing direction",
+   "Title": "2.4 Keeping healthy",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.5 Diet and exercise are important",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.6 Signs of illness",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.7 Human teeth",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.8 Dentists and science",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 3 · Getting materials right",
+   "Title": "Unit 3 · Matter and Materials",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "3.1 Natural and made materials",
+   "Title": "3.1 Measuring",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "3.2 Properties of materials",
+   "Title": "3.2 Natural materials",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "3.3 Using the right material",
+   "Title": "3.3 Manufactured materials",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "3.4 Testing materials",
+   "Title": "3.4 Properties of materials",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "3.5 Changing materials",
+   "Title": "3.5 Hard or soft?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.6 Strength",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.7 Flexibility",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.8 Uses of materials",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.9 Changing materials",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.10 Sports Equipment",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 4 · Humans and animals grow",
+   "Title": "Unit 4 · Forces",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "4.1 Comparing animals",
+   "Title": "4.1 Modelling",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "4.2 Growing",
+   "Title": "4.2 Forces and movement",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "4.3 Inheriting characteristics",
+   "Title": "4.3 Changing the shape of an object",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "4.4 Keeping healthy",
+   "Title": "4.4 Speeding up and slowing down",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "4.5 Teeth",
+   "Title": "4.5 Changing direction",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 5 · Light",
+   "Title": "Unit 5 · Light and electricity",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "5.1 Light sources",
+   "Title": "5.1 Sources of light",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "5.2 Darkness",
+   "Title": "5.2 Light and dark",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "5.3 The sun appears to move!",
+   "Title": "5.3 Lighting in our homes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.4 Where is the sun?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.5 Using electricity",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.6 What is a circuit?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.7 Building circuits",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 6 · Electricity",
+   "Title": "Unit 6 · The Earth's crust",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "6.1 Where do we use electricity?",
+   "Title": "6.1 Using sources",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "6.2 Keep safe with electricity",
+   "Title": "6.2 Different types of rocks",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "6.3 Making circuits",
+   "Title": "6.3 Rocks are useful",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.4 Mining the Earth",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.5 Mining in Madagascar",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 1 Revision",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 1 Assessment",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 1 Animal Theory",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 1 Animal and Plant Practicals",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 1 Plant Theory",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 1 School Activities",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 2 Revision",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 2 Assessment",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 2 Animal Theory",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 2 Animal and Plant Practicals",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 2 Plant Theory",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 2 School Activities",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 3 Revision",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 3 Assessment",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 3 Animal Theory",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 3 Animal and Plant Practicals",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 3 Plant Theory",
+   "Page": ""
+  },
+  {
+   "Section type": "Section",
+   "Title": "Term 3 School Activities",
    "Page": ""
   }
  ]

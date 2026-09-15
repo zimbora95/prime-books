@@ -64,7 +64,17 @@
   th.pages,td.pages{text-align:right; width:78px; font-family:Verdana,Arial,sans-serif;
     font-size:12.5px; color:var(--grey)}
   th.flag,td.flag{text-align:center; width:120px}
-  th.input,td.input{width:130px}
+  th.input,td.input{width:150px}
+  th.book,td.book{text-align:right; width:104px; white-space:nowrap}
+  .kind a{color:var(--moss); text-decoration:none; border-bottom:1px dotted var(--sage)}
+  .kind a:hover{border-bottom-color:var(--moss)}
+  .kind .dl{color:var(--grey); text-decoration:none; font-size:12px; padding:0 2px}
+  .kind .dl:hover{color:var(--moss)}
+  a.openbook{font-family:Verdana,Arial,sans-serif; font-size:11px; letter-spacing:.6px;
+    text-transform:uppercase; color:var(--moss); text-decoration:none;
+    border:1px solid var(--sage); border-radius:3px; padding:3px 7px; white-space:nowrap}
+  a.openbook:hover{background:#f3f7ee; border-color:var(--moss)}
+  a.openbook.muted{color:#b9b2a2; border-color:var(--line)}
   td.subject a{color:var(--ink); text-decoration:none; border-bottom:1px dotted var(--sage)}
   td.subject a:hover{color:var(--moss); border-bottom-color:var(--moss)}
   .kind{font-family:Verdana,Arial,sans-serif; font-size:11.5px}
@@ -76,6 +86,7 @@
   .ck.yes{color:var(--moss); border-color:var(--sage); background:#f3f7ee}
   .ck.no{color:#8c3a12; border-color:var(--terra); background:#fbe7d8}
   .ck.none{color:#b9b2a2}
+  .ck.stub{color:#8b7f6a; border-color:var(--line); border-style:dashed}
   .stamp{font-family:Verdana,Arial,sans-serif; font-size:12px}
   .stamp.yes{color:var(--moss)}
   .stamp.no{color:#b9b2a2}
@@ -142,6 +153,10 @@
 <div class="note">
   <b>Input</b> means the book's source file is on disk at
   <span class="ui">public/inputs/&lt;slug&gt; - input.&lt;ext&gt;</span> — PDF or spreadsheet.
+  Click <span class="ui">✓ XLSX</span> to open that book at its <b>input table</b>
+  (every unit, subunit and section as the reader shows them); click the arrow
+  <span class="ui">⤓</span> to download the source file itself. <b>Book</b> opens the
+  Prime Book in the reader.
   <b>Checks</b> is the machine verdict from the standards bot, which measures every published
   Years 1 to 4 title against the locked tokens (other years are not governed by that standard yet,
   so they show no verdict) and publishes to
@@ -201,10 +216,20 @@
 
   var DATA = null, filter = "all", query = "";
 
-  function inputCell(inp) {
+  function inputCell(inp, slug) {
     if (!inp) return '<span class="kind no">—</span>';
-    return '<span class="kind yes" title="' + esc(inp.file) + '">&#10003; ' +
-      esc(inp.kind) + "</span>";
+    /* Two targets: the badge opens the book at its input TABLE (the same panel
+       the reader shows), the arrow downloads the source file itself. */
+    return '<span class="kind yes">' +
+      '<a href="/book/' + esc(slug) + '#input" title="open ' + esc(inp.file) +
+        ' as a table">&#10003; ' + esc(inp.kind) + "</a> " +
+      '<a class="dl" href="/inputs/' + encodeURIComponent(inp.file) +
+        '" title="download ' + esc(inp.file) + '" download>&#10515;</a>' +
+      "</span>";
+  }
+  function bookCell(slug) {
+    return '<a class="openbook" href="/book/' + esc(slug) +
+      '" title="open the Prime Book">Open book</a>';
   }
   function stdCell(v, slug) {
     var t = v ? "signed off — click to undo" : "not yet standardised — click to sign off";
@@ -215,6 +240,8 @@
 
   function checkCell(c) {
     if (!c) return '<span class="ck none" title="not measured yet">—</span>';
+    if (c.state === "not built")
+      return '<span class="ck stub" title="placeholder file, below the standard minimum">stub</span>';
     var t = c.state + (c.warnings ? " · " + c.warnings + " warning(s)" : "");
     return c.ok ? '<span class="ck yes" title="' + esc(t) + '">clean</span>'
                 : '<span class="ck no" title="' + esc(t) + '">' + c.failures +
@@ -228,11 +255,12 @@
     if (filter === "std" && !r.standardized) return "";
     if (filter === "clean" && !(r.checked && r.checked.ok)) return "";
     return '<tr data-miss="' + (r.input ? "0" : "1") + '">' +
-      '<td class="subject"><a href="/book/' + esc(r.slug) + '">' + esc(r.subject) + "</a></td>" +
+      '<td class="subject"><a href="/book/' + esc(r.slug) + '" title="open the Prime Book">' + esc(r.subject) + "</a></td>" +
       '<td class="pages">' + (r.pages || "–") + "</td>" +
-      '<td class="input">' + inputCell(r.input) + "</td>" +
+      '<td class="input">' + inputCell(r.input, r.slug) + "</td>" +
       '<td class="flag">' + stdCell(r.standardized, r.slug) + "</td>" +
-      '<td class="checks">' + checkCell(r.checked) + "</td></tr>";
+      '<td class="checks">' + checkCell(r.checked) + "</td>" +
+      '<td class="book">' + bookCell(r.slug) + "</td></tr>";
   }
 
   function render() {
@@ -250,7 +278,7 @@
         " · machine clean " + (y.clean || 0) + "/" + y.books.length + "</span></h2>" +
         '<table><thead><tr><th>Subject</th><th class="pages">Pages</th>' +
         '<th class="input">Input</th><th class="flag">Standardised</th>' +
-        '<th class="checks">Checks</th></tr></thead>' +
+        '<th class="checks">Checks</th><th class="book">Book</th></tr></thead>' +
         "<tbody>" + rows.join("") + "</tbody></table></section>";
     });
     document.getElementById("years").innerHTML =

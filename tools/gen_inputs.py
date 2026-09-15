@@ -33,7 +33,28 @@ LIB = REPO / "public" / "library"
 SUBRE = re.compile(r"^(\d+)\.(\d+)\b")
 UNUM = re.compile(r"^Unit\s*(\d+)\b", re.I)
 MAPPING = Path(__file__).resolve().parent / "syllabus_mapping.json"
+# A book must be built from the CURRENT syllabus, not the first name match: the
+# matcher scores names, and those ties fall to whichever syllabus came first
+# (ENGLISH [Y03] 2021 beat English (Y03) 2026). These are the titles where the
+# current-year syllabus is known from the Edu360 list; everything else picks by
+# the currency rule in current_first() below.
+OVERRIDES = {
+    "y01-global-perspectives": 939,   # Global Perspectives KS1 - 2026 (62 topics)
+    "y02-science": 943,               # Science (Y02) - 2026 (60 topics)
+    "y03-english": 947,               # English (Y03) - 2026 (78 topics)
+    "y05-science": 279,               # SCIENCE - Y05 - 2026 (42 topics)
+    "y06-science": 280,               # SCIENCE-Y06 - 2026 (39 topics)
+}
+CURRENT = re.compile(r"(20[2-9]\d|\b\d\d\s*[-/]\s*\d\d\b)")
 PREFIX = re.compile(r"^(Y\d{2}|KS\d|K)\s+", re.I)
+# "Unit 2 Materials: properties and changes" and "Unit 2: Materials" must both
+# keep their whole title — only the "Unit <n>" prefix and the separator that
+# follows it may be stripped, never a colon inside the title itself.
+UPREFIX = re.compile(r"^Unit\s*\d+\s*[:.\-·]?\s*", re.I)
+
+
+def unit_title(name: str) -> str:
+    return UPREFIX.sub("", (name or "").strip()).strip() or (name or "").strip()
 
 
 def skey(label):
@@ -85,11 +106,33 @@ def odoo_rows(syl_id: int):
         return (int(m.group(1)) if m else 9999, name or "")
 
     rows = []
+    extra = []                                          # sections that are not units
+    cands = {}                                          # unit number -> competing sections
     for s in sorted(secs, key=lambda s: key(s["name"])):
-        if not UNUM.match(s["name"] or ""):
-            continue                                    # only real units become Unit rows
-        n = int(UNUM.match(s["name"]).group(1))
-        rows.append(("Unit", f"Unit {n} · {s['name'].split(':', 1)[-1].strip() if ':' in s['name'] else s['name'].lstrip('Unit 0123456789.:·- ')}", ""))
+        sname = (s["name"] or "").strip()
+        m = UNUM.match(sname)
+        if not m or not sname:
+            if sname:
+                extra.append(sname)
+            continue
+        cands.setdefault(int(m.group(1)), []).append(s)
+
+    for n in sorted(cands):
+        # a syllabus can carry several sections numbered "Unit 1": the real unit
+        # is the one holding the numbered topics, the others (e.g. a
+        # "Unit 1 Humanities" strand with one stub topic) ship as Section rows
+        # rather than claiming a unit number.
+        ranked = sorted(
+            cands[n],
+            key=lambda s: (-len(by_sec.get(s["id"], [])), 0 if ":" in (s["name"] or "") else 1, s["id"]),
+        )
+        s, losers = ranked[0], ranked[1:]
+        sname = (s["name"] or "").strip()
+        if not by_sec.get(s["id"]):
+            extra.extend([(x["name"] or "").strip() for x in ranked if (x["name"] or "").strip()])
+            continue
+        extra.extend([(x["name"] or "").strip() for x in losers if (x["name"] or "").strip()])
+        rows.append(("Unit", f"Unit {n} · {unit_title(sname)}", ""))
         for c in sorted(by_sec.get(s["id"], []), key=lambda c: skey(c["name"])):
             cname = (c["name"] or "").strip()
             if SUBRE.match(cname):
@@ -103,6 +146,14 @@ def odoo_rows(syl_id: int):
                     tname = PREFIX.sub("", (t["name"] or "").strip())
                     if tname:
                         rows.append(("Subunit", tname, ""))
+
+    def xkey(name):
+        m = re.match(r"^Term\s*(\d)", name, re.I)
+        kind = 0 if re.search(r"revision", name, re.I) else 1 if re.search(r"assess", name, re.I) else 2
+        return (0, int(m.group(1)), kind, name) if m else (1, 0, 0, name)
+
+    for name in sorted(extra, key=xkey):
+        rows.append(("Section", name, ""))
     return rows or None
 
 
@@ -209,7 +260,13 @@ def main():
         if slug in have or (args.slugs and slug not in args.slugs):
             continue
         cands = (mapping.get(slug) or {}).get("cands") or []
-        sid = cands[0]["id"] if cands and cands[0]["score"] >= 1.0 else None
+        sid = OVERRIDES.get(slug)
+        if not sid:
+            # currency first: a syllabus naming the current school year wins over
+            # any name-score tie (see OVERRIDES above)
+            usable = [c for c in cands if c.get("score", 0) >= 1.0]
+            current = [c for c in usable if CURRENT.search(c["name"] or "")]
+            sid = (current or usable)[0]["id"] if (current or usable) else None
         attempts = [("book", lambda s=slug: book_rows(s)),
                     ("odoo", (lambda s=sid: odoo_rows(s)) if sid else None)]
         chosen, why = None, []
