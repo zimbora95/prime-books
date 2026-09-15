@@ -390,7 +390,7 @@
 
   fetchBases("/status.json", 0, function (j) {
     DATA = j;
-    tiles(j.totals);
+    retally();          /* sets the per-year machine-clean roll-up before the header is written */
     render();
   }, function () {
     document.getElementById("years").innerHTML =
