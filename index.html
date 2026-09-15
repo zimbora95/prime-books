@@ -1633,6 +1633,57 @@
         transform: none;
         pointer-events: auto;
       }
+      /* An input that is a PDF (a scheme of work / contents the school issued as
+         a document) cannot become a table, so the panel becomes a viewer: wide,
+         full height, the input page itself inside an iframe. Books whose input
+         is a spreadsheet never show the button at all - their units are the
+         Sections list (see sectionsFromInput()). */
+      .fb-input.viewer {
+        width: min(760px, calc(100vw - 44px));
+        height: calc(100vh - 190px);
+        max-height: none;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .fb-input.viewer .toc-head {
+        padding: 6px 10px 10px;
+      }
+      .fb-input.viewer iframe {
+        flex: 1;
+        width: 100%;
+        min-height: 360px;
+        border: 0;
+        border-radius: 12px;
+        background: #fff;
+      }
+      .fb-input.viewer .fb-input-note {
+        padding: 0 10px 8px;
+      }
+      /* A section row with no printed page (a unit that came from the Edu360
+         syllabus and could not be located inside this book): it is a label to
+         plan against, not a link, so it must not read as clickable. */
+      .toc-it.flat {
+        cursor: default;
+      }
+      .toc-it.flat:hover {
+        background: transparent;
+      }
+      .toc-it.flat i {
+        opacity: 0.45;
+      }
+      /* Where the Sections list came from: the book's own contents page, or the
+         syllabus in Odoo when the book has none. */
+      .toc-src {
+        padding: 0 10px 8px;
+        font-size: 11px;
+        line-height: 1.45;
+        color: var(--mist);
+      }
+      .toc-src b {
+        color: var(--gold);
+        font-weight: 700;
+      }
       .fb-input-note {
         padding: 0 10px 10px;
         font-size: 12px;
@@ -1647,37 +1698,6 @@
       }
       .fb-input-note a:hover {
         border-bottom-style: solid;
-      }
-      .fb-input table {
-        width: 100%;
-        border-collapse: collapse;
-        font-size: 12.5px;
-        color: var(--cream);
-      }
-      .fb-input th {
-        text-align: left;
-        padding: 7px 8px;
-        font-size: 10.5px;
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: var(--gold);
-        border-bottom: 1px solid rgba(201, 163, 92, 0.35);
-      }
-      .fb-input td {
-        padding: 7px 8px;
-        border-bottom: 1px solid rgba(246, 241, 230, 0.08);
-        vertical-align: top;
-      }
-      .fb-input tr.inp-unit td {
-        font-weight: 700;
-        color: #fff;
-      }
-      .fb-input td.inp-page {
-        text-align: right;
-        font-variant-numeric: tabular-nums;
-        color: var(--mist);
-        white-space: nowrap;
       }
       .fb-input .inp-empty {
         padding: 14px 10px;
@@ -2016,7 +2036,7 @@
           <button class="fb-btn" id="fbTocBtn" aria-label="Book sections">
             &#9776;&nbsp;Sections
           </button>
-          <button class="fb-btn" id="fbInputBtn" aria-label="Input source for this book" title="The input source (scheme of work / contents) this book was built from">
+          <button class="fb-btn" id="fbInputBtn" style="display:none" aria-label="Input source for this book" title="The input document this book was built from (shown as a PDF)">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>&nbsp;Input
           </button>
           <button class="fb-btn fb-btn-amz" id="fbAmazonBtn" aria-label="Amazon KDP preparation" title="Amazon KDP preparation for this book">
@@ -2067,11 +2087,13 @@
         </div>
       </div>
       <div class="fb-toc" id="fbTocPanel">
-        <div class="toc-head">In this book</div>
+        <div class="toc-head">Sections</div>
+        <div class="toc-src" id="fbTocSrc"></div>
         <div id="fbTocList"></div>
       </div>
       <div class="fb-input" id="fbInputPanel">
-        <div class="toc-head">Input source</div>
+        <div class="toc-head" id="fbInputHead">Input source</div>
+        <div class="fb-input-note" id="fbInputNote" style="display:none"></div>
         <div id="fbInputBody"></div>
       </div>
     </div>
@@ -5968,6 +5990,17 @@ function rr(x, px, py, w, h, r) {
       const fbRendering = new Set();
       const FB_LIVE_MAX = 40;
       let fbSections = [];
+      /* Where the current section list came from: "contents" (the book's own
+         contents page), "openers" (its unit openings) or "input" (the scheme
+         of work this book was built on). Shown under the panel title so a
+         teacher can tell a parsed list from a syllabus one. */
+      let fbSectionsSrc = "";
+      /* Text of every page, and the folio -> index map, kept from the last
+         buildSections() run so the input-derived sections can be located in the
+         book without walking the PDF twice. */
+      let fbPageTexts = [];
+      let fbTocIdx = -1;
+      let fbFolio = new Map();
       let fbUrl = null; /* which PDF the current flipbook was built from */
       /* Reading state for the AI assistant. The pdf.js document and its first
          viewport are hoisted OUT of buildFlipbook's closure so the assistant
@@ -6461,6 +6494,7 @@ function rr(x, px, py, w, h, r) {
                   slug: "",
                   pages: 0,
                 };
+                applyInputButton(); /* shell: no input source, no button */
                 fbDoc = null;
                 fbFlip = null;
                 fbCount = 0;
@@ -6526,6 +6560,9 @@ function rr(x, px, py, w, h, r) {
                 buildable: !!row.buildable,
                 editable: !!row.editable,
               };
+              /* The Input button is per book: a PDF input shows it, a
+                 spreadsheet input never does (its units are Sections). */
+              applyInputButton();
               if (!fbFlip || fbUrl !== src) {
                 /* different book than the one already built: tear the old one
                    down first, otherwise pages from both PDFs stack up */
@@ -6543,6 +6580,7 @@ function rr(x, px, py, w, h, r) {
                   fbLoad.parentElement.insertBefore(fbBook, fbLoad);
                 fbBook.innerHTML = "";
                 fbSections = [];
+                fbSectionsSrc = "";
                 fbHiDone.clear();
                 fbLive.clear();
                 fbRendering.clear();
@@ -6728,13 +6766,19 @@ function rr(x, px, py, w, h, r) {
         }
       });
       /* -------------------------------------------------------------------
-         INPUT panel: the source document each Prime Book was built from —
-         the scheme-of-work / contents spreadsheet (one per book, the
-         documented 1-input invariant). Data comes from public/inputs/
-         <slug>.json (built by tools/inputs_to_json.py from the .xlsx in
-         public/input-corrections/). The raw spreadsheet is offered as a
-         download link, resolved through the live tunnel when the workshop
-         machine is on so a freshly edited input shows on refresh.
+         INPUT panel: the source document each Prime Book was built from.
+         Two shapes, two treatments (status.json says which):
+           - a spreadsheet of the scheme of work (one per book, the documented
+             1-input invariant) -> its units ARE the book's sections, so they
+             are served by the SECTIONS panel (sectionsFromInput() below) and
+             the Input button does not appear at all;
+           - a PDF the school issued -> the button appears and the panel is a
+             viewer showing that document, with a download link.
+         Sources: public/inputs/<slug> - input.<ext> is the one canonical
+         location; public/inputs/<slug>.json (tools/inputs_to_json.py) is the
+         spreadsheet rendered for the browser. Files resolve through the live
+         tunnel when the workshop machine is on, so a freshly edited input
+         shows on refresh.
          ------------------------------------------------------------------- */
       const fbInputPanel = document.getElementById("fbInputPanel");
       const fbInputBody = document.getElementById("fbInputBody");
@@ -6744,43 +6788,112 @@ function rr(x, px, py, w, h, r) {
         if (on) {
           fbTocPanel.classList.remove("on"); /* one side panel at a time */
           renderInputPanel();
+        } else {
+          fbInputPanel.classList.remove("viewer");
         }
       });
-      /* Deep link /book/<slug>#input (the point-of-situation page links straight
-         to a title's input table). The book opens asynchronously and
-         renderInputPanel() reads fbBookMeta, so open on the book-open event
-         rather than on a timer. */
+      /* Deep links from the point-of-situation page: #sections opens the
+         section list, #input the input document. Both land on the book-open
+         event (the book opens asynchronously and the panels read fbBookMeta),
+         never on a timer.
+
+         The input is one of two things and they must not be confused:
+           - a SPREADSHEET (scheme of work): its units ARE this book's
+             sections, so it is no longer a second button - sectionsFromInput()
+             feeds them into the Sections panel, where clicking a unit jumps to
+             it. That is the panel the teacher actually wants;
+           - a PDF: a document the school issued, which cannot become a table,
+             so the Input button appears and shows the document itself.
+         status.json is the one place that knows which, so it is fetched once
+         per session and cached; until it answers the button stays hidden
+         rather than opening an empty panel. */
+      let pbInputKinds = null;
+      function pbBase() {
+        return window.__PB_LIVE && window.__PB_LIVE_BASE
+          ? window.__PB_LIVE_BASE
+          : "";
+      }
+      function inputKind(slug) {
+        if (!slug) return Promise.resolve(null);
+        if (!pbInputKinds) {
+          pbInputKinds = fetch(pbBase() + "/status.json?cb=" + Date.now())
+            .then(function (r) {
+              return r.ok ? r.json() : null;
+            })
+            .then(function (d) {
+              const map = {};
+              ((d && d.years) || []).forEach(function (y) {
+                ((y && y.books) || []).forEach(function (b) {
+                  if (b && b.input) map[b.slug] = b.input;
+                });
+              });
+              return map;
+            })
+            .catch(function () {
+              pbInputKinds = null; /* retry on the next book */
+              return {};
+            });
+        }
+        return pbInputKinds.then(function (m) {
+          return m[slug] || null;
+        });
+      }
+      /* Show the Input button only when the input really is a PDF document. */
+      function applyInputButton() {
+        const btn = document.getElementById("fbInputBtn");
+        if (!btn) return;
+        btn.style.display = "none";
+        fbInputPanel.classList.remove("viewer");
+        if (location.hash !== "#input") fbInputPanel.classList.remove("on");
+        const slug = (fbBookMeta && fbBookMeta.slug) || "";
+        if (!slug) return;
+        inputKind(slug).then(function (inp) {
+          if (((fbBookMeta && fbBookMeta.slug) || "") !== slug) return;
+          if (inp && String(inp.kind).toUpperCase() === "PDF") {
+            btn.style.display = "";
+            if (location.hash === "#input") openInputFromHash();
+          }
+        });
+      }
       function openInputFromHash() {
-        if (location.hash !== "#input") return;
-        fbTocPanel.classList.remove("on");
-        fbInputPanel.classList.add("on");
-        renderInputPanel();
+        const h = location.hash;
+        if (h === "#sections") {
+          fbInputPanel.classList.remove("on");
+          fbTocPanel.classList.add("on");
+          renderToc();
+          if (fbFlip) markToc(fbFlip.getCurrentPageIndex());
+          return;
+        }
+        if (h !== "#input") return;
+        inputKind((fbBookMeta && fbBookMeta.slug) || "").then(function (inp) {
+          if (!inp || String(inp.kind).toUpperCase() !== "PDF") return;
+          fbTocPanel.classList.remove("on");
+          fbInputPanel.classList.add("on");
+          renderInputPanel();
+        });
       }
       window.addEventListener("hashchange", openInputFromHash);
       window.addEventListener("pb:book-open", openInputFromHash);
       fbTocBtn.addEventListener("click", () => {
         fbInputPanel.classList.remove("on");
       });
+      /* The input JSON as the Sections source: fetched once per slug. */
       function fetchBookInput(slug) {
         if (!fbInputCache.has(slug)) {
-          const base =
-            window.__PB_LIVE && window.__PB_LIVE_BASE
-              ? window.__PB_LIVE_BASE
-              : "";
           fbInputCache.set(
             slug,
-            fetch(base + "/inputs/" + slug + ".json").then(function (r) {
-              if (!r.ok) throw new Error(String(r.status));
-              return r.json();
-            }),
+            fetch(pbBase() + "/inputs/" + encodeURIComponent(slug) + ".json").then(
+              function (r) {
+                if (!r.ok) throw new Error(String(r.status));
+                return r.json();
+              },
+            ),
           );
         }
-        return fbInputCache
-          .get(slug)
-          .catch(function () {
-            fbInputCache.delete(slug); /* retry on the next open */
-            return null;
-          });
+        return fbInputCache.get(slug).catch(function () {
+          fbInputCache.delete(slug); /* retry on the next open */
+          return null;
+        });
       }
       function esc(s) {
         return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -6793,62 +6906,51 @@ function rr(x, px, py, w, h, r) {
           }[c];
         });
       }
+      /* The Input panel shows the input DOCUMENT, and only for a PDF input
+         (the button is hidden otherwise, so this is reached only for a PDF).
+         A spreadsheet's units are the Sections list instead - see
+         sectionsFromInput() - so the table renderer that used to live here is
+         gone: it showed the same units as Sections, which is exactly why the
+         two buttons read as duplicates. */
       function renderInputPanel() {
-        const slug = fbBookMeta && fbBookMeta.slug;
+        const slug = (fbBookMeta && fbBookMeta.slug) || "";
+        const note = document.getElementById("fbInputNote");
+        if (note) note.style.display = "none";
         if (!slug) {
-          fbInputBody.innerHTML =
-            '<div class="inp-empty">No book open.</div>';
+          fbInputBody.innerHTML = '<div class="inp-empty">No book open.</div>';
           return;
         }
         fbInputBody.innerHTML =
           '<div class="inp-empty">Looking for this book\u2019s input\u2026</div>';
-        fetchBookInput(slug).then(function (data) {
-          if ((fbBookMeta && fbBookMeta.slug) !== slug) return; /* book changed */
-          if (!data || !data.rows || !data.rows.length) {
+        inputKind(slug).then(function (inp) {
+          if (((fbBookMeta && fbBookMeta.slug) || "") !== slug) return;
+          if (!inp || String(inp.kind).toUpperCase() !== "PDF") {
             fbInputBody.innerHTML =
-              '<div class="inp-empty"><b>No input on file yet.</b><br>' +
-              "Drop \u201c" + esc(slug) +
-              " - input.xlsx\u201d into the workshop\u2019s " +
-              "input-corrections folder and it will appear here.</div>";
+              '<div class="inp-empty"><b>This book\u2019s input is a spreadsheet.</b><br>' +
+              "Its units are the <b>Sections</b> list \u2014 open that panel " +
+              "and click a unit to jump to it.</div>";
             return;
           }
-          const pageKey = data.headers.find(function (h) {
-            return /^page$/i.test(String(h).trim());
-          });
-          const typeKey = data.headers.find(function (h) {
-            return /type|kind|level/i.test(String(h));
-          });
-          let rows = "";
-          data.rows.forEach(function (r) {
-            const isUnit =
-              typeKey && /^unit$/i.test(String(r[typeKey] || "").trim());
-            rows += "<tr" + (isUnit ? ' class="inp-unit"' : "") + ">";
-            data.headers.forEach(function (h) {
-              if (pageKey && h === pageKey) {
-                rows += '<td class="inp-page">' + esc(r[h]) + "</td>";
-              } else {
-                rows += "<td>" + esc(r[h]) + "</td>";
-              }
-            });
-            rows += "</tr>";
-          });
-          const head = data.headers
-            .map(function (h) {
-              return "<th>" + esc(h) + "</th>";
-            })
-            .join("");
-          const xlsx =
-            (window.__PB_LIVE && window.__PB_LIVE_BASE
-              ? window.__PB_LIVE_BASE
-              : "") +
-            "/input-corrections/" +
-            encodeURIComponent(data.file);
+          const url = pbBase() + "/inputs/" + encodeURIComponent(inp.file);
+          if (note) {
+            note.style.display = "";
+            note.innerHTML =
+              "The document this book was built from \u2014 " +
+              '<a href="' +
+              url +
+              '" download="' +
+              esc(inp.file) +
+              '" target="_blank" rel="noopener">download ' +
+              esc(inp.file) +
+              "</a>.";
+          }
+          fbInputPanel.classList.add("viewer");
           fbInputBody.innerHTML =
-            '<div class="fb-input-note">The scheme of work this book was ' +
-            'built from \u2014 <a href="' + xlsx + '" download="' +
-            esc(data.file) + '">download the original .xlsx</a>.</div>' +
-            "<table><thead><tr>" + head + "</tr></thead><tbody>" + rows +
-            "</tbody></table>";
+            '<iframe src="' +
+            url +
+            '#view=FitH" title="' +
+            esc(inp.file) +
+            '" loading="lazy"></iframe>';
         });
       }
       /* Closing the flipbook or switching books must also hide the panel. */
@@ -6856,6 +6958,7 @@ function rr(x, px, py, w, h, r) {
       if (fbCloseBtnEl) {
         fbCloseBtnEl.addEventListener("click", function () {
           fbInputPanel.classList.remove("on");
+          fbInputPanel.classList.remove("viewer");
         });
       }
       fbPageInput.addEventListener("keydown", (e) => {
@@ -6948,6 +7051,10 @@ function rr(x, px, py, w, h, r) {
          Printed folios map to PDF indices through each page's footer number,
          so clicking a section lands on the real page. */
       async function buildSections(doc) {
+        /* the caches the input-derived list reuses; reset per build */
+        fbPageTexts = [];
+        fbTocIdx = -1;
+        fbFolio = new Map();
         /* 1. find the contents page in the front matter */
         let tocText = null;
         const scan = Math.min(14, doc.numPages);
@@ -6976,6 +7083,9 @@ function rr(x, px, py, w, h, r) {
             const pg = await doc.getPage(i + 1);
             const tc = await pg.getTextContent();
             try { pg.cleanup(); } catch (e) {}
+            /* keep the page text: the input-derived sections are located in the
+               book by title, and this walk has already paid for the text */
+            fbPageTexts[i] = tc.items.map((it) => it.str).join("\n").slice(0, 600);
             const lines = tc.items
               .map((it) => it.str)
               .map((l) => squeeze(l.trim()))
@@ -6993,12 +7103,13 @@ function rr(x, px, py, w, h, r) {
               secs.push({ label: m2[1] + " " + m2[2], sub: "", unit: false, page: i });
             }
           }
+          fbSectionsSrc = "openers";
           return secs;
         }
 
         /* 2. folio -> pdf index map from the running footer numbers */
         const idxOfFolio = new Map();
-        const pageTexts = []; /* truncated text per page, for the body scan */
+        const pageTexts = (fbPageTexts = []); /* truncated text per page */
         for (let i = 0; i < doc.numPages; i++) {
           const pg = await doc.getPage(i + 1);
           const tc = await pg.getTextContent();
@@ -7012,6 +7123,7 @@ function rr(x, px, py, w, h, r) {
           }
           if (folio !== null && !idxOfFolio.has(folio)) idxOfFolio.set(folio, i);
         }
+        fbFolio = idxOfFolio;
         const toIdx = (folio) => {
           if (idxOfFolio.has(folio)) return idxOfFolio.get(folio);
           for (let f = folio - 1; f >= 0; f--)
@@ -7101,6 +7213,7 @@ function rr(x, px, py, w, h, r) {
             i < 14 &&
             /contents|what is inside|what is in this book/i.test(squeeze(t)),
         );
+        fbTocIdx = tocIdx;
         const start = tocIdx >= 0 ? tocIdx + 1 : 1;
         for (const s of secs) {
           if (s.page > 0) continue;
@@ -7110,31 +7223,179 @@ function rr(x, px, py, w, h, r) {
             if (pageTexts[i].toLowerCase().indexOf(probe) >= 0) { s.page = i; break; }
           }
         }
+        fbSectionsSrc = "contents";
         return secs.filter((s) => s.page > 0);
       }
 
+      /* Locate a section title inside the book by text. Used for the units that
+         come from the input source with no page of their own (a syllabus unit
+         has none): the unit opener carries the title, so the first page holding
+         it is where the unit starts. -1 = not in this book. */
+      function locateInPdf(probe, taken, listPages) {
+        if (!probe || probe.length < 5) return -1;
+        const start = fbTocIdx >= 0 ? fbTocIdx + 1 : 1;
+        /* The unit OPENER only: the title must sit at the very top of the page
+           (some books letter-space their text, so both sides are compared with
+           the whitespace stripped). A looser match reads a topic heading or a
+           running index as a unit start - "Adding and taking away" on p. 286 -
+           and a wrong jump is worse than no jump, so anything short of the
+           opener is left blank. Where the opener is an image, there is no text
+           to match and the unit is listed without a page: honest, not wrong. */
+        for (let i = start; i < fbPageTexts.length; i++) {
+          if (taken && taken.has(i)) continue;
+          if (listPages && listPages.has(i)) continue;
+          const flatPage = (fbPageTexts[i] || "").replace(/\s+/g, "").toLowerCase();
+          if (flatPage.slice(0, 50).indexOf(probe) >= 0) return i;
+        }
+        return -1;
+      }
+
+      /* Pages that are themselves a list of the book's sections (a contents
+         page the parser could not read). Every unit title matches one, so they
+         must never be taken for a unit's opener. */
+      function listPagesOf(probes) {
+        const out = new Set();
+        const start = fbTocIdx >= 0 ? fbTocIdx + 1 : 1;
+        for (let i = start; i < fbPageTexts.length; i++) {
+          const t = (fbPageTexts[i] || "").replace(/\s+/g, "").toLowerCase();
+          if (!t) continue;
+          let hits = 0;
+          for (let k = 0; k < probes.length; k++) {
+            if (t.indexOf(probes[k]) >= 0) {
+              hits++;
+              if (hits >= 3) {
+                out.add(i);
+                break;
+              }
+            }
+          }
+        }
+        return out;
+      }
+
+      /* Sections from the INPUT SOURCE, for a book whose own PDF carries no
+         contents page. The units are what tools/gen_inputs.py captured - the
+         book's contents page where it had one, and the Edu360 syllabus in Odoo
+         where it did not - so the teacher sees the same units the book is built
+         on. A row keeps its page when the input has one (printed folio ->
+         PDF index through the footer map); otherwise the title is located in
+         the book, and a unit that cannot be found stays as a plain label. */
+      function sectionsFromInput(slug) {
+        if (!slug) return Promise.resolve([]);
+        return fetchBookInput(slug).then(function (data) {
+          if (!data || !data.rows || !data.rows.length) return [];
+          const heads = data.headers || [];
+          const typeKey = heads.find((h) => /type|kind/i.test(String(h)));
+          const titleKey = heads.find((h) => /title|name/i.test(String(h)));
+          const pageKey = heads.find((h) => /^page$/i.test(String(h).trim()));
+          if (!titleKey) return [];
+          const secs = [];
+          const taken = new Set(); /* pages already claimed by an earlier unit */
+          /* the unit names as search probes: the "Unit 7 ·" prefix is not part
+             of the title as printed on the opener page */
+          const probeOf = (title) =>
+            (
+              String(title || "").replace(
+                /^(unit|unidade|unidad|module|modulo|term|termo|stop|topic|theme|part|section|chapter|ch)\s*\d+(?:\.\d+)?\s*[·:.\u2013\u2014-]?\s*/i,
+                "",
+              ) || String(title || "")
+            )
+              .replace(/\s+/g, "")
+              .toLowerCase();
+          const units = data.rows
+            .map((r) =>
+              typeKey && /^unit$/i.test(String(r[typeKey] || "").trim())
+                ? probeOf(r[titleKey])
+                : "",
+            )
+            .filter((p) => p.length >= 5);
+          const listPages = listPagesOf(units);
+          data.rows.forEach(function (r) {
+            const title = String(r[titleKey] == null ? "" : r[titleKey]).trim();
+            if (!title) return;
+            const isUnit =
+              !!typeKey && /^unit$/i.test(String(r[typeKey] || "").trim());
+            let page = -1;
+            const folio = pageKey
+              ? parseInt(String(r[pageKey] == null ? "" : r[pageKey]).trim(), 10)
+              : NaN;
+            if (!isNaN(folio) && folio > 0)
+              page = fbFolio.has(folio) ? fbFolio.get(folio) : folio - 1;
+            else page = locateInPdf(probeOf(title), taken, listPages);
+            if (page >= 0) taken.add(page);
+            secs.push({
+              label: title,
+              sub: "",
+              unit: isUnit,
+              page: page,
+            });
+          });
+          return secs;
+        });
+      }
+
+      /* The one section list the reader sees. The book's own contents page is
+         the source of truth (it is what the pupil sees, and it carries real
+         pages); when there is none - the 4-page shells, the units-only books -
+         the input source supplies the list instead. */
+      async function loadSections(doc) {
+        let secs = [];
+        try {
+          secs = await buildSections(doc);
+        } catch (e) {
+          secs = [];
+        }
+        if (secs.length) return secs;
+        const fromInput = await sectionsFromInput(
+          (fbBookMeta && fbBookMeta.slug) || "",
+        );
+        if (fromInput.length) {
+          fbSectionsSrc = "input";
+          return fromInput;
+        }
+        fbSectionsSrc = "none";
+        return secs;
+      }
+
       function renderToc() {
+        const srcEl = document.getElementById("fbTocSrc");
+        if (srcEl) {
+          if (!fbSections.length) srcEl.innerHTML = "";
+          else if (fbSectionsSrc === "input")
+            srcEl.innerHTML =
+              "From the <b>scheme of work</b> this book was built on " +
+              "(the Edu360 syllabus in Odoo) \u2014 this book has no contents " +
+              "page of its own.";
+          else if (fbSectionsSrc === "openers")
+            srcEl.innerHTML = "From this book\u2019s own <b>unit openings</b>.";
+          else
+            srcEl.innerHTML =
+              "From this book\u2019s own <b>contents page</b> \u2014 click a " +
+              "unit to open it.";
+        }
         fbTocList.innerHTML = fbSections.length
           ? fbSections
               .map(
                 (s, i) =>
                   '<button class="toc-it' +
                   (s.unit ? " unit" : " sub") +
+                  (s.page >= 0 ? "" : " flat") +
                   '" data-i="' +
                   i +
                   '">' +
                   '<span class="toc-name">' +
-                  s.label +
+                  esc(s.label) +
                   "</span>" +
-                  '<i>p. ' +
-                  (s.page + 1) +
-                  "</i></button>",
+                  (s.page >= 0 ? "<i>p. " + (s.page + 1) + "</i>" : "<i>\u2014</i>") +
+                  "</button>",
               )
               .join("")
-          : '<div style="padding:10px;color:var(--mist);font-size:13px">No sections found in this book.</div>';
+          : '<div style="padding:10px;color:var(--mist);font-size:13px">' +
+            "No sections found in this book.</div>";
         fbTocList.querySelectorAll(".toc-it").forEach((b) =>
           b.addEventListener("click", () => {
             const s = fbSections[+b.getAttribute("data-i")];
+            if (!s || s.page < 0) return; /* a syllabus unit with no page: a label */
             /* turnToPage, not flip(): flip() no-ops if the section's page is
                already on the current spread (silent nothing). fbJumpTo also
                clears a queued step and no-ops safely before the book is built. */
@@ -7147,7 +7408,7 @@ function rr(x, px, py, w, h, r) {
       function markToc(pageIdx) {
         let cur = -1;
         fbSections.forEach((s, i) => {
-          if (s.page <= pageIdx) cur = i;
+          if (s.page >= 0 && s.page <= pageIdx) cur = i;
         });
         fbTocList.querySelectorAll(".toc-it").forEach((el, i) =>
           el.classList.toggle("cur", i === cur),
@@ -7359,7 +7620,7 @@ function rr(x, px, py, w, h, r) {
           }
           upgrade();
 
-          buildSections(doc).then((secs) => {
+          loadSections(doc).then((secs) => {
             fbSections = secs;
             renderToc();
             markToc(fbFlip ? fbFlip.getCurrentPageIndex() : 0);

@@ -153,9 +153,10 @@
 <div class="note">
   <b>Input</b> means the book's source file is on disk at
   <span class="ui">public/inputs/&lt;slug&gt; - input.&lt;ext&gt;</span> — PDF or spreadsheet.
-  Click <span class="ui">✓ XLSX</span> to open that book at its <b>input table</b>
-  (every unit, subunit and section as the reader shows them); click the arrow
-  <span class="ui">⤓</span> to download the source file itself. <b>Book</b> opens the
+  Click <span class="ui">✓ XLSX</span> to open that book at its <b>Sections</b> list
+  (the same units the input holds — click a unit to jump to its page); click
+  <span class="ui">✓ PDF</span> to open the book with the input document itself shown;
+  click the arrow <span class="ui">⤓</span> to download the source file. <b>Book</b> opens the
   Prime Book in the reader.
   <b>Checks</b> is the machine verdict from the standards bot, which measures every published
   Years 1 to 4 title against the locked tokens (other years are not governed by that standard yet,
@@ -218,11 +219,17 @@
 
   function inputCell(inp, slug) {
     if (!inp) return '<span class="kind no">—</span>';
-    /* Two targets: the badge opens the book at its input TABLE (the same panel
-       the reader shows), the arrow downloads the source file itself. */
+    /* Two targets: the badge opens the book at the panel that shows this input.
+       The input is one of two things and the reader treats them differently, so
+       the deep link follows: a PDF input opens at its own viewer (#input); a
+       spreadsheet's units ARE the book's sections, so it opens at the Sections
+       list (#sections), where clicking a unit jumps to that page. The arrow
+       downloads the source file itself. */
+    var pdf = String(inp.kind).toUpperCase() === "PDF";
+    var target = "/book/" + esc(slug) + (pdf ? "#input" : "#sections");
+    var what = pdf ? "show this input as a PDF" : "open this title's sections";
     return '<span class="kind yes">' +
-      '<a href="/book/' + esc(slug) + '#input" title="open ' + esc(inp.file) +
-        ' as a table">&#10003; ' + esc(inp.kind) + "</a> " +
+      '<a href="' + target + '" title="' + what + '">&#10003; ' + esc(inp.kind) + "</a> " +
       '<a class="dl" href="/inputs/' + encodeURIComponent(inp.file) +
         '" title="download ' + esc(inp.file) + '" download>&#10515;</a>' +
       "</span>";
