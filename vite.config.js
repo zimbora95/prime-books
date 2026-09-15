@@ -64,9 +64,9 @@ export default defineConfig(() => {
  * feature looks perfect while developing and 404s for anyone you send a link
  * to. Vercel gets the same treatment in vercel.json.
  *
- * Scoped to /book/ only: a catch-all fallback would swallow genuine 404s for
- * missing PDFs and covers and turn them into HTML, which is what made pdf.js
- * report InvalidPDFException instead of "not found". */
+ * Scoped to /book/ and /finished/book/ only: a catch-all fallback would swallow
+ * genuine 404s for missing PDFs and covers and turn them into HTML, which is
+ * what made pdf.js report InvalidPDFException instead of "not found". */
 function bookDeepLinkFallback() {
   return {
     name: "prime-books-deep-link-fallback",
@@ -81,6 +81,8 @@ function bookDeepLinkFallback() {
         else if (/^\/standard\/?$/.test(path)) req.url = "/standard.html";
         else if (/^\/status\/?$/.test(path)) req.url = "/status.html";
         else if (/^\/syllabus\/?$/.test(path)) req.url = "/syllabus.html";
+        else if (/^\/finished\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
+        else if (/^\/finished\/?$/.test(path)) req.url = "/index.html";
         else if (/^\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
         next();
       });

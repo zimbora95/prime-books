@@ -5,6 +5,10 @@
       "destination": "/api/hermes?verb=:verb"
     },
     {
+      "source": "/finished/book/:slug",
+      "destination": "/index.html"
+    },
+    {
       "source": "/finished",
       "destination": "/index.html"
     },
