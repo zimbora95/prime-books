@@ -41,6 +41,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from book_sections import sections  # noqa: E402  (the fallback parse)
+from title_norm import normalise_units  # noqa: E402  (the house title structure)
 
 PUB = REPO / "public"
 LIB = PUB / "library"
@@ -136,9 +137,15 @@ def main() -> int:
             path = LIB / slug / "book.pdf"
             units, kind = from_pdf(path) if path.exists() else ([], "none")
             source = "pdf-parse"
-        out[slug] = {"source": source, "kind": kind, "units": units}
+        # The house structure, applied to whatever the reader/book produced: one
+        # label standard, one numbering, term and contents-page rows marked as
+        # the non-unit rows they are.
+        units, notes = normalise_units(units, slug, "book")
+        out[slug] = {"source": source, "kind": kind, "units": units,
+                     "normalised": notes}
         print(f"  {slug:38} {len(units):3d} units "
-              f"{sum(len(u['subs']) for u in units):4d} subs   {source:9} {kind}",
+              f"{sum(len(u['subs']) for u in units):4d} subs   {source:9} {kind}"
+              + (f"   [{len(notes)} title fix(es)]" if notes else ""),
               flush=True)
 
     payload = {

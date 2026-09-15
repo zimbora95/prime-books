@@ -84,3 +84,6 @@ dist/
 # on demand and served through the live tunnel.
 public/library/*/bookvault/*.pdf
 public/library/*/bookvault/*.png
+
+# local-only pre-normalisation copies of the input spreadsheets (git history is the real backup)
+public/inputs/.backup-original/

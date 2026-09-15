@@ -150,6 +150,84 @@ function ok(name, cond, extra) {
     }), bookTitles.map((b) => b.slug)),
     bookTitles.length + " titles");
 
+  /* THE TITLE STANDARD - the shapes the teacher asked for, on the page. */
+  const cardOf = (slug) => page.evaluate((s) => {
+    const c = document.getElementById(s);
+    return {
+      units: Array.from(c.querySelectorAll(".unit .u")).map((e) => e.textContent.trim()),
+      terms: Array.from(c.querySelectorAll(".term")).map((e) => e.textContent.trim()),
+      furn: Array.from(c.querySelectorAll(".furn")).map((e) => e.textContent.trim()),
+      meta: c.querySelector(".meta").textContent,
+      text: c.textContent,
+    };
+  }, slug);
+
+  const en = await cardOf("y01-english");
+  ok("'Stop N' becomes 'Unit N'", en.units[0].startsWith("Unit 1 · Going places"), en.units[0]);
+  ok("a fused label is repaired to the book's own words",
+    en.units.some((t) => t.startsWith("Unit 8 · How I feel")), JSON.stringify(en.units[7]));
+  ok("the repaired title is not SHOUTED anywhere",
+    await page.evaluate(() =>
+      Array.from(document.querySelectorAll(".unit .u, ul.subs li")).every((e) => {
+        const t = e.textContent.replace(/×\d+$/, "").replace(/p\.\d+$/, "").trim();
+        const own = t.split("·").slice(1).join("·").trim() || t;
+        return own !== own.toUpperCase() || !/[A-Z]{3}/.test(own);
+      })));
+
+  const m3 = await cardOf("y03-mathematics");
+  ok("terms are dividers, not units",
+    m3.terms.length === 3 && /^Term 1/.test(m3.terms[0]) && /^Term 2/.test(m3.terms[1]),
+    JSON.stringify(m3.terms));
+  ok("the unit numbers under a term are 1..N in the book's order",
+    m3.units.length === 8 && m3.units[1].startsWith("Unit 2 · Tally charts and frequency tables") &&
+    m3.units[2].startsWith("Unit 3 · Angles and movement") && !/Unit 4 · Tally/.test(m3.text),
+    JSON.stringify(m3.units.slice(0, 4)));
+
+  const pt = await cardOf("y04-portuguese");
+  ok("a Portuguese fused label is repaired too",
+    pt.units.some((t) => t.startsWith("Unit 7 · A gota e o jardim")),
+    JSON.stringify(pt.units[6]));
+
+  const pe13 = await cardOf("y13-physical-education");
+  ok("unusable numbers are renumbered 1..N",
+    pe13.units.length === 4 &&
+    pe13.units.map((t) => (t.match(/^Unit (\d+)/) || [])[1]).join(",") === "1,2,3,4" &&
+    !/Unit 12|Unit 14/.test(pe13.text), JSON.stringify(pe13.units));
+
+  const pe7 = await cardOf("y07-physical-education");
+  ok("a SHOUTED spreadsheet row is Title Cased on the page",
+    pe7.units[0].startsWith("Unit 1 · Futsal") && pe7.units[1].startsWith("Unit 2 · Cross Country"),
+    JSON.stringify(pe7.units.slice(0, 2)));
+
+  /* ...and the spreadsheet itself was corrected, not just the page: the JSON
+     the Input panel renders is generated FROM the .xlsx. */
+  const xlsxJson = await fetch(BASE + "/inputs/y07-physical-education.json").then((r) => r.json());
+  const titles = xlsxJson.rows.map((r) => String(r.Title || ""));
+  ok("the correction is written into the input spreadsheet",
+    titles.includes("Unit 1 · Futsal") && titles.includes("Unit 2 · Cross Country") &&
+    !titles.some((t) => t === t.toUpperCase() && /[A-Z]{3}/.test(t)),
+    JSON.stringify(titles.slice(0, 3)));
+
+  const pt8 = await cardOf("y08-portuguese-2nd");
+  ok("a contents-page row is marked, not counted as a unit",
+    pt8.furn.length === 1 && /Índice/.test(pt8.furn[0]) && !/Unit 2 · Índice/.test(pt8.units.join()),
+    JSON.stringify(pt8.furn));
+  ok("the header count excludes non-unit rows",
+    pt8.meta.includes("7 units") && pt8.meta.includes("1 other row"), pt8.meta);
+
+  /* whole-catalogue sweep: nothing SHOUTED, nothing fused-camel, no stray " . " */
+  const bad = [];
+  data.years.flatMap((y) => y.books).forEach((b) => {
+    (b.units || []).forEach((u) => {
+      const own = (u.title.split("·")[1] || u.title).trim();
+      if (/[A-Z]{3}/.test(own) && own === own.toUpperCase()) bad.push(b.slug + ": " + u.title);
+      if (/[a-z][A-Z]/.test(u.title)) bad.push(b.slug + ": " + u.title);
+      if (/ \./.test(u.title) || /,[^\s]/.test(u.title)) bad.push(b.slug + ": " + u.title);
+    });
+  });
+  ok("no SHOUTED, fused or badly spaced unit label survives anywhere", bad.length === 0,
+    bad.slice(0, 6).join(" | "));
+
   /* honest gaps: the titles where even the book yields nothing say so */
   const blank = data.years.flatMap((y) => y.books).find((b) => b.source === "pdf");
   const noBook = data.years.flatMap((y) => y.books).find((b) => b.source === "none");

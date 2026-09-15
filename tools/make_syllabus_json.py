@@ -41,6 +41,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from title_norm import normalise_units  # noqa: E402  (the house title structure)
+
 PUB = REPO / "public"
 INPUTS = PUB / "inputs"
 OUT = PUB / "syllabus.json"
@@ -126,7 +129,31 @@ def parse_input(slug: str):
                 extras.append({"title": title, "page": page})
         else:
             extras.append({"title": title, "page": page})
+    if units:
+        units, _ = normalise_units(units, slug, "input")
     return units, extras
+
+
+def clean_unit(u: dict) -> dict:
+    """One unit as the page wants it: the label, the page, its subunits, and the
+    extras that mark a row as something other than a unit ('term' dividers,
+    'furniture' contents-page rows) or as a row listed more than once."""
+    out = {"title": u.get("title") or "", "page": u.get("page")}
+    for key in ("kind", "multi"):
+        if u.get(key):
+            out[key] = u[key]
+    out["subs"] = []
+    for s in u.get("subs") or []:
+        sub = {"title": s.get("title") or "", "page": s.get("page")}
+        if s.get("count"):
+            sub["count"] = s["count"]
+        out["subs"].append(sub)
+    return out
+
+
+def is_unit(u: dict) -> bool:
+    """A term divider or a contents-page row is not a unit."""
+    return not u.get("kind")
 
 
 def book_sections() -> dict:
@@ -164,12 +191,7 @@ def main() -> int:
             # available in this case, so extras stay empty.
             entry = from_book.get(slug) or {}
             derived = entry.get("units") or []
-            units = [
-                {"title": u.get("title") or "", "page": u.get("page"),
-                 "subs": [{"title": s.get("title") or "", "page": s.get("page")}
-                          for s in (u.get("subs") or [])]}
-                for u in derived
-            ]
+            units = [clean_unit(u) for u in derived]
             if units:
                 source = "book"
                 kind = entry.get("kind") or ""
@@ -200,12 +222,15 @@ def main() -> int:
     for y in sorted(years):
         rows = sorted(years[y], key=lambda r: (r["subject"].lower(), r["slug"]))
         for r in rows:
-            r["subunitCount"] = sum(len(u["subs"]) for u in r["units"])
+            r["subunitCount"] = sum(len(u["subs"]) for u in r["units"] if is_unit(u))
+            r["unitCount"] = sum(1 for u in r["units"] if is_unit(u))
+            r["nonUnits"] = sum(1 for u in r["units"] if not is_unit(u))
         ordered.append({
             "year": y,
             "books": rows,
-            "units": sum(len(r["units"]) for r in rows),
+            "units": sum(r["unitCount"] for r in rows),
             "subunits": sum(r["subunitCount"] for r in rows),
+            "nonUnits": sum(r["nonUnits"] for r in rows),
             "withInput": sum(1 for r in rows if r["input"]),
             "withTable": sum(1 for r in rows if r["source"] == "input"),
             "withBook": sum(1 for r in rows if r["source"] == "book"),
@@ -217,8 +242,9 @@ def main() -> int:
         "totals": {
             "books": len(all_rows),
             "years": len(ordered),
-            "units": sum(len(r["units"]) for r in all_rows),
+            "units": sum(r["unitCount"] for r in all_rows),
             "subunits": sum(r["subunitCount"] for r in all_rows),
+            "nonUnits": sum(r["nonUnits"] for r in all_rows),
             "sections": sum(len(r["extras"]) for r in all_rows),
             "withInput": sum(1 for r in all_rows if r["input"]),
             "withTable": sum(1 for r in all_rows if r["source"] == "input"),
