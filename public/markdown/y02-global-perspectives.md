@@ -680,11 +680,9 @@ Find one country you would like to visit. Write its name. (write-on)
 
 ---
 **U N I T 1 · T H E P L AYI N G F I E L D S · T E RM 1**
-## Sports and recreation
 
 ## The Playing Fields
-
-Where the Field Club runs, jumps and argues about the rules
+## Sports and recreation
 
 ## Is a game still a game if nobody wins?
 
@@ -692,6 +690,8 @@ Where the Field Club runs, jumps and argues about the rules
 **BODIES**
 **FAIR PLAY**
 **WEATHER**
+
+Where the Field Club runs, jumps and argues about the rules
 
 **17**
 
@@ -892,10 +892,11 @@ middle.
 **1**
 
 THE PLAYING FIELDS
-**23**
 
 **2**
 Tick the game that is BOTH indoors and outdoors.
+
+**23**
 
 <!-- page 24 -->
 
@@ -1106,6 +1107,7 @@ And you warm up first. Gentle running, then stretching, then the game. Cold
 muscles tear. Warm muscles bend.
 
 THE PLAYING FIELDS
+
 **29**
 
 <!-- page 30 -->
@@ -1134,12 +1136,13 @@ The rule is
 **2**
 
 THE PLAYING FIELDS
-**30**
 
 BIG THINKING
 Rufus wants to take the goalposts away so nobody can crash into them.
 Bram says then it is not football any more. Is a safer game always a
 better game?
+
+**30**
 
 <!-- page 31 -->
 
@@ -1793,11 +1796,9 @@ comes from, and every place plays something of its own.
 
 ---
 **U N I T 2 · T H E L O N G RO AD H O M E · T E RM 1**
-## Rich and poor
 
 ## The Long Road Home
-
-Where the Field Club asks what a person really needs
+## Rich and poor
 
 ## Who decides what counts as enough?
 
@@ -1805,6 +1806,8 @@ Where the Field Club asks what a person really needs
 **HOMES**
 **WORK**
 **SHARING**
+
+Where the Field Club asks what a person really needs
 
 **47**
 
@@ -1933,15 +1936,15 @@ were none.
 
 Write the easy ones first. Argue about the rest.
 
-A need is something you cannot live without. A want is something lovely to have. Almost
-every argument about money is really about which is which.
-
 **DO YO U REMEMBER?**
 
 What is the last thing you really wanted? Did you get it?
 
 THE LONG ROAD HOME
 **51**
+
+A need is something you cannot live without. A want is something lovely to have. Almost
+every argument about money is really about which is which.
 
 <!-- page 53 -->
 
@@ -2484,7 +2487,6 @@ Time capsule
 History
 
 THE LONG ROAD HOME
-6
 
 Long ago, people made homes from whatever the land gave them. In Mongolia
 the ger uses wooden poles and thick felt from sheep, because the family moves
@@ -2495,6 +2497,8 @@ live on houseboats on the canals, and in Madeira the little palheiro�
 Every one of these homes is exactly right for where it stands. That is the
 test of a good home: not what it is made of, but how well it fits the weather,
 the ground and the lives of the people inside it.
+
+**65**
 
 <!-- page 67 -->
 
@@ -2514,17 +2518,16 @@ same size, and both can walk to the other one if they keep walking�
 enough.
 
 THE LONG ROAD HOME
-6
+
+**66**
 
 <!-- page 68 -->
 
 ---
 **U N I T 3 · T H E G L O WI N G WI N D O W · T E RM 2**
-## Digital world
 
 ## The Glowing Window
-
-Where the Field Club looks into a screen and asks who is looking back
+## Digital world
 
 ## Should a screen ever be allowed to decide for you?
 
@@ -2532,6 +2535,8 @@ Where the Field Club looks into a screen and asks who is looking back
 **SAFETY**
 **KINDNESS**
 **INVENTING**
+
+Where the Field Club looks into a screen and asks who is looking back
 
 **67**
 
@@ -3308,11 +3313,9 @@ THE GLOWING WINDOW
 
 ---
 **U N I T 4 · T H E TAL KI N G WO O D · T E RM 2**
-## Improving communication
 
 ## The Talking Wood
-
-Where the Field Club learns that talking and being understood are two different things
+## Improving communication
 
 ## Can you understand somebody whose language you do not speak?
 
@@ -3320,6 +3323,8 @@ Where the Field Club learns that talking and being understood are two different 
 **LISTENING**
 **FEELINGS**
 **SIGNALS**
+
+Where the Field Club learns that talking and being understood are two different things
 
 **89**
 
@@ -4031,11 +4036,9 @@ THE TALKING WOOD
 
 ---
 **U N I T 5 · T H E L O N G H AU L · T E RM 3**
-## Moving goods and people
 
 ## The Long Haul
-
-Where the Field Club follows a banana all the way home
+## Moving goods and people
 
 ## Should we move things across the world just because we can?
 
@@ -4043,6 +4046,8 @@ Where the Field Club follows a banana all the way home
 **CARGO**
 **SAFETY**
 **AIR**
+
+Where the Field Club follows a banana all the way home
 
 **109**
 
@@ -4856,11 +4861,9 @@ THE LONG HAUL
 
 ---
 **U N I T 6 · T H E H O M E F I RE · T E RM 3**
-## Family, friends, community and culture
 
 ## The Home Fire
-
-Where the Field Club comes home and finds out that home means many things
+## Family, friends, community and culture
 
 ## What makes a group of people into a community?
 
@@ -4868,6 +4871,8 @@ Where the Field Club comes home and finds out that home means many things
 **FRIENDS**
 **NEIGHBOURS**
 **FESTIVALS**
+
+Where the Field Club comes home and finds out that home means many things
 
 **131**
 
