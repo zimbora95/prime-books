@@ -1,0 +1,71 @@
+{
+ "file": "y01-german-a1a2 - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · A1",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Meine Familie",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Farben, Zahlen und Formen",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Meine Schule und meine Tie",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Mein Tag und mein Essen",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Mein Zuhause",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 7 · Meine Welt",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 8 · Einkaufen",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 9 · Reisen und Ferien",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 10 · Gesundheit und Körper",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 11 · Feiern!",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 12 · Feste und Traditionen",
+   "Page": ""
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "file": "y01-computing-and-robotics - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · The Instruction Shed",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · The Block Bench",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · The Sorting Table",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · The Wire Garden",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · The Machine Room",
+   "Page": ""
+  }
+ ]
+}

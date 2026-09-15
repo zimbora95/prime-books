@@ -1,0 +1,506 @@
+{
+ "file": "y06-english - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Different voices - different times",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1: What is a prologue?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1: 0: Finding out more about flashbacks",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1: 1: Create voice 4 at the museum",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1: 2: Create voice 4 at the museum",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2: Delve into detail",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3: Focus on technique",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4: Write a short prologue",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.5: White bears",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.6: Short and long sentences",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.7: Review word classes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.8: Review dialogue",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.9: Voices",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · People in the news",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1: Making headlines",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1: 0: Practise reporting",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1: 1: Write a news article",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1: 2: Write a news article",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2: Read all about it",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3: Layout and purpose",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4: Report a story",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.5: Explore biographies",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.6: Make a start",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.7: Make a start",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.8: Another life",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.9: Conduct an interview",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Personification and imagery",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1: The river",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2: Compare poems",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.3: Look deeper",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.4: Right here was the ocean",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.5: Explore figurative language",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.6: Write your own poem",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Back to the future",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1: Looking into the future",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1: 0: Spelling,punctuation and grammar",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1: 1: Finish your story",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1: 2: Take part in a readaloudthon",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.2: Step into their shoes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.3: Useful punctuation and grammar tips",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.4: Begin planning a longer story",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.5: Going back and looking into the future",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.6: Working with voices and moods",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.7: Working with chapters,paragraphs and connectives",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.8: Write paragraphs describing fictional surroundings",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.9: Going forward in time",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · The facts of the matter",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1: Poles apart",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1: 0: A strong viewpoint",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1: 1: Pick a side",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1: 2: Have a class debate",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.2: A news report",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.3: Support a view",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.4: Express possibility",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.5: Keep it formal",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.6: A balanced report",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.7: Language techniques",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.8: Present a balanced view",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.9: Present a balanced view",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Poetry at play",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.1: Poetic licence",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.2: A string of words",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.3: Patterns and shapes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.4: Follow the rules",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.5: Laugh with limericks",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.6: Play with words",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 7 · A different medium",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.1: A multimedia novel",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.1: 0: Using language",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.1: 1: Shakespeare alive",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.1: 2: Write your own play script",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.2: Language matters",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.3: Plan and write an illustrated episode",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.4: Plan and write an illustrated episode",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.5: Introducing manga",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.6: Shion",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.7: Medium matters",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.8: All the world's a stage",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "7.9: What has changed",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 8 · Make it happen",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.1: Weigh up waste",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.1: 0: Summarise",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.1: 1: Create a magazine article",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.1: 2: Create a magazine article",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.2: An article to startle",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.3: Language and features",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.4: Punctuation with purpose",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.5: Follow instructions",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.6: Clauses to clarify",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.7: Make something",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.8: Demonstrate",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "8.9: Facts and opinions about recycling",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 9 · A moment in time",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9.1: When you look at a painting",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9.2: Poetic form and features",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9.3: There for a moment",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9.4: Features for effect",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9.5: A jewel",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9.6: 'Encapsulate' a moment in time",
+   "Page": ""
+  }
+ ]
+}

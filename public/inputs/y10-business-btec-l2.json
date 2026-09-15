@@ -1,0 +1,16 @@
+{
+ "file": "y10-business-btec-l2 - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Business Purposes",
+   "Page": ""
+  }
+ ]
+}

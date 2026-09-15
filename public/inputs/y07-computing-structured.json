@@ -1,0 +1,51 @@
+{
+ "file": "y07-computing-structured - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Computational Thinking",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Managing Data",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Networks and Digital Communication",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Computer Systems",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · micro:bit and Robotics",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Communication",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 7 · Layout",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 8 · Databases",
+   "Page": ""
+  }
+ ]
+}

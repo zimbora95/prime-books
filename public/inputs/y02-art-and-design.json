@@ -1,0 +1,66 @@
+{
+ "file": "y02-art-and-design - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Sculpting with clay",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Squeezing, rolling and joining clay",
+   "Page": "21"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Pressing texture and pattern into clay",
+   "Page": "26"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Paint, paper and clay together",
+   "Page": "30"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 What clay is, and what it does",
+   "Page": "34"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Drawing with purpose",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 Drawing insects",
+   "Page": "47"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Drawinga face",
+   "Page": "52"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 A drawing that tells people something",
+   "Page": "57"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Drawing things that stay still",
+   "Page": "61"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.5 Drawing about something that happened",
+   "Page": "67"
+  }
+ ]
+}

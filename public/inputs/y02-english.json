@@ -1,0 +1,56 @@
+{
+ "file": "y02-english - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Games we play",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Faster, higher, braver",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · At the long table",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · The kindest thing",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Creatures we share with",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Safe and sound",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 7 · The night Rui would not sleep",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 8 · The jar of stars",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 9 · People who help us",
+   "Page": ""
+  }
+ ]
+}

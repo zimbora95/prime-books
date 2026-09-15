@@ -1,0 +1,91 @@
+{
+ "file": "y07-portuguese-2nd - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 · Cumprimentose Identificação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 · Dados Pessoais",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 3 · Famíliae Alimentação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 · Habitação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 5 · Espaços Comerciaise Serviços",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 · Saúdee Actividade Física",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 · Exercícios de revisão",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 · Tempos Livrese Convívio Social",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 · Exercícios de revisão",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 8 · Informação Pessoal",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 9 · Rotina Diária",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 9 · Exercícios de revisão",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 10 · Famíliae Compreensão Social",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 10 · Exercícios de revisão",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 11 · Alimentaçãoe Dieta",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 11 · Exercícios de revisão",
+   "Page": ""
+  }
+ ]
+}

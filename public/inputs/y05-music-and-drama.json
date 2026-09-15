@@ -1,0 +1,136 @@
+{
+ "file": "y05-music-and-drama - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Complex Characters and Dramatic Relationships",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Exploring multi-layered character traits and relationships",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Expressing complex emotions through voice, gesture, and movement",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Analyzing character motivations and dynamics",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Developing characters through short scenes and dialogues",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Writing and Rehearsing Multi-Scene Plays",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 Planning and structuring multi-scene narratives",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Collaborative script writing and refinement",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 Rehearsing scenes with focus on pacing and flow",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Sharing and reviewing scripts with peer feedback",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Improvisation for Mood and Theme",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1 Practicing improvisation based on given themes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2 Exploring mood, tone, and atmosphere through performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.3 Integrating improvisation into narrative scenes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.4 Performing short thematic improvisations for audience engagement",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Technical Integration and Performance Refinement",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1 Applying stage directions, levels, and blocking effectively",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.2 Refining voice, gesture, and physicality",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.3 Using props, costumes, lighting, and sound to enhance scenes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.4 Polishing and rehearsing scenes for final performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Presentation",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1 Selecting and finalising scenes for performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.2 Full rehearsals with technical and dramatic elements",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.3 Dress rehearsal and final adjustments",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.4 Final presentation and reflection",
+   "Page": ""
+  }
+ ]
+}

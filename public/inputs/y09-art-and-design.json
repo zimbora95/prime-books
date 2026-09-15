@@ -1,0 +1,186 @@
+{
+ "file": "y09-art-and-design - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Still Life",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Research of one still life artist and analysis of tone, composition and media, planning own still life arrangement, experimenting with background options, recording findings in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Introduction to colour theory (complementary, analogous, limited palette), colour studies to enhance form and depth, blending and layering exercises, group critique",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Introduction to composition principles (rule of thirds, balance, overlapping), using viewfinders to explore arrangement, photography of still life with varied backdrops, sketching thumbnails of compositions",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Learners decide on final arrangement and medium, begin sustained drawing or painting, teacher feedback during progress, recording reasoning in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Demonstration of alternative media (oil pastel, ink, collage), experimental studies using chosen arrangement in different media, reflection on effects of media, annotation of experiments in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Introduction to the unit and objectives, discussion on still life, presentation of artist examples (Cézanne, Morandi), quick observational sketches, reflection and annotation in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Demonstration of shading techniques (hatching, cross-hatching, blending), tonal studies from single object, practice rendering form through tone, peer review and annotation",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Identity",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Select final composition and media. Start sustained study, with teacher feedback and ongoing reflection in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Completion of sustained study, peer critique and self-reflection, annotation and evaluation of final piece, discussion of how skills support future units",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Finalise sustained outcome. Group critique, peer feedback and self-evaluation recorded in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Select one artist for inspiration. Explore composition and formal elements. Produce two different possible compositions for final piece",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Discussion of \"Identity\" and brainstorming (portraiture, objects, heritage, family, environment). Presentation of diverse artist examples. Vocabulary: composition, representation, heritage",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Experiment with a variety of media (paint, pastel, collage, mixed media) to explore expression of identity. Annotate and reflect in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Drawing and photography of objects and faces linked to identity. Annotation of initial ideas. Connections to still life and self-portraiture",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Develop two chosen compositions further (e.g. portrait vs. object focus). Annotate strengths, weaknesses and potential for final outcome",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · On the Surface",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Research and analyse one artist related to chosen theme. Visual journal annotations and small experimental response",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Research and analyse one chosen artist related to identity. Record visual notes and create a small experimental study inspired by the artist",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Finalise outcome. Group critique, peer feedback and self-evaluation recorded in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Select one or two artists for inspiration. Produce exploratory sketches and mixed media responses",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Create two different possible compositions for a final outcome. Focus on composition, contrast and expression",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Begin sustained final piece using chosen media and composition. Teacher guidance and peer feedback",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Continue sustained final outcome. Layering, texture, refinement",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Group discussion of “On the Surface”. Presentation of artist examples. Vocabulary: texture, layer, contrast, representation",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore pencil and paint to investigate texture, pattern and layering effects",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore collage, mixed media, and printmaking. Annotate reflections in journal",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Evaluate strengths/weaknesses of two compositions. Select final direction and refine design through studies",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Brainstorming sketches and quick observational drawings. Collection of images/photography connected to the theme",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Exhibition",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Plan layout of exhibition space (library/hall/classroom). Small groups mount/display work, considering audience and communication",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Learners refine and mount chosen works. Consider order, flow, and visual impact. Teacher feedback on editing and selection",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exhibition to peers/guests. Learners present their work and explain choices. Group critique and self-reflection in journals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Discuss purpose of exhibition. Vocabulary: presentation, selection, editing, audience. Learners review all their work from Units 9.1–9.3 and begin selecting final outcome + 3 supporting sheets",
+   "Page": ""
+  }
+ ]
+}

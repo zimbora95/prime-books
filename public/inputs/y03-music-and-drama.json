@@ -1,0 +1,136 @@
+{
+ "file": "y03-music-and-drama - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Developing Characters and Emotions",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Exploring character traits and personalities",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Expressing emotions through movement and voice",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Role-play activities to deepen character understanding",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Reflecting on character choices and motivations",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Story Construction and Script Work",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 Analyzing story structures and key events",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Creating original scripts in groups",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 Rehearsing scripted scenes with peers",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Performing scenes and giving/receiving feedback",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Improvisation and Presentation Skills",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1 Practicing improvisation techniques and games",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2 Developing short improvised scenes with purpose",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.3 Integrating improvisation into structured performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.4 Practicing clear communication and audience engagement",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Stagecraft and Performance Preparation",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1 Understanding stage directions, levels, and spacing",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.2 Voice projection, gestures, and body language",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.3 Using props, costumes, and basic lighting effectively",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.4 Rehearsing scenes with technical and performance elements",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Presentation",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1 Selecting final scenes for performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.2 Full rehearsals with feedback",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.3 Dress rehearsal and technical run-through",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.4 Final presentation and reflection",
+   "Page": ""
+  }
+ ]
+}

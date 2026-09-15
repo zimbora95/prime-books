@@ -1,0 +1,41 @@
+{
+ "file": "y04-english - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Story openings",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Characters who speak",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Poems and word music",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Finding things out",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Traditional tales",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Reports and real writing",
+   "Page": ""
+  }
+ ]
+}

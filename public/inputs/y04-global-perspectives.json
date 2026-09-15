@@ -1,0 +1,51 @@
+{
+ "file": "y04-global-perspectives - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Education for all",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 What is education?",
+   "Page": "12"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Getting to school",
+   "Page": "14"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Barriers to education",
+   "Page": "16"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Beinga global helper",
+   "Page": "19"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.5 Global issues",
+   "Page": "21"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.6 Project · The dream school",
+   "Page": "23"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Improving communication",
+   "Page": ""
+  }
+ ]
+}

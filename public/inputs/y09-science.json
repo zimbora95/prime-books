@@ -1,0 +1,21 @@
+{
+ "file": "y09-science - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Photosynthesis and the carbon cycle",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Properties of materials",
+   "Page": ""
+  }
+ ]
+}

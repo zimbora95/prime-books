@@ -1,0 +1,106 @@
+{
+ "file": "y10-portuguese-1st-igcse - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Reading: Comprehension of texts",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Texts: Narrative, Descriptive, Discursive, Argumentative, Letter, Summary, Report, Email, Speech - 1st Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Texts: Narrative, Descriptive, Discursive, Argumentative, Letter, Summary, Report, Email, Speech - 2nd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Texts: Narrative, Descriptive, Discursive, Argumentative, Letter, Summary, Report, Email, Speech - 3rd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Writing",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Production different styles: Narrative, Descriptive, Argumentative, Discursive, Letter, Summary, Report, Email, Speech - 2nd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Production different styles: Narrative, Descriptive, Argumentative, Discursive, Letter, Summary, Report, Email, Speech -1st Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Production different styles: Narrative, Descriptive, Argumentative, Discursive, Letter, Summary, Report, Email, Speech - 3rd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Speaking & Listening",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Group discussion and debate - 1st Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Group discussion and debate - 2nd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Group discussion and debate - 3rd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Practice oral expression and listening comprehension - 1st Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Practice oral expression and listening comprehension - 2nd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Practice oral expression and listening comprehension - 3rd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Grammar",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Vocabulary and grammar exercises - 1st Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Vocabulary and grammar exercises - 2nd Term",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Vocabulary and grammar exercises - 3rd Term",
+   "Page": ""
+  }
+ ]
+}

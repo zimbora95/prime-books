@@ -1,0 +1,136 @@
+{
+ "file": "y06-music-and-drama - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Mastering Rhythm and Language in Drama",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Exploring rhythm in speech and movement",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Practicing expressive language and dictio",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Combining rhythm and voice in performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Performing short rhythmic and language-based scenes",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Drama for Special Occasion",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 Understanding context and purpose of special occasion drama",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Creating scenes for celebrations, festivals, and events",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 Rehearsing performances with appropriate tone and mood",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Performing short scenes for peers or audience",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Exploring the Role of Bass and Sound in Drama",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1 Understanding the impact of sound and music in drama",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2 Using bass, effects, and sound cues to enhance performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.3 Integrating sound with movement and dialogue",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.4 Performing short scenes emphasizing sound and rhythm",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Word Variation and Text Interpretation",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1 Exploring different interpretations of text",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.2 Practicing variation in tone, pace, and emphasis",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.3 Applying interpretation to character and scene work",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.4 Performing short scenes with nuanced textual delivery",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Presentation",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1 Selecting final scenes for performance",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.2 Full rehearsals with technical and dramatic elements",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.3 Dress rehearsal and final adjustments",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.4 Final presentation and reflection",
+   "Page": ""
+  }
+ ]
+}

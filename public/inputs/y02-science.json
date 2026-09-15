@@ -1,0 +1,166 @@
+{
+ "file": "y02-science - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Environments and habitats",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Habitats",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Plants in different habitats",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Animals in different habitats",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Rocks and the environment",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.5 How can we care for our environment?",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Forces and movement",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 Forces around us",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Changing shape",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 Changing speed",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Changing direction",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Getting materials right",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1 Natural and made materials",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2 Properties of materials",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.3 Using the right material",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.4 Testing materials",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.5 Changing materials",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Humans and animals grow",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.1 Comparing animals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.2 Growing",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.3 Inheriting characteristics",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.4 Keeping healthy",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "4.5 Teeth",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Light",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.1 Light sources",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.2 Darkness",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "5.3 The sun appears to move!",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Electricity",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.1 Where do we use electricity?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.2 Keep safe with electricity",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "6.3 Making circuits",
+   "Page": ""
+  }
+ ]
+}

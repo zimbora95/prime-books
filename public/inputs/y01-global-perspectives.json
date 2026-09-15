@@ -1,0 +1,271 @@
+{
+ "file": "y01-global-perspectives - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Values and Beliefs",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "What are values?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "My values",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "What are beliefs?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Beliefs around us",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Respect",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Fairness",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Different but same",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Caring & helping",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "9–10. Review Project: Class Values Boo",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Looking After the Planet",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Our Planet",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "What I love about Earth",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Reduce – Saving energy",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Reduce role-play",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Reuse",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Recycle – Sorting",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Pollution – Demo (clean vs dirty water)",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "How I can help",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "19–20. Review Project: Planet Pledge",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Water, Food & Farming",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Why water is important",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Where water comes from",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Why food is important",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Food journey (farm to plate)",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Farming – Animals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Farming – Plants",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Food around the world",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "How we waste food",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "29–30. Review Project: Thank You Farmers Book",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Health & Wellbeing",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "What is health?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exercise",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Food & health – Balanced plate",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Healthy lunchbox",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Hygiene – Glitter germs experiment",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Hygiene routine",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Feelings & wellbeing",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Kindness",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "39–40. Review Project: My Healthy Life Poster",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Family, Friends, Community & Culture",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "What is family?",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "My family",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Friends",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Why friends matter",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "My community",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Community helpers",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Culture – Festivals",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Traditions",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Working together",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Teamwork",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "51–52. Review Project: Celebration Presentation",
+   "Page": ""
+  }
+ ]
+}

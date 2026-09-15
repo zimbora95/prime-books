@@ -1,0 +1,21 @@
+{
+ "file": "y03-portuguese - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 · De volta à colina",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 · Ao ar livre",
+   "Page": ""
+  }
+ ]
+}

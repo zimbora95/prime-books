@@ -1,0 +1,21 @@
+{
+ "file": "y01-music-and-drama - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · The Green Room",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · The Sound Cupboard",
+   "Page": ""
+  }
+ ]
+}

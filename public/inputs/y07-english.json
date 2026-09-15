@@ -1,0 +1,416 @@
+{
+ "file": "y07-english - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Adventure",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Discuss the features of adventure stories / look for explicit information in a text/ explore how writers structure theire stories.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exam revision 1",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Describe how stories develop/ Explore the features of monologue/ Write and perform a monologue.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore ways of using speech to engage an audience/ look for implicit meaning on a text/ Use different sentence types to add interest to descritive writing.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Look for explicit and implicit meanings in poetry/ Explore how poets use the languge features of effect/ Learn how to writ an anlysis of a poem.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Investigate some features of suspense writing/ Explore the effects of language and grammatical choices/ read aloud with expression.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Use planning techniques for a piece of narrative writing",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 1",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Practice Exam 1",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exam 1",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Hey, You Down There",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore How a writer presents characters and relationships/ Lear how a writer positions a character in a text/ Understand the function of a sentence openings.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Learn about compound-complex sentences/ Explore techniques used whwn writing and performing spoken drama/ Assess your own speaking and performance skills.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore the social and historical context of ?Hey, You DownThers'/ Understand how non- standard English helps to convey character/ practise your group discussion skills/",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Learn how writers show character through languages choises/ Explore formal and informal language/ consider vocabulary for effect.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how a writer controls information in a text/ use your scanning skills to find information in a text/ understand how writers use characters to convey themes and ideas.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Reat the ending of a story/ Explore how a writer prepares the reader for a story ending/ Plan and produce a sequenced short story.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 2",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exam review 2",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Practice Exam 2",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exam 2",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Film and fame",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how a writer uses language to establish a setting/ consider how a writer shapes the resder's opinion about a character/ investigate the different features of spoken English and written English.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Plan ideas to develop a fiction story/ Use features of Informal English in direct speech/ write about a specific place using a range of nouns.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Investigate the techniques used by jounalists to write headlines/ explore the structural features of a newspaper arcticl/ Consider the language features of a factual information article",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Investigate thestructural features of a film review./ Explore the way writers use language to establish the style of a journalistic review/ Consider how descriptive language can be used to convey.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Reserach and plan the content of a film revew.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Understand explicit and implicit information in a text/ Listen and respond to a news story/ Explore ways of planing, writing and delivering a persuasive speech.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 3",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 4 · Small but perfect",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Learn about the genre of flash fiction/ Explore symbols and images in a text/ analyse how a writer uses symbols and images for effect.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Create a fictional history about an object/ Explore the use of time connectives in sequencing creative writing./ Build descriptions through expanded noun and verb phrases.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how haiku poems are structured/ discuss poems and express personal opinions/ Choose quotations to supportbyour esplanations.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how modern poets have used the ancient haiku form./ Look carefully at the natural world to help write your own haiku poem./ Use images and symbols to improve your poetic writing.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Summarise information from an informative article./ Explore how writers use topics to organise texts./ Use prefixes to widen your vocabulary.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Plan an interview to find out interesting onformation./ Explore the structure of a non-fection interview text./ Plan and write about a topic using specialist vocabulary.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 4",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 5 · Unusual education",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore and discuss different types of schools./ Identify how connectives are used for different purposes./ Use connectives in a formal written account.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Learn about bias in texts./ Explore persuasive writing techniques./ perform a persuasive speech.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore views and ideas in texts./ Plan and deliver a presentation using appropriate media./ Consider the appropriate register to use when writting in a specific context.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Identify explicit and implicit informstion./ Read and unseed text aloud./ Located quotations to support a point.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Revise prefixes and practise dictionary skills./ Discuss and interpret ideas in a text./ Use colons for a specific reason.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 5",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 6 · Life stories",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Read an unfamiliar text aloud./ Explore how writers use symbols in their poems./ Consider how readers make choices about what they read.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore the different ways writers create voices./ Create content for a particular audence. / Consider the effectiveness of a partner's writing.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exploring some features of atobiography./ Debate critical responses to a text./ Consider structure when writing a monologue.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Consider how a writer builds up detail./ Explore how literaly and linguistic tecniquesceate effects. / Explore the contexts of a personal letter.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Experiment with ways of reading aloud for impact./ Explore how writers combine different language techniques./ Structure a poem",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore the text structure of a speech./ Use using a range of features when writing a speech. Deliver a persuasive speech.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 6",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 7 · The travel agency",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Make predictions about a story using language and image cues./ Explore the narrative events of a fantasy fiction text. / Respond imaginatively to a ficctiontext,",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how persuasive language is used.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Leran to use persuasive techniques in your own wrinting. / Practise a role play.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how writers use characters to develo themes./ Consider how writers present heroic characters./ Write an analysis of how a character is presented.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Use the nmes of word classes accurately./ Investigate different grammatical structures./ Interpret information to predict how a story will end.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Use different ways to work out unfamiliar words./ Consider the role of a secondadry character in a text. / Explore writing in a personal voice.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 7",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 8 · In the city",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore the effect of sentence structures and punctuation./ Investigate the effects created by imagery and figurative language./ Explore how writers use language which appeals to the senses",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Look at how informative articles can be structured./ Wrete an informative article for a specific audience./ Adapt speech for a specific purpose",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Consider setting as a structural feature. / Explore how a writer creates atmosphere through setting./Consider how to use language precisely to crreate an effect.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Findout the meanings of unfamiliar words./ Consider how writers use figurative language to describe settings./ Investigate how figurative language is used for effect in poetry.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore the origins and meanings of words. Consider whether an article is biased. / Ague a point of a view in a debate.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore the effect of different perspectives./ Practise summarising information./ Design a poster to convey specific information.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 8",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 9 · Dangers of the sea",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Explore how writers present antagonists./ Consider figurative language in a narrative text. / Refine your ability to describe characters.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "learn how writers create victim figures./ Explore how writers control information in a story./ Analyse and interpret victim and villain figures.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Analyse the structure of an informative article./ Read and interpret the content of an article./ research and deliver a presentation.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Create a picture based on a classic text./ Read and interpret a modern retelling of a classic text./ Use dialogue in creative writing.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Understand the content of a classic poem./ Explore the effect of setting in a classic poem./ Produce a soundscape of a classic poem.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Interpret and comment on the key events of a poem./ Identify and analyse techniques used in poetry./ Discuss and evaluate views about a poem.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Check your progress 9",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Practice Exam 3",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Mock Exam.",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Review exam3",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Exam 3",
+   "Page": ""
+  }
+ ]
+}

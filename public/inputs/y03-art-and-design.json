@@ -1,0 +1,76 @@
+{
+ "file": "y03-art-and-design - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Drawing from encounter",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Looking carefully and drawing what you see",
+   "Page": "12"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Line, shape, tone and texture",
+   "Page": "17"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Pencil, charcoal and ink",
+   "Page": "22"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Sketching your day",
+   "Page": "27"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Mosaic",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 Patterns from long ago and nearby",
+   "Page": "36"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Designinga simple mosaic",
+   "Page": "39"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 Cut, place and pattern",
+   "Page": "42"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Colour: contrast and harmony",
+   "Page": "45"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Painting from encounter",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1 Paint what you meet",
+   "Page": "53"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2 Mix colours for mood and depth",
+   "Page": "3"
+  }
+ ]
+}

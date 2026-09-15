@@ -1,0 +1,76 @@
+{
+ "file": "y06-art-and-design - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unit 1 · Combining printing approaches",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.1 Reviewing printing techniques",
+   "Page": "13"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.2 Combining print methods",
+   "Page": "17"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.3 Colour, texture and pattern",
+   "Page": "21"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "1.4 Final print project",
+   "Page": "25"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 2 · Drawing humour and perspective",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.1 One- and two-point perspective",
+   "Page": "32"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.2 Exaggerated proportions and humour",
+   "Page": "36"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.3 Dynamic and expressive drawings",
+   "Page": "40"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "2.4 Depth and space with perspective",
+   "Page": "43"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unit 3 · Painting creatively from encounters",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.1 Observing and interpreting",
+   "Page": "49"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "3.2 Colour, texture and brush techniques",
+   "Page": "52"
+  }
+ ]
+}

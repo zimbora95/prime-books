@@ -1,0 +1,31 @@
+{
+ "file": "y07-portuguese-1st - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 · TEXTOS DOS MEDIA",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 · UMA VIAGEM",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 3 · O PALCO À ESPERA",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 · A PALAVRA EM MÚSICA",
+   "Page": ""
+  }
+ ]
+}
