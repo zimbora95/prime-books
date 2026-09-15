@@ -1945,5 +1945,33 @@
     "mb": 17.95,
     "buildable": true,
     "editable": false
+  },
+  {
+    "slug": "y01-physical-education-standard",
+    "year": 1,
+    "subject": "Physical Education",
+    "band": "Cambridge Early Years",
+    "family": "standardised",
+    "level": "Lower Primary",
+    "pages": 98,
+    "done": false,
+    "pdf": "/library/y01-physical-education-standard/book.pdf",
+    "cover": "/library/y01-physical-education-standard/cover.webp",
+    "mb": 16.48,
+    "buildable": true,
+    "editable": true,
+    "edition": "Standard A-2.3-Y1-4",
+    "shell_pages": [
+      1,
+      2,
+      3,
+      4,
+      98
+    ],
+    "standard": "A-2.3-Y1-4",
+    "shell_built": [
+      "contents",
+      "welcome"
+    ]
   }
 ]
