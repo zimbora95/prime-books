@@ -66,7 +66,6 @@ other publisher.
 
 ---
 PORTUGUÊS YEAR 4
-**3**
 
 Bem-vindo
 
@@ -93,11 +92,12 @@ cuidado e falar com clareza.
 
 Prime School Press · www.primeschool.pt
 
+**3**
+
 <!-- page 4 -->
 
 ---
 PORTUGUÊS YEAR 4
-**4**
 
 Como usar este livro
 
@@ -123,13 +123,17 @@ professores e códigos QR (abre com um adulto).
 
 Prime School Press · www.primeschool.pt
 
+**4**
+
 <!-- page 5 -->
 
 ---
 PORTUGUÊS YEAR 4
-**5**
 
-Índice
+Prime School Press · www.primeschool.pt
+
+**CONTENTS**
+## Índice
 
 Os números são os fólios deste livro.
 
@@ -137,81 +141,80 @@ Os números são os fólios deste livro.
 **Unidade**
 **Página**
 
-1
-Sou leitor na colina
-6
+**1**
+**Sou leitor na colina**
+**6**
 
-2
-Histórias que saem da mochila
-16
+**2**
+**Histórias que saem da mochila**
+**16**
 
-3
-A borracha viajante
-26
+**3**
+**A borracha viajante**
+**26**
 
-4
-O convite da biblioteca
-36
+**4**
+**O convite da biblioteca**
+**36**
 
-5
-Heróis do recreio
-46
+**5**
+**Heróis do recreio**
+**46**
 
-6
-Vidas para ler
-56
+**6**
+**Vidas para ler**
+**56**
 
-7
-A gota e o jardim
-66
+**7**
+**A gota e o jardim**
+**66**
 
-8
-A livraria da nossa rua
-76
+**8**
+**A livraria da nossa rua**
+**76**
 
-9
-O caderno das ideias
-86
+**9**
+**O caderno das ideias**
+**86**
 
-10
-O ano em histórias
-96
-
+**10**
+**O ano em histórias**
+**96**
 Glossário
-106
+....................................................................................
+**106**
 
-Respostas
-108
+Respostas ...................................................................................
+**108**
 
 Para professores
-109
+.........................................................................
+**109**
 
-Códigos QR
-110
+Códigos QR .................................................................................
+**110**
 
 **NOTAS DO PROFESSOR**
 
 **Objectivo: Mapa do ano (3.º ano / Year 4).**
 **Fazer: Mostrar os três períodos.**
-
 **Ouvir / Corrigir: Encontram a unidade 1 e a revisão do 1.º período (U3).**
 **Apoio: Separadores.**
 **Desafio extra: Prever qual unidade tem biografia.**
 
-Prime School Press · www.primeschool.pt
+**5**
 
 <!-- page 6 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**6**
 
-Abertura
+## Abertura
 
 Vasco, a raposa de casaco azul, escreve na mesa da Oficina.
 
 ## Unidade 1 de 10 · 1.º período · Ser leitor
-Sou leitor na colina
+## Sou leitor na colina
 
 ## Pergunta de vida: Que tipo de leitor és tu: rápido, curioso, ou dos
 que relêem a mesma página?
@@ -234,11 +237,12 @@ português.
 
 Prime School Press · www.primeschool.pt
 
+**6**
+
 <!-- page 7 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**7**
 
 Objectivos
 
@@ -275,11 +279,12 @@ Apresentar o teu hábito de leitura em 20 segundos
 
 Prime School Press · www.primeschool.pt
 
+**7**
+
 <!-- page 8 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**8**
 
 Texto 1
 
@@ -312,11 +317,12 @@ Os dois são leitores. Só não são o mesmo leitor.
 
 Prime School Press · www.primeschool.pt
 
+**8**
+
 <!-- page 9 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**9**
 
 Compreensão
 
@@ -343,11 +349,12 @@ ponto.
 
 Prime School Press · www.primeschool.pt
 
+**9**
+
 <!-- page 10 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**10**
 
 Oficina de língua
 
@@ -384,11 +391,12 @@ Escreve no caderno uma frase interrogativa sobre leitura.
 
 Prime School Press · www.primeschool.pt
 
+**10**
+
 <!-- page 11 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**11**
 
 Texto 2
 
@@ -419,11 +427,12 @@ A sala fica atenta. Até o relógio parece ouvir.
 
 Prime School Press · www.primeschool.pt
 
+**11**
+
 <!-- page 12 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**12**
 
 Texto 3 e oral
 
@@ -453,11 +462,12 @@ Apresenta o teu hábito de leitura em 20 segundos.
 
 Prime School Press · www.primeschool.pt
 
+**12**
+
 <!-- page 13 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**13**
 
 Planear
 
@@ -491,11 +501,12 @@ Pontuação ( . ? ! )
 
 Prime School Press · www.primeschool.pt
 
+**13**
+
 <!-- page 14 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**14**
 
 Quiz da unidade 1
 
@@ -524,11 +535,12 @@ determinante.
 
 Prime School Press · www.primeschool.pt
 
+**14**
+
 <!-- page 15 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 1 · SOU LEITOR NA COLINA
-**15**
 
 Produto
 
@@ -567,18 +579,19 @@ Original e verdadeiro
 
 Prime School Press · www.primeschool.pt
 
+**15**
+
 <!-- page 16 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**16**
 
-Abertura
+## Abertura
 
 Vasco e Bia na mesa da Oficina, prontos para uma história.
 
 ## Unidade 2 de 10 · 1.º período · Narrativas
-Histórias que saem da mochila
+## Histórias que saem da mochila
 
 ## Pergunta de vida: Que objecto da tua mochila podia começar um
 conto?
@@ -594,17 +607,17 @@ de verdade.
 **Objectivo: Entrar no texto narrativo.**
 **Fazer: Cada aluno nomeia um objecto-herói.**
 **Ouvir / Corrigir: Personagem, lugar, problema.**
-
 **Apoio: Cartão Quem / Onde / O que aconteceu.**
 **Desafio extra: Uma frase interrogativa sobre o objecto.**
 
 Prime School Press · www.primeschool.pt
 
+**16**
+
 <!-- page 17 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**17**
 
 Objectivos
 
@@ -638,11 +651,12 @@ Recontar o conto em quatro frases
 
 Prime School Press · www.primeschool.pt
 
+**17**
+
 <!-- page 18 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**18**
 
 Texto 1
 
@@ -673,11 +687,12 @@ Eles voltaram. O mapa não voltou a fugir. Ficou entre as páginas
 
 Prime School Press · www.primeschool.pt
 
+**18**
+
 <!-- page 19 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**19**
 
 Compreensão
 
@@ -704,11 +719,12 @@ Qual é o problema e como se resolve?
 
 Prime School Press · www.primeschool.pt
 
+**19**
+
 <!-- page 20 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**20**
 
 Oficina de língua
 
@@ -742,11 +758,12 @@ Expande: «A Bia correu.»
 
 Prime School Press · www.primeschool.pt
 
+**20**
+
 <!-- page 21 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**21**
 
 Texto 2
 
@@ -782,11 +799,12 @@ Vasco pensou e disse:
 
 Prime School Press · www.primeschool.pt
 
+**21**
+
 <!-- page 22 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**22**
 
 Texto 3 e oral
 
@@ -815,11 +833,12 @@ conseguires.
 
 Prime School Press · www.primeschool.pt
 
+**22**
+
 <!-- page 23 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**23**
 
 Planear
 
@@ -853,11 +872,12 @@ Título do cartaz
 
 Prime School Press · www.primeschool.pt
 
+**23**
+
 <!-- page 24 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**24**
 
 Quiz da unidade 2
 
@@ -885,11 +905,12 @@ Rodeia a escrita correcta: casa / caza · azul / asul
 
 Prime School Press · www.primeschool.pt
 
+**24**
+
 <!-- page 25 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 2 · HISTÓRIAS QUE SAEM DA MOCHILA
-**25**
 
 Produto
 
@@ -926,18 +947,19 @@ Cartaz claro
 
 Prime School Press · www.primeschool.pt
 
+**25**
+
 <!-- page 26 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**26**
 
-Abertura
+## Abertura
 
 Vasco na mesa da Oficina, a imaginar uma viagem.
 
 ## Unidade 3 de 10 · 1.º período · Imaginação e guião
-A borracha viajante
+## A borracha viajante
 
 ## Pergunta de vida: Se um objecto da tua estojo ganhasse voz, o
 que diria primeiro?
@@ -958,11 +980,12 @@ ninguém.
 
 Prime School Press · www.primeschool.pt
 
+**26**
+
 <!-- page 27 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**27**
 
 Objectivos
 
@@ -997,11 +1020,12 @@ Ensaio lido da cena
 
 Prime School Press · www.primeschool.pt
 
+**27**
+
 <!-- page 28 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**28**
 
 Texto 1
 
@@ -1029,11 +1053,12 @@ A borracha não respondeu. As borrachas não falam.
 
 Prime School Press · www.primeschool.pt
 
+**28**
+
 <!-- page 29 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**29**
 
 Compreensão
 
@@ -1058,11 +1083,12 @@ A borracha fala de verdade? O que é imaginação?
 
 Prime School Press · www.primeschool.pt
 
+**29**
+
 <!-- page 30 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**30**
 
 Oficina de língua
 
@@ -1096,11 +1122,12 @@ Escreve no caderno fazer e mesa e sublinha s ou z.
 
 Prime School Press · www.primeschool.pt
 
+**30**
+
 <!-- page 31 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**31**
 
 Texto 2
 
@@ -1129,11 +1156,12 @@ LÁPIS: Só se me puserem no estojo com cuidado.
 
 Prime School Press · www.primeschool.pt
 
+**31**
+
 <!-- page 32 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**32**
 
 Texto 3 e oral
 
@@ -1159,11 +1187,12 @@ uma frase de paz, não um anúncio.
 
 Prime School Press · www.primeschool.pt
 
+**32**
+
 <!-- page 33 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**33**
 
 Planear
 
@@ -1195,11 +1224,12 @@ Uma palavra com s ou z
 
 Prime School Press · www.primeschool.pt
 
+**33**
+
 <!-- page 34 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**34**
 
 Quiz da unidade 3
 
@@ -1227,11 +1257,12 @@ Rodeia: mesa / meza · fazer / facer
 
 Prime School Press · www.primeschool.pt
 
+**34**
+
 <!-- page 35 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 3 · A BORRACHA VIAJANTE
-**35**
 
 Produto e revisão
 
@@ -1270,18 +1301,19 @@ Ensaio audível
 
 Prime School Press · www.primeschool.pt
 
+**35**
+
 <!-- page 36 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**36**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, a pensar num recado claro.
 
 ## Unidade 4 de 10 · 2.º período · Convite e narrativa
-O convite da biblioteca
+## O convite da biblioteca
 
 ## Pergunta de vida: Quem gostavas de convidar para uma hora de
 leitura?
@@ -1294,17 +1326,17 @@ leitura?
 **Objectivo: Escrita funcional (convite).**
 **Fazer: Listar os cinco dados de um convite.**
 **Ouvir / Corrigir: Sem data o convite não serve.**
-
 **Apoio: Cartões Quem / O quê / Onde / Quando / Resposta.**
 **Desafio extra: Uma frase interrogativa no convite.**
 
 Prime School Press · www.primeschool.pt
 
+**36**
+
 <!-- page 37 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**37**
 
 Objectivos
 
@@ -1338,11 +1370,12 @@ Convidar um colega em voz alta, com clareza
 
 Prime School Press · www.primeschool.pt
 
+**37**
+
 <!-- page 38 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**38**
 
 Texto 1
 
@@ -1373,11 +1406,12 @@ e disse: «Passem. Os almofadões já estão no sítio.»
 
 Prime School Press · www.primeschool.pt
 
+**38**
+
 <!-- page 39 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**39**
 
 Compreensão
 
@@ -1402,11 +1436,12 @@ Inventa no caderno um título para esta história.
 
 Prime School Press · www.primeschool.pt
 
+**39**
+
 <!-- page 40 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**40**
 
 Oficina de língua
 
@@ -1438,11 +1473,12 @@ Classifica: «Vens à biblioteca?»
 
 Prime School Press · www.primeschool.pt
 
+**40**
+
 <!-- page 41 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**41**
 
 Texto 2
 
@@ -1470,11 +1506,12 @@ Traz um livro. Vem com tempo.
 
 Prime School Press · www.primeschool.pt
 
+**41**
+
 <!-- page 42 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**42**
 
 Texto 3 e oral
 
@@ -1499,11 +1536,12 @@ aos poucos, em voz alta, na sexta.
 
 Prime School Press · www.primeschool.pt
 
+**42**
+
 <!-- page 43 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**43**
 
 Planear
 
@@ -1535,11 +1573,12 @@ Sinais que vou usar
 
 Prime School Press · www.primeschool.pt
 
+**43**
+
 <!-- page 44 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**44**
 
 Quiz da unidade 4
 
@@ -1565,11 +1604,12 @@ Põe os sinais: «Ana disse tragam o livro»
 
 Prime School Press · www.primeschool.pt
 
+**44**
+
 <!-- page 45 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 4 · O CONVITE DA BIBLIOTECA
-**45**
 
 Produto
 
@@ -1606,18 +1646,19 @@ Tom educado
 
 Prime School Press · www.primeschool.pt
 
+**45**
+
 <!-- page 46 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**46**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, a pensar nos heróis do pátio.
 
 ## Unidade 5 de 10 · 2.º período · Informação e ambiente
-Heróis do recreio
+## Heróis do recreio
 
 ## Pergunta de vida: Quem cuida do pátio, das plantas ou dos mais
 novos
@@ -1638,11 +1679,12 @@ já
 
 Prime School Press · www.primeschool.pt
 
+**46**
+
 <!-- page 47 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**47**
 
 Objectivos
 
@@ -1676,11 +1718,12 @@ Defender uma ideia com um facto
 
 Prime School Press · www.primeschool.pt
 
+**47**
+
 <!-- page 48 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**48**
 
 Texto 1
 
@@ -1708,11 +1751,12 @@ Facto: ao fim do dia ainda há papel no chão.
 
 Prime School Press · www.primeschool.pt
 
+**48**
+
 <!-- page 49 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**49**
 
 Compreensão
 
@@ -1737,11 +1781,12 @@ Palmas: recreio, oliveira, papeleira. Qual é a sílaba mais forte?
 
 Prime School Press · www.primeschool.pt
 
+**49**
+
 <!-- page 50 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**50**
 
 Oficina de língua
 
@@ -1775,11 +1820,12 @@ Completa: ca___o (o da estrada) · á___vore
 
 Prime School Press · www.primeschool.pt
 
+**50**
+
 <!-- page 51 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**51**
 
 Texto 2
 
@@ -1805,11 +1851,12 @@ ir
 
 Prime School Press · www.primeschool.pt
 
+**51**
+
 <!-- page 52 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**52**
 
 Texto 3 e oral
 
@@ -1839,11 +1886,12 @@ Diz um facto do pátio e uma opinião. O colega tem de os distinguir.
 
 Prime School Press · www.primeschool.pt
 
+**52**
+
 <!-- page 53 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**53**
 
 Planear
 
@@ -1873,11 +1921,12 @@ Uma palavra para bater palmas
 
 Prime School Press · www.primeschool.pt
 
+**53**
+
 <!-- page 54 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**54**
 
 Quiz da unidade 5
 
@@ -1903,11 +1952,12 @@ Escreve no caderno: um facto e uma opinião sobre o recreio.
 
 Prime School Press · www.primeschool.pt
 
+**54**
+
 <!-- page 55 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 5 · HERÓIS DO RECREIO
-**55**
 
 Produto
 
@@ -1944,18 +1994,19 @@ Tom respeitoso
 
 Prime School Press · www.primeschool.pt
 
+**55**
+
 <!-- page 56 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**56**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, pronto para ler uma vida.
 
 ## Unidade 6 de 10 · 2.º período · Biografia
-Vidas para ler
+## Vidas para ler
 
 ## Pergunta de vida: De quem gostavas de contar a vida: um avô,
 uma
@@ -1976,11 +2027,12 @@ escrevemos o número.
 
 Prime School Press · www.primeschool.pt
 
+**56**
+
 <!-- page 57 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**57**
 
 Objectivos
 
@@ -2015,11 +2067,12 @@ Apresentar a pessoa em 30 segundos
 
 Prime School Press · www.primeschool.pt
 
+**57**
+
 <!-- page 58 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**58**
 
 Texto 1
 
@@ -2049,11 +2102,12 @@ ficha real.
 
 Prime School Press · www.primeschool.pt
 
+**58**
+
 <!-- page 59 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**59**
 
 Compreensão
 
@@ -2094,11 +2148,12 @@ verbo que muda mais (ir → foi, ser → foi)
 
 Prime School Press · www.primeschool.pt
 
+**59**
+
 <!-- page 60 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**60**
 
 Oficina de língua
 
@@ -2132,11 +2187,12 @@ Diz se foi é regular ou irregular.
 
 Prime School Press · www.primeschool.pt
 
+**60**
+
 <!-- page 61 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**61**
 
 Texto 2
 
@@ -2162,11 +2218,12 @@ estas borboletas gostam de sítios com sol.
 
 Prime School Press · www.primeschool.pt
 
+**61**
+
 <!-- page 62 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**62**
 
 Texto 3 e oral
 
@@ -2195,11 +2252,12 @@ família
 
 Prime School Press · www.primeschool.pt
 
+**62**
+
 <!-- page 63 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**63**
 
 Planear
 
@@ -2233,11 +2291,12 @@ Se não souberes um facto, deixa em branco. Não inventes.
 
 Prime School Press · www.primeschool.pt
 
+**63**
+
 <!-- page 64 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**64**
 
 Quiz da unidade 6
 
@@ -2263,11 +2322,12 @@ O Texto 2 é uma biografia? Porque sim ou não?
 
 Prime School Press · www.primeschool.pt
 
+**64**
+
 <!-- page 65 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 6 · VIDAS PARA LER
-**65**
 
 Produto e revisão
 
@@ -2305,18 +2365,19 @@ há / à e apresentação
 
 Prime School Press · www.primeschool.pt
 
+**65**
+
 <!-- page 66 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**66**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, a olhar para o jardim da janela.
 
 ## Unidade 7 de 10 · 3.º período · Natureza e programa
-A gota e o jardim
+## A gota e o jardim
 
 ## Pergunta de vida: Por onde anda a água depois de abrires a
 torneira?
@@ -2328,7 +2389,6 @@ escola
 **NOTAS DO PROFESSOR**
 
 **Objectivo: Relacionar Português com o estudo do meio.**
-
 **Fazer: Desenhar no ar o caminho da água.**
 **Ouvir / Corrigir: Vocabulário preciso (torneira, terra, raiz).**
 **Apoio: Três imagens: torneira, terra, planta.**
@@ -2336,11 +2396,12 @@ escola
 
 Prime School Press · www.primeschool.pt
 
+**66**
+
 <!-- page 67 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**67**
 
 Objectivos
 
@@ -2377,11 +2438,12 @@ Explicar uma regra do jardim
 
 Prime School Press · www.primeschool.pt
 
+**67**
+
 <!-- page 68 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**68**
 
 Texto 1
 
@@ -2409,11 +2471,12 @@ A terra bebeu-a. A raiz puxou-a. A folha ficou mais verde.
 
 Prime School Press · www.primeschool.pt
 
+**68**
+
 <!-- page 69 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**69**
 
 Compreensão
 
@@ -2437,11 +2500,12 @@ Família de jardim: jardineiro, jardinagem… Acrescenta uma.
 
 Prime School Press · www.primeschool.pt
 
+**69**
+
 <!-- page 70 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**70**
 
 Oficina de língua
 
@@ -2475,11 +2539,12 @@ Muda o valor: passa «Fecha a torneira.» a uma pergunta.
 
 Prime School Press · www.primeschool.pt
 
+**70**
+
 <!-- page 71 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**71**
 
 Texto 2
 
@@ -2506,11 +2571,12 @@ três factos
 
 Prime School Press · www.primeschool.pt
 
+**71**
+
 <!-- page 72 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**72**
 
 Texto 3 e oral
 
@@ -2542,11 +2608,12 @@ imperativa.
 
 Prime School Press · www.primeschool.pt
 
+**72**
+
 <!-- page 73 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**73**
 
 Planear
 
@@ -2578,11 +2645,12 @@ Opinião com porque
 
 Prime School Press · www.primeschool.pt
 
+**73**
+
 <!-- page 74 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**74**
 
 Quiz da unidade 7
 
@@ -2610,11 +2678,12 @@ Escreve no caderno um passo de um programa com um advérbio.
 
 Prime School Press · www.primeschool.pt
 
+**74**
+
 <!-- page 75 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 7 · A GOTA E O JARDIM
-**75**
 
 Produto
 
@@ -2651,18 +2720,19 @@ Opinião com razão
 
 Prime School Press · www.primeschool.pt
 
+**75**
+
 <!-- page 76 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**76**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, a escolher um livro.
 
 ## Unidade 8 de 10 · 3.º período · Livros e leitura
-A livraria da nossa rua
+## A livraria da nossa rua
 
 ## Pergunta de vida: Qual foi o último livro que não quiseste fechar?
 
@@ -2674,7 +2744,6 @@ e fecha na unidade 10.
 **NOTAS DO PROFESSOR**
 
 **Objectivo: Hábitos de leitura e educação literária.**
-
 **Fazer: Cada aluno nomeia um livro (título verdadeiro).**
 **Ouvir / Corrigir: Título com maiúsculas.**
 **Apoio: Cartaz «Estou a ler…».**
@@ -2682,11 +2751,12 @@ e fecha na unidade 10.
 
 Prime School Press · www.primeschool.pt
 
+**76**
+
 <!-- page 77 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**77**
 
 Objectivos
 
@@ -2723,11 +2793,12 @@ Recomendar um livro em 20 segundos
 
 Prime School Press · www.primeschool.pt
 
+**77**
+
 <!-- page 78 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**78**
 
 Texto 1
 
@@ -2758,11 +2829,12 @@ A senhora Ilda sorriu.
 
 Prime School Press · www.primeschool.pt
 
+**78**
+
 <!-- page 79 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**79**
 
 Compreensão
 
@@ -2787,11 +2859,12 @@ Porque diz a senhora Ilda que o livro escolheu a Bia?
 
 Prime School Press · www.primeschool.pt
 
+**79**
+
 <!-- page 80 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**80**
 
 Oficina de língua
 
@@ -2824,11 +2897,12 @@ Escreve: «___ caderno» (o teu).
 
 Prime School Press · www.primeschool.pt
 
+**80**
+
 <!-- page 81 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**81**
 
 Texto 2
 
@@ -2853,11 +2927,12 @@ Mesmo assim, a sala pareceu mais clara.
 
 Prime School Press · www.primeschool.pt
 
+**81**
+
 <!-- page 82 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**82**
 
 Texto 3 e oral
 
@@ -2882,11 +2957,12 @@ e traz a ficha.
 
 Prime School Press · www.primeschool.pt
 
+**82**
+
 <!-- page 83 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**83**
 
 Planear
 
@@ -2918,11 +2994,12 @@ Recomendação
 
 Prime School Press · www.primeschool.pt
 
+**83**
+
 <!-- page 84 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**84**
 
 Quiz da unidade 8
 
@@ -2948,11 +3025,12 @@ Escreve no caderno uma frase com nossa e uma com estas.
 
 Prime School Press · www.primeschool.pt
 
+**84**
+
 <!-- page 85 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 8 · A LIVRARIA DA NOSSA RUA
-**85**
 
 Produto
 
@@ -2989,18 +3067,19 @@ Respeito pelo livro
 
 Prime School Press · www.primeschool.pt
 
+**85**
+
 <!-- page 86 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**86**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, com o caderno das ideias aberto.
 
 ## Unidade 9 de 10 · 3.º período · Diário e opinião
-O caderno das ideias
+## O caderno das ideias
 
 ## Pergunta de vida: Se o teu dia de ontem fosse uma página de
 diário,
@@ -3021,11 +3100,12 @@ a alguém de casa. Ninguém é obrigado a partilhar o diário inteiro.
 
 Prime School Press · www.primeschool.pt
 
+**86**
+
 <!-- page 87 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**87**
 
 Objectivos
 
@@ -3062,11 +3142,12 @@ Defender uma ideia sem interromper
 
 Prime School Press · www.primeschool.pt
 
+**87**
+
 <!-- page 88 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**88**
 
 Texto 1
 
@@ -3093,11 +3174,12 @@ Ainda quero melhorar o volume da voz.
 
 Prime School Press · www.primeschool.pt
 
+**88**
+
 <!-- page 89 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**89**
 
 Compreensão
 
@@ -3121,11 +3203,12 @@ Qual é o predicado de «Eu li duas frases»?
 
 Prime School Press · www.primeschool.pt
 
+**89**
+
 <!-- page 90 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**90**
 
 Oficina de língua
 
@@ -3160,11 +3243,12 @@ Reduz: «A Bia escreveu com muito cuidado no caderno novo.»
 
 Prime School Press · www.primeschool.pt
 
+**90**
+
 <!-- page 91 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**91**
 
 Texto 2
 
@@ -3191,11 +3275,12 @@ Um texto de opinião no caderno da Oficina.
 
 Prime School Press · www.primeschool.pt
 
+**91**
+
 <!-- page 92 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**92**
 
 Texto 3 e oral
 
@@ -3219,11 +3304,12 @@ O colega não interrompe. Depois troca.
 
 Prime School Press · www.primeschool.pt
 
+**92**
+
 <!-- page 93 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**93**
 
 Planear
 
@@ -3257,11 +3343,12 @@ O diário fica no caderno. Só partilhas o que quiseres.
 
 Prime School Press · www.primeschool.pt
 
+**93**
+
 <!-- page 94 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**94**
 
 Quiz da unidade 9
 
@@ -3287,11 +3374,12 @@ Completa: GN = grupo ________. GV = grupo ________.
 
 Prime School Press · www.primeschool.pt
 
+**94**
+
 <!-- page 95 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 9 · O CADERNO DAS IDEIAS
-**95**
 
 Produto
 
@@ -3328,18 +3416,19 @@ Expandir ou reduzir de propósito
 
 Prime School Press · www.primeschool.pt
 
+**95**
+
 <!-- page 96 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**96**
 
-Abertura
+## Abertura
 
 Vasco na Oficina, a fechar o ano de histórias.
 
 ## Unidade 10 de 10 · 3.º período · Encerramento
-O ano em histórias
+## O ano em histórias
 
 ## Pergunta de vida: Que trabalho deste livro mostra melhor o que
 já sabes?
@@ -3352,17 +3441,17 @@ já sabes?
 **Objectivo: Consolidar e escolher peças do portefólio.**
 **Fazer: Cada aluno aponta um trabalho das unidades 1 a 9.**
 **Ouvir / Corrigir: Justificação com porque.**
-
 **Apoio: Índice do livro aberto.**
 **Desafio extra: Nomear a ferramenta gramatical dessa unidade.**
 
 Prime School Press · www.primeschool.pt
 
+**96**
+
 <!-- page 97 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**97**
 
 Objectivos
 
@@ -3399,11 +3488,12 @@ verbos, há/à, família, advérbios, possessivos, sujeito e predicado.
 
 Prime School Press · www.primeschool.pt
 
+**97**
+
 <!-- page 98 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**98**
 
 Texto 1
 
@@ -3434,11 +3524,12 @@ O baú ficou mais leve. As palavras, não.
 
 Prime School Press · www.primeschool.pt
 
+**98**
+
 <!-- page 99 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**99**
 
 Compreensão
 
@@ -3462,11 +3553,12 @@ Escolhe já, no índice, as tuas três peças.
 
 Prime School Press · www.primeschool.pt
 
+**99**
+
 <!-- page 100 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**100**
 
 Oficina de língua
 
@@ -3494,11 +3586,12 @@ Sujeito e predicado: «A Bia fechou o baú.»
 
 Prime School Press · www.primeschool.pt
 
+**100**
+
 <!-- page 101 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**101**
 
 Texto 2
 
@@ -3527,11 +3620,12 @@ Regra: rimos de situações, não de colegas.
 
 Prime School Press · www.primeschool.pt
 
+**101**
+
 <!-- page 102 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**102**
 
 Texto 3 e oral
 
@@ -3563,11 +3657,12 @@ para o Year 5.
 
 Prime School Press · www.primeschool.pt
 
+**102**
+
 <!-- page 103 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**103**
 
 Planear
 
@@ -3601,11 +3696,12 @@ Frase da apresentação
 
 Prime School Press · www.primeschool.pt
 
+**103**
+
 <!-- page 104 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**104**
 
 Quiz da unidade 10
 
@@ -3631,11 +3727,12 @@ Escreve no caderno uma opinião de uma frase com porque.
 
 Prime School Press · www.primeschool.pt
 
+**104**
+
 <!-- page 105 -->
 
 ---
 PORTUGUÊS Y4 · UNIDADE 10 · O ANO EM HISTÓRIAS
-**105**
 
 Produto e revisão final
 
@@ -3675,11 +3772,12 @@ Gramática e apresentação
 
 Prime School Press · www.primeschool.pt
 
+**105**
+
 <!-- page 106 -->
 
 ---
 PORTUGUÊS Y4 · GLOSSÁRIO
-**106**
 
 Palavras do ano (1)
 
@@ -3748,11 +3846,12 @@ a sílaba mais forte
 
 Prime School Press · www.primeschool.pt
 
+**106**
+
 <!-- page 107 -->
 
 ---
 PORTUGUÊS Y4 · GLOSSÁRIO
-**107**
 
 Palavras do ano (2)
 
@@ -3813,11 +3912,12 @@ trabalhos escolhidos e uma reflexão
 
 Prime School Press · www.primeschool.pt
 
+**107**
+
 <!-- page 108 -->
 
 ---
 PORTUGUÊS Y4 · RESPOSTAS
-**108**
 
 Respostas
 
@@ -3857,11 +3957,12 @@ números.
 
 Prime School Press · www.primeschool.pt
 
+**108**
+
 <!-- page 109 -->
 
 ---
 PORTUGUÊS Y4 · PROFESSORES
-**109**
 
 Para professores
 
@@ -3890,41 +3991,32 @@ página.
 
 Prime School Press · www.primeschool.pt
 
+**109**
+
 <!-- page 110 -->
 
 ---
 PORTUGUÊS Y4 · QR
-**110**
 
 Códigos QR · Unidades 1 a 5
 
 **Abre cada código com um adulto.Cada site apoia a matéria da unidade.**
 
-U1
-
 Sou leitor
 
 Dicionário Priberam
-
-U2
 
 Narrativas
 
 Ciberdúvidas
 
-U3
-
 Imaginação
 
 Plano Nacional de Leitura
 
-U4
-
 Convite
 
 RTP Ensina
-
-U5
 
 Informação
 
@@ -3938,41 +4030,39 @@ Biblioteca Nacional
 
 Prime School Press · www.primeschool.pt
 
+**110**
+
+**U1**
+**U2**
+**U3**
+
+**U4**
+**U5**
+
 <!-- page 111 -->
 
 ---
 PORTUGUÊS Y4 · QR
-**111**
 
 Códigos QR · Unidades 6 a 10
 
 Continua com a ajuda de um adulto.Cada QR liga a um recurso real sobre o tema da unidade.
 
-U6
-
 Ambiente
 
 Quercus
-
-U7
 
 Natureza
 
 Nações Unidas (PT)
 
-U8
-
 Livros
 
 Teatro Nacional D. Maria II
 
-U9
-
 Descobrir
 
 Ciência Viva
-
-U10
 
 Portefólio
 
@@ -3986,13 +4076,24 @@ Prime School
 
 Prime School Press · www.primeschool.pt
 
+**111**
+
+**U6**
+**U7**
+**U8**
+
+**U9**
+**U10**
+
 <!-- page 112 -->
 
 ---
+**112**
 
 <!-- page 113 -->
 
 ---
+**113**
 
 <!-- page 114 -->
 
