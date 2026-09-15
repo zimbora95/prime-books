@@ -1,4 +1,4 @@
-# Standard A for Years 1 to 4, edition A-2.2
+# Standard A for Years 1 to 4, edition A-2.3
 
 Locked by the teacher on 14 September 2026. Web version:
 https://prime-books-pi.vercel.app/standard/years-1-4
@@ -8,8 +8,12 @@ This is the working specification for every Prime Books title from Year 1 to Yea
 record for Years 1 to 12 stays in `public/standards/primary-standard.md`. Where this file and that one
 disagree for Years 1 to 4, this file wins.
 
-A-2.2 supersedes A-2.1: the teacher delegated the five open items and added the Welcome cast, the QR
+A-2.2 superseded A-2.1: the teacher delegated the five open items and added the Welcome cast, the QR
 policy, the References section, the safe-margin rule and the image-reference workflow.
+
+A-2.3 supersedes A-2.2: **the identity layer.** The standard fixes the architecture and frees the
+identity, so no two titles read as the same book with a different subject on the cover. The teacher's
+instruction: award-winning books, never a repeated template.
 
 ## Precedence
 
@@ -168,6 +172,58 @@ evidence in the same medium.
 - The spine is a measured number: confirm with calipers on the first physical proof and correct the
   per-page figure if it is out by more than half a millimetre.
 
+## The identity layer: one standard, twelve identities
+
+**Fixed in every book:** trim and safe area, the font set and type ladder, folio geometry, the unit
+band, the page map and the order of the front and back matter, the contents component, the references
+section, the QR rules, unit colour rung n = unit n, the cover frame, and the two overriding rules about
+teacher content and never shrinking text.
+
+**Free in every book, and required to differ:** the book declares an **identity block** in its own
+build file.
+
+| Element | What the book declares |
+|---|---|
+| Voice | The narrator's temperament, and therefore how every instruction and caption is phrased |
+| Cast and place | Four to six named characters of that subject, plus one recurring place |
+| Signature page | **One** page type unique to that subject, exactly once per unit |
+| Rhythm | The page-turn tempo of each unit, written as a weight string |
+| Material | The objects and textures the subject's art is built from, plus two accent tints |
+| Cover picture | What the fixed frame holds for that subject |
+
+Declared shape, four examples: Art & Design is a curious studio assistant on the studio and drying
+shelf with a **Studio Wall**; Physical Education is a coach beside you counting out loud, in the meadow,
+with a **Moving Well card**; Science is a field-notebook observer at the growing beds with a **Field
+Notebook**; Mathematics is a puzzle workshop at the market stall with a **Puzzle Shelf**. The other ten
+subjects declare the same way when their book is built.
+
+One integer **seed** per book places the QR codes, the breath pages and the surprise element: varied
+between books, reproducible in the file, never random at render time.
+
+## The rules that stop the boredom
+
+- No page type twice in consecutive positions, and none more than twice inside one unit.
+- A unit of 8 to 14 pages carries at least four distinct page types.
+- Every unit contains exactly one signature page and at least one **breath page**: one large image, no
+  more than 25 words.
+- Never two dense teaching pages in a row, and never three response pages in a row.
+- A unit opener earns the turn: a question, an object or a promise, never a title alone.
+- Across a book, no layout runs unchanged on more than two units.
+- Rhythm weights: **E** energy, **D** dense, **R** response, **B** breath, **S** signature. A
+  four-page unit reads `E D R S`, and the breath page moves position from unit to unit.
+
+## What makes them award-winning, on purpose
+
+**Per unit:** one curiosity hook, one moment of real child agency, one audience beyond the mark scheme,
+one image a child will remember, one question the child asks back.
+
+**Per book:** a declared identity, a rhythm that varies, authentic evidence kept authentic, visible
+progress, teacher rescue notes for the moment a class gets stuck, and credits and references that
+survive printing.
+
+**The test:** say out loud what a child will remember from this book. If the answer is a worksheet, the
+book is not finished.
+
 ## How a title becomes standardised
 
 1. The **standards bot** measures the published PDF against the locked tokens and writes
@@ -183,6 +239,9 @@ evidence in the same medium.
 
 ## Decided on 14 September 2026
 
+- The identity layer adopted: each book keeps its own voice, cast, place, signature page, rhythm and
+  material inside the fixed architecture; anti-repetition and the award criteria are now enforced in
+  review, and the standards bot will warn on a missing identity block or a broken rhythm.
 - Palette rungs 5 and 6 locked (sage, ochre with the house-ochre mid tone).
 - No size migration: authoring stays US Letter, the pack builder normalises the print trim.
 - Extent is a formula, not a fixed budget, and blank pages are forbidden.

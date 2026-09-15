@@ -89,7 +89,19 @@ def check_one(item):
                 "warnings": [], "facts": {}}
 
 
+MIN_PAGES = 35          # the standard's minimum viable extent: below this it is a placeholder
+
+
+def is_stub(rec) -> bool:
+    try:
+        return int(rec.get("pages") or 0) < MIN_PAGES
+    except (TypeError, ValueError):
+        return False
+
+
 def state_of(rec, signed):
+    if rec.get("stub"):
+        return "not built"
     if rec["ok"] and signed:
         return "signed-off"
     if rec["ok"]:
@@ -133,11 +145,20 @@ def main() -> int:
                      "clean" if rec["ok"] else rec["failures"][0][:60]))
 
     for r in results:
+        if is_stub(r):
+            r["stub"] = True
+            # Keep the measured failures. Erasing them let a consumer read "0
+            # failures" off a master that fails five checks - which is how an
+            # 18-page placeholder got seeded as a STANDARDISE card. "stub" is
+            # the flag that says "not built"; the failures still say why.
+            r["warnings"] = (["placeholder file: %s page(s), below the standard's minimum viable extent of %d"
+                              % (r.get("pages"), MIN_PAGES)] + list(r.get("warnings") or []))
         r["state"] = state_of(r, bool(signed.get(r["slug"])))
     results += [{"slug": s, "ok": None, "scope": False, "state": "out of scope",
                  "failures": [], "warnings": [], "facts": {"reason": "not a Years 1-4 title"}}
                 for s in skipped]
-    clean = [r for r in results if r["ok"]]
+    built = [r for r in results if r.get("scope", True) and not r.get("stub")]
+    clean = [r for r in built if r["ok"]]
     report = {
         "generated": started.strftime("%Y-%m-%d %H:%M UTC"),
         "spec": lock_id(),
@@ -154,10 +175,12 @@ def main() -> int:
         "totals": {
             "books": len(jobs),
             "out_of_scope": len(skipped),
+            "built": len(built),
+            "not_built": len(results) - len(skipped) - len(built),
             "machine_clean": len(clean),
             "signed_off": sum(1 for r in results if r["state"] == "signed-off"),
             "awaiting_sign_off": sum(1 for r in results if r["state"] == "machine-clean"),
-            "failing": len(jobs) - len(clean),
+            "failing": len(built) - len(clean),
         },
         "books": results,
     }
@@ -184,6 +207,11 @@ def main() -> int:
             for row in y.get("books", []):
                 rec = by.get(row["slug"])
                 if rec and rec.get("scope", True):
+                    if rec.get("stub"):
+                        row["checked"] = {"ok": False, "failures": len(rec["failures"]),
+                                          "warnings": len(rec["warnings"]),
+                                          "state": "not built"}
+                        continue
                     row["checked"] = {"ok": rec["ok"],
                                       "failures": len(rec["failures"]),
                                       "warnings": len(rec["warnings"]),
@@ -194,8 +222,8 @@ def main() -> int:
     if a.push:
         rel = [str(REPORT.relative_to(REPO)), str(STATUS.relative_to(REPO))]
         subprocess.run(["git", "add", *rel], cwd=REPO, check=False)
-        msg = ("standards bot: %d/%d machine clean, %d signed off (%s)"
-               % (report["totals"]["machine_clean"], len(jobs),
+        msg = ("standards bot: %d/%d built titles machine clean, %d signed off (%s)"
+               % (report["totals"]["machine_clean"], len(built),
                   report["totals"]["signed_off"], report["spec"]))
         c = subprocess.run(["git", "commit", "-q", "-m", msg], cwd=REPO, capture_output=True, text=True)
         if c.returncode != 0:

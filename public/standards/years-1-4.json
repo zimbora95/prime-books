@@ -1,12 +1,22 @@
 {
-  "id": "A-2.2-Y1-4",
+  "id": "A-2.3-Y1-4",
   "title": "Prime Books Primary Standard, Years 1 to 4",
   "status": "locked by the teacher, 14 September 2026",
-  "scope_years": [1, 2, 3, 4],
+  "scope_years": [
+    1,
+    2,
+    3,
+    4
+  ],
   "locked_on": "2026-09-14",
-  "revision_note": "A-2.2 supersedes A-2.1: the teacher delegated the five open items, added the Welcome cast, the QR policy, the References section, the safe-margin rule and the image-reference workflow.",
+  "revision_note": "A-2.3 supersedes A-2.2: adds the identity layer. The standard fixes the architecture and frees the identity, so no two Prime Books titles may read as the same book with a different subject on the cover. The teacher asked for award-winning books, not a template.",
   "scope": {
-    "years": [1, 2, 3, 4],
+    "years": [
+      1,
+      2,
+      3,
+      4
+    ],
     "collection": "Standard A (Primary). Standard B, Years 7 to 12, is not touched by this lock.",
     "layout_reference": "public/library/y01-art-and-design/book.pdf",
     "unit_page_reference": "y01 Physical Education, Unit 1 'Moving well', physical page 12",
@@ -16,28 +26,80 @@
   },
   "geometry": {
     "unit": "millimetres are the source of truth for print, points for authoring, converted at 72/25.4",
-    "authoring_page_pt": [612.0, 792.0],
-    "trim_mm": [216.0, 279.0],
-    "media_mm": [222.0, 285.0],
+    "authoring_page_pt": [
+      612.0,
+      792.0
+    ],
+    "trim_mm": [
+      216.0,
+      279.0
+    ],
+    "media_mm": [
+      222.0,
+      285.0
+    ],
     "bleed_mm": 3.0,
-    "trim_pt": [612.28, 790.87],
+    "trim_pt": [
+      612.28,
+      790.87
+    ],
     "bleed_pt": 8.5,
-    "margins_mm": { "inside_gutter": 20.0, "outside": 15.0, "top": 23.25, "bottom": 20.0 },
+    "margins_mm": {
+      "inside_gutter": 20.0,
+      "outside": 15.0,
+      "top": 23.25,
+      "bottom": 20.0
+    },
     "margin_note": "mirrored margins: the inner margin is deeper than the outer one, because BookVault binds on the inner edge",
-    "safe_area_pt": { "x_min_recto": 56.7, "x_max_recto": 597.8, "y_min": 14.2, "y_max": 762.0 },
+    "safe_area_pt": {
+      "x_min_recto": 56.7,
+      "x_max_recto": 597.8,
+      "y_min": 14.2,
+      "y_max": 762.0
+    },
     "safe_area_note": "20 mm (56.7 pt) from the binding edge, 5 mm (14.2 pt) from the other three trim edges",
     "trim_safety_mm": 5.0,
     "footer_rule_y_pt_from_trim_top": 742.0,
-    "folio_centre_pt": [550.0, 758.0],
+    "folio_centre_pt": [
+      550.0,
+      758.0
+    ],
     "folio_diameter_pt": 24.0,
-    "unit_band_pt": { "y": [0, 47], "rule_y": [46.0, 47.8], "rule_weight_pt": 1.8 }
+    "unit_band_pt": {
+      "y": [
+        0,
+        47
+      ],
+      "rule_y": [
+        46.0,
+        47.8
+      ],
+      "rule_weight_pt": 1.8
+    }
   },
   "extent": {
     "rule": "interior page count is one less than a multiple of 12: 11, 23, 35, 47, 59, 71, 83, 95, 107, 119, 131 ...",
     "applies_to": "the interior file, after the front and back covers are stripped for the cover wrap",
     "formula": "round UP to the next legal count; never round down, never pad with a blank page",
     "budget": "front matter 7 pages + units + back matter 12 to 14 pages (glossary, references, sources, closing), then round up to the nearest 12n-1",
-    "unit_page_budget": { "1": [8, 10], "2": [9, 11], "3": [10, 12], "4": [12, 14] },
+    "unit_page_budget": {
+      "1": [
+        8,
+        10
+      ],
+      "2": [
+        9,
+        11
+      ],
+      "3": [
+        10,
+        12
+      ],
+      "4": [
+        12,
+        14
+      ]
+    },
     "minimum_viable": 35,
     "no_blank_pages": true,
     "blank_page_note": "a page that exists is a page that teaches, gives workspace or records sources. Padding to reach a legal count is done with usable content, never with white space.",
@@ -54,10 +116,26 @@
     "unit_subtitle_pt": 17.0,
     "topic_pill_pt": 13.0,
     "reading_ladder": {
-      "1": { "size_pt": 16.0, "leading_pt": 21.0, "basis": "measured from the reference" },
-      "2": { "size_pt": 16.0, "leading_pt": 21.0, "basis": "adopted series default" },
-      "3": { "size_pt": 15.0, "leading_pt": 20.0, "basis": "adopted series default" },
-      "4": { "size_pt": 14.5, "leading_pt": 19.5, "basis": "adopted series default" }
+      "1": {
+        "size_pt": 16.0,
+        "leading_pt": 21.0,
+        "basis": "measured from the reference"
+      },
+      "2": {
+        "size_pt": 16.0,
+        "leading_pt": 21.0,
+        "basis": "adopted series default"
+      },
+      "3": {
+        "size_pt": 15.0,
+        "leading_pt": 20.0,
+        "basis": "adopted series default"
+      },
+      "4": {
+        "size_pt": 14.5,
+        "leading_pt": 19.5,
+        "basis": "adopted series default"
+      }
     },
     "never_shrink_to_fit": true,
     "preserve_larger_existing_sizes": true
@@ -71,52 +149,218 @@
   },
   "year_ladder": {
     "handwriting_ruling_mm": {
-      "1": { "lines": 4, "baseline_gap_mm": 24.0 },
-      "2": { "lines": 3, "baseline_gap_mm": 18.0 },
-      "3": { "lines": 2, "baseline_gap_mm": 12.0 },
-      "4": { "lines": 1, "baseline_gap_mm": 9.0 }
+      "1": {
+        "lines": 4,
+        "baseline_gap_mm": 24.0
+      },
+      "2": {
+        "lines": 3,
+        "baseline_gap_mm": 18.0
+      },
+      "3": {
+        "lines": 2,
+        "baseline_gap_mm": 12.0
+      },
+      "4": {
+        "lines": 1,
+        "baseline_gap_mm": 9.0
+      }
     },
-    "instruction_words": { "1": [3, 7], "2": [5, 9], "3": [8, 12], "4": [10, 14] },
-    "words_per_page_max": { "1": 80, "2": 110, "3": 140, "4": 170 },
-    "drawing_box_min_pt": { "1": [150, 110], "2": [140, 100], "3": [125, 95], "4": [110, 90] },
-    "columns": { "1": 1, "2": 1, "3": 1, "4": 2 },
+    "instruction_words": {
+      "1": [
+        3,
+        7
+      ],
+      "2": [
+        5,
+        9
+      ],
+      "3": [
+        8,
+        12
+      ],
+      "4": [
+        10,
+        14
+      ]
+    },
+    "words_per_page_max": {
+      "1": 80,
+      "2": 110,
+      "3": 140,
+      "4": 170
+    },
+    "drawing_box_min_pt": {
+      "1": [
+        150,
+        110
+      ],
+      "2": [
+        140,
+        100
+      ],
+      "3": [
+        125,
+        95
+      ],
+      "4": [
+        110,
+        90
+      ]
+    },
+    "columns": {
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 2
+    },
     "basis": "adopted defaults for Years 1 to 4, advisory while a book is being authored, re-measured after the first Year 1 book is rebuilt"
   },
   "unit_palette": {
     "rule": "unit n takes rung n in every book of the series, so the same unit number is the same colour in every subject",
     "rungs": [
-      { "unit": 1, "name": "violet", "deep": "#4A3173", "mid": "#6B4BA1", "tint": "#EFE6FA", "basis": "measured from the reference" },
-      { "unit": 2, "name": "rose", "deep": "#96204A", "mid": "#D6336C", "tint": "#FCE4EC", "basis": "measured from the reference" },
-      { "unit": 3, "name": "terracotta", "deep": "#8C3A12", "mid": "#C4561F", "tint": "#FBE7D8", "basis": "measured from the reference" },
-      { "unit": 4, "name": "blue", "deep": "#0B3C85", "mid": "#1256B8", "tint": "#DEEAFB", "basis": "measured from the reference" },
-      { "unit": 5, "name": "sage", "deep": "#2F5233", "mid": "#4E7C52", "tint": "#E8F0E3", "basis": "locked 14 September 2026, white on mid 4.85:1" },
-      { "unit": 6, "name": "ochre", "deep": "#6B4A0C", "mid": "#9A6A12", "tint": "#FBF0D8", "basis": "locked 14 September 2026, mid set to the house ochre for 4.73:1 on a white numeral" }
+      {
+        "unit": 1,
+        "name": "violet",
+        "deep": "#4A3173",
+        "mid": "#6B4BA1",
+        "tint": "#EFE6FA",
+        "basis": "measured from the reference"
+      },
+      {
+        "unit": 2,
+        "name": "rose",
+        "deep": "#96204A",
+        "mid": "#D6336C",
+        "tint": "#FCE4EC",
+        "basis": "measured from the reference"
+      },
+      {
+        "unit": 3,
+        "name": "terracotta",
+        "deep": "#8C3A12",
+        "mid": "#C4561F",
+        "tint": "#FBE7D8",
+        "basis": "measured from the reference"
+      },
+      {
+        "unit": 4,
+        "name": "blue",
+        "deep": "#0B3C85",
+        "mid": "#1256B8",
+        "tint": "#DEEAFB",
+        "basis": "measured from the reference"
+      },
+      {
+        "unit": 5,
+        "name": "sage",
+        "deep": "#2F5233",
+        "mid": "#4E7C52",
+        "tint": "#E8F0E3",
+        "basis": "locked 14 September 2026, white on mid 4.85:1"
+      },
+      {
+        "unit": 6,
+        "name": "ochre",
+        "deep": "#6B4A0C",
+        "mid": "#9A6A12",
+        "tint": "#FBF0D8",
+        "basis": "locked 14 September 2026, mid set to the house ochre for 4.73:1 on a white numeral"
+      }
     ]
   },
-  "year_stripes": { "1": "#F1B300", "2": "#7FC3E8", "3": "#EF7522", "4": "#60BB46" },
+  "year_stripes": {
+    "1": "#F1B300",
+    "2": "#7FC3E8",
+    "3": "#EF7522",
+    "4": "#60BB46"
+  },
   "ink": "#2E2740",
   "muted_ink": "#6B6280",
   "page_map": [
-    { "physical_page": "1", "component": "cover", "note": "no folio, full-bleed art, year stripe on the spine edge" },
-    { "physical_page": "2", "component": "imprint", "note": "publisher identity, year, tagline, INSIDE THIS BOOK, IMPRINT rows, AI disclosure when generated art is used" },
-    { "physical_page": "3", "component": "contents", "note": "colour bar with one segment per unit, then one card per unit" },
-    { "physical_page": "4", "component": "welcome", "note": "invitation plus THIS SUBJECT'S OWN CAST: the characters that will appear through the book, named, with the subject's own wardrobe" },
-    { "physical_page": "5", "component": "how to use", "note": "labels, icons and meanings defined once, including how to use a QR code in class" },
-    { "physical_page": "6-7", "component": "preparation and safety", "note": "materials, practical safety, picture vocabulary" },
-    { "physical_page": "8+", "component": "units", "note": "each unit: opener, get started, concept and model, your turn, extension, applied project, reflection, word bank" },
-    { "physical_page": "after units", "component": "portfolio and synthesis", "note": "demonstrate the learning, not an exhibition" },
-    { "physical_page": "after units", "component": "illustrated glossary", "note": "two columns of cards: image, headword, short definition" },
-    { "physical_page": "after units", "component": "references", "note": "every information source used in the book: books, websites, datasets, image credits and licences, one per row, with the page or topic it supports" },
-    { "physical_page": "after units", "component": "sources and link list", "note": "the printed list of every QR target, so a teacher can read the addresses without a phone" },
-    { "physical_page": "after units", "component": "closing reflection", "note": "short meaningful close" },
-    { "physical_page": "penultimate, when needed", "component": "production reserve", "note": "kept clear for BookVault's printed barcode" },
-    { "physical_page": "last", "component": "back cover", "note": "printed again in the cover wrap, so it is stripped from the interior file" }
+    {
+      "physical_page": "1",
+      "component": "cover",
+      "note": "no folio, full-bleed art, year stripe on the spine edge"
+    },
+    {
+      "physical_page": "2",
+      "component": "imprint",
+      "note": "publisher identity, year, tagline, INSIDE THIS BOOK, IMPRINT rows, AI disclosure when generated art is used"
+    },
+    {
+      "physical_page": "3",
+      "component": "contents",
+      "note": "colour bar with one segment per unit, then one card per unit"
+    },
+    {
+      "physical_page": "4",
+      "component": "welcome",
+      "note": "invitation plus THIS SUBJECT'S OWN CAST: the characters that will appear through the book, named, with the subject's own wardrobe"
+    },
+    {
+      "physical_page": "5",
+      "component": "how to use",
+      "note": "labels, icons and meanings defined once, including how to use a QR code in class"
+    },
+    {
+      "physical_page": "6-7",
+      "component": "preparation and safety",
+      "note": "materials, practical safety, picture vocabulary"
+    },
+    {
+      "physical_page": "8+",
+      "component": "units",
+      "note": "each unit: opener, get started, concept and model, your turn, extension, applied project, reflection, word bank"
+    },
+    {
+      "physical_page": "after units",
+      "component": "portfolio and synthesis",
+      "note": "demonstrate the learning, not an exhibition"
+    },
+    {
+      "physical_page": "after units",
+      "component": "illustrated glossary",
+      "note": "two columns of cards: image, headword, short definition"
+    },
+    {
+      "physical_page": "after units",
+      "component": "references",
+      "note": "every information source used in the book: books, websites, datasets, image credits and licences, one per row, with the page or topic it supports"
+    },
+    {
+      "physical_page": "after units",
+      "component": "sources and link list",
+      "note": "the printed list of every QR target, so a teacher can read the addresses without a phone"
+    },
+    {
+      "physical_page": "after units",
+      "component": "closing reflection",
+      "note": "short meaningful close"
+    },
+    {
+      "physical_page": "penultimate, when needed",
+      "component": "production reserve",
+      "note": "kept clear for BookVault's printed barcode"
+    },
+    {
+      "physical_page": "last",
+      "component": "back cover",
+      "note": "printed again in the cover wrap, so it is stripped from the interior file"
+    }
   ],
   "contents_component": {
     "physical_page": 3,
     "form": "one colour bar segment per unit, then one tinted card per unit",
     "segment_count": "equals the number of units, never fixed at six",
-    "card_rows": ["UNIT n", "unit start page", "unit name", "one-line strand summary", "topic rows", "Unit n, How did it go?"],
+    "card_rows": [
+      "UNIT n",
+      "unit start page",
+      "unit name",
+      "one-line strand summary",
+      "topic rows",
+      "Unit n, How did it go?"
+    ],
     "front_and_back_matter": "plain dot-leader rows, including the glossary and the references section",
     "page_numbers": "generated from the built PDF and verified against the real page index"
   },
@@ -140,7 +384,14 @@
   },
   "illustration": {
     "direction": "original Beatrix Potter style: fine ink contours, transparent watercolour, warm muted pigments, lightly textured cream paper",
-    "palette": ["#FBF6EC", "#A8BF9B", "#C97B5A", "#F0CE7A", "#8FA8C7", "#3E3A35"],
+    "palette": [
+      "#FBF6EC",
+      "#A8BF9B",
+      "#C97B5A",
+      "#F0CE7A",
+      "#8FA8C7",
+      "#3E3A35"
+    ],
     "generation": {
       "default_model": "openai/gpt-image-2.5-sunburst",
       "default_quality": "medium",
@@ -154,7 +405,10 @@
     "text_inside_generated_art": false,
     "historical_originals_need_asset_rights_check": true,
     "target_dpi": 300,
-    "grade": { "1-2": "large actions, short sequences, direct naming, generous response space", "3-4": "more process detail, comparisons, labelled evidence, less decorative cast" }
+    "grade": {
+      "1-2": "large actions, short sequences, direct naming, generous response space",
+      "3-4": "more process detail, comparisons, labelled evidence, less decorative cast"
+    }
   },
   "print": {
     "printer": "BookVault, perfect bound paperback",
@@ -165,11 +419,20 @@
     "overprint": "off",
     "transparency": "flattened, so character art is composited rather than left on alpha",
     "images": "300 dpi target, 150 dpi absolute floor, native pixels recorded",
-    "cover_wrap_mm": [443.0, 285.0],
+    "cover_wrap_mm": [
+      443.0,
+      285.0
+    ],
     "cover_wrap_formula": "2 x trim width + spine + 3 mm + 3 mm, by trim height + 3 mm + 3 mm",
     "spine": "BookVault's sizing calculator figure for the stock actually ordered, rounded up to a whole millimetre. The 0.056 mm per page in their worked example is a bond-paper figure: measure the first proof with calipers and correct spine_per_page_mm if it is out by more than 0.5 mm. Spine text only from 6 mm, centred and K only",
-    "barcode_box_mm": [38.0, 25.0],
-    "barcode_inset_mm": [6.4, 3.3],
+    "barcode_box_mm": [
+      38.0,
+      25.0
+    ],
+    "barcode_inset_mm": [
+      6.4,
+      3.3
+    ],
     "no_crop_marks": true
   },
   "decided_2026_09_14": [
@@ -177,9 +440,109 @@
     "authoring size stays US Letter 612 x 792 pt; the 216 x 279 mm print trim is the same physical book within 0.4 mm, and the pack builder normalises. No corpus migration",
     "extent is a formula, not a fixed budget: round up to the next 12n-1, with unit page budgets of 8 to 10 at Year 1 rising to 12 to 14 at Year 4, and no blank pages",
     "the spine figure is a measured number, not an assumed one: use the calculator, then confirm with calipers on the first physical proof",
-    "year ladder, handwriting ruling and words per page are locked as advisory authoring numbers and re-measured after the first Year 1 rebuild"
+    "year ladder, handwriting ruling and words per page are locked as advisory authoring numbers and re-measured after the first Year 1 rebuild",
+    {
+      "identity_layer": "teacher's instruction of 14 September: each book keeps its own identity inside the standard; anti-repetition and the award criteria are now part of A-2.3"
+    }
   ],
   "open_items": [
     "the real spine width from BookVault's sizing calculator for the stock actually ordered"
-  ]
+  ],
+  "identity_layer": {
+    "rule": "Consistency, not uniformity. Two lists, and nothing crosses between them.",
+    "invariants_fixed_in_every_book": [
+      "trim, media, bleed and the safe area",
+      "the font set and the type ladder",
+      "folio geometry and the unit band",
+      "the page map and the order of front and back matter",
+      "the contents component, the references section and the QR rules",
+      "unit colour rung n = unit n, across the whole series",
+      "the cover frame: the picture changes, the frame never does",
+      "never delete or move teacher content, never shrink text to fit"
+    ],
+    "identity_declared_per_book": {
+      "voice": "the narrator's temperament and the phrasing of every instruction and caption",
+      "cast_and_place": "four to six named characters of that subject, plus one recurring place",
+      "signature_page": "ONE page type unique to that subject, appearing exactly once per unit",
+      "rhythm": "the page-turn tempo of each unit, written as a weight string",
+      "material": "the objects, textures and two accent tints the subject's art is built from",
+      "cover_picture": "what the frame holds for that subject"
+    },
+    "where_it_lives": "an identity block in the book's own build file, recorded per title, never copied from another subject",
+    "seed": "one integer per book drives QR placement, breath pages and the surprise element: varied between books, reproducible in the file, never random at render time"
+  },
+  "anti_repetition": {
+    "why": "A standard that repeats one exercise layout every ten pages is a worksheet factory, not a book. This is the rule that stops it.",
+    "rules": [
+      "No page type may appear twice in consecutive positions, and no page type more than twice inside one unit.",
+      "A unit of 8 to 14 pages carries at least four distinct page types.",
+      "Every unit contains exactly one signature page and at least one breath page.",
+      "A breath page is one large image and no more than 25 words: the page that lets a child look up.",
+      "Never two dense teaching pages in a row, and never three response pages in a row.",
+      "A unit opener must earn the turn: a question, an object or a promise, never a title alone.",
+      "Across a whole book, no layout runs unchanged on more than two units."
+    ],
+    "rhythm_weights": {
+      "E": "energy: opener, hook, big question",
+      "D": "dense: model, worked example, explained concept",
+      "R": "response: the child works, writes, draws, moves",
+      "B": "breath: one large image, few words",
+      "S": "signature: this subject's own page, once per unit"
+    },
+    "worked_example": "a four-page unit reads E D R S, and the breath page rotates position between units"
+  },
+  "award_criteria": {
+    "why": "What separates an award-winning educational book from a competent one, stated so it can be made true on purpose.",
+    "per_unit": [
+      "one curiosity hook a child wants answered",
+      "one moment of genuine child agency, not a comprehension gap-fill",
+      "one real audience or purpose beyond the teacher's mark scheme",
+      "one image a child will remember",
+      "one question the child asks back"
+    ],
+    "per_book": [
+      "a declared identity: voice, cast and place, signature page",
+      "a rhythm that varies: at least four page types and two breath pages per unit group",
+      "authentic evidence kept authentic: photographs, specimens, real artworks, real data",
+      "visible progress: the child can see what they could not do at the start",
+      "teacher rescue notes: the one thing to say when a class gets stuck",
+      "credits and references that survive printing"
+    ],
+    "the_test": "Say out loud what a child will remember from this book. If the answer is a worksheet, the book is not finished."
+  },
+  "subject_identities_example": {
+    "note": "the shape, shown on four subjects; the other ten are declared the same way when their book is built",
+    "Art & Design": {
+      "voice": "curious studio assistant",
+      "place": "the studio and the drying shelf",
+      "signature_page": "Studio Wall: the unit's work pinned up and talked about",
+      "material": "brushes, clay, chalk dust; accents of ochre and scribble blue"
+    },
+    "Physical Education": {
+      "voice": "coach beside you, counting out loud",
+      "place": "the open meadow and the hall",
+      "signature_page": "Moving Well card: the challenge, the safety line, the tick row",
+      "material": "cones, bibs, rope, grass; accents of turf green and hi-vis coral"
+    },
+    "Science": {
+      "voice": "field-notebook observer",
+      "place": "the growing beds and the weather station",
+      "signature_page": "Field Notebook: what I saw, measured and wonder about",
+      "material": "magnifier, jars, soil, rain; accents of water blue and leaf"
+    },
+    "Mathematics": {
+      "voice": "puzzle workshop",
+      "place": "the market stall and the workbench",
+      "signature_page": "Puzzle Shelf: three problems a child chooses between",
+      "material": "counters, string, tiles, scales; accents of slate and sumac"
+    }
+  },
+  "identity_rollout": {
+    "order": [
+      "declare the identity block before any page is built, in the book's own build file",
+      "pilot Art & Design Year 1 to prove the signature page and the rhythm",
+      "one subject family at a time, whole year group, so the family runs match",
+      "the standards bot gains a warning when a book carries no identity block or breaks the anti-repetition rules"
+    ]
+  }
 }

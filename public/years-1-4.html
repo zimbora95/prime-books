@@ -110,7 +110,8 @@
 
 <div class="chips">
   <span class="chip gold">Locked 14 September 2026</span>
-  <span class="chip">Edition A-2.2</span>
+  <span class="chip">Edition A-2.3</span>
+  <span class="chip gold">Identity layer</span>
   <span class="chip">Years 1 to 4</span>
   <span class="chip terra">1 item still open</span>
 </div>
@@ -347,7 +348,76 @@ used: books, websites, datasets, and the credit and licence for every image that
 source per row, laid out like the contents rows, each marked with the page or topic it supports. It is
 the printed proof of where the facts came from, and it is what makes the QR list safe to print.</p>
 
-<h2><span class="num">PART SEVEN</span>Pictures</h2>
+<h2><span class="num">PART SEVEN</span>One standard, twelve identities</h2>
+
+<p>A standard that repeats one exercise layout every ten pages is a worksheet factory, not a book.
+So the standard now splits itself in two, and nothing crosses between the lists.</p>
+
+<figure>
+  <img src="/standards/art/y1-4-many-identities.webp" alt="Four book pages, one per subject, in identical frames but visibly different content">
+  <figcaption><b>Same frame, four different books.</b> Identical paper, identical headings, identical
+  margins and an identical frame. Different subject, different layout, different accents. That is the
+  whole idea: a child can tell the books apart from across the room, and a teacher can still find the
+  glossary blindfolded.</figcaption>
+</figure>
+
+<h3>Fixed in every book</h3>
+<p>Trim and safe area, the font set and type ladder, folio geometry, the unit band, the page map and
+the order of the front and back matter, the contents component, the references section, the QR rules,
+unit colour rung <i>n</i> = unit <i>n</i>, the cover frame, and the two rules that override
+everything: never delete or move teacher-placed content, never shrink text to fit.</p>
+
+<h3>Free in every book, and required to differ</h3>
+<table>
+  <tr><th>Element</th><th>What the book declares for itself</th></tr>
+  <tr><td>Voice</td><td>The narrator's temperament, and therefore how every instruction and caption is phrased</td></tr>
+  <tr><td>Cast and place</td><td>Four to six named characters of that subject, plus one recurring place</td></tr>
+  <tr><td>Signature page</td><td><b>One</b> page type unique to that subject, appearing exactly once per unit</td></tr>
+  <tr><td>Rhythm</td><td>The page-turn tempo of each unit, written as a weight string</td></tr>
+  <tr><td>Material</td><td>The objects and textures the subject's art is built from, plus two accent tints</td></tr>
+  <tr><td>Cover picture</td><td>What the fixed frame holds for this subject</td></tr>
+</table>
+
+<p>Each book carries an <b>identity block</b> in its own build file, and one integer seed that decides
+where the QR codes, the breath pages and the surprise element fall. Varied between books, reproducible
+in the file, never random at render time.</p>
+
+<h3>Four identities, as they are declared</h3>
+<table>
+  <tr><th>Subject</th><th>Voice</th><th>Place</th><th>Signature page</th></tr>
+  <tr><td>Art &amp; Design</td><td>Curious studio assistant</td><td>The studio and the drying shelf</td><td><b>Studio Wall:</b> the unit's work pinned up and talked about</td></tr>
+  <tr><td>Physical Education</td><td>Coach beside you, counting out loud</td><td>The open meadow and the hall</td><td><b>Moving Well card:</b> the challenge, the safety line, the tick row</td></tr>
+  <tr><td>Science</td><td>Field-notebook observer</td><td>The growing beds and the weather station</td><td><b>Field Notebook:</b> what I saw, measured and wonder about</td></tr>
+  <tr><td>Mathematics</td><td>Puzzle workshop</td><td>The market stall and the workbench</td><td><b>Puzzle Shelf:</b> three problems a child chooses between</td></tr>
+</table>
+
+<h3>The rules that stop the boredom</h3>
+<ul>
+  <li>No page type twice in consecutive positions, and none more than twice inside one unit.</li>
+  <li>A unit of 8 to 14 pages carries <b>at least four distinct page types</b>.</li>
+  <li>Every unit contains exactly one signature page and at least one <b>breath page</b>: one large
+  image, no more than 25 words, the page that lets a child look up.</li>
+  <li>Never two dense teaching pages in a row, and never three response pages in a row.</li>
+  <li>A unit opener earns the turn: a question, an object or a promise. Never a title alone.</li>
+  <li>Across a book, no layout runs unchanged on more than two units.</li>
+</ul>
+
+<p>The rhythm is written down as weights: <b>E</b> energy, <b>D</b> dense, <b>R</b> response,
+<b>B</b> breath, <b>S</b> signature. A four-page unit reads <span class="ui">E D R S</span>, and the
+breath page moves position from unit to unit so no two units scan the same way.</p>
+
+<h3>What makes them award-winning, on purpose</h3>
+<ul>
+  <li><b>Per unit:</b> one curiosity hook, one moment of real child agency, one audience beyond the
+  mark scheme, one image a child will remember, and one question the child asks back.</li>
+  <li><b>Per book:</b> a declared identity, a rhythm that varies, authentic evidence kept authentic,
+  visible progress, teacher rescue notes for the moment a class gets stuck, and credits and references
+  that survive printing.</li>
+  <li><b>The test I will hold us to:</b> say out loud what a child will remember from this book. If the
+  answer is a worksheet, the book is not finished.</li>
+</ul>
+
+<h2><span class="num">PART EIGHT</span>Pictures</h2>
 
 <p>Narrative scenes, objects and characters are original ink and watercolour in the Beatrix Potter
 direction: fine contours, transparent washes, warm muted pigments, cream paper, woodland animals in
@@ -361,7 +431,7 @@ picture, never reuse one hero scene as filler, never let the model put lettering
 Years 1 and 2 get large actions and generous space. Years 3 and 4 get more process, comparison and
 labelled evidence, in the same medium.</p>
 
-<h2><span class="num">PART EIGHT</span>What is locked, and what is still open</h2>
+<h2><span class="num">PART NINE</span>What is locked, and what is still open</h2>
 
 <div class="two">
   <div class="card">
@@ -381,6 +451,9 @@ labelled evidence, in the same medium.</p>
       <li>QR codes at the point of the activity, captioned, verified, and printed in full at the back</li>
       <li>A references section after the glossary, one source per row</li>
       <li>Folio badge: 24 pt circle centred at (550, 758)</li>
+      <li>One identity block per book: voice, cast and place, signature page, rhythm, material</li>
+      <li>No page type twice in a row, at least four page types per unit, one signature page and one
+      breath page per unit, and no layout unchanged across more than two units</li>
       <li>The rules that override everything: never delete or move teacher-placed content,
       never shrink text to fit, readability before aesthetics</li>
     </ul>
@@ -458,7 +531,7 @@ labelled evidence, in the same medium.</p>
   <a class="btn ghost" href="/standard">The Years 1 to 12 house record</a>
 </div>
 
-<p class="updated">Prime School Books, imprint of Prime School International · Standard A, edition A-2.2
+<p class="updated">Prime School Books, imprint of Prime School International · Standard A, edition A-2.3
 for Years 1 to 4 · locked 14 September 2026 · print route BookVault, perfect bound paperback</p>
 
 </div>
