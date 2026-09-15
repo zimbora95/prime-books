@@ -69,7 +69,7 @@ function ok(name, cond, extra) {
       units: document.querySelectorAll(".unit").length,
       subs: document.querySelectorAll("ul.subs li").length,
       shown: document.getElementById("shown").textContent,
-      tiles: ["t-books", "t-units", "t-subs", "t-table", "t-pdf", "t-none"]
+      tiles: ["t-books", "t-units", "t-subs", "t-table", "t-book", "t-none"]
         .map((id) => document.getElementById(id).textContent),
       jump: document.querySelectorAll("#jump a").length,
     };
@@ -120,14 +120,44 @@ function ok(name, cond, extra) {
     vis && first.units.some((u) => u.subs.some((s) => vis.subText.startsWith(s.title))),
     vis && vis.subText);
 
-  /* honest gaps: a PDF-only title and a title with no input say so */
-  const pdfBook = data.years.flatMap((y) => y.books).find((b) => b.source === "pdf");
+  /* THE regression this page was fixed for: a title with no input table, whose
+     reader Sections list the teacher CAN see, must show that list inline here
+     too — the same labels, in the same order, not a link off the page. */
+  const fromBook = data.years.flatMap((y) => y.books).filter((b) => b.source === "book");
+  const english = fromBook.find((b) => b.slug === "y01-english");
+  ok("a PDF-input title now carries a unit list instead of a dead link",
+    !!english && english.units.length === 9, english && JSON.stringify(english.units.length));
+  const inline = await page.evaluate((slug) => {
+    const card = document.getElementById(slug);
+    const units = Array.from(card.querySelectorAll(".unit .u")).map((e) => e.textContent.trim());
+    const li = card.querySelector(".unit .u").getBoundingClientRect();
+    return { units, visible: li.height > 0, text: card.textContent };
+  }, "y01-english");
+  ok("every unit the reader lists is on the page, in order",
+    english && inline.units.length === english.units.length &&
+    inline.units.every((t, i) => t.startsWith(english.units[i].title)),
+    JSON.stringify(inline.units.slice(0, 3)));
+  ok("the book-read units are visible without any click", inline.visible);
+  ok("the block names its source honestly",
+    /input is a PDF document/.test(inline.text) &&
+    /contents page/.test(inline.text) &&
+    /Sections/.test(inline.text));
+  const bookTitles = fromBook.filter((b) => b.units.length);
+  ok("every from-the-book title renders its units",
+    await page.evaluate((slugs) => slugs.every((s) => {
+      const c = document.getElementById(s);
+      return c && /No list to read/.test(c.textContent) === false;
+    }), bookTitles.map((b) => b.slug)),
+    bookTitles.length + " titles");
+
+  /* honest gaps: the titles where even the book yields nothing say so */
+  const blank = data.years.flatMap((y) => y.books).find((b) => b.source === "pdf");
   const noBook = data.years.flatMap((y) => y.books).find((b) => b.source === "none");
-  const pdfText = await page.evaluate((s) => document.getElementById(s).textContent, pdfBook.slug);
+  const pdfText = await page.evaluate((s) => document.getElementById(s).textContent, blank.slug);
   const noText = await page.evaluate((s) => document.getElementById(s).textContent, noBook.slug);
-  ok("a PDF-only title states there is no unit table",
-    /No unit table on disk/.test(pdfText) && pdfText.includes(pdfBook.input.file));
-  ok("a title with no input says so", /No input file/.test(noText));
+  ok("a title with a PDF input and no readable list says so",
+    /No list to read/.test(pdfText) && pdfText.includes(blank.input.file));
+  ok("a title with nothing on disk says so", /No list to read/.test(noText));
 
   /* 4. filters */
   const before = await page.textContent("#shown");
@@ -146,21 +176,21 @@ function ok(name, cond, extra) {
   ok("clearing the search restores the page",
     (await page.textContent("#shown")) === before);
 
-  await page.click('.chip[data-f="pdf"]');
+  await page.click('.chip[data-f="book"]');
   await page.waitForTimeout(150);
-  const pdfOnly = await page.evaluate(() =>
-    Array.from(document.querySelectorAll(".subj")).every((c) =>
-      /No unit table on disk/.test(c.textContent)));
-  ok("the PDF chip shows only PDF-input titles", pdfOnly);
+  const bookOnly = await page.evaluate(() =>
+    document.querySelectorAll(".subj").length);
+  ok("the from-the-book chip shows exactly those titles",
+    bookOnly === data.totals.withBook, bookOnly + " vs " + data.totals.withBook);
   await page.click('.chip[data-f="none"]');
   await page.waitForTimeout(150);
   const none = await page.evaluate(() => ({
     n: document.querySelectorAll(".subj").length,
     all: Array.from(document.querySelectorAll(".subj")).every((c) =>
-      /No input file|No unit table on disk/.test(c.textContent)),
+      /No list to read|Contents page unreadable/.test(c.textContent)),
   }));
-  ok("the no-input chip shows only titles with no input file",
-    none.n === data.totals.noInput && none.all, JSON.stringify(none));
+  ok("the no-list chip shows only titles with nothing to read",
+    none.n === data.totals.nothing && none.all, JSON.stringify(none));
   await page.click('.chip[data-f="all"]');
   await page.waitForTimeout(150);
 

@@ -49,7 +49,24 @@ def folio_of(lines: list[str]):
     return None
 
 
-def sections(path: Path):
+def sections(path: Path, js_style: bool = False, kind_out: dict | None = None):
+    """Sections from the BOOK's own PDF.
+
+    js_style=True reproduces the reader's buildSections() exactly, including the
+    bare-number rule the JS applies UNCONDITIONALLY (a bare number <= 40 with no
+    pending heading becomes a numeric unit). The default keeps the guard added
+    here: when the page carries real "Unit N" headings, a bare number is a PAGE,
+    not a unit number. The two disagree on a handful of bare-number contents
+    pages (Y2/Y3 Maths), so a caller that must match what the teacher SEES in
+    the reader passes js_style=True.
+
+    kind_out, when given, receives {"kind": "contents" | "openers" | "none"}.
+    """
+    kind = {"kind": "none"}
+    if kind_out is not None:
+        kind_out.clear()
+        kind_out.update(kind)
+
     doc = pymupdf.open(path)
     try:
         texts, folios = [], []
@@ -79,6 +96,8 @@ def sections(path: Path):
             return 0
 
         if toc_text is None:                                   # unit-opener fallback
+            if kind_out is not None:
+                kind_out["kind"] = "openers"
             secs = []
             for i in range(1, doc.page_count):
                 if len(secs) >= 40:
@@ -87,8 +106,8 @@ def sections(path: Path):
                 m = HEAD.match(first[0]) if first else None
                 if m:
                     word, num, title = (m.group(1) or m.group(4)), (m.group(2) or m.group(5)), m.group(3)
-                    kind = word.capitalize()
-                    secs.append({"label": f"{kind} {num} · {title}" if title else f"{kind} {num}",
+                    kw = word.capitalize()
+                    secs.append({"label": f"{kw} {num} · {title}" if title else f"{kw} {num}",
                                  "unit": True, "page": i + 1, "folio": folios[i]})
                     continue
                 m2 = SUB.match(first[0]) if first else None
@@ -103,8 +122,10 @@ def sections(path: Path):
         # "Unit N" headings; only the bare-number contents style (Y2/Y3 Maths:
         # "1 / Numbers to 100") uses it as the unit number. The JS mirror in
         # index.html does not carry this guard, so do not treat the two as
-        # byte-identical any more.
-        numeric_style = not any(HEAD.match(l) for l in lines)
+        # byte-identical any more - js_style=True reproduces the JS exactly.
+        numeric_style = True if js_style else (not any(HEAD.match(l) for l in lines))
+        if kind_out is not None:
+            kind_out["kind"] = "contents"
 
         def flush():
             nonlocal pending

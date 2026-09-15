@@ -1,0 +1,1119 @@
+{
+ "note": "Reader Sections panel, captured row by row.",
+ "books": {
+  "y01-english": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Stop 1 · Going places",
+     "unit": true,
+     "page": 34
+    },
+    {
+     "label": "Stop 2 · Having fun",
+     "unit": true,
+     "page": 44
+    },
+    {
+     "label": "Stop 3 · Let us find out",
+     "unit": true,
+     "page": 55
+    },
+    {
+     "label": "Stop 4 · Up in space",
+     "unit": true,
+     "page": 66
+    },
+    {
+     "label": "Stop 5 · Funny fish",
+     "unit": true,
+     "page": 77
+    },
+    {
+     "label": "Stop 6 · Good food",
+     "unit": true,
+     "page": 88
+    },
+    {
+     "label": "Stop 7 · Story time",
+     "unit": true,
+     "page": 98
+    },
+    {
+     "label": "Stop 8 · HowI feel",
+     "unit": true,
+     "page": 109
+    },
+    {
+     "label": "Stop 9 · Kind and true",
+     "unit": true,
+     "page": 120
+    }
+   ]
+  },
+  "y08-english": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 1 · Journeys and discoveries",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unit 2 · Argument and persuasion",
+     "unit": true,
+     "page": 2
+    }
+   ]
+  },
+  "y01-german-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y01-physical-education-standard": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "1",
+     "unit": true,
+     "page": 3
+    },
+    {
+     "label": "Unit 4 · The year ata glance",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unit 6 · Meet the six",
+     "unit": true,
+     "page": 8
+    },
+    {
+     "label": "Unit 10 · Getting set up",
+     "unit": true,
+     "page": 12
+    },
+    {
+     "label": "Unit 14 · Moving Well",
+     "unit": true,
+     "page": 14
+    },
+    {
+     "label": "1.1 Space, walk, run, stop",
+     "unit": false,
+     "page": 15
+    },
+    {
+     "label": "1.2 Hop, skip, join",
+     "unit": false,
+     "page": 18
+    },
+    {
+     "label": "1.3 Fast, slow, high, low",
+     "unit": false,
+     "page": 22
+    },
+    {
+     "label": "1.4 Hoops, benches, mats",
+     "unit": false,
+     "page": 25
+    },
+    {
+     "label": "Unit 1 · How did it go?",
+     "unit": true,
+     "page": 30
+    },
+    {
+     "label": "2",
+     "unit": true,
+     "page": 31
+    },
+    {
+     "label": "2.1 Words fora body",
+     "unit": false,
+     "page": 32
+    },
+    {
+     "label": "2.2 Watch, then copy",
+     "unit": false,
+     "page": 36
+    },
+    {
+     "label": "2.3 What good looks like",
+     "unit": false,
+     "page": 38
+    },
+    {
+     "label": "2.4 A simple rule",
+     "unit": false,
+     "page": 40
+    },
+    {
+     "label": "Unit 2 · How did it go?",
+     "unit": true,
+     "page": 45
+    },
+    {
+     "label": "3",
+     "unit": true,
+     "page": 46
+    },
+    {
+     "label": "3.1 New shapes",
+     "unit": false,
+     "page": 47
+    },
+    {
+     "label": "3.2 What the kit suggests",
+     "unit": false,
+     "page": 50
+    },
+    {
+     "label": "3.3 Answer with your body",
+     "unit": false,
+     "page": 52
+    },
+    {
+     "label": "3.4 Moving like weather",
+     "unit": false,
+     "page": 54
+    },
+    {
+     "label": "Unit 3 · How did it go?",
+     "unit": true,
+     "page": 59
+    },
+    {
+     "label": "4",
+     "unit": true,
+     "page": 60
+    },
+    {
+     "label": "4.1 Joining in",
+     "unit": false,
+     "page": 61
+    },
+    {
+     "label": "4.2 Thrower, catcher, collector",
+     "unit": false,
+     "page": 62
+    },
+    {
+     "label": "4.3 Your own goal",
+     "unit": false,
+     "page": 64
+    },
+    {
+     "label": "4.4 A turn at leading",
+     "unit": false,
+     "page": 66
+    },
+    {
+     "label": "4.5 WhatI can do",
+     "unit": false,
+     "page": 68
+    },
+    {
+     "label": "4.6 Listen, then move",
+     "unit": false,
+     "page": 70
+    },
+    {
+     "label": "Unit 4 · How did it go?",
+     "unit": true,
+     "page": 75
+    },
+    {
+     "label": "5",
+     "unit": true,
+     "page": 77
+    },
+    {
+     "label": "5.1 Share and take turns",
+     "unit": false,
+     "page": 78
+    },
+    {
+     "label": "5.2 Carry kit safely",
+     "unit": false,
+     "page": 80
+    },
+    {
+     "label": "5.3 Fair play",
+     "unit": false,
+     "page": 82
+    },
+    {
+     "label": "5.4 Ask for help",
+     "unit": false,
+     "page": 84
+    },
+    {
+     "label": "5.5 Kind words",
+     "unit": false,
+     "page": 86
+    },
+    {
+     "label": "Unit 5 · How did it go?",
+     "unit": true,
+     "page": 92
+    },
+    {
+     "label": "6",
+     "unit": true,
+     "page": 94
+    },
+    {
+     "label": "6.1 What changes when you move",
+     "unit": false,
+     "page": 95
+    },
+    {
+     "label": "6.2 Name the working parts",
+     "unit": false,
+     "page": 98
+    },
+    {
+     "label": "6.3 How hard is hard enough",
+     "unit": false,
+     "page": 100
+    },
+    {
+     "label": "6.4 Knowing your limit today",
+     "unit": false,
+     "page": 101
+    },
+    {
+     "label": "6.5 Before, and afterwards",
+     "unit": false,
+     "page": 102
+    },
+    {
+     "label": "6.6 Food and water fora moving body",
+     "unit": false,
+     "page": 103
+    },
+    {
+     "label": "Unit 6 · How did it go?",
+     "unit": true,
+     "page": 109
+    }
+   ]
+  },
+  "y01-portuguese": {
+   "src": "none",
+   "rows": []
+  },
+  "y01-science": {
+   "src": "none",
+   "rows": []
+  },
+  "y01-spanish-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y01-spanish-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y02-german-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y02-german-b1b2": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 7 · Einheit 2 · Meine Schule",
+     "unit": true,
+     "page": 12
+    },
+    {
+     "label": "Unit 17 · Einheit 4 · Zahlen und Zeit",
+     "unit": true,
+     "page": 22
+    },
+    {
+     "label": "Unit 27 · RückblickI",
+     "unit": true,
+     "page": 32
+    },
+    {
+     "label": "Unit 33 · Einheit 7 · Zu Hause",
+     "unit": true,
+     "page": 38
+    }
+   ]
+  },
+  "y02-mathematics": {
+   "src": "none",
+   "rows": []
+  },
+  "y02-spanish-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y02-spanish-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y03-german-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y03-german-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y03-mathematics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Term 1",
+     "unit": true,
+     "page": 31
+    },
+    {
+     "label": "Unit 2 · Addition and subtraction 1",
+     "unit": true,
+     "page": 3
+    },
+    {
+     "label": "Unit 4 · Tally charts and frequency tables",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unit 6 · Angles and movement",
+     "unit": true,
+     "page": 29
+    },
+    {
+     "label": "Term 2",
+     "unit": true,
+     "page": 7
+    },
+    {
+     "label": "Unit 8 · Measurement, area and perimeter",
+     "unit": true,
+     "page": 9
+    },
+    {
+     "label": "Unit 10 · Time 1",
+     "unit": true,
+     "page": 11
+    },
+    {
+     "label": "Unit 12 · Money",
+     "unit": true,
+     "page": 53
+    },
+    {
+     "label": "Term 3",
+     "unit": true,
+     "page": 13
+    },
+    {
+     "label": "Unit 14 · More fractions",
+     "unit": true,
+     "page": 15
+    },
+    {
+     "label": "Unit 16 · Chance",
+     "unit": true,
+     "page": 17
+    }
+   ]
+  },
+  "y03-science": {
+   "src": "none",
+   "rows": []
+  },
+  "y03-spanish-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y03-spanish-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y04-german-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y04-german-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y04-mathematics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 4 · ontents",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unit 6 · ow",
+     "unit": true,
+     "page": 9
+    },
+    {
+     "label": "10",
+     "unit": true,
+     "page": 3
+    },
+    {
+     "label": "Unit 1 · opener",
+     "unit": true,
+     "page": 13
+    },
+    {
+     "label": "Unit 1 · ounting",
+     "unit": true,
+     "page": 16
+    },
+    {
+     "label": "Unit 13 · equences",
+     "unit": true,
+     "page": 19
+    },
+    {
+     "label": "Unit 19 · art",
+     "unit": true,
+     "page": 2
+    },
+    {
+     "label": "Unit 21 · eading",
+     "unit": true,
+     "page": 24
+    },
+    {
+     "label": "24",
+     "unit": true,
+     "page": 3
+    }
+   ]
+  },
+  "y04-portuguese": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 1 · Sou leitor na colina",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unit 2 · Histórias que saem da mochila",
+     "unit": true,
+     "page": 16
+    },
+    {
+     "label": "Unit 3 · A borracha viajante",
+     "unit": true,
+     "page": 26
+    },
+    {
+     "label": "Unit 4 · O convite da biblioteca",
+     "unit": true,
+     "page": 36
+    },
+    {
+     "label": "Unit 5 · Heróis do recreio",
+     "unit": true,
+     "page": 46
+    },
+    {
+     "label": "Unit 6 · Vidas para ler",
+     "unit": true,
+     "page": 56
+    },
+    {
+     "label": "Unit 7 · A gotaeo jardim",
+     "unit": true,
+     "page": 66
+    },
+    {
+     "label": "Unit 8 · A livraria da nossa rua",
+     "unit": true,
+     "page": 76
+    },
+    {
+     "label": "Unit 9 · O caderno das ideias",
+     "unit": true,
+     "page": 86
+    },
+    {
+     "label": "Unit 10 · O ano em histórias",
+     "unit": true,
+     "page": 96
+    }
+   ]
+  },
+  "y04-science": {
+   "src": "From this book’s own unit openings.",
+   "rows": [
+    {
+     "label": "Unit 1 · TOPIC 1 .1",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unit 1 · TOPIC 1 . 3",
+     "unit": true,
+     "page": 9
+    },
+    {
+     "label": "Unit 1 · TOPIC 1 . 4",
+     "unit": true,
+     "page": 11
+    },
+    {
+     "label": "Unit 1 · FINALPROJECT",
+     "unit": true,
+     "page": 12
+    },
+    {
+     "label": "Unit 1 · CHECKYOURPROGRESS",
+     "unit": true,
+     "page": 14
+    }
+   ]
+  },
+  "y04-spanish-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y04-spanish-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y05-computing-and-robotics": {
+   "src": "none",
+   "rows": []
+  },
+  "y05-english": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 2 · Exploring space",
+     "unit": true,
+     "page": 8
+    },
+    {
+     "label": "Unit 3 · Reflections",
+     "unit": true,
+     "page": 10
+    },
+    {
+     "label": "Unit 4 · Timeless tales",
+     "unit": true,
+     "page": 12
+    },
+    {
+     "label": "Unit 5 · Tell me how",
+     "unit": true,
+     "page": 14
+    },
+    {
+     "label": "Unit 6 · A different type of story",
+     "unit": true,
+     "page": 16
+    }
+   ]
+  },
+  "y05-german-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y05-german-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y05-mathematics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 7 · 1.1",
+     "unit": true,
+     "page": 8
+    },
+    {
+     "label": "Unit 5 · ngl",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unit 8 · 8.1",
+     "unit": true,
+     "page": 9
+    },
+    {
+     "label": "Unit 10 · im",
+     "unit": true,
+     "page": 11
+    },
+    {
+     "label": "Unit 12 · La",
+     "unit": true,
+     "page": 13
+    },
+    {
+     "label": "3",
+     "unit": true,
+     "page": 14
+    },
+    {
+     "label": "Unit 15 · ultiplying",
+     "unit": true,
+     "page": 16
+    },
+    {
+     "label": "Unit 17 · osition",
+     "unit": true,
+     "page": 17
+    },
+    {
+     "label": "Unit 21 · Word list",
+     "unit": true,
+     "page": 26
+    },
+    {
+     "label": "Unit 27 · Sources and references",
+     "unit": true,
+     "page": 29
+    }
+   ]
+  },
+  "y05-portuguese": {
+   "src": "none",
+   "rows": []
+  },
+  "y05-spanish-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y05-spanish-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y06-computing-and-robotics": {
+   "src": "none",
+   "rows": []
+  },
+  "y06-german-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y06-german-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y06-mathematics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "1.1 Place value to three decimal places",
+     "unit": false,
+     "page": 11
+    },
+    {
+     "label": "1.2 Multiply and divide by 10, 100 and 1000",
+     "unit": false,
+     "page": 17
+    },
+    {
+     "label": "1.3 Compose, decompose and regroup",
+     "unit": false,
+     "page": 22
+    },
+    {
+     "label": "1.4 Round to the nearest whole number",
+     "unit": false,
+     "page": 28
+    },
+    {
+     "label": "1.5 Round to the nearest tenth",
+     "unit": false,
+     "page": 32
+    },
+    {
+     "label": "Unit 2 · umber",
+     "unit": true,
+     "page": 40
+    },
+    {
+     "label": "2.1 Counting and sequence",
+     "unit": false,
+     "page": 41
+    },
+    {
+     "label": "2.2 Special numbers",
+     "unit": false,
+     "page": 43
+    },
+    {
+     "label": "2.3 Common multiples and factors",
+     "unit": false,
+     "page": 45
+    },
+    {
+     "label": "3.1 Quadrilaterals",
+     "unit": false,
+     "page": 48
+    },
+    {
+     "label": "3.2 Circles",
+     "unit": false,
+     "page": 50
+    },
+    {
+     "label": "3.3 Rotational symmetry",
+     "unit": false,
+     "page": 4
+    }
+   ]
+  },
+  "y06-portuguese": {
+   "src": "none",
+   "rows": []
+  },
+  "y06-spanish-a1a2": {
+   "src": "none",
+   "rows": []
+  },
+  "y06-spanish-b1b2": {
+   "src": "none",
+   "rows": []
+  },
+  "y07-computing-and-robotics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 4 · How to use this book",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unit 6 · 7.1",
+     "unit": true,
+     "page": 2
+    },
+    {
+     "label": "7",
+     "unit": true,
+     "page": 30
+    }
+   ]
+  },
+  "y07-global-perspectives": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Term 1 · assessment",
+     "unit": true,
+     "page": 3
+    },
+    {
+     "label": "Term 2 · assessment",
+     "unit": true,
+     "page": 3
+    },
+    {
+     "label": "Term 3 · assessment",
+     "unit": true,
+     "page": 2
+    }
+   ]
+  },
+  "y07-humanities": {
+   "src": "none",
+   "rows": []
+  },
+  "y07-mathematics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 7 · Mathematics",
+     "unit": true,
+     "page": 2
+    }
+   ]
+  },
+  "y08-computing-and-robotics": {
+   "src": "none",
+   "rows": []
+  },
+  "y08-humanities": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "4.5 Transport networks · 64 · PART TWO · ANCIENT GREECE",
+     "unit": false,
+     "page": 68
+    }
+   ]
+  },
+  "y08-music-and-drama": {
+   "src": "none",
+   "rows": []
+  },
+  "y08-portuguese-1st": {
+   "src": "none",
+   "rows": []
+  },
+  "y08-portuguese-2nd": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 2 · Índice",
+     "unit": true,
+     "page": 2
+    },
+    {
+     "label": "Unidade 1 · ROTINAS DO DIAA DIA",
+     "unit": true,
+     "page": 4
+    },
+    {
+     "label": "Unidade 2 · A LÍNGUA EM ACÇÃO",
+     "unit": true,
+     "page": 12
+    },
+    {
+     "label": "Unidade 3 · LAZERE DESPORTO",
+     "unit": true,
+     "page": 19
+    },
+    {
+     "label": "Unidade 4 · PERGUNTARE RESPONDER",
+     "unit": true,
+     "page": 27
+    },
+    {
+     "label": "Unidade 5 · TEMPOS PASSADOS",
+     "unit": true,
+     "page": 35
+    },
+    {
+     "label": "Unidade 6 · À MESA DOS PORTUGUESES",
+     "unit": true,
+     "page": 46
+    },
+    {
+     "label": "Unidade 7 · VAMOS ÀS COMPRAS",
+     "unit": true,
+     "page": 53
+    }
+   ]
+  },
+  "y08-spanish": {
+   "src": "From this book’s own unit openings.",
+   "rows": [
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 3
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 4
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 7
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 8
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 9
+    },
+    {
+     "label": "Unit 0 · TOPIC 0.1",
+     "unit": true,
+     "page": 10
+    }
+   ]
+  },
+  "y09-humanities": {
+   "src": "none",
+   "rows": []
+  },
+  "y09-mathematics": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 9 · Mathematics",
+     "unit": true,
+     "page": 2
+    },
+    {
+     "label": "Unit 1 · Number and calculation",
+     "unit": true,
+     "page": 7
+    }
+   ]
+  },
+  "y09-music-and-drama": {
+   "src": "none",
+   "rows": []
+  },
+  "y09-portuguese": {
+   "src": "From this book’s own unit openings.",
+   "rows": [
+    {
+     "label": "Unidade 1",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unidade 1 · OBJETIVOS",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unidade 1 · TEXTO 1",
+     "unit": true,
+     "page": 7
+    },
+    {
+     "label": "Unidade 1 · TEXTO 2",
+     "unit": true,
+     "page": 14
+    },
+    {
+     "label": "Unidade 1 · TEXTO 3",
+     "unit": true,
+     "page": 19
+    },
+    {
+     "label": "Unidade 1 · TEXTO 4",
+     "unit": true,
+     "page": 26
+    },
+    {
+     "label": "Unidade 1 · TEXTO 6",
+     "unit": true,
+     "page": 31
+    },
+    {
+     "label": "Unidade 1 · TEXTO 8",
+     "unit": true,
+     "page": 36
+    },
+    {
+     "label": "Unidade 1 · ORALIDADE",
+     "unit": true,
+     "page": 41
+    },
+    {
+     "label": "Unidade 1 · GRAMÁTICA",
+     "unit": true,
+     "page": 43
+    }
+   ]
+  },
+  "y09-portuguese-2nd": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 2 · Índice",
+     "unit": true,
+     "page": 5
+    },
+    {
+     "label": "Unit 8 · Lição 3",
+     "unit": true,
+     "page": 11
+    },
+    {
+     "label": "Unit 14 · Lição 5",
+     "unit": true,
+     "page": 17
+    },
+    {
+     "label": "Unit 20 · TESTE 1",
+     "unit": true,
+     "page": 24
+    },
+    {
+     "label": "Unit 25 · Lição 8",
+     "unit": true,
+     "page": 28
+    },
+    {
+     "label": "Unit 31 · Lição 10",
+     "unit": true,
+     "page": 34
+    },
+    {
+     "label": "Unit 37 · Lição 12",
+     "unit": true,
+     "page": 40
+    }
+   ]
+  },
+  "y09-computing-and-robotics": {
+   "src": "none",
+   "rows": []
+  },
+  "y11-physical-education": {
+   "src": "From this book’s own unit openings.",
+   "rows": [
+    {
+     "label": "Unit 12",
+     "unit": true,
+     "page": 16
+    },
+    {
+     "label": "Unit 1",
+     "unit": true,
+     "page": 24
+    }
+   ]
+  },
+  "y13-physical-education": {
+   "src": "From this book’s own unit openings.",
+   "rows": [
+    {
+     "label": "Unit 12",
+     "unit": true,
+     "page": 6
+    },
+    {
+     "label": "Unit 12",
+     "unit": true,
+     "page": 16
+    },
+    {
+     "label": "Unit 2",
+     "unit": true,
+     "page": 20
+    },
+    {
+     "label": "Unit 14",
+     "unit": true,
+     "page": 25
+    }
+   ]
+  }
+ },
+ "generated": "2026-09-15T20:47:58Z"
+}
