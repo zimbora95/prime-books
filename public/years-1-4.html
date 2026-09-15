@@ -204,6 +204,24 @@ td b{font-family:Fredoka,sans-serif; font-weight:600}
   .ladder td{display:block; width:100%; margin-bottom:10px}
   .ladder{display:block}
 }
+@media (max-width:660px){
+  .wrap{padding:0 18px}
+  .topbar nav{gap:12px}
+  h1{font-size:clamp(30px,10vw,42px)}
+  .rungs{grid-template-columns:repeat(2,1fr)}
+  .check{grid-template-columns:1fr}
+  table{display:block; border:0; background:none}
+  table tr:first-child{display:none}
+  table tr{display:block; border:1px solid var(--rule); border-radius:11px;
+    background:var(--paper2); padding:4px 2px; margin:0 0 10px}
+  table td{display:block; border:0; padding:6px 13px; white-space:normal}
+  table td:first-child{padding-top:12px}
+  table td:last-child{padding-bottom:12px}
+  .num{white-space:normal}
+  table td.num{font-family:Fredoka,sans-serif; font-weight:600; font-size:16.5px; color:#2E2740}
+  .stations{grid-template-columns:1fr 1fr}
+  .brief pre{font-size:13.5px}
+}
 @media print{
   .topbar,.copy,.btns{display:none}
   body{background:#fff; font-size:11pt}
