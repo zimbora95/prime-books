@@ -81,6 +81,8 @@ We extend our sincere appreciation to the Pedagogical Department and the
 Content Creation Team of Prime School for their invaluable contributions,
 dedication, and collaborative efforts in making this publication possible.
 
+**3**
+
 <!-- page 4 -->
 
 ---
@@ -122,11 +124,15 @@ One last thing. In this book you will be asked to talk to real people: pupils in
 class, your teacher, an adult at home, someone who works nearby. Real people
 are not homework. Ask them when they have time, listen properly to what they
 
+**4**
+
 <!-- page 5 -->
 
 ---
 say, and thank them. That is not politeness for its own sake. It is how you get a
 real answer instead of a quick one.
+
+**5**
 
 <!-- page 6 -->
 
@@ -134,8 +140,6 @@ real answer instead of a quick one.
 ## Contents
 
 The Shared Garden · Global Perspectives Year 3
-
-6
 
 CONTENTS
 
@@ -205,11 +209,11 @@ CONTENTS
 **Term 1 review**
 **57**
 
+**6**
+
 <!-- page 7 -->
 
 ---
-7
-
 INTRODUCTION
 
 4.1  What is communication?
@@ -290,6 +294,8 @@ INTRODUCTION
 **Term 3 review**
 **141**
 
+**7**
+
 <!-- page 8 -->
 
 ---
@@ -305,9 +311,9 @@ INTRODUCTION
 **For teachers**
 **151**
 
-8
-
 INTRODUCTION
+
+**8**
 
 <!-- page 9 -->
 
@@ -334,9 +340,9 @@ whether everybody can join in.
 ## Inês, the squirrel in the rust jacket, remembers what happened last time and
 writes things down.
 
-9
-
 WHO YOU WILL MEET
+
+**9**
 
 <!-- page 10 -->
 
@@ -402,9 +408,9 @@ The unit project, made over several lessons
 
 Marking your own progress honestly
 
-10
-
 HOW TO USE THIS BOOK
+
+**10**
 
 <!-- page 11 -->
 
@@ -452,9 +458,9 @@ turn, and you say what you think even when the rest of the group thinks
 something else. Disagreeing well is a skill, and this is the subject where you
 practise it.
 
-11
-
 HOW TO USE THIS BOOK
+
+**11**
 
 <!-- page 12 -->
 
@@ -464,24 +470,24 @@ question. Ask your teacher first, always. Ask at a time that suits the person yo
 are asking. If they would rather not answer, that is their right, and the correct
 response is thank you.
 
-12
-
 HOW TO USE THIS BOOK
+
+**12**
 
 <!-- page 13 -->
 
 ---
-U N I T 1
+**U N I T 1**
 ## 1
 ## Sports and recreation
 
 What we play, why we move, and how a game can be fair for everyone
 
-**THE B IG Q U ESTIO N**
+**T H E B I G Q U E S T I O N**
 
 Who is a game for?
 
-13
+**13**
 
 <!-- page 14 -->
 
@@ -531,9 +537,9 @@ This is the hardest one, and it is the point of the unit.
 
 ## sport a game or activity with rules, played for exercise or to win
 
-14
-
 UNIT 1 · SPORTS AND RECREATION
+
+**14**
 
 <!-- page 15 -->
 
@@ -575,9 +581,9 @@ think.
 
 When you know what a game needs, you know when you can play it.
 
-15
-
 UNIT 1 · SPORTS AND RECREATION
+
+**15**
 
 <!-- page 16 -->
 
@@ -606,9 +612,9 @@ down.
 Name one game you can only play outdoors. Now name one you can play
 indoors.
 
-16
-
 UNIT 1 · SPORTS AND RECREATION
+
+**16**
 
 <!-- page 17 -->
 
@@ -638,9 +644,9 @@ The same afternoon, indoors and outdoors. Look for what changed and what
 
 stayed the same.
 
-17
-
 UNIT 1 · SPORTS AND RECREATION
+
+**17**
 
 <!-- page 18 -->
 
@@ -682,9 +688,9 @@ time it is handed on.
 The same idea often turns up in different countries with different names and
 different equipment. Throwing something at a target is an idea a lot of
 
-18
-
 UNIT 1 · SPORTS AND RECREATION
+
+**18**
 
 <!-- page 19 -->
 
@@ -723,11 +729,11 @@ The modern Olympic Games began in Athens in 1896. Some of the sports in
 them were already hundreds of years old, and some had not been invented
 yet.
 
-19
-
 UNIT 1 · SPORTS AND RECREATION
 
 Boules
+
+**19**
 
 <!-- page 20 -->
 
@@ -753,9 +759,9 @@ surprised you.
 
 3. Write one way the two games are alike.
 
-20
-
 UNIT 1 · SPORTS AND RECREATION
+
+**20**
 
 <!-- page 21 -->
 
@@ -797,9 +803,9 @@ better.
 
 Sleep often comes more easily after a day with movement in it.
 
-21
-
 UNIT 1 · SPORTS AND RECREATION
+
+**21**
 
 <!-- page 22 -->
 
@@ -827,9 +833,9 @@ Tomás wants to know how much his heart speeds up. Here is what he does.
 Tomás writes one sentence underneath: my heart went 48 beats a minute
 faster after skipping for a minute.
 
-22
-
 UNIT 1 · SPORTS AND RECREATION
+
+**22**
 
 <!-- page 23 -->
 
@@ -859,9 +865,9 @@ teacher which is best in your classroom.
 Your heart is a muscle, and like other muscles it gets stronger with use. That is
 why the same walk up the same hill feels easier after a few weeks of doing it.
 
-23
-
 UNIT 1 · SPORTS AND RECREATION
+
+**23**
 
 <!-- page 24 -->
 
@@ -906,9 +912,9 @@ While you play, two more:
 
 ## Each other. If someone is hurt, the game stops. Every time.
 
-24
-
 UNIT 1 · SPORTS AND RECREATION
+
+**24**
 
 <!-- page 25 -->
 
@@ -936,9 +942,9 @@ A new pupil joins your class and does not know the rules of the game
 everyone plays at break. Write the three sentences you would say to them, in
 order, so they can join in safely on the first day.
 
-25
-
 UNIT 1 · SPORTS AND RECREATION
+
+**25**
 
 <!-- page 26 -->
 
@@ -983,9 +989,9 @@ passed to whoever shouted."
 ## Gonçalo: "We lost because Leonor never got the ball once. She stopped
 trying after five minutes, and I do not blame her."
 
-26
-
 UNIT 1 · SPORTS AND RECREATION
+
+**26**
 
 <!-- page 27 -->
 
@@ -1007,9 +1013,9 @@ ball.
 3. Who in the panel above is talking about fairness? Write the name and one
 reason.
 
-27
-
 UNIT 1 · SPORTS AND RECREATION
+
+**27**
 
 <!-- page 28 -->
 
@@ -1039,9 +1045,9 @@ quietly.
 
 And people who turn up. A pitch with nobody on it is not sport, it is a field.
 
-28
-
 UNIT 1 · SPORTS AND RECREATION
+
+**28**
 
 <!-- page 29 -->
 
@@ -1065,9 +1071,9 @@ Find out who looks after one sports place near you: the school, the town
 council, a club, or somebody else. Write what you found out and how you
 found it out.
 
-29
-
 UNIT 1 · SPORTS AND RECREATION
+
+**29**
 
 <!-- page 30 -->
 
@@ -1110,9 +1116,9 @@ Changing a rule so somebody can join in is not making the game easier. It is
 The first Paralympic Games were held in Rome in 1960. They now happen in
 the same year and the same host city as the Olympic Games.
 
-30
-
 UNIT 1 · SPORTS AND RECREATION
+
+**30**
 
 <!-- page 31 -->
 
@@ -1138,9 +1144,9 @@ If somebody in your class plays a sport in a way that is new to you, you may
 ## ask them about it, kindly, once. Ask about the sport, not about their body. If
 they would rather not talk about it, say thank you and stop there.
 
-31
-
 UNIT 1 · SPORTS AND RECREATION
+
+**31**
 
 <!-- page 32 -->
 
@@ -1175,9 +1181,9 @@ People need different amounts of quiet. Inês likes a busy afternoon with six
 people in it. Gonçalo likes one friend and a small job to do. Both of them have
 had a good afternoon.
 
-32
-
 UNIT 1 · SPORTS AND RECREATION
+
+**32**
 
 <!-- page 33 -->
 
@@ -1185,8 +1191,6 @@ UNIT 1 · SPORTS AND RECREATION
 One free afternoon, four different choices. Look for who chose to be busy and
 
 who chose to be quiet.
-
-33
 
 UNIT 1 · SPORTS AND RECREATION
 
@@ -1202,6 +1206,8 @@ Fill in your own free‑time record for yesterday. Use the 24 hour c
 2. Which one rested you most?
 
 3. Write one thing you would like more time for.
+
+**33**
 
 <!-- page 34 -->
 
@@ -1259,9 +1265,9 @@ Skittles at
 Too hot at midday, fine in the
 evening
 
-34
-
 UNIT 1 · SPORTS AND RECREATION
+
+**34**
 
 <!-- page 35 -->
 
@@ -1313,11 +1319,11 @@ you ever win anything:
 ## Drinking water, especially in Portuguese summers, and before you feel
 thirsty.
 
-35
-
 UNIT 1 · SPORTS AND RECREATION
 
 Wednesday
+
+**35**
 
 <!-- page 36 -->
 
@@ -1344,9 +1350,9 @@ them 1 to 5.
 
 3. Choose one you would like to start. Write the day and time you will start it.
 
-36
-
 UNIT 1 · SPORTS AND RECREATION
+
+**36**
 
 <!-- page 37 -->
 
@@ -1393,9 +1399,9 @@ write their answers as they said them.
 ## 6. Report back in three sentences: what you changed, what happened, and
 what you would change next.
 
-37
-
 UNIT 1 · SPORTS AND RECREATION
+
+**37**
 
 <!-- page 38 -->
 
@@ -1457,9 +1463,9 @@ ball
 
 Change a rule so more people can join in
 
-38
-
 UNIT 1 · SPORTS AND RECREATION
+
+**38**
 
 <!-- page 39 -->
 
@@ -1487,8 +1493,6 @@ have finished the unit.
 
 Who is a game for?
 
-39
-
 UNIT 1 · SPORTS AND RECREATION
 
 **HUMANITIES CORNER**
@@ -1502,12 +1506,12 @@ Greeks started the Olympic Games, and football rules were written down
 Ice hockey where it snows. Football on sandy beaches. Swimming where the sea is
 warm. Every country has its own games.
 
+**39**
+
 <!-- page 40 -->
 
 ---
 UNIT 1 · SPORTS AND RECREATION
-
-40
 
 ## TIME CAPSULE
 **History**
@@ -1526,23 +1530,23 @@ seas shape the games children play.
 
 UNIT 1 · SPORTS AND RECREATION
 
-40
+**40**
 
 <!-- page 41 -->
 
 ---
-U N I T 2
+**U N I T 2**
 ## 2
 ## Rich and poor
 
-What everybody needs, what we merely want, and what a community can do about the
-difference
+What everybody needs, what we merely want, and what a community can do
+about the difference
 
-**THE B IG Q U ESTIO N**
+**T H E B I G Q U E S T I O N**
 
 What does everybody need, wherever they live?
 
-41
+**41**
 
 <!-- page 42 -->
 
@@ -1593,7 +1597,7 @@ Every choice to buy is also a choice not to buy something else.
 
 UNIT 2 · RICH AND POOR
 
-42
+**42**
 
 <!-- page 43 -->
 
@@ -1643,7 +1647,7 @@ roof and nobody at all is not a person who is doing well.
 
 UNIT 2 · TOPIC 2.1 · WHAT DO WE NEED TO LIVE?
 
-43
+**43**
 
 <!-- page 44 -->
 
@@ -1673,7 +1677,7 @@ lists are defensible, and a good answer says why.
 
 UNIT 2 · TOPIC 2.1 · WHAT DO WE NEED TO LIVE?
 
-44
+**44**
 
 <!-- page 45 -->
 
@@ -1717,7 +1721,7 @@ knowing which is which makes that decision quicker.
 
 UNIT 2 · TOPIC 2.2 · NEEDS AND WANTS
 
-45
+**45**
 
 <!-- page 46 -->
 
@@ -1767,7 +1771,7 @@ another.
 
 UNIT 2 · TOPIC 2.2 · NEEDS AND WANTS
 
-46
+**46**
 
 <!-- page 47 -->
 
@@ -1839,7 +1843,7 @@ a tent would be a bad house in a city.
 
 UNIT 2 · TOPIC 2.3 · DIFFERENT HOMES AROUND THE WORLD
 
-47
+**47**
 
 <!-- page 48 -->
 
@@ -1868,7 +1872,7 @@ where you live.
 
 UNIT 2 · TOPIC 2.3 · DIFFERENT HOMES AROUND THE WORLD
 
-48
+**48**
 
 <!-- page 49 -->
 
@@ -1905,7 +1909,7 @@ month and little in another. A year of work is not always a flat line.
 
 UNIT 2 · TOPIC 2.4 · JOBS AND HELPING FAMILIES
 
-49
+**49**
 
 <!-- page 50 -->
 
@@ -1934,7 +1938,7 @@ question, and knowing which questions are private is part of this subject.
 
 UNIT 2 · TOPIC 2.4 · JOBS AND HELPING FAMILIES
 
-50
+**50**
 
 <!-- page 51 -->
 
@@ -1978,7 +1982,7 @@ helper.
 
 UNIT 2 · TOPIC 2.5 · COMMUNITIES HELPING TOGETHER
 
-51
+**51**
 
 <!-- page 52 -->
 
@@ -2011,7 +2015,7 @@ feeling of being treated as somebody who decides things for themselves.
 
 UNIT 2 · TOPIC 2.5 · COMMUNITIES HELPING TOGETHER
 
-52
+**52**
 
 <!-- page 53 -->
 
@@ -2054,7 +2058,7 @@ saved in general.
 
 UNIT 2 · TOPIC 2.5 · COMMUNITIES HELPING TOGETHER
 
-53
+**53**
 
 <!-- page 54 -->
 
@@ -2097,7 +2101,7 @@ it would take.
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-54
+**54**
 
 <!-- page 55 -->
 
@@ -2150,7 +2154,7 @@ You checked what it really does
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-55
+**55**
 
 <!-- page 56 -->
 
@@ -2212,7 +2216,7 @@ I can work out how many weeks of saving something takes.
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-56
+**56**
 
 <!-- page 57 -->
 
@@ -2224,8 +2228,6 @@ nobody answered her. Write what you would say to her now.
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-57
-
 **HUMANITIES CORNER**
 
 **History**
@@ -2235,6 +2237,8 @@ the first paper money.
 **Geography**
 Some countries have tall glass towers, others villages of small houses. Where you live
 changes what you have and what things cost.
+
+**57**
 
 <!-- page 58 -->
 
@@ -2255,7 +2259,7 @@ have, and what things cost.
 
 UNIT 2 · RICH AND POOR
 
-58
+**58**
 
 <!-- page 59 -->
 
@@ -2310,7 +2314,7 @@ A home is built for its weather and its materials
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-59
+**59**
 
 <!-- page 60 -->
 
@@ -2357,7 +2361,7 @@ Wrote about people with respect
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-60
+**60**
 
 <!-- page 61 -->
 
@@ -2368,22 +2372,23 @@ One thing from this term I want to remember next year.
 
 UNIT 2 · TOPIC 2.6 · SAVING AND SPENDING WISELY
 
-61
+**61**
 
 <!-- page 62 -->
 
 ---
-U N I T 3
+**U N I T 3**
 ## 3
 ## Digital world
 
-What the machines are for, how to be safe and kind with them, and when to put them down
+What the machines are for, how to be safe and kind with them, and when to put
+them down
 
-**THE B IG Q U ESTIO N**
+**T H E B I G Q U E S T I O N**
 
 Who is in charge, you or the screen?
 
-62
+**62**
 
 <!-- page 63 -->
 
@@ -2433,7 +2438,7 @@ The best inventions start with a person, not with a gadget.
 
 UNIT 3 · DIGITAL WORLD
 
-63
+**63**
 
 <!-- page 64 -->
 
@@ -2479,7 +2484,7 @@ exactly as good as the first.
 
 UNIT 3 · DIGITAL WORLD
 
-64
+**64**
 
 <!-- page 65 -->
 
@@ -2502,7 +2507,7 @@ which cannot.
 
 UNIT 3 · TOPIC 3.1 · WHAT IS THE DIGITAL WORLD?
 
-65
+**65**
 
 <!-- page 66 -->
 
@@ -2554,12 +2559,12 @@ Keeping everything
 
 UNIT 3 · TOPIC 3.2 · DIGITAL DEVICES AROUND US
 
-66
-
 Computer
 
 A device is a machine that does one job for you. Every device is good at its own
 job.
+
+**66**
 
 <!-- page 67 -->
 
@@ -2584,7 +2589,7 @@ looking at.
 
 UNIT 3 · TOPIC 3.2 · DIGITAL DEVICES AROUND US
 
-67
+**67**
 
 <!-- page 68 -->
 
@@ -2627,9 +2632,9 @@ on a telephone, having never owned a desktop computer at all.
 
 UNIT 3 · TOPIC 3.3 · TECHNOLOGY AROUND THE WORLD
 
-68
-
 ## Knowing how , someone who can show you what to do.
+
+**68**
 
 <!-- page 69 -->
 
@@ -2673,7 +2678,7 @@ Tomás wants to know how tall the Torre de Belém is. Here is his method.
 
 UNIT 3 · TOPIC 3.4 · LEARNING WITH TECHNOLOGY
 
-69
+**69**
 
 <!-- page 70 -->
 
@@ -2705,7 +2710,7 @@ you found it.
 
 UNIT 3 · TOPIC 3.4 · LEARNING WITH TECHNOLOGY
 
-70
+**70**
 
 <!-- page 71 -->
 
@@ -2753,7 +2758,7 @@ makes those decisions, not you, and that is a relief rather than a rule.
 
 UNIT 3 · TOPIC 3.5 · STAYING SAFE ONLINE
 
-71
+**71**
 
 <!-- page 72 -->
 
@@ -2785,7 +2790,7 @@ seguranet.pt
 
 UNIT 3 · TOPIC 3.5 · STAYING SAFE ONLINE
 
-72
+**72**
 
 <!-- page 73 -->
 
@@ -2829,7 +2834,7 @@ one more voice does real harm. Tell an adult instead.
 
 UNIT 3 · TOPIC 3.6 · BEING KIND ONLINE
 
-73
+**73**
 
 <!-- page 74 -->
 
@@ -2861,7 +2866,7 @@ way.
 
 UNIT 3 · TOPIC 3.6 · BEING KIND ONLINE
 
-74
+**74**
 
 <!-- page 75 -->
 
@@ -2904,7 +2909,7 @@ waiting.
 
 UNIT 3 · TOPIC 3.7 · SCREEN TIME AND BALANCE
 
-75
+**75**
 
 <!-- page 76 -->
 
@@ -2935,7 +2940,7 @@ Keep a record for one day. Use the 24 hour clock.
 
 UNIT 3 · TOPIC 3.7 · SCREEN TIME AND BALANCE
 
-76
+**76**
 
 <!-- page 77 -->
 
@@ -2981,7 +2986,7 @@ class".
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-77
+**77**
 
 <!-- page 78 -->
 
@@ -3034,7 +3039,7 @@ You wrote their words, not yours
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-78
+**78**
 
 <!-- page 79 -->
 
@@ -3095,7 +3100,7 @@ I can say what to do if a stranger messages me.
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-79
+**79**
 
 <!-- page 80 -->
 
@@ -3114,8 +3119,6 @@ Who is in charge, you or the screen?
 
 UNIT 3 · TOPIC 3.8 · DESIGNING THE TECHNOLOGY OF THE FUTURE
 
-80
-
 **HUMANITIES CORNER**
 
 **History**
@@ -3125,6 +3128,8 @@ and for centuries letters travelled by horse, ship and carrier pigeon.
 **Geography**
 Under the oceans run glowing fibre‑optic cables that carry messages between
 continents in a blink. In space, satellites bounce signals to the farthest islands.
+
+**80**
 
 <!-- page 81 -->
 
@@ -3145,22 +3150,22 @@ your words travel.
 
 UNIT 3 · DIGITAL WORLD
 
-81
+**81**
 
 <!-- page 82 -->
 
 ---
-U N I T 4
+**U N I T 4**
 ## 4
 ## Improving communication
 
-**THE B IG Q U ESTIO N**
+How to say things clearly, listen well, and understand each other.
+
+**T H E B I G Q U E S T I O N**
 
 How do you know you have been understood?
 
-82
-
-How to say things clearly, listen well, and understand each other.
+**82**
 
 <!-- page 83 -->
 
@@ -3211,7 +3216,7 @@ Some things must be said face to face.
 
 UNIT 4 · IMPROVING COMMUNICATION
 
-83
+**83**
 
 <!-- page 84 -->
 
@@ -3256,7 +3261,7 @@ So every message has three parts:
 
 UNIT 4 · IMPROVING COMMUNICATION
 
-84
+**84**
 
 <!-- page 85 -->
 
@@ -3303,7 +3308,7 @@ Look at the speaker. Put down what is in your paws.
 
 UNIT 4 · TOPIC 4.1 · WHAT IS COMMUNICATION?
 
-85
+**85**
 
 <!-- page 86 -->
 
@@ -3337,7 +3342,7 @@ right?
 
 UNIT 4 · TOPIC 4.2 · SPEAKING AND LISTENING
 
-86
+**86**
 
 <!-- page 87 -->
 
@@ -3383,7 +3388,7 @@ the room hears the difference.
 
 UNIT 4 · TOPIC 4.3 · WORDS, FACES AND HANDS
 
-87
+**87**
 
 <!-- page 88 -->
 
@@ -3411,7 +3416,7 @@ Nodding for yes is common but not universal.
 
 UNIT 4 · TOPIC 4.3 · WORDS, FACES AND HANDS
 
-88
+**88**
 
 <!-- page 89 -->
 
@@ -3455,7 +3460,7 @@ help with this. Saying one of those is not weakness; it is the fastest route out
 
 UNIT 4 · TOPIC 4.4 · FEELINGS AND COMMUNICATION
 
-89
+**89**
 
 <!-- page 90 -->
 
@@ -3485,7 +3490,7 @@ spoken only at home?
 
 UNIT 4 · TOPIC 4.4 · FEELINGS AND COMMUNICATION
 
-90
+**90**
 
 <!-- page 91 -->
 
@@ -3529,7 +3534,7 @@ is.
 
 UNIT 4 · TOPIC 4.5 · COMMUNICATION AROUND THE WORLD
 
-91
+**91**
 
 <!-- page 92 -->
 
@@ -3570,7 +3575,7 @@ Here is a method with four steps. Do them in order, even when you are cross.
 
 UNIT 4 · TOPIC 4.5 · COMMUNICATION AROUND THE WORLD
 
-92
+**92**
 
 <!-- page 93 -->
 
@@ -3601,7 +3606,7 @@ between them. Look for who is asking for a turn.
 
 UNIT 4 · TOPIC 4.6 · SOLVING PROBLEMS THROUGH COMMUNICATION
 
-93
+**93**
 
 <!-- page 94 -->
 
@@ -3640,7 +3645,7 @@ reach.
 
 UNIT 4 · TOPIC 4.6 · SOLVING PROBLEMS THROUGH COMMUNICATION
 
-94
+**94**
 
 <!-- page 95 -->
 
@@ -3707,7 +3712,7 @@ time of a match, saying sorry properly.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-95
+**95**
 
 <!-- page 96 -->
 
@@ -3764,7 +3769,7 @@ why
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-96
+**96**
 
 <!-- page 97 -->
 
@@ -3810,7 +3815,7 @@ I can say what should be said face to face.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-97
+**97**
 
 <!-- page 98 -->
 
@@ -3823,8 +3828,6 @@ How do you know you have been understood?
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-98
-
 **HUMANITIES CORNER**
 
 **History**
@@ -3834,6 +3837,8 @@ copied books by hand, one slow page at a time.
 **Geography**
 Greeks theatre masks carried feelings to the back row. Flag signals spoke between
 ships at sea. Every culture invented its own ways to be understood.
+
+**98**
 
 <!-- page 99 -->
 
@@ -3855,7 +3860,7 @@ of saying I understand you.
 
 UNIT 4 · IMPROVING COMMUNICATION
 
-99
+**99**
 
 <!-- page 100 -->
 
@@ -3911,7 +3916,7 @@ you do.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-100
+**100**
 
 <!-- page 101 -->
 
@@ -3958,7 +3963,7 @@ Wrote a message I would be happy to receive
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-101
+**101**
 
 <!-- page 102 -->
 
@@ -3969,22 +3974,23 @@ One thing I will do differently with a screen next term.
 
 UNIT 4 · TOPIC 4.7 · DIGITAL COMMUNICATION
 
-102
+**102**
 
 <!-- page 103 -->
 
 ---
-U N I T 5
+**U N I T 5**
 ## 5
 ## Moving goods and people
 
-How everything you own got to you, how you get about, and what the journey costs the world
+How everything you own got to you, how you get about, and what the journey
+costs the world
 
-**THE B IG Q U ESTIO N**
+**T H E B I G Q U E S T I O N**
 
 How did that get here?
 
-103
+**103**
 
 <!-- page 104 -->
 
@@ -4034,7 +4040,7 @@ Start with the hill, the river or the person, not with the vehicle.
 
 UNIT 5 · MOVING GOODS AND PEOPLE
 
-104
+**104**
 
 <!-- page 105 -->
 
@@ -4079,7 +4085,7 @@ Four things decide how you travel:
 
 UNIT 5 · MOVING GOODS AND PEOPLE
 
-105
+**105**
 
 <!-- page 106 -->
 
@@ -4111,7 +4117,7 @@ heaviest load.
 
 UNIT 5 · TOPIC 5.1 · WAYS WE TRAVEL
 
-106
+**106**
 
 <!-- page 107 -->
 
@@ -4154,7 +4160,7 @@ Portugal in February is a small marvel and not just a piece of fruit.
 
 UNIT 5 · TOPIC 5.2 · MOVING GOODS
 
-107
+**107**
 
 <!-- page 108 -->
 
@@ -4186,7 +4192,7 @@ en.wikipedia.org/wiki/Intermodal_container
 
 UNIT 5 · TOPIC 5.2 · MOVING GOODS
 
-108
+**108**
 
 <!-- page 109 -->
 
@@ -4250,11 +4256,11 @@ ship, train.
 
 UNIT 5 · TOPIC 5.3 · LAND, WATER AND AIR TRANSPORT
 
-109
-
 **Land**
 
 **Water**
+
+**109**
 
 <!-- page 110 -->
 
@@ -4300,7 +4306,7 @@ Get in and out on the pavement side.
 
 UNIT 5 · TOPIC 5.3 · LAND, WATER AND AIR TRANSPORT
 
-110
+**110**
 
 <!-- page 111 -->
 
@@ -4332,7 +4338,7 @@ place needing most care.
 
 UNIT 5 · TOPIC 5.4 · SAFE TRAVEL
 
-111
+**111**
 
 <!-- page 112 -->
 
@@ -4377,7 +4383,7 @@ Australia.
 
 UNIT 5 · TOPIC 5.4 · SAFE TRAVEL
 
-112
+**112**
 
 <!-- page 113 -->
 
@@ -4422,7 +4428,7 @@ each passenger's share is small.
 
 UNIT 5 · TOPIC 5.5 · TRANSPORT AROUND THE WORLD
 
-113
+**113**
 
 <!-- page 114 -->
 
@@ -4454,7 +4460,7 @@ car with one person.
 
 UNIT 5 · TOPIC 5.6 · HELPING THE ENVIRONMENT
 
-114
+**114**
 
 <!-- page 115 -->
 
@@ -4506,7 +4512,7 @@ days
 
 UNIT 5 · TOPIC 5.6 · HELPING THE ENVIRONMENT
 
-115
+**115**
 
 <!-- page 116 -->
 
@@ -4565,7 +4571,7 @@ past with its siren on.
 
 UNIT 5 · TOPIC 5.7 · COMMUNITY HELPERS AND TRANSPORT
 
-116
+**116**
 
 <!-- page 117 -->
 
@@ -4611,7 +4617,7 @@ question you met in Unit 1.
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-117
+**117**
 
 <!-- page 118 -->
 
@@ -4667,7 +4673,7 @@ evidence
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-118
+**118**
 
 <!-- page 119 -->
 
@@ -4728,7 +4734,7 @@ I can name three workers whose jobs depend on transport.
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-119
+**119**
 
 <!-- page 120 -->
 
@@ -4743,8 +4749,6 @@ How did that get here?
 
 UNIT 5 · TOPIC 5.8 · DESIGNING FUTURE TRANSPORT
 
-120
-
 **HUMANITIES CORNER**
 
 **History**
@@ -4754,6 +4758,8 @@ people said could never be built.
 **Geography**
 Canal boats float goods across flat Holland, camels carry them over burning deserts,
 and roads spiral around mountains. The land chooses the transport.
+
+**120**
 
 <!-- page 121 -->
 
@@ -4774,22 +4780,22 @@ the land decides how people and goods can travel.
 
 UNIT 5 · MOVING GOODS AND PEOPLE
 
-121
+**121**
 
 <!-- page 122 -->
 
 ---
-U N I T 6
+**U N I T 6**
 ## 6
 ## Family, friends, community and culture
 
 The people who are yours, the people next door, and what a place does together
 
-**THE B IG Q U ESTIO N**
+**T H E B I G Q U E S T I O N**
 
 What makes a group of people into a community?
 
-122
+**122**
 
 <!-- page 123 -->
 
@@ -4840,7 +4846,7 @@ Ask, listen, do not mock, do not pretend it is yours.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-123
+**123**
 
 <!-- page 124 -->
 
@@ -4886,7 +4892,7 @@ lodger may share a household and not be family.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-124
+**124**
 
 <!-- page 125 -->
 
@@ -4929,7 +4935,7 @@ changes shape through the year.
 
 UNIT 6 · TOPIC 6.1 · MY FAMILY
 
-125
+**125**
 
 <!-- page 126 -->
 
@@ -4960,7 +4966,7 @@ what all five are doing.
 
 UNIT 6 · TOPIC 6.2 · DIFFERENT FAMILIES AROUND THE WORLD
 
-126
+**126**
 
 <!-- page 127 -->
 
@@ -5004,7 +5010,7 @@ no rule that says you must have one particular best friend.
 
 UNIT 6 · TOPIC 6.3 · BEING A GOOD FRIEND
 
-127
+**127**
 
 <!-- page 128 -->
 
@@ -5028,7 +5034,7 @@ case.
 
 UNIT 6 · TOPIC 6.3 · BEING A GOOD FRIEND
 
-128
+**128**
 
 <!-- page 129 -->
 
@@ -5082,7 +5088,7 @@ other.
 
 UNIT 6 · TOPIC 6.4 · OUR SCHOOL AND LOCAL COMMUNITY
 
-129
+**129**
 
 <!-- page 130 -->
 
@@ -5114,7 +5120,7 @@ bombeiros.pt
 
 UNIT 6 · TOPIC 6.4 · OUR SCHOOL AND LOCAL COMMUNITY
 
-130
+**130**
 
 <!-- page 131 -->
 
@@ -5156,7 +5162,7 @@ decides.
 
 UNIT 6 · TOPIC 6.5 · WORKING TOGETHER TO BUILD A CARING COMMUNITY
 
-131
+**131**
 
 <!-- page 132 -->
 
@@ -5196,7 +5202,7 @@ The last row is the one people skip. Fill it in.
 
 UNIT 6 · TOPIC 6.5 · WORKING TOGETHER TO BUILD A CARING COMMUNITY
 
-132
+**132**
 
 <!-- page 133 -->
 
@@ -5257,8 +5263,6 @@ remembered.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-133
-
 Carnaval
 
 Santos Populares
@@ -5266,6 +5270,8 @@ Santos Populares
 São Martinho
 
 Christmas
+
+**133**
 
 <!-- page 134 -->
 
@@ -5294,7 +5300,7 @@ the local harvest, kept going long after everyone stopped farming.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-134
+**134**
 
 <!-- page 135 -->
 
@@ -5331,8 +5337,6 @@ same reason somebody else's feels normal to them.
 
 UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 
-135
-
 ## Ask questions. If you do not know, just ask nicely.
 
 ## Say names correctly. Learn how, and use it every time.
@@ -5340,6 +5344,8 @@ UNIT 6 · TOPIC 6.6 · CELEBRATIONS AND TRADITIONS
 ## Be kind about differences. Never laugh at food, clothes or accents.
 
 ## Be curious, not judgemental. Try new things and learn about others.
+
+**135**
 
 <!-- page 136 -->
 
@@ -5373,10 +5379,10 @@ somewhere?
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-136
-
 One more thing: a new pupil is a person, not a poster for their country. Let them
 play, laugh and be themselves.
+
+**136**
 
 <!-- page 137 -->
 
@@ -5432,7 +5438,7 @@ You said how you know each one
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-137
+**137**
 
 <!-- page 138 -->
 
@@ -5489,7 +5495,7 @@ I can describe São Martinho and say why it is in November.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-138
+**138**
 
 <!-- page 139 -->
 
@@ -5504,8 +5510,6 @@ What makes a group of people into a community?
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-139
-
 **HUMANITIES CORNER**
 
 **History**
@@ -5515,6 +5519,8 @@ Celebrations have always glued communities together.
 **Geography**
 Every culture celebrates in its own way. Portugal roasts chestnuts for São Martinho,
 Japan lights lanterns at summer festivals, and children everywhere hold hands.
+
+**139**
 
 <!-- page 140 -->
 
@@ -5535,7 +5541,7 @@ different customs, the same wish to be together.
 
 UNIT 6 · FAMILY, FRIENDS, COMMUNITY AND CULTURE
 
-140
+**140**
 
 <!-- page 141 -->
 
@@ -5594,7 +5600,7 @@ properly, and not mocking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-141
+**141**
 
 <!-- page 142 -->
 
@@ -5643,7 +5649,7 @@ Asked a question worth asking
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-142
+**142**
 
 <!-- page 143 -->
 
@@ -5677,7 +5683,7 @@ practise next.
 
 UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
-143
+**143**
 
 <!-- page 144 -->
 
@@ -5728,7 +5734,7 @@ UNIT 6 · TOPIC 6.7 · RESPECTING DIFFERENT CULTURES
 
 WORD LIST
 
-144
+**144**
 
 <!-- page 145 -->
 
@@ -5780,7 +5786,7 @@ along
 
 WORD LIST
 
-145
+**145**
 
 <!-- page 146 -->
 
@@ -5823,7 +5829,7 @@ grandparents
 
 WORD LIST
 
-146
+**146**
 
 <!-- page 147 -->
 
@@ -5913,7 +5919,7 @@ vernacular architecture
 
 SOURCES AND REFERENCES
 
-147
+**147**
 
 <!-- page 148 -->
 
@@ -6010,7 +6016,7 @@ Portuguesa (CPLP)
 
 SOURCES AND REFERENCES
 
-148
+**148**
 
 <!-- page 149 -->
 
@@ -6097,7 +6103,7 @@ Municipal do Porto
 
 SOURCES AND REFERENCES
 
-149
+**149**
 
 <!-- page 150 -->
 
@@ -6151,7 +6157,7 @@ have been decoration rather than teaching, it was cut.
 
 SOURCES AND REFERENCES
 
-150
+**150**
 
 <!-- page 151 -->
 
@@ -6197,7 +6203,7 @@ ignores the rules or blames others, with a reason why skill does not make up for
 
 ANSWERS
 
-151
+**151**
 
 <!-- page 152 -->
 
@@ -6244,7 +6250,7 @@ caring for a child or an older relative.
 
 ANSWERS
 
-152
+**152**
 
 <!-- page 153 -->
 
@@ -6288,7 +6294,7 @@ something strange has come up. 4. Your own two adults.
 
 ANSWERS
 
-153
+**153**
 
 <!-- page 154 -->
 
@@ -6335,7 +6341,7 @@ somebody is being unkind on purpose.
 
 ANSWERS
 
-154
+**154**
 
 <!-- page 155 -->
 
@@ -6379,7 +6385,7 @@ would struggle with it, and a change that includes them.
 
 ANSWERS
 
-155
+**155**
 
 <!-- page 156 -->
 
@@ -6416,7 +6422,7 @@ or wear it as a costume for fun. 4. Your own answer.
 
 ANSWERS
 
-156
+**156**
 
 <!-- page 157 -->
 
@@ -6462,7 +6468,7 @@ topic.
 
 FOR TEACHERS
 
-157
+**157**
 
 <!-- page 158 -->
 
