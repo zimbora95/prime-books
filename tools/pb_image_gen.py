@@ -13,12 +13,22 @@ script exists: curl alone is awkward for multi-MB base64 bodies.
 endpoint may still return an opaque PNG) chroma-keys any near-white /
 near-uniform border it does get back, so assets dropped straight onto a book
 page never carry a white box with them.
+
+--ref <image> keeps an EXISTING character on model. It sends the approved
+character sheet to google/gemini-3-pro-image through the chat completions
+endpoint as an image alongside the prompt, which is the only route that actually
+holds the design: openai/gpt-image-2.5-sunburst accepts an "image" field on the
+images endpoint and then silently ignores it, which is how a reference squirrel
+comes back as a human child. Use --ref only for scene reuse; every new plate
+stays on the images endpoint at quality medium.
 """
 import argparse, base64, json, sys, urllib.request, urllib.error
 
 ENV_PATH = "/root/.hermes/.env"
 API = "https://openrouter.ai/api/v1/images/generations"
+CHAT = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "openai/gpt-image-2.5-sunburst"
+REF_MODEL = "google/gemini-3-pro-image"
 
 
 def key():
@@ -35,7 +45,38 @@ def main():
     ap.add_argument("--size", default="1024x1024")
     ap.add_argument("--quality", default="medium")
     ap.add_argument("--transparent", action="store_true")
+    ap.add_argument("--ref", help="character sheet image to keep on model (uses %s)" % REF_MODEL)
     a = ap.parse_args()
+
+    if a.ref:
+        data = base64.b64encode(open(a.ref, "rb").read()).decode()
+        mime = "image/png" if a.ref.lower().endswith(".png") else "image/jpeg"
+        body = {
+            "model": REF_MODEL,
+            "modalities": ["image", "text"],
+            "messages": [{"role": "user", "content": [
+                {"type": "image_url",
+                 "image_url": {"url": "data:%s;base64,%s" % (mime, data)}},
+                {"type": "text", "text": a.prompt},
+            ]}],
+        }
+        req = urllib.request.Request(CHAT, data=json.dumps(body).encode(), headers={
+            "Authorization": "Bearer " + key(),
+            "Content-Type": "application/json",
+        })
+        try:
+            d = json.load(urllib.request.urlopen(req, timeout=600))
+        except urllib.error.HTTPError as e:
+            sys.exit("OpenRouter error %s: %s" % (e.code, e.read().decode()[:300]))
+        msg = d["choices"][0]["message"]
+        imgs = msg.get("images") or []
+        if not imgs:
+            sys.exit("No image in response: " + json.dumps(msg)[:300])
+        raw = base64.b64decode(imgs[0]["image_url"]["url"].split(",", 1)[1])
+        with open(a.out, "wb") as f:
+            f.write(raw)
+        print(a.out)
+        return
 
     body = {
         "model": MODEL,

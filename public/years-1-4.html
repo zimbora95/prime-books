@@ -110,9 +110,9 @@
 
 <div class="chips">
   <span class="chip gold">Locked 14 September 2026</span>
-  <span class="chip">Edition A-2.1</span>
+  <span class="chip">Edition A-2.2</span>
   <span class="chip">Years 1 to 4</span>
-  <span class="chip terra">5 items still open</span>
+  <span class="chip terra">1 item still open</span>
 </div>
 
 <p class="lead">This page is the short, working version. Everything a teacher, a designer or a
@@ -143,9 +143,10 @@ pictures carry more information, and the pupils are asked to do more. Nothing el
 teacher can find the glossary, the safety page or the sources without hunting.</p>
 
 <figure>
-  <img src="/standards/art/y1-4-book-skeleton.webp" alt="Diagram of the eight fixed parts of a Prime Books title">
-  <figcaption><b>The skeleton.</b> Eight fixed stations. Only the middle of the book changes with the
-  subject: how many units there are and how many pages each unit takes.</figcaption>
+  <img src="/standards/art/y1-4-book-skeleton.webp" alt="Diagram of the nine fixed parts of a Prime Books title">
+  <figcaption><b>The skeleton.</b> Nine fixed stations. Only the middle of the book changes with the
+  subject: how many units there are and how many pages each unit takes. The references section now
+  sits directly after the glossary, and the link list after that.</figcaption>
 </figure>
 
 <div class="gridmap">
@@ -158,7 +159,8 @@ teacher can find the glossary, the safety page or the sources without hunting.</
   <div class="pg unit"><b>8 onward</b>Units, one colour each</div>
   <div class="pg unit"><b>after units</b>Portfolio and review</div>
   <div class="pg unit"><b>after units</b>Illustrated glossary</div>
-  <div class="pg unit"><b>after units</b>Sources and credits</div>
+  <div class="pg unit"><b>after units</b>References, every source</div>
+  <div class="pg unit"><b>after units</b>Link list, printed in full</div>
   <div class="pg unit"><b>after units</b>Closing reflection</div>
   <div class="pg back"><b>last</b>Back cover</div>
 </div>
@@ -167,6 +169,33 @@ teacher can find the glossary, the safety page or the sources without hunting.</
 <p><strong>Inside a unit, always in this order:</strong> opener, get started, concept and model,
 your turn, extension, applied project, reflection, word bank. A subject with no need for the extension
 page simply does not have one. It never invents a different shape.</p>
+</div>
+
+<h3>The safe area, and the header we are deleting</h3>
+
+<figure>
+  <img src="/standards/art/y1-4-safe-margins.webp" alt="Diagram of a page showing a 20 mm gutter, 5 mm safety on the other three edges, and a line of text marked with a red cross for crossing the margin">
+  <figcaption><b>Safe margins.</b> BookVault binds on the inner edge, so the gutter takes 20 mm while
+  the other three edges take 5 mm. Anything that crosses the dashed line is either lost in the spine
+  or cut off by the trim.</figcaption>
+</figure>
+
+<p>This is why the unit opener needed changing. On the Unit 1 opening page of Physical Education
+Year 1 (<i>Moving well</i>, physical page 12) the tracked eyebrow starts at x 36.8 pt, which is
+<b>13 mm from the trim edge and 7 mm inside the gutter</b>. In a perfect-bound book that lettering
+disappears into the spine. It is also saying something the page already says directly underneath it,
+in the big unit title.</p>
+
+<div class="plain">
+<p><strong>The rule now.</strong> The unit name appears <b>once</b> at the top of a unit page. On the
+opener: the unit eyebrow, the numeral, the unit title and the subtitle. On a topic page: the running
+head in the 47 pt band carries <i>Unit 1, Moving Well</i> and the kicker carries
+<i>UNIT 1, TOPIC 1.1</i> with the topic title, and the unit name is not printed a third time in the
+body. Everything sits inside the safe area, so nothing is lost in the spine, and the space we recover
+goes to the teaching.</p>
+<p>And the opposite guard rail: <b>no blank pages.</b> If a book has to reach a legal page count, the
+extra page is filled with something usable, a workspace, an extra glossary spread or a source list,
+never with white space. A page that exists is a page that teaches.</p>
 </div>
 
 <h3>The contents page is the book's business card</h3>
@@ -278,7 +307,46 @@ always an odd number, while the old gate fails any odd page count. And the old g
 BookVault-compliant book can pass, and that is the first job on the list.</p>
 </div>
 
-<h2><span class="num">PART SIX</span>Pictures</h2>
+<h2><span class="num">PART SIX</span>The cast, the codes and the references</h2>
+
+<figure>
+  <img src="/standards/art/y1-4-welcome-and-qr.webp" alt="A welcome page with six different animal characters and two QR codes captioned scan to show the class">
+  <figcaption><b>The welcome page.</b> Every subject gets its own cast of four to six named characters,
+  dressed for that subject, and those same characters then carry the scenes through the whole book.
+  The QR codes beside them are there so a teacher can put the activity on the board in one scan.</figcaption>
+</figure>
+
+<h3>One cast, that subject's cast</h3>
+<p>The welcome page introduces four to six named characters with a portrait and one line each. They
+are chosen for the subject, not shared across the year group: a Science cast, a Music cast, a
+Physical Education cast. Once a character is approved, that exact character is reused in every scene
+it appears in, and consistency is held by an <b>image reference</b>, not by memory.</p>
+
+<div class="plain">
+<p><strong>How the image reference works.</strong> The approved character sheet is passed to
+<b>google/gemini-3-pro-image</b> through OpenRouter's chat endpoint as an image alongside the scene
+prompt, and the returned art holds the same species, clothing and colouring. I tested it: the same
+squirrel in the same mustard knit jumper came back in a new scene. The plain image generation model,
+<b>openai/gpt-image-2.5-sunburst</b>, silently ignores a reference image, so it is used for new
+plates only, always at <b>quality medium</b>, which renders lettering correctly and keeps the cost per
+page sane.</p>
+</div>
+
+<h3>QR codes, at the point of the activity</h3>
+<p>Codes are not collected on one page at the back. A code sits inside the topic page, next to the
+instruction it belongs to, roughly one per unit, more in practical subjects, and none where there is
+nothing worth showing. Each one is captioned with what it shows and how long it runs, in the child's
+reading size, at least 74 pt square on a white card. Every address is fetched and every code is
+decoded back out of the rendered page before the book goes to print, and every target is also printed
+in full in the back matter, so the book still works if a link dies.</p>
+
+<h3>References, straight after the glossary</h3>
+<p>A references section follows the illustrated glossary and lists every information source the book
+used: books, websites, datasets, and the credit and licence for every image that is not ours. One
+source per row, laid out like the contents rows, each marked with the page or topic it supports. It is
+the printed proof of where the facts came from, and it is what makes the QR list safe to print.</p>
+
+<h2><span class="num">PART SEVEN</span>Pictures</h2>
 
 <p>Narrative scenes, objects and characters are original ink and watercolour in the Beatrix Potter
 direction: fine contours, transparent washes, warm muted pigments, cream paper, woodland animals in
@@ -292,7 +360,7 @@ picture, never reuse one hero scene as filler, never let the model put lettering
 Years 1 and 2 get large actions and generous space. Years 3 and 4 get more process, comparison and
 labelled evidence, in the same medium.</p>
 
-<h2><span class="num">PART SEVEN</span>What is locked, and what is still open</h2>
+<h2><span class="num">PART EIGHT</span>What is locked, and what is still open</h2>
 
 <div class="two">
   <div class="card">
@@ -305,21 +373,41 @@ labelled evidence, in the same medium.</p>
       <li>The page map in Part Two, in that order</li>
       <li>One colour per unit, rung number fixed across the series</li>
       <li>Contents on page 3 with a bar and one card per unit</li>
+      <li>Every page inside the safe area: 20 mm gutter, 5 mm elsewhere</li>
+      <li>The unit name printed once at the top of a unit page</li>
+      <li>No blank pages, ever: padding is always usable content</li>
+      <li>One cast per subject, on the welcome page, reused through the book by image reference</li>
+      <li>QR codes at the point of the activity, captioned, verified, and printed in full at the back</li>
+      <li>A references section after the glossary, one source per row</li>
       <li>Folio badge: 24 pt circle centred at (550, 758)</li>
       <li>The rules that override everything: never delete or move teacher-placed content,
       never shrink text to fit, readability before aesthetics</li>
     </ul>
   </div>
-  <div class="card open">
-    <h3>Still open, and I need your call</h3>
+  <div class="card">
+    <h3>Decided today, on your delegation</h3>
     <ul>
-      <li>Palette rungs 5 and 6, sage and ochre as shown above</li>
-      <li>The real spine width for the stock actually ordered</li>
-      <li>Whether older 612 × 792 pt masters move to 216 × 279 mm, or keep printing as a
-      declared custom size</li>
-      <li>The page budget per year, currently proposed as 59, 71, 83, 95</li>
-      <li>The handwriting ruling and words-per-page numbers, once a Year 1 book is read
-      against a Year 4 book</li>
+      <li><b>Palette rungs 5 and 6: sage and ochre,</b> as shown above. The ochre's mid tone was
+      darkened to the house ochre <span class="ui">#9A6A12</span> so a white folio numeral keeps a
+      readable 4.7 to 1 contrast.</li>
+      <li><b>No size migration.</b> The authoring page stays US Letter 612 × 792 pt. The printer's
+      216 × 279 mm trim is the same physical book to within 0.4 mm, so the pack builder normalises it
+      and nothing in the corpus gets rebuilt for a rounding.</li>
+      <li><b>Extent is a formula, not a fixed budget.</b> Front matter 7 pages, plus the units at
+      8 to 10 pages each in Year 1 rising to 12 to 14 in Year 4, plus 12 to 14 back matter pages, then
+      round <b>up</b> to the next legal count. Never round down, never pad with a blank page.</li>
+      <li><b>The spine is a measured number.</b> Use BookVault's calculator for the stock ordered, then
+      check the first physical proof with calipers and correct the figure if it is out by more than
+      half a millimetre. A wrong spine fails the whole print job.</li>
+      <li><b>The year ladder is locked as authoring guidance</b> and re-measured as soon as the first
+      Year 1 book is rebuilt, so it stops being a proposal and becomes a measurement.</li>
+    </ul>
+  </div>
+  <div class="card open">
+    <h3>One item still open</h3>
+    <ul>
+      <li>The real spine width for the paper you actually order. That number is not mine to guess and
+      it changes with the stock, so it is the single figure to confirm before the first upload.</li>
     </ul>
   </div>
 </div>
@@ -346,7 +434,7 @@ labelled evidence, in the same medium.</p>
   <a class="btn ghost" href="/standard">The Years 1 to 12 house record</a>
 </div>
 
-<p class="updated">Prime School Books, imprint of Prime School International · Standard A, edition A-2.1
+<p class="updated">Prime School Books, imprint of Prime School International · Standard A, edition A-2.2
 for Years 1 to 4 · locked 14 September 2026 · print route BookVault, perfect bound paperback</p>
 
 </div>

@@ -1,18 +1,21 @@
 {
-  "id": "A-2.1-Y1-4",
+  "id": "A-2.2-Y1-4",
   "title": "Prime Books Primary Standard, Years 1 to 4",
-  "status": "locked-candidate, awaiting the teacher's sign-off on the items in open_items",
+  "status": "locked by the teacher, 14 September 2026",
   "locked_on": "2026-09-14",
+  "revision_note": "A-2.2 supersedes A-2.1: the teacher delegated the five open items, added the Welcome cast, the QR policy, the References section, the safe-margin rule and the image-reference workflow.",
   "scope": {
     "years": [1, 2, 3, 4],
     "collection": "Standard A (Primary). Standard B, Years 7 to 12, is not touched by this lock.",
     "layout_reference": "public/library/y01-art-and-design/book.pdf",
+    "unit_page_reference": "y01 Physical Education, Unit 1 'Moving well', physical page 12",
     "contents_component_reference": "y01 Physical Education master contents page (bar plus one card per unit)",
     "print_route": "BookVault, perfect-bound paperback. No other printer is planned, so printing constrains the page.",
     "content_deletion_or_movement_requires_permission": true
   },
   "geometry": {
-    "unit": "millimetres are the source of truth, points are derived at 72/25.4",
+    "unit": "millimetres are the source of truth for print, points for authoring, converted at 72/25.4",
+    "authoring_page_pt": [612.0, 792.0],
     "trim_mm": [216.0, 279.0],
     "media_mm": [222.0, 285.0],
     "bleed_mm": 3.0,
@@ -20,6 +23,8 @@
     "bleed_pt": 8.5,
     "margins_mm": { "inside_gutter": 20.0, "outside": 15.0, "top": 23.25, "bottom": 20.0 },
     "margin_note": "mirrored margins: the inner margin is deeper than the outer one, because BookVault binds on the inner edge",
+    "safe_area_pt": { "x_min_recto": 56.7, "x_max_recto": 597.8, "y_min": 14.2, "y_max": 762.0 },
+    "safe_area_note": "20 mm (56.7 pt) from the binding edge, 5 mm (14.2 pt) from the other three trim edges",
     "trim_safety_mm": 5.0,
     "footer_rule_y_pt_from_trim_top": 742.0,
     "folio_centre_pt": [550.0, 758.0],
@@ -27,10 +32,15 @@
     "unit_band_pt": { "y": [0, 47], "rule_y": [46.0, 47.8], "rule_weight_pt": 1.8 }
   },
   "extent": {
-    "rule": "interior page count is 11, 23, 35, 47, 59, 71, 83, 95 or 107: one less than a multiple of 12",
+    "rule": "interior page count is one less than a multiple of 12: 11, 23, 35, 47, 59, 71, 83, 95, 107, 119, 131 ...",
     "applies_to": "the interior file, after the front and back covers are stripped for the cover wrap",
-    "reserves_last_page": "BookVault prints its production barcode on the last interior page: keep that page clear in its lower area",
-    "targets": { "1": 59, "2": 71, "3": 83, "4": 95 }
+    "formula": "round UP to the next legal count; never round down, never pad with a blank page",
+    "budget": "front matter 7 pages + units + back matter 12 to 14 pages (glossary, references, sources, closing), then round up to the nearest 12n-1",
+    "unit_page_budget": { "1": [8, 10], "2": [9, 11], "3": [10, 12], "4": [12, 14] },
+    "minimum_viable": 35,
+    "no_blank_pages": true,
+    "blank_page_note": "a page that exists is a page that teaches, gives workspace or records sources. Padding to reach a legal count is done with usable content, never with white space.",
+    "reserves_last_page": "BookVault prints its production barcode on the last interior page: keep that page clear in its lower area"
   },
   "typography": {
     "display": "Fredoka-SemiBold",
@@ -51,6 +61,13 @@
     "never_shrink_to_fit": true,
     "preserve_larger_existing_sizes": true
   },
+  "unit_page_header": {
+    "rule": "the unit name appears ONCE at the top of a unit page",
+    "on_the_opener": "unit eyebrow, numeral, unit title, subtitle. No running head repeating the unit name above or below it",
+    "on_topic_pages": "the running head in the 47 pt band carries 'Unit n, Unit name' and the kicker carries 'UNIT n, TOPIC x.y' with the topic title. Do not print the unit name a third time in the body",
+    "reason": "measured on the y01 PE Unit 1 opener: the unit name was repeated, and the tracked eyebrow started at x 36.8 pt, which is 13 mm from the trim, 7 mm inside BookVault's 20 mm gutter",
+    "enforced": "every piece of furniture sits inside safe_area_pt"
+  },
   "year_ladder": {
     "handwriting_ruling_mm": {
       "1": { "lines": 4, "baseline_gap_mm": 24.0 },
@@ -62,7 +79,7 @@
     "words_per_page_max": { "1": 80, "2": 110, "3": 140, "4": 170 },
     "drawing_box_min_pt": { "1": [150, 110], "2": [140, 100], "3": [125, 95], "4": [110, 90] },
     "columns": { "1": 1, "2": 1, "3": 1, "4": 2 },
-    "basis": "adopted defaults for Years 1 to 4, to be verified against the Year 1 reference"
+    "basis": "adopted defaults for Years 1 to 4, advisory while a book is being authored, re-measured after the first Year 1 book is rebuilt"
   },
   "unit_palette": {
     "rule": "unit n takes rung n in every book of the series, so the same unit number is the same colour in every subject",
@@ -71,8 +88,8 @@
       { "unit": 2, "name": "rose", "deep": "#96204A", "mid": "#D6336C", "tint": "#FCE4EC", "basis": "measured from the reference" },
       { "unit": 3, "name": "terracotta", "deep": "#8C3A12", "mid": "#C4561F", "tint": "#FBE7D8", "basis": "measured from the reference" },
       { "unit": 4, "name": "blue", "deep": "#0B3C85", "mid": "#1256B8", "tint": "#DEEAFB", "basis": "measured from the reference" },
-      { "unit": 5, "name": "sage", "deep": "#2F5233", "mid": "#4E7C52", "tint": "#E8F0E3", "basis": "proposed, needs the teacher's eye" },
-      { "unit": 6, "name": "ochre", "deep": "#6B4A0C", "mid": "#B5832A", "tint": "#FBF0D8", "basis": "proposed, needs the teacher's eye" }
+      { "unit": 5, "name": "sage", "deep": "#2F5233", "mid": "#4E7C52", "tint": "#E8F0E3", "basis": "locked 14 September 2026, white on mid 4.85:1" },
+      { "unit": 6, "name": "ochre", "deep": "#6B4A0C", "mid": "#9A6A12", "tint": "#FBF0D8", "basis": "locked 14 September 2026, mid set to the house ochre for 4.73:1 on a white numeral" }
     ]
   },
   "year_stripes": { "1": "#F1B300", "2": "#7FC3E8", "3": "#EF7522", "4": "#60BB46" },
@@ -82,13 +99,14 @@
     { "physical_page": "1", "component": "cover", "note": "no folio, full-bleed art, year stripe on the spine edge" },
     { "physical_page": "2", "component": "imprint", "note": "publisher identity, year, tagline, INSIDE THIS BOOK, IMPRINT rows, AI disclosure when generated art is used" },
     { "physical_page": "3", "component": "contents", "note": "colour bar with one segment per unit, then one card per unit" },
-    { "physical_page": "4", "component": "welcome", "note": "invitation plus the cast of characters" },
-    { "physical_page": "5", "component": "how to use", "note": "labels, icons and meanings, defined once" },
+    { "physical_page": "4", "component": "welcome", "note": "invitation plus THIS SUBJECT'S OWN CAST: the characters that will appear through the book, named, with the subject's own wardrobe" },
+    { "physical_page": "5", "component": "how to use", "note": "labels, icons and meanings defined once, including how to use a QR code in class" },
     { "physical_page": "6-7", "component": "preparation and safety", "note": "materials, practical safety, picture vocabulary" },
     { "physical_page": "8+", "component": "units", "note": "each unit: opener, get started, concept and model, your turn, extension, applied project, reflection, word bank" },
     { "physical_page": "after units", "component": "portfolio and synthesis", "note": "demonstrate the learning, not an exhibition" },
     { "physical_page": "after units", "component": "illustrated glossary", "note": "two columns of cards: image, headword, short definition" },
-    { "physical_page": "after units", "component": "sources and credits", "note": "real URLs and licences, hanging indents" },
+    { "physical_page": "after units", "component": "references", "note": "every information source used in the book: books, websites, datasets, image credits and licences, one per row, with the page or topic it supports" },
+    { "physical_page": "after units", "component": "sources and link list", "note": "the printed list of every QR target, so a teacher can read the addresses without a phone" },
     { "physical_page": "after units", "component": "closing reflection", "note": "short meaningful close" },
     { "physical_page": "penultimate, when needed", "component": "production reserve", "note": "kept clear for BookVault's printed barcode" },
     { "physical_page": "last", "component": "back cover", "note": "printed again in the cover wrap, so it is stripped from the interior file" }
@@ -98,13 +116,38 @@
     "form": "one colour bar segment per unit, then one tinted card per unit",
     "segment_count": "equals the number of units, never fixed at six",
     "card_rows": ["UNIT n", "unit start page", "unit name", "one-line strand summary", "topic rows", "Unit n, How did it go?"],
-    "front_and_back_matter": "plain dot-leader rows",
+    "front_and_back_matter": "plain dot-leader rows, including the glossary and the references section",
     "page_numbers": "generated from the built PDF and verified against the real page index"
+  },
+  "welcome_cast": {
+    "rule": "every subject has its OWN cast, named and dressed for that subject. No shared six across the year group",
+    "count": "4 to 6 named characters, chosen for the subject",
+    "on_page": "portrait, name and one short line of character, in the welcome grid; the same characters then carry the narrative scenes through the whole book",
+    "consistency": "locked by an image reference, not by memory",
+    "reference_route": "google/gemini-3-pro-image through the OpenRouter chat endpoint with the approved character sheet as the image reference; this is the only route that actually holds the character, because openai/gpt-image-2.5-sunburst ignores a reference image",
+    "cost_note": "scene generation stays on openai/gpt-image-2.5-sunburst at quality medium; the reference route is used only when an existing character must appear"
+  },
+  "qr_policy": {
+    "purpose": "a teacher standing in front of the class can show the activity on the board in one scan",
+    "placement": "at the point of the activity, inside the topic page, next to the instruction it belongs to. Not collected on a single page at the back",
+    "frequency": "roughly one per unit of 8 to 14 pages, more in practical subjects, none where there is nothing worth showing",
+    "size": "minimum 74 x 74 pt on a white card, 4 pt inset, quiet zone respected",
+    "caption": "every code is captioned with what it shows and how long it runs, in the child's reading size",
+    "verification": "every URL is fetched and every code is decoded back out of the rendered page before the book is published",
+    "print_list": "every target is also printed as a readable address in the back matter, so the book survives a dead link",
+    "screen": "the flipbook shows the same link as text next to the code"
   },
   "illustration": {
     "direction": "original Beatrix Potter style: fine ink contours, transparent watercolour, warm muted pigments, lightly textured cream paper",
     "palette": ["#FBF6EC", "#A8BF9B", "#C97B5A", "#F0CE7A", "#8FA8C7", "#3E3A35"],
-    "cast": "same characters and clothing throughout a book",
+    "generation": {
+      "default_model": "openai/gpt-image-2.5-sunburst",
+      "default_quality": "medium",
+      "reference_model": "google/gemini-3-pro-image",
+      "reference_field": "an image_url content part on the chat completions endpoint",
+      "text_only_plates": true,
+      "note": "medium quality is the house setting: it renders plate lettering correctly and keeps the cost per page sane"
+    },
     "retain_authentic_evidence_photos": true,
     "retain_precise_technical_diagrams": true,
     "text_inside_generated_art": false,
@@ -119,20 +162,23 @@
     "min_text_pt": 4.0,
     "min_line_pt": 0.25,
     "overprint": "off",
-    "transparency": "flattened, so cast portraits are composited rather than left on alpha",
+    "transparency": "flattened, so character art is composited rather than left on alpha",
     "images": "300 dpi target, 150 dpi absolute floor, native pixels recorded",
     "cover_wrap_mm": [443.0, 285.0],
     "cover_wrap_formula": "2 x trim width + spine + 3 mm + 3 mm, by trim height + 3 mm + 3 mm",
-    "spine": "from BookVault's sizing calculator for the actual stock, rounded up to a whole millimetre; spine text only when the spine is 6 mm or wider, centred and K only",
+    "spine": "BookVault's sizing calculator figure for the stock actually ordered, rounded up to a whole millimetre. The 0.056 mm per page in their worked example is a bond-paper figure: measure the first proof with calipers and correct spine_per_page_mm if it is out by more than 0.5 mm. Spine text only from 6 mm, centred and K only",
     "barcode_box_mm": [38.0, 25.0],
     "barcode_inset_mm": [6.4, 3.3],
     "no_crop_marks": true
   },
+  "decided_2026_09_14": [
+    "palette rungs 5 and 6 locked: sage #2F5233 / #4E7C52 / #E8F0E3 and ochre #6B4A0C / #9A6A12 / #FBF0D8, chosen so a white folio numeral keeps 4.7:1 or better",
+    "authoring size stays US Letter 612 x 792 pt; the 216 x 279 mm print trim is the same physical book within 0.4 mm, and the pack builder normalises. No corpus migration",
+    "extent is a formula, not a fixed budget: round up to the next 12n-1, with unit page budgets of 8 to 10 at Year 1 rising to 12 to 14 at Year 4, and no blank pages",
+    "the spine figure is a measured number, not an assumed one: use the calculator, then confirm with calipers on the first physical proof",
+    "year ladder, handwriting ruling and words per page are locked as advisory authoring numbers and re-measured after the first Year 1 rebuild"
+  ],
   "open_items": [
-    "the teacher's eye on palette rungs 5 and 6",
-    "the real spine width from BookVault's sizing calculator for the stock actually ordered",
-    "whether existing 612 x 792 pt masters migrate to 216 x 279 mm, or keep printing as a declared custom size",
-    "the page budget per year (59, 71, 83, 95 are proposals)",
-    "the handwriting ruling and words-per-page ladder, once the Year 1 reference is re-measured"
+    "the real spine width from BookVault's sizing calculator for the stock actually ordered"
   ]
 }
