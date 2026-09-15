@@ -66,15 +66,13 @@ any other publisher.
 
 **www.primeschool.pt**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
 **2**
 
 <!-- page 3 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**3**
-
 **ÜBER DIESES BUCH**
 
 ## About This Book
@@ -103,13 +101,13 @@ for hands that are still learning to form letters.
 
 B1 = language richness. Year 2 = how we read and write.
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**3**
+
 <!-- page 4 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**4**
-
 **SPRACHNIVEAU**
 
 ## What does B1 mean here?
@@ -118,7 +116,6 @@ B1 = language richness. Year 2 = how we read and write.
 First tiny words and sentences for new learners.
 
 **B1 — this book**
-You can understand and say a lot. Now the words get richer.
 
 **B2**
 Later: long texts and discussions, when you are older.
@@ -135,13 +132,15 @@ writing steps stay small and joyful.
 
 **YEAR 2 — B1 — NATIVE / FIRST LANGUAGE**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**4**
+
+You can understand and say a lot. Now the words get richer.
+
 <!-- page 5 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**5**
-
 **INHALT**
 
 ## Inhaltsverzeichnis · Contents
@@ -178,13 +177,13 @@ Einheit 8 · Das Wetter
 Einheit 9 · Im Supermarkt
 **48**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**5**
+
 <!-- page 6 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**6**
-
 **INHALT**
 
 ## Inhaltsverzeichnis · Contents (2)
@@ -229,17 +228,17 @@ Rückblick III
 **95**
 
 Mein Portfolio
-**96**
 
 Wortbilderverzeichnis (picture word list)
-**100**
+
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**6**
 
 <!-- page 7 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**6**
 
 **EINHEIT 1**
 ## Meine Familie
@@ -271,13 +270,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**7**
+
 <!-- page 8 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**8**
-
 **EINHEIT 1 · WÖRTER**
 ## Neue Wörter
 
@@ -319,13 +316,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**8**
+
 <!-- page 9 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**9**
-
 **EINHEIT 1 · LESEN**
 ## Wir lesen zusammen
 
@@ -347,13 +344,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**9**
+
 <!-- page 10 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**10**
-
 **EINHEIT 1 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -367,13 +364,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**10**
+
 <!-- page 11 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**11**
-
 **EINHEIT 1 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -386,12 +383,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**11**
+
 <!-- page 12 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**11**
 
 **EINHEIT 2**
 ## Meine Schule
@@ -423,13 +422,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**12**
+
 <!-- page 13 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**13**
-
 **EINHEIT 2 · WÖRTER**
 ## Neue Wörter
 
@@ -471,13 +468,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**13**
+
 <!-- page 14 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**14**
-
 **EINHEIT 2 · LESEN**
 ## Wir lesen zusammen
 
@@ -499,13 +496,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**14**
+
 <!-- page 15 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**15**
-
 **EINHEIT 2 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -519,13 +516,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**15**
+
 <!-- page 16 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**16**
-
 **EINHEIT 2 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -538,12 +535,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**16**
+
 <!-- page 17 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**16**
 
 **EINHEIT 3**
 ## Meine Freunde
@@ -575,13 +574,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**17**
+
 <!-- page 18 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**18**
-
 **EINHEIT 3 · WÖRTER**
 ## Neue Wörter
 
@@ -623,13 +620,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**18**
+
 <!-- page 19 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**19**
-
 **EINHEIT 3 · LESEN**
 ## Wir lesen zusammen
 
@@ -651,13 +648,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**19**
+
 <!-- page 20 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**20**
-
 **EINHEIT 3 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -671,13 +668,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**20**
+
 <!-- page 21 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**21**
-
 **EINHEIT 3 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -690,12 +687,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**21**
+
 <!-- page 22 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**21**
 
 **EINHEIT 4**
 ## Zahlen und Zeit
@@ -727,13 +726,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**22**
+
 <!-- page 23 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**23**
-
 **EINHEIT 4 · WÖRTER**
 ## Neue Wörter
 
@@ -775,13 +772,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**23**
+
 <!-- page 24 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**24**
-
 **EINHEIT 4 · LESEN**
 ## Wir lesen zusammen
 
@@ -803,13 +800,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**24**
+
 <!-- page 25 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**25**
-
 **EINHEIT 4 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -823,13 +820,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**25**
+
 <!-- page 26 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**26**
-
 **EINHEIT 4 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -842,12 +839,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**26**
+
 <!-- page 27 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**26**
 
 **EINHEIT 5**
 ## Farben um uns
@@ -879,13 +878,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**27**
+
 <!-- page 28 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**28**
-
 **EINHEIT 5 · WÖRTER**
 ## Neue Wörter
 
@@ -927,13 +924,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**28**
+
 <!-- page 29 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**29**
-
 **EINHEIT 5 · LESEN**
 ## Wir lesen zusammen
 
@@ -955,13 +952,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**29**
+
 <!-- page 30 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**30**
-
 **EINHEIT 5 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -975,18 +972,17 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**30**
+
 <!-- page 31 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**31**
-
 **EINHEIT 5 · AKTIVITÄT**
 ## Jetzt bist du dran
 
 **Aufgabe:**
-Male einen Regenbogen mit allen Farben und schreibe die Farbnamen.
 
 Erzähle zuerst. Dann male und schreibe.
 
@@ -994,13 +990,15 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**31**
+
+Male einen Regenbogen mit allen Farben und schreibe die Farbnamen.
+
 <!-- page 32 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**32**
-
 **B1**
 
 **FIRST LANGUAGE**
@@ -1026,12 +1024,14 @@ Ich helfen meinem Nachbarn.
 
 **Das hat mir am besten gefallen:**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**32**
+
 <!-- page 33 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**32**
 
 **EINHEIT 6**
 ## Tiere im Wald
@@ -1063,13 +1063,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**33**
+
 <!-- page 34 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**34**
-
 **EINHEIT 6 · WÖRTER**
 ## Neue Wörter
 
@@ -1111,13 +1109,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**34**
+
 <!-- page 35 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**35**
-
 **EINHEIT 6 · LESEN**
 ## Wir lesen zusammen
 
@@ -1139,13 +1137,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**35**
+
 <!-- page 36 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**36**
-
 **EINHEIT 6 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -1159,13 +1157,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**36**
+
 <!-- page 37 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**37**
-
 **EINHEIT 6 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -1178,12 +1176,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**37**
+
 <!-- page 38 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**37**
 
 **EINHEIT 7**
 ## Zu Hause
@@ -1215,13 +1215,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**38**
+
 <!-- page 39 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**39**
-
 **EINHEIT 7 · WÖRTER**
 ## Neue Wörter
 
@@ -1263,13 +1261,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**39**
+
 <!-- page 40 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**40**
-
 **EINHEIT 7 · LESEN**
 ## Wir lesen zusammen
 
@@ -1291,13 +1289,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**40**
+
 <!-- page 41 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**41**
-
 **EINHEIT 7 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -1311,13 +1309,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**41**
+
 <!-- page 42 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**42**
-
 **EINHEIT 7 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -1330,12 +1328,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**42**
+
 <!-- page 43 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**42**
 
 **EINHEIT 8**
 ## Das Wetter
@@ -1367,13 +1367,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**43**
+
 <!-- page 44 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**44**
-
 **EINHEIT 8 · WÖRTER**
 ## Neue Wörter
 
@@ -1415,13 +1413,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**44**
+
 <!-- page 45 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**45**
-
 **EINHEIT 8 · LESEN**
 ## Wir lesen zusammen
 
@@ -1443,13 +1441,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**45**
+
 <!-- page 46 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**46**
-
 **EINHEIT 8 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -1463,18 +1461,17 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**46**
+
 <!-- page 47 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**47**
-
 **EINHEIT 8 · AKTIVITÄT**
 ## Jetzt bist du dran
 
 **Aufgabe:**
-Zeichne zwei Bilder: sonniges Wetter und Regenvetter. Schreibe die Wör
 
 Erzähle zuerst. Dann male und schreibe.
 
@@ -1482,12 +1479,16 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**47**
+
+Zeichne zwei Bilder: sonniges Wetter und Regenvetter. Schreibe die Wörter
+
 <!-- page 48 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**47**
 
 **EINHEIT 9**
 ## Im Supermarkt
@@ -1519,13 +1520,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**48**
+
 <!-- page 49 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**49**
-
 **EINHEIT 9 · WÖRTER**
 ## Neue Wörter
 
@@ -1567,13 +1566,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**49**
+
 <!-- page 50 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**50**
-
 **EINHEIT 9 · LESEN**
 ## Wir lesen zusammen
 
@@ -1595,13 +1594,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**50**
+
 <!-- page 51 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**51**
-
 **EINHEIT 9 · SCHREIBEN**
 ## Ich schreibe selbst
 
@@ -1615,13 +1614,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Schön langsam: jeder Buchstabe zählt!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**51**
+
 <!-- page 52 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**52**
-
 **EINHEIT 9 · AKTIVITÄT**
 ## Jetzt bist du dran
 
@@ -1634,12 +1633,14 @@ Erzähle zuerst. Dann male und schreibe.
 
 **Zeige deine Arbeit deiner Lehrerin.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**52**
+
 <!-- page 53 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**52**
 
 **EINHEIT 10**
 ## Meine Stadt
@@ -1671,13 +1672,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**53**
+
 <!-- page 54 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**54**
-
 **EINHEIT 10 · WÖRTER**
 ## Neue Wörter
 
@@ -1719,13 +1718,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**54**
+
 <!-- page 55 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**55**
-
 **EINHEIT 10 · LESEN**
 ## Wir lesen zusammen
 
@@ -1747,13 +1746,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**55**
+
 <!-- page 56 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**56**
-
 **EINHEIT 10 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -1769,13 +1768,13 @@ Aufgabe: Zeichne deine Lieblingsstelle in der Stadt und schreibe den Namen.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**56**
+
 <!-- page 57 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**57**
-
 **B1**
 
 **FIRST LANGUAGE**
@@ -1801,12 +1800,14 @@ Ich helfen meinem Nachbarn.
 
 **Das hat mir am besten gefallen:**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**57**
+
 <!-- page 58 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**57**
 
 **EINHEIT 11**
 ## Feste und Feiern
@@ -1838,13 +1839,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**58**
+
 <!-- page 59 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**59**
-
 **EINHEIT 11 · WÖRTER**
 ## Neue Wörter
 
@@ -1886,13 +1885,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**59**
+
 <!-- page 60 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**60**
-
 **EINHEIT 11 · LESEN**
 ## Wir lesen zusammen
 
@@ -1914,13 +1913,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**60**
+
 <!-- page 61 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**61**
-
 **EINHEIT 11 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -1936,12 +1935,14 @@ Aufgabe: Male eine Geburtstagsparty. Was gibt es zu essen und zu singen?
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**61**
+
 <!-- page 62 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**61**
 
 **EINHEIT 12**
 ## Die Jahreszeiten
@@ -1973,13 +1974,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**62**
+
 <!-- page 63 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**63**
-
 **EINHEIT 12 · WÖRTER**
 ## Neue Wörter
 
@@ -2021,13 +2020,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**63**
+
 <!-- page 64 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**64**
-
 **EINHEIT 12 · LESEN**
 ## Wir lesen zusammen
 
@@ -2049,13 +2048,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**64**
+
 <!-- page 65 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**65**
-
 **EINHEIT 12 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2071,12 +2070,14 @@ Aufgabe: Zeichne einen Baum in zwei Jahreszeiten und schreibe beide Namen.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**65**
+
 <!-- page 66 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**65**
 
 **EINHEIT 13**
 ## Sport und Spiel
@@ -2108,13 +2109,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**66**
+
 <!-- page 67 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**67**
-
 **EINHEIT 13 · WÖRTER**
 ## Neue Wörter
 
@@ -2156,13 +2155,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**67**
+
 <!-- page 68 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**68**
-
 **EINHEIT 13 · LESEN**
 ## Wir lesen zusammen
 
@@ -2184,13 +2183,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**68**
+
 <!-- page 69 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**69**
-
 **EINHEIT 13 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2202,16 +2201,18 @@ Lies noch einmal, langsam und deutlich.
 
 ## Team
 
-Aufgabe: Welchen Sport magst du? Zeichne dich beim Spielen und schreibe den Sport.
-
 **Hier ist Platz für dich.**
+
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**69**
+
+Aufgabe: Welchen Sport magst du? Zeichne dich beim Spielen und schreibe den Sport.
 
 <!-- page 70 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**69**
 
 **EINHEIT 14**
 ## Mein Körper
@@ -2243,13 +2244,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**70**
+
 <!-- page 71 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**71**
-
 **EINHEIT 14 · WÖRTER**
 ## Neue Wörter
 
@@ -2291,13 +2290,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**71**
+
 <!-- page 72 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**72**
-
 **EINHEIT 14 · LESEN**
 ## Wir lesen zusammen
 
@@ -2319,13 +2318,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**72**
+
 <!-- page 73 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**73**
-
 **EINHEIT 14 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2341,12 +2340,14 @@ Aufgabe: Zeichne dich selbst und schreibe drei Körperteile dazu.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**73**
+
 <!-- page 74 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**73**
 
 **EINHEIT 15**
 ## Reisen
@@ -2378,13 +2379,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**74**
+
 <!-- page 75 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**75**
-
 **EINHEIT 15 · WÖRTER**
 ## Neue Wörter
 
@@ -2426,13 +2425,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**75**
+
 <!-- page 76 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**76**
-
 **EINHEIT 15 · LESEN**
 ## Wir lesen zusammen
 
@@ -2454,13 +2453,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**76**
+
 <!-- page 77 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**77**
-
 **EINHEIT 15 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2476,13 +2475,13 @@ Aufgabe: Wohin möchtest du reisen? Zeichne das Ziel und schreibe den Namen.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**77**
+
 <!-- page 78 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**78**
-
 **B1**
 
 **FIRST LANGUAGE**
@@ -2508,12 +2507,14 @@ Ich helfen meinem Nachbarn.
 
 **Das hat mir am besten gefallen:**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**78**
+
 <!-- page 79 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**78**
 
 **EINHEIT 16**
 ## Märchen
@@ -2545,13 +2546,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**79**
+
 <!-- page 80 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**80**
-
 **EINHEIT 16 · WÖRTER**
 ## Neue Wörter
 
@@ -2593,13 +2592,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**80**
+
 <!-- page 81 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**81**
-
 **EINHEIT 16 · LESEN**
 ## Wir lesen zusammen
 
@@ -2621,13 +2620,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**81**
+
 <!-- page 82 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**82**
-
 **EINHEIT 16 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2639,16 +2638,18 @@ Lies noch einmal, langsam und deutlich.
 
 ## Wald
 
-Aufgabe: Denk dir ein kurzes Märchen aus. Zeichne die Hauptfigur und schreibe zwei Sät
-
 **Hier ist Platz für dich.**
+
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**82**
+
+Aufgabe: Denk dir ein kurzes Märchen aus. Zeichne die Hauptfigur und schreibe zwei Sätze.
 
 <!-- page 83 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**82**
 
 **EINHEIT 17**
 ## Musik und Lieder
@@ -2680,13 +2681,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**83**
+
 <!-- page 84 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**84**
-
 **EINHEIT 17 · WÖRTER**
 ## Neue Wörter
 
@@ -2728,13 +2727,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**84**
+
 <!-- page 85 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**85**
-
 **EINHEIT 17 · LESEN**
 ## Wir lesen zusammen
 
@@ -2756,13 +2755,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**85**
+
 <!-- page 86 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**86**
-
 **EINHEIT 17 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2778,12 +2777,14 @@ Aufgabe: Klatsche einen Rhythmus und zeichne dein Lieblingsinstrument.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**86**
+
 <!-- page 87 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**86**
 
 **EINHEIT 18**
 ## Briefe schreiben
@@ -2815,13 +2816,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**87**
+
 <!-- page 88 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**88**
-
 **EINHEIT 18 · WÖRTER**
 ## Neue Wörter
 
@@ -2863,13 +2862,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**88**
+
 <!-- page 89 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**89**
-
 **EINHEIT 18 · LESEN**
 ## Wir lesen zusammen
 
@@ -2891,13 +2890,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**89**
+
 <!-- page 90 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**90**
-
 **EINHEIT 18 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -2913,12 +2912,14 @@ Aufgabe: Schreibe eine kurze Postkarte an eine Person, die du magst.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**90**
+
 <!-- page 91 -->
 
 ---
 **GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**90**
 
 **EINHEIT 19**
 ## Unser Klassenprojekt
@@ -2950,13 +2951,11 @@ helfen dir die Buchstaben Schritt für Schritt.
 
 **Wir beginnen mit Freude und Neugier!**
 
+**91**
+
 <!-- page 92 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**92**
-
 **EINHEIT 19 · WÖRTER**
 ## Neue Wörter
 
@@ -2998,13 +2997,13 @@ Tippe es in die Luft.
 
 **Finde jedes Wort im Bild deiner Klasse!**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**92**
+
 <!-- page 93 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**93**
-
 **EINHEIT 19 · LESEN**
 ## Wir lesen zusammen
 
@@ -3026,13 +3025,13 @@ Lies noch einmal, langsam und deutlich.
 
 **Male ein Bild zu der Geschichte.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**93**
+
 <!-- page 94 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**94**
-
 **EINHEIT 19 · SCHREIBEN & AKTIVITÄT**
 ## Ich schreibe und gestalte
 
@@ -3048,13 +3047,13 @@ Aufgabe: Gestalte deine eigene Zeitungsseite: ein Bild und eine Überschrift.
 
 **Hier ist Platz für dich.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**94**
+
 <!-- page 95 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**95**
-
 **B1**
 
 **FIRST LANGUAGE**
@@ -3080,13 +3079,13 @@ Ich helfen meinem Nachbarn.
 
 **Das hat mir am besten gefallen:**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**95**
+
 <!-- page 96 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**96**
-
 **B1**
 
 **FIRST LANGUAGE**
@@ -3101,26 +3100,26 @@ This is your treasure book. Keep your best work here!
 
 **Mein schönstes Bild aus diesem Jahr.**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**96**
+
 <!-- page 97 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**97**
-
 **MEIN PORTFOLIO**
 
 ## Meine Lieblingswörter
 
 **YEAR 2 — B1 FIRST LANGUAGE**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**97**
+
 <!-- page 98 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**98**
-
 **MEIN PORTFOLIO**
 
 ## Meine beste Geschichte
@@ -3129,13 +3128,13 @@ This is your treasure book. Keep your best work here!
 
 **YEAR 2 — B1 FIRST LANGUAGE**
 
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**98**
+
 <!-- page 99 -->
 
 ---
-**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
-
-**99**
-
 **MEIN PORTFOLIO**
 
 ## Ich bin stolz auf mich
@@ -3143,6 +3142,10 @@ This is your treasure book. Keep your best work here!
 **Schreibe oder klebe hier.**
 
 **YEAR 2 — B1 FIRST LANGUAGE**
+
+**GERMAN  ·  YEAR 2  ·  B1 FIRST LANGUAGE**
+
+**99**
 
 <!-- page 100 -->
 
