@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prime School Books — Syllabus</title>
+<style>
+  :root{
+    --cream:#FBF6EC; --ink:#1c1a13; --moss:#487025; --sage:#A8BF9B;
+    --terra:#C97B5A; --gold:#F1B300; --grey:#6b6b5e; --line:#e6ddc8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; background:var(--cream); color:var(--ink);
+    font-family:Georgia,'Times New Roman',serif; line-height:1.55}
+  .page{max-width:1080px; margin:0 auto; padding:44px 24px 90px}
+  header.top{border-bottom:3px double var(--gold); padding-bottom:16px; margin-bottom:26px;
+    display:flex; align-items:center; gap:18px; flex-wrap:wrap}
+  header.top img{height:54px; width:auto}
+  header.top h1{font-size:25px; margin:0; letter-spacing:.4px}
+  header.top .sub{width:100%; color:var(--grey); font-size:13.5px; margin:4px 0 0;
+    font-family:Verdana,Arial,sans-serif}
+
+  .ui{font-family:Verdana,Arial,sans-serif}
+  .tiles{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:12px; margin:22px 0 8px}
+  .tile{background:#fffdf7; border:1px solid var(--sage); border-radius:10px;
+    padding:12px 14px}
+  .tile .n{font-size:26px; font-family:Verdana,Arial,sans-serif; font-weight:bold;
+    color:var(--moss); line-height:1.1}
+  .tile .n.zero{color:var(--terra)}
+  .tile .l{font-family:Verdana,Arial,sans-serif; font-size:10.5px; letter-spacing:1.1px;
+    text-transform:uppercase; color:var(--grey); margin-top:5px}
+  .tile .hint{font-family:Verdana,Arial,sans-serif; font-size:10.5px; color:var(--grey);
+    margin-top:3px}
+
+  .controls{position:sticky; top:0; z-index:5; background:var(--cream);
+    border-bottom:1px solid var(--line); padding:12px 0; margin:18px 0 4px;
+    display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+  .controls input[type=search]{flex:1; min-width:200px; font-family:Verdana,Arial,sans-serif;
+    font-size:13px; padding:8px 11px; border:1px solid var(--sage); border-radius:7px;
+    background:#fffdf7; color:var(--ink)}
+  .chip{font-family:Verdana,Arial,sans-serif; font-size:11.5px; letter-spacing:.4px;
+    padding:7px 13px; border:1px solid var(--sage); border-radius:14px; background:#fffdf7;
+    color:var(--ink); cursor:pointer}
+  .chip.on{background:var(--moss); border-color:var(--moss); color:#fff}
+  .chip:hover{filter:brightness(1.05)}
+  .count{font-family:Verdana,Arial,sans-serif; font-size:11.5px; color:var(--grey);
+    margin-left:auto}
+
+  .jump{display:flex; gap:7px; flex-wrap:wrap; margin:6px 0 0}
+  .jump a{font-family:Verdana,Arial,sans-serif; font-size:11px; letter-spacing:.5px;
+    text-transform:uppercase; color:var(--moss); text-decoration:none;
+    border:1px solid var(--sage); border-radius:12px; padding:4px 10px; background:#fffdf7}
+  .jump a:hover{background:#f3f7ee; border-color:var(--moss)}
+
+  .yearblock{margin:34px 0 6px}
+  .yearhead{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+    font-family:Verdana,Arial,sans-serif; letter-spacing:2px; font-size:12.5px;
+    text-transform:uppercase; color:var(--moss); border-bottom:2px solid var(--sage);
+    padding-bottom:6px; margin:0 0 14px}
+  .yearhead .meta{letter-spacing:.3px; text-transform:none; color:var(--grey); font-size:11.5px}
+  .yearhead .bar{margin-left:auto; letter-spacing:.3px; text-transform:none; color:var(--grey);
+    font-size:11.5px}
+
+  .subj{background:#fffdf7; border:1px solid var(--line); border-left:4px solid var(--sage);
+    border-radius:9px; padding:14px 16px 15px; margin:0 0 14px}
+  .subj.open-l{border-left-color:var(--moss)}
+  .subj.gap-l{border-left-color:var(--terra)}
+  .subj h3{margin:0; font-size:19px; letter-spacing:.2px; display:flex;
+    align-items:baseline; gap:10px; flex-wrap:wrap}
+  .subj h3 a.subject{color:var(--ink); text-decoration:none; border-bottom:1px dotted var(--sage)}
+  .subj h3 a.subject:hover{color:var(--moss); border-bottom-color:var(--moss)}
+  .subj h3 .meta{font-family:Verdana,Arial,sans-serif; font-size:11px; color:var(--grey);
+    letter-spacing:.3px; font-weight:normal}
+  .subj h3 .links{margin-left:auto; display:flex; gap:8px; flex-wrap:wrap}
+  .subj h3 .links a{font-family:Verdana,Arial,sans-serif; font-size:10.5px;
+    letter-spacing:.6px; text-transform:uppercase; color:var(--moss); text-decoration:none;
+    border:1px solid var(--sage); border-radius:3px; padding:3px 7px; white-space:nowrap}
+  .subj h3 .links a:hover{background:#f3f7ee; border-color:var(--moss)}
+  .subj h3 .links a.grey{color:var(--grey); border-color:var(--line)}
+
+  .tree{margin-top:11px}
+  .unit{margin:14px 0 4px}
+  .unit:first-child{margin-top:6px}
+  .unit .u{font-size:16.5px; font-weight:bold; color:var(--moss)}
+  .unit .u .pg{font-family:Verdana,Arial,sans-serif; font-size:10.5px; color:var(--grey);
+    font-weight:normal; margin-left:7px; letter-spacing:.3px}
+  ul.subs{list-style:none; margin:3px 0 0; padding:0 0 0 4px;
+    border-left:2px solid var(--line); margin-left:5px}
+  ul.subs li{padding:2px 0 2px 12px; font-size:14.5px; border-bottom:1px dotted #f0e8d6}
+  ul.subs li:last-child{border-bottom:0}
+  ul.subs li .pg{font-family:Verdana,Arial,sans-serif; font-size:10.5px; color:var(--grey);
+    margin-left:7px; letter-spacing:.3px}
+  .extras{margin-top:11px; font-size:13.5px; color:var(--grey);
+    border-top:1px dotted var(--line); padding-top:8px}
+  .extras b{font-family:Verdana,Arial,sans-serif; font-size:10.5px; letter-spacing:1px;
+    text-transform:uppercase; color:var(--grey); font-weight:normal; display:block;
+    margin-bottom:3px}
+  .extras span.sec{display:inline-block; margin:0 8px 3px 0; padding:1px 7px;
+    border:1px solid var(--line); border-radius:9px; font-family:Verdana,Arial,sans-serif;
+    font-size:11px; color:#8b7f6a}
+
+  .gap{margin:9px 0 0; font-size:13.5px; color:var(--grey)}
+  .gap a{color:var(--moss)}
+  .gap b{color:var(--terra); font-weight:normal}
+  mark{background:#fbeaa8; color:inherit; padding:0 1px; border-radius:2px}
+
+  .note{background:#f4eedd; border:1px solid var(--sage); border-radius:8px;
+    padding:13px 16px; margin:20px 0 0; font-size:14px}
+  .note b{color:var(--moss)}
+  .empty{color:var(--grey); font-family:Verdana,Arial,sans-serif; font-size:13px;
+    padding:18px 0}
+  .updated{color:var(--grey); font-size:12.5px; font-family:Verdana,Arial,sans-serif;
+    margin-top:34px; text-align:center}
+  .err{color:var(--terra)}
+  @media print{
+    .controls,.chip,.count,.jump{display:none}
+    body{background:#fff} .page{max-width:none; padding:0}
+    .yearblock{break-inside:avoid} .tile{border-color:#bbb}
+    .subj{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<header class="top">
+  <img src="/Logo-Prime-School.png" alt="Prime School logo">
+  <h1>Prime School Books — Syllabus</h1>
+  <p class="sub">Every title's scheme of work, opened out: the units and subunits of the
+  input, on one page, year by year. No clicking — just scroll.</p>
+</header>
+
+<div class="tiles" id="tiles">
+  <div class="tile"><div class="n" id="t-books">–</div><div class="l">Titles</div></div>
+  <div class="tile"><div class="n" id="t-units">–</div><div class="l">Units</div></div>
+  <div class="tile"><div class="n" id="t-subs">–</div><div class="l">Subunits</div></div>
+  <div class="tile"><div class="n" id="t-table">–</div><div class="l">Input tables</div>
+    <div class="hint" id="t-table-hint">on disk</div></div>
+  <div class="tile"><div class="n zero" id="t-pdf">–</div><div class="l">Input is a PDF</div>
+    <div class="hint">no unit table</div></div>
+  <div class="tile"><div class="n zero" id="t-none">–</div><div class="l">No input</div>
+    <div class="hint" id="t-none-hint">not on disk</div></div>
+</div>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="Find a unit, subunit or subject…" autocomplete="off">
+  <button class="chip on" data-f="all">Everything</button>
+  <button class="chip" data-f="table">With an input table</button>
+  <button class="chip" data-f="pdf">Input is a PDF</button>
+  <button class="chip" data-f="none">No input</button>
+  <span class="count" id="shown"></span>
+</div>
+<div class="jump" id="jump"></div>
+
+<div id="years"><div class="empty">Loading the syllabus…</div></div>
+
+<div class="note">
+  <b>Where this comes from.</b> Each block below is one book's <b>input</b> — the
+  school's own scheme of work, kept at
+  <span class="ui">public/inputs/&lt;slug&gt; - input.&lt;ext&gt;</span> — expanded exactly as
+  the rows stand: <b>Unit</b>, then its <b>Subunits</b> in order, then the term,
+  revision and assessment <b>sections</b> that belong to no unit. Blank pages are the
+  scheme's own blanks; nothing here is inferred.
+  <b>An input that is a PDF</b> cannot become a table — a printed document is not a
+  spreadsheet — so those titles show the document itself and a link to the reader's
+  <b>Sections</b> list, which is built page by page from the book. <b>No input</b> means
+  no source file has reached the workshop for that title yet.
+  This page is generated: regenerate it after any input changes with
+  <span class="ui">.venv/bin/python tools/make_syllabus_json.py</span>.
+</div>
+
+<p class="updated">Generated <span id="gen">–</span> ·
+<a href="/status">Point of situation</a> · <a href="/">Catalogue</a> ·
+<a href="/standard">Publishing standard</a></p>
+</div>
+<script>
+(function () {
+  "use strict";
+
+  /* Same data-loading contract as /status: try the workshop file server first, so
+     a freshly regenerated syllabus.json shows without a deploy, then fall back to
+     same-origin for the deployed site. */
+  function bases() {
+    return (window.__PB_LIVE_BASES && window.__PB_LIVE_BASES.length)
+      ? window.__PB_LIVE_BASES.concat([""])
+      : [window.__PB_LIVE_BASE || "", ""];
+  }
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function fetchBases(path, i, onOk, onFail) {
+    if (i >= bases().length) { onFail(); return; }
+    var done = false;
+    var t = setTimeout(function () {
+      if (!done) { done = true; fetchBases(path, i + 1, onOk, onFail); }
+    }, 8000);
+    fetch(bases()[i] + path, { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (j) {
+        if (done) return;
+        done = true; clearTimeout(t); onOk(j);
+      })
+      .catch(function () {
+        if (done) return;
+        done = true; clearTimeout(t); fetchBases(path, i + 1, onOk, onFail);
+      });
+  }
+
+  var DATA = null, filter = "all", query = "";
+  function pad(n) { return n < 10 ? "0" + n : String(n); }
+
+  /* Wrap the matched run in <mark>, on the plain text, BEFORE escaping. */
+  function hl(text) {
+    var t = String(text == null ? "" : text);
+    if (!query) return esc(t);
+    var i = t.toLowerCase().indexOf(query);
+    if (i === -1) return esc(t);
+    return esc(t.slice(0, i)) + "<mark>" + esc(t.slice(i, i + query.length)) +
+      "</mark>" + esc(t.slice(i + query.length));
+  }
+  function has(text) {
+    return !query || String(text == null ? "" : text).toLowerCase().indexOf(query) !== -1;
+  }
+  function pg(p) {
+    return p ? '<span class="pg">p.' + p + "</span>" : "";
+  }
+
+  function bookMatches(r) {
+    if (filter === "table" && r.source !== "input") return false;
+    if (filter === "pdf" && r.source !== "pdf") return false;
+    if (filter === "none" && r.input) return false;
+    if (!query) return true;
+    /* A query hides everything that does not carry it: the whole title, or any
+       single unit / subunit / section inside it. */
+    if (has(r.subject) || has(r.slug)) return true;
+    if ((r.units || []).some(function (u) {
+      return has(u.title) || (u.subs || []).some(function (s) { return has(s.title); });
+    })) return true;
+    return (r.extras || []).some(function (e) { return has(e.title); });
+  }
+
+  function treeHtml(r) {
+    var html = "";
+    (r.units || []).forEach(function (u) {
+      /* With a query in force: a unit is shown when its own title matches (and
+         then all its subunits stay, so the unit reads whole) or when at least
+         one subunit matches; otherwise the unit is dropped. */
+      var subs = u.subs || [];
+      if (query) {
+        var titleHit = has(u.title);
+        var subHits = subs.filter(function (s) { return has(s.title); });
+        if (!titleHit && !subHits.length) return;
+        if (!titleHit) subs = subHits;
+      }
+      html += '<div class="unit"><span class="u">' + hl(u.title) + pg(u.page) + "</span>";
+      if (subs.length) {
+        html += '<ul class="subs">' + subs.map(function (s) {
+          return "<li>" + hl(s.title) + pg(s.page) + "</li>";
+        }).join("") + "</ul>";
+      }
+      html += "</div>";
+    });
+    return html;
+  }
+
+  function extrasHtml(r) {
+    var ex = (r.extras || []).filter(function (e) { return has(e.title); });
+    if (!ex.length) return "";
+    return '<div class="extras"><b>Also in this scheme of work</b>' +
+      ex.map(function (e) {
+        return '<span class="sec">' + hl(e.title) + "</span>";
+      }).join("") + "</div>";
+  }
+
+  function bookHtml(r) {
+    var kind = r.input ? String(r.input.kind).toUpperCase() : "";
+    var nUnits = (r.units || []).length;
+    var nSubs = (r.units || []).reduce(function (n, u) {
+      return n + (u.subs || []).length;
+    }, 0);
+    var links = '<a href="/book/' + esc(r.slug) + '" title="open the Prime Book">Open book</a>' +
+      '<a href="/book/' + esc(r.slug) + '#sections" title="the reader\'s section list">Sections</a>';
+    if (r.input) {
+      links += '<a class="grey" href="/inputs/' + encodeURIComponent(r.input.file) +
+        '" download title="download ' + esc(r.input.file) + '">&#10515; ' + esc(kind) + "</a>";
+    }
+    var meta = (r.pages ? r.pages + " pages" : "no file") +
+      (nUnits ? " · " + nUnits + " units" : "") +
+      (nSubs ? " · " + nSubs + " subunits" : "");
+
+    var body;
+    if (r.source === "input") {
+      body = '<div class="tree">' + treeHtml(r) + "</div>" + extrasHtml(r);
+    } else if (r.source === "pdf") {
+      body = '<p class="gap"><b>No unit table on disk.</b> This title\'s input is a PDF ' +
+        'document — <a href="/inputs/' + encodeURIComponent(r.input.file) + '" download>' +
+        esc(r.input.file) + "</a> — which cannot become a table. The reader builds a " +
+        'section list from the book itself; that is where to look: ' +
+        '<a href="/book/' + esc(r.slug) + '#sections">Sections for ' + esc(r.slug) + "</a>.</p>";
+    } else {
+      body = '<p class="gap"><b>No input file.</b> Nothing has reached the workshop for ' +
+        'this title yet, so there is no scheme of work to show. Regenerate this page ' +
+        "once its input lands.</p>";
+    }
+
+    var cls = r.source === "input" ? "open-l" : (r.source === "pdf" || !r.input ? "gap-l" : "");
+    return '<article class="subj ' + cls + '" id="' + esc(r.slug) + '">' +
+      "<h3><a class=\"subject\" href=\"/book/" + esc(r.slug) + '" title="open the Prime Book">' +
+      hl(r.subject) + '</a><span class="meta">' + esc(meta) + "</span>" +
+      '<span class="links">' + links + "</span></h3>" + body + "</article>";
+  }
+
+  function render() {
+    if (!DATA) return;
+    var html = "", shown = 0, unitsShown = 0;
+    DATA.years.forEach(function (y) {
+      var books = y.books.filter(bookMatches);
+      if (!books.length) return;
+      shown += books.length;
+      unitsShown += books.reduce(function (n, r) { return n + (r.units || []).length; }, 0);
+      var withTable = books.filter(function (r) { return r.source === "input"; }).length;
+      html += '<section class="yearblock" id="year-' + y.year + '">' +
+        '<h2 class="yearhead">Year ' + pad(y.year) +
+        '<span class="meta">' + books.length + " titles · " +
+        books.reduce(function (n, r) { return n + (r.units || []).length; }, 0) + " units · " +
+        books.reduce(function (n, r) {
+          return n + (r.units || []).reduce(function (m, u) {
+            return m + (u.subs || []).length;
+          }, 0);
+        }, 0) + " subunits</span>" +
+        '<span class="bar">' + withTable + "/" + books.length + " with an input table</span></h2>" +
+        books.map(bookHtml).join("") + "</section>";
+    });
+    document.getElementById("years").innerHTML = html ||
+      '<div class="empty">Nothing matches that filter.</div>';
+    document.getElementById("shown").textContent =
+      shown + " of " + DATA.totals.books + " titles · " + unitsShown + " units shown";
+  }
+
+  function tiles(t) {
+    document.getElementById("t-books").textContent = t.books;
+    document.getElementById("t-units").textContent = t.units.toLocaleString();
+    document.getElementById("t-subs").textContent = t.subunits.toLocaleString();
+    document.getElementById("t-table").textContent = t.withTable;
+    document.getElementById("t-table-hint").textContent =
+      Math.round(100 * t.withTable / t.books) + "% of titles";
+    document.getElementById("t-pdf").textContent = t.pdfOnly;
+    document.getElementById("t-none").textContent = t.noInput;
+    document.getElementById("gen").textContent = DATA.generated || "–";
+  }
+
+  function jump() {
+    var el = document.getElementById("jump"), html = "";
+    DATA.years.forEach(function (y) {
+      html += '<a href="#year-' + y.year + '">Year ' + y.year +
+        " · " + y.units + "u/" + y.subunits + "s</a>";
+    });
+    el.innerHTML = html;
+  }
+
+  document.getElementById("q").addEventListener("input", function (e) {
+    query = e.target.value.trim().toLowerCase();
+    render();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (c) {
+    c.addEventListener("click", function () {
+      filter = c.dataset.f;
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (o) {
+        o.classList.toggle("on", o === c);
+      });
+      render();
+    });
+  });
+
+  fetchBases("/syllabus.json", 0, function (j) {
+    DATA = j;
+    tiles(DATA.totals);
+    jump();
+    render();
+  }, function () {
+    document.getElementById("years").innerHTML =
+      '<div class="empty err">Could not load syllabus.json — regenerate it with ' +
+      '<span class="ui">.venv/bin/python tools/make_syllabus_json.py</span>.</div>';
+  });
+})();
+</script>
+</body>
+</html>

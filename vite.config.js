@@ -80,6 +80,7 @@ function bookDeepLinkFallback() {
         else if (/^\/years-1-4\/?$/.test(path)) req.url = "/years-1-4.html";
         else if (/^\/standard\/?$/.test(path)) req.url = "/standard.html";
         else if (/^\/status\/?$/.test(path)) req.url = "/status.html";
+        else if (/^\/syllabus\/?$/.test(path)) req.url = "/syllabus.html";
         else if (/^\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
         next();
       });
