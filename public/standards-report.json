@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14 23:42 UTC",
+ "generated": "2026-09-15 00:11 UTC",
  "spec": "A-2.2-Y1-4",
  "certified_by": "the teacher, click by click on /status",
  "machine_cannot_check": [
@@ -10,12 +10,14 @@
   "QR codes scanned off paper",
   "the physical print proof"
  ],
+ "scope": "Years 1 to 4 only; other years are measured only with --all-years",
  "totals": {
-  "books": 123,
+  "books": 51,
+  "out_of_scope": 72,
   "machine_clean": 1,
   "signed_off": 0,
   "awaiting_sign_off": 1,
-  "failing": 122
+  "failing": 50
  },
  "books": [
   {
@@ -3167,4075 +3169,795 @@
   },
   {
    "slug": "y05-art-and-design",
-   "pages": 126,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "124 of 124 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['Helvetica', 'JetBrainsMono', 'Kalam', 'Lexend', 'Lexend Regular']",
-    "extent 126 is not a legal BookVault count; nearest are [119, 131]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika",
-     "Andika Regular",
-     "Helvetica",
-     "JetBrainsMono",
-     "Kalam",
-     "Lexend",
-     "Lexend Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 5,
-    "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 124,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 14.8,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-computing-and-robotics",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-english",
-   "pages": 20,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "contents page shows 0 of 6 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "18 of 18 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['Carlito', 'DejaVuSans', 'OpenSymbol']",
-    "extent 20 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Carlito",
-     "DejaVuSans",
-     "OpenSymbol",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 4,
-    "unit_count": 6,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 18,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 14.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-german-a1a2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-german-b1b2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-global-perspectives",
-   "pages": 114,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 6 unit colours: the standard wants one bar segment and one card per unit",
-    "opener(s) not flooded in a unit deep colour: [(7, '#c2247f'), (27, '#c2247f'), (41, '#c2247f'), (56, '#c2247f')]",
-    "106 of 112 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'DejaVu Sans Bold', 'DejaVu Sans Book', 'Helvetica', 'LiberationSans', 'Noto Serif Regular']",
-    "extent 114 is not a legal BookVault count; nearest are [107, 119]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "Helvetica",
-     "LiberationSans",
-     "Noto Serif Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 3,
-    "unit_count": 6,
-    "contents_segments": 0,
-    "unit_openers": [
-     7,
-     27,
-     41,
-     56,
-     71,
-     86
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 106,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-mathematics",
-   "pages": 32,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no full-bleed unit opener found",
-    "30 of 30 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'IBMPlexMono', 'Spectral']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 32 is not a legal BookVault count; nearest are [23, 35]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "IBMPlexMono",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Spectral"
-    ],
-    "contents_page": 3,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 30,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.6,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-music-and-drama",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-physical-education",
-   "pages": 138,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['']",
-    "no full-bleed unit opener found",
-    "136 of 136 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Fraunces Black', 'IBMPlexMono', 'LiberationSans', 'LiberationSerif']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 138 is not a legal BookVault count; nearest are [131, 143]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Fraunces Black",
-     "IBMPlexMono",
-     "LiberationSans",
-     "LiberationSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 7,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 136,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 14.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-portuguese",
-   "pages": 134,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 576x828 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "last page: no 'P R I M E  S C H O O L  P R E S S' label",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "132 of 132 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "extent 134 is not a legal BookVault count; nearest are [131, 143]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     576.0,
-     828.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 132,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.6,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-science",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-spanish-a1a2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y05-spanish-b1b2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-art-and-design",
-   "pages": 98,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "96 of 96 interior pages have no folio badge",
-    "text outside the content box on page(s) [12]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSans', 'Helvetica', 'JetBrainsMonoRoman', 'Kalam', 'Lexend', 'Lexend Regular']",
-    "extent 98 is not a legal BookVault count; nearest are [95, 107]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika",
-     "Andika Regular",
-     "DejaVuSans",
-     "Helvetica",
-     "JetBrainsMonoRoman",
-     "Kalam",
-     "Lexend",
-     "Lexend Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 3,
-    "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 96,
-    "text_outside_box_pages": [
-     12
-    ],
-    "modal_text_size_pt": 14.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-computing-and-robotics",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-english",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-german-a1a2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-german-b1b2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-global-perspectives",
-   "pages": 118,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 6 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "116 of 116 interior pages have no folio badge",
-    "text outside the content box on page(s) [2, 3, 4, 5, 6, 7, 8, 9]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Helvetica']",
-    "extent 118 is not a legal BookVault count; nearest are [107, 119]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Gelasio Regular",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 6,
-    "unit_count": 6,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 116,
-    "text_outside_box_pages": [
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11
-    ],
-    "modal_text_size_pt": 14.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-mathematics",
-   "pages": 122,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "120 of 120 interior pages have no folio badge",
-    "text outside the content box on page(s) [9]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Kalam', 'Lexend Regular', 'LiberationSans']",
-    "extent 122 is not a legal BookVault count; nearest are [119, 131]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika",
-     "Andika Regular",
-     "Kalam",
-     "Lexend Regular",
-     "LiberationSans",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 120,
-    "text_outside_box_pages": [
-     9
-    ],
-    "modal_text_size_pt": 12.6,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-music-and-drama",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-physical-education",
-   "pages": 190,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica']",
-    "no full-bleed unit opener found",
-    "188 of 188 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Helvetica', 'Kalam', 'Lexend Regular', 'Nimbus Sans Bold']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 190 is not a legal BookVault count; nearest are [179, 191]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Helvetica",
-     "Kalam",
-     "Lexend Regular",
-     "Nimbus Sans Bold",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 6,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 188,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 14.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-portuguese",
-   "pages": 110,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 576x828 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "108 of 108 interior pages have no folio badge",
-    "text outside the content box on page(s) [2, 4, 6, 8, 10, 12, 14, 16]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'DejaVuSans', 'DejaVuSerif']",
-    "extent 110 is not a legal BookVault count; nearest are [107, 119]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     576.0,
-     828.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 108,
-    "text_outside_box_pages": [
-     2,
-     4,
-     6,
-     8,
-     10,
-     12,
-     14,
-     16,
-     18,
-     20
-    ],
-    "modal_text_size_pt": 10.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-science",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-spanish-a1a2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y06-spanish-b1b2",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.0,
-     765.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-art-and-design",
-   "pages": 74,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 7 unit colours: the standard wants one bar segment and one card per unit",
-    "contents page: no card for unit(s) [1, 2, 3, 4, 5, 6]",
-    "no full-bleed unit opener found",
-    "72 of 72 interior pages have no folio badge",
-    "text outside the content box on page(s) [2, 3, 4, 5, 6, 7, 8, 9]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Bold', 'DejaVu Sans Book', 'DejaVuSans', 'Helvetica']",
-    "extent 74 is not a legal BookVault count; nearest are [71, 83]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "DejaVuSans",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 3,
-    "unit_count": 7,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 72,
-    "text_outside_box_pages": [
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11
-    ],
-    "modal_text_size_pt": 9.8,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-computing-and-robotics",
-   "pages": 118,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "no full-bleed unit opener found",
-    "116 of 116 interior pages have no folio badge",
-    "text outside the content box on page(s) [7, 30, 47, 65, 80, 97]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial', 'Helvetica', 'SegoeUISymbol']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 118 is not a legal BookVault count; nearest are [107, 119]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Bold",
-     "Andika Regular",
-     "Arial",
-     "Gelasio Regular",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins SemiBold",
-     "SegoeUISymbol"
-    ],
-    "contents_page": 3,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 116,
-    "text_outside_box_pages": [
-     7,
-     30,
-     47,
-     65,
-     80,
-     97
-    ],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-computing-structured",
-   "pages": 138,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['Helvetica']",
-    "last page: no 'P R I M E  S C H O O L  P R E S S' label",
-    "contents page shows 0 of 8 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "136 of 136 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Book', 'Helvetica']",
-    "extent 138 is not a legal BookVault count; nearest are [131, 143]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Bold",
-     "Andika Regular",
-     "DejaVu Sans Book",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 4,
-    "unit_count": 8,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 136,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-english",
-   "pages": 24,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 5 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "22 of 22 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'DejaVuSansMono', 'Lexend Regular', 'LiberationSans', 'Spectral', 'Spectral Regular']",
-    "extent 24 is not a legal BookVault count; nearest are [23, 35]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "DejaVuSansMono",
-     "Lexend Regular",
-     "LiberationSans",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Spectral",
-     "Spectral Regular"
-    ],
-    "contents_page": 3,
-    "unit_count": 5,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 22,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 11.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-global-perspectives",
-   "pages": 146,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['NotoColorEmoji']",
-    "no full-bleed unit opener found",
-    "144 of 144 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSerif', 'NotoColorEmoji', 'NotoSerif']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 146 is not a legal BookVault count; nearest are [143, 155]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVuSerif",
-     "NotoColorEmoji",
-     "NotoSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 4,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 144,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 11.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-humanities",
-   "pages": 176,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "174 of 174 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "extent 176 is not a legal BookVault count; nearest are [167, 179]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 174,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-mathematics",
-   "pages": 30,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no full-bleed unit opener found",
-    "28 of 28 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial', 'CambriaMath', 'SegoeUISymbol']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 30 is not a legal BookVault count; nearest are [23, 35]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "CambriaMath",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "SegoeUISymbol"
-    ],
-    "contents_page": 2,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 28,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-physical-education",
-   "pages": 146,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "opener(s) not flooded in a unit deep colour: [(12, '#14120e'), (37, '#14120e'), (56, '#14120e'), (79, '#14120e')]",
-    "138 of 144 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['SourceSans3']",
-    "extent 146 is not a legal BookVault count; nearest are [143, 155]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "SourceSans3"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [
-     12,
-     37,
-     56,
-     79,
-     100,
-     121
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 138,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-portuguese-1st",
-   "pages": 136,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "134 of 134 interior pages have no folio badge",
-    "text outside the content box on page(s) [2, 3, 4, 5, 6, 7, 8, 9]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Bold', 'DejaVu Sans Book', 'Helvetica', 'Noto Emoji Regular', 'Noto Sans Symbols2 Regular']",
-    "extent 136 is not a legal BookVault count; nearest are [131, 143]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "Helvetica",
-     "Noto Emoji Regular",
-     "Noto Sans Symbols2 Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 134,
-    "text_outside_box_pages": [
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11
-    ],
-    "modal_text_size_pt": 10.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-portuguese-2nd",
-   "pages": 76,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "74 of 74 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['Helvetica']",
-    "extent 76 is not a legal BookVault count; nearest are [71, 83]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Bold",
-     "Andika Regular",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 74,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-science",
-   "pages": 28,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "26 of 26 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['']",
-    "extent 28 is not a legal BookVault count; nearest are [23, 35]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 3,
-    "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 26,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-spanish",
-   "pages": 178,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "176 of 176 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['']",
-    "extent 178 is not a legal BookVault count; nearest are [167, 179]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 7,
-    "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 176,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-art-and-design",
-   "pages": 110,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "contents page shows 0 of 8 unit colours: the standard wants one bar segment and one card per unit",
-    "contents page: no card for unit(s) [1, 2, 3, 4, 5, 6, 7]",
-    "no full-bleed unit opener found",
-    "108 of 108 interior pages have no folio badge",
-    "text outside the content box on page(s) [2, 4, 5, 6, 7, 8, 9, 10]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Bold', 'DejaVu Sans Book', 'DejaVuSans']",
-    "extent 110 is not a legal BookVault count; nearest are [107, 119]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "DejaVuSans",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 3,
-    "unit_count": 8,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 108,
-    "text_outside_box_pages": [
-     2,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11,
-     12
-    ],
-    "modal_text_size_pt": 9.8,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-computing-and-robotics",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-english",
-   "pages": 14,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "12 of 12 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial']",
-    "extent 14 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 12,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-humanities",
-   "pages": 250,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 7 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "248 of 248 interior pages have no folio badge",
-    "text outside the content box on page(s) [3, 5, 13, 18, 19, 21, 22, 23]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Helvetica', 'IBMPlexMono', 'Sora Regular', 'Spectral', 'Spectral SemiBold']",
-    "extent 250 is not a legal BookVault count; nearest are [239, 251]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Helvetica",
-     "IBMPlexMono",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Sora Regular",
-     "Spectral",
-     "Spectral SemiBold"
-    ],
-    "contents_page": 7,
-    "unit_count": 7,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 248,
-    "text_outside_box_pages": [
-     3,
-     5,
-     13,
-     18,
-     19,
-     21,
-     22,
-     23,
-     24,
-     25
-    ],
-    "modal_text_size_pt": 10.8,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-mathematics",
-   "pages": 18,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no full-bleed unit opener found",
-    "16 of 16 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial', 'CambriaMath']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 18 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "CambriaMath",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 16,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-music-and-drama",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-physical-education",
-   "pages": 146,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "opener(s) not flooded in a unit deep colour: [(15, '#14120e'), (36, '#14120e'), (55, '#14120e'), (76, '#14120e')]",
-    "138 of 144 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['SourceSans3']",
-    "extent 146 is not a legal BookVault count; nearest are [143, 155]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "SourceSans3"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [
-     15,
-     36,
-     55,
-     76,
-     99,
-     120
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 138,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-portuguese-1st",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-portuguese-2nd",
-   "pages": 100,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "98 of 98 interior pages have no folio badge",
-    "text outside the content box on page(s) [42, 82, 83]"
-   ],
-   "warnings": [
-    "extent 100 is not a legal BookVault count; nearest are [95, 107]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Bold",
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 98,
-    "text_outside_box_pages": [
-     42,
-     82,
-     83
-    ],
-    "modal_text_size_pt": 10.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-science",
-   "pages": 20,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 1 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "18 of 18 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial', 'Helvetica']",
-    "extent 20 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": 1,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 18,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y08-spanish",
-   "pages": 12,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "10 of 10 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Book']",
-    "extent 12 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Bold",
-     "Andika Regular",
-     "DejaVu Sans Book",
-     "Gelasio Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 10,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-art-and-design",
-   "pages": 72,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 9 unit colours: the standard wants one bar segment and one card per unit",
-    "contents page: no card for unit(s) [1, 2, 3, 4, 5, 6, 7, 8]",
-    "no full-bleed unit opener found",
-    "70 of 70 interior pages have no folio badge",
-    "text outside the content box on page(s) [2, 3, 4, 5, 6, 7, 8, 9]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Bold', 'DejaVu Sans Book', 'DejaVuSans', 'Helvetica']",
-    "extent 72 is not a legal BookVault count; nearest are [71, 83]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "DejaVuSans",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 3,
-    "unit_count": 9,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 70,
-    "text_outside_box_pages": [
-     2,
-     3,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11
-    ],
-    "modal_text_size_pt": 9.8,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-english",
-   "pages": 14,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "12 of 12 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial']",
-    "extent 14 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 12,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-humanities",
-   "pages": 126,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica']",
-    "no full-bleed unit opener found",
-    "124 of 124 interior pages have no folio badge",
-    "text outside the content box on page(s) [3, 5, 12, 14, 19, 20, 21, 22]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Helvetica', 'IBM Plex Mono Regular', 'IBMPlexMono', 'Sora Regular', 'Spectral', 'Spectral Italic', 'Spectral Regular', 'Spectral SemiBold']",
-    "contents colour bar: fewer than two unit colours detected",
-    "extent 126 is not a legal BookVault count; nearest are [119, 131]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Helvetica",
-     "IBM Plex Mono Regular",
-     "IBMPlexMono",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Sora Regular",
-     "Spectral",
-     "Spectral Italic",
-     "Spectral Regular",
-     "Spectral SemiBold"
-    ],
-    "contents_page": 7,
-    "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 124,
-    "text_outside_box_pages": [
-     3,
-     5,
-     12,
-     14,
-     19,
-     20,
-     21,
-     22,
-     23,
-     24
-    ],
-    "modal_text_size_pt": 10.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-mathematics",
-   "pages": 16,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 1 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "14 of 14 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial', 'CambriaMath', 'Consolas']",
-    "extent 16 is not a legal BookVault count; nearest are [11, 23]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "CambriaMath",
-     "Consolas",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": 1,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 14,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-music-and-drama",
-   "pages": 74,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "opener(s) not flooded in a unit deep colour: [(14, '#7a1f2b'), (42, '#7a1f2b')]",
-    "70 of 72 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'IBMPlexMono', 'Sora Regular', 'Spectral', 'Spectral SemiBold']",
-    "extent 74 is not a legal BookVault count; nearest are [71, 83]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "IBMPlexMono",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Sora Regular",
-     "Spectral",
-     "Spectral SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [
-     14,
-     42
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 70,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-physical-education",
-   "pages": 182,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "opener(s) not flooded in a unit deep colour: [(12, '#14120e'), (40, '#14120e'), (65, '#14120e'), (93, '#14120e')]",
-    "174 of 180 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['SourceSans3']",
-    "extent 182 is not a legal BookVault count; nearest are [179, 191]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "SourceSans3"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [
-     12,
-     40,
-     65,
-     93,
-     121,
-     149
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 174,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-portuguese",
-   "pages": 52,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "50 of 50 interior pages have no folio badge",
-    "text outside the content box on page(s) [27, 32, 42, 43]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'DejaVu Sans Bold', 'DejaVu Sans Book', 'Helvetica']",
-    "extent 52 is not a legal BookVault count; nearest are [47, 59]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "Helvetica",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 50,
-    "text_outside_box_pages": [
-     27,
-     32,
-     42,
-     43
-    ],
-    "modal_text_size_pt": 10.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-portuguese-2nd",
-   "pages": 110,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "108 of 108 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "extent 110 is not a legal BookVault count; nearest are [107, 119]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Bold",
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 108,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-science",
-   "pages": 122,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 2 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "120 of 120 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'Arial', 'DejaVu Serif Bold', 'Helvetica', 'Nimbus Sans Bold', 'Nimbus Sans Italic', 'Nimbus Sans Regular', 'Noto Serif Regular']",
-    "extent 122 is not a legal BookVault count; nearest are [119, 131]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "Arial",
-     "DejaVu Serif Bold",
-     "Helvetica",
-     "Nimbus Sans Bold",
-     "Nimbus Sans Italic",
-     "Nimbus Sans Regular",
-     "Noto Serif Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": 2,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 120,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-spanish",
-   "pages": 338,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "336 of 336 interior pages have no folio badge",
-    "text outside the content box on page(s) [11, 12, 13, 14, 15, 16, 17, 18]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'DejaVuSansMono', 'IBMPlexMono', 'LiberationSans']",
-    "extent 338 is not a legal BookVault count; nearest are [335, 347]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "DejaVuSansMono",
-     "IBMPlexMono",
-     "LiberationSans",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 336,
-    "text_outside_box_pages": [
-     11,
-     12,
-     13,
-     14,
-     15,
-     16,
-     17,
-     18,
-     22,
-     23
-    ],
-    "modal_text_size_pt": 11.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y09-computing-and-robotics",
-   "pages": 2,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found"
-   ],
-   "warnings": [
-    "extent 2 is not a legal BookVault count; nearest are [11]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 0,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": null,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y10-business-btec-l2",
-   "pages": 42,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "contents page shows 0 of 1 unit colours: the standard wants one bar segment and one card per unit",
-    "opener(s) not flooded in a unit deep colour: [(7, '#0e3b2a')]",
-    "39 of 40 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['LiberationSerif']",
-    "extent 42 is not a legal BookVault count; nearest are [35, 47]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "LiberationSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 5,
-    "unit_count": 1,
-    "contents_segments": 0,
-    "unit_openers": [
-     7
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 39,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 11.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y10-physical-education",
-   "pages": 148,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "opener(s) not flooded in a unit deep colour: [(14, '#14120e'), (39, '#14120e'), (58, '#14120e'), (81, '#14120e')]",
-    "140 of 146 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['SourceSans3']",
-    "extent 148 is not a legal BookVault count; nearest are [143, 155]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "SourceSans3"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [
-     14,
-     39,
-     58,
-     81,
-     102,
-     123
-    ],
-    "pages_without_band": 0,
-    "pages_without_folio": 140,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 11.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y10-portuguese-1st",
-   "pages": 422,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "420 of 420 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSans', 'DejaVuSansMono']",
-    "extent 422 is not a legal BookVault count; nearest are [419, 431]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSansMono",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 420,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y10-portuguese-1st-igcse",
-   "pages": 252,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "250 of 250 interior pages have no folio badge",
-    "text outside the content box on page(s) [46]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSans', 'DejaVuSerif']",
-    "extent 252 is not a legal BookVault count; nearest are [251, 263]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 250,
-    "text_outside_box_pages": [
-     46
-    ],
-    "modal_text_size_pt": 10.4,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y10-spanish-1st-igcse",
-   "pages": 260,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "258 of 258 interior pages have no folio badge",
-    "text outside the content box on page(s) [70, 77, 134]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSans', 'DejaVuSerif']",
-    "extent 260 is not a legal BookVault count; nearest are [251, 263]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 258,
-    "text_outside_box_pages": [
-     70,
-     77,
-     134
-    ],
-    "modal_text_size_pt": 10.3,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y11-physical-education",
-   "pages": 32,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595.2x841.92 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "30 of 30 interior pages have no folio badge",
-    "text outside the content box on page(s) [11, 13, 24]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['AppleColorEmoji', 'Arial', 'Calibri', 'CambriaMath', 'Symbol', 'TimesNewRomanPS']",
-    "extent 32 is not a legal BookVault count; nearest are [23, 35]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.2,
-     841.92
-    ],
-    "font_families": [
-     "Andika Regular",
-     "AppleColorEmoji",
-     "Arial",
-     "Calibri",
-     "CambriaMath",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Symbol",
-     "TimesNewRomanPS"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 30,
-    "text_outside_box_pages": [
-     11,
-     13,
-     24
-    ],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y11-portuguese-1st",
-   "pages": 426,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "424 of 424 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'DejaVuSans', 'DejaVuSansMono']",
-    "extent 426 is not a legal BookVault count; nearest are [419, 431]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     594.96,
-     765.12
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSansMono",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 424,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y12-physical-education",
-   "pages": 628,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['']",
-    "contents page shows 0 of 7 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "626 of 626 interior pages have no folio badge",
-    "text outside the content box on page(s) [5, 6, 7, 8, 9, 10, 11, 12]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['', 'LiberationSans', 'LiberationSerif']",
-    "extent 628 is not a legal BookVault count; nearest are [479]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "",
-     "Andika Regular",
-     "LiberationSans",
-     "LiberationSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 2,
-    "unit_count": 7,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 626,
-    "text_outside_box_pages": [
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11,
-     12,
-     13,
-     14
-    ],
-    "modal_text_size_pt": 12.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y12-portuguese-a-level",
-   "pages": 156,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "154 of 154 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSans', 'DejaVuSerif']",
-    "extent 156 is not a legal BookVault count; nearest are [155, 167]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 154,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.4,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y12-spanish-a-level",
-   "pages": 176,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "174 of 174 interior pages have no folio badge"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVuSans', 'DejaVuSerif']",
-    "extent 176 is not a legal BookVault count; nearest are [167, 179]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVuSans",
-     "DejaVuSerif",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 174,
-    "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.3,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y13-physical-education",
-   "pages": 32,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595.2x841.92 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "30 of 30 interior pages have no folio badge",
-    "text outside the content box on page(s) [9, 13]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['AppleColorEmoji', 'Arial', 'Calibri', 'CambriaMath', 'Symbol', 'TimesNewRomanPS']",
-    "extent 32 is not a legal BookVault count; nearest are [23, 35]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     595.2,
-     841.92
-    ],
-    "font_families": [
-     "Andika Regular",
-     "AppleColorEmoji",
-     "Arial",
-     "Calibri",
-     "CambriaMath",
-     "Poppins ExtraBold",
-     "Poppins SemiBold",
-     "Symbol",
-     "TimesNewRomanPS"
-    ],
-    "contents_page": null,
-    "unit_count": null,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 30,
-    "text_outside_box_pages": [
-     9,
-     13
-    ],
-    "modal_text_size_pt": 12.0,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   },
   {
    "slug": "y07-art-and-design-standard",
-   "pages": 74,
-   "spec": "A-2.2-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold']",
-    "last page: no 'P R I M E  S C H O O L  P R E S S' label",
-    "contents page shows 0 of 7 unit colours: the standard wants one bar segment and one card per unit",
-    "contents page: no card for unit(s) [1, 2, 3, 4, 5, 6]",
-    "no full-bleed unit opener found",
-    "72 of 72 interior pages have no folio badge",
-    "text outside the content box on page(s) [3, 4, 5, 6, 7, 8, 9, 10]"
-   ],
-   "warnings": [
-    "font families outside the house set: ['DejaVu Sans Bold', 'DejaVu Sans Book', 'DejaVuSans', 'Helvetica', 'Noto Sans Bold', 'Noto Sans Italic', 'Noto Sans Regular']",
-    "extent 74 is not a legal BookVault count; nearest are [71, 83]"
-   ],
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
    "facts": {
-    "page_size": [
-     612.0,
-     792.0
-    ],
-    "font_families": [
-     "Andika Regular",
-     "DejaVu Sans Bold",
-     "DejaVu Sans Book",
-     "DejaVuSans",
-     "Helvetica",
-     "Noto Sans Bold",
-     "Noto Sans Italic",
-     "Noto Sans Regular",
-     "Poppins ExtraBold",
-     "Poppins SemiBold"
-    ],
-    "contents_page": 4,
-    "unit_count": 7,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 72,
-    "text_outside_box_pages": [
-     3,
-     4,
-     5,
-     6,
-     7,
-     8,
-     9,
-     10,
-     11,
-     12
-    ],
-    "modal_text_size_pt": 12.5,
-    "reading_ladder_pt": {
-     "1": 16.0,
-     "2": 16.0,
-     "3": 15.0,
-     "4": 14.5
-    },
-    "year": null,
-    "extent_legal": false,
-    "manual_checks_still_required": [
-     "teacher content preserved on its page",
-     "reading size approved for the year",
-     "illustration quality, rights and credits",
-     "contrast and no colour-only coding",
-     "every QR code decoded and every URL opened",
-     "one physical print proof held in the hand"
-    ]
-   },
-   "state": "not-standardised"
+    "reason": "not a Years 1-4 title"
+   }
   }
  ]
 }
