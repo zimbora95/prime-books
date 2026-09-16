@@ -1,9 +1,9 @@
 {
  "slug": "y01-physical-education-standard",
- "built": "2026-09-16T03:52:23+00:00",
+ "built": "2026-09-16T22:33:48+00:00",
  "source_pages": 71,
- "source_mtime": 1789529783.978378,
- "source_bytes": 22442730,
+ "source_mtime": 1789597360.8871844,
+ "source_bytes": 21904136,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y01-physical-education-standard-text-file.pdf",
   "url": "/library/y01-physical-education-standard/bookvault/y01-physical-education-standard-text-file.pdf",
-  "bytes": 15205590,
+  "bytes": 14740348,
   "pages": 69,
   "content_pages": 69,
   "padded_pages": 0,
@@ -30,10 +30,10 @@
   "page_fit_scale": 1.0,
   "page_fit_note": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
   "content_shift_mm": [
-   6.13,
+   8.87,
    0.35
   ],
-  "content_shift_note": "content moved 6.1 mm toward the outer edge and 0.4 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)",
+  "content_shift_note": "content moved 8.9 mm toward the outer edge and 0.4 mm down: closest live text is now 8.1 mm off the gutter (was -0.8), 6.0 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 16, -0.8 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm",
   "media_mm": [
    222.0,
    285.0
@@ -122,19 +122,19 @@
   {
    "name": "Bleed seam matches the artwork",
    "pass": false,
-   "detail": " -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected",
-   "level": "warn"
+   "detail": "a step over 60.3 mm at the left edge of page 52, 60.3 mm of the bleed -- a band of the wrong colour across the bleed",
+   "level": "fail"
   },
   {
    "name": "Live text clears their 20 mm gutter",
-   "pass": true,
-   "detail": "closest live text is 21.0 mm off the gutter (page 1); guide p.3 asks for 20 mm",
-   "level": "ok"
+   "pass": false,
+   "detail": "closest live text is 8.1 mm off the gutter (page 16); guide p.3 asks for 20 mm",
+   "level": "fail"
   },
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": true,
-   "detail": "closest live text is 5.8 mm from the top edge (page 1); their template draws a 5 mm safety line",
+   "detail": "closest live text is 5.8 mm from the top edge (page 3); their template draws a 5 mm safety line",
    "level": "ok"
   },
   {
@@ -182,7 +182,7 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "22 below 300 DPI, e.g. page 8: 215 DPI; page 9: 295 DPI; page 11: 120 DPI",
+   "detail": "29 below 300 DPI, e.g. page 3: 218 DPI; page 5: 290 DPI; page 5: 290 DPI",
    "level": "warn"
   },
   {
@@ -194,13 +194,13 @@
   {
    "name": "Artwork covers the printed area",
    "pass": true,
-   "detail": "the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "detail": "the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 8.9 mm inside the trim -- within the binding zone and the page's own edge colour",
    "level": "ok"
   },
   {
    "name": "Binding-edge clearance",
    "pass": true,
-   "detail": "closest text is 21.0 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 23.7 mm from the left edge on page 67; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "ok"
   },
   {
@@ -238,6 +238,5 @@
   "file": "y01-physical-education-standard-bookvault.txt",
   "url": "/library/y01-physical-education-standard/bookvault/y01-physical-education-standard-bookvault.txt"
  },
- "ok": true,
- "rechecked": "2026-09-16T03:53:46+00:00"
+ "ok": false
 }

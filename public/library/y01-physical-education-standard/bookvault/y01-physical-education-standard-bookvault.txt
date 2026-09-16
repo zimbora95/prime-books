@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education-standard
-generated 2026-09-16 03:53 UTC
+generated 2026-09-16 22:33 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -9,10 +9,11 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Binding ............ Perfect bound (paperback)
   Paper stock ........ Colour interior, 80 gsm uncoated
   Cover lamination ... Matte
-  Trim size .......... CUSTOM 216 mm wide x 279 mm high
-                       (Their own template for this book is v4_Text_279_216.pdf: 222 x 285 mm
-                       with 3 mm bleed, i.e. 216 x 279 mm finished. BookVault's standard
-                       list has no such size, so choose the custom option.)
+  Trim size .......... 216 x 279 (US Letter) -- the standard option in their
+                       SIZE list. Their own template for this book is
+                       v4_Text_279_216.pdf: 222 x 285 mm
+                       with 3 mm bleed, i.e. 216 x 279 mm finished. Pick the standard size;
+                       use CUSTOM only if that option is missing from your list.
   Page count ......... 69 (interior only, covers excluded)
                        = 69 pages of book. No blank pages at the rear, by request:
                        their guide suggests 71 (one less than a multiple of 12) so their
@@ -21,7 +22,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
-  Content position ... content moved 6.1 mm toward the outer edge and 0.4 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)
+  Content position ... content moved 8.9 mm toward the outer edge and 0.4 mm down: closest live text is now 8.1 mm off the gutter (was -0.8), 6.0 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 16, -0.8 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm
   Page size ......... master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
 
 --------------------------------------------------------------------------
@@ -47,12 +48,12 @@ STEP 3  Checks
          112 of 112 points across the cut lines are flat
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
-  [OPEN] Bleed seam matches the artwork
-          -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected
-  [PASS] Live text clears their 20 mm gutter
-         closest live text is 21.0 mm off the gutter (page 1); guide p.3 asks for 20 mm
+  [FAIL] Bleed seam matches the artwork
+         a step over 60.3 mm at the left edge of page 52, 60.3 mm of the bleed -- a band of the wrong colour across the bleed
+  [FAIL] Live text clears their 20 mm gutter
+         closest live text is 8.1 mm off the gutter (page 16); guide p.3 asks for 20 mm
   [PASS] Live text clears their 5 mm trim safety
-         closest live text is 5.8 mm from the top edge (page 1); their template draws a 5 mm safety line
+         closest live text is 5.8 mm from the top edge (page 3); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
          69 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
@@ -68,13 +69,13 @@ STEP 3  Checks
   [PASS] Transparency flattened
          no soft masks, transparency groups or blend modes left (guide p.3)
   [OPEN] Images at 300 DPI or better
-         22 below 300 DPI, e.g. page 8: 215 DPI; page 9: 295 DPI; page 11: 120 DPI
+         29 below 300 DPI, e.g. page 3: 218 DPI; page 5: 290 DPI; page 5: 290 DPI
   [PASS] Master page box fitted to their trim
          master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
   [PASS] Artwork covers the printed area
-         the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour
+         the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 8.9 mm inside the trim -- within the binding zone and the page's own edge colour
   [PASS] Binding-edge clearance
-         closest text is 21.0 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         closest text is 23.7 mm from the left edge on page 67; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [PASS] Text file is PDF/X-1a:2001 with CMYK
@@ -98,7 +99,9 @@ NOTES
     two templates they published for this book:
       bleed 3 mm on every edge (p.5); text file media box is
       trim + bleed = 222 x 285 mm (p.5,p.18)
-      page count one less than a multiple of 12: 69 (p.5)
+      page count supplied: 69 (69 of book); their production barcode
+      page is added at the rear whatever count is supplied (guide p.5;
+      over Royal/US Royal size their help centre asks for 4n-1)
       first page prints on the first right-hand page (p.5), so page 1 is a
       recto. Prime Books pages are not mirrored, so no layout moves; the
       binding-edge check below measures the real clearance instead
