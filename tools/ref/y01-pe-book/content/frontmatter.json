@@ -1,0 +1,74 @@
+[
+ {"type": "cover",
+  "kicker": "cover",
+  "title": "Physical Education · Year 1",
+  "art": "cover.png",
+  "source_pages": [1]},
+
+ {"type": "cards",
+  "kicker": "Imprint",
+  "band": "Prime School Press",
+  "title": "Physical Education · Year 1",
+  "lead": "Student book. Written and illustrated in the meadow behind the school, for the children of Prime School.",
+  "variant": {"cards": "note"},
+  "cards": [
+   {"head": "Cambridge pathway", "body": "Primary Physical Education, Year 1 · strands: moving well, understanding movement, moving creatively, taking part, taking responsibility, healthy bodies."},
+   {"head": "Inside this book", "body": "Seven pages before Unit 1, six units of movement, then the pages you come back to: your own record, the words, the pictures and where the ideas came from."},
+   {"head": "How it is made", "body": "Every illustration in this book was made for it, plate by plate, for this subject and this cast. No photograph, no artwork and no data were copied from another publisher."},
+   {"head": "Where it is used", "body": "primeschool.pt · the hall, the meadow, the wall bars and the chalk line. Print this book from the school library or read it on screen."}],
+  "source_pages": [2]},
+
+ {"type": "contents",
+  "kicker": "Contents",
+  "title": "What is in this book",
+  "source_pages": [3]},
+
+ {"type": "welcome",
+  "kicker": "Getting started",
+  "band": "Before Unit 1",
+  "title": "Welcome to the meadow",
+  "paragraphs": [
+   "This is your book for moving. Six animals come with you through it, and they are all beginners, exactly like you. Pip tries first and gets it wrong. Sorrel is fast and has to learn to wait. Tuft is small and does not like being watched.",
+   "Every unit has a colour, a page where you do the moving, and a page where you say honestly how it went. Nobody marks this book but you."],
+  "source_pages": [4]},
+
+ {"type": "cards",
+  "kicker": "Getting started",
+  "band": "Before Unit 1",
+  "title": "How to use this book",
+  "lead": "Every page in this book works the same way. Look for these five things.",
+  "variant": {"cards": "numbered"},
+  "cards": [
+   {"head": "The colour band", "body": "The band at the top tells you which unit you are in. Every unit has its own colour, and the same colour on the contents page."},
+   {"head": "Ready, steady, try", "body": "Once in every unit there is a page where you do the moving. Three tries to tick, and a box to draw yourself in."},
+   {"head": "Your turn", "body": "A box to draw or write in. Nobody marks this box. It is yours."},
+   {"head": "How did it go?", "body": "At the end of the unit you colour a circle for each line. Three circles, three honest answers."},
+   {"head": "Words we used", "body": "The words this unit taught, in one place at the end of the unit."}],
+  "source_pages": [9]},
+
+ {"type": "cards",
+  "kicker": "Getting set up",
+  "band": "Before Unit 1",
+  "title": "What we use in the meadow",
+  "lead": "Everything here lives in the hall. Take it out, use it, put it back.",
+  "variant": {"cards": "tick"},
+  "cards": [
+   {"head": "Chalk and cones", "body": "A white line on the grass and small cones for stopping. One cone for each pair, please.", "art": "gloss-cone.png"},
+   {"head": "Hoops and ropes", "body": "Wooden hoops and skipping ropes. A hoop is carried at your side, never over your head.", "art": "gloss-hoop.png"},
+   {"head": "Mats and bench", "body": "A low bench and two blue mats. Two carriers for the bench, one at each end.", "art": "gloss-mat.png"},
+   {"head": "Water", "body": "A named bottle for every child. Drink before you feel thirsty, not after."}],
+  "source_pages": [10]},
+
+ {"type": "cards",
+  "kicker": "Safety first",
+  "band": "Before Unit 1",
+  "title": "The hall, and safety first",
+  "lead": "Four rules. We say them out loud at the start of every lesson.",
+  "variant": {"cards": "numbered"},
+  "cards": [
+   {"head": "Look before you move", "body": "Stand still, look around, find the space that is yours. Then move."},
+   {"head": "Stop means stop", "body": "When the teacher says stop, feet stop and hands go quiet. Everybody, at the same time."},
+   {"head": "Tell a grown-up", "body": "If something hurts, or if you feel wobbly, say so straight away. Stopping is not losing."},
+   {"head": "Leave it tidy", "body": "Kit goes back where it lives. A tidy hall is how the next class finds it."}],
+  "source_pages": [11]}
+]

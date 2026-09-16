@@ -1,0 +1,69 @@
+{
+ "book": "y01-physical-education",
+ "title": "Physical Education · Year 1",
+ "standard": "A-2.3-Y1-4",
+ "seed": 20260916,
+ "_why": "The identity layer: what makes this book ITSELF and not any other title in the series. Declared once, here, and read by the build. Consistency comes from the invariants (geometry, type, page map, rung n = unit n); identity comes from these five decisions, and none of them may be copied from another subject.",
+
+ "voice": {
+  "narrator": "a grown-up who is glad to see you and never keeps score. Speaks in the second person, in short sentences a six-year-old can hold in their head.",
+  "rules": [
+   "an instruction is at most seven words",
+   "no instruction begins with 'you must' or 'you should'",
+   "every invitation has a way out in it: 'if you want to', 'when you are ready'",
+   "the words 'win', 'best' and 'good at' never appear about a child",
+   "the book asks questions it does not answer for the child"
+  ],
+  "phrases_that_recur": ["Ready?", "Off you go.", "Well tried.", "Have a look.", "Show me.", "Again?"],
+  "never": ["a test", "a mark out of ten", "a race against the class", "the word 'exercise' as a chore"]
+ },
+
+ "cast_and_place": {
+  "cast": [
+   {"name": "Pip", "who": "a red squirrel in a mustard jumper", "temper": "goes first, sometimes too soon"},
+   {"name": "Bramble", "who": "a badger in a teal jacket", "temper": "steady, counts things, sets the kit out"},
+   {"name": "Sorrel", "who": "a brown hare in an olive waistcoat", "temper": "fast, and can stop fast too"},
+   {"name": "Tuft", "who": "a hedgehog in a rust vest", "temper": "careful, notices small things"},
+   {"name": "Willow", "who": "a barn owl on the bench", "temper": "watches first, then says what she saw"},
+   {"name": "Rowan", "who": "an otter in a green vest", "temper": "loves a game with a ball"}
+  ],
+  "place": "the meadow behind the school, with the hall waiting behind its open doors: wooden floor, wall bars, mats in a stack",
+  "rule": "the six appear in narrative scenes, never as decorations; Willow is the one who names what happened"
+ },
+
+ "signature_page": {
+  "type": "ready-steady-try",
+  "appears": "exactly once in every unit",
+  "what_it_is": "one movement, one minute, the child's own timing: a big card with three tries to tick, a space to draw the pose, and no mark from anyone else",
+  "why_it_belongs_to_this_subject": "no other subject can ask a child to do the learning with their whole body; the page is where the body is the pencil"
+ },
+
+ "rhythm": {
+  "_rule": "weights: E energy, D dense, R response, B breath (one large image, 25 words at most), S signature. No type twice in a row, no type more than twice in a unit, never two dense pages in a row, never three response pages in a row.",
+  "unit1": "E E D R B D S R R",
+  "unit2": "E D R B D R S D",
+  "unit3": "E D B R D S R B",
+  "unit4": "E D R D S B R R B",
+  "unit5": "E R D B S D R B",
+  "unit6": "E D R B D S R D B",
+  "_breath_rotation": "the breath page changes position in every unit, so the book never settles into a page turn a child can predict"
+ },
+
+ "material": {
+  "objects": ["white chalk line", "orange cone", "wooden hoop", "skipping rope", "low bench", "blue mat", "red ball", "bean bag", "wall bars"],
+  "textures": ["grass", "hall floorboards", "chalk dust", "wet grass after rain"],
+  "accent_tints": ["chalk white #FBF6EC", "cone orange #C97B5A"],
+  "palette": ["#FBF6EC", "#A8BF9B", "#C97B5A", "#F0CE7A", "#8FA8C7", "#3E3A35"]
+ },
+
+ "cover_picture": "the meadow at first light with the six mid-movement along a chalk line, the hall's open doors behind them",
+
+ "words_per_page_max": 80,
+ "response_types": ["draw the pose", "tick what you did", "put the cones out", "count your turns", "tell a partner what you saw"],
+ "teacher_rescue": "one line only, on the check page, for the adult who is stuck with a class: what to say, not what to do",
+
+ "_sources_of_truth": {
+  "geometry_type_pagemap": "public/standards/years-1-4.json",
+  "daily_content": "the master's teaching, kept on its own page: nothing the teacher placed is deleted"
+ }
+}
