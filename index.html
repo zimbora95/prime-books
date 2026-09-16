@@ -1597,18 +1597,8 @@
         transform: none;
         pointer-events: auto;
       }
-      /* /finished: the reader says what it is showing, and what it is not */
-      .fb-shell {
-        padding: 10px 16px;
-        font-size: 13px;
-        line-height: 1.55;
-        color: #2e2740;
-        background: #fdf6e3;
-        border-bottom: 1px solid rgba(201, 162, 39, 0.5);
-      }
-      .fb-shell b {
-        font-weight: 800;
-      }
+      /* the /finished reader carries no banner: the pages the standard has set
+         are simply the pages on screen, and Sections still lists everything */
       .toc-head {
         padding: 6px 10px 12px;
         font-size: 11px;
@@ -2089,13 +2079,6 @@
             &#10005;
           </button>
         </div>
-      </div>
-      <div class="fb-shell" id="fbShellNote" hidden>
-        <b>Standardised shell.</b> This reader shows the pages the standard has
-        already set for this book &mdash; <span id="fbShellPages">the cover, the
-        second page and the back cover</span> &mdash; and nothing else, because
-        the interior is authored from the input: open <b>Sections</b> or
-        <b>Input</b> to see everything this book must contain.
       </div>
       <div class="fb-stage" id="fbStage">
         <div id="fbBook"></div>
@@ -7623,16 +7606,6 @@ function rr(x, px, py, w, h, r) {
             fbWindow = null;
           }
           fbCount = fbWindow ? fbWindow.length : pdfPages;
-          const shellPagesEl = document.getElementById("fbShellPages");
-          if (shellPagesEl && PB_FINISHED) {
-            const nm = (fbWindow || []).map((i) => String(i + 1));
-            const tail = nm.pop();
-            shellPagesEl.textContent = nm.length
-              ? "pages " + nm.join(", ") + " and " + tail
-              : tail
-                ? "page " + tail
-                : "no page yet";
-          }
           const first = await doc.getPage(1);
           const base = first.getViewport({ scale: 1 });
           const ratio = base.width / base.height;
@@ -7867,7 +7840,6 @@ function rr(x, px, py, w, h, r) {
         const head = document.querySelector(".cat-hero h2");
         const copy = document.querySelector(".cat-hero p");
         const note = document.querySelector(".collection-overview-note");
-        const shell = document.getElementById("fbShellNote");
         if (kicker) kicker.textContent = "The finished shelf";
         if (head) head.innerHTML = "Only what is <em>finished.</em>";
         if (copy)
@@ -7879,7 +7851,6 @@ function rr(x, px, py, w, h, r) {
           note.textContent =
             "Standardised editions only \u2014 the shelf fills as each book is " +
             "rebuilt";
-        if (shell) shell.hidden = false;
       })();
 </script>
     <script src="/pb-router.js"></script>
