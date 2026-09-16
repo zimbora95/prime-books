@@ -21,11 +21,11 @@ SLUGS = ["y01-art-and-design", "y01-computing-and-robotics", "y01-english",
 rows = []
 for slug in SLUGS:
     path = "/root/pb-y1-fleet-output/%s/book.pdf" % slug
-    r = sc.check(path, slug, lk, 1)
+    r = sc.check(path, slug + "-standard", lk, 1)
     rows.append(r)
-    print("%-26s pp %-3s ok %-5s missing plates %s"
+    print("%-26s pp %-3s ok %-5s items-vs-plates %s"
           % (slug, r["pages"], r["ok"],
-             [x["page"] for x in r["facts"].get("task_items_without_a_plate", [])]))
+             [x["page"] for x in r["facts"].get("task_pages_items_and_plates_differ", [])]))
     for x in r["failures"]:
         if "plate" not in x:
             print("      FAIL:", x[:160])
