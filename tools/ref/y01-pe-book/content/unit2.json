@@ -1,0 +1,151 @@
+[
+ {
+  "type": "opener",
+  "kicker": "Unit 2",
+  "subtitle": "Look, name, copy",
+  "question": "How do you know what your body just did?",
+  "promise": "In this unit you will watch a shape, name the parts of it, and copy it. Then a partner will watch you.",
+  "learn": [
+   "Name four parts of your body",
+   "Watch, then copy a shape",
+   "Show what good looks like"
+  ],
+  "art": "opener-2.png",
+  "source_pages": [
+   27
+  ]
+ },
+ {
+  "type": "model",
+  "kicker": "2.1 Words for a body",
+  "title": "Names for my body",
+  "text": "Point to your head. Point to your arms. Point to your legs. Point to your feet. A watcher needs these four words.",
+  "labels": [
+   "head",
+   "arms",
+   "legs",
+   "feet"
+  ],
+  "say": "Name the part as you touch it. The word lands better with a hand on it.",
+  "art": "model-2.png",
+  "variant": {
+   "image": "left"
+  },
+  "source_pages": [
+   28,
+   29,
+   30
+  ]
+ },
+ {
+  "type": "response",
+  "kicker": "Your turn",
+  "title": "Draw and name",
+  "text": "Draw your body in the box. Put a dot on your head, your arms, your legs and your feet.",
+  "ask": "Draw your body. Say each part out loud.",
+  "variant": {
+   "response": "draw"
+  },
+  "source_pages": [
+   29,
+   30
+  ]
+ },
+ {
+  "type": "breath",
+  "kicker": "Look up",
+  "text": "Willow watches first. Then she says exactly what she saw.",
+  "art": "breath-2.png",
+  "source_pages": [
+   31
+  ]
+ },
+ {
+  "type": "steps",
+  "kicker": "2.2 Watch, then copy",
+  "title": "Watch, then copy",
+  "steps": [
+   {
+    "text": "Watch the shape. Say what you see.",
+    "art": "step-2a.png"
+   },
+   {
+    "text": "Copy the shape. Hold it still.",
+    "art": "step-2b.png"
+   },
+   {
+    "text": "Let a partner copy you. Watch them do it.",
+    "art": "step-2c.png"
+   }
+  ],
+  "source_pages": [
+   31,
+   32
+  ]
+ },
+ {
+  "type": "response",
+  "kicker": "2.3 What good looks like",
+  "title": "Show me good",
+  "text": "Do each one. Then circle how ready it felt.",
+  "rows": [
+   "Standing tall",
+   "Looking ahead",
+   "Feet apart",
+   "Quiet hands"
+  ],
+  "variant": {
+   "response": "record"
+  },
+  "source_pages": [
+   33,
+   34
+  ]
+ },
+ {
+  "type": "signature",
+  "kicker": "Ready, steady, try",
+  "text": "Make one shape with your body. Hold it while a partner counts to five. Then swap and copy their shape.",
+  "move": "Hold a shape",
+  "ask": "What shape did you make?",
+  "source_pages": [
+   33,
+   34
+  ]
+ },
+ {
+  "type": "wordbank",
+  "kicker": "2.4 A simple rule",
+  "title": "Words we used",
+  "words": [
+   {
+    "word": "watch",
+    "meaning": "look with your whole eyes, and wait"
+   },
+   {
+    "word": "copy",
+    "meaning": "make the same shape as someone"
+   },
+   {
+    "word": "shape",
+    "meaning": "what your body makes, standing or moving"
+   },
+   {
+    "word": "still",
+    "meaning": "not moving at all"
+   },
+   {
+    "word": "ready",
+    "meaning": "set, and waiting to go"
+   },
+   {
+    "word": "turn",
+    "meaning": "your go, then someone else's"
+   }
+  ],
+  "source_pages": [
+   35,
+   36
+  ]
+ }
+]

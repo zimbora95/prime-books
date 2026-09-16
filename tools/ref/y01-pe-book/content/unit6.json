@@ -1,0 +1,160 @@
+[
+ {
+  "type": "opener",
+  "kicker": "Unit 6",
+  "subtitle": "Breath, heart, water",
+  "question": "What does moving do to your body?",
+  "promise": "In this unit you will feel your heart, hear your breath, and find out when to rest and when to drink.",
+  "learn": [
+   "Feel your heart after moving",
+   "Notice your breath",
+   "Drink water before you are thirsty"
+  ],
+  "art": "opener-6.png",
+  "source_pages": [
+   74
+  ]
+ },
+ {
+  "type": "model",
+  "kicker": "6.1 What changes when you move",
+  "title": "What changes",
+  "text": "Your heart goes faster. Your breath gets quicker. Your face goes warm. That is your body working well.",
+  "labels": [
+   "heart faster",
+   "breath quicker",
+   "face warm"
+  ],
+  "say": "Put a hand on your own chest and ask the class to copy you. Then wait in silence while everyone feels it.",
+  "art": "model-6.png",
+  "variant": {
+   "image": "left"
+  },
+  "source_pages": [
+   75,
+   76,
+   77
+  ]
+ },
+ {
+  "type": "response",
+  "kicker": "6.2 Name the working parts",
+  "title": "My moving body",
+  "text": "Move fast for one minute. Then stop and feel.",
+  "rows": [
+   "My heart felt faster",
+   "My breath felt quicker",
+   "My face felt warm",
+   "I needed a rest"
+  ],
+  "variant": {
+   "response": "record"
+  },
+  "source_pages": [
+   78,
+   79
+  ]
+ },
+ {
+  "type": "breath",
+  "kicker": "Look up",
+  "text": "Six bodies, still, looking at clouds.",
+  "art": "breath-6.png",
+  "source_pages": [
+   80
+  ]
+ },
+ {
+  "type": "steps",
+  "kicker": "6.4 Knowing your limit today",
+  "title": "Rest, then go again",
+  "steps": [
+   {
+    "text": "Move until your breath is quick.",
+    "art": "step-6a.png"
+   },
+   {
+    "text": "Stop. Put a paw on your chest.",
+    "art": "step-6b.png"
+   },
+   {
+    "text": "Breathe slowly. Count four in, four out.",
+    "art": "step-6c.png"
+   }
+  ],
+  "source_pages": [
+   80,
+   81
+  ]
+ },
+ {
+  "type": "signature",
+  "kicker": "Ready, steady, try",
+  "text": "Move fast for one minute. Then sit and count your breaths until they slow down. Nobody is racing you.",
+  "move": "Count your breaths",
+  "ask": "How many breaths before you felt calm?",
+  "source_pages": [
+   80,
+   81
+  ]
+ },
+ {
+  "type": "response",
+  "kicker": "6.5 Before, and afterwards",
+  "title": "Before and after",
+  "text": "Draw your face before you move. Draw your face after you move.",
+  "ask": "Draw both faces. Circle the one that is warmer.",
+  "variant": {
+   "response": "draw"
+  },
+  "source_pages": [
+   81,
+   82
+  ]
+ },
+ {
+  "type": "wordbank",
+  "kicker": "6.6 Food and water",
+  "title": "Words we used",
+  "words": [
+   {
+    "word": "heart",
+    "meaning": "it beats faster when you move"
+   },
+   {
+    "word": "breath",
+    "meaning": "air in, air out"
+   },
+   {
+    "word": "rest",
+    "meaning": "stop and let your body catch up"
+   },
+   {
+    "word": "water",
+    "meaning": "drink before you feel thirsty"
+   },
+   {
+    "word": "warm",
+    "meaning": "your face and hands feel hot"
+   },
+   {
+    "word": "calm",
+    "meaning": "slow breath, quiet body"
+   }
+  ],
+  "source_pages": [
+   82,
+   83,
+   84
+  ]
+ },
+ {
+  "type": "breath",
+  "kicker": "Look up",
+  "text": "A cup of water on the bench. Cold, and full.",
+  "art": "breath-6b.png",
+  "source_pages": [
+   84
+  ]
+ }
+]

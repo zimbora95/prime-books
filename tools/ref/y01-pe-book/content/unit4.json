@@ -1,0 +1,142 @@
+[
+ {
+  "type": "opener",
+  "kicker": "Unit 4",
+  "subtitle": "Jobs, turns, leading",
+  "question": "What is your job in the game?",
+  "promise": "In this unit you will join a game, take a job in it, and lead one turn yourself. Every job matters.",
+  "learn": [
+   "Join a game without being asked",
+   "Take a job: thrower, catcher, collector",
+   "Lead one turn"
+  ],
+  "art": "opener-4.png",
+  "source_pages": [
+   49
+  ]
+ },
+ {
+  "type": "model",
+  "kicker": "4.2 Thrower, catcher, collector",
+  "title": "Three jobs",
+  "text": "The thrower sends the ball. The catcher waits with two hands ready. The collector keeps the bean bags in the basket. Three jobs, one game.",
+  "labels": [
+   "thrower",
+   "catcher",
+   "collector"
+  ],
+  "say": "Give every child a job name before the game starts. A child with a job joins in without being asked.",
+  "art": "model-4.png",
+  "variant": {
+   "image": "left"
+  },
+  "source_pages": [
+   51,
+   52
+  ]
+ },
+ {
+  "type": "response",
+  "kicker": "4.1 Joining in",
+  "title": "How to join in",
+  "text": "Stand where you can be seen. Wait for a gap. Then say: can I play?",
+  "rows": [
+   "I stood where I could be seen",
+   "I waited for a gap",
+   "I asked to play",
+   "I took my turn"
+  ],
+  "variant": {
+   "response": "record"
+  },
+  "source_pages": [
+   50
+  ]
+ },
+ {
+  "type": "steps",
+  "kicker": "4.4 A turn at leading",
+  "title": "Your turn to lead",
+  "steps": [
+   {
+    "text": "Choose one game. Say the rules out loud.",
+    "art": "step-4b.png"
+   },
+   {
+    "text": "Show the start line and the finish line.",
+    "art": "step-4a.png"
+   },
+   {
+    "text": "Say 'go'. Then play with everyone else.",
+    "art": "step-4c.png"
+   }
+  ],
+  "source_pages": [
+   55
+  ]
+ },
+ {
+  "type": "signature",
+  "kicker": "Ready, steady, try",
+  "text": "Lead one turn of a game. Say the rules, then say go. Ask the others one question afterwards.",
+  "move": "Lead one turn",
+  "ask": "What did the others say?",
+  "source_pages": [
+   55,
+   56
+  ]
+ },
+ {
+  "type": "breath",
+  "kicker": "Look up",
+  "text": "A red ball, in the air, for one moment.",
+  "art": "breath-4.png",
+  "source_pages": [
+   51
+  ]
+ },
+ {
+  "type": "response",
+  "kicker": "4.6 Listen, then move",
+  "title": "Listen, then move",
+  "text": "Listen to the whole instruction first. Then move.",
+  "rows": [
+   "I listened to the end",
+   "I moved after the word go",
+   "I knew my job",
+   "I helped pack away"
+  ],
+  "variant": {
+   "response": "record"
+  },
+  "source_pages": [
+   58,
+   59,
+   60
+  ]
+ },
+ {
+  "type": "check",
+  "kicker": "How did it go?",
+  "lead": "Colour one circle for each line. There is no wrong answer here.",
+  "rows": [
+   "I joined in",
+   "I took a job in the game",
+   "I took my turn",
+   "I led one turn"
+  ],
+  "rescue": "If a child will not join in, give them the job of collector and no other words. The job is the invitation.",
+  "source_pages": [
+   61
+  ]
+ },
+ {
+  "type": "breath",
+  "kicker": "Look up",
+  "text": "Everyone sits down at the end. The grass is still.",
+  "art": "breath-4b.png",
+  "source_pages": [
+   61
+  ]
+ }
+]

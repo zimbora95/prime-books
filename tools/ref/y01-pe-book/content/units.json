@@ -1,0 +1,52 @@
+[
+ {"unit": 0, "name": "Getting started", "colour": "teal",
+  "rhythm": "E R D R D D D",
+  "types": ["cover", "cards", "contents", "welcome", "cards", "cards", "cards"],
+  "content": "frontmatter.json",
+  "master_pages": [1, 2, 3, 4, 5, 6, 7],
+  "kept": "the cover, the imprint, the contents, the welcome, then how to use the book, what we use, and the four safety rules - the seven pages that come before Unit 1"},
+
+ {"unit": 1, "name": "Moving Well", "rhythm": "E E D R B D S R R",
+  "types": ["opener", "hook", "model", "response", "breath", "steps", "signature", "response", "check"],
+  "content": "unit1.json",
+  "master_pages": [12, 13, 16, 19, 23, 26],
+  "kept": "the master's Unit 1 teaching - space, walk, run, stop; hop, skip, join; fast, slow, high, low; hoops, benches, mats - carried page for page into these nine pages"},
+
+ {"unit": 2, "name": "Understanding Movement", "rhythm": "E D R B D R S D",
+  "types": ["opener", "model", "response", "breath", "steps", "response", "signature", "wordbank"],
+  "content": "unit2.json",
+  "master_pages": [27, 28, 31, 33, 35, 37],
+  "kept": "words for a body; watch, then copy; what good looks like; a simple rule"},
+
+ {"unit": 3, "name": "Moving Creatively", "rhythm": "E D B R D S R B",
+  "types": ["opener", "model", "breath", "response", "wordbank", "signature", "response", "breath"],
+  "content": "unit3.json",
+  "master_pages": [38, 39, 41, 43, 44, 48],
+  "kept": "new shapes; what the kit suggests; answer with your body; moving like weather"},
+
+ {"unit": 4, "name": "Taking Part", "rhythm": "E D R D S B R R B",
+  "types": ["opener", "model", "response", "steps", "signature", "breath", "response", "check", "breath"],
+  "content": "unit4.json",
+  "master_pages": [49, 50, 51, 53, 55, 56, 58, 61],
+  "kept": "joining in; thrower, catcher, collector; your own goal; a turn at leading; what I can do; listen, then move"},
+
+ {"unit": 5, "name": "Taking Responsibility", "rhythm": "E R D B S D R B",
+  "types": ["opener", "response", "model", "breath", "signature", "wordbank", "response", "breath"],
+  "content": "unit5.json",
+  "master_pages": [62, 63, 65, 66, 68, 69, 73],
+  "kept": "share and take turns; carry kit safely; fair play; ask for help; kind words"},
+
+ {"unit": 6, "name": "Healthy Bodies", "rhythm": "E D R B D S R D B",
+  "types": ["opener", "model", "response", "breath", "steps", "signature", "response", "wordbank", "breath"],
+  "content": "unit6.json",
+  "master_pages": [74, 75, 78, 79, 80, 81, 82, 85],
+  "kept": "what changes when you move; name the working parts; how hard is hard enough; knowing your limit today; before and afterwards; food and water for a moving body"},
+
+ {"unit": 7, "name": "Looking back", "colour": "slate",
+  "rhythm": "R D D D D D D D D D D D R",
+  "types": ["portfolio", "glossary", "glossary", "glossary", "cards", "cards", "cards",
+            "wordlist", "wordlist", "cards", "cards", "cards", "backcover"],
+  "content": "backmatter.json",
+  "master_pages": [86, 88, 89, 90, 91, 93, 95, 97, 98],
+  "kept": "the whole year in one page of I-can lines; the words and the pictures, three pages of them; what good looks like; where the ideas came from; the addresses written out; every word of the year, twice over; the page for the grown-up; and the closing page"}
+]

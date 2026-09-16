@@ -1,0 +1,116 @@
+PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
+Physical Education - Year 1
+slug y01-physical-education-standard
+generated 2026-09-16 03:33 UTC
+
+--------------------------------------------------------------------------
+STEP 1  Add the title on bookvault.app, then enter these specs
+--------------------------------------------------------------------------
+  Binding ............ Perfect bound (paperback)
+  Paper stock ........ Colour interior, 80 gsm uncoated
+  Cover lamination ... Matte
+  Trim size .......... CUSTOM 216 mm wide x 279 mm high
+                       (Their own template for this book is v4_Text_279_216.pdf: 222 x 285 mm
+                       with 3 mm bleed, i.e. 216 x 279 mm finished. BookVault's standard
+                       list has no such size, so choose the custom option.)
+  Page count ......... 69 (interior only, covers excluded)
+                       = 69 pages of book. No blank pages at the rear, by request:
+                       their guide suggests 71 (one less than a multiple of 12) so their
+                       production barcode lands on a blank last page. Here the last page carries content.
+  Colour pages ....... 69
+  Mono pages ......... 0
+  ISBN ............... (none yet - BookVault can issue a dummy)
+  Print type ......... Standard
+  Content position ... content moved 6.1 mm toward the outer edge and 3.5 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 2.9 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)
+  Page size ......... master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
+
+--------------------------------------------------------------------------
+STEP 2  Upload the two files
+--------------------------------------------------------------------------
+  TEXT FILE   y01-physical-education-standard-text-file.pdf
+              69 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  COVER FILE  y01-physical-education-standard-cover-file.pdf
+              5220 x 3366 px at 300 DPI = 441.96 x 284.99 mm
+              = back 216 + spine 4 + front 216 + 3 mm bleed (guide p.18)
+              spine 4 mm from 69 interior pages (padded count)
+              back cover art: pdf-back
+
+--------------------------------------------------------------------------
+STEP 3  Checks
+--------------------------------------------------------------------------
+  [PASS] Text file page size is 222 x 285 mm
+         222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)
+  [PASS] Bleed is 3 mm on all four edges
+         guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
+  [PASS] Bleed continues the page edge
+         112 of 112 points across the cut lines are flat
+  [PASS] Page artwork survives assembly
+         sampled interior pages carry the master's artwork
+  [OPEN] Bleed seam matches the artwork
+          -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected
+  [PASS] Live text clears their 20 mm gutter
+         closest live text is 21.0 mm off the gutter (page 1); guide p.3 asks for 20 mm
+  [FAIL] Live text clears their 5 mm trim safety
+         closest live text is 2.4 mm from the top edge (page 7); their template draws a 5 mm safety line
+  [PASS] Single pages, portrait
+         69 single pages, portrait, all 222.0 mm wide
+  [OPEN] Page count is 12n-1
+         69 pages (69 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+  [OPEN] Last page is clear for their barcode
+         the final page carries content -- their barcode will be printed over it
+  [PASS] Cover pages stripped from the interior
+         the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
+  [PASS] All fonts embedded
+         every font is embedded (guide p.3)
+  [PASS] No Type 3 glyph-program fonts
+         none: every font is a real embedded font file (guide p.3)
+  [PASS] Transparency flattened
+         no soft masks, transparency groups or blend modes left (guide p.3)
+  [OPEN] Images at 300 DPI or better
+         22 below 300 DPI, e.g. page 8: 215 DPI; page 9: 295 DPI; page 11: 120 DPI
+  [PASS] Master page box fitted to their trim
+         master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
+  [PASS] Artwork covers the printed area
+         the artwork reaches 3.7 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour
+  [PASS] Binding-edge clearance
+         closest text is 21.0 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+  [PASS] No trim or bleed marks
+         none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
+  [PASS] Text file is PDF/X-1a:2001 with CMYK
+         PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  [PASS] Cover file is a perfect-bound spread
+         441.96 x 284.99 mm = back 216 + spine 4 + front 216 + 3 mm bleed, by their p.18 formula
+  [PASS] Barcode area clear on the back cover
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+  [OPEN] Spine width taken from their sizing calculator
+         built at 4 mm from 69 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
+
+--------------------------------------------------------------------------
+NOTES
+--------------------------------------------------------------------------
+  * In a Prime Books PDF, page 1 is the front cover and the last page
+    is the back cover. Both are reprinted inside the cover file, so
+    they are removed from the text file: y01-physical-education-standard.pdf has 71 pages,
+    this text file has 69.
+  * Rules followed here are from BookVault's 'Your Guide to Supplying
+    Print-Ready PDF Files', kept in docs/bookvault/ together with the
+    two templates they published for this book:
+      bleed 3 mm on every edge (p.5); text file media box is
+      trim + bleed = 222 x 285 mm (p.5,p.18)
+      page count one less than a multiple of 12: 69 (p.5)
+      first page prints on the first right-hand page (p.5), so page 1 is a
+      recto. Prime Books pages are not mirrored, so no layout moves; the
+      binding-edge check below measures the real clearance instead
+      covers inset: content kept 5 mm clear of the cover trim (p.19)
+  * Bleed is extended from each page's own edge artwork, so the running-
+    header band and any full-bleed art carry to the trim line with no gap.
+  * Spine: guide p.18 takes it from the sizing calculator and rounds UP to
+    a whole mm. This build uses 0.056 mm per page (their 80gsm bond example:
+    100 pages = 5.6 mm). Run the calculator for the paper you choose, then
+    rebuild with --spine-mm <mm> and the OPEN check below clears.
+  * Colour: guide p.6 prefers CMYK with a FOGRA profile, and accepts RGB.
+    This file is converted to CMYK through Ghostscript's default CMYK
+    profile, not a FOGRA one - ask BookVault for their output profile and
+    rebuild with --profile <icc> if the press is calibrated.
+
