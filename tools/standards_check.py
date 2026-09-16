@@ -42,7 +42,13 @@ LETTER = (612.0, 792.0)
 PRINT_TRIM = (612.28, 790.87)
 MEDIA = (629.28, 807.87)          # trim + 3 mm bleed each side, if a pack is checked
 CONTENT_BOX = (50.25, 66.0, 561.75, 734.25)   # the historic PE content box
-SAFE_X = (42.0, 570.0)            # 15 mm outer margin mirrored; 56.7 pt on the binding edge
+# The standard's mirrored margins, on the PRINT parity: BookVault's text file
+# prints its page 1 on a right-hand page and the pack starts at master page 2, so
+# a master EVEN page is a recto. 20 mm (56.7 pt) on the binding edge, 15 mm on the
+# outer edge - a deep-margin page whose text sits at the outer measure fails their
+# preflight, so the gate enforces the right way round.
+GUTTER_PT = 56.7
+OUTER_PT = 42.5
 FOOT_ZONE = 741.0                 # the footer rule: nothing but the label and folio below it
 BADGE_SIZE = 24.0
 BADGE_CENTRE = (550.0, 758.0)
@@ -238,16 +244,21 @@ def _check(doc, slug, lk, year=None) -> dict:
     # 6. text inside the box, and the reading size --------------------------
     escaped, sizes = [], {}
     left, top, right, bottom = CONTENT_BOX
-    floods = set(openers)
     for i, p in enumerate(doc):
         pg = i + 1
+        wpt = p.rect.width
+        # the printed gutter is the left edge of a recto; master even = recto
+        if pg % 2 == 0:
+            bl, br = GUTTER_PT, wpt - OUTER_PT
+        else:
+            bl, br = OUTER_PT, wpt - GUTTER_PT
         for s in spans(p):
             x0, y0, x1, y1 = s["bbox"]
-            if i in (0, n - 1) or pg in floods:
-                continue                       # covers and openers are full bleed
+            if i in (0, n - 1):
+                continue                       # the wrap's two covers are full bleed
             if y0 > 725:
                 continue                       # footer label and folio badge zone
-            if (y1 > FOOT_ZONE or x0 < SAFE_X[0] or x1 > SAFE_X[1]
+            if (y1 > FOOT_ZONE or x0 < bl - 0.6 or x1 > br + 0.6
                     or y0 < 12.0):
                 escaped.append(pg)
             sz = round(s["size"], 1)
