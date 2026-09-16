@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15 03:00 UTC",
+ "generated": "2026-09-16 03:00 UTC",
  "spec": "A-2.3-Y1-4",
  "certified_by": "the teacher, click by click on /status",
  "machine_cannot_check": [
@@ -12,14 +12,14 @@
  ],
  "scope": "Years 1 to 4 only; other years are measured only with --all-years",
  "totals": {
-  "books": 51,
+  "books": 52,
   "out_of_scope": 72,
-  "built": 30,
+  "built": 31,
   "not_built": 21,
-  "machine_clean": 5,
+  "machine_clean": 17,
   "signed_off": 0,
-  "awaiting_sign_off": 5,
-  "failing": 25
+  "awaiting_sign_off": 17,
+  "failing": 14
  },
  "books": [
   {
@@ -222,45 +222,44 @@
    "slug": "y01-german-a1a2",
    "pages": 100,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "contents page shows 0 of 9 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "98 of 98 interior pages have no folio badge",
-    "text outside the content box on page(s) [62]"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['Noto Sans Symbols2 Regular', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
     "extent 100 is not a legal BookVault count; nearest are [95, 107]"
    ],
    "facts": {
     "page_size": [
-     595.0,
-     765.0
+     612.0,
+     792.0
     ],
     "font_families": [
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
-     "Noto Sans Symbols2 Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": 5,
     "unit_count": 9,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 98,
-    "text_outside_box_pages": [
-     62
+    "contents_segments": 12,
+    "unit_openers": [
+     6,
+     12,
+     18,
+     26,
+     32,
+     38,
+     46,
+     52,
+     58,
+     66,
+     72,
+     78
     ],
-    "modal_text_size_pt": 10.6,
+    "pages_without_band": 0,
+    "pages_without_folio": 0,
+    "text_outside_box_pages": [],
+    "modal_text_size_pt": 9.8,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -278,7 +277,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y01-german-b1b2",
@@ -343,15 +342,9 @@
    "slug": "y01-global-perspectives",
    "pages": 174,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica', 'Helvetica-Bold', 'Helvetica-Oblique']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "171 of 172 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['Helvetica', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
     "extent 174 is not a legal BookVault count; nearest are [167, 179]"
    ],
    "facts": {
@@ -362,20 +355,23 @@
     "font_families": [
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
-     "Helvetica",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
-    "contents_page": null,
+    "contents_page": 3,
     "unit_count": null,
-    "unit_openers": [],
+    "contents_segments": 6,
+    "unit_openers": [
+     17,
+     42,
+     72,
+     93,
+     114,
+     134
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 171,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
     "modal_text_size_pt": 9.4,
     "reading_ladder_pt": {
@@ -395,7 +391,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y01-mathematics",
@@ -1088,48 +1084,51 @@
    "slug": "y02-german-b1b2",
    "pages": 100,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 595x765 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "no full-bleed unit opener found",
-    "98 of 98 interior pages have no folio badge",
-    "text outside the content box on page(s) [4, 31, 47, 69, 82]"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['Source Sans 3 Bold', 'Source Sans 3 Regular']",
-    "contents colour bar: fewer than two unit colours detected",
     "extent 100 is not a legal BookVault count; nearest are [95, 107]"
    ],
    "facts": {
     "page_size": [
-     595.0,
-     765.0
+     612.0,
+     792.0
     ],
     "font_families": [
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": 6,
     "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 98,
-    "text_outside_box_pages": [
-     4,
-     31,
-     47,
-     69,
-     82
+    "contents_segments": 6,
+    "unit_openers": [
+     7,
+     12,
+     17,
+     22,
+     27,
+     33,
+     38,
+     43,
+     48,
+     53,
+     58,
+     62,
+     66,
+     70,
+     74,
+     79,
+     83,
+     87,
+     91
     ],
-    "modal_text_size_pt": 11.0,
+    "pages_without_band": 0,
+    "pages_without_folio": 0,
+    "text_outside_box_pages": [],
+    "modal_text_size_pt": 10.0,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -1147,7 +1146,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y02-global-perspectives",
@@ -1412,44 +1411,38 @@
    "slug": "y02-science",
    "pages": 186,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no full-bleed unit opener found",
-    "184 of 184 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
-    "contents colour bar: fewer than two unit colours detected",
     "extent 186 is not a legal BookVault count; nearest are [179, 191]"
    ],
    "facts": {
     "page_size": [
-     594.96,
-     765.12
+     612.0,
+     792.0
     ],
     "font_families": [
-     "",
-     "Andika",
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": 6,
     "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
+    "contents_segments": 6,
+    "unit_openers": [
+     14,
+     42,
+     65,
+     94,
+     121,
+     140
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 184,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
-    "modal_text_size_pt": 15.0,
+    "modal_text_size_pt": 15.5,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -1467,7 +1460,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y02-spanish-a1a2",
@@ -1591,15 +1584,10 @@
    "slug": "y03-art-and-design",
    "pages": 96,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['Helvetica']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "94 of 94 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['Helvetica', 'JetBrainsMonoRoman', 'Kalam', 'Lexend', 'Lexend Bold', 'Lexend Regular', 'Source Sans 3 Bold', 'Source Sans 3 Regular', 'SourceSans3']",
+    "font families outside the house set: ['JetBrainsMonoRoman', 'Kalam', 'Kalam Regular', 'Lexend', 'Lexend Bold', 'Lexend Regular', 'Source Sans 3 Regular', 'SourceSans3']",
     "extent 96 is not a legal BookVault count; nearest are [95, 107]"
    ],
    "facts": {
@@ -1610,27 +1598,29 @@
     "font_families": [
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
-     "Helvetica",
+     "Fredoka SemiBold",
      "JetBrainsMonoRoman",
      "Kalam",
+     "Kalam Regular",
      "Lexend",
      "Lexend Bold",
      "Lexend Regular",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
      "Poppins SemiBold",
-     "Source Sans 3 Bold",
      "Source Sans 3 Regular",
      "SourceSans3"
     ],
     "contents_page": 3,
     "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
+    "contents_segments": 5,
+    "unit_openers": [
+     10,
+     34,
+     51,
+     69
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 94,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
     "modal_text_size_pt": 15.0,
     "reading_ladder_pt": {
@@ -1650,7 +1640,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y03-computing-and-robotics",
@@ -1884,13 +1874,8 @@
    "slug": "y03-global-perspectives",
    "pages": 158,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "contents page shows 0 of 2 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "156 of 156 interior pages have no folio badge",
-    "text outside the content box on page(s) [13, 41, 62, 82, 103, 122]"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
     "font families outside the house set: ['Source Sans 3 Bold', 'Source Sans 3 Regular', 'SourceSans3', 'Space Grotesk Bold', 'SpaceGrotesk']",
     "extent 158 is not a legal BookVault count; nearest are [155, 167]"
@@ -1901,12 +1886,9 @@
      792.0
     ],
     "font_families": [
-     "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
      "Poppins SemiBold",
      "Source Sans 3 Bold",
      "Source Sans 3 Regular",
@@ -1916,11 +1898,8 @@
     ],
     "contents_page": 6,
     "unit_count": 2,
-    "contents_segments": 0,
-    "unit_openers": [],
-    "pages_without_band": 0,
-    "pages_without_folio": 156,
-    "text_outside_box_pages": [
+    "contents_segments": 9,
+    "unit_openers": [
      13,
      41,
      62,
@@ -1928,6 +1907,9 @@
      103,
      122
     ],
+    "pages_without_band": 0,
+    "pages_without_folio": 0,
+    "text_outside_box_pages": [],
     "modal_text_size_pt": 15.0,
     "reading_ladder_pt": {
      "1": 16.0,
@@ -1946,48 +1928,56 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y03-mathematics",
    "pages": 80,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "page size 594.96x765.12 is not US Letter 612x792 (or the 216x279 mm print trim)",
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "78 of 78 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
     "extent 80 is not a legal BookVault count; nearest are [71, 83]"
    ],
    "facts": {
     "page_size": [
-     594.96,
-     765.12
+     612.0,
+     792.0
     ],
     "font_families": [
-     "",
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
-    "contents_page": null,
+    "contents_page": 3,
     "unit_count": null,
-    "unit_openers": [],
+    "contents_segments": 7,
+    "unit_openers": [
+     7,
+     13,
+     17,
+     21,
+     25,
+     29,
+     33,
+     37,
+     41,
+     45,
+     49,
+     53,
+     57,
+     61,
+     65,
+     69,
+     73,
+     79
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 78,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
-    "modal_text_size_pt": 10.2,
+    "modal_text_size_pt": 9.9,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -2005,7 +1995,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y03-music-and-drama",
@@ -2070,15 +2060,9 @@
    "slug": "y03-physical-education",
    "pages": 158,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['']",
-    "no full-bleed unit opener found",
-    "156 of 156 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['', 'Kalam', 'Lexend Regular', 'LiberationSans', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
-    "contents colour bar: fewer than two unit colours detected",
     "extent 158 is not a legal BookVault count; nearest are [155, 167]"
    ],
    "facts": {
@@ -2087,28 +2071,29 @@
      792.0
     ],
     "font_families": [
-     "",
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
-     "Kalam",
-     "Lexend Regular",
-     "LiberationSans",
+     "Caveat Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
      "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": 5,
     "unit_count": null,
-    "contents_segments": 0,
-    "unit_openers": [],
+    "contents_segments": 7,
+    "unit_openers": [
+     21,
+     51,
+     70,
+     87,
+     107,
+     125
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 156,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
-    "modal_text_size_pt": 15.0,
+    "modal_text_size_pt": 14.2,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -2126,7 +2111,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y03-portuguese",
@@ -2377,15 +2362,10 @@
    "slug": "y04-art-and-design",
    "pages": 84,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica', 'Helvetica-Bold']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "82 of 82 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['', 'Helvetica', 'Kalam', 'Lexend Regular', 'LiberationSans', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
+    "1 interior page(s) without a folio badge: [83]",
     "extent 84 is not a legal BookVault count; nearest are [83, 95]"
    ],
    "facts": {
@@ -2394,29 +2374,26 @@
      792.0
     ],
     "font_families": [
-     "",
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
-     "Helvetica",
-     "Kalam",
-     "Lexend Regular",
-     "LiberationSans",
+     "Caveat Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": 3,
     "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
+    "contents_segments": 5,
+    "unit_openers": [
+     10,
+     29,
+     46,
+     63
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 82,
+    "pages_without_folio": 1,
     "text_outside_box_pages": [],
-    "modal_text_size_pt": 15.0,
+    "modal_text_size_pt": 14.2,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -2434,7 +2411,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y04-computing-and-robotics",
@@ -2890,15 +2867,9 @@
    "slug": "y04-physical-education",
    "pages": 170,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['', 'Helvetica']",
-    "contents page shows 0 of 3 unit colours: the standard wants one bar segment and one card per unit",
-    "no full-bleed unit opener found",
-    "168 of 168 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['', 'Helvetica', 'Kalam', 'Lexend Regular', 'LiberationSans', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
     "extent 170 is not a legal BookVault count; nearest are [167, 179]"
    ],
    "facts": {
@@ -2907,29 +2878,28 @@
      792.0
     ],
     "font_families": [
-     "",
      "Andika Bold",
      "Andika Regular",
-     "Gelasio Regular",
-     "Helvetica",
-     "Kalam",
-     "Lexend Regular",
-     "LiberationSans",
+     "Caveat Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": 4,
     "unit_count": 3,
-    "contents_segments": 0,
-    "unit_openers": [],
+    "contents_segments": 6,
+    "unit_openers": [
+     17,
+     47,
+     69,
+     91,
+     117,
+     137
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 168,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
-    "modal_text_size_pt": 14.2,
+    "modal_text_size_pt": 13.4,
     "reading_ladder_pt": {
      "1": 16.0,
      "2": 16.0,
@@ -2947,21 +2917,16 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y04-portuguese",
    "pages": 114,
    "spec": "A-2.3-Y1-4",
-   "ok": false,
-   "failures": [
-    "non-embeddable or base-14 fonts present: ['']",
-    "no contents page found in the first 8 pages",
-    "no full-bleed unit opener found",
-    "112 of 112 interior pages have no folio badge"
-   ],
+   "ok": true,
+   "failures": [],
    "warnings": [
-    "font families outside the house set: ['', 'DejaVuSans', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
+    "font families outside the house set: ['DejaVuSans']",
     "extent 114 is not a legal BookVault count; nearest are [107, 119]"
    ],
    "facts": {
@@ -2970,23 +2935,30 @@
      792.0
     ],
     "font_families": [
-     "",
      "Andika Bold",
      "Andika Regular",
      "DejaVuSans",
-     "Gelasio Regular",
+     "Fredoka SemiBold",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
-    "contents_page": null,
+    "contents_page": 5,
     "unit_count": null,
-    "unit_openers": [],
+    "contents_segments": 6,
+    "unit_openers": [
+     6,
+     16,
+     26,
+     36,
+     46,
+     56,
+     66,
+     76,
+     86,
+     96
+    ],
     "pages_without_band": 0,
-    "pages_without_folio": 112,
+    "pages_without_folio": 0,
     "text_outside_box_pages": [],
     "modal_text_size_pt": 9.0,
     "reading_ladder_pt": {
@@ -3006,7 +2978,7 @@
      "one physical print proof held in the hand"
     ]
    },
-   "state": "not-standardised"
+   "state": "machine-clean"
   },
   {
    "slug": "y04-science",
@@ -3187,6 +3159,59 @@
    },
    "stub": true,
    "state": "not built"
+  },
+  {
+   "slug": "y01-physical-education-standard",
+   "pages": 71,
+   "spec": "A-2.3-Y1-4",
+   "ok": true,
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "page_size": [
+     612.0,
+     792.0
+    ],
+    "font_families": [
+     "Andika Bold",
+     "Andika Regular",
+     "Caveat Regular",
+     "Fredoka SemiBold",
+     "Poppins SemiBold"
+    ],
+    "contents_page": 3,
+    "unit_count": 7,
+    "contents_segments": 8,
+    "unit_openers": [
+     8,
+     17,
+     25,
+     33,
+     42,
+     50
+    ],
+    "pages_without_band": 0,
+    "pages_without_folio": 0,
+    "text_outside_box_pages": [],
+    "modal_text_size_pt": 16.0,
+    "reading_ladder_pt": {
+     "1": 16.0,
+     "2": 16.0,
+     "3": 15.0,
+     "4": 14.5
+    },
+    "year": null,
+    "extent_legal": true,
+    "manual_checks_still_required": [
+     "teacher content preserved on its page",
+     "reading size approved for the year",
+     "illustration quality, rights and credits",
+     "contrast and no colour-only coding",
+     "every QR code decoded and every URL opened",
+     "one physical print proof held in the hand"
+    ]
+   },
+   "state": "machine-clean"
   },
   {
    "slug": "y05-art-and-design",

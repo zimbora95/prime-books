@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-15 03:12 UTC",
+ "generated": "2026-09-16 03:22 UTC",
  "totals": {
-  "books": 123,
-  "pages": 12290,
+  "books": 124,
+  "pages": 12353,
   "withInput": 83,
-  "noInput": 40,
+  "noInput": 41,
   "standardized": 0,
   "years": 13,
-  "machineClean": 5
+  "machineClean": 17
  },
  "years": [
   {
@@ -71,10 +71,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 2,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -100,10 +100,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 2,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -151,6 +151,19 @@
       "ok": true,
       "failures": 0,
       "warnings": 2,
+      "state": "machine-clean"
+     }
+    },
+    {
+     "slug": "y01-physical-education-standard",
+     "subject": "Physical Education",
+     "pages": 71,
+     "input": null,
+     "standardized": false,
+     "checked": {
+      "ok": true,
+      "failures": 0,
+      "warnings": 0,
       "state": "machine-clean"
      }
     },
@@ -212,7 +225,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 1598
+   "pages": 1669
   },
   {
    "year": 2,
@@ -285,10 +298,10 @@
      "input": null,
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 3,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -365,10 +378,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 3,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -415,16 +428,16 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
+      "ok": true,
+      "failures": 0,
       "warnings": 2,
-      "state": "not-standardised"
+      "state": "machine-clean"
      }
     },
     {
      "slug": "y03-computing-and-robotics",
      "subject": "Computing & Robotics",
-     "pages": 40,
+     "pages": 32,
      "input": {
       "kind": "XLSX",
       "file": "y03-computing-and-robotics - input.xlsx"
@@ -489,10 +502,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
+      "ok": true,
+      "failures": 0,
       "warnings": 2,
-      "state": "not-standardised"
+      "state": "machine-clean"
      }
     },
     {
@@ -505,10 +518,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 2,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -537,10 +550,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 3,
-      "warnings": 3,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -604,7 +617,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 684
+   "pages": 676
   },
   {
    "year": 4,
@@ -619,10 +632,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
+      "ok": true,
+      "failures": 0,
       "warnings": 2,
-      "state": "not-standardised"
+      "state": "machine-clean"
      }
     },
     {
@@ -741,10 +754,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 2,
-      "state": "not-standardised"
+      "ok": true,
+      "failures": 0,
+      "warnings": 1,
+      "state": "machine-clean"
      }
     },
     {
@@ -754,10 +767,10 @@
      "input": null,
      "standardized": false,
      "checked": {
-      "ok": false,
-      "failures": 4,
+      "ok": true,
+      "failures": 0,
       "warnings": 2,
-      "state": "not-standardised"
+      "state": "machine-clean"
      }
     },
     {
@@ -1531,6 +1544,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-09-15 03:00 UTC",
+ "checked_at": "2026-09-16 03:00 UTC",
  "spec": "A-2.3-Y1-4"
 }
