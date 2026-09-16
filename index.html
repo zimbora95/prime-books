@@ -739,6 +739,15 @@
       .ff-shelf {
         grid-template-columns: repeat(auto-fill, minmax(392px, 1fr)) !important;
       }
+      /* a card on this shelf is a link to the book's own address */
+      .ff-card .bcov,
+      .ff-card .ftitle,
+      .ff-card .view3d {
+        cursor: pointer;
+      }
+      .ff-card:hover .ftitle {
+        color: var(--red, #c0281f);
+      }
       .book-card .ftitle {
         margin: 10px 2px 8px;
         font-size: 15px;
@@ -5969,14 +5978,23 @@ function rr(x, px, py, w, h, r) {
         catCount.textContent = rows.length + (rows.length === 1 ? " book" : " books");
         /* A card here names a book by SLUG: that is the identity a standardised
            edition has, whereas the catalogue's Year|Subject keys point at the
-           masters. The handler lives on the shelf because renderCatalogue()
+           masters. On /finished a card is a LINK: it goes to the book's own
+           address, /finished/book/<year>-<subject>-standard, which is where the
+           teacher expects to arrive and where the URL can be copied, kept or
+           sent on. The handler lives on the shelf because renderCatalogue()
            returns before its own delegation is attached - without this the
            shelf renders and answers nothing. */
         catBody.onclick = (e) => {
           const s = e.target.closest("[data-slug]");
-          if (!s || !window.PBLibrary || !window.PBLibrary.openSlug) return;
+          if (!s) return;
+          const slug = s.getAttribute("data-slug");
+          if (PB_FINISHED) {
+            window.location.assign("/finished/book/" + encodeURIComponent(slug));
+            return;
+          }
+          if (!window.PBLibrary || !window.PBLibrary.openSlug) return;
           closeCatalogue();
-          window.PBLibrary.openSlug(s.getAttribute("data-slug"));
+          window.PBLibrary.openSlug(slug);
         };
       }
 
