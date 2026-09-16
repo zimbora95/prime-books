@@ -9,7 +9,7 @@
     4
   ],
   "locked_on": "2026-09-14",
-  "revision_note": "A-2.3 supersedes A-2.2: adds the identity layer. The standard fixes the architecture and frees the identity, so no two Prime Books titles may read as the same book with a different subject on the cover. The teacher asked for award-winning books, not a template. 15 September 2026: UNIT 0 and UNIT 7 rungs added (teal, slate) and the contents page re-set as eight cards; running head removed from the shell pages.",
+  "revision_note": "A-2.3 supersedes A-2.2: adds the identity layer. The standard fixes the architecture and frees the identity, so no two Prime Books titles may read as the same book with a different subject on the cover. The teacher asked for award-winning books, not a template. 15 September 2026: UNIT 0 and UNIT 7 rungs added (teal, slate) and the contents page re-set as eight cards; running head removed from the shell pages. 16 September 2026: the illustration style is locked in the standard itself - an original Beatrix Potter direction, with Music & Drama Year 1 named as the on-model book for comparison, and each title inventing its own cast and its own place.",
   "scope": {
     "years": [
       1,
@@ -403,6 +403,19 @@
   },
   "illustration": {
     "direction": "original Beatrix Potter style: fine ink contours, transparent watercolour, warm muted pigments, lightly textured cream paper",
+    "style_lock": "the illustration style is fixed for the whole of Years 1-4 and is the same in every subject: an original Beatrix Potter direction, never photorealistic, never 3D or digital-flat, never a modern cartoon",
+    "on_model_reference": {
+      "slug": "y01-music-and-drama",
+      "why": "Music & Drama Year 1 is the on-model book: when a new plate is generated, compare it against this book's plates before it is placed, and regenerate until the light, the pigments and the weight of the ink contour match",
+      "compare": "cream paper, transparent washes, fine ink contour, warm muted palette, small knitted clothes on the animals, soft natural light"
+    },
+    "must_not": [
+      "photorealistic rendering, studio lighting or hard digital gradients",
+      "flat vector or clip-art shapes, thick uniform outlines, oversaturated colour",
+      "modern objects: no phones, cars, plastic bottles, trainers, logos, signage",
+      "any lettering, word, number or signature inside the picture"
+    ],
+    "per_book_cast": "each book invents its own named cast and its own place, in this same style; a cast is never re-used from another book, and this book's art is never re-used in another book",
     "palette": [
       "#FBF6EC",
       "#A8BF9B",
