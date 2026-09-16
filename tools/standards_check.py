@@ -275,6 +275,95 @@ def _check(doc, slug, lk, year=None) -> dict:
         w.append("extent %d is not a legal BookVault count; nearest are %s"
                  % (n, nearest_legal(n)))
 
+    # 8. no half-blank pages ------------------------------------------------
+    # The teacher's rule: a page that stops two thirds of the way down reads as
+    # an unfinished print file. Measured from the RENDERED page, never from the
+    # elements that claim to have drawn it - an empty box drawn the width of the
+    # page is still a half-blank page, and a folio badge is text at the foot.
+    S = 0.5
+    skip = {0, n - 1} | {p - 1 for p in openers}
+    slack, blank = [], []
+    for i in range(n):
+        if i in skip:
+            continue
+        p = doc[i]
+        if is_flood(p) is not None:          # a full-bleed page IS its picture
+            continue
+        pix = p.get_pixmap(matrix=pymupdf.Matrix(S, S))
+        pw, ph, pn = pix.width, pix.height, pix.n
+        buf = pix.samples
+        counts = {}
+        for y in range(0, ph, 2):
+            row = y * pw * pn
+            for x in range(0, pw, 2):
+                k = buf[row + x * pn:row + x * pn + 3]
+                counts[k] = counts.get(k, 0) + 1
+        paper = max(counts.items(), key=lambda kv: kv[1])[0]
+        foot = min(int(CONTENT_BOX[3] * S), ph)
+        low, high = 0, 0
+        bleed = False
+        edges = [False, False]
+        for y in range(foot):
+            row = y * pw * pn
+            # any ink at all, against the page's own paper: a page whose last
+            # fifth carries nothing but paper is half blank whatever the layout
+            # claims to have drawn there. (A tint or a picture that reaches the
+            # foot IS ink, and a page built that way is not half blank.)
+            run = 0
+            for x in range(pw):
+                o = row + x * pn
+                if max(abs(buf[o] - paper[0]), abs(buf[o + 1] - paper[1]),
+                       abs(buf[o + 2] - paper[2])) > 24:
+                    run += 1
+                    right = x
+                    if run >= 2:             # ink, not noise
+                        low = max(low, y)
+                        high = max(high, right)
+                        if x <= 2:
+                            edges[0] = True
+                        if x >= pw - 3:
+                            edges[1] = True
+                else:
+                    run = 0
+            if edges[0] and edges[1] and (y < 3 or y > foot - 3):
+                bleed = True
+        if bleed:                            # a full-bleed page IS its picture
+            continue
+        gap = CONTENT_BOX[3] - low / S
+        gap_r = CONTENT_BOX[2] - high / S
+        if gap > 60 or gap_r > 62:
+            row = (i + 1, round(gap), round(gap_r))
+            (blank if gap > 200 or gap_r > 202 else slack).append(row)
+    facts["half_blank_pages"] = [b[0] for b in blank][:12]
+    facts["pages_ending_short"] = [s[0] for s in slack][:12]
+    if blank:
+        f.append("%d page(s) stop two thirds of the way down - the teacher's rule is "
+                 "that no page is left half blank: %s (empty paper at the foot in pt: %s)"
+                 % (len(blank), [b[0] for b in blank][:8], [(b[0], b[1]) for b in blank][:8]))
+    if slack:
+        w.append("%d page(s) end a little short of the foot: %s"
+                 % (len(slack), [(s[0], s[1]) for s in slack][:8]))
+
+    # 9. every task item carries its plate -----------------------------------
+    # A task page reserves a picture column beside each numbered item. A page
+    # that names four items and carries three plates shows the child an empty
+    # rectangle where a picture should be - the same defect that a missing
+    # third-step plate was in the reference edition.
+    item_pages = []
+    for i in range(n):
+        txt = doc[i].get_text()
+        items = txt.count("Tries")
+        if not items:
+            continue
+        plates = len(doc[i].get_images(full=True))
+        if items > plates:
+            item_pages.append((i + 1, items, plates))
+    facts["task_items_without_a_plate"] = [
+        {"page": pg, "items": it, "plates": pl} for pg, it, pl in item_pages][:12]
+    if item_pages:
+        f.append("%d task page(s) have an item with no plate beside it "
+                 "(page, items, plates): %s" % (len(item_pages), item_pages[:8]))
+
     facts["manual_checks_still_required"] = [
         "teacher content preserved on its page",
         "reading size approved for the year",
