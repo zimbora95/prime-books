@@ -350,7 +350,7 @@ td b{font-family:Fredoka,sans-serif; font-weight:600}
   <div class="stations">
     <div class="station fixed"><i>1</i><b>Cover</b><span>Full-bleed art, year stripe, no folio.</span></div>
     <div class="station fixed"><i>2</i><b>Imprint</b><span>Publisher, year, tagline, INSIDE THIS BOOK, imprint rows, AI disclosure when generated art is used.</span></div>
-    <div class="station fixed"><i>3</i><b>Contents</b><span>Colour bar, one segment per unit, then one card per unit.</span></div>
+    <div class="station fixed"><i>3</i><b>Contents</b><span>Colour bar, one segment per block, then one card per block: front matter as Unit 0, each unit, back matter as Unit 7.</span></div>
     <div class="station fixed"><i>4</i><b>Welcome</b><span>Invitation, then this subject's own cast: named, dressed for the subject.</span></div>
     <div class="station fixed"><i>5</i><b>How to use</b><span>Labels, icons and meanings defined once, including QR codes in class.</span></div>
     <div class="station fixed"><i>6–7</i><b>Preparation and safety</b><span>Materials, practical safety, picture vocabulary.</span></div>
@@ -506,19 +506,24 @@ td b{font-family:Fredoka,sans-serif; font-weight:600}
       inside the safe area, with the space the old tracked eyebrow wasted handed back to the teaching.</figcaption>
     </figure>
     <figure class="plate">
-      <img src="/standards/art/y1-4-contents-mock.webp" alt="Prime Books contents page: colour bar with one segment per unit, then one tinted card per unit">
+      <img src="/standards/art/y1-4-contents-mock.webp" alt="Prime Books contents page: colour bar with one segment per block, numbered 0 to 7, then eight tinted cards - Unit 0 first, Unit 7 last, with dot-leader page rows">
       <figcaption><b>The contents page is the book's business card.</b> A colour bar with one segment per
-      unit — never a fixed six — then one tinted card per unit, and plain dot-leader rows underneath for the
-      glossary and the references.</figcaption>
+      block — never a fixed six — then one tinted card per block: the front matter as <b>Unit 0</b>, each
+      unit in turn, and the back matter as <b>Unit 7</b> in the last cell, its page rows on dot leaders
+      inside the card. No running head on this page: the space goes to the cards.</figcaption>
     </figure>
   </div>
 
   <h4>The contents page</h4>
   <ul class="check">
-    <li>Page 3, always. One colour bar segment per unit, equal width.</li>
+    <li>Page 3, always. One colour bar segment per block, equal width, numbered from 0 to the last unit.</li>
     <li>One card per unit: <b>UNIT n</b>, its start page, its name, a one-line strand summary, its topic rows,
     and <i>Unit n, How did it go?</i></li>
-    <li>Front and back matter as plain dot-leader rows, glossary and references included.</li>
+    <li>The two ends of the book are cards, not loose rows: the front matter is <b>Unit 0</b> and the back
+    matter is <b>Unit 7</b>, each in its own rung of the palette, <b>Unit 7 last, after the final unit</b>.
+    They carry a page range rather than a start page, and their rows keep dot leaders, because those rows
+    are pages rather than topics.</li>
+    <li>All eight cards share one height and one row pitch, so the grid lines up across the page.</li>
     <li>Every page number read out of the built PDF and verified against the real index. Nothing typed by hand.</li>
   </ul>
 
@@ -742,9 +747,11 @@ Page map    cover, imprint, contents, welcome and cast, how to use, preparation 
             sources and link list, closing reflection, back cover.
 Unit order  opener, get started, concept and model, your turn, extension (only if the
             subject needs one), applied project, reflection, word bank.
-Contents    page 3: one colour bar segment per unit, then one tinted card per unit with
-            its start page, name, strand summary and topic rows; page numbers read out
-            of the built PDF. Never a fixed six segments.
+Contents    page 3: one colour bar segment per block, then one tinted card per block - the
+            front matter as UNIT 0, each unit in turn, the back matter as UNIT 7 last -
+            each with its page range or start page, name, strand summary and topic rows;
+            page numbers read out of the built PDF. Never a fixed six segments, and no
+            running head on this page.
 Unit name   printed ONCE at the top of a unit page. On a topic page the running head
             carries 'Unit n, name' and the kicker carries 'UNIT n, TOPIC x.y'.
 Rhythm      at least four distinct page types per unit, exactly one signature page and

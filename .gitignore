@@ -84,3 +84,7 @@ dist/
 # on demand and served through the live tunnel.
 public/library/*/bookvault/*.pdf
 public/library/*/bookvault/*.png
+
+# superseded builds of a standardised edition: kept on disk beside the live book so the
+# bytes survive, but never deployed (the reader must not fetch an old shell)
+public/library/*/archive/
