@@ -35,6 +35,42 @@ TARGET_H = 900                # common figure height, for one baseline
 PAD = 6
 
 
+def defringe(out, tol=60.0):
+    """Unmix the paper out of the antialiased silhouette edge.
+
+    The flood fill leaves the blend between figure and paper opaque: those
+    pixels are (paper * (1-a) + figure * a) for the coverage a. Over cream paper
+    they disappear; over WHITE they read as a pale box, which is exactly the
+    defect the teacher's eye catches. Recovering the figure's own colour from
+    the blend removes the paper from the edge, so the cut is clean on any
+    background - the panel can then be white, as asked.
+    """
+    px = out.load()
+    w, h = out.size
+    fixed = 0
+    for y in range(1, h - 1):
+        for x in range(1, w - 1):
+            r, g, b, a = px[x, y]
+            if a == 0:
+                continue
+            if min(px[x + dx, y + dy][3]
+                   for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))) == 255:
+                continue                     # interior: nothing to unmix
+            # only touch pixels that are plausibly a paper blend
+            if max(abs(r - BG[0]), abs(g - BG[1]), abs(b - BG[2])) > tol:
+                continue
+            af = a / 255.0
+            if af <= 0.05:
+                px[x, y] = (0, 0, 0, 0)
+                fixed += 1
+                continue
+            px[x, y] = tuple(
+                min(255, max(0, round((c - (1 - af) * bgc) / af)))
+                for c, bgc in zip((r, g, b), BG)) + (a,)
+            fixed += 1
+    return fixed
+
+
 def cut(path):
     im = Image.open(path).convert("RGB")
     w, h = im.size
@@ -60,10 +96,12 @@ def cut(path):
     mask = mask.filter(ImageFilter.MinFilter(5)).filter(ImageFilter.GaussianBlur(0.6))
     out = im.convert("RGBA")
     out.putalpha(mask)
+    removed = defringe(out)
     bbox = out.getbbox()
     if not bbox:
         raise SystemExit(f"{path}: nothing left after the cut")
     out = out.crop(bbox)
+    print(f"  defringe: {removed} edge pixels unmixed in {os.path.basename(path)}")
     return out, bbox
 
 
@@ -110,10 +148,11 @@ def main():
     json.dump(cast, open(castpath, "w"), indent=1)
 
     if check:
-        # contact sheet over the page's own tint, where a halo would show
+        # contact sheet on WHITE - the panel is white now, and white is where a
+        # surviving thread of cream paper shows
         band = Image.new("RGB", (sum(Image.open(f.replace('.png', '-cut.png')).width
                                      for f, _ in cut_files) + 40, TARGET_H + 80),
-                         (251, 240, 216))
+                         (255, 255, 255))
         x = 20
         for f, _ in cut_files:
             im = Image.open(f.replace(".png", "-cut.png"))

@@ -48,12 +48,28 @@ OCHRE = "#9A6A12"                         # house ochre mid: publisher furniture
 # the art's own paper: the cut portraits were painted on (249,243,230), so a panel
 # in exactly that colour shows no seam where a thread of paper survives the cut
 PAPER = "#F9F3E6"
+HAIR = "#D9CFB8"                          # the hairline round a white card
+
+# ---- contents grid geometry -------------------------------------------------
+# One row pitch for unit topics AND for the book-end cards' page rows, so the
+# eight cards line up across the page. The card is tall enough that the last row
+# of the fullest card sits a clear line above the card's bottom edge: the teacher
+# caught 'Watch and learn (for the teacher) 97' touching the edge of the Unit 7
+# box, and the same bottom padding now applies to every card.
+ROW_STEP = 9.2
+CARD_HEAD = 62.0                 # first row baseline, measured from the card's top
+CARD_PAD = 11.0                  # clear space under every card's last line
+CARD_H = 137.5
+VGAP = 6.0                       # between card rows (HALF the column gap is 17)
 RUNGS = {r["unit"]: r for r in T["unit_palette"]["rungs"]}
 W, H = T["geometry"]["authoring_page_pt"]
 TOP = 60.0
 BOTTOM = 726.0
 GUTTER = 56.7                             # 20 mm from the binding edge
-TRIM_SAFETY = 14.2                        # 5 mm from the other three edges
+TRIM_SAFETY = 42.0                        # the outer margin the house gate enforces
+                                          # (the standard's 5 mm trim safety is a
+                                          # crop margin, not a text margin: type set
+                                          # to it trips 'text outside the content box')
 FOLIO = T["geometry"]["folio_centre_pt"]
 FOLIO_D = T["geometry"]["folio_diameter_pt"]
 YEAR = 1
@@ -165,7 +181,7 @@ def badge(page, x, y, label, fill, numeral):
                      color=numeral)
 
 
-def matter_card(page, rect, rung, box, eyebrow, title, span, summary, rows, row_step=9.6):
+def matter_card(page, rect, rung, box, eyebrow, title, span, summary, rows, row_step=ROW_STEP):
     """One of the two book-end cards: a heading, then the page's own list.
 
     Laid out exactly like a unit card - colour bar on the leading edge, eyebrow
@@ -181,16 +197,16 @@ def matter_card(page, rect, rung, box, eyebrow, title, span, summary, rows, row_
     page.draw_rect(pymupdf.Rect(cx, cy, cx + 3.5, cy + card_h),
                    color=None, fill=rgb(rung["mid"]))
     tx = cx + 14
-    page.insert_text((tx, cy + 19), eyebrow, fontname="fredoka", fontsize=9.5,
+    page.insert_text((tx, cy + 18), eyebrow, fontname="fredoka", fontsize=9.5,
                      color=rgb(rung["deep"]))
-    right(page, span, "andika", 8.5, cx + card_w - 12, cy + 19, rgb(MUTED))
-    page.insert_text((tx, cy + 37), title, fontname="fredoka", fontsize=13.5,
+    right(page, span, "andika", 8.5, cx + card_w - 12, cy + 18, rgb(MUTED))
+    page.insert_text((tx, cy + 35), title, fontname="fredoka", fontsize=13.5,
                      color=rgb(rung["deep"]))
     sum_lines = wrap(summary, "andika", 8.5, card_w - 28)[:1]
     if sum_lines:
-        page.insert_text((tx, cy + 50), sum_lines[0], fontname="andika",
+        page.insert_text((tx, cy + 48), sum_lines[0], fontname="andika",
                          fontsize=8.5, color=rgb(MUTED))
-    y = cy + 56 + row_step
+    y = cy + CARD_HEAD
     for label, pg in rows:
         dot_row(page, label, pg, tx, cx + card_w - 12, y, "andika", 9, rgb(INK),
                 rgb(rung["deep"]))
@@ -207,13 +223,13 @@ def build_contents(doc):
 
     page.insert_text((x0, TOP + 2), "CONTENTS", fontname="fredoka", fontsize=9.5,
                      color=rgb(OCHRE))
-    page.insert_text((x0, TOP + 32), "What is inside?", fontname="fredoka",
+    page.insert_text((x0, TOP + 30), "What is inside?", fontname="fredoka",
                      fontsize=26, color=rgb(INK))
     # the master's own line, word for word, then one line naming the two book-end
     # cards so "six units" and "eight colours" do not contradict each other
-    page.insert_text((x0, TOP + 54), MODEL["lead"], fontname="andika", fontsize=14.5,
+    page.insert_text((x0, TOP + 51), MODEL["lead"], fontname="andika", fontsize=14.5,
                      color=rgb(INK))
-    page.insert_text((x0, TOP + 70),
+    page.insert_text((x0, TOP + 65),
                      "The pages before Unit 1 and the pages you come back to "
                      "have colours of their own.",
                      fontname="andika", fontsize=11.5, color=rgb(MUTED))
@@ -221,7 +237,7 @@ def build_contents(doc):
     # the colour bar: UNIT 0, the six units, UNIT 7 - one segment each
     units = MODEL["units"]
     keys = [0] + [u["unit"] for u in units] + [7]
-    bar_y, bar_h, gap = TOP + 80, 15.0, 4.0
+    bar_y, bar_h, gap = TOP + 72, 15.0, 4.0
     seg = (cw - gap * (len(keys) - 1)) / len(keys)
     for i, k in enumerate(keys):
         r = RUNGS[k]
@@ -237,10 +253,10 @@ def build_contents(doc):
     # contents reads in one pass: what comes before the work, the work, what is
     # there to come back to.
     card_w = (cw - 17) / 2
-    topic_step = 9.6
-    card_h = 56.0 + 6 * topic_step + 12.0 + 8.0
-    top = bar_y + bar_h + 14
-    vgap = 7.0
+    topic_step = ROW_STEP
+    card_h = CARD_H
+    top = bar_y + bar_h + 10
+    vgap = VGAP
 
     front = [(r["title"], 4 if r["title"] == "Welcome" else r["real_page"])
              for r in MODEL["front_matter"]
@@ -275,24 +291,27 @@ def build_contents(doc):
         page.draw_rect(pymupdf.Rect(cx, cy, cx + 3.5, cy + card_h),
                        color=None, fill=rgb(r["mid"]))
         tx = cx + 14
-        page.insert_text((tx, cy + 19), f"UNIT {u['unit']}", fontname="fredoka",
+        page.insert_text((tx, cy + 18), f"UNIT {u['unit']}", fontname="fredoka",
                          fontsize=9.5, color=rgb(r["deep"]))
         right(page, f"page {u['real_opener']}", "andika", 8.5, cx + card_w - 12,
-              cy + 19, rgb(MUTED))
-        page.insert_text((tx, cy + 37), u["name"], fontname="fredoka", fontsize=13.5,
+              cy + 18, rgb(MUTED))
+        page.insert_text((tx, cy + 35), u["name"], fontname="fredoka", fontsize=13.5,
                          color=rgb(r["deep"]))
         sum_lines = wrap(u["summary"], "andika", 8.5, card_w - 28)[:1]
         if sum_lines:
-            page.insert_text((tx, cy + 50), sum_lines[0], fontname="andika",
+            page.insert_text((tx, cy + 48), sum_lines[0], fontname="andika",
                              fontsize=8.5, color=rgb(MUTED))
-        ty = cy + 56 + topic_step
+        ty = cy + CARD_HEAD
         for t in u["topics"]:
             page.insert_text((tx, ty), t["title"], fontname="andika", fontsize=9,
                              color=rgb(INK))
             right(page, str(t["real_page"]), "andika", 9, cx + card_w - 12, ty,
                   rgb(r["deep"]))
             ty += topic_step
-        ty += 2
+        # the check row sits one clear line above the card's edge, the same
+        # distance from the edge as the last row of a full card - so the bottom
+        # padding is the same in every one of the eight boxes
+        ty = max(ty - topic_step + 12.0, cy + card_h - CARD_PAD)
         page.insert_text((tx, ty), u["check"], fontname="fredoka", fontsize=8.5,
                          color=rgb(r["deep"]))
         right(page, str(u["check_real_page"]), "andika", 9, cx + card_w - 12, ty,
@@ -322,13 +341,16 @@ def build_welcome(doc):
     slot = pymupdf.Rect(x0, TOP + 48, x1, TOP + 48 + hero_h)
     page.insert_image(slot, filename=ART + "/hero-meadow-3to1.png")
 
-    # the invitation, word for word from the approved page
+    # the invitation, word for word from the approved page, at the Year 1
+    # reading size the ladder sets (16 pt on 21 pt leading) rather than the
+    # master's 15 pt: never shrink to fit, and the modal size is what the gate
+    # measures against the year's rung
     prose_y = slot.y1 + 22
     for para in MODEL["welcome_paragraphs"]:
-        for ln in wrap(para, "andika", 14, cw):
-            page.insert_text((x0, prose_y), ln, fontname="andika", fontsize=14,
+        for ln in wrap(para, "andika", 16, cw):
+            page.insert_text((x0, prose_y), ln, fontname="andika", fontsize=16,
                              color=rgb(INK))
-            prose_y += 18.5
+            prose_y += 21.0
         prose_y += 6.0
 
     # this subject's own cast, two rows of three so the portraits are large
@@ -338,10 +360,12 @@ def build_welcome(doc):
     page.insert_text((x0, head_y), "THE SIX WHO MOVE WITH YOU", fontname="fredoka",
                      fontsize=9.5, color=rgb(OCHRE))
     band = pymupdf.Rect(x0, head_y + 10, x1, BOTTOM)
-    # the panel is the book's own paper, not a unit tint: the cut portraits carry
-    # a thread of their original cream paper, and on paper it disappears where on
-    # a tint it reads as a box. The teal of Unit 0 stays in the kicker.
-    rounded(page, band, rgb(PAPER), radius=0.03)
+    # The panel is WHITE, as asked: the cast is cut clean of its cream paper (the
+    # edge pixels are unmixed, not merely clipped), so white is the ground the
+    # portraits were drawn for. A hairline in the rule colour keeps the white card
+    # legible against the page's own paper tone.
+    rounded(page, band, (1, 1, 1), radius=0.03)
+    page.draw_rect(band, color=rgb(HAIR), width=0.6)
     cols, rows = 3, 2
     pad = 12.0
     gap_x, gap_y = 8.0, 12.0
