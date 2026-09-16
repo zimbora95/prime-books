@@ -718,6 +718,24 @@
         color: #6b7188;
         text-align: center;
       }
+      /* one page only, for a title still being written: the cover, held larger */
+      .fprev.one {
+        grid-template-columns: 1fr;
+        padding: 22px 74px;
+      }
+      .ff-card .fwtip {
+        display: inline-block;
+        margin-left: 9px;
+        padding: 2.5px 9px 3px;
+        border-radius: 999px;
+        background: #f3e3c4;
+        color: #8a5a1c;
+        font-size: 10.5px;
+        font-weight: 700;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        vertical-align: 2px;
+      }
       .ff-shelf {
         grid-template-columns: repeat(auto-fill, minmax(392px, 1fr)) !important;
       }
@@ -5838,6 +5856,13 @@ function rr(x, px, py, w, h, r) {
          putting one back is a one-word edit. */
       const PB_FINISHED_OFF = ["y07-art-and-design-standard"];
 
+      /* A title whose inside is being written at the moment is on the shelf, but
+         shown by its cover alone with "In progress" beside it: its three
+         standardised pages are not settled while the book is being rebuilt, so
+         they are not offered as if they were. Named here so taking a title out
+         of that state, or putting one into it, is a one-word edit. */
+      const PB_FINISHED_INPROGRESS = ["y01-physical-education-standard"];
+
       function pbFinishedRows() {
         const bySlug = {};
         LIBRARY_ROWS.forEach((r) => (bySlug[r.slug] = r));
@@ -5881,11 +5906,17 @@ function rr(x, px, py, w, h, r) {
           return;
         }
         rows.sort((a, b) => a.year - b.year || (a.subject || "").localeCompare(b.subject || ""));
+        /* The shelf shows the three pages the standard fixes: the front cover,
+           the imprint page and the back cover. A title whose inside is being
+           rebuilt at the moment is shown by its cover alone, marked as still in
+           progress, rather than pretending its three pages are settled. */
         const cap = ["Cover", "Page 2", "Back"];
         const cards = rows
           .map((r) => {
-            const p =
-              Array.isArray(r.preview) && r.preview.length === 3
+            const inProgress = PB_FINISHED_INPROGRESS.indexOf(r.slug) >= 0;
+            const p = inProgress
+              ? [r.cover || ""]
+              : Array.isArray(r.preview) && r.preview.length === 3
                 ? r.preview
                 : [r.cover || "", "", ""];
             const figs = p
@@ -5904,16 +5935,21 @@ function rr(x, px, py, w, h, r) {
               })
               .join("");
             return (
-              '<div class="book-card ff-card">' +
+              '<div class="book-card ff-card' +
+              (inProgress ? " wip" : "") +
+              '">' +
               '<div class="bcov" data-slug="' +
               r.slug +
-              '"><div class="fprev">' +
+              '"><div class="fprev' +
+              (inProgress ? " one" : "") +
+              '">' +
               figs +
               "</div></div>" +
               '<div class="ftitle">' +
               r.subject +
               " · Year " +
               r.year +
+              (inProgress ? '<span class="fwtip">In progress</span>' : "") +
               "</div>" +
               '<div class="foot-row">' +
               '<button class="view3d" data-slug="' +
