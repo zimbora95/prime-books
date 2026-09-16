@@ -459,10 +459,10 @@ a cone, and find out how fast your feet can go.
 <!-- page 9 -->
 
 ---
-**Have a look**
+**H A V E A L O O K**
 
-## How many ways can you cross the
-## meadow?
+## How many ways can you
+## cross the meadow?
 
 Pip runs. Bramble walks. Sorrel hops. Tuft rolls. Every body crosses
 the grass in its own way. Which way is yours?
@@ -477,18 +477,13 @@ the grass in its own way. Which way is yours?
 
 ## Walk, run, stop
 
-A walk has quiet feet. A run has
-fast feet. A stop is still feet, side
-by side. The chalk line shows you
-where to go.
-
 quiet feet
-
 fast feet
-
 still feet
-
 the chalk line
+
+A walk has quiet feet. A run has fast feet. A stop is still feet, side
+by side. The chalk line shows you where to go.
 
 **Say this**
 Say 'freeze' and hold your own hand up. Feet stop when the hand goes up.
@@ -508,11 +503,15 @@ Stop before you touch the cone.
 
 Draw your feet on the line. Mark where you stopped.
 
+**start**
+
 **11**
 
 <!-- page 12 -->
 
 ---
+**L O O K U P**
+
 ## Sorrel stops in one step. Watch her front paws.
 
 **12**
@@ -526,16 +525,22 @@ Draw your feet on the line. Mark where you stopped.
 ## Hop, skip, join
 
 ## 1
+Hop on one foot. Three hops,
+then swap.
 
-Hop on one foot. Three hops, then swap.
+**Tries**
 
 ## 2
+Skip to the bench. Skip all the
+way back.
 
-Skip to the bench. Skip all the way back.
+**Tries**
 
 ## 3
+Hold a partner's hand. Move
+together.
 
-Hold a partner's hand. Move together.
+**Tries**
 
 **13**
 
@@ -559,6 +564,8 @@ Which foot was easier?
 
 Draw yourself doing it
 
+**one foot**
+
 **14**
 
 <!-- page 15 -->
@@ -573,11 +580,19 @@ Do each one. Then circle how it felt.
 
 Fast feet
 
+**How did it feel?**
+
 Slow feet
+
+**How did it feel?**
 
 High jump
 
+**How did it feel?**
+
 Low crouch
+
+**How did it feel?**
 
 **15**
 
@@ -592,27 +607,24 @@ How did it go?
 Colour one circle for each line. There is no wrong answer here.
 
 I walked the line
-** **
-**~**
-**?**
+
+**Colour one face**
 
 I stopped on 'stop'
-** **
-**~**
-**?**
+
+**Colour one face**
 
 I hopped and skipped
-** **
-**~**
-**?**
+
+**Colour one face**
 
 I moved with a partner
-** **
-**~**
-**?**
+
+**Colour one face**
 
 **For the grown-up**
-If the class cannot stop on the word, clap instead of saying it - feet stop on the clap.
+If the class cannot stop on the word, clap instead of saying it - feet stop on the
+clap.
 
 **16**
 
@@ -650,18 +662,13 @@ will watch you.
 
 ## Names for my body
 
-Point to your head. Point to your
-arms. Point to your legs. Point to
-your feet. A watcher needs these
-four words.
-
 head
-
 arms
-
 legs
-
 feet
+
+Point to your head. Point to your arms. Point to your legs. Point
+to your feet. A watcher needs these four words.
 
 **Say this**
 Name the part as you touch it. The word lands better with a hand on it.
@@ -681,11 +688,15 @@ your arms, your legs and your feet.
 
 Draw your body. Say each part out loud.
 
+**start**
+
 **19**
 
 <!-- page 20 -->
 
 ---
+**L O O K U P**
+
 ## Willow watches first. Then she says exactly what
 ## she saw.
 
@@ -700,16 +711,21 @@ Draw your body. Say each part out loud.
 ## Watch, then copy
 
 ## 1
+Watch the shape. Say what
+you see.
 
-Watch the shape. Say what you see.
+**Tries**
 
 ## 2
-
 Copy the shape. Hold it still.
 
-## 3
+**Tries**
 
-Let a partner copy you. Watch them do it.
+## 3
+Let a partner copy you. Watch
+them do it.
+
+**Tries**
 
 **21**
 
@@ -725,11 +741,19 @@ Do each one. Then circle how ready it felt.
 
 Standing tall
 
+**How did it feel?**
+
 Looking ahead
+
+**How did it feel?**
 
 Feet apart
 
+**How did it feel?**
+
 Quiet hands
+
+**How did it feel?**
 
 **22**
 
@@ -752,6 +776,8 @@ to five. Then swap and copy their shape.
 What shape did you make?
 
 Draw yourself doing it
+
+**one foot**
 
 **23**
 
@@ -820,16 +846,12 @@ move like the weather.
 
 ## Shapes you invent
 
-Stand tall like a tree. Curl small
-like a stone. Stretch long like a
-bridge. Your body can make any
-shape you think of.
-
 tree
-
 stone
-
 bridge
+
+Stand tall like a tree. Curl small like a stone. Stretch long like a
+bridge. Your body can make any shape you think of.
 
 **Say this**
 Ask for one shape at a time, and let the class hold it while you count to three.
@@ -839,6 +861,8 @@ Ask for one shape at a time, and let the class hold it while you count to three.
 <!-- page 27 -->
 
 ---
+**L O O K U P**
+
 ## The wind makes shapes too. Watch the leaves go.
 
 **27**
@@ -855,6 +879,8 @@ Pick up a hoop. Make a shape with it. Try three
 different shapes.
 
 Draw the best shape you made with the hoop.
+
+**start**
 
 **28**
 
@@ -912,6 +938,8 @@ Which weather shape was easiest?
 
 Draw yourself doing it
 
+**one foot**
+
 **30**
 
 <!-- page 31 -->
@@ -927,17 +955,27 @@ voice.
 
 Rain
 
+**How did it feel?**
+
 Wind
+
+**How did it feel?**
 
 Tree
 
+**How did it feel?**
+
 Stone
+
+**How did it feel?**
 
 **31**
 
 <!-- page 32 -->
 
 ---
+**L O O K U P**
+
 ## Rain makes every shape the same shape. Water
 ## finds the low place.
 
@@ -975,21 +1013,17 @@ job matters.
 
 ## Three jobs
 
-The thrower sends the ball. The
-catcher waits with two hands
-ready. The collector keeps the
-bean bags in the basket. Three
-jobs, one game.
-
 thrower
-
 catcher
-
 collector
 
+The thrower sends the ball. The catcher waits with two hands
+ready. The collector keeps the bean bags in the basket. Three
+jobs, one game.
+
 **Say this**
-Give every child a job name before the game starts. A child with a job joins in without being
-asked.
+Give every child a job name before the game starts. A child with a job joins in
+without being asked.
 
 **34**
 
@@ -1006,11 +1040,19 @@ say: can I play?
 
 I stood where I could be seen
 
+**How did it feel?**
+
 I waited for a gap
+
+**How did it feel?**
 
 I asked to play
 
+**How did it feel?**
+
 I took my turn
+
+**How did it feel?**
 
 **35**
 
@@ -1023,16 +1065,22 @@ I took my turn
 ## Your turn to lead
 
 ## 1
+Choose one game. Say the
+rules out loud.
 
-Choose one game. Say the rules out loud.
+**Tries**
 
 ## 2
+Show the start line and the
+finish line.
 
-Show the start line and the finish line.
+**Tries**
 
 ## 3
+Say 'go'. Then play with
+everyone else.
 
-Say 'go'. Then play with everyone else.
+**Tries**
 
 **36**
 
@@ -1056,11 +1104,15 @@ What did the others say?
 
 Draw yourself doing it
 
+**one foot**
+
 **37**
 
 <!-- page 38 -->
 
 ---
+**L O O K U P**
+
 ## A red ball, in the air, for one moment.
 
 **38**
@@ -1077,11 +1129,19 @@ Listen to the whole instruction first. Then move.
 
 I listened to the end
 
+**How did it feel?**
+
 I moved after the word go
+
+**How did it feel?**
 
 I knew my job
 
+**How did it feel?**
+
 I helped pack away
+
+**How did it feel?**
 
 **39**
 
@@ -1096,34 +1156,32 @@ How did it go?
 Colour one circle for each line. There is no wrong answer here.
 
 I joined in
-** **
-**~**
-**?**
+
+**Colour one face**
 
 I took a job in the game
-** **
-**~**
-**?**
+
+**Colour one face**
 
 I took my turn
-** **
-**~**
-**?**
+
+**Colour one face**
 
 I led one turn
-** **
-**~**
-**?**
+
+**Colour one face**
 
 **For the grown-up**
-If a child will not join in, give them the job of collector and no other words. The job is the
-invitation.
+If a child will not join in, give them the job of collector and no other words. The job
+is the invitation.
 
 **40**
 
 <!-- page 41 -->
 
 ---
+**L O O K U P**
+
 ## Everyone sits down at the end. The grass is still.
 
 **41**
@@ -1165,11 +1223,19 @@ swap.
 
 We decided who was first
 
+**How did it feel?**
+
 We swapped without being asked
+
+**How did it feel?**
 
 We both had the same time
 
+**How did it feel?**
+
 We put the hoop back
+
+**How did it feel?**
 
 **43**
 
@@ -1181,16 +1247,12 @@ We put the hoop back
 
 ## Carrying kit
 
-A hoop goes at your side, both
-paws on it. A bench takes two
-carriers, one at each end. A mat
-rolls, it does not drag.
-
 hoop at your side
-
 bench with two carriers
-
 mats roll
+
+A hoop goes at your side, both paws on it. A bench takes two
+carriers, one at each end. A mat rolls, it does not drag.
 
 **Say this**
 Give the heavy things two carriers every time, and say who carries which end.
@@ -1200,6 +1262,8 @@ Give the heavy things two carriers every time, and say who carries which end.
 <!-- page 45 -->
 
 ---
+**L O O K U P**
+
 ## The hall, when everyone has gone home.
 
 **45**
@@ -1223,6 +1287,8 @@ down where it belongs. Then do it again, faster.
 Who carried which end?
 
 Draw yourself doing it
+
+**one foot**
 
 **46**
 
@@ -1273,17 +1339,27 @@ ask. Both are the right thing to do.
 
 I asked for help
 
+**How did it feel?**
+
 I helped someone else
+
+**How did it feel?**
 
 I said a kind word
 
+**How did it feel?**
+
 I packed away
+
+**How did it feel?**
 
 **48**
 
 <!-- page 49 -->
 
 ---
+**L O O K U P**
+
 ## Rowan holds the door open. Everybody goes out.
 
 **49**
@@ -1322,20 +1398,16 @@ when to drink.
 
 ## What changes
 
-Your heart goes faster. Your
-breath gets quicker. Your face
-goes warm. That is your body
-working well.
-
 heart faster
-
 breath quicker
-
 face warm
 
+Your heart goes faster. Your breath gets quicker. Your face goes
+warm. That is your body working well.
+
 **Say this**
-Put a hand on your own chest and ask the class to copy you. Then wait in silence while everyone
-feels it.
+Put a hand on your own chest and ask the class to copy you. Then wait in silence
+while everyone feels it.
 
 **51**
 
@@ -1351,17 +1423,27 @@ Move fast for one minute. Then stop and feel.
 
 My heart felt faster
 
+**How did it feel?**
+
 My breath felt quicker
+
+**How did it feel?**
 
 My face felt warm
 
+**How did it feel?**
+
 I needed a rest
+
+**How did it feel?**
 
 **52**
 
 <!-- page 53 -->
 
 ---
+**L O O K U P**
+
 ## Six bodies, still, looking at clouds.
 
 **53**
@@ -1375,16 +1457,21 @@ I needed a rest
 ## Rest, then go again
 
 ## 1
+Move until your breath is
+quick.
 
-Move until your breath is quick.
+**Tries**
 
 ## 2
-
 Stop. Put a paw on your chest.
 
-## 3
+**Tries**
 
-Breathe slowly. Count four in, four out.
+## 3
+Breathe slowly. Count four in,
+four out.
+
+**Tries**
 
 **54**
 
@@ -1408,6 +1495,8 @@ How many breaths before you felt calm?
 
 Draw yourself doing it
 
+**one foot**
+
 **55**
 
 <!-- page 56 -->
@@ -1422,6 +1511,8 @@ Draw your face before you move. Draw your face
 after you move.
 
 Draw both faces. Circle the one that is warmer.
+
+**start**
 
 **56**
 
@@ -1462,6 +1553,8 @@ slow breath, quiet body
 <!-- page 58 -->
 
 ---
+**L O O K U P**
+
 ## A cup of water on the bench. Cold, and full.
 
 **58**
