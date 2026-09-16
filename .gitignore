@@ -87,3 +87,7 @@ public/library/*/bookvault/*.png
 
 # local-only pre-normalisation copies of the input spreadsheets (git history is the real backup)
 public/inputs/.backup-original/
+
+# superseded builds of a standardised edition: kept on disk beside the live book so the
+# bytes survive, but never deployed (the reader must not fetch an old shell)
+public/library/*/archive/

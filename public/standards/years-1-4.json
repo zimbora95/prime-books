@@ -9,7 +9,7 @@
     4
   ],
   "locked_on": "2026-09-14",
-  "revision_note": "A-2.3 supersedes A-2.2: adds the identity layer. The standard fixes the architecture and frees the identity, so no two Prime Books titles may read as the same book with a different subject on the cover. The teacher asked for award-winning books, not a template.",
+  "revision_note": "A-2.3 supersedes A-2.2: adds the identity layer. The standard fixes the architecture and frees the identity, so no two Prime Books titles may read as the same book with a different subject on the cover. The teacher asked for award-winning books, not a template. 15 September 2026: UNIT 0 and UNIT 7 rungs added (teal, slate) and the contents page re-set as eight cards; running head removed from the shell pages.",
   "scope": {
     "years": [
       1,
@@ -217,8 +217,17 @@
     "basis": "adopted defaults for Years 1 to 4, advisory while a book is being authored, re-measured after the first Year 1 book is rebuilt"
   },
   "unit_palette": {
-    "rule": "unit n takes rung n in every book of the series, so the same unit number is the same colour in every subject",
+    "rule": "unit n takes rung n in every book of the series, so the same unit number is the same colour in every subject. Rungs 0 and 7 are the book's two ends: the front matter card and the back matter card on the contents page, so a reader sees the whole book as eight coloured blocks - what comes before the work, the six units, what is there to come back to.",
     "rungs": [
+      {
+        "unit": 0,
+        "name": "teal",
+        "deep": "#0F514B",
+        "mid": "#1C7A72",
+        "tint": "#E2F1EF",
+        "role": "front matter, the pages before the first unit",
+        "basis": "added 15 September 2026 at the teacher's brief, white on mid 5.15:1, against the six unit rungs the nearest is blue (#1256B8)"
+      },
       {
         "unit": 1,
         "name": "violet",
@@ -266,6 +275,15 @@
         "mid": "#9A6A12",
         "tint": "#FBF0D8",
         "basis": "locked 14 September 2026, mid set to the house ochre for 4.73:1 on a white numeral"
+      },
+      {
+        "unit": 7,
+        "name": "slate",
+        "deep": "#3B4263",
+        "mid": "#5A6486",
+        "tint": "#E9EAF1",
+        "role": "back matter, the pages you come back to",
+        "basis": "added 15 September 2026 at the teacher's brief, white on mid 5.83:1, against the six unit rungs the nearest is sage (#4E7C52)"
       }
     ]
   },
@@ -351,8 +369,8 @@
   ],
   "contents_component": {
     "physical_page": 3,
-    "form": "one colour bar segment per unit, then one tinted card per unit",
-    "segment_count": "equals the number of units, never fixed at six",
+    "form": "one colour bar segment per block (UNIT 0, the units, UNIT 7), then one tinted card per block in the same order",
+    "segment_count": "equals the number of units plus two, never fixed at six",
     "card_rows": [
       "UNIT n",
       "unit start page",
@@ -361,8 +379,9 @@
       "topic rows",
       "Unit n, How did it go?"
     ],
-    "front_and_back_matter": "plain dot-leader rows, including the glossary and the references section",
-    "page_numbers": "generated from the built PDF and verified against the real page index"
+    "front_and_back_matter": "not loose rows: the front matter is the UNIT 0 card and the back matter the UNIT 7 card, in their own rungs, with plain dot-leader rows inside the card (the glossary and the references section included)",
+    "running_head": "none on this page: the reader has just opened the book and BookVault wants the gutter clear, so the space goes to the cards",
+    "page_numbers": "generated from the built PDF and verified against the real page index; where the master's own contents page disagrees, the verified number wins"
   },
   "welcome_cast": {
     "rule": "every subject has its OWN cast, named and dressed for that subject. No shared six across the year group",

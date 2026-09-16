@@ -75,26 +75,29 @@ other publisher.
 <!-- page 3 -->
 
 ---
-**Prime School Press**
-Physical Education · Year 1
-
 **CONTENTS**
-
 ## What is inside?
 
 Six units, one after another. Every unit has its own colour.
+The pages before Unit 1 and the pages you come back to have colours of their own.
 
+**0**
 **1**
 **2**
 **3**
 **4**
 **5**
 **6**
+**7**
 
-**THE BOOK AROUND THE UNITS**
+**UNIT 0**
+pages 4–11
+**Getting started**
+
+The book itself, and how to use it.
+
 Welcome
 4
-
 The year at a glance
 5
 Welcome to the meadow
@@ -108,26 +111,10 @@ Getting set up
 The hall, and safety first
 11
 
-Look back: the whole year
-86
-Words we used (1)
-88
-Words we used (2)
-89
-Answers for every unit (1)
-90
-Answers for every unit (2)
-90
-Where the facts came from
-93
-Our sources
-95
-Watch and learn (for the teacher)
-97
-
 **UNIT 1**
 page 12
-## Moving Well
+**Moving Well**
+
 Space, walking, running, stopping, skipping.
 
 1.1  Space, walk, run, stop
@@ -143,7 +130,8 @@ Space, walking, running, stopping, skipping.
 
 **UNIT 2**
 page 27
-## Understanding Movement
+**Understanding Movement**
+
 Words for a body, watching, copying, one rule.
 
 2.1  Words for a body
@@ -159,7 +147,8 @@ Words for a body, watching, copying, one rule.
 
 **UNIT 3**
 page 38
-## Moving Creatively
+**Moving Creatively**
+
 New shapes, kit ideas, answering with a body.
 
 3.1  New shapes
@@ -175,7 +164,8 @@ New shapes, kit ideas, answering with a body.
 
 **UNIT 4**
 page 49
-## Taking Part
+**Taking Part**
+
 Joining in, jobs in a game, leading a turn.
 
 4.1  Joining in
@@ -195,7 +185,8 @@ Joining in, jobs in a game, leading a turn.
 
 **UNIT 5**
 page 62
-## Taking Responsibility
+**Taking Responsibility**
+
 Sharing, kit, fair play, asking for help.
 
 5.1  Share and take turns
@@ -213,7 +204,8 @@ Sharing, kit, fair play, asking for help.
 
 **UNIT 6**
 page 74
-## Healthy Bodies
+**Healthy Bodies**
+
 What moving changes, how hard is hard enough.
 
 6.1  What changes when you move
@@ -231,64 +223,77 @@ What moving changes, how hard is hard enough.
 **Unit 6 · How did it go?**
 85
 
+**UNIT 7**
+pages 86–97
+**Looking back**
+
+The words, the answers, the sources.
+
+Look back: the whole year
+86
+Words we used (1)
+88
+Words we used (2)
+89
+Answers for every unit (1)
+90
+Answers for every unit (2)
+91
+Where the facts came from
+93
+Our sources
+95
+Watch and learn (for the teacher)
+97
+
 **3**
 
 <!-- page 4 -->
 
 ---
-**Prime School Press**
-Physical Education · Year 1
-
-**WELCOME**
-
+**GETTING STARTED**
 ## Welcome
 
-Behind the school there is a meadow. Grass, little flowers, room to run.
-When it rains, there is the hall instead: wooden floor, wall bars, mats in
-a stack. This book uses both places, and the jobs do not change.
+Behind the school there is a meadow. Grass, little flowers, room to run. When it
+rains, there is the hall instead: wooden floor, wall bars, mats in a stack. This book
+uses both places, and the jobs do not change.
 
-You will move. You will watch. You will take turns. You will stop when
-the teacher says stop.
+You will move. You will watch. You will take turns. You will stop when the teacher
+says stop.
 
-Success in this book is trying, looking after a partner, and leaving the
-space tidy.
+Success in this book is trying, looking after a partner, and leaving the space tidy.
 
 **THE SIX WHO MOVE WITH YOU**
 
 **Pip**
-A red squirrel in a
-mustard jumper. He
+A red squirrel in a mustard jumper. He
+
 tries first.
 
 **Bramble**
-A badger in a teal
-jacket. Steady, and he
+A badger in a teal jacket. Steady, and he
+
 likes to count.
 
 **Sorrel**
-A brown hare in an
-olive vest. She is fast.
+A brown hare in an olive vest. She is fast.
 
 **Tuft**
-A small hedgehog in a
-terracotta vest.
-Careful.
+A small hedgehog in a terracotta
+
+vest. Careful.
 
 **Willow**
-A barn owl. She
-watches, and says
-what she saw.
+A barn owl. She watches, and says what
+
+she saw.
 
 **Rowan**
-An otter in a green
-vest. He likes games
+An otter in a green vest. He likes games
+
 with a ball.
 
-For teachers: nothing in this book is a test. How did it go? is the pupil's own check. Every task assumes a teacher present,
-a space checked before the lesson and apparatus set out by an adult.
-
 www.primeschool.pt
-
 **4**
 
 <!-- page 5 -->
