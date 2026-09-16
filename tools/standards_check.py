@@ -336,33 +336,38 @@ def _check(doc, slug, lk, year=None) -> dict:
             (blank if gap > 200 or gap_r > 202 else slack).append(row)
     facts["half_blank_pages"] = [b[0] for b in blank][:12]
     facts["pages_ending_short"] = [s[0] for s in slack][:12]
-    if blank:
+    # The fill rule is the standard's, so it is a verdict on a standardised
+    # edition and a record only on a master - a master was not built to it, and
+    # failing every old book would drown the sweep in noise that means nothing.
+    strict = str(slug).endswith("-standard")
+    if blank and strict:
         f.append("%d page(s) stop two thirds of the way down - the teacher's rule is "
                  "that no page is left half blank: %s (empty paper at the foot in pt: %s)"
                  % (len(blank), [b[0] for b in blank][:8], [(b[0], b[1]) for b in blank][:8]))
-    if slack:
+    if slack and strict:
         w.append("%d page(s) end a little short of the foot: %s"
                  % (len(slack), [(s[0], s[1]) for s in slack][:8]))
+    if (blank or slack) and not strict:
+        w.append("fill recorded only (this is a master, not a standardised edition): "
+                 "%d page(s) end short of the foot, %d stop two thirds down"
+                 % (len(slack), len(blank)))
 
-    # 9. every task item carries its plate -----------------------------------
-    # A task page reserves a picture column beside each numbered item. A page
-    # that names four items and carries three plates shows the child an empty
-    # rectangle where a picture should be - the same defect that a missing
-    # third-step plate was in the reference edition.
+    # 9. items that carry a picture and items that do not ---------------------
+    # Reported, never failed. The engine has two legitimate forms of a step: one
+    # with a plate in the column beside it, and one that is words and the child's
+    # own ticks and runs the full width of the column (`if not art_w` in
+    # page_task). A page with four items and three plates is therefore normal,
+    # and calling it a defect was wrong - it is listed here only so a reviewer
+    # can see the shape of a page at a glance.
     item_pages = []
     for i in range(n):
-        txt = doc[i].get_text()
-        items = txt.count("Tries")
+        items = doc[i].get_text().count("Tries")
         if not items:
             continue
         plates = len(doc[i].get_images(full=True))
-        if items > plates:
-            item_pages.append((i + 1, items, plates))
-    facts["task_items_without_a_plate"] = [
-        {"page": pg, "items": it, "plates": pl} for pg, it, pl in item_pages][:12]
-    if item_pages:
-        f.append("%d task page(s) have an item with no plate beside it "
-                 "(page, items, plates): %s" % (len(item_pages), item_pages[:8]))
+        if items != plates:
+            item_pages.append({"page": i + 1, "items": items, "plates": plates})
+    facts["task_pages_items_and_plates_differ"] = item_pages[:12]
 
     facts["manual_checks_still_required"] = [
         "teacher content preserved on its page",
