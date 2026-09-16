@@ -2043,6 +2043,27 @@
           })
           .catch(function () { probeLive(i + 1); });
       })(0);
+      /* Anything that still points at the live tunnel falls back to the site's
+         own copy the moment the tunnel fails to answer - a cover, a preview or
+         a print wrap must never be an empty frame because the build machine is
+         off or has been given a new host name. */
+      window.addEventListener(
+        "error",
+        function (e) {
+          var img = e.target;
+          if (
+            !img ||
+            img.tagName !== "IMG" ||
+            !window.__PB_LIVE_BASE ||
+            (img.src || "").indexOf(window.__PB_LIVE_BASE) !== 0 ||
+            img.dataset.pbFallback
+          )
+            return;
+          img.dataset.pbFallback = "1";
+          img.src = img.src.slice(window.__PB_LIVE_BASE.length);
+        },
+        true
+      );
     </script>
   </head>
   <body>
@@ -5572,11 +5593,14 @@ function rr(x, px, py, w, h, r) {
            (catalogue rows carry legacy names like "Music & Acting"). */
         const row = SUBJECT_ROWS[year + "|" + normSubject(subj)];
         if (row && row.cover) {
-          const live = window.__PB_LIVE
-            ? window.__PB_LIVE_BASE + row.cover
-            : row.cover;
-          coverCache.set(key, live);
-          return live;
+          /* The cover comes from the site itself, never from the live tunnel.
+             The tunnel's host name changes every time the build machine boots
+             (trycloudflare hands out a new one), so a cover that waited on it
+             showed as an empty frame the moment the old host stopped answering:
+             the shelf looked like it had lost its covers. The copy in
+             /library/ is the same file, is on the CDN, and cannot go stale. */
+          coverCache.set(key, row.cover);
+          return row.cover;
         }
         const catalogueBook =
           catData && catData.find((item) => item.year === year && item.subj === subj);
