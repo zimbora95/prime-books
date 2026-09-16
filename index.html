@@ -677,6 +677,58 @@
         filter: grayscale(0.65) brightness(0.85);
       }
 
+      /* ---- /finished: three pages per card --------------------------------
+         A card on that shelf shows what the book IS inside: the front cover, the
+         second page and the back cover, rendered once into the book's own
+         preview/ folder by tools/finished_previews.py. The cover alone
+         cannot tell a teacher what a title is worth opening. */
+      .ff-card .bcov {
+        aspect-ratio: 16 / 10;
+      }
+      .fprev {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding: 12px;
+        background: #f4f1ea;
+        align-items: start;
+        box-sizing: border-box;
+      }
+      .fprev figure {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        min-width: 0;
+      }
+      .fprev img {
+        width: 100%;
+        height: auto;
+        border-radius: 3px;
+        background: #fff;
+        box-shadow: 0 3px 9px rgba(12, 19, 52, 0.18);
+        display: block;
+      }
+      .fprev figcaption {
+        font-size: 9.5px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #6b7188;
+        text-align: center;
+      }
+      .ff-shelf {
+        grid-template-columns: repeat(auto-fill, minmax(392px, 1fr)) !important;
+      }
+      .book-card .ftitle {
+        margin: 10px 2px 8px;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+        color: var(--navy, #0c1334);
+      }
+
       .bflag {
         position: absolute;
         top: 10px;
@@ -5778,8 +5830,40 @@ function rr(x, px, py, w, h, r) {
         );
       }
 
+      /* /finished shows EVERY Prime Book, one card each, by its front cover, its
+         second page and its back cover. Where a title has a rebuilt
+         standardised edition, that edition is the one on the shelf, because it is
+         the edition this shelf exists to show - except the titles the teacher has
+         taken off the shelf, which are named here rather than deleted, so
+         putting one back is a one-word edit. */
+      const PB_FINISHED_OFF = ["y07-art-and-design-standard"];
+
+      function pbFinishedRows() {
+        const bySlug = {};
+        LIBRARY_ROWS.forEach((r) => (bySlug[r.slug] = r));
+        const out = [];
+        const seen = {};
+        LIBRARY_ROWS.filter((r) => !String(r.slug || "").endsWith("-standard")).forEach(
+          (m) => {
+            if (!m.slug || seen[m.slug]) return;
+            seen[m.slug] = 1;
+            const std = bySlug[m.slug + "-standard"];
+            out.push(std && PB_FINISHED_OFF.indexOf(std.slug) < 0 ? std : m);
+          },
+        );
+        /* a standardised edition whose master is not in the catalogue still
+           belongs on the shelf: it is a Prime Book in its own right */
+        pbStandardRows().forEach((s) => {
+          const base = String(s.slug).replace(/-standard$/, "");
+          if (PB_FINISHED_OFF.indexOf(s.slug) >= 0 || seen[base]) return;
+          seen[base] = 1;
+          out.push(s);
+        });
+        return out;
+      }
+
       function renderFinishedShelf() {
-        const rows = pbStandardRows();
+        const rows = pbFinishedRows();
         /* the year and edition filters describe the whole catalogue and have
            nothing to say about a shelf of two books */
         ["ydrop", "edSeg", "stSeg"].forEach((id) => {
@@ -5791,38 +5875,59 @@ function rr(x, px, py, w, h, r) {
           .forEach((el) => (el.style.display = "none"));
         if (!rows.length) {
           catBody.innerHTML =
-            '<div class="cat-group"><h3>Nothing standardised yet' +
+            '<div class="cat-group"><h3>Nothing on the shelf yet' +
             "<span>this shelf fills as each book is rebuilt</span></h3></div>";
           catCount.textContent = "No books";
           return;
         }
         rows.sort((a, b) => a.year - b.year || (a.subject || "").localeCompare(b.subject || ""));
+        const cap = ["Cover", "Page 2", "Back"];
         const cards = rows
-          .map(
-            (r) =>
-              '<div class="book-card">' +
+          .map((r) => {
+            const p =
+              Array.isArray(r.preview) && r.preview.length === 3
+                ? r.preview
+                : [r.cover || "", "", ""];
+            const figs = p
+              .map((src, i) => {
+                const alt =
+                  cap[i] + " of " + r.subject + " Year " + r.year;
+                return (
+                  "<figure>" +
+                  (src
+                    ? '<img src="' + src + '" alt="' + alt + '" loading="lazy">'
+                    : '<img alt="' + alt + '">') +
+                  "<figcaption>" +
+                  cap[i] +
+                  "</figcaption></figure>"
+                );
+              })
+              .join("");
+            return (
+              '<div class="book-card ff-card">' +
               '<div class="bcov" data-slug="' +
               r.slug +
-              '"><img src="' +
-              (r.cover || "") +
-              '" alt="' +
+              '"><div class="fprev">' +
+              figs +
+              "</div></div>" +
+              '<div class="ftitle">' +
               r.subject +
-              " Year " +
+              " · Year " +
               r.year +
-              '" loading="lazy">' +
-              '<span class="bflag manual">Standardised</span></div>' +
+              "</div>" +
               '<div class="foot-row">' +
               '<button class="view3d" data-slug="' +
               r.slug +
-              '">Open Book</button></div></div>',
-          )
+              '">Open Book</button></div></div>'
+            );
+          })
           .join("");
         catBody.innerHTML =
-          '<div class="cat-group"><h3>Standardised <span>' +
+          '<div class="cat-group"><h3>Every Prime Book <span>' +
           rows.length +
           (rows.length === 1 ? " book" : " books") +
-          " rebuilt to the house standard</span></h3>" +
-          '<div class="cat-grid">' +
+          " · front cover, page 2 and back cover</span></h3>" +
+          '<div class="cat-grid ff-shelf">' +
           cards +
           "</div></div>";
         catCount.textContent = rows.length + (rows.length === 1 ? " book" : " books");
@@ -7832,25 +7937,25 @@ function rr(x, px, py, w, h, r) {
         }
       });
 
-      /* /finished frames the same catalogue as the finished shelf: three
-         standardised pages per title, and two panels that still show all. */
+      /* /finished frames the same catalogue as the finished shelf: three pages
+         per title - front cover, page 2, back cover - and two panels that still
+         show all. */
       (function applyFinishedShell() {
         if (!PB_FINISHED) return;
         const kicker = document.querySelector(".cat-hero .kicker");
         const head = document.querySelector(".cat-hero h2");
         const copy = document.querySelector(".cat-hero p");
         const note = document.querySelector(".collection-overview-note");
-        if (kicker) kicker.textContent = "The finished shelf";
-        if (head) head.innerHTML = "Only what is <em>finished.</em>";
+        if (kicker) kicker.textContent = "The whole shelf";
+        if (head) head.innerHTML = "Every book, <em>inside and out.</em>";
         if (copy)
           copy.textContent =
-            "The editions rebuilt to the house standard, one book at a time. " +
-            "Open a title to read the pages that are already standardised; open " +
-            "its Sections or Input to see everything the interior must contain.";
+            "Every Prime Book, shown by its front cover, its second page and " +
+            "its back cover. Open a title to read it, or to continue creating " +
+            "it with the assistant.";
         if (note)
           note.textContent =
-            "Standardised editions only \u2014 the shelf fills as each book is " +
-            "rebuilt";
+            "Three pages per book \u2014 open a title for the rest";
       })();
 </script>
     <script src="/pb-router.js"></script>
