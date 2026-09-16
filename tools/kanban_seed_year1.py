@@ -151,16 +151,23 @@ reference edition's engine), with its own `identity.json`, its own per-unit
 `content/*.json`, its own per-plate `gen_art.py`, and its own plates placed through
 the plate cache (JPEG at print resolution).
 
+It is published as the **standardised edition**: `public/library/{b['slug']}-standard/`
+— a folder of its own, never over the master at `public/library/{b['slug']}/`, which
+is the teacher's own placed book and is read, never written. The reader URL is
+`/finished/book/{b['slug']}-standard`.
+
 Then, evidence first:
 
-1. `.venv/bin/python tools/standards_check.py {b['slug']}` → **0 failures**.
-2. The builder's own fill report → `fill: every page reaches its foot` (no
-   half-blank pages: see the brief).
-3. Render the pages you changed before and after and attach them to this card:
-   `hermes kanban attach <task id> before.png after.png`.
-4. Publish the interior into `public/library/{b['slug']}/` — **your slug's files
-   only**. Never commit, never push, never touch `public/standardized.json` and
-   never touch another book's folder.
+1. `.venv/bin/python tools/standards_check.py {b['slug']}-standard` → **0 failures**,
+   with the output pasted into a card comment.
+2. The builder's own fill report → `fill: every page reaches its foot and its right
+   edge` (no half-blank pages, no page filled down one column only).
+3. A contact sheet of all 71 pages **attached to this card** and looked at: every
+   plate painted in the house direction (no photography), no page broken, no
+   missing plate.
+4. `hermes kanban attach <task id> contact-sheet.png` plus before/after renders of
+   the pages you changed.
+5. Leave `public/library.json` alone — the publisher adds the manifest row.
 
 If something needs a judgement you cannot make, block this card with one precise
 question naming the page and the exact text."""

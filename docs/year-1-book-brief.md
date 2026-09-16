@@ -83,6 +83,14 @@ new plate beside its plates before you place it, and regenerate until the light,
 the pigments and the weight of the line match. Never photorealistic, never flat
 vector, never a modern object, and **no lettering of any kind inside a picture**.
 
+**Every plate is painted, and a photograph is a failure.** A Year 1 Prime Book has
+no stock photography and no documentary photo spreads: a picture of a real object
+is drawn in the house direction, like every other plate. A book that arrives with
+studio photographs has not followed the standard, however good the photography is.
+
+**Look at every plate before you place it**, one plate at a time, at full size. A
+plate that fails the direction is generated again; it is never placed "for now".
+
 Route plates through `tools/pb_image_gen.py` (model `openai/gpt-image-2.5-sunburst`,
 medium quality) with prompts written per plate, not templated: each prompt names
 the cast member, the object and the place. This book invents its own cast (named
@@ -103,8 +111,30 @@ teacher to judge, not for the worker to ignore. Before you claim a book is done:
 
 Workers **never commit, never push, never write `public/standardized.json`** and
 never touch another book's folder: neighbours are working other books in the same
-checkout. Publish the interior into `public/library/<slug>/` with your own slug's
-files only; the central publisher lands the commit.
+checkout. Publish the interior into `public/library/<slug>-standard/` — the title's
+**standardised edition**, a folder of its own, with the same six files every
+standardised edition has (`book.pdf`, `cover.webp`, `preview/01.webp`,
+`preview/02.webp`, `preview/last.webp`, `bookvault/`).
+
+**Never publish over a master.** `public/library/<year>-<subject>/` holds the
+teacher's own placed book — the cover, the imprint page, the back cover and every
+page of teaching that was put there by hand. Overwriting it replaces a master with
+a worker's build and takes the book off the shelf as the teacher knows it. A
+master is read, never written. If your slug's master folder changes on disk, you
+have made a mistake: restore it with `git checkout HEAD -- public/library/<slug>/`
+before anything else.
+
+The standardised edition's slug is the master's slug with `-standard` appended, so
+its reader URL is `/finished/book/<year>-<subject>-standard`. The publisher lands
+the commit and the manifest row; you leave `public/library.json` alone.
+
+## Evidence is not optional
+
+Attach before/after renders to this card — `hermes kanban attach <task id>
+before.png after.png` — and a contact sheet of all your pages. A completion summary
+without attached renders is not accepted, and the publisher will not ship the book.
+Claiming the machine checks pass is not evidence: run them and paste their output
+into your card comment.
 
 ## When to stop and ask
 
