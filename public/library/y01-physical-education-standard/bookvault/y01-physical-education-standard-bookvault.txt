@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education-standard
-generated 2026-09-16 03:33 UTC
+generated 2026-09-16 03:53 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -21,7 +21,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
-  Content position ... content moved 6.1 mm toward the outer edge and 3.5 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 2.9 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)
+  Content position ... content moved 6.1 mm toward the outer edge and 0.4 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)
   Page size ......... master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
 
 --------------------------------------------------------------------------
@@ -51,8 +51,8 @@ STEP 3  Checks
           -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected
   [PASS] Live text clears their 20 mm gutter
          closest live text is 21.0 mm off the gutter (page 1); guide p.3 asks for 20 mm
-  [FAIL] Live text clears their 5 mm trim safety
-         closest live text is 2.4 mm from the top edge (page 7); their template draws a 5 mm safety line
+  [PASS] Live text clears their 5 mm trim safety
+         closest live text is 5.8 mm from the top edge (page 1); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
          69 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
@@ -72,7 +72,7 @@ STEP 3  Checks
   [PASS] Master page box fitted to their trim
          master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
   [PASS] Artwork covers the printed area
-         the artwork reaches 3.7 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour
+         the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour
   [PASS] Binding-edge clearance
          closest text is 21.0 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks

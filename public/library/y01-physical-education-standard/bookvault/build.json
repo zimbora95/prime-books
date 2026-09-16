@@ -1,9 +1,9 @@
 {
  "slug": "y01-physical-education-standard",
- "built": "2026-09-16T03:29:58+00:00",
+ "built": "2026-09-16T03:52:23+00:00",
  "source_pages": 71,
- "source_mtime": 1789527536.734008,
- "source_bytes": 22442711,
+ "source_mtime": 1789529783.978378,
+ "source_bytes": 22442730,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y01-physical-education-standard-text-file.pdf",
   "url": "/library/y01-physical-education-standard/bookvault/y01-physical-education-standard-text-file.pdf",
-  "bytes": 15205553,
+  "bytes": 15205590,
   "pages": 69,
   "content_pages": 69,
   "padded_pages": 0,
@@ -31,9 +31,9 @@
   "page_fit_note": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
   "content_shift_mm": [
    6.13,
-   3.5
+   0.35
   ],
-  "content_shift_note": "content moved 6.1 mm toward the outer edge and 3.5 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 2.9 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)",
+  "content_shift_note": "content moved 6.1 mm toward the outer edge and 0.4 mm down: closest live text is now 21.0 mm off the gutter (was 14.9), 8.7 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 14.8 mm off the gutter)",
   "media_mm": [
    222.0,
    285.0
@@ -133,9 +133,9 @@
   },
   {
    "name": "Live text clears their 5 mm trim safety",
-   "pass": false,
-   "detail": "closest live text is 2.4 mm from the top edge (page 7); their template draws a 5 mm safety line",
-   "level": "fail"
+   "pass": true,
+   "detail": "closest live text is 5.8 mm from the top edge (page 1); their template draws a 5 mm safety line",
+   "level": "ok"
   },
   {
    "name": "Single pages, portrait",
@@ -194,7 +194,7 @@
   {
    "name": "Artwork covers the printed area",
    "pass": true,
-   "detail": "the artwork reaches 3.7 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "detail": "the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 6.2 mm inside the trim -- within the binding zone and the page's own edge colour",
    "level": "ok"
   },
   {
@@ -238,6 +238,6 @@
   "file": "y01-physical-education-standard-bookvault.txt",
   "url": "/library/y01-physical-education-standard/bookvault/y01-physical-education-standard-bookvault.txt"
  },
- "ok": false,
- "rechecked": "2026-09-16T03:33:31+00:00"
+ "ok": true,
+ "rechecked": "2026-09-16T03:53:46+00:00"
 }
