@@ -1,13 +1,12 @@
 {
- "generated": "2026-09-17 03:32 UTC",
+ "generated": "2026-09-17 18:26 UTC",
  "totals": {
-  "books": 124,
-  "pages": 12370,
+  "books": 125,
+  "pages": 12616,
   "withInput": 83,
-  "noInput": 41,
+  "noInput": 42,
   "standardized": 0,
-  "years": 13,
-  "machineClean": 5
+  "years": 13
  },
  "years": [
   {
@@ -21,13 +20,7 @@
       "kind": "XLSX",
       "file": "y01-art-and-design - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-computing-and-robotics",
@@ -37,13 +30,7 @@
       "kind": "XLSX",
       "file": "y01-computing-and-robotics - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-english",
@@ -53,13 +40,14 @@
       "kind": "PDF",
       "file": "y01-english - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
+    },
+    {
+     "slug": "y01-english-standard",
+     "subject": "English",
+     "pages": 71,
+     "input": null,
+     "standardized": false
     },
     {
      "slug": "y01-german-a1a2",
@@ -69,26 +57,14 @@
       "kind": "XLSX",
       "file": "y01-german-a1a2 - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-german-b1b2",
      "subject": "German B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-global-perspectives",
@@ -98,13 +74,7 @@
       "kind": "XLSX",
       "file": "y01-global-perspectives - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-mathematics",
@@ -114,13 +84,7 @@
       "kind": "XLSX",
       "file": "y01-mathematics - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-music-and-drama",
@@ -130,13 +94,7 @@
       "kind": "XLSX",
       "file": "y01-music-and-drama - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-physical-education",
@@ -146,39 +104,21 @@
       "kind": "XLSX",
       "file": "y01-physical-education - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-physical-education-standard",
      "subject": "Physical Education",
      "pages": 71,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 0,
-      "state": "machine-clean"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-portuguese",
      "subject": "Portuguese 1st Language",
      "pages": 12,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-science",
@@ -188,44 +128,26 @@
       "kind": "PDF",
       "file": "y01-science - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-spanish-a1a2",
      "subject": "Spanish A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 3,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y01-spanish-b1b2",
      "subject": "Spanish B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 3,
-      "state": "not built"
-     }
+     "standardized": false
     }
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 1669
+   "pages": 1740
   },
   {
    "year": 2,
@@ -238,13 +160,7 @@
       "kind": "XLSX",
       "file": "y02-art-and-design - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 4,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-computing-and-robotics",
@@ -254,13 +170,7 @@
       "kind": "XLSX",
       "file": "y02-computing-and-robotics - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 4,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-english",
@@ -270,39 +180,21 @@
       "kind": "XLSX",
       "file": "y02-english - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-german-a1a2",
      "subject": "German A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-german-b1b2",
      "subject": "German B1/B2",
      "pages": 100,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 1,
-      "state": "machine-clean"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-global-perspectives",
@@ -312,13 +204,7 @@
       "kind": "XLSX",
       "file": "y02-global-perspectives - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 4,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-mathematics",
@@ -328,13 +214,7 @@
       "kind": "PDF",
       "file": "y02-mathematics - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 4,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-music-and-drama",
@@ -344,13 +224,7 @@
       "kind": "XLSX",
       "file": "y02-music-and-drama - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-physical-education",
@@ -360,13 +234,7 @@
       "kind": "XLSX",
       "file": "y02-physical-education - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-science",
@@ -376,39 +244,21 @@
       "kind": "XLSX",
       "file": "y02-science - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-spanish-a1a2",
      "subject": "Spanish A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y02-spanish-b1b2",
      "subject": "Spanish B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     }
    ],
    "withInput": 8,
@@ -426,13 +276,7 @@
       "kind": "XLSX",
       "file": "y03-art-and-design - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 3,
-      "state": "machine-clean"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-computing-and-robotics",
@@ -442,13 +286,7 @@
       "kind": "XLSX",
       "file": "y03-computing-and-robotics - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 1,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-english",
@@ -458,39 +296,21 @@
       "kind": "XLSX",
       "file": "y03-english - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-german-a1a2",
      "subject": "German A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-german-b1b2",
      "subject": "German B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-global-perspectives",
@@ -500,13 +320,7 @@
       "kind": "XLSX",
       "file": "y03-global-perspectives - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-mathematics",
@@ -516,13 +330,7 @@
       "kind": "PDF",
       "file": "y03-mathematics - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 2,
-      "state": "machine-clean"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-music-and-drama",
@@ -532,13 +340,7 @@
       "kind": "XLSX",
       "file": "y03-music-and-drama - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-physical-education",
@@ -548,13 +350,7 @@
       "kind": "XLSX",
       "file": "y03-physical-education - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 2,
-      "state": "machine-clean"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-portuguese",
@@ -564,13 +360,7 @@
       "kind": "XLSX",
       "file": "y03-portuguese - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-science",
@@ -580,39 +370,21 @@
       "kind": "PDF",
       "file": "y03-science - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-spanish-a1a2",
      "subject": "Spanish A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y03-spanish-b1b2",
      "subject": "Spanish B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     }
    ],
    "withInput": 9,
@@ -630,13 +402,7 @@
       "kind": "XLSX",
       "file": "y04-art-and-design - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-computing-and-robotics",
@@ -646,13 +412,7 @@
       "kind": "XLSX",
       "file": "y04-computing-and-robotics - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 5,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-english",
@@ -662,39 +422,21 @@
       "kind": "XLSX",
       "file": "y04-english - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-german-a1a2",
      "subject": "German A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-german-b1b2",
      "subject": "German B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-global-perspectives",
@@ -704,13 +446,7 @@
       "kind": "XLSX",
       "file": "y04-global-perspectives - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-mathematics",
@@ -720,13 +456,7 @@
       "kind": "PDF",
       "file": "y04-mathematics - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 6,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-music-and-drama",
@@ -736,13 +466,7 @@
       "kind": "XLSX",
       "file": "y04-music-and-drama - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-physical-education",
@@ -752,26 +476,14 @@
       "kind": "XLSX",
       "file": "y04-physical-education - input.xlsx"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 2,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-portuguese",
      "subject": "Portuguese",
      "pages": 114,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 1,
-      "warnings": 3,
-      "state": "not-standardised"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-science",
@@ -781,39 +493,21 @@
       "kind": "PDF",
       "file": "y04-science - input.pdf"
      },
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 5,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-spanish-a1a2",
      "subject": "Spanish A1/A2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     },
     {
      "slug": "y04-spanish-b1b2",
      "subject": "Spanish B1/B2",
      "pages": 4,
      "input": null,
-     "standardized": false,
-     "checked": {
-      "ok": false,
-      "failures": 4,
-      "warnings": 4,
-      "state": "not built"
-     }
+     "standardized": false
     }
    ],
    "withInput": 8,
@@ -1156,7 +850,7 @@
     {
      "slug": "y07-portuguese-1st",
      "subject": "Portuguese 1st",
-     "pages": 153,
+     "pages": 192,
      "input": {
       "kind": "XLSX",
       "file": "y07-portuguese-1st - input.xlsx"
@@ -1196,7 +890,7 @@
    ],
    "withInput": 11,
    "standardized": 0,
-   "pages": 1361
+   "pages": 1400
   },
   {
    "year": 8,
@@ -1292,14 +986,14 @@
     {
      "slug": "y08-spanish",
      "subject": "Spanish",
-     "pages": 12,
+     "pages": 248,
      "input": null,
      "standardized": false
     }
    ],
    "withInput": 6,
    "standardized": 0,
-   "pages": 676
+   "pages": 912
   },
   {
    "year": 9,
@@ -1395,7 +1089,7 @@
     {
      "slug": "y09-spanish",
      "subject": "Spanish",
-     "pages": 338,
+     "pages": 238,
      "input": {
       "kind": "XLSX",
       "file": "y09-spanish - input.xlsx"
@@ -1405,7 +1099,7 @@
    ],
    "withInput": 7,
    "standardized": 0,
-   "pages": 1108
+   "pages": 1008
   },
   {
    "year": 10,
@@ -1543,7 +1237,5 @@
    "standardized": 0,
    "pages": 32
   }
- ],
- "checked_at": "2026-09-17 03:00 UTC",
- "spec": "A-2.3-Y1-4"
+ ]
 }

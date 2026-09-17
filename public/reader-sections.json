@@ -908,47 +908,152 @@
    ]
   },
   "y08-spanish": {
-   "src": "From this book’s own unit openings.",
+   "src": "From this book’s own contents page — click a unit to open it.",
    "rows": [
     {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
-     "page": 3
-    },
-    {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
-     "page": 4
-    },
-    {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
-     "page": 5
-    },
-    {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
+     "label": "0.1 · Repasoy reencuentro · In this unit",
+     "unit": false,
      "page": 6
     },
     {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
-     "page": 7
-    },
-    {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
+     "label": "0.1 · Revision and Reconnection",
+     "unit": false,
      "page": 8
     },
     {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
-     "page": 9
+     "label": "1.1 · Así soy ahora",
+     "unit": false,
+     "page": 16
     },
     {
-     "label": "Unit 0 · TOPIC 0.1",
-     "unit": true,
-     "page": 10
+     "label": "1.2 · Las personas que me importan",
+     "unit": false,
+     "page": 23
+    },
+    {
+     "label": "1.3 · Mi vida en equilibrio",
+     "unit": false,
+     "page": 31
+    },
+    {
+     "label": "1.4 · Un fin de semana diferente",
+     "unit": false,
+     "page": 38
+    },
+    {
+     "label": "2.1 · Un espacio para mí",
+     "unit": false,
+     "page": 53
+    },
+    {
+     "label": "2.2 · Un barrio para disfrutar",
+     "unit": false,
+     "page": 61
+    },
+    {
+     "label": "2.3 · Nos vemos allí",
+     "unit": false,
+     "page": 70
+    },
+    {
+     "label": "2.4 · Nuestro lugar favorito",
+     "unit": false,
+     "page": 78
+    },
+    {
+     "label": "3.1 · Lo que ponemos en el plato",
+     "unit": false,
+     "page": 91
+    },
+    {
+     "label": "3.2 · Una mesa para todos",
+     "unit": false,
+     "page": 98
+    },
+    {
+     "label": "3.3 · Hoy no estoy al cien por cien",
+     "unit": false,
+     "page": 106
+    },
+    {
+     "label": "3.4 · Un plan que nos sienta bien",
+     "unit": false,
+     "page": 113
+    },
+    {
+     "label": "3.5 · Una tarde para compartir",
+     "unit": false,
+     "page": 120
+    },
+    {
+     "label": "4.1 · Mi estilo cambia",
+     "unit": false,
+     "page": 133
+    },
+    {
+     "label": "4.2 · Comprar con cabeza",
+     "unit": false,
+     "page": 140
+    },
+    {
+     "label": "4.3 · Conectados, pero no todo el día",
+     "unit": false,
+     "page": 148
+    },
+    {
+     "label": "4.4 · Lo que aprendoy lo que me interesa",
+     "unit": false,
+     "page": 155
+    },
+    {
+     "label": "4.5 · Un díaa nuestra manera",
+     "unit": false,
+     "page": 162
+    },
+    {
+     "label": "5.1 · Elegimos nuestro próximo destino",
+     "unit": false,
+     "page": 175
+    },
+    {
+     "label": "5.2 · Todo listo para salir",
+     "unit": false,
+     "page": 182
+    },
+    {
+     "label": "5.3 · El viaje tuvo una sorpresa",
+     "unit": false,
+     "page": 190
+    },
+    {
+     "label": "5.4 · Dejamos el lugar mejor",
+     "unit": false,
+     "page": 197
+    },
+    {
+     "label": "5.5 · Nuestro viaje, nuestra historia",
+     "unit": false,
+     "page": 204
+    },
+    {
+     "label": "6.1 · Un cumpleaños diferente",
+     "unit": false,
+     "page": 217
+    },
+    {
+     "label": "6.2 · De Navidada Reyes",
+     "unit": false,
+     "page": 219
+    },
+    {
+     "label": "6.3 · Unos días de Semana Santa",
+     "unit": false,
+     "page": 221
+    },
+    {
+     "label": "6.4 · Este verano, cercao lejos",
+     "unit": false,
+     "page": 223
     }
    ]
   },
@@ -1113,7 +1218,197 @@
      "page": 25
     }
    ]
+  },
+  "y07-spanish": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "Unit 0 · Lo esencial",
+     "unit": true,
+     "page": 9
+    },
+    {
+     "label": "Unit 1 · Mi mundo",
+     "unit": true,
+     "page": 21
+    },
+    {
+     "label": "Unit 22 · 1.2",
+     "unit": true,
+     "page": 28
+    },
+    {
+     "label": "Unit 35 · 1.4",
+     "unit": true,
+     "page": 41
+    },
+    {
+     "label": "Unit 1 · Mi mundo",
+     "unit": true,
+     "page": 47
+    },
+    {
+     "label": "Unit 2 · Mi entorno",
+     "unit": true,
+     "page": 53
+    },
+    {
+     "label": "Unit 1 · Casa",
+     "unit": true,
+     "page": 77
+    },
+    {
+     "label": "Unit 3 · Comiday tiempo libre",
+     "unit": true,
+     "page": 83
+    },
+    {
+     "label": "Unit 4 · Ropay mundo digital",
+     "unit": true,
+     "page": 105
+    },
+    {
+     "label": "2",
+     "unit": true,
+     "page": 121
+    },
+    {
+     "label": "Unit 5 · La excursi",
+     "unit": true,
+     "page": 127
+    },
+    {
+     "label": "Unit 6 · Lecturas",
+     "unit": true,
+     "page": 155
+    }
+   ]
+  },
+  "y09-spanish": {
+   "src": "From this book’s own contents page — click a unit to open it.",
+   "rows": [
+    {
+     "label": "0.1 · Volvemos con más historias",
+     "unit": false,
+     "page": 10
+    },
+    {
+     "label": "1.1 · Así me veo, así me ven",
+     "unit": false,
+     "page": 17
+    },
+    {
+     "label": "1.2 · Lo que espero de los demás",
+     "unit": false,
+     "page": 24
+    },
+    {
+     "label": "1.3 · Tiempo para lo que importa",
+     "unit": false,
+     "page": 31
+    },
+    {
+     "label": "1.4 · Una experiencia que me cambió",
+     "unit": false,
+     "page": 38
+    },
+    {
+     "label": "2.1 · Un espacio que funciona",
+     "unit": false,
+     "page": 51
+    },
+    {
+     "label": "2.2 · El barrio que imaginamos",
+     "unit": false,
+     "page": 58
+    },
+    {
+     "label": "2.3 · Quedamosy buscamos una solución",
+     "unit": false,
+     "page": 65
+    },
+    {
+     "label": "2.4 · Un lugar para todos",
+     "unit": false,
+     "page": 72
+    },
+    {
+     "label": "3.1 · Lo que comemos también cuenta",
+     "unit": false,
+     "page": 85
+    },
+    {
+     "label": "3.2 · Una mesa, muchas opciones",
+     "unit": false,
+     "page": 92
+    },
+    {
+     "label": "3.3 · Cuando necesito parar",
+     "unit": false,
+     "page": 99
+    },
+    {
+     "label": "3.4 · Pequeños cambios, buenos hábitos",
+     "unit": false,
+     "page": 106
+    },
+    {
+     "label": "3.5 · Un encuentro que sienta bien",
+     "unit": false,
+     "page": 113
+    },
+    {
+     "label": "4.1 · Mi estilo, mis decisiones",
+     "unit": false,
+     "page": 126
+    },
+    {
+     "label": "4.2 · ¿Lo necesito de verdad?",
+     "unit": false,
+     "page": 133
+    },
+    {
+     "label": "4.3 · Mi vida dentroy fuera de la pantalla",
+     "unit": false,
+     "page": 140
+    },
+    {
+     "label": "4.4 · Aprender hoy, imaginar mañana",
+     "unit": false,
+     "page": 147
+    },
+    {
+     "label": "4.5 · Una idea que merece la pena",
+     "unit": false,
+     "page": 154
+    },
+    {
+     "label": "5.1 · Un destino, distintas miradas",
+     "unit": false,
+     "page": 167
+    },
+    {
+     "label": "5.2 · Antes de salir",
+     "unit": false,
+     "page": 174
+    },
+    {
+     "label": "5.3 · La noticia detrás del viaje",
+     "unit": false,
+     "page": 181
+    },
+    {
+     "label": "5.4 · Lo que dejamosa nuestro paso",
+     "unit": false,
+     "page": 188
+    },
+    {
+     "label": "5.5 · Nuestra historia continúa",
+     "unit": false,
+     "page": 195
+    }
+   ]
   }
  },
- "generated": "2026-09-15T20:47:58Z"
+ "generated": "2026-09-17T18:29:04Z"
 }

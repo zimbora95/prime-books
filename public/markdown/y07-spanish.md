@@ -13,44 +13,65 @@ Student Manual
 <!-- page 2 -->
 
 ---
-I M P R I N T
+**P R I M E  S C H O O L  P R E S S**
 
-Prime Books · Spanish Year 7 · Student Book
+## Spanish
 
-Published by Prime Books, an imprint of Prime School · www.primeschool.pt
+**Year 7 · Student Book**
 
-First edition, 2026. Printed interior 8.5 x 11 in.
+Real Spanish, from the first page.
 
-© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or
-transmitted in any form without the prior written permission of the publisher, except as permitted by law.
+**I N S I D E  T H I S  B O O K**
 
-Written in British English. Prices in euros, measurements metric, the 24 hour clock throughout. Spanish spelling and
-punctuation follow current peninsular usage; where Latin American usage differs and a Year 7 pupil will meet it, the book
-says so.
+Topic-based units with real dialogues
 
-ISBN: to be assigned.
+Grammar introduced and recycled
 
-Editorial Board
+Speaking, listening, reading, writing
 
-The Prime Books Subject Series has been developed under the guidance of the Pedagogical Academic Group for each
-subject and coordinated by the Pedagogical Team of Prime School.
+Culture of the Spanish-speaking world
 
-This publication reflects our shared commitment to academic excellence, educational quality, professional integrity, and
-the continuous advancement of teaching and learning. Through the collective expertise and dedication of our educators,
-we aim to provide meaningful and engaging learning resources that support students' academic growth.
+Vocabulary lists and review pages
 
-We extend our sincere appreciation to the Pedagogical Department and the Content Creation Team of Prime School for
-their invaluable contributions, dedication, and collaborative efforts in making this publication possible.
+**I M P R I N T**
 
-Illustration
+**EDITION**
+First edition, 2026. Printed in full colour on white stock. ISBN to be assigned.
 
-The plates in this book belong to the Prime Books Spanish collection and show an Andalusian courtyard house, its street
-and its market. They are the same illustrated world as the other Spanish titles in the series, because a pupil who moves
-from Year 7 to Year 9 should recognise the place.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-PRIME BOOKS · SPANISH · YEAR 7
-Spanish · Year 7
-2
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written and typeset in the Prime School
+Press studio, Lisbon.
+
+**CURRICULUM**
+Cambridge Lower Secondary, Stage 7. Ages about 11 to 12.
+
+**LICENCE**
+It is an independent publication and is not an official Cambridge Assessment
+International Education or Oxford University Press publication.
+
+**LANGUAGE**
+Written in British English: metric measurements, prices in euros, the 24-hour
+clock, and peninsular Spanish spelling.
+
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**A g e s  1 1  t o  1 2  ·  L o w e r  S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
+**2**
 
 <!-- page 3 -->
 
@@ -11368,11 +11389,17 @@ Sources and references
 <!-- page 178 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Spanish
 
-nication: everyday topics, authentic texts
+Year 7 · Prime School Press · Student Manual
+
+Real Spanish, from the first page.
+
+Year 7 Spanish builds confident communication: everyday topics, authentic texts
+
+and grammar that grows step by step.
 
 **INSIDE THIS BOOK**
 
@@ -11391,10 +11418,8 @@ Culture of the Spanish-speaking world
 •
 Vocabulary lists and review pages
 
-**Prime Books · Spanish**
+**Prime School Press · Spanish**
 
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
-
-Student Manual
