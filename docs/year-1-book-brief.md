@@ -60,8 +60,13 @@ is the teacher's first rule for these books, and the audit exists to enforce it.
    all four sides. The house gate fails a book with no full-bleed opener.
 3. **The imprint on the last page** reads `P R I M E  S C H O O L  P R E S S`
    (letter-spaced); the gate matches that literal string.
-4. **Text inside the box.** Nothing outside the safe area: x 42 → 570 pt,
-   no text below y 725 (folio/badge zone) and none above y 12.
+4. **Text inside the box — mirrored, on the print parity.** A standardised-edition
+   page keeps **20 mm (56.7 pt) on its binding edge and 15 mm (42.5 pt) on the
+   outer edge**: the pack prints *its* page 1 on a right-hand page and starts at
+   master page 2, so a master **even** page is a recto, and the engine and the
+   gate mirror with it. Every page ends exactly 20.0 mm off its gutter. Nothing
+   below y 741 (the folio/badge zone) and nothing above y 12. Masters keep the
+   historic symmetric box — the mirror is a verdict for `-standard` slugs only.
 5. **The year ladder's size**, never smaller: Year 1 body text is 16 pt on 21 pt
    leading. If it does not fit, the page is designed again, not shrunk.
 6. **Year 1 reading load**: 80 words a page at most, instructions of seven words
