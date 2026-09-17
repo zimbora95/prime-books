@@ -36,8 +36,8 @@ A festival of games to close the year
 **I M P R I N T**
 
 **EDITION**
-First edition, 2026, printed in full colour. Print this book from the school library or
-read it on screen.
+First edition, 2026, printed in full colour. Print this book from the school library
+or read it on screen.
 
 **PATHWAY**
 Cambridge Primary Physical Education, Year 1. Strands: moving well,
@@ -54,9 +54,9 @@ reproduced, stored in a retrieval system, or transmitted in any form or by any
 means without the prior written permission of the publisher.
 
 **CREDITS**
-Written, illustrated and typeset in the Prime School Press studio for this subject
-and this cast. Every illustration in this book was made for it, plate by plate. No
-photograph, artwork or data were copied from another publisher.
+Written, illustrated and typeset in the Prime School Press studio for this
+subject and this cast. Every illustration in this book was made for it, plate by
+plate. No photograph, artwork or data were copied from another publisher.
 
 **LICENCE**
 This book is not affiliated with, licensed by, endorsed by or approved by any
@@ -238,13 +238,14 @@ Getting started
 
 ## Welcome to the meadow
 
-This is your book for moving. Six animals come with you through it, and
-they are all beginners, exactly like you. Pip tries first and gets it wrong.
-Sorrel is fast and has to learn to wait. Tuft is small and does not like
-being watched.
+This is your book for moving. Six animals come with you through it,
+and they are all beginners, exactly like you. Pip tries first and gets it
+wrong. Sorrel is fast and has to learn to wait. Tuft is small and does
+not like being watched.
 
 Every unit has a colour, a page where you do the moving, and a page
-where you say honestly how it went. Nobody marks this book but you.
+where you say honestly how it went. Nobody marks this book but
+you.
 
 ## The six who move with you
 
@@ -355,7 +356,7 @@ Before Unit 1
 
 Everything here lives in the hall. Take it out, use it, put it back.
 
-## Chalk and cones
+**Chalk and cones**
 
 A white line on
 the grass and
@@ -364,7 +365,7 @@ stopping. One
 cone for each
 pair, please.
 
-## Hoops and ropes
+**Hoops and ropes**
 
 Wooden hoops
 and skipping
@@ -374,7 +375,7 @@ your side,
 never over
 your head.
 
-## Mats and bench
+**Mats and bench**
 
 A low bench
 and two blue
@@ -427,9 +428,9 @@ away. Stopping is not losing.
 ## 4
 ## Leave it tidy
 
-Kit goes back where it lives. A
-tidy hall is how the next class
-finds it.
+Kit goes back where it lives.
+A tidy hall is how the next
+class finds it.
 
 **7**
 
@@ -451,8 +452,8 @@ Walk and run on a line
 Stop when you hear 'stop'
 Hop, skip and join a partner
 
-This unit is about moving in the meadow and in the hall. You will walk a line, stop on
-a cone, and find out how fast your feet can go.
+This unit is about moving in the meadow and in the hall. You will walk a line, stop
+on a cone, and find out how fast your feet can go.
 
 **8**
 
@@ -466,6 +467,13 @@ a cone, and find out how fast your feet can go.
 
 Pip runs. Bramble walks. Sorrel hops. Tuft rolls. Every body crosses
 the grass in its own way. Which way is yours?
+
+**1**
+Say each word three times: walk, run, stop. Then say it as quietly as
+you can.
+
+**2**
+Go a bit further: stand at the wall. Point at one thing you could run around.
 
 **9**
 
@@ -482,11 +490,22 @@ fast feet
 still feet
 the chalk line
 
-A walk has quiet feet. A run has fast feet. A stop is still feet, side
-by side. The chalk line shows you where to go.
-
-**Say this**
 Say 'freeze' and hold your own hand up. Feet stop when the hand goes up.
+
+**1**
+Point at each picture. Say the word out loud.
+
+**walk**
+
+**run**
+
+**stop**
+
+**2**
+One word has floated away. Write it in the empty box.
+
+## walk
+## run
 
 **10**
 
@@ -501,9 +520,27 @@ Your turn
 Walk the line to the cone. Run back along the line.
 Stop before you touch the cone.
 
-Draw your feet on the line. Mark where you stopped.
+Walk it first, then do it on your own.
+
+**1**
+Put your foot on the dot. Walk the line slowly.
 
 **start**
+
+**look**
+**now walk it**
+
+**2**
+Now do it on your own. Run to the cone and stop.
+
+**mark where you stopped**
+
+**3**
+Copy the word once. Say it before you write it.
+
+## stop
+
+Say the word as your feet go: that is how your feet remember it.
 
 **11**
 
@@ -554,17 +591,19 @@ Ready, steady, try
 
 Stand still on one foot. Count to three out loud. Then try the
 other foot. Nobody is racing you.
+
+**1**
+Tick every body that is moving. There are six.
+
+**2**
+## how many?
+Play again tomorrow. Beat your score?
+
 ## Stand on one foot
 
 **1**
 **2**
 **3**
-
-Which foot was easier?
-
-Draw yourself doing it
-
-**one foot**
 
 **14**
 
@@ -594,6 +633,19 @@ Low crouch
 
 **How did it feel?**
 
+**4**
+Read each word out loud three times. Tick it when you can.
+
+## walk
+## run
+## stop
+## hop
+
+## skip
+## jump
+## fast
+## slow
+
 **15**
 
 <!-- page 16 -->
@@ -604,7 +656,12 @@ How did it go?
 
 ## Unit 1 · How did it go?
 
-Colour one circle for each line. There is no wrong answer here.
+Colour one face for each line. There is no wrong answer here.
+
+**green = yes**
+**amber = nearly**
+**red = not yet**
+Not yet is a good answer.
 
 I walked the line
 
@@ -621,6 +678,10 @@ I hopped and skipped
 I moved with a partner
 
 **Colour one face**
+
+**Did you know?**
+
+You have twenty-six bones in each foot - more than anywhere else.
 
 **For the grown-up**
 If the class cannot stop on the word, clap instead of saying it - feet stop on the
@@ -649,8 +710,8 @@ Name four parts of your body
 Watch, then copy a shape
 Show what good looks like
 
-In this unit you will watch a shape, name the parts of it, and copy it. Then a partner
-will watch you.
+In this unit you will watch a shape, name the parts of it, and copy it. Then a
+partner will watch you.
 
 **17**
 
@@ -1205,8 +1266,8 @@ Share and take turns
 Carry kit safely
 Use kind words when someone is stuck
 
-In this unit you will share the kit, carry it safely, play fairly and use kind words. The
-meadow stays good when everyone helps.
+In this unit you will share the kit, carry it safely, play fairly and use kind words.
+The meadow stays good when everyone helps.
 
 **42**
 
@@ -1385,8 +1446,8 @@ Feel your heart after moving
 Notice your breath
 Drink water before you are thirsty
 
-In this unit you will feel your heart, hear your breath, and find out when to rest and
-when to drink.
+In this unit you will feel your heart, hear your breath, and find out when to rest
+and when to drink.
 
 **50**
 
