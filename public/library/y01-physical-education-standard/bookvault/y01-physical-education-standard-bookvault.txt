@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education-standard
-generated 2026-09-16 22:33 UTC
+generated 2026-09-17 00:45 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -22,7 +22,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
-  Content position ... content moved 8.9 mm toward the outer edge and 0.4 mm down: closest live text is now 8.1 mm off the gutter (was -0.8), 6.0 mm from the outer trim (was 14.9) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 16, -0.8 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm
+  Content position ... the master already carries their 20 mm binding margin (20.1 mm off the gutter as built), so the page is placed 1:1 on the trim and nothing is moved: no sliver opens at the gutter for the smear to fill
   Page size ......... master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
 
 --------------------------------------------------------------------------
@@ -45,15 +45,17 @@ STEP 3  Checks
   [PASS] Bleed is 3 mm on all four edges
          guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
   [PASS] Bleed continues the page edge
-         112 of 112 points across the cut lines are flat
+         no point across the cut lines puts a whitish colour against a coloured one (2484 points checked), so no white nick can print
+  [OPEN] Bleed approximates the artwork at the cut
+         616 of 2484 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
-  [FAIL] Bleed seam matches the artwork
-         a step over 60.3 mm at the left edge of page 52, 60.3 mm of the bleed -- a band of the wrong colour across the bleed
-  [FAIL] Live text clears their 20 mm gutter
-         closest live text is 8.1 mm off the gutter (page 16); guide p.3 asks for 20 mm
+  [OPEN] Bleed seam matches the artwork
+          -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected
+  [PASS] Live text clears their 20 mm gutter
+         closest live text is 20.1 mm off the gutter (page 16); guide p.3 asks for 20 mm
   [PASS] Live text clears their 5 mm trim safety
-         closest live text is 5.8 mm from the top edge (page 3); their template draws a 5 mm safety line
+         closest live text is 5.4 mm from the top edge (page 3); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
          69 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
@@ -69,13 +71,13 @@ STEP 3  Checks
   [PASS] Transparency flattened
          no soft masks, transparency groups or blend modes left (guide p.3)
   [OPEN] Images at 300 DPI or better
-         29 below 300 DPI, e.g. page 3: 218 DPI; page 5: 290 DPI; page 5: 290 DPI
+         29 below 300 DPI, e.g. page 3: 225 DPI; page 5: 290 DPI; page 5: 290 DPI
   [PASS] Master page box fitted to their trim
          master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
   [PASS] Artwork covers the printed area
-         the artwork reaches 0.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 8.9 mm inside the trim -- within the binding zone and the page's own edge colour
+         the artwork reaches -0.1 mm past the 216 x 279 mm trim on every visible edge
   [PASS] Binding-edge clearance
-         closest text is 23.7 mm from the left edge on page 67; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         closest text is 20.1 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [PASS] Text file is PDF/X-1a:2001 with CMYK

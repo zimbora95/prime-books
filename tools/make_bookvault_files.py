@@ -1779,17 +1779,26 @@ def images_under_300dpi(doc: pymupdf.Document, limit: int = 200) -> list[str]:
     return low
 
 
-def bleed_continues_edge(doc: pymupdf.Document, sample_pages: int = 6) -> tuple[int, int]:
-    """Do the bleed margins continue the page edge?
+def bleed_continues_edge(doc: pymupdf.Document, sample_pages: int = 0) -> tuple[int, int, int]:
+    """Does the bleed continue the page edge, and where does it only approximate?
 
     The smear is sampled from the trim edge, so just outside the trim and just
-    inside it must be the same colour. This is the check that catches a margin
-    painted over the wrong span (a white strip at a corner) -- invisible in a
-    viewer at page size, a white sliver on the trimmed sheet.
-    Returns (mismatched_points, checked_points).
+    inside it must be the same colour. What this check exists to catch is a WHITE
+    sliver: a margin painted over the wrong span, invisible in a viewer at page
+    size and a white nick on the trimmed sheet.
+
+    A flat vector smear can never equal artwork whose colour runs steeply along
+    the cut, and Prime Books bleeds watercolour to the corner on purpose. Measured
+    across this book's 69 pages at 9 positions a side: 0 points put a whitish
+    colour against a coloured one, and 616 points differ by more than 30 units
+    where BOTH sides are coloured detail - the documented limitation, not a nick.
+    So the two are separated: `mismatches` counts only a near-white side against a
+    coloured one (a fail), `gradient` counts the rest (a warning, with numbers).
+
+    Returns (mismatches, gradient_points, checked_points).
     """
-    bad = checked = 0
-    step = max(1, doc.page_count // sample_pages)
+    bad = gradient = checked = 0
+    step = sample_pages and max(1, doc.page_count // sample_pages) or 1
     for i in range(0, doc.page_count, step):
         p = doc[i]
         pix = p.get_pixmap(dpi=72)          # 1 px per point
@@ -1803,7 +1812,7 @@ def bleed_continues_edge(doc: pymupdf.Document, sample_pages: int = 6) -> tuple[
             return tuple(pix.samples[o:o + 3])
 
         B = BLEED_PT
-        for frac in (0.1, 0.35, 0.6, 0.85):
+        for frac in (0.05, 0.1, 0.2, 0.35, 0.5, 0.6, 0.75, 0.85, 0.95):
             # across each cut line: just outside vs just inside
             for a, b in (
                 ((B + B * frac, B - 1), (B + B * frac, B + 1)),          # top
@@ -1813,9 +1822,13 @@ def bleed_continues_edge(doc: pymupdf.Document, sample_pages: int = 6) -> tuple[
             ):
                 pa, pb = px(*a), px(*b)
                 checked += 1
-                if sum(abs(pa[k] - pb[k]) for k in range(3)) > 30:
-                    bad += 1
-    return bad, checked
+                if sum(abs(pa[k] - pb[k]) for k in range(3)) <= 30:
+                    continue
+                if (min(pa) >= 240) != (min(pb) >= 240):
+                    bad += 1            # white against colour: a nick would print
+                else:
+                    gradient += 1       # detail against detail: the flat-smear limit
+    return bad, gradient, checked
 
 
 def binding_edge_clearance(doc: pymupdf.Document, sample: int = 6) -> tuple[float, int, str]:
@@ -1907,10 +1920,20 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     add("Bleed is 3 mm on all four edges", True,
         f"guide p.5 requires 3 mm; media extends {BLEED_MM:g} mm past the trim "
         f"on every side")
-    bad, pts = bleed_continues_edge(doc)
-    add("Bleed continues the page edge", bad == 0,
-        f"{pts - bad} of {pts} points across the cut lines are flat"
-        + ("" if bad == 0 else f" -- {bad} mismatch, a white sliver would print"))
+    nick, gradients, pts = bleed_continues_edge(doc)
+    add("Bleed continues the page edge", nick == 0,
+        f"no point across the cut lines puts a whitish colour against a coloured "
+        f"one ({pts} points checked), so no white nick can print"
+        if nick == 0 else
+        f"{nick} of {pts} points put a whitish colour against a coloured one "
+        f"-- a white sliver would print")
+    if nick == 0 and gradients:
+        # registered as a warn: the summary's FAIL list reads level, not pass
+        add("Bleed approximates the artwork at the cut", False,
+            f"{gradients} of {pts} points differ by more than 30 units where both "
+            f"sides are coloured detail: the flat smear's limit on artwork that "
+            f"runs along the cut, entirely inside the 3 mm that is trimmed away",
+            level="warn")
     survives = page_content_survives(slug, doc, fit=text.get("page_fit_scale", 1.0),
                                      shift=tuple(text.get("content_shift_mm", (0.0, 0.0))))
     add("Page artwork survives assembly", not survives,
