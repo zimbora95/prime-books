@@ -131,6 +131,9 @@ def _check(doc, slug, lk, year=None) -> dict:
     n = doc.page_count
     f, w = [], []
     facts = {}
+    # a standardised edition is judged on the standard; a master is the teacher's
+    # own placed book and is only ever measured
+    standard = str(slug).endswith("-standard")
     r0 = doc[0].rect
     size = (round(r0.width, 2), round(r0.height, 2))
     facts["page_size"] = size
@@ -252,6 +255,11 @@ def _check(doc, slug, lk, year=None) -> dict:
             bl, br = GUTTER_PT, wpt - OUTER_PT
         else:
             bl, br = OUTER_PT, wpt - GUTTER_PT
+        if not standard:
+            # a master keeps the historic symmetric box: the mirrored print
+            # margins are a standardised-edition rule, and a master's own print
+            # geometry is judged by the pack's preflight, not by this gate
+            bl, br = CONTENT_BOX[0], CONTENT_BOX[2]
         for s in spans(p):
             x0, y0, x1, y1 = s["bbox"]
             if i in (0, n - 1):

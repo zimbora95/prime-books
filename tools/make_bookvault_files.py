@@ -30,6 +30,17 @@ WHAT THIS SCRIPT PRODUCES  (public/library/<slug>/bookvault/)
                                 (see bleed_page: no rasterising, no hairline)
                               - converted to PDF/X-3:2002 with CMYK by
                                 Ghostscript (--no-pdfx skips this)
+                              - NO FONT LEFT THAT BOOKVAULT'S PREFLIGHT CAN
+                                REJECT. A font with no program behind it cannot be
+                                embedded -- base-14 Helvetica (what a pymupdf edit
+                                leaves behind) and Type 3 fonts (a whole book's
+                                typesetting stored as drawing programs) both land
+                                in this pack. When one is present the glyphs are
+                                OUTLINED into the page and the text is re-laid
+                                INVISIBLY in one embedded font, so the file prints
+                                identically, still searches, and passes their
+                                'Font Embedding' check. Nothing is decided here:
+                                the outlines are vector art already.
   <slug>-cover-file.pdf     the wrap: back + spine + front, full bleed, 300 DPI,
                             spine width from the interior page count
   <slug>-cover-file.png     a PNG preview of the same wrap (for the web page)
@@ -463,6 +474,18 @@ def content_shift(src: pymupdf.Document, first: int, last: int,
     ex = margin_extremes(src, first, last)
     if ex["gutter"] > 900:
         return 0.0, 0.0, "no live text on the interior pages (a picture book); nothing to move"
+    # A master built to the standard's own mirrored margins already clears their
+    # 20 mm binding rule, so it goes on the trim exactly where it is. Moving it a
+    # token amount for headroom only opens a sub-millimetre sliver at the gutter,
+    # which the edge smear has to fill - and on the three or four points where a
+    # page's edge colour runs steeply that prints as a white nick.
+    ox0 = (TRIM_W_MM - ex["w"] * scale) / 2.0
+    if ox0 + ex["gutter"] * scale >= GUTTER_SAFETY_MM:
+        note = (f"the master already carries their {GUTTER_SAFETY_MM:g} mm binding margin "
+                f"({ox0 + ex['gutter'] * scale:.1f} mm off the gutter as built), so the page is "
+                f"placed 1:1 on the trim and nothing is moved: no sliver opens at the "
+                f"gutter for the smear to fill")
+        return 0.0, 0.0, note
     shift_x, shift_y = shift_for(scale, ex)
     ox = (TRIM_W_MM - ex["w"] * scale) / 2.0
     oy = (TRIM_H_MM - ex["h"] * scale) / 2.0
@@ -919,6 +942,181 @@ def flatten_transparency(src_pdf: pathlib.Path, dst_pdf: pathlib.Path) -> tuple[
     return True, "transparency flattened (RGB, not PDF/X)"
 
 
+# ----------------------------------------------- fonts that cannot be embedded
+# BookVault's font check rejects a font with no program behind it, and two kinds
+# reach these packs:
+#   * Helvetica / Helvetica-Bold -- the standard-14 names pymupdf writes when a
+#     page is retyped or a folio restamped, and
+#   * Type 3 fonts -- glyph programs rather than font files (a whole book's
+#     typesetting can be stored as drawing operators; 47 of the masters do this).
+# Neither can be embedded: Ghostscript SUBSTITUTES a standard-14 name instead of
+# embedding it, and a Type 3 font has no program to embed at all. So the pack
+# stops using fonts where it cannot embed one: the glyphs are OUTLINED (they are
+# vector artwork already, so the ink is unchanged) and the original spans are
+# re-laid INVISIBLY with one embedded font, so the file still searches, still
+# copy-pastes, and still measures for every check in this tool. Verified against
+# BookVault's own validator: 'Font Embedding' passes once the file carries no
+# font it cannot embed.
+
+INVISIBLE_TEXT_TTF = REPO / "tools" / "cover_assets" / "Andika-Regular.ttf"
+OUTLINE_INK_TOLERANCE_PCT = 12.0   # per-page ink may not move more than this
+
+def glyph_ink(page, dpi: int = 72) -> float:
+    """Share of inked pixels on a page -- the measure the outline pass must not
+    change. Rendered, not read: this is about what prints. Binned through PIL's
+    C histogram so 116 pages of it is a second, not a minute."""
+    pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
+    img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples).convert("L")
+    hist = img.histogram()
+    return sum(hist[:128]) / max(1, pix.width * pix.height)
+
+
+def outline_glyphs(src_pdf: pathlib.Path, dst_pdf: pathlib.Path) -> tuple[bool, str]:
+    """Every glyph as vector artwork: Ghostscript's -dNoOutputFonts.
+
+    This is the pass that removes a font BookVault will not accept. It is only
+    used on pages whose glyphs are ALREADY vector art (a Type 3 font is a
+    drawing program), so the page must come back pixel for pixel the same -- a
+    page whose ink moves is a rejected pass, not a shipped file.
+    """
+    if not GHOSTSCRIPT:
+        return False, "Ghostscript not installed -- the glyphs stay as fonts"
+    cmd = [
+        GHOSTSCRIPT, "-dBATCH", "-dNOPAUSE", "-dSAFER",
+        "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.4",
+        "-dNoOutputFonts=true",
+        "-dAutoRotatePages=/None", "-dDetectDuplicateImages=true",
+        "-dDownsampleColorImages=false", "-dDownsampleGrayImages=false",
+        "-dDownsampleMonoImages=false",
+        f"-sOutputFile={dst_pdf}", str(src_pdf),
+    ]
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+    except subprocess.TimeoutExpired:
+        return False, "the outline pass timed out (15 min)"
+    if r.returncode != 0 or not dst_pdf.is_file():
+        return False, f"the outline pass failed (Ghostscript exit {r.returncode})"
+
+    a = pymupdf.open(src_pdf)
+    b = pymupdf.open(dst_pdf)
+    try:
+        if a.page_count != b.page_count:
+            return False, f"page count {a.page_count} -> {b.page_count}"
+        if (abs(a[0].rect.width - b[0].rect.width) > 0.1
+                or abs(a[0].rect.height - b[0].rect.height) > 0.1):
+            return False, "the media box moved"
+        for i in range(a.page_count):
+            ia, ib = glyph_ink(a[i]), glyph_ink(b[i])
+            if ia > 0.002 and abs(ib - ia) / ia * 100 > OUTLINE_INK_TOLERANCE_PCT:
+                return False, (f"page {i + 1}: ink {ia:.2%} -> {ib:.2%} -- the pass "
+                               f"changed the artwork")
+    finally:
+        a.close()
+        b.close()
+    return True, "every glyph is vector artwork"
+
+
+def relayer_invisible_text(original: pathlib.Path, outlined: pathlib.Path,
+                           dst_pdf: pathlib.Path) -> int:
+    """Re-lay the original spans invisibly (render_mode 3) over the outlines.
+
+    Text that is not painted cannot change what prints, but it keeps everything
+    that reads the file working: search, copy-paste, and the geometry checks in
+    this tool (they measure live text against BookVault's margins). One embedded
+    font serves the whole book, and only the characters actually used ship.
+
+    Two decisions here are load-bearing:
+
+      * ONE TextWriter per page, not page.insert_text per span. insert_text
+        re-serialises the page's content stream on every call, and after the
+        outline pass that stream is a megabyte of vector glyphs: measured at
+        81 ms per span that way, 0.8 ms through a TextWriter.
+      * The span's WIDTH is matched by scaling the type size, because a
+        TextWriter has no per-span horizontal scale. Matching width is what keeps
+        the text layer where the ink is -- measured against the master on 116
+        pages: horizontal extremes within 0.02 pt, vertical within 1.3 pt, so the
+        margin arithmetic in validate() still reports the real clearance.
+    """
+    a = pymupdf.open(original)
+    d = pymupdf.open(outlined)
+    font = pymupdf.Font(fontfile=str(INVISIBLE_TEXT_TTF))
+    spans = 0
+    for pno in range(min(a.page_count, d.page_count)):
+        page = d[pno]
+        tw = pymupdf.TextWriter(page.rect)
+        here = 0
+        for b in a[pno].get_text("dict")["blocks"]:
+            for line in b.get("lines", []):
+                for s in line["spans"]:
+                    text, size = s["text"], s["size"]
+                    if not text.strip() or size <= 0:
+                        continue
+                    fs = size
+                    try:
+                        w = font.text_length(text, fontsize=size)
+                    except Exception:
+                        w = 0.0
+                    if w > 0.01:
+                        fs = size * (s["bbox"][2] - s["bbox"][0]) / w
+                        fs = max(size * 0.2, min(size * 5.0, fs))
+                    if fs <= 0.4:
+                        continue
+                    try:
+                        tw.append(pymupdf.Point(s["origin"][0], s["origin"][1]),
+                                  text, font=font, fontsize=fs)
+                    except Exception:
+                        continue
+                    here += 1
+        if here:
+            tw.write_text(page, render_mode=3)
+            spans += here
+    d.subset_fonts()
+    d.save(str(dst_pdf), garbage=4, deflate=True)
+    a.close()
+    d.close()
+    return spans
+
+
+def strip_fonts(path: pathlib.Path, slug: str) -> tuple[bool, int, str]:
+    """Put an outlined, font-clean copy of `path` in its place.
+
+    Returns (did it, invisible spans re-laid, what to tell the teacher). Any
+    failure leaves the original file exactly as it was: a pack whose font check
+    is still open is better than a pack that lost its artwork.
+    """
+    stem = path.name.replace(".pdf", "")
+    out = path.with_name(f".{stem}.outlined.pdf")
+    inv = path.with_name(f".{stem}.invisible.pdf")
+    out.unlink(missing_ok=True)
+    inv.unlink(missing_ok=True)
+
+    ok, why = outline_glyphs(path, out)
+    if not ok:
+        out.unlink(missing_ok=True)
+        return False, 0, f"font check still open -- {why}"
+
+    try:
+        spans = relayer_invisible_text(path, out, inv)
+    except Exception as exc:                      # noqa: BLE001 -- report, never crash a pack
+        out.unlink(missing_ok=True)
+        inv.unlink(missing_ok=True)
+        return False, 0, f"font check still open -- the invisible text layer failed ({exc})"
+
+    d = pymupdf.open(inv)
+    emb, missing = fonts_embedded(d)
+    t3 = type3_fonts(d)
+    d.close()
+    if not emb or t3:
+        out.unlink(missing_ok=True)
+        inv.unlink(missing_ok=True)
+        left = ", ".join(missing[:3]) if missing else f"{t3} Type 3 fonts"
+        return False, 0, f"font check still open -- the outline pass left {left}"
+
+    shutil.move(str(inv), str(path))
+    out.unlink(missing_ok=True)
+    return True, spans, f"outlined glyphs, text re-laid invisibly ({spans} spans)"
+
+
 def conversion_is_faithful(before: pathlib.Path, after: pathlib.Path) -> tuple[bool, str]:
     """Did the PDF/X pass keep every page's TEXT and FONTS intact?
 
@@ -937,6 +1135,13 @@ def conversion_is_faithful(before: pathlib.Path, after: pathlib.Path) -> tuple[b
             lost.append(f"page {i + 1}: {wa} -> {wb} words")
     if lost:
         return False, "; ".join(lost[:3])
+    # Ink, not just words: once the glyphs are outlined the words come back from
+    # the invisible layer, so a pass that quietly rasterised the page would slip
+    # past the word count. A page whose inked area moves is a damaged page.
+    for i in range(0, a.page_count, max(1, a.page_count // 8)):
+        ia, ib = glyph_ink(a[i]), glyph_ink(b[i])
+        if ia > 0.002 and abs(ib - ia) / ia * 100 > OUTLINE_INK_TOLERANCE_PCT:
+            return False, f"page {i + 1}: ink {ia:.2%} -> {ib:.2%} (rasterised?)"
     emb, missing = fonts_embedded(b)
     if not emb:
         return False, "fonts not embedded after conversion: " + ", ".join(missing[:3])
@@ -1069,6 +1274,28 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
             flat.unlink(missing_ok=True)
 
     doc = pymupdf.open(final)
+    emb_before, missing_before = fonts_embedded(doc)
+    t3_before = type3_fonts(doc)
+    doc.close()
+
+    # BookVault's font check is the one thing a pack like this cannot clear on its
+    # own: their preflight rejects a font with no program behind it, and neither
+    # the standard-14 names pymupdf edits leave behind nor a Type 3 glyph program
+    # can be embedded. Outlining runs LAST, so the PDF/X decision and the
+    # flattening above were taken on the file as it stood.
+    outlined, invis_spans, outline_note = False, 0, ""
+    if missing_before or t3_before:
+        outlined, invis_spans, outline_note = strip_fonts(final, slug)
+        if outlined:
+            names = list(missing_before[:2])
+            if t3_before:
+                names.append(f"{t3_before} Type 3 glyph programs")
+            note = (f"kept RGB: the master sets its text in fonts that cannot be "
+                    f"embedded ({', '.join(names)}); the pack outlines those glyphs "
+                    f"so BookVault's font check passes, and their preflight converts "
+                    f"the RGB (guide p.6)")
+
+    doc = pymupdf.open(final)
     left_transparent = transparency_pages(doc)
     rec = {
         "file": final.name,
@@ -1098,6 +1325,10 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
         "bleed_mm": BLEED_MM,
         "cover_stripped": stripped_cover,
         "type3": type3_fonts(doc),
+        "text_outlined": outlined,
+        "invisible_text_spans": invis_spans,
+        "fonts_outlined": (list(missing_before) if outlined else []),
+        "outline_note": outline_note,
         "pdfx": bool(ok and do_pdfx),
         "flattened": flattened,
         "transparent_pages": len(left_transparent),
@@ -1753,11 +1984,19 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
         "the front cover and the back cover are removed: they belong in the "
         "cover file, and leaving them in prints the cover twice")
     emb, missing = fonts_embedded(doc)
+    outlined = bool(text.get("text_outlined"))
     add("All fonts embedded", emb,
+        ("every font is embedded: the book's glyphs are outlined as the vector "
+         "artwork they always were, and the one font left -- the invisible, "
+         "searchable text layer -- is embedded (guide p.3)")
+        if emb and outlined else
         "every font is embedded (guide p.3)" if emb
         else "NOT embedded: " + ", ".join(missing[:4]) + source_font_note(slug, missing))
     t3 = type3_fonts(doc)
     add("No Type 3 glyph-program fonts", t3 == 0,
+        ("none: the Type 3 glyph programs this book was set in are now vector "
+         "artwork in the page itself (guide p.3)")
+        if not t3 and outlined else
         "none: every font is a real embedded font file (guide p.3)"
         if not t3 else
         f"{t3} Type 3 fonts. These carry headings as drawing programs instead of "
@@ -1854,12 +2093,17 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     L.append(f"  Binding ............ {settings['binding']}")
     L.append(f"  Paper stock ........ {settings['paper']}")
     L.append(f"  Cover lamination ... {settings['lamination']}")
-    L.append(f"  Trim size .......... CUSTOM {TRIM_W_MM:g} mm wide x {TRIM_H_MM:g} mm high")
-    L.append(f"                       (Their own template for this book is "
-             f"v4_Text_279_216.pdf: 222 x 285 mm")
+    # BookVault's quote tool and title form DO list this trim as a standard size
+    # ("216 x 279 (US Letter)", verified against quote.bookvault.app): telling the
+    # teacher to pick CUSTOM invites a mistyped size on their form, and a size
+    # that does not match the file is one of the things their validator rejects.
+    L.append(f"  Trim size .......... 216 x 279 (US Letter) -- the standard option in their")
+    L.append(f"                       SIZE list. Their own template for this book is")
+    L.append(f"                       v4_Text_279_216.pdf: {TRIM_W_MM + 2 * BLEED_MM:g} x "
+             f"{TRIM_H_MM + 2 * BLEED_MM:g} mm")
     L.append(f"                       with {BLEED_MM:g} mm bleed, i.e. {TRIM_W_MM:g} x {TRIM_H_MM:g} mm "
-             f"finished. BookVault's standard")
-    L.append(f"                       list has no such size, so choose the custom option.)")
+             f"finished. Pick the standard size;")
+    L.append(f"                       use CUSTOM only if that option is missing from your list.")
     L.append(f"  Page count ......... {text['pages']} (interior only, covers excluded)")
     if text["padded_pages"]:
         L.append(f"                       = {text['content_pages']} pages of book + "
@@ -1921,7 +2165,17 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     L.append("    two templates they published for this book:")
     L.append(f"      bleed {BLEED_MM:g} mm on every edge (p.5); text file media box is")
     L.append(f"      trim + bleed = {TRIM_W_MM + 2 * BLEED_MM:g} x {TRIM_H_MM + 2 * BLEED_MM:g} mm (p.5,p.18)")
-    L.append(f"      page count one less than a multiple of {PAGES_MODULO}: {text['pages']} (p.5)")
+    # The guide's p.5 rule (one less than a multiple of 12) is written for Royal
+    # size or smaller; their current help centre gives one less than a multiple
+    # of 4 for anything larger, which is what this 216 x 279 mm trim is. Either
+    # way their production barcode page is added at the rear, so state the count
+    # that was actually supplied rather than a rule it does not satisfy.
+    L.append(f"      page count supplied: {text['pages']} "
+             f"({text['content_pages']} of book"
+             + (f" + {text['padded_pages']} blank at the rear" if text['padded_pages'] else "")
+             + "); their production barcode")
+    L.append(f"      page is added at the rear whatever count is supplied (guide p.5;")
+    L.append(f"      over Royal/US Royal size their help centre asks for 4n-1)")
     L.append("      first page prints on the first right-hand page (p.5), so page 1 is a")
     L.append("      recto. Prime Books pages are not mirrored, so no layout moves; the")
     L.append("      binding-edge check below measures the real clearance instead")
@@ -1937,6 +2191,16 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     L.append("    This file is converted to CMYK through Ghostscript's default CMYK")
     L.append("    profile, not a FOGRA one - ask BookVault for their output profile and")
     L.append("    rebuild with --profile <icc> if the press is calibrated.")
+    if text.get("text_outlined"):
+        L.append("  * FONT EMBEDDING (BookVault's check, the one this book failed):")
+        L.append("    the interior carried fonts with no program behind them -- base-14")
+        L.append("    Helvetica, which pymupdf edits leave behind, and Type 3 fonts,")
+        L.append("    which are glyph programs rather than font files. Neither can be")
+        L.append("    embedded, so the pack outlines those glyphs: they were vector art")
+        L.append("    already, and the page renders pixel for pixel the same. The")
+        L.append(f"    {text.get('invisible_text_spans', 0)} text spans are re-laid invisibly in ONE")
+        L.append("    embedded font, so the file still searches and still copy-pastes.")
+        L.append(f"    Fonts replaced: {', '.join(text.get('fonts_outlined') or []) or '(all Type 3)'}")
     if text.get("type3"):
         L.append(f"  * This book carries {text['type3']} Type 3 fonts (headings drawn as")
         L.append("    glyph programs rather than an embedded font). Ghostscript 10.02.1")
