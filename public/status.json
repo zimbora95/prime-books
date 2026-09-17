@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-16 03:22 UTC",
+ "generated": "2026-09-17 03:32 UTC",
  "totals": {
   "books": 124,
-  "pages": 12353,
+  "pages": 12370,
   "withInput": 83,
   "noInput": 41,
   "standardized": 0,
   "years": 13,
-  "machineClean": 17
+  "machineClean": 5
  },
  "years": [
   {
@@ -23,10 +23,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 1,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 2,
+      "state": "not-standardised"
      }
     },
     {
@@ -40,7 +40,7 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
+      "failures": 6,
       "warnings": 2,
       "state": "not-standardised"
      }
@@ -71,10 +71,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 1,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 5,
+      "warnings": 3,
+      "state": "not-standardised"
      }
     },
     {
@@ -86,7 +86,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -100,10 +100,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 1,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 2,
+      "state": "not-standardised"
      }
     },
     {
@@ -117,7 +117,7 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
+      "failures": 6,
       "warnings": 2,
       "state": "not-standardised"
      }
@@ -133,8 +133,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
-      "warnings": 2,
+      "failures": 6,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -148,10 +148,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
+      "ok": false,
+      "failures": 1,
       "warnings": 2,
-      "state": "machine-clean"
+      "state": "not-standardised"
      }
     },
     {
@@ -176,7 +176,7 @@
      "checked": {
       "ok": false,
       "failures": 5,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -191,8 +191,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
-      "warnings": 2,
+      "failures": 6,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -240,10 +240,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 3,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 4,
+      "state": "not-standardised"
      }
     },
     {
@@ -257,8 +257,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 4,
-      "warnings": 3,
+      "failures": 5,
+      "warnings": 4,
       "state": "not-standardised"
      }
     },
@@ -273,8 +273,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
-      "warnings": 2,
+      "failures": 6,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -287,7 +287,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -314,10 +314,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 3,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 4,
+      "state": "not-standardised"
      }
     },
     {
@@ -332,7 +332,7 @@
      "checked": {
       "ok": false,
       "failures": 5,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not-standardised"
      }
     },
@@ -347,8 +347,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
-      "warnings": 2,
+      "failures": 6,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -363,8 +363,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
-      "warnings": 2,
+      "failures": 6,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -378,10 +378,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 1,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 2,
+      "state": "not-standardised"
      }
     },
     {
@@ -393,7 +393,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -406,7 +406,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     }
@@ -430,7 +430,7 @@
      "checked": {
       "ok": true,
       "failures": 0,
-      "warnings": 2,
+      "warnings": 3,
       "state": "machine-clean"
      }
     },
@@ -444,10 +444,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
+      "ok": false,
+      "failures": 1,
       "warnings": 1,
-      "state": "machine-clean"
+      "state": "not-standardised"
      }
     },
     {
@@ -462,7 +462,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -475,7 +475,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -488,7 +488,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -502,10 +502,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 2,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 3,
+      "state": "not-standardised"
      }
     },
     {
@@ -520,7 +520,7 @@
      "checked": {
       "ok": true,
       "failures": 0,
-      "warnings": 1,
+      "warnings": 2,
       "state": "machine-clean"
      }
     },
@@ -536,7 +536,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -552,7 +552,7 @@
      "checked": {
       "ok": true,
       "failures": 0,
-      "warnings": 1,
+      "warnings": 2,
       "state": "machine-clean"
      }
     },
@@ -568,7 +568,7 @@
      "checked": {
       "ok": false,
       "failures": 5,
-      "warnings": 2,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -584,7 +584,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -597,7 +597,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -610,7 +610,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     }
@@ -632,10 +632,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 2,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 3,
+      "state": "not-standardised"
      }
     },
     {
@@ -649,8 +649,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 0,
-      "warnings": 4,
+      "failures": 1,
+      "warnings": 5,
       "state": "not built"
      }
     },
@@ -666,7 +666,7 @@
      "checked": {
       "ok": false,
       "failures": 6,
-      "warnings": 2,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -679,7 +679,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -692,7 +692,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -708,7 +708,7 @@
      "checked": {
       "ok": false,
       "failures": 5,
-      "warnings": 2,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -724,7 +724,7 @@
      "checked": {
       "ok": false,
       "failures": 6,
-      "warnings": 2,
+      "warnings": 3,
       "state": "not-standardised"
      }
     },
@@ -740,7 +740,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -754,10 +754,10 @@
      },
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 1,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 2,
+      "state": "not-standardised"
      }
     },
     {
@@ -767,10 +767,10 @@
      "input": null,
      "standardized": false,
      "checked": {
-      "ok": true,
-      "failures": 0,
-      "warnings": 2,
-      "state": "machine-clean"
+      "ok": false,
+      "failures": 1,
+      "warnings": 3,
+      "state": "not-standardised"
      }
     },
     {
@@ -785,7 +785,7 @@
      "checked": {
       "ok": false,
       "failures": 5,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -798,7 +798,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     },
@@ -811,7 +811,7 @@
      "checked": {
       "ok": false,
       "failures": 4,
-      "warnings": 3,
+      "warnings": 4,
       "state": "not built"
      }
     }
@@ -1156,7 +1156,7 @@
     {
      "slug": "y07-portuguese-1st",
      "subject": "Portuguese 1st",
-     "pages": 136,
+     "pages": 153,
      "input": {
       "kind": "XLSX",
       "file": "y07-portuguese-1st - input.xlsx"
@@ -1196,7 +1196,7 @@
    ],
    "withInput": 11,
    "standardized": 0,
-   "pages": 1344
+   "pages": 1361
   },
   {
    "year": 8,
@@ -1544,6 +1544,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-09-16 03:00 UTC",
+ "checked_at": "2026-09-17 03:00 UTC",
  "spec": "A-2.3-Y1-4"
 }
