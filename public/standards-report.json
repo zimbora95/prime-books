@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17 03:00 UTC",
+ "generated": "2026-09-18 03:00 UTC",
  "spec": "A-2.3-Y1-4",
  "certified_by": "the teacher, click by click on /status",
  "machine_cannot_check": [
@@ -12,13 +12,13 @@
  ],
  "scope": "Years 1 to 4 only; other years are measured only with --all-years",
  "totals": {
-  "books": 52,
+  "books": 53,
   "out_of_scope": 72,
-  "built": 31,
+  "built": 32,
   "not_built": 21,
-  "machine_clean": 5,
+  "machine_clean": 6,
   "signed_off": 0,
-  "awaiting_sign_off": 5,
+  "awaiting_sign_off": 6,
   "failing": 26
  },
  "books": [
@@ -265,6 +265,93 @@
     ]
    },
    "state": "not-standardised"
+  },
+  {
+   "slug": "y01-english-standard",
+   "pages": 71,
+   "spec": "A-2.3-Y1-4",
+   "ok": true,
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "page_size": [
+     612.0,
+     792.0
+    ],
+    "font_families": [
+     "Andika Bold",
+     "Andika Regular",
+     "Caveat Regular",
+     "Fredoka SemiBold",
+     "Poppins SemiBold"
+    ],
+    "contents_page": 3,
+    "unit_count": 7,
+    "contents_segments": 8,
+    "unit_openers": [
+     8,
+     17,
+     26,
+     35,
+     44,
+     53
+    ],
+    "pages_without_band": 0,
+    "pages_without_folio": 0,
+    "text_outside_box_pages": [],
+    "modal_text_size_pt": 16.0,
+    "reading_ladder_pt": {
+     "1": 16.0,
+     "2": 16.0,
+     "3": 15.0,
+     "4": 14.5
+    },
+    "year": null,
+    "extent_legal": true,
+    "half_blank_pages": [],
+    "pages_ending_short": [],
+    "task_pages_items_and_plates_differ": [
+     {
+      "page": 13,
+      "items": 4,
+      "plates": 5
+     },
+     {
+      "page": 22,
+      "items": 4,
+      "plates": 3
+     },
+     {
+      "page": 31,
+      "items": 4,
+      "plates": 3
+     },
+     {
+      "page": 40,
+      "items": 4,
+      "plates": 3
+     },
+     {
+      "page": 48,
+      "items": 4,
+      "plates": 3
+     },
+     {
+      "page": 58,
+      "items": 4,
+      "plates": 3
+     }
+    ],
+    "manual_checks_still_required": [
+     "teacher content preserved on its page",
+     "reading size approved for the year",
+     "illustration quality, rights and credits",
+     "contrast and no colour-only coding",
+     "every QR code decoded and every URL opened",
+     "one physical print proof held in the hand"
+    ]
+   },
+   "state": "machine-clean"
   },
   {
    "slug": "y01-german-a1a2",
