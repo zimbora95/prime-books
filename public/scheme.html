@@ -511,6 +511,157 @@
     </div>
   </header>
 
+  <!-- HERO VISUAL CONCEPT & ARCHITECTURE BOARD -->
+  <div class="section-wrap" style="margin-bottom:34px;">
+    <div class="diagram-board" style="padding: 24px; background: #fff; border: 2px solid var(--gold);">
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; flex-wrap:wrap; gap:10px;">
+        <div>
+          <span class="pill" style="background:var(--gold-bg); color:#7a5a00; border-color:var(--gold); font-weight:700;">VISUAL BLUEPRINT</span>
+          <h2 style="font-family:'Fredoka',sans-serif; font-size:24px; color:var(--ink); margin-top:6px;">Visual Anatomy: What Constitutes One Prime Book</h2>
+        </div>
+        <div style="font-family:'JetBrains Mono',monospace; font-size:12px; color:var(--muted); background:var(--cream); padding:6px 12px; border-radius:6px; border:1px solid var(--line);">
+          model: <b style="color:var(--terra);">openai/gpt-image-2.5-sunburst</b> • quality: <b>medium</b>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: minmax(320px, 460px) 1fr; gap:26px; align-items:center;">
+        <!-- AI Generated Conceptual Diagram -->
+        <div style="position:relative; border-radius:12px; overflow:hidden; border:1px solid var(--line); box-shadow:0 8px 24px rgba(0,0,0,0.08); background:#faf7f0;">
+          <img src="/scheme-diagram.webp" alt="Prime Book Architecture Diagram" style="width:100%; height:auto; display:block;">
+          <div style="position:absolute; bottom:0; left:0; right:0; background:rgba(28,26,19,0.85); color:#fff; padding:8px 14px; font-size:12px; backdrop-filter:blur(4px);">
+            🎨 <b>Conceptual Diagram:</b> The 5 Constituent Layers of Every Prime Book
+          </div>
+        </div>
+
+        <!-- Visual Flow Schematic -->
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="background:var(--cream); border-left:4px solid var(--blue); border-radius:8px; padding:12px 16px;">
+            <b style="font-family:'Fredoka',sans-serif; font-size:16px; color:var(--blue);">1. Synced Markdown Companion (.md)</b>
+            <p style="font-size:13.5px; color:var(--muted); margin-top:2px;">
+              Path: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">public/markdown/{slug}.md</code> (125 files total).
+              Holds the complete structured text and page markers. Pre-commit hook <code class="mono">tools/md_sync.py</code> enforces 0% drift against the PDF so Hermes AI can quote and search.
+            </p>
+          </div>
+
+          <div style="background:var(--cream); border-left:4px solid var(--terra); border-radius:8px; padding:12px 16px;">
+            <b style="font-family:'Fredoka',sans-serif; font-size:16px; color:var(--terra);">2. Dedicated Image Folders & Artwork</b>
+            <p style="font-size:13.5px; color:var(--muted); margin-top:2px;">
+              • Rapid Flipbook Previews: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">public/library/{slug}/preview/</code> (<code class="mono">01.webp</code>, <code class="mono">02.webp</code>, <code class="mono">last.webp</code>)<br>
+              • Front Cover: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">public/library/{slug}/cover.webp</code> (720×926)<br>
+              • Master Covers: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">public/collection-covers/Y{NN}-{Subject}.webp</code>
+            </p>
+          </div>
+
+          <div style="background:var(--cream); border-left:4px solid var(--teal); border-radius:8px; padding:12px 16px;">
+            <b style="font-family:'Fredoka',sans-serif; font-size:16px; color:var(--teal);">3. Curriculum Scheme of Work (Input Source)</b>
+            <p style="font-size:13.5px; color:var(--muted); margin-top:2px;">
+              Path: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">public/inputs/{slug} - input.xlsx</code> (or <code class="mono">.pdf</code>).
+              Contains Cambridge syllabus codes, term planning, unit schemes, and teacher lesson hour allocations.
+            </p>
+          </div>
+
+          <div style="background:var(--cream); border-left:4px solid var(--moss); border-radius:8px; padding:12px 16px;">
+            <b style="font-family:'Fredoka',sans-serif; font-size:16px; color:var(--moss);">4. Core Flipbook PDF (Web Distribution)</b>
+            <p style="font-size:13.5px; color:var(--muted); margin-top:2px;">
+              Path: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">public/library/{slug}/book.pdf</code>.
+              Interactive web-optimised flipbook. <b>Non-negotiable:</b> Always ends on an EVEN page count so the back cover renders standalone.
+            </p>
+          </div>
+
+          <div style="background:var(--cream); border-left:4px solid var(--purple); border-radius:8px; padding:12px 16px;">
+            <b style="font-family:'Fredoka',sans-serif; font-size:16px; color:var(--purple);">5. Print Deliverable Packages (KDP & BookVault)</b>
+            <p style="font-size:13.5px; color:var(--muted); margin-top:2px;">
+              • Amazon KDP Wrap: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">cover-wrap-amazon.pdf/.png</code> (Back + Spine + Front calculated to mm)<br>
+              • BookVault Pack: <code class="mono" style="background:#fff; padding:2px 6px; border-radius:4px;">bookvault/{slug}-text-file.pdf</code> (PDF/X interior) & <code class="mono">-cover-file.pdf</code>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pure SVG Interactive Schematic Line Diagram -->
+      <div style="margin-top:26px; padding-top:20px; border-top:1px solid var(--line);">
+        <h3 style="font-family:'Fredoka',sans-serif; font-size:18px; color:var(--ink); margin-bottom:12px; display:flex; align-items:center; gap:8px;">
+          <span>⚡ Interactive Data Flow Diagram</span>
+          <span style="font-family:'Poppins',sans-serif; font-size:11px; font-weight:normal; color:var(--muted);">(From Curriculum Input to Multi-Channel Publishing)</span>
+        </h3>
+
+        <svg viewBox="0 0 960 260" style="width:100%; height:auto; background:var(--cream); border:1px solid var(--line); border-radius:10px; font-family:'Poppins',sans-serif;">
+          <defs>
+            <linearGradient id="gradInput" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#eaf7f5"/>
+              <stop offset="100%" stop-color="#c8eae5"/>
+            </linearGradient>
+            <linearGradient id="gradMd" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#eaf2fb"/>
+              <stop offset="100%" stop-color="#c5ddf7"/>
+            </linearGradient>
+            <linearGradient id="gradBook" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#fdf5df"/>
+              <stop offset="100%" stop-color="#f5e0a6"/>
+            </linearGradient>
+            <linearGradient id="gradFlip" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#e8f5e3"/>
+              <stop offset="100%" stop-color="#c3e8b7"/>
+            </linearGradient>
+            <linearGradient id="gradPrint" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#f4ebfc"/>
+              <stop offset="100%" stop-color="#dcc5f7"/>
+            </linearGradient>
+            <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 8 5 L 0 9 z" fill="#888"/>
+            </marker>
+          </defs>
+
+          <!-- Arrows / Connectors -->
+          <path d="M 170 130 L 225 130" stroke="#999" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+          <path d="M 385 130 L 440 130" stroke="#999" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+          <path d="M 600 110 L 675 75" stroke="#999" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+          <path d="M 600 150 L 675 185" stroke="#999" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+
+          <!-- Step 1: Input Scheme of Work -->
+          <rect x="20" y="70" width="150" height="120" rx="10" fill="url(#gradInput)" stroke="#196f69" stroke-width="1.8"/>
+          <text x="95" y="98" font-size="13" font-weight="bold" fill="#196f69" text-anchor="middle">1. INPUT SOURCE</text>
+          <text x="95" y="118" font-size="11" fill="#333" text-anchor="middle">Scheme of Work</text>
+          <text x="95" y="136" font-size="10.5" font-family="JetBrains Mono" fill="#196f69" text-anchor="middle">inputs/{slug}.xlsx</text>
+          <text x="95" y="156" font-size="9.5" fill="#666" text-anchor="middle">Syllabus • Scope</text>
+          <text x="95" y="172" font-size="9.5" fill="#666" text-anchor="middle">Term Breakdown</text>
+
+          <!-- Step 2: Markdown & AI -->
+          <rect x="235" y="70" width="150" height="120" rx="10" fill="url(#gradMd)" stroke="#1e5a96" stroke-width="1.8"/>
+          <text x="310" y="98" font-size="13" font-weight="bold" fill="#1e5a96" text-anchor="middle">2. MARKDOWN / AI</text>
+          <text x="310" y="118" font-size="11" fill="#333" text-anchor="middle">Structured Content</text>
+          <text x="310" y="136" font-size="10.5" font-family="JetBrains Mono" fill="#1e5a96" text-anchor="middle">markdown/{slug}.md</text>
+          <text x="310" y="156" font-size="9.5" fill="#666" text-anchor="middle">Synced with PDF</text>
+          <text x="310" y="172" font-size="9.5" fill="#666" text-anchor="middle">Hermes AI Assistant</text>
+
+          <!-- Step 3: Central Book Entity -->
+          <rect x="450" y="55" width="150" height="150" rx="12" fill="url(#gradBook)" stroke="#d49700" stroke-width="2.2" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.06))"/>
+          <text x="525" y="85" font-size="14" font-weight="bold" fill="#8c6400" text-anchor="middle">PRIME BOOK</text>
+          <text x="525" y="105" font-size="11" fill="#333" text-anchor="middle">Standard A / B</text>
+          <text x="525" y="125" font-size="10.5" font-family="JetBrains Mono" fill="#8c6400" text-anchor="middle">public/library/</text>
+          <text x="525" y="145" font-size="10" fill="#444" text-anchor="middle">• cover.webp</text>
+          <text x="525" y="162" font-size="10" fill="#444" text-anchor="middle">• preview/ (01,02,last)</text>
+          <text x="525" y="180" font-size="10" fill="#444" text-anchor="middle">• even page parity</text>
+
+          <!-- Step 4A: Digital Web Flipbook -->
+          <rect x="685" y="25" width="255" height="95" rx="10" fill="url(#gradFlip)" stroke="#3e6b22" stroke-width="1.8"/>
+          <text x="812" y="50" font-size="13" font-weight="bold" fill="#3e6b22" text-anchor="middle">WEB FLIPBOOK & VIEWER</text>
+          <text x="812" y="70" font-size="11" font-family="JetBrains Mono" fill="#2c5918" text-anchor="middle">library/{slug}/book.pdf</text>
+          <text x="812" y="90" font-size="10" fill="#444" text-anchor="middle">StPageFlip 2-page spread • range requested</text>
+          <text x="812" y="106" font-size="10" fill="#444" text-anchor="middle">Instant catalogue hover thumbnails</text>
+
+          <!-- Step 4B: Print Distribution -->
+          <rect x="685" y="140" width="255" height="95" rx="10" fill="url(#gradPrint)" stroke="#5c3b8a" stroke-width="1.8"/>
+          <text x="812" y="165" font-size="13" font-weight="bold" fill="#5c3b8a" text-anchor="middle">PRINT-ON-DEMAND PACKS</text>
+          <text x="812" y="185" font-size="11" font-family="JetBrains Mono" fill="#4a2578" text-anchor="middle">Amazon KDP & BookVault UK</text>
+          <text x="812" y="205" font-size="10" fill="#444" text-anchor="middle">Calculated wrap: cover-wrap-amazon.pdf</text>
+          <text x="812" y="221" font-size="10" fill="#444" text-anchor="middle">PDF/X interior + exact spine: bookvault/</text>
+        </svg>
+      </div>
+
+    </div>
+  </div>
+
   <!-- Quick Answers Box -->
   <div class="quick-banner">
     <h2>
