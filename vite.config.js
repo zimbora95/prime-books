@@ -81,6 +81,7 @@ function bookDeepLinkFallback() {
         else if (/^\/standard\/?$/.test(path)) req.url = "/standard.html";
         else if (/^\/status\/?$/.test(path)) req.url = "/status.html";
         else if (/^\/syllabus\/?$/.test(path)) req.url = "/syllabus.html";
+        else if (/^\/scheme\/?$/.test(path)) req.url = "/scheme.html";
         else if (/^\/finished\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";
         else if (/^\/finished\/?$/.test(path)) req.url = "/index.html";
         else if (/^\/book\/[a-z0-9-]+\/?$/.test(path)) req.url = "/index.html";

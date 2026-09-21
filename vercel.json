@@ -45,6 +45,10 @@
       "destination": "/syllabus.html"
     },
     {
+      "source": "/scheme",
+      "destination": "/scheme.html"
+    },
+    {
       "source": "/book/:slug",
       "destination": "/index.html"
     }
