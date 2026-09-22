@@ -1080,61 +1080,6 @@
    "src": "none",
    "rows": []
   },
-  "y09-portuguese": {
-   "src": "From this book’s own unit openings.",
-   "rows": [
-    {
-     "label": "Unidade 1",
-     "unit": true,
-     "page": 5
-    },
-    {
-     "label": "Unidade 1 · OBJETIVOS",
-     "unit": true,
-     "page": 6
-    },
-    {
-     "label": "Unidade 1 · TEXTO 1",
-     "unit": true,
-     "page": 7
-    },
-    {
-     "label": "Unidade 1 · TEXTO 2",
-     "unit": true,
-     "page": 14
-    },
-    {
-     "label": "Unidade 1 · TEXTO 3",
-     "unit": true,
-     "page": 19
-    },
-    {
-     "label": "Unidade 1 · TEXTO 4",
-     "unit": true,
-     "page": 26
-    },
-    {
-     "label": "Unidade 1 · TEXTO 6",
-     "unit": true,
-     "page": 31
-    },
-    {
-     "label": "Unidade 1 · TEXTO 8",
-     "unit": true,
-     "page": 36
-    },
-    {
-     "label": "Unidade 1 · ORALIDADE",
-     "unit": true,
-     "page": 41
-    },
-    {
-     "label": "Unidade 1 · GRAMÁTICA",
-     "unit": true,
-     "page": 43
-    }
-   ]
-  },
   "y09-portuguese-2nd": {
    "src": "From this book’s own contents page — click a unit to open it.",
    "rows": [

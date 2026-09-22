@@ -6119,7 +6119,13 @@ function rr(x, px, py, w, h, r) {
         return ALIAS[v] || v;
       }
       function pdfForSubject(year, subj) {
-        return SUBJECT_PDFS[year + "|" + normSubject(subj)] || null;
+        return (
+          SUBJECT_PDFS[year + "|" + normSubject(subj)] ||
+          (normSubject(subj) === "portuguese1st"
+            ? SUBJECT_PDFS[year + "|portuguese"]
+            : null) ||
+          null
+        );
       }
 
       /* Resolve a book config to its synced PDF. The featured hero books in
@@ -7386,6 +7392,7 @@ function rr(x, px, py, w, h, r) {
                    Minted by tools/sync_library.py from year + subject, so it survives
                    a re-sync, a re-render and a rename of the served file. */
                 slug: activeSlug,
+                baseSlug: baseSlug,
                 brand: brand ? brand.id : null,
                 /* Editorial state, straight from the masters: `done` is true when the
                    student PDF sits in PDF/Output/Done. */
@@ -8222,14 +8229,24 @@ function rr(x, px, py, w, h, r) {
          pages); when there is none - the 4-page shells, the units-only books -
          the input source supplies the list instead. */
       async function loadSections(doc) {
-        const slug = (fbBookMeta && fbBookMeta.slug) || "";
+        const rawSlug = (fbBookMeta && (fbBookMeta.baseSlug || fbBookMeta.slug)) || "";
+        const cleanSlug = rawSlug.replace(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/, "");
+        const bases = [];
+        [rawSlug, cleanSlug].forEach((s) => {
+          if (s && !bases.includes(s)) bases.push(s);
+          if (s && s.slice(-9) === "-standard") {
+            const b = s.slice(0, -9);
+            if (b && !bases.includes(b)) bases.push(b);
+          }
+        });
+        if (cleanSlug === "y09-portuguese" && !bases.includes("y09-portuguese-1st")) bases.push("y09-portuguese-1st");
+        if (cleanSlug === "y09-portuguese-1st" && !bases.includes("y09-portuguese")) bases.push("y09-portuguese");
+
         /* Finished mode: the shell has no interior, so the complete list comes
            from the input - and a standardised edition falls back to the input of
            the master it was built from, which is the only place its units and
            topics are written down. */
         if (isFinishedMode()) {
-          const bases = [slug];
-          if (slug.slice(-9) === "-standard") bases.push(slug.slice(0, -9));
           for (let b = 0; b < bases.length; b++) {
             const full = await sectionsFromInput(bases[b]);
             if (full.length) {
@@ -8244,14 +8261,18 @@ function rr(x, px, py, w, h, r) {
         } catch (e) {
           secs = [];
         }
-        /* Finished mode: a row must never point at a page the shell does not
-           carry, or the panel would promise a jump the reader cannot make. */
-        if (secs.length) return isFinishedMode() ? secs.map(pbShellRow) : secs;
-        const fromInput = await sectionsFromInput(slug);
-        if (fromInput.length) {
-          fbSectionsSrc = "input";
-          return isFinishedMode() ? fromInput.map(pbShellRow) : fromInput;
+        /* If the book has its own contents page, that is what the pupil sees.
+           If there is no contents page (fbSectionsSrc === "openers" or secs is empty),
+           the scheme of work input takes precedence. */
+        if (secs.length && fbSectionsSrc === "contents") return secs;
+        for (let b = 0; b < bases.length; b++) {
+          const fromInput = await sectionsFromInput(bases[b]);
+          if (fromInput.length) {
+            fbSectionsSrc = "input";
+            return isFinishedMode() ? fromInput.map(pbShellRow) : fromInput;
+          }
         }
+        if (secs.length) return isFinishedMode() ? secs.map(pbShellRow) : secs;
         fbSectionsSrc = "none";
         return secs;
       }
