@@ -13,65 +13,49 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E S C H O O L P R E S S**
+ZZMARK-imprint-ENDZZ
+Global Perspectives · Year 5
 
-## Global Perspectives
-
-**Year 5 · Student Book**
+Student Book · Look Outwards
 
 Ask. Listen. Compare. Act with care.
 
-This book invites you to look further than last year: at how people communicate, why laws exist, how trade
-and ideas cross borders, how work is changing, how countries cooperate, and how to live wisely in a digital
-world. You will ask, listen, compare and act with care.
+About this book
 
-**I N S I D E T H I S B O O K**
+Prime School Press · Global Perspectives · Year 5 Student Book · Look Outwards · Wider Horizons
+First edition 2026
 
-Research, evaluate, reflect and act
+This book invites you to look further than last year: at how people communicate, why laws exist, how
+trade and ideas cross borders, how work is changing, how countries cooperate, and how to live wisely
+in a digital world. You will ask, listen, compare and act with care.
 
-Sources checked, never guessed
+Prime School Press is the publishing imprint of Prime School, Portugal. www.primeschool.pt
 
-A team project in every unit
+Imprint
 
-Notes pages for your own look outwards
+Prime School Press Global Perspectives · Year 5 · Student Book
 
-Original watercolour illustration throughout
+Publisher: Prime School Press, imprint of Prime School · www.primeschool.pt © Prime School 2026.
+All rights reserved. British English · metric measures · euros where money appears First edition 2026
 
-**I M P R I N T**
+All continuous prose, activities and illustrations in this edition are original to Prime School Press
+unless a Sources entry says otherwise.
 
-**EDITION**
-First edition, 2026. Printed in full colour on white stock.
+Editorial Board
 
-**PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
+The Prime School Press Subject Series has been developed under the guidance of the Pedagogical
+Academic Group for each subject and coordinated by the Pedagogical Team of Prime School.
 
-**RIGHTS**
-© Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of the publisher. All continuous prose,
-activities and illustrations in this edition are original to Prime School Press unless
-a Sources entry says otherwise. British English · metric measures · euros where
-money appears.
+This publication reflects our shared commitment to academic excellence, educational quality,
+professional integrity, and the continuous advancement of teaching and learning. Through the
+collective expertise and dedication of our educators, we aim to provide meaningful and engaging
+learning resources that support students' academic growth.
 
-**CREDITS**
-Editorial Board. The Prime School Press Subject Series has been developed under
-the guidance of the Pedagogical Academic Group for each subject and coordinated
-by the Pedagogical Team of Prime School. This publication reflects our shared
-commitment to academic excellence, educational quality, professional integrity,
-and the continuous advancement of teaching and learning. Our sincere
-appreciation to the Pedagogical Department and the Content Creation Team of
-Prime School for their contributions in making this publication possible.
+We extend our sincere appreciation to the Pedagogical Department and the Content Creation Team of
+Prime School for their invaluable contributions, dedication, and collaborative efforts in making this
+publication possible.
 
-Independent publication. This is an independent publication produced by Prime
-School for use within its own programmes of study. It is not affiliated with,
-licensed by, endorsed by or approved by any examination board, or by any other
-publisher.
-
-**A g e s 9 t o 1 0 · U p p e r P r i m a r y**
-
-**w w w . p r i m e s c h o o l . p t**
-
-**2**
+2
 
 <!-- page 3 -->
 
@@ -3764,17 +3748,13 @@ Perspectives.
 <!-- page 114 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+**P R I M E  B O O K S**
 
 ## Global Perspectives
 
-Year 5 · Prime School Press · Student Manual
-
 My Look Outwards notes.
 
-Six units, one careful habit of mind. Research the world, check the source, debate
-
-fairly, and act on what you found out.
+search the world, check the source, debate
 
 **INSIDE THIS BOOK**
 
@@ -3793,8 +3773,10 @@ Notes pages for your own look outwards
 •
 Original watercolour illustration throughout
 
-**Prime School Press · Global Perspectives**
+**Prime Books · Global Perspectives**
 
 Ages 9–10 · Upper Primary
 
 **primeschool.pt**
+
+              

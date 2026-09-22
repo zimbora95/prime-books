@@ -4,6 +4,7 @@
 <!-- page 1 -->
 
 ---
+
 ## Art & Design
 
 ## Year 5
@@ -2663,6 +2664,7 @@ for a cushion in a busy room, and write down the reason they give,
 
 not only their choice.
 
+Their choice:
 
 Their reason:
 
@@ -2683,8 +2685,6 @@ UNIT 3  FABRIC AND CRAFT
 SKILLS WORKSHOP
 
 74
-
-Their choice:
 
 <!-- page 75 -->
 
@@ -3019,10 +3019,7 @@ Mix and paint the three secondary colours, then one tint and one shade of
 
 your favourite.
 
-UNIT 4  PAINTING FOR PURPOSE
-TOPIC 4.1
-
-83
+My recipe for the green I mixed:
 
 ORANGE
 GREEN
@@ -3030,7 +3027,10 @@ GREEN
 PURPLE
 A TINT AND A SHADE
 
-My recipe for the green I mixed:
+UNIT 4  PAINTING FOR PURPOSE
+TOPIC 4.1
+
+83
 
 <!-- page 84 -->
 
@@ -3621,12 +3621,12 @@ shapes.
 
 **3**
 
+ANSWERS 1 TO 3
+
 UNIT 4  PAINTING FOR PURPOSE
 UNIT REVIEW
 
 99
-
-ANSWERS 1 TO 3
 
 <!-- page 100 -->
 
@@ -5091,11 +5091,12 @@ FOR TEACHERS
 <!-- page 126 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+
+**P R I M E  B O O K S**
 
 ## Art & Design
 
-Year 5 · Prime School Press · Student Manual
+Year 5 · Student Manual
 
 Control and choice. That is the difference this year.
 
@@ -5122,7 +5123,7 @@ A curated show of your own to finish
 •
 Original watercolour illustration throughout
 
-**Prime School Press · Art & Design**
+**Prime Books · Art & Design**
 
 Ages 9–10 · Upper Primary
 

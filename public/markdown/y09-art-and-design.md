@@ -13,68 +13,19 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+Year 9 Art & Design  ·  Student Course Book
 
-## Art & Design
-
-**Year 9 · Student Course Book**
-
-Every child is an artist. Keep the studio open.
-
-Year 9 art and design develops making, looking and thinking: drawing, colour, print, 3D and the artists who
-changed how we see.
-
-**I N S I D E  T H I S  B O O K**
-
-Skills: drawing, paint, print, 3D
-
-Artists and movements in context
-
-Sketchbook habit and portfolio building
-
-Critique language and reflection
-
-Final project per unit
-
-**I M P R I N T**
-
-**EDITION**
-First edition, 2026. Printed in full colour on white stock.
-
-**PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
-
-**RIGHTS**
-© Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of the publisher.
-
-**CREDITS**
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team. Written and typeset in the Prime School
-Press studio, Lisbon.
-
-**CURRICULUM**
-Cambridge Lower Secondary Art & Design (0073), Stage 9. Ages about 13 to 14.
-
-**LICENCE**
-It is an independent publication and is not an official Cambridge Assessment
-International Education or Oxford University Press publication.
-
-Independent publication. This is an independent publication produced
-by Prime School for use within its own programmes of study. It is not
-affiliated with, licensed by, endorsed by or approved by any
-examination board, or by any other publisher.
-
-**A g e s  1 3  t o  1 4  ·  L o w e r  S e c o n d a r y**
-
-**w w w . p r i m e s c h o o l . p t**
-
+Prime Books  ·  Cambridge Lower Secondary
+Page
 **2**
 
-<!-- page 3 -->
+**Imprint**
 
----
+Independent publication for Prime School. First edition, 2026. Curriculum context: Cambridge
+Lower Secondary Art & Design (0073), Stage 9. Ages about 13 to 14. www.primeschool.pt
+Editorial Board: Pedagogical Academic Group · Pedagogical Team · Pedagogical Department ·
+Content Creation Team.
+
 **Welcome**
 
 This book is your student course book for Year 9 Art & Design.
@@ -129,199 +80,193 @@ Most artists do not jump straight to a final masterpiece. A common studio cycle 
 
 Warm-ups that look wrong can still be excellent practice. Neatness is not the same as learning.
 
-Year 9 Art & Design  ·  Student Course Book
-
-Prime Books  ·  Cambridge Lower Secondary
-**3**
-
-<!-- page 4 -->
+<!-- page 3 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
 
 Prime Books  ·  Cambridge Lower Secondary
 Page
+**3**
 
 ## Contents
 
-**Introduction ....................................................................................................................................................................**
-
-**Unit 9.1 · Still Life ......................................................................................................................................................**
-
-Chapter 1  Introduction to still life ..............................................................................................................................
-
-Chapter 2  Observational studies ................................................................................................................................
-
-Chapter 3  Media experimentation .............................................................................................................................
-
-Chapter 4  Artist research ...........................................................................................................................................
-
-Chapter 5  Composition development .........................................................................................................................
-
-Chapter 6  Final still life outcome ...............................................................................................................................
-
-Chapter 7  Review and project completion .................................................................................................................
-
-**Unit 9.2 · Identity .......................................................................................................................................................**
-
-Chapter 1  Introduction to identity ..............................................................................................................................
-
-Chapter 2  Image gathering ........................................................................................................................................
-
-Chapter 3  Portrait and symbolic studies ....................................................................................................................
-
-Chapter 4  Media experimentation .............................................................................................................................
-
-Chapter 5  Image manipulation ..................................................................................................................................
-
-Chapter 6  Artist research and analysis ......................................................................................................................
-
-Chapter 7  Composition planning ................................................................................................................................
-
-Chapter 8  Final outcome development ......................................................................................................................
-
-Chapter 9  Review and project completion .................................................................................................................
-
-**Unit 9.3 · On the Surface / Contained ..................................................................................................................**
-
-Chapter 1  Theme introduction ...................................................................................................................................
-
-Chapter 2  Mind maps and mood boards ....................................................................................................................
-
-Chapter 3  Visual recording ........................................................................................................................................
-
-Chapter 4  Artist research ...........................................................................................................................................
-
-Chapter 5  Media exploration ......................................................................................................................................
-
-Chapter 6  Image development ..................................................................................................................................
-
-Chapter 7  Composition planning ................................................................................................................................
-
-Chapter 8  Final outcome development ......................................................................................................................
-
-Chapter 9  Review and project completion .................................................................................................................
-
-**Unit 9.4 · Exhibition ...................................................................................................................................................**
-
-Chapter 1  Selection of work .......................................................................................................................................
-
-Chapter 2  Portfolio review .........................................................................................................................................
-
-Chapter 3  Presentation planning ...............................................................................................................................
-
-Chapter 4  Artist statement ........................................................................................................................................
-
-**Studio pages · Look, try, reflect ............................................................................................................................**
-
-Techniques 1-5 · Watercolour to acrylic ........................................................................................................................
-
-**Appendix · Reference ....................................................................................................................................................**
-
-A  Visual elements .........................................................................................................................................................
-
-B  Principles of design ...................................................................................................................................................
-
-C  Art & Design vocabulary ...........................................................................................................................................
-
-D  Artists, designers and references .............................................................................................................................
-
-E  Assessment and success criteria ...............................................................................................................................
-
-Notes .............................................................................................................................................................................
-
-Sources .........................................................................................................................................................................
-
+**Introduction**
 **4**
+....................................................................................................................................................................
 
-**5**
+**Unit 9.1 · Still Life**
+**10**
+......................................................................................................................................................
+Chapter 1  Introduction to still life
+10
+..............................................................................................................................
 
-**11**
-11
+Chapter 2  Observational studies
+13
+................................................................................................................................
 
-14
+Chapter 3  Media experimentation
+16
+.............................................................................................................................
 
+Chapter 4  Artist research
 17
+...........................................................................................................................................
 
+Chapter 5  Composition development
 18
+.........................................................................................................................
 
+Chapter 6  Final still life outcome
 19
+...............................................................................................................................
 
-20
+Chapter 7  Review and project completion
+21
+.................................................................................................................
 
+**Unit 9.2 · Identity**
+**22**
+.......................................................................................................................................................
+
+Chapter 1  Introduction to identity
 22
+..............................................................................................................................
 
-**23**
-
+Chapter 2  Image gathering
 23
+........................................................................................................................................
 
-24
+Chapter 3  Portrait and symbolic studies
+25
+....................................................................................................................
 
-26
+Chapter 4  Media experimentation
+27
+.............................................................................................................................
 
+Chapter 5  Image manipulation
 28
+..................................................................................................................................
 
+Chapter 6  Artist research and analysis
 29
+......................................................................................................................
 
+Chapter 7  Composition planning
 30
+................................................................................................................................
 
+Chapter 8  Final outcome development
 31
+......................................................................................................................
 
+Chapter 9  Review and project completion
 32
+.................................................................................................................
 
-33
+**Unit 9.3 · On the Surface / Contained**
+**35**
+..................................................................................................................
 
-**36**
+Chapter 1  Theme introduction
+35
+...................................................................................................................................
 
+Chapter 2  Mind maps and mood boards
 36
+....................................................................................................................
 
+Chapter 3  Visual recording
 37
+........................................................................................................................................
 
+Chapter 4  Artist research
 38
+...........................................................................................................................................
 
-39
+Chapter 5  Media exploration
+40
+......................................................................................................................................
 
+Chapter 6  Image development
+40
+..................................................................................................................................
+
+Chapter 7  Composition planning
 41
+................................................................................................................................
 
-41
-
+Chapter 8  Final outcome development
 42
+......................................................................................................................
 
+Chapter 9  Review and project completion
 43
+.................................................................................................................
 
-44
+**Unit 9.4 · Exhibition**
+**45**
+...................................................................................................................................................
 
-**46**
+Chapter 1  Selection of work
+45
+.......................................................................................................................................
 
+Chapter 2  Portfolio review
 46
+.........................................................................................................................................
 
+Chapter 3  Presentation planning
 47
+...............................................................................................................................
 
-48
+Chapter 4  Artist statement
+49
+........................................................................................................................................
 
-50
+**Studio pages · Look, try, reflect**
+**53**
+............................................................................................................................
 
-**54**
+Techniques 1-5 · Watercolour to acrylic
+57
+........................................................................................................................
 
-58
+**Appendix · Reference**
+**62**
+....................................................................................................................................................
 
-**63**
+A  Visual elements
+63
+.........................................................................................................................................................
 
-64
+B  Principles of design
+65
+...................................................................................................................................................
 
+C  Art & Design vocabulary
 66
+...........................................................................................................................................
 
-67
+D  Artists, designers and references
+68
+.............................................................................................................................
 
+E  Assessment and success criteria
 69
+...............................................................................................................................
 
+Notes
 70
+.............................................................................................................................................................................
 
+Sources
 71
+.........................................................................................................................................................................
 
-72
-
-<!-- page 5 -->
+<!-- page 4 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -407,9 +352,9 @@ Year 9 is the year you practise that independence. Your teacher will still demon
 keep the room safe. The thinking, though, has to become yours.
 
 Page
-5
+4
 
-<!-- page 6 -->
+<!-- page 5 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -472,9 +417,9 @@ Record what failed and why
 Pretending every page is a final
 
 Page
-6
+5
 
-<!-- page 7 -->
+<!-- page 6 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -511,9 +456,9 @@ IMAGE 0.04 - Memory versus observation. Purpose: compare a simplified memory ske
 bottle and apple.
 
 Page
-7
+6
 
-<!-- page 8 -->
+<!-- page 7 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -581,9 +526,9 @@ You are expected to:
 • use lesson time effectively
 
 Page
-8
+7
 
-<!-- page 9 -->
+<!-- page 8 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -645,9 +590,9 @@ safe cutting
 IMAGE 0.06 - Working safely. Purpose: cutting mat, organised table, liquids away from electrical equipment.
 
 Page
-9
+8
 
-<!-- page 10 -->
+<!-- page 9 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -694,9 +639,10 @@ It becomes: "Why do I want to make this, and how can I make the viewer understan
 
 That is the beginning of becoming an independent artist.
 
-Page 10
+Page
+9
 
-<!-- page 11 -->
+<!-- page 10 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -741,6 +687,7 @@ not last. You do not have to paint a skull to talk about time. A browning apple 
 do it.
 
 Page
+10
 
 A still life is a work of art showing non-living objects. These items can be natural, like fruit and flowers,
 or man-made, like books and cups. The word comes from an old Dutch term meaning quiet or stationary
@@ -753,9 +700,7 @@ Focus on basics: artists study colour, shape and how light hits an object. Freed
 so artists can take their time arranging them. Hidden meanings: some pieces send messages about
 wealth, time or death.
 
-11
-
-<!-- page 12 -->
+<!-- page 11 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -811,9 +756,10 @@ sketch: same objects, two different compositions
 **The visual elements as tools**
 You will use line, shape, form, tone, colour, texture, pattern and space.
 
-Page 12
+Page
+11
 
-<!-- page 13 -->
+<!-- page 12 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -869,9 +815,10 @@ Objects in a grid. Repetition turns stuff into looking.
 IMAGE 9.1.04 - Four still-life strategies. Purpose: original teaching arrangements for quiet bottles, constructive fruit, dramatic cellar light,
 and outline objects.
 
-Page 13
+Page
+12
 
-<!-- page 14 -->
+<!-- page 13 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -922,9 +869,10 @@ Do not automatically outline everything.
 
 Sometimes an edge can be communicated through a change in tone rather than a drawn line.
 
-Page 14
+Page
+13
 
-<!-- page 15 -->
+<!-- page 14 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -950,9 +898,10 @@ Cloth swallows them. A lemon has a core shadow that turns.
 
 IMAGE 9.1.06 - A tonal map. Purpose: highlight, mid-tone, core shadow, reflected light and cast shadow on a jug and lemon.
 
-Page 15
+Page
+14
 
-<!-- page 16 -->
+<!-- page 15 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -982,9 +931,10 @@ write your thinking
 **Key words**
 observation · contour · cross-contour · highlight · core shadow · reflected light · visual texture
 
-Page 16
+Page
+15
 
-<!-- page 17 -->
+<!-- page 16 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1028,9 +978,10 @@ paintings. Collage adhesive wrinkles thin paper: test on a scrap.
 Choose one object. Make a 15-minute study in graphite, a 15-minute study in paint, and a 15-minute
 study in pastel or mixed media. Annotate which material said "glass" or "cloth" most clearly.
 
-Page 17
+Page
+16
 
-<!-- page 18 -->
+<!-- page 17 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1074,9 +1025,10 @@ What can you learn from the artist and apply to your own work?
 
 You should not simply copy an artist's style.
 
-Page 18
+Page
+17
 
-<!-- page 19 -->
+<!-- page 18 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1115,9 +1067,10 @@ A thumbnail is a small, quick composition study.
 
 Produce alternatives rather than trying to find the perfect composition immediately.
 
-Page 19
+Page
+18
 
-<!-- page 20 -->
+<!-- page 19 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1158,9 +1111,10 @@ Your final outcome should demonstrate:
 
 • careful observation
 
-Page 20
+Page
+19
 
-<!-- page 21 -->
+<!-- page 20 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1197,9 +1151,10 @@ final composition map: objects, light, title
 Leave work flat to dry. Write your name on the back, not across the image. Photograph before you
 transport it. Do not stack wet paintings.
 
-Page 21
+Page
+20
 
-<!-- page 22 -->
+<!-- page 21 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1265,9 +1220,10 @@ unit review notes
 
 - [ ] I can give a peer a specific, useful comment.
 
-Page 22
+Page
+21
 
-<!-- page 23 -->
+<!-- page 22 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1331,9 +1287,10 @@ Questions to consider:
 • Can a photograph communicate personality?
 • How much of identity is visible?
 
-Page 23
+Page
+22
 
-<!-- page 24 -->
+<!-- page 23 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1377,9 +1334,10 @@ identity · representation · self-portrait · constructed identity · symbol
 
 Begin building a visual journal around the theme of identity.
 
-Page 24
+Page
+23
 
-<!-- page 25 -->
+<!-- page 24 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1410,9 +1368,10 @@ Make twelve photographs that could belong to a project called Who I am when I am
 shadows, rooms, objects, gestures. Print or stick four into the sketchbook and annotate what each one
 might mean.
 
-Page 25
+Page
+24
 
-<!-- page 26 -->
+<!-- page 25 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1452,9 +1411,10 @@ can mean care. Context decides.
 
 This is an important part of visual communication.
 
-Page 26
+Page
+25
 
-<!-- page 27 -->
+<!-- page 26 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1482,9 +1442,10 @@ realistic · expressive · partial · symbolic · context
 Throughout the year, Art & Design may connect with wider school activities, events and interdisciplinary
 projects.
 
-Page 27
+Page
+26
 
-<!-- page 28 -->
+<!-- page 27 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1533,9 +1494,10 @@ Combine photographs, magazine images, drawings, text, textures and found materia
 
 Collage is a useful identity medium because identity is already layered. You can show the join.
 
-Page 28
+Page
+27
 
-<!-- page 29 -->
+<!-- page 28 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1564,9 +1526,10 @@ Year 9 can make the piece that is not the whole face.
 
 IMAGE 9.2.10 - Clay mask and fragment. Purpose: three-dimensional identity without a complete portrait head.
 
-Page 29
+Page
+28
 
-<!-- page 30 -->
+<!-- page 29 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1606,9 +1569,10 @@ It can involve simplifying, exaggerating or transforming reality.
 
 Ask: At what point does an image stop representing the original subject and become something new?
 
-Page 30
+Page
+29
 
-<!-- page 31 -->
+<!-- page 30 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1647,9 +1611,10 @@ Ask how Kahlo constructs a visual world in which those symbols become meaningful
 She often places herself in the centre, looks out, and fills the space around her with things that belong to
 her story: plants, animals, medical experience, Mexican dress, landscape. The painting is not a selfie
 
-Page 31
+Page
+30
 
-<!-- page 32 -->
+<!-- page 31 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1709,9 +1674,10 @@ Instead, use her work as a starting point for your own investigation.
 Draw or collage yourself (or an invented sitter) surrounded by five objects that belong to a real life.
 Change the scale of one object until it feels like a symbol, not a prop.
 
-Page 32
+Page
+31
 
-<!-- page 33 -->
+<!-- page 32 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1747,9 +1713,10 @@ or whether the face appears at all.
 
 five identity thumbnails · peer note
 
-Page 33
+Page
+32
 
-<!-- page 34 -->
+<!-- page 33 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1790,9 +1757,10 @@ Consider:
 • Which artist influenced my thinking?
 • Which material was most effective?
 
-Page 34
+Page
+33
 
-<!-- page 35 -->
+<!-- page 34 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1823,9 +1791,10 @@ unit review notes
 
 - [ ] I can talk about a symbol in context, not as a dictionary definition.
 
-Page 35
+Page
+34
 
-<!-- page 36 -->
+<!-- page 35 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1888,9 +1857,10 @@ A secret is contained without a box.
 
 Do not stop at the first obvious ideas.
 
-Page 36
+Page
+35
 
-<!-- page 37 -->
+<!-- page 36 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1935,9 +1905,10 @@ you could walk into.
 IMAGE 9.3.02 - A mood board with atmosphere. Purpose: colour, texture samples and photographs pinned as a climate, not a shopping
 list.
 
-Page 37
+Page
+36
 
-<!-- page 38 -->
+<!-- page 37 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -1972,9 +1943,10 @@ The job is not "this is a wall". The job is "this wall is dry, layered, wounded,
 
 IMAGE 9.3.03 - Extreme close-up. Purpose: cracked plaster, rust, weave and water as images that almost forget their names.
 
-Page 38
+Page
+37
 
-<!-- page 39 -->
+<!-- page 38 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2010,9 +1982,10 @@ When researching, ask:
 • Does the physical surface of the artwork contribute to its meaning?
 Remember that the material itself can become part of the message.
 
-Page 39
+Page
+38
 
-<!-- page 40 -->
+<!-- page 39 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2058,9 +2031,10 @@ strategy in one sentence.
 
 one borrowed quality / one experiment
 
-Page 40
+Page
+39
 
-<!-- page 41 -->
+<!-- page 40 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2116,9 +2090,10 @@ The objective is to discover what happens when one process changes another.
 IMAGE 9.3.06 - Process changing process. Purpose: inked block, print, collage and paint on the same table as a sequence, not as
 separate hobbies.
 
-Page 41
+Page
+40
 
-<!-- page 42 -->
+<!-- page 41 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2161,9 +2136,10 @@ write both sides of the argument
 
 Create thumbnail studies for your final outcome.
 
-Page 42
+Page
+41
 
-<!-- page 43 -->
+<!-- page 42 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2204,9 +2180,10 @@ Possible forms:
 • a print series of one surface
 • a fabric or paper "room"
 
-Page 43
+Page
+42
 
-<!-- page 44 -->
+<!-- page 43 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2246,9 +2223,10 @@ What remains hidden, on purpose, is _______________.
 
 unit review notes
 
-Page 44
+Page
+43
 
-<!-- page 45 -->
+<!-- page 44 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2264,9 +2242,10 @@ Year 9 Art & Design  ·  Student Course Book
 
 - [ ] I can say what is visible and what is hidden in the final work.
 
-Page 45
+Page
+44
 
-<!-- page 46 -->
+<!-- page 45 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2326,9 +2305,10 @@ Curators cut. That is the job. A wall of everything is a storeroom.
 Lay out twelve pieces (or photographs of them). Remove five. Write one sentence for each piece you
 kept: what job it does in the group. If two pieces do the same job, keep the stronger one.
 
-Page 46
+Page
+45
 
-<!-- page 47 -->
+<!-- page 46 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2373,9 +2353,10 @@ Reflection. Can you identify what you learned?
 
 A strong portfolio tells the story of your artistic development.
 
-Page 47
+Page
+46
 
-<!-- page 48 -->
+<!-- page 47 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2417,9 +2398,10 @@ Two artworks can look completely different depending on how they are presented.
 **Display arrangement**
 Experiment with different arrangements.
 
-Page 48
+Page
+47
 
-<!-- page 49 -->
+<!-- page 48 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2456,9 +2438,10 @@ a pair of hands for large work. Photograph the wall before and after.
 Print or sketch thumbnails of your selected work. Arrange them on a table as if the table were the wall.
 Photograph three different hangs. Choose one and draw a simple measured plan.
 
-Page 49
+Page
+48
 
-<!-- page 50 -->
+<!-- page 49 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2515,9 +2498,10 @@ Aim for 80 to 150 words for a Year 9 wall. Longer statements belong in the sketc
 Write a statement for one body of work. Then cut 30 words. Read it aloud to a partner. If they can already
 see a sentence in the artwork, cut that sentence.
 
-Page 50
+Page
+49
 
-<!-- page 51 -->
+<!-- page 50 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2554,9 +2538,10 @@ https://gulbenkian.pt/cam/en/
 
 Notice height, space and the order of rooms. That visit is research for your own wall.
 
-Page 51
+Page
+50
 
-<!-- page 52 -->
+<!-- page 51 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2615,9 +2600,10 @@ Independence, for me, now means _______________.
 
 year reflection
 
-Page 52
+Page
+51
 
-<!-- page 53 -->
+<!-- page 52 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2670,9 +2656,10 @@ Each technique page lists the materials you need, the basic instructions,
 
 two or three ways of working with it, and how to look after the images you make.
 
-Page 53
+Page
+52
 
-<!-- page 54 -->
+<!-- page 53 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2718,9 +2705,10 @@ Tomorrow I will try _______________.
 
 This work is about _______________.
 
-Page 54
+Page
+53
 
-<!-- page 55 -->
+<!-- page 54 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2765,9 +2753,10 @@ Tomorrow I will try _______________.
 
 This work is about _______________.
 
-Page 55
+Page
+54
 
-<!-- page 56 -->
+<!-- page 55 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2812,9 +2801,10 @@ Tomorrow I will try _______________.
 
 This work is about _______________.
 
-Page 56
+Page
+55
 
-<!-- page 57 -->
+<!-- page 56 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2859,9 +2849,10 @@ Tomorrow I will try _______________.
 
 This work is about _______________.
 
-Page 57
+Page
+56
 
-<!-- page 58 -->
+<!-- page 57 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -2929,9 +2920,10 @@ and simple backgrounds.
 Wet the whole area with clean water, then drop colour onto the wet surface so it spreads on its own. You steer it; you do
 not draw with it. Good for loose studies of clouds, water and soft shadows.
 
-Page 58
+Page
+57
 
-<!-- page 59 -->
+<!-- page 58 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3000,9 +2992,10 @@ is destroyed as you go.
 Carve a second block for a second colour (for example a background or a highlight) and print it in register on top of the
 first. Use small pencil registration marks so the layers line up.
 
-Page 59
+Page
+58
 
-<!-- page 60 -->
+<!-- page 59 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3070,9 +3063,10 @@ but the ink must still be wet when you pull the print.
 Without re-inking, print the plate a second time. The faint leftover image is called a ghost. Print it, then draw into it with
 pencil or pastel: many artists prefer the ghost to the first pull.
 
-Page 60
+Page
+59
 
-<!-- page 61 -->
+<!-- page 60 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3140,9 +3134,10 @@ meaning sits in what you choose to hide.
 Combine collage with drawing and print: a monoprint as the base, torn paper on top, pencil or ink details added last. This
 is the natural bridge into the Unit 9.2 and 9.3 projects.
 
-Page 61
+Page
+60
 
-<!-- page 62 -->
+<!-- page 61 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3210,9 +3205,10 @@ studies and expressive surfaces.
 Wipe most of the paint off the brush, then drag it lightly across the texture of the surface. Broken colour shows through.
 Good for weathered surfaces, which links directly to Unit 9.3.
 
-Page 62
+Page
+61
 
-<!-- page 63 -->
+<!-- page 62 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3221,9 +3217,10 @@ Year 9 Art & Design  ·  Student Course Book
 
 These pages are a toolkit. Use them during every unit, not only at the end of the year.
 
-Page 63
+Page
+62
 
-<!-- page 64 -->
+<!-- page 63 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3278,9 +3275,10 @@ A motif that repeats.
 Repeated photographs, window grids, a grid of objects (Milroy). Pattern can comfort or, if broken, can
 wake the eye.
 
-Page 64
+Page
+63
 
-<!-- page 65 -->
+<!-- page 64 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3295,9 +3293,10 @@ your hand first.
 
 element hunt: artwork, three elements, one sentence each
 
-Page 65
+Page
+64
 
-<!-- page 66 -->
+<!-- page 65 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3344,9 +3343,10 @@ What you leave empty, and why.
 Elements = what you use. Principles = how you organise. In critiques, try: "I used contrast of tone to
 create emphasis on the key."
 
-Page 66
+Page
+65
 
-<!-- page 67 -->
+<!-- page 66 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3360,6 +3360,7 @@ Without looking back, define still life, symbol, curate, strategy and contained 
 check.
 
 Page
+66
 
 **Artist statement. A short piece of writing that explains intention, process and decisions.**
 
@@ -3428,18 +3429,17 @@ Page
 **Abstraction. Simplifying or departing from exact appearance while keeping a link to**
 something seen or felt.
 
-67
-
-<!-- page 68 -->
+<!-- page 67 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
 
 five definitions in your own words
 
-Page 68
+Page
+67
 
-<!-- page 69 -->
+<!-- page 68 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3546,9 +3546,10 @@ containment after it fails
 Look at how museums hang work: height, space, sequence. A visit to CAM Gulbenkian in Lisbon is
 research, not a day off.
 
-Page 69
+Page
+68
 
-<!-- page 70 -->
+<!-- page 69 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3609,9 +3610,10 @@ statement
 Closed tasks in this book (checklists, one-word fills) have no single "answer key". The evidence is in the
 sketchbook.
 
-Page 70
+Page
+69
 
-<!-- page 71 -->
+<!-- page 70 -->
 
 ---
 Year 9 Art & Design  ·  Student Course Book
@@ -3627,22 +3629,21 @@ notes / leftover thinking
 
 notes / leftover thinking
 
-Page 71
+Page
+70
+
+<!-- page 71 -->
+
+---
 
 <!-- page 72 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+**P R I M E  B O O K S**
 
 ## Art & Design
 
-Year 9 · Prime School Press · Student Manual
-
-Every child is an artist. Keep the studio open.
-
-Year 9 art and design develops making, looking and thinking: drawing, colour,
-
-print, 3D and the artists who changed how we see.
+thinking: drawing, colour,
 
 **INSIDE THIS BOOK**
 
@@ -3661,8 +3662,10 @@ Critique language and reflection
 •
 Final project per unit
 
-**Prime School Press · Art & Design**
+**Prime Books · Art & Design**
 
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

@@ -13,69 +13,24 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+Year 8 Art & Design  ·  Student Course Book
 
-## Art & Design
+Prime Books  ·  Cambridge Lower Secondary
 
-**Year 8 · Student Course Book**
+Year 8 Art & Design  ·  Student Course Book
 
-Every child is an artist. Keep the studio open.
+Prime Books  ·  Cambridge Lower Secondary
 
-Year 8 art and design develops making, looking and thinking: drawing, colour, print, 3D and the artists who
-changed how we see.
+**Imprint**
 
-**I N S I D E  T H I S  B O O K**
-
-Skills: drawing, paint, print, 3D
-
-Artists and movements in context
-
-Sketchbook habit and portfolio building
-
-Critique language and reflection
-
-Final project per unit
-
-**I M P R I N T**
-
-**EDITION**
-First edition, 2026. Printed in full colour on white stock.
-
-**PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
-
-**RIGHTS**
-© Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of the publisher.
-
-**CREDITS**
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team. Written and typeset in the Prime School
-Press studio, Lisbon.
-
-**CURRICULUM**
-Cambridge Lower Secondary Art & Design (0073), Stage 8. Ages about 12 to 13.
-
-**LICENCE**
-It is an independent publication and is not an official Cambridge Assessment
-International Education or Oxford University Press publication.
-
-Independent publication. This is an independent publication produced
-by Prime School for use within its own programmes of study. It is not
-affiliated with, licensed by, endorsed by or approved by any
-examination board, or by any other publisher.
-
-**A g e s  1 2  t o  1 3  ·  L o w e r  S e c o n d a r y**
-
-**w w w . p r i m e s c h o o l . p t**
-
-**2**
-
-<!-- page 3 -->
-
----
 **Welcome**
+
+**READ → LOOK → THINK → DISCOVER → TRY → CREATE → REFLECT**
+
+**Welcome to Art & Design**
+
+Independent publication for Prime School. First edition, 2026. Curriculum context: Cambridge
+Lower Secondary Art & Design (0073), Stage 8. Ages about 12 to 13. www.primeschool.pt
 
 This book is your student course book for Year 8 Art & Design.
 You will use it in class to look, think, experiment, make and keep evidence of your thinking. It is not
@@ -83,10 +38,6 @@ only a reading book and not only a colouring book. It is both: places to underst
 to draw, write and reflect.
 
 Path for every topic:
-
-**READ → LOOK → THINK → DISCOVER → TRY → CREATE → REFLECT**
-
-**Welcome to Art & Design**
 
 Art is everywhere.
 It can be found in paintings and sculptures, but also in photographs, films, buildings, clothes, posters,
@@ -120,92 +71,149 @@ but also:
 
 These questions are at the heart of artistic practice.
 
-**3**
+Page
+**1**
 
-<!-- page 4 -->
+<!-- page 3 -->
 
 ---
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**2**
+
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**2**
+
 ## Contents
 
 **Introduction**
+**3**
 
 **Unit 8.1 · Portrait: People**
+**14**
 
 **Unit 8.2 · Built Environment**
+**36**
 
 **Unit 8.3 · Design Brief**
+**58**
 
 **Extension**
+**81**
 
 **Studio pages · One spread per unit**
+**86**
 
 **Assessment sheets**
+**95**
 
 **Appendix · Reference**
+**99**
 
 Chapter 1  Introduction to portraiture
+14
 
 Chapter 2  Expressive portrait drawing
+18
 
 Chapter 3  Portraits and emotion
+21
 
 Chapter 4  Figure movement
+23
 
 Chapter 5  Overlapping figure studies
+25
 
 Chapter 6  Portrait sculpture exploration
+27
 
 Chapter 7  Personal portrait project
+30
 
 Chapter 8  Review and project completion
+31
 
 Chapter 9  Introduction to architecture
+36
 
 Chapter 10  Architectural drawing warm-up
+39
 
 Chapter 11  Texture collection
+42
 
 Chapter 12  Half-image study
+44
 
 Chapter 13  Single-line drawing
+47
 
 Chapter 14  Photography and viewpoints
+50
 
 Chapter 15  Mixed-media development
+51
 
 Chapter 16  Review and project completion
+54
 
 Chapter 17  What is a design brief?
+58
 
 Chapter 18  Client, audience and constraints
+61
 
 Chapter 19  From problem to idea
+63
 
 Chapter 20  Research, inspiration and moodboard
+64
 
 Chapter 21  Sketching, selecting and developing
+66
 
 Chapter 22  Hierarchy, typography and colour
+68
 
 Chapter 23  Testing, feedback and evaluation
+71
 
 Chapter 24  Practical project: responding to a design brief
+72
 
 Chapter 25  Design is problem-solving
+74
 
 Chapter 26  Art & Design in a school project
+78
 
 Chapter 27  Building your portfolio
+81
 
 Chapter 28  Preparing an exhibition
+83
 
 Unit 8.1 studio page
+87
 
 Unit 8.2 studio page
+89
 
 Unit 8.3 studio page
+91
 
 Unit 8.4 studio page
+93
 
 .........................................................................................................................................
 
@@ -287,89 +295,7 @@ Unit 8.4 studio page
 
 .........................................................................................................................
 
-**4**
-
-**5**
-
-**16**
-
-**38**
-
-**60**
-
-**83**
-
-**88**
-
-**97**
-
-**101**
-
-16
-
-20
-
-23
-
-25
-
-27
-
-29
-
-32
-
-33
-
-38
-
-41
-
-44
-
-46
-
-49
-
-52
-
-53
-
-56
-
-60
-
-63
-
-65
-
-66
-
-68
-
-70
-
-73
-
-74
-
-76
-
-80
-
-83
-
-85
-
-89
-
-91
-
-93
-
-95
-
-<!-- page 5 -->
+<!-- page 4 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -438,9 +364,9 @@ The second statement gives reasons.
 In Art & Design, you are encouraged to develop ideas that you can explain, question and support.
 
 Page
-**5**
+**3**
 
-<!-- page 6 -->
+<!-- page 5 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -499,9 +425,9 @@ For a long time, people associated art with beauty. Paintings of beautiful lands
 portraits and perfectly balanced compositions were considered examples of artistic achievement.
 
 Page
-**6**
+**4**
 
-<!-- page 7 -->
+<!-- page 6 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -559,9 +485,9 @@ everyday life.
 **Context changes meaning.**
 
 Page
-**7**
+**5**
 
-<!-- page 8 -->
+<!-- page 7 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -613,9 +539,9 @@ Imagine looking at a photograph of an empty house.
 • Another might think: “It looks lonely.”
 
 Page
-**8**
+**6**
 
-<!-- page 9 -->
+<!-- page 8 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -679,9 +605,9 @@ The designer needs to consider:
 • How should it communicate it?
 
 Page
-**9**
+**7**
 
-<!-- page 10 -->
+<!-- page 9 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -744,9 +670,10 @@ simply a place for finished drawings. It is a place for thinking visually.
 
 Treat your sketchbook as a studio brain, not a neat scrapbook.
 
-**Page 10**
+Page
+**8**
 
-<!-- page 11 -->
+<!-- page 10 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -793,9 +720,10 @@ and graphic materials.
 **IMAGE 0.05 - Studio materials. Purpose: introduce the range of tools used this year, from graphite and charcoal to clay, camera and**
 collage.
 
-**Page 11**
+Page
+**9**
 
-<!-- page 12 -->
+<!-- page 11 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -867,9 +795,10 @@ You will use this process repeatedly throughout Year 8.
 
 **IMAGE 0.07 - A studio process. Purpose: a reusable cycle for every Year 8 project, from observation to reflection.**
 
-**Page 12**
+Page
+**10**
 
-<!-- page 13 -->
+<!-- page 12 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -943,9 +872,10 @@ material, colour, composition or technique.
 • What am I looking at?
 • What interests me about it?
 
-**Page 13**
+Page
+**11**
 
-<!-- page 14 -->
+<!-- page 13 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1016,9 +946,10 @@ process of making can be just as important as the final result.
 And you will learn that your artwork does not always have to provide an answer. Sometimes the most
 interesting artwork is the one that makes the viewer ask a new question.
 
-**Page 14**
+Page
+**12**
 
-<!-- page 15 -->
+<!-- page 14 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1062,9 +993,10 @@ Explain your thinking. Stay curious.
 Art is not only about what you make. It is also about how you see, how you think and how you respond to
 the world.
 
-**Page 15**
+Page
+**13**
 
-<!-- page 16 -->
+<!-- page 15 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1128,9 +1060,10 @@ power. Portraiture has always been about presence, not only about likeness.
 **What is a portrait?**
 A portrait is an artwork that represents a person.
 
-**Page 16**
+Page
+**14**
 
-<!-- page 17 -->
+<!-- page 16 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1180,9 +1113,10 @@ When learning to draw a face, it is useful to understand some general relationsh
 
 **However, remember that these are guidelines, not rules. Every face is different.**
 
-**Page 17**
+Page
+**15**
 
-<!-- page 18 -->
+<!-- page 17 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1226,9 +1160,10 @@ But real faces are much more complex.
 
 Observational drawing means slowing down and looking carefully.
 
-**Page 18**
+Page
+**16**
 
-<!-- page 19 -->
+<!-- page 18 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1278,9 +1213,10 @@ to look carefully.
 Begin lightly and establish the overall shape of the head before adding details. Try to avoid drawing
 individual features too early.
 
-**Page 19**
+Page
+**17**
 
-<!-- page 20 -->
+<!-- page 19 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1301,9 +1237,10 @@ second drawing: proportions, large shapes, light and dark, negative space
 If two portraits of the same person look completely different, which one is the "correct" portrait? Could
 both be correct? What makes a portrait recognisable?
 
-**Page 20**
+Page
+**18**
 
-<!-- page 21 -->
+<!-- page 20 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1361,9 +1298,10 @@ You might trace the outline of the head, facial features, hair, clothing, shadow
 The line becomes a journey through the image. Sometimes the line will cross itself. Sometimes it will
 move through empty space. Sometimes it will become almost abstract.
 
-**Page 21**
+Page
+**19**
 
-<!-- page 22 -->
+<!-- page 21 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1408,9 +1346,10 @@ Create three different portraits of the same person.
 Do not try to make the three portraits look similar. Your goal is to discover how different approaches
 change the way we perceive the person.
 
-**Page 22**
+Page
+**20**
 
-<!-- page 23 -->
+<!-- page 22 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1421,9 +1360,10 @@ portrait 1: continuous line
 
 portrait 2: distorted proportions
 
-**Page 23**
+Page
+**21**
 
-<!-- page 24 -->
+<!-- page 23 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1464,9 +1404,10 @@ Small changes can have a large effect.
 
 **Eyebrows. Are they raised, lowered, relaxed or drawn together?**
 
-**Page 24**
+Page
+**22**
 
-<!-- page 25 -->
+<!-- page 24 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1508,9 +1449,10 @@ differently from your intention, consider why.
 
 five emotion studies of the same person (no labels)
 
-**Page 25**
+Page
+**23**
 
-<!-- page 26 -->
+<!-- page 25 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1566,9 +1508,10 @@ Line can create the impression of movement even when the figure itself is still.
 • Repeated lines can suggest movement through time.
 • An extended contour can lead the viewer's eye through the composition.
 
-**Page 26**
+Page
+**24**
 
-<!-- page 27 -->
+<!-- page 26 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1603,9 +1546,10 @@ Use expressive lines rather than detailed outlines.
 
 movement studies: verbs only, expressive line
 
-**Page 27**
+Page
+**25**
 
-<!-- page 28 -->
+<!-- page 27 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1651,9 +1595,10 @@ Instead of thinking "I am drawing a person," think "I am drawing these shapes."
 This can help you become more accurate because you are no longer relying on your memory of what a
 person "should" look like.
 
-**Page 28**
+Page
+**26**
 
-<!-- page 29 -->
+<!-- page 28 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1687,9 +1632,10 @@ overlapping figure composition: add one figure at a time
 **Extension**
 Use only line. Then create a second version using areas of tone or colour. Compare the results.
 
-**Page 29**
+Page
+**27**
 
-<!-- page 30 -->
+<!-- page 29 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1729,9 +1675,10 @@ physically exist.
 **Understanding the head as a form**
 Before adding details, think about the head as a simple volume.
 
-**Page 30**
+Page
+**28**
 
-<!-- page 31 -->
+<!-- page 30 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1788,9 +1735,10 @@ Do not wash large amounts of clay down the sink. Wipe scraps into the reclaim bi
 work so it does not dry overnight unless you want leather-hard carving. Hollow thick heads so they dry
 evenly.
 
-**Page 31**
+Page
+**29**
 
-<!-- page 32 -->
+<!-- page 31 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1831,9 +1779,10 @@ hold a likeness in three dimensions.
 **Key words**
 form · plane · modelling · subtracting · texture · expression
 
-**Page 32**
+Page
+**30**
 
-<!-- page 33 -->
+<!-- page 32 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1896,9 +1845,10 @@ Make a final plan. Consider what could go wrong and how you might respond.
 **Step 7 - Create**
 Now produce your final portrait.
 
-**Page 33**
+Page
+**31**
 
-<!-- page 34 -->
+<!-- page 33 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -1955,9 +1905,10 @@ What changed?
 Perhaps your original idea was realistic but became more expressive. Perhaps you planned to use one
 material but discovered another worked better. Perhaps your composition changed. Perhaps the
 
-**Page 34**
+Page
+**32**
 
-<!-- page 35 -->
+<!-- page 34 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2024,9 +1975,10 @@ Before completing your project, make sure you have:
 ☐ Tried blind contour or continuous-line drawing.
 ☐ Explored facial expression and emotion.
 
-**Page 35**
+Page
+**33**
 
-<!-- page 36 -->
+<!-- page 35 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2118,9 +2070,10 @@ Think about your answer. Then look at your own final portrait.
 
 What does your portrait tell us about the person you represented, and what does it tell us about you?
 
-**Page 36**
+Page
+**34**
 
-<!-- page 37 -->
+<!-- page 36 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2129,9 +2082,10 @@ Prime Books  ·  Cambridge Lower Secondary
 
 final question: what the portrait tells about them, and about you
 
-**Page 37**
+Page
+**35**
 
-<!-- page 38 -->
+<!-- page 37 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2199,9 +2153,10 @@ texture and viewpoint, then to make images that are more than postcards."
 **What is architecture?**
 Architecture is the art and design of creating buildings and spaces.
 
-**Page 38**
+Page
+**36**
 
-<!-- page 39 -->
+<!-- page 38 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2261,9 +2216,10 @@ Texture can make an architectural drawing much more interesting.
 **Observational studies**
 Choose a building or architectural detail.
 
-**Page 39**
+Page
+**37**
 
-<!-- page 40 -->
+<!-- page 39 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2291,9 +2247,10 @@ architectural studies: shape, form, line, texture, shadow
 Why might an artist choose to draw only one small part of a building instead of the whole building? Can a
 detail sometimes tell us more than the whole?
 
-**Page 40**
+Page
+**38**
 
-<!-- page 41 -->
+<!-- page 40 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2338,9 +2295,10 @@ appear to move towards different vanishing points.
 
 This creates a more convincing sense of depth.
 
-**Page 41**
+Page
+**39**
 
-<!-- page 42 -->
+<!-- page 41 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2384,9 +2342,10 @@ horizon / eye level
 one-point: one vanishing point
 two-point: two vanishing points
 
-**Page 42**
+Page
+**40**
 
-<!-- page 43 -->
+<!-- page 42 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2397,9 +2356,10 @@ view 1: front
 
 view 2: corner or side
 
-**Page 43**
+Page
+**41**
 
-<!-- page 44 -->
+<!-- page 43 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2439,9 +2399,10 @@ rough stone, rusty metal, patterned tiles, brick walls, glass reflections and wo
 
 These textures can become visual material for an artwork.
 
-**Page 44**
+Page
+**42**
 
-<!-- page 45 -->
+<!-- page 44 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2483,9 +2444,10 @@ use it in an artwork?
 
 You can combine rubbings, drawings, photographs and written notes.
 
-**Page 45**
+Page
+**43**
 
-<!-- page 46 -->
+<!-- page 45 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2523,9 +2485,10 @@ missing section might look like.
 
 This is an exercise in observation and visual reasoning.
 
-**Page 46**
+Page
+**44**
 
-<!-- page 47 -->
+<!-- page 46 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2566,9 +2529,10 @@ When you finish, compare your reconstruction with the original image if it is av
 
 **Reflection. Where were you accurate? Where did you make assumptions? What clues helped you most?**
 
-**Page 47**
+Page
+**45**
 
-<!-- page 48 -->
+<!-- page 47 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2592,9 +2556,10 @@ second version: invent the missing half
 If you reconstruct a building "wrong" but the drawing still feels structurally true, have you failed the task
 or discovered a new building?
 
-**Page 48**
+Page
+**46**
 
-<!-- page 49 -->
+<!-- page 48 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2643,9 +2608,10 @@ How does the quality of the line change?
 The slow drawing may be more controlled. The fast drawing may be more energetic. Neither is
 automatically better. They communicate different qualities.
 
-**Page 49**
+Page
+**47**
 
-<!-- page 50 -->
+<!-- page 49 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2680,9 +2646,10 @@ Compare the three. At what point does the drawing stop looking like architecture
 
 drawing 1: structure
 
-**Page 50**
+Page
+**48**
 
-<!-- page 51 -->
+<!-- page 50 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2699,9 +2666,10 @@ observation?
 
 write your thinking
 
-**Page 51**
+Page
+**49**
 
-<!-- page 52 -->
+<!-- page 51 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2760,9 +2728,10 @@ Sometimes a crop can be more visually interesting than the original photograph.
 Ask before photographing people. Do not photograph in toilets, changing rooms or private houses. Stay
 on the ground unless a teacher takes you to a safe viewpoint. No climbing.
 
-**Page 52**
+Page
+**50**
 
-<!-- page 53 -->
+<!-- page 52 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2807,9 +2776,10 @@ The next step is to combine them. This is where observation becomes transformati
 
 You might combine drawing, photography, collage, paint, printed textures, pencil, ink and digital images.
 
-**Page 53**
+Page
+**51**
 
-<!-- page 54 -->
+<!-- page 53 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2867,9 +2837,10 @@ layers. Try changing the scale.
 Create at least three different compositions. Do not try to make them perfect. Your objective is to
 discover possibilities.
 
-**Page 54**
+Page
+**52**
 
-<!-- page 55 -->
+<!-- page 54 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2880,9 +2851,10 @@ composition A: photo + drawing + texture
 
 composition B: a different crop and overlap
 
-**Page 55**
+Page
+**53**
 
-<!-- page 56 -->
+<!-- page 55 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2922,9 +2894,10 @@ Now it is time to evaluate what you have learned.
 **Looking back**
 Place your early architectural studies next to your final work. Think about the journey.
 
-**Page 56**
+Page
+**54**
 
-<!-- page 57 -->
+<!-- page 56 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -2993,9 +2966,10 @@ Before completing the project, make sure you have:
 ☐ Made observational studies of architecture.
 ☐ Explored shape and form.
 
-**Page 57**
+Page
+**55**
 
-<!-- page 58 -->
+<!-- page 57 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3089,9 +3063,10 @@ can observe the world, take it apart, rearrange it and show it to us differently
 artist transforms architecture into an image? Does the artwork still belong to the building, or has it
 become something completely new?
 
-**Page 58**
+Page
+**56**
 
-<!-- page 59 -->
+<!-- page 58 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3100,9 +3075,10 @@ Prime Books  ·  Cambridge Lower Secondary
 
 final question: does the artwork still belong to the building?
 
-**Page 59**
+Page
+**57**
 
-<!-- page 60 -->
+<!-- page 59 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3167,9 +3143,10 @@ A brief might tell you:
 • what needs to be designed
 • why it is needed
 
-**Page 60**
+Page
+**58**
 
-<!-- page 61 -->
+<!-- page 60 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3231,9 +3208,10 @@ But this does not mean that art cannot communicate a message, or that design can
 expressive. In fact, some of the most interesting creative work exists somewhere between art and
 design.
 
-**Page 61**
+Page
+**59**
 
-<!-- page 62 -->
+<!-- page 61 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3300,9 +3278,10 @@ where the title should go, or what the composition should look like.
 Copy a brief your teacher gives you, or use the plastic-poster brief above. Answer WHAT, WHY, WHO,
 WHERE and LIMITATIONS in full sentences. Then list three decisions the brief does not make for you.
 
-**Page 62**
+Page
+**60**
 
-<!-- page 63 -->
+<!-- page 62 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3352,9 +3331,10 @@ Before designing, ask:
 • What information do they need?
 The audience should influence your decisions, but it should not completely control your creativity.
 
-**Page 63**
+Page
+**61**
 
-<!-- page 64 -->
+<!-- page 63 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3414,9 +3394,10 @@ A sports club wants a poster that will make Year 8 students come to after-school
 
 Then list three constraints you would give yourself (size, colour, words).
 
-**Page 64**
+Page
+**62**
 
-<!-- page 65 -->
+<!-- page 64 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3456,9 +3437,10 @@ size? Why this audience? Why this message?
 
 A design becomes stronger when every important decision has a reason behind it.
 
-**Page 65**
+Page
+**63**
 
-<!-- page 66 -->
+<!-- page 65 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3510,9 +3492,10 @@ artists and designers, materials, techniques, cultural references and possible s
 Research does not mean copying what someone else has done. Instead, research helps you discover
 possibilities.
 
-**Page 66**
+Page
+**64**
 
-<!-- page 67 -->
+<!-- page 66 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3573,9 +3556,10 @@ These words can become part of your design direction.
 
 **IMAGE 8.3.04 - A moodboard. Purpose: collect atmosphere (colour, texture, objects) before deciding the layout.**
 
-**Page 67**
+Page
+**65**
 
-<!-- page 68 -->
+<!-- page 67 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3615,9 +3599,10 @@ This is much more efficient than spending an hour carefully drawing one idea tha
 During early development, try not to judge every idea immediately. Some ideas will be weak. That is
 normal. A weak idea can lead to a stronger one.
 
-**Page 68**
+Page
+**66**
 
-<!-- page 69 -->
+<!-- page 68 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3682,9 +3667,10 @@ remain unchanged. A designer's job is to test possibilities and make informed de
 For your current brief, draw ten thumbnails in ten minutes. Circle three. Develop two of those as slightly
 larger sketches with notes on colour and type.
 
-**Page 69**
+Page
+**67**
 
-<!-- page 70 -->
+<!-- page 69 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3718,9 +3704,10 @@ The designer has created an order for the viewer's attention.
 You can make something more prominent by changing size, position, contrast, colour, weight, spacing,
 shape, or surrounding empty space.
 
-**Page 70**
+Page
+**68**
 
-<!-- page 71 -->
+<!-- page 70 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3753,9 +3740,10 @@ decision.
 
 **IMAGE 8.3.08 - Serif and sans-serif. Purpose: two letterform families and the jobs they often do.**
 
-**Page 71**
+Page
+**69**
 
-<!-- page 72 -->
+<!-- page 71 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3784,9 +3772,10 @@ name the message from two metres? If not, increase contrast and scale, reduce wo
 
 A6 poster: first, second, third read
 
-**Page 72**
+Page
+**70**
 
-<!-- page 73 -->
+<!-- page 72 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3870,9 +3859,10 @@ What could be improved?
 Next steps
 If you had more time, what would you change?
 
-**Page 73**
+Page
+**71**
 
-<!-- page 74 -->
+<!-- page 73 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3911,9 +3901,10 @@ advertisement, a photographic campaign, or another appropriate visual format.
 Your design must communicate a clear message and demonstrate thoughtful consideration of its
 audience.
 
-**Page 74**
+Page
+**72**
 
-<!-- page 75 -->
+<!-- page 74 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -3968,9 +3959,10 @@ outcome responds to the original brief.
 
 - 80-120 word designer statement
 
-**Page 75**
+Page
+**73**
 
-<!-- page 76 -->
+<!-- page 75 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4005,9 +3997,10 @@ When you receive a brief, you are not being asked simply: "Can you make somethin
 
 **You are being asked: Can you find an effective visual solution to this problem?**
 
-**Page 76**
+Page
+**74**
 
-<!-- page 77 -->
+<!-- page 76 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4062,9 +4055,10 @@ That question is at the heart of visual communication.
 
 would a stranger understand? write what they would see first
 
-**Page 77**
+Page
+**75**
 
-<!-- page 78 -->
+<!-- page 77 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4145,9 +4139,10 @@ A designer does not simply make something. A designer makes decisions with a pur
 ☐ My final outcome answers the original brief.
 ☐ I wrote a designer statement with reasons.
 
-**Page 78**
+Page
+**76**
 
-<!-- page 79 -->
+<!-- page 78 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4156,9 +4151,10 @@ Prime Books  ·  Cambridge Lower Secondary
 
 unit reflection: purpose, audience, one keep, one change
 
-**Page 79**
+Page
+**77**
 
-<!-- page 80 -->
+<!-- page 79 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4225,9 +4221,10 @@ Add a project plan. Deadlines are a design constraint, like two colours on a pos
 
 In the school project you use looking, making and visual communication for a brief that might also belong to
 
-**Page 80**
+Page
+**78**
 
-<!-- page 81 -->
+<!-- page 80 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4308,9 +4305,10 @@ Present standing up, work beside you:
 3. one thing that went wrong and what it taught
 4. what you would do with another week
 
-**Page 81**
+Page
+**79**
 
-<!-- page 82 -->
+<!-- page 81 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4350,9 +4348,10 @@ cross-curricular · client · collaboration · wayfinding · install
 
 **School Project evidence**
 
-**Page 82**
+Page
+**80**
 
-<!-- page 83 -->
+<!-- page 82 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4409,9 +4408,10 @@ Pair them:
 • a failed clay view facing the view that worked
 The viewer should be able to follow a decision.
 
-**Page 83**
+Page
+**81**
 
-<!-- page 84 -->
+<!-- page 83 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4460,9 +4460,10 @@ Write a one-sentence caption for each piece.
 
 portfolio sequence: eight titles in order + one-line captions
 
-**Page 84**
+Page
+**82**
 
-<!-- page 85 -->
+<!-- page 84 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4519,9 +4520,10 @@ there.
 • do not block doors, sockets or fire equipment
 Walk the route as a visitor. Where do you get bored? Cut there.
 
-**Page 85**
+Page
+**83**
 
-<!-- page 86 -->
+<!-- page 85 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4573,9 +4575,10 @@ Everyone still shows at least one piece.
 In groups of four, curate 12 pieces on two tables in 15 minutes. Write a three-word title. Invite another
 group to walk it in silence, then talk.
 
-**Page 86**
+Page
+**84**
 
-<!-- page 87 -->
+<!-- page 86 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4604,15 +4607,17 @@ Explain your thinking. Stay curious.
 Art is not only about what you make. It is also about how you see, how you think and how you respond to
 the world.
 
-**Page 87**
+Page
+**85**
 
-<!-- page 88 -->
+<!-- page 87 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
 
 Prime Books  ·  Cambridge Lower Secondary
 Page
+**86**
 
 ## Studio pages - Look, try, reflect
 
@@ -4634,15 +4639,14 @@ Unit 8.4 · Portfolio and exhibition
 Each spread gathers the timed tasks from every chapter of the unit:
 work through them in order, or choose the ones your teacher sets.
 
-**88**
-
-<!-- page 89 -->
+<!-- page 88 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
 
 Prime Books  ·  Cambridge Lower Secondary
 Page
+**87**
 
 **Unit 8.1 studio page - Portrait: People**
 
@@ -4682,11 +4686,21 @@ colour.
 
 7. Personal portrait project: eight-step plan, three composition plans, one final with reflection.
 
-**89**
-
-<!-- page 90 -->
+<!-- page 89 -->
 
 ---
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**88**
+
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**88**
+
 **Exit ticket**
 
 **Stage**
@@ -4708,15 +4722,14 @@ This work is about _______________.
 
 Unit 8.1 making space: portrait: people
 
-**90**
-
-<!-- page 91 -->
+<!-- page 90 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
 
 Prime Books  ·  Cambridge Lower Secondary
 Page
+**89**
 
 **Unit 8.2 studio page - Built Environment**
 
@@ -4755,11 +4768,21 @@ the mood.
 
 7. Three mixed-media compositions from the same research. Choose the strongest and develop it.
 
-**91**
-
-<!-- page 92 -->
+<!-- page 91 -->
 
 ---
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**90**
+
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**90**
+
 **Exit ticket**
 
 **Stage**
@@ -4781,15 +4804,14 @@ This work is about _______________.
 
 Unit 8.2 making space: built environment
 
-**92**
-
-<!-- page 93 -->
+<!-- page 92 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
 
 Prime Books  ·  Cambridge Lower Secondary
 Page
+**91**
 
 **Unit 8.3 studio page - Design Brief**
 
@@ -4830,11 +4852,21 @@ opposite mood.
 
 8. Live school brief: analyse, plan four weeks, 40-minute pair test.
 
-**93**
-
-<!-- page 94 -->
+<!-- page 93 -->
 
 ---
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**92**
+
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**92**
+
 **Exit ticket**
 
 **Stage**
@@ -4856,15 +4888,14 @@ This work is about _______________.
 
 Unit 8.3 making space: design brief
 
-**94**
-
-<!-- page 95 -->
+<!-- page 94 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
 
 Prime Books  ·  Cambridge Lower Secondary
 Page
+**93**
 
 **Unit 8.4 studio page - Portfolio and exhibition**
 
@@ -4891,11 +4922,21 @@ page.
 
 2. Table exhibition: 12 pieces, three-word title, labels, silent walk. Then a one-page letter to your Year 8 self.
 
-**95**
-
-<!-- page 96 -->
+<!-- page 95 -->
 
 ---
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**94**
+
+Year 8 Art & Design  ·  Student Course Book
+
+Prime Books  ·  Cambridge Lower Secondary
+Page
+**94**
+
 **Exit ticket**
 
 **Stage**
@@ -4917,9 +4958,7 @@ This work is about _______________.
 
 Unit 8.4 making space: portfolio and exhibition
 
-**96**
-
-<!-- page 97 -->
+<!-- page 96 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4951,9 +4990,10 @@ Student: what I want noticed. Teacher: one strength, one next step.
 
 Unit 8.1 comments and next step
 
-**Page 97**
+Page
+**95**
 
-<!-- page 98 -->
+<!-- page 97 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -4985,9 +5025,10 @@ Student: what I want noticed. Teacher: one strength, one next step.
 
 Unit 8.2 comments and next step
 
-**Page 98**
+Page
+**96**
 
-<!-- page 99 -->
+<!-- page 98 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5019,9 +5060,10 @@ Student: what I want noticed. Teacher: one strength, one next step.
 
 Unit 8.3 comments and next step
 
-**Page 99**
+Page
+**97**
 
-<!-- page 100 -->
+<!-- page 99 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5039,9 +5081,10 @@ Prime Books  ·  Cambridge Lower Secondary
 
 hanging plan / route for visitors
 
-**Page100**
+Page
+**98**
 
-<!-- page 101 -->
+<!-- page 100 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5052,9 +5095,10 @@ Prime Books  ·  Cambridge Lower Secondary
 
 These pages are a toolkit. Use them during every unit, not only at the end of the year.
 
-**Page101**
+Page
+**99**
 
-<!-- page 102 -->
+<!-- page 101 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5113,9 +5157,9 @@ describe it.
 **Pattern**
 A motif that repeats.
 
-**Page102**
+**Page 100**
 
-<!-- page 103 -->
+<!-- page 102 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5139,9 +5183,9 @@ your hand first.
 
 element hunt: artwork, three elements, one sentence each
 
-**Page103**
+**Page 101**
 
-<!-- page 104 -->
+<!-- page 103 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5197,9 +5241,9 @@ Size relationships: eyes on a head, a logo on a poster, a clay head on a neck, a
 Awkward proportion can be a mistake or a decision. Know which you are doing. Distortion in an
 expressive portrait is proportion used as language.
 
-**Page104**
+**Page 102**
 
-<!-- page 105 -->
+<!-- page 104 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5216,9 +5260,9 @@ each, with a reason.
 
 three works, three principles, three reasons
 
-**Page105**
+**Page 103**
 
-<!-- page 106 -->
+<!-- page 105 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5315,9 +5359,9 @@ Glossary of key terms used throughout Year 8. British spellings.
 
 **Serif. Letterforms with small feet at stroke ends.**
 
-**Page106**
+**Page 104**
 
-<!-- page 107 -->
+<!-- page 106 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5350,9 +5394,9 @@ Then check.
 
 five definitions in your own words
 
-**Page107**
+**Page 105**
 
-<!-- page 108 -->
+<!-- page 107 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5475,9 +5519,9 @@ it and submit it as your project. Influence is allowed. Substitution is not.
 Write: title, maker, date if known, where you saw it (site or book), date you accessed it. Internet images
 without a maker are weak research.
 
-**Page108**
+**Page 106**
 
-<!-- page 109 -->
+<!-- page 108 -->
 
 ---
 Year 8 Art & Design  ·  Student Course Book
@@ -5536,22 +5580,20 @@ answer in two sentences, with a Year 8 piece as evidence.
 
 Use at the end of Units 8.1, 8.2, 8.3 and the School Project.
 
-**Page109**
+**Page 107**
+
+<!-- page 109 -->
+
+---
 
 <!-- page 110 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+**P R I M E  B O O K S**
 
 ## Art & Design
 
-Year 8 · Prime School Press · Student Manual
-
-Every child is an artist. Keep the studio open.
-
-Year 8 art and design develops making, looking and thinking: drawing, colour,
-
-print, 3D and the artists who changed how we see.
+thinking: drawing, colour,
 
 **INSIDE THIS BOOK**
 
@@ -5570,8 +5612,10 @@ Critique language and reflection
 •
 Final project per unit
 
-**Prime School Press · Art & Design**
+**Prime Books · Art & Design**
 
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

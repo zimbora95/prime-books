@@ -1,5 +1,5 @@
 # Portuguese 2nd - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-2nd/book.pdf` (78 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-2nd/book.pdf` (76 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -11,73 +11,6 @@
 Student Manual
 
 <!-- page 2 -->
-
----
-**P R I M E  S C H O O L  P R E S S**
-
-## Portuguese 2nd
-
-**Year 7 · Student Manual**
-
-Português de verdade, passo a passo.
-
-Português Língua Segunda para o Year 7: comunicação do dia a dia, textos autênticos e gramática que
-cresce aos poucos.
-
-**I N S I D E  T H I S  B O O K**
-
-Unidades por temas do quotidiano
-
-Diálogos e textos autênticos
-
-Gramática apresentada e revista
-
-Cultura portuguesa e lusófona
-
-Listas de vocabulário e revisões
-
-**I M P R I N T**
-
-**EDITION**
-First edition, 2026. Printed in full colour on white stock.
-
-**PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
-
-**RIGHTS**
-© Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of the publisher.
-
-**CREDITS**
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team. Written and typeset in the Prime School
-Press studio, Lisbon.
-
-**CURRICULUM**
-Follows the Cambridge Lower Secondary Portuguese (Second Language) scheme of
-work, Stage 7. Ages about 11 to 12.
-
-**LICENCE**
-It is an independent publication and is not an official Cambridge Assessment
-International Education or Oxford University Press publication.
-
-**LANGUAGE**
-European Portuguese (norma europeia): metric measurements, prices in euros, the
-24-hour clock, and Portuguese spelling as used in Portugal.
-
-Independent publication. This is an independent publication produced
-by Prime School for use within its own programmes of study. It is not
-affiliated with, licensed by, endorsed by or approved by any
-examination board, or by any other publisher.
-
-**A g e s  1 1  t o  1 2  ·  L o w e r  S e c o n d a r y**
-
-**w w w . p r i m e s c h o o l . p t**
-
-**2**
-
-<!-- page 3 -->
 
 ---
 Este manual segue o scheme of work de Português (2.ª língua) do Cambridge Lower
@@ -144,9 +77,7 @@ Presente do Indicativo: verbos irregulares da 2.ª e 3.ª conjugação: ler, faz
 
 **TESTE 4 · ACTIVIDADES FINAIS**
 
-**3**
-
-<!-- page 4 -->
+<!-- page 3 -->
 
 ---
 ## Bem-vindo ao teu manual
@@ -172,6 +103,7 @@ vocabulário novo e termina com exercícios para praticar.
 PORTUGUÊS 2.ª LÍNGUA · YEAR 7
 
 Prime School Press · www.primeschool.pt
+**3**
 
 O cartão de identificação na escola.
 
@@ -192,9 +124,7 @@ língua é também conhecer a cultura de quem a fala.
 
 4. Revê as caixas verdes antes dos testes.
 
-**4**
-
-<!-- page 5 -->
+<!-- page 4 -->
 
 ---
 ## Unidade 1 · Cumprimentos e Identificação
@@ -220,12 +150,11 @@ Vamos também conhecer os documentos de identificação e os pronomes pessoais.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
+**4**
 
 Dois alunos cumprimentam-se à porta da escola.
 
-**5**
-
-<!-- page 6 -->
+<!-- page 5 -->
 
 ---
 ## Lição 1.1 · Olá! Como te chamas?
@@ -276,12 +205,11 @@ De onde és? — perguntamos a origem de alguém.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
+**5**
 
 A jogar com os amigos ao fim de semana.
 
-**6**
-
-<!-- page 7 -->
+<!-- page 6 -->
 
 ---
 ## Lição 1.1 · Gramática: os pronomes pessoais
@@ -333,14 +261,15 @@ a) Olá! Como estás?   b) Boa tarde, senhora doutora.   c) Oi! Tudo bem?
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**7**
+**6**
 
-<!-- page 8 -->
+<!-- page 7 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
+**7**
 
 A escrever uma carta à família.
 
@@ -392,9 +321,7 @@ Repara: com a funcionária, o Tomás usa linguagem formal (se chama, sua, se faz
 
 Com a Marta, usa linguagem informal (te chamas, te).
 
-**8**
-
-<!-- page 9 -->
+<!-- page 8 -->
 
 ---
 ## Lição 1.2 · Exercícios
@@ -430,9 +357,9 @@ escola.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**9**
+**8**
 
-<!-- page 10 -->
+<!-- page 9 -->
 
 ---
 ## Unidade 2 · Dados Pessoais
@@ -460,12 +387,11 @@ artigos definidos: o, a, os, as.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
+**9**
 
 O carteiro traz cartas para o bairro.
 
-**10**
-
-<!-- page 11 -->
+<!-- page 10 -->
 
 ---
 ## Lição 2.1 · Onde moras?
@@ -515,9 +441,9 @@ Preencher — escrever os dados num formulário.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**11**
+**10**
 
-<!-- page 12 -->
+<!-- page 11 -->
 
 ---
 ## Lição 2.1 · Idade, nascimento e nacionalidade
@@ -559,9 +485,9 @@ Setembro, Outubro, Novembro, Dezembro.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**12**
+**11**
 
-<!-- page 13 -->
+<!-- page 12 -->
 
 ---
 ## Lição 2.1 · Exercícios
@@ -593,12 +519,11 @@ nacionalidade.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
+**12**
 
 O pequeno-almoço em família.
 
-**13**
-
-<!-- page 14 -->
+<!-- page 13 -->
 
 ---
 ## Lição 2.2 · Formação e profissão
@@ -620,6 +545,7 @@ A Marta é aluna. Estuda no Year 7.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
+**13**
 
 O meu irmão está a estudar na universidade.
 
@@ -652,9 +578,7 @@ as (feminino plural)
 
 Os pais do Tomás são engenheiros.
 
-**14**
-
-<!-- page 15 -->
+<!-- page 14 -->
 
 ---
 ## Lição 2.2 · Exercícios
@@ -684,12 +608,11 @@ sua profissão e a sua formação. Usa «o senhor» / «a senhora».
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
+**14**
 
 A mostrar os documentos de identificação.
 
-**15**
-
-<!-- page 16 -->
+<!-- page 15 -->
 
 ---
 **TESTE 1 · Revisão das Unidades 1 e 2**
@@ -744,9 +667,9 @@ coisas de que gostas. Usa cumprimentos e despedida.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · TESTE 1
 
 Prime School Press · www.primeschool.pt
-**16**
+**15**
 
-<!-- page 17 -->
+<!-- page 16 -->
 
 ---
 ## Unidade 3 · Família e Alimentação
@@ -772,12 +695,11 @@ Estar, Ser e Chamar-se.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
+**16**
 
 O almoço de domingo em família.
 
-**17**
-
-<!-- page 18 -->
+<!-- page 17 -->
 
 ---
 ## Lição 3.1 · A minha família
@@ -822,9 +744,9 @@ O álbum de fotografias — o livro onde guardamos as fotos.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**18**
+**17**
 
-<!-- page 19 -->
+<!-- page 18 -->
 
 ---
 ## Lição 3.1 · À mesa com a família
@@ -856,12 +778,11 @@ falar dos teus alimentos preferidos.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
+**18**
 
 À mesa com a família: leite, pão e fruta.
 
-**19**
-
-<!-- page 20 -->
+<!-- page 19 -->
 
 ---
 ## Lição 3.2 · Gramática: Estar, Ser e Chamar-se
@@ -908,9 +829,9 @@ CHAMAR-SE — para nomes: «Chamo-me Tomás.» «Como se chama a tua irmã?»
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**20**
+**19**
 
-<!-- page 21 -->
+<!-- page 20 -->
 
 ---
 ## Lição 3.2 · Exercícios
@@ -942,12 +863,11 @@ os verbos Ser, Estar e Chamar-se.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
+**20**
 
 Em casa: cada um com o seu passatempo.
 
-**21**
-
-<!-- page 22 -->
+<!-- page 21 -->
 
 ---
 ## Unidade 4 · Habitação
@@ -975,12 +895,11 @@ número (singular/plural).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
+**21**
 
 Casas portuguesas: apartamento e moradia.
 
-**22**
-
-<!-- page 23 -->
+<!-- page 22 -->
 
 ---
 ## Lição 4.1 · A casa onde vivo
@@ -1029,9 +948,9 @@ Prática — cómoda, fácil de usar.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**23**
+**22**
 
-<!-- page 24 -->
+<!-- page 23 -->
 
 ---
 ## Lição 4.1 · Exercícios
@@ -1059,12 +978,11 @@ preferido.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
+**23**
 
 A morar na cidade: rua e eléctrico.
 
-**24**
-
-<!-- page 25 -->
+<!-- page 24 -->
 
 ---
 ## Lição 4.2 · Gramática: o género dos nomes
@@ -1107,12 +1025,11 @@ cavalo/égua.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
+**24**
 
 A varanda de casa, o meu cantinho.
 
-**25**
-
-<!-- page 26 -->
+<!-- page 25 -->
 
 ---
 ## Lição 4.2 · Gramática: o número dos nomes
@@ -1145,9 +1062,9 @@ cama → as camas.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**26**
+**25**
 
-<!-- page 27 -->
+<!-- page 26 -->
 
 ---
 ## Lição 4.2 · Exercícios
@@ -1177,9 +1094,9 @@ há...»
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**27**
+**26**
 
-<!-- page 28 -->
+<!-- page 27 -->
 
 ---
 ## Unidade 5 · Espaços Comerciais e Serviços
@@ -1205,12 +1122,11 @@ descrever com adjectivos e a flexioná-los em género e número.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
+**27**
 
 As compras de sábado na rua do bairro.
 
-**28**
-
-<!-- page 29 -->
+<!-- page 28 -->
 
 ---
 ## Lição 5.1 · Nas lojas do bairro
@@ -1253,9 +1169,9 @@ Enviar — mandar (uma carta, uma mensagem).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**29**
+**28**
 
-<!-- page 30 -->
+<!-- page 29 -->
 
 ---
 ## Lição 5.1 · Exercícios
@@ -1287,9 +1203,9 @@ compra em cada uma.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**30**
+**29**
 
-<!-- page 31 -->
+<!-- page 30 -->
 
 ---
 ## Lição 5.2 · Gramática: o género dos adjectivos
@@ -1325,12 +1241,11 @@ Exemplos: o supermercado é grande · a farmácia é grande · o gelado é bom �
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
+**30**
 
 Na padaria do bairro.
 
-**31**
-
-<!-- page 32 -->
+<!-- page 31 -->
 
 ---
 ## Lição 5.2 · Gramática: o número dos adjectivos
@@ -1366,12 +1281,11 @@ maçãs?» — «Quero três maçãs vermelhas, estão muito frescas.»
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
+**31**
 
 Na farmácia do bairro.
 
-**32**
-
-<!-- page 33 -->
+<!-- page 32 -->
 
 ---
 ## Lição 5.2 · Exercícios
@@ -1399,9 +1313,9 @@ pequena, bonita...) e o que compras lá.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**33**
+**32**
 
-<!-- page 34 -->
+<!-- page 33 -->
 
 ---
 **TESTE 2 · Revisão das Unidades 3, 4 e 5**
@@ -1441,9 +1355,9 @@ que gostas lá.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · TESTE 2
 
 Prime School Press · www.primeschool.pt
-**34**
+**33**
 
-<!-- page 35 -->
+<!-- page 34 -->
 
 ---
 ## Unidade 6 · Saúde e Actividade Física
@@ -1469,12 +1383,11 @@ sobre nós próprios, como levantar-se, lavar-se e sentir-se.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
+**34**
 
 Desporto no parque: futebol, corrida, bicicleta e natação.
 
-**35**
-
-<!-- page 36 -->
+<!-- page 35 -->
 
 ---
 ## Lição 6.1 · Como te sentes?
@@ -1516,12 +1429,11 @@ O treino — a sessão de prática desportiva.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
+**35**
 
 A visita de saúde na clínica.
 
-**36**
-
-<!-- page 37 -->
+<!-- page 36 -->
 
 ---
 ## Lição 6.1 · Desporto e boa forma
@@ -1545,6 +1457,7 @@ Andar de bicicleta · passear · dançar · jogar à macaca.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
+**36**
 
 No consultório e na farmácia.
 
@@ -1558,9 +1471,7 @@ O verbo Praticar é regular: pratico, praticas, pratica, praticamos, praticais, 
 
 Os verbos terminados em -ar nunca levam acento nestas formas.
 
-**37**
-
-<!-- page 38 -->
+<!-- page 37 -->
 
 ---
 ## Lição 6.2 · Gramática: os verbos reflexos
@@ -1613,9 +1524,9 @@ mais usadas no dia a dia.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
-**38**
+**37**
 
-<!-- page 39 -->
+<!-- page 38 -->
 
 ---
 ## Lição 6.2 · Exercícios
@@ -1651,9 +1562,9 @@ lavar-se, sentir-se...).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
-**39**
+**38**
 
-<!-- page 40 -->
+<!-- page 39 -->
 
 ---
 ## Unidade 6 · Exercícios de revisão
@@ -1689,9 +1600,9 @@ alimentação e descanso.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
-**40**
+**39**
 
-<!-- page 41 -->
+<!-- page 40 -->
 
 ---
 ## Unidade 7 · Tempos Livres e Convívio Social
@@ -1717,12 +1628,11 @@ para dizer o que está a acontecer, e os números cardinais de 0 a 100.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
+**40**
 
 Tempos livres: ler, ouvir música e conviver.
 
-**41**
-
-<!-- page 42 -->
+<!-- page 41 -->
 
 ---
 ## Lição 7.1 · O que estás a fazer?
@@ -1770,12 +1680,11 @@ Ao fim de semana — no sábado e no domingo.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
+**41**
 
 No parque a brincar com os amigos.
 
-**42**
-
-<!-- page 43 -->
+<!-- page 42 -->
 
 ---
 ## Lição 7.1 · Gramática: Estar a... + infinitivo
@@ -1818,9 +1727,9 @@ fazer ontem?
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**43**
+**42**
 
-<!-- page 44 -->
+<!-- page 43 -->
 
 ---
 ## Lição 7.1 · Exercícios
@@ -1854,9 +1763,9 @@ duas vezes a construção Estar a...
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**44**
+**43**
 
-<!-- page 45 -->
+<!-- page 44 -->
 
 ---
 ## Lição 7.2 · Os números cardinais: 0 a 100
@@ -1898,9 +1807,9 @@ diferentes do Brasil (catorze, dezesseis, dezessete).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**45**
+**44**
 
-<!-- page 46 -->
+<!-- page 45 -->
 
 ---
 ## Lição 7.2 · As actividades de cada estação
@@ -1938,9 +1847,9 @@ aula.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**46**
+**45**
 
-<!-- page 47 -->
+<!-- page 46 -->
 
 ---
 ## Lição 7.2 · Exercícios
@@ -1974,12 +1883,11 @@ estação, usando pelo menos dois números.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
+**46**
 
 O outono: folhas e castanhas assadas.
 
-**47**
-
-<!-- page 48 -->
+<!-- page 47 -->
 
 ---
 ## Unidade 7 · Exercícios de revisão
@@ -2017,9 +1925,9 @@ amigos: onde estão, o que estão a fazer e a que horas voltam para casa.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**48**
+**47**
 
-<!-- page 49 -->
+<!-- page 48 -->
 
 ---
 ## Unidade 8 · Informação Pessoal
@@ -2047,12 +1955,11 @@ e aprendemos os verbos regulares do Presente do Indicativo: os três modelos, em
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
 
 Prime School Press · www.primeschool.pt
+**48**
 
 A preencher a ficha de inscrição na aula.
 
-**49**
-
-<!-- page 50 -->
+<!-- page 49 -->
 
 ---
 ## Lição 8.1 · Preencher uma ficha pessoal
@@ -2076,6 +1983,7 @@ Nacionalidade: _____________   Género: _________
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
 
 Prime School Press · www.primeschool.pt
+**49**
 
 Desporto preferido: ____________________________
 
@@ -2089,9 +1997,7 @@ Repara nos verbos: preencher, escrever, escolher. Pergunta com «Já preencheste
 
 responde com «Sim, já preenchi.»
 
-**50**
-
-<!-- page 51 -->
+<!-- page 50 -->
 
 ---
 ## Lição 8.1 · Entrevistar um colega
@@ -2135,12 +2041,11 @@ Gostar de + infinitivo: gosto de ler, gostas de jogar, gostamos de dançar.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
 
 Prime School Press · www.primeschool.pt
+**50**
 
 O avô e o neto a arranjar a bicicleta.
 
-**51**
-
-<!-- page 52 -->
+<!-- page 51 -->
 
 ---
 ## Lição 8.2 · Gramática: os verbos regulares em -ar
@@ -2189,9 +2094,9 @@ padaria.» «Eles passeiam ao domingo.»
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
 
 Prime School Press · www.primeschool.pt
-**52**
+**51**
 
-<!-- page 53 -->
+<!-- page 52 -->
 
 ---
 ## Lição 8.2 · Gramática: os verbos regulares em -er e -ir
@@ -2237,9 +2142,9 @@ Resumo dos três modelos: -o / -as / -a (igual nos três) · -amos / -emos / -im
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
 
 Prime School Press · www.primeschool.pt
-**53**
+**52**
 
-<!-- page 54 -->
+<!-- page 53 -->
 
 ---
 ## Lição 8.2 · Exercícios
@@ -2267,9 +2172,9 @@ morada, nacionalidade e um passatempo.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 8
 
 Prime School Press · www.primeschool.pt
-**54**
+**53**
 
-<!-- page 55 -->
+<!-- page 54 -->
 
 ---
 **TESTE 3 · Revisão das Unidades 6, 7 e 8**
@@ -2311,10 +2216,9 @@ idade, morada, nacionalidade e passatempo).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · TESTE 3
 
 Prime School Press · www.primeschool.pt
+**54**
 
-**55**
-
-<!-- page 56 -->
+<!-- page 55 -->
 
 ---
 ## Unidade 9 · Rotina Diária
@@ -2342,12 +2246,11 @@ Unidade 6.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 9
 
 Prime School Press · www.primeschool.pt
+**55**
 
 A rotina da manhã, passo a passo.
 
-**56**
-
-<!-- page 57 -->
+<!-- page 56 -->
 
 ---
 ## Lição 9.1 · Um dia na vida do Tomás
@@ -2387,9 +2290,9 @@ Adormecer — começar a dormir.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 9
 
 Prime School Press · www.primeschool.pt
-**57**
+**56**
 
-<!-- page 58 -->
+<!-- page 57 -->
 
 ---
 ## Lição 9.1 · Que horas são?
@@ -2424,12 +2327,11 @@ horas (plural).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 9
 
 Prime School Press · www.primeschool.pt
+**57**
 
 A jogar e a conviver: os tempos livres.
 
-**58**
-
-<!-- page 59 -->
+<!-- page 58 -->
 
 ---
 ## Lição 9.2 · Gramática: Vestir, Pentear, Calçar
@@ -2478,9 +2380,9 @@ regular: escovo, escovas, escova. Despir segue Vestir: dispo, despes, despe.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 9
 
 Prime School Press · www.primeschool.pt
-**59**
+**58**
 
-<!-- page 60 -->
+<!-- page 59 -->
 
 ---
 ## Lição 9.2 · Exercícios
@@ -2512,9 +2414,9 @@ c) Despir é tirar a roupa. ___
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 9
 
 Prime School Press · www.primeschool.pt
-**60**
+**59**
 
-<!-- page 61 -->
+<!-- page 60 -->
 
 ---
 ## Unidade 9 · Exercícios de revisão
@@ -2551,9 +2453,9 @@ do teu di
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 9
 
 Prime School Press · www.primeschool.pt
-**61**
+**60**
 
-<!-- page 62 -->
+<!-- page 61 -->
 
 ---
 ## Unidade 10 · Família e Compreensão Social
@@ -2579,12 +2481,11 @@ verbos irregulares muito usados: Ler, Fazer, Ir e Ouvir.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 10
 
 Prime School Press · www.primeschool.pt
+**61**
 
 O avô lê histórias aos netos, à noite.
 
-**62**
-
-<!-- page 63 -->
+<!-- page 62 -->
 
 ---
 ## Lição 10.1 · Ao domingo, em família
@@ -2633,9 +2534,9 @@ Ajudar — dar apoio a alguém (a mãe ajuda a arrumar).
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 10
 
 Prime School Press · www.primeschool.pt
-**63**
+**62**
 
-<!-- page 64 -->
+<!-- page 63 -->
 
 ---
 ## Lição 10.1 · Ouvir e compreender os outros
@@ -2667,9 +2568,9 @@ ajuda trabalham juntos.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 10
 
 Prime School Press · www.primeschool.pt
-**64**
+**63**
 
-<!-- page 65 -->
+<!-- page 64 -->
 
 ---
 ## Lição 10.2 · Gramática: Ler, Fazer, Ir, Ouvir
@@ -2721,12 +2622,11 @@ Exemplos: «Leio todos os dias antes de dormir.» «O que fazes ao fim de semana
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 10
 
 Prime School Press · www.primeschool.pt
+**64**
 
 A escrever e a ouvir os outros.
 
-**65**
-
-<!-- page 66 -->
+<!-- page 65 -->
 
 ---
 ## Lição 10.2 · Exercícios
@@ -2764,9 +2664,9 @@ quatro verbos da lição.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 10
 
 Prime School Press · www.primeschool.pt
-**66**
+**65**
 
-<!-- page 67 -->
+<!-- page 66 -->
 
 ---
 ## Unidade 10 · Exercícios de revisão
@@ -2800,9 +2700,9 @@ na escola.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 10
 
 Prime School Press · www.primeschool.pt
-**67**
+**66**
 
-<!-- page 68 -->
+<!-- page 67 -->
 
 ---
 ## Unidade 11 · Alimentação e Dieta
@@ -2828,12 +2728,11 @@ os advérbios de frequência para dizer com que frequência fazemos as coisas.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 11
 
 Prime School Press · www.primeschool.pt
+**67**
 
 A roda dos alimentos no mercado.
 
-**68**
-
-<!-- page 69 -->
+<!-- page 68 -->
 
 ---
 ## Lição 11.1 · Uma dieta equilibrada
@@ -2877,9 +2776,9 @@ A nutricionista — a especialista em alimentação.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 11
 
 Prime School Press · www.primeschool.pt
-**69**
+**68**
 
-<!-- page 70 -->
+<!-- page 69 -->
 
 ---
 ## Lição 11.1 · A roda dos alimentos
@@ -2909,9 +2808,9 @@ semana. E tu?» — «Eu como sempre ao domingo: bacalhau da avó!»
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 11
 
 Prime School Press · www.primeschool.pt
-**70**
+**69**
 
-<!-- page 71 -->
+<!-- page 70 -->
 
 ---
 ## Lição 11.2 · Gramática: os advérbios de frequência
@@ -2948,9 +2847,9 @@ como doces».
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 11
 
 Prime School Press · www.primeschool.pt
-**71**
+**70**
 
-<!-- page 72 -->
+<!-- page 71 -->
 
 ---
 ## Lição 11.2 · Exercícios
@@ -2980,9 +2879,9 @@ dia, com alimentos da roda dos alimentos.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 11
 
 Prime School Press · www.primeschool.pt
-**72**
+**71**
 
-<!-- page 73 -->
+<!-- page 72 -->
 
 ---
 ## Unidade 11 · Exercícios de revisão
@@ -3014,9 +2913,9 @@ preferida equilibrada.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · UNIDADE 11
 
 Prime School Press · www.primeschool.pt
-**73**
+**72**
 
-<!-- page 74 -->
+<!-- page 73 -->
 
 ---
 **TESTE 4 · Revisão das Unidades 9, 10 e 11**
@@ -3056,9 +2955,9 @@ actividade desportiva. Usa pelo menos dois advérbios de frequência.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · TESTE 4
 
 Prime School Press · www.primeschool.pt
-**74**
+**73**
 
-<!-- page 75 -->
+<!-- page 74 -->
 
 ---
 ## Actividades Finais · Projecto de fim de ano
@@ -3088,12 +2987,11 @@ trabalhar sozinho ou em pares.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · ACTIVIDADES FINAIS
 
 Prime School Press · www.primeschool.pt
+**74**
 
 As festas populares de Junho: tradição e convívio.
 
-**75**
-
-<!-- page 76 -->
+<!-- page 75 -->
 
 ---
 ## Actividades Finais · Jogos de revisão
@@ -3135,26 +3033,16 @@ quarto!») e os ponteiros (dois alunos) colocam-se no sítio certo.
 PORTUGUÊS 2.ª LÍNGUA · Y7 · ACTIVIDADES FINAIS
 
 Prime School Press · www.primeschool.pt
-**76**
+**75**
 
-<!-- page 77 -->
-
----
-
-<!-- page 78 -->
+<!-- page 76 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+**P R I M E  B O O K S**
 
 ## Portuguese 2nd
 
-Year 7 · Prime School Press · Student Manual
-
-Português de verdade, passo a passo.
-
-Português Língua Segunda para o Year 7: comunicação do dia a dia, textos
-
-autênticos e gramática que cresce aos poucos.
+nicação do dia a dia, textos
 
 **INSIDE THIS BOOK**
 
@@ -3173,8 +3061,10 @@ Cultura portuguesa e lusófona
 •
 Listas de vocabulário e revisões
 
-**Prime School Press · Portuguese 2nd**
+**Prime Books · Portuguese 2nd**
 
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

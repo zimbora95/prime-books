@@ -13,70 +13,6 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
-
-## Humanities
-
-**Year 7 · Student Book**
-
-Learn to read the world.
-
-One story, told in order. Part one builds the stage: the Universe, the Sun and its planets, the restless Earth,
-the five oceans and the seven continents. Part two brings on the players: the first people, Egypt, China and
-the Inca. Nine units, fifty-two numbered topics, and a short Portugal at this stage panel in every unit, so
-you always know what was happening on one Atlantic coast while the rest of the world got on with it.
-
-**I N S I D E  T H I S  B O O K**
-
-Part one: the Universe, the Sun, the planets and
-the restless Earth
-
-Part two: the first people, Egypt, China and the
-Inca
-
-Nine units and fifty-two numbered topics, in order
-
-A short Portugal at this stage panel in every
-unit
-
-History, geography and citizenship in one
-course
-
-**I M P R I N T**
-
-**EDITION**
-First edition, 2026. Printed in full colour on white stock.
-
-**PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
-
-**RIGHTS**
-© Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of the publisher.
-
-**CREDITS**
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team. Written and typeset in the Prime School
-Press studio, Lisbon.
-
-**CURRICULUM**
-Cambridge Lower Secondary, Stage 7. Ages about 11 to 12.
-
-**LICENCE**
-It is an independent publication and is not an official Cambridge Assessment
-International Education or Oxford University Press publication.
-
-Independent publication. This is an independent publication produced
-by Prime School for use within its own programmes of study. It is not
-affiliated with, licensed by, endorsed by or approved by any
-examination board, or by any other publisher.
-
-**A g e s  1 1  t o  1 2  ·  L o w e r  S e c o n d a r y**
-
-**w w w . p r i m e s c h o o l . p t**
-
-**2**
 
 <!-- page 3 -->
 
@@ -773,17 +709,11 @@ examination board, or by any other publisher.
 <!-- page 176 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+**P R I M E  B O O K S**
 
 ## Humanities
 
-Year 7 · Prime School Press · Student Manual
-
-Learn to read the world.
-
-Year 7 humanities weaves history, geography and citizenship into one course:
-
-sources, maps, case studies and big questions about people and place.
+ourse:
 
 **INSIDE THIS BOOK**
 
@@ -802,8 +732,10 @@ Skills practice: sources, data, essays
 •
 Unit reviews with model answers
 
-**Prime School Press · Humanities**
+**Prime Books · Humanities**
 
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual

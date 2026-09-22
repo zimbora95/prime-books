@@ -13,68 +13,17 @@ Student Manual
 <!-- page 2 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+Year 7 Art & Design  ·  Student Handbook & Workbook
 
-## Art & Design
-
-**Year 7 · Student Handbook & Workbook**
-
-Every child is an artist. Keep the studio open.
-
-Year 7 art and design develops making, looking and thinking: drawing, colour, print, 3D and the artists who
-changed how we see.
-
-**I N S I D E  T H I S  B O O K**
-
-Skills: drawing, paint, print, 3D
-
-Artists and movements in context
-
-Sketchbook habit and portfolio building
-
-Critique language and reflection
-
-Final project per unit
-
-**I M P R I N T**
-
-**EDITION**
-First edition, 2026. Printed in full colour on white stock.
-
-**PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
-
-**RIGHTS**
-© Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
-means without the prior written permission of the publisher.
-
-**CREDITS**
-Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
-Department · Content Creation Team. Written and typeset in the Prime School
-Press studio, Lisbon.
-
-**CURRICULUM**
-Cambridge Lower Secondary Art & Design (0073), Stage 7. Ages about 11 to 12.
-
-**LICENCE**
-It is an independent publication and is not an official Cambridge Assessment
-International Education or Oxford University Press publication.
-
-Independent publication. This is an independent publication produced
-by Prime School for use within its own programmes of study. It is not
-affiliated with, licensed by, endorsed by or approved by any
-examination board, or by any other publisher.
-
-**A g e s  1 1  t o  1 2  ·  L o w e r  S e c o n d a r y**
-
-**w w w . p r i m e s c h o o l . p t**
-
+Prime Books  ·  Cambridge Lower Secondary
+Page
 **2**
 
-<!-- page 3 -->
+**Imprint**
 
----
+Independent publication for Prime School. First edition, 2026. Curriculum context: Cambridge Lower
+Secondary Art & Design (0073), Stage 7. Ages about 11 to 12. www.primeschool.pt
+
 **Welcome**
 
 This book is your student handbook and workbook for Year 7 Art & Design.
@@ -112,171 +61,162 @@ Date pages
 Waiting for a "perfect" first page
 
 Label tests (blind contour,
-Throwing away "ugly" warm-ups
 charcoal shell)
+
+Throwing away "ugly" warm-ups
 
 Stick in tickets, textures, photos
 Only copying finished internet images
 
 Write short notes in your own
-Copying long biographies
 words
+
+Copying long biographies
 
 Warm-ups that look wrong can still be excellent practice. Neatness is not the same as learning.
 
-Year 7 Art & Design  ·  Student Handbook & Workbook
-
-Prime Books  ·  Cambridge Lower Secondary
-**3**
-
-<!-- page 4 -->
+<!-- page 3 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
 
 ## Contents
 
+Page 3
 Prime Books  ·  Cambridge Lower Secondary
 
 **Introduction**
+**4**
 **Unit 7.1 · Drawing**
+**15**
 
-7.1.1  Introduction to visual elements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.2  Warm-up drawing activities . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.3  Natural forms and observation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.4  Mark-making exploration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.5  Positive and negative space . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.6  Multi-viewpoint drawing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.7  Personal still-life project . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.1.8  Review and reflection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-**Unit 7.2 · Colour**
-
-7.2.1  Introduction to colour theory . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.2  Artists and colour mood . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.3  Primary colour tonal studies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.4  Secondary colour mixing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.5  Complementary colours . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.6  Colour study from artists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.7  Abstract colour study . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.2.8  Review and project completion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-**Unit 7.3 · Looking at Artists' Work**
-
-7.3.1  Introduction to contextual analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.3.2  Compare and contrast artworks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.3.3  Artist transcription . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.3.4  Artist research . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.3.5  Presentation skills . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.3.6  Personal response to artists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.3.7  Review and project completion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-**Unit 7.4 · Pattern and Texture**
-
-7.4.1  Introduction to texture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.4.2  Mark-making techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.4.3  Texture enlargement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.4.4  Relief and printmaking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.4.5  Pattern development . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.4.6  Colour in pattern design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-7.4.7  Final project · Pattern and texture design . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-
-Page 4
-
-**5**
-
+7.1.1  Introduction to visual elements
 **16**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**17**
+7.1.2  Warm-up drawing activities
+**25**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**26**
+7.1.3  Natural forms and observation
+**27**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.1.4  Mark-making exploration
 **28**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.1.5  Positive and negative space
 **29**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.1.6  Multi-viewpoint drawing
 **30**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.1.7  Personal still-life project
 **31**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.1.8  Review and reflection
 **32**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Unit 7.2 · Colour**
+**34**
 
-**33**
+7.2.1  Introduction to colour theory
+**34**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**35**
+7.2.2  Artists and colour mood
+**37**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**35**
+7.2.3  Primary colour tonal studies
+**39**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**38**
-
+7.2.4  Secondary colour mixing
 **40**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.2.5  Complementary colours
 **41**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.2.6  Colour study from artists
 **42**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.2.7  Abstract colour study
 **43**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**44**
+7.2.8  Review and project completion
+**45**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Unit 7.3 · Looking at Artists' Work**
+**47**
 
-**46**
+7.3.1  Introduction to contextual analysis
+**47**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**48**
+7.3.2  Compare and contrast artworks
+**51**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**48**
-
+7.3.3  Artist transcription
 **52**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.3.4  Artist research
 **53**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.3.5  Presentation skills
 **54**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.3.6  Personal response to artists
 **55**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**56**
+7.3.7  Review and project completion
+**58**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+**Unit 7.4 · Pattern and Texture**
+**61**
 
-**59**
+7.4.1  Introduction to texture
+**61**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**62**
+7.4.2  Mark-making techniques
+**63**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**62**
-
+7.4.3  Texture enlargement
 **64**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.4.4  Relief and printmaking
 **65**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
+7.4.5  Pattern development
 **66**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**67**
+7.4.6  Colour in pattern design
+**68**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**69**
+7.4.7  Final project · Pattern and texture design
+**70**
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-**71**
-
-<!-- page 5 -->
+<!-- page 4 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -320,9 +260,9 @@ designed for a visual or emotional experience.
 
 This is why we study Art & Design together.
 
-**5**
+**4**
 
-<!-- page 6 -->
+<!-- page 5 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -371,9 +311,9 @@ can see.
 IMAGE 0.03 — Memory vs observation. Purpose: compare a simplified memory sketch of a shoe with a careful observational study of the
 same object.
 
-**6**
+**5**
 
-<!-- page 7 -->
+<!-- page 6 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -432,9 +372,9 @@ experimentation and ideas. Finished "masterpieces" come later. Your process is a
 
 important as a polished final piece.
 
-**7**
+**6**
 
-<!-- page 8 -->
+<!-- page 7 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -484,9 +424,9 @@ Reflect.
 IMAGE 0.07 — One stone, six ways of seeing. Purpose: the same ordinary stone as texture, sculpture,
 photo, pattern, abstract shape, and still-life element.
 
-**8**
+**7**
 
-<!-- page 9 -->
+<!-- page 8 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -538,9 +478,9 @@ simple colour combination can become an abstract painting.
 
 **Art can change the way we see familiar things.**
 
-**9**
+**8**
 
-<!-- page 10 -->
+<!-- page 9 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -599,9 +539,9 @@ your chair · school uniform · phone · food packaging · school signs · books
 
 Art and design influence how the world looks, feels and functions.
 
-**10**
+**9**
 
-<!-- page 11 -->
+<!-- page 10 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -677,9 +617,9 @@ For each important task, record:
 Teachers assess process as well as product. A strong sketchbook can matter as much as one polished
 page.
 
-**11**
+**10**
 
-<!-- page 12 -->
+<!-- page 11 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -737,9 +677,9 @@ edge of the metal." - "One leg looks darker because it faces away from the windo
 5. Compare: How is your drawing different from the picture you had in your head
 before you observed?
 
-**12**
+**11**
 
-<!-- page 13 -->
+<!-- page 12 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -793,9 +733,9 @@ How does your artwork make the viewer see it differently?
 
 LOOK AGAIN — final / attach work
 
-**13**
+**12**
 
-<!-- page 14 -->
+<!-- page 13 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -839,9 +779,9 @@ The people who view, use or experience an artwork or design
 Context
 The circumstances surrounding an artwork, including time, place, culture and ideas
 
-**14**
+**13**
 
-<!-- page 15 -->
+<!-- page 14 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -897,9 +837,9 @@ a fuller making task
 REFLECT
 checklist or written evaluation
 
-**15**
+**14**
 
-<!-- page 16 -->
+<!-- page 15 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -951,9 +891,9 @@ tables. Wash hands before touching shared books.
 
 ## Unit 7.1 - Drawing
 
-16
+15
 
-<!-- page 17 -->
+<!-- page 16 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1015,9 +955,9 @@ short ticks for bark
 Artists using line (study set): Pablo Picasso (continuous-line drawings), Henri Matisse (contour drawings),
 Vincent van Gogh (energetic reed-pen lines), Bridget Riley (line used for optical movement).
 
-**17**
+**16**
 
-<!-- page 18 -->
+<!-- page 17 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1057,9 +997,9 @@ pen. Title it. Reflect: what detail appeared that you usually skip?
 
 Line vocabulary: contour · line weight · gesture · implied line · expressive line
 
-**18**
+**17**
 
-<!-- page 19 -->
+<!-- page 18 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1112,9 +1052,9 @@ IMAGE 7.1.03c — Silhouettes. Purpose: show that outline alone can identify a s
 Artists: Matisse (paper cut-outs as pure shape), Islamic geometric designers, logo designers who rely on
 silhouette clarity.
 
-**19**
+**18**
 
-<!-- page 20 -->
+<!-- page 19 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1167,9 +1107,9 @@ cone / pyramid
 A drawing is two-dimensional, but an artist can create the illusion of form by using light, shadow, tone,
 perspective and overlapping shapes.
 
-**20**
+**19**
 
-<!-- page 21 -->
+<!-- page 20 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1224,9 +1164,9 @@ circle→sphere · square→cube · rectangle→cuboid · triangle→cone
 
 Form vocabulary: volume · modelling · highlight · mid-tone · core shadow · cast shadow
 
-**21**
+**20**
 
-<!-- page 22 -->
+<!-- page 21 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1275,9 +1215,9 @@ do the marks contribute to the emotional quality of the image?
 IMAGE 7.1.03f — Mark density study (teaching illustration after Kollwitz). Purpose: show how dense, directional marks create texture and
 emotion. Not a museum reproduction.
 
-**22**
+**21**
 
-<!-- page 23 -->
+<!-- page 22 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1335,9 +1275,9 @@ helps the focal point.
 
 graphite + one accent
 
-**23**
+**22**
 
-<!-- page 24 -->
+<!-- page 23 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1385,9 +1325,9 @@ six thumbnails — different decisions
 
 Composition vocabulary: balance · crop · focal point · hierarchy · viewfinder · symmetrical · asymmetrical
 
-**24**
+**23**
 
-<!-- page 25 -->
+<!-- page 24 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1427,9 +1367,9 @@ Then choose your strongest study.
 
 six studies of one object
 
-**25**
+**24**
 
-<!-- page 26 -->
+<!-- page 25 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1479,9 +1419,9 @@ Art educator Kimon Nicolaïdes popularised contour practice in *The Natural Way 
 
 Draw* (1941), arguing that eye and hand must train together slowly, like musicians.
 
-**26**
+**25**
 
-<!-- page 27 -->
+<!-- page 26 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1513,9 +1453,9 @@ What detail did warm-ups reveal that "careful drawing" usually misses?
 **Go a bit further**
 Second study of the **same** object from the opposite side. One sentence: what changed?
 
-27
+26
 
-<!-- page 28 -->
+<!-- page 27 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1576,9 +1516,9 @@ Proportion check: what is the widest measurement compared with the tallest?
 
 natural form tonal study
 
-**28**
+**27**
 
-<!-- page 29 -->
+<!-- page 28 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1618,9 +1558,9 @@ master drawings and prints, darkness is often layered marks, not a flat fill.
 
 natural-object study from three marks
 
-**29**
+**28**
 
-<!-- page 30 -->
+<!-- page 29 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1650,9 +1590,9 @@ positive first
 
 negative space only
 
-**30**
+**29**
 
-<!-- page 31 -->
+<!-- page 30 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1692,9 +1632,9 @@ Viewpoints:
 
 multi-viewpoint / Cubist-idea study
 
-**31**
+**30**
 
-<!-- page 32 -->
+<!-- page 31 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1762,9 +1702,9 @@ Process sentence:
 
 thumbnail A
 
-**32**
+**31**
 
-<!-- page 33 -->
+<!-- page 32 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1807,9 +1747,9 @@ I can…
 ☐ plan and finish a personal still-life project
 ☐ reflect and set a next-step target
 
-**33**
+**32**
 
-<!-- page 34 -->
+<!-- page 33 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1855,9 +1795,9 @@ The thing I still need to practise is… _______________
 
 + Deliver and evaluate a personal still life.
 
-**34**
+**33**
 
-<!-- page 35 -->
+<!-- page 34 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1908,9 +1848,9 @@ From these, artists mix secondary and tertiary colours.
 
 IMAGE 7.2.01 — RYB colour wheel. Purpose: show primary, secondary and tertiary relationships for paint mixing.
 
-**35**
+**34**
 
-<!-- page 36 -->
+<!-- page 35 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -1959,9 +1899,9 @@ secondary mixes + proportion variants
 Do you get exactly the same orange from more red + a little yellow, and a little red + more yellow? Why
 not?
 
-**36**
+**35**
 
-<!-- page 37 -->
+<!-- page 36 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2009,9 +1949,9 @@ Colours on a computer or phone screen are produced differently from paint. Scree
 red, green, blue). Artists working with paint deal with pigments and reflected light. That is one reason a
 screen colour may not match paint exactly.
 
-**37**
+**36**
 
-<!-- page 38 -->
+<!-- page 37 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2057,9 +1997,9 @@ Matisse used colour to create harmony, rhythm, contrast and energy.
 IMAGE 7.2.05 — Teaching study after Matisse. Purpose: show non-naturalistic intense colour creating harmony and energy. Not a
 museum reproduction.
 
-**38**
+**37**
 
-<!-- page 39 -->
+<!-- page 38 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2104,9 +2044,9 @@ Keep the subject and basic composition similar; change the colours.
 
 Reflect: Which colour choices created the biggest difference?
 
-**39**
+**38**
 
-<!-- page 40 -->
+<!-- page 39 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2154,9 +2094,9 @@ three primary tonal scales (5+ steps each)
 Create a darker version of blue without using only black. Try blue + a little violet, or blue + a little of its
 complementary. Which dark looks richer?
 
-**40**
+**39**
 
-<!-- page 41 -->
+<!-- page 40 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2205,9 +2145,9 @@ whether the change was intentional or accidental.
 **Studio tip**
 Keep separate mixing areas clean and wash your brush properly between colours.
 
-**41**
+**40**
 
-<!-- page 42 -->
+<!-- page 41 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2252,9 +2192,9 @@ When complementary colours are **mixed** together, they generally reduce each ot
 useful for neutrals and muted colours. So complementary colours have two effects: **next to each other
 → strong contrast**; **mixed together → reduced intensity**.
 
-**42**
+**41**
 
-<!-- page 43 -->
+<!-- page 42 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2300,9 +2240,9 @@ swatches
 
 small painted colour study
 
-**43**
+**42**
 
-<!-- page 44 -->
+<!-- page 43 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2339,9 +2279,9 @@ focus. His paintings may appear simple at first, but look carefully for subtle c
 edges, relationships between fields, differences in value and intensity, and the effect of one colour on
 another. Rothko wanted viewers to experience colour rather than simply identify it.
 
-**44**
+**43**
 
-<!-- page 45 -->
+<!-- page 44 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2388,9 +2328,9 @@ Create a final abstract colour artwork based on one option:
 
 thumbnails + colour tests
 
-**45**
+**44**
 
-<!-- page 46 -->
+<!-- page 45 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2455,9 +2395,9 @@ colour fields, large areas of colour, subtle relationships
 
 **Key vocabulary**
 
-**46**
+**45**
 
-<!-- page 47 -->
+<!-- page 46 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2536,9 +2476,9 @@ One thing I would change in my final artwork is… _______________
 
 Next time I use colour, I will… _______________
 
-**47**
+**46**
 
-<!-- page 48 -->
+<!-- page 47 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2586,9 +2526,9 @@ of the artwork.
 Context can help us understand an artwork, but knowing the artist's biography does not automatically
 tell us what an artwork means. The artwork itself is always an important starting point.
 
-**48**
+**47**
 
-<!-- page 49 -->
+<!-- page 48 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2675,9 +2615,9 @@ Analysis asks: How has the artist created this effect?
 Instead of "The painting feels dramatic," try: "The artist creates a dramatic effect through strong
 contrasts between dark shadows and bright areas of colour." Now you have used visual evidence.
 
-**49**
+**48**
 
-<!-- page 50 -->
+<!-- page 49 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2747,9 +2687,9 @@ Does the composition feel stable or unstable?
 IMAGE 7.3.02 — Annotated looking board. Purpose: show how to label line, shape, colour, texture, composition and focal point on one
 artwork.
 
-**50**
+**49**
 
-<!-- page 51 -->
+<!-- page 50 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2794,9 +2734,9 @@ Interpret: These choices can contribute to a disturbing and dramatic atmosphere.
 created in response to the bombing of the Spanish town of Guernica during the Spanish Civil War.
 Context helps us understand why the subject and visual language are so powerful.
 
-**51**
+**50**
 
-<!-- page 52 -->
+<!-- page 51 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2836,9 +2776,9 @@ could compare: colour · line · shape · human figures · space · composition 
 
 IMAGE 7.3.05 — Compare Matisse and Picasso. Purpose: same broad subject (figures) with very different visual languages.
 
-**52**
+**51**
 
-<!-- page 53 -->
+<!-- page 52 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2889,9 +2829,9 @@ my own work because…"
 
 IMAGE 7.3.06 — Transcription beside original detail. Purpose: show learning by remaking a section, not copying a whole artwork.
 
-**53**
+**52**
 
-<!-- page 54 -->
+<!-- page 53 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -2960,9 +2900,9 @@ Example: Pablo Picasso, *Guernica*, 1937, oil on canvas.
 If you use an image from a website, your teacher may also ask you to record the website or museum
 collection.
 
-**54**
+**53**
 
-<!-- page 55 -->
+<!-- page 54 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3015,9 +2955,9 @@ A simple artist presentation could have six slides:
 5. Visual analysis + techniques
 6. Personal response + what you learned
 
-**55**
+**54**
 
-<!-- page 56 -->
+<!-- page 55 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3061,9 +3001,9 @@ artist and applied it to your own subject.
 
 IMAGE 7.3.09 — Influence without copying. Purpose: show an original student response beside the artist approach that inspired it.
 
-**56**
+**55**
 
-<!-- page 57 -->
+<!-- page 56 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3122,9 +3062,9 @@ flower in a completely different way.
 
 IMAGE 7.3.10 — O'Keeffe idea: flower + photograph. Purpose: show transformation through scale, cropping and simplification.
 
-**57**
+**56**
 
-<!-- page 58 -->
+<!-- page 57 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3143,9 +3083,9 @@ object is much larger than it would normally appear.
 
 enlarged natural-object study
 
-**58**
+**57**
 
-<!-- page 59 -->
+<!-- page 58 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3194,9 +3134,9 @@ I can…
 ☐ explain the connection between my work and the artist
 ☐ reflect on what I learned
 
-**59**
+**58**
 
-<!-- page 60 -->
+<!-- page 59 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3282,9 +3222,9 @@ something that affects an artist's ideas, methods or visual language
 Personal response
 an original creative or written reaction to an artist or artwork
 
-**60**
+**59**
 
-<!-- page 61 -->
+<!-- page 60 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3313,9 +3253,9 @@ Choose one artwork studied in this unit.
 
 final look · learn · respond project
 
-**61**
+**60**
 
-<!-- page 62 -->
+<!-- page 61 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3373,9 +3313,9 @@ texture represented visually as an illusion
 hundreds of small marks that look like fur on
 smooth paper
 
-**62**
+**61**
 
-<!-- page 63 -->
+<!-- page 62 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3448,9 +3388,9 @@ This last question matters: you are translating physical experience into visual 
 
 three objects — look · touch · describe
 
-**63**
+**62**
 
-<!-- page 64 -->
+<!-- page 63 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3523,9 +3463,9 @@ three-dimensional
 IMAGE 7.4.03 — Mark-making library sheet. Purpose: show hatching, cross-hatching, stippling, scribbling, dots, contour and dry-brush
 clearly.
 
-**64**
+**63**
 
-<!-- page 65 -->
+<!-- page 64 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3565,9 +3505,9 @@ A viewfinder can be made from card, paper, two L-shaped pieces of card, or a car
 
 IMAGE 7.4.04 — Viewfinder selecting a detail. Purpose: show how framing isolates an interesting section of a textured object.
 
-**65**
+**64**
 
-<!-- page 66 -->
+<!-- page 65 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3622,9 +3562,9 @@ You can create a simple printing surface using foam, cardboard, textured materia
 shapes. Apply a small amount of paint or printing ink to the raised surface. Press paper onto it. Lift
 carefully. The result is a print.
 
-**66**
+**65**
 
-<!-- page 67 -->
+<!-- page 66 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3675,9 +3615,9 @@ textiles · ceramics · architecture · tiles · carpets · wallpaper
 Design
 clothing · packaging · stationery · websites · interiors
 
-**67**
+**66**
 
-<!-- page 68 -->
+<!-- page 67 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3730,9 +3670,9 @@ Which one works best as a repeated design?
 
 four motif versions
 
-**68**
+**67**
 
-<!-- page 69 -->
+<!-- page 68 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3777,9 +3717,9 @@ orange + cream + black. Fewer colours can make a pattern feel more unified and e
 
 IMAGE 7.4.08 — One pattern, three palettes. Purpose: keep the pattern identical while changing only the colours.
 
-**69**
+**68**
 
-<!-- page 70 -->
+<!-- page 69 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3821,9 +3761,9 @@ M.C. Escher explored repetition, symmetry and tessellation — a pattern of shap
 without gaps or overlaps. He often transformed simple shapes into recognisable forms such as birds,
 fish, lizards or insects. Pattern can become much more than decoration; it can become a visual puzzle.
 
-**70**
+**69**
 
-<!-- page 71 -->
+<!-- page 70 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3854,9 +3794,9 @@ composition.
 
 IMAGE 7.4.11 — From nature to design. Purpose: show the full transformation sequence students should follow.
 
-**71**
+**70**
 
-<!-- page 72 -->
+<!-- page 71 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3903,9 +3843,9 @@ Look again: direction? repetition? concentration? change across the surface?
 "My colours don't work together."
 Reduce the number of colours — a limited palette creates stronger unity.
 
-**72**
+**71**
 
-<!-- page 73 -->
+<!-- page 72 -->
 
 ---
 Year 7 Art & Design  ·  Student Handbook & Workbook
@@ -3960,22 +3900,20 @@ If I developed this project further, I would… _______________
 
 **Key vocabulary**
 
-**73**
+**72**
+
+<!-- page 73 -->
+
+---
 
 <!-- page 74 -->
 
 ---
-**P R I M E  S C H O O L  P R E S S**
+**P R I M E  B O O K S**
 
 ## Art & Design
 
-Year 7 · Prime School Press · Student Manual
-
-Every child is an artist. Keep the studio open.
-
-Year 7 art and design develops making, looking and thinking: drawing, colour,
-
-print, 3D and the artists who changed how we see.
+thinking: drawing, colour,
 
 **INSIDE THIS BOOK**
 
@@ -3994,8 +3932,10 @@ Critique language and reflection
 •
 Final project per unit
 
-**Prime School Press · Art & Design**
+**Prime Books · Art & Design**
 
 Ages 11–12 · Lower Secondary
 
 **primeschool.pt**
+
+Student Manual
