@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-21 03:34 UTC",
+ "generated": "2026-09-22 03:33 UTC",
  "totals": {
   "books": 125,
-  "pages": 12616,
+  "pages": 12620,
   "withInput": 83,
   "noInput": 42,
   "standardized": 0,
@@ -1179,7 +1179,7 @@
     {
      "slug": "y07-portuguese-2nd",
      "subject": "Portuguese 2nd",
-     "pages": 76,
+     "pages": 78,
      "input": {
       "kind": "XLSX",
       "file": "y07-portuguese-2nd - input.xlsx"
@@ -1209,7 +1209,7 @@
    ],
    "withInput": 11,
    "standardized": 0,
-   "pages": 1400
+   "pages": 1402
   },
   {
    "year": 8,
@@ -1288,7 +1288,7 @@
     {
      "slug": "y08-portuguese-2nd",
      "subject": "Portuguese 2nd",
-     "pages": 100,
+     "pages": 102,
      "input": null,
      "standardized": false
     },
@@ -1312,7 +1312,7 @@
    ],
    "withInput": 6,
    "standardized": 0,
-   "pages": 912
+   "pages": 914
   },
   {
    "year": 9,
@@ -1557,6 +1557,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-09-21 03:00 UTC",
+ "checked_at": "2026-09-22 03:00 UTC",
  "spec": "A-2.3-Y1-4"
 }
