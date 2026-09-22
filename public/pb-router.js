@@ -89,7 +89,7 @@
     } catch (e) {
       return;
     }
-    document.title = isFinishedPath() ? "Prime Books \u00b7 the finished shelf" : "Prime Books";
+    document.title = isFinishedPath() ? "Prime Books \u00b7 Finished" : "Prime Books \u2014 the Prime School book studio";
   }
 
   /* Open whatever book the current URL names. Retries until index.html has
@@ -137,6 +137,10 @@
       openFromUrl(0);
     },
   };
+
+  if (isFinishedPath() && !slugFromPath()) {
+    document.title = "Prime Books \u00b7 Finished";
+  }
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function () {
