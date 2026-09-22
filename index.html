@@ -6209,7 +6209,12 @@ function rr(x, px, py, w, h, r) {
                  opened. Two families of URL, two audiences, no overlap.
                  It IS still indexed by path and by slug below, because that is
                  the only way a deep link can reach it. */
-              if (String(row.slug || "").slice(-9) !== "-standard") {
+              /* Same rule for model-lab editions (<slug>-openai, -anthropic…):
+                 an experiment row must never replace its master's card. */
+              if (
+                String(row.slug || "").slice(-9) !== "-standard" &&
+                !/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/.test(String(row.slug || ""))
+              ) {
                 const key = "Year " + row.year + "|" + normSubject(row.subject);
                 SUBJECT_PDFS[key] = row.pdf;
                 if (row.pages) SUBJECT_PDF_PAGES[key] = row.pages;

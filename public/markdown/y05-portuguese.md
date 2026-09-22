@@ -17,7 +17,13 @@ Student Manual
 
 ## Portuguese 1st Language
 
-tura, escrita, gramática e oralidade
+Year 5 · Student Manual
+
+A língua que já é tua — agora escrita com orgulho.
+
+Português Língua Materna para o Year 5: leitura, escrita, gramática e oralidade
+
+com textos autênticos e projetos de escrita.
 
 **INSIDE THIS BOOK**
 
@@ -42,8 +48,6 @@ Ages 9–10 · Upper Primary
 
 **primeschool.pt**
 
-Student Manual
-
 <!-- page 3 -->
 
 ---
@@ -51,7 +55,7 @@ Student Manual
 
 ## Portuguese 1st Language
 
-Year 5 · Cambridge Primary · Student Manual
+Year 5 · Student Manual
 
 A língua que já é tua — agora escrita com orgulho.
 
@@ -89,7 +93,7 @@ Ages 9–10 · Upper Primary
 
 ## Portuguese 1st Language
 
-Year 5 · Cambridge Primary · Student Manual
+Year 5 · Student Manual
 
 A língua que já é tua — agora escrita com orgulho.
 

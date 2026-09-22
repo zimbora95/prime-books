@@ -1,5 +1,5 @@
 # Portuguese 2nd - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-portuguese-2nd/book.pdf` (100 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-portuguese-2nd/book.pdf` (102 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -13,136 +13,232 @@ Student Manual
 <!-- page 2 -->
 
 ---
+**P R I M E  S C H O O L  P R E S S**
+
+## Portuguese 2nd
+
+**Year 8 · Student Manual**
+
+Português de verdade, passo a passo.
+
+Português Língua Segunda para o Year 8: comunicação do dia a dia, textos autênticos e gramática que
+cresce aos poucos.
+
+**I N S I D E  T H I S  B O O K**
+
+Unidades por temas do quotidiano
+
+Diálogos e textos autênticos
+
+Gramática apresentada e revista
+
+Cultura portuguesa e lusófona
+
+Listas de vocabulário e revisões
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written and typeset in the Prime School
+Press studio, Lisbon.
+
+**CURRICULUM**
+Follows the Cambridge Lower Secondary Portuguese (Second Language) scheme of
+work, Stage 8. Ages about 12 to 13.
+
+**LICENCE**
+It is an independent publication and is not an official Cambridge Assessment
+International Education or Oxford University Press publication.
+
+**LANGUAGE**
+European Portuguese (norma europeia): metric measurements, prices in euros, the
+24-hour clock, and Portuguese spelling as used in Portugal.
+
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**A g e s  1 2  t o  1 3  ·  L o w e r  S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
+**2**
+
+<!-- page 3 -->
+
+---
 PORTUGUÊS 2.ª LÍNGUA · YEAR 8 · ÍNDICE
 
 Prime School Press · www.primeschool.pt
-**2**
 
 ## Índice
 
 **UNIDADE 1 · ROTINAS DO DIA A DIA**
 Presente do Indicativo · Rotinas
-**4**
 
 **UNIDADE 2 · A LÍNGUA EM ACÇÃO**
 Verbos reflexos · Entoação · Contracções
-**12**
 
 **TESTE 1**
 Revisão das Unidades 1 e 2
-**17**
 
 **UNIDADE 3 · LAZER E DESPORTO**
 Pretérito Perfeito Simples · já e ainda não
-**19**
 
 **UNIDADE 4 · PERGUNTAR E RESPONDER**
 que/qual/quais · Complementos · Sons
-**27**
 
 **TESTE 2**
 Revisão das Unidades 3 e 4
-**33**
 
 **UNIDADE 5 · TEMPOS PASSADOS**
 Pretérito Imperfeito · Superlativo · mesmo
-**35**
 
 **TESTE 3**
 Revisão da Unidade 5
-**44**
 
 **UNIDADE 6 · À MESA DOS PORTUGUESES**
 Gastronomia · Quantificadores · Plural
-**46**
 
 **UNIDADE 7 · VAMOS ÀS COMPRAS**
 Imperativo informal · Compras físicas e digitais
-**53**
 
 **TESTE 4**
 Revisão das Unidades 6 e 7
-**59**
 
 **ATIVIDADES 1**
 Revisão geral das Unidades 1-4
-**61**
 
 **ATIVIDADES 2**
 Preparação para o exame · Unidades 5-7
-**63**
 
 **SALA DE LEITURA**
 Textos de autores portugueses
-**65**
 
 **ANEXO**
 Tabelas de verbos para consulta
-**68**
 
 **CULTURA**
 Portugal · pequeno dicionário de cultura
-**70**
 
 **GLOSSÁRIO**
 Os termos gramaticais do ano
-**72**
 
 **PROJECTO FINAL**
 O Meu Guia de Portugal
-**73**
 
 **CADERNOS DE EXERCÍCIOS 1-4**
 Treino extra de gramática e vocabulário
-**74**
 
 **SOLUÇÕES**
 Respostas seleccionadas para confirmares
-**82**
 
 **DIÁRIO DE LEITURA**
 Regista as tuas leituras do ano
-**84**
 
 **JOGOS DE LÍNGUA**
 Sopa de palavras e jogos de frases
-**86**
 
 **MINITESTES**
 Cinco revisões rápidas de cinco minutos
-**89**
 
 **PORTUGAL E O MUNDO**
 O português no mundo · CPLP
-**92**
 
 **REFERÊNCIA RÁPIDA**
 O ano num só olhar
-**93**
 
 **AUTOAVALIAÇÃO**
 O teu percurso em dez perguntas
-**94**
 
 **PARA O PROFESSOR**
 Registo de progresso da turma
-**96**
 
 **CERTIFICADO**
 Chegaste ao fim!
-**97**
 
 **NOTAS**
 As minhas notas
+
+**3**
+
+**5**
+
+**13**
+
+**18**
+
+**20**
+
+**28**
+
+**34**
+
+**36**
+
+**45**
+
+**47**
+
+**54**
+
+**60**
+
+**62**
+
+**64**
+
+**66**
+
+**69**
+
+**71**
+
+**73**
+
+**74**
+
+**75**
+
+**83**
+
+**85**
+
+**87**
+
+**90**
+
+**93**
+
+**94**
+
+**95**
+
+**97**
+
 **98**
 
-<!-- page 3 -->
+**99**
+
+<!-- page 4 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · YEAR 8
 
 Prime School Press · www.primeschool.pt
-**3**
 
 ## Bem-vindo ao teu manual
 
@@ -174,13 +270,14 @@ Mello Breyner, Eugénio de Andrade e José Saramago. A língua é também a cult
 
 quem a fala — por isso falamos de cidades, feiras, cafés e festas de Portugal.
 
-<!-- page 4 -->
+**4**
+
+<!-- page 5 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**4**
 
 ## Unidade 1 · Rotinas do Dia a Dia
 
@@ -204,13 +301,14 @@ acontece todos os dias: os verbos regulares e os mais importantes irregulares.
 
 A família ao pequeno-almoço, antes de começar o dia.
 
-<!-- page 5 -->
+**5**
+
+<!-- page 6 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**5**
 
 ## Lição 1.1 · O Presente do Indicativo
 
@@ -273,13 +371,14 @@ eles/elas falam
 eles/elas comem
 eles/elas partem
 
-<!-- page 6 -->
+**6**
+
+<!-- page 7 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**6**
 
 ## Verbos irregulares essenciais
 
@@ -351,13 +450,14 @@ a) Eu ________ (estudar) português todas as semanas.
 
 b) Ela ________ (fazer) desporto ao sábado.
 
-<!-- page 7 -->
+**7**
+
+<!-- page 8 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**7**
 
 c) Nós ________ (ser) alunos da turma 8B.
 
@@ -369,13 +469,14 @@ d) Eles ________ (ter) aulas de manhã.
 
 presente do indicativo.
 
-<!-- page 8 -->
+**8**
+
+<!-- page 9 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**8**
 
 ## Lição 1.2 · Rotinas pessoais e profissionais
 
@@ -405,13 +506,14 @@ E ao fim de semana?
 **Sr. Costa**
 Ao sábado trabalho; ao domingo, descanso com a família.
 
-<!-- page 9 -->
+**9**
+
+<!-- page 10 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**9**
 
 **VOCABULÁRIO DAS PROFISSÕES**
 
@@ -431,13 +533,14 @@ cada um faz, no presente do indicativo.
 
 2. Qual destas profissões escolherias para ti? Porquê? Escreve três frases a justificar.
 
-<!-- page 10 -->
+**10**
+
+<!-- page 11 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**10**
 
 ## A frequência das acções
 
@@ -465,13 +568,14 @@ b) nunca / café / tomo
 
 c) às vezes / cinema / vou / ao
 
-<!-- page 11 -->
+**11**
+
+<!-- page 12 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 1
 
 Prime School Press · www.primeschool.pt
-**11**
 
 4. Entrevista um adulto da tua família: qual é a rotina profissional dele ou dela?
 
@@ -485,13 +589,14 @@ Escreve cinco frases.
 
 presente do indicativo.
 
-<!-- page 12 -->
+**12**
+
+<!-- page 13 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**12**
 
 ## Unidade 2 · A Língua em Acção
 
@@ -523,13 +628,14 @@ definido, declaração, pergunta.
 
 Escreve agora duas frases: uma coisa que fazes sempre e uma que nunca fazes.
 
-<!-- page 13 -->
+**13**
+
+<!-- page 14 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**13**
 
 ## Lição 2.1 · Verbos reflexos
 
@@ -587,13 +693,14 @@ b) Ela olha ______ ao espelho.
 
 c) Nós divertimos ______ muito.
 
-<!-- page 14 -->
+**14**
+
+<!-- page 15 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**14**
 
 d) Tu lavas ______ as mãos antes de comer.
 
@@ -611,13 +718,14 @@ b) Sentamo-nos à mesa. → Não ________ à mesa.
 
 c) Visto-me depressa. → Não ________ depressa.
 
-<!-- page 15 -->
+**15**
+
+<!-- page 16 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**15**
 
 ## Lição 2.2 · Entoação: perguntas e respostas
 
@@ -662,13 +770,14 @@ d) Gosto muito de matemática.  ___
 
 4. Escreve três perguntas para fazeres a um autor português famoso.
 
-<!-- page 16 -->
+**16**
+
+<!-- page 17 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 2
 
 Prime School Press · www.primeschool.pt
-**16**
 
 ## Lição 2.3 · Contracções do artigo definido
 
@@ -720,13 +829,14 @@ ______.
 
 7. Escreve duas frases sobre a tua rua usando contracções diferentes.
 
-<!-- page 17 -->
+**17**
+
+<!-- page 18 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 1
 
 Prime School Press · www.primeschool.pt
-**17**
 
 ## Teste 1 · 1
 
@@ -760,13 +870,14 @@ ________ (ir) ao cinema.
 
 5. Escreve duas perguntas com palavras interrogativas e duas só com entoação.
 
-<!-- page 18 -->
+**18**
+
+<!-- page 19 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 1
 
 Prime School Press · www.primeschool.pt
-**18**
 
 **D. Escrita**
 
@@ -778,13 +889,14 @@ Prime School Press · www.primeschool.pt
 
 perfeito.
 
-<!-- page 19 -->
+**19**
+
+<!-- page 20 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**19**
 
 ## Unidade 3 · Lazer e Desporto
 
@@ -818,13 +930,14 @@ falei · comi · parti · fui · tive · estive · fiz · trouxe · disse · ouv
 
 Agora escreve duas coisas boas que fizeste este ano.
 
-<!-- page 20 -->
+**20**
+
+<!-- page 21 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**20**
 
 ## Lição 3.1 · Pretérito Perfeito Simples: regulares
 
@@ -874,13 +987,14 @@ b) Nós almoçamos em casa. → Nós ________ em casa.
 
 c) Eles partem às oito. → Eles ________ às oito.
 
-<!-- page 21 -->
+**21**
+
+<!-- page 22 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**21**
 
 2. Escreve quatro frases sobre o teu último fim-de-semana.
 
@@ -890,13 +1004,14 @@ Prime School Press · www.primeschool.pt
 
 em casa. À noite jantamos pizza e jogamos cartas.»
 
-<!-- page 22 -->
+**22**
+
+<!-- page 23 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**22**
 
 ## Lição 3.2 · ser, ter, estar e fazer
 
@@ -960,7 +1075,9 @@ a) No verão ________ no Algarve duas semanas.
 
 b) Ontem ________ um teste difícil.
 
-<!-- page 23 -->
+**23**
+
+<!-- page 24 -->
 
 ---
 c) No domingo ________ um bolo com a minha avó.
@@ -968,7 +1085,6 @@ c) No domingo ________ um bolo com a minha avó.
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**23**
 
 d) ________ ao cinema com os meus primos.
 
@@ -980,13 +1096,14 @@ perfeito irregulares.
 
 A turma em passeio pelas ruas de Évora.
 
-<!-- page 24 -->
+**24**
+
+<!-- page 25 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**24**
 
 ## Lição 3.3 · Já e ainda não
 
@@ -1022,13 +1139,14 @@ b) Fizeste os exercícios desta página?  ______
 
 c) Foste alguma vez ao Estádio da Luz?  ______
 
-<!-- page 25 -->
+**25**
+
+<!-- page 26 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**25**
 
 5. Escreve duas frases com já e duas com ainda não sobre a tua semana.
 
@@ -1040,13 +1158,14 @@ desporto, usando já, ainda não e três verbos irregulares no pretérito perfei
 
 sobre a última vitória do clube, no pretérito perfeito.
 
-<!-- page 26 -->
+**26**
+
+<!-- page 27 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 3
 
 Prime School Press · www.primeschool.pt
-**26**
 
 ## Lição 3.4 · Mais verbos irregulares no pretérito
 
@@ -1112,13 +1231,14 @@ que ________ (ser) um dia perfeito.
 
 menos três verbos irregulares.
 
-<!-- page 27 -->
+**27**
+
+<!-- page 28 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**27**
 
 ## Unidade 4 · Perguntar e Responder
 
@@ -1150,13 +1270,14 @@ Faz estas três perguntas a um colega e regista as respostas dele:
 
 3. Quais são os teus três passatempos? ________
 
-<!-- page 28 -->
+**28**
+
+<!-- page 29 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**28**
 
 ## Lição 4.1 · Que, qual e quais
 
@@ -1196,13 +1317,14 @@ c) ________ dia é hoje?
 
 d) Com ________ pessoas passaste o domingo?
 
-<!-- page 29 -->
+**29**
+
+<!-- page 30 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**29**
 
 2. Escreve três perguntas com que e três com qual/quais para uma entrevista a um
 
@@ -1214,13 +1336,14 @@ perguntas e as respostas dele (inventa!). Usa pronomes de complemento pelo menos
 
 duas vezes.
 
-<!-- page 30 -->
+**30**
+
+<!-- page 31 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**30**
 
 ## Lição 4.2 · Complemento directo e indirecto
 
@@ -1266,13 +1389,14 @@ b) Ofereci flores à professora. → Ofereci-______ flores.
 
 c) Ajudámos os vizinhos. → Ajudámos-______.
 
-<!-- page 31 -->
+**31**
+
+<!-- page 32 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**31**
 
 4. Escreve três frases: uma com pronome de complemento directo, uma com indirecto e
 
@@ -1292,13 +1416,14 @@ c) Eu enviei o correio à vizinha. → ________
 
 d) O pai contou a história aos meninos. → ________
 
-<!-- page 32 -->
+**32**
+
+<!-- page 33 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 4
 
 Prime School Press · www.primeschool.pt
-**32**
 
 ## Lição 4.3 · O som das vogais
 
@@ -1335,13 +1460,14 @@ Comprei-o anteontem, aqui mesmo.
 
 6. Escreve duas frases no presente e duas no pretérito perfeito com os mesmos verbos.
 
-<!-- page 33 -->
+**33**
+
+<!-- page 34 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 2
 
 Prime School Press · www.primeschool.pt
-**33**
 
 ## Teste 2 · 2
 
@@ -1377,13 +1503,14 @@ leste?
 
 ________
 
-<!-- page 34 -->
+**34**
+
+<!-- page 35 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 2
 
 Prime School Press · www.primeschool.pt
-**34**
 
 **D. Escrita**
 
@@ -1397,13 +1524,14 @@ dois verbos irregulares.
 
 qual.
 
-<!-- page 35 -->
+**35**
+
+<!-- page 36 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**35**
 
 ## Unidade 5 · Tempos Passados
 
@@ -1435,13 +1563,14 @@ lá? Como era o teu quarto? Quem vivia contigo? Abre os olhos e escreve três fr
 
 já estás a usar o imperfeito sem saber!
 
-<!-- page 36 -->
+**36**
+
+<!-- page 37 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**36**
 
 ## Lição 5.1 · Pretérito Imperfeito: formação
 
@@ -1503,13 +1632,14 @@ b) Os meus avós ________ (ser) professores.
 
 c) Nós sempre ________ (ter) muitos livros em casa.
 
-<!-- page 37 -->
+**37**
+
+<!-- page 38 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**37**
 
 ## Lição 5.2 · Desejos e pedidos com o imperfeito
 
@@ -1543,13 +1673,14 @@ a) (um bilhete para o metro) ________
 
 b) (falar com o director) ________
 
-<!-- page 38 -->
+**38**
+
+<!-- page 39 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**38**
 
 3. Escreve um diálogo curto num restaurante, usando o imperfeito para pedir.
 
@@ -1561,13 +1692,14 @@ nata e um copo de água.
 
 restaurante de Coimbra. Começa com «Boa noite, queria…».
 
-<!-- page 39 -->
+**39**
+
+<!-- page 40 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**39**
 
 ## Lição 5.3 · Espaços do quotidiano
 
@@ -1601,13 +1733,14 @@ nunca esqueceu.
 
 em silêncio?
 
-<!-- page 40 -->
+**40**
+
+<!-- page 41 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**40**
 
 5. Descreve o teu espaço favorito da tua localidade em quatro frases, no imperfeito ou
 
@@ -1617,13 +1750,14 @@ no presente.
 
 memória, no imperfeito, em quatro frases.
 
-<!-- page 41 -->
+**41**
+
+<!-- page 42 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**41**
 
 ## Lição 5.4 · Grau superlativo dos adjectivos
 
@@ -1667,13 +1801,14 @@ ______.
 
 menos…).
 
-<!-- page 42 -->
+**42**
+
+<!-- page 43 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**42**
 
 ## Lição 5.5 · Alterações dos pronomes de complemento direc
 
@@ -1703,13 +1838,14 @@ d) põe + as → ______
 
 9. Reescreve com pronome: Vou comer o bolo. → Vou ________.
 
-<!-- page 43 -->
+**43**
+
+<!-- page 44 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 5
 
 Prime School Press · www.primeschool.pt
-**43**
 
 ## Lição 5.6 · Mesmo: pronome demonstrativo e advérbio
 
@@ -1751,13 +1887,14 @@ d) Isso é mesmo verdade.  ___
 
 11. Escreve duas frases com mesmo pronome e duas com mesmo advérbio.
 
-<!-- page 44 -->
+**44**
+
+<!-- page 45 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 3
 
 Prime School Press · www.primeschool.pt
-**44**
 
 ## Teste 3 · 3
 
@@ -1787,13 +1924,14 @@ ________ (ter) uma horta.
 
 5. Junta: comprar + o = ______ / têm + os = ______.
 
-<!-- page 45 -->
+**45**
+
+<!-- page 46 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 3
 
 Prime School Press · www.primeschool.pt
-**45**
 
 6. mesmo é pronome ou advérbio? «A mesma rua.» ________ / «Cheguei mesmo
 
@@ -1807,13 +1945,14 @@ cedo.» ________
 
 8. Escreve o superlativo de «bom» e uma frase com «o mais…» sobre a tua escola.
 
-<!-- page 46 -->
+**46**
+
+<!-- page 47 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
-**46**
 
 ## Unidade 6 · À Mesa dos Portugueses
 
@@ -1835,13 +1974,14 @@ palavras terminadas em -ão.
 
 O almoço de domingo em família.
 
-<!-- page 47 -->
+**47**
+
+<!-- page 48 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
-**47**
 
 ## Lição 6.1 · Hábitos gastronómicos
 
@@ -1883,19 +2023,7 @@ Obrigado, avó. Ele adora os teus doces.
 
 1. Escreve o que comes habitualmente em cada refeição do dia.
 
-<!-- page 48 -->
-
----
-PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
-
-Prime School Press · www.primeschool.pt
 **48**
-
-2. Escreve o nome de um prato típico da tua família e descreve-o em três frases.
-
-3. Um menu completo: inventa um restaurante com nome português e escreve o menu
-
-do dia — entrada, sopa, prato principal, sobremesa e bebida. Dá um preço a cada item!
 
 <!-- page 49 -->
 
@@ -1903,7 +2031,21 @@ do dia — entrada, sopa, prato principal, sobremesa e bebida. Dá um preço a c
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
+
+2. Escreve o nome de um prato típico da tua família e descreve-o em três frases.
+
+3. Um menu completo: inventa um restaurante com nome português e escreve o menu
+
+do dia — entrada, sopa, prato principal, sobremesa e bebida. Dá um preço a cada item!
+
 **49**
+
+<!-- page 50 -->
+
+---
+PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
+
+Prime School Press · www.primeschool.pt
 
 ## Lição 6.2 · Quantificadores universais
 
@@ -1951,19 +2093,7 @@ c) Podes sentar-te em ________ lugar.
 
 d) Não perdi ________ ponto do jogo.
 
-<!-- page 50 -->
-
----
-PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
-
-Prime School Press · www.primeschool.pt
 **50**
-
-4. Escreve uma frase com cada quantificador universal.
-
-5. Agora ao contrário: escreve cinco frases sobre a tua turma, cada uma com um
-
-quantificador diferente, e sublinha o quantificador.
 
 <!-- page 51 -->
 
@@ -1971,7 +2101,21 @@ quantificador diferente, e sublinha o quantificador.
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
+
+4. Escreve uma frase com cada quantificador universal.
+
+5. Agora ao contrário: escreve cinco frases sobre a tua turma, cada uma com um
+
+quantificador diferente, e sublinha o quantificador.
+
 **51**
+
+<!-- page 52 -->
+
+---
+PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
+
+Prime School Press · www.primeschool.pt
 
 ## Lição 6.3 · Colocação dos pronomes de complemento
 
@@ -2001,13 +2145,14 @@ c) (oferecer + nos) A professora vai ________ um prémio.
 
 depois.
 
-<!-- page 52 -->
+**52**
+
+<!-- page 53 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 6
 
 Prime School Press · www.primeschool.pt
-**52**
 
 ## Lição 6.4 · Plural das palavras em -ão
 
@@ -2047,13 +2192,14 @@ quase todos os outros fazem -ões.
 
 unsões).
 
-<!-- page 53 -->
+**53**
+
+<!-- page 54 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**53**
 
 ## Unidade 7 · Vamos às Compras
 
@@ -2077,13 +2223,14 @@ Que conselhos darias a alguém que vem viver para a tua cidade? Escreve três, j
 
 as tuas palavras:
 
-<!-- page 54 -->
+**54**
+
+<!-- page 55 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**54**
 
 ## Lição 7.1 · O imperativo informal
 
@@ -2137,13 +2284,14 @@ ______.
 
 2. Escreve três instruções para um colega novo na escola. Usa o imperativo.
 
-<!-- page 55 -->
+**55**
+
+<!-- page 56 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**55**
 
 ## Lição 7.2 · Compras em espaços físicos
 
@@ -2180,19 +2328,7 @@ Pode. Mete o cartão aqui, se faz favor.
 
 papelaria.
 
-<!-- page 56 -->
-
----
-PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
-
-Prime School Press · www.primeschool.pt
 **56**
-
-4. Faz uma lista de compras para o almoço de domingo (pelo menos oito itens).
-
-5. Quanto custa tudo? Escreve um preço ao lado de cada item e soma no fim. Um
-
-orçamento de cinquenta euros chega?
 
 <!-- page 57 -->
 
@@ -2200,7 +2336,21 @@ orçamento de cinquenta euros chega?
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
+
+4. Faz uma lista de compras para o almoço de domingo (pelo menos oito itens).
+
+5. Quanto custa tudo? Escreve um preço ao lado de cada item e soma no fim. Um
+
+orçamento de cinquenta euros chega?
+
 **57**
+
+<!-- page 58 -->
+
+---
+PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
+
+Prime School Press · www.primeschool.pt
 
 ## Lição 7.3 · Compras digitais
 
@@ -2232,13 +2382,14 @@ preços, lê os comentários e confirma se o site é seguro!
 
 frases.
 
-<!-- page 58 -->
+**58**
+
+<!-- page 59 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · UNIDADE 7
 
 Prime School Press · www.primeschool.pt
-**58**
 
 7. Dá três conselhos a um amigo que vai comprar online pela primeira vez. Usa o
 
@@ -2250,13 +2401,14 @@ chegou estragado. Usa o imperfeito para pedir (queria, gostaria) e os pronomes d
 
 complemento.
 
-<!-- page 59 -->
+**59**
+
+<!-- page 60 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 4
 
 Prime School Press · www.primeschool.pt
-**59**
 
 ## Teste 4 · 4
 
@@ -2286,13 +2438,14 @@ fruta. / ________ os irmãos jogam ténis.
 
 5. Escreve um diálogo curto de quatro falas para comprar um presente.
 
-<!-- page 60 -->
+**60**
+
+<!-- page 61 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · TESTE 4
 
 Prime School Press · www.primeschool.pt
-**60**
 
 **D. Escrita**
 
@@ -2304,13 +2457,14 @@ universais.
 
 7. Dá dois conselhos ao comprador novato, no imperativo.
 
-<!-- page 61 -->
+**61**
+
+<!-- page 62 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · ATIVIDADES 1
 
 Prime School Press · www.primeschool.pt
-**61**
 
 ## Atividades 1 · Revisão Geral
 
@@ -2344,13 +2498,14 @@ a) Em que tempo verbal está a narração? ________
 
 b) Escreve todas as formas do imperfeito que encontrares no texto.
 
-<!-- page 62 -->
+**62**
+
+<!-- page 63 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · ATIVIDADES 1
 
 Prime School Press · www.primeschool.pt
-**62**
 
 **C. Escrita**
 
@@ -2358,13 +2513,14 @@ Prime School Press · www.primeschool.pt
 
 pretérito perfeito e o imperfeito, e sublinha os verbos.
 
-<!-- page 63 -->
+**63**
+
+<!-- page 64 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · ATIVIDADES 2
 
 Prime School Press · www.primeschool.pt
-**63**
 
 ## Atividades 2 · Preparação para o Exame
 
@@ -2396,7 +2552,9 @@ fechado havia cinco minutos. Que azar! Voltámos para casa e fizemos um bolo.»
 
 a) Porque é que a frase «Queríamos comprar…» é educada? ________
 
-<!-- page 64 -->
+**64**
+
+<!-- page 65 -->
 
 ---
 b) Que pretérito perfeito aparece no texto? ________
@@ -2404,7 +2562,6 @@ b) Que pretérito perfeito aparece no texto? ________
 PORTUGUÊS 2.ª LÍNGUA · Y8 · ATIVIDADES 2
 
 Prime School Press · www.primeschool.pt
-**64**
 
 **C. Escrita**
 
@@ -2412,13 +2569,14 @@ Prime School Press · www.primeschool.pt
 
 um colega. Usa o imperativo e os pronomes.
 
-<!-- page 65 -->
+**65**
+
+<!-- page 66 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · SALA DE LEITURA
 
 Prime School Press · www.primeschool.pt
-**65**
 
 ## Sala de Leitura 1 · O mar
 
@@ -2440,13 +2598,14 @@ o longe que não tem fim.»
 
 3. Qual é, para ti, a imagem mais bonita do poema? Porquê?
 
-<!-- page 66 -->
+**66**
+
+<!-- page 67 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · SALA DE LEITURA
 
 Prime School Press · www.primeschool.pt
-**66**
 
 ## Sala de Leitura 2 · A aldeia
 
@@ -2468,13 +2627,14 @@ ________
 
 3. Continua a descrição com três frases no imperfeito: o que mais havia na aldeia?
 
-<!-- page 67 -->
+**67**
+
+<!-- page 68 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · SALA DE LEITURA
 
 Prime School Press · www.primeschool.pt
-**67**
 
 ## Sala de Leitura 3 · A ilha
 
@@ -2496,13 +2656,14 @@ mão e disse: — Vamos com cuidado. O mar dá e o mar tira.»
 
 3. Explica com as tuas palavras o significado de «O mar dá e o mar tira.»
 
-<!-- page 68 -->
+**68**
+
+<!-- page 69 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · ANEXO
 
 Prime School Press · www.primeschool.pt
-**68**
 
 ## Anexo · Tabelas de verbos
 
@@ -2612,13 +2773,14 @@ estavam
 iam
 faziam
 
-<!-- page 69 -->
+**69**
+
+<!-- page 70 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · ANEXO
 
 Prime School Press · www.primeschool.pt
-**69**
 
 ## Anexo · Mais verbos irregulares
 
@@ -2705,13 +2867,14 @@ Dica de estudo: cobre uma coluna com uma folha e conjuga os verbos em voz alta.
 
 Confere depois!
 
-<!-- page 70 -->
+**70**
+
+<!-- page 71 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CULTURA
 
 Prime School Press · www.primeschool.pt
-**70**
 
 ## Portugal · Pequeno Dicionário de Cultura
 
@@ -2743,13 +2906,14 @@ Junho, de Lisboa ao Porto.
 
 come, o que se visita.
 
-<!-- page 71 -->
+**71**
+
+<!-- page 72 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CULTURA
 
 Prime School Press · www.primeschool.pt
-**71**
 
 2. Descobre que outros países falam português e escreve os seus nomes.
 
@@ -2761,13 +2925,14 @@ desporto escolhias, que países visitavas, que línguas ouvias. Usa o imperfeito
 
 A comprar fruta num mercado português.
 
-<!-- page 72 -->
+**72**
+
+<!-- page 73 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · GLOSSÁRIO
 
 Prime School Press · www.primeschool.pt
-**72**
 
 ## Glossário
 
@@ -2807,13 +2972,14 @@ todo, nenhum, cada, qualquer, ambos
 **superlativo**
 grau máximo: altíssimo, o mais alto
 
-<!-- page 73 -->
+**73**
+
+<!-- page 74 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · PROJECTO FINAL
 
 Prime School Press · www.primeschool.pt
-**73**
 
 ## Projecto Final · O Meu Guia de Portugal
 
@@ -2839,13 +3005,14 @@ Avaliação: correcção da língua (5), riqueza do vocabulário (5), criativida
 
 apresentação oral (5). Boa sorte — e boas férias merecidas!
 
-<!-- page 74 -->
+**74**
+
+<!-- page 75 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**74**
 
 ## Caderno de Exercícios 1 · Presente e Pretérito
 
@@ -2867,13 +3034,14 @@ sábado. / Elas ________ (ser) minhas primas.
 
 → ________ / Eles vêm connosco. → ________
 
-<!-- page 75 -->
+**75**
+
+<!-- page 76 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**75**
 
 5. Escreve quatro frases sobre o que fizeste nas últimas férias.
 
@@ -2885,13 +3053,14 @@ minha avó ________ (contar) histórias. / Nós ________ (morar) noutra cidade.
 
 7. Descreve a tua casa de antigamente em quatro frases no imperfeito.
 
-<!-- page 76 -->
+**76**
+
+<!-- page 77 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**76**
 
 ## Caderno de Exercícios 2 · Pronomes e Artigos
 
@@ -2919,7 +3088,9 @@ presente. / Vou + (ver + te) → Vou ________ amanhã.
 
 6. Escreve perguntas para estas respostas:
 
-<!-- page 77 -->
+**77**
+
+<!-- page 78 -->
 
 ---
 R: Moro em Setúbal. → ________
@@ -2927,7 +3098,6 @@ R: Moro em Setúbal. → ________
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**77**
 
 R: Prefiro matemática. → ________
 
@@ -2937,13 +3107,14 @@ R: Levo dois livros. → ________
 
 língua. Usa o imperativo!
 
-<!-- page 78 -->
+**78**
+
+<!-- page 79 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**78**
 
 ## Caderno de Exercícios 3 · Vocabulário do Dia a Dia
 
@@ -2965,13 +3136,14 @@ ________ (com natas) / SÓPA de ________ (legume verde).
 
 portugueses.
 
-<!-- page 79 -->
+**79**
+
+<!-- page 80 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**79**
 
 **C. Nas compras**
 
@@ -2983,13 +3155,14 @@ melancias e pergunta o preço.
 
 tua casa.
 
-<!-- page 80 -->
+**80**
+
+<!-- page 81 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**80**
 
 ## Caderno de Exercícios 4 · Gramática em Acção
 
@@ -3019,13 +3192,14 @@ ________ / a colherão → ________.
 
 **D. Escrita livre**
 
-<!-- page 81 -->
+**81**
+
+<!-- page 82 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · CADERNO DE EXERCÍCIOS
 
 Prime School Press · www.primeschool.pt
-**81**
 
 6. Escreve um parágrafo de oito linhas sobre o tema «Um dia memorável com a minha
 
@@ -3033,13 +3207,14 @@ família». Usa três tempos verbais diferentes.
 
 A primeira compra online, com a ajuda da mãe.
 
-<!-- page 82 -->
+**82**
+
+<!-- page 83 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · SOLUÇÕES
 
 Prime School Press · www.primeschool.pt
-**82**
 
 ## Soluções seleccionadas
 
@@ -3089,13 +3264,14 @@ fala, come, vem
 **Unidade 7 · Ex. 5**
 D, F, D
 
-<!-- page 83 -->
+**83**
+
+<!-- page 84 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · SOLUÇÕES
 
 Prime School Press · www.primeschool.pt
-**83**
 
 ## Soluções seleccionadas (continuação)
 
@@ -3149,13 +3325,14 @@ a) V b) V c) F (é «faz») d) V
 **Minitestes**
 A: estudo/estudas/estuda, nas, ex.: levanto-me cedo. · B: tive/tivemos, J
 
-<!-- page 84 -->
+**84**
+
+<!-- page 85 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · DIÁRIO DE LEITURA
 
 Prime School Press · www.primeschool.pt
-**84**
 
 ## Diário de Leitura
 
@@ -3189,13 +3366,14 @@ Autor:
 
 Gostei / não gostei porque…
 
-<!-- page 85 -->
+**85**
+
+<!-- page 86 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · DIÁRIO DE LEITURA
 
 Prime School Press · www.primeschool.pt
-**85**
 
 ## Diário de Leitura (continuação)
 
@@ -3223,13 +3401,14 @@ Autor:
 
 Gostei / não gostei porque…
 
-<!-- page 86 -->
+**86**
+
+<!-- page 87 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · JOGOS DE LÍNGUA
 
 Prime School Press · www.primeschool.pt
-**86**
 
 ## Jogos de Língua 1 · Sopa de Palavras
 
@@ -3397,13 +3576,14 @@ quando as encontrares!
 
 Escreve aqui as palavras que encontraste:
 
-<!-- page 87 -->
+**87**
+
+<!-- page 88 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · JOGOS DE LÍNGUA
 
 Prime School Press · www.primeschool.pt
-**87**
 
 ## Jogos de Língua 2 · O Jogo das Frases
 
@@ -3427,13 +3607,14 @@ c) O imperativo de «fazer» (tu) é «fazes». ___ d) «Vou-me deitar» tem o p
 
 depois do verbo. ___
 
-<!-- page 88 -->
+**88**
+
+<!-- page 89 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · JOGOS DE LÍNGUA
 
 Prime School Press · www.primeschool.pt
-**88**
 
 Explica agora as respostas falsas: escreve a forma correcta.
 
@@ -3445,13 +3626,14 @@ anterior, se conseguires! Se for difícil, escreve cinco frases com cinco verbos
 
 no pretérito perfeito.
 
-<!-- page 89 -->
+**89**
+
+<!-- page 90 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · MINITESTES
 
 Prime School Press · www.primeschool.pt
-**89**
 
 ## Minitestes Rápidos
 
@@ -3477,13 +3659,14 @@ Cinco minutos cada um. Ideal para revisão de última hora antes dos testes gran
 
 1. Imperfeito de SER (nós): ________
 
-<!-- page 90 -->
+**90**
+
+<!-- page 91 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · MINITESTES
 
 Prime School Press · www.primeschool.pt
-**90**
 
 2. Superlativo de FÁCIL: ________
 
@@ -3503,13 +3686,14 @@ Prime School Press · www.primeschool.pt
 
 2. «comprar + o» junto: ________
 
-<!-- page 91 -->
+**91**
+
+<!-- page 92 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · MINITESTES
 
 Prime School Press · www.primeschool.pt
-**91**
 
 3. Um pedido educado com o imperfeito: ________
 
@@ -3521,13 +3705,14 @@ Bónus final: escreve as tuas três regras de ouro da gramática portuguesa, aqu
 
 nunca deves esquecer nos testes.
 
-<!-- page 92 -->
+**92**
+
+<!-- page 93 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · PORTUGAL E O MUNDO
 
 Prime School Press · www.primeschool.pt
-**92**
 
 ## O Português no Mundo
 
@@ -3559,13 +3744,14 @@ manual aprendemos a norma europeia, a de Portugal.
 
 2. À tua volta há palavras de origem estrangeira no português. Escreve três exemplos.
 
-<!-- page 93 -->
+**93**
+
+<!-- page 94 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · REFERÊNCIA RÁPIDA
 
 Prime School Press · www.primeschool.pt
-**93**
 
 ## Referência Rápida · O Ano Num Só Olhar
 
@@ -3607,13 +3793,14 @@ E o imperativo dá ordens com um sorriso: Estuda português todos os dias!
 
 Escreve aqui a tua própria frase de ouro do ano:
 
-<!-- page 94 -->
+**94**
+
+<!-- page 95 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · AUTOAVALIAÇÃO
 
 Prime School Press · www.primeschool.pt
-**94**
 
 ## Autoavaliação do Ano
 
@@ -3641,13 +3828,14 @@ Dou conselhos com o imperativo informal.
 
 Compro (em português!) numa loja e online.
 
-<!-- page 95 -->
+**95**
+
+<!-- page 96 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · AUTOAVALIAÇÃO
 
 Prime School Press · www.primeschool.pt
-**95**
 
 O meu próximo passo para melhorar o meu português é…
 
@@ -3657,13 +3845,14 @@ prometes aprender no próximo ano?
 
 As memórias de infância: onde tudo começou.
 
-<!-- page 96 -->
+**96**
+
+<!-- page 97 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · AVALIAÇÃO
 
 Prime School Press · www.primeschool.pt
-**96**
 
 ## Para o Professor
 
@@ -3701,13 +3890,14 @@ terceiro período.
 
 Notas do professor:
 
-<!-- page 97 -->
+**97**
+
+<!-- page 98 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y8 · PARABÉNS!
 
 Prime School Press · www.primeschool.pt
-**97**
 
 ## Chegaste ao Fim!
 
@@ -3733,19 +3923,7 @@ Parabéns! Continua a falar português todos os dias.
 
 Até ao Year 9!
 
-<!-- page 98 -->
-
----
-PORTUGUÊS 2.ª LÍNGUA · Y8 · NOTAS
-
-Prime School Press · www.primeschool.pt
 **98**
-
-## As Minhas Notas
-
-Aponta aqui as palavras novas, as dúvidas e as regras que queres lembrar. As melhores
-
-notas são as que tu escreves!
 
 <!-- page 99 -->
 
@@ -3753,20 +3931,46 @@ notas são as que tu escreves!
 PORTUGUÊS 2.ª LÍNGUA · Y8 · NOTAS
 
 Prime School Press · www.primeschool.pt
+
+## As Minhas Notas
+
+Aponta aqui as palavras novas, as dúvidas e as regras que queres lembrar. As melhores
+
+notas são as que tu escreves!
+
 **99**
+
+<!-- page 100 -->
+
+---
+PORTUGUÊS 2.ª LÍNGUA · Y8 · NOTAS
+
+Prime School Press · www.primeschool.pt
 
 ## As Minhas Notas (continuação)
 
 Sobrou espaço para mais ideias, palavras novas e regras de ouro do português.
 
-<!-- page 100 -->
+**100**
+
+<!-- page 101 -->
 
 ---
-**P R I M E  B O O K S**
+
+<!-- page 102 -->
+
+---
+**P R I M E  S C H O O L  P R E S S**
 
 ## Portuguese 2nd
 
-nicação do dia a dia, textos
+Year 8 · Prime School Press · Student Manual
+
+Português de verdade, passo a passo.
+
+Português Língua Segunda para o Year 8: comunicação do dia a dia, textos
+
+autênticos e gramática que cresce aos poucos.
 
 **INSIDE THIS BOOK**
 
@@ -3785,10 +3989,8 @@ Cultura portuguesa e lusófona
 •
 Listas de vocabulário e revisões
 
-**Prime Books · Portuguese 2nd**
+**Prime School Press · Portuguese 2nd**
 
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
-
-Student Manual

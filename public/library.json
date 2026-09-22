@@ -2332,6 +2332,27 @@
     ]
   },
   {
+    "slug": "y09-portuguese-openai",
+    "year": 9,
+    "subject": "Portuguese",
+    "band": "Cambridge Lower Secondary",
+    "family": "experiment",
+    "level": "Lower Secondary",
+    "pages": 34,
+    "done": false,
+    "pdf": "/library/y09-portuguese-openai/book.pdf",
+    "cover": "/library/y09-portuguese-openai/cover.webp",
+    "mb": 18.95,
+    "buildable": false,
+    "editable": false,
+    "edition": "Unit 1 redesign — Um mar, sete vozes",
+    "preview": [
+      "/library/y09-portuguese-openai/preview/01.webp",
+      "/library/y09-portuguese-openai/preview/02.webp",
+      "/library/y09-portuguese-openai/preview/last.webp"
+    ]
+  },
+  {
     "slug": "y09-portuguese-2nd",
     "year": 9,
     "subject": "Portuguese 2nd",

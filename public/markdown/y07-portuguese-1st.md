@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (136 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (192 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -19,333 +19,329 @@ PRIME SCHOOL PRESS · YEAR 7 PORTUGUESE
 
 **UNIDADE 1 · TEXTOS DOS MEDIA (pág. 3)**
 
-A notícia ...........................................................
+A notícia ............................................................
 4
-
-Ler uma notícia .................................................
+Ler uma notícia ..................................................
 5
-
-Exercícios · A notícia .........................................
+Exercícios · A notícia ...........................................
 6
-
-Ler outra notícia ................................................
+Ler outra notícia .................................................
 7
-
-Gramática · As classes de palavras ....................
+Gramática · As classes de palavras ......................
 8
-
-Oralidade · Escutar a notícia ..............................
+Oralidade · Escutar a notícia ................................
 9
-
-Escrever uma notícia .......................................
+Escrever uma notícia .........................................
 10
-
-A biografia ......................................................
+A biografia .......................................................
 11
-
-Fernando Pessoa ............................................
+Fernando Pessoa .............................................
 12
-
-Ler outra biografia ...........................................
+Ler outra biografia .............................................
 13
-
-Gramática · O adjectivo e o verbo ....................
+Gramática · O adjectivo e o verbo .......................
 14
-
-Gramática · Conjugações ................................
+Gramática · Conjugações ...................................
 15
-
-Gramática · Tempos em acção .........................
+Gramática · Tempos em acção ...........................
 16
-
-Escrever uma biografia ....................................
+Escrever uma biografia ......................................
 17
-
-O artigo de opinião ..........................................
+O artigo de opinião ............................................
 18
-
-Exercícios · Artigo de opinião ...........................
+Exercícios · Artigo de opinião .............................
 19
-
-Ler outro artigo de opinião ...............................
+Ler outro artigo de opinião .................................
 20
-
-O texto publicitário ..........................................
+O texto publicitário ............................................
 21
-
-Exercícios · O texto publicitário ........................
+Exercícios · O texto publicitário ...........................
 22
-
-A publicidade em esquema ..............................
+A publicidade em esquema ................................
 23
-
-Revisão da Unidade 1 .....................................
+Revisão da Unidade 1 .......................................
 26
 
 **UNIDADE 2 · UMA VIAGEM (pág. 28)**
 
-Abertura da Unidade 2 .....................................
+Abertura da Unidade 2 ......................................
 28
-
-Palavras para partir .........................................
+Palavras para partir ...........................................
 29
-
-Vamos ler · O Cavaleiro da Dinamarca .............
+Vamos ler · O Cavaleiro da Dinamarca ................
 30
-
-Missão do leitor ...............................................
+Missão do leitor ................................................
 31
-
-Compreender e justificar ..................................
+Compreender e justificar ....................................
 32
-
-Personagem, espaço e tempo ..........................
+Personagem, espaço e tempo ............................
 33
-
-Palavras em viagem ........................................
+Palavras em viagem ..........................................
 34
-
-Gramática · Tempos verbais ............................
+Gramática · Tempos verbais ..............................
 35
-
-Pretérito perfeito ou imperfeito? .......................
+Pretérito perfeito ou imperfeito? ..........................
 36
-
-A viagem como símbolo ..................................
+A viagem como símbolo ....................................
 37
-
-Vamos ler · O Rapaz de Bronze .......................
+Vamos ler · O Rapaz de Bronze .........................
 38
-
-Exercícios · O Rapaz de Bronze .......................
+Exercícios · O Rapaz de Bronze .........................
 39
-
-Ler nas entrelinhas ..........................................
+Ler nas entrelinhas ...........................................
 40
-
-Vamos ler · A Floresta .....................................
+Vamos ler · A Floresta .......................................
 41
-
-Caracterização e escrita ..................................
+Caracterização e escrita ....................................
 42
-
-Exercícios · A Floresta .....................................
+Exercícios · A Floresta .......................................
 43
-
-Isabel e a floresta ............................................
+Isabel e a floresta .............................................
 44
-
-Explícito e implícito ..........................................
+Explícito e implícito ...........................................
 45
-
-Vocabulário e gramática ..................................
+Vocabulário e gramática ....................................
 46
-
-Comparação e desafio final ..............................
+Comparação e desafio final ................................
 47
-
-Conhece a autora · Maria Alberta Menéres .......
+Conhece a autora · Menéres ..............................
 48
-
-Ulisses · uma história de aventura ....................
+Ulisses · uma história de aventura ......................
 49
-
-Ulisses · antes de ler .......................................
+Ulisses · antes de ler .........................................
 50
-
-Vamos ler · Ulisses e Polifemo .........................
+Vamos ler · Ulisses e Polifemo ...........................
 51
-
-Exercícios · Ulisses e Polifemo .........................
+Exercícios · Ulisses e Polifemo ...........................
 52
-
-Recursos expressivos · Ulisses ........................
+Recursos expressivos · Ulisses ..........................
 53
-
-O passaporte do leitor .....................................
-78
-
-Ficha de revisão · Unidade 2 ............................
-79
-
-**O ASSALTO · AGUALUSA (pág. 76)**
-
-O Assalto · uma história de suspense ...............
-76
-
-Conhece o autor · Agualusa .............................
-77
-
-Vocabulário antes da leitura .............................
-78
-
-Vamos ler · O Assalto ......................................
-79
-
-Compreensão do texto ....................................
-80
-
-Verdadeiro ou falso .........................................
-81
-
-Escolha múltipla ..............................................
-82
-
-Lê nas entrelinhas ...........................................
-83
-
-Quem é o rapaz? ............................................
-84
-
-Uma casa misteriosa .......................................
-85
-
-A construção do suspense ...............................
-86
-
-Gramática · Os tempos verbais ........................
-87
-
-Discurso e recursos .........................................
-88
-
-O narrador ......................................................
-89
-
-Oficina de escrita ............................................
-90
-
-Escrever com os sentidos ................................
-91
-
-Relembra e passaporte ...................................
-92
-
-Autoavaliação .................................................
+Exercícios · Ulisses (escolha múltipla) .................
+54
+Ler nas entrelinhas · Ulisses ..............................
+55
+Pintar com palavras ..........................................
+70
+Fala e escuta · viajantes ....................................
+74
+Literatura em imagem · mapa .............................
+75
+Autoavaliação · Ulisses ......................................
 93
+O passaporte do leitor .......................................
+95
 
-Passaporte e ficha de revisão ..........................
-94
+Ficha de revisão · Unidade 2 ..............................
+96
 
-**UNIDADE 3 · O PALCO À ESPERA (pág. 97)**
+**O ÚLTIMO GRIMM · MAGALHÃES (pág. 97)**
 
-Abertura da Unidade 3 .....................................
+O Último Grimm · abertura .................................
 97
-
-Conhece a autora · Ducla Soares .....................
+Conhece o autor · Magalhães .............................
 98
-
-Gulliver chega a Portugal! ................................
+Vamos ler · O Último Grimm ...............................
 99
-
-Antes de ler ..................................................
+Vamos ler · O Último Grimm (cont.) ...................
 100
-
-Vamos ler · Gulliver em Portugal ....................
+Compreensão do texto ....................................
 101
-
-Gulliver (continuação) ....................................
+Lê nas entrelinhas ...........................................
 102
-
-Depois da leitura ...........................................
+Verdadeiro ou falso .........................................
 103
-
-Verdadeiro ou falso · Gulliver .........................
+Escolha múltipla ..............................................
 104
-
-Lê nas entrelinhas · Gulliver ...........................
+As personagens ..............................................
 105
-
-Quem é quem? .............................................
+História dentro da história ................................
 106
-
-Onde e quando? ...........................................
+O real e o fantástico ........................................
 107
-
-As palavras do texto ......................................
+Vocabulário ....................................................
 108
-
-Lê como um actor ..........................................
+Gramática em contexto ....................................
 109
-
-Gramática em contexto ..................................
+O diálogo .......................................................
 110
-
-Rir... e pensar ...............................................
+A estrutura do excerto .....................................
 111
-
-Pensa como um leitor ....................................
+Oficina de escrita ............................................
 112
-
-Oficina de escrita · Gulliver ............................
+Escrita criativa ................................................
 113
-
-Um novo olhar sobre Portugal ........................
+Relembra e passaporte ....................................
 114
 
-Debate · viajar muda-nos? .............................
+**A BICICLETA QUE TINHA BIGODES · ONDJAKI (pág. 115)**
+
+Abertura · Ondjaki ...........................................
 115
-
-Gulliver chega à tua escola! ...........................
+Conhece o autor · Ondjaki ................................
 116
-
-Relembra · texto dramático ............................
+Vamos ler · A Bicicleta .....................................
 117
-
-Autoavaliação · Gulliver .................................
+Vamos ler · A Bicicleta (cont.) ...........................
 118
-
-**UNIDADE 4 · A PALAVRA EM MÚSICA (pág. 119)**
-
-Abertura da Unidade 4 ...................................
+Compreensão do texto ....................................
 119
-
-Como se faz um poema .................................
+A conversa com o CamaradaMudo ...................
 120
-
-Vamos ler · Mar Português .............................
+Verdadeiro ou falso .........................................
 121
-
-Missão do leitor .............................................
+Escolha múltipla ..............................................
 122
-
-Vamos ler · Amar! ..........................................
+Explícito e inferência .......................................
 123
-
-Missão do leitor · Amar! .................................
+O narrador ......................................................
 124
-
-Gramática · Orações coordenadas .................
+Personagens · tio Rui e Isaura ..........................
 125
-
-Gramática · Activa e passiva ..........................
+Vocabulário ....................................................
 126
-
-Laboratório · comentar um poema ..................
+Gramática · discurso directo .............................
 127
-
-Laboratório · os teus poemas .........................
+Recursos expressivos ......................................
 128
-
-Fala e escuta · declamar poesia .....................
+Educação literária ...........................................
 129
-
-Literatura em imagem · poema visual .............
+Interpretação aprofundada ...............................
 130
-
-Comenta com precisão ..................................
+Oficina de escrita ............................................
 131
-
-Relembra · o que aprendi ...............................
+Escrita criativa · a bicicleta ...............................
 132
-
-O passaporte do leitor ...................................
+Passaporte literário .........................................
 133
 
-**RECURSOS (pág. 134)**
+**UNIDADE 3 · O PALCO À ESPERA (pág. 134)**
 
-Dossier do escritor · Soluções ........................
+Abertura da Unidade 3 .....................................
+134
+Conhece a autora · Ducla Soares .....................
 135
+Gulliver chega a Portugal! ................................
+136
+Antes de ler ....................................................
+137
+Vamos ler · Gulliver em Portugal .......................
+138
+Gulliver (continuação) ......................................
+139
+Depois da leitura .............................................
+140
+Verdadeiro ou falso · Gulliver ............................
+141
+Lê nas entrelinhas · Gulliver .............................
+142
+Quem é quem? ...............................................
+143
+Onde e quando? .............................................
+144
+As palavras do texto ........................................
+145
+Lê como um actor ...........................................
+146
+Gramática em contexto ....................................
+147
+
+Rir... e pensar .................................................
+148
+Pensa como um leitor ......................................
+149
+Oficina de escrita · Gulliver ...............................
+150
+Um novo olhar sobre Portugal ..........................
+151
+Debate · viajar muda-nos? ...............................
+152
+Gulliver chega à tua escola! .............................
+153
+Relembra · texto dramático ..............................
+154
+Autoavaliação · Gulliver ...................................
+155
+
+**OS PIRATAS · PINA (pág. 156)**
+
+Os Piratas · abertura .......................................
+156
+Conhece o autor · Pina ....................................
+157
+Vamos ler · Os Piratas .....................................
+158
+Vamos ler · Os Piratas (cont.) ...........................
+159
+Compreensão do texto ....................................
+160
+Verdadeiro ou falso .........................................
+161
+Escolha múltipla ..............................................
+162
+Explícito e inferência .......................................
+163
+As personagens ..............................................
+164
+Conflito dramático ...........................................
+165
+Vocabulário · a bordo ......................................
+166
+Gramática em contexto ....................................
+167
+Recursos expressivos ......................................
+168
+Educação literária ...........................................
+169
+Da página para o palco ....................................
+170
+A leitura dramatizada .......................................
+171
+Transformar o texto em cena ............................
+172
+Oficina de escrita ............................................
+173
+Escrita criativa · o diário ...................................
+174
+Relembra e passaporte teatral ..........................
+175
+
+**UNIDADE 4 · A PALAVRA EM MÚSICA (pág. 176)**
+
+Abertura da Unidade 4 .....................................
+176
+Como se faz um poema ...................................
+177
+Vamos ler · Mar Português ...............................
+178
+Missão do leitor ...............................................
+179
+Vamos ler · Amar! ...........................................
+180
+Missão do leitor · Amar! ...................................
+181
+Gramática · Orações coordenadas ....................
+182
+Gramática · Activa e passiva ............................
+183
+Laboratório · comentar um poema .....................
+184
+Laboratório · os teus poemas ...........................
+185
+Fala e escuta · declamar poesia .......................
+186
+Literatura em imagem · poema visual ................
+187
+Comenta com precisão ....................................
+188
+Relembra · o que aprendi .................................
+189
+O passaporte do leitor .....................................
+190
+
+**RECURSOS (pág. 191)**
+
+Dossier do escritor · Soluções ..........................
+191
 
 Prime School Press · www.primeschool.pt
 
@@ -1665,20 +1661,20 @@ pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquema
 
 ☐ Sei conjugar um verbo no presente e no pretérito perfeito?
 
-☐ Sei colocar o pronome antes, depois ou dentro do verbo?
+is ou dentro do verbo?
 
 **TESTE-TREINO · GRUPO ÚNICO 16**
 1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
 tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
 colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
 
-**                   **
-
 Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um
 slogan curto e memorável, um imperativo e uma frase emotiva. Desenha-o no caderno ou em cartolina e
 apresenta-o à turma em 1 minuto.
 
 26
+
+**DESAFIO CRIATIVO 21**
 
 <!-- page 27 -->
 
@@ -1812,14 +1808,14 @@ Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, 
 elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
 significado simbólico.
 
-**             **
-
 1. Escreve uma frase com cada palavra do vocabulário: cavaleiro · peregrinação · aventura · regresso.
 
 2. Imagina a mala do cavaleiro: que cinco objectos levaria numa viagem a pé até Jerusalém? Justifica cada
 escolha numa frase.
 
 29
+
+**EXERCÍCIOS 22**
 
 <!-- page 30 -->
 
@@ -1864,11 +1860,11 @@ canções e se adoravam outros deuses.
 
 2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
 
-**             **
-
 1. Copia do texto duas palavras que revelem o frio e duas que revelem o movimento do cavaleiro.
 
 30
+
+**EXERCÍCIOS 1**
 
 <!-- page 31 -->
 
@@ -2001,13 +1997,13 @@ da narrativa.
 **QUANDO? · A ÉPOCA DA NARRATIVA**
 Retira do texto duas informações que permitam situar temporalmente a narrativa.
 
-**                   **
-
 Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
 andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
 sentimento e uma com um objectivo.
 
 33
+
+**DESAFIO CRIATIVO 23**
 
 <!-- page 34 -->
 
@@ -2118,12 +2114,12 @@ Durante a viagem,
 3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
 pretérito imperfeito.
 
-**             **
-
 Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
 perfeito (acções). Sublinha os verbos.
 
 35
+
+**EXERCÍCIOS 4**
 
 <!-- page 36 -->
 
@@ -2164,12 +2160,12 @@ ______ (olhar) à sua volta.
 
 Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
 
-**                   **
-
 «A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
 usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
 
 36
+
+**EXERCÍCIOS 5**
 
 <!-- page 37 -->
 
@@ -2202,13 +2198,13 @@ No final, percebe
 QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
 mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
 
-**                   **
-
 Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
 objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
 representa o cansaço porque…»
 
 37
+
+**EXERCÍCIOS 8**
 
 <!-- page 38 -->
 
@@ -2620,8 +2616,6 @@ De que forma Sophia transforma espaços naturais em lugares de fantasia? Escreve
 Ἳ A natureza pode ter um papel fundamental na história.
 ✨ O fantástico permite ultrapassar os limites da realidade.
 Ἲ A personificação atribui características humanas a seres ou objectos.
-ὔ Inferir significa retirar uma conclusão a partir de pistas do texto.
-✍  Uma boa resposta apresenta uma ideia e justifica-a.
 
 **DESAFIO FINAL · CRIA A TUA PERSONAGEM 19**
 
@@ -2633,6 +2627,8 @@ Nome: ____________________ Personalidade: ____________________
 Desejo: ____________________ Medo: ____________________ Segredo: ____________________
 
 47
+
+**DESAFIO FINAL · CRIA A TUA PERSONAGEM 19**
 
 <!-- page 48 -->
 
@@ -3422,9 +3418,6 @@ Prime School Press · www.primeschool.pt
 **MARCA A TUA RESPOSTA**
 
 **Consigo...**
-**ὠ**
-**ὰ**
-** **
 
 identificar o conflito de uma narrativa
 ☐
@@ -3610,17 +3603,21 @@ som · uma referência à luz · uma comparação.
 
 **A MINHA DESCRIÇÃO**
 
-Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores específicos
-que ajudem o leitor a imaginar o lugar.
-
-**    **
-
-**             **
-
-Descreve agora um lugar que conheças bem (o teu quarto, a rua da escola, a casa dos avós) em 5-6
-linhas, com os mesmos requisitos: três adjectivos, um som, a luz e uma comparação.
-
 70
+
+**EXERCÍCIOS 6**
+
+**DICA**
+
+Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores
+específicos que ajudem o leitor a imaginar o lugar.
+
+**EXERCÍCIOS 6 · CONTINUAÇÃO**
+
+Descreve agora um lugar que conheças bem (o teu quarto, a rua da escola, a casa dos
+avós) em 5-6 linhas, com os mesmos requisitos: três adjectivos, um som, a luz e uma
+
+comparação.
 
 <!-- page 71 -->
 
@@ -3658,12 +3655,12 @@ Cavaleiro:
 Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
 travessão (—) quando a personagem fala dentro da narração.
 
-**                   **
-
 Transforma uma cena do teu dia-a-dia (o pequeno-almoço, o recreio, o autocarro) num mini-diálogo teatral
 de 6 falas, com duas didascálias.
 
 71
+
+**EXERCÍCIOS 7**
 
 <!-- page 72 -->
 
@@ -3783,13 +3780,13 @@ Regista aqui as notas para a tua apresentação:
 Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
 terminar») · controla o corpo: postura erecta, gestos naturais.
 
-**             **
-
 Grava, com o telemóvel de um colega, um «podcast de viajante» de 1 minuto: descreve a viagem
 imaginária mais incrível que farias, com início, peripécia e regresso. Depois ouve a gravação e avalia: falei
 devagar? usei conectores?
 
 74
+
+**DESAFIO DE ORALIDADE 9**
 
 <!-- page 75 -->
 
@@ -3823,12 +3820,12 @@ Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu sím
 viagem porque...»
 O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
 
-**                   **
-
 Escreve uma frase-poema para cada etapa do teu mapa: a partida, o obstáculo e o regresso. Junta as três
 frases: tens um mini-poema de viagem!
 
 75
+
+**DESAFIO CRIATIVO 29**
 
 <!-- page 76 -->
 
@@ -4649,6 +4646,1374 @@ Usa dois verbos no imperfeito e dois no perfeito.
 <!-- page 97 -->
 
 ---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## O Último Grimm · um segredo na família
+
+**Álvaro Magalhães**
+
+**PERGUNTA DE PARTIDA**
+
+O que te sugere a palavra «último»? E quem será o «Grimm» do título? Observa o título «O Último Grimm» e
+responde: o que esperas encontrar numa história com este título?
+
+**NESTA HISTÓRIA VAIS APRENDER A**
+compreender um texto narrativo com elementos fantásticos;
+distinguir informação explícita de informação implícita;
+caracterizar personagens pelas suas falas e acções;
+reconhecer o real e o fantástico numa narrativa;
+analisar o espaço e o ambiente de mistério;
+estudar classes de palavras e o discurso directo;
+escrever diálogos e narrativas de suspense.
+
+**IMAGINA...**
+
+William descobre que a sua família guarda um segredo relacionado com duendes, fadas e outras criaturas.
+Acreditarias que a história é verdadeira? Explica a tua resposta.
+
+O jardim onde, dizem, passavam as criaturas.
+
+97
+
+<!-- page 98 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Conhece o autor · Álvaro Magalhães
+
+**LITERATURA · O AUTOR**
+
+Álvaro Magalhães nasceu no Porto, em 1951, e é um dos mais originais escritores portugueses para jovens. Foi
+professor, desenhador e publicitário antes de dedicar-se por inteiro à literatura.
+
+**A SUA ESCRITA**
+Escreveu mais de quarenta livros, entre os quais a trilogia O Último Grimm (O Primeiro Antes do Primeiro, O
+Segundo Antes do Segundo, O Terceiro Antes do Terceiro). Mistura o quotidiano com o fantástico, o humor com
+o mistério, e os seus protagonistas são quase sempre adolescentes curiosos.
+
+**SABIAS QUE...**
+
+Os irmãos Grimm, Jacob e Wilhelm, foram dois alemães que recolheram histórias tradicionais como «Hansel e
+Gretel» e «Branca de Neve». Nesta obra, a família de William, os Zimmer, tem uma ligação surpreendente a eles.
+
+**ANTES DE LER · O TÍTULO**
+1. O que te sugere a palavra «último» no título?
+
+2. Quem imaginas que seja o «Grimm» referido no título?
+
+3. O que esperas encontrar numa história com este título?
+
+4. Que histórias de duendes, fadas e criaturas mágicas conheces?
+
+O segredo dos Zimmer: um antigo tratado.
+
+98
+
+<!-- page 99 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · O Último Grimm
+
+**TEXTO LITERÁRIO · ÁLVARO MAGALHÃES · ADAPTADO · O PRIMEIRO ANTES DO PRIMEIRO**
+
+O tio Nathan pousou um braço nos ombros do sobrinho e veio a caminhar ao lado dele até ao alpendre.
+
+— Dizem que sim, que eu dizia que via os duendes a passarem aqui, neste jardim, em noites como esta. Mas não
+me lembro. Há tantas coisas de que não me lembro...
+
+— Que idade tinha o tio quando lhe aconteceu isso?
+
+— Talvez a tua idade.
+
+— Catorze?
+
+— Sim. Catorze.
+
+— Hum!
+
+Era a idade, sabia William, em que as coisas começavam a acontecer.
+
+— Desde então, estive quase sempre doente — continuou o tio.
+
+— Foi quando começou a ter os problemas na coluna?
+
+— Como é que sabes?
+
+— Não sabia. Se soubesse, não tinha perguntado. Estava a pensar se o tio não teria sido um daqueles Zimmer
+que veem as criaturas...
+
+— Que história é essa? Também não me lembro.
+
+— É outra história da família, como a do diamante escondido debaixo de uma pedra azul.
+
+— Essa conheço e acredito nela; a outra, nunca ninguém ma contou.
+
+— Conto-lha eu. Quer?
+
+— Se quero!
+
+— Então ouça, tio. Acho que começou por causa da dedicatória que o Wilhelm Grimm fez ao Primeiro: «Para o
+meu tio Carl, que me abriu as portas de um novo mundo». A partir daí nasceu a lenda de que os Zimmer, e os
+irmãos Grimm, que eram descendentes de um ramo dos Zimmer, viam os duendes e as fadas e podiam visitar o
+seu mundo e regressar e espalhar as histórias deles pela Terra.
+
+**ENQUANTO LÊS**
+
+Repara nas perguntas de William: cada uma abre uma porta nova na conversa. É assim que o mistério cresce.
+
+99
+
+<!-- page 100 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · O Último Grimm (continuação)
+
+**TEXTO LITERÁRIO · ÁLVARO MAGALHÃES · ADAPTADO**
+
+— É uma bela história. E, vendo bem, foi isso que fizeram os dois Grimm — disse o tio, a recostar-se melhor numa
+espreguiçadeira. Estava a gostar daquilo. Ao tempo que não lhe contavam histórias. Mesmo assim, estava a suar e
+um pouco congestionado. E também respirava com dificuldade.
+
+— Está bem, tio? — perguntou William, a abanar o ar diante da sua cara afogueada.
+
+— Estou. Só um pouco cansado. Acho que me vou deitar. Mas antes queria mostrar-te uma coisa de que acabo de
+me lembrar. Acendeste uma luz na minha cabeça, rapaz.
+
+Entraram na casa, subiram as escadas e passaram à ala dos quartos fechados. Se não estivesse acompanhado, e
+na pista de um novo segredo, William não ousaria estar ali àquela hora da noite.
+
+O tio Nathan abriu a porta de um dos quartos vazios, o maior, que estava atravancado de mobílias velhas e
+objectos caídos em desuso.
+
+— Era aqui que dormia o velho Zimmer, o que construiu esta casa — disse ele, a arrastar uma cómoda que estava
+a impedir a passagem.
+
+William ajudou-o. Afastaram umas caixas cheias de jornais velhos e chegaram ao canto do quarto. Aí, havia uma
+cavidade, ao nível do chão, que estava dissimulada na parede de madeira e funcionava como um pequeno cofre.
+
+O tio Nathan abriu-a sem dificuldade e retirou de lá um rolo de papel duro e amarelecido que estava amarrado com
+uma fita lilás.
+
+— Cá está — disse ele. — É um Tratado entre o velho Zimmer e as criaturas.
+
+— As criaturas?
+
+— Duendes, gnomos, fadas, isso. Eles existem mesmo, Willy. E a história que me contaste, fica a saber, é uma
+história verdadeira.
+
+Nathan Zimmer sentou-se numa cadeira velha e abriu o rolo de papel, com muito cuidado. Mesmo assim, o papel,
+demasiado duro e seco, estalou e partiu aqui e ali.
+
+William aproximou-se e os olhos dele percorreram o documento, que estava escrito à mão, com uma letra incerta
+numa língua estranha e impenetrável. Só reconheceu algumas letras do nosso alfabeto, ou algo que se
+assemelhasse.
+
+100
+
+<!-- page 101 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Compreensão · o que acontece?
+
+**LEITURA · RESPONDE COM FRASES COMPLETAS**
+
+**EXERCÍCIOS 43**
+1. Onde estão William e Nathan no início do excerto?
+
+2. O que pergunta William ao tio sobre a idade dele?
+
+3. Quantos anos tinha Nathan quando, segundo a história, começaram a acontecer «as coisas»?
+
+4. Porque é que Nathan não consegue recordar claramente esses acontecimentos?
+
+5. Que problema de saúde é referido no texto?
+
+6. Que história da família é mencionada antes da história dos Zimmer?
+
+7. Segundo William, que relação existia entre os Zimmer e os irmãos Grimm?
+
+8. O que diz a dedicatória de Wilhelm Grimm?
+
+9. Que descoberta faz Nathan depois da conversa com William?
+
+10. Onde estava escondido o documento? Como era?
+
+11. Em que língua estava escrito o tratado?
+
+12. O que é que William reconhece no documento?
+
+101
+
+<!-- page 102 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Lê nas entrelinhas
+
+**INFORMAÇÃO EXPLÍCITA E IMPLÍCITA**
+
+**LÊ NAS ENTRELINHAS 44**
+Nem tudo é dito directamente. Procura as pistas do texto.
+
+1. William demonstra grande curiosidade. Indica duas perguntas que ele faz a Nathan e que comprovam essa
+afirmação.
+
+2. Nathan começa por não se lembrar da história, mas depois parece ficar interessado. Que elementos do texto
+mostram essa mudança?
+
+3. Explica, por palavras tuas, o sentido da expressão: «Acendeste uma luz na minha cabeça, rapaz.»
+
+4. Porque é que William não teria coragem de entrar sozinho na ala dos quartos fechados?
+
+5. O que podemos concluir sobre o estado de espírito de William quando encontra o documento? Justifica.
+
+**DICA**
+
+Uma inferência baseia-se em pistas do texto: pista + interpretação = inferência. Nunca é apenas uma adivinhação.
+
+102
+
+<!-- page 103 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Verdadeiro ou falso
+
+**LEITURA · ASSINALA V OU F**
+
+**VERDADEIRO OU FALSO 45**
+
+**Afirmação**
+**V/F**
+
+a) Nathan diz que se lembra perfeitamente de ver duendes.
+
+b) Nathan tinha catorze anos quando os acontecimentos terão ocorrido.
+
+c) William acredita que pode existir uma ligação entre os Zimmer e as criaturas.
+
+d) Nathan rejeita imediatamente a história de William.
+
+e) William relaciona os Zimmer com os irmãos Grimm.
+
+f) Nathan recorda-se de uma coisa que quer mostrar a William.
+
+g) O documento estava numa gaveta.
+
+h) O documento era um tratado entre o velho Zimmer e as criaturas.
+
+i) O documento estava escrito numa língua fácil de compreender.
+
+j) No final, William consegue ler todo o documento.
+
+Corrige as afirmações falsas:
+
+103
+
+<!-- page 104 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escolha múltipla
+
+**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+
+**EXERCÍCIOS 46**
+1. A conversa entre William e Nathan começa porque William quer saber se o tio:
+A. encontrou um tesouro. B. viu duendes e fadas quando era criança.
+C. conheceu Wilhelm Grimm. D. escreveu um livro.
+
+2. Nathan diz que não se lembra porque:
+A. era demasiado jovem. B. não gostava das criaturas.
+C. há tantas coisas de que já não se lembra. D. nunca viveu naquela casa.
+
+3. Segundo a história contada por William, os Zimmer:
+A. eram inimigos dos Grimm. B. podiam ver as criaturas e visitar o seu mundo.
+C. construíram todos os livros dos Grimm. D. não acreditavam em fadas.
+
+4. O que Nathan encontra?
+A. Uma fotografia. B. Uma carta.
+C. Um diário. D. Um tratado.
+
+5. O documento estava:
+A. dentro de uma caixa. B. debaixo da cama.
+C. escondido numa cavidade da parede. D. sobre uma cómoda.
+
+6. No final do excerto, William:
+A. compreende o documento inteiro. B. reconhece apenas algumas letras.
+C. destrói o documento. D. decide escondê-lo.
+
+104
+
+<!-- page 105 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## As personagens
+
+**PERSONAGENS · CARACTERIZAÇÃO**
+
+**WILLIAM · COMPLETA O QUADRO**
+
+**Característica**
+**Prova retirada do excerto**
+
+Curioso
+
+Persistente
+
+Imaginativo
+
+Atento
+
+William é uma personagem que procura respostas. Explica esta afirmação em 4–5 linhas.
+
+**NATHAN**
+1. Nathan parece ser:
+☐esquecido ☐curioso ☐indiferente
+
+☐interessado ☐doente ☐agressivo
+
+2. Escolhe duas características e justifica-as com elementos do texto.
+
+105
+
+<!-- page 106 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Uma história dentro da história
+
+**ANÁLISE · A LENDA DOS ZIMMER**
+
+William conta a Nathan uma explicação para a origem da lenda. Completa o esquema:
+
+Dedicatória de Wilhelm Grimm
+
+Nasce uma lenda sobre os Zimmer
+
+Os Zimmer e os Grimm podiam ver·
+
+As criaturas e o seu mundo
+
+As histórias chegam à Terra
+
+Porque é importante esta história para o desenvolvimento do mistério?
+
+**O MISTÉRIO AUMENTA**
+Observa a sequência e responde:
+
+pergunta →recordação →nova história →lembrança →quarto fechado →documento escondido →confirmação
+
+Como é que o autor aumenta o suspense ao longo do excerto? Escreve um pequeno texto de 6–8 linhas.
+
+106
+
+<!-- page 107 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## O real e o fantástico
+
+**ANÁLISE · DOIS MUNDOS**
+
+**MUNDO REAL · retira quatro elementos do texto**
+
+**MUNDO FANTÁSTICO · retira quatro elementos do texto**
+
+**PENSA**
+
+O momento em que Nathan afirma «Eles existem mesmo, Willy.» é importante porque transforma uma
+possibilidade numa certeza dentro da narrativa. Explica porquê.
+
+**O ESPAÇO**
+1. Ordena os espaços pela ordem em que aparecem:
+( ) quarto do velho Zimmer ( ) alpendre ( ) casa ( ) jardim
+
+2. Qual destes espaços contribui mais para a criação do suspense? Justifica.
+
+3. Retira do texto três elementos que criam um ambiente misterioso no quarto.
+
+107
+
+<!-- page 108 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vocabulário · descobre pelo contexto
+
+**PALAVRAS DO TEXTO**
+
+**EXPLICA O SIGNIFICADO DE CADA PALAVRA**
+
+**Palavra**
+**O teu significado**
+
+dedicatória
+
+lenda
+
+descendentes
+
+cavidade
+
+dissimulada
+
+atravancado
+
+impenetrável
+
+Escolhe duas palavras e escreve uma frase com cada uma:
+
+**SABIAS QUE...**
+
+«Dissimulada» significa escondida, disfarçada. A cavidade «estava dissimulada na parede» — logo, o segredo
+estava bem guardado.
+
+108
+
+<!-- page 109 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Gramática em contexto
+
+**GRAMÁTICA · CLASSES DE PALAVRAS**
+
+**EXERCÍCIOS 47**
+Retira do texto 3 nomes, 3 verbos, 3 adjectivos e 2 advérbios. Depois organiza-os:
+
+**Nome**
+**Verbo**
+**Adjectivo**
+**Advérbio**
+
+**O ADJECTIVO NA DESCRIÇÃO**
+Observa: «um rolo de papel duro e amarelecido» · «uma língua estranha e impenetrável»
+
+1. Identifica os adjectivos das duas expressões.
+
+2. Explica o que acrescentam à descrição.
+
+3. Substitui um dos adjectivos por outro que mantenha o sentido geral.
+
+**RELEMBRA**
+
+O adjectivo qualifica o nome. Dois adjectivos ligados por «e» intensificam a caracterização: o papel não era só
+duro, era também amarelecido pelo tempo.
+
+109
+
+<!-- page 110 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## O diálogo
+
+**GRAMÁTICA · DISCURSO DIRECTO**
+
+**A VOZ DAS PERSONAGENS**
+Este excerto apresenta muito discurso directo: quase tudo acontece através de falas.
+
+1. Retira uma pergunta feita por William.
+
+2. Retira uma resposta dada por Nathan.
+
+3. Que sinal de pontuação introduz as falas?
+
+4. Porque é que o diálogo é importante neste excerto?
+
+**RELEMBRA**
+
+O diálogo permite-nos conhecer directamente o que as personagens pensam, sentem, sabem e escondem — e a
+relação que estabelecem umas com as outras.
+
+**UMA EXPRESSÃO IMPORTANTE**
+Relê: «Acendeste uma luz na minha cabeça, rapaz.»
+
+1. Nathan acendeu realmente uma luz? O que significa a expressão?
+
+2. Que recurso expressivo está presente?
+
+3. Explica o efeito desta expressão no texto.
+
+110
+
+<!-- page 111 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## A estrutura do excerto
+
+**EDUCAÇÃO LITERÁRIA · COMPLETA**
+
+**Situação inicial**
+
+William pergunta a Nathan sobre ...
+
+**Desenvolvimento**
+
+William conta a história ...
+
+**Momento de viragem**
+
+Nathan lembra-se de ...
+
+**Descoberta**
+
+Os dois encontram ...
+
+**Final do excerto**
+
+William percebe que ...
+
+**INTERPRETAÇÃO 48**
+1. A certa altura, Nathan diz que a história é «bela». Ele acredita nela? Justifica com duas informações do texto.
+
+2. Porque é que a descoberta do tratado é mais importante do que simplesmente encontrar um objecto antigo?
+
+3. O documento está escrito numa língua que William não compreende. Porque é que o autor termina o excerto dessa
+forma?
+
+4. Qual é, na tua opinião, a principal pergunta que fica na cabeça do leitor no final?
+
+111
+
+<!-- page 112 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Oficina de escrita · continua o diálogo
+
+**ESCRITA · 120 A 150 PALAVRAS**
+
+**EXERCÍCIOS 49**
+Imagina que Nathan e William continuam a observar o documento. Escreve 120 a 150 palavras. O teu diálogo deve
+incluir:
+☐pelo menos quatro falas de William ☐quatro falas de Nathan
+☐uma descoberta ☐uma pergunta sem resposta ☐um momento de suspense
+
+**DICA**
+
+Evita repetir «disse William» e «disse Nathan». Podes utilizar: perguntou | respondeu | murmurou | exclamou |
+acrescentou | explicou | sussurrou.
+
+**O MEU DIÁLOGO**
+
+112
+
+<!-- page 113 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escrita criativa · a língua desconhecida
+
+**ESCRITA · 150 A 180 PALAVRAS**
+
+**ESCRITA CRIATIVA 50**
+William reconhece algumas letras do documento, mas não compreende a língua. Imagina que consegues ajudá-lo a
+decifrar a primeira frase. Escreve uma narrativa em que:
+☐descobres o significado da primeira frase;
+☐percebes que se trata de uma mensagem secreta;
+☐descobres algo inesperado sobre as criaturas;
+☐terminas com uma frase que crie suspense.
+
+**DESAFIO CRIATIVO 51**
+O texto termina quando William vê o antigo tratado. Agora és tu o escritor: cria três regras que poderiam fazer parte
+desse tratado.
+
+Por exemplo — Regra 1: Os humanos não podem entrar no mundo das criaturas sem autorização.
+
+**Regra 1:**
+
+**Regra 2:**
+
+**Regra 3:**
+Agora cria uma quarta regra SECRETA, que William só descobriria mais tarde…
+
+**Regra secreta:**
+
+113
+
+<!-- page 114 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Relembra e passaporte literário
+
+**REVISÃO · O QUE APRENDI**
+
+William é curioso, atento e procura respostas; as suas perguntas movem a história.
+Nathan tem falhas de memória, mas a conversa com William desperta-lhe recordações.
+O diálogo permite conhecer directamente as personagens.
+O espaço (alpendre →casa →quarto fechado) contribui para criar suspense.
+O fantástico aparece associado aos duendes, gnomos, fadas e ao seu mundo.
+A descoberta do tratado altera a percepção da história.
+A informação explícita está directamente no texto; a implícita constrói-se com pistas.
+
+**PASSAPORTE LITERÁRIO · O ÚLTIMO GRIMM**
+
+**O meu registo**
+**Resposta**
+
+Personagem que mais me interessou
+
+A descoberta mais surpreendente
+
+A parte mais misteriosa
+
+Uma palavra nova
+
+A pergunta que ficou na minha cabeça
+
+Classifico este excerto:
+☐★☐★★☐★★★☐★★★★☐★★★★★
+
+114
+
+<!-- page 115 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## A Bicicleta que Tinha Bigodes
+
+**Ondjaki**
+
+**PERGUNTA DE PARTIDA**
+
+Uma bicicleta pode ter bigodes? O que te faz imaginar este título? E se pudesses ganhar uma bicicleta colorida
+num concurso de histórias, que história inventarias?
+
+**NESTA HISTÓRIA VAIS APRENDER A**
+compreender um texto narrativo e identificar o narrador e as personagens;
+distinguir narrador e autor;
+localizar a acção no espaço e no tempo;
+reconhecer acontecimentos principais e secundários;
+interpretar informação explícita e implícita;
+compreender a importância do diálogo numa narrativa;
+explorar palavras e expressões da linguagem da obra;
+identificar comparações e outras formas de expressão;
+escrever uma narrativa a partir de uma situação imaginada.
+
+**NESTE EXCERTO VAIS DESCOBRIR...**
+• Como surgiu o desejo de ganhar a bicicleta? • O que anuncia a rádio?
+
+• Porque é que o narrador pensa no tio Rui?
+
+• O que há de especial nos seus bigodes?
+
+A bicicleta colorida: amarela, vermelha e preta.
+
+115
+
+<!-- page 116 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Conhece o autor · Ondjaki
+
+**LITERATURA · O AUTOR**
+
+Ondjaki é o nome literário de Ndalu de Almeida, escritor angolano nascido em Luanda. A sua obra inclui poesia,
+ficção e literatura para crianças e jovens.
+
+Em muitos dos seus textos encontramos memórias de infância, personagens marcantes, humor, imaginação e
+situações do quotidiano. A linguagem das suas personagens aproxima-se frequentemente da oralidade e
+incorpora expressões próprias do universo angolano.
+
+**SABIAS QUE...?**
+
+Em A Bicicleta que Tinha Bigodes, a infância é apresentada através do olhar de um rapaz que vive numa rua de
+Luanda. É através dos seus olhos que conhecemos as pessoas, os animais, as brincadeiras e as histórias daquele
+mundo.
+
+**A OBRA**
+A obra conta a história de um grupo de crianças que deseja ganhar uma bicicleta colorida oferecida como prémio
+de um concurso da Rádio Nacional. O narrador vive numa rua onde mora também o tio Rui, um escritor que
+desperta a curiosidade das crianças. A partir dessa situação, a realidade e a imaginação começam a misturar-se.
+
+**ANTES DE LER · UMA BICICLETA MUITO ESPECIAL 67**
+1. Uma bicicleta pode ter bigodes? (sim / não) Explica a tua resposta.
+
+2. O que poderá ser uma «bicicleta que tinha bigodes»?
+☐uma bicicleta verdadeira ☐uma bicicleta decorada
+
+☐uma invenção de uma criança ☐uma bicicleta mágica
+
+· outra hipótese:
+
+3. Imagina que podes ganhar uma bicicleta num concurso. Que tipo de bicicleta gostarias de ganhar?
+
+116
+
+<!-- page 117 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+Na minha rua vive o tio Rui, que é escritor e inventa estórias e poemas que até chegam a outros países muito
+internacionais.
+
+O CamaradaMudo, um senhor gordo que fala pouco e está sempre sentado na esquina da nossa rua, disse que
+essas estórias já foram transformadas em peças de teatro num país com nome comprido, parece que se diz
+«Jugoeslávia».
+
+Quando ouvi a notícia na rádio, que iam dar uma bicicleta bem bonita, amarela, vermelha e preta, lembrei-me logo
+de falar com o tio Rui. Era um concurso nacional com primeiro prémio de uma bicicleta colorida que já apareceu na
+televisão, mas nesse dia na nossa rua não havia luz.
+
+De noite, a falar com a minha almofada, eu até já prometi bem as coisas: «se eu ganhar a bicicleta colorida, vou
+deixar todos da minha rua andarem sem pedir nada em troca, nem gelados nem xuínga».
+
+Essa promessa assim bem dura de fazer é que me fazia acreditar que eu ia mesmo ganhar a bicicleta.
+
+Mas eu não tenho jeito nenhum para essa coisa das estórias. Falei com outros miúdos, para saber quem tinha
+ideias, quem queria participar no concurso nacional da bicicleta colorida, mas todos me gozam a dizer que essa
+bicicleta já deve ter dono, que já sabem quem é que vai ganhar.
+
+Não entendi aquilo, mas não desisti. Fui ainda falar com o CamaradaMudo.
+
+**ENQUANTO LÊS**
+
+Repara nas palavras «estória», «xuínga», «bué», «cacimbo»: a linguagem do narrador tem o sabor da oralidade
+angolana.
+
+## Vamos ler · A Bicicleta que Tinha Bigodes
+
+**TEXTO LITERÁRIO · ONDJAKI · TEXTO ORIGINAL**
+
+<!-- page 118 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+— É verdade que essa bicicleta que estão a anunciar na rádio não é de verdade?
+
+— Claro que é de verdade — o CamaradaMudo respondeu. — Tu tens uma boa estória?
+
+— Eu só tenho uma boa vontade de ganhar essa bicicleta.
+
+— Mas para ganhares tens de inventar uma estória.
+
+— Tou masé a pensar que devíamos pedir patrocínio no tio Rui, aquele que escreve bué de poemas.
+
+— Isso não é batota?
+
+— Batota porquê?
+
+— E as outras crianças?
+
+— Quero lá saber, não tenho culpa que o tio Rui vive aqui na minha rua. Eles que descubram também o escritor da
+rua deles.
+
+O tio Rui é simpático e tem sempre bué de pressa. Às vezes nos dá dinheiro para irmos comprar gelado e, no dia 1
+de junho, podemos entrar todos no quintal da casa dele para ouvir algumas estórias que ele lê directamente dos
+papéis amarelos onde ele escreve. Fala com uma voz constipada e algumas palavras mesmo são difíceis de
+entender. Eu pensava que era só o modo de falar, mas a minha amiga Isaura é que me explicou um dia.
+
+— Não vês como são os bigodes do tio Rui?
+
+— São como?
+
+— São assim tipo capim que já não se corta desde o último cacimbo.
+
+— E depois?
+
+— Depois que alguns sons e algumas palavras ficam presas no bigode. Então só ouvimos já o resto.
+
+As estórias do tio Rui, no quintal, no dia 1 de Junho.
+
+## Vamos ler · A Bicicleta que Tinha Bigodes (continuação)
+
+**TEXTO LITERÁRIO · ONDJAKI · TEXTO ORIGINAL**
+
+<!-- page 119 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Compreensão · a bicicleta e o concurso
+
+**LEITURA · RESPONDE COM FRASES COMPLETAS**
+
+**EXERCÍCIOS 68**
+1. Quem vive na rua do narrador?
+
+2. Quem é o tio Rui? E o CamaradaMudo?
+
+3. O que anuncia a rádio? Quais são as cores da bicicleta?
+
+4. Porque pensa o narrador imediatamente no tio Rui?
+
+5. Que promessa faz o narrador à almofada?
+
+6. Porque é que os outros miúdos gozam com ele?
+
+7. Que solução encontra o narrador para conseguir uma estória?
+
+8. Como explica Isaura a voz constipada do tio Rui?
+
+119
+
+<!-- page 120 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## A conversa com o CamaradaMudo
+
+**LEITURA · APROXIMA AO DIÁLOGO**
+
+**EXERCÍCIOS 69**
+1. O narrador tem uma boa história para o concurso? (sim / não) Justifica com uma informação do texto.
+
+2. O que tem ele, afinal?
+
+3. O CamaradaMudo considera essa solução correcta? (sim / não) Justifica.
+
+4. O que revela a resposta do narrador: «Quero lá saber, não tenho culpa que o tio Rui vive aqui na minha rua.»?
+
+**A PERSONAGEM DO CAMARADAMUDO**
+1. Como é apresentado o CamaradaMudo?
+
+2. O seu nome corresponde exactamente ao seu comportamento? Explica.
+
+3. Que papel desempenha na acção?
+
+120
+
+<!-- page 121 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Verdadeiro ou falso
+
+**LEITURA · ASSINALA V OU F**
+
+**VERDADEIRO OU FALSO 70**
+
+**Afirmação**
+**V/F**
+
+a) O tio Rui é escritor.
+
+b) O CamaradaMudo fala muito.
+
+c) O concurso é anunciado na rádio.
+
+d) A bicicleta é amarela, vermelha e preta.
+
+e) O narrador já tem uma história preparada.
+
+f) Os outros miúdos acreditam que ele vai ganhar.
+
+g) O narrador desiste de participar no concurso.
+
+h) O narrador fala com o CamaradaMudo.
+
+i) O tio Rui escreve poemas.
+
+j) Segundo Isaura, sons ficam presos no bigode do tio Rui.
+
+Corrige as afirmações falsas:
+
+121
+
+<!-- page 122 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escolha múltipla
+
+**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+
+**EXERCÍCIOS 71**
+1. Qual é o primeiro prémio do concurso?
+A. Uma televisão. B. Uma bicicleta colorida.
+C. Um rádio. D. Um livro.
+
+2. O que faz o narrador quando ouve a notícia?
+A. Vai para casa. B. Telefona ao CamaradaMudo.
+C. Pensa em falar com o tio Rui. D. Escreve um poema.
+
+3. Porque não sabe o narrador participar no concurso?
+A. Não sabe andar de bicicleta. B. Não tem jeito para inventar histórias.
+C. Não gosta de concursos. D. Não ouviu as regras.
+
+4. Quem sugere que se peça ajuda ao tio Rui?
+A. Isaura. B. O CamaradaMudo.
+C. O próprio narrador. D. Os outros miúdos.
+
+5. Como é descrita a voz do tio Rui?
+A. Muito aguda. B. Constipada.
+C. Muito baixa. D. Rouca como a de um pirata.
+
+6. Segundo Isaura, o que acontece aos sons e às palavras?
+A. Desaparecem no ar. B. Ficam presos no papel.
+C. Ficam presos no bigode. D. Entram na rádio.
+
+122
+
+<!-- page 123 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Explícito e inferência
+
+**LÊ NAS ENTRELINHAS · NEM TUDO ESTÁ DITO DIRECTAMENTE**
+
+**EXPLÍCITO E INFERÊNCIA 72**
+1. O narrador quer muito ganhar a bicicleta. Indica duas informações do texto que comprovam esta ideia.
+
+2. «Essa promessa assim bem dura de fazer é que me fazia acreditar que eu ia mesmo ganhar a bicicleta.» O que
+percebemos sobre o narrador?
+
+3. Porque será que o narrador fala com a almofada?
+
+4. Os outros miúdos parecem não acreditar que o narrador possa ganhar. Como percebemos isso?
+
+5. O narrador considera que pedir ajuda ao tio Rui é batota? (sim / não) Explica.
+
+6. A explicação de Isaura sobre os bigodes é realista ou imaginária? Porque combina com o universo da história?
+
+**DICA**
+
+Pista do texto + interpretação = inferência.
+
+123
+
+<!-- page 124 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## O narrador · quem conta a história?
+
+**NARRAÇÃO · A VOZ QUE CONTA**
+
+**QUEM CONTA?**
+Observa: «Quando ouvi a notícia na rádio [...] lembrei-me logo de falar com o tio Rui.»
+
+1. Quem conta os acontecimentos? A história é contada na primeira ou na terceira pessoa?
+
+2. Retira do texto dois verbos que comprovem a tua resposta.
+
+3. O narrador participa nos acontecimentos? (sim / não) Justifica.
+
+**RELEMBRA · NARRADOR · AUTOR**
+
+O autor é a pessoa real que escreve a obra. O narrador é a voz que conta a história — pode ou não coincidir com
+o autor.
+Completa:
+
+Autor:
+
+Narrador:
+
+**AS PERSONAGENS · O NARRADOR**
+Assinala as características que consegues justificar:
+☐sonhador ☐determinado ☐curioso ☐desistente ☐ambicioso ☐imaginativo
+
+Escolhe duas características e justifica com informações do texto.
+
+124
+
+<!-- page 125 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## As personagens · tio Rui e Isaura
+
+**PERSONAGENS · CARACTERIZAÇÃO**
+
+**O TIO RUI**
+1. Como é apresentado pelo narrador? Indica duas características.
+
+2. O que o torna especial aos olhos das crianças?
+
+**ISAURA**
+3. O que explica Isaura ao narrador?
+
+4. A explicação dela é realista ou fantástica? Justifica.
+
+**ESPAÇO E TEMPO**
+1. Onde vivem as personagens? Que espaço aparece referido várias vezes?
+☐escola ☐rua ☐praia ☐floresta
+
+2. Indica dois lugares concretos referidos no excerto.
+
+3. Em que momento do dia o narrador fala com a almofada? Quando podem as crianças entrar no quintal do tio Rui?
+
+125
+
+<!-- page 126 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Vocabulário · palavras do texto
+
+**A LINGUAGEM ANGOLANA DA OBRA**
+
+**EXERCÍCIOS 73**
+1. Relaciona cada palavra com o significado mais adequado.
+
+**Palavra**
+**Letra**
+**Significado**
+
+1. estória
+a.
+pessoa que ajuda um projecto
+
+2. patrocínio
+b.
+história
+
+3. cacimbo
+c.
+estação seca e fresca de Angola
+
+4. bué
+d.
+muito
+
+5. xuínga
+e.
+termo do universo linguístico angolano
+
+2. Procura no texto uma palavra ou expressão que não uses habitualmente. O que pensas que significa?
+
+3. Porque é interessante encontrar diferentes variedades do português num texto literário?
+
+126
+
+<!-- page 127 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Gramática em contexto · o discurso directo
+
+**GRAMÁTICA · AS FALAS DA HISTÓRIA**
+
+**O DISCURSO DIRECTO**
+Observa:
+
+· É verdade que essa bicicleta [...] não é de verdade?
+
+· Claro que é de verdade · o CamaradaMudo respondeu.
+
+1. Quem fala em cada caso?
+
+2. Que sinais de pontuação introduzem as falas?
+
+3. Retira do texto uma fala do narrador e uma fala do CamaradaMudo.
+
+Narrador:
+
+CamaradaMudo:
+
+**OS VERBOS DO DIÁLOGO**
+1. No excerto, o CamaradaMudo «respondeu». Identifica o verbo que introduz a fala e procura no texto outro verbo
+relacionado com o acto de falar.
+
+2. Escreve três outros verbos que poderias utilizar para introduzir uma fala.
+
+**RELEMBRA**
+
+No discurso directo, a fala da personagem é reproduzida com as suas palavras, introduzida por travessão ou por
+dois pontos e aspas.
+
+127
+
+<!-- page 128 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Recursos expressivos · comparar para imaginar
+
+**LEITURA · AS PALAVRAS PINTAM IMAGENS**
+
+**EXERCÍCIOS 74**
+Observa: «São assim tipo capim que já não se corta desde o último cacimbo.»
+
+1. Com o que são comparados os bigodes do tio Rui? Que imagem constróis a partir desta comparação?
+
+2. Que recurso expressivo está presente?
+☐metáfora ☐comparação ☐personificação ☐enumeração
+
+**A BICICLETA**
+O narrador descreve a bicicleta através das cores: «amarela, vermelha e preta».
+
+3. Que efeito tem esta enumeração?
+
+4. Escreve uma descrição de uma bicicleta fantástica utilizando pelo menos três cores e uma comparação.
+
+128
+
+<!-- page 129 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Educação literária · como se constrói uma narrativa
+
+**ESTRUTURA · DA SITUAÇÃO INICIAL AO DESFECHO**
+
+**Elemento**
+**O que é**
+
+Situação inicial
+Conhecemos as personagens e o contexto.
+
+Problema / desejo
+Surge algo que desencadeia a acção.
+
+Desenvolvimento
+As personagens procuram resolver o problema.
+
+Momentos importantes
+A acção vai avançando.
+
+Desfecho
+A situação é resolvida.
+
+**NESTE EXCERTO...**
+Situação inicial: conhecemos a rua, o tio Rui e o CamaradaMudo.
+
+Desejo do narrador:
+
+Problema:
+
+Primeira solução pensada:
+
+Nova informação:
+
+**O MUNDO REAL E O MUNDO DA IMAGINAÇÃO**
+Este texto mistura elementos do quotidiano com elementos fantásticos.
+
+MUNDO REAL · escreve quatro elementos que poderiam existir na realidade:
+
+MUNDO DA IMAGINAÇÃO · escreve dois elementos do universo imaginário:
+
+O que acontece quando estes dois mundos se misturam?
+
+129
+
+<!-- page 130 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Interpretação aprofundada
+
+**PENSA MAIS FUNDO**
+
+**INTERPRETAÇÃO 75**
+1. O narrador quer ganhar a bicicleta apenas para si? Justifica.
+
+2. O que revela a promessa que ele faz sobre a sua relação com as outras crianças?
+
+3. Porque assume a bicicleta tanta importância para o narrador?
+
+4. Achas que o narrador é uma personagem realista ou sonhadora? Justifica com elementos do texto.
+
+5. Porque é que a explicação de Isaura sobre a voz do tio Rui é importante para a história?
+
+**PARA PENSAR**
+
+A promessa «bem dura de fazer» — deixar todos andarem na bicicleta sem pedir nada em troca — mostra que o
+desejo do narrador não é egoísta: é um desejo partilhado com a rua inteira.
+
+130
+
+<!-- page 131 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Oficina de escrita · um objecto mágico
+
+**ESCRITA · 150 A 200 PALAVRAS**
+
+**EXERCÍCIOS 76**
+Imagina que existe um objecto especial na tua rua. Pode ser: uma mochila que guarda segredos · uma caneta que
+escreve o futuro · um rádio que fala com os animais · uma bicicleta que sabe para onde quer ir · um livro que muda as
+histórias.
+
+Escreve uma narrativa de 150 a 200 palavras. Deves incluir:
+☐um narrador ☐duas personagens ☐o objecto mágico
+☐um problema ☐uma situação inesperada ☐um final
+
+**A MINHA NARRATIVA**
+
+131
+
+<!-- page 132 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Escrita criativa · a bicicleta ganhou vida
+
+**ESCRITA · 180 A 220 PALAVRAS**
+
+**ESCRITA CRIATIVA 77**
+Imagina que, durante a noite, a bicicleta do concurso aparece à porta da casa do narrador. Quando ele se aproxima, a
+bicicleta começa a falar. O que lhe diria? Escreve a continuação da história. Não te esqueças de:
+☐descrever a bicicleta ☐criar diálogo ☐incluir uma situação surpreendente
+☐utilizar pelo menos uma comparação ☐criar um final
+
+**DESAFIO · O TEU CONCURSO DE HISTÓRIAS 78**
+A Rádio Nacional lançou um novo concurso. PRÉMIO: a bicicleta mais extraordinária do mundo! Mas há uma regra:
+para ganhar, tens de escrever uma história que faça os jurados acreditar que a bicicleta tem vida própria. Cria o INÍCIO
+dessa história em 100 palavras, começando por:
+«Naquela manhã, a bicicleta estava à minha espera.»
+
+132
+
+<!-- page 133 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+
+Prime School Press · www.primeschool.pt
+
+## Passaporte literário · A Bicicleta que Tinha Bigodes
+
+**REGISTO DE LEITURA**
+
+**A MINHA LEITURA**
+
+**O meu registo**
+**Resposta**
+
+Tipo de texto
+
+A personagem de que mais gostei
+
+A personagem que gostaria de conhecer
+
+O elemento mais engraçado
+
+O elemento mais fantástico
+
+Uma palavra nova que aprendi
+
+Uma expressão de que gostei
+
+Se eu pudesse entrar nesta história...
+
+**UMA FRASE PARA LEVAR CONTIGO**
+
+«Se eu ganhar a bicicleta colorida, vou deixar todos da minha rua andarem sem pedir nada em troca.» — O melhor
+prémio é o que se partilha.
+
+133
+
+<!-- page 134 -->
+
+---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
 
 Prime School Press · www.primeschool.pt
@@ -4674,9 +6039,9 @@ GRAMÁTICA · frases simples e complexas, em contexto.
 2. Imagina que um personagem gigante chega à tua cidade: que surpresas o esperam?
 3. O que é preciso para transformar um texto escrito num espectáculo?
 
-97
+134
 
-<!-- page 98 -->
+<!-- page 135 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4707,9 +6072,9 @@ A personagem Gulliver foi criada pelo escritor irlandês Jonathan Swift, no séc
 Soares recupera esta personagem e imagina uma passagem por Portugal.
 PALAVRAS-CHAVE: viagem · aventura · humor · teatro · imaginação · crítica
 
-98
+135
 
-<!-- page 99 -->
+<!-- page 136 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4737,9 +6102,9 @@ descobrir como funciona um texto dramático · conhecer melhor as personagens ·
 e tempo · aprender a fazer inferências · interpretar diálogos · trabalhar palavras compostas ·
 escrever e representar uma cena.
 
-99
+136
 
-<!-- page 100 -->
+<!-- page 137 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4781,9 +6146,9 @@ O que poderá surpreender Gulliver quando chegar a Portugal?
 
 Será que vemos o nosso país da mesma maneira que um estrangeiro o vê?
 
-100
+137
 
-<!-- page 101 -->
+<!-- page 138 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4826,9 +6191,9 @@ portugueses?
 
 A cena continua na página seguinte…
 
-101
+138
 
-<!-- page 102 -->
+<!-- page 139 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4880,9 +6245,9 @@ Luísa Ducla Soares (adapt. livre), As viagens de Gulliver com escala em Portuga
 Marca com cores diferentes: as FALAS de Gulliver · as falas das outras personagens · as
 DIDASCÁLIAS (indicações entre parênteses) · as informações sobre Portugal.
 
-102
+139
 
-<!-- page 103 -->
+<!-- page 140 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4913,9 +6278,9 @@ A minha escolha, porque...
 
 **CAMBRIDGE FOCUS: resposta + evidência do texto = resposta completa.**
 
-103
+140
 
-<!-- page 104 -->
+<!-- page 141 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -4975,9 +6340,9 @@ Corrige as afirmações falsas.
 
 Gulliver pensa inicialmente que os portugueses podem ser selvagens.
 
-104
+141
 
-<!-- page 105 -->
+<!-- page 142 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5006,9 +6371,9 @@ esconde nesta pergunta?
 Encontra uma pista → pensa sobre ela → tira uma conclusão.
 Não copies simplesmente uma frase do texto: explica o que ela permite concluir.
 
-105
+142
 
-<!-- page 106 -->
+<!-- page 143 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5037,9 +6402,9 @@ desempenham Maria e Manuel na cena?
 
 Qual das personagens gostarias de representar? Porquê?
 
-106
+143
 
-<!-- page 107 -->
+<!-- page 144 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5068,9 +6433,9 @@ Imagina que montas esta cena num palco. Escolhe três objectos que não poderiam
 
 3 ______________________________
 
-107
+144
 
-<!-- page 108 -->
+<!-- page 145 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5111,9 +6476,9 @@ gentil
 «Chegámos a bom porto.» O que significa esta expressão no contexto? Pode também ser usada com
 sentido figurado? Explica.
 
-108
+145
 
-<!-- page 109 -->
+<!-- page 146 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5140,9 +6505,9 @@ AGORA PENSA: escolhe uma didascália. O que aconteceria se ela desaparecesse?
 Escolhe uma didascália do texto e explica-a como se estivesses a dar uma instrução a um actor:
 «Deves...»
 
-109
+146
 
-<!-- page 110 -->
+<!-- page 147 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5182,9 +6547,9 @@ Forma palavras compostas relacionadas com: viagem · mar · escola · aventura. 
 
 Porque razão é importante observar as palavras dentro do contexto em que aparecem?
 
-110
+147
 
-<!-- page 111 -->
+<!-- page 148 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5206,9 +6571,9 @@ ou também a criticar a ostentação? Justifica.
 
 Às vezes, uma história divertida também nos faz pensar sobre a sociedade.
 
-111
+148
 
-<!-- page 112 -->
+<!-- page 149 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5231,9 +6596,9 @@ história mais interessante? Justifica.
 5. Escolhe uma palavra para definir este excerto: humorístico · histórico · fantástico · crítico ·
 aventureiro.
 
-112
+149
 
-<!-- page 113 -->
+<!-- page 150 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5267,9 +6632,9 @@ Pergunta 5: ____________________________
 Evita perguntas de resposta sim/não. Usa: Como...? Porquê...? O que pensaste quando...? Qual foi...?
 Se pudesses..., o que...?
 
-113
+150
 
-<!-- page 114 -->
+<!-- page 151 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5300,9 +6665,9 @@ Quem encontro? __________________________
 
 Como termina? ___________________________
 
-114
+151
 
-<!-- page 115 -->
+<!-- page 152 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5325,9 +6690,9 @@ resposta.
 Na minha opinião... · Considero que... · Um argumento importante é... · Por outro lado... · Não
 concordo porque... · Um exemplo é... · Concluindo...
 
-115
+152
 
-<!-- page 116 -->
+<!-- page 153 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5362,9 +6727,9 @@ Final: ____________________________________
 
 O que aprendemos ao observar a nossa escola através dos olhos de Gulliver?
 
-116
+153
 
-<!-- page 117 -->
+<!-- page 154 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5405,9 +6770,9 @@ Quando encontrares uma didascália, pergunta: O que acontece? Quem faz? Como faz
 acontece? Que emoção transmite?
 Num texto dramático, as palavras e as acções trabalham juntas para contar a história.
 
-117
+154
 
-<!-- page 118 -->
+<!-- page 155 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
@@ -5421,9 +6786,6 @@ Prime School Press · www.primeschool.pt
 **MARCA A TUA RESPOSTA**
 
 **Consigo...**
-**ὠ**
-**ὰ**
-** **
 
 compreender o texto dramático
 ☐
@@ -5489,9 +6851,787 @@ Uma palavra nova: ______________________
 
 O que mais gostei: _____________________
 
-118
+155
 
-<!-- page 119 -->
+<!-- page 156 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Os Piratas · a bordo de um navio de piratas
+
+**Manuel António Pina**
+
+**PERGUNTA DE PARTIDA**
+
+Imagina que estás escondido num navio ocupado por piratas. De repente, ouves passos a aproximarem-se. O que
+farias?
+
+**NESTA HISTÓRIA VAIS APRENDER A**
+compreender um texto dramático e identificar personagens e relações entre elas;
+reconhecer o conflito e a tensão dramática;
+distinguir fala, narração e acção;
+analisar a linguagem das personagens;
+compreender a importância do espaço e do ambiente;
+explorar o texto através da representação;
+transformar uma passagem narrativa num momento teatral;
+escrever uma cena dramática.
+
+**NESTE EXCERTO VAIS DESCOBRIR...**
+• Quem está em perigo? • O que pretendem os piratas?
+
+• Como evitam o rapaz e o velho ser descobertos?
+
+• O que acontece quando o capitão avista a vila?
+
+Escondidos entre as enxárcias, no nevoeiro.
+
+156
+
+<!-- page 157 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Conhece o autor · Manuel António Pina
+
+**LITERATURA · O AUTOR**
+
+Manuel António Pina foi um escritor, jornalista e poeta português, autor de uma vasta obra para crianças e
+jovens. A sua escrita combina frequentemente imaginação, humor, aventura e fantasia, criando situações que
+convidam o leitor a participar na história.
+
+Em Os Piratas, encontramos uma aventura marcada pelo perigo, pelo mistério e pela acção: um rapaz e um
+velho escondidos num navio pirata que se prepara para assaltar uma vila.
+
+**SABIAS QUE...?**
+
+Um texto dramático pode ser lido, mas foi pensado para ser representado. Quando leres Os Piratas, imagina: as
+personagens em palco, os seus movimentos, a voz e a entoação, os objectos, os sons, a iluminação e o espaço
+onde decorre a acção.
+
+**ANTES DE LER · O TÍTULO**
+1. Observa o título «Os Piratas» e escreve cinco palavras que associes imediatamente a ele.
+
+2. Assinala os elementos que esperarias encontrar num navio pirata:
+☐capitão ☐marinheiros ☐bússola ☐óculo ☐espadas
+
+☐fuzis ☐lampiões ☐botes ☐tesouro ☐computador
+
+3. Que sentimentos poderias sentir na situação da pergunta de partida?
+☐medo ☐curiosidade ☐coragem ☐ansiedade ☐tranquilidade ☐surpresa
+
+Escolhe dois e explica.
+
+157
+
+<!-- page 158 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · Os Piratas
+
+**TEXTO DRAMÁTICO · MANUEL ANTÓNIO PINA · ADAPTADO**
+
+Ficámos os dois muito quietos, escondidos entre as enxárcias do mastro da mezena. O velho chegou-se perto de
+mim:
+
+VELHO — Não faças barulho. É um navio de piratas. Passaram aqui a noite por causa do nevoeiro. Vão assaltar a
+vila e pilhar tudo. Mas o pior é que raptam as mulheres e levam-nas com eles. Temos que salvar a ilha!
+
+RAPAZ — E se nos descobrem?
+
+VELHO — Se nos descobrem enforcam-nos, ou atiram-nos ao mar, não faças barulho.
+
+Os piratas corriam no convés de um lado para o outro, e um de grande chapéu, barba negra e olhos brilhantes,
+esquadrinhava a costa com um óculo e resmungava:
+
+CAPITÃO — «Onde está o raio do porto? Onde está o porto?»
+
+Depois ia à bitácula olhar a bússola e voltava, coxeando, à amurada perscrutando a ilha, envolta em névoa.
+
+CAPITÃO — Alem a vela, suas bestas! Braceiem-me as vergas, que o vento dá de popa! — berrava da ponte para
+os marinheiros.
+
+A algazarra era enorme. Pelas escadas de bombordo subiam piratas carregando braçadas de espadas e de fuzis.
+Outros subiam aos mastros à procura das luzes da vila. O capitão, a falar sozinho, entre dentes, aproximou-se do
+sítio onde estávamos, sempre a olhar pelo óculo. E, dando comigo, gritou:
+
+CAPITÃO — E tu que estás aqui a fazer, grumete? Vai-me lá abaixo buscar outra garrafa!
+
+Levantei-me cheio de medo e ele empurrou-me e tornou a gritar:
+
+CAPITÃO — De que estás à espera? Mexe-me essas pernas ou mando-te atirar aos tubarões!
+
+VELHO — Vai — disse-me o velho baixinho. — Faz o que ele diz...
+
+**ENQUANTO LÊS**
+
+Repara nas falas do capitão: quase todas são ordens. Que retrato se vai desenhar dele, palavra a palavra?
+
+158
+
+<!-- page 159 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Vamos ler · Os Piratas (continuação)
+
+**TEXTO DRAMÁTICO · MANUEL ANTÓNIO PINA · ADAPTADO**
+
+Desci as escadas e fui ao camarote. Peguei em duas garrafas sujíssimas de debaixo do beliche e trouxe-lhas.
+
+CAPITÃO — Agora põe-te a mexer. Vai guardar os lampiões! E apanha o lenço, não quero ver ninguém sem o
+lenço na cabeça!
+
+Ao meu lado, no chão, estava um lenço vermelho que alguém, algum marinheiro, acho eu, deixara cair. Apanhei-o
+e voltei para o pé do velho, a tremer.
+
+VELHO — Uff — disse ele. — Safámo-nos de boa... Anda, além estamos melhor, aqui ainda nos descobrem.
+
+Fui atrás dele em silêncio. Nessa altura, o capitão soltou um urro medonho:
+
+CAPITÃO — Terra! É aqui, tudo a estibordo, tudo a estibordo!
+
+Dava grandes saltos, a correr para a ponte de comando, com o óculo numa mão e uma garrafa na outra. O veleiro
+deu um abanão tal que tropecei na confusão de cabos e caí desamparado. O velho ajudou-me a levantar e
+murmurou:
+
+VELHO — Descobriram a vila. Vão desembarcar.
+
+Os piratas gritavam como doidos, descendo os botes e atirando-os à água. Em pouco tempo remavam já para
+terra, furiosamente, no meio de um alarido infernal.
+
+O capitão tirou a espada e saltou também, e eu e o velho seguimo-lo.
+
+Amanhecera por completo. O sol coava-se tenuemente entre a névoa. Ao fundo, contra a mole escura dos
+rochedos, desenhavam-se as casas da vila, adormecidas. A cruz grande da igreja pairava incertamente no céu,
+acima dos telhados.
+
+VELHO — Se não conseguimos avisá-los a tempo são todos mortos — disse-me o velho ao ouvido.
+
+**NOTA**
+
+Os nomes VELHO, RAPAZ e CAPITÃO foram acrescentados para facilitar a leitura dramatizada; o texto e as falas
+são mantidos.
+
+159
+
+<!-- page 160 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Compreensão · o que acontece?
+
+**LEITURA · RESPONDE COM FRASES COMPLETAS**
+
+**EXERCÍCIOS 52**
+A SITUAÇÃO INICIAL
+
+1. Onde estão o rapaz e o velho?
+
+2. Porque razão estão escondidos?
+
+3. Porque motivo permaneceram os piratas naquela zona?
+
+4. O que pretendem fazer à vila?
+
+A ACÇÃO
+
+5. O que faz o capitão enquanto procura a vila?
+
+6. O que acontece quando o capitão encontra o rapaz?
+
+7. Que ordens recebe o rapaz?
+
+8. O que acontece quando o capitão avista a terra?
+
+9. Porque razão está o velho preocupado no final?
+
+160
+
+<!-- page 161 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Verdadeiro ou falso
+
+**LEITURA · CLASSIFICA AS AFIRMAÇÕES COMO V OU F**
+
+**VERDADEIRO OU FALSO 53**
+
+**Afirmação**
+**V/F**
+
+a) O rapaz e o velho estão escondidos no navio.
+
+b) O navio permaneceu ali por causa do nevoeiro.
+
+c) Os piratas pretendem assaltar a vila.
+
+d) O capitão utiliza um mapa para procurar a vila.
+
+e) O capitão encontra o rapaz.
+
+f) O rapaz recebe ordens para ir buscar uma garrafa.
+
+g) O rapaz encontra um lenço azul.
+
+h) O capitão avista a vila.
+
+i) Os piratas descem os botes à água.
+
+j) A vila está acordada e preparada para os receber.
+
+Corrige as afirmações falsas:
+
+161
+
+<!-- page 162 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Escolha múltipla
+
+**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+
+**EXERCÍCIOS 54**
+1. Quem avisa o rapaz sobre o perigo?
+A. O capitão B. Um marinheiro
+C. O velho D. Outro pirata
+
+2. Como é descrito o capitão?
+A. Grande chapéu, barba negra e olhos brilhantes B. Chapéu vermelho e barba branca
+C. Baixo e silencioso D. Um jovem marinheiro
+
+3. Que objecto utiliza o capitão para observar?
+A. Uma espada B. Um óculo
+C. Um mapa D. Uma lanterna
+
+4. O que vai o rapaz buscar?
+A. Uma espada B. Uma bússola
+C. Duas garrafas D. Um mapa
+
+5. Que objecto encontra o rapaz no chão?
+A. Um lenço vermelho B. Um lenço azul
+C. Uma espada D. Uma corda
+
+6. O que fazem os piratas depois de descobrir a vila?
+A. Escondem-se B. Regressam ao navio
+C. Descem os botes e vão para terra D. Esperam pelo amanhecer
+
+162
+
+<!-- page 163 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Explícito e inferência
+
+**LÊ NAS ENTRELINHAS**
+
+**EXPLÍCITO E INFERÊNCIA 55**
+1. Lê: «Ficámos os dois muito quietos». O que podemos concluir sobre a situação?
+
+2. Lê: «Levantei-me cheio de medo». Como se sente o rapaz?
+
+3. Porque razão o velho fala «baixinho»?
+
+4. O que significa a expressão «Safámo-nos de boa...»?
+
+5. Porque é que a descoberta da vila aumenta o perigo?
+
+6. O que podemos concluir a partir da última fala do velho?
+
+**DICA**
+
+Uma inferência baseia-se em pistas do texto: pista + interpretação = inferência.
+
+163
+
+<!-- page 164 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## As personagens
+
+**PERSONAGENS · CARACTERIZAÇÃO**
+
+**O RAPAZ**
+1. Assinala as características que consegues justificar:
+☐assustado ☐obediente ☐atento ☐agressivo ☐indiferente ☐prudente
+
+2. Retira do texto duas expressões que mostrem o medo do rapaz.
+
+3. Apesar do medo, o rapaz cumpre as ordens do capitão. Justifica.
+
+**O VELHO**
+4. Qual é a principal preocupação do velho? Como tenta proteger o rapaz?
+
+5. O velho conhece o perigo. Retira uma informação do texto que o demonstre.
+
+**O CAPITÃO**
+6. Selecciona três características:
+☐autoritário ☐agressivo ☐ameaçador ☐hesitante ☐enérgico ☐tranquilo
+
+7. Escolhe uma fala do capitão que justifique uma das tuas escolhas.
+
+164
+
+<!-- page 165 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Conflito dramático
+
+**ANÁLISE · A TENSAO DA CENA**
+
+**EXERCÍCIOS 56**
+1. Completa:
+
+O rapaz e o velho querem:
+
+Os piratas querem:
+
+O principal perigo é:
+2. Explica o conflito presente no excerto.
+
+3. No final do excerto, o conflito está resolvido? (sim / não) Justifica.
+
+**ESPAÇO E TEMPO**
+1. Onde decorre a maior parte da acção?
+
+2. Identifica quatro elementos do espaço marítimo presentes no texto.
+
+3. Que condições atmosféricas encontramos? Que ambiente é criado pelo nevoeiro?
+
+4. Que expressão indica que amanheceu?
+
+165
+
+<!-- page 166 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Vocabulário · a bordo
+
+**PALAVRAS DO TEXTO**
+
+**EXERCÍCIOS 57**
+1. Relaciona cada palavra com o significado correcto.
+
+**Palavra**
+**Letra**
+**Significado**
+
+1. enxárcias
+a.
+instrumento para observar ao longe
+
+2. mezena
+b.
+cabos que sustentam os mastros
+
+3. óculo
+c.
+mastro traseiro do navio
+
+4. amurada
+d.
+parte lateral do navio
+
+5. bitácula
+e.
+suporte da bússola
+
+6. vergas
+f.
+peças horizontais das velas
+
+2. Escolhe três palavras e escreve uma frase com cada uma, relacionada com o universo marítimo.
+
+166
+
+<!-- page 167 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Gramática em contexto
+
+**GRAMÁTICA · O IMPERATIVO E O VOCATIVO**
+
+**O IMPERATIVO · O CAPITÃO DÁ MUITAS ORDENS**
+
+«Vai-me lá abaixo buscar outra garrafa!»
+«Mexe-me essas pernas...»
+«Vai guardar os lampiões!»
+«Apanha o lenço...»
+
+1. Retira do texto cinco verbos utilizados para dar ordens.
+
+2. Em que modo verbal se encontram?
+
+3. Reescreve uma das ordens de forma educada:
+
+Original:
+
+Nova versão:
+
+**O VOCATIVO · «E TU QUE ESTÁS AQUI A FAZER, GRUMETE?»**
+4. Qual é o vocativo desta fala? A quem se refere?
+
+5. Identifica o vocativo em cada frase:
+
+a) «Rapaz, vem cá!»
+b) «Capitão, avistámos terra!»
+c) «Marinheiros, preparem os botes!»
+
+**RELEMBRA**
+
+O vocativo é a palavra usada para chamar alguém: na fala, vem separada por vírgula. O imperativo dá ordens — é
+o modo das falas do capitão.
+
+167
+
+<!-- page 168 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Recursos expressivos
+
+**LEITURA · AS PALAVRAS PINTAM A CENA**
+
+**EXERCÍCIOS 58**
+1. Explica o efeito da expressão «um alarido infernal».
+
+2. Observa: «gritou» · «berrava» · «soltou um urro medonho». Que efeito produzem estes verbos?
+
+3. Explica a imagem presente em: «O sol coava-se tenuemente entre a névoa.»
+
+4. Que ambiente é criado pela expressão «as casas da vila, adormecidas»?
+
+«Onde está o raio do porto?», resmugava o capitão.
+
+168
+
+<!-- page 169 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Educação literária · o texto dramático
+
+**ESTRUTURA · O QUE ENCONTRAMOS NUM TEXTO DRAMÁTICO**
+
+**O TEXTO DRAMÁTICO É ESCRITO PARA SER REPRESENTADO EM PALCO**
+
+**Elemento**
+**O que é**
+
+Personagens
+Participam na acção.
+
+Falas
+Aquilo que as personagens dizem.
+
+Acção
+Aquilo que acontece.
+
+Conflito
+O problema que faz avançar a acção.
+
+Espaço cénico
+O lugar onde a acção é representada.
+
+Didascálias
+Indicações relativas à representação.
+
+**NESTE EXCERTO...**
+
+Personagens:
+
+Conflito:
+
+Espaço:
+
+Acção principal:
+
+**FALA OU ACÇÃO? 59**
+Classifica cada passagem com F (fala) ou A (acção/narração):
+
+a) «E se nos descobrem?»
+
+b) «Os piratas corriam no convés de um lado para o outro.»
+
+c) «Terra! É aqui, tudo a estibordo...»
+
+d) «Peguei em duas garrafas [...] e trouxe-lhas.»
+
+e) «Vão desembarcar.»
+
+Porque é que esta combinação de fala e acção é importante numa representação?
+
+169
+
+<!-- page 170 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Da página para o palco
+
+**INTERPRETAÇÃO · IMAGINA QUE ÉS O ENCENADOR**
+
+**EXERCÍCIOS 60**
+1. Que objectos precisarias de colocar em palco?
+☐mastro ☐cordas ☐óculo ☐garrafas ☐lampiões
+
+☐espada ☐lenço vermelho ☐bússola ☐botes
+
+2. Escolhe cinco e explica a sua importância.
+
+**3. ONDE COLOCARIAS...**
+
+o capitão?
+
+o rapaz e o velho?
+
+os marinheiros?
+
+**CRIAR DIDASCÁLIAS 61**
+No excerto, muitas acções aparecem na narração. Imagina como poderiam ser representadas em palco.
+
+Exemplo: «Levantei-me cheio de medo.» →[O rapaz levanta-se lentamente, olhando assustado para o capitão.]
+
+a) «O velho chegou-se perto de mim.»
+
+[
+]
+b) «O capitão [...] aproximou-se do sítio onde estávamos.»
+
+[
+]
+c) «O veleiro deu um abanão tal que tropecei [...] e caí.»
+
+[
+]
+d) «O velho ajudou-me a levantar.»
+
+[
+]
+
+170
+
+<!-- page 171 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## A leitura dramatizada
+
+**ORALIDADE · EM GRUPO**
+
+**LEITURA DRAMATIZADA · EM GRUPO 62**
+Distribuam as personagens: Rapaz · Velho · Capitão · Marinheiros · Narrador.
+
+Durante a leitura, presta atenção a:
+☐volume da voz ☐entoação ☐ritmo ☐pausas
+
+☐expressão facial ☐movimentos ☐emoções
+
+**DEPOIS DA LEITURA**
+1. Qual foi a fala mais difícil de representar?
+
+2. Que personagem exigiu maior expressividade?
+
+3. Que som poderia tornar a cena mais realista?
+
+**O MOMENTO DE MAIOR TENSÃO**
+Relê: CAPITÃO — «Terra! É aqui, tudo a estibordo, tudo a estibordo!»
+
+1. Como deve dizer esta fala o actor que interpreta o capitão?
+☐muito baixo ☐lentamente ☐aos gritos ☐com entusiasmo ☐com medo
+
+(Podes escolher mais do que uma opção.)
+
+2. Que movimentos deveria fazer? Que sons deveriam ouvir-se? Como deveria estar a iluminação?
+
+171
+
+<!-- page 172 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Transformar o texto em cena
+
+**ESCRITA · DA NARRAÇÃO AO TEATRO**
+
+**TRANSFORMA O TEXTO 63**
+Transforma a passagem em que o capitão descobre a vila numa verdadeira cena teatral. Escreve a cena com: nome
+das personagens, falas, didascálias, movimentos e sons.
+
+**CAPITÃO:**
+
+[
+]
+
+**RAPAZ:**
+
+[
+]
+
+**VELHO:**
+
+[
+]
+
+172
+
+<!-- page 173 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Oficina de escrita · um minuto antes do desembarque
+
+**ESCRITA · 150 A 200 PALAVRAS**
+
+**EXERCÍCIOS 64**
+Imagina que a acção continua durante o minuto que antecede o desembarque. Escreve uma pequena cena. Deves
+incluir:
+☐o capitão · o rapaz · o velho ☐pelo menos 6 falas ☐3 didascálias
+☐um momento de tensão ☐um som ou ruído ☐um final que deixe o leitor curioso
+
+**A MINHA CENA**
+
+173
+
+<!-- page 174 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Escrita criativa · o diário do rapaz
+
+**ESCRITA · 180 A 220 PALAVRAS**
+
+**ESCRITA CRIATIVA 65**
+Imagina que, depois dos acontecimentos, o rapaz escreve no seu diário. Escreve sobre: o medo, o navio, o capitão, as
+ordens que recebeu, o lenço vermelho, a descoberta da vila e o perigo que os habitantes enfrentam.
+
+**DESAFIO · O ENCENADOR 66**
+Agora és tu quem vai preparar a representação de Os Piratas. Responde:
+
+CENÁRIO · como será o navio?
+
+ADEREÇOS · que objectos serão necessários?
+
+ILUMINAÇÃO · noite, nevoeiro e amanhecer?
+
+SONS · que sons ouvirá o público?
+
+GUARDA-ROUPA · como estarão vestidos?
+
+MOVIMENTO · como se movimentarão os piratas?
+
+174
+
+<!-- page 175 -->
+
+---
+PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+
+Prime School Press · www.primeschool.pt
+
+## Relembra e passaporte teatral
+
+**REVISÃO · O QUE APRENDI**
+
+**O TEXTO DRAMÁTICO**
+PERSONAGENS – quem participa na acção? FALAS – o que dizem as personagens?
+ACÇÃO – o que acontece? CONFLITO – qual é o problema ou oposição?
+ESPAÇO CÉNICO – onde decorre a acção? DIDASCÁLIAS – que indicações ajudam à representação?
+
+**DICA · LÊ COMO UM ACTOR!**
+
+Quando leres um texto dramático, não perguntes apenas «o que acontece?». Pergunta também: Quem está em
+palco? Onde estão? Como falam? O que sentem? O que fazem? Como seria a iluminação? Que sons ouviríamos?
+Ler teatro é começar a imaginar a representação.
+
+**PASSAPORTE TEATRAL · OS PIRATAS**
+
+**O meu registo**
+**Resposta**
+
+Tipo de texto
+
+Personagem que mais me chamou a atenção
+
+Personagem que gostaria de representar
+
+O momento de maior tensão
+
+O objecto cénico mais importante
+
+Uma palavra nova que aprendi
+
+Uma fala que gostaria de representar
+
+O que torna este excerto adequado à representação?
+
+175
+
+<!-- page 176 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5522,9 +7662,9 @@ aprender os segredos do verso e da rima e escrever os teus próprios poemas.
 verso – cada linha do poema · estrofe – grupo de versos · rima – repetição de sons no fim dos versos ·
 métrica – número de sílabas até à última tónica.
 
-119
+176
 
-<!-- page 120 -->
+<!-- page 177 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5609,9 +7749,9 @@ Repetição no início dos versos
 Como escandir um verso: conta as sílabas em voz alta até à ÚLTIMA TÓNICA:
 «Quan-tas-noi-vas-fi-ca-ram-por-ca-sar» = 10 → decassílabo.
 
-120
+177
 
-<!-- page 121 -->
+<!-- page 178 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5653,9 +7793,9 @@ Fernando Pessoa, Mensagem, 1934
 • Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
 • Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
 
-121
+178
 
-<!-- page 122 -->
+<!-- page 179 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5693,9 +7833,9 @@ Que recursos expressivos dão força aos versos?
 
 6. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
 
-122
+179
 
-<!-- page 123 -->
+<!-- page 180 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5745,9 +7885,9 @@ Florbela Espanca, Charneca em Flor
 • Que emoção domina a primeira quadra? E a última estrofe?
 • O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
 
-123
+180
 
-<!-- page 124 -->
+<!-- page 181 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5788,9 +7928,9 @@ ninguém»? Que nome se dá a este contraste?
 6. Compara os dois poemas com a ajuda do esquema: o que muda quando Pessoa fala do mar e Florbela
 fala do amor? Escreve seis linhas.
 
-124
+181
 
-<!-- page 125 -->
+<!-- page 182 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5861,9 +8001,9 @@ grupo
 de
 coordenadas.
 
-125
+182
 
-<!-- page 126 -->
+<!-- page 183 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5926,9 +8066,9 @@ actores saem.» / «Embora temesse, cantou.»
 3. Junta cada par numa frase complexa: «Estudámos o poema. Fizemos o comentário.» / «O poeta
 perdeu o caderno. Continuou a escrever.» (embora)
 
-126
+183
 
-<!-- page 127 -->
+<!-- page 184 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5974,9 +8114,9 @@ onde está o verso · o nome do recurso · o efeito.
 Escreve agora o teu comentário. Planifica primeiro: 1. INTRODUÇÃO (2 linhas) · 2. CONTEÚDO com duas
 citações (8 linhas) · 3. FORMA com um recurso e o seu efeito (8 linhas) · 4. CONCLUSÃO (4 linhas).
 
-127
+184
 
-<!-- page 128 -->
+<!-- page 185 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -5999,9 +8139,9 @@ simples: o autocarro da manhã, o cheiro da cantina, o recreio.
 Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
 um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio poema.
 
-128
+185
 
-<!-- page 129 -->
+<!-- page 186 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -6035,9 +8175,9 @@ Notas para a minha declamação:
 
 Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o público, não o papel.
 
-129
+186
 
-<!-- page 130 -->
+<!-- page 187 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -6058,9 +8198,9 @@ O MEU POEMA VISUAL:
 A imagem não ilustra o poema: interpreta-o. Escolhe os elementos que traduzem o SENTIDO dos
 versos, não apenas o cenário.
 
-130
+187
 
-<!-- page 131 -->
+<!-- page 188 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -6098,9 +8238,9 @@ efeito.
 Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quantos…” na segunda
 estrofe?»
 
-131
+188
 
-<!-- page 132 -->
+<!-- page 189 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -6148,9 +8288,9 @@ Escrever um poema com rima
 **O MEU PRÓXIMO OBJECTIVO**
 Para o Year 8 quero melhorar...
 
-132
+189
 
-<!-- page 133 -->
+<!-- page 190 -->
 
 ---
 PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
@@ -6203,9 +8343,9 @@ exemplo. 3. Que recurso há em «Ó mar salgado!»? 4. Escande «Valeu a pena? T
 GRUPO II · GRAMÁTICA: 5. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» 6. Passa para a
 passiva: «Os alunos escreveram poemas.»
 
-133
+190
 
-<!-- page 134 -->
+<!-- page 191 -->
 
 ---
 PORTUGUÊS Y7 · RECURSOS
@@ -6232,13 +8372,9 @@ para o Year 8.
 
 Prime School Press · www.primeschool.pt
 
-134
+191
 
-<!-- page 135 -->
-
----
-
-<!-- page 136 -->
+<!-- page 192 -->
 
 ---
 **P R I M E  B O O K S**

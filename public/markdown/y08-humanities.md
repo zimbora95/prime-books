@@ -13,19 +13,68 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Humanities
+**P R I M E  S C H O O L  P R E S S**
 
-Year 8
+## Humanities
 
-Cambridge Lower Secondary
+**Year 8 · Student Book**
 
-Student Book · Prime Books
+Learn to read the world.
 
-ABOUT TH I S BOOK
-Civilisations, empires and the medieval world. Twenty chapters in five parts run from map skills
-and landforms through Greece, Alexander, Rome and medieval Europe to stronger monarchies
-and national identity. Portugal appears inside the global story, never as a chapter of its own.
-About 250 pages.
+Civilisations, empires and the medieval world. Twenty chapters in five parts run from map skills and
+landforms through Greece, Alexander, Rome and medieval Europe to stronger monarchies and national
+identity. Portugal appears inside the global story, never as a chapter of its own. About 250 pages.
+
+**I N S I D E  T H I S  B O O K**
+
+Part one: maps, landforms, population and trade
+
+Part two: Ancient Greece — Athens, Sparta, war
+and ideas
+
+Part three: Alexander and the Hellenistic world
+
+Part four: Rome, from the Republic to the
+Empire
+
+Part five: the medieval world and stronger
+monarchies
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written and typeset in the Prime School
+Press studio, Lisbon.
+
+**CURRICULUM**
+Cambridge Lower Secondary, Stage 8. Ages about 12 to 13.
+
+**LICENCE**
+It is an independent publication and is not an official Cambridge Assessment
+International Education or Oxford University Press publication.
+
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**A g e s  1 2  t o  1 3  ·  L o w e r  S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
+**2**
 
 <!-- page 3 -->
 
@@ -11596,11 +11645,17 @@ legion 120, 123, 131·132, 136, 144
 <!-- page 250 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Humanities
 
-ourse:
+Year 8 · Prime School Press · Student Manual
+
+Learn to read the world.
+
+Year 8 humanities weaves history, geography and citizenship into one course:
+
+sources, maps, case studies and big questions about people and place.
 
 **INSIDE THIS BOOK**
 
@@ -11619,10 +11674,8 @@ Skills practice: sources, data, essays
 •
 Unit reviews with model answers
 
-**Prime Books · Humanities**
+**Prime School Press · Humanities**
 
 Ages 12–13 · Lower Secondary
 
 **primeschool.pt**
-
-Student Manual

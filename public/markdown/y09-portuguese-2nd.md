@@ -13,96 +13,69 @@ Student Manual
 <!-- page 2 -->
 
 ---
-PORTUGUÊS 2.ª LÍNGUA · YEAR 9 · ÍNDICE
+**P R I M E  S C H O O L  P R E S S**
 
-Prime School Press · www.primeschool.pt
+## Portuguese 2nd
+
+**Year 9 · Student Manual**
+
+Português de verdade, passo a passo.
+
+Português Língua Segunda para o Year 9: comunicação do dia a dia, textos autênticos e gramática que
+cresce aos poucos.
+
+**I N S I D E  T H I S  B O O K**
+
+Unidades por temas do quotidiano
+
+Diálogos e textos autênticos
+
+Gramática apresentada e revista
+
+Cultura portuguesa e lusófona
+
+Listas de vocabulário e revisões
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written and typeset in the Prime School
+Press studio, Lisbon.
+
+**CURRICULUM**
+Follows the Cambridge Lower Secondary Portuguese (Second Language) scheme of
+work, Stage 9. Ages about 13 to 14.
+
+**LICENCE**
+It is an independent publication and is not an official Cambridge Assessment
+International Education or Oxford University Press publication.
+
+**LANGUAGE**
+European Portuguese (norma europeia): metric measurements, prices in euros, the
+24-hour clock, and Portuguese spelling as used in Portugal.
+
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**A g e s  1 3  t o  1 4  ·  L o w e r  S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
 **2**
-
-## Índice
-
-**Lição 1**
-Presente do Indicativo: regulares e irregulares
-**5**
-
-**Lição 2**
-Rotinas pessoais e profissionais
-**8**
-
-**Lição 3**
-Conjugação pronominal reflexa
-**11**
-
-**Lição 4**
-Entoação: declarativas e interrogativas
-**14**
-
-**Lição 5**
-Usos e contracção do artigo definido
-**17**
-
-**Lição 6**
-Pretérito perfeito simples: regulares
-**20**
-
-**TESTE 1**
-
-**24**
-
-**Lição 7**
-Pretérito imperfeito: desejos
-**25**
-
-**Lição 8**
-Perfeito de ser, ter, estar e fazer
-**28**
-
-**Lição 9**
-Lazer e desporto
-**31**
-
-**Lição 10**
-Perfeito simples: irregulares
-**34**
-
-**Lição 11**
-Usos de já e ainda não
-**37**
-
-**Lição 12**
-Que e qual/quais
-**40**
-
-**Lição 13**
-Pronomes de complemento directo e indirecto
-**43**
-
-**Lição 14**
-Sons de E e A
-**46**
-
-**TESTE 2**
-
-**50**
-
-**Lição 15**
-Espaços do quotidiano
-**52**
-
-**Lição 16**
-Pretérito imperfeito: formação e usos
-**55**
-
-**Lição 17**
-Grau superlativo dos adjectivos
-**58**
-
-**Lição 18**
-Alterações dos pronomes de CD
-**61**
-
-**Lição 19**
-Usos de mesmo: demonstrativo e advérbio
-**64**
 
 <!-- page 3 -->
 
@@ -110,59 +83,180 @@ Usos de mesmo: demonstrativo e advérbio
 PORTUGUÊS 2.ª LÍNGUA · YEAR 9 · ÍNDICE
 
 Prime School Press · www.primeschool.pt
+
+## Índice
+
+**Lição 1**
+Presente do Indicativo: regulares e irregulares
+
+**Lição 2**
+Rotinas pessoais e profissionais
+
+**Lição 3**
+Conjugação pronominal reflexa
+
+**Lição 4**
+Entoação: declarativas e interrogativas
+
+**Lição 5**
+Usos e contracção do artigo definido
+
+**Lição 6**
+Pretérito perfeito simples: regulares
+
+**TESTE 1**
+
+**Lição 7**
+Pretérito imperfeito: desejos
+
+**Lição 8**
+Perfeito de ser, ter, estar e fazer
+
+**Lição 9**
+Lazer e desporto
+
+**Lição 10**
+Perfeito simples: irregulares
+
+**Lição 11**
+Usos de já e ainda não
+
+**Lição 12**
+Que e qual/quais
+
+**Lição 13**
+Pronomes de complemento directo e indirecto
+
+**Lição 14**
+Sons de E e A
+
+**TESTE 2**
+
+**Lição 15**
+Espaços do quotidiano
+
+**Lição 16**
+Pretérito imperfeito: formação e usos
+
+**Lição 17**
+Grau superlativo dos adjectivos
+
+**Lição 18**
+Alterações dos pronomes de CD
+
+**Lição 19**
+Usos de mesmo: demonstrativo e advérbio
+
 **3**
+
+**6**
+
+**9**
+
+**12**
+
+**15**
+
+**18**
+
+**21**
+
+**25**
+
+**26**
+
+**29**
+
+**32**
+
+**35**
+
+**38**
+
+**41**
+
+**44**
+
+**47**
+
+**51**
+
+**53**
+
+**56**
+
+**59**
+
+**62**
+
+**65**
+
+<!-- page 4 -->
+
+---
+PORTUGUÊS 2.ª LÍNGUA · YEAR 9 · ÍNDICE
+
+Prime School Press · www.primeschool.pt
 
 **Lição 20**
 Mesmo na prática: expressões
-**67**
 
 **TESTE 3**
 
-**71**
-
 **Lição 21**
 Hábitos gastronómicos
-**72**
 
 **Lição 22**
 Quantificadores universais
-**75**
 
 **Lição 23**
 Colocação dos pronomes CD e CI
-**78**
 
 **Lição 24**
 Plural das palavras em -ão
-**81**
 
 **Lição 25**
 Imperativo informal
-**84**
 
 **Lição 26**
 Compras físicas e digitais
-**87**
 
 **TESTE 4**
 
-**91**
-
 **ATIVIDADES 1 · Projeto de grupo**
-
-**92**
 
 **ATIVIDADES 2 · Projeto de grupo**
 
+**4**
+
+**68**
+
+**72**
+
+**73**
+
+**76**
+
+**79**
+
+**82**
+
+**85**
+
+**88**
+
+**92**
+
 **93**
 
-<!-- page 4 -->
+**94**
+
+<!-- page 5 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · YEAR 9
 
 Prime School Press · www.primeschool.pt
-**4**
 
 ## Bem-vindo ao teu manual
 
@@ -200,13 +294,14 @@ aprender. Bom ano, e boa descoberta!
 • Uma página de Trabalho de Casa no fim de cada lição
 • Verbos, frases-modelo e glossário para consulta rápida
 
-<!-- page 5 -->
+**5**
+
+<!-- page 6 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 1
 
 Prime School Press · www.primeschool.pt
-**5**
 
 **Lição 1 · Presente do Indicativo: verbos regulares e irregulares**
 
@@ -283,13 +378,14 @@ eles têm
 eles estão
 eles vão
 
-<!-- page 6 -->
+**6**
+
+<!-- page 7 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 1
 
 Prime School Press · www.primeschool.pt
-**6**
 
 **Professora**
 O que fazes aos sábados, Rui?
@@ -314,13 +410,14 @@ Completa: Ele ______ (ir) ao cinema e ela ______ (estar) em casa.
 
 Lisboa de manhã: a cidade acordar. Que rotinas ves nesta fotografia?
 
-<!-- page 7 -->
+**7**
+
+<!-- page 8 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**7**
 
 **Trabalho de Casa · Presente do Indicativo: verbos regulares e**
 **irregulares**
@@ -341,13 +438,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 8 -->
+**8**
+
+<!-- page 9 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 2
 
 Prime School Press · www.primeschool.pt
-**8**
 
 ## Lição 2 · Rotinas pessoais e profissionais
 
@@ -396,13 +494,14 @@ Ele raramente chega atrasado.
 nunca
 Eu nunca falto às aulas.
 
-<!-- page 9 -->
+**9**
+
+<!-- page 10 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 2
 
 Prime School Press · www.primeschool.pt
-**9**
 
 **Jornalista**
 Boa tarde. Qual é a sua profissão?
@@ -427,13 +526,14 @@ Escreve três frases com advérbios de frequência diferentes.
 
 Um mercado tradicional em Portugal: as profissões do quotidiano.
 
-<!-- page 10 -->
+**10**
+
+<!-- page 11 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**10**
 
 ## Trabalho de Casa · Rotinas pessoais e profissionais
 
@@ -453,13 +553,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 11 -->
+**11**
+
+<!-- page 12 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 3
 
 Prime School Press · www.primeschool.pt
-**11**
 
 **Lição 3 · Conjugação pronominal reflexa: a colocação do pronome**
 
@@ -510,13 +611,14 @@ levanto cedo. / Nunca se deita tarde. / Onde te lavas? Depois do verbo (ênclise
 
 quando a frase começa pelo verbo: Levanto-me às sete.
 
-<!-- page 12 -->
+**12**
+
+<!-- page 13 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 3
 
 Prime School Press · www.primeschool.pt
-**12**
 
 **Mãe**
 A que horas te levantas, ao domingo?
@@ -541,13 +643,14 @@ Escreve três frases com verbos reflexos sobre a tua manhã.
 
 Uma criança a lavar os dentes: a rotina reflexiva de cada manhã.
 
-<!-- page 13 -->
+**13**
+
+<!-- page 14 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**13**
 
 **Trabalho de Casa · Conjugação pronominal reflexa: a colocação do**
 **pronome**
@@ -568,13 +671,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 14 -->
+**14**
+
+<!-- page 15 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 4
 
 Prime School Press · www.primeschool.pt
-**14**
 
 **Lição 4 · Entoação de frases declarativas e interrogativas**
 
@@ -618,13 +722,14 @@ Vocês são do Year 9?
 **Professor**
 Perfeito! A entoação é a pontuação invisível da fala.
 
-<!-- page 15 -->
+**15**
+
+<!-- page 16 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 4
 
 Prime School Press · www.primeschool.pt
-**15**
 
 Lê em voz alta as frases do quadro: primeiro afirma, depois pergunta.
 
@@ -634,13 +739,14 @@ Junta-te a um colega: ele lê uma frase e tu dizes se é afirmação ou pergunta
 
 Dois amigos a conversar: a entoação sobe quando perguntamos.
 
-<!-- page 16 -->
+**16**
+
+<!-- page 17 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**16**
 
 **Trabalho de Casa · Entoação de frases declarativas e interrogativas**
 
@@ -660,13 +766,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 17 -->
+**17**
+
+<!-- page 18 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 5
 
 Prime School Press · www.primeschool.pt
-**17**
 
 ## Lição 5 · Usos e contracção do artigo definido
 
@@ -717,13 +824,14 @@ ensinava-me: a fruta boa é a que pesa na mão, o pão bom é o que estala quand
 
 parte.»
 
-<!-- page 18 -->
+**18**
+
+<!-- page 19 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 5
 
 Prime School Press · www.primeschool.pt
-**18**
 
 **Tomás**
 Vamos ao parque depois das aulas?
@@ -745,13 +853,14 @@ Escreve cinco frases usando contracções diferentes.
 
 A livraria Bertrand, em Lisboa: a livraria mais antiga do mundo em funcionamento.
 
-<!-- page 19 -->
+**19**
+
+<!-- page 20 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**19**
 
 **Trabalho de Casa · Usos e contracção do artigo definido**
 
@@ -771,13 +880,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 20 -->
+**20**
+
+<!-- page 21 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 6
 
 Prime School Press · www.primeschool.pt
-**20**
 
 ## Lição 6 · Pretérito Perfeito Simples: verbos regulares
 
@@ -832,13 +942,14 @@ nada. Aquele dia não me deixou qualquer lembrança precisa — e no entanto é 
 
 dos poucos de que me lembro inteiramente.»
 
-<!-- page 21 -->
+**21**
+
+<!-- page 22 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 6
 
 Prime School Press · www.primeschool.pt
-**21**
 
 **Ana**
 O que fizeste no fim-de-semana? — ops, o que fizeste... e tu, Rui?
@@ -863,13 +974,14 @@ Muda as frases do presente para o perfeito: Eu como bem. → ______
 
 O passado na rua: um problema de matemática resolvido a giz.
 
-<!-- page 22 -->
+**22**
+
+<!-- page 23 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**22**
 
 **Trabalho de Casa · Pretérito Perfeito Simples: verbos regulares**
 
@@ -889,13 +1001,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 23 -->
+**23**
+
+<!-- page 24 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · PREPARA O TESTE 1
 
 Prime School Press · www.primeschool.pt
-**23**
 
 ## Prepara o Teste 1
 
@@ -924,13 +1037,14 @@ Explica a um colega, em português, a regra gramatical que achas mais difícil d
 
 lições. Depois escreve-a com as tuas palavras (4 a 6 linhas).
 
-<!-- page 24 -->
+**24**
+
+<!-- page 25 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TESTE 1
 
 Prime School Press · www.primeschool.pt
-**24**
 
 ## Teste 1 · Lições 1 a 6
 
@@ -960,13 +1074,14 @@ Completa: Nós ______ (estudar) muito ontem.
 
 Escreve três frases sobre ontem no pretérito perfeito.
 
-<!-- page 25 -->
+**25**
+
+<!-- page 26 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 7
 
 Prime School Press · www.primeschool.pt
-**25**
 
 ## Lição 7 · Pretérito Imperfeito: expressing desejos
 
@@ -1012,13 +1127,14 @@ Temos, sim. Recomendo!
 **Cliente**
 Então queria também uma fatia.
 
-<!-- page 26 -->
+**26**
+
+<!-- page 27 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 7
 
 Prime School Press · www.primeschool.pt
-**26**
 
 Florbela Espanca, «Livro de Mágoas» (1919): «Quando era pequena queria ser tudo
 
@@ -1038,13 +1154,14 @@ Completa: Se eu fosse famoso, ______ (comprar) uma ilha.
 
 O Tejo ao pôr do sol: os desejos escrevem-se na água.
 
-<!-- page 27 -->
+**27**
+
+<!-- page 28 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**27**
 
 **Trabalho de Casa · Pretérito Imperfeito: expressing desejos**
 
@@ -1064,13 +1181,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 28 -->
+**28**
+
+<!-- page 29 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 8
 
 Prime School Press · www.primeschool.pt
-**28**
 
 ## Lição 8 · Pretérito Perfeito de ser, ter, estar e fazer
 
@@ -1127,13 +1245,14 @@ noite dentro fizémos fogueiras na areia. Foi bom, foi bom... Eu estava feliz se
 
 — só agora, escrevendo-te, é que percebo que fui feliz.»
 
-<!-- page 29 -->
+**29**
+
+<!-- page 30 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 8
 
 Prime School Press · www.primeschool.pt
-**29**
 
 **Marta**
 Onde estiveste nas férias?
@@ -1158,13 +1277,14 @@ Escreve quatro frases, uma com cada verbo: ser, ter, estar, fazer.
 
 Uma praia do Algarve: onde o Verão fica na memória.
 
-<!-- page 30 -->
+**30**
+
+<!-- page 31 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**30**
 
 **Trabalho de Casa · Pretérito Perfeito de ser, ter, estar e fazer**
 
@@ -1184,13 +1304,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 31 -->
+**31**
+
+<!-- page 32 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 9
 
 Prime School Press · www.primeschool.pt
-**31**
 
 ## Lição 9 · Lazer e desporto
 
@@ -1239,13 +1360,14 @@ pobres de tudo, mas éramos ricos de pernas e de gritos. A vida pedia-nos pouco,
 
 nós dávamos-lhe tudo o que tínhamos.»
 
-<!-- page 32 -->
+**32**
+
+<!-- page 33 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 9
 
 Prime School Press · www.primeschool.pt
-**32**
 
 **Professora**
 Que actividades desportivas gostam mais?
@@ -1270,13 +1392,14 @@ Escreve um parágrafo: "O desporto na minha vida".
 
 O Estádio do Dragão, no Porto: o futebol une o país.
 
-<!-- page 33 -->
+**33**
+
+<!-- page 34 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**33**
 
 ## Trabalho de Casa · Lazer e desporto
 
@@ -1296,13 +1419,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 34 -->
+**34**
+
+<!-- page 35 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 10
 
 Prime School Press · www.primeschool.pt
-**34**
 
 ## Lição 10 · Pretérito Perfeito: verbos irregulares
 
@@ -1361,13 +1485,14 @@ apenas: obrigada por ainda estarem. E eu guardei essa frase como se guarda um
 
 retrato: para olhar quando a saudade aperta.»
 
-<!-- page 35 -->
+**35**
+
+<!-- page 36 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 10
 
 Prime School Press · www.primeschool.pt
-**35**
 
 **Mãe**
 Quem pôs a mesa?
@@ -1389,13 +1514,14 @@ Escreve três frases sobre ontem com verbos irregulares.
 
 As ondas gigantes da Nazaré: um recorde mundial português.
 
-<!-- page 36 -->
+**36**
+
+<!-- page 37 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**36**
 
 **Trabalho de Casa · Pretérito Perfeito: verbos irregulares**
 
@@ -1415,13 +1541,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 37 -->
+**37**
+
+<!-- page 38 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 11
 
 Prime School Press · www.primeschool.pt
-**37**
 
 ## Lição 11 · Já e ainda não
 
@@ -1471,13 +1598,14 @@ Já lavaste a louça?
 **Pai**
 Sim, já lavei. Anda comer, anda!
 
-<!-- page 38 -->
+**38**
+
+<!-- page 39 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 11
 
 Prime School Press · www.primeschool.pt
-**38**
 
 Fernando Pessoa, «O Livro do Desassossego» (Bernardo Soares): «Já não espero
 
@@ -1495,13 +1623,14 @@ Escreve três frases sobre coisas que ainda não fizeste na vida.
 
 Uma estação de comboios: o tempo de quem espera e o de quem já chegou.
 
-<!-- page 39 -->
+**39**
+
+<!-- page 40 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**39**
 
 ## Trabalho de Casa · Já e ainda não
 
@@ -1521,13 +1650,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 40 -->
+**40**
+
+<!-- page 41 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 12
 
 Prime School Press · www.primeschool.pt
-**40**
 
 **Lição 12 · O interrogativo "que" e os interrogativos "qual" e "quais"**
 
@@ -1581,13 +1711,14 @@ E quais são as tuas notas melhores?
 **Rui**
 Biologia e química, claro!
 
-<!-- page 41 -->
+**41**
+
+<!-- page 42 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 12
 
 Prime School Press · www.primeschool.pt
-**41**
 
 Completa: ______ dos dois irmãos é mais novo?
 
@@ -1597,13 +1728,14 @@ Escreve três perguntas com "que" e três com "qual" ou "quais".
 
 O Rossio, em Lisboa: que perguntas farias nesta praça?
 
-<!-- page 42 -->
+**42**
+
+<!-- page 43 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**42**
 
 **Trabalho de Casa · O interrogativo "que" e os interrogativos "qual" e**
 **"quais"**
@@ -1624,13 +1756,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 43 -->
+**43**
+
+<!-- page 44 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 13
 
 Prime School Press · www.primeschool.pt
-**43**
 
 **Lição 13 · Pronomes de complemento directo e indirecto**
 
@@ -1673,13 +1806,14 @@ Telefonas-lhes?
 Dou um presente à Ana.
 Dou-lhe um presente.
 
-<!-- page 44 -->
+**44**
+
+<!-- page 45 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 13
 
 Prime School Press · www.primeschool.pt
-**44**
 
 **Marta**
 Escreveste ao Tomás?
@@ -1707,13 +1841,14 @@ Escreve três frases completas e a versão com pronome.
 
 Um café de bairro: quem serve e a quem servimos.
 
-<!-- page 45 -->
+**45**
+
+<!-- page 46 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**45**
 
 **Trabalho de Casa · Pronomes de complemento directo e indirecto**
 
@@ -1733,13 +1868,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 46 -->
+**46**
+
+<!-- page 47 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 14
 
 Prime School Press · www.primeschool.pt
-**46**
 
 ## Lição 14 · Os sons de E e A no presente e no perfeito
 
@@ -1779,13 +1915,14 @@ Eles fizeram desporto.
 Nós tomamos chá.
 Nós tomámos chá.
 
-<!-- page 47 -->
+**47**
+
+<!-- page 48 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 14
 
 Prime School Press · www.primeschool.pt
-**47**
 
 **Professora**
 Repete com atenção: "Ele leva a bola." / "Ele levou a bola."
@@ -1810,13 +1947,14 @@ Grava-te a ler as frases do diálogo e ouve com atenção.
 
 Uma aula de música: as vogais também têm melodia.
 
-<!-- page 48 -->
+**48**
+
+<!-- page 49 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**48**
 
 **Trabalho de Casa · Os sons de E e A no presente e no perfeito**
 
@@ -1836,13 +1974,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 49 -->
+**49**
+
+<!-- page 50 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · PREPARA O TESTE 2
 
 Prime School Press · www.primeschool.pt
-**49**
 
 ## Prepara o Teste 2
 
@@ -1872,13 +2011,14 @@ Explica a um colega, em português, a regra gramatical que achas mais difícil d
 
 lições. Depois escreve-a com as tuas palavras (4 a 6 linhas).
 
-<!-- page 50 -->
+**50**
+
+<!-- page 51 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TESTE 2
 
 Prime School Press · www.primeschool.pt
-**50**
 
 ## Teste 2 · Lições 7 a 14
 
@@ -1910,13 +2050,14 @@ Substitui: "Vês o Tomás?" → ______
 
 Substitui: "Escrevo aos meus pais." → ______
 
-<!-- page 51 -->
+**51**
+
+<!-- page 52 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TESTE 2
 
 Prime School Press · www.primeschool.pt
-**51**
 
 Escolhe bem o interrogativo.
 
@@ -1924,13 +2065,14 @@ Completa: ______ destes doces preferes?
 
 Completa: ______ é o teu passatempo favorito?
 
-<!-- page 52 -->
+**52**
+
+<!-- page 53 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 15
 
 Prime School Press · www.primeschool.pt
-**52**
 
 ## Lição 15 · Espaços do quotidiano
 
@@ -1980,13 +2122,14 @@ bairro tem a sua hora, a sua gente, o seu deus pequeno. Alfama de manhã é uma
 
 oração; o Chiado ao cair da tarde é uma conversa.»
 
-<!-- page 53 -->
+**53**
+
+<!-- page 54 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 15
 
 Prime School Press · www.primeschool.pt
-**53**
 
 **Novo vizinho**
 Boa tarde! Há por aqui uma padaria?
@@ -2014,13 +2157,14 @@ Desenha um mapa do teu bairro e escreve as legendas em português.
 
 Alfama, em Lisboa: o bairro das ruas estreitas.
 
-<!-- page 54 -->
+**54**
+
+<!-- page 55 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**54**
 
 ## Trabalho de Casa · Espaços do quotidiano
 
@@ -2040,13 +2184,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 55 -->
+**55**
+
+<!-- page 56 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 16
 
 Prime School Press · www.primeschool.pt
-**55**
 
 ## Lição 16 · Pretérito Imperfeito: formação e usos
 
@@ -2114,13 +2259,14 @@ nós tínhamos
 nós íamos
 nós púnhamos
 
-<!-- page 56 -->
+**56**
+
+<!-- page 57 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 16
 
 Prime School Press · www.primeschool.pt
-**56**
 
 Vergílio Ferreira: «Quando os meus pais eram novos não havia pressas. As pessoas
 
@@ -2158,13 +2304,14 @@ Muda para o imperfeito: "Eu estudo todos os dias." → ______
 
 Uma carta antiga: quando não havia telemóveis.
 
-<!-- page 57 -->
+**57**
+
+<!-- page 58 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**57**
 
 **Trabalho de Casa · Pretérito Imperfeito: formação e usos**
 
@@ -2184,13 +2331,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 58 -->
+**58**
+
+<!-- page 59 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 17
 
 Prime School Press · www.primeschool.pt
-**58**
 
 ## Lição 17 · Grau superlativo dos adjectivos
 
@@ -2243,13 +2391,14 @@ mundo quebrando na Nazaré, a saudade mais antiga do que o próprio nome. Um pa�
 
 geração, à mesa e à lareira.»
 
-<!-- page 59 -->
+**59**
+
+<!-- page 60 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 17
 
 Prime School Press · www.primeschool.pt
-**59**
 
 Transforma em sintético: "um bolo muito bom" → "um bolo ______"
 
@@ -2257,13 +2406,14 @@ Completa: bom → ______; mau → ______; grande → ______ (superlativos).
 
 As ondas da Nazaré: as maiores do mundo.
 
-<!-- page 60 -->
+**60**
+
+<!-- page 61 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**60**
 
 ## Trabalho de Casa · Grau superlativo dos adjectivos
 
@@ -2283,13 +2433,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 61 -->
+**61**
+
+<!-- page 62 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 18
 
 Prime School Press · www.primeschool.pt
-**61**
 
 **Lição 18 · Alterações dos pronomes pessoais de complemento**
 **directo**
@@ -2334,13 +2485,14 @@ as figuras, mas nunca a coreografia se perde. Falar é isto: dançar a frase at�
 
 assentar no chão.»
 
-<!-- page 62 -->
+**62**
+
+<!-- page 63 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 18
 
 Prime School Press · www.primeschool.pt
-**62**
 
 **Marta**
 Fizeste o cartaz?
@@ -2368,13 +2520,14 @@ Escreve três frases usando lo/la/los/las ou no/na/nos/nas.
 
 Duas crianças a entregar um presente: o objecto passa de mão em mão.
 
-<!-- page 63 -->
+**63**
+
+<!-- page 64 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**63**
 
 **Trabalho de Casa · Alterações dos pronomes pessoais de**
 **complemento directo**
@@ -2395,13 +2548,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 64 -->
+**64**
+
+<!-- page 65 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 19
 
 Prime School Press · www.primeschool.pt
-**64**
 
 ## Lição 19 · Usos de "mesmo": demonstrativo e advérbio
 
@@ -2448,13 +2602,14 @@ absolutamente diferentes: um olhava o rio, o outro olhava as pessoas. As
 
 semelhanças são só a superfície das coisas.»
 
-<!-- page 65 -->
+**65**
+
+<!-- page 66 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 19
 
 Prime School Press · www.primeschool.pt
-**65**
 
 **Cliente**
 O senhor esteve aqui ontem, não?
@@ -2479,13 +2634,14 @@ Substitui: "realmente" e "ainda que" por "mesmo" em frases tuas.
 
 Uma padaria de bairro: sempre a mesma, sempre diferente.
 
-<!-- page 66 -->
+**66**
+
+<!-- page 67 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**66**
 
 **Trabalho de Casa · Usos de "mesmo": demonstrativo e advérbio**
 
@@ -2505,13 +2661,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 67 -->
+**67**
+
+<!-- page 68 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 20
 
 Prime School Press · www.primeschool.pt
-**67**
 
 ## Lição 20 · "Mesmo" na prática: revisão e alargamento
 
@@ -2556,13 +2713,14 @@ A sala estava cheia; mesmo assim, a madrinha arranjou-nos dois lugares. E quando
 
 as luzes se apagaram percebi que a noite não se repetia: era a mesma, e era outra.»
 
-<!-- page 68 -->
+**68**
+
+<!-- page 69 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 20
 
 Prime School Press · www.primeschool.pt
-**68**
 
 **Sofia**
 Correste a maratona com febre?
@@ -2590,13 +2748,14 @@ Explica a diferença entre "mesmo assim" e "mesmo que" com exemplos.
 
 Um concerto ao ar livre: a mesma música, outra noite.
 
-<!-- page 69 -->
+**69**
+
+<!-- page 70 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**69**
 
 **Trabalho de Casa · "Mesmo" na prática: revisão e alargamento**
 
@@ -2616,13 +2775,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 70 -->
+**70**
+
+<!-- page 71 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · PREPARA O TESTE 3
 
 Prime School Press · www.primeschool.pt
-**70**
 
 ## Prepara o Teste 3
 
@@ -2652,13 +2812,14 @@ Explica a um colega, em português, a regra gramatical que achas mais difícil d
 
 lições. Depois escreve-a com as tuas palavras (4 a 6 linhas).
 
-<!-- page 71 -->
+**71**
+
+<!-- page 72 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TESTE 3
 
 Prime School Press · www.primeschool.pt
-**71**
 
 ## Teste 3 · Lições 15 a 20
 
@@ -2690,13 +2851,14 @@ Classifica: "O mesmo filme" / "É mesmo bom!"
 
 Escreve uma frase com "mesmo assim".
 
-<!-- page 72 -->
+**72**
+
+<!-- page 73 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 21
 
 Prime School Press · www.primeschool.pt
-**72**
 
 ## Lição 21 · Hábitos gastronómicos
 
@@ -2743,13 +2905,14 @@ ter pressa: a mesa é o país mais pequeno de Portugal e talvez o mais bem
 
 guardado.»
 
-<!-- page 73 -->
+**73**
+
+<!-- page 74 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 21
 
 Prime School Press · www.primeschool.pt
-**73**
 
 **Empregado**
 Boa tarde! O que desejam comer?
@@ -2780,13 +2943,14 @@ Pergunta a dois colegas: "Qual é o teu prato favorito?" e escreve as respostas.
 
 A mesa portuguesa: caldo verde e pão de milho.
 
-<!-- page 74 -->
+**74**
+
+<!-- page 75 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**74**
 
 ## Trabalho de Casa · Hábitos gastronómicos
 
@@ -2806,13 +2970,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 75 -->
+**75**
+
+<!-- page 76 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 22
 
 Prime School Press · www.primeschool.pt
-**75**
 
 **Lição 22 · Quantificadores universais: todo, nenhum, cada,**
 **qualquer, ambos**
@@ -2859,13 +3024,14 @@ as filhas a ajudavam ao sábado. Todo o trabalho é digno, dizia ela, e todo o c
 
 rei.»
 
-<!-- page 76 -->
+**76**
+
+<!-- page 77 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 22
 
 Prime School Press · www.primeschool.pt
-**76**
 
 **Diretor**
 Todos os alunos devem entregar a autorização.
@@ -2893,13 +3059,14 @@ Explica a diferença entre "todo o dia" e "cada dia".
 
 Uma mercearia antiga: cada cliente, um nome.
 
-<!-- page 77 -->
+**77**
+
+<!-- page 78 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**77**
 
 **Trabalho de Casa · Quantificadores universais: todo, nenhum, cada,**
 **qualquer, ambos**
@@ -2920,13 +3087,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 78 -->
+**78**
+
+<!-- page 79 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 23
 
 Prime School Press · www.primeschool.pt
-**78**
 
 **Lição 23 · Colocação dos pronomes de complemento directo e**
 **indirecto**
@@ -2971,13 +3139,14 @@ diante: não o comprei, já o vi, onde o compraste? A frase procura sempre o seu
 
 equilíbrio, e a língua sabe de cor as leis dessa física.»
 
-<!-- page 79 -->
+**79**
+
+<!-- page 80 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 23
 
 Prime School Press · www.primeschool.pt
-**79**
 
 **Marta**
 Enviaste-lhe o email ontem?
@@ -3005,13 +3174,14 @@ Escreve três pares de frases (ênclise / próclise).
 
 Uma travessia de peões: quem passa primeiro?
 
-<!-- page 80 -->
+**80**
+
+<!-- page 81 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**80**
 
 **Trabalho de Casa · Colocação dos pronomes de complemento**
 **directo e indirecto**
@@ -3032,13 +3202,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 81 -->
+**81**
+
+<!-- page 82 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 24
 
 Prime School Press · www.primeschool.pt
-**81**
 
 ## Lição 24 · Plural das palavras terminadas em -ão
 
@@ -3087,13 +3258,14 @@ que decide, como decide os rostos e as vinhas. Aprender os plurais é aprender a
 
 idade das palavras.»
 
-<!-- page 82 -->
+**82**
+
+<!-- page 83 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 24
 
 Prime School Press · www.primeschool.pt
-**82**
 
 **Cliente**
 Boa tarde! Queria dois pães e um bolo, por favor.
@@ -3121,13 +3293,14 @@ Procura cinco palavras em -ão num livro e classifica o plural de cada uma.
 
 Cães a brincar no parque: um, dois, três... cães.
 
-<!-- page 83 -->
+**83**
+
+<!-- page 84 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**83**
 
 **Trabalho de Casa · Plural das palavras terminadas em -ão**
 
@@ -3147,13 +3320,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 84 -->
+**84**
+
+<!-- page 85 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 25
 
 Prime School Press · www.primeschool.pt
-**84**
 
 ## Lição 25 · Imperativo informal
 
@@ -3210,13 +3384,14 @@ tempo. Polvilha com canela. Serve morno. E come um à socapa, de pé, junto ao f
 
 — é assim que ele sabe melhor.»
 
-<!-- page 85 -->
+**85**
+
+<!-- page 86 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 25
 
 Prime School Press · www.primeschool.pt
-**85**
 
 **Miguel**
 Ensina-me esse jogo de cartas!
@@ -3244,13 +3419,14 @@ Escreve três conselhos para um colega usando o imperativo.
 
 Pastéis de nata a sair do forno: segue a receita!
 
-<!-- page 86 -->
+**86**
+
+<!-- page 87 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**86**
 
 ## Trabalho de Casa · Imperativo informal
 
@@ -3270,13 +3446,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 87 -->
+**87**
+
+<!-- page 88 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 26
 
 Prime School Press · www.primeschool.pt
-**87**
 
 ## Lição 26 · Compras em espaços físicos e digitais
 
@@ -3319,13 +3496,14 @@ com desconto, preenche a morada de entrega, escolhe o pagamento (cartão, MB Way
 
 referência) e confirma. Depois segue o rastreio da encomenda até à porta de casa.
 
-<!-- page 88 -->
+**88**
+
+<!-- page 89 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LIÇÃO 26
 
 Prime School Press · www.primeschool.pt
-**88**
 
 **Filha**
 Mãe, posso comprar este livro online? Está com desconto!
@@ -3355,13 +3533,14 @@ Compara em duas frases: comprar numa loja física e comprar online.
 
 Uma livraria online na pantalla do telemóvel: as compras de hoje.
 
-<!-- page 89 -->
+**89**
+
+<!-- page 90 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TRABALHO DE CASA
 
 Prime School Press · www.primeschool.pt
-**89**
 
 **Trabalho de Casa · Compras em espaços físicos e digitais**
 
@@ -3381,13 +3560,14 @@ Explica a um familiar, em português, o que aprendeste nesta lição. Depois esc
 
 pequeno parágrafo (5 a 6 linhas) sobre essa conversa.
 
-<!-- page 90 -->
+**90**
+
+<!-- page 91 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · PREPARA O TESTE 4
 
 Prime School Press · www.primeschool.pt
-**90**
 
 ## Prepara o Teste 4
 
@@ -3417,13 +3597,14 @@ Explica a um colega, em português, a regra gramatical que achas mais difícil d
 
 lições. Depois escreve-a com as tuas palavras (4 a 6 linhas).
 
-<!-- page 91 -->
+**91**
+
+<!-- page 92 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · TESTE 4
 
 Prime School Press · www.primeschool.pt
-**91**
 
 ## Teste 4 · Lições 21 a 26
 
@@ -3453,13 +3634,14 @@ Transforma em imperativo negativo: "tu comes depressa" → ______
 
 Escreve dois conselhos para estudar bem.
 
-<!-- page 92 -->
+**92**
+
+<!-- page 93 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · ACTIVIDADES
 
 Prime School Press · www.primeschool.pt
-**92**
 
 ## Atividades 1 · Projeto de grupo
 
@@ -3483,13 +3665,14 @@ O que aprendeste com os teus colegas nesta actividade?
 
 Que palavra nova usaste mais vezes?
 
-<!-- page 93 -->
+**93**
+
+<!-- page 94 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · ACTIVIDADES
 
 Prime School Press · www.primeschool.pt
-**93**
 
 ## Atividades 2 · Projeto de grupo
 
@@ -3517,13 +3700,14 @@ O que aprendeste com os teus colegas nesta actividade?
 
 Que palavra nova usaste mais vezes?
 
-<!-- page 94 -->
+**94**
+
+<!-- page 95 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LEITURAS
 
 Prime School Press · www.primeschool.pt
-**94**
 
 ## Sala de Leitura 1 · O quotidiano
 
@@ -3557,13 +3741,14 @@ O que fez o Tomás no treino?
 
 Que dificuldade tem o Tomás com o português?
 
-<!-- page 95 -->
+**95**
+
+<!-- page 96 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · LEITURAS
 
 Prime School Press · www.primeschool.pt
-**95**
 
 ## Sala de Leitura 2 · Desporto e compras
 
@@ -3597,13 +3782,14 @@ Quanto custou a encomenda e quando foi enviada?
 
 Quantos dias tem o cliente para devolver um artigo?
 
-<!-- page 96 -->
+**96**
+
+<!-- page 97 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · VOCABULÁRIO
 
 Prime School Press · www.primeschool.pt
-**96**
 
 ## Vocabulário temático
 
@@ -3671,13 +3857,14 @@ o tamanho
 a caixa
 o cartão
 
-<!-- page 97 -->
+**97**
+
+<!-- page 98 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · VOCABULÁRIO
 
 Prime School Press · www.primeschool.pt
-**97**
 
 ## Vocabulário temático (continuação)
 
@@ -3731,13 +3918,14 @@ para responder sobre acções
 Aceitam cartão?
 para pagar
 
-<!-- page 98 -->
+**98**
+
+<!-- page 99 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · JOGOS
 
 Prime School Press · www.primeschool.pt
-**98**
 
 ## Jogos de palavras
 
@@ -3763,19 +3951,7 @@ Em pares: um aluno é cliente e fala de um produto sem o nomear ("serve para..."
 
 "usa-se quando..."); o outro adivinha e "compra-o" numa frase completa com pronome.
 
-<!-- page 99 -->
-
----
-PORTUGUÊS 2.ª LÍNGUA · Y9 · DIÁRIO
-
-Prime School Press · www.primeschool.pt
 **99**
-
-## O meu diário de aprendizagem
-
-Depois de cada lição, escreve duas ou três linhas: o que aprendi, o que me
-
-surpreendeu, o que ainda me custa. No fim do ano, vais adorar reler este diário.
 
 <!-- page 100 -->
 
@@ -3783,17 +3959,32 @@ surpreendeu, o que ainda me custa. No fim do ano, vais adorar reler este diário
 PORTUGUÊS 2.ª LÍNGUA · Y9 · DIÁRIO
 
 Prime School Press · www.primeschool.pt
+
+## O meu diário de aprendizagem
+
+Depois de cada lição, escreve duas ou três linhas: o que aprendi, o que me
+
+surpreendeu, o que ainda me custa. No fim do ano, vais adorar reler este diário.
+
 **100**
+
+<!-- page 101 -->
+
+---
+PORTUGUÊS 2.ª LÍNGUA · Y9 · DIÁRIO
+
+Prime School Press · www.primeschool.pt
 
 ## O meu diário de aprendizagem (continuação)
 
-<!-- page 101 -->
+**101**
+
+<!-- page 102 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · AUTO-AVALIAÇÃO
 
 Prime School Press · www.primeschool.pt
-**101**
 
 ## A minha auto-avaliação
 
@@ -3824,13 +4015,14 @@ O meu ponto forte deste ano:
 
 O que quero melhorar no Year 10:
 
-<!-- page 102 -->
+**102**
+
+<!-- page 103 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · VERBOS
 
 Prime School Press · www.primeschool.pt
-**102**
 
 ## Os verbos essenciais
 
@@ -3868,13 +4060,14 @@ traz / trouxe / trazia
 
 trazem / trouxeram / traziam
 
-<!-- page 103 -->
+**103**
+
+<!-- page 104 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · FRASES
 
 Prime School Press · www.primeschool.pt
-**103**
 
 ## Frases para lembrar
 
@@ -3943,13 +4136,14 @@ Baralha as cartas e não as mostres!
 Compras
 Aceitam cartão? Posso devolver em trinta dias?
 
-<!-- page 104 -->
+**104**
+
+<!-- page 105 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · GLOSSÁRIO
 
 Prime School Press · www.primeschool.pt
-**104**
 
 ## Glossário
 
@@ -3998,13 +4192,14 @@ grau máximo: o mais alto, altíssimo
 contracção
 a + o = ao; de + a = da
 
-<!-- page 105 -->
+**105**
+
+<!-- page 106 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · BALANÇO
 
 Prime School Press · www.primeschool.pt
-**105**
 
 ## Balanço do ano
 
@@ -4026,13 +4221,14 @@ O meu objectivo para o Year 10:
 • Fala português sem medo de errar
 • Guarda este manual: a gramática é para a vida
 
-<!-- page 106 -->
+**106**
+
+<!-- page 107 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · PROFESSOR
 
 Prime School Press · www.primeschool.pt
-**106**
 
 ## Nota para o professor
 
@@ -4048,13 +4244,14 @@ participação (30%). As lições de entoação e de sons pedem prática oral em
 
 recomenda-se a leitura dramatizada dos diálogos em pares.
 
-<!-- page 107 -->
+**107**
+
+<!-- page 108 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · CERTIFICADO
 
 Prime School Press · www.primeschool.pt
-**107**
 
 ## CERTIFICADO
 
@@ -4070,28 +4267,33 @@ Assinatura do professor: ____________________
 
 Data: ____________________
 
-<!-- page 108 -->
+**108**
+
+<!-- page 109 -->
 
 ---
 PORTUGUÊS 2.ª LÍNGUA · Y9 · NOTAS
 
 Prime School Press · www.primeschool.pt
-**108**
 
 ## As minhas notas
 
-<!-- page 109 -->
-
----
+**109**
 
 <!-- page 110 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Portuguese 2nd
 
-nicação do dia a dia, textos
+Year 9 · Prime School Press · Student Manual
+
+Português de verdade, passo a passo.
+
+Português Língua Segunda para o Year 9: comunicação do dia a dia, textos
+
+autênticos e gramática que cresce aos poucos.
 
 **INSIDE THIS BOOK**
 
@@ -4110,10 +4312,8 @@ Cultura portuguesa e lusófona
 •
 Listas de vocabulário e revisões
 
-**Prime Books · Portuguese 2nd**
+**Prime School Press · Portuguese 2nd**
 
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
-
-Student Manual
