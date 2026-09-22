@@ -24,7 +24,7 @@
   },
   {
    "Section type": "Subunit",
-   "Title": "1.1 Oralidade: ouvir o essencial",
+   "Title": "1.1 Oralidade: ouvir o essencial (reportagem da RTP)",
    "Page": "5"
   },
   {
@@ -69,23 +69,23 @@
   },
   {
    "Section type": "Subunit",
-   "Title": "1.5 Gramática: classes e subclasses de palavras",
+   "Title": "1.4 Escrita: autobiografia, texto de opinião, carta de apresentação",
    "Page": "22"
   },
   {
    "Section type": "Subunit",
-   "Title": "1.5 Gramática: quantificador universal e existencial",
-   "Page": "24"
+   "Title": "1.4 Escrita: a mesa do editor (revisão)",
+   "Page": "25"
   },
   {
    "Section type": "Subunit",
-   "Title": "1.4 Escrita: autobiografia, texto de opinião, carta de apresentação",
+   "Title": "1.5 Gramática: classes e subclasses de palavras",
    "Page": "26"
   },
   {
    "Section type": "Subunit",
-   "Title": "1.4 Escrita: a mesa do editor (revisão)",
-   "Page": "29"
+   "Title": "1.5 Gramática: quantificador universal e existencial",
+   "Page": "28"
   },
   {
    "Section type": "Subunit",
@@ -99,8 +99,13 @@
   },
   {
    "Section type": "Subunit",
-   "Title": "Soluções e bastidores",
+   "Title": "Soluções",
    "Page": "33"
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Para ir mais longe: códigos QR, glossário e bastidores",
+   "Page": "35"
   }
  ]
 }

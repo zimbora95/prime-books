@@ -1,0 +1,64 @@
+PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
+Português 9.º ano · Unidade 1 · «Um mar, sete vozes» (Textos dos Media)
+slug y09-portuguese-openai
+generated 2026-09-22 22:42 UTC
+
+--------------------------------------------------------------------------
+STEP 1  Add the title on bookvault.app, then enter these specs
+--------------------------------------------------------------------------
+  Binding ............ Perfect bound (paperback)
+  Paper stock ........ Colour interior, 80 gsm uncoated
+  Cover lamination ... Matte
+  Trim size .......... 216 x 279 (US Letter) -- their template v4_Text_279_216.pdf (222 x 285 with 3 mm bleed)
+  Page count ......... 35 (interior only, covers excluded) = 12n-1, as the guide suggests
+  Colour pages ....... 35
+  Mono pages ......... 0
+  ISBN ............... (none yet - BookVault can issue a dummy)
+  Print type ......... Standard
+
+--------------------------------------------------------------------------
+STEP 2  Upload the two files
+--------------------------------------------------------------------------
+  TEXT FILE   y09-portuguese-openai-text-file.pdf
+              35 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  COVER FILE  y09-portuguese-openai-cover-file.pdf
+              440.00 x 285.00 mm = back 216 + spine 2 + front 216 + 3 mm bleed
+              spine 2 mm from 35 pages x 0.056 mm (rounded up) -- CONFIRM on their sizing calculator
+              PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+
+--------------------------------------------------------------------------
+STEP 3  Checks
+--------------------------------------------------------------------------
+  [PASS] Text file page size is 222 x 285 mm
+         222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)
+  [PASS] Bleed is 3 mm on all four edges
+         every page is built at 222 x 285 mm with art to the media edge; TrimBox declared 3 mm inside
+  [PASS] Single pages, portrait
+         35 single pages, portrait
+  [PASS] Live text clears their 20 mm gutter
+         closest live text is 20.4 mm off the gutter; guide p.3 asks for 20 mm
+  [PASS] Live text clears their 5 mm trim safety
+         outer 9.1 · top 7.3 · bottom 6.5 mm from the trim
+  [PASS] Page count is 12n-1
+         35 pages: their barcode page makes 36, a whole number of 12-page sections (guide p.5)
+  [PASS] Cover art not repeated in the interior
+         interior page 1 is a title page; the cover art is printed only on the cover file
+  [PASS] All fonts embedded
+         every font is a real embedded TrueType program (guide p.3)
+  [PASS] No Type 3 glyph-program fonts
+         none
+  [PASS] Images at 300 DPI or more
+         every placed image is >= 300 DPI at its printed size
+  [PASS] No live transparency
+         no soft masks, no blend modes: overlays are baked into the pixels
+  [PASS] PDF/X-1a:2001, CMYK
+         text: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text; cover: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  [PASS] Cover file size
+         440.00 x 285.00 mm = back 216 + spine 2 + front 216 + 3 mm bleed (guide p.18)
+  [OPEN] Spine width confirmed on their sizing calculator
+         2 mm = ceil(0.056 mm x 35 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs
+  [PASS] Barcode zone on the back is clear
+         0.00% ink inside their 38 x 25 mm barcode box
+  [PASS] QR codes open public sites only
+         13 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/

@@ -1,5 +1,5 @@
 # Portuguese - Year 9 (Prime Book)
-> Markdown companion of `public/library/y09-portuguese-openai/book.pdf` (34 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y09-portuguese-openai/book.pdf` (35 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -14,9 +14,10 @@ vozes
 Numa noite de outubro, o mar
 avançou quatro metros sobre Areias
 do Norte. Nas páginas seguintes, essa
-noite vai ser contada de sete maneiras
-— e tu vais aprender a ouvir, a ler e a
-escrever cada uma delas.
+noite vai ser contada de sete
+maneiras — e tu vais aprender a
+ouvir, a ler e a escrever cada uma
+delas.
 
 01
 Reportagem
@@ -48,9 +49,7 @@ Para onde vamos
 
 Um jornal, uma rádio e um livro de memórias podem
 falar do mesmo mar e dizer coisas completamente
-diferentes. Nesta unidade, vais descobrir
-
-porquê: cada
+diferentes. Nesta unidade, vais descobrir porquê: cada
 género textual tem uma finalidade, uma voz e um leitor
 à sua espera.
 
@@ -59,8 +58,8 @@ género textual tem uma finalidade, uma voz e um leitor
 **PÁG.**
 
 1.1 Oralidade
-compreender um noticiário e uma entrevista
-radiofónica, destacando a informação
+compreender uma reportagem televisiva e
+uma entrevista, destacando a informação
 essencial e distinguindo facto de opinião.
 
 05–06
@@ -83,20 +82,20 @@ literários sobre o mesmo tema.
 
 19–21
 
+1.4 Escrita
+planificar, escrever e rever uma autobiografia,
+um texto de opinião e uma carta de
+apresentação.
+
+22–25
+
 1.5
 Gramática
 
 identificar classes e subclasses de palavras;
 distinguir o quantificador universal do
-existencial — e perceber como mudam a
+existencial — e perceber como podem mudar a
 verdade de um título.
-
-22–25
-
-1.4 Escrita
-planificar, escrever e rever uma autobiografia,
-um texto de opinião e uma carta de
-apresentação.
 
 26–29
 
@@ -108,18 +107,18 @@ autobiográfica, um texto de
 opinião e uma carta de
 apresentação — revistos por um
 colega na «mesa do editor» (p.
-29).
+25).
 
 **COMO USAR OS CÓDIGOS QR**
 
 Aponta a câmara do telemóvel
-ou do tablet. Os QR com
-**ÁUDIO**
-abrem gravações feitas para
-esta unidade; os outros levam a
-fontes de referência (RTP
-Ensina, Ciberdúvidas,
-Dicionário Terminológico).
+ou do tablet. Todos os códigos
+levam a sites públicos e
+gratuitos: reportagens e poesia
+na RTP Ensina, o Arquivo
+Pessoa, o Ciberdúvidas, o
+Dicionário Terminológico e o
+Priberam.
 
 Tarefas:
 **1 compreender ·**
@@ -133,8 +132,8 @@ desafio.
 IC
 
 Inês Couto, 14 anos, repórter da Rádio
-Maré, a rádio da escola. Neta da D.
-Rosa. Escreve as notas à mão que vais
+Maré, a rádio da escola. Neta da D. Rosa.
+Escreve as notas à mão que vais
 encontrar nas margens.
 
 TS
@@ -162,8 +161,8 @@ HV
 Helena Vaz, geóloga costeira. Mede a
 Praia do Norte há quinze anos.
 
-**■ A redação da Rádio Maré, numa sala do 1.º piso**
-com vista para o mar.
+**■ A redação da Rádio Maré, numa sala do 1.º piso com**
+vista para o mar.
 
 Areias do Norte não vem no mapa —
 inventámo-la. Mas o mar a comer a praia é
@@ -173,7 +172,7 @@ Inês
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **MAPA DA UNIDADE**
 
-02 / 34
+02 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 3 -->
@@ -215,18 +214,17 @@ Guarda as tuas respostas a lápis. Na p. 30 vais
 ver se mudaste de ideias!
 
 Às três da manhã, a Rua da
-Praia cheirava a sal e a
-madeira molhada. Os
-bombeiros enchiam sacos de
-areia à luz das lanternas, e
-ninguém falava alto.
+Praia cheirava a sal e a madeira
+molhada. Os bombeiros
+enchiam sacos de areia à luz
+das lanternas, e ninguém falava
+alto.
 
 A
 
 **— Mede esta praia há quinze**
 **anos. O que mudou?**
 — Tinha oitenta metros de areia
-
 seca. Hoje tem trinta.
 
 B
@@ -239,7 +237,7 @@ contei muitas vezes, descalça.
 C
 
 CINECLUBE · «A ÚLTIMA DUNA» ·
-★★★★☆
+
 A montagem põe a memória e
 os números lado a lado, e é aí
 que o documentário acerta.
@@ -248,7 +246,6 @@ D
 
 Um paredão não é uma solução: é
 um adiamento.
-
 Defendo que devemos devolver
 espaço à duna.
 
@@ -256,20 +253,19 @@ E
 
 Exma. Senhora Coordenadora,
 Venho, por este meio,
-apresentar a minha
-candidatura ao Programa
-Guardiões da Costa.
+apresentar a minha candidatura
+ao Programa Guardiões da
+Costa.
 
 F
 
 Ó mar salgado, quanto do teu sal
 São lágrimas de Portugal!
 
-G
-
 Fernando Pessoa,
-
 Mensagem (1934)
+
+G
 
 DISTANTE
 PESSOAL
@@ -277,7 +273,7 @@ PESSOAL
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **PONTO DE PARTIDA**
 
-03 / 34
+03 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 4 -->
@@ -287,28 +283,26 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 Todos os textos emitem um sinal
 
 Um rádio sintoniza frequências; um bom leitor
-sintoniza
-
-géneros. Antes de leres um texto, pergunta:
+sintoniza géneros. Antes de leres um texto, pergunta:
 para que serve? quem fala? para quem? As respostas são
 o sinal do texto — e o sinal diz-te como deves lê-lo.
 
 **TEXTOS DOS MEDIA**
 
-Textos produzidos ou divulgados pelos
-meios de comunicação social — imprensa,
-rádio, televisão, internet. Nesta unidade
-juntamos-lhes a autobiografia e a carta de
-apresentação, que também vivem da relação
-entre quem escreve e um leitor concreto.
+Textos produzidos ou divulgados pelos meios
+de comunicação social — imprensa, rádio,
+televisão, internet. Nesta unidade juntamos-
+lhes a autobiografia e a carta de apresentação,
+que também vivem da relação entre quem
+escreve e um leitor concreto.
 
 **GÉNERO**
 **FINALIDADE PRINCIPAL**
 **O SINAL**
 
 Reportagem
-Relata e descreve um acontecimento, com várias
-vozes e o olhar do repórter.
+Relata e descreve um acontecimento, com várias vozes e
+o olhar do repórter.
 
 INFORMAR
 CONVENCER
@@ -320,8 +314,8 @@ CORRENTE
 FORMAL
 
 Entrevista
-Dá a conhecer as ideias de alguém através de
-perguntas e respostas.
+Dá a conhecer as ideias de alguém através de perguntas
+e respostas.
 
 INFORMAR
 CONVENCER
@@ -396,8 +390,8 @@ forma, pelas imagens e pelos símbolos. → p.
 **FACTO OU OPINIÃO?**
 
 Um facto pode ser verificado: «A duna recuou quatro
-metros.» Uma opinião é um juízo de quem fala: «A
-Câmara reagiu tarde demais.» Os textos informativos dão
+metros.» Uma opinião é um juízo de quem fala: «A Câmara
+reagiu tarde demais.» Os textos informativos dão
 prioridade aos factos; os argumentativos usam factos para
 sustentar opiniões.
 
@@ -420,29 +414,31 @@ adiamento.»
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **FERRAMENTA · O SINAL**
 
-04 / 34
+04 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 5 -->
 
 ---
-**OUVIR · 1.1 ORALIDADE**
+**OUVIR · 1.1 ORALIDADE · REPORTAGEM DA RTP**
 Ouvir o essencial
 
-Num noticiário de rádio não há página para voltar
-atrás. A informação passa uma vez — e o ouvinte tem
-de apanhar o que importa.
+Areias do Norte é uma vila inventada para esta
+unidade. O problema, não: é real e é de todo o país.
+Começa por ouvir uma reportagem verdadeira da
+RTP.
 
-**ÁUDIO 1 · 2 MIN 06 S**
+**RTP ENSINA · 3 MIN 23 S**
 
-Noticiário das 8 da Rádio Maré, na manhã a
-seguir ao temporal. Pivô: Tiago Semedo.
-Repórter no local: Inês Couto.
+«Um litoral ameaçado» — reportagem de Luís
+Fonseca (RTP, 2014). É um vídeo, mas nesta
+atividade trabalhas a escuta: podes ouvir sem
+olhar para o ecrã.
 
 1
-Antes de ouvir. O título do noticiário é «Duna recua
-quatro metros na Praia do Norte». Escreve duas
-perguntas a que esperas que a notícia responda.
+Antes de ouvir. O título é «Um litoral ameaçado».
+Ameaçado por quê? Escreve duas perguntas a que
+esperas que a reportagem responda.
 
 2
 Enquanto ouves. Preenche a grelha só com palavras-
@@ -453,35 +449,43 @@ chave, números e nomes — não escrevas frases.
 
 O quê?
 
-Quem?
-
 Onde?
 
-Quando?
+Quem fala?
 
-Porquê?
+Números
 
-E agora?
+Causas
 
-**■ Rua da Praia, 7h40. Inês Couto grava a primeira**
-entrevista do dia.
+Respostas
+
+**■ Depois do temporal, a areia entra pelas ruas das**
+vilas da costa.
 
 **TÉCNICA · O FUNIL**
 
 1. Ouve tudo sem escrever na primeira
 passagem.
 2. Regista palavras-chave na segunda.
-3. Seleciona: o que mudaria a notícia se
+3. Seleciona: o que mudaria a reportagem se
 faltasse?
 4. Reformula por palavras tuas.
 
-Números e horas são ouro: apanha-os à
+**PALAVRAS PARA OUVIR**
+
+erosão — desgaste da costa pelo mar e pelo
+vento · litoral — a faixa de terra junto ao mar ·
+recuo — o que a linha da costa perde para o
+mar, em metros · defesa costeira — obras que
+protegem a costa
+
+Números e lugares são ouro: apanha-os à
 primeira! — I.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.1 ORALIDADE**
 
-05 / 34
+05 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 6 -->
@@ -492,110 +496,106 @@ Filtrar o ruído
 
 3
 Essencial ou acessório? Uma informação é essencial se, sem
-ela, o ouvinte ficasse sem perceber o acontecimento ou
-as suas consequências. Assinala com ✓.
+ela, o ouvinte ficasse sem perceber o problema, as causas
+ou as respostas. Assinala com ✓.
 
 **INFORMAÇÃO**
 **ESSENCIAL**
 **ACESSÓRIA**
 
 1
-A duna recuou cerca de quatro metros.
+Um quarto da costa portuguesa sofre
+de erosão.
 
 2
-O senhor Joaquim, em miúdo, via uma
-praia do tamanho de um campo de
-futebol.
+Alguém que vive ali há trinta anos diz
+que nunca tinha visto nada igual.
 
 3
-Três casas ficaram sem acesso pela
-areia.
+Numa praia do Algarve, a costa recuou
+cerca de 90 metros desde 1976.
 
 4
-Os bombeiros chegaram por volta das
-três da manhã.
+Na maré baixa, veem-se os restos de
+um antigo forte.
 
 5
-A tempestade coincidiu com a maré-
-cheia e ondas de cinco metros.
+A areia que os rios traziam do interior
+já não chega ao litoral.
 
 6
-Há uma reunião aberta às 21h, no
-salão da Junta de Freguesia.
+Alguém grita: «Olha a casa, olha a
+casa!»
 
 7
-Havia um passadiço de madeira no fim
-da rua.
+O Governo prevê 300 milhões de euros
+para o litoral.
 
 8
-Não há feridos.
+O nível do mar pode subir quase um
+metro até 2100.
 
 4
-Uma voz, uma função. Num noticiário, cada voz tem um
-papel. Indica a intenção principal de cada falante:
+Uma voz, uma função. Numa reportagem, cada voz tem um
+papel. Escreve a intenção principal de cada uma:
 
 informar
 testemunhar
 explicar causas
-convocar
+anunciar medidas
 
-apresentar
+**QUEM FALA**
+**INTENÇÃO PRINCIPAL**
 
-**FALANTE**
-**PAPEL**
-**INTENÇÃO**
+Moradores
 
-Tiago Semedo
-pivô
+Jornalista (voz off)
 
-Inês Couto
-repórter
+Cientistas
 
-Joaquim Brito
-morador
+Ministro do Ambiente
 
-Helena Vaz
-especialista
+**O QUE TORNA A REPORTAGEM**
+**DIFERENTE?**
 
-**O QUE TORNA A RÁDIO DIFERENTE?**
-
-A rádio só tem som. Por isso usa frases
-curtas, repete nomes («Inês Couto, para
-a Rádio Maré»), indica as horas e deixa
-ouvir o ambiente — o vento, o mar. O
-testemunho de um morador dá
-emoção; a especialista dá explicação.
+Uma notícia diz o que aconteceu. A
+reportagem vai ao local e mostra-o:
+junta o testemunho de quem viveu
+(emoção), a explicação de especialistas
+(causas), dados que se podem verificar e
+a voz de quem decide.
 
 5
-Facto, opinião ou testemunho?
-«Eu nunca vi o mar tão perto da
-minha porta.»
-Justifica a tua resposta.
+Uma frase-imagem. Um cientista
+diz: «as praias nascem nas
+montanhas». Com base na
+explicação que ele dá a seguir, diz
+o que isto significa.
 
 6
 Pergunta de desafio.
 + exigente
 
-Helena Vaz diz: «isto já não
-acontece de dez em dez anos».
-Que informação acrescenta esta
-frase que os números da duna
-não davam?
+A reportagem começa com três
+adjetivos: «Voraz, imparável,
+destruidora.» A que se referem?
+Porque terá o jornalista
+começado assim, e não pelos
+números?
 
 7
-Resumo em 40 palavras. Usa só a informação que
-assinalaste como essencial. Conta as palavras no fim:
-nem mais, nem menos de 40 (± 3).
+Resumo em 40 palavras. Usa só as informações que assinalaste
+como essenciais. No fim, conta as palavras: entre 37 e 43.
 
 Truque de repórter: começa pelo mais
 importante. Quem só ouvir a primeira
-frase tem de ficar a saber o essencial.
-— I.
+frase tem de ficar a saber o
+essencial. — I.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.1 ORALIDADE**
 
-06 / 34
+06 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 7 -->
@@ -604,9 +604,7 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 **LER · 1.2 LEITURA · 01 REPORTAGEM**
 Estar lá
 
-A notícia diz-te o que aconteceu. A reportagem leva-te
-
-ao sítio
+A notícia diz-te o que aconteceu. A reportagem leva-te ao sítio
 onde aconteceu: dá-te cheiros, sons, rostos e vozes.
 
 **PARA QUÊ**
@@ -651,11 +649,8 @@ informativo
 expressivo, criativo
 
 VOZES
-uma ou
-duas
-
-várias, com pontos de vista
-diferentes
+uma ou duas
+várias, com pontos de vista diferentes
 
 REPÓRTER
 invisível
@@ -664,10 +659,10 @@ presente: descreve o que viu
 **■ Vista aérea de um esporão: de um lado a areia acumula-se; do outro, desaparece.**
 
 1
-Antes de ler. O título da reportagem é
-«Onde a areia se despede». Que tom
-esperas encontrar: frio e técnico, ou
-próximo e emotivo? Porquê?
+Antes de ler. O título da reportagem é «Onde
+a areia se despede». Que tom esperas
+encontrar: frio e técnico, ou próximo e
+emotivo? Porquê?
 
 **PALAVRAS DA MARÉ**
 
@@ -679,7 +674,7 @@ maré · estorno — planta que fixa a areia das dunas
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · REPORTAGEM**
 
-07 / 34
+07 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 8 -->
@@ -697,8 +692,11 @@ quem mede, há quinze anos, cada
 metro que se perde.
 
 TEXTO · INÊS COUTO E TIAGO SEMEDO
-
 FOTOGRAFIA · LEONOR SÁ
+
+1 2 3… Os números na margem indicam os
+parágrafos. Nas tarefas, «parágrafo 3»
+remete para o número 3.
 
 Repara: o lead resume tudo e ainda te dá
 vontade de continuar. — I.
@@ -710,48 +708,42 @@ A noite do passadiço
 Às três da manhã, a Rua da
 Praia cheirava a sal e a ma‐
 deira molhada. Os bombei‐
-ros enchiam sacos de areia à
-luz das lanternas, e ninguém
-falava alto. Ao fundo, onde a
-rua acaba, o passadiço de ma‐
-deira que levou gerações de
-banhistas até à água rangia
-como um barco velho. Às qua‐
-tro e dez, partiu-se. «Foi como
-um tiro», conta Marco Reis,
-16 anos, que viu tudo da janela
-do quarto. «Depois, só se ouvia
-o mar.»
+ros enchiam sacos de areia à luz
+das lanternas, e ninguém falava
+alto. Ao fundo, onde a rua
+acaba, o passadiço de madeira
+que levou gerações de banhis‐
+tas até à água rangia como um
+barco velho. Às quatro e dez,
+partiu-se. «Foi como um tiro»,
+conta Marco Reis, 16 anos, que
+viu tudo da janela do quarto.
+«Depois, só se ouvia o mar.»
 
 2 De manhã, o cenário era ou‐
 tro. No lugar do passadiço, um
-degrau de areia com quase
-dois metros de altura. Por
-baixo, a espuma. Três casas fi‐
-caram sem acesso pela praia, e
+degrau de areia com quase dois
+metros de altura. Por baixo, a
+espuma. Três casas ficaram sem
+acesso pela praia, e os morado‐
 
-os moradores tiveram de sair
-pelas traseiras, por um cami‐
-nho
-de
-terra.
-Não
-houve
-feridos.
+res tiveram de sair pelas trasei‐
+ras, por um caminho de terra.
+Não houve feridos.
 
 Trinta passos
 
 3 Rosa Brito tem 78 anos e vive
 na última casa da rua. Recebe-
-nos com café e uma fotografia
-a preto e branco: bois a puxar
-um barco para a areia, em
-1956. «Isto era aqui», diz,
-apontando para a janela. Da ja‐
-nela, hoje, só se vê água.
-«Quando eu era pequena, con‐
-tava trinta passos da porta até
-ao mar. Agora conto sete.»
+nos com café e uma fotografia a
+preto e branco: bois a puxar um
+barco para a areia, em 1956.
+«Isto era aqui», diz, apontando
+para a janela. Da janela, hoje, só
+se vê água. «Quando eu era pe‐
+quena, contava trinta passos da
+porta até ao mar. Agora conto
+sete.»
 
 4 O marido, Joaquim, andou
 quarenta anos no mar. Não se
@@ -763,7 +755,7 @@ zanga-se todos os anos.»
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · REPORTAGEM**
 
-08 / 34
+08 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 9 -->
@@ -771,43 +763,42 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 ---
 Contas de subtrair
 
-5 Helena Vaz, geóloga costeira, co‐
-nhece esta praia palmo a palmo.
-Mede-a desde 2011, sempre nos mes‐
-mos pontos, com uma vara de GPS. Os
-números dela confirmam a memória
-da D. Rosa: em quinze anos, a largura
-média da praia passou de oitenta para
-trinta metros.
+5 Helena Vaz, geóloga costeira, conhece
+esta praia palmo a palmo. Mede-a
+desde 2011, sempre nos mesmos pon‐
+tos, com uma vara de GPS. Os números
+dela dão razão à memória da D. Rosa:
+em quinze anos, a largura média da
+praia passou de oitenta para trinta
+metros.
 
 6 A explicação, diz, não está só na tem‐
-pestade. «A areia vem dos rios. Com
-as barragens, chega menos. Os espo‐
-rões seguram-na de um lado e tiram-
-na do outro. E o mar está a subir.» A
-noite de 14 de outubro juntou tudo:
-ondas de cinco metros, vento forte e
-maré-cheia.
+pestade. «A areia vem dos rios. Com as
+barragens, chega menos. Os esporões
+seguram-na de um lado e tiram-na do
+outro. E o mar está a subir.» A noite de
+14 de outubro juntou tudo: ondas de
+cinco metros, vento forte e maré-cheia.
 
 E agora?
 
-7 Na reunião de terça-feira, o salão da
+7 Na reunião de quinta-feira, o salão da
 Junta de Freguesia encheu. Houve
-quem pedisse um paredão «já, antes
-do próximo inverno». Houve quem
-lembrasse que os paredões protegem
-as casas, mas podem fazer desapare‐
-cer a praia. A Câmara Municipal pro‐
-meteu um estudo até ao fim do ano.
+quem pedisse um paredão «já, antes do
+próximo inverno». Houve quem lem‐
+brasse que os paredões protegem as
+casas, mas podem fazer desaparecer a
+praia. A Câmara Municipal prometeu
+um estudo até ao fim do ano.
 
 8 Cá fora, no fim da rua, um grupo de
-alunos do 9.º ano fotografava o de‐
-grau de areia. Vão voltar ao mesmo sí‐
-tio todos os meses, com a mesma câ‐
-mara, à mesma hora. «Se não puder‐
-mos parar o mar», diz um deles, «pelo
-menos vamos saber exatamente por
-onde ele passou.»
+alunos do 9.º ano fotografava o degrau
+de areia. Vão voltar ao mesmo sítio to‐
+dos os meses, com a mesma câmara, à
+mesma hora. «Se não pudermos parar
+o mar», diz um deles, «pelo menos va‐
+mos saber exatamente por onde ele
+passou.»
 
 **ANATOMIA**
 
@@ -854,12 +845,12 @@ leitor a pensar.
 
 2
 Localizar. A que horas se partiu o passadiço?
-Quem o viu? (§ 1)
+Quem o viu? (parágrafo 1)
 
 3
-Os sentidos. Transcreve do § 1 uma expressão
-ligada ao olfato, outra à audição e outra à
-visão. Que efeito têm no leitor?
+Os sentidos. Transcreve do parágrafo 1 uma
+expressão ligada ao olfato, outra à audição e
+outra à visão. Que efeito têm no leitor?
 
 4
 Quatro fontes. Identifica as quatro fontes da
@@ -867,28 +858,28 @@ reportagem e o que cada uma acrescenta:
 emoção, memória, explicação ou decisão.
 
 5
-A frase de sete passos. «Agora conto sete.» (§
-3) Porque é que esta citação é mais forte do
-que um número em metros?
+A frase de sete passos. «Agora conto sete.»
+(parágrafo 3) Porque é que esta citação é
+mais forte do que um número em metros?
 
 6
-Título de reportagem, título de notícia. Explica
-por que razão «Onde a areia se despede»
-não seria adequado a uma notícia. Propõe
-um título de notícia para o mesmo
+Título de reportagem, título de notícia. Explica por
+que razão «Onde a areia se despede» não
+seria adequado a uma notícia. Propõe um
+título de notícia para o mesmo
 acontecimento.
 
 7
 Desafio.
-+ exigente Reescreve o § 1 como lead
-de notícia, em 35 palavras, respondendo a: o
-quê, onde, quando e com que
-consequências.
++ exigente Reescreve o parágrafo 1
+como lead de notícia, em 35 palavras,
+respondendo a: o quê, onde, quando e com
+que consequências.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · REPORTAGEM**
 
-09 / 34
+09 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 10 -->
@@ -896,46 +887,42 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 ---
 **LER · 1.2 LEITURA · 02 ENTREVISTA**
 
-PODCAST MARÉ ALTA · VERSÃO ESCRITA · ENTREVISTA DE TIAGO
-
-SEMEDO
+PODCAST MARÉ ALTA · VERSÃO ESCRITA · ENTREVISTA DE TIAGO SEMEDO
 «O mar não está
 zangado. Está só a
 voltar ao sítio dele.»
 
 Helena Vaz, geóloga costeira, mede a Praia do Norte
-desde 2011. Recebeu-nos no dia seguinte ao temporal,
-em cima da duna, de vara de GPS na mão e cabelo ao
-vento. Falámos de areia, de barragens e de uma palavra
-difícil: recuar.
+desde 2011. Recebeu-nos no dia seguinte ao temporal, em
+cima da duna, de vara de GPS na mão e cabelo ao vento.
+Falámos de areia, de barragens e de uma palavra difícil:
+recuar.
 
 Mede esta praia há quinze anos. O que mudou?
-Quando comecei, a praia tinha, em média, oitenta
-metros de areia seca entre a duna e a água, na maré-
-baixa. Hoje tem trinta. Perdemos mais de metade em
-quinze anos.
+Quando comecei, a praia tinha, em média, oitenta metros
+de areia seca entre a duna e a água, na maré baixa. Hoje
+tem trinta. Perdemos mais de metade em quinze anos.
 
 Porque é que a areia desaparece?
 A areia de uma praia não está parada. Vem dos rios e é
-levada ao longo da costa pelas correntes. Se
-construímos barragens nos rios, chega menos areia ao
-mar. Se construímos esporões, a areia fica retida de um
-lado e falta do outro. E o nível do mar está a subir. É
-uma conta de somar e subtrair — e, aqui, estamos a
-subtrair.
+levada ao longo da costa pelas correntes. Se construímos
+barragens nos rios, chega menos areia ao mar. Se
+construímos esporões, a areia fica retida de um lado e falta
+do outro. E o nível do mar está a subir. É uma conta de
+somar e subtrair — e, aqui, estamos a subtrair.
 
 Os moradores pedem um paredão. É a solução?
-Um paredão protege o que está atrás dele, mas a praia
-da frente costuma desaparecer, porque a onda bate na
-pedra e leva a areia consigo. Pode ser necessário em
-alguns sítios. Mas não é solução para todos.
+Um paredão protege o que está atrás dele, mas a praia da
+frente costuma desaparecer, porque a onda bate na pedra
+e leva a areia consigo. Pode ser necessário em alguns
+sítios. Mas não é solução para todos.
 
 **■ Helena Vaz na duna da Praia do Norte.**
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · ENTREVISTA**
 
-10 / 34
+10 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 11 -->
@@ -967,8 +954,8 @@ zangado. Está só a voltar ao sítio dele.
 Entrevista editada por questões de espaço e clareza.
 
 **PARA QUÊ**
-Dar a conhecer as ideias, a
-experiência ou a vida de alguém.
+Dar a conhecer as ideias, a experiência
+ou a vida de alguém.
 
 **QUEM FALA**
 O entrevistador pergunta; o
@@ -977,26 +964,27 @@ entrevistado responde.
 **ESTRUTURA**
 Título (muitas vezes uma citação) ·
 introdução que apresenta o
-entrevistado · perguntas e
-respostas · fecho.
+entrevistado · perguntas e respostas ·
+fecho.
 
 **MARCAS**
-Discurso direto · alternância de
-vozes · perguntas abertas, fechadas
-e de seguimento.
+Discurso direto · alternância de vozes ·
+perguntas abertas, fechadas e de
+seguimento.
 
-**ÁUDIO 2 · 3 MIN 18 S**
+**RTP ENSINA · 2 MIN 37 S**
 
-A versão original do
-podcast, gravada em cima da
-duna, com vento e tudo.
+«Como se recupera uma praia?»
+— excerto do programa Linha da
+Frente (RTP, 2026). Outras
+vozes, o mesmo problema.
 
-O Tiago cortou partes para a versão escrita.
-Consegues descobrir quais? — I.
+A Helena Vaz não é a única a defender as
+dunas. Ouve quem as planta! — I.
 
 1
-A situação. Indica: entrevistador,
-entrevistada, local e momento da entrevista.
+A situação. Indica: entrevistador, entrevistada,
+local e momento da entrevista.
 
 2
 O título. Porque terá o jornal escolhido uma
@@ -1005,16 +993,15 @@ título?
 
 3
 Tipos de pergunta. Uma pergunta aberta pede
-desenvolvimento; uma fechada admite
-«sim» ou «não»; uma de seguimento nasce
-da resposta anterior. Dá um exemplo de
-cada.
+desenvolvimento; uma fechada admite «sim»
+ou «não»; uma de seguimento nasce da
+resposta anterior. Dá um exemplo de cada.
 
 4
-Oral e escrito. Ouve o Áudio 2. Identifica dois
-momentos que não aparecem na versão
-escrita e explica por que razão terão sido
-cortados.
+Outras vozes. Vê o excerto da RTP «Como se
+recupera uma praia?». Indica duas soluções
+apresentadas e diz qual delas também é
+defendida por Helena Vaz.
 
 5
 Ideia-chave. Na tua opinião, qual é a resposta
@@ -1030,7 +1017,7 @@ paredão.
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · ENTREVISTA**
 
-11 / 34
+11 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 12 -->
@@ -1058,50 +1045,54 @@ vendedoras de peixe · sustento
 — aquilo de que uma família
 vive
 
-1 Nasci em 1948, numa casa de madeira a trinta passos da água. Digo trinta
+1 Nasci em 1948, numa casa de madeira a trinta passos da água. Digo
 
-porque os contei muitas vezes, descalça, quando a minha mãe me mandava
+trinta porque os contei muitas vezes, descalça, quando a minha mãe
 
-chamar o meu pai à praia. Naquele tempo, a praia não acabava. Havia a
-areia seca, onde as redes secavam ao sol, havia a areia molhada, onde os
+me mandava chamar o meu pai à praia. Naquele tempo, a praia não
+acabava. Havia a areia seca, onde as redes secavam ao sol, havia a
 
-bois puxavam os barcos, e só depois havia o mar.
+areia molhada, onde os bois puxavam os barcos, e só depois havia o
 
-2 Aos nove anos, deixei a escola. Não foi por não gostar — gostava muito da
+mar.
 
-professora Amélia, que me deixava ler os jornais que chegavam de Lisboa
-com uma semana de atraso. Deixei a escola porque a minha avó adoeceu e
+2 Aos nove anos, deixei a escola. Não foi por não gostar — gostava
+muito da professora Amélia, que me deixava ler os jornais que
 
-alguém tinha de vender o peixe. Lembro-me da primeira manhã em que
+chegavam de Lisboa com uma semana de atraso. Deixei a escola
 
-levei a canastra à cabeça: pesava quase tanto como eu e cheirava a sal e a
+porque a minha avó adoeceu e alguém tinha de vender o peixe.
 
-pressa.
+Lembro-me da primeira manhã em que levei a canastra à cabeça:
+
+pesava quase tanto como eu e cheirava a sal e a pressa.
 
 3 Casei aos dezanove anos com o Joaquim, que remava no barco do tio.
-Tivemos três filhos, e todos aprenderam a nadar antes de saberem ler. Em
 
-1978, o mar levou o barco do tio numa noite de fevereiro. Não levou
+Tivemos três filhos, e todos aprenderam a nadar antes de saberem ler.
 
-ninguém, graças a Deus, mas levou o sustento de quatro famílias. Foi a
+Em 1978, o mar levou o barco do tio numa noite de fevereiro. Não
 
-primeira vez que percebi que o mar não era nosso: nós é que éramos dele.
+levou ninguém, graças a Deus, mas levou o sustento de quatro
 
-4 Hoje, quando olho da janela, vejo a água onde antes via as redes. A minha
-neta, que anda no 9.º ano, diz-me que a culpa é das barragens, dos esporões
+famílias. Foi a primeira vez que percebi que o mar não era nosso: nós é
+que éramos dele.
 
-e do clima. Eu não sei explicar com essas palavras. Sei só que a praia da
+4 Hoje, quando olho da janela, vejo a água onde antes via as redes. A
 
-minha infância cabe agora num retrato pequenino que guardo na gaveta da
+minha neta, que anda no 9.º ano, diz-me que a culpa é das barragens,
 
-cozinha. De vez em quando, tiro-o e conto os passos outra vez: um, dois,
+dos esporões e do clima. Eu não sei explicar com essas palavras. Sei só
 
-três… Já não chego aos trinta.
+que a praia da minha infância cabe agora num retrato pequenino que
+guardo na gaveta da cozinha. De vez em quando, tiro-o e conto os
+
+passos outra vez: um, dois, três… Já não chego aos trinta.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · AUTOBIOGRAFIA**
 
-12 / 34
+12 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 13 -->
@@ -1138,27 +1129,26 @@ sou eu que o conto.»
 
 **UM CASO RARO**
 
-**Nome completo: Fernando António Nogueira**
-
-Pessoa.
+**Nome completo: Fernando António Nogueira Pessoa.**
 
 **Idade e naturalidade: Nasceu em Lisboa,**
 
-freguesia dos Mártires, no prédio n.º 4 do
+freguesia dos Mártires, no prédio n.º 4 do Largo
 
-Largo de S. Carlos (hoje do Directório) em 13
+de S. Carlos (hoje do Directório) em 13 de Junho
 
-de Junho de 1888. […]
+de 1888. […]
 
 **Profissão: A designação mais própria será**
 
 «tradutor», a mais exacta a de «correspondente
 
-estrangeiro em casas comerciais». O ser poeta
+estrangeiro em casas comerciais». O ser poeta e
 
-e escritor não constitui profissão mas
+escritor não constitui profissão mas vocação.
 
-vocação.
+Fernando Pessoa, «Nota biográfica», 30 de março de
+1935 (excerto). Ortografia da edição consultada.
 
 Texto integral no Arquivo Pessoa.
 
@@ -1171,8 +1161,8 @@ que o tempo da escrita aparece.
 2
 Perfeito ou imperfeito? Compara «Casei aos
 dezanove anos» com «Havia a areia seca».
-Qual exprime uma ação única? Qual
-descreve um cenário que durava?
+Qual exprime uma ação única? Qual descreve
+um cenário que durava?
 
 3
 A linha da vida. Ordena numa linha do tempo:
@@ -1181,8 +1171,8 @@ perda do barco · hoje. Indica o ano de cada
 momento.
 
 4
-A frase-chave. «O mar não era nosso: nós é
-que éramos dele.» (§ 3) Explica o sentido
+A frase-chave. «O mar não era nosso: nós é que
+éramos dele.» (parágrafo 3) Explica o sentido
 desta frase. Guarda a resposta: vais precisar dela na
 
 p. 21.
@@ -1199,13 +1189,10 @@ Desafio.
 reportagem (p. 8) e no seu próprio texto. O
 que muda quando é ela a contar?
 
-Fernando Pessoa, «Nota biográfica», 30 de março de
-1935 (excerto). Ortografia da edição consultada.
-
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · AUTOBIOGRAFIA**
 
-13 / 34
+13 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 14 -->
@@ -1216,13 +1203,13 @@ Pensar com
 fundamento
 
 Um comentário não é um «gostei» ou
-«não gostei»: é uma apreciação
-crítica justificada com exemplos da
-própria obra.
+«não gostei»: é uma apreciação crítica
+justificada com exemplos da própria
+obra.
 
-A MARÉ · CULTURA · ★★★★☆
-«A Última Duna»: um documentário que não
-nos deixa ficar na areia
+A MARÉ · CULTURA ·
+«A Última Duna»: um documentário que não nos
+deixa ficar na areia
 
 POR MARTA SARAIVA, 9.º B
 
@@ -1233,7 +1220,7 @@ durante um ano, a vida da Praia do Norte, em
 Areias. Foi exibido na semana passada no cineclube
 da escola — e a sala encheu.
 
-**APRECIAÇÃO ①**
+**APRECIAÇÃO 1**
 O filme não tem narrador. São os próprios
 moradores, pescadores e cientistas que contam a
 história, e essa é a sua maior força: ninguém nos diz
@@ -1244,7 +1231,7 @@ e os números lado a lado, e o espectador percebe,
 sem precisar de gráficos, que ambos contam a
 mesma perda.
 
-**APRECIAÇÃO ②**
+**APRECIAÇÃO 2**
 A fotografia é outro ponto alto. As imagens aéreas
 dos esporões, filmadas com drone, mostram o que
 nenhuma explicação consegue mostrar tão bem: de
@@ -1290,16 +1277,15 @@ conectores de oposição
 disso»).
 
 1
-Sim, mas… Identifica os
-dois pontos fortes e o
-ponto fraco apontados
-pela autora.
+Sim, mas… Identifica os dois
+pontos fortes e o ponto
+fraco apontados pela
+autora.
 
 2
 Provas. Que exemplo
-concreto do filme
-sustenta o elogio à
-fotografia?
+concreto do filme sustenta
+o elogio à fotografia?
 
 3
 Conectores. Que palavras
@@ -1309,8 +1295,8 @@ estabelecem?
 
 4
 Desafio.
-+ exigente Explica
-a frase: «Não é um filme
++ exigente Explica a
+frase: «Não é um filme
 sobre o mar: é um filme
 sobre o que escolhemos
 fazer quando o mar se
@@ -1319,7 +1305,7 @@ aproxima.»
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · COMENTÁRIO**
 
-14 / 34
+14 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 15 -->
@@ -1329,9 +1315,7 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 As peças de um argumento
 
 O comentário, o texto de opinião e a carta de apresentação têm uma coisa em
-comum: querem que o leitor
-
-concorde. Para isso, usam sempre as mesmas peças.
+comum: querem que o leitor concorde. Para isso, usam sempre as mesmas peças.
 
 O QUE É
 EXEMPLO (LEONOR SÁ, P. 17)
@@ -1347,8 +1331,8 @@ Uma razão que apoia a tese.
 lado.»
 
 Prova / exemplo
-Facto, dado, testemunho ou autoridade que
-torna o argumento credível.
+Facto, dado, testemunho ou autoridade que torna
+o argumento credível.
 
 «A geóloga Helena Vaz explicou-nos que…»
 
@@ -1390,8 +1374,8 @@ apela à justiça, à família, ao futuro
 **ACRESCENTAR**
 
 além disso ·
-também · ainda ·
-por outro lado
+também · ainda · por
+outro lado
 
 **OPOR / REFUTAR**
 
@@ -1401,12 +1385,11 @@ mas
 
 **CONCEDER**
 
-embora · apesar
-de · ainda que · é
-certo que
+embora · apesar de ·
+ainda que · é certo
+que
 
-**EXPLICAR A**
-**CAUSA**
+**EXPLICAR A CAUSA**
 
 porque · uma vez
 que · dado que
@@ -1423,18 +1406,18 @@ em suma · por isso
 
 1
 Treino. Volta ao comentário (p. 14). Qual é a
-tese de Marta Saraiva? Em que parágrafo
-aparece?
+tese de Marta Saraiva? Em que parte do
+texto aparece?
 
 2
-Treino. «Apesar disso, é um filme
-necessário.» Que tipo de conector é «apesar
-disso»? Porque aparece na conclusão?
+Treino. «Apesar disso, é um filme necessário.»
+Que tipo de conector é «apesar disso»?
+Porque aparece na conclusão?
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **FERRAMENTA · ARGUMENTAR**
 
-15 / 34
+15 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 16 -->
@@ -1443,8 +1426,8 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 **LER · 1.2 LEITURA · 05 TEXTO DE OPINIÃO · FRENTE A FRENTE**
 Paredão?
 
-Duas pessoas de Areias responderam à mesma pergunta no jornal
-A Maré. Lê as duas colunas antes de decidires de que lado estás.
+Duas pessoas de Areias responderam à mesma pergunta no jornal A
+Maré. Lê as duas colunas antes de decidires de que lado estás.
 
 OPINIÃO · A FAVOR
 Primeiro, as pessoas
@@ -1495,9 +1478,8 @@ areia.
 
 **PARA QUÊ**
 Defender uma posição
-sobre um tema
-polémico e convencer o
-leitor.
+sobre um tema polémico
+e convencer o leitor.
 
 **QUEM FALA**
 Um autor identificado,
@@ -1513,10 +1495,9 @@ refutação · conclusão.
 
 **MARCAS**
 1.ª pessoa («defendo»,
-«escolho») ·
-conectores · perguntas
-retóricas · frases de
-efeito.
+«escolho») · conectores ·
+perguntas retóricas ·
+frases de efeito.
 
 INFORMAR
 CONVENCER
@@ -1527,15 +1508,14 @@ PESSOAL
 CORRENTE
 FORMAL
 
-O Sr. Carlos é o dono do
-restaurante onde toda a gente vai
-ao domingo. Isso muda a forma
-como o lês? — I.
+O Sr. Carlos é o dono do restaurante
+onde toda a gente vai ao domingo.
+Isso muda a forma como o lês? — I.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · TEXTO DE OPINIÃO**
 
-16 / 34
+16 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 17 -->
@@ -1546,10 +1526,10 @@ Recuar também é avançar
 
 LEONOR SÁ · 15 ANOS · ALUNA DO 9.º B E COLUNISTA D'A MARÉ
 
-1 Na reunião de terça-feira, ouvi
-muitas vezes a palavra «pare‐
-dão». Ouvi-a como quem ouve a
-palavra «remédio». Mas um re‐
+1 Na reunião de quinta-feira,
+ouvi muitas vezes a palavra «pa‐
+redão». Ouvi-a como quem ouve
+a palavra «remédio». Mas um re‐
 médio que alivia a dor e agrava a
 doença não é um bom remédio.
 
@@ -1590,13 +1570,12 @@ tempo para tudo o resto.
 
 **LER COM ESPÍRITO CRÍTICO**
 
-Pergunta sempre: quem
-escreve? O que ganha ou perde
-com a sua posição? Os factos
-que usa são verificáveis? Ter
-interesse no assunto não torna
-uma opinião falsa — mas ajuda a
-lê-la melhor.
+Pergunta sempre: quem escreve?
+O que ganha ou perde com a sua
+posição? Os factos que usa são
+verificáveis? Ter interesse no
+assunto não torna uma opinião
+falsa — mas ajuda a lê-la melhor.
 
 1
 Frente a frente. Completa a
@@ -1629,8 +1608,7 @@ da Leonor entre o paredão e um remédio.
 4
 Quem te convenceu? Escolhe o texto mais
 convincente. Justifica com a qualidade dos
-argumentos — não com a simpatia pelo
-autor.
+argumentos — não com a simpatia pelo autor.
 
 5
 Desafio.
@@ -1643,7 +1621,7 @@ Porquê?
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · TEXTO DE OPINIÃO**
 
-17 / 34
+17 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 18 -->
@@ -1692,8 +1670,8 @@ apertados. No ano passado, participei num projeto
 de monitorização da água da ribeira local e fui
 responsável pelo registo fotográfico. Sou
 organizada e pontual, e não me custa acordar cedo
-— o que, julgo, será útil nas medições de maré-
-baixa.
+— o que, julgo, será útil nas medições feitas na
+maré baixa.
 
 **COMPETÊNCIAS E**
 **PROVAS**
@@ -1720,10 +1698,10 @@ ANÚNCIO
 Guardiões da Costa
 
 O Observatório do Litoral Norte
-recebe 12 jovens (14–17 anos)
-em julho para monitorizar
-dunas. Candidaturas por carta
-de apresentação.
+recebe 12 jovens (14–17 anos) em
+julho para monitorizar dunas.
+Candidaturas por carta de
+apresentação.
 
 1
 Formal, porquê?
@@ -1733,25 +1711,25 @@ mostram o registo
 formal da carta.
 
 2
-Provas, não adjetivos.
-Que frase prova que a
-Inês sabe trabalhar
-em equipa? Porque é
-mais convincente do
-que escrever apenas
-«sou boa em equipa»?
+Provas, não adjetivos. Que
+frase prova que a Inês
+sabe trabalhar em
+equipa? Porque é mais
+convincente do que
+escrever apenas «sou
+boa em equipa»?
 
 3
-Reescreve. Torna
-formal: «Olá! Queria
-muito entrar no vosso
-projeto, acho que ia
-ser mesmo fixe.»
+Reescreve. Torna formal:
+«Olá! Queria muito
+entrar no vosso projeto,
+acho que ia ser mesmo
+fixe.»
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.2 LEITURA · CARTA DE APRESENTAÇÃO**
 
-18 / 34
+18 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 19 -->
@@ -1779,14 +1757,14 @@ Mas nele é que espelhou o céu.
 **OUVIR O POEMA**
 
 RTP Ensina: «Mar Português»
-dito em voz alta.
+dito por Ricardo Vale.
 Lê-o duas vezes: uma em silêncio, outra em voz alta. Soa
 diferente, não soa? — I.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.3 EDUCAÇÃO LITERÁRIA**
 
-19 / 34
+19 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 20 -->
@@ -1821,26 +1799,25 @@ o que o poema
 diz
 
 1
-A quem? A quem se dirige o sujeito
-poético? Transcreve as duas expressões
-que o provam e nomeia o recurso
-expressivo.
+A quem? A quem se dirige o sujeito poético?
+Transcreve as duas expressões que o
+provam e nomeia o recurso expressivo.
 
 2
-Quem sofreu? Que três figuras sofrem na
-1.ª estrofe? Porque terá o poeta
-escolhido quem ficou em terra?
+Quem sofreu? Que três figuras sofrem na 1.ª
+estrofe? Porque terá o poeta escolhido
+quem ficou em terra?
 
 Meia-água
 
 como o diz
 3
-Sal e lágrimas. Explica a metáfora dos vv.
-1–2.
+Sal e lágrimas. Explica a metáfora dos vv. 1–
+2.
 
 4
-Repetição. Identifica a anáfora nos vv. 3–5
-e o efeito que produz.
+Repetição. Identifica a anáfora nos vv. 3–5 e
+o efeito que produz.
 
 5
 Rima. A 1.ª estrofe rima AABBCC (rima
@@ -1851,8 +1828,8 @@ Fundo
 o que significa
 6
 Preço e valor. A 1.ª estrofe mostra o preço
-do mar; a 2.ª, o seu valor. Explica, a
-partir dos vv. 7–8.
+do mar; a 2.ª, o seu valor. Explica, a partir
+dos vv. 7–8.
 
 7
 Bojador e dor. O cabo Bojador, na costa
@@ -1873,7 +1850,6 @@ São lágrimas de Portugal!
 2
 
 Por te cruzarmos, quantas mães
-
 choraram,
 
 3
@@ -1882,7 +1858,6 @@ Quantos filhos em vão rezaram!
 4
 
 Quantas noivas ficaram por
-
 casar
 
 5
@@ -1915,7 +1890,7 @@ Mas nele é que espelhou o céu.
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.3 EDUCAÇÃO LITERÁRIA**
 
-20 / 34
+20 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 21 -->
@@ -1925,10 +1900,7 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 O mesmo mar, três géneros
 
 A palavra mar aparece na reportagem, nas memórias da D. Rosa e no poema de
-Pessoa. É a mesma palavra — mas não é o mesmo mar.
-
-O género diz-te como a
-
+Pessoa. É a mesma palavra — mas não é o mesmo mar. O género diz-te como a
 deves ler.
 
 **REPORTAGEM**
@@ -1959,8 +1931,11 @@ personagem
 o sujeito poético
 
 LINGUAGEM
-denotativa: as palavras valem
-pelo sentido literal
+denotativa: as palavras
+valem pelo sentido literal
+
+expressiva e pessoal: a memória
+cria imagens («trinta passos»)
 
 conotativa: as palavras ganham
 sentidos figurados
@@ -1969,26 +1944,31 @@ O MAR É…
 um fenómeno natural que se
 mede
 
-a força que decidiu a vida
-de uma família
+a força que decidiu a vida de uma
+família
+
+um símbolo: a história, o
+sacrifício e a glória de um povo
 
 SERÁ VERDADE?
-é verdade para quem se
-lembra
+sim, pode verificar-se: há
+datas, medições e fontes
 
+é verdade para quem se lembra
 a pergunta não se aplica: o poema
 não descreve, cria sentido
 
 1
-Completa. Preenche as três células vazias da
-tabela.
+Mais uma linha. Imagina uma quinta linha na
+tabela: PARA QUÊ? Escreve, para cada um
+dos três textos, a sua finalidade principal.
 
 2
-Nosso ou dele? Pessoa escreve «Para que
-fosses nosso, ó mar!»; a D. Rosa, «o mar não
-era nosso: nós é que éramos dele». Explica
-como cada texto vê a relação entre as
-pessoas e o mar. Usa a tua resposta da p. 13.
+Nosso ou dele? Pessoa escreve «Para que fosses
+nosso, ó mar!»; a D. Rosa, «o mar não era
+nosso: nós é que éramos dele». Explica como
+cada texto vê a relação entre as pessoas e o
+mar. Usa a tua resposta da p. 13.
 
 3
 Verdade poética. Faria sentido perguntar se o
@@ -2009,411 +1989,10 @@ mar?
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.3 EDUCAÇÃO LITERÁRIA**
 
-21 / 34
+21 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 22 -->
-
----
-**GRAMÁTICA · 1.5 · CLASSES DE PALAVRAS**
-A caixa
-de tipos
-
-Nas tipografias, cada letra tinha a sua gaveta. Na gramática, cada palavra tem a sua classe
-— e saber onde uma palavra «mora» ajuda a perceber o que ela faz na frase.
-
-**CLASSES ABERTAS · A LISTA CRESCE SEMPRE**
-
-Entram palavras novas todos os dias: podcast, geolocalizar.
-
-Nome
-Designa seres, lugares, objetos, sentimentos.
-
-mar, Rosa, saudade
-
-Adjetivo
-
-Atribui uma qualidade ou propriedade ao nome.
-
-salgado, velho, costeira
-
-Verbo
-Exprime ação, estado ou processo; varia em tempo, modo e
-pessoa.
-
-galgou, recuar, é
-
-Advérbio
-Modifica um verbo, um adjetivo, outro advérbio ou uma
-frase. Não varia.
-
-hoje, não, exatamente
-
-Interjeição
-Exprime uma emoção ou um apelo, de forma súbita.
-
-ai!, olha!, oxalá!
-
-**CLASSES FECHADAS · A LISTA É QUASE FIXA**
-
-São poucas palavras, mas estão em quase todas as frases.
-
-Determinante
-Antecede o nome e especifica-o.
-
-o, uma, esta, minha
-
-Pronome
-
-Substitui ou representa um nome ou grupo nominal.
-
-ela, isto, nenhuma, que
-
-Quantificador
-Indica a quantidade daquilo que o nome designa.
-
-todos, alguns, três
-
-Preposição
-Liga palavras, criando relações de lugar, tempo, posse…
-
-de, em, para, sobre
-
-Conjunção
-
-Liga palavras, grupos ou orações.
-
-e, mas, porque, quando
-
-Aceita um determinante antes: o mar.
-
-Muitos aceitam grau: mais salgado.
-
-Muda com o tempo: recua / recuou.
-
-Não aceita plural nem feminino.
-
-Vale sozinha como uma frase.
-
-Sem nome a seguir, deixa de o ser.
-
-Ocupa o lugar do nome.
-
-Responde a «quantos?»
-
-Contrai-se: de + o = do.
-
-Liga duas ideias numa frase.
-
-**UNIDADE 1 · UM MAR, SETE VOZES**
-**1.5 GRAMÁTICA · CLASSES**
-
-22 / 34
-PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
-
-<!-- page 23 -->
-
----
-**GRAMÁTICA · 1.5 · SUBCLASSES · LABORATÓRIO DE TÍTULOS**
-Cada gaveta tem divisórias
-
-Nome
-próprio · comum (contável, não contável, coletivo)
-Areias · duna · areia · cardume
-
-Adjetivo
-qualificativo · relacional · numeral
-velho · costeira · primeiro
-
-Verbo
-principal (intransitivo, transitivo direto, indireto, direto e indireto, transitivo-
-predicativo) · copulativo · auxiliar
-
-recuar · levar · gostar de ·
-dar · achar · ser · ter
-(partido)
-
-Advérbio
-de negação · de afirmação · de quantidade e grau · de inclusão e exclusão ·
-interrogativo · relativo · conectivo · de frase · de predicado (tempo, lugar, modo…)
-
-não · sim · muito · só ·
-onde? · contudo · felizmente ·
-hoje
-
-Determinante
-artigo (definido, indefinido) · demonstrativo · possessivo · indefinido · relativo ·
-interrogativo
-
-o, um · este · meu · certo ·
-cujo · que?
-
-Pronome
-pessoal · demonstrativo · possessivo · indefinido · relativo · interrogativo
-ela · isto · o meu · alguém ·
-que · quem?
-
-Quantificador
-universal · existencial · numeral · relativo · interrogativo
-todos · alguns · quatro ·
-quantos · quantos?
-
-Conjunção
-coordenativa (copulativa, adversativa, disjuntiva, conclusiva, explicativa) ·
-subordinativa (causal, temporal, final, condicional, concessiva…)
-
-e · mas · ou · portanto ·
-pois · porque · quando · embora
-
-Terminologia do Dicionário Terminológico (DGE). Preposição e interjeição não se dividem em subclasses.
-
-Laboratório de títulos
-
-Os títulos de imprensa são frases apertadas: cada
-palavra tem de merecer o seu lugar.
-
-1
-Classifica. Indica a classe e a subclasse de cada palavra
-dos títulos 1 e 2.
-
-2
-Onde estão os artigos? Reescreve o título 1 como frase
-completa, no pretérito perfeito e com determinantes.
-Porque é que os títulos cortam os artigos e preferem o
-presente?
-
-3
-Contração. Decompõe «numa» (título 2). Que classes
-de palavras se juntaram?
-
-4
-Desafio.
-+ exigente No título 4, classifica «Ai» e
-«nossa». Porque é que este título seria estranho numa
-notícia, mas funciona numa reportagem ou numa
-crónica?
-
-TÍTULO 1
-Mar engole passadiço em Areias
-
-TÍTULO 2
-Duna recua quatro metros numa
-noite
-
-TÍTULO 3
-Moradores exigem proteção
-urgente
-
-TÍTULO 4
-Ai, a nossa praia!
-
-**UNIDADE 1 · UM MAR, SETE VOZES**
-**1.5 GRAMÁTICA · SUBCLASSES**
-
-23 / 34
-PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
-
-<!-- page 24 -->
-
----
-**GRAMÁTICA · 1.5 · QUANTIFICADOR UNIVERSAL E EXISTENCIAL**
-Todos? Alguns?
-Nenhum?
-
-Uma palavra pequena pode transformar uma notícia verdadeira numa notícia
-falsa. Na Rua da Praia há doze casas junto à duna. Três ficaram sem acesso. Qual
-destas frases é verdadeira?
-
-«Todas as casas ficaram sem acesso.»
-«Algumas casas ficaram sem acesso.»
-«Nenhuma casa ficou sem acesso.»
-
-**UNIVERSAL**
-
-Refere-se à totalidade dos elementos de um
-conjunto — ou nega-a toda.
-
-todo(s), toda(s) · ambos, ambas · cada ·
-qualquer · nenhum(a), nenhuns, nenhumas
-
-«Acontece quase todos os invernos.» · «Um arquivo que
-nenhum cientista tem.» · «Cada metro que se perde.»
-
-**EXISTENCIAL**
-
-Refere-se a uma parte dos elementos, numa
-quantidade que não é precisa.
-
-algum, alguns, alguma(s) · bastante(s) ·
-pouco(s), pouca(s) · tanto(s), tanta(s) ·
-vários, várias
-
-«Pode ser necessário em alguns sítios.» · «Repete várias
-cenas de tempestade.»
-
-**ARMADILHA 1 · QUANTIFICADOR OU**
-**PRONOME?**
-
-O quantificador acompanha um nome:
-«Alguns moradores saíram.» Quando a
-palavra aparece sozinha, no lugar do
-nome, é um pronome indefinido:
-«Alguns saíram.»
-
-**ARMADILHA 2 · O CASO DE**
-**«QUALQUER»**
-
-Antes do nome, é universal: «Qualquer
-morador pode ir à reunião» (= todos
-podem). Depois do nome, perde esse
-valor: «uma resposta qualquer» (= uma
-resposta sem importância).
-
-**CIBERDÚVIDAS**
-
-Os quantificadores e
-as suas subclasses.
-
-**DICIONÁRIO**
-**TERMINOLÓGICO**
-
-Quantificador
-universal (DGE).
-
-**UNIDADE 1 · UM MAR, SETE VOZES**
-**1.5 GRAMÁTICA · QUANTIFICADORES**
-
-24 / 34
-PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
-
-<!-- page 25 -->
-
----
-**GRAMÁTICA · 1.5 · EM AÇÃO · LITERACIA DOS MEDIA**
-O verificador de factos
-
-**FICHA DE DADOS · RUA DA PRAIA**
-
-Casas na rua
-40
-
-Casas junto à duna
-12
-
-Casas sem acesso
-3
-
-Famílias que assinaram o
-pedido de paredão
-
-12
-
-Propostas em debate
-2
-
-1
-Verdadeiro ou falso? Usa a ficha de dados. Nos títulos falsos,
-troca o quantificador para os tornar verdadeiros.
-
-a
-«Todos os moradores
-da Rua da Praia
-pedem um paredão.»
-
-V /
-
-F
-
-b
-«Nenhuma casa ficou
-sem acesso à praia.»
-
-V /
-
-F
-
-c
-«Algumas famílias
-assinaram o abaixo-
-assinado.»
-
-V /
-
-F
-
-d
-«Cada casa da rua foi
-afetada pelo
-temporal.»
-
-V /
-
-F
-
-e
-«Ambas as propostas
-têm defensores na
-vila.»
-
-V /
-
-F
-
-2
-Caça aos quantificadores. Sublinha o quantificador e
-classifica-o (universal ou existencial). Atenção: uma das
-frases não tem quantificadores — tem pronomes!
-
-1
-«Acontece quase todos os
-invernos.»
-
-2
-«Pode ser necessário em alguns
-sítios.»
-
-3
-«Terão um arquivo que nenhum
-cientista tem.»
-
-4
-«O documentário repete várias
-cenas de tempestade.»
-
-5
-«Há várias, e nenhuma é perfeita.»
-
-6
-«Mede, há quinze anos, cada metro
-que se perde.»
-
-3
-Pessoa e a gramática. «Tudo
-vale a pena» (p. 19). «Tudo» é
-um quantificador? Justifica.
-
-4
-Manipula… e corrige. Dos 25
-alunos do 9.º B, 18 vão à
-reunião. Escreve um título
-enganador e um título
-rigoroso, usando
-quantificadores.
-
-Antes de partilhares uma notícia,
-procura o «todos» e o «nenhum». É
-aí que costuma estar o exagero. — I.
-
-Propostas: paredão (Carlos Mendes)
-e recuperação da duna (Leonor Sá).
-
-**UNIDADE 1 · UM MAR, SETE VOZES**
-**1.5 GRAMÁTICA · QUANTIFICADORES**
-
-25 / 34
-PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
-
-<!-- page 26 -->
 
 ---
 **ESCREVER · 1.4 · 1 DE 3 · TEXTO AUTOBIOGRÁFICO**
@@ -2423,6 +2002,9 @@ PROPOSTA · 180–240 PALAVRAS
 Escreve um texto autobiográfico sobre
 um lugar que mudou — ou um lugar que
 te mudou a ti.
+
+Ideias: a casa dos avós · a primeira escola · um campo de jogos · uma
+rua · uma praia · o teu quarto antes e agora.
 
 **PASSO 1 · RECOLHE AS MEMÓRIAS**
 
@@ -2457,22 +2039,22 @@ o que é diferente hoje?
 **A LIÇÃO DA D. ROSA**
 
 Os «trinta passos» abrem e fecham o
-texto dela (p. 12). Um pormenor
-concreto que regressa no fim — um
-objeto-âncora — dá unidade ao texto e
-emociona sem precisar de adjetivos.
+texto dela (p. 12). Um pormenor concreto
+que regressa no fim — um objeto-âncora
+— dá unidade ao texto e emociona sem
+precisar de adjetivos.
 
 **PASSO 2 · ORGANIZA**
 
-① Situar onde e quando começa a
+1 Situar onde e quando começa a
 
 memória
 
-② Relatar um ou dois momentos
+2 Relatar um ou dois momentos
 
 marcantes
 
-③ Refletir o que pensas disso hoje
+3 Refletir o que pensas disso hoje
 
 **ARRANQUES POSSÍVEIS**
 
@@ -2483,28 +2065,23 @@ que percebi…» · «Hoje, quando…»
 
 Escrevi na 1.ª pessoa.
 
-Usei marcadores temporais (datas,
-idades).
+Usei marcadores temporais (datas, idades).
 
 Usei o pretérito perfeito e o imperfeito.
 
 Há um momento de reflexão no presente.
 
-O objeto-âncora aparece no início e no
-fim.
+O objeto-âncora aparece no início e no fim.
 
 **PASSO 3 · O PRIMEIRO PARÁGRAFO (O RESTO, NO CADERNO)**
-
-Ideias: a casa dos avós · a primeira escola · um campo de jogos · uma
-rua · uma praia · o teu quarto antes e agora.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.4 ESCRITA · AUTOBIOGRAFIA**
 
-26 / 34
+22 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
-<!-- page 27 -->
+<!-- page 23 -->
 
 ---
 **ESCREVER · 1.4 · 2 DE 3 · TEXTO DE OPINIÃO**
@@ -2569,18 +2146,17 @@ em suma…
 **O TÍTULO**
 
 Um bom título de opinião anuncia a
-posição e fica no ouvido: «Primeiro,
-as pessoas», «Recuar também é
+posição e fica no ouvido: «Primeiro, as
+pessoas», «Recuar também é
 avançar».
 
 **REGRAS DE OURO**
 
-Um parágrafo = uma ideia. Cada
-argumento precisa de uma prova.
-Reconhecer a posição contrária torna-te
-mais credível, não menos. Evita «eu acho»
-em todas as frases: a assinatura já diz
-quem pensa.
+Um parágrafo = uma ideia. Cada argumento
+precisa de uma prova. Reconhecer a posição
+contrária torna-te mais credível, não menos.
+Evita «eu acho» em todas as frases: a
+assinatura já diz quem pensa.
 
 **ANTES DE ENTREGAR**
 
@@ -2601,10 +2177,10 @@ A conclusão retoma a tese com força.
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.4 ESCRITA · TEXTO DE OPINIÃO**
 
-27 / 34
+23 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
-<!-- page 28 -->
+<!-- page 24 -->
 
 ---
 **ESCREVER · 1.4 · 3 DE 3 · CARTA DE APRESENTAÇÃO**
@@ -2625,12 +2201,15 @@ sem provas («sou o melhor»).
 
 **ANTES E DEPOIS**
 
+«Olá, queria muito entrar na rádio!»
 **→ «Venho, por este meio, candidatar-me à**
 função de repórter.»
 
+«Sou bué organizada.»
 **→ «Sou organizada: no ano passado, coordenei**
 o registo fotográfico do projeto da ribeira.»
 
+«Beijinhos»
 **→ «Com os melhores cumprimentos,»**
 
 **PLANIFICA · 150–220 PALAVRAS**
@@ -2672,7 +2251,7 @@ ninguém. — I.
 
 **O PARÁGRAFO DAS COMPETÊNCIAS**
 
-RÁDIO MARÉ · 97.3 FM ESCOLAR
+RÁDIO MARÉ · A RÁDIO DA ESCOLA
 Queres entrar na rádio?
 
 Procuramos três colaboradores para este ano
@@ -2687,19 +2266,13 @@ Rádio Maré até 30 de novembro. Diz-nos quem
 
 PROCURA-SE
 
-«Olá, queria muito entrar na rádio!»
-
-«Sou bué organizada.»
-
-«Beijinhos»
-
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.4 ESCRITA · CARTA DE APRESENTAÇÃO**
 
-28 / 34
+24 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
-<!-- page 29 -->
+<!-- page 25 -->
 
 ---
 **ESCREVER · 1.4 · REVER COMO UM EDITOR**
@@ -2711,15 +2284,14 @@ século.
 
 **SINAIS DE REVISÃO**
 
-‸
 inserir
-o mar ‸ a duna → o mar galgou a duna
+o mar
+a duna → o mar galgou a duna
 
 —
 apagar (riscar)
 muito muito forte
 
-⟲
 trocar a ordem
 praia a / a praia
 
@@ -2741,13 +2313,13 @@ explica melhor
 
 Escreve no fim do texto do colega:
 
-★ uma coisa que resulta muito bem, com um
+uma coisa que resulta muito bem, com um
 exemplo;
 
-★ outra coisa que resulta bem;
+outra coisa que resulta bem;
 
-✦ um desejo: uma mudança que tornaria o
-texto melhor.
+um desejo: uma mudança que tornaria o texto
+melhor.
 
 Critica o texto, nunca a pessoa. — I.
 
@@ -2758,21 +2330,17 @@ Critica o texto, nunca a pessoa. — I.
 **CONSEGUE**
 **DESTACA-SE**
 
-Género e
-finalidade
-
+Género e finalidade
 O texto ainda não segue o género
 pedido.
 
 Segue o género e cumpre a
 finalidade.
 
-Usa o género com segurança e cria
-efeito no leitor.
+Usa o género com segurança e cria efeito
+no leitor.
 
-Estrutura e
-coesão
-
+Estrutura e coesão
 Parágrafos pouco claros; poucos
 conectores.
 
@@ -2808,12 +2376,12 @@ sem falhas.
 
 1
 Revê. Aplica pelo menos
-quatro sinais de revisão
-no texto do teu colega.
+quatro sinais de revisão no
+texto do teu colega.
 
 2
-Reescreve. Lê as estrelas e
-o desejo que recebeste.
+Reescreve. Lê as estrelas e o
+desejo que recebeste.
 Reescreve o parágrafo que
 o colega assinalou.
 
@@ -2825,7 +2393,401 @@ para corrigir.
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **1.4 ESCRITA · REVISÃO**
 
-29 / 34
+25 / 35
+PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
+
+<!-- page 26 -->
+
+---
+**GRAMÁTICA · 1.5 · CLASSES DE PALAVRAS**
+A caixa
+de tipos
+
+Nas tipografias, cada letra tinha a sua gaveta. Na gramática, cada palavra tem a sua classe —
+e saber onde uma palavra «mora» ajuda a perceber o que ela faz na frase.
+
+**CLASSES ABERTAS · A LISTA CRESCE SEMPRE**
+
+Entram palavras novas todos os dias: podcast, geolocalizar.
+
+Nome
+Designa seres, lugares, objetos, sentimentos.
+
+**mar, Rosa, saudade**
+
+Aceita um determinante antes: o mar.
+
+Adjetivo
+Atribui uma qualidade ou propriedade ao nome.
+
+**salgado, velho, costeira**
+
+Muitos aceitam grau: mais salgado.
+
+Verbo
+Exprime ação, estado ou processo; varia em tempo, modo e
+pessoa.
+
+**galgou, recuar, é**
+
+Muda com o tempo: recua / recuou.
+
+Advérbio
+Modifica um verbo, um adjetivo, outro advérbio ou uma
+frase. Não varia.
+
+**hoje, não, exatamente**
+
+Não aceita plural nem feminino.
+
+Interjeição
+Exprime uma emoção ou um apelo, de forma súbita.
+
+**ai!, olha!, oxalá!**
+
+Vale sozinha como uma frase.
+
+**CLASSES FECHADAS · A LISTA É QUASE FIXA**
+
+São poucas palavras, mas estão em quase todas as frases.
+
+Determinante
+Antecede o nome e especifica-o.
+
+**o, uma, esta, minha**
+
+Sem nome a seguir, deixa de o ser.
+
+Pronome
+Substitui ou representa um nome ou grupo nominal.
+
+**ela, isto, nenhuma, que**
+
+Ocupa o lugar do nome.
+
+Quantificador
+Indica a quantidade daquilo que o nome designa.
+
+**todos, alguns, três**
+
+Responde a «quantos?»
+
+Preposição
+Liga palavras, criando relações de lugar, tempo, posse…
+
+**de, em, para, sobre**
+
+Contrai-se: de + o = do.
+
+Conjunção
+
+Liga palavras, grupos ou orações.
+
+**e, mas, porque, quando**
+
+Liga duas ideias numa frase.
+
+**UNIDADE 1 · UM MAR, SETE VOZES**
+**1.5 GRAMÁTICA · CLASSES**
+
+26 / 35
+PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
+
+<!-- page 27 -->
+
+---
+**GRAMÁTICA · 1.5 · SUBCLASSES · LABORATÓRIO DE TÍTULOS**
+Cada gaveta tem divisórias
+
+Nome
+próprio · comum (contável, não contável, coletivo)
+Areias · duna · areia · cardume
+
+Adjetivo
+qualificativo · relacional · numeral
+velho · costeira · primeiro
+
+Verbo
+principal (intransitivo, transitivo direto, indireto, direto e indireto, transitivo-
+predicativo) · copulativo · auxiliar
+
+recuar · levar · gostar de ·
+dar · achar · ser · ter
+(partido)
+
+Advérbio
+de negação · de afirmação · de quantidade e grau · de inclusão e exclusão ·
+interrogativo · relativo · conectivo · de frase · de predicado (tempo, lugar, modo…)
+
+não · sim · muito · só ·
+onde? · onde · contudo ·
+felizmente · hoje
+
+Determinante
+artigo (definido, indefinido) · demonstrativo · possessivo · indefinido · relativo ·
+interrogativo
+
+o, um · este · meu · certo ·
+cujo · que?
+
+Pronome
+pessoal · demonstrativo · possessivo · indefinido · relativo · interrogativo
+ela · isto · o meu · alguém ·
+que · quem?
+
+Quantificador
+universal · existencial · numeral · relativo · interrogativo
+todos · alguns · quatro ·
+quantos · quantos?
+
+Conjunção
+coordenativa (copulativa, adversativa, disjuntiva, conclusiva, explicativa) ·
+subordinativa (causal, temporal, final, condicional, concessiva…)
+
+e · mas · ou · portanto ·
+pois · porque · quando · embora
+
+Terminologia do Dicionário Terminológico (DGE). Preposição e interjeição não se dividem em subclasses.
+
+Laboratório de títulos
+
+Os títulos de imprensa são frases apertadas: cada
+palavra tem de merecer o seu lugar.
+
+1
+Classifica. Indica a classe e a subclasse de cada palavra
+dos títulos 1 e 2.
+
+2
+Onde estão os artigos? Reescreve o título 1 como frase
+completa, no pretérito perfeito e com determinantes.
+Porque é que os títulos cortam os artigos e preferem o
+presente?
+
+3
+Contração. Decompõe «numa» (título 2). Que classes de
+palavras se juntaram?
+
+4
+Desafio.
++ exigente No título 4, classifica «Ai» e «nossa».
+Porque é que este título seria estranho numa notícia,
+mas funciona numa reportagem ou numa crónica?
+
+TÍTULO 1
+Mar engole passadiço em Areias
+
+TÍTULO 2
+Duna recua quatro metros numa noite
+
+TÍTULO 3
+Moradores exigem proteção urgente
+
+TÍTULO 4
+Ai, a nossa praia!
+
+**UNIDADE 1 · UM MAR, SETE VOZES**
+**1.5 GRAMÁTICA · SUBCLASSES**
+
+27 / 35
+PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
+
+<!-- page 28 -->
+
+---
+**GRAMÁTICA · 1.5 · QUANTIFICADOR UNIVERSAL E EXISTENCIAL**
+Todos? Alguns?
+Nenhum?
+
+Uma palavra pequena pode transformar uma notícia verdadeira numa notícia
+falsa. Na Rua da Praia há doze casas junto à duna. Três ficaram sem acesso. Qual
+destas frases é verdadeira?
+
+«Todas as casas ficaram sem acesso.»
+«Algumas casas ficaram sem acesso.»
+«Nenhuma casa ficou sem acesso.»
+
+**UNIVERSAL**
+
+Refere-se à totalidade dos elementos de um
+conjunto — ou nega-a toda.
+
+todo(s), toda(s) · ambos, ambas · cada ·
+qualquer · nenhum(a), nenhuns, nenhumas
+
+«Agora zanga-se todos os anos.» · «Um arquivo que
+nenhum cientista tem.» · «Cada metro que se perde.»
+
+**EXISTENCIAL**
+
+Refere-se a uma parte dos elementos, numa
+quantidade que não é precisa.
+
+algum, alguns, alguma(s) · bastante(s) ·
+pouco(s), pouca(s) · tanto(s), tanta(s) · vários,
+várias
+
+«Pode ser necessário em alguns sítios.» · «Repete várias
+cenas de tempestade.»
+
+**ARMADILHA 1 · QUANTIFICADOR OU**
+**PRONOME?**
+
+O quantificador acompanha um nome:
+«Alguns moradores saíram.» Quando a
+palavra aparece sozinha, no lugar do
+nome, é um pronome indefinido: «Alguns
+saíram.»
+
+**ARMADILHA 2 · O CASO DE**
+**«QUALQUER»**
+
+Antes do nome, é universal: «Qualquer
+morador pode ir à reunião» (= todos
+podem). Depois do nome, perde esse
+valor: «uma resposta qualquer» (= uma
+resposta sem importância).
+
+**CIBERDÚVIDAS**
+
+Os quantificadores e
+as suas subclasses.
+
+**DICIONÁRIO**
+**TERMINOLÓGICO**
+
+Quantificador
+universal (DGE).
+
+**UNIDADE 1 · UM MAR, SETE VOZES**
+**1.5 GRAMÁTICA · QUANTIFICADORES**
+
+28 / 35
+PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
+
+<!-- page 29 -->
+
+---
+**GRAMÁTICA · 1.5 · EM AÇÃO · LITERACIA DOS MEDIA**
+O verificador de factos
+
+**FICHA DE DADOS · RUA DA PRAIA**
+
+Casas na rua
+40
+
+Casas junto à duna
+12
+
+Casas sem acesso
+3
+
+Famílias que assinaram o
+pedido de paredão
+
+12
+
+Propostas em debate
+2
+
+Propostas: paredão (Carlos Mendes)
+e recuperação da duna (Leonor Sá).
+
+1
+Verdadeiro ou falso? Usa a ficha de dados. Nos títulos falsos,
+troca o quantificador para os tornar verdadeiros.
+
+a
+«Todos os moradores
+da Rua da Praia pedem
+um paredão.»
+
+V /
+
+F
+
+b
+«Nenhuma casa ficou
+sem acesso à praia.»
+
+V /
+
+F
+
+c
+«Algumas famílias
+assinaram o abaixo-
+assinado.»
+
+V /
+
+F
+
+d
+«Cada casa da rua foi
+afetada pelo temporal.»
+
+V /
+
+F
+
+e
+«Ambas as propostas
+têm defensores na
+vila.»
+
+V /
+
+F
+
+2
+Caça aos quantificadores. Sublinha o quantificador e classifica-o
+(universal ou existencial). Atenção: uma das frases não tem
+quantificadores — tem pronomes!
+
+1
+«Agora zanga-se todos os anos.»
+
+2
+«Pode ser necessário em alguns
+sítios.»
+
+3
+«Terão um arquivo que nenhum
+cientista tem.»
+
+4
+«O documentário repete várias cenas
+de tempestade.»
+
+5
+«Há várias, e nenhuma é perfeita.»
+
+6
+«Mede, há quinze anos, cada metro
+que se perde.»
+
+3
+Pessoa e a gramática. «Tudo vale
+a pena» (p. 19). «Tudo» é um
+quantificador? Justifica.
+
+4
+Manipula… e corrige. Dos 25
+alunos do 9.º B, 18 vão à
+reunião. Escreve um título
+enganador e um título
+rigoroso, usando
+quantificadores.
+
+Antes de partilhares uma notícia,
+procura o «todos» e o «nenhum». É
+aí que costuma estar o exagero. — I.
+
+**UNIDADE 1 · UM MAR, SETE VOZES**
+**1.5 GRAMÁTICA · QUANTIFICADORES**
+
+29 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 30 -->
@@ -2838,6 +2800,7 @@ O atlas das sete vozes
 Reportagem
 
 leva o leitor ao local
+
 lead · descrição · várias
 fontes · intertítulos
 
@@ -2845,6 +2808,7 @@ fontes · intertítulos
 Entrevista
 
 dá voz a alguém
+
 introdução · perguntas e
 respostas · título-citação
 
@@ -2852,6 +2816,7 @@ respostas · título-citação
 Autobiografia
 
 conta a própria vida
+
 1.ª pessoa · marcadores
 temporais · reflexão
 
@@ -2868,7 +2833,6 @@ e fracos · conclusão
 Texto de opinião
 
 defende uma tese
-
 argumentos · provas ·
 contra-argumento ·
 conectores
@@ -2879,7 +2843,6 @@ apresentação
 
 apresenta-se para uma
 oportunidade
-
 registo formal ·
 competências com provas ·
 fórmulas
@@ -2975,7 +2938,7 @@ um ano. De que género é?
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **SÍNTESE**
 
-30 / 34
+30 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 31 -->
@@ -2995,25 +2958,24 @@ Num sábado de chuva miudinha, cerca de oitenta voluntários plantaram mil pés 
 na duna da Praia do Norte. O objetivo: ajudar a areia a ficar onde está.
 
 1 Às nove da manhã, o parque de estacionamento da
-Praia do Norte parecia o recreio de uma escola. Ha‐
-via avós de galochas, crianças com baldes e um
-grupo de escuteiros que chegou a cantar. Cada vo‐
-luntário recebeu uma pá pequena, um molho de
-plantas e uma instrução simples: «Fundo, direito e
-bem apertado.»
+Praia do Norte parecia o recreio de uma escola. Havia
+avós de galochas, crianças com baldes e um grupo de
+escuteiros que chegou a cantar. Cada voluntário rece‐
+beu uma pá pequena, um molho de plantas e uma
+instrução simples: «Fundo, direito e bem apertado.»
 
 2 O estorno é uma planta de raízes compridas que
-prende a areia trazida pelo vento. «Cada pé é uma
-pequena âncora», explica Helena Vaz, a geóloga que
-coordenou a ação. «Sozinho, não faz nada. Mil, jun‐
-tos, fazem uma duna.»
+prende a areia trazida pelo vento. «Cada pé é uma pe‐
+quena âncora», explica Helena Vaz, a geóloga que co‐
+ordenou a ação. «Sozinho, não faz nada. Mil, juntos,
+fazem uma duna.»
 
-3 Nem todos estão convencidos. Carlos Mendes,
-dono do restaurante O Farol, passou pela praia ao
-fim da manhã. «Acho bem», disse, «mas plantas não
-travam ondas de cinco metros.» Helena Vaz não dis‐
-corda: a duna precisa de anos para crescer, e alguns
-troços da costa vão continuar em risco.
+3 Nem todos estão convencidos. Carlos Mendes, dono
+do restaurante O Farol, passou pela praia ao fim da
+manhã. «Acho bem», disse, «mas plantas não travam
+ondas de cinco metros.» Helena Vaz não discorda: a
+duna precisa de anos para crescer, e alguns troços da
+costa vão continuar em risco.
 
 4 Ao meio-dia, a chuva parou. Na areia, as filas de es‐
 torno desenhavam riscas que, vistas do passadiço
@@ -3031,16 +2993,16 @@ Género. Identifica o género do texto e justifica
 com três marcas. (8)
 
 2
-Os factos. Indica: o quê, quem, onde, quando
-e porquê. (10)
+Os factos. Indica: o quê, quem, onde, quando e
+porquê. (10)
 
 3
-Facto e opinião. Transcreve do § 3 um facto e
-uma opinião. (6)
+Facto e opinião. Transcreve do parágrafo 3 um
+facto e uma opinião. (6)
 
 4
 A âncora. Explica a comparação «Cada pé é
-uma pequena âncora» (§ 2). (6)
+uma pequena âncora» (parágrafo 2). (6)
 
 5
 O fim. Qual é a função da citação da D. Rosa
@@ -3055,7 +3017,7 @@ sítio dele.» (8)
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **AVALIAÇÃO · 1/2**
 
-31 / 34
+31 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 32 -->
@@ -3063,21 +3025,20 @@ PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 ---
 7
 Escolhe. O título «Âncoras verdes na Praia do Norte» é: (6)   (a) informativo, resume o
-acontecimento · (b) expressivo, usa uma metáfora · (c) uma opinião do jornalista · (d) uma citação
-de uma fonte.
+acontecimento · (b) expressivo, usa uma metáfora · (c) uma opinião do jornalista · (d) uma citação de
+uma fonte.
 
 **GRUPO II · GRAMÁTICA · 20 PONTOS**
 
 8
-Classes e subclasses. Classifica, no § 2:
+Classes e subclasses. Classifica, no parágrafo 2:
 «raízes», «compridas», «prende», «pelo»,
 «Sozinho». (10)
 
 9
 Quantificadores. Classifica: «Cada voluntário»
-(§ 1) · «mil pés» (lead) · «alguns troços» (§ 3).
-
-(6)
+(parágrafo 1) · «mil pés» (lead) · «alguns
+troços» (parágrafo 3). (6)
 
 10
 Reescreve. «Nem todos estão convencidos.»
@@ -3088,13 +3049,13 @@ seguido de nome, mantendo o sentido. (4)
 
 11
 Texto de opinião. «Vale a pena gastar um sábado a plantar uma duna?» Escreve um texto de
-opinião com 160 a 220 palavras. Apresenta uma tese, dois argumentos com provas, um
-contra-argumento e uma conclusão. Dá-lhe um título.
+opinião com 160 a 220 palavras. Apresenta uma tese, dois argumentos com provas, um contra-
+argumento e uma conclusão. Dá-lhe um título.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
 **AVALIAÇÃO · 2/2**
 
-32 / 34
+32 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 33 -->
@@ -3108,236 +3069,328 @@ Faz primeiro — confirma depois.
 
 p. 3
 
-1 A reportagem · B entrevista · C au‐
-tobiografia  · D comentário  · E opi‐
-nião · F carta de apresentação · G po‐
-ema. 3 Sugestão, do mais distante ao
-mais pessoal: A · B · D · F · E · C (o po‐
-ema fica fora da régua).
+1 A reportagem · B entrevista · C auto‐
+biografia · D comentário · E opinião · F
+carta de apresentação · G poema. 3 Su‐
+gestão, do mais distante ao mais pes‐
+soal: A · B · D · F · E · C (o poema fica
+fora da régua).
 
 p. 4
 
-4 Registo formal: «Exma. Senhora Co‐
-ordenadora», «Venho, por este meio».
-5 (a) facto · (b) opinião · (c) facto · (d)
+4 O registo é formal porque a carta se
+dirige a uma entidade que não conhe‐
+cemos: «Exma. Senhora Coordena‐
+dora», «Venho, por este meio». 5 (a)
+facto  · (b) opinião  · (c) facto  · (d)
 opinião.
 
-p. 6
+pp. 5–6
 
-3 Essenciais: 1, 3, 5, 6, 8 · acessórias:
-2, 4, 7. 4 Tiago: apresentar · Inês: in‐
-formar (e convocar para a reunião)  ·
-Joaquim: testemunhar · Helena: expli‐
-car causas. 5 Testemunho: experiên‐
-cia pessoal, na 1.ª pessoa. 6 O pro‐
-blema tornou-se frequente: é uma
-tendência, não um acaso.
+2 O quê: erosão da costa, agravada pe‐
+las tempestades · Onde: Quarteira (Al‐
+garve) e Ovar · Quem fala: moradores,
+cientistas, ministro do Ambiente · Nú‐
+meros: ¼ da costa em erosão; cerca de
+90 m de recuo desde 1976; 300 mi‐
+lhões de euros; quase 1 m de subida do
+mar até 2100  · Causas: tempestades,
+subida do nível do mar, menos areia
+vinda dos rios · Respostas: um plano e
+dinheiro para a defesa costeira. 3 Es‐
+senciais: 1, 3, 5, 7, 8 · acessórias: 2, 4, 6.
+4 Moradores: testemunhar · jornalista:
+informar  · cientistas: explicar causas  ·
+ministro: anunciar medidas. 5 A areia
+das praias vem do interior da Penín‐
+sula Ibérica, trazida pelos rios; por
+causa de atividades humanas, já não
+chega ao litoral. 6 Referem-se ao mar e
+às tempestades. Começar pela imagem
+e pela emoção prende o espectador — é
+típico da reportagem.
 
 p. 9
 
-2 Às 4h10; Marco Reis, 16  anos. 3
-«cheirava a sal e a madeira mo‐
-lhada»  · «rangia como um barco ve‐
-lho» · «à luz das lanternas». 4 Marco
-(emoção do momento) · D. Rosa e Joa‐
-quim (memória) · Helena Vaz (explica‐
-ção)  · Câmara (decisão). 6 Ex.: «Tem‐
-poral faz recuar duna quatro metros
-em Areias».
+2 Às quatro e dez; Marco Reis, 16 anos,
+da janela do quarto. 3 Olfato: «cheirava
+a sal e a madeira molhada»  · audição:
+«rangia como um barco velho» · visão:
+«à luz das lanternas». 4 Marco (emoção
+do momento) · D. Rosa e Joaquim (me‐
+mória)  · Helena Vaz (explicação)  · Câ‐
+mara Municipal (decisão). 5 «Sete»
+passos, comparados com «trinta», tor‐
+nam a perda concreta e pessoal. 6 Ex.:
+«Temporal faz recuar duna quatro me‐
+tros na Praia do Norte».
 
 p. 11
 
-1 Tiago Semedo; Helena Vaz; na duna,
-no dia seguinte ao temporal. 3 Aberta:
-«Porque é que a areia desaparece?»  ·
-fechada: «O mar assusta-a?»  · segui‐
-mento: «Porquê?». 4 Cortes: a apre‐
-sentação do podcast, o comentário so‐
-bre ser entrevistada por alunos, a his‐
-tória da avó do Tiago, a despedida —
-marcas da oralidade, não essenciais à
-informação.
+1 Tiago Semedo; Helena Vaz; em cima
+da duna da Praia do Norte, no dia se‐
+guinte ao temporal. 3 Aberta: «Porque
+é que a areia desaparece?»  · fechada:
+«O mar assusta-a?»  · seguimento:
+«Porquê?». 4 Repor areia nas praias;
+restaurar as dunas com plantas como o
+estorno; fazer recuar construções ile‐
+gais. Helena Vaz defende as duas pri‐
+meiras (e a retirada planeada nos casos
+mais graves).
 
 p. 13
 
 1 (a) nasci, deixei, casei… (b) «Em
 1948», «Aos nove anos», «Em 1978»,
 «Hoje». (c) «Hoje, quando olho da ja‐
-nela…». 2 «Casei»: perfeito, ação
-única  · «Havia»: imperfeito, cenário
-que durava. 3 1948  · 1957  · 1967  ·
-1978 · 2026. 5 Sim: autor e persona‐
-gem são a mesma pessoa, mesmo na
-3.ª pessoa.
+nela…». 2 «Casei»: pretérito perfeito,
+ação única · «Havia»: pretérito imper‐
+feito, cenário que durava. 3 1948  ·
+1957 · 1967 · 1978 · 2026. 5 Sim: autor,
+narrador e personagem são a mesma
+pessoa, mesmo com a 3.ª pessoa.
 
-p. 14–15
+p. 14
 
-1 Fortes: sem narrador, a montagem
-junta memória e números; as imagens
-aéreas. Fraco: repetição e ritmo lento
-no fim. 2 As imagens de drone dos es‐
-porões. 3 «Contudo» (oposição)  ·
-«Apesar disso» (concessão). T15-1
-Tese: é «um filme necessário» (§ 5).
+1 Pontos fortes: não ter narrador (a
+montagem junta memória e números) e
+a fotografia. Ponto fraco: a repetição de
+cenas e o ritmo lento no fim. 2 As ima‐
+gens aéreas dos esporões, filmadas
+com drone. 3 «Contudo» (oposição)  ·
+«Apesar disso» (concessão).
 
-p. 17
+p. 15
 
-Carlos — tese: proteção em pedra ur‐
-gente  · arg.: dever de proteger quem
-vive; a vila vive do mar · contra-arg.:
-«Sei que os cientistas dizem…»  ·
-concl.: «Primeiro, as pessoas». Leonor
-— tese: recuperar a duna e planear a
-retirada  · arg.: o paredão desloca o
-problema (autoridade); a duna é de‐
-fesa natural e mais barata · refutação:
-«Contudo, o nível do mar…»  · concl.:
-«Recuar não é desistir». 5 Argumento
-pelos valores (a família).
-
-p. 18
-
-1 «Exma. Senhora Coordenadora»,
-«Venho, por este meio», «Agradeço a
-atenção dispensada», «Com os me‐
-lhores cumprimentos». 3 Ex.: «Venho,
-por este meio, manifestar o meu inte‐
-resse em participar no vosso projeto.»
-
-p. 20–21
-
-1 Ao mar: «Ó mar salgado», «ó mar!»
-(apóstrofe). 2 Mães, filhos, noivas:
-quem ficou à espera. 5 AABBCC. 6 O
-sacrifício vale a pena se a ambição for
-grande. 7 Para vencer o obstáculo é
-preciso vencer o sofrimento; «dor»
-está dentro de «Bojador». 8 O mar
-traz perigo, mas também reflete o céu:
-grandeza. T21-2 Pessoa: o mar con‐
-quistado, visão coletiva e épica  · D.
-Rosa inverte: as pessoas pertencem
-ao mar, visão humilde e individual.
-
-p. 23
-
-1 Mar: nome comum  · engole: verbo
-principal transitivo direto · passadiço:
-nome comum  · em: preposição  ·
-Areias: nome próprio  · recua: verbo
-principal intransitivo  · quatro: quan‐
-tificador numeral  · numa: preposição
-+ artigo indefinido. 4 Ai: interjeição ·
-nossa: determinante possessivo.
-
-p. 25
-
-1 (a) F → «Doze famílias pedem…»  ·
-(b) F → «Algumas casas ficaram sem
-acesso»  · (c) V  · (d) F  · (e) V. 2 todos:
-universal  · alguns: existencial  · ne‐
-nhum: universal · várias: existencial ·
-frase 5: pronomes indefinidos · cada:
-universal. 3 Não: «tudo» não acompa‐
-nha um nome; é pronome indefinido.
-
-Teste
-
-1 Reportagem: lead, descrição, várias
-fontes citadas. 3 Facto: «passou pela
-praia ao fim da manhã»  · opinião:
-«Acho bem». 7 (b). 8 raízes: nome co‐
-mum  · compridas: adjetivo qualifica‐
-tivo  · prende: verbo principal transi‐
-tivo direto  · pelo: preposição con‐
-traída com artigo definido  · Sozinho:
-adjetivo qualificativo. 9 universal  ·
-numeral · existencial. 10 «Alguns mo‐
-radores não estão convencidos.»
+1 «A Última Duna» é um filme neces‐
+sário — aparece na conclusão. 2 Conec‐
+tor concessivo: reconhece a fragili‐
+dade,
+mas
+mantém
+a
+apreciação
+positiva.
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
-**SOLUÇÕES**
+**SOLUÇÕES · 1/2**
 
-33 / 34
+33 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
 
 <!-- page 34 -->
 
 ---
-**BASTIDORES · TRANSCRIÇÃO, FONTES E CRÉDITOS**
-Nos bastidores
+**BALANÇO · SOLUÇÕES · CONTINUAÇÃO**
 
-**TRANSCRIÇÃO · ÁUDIO 1 · NOTICIÁRIO DA RÁDIO MARÉ**
+p. 17
 
-**TIAGO São oito horas em Areias do Norte.**
-Bom dia. Este é o noticiário da Rádio
-Maré, a rádio da nossa escola. Eu sou o
-Tiago Semedo.
+1 Carlos — tese: proteção em pedra,
+com urgência · arg. 1: o dever de prote‐
+ger quem vive  · arg. 2: a vila vive do
+mar  · tipo: pelos valores  · contra-arg.:
+«Sei que os cientistas dizem…» · concl.:
+«Primeiro, as pessoas. Depois, a areia.»
+Leonor — tese: recuperar a duna e pla‐
+near a retirada · arg. 1: o paredão em‐
+purra o problema para o lado (autori‐
+dade) · arg. 2: a duna é uma defesa na‐
+tural, mais barata · tipo: de autoridade
+e pela consequência  · contra-arg.:
+«Compreendo o medo…», refutado
+com «Contudo, o nível do mar…»  ·
+concl.: «Recuar não é desistir.» 5 Pelos
+valores:
+a
+família
+e
+as
+pessoas
+próximas.
 
-**TIAGO O temporal desta madrugada fez**
-recuar a duna da Praia do Norte cerca
-de quatro metros. Não há feridos a re‐
-gistar, mas três casas da Rua da Praia fi‐
-caram sem acesso pela areia. A nossa re‐
-pórter, Inês Couto, esteve no local logo
-ao nascer do dia.
+p. 18
 
-**INÊS Bom dia, Tiago. Estou no fim da**
-Rua da Praia, onde ontem ainda havia
-um passadiço de madeira. Hoje há um
-degrau de areia com quase dois metros
-de altura e, lá em baixo, o mar.
+1 «Exma. Senhora Coordenadora»,
+«Venho, por este meio», «Agradeço a
+atenção dispensada», «Com os melho‐
+res cumprimentos». 2 «Sou repórter da
+Rádio Maré… trabalhar em equipa com
+prazos apertados»: é uma prova, não
+um elogio. 3 Ex.: «Venho, por este
+meio, manifestar o meu interesse em
+participar no vosso projeto.»
 
-**INÊS Os moradores passaram a noite**
-acordados. Os bombeiros chegaram por
-volta das três da manhã e colocaram sa‐
-cos de areia à porta das casas mais pró‐
-ximas. Falei com o senhor Joaquim
-Brito, que andou quarenta anos no mar.
+p. 20
 
-**JOAQUIM Eu nunca vi o mar tão perto da**
-minha porta. Quando era miúdo, a praia
-era do tamanho de um campo de fute‐
+1 Ao mar: «Ó mar salgado», «ó mar!»
+(apóstrofe). 2 Mães, filhos e noivas:
+quem ficou em terra à espera. 3 O sal
+do mar seria feito das lágrimas dos
+portugueses: o sofrimento foi imenso.
+4 «Quantas… Quantos… Quantas»: in‐
+tensifica o sofrimento. 5 AABBCC. 6 O
+sacrifício vale a pena se a ambição for
+grande. 7 Para vencer o obstáculo é
+preciso vencer o sofrimento; «dor»
+está dentro de «Bojador». 8 O mar traz
+perigo e abismo, mas também reflete o
+céu: a grandeza.
 
-bol. Agora, numa noite, levou-nos o
-passadiço.
+p. 21
 
-**INÊS A Câmara Municipal confirmou que**
-uma equipa técnica vai avaliar os danos
-hoje, às dez horas. A geóloga Helena
-Vaz, que estuda esta praia há quinze
-anos, explica o que aconteceu.
+1 Reportagem: informar  · autobiogra‐
+fia: recordar e refletir sobre a própria
+vida · poema: exprimir emoções e criar
+sentidos. 2 Pessoa: o mar conquistado,
+uma visão coletiva e épica · D. Rosa in‐
+verte: as pessoas pertencem ao mar,
+uma visão humilde e individual. 3 Não:
+o poema não relata factos verificáveis;
+a sua verdade está nos sentidos que
+cria.
 
-**HELENA A tempestade coincidiu com a**
-maré-cheia e com ondas de cinco me‐
-tros. Quando estes três fatores se jun‐
-tam, a duna não tem tempo para se de‐
-fender. E o problema é que isto já não
-acontece de dez em dez anos. Acontece
-quase todos os invernos.
+p. 27
 
-**INÊS Hoje, às nove da noite, há uma reu‐**
-nião aberta a toda a população, no salão
-da Junta de Freguesia, para discutir o
-futuro desta frente de mar. Da Rua da
-Praia, Inês Couto, para a Rádio Maré.
+1 Mar, passadiço, duna, metros, noite:
+nomes comuns · Areias: nome próprio ·
+engole: verbo principal transitivo di‐
+reto  · recua: verbo principal intransi‐
+tivo · em: preposição · quatro: quantifi‐
+cador numeral · numa: preposição + ar‐
+tigo indefinido. 2 «O mar engoliu o
+passadiço de Areias.» Os títulos pou‐
+pam espaço, e o presente dá atuali‐
+dade. 3 em (preposição) + uma (artigo
+indefinido). 4 Ai: interjeição  · nossa:
+determinante possessivo. São palavras
+de emoção e de proximidade, impró‐
+prias numa notícia.
 
-**TIAGO Obrigado, Inês. E agora, o tempo:**
-o vento vai acalmar ao fim da tarde, mas
-a agitação marítima mantém-se forte
-até quinta-feira. Evite a zona das ro‐
-chas. Voltamos às nove.
+p. 29
+
+1 (a) F → «Algumas famílias pedem um
+paredão» · (b) F → «Algumas casas fica‐
+ram sem acesso à praia» · (c) V · (d) F:
+os dados não o provam → «Algumas
+casas da rua foram afetadas» · (e) V. 2
+todos: universal  · alguns: existencial  ·
+nenhum: universal  · várias: existen‐
+cial  · frase 5: pronomes indefinidos  ·
+cada: universal. 3 Não: «tudo» não
+acompanha um nome; é um pronome
+indefinido. 4 Enganador: «Todos os
+alunos do 9.º B vão à reunião.» · Rigo‐
+roso: «Dezoito dos 25 alunos do 9.º B
+vão à reunião.»
+
+Teste
+
+1 Reportagem: título expressivo, lead,
+descrição, várias fontes citadas. 2 Plan‐
+tação de mil pés de estorno · cerca de
+80 voluntários, com Helena Vaz · duna
+da Praia do Norte  · num sábado, das
+nove ao meio-dia · para fixar a areia. 3
+Facto: «passou pela praia ao fim da
+manhã» · opinião: «Acho bem». 7 (b). 8
+raízes: nome comum · compridas: adje‐
+tivo qualificativo · prende: verbo prin‐
+cipal transitivo direto  · pelo: preposi‐
+ção contraída com artigo definido · So‐
+zinho: adjetivo qualificativo. 9 univer‐
+sal · numeral · existencial. 10 «Alguns
+moradores não estão convencidos.»
+
+**CRITÉRIOS DE CORREÇÃO DO TESTE · GRUPO III (30 PONTOS)**
+
+**GÉNERO E TEMA**
+**ESTRUTURA**
+**COESÃO**
+
+**VOCABULÁRIO E**
+**REGISTO**
+**CORREÇÃO LINGUÍSTICA**
+
+Texto de opinião
+sobre a pergunta
+dada, com título · 8
+
+Tese, dois argumentos com
+provas, contra-argumento e
+conclusão · 8
+
+Parágrafos e
+conectores
+variados · 4
+
+Palavras precisas,
+registo adequado ao
+jornal · 4
+
+Ortografia, pontuação
+e concordância · 6
+
+Grupos I e II: uma resposta correta mas incompleta vale metade da cotação. Um texto com menos de 100 palavras não é
+classificado nos parâmetros de estrutura e coesão.
+
+**UNIDADE 1 · UM MAR, SETE VOZES**
+**SOLUÇÕES · 2/2**
+
+34 / 35
+PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
+
+<!-- page 35 -->
+
+---
+**BALANÇO · RECURSOS, GLOSSÁRIO E BASTIDORES**
+Para ir mais longe
+
+**TODOS OS CÓDIGOS QR**
+
+**RTP ENSINA**
+
+«Um litoral ameaçado» (p. 5)
+
+**RTP ENSINA**
+
+«Como se recupera uma praia?»
+(p. 11)
+
+**ARQUIVO PESSOA**
+
+«Nota biográfica» (p. 13)
+
+**RTP ENSINA**
+
+«Mar Português» (p. 19)
+
+**CIBERDÚVIDAS**
+
+Quantificadores (p. 28)
+
+**DICIONÁRIO TERMINOLÓGICO**
+
+Quantificador universal (p.
+28)
+
+**PRIBERAM**
+
+Dicionário: sentido e grafia
+
+Todos levam a sites públicos e gratuitos. Se um
+código não abrir, pesquisa o título indicado.
 
 **GLOSSÁRIO DA UNIDADE**
 
 galgar — passar por cima de (o mar
 galgou a duna)
 
-esporão — paredão de pedra per‐
+esporão — estrutura de pedra per‐
 pendicular à costa
 
-passadiço — caminho de madeira
-sobre a areia
+passadiço — caminho de madeira so‐
+bre a areia
 
 paliçada — vedação de estacas que
 retém a areia
@@ -3346,74 +3399,128 @@ estorno — planta das dunas que
 prende a areia
 
 lead — primeiro parágrafo de um
-texto jornalístico
+texto jornalístico: o essencial
 
-intertítulo — pequeno título que
-divide o corpo do texto
+voz off — voz do jornalista que se
+ouve sem se ver
 
-pacto autobiográfico — autor =
-narrador = personagem
-
-apóstrofe — invocação de alguém
-ou algo («ó mar!»)
+pacto autobiográfico — autor = nar‐
+rador = personagem
 
 tese — a posição que um texto
 defende
 
-**PARA O PROFESSOR**
+contra-argumento — razão do lado
+contrário, que se refuta
 
-Sequência sugerida: 12 a 14 aulas de
-50 minutos. O diagnóstico (p. 3)
-regressa na síntese (p. 30). As tarefas
+sujeito poético — a voz que fala no
+poema (não é o mesmo que o autor)
 
-**PRETO são de aprofundamento; as**
+quantificador — palavra que indica
+quantidade: todos, alguns, três
 
-**AZUIS pedem análise ou produção.**
-O Dossiê Areias (pp. 26–29) pode ser
-avaliado com a grelha da p. 29.
+**PARA O PROFESSOR · 14 AULAS DE**
+**50 MIN**
 
-**FONTES DOS TEXTOS**
+**AULA**
+**PÁGS.**
+**FOCO**
 
-Fernando Pessoa, «Mar Português»,
-Mensagem (1934), e «Nota
-biográfica» (1935), em domínio
-público; texto consultado no
-Arquivo Pessoa. Terminologia
-gramatical: Dicionário
-Terminológico (DGE) e
-Ciberdúvidas da Língua Portuguesa.
+1
+1–4
+Abertura, diagnóstico, o
+sinal
 
-**FICÇÃO E REALIDADE**
+2
+5–6
+Oralidade: reportagem da
+RTP
 
-Areias do Norte, as suas
-personagens, o jornal A Maré, a
-Rádio Maré, o documentário A
-Última Duna e o Observatório do
-Litoral Norte são ficcionais, criados
-para esta unidade. A erosão costeira
-em Portugal, as suas causas (menos
-sedimentos dos rios, obras costeiras,
-subida do nível do mar) e as
-soluções discutidas são reais.
+3
+7–9
+Reportagem
 
-**IMAGEM, SOM E TIPOGRAFIA**
+4
+10–11
+Entrevista
 
-Fotografias criadas com geração de
-imagem e impressas em risografia
-digital a duas cores (azul e laranja).
-Áudios gravados com vozes
-sintéticas em português europeu.
-Tipos: Newsreader, Bricolage
-Grotesque, IBM Plex Mono e
-Caveat.
+5
+12–13
+Autobiografia
 
-**DICIONÁRIO PRIBERAM**
+6
+14–15
+Comentário e
+argumentação
 
-Para a escrita: confirma
-sempre o sentido e a grafia.
+7
+16–17
+Texto de opinião
+
+8
+18
+Carta de apresentação
+
+9
+19–21
+«Mar Português»
+
+10
+22–23
+Escrita: autobiografia e
+opinião
+
+11
+24–25
+Escrita: carta e revisão
+
+12
+26–27
+Classes e subclasses
+
+13
+28–29
+Quantificadores
+
+14
+30–32
+Síntese e teste
+
+Organização. O diagnóstico da p. 3
+regressa na p. 30. Tarefas laranja:
+compreensão; azuis: análise e
+produção; pretas: aprofundamento.
+O Dossiê Areias (pp. 22–24) avalia-se
+com a grelha da p. 25.
+
+Fontes. Fernando Pessoa, «Mar
+Português», Mensagem (1934), e
+«Nota biográfica» (1935), em domínio
+público (Arquivo Pessoa).
+Reportagens: RTP Ensina.
+Terminologia: Dicionário
+Terminológico (DGE) e Ciberdúvidas.
+Aprendizagens Essenciais de
+Português, 9.º ano.
+
+Ficção e realidade. Areias do Norte,
+as suas personagens, A Maré, a Rádio
+Maré, A Última Duna e o
+Observatório do Litoral Norte são
+ficcionais. A erosão costeira em
+Portugal, as suas causas e as soluções
+discutidas são reais.
+
+Imagem e tipos. Fotografias criadas
+com geração de imagem, em risografia
+digital a duas cores. Newsreader,
+Bricolage Grotesque, IBM Plex Mono
+e Caveat.
+
+Obrigada por leres até ao fim. A próxima reportagem é tua! — Inês
 
 **UNIDADE 1 · UM MAR, SETE VOZES**
-**BASTIDORES**
+**RECURSOS E BASTIDORES**
 
-34 / 34
+35 / 35
 PORTUGUÊS · 9.º ANO · TEXTOS DOS MEDIA
