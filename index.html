@@ -2439,10 +2439,9 @@
       <div class="fb-head">
         <div class="fb-title">
           <span id="fbName">Humanities · Year 7 — Student Manual</span>
-          <div class="fb-lab-chip unassigned" id="fbLabChip" role="button" tabindex="0" title="Click to inspect or assign AI Creator Model">
+          <div class="fb-lab-chip" id="fbLabChip" style="display:none" role="button" tabindex="0" title="Click to inspect or assign AI Creator Model">
             <span class="lab-dot"></span>
             <span class="lab-tag" id="fbLabTag">AI CREATOR</span>
-            <span class="lab-model" id="fbLabModel">Loading…</span>
             <span class="lab-caret">▾</span>
           </div>
         </div>
@@ -2567,125 +2566,77 @@
           ? Object.assign({}, s, { page: -1 })
           : s;
 
-      /* ---- AI LABS & EXPERIMENTAL MODEL PROVENANCE -----------------------
-         Tracks which frontier AI model created each experimental book:
-         OpenAI, Anthropic, Google, DeepSeek, GLM, Kimi, Grok. */
-      const AI_LABS = {
-        openai: {
+      /* ---- 7 FRONTIER AI BRANDS (/finished only) ------------------------
+         OpenAI, Anthropic, Google, DeepSeek, GLM, Kimi, Grok.
+         Only the clean brand name is used. */
+      const AI_BRANDS = [
+        {
           id: "openai",
           name: "OpenAI",
-          model: "GPT-4o / o1",
-          badge: "OpenAI",
           color: "#10a37f",
           tagBg: "rgba(16, 163, 127, 0.18)",
           tagBorder: "rgba(16, 163, 127, 0.45)",
           textColor: "#34d399",
-          desc: "GPT-4o multimodal reasoning & structured layout synthesis",
         },
-        anthropic: {
+        {
           id: "anthropic",
           name: "Anthropic",
-          model: "Claude 3.7 Sonnet",
-          badge: "Anthropic",
           color: "#d97757",
           tagBg: "rgba(217, 119, 87, 0.18)",
           tagBorder: "rgba(217, 119, 87, 0.45)",
           textColor: "#fb923c",
-          desc: "Claude 3.7 Sonnet extended thinking & editorial book design",
         },
-        google: {
+        {
           id: "google",
           name: "Google",
-          model: "Gemini 2.5 Pro",
-          badge: "Google",
           color: "#4285f4",
           tagBg: "rgba(66, 133, 244, 0.18)",
           tagBorder: "rgba(66, 133, 244, 0.45)",
           textColor: "#60a5fa",
-          desc: "Gemini 2.5 Pro deep research & visual science pedagogy",
         },
-        deepseek: {
+        {
           id: "deepseek",
           name: "DeepSeek",
-          model: "DeepSeek-V3",
-          badge: "DeepSeek",
           color: "#0c6ff9",
           tagBg: "rgba(12, 111, 249, 0.18)",
           tagBorder: "rgba(12, 111, 249, 0.45)",
           textColor: "#38bdf8",
-          desc: "DeepSeek-V3 / R1 algorithmic reasoning & STEM precision",
         },
-        glm: {
+        {
           id: "glm",
           name: "GLM",
-          model: "GLM-4.5",
-          badge: "GLM",
           color: "#386bfa",
           tagBg: "rgba(56, 107, 250, 0.18)",
           tagBorder: "rgba(56, 107, 250, 0.45)",
           textColor: "#818cf8",
-          desc: "Zhipu GLM-4.5 / 5 bilingual fluency & structured syllabus alignment",
         },
-        kimi: {
+        {
           id: "kimi",
           name: "Kimi",
-          model: "Moonshot K1.5",
-          badge: "Kimi",
           color: "#8b5cf6",
           tagBg: "rgba(139, 92, 246, 0.18)",
           tagBorder: "rgba(139, 92, 246, 0.45)",
           textColor: "#c084fc",
-          desc: "Moonshot Kimi long-context comprehension & creative language arts",
         },
-        grok: {
+        {
           id: "grok",
           name: "Grok",
-          model: "xAI Grok 3",
-          badge: "Grok",
           color: "#94a3b8",
           tagBg: "rgba(255, 255, 255, 0.15)",
           tagBorder: "rgba(255, 255, 255, 0.35)",
           textColor: "#f1f5f9",
-          desc: "xAI Grok 3 high-intensity reasoning & kinetic physical concepts",
         },
-      };
+      ];
+      const AI_BRANDS_MAP = {};
+      AI_BRANDS.forEach((b) => {
+        AI_BRANDS_MAP[b.id] = b;
+      });
 
-      function getBookModelLab(rowOrMeta) {
-        if (!rowOrMeta) return null;
-        const slug = String(rowOrMeta.slug || "").toLowerCase();
-        try {
-          const override = localStorage.getItem("pb_model_" + slug);
-          if (override && AI_LABS[override]) return AI_LABS[override];
-        } catch (e) {}
-
-        const labField = String(rowOrMeta.lab || rowOrMeta.model_lab || "").toLowerCase();
-        if (AI_LABS[labField]) return AI_LABS[labField];
-
-        const modelField = String(rowOrMeta.model || rowOrMeta.ai_model || "").toLowerCase();
-        const editionField = String(rowOrMeta.edition || "").toLowerCase();
-        const combo = `${labField} ${modelField} ${slug} ${editionField}`;
-
-        if (combo.includes("openai") || combo.includes("gpt")) return AI_LABS.openai;
-        if (combo.includes("anthropic") || combo.includes("claude")) return AI_LABS.anthropic;
-        if (combo.includes("google") || combo.includes("gemini")) return AI_LABS.google;
-        if (combo.includes("deepseek")) return AI_LABS.deepseek;
-        if (combo.includes("glm") || combo.includes("zhipu")) return AI_LABS.glm;
-        if (combo.includes("kimi") || combo.includes("moonshot")) return AI_LABS.kimi;
-        if (combo.includes("grok") || combo.includes("xai")) return AI_LABS.grok;
-
-        return null;
-      }
-
-      function setBookModelLab(slug, labId) {
-        if (!slug || !AI_LABS[labId]) return;
-        try {
-          localStorage.setItem("pb_model_" + slug.toLowerCase(), labId);
-        } catch (e) {}
-        const row = BOOK_BY_SLUG[slug];
-        if (row) {
-          row.lab = labId;
-          row.model = AI_LABS[labId].model;
-        }
+      function detectBrandFromSlug(slug) {
+        if (!slug) return null;
+        const s = String(slug).toLowerCase();
+        const m = s.match(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/);
+        return m ? AI_BRANDS_MAP[m[1]] : null;
       }
 
 function mkCanvas(w, h) {
@@ -6302,11 +6253,13 @@ function rr(x, px, py, w, h, r) {
       /* Open any catalogue book straight in its flipbook - the same path a
          deep link (/book/<slug>) takes. The 3D stage is retired; there is no
          state machine to wait for anymore. */
-      function openFlex(year, subj) {
+      function openFlex(year, subj, ed, brandId) {
         const crow = catData && catData.find((r) => r.year === year && r.subj === subj);
         const mrow = SUBJECT_ROWS[year + "|" + normSubject(subj)] || null;
         if (mrow) {
-          openFlipbook(cfgForRow(mrow), mrow.pdf || null);
+          const cfg = cfgForRow(mrow);
+          if (brandId) cfg.brand = brandId;
+          openFlipbook(cfg, mrow.pdf || null);
           return;
         }
         /* Not in the manifest (not built yet): open the WORKSHOP SHELL so the
@@ -6317,6 +6270,7 @@ function rr(x, px, py, w, h, r) {
             band: year,
             yearNum: parseInt(String(year).replace(/\D/g, ""), 10) || null,
             artSubj: subj,
+            brand: brandId || null,
           },
           null,
         );
@@ -6378,10 +6332,14 @@ function rr(x, px, py, w, h, r) {
           }),
         );
 
-        /* AI model lab dropdown */
-        if (modelDrop && modelDropPop) {
-          const LAB_OPTIONS = [
-            { key: "all", label: "All AI Models" },
+        /* AI brand dropdown (ONLY on /finished) */
+        const isFinished = isFinishedMode();
+        if (modelDrop) {
+          modelDrop.style.display = isFinished ? "" : "none";
+        }
+        if (isFinished && modelDrop && modelDropPop) {
+          const BRAND_OPTIONS = [
+            { key: "all", label: "All AI Brands" },
             { key: "openai", label: "OpenAI" },
             { key: "anthropic", label: "Anthropic" },
             { key: "google", label: "Google" },
@@ -6391,9 +6349,9 @@ function rr(x, px, py, w, h, r) {
             { key: "grok", label: "Grok" },
           ];
           const activeOpt =
-            LAB_OPTIONS.find((o) => o.key === modelFilter) || LAB_OPTIONS[0];
+            BRAND_OPTIONS.find((o) => o.key === modelFilter) || BRAND_OPTIONS[0];
           modelDropLabel.textContent = activeOpt.label;
-          modelDropPop.innerHTML = LAB_OPTIONS.map(
+          modelDropPop.innerHTML = BRAND_OPTIONS.map(
             (o) =>
               '<button class="yopt' +
               (modelFilter === o.key ? " on" : "") +
@@ -6492,29 +6450,12 @@ function rr(x, px, py, w, h, r) {
             if (stFilter === "done" && !done) return "";
             if (stFilter === "wip" && done) return "";
           }
-          const mrow = SUBJECT_ROWS[r.year + "|" + normSubject(r.subj)] || {};
-          const lab = getBookModelLab(mrow);
-          if (modelFilter !== "all") {
-            if (!lab || lab.id !== modelFilter) return "";
-          }
           const ok = r.s || r.t || r.w;
           if (!ok) {
             if (edFilter !== "all") return "";
             return (
               '<div class="book-card soon">' +
-              '<div class="bcov dim">' +
-              (lab
-                ? '<span class="blab-pill ' +
-                  lab.id +
-                  '" title="AI Creator: ' +
-                  lab.name +
-                  ' (' +
-                  lab.model +
-                  ')">' +
-                  lab.name +
-                  "</span>"
-                : "") +
-              '<img data-y="' +
+              '<div class="bcov dim"><img data-y="' +
               r.year +
               '" data-s="' +
               r.subj +
@@ -6527,55 +6468,107 @@ function rr(x, px, py, w, h, r) {
               '<span class="status soon">Soon</span></div></div>'
             );
           }
-          const labTag = lab
-            ? '<span class="blab-pill ' +
-              lab.id +
-              '" title="AI Creator: ' +
-              lab.name +
-              ' (' +
-              lab.model +
-              ')">' +
-              lab.name +
-              "</span>"
-            : "";
-          return EDITIONS.filter(
+
+          const isFinished = isFinishedMode();
+          const activeEditions = EDITIONS.filter(
             (e) =>
               (e.key === "manual" && r.s) ||
               (e.key === "teacher" && r.t) ||
               (e.key === "workbook" && r.w),
-          )
-            .filter((e) => edFilter === "all" || edFilter === e.key)
+          ).filter((e) => edFilter === "all" || edFilter === e.key);
+
+          if (!isFinished) {
+            /* MAIN CATALOGUE (/): Standard 1 card per edition, NO AI brand pills or multipliers */
+            return activeEditions
+              .map((e) => {
+                return (
+                  '<div class="book-card">' +
+                  '<div class="bcov" data-feat="' +
+                  [r.year, r.subj, e.key].join("|") +
+                  '"><img data-y="' +
+                  r.year +
+                  '" data-s="' +
+                  r.subj +
+                  '" alt="' +
+                  r.subj +
+                  " " +
+                  e.label +
+                  '">' +
+                  (e.key !== "manual"
+                    ? '<span class="bflag ' + e.key + '">' + e.short + "</span>"
+                    : "") +
+                  stateBadge(r.year, r.subj) +
+                  "</div>" +
+                  "<h4>" +
+                  r.subj +
+                  "</h4>" +
+                  '<div class="bed">' +
+                  e.label +
+                  "</div>" +
+                  '<div class="foot-row">' +
+                  '<button class="view3d" data-feat="' +
+                  [r.year, r.subj, e.key].join("|") +
+                  '">Open Book</button>' +
+                  '<button class="markbtn" data-done="' +
+                  [r.year, r.subj].join("|") +
+                  '">' +
+                  (bookIsDone(r.year, r.subj) ? "Done ✓" : "Mark done") +
+                  "</button></div></div>"
+                );
+              })
+              .join("");
+          }
+
+          /* FINISHED CATALOGUE (/finished): Each subject multiplied by the 7 AI brands! */
+          const brands =
+            modelFilter === "all"
+              ? AI_BRANDS
+              : AI_BRANDS.filter((b) => b.id === modelFilter);
+
+          return activeEditions
             .map((e) => {
-              return (
-                '<div class="book-card">' +
-                '<div class="bcov" data-feat="' +
-                [r.year, r.subj, e.key].join("|") +
-                '">' +
-                labTag +
-                '<img data-y="' +
-                r.year +
-                '" data-s="' +
-                r.subj +
-                '" alt="' +
-                r.subj +
-                " " +
-                e.label +
-                '">' +
-                (e.key !== "manual"
-                  ? '<span class="bflag ' + e.key + '">' + e.short + "</span>"
-                  : "") +
-                stateBadge(r.year, r.subj) +
-                "</div>" +
-                '<div class="foot-row">' +
-                '<button class="view3d" data-feat="' +
-                [r.year, r.subj, e.key].join("|") +
-                '">Open Book</button>' +
-                '<button class="markbtn" data-done="' +
-                [r.year, r.subj].join("|") +
-                '">' +
-                (bookIsDone(r.year, r.subj) ? "Done ✓" : "Mark done") +
-                "</button></div></div>"
-              );
+              return brands
+                .map((brand) => {
+                  const featVal = [r.year, r.subj, e.key, brand.id].join("|");
+                  return (
+                    '<div class="book-card">' +
+                    '<div class="bcov" data-feat="' +
+                    featVal +
+                    '">' +
+                    '<span class="blab-pill ' +
+                    brand.id +
+                    '">' +
+                    brand.name +
+                    "</span>" +
+                    '<img data-y="' +
+                    r.year +
+                    '" data-s="' +
+                    r.subj +
+                    '" alt="' +
+                    r.subj +
+                    " " +
+                    brand.name +
+                    '">' +
+                    stateBadge(r.year, r.subj) +
+                    "</div>" +
+                    "<h4>" +
+                    r.subj +
+                    "</h4>" +
+                    '<div class="bed">' +
+                    brand.name +
+                    "</div>" +
+                    '<div class="foot-row">' +
+                    '<button class="view3d" data-feat="' +
+                    featVal +
+                    '">Open Book</button>' +
+                    '<button class="markbtn" data-done="' +
+                    [r.year, r.subj].join("|") +
+                    '">' +
+                    (bookIsDone(r.year, r.subj) ? "Done ✓" : "Mark done") +
+                    "</button></div></div>"
+                  );
+                })
+                .join("");
             })
             .join("");
         }
@@ -6607,8 +6600,8 @@ function rr(x, px, py, w, h, r) {
               y +
               " <span>" +
               (edFilter === "all"
-                ? nBooks + " books across " + rows.length + " subjects"
-                : nShown + " books") +
+                ? (isFinished ? nShown * (modelFilter === "all" ? AI_BRANDS.length : 1) : nBooks) + " books across " + rows.length + " subjects"
+                : (isFinished ? nShown * (modelFilter === "all" ? AI_BRANDS.length : 1) : nShown) + " books") +
               "</span></h3>" +
               '<div class="cat-grid">' +
               cards +
@@ -6644,7 +6637,7 @@ function rr(x, px, py, w, h, r) {
           const v = e.target.closest("[data-feat]");
           if (!v) return;
           const parts = v.getAttribute("data-feat").split("|");
-          const go = () => openFlex(parts[0], parts[1]);
+          const go = () => openFlex(parts[0], parts[1], parts[2], parts[3]);
           closeCatalogue();
           go();
         };
@@ -7161,39 +7154,32 @@ function rr(x, px, py, w, h, r) {
       }
       setInterval(fbWatch, 500);
 
-      function updateModelLabUI(lab, row) {
+      function updateModelLabUI(brand, row) {
         const chip = document.getElementById("fbLabChip");
         const tag = document.getElementById("fbLabTag");
         const model = document.getElementById("fbLabModel");
-        if (!chip || !tag || !model) return;
+        if (!chip || !tag) return;
 
-        chip.className = "fb-lab-chip " + (lab ? lab.id : "unassigned");
-        if (lab) {
-          tag.textContent = lab.name;
-          model.textContent = "· " + lab.model;
-          chip.setAttribute(
-            "title",
-            "Created by " +
-              lab.name +
-              " (" +
-              lab.model +
-              ") — Click to view AI model specs & compare labs",
-          );
-        } else {
-          tag.textContent = "AI CREATOR";
-          model.textContent = "Assign Model";
-          chip.setAttribute(
-            "title",
-            "No AI creator assigned yet — Click to assign OpenAI, Anthropic, Google, DeepSeek, GLM, Kimi or Grok",
-          );
+        if (!isFinishedMode() || !brand) {
+          chip.style.display = "none";
+          return;
         }
+
+        chip.style.display = "inline-flex";
+        chip.className = "fb-lab-chip " + brand.id;
+        tag.textContent = brand.name;
+        if (model) model.textContent = "";
+        chip.setAttribute(
+          "title",
+          "AI Brand: " + brand.name + " — Click to switch brand",
+        );
         chip.onclick = (e) => {
           e.stopPropagation();
-          openModelModal(lab, row);
+          openModelModal(brand, row);
         };
       }
 
-      function openModelModal(currentLab, row) {
+      function openModelModal(currentBrand, row) {
         const modal = document.getElementById("fbModelModal");
         if (!modal) return;
         const slug =
@@ -7210,26 +7196,26 @@ function rr(x, px, py, w, h, r) {
           bookLabelEl.textContent =
             bookTitle +
             (bookYear ? " · Year " + bookYear : "") +
-            (slug ? " (" + slug + ")" : "");
+            " (AI Brand Edition)";
         }
 
         const curBadge = document.getElementById("fbModelCurBadge");
         const curLab = document.getElementById("fbModelCurLab");
         const curName = document.getElementById("fbModelCurName");
 
-        if (currentLab) {
+        if (currentBrand) {
           if (curBadge) {
-            curBadge.style.background = currentLab.tagBg;
-            curBadge.style.color = currentLab.textColor;
-            curBadge.style.border = "1px solid " + currentLab.tagBorder;
-            curBadge.textContent = currentLab.name.slice(0, 2).toUpperCase();
+            curBadge.style.background = currentBrand.tagBg;
+            curBadge.style.color = currentBrand.textColor;
+            curBadge.style.border = "1px solid " + currentBrand.tagBorder;
+            curBadge.textContent = currentBrand.name.slice(0, 2).toUpperCase();
           }
           if (curLab) {
-            curLab.style.color = currentLab.textColor;
-            curLab.textContent = currentLab.name;
+            curLab.style.color = currentBrand.textColor;
+            curLab.textContent = currentBrand.name;
           }
           if (curName) {
-            curName.textContent = currentLab.model + " — " + currentLab.desc;
+            curName.textContent = "Experimental Edition by " + currentBrand.name;
           }
         } else {
           if (curBadge) {
@@ -7243,17 +7229,15 @@ function rr(x, px, py, w, h, r) {
             curLab.textContent = "UNASSIGNED";
           }
           if (curName) {
-            curName.textContent =
-              "Click any model below to test or assign this book's creation to that frontier AI lab.";
+            curName.textContent = "Select an AI Brand below:";
           }
         }
 
         const grid = document.getElementById("fbModelGrid");
         if (grid) {
-          grid.innerHTML = Object.keys(AI_LABS)
-            .map((k) => {
-              const item = AI_LABS[k];
-              const isCur = currentLab && currentLab.id === item.id;
+          grid.innerHTML = AI_BRANDS
+            .map((item) => {
+              const isCur = currentBrand && currentBrand.id === item.id;
               return (
                 '<button class="fb-model-opt' +
                 (isCur ? " active" : "") +
@@ -7266,9 +7250,6 @@ function rr(x, px, py, w, h, r) {
                 item.name +
                 (isCur ? " ✓" : "") +
                 "</div>" +
-                '<div class="fb-model-opt-ver">' +
-                item.model +
-                "</div>" +
                 "</button>"
               );
             })
@@ -7276,20 +7257,21 @@ function rr(x, px, py, w, h, r) {
 
           grid.querySelectorAll(".fb-model-opt").forEach((btn) => {
             btn.addEventListener("click", () => {
-              const modelId = btn.getAttribute("data-model-id");
-              setBookModelLab(slug, modelId);
-              const newLab = AI_LABS[modelId];
-              updateModelLabUI(newLab, row || BOOK_BY_SLUG[slug]);
-              toast(
-                bookTitle +
-                  " creator set to " +
-                  newLab.name +
-                  " (" +
-                  newLab.model +
-                  ")",
-              );
+              const brandId = btn.getAttribute("data-model-id");
+              const newBrand = AI_BRANDS_MAP[brandId];
+              if (!newBrand) return;
+
+              let baseSlug = (fbBookMeta && fbBookMeta.slug) || (row && row.slug) || "book";
+              baseSlug = baseSlug.replace(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/, "");
+              fbBookMeta.brand = newBrand.id;
+              fbBookMeta.slug = baseSlug + "-" + newBrand.id;
+              fbBookKey = "pb:finished:" + fbBookMeta.slug;
+              if (window.PBRouter) {
+                window.PBRouter.setUrlForSlug(fbBookMeta.slug, fbBookMeta.title);
+              }
+              updateModelLabUI(newBrand, row);
+              toast(bookTitle + " switched to " + newBrand.name);
               modal.classList.remove("open");
-              renderCatalogue();
             });
           });
         }
@@ -7347,8 +7329,13 @@ function rr(x, px, py, w, h, r) {
                   const bar = loadEl.querySelector(".bar");
                   if (bar) bar.style.display = "none";
                 }
-                const activeShellLab = getBookModelLab(cfg);
-                updateModelLabUI(activeShellLab, cfg);
+                const isFinished = isFinishedMode();
+                const shellBrand = isFinished
+                  ? (cfg && cfg.brand && AI_BRANDS_MAP[cfg.brand]) ||
+                    detectBrandFromSlug(cfg && cfg.slug) ||
+                    AI_BRANDS[0]
+                  : null;
+                updateModelLabUI(shellBrand, cfg);
                 pbEmit("pb:book-open");
                 return;
               }
@@ -7377,9 +7364,15 @@ function rr(x, px, py, w, h, r) {
                  back to the served path for anything not in the manifest (a hero book
                  with a hardcoded flipbook). */
               const rowForKey = BOOK_ROWS[src] || {};
-              fbBookKey = rowForKey.slug
-                ? (isFinishedMode() ? "pb:finished:" : "pb:") + rowForKey.slug
-                : "pb:" + src;
+              const isFinished = isFinishedMode();
+              const brand = isFinished
+                ? (cfg && cfg.brand && AI_BRANDS_MAP[cfg.brand]) ||
+                  detectBrandFromSlug(cfg && (cfg.slug || rowForKey.slug)) ||
+                  AI_BRANDS[0]
+                : null;
+              const baseSlug = rowForKey.slug || (cfg.title || "book").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+              const activeSlug = isFinished && brand ? baseSlug + "-" + brand.id : baseSlug;
+              fbBookKey = (isFinished ? "pb:finished:" : "pb:") + activeSlug;
               const row = rowForKey;
               fbBookMeta = {
                 title: cfg.title || "Prime Books",
@@ -7392,7 +7385,8 @@ function rr(x, px, py, w, h, r) {
                 /* Stable per-book identity, also the URL path segment: /book/<slug>.
                    Minted by tools/sync_library.py from year + subject, so it survives
                    a re-sync, a re-render and a rename of the served file. */
-                slug: row.slug || "",
+                slug: activeSlug,
+                brand: brand ? brand.id : null,
                 /* Editorial state, straight from the masters: `done` is true when the
                    student PDF sits in PDF/Output/Done. */
                 done: !!row.done,
@@ -7408,8 +7402,7 @@ function rr(x, px, py, w, h, r) {
               /* The Input button is per book: a PDF input shows it, a
                  spreadsheet input never does (its units are Sections). */
               applyInputButton();
-              const activeLab = getBookModelLab(row);
-              updateModelLabUI(activeLab, row);
+              updateModelLabUI(brand, row);
               if (!fbFlip || fbUrl !== src) {
                 /* different book than the one already built: tear the old one
                    down first, otherwise pages from both PDFs stack up */
@@ -7482,21 +7475,31 @@ function rr(x, px, py, w, h, r) {
           /* A deep link arrives before anything is built, so wait for the
              manifest rather than reporting the book missing. */
           await loadBooksManifest();
+          let brandId = null;
+          let baseSlug = slug;
+          const brandMatch = slug.match(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/);
+          if (brandMatch) {
+            brandId = brandMatch[1];
+            baseSlug = slug.slice(0, -brandMatch[0].length);
+          }
           const row =
             BOOK_BY_SLUG[slug] ||
-            (slug.endsWith("-standard")
-              ? BOOK_BY_SLUG[slug.replace(/-standard$/, "")]
+            BOOK_BY_SLUG[baseSlug] ||
+            (baseSlug.endsWith("-standard")
+              ? BOOK_BY_SLUG[baseSlug.replace(/-standard$/, "")]
               : null);
           if (!row) return false;
+          const cfg = cfgForRow(row);
+          if (brandId) cfg.brand = brandId;
           if (row.pdf) {
-            openFlipbook(cfgForRow(row), row.pdf);
+            openFlipbook(cfg, row.pdf);
             return true;
           }
           /* The book exists in the catalogue but has no PDF yet: open the
              WORKSHOP SHELL so the teacher can still chat with the agent,
              plan the book, and have it built. An empty stage beats a dead
              end - the whole point of this site is creating books. */
-          openFlipbook(cfgForRow(row), null);
+          openFlipbook(cfg, null);
           return true;
         },
         closeBook: function () {

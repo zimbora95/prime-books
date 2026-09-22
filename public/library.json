@@ -19,9 +19,7 @@
       "/library/y01-art-and-design/preview/01.webp",
       "/library/y01-art-and-design/preview/02.webp",
       "/library/y01-art-and-design/preview/last.webp"
-    ],
-    "lab": "anthropic",
-    "model": "Claude 3.7 Sonnet"
+    ]
   },
   {
     "slug": "y01-computing-and-robotics",
@@ -43,9 +41,7 @@
       "/library/y01-computing-and-robotics/preview/01.webp",
       "/library/y01-computing-and-robotics/preview/02.webp",
       "/library/y01-computing-and-robotics/preview/last.webp"
-    ],
-    "lab": "deepseek",
-    "model": "DeepSeek-V3"
+    ]
   },
   {
     "slug": "y01-english",
@@ -67,9 +63,7 @@
       "/library/y01-english/preview/01.webp",
       "/library/y01-english/preview/02.webp",
       "/library/y01-english/preview/last.webp"
-    ],
-    "lab": "kimi",
-    "model": "Moonshot K1.5"
+    ]
   },
   {
     "slug": "y01-english-standard",
@@ -236,9 +230,7 @@
       "/library/y01-global-perspectives/preview/01.webp",
       "/library/y01-global-perspectives/preview/02.webp",
       "/library/y01-global-perspectives/preview/last.webp"
-    ],
-    "lab": "glm",
-    "model": "GLM-4.5"
+    ]
   },
   {
     "slug": "y01-mathematics",
@@ -260,9 +252,7 @@
       "/library/y01-mathematics/preview/01.webp",
       "/library/y01-mathematics/preview/02.webp",
       "/library/y01-mathematics/preview/last.webp"
-    ],
-    "lab": "google",
-    "model": "Gemini 2.5 Pro"
+    ]
   },
   {
     "slug": "y01-music-and-drama",
@@ -283,9 +273,7 @@
       "/library/y01-music-and-drama/preview/01.webp",
       "/library/y01-music-and-drama/preview/02.webp",
       "/library/y01-music-and-drama/preview/last.webp"
-    ],
-    "lab": "openai",
-    "model": "GPT-4o"
+    ]
   },
   {
     "slug": "y01-physical-education",
@@ -306,9 +294,7 @@
       "/library/y01-physical-education/preview/01.webp",
       "/library/y01-physical-education/preview/02.webp",
       "/library/y01-physical-education/preview/last.webp"
-    ],
-    "lab": "grok",
-    "model": "xAI Grok 3"
+    ]
   },
   {
     "slug": "y01-portuguese",
@@ -330,9 +316,7 @@
       "/library/y01-portuguese/preview/01.webp",
       "/library/y01-portuguese/preview/02.webp",
       "/library/y01-portuguese/preview/last.webp"
-    ],
-    "lab": "anthropic",
-    "model": "Claude 3.7 Sonnet"
+    ]
   },
   {
     "slug": "y01-science",
@@ -353,9 +337,7 @@
       "/library/y01-science/preview/01.webp",
       "/library/y01-science/preview/02.webp",
       "/library/y01-science/preview/last.webp"
-    ],
-    "lab": "openai",
-    "model": "GPT-4o"
+    ]
   },
   {
     "slug": "y01-spanish-a1a2",
@@ -417,9 +399,7 @@
       "/library/y02-art-and-design/preview/01.webp",
       "/library/y02-art-and-design/preview/02.webp",
       "/library/y02-art-and-design/preview/last.webp"
-    ],
-    "lab": "anthropic",
-    "model": "Claude 3.7 Sonnet"
+    ]
   },
   {
     "slug": "y02-computing-and-robotics",
@@ -440,9 +420,7 @@
       "/library/y02-computing-and-robotics/preview/01.webp",
       "/library/y02-computing-and-robotics/preview/02.webp",
       "/library/y02-computing-and-robotics/preview/last.webp"
-    ],
-    "lab": "deepseek",
-    "model": "DeepSeek-V3"
+    ]
   },
   {
     "slug": "y02-english",
@@ -463,9 +441,7 @@
       "/library/y02-english/preview/01.webp",
       "/library/y02-english/preview/02.webp",
       "/library/y02-english/preview/last.webp"
-    ],
-    "lab": "kimi",
-    "model": "Moonshot K1.5"
+    ]
   },
   {
     "slug": "y02-german-a1a2",
@@ -527,9 +503,7 @@
       "/library/y02-global-perspectives/preview/01.webp",
       "/library/y02-global-perspectives/preview/02.webp",
       "/library/y02-global-perspectives/preview/last.webp"
-    ],
-    "lab": "glm",
-    "model": "GLM-4.5"
+    ]
   },
   {
     "slug": "y02-mathematics",
@@ -550,9 +524,7 @@
       "/library/y02-mathematics/preview/01.webp",
       "/library/y02-mathematics/preview/02.webp",
       "/library/y02-mathematics/preview/last.webp"
-    ],
-    "lab": "openai",
-    "model": "o1 / GPT-4o"
+    ]
   },
   {
     "slug": "y02-music-and-drama",
@@ -594,9 +566,7 @@
       "/library/y02-physical-education/preview/01.webp",
       "/library/y02-physical-education/preview/02.webp",
       "/library/y02-physical-education/preview/last.webp"
-    ],
-    "lab": "grok",
-    "model": "xAI Grok 3"
+    ]
   },
   {
     "slug": "y02-science",
@@ -617,9 +587,7 @@
       "/library/y02-science/preview/01.webp",
       "/library/y02-science/preview/02.webp",
       "/library/y02-science/preview/last.webp"
-    ],
-    "lab": "google",
-    "model": "Gemini 2.5 Pro"
+    ]
   },
   {
     "slug": "y02-spanish-a1a2",
@@ -681,9 +649,7 @@
       "/library/y03-art-and-design/preview/01.webp",
       "/library/y03-art-and-design/preview/02.webp",
       "/library/y03-art-and-design/preview/last.webp"
-    ],
-    "lab": "anthropic",
-    "model": "Claude 3.7 Sonnet"
+    ]
   },
   {
     "slug": "y03-computing-and-robotics",
@@ -704,9 +670,7 @@
       "/library/y03-computing-and-robotics/preview/01.webp",
       "/library/y03-computing-and-robotics/preview/02.webp",
       "/library/y03-computing-and-robotics/preview/last.webp"
-    ],
-    "lab": "deepseek",
-    "model": "DeepSeek-V3"
+    ]
   },
   {
     "slug": "y03-english",
@@ -726,9 +690,7 @@
       "/library/y03-english/preview/01.webp",
       "/library/y03-english/preview/02.webp",
       "/library/y03-english/preview/last.webp"
-    ],
-    "lab": "kimi",
-    "model": "Moonshot K1.5"
+    ]
   },
   {
     "slug": "y03-german-a1a2",
@@ -790,9 +752,7 @@
       "/library/y03-global-perspectives/preview/01.webp",
       "/library/y03-global-perspectives/preview/02.webp",
       "/library/y03-global-perspectives/preview/last.webp"
-    ],
-    "lab": "glm",
-    "model": "GLM-4.5"
+    ]
   },
   {
     "slug": "y03-mathematics",
@@ -814,9 +774,7 @@
       "/library/y03-mathematics/preview/01.webp",
       "/library/y03-mathematics/preview/02.webp",
       "/library/y03-mathematics/preview/last.webp"
-    ],
-    "lab": "google",
-    "model": "Gemini 2.5 Pro"
+    ]
   },
   {
     "slug": "y03-music-and-drama",
@@ -857,9 +815,7 @@
       "/library/y03-physical-education/preview/01.webp",
       "/library/y03-physical-education/preview/02.webp",
       "/library/y03-physical-education/preview/last.webp"
-    ],
-    "lab": "grok",
-    "model": "xAI Grok 3"
+    ]
   },
   {
     "slug": "y03-portuguese",
@@ -901,9 +857,7 @@
       "/library/y03-science/preview/01.webp",
       "/library/y03-science/preview/02.webp",
       "/library/y03-science/preview/last.webp"
-    ],
-    "lab": "openai",
-    "model": "GPT-4o"
+    ]
   },
   {
     "slug": "y03-spanish-a1a2",
@@ -1948,7 +1902,7 @@
     "band": "Cambridge Lower Secondary",
     "family": "secondary",
     "level": "Lower Secondary",
-    "pages": 78,
+    "pages": 76,
     "done": true,
     "pdf": "/library/y07-portuguese-2nd/book.pdf",
     "cover": "/library/y07-portuguese-2nd/cover.webp",
@@ -2175,7 +2129,7 @@
     "band": "Cambridge Lower Secondary",
     "family": "Primary",
     "level": "Lower Secondary",
-    "pages": 102,
+    "pages": 100,
     "pdf": "/library/y08-portuguese-2nd/book.pdf",
     "cover": "/library/y08-portuguese-2nd/cover.webp",
     "mb": 27.39,
