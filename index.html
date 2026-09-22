@@ -7386,7 +7386,14 @@ function rr(x, px, py, w, h, r) {
                  URL becomes …-openai-openai. */
               const baseSlug = (rowForKey.slug || (cfg.title || "book").toLowerCase().replace(/[^a-z0-9]+/g, "-"))
                 .replace(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/, "");
-              const activeSlug = isFinished && brand ? baseSlug + "-" + brand.id : baseSlug;
+              /* …and never rewrite a master's URL onto a DIFFERENT book: once a
+                 real <slug>-openai edition exists, the default-brand URL of the
+                 master would reload into that edition instead. */
+              const brandedSlug = brand ? baseSlug + "-" + brand.id : baseSlug;
+              const brandClash =
+                BOOK_BY_SLUG[brandedSlug] && BOOK_BY_SLUG[brandedSlug] !== rowForKey;
+              const activeSlug =
+                isFinished && brand && !brandClash ? brandedSlug : rowForKey.slug || baseSlug;
               fbBookKey = (isFinished ? "pb:finished:" : "pb:") + activeSlug;
               const row = rowForKey;
               fbBookMeta = {
