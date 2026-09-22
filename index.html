@@ -775,6 +775,304 @@
         color: #0c2b1c;
       }
 
+      /* ---- AI Creator Lab Badges on Cards ---- */
+      .blab-pill {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 4px 9px;
+        border-radius: 999px;
+        font-size: 10px;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+        z-index: 3;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .blab-pill:hover {
+        transform: scale(1.06);
+      }
+      .blab-pill.openai {
+        background: rgba(16, 163, 127, 0.9);
+        color: #fff;
+        border: 1px solid rgba(52, 211, 153, 0.6);
+      }
+      .blab-pill.anthropic {
+        background: rgba(217, 119, 87, 0.9);
+        color: #fff;
+        border: 1px solid rgba(251, 146, 60, 0.6);
+      }
+      .blab-pill.google {
+        background: rgba(37, 99, 235, 0.9);
+        color: #fff;
+        border: 1px solid rgba(96, 165, 250, 0.6);
+      }
+      .blab-pill.deepseek {
+        background: rgba(14, 116, 144, 0.9);
+        color: #fff;
+        border: 1px solid rgba(56, 189, 248, 0.6);
+      }
+      .blab-pill.glm {
+        background: rgba(79, 70, 229, 0.9);
+        color: #fff;
+        border: 1px solid rgba(129, 140, 248, 0.6);
+      }
+      .blab-pill.kimi {
+        background: rgba(124, 58, 237, 0.9);
+        color: #fff;
+        border: 1px solid rgba(192, 132, 252, 0.6);
+      }
+      .blab-pill.grok {
+        background: rgba(30, 41, 59, 0.9);
+        color: #f8fafc;
+        border: 1px solid rgba(203, 213, 225, 0.4);
+      }
+
+      /* ---- AI Creator Lab Chip in Reader Toolbar ---- */
+      .fb-lab-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: 11.5px;
+        font-weight: 700;
+        cursor: pointer;
+        user-select: none;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+      .fb-lab-chip:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 16px rgba(0, 0, 0, 0.35);
+      }
+      .fb-lab-chip .lab-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+        flex-shrink: 0;
+      }
+      .fb-lab-chip .lab-tag {
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-size: 10.5px;
+        font-weight: 800;
+      }
+      .fb-lab-chip .lab-model {
+        color: #fff;
+        font-weight: 600;
+      }
+      .fb-lab-chip .lab-caret {
+        font-size: 9px;
+        opacity: 0.65;
+        margin-left: 2px;
+      }
+
+      .fb-lab-chip.openai {
+        background: rgba(16, 163, 127, 0.25);
+        border: 1px solid rgba(16, 163, 127, 0.55);
+        color: #34d399;
+      }
+      .fb-lab-chip.openai .lab-dot { background: #10a37f; box-shadow: 0 0 8px #10a37f; }
+
+      .fb-lab-chip.anthropic {
+        background: rgba(217, 119, 87, 0.25);
+        border: 1px solid rgba(217, 119, 87, 0.55);
+        color: #fb923c;
+      }
+      .fb-lab-chip.anthropic .lab-dot { background: #d97757; box-shadow: 0 0 8px #d97757; }
+
+      .fb-lab-chip.google {
+        background: rgba(66, 133, 244, 0.25);
+        border: 1px solid rgba(66, 133, 244, 0.55);
+        color: #60a5fa;
+      }
+      .fb-lab-chip.google .lab-dot { background: #4285f4; box-shadow: 0 0 8px #4285f4; }
+
+      .fb-lab-chip.deepseek {
+        background: rgba(12, 111, 249, 0.25);
+        border: 1px solid rgba(12, 111, 249, 0.55);
+        color: #38bdf8;
+      }
+      .fb-lab-chip.deepseek .lab-dot { background: #0c6ff9; box-shadow: 0 0 8px #0c6ff9; }
+
+      .fb-lab-chip.glm {
+        background: rgba(56, 107, 250, 0.25);
+        border: 1px solid rgba(56, 107, 250, 0.55);
+        color: #818cf8;
+      }
+      .fb-lab-chip.glm .lab-dot { background: #386bfa; box-shadow: 0 0 8px #386bfa; }
+
+      .fb-lab-chip.kimi {
+        background: rgba(139, 92, 246, 0.25);
+        border: 1px solid rgba(139, 92, 246, 0.55);
+        color: #c084fc;
+      }
+      .fb-lab-chip.kimi .lab-dot { background: #8b5cf6; box-shadow: 0 0 8px #8b5cf6; }
+
+      .fb-lab-chip.grok {
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        color: #f1f5f9;
+      }
+      .fb-lab-chip.grok .lab-dot { background: #f1f5f9; box-shadow: 0 0 8px #f1f5f9; }
+
+      .fb-lab-chip.unassigned {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px dashed rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.7);
+      }
+      .fb-lab-chip.unassigned .lab-dot { background: rgba(255, 255, 255, 0.5); }
+
+      /* AI Model Inspector Modal */
+      .fb-model-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 95;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background: rgba(7, 11, 30, 0.75);
+        backdrop-filter: blur(8px);
+        padding: 20px;
+      }
+      .fb-model-modal.open {
+        display: flex;
+      }
+      .fb-model-card {
+        background: #0f172a;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+        border-radius: 16px;
+        width: min(540px, 94vw);
+        padding: 26px;
+        color: #f8fafc;
+        animation: popModal 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+        position: relative;
+      }
+      @keyframes popModal {
+        from { opacity: 0; transform: scale(0.95) translateY(10px); }
+        to { opacity: 1; transform: none; }
+      }
+      .fb-model-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 18px;
+      }
+      .fb-model-card-title {
+        font-size: 18px;
+        font-weight: 800;
+        letter-spacing: -0.01em;
+        margin: 0 0 4px;
+        color: #fff;
+      }
+      .fb-model-card-sub {
+        font-size: 13px;
+        color: #94a3b8;
+      }
+      .fb-model-close {
+        background: transparent;
+        border: 0;
+        color: #94a3b8;
+        font-size: 22px;
+        cursor: pointer;
+        padding: 4px;
+        line-height: 1;
+      }
+      .fb-model-close:hover { color: #fff; }
+      .fb-model-current {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        padding: 14px 16px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+      .fb-model-current-badge {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 800;
+        flex-shrink: 0;
+      }
+      .fb-model-current-info {
+        flex: 1;
+        min-width: 0;
+      }
+      .fb-model-current-lab {
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .fb-model-current-name {
+        font-size: 14.5px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 2px;
+      }
+      .fb-model-grid-title {
+        font-size: 11.5px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #64748b;
+        margin: 0 0 10px;
+      }
+      .fb-model-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      .fb-model-opt {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 10px;
+        padding: 10px 12px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        transition: all 0.15s ease;
+        text-align: left;
+      }
+      .fb-model-opt:hover {
+        background: rgba(255, 255, 255, 0.09);
+        border-color: rgba(255, 255, 255, 0.22);
+        transform: translateY(-2px);
+      }
+      .fb-model-opt.active {
+        background: rgba(255, 255, 255, 0.12);
+        border-color: var(--opt-color, #38bdf8);
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+      }
+      .fb-model-opt-lab {
+        font-size: 12.5px;
+        font-weight: 800;
+        color: var(--opt-color, #fff);
+      }
+      .fb-model-opt-ver {
+        font-size: 11px;
+        color: #94a3b8;
+      }
+
       .bed {
         font-size: 12px;
         font-weight: 800;
@@ -2120,6 +2418,14 @@
             <div class="ydrop-pop" id="ydropPop" role="listbox"></div>
           </div>
           <span class="fdiv" aria-hidden="true"></span>
+          <div class="ydrop model-drop" id="modelDrop">
+            <button class="ydrop-btn" id="modelDropBtn" aria-haspopup="listbox" aria-expanded="false" title="Filter books by AI Creator Model">
+              <span id="modelDropLabel">All AI Models</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="ydrop-pop" id="modelDropPop" role="listbox"></div>
+          </div>
+          <span class="fdiv" aria-hidden="true"></span>
           <div class="seg" id="edSeg" role="tablist" aria-label="Edition"></div>
           <span class="fdiv" aria-hidden="true"></span>
           <div class="seg" id="stSeg" role="tablist" aria-label="Status"></div>
@@ -2133,6 +2439,12 @@
       <div class="fb-head">
         <div class="fb-title">
           <span id="fbName">Humanities · Year 7 — Student Manual</span>
+          <div class="fb-lab-chip unassigned" id="fbLabChip" role="button" tabindex="0" title="Click to inspect or assign AI Creator Model">
+            <span class="lab-dot"></span>
+            <span class="lab-tag" id="fbLabTag">AI CREATOR</span>
+            <span class="lab-model" id="fbLabModel">Loading…</span>
+            <span class="lab-caret">▾</span>
+          </div>
         </div>
         <div class="fb-nav">
           <button class="fb-btn" id="fbTocBtn" aria-label="Book sections">
@@ -2198,6 +2510,28 @@
         <div class="fb-input-note" id="fbInputNote" style="display:none"></div>
         <div id="fbInputBody"></div>
       </div>
+
+      <!-- AI Creator Model Inspector & Switcher Modal -->
+      <div class="fb-model-modal" id="fbModelModal" aria-hidden="true">
+        <div class="fb-model-card" role="dialog" aria-modal="true" aria-labelledby="fbModelCardTitle">
+          <div class="fb-model-card-head">
+            <div>
+              <h3 class="fb-model-card-title" id="fbModelCardTitle">AI Model Architecture</h3>
+              <div class="fb-model-card-sub" id="fbModelBookLabel">Year 1 Art &amp; Design</div>
+            </div>
+            <button class="fb-model-close" id="fbModelModalClose" aria-label="Close modal">&times;</button>
+          </div>
+          <div class="fb-model-current" id="fbModelCurrentBox">
+            <div class="fb-model-current-badge" id="fbModelCurBadge">AI</div>
+            <div class="fb-model-current-info">
+              <div class="fb-model-current-lab" id="fbModelCurLab">CREATOR</div>
+              <div class="fb-model-current-name" id="fbModelCurName">Model Name</div>
+            </div>
+          </div>
+          <div class="fb-model-grid-title">Compare &amp; Assign Creative Lab</div>
+          <div class="fb-model-grid" id="fbModelGrid"></div>
+        </div>
+      </div>
     </div>
 
     <div class="toast" id="toast"></div>
@@ -2232,6 +2566,127 @@
         fbWindow && s.page >= 0 && !pbInWindow(s.page)
           ? Object.assign({}, s, { page: -1 })
           : s;
+
+      /* ---- AI LABS & EXPERIMENTAL MODEL PROVENANCE -----------------------
+         Tracks which frontier AI model created each experimental book:
+         OpenAI, Anthropic, Google, DeepSeek, GLM, Kimi, Grok. */
+      const AI_LABS = {
+        openai: {
+          id: "openai",
+          name: "OpenAI",
+          model: "GPT-4o / o1",
+          badge: "OpenAI",
+          color: "#10a37f",
+          tagBg: "rgba(16, 163, 127, 0.18)",
+          tagBorder: "rgba(16, 163, 127, 0.45)",
+          textColor: "#34d399",
+          desc: "GPT-4o multimodal reasoning & structured layout synthesis",
+        },
+        anthropic: {
+          id: "anthropic",
+          name: "Anthropic",
+          model: "Claude 3.7 Sonnet",
+          badge: "Anthropic",
+          color: "#d97757",
+          tagBg: "rgba(217, 119, 87, 0.18)",
+          tagBorder: "rgba(217, 119, 87, 0.45)",
+          textColor: "#fb923c",
+          desc: "Claude 3.7 Sonnet extended thinking & editorial book design",
+        },
+        google: {
+          id: "google",
+          name: "Google",
+          model: "Gemini 2.5 Pro",
+          badge: "Google",
+          color: "#4285f4",
+          tagBg: "rgba(66, 133, 244, 0.18)",
+          tagBorder: "rgba(66, 133, 244, 0.45)",
+          textColor: "#60a5fa",
+          desc: "Gemini 2.5 Pro deep research & visual science pedagogy",
+        },
+        deepseek: {
+          id: "deepseek",
+          name: "DeepSeek",
+          model: "DeepSeek-V3",
+          badge: "DeepSeek",
+          color: "#0c6ff9",
+          tagBg: "rgba(12, 111, 249, 0.18)",
+          tagBorder: "rgba(12, 111, 249, 0.45)",
+          textColor: "#38bdf8",
+          desc: "DeepSeek-V3 / R1 algorithmic reasoning & STEM precision",
+        },
+        glm: {
+          id: "glm",
+          name: "GLM",
+          model: "GLM-4.5",
+          badge: "GLM",
+          color: "#386bfa",
+          tagBg: "rgba(56, 107, 250, 0.18)",
+          tagBorder: "rgba(56, 107, 250, 0.45)",
+          textColor: "#818cf8",
+          desc: "Zhipu GLM-4.5 / 5 bilingual fluency & structured syllabus alignment",
+        },
+        kimi: {
+          id: "kimi",
+          name: "Kimi",
+          model: "Moonshot K1.5",
+          badge: "Kimi",
+          color: "#8b5cf6",
+          tagBg: "rgba(139, 92, 246, 0.18)",
+          tagBorder: "rgba(139, 92, 246, 0.45)",
+          textColor: "#c084fc",
+          desc: "Moonshot Kimi long-context comprehension & creative language arts",
+        },
+        grok: {
+          id: "grok",
+          name: "Grok",
+          model: "xAI Grok 3",
+          badge: "Grok",
+          color: "#94a3b8",
+          tagBg: "rgba(255, 255, 255, 0.15)",
+          tagBorder: "rgba(255, 255, 255, 0.35)",
+          textColor: "#f1f5f9",
+          desc: "xAI Grok 3 high-intensity reasoning & kinetic physical concepts",
+        },
+      };
+
+      function getBookModelLab(rowOrMeta) {
+        if (!rowOrMeta) return null;
+        const slug = String(rowOrMeta.slug || "").toLowerCase();
+        try {
+          const override = localStorage.getItem("pb_model_" + slug);
+          if (override && AI_LABS[override]) return AI_LABS[override];
+        } catch (e) {}
+
+        const labField = String(rowOrMeta.lab || rowOrMeta.model_lab || "").toLowerCase();
+        if (AI_LABS[labField]) return AI_LABS[labField];
+
+        const modelField = String(rowOrMeta.model || rowOrMeta.ai_model || "").toLowerCase();
+        const editionField = String(rowOrMeta.edition || "").toLowerCase();
+        const combo = `${labField} ${modelField} ${slug} ${editionField}`;
+
+        if (combo.includes("openai") || combo.includes("gpt")) return AI_LABS.openai;
+        if (combo.includes("anthropic") || combo.includes("claude")) return AI_LABS.anthropic;
+        if (combo.includes("google") || combo.includes("gemini")) return AI_LABS.google;
+        if (combo.includes("deepseek")) return AI_LABS.deepseek;
+        if (combo.includes("glm") || combo.includes("zhipu")) return AI_LABS.glm;
+        if (combo.includes("kimi") || combo.includes("moonshot")) return AI_LABS.kimi;
+        if (combo.includes("grok") || combo.includes("xai")) return AI_LABS.grok;
+
+        return null;
+      }
+
+      function setBookModelLab(slug, labId) {
+        if (!slug || !AI_LABS[labId]) return;
+        try {
+          localStorage.setItem("pb_model_" + slug.toLowerCase(), labId);
+        } catch (e) {}
+        const row = BOOK_BY_SLUG[slug];
+        if (row) {
+          row.lab = labId;
+          row.model = AI_LABS[labId].model;
+        }
+      }
 
 function mkCanvas(w, h) {
         const c = document.createElement("canvas");
@@ -5219,23 +5674,50 @@ function rr(x, px, py, w, h, r) {
       const ydropBtn = document.getElementById("ydropBtn");
       const ydropPop = document.getElementById("ydropPop");
       const ydropLabel = document.getElementById("ydropLabel");
+      const modelDrop = document.getElementById("modelDrop");
+      const modelDropBtn = document.getElementById("modelDropBtn");
+      const modelDropPop = document.getElementById("modelDropPop");
+      const modelDropLabel = document.getElementById("modelDropLabel");
 
       /* year dropdown open/close (registered once; options are rebuilt per render) */
       ydropBtn.addEventListener("click", (e) => {
         e.stopPropagation();
         const isOpen = ydrop.classList.toggle("open");
         ydropBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        if (isOpen && modelDrop) {
+          modelDrop.classList.remove("open");
+          modelDropBtn && modelDropBtn.setAttribute("aria-expanded", "false");
+        }
       });
+      if (modelDropBtn) {
+        modelDropBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const isOpen = modelDrop.classList.toggle("open");
+          modelDropBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+          if (isOpen && ydrop) {
+            ydrop.classList.remove("open");
+            ydropBtn.setAttribute("aria-expanded", "false");
+          }
+        });
+      }
       document.addEventListener("click", (e) => {
         if (!ydrop.contains(e.target)) {
           ydrop.classList.remove("open");
           ydropBtn.setAttribute("aria-expanded", "false");
+        }
+        if (modelDrop && !modelDrop.contains(e.target)) {
+          modelDrop.classList.remove("open");
+          modelDropBtn && modelDropBtn.setAttribute("aria-expanded", "false");
         }
       });
       document.addEventListener("keydown", (e) => {
         if (e.key === "Escape") {
           ydrop.classList.remove("open");
           ydropBtn.setAttribute("aria-expanded", "false");
+          if (modelDrop) {
+            modelDrop.classList.remove("open");
+            modelDropBtn && modelDropBtn.setAttribute("aria-expanded", "false");
+          }
         }
       });
       const catBody = document.getElementById("catBody");
@@ -5247,7 +5729,8 @@ function rr(x, px, py, w, h, r) {
       let catData = null,
         catFilter = "All",
         edFilter = "manual",
-        stFilter = "all";
+        stFilter = "all",
+        modelFilter = "all";
       let collectionBooks = null;
 
       const YEAR_COLOURS = {
@@ -5895,6 +6378,41 @@ function rr(x, px, py, w, h, r) {
           }),
         );
 
+        /* AI model lab dropdown */
+        if (modelDrop && modelDropPop) {
+          const LAB_OPTIONS = [
+            { key: "all", label: "All AI Models" },
+            { key: "openai", label: "OpenAI" },
+            { key: "anthropic", label: "Anthropic" },
+            { key: "google", label: "Google" },
+            { key: "deepseek", label: "DeepSeek" },
+            { key: "glm", label: "GLM" },
+            { key: "kimi", label: "Kimi" },
+            { key: "grok", label: "Grok" },
+          ];
+          const activeOpt =
+            LAB_OPTIONS.find((o) => o.key === modelFilter) || LAB_OPTIONS[0];
+          modelDropLabel.textContent = activeOpt.label;
+          modelDropPop.innerHTML = LAB_OPTIONS.map(
+            (o) =>
+              '<button class="yopt' +
+              (modelFilter === o.key ? " on" : "") +
+              '" data-lab="' +
+              o.key +
+              '" role="option">' +
+              o.label +
+              "</button>",
+          ).join("");
+          modelDropPop.querySelectorAll(".yopt").forEach((b) =>
+            b.addEventListener("click", () => {
+              modelFilter = b.getAttribute("data-lab");
+              modelDrop.classList.remove("open");
+              modelDropBtn && modelDropBtn.setAttribute("aria-expanded", "false");
+              renderCatalogue();
+            }),
+          );
+        }
+
         /* edition segmented control (with sliding thumb) */
         edSeg.innerHTML =
           '<span class="seg-thumb" aria-hidden="true"></span>' +
@@ -5974,12 +6492,29 @@ function rr(x, px, py, w, h, r) {
             if (stFilter === "done" && !done) return "";
             if (stFilter === "wip" && done) return "";
           }
+          const mrow = SUBJECT_ROWS[r.year + "|" + normSubject(r.subj)] || {};
+          const lab = getBookModelLab(mrow);
+          if (modelFilter !== "all") {
+            if (!lab || lab.id !== modelFilter) return "";
+          }
           const ok = r.s || r.t || r.w;
           if (!ok) {
             if (edFilter !== "all") return "";
             return (
               '<div class="book-card soon">' +
-              '<div class="bcov dim"><img data-y="' +
+              '<div class="bcov dim">' +
+              (lab
+                ? '<span class="blab-pill ' +
+                  lab.id +
+                  '" title="AI Creator: ' +
+                  lab.name +
+                  ' (' +
+                  lab.model +
+                  ')">' +
+                  lab.name +
+                  "</span>"
+                : "") +
+              '<img data-y="' +
               r.year +
               '" data-s="' +
               r.subj +
@@ -5992,6 +6527,17 @@ function rr(x, px, py, w, h, r) {
               '<span class="status soon">Soon</span></div></div>'
             );
           }
+          const labTag = lab
+            ? '<span class="blab-pill ' +
+              lab.id +
+              '" title="AI Creator: ' +
+              lab.name +
+              ' (' +
+              lab.model +
+              ')">' +
+              lab.name +
+              "</span>"
+            : "";
           return EDITIONS.filter(
             (e) =>
               (e.key === "manual" && r.s) ||
@@ -6004,7 +6550,9 @@ function rr(x, px, py, w, h, r) {
                 '<div class="book-card">' +
                 '<div class="bcov" data-feat="' +
                 [r.year, r.subj, e.key].join("|") +
-                '"><img data-y="' +
+                '">' +
+                labTag +
+                '<img data-y="' +
                 r.year +
                 '" data-s="' +
                 r.subj +
@@ -6613,6 +7161,159 @@ function rr(x, px, py, w, h, r) {
       }
       setInterval(fbWatch, 500);
 
+      function updateModelLabUI(lab, row) {
+        const chip = document.getElementById("fbLabChip");
+        const tag = document.getElementById("fbLabTag");
+        const model = document.getElementById("fbLabModel");
+        if (!chip || !tag || !model) return;
+
+        chip.className = "fb-lab-chip " + (lab ? lab.id : "unassigned");
+        if (lab) {
+          tag.textContent = lab.name;
+          model.textContent = "· " + lab.model;
+          chip.setAttribute(
+            "title",
+            "Created by " +
+              lab.name +
+              " (" +
+              lab.model +
+              ") — Click to view AI model specs & compare labs",
+          );
+        } else {
+          tag.textContent = "AI CREATOR";
+          model.textContent = "Assign Model";
+          chip.setAttribute(
+            "title",
+            "No AI creator assigned yet — Click to assign OpenAI, Anthropic, Google, DeepSeek, GLM, Kimi or Grok",
+          );
+        }
+        chip.onclick = (e) => {
+          e.stopPropagation();
+          openModelModal(lab, row);
+        };
+      }
+
+      function openModelModal(currentLab, row) {
+        const modal = document.getElementById("fbModelModal");
+        if (!modal) return;
+        const slug =
+          (row && row.slug) || (fbBookMeta && fbBookMeta.slug) || "";
+        const bookTitle =
+          (row && (row.subject || row.title)) ||
+          (fbBookMeta && fbBookMeta.subject) ||
+          "Prime Book";
+        const bookYear =
+          (row && row.year) || (fbBookMeta && fbBookMeta.year) || "";
+
+        const bookLabelEl = document.getElementById("fbModelBookLabel");
+        if (bookLabelEl) {
+          bookLabelEl.textContent =
+            bookTitle +
+            (bookYear ? " · Year " + bookYear : "") +
+            (slug ? " (" + slug + ")" : "");
+        }
+
+        const curBadge = document.getElementById("fbModelCurBadge");
+        const curLab = document.getElementById("fbModelCurLab");
+        const curName = document.getElementById("fbModelCurName");
+
+        if (currentLab) {
+          if (curBadge) {
+            curBadge.style.background = currentLab.tagBg;
+            curBadge.style.color = currentLab.textColor;
+            curBadge.style.border = "1px solid " + currentLab.tagBorder;
+            curBadge.textContent = currentLab.name.slice(0, 2).toUpperCase();
+          }
+          if (curLab) {
+            curLab.style.color = currentLab.textColor;
+            curLab.textContent = currentLab.name;
+          }
+          if (curName) {
+            curName.textContent = currentLab.model + " — " + currentLab.desc;
+          }
+        } else {
+          if (curBadge) {
+            curBadge.style.background = "rgba(255, 255, 255, 0.1)";
+            curBadge.style.color = "#94a3b8";
+            curBadge.style.border = "1px dashed rgba(255, 255, 255, 0.25)";
+            curBadge.textContent = "AI";
+          }
+          if (curLab) {
+            curLab.style.color = "#94a3b8";
+            curLab.textContent = "UNASSIGNED";
+          }
+          if (curName) {
+            curName.textContent =
+              "Click any model below to test or assign this book's creation to that frontier AI lab.";
+          }
+        }
+
+        const grid = document.getElementById("fbModelGrid");
+        if (grid) {
+          grid.innerHTML = Object.keys(AI_LABS)
+            .map((k) => {
+              const item = AI_LABS[k];
+              const isCur = currentLab && currentLab.id === item.id;
+              return (
+                '<button class="fb-model-opt' +
+                (isCur ? " active" : "") +
+                '" data-model-id="' +
+                item.id +
+                '" style="--opt-color:' +
+                item.textColor +
+                '">' +
+                '<div class="fb-model-opt-lab">' +
+                item.name +
+                (isCur ? " ✓" : "") +
+                "</div>" +
+                '<div class="fb-model-opt-ver">' +
+                item.model +
+                "</div>" +
+                "</button>"
+              );
+            })
+            .join("");
+
+          grid.querySelectorAll(".fb-model-opt").forEach((btn) => {
+            btn.addEventListener("click", () => {
+              const modelId = btn.getAttribute("data-model-id");
+              setBookModelLab(slug, modelId);
+              const newLab = AI_LABS[modelId];
+              updateModelLabUI(newLab, row || BOOK_BY_SLUG[slug]);
+              toast(
+                bookTitle +
+                  " creator set to " +
+                  newLab.name +
+                  " (" +
+                  newLab.model +
+                  ")",
+              );
+              modal.classList.remove("open");
+              renderCatalogue();
+            });
+          });
+        }
+
+        modal.classList.add("open");
+      }
+
+      function closeModelModal() {
+        const modal = document.getElementById("fbModelModal");
+        if (modal) modal.classList.remove("open");
+      }
+
+      const modalCloseBtn = document.getElementById("fbModelModalClose");
+      if (modalCloseBtn) modalCloseBtn.onclick = closeModelModal;
+      const modalOverlay = document.getElementById("fbModelModal");
+      if (modalOverlay) {
+        modalOverlay.addEventListener("click", (e) => {
+          if (e.target === modalOverlay) closeModelModal();
+        });
+      }
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModelModal();
+      });
+
       function openFlipbook(cfg, url) {
               let src = url || flipbookFor(cfg);
               const fetchSrc = liveUrl(src); /* live tunnel when PC is on */
@@ -6646,6 +7347,8 @@ function rr(x, px, py, w, h, r) {
                   const bar = loadEl.querySelector(".bar");
                   if (bar) bar.style.display = "none";
                 }
+                const activeShellLab = getBookModelLab(cfg);
+                updateModelLabUI(activeShellLab, cfg);
                 pbEmit("pb:book-open");
                 return;
               }
@@ -6705,6 +7408,8 @@ function rr(x, px, py, w, h, r) {
               /* The Input button is per book: a PDF input shows it, a
                  spreadsheet input never does (its units are Sections). */
               applyInputButton();
+              const activeLab = getBookModelLab(row);
+              updateModelLabUI(activeLab, row);
               if (!fbFlip || fbUrl !== src) {
                 /* different book than the one already built: tear the old one
                    down first, otherwise pages from both PDFs stack up */
@@ -6739,6 +7444,7 @@ function rr(x, px, py, w, h, r) {
         }
       }
       function closeFlipbook() {
+        closeModelModal();
         document.body.classList.remove("fb-open");
         fbEl.setAttribute("aria-hidden", "true");
         /* a step queued mid-animation must not fire into the next book */
