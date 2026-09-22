@@ -7381,7 +7381,11 @@ function rr(x, px, py, w, h, r) {
                   detectBrandFromSlug(cfg && (cfg.slug || rowForKey.slug)) ||
                   AI_BRANDS[0]
                 : null;
-              const baseSlug = rowForKey.slug || (cfg.title || "book").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+              /* A model-lab row's own slug already ends in its brand
+                 (y09-portuguese-openai): strip it before re-appending, or the
+                 URL becomes …-openai-openai. */
+              const baseSlug = (rowForKey.slug || (cfg.title || "book").toLowerCase().replace(/[^a-z0-9]+/g, "-"))
+                .replace(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/, "");
               const activeSlug = isFinished && brand ? baseSlug + "-" + brand.id : baseSlug;
               fbBookKey = (isFinished ? "pb:finished:" : "pb:") + activeSlug;
               const row = rowForKey;
