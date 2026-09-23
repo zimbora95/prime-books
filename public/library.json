@@ -2353,6 +2353,28 @@
     ]
   },
   {
+    "slug": "y09-portuguese-anthropic",
+    "year": 9,
+    "subject": "Portuguese",
+    "band": "Cambridge Lower Secondary",
+    "family": "experiment",
+    "level": "Lower Secondary",
+    "pages": 168,
+    "done": false,
+    "pdf": "/library/y09-portuguese-anthropic/book.pdf",
+    "cover": "/library/y09-portuguese-anthropic/cover.webp",
+    "mb": 43.3,
+    "buildable": false,
+    "editable": false,
+    "edition": "Edição final — volume único: capa, ficha técnica, índice, Unidades 1–7, soluções, glossário, recursos, planificação, referências e contracapa",
+    "finished_full": true,
+    "preview": [
+      "/library/y09-portuguese-anthropic/preview/01.webp",
+      "/library/y09-portuguese-anthropic/preview/02.webp",
+      "/library/y09-portuguese-anthropic/preview/last.webp"
+    ]
+  },
+  {
     "slug": "y09-portuguese-2nd",
     "year": 9,
     "subject": "Portuguese 2nd",

@@ -1,0 +1,175 @@
+{
+ "slug": "y09-portuguese-anthropic",
+ "built": "2026-09-23T01:50:58+00:00",
+ "source_pages": 166,
+ "spine_per_page_mm": 0.056,
+ "spine_mm": 10.0,
+ "settings": {
+  "binding": "Perfect bound (paperback)",
+  "paper": "Colour interior, 80 gsm uncoated",
+  "lamination": "Matte",
+  "isbn": "",
+  "printType": "Standard"
+ },
+ "text": {
+  "file": "y09-portuguese-anthropic-text-file.pdf",
+  "url": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-text-file.pdf",
+  "bytes": 174718498,
+  "pages": 166,
+  "content_pages": 166,
+  "padded_pages": 0,
+  "guide_suggested_pages": 167,
+  "pad_12n": false,
+  "pages_rule": "166 content pages, even; the guide suggests 12n-1 (167) -- not padded with blanks",
+  "trim_mm": [
+   216.0,
+   279.0
+  ],
+  "media_mm": [
+   222.0,
+   285.0
+  ],
+  "bleed_mm": 3.0,
+  "cover_stripped": true,
+  "type3": 0,
+  "pdfx": true,
+  "pdfx_note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
+  "live_text_clearance_mm": {
+   "gutter": 20.3,
+   "outer": 9.1,
+   "top": 7.3,
+   "bottom": 6.5
+  }
+ },
+ "cover": {
+  "file": "y09-portuguese-anthropic-cover-file.pdf",
+  "url": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-cover-file.pdf",
+  "preview": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-cover-file.png",
+  "bytes": 52782583,
+  "spine_mm": 10.0,
+  "full_cover_mm": [
+   448.0,
+   285.0
+  ],
+  "width_mm": 448.0,
+  "height_mm": 285.0,
+  "formula_mm": [
+   448.0,
+   285.0
+  ],
+  "back_src": "designed",
+  "trim_mm": [
+   216.0,
+   279.0
+  ],
+  "interior_pages": 166,
+  "spine_text": true,
+  "barcode_mm": [
+   38.0,
+   25.0
+  ],
+  "barcode_ink": 0.0,
+  "spine_confirmed": false,
+  "pdfx": true
+ },
+ "checks": [
+  {
+   "name": "Text file page size is 222 x 285 mm",
+   "pass": true,
+   "detail": "222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed is 3 mm on all four edges",
+   "pass": true,
+   "detail": "every page is built at 222 x 285 mm with art to the media edge; TrimBox declared 3 mm inside",
+   "level": "ok"
+  },
+  {
+   "name": "Single pages, portrait",
+   "pass": true,
+   "detail": "166 single pages, portrait",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 20 mm gutter",
+   "pass": true,
+   "detail": "closest live text is 20.3 mm off the gutter; guide p.3 asks for 20 mm",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 5 mm trim safety",
+   "pass": true,
+   "detail": "outer 9.1 · top 7.3 · bottom 6.5 mm from the trim",
+   "level": "ok"
+  },
+  {
+   "name": "Page count is 12n-1 (guide suggestion)",
+   "pass": false,
+   "detail": "166 pages; the guide (p.5) suggests 12n-1 (155 or 167) for whole 12-page sections -- advisory only, even counts print; no blank pages added",
+   "level": "open"
+  },
+  {
+   "name": "Cover art not repeated in the interior",
+   "pass": true,
+   "detail": "interior page 1 is the title page; the cover art is printed only on the cover file",
+   "level": "ok"
+  },
+  {
+   "name": "All fonts embedded",
+   "pass": true,
+   "detail": "every font is a real embedded TrueType program (guide p.3)",
+   "level": "ok"
+  },
+  {
+   "name": "No Type 3 glyph-program fonts",
+   "pass": true,
+   "detail": "none",
+   "level": "ok"
+  },
+  {
+   "name": "Images at 300 DPI or more",
+   "pass": true,
+   "detail": "every placed image is >= 300 DPI at its printed size",
+   "level": "ok"
+  },
+  {
+   "name": "No live transparency",
+   "pass": true,
+   "detail": "no soft masks, no blend modes: overlays are baked into the pixels",
+   "level": "ok"
+  },
+  {
+   "name": "PDF/X-1a:2001, CMYK",
+   "pass": true,
+   "detail": "text: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text; cover: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
+   "level": "ok"
+  },
+  {
+   "name": "Cover file size",
+   "pass": true,
+   "detail": "448.00 x 285.00 mm = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)",
+   "level": "ok"
+  },
+  {
+   "name": "Spine width confirmed on their sizing calculator",
+   "pass": false,
+   "detail": "10 mm = ceil(0.056 mm x 166 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs",
+   "level": "open"
+  },
+  {
+   "name": "Barcode zone on the back is clear",
+   "pass": true,
+   "detail": "0.00% ink inside their 38 x 25 mm barcode box",
+   "level": "ok"
+  },
+  {
+   "name": "QR codes open public sites only",
+   "pass": true,
+   "detail": "91 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · http://noticias.centromariodionisio.org?p=6877 · https://arquivos.rtp.pt/conteudos/auto-da-barca-do-inferno-de-gil-vicente · https://camoesdigital.pt/ · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/aparte-e-monologo/30420 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/didascalias/17824 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-conceito-de-amalgama/16233 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/sinalefa-e-crase-na-divisao-de-versos-em-silabas-metricas/29583 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/amor-e-um-fogo-que-arde-sem-se-ver-de-luis-de-camoes/ · https://ensina.rtp.pt/artigo/antonio-gedeao-1906-1997 · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente-2/ · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente/ · https://ensina.rtp.pt/artigo/autopsicografia-de-fernando-pessoa/ · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/jorge-amado-capitao-das-letras/ · https://ensina.rtp.pt/artigo/jorge-de-sena/ · https://ensina.rtp.pt/artigo/luis-vaz-de-camoes/ · https://ensina.rtp.pt/artigo/mia-couto-construtor-da-lingua-portuguesa/ · https://ensina.rtp.pt/artigo/miguel-torga-1907-1995/ · https://ensina.rtp.pt/artigo/minibiografia-de-almeida-garrett/ · https://ensina.rtp.pt/artigo/o-diario-de-anne-frank-uma-peca-para-conhecer-a-menina-judia/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/ · https://estudoautonomo.dge.mec.pt/recurso/auto-da-barca-do-inferno-cena-introdutoria · https://estudoemcasaapoia.dge.mec.pt/recurso/barca-bela-de-garrett-folhas-caidas · https://estudoemcasaapoia.dge.mec.pt/recurso/discurso-direto-e-discurso-indireto · https://estudoemcasaapoia.dge.mec.pt/recurso/historia-breve-da-lua-de-antonio-gedeao-1 · https://estudoemcasaapoia.dge.mec.pt/recurso/oracoes-subordinadas-adjetivas-relativas · https://pt.wikisource.org/wiki/Auto_da_Barca_do_Inferno · https://pt.wikisource.org/wiki/Descal%C3%A7a_vai_para_a_fonte · https://pt.wikisource.org/wiki/O_Tesouro · https://purl.pt/12157/1/ficcao/historia-lua.html · https://purl.pt/96/1/ · https://www.annefrank.org/en/anne-frank/who-was-anne-frank/quem-foi-anne-frank/ · https://www.cplp.org/estados-membros · https://www.museusemonumentos.pt/ · https://www.pnl2027.gov.pt/ · https://www.pnl2027.gov.pt/np4/file/2634/Vanessa_vai_a_luta..._e_leva_os__leitore.pdf · https://www.tndm.pt/ · https://www.tnsj.pt/pt/espetaculos/5802/vanessa-vai-a-luta · https://www.tolkienestate.com/life/biography/",
+   "level": "ok"
+  }
+ ],
+ "sheet": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-bookvault.txt",
+ "ok": true
+}

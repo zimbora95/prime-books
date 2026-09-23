@@ -2554,6 +2554,15 @@
           /(?:^|[?&])finished=1(?:&|$)/.test(location.search)
         );
       }
+      /* A finished edition whose manifest row says `finished_full: true` is a
+         COMPLETE book (every unit, back matter and covers built to the
+         standard), so /finished/book/<slug> reads it whole, exactly as
+         /book/<slug> does - no three-page shell window. */
+      function pbFinishedFull() {
+        const m = fbBookMeta || {};
+        const row = BOOK_BY_SLUG[m.slug] || BOOK_ROWS[m.pdf] || null;
+        return !!(row && row.finished_full);
+      }
       /* flip index -> PDF page index, while a window is in force */
       let fbWindow = null;
       const pbIndex = (i) => (fbWindow ? fbWindow[i] : i);
@@ -6078,10 +6087,19 @@ function rr(x, px, py, w, h, r) {
             if (!en.isIntersecting) return;
             const img = en.target;
             coverObserver.unobserve(img);
-            img.src = coverURL(
+            /* a finished card whose brand has its own edition shows that
+               edition's real cover */
+            const ed = editionRow(
               img.getAttribute("data-y"),
               img.getAttribute("data-s"),
+              img.getAttribute("data-brand"),
             );
+            img.src = ed && ed.cover
+              ? liveUrl(ed.cover)
+              : coverURL(
+                  img.getAttribute("data-y"),
+                  img.getAttribute("data-s"),
+                );
           });
         },
         { root: catEl, rootMargin: "500px" },
@@ -6264,9 +6282,18 @@ function rr(x, px, py, w, h, r) {
       /* Open any catalogue book straight in its flipbook - the same path a
          deep link (/book/<slug>) takes. The 3D stage is retired; there is no
          state machine to wait for anymore. */
+      function editionRow(year, subj, brandId) {
+        if (!brandId) return null;
+        const m = SUBJECT_ROWS[year + "|" + normSubject(subj)];
+        return (m && m.slug && BOOK_BY_SLUG[m.slug + "-" + brandId]) || null;
+      }
+
       function openFlex(year, subj, ed, brandId) {
         const crow = catData && catData.find((r) => r.year === year && r.subj === subj);
-        const mrow = SUBJECT_ROWS[year + "|" + normSubject(subj)] || null;
+        const master = SUBJECT_ROWS[year + "|" + normSubject(subj)] || null;
+        /* a real model-lab edition (<slug>-<brand> row) opens ITSELF, not the
+           master under that brand's label */
+        const mrow = editionRow(year, subj, brandId) || master;
         if (mrow) {
           const cfg = cfgForRow(mrow);
           if (brandId) cfg.brand = brandId;
@@ -6551,7 +6578,9 @@ function rr(x, px, py, w, h, r) {
                     '">' +
                     brand.name +
                     "</span>" +
-                    '<img data-y="' +
+                    '<img data-brand="' +
+                    brand.id +
+                    '" data-y="' +
                     r.year +
                     '" data-s="' +
                     r.subj +
@@ -8262,6 +8291,9 @@ function rr(x, px, py, w, h, r) {
            from the input - and a standardised edition falls back to the input of
            the master it was built from, which is the only place its units and
            topics are written down. */
+        /* a complete finished edition reads its OWN contents first */
+        if (pbFinishedFull() && fbBookMeta && fbBookMeta.slug && bases[0] !== fbBookMeta.slug)
+          bases.unshift(fbBookMeta.slug);
         if (isFinishedMode()) {
           for (let b = 0; b < bases.length; b++) {
             const full = await sectionsFromInput(bases[b]);
@@ -8378,7 +8410,7 @@ function rr(x, px, py, w, h, r) {
              data change and never a code change. A standardised edition that
              has not declared its shell yet falls back to cover, second page and
              back cover. */
-          if (isFinishedMode()) {
+          if (isFinishedMode() && !pbFinishedFull()) {
             /* Finished mode: front cover, imprint page (page 2), and back cover.
                Enables flipbook spread opening while keeping interior units clean. */
             fbWindow =

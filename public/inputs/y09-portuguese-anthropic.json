@@ -1,0 +1,96 @@
+{
+ "file": "y09-portuguese-anthropic (edição final, volume único)",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Front matter",
+   "Title": "Ficha técnica",
+   "Page": "1"
+  },
+  {
+   "Section type": "Front matter",
+   "Title": "Como usar este livro",
+   "Page": "2"
+  },
+  {
+   "Section type": "Front matter",
+   "Title": "Mapa do ano",
+   "Page": "3"
+  },
+  {
+   "Section type": "Front matter",
+   "Title": "Índice",
+   "Page": "4"
+  },
+  {
+   "Section type": "Front matter",
+   "Title": "Diário de leitura",
+   "Page": "6"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 · Um mar, sete vozes (Textos dos Media)",
+   "Page": "7"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 · Quem conta um conto (Texto narrativo)",
+   "Page": "39"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 3 · Arde sem se ver (Texto poético)",
+   "Page": "69"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 · À barca, à barca! (Texto dramático)",
+   "Page": "91"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 5 · O ano num caderno (Revisões anuais)",
+   "Page": "117"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 · Prova dos nove (Avaliação)",
+   "Page": "129"
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 · Fora da sala (Atividades extra)",
+   "Page": "141"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Soluções",
+   "Page": "151"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Glossário",
+   "Page": "159"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Recursos",
+   "Page": "161"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Planificação",
+   "Page": "162"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Referências",
+   "Page": "164"
+  }
+ ]
+}
