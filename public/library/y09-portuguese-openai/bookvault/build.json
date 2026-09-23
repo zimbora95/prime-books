@@ -1,9 +1,9 @@
 {
  "slug": "y09-portuguese-openai",
- "built": "2026-09-22T22:42:43+00:00",
- "source_pages": 35,
+ "built": "2026-09-23T01:16:26+00:00",
+ "source_pages": 164,
  "spine_per_page_mm": 0.056,
- "spine_mm": 2.0,
+ "spine_mm": 10.0,
  "settings": {
   "binding": "Perfect bound (paperback)",
   "paper": "Colour interior, 80 gsm uncoated",
@@ -14,13 +14,13 @@
  "text": {
   "file": "y09-portuguese-openai-text-file.pdf",
   "url": "/library/y09-portuguese-openai/bookvault/y09-portuguese-openai-text-file.pdf",
-  "bytes": 22551101,
-  "pages": 35,
-  "content_pages": 35,
+  "bytes": 174679189,
+  "pages": 164,
+  "content_pages": 164,
   "padded_pages": 0,
-  "guide_suggested_pages": 35,
+  "guide_suggested_pages": 167,
   "pad_12n": false,
-  "pages_rule": "12n-1 supply: 35 content pages, exactly the guide's suggestion (p.5)",
+  "pages_rule": "164 content pages, even; the guide suggests 12n-1 (167) -- not padded with blanks",
   "trim_mm": [
    216.0,
    279.0
@@ -35,7 +35,7 @@
   "pdfx": true,
   "pdfx_note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
   "live_text_clearance_mm": {
-   "gutter": 20.4,
+   "gutter": 20.3,
    "outer": 9.1,
    "top": 7.3,
    "bottom": 6.5
@@ -45,16 +45,16 @@
   "file": "y09-portuguese-openai-cover-file.pdf",
   "url": "/library/y09-portuguese-openai/bookvault/y09-portuguese-openai-cover-file.pdf",
   "preview": "/library/y09-portuguese-openai/bookvault/y09-portuguese-openai-cover-file.png",
-  "bytes": 7527733,
-  "spine_mm": 2.0,
+  "bytes": 52772551,
+  "spine_mm": 10.0,
   "full_cover_mm": [
-   440.0,
+   448.0,
    285.0
   ],
-  "width_mm": 440.0,
+  "width_mm": 448.0,
   "height_mm": 285.0,
   "formula_mm": [
-   440.0,
+   448.0,
    285.0
   ],
   "back_src": "designed",
@@ -62,8 +62,8 @@
    216.0,
    279.0
   ],
-  "interior_pages": 35,
-  "spine_text": false,
+  "interior_pages": 164,
+  "spine_text": true,
   "barcode_mm": [
    38.0,
    25.0
@@ -88,13 +88,13 @@
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "35 single pages, portrait",
+   "detail": "164 single pages, portrait",
    "level": "ok"
   },
   {
    "name": "Live text clears their 20 mm gutter",
    "pass": true,
-   "detail": "closest live text is 20.4 mm off the gutter; guide p.3 asks for 20 mm",
+   "detail": "closest live text is 20.3 mm off the gutter; guide p.3 asks for 20 mm",
    "level": "ok"
   },
   {
@@ -104,15 +104,15 @@
    "level": "ok"
   },
   {
-   "name": "Page count is 12n-1",
-   "pass": true,
-   "detail": "35 pages: their barcode page makes 36, a whole number of 12-page sections (guide p.5)",
-   "level": "ok"
+   "name": "Page count is 12n-1 (guide suggestion)",
+   "pass": false,
+   "detail": "164 pages; the guide (p.5) suggests 12n-1 (155 or 167) for whole 12-page sections -- advisory only, even counts print; no blank pages added",
+   "level": "open"
   },
   {
    "name": "Cover art not repeated in the interior",
    "pass": true,
-   "detail": "interior page 1 is a title page; the cover art is printed only on the cover file",
+   "detail": "interior page 1 is the title page; the cover art is printed only on the cover file",
    "level": "ok"
   },
   {
@@ -148,13 +148,13 @@
   {
    "name": "Cover file size",
    "pass": true,
-   "detail": "440.00 x 285.00 mm = back 216 + spine 2 + front 216 + 3 mm bleed (guide p.18)",
+   "detail": "448.00 x 285.00 mm = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)",
    "level": "ok"
   },
   {
    "name": "Spine width confirmed on their sizing calculator",
    "pass": false,
-   "detail": "2 mm = ceil(0.056 mm x 35 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs",
+   "detail": "10 mm = ceil(0.056 mm x 164 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs",
    "level": "open"
   },
   {
@@ -166,7 +166,7 @@
   {
    "name": "QR codes open public sites only",
    "pass": true,
-   "detail": "13 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/",
+   "detail": "91 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · http://noticias.centromariodionisio.org?p=6877 · https://arquivos.rtp.pt/conteudos/auto-da-barca-do-inferno-de-gil-vicente · https://camoesdigital.pt/ · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/aparte-e-monologo/30420 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/didascalias/17824 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-conceito-de-amalgama/16233 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/sinalefa-e-crase-na-divisao-de-versos-em-silabas-metricas/29583 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/amor-e-um-fogo-que-arde-sem-se-ver-de-luis-de-camoes/ · https://ensina.rtp.pt/artigo/antonio-gedeao-1906-1997 · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente-2/ · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente/ · https://ensina.rtp.pt/artigo/autopsicografia-de-fernando-pessoa/ · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/jorge-amado-capitao-das-letras/ · https://ensina.rtp.pt/artigo/jorge-de-sena/ · https://ensina.rtp.pt/artigo/luis-vaz-de-camoes/ · https://ensina.rtp.pt/artigo/mia-couto-construtor-da-lingua-portuguesa/ · https://ensina.rtp.pt/artigo/miguel-torga-1907-1995/ · https://ensina.rtp.pt/artigo/minibiografia-de-almeida-garrett/ · https://ensina.rtp.pt/artigo/o-diario-de-anne-frank-uma-peca-para-conhecer-a-menina-judia/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/ · https://estudoautonomo.dge.mec.pt/recurso/auto-da-barca-do-inferno-cena-introdutoria · https://estudoemcasaapoia.dge.mec.pt/recurso/barca-bela-de-garrett-folhas-caidas · https://estudoemcasaapoia.dge.mec.pt/recurso/discurso-direto-e-discurso-indireto · https://estudoemcasaapoia.dge.mec.pt/recurso/historia-breve-da-lua-de-antonio-gedeao-1 · https://estudoemcasaapoia.dge.mec.pt/recurso/oracoes-subordinadas-adjetivas-relativas · https://pt.wikisource.org/wiki/Auto_da_Barca_do_Inferno · https://pt.wikisource.org/wiki/Descal%C3%A7a_vai_para_a_fonte · https://pt.wikisource.org/wiki/O_Tesouro · https://purl.pt/12157/1/ficcao/historia-lua.html · https://purl.pt/96/1/ · https://www.annefrank.org/en/anne-frank/who-was-anne-frank/quem-foi-anne-frank/ · https://www.cplp.org/estados-membros · https://www.museusemonumentos.pt/ · https://www.pnl2027.gov.pt/ · https://www.pnl2027.gov.pt/np4/file/2634/Vanessa_vai_a_luta..._e_leva_os__leitore.pdf · https://www.tndm.pt/ · https://www.tnsj.pt/pt/espetaculos/5802/vanessa-vai-a-luta · https://www.tolkienestate.com/life/biography/",
    "level": "ok"
   }
  ],

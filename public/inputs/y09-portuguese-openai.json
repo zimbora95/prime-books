@@ -1,5 +1,5 @@
 {
- "file": "y09-portuguese-openai (Unit 1 redesign)",
+ "file": "y09-portuguese-openai (volume único)",
  "sheet": "Contents",
  "headers": [
   "Section type",
@@ -8,104 +8,69 @@
  ],
  "rows": [
   {
-   "Section type": "Unit",
-   "Title": "Unidade 1 · Um mar, sete vozes (Textos dos Media)",
+   "Section type": "Front matter",
+   "Title": "Folha de rosto, como usar, ficha técnica, índice",
    "Page": "1"
   },
   {
-   "Section type": "Subunit",
-   "Title": "Mapa da unidade e ponto de partida",
-   "Page": "2"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "O sinal dos géneros",
-   "Page": "4"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "1.1 Oralidade: ouvir o essencial (reportagem da RTP)",
+   "Section type": "Unit",
+   "Title": "Unidade 1 · Um mar, sete vozes (Textos dos Media)",
    "Page": "5"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Reportagem",
-   "Page": "7"
+   "Section type": "Unit",
+   "Title": "Unidade 2 · Quem conta um conto (Texto narrativo)",
+   "Page": "37"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Entrevista",
-   "Page": "10"
+   "Section type": "Unit",
+   "Title": "Unidade 3 · Arde sem se ver (Texto poético)",
+   "Page": "67"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Autobiografia",
-   "Page": "12"
+   "Section type": "Unit",
+   "Title": "Unidade 4 · À barca, à barca! (Texto dramático)",
+   "Page": "89"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Comentário",
-   "Page": "14"
+   "Section type": "Unit",
+   "Title": "Unidade 5 · O ano num caderno (Revisões anuais)",
+   "Page": "115"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Ler para argumentar",
-   "Page": "15"
+   "Section type": "Unit",
+   "Title": "Unidade 6 · Prova dos nove (Avaliação)",
+   "Page": "127"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Texto de opinião",
-   "Page": "16"
+   "Section type": "Unit",
+   "Title": "Unidade 7 · Fora da sala (Atividades extra)",
+   "Page": "139"
   },
   {
-   "Section type": "Subunit",
-   "Title": "1.2 Leitura: Carta de apresentação",
-   "Page": "18"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "1.3 Educação literária: «Mar Português», Fernando Pessoa",
-   "Page": "19"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "1.4 Escrita: autobiografia, texto de opinião, carta de apresentação",
-   "Page": "22"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "1.4 Escrita: a mesa do editor (revisão)",
-   "Page": "25"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "1.5 Gramática: classes e subclasses de palavras",
-   "Page": "26"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "1.5 Gramática: quantificador universal e existencial",
-   "Page": "28"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Síntese: o atlas das sete vozes",
-   "Page": "30"
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Prova final",
-   "Page": "31"
-  },
-  {
-   "Section type": "Subunit",
+   "Section type": "Back matter",
    "Title": "Soluções",
-   "Page": "33"
+   "Page": "149"
   },
   {
-   "Section type": "Subunit",
-   "Title": "Para ir mais longe: códigos QR, glossário e bastidores",
-   "Page": "35"
+   "Section type": "Back matter",
+   "Title": "Glossário",
+   "Page": "157"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Recursos",
+   "Page": "159"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Planificação",
+   "Page": "160"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Referências",
+   "Page": "162"
   }
  ]
 }

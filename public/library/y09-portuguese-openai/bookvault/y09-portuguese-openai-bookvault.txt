@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
-Português 9.º ano · Unidade 1 · «Um mar, sete vozes» (Textos dos Media)
+Português 9.º ano · volume único · Unidades 1–7 + soluções, glossário, recursos, planificação e referências
 slug y09-portuguese-openai
-generated 2026-09-22 22:42 UTC
+generated 2026-09-23 01:16 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -10,8 +10,8 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Paper stock ........ Colour interior, 80 gsm uncoated
   Cover lamination ... Matte
   Trim size .......... 216 x 279 (US Letter) -- their template v4_Text_279_216.pdf (222 x 285 with 3 mm bleed)
-  Page count ......... 35 (interior only, covers excluded) = 12n-1, as the guide suggests
-  Colour pages ....... 35
+  Page count ......... 164 (interior only, covers excluded)
+  Colour pages ....... 164
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
@@ -20,11 +20,11 @@ STEP 1  Add the title on bookvault.app, then enter these specs
 STEP 2  Upload the two files
 --------------------------------------------------------------------------
   TEXT FILE   y09-portuguese-openai-text-file.pdf
-              35 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              164 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
               PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
   COVER FILE  y09-portuguese-openai-cover-file.pdf
-              440.00 x 285.00 mm = back 216 + spine 2 + front 216 + 3 mm bleed
-              spine 2 mm from 35 pages x 0.056 mm (rounded up) -- CONFIRM on their sizing calculator
+              448.00 x 285.00 mm = back 216 + spine 10 + front 216 + 3 mm bleed
+              spine 10 mm from 164 pages x 0.056 mm (rounded up) -- CONFIRM on their sizing calculator
               PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
 
 --------------------------------------------------------------------------
@@ -35,15 +35,15 @@ STEP 3  Checks
   [PASS] Bleed is 3 mm on all four edges
          every page is built at 222 x 285 mm with art to the media edge; TrimBox declared 3 mm inside
   [PASS] Single pages, portrait
-         35 single pages, portrait
+         164 single pages, portrait
   [PASS] Live text clears their 20 mm gutter
-         closest live text is 20.4 mm off the gutter; guide p.3 asks for 20 mm
+         closest live text is 20.3 mm off the gutter; guide p.3 asks for 20 mm
   [PASS] Live text clears their 5 mm trim safety
          outer 9.1 · top 7.3 · bottom 6.5 mm from the trim
-  [PASS] Page count is 12n-1
-         35 pages: their barcode page makes 36, a whole number of 12-page sections (guide p.5)
+  [OPEN] Page count is 12n-1 (guide suggestion)
+         164 pages; the guide (p.5) suggests 12n-1 (155 or 167) for whole 12-page sections -- advisory only, even counts print; no blank pages added
   [PASS] Cover art not repeated in the interior
-         interior page 1 is a title page; the cover art is printed only on the cover file
+         interior page 1 is the title page; the cover art is printed only on the cover file
   [PASS] All fonts embedded
          every font is a real embedded TrueType program (guide p.3)
   [PASS] No Type 3 glyph-program fonts
@@ -55,10 +55,10 @@ STEP 3  Checks
   [PASS] PDF/X-1a:2001, CMYK
          text: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text; cover: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
   [PASS] Cover file size
-         440.00 x 285.00 mm = back 216 + spine 2 + front 216 + 3 mm bleed (guide p.18)
+         448.00 x 285.00 mm = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)
   [OPEN] Spine width confirmed on their sizing calculator
-         2 mm = ceil(0.056 mm x 35 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs
+         10 mm = ceil(0.056 mm x 164 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs
   [PASS] Barcode zone on the back is clear
          0.00% ink inside their 38 x 25 mm barcode box
   [PASS] QR codes open public sites only
-         13 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/
+         91 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · http://noticias.centromariodionisio.org?p=6877 · https://arquivos.rtp.pt/conteudos/auto-da-barca-do-inferno-de-gil-vicente · https://camoesdigital.pt/ · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/aparte-e-monologo/30420 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/didascalias/17824 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-conceito-de-amalgama/16233 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/sinalefa-e-crase-na-divisao-de-versos-em-silabas-metricas/29583 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/amor-e-um-fogo-que-arde-sem-se-ver-de-luis-de-camoes/ · https://ensina.rtp.pt/artigo/antonio-gedeao-1906-1997 · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente-2/ · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente/ · https://ensina.rtp.pt/artigo/autopsicografia-de-fernando-pessoa/ · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/jorge-amado-capitao-das-letras/ · https://ensina.rtp.pt/artigo/jorge-de-sena/ · https://ensina.rtp.pt/artigo/luis-vaz-de-camoes/ · https://ensina.rtp.pt/artigo/mia-couto-construtor-da-lingua-portuguesa/ · https://ensina.rtp.pt/artigo/miguel-torga-1907-1995/ · https://ensina.rtp.pt/artigo/minibiografia-de-almeida-garrett/ · https://ensina.rtp.pt/artigo/o-diario-de-anne-frank-uma-peca-para-conhecer-a-menina-judia/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/ · https://estudoautonomo.dge.mec.pt/recurso/auto-da-barca-do-inferno-cena-introdutoria · https://estudoemcasaapoia.dge.mec.pt/recurso/barca-bela-de-garrett-folhas-caidas · https://estudoemcasaapoia.dge.mec.pt/recurso/discurso-direto-e-discurso-indireto · https://estudoemcasaapoia.dge.mec.pt/recurso/historia-breve-da-lua-de-antonio-gedeao-1 · https://estudoemcasaapoia.dge.mec.pt/recurso/oracoes-subordinadas-adjetivas-relativas · https://pt.wikisource.org/wiki/Auto_da_Barca_do_Inferno · https://pt.wikisource.org/wiki/Descal%C3%A7a_vai_para_a_fonte · https://pt.wikisource.org/wiki/O_Tesouro · https://purl.pt/12157/1/ficcao/historia-lua.html · https://purl.pt/96/1/ · https://www.annefrank.org/en/anne-frank/who-was-anne-frank/quem-foi-anne-frank/ · https://www.cplp.org/estados-membros · https://www.museusemonumentos.pt/ · https://www.pnl2027.gov.pt/ · https://www.pnl2027.gov.pt/np4/file/2634/Vanessa_vai_a_luta..._e_leva_os__leitore.pdf · https://www.tndm.pt/ · https://www.tnsj.pt/pt/espetaculos/5802/vanessa-vai-a-luta · https://www.tolkienestate.com/life/biography/
