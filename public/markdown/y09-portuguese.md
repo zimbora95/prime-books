@@ -2096,11 +2096,17 @@ Completa:
 <!-- page 52 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Portuguese
 
-tura, escrita, gramática e oralidade
+Year 9 · Prime School Press · Student Manual
+
+A língua que já é tua — agora escrita com orgulho.
+
+Português Língua Materna para o Year 9: leitura, escrita, gramática e oralidade
+
+com textos autênticos e projetos de escrita.
 
 **INSIDE THIS BOOK**
 
@@ -2119,10 +2125,8 @@ Oralidade e debate
 •
 Balanço no fim de cada unidade
 
-**Prime Books · Portuguese**
+**Prime School Press · Portuguese**
 
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
-
-Student Manual

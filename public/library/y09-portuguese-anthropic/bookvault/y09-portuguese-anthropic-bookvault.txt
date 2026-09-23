@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Português 9.º ano · volume único · Unidades 1–7 + soluções, glossário, recursos, planificação e referências
 slug y09-portuguese-anthropic
-generated 2026-09-23 01:50 UTC
+generated 2026-09-23 02:59 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -48,8 +48,8 @@ STEP 3  Checks
          every font is a real embedded TrueType program (guide p.3)
   [PASS] No Type 3 glyph-program fonts
          none
-  [PASS] Images at 300 DPI or more
-         every placed image is >= 300 DPI at its printed size
+  [FAIL] Images at 300 DPI or more
+         page 1: 132 DPI; page 1: 213 DPI; page 1: 82 DPI
   [PASS] No live transparency
          no soft masks, no blend modes: overlays are baked into the pixels
   [PASS] PDF/X-1a:2001, CMYK

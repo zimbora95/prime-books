@@ -1,6 +1,6 @@
 {
  "slug": "y09-portuguese-anthropic",
- "built": "2026-09-23T01:50:58+00:00",
+ "built": "2026-09-23T02:59:14+00:00",
  "source_pages": 166,
  "spine_per_page_mm": 0.056,
  "spine_mm": 10.0,
@@ -14,7 +14,7 @@
  "text": {
   "file": "y09-portuguese-anthropic-text-file.pdf",
   "url": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-text-file.pdf",
-  "bytes": 174718498,
+  "bytes": 175363494,
   "pages": 166,
   "content_pages": 166,
   "padded_pages": 0,
@@ -45,7 +45,7 @@
   "file": "y09-portuguese-anthropic-cover-file.pdf",
   "url": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-cover-file.pdf",
   "preview": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-cover-file.png",
-  "bytes": 52782583,
+  "bytes": 501384,
   "spine_mm": 10.0,
   "full_cover_mm": [
    448.0,
@@ -129,9 +129,9 @@
   },
   {
    "name": "Images at 300 DPI or more",
-   "pass": true,
-   "detail": "every placed image is >= 300 DPI at its printed size",
-   "level": "ok"
+   "pass": false,
+   "detail": "page 1: 132 DPI; page 1: 213 DPI; page 1: 82 DPI",
+   "level": "fail"
   },
   {
    "name": "No live transparency",
@@ -171,5 +171,5 @@
   }
  ],
  "sheet": "/library/y09-portuguese-anthropic/bookvault/y09-portuguese-anthropic-bookvault.txt",
- "ok": true
+ "ok": false
 }

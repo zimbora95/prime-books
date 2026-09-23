@@ -7382,8 +7382,11 @@ function rr(x, px, py, w, h, r) {
               /* header must name the book actually being previewed, not the
                  hardcoded Humanities sample */
               const nameEl = document.getElementById("fbName");
+              /* a row may carry its own header (e.g. a Portuguese edition:
+                 "Português · 9.º ano — Manual do aluno") */
+              const rowForName = BOOK_ROWS[src] || {};
               if (nameEl)
-                nameEl.textContent =
+                nameEl.textContent = rowForName.display_name ||
                   (cfg.title || "Prime Books") +
                   (cfg.yearNum ? " \u00b7 Year " + cfg.yearNum : "") +
                   " \u2014 Student Manual";

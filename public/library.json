@@ -2363,10 +2363,11 @@
     "done": false,
     "pdf": "/library/y09-portuguese-anthropic/book.pdf",
     "cover": "/library/y09-portuguese-anthropic/cover.webp",
-    "mb": 43.3,
+    "mb": 42.95,
     "buildable": false,
     "editable": false,
     "edition": "Edição final — volume único: capa, ficha técnica, índice, Unidades 1–7, soluções, glossário, recursos, planificação, referências e contracapa",
+    "display_name": "Português · 9.º ano — Manual do aluno",
     "finished_full": true,
     "preview": [
       "/library/y09-portuguese-anthropic/preview/01.webp",

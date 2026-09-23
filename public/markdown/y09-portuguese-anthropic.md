@@ -4,29 +4,11 @@
 <!-- page 1 -->
 
 ---
-Ê
+## Português
 
-**P R I M E S C H O O L P R E S S · L Í N G U A M A T E R N A**
-Português
-9.º ano
+## 9.º ano
 
-Media · narrativa · poesia · teatro · revisões · avaliação · atividades
-
-**M A N U A L D O A L U N O · 3 . º C I C L O D O E N S I N O B Á S I C O**
-
-1 Um mar, sete vozes
-
-2 Quem conta um conto
-
-3 Arde sem se ver
-
-4 À barca, à barca!
-
-5 O ano num caderno
-
-6 Prova dos nove
-
-7 Fora da sala
+Manual do aluno
 
 <!-- page 2 -->
 
@@ -226,61 +208,39 @@ PORTUGUÊS · 9.º ANO
 
 ---
 **MAPA DO ANO · PRIME SCHOOL PRESS**
-Português
-9.º ano
+Português 9.º ano
 
-Media, narrativa, poesia e teatro — ler, escrever, falar e pensar em
-português, com as vozes de Camões, Gil Vicente, Garrett, Eça,
-Pessoa e dos escritores de hoje.
+Media, narrativa, poesia e teatro — ler, escrever, falar e pensar em português,
+com as vozes de Camões, Gil Vicente, Garrett, Eça, Pessoa e dos escritores de
+hoje.
 
-1
-
-Um mar, sete vozes
+1 Um mar, sete vozes
 
 TEXTOS DOS MEDIA
 
-2
-
-Quem conta um conto
+2 Quem conta um conto
 
 TEXTO NARRATIVO
 
-3
-
-Arde sem se ver
+3 Arde sem se ver
 
 TEXTO POÉTICO
 
-4
-
-À barca, à barca!
+4 À barca, à barca!
 
 TEXTO DRAMÁTICO
 
-5
-
-O ano num caderno
+5 O ano num caderno
 
 REVISÕES ANUAIS
 
-6
-
-Prova dos nove
+6 Prova dos nove
 
 AVALIAÇÃO
 
-7
-
-Fora da sala
+7 Fora da sala
 
 ATIVIDADES EXTRA
-
-+
-
-Fim do livro
-
-SOLUÇÕES · GLOSSÁRIO ·
-RECURSOS · PLANIFICAÇÃO
 
 03 / 166
 PORTUGUÊS · 9.º ANO
@@ -18323,40 +18283,37 @@ PORTUGUÊS · 9.º ANO · FIM DO LIVRO
 <!-- page 168 -->
 
 ---
-**P O R T U G U Ê S · 9 . º A N O · L Í N G U A M A T E R N A**
-Ler, escrever, falar
-e pensar em português
+**P R I M E  S C H O O L  P R E S S**
 
-Reportagens e entrevistas, contos de Torga, Eça e Mia Couto, a poesia de Camões, Garrett,
-Pessoa e Florbela, o teatro de Gil Vicente — e a gramática, a escrita e a oralidade que os
-explicam.
+## Português
 
-Sete unidades, cada uma com o seu par de tintas: quatro para aprender, uma para rever, uma
-para treinar a avaliação e uma para levar a língua para fora da sala. No fim do livro, todas as
-soluções, o glossário do ano, os recursos digitais e a planificação.
+9.º ano · Prime School Press · Manual do aluno
 
-1 · Um mar, sete vozes
-2 · Quem conta um conto
+A língua que já é tua — agora escrita com orgulho.
 
-3 · Arde sem se ver
-4 · À barca, à barca!
+Português Língua Materna para o 9.º ano: leitura, escrita, gramática e oralidade,
 
-5 · O ano num caderno
-6 · Prova dos nove
+com Os Lusíadas, o Auto da Barca do Inferno e textos autênticos de hoje.
 
-7 · Fora da sala
+**DENTRO DESTE LIVRO**
 
-TEXTOS DOS MEDIA
-TEXTO NARRATIVO
+•
+Sete unidades, da notícia ao teatro
 
-TEXTO POÉTICO
-TEXTO DRAMÁTICO
+•
+Os Lusíadas e o Auto da Barca do Inferno
 
-REVISÕES ANUAIS
-AVALIAÇÃO
+•
+Quadros de ensino e tarefas em três níveis
 
-ATIVIDADES EXTRA
+•
+Dois testes globais com critérios de correção
 
-Prime School Press · www.primeschool.pt
+•
+Soluções, glossário e planificação no fim do livro
 
-166 PÁGINAS · 14–15 ANOS · SOLUÇÕES NO FIM DO LIVRO
+**Prime School Press · Português**
+
+14–15 anos · 3.º Ciclo do Ensino Básico
+
+**primeschool.pt**
