@@ -9,88 +9,98 @@
  "rows": [
   {
    "Section type": "Front matter",
-   "Title": "Ficha técnica",
+   "Title": "Capa",
    "Page": "1"
   },
   {
    "Section type": "Front matter",
-   "Title": "Como usar este livro",
+   "Title": "Ficha técnica",
    "Page": "2"
   },
   {
    "Section type": "Front matter",
-   "Title": "Mapa do ano",
+   "Title": "Como usar este livro",
    "Page": "3"
   },
   {
    "Section type": "Front matter",
-   "Title": "Índice",
+   "Title": "Mapa do ano",
    "Page": "4"
   },
   {
    "Section type": "Front matter",
-   "Title": "Diário de leitura",
-   "Page": "6"
+   "Title": "Índice",
+   "Page": "5"
   },
   {
-   "Section type": "Unit",
-   "Title": "Unidade 1 · Um mar, sete vozes (Textos dos Media)",
+   "Section type": "Front matter",
+   "Title": "Diário de leitura",
    "Page": "7"
   },
   {
    "Section type": "Unit",
+   "Title": "Unidade 1 · Um mar, sete vozes (Textos dos Media)",
+   "Page": "8"
+  },
+  {
+   "Section type": "Unit",
    "Title": "Unidade 2 · Quem conta um conto (Texto narrativo)",
-   "Page": "39"
+   "Page": "40"
   },
   {
    "Section type": "Unit",
    "Title": "Unidade 3 · Arde sem se ver (Texto poético)",
-   "Page": "69"
+   "Page": "70"
   },
   {
    "Section type": "Unit",
    "Title": "Unidade 4 · À barca, à barca! (Texto dramático)",
-   "Page": "91"
+   "Page": "92"
   },
   {
    "Section type": "Unit",
    "Title": "Unidade 5 · O ano num caderno (Revisões anuais)",
-   "Page": "117"
+   "Page": "118"
   },
   {
    "Section type": "Unit",
    "Title": "Unidade 6 · Prova dos nove (Avaliação)",
-   "Page": "129"
+   "Page": "130"
   },
   {
    "Section type": "Unit",
    "Title": "Unidade 7 · Fora da sala (Atividades extra)",
-   "Page": "141"
+   "Page": "142"
   },
   {
    "Section type": "Back matter",
    "Title": "Soluções",
-   "Page": "151"
+   "Page": "152"
   },
   {
    "Section type": "Back matter",
    "Title": "Glossário",
-   "Page": "159"
+   "Page": "160"
   },
   {
    "Section type": "Back matter",
    "Title": "Recursos",
-   "Page": "161"
-  },
-  {
-   "Section type": "Back matter",
-   "Title": "Planificação",
    "Page": "162"
   },
   {
    "Section type": "Back matter",
+   "Title": "Planificação",
+   "Page": "163"
+  },
+  {
+   "Section type": "Back matter",
    "Title": "Referências",
-   "Page": "164"
+   "Page": "165"
+  },
+  {
+   "Section type": "Back matter",
+   "Title": "Contracapa",
+   "Page": "168"
   }
  ]
 }
