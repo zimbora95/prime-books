@@ -1,0 +1,5 @@
+.venv/
+build/
+art/*.png
+src/_book.built.html
+__pycache__/

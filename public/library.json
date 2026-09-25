@@ -2838,5 +2838,28 @@
       "/library/y01-physical-education-standard/preview/02.webp",
       "/library/y01-physical-education-standard/preview/last.webp"
     ]
+  },
+  {
+    "slug": "y08-portuguese-1st-anthropic",
+    "year": 8,
+    "subject": "Portuguese 1st",
+    "band": "Cambridge Lower Secondary",
+    "family": "experiment",
+    "level": "Lower Secondary",
+    "pages": 28,
+    "done": false,
+    "pdf": "/library/y08-portuguese-1st-anthropic/book.pdf",
+    "cover": "/library/y08-portuguese-1st-anthropic/cover.webp",
+    "mb": 6.51,
+    "buildable": false,
+    "editable": false,
+    "edition": "Unidade 1 — Promessa & Veredicto: publicidade e crítica (28 pp., A4, 2 áudios com QR). Unidades 2–4 em construção.",
+    "display_name": "Português · 8.º ano — Promessa & Veredicto",
+    "finished_full": true,
+    "preview": [
+      "/library/y08-portuguese-1st-anthropic/preview/01.webp",
+      "/library/y08-portuguese-1st-anthropic/preview/02.webp",
+      "/library/y08-portuguese-1st-anthropic/preview/last.webp"
+    ]
   }
 ]
