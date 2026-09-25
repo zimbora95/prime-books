@@ -33,6 +33,22 @@ def to_pdf(html_path: pathlib.Path, pdf: pathlib.Path):
         pg = b.new_page()
         pg.goto(html_path.as_uri(), wait_until="load")
         pg.evaluate("document.fonts.ready")
+        # pagination is computed, never typed: parity, folios and cross-references
+        pg.evaluate("""() => {
+          const secs = [...document.querySelectorAll('section.page')];
+          const idx = new Map(secs.map((s, i) => [s.id, i + 1]));
+          secs.forEach((s, i) => {
+            s.classList.remove('recto', 'verso');
+            s.classList.add((i + 1) % 2 ? 'recto' : 'verso');
+            const n = s.querySelector('.folio .n'); if (n) n.textContent = i + 1;
+          });
+          document.querySelectorAll('[data-ref]').forEach(r => {
+            const v = idx.get(r.dataset.ref);
+            if (!v) throw new Error('dangling ref ' + r.dataset.ref);
+            r.textContent = v;
+          });
+          if (secs.length % 2) throw new Error('odd page count ' + secs.length);
+        }""")
         pg.emulate_media(media="print")
         report = pg.evaluate("""() => {
           const mm = 96/25.4, out = [];

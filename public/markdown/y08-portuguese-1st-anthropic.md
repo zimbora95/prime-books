@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (28 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (40 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -13,11 +13,179 @@ L Í N G U A M A T E R N A
 ## & Veredicto
 
 Unidade 1 · Publicidade e crítica
+Unidade 7 · Contrato de leitura
 
 P R I M E S C H O O L
 M A N U A L D O A L U N O
 
 <!-- page 2 -->
+
+---
+P R I M E S C H O O L
+M A N U A L D O A L U N O
+## Promessa
+& Veredicto
+
+P O R T U G U Ê S · L Í N G U A M A T E R N A · 8 . º A N O
+
+**Como usar este livro**
+
+Este manual acompanha-te na aula e fora dela. Cada página diz-te, no topo, que competência vais treinar —
+
+LEITURA
+ORALIDADE
+ESCRITA
+GRAMÁTICA
+ED. LITERÁRIA
+— e a faixa colorida na margem
+
+**diz-te de que lado estás: a vermelho, o lado de quem vende; a azul, o lado de quem julga; a amarelo, a oficina**
+
+onde constróis; a âmbar, o teu percurso de leitor.
+
+Os códigos QR abrem os áudios da unidade no telemóvel. As soluções das atividades de verificação estão no
+
+fim de cada unidade: resolve primeiro, confirma depois.
+
+**ESTA EDIÇÃO**
+
+**Inclui a Unidade 1 (Publicidade e crítica) e a Unidade 7**
+(Contrato de leitura). As Unidades 2 (Texto narrativo), 3
+
+(Texto poético), 4 (Texto dramático), 5 (Revisões anuais) e
+
+6 (Avaliação) juntam-se nas próximas edições, com a
+mesma organização.
+
+**CONCEÇÃO**
+
+Texto, edição, design e direção de arte: equipa de Portu-
+
+guês da Prime School. Composição em Fraunces, Brico-
+
+lage Grotesque e DM Mono (SIL Open Font License).
+
+**TEXTOS E IMAGENS**
+
+O filme O Farol das Baleias, o Cinema Aurora, a vila de
+Vila Nova do Farol, as marcas, as campanhas, os jornais,
+
+os críticos e a revista A Lupa são ficcionais e foram cria-
+
+dos para este manual. «Mar Português», de Fernando
+Pessoa (Mensagem, 1934), está em domínio público. Os tí-
+
+tulos sugeridos na Unidade 7 são obras publicadas, cita-
+das apenas pelo título e pelo autor.
+
+Ilustrações criadas com IA generativa sob direção de
+
+arte editorial. Vozes dos áudios sintetizadas.
+
+**Prime School · Portugal · primeira edição, setembro de 2026.**
+
+© 2026 Prime School. Uso reservado aos alunos e professores da escola. Reprodução para fins letivos na própria turma autorizada.
+
+<!-- page 3 -->
+
+---
+Í N D I C E
+
+Í N D I C E
+O Q U E H Á N E S T E L I V R O
+## Sessões em cartaz
+
+## 1
+## Promessa & Veredicto
+## 4
+
+Em cartaz · o programa da unidade
+**5**
+
+Aquecimento · promessa ou veredicto?
+**6**
+
+SESSÃO 1
+Anatomia de um cartaz · vender ou mudar?
+**7**
+
+SESSÃO 2
+A caixa de ferramentas da persuasão · Pessoa e o sal
+**10**
+
+SESSÃO 3
+Ouvir para desmontar · explicar a intenção
+**13**
+
+SESSÃO 4
+Oficina do anúncio · como nasce um slogan
+**15**
+
+Intervalo · do anúncio à crítica
+**17**
+
+SESSÃO 5
+O veredicto · críticas de cinema e de livro
+**18**
+
+SESSÃO 6
+Quem fez o quê? · frase ativa e passiva
+**23**
+
+SESSÃO 7
+Oficina da crítica · da impressão ao veredicto
+**25**
+
+A estreia · Festival Aurora na tua escola
+**27**
+
+Balanço · dez perguntas relâmpago
+**28**
+
+Glossário · soluções · transcrições
+**29**
+
+## 7
+## Contrato de leitura
+## 30
+
+Que leitor és tu?
+**31**
+
+Os teus direitos e os teus compromissos
+**32**
+
+O contrato
+**33**
+
+Carta de navegação · 24 livros para escolher
+**34**
+
+Diário de bordo · seis livros, seis registos
+**35**
+
+Passar a palavra · seis maneiras de partilhar um livro
+**38**
+
+Reflexão final · o que mudou em mim
+**39**
+
+P R Ó X I M A S E D I Ç Õ E S
+2 · Texto narrativo
+3 · Texto poético
+4 · Texto dramático
+5 · Revisões anuais
+
+6 · Avaliação
+
+P U B L I C I D A D E E C R Í T I C A
+
+A T I V I D A D E S E X T R A · O T E U P E R C U R S O D E L E I T O R
+
+ÍNDICE
+3
+
+<!-- page 4 -->
 
 ---
 U N I D A D E 1
@@ -41,9 +209,9 @@ Como se separa um facto de uma opinião?
 O que torna uma crítica digna de confiança?
 
 ABERTURA
-2
+4
 
-<!-- page 3 -->
+<!-- page 5 -->
 
 ---
 P R O G R A M A D A U N I D A D E
@@ -58,7 +226,7 @@ C I N E M A A U R O R A · V I L A N O V A D O F A R O L
 
 ## PARTE I A Promessa
 
-p. 5
+p. 7
 ## 1
 
 **ANATOMIA DE UM CARTAZ**
@@ -68,8 +236,7 @@ cial e não comercial.
 
 LEITURA
 
-p. 8
-## 2
+## p. 10 2
 
 **AS FERRAMENTAS DA PERSUASÃO**
 
@@ -80,7 +247,7 @@ GRAMÁTICA
 
 ED. LITERÁRIA
 
-## p. 11 3
+## p. 13 3
 
 **OUVIR PARA DESMONTAR**
 
@@ -88,7 +255,7 @@ Analisar dois anúncios de rádio e explicar a intenção de quem fala.
 
 ORALIDADE
 
-## p. 13 4
+## p. 15 4
 
 **OFICINA DO ANÚNCIO**
 
@@ -96,11 +263,11 @@ Criar um slogan que fica no ouvido e um anúncio completo.
 
 ESCRITA
 
-I N T E R V A L O · P . 1 5
+I N T E R V A L O · P . 1 7
 
 ## PARTE II O Veredicto
 
-## p. 16 5
+## p. 18 5
 
 **ANATOMIA DE UMA CRÍTICA**
 
@@ -109,7 +276,7 @@ são. Facto e apreciação.
 
 LEITURA
 
-## p. 21 6
+## p. 23 6
 
 **QUEM FEZ O QUÊ?**
 
@@ -118,7 +285,7 @@ desaparece.
 
 GRAMÁTICA
 
-## p. 23 7
+## p. 25 7
 
 **OFICINA DA CRÍTICA**
 
@@ -126,7 +293,9 @@ Escrever uma crítica com tese, argumentos e conclusão.
 
 ESCRITA
 
-**ESTREIA O teu festival · p. 25  ·  Balanço · p. 26**
+**ESTREIA O teu festival · p.**
+**27  ·  Balanço · p.**
+28
 
 COMO LER ESTE MANUAL
 
@@ -157,9 +326,9 @@ para ir mais longe
 código
 
 PROGRAMA
-3
+5
 
-<!-- page 4 -->
+<!-- page 6 -->
 
 ---
 A N T E S D A S E S S Ã O
@@ -256,9 +425,9 @@ falsa, independentemente de quem a diz.
 **concorda-se ou discorda-se, e por isso deve ser justificada.**
 
 AQUECIMENTO
-4
+6
 
-<!-- page 5 -->
+<!-- page 7 -->
 
 ---
 O Farol
@@ -290,7 +459,7 @@ DOCUMENTO 1 · CARTAZ DE CINEMA
 P A R T E I · A P R O M E S S A
 
 SESSÃO 1
-5
+7
 
 **1**
 
@@ -304,7 +473,7 @@ SESSÃO 1
 
 **6**
 
-<!-- page 6 -->
+<!-- page 8 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -388,9 +557,9 @@ destinatário a adotar um comportamento: comprar, aderir, participar, mudar. É 
 ser memorizado.
 
 SESSÃO 1 · ANATOMIA DE UM CARTAZ
-6
+8
 
-<!-- page 7 -->
+<!-- page 9 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -462,9 +631,9 @@ muitas vezes, uma entidade pública ou uma
 associação.
 
 SESSÃO 1 · VENDER OU MUDAR?
-7
+9
 
-<!-- page 8 -->
+<!-- page 10 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -578,9 +747,9 @@ O plástico cabe no mar.
 09
 
 SESSÃO 2 · FERRAMENTAS
-8
+10
 
-<!-- page 9 -->
+<!-- page 11 -->
 
 ---
 G R A M Á T I C A E M F O C O
@@ -651,9 +820,9 @@ fresco do universo») não engana ninguém. Mas «elimina 100% das bactérias» 
 **verdadeira. Onde fica a fronteira? Discute com a turma.**
 
 SESSÃO 2 · HIPÉRBOLE E ENUMERAÇÃO
-9
+11
 
-<!-- page 10 -->
+<!-- page 12 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -733,9 +902,9 @@ A D I F E R E N Ç A E S S E N C I A L
 culo depois.
 
 SESSÃO 2 · EDUCAÇÃO LITERÁRIA
-10
+12
 
-<!-- page 11 -->
+<!-- page 13 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -786,12 +955,12 @@ Preenche a grelha enquanto ouves.
 
 **Intenção de quem fala**
 
-Sem telemóvel? O professor pode reproduzir os áudios na aula. As transcrições estão na p. 27 — lê-as só depois de ouvires.
+Sem telemóvel? O professor pode reproduzir os áudios na aula. As transcrições estão na p. 29 — lê-as só depois de ouvires.
 
 SESSÃO 3 · OUVIR
-11
+13
 
-<!-- page 12 -->
+<!-- page 14 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -890,9 +1059,9 @@ A V O Z T A M B É M C O N V E N C E
 **Olhar — levanta os olhos das notas.**
 
 SESSÃO 3 · FALAR
-12
+14
 
-<!-- page 13 -->
+<!-- page 15 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -914,7 +1083,7 @@ indicada.
 
 **«Poupa água quando tomas banho.» → C ou D**
 
-## 2 Chuva de slogans. Escolhe o produto ou a causa do teu anúncio (p. 14) e escreve pelo menos seis slo-
+## 2 Chuva de slogans. Escolhe o produto ou a causa do teu anúncio (p. 16) e escreve pelo menos seis slo-
 gans possíveis. Não julgues ainda — primeiro, quantidade.
 
 ## 3 Lê os teus slogans a um colega. Ele escolhe o que ficou no ouvido. Assinala-o com ★. É esse que vais
@@ -963,9 +1132,9 @@ Não deites plástico no mar.
 ## D
 
 SESSÃO 4 · OFICINA DO SLOGAN
-13
+15
 
-<!-- page 14 -->
+<!-- page 16 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -1007,9 +1176,9 @@ CORPO DE TEXTO
 MARCA · APELO À AÇÃO
 
 SESSÃO 4 · O TEU ANÚNCIO
-14
+16
 
-<!-- page 15 -->
+<!-- page 17 -->
 
 ---
 I N T E R V A L O
@@ -1042,15 +1211,15 @@ pesa qualidades e defeitos
 
 deve ser independente
 
-**Pergunta para a pausa: lembras-te do «Deslumbrante.» no cartaz da p. 5? Quando um anúncio cita um crítico,**
+**Pergunta para a pausa: lembras-te do «Deslumbrante.» no cartaz da p. 7? Quando um anúncio cita um crítico,**
 quem está a falar — o anúncio ou a crítica?
 
 I N T E R V A L O
 
 INTERVALO
-15
+17
 
-<!-- page 16 -->
+<!-- page 18 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1096,23 +1265,21 @@ CLASSIFICAÇÃO
 
 Rita (Leonor Pais) e o avô (Joaquim Seixas) numa cena de O Farol das Baleias.
 
-## H
+H á dez anos que o Cinema Aurora, em Vila Nova do Farol, não acendia
 
-á dez anos que o Cinema Aurora, em Vila Nova do Farol, não
+o projetor. Reabriu esta semana com a estreia de O Farol das Baleias, a
 
-acendia o projetor. Reabriu esta semana com a estreia de O Fa-
+primeira longa-metragem de Marta Leal. A história é simples: Rita,
 
-rol das Baleias, a primeira longa-metragem de Marta Leal. A história é
+uma rapariga de doze anos, vai passar o inverno com o avô, o último
 
-simples: Rita, uma rapariga de doze anos, vai passar o inverno com o
+faroleiro da costa, e descobre que uma baleia ferida se aproxima das
 
-avô, o último faroleiro da costa, e descobre que uma baleia ferida se
+rochas todas as noites, atraída pela luz. Quando chega a notícia de que
 
-aproxima das rochas todas as noites, atraída pela luz. Quando chega a
+o farol vai ser automatizado e de que o avô terá de partir, Rita decide
 
-notícia de que o farol vai ser automatizado e de que o avô terá de partir,
-
-Rita decide que alguém tem de ficar a vigiar o mar.
+que alguém tem de ficar a vigiar o mar.
 
 §1
 
@@ -1139,14 +1306,15 @@ compensa.
 §3
 
 SESSÃO 5 · CRÍTICA DE CINEMA
-16
+18
 
-<!-- page 17 -->
+<!-- page 19 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
 
-V E R E D I C T O ★★★★☆  Muito bom
+V E R E D I C T O
+★★★★☆  MUITO BOM
 
 COMO ESTÁ CONSTRUÍDA ESTA
 CRÍTICA
@@ -1161,7 +1329,7 @@ vos valorativos que encontrares no §4.
 ## 2
 
 No §3, a crítica escreve: «Cada plano foi pensado como um quadro.» Quem pensou os planos? Porque
-não o diz a frase? (Vais voltar a esta frase na p. 22.)
+não o diz a frase? (Vais voltar a esta frase na p. 24.)
 
 ## 3 Os adjetivos valorativos são o «termómetro» da crítica. Arruma os que encontraste.
 
@@ -1263,9 +1431,9 @@ P A R A S A B E R · C R Í T I C A
 pode faltar é a justificação.
 
 SESSÃO 5 · ANATOMIA DE UMA CRÍTICA
-17
+19
 
-<!-- page 18 -->
+<!-- page 20 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1309,14 +1477,14 @@ Justifica.
 
 ## 7
 
-O cartaz da p. 5 usa uma só palavra desta crítica: «Deslumbrante». A palavra nem sequer aparece no
+O cartaz da p. 7 usa uma só palavra desta crítica: «Deslumbrante». A palavra nem sequer aparece no
 texto! Achas que o cartaz é honesto?
 DESAFIO
 
 SESSÃO 5 · COMPREENSÃO
-18
+20
 
-<!-- page 19 -->
+<!-- page 21 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1363,9 +1531,9 @@ SÓ TOMÁS
 OS DOIS
 
 SESSÃO 5 · DOIS VEREDICTOS
-19
+21
 
-<!-- page 20 -->
+<!-- page 22 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1429,9 +1597,9 @@ e de finais surpreendentes. E não, não vou con‐
 tar como acaba.
 
 SESSÃO 5 · CRÍTICA DE LIVRO
-20
+22
 
-<!-- page 21 -->
+<!-- page 23 -->
 
 ---
 G R A M Á T I C A E M F O C O
@@ -1522,9 +1690,9 @@ A T E N Ç Ã O
 blico é complemento indireto. Experimenta: «O público foi agradado…» soa mal — e está errado.
 
 SESSÃO 6 · ATIVA E PASSIVA
-21
+23
 
-<!-- page 22 -->
+<!-- page 24 -->
 
 ---
 G R A M Á T I C A E M F O C O
@@ -1580,7 +1748,7 @@ Outras vezes, porque dá jeito a quem fala.
 
 «Os preços das pipocas foram atualizados.»
 
-«Cada plano foi pensado como um quadro.» (p. 16)
+«Cada plano foi pensado como um quadro.» (p. 18)
 
 ## 4
 
@@ -1589,9 +1757,9 @@ preferiu não dizer quem foi? Porquê?
 DESAFIO
 
 SESSÃO 6 · PRÁTICA
-22
+24
 
-<!-- page 23 -->
+<!-- page 25 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -1696,9 +1864,9 @@ por tudo isto
 assim
 
 SESSÃO 7 · PLANIFICAR A CRÍTICA
-23
+25
 
-<!-- page 24 -->
+<!-- page 26 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -1731,9 +1899,9 @@ Usei conectores e vocabulário valorativo preciso (não «fixe», «giro»).
 Usei pelo menos uma frase passiva (por exemplo, na ficha ou no resumo).
 
 SESSÃO 7 · ESCREVER A CRÍTICA
-24
+26
 
-<!-- page 25 -->
+<!-- page 27 -->
 
 ---
 A E S T R E I A · P R O J E T O F I N A L
@@ -1790,7 +1958,7 @@ Convence com voz, pausa e olhar.
 campanha não comercial
 ligada ao tema do filme.
 
-Grupo · p. 13–14
+Grupo · p. 15–16
 
 ## 2
 
@@ -1800,7 +1968,7 @@ Anúncio de rádio de 30
 segundos, gravado no te-
 lemóvel, com duas vozes.
 
-Grupo · p. 11–12
+Grupo · p. 13–14
 
 ## 3
 
@@ -1810,7 +1978,7 @@ Depois da sessão, cada
 um escreve a sua crítica
 do filme.
 
-Individual · p. 23–24
+Individual · p. 25–26
 
 ## 4
 
@@ -1837,9 +2005,9 @@ SEMANA 2 · SEX.
 Críticas e defesa oral
 
 A ESTREIA
-25
+27
 
-<!-- page 26 -->
+<!-- page 28 -->
 
 ---
 B A L A N Ç O
@@ -1910,9 +2078,9 @@ ciação?
 **10**
 
 BALANÇO
-26
+28
 
-<!-- page 27 -->
+<!-- page 29 -->
 
 ---
 G L O S S Á R I O · S O L U Ç Õ E S
@@ -1968,19 +2136,19 @@ Opinião principal que o texto defende.
 
 **Soluções**
 
-**p. 4 · Aquecimento. Anúncio: 1, 2, 5, 8, 10. Crítica: 3, 4, 6, 7, 9 (a 1, a 3 e a**
+**p. 6 · Aquecimento. Anúncio: 1, 2, 5, 8, 10. Crítica: 3, 4, 6, 7, 9 (a 1, a 3 e a**
 7 podiam aparecer nos dois). Factos: 1, 3, 7, 10. Apreciações: 2, 4, 6, 8,
 9. A 5 é um apelo — nem facto, nem apreciação.
 
-**p. 9 · Atividade 1. H · E · H · H · E · H+E.**
+**p. 11 · Atividade 1. H · E · H · H · E · H+E.**
 
-**p. 22 · Atividade 1. P · A · P · A · P · A. Atividade 2. a) A campanha foi**
+**p. 24 · Atividade 1. P · A · P · A · P · A. Atividade 2. a) A campanha foi**
 lançada pela Associação Amigos da Costa. b) O cartaz é pintado pe-
 los alunos do 8.º B. c) A jovem atriz será premiada pelo júri. d) O farol
 **era aceso pelo avô ao anoitecer. Atividade 3. a) Rui Vaz compôs a**
 banda sonora. b) A bilheteira do cinema venderá os bilhetes.
 
-**p. 26 · Relâmpago. 1 imperativo · 2 não comercial · 3 F · 4 hipérbole · 5**
+**p. 28 · Relâmpago. 1 imperativo · 2 não comercial · 3 F · 4 hipérbole · 5**
 O filme foi premiado pelo júri. · 6 pela associação · 7 tese · 8 enume-
 ração · 9 F · 10 facto.
 
@@ -2002,19 +2170,860 @@ tua garrafa. Recusa o descartável. — O mar não cabe numa garrafa.
 Mas o plástico cabe no mar. Campanha Mar Limpo, uma iniciativa da
 Associação Amigos da Costa.
 
-**Promessa & Veredicto · Português, Língua Materna, 8.º ano · Unidade 1 · Prime School, 2026.**
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
 
-O filme O Farol das Baleias, o Cinema Aurora, as marcas, as campanhas, os jornais, os críticos e a revista A Lupa são ficcionais e foram criados para esta uni-
-dade. «Mar Português», de Fernando Pessoa (Mensagem, 1934), está em domínio público. Ilustrações criadas com IA generativa sob direção de arte edito-
-rial; vozes dos áudios sintetizadas.
+**O anúncio promete**
+
+Quer que o destinatário faça al-
+guma coisa: comprar, aderir,
+mudar.
+
+Comercial (produto, lucro) ou
+não comercial (ideia, causa).
+
+Imagem + slogan + corpo de
+texto + marca + apelo à ação.
+
+Ferramentas: imperativo, tu, hi-
+pérbole, enumeração, pergunta
+retórica, duplo sentido, rima,
+autoridade, números, emoção.
+
+**A crítica julga**
+
+Quer que o leitor acredite
+numa apreciação
+fundamentada.
+
+Contexto → tese → argumentos
+com exemplos → reserva → con-
+clusão e recomendação.
+
+Separa factos (verificáveis) de
+apreciações (juízos de valor).
+
+Não revela o final; justifica
+cada juízo.
+
+**Gramática**
+
+**Hipérbole: exagero intencional.**
+**Enumeração: sequência de**
+elementos da mesma natureza.
+
+**Passiva: CD → sujeito; ser + par-**
+ticípio no tempo do verbo origi-
+nal; sujeito → complemento
+agente (por). Só com verbos
+que pedem CD.
 
 GLOSSÁRIO · SOLUÇÕES
-27
+29
 
-<!-- page 28 -->
+<!-- page 30 -->
 
 ---
-P O R T U G U Ê S · 8 . º A N O · U N I D A D E 1
+U N I D A D E 7
+
+A T I V I D A D E S E X T R A · C O N T R A T O D E L E I T U R A
+## Um leitor
+## não nasce.
+Faz-se.
+
+Na Unidade 1 aprendeste a desconfiar de quem te
+quer convencer. Aqui é ao contrário: és tu quem es‐
+**colhe. Durante o ano vais assinar um contrato con‐**
+**tigo próprio — escolher livros, lê-los ao teu ritmo,**
+registar o que te fizeram e, no fim, perceber que lei‐
+tor te tornaste.
+
+**?**
+Que livro te fez, alguma vez, perder a noção das
+horas?
+
+**?**
+É preciso acabar todos os livros que se começam?
+
+**?**
+Como se escolhe um livro sem conhecer a história?
+
+CONTRATO DE LEITURA
+30
+
+<!-- page 31 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+LEITURA
+P O N T O D E P A R T I D A · S E T E M B R O
+## Que leitor és tu?
+
+Responde com honestidade: não há respostas certas, e só tu vais comparar este retrato com
+o de junho (p. 39).
+
+## 1
+Quantos livros leste, por vontade própria, no último ano?
+
+## 2
+Onde e quando lês melhor?
+
+## 3
+O que te faz pegar num livro? (podes escolher vários)
+
+## 4
+Que géneros te chamam mais?
+
+## 5
+O que te faz desistir de um livro?
+
+## 6
+O livro de que mais gostaste até hoje — e uma razão.
+
+## 7
+Um livro que gostavas de ler e ainda não leste.
+
+C O M Q U A L T E P A R E C E S M A I S A G O R A ?
+
+**O explorador**
+
+Lê um pouco de tudo,
+
+salta de género em
+
+género.
+
+**O fiel**
+
+Tem um autor ou uma
+
+saga e não os larga.
+
+**O maratonista**
+
+Lê pouco durante me-
+
+ses — e depois devora
+
+três livros numa
+
+semana.
+
+**O desconfiado**
+
+Ainda não encontrou o
+
+livro certo. Talvez seja
+
+este ano.
+
+nenhum
+1–2
+3–5
+6–10
+mais de 10
+
+na cama
+nos transportes
+na biblioteca
+ao fim de semana
+nas férias
+
+raramente leio
+
+a capa
+o título
+um amigo recomendou
+vi o filme ou a série
+o autor
+
+a primeira página
+um booktuber
+
+aventura
+mistério
+fantasia
+ficção científica
+histórias reais
+humor
+
+romance
+poesia
+BD
+terror
+
+CONTRATO DE LEITURA
+31
+
+<!-- page 32 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+ORALIDADE
+D E B A T E E M T U R M A
+## Direitos e compromissos
+
+Um contrato tem duas faces. De um lado, a liberdade de quem lê; do outro, aquilo a que se
+compromete. Os direitos abaixo inspiram-se nas ideias do escritor francês Daniel Pennac,
+no ensaio Como um Romance.
+
+**Os meus direitos de leitor**
+
+**1. Escolher. Posso escolher o que leio, den-**
+tro da carta de navegação ou fora dela.
+
+**2. Abandonar. Posso deixar um livro que não**
+me diz nada — desde que explique porquê.
+
+**3. Saltar. Posso saltar páginas, sobretudo as**
+que me aborrecem.
+
+**4. Reler. Posso voltar a um livro de que gos-**
+tei, mesmo que já saiba o fim.
+
+**5. Ler em qualquer lado e em qualquer for-**
+mato: papel, ecrã, áudio.
+
+**6. Calar-me. Posso guardar para mim o que**
+um livro me fez sentir.
+
+**Os meus compromissos**
+
+**1. Dar uma oportunidade. Leio pelo menos**
+30 páginas antes de abandonar um livro.
+
+**2. Registar. Preencho o diário de bordo de**
+cada livro que termino ou abandono.
+
+**3. Variar. Ao longo do ano, leio pelo menos**
+um livro de um género que nunca
+escolheria.
+
+**4. Partilhar. Apresento à turma, uma vez por**
+período, um livro que li.
+
+**5. Cumprir o ritmo que eu próprio defini no**
+contrato.
+
+**6. Respeitar os gostos dos outros leitores.**
+
+## 1
+
+Em grupo, escolham o direito com que mais concordam e aquele de que mais desconfiam. Preparem
+dois argumentos para cada um e defendam-nos num debate de dez minutos.
+EM GRUPO
+
+## 2 Acrescenta um direito e um compromisso teus, escritos em frase curta, como os de cima.
+DESAFIO
+
+DIREITO
+
+COMPROMISSO
+
+## 3
+
+Um colega diz: «Eu não gosto de ler.» Escreve-lhe duas frases para o convencer a dar uma oportuni-
+dade a um livro — sem promessas exageradas nem hipérboles enganosas (lembra-te da Unidade 1).
+
+CONTRATO DE LEITURA
+32
+
+<!-- page 33 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+ESCRITA
+D O C U M E N T O P A R A A S S I N A R
+
+P R I M E S C H O O L · P O R T U G U Ê S · 8 . º A N O
+## Contrato de leitura
+
+A N O L E T I V O 2 0 _ _ _ / 2 0 _ _ _
+
+Entre
+, aluno(a) do 8.º ano, turma
+, adiante
+
+**designado(a) o Leitor, e**
+, professor(a) de Português, é cele-
+
+brado o presente contrato, que se rege pelas cláusulas seguintes.
+
+**Cláusula 1.ª · Objeto**
+
+O Leitor compromete-se a ler, por escolha própria,
+livros ao longo do ano letivo, dos
+
+quais pelo menos um de um autor de língua portuguesa e pelo menos um de um género que
+
+nunca escolheria.
+
+**Cláusula 2.ª · Calendário**
+
+1.º PERÍODO · ATÉ DEZEMBRO
+2.º PERÍODO · ATÉ MARÇO
+3.º PERÍODO · ATÉ JUNHO
+
+**Cláusula 3.ª · Ritmo**
+
+O Leitor reserva para a leitura
+minutos por dia, de preferência
+
+(quando e onde).
+
+**Cláusula 4.ª · Registo e partilha**
+
+Por cada livro, o Leitor preenche um registo no diário de bordo e, uma vez por período, apresenta
+
+um livro à turma, num dos formatos da p. 38.
+
+**Cláusula 5.ª · Direitos**
+
+O Leitor mantém todos os direitos enunciados na p. 32, incluindo o de abandonar um livro, nos
+
+termos aí previstos.
+
+**Cláusula 6.ª · Revisão**
+
+O contrato é revisto no fim de cada período e pode ser alterado por acordo entre as partes. A ava-
+
+liação considera o cumprimento, a qualidade dos registos e a partilha — não o número de páginas.
+
+O LEITOR
+O(A) PROFESSOR(A)
+O(A) ENCARREGADO(A) DE
+
+EDUCAÇÃO
+
+LIDO
+E ACEITE
+
+CONTRATO DE LEITURA
+33
+
+<!-- page 34 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+ED. LITERÁRIA
+S U G E S T Õ E S P A R A E S C O L H E R
+## Carta de navegação
+
+**Vinte e quatro livros em seis rotas. Não é uma lista obrigatória: é um mapa. Marca com ○ os**
+**que te chamam, com ● os que já leste — e aceita sugestões de colegas, da biblioteca e de**
+casa.
+
+C L Á S S I C O S E M P O R T U G U Ê S
+D O O U T R O L A D O D O A T L Â N T I C O
+G R A N D E S A V E N T U R A S
+
+C R E S C E R
+V I D A S R E A I S
+R O T A L I V R E
+
+**Biblioteca escolar**
+
+Pede ao professor bibli-
+
+otecário a estante do 8.º
+
+ano e pergunta pelas
+
+novidades.
+
+**Biblioteca**
+**municipal**
+
+O cartão de leitor é gra-
+
+tuito e dá acesso a mi-
+
+lhares de livros — e, em
+
+muitas, a livros digitais.
+
+**Troca na turma**
+
+Uma caixa na sala: dei-
+
+xas um livro que leste,
+
+levas um que alguém
+
+recomendou.
+
+**Audiolivro**
+
+Ouvir também é ler.
+
+Conta para o contrato,
+
+desde que faças o
+
+registo.
+
+**Como escolher sem conhecer a história? Aplica o teste dos três minutos: lê a contracapa (desconfia**
+dela — lembra-te da Unidade 1!), a primeira página e uma página ao acaso do meio. Se, ao fim de três mi-
+nutos, quiseres saber o que acontece a seguir, é um bom candidato.
+
+**Bichos**
+
+Miguel Torga
+
+**O Cavaleiro da Dinamarca**
+
+Sophia de Mello Breyner Andresen
+
+**Ulisses**
+
+Maria Alberta Menéres
+
+**A Lua de Joana**
+Maria Teresa Maia Gonzalez
+
+**O Meu Pé de Laranja Lima**
+
+José Mauro de Vasconcelos
+
+**O Gato Malhado e a Ando-**
+**rinha Sinhá**
+Jorge Amado
+
+**Mar Me Quer**
+
+Mia Couto
+
+**A Maior Flor do Mundo**
+
+José Saramago
+
+**A Ilha do Tesouro**
+
+Robert Louis Stevenson
+
+**Viagem ao Centro da Terra**
+
+Júlio Verne
+
+**O Hobbit**
+
+J. R. R. Tolkien
+
+**Harry Potter e a Pedra**
+**Filosofal**
+
+J. K. Rowling
+
+**Wonder**
+
+R. J. Palacio
+
+**O Rapaz do Pijama às**
+**Riscas**
+
+John Boyne
+
+**A Rapariga que Roubava**
+**Livros**
+Markus Zusak
+
+**O Principezinho**
+
+Antoine de Saint-Exupéry
+
+**O Diário de Anne Frank**
+
+Anne Frank
+
+**Eu Sou Malala**
+Malala Yousafzai
+
+**Persépolis**
+
+Marjane Satrapi · BD
+
+**O Diário de Zlata**
+Zlata Filipović
+
+sugestão de um colega
+
+sugestão da biblioteca
+
+sugestão de casa
+
+a minha descoberta
+
+CONTRATO DE LEITURA
+34
+
+<!-- page 35 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+LEITURA
+ESCRITA
+D I Á R I O D E B O R D O
+
+**Seis livros, seis registos. Preenche um por livro, logo que o terminas (ou o abandonas).**
+Não é um resumo: é a memória do que o livro te fez.
+
+## Livro 1
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+## Livro 2
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+DIÁRIO DE BORDO
+35
+
+<!-- page 36 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+D I Á R I O D E B O R D O · C O N T I N U A Ç Ã O
+
+## Livro 3
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+## Livro 4
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+DIÁRIO DE BORDO
+36
+
+<!-- page 37 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+D I Á R I O D E B O R D O · C O N T I N U A Ç Ã O
+
+## Livro 5
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+## Livro 6
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+DIÁRIO DE BORDO
+37
+
+<!-- page 38 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+ORALIDADE
+ESCRITA
+U M A V E Z P O R P E R Í O D O
+## Passar a palavra
+
+Um livro lido e guardado é uma sessão para uma pessoa só. Escolhe, em cada período, uma
+destas formas de o partilhar — e não repitas a mesma.
+
+01
+
+**Booktalk de 2**
+**minutos**
+
+Apresenta o livro à turma sem
+contar o final. Termina com a
+pergunta: «Quem é que eu
+acho que devia ler isto?»
+
+02
+
+**Booktrailer**
+
+Um vídeo de 45 segundos,
+como o trailer de um filme.
+Usa o que aprendeste sobre
+slogans e apelos (Sessão 4).
+
+03
+
+**Carta a uma**
+**personagem**
+
+Escreve-lhe no momento mais
+difícil da história. O que lhe di-
+rias? O que lhe perguntarias?
+
+04
+
+**Capa alternativa**
+
+Desenha uma nova capa e es-
+creve uma contracapa de 80
+palavras — honesta, sem pro-
+messas exageradas.
+
+05
+
+**A banda sonora do**
+**livro**
+
+Cinco músicas para cinco mo-
+mentos do livro, com uma
+frase a justificar cada escolha.
+
+06
+
+**Crítica para a revista**
+**A Lupa**
+
+180 a 250 palavras, com tese,
+dois argumentos, uma reserva
+e uma recomendação (Sessão
+7).
+
+**Guião do booktalk · 2 minutos**
+
+0:00
+**Gancho**
+Uma frase do livro, uma pergunta ou um objeto.
+
+0:20
+**Quem, onde, que problema A situação inicial — sem revelar o desenlace.**
+
+1:00
+**Porque vale a pena**
+Duas razões concretas, com um exemplo cada.
+
+1:40
+**O teu veredicto**
+Para quem é este livro? E para quem não é?
+
+**Uma boa partilha…**
+não conta o final
+dá razões concretas
+lê ou mostra um excerto
+
+diz para quem é o livro
+cabe no tempo
+
+✎Regista as tuas partilhas.
+
+PERÍODO
+LIVRO
+FORMATO
+DATA
+
+1.º
+
+2.º
+
+3.º
+
+CONTRATO DE LEITURA
+38
+
+<!-- page 39 -->
+
+---
+C O N T R A T O D E L E I T U R A
+
+U N I D A D E 7
+ESCRITA
+P O N T O D E C H E G A D A · J U N H O
+## O que mudou em mim
+
+Volta ao teu retrato de setembro (p. 31) e ao teu diário de bordo. Depois responde — desta
+vez, com a distância de um ano inteiro.
+
+EM SETEMBRO
+EM JUNHO
+
+Livros lidos por vontade própria
+
+O meu género preferido
+
+O tipo de leitor que era / que sou
+
+O que me fazia / faz desistir
+
+## 1
+
+Qual dos livros deste ano te obrigou a ler de outra maneira — mais devagar, com mais atenção, com
+mais perguntas? Explica o que mudou, com um exemplo.
+
+## 2
+
+Cumpriste o contrato? Avalia cada cláusula com honestidade e diz o que farias de outra maneira no
+próximo ano.
+
+N A M I N H A P R Ó X I M A E S T A N T E
+
+**1**
+**2**
+**3**
+
+«Um leitor não nasce. Faz-se.» Tu já começaste.
+ASSINATURA DO LEITOR · JUNHO DE 20___
+
+CONTRATO DE LEITURA
+39
+
+<!-- page 40 -->
+
+---
+P O R T U G U Ê S · 8 . º A N O · M A N U A L D O A L U N O
 ## «Um anúncio promete.
 ## Um crítico julga.
 ## Tu decides.»
@@ -2026,7 +3035,9 @@ um farol. Ao longo de sete sessões, vais desmontar cartazes, anúncios de rádi
 panhas; ler críticas que se contradizem; descobrir o que Fernando Pessoa e um pacote
 de sal têm em comum; e aprender a escrever um slogan que fica no ouvido e uma crí-
 
-tica em que se pode confiar.
+tica em que se pode confiar. E, porque só se aprende a julgar livros lendo-os, assinas
+
+um contrato de leitura contigo próprio.
 
 Publicidade comercial e não comercial
 Crítica de cinema e de livro
@@ -2034,8 +3045,9 @@ Hipérbole e enumeração
 
 Frase ativa e passiva
 2 anúncios de rádio em áudio
+Contrato e diário de leitura
 
-**Lê esta unidade online**
+**Lê este livro online**
 
 prime-books-pi.vercel.app
 P R I M E S C H O O L

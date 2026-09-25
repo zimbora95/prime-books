@@ -57,7 +57,7 @@ def main(edition):
     doc = pymupdf.open(PDF)
     page_webp(doc, 0, OUT / "cover.webp")
     page_webp(doc, 0, OUT / "preview" / "01.webp")
-    page_webp(doc, 1, OUT / "preview" / "02.webp")
+    page_webp(doc, 3, OUT / "preview" / "02.webp")  # unit opener, not the imprint
     page_webp(doc, len(doc) - 1, OUT / "preview" / "last.webp")
     row = dict(ROW, pages=len(doc), mb=round(PDF.stat().st_size / 1e6, 2), edition=edition)
     import subprocess
