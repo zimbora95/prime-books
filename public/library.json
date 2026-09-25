@@ -1380,6 +1380,29 @@
     "wrapCoverPdf": "/library/y05-portuguese/cover-wrap-amazon.pdf"
   },
   {
+    "slug": "y05-portuguese-anthropic",
+    "year": 5,
+    "subject": "Portuguese",
+    "band": "Cambridge Primary",
+    "family": "experiment",
+    "level": "Upper Primary",
+    "pages": 24,
+    "done": false,
+    "pdf": "/library/y05-portuguese-anthropic/book.pdf",
+    "cover": "/library/y05-portuguese-anthropic/cover.webp",
+    "mb": 10.6,
+    "buildable": false,
+    "editable": false,
+    "edition": "Unidade 1 — O Gabinete das Coisas Verdadeiras: textos para informar e descrever (24 pp.)",
+    "display_name": "Português · Year 5 — O Gabinete das Coisas Verdadeiras (Unidade 1)",
+    "finished_full": true,
+    "preview": [
+      "/library/y05-portuguese-anthropic/preview/01.webp",
+      "/library/y05-portuguese-anthropic/preview/02.webp",
+      "/library/y05-portuguese-anthropic/preview/last.webp"
+    ]
+  },
+  {
     "slug": "y05-science",
     "year": 5,
     "subject": "Science",
