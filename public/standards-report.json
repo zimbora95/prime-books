@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24 03:00 UTC",
+ "generated": "2026-09-26 03:00 UTC",
  "spec": "A-2.3-Y1-4",
  "certified_by": "the teacher, click by click on /status",
  "machine_cannot_check": [
@@ -12,10 +12,10 @@
  ],
  "scope": "Years 1 to 4 only; other years are measured only with --all-years",
  "totals": {
-  "books": 53,
-  "out_of_scope": 74,
+  "books": 54,
+  "out_of_scope": 76,
   "built": 32,
-  "not_built": 21,
+  "not_built": 22,
   "machine_clean": 6,
   "signed_off": 0,
   "awaiting_sign_off": 6,
@@ -4213,6 +4213,78 @@
    "state": "not built"
   },
   {
+   "slug": "y04-portuguese-anthropic",
+   "pages": 24,
+   "spec": "A-2.3-Y1-4",
+   "ok": false,
+   "failures": [
+    "page size 594.96x841.92 is not US Letter 612x792 (or the 216x279 mm print trim)",
+    "last page: back cover carries a folio badge",
+    "last page: no 'P R I M E  S C H O O L  P R E S S' label",
+    "no contents page found in the first 8 pages",
+    "no full-bleed unit opener found",
+    "5 of 22 interior pages have no folio badge",
+    "text outside the content box on page(s) [2, 4, 6, 8, 10, 11, 12, 14]"
+   ],
+   "warnings": [
+    "placeholder file: 24 page(s), below the standard's minimum viable extent of 35",
+    "font families outside the house set: ['FrauncesDisplay', 'FrauncesHead', 'FrauncesSub', 'PatrickHand']",
+    "extent 24 is not a legal BookVault count; nearest are [23, 35]"
+   ],
+   "facts": {
+    "page_size": [
+     594.96,
+     841.92
+    ],
+    "font_families": [
+     "Andika",
+     "FrauncesDisplay",
+     "FrauncesHead",
+     "FrauncesSub",
+     "PatrickHand"
+    ],
+    "contents_page": null,
+    "unit_count": null,
+    "unit_openers": [],
+    "pages_without_band": 0,
+    "pages_without_folio": 5,
+    "text_outside_box_pages": [
+     2,
+     4,
+     6,
+     8,
+     10,
+     11,
+     12,
+     14,
+     16,
+     18
+    ],
+    "modal_text_size_pt": 15.0,
+    "reading_ladder_pt": {
+     "1": 16.0,
+     "2": 16.0,
+     "3": 15.0,
+     "4": 14.5
+    },
+    "year": null,
+    "extent_legal": false,
+    "half_blank_pages": [],
+    "pages_ending_short": [],
+    "task_pages_items_and_plates_differ": [],
+    "manual_checks_still_required": [
+     "teacher content preserved on its page",
+     "reading size approved for the year",
+     "illustration quality, rights and credits",
+     "contrast and no colour-only coding",
+     "every QR code decoded and every URL opened",
+     "one physical print proof held in the hand"
+    ]
+   },
+   "stub": true,
+   "state": "not built"
+  },
+  {
    "slug": "y01-physical-education-standard",
    "pages": 71,
    "spec": "A-2.3-Y1-4",
@@ -4369,6 +4441,17 @@
   },
   {
    "slug": "y05-portuguese",
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "reason": "not a Years 1-4 title"
+   }
+  },
+  {
+   "slug": "y05-portuguese-anthropic",
    "ok": null,
    "scope": false,
    "state": "out of scope",
@@ -5073,6 +5156,17 @@
   },
   {
    "slug": "y07-art-and-design-standard",
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "reason": "not a Years 1-4 title"
+   }
+  },
+  {
+   "slug": "y08-portuguese-1st-anthropic",
    "ok": null,
    "scope": false,
    "state": "out of scope",

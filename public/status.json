@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-24 03:15 UTC",
+ "generated": "2026-09-26 03:15 UTC",
  "totals": {
-  "books": 127,
-  "pages": 12950,
-  "withInput": 84,
-  "noInput": 43,
+  "books": 130,
+  "pages": 13038,
+  "withInput": 88,
+  "noInput": 42,
   "standardized": 0,
   "years": 13,
   "machineClean": 6
@@ -777,13 +777,29 @@
      "slug": "y04-portuguese",
      "subject": "Portuguese",
      "pages": 114,
-     "input": null,
+     "input": {
+      "kind": "XLSX",
+      "file": "y04-portuguese - input.xlsx"
+     },
      "standardized": false,
      "checked": {
       "ok": false,
       "failures": 1,
       "warnings": 3,
       "state": "not-standardised"
+     }
+    },
+    {
+     "slug": "y04-portuguese-anthropic",
+     "subject": "Portuguese",
+     "pages": 24,
+     "input": null,
+     "standardized": false,
+     "checked": {
+      "ok": false,
+      "failures": 7,
+      "warnings": 3,
+      "state": "not built"
      }
     },
     {
@@ -829,9 +845,9 @@
      }
     }
    ],
-   "withInput": 8,
+   "withInput": 9,
    "standardized": 0,
-   "pages": 714
+   "pages": 738
   },
   {
    "year": 5,
@@ -924,6 +940,16 @@
      "slug": "y05-portuguese",
      "subject": "Portuguese",
      "pages": 134,
+     "input": {
+      "kind": "XLSX",
+      "file": "y05-portuguese - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y05-portuguese-anthropic",
+     "subject": "Portuguese",
+     "pages": 24,
      "input": null,
      "standardized": false
     },
@@ -952,9 +978,9 @@
      "standardized": false
     }
    ],
-   "withInput": 8,
+   "withInput": 9,
    "standardized": 0,
-   "pages": 578
+   "pages": 602
   },
   {
    "year": 6,
@@ -1047,7 +1073,10 @@
      "slug": "y06-portuguese",
      "subject": "Portuguese",
      "pages": 110,
-     "input": null,
+     "input": {
+      "kind": "XLSX",
+      "file": "y06-portuguese - input.xlsx"
+     },
      "standardized": false
     },
     {
@@ -1075,7 +1104,7 @@
      "standardized": false
     }
    ],
-   "withInput": 8,
+   "withInput": 9,
    "standardized": 0,
    "pages": 654
   },
@@ -1282,6 +1311,16 @@
      "slug": "y08-portuguese-1st",
      "subject": "Portuguese 1st",
      "pages": 2,
+     "input": {
+      "kind": "XLSX",
+      "file": "y08-portuguese-1st - input.xlsx"
+     },
+     "standardized": false
+    },
+    {
+     "slug": "y08-portuguese-1st-anthropic",
+     "subject": "Portuguese 1st",
+     "pages": 40,
      "input": null,
      "standardized": false
     },
@@ -1310,9 +1349,9 @@
      "standardized": false
     }
    ],
-   "withInput": 6,
+   "withInput": 7,
    "standardized": 0,
-   "pages": 912
+   "pages": 952
   },
   {
    "year": 9,
@@ -1574,6 +1613,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-09-24 03:00 UTC",
+ "checked_at": "2026-09-26 03:00 UTC",
  "spec": "A-2.3-Y1-4"
 }
