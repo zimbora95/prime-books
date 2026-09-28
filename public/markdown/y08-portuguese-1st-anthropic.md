@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (84 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (108 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -14,6 +14,7 @@ L Í N G U A M A T E R N A
 
 Unidade 1 · Publicidade e crítica
 Unidade 2 · Texto narrativo
+Unidade 3 · Texto poético
 Unidade 7 · Contrato de leitura
 
 P R I M E S C H O O L
@@ -51,12 +52,12 @@ fim de cada unidade: resolve primeiro, confirma depois.
 **ESTA EDIÇÃO**
 
 **Inclui a Unidade 1 (Publicidade e crítica), a Unidade 2**
-**(Texto narrativo) e a Unidade 7 (Contrato de leitura). As**
+**(Texto narrativo), a Unidade 3 (Texto poético) e a Unidade**
 
-Unidades 3 (Texto poético), 4 (Texto dramático), 5 (Revi-
+**7 (Contrato de leitura). As Unidades 4 (Texto dramático), 5**
 
-sões anuais) e 6 (Avaliação) juntam-se nas próximas edi-
-ções, com a mesma organização.
+(Revisões anuais) e 6 (Avaliação) juntam-se nas próximas
+edições, com a mesma organização.
 
 **CONCEÇÃO**
 
@@ -76,21 +77,26 @@ os críticos e a revista A Lupa são ficcionais e foram cria-
 dos para este manual. «Mar Português», de Fernando
 Pessoa (Mensagem, 1934), e os textos integrais de Ale-
 
-xandre Herculano, Trindade Coelho e Lima Barreto estão
-em domínio público; as suas grafias foram atualizadas
+xandre Herculano, Trindade Coelho, Lima Barreto e Flor-
+bela Espanca e o vilancete de Camões estão em domínio
 
-segundo o Acordo Ortográfico de 1990. Os excertos de
+público; as suas grafias foram atualizadas segundo o
 
-Júlio Verne e Oscar Wilde foram traduzidos pela Prime
-School a partir dos originais, em domínio público. De Ma-
+Acordo Ortográfico de 1990. Os excertos de Júlio Verne e
+Oscar Wilde foram traduzidos pela Prime School a partir
 
-nuel da Fonseca e de Ondjaki, obras protegidas, citam-se
-apenas frases breves para fins de ensino; os contos
+dos originais, em domínio público. De Manuel da Fonseca,
+Ondjaki, António Gedeão, Alexandre O'Neill, David Mou-
 
-leem-se na antologia da turma. Os títulos sugeridos na
-Unidade 7 são obras publicadas, citadas apenas pelo tí-
+rão-Ferreira, Manuel Alegre, Ana Hatherly e Miguel
+Torga, obras protegidas, citam-se apenas frases e versos
 
-tulo e pelo autor.
+breves, com indicação da fonte, para fins de ensino; os
+
+textos completos leem-se na antologia da turma. Os títu-
+los sugeridos na Unidade 7 são obras publicadas, citadas
+
+apenas pelo título e pelo autor.
 
 Ilustrações criadas com IA generativa sob direção de
 
@@ -215,35 +221,67 @@ Oscar Wilde · O Fantasma de Canterville
 Clube dos Contadores · balanço · soluções
 **71**
 
-## 7
-**Contrato de leitura**
+## 3
+**O que cabe num verso?**
 ## 74
 
-Que leitor és tu?
+Programa · oficina do verso · aquecimento
 **75**
 
+1
+Gedeão · Pedra filosofal
+**79**
+
+2
+O'Neill · O poema pouco original do medo
+**82**
+
+3–4
+Mourão-Ferreira · Manuel Alegre
+**85**
+
+5–7
+Hatherly · Torga · Manuel da Fonseca
+**87**
+
+8–9
+Florbela Espanca · dois sonetos
+**90**
+
+Recursos · comentário · gramática do verso
+**92**
+
+Sarau · balanço · soluções
+**95**
+
+## 7
+**Contrato de leitura**
+## 98
+
+Que leitor és tu?
+**99**
+
 Os teus direitos e os teus compromissos
-**76**
+**100**
 
 O contrato
-**77**
+**101**
 
 Carta de navegação · 24 livros para escolher
-**78**
+**102**
 
 Diário de bordo · seis livros, seis registos
-**79**
+**103**
 
 Passar a palavra · seis maneiras de partilhar
 um livro
 
-**82**
+**106**
 
 Reflexão final · o que mudou em mim
-**83**
+**107**
 
 P R Ó X I M A S E D I Ç Õ E S
-3 · Texto poético
 4 · Texto dramático
 5 · Revisões anuais
 6 · Avaliação
@@ -251,6 +289,8 @@ P R Ó X I M A S E D I Ç Õ E S
 P U B L I C I D A D E E C R Í T I C A
 
 T E X T O N A R R A T I V O · A U T O R E S E N A R R A T I V A S D E F O R M A Ç Ã O
+
+T E X T O P O É T I C O · R E D O N D I L H A E E S Q U E M A R I M Á T I C O
 
 A T I V I D A D E S E X T R A · O T E U P E R C U R S O D E L E I T O R
 
@@ -1096,18 +1136,13 @@ pressa demais? O que vais mudar?
 **Cartão do ouvinte**
 A PARES
 
-★
-Uma coisa que o colega fez
+★ Uma coisa que o colega fez muito
 
-muito bem
+bem
 
-★
-Outra coisa que fez muito bem
+★ Outra coisa que fez muito bem
 
-➜
-Um conselho para a próxima
-
-vez
+➜ Um conselho para a próxima vez
 
 V E R B O S P A R A D I Z E R A I N T E N Ç Ã O
 
@@ -3758,8 +3793,8 @@ T R I N D A D E C O E L H O · O S M E U S A M O R E S ( 1 8 9 1 )
 **rábola é uma narrativa curta que, através de uma situação con-**
 creta, transmite uma lição.
 
-**Ouve a leitura e repara nas pausas, na voz do pai e**
-na do filho mais novo.
+**Ouve a leitura e repara nas pausas, na voz do**
+pai e na do filho mais novo.
 
 **vime: vara fina e flexível de vimeiro · vincelho: atilho feito de vime ou palha. Trin-**
 dade Coelho, «Parábola dos sete vimes», Os Meus Amores (1891). Texto em domí-
@@ -6848,6 +6883,1992 @@ GLOSSÁRIO · SOLUÇÕES
 <!-- page 74 -->
 
 ---
+U N I D A D E 3
+
+T E X T O P O É T I C O · R E D O N D I L H A E E S Q U E M A
+R I M Á T I C O
+## O que cabe
+## num verso?
+
+Um sonho que faz o mundo avançar. O medo de um
+país inteiro. Uma pergunta ao vento. Um rio que
+leva as mágoas para o mar. Nove poemas de oito
+poetas portugueses — e as ferramentas para perce‐
+**beres como um poema funciona: o verso, a estrofe,**
+a rima, o ritmo, as imagens.
+
+**?**
+Porque é que um poema se lembra mais facilmente
+do que um texto em prosa?
+
+**?**
+Pode um poema dizer uma coisa e querer dizer
+outra?
+
+**?**
+Um poema serve para alguma coisa?
+
+UNIDADE 3
+74
+
+<!-- page 75 -->
+
+---
+P R O G R A M A
+
+U N I D A D E 3
+O P R O G R A M A
+## Nove poemas, oito vozes
+
+**Primeiro, montas a tua oficina do verso: aprendes a contar sílabas, a desenhar esquemas**
+rimáticos e a reconhecer a redondilha. Depois, cada poema é uma paragem para ler, ouvir,
+**escrever e pensar a língua. No fim, o Sarau junta a turma à volta dos poemas.**
+
+## 1
+**Pedra filosofal**
+
+ANTÓNIO GEDEÃO
+O desejo de saber
+
+Enumeração · anáfora · metá-
+fora · opinião · pleonasmo, hi-
+pérbole, completiva
+
+**p. 79**
+
+## 2
+**O poema pouco original do**
+**medo**
+
+ALEXANDRE O'NEILL
+
+Ironia e enumeração
+
+O que diz e o que deixa enten-
+der · recriação em prosa · ad-
+vérbio, sujeito e predicado
+
+**p. 82**
+
+## 3
+**E por vezes**
+
+DAVID MOURÃO-FERREIRA
+O tempo e o amor
+Anáfora · hipérbole · ritmo
+**p. 85**
+
+## 4
+**Trova do vento que passa**
+
+MANUEL ALEGRE
+A liberdade
+Redondilha maior · quadra ·
+rima cruzada
+**p. 86**
+
+## 5
+**Tisanas e poesia visual**
+
+ANA HATHERLY
+
+A experiência da
+palavra
+
+Poema em prosa · poema
+visual
+**p. 87**
+
+## 6
+**Sísifo**
+
+MIGUEL TORGA
+Recomeçar
+Imperativo · apóstrofe · verso
+livre
+**p. 88**
+
+## 7
+**Tejo que levas as águas**
+
+MANUEL DA FONSECA
+A cidade e a injustiça
+Personificação · redondilha
+maior
+**p. 89**
+
+## 8·9
+**Ser Poeta · Fanatismo**
+
+FLORBELA ESPANCA
+A paixão
+Soneto · decassílabo · esquema
+rimático
+**p. 90**
+
+**Oficina do verso**
+
+Estrofe, rima, métrica · p. 76
+
+**Recursos expressivos**
+
+O guia dos recursos · p. 92
+
+**No fim**
+
+Sarau de poesia · p. 95
+
+Os poemas de Florbela Espanca estão em domínio público e reproduzem-se na íntegra. Dos outros sete poetas, cujas
+obras estão protegidas, citam-se apenas versos breves para fins de ensino: lê cada poema completo na antologia da
+turma ou na biblioteca.
+
+PROGRAMA
+75
+
+<!-- page 76 -->
+
+---
+O F I C I N A D O V E R S O
+
+O F I C I N A D O V E R S O
+ED. LITERÁRIA
+R E F E R Ê N C I A · 1
+## Verso, estrofe e rima
+
+**Verso**
+
+Cada linha de um poema.
+
+**Estrofe**
+
+Grupo de versos separado por
+um espaço em branco.
+
+**Rima**
+
+Repetição de sons no fim dos
+versos, a partir da última vogal
+tónica: mar / luar.
+
+VERSOS
+ESTROFE
+VERSOS
+ESTROFE
+
+1
+monóstico
+6
+sextilha
+
+2
+dístico
+7
+sétima
+
+3
+terceto
+8
+oitava
+
+4
+quadra
+9
+nona
+
+5
+quintilha
+10
+décima
+
+**Esquema rimático**
+
+Dá-se a mesma letra aos versos que rimam entre si. Um verso que não rima com nenhum é
+**um verso solto (usa-se uma letra nova ou um traço).**
+
+A A B B
+**Emparelhada**
+
+fogueira A
+
+lareira A
+
+serão B
+
+canção B
+
+A B A B
+**Cruzada**
+
+passa A
+
+país B
+
+desgraça A
+
+diz B
+
+A B B A
+**Interpolada**
+
+maior A
+
+beija B
+
+seja B
+
+Dor A
+
+**Rima consoante**
+
+Os sons coincidem por completo, vogais e consoan-
+tes: vida / perdida.
+
+**Rima toante**
+
+Só coincidem as vogais: prata / cama.
+
+## 1
+
+Liga as palavras que rimam e diz se a rima é consoante (C) ou toante (T): coração · canção · cinzenta ·
+lenta · casa · asa · sonho · risonho · vida · lida.
+
+## 2
+
+Volta às quadras da Unidade 1? Não: procura na tua memória uma canção que saibas de cor. Escreve
+uma estrofe, diz quantos versos tem, como se chama e qual é o esquema rimático.
+
+OFICINA DO VERSO
+76
+
+<!-- page 77 -->
+
+---
+O F I C I N A D O V E R S O
+
+O F I C I N A D O V E R S O
+ED. LITERÁRIA
+R E F E R Ê N C I A · 2
+## Contar sílabas métricas
+
+**No verso não se contam as sílabas gramaticais, mas as sílabas métricas — as que se ouvem**
+quando o verso é dito. Três regras chegam para começar:
+
+## 1
+
+**Conta até à última sílaba**
+**tónica**
+
+O que vem depois dela não conta:
+## Pergunto ao
+## vento que
+## pas(sa).
+
+## 2
+
+**Junta as vogais que se**
+**encontram**
+
+Vogal final + vogal inicial fazem,
+muitas vezes, uma só sílaba (
+**elisão**
+
+## ): to_ao, cala_a.
+
+## 3
+
+**Diz o verso em voz alta**
+
+O ouvido é o melhor juiz. Bate as
+sílabas com os dedos.
+
+**Redondilha maior · 7 sílabas**
+
+Manuel Alegre, «Trova do vento que passa» (versos 1–2)
+
+**Redondilha menor · 5 sílabas**
+
+Luís de Camões, vilancete «Pastora da serra» (domínio público)
+
+**Decassílabo · 10 sílabas**
+
+O verso do soneto: Meus / o / lhos / an / dam / ce /
+gos / de / te / ver. (Florbela Espanca)
+
+**Verso livre**
+
+Sem medida fixa e, muitas vezes, sem rima. Comum
+na poesia moderna (Torga, O'Neill, Mourão-Ferreira).
+
+**Nem sempre há elisão Quando a vogal seguinte é tónica, o poeta pode separá-las (hiato ): lu / a, pa / ís. Na dú-**
+vida, diz o verso: o ritmo mostra-te a escolha certa.
+
+## 1 Faz a escansão. Escreve uma sílaba métrica em cada caixa e sublinha a última tónica.
+
+correndo de par em par
+
+perco-me por ela
+
+Per
+
+1
+gun
+
+2
+to_ao
+
+3
+ven
+
+4
+to
+
+5
+que
+
+6
+pas
+
+7
+sa
+
+no
+
+1
+tí
+
+2
+cias
+
+3
+do
+
+4
+meu
+
+5
+pa
+
+6
+ís
+
+7
+
+Pas
+
+1
+to
+
+2
+ra
+
+3
+da
+
+4
+ser
+
+5
+ra
+
+da
+
+1
+ser
+
+2
+ra
+
+3
+da_Es
+
+4
+tre
+
+5
+la
+
+OFICINA DO VERSO
+77
+
+<!-- page 78 -->
+
+---
+A Q U E C I M E N T O
+
+A Q U E C I M E N T O
+2 0 M I N U T O S · A P A R E S
+## Três quadras de Vila Nova do Farol
+
+Estas quadras foram escritas «ao gosto popular», como as que se cantam nas festas das al‐
+deias portuguesas. Todas têm versos de sete sílabas.
+
+## 1
+
+Escreve o esquema rimático de cada quadra. Qual é emparelhada, cruzada ou interpolada? Há alguma
+de cada tipo?
+
+## 2
+
+Faz a escansão (conta as sílabas métricas) do primeiro verso da quadra 2 e do último verso da quadra
+1. Mostra as elisões.
+
+## 3
+
+Escreve a tua quadra sobre a escola ou a tua rua: quatro versos de sete sílabas, com rima cruzada.
+
+DESAFIO
+
+## 4
+
+Diz a tua quadra à turma. Os colegas batem as sílabas com os dedos: são mesmo sete? Regista o que
+tiveste de mudar.
+ORALIDADE
+
+Esquema:
+
+## 1
+Fui ao farol esta noite
+
+ver a sua luz girar;
+
+não há vento nem açoite
+
+que a possa um dia apagar.
+
+Esquema:
+
+## 2
+Ó velho Cinema Aurora,
+
+abre as portas ao luar;
+
+quem entra não vai embora
+
+sem um sonho p'ra contar.
+
+Esquema:
+
+## 3
+Tenho um livro na mochila
+
+que pesa mais do que o mar:
+
+cada página a virar
+
+é uma porta que cintila.
+
+AQUECIMENTO
+78
+
+<!-- page 79 -->
+
+---
+P O E M A 1 · P E D R A F I L O S O F A L
+
+P O E M A 1
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+## Pedra filosofal
+
+ANTÓNIO GEDEÃO · MOVIMENTO PERPÉTUO (1956)
+
+**O POETA**
+
+**António Gedeão era o nome de poeta de Rómulo de**
+Carvalho (1906–1997), professor de Física e Química e
+
+divulgador de ciência. Na sua poesia, a ciência e o so-
+nho andam de mãos dadas. O poema tornou-se fa-
+moso cantado por Manuel Freire.
+
+Eles não sabem que o sonho
+
+é uma constante da vida
+
+tão concreta e definida
+
+como outra coisa qualquer,
+
+António Gedeão, «Pedra filosofal», versos
+
+1–4
+
+Eles não sabem, nem sonham,
+
+que o sonho comanda a vida.
+
+versos finais
+
+**A PEDRA FILOSOFAL**
+
+Os alquimistas da Idade Média procuravam uma «pe-
+dra filosofal» capaz de transformar metais em ouro.
+No poema, o que transforma o mundo é outra coisa.
+
+**ENQUANTO LÊS**
+
+1. Quem são «eles»? Porque é que o poeta não os
+nomeia?
+
+2. O sonho é comparado a coisas concretas (uma
+pedra, um ribeiro…). Porquê?
+
+**3. Na segunda parte, o poeta faz uma longa enu-**
+**meração de invenções e descobertas. Copia**
+três.
+
+4. Que palavra ou expressão se repete no início
+**de vários versos (anáfora)? Que efeito cria?**
+
+**5. Explica a metáfora «o sonho comanda a vida».**
+
+POEMA 1 · PEDRA FILOSOFAL
+79
+
+<!-- page 80 -->
+
+---
+P O E M A 1 · E S C R I T A
+
+P O E M A 1
+ESCRITA
+T E X T O D E O P I N I Ã O S O B R E A I D E I A D O P O E M A
+## O sonho comanda a vida?
+
+Gedeão defende que é o sonho — a imaginação, a curiosidade, o desejo de saber — que faz o
+**mundo avançar. Concordas? Escreve um texto de opinião com dois argumentos, cada um**
+com um exemplo concreto (da ciência, da história, da tua vida).
+
+## 1
+
+**Introdução**
+
+Apresenta a ideia do po-
+ema e a tua posição.
+
+## 2
+
+**Argumento 1**
+
+Uma razão + um exem-
+plo (uma invenção, uma
+pessoa, um momento).
+
+## 3
+
+**Argumento 2**
+
+Outra razão + outro
+exemplo.
+
+## 4
+
+**Conclusão**
+
+Retoma a posição e fe-
+cha com uma frase forte
+— talvez um verso do
+poema.
+
+**Ideias para pensar**
+a ida à Lua
+as vacinas
+a internet
+os Descobrimentos
+
+um sonho teu que já cumpriste
+sonhos que correram mal
+
+## 1
+
+Escreve o teu texto (150 a 200 palavras). Título obrigatório.
+
+**Revê**
+○ posição clara
+○ dois argumentos, dois exemplos
+○ conectores
+○ conclusão forte
+
+○ 150–200 palavras
+
+POEMA 1 · ESCRITA
+80
+
+<!-- page 81 -->
+
+---
+P O E M A 1 · G R A M Á T I C A
+
+P O E M A 1
+GRAMÁTICA
+P L E O N A S M O E H I P É R B O L E · O R A Ç Ã O S U B O R D I N A D A C O M P L E T I V A
+## Dizer a mais, de propósito
+
+**Pleonasmo**
+
+Repetição de uma ideia já contida noutra palavra,
+para reforçar.
+
+Vi com os meus próprios olhos. · Subir lá acima.
+
+Quando não tem intenção expressiva, é um erro: en-
+trar para dentro.
+
+**Hipérbole**
+
+Exagero intencional (lembra-te da Unidade 1!).
+
+Os meses oceanos. (Mourão-Ferreira) · Morrer de
+saudade.
+
+## 1 Classifica: P (pleonasmo expressivo), E (pleonasmo vicioso, erro) ou H (hipérbole).
+
+a. Chorei rios de lágrimas.
+
+b. Sobe lá para cima!
+
+c. Ouvi-o com estes ouvidos que a terra há de comer.
+
+d. Já te disse isto mil vezes.
+
+**Oração subordinada substantiva completiva**
+
+Completa o sentido de um verbo (quase sempre como complemento direto). É introduzida por que ou se.
+
+**Eles não sabem que o sonho é uma constante da vida.**
+
+**Pergunto-me se o vento sabe notícias do meu país.**
+
+**Teste Substitui a oração por isso: «Eles não sabem isso.» Se a frase continua a fazer sentido, é completiva.**
+
+## 2 Sublinha as orações completivas.
+
+a. O poeta afirma que o sonho faz o mundo avançar.
+
+b. Não sei se Gedeão era mais cientista ou mais poeta.
+
+c. A professora disse que íamos ouvir o poema cantado.
+
+d. Perguntei-lhe se o sonho comanda mesmo a vida.
+
+## 3
+
+Completa com uma oração completiva: a) Eu acredito
+b) Nin-
+guém sabe
+
+## 4
+
+Escreve duas frases sobre um sonho teu: uma com um pleonasmo expressivo, outra com uma hi-
+pérbole. Sublinha o recurso.
+
+POEMA 1 · GRAMÁTICA
+81
+
+<!-- page 82 -->
+
+---
+P O E M A 2 · O ' N E I L L
+
+P O E M A 2
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+## O poema pouco original do medo
+
+ALEXANDRE O'NEILL · ABANDONO VIGIADO (1960)
+
+**O POETA E O TEMPO**
+
+**Alexandre O'Neill (1924–1986) foi poeta e também pu-**
+blicitário (inventou slogans que ainda hoje se ouvem).
+
+Viveu sob a ditadura do Estado Novo, quando havia
+censura e uma polícia política, a PIDE, que vigiava e
+prendia quem discordava do regime.
+
+O medo vai ter tudo
+
+pernas
+
+ambulâncias
+
+e o luxo blindado
+
+de alguns automóveis
+
+Alexandre O'Neill, «O poema pouco original
+
+do medo», versos 1–5
+
+**A IRONIA**
+
+O título diz que o poema é «pouco original». Porque é
+que um poeta diria isso do seu próprio poema?
+Pensa que, naquele tempo, o medo era tão comum
+
+que falar dele já não era novidade.
+
+**O QUE DIZ · O QUE DEIXA**
+**ENTENDER**
+
+O POEMA DIZ…
+…E DEIXA ENTENDER
+
+«O medo vai ter
+tudo»
+
+o medo vai ter olhos
+e ouvidos
+
+a enumeração de
+coisas que o medo
+terá
+
+o título «pouco
+original»
+
+1. O medo é tratado como se fosse uma pessoa
+(personificação). Dá um exemplo.
+
+**2. Porque é que a enumeração de coisas banais**
+torna o medo mais assustador?
+
+3. Relaciona o poema com o tempo em que foi es-
+crito. Porque é que o medo podia «ter tudo»?
+
+POEMA 2 · O'NEILL
+82
+
+<!-- page 83 -->
+
+---
+P O E M A 2 · E S C R I T A
+
+P O E M A 2
+ESCRITA
+R E C R I A Ç Ã O E M P R O S A
+## Contar o poema por outras palavras
+
+Recriar um poema em prosa não é resumi-lo, nem explicá-lo: é contar, num pequeno texto,
+**o sentido do poema — como se fosse uma cena, uma carta ou um diário. O leitor deve reco‐**
+nhecer o poema sem que copies um único verso.
+
+**Uma cena**
+
+Uma rua de Lisboa em 1960. Des-
+creve o que as pessoas fazem, o
+que não dizem, de que
+desconfiam.
+
+**Uma carta**
+
+Alguém escreve a um amigo
+emigrado a contar como é viver
+com medo — com cuidado, por-
+que as cartas podem ser abertas.
+
+**Um diário**
+
+O próprio Medo escreve o seu
+diário: onde esteve hoje, a quem
+entrou em casa, o que conseguiu
+calar.
+
+## 1
+
+Escolhe um formato e escreve a tua recriação (150 a 200 palavras). Usa pelo menos uma enumeração
+e uma personificação.
+
+**Revê**
+○ o sentido do poema está lá
+○ nenhum verso copiado
+○ uma enumeração
+○ uma personificação
+
+○ 150–200 palavras
+
+POEMA 2 · ESCRITA
+83
+
+<!-- page 84 -->
+
+---
+P O E M A 2 · G R A M Á T I C A
+
+P O E M A 2
+GRAMÁTICA
+A D V É R B I O E L O C U Ç Ã O A D V E R B I A L · S U J E I T O E P R E D I C A D O
+## Como, quando, onde e quem
+
+**Advérbio**
+
+Palavra invariável que modifica um verbo, um adje-
+tivo ou outro advérbio.
+
+O medo entrou silenciosamente . · muito escuro ·
+
+bem depressa
+
+**Locução adverbial**
+
+Grupo de palavras com o valor de um advérbio.
+
+às escondidas · de repente · a pouco e pouco · de
+vez em quando
+
+VALOR
+ADVÉRBIOS
+LOCUÇÕES ADVERBIAIS
+
+modo
+assim, bem, mal, depressa, devagar, -
+mente
+
+às escondidas, à pressa, de cor
+
+tempo
+hoje, ontem, já, sempre, nunca, cedo
+de vez em quando, à noite, de repente
+
+lugar
+aqui, ali, lá, perto, longe, dentro
+por aqui, ao longe, em cima
+
+negação · afirmação ·
+dúvida
+
+não, sim, talvez, certamente
+de modo nenhum, com certeza, se
+calhar
+
+O medo vai ter tudo.
+
+SUJEITO · DE QUEM SE FALA
+PREDICADO · O QUE SE DIZ DO SUJEITO (TEM O VERBO)
+
+**Para encontrar o sujeito, pergunta quem? ou o quê? antes do verbo: Quem vai ter tudo? — O medo. O sujeito pode**
+vir depois do verbo: Chegou o medo.
+
+## 1
+
+Sublinha os advérbios e as locuções adverbiais e indica o valor: «De repente, as pessoas calaram-se.
+Falavam baixinho, às escondidas, e nunca diziam o que pensavam.»
+
+## 2
+
+Separa o sujeito (S) do predicado (P): a) Os vizinhos desconfiavam uns dos outros. b) Nas paredes ha-
+via ouvidos. c) Entrou na sala um homem de chapéu.
+
+## 3
+
+Acrescenta a cada frase um advérbio de modo e uma locução adverbial de tempo: a) O poeta escre-
+veu. b) As pessoas falavam. c) O vento passa.
+
+POEMA 2 · GRAMÁTICA
+84
+
+<!-- page 85 -->
+
+---
+P O E M A 3 · E P O R V E Z E S
+
+P O E M A 3
+ED. LITERÁRIA
+ORALIDADE
+
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+## E por vezes
+
+DAVID MOURÃO-FERREIRA (1927–1996)
+
+**David Mourão-Ferreira, lisboeta, foi poeta, ficcio-**
+nista, professor universitário e secretário de Estado
+
+da Cultura. Escreveu sobretudo sobre o amor e o
+tempo, com uma música muito própria.
+
+E por vezes as noites duram meses
+
+E por vezes os meses oceanos
+
+David Mourão-Ferreira, «E por vezes», ver-
+
+sos 1–2
+
+**Três coisas a observar**
+
+Anáfora — «E por vezes» abre quase todos os ver-
+sos. É o motor do poema: cria ritmo, insistência,
+quase uma respiração.
+
+Hipérbole — «as noites duram meses», «os meses
+oceanos»: o tempo vivido por dentro (tempo psico-
+lógico) é maior do que o tempo do relógio.
+
+Verso livre — os versos não têm todos a mesma
+medida; o ritmo nasce da repetição.
+
+**Tempo do relógio · tempo por dentro**
+
+Uma hora à espera de alguém
+
+Uma hora com os amigos
+
+Uma noite sem dormir
+
+Diz quanto tempo «parece» durar cada uma. É deste
+
+tempo que o poema fala.
+
+**ENQUANTO LÊS E OUVES**
+
+1. Quantas vezes se repete «E por vezes»? O que
+muda nos versos que se seguem a cada
+repetição?
+
+2. O que significa, para ti, que «as noites duram
+meses»? Em que situações o tempo parece
+mais longo?
+
+3. O poema fala de coisas que se perdem e de
+coisas que se encontram. Dá um exemplo de
+cada.
+
+4. O último verso é diferente dos outros? Que
+efeito tem no leitor?
+
+✎
+
+Escreve três versos teus que comecem
+por «E por vezes». Lê-os em voz alta, com
+pausas.
+ORALIDADE
+
+POEMA 3 · E POR VEZES
+85
+
+<!-- page 86 -->
+
+---
+P O E M A 4 · T R O V A D O V E N T O Q U E P A S S A
+
+P O E M A 4
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê E O U V E O P O E M A C O M P L E T O
+## Trova do vento que passa
+
+MANUEL ALEGRE · PRAÇA DA CANÇÃO (1965)
+
+**Manuel Alegre (n. 1936), poeta e político, escreveu**
+
+este poema em 1963, no tempo da ditadura; pouco
+depois partiria para o exílio. Musicado por António
+Portugal e cantado por Adriano Correia de Oliveira,
+tornou-se um hino de resistência e de liberdade.
+
+Pergunto ao vento que passa
+
+notícias do meu país
+
+e o vento cala a desgraça
+
+o vento nada me diz.
+
+Manuel Alegre, «Trova do vento que
+
+passa», 1.ª estrofe
+
+**UMA TROVA**
+
+Trova é uma composição ao gosto popular, feita
+
+**para ser cantada: quadras em redondilha maior,**
+com rima e muitas repetições.
+
+1933 Começa o Estado Novo: censura e polícia
+
+política.
+
+1963 Manuel Alegre escreve a «Trova»; é musi-
+
+cada por António Portugal.
+
+1964 Alegre parte para o exílio, em Argel.
+
+1974 25 de Abril: a Revolução dos Cravos devolve
+
+a liberdade.
+
+✎
+
+Ouve a canção. A música torna o poema
+mais triste, mais forte, mais esperançoso?
+
+ORALIDADE
+
+**OFICINA**
+
+1. Faz a escansão do 3.º e do 4.º versos da estrofe ci-
+tada. Confirma que são redondilhas maiores.
+
+2. Qual é o esquema rimático da quadra? Como se
+chama este tipo de rima?
+
+3. O sujeito poético pergunta ao vento e, noutras es-
+trofes, aos rios. Que figura de estilo é dirigir-se a
+quem não pode responder?
+
+4. Porque é que o vento «cala a desgraça»? O que
+nos diz isto sobre o país daquele tempo?
+
+5. O poema termina com esperança ou com desâ-
+nimo? Justifica com versos do poema completo.
+
+POEMA 4 · TROVA DO VENTO QUE PASSA
+86
+
+<!-- page 87 -->
+
+---
+P O E M A 5 · A N A H A T H E R L Y
+
+P O E M A 5
+ED. LITERÁRIA
+ESCRITA
+P O E S I A E X P E R I M E N T A L
+## Quando o poema se vê
+
+ANA HATHERLY (1929–2015) · TISANAS E POESIA VISUAL
+
+**Ana Hatherly foi poeta, artista plástica, cineasta e**
+professora universitária. Nos anos 60, fez parte do
+**grupo da Poesia Experimental portuguesa, que quis**
+libertar o poema das regras: o poema podia ser de-
+senho, colagem, letra espalhada pela página.
+
+**AS TISANAS**
+
+**São pequenos poemas em prosa, numerados, que**
+Hatherly foi escrevendo ao longo de décadas: histó-
+
+rias absurdas, paradoxos, jogos com a lógica e com
+as palavras. Não têm verso nem rima — e, no entanto,
+são poesia. Porquê? Pela concentração, pela sur-
+presa, pela imagem.
+
+**A POESIA VISUAL**
+
+**Nos poemas visuais, a forma faz parte do sentido: as**
+letras desenham, caem, sobem, apagam-se. O leitor lê
+e vê ao mesmo tempo.
+
+c
+a
+i
+r
+
+o mar o mar o mar o mar
+o mar o mar o mar o mar
+o mar o mar o farol o mar
+
+Dois exemplos criados para esta unidade.
+
+**NA ANTOLOGIA**
+
+1. Lê duas Tisanas. O que te surpreendeu em
+cada uma?
+
+2. Porque podemos chamar «poema» a um texto
+sem versos?
+
+3. Observa um poema visual de Hatherly. O que
+vês antes de ler? E depois?
+
+✎Cria um poema visual com uma só pala-
+
+vra ou uma frase curta (por exemplo:
+chuva, voar, medo, sonho). A forma deve
+ajudar o sentido.
+
+POEMA 5 · ANA HATHERLY
+87
+
+<!-- page 88 -->
+
+---
+P O E M A 6 · S Í S I F O
+
+P O E M A 6
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+Sísifo
+
+MIGUEL TORGA · DIÁRIO XIII (1983)
+
+**Miguel Torga (1907–1995), pseudónimo de Adolfo**
+Correia da Rocha, médico e escritor transmontano,
+
+escreveu um Diário em dezasseis volumes, com
+prosa e poemas.
+
+**O MITO**
+
+**Na mitologia grega, Sísifo foi condenado pelos deu-**
+ses a empurrar uma enorme pedra até ao cimo de
+um monte. Sempre que lá chegava, a pedra rolava de
+novo para baixo — e ele tinha de recomeçar. Para
+sempre.
+
+Recomeça…
+
+Se puderes,
+
+Sem angústia
+
+E sem pressa.
+
+Miguel Torga, «Sísifo», versos 1–4
+
+**ENQUANTO LÊS**
+
+**1. O poema começa com um verbo no imperativo.**
+A quem se dirige o sujeito poético? (A si pró-
+prio? Ao leitor? A todos?)
+
+2. Os versos são muito curtos. Que efeito tem
+esse ritmo?
+
+3. Para Torga, recomeçar é um castigo ou uma
+forma de liberdade? Justifica.
+
+4. Relaciona o título com o conselho do poema.
+
+5. Dá um exemplo da tua vida em que tiveste de
+recomeçar.
+
+POEMA 6 · SÍSIFO
+88
+
+<!-- page 89 -->
+
+---
+P O E M A 7 · T E J O Q U E L E V A S A S Á G U A S
+
+P O E M A 7
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê E O U V E O P O E M A C O M P L E T O
+## Tejo que levas as águas
+
+MANUEL DA FONSECA · POEMAS PARA ADRIANO (1972)
+
+**Já conheces Manuel da Fonseca do conto «Mestre**
+Finezas» (Unidade 2). Também foi poeta. Este po-
+
+ema foi cantado por Adriano Correia de Oliveira.
+
+Tejo que levas as águas
+
+correndo de par em par
+
+lava a cidade de mágoas
+
+leva as mágoas para o mar
+
+Manuel da Fonseca, «Tejo que levas as
+
+águas», 1.ª estrofe
+
+**A observar**
+
+Apóstrofe — o sujeito poético fala diretamente
+com o rio: «Tejo que levas…».
+
+Personificação — o rio pode «lavar» e «levar»: é
+como alguém a quem se pede ajuda.
+
+Redondilha maior e rima cruzada — o poema
+pede para ser cantado.
+
+**OFICINA**
+
+1. Faz a escansão dos versos 1 e 4 da estrofe citada.
+
+2. Esquema rimático da estrofe:
+
+3. Que «mágoas» da cidade pede o poeta ao rio que
+leve? Procura-as nas estrofes seguintes.
+
+4. Compara com a «Trova do vento que passa»: o
+que têm em comum o vento e o rio nos dois
+poemas?
+
+5. Escreve uma quadra tua em redondilha maior em
+que peças ao rio da tua terra que leve alguma
+coisa.
+
+POEMA 7 · TEJO QUE LEVAS AS ÁGUAS
+89
+
+<!-- page 90 -->
+
+---
+P O E M A 8 · S E R P O E T A
+
+P O E M A 8
+LEITURA
+ORALIDADE
+P O E M A I N T E G R A L
+## Ser Poeta
+
+FLORBELA ESPANCA · CHARNECA EM FLOR (1931)
+
+Florbela Espanca, «Ser Poeta», Charneca em Flor (1931). Domínio público.
+
+**Ouve o soneto e**
+repara onde a
+voz para: no fim
+do verso ou a
+meio?
+
+**Florbela Espanca (1894–1930), alente-**
+jana de Vila Viçosa, é uma das gran-
+des vozes da poesia portuguesa. Es-
+creveu sobretudo sonetos, com uma
+intensidade rara: o amor, a dor, o de-
+sejo de absoluto.
+
+A N A T O M I A D E U M S O N E T O
+
+**14 versos**
+
+2 quadras + 2 tercetos
+**Decassílabos**
+
+10 sílabas métricas
+**Esquema**
+
+ABBA ABBA CDC EDE
+
+**Chave de ouro**
+
+o último verso fecha a
+
+ideia com força
+
+✎
+
+Lê o soneto em voz alta duas vezes, a primeira depressa, a segunda devagar, com pausas nas vírgulas
+e nas reticências. Qual das leituras respeita melhor o poema? Porquê?
+ORALIDADE
+
+Ser Poeta é ser mais alto, é ser maior
+1
+
+Do que os homens! Morder como quem beija!
+
+É ser mendigo e dar como quem seja
+
+Rei do Reino de Aquém e de Além Dor!
+
+É ter de mil desejos o esplendor
+5
+
+E não saber sequer que se deseja!
+
+É ter cá dentro um astro que flameja,
+
+É ter garras e asas de condor!
+
+É ter fome, é ter sede de Infinito!
+
+Por elmo, as manhãs de oiro e de cetim…
+10
+
+É condensar o mundo num só grito!
+
+E é amar-te, assim, perdidamente…
+
+É seres alma e sangue e vida em mim
+
+E dizê-lo cantando a toda gente!
+
+POEMA 8 · SER POETA
+90
+
+<!-- page 91 -->
+
+---
+P O E M A 9 · F A N A T I S M O
+
+P O E M A 9
+LEITURA
+P O E M A I N T E G R A L · C O M P A R A R
+
+Fanatismo
+
+FLORBELA ESPANCA · LIVRO DE SÓROR SAUDADE
+(1923)
+
+**Ouve o soneto e compara com a**
+tua leitura.
+
+Florbela Espanca, «Fanatismo», Livro de Sóror Saudade (1923). Domínio público.
+
+**OS DOIS SONETOS**
+
+1. Confirma que «Fanatismo» é um soneto: número
+de versos, tipo de estrofes, esquema rimático.
+
+2. Faz a escansão do verso 2: Meus olhos andam ce-
+gos de te ver.
+
+3. Em «Ser Poeta», «É ser…», «É ter…» repetem-se no
+início dos versos. Como se chama este recurso?
+
+4. «Meus olhos andam cegos de te ver» parece uma
+**contradição. Explica o sentido deste paradoxo.**
+
+5. Os dois sonetos terminam com uma declaração
+de amor. Qual das «chaves de ouro» te parece
+mais forte? Porquê?
+
+6. O que é, para Florbela, «ser poeta»? Escolhe dois
+versos que o mostrem.
+
+7. Qual dos dois sonetos preferes ler em voz alta?
+Porquê?
+
+Minh'alma, de sonhar-te, anda perdida.
+1
+
+Meus olhos andam cegos de te ver.
+
+Não és sequer razão do meu viver
+
+Pois que tu és já toda a minha vida!
+
+Não vejo nada assim enlouquecida…
+5
+
+Passo no mundo, meu Amor, a ler
+
+No misterioso livro do teu ser
+
+A mesma história tantas vezes lida!…
+
+«Tudo no mundo é frágil, tudo passa…»
+
+Quando me dizem isto, toda a graça
+10
+
+Duma boca divina fala em mim!
+
+E, olhos postos em ti, digo de rastros:
+
+«Ah! podem voar mundos, morrer astros,
+
+Que tu és como Deus: princípio e fim!…»
+
+POEMA 9 · FANATISMO
+91
+
+<!-- page 92 -->
+
+---
+R E C U R S O S E X P R E S S I V O S
+
+U N I D A D E 3
+ED. LITERÁRIA
+R E F E R Ê N C I A
+## O guia dos recursos
+
+Os recursos expressivos são as ferramentas do poeta. Reconhecê-los é o primeiro passo; o
+**segundo — o mais importante — é explicar o efeito que produzem.**
+
+**Fórmula para o comentário «No verso __, o poeta recorre a (recurso) — (citação) — para (efeito: su-**
+
+blinhar, intensificar, sugerir, contrastar…).»
+
+**Anáfora**
+
+Repetição de palavras no início de
+versos ou frases.
+
+«E por vezes… / E por vezes…»
+
+(Mourão-Ferreira)
+
+**Enumeração**
+
+Sequência de elementos da mesma
+natureza.
+
+«pernas / ambulâncias / e o
+
+luxo blindado» (O'Neill)
+
+**Metáfora**
+
+Comparação implícita, sem «como».
+
+«o sonho comanda a vida»
+
+(Gedeão)
+
+**Comparação**
+
+Aproximação de duas realidades
+com «como», «tal como»…
+
+«tu és como Deus: princípio e
+
+fim» (Florbela)
+
+**Personificação**
+
+Dar qualidades humanas a seres
+não humanos.
+
+«o vento cala a desgraça»
+
+(Alegre)
+
+**Apóstrofe**
+
+Chamamento ou interpelação de al-
+guém ou de algo.
+
+«Tejo que levas as águas»
+
+(Fonseca)
+
+**Hipérbole**
+
+Exagero intencional.
+
+«os meses oceanos» (Mourão-
+
+Ferreira)
+
+**Antítese**
+
+Aproximação de ideias opostas.
+
+«Morder como quem beija»
+
+(Florbela)
+
+**Paradoxo**
+
+Ideias que parecem contraditórias
+mas fazem sentido.
+
+«Meus olhos andam cegos de te
+
+ver» (Florbela)
+
+**Pleonasmo**
+
+Repetição de uma ideia para a
+reforçar.
+
+«Vi com os meus próprios
+olhos»
+
+**Aliteração**
+
+Repetição de sons consonânticos.
+
+«Rei do Reino de Aquém e de
+
+Além Dor» (Florbela)
+
+**Imperativo**
+
+Forma verbal de ordem, pedido ou
+conselho.
+
+«Recomeça…» (Torga)
+
+RECURSOS EXPRESSIVOS
+92
+
+<!-- page 93 -->
+
+---
+E S C R I T A · C O M E N T Á R I O
+
+U N I D A D E 3
+ESCRITA
+C O M E N T Á R I O A U M P O E M A
+## Comentar um poema
+
+**Um comentário de poema responde a duas perguntas: de que fala o poema (tema) e como o**
+**diz (recursos, forma, ritmo). Tudo com provas — versos citados entre aspas.**
+
+E S T R U T U R A E M Q U A T R O P A R Á G R A F O S
+
+**1**
+**Apresentação**
+Título, autor, e o tema numa frase. «Em "Sísifo", Miguel Torga reflete sobre a ne-
+cessidade de recomeçar.»
+
+**2**
+**O tema desenvolvido**
+Como evolui o poema, estrofe a estrofe. Quem fala? A quem?
+
+**3**
+**Um recurso e o seu**
+**efeito**
+
+**Identifica, cita, explica o efeito (usa a fórmula da p. 92). Se possível, também a**
+
+forma: estrofes, métrica, rima.
+
+**4**
+**Apreciação**
+O que o poema te fez pensar ou sentir, e porquê. Pode ser atual?
+
+E X E M P L O D E P A R Á G R A F O 3
+
+Logo no primeiro verso, o poeta usa o imperativo — «Recomeça…» — como se desse um conselho ao
+
+leitor e a si próprio. As reticências prolongam a palavra e sugerem que recomeçar é um gesto que se
+
+repete, tal como o de Sísifo.
+
+## 1
+
+Escolhe um dos nove poemas e escreve um comentário (180 a 230 palavras) com o tema e, pelo me-
+nos, um recurso expressivo explicado.
+
+ESCRITA · COMENTÁRIO
+93
+
+<!-- page 94 -->
+
+---
+G R A M Á T I C A D O V E R S O
+
+U N I D A D E 3
+GRAMÁTICA
+C L A S S E S D E P A L A V R A S N O V E R S O · P O N T U A Ç Ã O E R I T M O
+## As palavras que o verso escolhe
+
+**Num poema, cada palavra conta. Observar as classes de palavras ajuda a perceber o estilo:**
+um poema cheio de verbos tem movimento; um poema cheio de nomes e adjetivos é mais
+descritivo, mais parado.
+
+Tejo
+que
+levas
+as
+águas
+
+NOME
+PRONOME RELATIVO
+VERBO
+DETERMINANTE
+ADJETIVO
+ADVÉRBIO
+
+## 1
+
+Classifica as palavras do verso de Florbela: «É ter cá dentro um astro que flameja».
+
+## 2
+
+Em «Ser Poeta», predominam os verbos no infinitivo (ser, morder, dar, ter…). Que efeito tem essa
+escolha?
+
+**Pontuação e ritmo**
+
+## . ! ?
+
+pausa longa; entoação de
+
+afirmação, emoção ou
+
+pergunta
+
+## , ;
+
+pausa breve; separa ele-
+
+mentos de uma
+
+enumeração
+
+## …
+
+suspensão; algo fica por
+
+dizer, prolonga-se
+
+## sem
+## pontuação
+
+o leitor decide as pausas;
+
+o ritmo nasce do verso
+
+(O'Neill, Alegre)
+
+## 3
+
+Lê em voz alta a primeira quadra de «Fanatismo» duas vezes: primeiro, parando no fim de cada verso;
+depois, respeitando só a pontuação. Qual das leituras preferes? Porquê?
+
+## 4
+
+Pontua a estrofe citada de «Tejo que levas as águas» como achares que deve ser lida e justifica uma
+das tuas escolhas.
+
+GRAMÁTICA DO VERSO
+94
+
+<!-- page 95 -->
+
+---
+S A R A U D E P O E S I A
+
+P R O J E T O
+ORALIDADE
+E M G R U P O · 2 S E M A N A S
+## Sarau no farol
+
+**A turma organiza um sarau de poesia — uma noite (ou uma aula) em que os poemas são di‐**
+tos, cantados e mostrados. Cada grupo prepara um momento de 4 a 6 minutos.
+
+01
+
+**Escolher**
+
+02
+
+**Apresentar**
+
+03
+
+**Dizer**
+
+04
+
+**Transformar**
+
+05
+
+**Explicar**
+
+**Para dizer bem**
+olha o público
+respeita a pontuação
+não corras
+
+faz pausas antes das palavras importantes
+varia o volume
+
+CRITÉRIO
+EM CONSTRUÇÃO
+CONSOLIDADO
+EXCELENTE
+
+**Dizer o poema**
+leitura hesitante
+de cor, ritmo adequado
+expressivo, pausas intencionais, contacto
+visual
+
+**Conheci-**
+**mento**
+
+informação vaga
+poeta e contexto
+corretos
+
+ligação clara entre contexto e poema
+
+**Análise**
+recurso identificado
+recurso e efeito
+efeito relacionado com o tema
+
+**Criatividade**
+transformação
+simples
+
+transformação cuidada
+transformação original que ilumina o poema
+
+**Grupo**
+participação desigual
+todos participam
+momento coeso e bem ensaiado
+
+MOMENTO
+QUEM
+O QUÊ
+TEMPO
+
+Apresentar
+
+Dizer
+
+Transformar
+
+Explicar
+
+SEMANA 1 · DIA 1
+Escolher poemas e dis-
+
+tribuir tarefas
+
+SEMANA 1 · DIA 3
+Guião do momento
+
+entregue
+
+SEMANA 2 · DIA 2
+Ensaio geral, com
+
+cronómetro
+
+SEMANA 2 · DIA 4
+Sarau: turma, famílias,
+
+convidados
+
+**Depois do sarau Qual foi o momento de outro grupo que mais te tocou? Porquê?**
+
+Um dos nove poe-
+mas e um poema
+de um poeta à
+vossa escolha.
+
+30 segundos sobre
+o poeta e o tempo
+em que escreveu.
+
+O poema dito de
+cor, com pausas,
+volume e intenção.
+
+Um poema visual,
+uma quadra vossa,
+ou a canção.
+
+Um recurso expres-
+sivo e o seu efeito,
+em 1 minuto.
+
+SARAU DE POESIA
+95
+
+<!-- page 96 -->
+
+---
+B A L A N Ç O
+
+B A L A N Ç O
+U N I D A D E 3
+## Dez perguntas em verso
+
+CONSIGO…
+AINDA NÃO
+QUASE
+SIM!
+
+identificar estrofes e desenhar o esquema rimático
+
+contar sílabas métricas e reconhecer a redondilha
+
+reconhecer um soneto e o decassílabo
+
+identificar recursos expressivos e explicar o efeito
+
+distinguir o que o poema diz do que deixa entender
+
+escrever um comentário a um poema
+
+reconhecer completivas, advérbios, sujeito e predicado
+
+dizer um poema em voz alta, com expressividade
+
+✎
+
+Que verso desta unidade gostavas de guardar de cor? Porquê?
+
+Uma estrofe de quatro versos chama-se
+**1**
+O esquema ABAB corresponde à rima
+**2**
+
+Um verso de sete sílabas métricas é uma
+**3**
+«Pergunto ao vento que passa» tem
+sílabas métricas.
+
+**4**
+
+O soneto tem 14 versos: duas
+
+e dois
+
+**5**
+«E por vezes… / E por vezes…» — recurso:
+**6**
+
+«o vento cala a desgraça» — recurso:
+**7**
+Em «Eles não sabem que o sonho comanda a vida»,
+a oração «que o sonho comanda a vida» é subordi-
+nada
+
+**8**
+
+«De repente» é uma
+**9**
+«Entrar para dentro» é um pleonasmo expressivo ·
+
+vicioso
+
+**10**
+
+BALANÇO
+96
+
+<!-- page 97 -->
+
+---
+G L O S S Á R I O · S O L U Ç Õ E S
+
+**Glossário**
+
+**Chave de ouro**
+Último verso de um soneto, que fecha a ideia com
+força.
+
+**Decassílabo**
+Verso de dez sílabas métricas.
+
+**Elisão**
+Junção, numa só sílaba métrica, de uma vogal final
+com a vogal inicial seguinte.
+
+**Escansão**
+Divisão de um verso em sílabas métricas.
+
+**Esquema rimático**
+Representação, com letras, da disposição das rimas.
+
+**Poema em prosa**
+Texto poético sem divisão em versos.
+
+**Poesia visual**
+Poesia em que a forma gráfica faz parte do sentido.
+
+**Redondilha maior / menor**
+Verso de sete / de cinco sílabas métricas.
+
+**Soneto**
+Poema de catorze versos: duas quadras e dois
+tercetos.
+
+**Sujeito poético**
+A voz que fala no poema (não é, necessariamente, o
+autor).
+
+**Verso livre**
+Verso sem medida fixa.
+
+**Verso solto**
+Verso que não rima com nenhum outro.
+
+**Hiato**
+Separação, em duas sílabas métricas, de vogais
+seguidas.
+
+**Trova**
+Composição de gosto popular, feita para ser cantada.
+
+**Soluções**
+
+**p. 78 · Aquecimento. 1. Quadra 1: ABAB (cruzada) · quadra 2: ABAB (cru-**
+zada) · quadra 3: ABBA (interpolada). Nenhuma é emparelhada. 2. Ó /
+ve / lho / Ci / ne / ma_Au / ro(ra) = 7 · que_a / pos / sa_um / di / a_a /
+pa / gar = 7.
+
+**p. 81 · Pleonasmo e completivas. 1. a) H · b) E · c) P · d) H. 2. a) que o so-**
+nho faz o mundo avançar · b) se Gedeão era mais cientista ou mais
+poeta · c) que íamos ouvir o poema cantado.
+
+**p. 84 · Advérbios, sujeito e predicado. 1. De repente (tempo) · baixinho**
+(modo) · às escondidas (modo) · nunca (tempo/negação). 2. a) S: Os vi-
+zinhos · P: desconfiavam uns dos outros · b) sujeito inexistente
+(verbo haver) · P: Nas paredes havia ouvidos · c) S: um homem de
+chapéu · P: Entrou na sala.
+
+**p. 86 · Trova. 1. e_o / ven / to / ca / la_a / des / gra(ça) = 7 · o / ven / to**
+/ na / da / me / diz = 7. 2. ABAB, rima cruzada. 3. Apóstrofe (e personi-
+ficação do vento).
+
+**p. 89 · Tejo. 1. Te / jo / que / le / vas / as / á(guas) = 7 · le / va_as / má /**
+goas / pa / ra_o / mar = 7. 2. ABAB.
+
+**p. 91 · Florbela. 1. 14 versos, 2 quadras + 2 tercetos; ABBA ABBA CCD**
+EED. 2. Meus / o / lhos / an / dam / ce / gos / de / te / ver = 10. 3.
+Anáfora.
+
+**p. 96 · Balanço. 1 quadra · 2 cruzada · 3 redondilha maior · 4 sete · 5**
+quadras, tercetos · 6 anáfora · 7 personificação · 8 completiva · 9 lo-
+cução adverbial · 10 vicioso.
+
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
+
+**A forma**
+
+Estrofes: dístico, terceto, quadra…
+soneto (4+4+3+3).
+
+Rima: emparelhada AABB, cruzada
+ABAB, interpolada ABBA.
+
+Métrica: contar até à última tónica;
+elisões. Redondilha maior 7, menor
+5; decassílabo 10.
+
+**O sentido**
+
+Tema: de que fala o poema.
+
+Sujeito poético: quem fala.
+
+Recursos: anáfora, enumeração,
+metáfora, comparação, personifi-
+cação, apóstrofe, hipérbole, antí-
+tese, paradoxo.
+
+O que diz e o que deixa entender
+(ironia).
+
+**Gramática**
+
+Completiva: completa um verbo
+(que, se).
+
+Advérbio e locução adverbial:
+modo, tempo, lugar…
+
+Sujeito (quem? o quê?) e predicado.
+
+Pleonasmo e hipérbole.
+
+GLOSSÁRIO · SOLUÇÕES
+97
+
+<!-- page 98 -->
+
+---
 U N I D A D E 7
 
 A T I V I D A D E S E X T R A · C O N T R A T O D E L E I T U R A
@@ -6873,9 +8894,9 @@ horas?
 Como se escolhe um livro sem conhecer a história?
 
 CONTRATO DE LEITURA
-74
+98
 
-<!-- page 75 -->
+<!-- page 99 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -6886,7 +8907,7 @@ P O N T O D E P A R T I D A · S E T E M B R O
 ## Que leitor és tu?
 
 Responde com honestidade: não há respostas certas, e só tu vais comparar este retrato com
-o de junho (p. 83).
+o de junho (p. 107).
 
 ## 1
 Quantos livros leste, por vontade própria, no último ano?
@@ -6979,9 +9000,9 @@ BD
 terror
 
 CONTRATO DE LEITURA
-75
+99
 
-<!-- page 76 -->
+<!-- page 100 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7054,9 +9075,9 @@ Um colega diz: «Eu não gosto de ler.» Escreve-lhe duas frases para o convence
 dade a um livro — sem promessas exageradas nem hipérboles enganosas (lembra-te da Unidade 1).
 
 CONTRATO DE LEITURA
-76
+100
 
-<!-- page 77 -->
+<!-- page 101 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7105,11 +9126,11 @@ minutos por dia, de preferência
 
 Por cada livro, o Leitor preenche um registo no diário de bordo e, uma vez por período, apresenta
 
-um livro à turma, num dos formatos da p. 82.
+um livro à turma, num dos formatos da p. 106.
 
 **Cláusula 5.ª · Direitos**
 
-O Leitor mantém todos os direitos enunciados na p. 76, incluindo o de abandonar um livro, nos
+O Leitor mantém todos os direitos enunciados na p. 100, incluindo o de abandonar um livro, nos
 
 termos aí previstos.
 
@@ -7129,9 +9150,9 @@ LIDO
 E ACEITE
 
 CONTRATO DE LEITURA
-77
+101
 
-<!-- page 78 -->
+<!-- page 102 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7286,9 +9307,9 @@ sugestão de casa
 a minha descoberta
 
 CONTRATO DE LEITURA
-78
+102
 
-<!-- page 79 -->
+<!-- page 103 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7356,9 +9377,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-79
+103
 
-<!-- page 80 -->
+<!-- page 104 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7421,9 +9442,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-80
+104
 
-<!-- page 81 -->
+<!-- page 105 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7486,9 +9507,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-81
+105
 
-<!-- page 82 -->
+<!-- page 106 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7597,9 +9618,9 @@ DATA
 3.º
 
 CONTRATO DE LEITURA
-82
+106
 
-<!-- page 83 -->
+<!-- page 107 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -7609,7 +9630,7 @@ ESCRITA
 P O N T O D E C H E G A D A · J U N H O
 ## O que mudou em mim
 
-Volta ao teu retrato de setembro (p. 75) e ao teu diário de bordo. Depois responde — desta
+Volta ao teu retrato de setembro (p. 99) e ao teu diário de bordo. Depois responde — desta
 vez, com a distância de um ano inteiro.
 
 EM SETEMBRO
@@ -7643,9 +9664,9 @@ N A M I N H A P R Ó X I M A E S T A N T E
 ASSINATURA DO LEITOR · JUNHO DE 20___
 
 CONTRATO DE LEITURA
-83
+107
 
-<!-- page 84 -->
+<!-- page 108 -->
 
 ---
 P O R T U G U Ê S · 8 . º A N O · M A N U A L D O A L U N O
@@ -7662,9 +9683,11 @@ de sal têm em comum; e aprender a escrever um slogan que fica no ouvido e uma c
 
 tica em que se pode confiar. Depois, sete narrativas — de Herculano a Oscar Wilde —
 
-mostram-te como se constrói uma história e como uma história nos constrói. E, porque
+mostram-te como se constrói uma história e como uma história nos constrói; nove poe-
 
-só se aprende a julgar livros lendo-os, assinas um contrato de leitura contigo próprio.
+mas ensinam-te a ouvir o verso. E, porque só se aprende a julgar livros lendo-os, assi-
+
+nas um contrato de leitura contigo próprio.
 
 Publicidade comercial e não comercial
 Crítica de cinema e de livro
@@ -7674,6 +9697,7 @@ Frase ativa e passiva
 2 anúncios de rádio em áudio
 Sete narrativas de formação
 
+Nove poemas, oito poetas
 Contrato e diário de leitura
 
 **Lê este livro online**

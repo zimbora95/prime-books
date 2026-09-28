@@ -1,0 +1,164 @@
+/* ===================== UNIT 3 · TEXTO POÉTICO (voice: plum) ===================== */
+:root { --plum: #8a2f5b; --plum-t: #f3dde6; }
+.v-poe .rail { background: var(--plum); }
+.v-poe .folio .n { background: var(--plum); }
+.v-poe h1.title em { color: var(--plum); }
+.v-poe .act > .num { color: var(--plum); }
+.v-poe.v-oficina-p .rail { background: var(--sun); } .v-poe.v-oficina-p .rail span { color: var(--ink); }
+.v-poe.v-oficina-p .folio .n { background: var(--sun); color: var(--ink); }
+.v-poe.v-oficina-p h1.title em { color: #b07b00; }
+.u3-opener .opener-card { background: rgba(251,247,239,.96); }
+.u3 .tu-h { background: var(--plum); }
+.toc-list a.plm b { background: var(--plum); color: #fff; }
+h2.sub { font-family: var(--serif); font-style: italic; font-size: 14pt; color: var(--plum); margin: 4mm 0 1.6mm; }
+.v-oficina-p h2.sub { color: #9a6c00; }
+
+/* programme */
+.u3-list { margin-top: 4mm; border-top: .6mm solid var(--ink); }
+.u3-row { display: grid; grid-template-columns: 12mm 60mm 34mm 1fr 13mm; gap: 3mm; align-items: center; padding: 4.2mm 0; border-bottom: .3mm solid var(--rule); }
+.u3-n { font-family: var(--serif); font-style: italic; font-weight: 800; font-size: 19pt; color: var(--plum); line-height: 1; }
+.u3-row b { display: block; font-family: var(--serif); font-size: 12pt; line-height: 1.15; }
+.u3-row small { font-family: var(--mono); font-size: 7pt; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); }
+.u3-g { font-size: 8.6pt; color: var(--plum); font-weight: 600; }
+.u3-s { font-size: 8.6pt; line-height: 1.3; }
+.u3-p { font-family: var(--serif); font-weight: 700; text-align: right; }
+.u3-foot div { background: var(--plum-t); }
+
+/* verse workshop */
+.vs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 3mm 0; }
+.vs-c { background: var(--ink); color: var(--paper); border-radius: 2.5mm; padding: 3mm 3.6mm; }
+.vs-c b { font-family: var(--serif); font-style: italic; font-size: 14pt; color: var(--sun); }
+.vs-c p { font-size: 9.2pt; margin: 1mm 0 0; line-height: 1.4; }
+.est td, .est th { text-align: center; font-size: 9.4pt; padding: 1.8mm; }
+.est td:nth-child(2), .est td:nth-child(4) { font-family: var(--serif); font-style: italic; font-size: 10.4pt; }
+.rm3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 2mm 0 3mm; }
+.rm3 > div { background: #fff; border: .3mm solid var(--rule); border-radius: 2.5mm; padding: 3mm 3.6mm; }
+.rm3 b { font-family: var(--serif); font-style: italic; font-size: 12.5pt; }
+.rm3 .sch { float: right; font-family: var(--mono); font-size: 9pt; letter-spacing: .2em; color: var(--plum); }
+.rm3 p { font-family: var(--serif); font-size: 10.6pt; line-height: 1.55; margin: 1.6mm 0 0; }
+.rm3 p u { text-decoration-color: var(--plum); text-decoration-thickness: .5mm; }
+.rm3 p i { font-family: var(--mono); font-style: normal; font-size: 8pt; color: var(--plum); margin-left: 2mm; }
+.rules3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 3mm 0; }
+.rules3 > div { background: #fff; border: .3mm solid var(--rule); border-radius: 2.5mm; padding: 3mm 3.4mm; }
+.rules3 i { font-family: var(--serif); font-weight: 800; font-size: 18pt; color: #b07b00; }
+.rules3 b { display: block; font-family: var(--serif); font-size: 11pt; margin: .4mm 0 1mm; }
+.rules3 p { font-size: 8.8pt; line-height: 1.38; margin: 0; }
+.scan { display: flex; gap: 1.2mm; margin: 1.8mm 0; flex-wrap: wrap; }
+.scan .sy { position: relative; background: #fff; border: .35mm solid var(--ink); border-radius: 1.6mm; padding: 3.4mm 2.4mm 1.4mm; font-family: var(--serif); font-size: 12pt; min-width: 9mm; text-align: center; }
+.scan .sy i { position: absolute; top: .5mm; left: 0; right: 0; font-family: var(--mono); font-style: normal; font-size: 6.2pt; color: var(--mute); }
+.scan .sy.t { background: var(--plum); color: #fff; border-color: var(--plum); } .scan .sy.t i { color: #fff; opacity: .8; }
+.scan .sy.x { border-style: dashed; color: var(--mute); background: transparent; }
+.cite-s { font-size: 7.6pt; color: var(--mute); margin: 0 0 1mm; }
+.scan-blank { display: flex; gap: 1.2mm; margin: 1.6mm 0; }
+.scan-blank span { width: 10mm; height: 8mm; border: .3mm dashed var(--mute); border-radius: 1.4mm; background: #fff; }
+.scan-blank.ten span { width: 8.6mm; }
+
+/* quadras */
+.qds { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3.4mm; margin: 3mm 0 3mm; }
+.qd { background: var(--plum-t); border-radius: 3mm; padding: 4mm 4mm 3mm; position: relative; }
+.qd-n { position: absolute; right: 3mm; top: 2mm; font-family: var(--serif); font-style: italic; font-weight: 800; font-size: 20pt; color: var(--plum); opacity: .5; }
+.qd .vpoem { font-size: 11pt; }
+.qd-s { font-size: 8.6pt; margin-top: 2mm; }
+
+/* poem block */
+.vpoem { font-family: var(--serif); font-size: 11.6pt; line-height: 1.55; }
+.vpoem .vst { margin-bottom: 3.2mm; }
+.vpoem .vl { display: block; position: relative; padding-left: 8mm; }
+.vpoem .vln { position: absolute; left: 0; top: .9mm; font-family: var(--mono); font-size: 6.6pt; color: var(--plum); }
+.qd .vpoem .vl { padding-left: 0; }
+.cq { margin: 2.4mm 0; padding: 2.6mm 4mm; background: #fff; border-left: 1.6mm solid var(--plum); border-radius: 0 2.4mm 2.4mm 0; }
+.cq p { font-family: var(--serif); font-style: italic; font-size: 11pt; line-height: 1.5; margin: 0 0 1mm; }
+.cq cite { font-style: normal; font-size: 7.2pt; color: var(--mute); font-family: var(--mono); letter-spacing: .04em; }
+.v-poe .gd-c h3, .v-poe .ctx-c h3 { color: var(--plum); }
+.v-poe .gd-c.rd { background: var(--plum-t); }
+.focus { background: #fff; border-radius: 2.5mm; padding: 3mm 3.6mm; margin-top: 2.4mm; border: .3mm solid var(--rule); }
+.focus b { font-family: var(--serif); font-style: italic; font-size: 11.5pt; color: var(--plum); }
+.focus p { font-size: 9pt; margin: 1.2mm 0 0; line-height: 1.4; }
+.focus u { text-decoration-color: var(--plum); text-decoration-thickness: .5mm; font-weight: 600; }
+.ideas { display: flex; flex-wrap: wrap; gap: 1.6mm; align-items: center; margin: 1mm 0 3mm; font-size: 8.8pt; }
+.ideas b { font-family: var(--serif); font-style: italic; font-size: 11.5pt; margin-right: 1.4mm; }
+.ideas span { background: var(--sun-t, #fdf1cf); border-radius: 10mm; padding: .8mm 2.8mm; }
+.sub1 { background: var(--ink); color: var(--paper); border-radius: 2.5mm; padding: 3.4mm 4mm; margin: 3mm 0; }
+.sub1 > b { font-family: var(--serif); font-style: italic; color: var(--sun); font-size: 12.5pt; display: block; }
+.sub1 > span { font-size: 9pt; display: block; margin: 1mm 0 2mm; line-height: 1.4; }
+.sub1 .ex { background: rgba(255,255,255,.1); color: var(--paper); margin: 1.2mm 0; }
+.test { font-size: 8.8pt; margin-top: 2mm; } .test b { color: var(--sun); margin-right: 1.4mm; }
+.dd td { height: 11mm; font-size: 9pt; } .dd td:first-child { width: 42%; font-style: italic; font-family: var(--serif); }
+.rc3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; margin: 3mm 0; }
+.rc3 > div { background: var(--sun-t, #fdf1cf); border-radius: 2.5mm; padding: 3mm 3.4mm; }
+.rc3 b { font-family: var(--serif); font-style: italic; font-size: 12.5pt; }
+.rc3 p { font-size: 9pt; line-height: 1.4; margin: 1mm 0 0; }
+.sp { background: #fff; border: .3mm solid var(--rule); border-radius: 2.5mm; padding: 3.4mm 4mm; margin: 3mm 0; }
+.sp-line { font-family: var(--serif); font-size: 15pt; text-align: center; }
+.sp-line span, .sp-key span { padding: .6mm 2mm; border-radius: 1.4mm; }
+.sj { background: #cfe3f0; } .pd { background: #f7d77a; }
+.sp-key { display: flex; gap: 3mm; justify-content: center; margin: 2mm 0; font-family: var(--mono); font-size: 7pt; letter-spacing: .08em; text-transform: uppercase; }
+.sp p { font-size: 9pt; margin: 1mm 0 0; line-height: 1.4; }
+.vp { display: grid; grid-template-columns: 22mm 1fr; gap: 4mm; align-items: center; background: #fff; border-radius: 2.5mm; padding: 3mm; margin-top: 2mm; }
+.vp1 { font-family: var(--serif); font-size: 15pt; line-height: 1.1; color: var(--plum); }
+.vp2 { font-family: var(--mono); font-size: 7.6pt; line-height: 1.5; color: var(--sea); } .vp2 b { color: var(--red); }
+.vp small { grid-column: 1 / -1; font-size: 7pt; color: var(--mute); }
+.drawbox.tall { height: 70mm; }
+
+/* Florbela */
+.fb { display: grid; grid-template-columns: 1.45fr .75fr; gap: 5mm; }
+.fb .vpoem { font-size: 11.4pt; line-height: 1.6; white-space: nowrap; }
+.fb-img { height: 118mm; border-radius: 3mm; background-size: cover; background-position: center 30%; margin-bottom: 3mm; }
+.fb .qr-inline { background: var(--plum-t); }
+.bio { font-size: 9.2pt; line-height: 1.45; margin-top: 3mm; }
+.fb-r.rd { background: var(--plum-t); border-radius: 3mm; padding: 3.6mm 4mm; }
+.fb-r.rd h3 { font-family: var(--serif); font-style: italic; color: var(--plum); font-size: 12pt; margin: 0 0 1.4mm; }
+.fb-r.rd ol.qs li { font-size: 9.2pt; }
+.son { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.6mm; margin-top: 3mm; }
+.son-h { grid-column: 1 / -1; font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; color: var(--plum); }
+.son > div:not(.son-h) { background: var(--ink); color: var(--paper); border-radius: 2.5mm; padding: 2.6mm 3mm; }
+.son b { font-family: var(--serif); font-style: italic; font-size: 12pt; color: var(--sun); display: block; }
+.son span { font-size: 8.6pt; }
+
+/* recursos */
+.recs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.6mm; margin: 3mm 0; }
+.recs .rc { background: #fff; border: .3mm solid var(--rule); border-top: 1.2mm solid var(--plum); border-radius: 2mm; padding: 2.6mm 3mm; min-height: 34mm; }
+.recs .rc b { font-family: var(--serif); font-style: italic; font-size: 12.5pt; display: block; }
+.recs .rc span { font-size: 8.6pt; line-height: 1.35; display: block; margin: .6mm 0 1.4mm; }
+.recs .rc em { font-family: var(--serif); font-size: 9.4pt; color: var(--plum); }
+.formula { background: var(--ink); color: var(--paper); border-radius: 2.5mm; padding: 3.4mm 4mm; font-size: 10pt; line-height: 1.5; }
+.formula b { color: var(--sun); font-family: var(--serif); font-style: italic; margin-right: 1.6mm; }
+.modelc { background: var(--plum-t); border-radius: 2.5mm; padding: 3mm 4mm; margin: 3mm 0; }
+.modelc b { font-family: var(--mono); font-size: 7.2pt; letter-spacing: .16em; text-transform: uppercase; color: var(--plum); }
+.modelc p { font-family: var(--serif); font-size: 10pt; margin: 1.2mm 0 0; line-height: 1.5; }
+
+/* grammar of verse */
+.cls { background: #fff; border: .3mm solid var(--rule); border-radius: 2.5mm; padding: 4mm; margin: 3mm 0; text-align: center; }
+.cl-row { display: flex; gap: 2mm; justify-content: center; font-family: var(--serif); font-size: 16pt; }
+.cl-row .w { padding: .6mm 2mm; border-radius: 1.4mm; }
+.cl-key { display: flex; gap: 2mm; justify-content: center; flex-wrap: wrap; margin-top: 2.4mm; font-family: var(--mono); font-size: 7pt; letter-spacing: .08em; text-transform: uppercase; }
+.cl-key span { padding: .6mm 2mm; border-radius: 1mm; }
+.cls .n { background: #cfe3f0; } .cls .p { background: #e3d3ee; } .cls .v { background: #f7d77a; } .cls .d { background: #dcebe2; } .cls .a { background: #f8dcd4; } .cls .av { background: #eee6d6; }
+.pr3 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.6mm; margin: 2mm 0 3mm; }
+.pr3 > div { background: var(--sun-t, #fdf1cf); border-radius: 2.5mm; padding: 2.6mm 3mm; }
+.pr3 b { font-family: var(--serif); font-size: 15pt; display: block; }
+.pr3 span { font-size: 8.4pt; line-height: 1.35; }
+
+.fan-h { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; }
+.fan-h .qr-inline { background: var(--plum-t); max-width: 80mm; }
+.fan-p { background: #fff; border: .3mm solid var(--rule); border-radius: 3mm; padding: 5mm 6mm 2mm; margin-top: 3mm; }
+.vpoem.two { columns: 2; column-gap: 8mm; font-size: 11.4pt; white-space: nowrap; }
+.vpoem.two .vst { break-inside: avoid; }
+.fan-q { background: var(--plum-t); border-radius: 3mm; padding: 3.6mm 4.4mm; margin-top: 3mm; }
+.fan-q h3 { font-family: var(--serif); font-style: italic; color: var(--plum); font-size: 12.5pt; margin: 0 0 1.6mm; }
+ol.qs.two { columns: 2; column-gap: 7mm; } ol.qs.two li { break-inside: avoid; font-size: 9.2pt; }
+.l16 { height: 115.2mm; } .l18 { height: 129.6mm; }
+.drawbox.tall2 { height: 96mm; }
+.tpsy { background: #fff; border: .3mm solid var(--rule); border-radius: 2.5mm; padding: 3mm 3.6mm; margin-top: 3mm; }
+.tpsy b { font-family: var(--serif); font-style: italic; color: var(--plum); font-size: 11.5pt; display: block; margin-bottom: 1.4mm; }
+.tp-row { display: grid; grid-template-columns: 1fr 26mm; gap: 2mm; align-items: end; font-size: 9pt; padding: 1.2mm 0; }
+.tp-row i { border-bottom: .3mm solid var(--ink); height: 5mm; }
+.tpsy small { font-size: 7.8pt; color: var(--mute); }
+.tl { display: grid; gap: 1.6mm; margin: 3mm 0; border-left: .6mm solid var(--plum); padding-left: 3.6mm; }
+.tl b { font-family: var(--mono); font-size: 8pt; color: var(--plum); margin-right: 2mm; }
+.tl span { font-size: 9pt; }
+.recs .rc { min-height: 42mm; } .recs .rc em { font-size: 10pt; }
+.u3-row { padding: 5mm 0; }
+.qd .vpoem { font-size: 12pt; } .gui td { height: 9mm; }
+.hero-img.slim { height: 56mm; }
+.qd .vpoem { font-size: 10.6pt; white-space: nowrap; } .qd { padding: 4mm 3mm 3mm; } .qds { gap: 2.6mm; }
