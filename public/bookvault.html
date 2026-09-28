@@ -319,7 +319,12 @@
           if (window.pbDownloadLink) window.pbDownloadLink(a, url, name);
         }
 
-        function fmtMm(pt) { return (pt * 25.4 / 72).toFixed(1); }
+        /* build.json records every dimension in MILLIMETRES (trim_mm, media_mm,
+           full_cover_mm, width_mm, height_mm); the points figure the old
+           formatter expected is kept separately as trim_pt. Multiplying by
+           25.4/72 turned this book's 216 x 279 mm trim into 76.2 x 98.4 mm on
+           screen in every BookVault page. Format the millimetres as they are. */
+        function fmtMm(mm) { return Number(mm).toFixed(1); }
 
         function loadLibrary(cb) {
           fetchBases("/library.json", { cache: "no-store" }, 0, function (rows) {
@@ -444,8 +449,13 @@
             "(back + spine + front + 3 mm bleed)." +
             (c.spine_confirmed
               ? " Spine width taken from the figure saved above." : "") +
-            (c.spine_text ? "" : " Spine text is left off: the spine is under " +
-              "6 mm, too narrow to carry type.") +
+            (c.spine_text
+              ? " Spine line set: subject, year and imprint, " +
+                (c.spine_text_pt ? c.spine_text_pt + " pt, " : "") +
+                "1 mm clear of each spine edge."
+              : " Spine text is left off: the spine is under " +
+                (c.spine_text_floor_mm || 5) +
+                " mm, too narrow to carry type.") +
             " Confirm the spine with BookVault's sizing calculator for this trim, " +
             "binding and paper, then save it above and rebuild.";
         }

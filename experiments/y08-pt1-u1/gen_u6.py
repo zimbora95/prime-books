@@ -183,10 +183,10 @@ for i, st in enumerate(desc):
 P.append(page('u6-t2', '', 'Teste 2 · Grupo I', f'''
     {head(2, '2.º semestre', 90)}
     {grp('I', 'Educação literária · texto poético', 35)}
+    <div class="u6-pl"><h2 class="tx-title">Descalça vai para a fonte</h2><p class="tx-by">Luís de Camões · vilancete · domínio público</p>
+      <div class="vpoem u6-vp">{"".join(stz)}</div>
+      <p class="src">Luís de Camões, <i>Rimas</i>. Texto da Wikisource; mantém-se a grafia antiga de «Lianor» e «fermosa».</p></div>
     <div class="u6-poem">
-      <div class="u6-pl"><h2 class="tx-title">Descalça vai para a fonte</h2><p class="tx-by">Luís de Camões · vilancete · domínio público</p>
-        <div class="vpoem u6-vp">{"".join(stz)}</div>
-        <p class="src">Luís de Camões, <i>Rimas</i>. Texto da Wikisource; mantém-se a grafia antiga de «Lianor» e «fermosa».</p></div>
       <div class="u6-pr">
         <div class="u5-voc"><div class="vc-h">Vocabulário</div><p><b>Lianor</b> Leonor · <b>fermosa</b> formosa · <b>segura</b> tranquila, sem perigo · <b>testo</b> tampa · <b>escarlata</b> tecido vermelho, fino · <b>sainho</b> casaquinho curto · <b>chamerlote</b> tecido de pelo de cabra · <b>vasquinha de cote</b> saia de todos os dias · <b>touca</b> pano que cobre a cabeça</p></div>
         <div class="qr-inline u6-qr"><div class="qr" style="width:21mm;height:21mm">{{{{QR:https://commons.wikimedia.org/?curid=49885164}}}}</div><span><b>Depois do teste</b>, ouve o poema (Carlos Gomes, Wikimedia Commons, domínio público).</span></div>

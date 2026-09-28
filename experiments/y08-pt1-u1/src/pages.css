@@ -986,3 +986,12 @@ ol.mini li { margin-bottom: 1.4mm; }
 .z-cred .z-t td, .z-cred .z-t th { font-size: 7.8pt; padding: 1.1mm 1.8mm; line-height: 1.3; }
 .z-cred .zh { margin: 2.6mm 0 1.2mm; } .z-cred h1.title { margin-bottom: 1mm; } .z-cred .z-n { margin: 2mm 0; padding: 1.8mm 3mm; font-size: 8.4pt; } .z-cred .z-g p { font-size: 8.4pt; }
 .gi { padding: 2.3mm 0; } .gi b { font-size: 10.6pt; } .gi span { font-size: 8.8pt; }
+.doc-tag { padding-top: 6.6mm; }
+/* BookVault's barcode box (38 x 25 mm, 6.4 mm from the spine-side trim, 3.3 mm up) kept clean:
+   on the A4 master that maps to the last ~28 mm at the right edge, bottom 3-31 mm */
+.back .back-foot { padding-right: 20mm; }
+.barcode-panel { position: absolute; right: 0; bottom: 2.5mm; width: 29mm; height: 29.5mm; background: var(--paper); border-radius: 1.6mm 0 0 1.6mm; }
+/* barcode panel re-sized for the native-trim cover: BookVault's box sits 6.4-44.4 mm in from the
+   spine-side trim and 3.3-28.3 mm up; the wrap enlarges the cover ~2% into a 3 mm bleed */
+.barcode-panel { right: 0; bottom: 0; width: 50mm; height: 33mm; border-radius: 2.4mm 0 0 0; }
+.back .back-foot { padding-right: 52mm; }

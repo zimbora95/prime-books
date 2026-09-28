@@ -175,3 +175,8 @@ ol.u6-q.two { columns: 2; column-gap: 6mm; } ol.u6-q.two li { break-inside: avoi
 .u6-codes span { background: #fff; border: .3mm solid var(--rule); border-radius: 1.6mm; padding: .8mm 2.4mm; } .u6-codes b { font-family: var(--mono); color: #b5541c; margin-right: 1mm; }
 .md-t p { font-size: 10.6pt; line-height: 1.55; } .u6-md.lv1 .md-t p { font-size: 10.2pt; }
 .md-t p { font-size: 9.6pt; line-height: 1.48; margin-bottom: 1.2mm; } .u6-md.lv1 .md-t p { font-size: 9.2pt; } .md-n { font-size: 8pt; } .u6-md { margin-top: 2.6mm; }
+.u6-poem { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: stretch; }
+.u6-poem .u6-pr { display: contents; }
+.u6-poem .qr-inline { margin-top: 0; }
+.u6-pl .u6-vp { columns: 3; column-gap: 5mm; font-size: 10.6pt; }
+.u6-pl .u6-vp { font-size: 10.2pt; }

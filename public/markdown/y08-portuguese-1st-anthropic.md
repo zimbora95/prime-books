@@ -12819,32 +12819,28 @@ CLASSIFICAÇÃO
 
 GRUPO I · EDUCAÇÃO LITERÁRIA · TEXTO POÉTICO
 35 pontos
-
 ## Descalça vai para a fonte
 
 L U Í S D E C A M Õ E S · V I L A N C E T E · D O M Í N I O P Ú B L I C O
 
 MOTE
-
 1.ª VOLTA
-
 2.ª VOLTA
 
 Luís de Camões, Rimas. Texto da Wikisource; mantém-se a grafia antiga de «Lianor» e «fermosa».
 
 VOCABULÁRIO
 
-**Lianor Leonor · fermosa formosa · s**
+**Lianor Leonor · fermosa formosa · segura tranquila, sem perigo ·**
 
-**tranquila, sem perigo · testo tampa ·**
-**tecido vermelho, fino · sainho casaq**
-**curto · chamerlote tecido de pelo d**
-**vasquinha de cote saia de todos os**
-**touca pano que cobre a cabeça**
+**testo tampa · escarlata tecido vermelho, fino · sainho casaquinho**
+**curto · chamerlote tecido de pelo de cabra · vasquinha de cote saia**
+**de todos os dias · touca pano que cobre a cabeça**
 
-**Depois do teste, ou**
-(Carlos Gomes, Wik
-mons, domínio púb
+**Depois do teste, ouve o po-**
+ema (Carlos Gomes, Wikime-
+dia Commons, domínio
+público).
 
 **1. O poema é um vilancete: um mote seguido de voltas.**
 Indica quantos versos tem o mote e quantos tem
@@ -12872,7 +12868,6 @@ Descalça vai para a fonte
 1
 
 Lianor pela verdura;
-
 Vai fermosa, e não segura.
 
 Leva na cabeça o pote,
@@ -12883,9 +12878,7 @@ O testo nas mãos de prata,
 Cinta de fina escarlata,
 
 Sainho de chamerlote;
-
 Traz a vasquinha de cote,
-
 Mais branca que a neve pura.
 
 Vai fermosa e não segura.
@@ -12894,11 +12887,9 @@ Vai fermosa e não segura.
 Descobre a touca a garganta,
 
 Cabelos de ouro entrançado
-
 Fita de cor de encarnado,
 
 Tão linda que o mundo espanta.
-
 Chove nela graça tanta,
 15
 
