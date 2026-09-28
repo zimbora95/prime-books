@@ -22,6 +22,10 @@ def render_html() -> pathlib.Path:
     html = (SRC / "book.html").read_text()
     html = re.sub(r"\{\{INCLUDE:([^}]+)\}\}", lambda m: (SRC / m.group(1)).read_text(), html)
     html = html.replace("{{SITE}}", SITE).replace("{{SLUG}}", SLUG)
+    # Guard: the .vercel site is a temporary workshop -- no printed QR may depend on it.
+    bad = [u for u in re.findall(r"\{\{QR:([^}]+)\}\}", html) if "vercel" in u or "/library/" in u]
+    if bad:
+        raise SystemExit("QR points at the temporary site: " + ", ".join(bad))
     html = re.sub(r"\{\{QR:([^}]+)\}\}", lambda m: qr_svg(m.group(1)), html)
     out = SRC / "_book.built.html"  # stays in src/ so relative art + font paths resolve
     out.write_text(html)

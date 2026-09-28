@@ -14,3 +14,6 @@ fill_u3*.py
 fill_u4.py
 fill_u5.py
 texts/raw_*.md
+print/stage/
+fill_u6.py
+fix_audio.py

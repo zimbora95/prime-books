@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (148 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (172 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -17,6 +17,7 @@ Unidade 2 · Texto narrativo
 Unidade 3 · Texto poético
 Unidade 4 · Texto dramático
 Unidade 5 · Revisões anuais
+Unidade 6 · Avaliação
 Unidade 7 · Contrato de leitura
 
 P R I M E S C H O O L
@@ -47,19 +48,19 @@ ED. LITERÁRIA
 
 onde constróis; a âmbar, o teu percurso de leitor.
 
-Os códigos QR abrem os áudios da unidade no telemóvel. As soluções das atividades de verificação estão no
+Os códigos QR abrem gravações de poemas no Wikimedia Commons, o arquivo público da Wikipédia. As solu-
 
-fim de cada unidade: resolve primeiro, confirma depois.
+ções das atividades de verificação estão no fim de cada unidade: resolve primeiro, confirma depois.
 
 **ESTA EDIÇÃO**
 
-**Inclui a Unidade 1 (Publicidade e crítica), a Unidade 2**
-**(Texto narrativo), a Unidade 3 (Texto poético), a Unidade 4**
+**Edição completa, com as sete unidades do 8.º ano: 1 Publi-**
+**cidade e crítica · 2 Texto narrativo · 3 Texto poético · 4**
 
-**(Texto dramático), a Unidade 5 (Revisões anuais) e a Uni-**
+**Texto dramático · 5 Revisões anuais · 6 Avaliação (testes,**
 
-**dade 7 (Contrato de leitura). A Unidade 6 (Avaliação)**
-junta-se na próxima edição, com a mesma organização.
+**tarefas, critérios e secção do professor) · 7 Contrato de**
+leitura.
 
 **CONCEÇÃO**
 
@@ -80,29 +81,38 @@ ficcionais e foram criados para este manual. «Mar Portu-
 guês», de Fernando Pessoa (Mensagem, 1934), e os textos
 
 integrais de Alexandre Herculano, Trindade Coelho, Lima
-Barreto e Florbela Espanca e Eça de Queirós, o vilancete
+Barreto e Florbela Espanca e Eça de Queirós («O Te-
 
-e o soneto de Camões estão em domínio público; as suas
+souro», «O Suave Milagre»), os poemas de Camões estão
 
-grafias foram atualizadas segundo o Acordo Ortográfico
-de 1990. Os excertos de Júlio Verne e Oscar Wilde foram
+em domínio público; as suas grafias foram atualizadas
+segundo o Acordo Ortográfico de 1990. Os excertos de
 
-traduzidos pela Prime School a partir dos originais, em
-domínio público. De Manuel da Fonseca, Ondjaki, António
+Júlio Verne e Oscar Wilde foram traduzidos pela Prime
+School a partir dos originais, em domínio público. De Ma-
 
-Gedeão, Alexandre O'Neill, David Mourão-Ferreira, Ma-
-nuel Alegre, Ana Hatherly, Miguel Torga e Alice Vieira,
+nuel da Fonseca, Ondjaki, António Gedeão, Alexandre
+O'Neill, David Mourão-Ferreira, Manuel Alegre, Ana
 
-obras protegidas, citam-se apenas frases e versos bre-
+Hatherly, Miguel Torga e Alice Vieira, obras protegidas,
 
-ves, com indicação da fonte, para fins de ensino; os tex-
-tos completos leem-se na antologia da turma. Os títulos
+citam-se apenas frases e versos breves, com indicação
+da fonte, para fins de ensino; os textos completos leem-
 
-sugeridos na Unidade 7 são obras publicadas, citadas
-apenas pelo título e pelo autor.
+se na antologia da turma. Os títulos sugeridos na Uni-
+dade 7 são obras publicadas, citadas apenas pelo título e
+
+pelo autor.
 
 Ilustrações criadas com IA generativa sob direção de
-arte editorial. Vozes dos áudios sintetizadas.
+
+arte editorial. As gravações ligadas pelos códigos QR es-
+tão no Wikimedia Commons: «Ser poeta», «Amar!» e
+
+«Amor é fogo…» lidos por Daniel Barbosa (domínio pú-
+
+blico); «Mar Português» recitado por NMaia (CC BY-SA
+4.0).
 
 **Prime School · Portugal · primeira edição, setembro de 2026.**
 
@@ -321,35 +331,56 @@ Circuitos de gramática
 Teste de treino · reflexão · soluções
 **133**
 
-## 7
-**Contrato de leitura**
+## 6
+**O teu veredicto**
 ## 138
 
-Que leitor és tu?
+Programa e critérios
 **139**
 
-Os teus direitos e os teus compromissos
+T1
+Teste do 1.º semestre
 **140**
 
+T2
+Teste do 2.º semestre
+**145**
+
+Autocorreção · oral · escrita · modelos
+**149**
+
+Cena de teatro · secção do professor
+**154**
+
+Veredicto do ano
+**158**
+
+## 7
+**Contrato de leitura**
+## 159
+
+Que leitor és tu?
+**160**
+
+Os teus direitos e os teus compromissos
+**161**
+
 O contrato
-**141**
+**162**
 
 Carta de navegação · 24 livros para escolher
-**142**
+**163**
 
 Diário de bordo · seis livros, seis registos
-**143**
+**164**
 
 Passar a palavra · seis maneiras de partilhar
 um livro
 
-**146**
+**167**
 
 Reflexão final · o que mudou em mim
-**147**
-
-P R Ó X I M A S E D I Ç Õ E S
-6 · Avaliação
+**168**
 
 C O M O F U N C I O N A E S T E L I V R O
 
@@ -380,13 +411,15 @@ lê-as na íntegra na antologia ou na biblioteca.
 
 **Ouvir e verificar**
 
-Os códigos QR abrem os áudios no telemóvel. No
-fim de cada unidade: balanço, cartão de memória
-e soluções.
+Os códigos QR abrem gravações de poemas no
+Wikimedia Commons. No fim de cada unidade: ba-
+lanço, cartão de memória e soluções.
 
 T E X T O D R A M Á T I C O
 
 R E V I S Õ E S A N U A I S
+
+A V A L I A Ç Ã O
 
 A T I V I D A D E S E X T R A · O T E U P E R C U R S O D E L E I T O R
 
@@ -530,7 +563,7 @@ trabalho com um colega
 DESAFIO
 para ir mais longe
 
-áudio: aponta o telemóvel ao
+ouvir: aponta o telemóvel ao
 código
 
 PROGRAMA
@@ -1042,27 +1075,6 @@ EDUCAÇÃO LITERÁRIA
 Um poema escrito em 1934 e um anúncio de sal usam as mesmas ferramentas.
 Mas querem coisas muito diferentes de ti.
 
-## 1
-
-Nos versos 1 e 2, o sujeito poético diz que o sal do mar são lágrimas de Portugal. Porque é que isto é
-uma hipérbole? Que sentimento transmite?
-
-## 2
-
-Nos versos 3 a 5 há uma enumeração. Quem é enumerado? Que efeito tem a repetição de quantas…
-quantos… quantas?
-
-## 3 Encontra uma hipérbole e uma enumeração no documento 5. Depois completa a tabela.
-
-MAR PORTUGUÊS
-SAL ATLÂNTICO
-
-**O que quer do**
-**leitor?**
-
-**Quanto tempo**
-**«vive»?**
-
 DOCUMENTO 4 · TEXTO LITERÁRIO
 ## Mar Português
 
@@ -1070,6 +1082,31 @@ Fernando Pessoa, Mensagem, 1934
 
 **Bojador — cabo na costa de África, que os navegadores portugue-**
 ses temiam ultrapassar e que Gil Eanes dobrou em 1434.
+
+## 2
+
+Nos versos 3 a 5 há uma enumeração. Quem
+é enumerado? Que efeito tem a repetição de
+quantas… quantos… quantas?
+
+## 3 Encontra uma hipérbole e uma enumeração
+no documento 5. Depois completa a tabela.
+
+MAR
+PORTUGUÊS
+
+SAL
+ATLÂNTICO
+
+**O que quer do**
+**leitor?**
+
+**Quanto tempo**
+**«vive»?**
+
+OUVE O POEMA
+
+RECITADO
 
 Ó mar salgado, quanto do teu sal
 1
@@ -1091,23 +1128,13 @@ Tem que passar além da dor.
 Deus ao mar o perigo e o abismo deu,
 Mas nele é que espelhou o céu.
 
-DOCUMENTO 5 · ANÚNCIO
-
-S A L A T L Â N T I C O
-O mar inteiro
-numa pitada.
-
-Flor de sal, sal grosso, sal marinho tradicional:
-tudo o que o Atlântico tem de melhor, apa-
-nhado à mão nas salinas de Aveiro.
-
-À VENDA NO TEU SUPERMERCADO
-
 A D I F E R E N Ç A E S S E N C I A L
 
-**Na publicidade, o recurso está ao serviço de uma ação: comprar, aderir, mudar. No texto literário, está ao ser-**
-**viço do sentido e da emoção — o poema não te pede nada em troca, e por isso continua a ser lido quase um sé-**
-culo depois.
+**Na publicidade, o recurso está ao serviço de uma**
+**ação: comprar, aderir, mudar. No texto literário,**
+**está ao serviço do sentido e da emoção — o po-**
+ema não te pede nada em troca, e por isso conti-
+nua a ser lido quase um século depois.
 
 SESSÃO 2 · EDUCAÇÃO LITERÁRIA
 13
@@ -1122,20 +1149,32 @@ ORALIDADE
 C O M P R E E N S Ã O
 ## Ouvir para desmontar
 
-ÁUDIO A · 33 S
+N O A R
+
+GUIÃO A · 2 VO-
+ZES · 30 S
 **Cinema Au‐**
 **rora reabre**
 
-Anúncio de rádio
+Anúncio de rádio ·
 
-ÁUDIO B · 46 S
+guião na p. 30
+
+N O A R
+
+GUIÃO B · 1 VOZ
++ MAR · 45 S
 **Campanha**
 **Mar Limpo**
 
-Anúncio de rádio
+Anúncio de rádio ·
+
+guião na p. 30
 
 Na rádio, o anúncio não tem imagem. Tudo o que te convence tem de caber na
-**voz, na música e no silêncio. Vais ouvir cada anúncio duas vezes.**
+**voz, na música e no silêncio. Hoje, a rádio é a turma: dois grupos de locutores**
+ensaiam os guiões e dizem-nos em direto, com o som do mar e a música feitos
+na sala. Quem ouve fecha o livro e ouve cada anúncio duas vezes.
 
 ANTES
 Pelo título, o que esperas ouvir em cada anúncio? Que tipo de voz e de música imaginas?
@@ -1146,8 +1185,8 @@ Ouve sem escrever. Qual dos dois te ficou mais na cabeça? Porquê?
 2.ª AUDIÇÃO
 Preenche a grelha enquanto ouves.
 
-ÁUDIO A · CINEMA AURORA
-ÁUDIO B · MAR LIMPO
+GUIÃO A · CINEMA AURORA
+GUIÃO B · MAR LIMPO
 
 **Quantas vozes? Como**
 **são?**
@@ -1163,7 +1202,8 @@ Preenche a grelha enquanto ouves.
 
 **Intenção de quem fala**
 
-Sem telemóvel? O professor pode reproduzir os áudios na aula. As transcrições estão na p. 30 — lê-as só depois de ouvires.
+Os locutores ensaiam 5 minutos à parte: marcam no guião (p. 30) as pausas, a palavra mais forte de cada frase e o momento da música. Quem ouve
+só abre o guião no fim, para confirmar a grelha. Depois, trocam os papéis.
 
 SESSÃO 3 · OUVIR
 14
@@ -1178,9 +1218,9 @@ ORALIDADE
 E X P R E S S Ã O
 ## Explica a intenção em 90 segundos
 
-Escolhe um dos dois áudios — ou um anúncio que tenhas ouvido esta semana —
-e apresenta à turma a tua análise. Não basta dizer o que ouviste: tens de explicar
-**o que quem fala quer de nós.**
+Escolhe um dos dois anúncios de rádio — ou um anúncio que tenhas ouvido esta
+semana — e apresenta à turma a tua análise. Não basta dizer o que ouviste: tens
+**de explicar o que quem fala quer de nós.**
 
 0–15 s
 
@@ -2368,23 +2408,25 @@ banda sonora. b) A bilheteira do cinema venderá os bilhetes.
 O filme foi premiado pelo júri. · 6 pela associação · 7 tese · 8 enume-
 ração · 9 F · 10 facto.
 
-**Transcrições**
+**Guiões de rádio**
 
-**Áudio A. — Lembras-te do cheiro das pipocas? Do escuro, mesmo an‐**
-tes de o filme começar? — O Cinema Aurora está de volta! Depois de
-dez anos de portas fechadas, a sala mais antiga da costa reabre a 3 de
-outubro, com a estreia de O Farol das Baleias: a aventura que está a
-encher salas por todo o país! — Bilhetes a quatro euros para estudan‐
-tes. E, às quartas-feiras, as pipocas Maré são oferecidas pela casa! —
-Cinema Aurora. Quem vem à Aurora nunca vai embora.
+**Guião A · duas vozes, música alegre. — Lembras-te do cheiro das pi‐**
+pocas? Do escuro, mesmo antes de o filme começar? — O Cinema Au‐
+rora está de volta! Depois de dez anos de portas fechadas, a sala mais
+antiga da costa reabre a 3 de outubro, com a estreia de O Farol das Ba-
+leias: a aventura que está a encher salas por todo o país! — Bilhetes a
+quatro euros para estudantes. E, às quartas-feiras, as pipocas Maré
+são oferecidas pela casa! — Cinema Aurora. Quem vem à Aurora
+nunca vai embora.
 
-**Áudio B. Ouve. Este é o som do mar. […] Todos os anos, milhões de to‐**
-neladas de plástico chegam aos oceanos. Uma única garrafa pode de‐
-morar centenas de anos a desaparecer. E, enquanto não desaparece,
-alguém a come, alguém fica preso nela. — Tu podes mudar isto. Leva a
-tua garrafa. Recusa o descartável. — O mar não cabe numa garrafa.
-Mas o plástico cabe no mar. Campanha Mar Limpo, uma iniciativa da
-Associação Amigos da Costa.
+**Guião B · uma voz calma, som do mar (feito com as mãos ou uma**
+**garrafa de água). Ouve. Este é o som do mar. […] Todos os anos, mi‐**
+lhões de toneladas de plástico chegam aos oceanos. Uma única gar‐
+rafa pode demorar centenas de anos a desaparecer. E, enquanto não
+desaparece, alguém a come, alguém fica preso nela. — Tu podes mu‐
+dar isto. Leva a tua garrafa. Recusa o descartável. — O mar não cabe
+numa garrafa. Mas o plástico cabe no mar. Campanha Mar Limpo,
+uma iniciativa da Associação Amigos da Costa.
 
 C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
 
@@ -3889,8 +3931,13 @@ T R I N D A D E C O E L H O · O S M E U S A M O R E S ( 1 8 9 1 )
 **rábola é uma narrativa curta que, através de uma situação con-**
 creta, transmite uma lição.
 
-**Ouve a leitura e repara nas pausas, na voz do**
-pai e na do filho mais novo.
+## 3
+VOZES
+
+**Leitura a três vozes. Narrador, pai e filhos: divi-**
+dam o texto, marquem as pausas e leiam-no em
+voz alta. Qual é a fala do pai que tem de soar
+mais devagar?
 
 **vime: vara fina e flexível de vimeiro · vincelho: atilho feito de vime ou palha. Trin-**
 dade Coelho, «Parábola dos sete vimes», Os Meus Amores (1891). Texto em domí-
@@ -3903,6 +3950,7 @@ sete e disse-lhes assim:
 1
 
 — Filhos, já sei que não posso durar muito; mas
+
 antes de morrer, quero que cada um de vós me
 vá buscar um vime seco, e mo traga aqui.
 
@@ -3910,6 +3958,7 @@ vá buscar um vime seco, e mo traga aqui.
 
 — Eu também? — perguntou o mais pequeno que
 tinha só 4 anos. O mais velho tinha 25, e era um
+
 rapaz muito reforçado e o mais valente da
 freguesia.
 
@@ -3924,7 +3973,6 @@ voltar, trazendo cada um seu vime seco.
 5
 
 O pai pegou no vime que trouxe o filho mais ve‐
-
 lho, e entregou-o ao mais novinho, dizendo-lhe:
 
 6
@@ -3948,7 +3996,6 @@ lho mais novo, e disse-lhe:
 O pequeno partiu-o; e partiu, um a um, todos os
 outros, que o pai lhe foi entregando, e não lhe
 custou nada parti-los todos. Partido o último, o
-
 pai disse outra vez aos filhos:
 
 11
@@ -3957,7 +4004,6 @@ pai disse outra vez aos filhos:
 12
 
 Os filhos tornaram a sair, e daí a pouco estavam
-
 outra vez ao pé do pai, cada um com seu vime.
 
 13
@@ -3986,6 +4032,7 @@ foi capaz de partir o feixe.
 19
 
 — E algum de vós é capaz de o partir?
+
 Experimentai.
 
 20
@@ -4000,25 +4047,25 @@ O pai disse-lhes então:
 
 — Meus filhos, o mais pequenino de vós partiu
 sem lhe custar nada todos os vimes, enquanto os
-
 partiu um por um; e o mais velho de vós, não
 pôde parti-los todos juntos; nem vós, todos jun‐
+
 tos, fostes capazes de partir o feixe. Pois bem,
 lembrai-vos disto e do que vos vou dizer: en‐
 quanto vós todos estiverdes unidos, como ir‐
 mãos que sois, ninguém zombará de vós, nem
-
 vos fará mal, ou vencerá. Mas logo que vos sepa‐
 reis, ou reine entre vós a desunião, facilmente
+
 sereis vencidos.
 
 23
 
 Acabou de dizer isto e morreu — e os filhos fo‐
 ram muito felizes, porque viveram sempre em
-
 boa irmandade, ajudando-se sempre uns aos ou‐
 tros; e como não houve forças que os desunis‐
+
 sem, também nunca houve forças que os
 vencessem.
 
@@ -8220,11 +8267,15 @@ FLORBELA ESPANCA · CHARNECA EM FLOR (1931)
 
 Florbela Espanca, «Ser Poeta», Charneca em Flor (1931). Domínio público.
 
-**Ouve o soneto e**
-repara onde a
-voz para: no fim
-do verso ou a
-meio?
+**Ouve o soneto**
+(Wikimedia Com-
+mons, leitura de
+Daniel Barbosa,
+com pronúncia
+do Brasil) e re-
+para onde a voz
+para: no fim do
+verso ou a meio?
 
 **Florbela Espanca (1894–1930), alente-**
 jana de Vila Viçosa, é uma das gran-
@@ -8305,8 +8356,10 @@ Fanatismo
 FLORBELA ESPANCA · LIVRO DE SÓROR SAUDADE
 (1923)
 
-**Ouve o soneto e compara com a**
-tua leitura.
+**Ouve outro soneto de Florbela,**
+**«Amar!» (Wikimedia Commons).**
+Que palavras e sentimentos tem
+em comum com «Fanatismo»?
 
 Florbela Espanca, «Fanatismo», Livro de Sóror Saudade (1923). Domínio público.
 
@@ -11512,7 +11565,12 @@ dezenas de sonetos. Este é, talvez, o mais conhe-
 **cido da língua portuguesa: uma tentativa de definir**
 o amor.
 
-Luís de Camões, soneto. Domínio público. Texto da Wikisource, ortografia atualizada.
+Luís de Camões, soneto. Domínio público. Texto da Wiki-
+source, ortografia atualizada.
+
+**Ouve o soneto (Wikimedia Commons, leitura**
+de Daniel Barbosa, domínio público). A lei-
+tura respeita as pausas das vírgulas?
 
 1. Confirma que é um soneto: estrofes, versos e es-
 quema rimático.
@@ -12194,6 +12252,1826 @@ SOLUÇÕES
 <!-- page 138 -->
 
 ---
+U N I D A D E 6
+A V A L I A Ç Ã O
+## O teu veredicto
+
+Chegou a vez de mostrares o que sabes. Nesta uni‐
+dade estão os dois testes do ano, as tarefas de orali‐
+dade, de escrita e de teatro, os critérios com que
+vais ser avaliado — e exemplos de respostas a três
+níveis, para perceberes o que separa um trabalho
+razoável de um trabalho excelente. Não há surpre‐
+sas: tudo o que se avalia aqui, já o treinaste.
+
+**?**
+Sabes exatamente o que te vai ser pedido — e como
+vai ser avaliado?
+
+**?**
+Consegues corrigir o teu próprio teste e descobrir
+porque erraste?
+
+**?**
+Que nota dás ao teu ano como leitor?
+
+UNIDADE 6
+138
+
+<!-- page 139 -->
+
+---
+P R O G R A M A
+
+U N I D A D E 6
+O Q U E E S T Á N E S T A U N I D A D E
+## Seis provas, regras claras
+
+C O M O V A I S S E R A V A L I A D O
+
+DOMÍNIO
+PESO
+
+Leitura e Educação literária
+(testes)
+
+35%
+
+Gramática (testes)
+20%
+
+Escrita (testes e texto escrito)
+25%
+
+Oralidade (apresentação e cena)
+20%
+
+Pesos de referência: cada escola ajusta-os aos seus critérios.
+
+E S C A L A D E C L A S S I F I C A Ç Ã O
+
+0–19
+Muito insuficiente
+
+20–49
+Insuficiente
+
+50–69
+Suficiente
+
+70–89
+Bom
+
+90–100
+Muito bom
+
+AN-
+TES
+DE
+QUAL-
+QUER
+TESTE
+
+**1**
+**Lê todas as perguntas antes de começares. Começa pelo grupo em que te sentes mais seguro.**
+
+**2**
+Olha para a cotação: uma pergunta de 6 pontos pede mais do que uma linha.
+
+**3**
+**Responde com frases completas e prova tudo com o texto (cita entre aspas).**
+
+**4**
+Guarda 10 minutos para reler: acentos, concordâncias, pontuação.
+
+**5**
+**Depois da correção, preenche a grelha de autocorreção (p. 149).**
+
+**As soluções e os critérios de correção dos testes estão na secção do professor (p. 155): o professor decide quando os**
+mostra.
+
+**Teste 1**
+
+Narrativa e publicidade · gramá-
+tica · artigo de opinião
+
+## 1
+
+1.º SEMESTRE · 90 MIN
+
+**p. 140**
+
+**Teste 2**
+
+Poesia e teatro · gramática · es-
+crita de uma cena
+
+## 2
+
+2.º SEMESTRE · 90 MIN
+
+**p. 145**
+
+**Apresentação oral**
+
+Um livro, três minutos
+
+## 3
+
+INDIVIDUAL · 3 MIN
+
+**p. 150**
+
+**Texto escrito**
+
+Crítica ou artigo de opinião
+
+## 4
+
+INDIVIDUAL · EM AULA
+
+**p. 151**
+
+**Cena de teatro**
+
+Escrever e representar
+
+## 5
+
+EM GRUPO · 2 SEMANAS
+
+**p. 154**
+
+**Veredicto do ano**
+
+O teu balanço final
+
+## 6
+
+AUTOAVALIAÇÃO
+
+**p. 158**
+
+PROGRAMA
+139
+
+<!-- page 140 -->
+
+---
+T E S T E 1 · G R U P O I
+
+T E S T E D E A V A L I A Ç Ã O 1
+## Português · 8.º ano
+
+1.º semestre · 90 minutos · sem consulta
+
+NOME
+
+N.º
+TURMA
+DATA
+
+COTAÇÕES
+I · 35
+II · 15
+III · 20
+IV · 30
+Total · 100
+CLASSIFICAÇÃO
+
+GRUPO I · LEITURA E EDUCAÇÃO LITERÁRIA
+35 pontos
+
+## O Suave Milagre (final)
+
+E Ç A D E Q U E I R Ó S · C O N T O S ( 1 9 0 2 ) · D O M Í N I O P Ú B L I C O
+
+**O início do conto. Na Galileia, corre a notícia de um Rabi que faz mi-**
+lagres. Dois homens poderosos querem encontrá-lo: Obed, um ve-
+lho rico que perdeu os rebanhos e as vinhas, e Públio Sétimo, um
+centurião romano cuja filha única está doente. Mandam servos e
+soldados à sua procura — mas ninguém o encontra. Lê agora o
+final.
+
+**Depois do teste, ouve o**
+conto inteiro (LibriVox, Wi-
+kimedia Commons, domí-
+nio público).
+
+Ora entre Enganim e Cesareia, num casebre
+desgarrado, sumido na prega dum cerro, vivia a
+
+esse tempo uma viúva, mais desgraçada mulher
+que todas as mulheres de Israel. O seu filhinho
+
+único, todo aleijado, passara do magro peito a
+
+que ela o criara para os farrapos da enxerga
+apodrecida, onde jazera, sete anos passados,
+
+mirrando e gemendo. Também a ela a doença a
+engelhara dentro dos trapos nunca mudados,
+
+mais escura e torcida que uma cepa arrancada.
+E, sobre ambos, espessamente a miséria cres‐
+
+ceu como o bolor sobre cacos perdidos num
+
+ermo. Até na lâmpada de barro vermelho, se‐
+cara há muito o azeite. Dentro da arca pintada
+
+não restava grão ou côdea. No estio, sem pasto,
+a cabra morrera. Depois, no quinteiro, secara a
+
+figueira. Tão longe do povoado, nunca esmola
+
+de pão ou mel entrava o portal. E só ervas apa‐
+nhadas nas fendas das rochas, cozidas sem sal,
+
+nutriam aquelas criaturas de Deus na Terra Es‐
+colhida, onde até às aves maléficas sobrava o
+
+sustento!
+
+1
+
+Um dia um mendigo entrou no casebre, repar‐
+
+tiu o seu farnel com a mãe amargurada, e um
+
+momento sentado na pedra da lareira, coçando
+as feridas das pernas, contou dessa grande es‐
+
+perança dos tristes, esse Rabi que aparecera na
+Galileia, e de um pão no mesmo cesto fazia sete,
+
+e amava todas as criancinhas, e enxugava todos
+
+os prantos, e prometia aos pobres um grande e
+luminoso Reino, de abundância maior que a
+
+Corte de Salomão. A mulher escutava, com
+olhos famintos. E esse doce Rabi, esperança dos
+
+tristes, onde se encontrava? O mendigo suspi‐
+rou. Ah, esse doce Rabi! quantos o desejavam,
+
+que se desperançavam! A sua fama andava por
+sobre toda a Judeia, como o sol que até por
+
+qualquer velho muro se estende e se goza; mas
+
+para enxergar a claridade do seu rosto, só
+aqueles ditosos que o seu desejo escolhia.
+
+Obed, tão rico, mandara os seus servos por
+toda a Galileia para que procurassem Jesus, o
+
+chamassem com promessas a Enganim; Sétimo,
+tão soberano, destacara os seus soldados até à
+
+costa do mar, para que buscassem Jesus, o con‐
+
+duzissem, por seu mando, a Cesareia. Errando,
+esmolando por tantas estradas, ele topara os
+
+servos de Obed, depois os legionários de Sé‐
+timo. E todos voltavam, como derrotados, com
+
+as sandálias rotas, sem ter descoberto em que
+
+mata ou cidade, em que toca ou palácio, se es‐
+condia Jesus.
+
+A tarde caía. O mendigo apanhou o seu bordão,
+desceu pelo duro trilho, entre a urze e a rocha.
+
+A mãe retomou o seu canto, mais vergada, mais
+abandonada. E então o filhinho, num murmúrio
+
+mais débil que o roças de uma asa, pediu à mãe
+
+que lhe trouxesse esse Rabi, que amava as cri‐
+ancinhas ainda as mais pobres, sarava os males
+
+ainda os mais antigos. A mãe apertou a cabeça
+esguedelhada:
+
+— Oh filho! e como queres que te deixe, e me
+meta aos caminhos, à procura do Rabi da Gali‐
+
+leia? Obed é rico, e tem servos, e debalde bus‐
+
+caram Jesus, por areais e colinas, desde Chora‐
+zim até ao país de Moab.
+
+TESTE 1 · GRUPO I
+140
+
+<!-- page 141 -->
+
+---
+T E S T E 1 · G R U P O I
+
+GRUPO I · QUESTÕES
+
+1. Onde e como vivem a viúva e o filho? Transcreve
+duas expressões que mostrem a sua pobreza. (5)
+
+2. «espessamente a miséria cresceu como o bolor so-
+bre cacos perdidos num ermo» (§1). Identifica o re-
+curso expressivo e explica o seu efeito. (5)
+
+3. Que papel tem o mendigo no desenvolvimento da
+ação? (4)
+
+4. Porque é que a mãe não quer partir à procura do
+Rabi? Apresenta duas razões. (5)
+
+5. Classifica o narrador quanto à presença na histó-
+ria. Justifica. (4)
+
+6. Divide o excerto em três momentos e dá um título
+a cada um. (6)
+
+7. Os ricos e os fortes não encontraram Jesus; foi ele
+que veio ter com a criança pobre. Explica o título
+do conto a partir do final. (6)
+
+VOCABULÁRIO
+
+Sétimo é forte, e tem soldados, e debalde corre‐
+
+ram por Jesus, desde o Hebron até ao mar!
+Como queres que te deixe? Jesus anda por
+
+muito longe e a nossa dor mora conosco, den‐
+
+tro destas paredes, e dentro delas nos prende. E
+mesmo que o encontrasse, como convenceria
+
+eu o Rabi tão desejado, por quem ricos e fortes
+suspiram, a que descesse através das cidades
+
+até este ermo, para sarar um entrevadinho tão
+
+pobre, sobre enxerga tão rota?
+
+A criança, com duas longas lágrimas na face
+
+magrinha, murmurou:
+
+5
+
+— Oh mãe! Jesus ama todos os pequeninos. E eu
+
+ainda tão pequeno, e com um mal tão pesado, e
+que tanto queria sarar!
+
+E a mãe, em soluços:
+
+— Oh meu filho, como te posso deixar? Longas
+
+são as estradas da Galileia, e curta a piedade
+dos homens. Tão rota, tão trôpega, tão triste,
+
+até os cães me ladrariam da porta dos casais.
+Ninguém atenderia o meu recado, e me aponta‐
+
+ria a morada do doce Rabi. Oh filho! talvez Je‐
+sus morresse... Nem mesmo os ricos e os fortes
+
+o encontram. O Céu o trouxe, o Céu o levou. E
+
+com ele para sempre morreu a esperança dos
+tristes.
+
+De entre os negros trapos, erguendo as suas po‐
+bres
+mãozinhas
+que
+tremiam,
+a
+criança
+
+murmurou:
+
+— Mãe, eu queria ver Jesus...
+10
+
+E logo, abrindo devagar a porta e sorrindo, Je‐
+sus disse à criança:
+
+— Aqui estou.
+
+Eça de Queirós, «O Suave Milagre», em Contos (1902). Texto da Wiki-
+
+source, ortografia atualizada.
+
+**enxerga colchão pobre · jazer estar deitado · mirrar**
+
+**secar, definhar · engelhar enrugar · ermo lugar de‐**
+**serto · quinteiro pátio · farnel provisões para a viagem**
+**· entrevado que não se pode mexer · trôpega que anda**
+**com dificuldade · Rabi mestre (tratamento dado a**
+Jesus)
+
+TESTE 1 · GRUPO I
+141
+
+<!-- page 142 -->
+
+---
+T E S T E 1 · G R U P O S I I E I I I
+
+GRUPO II · LEITURA · TEXTO PUBLICITÁRIO
+15 pontos
+
+8. É publicidade comercial ou não comercial? Justifica.
+
+(3)
+
+9. Identifica o recurso expressivo do slogan e explica-o.
+
+(4)
+
+10. Transcreve dois verbos no imperativo. A quem se di-
+rige o anúncio? (4)
+
+11. Transcreve um facto e uma opinião do anúncio. (4)
+
+GRUPO III · GRAMÁTICA
+20 pontos
+
+12. Passa à frase passiva: «O mendigo contou a história à viúva.» (3)
+
+**13. Classifica as orações sublinhadas: a) Se o Rabi viesse, o menino sararia. b) A mãe saiu de casa para procu-**
+rar o Rabi. (4)
+
+14. Junta as duas frases numa só, usando um pronome relativo: «A viúva vivia num casebre. O casebre ficava
+na prega dum cerro.» (3)
+
+**15. Completa com o verbo no conjuntivo: a) Espero que o Rabi**
+**(vir) depressa. b)**
+Quando tu
+(encontrar) o Rabi, fala-lhe de mim. (4)
+
+16. Identifica as funções sintáticas dos constituintes: «Um dia, um mendigo deu pão à viúva.» (4)
+
+17. Classifica a palavra «devagar» em «abrindo devagar a porta» e indica o seu valor. (2)
+
+Ler é a viagem mais barata do mundo.
+
+Uma iniciativa da Câmara Municipal e da Biblioteca Municipal.
+
+TESTE 1 · GRUPOS II E III
+142
+
+## Uma feira onde os livros
+## te escolhem a ti.
+
+**Feira do Livro de Vila Nova do Farol · Praça do Cinema Aurora · 1 a 10 de junho. Mais**
+de 5000 livros, 30 editoras, sessões de autógrafos todos os dias às 18 h. Traz a tua
+família, descobre um autor novo e leva para casa uma história que nunca mais vais
+esquecer. Entrada livre.
+
+<!-- page 143 -->
+
+---
+T E S T E 1 · G R U P O I V
+
+GRUPO IV · ESCRITA
+30 pontos
+
+**Escolhe um dos temas e escreve um texto de 180 a 240 palavras.**
+
+**A · Artigo de opinião**
+«Os ricos e os fortes não encontraram Jesus; encontrou-o uma criança pobre.» A
+humildade abre portas que o poder fecha? Defende a tua posição com dois argu-
+mentos e exemplos.
+
+**B · Crítica**
+Escreve a crítica de um livro ou filme que tenhas conhecido este semestre: apre-
+sentação, tese, dois argumentos (um pode ser uma reserva), conclusão e
+classificação.
+
+P L A N I F I C A Ç Ã O ( N Ã O C O N T A P A R A A C L A S S I F I C A Ç Ã O )
+
+Tese
+
+Argumento 1
+
+Argumento 2
+
+Conclusão
+
+CRITÉRIOS
+Tema e tese · 8
+Argumentação · 10
+Estrutura e coesão · 6
+Correção linguística · 6
+
+TESTE 1 · GRUPO IV
+143
+
+<!-- page 144 -->
+
+---
+T E S T E 1 · G R U P O I V
+
+T E S T E 1
+G R U P O I V · C O N T I N U A Ç Ã O
+
+Número de palavras
+Revi: acentos
+concordâncias
+pontuação
+parágrafos
+
+F I M D O T E S T E 1
+
+TESTE 1 · GRUPO IV
+144
+
+<!-- page 145 -->
+
+---
+T E S T E 2 · G R U P O I
+
+T E S T E D E A V A L I A Ç Ã O 2
+## Português · 8.º ano
+
+2.º semestre · 90 minutos · sem consulta
+
+NOME
+
+N.º
+TURMA
+DATA
+
+COTAÇÕES
+I · 35
+II · 15
+III · 20
+IV · 30
+Total · 100
+CLASSIFICAÇÃO
+
+GRUPO I · EDUCAÇÃO LITERÁRIA · TEXTO POÉTICO
+35 pontos
+
+## Descalça vai para a fonte
+
+L U Í S D E C A M Õ E S · V I L A N C E T E · D O M Í N I O P Ú B L I C O
+
+MOTE
+
+1.ª VOLTA
+
+2.ª VOLTA
+
+Luís de Camões, Rimas. Texto da Wikisource; mantém-se a grafia antiga de «Lianor» e «fermosa».
+
+VOCABULÁRIO
+
+**Lianor Leonor · fermosa formosa · s**
+
+**tranquila, sem perigo · testo tampa ·**
+**tecido vermelho, fino · sainho casaq**
+**curto · chamerlote tecido de pelo d**
+**vasquinha de cote saia de todos os**
+**touca pano que cobre a cabeça**
+
+**Depois do teste, ou**
+(Carlos Gomes, Wik
+mons, domínio púb
+
+**1. O poema é um vilancete: um mote seguido de voltas.**
+Indica quantos versos tem o mote e quantos tem
+cada volta. (4)
+
+2. Faz a escansão do verso 1 e classifica o verso
+quanto ao número de sílabas métricas. (5)
+
+3. Indica o esquema rimático da 1.ª volta. (5)
+
+4. Que verso se repete no fim de cada volta? Que efeito
+tem essa repetição? (5)
+
+5. Transcreve uma metáfora e uma comparação usa-
+das para descrever Lianor e explica uma delas. (6)
+
+6. «Tão linda que o mundo espanta» (v. 14): identifica o
+recurso expressivo. (4)
+
+7. «Vai fermosa, e não segura.» Porque é que Lianor,
+sendo tão bela, «não vai segura»? Apresenta a tua in-
+terpretação. (6)
+
+Descalça vai para a fonte
+1
+
+Lianor pela verdura;
+
+Vai fermosa, e não segura.
+
+Leva na cabeça o pote,
+
+O testo nas mãos de prata,
+5
+
+Cinta de fina escarlata,
+
+Sainho de chamerlote;
+
+Traz a vasquinha de cote,
+
+Mais branca que a neve pura.
+
+Vai fermosa e não segura.
+10
+
+Descobre a touca a garganta,
+
+Cabelos de ouro entrançado
+
+Fita de cor de encarnado,
+
+Tão linda que o mundo espanta.
+
+Chove nela graça tanta,
+15
+
+Que dá graça à fermosura.
+
+Vai fermosa e não segura.
+
+TESTE 2 · GRUPO I
+145
+
+<!-- page 146 -->
+
+---
+T E S T E 2 · G R U P O I I
+
+GRUPO II · EDUCAÇÃO LITERÁRIA · TEXTO DRAMÁTICO
+15 pontos
+
+## O ensaio geral
+
+(Palco do auditório da escola, na véspera da estreia. Um trono de cartão, uma coroa de papel dourado caída
+no chão. MARTA, a encenadora, 14 anos, tem o guião na mão. RUI, que faz de rei, está sentado na beira do
+palco, de braços cruzados. Entra SOFIA, a correr, com o figurino de princesa ainda por abotoar.)
+
+SOFIA Desculpem, desculpem! O autocarro…
+
+MARTA (Sem levantar os olhos do guião.) Vinte minutos, Sofia. Amanhã vêm os pais todos.
+
+RUI Pois. E o rei, amanhã, também não entra. (Levanta-se e pontapeia a coroa.) Já disse: não digo
+aquela fala.
+
+MARTA Que fala?
+
+RUI «Minha filha, perdoa a este velho louco.» Toda a gente se vai rir de mim.
+
+SOFIA (À parte, a abotoar o vestido.) Ninguém se ri de quem diz uma coisa daquelas a sério.
+
+MARTA (Fecha o guião. Pausa longa.) Rui, é a fala mais importante da peça. É o momento em que o
+rei deixa de ser rei.
+
+RUI (Baixinho.) É por isso mesmo.
+
+(Silêncio. SOFIA apanha a coroa do chão, sacode-lhe o pó e estende-a a RUI.)
+
+SOFIA Então diz-ma a mim. Só uma vez. Sem público.
+
+(RUI hesita. Olha para MARTA, que se senta na plateia vazia. A luz desce até ficarem só os dois no centro do
+palco.)
+
+Texto escrito para este manual.
+
+**8. Transcreve uma didascália de espaço, uma de movi-**
+**mento e uma de luz. (4)**
+
+**9. Identifica o aparte e explica o que revela sobre Sofia.**
+
+(4)
+
+10. Qual é o conflito da cena? Entre que personagens? (4)
+
+11. Como achas que a cena termina? Justifica com um
+pormenor do texto. (3)
+
+TESTE 2 · GRUPO II
+146
+
+<!-- page 147 -->
+
+---
+T E S T E 2 · G R U P O S I I I E I V
+
+GRUPO III · GRAMÁTICA
+20 pontos
+
+12. Classifica a oração sublinhada: «Marta sabe que a fala é a mais importante da peça.» (3)
+
+**13. Substitui os constituintes sublinhados por pronomes: a) Sofia estende a coroa ao Rui. b) Marta explica a**
+cena aos atores. (4)
+
+14. Sublinha os advérbios e as locuções adverbiais e indica o seu valor: «De repente, Rui falou baixinho e
+nunca mais olhou para a plateia.» (3)
+
+**15. Identifica o sujeito e o predicado: a) Chegou a Sofia. b) Desculpem! (Que tipo de sujeito tem?) (4)**
+
+16. Identifica as funções sintáticas: «Na véspera da estreia, a encenadora deu o guião aos atores.» (4)
+
+17. Indica o processo de formação da palavra «encenadora». (2)
+
+GRUPO IV · ESCRITA
+30 pontos
+
+**Escreve a cena seguinte de «O ensaio geral» (150 a 200 palavras). A cena deve ter:**
+
+título e lista de personagens
+pelo menos quatro didascálias (espaço, luz, tom, movimento)
+
+um aparte ou um monólogo
+a resolução do conflito: Rui diz a fala — ou não
+
+CRITÉRIOS
+Adequação ao género · 10
+Coerência com a cena · 8
+Criatividade · 6
+Correção linguística · 6
+
+TESTE 2 · GRUPOS III E IV
+147
+
+<!-- page 148 -->
+
+---
+T E S T E 2 · G R U P O I V
+
+T E S T E 2
+G R U P O I V · C O N T I N U A Ç Ã O
+
+Número de palavras
+Revi: didascálias em itálico ou entre parênteses
+nomes antes das falas
+
+pontuação
+
+F I M D O T E S T E 2
+
+TESTE 2 · GRUPO IV
+148
+
+<!-- page 149 -->
+
+---
+A U T O C O R R E Ç Ã O
+
+D E P O I S D O S T E S T E S
+METACOGNIÇÃO
+G R E L H A S D E A U T O C O R R E Ç Ã O
+## Onde falhei?
+
+Depois de receberes o teste corrigido, preenche a grelha. Na coluna «Rever» está a página
+do livro onde podes voltar a estudar o que falhaste.
+
+T E S T E 1
+
+ITEM
+O QUE SE
+AVALIA
+
+COT.
+TIVE
+REVER
+
+1–7
+Narrativa: es-
+paço, narra-
+dor, estrutura,
+recursos
+
+35
+p. 33
+
+8–11
+Publicidade:
+tipo, slogan,
+imperativo,
+facto/opinião
+
+15
+p. 11
+
+12
+Frase passiva
+3
+p. 24
+
+13
+Subordina-
+das condici-
+onais e finais
+
+4
+p. 49
+
+14
+Pronome
+relativo
+
+3
+p. 45
+
+15
+Conjuntivo
+4
+p. 52
+
+16
+Funções
+sintáticas
+
+4
+p. 112
+
+17
+Advérbio
+2
+p. 85
+
+IV
+Escrita
+30
+p. 151
+
+T E S T E 2
+
+ITEM
+O QUE SE
+AVALIA
+
+COT.
+TIVE
+REVER
+
+1–4
+Poesia:
+forma, mé-
+trica, rima,
+refrão
+
+19
+p. 77
+
+5–7
+Recursos
+expressi-
+vos e
+interpreta-
+ção
+
+16
+p. 93
+
+8–11
+Texto
+dramático
+
+15
+p. 101
+
+12
+Oração
+comple-
+tiva
+
+3
+p. 82
+
+13
+Pronomes
+átonos
+
+4
+p. 66
+
+14
+Advérbio e
+locução
+adverbial
+
+3
+p. 85
+
+15
+Sujeito e
+predicado
+
+4
+p. 85
+
+16
+Funções
+sintáticas
+
+4
+p. 112
+
+17
+Formação
+de
+palavras
+
+2
+p. 60
+
+IV
+Escrita de
+uma cena
+
+30
+p. 111
+
+P O R Q U E E R R E I ? A S S I N A L A
+
+☐ não li a pergunta até ao fim
+☐ não sabia a matéria
+☐ não justifiquei com o texto
+☐ faltou tempo
+
+☐ confundi dois conceitos
+☐ erros de ortografia
+☐ escrevi pouco para a cotação
+
+✎
+
+O meu plano para o próximo teste (três ações concretas):
+
+AUTOCORREÇÃO
+149
+
+<!-- page 150 -->
+
+---
+A P R E S E N T A Ç Ã O O R A L
+
+P R O V A 3
+ORALIDADE
+I N D I V I D U A L · 3 M I N U T O S
+## Um livro, três minutos
+
+Apresenta à turma um livro que leste este ano (pode ser do teu contrato de leitura) e con‐
+vence os colegas a lê-lo — ou a não o ler. Tens três minutos, nem mais, nem menos.
+
+0:00
+**Gancho**
+
+Uma pergunta, uma frase
+do livro, um objeto.
+Agarra o público.
+
+0:30
+**O livro**
+
+Título, autor, género,
+época. O enredo em qua-
+tro frases — sem revelar o
+final.
+
+1:30
+**A tua opinião**
+
+Dois argumentos com
+exemplos. Lê um excerto
+curto (20 segundos).
+
+2:30
+**Veredicto**
+
+Recomendação clara: a
+quem, porquê. Termina
+com força.
+
+P O D E S U S A R
+
+um cartão com cinco palavras-chave · o próprio livro · uma imagem
+
+N Ã O P O D E S
+
+ler um texto escrito · ultrapassar 3 min 15 s · contar o final
+
+O T E U C A R T Ã O · C I N C O P A L A V R A S - C H A V E
+
+**1**
+
+GANCHO
+
+**2**
+
+O LIVRO
+
+**3**
+
+ARGUMENTO
+
+**4**
+
+ARGUMENTO
+
+**5**
+
+VEREDICTO
+
+CRITÉRIO
+1 · EM CONSTRUÇÃO
+2 · CONSOLIDADO
+3 · EXCELENTE
+PTS
+
+**Conteúdo**
+informação vaga ou
+incorreta
+
+livro bem apresentado
+apresentação rigorosa e seletiva
+/6
+
+**Argumentação**
+«gostei porque sim»
+dois argumentos com
+exemplos
+
+argumentos fortes, excerto bem
+escolhido
+
+/6
+
+**Estrutura e**
+**tempo**
+
+sem gancho, fora do
+tempo
+
+quatro partes, no tempo
+transições naturais, final
+memorável
+
+/4
+
+**Voz e corpo**
+lê, voz baixa, sem contacto
+visual
+
+audível, algum contacto
+visual
+
+expressivo, pausas, olha o
+público
+
+/4
+
+**Língua**
+muitos bordões («tipo»,
+«pronto»)
+
+registo cuidado
+vocabulário rico e preciso
+/4
+
+A V A L I A Ç Ã O P E L O S C O L E G A S · D O I S E S T R E L A S E U M D E S E J O
+
+★
+
+★
+
+**Desejo**
+
+APRESENTAÇÃO ORAL
+150
+
+<!-- page 151 -->
+
+---
+T E X T O E S C R I T O
+
+P R O V A 4
+ESCRITA
+I N D I V I D U A L · E M A U L A · 6 0 M I N U T O S
+## Crítica ou opinião
+
+**Opção A · Artigo de**
+**opinião**
+
+«Os telemóveis devem ficar à porta da sala de aula.» Concordas? Escreve um
+artigo de opinião para o jornal da escola (200 a 260 palavras).
+
+**Opção B · Crítica**
+Escreve a crítica de um livro que leste este ano para a revista A Lupa (200 a
+260 palavras), com classificação de uma a cinco estrelas.
+
+## 1 Planificar
+
+10 min · tese, dois argumentos,
+exemplos, conclusão
+
+## 2 Escrever
+
+35 min · um parágrafo por ideia,
+conectores
+
+## 3 Rever
+
+15 min · lê em voz baixa, corrige,
+conta as palavras
+
+CRITÉRIO
+1 · EM CONSTRUÇÃO
+2 · CONSOLIDADO
+3 · EXCELENTE
+PTS
+
+**Tema e tese**
+tese ausente ou confusa
+tese clara no início
+tese clara, retomada na conclusão
+com força
+
+/5
+
+**Argumentação**
+opiniões sem razões
+dois argumentos com
+exemplos
+
+argumentos variados, contra-argu-
+mento refutado
+
+/7
+
+**Estrutura e**
+**coesão**
+
+um bloco de texto; «e
+depois»
+
+parágrafos; conectores
+simples
+
+progressão clara; conectores varia-
+dos e precisos
+
+/4
+
+**Correção**
+**linguística**
+
+erros frequentes que dificul-
+tam a leitura
+
+erros pontuais
+texto correto, vocabulário rico
+/4
+
+P L A N I F I C A Ç Ã O
+
+Tese
+
+Argumento 1 + exemplo
+
+Argumento 2 + exemplo
+
+Contra-argumento
+
+Refutação
+
+Conclusão
+
+**Conectores que fazem a diferença**
+Em primeiro lugar
+Além disso
+Por exemplo
+No entanto
+
+Há quem defenda que… mas
+Por conseguinte
+Em suma
+
+Três respostas-modelo a esta tarefa (Opção A), uma de cada nível, estão nas pp. 152–153.
+
+TEXTO ESCRITO
+151
+
+<!-- page 152 -->
+
+---
+M O D E L O S · E S C R I T A
+
+P R O V A 4
+ESCRITA
+R E S P O S T A S - M O D E L O A N O T A D A S · O P Ç Ã O A
+## Três respostas, três níveis
+
+Lê as três respostas à mesma pergunta. As notas à direita mostram o que pesa na avaliação.
+Antes de leres as notas, classifica cada texto com a grelha da p. 151 e usa os códigos de cor‐
+reção para marcar os erros.
+
+**NÍVEL 1 Em construção**
+8 / 20 pontos
+
+Eu acho que os telemóveis não devem ficar à porta porque são
+muito uteis. Por exemplo eu uso o telemovel para ver as horas e
+
+para falar com a minha mãe. E tambem da para pesquisar coisas. Os
+profesores dizem que distrai mas eu acho que não distrai nada se a
+gente tiver juízo. E depois se houver uma emergência como é que a
+gente liga?
+
+Por isso os telemóveis deviam ficar na sala.
+
+**Tese existe, mas «eu acho» repetido**
+enfraquece-a.
+
+**Argumentos exemplos pessoais; o**
+contra-argumento («distrai») é recu-
+sado sem razões.
+
+**Estrutura quase sem introdução; con-**
+clusão de uma linha; «E depois».
+
+**Língua «uteis», «telemovel», «tambem»,**
+«profesores», «da» sem acento; «a
+gente» é registo oral.
+
+**Extensão cerca de 90 palavras: muito**
+abaixo do pedido.
+
+**NÍVEL 2 Consolidado**
+14 / 20 pontos
+
+Muitas escolas portuguesas já proibiram os telemóveis nas sa‐
+las de aula. Na minha opinião, essa é uma boa decisão.
+
+Em primeiro lugar, o telemóvel distrai. Basta uma notificação
+para um aluno deixar de ouvir a explicação e, quando volta a
+prestar atenção, já perdeu metade da matéria. Eu próprio já me
+distraí muitas vezes assim.
+
+Além disso, sem telemóveis, os alunos falam mais uns com os
+outros. Nos intervalos, em vez de estarem todos a olhar para o
+ecrã, conversam, jogam e resolvem problemas juntos.
+
+Há quem diga que o telemóvel é útil para pesquisar. No en‐
+tanto, a escola tem computadores e biblioteca para isso.
+
+Em suma, os telemóveis devem ficar à porta da sala, para
+aprendermos melhor e convivermos mais.
+
+**Tese clara logo no 1.º parágrafo.**
+
+**Argumentos dois argumentos com**
+exemplos; contra-argumento refutado,
+embora de forma breve.
+
+**Estrutura um parágrafo por ideia; co-**
+nectores adequados («Em primeiro lu-
+gar», «Além disso», «No entanto»).
+
+**A melhorar exemplos pouco desen-**
+volvidos; conclusão repete a tese sem
+a enriquecer; 150 palavras, abaixo do
+mínimo.
+
+C Ó D I G O S D E C O R R E Ç Ã O D O P R O F E S S O R
+
+Ort ortografia
+Ac acentuação
+Pont pontuação
+Conc concordância
+Rep repetição
+
+Reg registo oral
+¶ falta parágrafo
+? ideia pouco clara
++ muito bem
+
+MODELOS · ESCRITA
+152
+
+<!-- page 153 -->
+
+---
+M O D E L O S · E S C R I T A
+
+**NÍVEL 3 Excelente**
+19 / 20 pontos
+
+Quantas vezes, numa aula, olhaste para o ecrã «só um se‐
+gundo» e voltaste dez minutos depois? A pergunta não é se o te‐
+lemóvel é útil — é evidente que é —, mas se a sala de aula é o lu‐
+gar certo para ele. Defendo que não: os telemóveis devem ficar à
+porta.
+
+Em primeiro lugar, porque a atenção é o material escolar mais
+caro que temos, e o telemóvel foi desenhado para a roubar. Cada
+notificação é um pequeno anúncio que grita «olha para mim!».
+Ninguém aprende a comentar um soneto de Camões com uma
+mensagem a vibrar no bolso.
+
+Em segundo lugar, porque a escola é um dos poucos lugares
+onde ainda aprendemos a estar juntos. Quando os ecrãs se apa‐
+gam, há conversas, discussões, gargalhadas — e é aí que muitas
+vezes se aprende mais.
+
+Há quem defenda que o telemóvel é uma ferramenta de pes‐
+quisa indispensável. É verdade; mas, quando for preciso, o pro‐
+fessor pode pedir que o tragam para uma tarefa concreta. Ficar
+à porta não é desaparecer: é esperar pela sua vez.
+
+Em suma, guardar o telemóvel durante a aula não é voltar ao
+passado. É escolher, durante cinquenta minutos, estar inteira‐
+mente presente — e isso, hoje, é quase revolucionário.
+
+**Tese introduzida por uma pergunta re-**
+tórica; delimitada com precisão.
+
+**Argumentos dois argumentos fortes,**
+com imagens expressivas (metáfora
+da atenção, personificação da
+notificação).
+
+**Contra-argumento apresentado com**
+justiça e refutado com uma proposta.
+
+**Estrutura progressão clara; conecto-**
+res variados; conclusão que retoma e
+amplia a tese.
+
+**Língua vocabulário rico, pontuação ex-**
+pressiva; 240 palavras.
+
+O Q U E S E P A R A O S N Í V E I S
+
+**Do 1 ao 2**
+tese logo no início · um parágrafo por ideia · exemplos gerais, não só pessoais · ortografia
+revista
+
+**Do 2 ao 3**
+abertura que prende · argumentos desenvolvidos com imagens · contra-argumento levado a
+sério · conclusão que acrescenta
+
+✎
+
+Reescreve a resposta de nível 1 até ela chegar ao nível 2. Mantém as ideias do aluno; muda a organiza-
+ção, os conectores e a correção.
+
+MODELOS · ESCRITA
+153
+
+<!-- page 154 -->
+
+---
+C E N A D E T E A T R O
+
+P R O V A 5
+ORALIDADE
+ESCRITA
+E M G R U P O S D E 3 O U 4 · 2 S E M A N A S
+## Escrever e representar
+
+O grupo escreve uma cena original de 3 a 5 minutos, inspirada num texto lido este ano —
+uma personagem, um conflito ou um lugar — e representa-a para a turma.
+
+P O N T O S D E P A R T I D A
+
+Leandro e o sal
+Os três irmãos de Medranhos
+O projecionista do Cinema Aurora
+
+O homem que sabia javanês
+Sísifo e a pedra
+Lianor a caminho da fonte
+
+**Entrega 1 · guião**
+
+Semana 1 · título, personagens, 1 a 2
+
+páginas com didascálias; cada
+
+aluno assina as falas que escreveu.
+
+**Entrega 2 · ensaio**
+
+Semana 2 · ensaio com o professor;
+
+lista de adereços, luz e som.
+
+**Entrega 3 · estreia**
+
+Apresentação e dois minutos de
+
+conversa com o público sobre as
+
+escolhas do grupo.
+
+F I C H A D O G U I Ã O
+
+Título
+
+Texto de partida
+
+Personagens e atores
+
+Lugar e tempo
+
+O conflito, numa frase
+
+CRITÉRIO
+1 · EM CONSTRUÇÃO
+2 · CONSOLIDADO
+3 · EXCELENTE
+PTS
+
+**Guião**
+falas sem didascálias;
+conflito pouco claro
+
+estrutura clara, didascá-
+lias de espaço e tom
+
+conflito forte, didascálias expressivas,
+aparte ou monólogo bem usado
+
+/6
+
+**Ligação ao**
+**texto de partida**
+
+ligação superficial
+ligação clara
+releitura original do texto de partida
+/4
+
+**Interpretação**
+falas lidas, sem
+intenção
+
+de cor, tom adequado
+personagens vivas: voz, corpo, olhar,
+pausas
+
+/6
+
+**Encenação**
+sem cenário, luz ou
+som
+
+elementos simples e
+coerentes
+
+soluções criativas ao serviço da cena
+/2
+
+**Trabalho de**
+**grupo**
+
+participação desigual
+todos contribuem
+equipa coordenada, papéis claros
+/2
+
+D I Á R I O D O G R U P O · U M A L I N H A P O R S E S S Ã O
+
+**Sessão 1**
+
+**Sessão 2**
+
+**Sessão 3**
+
+**Sessão 4**
+
+CENA DE TEATRO
+154
+
+<!-- page 155 -->
+
+---
+S E C Ç Ã O D O P R O F E S S O R
+
+S E C Ç Ã O D O P R O F E S S O R
+Teste 1 · soluções e critérios de classificação
+
+ITEM
+RESPOSTA ESPERADA (CENÁRIO DE RESPOSTA)
+CRITÉRIOS
+
+1
+Num casebre isolado, num cerro, entre Enganim e Cesareia; na miséria. Ex.: «far-
+rapos da enxerga apodrecida», «Dentro da arca pintada não restava grão ou cô-
+dea», «ervas […] cozidas sem sal».
+
+5 = local + duas transcrições
+corretas; 3 = local + uma
+
+2
+Comparação (e metáfora: a miséria «cresce»): a pobreza é apresentada como
+algo vivo, que se espalha e apodrece tudo, sugerindo abandono total.
+
+5 = recurso + efeito; 2 = só
+recurso
+
+3
+Leva a notícia do Rabi à viúva: é o elemento que desencadeia a esperança e o
+conflito final (ir ou não ir).
+
+4 / 2
+
+4
+Não pode deixar o filho doente; é pobre e fraca («tão rota, tão trôpega»); nin-
+guém lhe daria atenção; nem os ricos o encontraram; talvez Jesus tivesse
+morrido.
+
+5 = duas razões
+fundamentadas
+
+5
+Narrador ausente (não participa na história): narra na 3.ª pessoa («vivia»,
+«contou»).
+
+4 = classificação +
+justificação
+
+6
+Ex.: 1) A miséria da viúva e do filho (§1); 2) A esperança trazida pelo mendigo e o
+desânimo da mãe (§2 até ao diálogo); 3) O desejo da criança e o milagre (final).
+
+6 = três momentos delimita-
+dos e titulados
+
+7
+O milagre é «suave» porque acontece sem esforço nem poder: Jesus aparece
+por si, à porta, a quem nada tem e apenas deseja vê-lo — o contrário dos pode-
+rosos, que o procuraram com servos e soldados.
+
+6 = relação título/final + con-
+traste com o início
+
+8
+Não comercial: não vende um produto; promove a leitura; emissor institucional
+(Câmara, Biblioteca); entrada livre.
+
+3
+
+9
+Metáfora (ler = viagem) e hipérbole («a mais barata do mundo»): sugere que ler
+leva longe sem custar nada.
+
+4 = recurso + explicação
+
+10
+«Traz», «descobre», «leva»; dirige-se ao leitor jovem (tu) e às famílias.
+4
+
+11
+Facto: «1 a 10 de junho», «30 editoras», «Entrada livre». Opinião: «uma história que
+nunca mais vais esquecer», slogan.
+
+4 = 2 + 2
+
+12
+A história foi contada à viúva pelo mendigo.
+3
+
+13
+a) subordinada adverbial condicional; b) subordinada adverbial final.
+2 + 2
+
+14
+A viúva vivia num casebre que ficava na prega dum cerro.
+3
+
+15
+a) venha; b) encontrares.
+2 + 2
+
+16
+Um dia: modificador do grupo verbal · um mendigo: sujeito · pão: complemento di-
+reto · à viúva: complemento indireto.
+
+1 por função
+
+17
+Advérbio de modo.
+2
+
+GRUPO IV Tema e tese (8) · argumentação (10) · estrutura e coesão (6) · correção (6). Desvalorizar 1 ponto por cada 10
+palavras abaixo do limite mínimo (máx. 5). Textos com menos de 60 palavras: classificação 0 em todos os critérios ex-
+ceto correção.
+
+SECÇÃO DO PROFESSOR
+155
+
+<!-- page 156 -->
+
+---
+S E C Ç Ã O D O P R O F E S S O R
+
+S E C Ç Ã O D O P R O F E S S O R
+Teste 2 · soluções e critérios de classificação
+
+ITEM
+RESPOSTA ESPERADA (CENÁRIO DE RESPOSTA)
+CRITÉRIOS
+
+1
+Mote de 3 versos; duas voltas de 7 versos cada.
+4
+
+2
+Des / cal / ça / vai / pa / ra_a / fon(te) = 7 sílabas métricas · redondilha maior.
+3 escansão + 2
+classificação
+
+3
+ABBAACC (pote / prata / escarlata / chamerlote / cote / pura / segura).
+5 · aceitar ABBAA + CC
+
+4
+«Vai fermosa e não segura.» Refrão: cria musicalidade, insiste na ideia central e
+liga as voltas ao mote.
+
+5 = verso + efeito
+
+5
+Metáfora: «mãos de prata» (brancura, delicadeza) ou «Cabelos de ouro»; compa-
+ração: «Mais branca que a neve pura».
+
+6 = 2 + 2 + explicação 2
+
+6
+Hipérbole.
+4
+
+7
+Interpretação aberta. Ex.: a sua beleza atrai olhares e perigos; vai insegura, tal-
+vez apaixonada ou inquieta; a beleza não a protege.
+
+6 = interpretação coerente e
+fundamentada
+
+8
+Espaço: «Palco do auditório da escola» · movimento: «Levanta-se e pontapeia a
+coroa» · luz: «A luz desce até ficarem só os dois».
+
+4
+
+9
+«Ninguém se ri de quem diz uma coisa daquelas a sério.» Revela sensibilidade e
+maturidade: percebe o valor da fala.
+
+4
+
+10
+Rui recusa dizer a fala por vergonha; conflito entre Rui e Marta (e consigo
+próprio).
+
+4
+
+11
+Resposta aberta, coerente com a cena (ex.: Rui diz a fala a Sofia; a luz a descer
+sugere intimidade).
+
+3
+
+12
+Subordinada substantiva completiva.
+3
+
+13
+a) Sofia estende-lha. b) Marta explica-lha.
+2 + 2
+
+14
+De repente: locução adverbial de tempo · baixinho: advérbio de modo · nunca
+mais: locução adverbial de tempo (negação).
+
+3
+
+15
+a) S: a Sofia (posposto) · P: Chegou. b) Sujeito nulo subentendido (vós/vocês) · P:
+Desculpem.
+
+2 + 2
+
+16
+Na véspera da estreia: MGV · a encenadora: S · o guião: CD · aos atores: CI.
+1 por função
+
+17
+Derivação por sufixação (encenar + -dora).
+2
+
+GRUPO IV Adequação ao género (10): título, personagens, didascálias, nomes antes das falas, aparte ou monólogo ·
+coerência com a cena (8) · criatividade (6) · correção (6).
+
+SECÇÃO DO PROFESSOR
+156
+
+<!-- page 157 -->
+
+---
+S E C Ç Ã O D O P R O F E S S O R
+
+S E C Ç Ã O D O P R O F E S S O R
+Registo da turma · conversão de classificações · notas
+
+ALUNO
+T1
+T2
+ORAL
+ESCRITA
+CENA
+FINAL
+
+C O N V E R S Ã O P A R A 1 0 0
+
+Oral: pontos × 4 (máx. 24 → 96, arredondar a 100 com bonificação
+de tempo exato) · Escrita: pontos × 5 · Cena: pontos × 5. Média
+ponderada com os pesos da p. 139.
+
+A D A P T A Ç Õ E S
+
+Tempo suplementar de 25%; enunciado ampliado; leitura do enun-
+ciado em voz alta; Grupo IV com planificação guiada (p. 151).
+
+N O T A S P A R A A C O R R E Ç Ã O
+
+Valorizar respostas completas e fundamentadas com citações. Nas perguntas abertas (I-7, II-11, IV) aceitar interpretações diferentes das do ce-
+nário, desde que coerentes com o texto. Na gramática, a terminologia segue o Dicionário Terminológico. Os testes usam textos em domínio pú-
+blico (Eça de Queirós, Luís de Camões) e textos escritos para este manual.
+
+SECÇÃO DO PROFESSOR
+157
+
+<!-- page 158 -->
+
+---
+V E R E D I C T O D O A N O
+
+P R O V A 6
+A U T O A V A L I A Ç Ã O F I N A L
+## Veredicto do ano
+
+No primeiro dia, o bilhete dizia «Admite 1 leitor crítico». Agora és tu o crítico — de ti pró‐
+prio. Dá de uma a cinco estrelas a cada unidade: o quanto aprendeste, não o quanto
+gostaste.
+
+## 1
+**Promessa & Veredicto**
+
+## 2
+**Quem nos faz crescer?**
+
+## 3
+**O que cabe num verso?**
+
+## 4
+**Sobe o pano**
+
+## 5
+**Sessão de encerramento**
+
+## 6
+**O teu veredicto**
+
+## 7
+**Contrato de leitura**
+
+**O meu maior progresso**
+**O que ainda me custa**
+
+**O livro que vou ler nas férias**
+**A classificação que acho que mereço, e**
+**porquê**
+
+O ALUNO
+O ENCARREGADO DE EDUCAÇÃO
+O PROFESSOR
+
+A D M I T E
+## 1 leitor
+que já não precisa de bilhete
+
+VEREDICTO DO ANO
+158
+
+<!-- page 159 -->
+
+---
 U N I D A D E 7
 
 A T I V I D A D E S E X T R A · C O N T R A T O D E L E I T U R A
@@ -12219,9 +14097,9 @@ horas?
 Como se escolhe um livro sem conhecer a história?
 
 CONTRATO DE LEITURA
-138
+159
 
-<!-- page 139 -->
+<!-- page 160 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12232,7 +14110,7 @@ P O N T O D E P A R T I D A · S E T E M B R O
 ## Que leitor és tu?
 
 Responde com honestidade: não há respostas certas, e só tu vais comparar este retrato com
-o de junho (p. 147).
+o de junho (p. 168).
 
 ## 1
 Quantos livros leste, por vontade própria, no último ano?
@@ -12325,9 +14203,9 @@ BD
 terror
 
 CONTRATO DE LEITURA
-139
+160
 
-<!-- page 140 -->
+<!-- page 161 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12400,9 +14278,9 @@ Um colega diz: «Eu não gosto de ler.» Escreve-lhe duas frases para o convence
 dade a um livro — sem promessas exageradas nem hipérboles enganosas (lembra-te da Unidade 1).
 
 CONTRATO DE LEITURA
-140
+161
 
-<!-- page 141 -->
+<!-- page 162 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12451,11 +14329,11 @@ minutos por dia, de preferência
 
 Por cada livro, o Leitor preenche um registo no diário de bordo e, uma vez por período, apresenta
 
-um livro à turma, num dos formatos da p. 146.
+um livro à turma, num dos formatos da p. 167.
 
 **Cláusula 5.ª · Direitos**
 
-O Leitor mantém todos os direitos enunciados na p. 140, incluindo o de abandonar um livro, nos
+O Leitor mantém todos os direitos enunciados na p. 161, incluindo o de abandonar um livro, nos
 
 termos aí previstos.
 
@@ -12475,9 +14353,9 @@ LIDO
 E ACEITE
 
 CONTRATO DE LEITURA
-141
+162
 
-<!-- page 142 -->
+<!-- page 163 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12632,9 +14510,9 @@ sugestão de casa
 a minha descoberta
 
 CONTRATO DE LEITURA
-142
+163
 
-<!-- page 143 -->
+<!-- page 164 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12702,9 +14580,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-143
+164
 
-<!-- page 144 -->
+<!-- page 165 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12767,9 +14645,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-144
+165
 
-<!-- page 145 -->
+<!-- page 166 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12832,9 +14710,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-145
+166
 
-<!-- page 146 -->
+<!-- page 167 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12943,9 +14821,9 @@ DATA
 3.º
 
 CONTRATO DE LEITURA
-146
+167
 
-<!-- page 147 -->
+<!-- page 168 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -12955,7 +14833,7 @@ ESCRITA
 P O N T O D E C H E G A D A · J U N H O
 ## O que mudou em mim
 
-Volta ao teu retrato de setembro (p. 139) e ao teu diário de bordo. Depois responde — desta
+Volta ao teu retrato de setembro (p. 160) e ao teu diário de bordo. Depois responde — desta
 vez, com a distância de um ano inteiro.
 
 EM SETEMBRO
@@ -12989,9 +14867,537 @@ N A M I N H A P R Ó X I M A E S T A N T E
 ASSINATURA DO LEITOR · JUNHO DE 20___
 
 CONTRATO DE LEITURA
-147
+168
 
-<!-- page 148 -->
+<!-- page 169 -->
+
+---
+G L O S S Á R I O G E R A L
+
+G L O S S Á R I O G E R A L
+O S C O N C E I T O S D O A N O · O N D E O S A P R E N D E S T E
+## Da A à Z
+
+**Advérbio e locução adverbial**
+Palavra ou grupo de palavras que modifica o
+verbo: modo, tempo, lugar…
+
+p. 85
+
+**Alcance da crítica · classificação**
+Juízo final expresso em estrelas, notas ou
+recomendação.
+
+p. 21
+
+**Anáfora**
+Repetição de palavras no início de versos ou
+frases.
+
+p. 93
+
+**Antítese**
+Aproximação de ideias opostas.
+
+p. 93
+
+**Anúncio comercial / não comercial**
+Vende um produto / defende uma causa ou
+um comportamento.
+
+p. 9, 10
+
+**Aparte**
+Fala que só o público ouve.
+
+p. 101
+
+**Apelo à ação**
+Parte do anúncio que diz o que fazer a seguir.
+
+p. 11
+
+**Apóstrofe**
+Interpelação de alguém ou de algo.
+
+p. 93
+
+**Argumento · tese**
+Razão que sustenta uma opinião · opinião
+principal.
+
+p. 21, 151
+
+**Artigo de opinião**
+Texto que defende uma tese com
+argumentos.
+
+p. 81, 151
+
+**Ato · cena · quadro**
+Divisões da peça de teatro.
+
+p. 101
+
+**Comentário de poema**
+Tema + recursos + efeito, com citações.
+
+p. 94
+
+**Comparação**
+Aproximação de duas realidades com «como».
+
+p. 93
+
+**Complemento direto / indireto**
+Completa o verbo sem preposição (o, a) / desti-
+natário (lhe).
+
+p. 112
+
+**Conjuntivo**
+Modo do desejo, da dúvida, da hipótese.
+
+p. 52, 70
+
+**Crítica**
+Texto que avalia, de forma fundamentada,
+uma obra.
+
+p. 18, 21
+
+**Decassílabo**
+Verso de dez sílabas métricas.
+
+p. 78
+
+**Didascália**
+Indicação cénica: espaço, luz, som, movi-
+mento, tom.
+
+p. 101, 107
+
+**Discurso direto / indireto**
+Falas reproduzidas tal e qual / contadas pelo
+narrador.
+
+p. 33
+
+**Elisão · hiato**
+Junção / separação de vogais na contagem
+métrica.
+
+p. 78
+
+**Enumeração**
+Sequência de elementos da mesma natureza.
+
+p. 12
+
+**Escansão**
+Divisão do verso em sílabas métricas.
+
+p. 78
+
+**Esquema rimático**
+Letras que mostram como rimam os versos.
+
+p. 77
+
+**Estrofe**
+Grupo de versos: dístico, terceto, quadra…
+
+p. 77
+
+**Estrutura da narrativa**
+Situação inicial, desenvolvimento, desenlace.
+
+p. 33
+
+**Exposição · conflito · desenlace**
+Estrutura interna do texto dramático.
+
+p. 101
+
+**Facto / opinião**
+Informação verificável / juízo de valor.
+
+p. 21
+
+**Formação de palavras**
+Derivação, composição, parassíntese.
+
+p. 60
+
+**Frase ativa / passiva**
+O sujeito pratica / sofre a ação (ser + particípio).
+
+p. 24
+
+**Frase simples / complexa**
+Uma forma verbal / mais do que uma.
+
+p. 42
+
+GLOSSÁRIO GERAL
+169
+
+<!-- page 170 -->
+
+---
+G L O S S Á R I O G E R A L
+
+G L O S S Á R I O G E R A L
+C O N T I N U A Ç Ã O
+
+**Hipérbole**
+Exagero intencional.
+
+p. 12, 82
+
+**Imperativo**
+Modo da ordem e do conselho; forte na
+publicidade.
+
+p. 11
+
+**Leitura em papéis**
+Leitura em voz alta de uma peça, com persona-
+gens distribuídas.
+
+p. 105
+
+**Metáfora**
+Comparação implícita.
+
+p. 93
+
+**Modificador do grupo verbal**
+Informação acessória: tempo, lugar, modo.
+
+p. 66, 112
+
+**Modificador do nome**
+Acrescenta informação ao nome (adjetivo, grupo
+preposicional).
+
+p. 60
+
+**Monólogo**
+Fala de uma personagem sozinha.
+
+p. 101
+
+**Narrador**
+Quem conta: participante ou não participante.
+
+p. 33
+
+**Oração completiva**
+Completa o sentido de um verbo (que, se).
+
+p. 82
+
+**Oração condicional / final**
+Exprime condição (se) / finalidade (para).
+
+p. 49
+
+**Oração relativa**
+Introduzida por pronome relativo; modifica um
+nome.
+
+p. 45
+
+**Paradoxo**
+Ideias que parecem contraditórias mas fazem
+sentido.
+
+p. 93
+
+**Personagens · espaço · tempo**
+Categorias da narrativa.
+
+p. 33
+
+**Personificação**
+Qualidades humanas dadas a seres não
+humanos.
+
+p. 93
+
+**Pleonasmo**
+Repetição de uma ideia, expressiva ou viciosa.
+
+p. 82
+
+**Poesia visual · poema em prosa**
+A forma faz parte do sentido · poema sem versos.
+
+p. 88
+
+**Pronome pessoal átono**
+Me, te, o, a, lhe…, junto do verbo.
+
+p. 66
+
+**Pronome relativo**
+Que, quem, o qual, onde, cujo.
+
+p. 45
+
+**Recriação em prosa**
+Contar o sentido de um poema por outras
+palavras.
+
+p. 84
+
+**Redondilha maior / menor**
+Verso de sete / cinco sílabas métricas.
+
+p. 78
+
+**Rima cruzada · emparelhada ·**
+**interpolada**
+ABAB · AABB · ABBA.
+
+p. 77
+
+**Slogan**
+Frase curta e memorável de um anúncio.
+
+p. 16
+
+**Soneto**
+Duas quadras e dois tercetos.
+
+p. 91
+
+**Sujeito poético**
+A voz que fala no poema.
+
+p. 77
+
+**Sujeito · predicado**
+De quem se fala · o que se diz dele.
+
+p. 85
+
+**Tempos do indicativo**
+Presente, pretéritos, futuro.
+
+p. 70
+
+**Texto principal / secundário**
+Falas / didascálias.
+
+p. 101
+
+**Trocadilho · duplo sentido**
+Jogo com os sentidos de uma palavra.
+
+p. 16, 120
+
+**Verso livre**
+Verso sem medida fixa.
+
+p. 78
+
+**Vilancete**
+Mote seguido de voltas, com refrão.
+
+p. 145
+
+GLOSSÁRIO GERAL
+170
+
+<!-- page 171 -->
+
+---
+F O N T E S E C R É D I T O S
+
+F O N T E S E C R É D I T O S
+T U D O O Q U E E S T Á N E S T E L I V R O , E D E O N D E V E M
+## Fontes e créditos
+
+T E X T O S
+
+AUTOR
+TEXTO
+OBRA ·
+DATA
+
+ESTATUTO
+
+**Luís de Camões**
+«Pastora da serra» · «Amor é um
+fogo…» · «Descalça vai para a
+fonte»
+
+Rimas (séc.
+XVI)
+
+domínio público ·
+Wikisource
+
+**Alexandre Herculano**
+«O Castelo de Faria»
+Lendas e Nar-
+rativas (1851)
+
+domínio público
+
+**Trindade Coelho**
+«Parábola dos sete vimes»
+Os Meus Amo-
+res (1891)
+
+domínio público
+
+**Eça de Queirós**
+«O Tesouro» · «O Suave Milagre»
+(final)
+
+Contos (1902)
+domínio público ·
+Wikisource
+
+**Lima Barreto**
+«O homem que sabia javanês»
+1911
+domínio público
+
+**Florbela Espanca**
+«Ser Poeta» · «Fanatismo»
+1923 · 1931
+domínio público
+
+**Fernando Pessoa**
+«Mar Português»
+Mensagem
+(1934)
+
+domínio público
+
+**Júlio Verne · Oscar Wilde**
+excertos traduzidos para este
+manual
+
+1872 · 1887
+originais em domínio
+público
+
+**Gedeão, O'Neill, Mourão-Ferreira, Alegre,**
+**Hatherly, Torga, M. da Fonseca, Ondjaki, Alice**
+**Vieira**
+
+versos e frases breves, com fonte
+—
+obras protegidas: cita-
+ção para fins de ensino
+
+G R A V A Ç Õ E S ( C Ó D I G O S Q R )
+
+GRAVAÇÃO
+LICENÇA
+ENDEREÇO PERMANENTE
+NO
+LIVRO
+
+**«Mar Português»**
+recitado por NMaia
+
+CC BY-SA 4.0
+commons.wikimedia.org/wiki/File:Mar_Portuguez_recitado.
+ogg
+
+p. 13
+
+**«Ser Poeta»**
+Florbela Espanca · leitura de Da-
+niel Barbosa
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Florbela_Espanca_-_Ser_
+poeta.ogg
+
+p. 91
+
+**«Amar!»**
+Florbela Espanca · leitura de Da-
+niel Barbosa
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Florbela_Espanca_-_Ama
+r.ogg
+
+p. 92
+
+**«Amor é fogo que arde sem se**
+**ver»**
+Camões · leitura de Daniel
+Barbosa
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Amorefogoqueardesemseve
+r_08_camoes.ogg
+
+p. 129
+
+**«O Suave Milagre»**
+Eça de Queirós · LibriVox, leitura
+de Lena
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Eça_de_Queirós_-_O_Suav
+e_Milagre.ogg
+
+p. 140
+
+**«Descalça vai para a fonte»**
+Camões · leitura de Carlos
+Gomes
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Spc109_descalcavaiparaa
+fonte_camoes_ccg.ogg
+
+p. 145
+
+Todos os códigos QR deste livro apontam para arquivos públicos e permanentes (Wikimedia Commons) ou para o sítio
+da escola (primeschool.pt). Nenhum depende de um endereço temporário.
+
+C O N T E Ú D O S C R I A D O S P A R A E S T E M A N U A L
+
+Vila Nova do Farol, o Cinema Aurora, os filmes O Farol das
+Baleias e A Última Sessão, a revista A Lupa, as marcas, os
+anúncios, as críticas, as cenas «O ensaio geral», «A última bo-
+
+bina» e a adaptação de «O Castelo de Faria», as quadras de
+aquecimento e as respostas-modelo.
+
+I M A G E M E T I P O G R A F I A
+
+Ilustrações criadas com IA generativa sob direção de arte
+editorial, em estilo de risografia de três tintas. Composição
+em Fraunces, Bricolage Grotesque e DM Mono (SIL Open
+
+Font License).
+
+FONTES E CRÉDITOS
+171
+
+<!-- page 172 -->
 
 ---
 P O R T U G U Ê S · 8 . º A N O · M A N U A L D O A L U N O
@@ -13010,23 +15416,27 @@ tica em que se pode confiar. Depois, sete narrativas — de Herculano a Oscar Wi
 
 mostram-te como se constrói uma história e como uma história nos constrói; nove poe-
 
-mas ensinam-te a ouvir o verso; e o teatro leva tudo isto para o palco. E, porque só se
+mas ensinam-te a ouvir o verso; o teatro leva tudo isto para o palco; e, no fim, dois tes-
 
-aprende a julgar livros lendo-os, assinas um contrato de leitura contigo próprio.
+tes e um veredicto que dás a ti próprio. E, porque só se aprende a julgar livros lendo-os,
+assinas um contrato de leitura contigo próprio.
 
 Publicidade comercial e não comercial
 Crítica de cinema e de livro
 Hipérbole e enumeração
 
 Frase ativa e passiva
-2 anúncios de rádio em áudio
+Rádio ao vivo: 2 guiões
 Sete narrativas de formação
-
 Nove poemas, oito poetas
+
 Teatro: da página ao palco
+Revisões com textos novos
+Dois testes com critérios
+
 Contrato e diário de leitura
 
-**Lê este livro online**
+**Prime School**
 
-prime-books-pi.vercel.app
+primeschool.pt
 P R I M E S C H O O L

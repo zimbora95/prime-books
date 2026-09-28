@@ -135,3 +135,4 @@ ol.mini.two { columns: 2; column-gap: 6mm; }
 .u5-pl { background: var(--teal-t); border-radius: 2.5mm; padding: 2.8mm 3.6mm; margin: 2mm 0 3mm; }
 .u5-pl > b { font-family: var(--serif); font-style: italic; font-size: 11pt; color: var(--teal); }
 .u5-m { margin-top: 5.5mm; } .u5-m ul { font-size: 10.2pt; }
+.src-q { display: grid; grid-template-columns: 1fr 1.2fr; gap: 4mm; align-items: center; } .src-q .qr-inline { background: var(--teal-t); margin-top: 1mm; }

@@ -499,7 +499,7 @@ P.append(page('u3-p8', '', 'Poema 8 · Ser Poeta', f'''
       </div>
       <div class="fb-r">
         <div class="fb-img" style="background-image:url(../art/jpg/u3_florbela.jpg)"></div>
-        <div class="qr-inline"><div class="qr" style="width:25mm;height:25mm">{{{{QR:{{{{SITE}}}}/library/{{{{SLUG}}}}/audio/florbela-ser-poeta.mp3}}}}</div><span><b>Ouve o soneto</b> e repara onde a voz para: no fim do verso ou a meio?</span></div>
+        <div class="qr-inline"><div class="qr" style="width:25mm;height:25mm">{{{{QR:https://commons.wikimedia.org/?curid=27859175}}}}</div><span><b>Ouve o soneto</b> (Wikimedia Commons, leitura de Daniel Barbosa, com pronúncia do Brasil) e repara onde a voz para: no fim do verso ou a meio?</span></div>
         <p class="bio"><b>Florbela Espanca</b> (1894–1930), alentejana de Vila Viçosa, é uma das grandes vozes da poesia portuguesa. Escreveu sobretudo sonetos, com uma intensidade rara: o amor, a dor, o desejo de absoluto.</p>
       </div>
     </div>
@@ -519,7 +519,7 @@ P.append(page('u3-p9', '', 'Poema 9 · Fanatismo', f'''
     <div class="kicker"><b>Poema 9</b> <span class="skill sk-lei">Leitura</span> Poema integral · comparar</div>
     <div class="fan-h"><div><h1 class="title"><em>Fanatismo</em></h1>
       <p class="byline">Florbela Espanca · <i>Livro de Sóror Saudade</i> (1923)</p></div>
-      <div class="qr-inline"><div class="qr" style="width:25mm;height:25mm">{{{{QR:{{{{SITE}}}}/library/{{{{SLUG}}}}/audio/florbela-fanatismo.mp3}}}}</div><span><b>Ouve o soneto</b> e compara com a tua leitura.</span></div></div>
+      <div class="qr-inline"><div class="qr" style="width:25mm;height:25mm">{{{{QR:https://commons.wikimedia.org/?curid=27859388}}}}</div><span><b>Ouve outro soneto de Florbela, «Amar!»</b> (Wikimedia Commons). Que palavras e sentimentos tem em comum com «Fanatismo»?</span></div></div>
     <div class="fan-p">{poem(fan).replace('class="vpoem"', 'class="vpoem two"')}</div>
     <p class="src">Florbela Espanca, «Fanatismo», <i>Livro de Sóror Saudade</i> (1923). Domínio público.</p>
     <div class="fan-q">

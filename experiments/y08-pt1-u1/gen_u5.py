@@ -283,7 +283,8 @@ P.append(page('u5-e4', '', 'Banca 4 · Poesia', f'''
       <p class="byline">Luís de Camões (c. 1524–1580) · <i>Rimas</i>, edição póstuma</p></div>
       <p class="u5-intro narrow">Camões, o poeta de <i>Os Lusíadas</i>, escreveu também dezenas de sonetos. Este é, talvez, o mais conhecido da língua portuguesa: uma tentativa de <b>definir</b> o amor.</p></div>
     <div class="fan-p">{poem(amor)}</div>
-    <p class="src">Luís de Camões, soneto. Domínio público. Texto da Wikisource, ortografia atualizada.</p>
+    <div class="src-q"><p class="src">Luís de Camões, soneto. Domínio público. Texto da Wikisource, ortografia atualizada.</p>
+      <div class="qr-inline"><div class="qr" style="width:22mm;height:22mm">{{{{QR:https://commons.wikimedia.org/?curid=10303803}}}}</div><span><b>Ouve o soneto</b> (Wikimedia Commons, leitura de Daniel Barbosa, domínio público). A leitura respeita as pausas das vírgulas?</span></div></div>
     <div class="fan-q">
       <ol class="qs two">
         <li>Confirma que é um soneto: estrofes, versos e esquema rimático.<div class="lines l3"></div></li>

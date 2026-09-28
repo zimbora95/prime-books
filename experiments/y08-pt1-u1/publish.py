@@ -50,14 +50,14 @@ def upsert_text(text, row):
 
 def main(edition):
     (OUT / "preview").mkdir(parents=True, exist_ok=True)
-    (OUT / "audio").mkdir(exist_ok=True)
+    # No audio is hosted on the temporary site any more: QR codes point at Wikimedia Commons.
+    if (OUT / "audio").exists():
+        shutil.rmtree(OUT / "audio")
     shutil.copy(PDF, OUT / "book.pdf")
-    for mp3 in (ROOT / "audio").glob("*.mp3"):
-        shutil.copy(mp3, OUT / "audio" / mp3.name)
     doc = pymupdf.open(PDF)
     page_webp(doc, 0, OUT / "cover.webp")
     page_webp(doc, 0, OUT / "preview" / "01.webp")
-    page_webp(doc, 3, OUT / "preview" / "02.webp")  # unit opener, not the imprint
+    page_webp(doc, 4, OUT / "preview" / "02.webp")  # unit 1 opener (p. 5), not the imprint or contents
     page_webp(doc, len(doc) - 1, OUT / "preview" / "last.webp")
     row = dict(ROW, pages=len(doc), mb=round(PDF.stat().st_size / 1e6, 2), edition=edition)
     import subprocess
