@@ -1,0 +1,1311 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>Texto Dramático — Português · Year 5 · Unidade 4</title>
+<style>
+*{font-synthesis:none}
+body{text-wrap:pretty}
+.types div i,.crew div,.terms div,.rub4 td,.cards4 div,.gwa>div,.warm div{text-wrap:balance}
+/* ---- shared design system (copied from Unit 1, src/unit.html) ---- */
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400i.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500i.ttf) format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-900.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400i.ttf) format("truetype");font-weight:400 900;font-style:italic}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-400.ttf) format("truetype");font-weight:400}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-700.ttf) format("truetype");font-weight:700}
+
+
+
+@font-face{font-family:"DM Mono";src:url(../../fonts/DMMono-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"DM Mono";src:url(../../fonts/DMMono-Medium.ttf) format("truetype");font-weight:500}
+
+
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --paper:#F6F0E4; --paper2:#EFE6D4; --ink:#1C2536; --ink2:#4B5467; --rule:#D8CCB6;
+  --ocre:#D9922A; --verde:#2F6E5C; --ultra:#2D4BA8; --ameixa:#7B3F6E; --verm:#DC4A2E; --turq:#1C7C89; --tinta:#1C2536;
+  --bronze:#B7723A; --prata:#8E99A6; --ouro:#D6A21E;
+}
+html,body{background:#8a8577}
+body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-variant-numeric:lining-nums}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--paper);page-break-after:always;break-after:page;padding:19mm 16mm 17mm 16mm}
+.page:last-child{page-break-after:auto}
+/* ---------- room colours ---------- */
+.r-ocre{--c:var(--ocre);--t:#F6E3BF}
+.r-verde{--c:var(--verde);--t:#D7E6DC}
+.r-ultra{--c:var(--ultra);--t:#DCE1F3}
+.r-ameixa{--c:var(--ameixa);--t:#EBDCE5}
+.r-verm{--c:var(--verm);--t:#F7D9CE}
+.r-turq{--c:var(--turq);--t:#D3E9EA}
+.r-tinta{--c:var(--tinta);--t:#E3DED2}
+/* ---------- running furniture ---------- */
+.run{position:absolute;top:8.5mm;left:16mm;right:16mm;display:flex;justify-content:space-between;font-family:"DM Mono";font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);border-bottom:.6pt solid var(--rule);padding-bottom:1.6mm}
+.run b{color:var(--c);font-weight:500}
+.folio{position:absolute;bottom:8mm;width:9mm;height:9mm;border-radius:50%;background:var(--c);color:#fff;font-family:"Fraunces";font-weight:700;font-size:10pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100,"WONK" 0}
+.page.odd .folio{right:12mm}.page.even .folio{left:12mm}
+.foot{position:absolute;bottom:10.4mm;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.06em;color:var(--ink2);text-transform:uppercase}
+.page.odd .foot{right:24mm}.page.even .foot{left:24mm}
+.tab{position:absolute;top:34mm;width:7mm;height:62mm;background:var(--c);color:#fff;font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;justify-content:center}
+.tab span{transform:rotate(90deg);white-space:nowrap}
+.page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
+.page.even .tab span{transform:rotate(-90deg)}
+/* ---------- type ---------- */
+.disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
+h1.disp{font-size:34pt;color:var(--ink)}
+h2.disp{font-size:24pt}
+.kick{font-family:"DM Mono";font-weight:500;font-size:7.6pt;letter-spacing:.16em;text-transform:uppercase;color:var(--c);margin-bottom:2.2mm;display:flex;align-items:center;gap:2mm}
+.kick:before{content:"";width:6mm;height:1.4pt;background:var(--c)}
+.lead{font-size:12pt;line-height:1.42;color:var(--ink);max-width:150mm}
+.lead em{font-family:"Fraunces";font-style:italic}
+.txt{font-family:"Fraunces";font-variation-settings:"SOFT" 50,"WONK" 0,"opsz" 12;font-weight:400;font-size:11.3pt;line-height:1.55;color:#20283a}
+.txt p{margin-bottom:2.4mm}
+.txt h4{font-family:"Figtree";font-weight:800;font-size:9pt;letter-spacing:.1em;text-transform:uppercase;color:var(--c);margin:3.2mm 0 1mm}
+.small{font-size:8.6pt;color:var(--ink2)}
+.mono{font-family:"DM Mono"}
+b,strong{font-weight:700}
+/* ---------- activities ---------- */
+.act{margin-top:4.2mm}
+.act-h{display:flex;align-items:center;gap:2mm;margin-bottom:1.6mm}
+.num{flex:none;width:6.6mm;height:6.6mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"Fraunces";font-weight:700;font-size:9.6pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100}
+.act-h h3{font-family:"Figtree";font-weight:800;font-size:11pt;line-height:1.15}
+.skill{font-family:"DM Mono";font-size:6.4pt;letter-spacing:.12em;text-transform:uppercase;border:.7pt solid var(--c);color:var(--c);border-radius:1mm;padding:.5mm 1.3mm;margin-left:auto;white-space:nowrap}
+.key{flex:none;width:8.5mm;height:4.2mm}
+.q{margin:1.2mm 0 0 8.6mm}
+.q li{margin-bottom:1.6mm}
+ol.qs{list-style:none;counter-reset:q;margin-left:8.6mm}
+ol.qs>li{counter-increment:q;position:relative;margin-bottom:2mm}
+ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;font-weight:800;color:var(--c)}
+.ln{display:block;height:7.2mm;border-bottom:.7pt solid #B9AE98}
+.ln.s{height:7.2mm}
+.fill{display:inline-block;min-width:24mm;border-bottom:.7pt solid #9C927E;height:1em;vertical-align:-2pt}
+.fill.l{min-width:44mm}.fill.xl{min-width:70mm}
+.box{border:.8pt solid var(--rule);border-radius:2.4mm;background:#FBF7EF;padding:3mm 3.4mm}
+.tint{background:var(--t);border-radius:2.4mm;padding:3mm 3.6mm}
+.tip{display:flex;gap:3mm;align-items:center}
+.tip img{width:17mm;flex:none;mix-blend-mode:multiply}
+.tip .bub{background:#fff;border:.8pt solid var(--ink);border-radius:3mm;padding:2.2mm 3mm;font-size:9.4pt;line-height:1.35;position:relative}
+.tip .bub:before{content:"";position:absolute;left:-2.1mm;top:44%;width:3.4mm;height:3.4mm;background:#fff;border-left:.8pt solid var(--ink);border-bottom:.8pt solid var(--ink);transform:rotate(45deg)}
+.tip .bub b{color:var(--verm)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4mm}
+.chk{display:inline-block;width:3.4mm;height:3.4mm;border:.8pt solid var(--ink);border-radius:.6mm;vertical-align:-.5mm;margin-right:1.4mm;background:#fff}
+.stamp{display:inline-flex;width:8mm;height:8mm;border:1pt dashed var(--c);border-radius:50%;vertical-align:middle;background:#fff}
+.hl-o{background:linear-gradient(transparent 60%,#F4D18F 60%,#F4D18F 96%,transparent 96%)}
+.hl-p{background:linear-gradient(transparent 60%,#E5C4D9 60%,#E5C4D9 96%,transparent 96%)}
+.hl-g{background:linear-gradient(transparent 60%,#CFE3D7 60%,#CFE3D7 96%,transparent 96%)}
+.qr{display:flex;gap:2.6mm;align-items:center}
+.qr svg{width:21mm;height:21mm;flex:none;background:#fff;border-radius:1.4mm}
+.qr .ql{font-size:8.2pt;line-height:1.3}
+.qr .ql b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.lab{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.mult{mix-blend-mode:multiply}
+.cap{font-size:8pt;color:var(--ink2);line-height:1.35}
+.cap b{font-family:"DM Mono";font-weight:500;color:var(--c)}
+
+/* ============ PAGE 1 — OPENER ============ */
+.p-open{padding:0;background:#E9DFC9}
+.p-open .art{position:absolute;inset:0;background:url(../art/opener.jpg) center 62%/cover}
+.p-open .veil{position:absolute;left:0;right:0;top:0;height:120mm;background:linear-gradient(#F4ECDC 0%,rgba(244,236,220,.94) 46%,rgba(244,236,220,0) 100%)}
+.p-open .ttl{position:absolute;top:17mm;left:16mm;right:16mm}
+.p-open .u{display:flex;align-items:baseline;gap:4mm;font-family:"DM Mono";font-weight:500;font-size:8pt;letter-spacing:.2em;text-transform:uppercase;color:var(--verm)}
+.p-open .u .big{font-family:"Fraunces";font-size:64pt;letter-spacing:0;color:var(--verm);font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:700;line-height:.8}
+.p-open h1{font-size:47pt;line-height:.93;margin-top:4mm;color:var(--ink);max-width:170mm}
+.p-open h1 i{font-style:italic;font-weight:500;color:var(--verde)}
+.p-open .sub{margin-top:4.6mm;font-size:12.5pt;font-weight:600;color:var(--ink);display:flex;gap:3mm;align-items:center}
+.p-open .sub span{font-family:"DM Mono";font-weight:500;font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:#F6F0E4;padding:1.2mm 2.2mm;border-radius:1mm}
+.p-open .tag{position:absolute;right:16mm;bottom:16mm;background:#F6F0E4;border:1pt solid var(--ink);border-radius:1.5mm;padding:3mm 4mm 3mm 7mm;transform:rotate(-4deg);box-shadow:1.4mm 1.6mm 0 rgba(28,37,54,.25);width:62mm}
+.p-open .tag:before{content:"";position:absolute;left:2.4mm;top:50%;width:2.6mm;height:2.6mm;margin-top:-1.3mm;border-radius:50%;border:1pt solid var(--ink);background:#E9DFC9}
+.p-open .tag .lab{color:var(--verm)}
+.p-open .tag p{font-family:"Fraunces";font-size:11pt;line-height:1.25;margin-top:1mm;font-variation-settings:"SOFT" 100;text-wrap:balance}
+.p-open .brand{position:absolute;left:16mm;bottom:15mm;font-family:"DM Mono";font-size:7pt;letter-spacing:.16em;text-transform:uppercase;color:#F6F0E4;background:rgba(28,37,54,.78);padding:1.6mm 2.6mm;border-radius:1mm}
+
+/* ============ PAGE 2 ============ */
+.letter{display:grid;grid-template-columns:1fr 50mm;gap:6mm;align-items:start}
+.letter .txt{font-size:11.4pt}
+.letter .sig{font-family:"Caveat";font-size:19pt;line-height:1;color:var(--verde);margin-top:1mm}
+.letter img{width:50mm;border-radius:50%;background:#fff;aspect-ratio:1/1;object-fit:cover;object-position:50% 12%;border:1pt solid var(--ink)}
+.plan{margin-top:4mm}
+.plan svg{width:100%;height:auto;display:block}
+.ticket{display:grid;grid-template-columns:30mm 1fr;border:1pt solid var(--ink);border-radius:2.4mm;overflow:hidden;background:#FBF7EF;margin-top:4mm}
+.ticket .stub{background:var(--verm);color:#fff;padding:3mm;display:flex;flex-direction:column;justify-content:space-between;border-right:1.2pt dashed #fff}
+.ticket .stub .n{font-family:"DM Mono";font-size:6.6pt;letter-spacing:.14em}
+.ticket .stub .b{font-family:"Fraunces";font-size:15pt;line-height:1;font-weight:700;font-variation-settings:"SOFT" 100,"WONK" 1}
+.ticket ul{list-style:none;padding:2.6mm 4mm;display:grid;grid-template-columns:1fr 1fr;gap:1.4mm 5mm;font-size:8.8pt;line-height:1.3}
+.ticket li b{font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.12em;color:var(--verm);display:block}
+.keys{display:flex;gap:5mm;align-items:center;font-size:8.4pt;margin-top:3mm}
+.keys span{display:flex;align-items:center;gap:1.4mm}
+
+/* ============ PAGE 3 — silhouettes ============ */
+.sils{display:grid;grid-template-columns:repeat(4,1fr);gap:4mm;margin-top:2mm}
+.sil{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;height:56mm;padding:3mm;position:relative}
+.sil .L{font-family:"Fraunces";font-weight:700;font-size:13pt;position:absolute;top:-3.2mm;left:-2.4mm;width:7mm;height:7mm;border-radius:50%;background:var(--ocre);color:#fff;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100}
+.bar{height:1.3mm;background:#C9C1B2;border-radius:.6mm;margin-bottom:1.25mm}
+.bar.d{background:#5E6474}.bar.h{height:2.8mm}
+.sil .img{background:#D6CFC0;border-radius:1mm}
+.sil-ans{margin-top:2.4mm;border-bottom:.7pt solid #9C927E;height:6mm}
+.wb{display:flex;flex-wrap:wrap;gap:1.6mm}
+.wb span{border:.8pt solid var(--c);border-radius:5mm;padding:.5mm 2.6mm;font-size:8.8pt;background:#fff}
+.preview{display:grid;grid-template-columns:58mm 1fr;gap:5mm;align-items:start}
+.prevcard{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:3mm;box-shadow:1.2mm 1.2mm 0 var(--t)}
+.prevcard .t{font-family:"Fraunces";font-weight:700;font-size:15pt;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1}
+.prevcard .s{font-family:"Fraunces";font-style:italic;font-size:8.6pt;color:var(--ink2)}
+.prevcard img{width:100%;margin:2mm 0;mix-blend-mode:multiply}
+.prevcard .heads{display:flex;flex-wrap:wrap;gap:1mm}
+.prevcard .heads span{font-weight:800;font-size:6.6pt;letter-spacing:.08em;text-transform:uppercase;color:var(--verde);border-bottom:1pt solid var(--verde)}
+.confirm{display:flex;flex-wrap:wrap;gap:1mm 5mm;margin-top:1.4mm;font-size:8.6pt}.confirm b{flex-basis:100%}.confirm span{white-space:nowrap}
+
+/* ============ PAGES 4–5 — article ============ */
+.enc-h{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.6pt solid var(--ink);padding-bottom:2mm}
+.enc-h .vol{font-family:"DM Mono";font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);text-align:right;line-height:1.5}
+.art-t{font-family:"Fraunces";font-size:40pt;font-weight:650;line-height:.95;font-variation-settings:"SOFT" 30,"WONK" 0,"opsz" 144;margin-top:3mm}
+.art-sci{font-family:"Fraunces";font-style:italic;font-size:13pt;color:var(--verde);margin-top:1mm}
+.art-lead{font-family:"Fraunces";font-size:13.2pt;line-height:1.46;margin-top:3.4mm;font-variation-settings:"opsz" 18;max-width:168mm}
+.plate{position:relative;margin-top:4mm;background:#fff;border:.8pt solid var(--rule)}
+.plate img{width:100%;display:block;mix-blend-mode:multiply}
+.plate .fig{position:absolute;width:6mm;height:6mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"DM Mono";font-weight:500;font-size:8pt;display:flex;align-items:center;justify-content:center}
+.fact{background:var(--t);border-radius:2mm;padding:3mm 3.6mm;font-size:8.8pt}
+.fact h5{font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;color:var(--verde);margin-bottom:1.6mm}
+.fact dl{display:grid;grid-template-columns:auto 1fr;gap:.9mm 3mm}
+.fact dt{font-weight:800}
+.cols2{column-count:2;column-gap:7mm}
+.cols2 h4:first-child{margin-top:0}
+.cols2 .keep{break-inside:avoid}
+.gloss{border-top:1.6pt solid var(--ink);padding-top:2.4mm;display:grid;grid-template-columns:repeat(3,1fr);gap:1.8mm 5mm;font-size:8.4pt;line-height:1.3}
+.gloss b{font-family:"Fraunces";font-size:9.6pt}
+
+/* ============ PAGE 6 — x-ray ============ */
+.xray{display:grid;grid-template-columns:64mm 1fr;gap:6mm;align-items:start}
+.mini{background:#fff;border:.8pt solid var(--rule);padding:3mm;border-radius:1.4mm;position:relative}
+.mini .p{position:absolute;right:-3.4mm;width:6.4mm;height:6.4mm;border-radius:50%;background:var(--verde);color:#fff;font-family:"DM Mono";font-size:7.6pt;display:flex;align-items:center;justify-content:center;font-weight:500}
+.match{list-style:none;font-size:9.2pt}
+.match li{display:grid;grid-template-columns:8mm 1fr;align-items:center;gap:2mm;margin-bottom:1.6mm}
+.match .sq{width:7mm;height:7mm;border:.8pt solid var(--ink);border-radius:1mm;background:#fff}
+.lvl{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4mm}
+.lvl .col{border-top:2.2pt solid var(--k);padding-top:2mm}
+.lvl .col .lab{color:var(--k);display:flex;align-items:center;gap:1.4mm;margin-bottom:1.4mm}
+.lvl ol{margin-left:4mm;font-size:9.2pt}
+.lvl ol li{margin-bottom:1.4mm}
+
+/* ============ PAGE 7 — visitors' book ============ */
+.defs{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.def{border-radius:2.4mm;padding:3mm 3.6mm;color:#fff}
+.def.f{background:var(--verde)}.def.o{background:var(--ameixa)}
+.def .w{font-family:"Fraunces";font-size:20pt;font-weight:700;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1}
+.def p{font-size:9.2pt;margin-top:1.2mm;line-height:1.35}
+.def .ex{font-family:"Fraunces";font-style:italic;margin-top:1.4mm;font-size:9.6pt}
+.vbook{margin-top:4mm;display:grid;grid-template-columns:1fr 1fr;background:#FFFDF6;border:.8pt solid #CDBF9F;border-radius:1.6mm;position:relative;box-shadow:0 1.4mm 0 #E1D5BB}
+.vbook:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:.8pt;background:#CDBF9F}
+.vbook .pg{padding:3mm 4mm;background-image:repeating-linear-gradient(transparent 0,transparent 7.6mm,#D9E2EC 7.6mm,#D9E2EC 7.9mm);background-position:0 5.5mm}
+.vbook .pg h5{font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin-bottom:1mm}
+.entry{display:grid;grid-template-columns:1fr 9mm;align-items:center;gap:2mm;min-height:15.8mm}
+.entry .h{font-family:"Caveat";font-size:15.6pt;line-height:1.02;color:#223a78}
+.entry .h small{font-size:12pt;color:#6b6f7c}
+.entry .n{font-family:"DM Mono";font-size:7pt;color:var(--ink2);margin-right:1mm}
+.signals{display:flex;flex-wrap:wrap;gap:1.4mm;margin-top:1.4mm}
+.signals span{background:#fff;border-radius:5mm;padding:.4mm 2.2mm;font-size:8.4pt;border:.8pt solid var(--ameixa);color:var(--ameixa);font-weight:600}
+.listen{display:grid;grid-template-columns:repeat(8,1fr);gap:2mm;margin-top:2mm}
+.listen div{text-align:center;font-family:"DM Mono";font-size:7.4pt}
+.listen div span{display:block;height:9mm;border:.8pt solid var(--ink);border-radius:1.2mm;background:#fff;margin-top:.8mm}
+
+/* ============ PAGE 8 — verbete ============ */
+.verb-wrap{position:relative;background:#FFFDF7;border:.8pt solid var(--rule);border-radius:2mm;padding:6mm 7mm;margin-top:4mm}
+.verb{font-family:"Fraunces";font-size:13.4pt;line-height:1.62;font-variation-settings:"opsz" 14}
+.verb .hw{font-weight:800;font-size:19pt;font-variation-settings:"opsz" 72;color:var(--ink)}
+.verb .syl{font-family:"DM Mono";font-size:10.6pt;color:var(--ink2)}
+.verb .gr{font-style:italic;color:var(--ultra)}
+.verb .nb{font-weight:800;color:var(--ultra)}
+.verb .ex{font-style:italic;color:#5a5f6d}
+.verb .et{font-size:11pt;color:var(--ink2)}
+.tagl{position:absolute;font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.06em;color:#fff;background:var(--ultra);padding:.7mm 1.8mm;border-radius:1mm;white-space:nowrap}
+.tagl i{font-style:normal;display:inline-block;width:3.8mm;height:3.8mm;border-radius:50%;background:#fff;color:var(--ultra);text-align:center;line-height:3.8mm;margin-right:1.2mm;font-size:6.6pt}
+.anat{display:grid;grid-template-columns:repeat(3,1fr);gap:2mm 4mm;margin-top:3mm;font-size:8.8pt;line-height:1.3}
+.anat div{display:flex;gap:1.6mm}
+.anat i{font-style:normal;flex:none;width:4.6mm;height:4.6mm;border-radius:50%;background:var(--ultra);color:#fff;font-family:"DM Mono";font-size:7pt;display:flex;align-items:center;justify-content:center}
+.abbr{display:grid;grid-template-columns:repeat(5,1fr);gap:1.4mm 3mm;font-size:8.4pt}
+.abbr b{font-family:"Fraunces";font-style:italic;font-weight:600;color:var(--ultra)}
+
+/* ============ PAGE 9 ============ */
+.cards{display:flex;flex-wrap:wrap;gap:2.2mm}
+.cards span{background:#fff;border:.8pt solid var(--ink);border-radius:1mm;padding:1.4mm 3mm;font-family:"Fraunces";font-size:11pt;box-shadow:.8mm .8mm 0 var(--t)}
+.order{display:grid;grid-template-columns:repeat(8,1fr);gap:1.6mm;margin-top:2.4mm}
+.order div{border-bottom:.8pt solid #9C927E;height:8mm;position:relative}
+.order div:before{content:attr(data-n);position:absolute;left:0;top:0;font-family:"DM Mono";font-size:6.4pt;color:var(--ink2)}
+.dpage{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:2.6mm 3.4mm;font-family:"Fraunces"}
+.dpage .gw{display:flex;justify-content:space-between;font-weight:800;font-size:10.4pt;border-bottom:.8pt solid var(--ink);padding-bottom:1mm;margin-bottom:2mm}
+.dpage .gw span:last-child{color:var(--ultra)}
+.dpage .gw span:first-child{color:var(--ultra)}
+.dpage .gh{height:2.2mm;background:#E6E2DA;border-radius:.6mm;margin-bottom:1.6mm}
+.forms{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm}
+.forms div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm 2.4mm;font-size:9pt}
+.forms div b{font-family:"Fraunces";font-size:12pt;display:block}
+
+/* ============ PAGE 10 — writing a verbete ============ */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:2.4mm}
+.steps div{background:#fff;border-top:3pt solid var(--ultra);padding:2mm 2.4mm;font-size:8.6pt;line-height:1.3;border-radius:0 0 1.4mm 1.4mm}
+.steps div b{font-family:"Fraunces";font-size:15pt;color:var(--ultra);display:block;line-height:1;font-variation-settings:"SOFT" 100}
+.formula{display:flex;align-items:center;gap:2mm;font-family:"Fraunces";font-size:11.4pt;flex-wrap:wrap}
+.formula .pill{padding:1mm 3mm;border-radius:5mm;color:#fff;font-family:"Figtree";font-weight:700;font-size:8.8pt}
+.vcard{background:#FFFDF7;border:.8pt solid var(--ink);border-radius:1.6mm;padding:3mm 4mm;position:relative}
+.vcard .fl{display:grid;grid-template-columns:auto 1fr;gap:1.2mm 2mm;align-items:end;font-size:8.2pt;color:var(--ink2)}
+.vcard .fl span.l{border-bottom:.7pt solid #9C927E;height:6mm}
+.inv{font-family:"Fraunces";font-size:10.8pt;line-height:1.5}
+.inv .hw{font-weight:800;font-size:12.6pt}
+.inv .gr{font-style:italic;color:var(--ultra)}
+.inv .ex{font-style:italic;color:#5a5f6d}
+
+/* ============ LAB (grammar) ============ */
+.lab-page{background-color:var(--paper);background-image:linear-gradient(rgba(45,75,168,.06) .5pt,transparent .5pt),linear-gradient(90deg,rgba(45,75,168,.06) .5pt,transparent .5pt);background-size:5mm 5mm}
+.lab-h{display:flex;align-items:center;gap:3mm}
+.lab-h .badge{font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:#fff;padding:1.2mm 2.4mm;border-radius:1mm}
+.rule{background:var(--ink);color:#F6F0E4;border-radius:2.4mm;padding:3.4mm 4.4mm;font-size:10.6pt;line-height:1.4;position:relative}
+.rule b{color:#F4C56A}
+.rule .lab{color:#F4C56A;display:block;margin-bottom:1mm}
+.coll{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.coll .cell{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm;display:flex;flex-direction:column;align-items:center}
+.coll .cell img{height:24mm;max-width:100%;object-fit:contain;mix-blend-mode:multiply}
+.coll .cell .cl{display:flex;width:100%;gap:1.6mm;align-items:flex-end;margin-top:1.4mm;font-size:8pt;color:var(--ink2)}
+.coll .cell .cl span{flex:1;border-bottom:.8pt solid #9C927E;height:5mm}
+.agree{display:grid;grid-template-columns:1fr 1fr;gap:1.6mm 6mm;font-size:9.6pt}
+.agree .opt{display:inline-block;border:.8pt solid var(--ink);border-radius:5mm;padding:0 2mm;margin:0 .6mm;font-size:9pt}
+
+/* ============ PAGES 12–13 — portraits ============ */
+.ptr{display:grid;grid-template-columns:70mm 1fr;gap:7mm;margin-top:4mm}
+.ptr .pic{background:#fff;border:.8pt solid var(--rule);padding:2mm;box-shadow:1.4mm 1.4mm 0 var(--t)}
+.ptr .pic img{width:100%;display:block;mix-blend-mode:multiply}
+.ptr .pic .cap{margin-top:1.6mm}
+.byline{font-family:"DM Mono";font-size:7pt;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:1.6mm 0 3mm}
+.margin-note{font-family:"Caveat";font-size:13pt;line-height:1.05;color:var(--ameixa)}
+.notes{display:flex;flex-direction:column;gap:3mm;margin-top:4mm}
+.notes div{display:flex;gap:2mm;align-items:flex-start}
+.notes div:before{content:"";flex:none;width:3.4mm;height:3.4mm;border-radius:50%;margin-top:1mm;background:var(--sw)}
+.sot-img{width:100%;display:block;border:.8pt solid var(--rule);margin-top:4mm}
+.pl-grid{display:grid;grid-template-columns:1fr 50mm;gap:6mm;margin-top:3.6mm}
+
+/* ============ PAGE 14 ============ */
+.tbl{width:100%;border-collapse:separate;border-spacing:0;font-size:9.2pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.tbl th{background:var(--c);color:#fff;text-align:left;padding:1.6mm 2.4mm;font-weight:800;font-size:8.6pt;letter-spacing:.04em}
+.tbl td{border-top:.7pt solid var(--rule);padding:1.4mm 2.4mm;height:8.6mm;vertical-align:top}
+.tbl td+td,.tbl th+th{border-left:.7pt solid var(--rule)}
+.tbl td.g{color:var(--ink2);font-style:italic;font-family:"Fraunces"}
+.room{display:grid;grid-template-columns:1fr 1.2fr 1fr;grid-template-rows:auto auto;gap:2mm;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;padding:2.6mm}
+.room div{border:.8pt dashed var(--c);border-radius:1.2mm;padding:1.4mm 2mm;min-height:15mm;font-size:8pt;color:var(--c);font-family:"DM Mono";font-weight:500;letter-spacing:.08em;text-transform:uppercase}
+.room .fundo{grid-column:1/4}
+.senses{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm}
+.senses div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm;min-height:22mm;font-size:8.6pt}
+.senses div b{display:block;font-family:"Fraunces";font-size:11pt;color:var(--ameixa)}
+
+/* ============ PAGE 15 — degrees ============ */
+.scale{display:grid;grid-template-columns:repeat(6,1fr);gap:1.6mm;margin-top:3mm}
+.scale div{border-radius:1.4mm;padding:2mm 2mm 2.4mm;color:#fff;font-size:8.2pt;line-height:1.28;position:relative}
+.scale div b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.2pt;letter-spacing:.1em;text-transform:uppercase;opacity:.92;margin-bottom:1mm}
+.scale div i{font-family:"Fraunces";font-style:italic;font-size:10pt;display:block}
+.irr{width:100%;border-collapse:collapse;font-size:9.2pt;background:#fff}
+.irr th,.irr td{border:.7pt solid var(--rule);padding:1.2mm 2mm;text-align:left}
+.irr th{background:var(--t);font-size:7.8pt;letter-spacing:.04em}
+.irr td:first-child{font-weight:800}
+
+/* ============ PAGE 17 — notices ============ */
+.wall{position:relative;height:124mm;margin-top:3mm;background:#E5DCC8;border-radius:2mm;background-image:radial-gradient(rgba(0,0,0,.05) 1px,transparent 1px);background-size:3mm 3mm}
+.ntc{position:absolute;box-shadow:1mm 1.6mm 0 rgba(28,37,54,.18)}
+.ntc .pin{position:absolute;top:-2mm;left:50%;margin-left:-2mm;width:4mm;height:4mm;border-radius:50%;background:var(--verm);box-shadow:.5mm .6mm 0 rgba(0,0,0,.25)}
+.nA{left:6mm;top:7mm;width:66mm;background:#C8391E;color:#fff;border-radius:3mm;padding:4mm;text-align:center;border:1.6pt solid #fff;outline:1.2pt solid #C8391E}
+.nA .x{font-family:"Figtree";font-weight:900;font-size:13pt;line-height:1.1;letter-spacing:.02em}
+.nA .y{font-family:"Fraunces";font-style:italic;margin-top:1mm;font-size:10pt}
+.nA .sym{width:11mm;height:11mm;margin:0 auto 1.6mm;display:block}
+.nB{right:6mm;top:6mm;width:92mm;background:#FFFEF9;padding:5mm 5.4mm;transform:rotate(1.2deg)}
+.nB .t{font-family:"Figtree";font-weight:900;font-size:16pt;letter-spacing:.2em;text-align:center;border-bottom:1.4pt solid var(--ink);padding-bottom:1mm}
+.nB .s{font-family:"Fraunces";font-weight:700;font-size:11pt;text-align:center;margin:1.6mm 0 2mm}
+.nB p{font-family:"Fraunces";font-size:9.6pt;line-height:1.42;margin-bottom:1.6mm}
+.nB .sig{text-align:right;font-size:8.8pt;font-family:"Fraunces";font-style:italic}
+.nC{left:10mm;top:56mm;width:62mm;background:#FFF6B8;padding:4mm 4mm 3mm;transform:rotate(-2.4deg);font-family:"Caveat";font-size:15pt;line-height:1.05;color:#233}
+.nC .tape{position:absolute;top:-3mm;left:18mm;width:24mm;height:6mm;background:rgba(255,255,255,.6);transform:rotate(3deg)}
+.nC b{font-size:19pt;color:var(--verm)}
+.nD{right:9mm;top:74mm;width:88mm;background:#fff;border-left:5mm solid var(--turq);padding:3.4mm 4mm;transform:rotate(-.6deg);font-size:8.8pt;line-height:1.36}
+.nD .t{font-weight:900;font-size:11pt;color:var(--turq);letter-spacing:.06em}
+.nD ul{margin:1mm 0 1mm 4mm}
+.lettertag{position:absolute;width:7mm;height:7mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"Fraunces";font-weight:700;display:flex;align-items:center;justify-content:center;font-size:11pt;z-index:3}
+.five{width:100%;border-collapse:collapse;font-size:8.8pt;background:#fff}
+.five th,.five td{border:.7pt solid var(--rule);padding:1.2mm 2mm;text-align:left;height:7.4mm}
+.five th{background:var(--t);font-size:8pt}
+
+/* ============ PAGE 18 — imperative ============ */
+.imp{width:100%;border-collapse:separate;border-spacing:0;font-size:9.6pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.imp th,.imp td{padding:1.3mm 2.4mm;text-align:left;border-top:.7pt solid var(--rule)}
+.imp thead th{background:var(--ink);color:#fff;font-size:8.4pt;border-top:0}
+.imp td.p{font-family:"DM Mono";font-size:8pt;color:var(--ink2)}
+.imp .neg{color:var(--verm);font-weight:700}
+.imp .sub{font-size:7.2pt;font-weight:500;opacity:.8}
+.trap{display:grid;grid-template-columns:1fr 1fr 1fr;border:1.4pt solid var(--verm);border-radius:2mm;overflow:hidden;background:#fff}
+.trap div{padding:2.4mm 3mm;font-family:"Fraunces";font-size:13pt;text-align:center}
+.trap div small{display:block;font-family:"DM Mono";font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
+.trap .bad{background:#FBE3DB;text-decoration:line-through;text-decoration-color:var(--verm);text-decoration-thickness:1.6pt;color:#9a3a26}
+.irrg{display:grid;grid-template-columns:repeat(7,1fr);gap:1.6mm}
+.irrg div{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:1.6mm;text-align:center;font-size:8.6pt;line-height:1.3}
+.irrg div b{display:block;font-family:"Fraunces";font-size:11pt}
+.irrg div span{color:var(--verm)}
+.mnote{background:#FFF6B8;padding:3.4mm 4mm;transform:rotate(-.8deg);font-family:"Caveat";font-size:16pt;line-height:1.08;box-shadow:1mm 1.4mm 0 rgba(28,37,54,.15)}
+
+/* ============ PAGE 19 — writing a notice ============ */
+.choices{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.choices div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2.4mm 3mm;font-size:9pt;line-height:1.34;position:relative}
+.choices div b{font-family:"Fraunces";font-size:10.6pt;display:block;margin-bottom:.6mm}
+.wheel{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm}
+.wheel div{background:var(--t);border-radius:1.6mm;padding:1.8mm 2.2mm;font-size:8.2pt;min-height:19mm}
+.wheel div b{display:block;font-family:"Fraunces";font-size:11pt;color:var(--verm)}
+.blank-ntc{background:#FFFEF9;border:1.4pt solid var(--ink);border-radius:1mm;height:88mm;position:relative;margin-top:2mm;background-image:repeating-linear-gradient(transparent 0,transparent 8.4mm,#E6DECF 8.4mm,#E6DECF 8.7mm);background-position:0 17mm}
+.blank-ntc .pin{position:absolute;top:-2mm;width:4mm;height:4mm;border-radius:50%;background:var(--verm)}
+.blank-ntc .tl{position:absolute;left:0;right:0;top:4mm;text-align:center;font-family:"DM Mono";font-size:7pt;letter-spacing:.2em;color:#B7AD99}
+
+/* ============ PAGE 20 — oral model ============ */
+.oral-top{display:grid;grid-template-columns:1fr 62mm;gap:6mm}
+.speech{position:relative}
+.seg{display:grid;grid-template-columns:29mm 1fr;gap:3mm;margin-bottom:2.2mm}
+.seg .sl{font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.04em;text-transform:uppercase;color:#fff;background:var(--sc);border-radius:1.2mm;padding:1.4mm 1.8mm;align-self:start;text-align:center}
+.seg .st{font-family:"Fraunces";font-size:10.4pt;line-height:1.46;border-left:2pt solid var(--sc);padding-left:3mm;font-variation-settings:"opsz" 12}
+.seg .st u{text-decoration:none;background:linear-gradient(transparent 58%,var(--sh) 58%)}
+.ann{font-family:"Caveat";font-size:12.6pt;line-height:1;color:var(--sc);display:block;margin-top:.6mm}
+.cue{background:#fff;border:.8pt solid var(--ink);border-radius:1mm;padding:3mm 3.4mm;transform:rotate(2deg);box-shadow:1.2mm 1.4mm 0 rgba(28,37,54,.16);font-family:"Caveat";font-size:14.6pt;line-height:1.08;background-image:repeating-linear-gradient(transparent 0,transparent 5.9mm,#E4ECF3 5.9mm,#E4ECF3 6.2mm);background-position:0 9mm}
+.cue .ct{font-family:"DM Mono";font-size:6.6pt;letter-spacing:.12em;color:var(--verm);border-bottom:1pt solid var(--verm);padding-bottom:1mm;margin-bottom:1.4mm;text-transform:uppercase}
+
+/* ============ PAGE 21 ============ */
+.path{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm;position:relative}
+.path div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm 2.4mm;font-size:8.4pt;line-height:1.3;position:relative}
+.path div b{display:block;font-family:"Fraunces";font-size:10.4pt;line-height:1.1;margin-bottom:.8mm}
+.path div .n{position:absolute;top:-3mm;left:2mm;width:6mm;height:6mm;border-radius:50%;background:var(--turq);color:#fff;font-family:"DM Mono";font-size:7.4pt;display:flex;align-items:center;justify-content:center}
+.hooks{display:grid;grid-template-columns:1fr 1fr;gap:2mm}
+.hooks div{background:var(--t);border-radius:1.4mm;padding:1.8mm 2.4mm;font-size:8.6pt;line-height:1.3}
+.hooks div b{color:var(--turq)}
+.plancard{background:#fff;border:1pt solid var(--ink);border-radius:1.4mm;padding:2.6mm 3.4mm;font-size:8.4pt}
+.plancard .r{display:grid;grid-template-columns:22mm 1fr;align-items:end;gap:2mm;margin-bottom:.4mm}
+.plancard .r span{border-bottom:.7pt solid #9C927E;height:7.2mm}
+.plancard .r b{font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.08em;text-transform:uppercase;color:var(--turq)}
+.rub{width:100%;border-collapse:collapse;font-size:8.6pt;background:#fff}
+.rub td,.rub th{border:.7pt solid var(--rule);padding:1.1mm 2mm}
+.rub th{background:var(--t);font-size:7.6pt;text-align:center}
+.rub td.c{width:12mm;text-align:center}
+
+/* ============ PAGE 22 — project ============ */
+.proj{display:grid;grid-template-columns:62mm 1fr;gap:7mm;margin-top:4mm}
+.proj img{width:100%;mix-blend-mode:multiply}
+.pieces{display:grid;grid-template-columns:1fr 1fr;gap:2.6mm}
+.pieces div{background:#fff;border:.8pt solid var(--rule);border-left:3pt solid var(--pc);border-radius:1.4mm;padding:2.2mm 2.8mm;font-size:8.6pt;line-height:1.32}
+.pieces div b{display:block;font-family:"Fraunces";font-size:11pt;color:var(--pc)}
+.pieces div small{font-family:"DM Mono";font-size:6.4pt;color:var(--ink2);letter-spacing:.06em}
+.timeline{display:grid;grid-template-columns:repeat(5,1fr);border-top:2pt solid var(--ink);margin-top:3mm}
+.timeline div{padding:2.4mm 2mm 0;font-size:8.4pt;line-height:1.3;position:relative}
+.timeline div:before{content:"";position:absolute;top:-2.4mm;left:2mm;width:4mm;height:4mm;border-radius:50%;background:var(--paper);border:2pt solid var(--ink)}
+.timeline div:last-child:before{background:var(--verm);border-color:var(--verm)}
+.timeline div b{font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;display:block;color:var(--ink2);margin-top:1mm}
+
+/* ============ PAGE 23 — kit ============ */
+.kit{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:3mm}
+.cut{border:1pt dashed #6D6A63;border-radius:1.6mm;padding:3.4mm 4mm;background:#FFFDF7;position:relative}
+.cut h5{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--kc);margin-bottom:1.4mm}
+.cut .r{display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end;font-size:8pt;color:var(--ink2);margin-bottom:.2mm}
+.cut .r span{border-bottom:.7pt solid #9C927E;height:6.4mm}
+.cut .ln{height:6.6mm}
+
+/* ============ PAGE 24 ============ */
+.pass{display:grid;grid-template-columns:1fr repeat(3,15mm);font-size:8.8pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.pass div{padding:1.3mm 2.4mm;border-top:.7pt solid var(--rule);display:flex;align-items:center}
+.pass div.c{justify-content:center;border-left:.7pt solid var(--rule)}
+.pass .hd{background:var(--ink);color:#fff;font-family:"DM Mono";font-size:6.2pt;letter-spacing:.06em;text-transform:uppercase;border-top:0;justify-content:center;text-align:center;line-height:1.2}
+.pass .hd:first-child{justify-content:flex-start}
+.ring{width:5mm;height:5mm;border-radius:50%;border:.9pt solid var(--ink)}
+.quiz{display:grid;grid-template-columns:1fr 1fr;gap:1.4mm 6mm;font-size:9pt}
+.quiz div{display:grid;grid-template-columns:5mm 1fr;gap:1mm}
+.quiz div b{font-family:"Fraunces";color:var(--verm)}
+.glos2{column-count:3;column-gap:5mm;font-size:8.2pt;line-height:1.32}
+.glos2 p{break-inside:avoid;margin-bottom:.8mm}
+.glos2 b{font-family:"Fraunces";font-size:9pt}
+
+
+/* ================= UNIT 4 — TEXTO DRAMÁTICO ================= */
+.p-open .u{color:var(--ameixa)}
+.p-open .u .big{color:var(--ameixa)}
+.p-open h1 i{color:var(--verm)}
+.p-open .veil{height:128mm}
+.p-open .tag .lab{color:var(--ameixa)}
+/* ---------- programme (unit plan) ---------- */
+.prog{background:#FFFDF6;border:1pt solid var(--ink);border-radius:2mm;padding:1.6mm;margin-top:6mm;position:relative}
+.prog .in{border:.6pt solid var(--ameixa);border-radius:1.2mm;padding:0 6mm 2mm;overflow:hidden}
+.prog .curt{display:block;width:calc(100% + 12mm);height:8mm;margin:0 -6mm 1.4mm}
+.prog h4{text-align:center;font-family:"DM Mono";font-weight:500;font-size:9pt;letter-spacing:.5em;color:var(--ameixa);margin-bottom:.6mm}
+.prog .st{text-align:center;font-family:"Fraunces";font-style:italic;font-size:10pt;color:var(--ink2);margin-bottom:1.6mm}
+.pi{display:grid;grid-template-columns:30mm 1fr 20mm;gap:3mm;align-items:baseline;padding:1.8mm 0;border-top:.6pt dotted #BFB29A}
+.pi:first-of-type{border-top:0}
+.pi .a{font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.12em;text-transform:uppercase;color:var(--pc,var(--ameixa))}
+.pi .t{font-family:"Fraunces";font-weight:650;font-size:12pt;line-height:1.1;font-variation-settings:"SOFT" 100}
+.pi .t small{display:block;font-family:"Figtree";font-weight:400;font-size:8.2pt;color:var(--ink2);margin-top:.2mm;font-variation-settings:normal}
+.pi .p{font-family:"DM Mono";font-size:8pt;color:var(--ink2);text-align:right}
+/* ---------- cast / programme strip ---------- */
+.cast{display:grid;grid-template-columns:repeat(5,1fr);gap:2.6mm;margin-top:2mm}
+.cast>div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm 2mm 2.2mm;text-align:center;display:flex;flex-direction:column;align-items:center}
+.cast img{height:31mm;max-width:100%;object-fit:contain;mix-blend-mode:multiply}
+.cast b{display:block;font-family:"Figtree";font-weight:800;font-size:7.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c);margin-top:1.4mm}
+.cast span{font-size:7.9pt;line-height:1.25;color:var(--ink2);display:block;margin-top:.4mm;text-wrap:balance}
+/* ---------- notice prop ---------- */
+.ntc4{background:#FFFEF7;border:.8pt solid #D6CCB6;box-shadow:1.2mm 1.6mm 0 rgba(28,37,54,.16);padding:5mm 5mm 4mm;position:relative;transform:rotate(-1deg)}
+.ntc4 .pin{position:absolute;top:-2mm;width:4mm;height:4mm;border-radius:50%;background:var(--verm);box-shadow:.5mm .6mm 0 rgba(0,0,0,.25)}
+.ntc4 .h{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.16em;text-align:center;color:var(--ink2);border-bottom:.8pt solid var(--ink);padding-bottom:1.2mm;margin-bottom:2mm}
+.ntc4 .x{font-family:"Figtree";font-weight:900;font-size:15pt;line-height:1.05;text-align:center;letter-spacing:.02em}
+.ntc4 .y{font-family:"Figtree";font-weight:900;font-size:19pt;line-height:1.05;text-align:center;color:var(--verm);margin-top:1mm}
+.ntc4 p{font-family:"Fraunces";font-size:10pt;line-height:1.35;text-align:center;margin-top:2mm}
+.ntc4 .sig{font-family:"Caveat";font-size:16pt;text-align:right;line-height:1;margin-top:1mm;color:var(--verde)}
+.ntc4 .hide{filter:blur(2.6px);opacity:.75}
+.ntc4 .blk{display:inline-block;height:5.6mm;margin:0 .9mm;border-radius:.6mm;background:var(--ink);vertical-align:middle}.ntc4 .blk.s{height:3mm;margin:.9mm .8mm}
+.ntc4 .mou{position:absolute;left:50%;bottom:-2mm;width:42mm;margin-left:-19mm;transform:rotate(-8deg);mix-blend-mode:multiply}
+/* ---------- the play ---------- */
+.play{font-family:"Fraunces";font-variation-settings:"SOFT" 50,"WONK" 0,"opsz" 12;font-size:10.5pt;line-height:1.42;color:#20283a}
+.play .r{display:grid;grid-template-columns:5mm 28mm 1fr;column-gap:2mm;margin-bottom:1.25mm;align-items:baseline}
+.play .sc{counter-reset:rep}.play .r{counter-increment:rep}
+.play .r:before{content:counter(rep);font-family:"DM Mono";font-size:6.3pt;color:#A69C87;text-align:right}
+.play .w{font-family:"Figtree";font-weight:800;font-size:7.7pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c);line-height:1.2}
+.play i.d{font-style:italic;color:#666b79}
+.play .dd{margin:1.2mm 0 2mm 35mm;font-style:italic;color:#666b79;font-size:10.1pt;line-height:1.4}
+.play .dd.first{margin-left:0}
+.play .sc{display:flex;align-items:center;gap:3mm;border-bottom:1pt solid var(--ink);padding-bottom:1.2mm;margin:3.4mm 0 2mm}
+.play .sc b{font-family:"DM Mono";font-weight:500;font-size:7.4pt;letter-spacing:.16em;color:#fff;background:var(--c);padding:.7mm 2.2mm;border-radius:1mm}
+.play .sc span{font-family:"Fraunces";font-style:italic;font-size:12.4pt}
+.play .caps{font-family:"Figtree";font-style:normal;font-weight:700;font-size:8pt;letter-spacing:.06em}
+.dram{background:#FFFDF6;border:.8pt solid var(--ink);border-radius:1.6mm;padding:2.8mm 3.6mm;font-size:8.6pt;line-height:1.32}
+.dram h5{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.16em;text-transform:uppercase;color:var(--c);margin-bottom:1.4mm;border-bottom:.6pt solid var(--rule);padding-bottom:1mm}
+.dram p{margin-bottom:.9mm}
+.dram p b{font-family:"Figtree";font-weight:800;font-size:7.6pt;letter-spacing:.08em;text-transform:uppercase}
+.byline4{font-family:"Fraunces";font-style:italic;font-size:11pt;color:var(--ink2);margin-top:1.4mm}
+.scene-img{width:100%;display:block;object-fit:cover;border:.8pt solid var(--rule);border-radius:1.2mm}
+/* ---------- x-ray of a play ---------- */
+.xr{background:#FFFDF6;border:.8pt solid var(--rule);border-radius:2mm;padding:4.4mm 6mm 4.4mm;position:relative;margin-top:6mm}
+.xr .tagl{background:var(--ameixa)}
+.xr .tagl i{color:var(--ameixa)}
+.terms{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm}
+.terms div{background:#fff;border:.8pt solid var(--rule);border-top:2.6pt solid var(--c);border-radius:0 0 1.4mm 1.4mm;padding:1.6mm 2.4mm;font-size:8.3pt;line-height:1.28}
+.terms div>b:first-child{display:block;font-family:"Fraunces";font-size:11pt;color:var(--c);margin-bottom:.4mm}
+.terms div i{font-family:"Fraunces";color:var(--ink2)}
+.mdb{display:grid;grid-template-columns:1fr 1fr;gap:3mm}
+.mdb>div{border-radius:2mm;padding:3mm 3.6mm;color:#fff}
+.mdb .w{font-family:"Fraunces";font-size:17pt;font-weight:700;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1}
+.mdb p{font-size:9pt;margin-top:1mm;line-height:1.35}
+.mdb svg{float:right;width:22mm;height:12mm;margin-left:2mm}
+/* ---------- narrative vs drama ---------- */
+.nd{width:100%;border-collapse:separate;border-spacing:0;font-size:8.4pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.nd th{background:var(--c);color:#fff;text-align:left;padding:1.4mm 2.4mm;font-size:8.2pt}
+.nd td{border-top:.7pt solid var(--rule);padding:.7mm 2.4mm;vertical-align:top;line-height:1.24}
+.nd td+td,.nd th+th{border-left:.7pt solid var(--rule)}
+.nd td:first-child{font-weight:800;width:25%;color:var(--ink)}
+.twin{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.twin>div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2.2mm 3mm;font-family:"Fraunces";font-size:9.4pt;line-height:1.36}
+.twin .lab{display:block;margin-bottom:1mm;font-family:"DM Mono"}
+.twin .w{font-family:"Figtree";font-weight:800;font-size:7.4pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.twin i.d{color:#666b79}
+.src-par{background:var(--t);border-radius:1.6mm;padding:2.6mm 3.4mm;font-family:"Fraunces";font-size:10pt;line-height:1.45}
+.script{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:1mm 3mm}
+.script .sl{display:grid;grid-template-columns:28mm 1fr;gap:2mm;align-items:end}
+.script .sl span{border-bottom:.7pt solid #B9AE98;height:7.2mm}
+.script .sl span:first-child{border-right:.7pt dashed #D8CCB6}
+/* ---------- stage page ---------- */
+.stage{position:relative;margin-top:3mm;border:.8pt solid var(--rule);border-radius:1.4mm;overflow:hidden;background:#fff}
+.stage img{width:100%;display:block}
+.pinn{position:absolute;width:6.2mm;height:6.2mm;margin:-3.1mm 0 0 -3.1mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"DM Mono";font-weight:500;font-size:8pt;display:flex;align-items:center;justify-content:center;border:1.1pt solid #fff;box-shadow:0 .4mm 1mm rgba(0,0,0,.35)}
+.stagewrap{display:grid;grid-template-columns:114mm 1fr;gap:4.4mm;margin-top:3mm;align-items:center}
+.stagewrap .stage{margin-top:0}
+.legend{display:grid;grid-template-columns:1fr;gap:1.5mm;font-size:8.3pt;line-height:1.25}
+.legend div{display:grid;grid-template-columns:5.4mm 1fr;gap:1.6mm;align-items:start}
+.legend i{font-style:normal;width:5.2mm;height:5.2mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"DM Mono";font-size:7pt;display:flex;align-items:center;justify-content:center}
+.legend b{font-family:"Fraunces";font-size:9.8pt}
+.gwa{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.gwa>div{border-radius:1.8mm;padding:2.4mm 3mm;color:#fff;font-size:8.6pt;line-height:1.3}
+.gwa>div b{display:block;font-family:"Fraunces";font-size:13pt;line-height:1.05;margin-bottom:.6mm;font-variation-settings:"SOFT" 100,"WONK" 1}
+.props{display:grid;grid-template-columns:repeat(6,1fr);gap:2mm}
+.props div{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:1.4mm;display:flex;flex-direction:column;align-items:center}
+.props img{height:16mm;max-width:100%;object-fit:contain;mix-blend-mode:multiply}
+.props div span{margin-top:1mm;font-size:7.6pt;color:var(--ink2);text-align:center;line-height:1.15}
+.props div em{display:block;margin-top:1mm;width:100%;height:7.4mm;border:.8pt dashed #B9AE98;border-radius:1mm;font-style:normal}
+.cr{width:100%;border-collapse:collapse;font-size:8.8pt;background:#fff}
+.cr th,.cr td{border:.7pt solid var(--rule);padding:1.2mm 2mm;text-align:left;vertical-align:top}
+.cr th{background:var(--t);font-size:7.8pt}
+.cr td{height:12mm}
+.cr.tight td{height:9mm}
+.cr td.g{font-family:"Fraunces";font-style:italic;color:var(--ink2)}
+.fact4{background:var(--t);border-radius:2mm;padding:3mm 3.4mm;font-size:8.7pt;line-height:1.35}
+.fact4 h5{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--c);margin-bottom:1.2mm}
+/* ---------- grammar ---------- */
+.types{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm}
+.types div{border-radius:1.8mm;padding:2.4mm 2.8mm;color:#fff;font-size:8.4pt;line-height:1.3;position:relative;min-height:24mm}
+.types div b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;opacity:.95;margin-bottom:.8mm}
+.types div i{display:block;font-family:"Fraunces";font-style:italic;font-size:10.4pt;margin-top:1.2mm;line-height:1.25}
+.types div .mk{position:absolute;right:2.4mm;top:1mm;font-family:"Fraunces";font-weight:800;font-size:20pt;opacity:.5;line-height:1}
+.chips{display:flex;flex-wrap:wrap;gap:1.6mm}
+.chips span{background:#fff;border:.8pt solid var(--c);border-radius:5mm;padding:.5mm 2.4mm;font-size:8.6pt}
+.chips span b{font-family:"Fraunces";color:var(--c)}
+.circ{display:inline-flex;gap:1.2mm;margin-left:1.4mm}
+.circ span{display:inline-block;border:.8pt solid var(--ink);border-radius:5mm;padding:0 1.6mm;font-family:"DM Mono";font-size:7.2pt;line-height:1.6}
+.pmk{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm}
+.pmk div{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:1.6mm 2mm;font-size:8.2pt;line-height:1.28;text-align:center}
+.pmk div b{display:block;font-family:"Fraunces";font-weight:800;font-size:17pt;line-height:1.05;color:var(--c)}
+/* ---------- mystery ---------- */
+.board{width:100%;border-collapse:separate;border-spacing:0;font-size:8.8pt;background:#FFFDF6;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.board th{background:var(--c);color:#fff;text-align:left;padding:1.4mm 2.4mm;font-size:8.2pt}
+.board td{border-top:.7pt solid var(--rule);padding:1.4mm 2.4mm;height:14.5mm;vertical-align:top}
+.board td+td,.board th+th{border-left:.7pt solid var(--rule)}
+.board td:first-child{font-weight:800;width:22%}
+.marks{display:grid;grid-template-columns:repeat(5,1fr);gap:2mm}
+.marks div{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:1.6mm 2mm;font-size:8.2pt;line-height:1.25;text-align:center}
+.marks div b{display:block;font-family:"Fraunces";font-size:15pt;line-height:1.1;color:var(--c)}
+.marked{background:#fff;border:.8pt solid var(--ink);border-radius:1.4mm;padding:2.4mm 3mm;font-family:"Fraunces";font-size:10.4pt;line-height:1.6}
+.marked .w{font-family:"Figtree";font-weight:800;font-size:7.4pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c);margin-right:2mm}
+.marked u{text-decoration:none;border-bottom:1.6pt solid var(--verm)}
+.marked .m{font-family:"Caveat";font-size:14pt;color:var(--verm);font-weight:700}
+/* ---------- workshop ---------- */
+.guiao{margin-top:4mm;background:#FFFDF6;border:.8pt solid var(--ink);border-radius:1.6mm;padding:2.6mm 3.6mm;display:grid;grid-template-columns:34mm 1fr;column-gap:4mm;row-gap:1mm;align-items:baseline}
+.guiao .lab{grid-row:span 3;align-self:center;color:var(--ocre)}
+.guiao .gx{display:grid;grid-template-columns:44mm 1fr;gap:2mm;font-family:"Fraunces";font-size:10pt;border-bottom:.6pt dotted #BFB29A;padding-bottom:.6mm}
+.guiao .w{font-family:"Figtree";font-weight:800;font-size:7.6pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ocre)}
+.guiao i.d{color:#666b79}
+.guiao p{font-size:8.2pt;color:var(--ink2);line-height:1.3}
+.cards4{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.cards4 div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2.4mm 3mm;font-size:8.8pt;line-height:1.33;position:relative}
+.cards4 div b{display:block;font-family:"Fraunces";font-size:11pt;line-height:1.1;margin-bottom:.8mm;color:var(--c)}
+.cards4 div small{font-family:"DM Mono";font-size:6.4pt;letter-spacing:.1em;color:var(--ink2)}
+.crew{display:grid;grid-template-columns:repeat(3,1fr);gap:2mm}
+.crew div{background:var(--t);border-radius:1.4mm;padding:1.8mm 2.4mm;font-size:8.4pt;line-height:1.28}
+.crew div b{display:block;font-family:"Fraunces";font-size:10.6pt;color:var(--c)}
+.rub4{width:100%;border-collapse:separate;border-spacing:0;font-size:8.3pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden;line-height:1.28}
+.rub4 th{background:var(--ink);color:#fff;padding:1.4mm 2mm;font-size:7.8pt;text-align:left}
+.rub4 th small{display:block;font-weight:400;opacity:.8;font-size:6.8pt}
+.rub4 td{border-top:.7pt solid var(--rule);padding:1.5mm 2mm;vertical-align:top}
+.rub4 td+td,.rub4 th+th{border-left:.7pt solid var(--rule)}
+.rub4 td:first-child{font-family:"Fraunces";font-weight:700;font-size:10pt;width:21%}
+.rub4 td:first-child small{display:block;font-family:"Figtree";font-weight:400;font-size:7.6pt;color:var(--ink2)}
+.rub4 .ring{display:inline-block;width:3.4mm;height:3.4mm;vertical-align:-.6mm;margin-right:1mm}
+.cast-t{width:100%;border-collapse:collapse;font-size:8.6pt;background:#fff}
+.cast-t th,.cast-t td{border:.7pt solid var(--rule);padding:1.2mm 2mm;text-align:left}
+.cast-t th{background:var(--t);font-size:7.8pt}
+.cast-t td{height:8.6mm}
+.checks{columns:2;column-gap:6mm;font-size:8.8pt;line-height:1.35}
+.checks div{break-inside:avoid;margin-bottom:1.6mm;display:grid;grid-template-columns:5mm 1fr}
+.st5{width:3.6mm;height:3.6mm;flex:none}
+.wishl{display:flex;gap:2mm;align-items:flex-end}.wishl .ln{flex:1}
+.warm{display:grid;grid-template-columns:repeat(3,1fr);gap:2.4mm}
+.warm div{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:2mm 2.6mm;font-size:8.4pt;line-height:1.3}
+.warm div b{display:block;font-family:"Fraunces";font-size:10.6pt;color:var(--c)}
+
+/* ---- per-page vertical tuning ---- */
+.p87 .act{margin-top:3.4mm}
+.p91 .play{line-height:1.5}.p91 .play .r{margin-bottom:1.5mm}
+.p93 .script .sl span{height:7.2mm}.p93 .ln{height:7.8mm}
+.p95 .rub4 td{padding:2.2mm 2mm}.p95 .cast-t td{height:9.6mm}.p95 .act{margin-top:5mm}
+.p89 .act{margin-top:3mm}
+.p89 ol.qs>li{display:flex;align-items:center;justify-content:space-between;gap:2mm}.p89 ol.qs>li .circ{flex:none}
+.quiz div>span{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:1.4mm}.quiz div>span .fill{flex:1 0 24mm;height:5.4mm}
+.reflect{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:1.4mm}.reflect .fill{flex:1 0 30mm}.reflect .ln{flex-basis:100%}
+</style>
+</head>
+<body>
+<!-- ======================= 81 · OPENER ======================= -->
+<section class="page odd p-open r-ameixa">
+  <div class="art"></div>
+  <div class="veil"></div>
+  <div class="ttl">
+    <div class="u"><span class="big">4</span><span>Unidade · Português · Year 5</span></div>
+    <h1 class="disp">Texto <i>Dramático</i></h1>
+    <div class="sub"><span>Textos para representar</span> peça · cena · fala · didascália</div>
+  </div>
+  <div class="tag"><div class="lab">Bilheteira</div><p>Sessão única, na Sala Grande do Gabinete. Entrada livre — traz a tua voz.</p></div>
+  <div class="brand">Prime School · Português Língua Materna</div>
+</section>
+
+<!-- ======================= 82 · WELCOME + PROGRAMME ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>Texto Dramático</span><span><b>Bem-vindo</b> · Unidade 4</span></header>
+  <div class="letter">
+    <div>
+      <div class="kick">Um bilhete à porta da Sala Grande</div>
+      <h2 class="disp" style="margin-bottom:3mm">Caros atores e atrizes,</h2>
+      <div class="txt">
+        <p>Esta semana, a Sala Grande do Gabinete vai transformar-se num teatro, com palco, cortina vermelha e um cabide cheio de fatos. Vão ler duas peças escritas para <b>serem representadas</b>: numa, há um aviso que ninguém lê até ao fim; na outra, há uma chave que desaparece. Vão descobrir como se escreve um texto que sobe ao palco — e, no fim, vão escrever e representar a vossa própria cena.</p>
+        <p>Tragam a voz afinada e o corpo pronto. O pano vai subir!</p>
+      </div>
+      <div class="sig">Guilhermina Vaz, guardiã do Gabinete</div>
+    </div>
+    <div style="text-align:center"><img src="../../art/guilhermina-face.jpg" alt=""></div>
+  </div>
+
+  <div class="prog">
+    <div class="in">
+      <svg class="curt" viewBox="0 0 600 30" preserveAspectRatio="none"><path d="M0 0H600V8Q585 26 570 8Q555 26 540 8Q525 26 510 8Q495 26 480 8Q465 26 450 8Q435 26 420 8Q405 26 390 8Q375 26 360 8Q345 26 330 8Q315 26 300 8Q285 26 270 8Q255 26 240 8Q225 26 210 8Q195 26 180 8Q165 26 150 8Q135 26 120 8Q105 26 90 8Q75 26 60 8Q45 26 30 8Q15 26 0 8Z" fill="#7B3F6E"/><path d="M0 8Q15 26 30 8Q45 26 60 8Q75 26 90 8Q105 26 120 8Q135 26 150 8Q165 26 180 8Q195 26 210 8Q225 26 240 8Q255 26 270 8Q285 26 300 8Q315 26 330 8Q345 26 360 8Q375 26 390 8Q405 26 420 8Q435 26 450 8Q465 26 480 8Q495 26 510 8Q525 26 540 8Q555 26 570 8Q585 26 600 8" fill="none" stroke="#D6A21E" stroke-width="2"/></svg>
+      <h4>PROGRAMA</h4>
+      <div class="st">Unidade 4 · temporada de outono no Gabinete das Coisas Verdadeiras</div>
+      <div class="pi" style="--pc:var(--ocre)"><span class="a">Antes do pano</span><span class="t">Ler antes de ler<small>o programa, as personagens e um aviso escondido</small></span><span class="p">p. 83</span></div>
+      <div class="pi"><span class="a">1.ª parte</span><span class="t">Duas Cenas: O Aviso<small>ler uma peça · fala, réplica, didascália · monólogo e diálogo · narrativo e dramático</small></span><span class="p">pp. 84–87</span></div>
+      <div class="pi" style="--pc:var(--ocre)"><span class="a">Nos bastidores</span><span class="t">O palco por dentro<small>as partes do palco · cenário, guarda-roupa e adereços</small></span><span class="p">p. 88</span></div>
+      <div class="pi" style="--pc:var(--ultra)"><span class="a">Intervalo</span><span class="t">Laboratório da Língua<small>tipos de frase · pontuação expressiva · interjeições</small></span><span class="p">p. 89</span></div>
+      <div class="pi" style="--pc:var(--verde)"><span class="a">2.ª parte</span><span class="t">A Chave Desaparecida<small>ler a papéis · pistas e suspeitos · de dramático a narrativo · a cena que falta</small></span><span class="p">pp. 90–93</span></div>
+      <div class="pi" style="--pc:var(--ocre)"><span class="a">Ensaio geral</span><span class="t">A Oficina de Teatro<small>escrever uma cena em grupo, distribuir papéis, ensaiar e representar</small></span><span class="p">pp. 94–95</span></div>
+      <div class="pi" style="--pc:var(--tinta)"><span class="a">Aplausos</span><span class="t">O que levo do palco<small>balanço</small></span><span class="p">p. 96</span></div>
+    </div>
+  </div>
+
+  <div class="ticket">
+    <div class="stub" style="background:var(--ameixa)"><div class="n">BILHETE N.º 0081</div><div class="b">No fim, sou capaz de…</div><div class="n">UNIDADE 4</div></div>
+    <ul>
+      <li><b style="color:var(--ameixa)">Ler</b>reconhecer num texto dramático a lista de personagens, as cenas, as falas e as didascálias.</li>
+      <li><b style="color:var(--ameixa)">Educação literária</b>distinguir monólogo de diálogo e texto narrativo de texto dramático.</li>
+      <li><b style="color:var(--ameixa)">Escrever</b>passar um texto narrativo a dramático (e ao contrário) e escrever uma cena.</li>
+      <li><b style="color:var(--ameixa)">Falar e representar</b>ler a papéis e representar com volume, ritmo, entoação e expressão corporal.</li>
+      <li style="grid-column:1/3"><b style="color:var(--ameixa)">Gramática</b>usar os tipos de frase, a pontuação expressiva e as interjeições para mostrar emoções.</li>
+    </ul>
+  </div>
+  <div class="keys">
+    <b style="font-family:'DM Mono';font-weight:500;font-size:7pt;letter-spacing:.12em">AS CHAVES DO GABINETE</b>
+    <span>{{KEY:bronze}} aquecer</span><span>{{KEY:prata}} aplicar</span><span>{{KEY:ouro}} desafiar-me</span>
+    <span style="margin-left:auto">{{QRICON}} ouvir ou explorar online</span>
+  </div>
+  <footer class="folio">82</footer>
+</section>
+
+<!-- ======================= 83 · ANTES DO PANO ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>Texto Dramático</span><span><b>Antes do pano</b> · Ler antes de ler</span></header>
+  <div class="tab"><span>4.1 · O Aviso</span></div>
+  <div class="kick">Antes do pano · Educação literária</div>
+  <h1 class="disp">Antes de subir o pano</h1>
+  <p class="lead" style="margin-top:3mm">Um <b>texto dramático</b> é escrito para ser <b>representado</b> num palco. Não há narrador: são as <b>personagens</b> que falam, e o autor junta indicações sobre o que elas fazem. Antes de leres a peça, espreita o programa do espetáculo.</p>
+
+  <div class="act">
+    <div class="act-h"><span class="num">1</span>{{KEY:bronze}}<h3>Quem entra em cena?</h3><span class="skill">Antecipar</span></div>
+    <p>Esta é a <b>lista de personagens</b> da peça <i>Duas Cenas: O Aviso</i>.</p>
+    <div class="cast">
+      <div><img src="../art/cast-guilhermina.jpg" alt=""><b>D. Guilhermina</b><span>guardiã do Gabinete</span></div>
+      <div><img src="../art/cast-anselmo.jpg" alt=""><b>Sr. Anselmo</b><span>o faz-tudo do Gabinete</span></div>
+      <div><img src="../art/cast-beatriz.jpg" alt=""><b>Beatriz</b><span>10 anos, lê tudo até ao fim</span></div>
+      <div><img src="../art/cast-lucas.jpg" alt=""><b>Lucas</b><span>10 anos, tem sempre pressa</span></div>
+      <div><img src="../art/cast-mou-aviso.jpg" alt=""><b>Mourinha</b><span>uma osga (não fala)</span></div>
+    </div>
+    <ol class="qs" style="margin-top:2.6mm">
+      <li>Quantas personagens tem a peça? Qual delas não diz uma única palavra? <span class="ln s"></span></li>
+      <li>Já conheces algumas destas personagens da Unidade 1. Quais? Onde achas que a peça se vai passar? <span class="ln s"></span></li>
+    </ol>
+  </div>
+
+  <div class="act">
+    <div class="act-h"><span class="num">2</span>{{KEY:prata}}<h3>O aviso escondido</h3><span class="skill">Prever</span></div>
+    <div class="grid2" style="grid-template-columns:64mm 1fr;align-items:start">
+      <div class="ntc4" style="margin:2mm 2mm 0 1mm;height:62mm"><span class="pin" style="left:8mm"></span><span class="pin" style="right:8mm"></span>
+        <div class="h">AVISO AO GRUPO DE TEATRO</div>
+        <div class="x">SÁBADO NÃO<br>HÁ ENSAIO</div>
+        <div class="hide"><div class="y"><i class="blk" style="width:9mm;background:var(--verm)"></i><i class="blk" style="width:30mm;background:var(--verm)"></i></div><p><i class="blk s" style="width:6mm"></i><i class="blk s" style="width:5mm"></i><i class="blk s" style="width:14mm"></i><i class="blk s" style="width:9mm"></i><i class="blk s" style="width:18mm"></i><br><i class="blk s" style="width:17mm"></i><i class="blk s" style="width:6mm"></i><i class="blk s" style="width:13mm"></i></p></div>
+        <img class="mou" src="../../art/mou-3.png" alt="">
+      </div>
+      <div>
+        <p>O aviso está pendurado à porta da Sala Grande. Mas uma osga instalou-se mesmo em cima da parte de baixo…</p>
+        <ol class="qs" style="margin-top:1.6mm">
+          <li>O que se consegue ler? Que notícia parece dar o aviso? <span class="ln s"></span></li>
+          <li>O que poderá estar escrito debaixo da osga? Escreve duas hipóteses. <span class="ln s"></span><span class="ln s"></span></li>
+          <li>Que problema pode causar um aviso lido só até meio? <span class="ln s"></span></li>
+        </ol>
+        <div class="confirm"><b>Depois de leres a peça, confirma:</b><span><span class="chk"></span>acertei</span><span><span class="chk"></span>em parte</span><span><span class="chk"></span>enganei-me</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gloss" style="margin-top:4mm;border-top-color:var(--ameixa)">
+    <div style="grid-column:1/4" class="lab">Palavras dos bastidores</div>
+    <div><b>ensaio</b> — repetição da peça, antes de a apresentar ao público.</div>
+    <div><b>estreia</b> — a primeira vez que a peça é apresentada ao público.</div>
+    <div><b>pano</b> — a cortina do palco. «Sobe o pano»: começa o espetáculo.</div>
+    <div><b>fato</b> — roupa que o ator veste para fazer de personagem.</div>
+    <div><b>plateia</b> — o lugar onde se senta o público; o próprio público.</div>
+    <div><b>faz-tudo</b> — pessoa que arranja, limpa e trata de tudo um pouco.</div>
+  </div>
+  <footer class="folio">83</footer>
+</section>
+
+<!-- ======================= 84 · O AVISO — CENA 1 ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>Texto Dramático</span><span><b>1.ª parte</b> · Duas Cenas: O Aviso</span></header>
+  <div class="tab"><span>4.1 · O Aviso</span></div>
+  <div class="grid2" style="grid-template-columns:1fr 68mm;gap:6mm;align-items:start">
+    <div>
+      <div class="kick">4.1 · Texto dramático</div>
+      <h1 class="disp">Duas Cenas: O Aviso</h1>
+      <div class="byline4">Peça em duas cenas, escrita para o Grupo de Teatro do Year 5</div>
+    </div>
+    <div class="dram"><h5>Personagens</h5>
+      <p><b>D. Guilhermina</b>, guardiã do Gabinete</p>
+      <p><b>Sr. Anselmo</b>, o faz-tudo do Gabinete</p>
+      <p><b>Beatriz</b> e <b>Lucas</b>, 10 anos, atores</p>
+      <p><b>Mourinha</b>, uma osga (não fala)</p></div>
+  </div>
+  <img class="scene-img" src="../art/aviso-c1.jpg" style="height:48mm;margin-top:3mm;object-position:50% 21%" alt="Cena 1: o átrio do Gabinete">
+  <div class="play a">
+    <div class="sc"><b>CENA 1</b><span>Sexta-feira, ao fim da tarde</span></div>
+    <p class="dd first">(O átrio do Gabinete das Coisas Verdadeiras. À direita, a porta da Sala Grande. Ao lado, um placard de cortiça com um aviso, iluminado por um candeeiro. Em cima da parte de baixo do aviso, dorme a <span class="caps">MOURINHA</span>. Entra o <span class="caps">LUCAS</span>, a correr, de mochila às costas.)</p>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(lê em voz alta, sem parar)</i> «Sábado não há ensaio.» <i class="d">(Pausa. Deixa cair a mochila.)</i> Não há ensaio?! Mas a estreia é já daqui a uma semana!</span></div>
+    <div class="r"><span class="w">Beatriz</span><span><i class="d">(entrando, com calma)</i> Lucas, porque estás a gritar? Ouve-se lá da rua!</span></div>
+    <div class="r"><span class="w">Lucas</span><span>Lê tu mesma! <i class="d">(Aponta para o placard.)</i> Acabou-se! Cancelaram tudo!</span></div>
+    <div class="r"><span class="w">Beatriz</span><span><i class="d">(aproximando-se do aviso)</i> Espera… O aviso continua. Há mais letras aqui em baixo, mas estão escondidas debaixo de… <i class="d">(Dá um salto para trás.)</i> Ui! De uma osga!</span></div>
+    <div class="r"><span class="w">Lucas</span><span>Uma osga?! Eu não chego perto disso nem por nada!</span></div>
+    <div class="r"><span class="w">Beatriz</span><span>As osgas não fazem mal a ninguém. Aprendemos isso na visita ao Gabinete, lembras-te? Basta esperar que ela saia.</span></div>
+    <div class="r"><span class="w">Lucas</span><span>Esperar? Não há tempo para esperar! Tenho de avisar o grupo todo.</span></div>
+    <p class="dd">(Entra o <span class="caps">SR. ANSELMO</span>, com um escadote ao ombro e uma lâmpada na mão.)</p>
+    <div class="r"><span class="w">Sr. Anselmo</span><span>Boa tarde, meninos! Que caras são essas? Parece que viram um fantasma!</span></div>
+    <div class="r"><span class="w">Lucas</span><span>Pior, Sr. Anselmo! Sábado não há ensaio. Está ali escrito!</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span><i class="d">(coçando a cabeça)</i> Não há ensaio… Ainda bem que me avisas. Amanhã cedo, arrumo as cadeiras todas no armazém.</span></div>
+    <div class="r"><span class="w">Beatriz</span><span>Espere, Sr. Anselmo! Ainda não lemos o aviso até ao fim!</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span><i class="d">(já a sair, com o escadote)</i> Não há ensaio, não há cadeiras. É simples! <i class="d">(Sai.)</i></span></div>
+    <div class="r"><span class="w">Lucas</span><span>Vês? O Sr. Anselmo concorda comigo. Vou para casa. <i class="d">(Pega na mochila e sai, a arrastar os pés.)</i></span></div>
+    <div class="r"><span class="w">Beatriz</span><span><i class="d">(sozinha, para a osga)</i> E tu, osga? Sabes o que está escrito aí debaixo, não sabes? <i class="d">(A <span class="caps">MOURINHA</span> abre um olho e volta a fechá-lo.)</i> Pois… Amanhã venho cá mais cedo.</span></div>
+    <p class="dd">(O candeeiro apaga-se. Escuro.)</p>
+  </div>
+  <footer class="folio">84</footer>
+</section>
+
+<!-- ======================= 85 · O AVISO — CENA 2 ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>Texto Dramático</span><span><b>1.ª parte</b> · Duas Cenas: O Aviso</span></header>
+  <div class="tab"><span>4.1 · O Aviso</span></div>
+  <img class="scene-img" src="../art/aviso-c2.jpg" style="height:48mm;object-position:50% 12%" alt="Cena 2: a Sala Grande sem cadeiras">
+  <div class="play a">
+    <div class="sc"><b>CENA 2</b><span>Sábado, nove e meia da manhã</span></div>
+    <p class="dd first">(A Sala Grande, vazia: não há uma única cadeira. Ao fundo, um pequeno palco com uma cortina vermelha. A <span class="caps">D. GUILHERMINA</span> está sozinha, junto a um cabide cheio de fatos.)</p>
+    <div class="r"><span class="w">D. Guilhermina</span><span><i class="d">(andando de um lado para o outro)</i> Nove e meia e nem um ator! Os pais chegam às dez… e as cadeiras? Onde estão as cadeiras? <i class="d">(Para o público, baixinho.)</i> Tive de mudar a estreia para hoje, porque o palco vai ser pintado na próxima semana. E escrevi o aviso com tanto cuidado! «Sábado não há ensaio: há estreia!» Com ponto de exclamação e tudo. Será que ninguém o leu até ao fim?</span></div>
+    <p class="dd">(Entra a <span class="caps">BEATRIZ</span>, a correr, a puxar o <span class="caps">LUCAS</span> por um braço. Traz o aviso na mão.)</p>
+    <div class="r"><span class="w">Beatriz</span><span>Chegámos, D. Guilhermina! Voltei ao átrio às oito. A osga já se tinha ido embora e o aviso estava inteirinho. <i class="d">(Lê em voz alta.)</i> «Sábado não há ensaio: há estreia! Às 10 horas, com público. Tragam os fatos.»</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(envergonhado, a olhar para o chão)</i> Eu só li a primeira linha…</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span>Ai, Lucas, Lucas! Um aviso lê-se até ao fim. Até à assinatura!</span></div>
+    <div class="r"><span class="w">Lucas</span><span>E o pior é que eu disse ao Sr. Anselmo que não havia ensaio…</span></div>
+    <p class="dd">(Entra o <span class="caps">SR. ANSELMO</span>, muito satisfeito, a sacudir o pó das mãos.)</p>
+    <div class="r"><span class="w">Sr. Anselmo</span><span>Pronto, D. Guilhermina! As cadeiras estão todas no armazém, bem empilhadinhas. Não há ensaio, pois não?</span></div>
+    <div class="r"><span class="w">Todos</span><span><i class="d">(em coro)</i> Não há ensaio… HÁ ESTREIA!</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span>Hã?! Estreia? Com público?! Oh, não!</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span>Depressa, que faltam vinte minutos! Beatriz, os fatos! Lucas e Sr. Anselmo, as cadeiras!</span></div>
+    <p class="dd">(Todos correm de um lado para o outro. Ouve-se a campainha da porta. A <span class="caps">D. GUILHERMINA</span> espreita pela cortina.)</p>
+    <div class="r"><span class="w">D. Guilhermina</span><span>Chegaram os primeiros pais!</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(pousando a última cadeira, sem fôlego)</i> Pronto… Prometo que, da próxima vez, leio tudo até ao fim!</span></div>
+    <p class="dd">(O <span class="caps">SR. ANSELMO</span> pendura na parede um aviso novo: «LER ATÉ AO FIM!». A <span class="caps">MOURINHA</span> sobe pela parede e deita-se, satisfeita, mesmo em cima da palavra «FIM». Todos se riem. Pano.)</p>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:3mm;align-items:center">
+    <div class="qr">{{QR:aviso}}<div class="ql"><b>Ouvir</b>Ouve a peça, com uma voz para cada personagem. Qual é a fala mais divertida?</div></div>
+    <div class="tip"><img src="../../art/mou-4.png" alt="" style="width:15mm"><div class="bub">Confesso: a osga do aviso era eu. O papel estava <b>quentinho</b>, debaixo do candeeiro…</div></div>
+  </div>
+  <footer class="folio">85</footer>
+</section>
+
+<!-- ======================= 86 · RAIO-X DO TEXTO DRAMÁTICO ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>Texto Dramático</span><span><b>1.ª parte</b> · Raio-X do texto dramático</span></header>
+  <div class="tab"><span>4.1 · O Aviso</span></div>
+  <div class="kick">4.1 · Educação literária</div>
+  <h1 class="disp">Raio-X de uma peça</h1>
+  <div class="xr">
+    <span class="tagl" style="left:6mm;top:-2.6mm"><i>1</i>indicação de cena</span>
+    <span class="tagl" style="left:48mm;top:-2.6mm"><i>2</i>didascália: lugar e tempo</span>
+    <div class="play a">
+      <div class="sc" style="margin-top:0;counter-reset:rep 2"><b>CENA 2</b><span>Sábado, nove e meia da manhã</span></div>
+      <p class="dd first">(A Sala Grande, vazia: não há uma única cadeira. A <span class="caps">D. GUILHERMINA</span> está sozinha, junto a um cabide cheio de fatos.)</p>
+      <div class="r"><span class="w">Lucas</span><span><i class="d">(envergonhado, a olhar para o chão)</i> Eu só li a primeira linha…</span></div>
+      <div class="r"><span class="w">D. Guilhermina</span><span>Ai, Lucas, Lucas! Um aviso lê-se até ao fim. Até à assinatura!</span></div>
+    </div>
+    <span class="tagl" style="left:8mm;bottom:-2.6mm"><i>3</i>nome da personagem</span>
+    <span class="tagl" style="left:52mm;bottom:-2.6mm"><i>4</i>didascália: tom e gesto</span>
+    <span class="tagl" style="left:106mm;bottom:-2.6mm"><i>5</i>fala</span>
+    <span class="tagl" style="right:6mm;bottom:-2.6mm"><i>6</i>réplica: a 4 responde à 3</span>
+  </div>
+  <div class="terms" style="margin-top:5.6mm">
+    <div><b>lista de personagens</b>No início: apresenta quem entra na peça.</div>
+    <div><b>ato e cena</b>Partes da peça. Há uma nova cena quando mudam o lugar, o tempo ou as personagens.</div>
+    <div><b>fala</b>O que uma personagem diz, a seguir ao seu nome.</div>
+    <div><b>réplica</b>Cada fala que responde a outra. Os números cinzentos contam as réplicas.</div>
+    <div style="grid-column:span 2"><b>didascálias</b>Indicações do autor, em <i>itálico</i> e entre parênteses: lugar, tempo, gestos, tom de voz, luz e sons. <b>Não se dizem</b> — representam-se!</div>
+    <div style="grid-column:span 2"><b>texto principal e secundário</b>As falas são o <b>texto principal</b>. Tudo o resto — personagens, indicações de cena, didascálias — é o <b>texto secundário</b>.</div>
+  </div>
+  <div class="mdb" style="margin-top:3.6mm">
+    <div style="background:var(--ameixa)"><svg viewBox="0 0 44 24"><circle cx="22" cy="7" r="5" fill="#fff"/><path d="M13 24c0-6 4-9 9-9s9 3 9 9" fill="#fff"/><path d="M33 4q5 3 0 7" stroke="#fff" stroke-width="1.6" fill="none"/></svg><div class="w">Monólogo</div><p>Uma personagem fala <b>sozinha</b>, consigo mesma ou para o público. Ficamos a saber o que ela pensa e sente.</p></div>
+    <div style="background:var(--ink)"><svg viewBox="0 0 44 24"><circle cx="12" cy="7" r="5" fill="#fff"/><path d="M3 24c0-6 4-9 9-9s9 3 9 9" fill="#fff"/><circle cx="32" cy="7" r="5" fill="#fff"/><path d="M23 24c0-6 4-9 9-9s9 3 9 9" fill="#fff"/></svg><div class="w">Diálogo</div><p><b>Duas ou mais</b> personagens falam umas com as outras, em réplicas que se respondem.</p></div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">3</span>{{KEY:bronze}}<h3>Caça às didascálias</h3><span class="skill">Ler</span></div>
+    <p>Procura na peça uma didascália que indique cada coisa e copia-a. Escreve o número da cena.</p>
+    <table class="cr tight" style="margin-top:1.6mm"><tr><th style="width:36%">A didascália indica…</th><th>Copia-a</th><th style="width:13%">Cena</th></tr>
+      <tr><td>o lugar e o tempo</td><td></td><td></td></tr>
+      <tr><td>um movimento ou um gesto</td><td></td><td></td></tr>
+      <tr><td>uma maneira de falar</td><td></td><td></td></tr>
+      <tr><td>uma luz ou um som</td><td></td><td></td></tr></table>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">4</span>{{KEY:prata}}<h3>Monólogo ou diálogo?</h3><span class="skill">Ler</span></div>
+    <p style="line-height:1.8">a) Cena 1, réplicas 8 a 11 <span class="circ"><span>monólogo</span><span>diálogo</span></span> &nbsp; b) Cena 2, réplica 1 <span class="circ"><span>monólogo</span><span>diálogo</span></span><br>c) {{KEY:ouro}} Na réplica 1 da Cena 2, a D. Guilhermina fala «para o público, baixinho». O que ficamos a saber que as outras personagens <b>não</b> sabem?</p><span class="ln"></span>
+  </div>
+  <footer class="folio">86</footer>
+</section>
+
+<!-- ======================= 87 · COMPREENDER + NARRATIVO ↔ DRAMÁTICO ======================= -->
+<section class="page odd r-ameixa p87">
+  <header class="run"><span>Texto Dramático</span><span><b>1.ª parte</b> · Compreender a peça</span></header>
+  <div class="tab"><span>4.1 · O Aviso</span></div>
+  <div class="kick">4.1 · Leitura e escrita</div>
+  <h1 class="disp">Por dentro de <i style="font-style:italic;font-weight:500">O Aviso</i></h1>
+  <div class="act">
+    <div class="act-h"><span class="num">5</span><h3>Três níveis de leitura</h3><span class="skill">Ler</span></div>
+    <div class="lvl">
+      <div class="col" style="--k:var(--bronze)"><div class="lab">{{KEY:bronze}} Encontrar</div><ol>
+        <li>Quando se passa cada cena?<span class="ln s"></span><span class="ln s"></span></li>
+        <li>O que tapava parte do aviso?<span class="ln s"></span></li>
+        <li>Para onde foram as cadeiras?<span class="ln s"></span></li></ol></div>
+      <div class="col" style="--k:var(--prata)"><div class="lab">{{KEY:prata}} Relacionar</div><ol start="4">
+        <li>Porque é que o Lucas pensou que o espetáculo tinha sido cancelado?<span class="ln s"></span><span class="ln s"></span></li>
+        <li>Porque mudou a D. Guilhermina a estreia para sábado?<span class="ln s"></span></li></ol></div>
+      <div class="col" style="--k:var(--ouro)"><div class="lab">{{KEY:ouro}} Pensar</div><ol start="6">
+        <li>O Sr. Anselmo também tem culpa da confusão? Justifica com uma fala.<span class="ln s"></span><span class="ln s"></span></li>
+        <li>Porque tem graça a osga deitar-se em cima da palavra «FIM»?<span class="ln s"></span></li></ol></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">6</span><h3>Contar ou representar?</h3><span class="skill">Educação literária</span></div>
+    <p>A mesma história pode ser <b>contada</b> (texto narrativo) ou <b>representada</b> (texto dramático).</p>
+    <div class="twin" style="margin-top:2mm">
+      <div><span class="lab">Texto narrativo</span>O Lucas entrou a correr no átrio e leu o aviso em voz alta, sem parar. Depois, deixou cair a mochila.<br>— Não há ensaio?! — gritou, aflito.<br>A Beatriz entrou com calma e perguntou-lhe porque estava a gritar.</div>
+      <div><span class="lab">Texto dramático</span><i class="d">(Entra o <span class="w" style="font-style:normal">Lucas</span>, a correr.)</i><br><span class="w">Lucas</span> <i class="d">(lê em voz alta, sem parar)</i> «Sábado não há ensaio.» <i class="d">(Deixa cair a mochila.)</i> Não há ensaio?!<br><span class="w">Beatriz</span> <i class="d">(entrando, com calma)</i> Lucas, porque estás a gritar?</div>
+    </div>
+    <table class="nd" style="margin-top:2mm"><tr><th></th><th>Texto narrativo</th><th>Texto dramático</th></tr>
+      <tr><td>Quem conta?</td><td>um <b>narrador</b></td><td>ninguém: as personagens falam diretamente</td></tr>
+      <tr><td>Como aparecem as falas?</td><td>com travessão e verbos como <i>disse</i>, <i>gritou</i>, <i>perguntou</i></td><td>depois do <b>nome da personagem</b></td></tr>
+      <tr><td>O que fazem e como falam?</td><td>está na <b>narração</b></td><td>está nas <b>didascálias</b></td></tr>
+      <tr><td>Como se divide?</td><td>em parágrafos e capítulos</td><td>em <b>atos</b> e <b>cenas</b></td></tr></table>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">7</span>{{KEY:ouro}}<h3>Passa a texto dramático</h3><span class="skill">Escrever</span></div>
+    <div class="src-par" style="font-size:9.6pt;line-height:1.4">Nessa noite, o Sr. Anselmo chegou a casa cansado e disse à mulher, a D. Amélia, que no sábado não havia ensaio.<br>— Tens a certeza? — perguntou ela, desconfiada. — Leste o aviso até ao fim?<br>O Sr. Anselmo coçou a cabeça e confessou, baixinho, que não.</div>
+    <p class="small" style="margin-top:1.4mm">Começa por uma didascália com o lugar e o tempo. À esquerda, o nome da personagem; à direita, a fala.</p>
+    <div class="script" style="margin-top:1mm"><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div></div>
+  </div>
+  <footer class="folio">87</footer>
+</section>
+
+<!-- ======================= 88 · O PALCO ======================= -->
+<section class="page even r-ocre">
+  <header class="run"><span>Texto Dramático</span><span><b>Nos bastidores</b> · O palco por dentro</span></header>
+  <div class="tab"><span>Nos bastidores</span></div>
+  <div class="kick">Nos bastidores · O espaço do teatro</div>
+  <h1 class="disp">O palco por dentro</h1>
+  <div class="stagewrap">
+  <div class="stage">
+    <img src="../art/stage.jpg" alt="Um teatro visto da plateia">
+    <span class="pinn" style="left:50%;top:6%">1</span><span class="pinn" style="left:34%;top:15%">2</span><span class="pinn" style="left:22%;top:37%">3</span><span class="pinn" style="left:42%;top:22%">4</span><span class="pinn" style="left:62%;top:35%">5</span><span class="pinn" style="left:74%;top:45%">6</span><span class="pinn" style="left:43%;top:62%">7</span><span class="pinn" style="left:30%;top:71%">8</span><span class="pinn" style="left:50%;top:95.5%">9</span>
+  </div>
+  <div class="legend">
+    <div><i>1</i><span><b>boca de cena</b> — a grande moldura que abre o palco para a plateia.</span></div>
+    <div><i>2</i><span><b>bambolina</b> — a faixa de pano no alto, que esconde o que está por cima.</span></div>
+    <div><i>3</i><span><b>pano de boca</b> — a cortina que abre e fecha o espetáculo.</span></div>
+    <div><i>4</i><span><b>projetores</b> — as luzes que iluminam os atores.</span></div>
+    <div><i>5</i><span><b>pano de fundo</b> — o cenário pintado ao fundo do palco.</span></div>
+    <div><i>6</i><span><b>bastidores</b> — os lados escondidos, onde os atores esperam para entrar.</span></div>
+    <div><i>7</i><span><b>palco</b> — o chão onde os atores representam.</span></div>
+    <div><i>8</i><span><b>proscénio</b> — a parte da frente do palco, mais perto do público.</span></div>
+    <div><i>9</i><span><b>plateia</b> — o lugar do público.</span></div>
+  </div>
+  </div>
+  <div class="gwa" style="margin-top:4mm">
+    <div style="background:var(--ocre)"><b>Cenário</b>Tudo o que mostra onde se passa a ação: o pano de fundo, os móveis, as portas.</div>
+    <div style="background:var(--ameixa)"><b>Guarda-roupa</b>Os fatos, os chapéus e os sapatos que os atores vestem.</div>
+    <div style="background:var(--verde)"><b>Adereços</b>Os objetos que os atores usam ou levam na mão.</div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">8</span>{{KEY:bronze}}<h3>Cenário, guarda-roupa ou adereço?</h3><span class="skill">Classificar</span></div>
+    <p>Escreve <b>C</b>, <b>G</b> ou <b>A</b> por baixo de cada objeto das duas peças desta unidade.</p>
+    <div class="props" style="margin-top:1.6mm">
+      <div><img src="../art/prop-placard.jpg" alt=""><span>placard</span><em></em></div>
+      <div><img src="../art/prop-escadote.jpg" alt=""><span>escadote</span><em></em></div>
+      <div><img src="../art/prop-cabide.jpg" alt=""><span>fatos da peça</span><em></em></div>
+      <div><img src="../art/prop-lupa.jpg" alt=""><span>lupa</span><em></em></div>
+      <div><img src="../art/prop-tabuleiro.jpg" alt=""><span>tabuleiro</span><em></em></div>
+      <div><img src="../art/prop-espanador.jpg" alt=""><span>espanador</span><em></em></div>
+    </div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 64mm;align-items:start">
+    <div class="act">
+      <div class="act-h"><span class="num">9</span>{{KEY:prata}}<h3>A folha do contrarregra</h3><span class="skill">Planear</span></div>
+      <p style="font-size:9.2pt">O <b>contrarregra</b> garante que tudo está no sítio certo. Faz a lista para pôr <i>O Aviso</i> em cena.</p>
+      <table class="cr" style="margin-top:1.4mm"><tr><th style="width:24%"></th><th>Cena 1</th><th>Cena 2</th></tr>
+        <tr><td><b>cenário</b></td><td class="g">placard, candeeiro…</td><td></td></tr>
+        <tr><td><b>adereços</b></td><td></td><td></td></tr></table>
+    </div>
+    <div class="fact4" style="margin-top:4.2mm"><h5>Um teatro verdadeiro</h5>O Teatro Nacional D. Maria II, no Rossio, em Lisboa, abriu a 13 de abril de 1846. No alto da fachada está a estátua de <b>Gil Vicente</b>, considerado o «pai» do teatro português. Em 1964, um incêndio destruiu o interior; o teatro reabriu em 1978.
+      <div class="qr" style="margin-top:2mm">{{QR:tndm}}<div class="ql" style="font-size:7.8pt"><b>Explorar</b>A história do teatro, no site do D. Maria II.</div></div>
+      <p class="small" style="font-size:6.8pt;margin-top:1mm;font-style:italic">Fonte: Teatro Nacional D. Maria II (tndm.pt).</p></div>
+  </div>
+  <footer class="folio">88</footer>
+</section>
+
+
+<!-- ======================= 89 · LAB: FRASES COM EMOÇÃO ======================= -->
+<section class="page odd r-ultra lab-page p89">
+  <header class="run"><span>Texto Dramático</span><span><b>Laboratório da Língua</b> · Tipos de frase e interjeições</span></header>
+  <div class="tab"><span>Intervalo · Gramática</span></div>
+  <div class="lab-h"><span class="badge">Laboratório da Língua · Intervalo</span></div>
+  <h1 class="disp" style="margin-top:2mm">Frases com emoção</h1>
+  <div class="grid2" style="grid-template-columns:1fr 1.3fr;margin-top:3mm;align-items:stretch">
+    <p class="lead" style="font-size:10.2pt">Numa peça, não há narrador para dizer «perguntou» ou «gritou». Muitas vezes, é a <b>pontuação</b> que mostra ao ator <b>como</b> deve dizer a fala.</p>
+    <div class="rule" style="font-size:9.6pt;padding:2.8mm 4mm"><span class="lab">Regra</span>Conforme a <b>intenção</b> de quem fala, as frases podem ser <b>declarativas</b>, <b>interrogativas</b>, <b>exclamativas</b> ou <b>imperativas</b>. Todas podem ser <b>afirmativas</b> ou <b>negativas</b>.</div>
+  </div>
+  <div class="types" style="margin-top:3.4mm">
+    <div style="background:#4F6BB8"><span class="mk">.</span><b>Declarativa</b>informa ou declara alguma coisa.<i>«Sábado não há ensaio.»</i></div>
+    <div style="background:var(--ultra)"><span class="mk">?</span><b>Interrogativa</b>faz uma pergunta; a voz sobe no fim.<i>«Onde estão as cadeiras?»</i></div>
+    <div style="background:#233C87"><span class="mk">!</span><b>Exclamativa</b>mostra uma emoção forte: surpresa, alegria, medo…<i>«Que frio está hoje!»</i></div>
+    <div style="background:var(--ink)"><span class="mk">!.</span><b>Imperativa</b>dá uma ordem, pede ou aconselha.<i>«Tragam os fatos.»</i></div>
+  </div>
+  <div class="lab" style="margin:3.4mm 0 1.4mm">Pontuação expressiva</div>
+  <div class="pmk">
+    <div><b>!</b>emoção forte</div><div><b>?</b>pergunta</div><div><b>?!</b>pergunta com espanto</div><div><b>…</b>hesitação, suspense, frase por acabar</div><div><b>« »</b>o que está escrito ou foi dito por alguém</div>
+  </div>
+  <div class="tint" style="margin-top:3mm;font-size:9pt"><b>Interjeições</b> são palavras que exprimem, de repente, uma emoção ou um pedido. Quase sempre levam ponto de exclamação.
+    <div class="chips" style="margin-top:1.6mm"><span><b>Ai!</b> dor, aflição</span><span><b>Ui!</b> susto</span><span><b>Oh!</b> pena, surpresa</span><span><b>Aha!</b> descoberta</span><span><b>Hã?!</b> espanto</span><span><b>Ena!</b> admiração</span><span><b>Brrr!</b> frio</span><span><b>Chiu!</b> pedir silêncio</span><span><b>Ufa!</b> alívio</span><span><b>Viva!</b> alegria</span></div></div>
+  <div class="grid2" style="grid-template-columns:1.1fr 1fr">
+    <div class="act">
+      <div class="act-h"><span class="num">10</span>{{KEY:bronze}}<h3>Que tipo de frase?</h3><span class="skill">Gramática</span></div>
+      <p style="font-size:9pt">Rodeia: <b>D</b> declarativa · <b>I</b> interrogativa · <b>E</b> exclamativa · <b>Im</b> imperativa.</p>
+      <ol class="qs" style="margin-top:1.4mm;font-size:9.2pt">
+        <li>Acabou-se! <span class="circ"><span>D</span><span>I</span><span>E</span><span>Im</span></span></li>
+        <li>Porque estás a gritar? <span class="circ"><span>D</span><span>I</span><span>E</span><span>Im</span></span></li>
+        <li>Tragam os fatos. <span class="circ"><span>D</span><span>I</span><span>E</span><span>Im</span></span></li>
+        <li>As osgas não fazem mal a ninguém. <span class="circ"><span>D</span><span>I</span><span>E</span><span>Im</span></span></li>
+        <li>Que vergonha, com os meninos à porta! <span class="circ"><span>D</span><span>I</span><span>E</span><span>Im</span></span></li>
+      </ol>
+      <p class="small">{{KEY:ouro}} Qual destas frases é <b>negativa</b>? <span class="fill"></span></p>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">11</span>{{KEY:prata}}<h3>Ouve e decide</h3><span class="skill">Ouvir</span></div>
+      <div class="qr">{{QR:frases}}<div class="ql">Ouve oito frases. Repara na voz: sobe, desce, explode? Escreve D, I, E ou Im.</div></div>
+      <div class="listen"><div>1<span></span></div><div>2<span></span></div><div>3<span></span></div><div>4<span></span></div><div>5<span></span></div><div>6<span></span></div><div>7<span></span></div><div>8<span></span></div></div>
+    </div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1.1fr 1fr">
+    <div class="act">
+      <div class="act-h"><span class="num">12</span>{{KEY:prata}}<h3>A interjeição certa</h3><span class="skill">Gramática</span></div>
+      <p style="font-size:9.2pt;line-height:1.75"><span class="fill" style="min-width:14mm"></span> Que susto, uma osga!<br><span class="fill" style="min-width:14mm"></span> As cadeiras estão todas no sítio. Que alívio!<br><span class="fill" style="min-width:14mm"></span> Não façam barulho, o público já chegou.<br><span class="fill" style="min-width:14mm"></span> Já sei onde está a chave!</p>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">13</span>{{KEY:ouro}}<h3>Uma vírgula muda tudo</h3><span class="skill">Gramática</span></div>
+      <p style="font-size:9.2pt">«Não, pode entrar.» e «Não pode entrar.» — o que quer dizer cada aviso? <span class="ln s"></span></p>
+      <p style="font-size:9.2pt;margin-top:1mm">Pontua de duas maneiras, para mudar o sentido: <i>não há ensaio há estreia</i></p>
+      <span class="ln s"></span><span class="ln s"></span>
+    </div>
+  </div>
+  <footer class="folio">89</footer>
+</section>
+
+<!-- ======================= 90 · A CHAVE DESAPARECIDA — CENA 1 ======================= -->
+<section class="page even r-verde">
+  <header class="run"><span>Texto Dramático</span><span><b>2.ª parte</b> · A Chave Desaparecida</span></header>
+  <div class="tab"><span>4.2 · A Chave</span></div>
+  <div class="kick">4.2 · Texto dramático</div>
+  <h1 class="disp">A Chave Desaparecida</h1>
+  <div class="byline4">Comédia de mistério num ato e três cenas</div>
+  <div class="grid2" style="grid-template-columns:1fr 60mm;gap:5mm;align-items:stretch;margin-top:3mm">
+    <img class="scene-img" src="../art/chave.jpg" style="height:auto;align-self:start" alt="O átrio do Gabinete, com todos à procura da chave">
+    <div class="dram" style="display:flex;flex-direction:column"><h5>Personagens</h5>
+      <p><b>D. Guilhermina</b>, guardiã do Gabinete, um bocadinho distraída</p>
+      <p><b>Sr. Anselmo</b>, o faz-tudo do Gabinete</p>
+      <p><b>D. Rosa</b>, dona da pastelaria ao lado</p>
+      <p><b>Beatriz</b>, 10 anos, detetive de caderno na mão</p>
+      <p><b>Lucas</b>, 10 anos, detetive de lupa na mão</p>
+      <p><b>Mourinha</b>, a osga do Gabinete (não fala)</p>
+      <p style="margin-top:auto;padding-top:1.4mm;border-top:.6pt solid var(--rule);font-family:Fraunces;font-style:italic;color:var(--ink2)">A ação passa-se no átrio do Gabinete das Coisas Verdadeiras, numa segunda-feira de manhã.</p></div>
+  </div>
+  <div class="play b">
+    <div class="sc"><b>CENA 1</b><span>O alarme</span></div>
+    <p class="dd first">(Nove e quarenta e cinco. Ao centro, a Vitrine das Coisas Raras, fechada com um cadeado; lá dentro, um relógio de bolso antigo. À esquerda, um bengaleiro; à direita, uma mesinha com uma chávena de café. Faz frio. A <span class="caps">D. GUILHERMINA</span> procura qualquer coisa em todos os bolsos.)</p>
+    <div class="r"><span class="w">D. Guilhermina</span><span>Aqui não está… Aqui também não… Ai, meu Deus! <i class="d">(Baixa-se para espreitar debaixo da mesa. Ouve-se um tlim-tlim metálico.)</i></span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span><i class="d">(entrando, com um espanador)</i> Bom dia, D. Guilhermina! Perdeu alguma coisa?</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span>A chave da Vitrine das Coisas Raras! A turma do Year 5 chega às dez, e eu prometi mostrar-lhes o relógio de bolso.</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span>A senhora não costumava pendurar a chave no fio dos óculos?</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span>Isso era dantes! Agora guardo-a sempre no bolso. <i class="d">(Treme de frio e abotoa o casaco até ao pescoço.)</i> Brrr! Que frio está hoje!</span></div>
+    <p class="dd">(Entram a <span class="caps">BEATRIZ</span> e o <span class="caps">LUCAS</span>. Ele traz uma lupa enorme; ela, um caderno.)</p>
+    <div class="r"><span class="w">Lucas</span><span>Chegámos cedo para ajudar! O que se passa?</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span>Desapareceu a chave da vitrine.</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(com voz de detetive de cinema)</i> Um mistério! Que ninguém saia daqui. São todos suspeitos!</span></div>
+    <div class="r"><span class="w">Beatriz</span><span><i class="d">(abrindo o caderno)</i> Calma, Lucas. Primeiro, as perguntas. D. Guilhermina, quando viu a chave pela última vez?</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span>Às nove em ponto. Abri a vitrine para limpar o relógio e fechei-a logo a seguir. <i class="d">(Baixa-se para apanhar o lápis que lhe caiu do carrapito. Tlim-tlim.)</i></span></div>
+    <p class="dd">(A <span class="caps">BEATRIZ</span> levanta os olhos do caderno, intrigada.)</p>
+  </div>
+  <footer class="folio">90</footer>
+</section>
+
+<!-- ======================= 91 · A CHAVE DESAPARECIDA — CENAS 2 E 3 ======================= -->
+<section class="page odd r-verde p91">
+  <header class="run"><span>Texto Dramático</span><span><b>2.ª parte</b> · A Chave Desaparecida</span></header>
+  <div class="tab"><span>4.2 · A Chave</span></div>
+  <div class="play b">
+    <div class="sc" style="margin-top:0"><b>CENA 2</b><span>Os suspeitos</span></div>
+    <p class="dd first">(Entra a <span class="caps">D. ROSA</span>, com um tabuleiro de pastéis de nata.)</p>
+    <div class="r"><span class="w">D. Rosa</span><span>Bom dia a todos! Trouxe os pastéis para a visita. Estão quentinhos!</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(apontando-lhe a lupa)</i> Alto aí! D. Rosa, onde estava às nove horas?</span></div>
+    <div class="r"><span class="w">D. Rosa</span><span>Às nove? Aqui mesmo, a trazer o café à D. Guilhermina, como todos os dias. Depois, levei o tabuleiro para a pastelaria.</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(triunfante)</i> Aha! A chave caiu no tabuleiro e foi parar à pastelaria!</span></div>
+    <div class="r"><span class="w">D. Rosa</span><span>Ó menino, eu lavei esse tabuleiro com estas mãos. Só lá havia migalhas!</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(virando-se para o Sr. Anselmo)</i> E o senhor? O que fez esta manhã?</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span>Pus a brilhar os metais todos do Gabinete: os castiçais, os puxadores, a campainha…</span></div>
+    <div class="r"><span class="w">Lucas</span><span>Os metais! E as chaves são de metal! Vire os bolsos do avesso!</span></div>
+    <p class="dd">(O <span class="caps">SR. ANSELMO</span> vira os bolsos. Cai um pano aos quadrados… e um pastel de nata.)</p>
+    <div class="r"><span class="w">D. Rosa</span><span>O meu pastel! Então é o senhor que me tira um pastel todas as manhãs!</span></div>
+    <div class="r"><span class="w">Sr. Anselmo</span><span><i class="d">(muito corado)</i> Era… para o lanche.</span></div>
+    <div class="r"><span class="w">Lucas</span><span><i class="d">(desanimado)</i> Um pastel não é uma chave.</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span><i class="d">(olhando para o relógio da parede, com as mãos no peito)</i> Faltam dez minutos! Que vergonha, com os meninos à porta! <i class="d">(Tlim-tlim.)</i></span></div>
+
+    <div class="sc"><b>CENA 3</b><span>As pistas</span></div>
+    <p class="dd first">(A <span class="caps">BEATRIZ</span> senta-se no degrau e relê o caderno. Os outros continuam a procurar: o <span class="caps">SR. ANSELMO</span> levanta o tapete, a <span class="caps">D. ROSA</span> espreita para dentro das jarras e o <span class="caps">LUCAS</span> examina o chão com a lupa. Na parede, a <span class="caps">MOURINHA</span> não tira os olhos da <span class="caps">D. GUILHERMINA</span>.)</p>
+    <div class="r"><span class="w">Beatriz</span><span><i class="d">(lendo em voz alta, devagar)</i> Pista número um: às nove, a chave estava na mão da D. Guilhermina. Pista número dois: estava frio, e ela abotoou o casaco até ao pescoço. Pista número três… um barulhinho: tlim-tlim.</span></div>
+    <div class="r"><span class="w">Lucas</span><span>Tlim-tlim? Isso lá é pista!</span></div>
+    <div class="r"><span class="w">Beatriz</span><span>É a pista mais importante de todas. E há mais uma: olha para a Mourinha.</span></div>
+    <div class="r"><span class="w">Lucas</span><span>A osga? Está só a olhar para a D. Guilhermina.</span></div>
+    <div class="r"><span class="w">Beatriz</span><span>Pois está. Há dez minutos que não olha para mais nada. <i class="d">(Fecha o caderno e levanta-se.)</i> Já sei onde está a chave!</span></div>
+    <div class="r"><span class="w">Todos</span><span><i class="d">(voltando-se para ela)</i> Onde?!</span></div>
+    <p class="dd">(Toca a campainha da porta: chegou a turma do Year 5. Escuro.)</p>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:4mm;align-items:center">
+    <div class="qr">{{QR:chave}}<div class="ql"><b>Ouvir</b>Ouve a peça. Fecha os olhos quando ouvires o «tlim-tlim»: de onde virá?</div></div>
+    <div class="tip"><img src="../../art/mou-2.png" alt="" style="width:15mm"><div class="bub">Eu vi tudo… mas as osgas não falam! A <b>Cena 4</b> ainda não foi escrita: vais escrevê-la tu, na p. 93.</div></div>
+  </div>
+  <footer class="folio">91</footer>
+</section>
+
+<!-- ======================= 92 · COMPREENDER + LER A PAPÉIS ======================= -->
+<section class="page even r-verde">
+  <header class="run"><span>Texto Dramático</span><span><b>2.ª parte</b> · Ler e investigar</span></header>
+  <div class="tab"><span>4.2 · A Chave</span></div>
+  <div class="kick">4.2 · Leitura e oralidade</div>
+  <h1 class="disp">Detetives da leitura</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">14</span><h3>Três níveis de leitura</h3><span class="skill">Ler</span></div>
+    <div class="lvl">
+      <div class="col" style="--k:var(--bronze)"><div class="lab">{{KEY:bronze}} Encontrar</div><ol>
+        <li>O que está dentro da Vitrine das Coisas Raras?<span class="ln s"></span></li>
+        <li>A que horas chega a turma do Year 5?<span class="ln s"></span></li>
+        <li>O que caiu dos bolsos do Sr. Anselmo?<span class="ln s"></span></li></ol></div>
+      <div class="col" style="--k:var(--prata)"><div class="lab">{{KEY:prata}} Relacionar</div><ol start="4">
+        <li>Porque desconfia o Lucas da D. Rosa? E do Sr. Anselmo?<span class="ln s"></span><span class="ln s"></span></li>
+        <li>Porque fica a Beatriz «intrigada» no fim da Cena 1?<span class="ln s"></span></li></ol></div>
+      <div class="col" style="--k:var(--ouro)"><div class="lab">{{KEY:ouro}} Pensar</div><ol start="6">
+        <li>Na Cena 1, o Sr. Anselmo faz uma pergunta que é uma pista. Qual?<span class="ln s"></span></li>
+        <li>Quem é melhor detetive: o Lucas ou a Beatriz? Porquê?<span class="ln s"></span><span class="ln s"></span></li></ol></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">15</span>{{KEY:prata}}<h3>O quadro do detetive</h3><span class="skill">Inferir</span></div>
+    <table class="board"><tr><th>Suspeito</th><th>Porque parece culpado</th><th>Porque é inocente</th></tr>
+      <tr><td>D. Rosa</td><td></td><td></td></tr>
+      <tr><td>Sr. Anselmo</td><td></td><td></td></tr>
+      <tr><td>A minha teoria</td><td colspan="2" style="font-family:Fraunces;font-style:italic;color:var(--ink2)">A chave está…</td></tr></table>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">16</span>{{KEY:prata}}<h3>Leitura a papéis</h3><span class="skill">Falar</span></div>
+    <p>Em grupos de cinco — quatro personagens e um <b>narrador</b> que lê as didascálias —, preparem a leitura da Cena 2. Antes de lerem, cada um <b>marca o seu guião</b> a lápis:</p>
+    <div class="marks" style="margin-top:2mm">
+      <div><b><span style="font-family:Figtree">↗</span></b>pergunta: a voz sobe</div><div><b>!</b>emoção: mais força</div><div><b>/</b>pausa curta</div><div><b>//</b>pausa longa</div><div><b><u style="text-decoration:none;border-bottom:1.6pt solid var(--verm)">aa</u></b>palavra forte</div>
+    </div>
+    <div class="marked" style="margin-top:3mm"><span class="w">Lucas</span><i style="color:#666b79">(apontando-lhe a lupa)</i> <u>Alto aí</u>! <span class="m">/</span> D. Rosa, <span class="m">//</span> onde estava às <u>nove</u> horas? <span class="m"><span style="font-family:Figtree">↗</span></span></div>
+    <div class="grid2" style="margin-top:3mm;grid-template-columns:1fr 1fr">
+      <div class="box" style="font-size:8.8pt;line-height:1.45"><div class="lab" style="margin-bottom:1mm">Como ler a papéis</div>1. Cada um lê só as suas falas.<br>2. O narrador lê as didascálias em voz baixa e neutra.<br>3. Fica atento à <b>deixa</b>: a fala que vem logo antes da tua.<br>4. Leiam duas vezes, trocando de papéis.</div>
+      <div class="tint" style="font-size:8.8pt;line-height:1.45"><div class="lab" style="margin-bottom:1mm">Depois de ler</div>Que personagem foi mais difícil de ler? Porquê?<span class="ln s"></span>Que didascália mudou a tua maneira de dizer a fala?<span class="ln s"></span></div>
+    </div>
+  </div>
+  <footer class="folio">92</footer>
+</section>
+
+<!-- ======================= 93 · ESCRITA: A CENA QUE FALTA ======================= -->
+<section class="page odd r-verde p93">
+  <header class="run"><span>Texto Dramático</span><span><b>2.ª parte</b> · Oficina de escrita</span></header>
+  <div class="tab"><span>4.2 · A Chave</span></div>
+  <div class="kick">4.2 · Escrita</div>
+  <h1 class="disp">A cena que falta</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">17</span>{{KEY:prata}}<h3>De dramático a narrativo</h3><span class="skill">Escrever</span></div>
+    <p>Conta a Cena 2 como uma <b>história</b>. Agora há um <b>narrador</b>; as falas levam <b>travessão</b> e um verbo que diz como são ditas.</p>
+    <div class="grid2" style="grid-template-columns:1fr 50mm;margin-top:2mm;align-items:stretch">
+      <div class="src-par" style="font-size:9.8pt">Nesse momento, a D. Rosa entrou no átrio com um tabuleiro de pastéis de nata.<br>— Bom dia a todos! — disse, bem-disposta. — Estão quentinhos!<br>O Lucas apontou-lhe a lupa e…</div>
+      <div class="box" style="font-size:8.6pt"><div class="lab" style="margin-bottom:1mm">Verbos para as falas</div>disse · perguntou · respondeu · gritou · exclamou · murmurou · explicou · protestou · confessou · suspirou</div>
+    </div>
+    <span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">18</span>{{KEY:ouro}}<h3>Cena 4 · A revelação</h3><span class="skill">Escrever</span></div>
+    <p>A Beatriz já sabe onde está a chave. E tu? Escreve a última cena da peça.</p>
+    <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:2mm">
+      <div class="box" style="font-size:8.6pt;line-height:1.4"><div class="lab" style="margin-bottom:1mm">Planeia</div>• Onde estava a chave? Que pistas o provam?<br>• Como reage a D. Guilhermina?<br>• O que acontece quando a turma entra?<br>• Como acaba — com uma última surpresa da Mourinha?</div>
+      <div class="box" style="font-size:8.6pt;line-height:1.55"><div class="lab" style="margin-bottom:1mm">A tua cena tem…</div><span class="chk"></span>didascália inicial (lugar e tempo)<br><span class="chk"></span>didascálias de tom e de gesto<br><span class="chk"></span>pelo menos três tipos de frase<br><span class="chk"></span>uma interjeição · <span class="chk"></span>«Pano.» no fim</div>
+    </div>
+    <div class="script" style="margin-top:2.4mm">
+      <div class="sl"><span style="font-family:'DM Mono';font-size:7pt;color:var(--verde);border-right:0;display:flex;align-items:flex-end;padding-bottom:1mm">CENA 4</span><span></span></div>
+      <div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div><div class="sl"><span></span><span></span></div>
+    </div>
+    <p class="small" style="margin-top:1.4mm">Precisas de mais espaço? Continua no caderno — e guarda a tua cena para a Oficina de Teatro (p. 94).</p>
+  </div>
+  <footer class="folio">93</footer>
+</section>
+
+<!-- ======================= 94 · OFICINA: A NOSSA CENA ======================= -->
+<section class="page even r-ocre">
+  <header class="run"><span>Texto Dramático</span><span><b>Ensaio geral</b> · A Oficina de Teatro</span></header>
+  <div class="tab"><span>Oficina · Projeto</span></div>
+  <div class="kick">Oficina de Teatro · Projeto de grupo</div>
+  <h1 class="disp">Escrever e pôr em cena</h1>
+  <div class="proj" style="grid-template-columns:66mm 1fr;margin-top:3mm;align-items:center">
+    <img src="../art/ensaio.jpg" alt="Um grupo de alunos a ensaiar">
+    <div>
+      <p class="lead" style="font-size:11pt">Em grupos de quatro ou cinco, vão <b>escrever uma cena</b> de dois ou três minutos e <b>representá-la</b> para a turma. Cada pessoa é autora — e tem também uma função na companhia de teatro.</p>
+      <div class="crew" style="margin-top:3mm">
+        <div><b>encenador</b>decide onde e como se movem os atores</div>
+        <div><b>atores</b>dão voz e corpo às personagens</div>
+        <div><b>cenógrafo</b>trata do cenário</div>
+        <div><b>figurinista</b>trata do guarda-roupa</div>
+        <div><b>contrarregra</b>trata dos adereços e dos sons</div>
+        <div><b>ponto</b>segue o guião e ajuda quem se esquece</div>
+      </div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">19</span><h3>Escolham a vossa cena</h3><span class="skill">Planear</span></div>
+    <div class="cards4">
+      <div><small>OPÇÃO A · P. 93</small><b>A Chave Desaparecida · Cena 4</b>Juntem as melhores ideias das vossas cenas finais e representem a revelação.</div>
+      <div><small>OPÇÃO B · PP. 84–85</small><b>O Aviso · Cena 3</b>A estreia começa… mas alguém trocou os fatos! O que acontece em palco, à frente dos pais?</div>
+      <div><small>OPÇÃO C · CENA NOVA</small><b>Um mal-entendido</b>Um bilhete, um recado ou um objeto perdido provoca uma confusão na escola, no mercado ou na praia.</div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">20</span>{{KEY:prata}}<h3>O plano da cena</h3><span class="skill">Planear</span></div>
+    <div class="plancard">
+      <div class="r" style="grid-template-columns:36mm 1fr"><b>Título</b><span></span></div>
+      <div class="r" style="grid-template-columns:36mm 1fr"><b>Personagens (até 5)</b><span></span></div>
+      <div class="r" style="grid-template-columns:36mm 1fr"><b>Lugar e tempo</b><span></span></div>
+      <div class="r" style="grid-template-columns:36mm 1fr"><b>O problema</b><span></span></div>
+      <div class="r" style="grid-template-columns:36mm 1fr"><b>Como se resolve</b><span></span></div>
+      <div class="r" style="grid-template-columns:36mm 1fr"><b>A última fala</b><span></span></div>
+    </div>
+  </div>
+  <div class="guiao">
+    <div class="lab">Como se escreve o guião</div>
+    <div class="gx"><span class="w">NOME DA PERSONAGEM</span><span><i class="d">(didascália: tom ou gesto)</i> A fala, tal e qual como vai ser dita.</span></div>
+    <div class="gx"><span class="w">Lucas</span><span><i class="d">(a correr)</i> Há estreia!</span></div>
+    <p>Uma linha para cada réplica · didascálias em <i>itálico</i> (ou sublinhadas, se escreveres à mão) e entre parênteses · no fim, «Pano.»</p>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">21</span><h3>O calendário da companhia</h3></div>
+    <div class="timeline">
+      <div><b>Sessão 1</b>Escolher a cena e fazer o plano.</div>
+      <div><b>Sessão 2</b>Escrever a cena, com falas e didascálias.</div>
+      <div><b>Sessão 3</b>Distribuir papéis e ler a papéis.</div>
+      <div><b>Sessão 4</b>Ensaiar com fatos, adereços e sons.</div>
+      <div><b>Estreia!</b>Representar para a turma e avaliar com a grelha da p. 95.</div>
+    </div>
+  </div>
+  <footer class="folio">94</footer>
+</section>
+
+<!-- ======================= 95 · ENSAIO GERAL ======================= -->
+<section class="page odd r-ocre p95">
+  <header class="run"><span>Texto Dramático</span><span><b>Ensaio geral</b> · Ensaiar e representar</span></header>
+  <div class="tab"><span>Oficina · Ensaio</span></div>
+  <div class="kick">Oficina de Teatro · Oralidade</div>
+  <h1 class="disp">Ensaio geral</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">22</span>{{KEY:bronze}}<h3>Aquecer a voz e o corpo</h3><span class="skill">Falar</span></div>
+    <div class="warm">
+      <div><b>Trava-línguas</b>Diz três vezes, cada vez mais depressa e sem tropeçar: <i style="font-family:Fraunces">«O rato roeu a rolha da garrafa do rei da Rússia.»</i></div>
+      <div><b>O espelho</b>Aos pares, frente a frente: um faz gestos lentos, o outro copia-os como se fosse o seu reflexo.</div>
+      <div><b>Três emoções</b>Diz «Há estreia» com alegria, depois com medo e, por fim, com espanto. O que muda na tua voz e no teu corpo?</div>
+    </div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1.05fr 1fr;align-items:start">
+    <div class="act">
+      <div class="act-h"><span class="num">23</span><h3>Distribuição de papéis</h3><span class="skill">Organizar</span></div>
+      <table class="cast-t"><tr><th>Personagem</th><th>Ator / atriz</th><th>Fato e adereços</th></tr>
+        <tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">24</span><h3>Lista do ensaio</h3><span class="skill">Rever</span></div>
+      <div class="box" style="font-size:8.6pt;line-height:1.5">
+        <span class="chk"></span>Todos temos o guião e marcámos as falas.<br>
+        <span class="chk"></span>Sei a minha <b>deixa</b> e as minhas falas.<br>
+        <span class="chk"></span>Marcámos por onde se entra e se sai.<br>
+        <span class="chk"></span>Ensaiámos com os adereços e os sons.<br>
+        <span class="chk"></span>Ninguém fica de costas para o público.<br>
+        <span class="chk"></span>Fizemos um ensaio do princípio ao fim.</div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">25</span>{{KEY:prata}}<h3>Grelha de representação</h3><span class="skill">Avaliar</span></div>
+    <p style="font-size:9pt">Depois de cada representação, pinta um círculo em cada linha — para ti e para um colega de outro grupo.</p>
+    <table class="rub4" style="margin-top:1.6mm">
+      <tr><th></th><th>Ainda não</th><th>Quase</th><th>Sim!</th></tr>
+      <tr><td>Volume<small>a força da voz</small></td><td><span class="ring"></span>Fala tão baixo que a plateia não ouve.</td><td><span class="ring"></span>Ouve-se quase sempre, mas às vezes a voz perde-se.</td><td><span class="ring"></span>Ouve-se bem até à última fila, sem gritar.</td></tr>
+      <tr><td>Ritmo<small>a velocidade e as pausas</small></td><td><span class="ring"></span>Fala depressa demais ou para muitas vezes.</td><td><span class="ring"></span>Tem bom ritmo, mas esquece algumas pausas.</td><td><span class="ring"></span>Fala sem pressa e faz pausas para criar efeito.</td></tr>
+      <tr><td>Entoação<small>a música da voz</small></td><td><span class="ring"></span>Diz tudo no mesmo tom.</td><td><span class="ring"></span>Mostra algumas emoções com a voz.</td><td><span class="ring"></span>A voz sobe nas perguntas e muda com cada emoção.</td></tr>
+      <tr><td>Expressão corporal<small>o rosto, os gestos, o olhar</small></td><td><span class="ring"></span>Fica parado ou de costas para o público.</td><td><span class="ring"></span>Faz alguns gestos das didascálias.</td><td><span class="ring"></span>O rosto e os gestos mostram o que a personagem sente.</td></tr>
+    </table>
+    <div class="box" style="font-size:8.8pt;margin-top:3mm"><div class="lab" style="margin-bottom:1mm">Duas estrelas e um desejo</div><div class="wishl"><svg class="st5" viewBox="0 0 10 10"><path d="M5 .5l1.4 3 3.2.3-2.4 2.1.7 3.2L5 7.5 2.1 9.1l.7-3.2L.4 3.8l3.2-.3z" fill="#D6A21E"/></svg><span class="ln s"></span></div><div class="wishl"><svg class="st5" viewBox="0 0 10 10"><path d="M5 .5l1.4 3 3.2.3-2.4 2.1.7 3.2L5 7.5 2.1 9.1l.7-3.2L.4 3.8l3.2-.3z" fill="#D6A21E"/></svg><span class="ln s"></span></div><div class="wishl"><svg class="st5" viewBox="0 0 10 10"><path d="M5 0l1.2 3.8L10 5 6.2 6.2 5 10 3.8 6.2 0 5l3.8-1.2z" fill="#7B3F6E"/></svg><span class="ln s"></span></div></div>
+  </div>
+  <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../../art/mou-1.png" alt=""><div class="bub">Truque de bastidores: antes de entrares em cena, respira fundo três vezes. E, se te esqueceres de uma fala, não pares — o <b>ponto</b> está lá para te ajudar!</div></div>
+  <footer class="folio">95</footer>
+</section>
+
+<!-- ======================= 96 · BALANÇO ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>Texto Dramático</span><span><b>Aplausos</b> · O que levo do palco</span></header>
+  <div class="tab"><span>Balanço</span></div>
+  <div class="kick">Aplausos · Balanço</div>
+  <h1 class="disp">O que levo do palco</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">26</span><h3>Carimba o teu bilhete</h3><span class="skill">Autoavaliação</span></div>
+    <div class="pass">
+      <div class="hd">Sou capaz de…</div><div class="hd">ainda não</div><div class="hd">quase</div><div class="hd">sim!</div>
+      <div>reconhecer a lista de personagens, as cenas, as falas e as didascálias</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>distinguir um monólogo de um diálogo</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>explicar as diferenças entre um texto narrativo e um texto dramático</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>nomear as partes do palco e distinguir cenário, guarda-roupa e adereços</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>usar os tipos de frase, a pontuação expressiva e as interjeições</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>passar uma cena de texto dramático a narrativo, e ao contrário</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>escrever uma cena com falas e didascálias</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>ler a papéis e representar com volume, ritmo, entoação e expressão corporal</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">27</span>{{KEY:prata}}<h3>Oito perguntas à saída</h3><span class="skill">Revisão</span></div>
+    <div class="quiz">
+      <div><b>1</b><span>Como se chamam as indicações do autor, em itálico e entre parênteses? <span class="fill"></span></span></div>
+      <div><b>5</b><span>Que tipo de frase é «Onde está a chave?»? <span class="fill"></span></span></div>
+      <div><b>2</b><span>Como se chama a fala de uma personagem sozinha? <span class="fill"></span></span></div>
+      <div><b>6</b><span>Escreve uma interjeição de alívio. <span class="fill"></span></span></div>
+      <div><b>3</b><span>Como se chama a fala que responde a outra? <span class="fill"></span></span></div>
+      <div><b>7</b><span>No texto narrativo, quem conta a história? <span class="fill"></span></span></div>
+      <div><b>4</b><span>Onde esperam os atores antes de entrar em cena? <span class="fill"></span></span></div>
+      <div><b>8</b><span>A lupa do Lucas é cenário, guarda-roupa ou adereço? <span class="fill"></span></span></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="lab" style="margin-bottom:1.6mm;color:var(--ink)">Glossário do teatro</div>
+    <div class="glos2">
+      <p><b>adereço</b> — objeto que os atores usam em cena.</p>
+      <p><b>ato</b> — grande parte de uma peça; pode ter várias cenas.</p>
+      <p><b>bastidores</b> — os lados escondidos do palco.</p>
+      <p><b>cena</b> — parte de um ato; muda quando muda o lugar, o tempo ou as personagens.</p>
+      <p><b>cenário</b> — o que mostra onde se passa a ação.</p>
+      <p><b>deixa</b> — a fala que vem antes da nossa e nos avisa de que é a nossa vez.</p>
+      <p><b>diálogo</b> — conversa entre duas ou mais personagens.</p>
+      <p><b>didascália</b> — indicação do autor sobre o lugar, o tempo, os gestos, o tom, a luz ou o som.</p>
+      <p><b>guarda-roupa</b> — os fatos das personagens.</p>
+      <p><b>interjeição</b> — palavra que exprime de repente uma emoção: <i>Ai! Ufa!</i></p>
+      <p><b>monólogo</b> — fala de uma personagem sozinha.</p>
+      <p><b>réplica</b> — fala que responde a outra.</p>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">28</span><h3>O meu momento em palco</h3><span class="skill">Refletir</span></div>
+    <p class="reflect" style="font-size:9.2pt">A fala ou a cena de que mais gostei nesta unidade foi… porque… <span class="fill"></span><span class="ln s"></span></p>
+  </div>
+  <div style="position:absolute;left:24mm;right:16mm;bottom:17mm;display:grid;grid-template-columns:1fr 60mm;gap:6mm;align-items:center" class="pin-bottom">
+    <div class="tip"><img src="../../art/mou-2.png" alt=""><div class="bub">Bravo! Agora já sabes: num aviso, lê-se <b>tudo até ao fim</b>. E, numa peça, <b>até ao «Pano»</b>!</div></div>
+    <div class="qr">{{QR:solucoes}}<div class="ql"><b>Para o professor</b>Soluções e guiões dos áudios desta unidade.</div></div>
+  </div>
+  <footer class="folio">96</footer>
+</section>
+
+</body>
+</html>

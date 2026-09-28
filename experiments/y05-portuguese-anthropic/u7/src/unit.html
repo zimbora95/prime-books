@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>Atividades Extra — Português · Year 5 · Unidade 7</title>
+<style>
+{{BASECSS}}
+/* =================================================================== UNIT 7 */
+.r-ocre .run b,.r-ocre .kick{color:#B8741A}
+.cut:after{content:none}
+.scis{position:absolute;width:5mm;height:5mm;background:var(--paper);padding:0 .6mm}
+.ico{width:5.4mm;height:5.4mm;flex:none}
+.pip{width:5.2mm;height:5.2mm;color:var(--c)}
+.kick{margin-bottom:1.6mm}
+h1.disp{font-size:31pt}
+.act-h h3{font-size:11.4pt}
+.note{font-size:8pt;color:var(--ink2);font-style:italic}
+.srcs{font-size:7pt;color:var(--ink2);line-height:1.3}
+.chip{display:inline-block;border:.8pt solid var(--c);border-radius:5mm;padding:.3mm 2.4mm;font-size:8.6pt;background:#fff;margin:0 1mm 1.2mm 0}
+
+/* ---------- 129 opener ---------- */
+.p-open .art{background:url(../art/opener.jpg) center 100%/cover}
+.p-open .veil{height:118mm;background:linear-gradient(#F4ECDC 0%,rgba(244,236,220,.9) 50%,rgba(244,236,220,0) 100%)}
+.p-open .u,.p-open .u .big{color:#C9761C}
+.p-open h1 i{color:var(--turq)}
+.p-open .tag .lab{color:#C9761C}
+.p-open .tag{top:124mm;bottom:auto;right:14mm;width:60mm;transform:rotate(3deg)}
+
+/* ---------- 130 menu board ---------- */
+.board{margin-top:4mm;background:#223047;border-radius:3mm;padding:4.4mm 4.6mm 5mm;color:#F3EDE0;box-shadow:inset 0 0 0 1.6mm #7A5534,inset 0 0 0 2.2mm #5E4028,0 1.6mm 0 #BFA37C;position:relative;
+  background-image:radial-gradient(rgba(255,255,255,.035) 1px,transparent 1.2px);background-size:2.4mm 2.4mm}
+.board .bt{font-family:"Caveat";font-weight:700;font-size:25pt;line-height:1;text-align:center;color:#FFF6DC;margin:1mm 0 .6mm}
+.board .bs{font-family:"DM Mono";font-size:6.8pt;letter-spacing:.18em;text-transform:uppercase;text-align:center;color:#C9D2E0;margin-bottom:3mm}
+.menu{display:grid;grid-template-columns:23mm repeat(5,1fr);gap:1.6mm}
+.menu .sk{display:flex;flex-direction:column;align-items:center;gap:.6mm;font-family:"Caveat";font-weight:700;font-size:15pt;line-height:1;color:#FFE7A8;padding-bottom:1.4mm;border-bottom:1pt dashed rgba(255,255,255,.35)}
+.menu .sk .ico{color:#FFE7A8;width:6mm;height:6mm}
+.menu .tm{display:flex;flex-direction:column;justify-content:center;border-right:1pt dashed rgba(255,255,255,.35);padding-right:1.4mm}
+.menu .tm b{font-family:"Caveat";font-weight:700;font-size:21pt;line-height:.9;color:#fff}
+.menu .tm span{font-family:"DM Mono";font-size:6pt;letter-spacing:.08em;text-transform:uppercase;color:#C9D2E0;margin-top:.8mm}
+.menu .cell{display:flex;flex-direction:column;gap:1.2mm;padding:1.2mm 0}
+.it{background:rgba(255,255,255,.08);border-left:2pt solid var(--ic);border-radius:0 1.2mm 1.2mm 0;padding:1.1mm 1.6mm 1.2mm;font-size:8pt;line-height:1.2;color:#F3EDE0}
+.it b{font-family:"Fraunces";font-weight:700;color:var(--ic);filter:brightness(1.35);margin-right:1mm}
+.it i{display:block;font-style:normal;font-family:"DM Mono";font-size:6pt;letter-spacing:.06em;color:#AEB9CB;margin-top:.4mm}
+.i-jog{--ic:#7C95E6}.i-esc{--ic:#D48CC0}.i-ora{--ic:#57B9C4}.i-lei{--ic:#7FC2A6}.i-jor{--ic:#F08A70}.i-poe{--ic:#F0B45A}
+.menu .row-sep{grid-column:1/7;border-top:1pt dashed rgba(255,255,255,.2)}
+.how{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:3mm;margin-top:5mm}
+.how div{background:#fff;border:.8pt solid var(--rule);border-radius:1.8mm;padding:2.6mm 3mm;font-size:8.8pt;line-height:1.32}
+.how .key{width:7mm;height:3.4mm;vertical-align:-.5mm}
+.how div b{display:block;font-family:"Fraunces";font-size:13pt;color:#B8741A;line-height:1.05;margin-bottom:.6mm;font-variation-settings:"SOFT" 100}
+.track{display:grid;grid-template-columns:repeat(23,1fr);gap:1.1mm;margin-top:2mm}
+.track span{aspect-ratio:1;border-radius:50%;border:.9pt solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:"DM Mono";font-size:6.6pt;background:#fff}
+
+/* ---------- 131 crossword ---------- */
+table.cw{border-collapse:collapse;margin:4mm auto 0}
+table.cw td{width:9.4mm;height:9.4mm;border:.9pt solid var(--ink);background:#fff;position:relative;text-align:center;vertical-align:middle;font-family:"Fraunces";font-weight:700;font-size:14pt;padding:0}
+table.cw td.x{border:none;background:transparent}
+table.cw td i{position:absolute;left:.5mm;top:.15mm;font-style:normal;font-family:"DM Mono";font-weight:500;font-size:6pt;line-height:1;color:var(--ultra)}
+.cwwrap{position:relative}
+.clues{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin-top:5mm}
+.clues h4{font-family:"DM Mono";font-weight:500;font-size:7.4pt;letter-spacing:.16em;text-transform:uppercase;color:var(--ultra);border-bottom:1.2pt solid var(--ultra);padding-bottom:1mm;margin-bottom:1.6mm;display:flex;align-items:center;gap:1.4mm}
+.clues ol{list-style:none}
+.clues h4 i{font-family:"Figtree";font-style:normal;font-size:9pt}
+.clues li{display:grid;grid-template-columns:6mm 1fr 7mm;gap:1mm;font-size:9pt;line-height:1.3;margin-bottom:1.5mm}
+.clues li b{font-family:"Fraunces";color:var(--ultra)}
+.clues li em{font-style:normal;color:var(--ink2);font-size:8pt}
+.clues li u{text-decoration:none;font-family:"DM Mono";font-size:6pt;color:var(--ink2);border:.6pt solid var(--rule);border-radius:1mm;height:3.6mm;display:flex;align-items:center;justify-content:center;background:#fff}
+
+/* ---------- 132 word search + dictionary game ---------- */
+.wsw{display:grid;grid-template-columns:auto 1fr;gap:6mm;align-items:start;margin-top:1mm}
+table.ws{border-collapse:collapse;background:#fff;box-shadow:1.2mm 1.2mm 0 var(--t)}
+table.ws td{width:7.6mm;height:7.6mm;text-align:center;vertical-align:middle;font-family:"DM Mono";font-weight:500;font-size:12pt;border:.5pt solid #DCD3C0;padding:0}
+.wl{columns:3;column-gap:3mm;font-size:9pt;margin-top:1mm}
+.wl div{display:flex;align-items:center;gap:1.2mm;margin-bottom:1.2mm;break-inside:avoid;font-family:"Fraunces";font-size:9.2pt;letter-spacing:.04em}
+.dirs{display:flex;gap:1.6mm;flex-wrap:wrap;margin:2mm 0;font-size:8pt}
+.dirs span{border:.8pt solid var(--ultra);border-radius:1mm;padding:.2mm 1.6mm;color:var(--ultra);background:#fff}
+.msg{display:flex;flex-wrap:wrap;gap:1mm 3.2mm;margin-top:1.6mm}
+.msg span{display:flex;gap:.7mm}
+.msg span i{width:4.6mm;height:6mm;border-bottom:1pt solid var(--ink);background:#fff}
+.dict{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;margin-top:2mm}
+.dcard{background:#fff;border:.8pt solid var(--rule);border-top:3pt solid var(--ultra);border-radius:0 0 1.8mm 1.8mm;padding:2.2mm 2.8mm 2.4mm}
+.dcard .w{font-family:"Fraunces";font-weight:800;font-size:13.4pt;line-height:1;font-variation-settings:"opsz" 72}
+.dcard .g{font-family:"Fraunces";font-style:italic;color:var(--ultra);font-size:8.6pt;margin:.4mm 0 1.2mm}
+.dcard ol{list-style:none;font-size:8.4pt;line-height:1.28}
+.dcard li{display:grid;grid-template-columns:4.6mm 1fr;gap:1mm;margin-bottom:1mm}
+.dcard li b{width:4.2mm;height:4.2mm;border-radius:50%;border:.8pt solid var(--ink);display:flex;align-items:center;justify-content:center;font-size:6.8pt;font-family:"DM Mono";font-weight:500}
+
+/* ---------- 133 families ---------- */
+.houses{display:grid;grid-template-columns:repeat(4,1fr);gap:3.4mm;margin-top:3mm}
+.house{position:relative}
+.house .roof{height:13mm;background:var(--hc);clip-path:polygon(50% 0,100% 100%,0 100%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:1.4mm;color:#fff;font-family:"Fraunces";font-weight:700;font-size:12pt}
+.house .body{background:#fff;border:1.2pt solid var(--hc);border-top:0;padding:1.6mm 2.4mm 2.4mm;border-radius:0 0 1.4mm 1.4mm}
+.house .body .ln.s{height:7mm}
+.house .rad{font-family:"DM Mono";font-size:6.4pt;letter-spacing:.08em;color:var(--ink2);text-transform:uppercase;text-align:center;margin-bottom:.6mm}
+.tiles{display:flex;flex-wrap:wrap;gap:1.8mm;margin-top:1mm}
+.tiles span{background:#fff;border:.8pt solid var(--ink);border-radius:1mm;padding:1mm 2.6mm;font-family:"Fraunces";font-size:10.6pt;box-shadow:.7mm .7mm 0 var(--t)}
+.impost{display:grid;grid-template-columns:auto repeat(4,1fr);gap:3mm;align-items:end;margin-top:2.6mm;font-size:8.8pt}
+.impost span{border-bottom:.8pt solid #9C927E;height:6.4mm}
+.fab{width:100%;border-collapse:separate;border-spacing:0;font-size:9.4pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.fab th{background:var(--ultra);color:#fff;font-size:8pt;text-align:left;padding:1.4mm 2.4mm;letter-spacing:.04em}
+.fab td{border-top:.7pt solid var(--rule);padding:1.2mm 2.4mm;height:8.2mm}
+.fab td+td,.fab th+th{border-left:.7pt solid var(--rule)}
+.fab td.w{font-family:"Fraunces";font-size:10.4pt}
+.fab td.pf{font-family:"DM Mono";font-size:8.6pt;color:var(--ultra)}
+
+/* ---------- 134 domino ---------- */
+.doms{display:grid;grid-template-columns:repeat(3,1fr);gap:4.2mm 4.6mm;margin-top:4mm}
+.dom{display:grid;grid-template-columns:1fr 1fr;border:1pt dashed #6D6A63;border-radius:2.2mm;height:30mm;background:#FFFDF7;position:relative;padding:1.6mm}
+.dom .h{display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:"Fraunces";font-size:13.2pt;font-weight:600;text-align:center;line-height:1.05;background:#fff;border:1pt solid var(--ink)}
+.dom .h.l{border-radius:1.4mm 0 0 1.4mm;border-right-width:.5pt}
+.dom .h.r{border-radius:0 1.4mm 1.4mm 0;border-left-width:.5pt}
+.dom .h small{font-family:"DM Mono";font-weight:500;font-size:5.4pt;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--verde);border-radius:1mm;padding:.5mm 1.2mm;margin-top:2mm;white-space:nowrap}
+.dom .h.r.ant small{background:var(--verm)}
+.dom.blank .h .fill{min-width:26mm;margin-top:3mm}
+.dom.blank .h small{background:var(--prata)}
+.dom .scis{top:-2.6mm;left:4mm}
+.domkey{display:flex;gap:4mm;font-size:8.8pt;align-items:center;flex-wrap:wrap}
+.domkey span{display:flex;align-items:center;gap:1.2mm}
+.domkey i{display:inline-block;width:9mm;height:3.4mm;border-radius:1mm}
+
+/* ---------- 135 dice ---------- */
+.dice{display:flex;flex-direction:column;gap:3.4mm;margin-top:3mm}
+.dierow{display:grid;grid-template-columns:26mm repeat(6,1fr);gap:2.4mm;align-items:center}
+.dierow .dl{font-family:"Fraunces";font-weight:700;font-size:15pt;line-height:1;color:var(--c);font-variation-settings:"SOFT" 100,"WONK" 1}
+.dierow .dl small{display:block;font-family:"DM Mono";font-weight:500;font-size:6.2pt;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-top:1mm}
+.face{aspect-ratio:1;background:#fff;border:1.2pt solid var(--ink);border-radius:3.6mm;position:relative;box-shadow:1mm 1mm 0 var(--t);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.face img{width:84%;height:84%;object-fit:contain;mix-blend-mode:multiply}
+.face .pip{position:absolute;left:1mm;top:1mm;width:4.4mm;height:4.4mm}
+.face .fn{position:absolute;right:1.3mm;bottom:.8mm;font-size:6.6pt;color:var(--ink2);font-family:"Figtree";font-weight:600;background:rgba(255,255,255,.85);padding:0 .6mm;border-radius:.6mm}
+.roll{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm;font-size:8.8pt}
+.roll div{display:grid;grid-template-columns:auto 1fr;gap:1.6mm;align-items:end}
+.roll div span{border-bottom:.8pt solid #9C927E;height:6.4mm}
+.ese{display:grid;grid-template-columns:repeat(3,1fr);gap:2.6mm;margin-top:2mm}
+.ese div{background:var(--t);border-radius:1.8mm;padding:2.2mm 2.8mm;font-family:"Fraunces";font-size:9.8pt;line-height:1.3;position:relative}
+.ese div b{font-family:"Caveat";font-weight:700;font-size:15pt;color:var(--ameixa);display:block;line-height:.9}
+.ese div u{text-decoration:none;position:absolute;right:2mm;top:1.8mm;font-family:"DM Mono";font-size:5.8pt;color:var(--ink2)}
+
+/* ---------- 136 letter + diary ---------- */
+.lt{display:grid;grid-template-columns:1fr 46mm;gap:5mm;align-items:start}
+.pad{background:#FFFDF6;border:.8pt solid #CDBF9F;border-radius:1.4mm;padding:3mm 4mm 3mm 30mm;position:relative;box-shadow:0 1.2mm 0 #E1D5BB}
+.pad .ln{height:7mm;display:block;border-bottom-color:#D9E2EC}
+.pad .mk{position:absolute;left:3mm;width:25mm;font-family:"DM Mono";font-weight:500;font-size:6pt;letter-spacing:.06em;text-transform:uppercase;color:var(--ameixa);text-align:right;line-height:1.15}
+.pad .mk:after{content:"";position:absolute;right:-2.6mm;top:1.3mm;width:1.8mm;height:1.8mm;border-radius:50%;background:var(--ameixa)}
+.who{display:flex;flex-wrap:wrap;gap:1.2mm;margin-top:1.4mm}
+.who span{background:#fff;border:.8pt solid var(--ameixa);color:var(--ameixa);border-radius:5mm;padding:.2mm 2.2mm;font-size:8.2pt;font-weight:600}
+.diary{display:grid;grid-template-columns:58mm 1fr;gap:5mm;align-items:start}
+.dmodel{background:#FFF6B8;padding:3.4mm 4mm;transform:rotate(-.7deg);font-family:"Caveat";font-size:14.2pt;line-height:1.06;color:#2a3150;box-shadow:1mm 1.4mm 0 rgba(28,37,54,.15)}
+.dmodel b{color:var(--verm)}
+.prompts{display:grid;grid-template-columns:1fr 1fr;gap:1.4mm 4mm;font-size:8.8pt;margin:2mm 0}
+.prompts div:before{content:"→ ";color:var(--ameixa);font-weight:800}
+
+/* ---------- 137 comic ---------- */
+.bd{display:grid;grid-template-columns:repeat(3,1fr);gap:3.6mm;margin-top:3mm}
+.panel{position:relative;height:62mm;border:1.4pt solid var(--ink);background:#fff;overflow:hidden;border-radius:.8mm}
+.panel>img{width:100%;height:100%;object-fit:cover;display:block}
+.panel .pn{position:absolute;right:1.4mm;bottom:1.4mm;width:5.6mm;height:5.6mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"DM Mono";font-weight:500;font-size:7pt;display:flex;align-items:center;justify-content:center;z-index:3}
+.balw{position:absolute;z-index:2}
+.balw .bal{width:100%;display:block;filter:drop-shadow(.4mm .5mm 0 rgba(28,37,54,.25))}
+.capx{position:absolute;left:0;top:0;background:#FFF6B8;border-right:1.2pt solid var(--ink);border-bottom:1.2pt solid var(--ink);padding:1.2mm 2mm;font-family:"Caveat";font-size:12.6pt;line-height:1;z-index:2;max-width:70%}
+.capx.e{width:44%;height:9mm}
+.panel.draw{background:#fff;background-image:radial-gradient(#E4DCCB .7pt,transparent .8pt);background-size:3mm 3mm}
+.panel.draw .hint{position:absolute;left:0;right:0;top:44%;text-align:center;font-family:"DM Mono";font-size:6.6pt;letter-spacing:.14em;text-transform:uppercase;color:#B7AD99}
+.bdkey{display:grid;grid-template-columns:repeat(4,1fr);gap:2.6mm;margin-top:1.6mm}
+.bdkey div{display:grid;grid-template-columns:13mm 1fr;gap:2mm;align-items:center;background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:1.6mm 2mm;font-size:8.2pt;line-height:1.25}
+.bdkey div b{display:block;font-size:8.6pt}
+.bdkey svg{width:13mm}
+
+/* ---------- 138 oral ---------- */
+.tl{display:grid;grid-template-columns:1fr 1fr;gap:2.8mm;margin-top:2mm}
+.tl div{background:#fff;border:.8pt solid var(--rule);border-left:3.4pt solid var(--turq);border-radius:0 1.8mm 1.8mm 0;padding:2.2mm 3mm;font-family:"Fraunces";font-size:10.6pt;line-height:1.36;position:relative}
+.tl div .snd{position:absolute;right:2mm;top:-2.4mm;background:var(--turq);color:#fff;font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.08em;border-radius:1mm;padding:.4mm 1.6mm}
+.tl div u{text-decoration:none;color:var(--turq);font-weight:700}
+.tl div .kk{position:absolute;right:2mm;bottom:1.6mm}
+.tl div .kk .key{width:7mm;height:3.4mm}
+.who-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm;margin-top:2mm}
+.wc{position:relative;border:1pt dashed #6D6A63;border-radius:1.6mm;height:15.6mm;background:#FFFDF7;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:1.4mm}
+.wc b{font-family:"Fraunces";font-size:12pt;line-height:1.05}
+.wc.wb .ln{width:80%;height:7mm}
+.wc small{font-family:"DM Mono";font-size:5.6pt;letter-spacing:.1em;text-transform:uppercase;color:var(--turq);margin-top:.8mm}
+.wc .scis{top:-2.6mm;left:3mm}
+.qbank{display:flex;flex-wrap:wrap;gap:1.4mm;margin-top:1.6mm}
+.qbank span{background:var(--t);border-radius:5mm;padding:.5mm 2.4mm;font-size:8.6pt}
+
+/* ---------- 139 interview / open mic ---------- */
+.int{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.int div{background:#fff;border:.8pt solid var(--rule);border-top:3pt solid var(--turq);border-radius:0 0 1.6mm 1.6mm;padding:2.2mm 2.8mm;font-size:8.6pt;line-height:1.32}
+.int div b{font-family:"Fraunces";font-size:11.4pt;display:block;color:var(--turq)}
+.int div ul{margin-left:3.4mm}
+.notes2{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden;font-size:8.8pt}
+.notes2 th{background:var(--turq);color:#fff;text-align:left;font-size:7.8pt;padding:1.3mm 2.4mm;letter-spacing:.04em}
+.notes2 td{border-top:.7pt solid var(--rule);height:10.6mm;padding:1mm 2.4mm;vertical-align:top}
+.notes2 td+td,.notes2 th+th{border-left:.7pt solid var(--rule)}
+.notes2 td.q{font-family:"Fraunces";font-style:italic;color:var(--ink2);width:52mm}
+.mic{display:grid;grid-template-columns:40mm 1fr;gap:5mm;align-items:start}
+.mic img{width:100%;mix-blend-mode:multiply}
+.poster{background:#fff;border:1.2pt solid var(--ink);border-radius:1.6mm;padding:3mm 3.6mm;position:relative}
+.poster .pt{font-family:"Fraunces";font-weight:800;font-size:16pt;line-height:1;color:var(--turq);font-variation-settings:"SOFT" 100,"WONK" 1}
+.lineup{display:grid;grid-template-columns:7mm 1fr 1.4fr 16mm;font-size:8.2pt;margin-top:1.6mm;border-top:1pt solid var(--ink)}
+.lineup div{border-bottom:.7pt solid var(--rule);height:7.8mm;display:flex;align-items:center;padding:0 1.4mm}
+.lineup .hd{font-family:"DM Mono";font-size:6pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);height:5.6mm}
+.lineup .n{font-family:"DM Mono";color:var(--turq)}
+.stage{display:grid;grid-template-columns:repeat(4,1fr);gap:2.2mm;margin-top:2mm}
+.stage div{background:var(--t);border-radius:1.4mm;padding:1.8mm 2.2mm;font-size:8.2pt;line-height:1.28}
+.stage div b{display:block;font-family:"Fraunces";font-size:10.6pt;color:var(--turq)}
+
+/* ---------- 140 passport ---------- */
+.passport{display:grid;grid-template-columns:58mm 1fr;background:var(--verde);border-radius:3mm;padding:2.4mm;gap:2.4mm;margin-top:3mm;box-shadow:0 1.6mm 0 #1F4A3E}
+.pp{background:#FBF7EC;border-radius:1.6mm;padding:3mm;position:relative;
+  background-image:repeating-radial-gradient(circle at 30% 40%,rgba(47,110,92,.07) 0 .4mm,transparent .4mm 2.2mm)}
+.pp h5{font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.16em;text-transform:uppercase;color:var(--verde);margin-bottom:1.6mm}
+.photo{height:38mm;border:1pt dashed var(--verde);border-radius:1.2mm;display:flex;align-items:center;justify-content:center;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.12em;color:#8FA99E;text-transform:uppercase;background:#fff;margin-bottom:2mm}
+.pp .r{display:grid;grid-template-columns:auto 1fr;gap:1.6mm;align-items:end;font-size:7.8pt;color:var(--ink2);margin-bottom:.4mm}
+.pp .r span{border-bottom:.7pt solid #9C927E;height:6.4mm}
+.mrz{font-family:"DM Mono";font-size:6.8pt;letter-spacing:.14em;color:#8FA99E;margin-top:2.4mm;line-height:1.5;word-break:break-all}
+.visas{display:grid;grid-template-columns:repeat(3,1fr);gap:2mm}
+.visa{border:.8pt dashed #A9BDB3;border-radius:1.4mm;background:rgba(255,255,255,.7);padding:1.6mm 2mm 1.8mm;position:relative;height:40.6mm;display:flex;flex-direction:column}
+.visa img{width:17.5mm;height:17.5mm;object-fit:contain;mix-blend-mode:multiply;align-self:center;transform:rotate(var(--rot,-6deg));opacity:.92;margin:.4mm 0 .6mm}
+.visa .g{font-size:7.6pt;line-height:1.2;font-weight:700;text-align:center;min-height:6mm}
+.visa .l{border-bottom:.7pt solid #9C927E;height:5.4mm;font-size:5.8pt;color:#8B8474;font-family:"DM Mono";letter-spacing:.06em;display:flex;align-items:flex-end;text-transform:uppercase}
+.visa .n{position:absolute;left:1.4mm;top:1.2mm;font-family:"DM Mono";font-size:6pt;color:var(--verde)}
+.roles{display:grid;grid-template-columns:repeat(5,1fr);gap:2.2mm;margin-top:2mm}
+.roles div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm 2.2mm;font-size:8pt;line-height:1.28;position:relative}
+.roles div b{display:block;font-family:"Fraunces";font-size:10.4pt;line-height:1.05;color:var(--verde);margin-bottom:.8mm}
+.roles div i{position:absolute;right:1.6mm;top:1.4mm;font-style:normal;font-size:10pt}
+
+/* ---------- 141 shelf + reading card ---------- */
+.shelf{display:grid;grid-template-columns:1fr 1fr;gap:2.2mm 4mm;margin-top:2.4mm}
+.book{display:grid;grid-template-columns:6mm 1fr;background:#fff;border:.8pt solid var(--rule);border-radius:1.2mm;overflow:hidden;min-height:21mm}
+.book .sp{background:var(--bc)}
+.book div.t{padding:1.6mm 2.4mm}
+.book .ti{font-family:"Fraunces";font-weight:700;font-size:10.4pt;line-height:1.1}
+.book .au{font-size:7.8pt;color:var(--ink2);margin:.3mm 0 .8mm}
+.book .au b{font-family:"DM Mono";font-weight:500;font-size:6pt;letter-spacing:.06em;text-transform:uppercase;color:var(--bc);border:.6pt solid var(--bc);border-radius:.8mm;padding:0 1mm;margin-left:1mm}
+.book p{font-size:8.1pt;line-height:1.28}
+.ficha{border:1pt dashed #6D6A63;border-radius:1.8mm;background:#FFFDF7;padding:3.4mm 4mm;position:relative;display:grid;grid-template-columns:1fr 50mm;gap:5mm}
+.ficha .scis{top:-2.6mm;left:6mm}
+.ficha .r{display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end;font-size:8pt;color:var(--ink2);margin-bottom:.2mm}
+.ficha .r span{border-bottom:.7pt solid #9C927E;height:6.6mm}
+.ficha .ln{height:7mm}
+.ficha h5{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--verde);margin-bottom:1.2mm}
+.drawbox{border:.8pt solid var(--rule);border-radius:1.2mm;background:#fff;height:40mm;display:flex;align-items:flex-end;justify-content:center;font-family:"DM Mono";font-size:6pt;color:#B7AD99;letter-spacing:.1em;padding-bottom:1.4mm;text-transform:uppercase}
+.stars{display:flex;gap:1.2mm;margin:1.4mm 0}
+.stars svg{width:6mm;height:6mm}
+
+/* ---------- 142–143 newspaper ---------- */
+.jtop{display:grid;grid-template-columns:1fr 48mm;gap:5mm;align-items:start}
+.jtop img{width:100%;mix-blend-mode:multiply}
+.jroles{display:grid;grid-template-columns:repeat(3,1fr);gap:2.4mm;margin-top:2mm}
+.jroles div{background:#fff;border:.8pt solid var(--rule);border-left:3pt solid var(--verm);border-radius:0 1.6mm 1.6mm 0;padding:2mm 2.6mm;font-size:8.2pt;line-height:1.3}
+.jroles div b{display:block;font-family:"Fraunces";font-size:10.8pt;color:var(--verm)}
+.jroles div .qm{display:grid;grid-template-columns:auto 1fr;gap:1.4mm;align-items:end;margin-top:1mm;font-size:7.4pt;color:var(--ink2)}
+.jroles div .qm span{border-bottom:.7pt solid #9C927E;height:5.4mm}
+.jplan td{height:9.4mm}
+.jplan td.s{font-family:"Fraunces";font-weight:600}
+.jplan td.u{font-size:8pt;color:var(--ink2)}
+.jplan td.c{width:9mm;text-align:center}
+.front{background:#fff;border:1.2pt solid var(--ink);padding:3.4mm 4mm 4mm;margin-top:3mm;box-shadow:1.6mm 1.6mm 0 var(--t)}
+.mast{display:flex;align-items:flex-end;gap:3mm;border-bottom:2.4pt solid var(--ink);padding-bottom:1.4mm}
+.mast .o{font-family:"Fraunces";font-weight:800;font-size:30pt;line-height:.9;font-variation-settings:"SOFT" 0,"WONK" 0,"opsz" 144}
+.mast .blank{flex:1;border-bottom:1pt dashed #9C927E;height:10mm}
+.strip{display:flex;justify-content:space-between;font-family:"DM Mono";font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);border-bottom:.7pt solid var(--ink);padding:1mm 0;margin-bottom:2.4mm}
+.strip span{display:flex;gap:1.4mm;align-items:flex-end}
+.strip i{display:inline-block;width:18mm;border-bottom:.7pt solid #9C927E;height:3.4mm}
+.fz{position:relative;border:.8pt dashed #B9AE98;border-radius:.8mm;padding:1.4mm 2mm}
+.fz>em{position:absolute;right:1.4mm;top:-2.2mm;background:#fff;padding:0 1mm;font-style:normal;font-family:"DM Mono";font-weight:500;font-size:5.8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--verm)}
+.fz .ln{height:7mm}
+.fz .ln.h{height:9.6mm;border-bottom-width:1.4pt;border-bottom-color:var(--ink)}
+.fgrid{display:grid;grid-template-columns:1.9fr 1fr;gap:3mm}
+.fcols{display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:3mm}
+.photo2{height:40mm;background:#F2EEE5;display:flex;align-items:center;justify-content:center;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.12em;color:#A39A86;text-transform:uppercase;margin:1.4mm 0}
+.fbot{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm;margin-top:3mm}
+.six{display:grid;grid-template-columns:repeat(6,1fr);gap:2mm}
+.six div{background:var(--t);border-radius:1.4mm;padding:1.6mm 2mm;font-size:7.8pt;line-height:1.25}
+.six div b{display:block;font-family:"Fraunces";font-size:11pt;color:var(--verm)}
+
+/* ---------- 144 calligram + riddles ---------- */
+.poe{display:grid;grid-template-columns:1fr 1fr;gap:5mm;align-items:start;margin-top:2mm}
+.poe .fr{background:#fff;border:.8pt solid var(--rule);border-radius:1.8mm;padding:2mm 3mm 2.6mm}
+.poe svg{width:100%;display:block}
+.adv{display:grid;grid-template-columns:repeat(3,1fr);gap:2.6mm;margin-top:2mm}
+.adv div{background:#fff;border:.8pt solid var(--rule);border-radius:1.8mm;padding:2.2mm 2.8mm 2.4mm;font-family:"Fraunces";font-size:9.9pt;line-height:1.34;position:relative;box-shadow:1mm 1mm 0 var(--t)}
+.adv div b{position:absolute;left:-2mm;top:-2mm;width:6mm;height:6mm;border-radius:50%;background:#C9761C;color:#fff;font-family:"Fraunces";font-size:9pt;display:flex;align-items:center;justify-content:center}
+.ans{transform:rotate(180deg);text-align:center;font-size:8.4pt;color:var(--ink2);margin-top:3mm;border-top:.7pt dashed var(--rule);border-bottom:.7pt dashed var(--rule);padding:1.2mm 0}
+.ans b{font-family:"Fraunces";color:var(--ink)}
+
+/* ---------- per-page vertical tuning ---------- */
+</style>
+</head>
+<body>
+
+<!-- ======================= 129 · OPENER ======================= -->
+<section class="page odd p-open r-ocre">
+  <div class="art"></div>
+  <div class="veil"></div>
+  <div class="ttl">
+    <div class="u"><span class="big">7</span><span>Unidade · Português · Year 5</span></div>
+    <h1 class="disp">Atividades <i>Extra</i></h1>
+    <div class="sub"><span>O baú dos passatempos</span> jogos · escrita · oralidade · leitura · projetos</div>
+  </div>
+  <div class="tag"><div class="lab">Modo de usar</div><p>Abre quando acabares mais cedo, num dia de chuva ou nas férias. Não há ordem certa: escolhe e diverte-te.</p></div>
+  <div class="brand">Prime School · Português Língua Materna</div>
+</section>
+
+<!-- ======================= 130 · HOW TO CHOOSE ======================= -->
+<section class="page even r-ocre">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Abrir o baú</b> · Como escolher</span></header>
+  <div class="tab"><span>Abrir o baú</span></div>
+  <div class="kick">Antes de abrires o baú</div>
+  <h1 class="disp">Como escolher uma atividade</h1>
+  <div style="display:grid;grid-template-columns:1fr 80mm;gap:6mm;align-items:center;margin-top:2.4mm">
+    <p class="lead">Este baú não se lê de uma ponta à outra. Primeiro, vê <b>quanto tempo tens</b>. Depois, escolhe <b>o que te apetece treinar</b>. Cada atividade liga-se a uma coisa que já aprendeste este ano.</p>
+    <div class="tip"><img src="../../art/mou-3.png" alt="" style="width:15mm"><div class="bub" style="font-size:8.8pt">Encontrei este baú no sótão do Gabinete. Lá dentro há <b>jogos e desafios</b> de tudo o que aprendeste este ano!</div></div>
+  </div>
+
+  <div class="board">
+    <div class="bt">A ementa do baú</div>
+    <div class="bs">escolhe uma linha (o tempo) · escolhe uma coluna (a competência)</div>
+    <div class="menu">
+      <div></div>
+      <div class="sk">{{ICO:ler}}Ler</div><div class="sk">{{ICO:escrever}}Escrever</div><div class="sk">{{ICO:falar}}Falar</div><div class="sk">{{ICO:gramatica}}Gramática</div><div class="sk">{{ICO:jogar}}Jogar</div>
+
+      <div class="tm"><b>10 min</b><span>um instante</span></div>
+      <div class="cell"><div class="it i-lei"><b>18</b>A estante da Mourinha<i>p. 141</i></div></div>
+      <div class="cell"><div class="it i-esc"><b>8</b>E se…?<i>p. 135</i></div></div>
+      <div class="cell"><div class="it i-ora"><b>12</b>Trava-línguas<i>p. 138</i></div><div class="it i-poe"><b>23</b>Adivinhas<i>p. 144</i></div></div>
+      <div class="cell"><div class="it i-jog"><b>4</b>O jogo das famílias<i>p. 133</i></div></div>
+      <div class="cell"><div class="it i-jog"><b>2</b>Sopa de letras<i>p. 132</i></div><div class="it i-ora"><b>13</b>Quem sou eu?<i>p. 138</i></div></div>
+      <div class="row-sep"></div>
+
+      <div class="tm"><b>30 min</b><span>uma tarde</span></div>
+      <div class="cell"><div class="it i-jog"><b>3</b>Jogo do dicionário<i>p. 132</i></div><div class="it i-lei"><b>17</b>Círculo de leitura<i>p. 140</i></div><div class="it i-lei"><b>19</b>Ficha de leitura<i>p. 141</i></div></div>
+      <div class="cell"><div class="it i-esc"><b>7</b>Dados de histórias<i>p. 135</i></div><div class="it i-esc"><b>9</b>Carta a uma personagem<i>p. 136</i></div><div class="it i-esc"><b>10</b>Diário de um objeto<i>p. 136</i></div><div class="it i-esc"><b>11</b>Banda desenhada<i>p. 137</i></div><div class="it i-poe"><b>22</b>Caligrama<i>p. 144</i></div></div>
+      <div class="cell"><div class="it i-ora"><b>15</b>Microfone aberto<i>p. 139</i></div></div>
+      <div class="cell"><div class="it i-jog"><b>5</b>Fábrica de palavras<i>p. 133</i></div><div class="it i-jog"><b>6</b>Dominó dos sinónimos e antónimos<i>p. 134</i></div></div>
+      <div class="cell"><div class="it i-jog"><b>1</b>Palavras cruzadas do ano<i>p. 131</i></div></div>
+      <div class="row-sep"></div>
+
+      <div class="tm"><b>Projeto</b><span>várias sessões</span></div>
+      <div class="cell"><div class="it i-lei"><b>16</b>Passaporte de leitor<i>p. 140 · o ano inteiro</i></div></div>
+      <div class="cell"><div class="it i-jor"><b>20</b>O jornal da turma<i>p. 142</i></div><div class="it i-jor"><b>21</b>A primeira página<i>p. 143</i></div></div>
+      <div class="cell"><div class="it i-ora"><b>14</b>Entrevista a um familiar<i>p. 139</i></div></div>
+      <div class="cell"><div class="it i-jor"><b>+</b>A equipa de revisão (atividade 20)<i>p. 142</i></div></div>
+      <div class="cell"><div class="it i-jor"><b>+</b>Passatempos para o jornal (atividade 21)<i>p. 143</i></div></div>
+    </div>
+  </div>
+
+  <div class="how">
+    <div><b>1 · Escolhe</b>Na ementa, cruza o tempo que tens com o que queres treinar. Sozinho, a pares ou em grupo.</div>
+    <div><b>2 · Faz</b>As chaves dizem-te o desafio: <span style="white-space:nowrap">{{KEY:bronze}} aquecer,</span> <span style="white-space:nowrap">{{KEY:prata}} aplicar,</span> <span style="white-space:nowrap">{{KEY:ouro}} desafiar-te.</span> <span style="white-space:nowrap">{{QRICON}} = ouvir</span> ou ver online.</div>
+    <div><b>3 · Regista</b>Quando acabares, pinta o círculo da atividade. Consegues pintá-los todos até às férias?</div>
+  </div>
+  <div class="lab" style="margin-top:4mm;color:var(--ink)">O meu registo · atividades 1 a 23</div>
+  <div class="track"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span></div>
+  <footer class="folio">130</footer>
+</section>
+
+<!-- ======================= 131 · CROSSWORD ======================= -->
+<section class="page odd r-ultra">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Jogos de palavras</b> · Palavras cruzadas</span></header>
+  <div class="tab"><span>Jogos de palavras</span></div>
+  <div class="kick">Jogos de palavras · O vocabulário do ano</div>
+  <h1 class="disp">Palavras cruzadas do ano</h1>
+  <p class="lead" style="margin-top:2.4mm">Todas as respostas são palavras que aprendeste nas Unidades 1 a 4. Escreve-as em maiúsculas, <b>sem acentos</b>: uma letra em cada quadrado.</p>
+  <div class="act">
+    <div class="act-h"><span class="num">1</span>{{KEY:prata}}<h3>Catorze palavras, catorze pistas</h3><span class="skill">Jogar · Vocabulário</span></div>
+    <div class="cwwrap">{{CW_GRID}}</div>
+    <div class="clues">
+      <div><h4><i>→</i> Horizontais</h4><ol>{{CW_A}}</ol></div>
+      <div><h4><i>↓</i> Verticais</h4><ol>{{CW_D}}</ol><p class="note" style="margin-top:3mm">A etiqueta à direita de cada pista diz-te em que unidade aprendeste a palavra. Ficaste sem ideias? Volta a essa unidade e procura-a no glossário.</p></div>
+    </div>
+  </div>
+  <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../../art/mou-1.png" alt=""><div class="bub">Começa pelas pistas que sabes de certeza: cada palavra certa <b>oferece letras</b> às palavras que a cruzam. Eu começava pela 10, que fala de mim!</div></div>
+  <footer class="folio">131</footer>
+</section>
+
+<!-- ======================= 132 · WORD SEARCH + DICTIONARY GAME ======================= -->
+<section class="page even r-ultra">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Jogos de palavras</b> · Sopa de letras · Dicionário</span></header>
+  <div class="tab"><span>Jogos de palavras</span></div>
+  <div class="kick">Jogos de palavras · Tipos de texto</div>
+  <h1 class="disp">Sopa de letras com segredo</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">2</span>{{KEY:bronze}}{{KEY:ouro}}<h3>Catorze palavras e uma frase escondida</h3><span class="skill">Jogar</span></div>
+    <div class="wsw">
+      {{WS_GRID}}
+      <div>
+        <p style="font-size:9.4pt">Encontra os <b>catorze</b> nomes de textos e de partes de textos que estudaste este ano. Risca cada um na grelha e na lista.</p>
+        <div class="dirs"><b style="font-size:8pt;align-self:center">Direções:</b><span>→</span><span>↓</span><span>↘</span><span>← ao contrário!</span></div>
+        <div class="wl">
+          <div><span class="chk"></span>POEMA</div><div><span class="chk"></span>ESTROFE</div><div><span class="chk"></span>RIMA</div><div><span class="chk"></span>VERSO</div><div><span class="chk"></span>LENDA</div><div><span class="chk"></span>CONTO</div><div><span class="chk"></span>FÁBULA</div>
+          <div><span class="chk"></span>TEATRO</div><div><span class="chk"></span>CENA</div><div><span class="chk"></span>FALA</div><div><span class="chk"></span>ARTIGO</div><div><span class="chk"></span>AVISO</div><div><span class="chk"></span>RETRATO</div><div><span class="chk"></span>NOTÍCIA</div>
+        </div>
+        <div class="tint" style="margin-top:2mm;font-size:8.8pt;--t:#FBEFD2"><b>{{KEY:ouro}} Frase secreta.</b> Quando tiveres as catorze, lê as letras que <b>não</b> riscaste, da esquerda para a direita e de cima para baixo.
+          <div class="msg"><span><i></i><i></i><i></i></span><span><i></i></span><span><i></i><i></i><i></i><i></i><i></i><i></i></span><span><i></i><i></i><i></i></span><span><i></i><i></i><i></i><i></i></span><span><i></i><i></i></span><span><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="act" style="margin-top:3mm">
+    <div class="act-h"><span class="num">3</span>{{KEY:prata}}<h3>O jogo do dicionário: verdade ou invenção?</h3><span class="skill">Ler · Vocabulário</span></div>
+    <p>Cada palavra existe mesmo, mas só <b>uma</b> das definições é verdadeira. As outras duas foram inventadas pela Mourinha. Rodeia a letra da verdadeira.</p>
+    <div class="dict">
+      <div class="dcard"><div class="w">alfarrábio</div><div class="g">nome masculino</div><ol><li><b>a</b>Livro antigo e, geralmente, muito grande.</li><li><b>b</b>Doce árabe feito com alfarroba e mel.</li><li><b>c</b>Pássaro que faz o ninho nas chaminés.</li></ol></div>
+      <div class="dcard"><div class="w">almocreve</div><div class="g">nome masculino</div><ol><li><b>a</b>Chapéu de palha dos pescadores da Nazaré.</li><li><b>b</b>Pessoa que conduzia animais de carga, a transportar mercadorias.</li><li><b>c</b>Barco pequeno, a remos, do rio Douro.</li></ol></div>
+      <div class="dcard"><div class="w">bátega</div><div class="g">nome feminino</div><ol><li><b>a</b>Dança de roda das festas de verão.</li><li><b>b</b>Bota de borracha para a chuva.</li><li><b>c</b>Chuva grossa e forte que cai de repente.</li></ol></div>
+      <div class="dcard"><div class="w">galhofa</div><div class="g">nome feminino</div><ol><li><b>a</b>Ramo seco que se usa para acender a lareira.</li><li><b>b</b>Risota, brincadeira barulhenta.</li><li><b>c</b>Galinha pequena, sem penas no pescoço.</li></ol></div>
+      <div class="dcard"><div class="w">mafarrico</div><div class="g">nome masculino</div><ol><li><b>a</b>Criança traquina, endiabrada.</li><li><b>b</b>Moinho pequeno movido pelo vento.</li><li><b>c</b>Marisco da costa alentejana.</li></ol></div>
+      <div class="dcard"><div class="w">sarapintado</div><div class="g">adjetivo</div><ol><li><b>a</b>Muito assustado, a tremer.</li><li><b>b</b>Que foi pintado duas vezes.</li><li><b>c</b>Com pintas de várias cores.</li></ol></div>
+    </div>
+    <div class="grid2" style="margin-top:3.4mm;grid-template-columns:1fr 64mm;align-items:center">
+      <div class="tint" style="font-size:8.8pt"><b>{{KEY:ouro}} Joguem em grupo.</b> Um jogador copia do dicionário a definição de uma palavra que ninguém conhece; os outros inventam definições falsas, <b>no estilo do dicionário</b>. Leem-se todas e vota-se na verdadeira. Cada colega enganado vale um ponto!</div>
+      <div class="qr">{{QR:priberam}}<div class="ql"><b>Explorar</b>Confirma as definições no Dicionário Priberam da Língua Portuguesa.</div></div>
+    </div>
+  </div>
+  <footer class="folio">132</footer>
+</section>
+
+<!-- ======================= 133 · FAMILIES ======================= -->
+<section class="page odd r-ultra">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Jogos de palavras</b> · Famílias de palavras</span></header>
+  <div class="tab"><span>Jogos de palavras</span></div>
+  <div class="kick">Jogos de palavras · Gramática</div>
+  <h1 class="disp">O jogo das famílias</h1>
+  <div class="rule" style="margin-top:3mm"><span class="lab">Lembra-te</span>Uma <b>família de palavras</b> junta a <b>palavra primitiva</b> (<i>mar</i>) e as <b>palavras derivadas</b> que nasceram dela com prefixos e sufixos (<i>maré, marinheiro, marítimo</i>). Todas partilham o mesmo <b>radical</b>: <i>mar-</i>. Atenção às impostoras: <i>marmelada</i> começa por «mar», mas vem de <i>marmelo</i>!</div>
+  <div class="act">
+    <div class="act-h"><span class="num">4</span>{{KEY:bronze}}<h3>Cada palavra para a sua casa</h3><span class="skill">Gramática</span></div>
+    <p>Escreve cada palavra na casa da sua família. Há <b>quatro impostoras</b>: parecem da família, mas não são. Escreve-as em baixo.</p>
+    <div class="tiles" style="margin-top:2mm"><span>pedreiro</span><span>livraria</span><span>maresia</span><span>flauta</span><span>florista</span><span>pedregulho</span><span>livre</span><span>marinheiro</span><span>floreira</span><span>livrinho</span><span>pedal</span><span>marítimo</span><span>empedrado</span><span>florir</span><span>livreiro</span><span>marmelada</span><span>maré</span><span>pedrada</span><span>florido</span><span>livrete</span></div>
+    <div class="houses">
+      <div class="house" style="--hc:var(--ultra)"><div class="roof">MAR</div><div class="body"><div class="rad">radical: mar-</div><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div></div>
+      <div class="house" style="--hc:var(--verde)"><div class="roof">LIVRO</div><div class="body"><div class="rad">radical: livr-</div><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div></div>
+      <div class="house" style="--hc:#8B6A45"><div class="roof">PEDRA</div><div class="body"><div class="rad">radical: pedr-</div><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div></div>
+      <div class="house" style="--hc:var(--ameixa)"><div class="roof">FLOR</div><div class="body"><div class="rad">radical: flor-</div><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div></div>
+    </div>
+    <div class="impost"><b style="color:var(--verm)">As impostoras:</b><span></span><span></span><span></span><span></span></div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">5</span>{{KEY:prata}}{{KEY:ouro}}<h3>A fábrica de palavras</h3><span class="skill">Gramática</span></div>
+    <div class="grid2" style="grid-template-columns:1fr 62mm;gap:5mm">
+      <table class="fab">
+        <tr><th>Palavra</th><th>Junta…</th><th>Palavra nova</th><th>O que quer dizer?</th></tr>
+        <tr><td class="w">fazer</td><td class="pf">des- +</td><td></td><td></td></tr>
+        <tr><td class="w">ler</td><td class="pf">re- +</td><td></td><td></td></tr>
+        <tr><td class="w">feliz</td><td class="pf">in- +</td><td></td><td></td></tr>
+        <tr><td class="w">sapato</td><td class="pf">+ -eiro</td><td></td><td></td></tr>
+        <tr><td class="w">casa</td><td class="pf">+ -inha</td><td></td><td></td></tr>
+        <tr><td class="w">colher</td><td class="pf">+ -ada</td><td></td><td></td></tr>
+      </table>
+      <div class="box" style="background:#FBEFD2;border-color:#EBCB86">
+        <div class="lab" style="color:#9A6512;display:flex;align-items:center;gap:1.4mm">{{KEY:ouro}} Desafio: a família da terra</div>
+        <p style="font-size:8.8pt;margin-top:1mm">Em três minutos, escreve o maior número de palavras da família de <b>terra</b>. Dica: há uma que treme, uma que vem de outro planeta e uma que o avião faz no fim da viagem.</p>
+        <span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span>
+      </div>
+    </div>
+  </div>
+  <div class="tip" style="margin-top:2.6mm"><img src="../../art/mou-1.png" alt=""><div class="bub">O meu truque: pergunta sempre <b>«O significado tem a ver com a palavra primitiva?»</b> O marinheiro trabalha no mar, por isso é da família. A marmelada não tem nada a ver com o mar!</div></div>
+  <footer class="folio">133</footer>
+</section>
+
+<!-- ======================= 134 · DOMINO ======================= -->
+<section class="page even r-ultra">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Jogos de palavras</b> · Dominó</span></header>
+  <div class="tab"><span>Jogos de palavras</span></div>
+  <div class="kick">Jogos de palavras · Sinónimos e antónimos</div>
+  <h1 class="disp">Dominó dos sinónimos e dos antónimos</h1>
+  <p class="lead" style="margin-top:2.4mm">Recorta as peças pelo tracejado, numa fotocópia. A etiqueta diz-te o que procurar: o <b>sinónimo</b> (o mesmo significado) ou o <b>antónimo</b> (o contrário). Joga bem e a última peça fecha o círculo!</p>
+  <div class="act">
+    <div class="act-h"><span class="num">6</span>{{KEY:bronze}}{{KEY:prata}}<h3>Doze peças, um círculo</h3><span class="skill">Gramática · Jogar</span></div>
+    <div class="domkey"><span><i style="background:var(--verde)"></i>procura o sinónimo</span><span><i style="background:var(--verm)"></i>procura o antónimo</span><span style="margin-left:auto;color:var(--ink2)">Exemplo: <b style="color:var(--ink)">&nbsp;alegre&nbsp;</b> + sinónimo → a peça que começa por <b style="color:var(--ink)">&nbsp;contente</b></span></div>
+    <div class="doms">{{DOMINO}}</div>
+  </div>
+  <div class="grid2" style="margin-top:5mm;grid-template-columns:1fr 1fr">
+    <div class="tint" style="font-size:8.8pt"><b>Como se joga (2 a 4 jogadores).</b> Baralhem as peças e distribuam-nas. Na sua vez, cada jogador liga uma peça a uma das pontas, se a palavra certa estiver na sua mão; se não estiver, passa. Ganha quem ficar primeiro sem peças.</div>
+    <div class="tint" style="font-size:8.8pt;background:#FBEFD2"><b>{{KEY:ouro}} Peças novas.</b> Nas três peças em branco, inventa pares teus de sinónimos ou de antónimos. Consegues abrir o círculo e metê-las lá dentro sem o estragar?</div>
+  </div>
+  <footer class="folio">134</footer>
+</section>
+
+<!-- ======================= 135 · STORY DICE ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Escrita criativa</b> · Dados de histórias</span></header>
+  <div class="tab"><span>Escrita criativa</span></div>
+  <div class="kick">Escrita criativa · Texto narrativo</div>
+  <h1 class="disp">Dados de histórias</h1>
+  <p class="lead" style="margin-top:2.4mm">Lança um dado três vezes: a primeira dá-te <b>a personagem</b>, a segunda <b>o lugar</b> e a terceira <b>o objeto</b> que vai mudar tudo. Não tens dado? Fecha os olhos e aponta com o lápis.</p>
+  <div class="act">
+    <div class="act-h"><span class="num">7</span>{{KEY:prata}}<h3>Lança, combina e conta</h3><span class="skill">Escrever</span></div>
+    <div class="dice">
+      <div class="dierow"><div class="dl">Quem?<small>1.º lançamento</small></div>
+        <div class="face">{{PIP:1}}<img src="../art/cut/da0.jpg" alt=""><span class="fn">um pirata</span></div>
+        <div class="face">{{PIP:2}}<img src="../art/cut/da1.jpg" alt=""><span class="fn">uma bruxa</span></div>
+        <div class="face">{{PIP:3}}<img src="../art/cut/da2.jpg" alt=""><span class="fn">um robô</span></div>
+        <div class="face">{{PIP:4}}<img src="../art/cut/da3.jpg" alt=""><span class="fn">uma exploradora</span></div>
+        <div class="face">{{PIP:5}}<img src="../art/cut/da4.jpg" alt=""><span class="fn">um cão</span></div>
+        <div class="face">{{PIP:6}}<img src="../art/cut/da5.jpg" alt=""><span class="fn">um inventor</span></div></div>
+      <div class="dierow"><div class="dl">Onde?<small>2.º lançamento</small></div>
+        <div class="face">{{PIP:1}}<img src="../art/cut/da6.jpg" alt=""><span class="fn">um farol</span></div>
+        <div class="face">{{PIP:2}}<img src="../art/cut/da7.jpg" alt=""><span class="fn">um castelo</span></div>
+        <div class="face">{{PIP:3}}<img src="../art/cut/da8.jpg" alt=""><span class="fn">um navio</span></div>
+        <div class="face">{{PIP:4}}<img src="../art/cut/ilha.jpg" alt=""><span class="fn">uma ilha</span></div>
+        <div class="face">{{PIP:5}}<img src="../art/cut/db0.jpg" alt=""><span class="fn">uma floresta</span></div>
+        <div class="face">{{PIP:6}}<img src="../art/cut/db2.jpg" alt=""><span class="fn">uma gruta</span></div></div>
+      <div class="dierow"><div class="dl">Com quê?<small>3.º lançamento</small></div>
+        <div class="face">{{PIP:1}}<img src="../art/cut/db3.jpg" alt=""><span class="fn">uma chave</span></div>
+        <div class="face">{{PIP:2}}<img src="../art/cut/db4.jpg" alt=""><span class="fn">um mapa</span></div>
+        <div class="face">{{PIP:3}}<img src="../art/cut/db5.jpg" alt=""><span class="fn">um guarda-chuva</span></div>
+        <div class="face">{{PIP:4}}<img src="../art/cut/db6.jpg" alt=""><span class="fn">um relógio</span></div>
+        <div class="face">{{PIP:5}}<img src="../art/cut/db7.jpg" alt=""><span class="fn">uma garrafa</span></div>
+        <div class="face">{{PIP:6}}<img src="../art/cut/db8.jpg" alt=""><span class="fn">um ovo de ouro</span></div></div>
+    </div>
+    <div class="roll" style="margin-top:3mm"><div><b>Quem:</b><span></span></div><div><b>Onde:</b><span></span></div><div><b>Com quê:</b><span></span></div></div>
+    <p style="margin-top:2.4mm;font-size:9.4pt">Planeia a história com a estrutura que conheces: <b>situação inicial</b> → <b>problema</b> → <b>tentativas</b> → <b>resolução</b>. Escreve o título e o primeiro parágrafo; termina-a no caderno.</p>
+    <div style="display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end;margin-top:1mm;font-size:8.8pt"><b>Título:</b><span class="ln s"></span></div>
+    <span class="ln"></span><span class="ln"></span><span class="ln"></span>
+  </div>
+  <div class="act" style="margin-top:3.4mm">
+    <div class="act-h"><span class="num">8</span>{{KEY:bronze}}<h3>E se…?</h3><span class="skill">Escrever · Falar</span></div>
+    <div class="ese">
+      <div><b>E se…</b>a Mourinha acordasse do tamanho de um elefante? <u>U1</u></div>
+      <div><b>E se…</b>o Galo de Barcelos voltasse a cantar, hoje, no meio da tua escola? <u>U2</u></div>
+      <div><b>E se…</b>numa noite, todas as rimas fugissem dos poemas? <u>U3</u></div>
+      <div><b>E se…</b>os atores de uma peça se esquecessem das falas a meio? <u>U4</u></div>
+      <div><b>E se…</b>as palavras do dicionário trocassem de significado? <u>U1</u></div>
+      <div><b>E se…</b>tu encontrasses uma porta nova na tua casa? <u>livre</u></div>
+    </div>
+    <p style="margin-top:.9mm;font-size:9pt">Escolhe um «E se…?» e conta-o a um colega <b>durante um minuto</b>, sem parar. Depois trocam.</p>
+  </div>
+  <div class="qr" style="position:absolute;right:24mm;top:19mm;width:66mm">{{QR:historia}}<div class="ql"><b>Ouvir · sem ideias?</b>Ouve o começo de uma história e continua-o tu.</div></div>
+  <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../../art/mou-2.png" alt="" style="width:13mm"><div class="bub" style="font-size:9pt">Uma boa história precisa de um <b>problema</b>. O que pode correr mal a um robô numa gruta com um guarda-chuva? Aposto que já tens uma ideia!</div></div>
+  <footer class="folio">135</footer>
+</section>
+
+<!-- ======================= 136 · LETTER + OBJECT DIARY ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Escrita criativa</b> · Carta · Diário</span></header>
+  <div class="tab"><span>Escrita criativa</span></div>
+  <div class="kick">Escrita criativa · Escrever na primeira pessoa</div>
+  <h1 class="disp">Cartas e diários</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">9</span>{{KEY:prata}}<h3>Uma carta a uma personagem</h3><span class="skill">Escrever</span></div>
+    <div class="lt">
+      <div>
+        <p>Escreve a uma personagem de que gostaste este ano. Conta-lhe o que achaste da sua história, faz-lhe perguntas, dá-lhe um conselho.</p>
+        <div class="who"><span>a Dona Guilhermina</span><span>a osga Mourinha</span><span>o peregrino da lenda do galo</span><span>o Rapaz de Bronze</span><span>a Ynari</span><span>uma personagem de um livro teu</span></div>
+      </div>
+      <img src="../art/cut/sp2.jpg" alt="" style="width:34mm;mix-blend-mode:multiply;margin:-5mm 0 -4mm auto;display:block">
+    </div>
+    <div class="pad" style="margin-top:2mm">
+      <span class="mk" style="top:6mm">local e data</span>
+      <span class="mk" style="top:13mm">saudação</span>
+      <span class="mk" style="top:20mm">corpo da carta<br><span style="color:var(--ink2);text-transform:none;letter-spacing:0;font-family:Figtree">o que queres dizer</span></span>
+      <span class="mk" style="top:55mm">despedida</span>
+      <span class="mk" style="top:62mm">assinatura</span>
+      <span class="mk" style="top:69mm">P.S.</span>
+      <span class="ln" style="width:52%;margin-left:auto"></span>
+      <span class="ln" style="width:60%"></span>
+      <span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span>
+      <span class="ln" style="width:55%"></span>
+      <span class="ln" style="width:45%;margin-left:auto"></span>
+      <span class="ln"></span>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">10</span>{{KEY:ouro}}<h3>O diário de um objeto</h3><span class="skill">Escrever</span></div>
+    <div class="diary">
+      <div>
+        <img src="../art/cut/sp3.jpg" alt="" style="width:30mm;mix-blend-mode:multiply;display:block;margin:-3mm auto -3mm">
+        <div class="dmodel" style="margin-top:1mm"><b>Querido diário,</b> hoje foi o pior dia da minha vida de sapatilha. Choveu e o Tiago meteu-me numa poça enorme. A minha gémea, a do pé esquerdo, nem me falou. Mas, quando ele marcou o golo da vitória, fui eu que chutei a bola! Estou encharcada, mas orgulhosa.<br>— <i>A Sapatilha Direita</i></div>
+      </div>
+      <div>
+        <p>Escolhe um objeto da tua casa ou da tua mochila e escreve <b>uma página do seu diário</b>, como se fosses ele. Usa a 1.ª pessoa e conta o que aconteceu (pretérito perfeito) e como eram as coisas (pretérito imperfeito).</p>
+        <div class="prompts"><div>O que vê o teu objeto todos os dias?</div><div>De que tem medo?</div><div>Quem é o seu melhor amigo?</div><div>Qual foi o dia mais emocionante?</div></div>
+        <div style="display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end;font-size:8.8pt"><b>O diário de</b><span class="ln s"></span></div>
+        <span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span>
+      </div>
+    </div>
+  </div>
+  <footer class="folio">136</footer>
+</section>
+
+<!-- ======================= 137 · COMIC ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Escrita criativa</b> · Banda desenhada</span></header>
+  <div class="tab"><span>Escrita criativa</span></div>
+  <div class="kick">Escrita criativa · Narrativa em imagens</div>
+  <h1 class="disp">Banda desenhada para completar</h1>
+  <p class="lead" style="margin-top:2.4mm">A Leonor e a Mourinha encontraram uma garrafa na praia. Escreve as falas e os pensamentos nos balões, completa as legendas e desenha, nas vinhetas 5 e 6, como acaba a aventura.</p>
+  <div class="act">
+    <div class="act-h"><span class="num">11</span>{{KEY:prata}}{{KEY:ouro}}<h3>A mensagem na garrafa</h3><span class="skill">Escrever</span></div>
+    <div class="bd">
+      <div class="panel"><img src="../art/cut/bd0.jpg" alt="" style="object-position:50% 30%"><div class="capx">Numa manhã de maré vazia…</div><div class="balw" style="right:1.6mm;top:10mm;width:28mm">{{BAL:say-bl}}</div><span class="pn">1</span></div>
+      <div class="panel"><img src="../art/cut/bd1.jpg" alt="" style="object-position:50% 30%"><div class="capx e"></div><div class="balw" style="right:1mm;top:1.6mm;width:27mm">{{BAL:think-bl}}</div><span class="pn">2</span></div>
+      <div class="panel"><img src="../art/cut/bd2.jpg" alt="" style="object-position:50% 30%"><div class="balw" style="left:14mm;top:1.6mm;width:30mm">{{BAL:say-bl}}</div><span class="pn">3</span></div>
+      <div class="panel"><img src="../art/cut/bd3.jpg" alt="" style="object-position:50% 40%"><div class="capx e"></div><div class="balw" style="left:3mm;top:12mm;width:28mm">{{BAL:think-br}}</div><span class="pn">4</span></div>
+      <div class="panel draw"><div class="capx e"></div><div class="balw" style="right:2mm;top:3mm;width:26mm">{{BAL:say-bl}}</div><div class="hint">desenha aqui</div><span class="pn">5</span></div>
+      <div class="panel draw"><div class="capx e"></div><div class="balw" style="right:2mm;top:3mm;width:26mm">{{BAL:say-br}}</div><div class="hint">o fim</div><span class="pn">6</span></div>
+    </div>
+  </div>
+  <div class="act" style="margin-top:5mm">
+    <div class="lab" style="color:var(--ink);margin-bottom:.4mm">A caixa de ferramentas da banda desenhada</div>
+    <div class="bdkey">
+      <div><svg viewBox="0 0 100 66">{{BAL:say-bl}}</svg><span><b>Balão de fala</b>O que a personagem diz. O bico aponta para quem fala.</span></div>
+      <div><svg viewBox="0 0 100 66">{{BAL:think-bl}}</svg><span><b>Balão de pensamento</b>O que pensa, mas não diz em voz alta.</span></div>
+      <div><svg viewBox="0 0 60 40"><rect x="4" y="8" width="52" height="24" fill="#FFF6B8" stroke="#1C2536" stroke-width="1.6"/></svg><span><b>Legenda</b>A voz do narrador: onde e quando.</span></div>
+      <div><svg viewBox="0 0 60 40"><text x="30" y="27" text-anchor="middle" font-family="Fraunces" font-weight="800" font-size="19" fill="#DC4A2E" transform="rotate(-8 30 22)">plof!</text></svg><span><b>Onomatopeia</b>Palavra que imita um som (Unidade 3).</span></div>
+    </div>
+    <div class="grid2" style="margin-top:3.4mm;grid-template-columns:1fr 1fr">
+      <div class="tint" style="font-size:8.8pt"><b>{{KEY:ouro}} Da BD para a narrativa.</b> No caderno, reescreve a vinheta 3 como um parágrafo de uma história, com <b>discurso direto</b>: usa o travessão e um verbo introdutor (<i>disse, exclamou, perguntou</i>).</div>
+      <div class="tint" style="font-size:8.8pt"><b>Para o jornal da turma.</b> As melhores bandas desenhadas podem ir para a secção de passatempos do jornal (p. 142). Lembra-te: uma boa vinheta tem <b>pouco texto e muita ação</b>.</div>
+    </div>
+  </div>
+  <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../../art/mou-4.png" alt="" style="width:14mm"><div class="bub" style="font-size:9pt">Nos balões, escreve <b>pouco</b> e deixa o desenho contar o resto. E não te esqueças de mim: eu também tenho coisas a dizer!</div></div>
+  <footer class="folio">137</footer>
+</section>
+
+<!-- ======================= 138 · TONGUE TWISTERS + WHO AM I ======================= -->
+<section class="page even r-turq">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Oralidade</b> · Trava-línguas · Quem sou eu?</span></header>
+  <div class="tab"><span>Oralidade</span></div>
+  <div class="kick">Oralidade · Dicção e perguntas</div>
+  <h1 class="disp">Brincar com a voz</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">12</span>{{KEY:bronze}}<h3>Trava-línguas da Mourinha</h3><span class="skill">Falar</span></div>
+    <div class="grid2" style="grid-template-columns:1fr 66mm;gap:5mm;align-items:center">
+      <p>Lê cada trava-línguas devagar, uma vez. Depois, tenta dizê-lo <b>três vezes seguidas</b>, cada vez mais depressa, sem tropeçar. Repara no som que se repete: é essa repetição que dá ritmo à frase.</p>
+      <div class="qr">{{QR:trava}}<div class="ql"><b>Ouvir</b>Ouve cada trava-línguas devagar e depressa. Depois, é a tua vez!</div></div>
+    </div>
+    <div class="tl" style="margin-top:3.4mm">
+      <div><span class="snd">som m</span>A osga <u>M</u>ourinha <u>m</u>ói <u>m</u>ilho <u>m</u>iúdo no <u>m</u>oinho da <u>m</u>inha <u>m</u>adrinha.<span class="kk">{{KEY:bronze}}</span></div>
+      <div><span class="snd">som ch</span><u>Ch</u>ove <u>ch</u>uva na <u>ch</u>aminé do <u>ch</u>alé do <u>Ch</u>ico, e o <u>Ch</u>ico, <u>ch</u>ateado, <u>ch</u>ama pelo <u>ch</u>apéu.<span class="kk">{{KEY:bronze}}</span></div>
+      <div><span class="snd">som p</span>O <u>P</u>edro <u>p</u>inta <u>p</u>ratos <u>p</u>retos e a <u>P</u>aula <u>p</u>inta <u>p</u>otes <u>p</u>ardos: <u>p</u>ratos <u>p</u>retos, <u>p</u>otes <u>p</u>ardos, que <u>p</u>intura tão <u>p</u>esada!<span class="kk">{{KEY:prata}}</span></div>
+      <div><span class="snd">som s</span><u>S</u>o<u>ss</u>ega o <u>s</u>apo <u>s</u>entado, <u>s</u>alta o <u>s</u>apo a<u>ss</u>u<u>s</u>tado; <u>s</u>e o <u>s</u>apo <u>s</u>o<u>ss</u>egar, o <u>s</u>apo não vai <u>s</u>altar.<span class="kk">{{KEY:prata}}</span></div>
+      <div><span class="snd">som g</span>Um <u>g</u>alo <u>g</u>a<u>g</u>o <u>g</u>ar<u>g</u>arejava na <u>g</u>aragem do <u>G</u>aspar; <u>g</u>ar<u>g</u>arejava tão <u>g</u>rave que o <u>G</u>aspar <u>g</u>ar<u>g</u>alhava.<span class="kk">{{KEY:ouro}}</span></div>
+      <div><span class="snd">som tr</span><u>Tr</u>inta <u>tr</u>utas <u>tr</u>émulas <u>tr</u>eparam à <u>tr</u>epadeira; a <u>tr</u>epadeira <u>tr</u>emeu e as <u>tr</u>utas <u>tr</u>apalhonas tombaram no tanque.<span class="kk">{{KEY:ouro}}</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end;margin-top:3mm;font-size:9pt"><b>{{KEY:ouro}} O meu trava-línguas (escolhe um som):</b><span class="ln s"></span></div>
+    <span class="ln s"></span>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">13</span>{{KEY:prata}}<h3>Quem sou eu?</h3><span class="skill">Falar · Jogar</span></div>
+    <p>Recorta os cartões (de preferência, numa fotocópia desta página) e inventa mais quatro. Um jogador tira um cartão <b>sem o ver</b> e segura-o na testa. Faz perguntas de <b>sim ou não</b> ao grupo. Tem dez perguntas para descobrir quem é!</p>
+    <div class="who-cards">
+      <div class="wc">{{SCIS}}<b>a osga Mourinha</b><small>personagem</small></div>
+      <div class="wc">{{SCIS}}<b>o Galo de Barcelos</b><small>lenda</small></div>
+      <div class="wc">{{SCIS}}<b>um dicionário</b><small>objeto</small></div>
+      <div class="wc">{{SCIS}}<b>uma estrofe</b><small>poesia</small></div>
+      <div class="wc">{{SCIS}}<b>um travessão</b><small>pontuação</small></div>
+      <div class="wc">{{SCIS}}<b>uma didascália</b><small>teatro</small></div>
+      <div class="wc">{{SCIS}}<b>um pirata</b><small>personagem</small></div>
+      <div class="wc">{{SCIS}}<b>um farol</b><small>lugar</small></div>
+      <div class="wc wb">{{SCIS}}<span class="ln s"></span><small>inventa</small></div>
+      <div class="wc wb">{{SCIS}}<span class="ln s"></span><small>inventa</small></div>
+      <div class="wc wb">{{SCIS}}<span class="ln s"></span><small>inventa</small></div>
+      <div class="wc wb">{{SCIS}}<span class="ln s"></span><small>inventa</small></div>
+    </div>
+    <div class="lab" style="margin-top:3mm;color:var(--ink)">Perguntas que ajudam</div>
+    <div class="qbank"><span>Sou uma pessoa?</span><span>Sou um animal?</span><span>Sou uma coisa que se pode tocar?</span><span>Apareço num poema?</span><span>Sou usado para escrever?</span><span>Vivo perto do mar?</span><span>Apareço numa peça de teatro?</span><span>Estou neste livro?</span></div>
+    <div class="tip" style="margin-top:3mm"><img src="../../art/mou-4.png" alt=""><div class="bub">Começa pelas perguntas <b>largas</b> («Sou uma pessoa?») e só depois as <b>estreitas</b> («Sou a Mourinha?»). Cada «não» também é uma pista: risca o que já sabes que não és!</div></div>
+  </div>
+  <footer class="folio">138</footer>
+</section>
+
+<!-- ======================= 139 · INTERVIEW + OPEN MIC ======================= -->
+<section class="page odd r-turq">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Oralidade</b> · Entrevista · Microfone aberto</span></header>
+  <div class="tab"><span>Oralidade</span></div>
+  <div class="kick">Oralidade · Ouvir e apresentar</div>
+  <h1 class="disp">Entrevistas e microfone aberto</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">14</span>{{KEY:prata}}<h3>Entrevista a um familiar: «Como era quando tinhas a minha idade?»</h3><span class="skill">Falar · Projeto</span></div>
+    <div class="int">
+      <div><b>Antes</b><ul><li>Escolhe quem vais entrevistar (avó, tio, vizinho…).</li><li>Escreve seis perguntas abertas, que não se respondam com «sim» ou «não».</li><li>Pede autorização se quiseres gravar.</li></ul></div>
+      <div><b>Durante</b><ul><li>Ouve com atenção e olha para a pessoa.</li><li>Pede pormenores: «E depois?», «Como te sentiste?»</li><li>Toma notas curtas: só palavras-chave.</li></ul></div>
+      <div><b>Depois</b><ul><li>Agradece a entrevista.</li><li>Escolhe a resposta mais surpreendente e transcreve-a com <b>discurso direto</b> e travessão.</li><li>Apresenta-a à turma ou ao jornal.</li></ul></div>
+    </div>
+    <table class="notes2" style="margin-top:3mm">
+      <tr><th>Pergunta</th><th>Notas da resposta (palavras-chave)</th></tr>
+      <tr><td class="q">Como era a tua escola?</td><td></td></tr>
+      <tr><td class="q">A que brincavas no recreio?</td><td></td></tr>
+      <tr><td class="q">Qual era o teu livro preferido?</td><td></td></tr>
+      <tr><td class="q">O que mudou mais desde esse tempo?</td><td></td></tr>
+      <tr><td class="q" style="color:var(--turq)">A minha pergunta:</td><td></td></tr>
+    </table>
+    <p class="note" style="margin-top:1.4mm">Repara nos tempos verbais: para hábitos do passado usamos o <b>pretérito imperfeito</b> (<i>era, brincavas</i>); para uma ação já acabada, o <b>pretérito perfeito</b> (<i>mudou</i>). Escreve mais duas perguntas no caderno.</p>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">15</span>{{KEY:bronze}}{{KEY:ouro}}<h3>Microfone aberto</h3><span class="skill">Falar</span></div>
+    <div class="mic">
+      <img src="../art/cut/sp0.jpg" alt="">
+      <div>
+        <p>Uma vez por período, a sala transforma-se num palco. Cada artista tem <b>um minuto</b> para apresentar o que quiser: um poema de cor, um trava-línguas, uma adivinha, uma notícia, um monólogo de teatro, uma história com os dados.</p>
+        <div class="poster" style="margin-top:2.4mm">
+          <div class="pt">Microfone aberto · alinhamento</div>
+          <div class="lineup"><div class="hd">n.º</div><div class="hd">artista</div><div class="hd">o que vou apresentar</div><div class="hd">tempo</div>
+            <div class="n">1</div><div></div><div></div><div></div><div class="n">2</div><div></div><div></div><div></div><div class="n">3</div><div></div><div></div><div></div><div class="n">4</div><div></div><div></div><div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="stage">
+      <div><b>A voz</b>Fala alto e devagar, para a última fila.</div>
+      <div><b>O olhar</b>Olha para o público, não para os pés.</div>
+      <div><b>As pausas</b>Faz uma pausa antes da parte mais importante.</div>
+      <div><b>O público</b>Ouve em silêncio e aplaude no fim de cada artista.</div>
+    </div>
+  </div>
+  <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../../art/mou-1.png" alt="" style="width:14mm"><div class="bub" style="font-size:9pt">Tens nervos antes de subir ao palco? Respira fundo três vezes, escolhe uma cara simpática na plateia e <b>fala para ela</b>. Resulta sempre!</div></div>
+  <footer class="folio">139</footer>
+</section>
+
+<!-- ======================= 140 · READER PASSPORT ======================= -->
+<section class="page even r-verde">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Clube de leitura</b> · Passaporte de leitor</span></header>
+  <div class="tab"><span>Clube de leitura</span></div>
+  <div class="kick">Clube de leitura · Ler por prazer</div>
+  <h1 class="disp">O passaporte de leitor</h1>
+  <p class="lead" style="margin-top:2.4mm">Quem lê viaja sem sair do lugar. Por cada livro que acabares, escreve o título e a data num visto e pede ao professor ou à bibliotecária que o carimbe. Nove vistos, nove viagens diferentes!</p>
+  <div class="act">
+    <div class="act-h"><span class="num">16</span>{{KEY:bronze}}<h3>Nove vistos para carimbar</h3><span class="skill">Ler · Projeto</span></div>
+    <div class="passport">
+      <div class="pp">
+        <h5>Passaporte de leitor · Prime School</h5>
+        <div class="photo">fotografia ou autorretrato</div>
+        <div class="r"><b>Nome</b><span></span></div>
+        <div class="r"><b>Turma</b><span></span></div>
+        <div class="r"><b>Leitor desde</b><span></span></div>
+        <div class="r"><b>O meu género preferido</b><span></span></div>
+        <div class="r"><b>Assinatura</b><span></span></div>
+        <div class="mrz">P&lt;PRT&lt;LEITOR&lt;&lt;DO&lt;&lt;ANO&lt;&lt;&lt;&lt;<br>LER&lt;E&lt;VIAJAR&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</div>
+      </div>
+      <div class="pp">
+        <h5>Vistos · um livro de cada tipo</h5>
+        <div class="visas">
+          <div class="visa"><span class="n">1</span><img src="../art/cut/st2.jpg" alt="" style="--rot:-5deg"><div class="g">Uma aventura</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">2</span><img src="../art/cut/st4.jpg" alt="" style="--rot:6deg"><div class="g">Um mistério</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">3</span><img src="../art/cut/st6.jpg" alt="" style="--rot:-8deg"><div class="g">Um livro de poemas</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">4</span><img src="../art/cut/st5.jpg" alt="" style="--rot:4deg"><div class="g">Uma peça de teatro</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">5</span><img src="../art/cut/st7.jpg" alt="" style="--rot:-3deg"><div class="g">Uma lenda ou conto tradicional</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">6</span><img src="../art/cut/st1.jpg" alt="" style="--rot:7deg"><div class="g">Um livro de informação</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">7</span><img src="../art/cut/st3.jpg" alt="" style="--rot:-6deg"><div class="g">Uma história de fantasia</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">8</span><img src="../art/cut/st8.jpg" alt="" style="--rot:5deg"><div class="g">Um autor de outro país lusófono</div><div class="l">título</div><div class="l">data</div></div>
+          <div class="visa"><span class="n">9</span><img src="../art/cut/st0.jpg" alt="" style="--rot:-4deg"><div class="g">Um livro que um colega me recomendou</div><div class="l">título</div><div class="l">data</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">17</span>{{KEY:prata}}<h3>O círculo de leitura: cinco papéis</h3><span class="skill">Ler · Falar</span></div>
+    <p>Em grupos de cinco, leiam o mesmo livro (ou o mesmo capítulo). Cada um tem um papel; na sessão seguinte, trocam.</p>
+    <div class="roles">
+      <div><b>Detetive de palavras</b>Encontra três palavras novas ou curiosas e explica-as ao grupo.</div>
+      <div><b>Ilustrador</b>Desenha a cena mais marcante e pede ao grupo que adivinhe qual é.</div>
+      <div><b>Perguntador</b>Prepara três perguntas que obriguem a pensar (porquê? e se?).</div>
+      <div><b>Ligador</b>Liga a história à vida real ou a outro livro que o grupo conheça.</div>
+      <div><b>Resumidor</b>Conta o que aconteceu em cinco frases, sem saltar o problema.</div>
+    </div>
+  </div>
+  <div class="tip" style="position:absolute;left:24mm;right:16mm;bottom:21mm"><img src="../../art/mou-3.png" alt="" style="width:14mm"><div class="bub" style="font-size:9pt">Eu já tenho sete carimbos! Faltam-me o do <b>teatro</b> e o do <b>mistério</b>. E tu, que visto vais carimbar primeiro?</div></div>
+  <footer class="folio">140</footer>
+</section>
+
+<!-- ======================= 141 · SHELF + READING CARD ======================= -->
+<section class="page odd r-verde">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Clube de leitura</b> · Recomendações · Ficha</span></header>
+  <div class="tab"><span>Clube de leitura</span></div>
+  <div class="kick">Clube de leitura · Autores de língua portuguesa</div>
+  <h1 class="disp">A estante da Mourinha</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">18</span>{{KEY:bronze}}<h3>Dez livros para levar para casa</h3><span class="skill">Ler</span></div>
+    <p>Livros escritos em português, de Portugal, de Moçambique e de Angola, para leitores da tua idade. Assinala os que já leste e escolhe o próximo.</p>
+    <div class="shelf">
+      <div class="book" style="--bc:var(--verm)"><div class="sp"></div><div class="t"><div class="ti">Rosa, Minha Irmã Rosa</div><div class="au">Alice Vieira<b>narrativa</b></div><p>A Mariana tem dez anos e deixa de ser filha única. Ciúmes, descobertas e muito humor numa família cheia de vida.</p></div></div>
+      <div class="book" style="--bc:var(--turq)"><div class="sp"></div><div class="t"><div class="ti">A Menina do Mar</div><div class="au">Sophia de Mello Breyner Andresen<b>conto</b></div><p>Um rapaz que vive numa casa junto à praia faz amizade com uma menina minúscula que mora no fundo do mar.</p></div></div>
+      <div class="book" style="--bc:var(--ultra)"><div class="sp"></div><div class="t"><div class="ti">Uma Aventura na Cidade</div><div class="au">Ana Maria Magalhães e Isabel Alçada<b>mistério</b></div><p>O livro que deu início à coleção «Uma Aventura»: um grupo de amigos, dois cães e um mistério para resolver.</p></div></div>
+      <div class="book" style="--bc:#C9761C"><div class="sp"></div><div class="t"><div class="ti">Poemas da Mentira e da Verdade</div><div class="au">Luísa Ducla Soares<b>poesia</b></div><p>De um lado, poemas de disparates e fantasia; do outro, poemas a sério sobre o mundo. Qual preferes?</p></div></div>
+      <div class="book" style="--bc:var(--verde)"><div class="sp"></div><div class="t"><div class="ti">A Maior Flor do Mundo</div><div class="au">José Saramago<b>conto</b></div><p>Um menino atravessa campos e montes para salvar uma flor quase seca. O único Nobel português a escrever para ti.</p></div></div>
+      <div class="book" style="--bc:var(--ameixa)"><div class="sp"></div><div class="t"><div class="ti">O Gato e o Escuro</div><div class="au">Mia Couto · Moçambique<b>conto</b></div><p>O gatinho Pintalgato desobedece à mãe e espreita para lá da fronteira do dia. Uma história sobre o medo.</p></div></div>
+      <div class="book" style="--bc:#8B6A45"><div class="sp"></div><div class="t"><div class="ti">Romance da Raposa</div><div class="au">Aquilino Ribeiro<b>narrativa</b></div><p>As manhas da raposa Salta-Pocinhas, que engana o lobo, os caçadores e quase toda a gente. Um clássico.</p></div></div>
+      <div class="book" style="--bc:var(--verm)"><div class="sp"></div><div class="t"><div class="ti">Leandro, Rei da Helíria</div><div class="au">Alice Vieira<b>teatro</b></div><p>Um rei quer saber qual das três filhas gosta mais dele. Uma peça para ler e representar, inspirada num conto tradicional.</p></div></div>
+      <div class="book" style="--bc:var(--verde)"><div class="sp"></div><div class="t"><div class="ti">Lá Fora — Guia para Descobrir a Natureza</div><div class="au">Maria Ana Peixe Dias e Inês Teixeira do Rosário<b>informação</b></div><p>Um guia para explorar plantas, animais, o céu e muito mais, cheio de ilustrações. Ideal para as férias.</p></div></div>
+      <div class="book" style="--bc:#C9761C"><div class="sp"></div><div class="t"><div class="ti">O Leão e o Coelho Saltitão</div><div class="au">Ondjaki · Angola<b>fábula</b></div><p>O Leão pede ajuda ao Coelho Saltitão para acabar com a fome na floresta. A solução do coelho é inesperada!</p></div></div>
+    </div>
+    <p class="srcs" style="margin-top:1.4mm">Títulos e autores confirmados em setembro de 2026 em catálogos de editoras e livrarias (Caminho, Porto Editora, Planeta Tangerina, Wook) e na Biblioteca Nacional de Portugal. Os resumos foram escritos para este livro.</p>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">19</span>{{KEY:prata}}<h3>A ficha de leitura</h3><span class="skill">Ler · Escrever</span></div>
+    <div class="ficha">{{SCIS}}
+      <div>
+        <h5>Ficha de leitura n.º ____</h5>
+        <div class="r"><b>Título</b><span></span></div>
+        <div class="grid2" style="gap:3mm"><div class="r"><b>Autor</b><span></span></div><div class="r"><b>Ilustrador</b><span></span></div></div>
+        <div class="r"><b>Personagens principais</b><span></span></div>
+        <div class="r"><b>O livro em três frases</b><span></span></div>
+        <span class="ln"></span><span class="ln"></span><span class="ln"></span>
+        <div class="r"><b>Recomendo-o a</b><span></span></div>
+      </div>
+      <div>
+        <div class="drawbox">a minha cena preferida</div>
+        <div class="stars"><svg viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" fill="none" stroke="#2F6E5C" stroke-width="1.5"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" fill="none" stroke="#2F6E5C" stroke-width="1.5"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" fill="none" stroke="#2F6E5C" stroke-width="1.5"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" fill="none" stroke="#2F6E5C" stroke-width="1.5"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l3 7 7 .6-5.3 4.7 1.6 7.2L12 17.8 5.7 21.5l1.6-7.2L2 9.6 9 9z" fill="none" stroke="#2F6E5C" stroke-width="1.5"/></svg><span style="font-size:7.6pt;color:var(--ink2);align-self:center;margin-left:1mm">pinta as estrelas</span></div>
+      </div>
+    </div>
+  </div>
+  <footer class="folio">141</footer>
+</section>
+
+<!-- ======================= 142 · CLASS NEWSPAPER: PLAN ======================= -->
+<section class="page even r-verm">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Projeto de fim de ano</b> · O jornal da turma</span></header>
+  <div class="tab"><span>Projeto · Jornal</span></div>
+  <div class="kick">Projeto de fim de ano · Todos os textos do ano</div>
+  <h1 class="disp">O jornal da turma</h1>
+  <div class="jtop">
+    <p class="lead" style="margin-top:2.4mm">No fim do ano, a turma vai publicar o seu próprio jornal. Vão lá estar os textos que aprendeste a escrever: notícias, entrevistas, opiniões, poemas, avisos e passatempos. Primeiro, é preciso <b>formar a redação</b> e <b>planear cada página</b>.</p>
+    <img src="../art/cut/sp1.jpg" alt="" style="margin-top:-8mm">
+  </div>
+  <div class="act" style="margin-top:1mm">
+    <div class="act-h"><span class="num">20</span>{{KEY:prata}}<h3>A redação: quem faz o quê?</h3><span class="skill">Escrever · Projeto</span></div>
+    <div class="jroles">
+      <div><b>Diretor</b>Coordena a equipa, decide a manchete e cumpre os prazos.<div class="qm">Quem?<span></span></div></div>
+      <div><b>Repórteres</b>Investigam, entrevistam e escrevem as notícias.<div class="qm">Quem?<span></span></div></div>
+      <div><b>Colunistas</b>Escrevem textos de opinião, sempre com argumentos.<div class="qm">Quem?<span></span></div></div>
+      <div><b>Ilustradores</b>Fazem fotografias, desenhos e a banda desenhada.<div class="qm">Quem?<span></span></div></div>
+      <div><b>Revisores</b>Corrigem a ortografia, a pontuação e a concordância.<div class="qm">Quem?<span></span></div></div>
+      <div><b>Paginadores</b>Arrumam textos e imagens na página (p. 143).<div class="qm">Quem?<span></span></div></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="lab" style="color:var(--ink);margin-bottom:1.4mm">O plano do jornal</div>
+    <table class="tbl jplan" style="--c:var(--verm)">
+      <tr><th>Secção</th><th>Tipo de texto</th><th>Aprendeste em…</th><th>Responsáveis</th><th>Entrega</th><th><svg viewBox="0 0 16 16" style="width:1em;height:1em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M2.5 8.6 6.3 12.2 13.6 3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></th></tr>
+      <tr><td class="s">Primeira página</td><td>notícia e manchete</td><td class="u">texto informativo</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+      <tr><td class="s">Gente da nossa terra</td><td>entrevista</td><td class="u">atividade 14</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+      <tr><td class="s">A nossa opinião</td><td>texto de opinião</td><td class="u">Unidade 1 · facto e opinião</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+      <tr><td class="s">Cantinho da poesia</td><td>poema ou caligrama</td><td class="u">Unidade 3 · atividade 22</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+      <tr><td class="s">Livros e palcos</td><td>recomendação de livro ou peça</td><td class="u">atividades 18 e 19</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+      <tr><td class="s">Passatempos</td><td>palavras cruzadas, adivinhas, BD</td><td class="u">atividades 1, 11 e 23</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+      <tr><td class="s">Avisos e classificados</td><td>aviso</td><td class="u">Unidade 1 · imperativo</td><td></td><td></td><td class="c"><span class="chk"></span></td></tr>
+    </table>
+  </div>
+  <div class="act">
+    <div class="lab" style="color:var(--ink);margin-bottom:1.4mm">Cinco sessões até à banca</div>
+    <div class="timeline" style="margin-top:3mm">
+      <div><b>Sessão 1</b>Reunião de redação: nome do jornal, papéis e plano.</div>
+      <div><b>Sessão 2</b>Reportagem: entrevistas, fotografias e notas.</div>
+      <div><b>Sessão 3</b>Escrita dos primeiros rascunhos.</div>
+      <div><b>Sessão 4</b>Revisão a pares e paginação.</div>
+      <div><b>Lançamento</b>Imprimir, distribuir e ler em voz alta!</div>
+    </div>
+  </div>
+  <footer class="folio">142</footer>
+</section>
+
+<!-- ======================= 143 · CLASS NEWSPAPER: FRONT PAGE ======================= -->
+<section class="page odd r-verm">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Projeto de fim de ano</b> · A primeira página</span></header>
+  <div class="tab"><span>Projeto · Jornal</span></div>
+  <div class="kick">Projeto de fim de ano · Paginação</div>
+  <h1 class="disp">A primeira página</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">21</span>{{KEY:prata}}{{KEY:ouro}}<h3>Faz o rascunho da primeira página</h3><span class="skill">Escrever · Projeto</span></div>
+    <p>Uma notícia responde a seis perguntas. As respostas mais importantes vão logo no <b>lead</b>, o primeiro parágrafo.</p>
+    <div class="six" style="margin-top:2mm">
+      <div><b>Quem?</b>as pessoas envolvidas</div><div><b>O quê?</b>o que aconteceu</div><div><b>Quando?</b>dia e hora</div><div><b>Onde?</b>o lugar</div><div><b>Como?</b>de que maneira</div><div><b>Porquê?</b>a causa</div>
+    </div>
+    <div class="front">
+      <div class="mast"><span class="o">O</span><span class="blank"></span><span style="font-family:'DM Mono';font-size:6.6pt;letter-spacing:.12em;color:var(--ink2);text-transform:uppercase;padding-bottom:1mm">nome do jornal</span></div>
+      <div class="strip"><span>N.º 1</span><span>Data <i></i></span><span>Turma <i></i></span><span>Preço: um sorriso</span></div>
+      <div class="fgrid">
+        <div>
+          <div class="fz"><em>manchete</em><span class="ln h"></span><span class="ln h"></span></div>
+          <div class="fz" style="margin-top:2.6mm"><em>lead · quem, o quê, quando, onde</em><span class="ln"></span><span class="ln"></span><span class="ln"></span></div>
+          <div class="photo2">fotografia ou desenho</div>
+          <div class="fz"><em>legenda</em><span class="ln"></span></div>
+        </div>
+        <div class="fz" style="background:#FBF3E8"><em>a nossa opinião</em><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><div class="note" style="margin-top:1mm">Assinado por: <span class="fill"></span></div></div>
+      </div>
+      <div class="fcols">
+        <div class="fz"><em>desenvolvimento da notícia</em><span class="ln"></span><span class="ln"></span><span class="ln"></span></div>
+        <div class="fz"><em>continuação</em><span class="ln"></span><span class="ln"></span><span class="ln"></span></div>
+      </div>
+      <div class="fbot">
+        <div class="fz"><em>neste número</em><span class="ln"></span><span class="ln"></span></div>
+        <div class="fz"><em>passatempos · p. 4</em><span class="ln"></span><span class="ln"></span></div>
+        <div class="fz"><em>aviso</em><span class="ln"></span><span class="ln"></span></div>
+      </div>
+    </div>
+  </div>
+  <div class="box" style="margin-top:4mm;font-size:8.8pt;display:grid;grid-template-columns:auto 1fr 1fr 1fr;gap:2mm 5mm;align-items:center">
+    <b class="lab" style="color:var(--verm)">Revisor, confirma:</b>
+    <span><span class="chk"></span>a manchete é curta e tem um verbo</span>
+    <span><span class="chk"></span>o lead responde a quatro perguntas</span>
+    <span><span class="chk"></span>a opinião está separada da notícia</span>
+  </div>
+  <footer class="folio">143</footer>
+</section>
+
+<!-- ======================= 144 · CALLIGRAM + RIDDLES ======================= -->
+<section class="page even r-ocre">
+  <header class="run"><span>Atividades Extra · Unidade 7</span><span><b>Poesia e adivinhas</b> · Caligrama · Adivinhas</span></header>
+  <div class="tab"><span>Poesia e adivinhas</span></div>
+  <div class="kick">Texto poético · Poesia visual</div>
+  <h1 class="disp">Poemas que se veem</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">22</span>{{KEY:prata}}<h3>O caligrama: um poema com a forma do que diz</h3><span class="skill">Escrever</span></div>
+    <p>Num <b>caligrama</b>, as palavras do poema desenham o seu assunto. Roda o livro e lê o poema do caracol, de fora para dentro. Depois, escreve um poema teu dentro do papagaio de papel, seguindo o tracejado.</p>
+    <div class="poe">
+      <div class="fr">{{CALIGRAMA}}<div class="cap" style="text-align:center"><b>Exemplo</b> «O caracol» — poema escrito para este livro</div></div>
+      <div class="fr">{{KITE}}<div class="cap" style="text-align:center"><b>A tua vez</b> um poema sobre o vento, as férias ou voar</div></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">23</span>{{KEY:bronze}}<h3>Adivinha, adivinha!</h3><span class="skill">Falar · Jogar</span></div>
+    <div class="grid2" style="grid-template-columns:1fr 64mm;gap:5mm;align-items:center"><p>Lê em voz alta a um colega. As pistas estão nas rimas! Sem espreitar as respostas.</p><div class="qr">{{QR:adivinhas}}<div class="ql"><b>Ouvir</b>Ouve as seis adivinhas, com tempo para pensares.</div></div></div>
+    <div class="adv">
+      <div><b>1</b>Tenho folhas e não sou árvore,<br>tenho lombada e não sou animal;<br>quem me abre viaja longe<br>sem sair do seu quintal.</div>
+      <div><b>2</b>Subo paredes sem escada,<br>ando no teto sem cair;<br>se me agarram pela cauda,<br>deixo-a lá e ponho-me a fugir.</div>
+      <div><b>3</b>Tenho dentes e não mordo,<br>penteio sem ter mão;<br>passo pelo teu cabelo<br>e desfaço a confusão.</div>
+      <div><b>4</b>Quanto mais eu cresço,<br>menos tu consegues ver;<br>chego sempre com a noite<br>e fujo ao amanhecer.</div>
+      <div><b>5</b>Tenho um só olho e não vejo,<br>passo a vida a costurar;<br>levo atrás de mim a linha<br>onde quer que vá parar.</div>
+      <div><b>6</b>Tenho cidades sem casas<br>e rios sem peixe a nadar,<br>tenho montanhas sem pedras<br>e dobro-me para viajar.</div>
+    </div>
+    <div class="ans"><b>Respostas:</b> 1. o livro · 2. a osga · 3. o pente · 4. o escuro · 5. a agulha · 6. o mapa</div>
+  </div>
+  <div style="position:absolute;left:24mm;right:16mm;bottom:21mm;display:grid;grid-template-columns:1fr 62mm;gap:6mm;align-items:center">
+    <div class="tip"><img src="../../art/mou-2.png" alt=""><div class="bub">A adivinha 2 é sobre mim, claro! Agora <b>inventa uma adivinha tua</b> e leva-a para o microfone aberto. Boas férias e boas leituras!</div></div>
+    <div class="qr">{{QR:solucoes}}<div class="ql"><b>Para o professor</b>Soluções dos jogos e guiões dos áudios desta unidade.</div></div>
+  </div>
+  <footer class="folio">144</footer>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>O Coreto das Palavras — Português · Year 5 · Unidade 3</title>
+<style>
+{{BASECSS}}
+
+/* ================= UNIT 3 · O Coreto das Palavras ================= */
+.p-open .art{background:url(../art/opener.jpg) center 70%/cover}
+.p-open .veil{height:118mm;background:linear-gradient(#F4ECDC 0%,rgba(244,236,220,.93) 48%,rgba(244,236,220,0) 100%)}
+.p-open .u,.p-open .u .big{color:var(--ultra)}
+.p-open h1 i{color:var(--verm)}
+.p-open .tag .lab{color:var(--ultra)}
+.p-open .tag{width:66mm;bottom:17mm}
+
+/* poem card */
+.poem-card{background:#FFFDF7;border:.8pt solid var(--rule);border-radius:2mm;padding:5mm 6mm 4.4mm 13mm;box-shadow:1.6mm 1.6mm 0 var(--t);position:relative;counter-reset:vn}
+.poem-t{font-family:"Fraunces";font-weight:700;font-size:17pt;line-height:1.05;font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 72;color:var(--ink)}
+.poem-by{font-family:"DM Mono";font-size:6.8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:1.2mm 0 3.4mm}
+.poem{font-family:"Fraunces";font-variation-settings:"SOFT" 60,"WONK" 0,"opsz" 14;font-size:12.2pt;line-height:1.5;color:#20283a}
+.poem .st{margin-bottom:3.2mm;position:relative}
+.poem .st:last-child{margin-bottom:0}
+.poem .v{display:block;position:relative}
+.poem.vnum .v{counter-increment:vn}
+.poem.vnum .v:before{content:counter(vn);position:absolute;left:-9mm;width:6mm;text-align:right;font-family:"DM Mono";font-size:6.8pt;color:#9C927E;top:.5em}
+.poem .br{position:absolute;right:-4mm;top:.35em;bottom:.35em;border-right:1.4pt solid var(--c);width:2mm;border-top:1.4pt solid var(--c);border-bottom:1.4pt solid var(--c)}
+.poem .bl{position:absolute;left:calc(100% + 5.4mm);top:50%;transform:translateY(-50%);font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.1em;text-transform:uppercase;color:var(--c);white-space:nowrap}
+.sch{display:inline-flex;width:4.6mm;height:4.6mm;border-radius:50%;color:#fff;font-family:"DM Mono";font-weight:500;font-size:7pt;align-items:center;justify-content:center;margin-left:2mm;vertical-align:1.2pt}
+.rA{background:linear-gradient(transparent 62%,#F4D18F 62%,#F4D18F 94%,transparent 94%)}
+.rB{background:linear-gradient(transparent 62%,#BFE0E3 62%,#BFE0E3 94%,transparent 94%)}
+.sA{background:var(--ocre)}.sB{background:var(--turq)}.sC{background:#9C927E}
+.hl-c{background:linear-gradient(transparent 60%,#CFE3D7 60%,#CFE3D7 94%,transparent 94%)}
+.hl-pe{background:linear-gradient(transparent 60%,#E5C4D9 60%,#E5C4D9 94%,transparent 94%)}
+.hl-m{background:linear-gradient(transparent 60%,#F4D18F 60%,#F4D18F 94%,transparent 94%)}
+.hl-r{background:linear-gradient(transparent 60%,#DCE1F3 60%,#DCE1F3 94%,transparent 94%)}
+.hl-on{background:linear-gradient(transparent 60%,#F7D9CE 60%,#F7D9CE 94%,transparent 94%)}
+
+/* tool header */
+.toolbar{display:flex;align-items:center;gap:3mm;margin-bottom:1mm}
+.toolbar .badge{font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;background:var(--c);color:#fff;padding:1.2mm 2.4mm;border-radius:1mm}
+.toolbar .dots{display:flex;gap:1.2mm}
+.toolbar .dots i{width:2.6mm;height:2.6mm;border-radius:50%;border:.9pt solid var(--c)}
+.toolbar .dots i.on{background:var(--c)}
+.defn{background:var(--t);border-radius:2.4mm;padding:3mm 3.6mm;font-size:9.4pt;line-height:1.38}
+.defn .w{font-family:"Fraunces";font-weight:700;font-size:15pt;line-height:1;color:var(--c);font-variation-settings:"SOFT" 100,"WONK" 1;margin-bottom:1.2mm}
+.defn .ex{font-family:"Fraunces";font-style:italic;margin-top:1.2mm;color:#20283a}
+.names{display:grid;grid-template-columns:repeat(5,1fr);gap:1.6mm}
+.names div{background:#fff;border:.8pt solid var(--rule);border-radius:1.4mm;padding:1.8mm 2.2mm;font-size:8.2pt;line-height:1.25;display:grid;grid-template-columns:1fr 7mm;column-gap:1.5mm;align-items:center}
+.names div b{display:block;font-family:"Fraunces";font-size:11pt;color:var(--c);grid-column:1}
+.names .bars{display:flex;flex-direction:column;gap:.9mm;grid-column:2;grid-row:1/3}
+.names .bars i{display:block;height:1.1mm;width:100%;background:#C9C1B2;border-radius:.5mm}
+
+/* 3.1 author */
+.author{display:grid;grid-template-columns:66mm 1fr;gap:7mm;margin-top:3mm;align-items:start}
+.idcard{background:#fff;border:1pt solid var(--ink);border-radius:2mm;overflow:hidden}
+.idcard .top{background:var(--c);color:#fff;padding:2.4mm 3.4mm;font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;display:flex;justify-content:space-between}
+.idcard img{width:100%;display:block;mix-blend-mode:multiply;padding:2mm 4mm 0}
+.idcard dl{display:grid;grid-template-columns:auto 1fr;gap:1.3mm 3mm;padding:2.6mm 3.4mm 3.2mm;font-size:8.8pt;line-height:1.3}
+.idcard dt{font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--c);padding-top:.5mm}
+.shelf{display:flex;align-items:flex-end;gap:1.4mm;height:40mm;box-sizing:border-box;border-bottom:3pt solid #8B6A45;padding:0 3mm;margin-top:2mm}
+.spine{width:10.5mm;border-radius:1mm 1mm 0 0;display:flex;align-items:center;justify-content:center;color:#fff;font-family:"Fraunces";font-weight:600;font-size:6.5pt;line-height:1;padding:1.6mm 0;box-sizing:border-box;box-shadow:inset -1.4mm 0 0 rgba(0,0,0,.12)}
+.spine span{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;letter-spacing:.02em}
+.vf{display:grid;grid-template-columns:1fr 9mm 9mm;gap:1.1mm 2mm;font-size:9.4pt;align-items:center}
+.vf .h{font-family:"DM Mono";font-size:6.6pt;letter-spacing:.1em;text-align:center;color:var(--ink2)}
+.vf .b{width:6.4mm;height:6.4mm;border:.8pt solid var(--ink);border-radius:1mm;background:#fff;justify-self:center}
+.src{font-size:7.2pt;line-height:1.35;color:var(--ink2);font-style:italic}
+
+/* extract */
+.extract{position:relative;background:#fff;border-left:4pt solid var(--c);border-radius:0 2mm 2mm 0;padding:4.4mm 6mm 4mm 7mm;box-shadow:1.4mm 1.4mm 0 var(--t)}
+.extract .q{font-family:"Fraunces";font-size:14.6pt;line-height:1.5;font-variation-settings:"opsz" 18;margin:0}
+.extract .mark{position:absolute;right:5mm;top:-1mm;font-family:"Fraunces";font-size:54pt;line-height:1;color:var(--t)}
+.extract .att{font-size:8.2pt;color:var(--ink2);margin-top:2.4mm}
+.diary{display:grid;grid-template-columns:1fr 46mm;gap:4mm;background:#FFFDF7;border:1pt solid var(--ink);border-radius:1.6mm;padding:3.4mm 4mm;position:relative}
+.diary .r{display:grid;grid-template-columns:34mm 1fr;align-items:end;gap:2mm;font-size:8.4pt;margin-bottom:.6mm}
+.diary .r b{font-family:"DM Mono";font-weight:500;font-size:6.5pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.diary .r span{border-bottom:.7pt solid #9C927E;height:9mm}
+.diary .draw{border:.8pt dashed var(--c);border-radius:1.4mm;background:#fff;display:flex;align-items:flex-end;justify-content:center;font-size:7.4pt;color:var(--ink2);padding-bottom:2mm}
+
+/* rhymes */
+.rhymes{display:grid;grid-template-columns:1fr;gap:3mm}
+.rcard{background:#FFFDF7;border:.8pt solid var(--rule);border-left:3.4pt solid var(--c);border-radius:0 2mm 2mm 0;padding:2.8mm 4mm;display:grid;grid-template-columns:42mm 88mm 1fr;gap:5mm;align-items:center}
+.rcard .poem .v{position:relative;white-space:nowrap}
+.rcard .nm{font-family:"Fraunces";font-weight:700;font-size:13.4pt;line-height:1;color:var(--c)}
+.rcard .sc{font-family:"DM Mono";font-weight:500;font-size:8pt;letter-spacing:.3em;color:var(--ink2);margin:1mm 0 2.4mm}
+.rcard .poem{font-size:11pt;line-height:1.5}
+.rcard .poem .v{padding-right:7mm}
+.rcard .poem .sch{position:absolute;right:0;top:50%;transform:translateY(-50%);margin:0}
+.pairs{display:flex;flex-wrap:wrap;gap:1.8mm}
+.pairs span{background:#fff;border:.8pt solid var(--c);border-radius:5mm;padding:.7mm 3mm;font-family:"Fraunces";font-size:10.6pt}
+
+/* syllables */
+.syls{display:flex;gap:1.2mm;align-items:center;flex-wrap:nowrap}
+.syls span{border:.8pt solid var(--c);border-radius:1.2mm;padding:.8mm 1.6mm;background:#fff;font-family:"Fraunces";font-size:11.4pt;line-height:1.2;min-width:7.4mm;text-align:center}
+.syls span.t{background:var(--c);color:#fff;font-weight:700}
+.syls span.x{border-style:dashed;color:#9C927E;background:transparent}
+.syls span.j{border-width:1.4pt;box-shadow:0 0 0 1.2mm var(--t)}
+.syls .eq{font-family:"DM Mono";font-weight:500;font-size:9pt;color:var(--c);margin-left:2mm;border:0;background:none;min-width:0;white-space:nowrap}
+.steps3{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.steps3 div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:3.4mm 3.4mm;font-size:9pt;line-height:1.35;position:relative}
+.steps3 div b{display:block;font-family:"Fraunces";font-size:17pt;line-height:1;color:var(--c);margin-bottom:.8mm}
+.cnt{display:grid;grid-template-columns:1fr 26mm;gap:1.6mm 4mm;align-items:end;font-family:"Fraunces";font-size:11.2pt}
+.cnt .bx{border-bottom:.7pt solid #9C927E;height:11mm;font-family:"Figtree";font-size:7.4pt;color:var(--ink2);display:flex;align-items:flex-end;justify-content:flex-end;padding-bottom:.6mm}
+.beat{font-family:"Fraunces";font-size:15pt;line-height:1.75;letter-spacing:.01em}
+.beat b{color:var(--c);font-weight:800;text-decoration:underline;text-decoration-thickness:1.6pt;text-underline-offset:1.4mm}
+
+/* figurative */
+.figs{display:grid;grid-template-columns:repeat(3,1fr);gap:3mm}
+.fig3{border-radius:2.2mm;padding:3mm 3.4mm;color:#fff;font-size:9pt;line-height:1.36}
+.fig3 .w{font-family:"Fraunces";font-size:15pt;font-weight:700;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1;margin-bottom:1.2mm}
+.fig3 .ex{font-family:"Fraunces";font-style:italic;font-size:10pt;margin-top:1.6mm;padding-top:1.6mm;border-top:.7pt solid rgba(255,255,255,.45)}
+.fig3 .sig{font-family:"DM Mono";font-size:6.6pt;letter-spacing:.08em;text-transform:uppercase;opacity:.9;margin-top:1.2mm}
+.sort{display:grid;grid-template-columns:1fr 26mm;gap:1.4mm 3mm;font-family:"Fraunces";font-size:10.6pt;align-items:center}
+.sort .o{display:flex;gap:1mm;justify-content:flex-end}
+.sort .o span{width:7mm;height:6.2mm;border:.8pt solid var(--ink);border-radius:1mm;background:#fff;font-family:"DM Mono";font-size:6.6pt;display:flex;align-items:center;justify-content:center;color:var(--ink2)}
+.ono{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm}
+.ono div{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:1.6mm 2.4mm;font-size:8.6pt;display:flex;justify-content:space-between;align-items:center;gap:2mm}
+.ono div b{font-family:"Fraunces";font-size:12pt;color:var(--c);font-style:italic}
+.ono div span{border-bottom:.7pt solid #9C927E;flex:1;height:5mm;max-width:22mm}
+.lg{display:flex;flex-wrap:wrap;gap:1.6mm 3.4mm;font-size:8.4pt;margin-top:2mm;align-items:center}
+.lg span{padding:0 1mm}
+
+/* detective table */
+.det{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden;font-size:9pt}
+.det th{background:var(--c);color:#fff;text-align:left;padding:1.4mm 2.4mm;font-size:8.2pt}
+.det td{border-top:.7pt solid var(--rule);padding:1.2mm 2.4mm;height:8.6mm;vertical-align:middle}
+.det td:first-child{font-weight:700;width:32mm}
+.det td+td{border-left:.7pt solid var(--rule)}
+.fam{display:flex;align-items:center;gap:2mm;flex-wrap:wrap}
+.fam .root{background:var(--c);color:#fff;font-family:"Fraunces";font-weight:700;font-size:13pt;border-radius:50%;width:17mm;height:17mm;display:flex;align-items:center;justify-content:center}
+.fam span{background:#fff;border:.8pt solid var(--c);border-radius:5mm;padding:.6mm 2.6mm;font-family:"Fraunces";font-size:10.4pt}
+.fam span.e{min-width:22mm;border-style:dashed;color:transparent}
+
+/* two voices */
+.duas{background:linear-gradient(90deg,#DCE1F3 0,#DCE1F3 33.33%,#FFFDF7 33.33%,#FFFDF7 66.66%,#F6E3BF 66.66%,#F6E3BF 100%);border:1pt solid var(--ink);border-radius:2mm;overflow:hidden}
+.duas .hd{display:grid;grid-template-columns:1fr 1fr 1fr;text-align:center;font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.12em;text-transform:uppercase}
+.duas .hd div{padding:2mm 1mm 1.8mm;color:#fff}
+.duas .hd div:nth-child(1){background:var(--ultra)}.duas .hd div:nth-child(2){background:var(--verde)}.duas .hd div:nth-child(3){background:var(--ocre)}
+.duas .hd small{display:block;font-size:6pt;letter-spacing:.06em;opacity:.9;text-transform:none;font-family:"Figtree";font-weight:600}
+.duas .r{display:grid;grid-template-columns:1fr 1fr 1fr}
+.duas .r div{padding:1.2mm 2.6mm;font-family:"Fraunces";font-size:11.2pt;line-height:1.3;letter-spacing:-.005em;font-variation-settings:"opsz" 14}
+.duas .r div:nth-child(2){text-align:center;font-weight:700;font-style:italic;color:var(--verde)}
+.duas .r div:nth-child(3){text-align:right}
+.duas .sp{height:3.4mm}
+.duas .body{padding:2.6mm 0 3mm}
+.roles{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.roles div{border-radius:1.6mm;padding:1.8mm 3mm;font-size:8.8pt;line-height:1.35;background:#fff;border:.8pt solid var(--rule);border-top:3pt solid var(--rc)}
+.roles div b{display:block;font-family:"Fraunces";font-size:11pt;color:var(--rc)}
+.venn{position:relative;height:58mm}
+.venn .c{position:absolute;top:0;width:106mm;height:58mm;border-radius:50%;border:1.4pt solid var(--vc);background:var(--vt)}
+.venn .c.l{left:0}.venn .c.r{right:0}
+.venn .c.r{mix-blend-mode:multiply}
+.venn .lbl{position:absolute;top:7.6mm;font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.1em;text-transform:uppercase}
+.venn .lines{position:absolute;display:flex;flex-direction:column;gap:7.2mm}
+.venn .lines i{display:block;border-bottom:.7pt solid #9C927E;height:0}
+.tmpl{border:1pt solid var(--ink);border-radius:2mm;overflow:hidden;background:linear-gradient(90deg,#DCE1F3 0,#DCE1F3 33.33%,#fff 33.33%,#fff 66.66%,#F6E3BF 66.66%,#F6E3BF 100%)}
+.tmpl .hd{display:grid;grid-template-columns:1fr 1fr 1fr;text-align:center;font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:#fff}
+.tmpl .hd div{padding:1.8mm 1mm}
+.tmpl .hd div:nth-child(1){background:var(--ultra)}.tmpl .hd div:nth-child(2){background:var(--verde)}.tmpl .hd div:nth-child(3){background:var(--ocre)}
+.tmpl .row{display:grid;grid-template-columns:1fr 1fr 1fr;height:8.6mm}
+.tmpl .row div{border-bottom:.7pt solid rgba(156,146,126,.7);margin:0 3mm}
+
+.t76 td{height:9mm}
+.r79 td{height:12mm}
+.qr-big svg{width:25mm;height:25mm}
+/* QA q3: answer lines >= 7 mm apart for 10-year-old handwriting (was 6.2 mm) */
+.ln,.ln.s{height:7.4mm}
+.pc78 .r span{height:7.6mm}
+/* project */
+.plist{display:grid;grid-template-columns:1fr 1fr 1fr;gap:3mm}
+.plist div{background:#fff;border:.8pt solid var(--rule);border-left:3pt solid var(--pc);border-radius:1.4mm;padding:2.4mm 3mm;font-size:8.8pt;line-height:1.34}
+.plist div b{display:block;font-family:"Fraunces";font-size:11.4pt;color:var(--pc);line-height:1.1;margin-bottom:.6mm}
+.plist div small{font-family:"DM Mono";font-size:6.4pt;color:var(--ink2);letter-spacing:.06em}
+.jobs{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm}
+.jobs div{background:var(--t);border-radius:1.6mm;padding:2.2mm 2.6mm;font-size:8.6pt;line-height:1.3;display:flex;flex-direction:column}
+.jobs div b{display:block;font-family:"Fraunces";font-size:10.8pt;color:var(--c)}
+.jobs div span{display:block;border-bottom:.7pt solid #9C927E;height:6mm;margin-top:auto;padding-top:1mm}
+.score{background:#FFFDF7;border:.8pt solid var(--rule);border-radius:2mm;padding:4mm 5mm;font-family:"Fraunces";font-size:13.4pt;line-height:1.9}
+.score .p1{color:var(--turq);font-family:"DM Mono";font-weight:500;font-size:10pt;margin:0 .6mm}
+.score .p2{color:var(--verm);font-family:"DM Mono";font-weight:500;font-size:10pt;margin:0 .6mm}
+.score u{text-decoration:none;border-bottom:1.6pt solid var(--ocre)}
+.score .up{font-family:"DM Mono";font-size:9pt;color:var(--ameixa)}
+.prog-t{width:100%;border-collapse:collapse;background:#fff;font-size:8.8pt}
+.prog-t th,.prog-t td{border:.7pt solid var(--rule);padding:1.2mm 2.2mm;text-align:left;height:9.4mm}
+.prog-t th{background:var(--t);font-size:7.8pt;height:auto}
+.prog-t td:first-child{width:9mm;text-align:center;font-family:"Fraunces";font-weight:700;color:var(--c)}
+
+/* plan page (programme) */
+.prog{background:#FFFDF7;border:1pt solid var(--ink);border-radius:2mm;padding:4mm 5mm 3mm;position:relative}
+.prog .ph{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1.4pt solid var(--ink);padding-bottom:1.6mm;margin-bottom:1.6mm}
+.prog .ph b{font-family:"Fraunces";font-size:16pt;font-weight:700;font-variation-settings:"SOFT" 100,"WONK" 1}
+.prog .ph span{font-family:"DM Mono";font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
+.prog .it{display:grid;grid-template-columns:9mm 44mm 1fr 18mm;gap:2mm;align-items:center;padding:1.3mm 0;border-bottom:.7pt dotted #B9AE98}
+.prog .it:last-child{border-bottom:0}
+.prog .it i{font-style:normal;width:7mm;height:7mm;border-radius:50%;background:var(--pc);color:#fff;font-family:"Fraunces";font-weight:700;font-size:10pt;display:flex;align-items:center;justify-content:center}
+.prog .it b{font-family:"Fraunces";font-size:11.6pt;font-weight:650;line-height:1.1}
+.prog .it span{font-size:8.8pt;color:var(--ink2);line-height:1.25}
+.prog .it em{font-style:normal;font-family:"DM Mono";font-size:7.6pt;text-align:right;color:var(--pc)}
+.welcome{display:grid;grid-template-columns:1fr 58mm;gap:6mm;align-items:center}
+.welcome img{width:58mm;mix-blend-mode:multiply}
+.welcome .sig{font-family:"Caveat";font-size:18pt;line-height:1;color:var(--ultra);margin-top:1.4mm}
+</style>
+</head>
+<body>
+
+<!-- ======================= 65 · OPENER ======================= -->
+<section class="page odd p-open r-ultra">
+  <div class="art"></div>
+  <div class="veil"></div>
+  <div class="ttl">
+    <div class="u"><span class="big">3</span><span>Unidade · Português · Year 5</span></div>
+    <h1 class="disp">O Coreto das <i>Palavras</i></h1>
+    <div class="sub"><span>Texto poético · linguagem figurada</span> verso · rima · ritmo · imagens · duas vozes</div>
+  </div>
+  <div class="tag"><div class="lab">Esta noite, no coreto</div><p>Poemas lidos em voz alta. Entrada livre — traz a tua voz.</p></div>
+  <div class="brand">Prime School · Português Língua Materna</div>
+</section>
+
+<!-- ======================= 66 · WELCOME + PROGRAMME ======================= -->
+<section class="page even r-ultra">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Programa</b> · Unidade 3</span></header>
+  <div class="welcome">
+    <div>
+      <div class="kick">Um bilhete à entrada do jardim</div>
+      <h2 class="disp" style="margin-bottom:3mm">Olá, poeta!</h2>
+      <div class="txt" style="font-size:11.2pt;line-height:1.5">
+        <p>Sou eu outra vez, a <b>Mourinha</b>. De dia durmo; à noite, subo ao coreto do jardim e fico a ouvir as pessoas que lá leem poemas em voz alta. Os poemas são textos que se ouvem com os ouvidos e se veem com a imaginação.</p>
+        <p>Nesta unidade, vais conhecer um poeta verdadeiro, abrir a <b>caixa de ferramentas</b> de quem escreve versos e ler um poema <b>a duas vozes</b>. No fim, a turma faz um livro de poemas — e um recital!</p>
+      </div>
+      <div class="sig">Mourinha, ouvinte do coreto</div>
+    </div>
+    <img src="../art/livro.jpg" alt="">
+  </div>
+
+  <div class="prog" style="margin-top:3.4mm">
+    <div class="ph"><b>Programa do recital</b><span>Unidade 3 · pp. 65–80</span></div>
+    <div class="it" style="--pc:var(--ultra)"><i>1</i><b>O poeta</b><span>José Jorge Letria: a vida e um poema</span><em>pp. 67–68</em></div>
+    <div class="it" style="--pc:var(--ameixa)"><i>2</i><b>A forma do poema</b><span>verso e estrofe</span><em>p. 69</em></div>
+    <div class="it" style="--pc:var(--ameixa)"><i>3</i><b>A música do fim</b><span>rima emparelhada, cruzada e interpolada</span><em>p. 70</em></div>
+    <div class="it" style="--pc:var(--ocre)"><i>4</i><b>O compasso</b><span>ritmo e sílaba métrica</span><em>p. 71</em></div>
+    <div class="it" style="--pc:var(--verde)"><i>5</i><b>As imagens</b><span>comparação, personificação e metáfora</span><em>p. 72</em></div>
+    <div class="it" style="--pc:var(--verde)"><i>6</i><b>Os sons e as listas</b><span>repetição, onomatopeia e enumeração</span><em>p. 73</em></div>
+    <div class="it" style="--pc:var(--verde)"><i>7</i><b>Ensaio geral</b><span>todas as ferramentas num só poema</span><em>p. 74</em></div>
+    <div class="it" style="--pc:var(--turq)"><i>8</i><b>Poema em duas vozes</b><span>ler, ensaiar e escrever a dois</span><em>pp. 75–77</em></div>
+    <div class="it" style="--pc:var(--verm)"><i>9</i><b>O livro e o recital</b><span>o projeto final da turma</span><em>pp. 78–79</em></div>
+    <div class="it" style="--pc:var(--tinta)"><i>10</i><b>Balanço</b><span>o que levo do coreto</span><em>p. 80</em></div>
+  </div>
+
+  <div class="ticket" style="margin-top:3.4mm">
+    <div class="stub" style="background:var(--ultra)"><div class="n">BILHETE N.º 0065</div><div class="b">No fim do recital, sou capaz de…</div><div class="n">UNIDADE 3</div></div>
+    <ul>
+      <li><b style="color:var(--ultra)">Ler</b>ler e compreender poemas e identificar versos, estrofes e rimas.</li>
+      <li><b style="color:var(--ultra)">Educação literária</b>reconhecer comparações, personificações, metáforas, repetições, onomatopeias e enumerações.</li>
+      <li><b style="color:var(--ultra)">Escrever</b>escrever quadras com rima e um poema em duas vozes.</li>
+      <li><b style="color:var(--ultra)">Falar e ouvir</b>ler e dizer poemas em voz alta, com ritmo, pausas e expressão.</li>
+      <li style="grid-column:1/3"><b style="color:var(--ultra)">Gramática</b>dividir palavras em sílabas, encontrar a sílaba tónica e contar sílabas métricas.</li>
+    </ul>
+  </div>
+  <div class="keys">
+    <b style="font-family:'DM Mono';font-weight:500;font-size:7pt;letter-spacing:.12em">AS CHAVES DO CORETO</b>
+    <span>{{KEY:bronze}} aquecer</span><span>{{KEY:prata}} aplicar</span><span>{{KEY:ouro}} desafiar-me</span>
+    <span style="margin-left:auto">{{QRICON}} ouvir os poemas</span>
+  </div>
+  <footer class="folio">66</footer>
+</section>
+
+<!-- ======================= 67 · 3.1 THE POET ======================= -->
+<section class="page odd r-ultra">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>3.1</b> · José Jorge Letria</span></header>
+  <div class="tab"><span>3.1 · O poeta</span></div>
+  <div class="kick">3.1 · Educação literária · O autor</div>
+  <h1 class="disp">Um poeta com livros cheios de bichos</h1>
+  <p class="lead" style="margin-top:2.6mm">Antes de lermos os poemas de <b>José Jorge Letria</b>, vamos conhecer quem os escreveu. Ele escreve para adultos, mas também para crianças — e os animais, as rimas e as brincadeiras com palavras aparecem em muitos dos seus livros.</p>
+  <div class="author" style="margin-top:2mm">
+    <div class="idcard">
+      <div class="top"><span>Ficha do autor</span><span>poeta</span></div>
+      <img src="../art/desk.jpg" alt="Uma secretária com um caderno aberto de onde saem andorinhas">
+      <dl>
+        <dt>Nome</dt><dd>José Jorge Letria</dd>
+        <dt>Nasceu</dt><dd>em Cascais, a 8 de junho de 1951</dd>
+        <dt>Estudou</dt><dd>Direito e História, na Universidade de Lisboa</dd>
+        <dt>Escreve</dt><dd>poesia, contos, teatro e livros para crianças e jovens</dd>
+        <dt>Obra</dt><dd>cerca de duzentos livros, metade para os mais novos</dd>
+      </dl>
+    </div>
+    <div>
+      <div class="txt" style="font-size:11pt;line-height:1.45">
+        <p>Quando era pequeno, José Jorge Letria andou na escola primária de Cascais. Hoje, essa escola tem o nome dele: chama-se <b>Escola Básica José Jorge Letria</b>.</p>
+        <p>Foi <b>jornalista</b> durante mais de trinta anos e fez parte da equipa que criou a <b>«Rua Sésamo»</b> em Portugal. Nos anos 70, também foi <b>cantor</b>, ao lado de José Afonso. Os seus livros estão traduzidos em mais de dez línguas.</p>
+        <p>Muitos dos seus livros para crianças foram ilustrados pelo filho, o ilustrador <b>André Letria</b> — como <i>O Alfabeto dos Bichos</i>, onde cada animal tem o seu poema.</p>
+      </div>
+      <div class="lab" style="margin-top:2.4mm">Alguns livros para os mais novos</div>
+      <div class="shelf" style="height:34mm">
+        <div class="spine" style="background:var(--verde);height:30mm"><span>O Alfabeto dos Bichos</span></div>
+        <div class="spine" style="background:var(--verm);height:33mm"><span>O Livro das Rimas Traquinas</span></div>
+        <div class="spine" style="background:var(--ultra);height:27mm"><span>Versos de Fazer Ó-Ó</span></div>
+        <div class="spine" style="background:var(--ocre);height:31mm;width:13mm"><span style="white-space:normal;text-align:center;line-height:1.1">O Homem que Tinha<br>uma Árvore na Cabeça</span></div>
+        <div class="spine" style="background:var(--ameixa);height:28mm"><span>Avô Conta Outra Vez</span></div>
+        <div style="flex:1;align-self:center;font-size:7.8pt;line-height:1.3;color:var(--ink2);padding-left:2mm">Procura-os na biblioteca da escola. Qual gostarias de ler primeiro?</div>
+      </div>
+      <div class="tint" style="margin-top:2.4mm;font-size:8.8pt;line-height:1.38"><div class="lab" style="margin-bottom:.8mm">Sabias que…?</div>Em 2011, <i>Avô Conta Outra Vez</i> recebeu um prémio da Fundação Nacional do Livro Infantil e Juvenil, no Brasil.</div>
+    </div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:1mm">
+    <div class="act">
+      <div class="act-h"><span class="num">1</span>{{KEY:bronze}}<h3>Verdadeiro ou falso?</h3><span class="skill">Ler</span></div>
+      <div class="vf">
+        <span></span><span class="h">V</span><span class="h">F</span>
+        <span>a) José Jorge Letria nasceu em Lisboa.</span><span class="b"></span><span class="b"></span>
+        <span>b) Escreve só para adultos.</span><span class="b"></span><span class="b"></span>
+        <span>c) Já foi jornalista e cantor.</span><span class="b"></span><span class="b"></span>
+        <span>d) Há uma escola com o seu nome.</span><span class="b"></span><span class="b"></span>
+        <span>e) O filho dele é ilustrador.</span><span class="b"></span><span class="b"></span>
+      </div>
+      <p class="small" style="margin-top:1.4mm">Corrige as frases falsas no teu caderno.</p>
+    </div>
+    <div>
+      <div class="act">
+        <div class="act-h"><span class="num">2</span>{{KEY:prata}}<h3>Uma vida, muitos ofícios</h3><span class="skill">Ler</span></div>
+        <p style="font-size:9.2pt">Escreve quatro coisas que José Jorge Letria já foi ou já fez.</p>
+        <span class="ln s"></span><span class="ln s"></span>
+      </div>
+      <div class="act">
+        <div class="act-h"><span class="num">3</span>{{KEY:ouro}}<h3>Se o entrevistasses…</h3><span class="skill">Pensar</span></div>
+        <p style="font-size:9.2pt">Que pergunta lhe farias sobre a maneira como escreve poemas?</p>
+        <span class="ln s"></span>
+      </div>
+    </div>
+  </div>
+  <p class="src" style="margin-top:2mm">Fontes: Sociedade Portuguesa de Autores, «José Jorge Letria» (spautores.pt); Wikipédia, «José Jorge Letria» (consultado em setembro de 2026); Agrupamento de Escolas Cidadela, «EB1 José Jorge Letria» (aecidadela.pt); ficha do livro <i>O Alfabeto dos Bichos</i>, Oficina do Livro, 2005.</p>
+  <footer class="folio">67</footer>
+</section>
+
+<!-- ======================= 68 · READING LETRIA ======================= -->
+<section class="page even r-ultra">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>3.1</b> · Ler José Jorge Letria</span></header>
+  <div class="tab"><span>3.1 · O poeta</span></div>
+  <div class="kick">3.1 · Educação literária · Leitura</div>
+  <h1 class="disp">Senhor polvo, o que nos traz?</h1>
+  <p class="lead" style="margin-top:2.6mm;font-size:11pt">Em <i>O Alfabeto dos Bichos</i>, José Jorge Letria escreve um poema para cada animal. No poema sobre o polvo, o poeta <b>fala diretamente com o animal</b>, como se ele fosse uma pessoa. Lê estes quatro versos do poema.</p>
+  <div class="grid2" style="grid-template-columns:1fr 60mm;margin-top:4mm;align-items:center">
+    <div class="extract">
+      <span class="mark">”</span>
+      <p class="q">Senhor polvo, o que nos traz de novo?<br>Eu sei que é veloz e inteligente<br>e que até usa para escrever<br>a mais negra tinta permanente.</p>
+      <p class="att">José Jorge Letria, «Polvo» (excerto), em <i>O Alfabeto dos Bichos</i>, ilustrações de André Letria, Oficina do Livro, 2005.</p>
+    </div>
+    <div class="box" style="font-size:8.8pt;line-height:1.4">
+      <div class="lab" style="margin-bottom:1.2mm">Saber mais</div>
+      O polvo é mesmo um animal muito inteligente. Quando se sente em perigo, larga uma nuvem de <b>tinta escura</b> para confundir o inimigo — e foge.<br><span class="small" style="font-size:7.4pt">Fonte: Wikipédia, «Polvo» e «Octopus vulgaris».</span>
+    </div>
+  </div>
+  <p class="small" style="margin-top:2.4mm">O poema completo é lido na aula, no livro. O primeiro verso deste excerto volta a aparecer ao longo do poema.</p>
+
+  <div class="act" style="margin-top:3.4mm">
+  <div class="act-h"><span class="num">4</span><h3>Três níveis de leitura</h3><span class="skill">Ler</span></div>
+  <div class="lvl">
+    <div class="col" style="--k:var(--bronze)"><div class="lab">{{KEY:bronze}} Encontrar</div><ol>
+      <li>Com quem fala o poeta?<span class="ln s"></span></li>
+      <li>Que duas qualidades do polvo diz o poeta que conhece?<span class="ln s"></span></li>
+      <li>Que palavra rima com <i>inteligente</i>? <span class="fill"></span></li></ol></div>
+    <div class="col" style="--k:var(--prata)"><div class="lab">{{KEY:prata}} Relacionar</div><ol start="4">
+      <li>O polvo usa mesmo tinta para <i>escrever</i>? Para que a usa, na verdade? Lê a caixa «Saber mais».<span class="ln s"></span><span class="ln s"></span></li>
+      <li>Porque é que o poeta trata o polvo por «senhor»?<span class="ln s"></span></li></ol></div>
+    <div class="col" style="--k:var(--ouro)"><div class="lab">{{KEY:ouro}} Pensar</div><ol start="6">
+      <li>Porque achas que o poeta repete o primeiro verso ao longo do poema?<span class="ln s"></span><span class="ln s"></span></li>
+      <li>Se o polvo escrevesse um livro, que título teria?<span class="ln s"></span></li></ol></div>
+  </div>
+  </div>
+
+  <div class="act" style="margin-top:5mm">
+    <div class="act-h"><span class="num">5</span>{{KEY:prata}}<h3>Diário de leitura: o poema que a turma leu</h3><span class="skill">Educação literária</span></div>
+    <p style="font-size:9.2pt;margin-bottom:2mm">Na aula, vão ler outros poemas de José Jorge Letria. Escolhe o teu preferido e preenche o diário.</p>
+    <div class="diary">
+      <div>
+        <div class="r"><b>Título do poema</b><span></span></div>
+        <div class="r"><b>Livro</b><span></span></div>
+        <div class="r"><b>O poema fala de…</b><span></span></div>
+        <div class="r"><b>O meu verso preferido</b><span></span></div>
+        <div class="r"><b>Uma rima que encontrei</b><span></span></div>
+        <div class="r"><b>Uma imagem ou um som</b><span></span></div>
+      </div>
+      <div class="draw">desenha o que imaginaste</div>
+    </div>
+  </div>
+  <footer class="folio">68</footer>
+</section>
+
+<!-- ======================= 69 · VERSE AND STANZA ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Ferramenta 1</b> · Verso e estrofe</span></header>
+  <div class="tab"><span>Ferramentas · A forma</span></div>
+  <div class="toolbar"><span class="badge">Caixa de ferramentas · 1</span><span class="dots"><i class="on"></i><i></i><i></i><i></i><i></i></span></div>
+  <h1 class="disp" style="margin-top:1.6mm">A forma do poema</h1>
+  <p class="lead" style="margin-top:2.4mm;font-size:11pt">Um poema reconhece-se logo pela forma: as linhas não chegam ao fim da página e aparecem em grupos, separados por espaços. Cada linha é um <b>verso</b>; cada grupo de versos é uma <b>estrofe</b>.</p>
+  <div class="grid2" style="grid-template-columns:106mm 1fr;margin-top:4mm;gap:9mm;align-items:start">
+    <div class="poem-card" style="padding-right:24mm">
+      <div class="poem-t">O Coreto Adormecido</div>
+      <div class="poem-by">poema original · para ler em voz alta</div>
+      <div class="poem vnum">
+        <div class="st"><span class="br"></span><span class="bl">estrofe 1</span>
+          <span class="v">No meio do jardim velho</span>
+          <span class="v">dorme um coreto sozinho,</span>
+          <span class="v">com um chapéu de ferro verde</span>
+          <span class="v">e, no chapéu, um passarinho.</span></div>
+        <div class="st"><span class="br"></span><span class="bl">estrofe 2</span>
+          <span class="v">Ninguém lá sobe a cantar,</span>
+          <span class="v">só o vento, devagar.</span></div>
+        <div class="st"><span class="br"></span><span class="bl">estrofe 3</span>
+          <span class="v">Mas numa noite de lua</span>
+          <span class="v">vieram três da minha rua,</span>
+          <span class="v">cada um com um papel na mão.</span></div>
+        <div class="st"><span class="br"></span><span class="bl">estrofe 4</span>
+          <span class="v">Leram versos para o céu,</span>
+          <span class="v">leram alto, com cuidado —</span>
+          <span class="v">e o coreto, que dormia,</span>
+          <span class="v">acordou todo encantado.</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="defn" style="--c:var(--ameixa)"><div class="w">verso</div>Cada uma das linhas de um poema. Os números ao lado do poema contam os versos.<div class="ex">«Leram versos para o céu,» é o verso 10.</div></div>
+      <div class="defn" style="margin-top:3mm"><div class="w">estrofe</div>Cada grupo de versos, separado dos outros por um espaço em branco. As estrofes têm nomes, conforme o número de versos.</div>
+      <div class="qr" style="margin-top:4mm">{{QR:a1}}<div class="ql"><b>Ouvir</b>Ouve o poema. Repara na pausa maior que se faz entre as estrofes.</div></div>
+    </div>
+  </div>
+  <div class="lab" style="margin-top:5mm;margin-bottom:1.6mm">Os nomes das estrofes</div>
+  <div class="names">
+    <div><b>dístico</b><span class="bars"><i></i><i></i></span>2 versos</div>
+    <div><b>terceto</b><span class="bars"><i></i><i></i><i></i></span>3 versos</div>
+    <div><b>quadra</b><span class="bars"><i></i><i></i><i></i><i></i></span>4 versos</div>
+    <div><b>quintilha</b><span class="bars"><i></i><i></i><i></i><i></i><i></i></span>5 versos</div>
+    <div><b>sextilha</b><span class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></span>6 versos</div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:1mm">
+    <div class="act">
+      <div class="act-h"><span class="num">6</span>{{KEY:bronze}}<h3>Conta e dá nomes</h3><span class="skill">Ler</span></div>
+      <p style="font-size:9.2pt">O poema tem <span class="fill" style="min-width:12mm"></span> versos e <span class="fill" style="min-width:12mm"></span> estrofes.</p>
+      <ol class="qs" style="font-size:9.2pt;margin-top:1.4mm">
+        <li>A estrofe 1 é uma <span class="fill"></span>.</li>
+        <li>A estrofe 2 é um <span class="fill"></span>.</li>
+        <li>A estrofe 3 é um <span class="fill"></span>.</li>
+      </ol>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">7</span>{{KEY:prata}}<h3>O coreto acordou</h3><span class="skill">Pensar</span></div>
+      <p style="font-size:9.2pt">O que fez o coreto «acordar»? Responde com as palavras do poema.</p>
+      <span class="ln s"></span><span class="ln s"></span>
+      <p class="small" style="margin-top:1mm">{{KEY:ouro}} Acrescenta ao poema um dístico com o que aconteceu a seguir.</p>
+      <span class="ln s"></span><span class="ln s"></span>
+    </div>
+  </div>
+  <footer class="folio">69</footer>
+</section>
+
+<!-- ======================= 70 · RHYME ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Ferramenta 2</b> · Rima</span></header>
+  <div class="tab"><span>Ferramentas · A forma</span></div>
+  <div class="toolbar"><span class="badge">Caixa de ferramentas · 2</span><span class="dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div>
+  <h1 class="disp" style="margin-top:1.6mm">A música do fim do verso</h1>
+  <div class="grid2" style="grid-template-columns:1fr 70mm;margin-top:3mm;align-items:center">
+    <p class="lead" style="font-size:11pt">Há <b>rima</b> quando dois ou mais versos terminam com o mesmo som, a partir da <b>vogal tónica</b> (a vogal da sílaba mais forte): jan<b>e</b>la · cad<b>e</b>la. Para mostrar como as rimas se organizam, damos a mesma letra aos versos que rimam entre si.</p>
+    <div class="rule" style="background:var(--ameixa)"><span class="lab" style="color:#F4D18F">Como se marca</span>1.º verso = <b>A</b>. Se o verso seguinte rimar com ele, também é <b>A</b>; se não rimar, é <b>B</b>… e assim por diante.</div>
+  </div>
+  <div class="rhymes" style="margin-top:4.4mm">
+    <div class="rcard"><div><div class="nm">Emparelhada</div><div class="sc">A A B B</div></div><div class="poem"><span class="v">A osga sobe à par<span class="rA">ede</span>,<span class="sch sA">A</span></span><span class="v">não tem medo nem tem s<span class="rA">ede</span>;<span class="sch sA">A</span></span><span class="v">espera a traça que p<span class="rB">assa</span><span class="sch sB">B</span></span><span class="v">e apanha-a com muita gr<span class="rB">aça</span>.<span class="sch sB">B</span></span></div><p class="small" style="font-size:8.6pt;line-height:1.35">Os versos rimam <b>aos pares</b>, seguidos.</p></div>
+    <div class="rcard"><div><div class="nm">Cruzada</div><div class="sc">A B A B</div></div><div class="poem"><span class="v">A lua é um queijo br<span class="rA">anco</span><span class="sch sA">A</span></span><span class="v">pendurado no céu esc<span class="rB">uro</span>;<span class="sch sB">B</span></span><span class="v">o gato salta do b<span class="rA">anco</span><span class="sch sA">A</span></span><span class="v">e mia-lhe de cima do m<span class="rB">uro</span>.<span class="sch sB">B</span></span></div><p class="small" style="font-size:8.6pt;line-height:1.35">As rimas <b>cruzam-se</b>: 1.º com 3.º, 2.º com 4.º.</p></div>
+    <div class="rcard"><div><div class="nm">Interpolada</div><div class="sc">A B B A</div></div><div class="poem"><span class="v">O mar escreve na ar<span class="rA">eia</span><span class="sch sA">A</span></span><span class="v">uma carta com esp<span class="rB">uma</span>;<span class="sch sB">B</span></span><span class="v">não tem letra nenh<span class="rB">uma</span>,<span class="sch sB">B</span></span><span class="v">mas lê-a a lua ch<span class="rA">eia</span>.<span class="sch sA">A</span></span></div><p class="small" style="font-size:8.6pt;line-height:1.35">Um par de rimas fica <b>dentro</b> do outro.</p></div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 62mm;margin-top:1mm;align-items:end">
+    <div class="act">
+      <div class="act-h"><span class="num">8</span>{{KEY:bronze}}<h3>Pares que rimam</h3><span class="skill">Ouvir e ler</span></div>
+      <p style="font-size:9.2pt;margin-bottom:1.6mm">Liga as palavras que rimam e escreve os quatro pares nas linhas.</p>
+      <div class="pairs"><span>gato</span><span>canção</span><span>luar</span><span>caracol</span><span>coração</span><span>sapato</span><span>girassol</span><span>mar</span></div>
+      <div class="grid2" style="grid-template-columns:1fr 1fr;gap:1mm 6mm;margin-top:1mm"><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
+    </div>
+    <div class="qr">{{QR:a2}}<div class="ql"><b>Ouvir</b>Ouve as três quadras. Bate uma palma sempre que ouvires uma rima.</div></div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr">
+    <div class="act">
+      <div class="act-h"><span class="num">9</span>{{KEY:prata}}<h3>Que rima é esta?</h3><span class="skill">Ler</span></div>
+      <div class="poem" style="font-size:10.8pt;background:#FFFDF7;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2.4mm 3.4mm;line-height:1.55">
+        <span class="v">O relógio da cozinha <span class="fill" style="min-width:7mm"></span></span>
+        <span class="v">faz tique-taque sem parar; <span class="fill" style="min-width:7mm"></span></span>
+        <span class="v">conta as horas à galinha <span class="fill" style="min-width:7mm"></span></span>
+        <span class="v">que ainda não aprendeu a contar. <span class="fill" style="min-width:7mm"></span></span>
+      </div>
+      <p style="font-size:9.2pt;margin-top:1.6mm">Escreve as letras. A rima é <span class="fill l"></span>.</p>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">10</span>{{KEY:ouro}}<h3>Acaba a quadra</h3><span class="skill">Escrever</span></div>
+      <p style="font-size:9.2pt">Escreve o último verso. Tem de rimar com <i>sol</i> para a rima ficar <b>cruzada</b>.</p>
+      <div class="poem" style="font-size:10.8pt;margin-top:1.4mm;line-height:1.55">
+        <span class="v">De manhã, abro a janela</span>
+        <span class="v">e entra um raio de sol;</span>
+        <span class="v">faz cócegas na panela</span>
+        <span class="v"><span class="ln s" style="display:inline-block;width:92%;vertical-align:bottom"></span></span>
+      </div>
+    </div>
+  </div>
+  <footer class="folio">70</footer>
+</section>
+
+<!-- ======================= 71 · RHYTHM & METRE ======================= -->
+<section class="page odd r-ocre lab-page">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Ferramenta 3</b> · Ritmo e sílaba métrica</span></header>
+  <div class="tab"><span>Ferramentas · O ritmo</span></div>
+  <div class="toolbar"><span class="badge">Caixa de ferramentas · 3</span><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span></div>
+  <h1 class="disp" style="margin-top:1.6mm">O compasso do poema</h1>
+  <p class="lead" style="margin-top:2.4mm;font-size:11pt">Os poemas têm <b>ritmo</b>, como a música: há sílabas fortes e fracas, que se alternam, e pausas no fim dos versos. Lê em voz alta e bate o pé nas sílabas mais fortes.</p>
+  <div class="box" style="margin-top:3mm;background:#fff;text-align:center">
+    <div class="beat">No <b>mei</b>o do jar<b>dim</b> <b>ve</b>lho<br><b>dor</b>me um co<b>re</b>to so<b>zi</b>nho</div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:4mm;align-items:stretch">
+    <div class="rule" style="background:var(--ocre)"><span class="lab" style="color:#fff">Sílaba métrica</span>Os poetas contam as sílabas <b style="color:#1C2536">de ouvido</b>, como se dizem, e não como se escrevem. A cada sílaba contada chama-se <b style="color:#1C2536">sílaba métrica</b>.</div>
+    <div class="tint" style="font-size:9.4pt"><div class="lab" style="margin-bottom:1mm">Versos com nome</div>Um verso de <b>7 sílabas</b> chama-se <b>redondilha maior</b>: é o verso preferido das quadras populares portuguesas. Um verso de <b>5 sílabas</b> chama-se <b>redondilha menor</b>.</div>
+  </div>
+  <div class="lab" style="margin:4.4mm 0 1.6mm">Contar em três passos</div>
+  <div class="steps3">
+    <div><b>1</b>Divide o verso em sílabas, dizendo-o em voz alta.</div>
+    <div><b>2</b>Se uma palavra acaba em vogal e a seguinte começa por vogal, <b style="display:inline;font-family:Figtree;font-size:inherit;color:inherit">junta-as numa só</b>: <i>dorme um</i> → <i>dor-meum</i>.</div>
+    <div><b>3</b><b style="display:inline;font-family:Figtree;font-size:inherit;color:inherit">Para de contar</b> na última sílaba forte do verso. O que vem depois não conta.</div>
+  </div>
+  <div class="box" style="margin-top:5mm;background:#fff">
+    <div class="syls" style="margin-bottom:3mm"><span>No</span><span class="t">mei</span><span>o</span><span>do</span><span>jar</span><span class="t">dim</span><span class="t">ve</span><span class="x">lho</span><span class="eq">= 7 sílabas · redondilha maior</span></div>
+    <div class="syls" style="margin-bottom:2.4mm"><span>Nin</span><span class="t">guém</span><span>lá</span><span class="t">so</span><span class="j">be a</span><span>can</span><span class="t">tar</span><span class="eq">= 7 · <i>be a</i> junta-se numa só</span></div>
+    <div class="syls"><span class="t">Cho</span><span>ve</span><span>na</span><span>ci</span><span class="t">da</span><span class="x">de</span><span class="eq">= 5 sílabas · redondilha menor</span></div>
+    <p class="small" style="margin-top:2mm"><span style="display:inline-block;width:3mm;height:3mm;background:var(--ocre);border-radius:.6mm;vertical-align:-.4mm"></span> sílaba forte &nbsp; <span style="display:inline-block;width:3mm;height:3mm;border:.8pt dashed #9C927E;border-radius:.6mm;vertical-align:-.4mm"></span> não se conta &nbsp; <span style="display:inline-block;width:3mm;height:3mm;border:1.2pt solid var(--ocre);border-radius:.6mm;vertical-align:-.4mm"></span> duas vogais juntas</p>
+  </div>
+  <div class="grid2" style="grid-template-columns:1.25fr 1fr;margin-top:1mm">
+    <div class="act">
+      <div class="act-h"><span class="num">11</span>{{KEY:bronze}}<h3>Conta de ouvido</h3><span class="skill">Gramática</span></div>
+      <div class="cnt">
+        <span>a) Leram alto, com cuidado</span><span class="bx">sílabas</span>
+        <span>b) E o coreto, que dormia</span><span class="bx">sílabas</span>
+        <span>c) Molha os carros, molha os cães</span><span class="bx">sílabas</span>
+        <span>d) O mar escreve na areia</span><span class="bx">sílabas</span>
+      </div>
+    </div>
+    <div>
+      <div class="act">
+        <div class="act-h"><span class="num">12</span>{{KEY:prata}}<h3>Ouve e confirma</h3><span class="skill">Ouvir</span></div>
+        <div class="qr">{{QR:a3}}<div class="ql"><b>Ouvir</b>Cada verso é dito inteiro e depois devagar, sílaba a sílaba. Confirma as tuas contas.</div></div>
+      </div>
+      <div class="act">
+        <div class="act-h"><span class="num">13</span>{{KEY:ouro}}<h3>Um verso de sete</h3><span class="skill">Escrever</span></div>
+        <p style="font-size:9pt">Escreve um verso com 7 sílabas sobre o teu jardim ou a tua rua.</p>
+        <span class="ln s"></span><span class="ln s"></span>
+      </div>
+    </div>
+  </div>
+  <footer class="folio">71</footer>
+</section>
+
+<!-- ======================= 72 · IMAGES ======================= -->
+<section class="page even r-verde">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Ferramenta 4</b> · As imagens</span></header>
+  <div class="tab"><span>Ferramentas · Linguagem figurada</span></div>
+  <div class="toolbar"><span class="badge">Caixa de ferramentas · 4</span><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span></div>
+  <h1 class="disp" style="margin-top:1.6mm">Palavras que fazem ver</h1>
+  <p class="lead" style="margin-top:2.4mm;font-size:11pt">Na <b>linguagem figurada</b>, as palavras não querem dizer só o que dizem: criam imagens na nossa cabeça. O vento não é um rapaz… mas, no poema, parece mesmo!</p>
+  <div class="grid2" style="grid-template-columns:1fr 64mm;margin-top:3.6mm;gap:6mm;align-items:start">
+    <div class="poem-card" style="padding-left:7mm">
+      <div class="poem-t">O Vento Brincalhão</div>
+      <div class="poem-by">poema original</div>
+      <div class="poem" style="font-size:11.8pt">
+        <div class="st"><span class="v">O vento é um rapazinho</span><span class="v">que acorda a rua a correr;</span><span class="v">assobia no caminho</span><span class="v">e ninguém o pode ver.</span></div>
+        <div class="st"><span class="v">Põe a roupa a bailar</span><span class="v">como um bando de bailarinas,</span><span class="v">e depois vai espreitar</span><span class="v">pelas frestas das cortinas.</span></div>
+        <div class="st"><span class="v">À noite, muito cansado,</span><span class="v">deita-se em cima do telhado</span><span class="v">e dorme, enroladinho,</span><span class="v">tal e qual um gatinho.</span></div>
+      </div>
+    </div>
+    <div><img src="../art/vento.jpg" class="mult" style="width:64mm;display:block" alt="Roupa estendida a voar ao vento, numa rua estreita">
+      <div class="qr" style="margin-top:3mm">{{QR:a4}}<div class="ql"><b>Ouvir</b>Ouve «O Vento Brincalhão» e «Chuva na Cidade» (p. 73).</div></div></div>
+  </div>
+  <div class="figs" style="margin-top:4mm">
+    <div class="fig3" style="background:var(--verde)"><div class="w">comparação</div>Aproxima duas coisas com uma palavra que compara.<div class="sig">como · parece · tal&nbsp;como · tal&nbsp;e&nbsp;qual</div><div class="ex">Os teus olhos brilham como estrelas.</div></div>
+    <div class="fig3" style="background:var(--ameixa)"><div class="w">personificação</div>Dá ações, sentimentos ou qualidades de pessoas a animais, coisas ou à natureza.<div class="ex">O mar escreve na areia.</div></div>
+    <div class="fig3" style="background:#B8741E"><div class="w">metáfora</div>Diz que uma coisa <b>é</b> outra, sem a palavra que compara. É uma comparação escondida.<div class="ex">A lua é um queijo branco.</div></div>
+  </div>
+  <div class="grid2" style="grid-template-columns:.8fr 1.2fr;margin-top:1mm">
+    <div class="act">
+      <div class="act-h"><span class="num">14</span>{{KEY:bronze}}<h3>Caça às imagens</h3><span class="skill">Ler</span></div>
+      <p style="font-size:9.2pt">No poema, sublinha a <span class="hl-c">verde</span> duas comparações, a <span class="hl-pe">lilás</span> três personificações e a <span class="hl-m">amarelo</span> uma metáfora.</p>
+      <div class="act" style="margin-top:3mm">
+        <div class="act-h"><span class="num">15</span>{{KEY:prata}}<h3>Esconde a comparação</h3><span class="skill">Escrever</span></div>
+        <p style="font-size:9.2pt">Transforma em metáfora: <i>As nuvens parecem algodão.</i></p>
+        <span class="ln s"></span>
+      </div>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">16</span>{{KEY:prata}}<h3>C, P ou M?</h3><span class="skill">Ler</span></div>
+      <div class="sort">
+        <span>a) O sol espreita pela janela.</span><span class="o"><span>C</span><span>P</span><span>M</span></span>
+        <span>b) A estrada é uma cobra cinzenta.</span><span class="o"><span>C</span><span>P</span><span>M</span></span>
+        <span>c) Corre como uma lebre.</span><span class="o"><span>C</span><span>P</span><span>M</span></span>
+        <span>d) As árvores dançam com o vento.</span><span class="o"><span>C</span><span>P</span><span>M</span></span>
+        <span>e) Leve tal como uma pena.</span><span class="o"><span>C</span><span>P</span><span>M</span></span>
+      </div>
+      <p class="small" style="margin-top:1.4mm">Rodeia a letra certa. {{KEY:ouro}} Inventa uma frase para cada letra.</p>
+    </div>
+  </div>
+  <footer class="folio">72</footer>
+</section>
+
+<!-- ======================= 73 · SOUNDS AND LISTS ======================= -->
+<section class="page odd r-verde">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Ferramenta 5</b> · Os sons e as listas</span></header>
+  <div class="tab"><span>Ferramentas · Linguagem figurada</span></div>
+  <div class="toolbar"><span class="badge">Caixa de ferramentas · 5</span><span class="dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div>
+  <h1 class="disp" style="margin-top:1.6mm">Plic, ploc: poemas que se ouvem</h1>
+  <div class="grid2" style="grid-template-columns:62mm 1fr;margin-top:3mm;gap:6mm;align-items:start">
+    <div><img src="../art/chuva.jpg" class="mult" style="width:57mm;display:block;margin:0 auto" alt="Uma criança de capa amarela salta para uma poça">
+      <div class="figs" style="grid-template-columns:1fr;gap:2.4mm;margin-top:3mm">
+        <div class="fig3" style="background:var(--ultra)"><div class="w">repetição</div>Repetir palavras ou versos dá ritmo ao poema e sublinha o que é importante.</div>
+        <div class="fig3" style="background:var(--verm)"><div class="w">onomatopeia</div>Palavra que imita um som: <i>miau, tique-taque, plic, catrapum</i>.</div>
+        <div class="fig3" style="background:var(--turq)"><div class="w">enumeração</div>Uma lista de coisas, umas atrás das outras, separadas por vírgulas.</div>
+      </div>
+    </div>
+    <div class="poem-card" style="padding-left:7mm">
+      <div class="poem-t">Chuva na Cidade</div>
+      <div class="poem-by">poema original</div>
+      <div class="poem" style="font-size:11.8pt;line-height:1.45">
+        <div class="st"><span class="v">Plic, ploc, plic, ploc,</span><span class="v">a chuva chegou à cidade!</span><span class="v">Plic, ploc, plic, ploc,</span><span class="v">lava os telhados à vontade.</span></div>
+        <div class="st"><span class="v">Molha os carros, molha os cães,</span><span class="v">molha os bancos do jardim,</span><span class="v">molha as tias e as mães</span><span class="v">e molha — chape! — até a mim!</span></div>
+        <div class="st"><span class="v">Guarda-chuvas, capas, botas,</span><span class="v">poças grandes e pequenas,</span><span class="v">nuvens carregadas de gotas</span><span class="v">e pombos a sacudir as penas.</span></div>
+        <div class="st"><span class="v">Catrapum! — ronca o trovão.</span><span class="v">Plic… ploc… a chuva abranda.</span><span class="v">Fecham-se os guarda-chuvas</span><span class="v">e o sol vem à varanda.</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:1mm">
+    <div class="act">
+      <div class="act-h"><span class="num">17</span>{{KEY:bronze}}<h3>Ouvidos atentos</h3><span class="skill">Ler</span></div>
+      <ol class="qs" style="font-size:9.2pt">
+        <li>Que palavra se repete no início dos versos da estrofe 2? <span class="fill"></span></li>
+        <li>Escreve as quatro onomatopeias do poema. <span class="ln s"></span></li>
+        <li>Em que estrofe está a enumeração mais longa? <span class="fill"></span></li>
+        <li>Que personificação encontras na última estrofe? <span class="ln s"></span></li>
+      </ol>
+      <div class="tip" style="margin-top:5mm"><img src="../../art/mou-3.png" alt=""><div class="bub">Lê a estrofe 2 em voz alta e bate na mesa sempre que disseres <b>«molha»</b>. A repetição ouve-se!</div></div>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">18</span>{{KEY:prata}}<h3>De quem é este som?</h3><span class="skill">Vocabulário</span></div>
+      <div class="ono" style="grid-template-columns:1fr 1fr;gap:1.4mm">
+        <div><b>tique-taque</b><span></span></div><div><b>cocorocó</b><span></span></div>
+        <div><b>trrrim</b><span></span></div><div><b>atchim</b><span></span></div>
+        <div><b>zum-zum</b><span></span></div><div><b>toc-toc</b><span></span></div>
+      </div>
+      <div class="act" style="margin-top:3mm">
+        <div class="act-h"><span class="num">19</span>{{KEY:ouro}}<h3>A estrofe do recreio</h3><span class="skill">Escrever</span></div>
+        <p style="font-size:9pt">Escreve uma quadra sobre o recreio com uma enumeração e duas onomatopeias.</p>
+        <span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span>
+      </div>
+    </div>
+  </div>
+  <footer class="folio">73</footer>
+</section>
+
+<!-- ======================= 74 · DRESS REHEARSAL ======================= -->
+<section class="page even r-verde">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Ensaio geral</b> · Todas as ferramentas</span></header>
+  <div class="tab"><span>Ensaio geral</span></div>
+  <div class="kick">Ensaio geral · Educação literária</div>
+  <h1 class="disp">A noite da Mourinha</h1>
+  <p class="lead" style="margin-top:2.4mm;font-size:11pt">Chegou a hora de usar a caixa de ferramentas completa. Neste poema há de tudo: estrofes, rimas, imagens e sons. És capaz de os encontrar?</p>
+  <div class="grid2" style="grid-template-columns:92mm 1fr;margin-top:3.6mm;gap:6mm;align-items:start">
+    <div class="poem-card" style="padding-left:12mm">
+      <div class="poem-t">A Noite da Mourinha</div>
+      <div class="poem-by">poema original</div>
+      <div class="poem vnum" style="font-size:11.4pt;line-height:1.48">
+        <div class="st"><span class="v">Quando a cidade se deita</span><span class="v">e as janelas apagam a luz,</span><span class="v">a Mourinha espreita</span><span class="v">e o seu olho de ouro reluz.</span></div>
+        <div class="st"><span class="v">Tique-taque, diz o relógio.</span><span class="v">Zzz, ressona o vizinho.</span><span class="v">E ela sobe, sem ruído,</span><span class="v">devagar, devagarinho.</span></div>
+        <div class="st"><span class="v">Mosquitos, moscas e traças</span><span class="v">dançam à volta do candeeiro;</span><span class="v">a Mourinha, sem pressa,</span><span class="v">escolhe o jantar primeiro.</span></div>
+        <div class="st"><span class="v">Depois, quieta como uma pedra,</span><span class="v">fica a ver a lua passar,</span><span class="v">e a lua, lanterna do céu,</span><span class="v">fica com ela a conversar.</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="act" style="margin-top:0">
+        <div class="act-h"><span class="num">20</span>{{KEY:bronze}}<h3>O detetive de poemas</h3><span class="skill">Ler</span></div>
+        <table class="det">
+          <tr><th>Procura…</th><th>Escreve aqui (e o n.º do verso)</th></tr>
+          <tr><td>n.º de estrofes</td><td></td></tr>
+          <tr><td>nome das estrofes</td><td></td></tr>
+          <tr><td>rima da estrofe 1</td><td></td></tr>
+          <tr><td>uma comparação</td><td></td></tr>
+          <tr><td>duas metáforas</td><td></td></tr>
+          <tr><td>uma personificação</td><td></td></tr>
+          <tr><td>uma repetição</td><td></td></tr>
+          <tr><td>duas onomatopeias</td><td></td></tr>
+          <tr><td>uma enumeração</td><td></td></tr>
+        </table>
+      </div>
+      <div class="qr" style="margin-top:3.4mm">{{QR:a5}}<div class="ql"><b>Ouvir</b>Ouve o poema e repara: que versos são lidos mais devagar? Porquê?</div></div>
+    </div>
+  </div>
+  <div class="act" style="margin-top:4.4mm">
+  <div class="act-h"><span class="num">21</span><h3>Três níveis de leitura</h3><span class="skill">Ler</span></div>
+  <div class="lvl">
+    <div class="col" style="--k:var(--bronze)"><div class="lab">{{KEY:bronze}} Encontrar</div><ol>
+      <li>Em que parte do dia acontece o poema?<span class="ln s"></span></li>
+      <li>O que come a Mourinha?<span class="ln s"></span></li></ol></div>
+    <div class="col" style="--k:var(--prata)"><div class="lab">{{KEY:prata}} Relacionar</div><ol start="3">
+      <li>Porque é que os insetos voam «à volta do candeeiro»? Lembra-te da Unidade 1.<span class="ln s"></span><span class="ln s"></span></li></ol></div>
+    <div class="col" style="--k:var(--ouro)"><div class="lab">{{KEY:ouro}} Pensar</div><ol start="4">
+      <li>O que dirão a Mourinha e a lua uma à outra? Escreve duas falas.<span class="ln s"></span><span class="ln s"></span></li></ol></div>
+  </div>
+  </div>
+  <div class="act" style="margin-top:4mm">
+    <div class="act-h"><span class="num">22</span>{{KEY:prata}}<h3>A família da palavra <i>noite</i></h3><span class="skill">Vocabulário</span></div>
+    <div class="fam"><span class="root">noite</span><span>anoitecer</span><span>noturno</span><span>pernoitar</span><span>meia-noite</span><span class="e">.</span><span class="e">.</span><span style="border:0;background:none;font-family:Figtree;font-size:8.6pt;color:var(--ink2);padding:0">Acrescenta duas palavras da mesma família.</span></div>
+  </div>
+  <footer class="folio">74</footer>
+</section>
+
+<!-- ======================= 75 · POEM IN TWO VOICES ======================= -->
+<section class="page odd r-turq">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>3.2</b> · Poema em duas vozes</span></header>
+  <div class="tab"><span>3.2 · Duas vozes</span></div>
+  <div class="kick">3.2 · Educação literária · Oralidade · Poema original</div>
+  <h1 class="disp">Noite e Dia</h1>
+  <div class="grid2" style="grid-template-columns:1fr 66mm;margin-top:2.4mm;gap:6mm;align-items:center">
+    <p class="lead" style="font-size:10.8pt">Um <b>poema em duas vozes</b> é lido por duas pessoas, como um dueto. Lê-se de cima para baixo, linha a linha: cada leitor lê a sua coluna — <b style="color:var(--ultra)">azul</b>, a Voz 1; <b style="color:#B8741E">amarela</b>, a Voz 2 — e os versos da <b style="color:var(--verde)">coluna do meio</b> dizem-se <b>em coro</b>, pelos dois.</p>
+    <div class="qr">{{QR:a6}}<div class="ql"><b>Ouvir</b>Ouve o poema dito a duas vozes. Nos versos em coro, as vozes juntam-se.</div></div>
+  </div>
+  <div class="duas" style="margin-top:3.4mm">
+    <div class="hd"><div>Voz 1 · a osga<small>a noite</small></div><div>As duas vozes<small>em coro</small></div><div>Voz 2 · o pombo<small>o dia</small></div></div>
+    <div class="body">
+      <div class="r"><div>Eu sou da noite.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Eu sou do dia.</div></div>
+      <div class="r"><div></div><div>Moramos os dois no mesmo telhado.</div><div></div></div>
+      <div class="sp"></div>
+      <div class="r"><div>Acordo com a lua acesa.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Acordo com o sol nas penas.</div></div>
+      <div class="r"><div>Sou leve como uma folha seca.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Sou redondo como um pão.</div></div>
+      <div class="sp"></div>
+      <div class="r"><div>Subo paredes sem cair.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Voo sobre a praça inteira.</div></div>
+      <div class="r"><div>Ao jantar: mosquitos.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Ao almoço: migalhas.</div></div>
+      <div class="r"><div></div><div>E ninguém nos convida para a mesa!</div><div></div></div>
+      <div class="sp"></div>
+      <div class="r"><div>Tu arrulhas: ru-ru, ru-ru.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>E tu passas sem dar um pio.</div></div>
+      <div class="r"><div>Se dormes, guardo o telhado.</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Se dormes, guardo o telhado.</div></div>
+      <div class="r"><div></div><div>De manhã, cruzamo-nos na chaminé.</div><div></div></div>
+      <div class="r"><div>Boa noite!</div><div></div><div></div></div>
+      <div class="r"><div></div><div></div><div>Bom dia!</div></div>
+      <div class="r"><div></div><div>E o telhado nunca fica sozinho.</div><div></div></div>
+    </div>
+  </div>
+  <footer class="folio">75</footer>
+</section>
+
+<!-- ======================= 76 · UNDERSTAND + PERFORM ======================= -->
+<section class="page even r-turq">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>3.2</b> · Ler e ensaiar a dois</span></header>
+  <div class="tab"><span>3.2 · Duas vozes</span></div>
+  <div class="kick">3.2 · Leitura e oralidade</div>
+  <h1 class="disp">Dois leitores, um só poema</h1>
+  <div class="grid2" style="grid-template-columns:112mm 1fr;gap:6mm;margin-top:2.6mm;align-items:center">
+    <img src="../art/telhado.jpg" style="width:112mm;height:30mm;object-fit:cover;object-position:50% 58%;border:.8pt solid var(--rule);display:block" alt="Um telhado de Lisboa: de noite, à esquerda, uma osga; de dia, à direita, um pombo">
+    <p class="lead" style="font-size:10.4pt;line-height:1.38">Voltem ao poema da p. 75. Primeiro, <b>compreendam</b> o que diz cada voz; depois, <b>ensaiem</b> para o dizerem a dois.</p>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">23</span><h3>Compreender «Noite e Dia»</h3><span class="skill">Ler</span></div>
+    <div class="lvl">
+      <div class="col" style="--k:var(--bronze)"><div class="lab">{{KEY:bronze}} Encontrar</div><ol>
+        <li>Quem são as duas vozes? Onde moram?<span class="ln s"></span></li>
+        <li>O que come cada um?<span class="ln s"></span><span class="ln s"></span></li>
+        <li>Quem acorda com a lua? E com o sol?<span class="ln s"></span></li></ol></div>
+      <div class="col" style="--k:var(--prata)"><div class="lab">{{KEY:prata}} Relacionar</div><ol start="4">
+        <li>Porque é que a osga diz «Boa noite!» ao nascer do sol?<span class="ln s"></span><span class="ln s"></span></li>
+        <li>Encontra duas comparações e uma onomatopeia.<span class="ln s"></span><span class="ln s"></span></li></ol></div>
+      <div class="col" style="--k:var(--ouro)"><div class="lab">{{KEY:ouro}} Pensar</div><ol start="6">
+        <li>Porque é que «o telhado nunca fica sozinho»?<span class="ln s"></span><span class="ln s"></span></li>
+        <li>Porque estão no meio os versos ditos em coro?<span class="ln s"></span><span class="ln s"></span></li></ol></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">24</span>{{KEY:bronze}}<h3>Opostos e iguais</h3><span class="skill">Vocabulário</span></div>
+    <table class="tbl t76" style="--c:var(--turq)">
+      <tr><th style="width:30%">&nbsp;</th><th style="background:var(--ultra)">a osga</th><th style="background:#B8741E">o pombo</th></tr>
+      <tr><td><b>quando acorda</b></td><td class="g">com a lua</td><td></td></tr>
+      <tr><td><b>como é</b></td><td></td><td></td></tr>
+      <tr><td><b>o que faz</b></td><td></td><td></td></tr>
+      <tr><td><b>o que têm em comum</b></td><td colspan="2" style="background:#F2F7F4"></td></tr>
+    </table>
+  </div>
+  <div>
+    <div class="act">
+      <div class="act-h"><span class="num">25</span>{{KEY:prata}}<h3>O ensaio a dois</h3><span class="skill">Falar</span></div>
+      <div class="roles" style="grid-template-columns:1fr 1fr 1fr 1fr">
+        <div style="--rc:var(--ultra)"><b>1 · Escolher</b>Decidam quem é a osga e quem é o pombo. Marquem as vossas falas com a cor da vossa coluna.</div>
+        <div style="--rc:var(--verde)"><b>2 · O coro</b>Treinem primeiro os versos do meio: começam juntos, acabam juntos.</div>
+        <div style="--rc:#B8741E"><b>3 · Ouvir o outro</b>Quem não está a ler, ouve. Entra logo a seguir, sem deixar buracos.</div>
+        <div style="--rc:var(--verm)"><b>4 · Dar voz</b>A osga fala baixinho e devagar; o pombo, alto e animado.</div>
+      </div>
+      <div class="box" style="margin-top:2.4mm;font-size:8.8pt"><div class="lab" style="margin-bottom:1mm">Avaliem-se: a nossa leitura…</div>
+        <span class="chk"></span>não teve buracos entre as vozes &nbsp; <span class="chk"></span>teve o coro em sincronia<br><span class="chk"></span>mostrou a diferença entre as vozes &nbsp; <span class="chk"></span>ouviu-se bem ao fundo da sala</div>
+    </div>
+  </div>
+  <footer class="folio">76</footer>
+</section>
+
+<!-- ======================= 77 · WRITE YOUR OWN ======================= -->
+<section class="page odd r-turq">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>3.2</b> · Oficina de escrita</span></header>
+  <div class="tab"><span>3.2 · Duas vozes</span></div>
+  <div class="kick">3.2 · Escrita · A pares</div>
+  <h1 class="disp">Escrevam o vosso dueto</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">26</span>{{KEY:bronze}}<h3>Escolham um par</h3><span class="skill">Planear</span></div>
+    <p style="font-size:9.2pt;margin-bottom:1.6mm">Os melhores poemas em duas vozes nascem de duas coisas que são diferentes, mas vivem perto uma da outra.</p>
+    <div class="pairs" style="--c:var(--turq)"><span>o sol e a lua</span><span>o gato e o rato</span><span>o mar e a areia</span><span>o lápis e a borracha</span><span>o inverno e o verão</span><span>a chávena e o pires</span><span>… outro par à vossa escolha</span></div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">27</span>{{KEY:prata}}<h3>Diferentes e iguais</h3><span class="skill">Planear</span></div>
+    <p style="font-size:9.2pt;margin-bottom:2mm">O que é só de um escreve-se do lado dele; o que é dos dois escreve-se no meio — no poema, será dito em coro.</p>
+    <div class="venn">
+      <div class="c l" style="--vc:var(--ultra);--vt:rgba(220,225,243,.75)"></div>
+      <div class="c r" style="--vc:#B8741E;--vt:rgba(246,227,191,.75)"></div>
+      <span class="lbl" style="left:21mm;color:var(--ultra)">só da voz 1</span>
+      <span class="lbl" style="left:50%;transform:translateX(-50%);top:15mm;color:var(--verde);letter-spacing:.04em">dos dois</span>
+      <span class="lbl" style="right:21mm;color:#B8741E">só da voz 2</span>
+      <div class="lines" style="left:16mm;top:17.9mm;width:48mm"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="lines" style="left:50%;transform:translateX(-50%);top:25.3mm;width:22mm"><i></i><i></i><i></i></div>
+      <div class="lines" style="right:16mm;top:17.9mm;width:48mm"><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">28</span>{{KEY:ouro}}<h3>O nosso poema em duas vozes</h3><span class="skill">Escrever</span></div>
+    <p style="font-size:9pt">Usem pelo menos <b>uma comparação</b>, <b>uma repetição</b> e <b>uma onomatopeia</b>.</p>
+    <p style="font-size:9pt;margin:1.4mm 0 1.8mm">Título: <span class="fill xl"></span></p>
+    <div class="tmpl">
+      <div class="hd"><div>Voz 1</div><div>As duas vozes</div><div>Voz 2</div></div>
+            <div class="row"><div></div><div></div><div></div></div><div class="row"><div></div><div></div><div></div></div>
+      <div class="row"><div></div><div></div><div></div></div><div class="row"><div></div><div></div><div></div></div>
+      <div class="row"><div></div><div></div><div></div></div><div class="row"><div></div><div></div><div></div></div>
+      <div class="row"><div></div><div></div><div></div></div><div class="row"><div></div><div></div><div></div></div>
+    </div>
+  </div>
+  <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../../art/mou-2.png" alt=""><div class="bub">Truque de poeta: comecem com duas frases parecidas, uma para cada voz — <b>«Eu sou da noite.» / «Eu sou do dia.»</b> — e acabem com um verso em coro.</div></div>
+  <footer class="folio">77</footer>
+</section>
+
+<!-- ======================= 78 · PROJECT ======================= -->
+<section class="page even r-verm">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Projeto</b> · O livro de poemas da turma</span></header>
+  <div class="tab"><span>Projeto · Livro e recital</span></div>
+  <div class="kick">Projeto final · Escrita e oralidade</div>
+  <h1 class="disp">O livro e o recital</h1>
+  <div class="grid2" style="grid-template-columns:1fr 70mm;margin-top:3.4mm;gap:6mm;align-items:center">
+    <div>
+      <p class="lead" style="font-size:11.4pt">A turma vai fazer <b>um livro de poemas</b>, escrito e ilustrado por todos. No dia do lançamento, o livro sai da sala e sobe ao «coreto»: é o <b>recital</b>, com poemas ditos em voz alta para os convidados.</p>
+      <p style="margin-top:2.4mm">Cada aluno dá ao livro três poemas. Cada um usa uma parte desta unidade.</p>
+    </div>
+    <img src="../art/livrinhos.jpg" class="mult" style="width:66mm" alt="Livrinhos cosidos à mão, tesoura e lápis de cor">
+  </div>
+  <div class="plist" style="margin-top:4mm">
+    <div style="--pc:var(--ameixa)"><small>FERRAMENTAS 1–3 · PP. 69–71</small><b>Uma quadra com rima</b>Escolhe a rima: emparelhada, cruzada ou interpolada. Versos de 7 sílabas, se conseguires.</div>
+    <div style="--pc:var(--verde)"><small>FERRAMENTAS 4–5 · PP. 72–73</small><b>Um poema de imagens</b>Sobre o tempo, um animal ou um lugar, com uma comparação, uma personificação e uma metáfora.</div>
+    <div style="--pc:var(--turq)"><small>3.2 · P. 77</small><b>O dueto</b>O poema em duas vozes que escreveste com o teu par, para dizerem juntos no recital.</div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">29</span><h3>As tarefas da turma</h3><span class="skill">Colaborar</span></div>
+    <div class="jobs">
+      <div><b>Capa e título</b>Quem desenha a capa e escolhe o título do livro?<span></span></div>
+      <div><b>Índice</b>Quem organiza os poemas e numera as páginas?<span></span></div>
+      <div><b>Ilustração</b>Cada poeta ilustra os seus poemas. Quem desenha os enfeites entre eles?<span></span></div>
+      <div><b>Apresentação</b>Quem abre e fecha o recital e apresenta os poetas?<span></span></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">30</span><h3>O calendário do livro</h3><span class="skill">Planear</span></div>
+    <div class="timeline">
+      <div><b>Sessão 1</b>Escrever os rascunhos dos três poemas.</div>
+      <div><b>Sessão 2</b>Rever com um colega: rima, sílabas, imagens.</div>
+      <div><b>Sessão 3</b>Passar a limpo e ilustrar a tua página.</div>
+      <div><b>Sessão 4</b>Montar o livro e ensaiar o recital.</div>
+      <div><b>Recital!</b>Ler para os convidados e oferecer um exemplar à biblioteca.</div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">31</span>{{KEY:bronze}}<h3>As minhas primeiras ideias</h3><span class="skill">Planear</span></div>
+    <div class="plancard pc78" style="border-color:var(--rule)">
+      <div class="r" style="grid-template-columns:44mm 1fr"><b style="color:var(--ink)">Tema da minha quadra</b><span></span></div>
+      <div class="r" style="grid-template-columns:44mm 1fr"><b style="color:var(--ink)">Tema do poema de imagens</b><span></span></div>
+      <div class="r" style="grid-template-columns:44mm 1fr"><b style="color:var(--ink)">O meu par para o dueto</b><span></span></div>
+      <div class="r" style="grid-template-columns:44mm 1fr"><b style="color:var(--ink)">A minha tarefa na turma</b><span></span></div>
+      <div class="r" style="grid-template-columns:44mm 1fr"><b style="color:var(--ink)">Título para o livro</b><span></span></div>
+      <div class="r" style="grid-template-columns:44mm 1fr"><b style="color:var(--ink)">Convidados para o recital</b><span></span></div>
+    </div>
+  </div>
+  <footer class="folio">78</footer>
+</section>
+
+<!-- ======================= 79 · RECITAL ======================= -->
+<section class="page odd r-verm">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Projeto</b> · Preparar o recital</span></header>
+  <div class="tab"><span>Projeto · Livro e recital</span></div>
+  <div class="kick">Projeto final · Oralidade</div>
+  <h1 class="disp">Dizer um poema, não só lê-lo</h1>
+  <div class="grid2" style="grid-template-columns:1fr 58mm;margin-top:3mm;gap:6mm;align-items:center">
+    <p class="lead" style="font-size:11pt">Quem diz um poema em voz alta é como um músico a ler uma pauta. Antes do recital, marca no teu poema <b>onde respiras</b>, <b>onde fazes pausa</b> e <b>que palavras dizes com mais força</b>.</p>
+    <img src="../art/recital.jpg" class="mult" style="width:58mm" alt="Uma menina diz um poema num pequeno palco para três colegas">
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">32</span>{{KEY:prata}}<h3>A partitura do poema</h3><span class="skill">Falar</span></div>
+    <div class="grid2" style="grid-template-columns:1fr 60mm;align-items:start">
+      <div class="score">No meio do jardim velho <span class="p1">/</span><br>dorme um coreto <u>sozinho</u>, <span class="p1">/</span><br>com um chapéu de ferro <u>verde</u> <span class="p1">/</span><br>e, no chapéu, um <u>passarinho</u>. <span class="p2">//</span><br><span class="up"><svg viewBox="0 0 10 10" style="width:2.6mm;height:2.6mm;vertical-align:0"><path d="M1 2h8L5 9z" fill="#7B3F6E"/></svg></span> Ninguém lá sobe a cantar, <span class="p1">/</span><br>só o vento, <span class="up">…</span> de-va-gar. <span class="p2">//</span></div>
+      <div class="box" style="font-size:8.8pt;line-height:1.5"><div class="lab" style="margin-bottom:1mm">Os sinais</div>
+        <b style="color:var(--turq);font-family:'DM Mono'">/</b> pausa curta: respira<br>
+        <b style="color:var(--verm);font-family:'DM Mono'">//</b> pausa longa: fim de estrofe<br>
+        <u style="text-decoration:none;border-bottom:1.6pt solid var(--ocre)">palavra</u> diz com mais força<br>
+        <svg viewBox="0 0 10 10" style="width:2.6mm;height:2.6mm;vertical-align:0"><path d="M1 2h8L5 9z" fill="#7B3F6E"/></svg> baixa a voz &nbsp; <b style="color:var(--ameixa);font-family:'DM Mono'">…</b> abranda</div>
+    </div>
+    <p style="font-size:9.2pt;margin-top:2mm">Copia a tua quadra para o caderno e marca-a com estes sinais. Depois, lê-a a um colega de duas maneiras: sem sinais e com sinais. Qual soou melhor?</p>
+  </div>
+  <div class="grid2" style="grid-template-columns:1.25fr 1fr">
+    <div class="act">
+      <div class="act-h"><span class="num">33</span>{{KEY:prata}}<h3>O ouvinte atento</h3><span class="skill">Ouvir</span></div>
+      <table class="rub r79"><tr><th style="text-align:left">O poeta…</th><th>sim</th><th>quase</th><th>ainda não</th></tr>
+        <tr><td><b>volume</b> — ouviu-se ao fundo da sala</td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td></tr>
+        <tr><td><b>ritmo</b> — não leu depressa demais</td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td></tr>
+        <tr><td><b>pausas</b> — respeitou versos e estrofes</td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td></tr>
+        <tr><td><b>entoação</b> — a voz mudou com o sentido</td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td></tr>
+        <tr><td><b>expressão</b> — olhou para o público</td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td><td class="c"><span class="ring" style="display:inline-block;width:4mm;height:4mm"></span></td></tr></table>
+    </div>
+    <div class="act">
+      <div class="act-h"><span class="num">34</span><h3>O programa do recital</h3><span class="skill">Organizar</span></div>
+      <table class="prog-t" style="--c:var(--verm);--t:#F7D9CE">
+        <tr><th>n.º</th><th>poema</th><th>quem o diz</th></tr>
+        <tr><td>1</td><td></td><td></td></tr><tr><td>2</td><td></td><td></td></tr><tr><td>3</td><td></td><td></td></tr><tr><td>4</td><td></td><td></td></tr><tr><td>5</td><td></td><td></td></tr><tr><td>6</td><td></td><td></td></tr><tr><td>7</td><td></td><td></td></tr>
+      </table>
+    </div>
+  </div>
+  <footer class="folio">79</footer>
+</section>
+
+<!-- ======================= 80 · BALANÇO ======================= -->
+<section class="page even r-tinta">
+  <header class="run"><span>O Coreto das Palavras</span><span><b>Balanço</b> · O que levo do coreto</span></header>
+  <div class="tab"><span>Balanço</span></div>
+  <div class="kick" style="color:var(--ultra)">Balanço · Unidade 3</div>
+  <h1 class="disp">O que levo do coreto</h1>
+  <div class="act">
+    <div class="act-h"><span class="num">35</span><h3>Carimba o teu bilhete</h3><span class="skill">Autoavaliação</span></div>
+    <div class="pass">
+      <div class="hd">Sou capaz de…</div><div class="hd">ainda não</div><div class="hd">quase</div><div class="hd">sim!</div>
+      <div>dizer quem é José Jorge Letria e falar de um poema seu</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>contar os versos e as estrofes e dar nome às estrofes</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>reconhecer rima emparelhada, cruzada e interpolada</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>contar as sílabas métricas de um verso simples</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>encontrar comparações, personificações e metáforas</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>encontrar repetições, onomatopeias e enumerações</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>ler e escrever um poema em duas vozes, com um colega</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+      <div>dizer um poema em voz alta, com pausas e expressão</div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div><div class="c"><span class="ring"></span></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">36</span>{{KEY:prata}}<h3>Oito perguntas à saída do jardim</h3><span class="skill">Revisão</span></div>
+    <div class="quiz">
+      <div><b>1</b><span>Como se chama uma estrofe de quatro versos? <span class="fill"></span></span></div>
+      <div><b>5</b><span>«O rio é uma estrada de água.» Que recurso é? <span class="fill"></span></span></div>
+      <div><b>2</b><span>Esquema da rima interpolada: <span class="fill"></span></span></div>
+      <div><b>6</b><span>Escreve uma onomatopeia de um animal: <span class="fill"></span></span></div>
+      <div><b>3</b><span>Quantas sílabas métricas tem «Leram versos para o céu»? <span class="fill"></span></span></div>
+      <div><b>7</b><span>«O candeeiro boceja.» Que recurso é? <span class="fill"></span></span></div>
+      <div><b>4</b><span>Que palavra falta numa comparação? «Rápido <span class="fill" style="min-width:12mm"></span> o vento.»</span></div>
+      <div><b>8</b><span>Num poema em duas vozes, o que se lê na coluna do meio? <span class="fill"></span></span></div>
+    </div>
+  </div>
+  <div class="act">
+    <div class="act-h"><span class="num">37</span>{{KEY:ouro}}<h3>O meu verso preferido desta unidade</h3><span class="skill">Refletir</span></div>
+    <div class="grid2" style="grid-template-columns:1fr 1fr;gap:1mm 6mm"><div><p class="small">O verso (e o poema de onde vem):</p><span class="ln s"></span><span class="ln s"></span></div><div><p class="small">Escolhi-o porque…</p><span class="ln s"></span><span class="ln s"></span></div></div>
+  </div>
+  <div class="act">
+    <div class="lab" style="margin-bottom:1.6mm;color:var(--ink)">Glossário do coreto</div>
+    <div class="glos2">
+      <p><b>comparação</b> — aproxima duas coisas com <i>como</i>, <i>parece</i>, <i>tal como</i>.</p>
+      <p><b>enumeração</b> — lista de elementos seguidos, separados por vírgulas.</p>
+      <p><b>estrofe</b> — grupo de versos: dístico, terceto, quadra, quintilha, sextilha.</p>
+      <p><b>metáfora</b> — diz que uma coisa <i>é</i> outra, sem palavra que compare.</p>
+      <p><b>onomatopeia</b> — palavra que imita um som.</p>
+      <p><b>personificação</b> — dá ações ou sentimentos humanos a animais ou coisas.</p>
+      <p><b>repetição</b> — palavras ou versos que voltam, para dar ritmo e ênfase.</p>
+      <p><b>rima</b> — sons iguais no fim dos versos, a partir da vogal tónica.</p>
+      <p><b>ritmo</b> — a alternância de sílabas fortes e fracas e de pausas.</p>
+      <p><b>sílaba métrica</b> — sílaba contada de ouvido, até à última sílaba forte do verso.</p>
+      <p><b>verso</b> — cada linha de um poema.</p>
+    </div>
+  </div>
+  <div style="position:absolute;left:24mm;right:14mm;bottom:21mm;display:grid;grid-template-columns:1fr 50mm;gap:8mm;align-items:center">
+    <div class="tip"><img src="../../art/mou-4.png" alt=""><div class="bub">Esta noite há recital no coreto. Eu vou estar lá, na parede, a ouvir — <b>diz o teu poema bem alto</b>!</div></div>
+    <div class="qr qr-big">{{QR:solucoes}}<div class="ql"><b>Para o professor</b>Soluções e textos dos áudios desta unidade.</div></div>
+  </div>
+  <footer class="folio">80</footer>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,1026 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>Avaliação — Português · Year 5 · Unidade 6</title>
+<style>
+*{font-synthesis:none}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400i.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500i.ttf) format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-900.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400i.ttf) format("truetype");font-weight:400 900;font-style:italic}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-400.ttf) format("truetype");font-weight:400}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-700.ttf) format("truetype");font-weight:700}
+
+
+
+@font-face{font-family:"DM Mono";src:url(../../fonts/DMMono-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"DM Mono";src:url(../../fonts/DMMono-Medium.ttf) format("truetype");font-weight:500}
+
+
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --paper:#F6F0E4; --paper2:#EFE6D4; --ink:#1C2536; --ink2:#4B5467; --rule:#D8CCB6;
+  --ocre:#D9922A; --verde:#2F6E5C; --ultra:#2D4BA8; --ameixa:#7B3F6E; --verm:#DC4A2E; --turq:#1C7C89; --tinta:#1C2536;
+}
+html,body{background:#8a8577}
+body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-variant-numeric:lining-nums}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--paper);page-break-after:always;break-after:page;padding:19mm 16mm 17mm 16mm}
+.page:last-child{page-break-after:auto}
+/* ---------- colours: unit = ultramarine; each test wears the colour of its unit ---------- */
+.r-ultra{--c:var(--ultra);--t:#DCE1F3}
+.r-verde{--c:var(--verde);--t:#D7E6DC}
+.r-ocre{--c:#B8751A;--t:#F6E3BF}
+.r-ameixa{--c:var(--ameixa);--t:#EBDCE5}
+.r-turq{--c:var(--turq);--t:#D3E9EA}
+.r-verm{--c:var(--verm);--t:#F7D9CE}
+/* ---------- running furniture (as Unit 1) ---------- */
+.run{position:absolute;top:8.5mm;left:16mm;right:16mm;display:flex;justify-content:space-between;font-family:"DM Mono";font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);border-bottom:.6pt solid var(--rule);padding-bottom:1.6mm}
+.run b{color:var(--c);font-weight:500}
+.folio{position:absolute;bottom:8mm;width:9mm;height:9mm;border-radius:50%;background:var(--c);color:#fff;font-family:"Fraunces";font-weight:700;font-size:9pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100,"WONK" 0;letter-spacing:-.02em}
+.page.odd .folio{right:12mm}.page.even .folio{left:12mm}
+.foot{position:absolute;bottom:10.6mm;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.06em;color:var(--ink2);text-transform:uppercase}
+.page.odd .foot{right:24mm}.page.even .foot{left:24mm}
+.tab{position:absolute;top:34mm;width:7mm;height:62mm;background:var(--c);color:#fff;font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;justify-content:center}
+.tab span{transform:rotate(90deg);white-space:nowrap}
+.page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
+.page.even .tab span{transform:rotate(-90deg)}
+/* ---------- type ---------- */
+.disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
+h1.disp{font-size:34pt;color:var(--ink)}
+h2.disp{font-size:22pt}
+.kick{font-family:"DM Mono";font-weight:500;font-size:7.6pt;letter-spacing:.16em;text-transform:uppercase;color:var(--c);margin-bottom:2.2mm;display:flex;align-items:center;gap:2mm}
+.kick:before{content:"";width:6mm;height:1.4pt;background:var(--c)}
+.lead{font-size:11.6pt;line-height:1.42;color:var(--ink);max-width:170mm}
+.txt{font-family:"Fraunces";font-variation-settings:"SOFT" 50,"WONK" 0,"opsz" 12;font-weight:400;font-size:10.6pt;line-height:1.5;color:#20283a}
+.txt p{margin-bottom:1.8mm}
+.txt h4{font-family:"Figtree";font-weight:800;font-size:8.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--c);margin:2.6mm 0 .8mm}
+.small{font-size:8.2pt;color:var(--ink2)}
+b,strong{font-weight:700}
+.ln{display:block;height:7.4mm;border-bottom:.7pt solid #B9AE98}
+.ln.s{height:6.6mm}
+.fill{display:inline-block;min-width:24mm;border-bottom:.7pt solid #9C927E;height:1em;vertical-align:-2pt}
+.fill.s{min-width:14mm}.fill.l{min-width:40mm}.fill.xl{min-width:62mm}
+.box{border:.8pt solid var(--rule);border-radius:2.4mm;background:#FBF7EF;padding:3mm 3.4mm}
+.tint{background:var(--t);border-radius:2.4mm;padding:3mm 3.6mm}
+.tip{display:flex;gap:3mm;align-items:center}
+.tip img{width:17mm;flex:none;mix-blend-mode:multiply}
+.tip .bub{background:#fff;border:.8pt solid var(--ink);border-radius:3mm;padding:2.2mm 3mm;font-size:9.2pt;line-height:1.35;position:relative}
+.tip .bub:before{content:"";position:absolute;left:-2.1mm;top:44%;width:3.4mm;height:3.4mm;background:#fff;border-left:.8pt solid var(--ink);border-bottom:.8pt solid var(--ink);transform:rotate(45deg)}
+.tip .bub b{color:var(--verm)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:5mm}
+.chk{display:inline-block;width:3.4mm;height:3.4mm;border:.8pt solid var(--ink);border-radius:.6mm;vertical-align:-.5mm;margin-right:1.4mm;background:#fff;flex:none}
+.qr{display:flex;gap:2.6mm;align-items:center}
+.qr svg{width:21mm;height:21mm;flex:none;background:#fff;border-radius:1.4mm}
+.qr .ql{font-size:8.2pt;line-height:1.3}
+.qr .ql b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.lab{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.mult{mix-blend-mode:multiply}
+.cap{font-size:7.8pt;color:var(--ink2);line-height:1.35}
+.ring{display:inline-block;width:5mm;height:5mm;border-radius:50%;border:.9pt solid var(--ink);background:#fff}
+
+/* ============ OPENER ============ */
+.p-open{padding:0;background:#E9DFC9}
+.p-open .art{position:absolute;inset:0;background:url(../art/opener.jpg) center 70%/cover}
+.p-open .veil{position:absolute;left:0;right:0;top:0;height:112mm;background:linear-gradient(#F4ECDC 0%,rgba(244,236,220,.93) 50%,rgba(244,236,220,0) 100%)}
+.p-open .ttl{position:absolute;top:17mm;left:16mm;right:16mm}
+.p-open .u{display:flex;align-items:baseline;gap:4mm;font-family:"DM Mono";font-weight:500;font-size:8pt;letter-spacing:.2em;text-transform:uppercase;color:var(--ultra)}
+.p-open .u .big{font-family:"Fraunces";font-size:64pt;letter-spacing:0;color:var(--ultra);font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:700;line-height:.8}
+.p-open h1{font-size:50pt;line-height:.93;margin-top:4mm;color:var(--ink);max-width:175mm}
+.p-open h1 i{font-style:italic;font-weight:500;color:var(--verm)}
+.p-open .sub{margin-top:4.6mm;font-size:12.5pt;font-weight:600;color:var(--ink);display:flex;gap:3mm;align-items:center}
+.p-open .sub span{font-family:"DM Mono";font-weight:500;font-size:7.4pt;letter-spacing:.14em;text-transform:uppercase;background:var(--ink);color:#F6F0E4;padding:1.2mm 2.2mm;border-radius:1mm}
+.p-open .tag{position:absolute;right:16mm;bottom:17mm;background:#F6F0E4;border:1pt solid var(--ink);border-radius:1.5mm;padding:3mm 4mm 3mm 7mm;transform:rotate(-3deg);box-shadow:1.4mm 1.6mm 0 rgba(28,37,54,.25);width:66mm}
+.p-open .tag:before{content:"";position:absolute;left:2.4mm;top:50%;width:2.6mm;height:2.6mm;margin-top:-1.3mm;border-radius:50%;border:1pt solid var(--ink);background:#E9DFC9}
+.p-open .tag .lab{color:var(--verm)}
+.p-open .tag p{font-family:"Fraunces";font-size:11pt;line-height:1.25;margin-top:1mm;font-variation-settings:"SOFT" 100}
+.p-open .brand{position:absolute;left:16mm;bottom:16mm;font-family:"DM Mono";font-size:7pt;letter-spacing:.16em;text-transform:uppercase;color:#F6F0E4;background:rgba(28,37,54,.8);padding:1.6mm 2.6mm;border-radius:1mm}
+
+/* ============ HOW TO USE ============ */
+.tests{display:grid;grid-template-columns:repeat(4,1fr);gap:2.6mm;margin-top:3.4mm}
+.tests div{background:#fff;border:.8pt solid var(--rule);border-top:3.2pt solid var(--tc);border-radius:0 0 1.6mm 1.6mm;padding:2.2mm 2.6mm;font-size:8.4pt;line-height:1.3}
+.tests div b{display:block;font-family:"Fraunces";font-size:13pt;color:var(--tc);line-height:1.05;font-variation-settings:"SOFT" 100,"WONK" 1}
+.tests div small{display:block;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);margin-top:1mm}
+.anat{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:1.6mm}
+.secrow{display:grid;grid-template-columns:7mm 1fr auto;gap:2mm;align-items:center;margin-bottom:1.4mm;font-size:8.8pt;line-height:1.28}
+.secrow .L{width:7mm;height:7mm;border-radius:1.2mm;background:var(--ink);color:#fff;font-family:"Fraunces";font-weight:700;font-size:11pt;display:flex;align-items:center;justify-content:center}
+.secrow .p{font-family:"DM Mono";font-size:7.4pt;color:var(--ink2);white-space:nowrap}
+.timebar{display:grid;grid-template-columns:25fr 15fr 20fr;height:7mm;border-radius:1.2mm;overflow:hidden;font-family:"DM Mono";font-size:6.6pt;color:#fff;letter-spacing:.06em;margin-top:2mm}
+.timebar span{display:flex;align-items:center;justify-content:center}
+.types{width:100%;border-collapse:separate;border-spacing:0;font-size:8.6pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.types td{padding:.9mm 2.4mm;border-top:.7pt solid var(--rule);vertical-align:top;line-height:1.3}
+.types tr:first-child td{border-top:0}
+.types td:first-child{font-weight:800;white-space:nowrap;width:37mm}
+.types td:last-child{font-family:"Fraunces";color:var(--ink2);white-space:nowrap;text-align:right}
+.demo{background:#fff;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2.4mm 3mm;position:relative}
+.callout{font-family:"Caveat";font-weight:700;font-size:13pt;line-height:1;color:var(--verm)}
+.mtips{display:grid;grid-template-columns:repeat(4,1fr);gap:2.4mm}
+.mtips div{background:var(--t);border-radius:1.6mm;padding:2mm 2.4mm;font-size:8.4pt;line-height:1.3}
+.mtips div b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.6mm}
+.mtips ul{margin-left:3.4mm}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:1.4mm 6mm;font-size:9pt}
+.checklist div{display:flex;align-items:flex-start;gap:1mm}
+.checklist .chk{margin-top:.6mm}
+.chk.xk{background:linear-gradient(45deg,transparent 44%,var(--ink) 44%,var(--ink) 56%,transparent 56%),linear-gradient(-45deg,transparent 44%,var(--ink) 44%,var(--ink) 56%,transparent 56%),#fff}
+
+/* ============ TEST PAPER ============ */
+.xh{border:1.1pt solid var(--ink);border-radius:2.6mm;background:#FFFDF8;overflow:hidden}
+.xh-top{display:grid;grid-template-columns:1fr 44mm;background:var(--c);color:#fff}
+.xh-top .l{padding:2.4mm 4mm 2.6mm}
+.xh-k{font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.16em;text-transform:uppercase;opacity:.92}
+.xh-n{display:flex;align-items:baseline;gap:3mm;margin-top:1mm}
+.xh-n b{font-family:"Fraunces";font-weight:700;font-size:23pt;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 72}
+.xh-n span{font-weight:600;font-size:10.4pt;line-height:1.2}
+.xh-sc{background:#fff;color:var(--ink);margin:2.2mm;border-radius:1.8mm;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.4mm}
+.xh-sc b{font-family:"DM Mono";font-weight:500;font-size:6.2pt;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.xh-sc .v{font-family:"Fraunces";font-size:17pt;font-weight:600;display:flex;align-items:flex-end;gap:1mm;line-height:1}
+.xh-sc .v i{display:inline-block;width:15mm;border-bottom:1pt solid var(--ink);height:7mm}
+.xh-f{display:grid;grid-template-columns:1fr 17mm 21mm 36mm;gap:0 4mm;padding:1.6mm 4mm 2mm}
+.xh-f span{display:flex;align-items:flex-end;gap:1.6mm;font-size:8.2pt;font-weight:700}
+.xh-f span i{flex:1;border-bottom:.7pt solid #9C927E;height:6mm}
+.xh-g{display:grid;grid-template-columns:repeat(5,1fr) 1.7fr;border-top:.7pt solid var(--rule)}
+.xh-g div{padding:1mm 2mm 1mm;border-left:.7pt solid var(--rule);font-size:7.4pt;line-height:1.15;display:flex;flex-direction:column;justify-content:space-between;min-height:9.4mm}
+.xh-g div:first-child{border-left:0}
+.xh-g div b{font-family:"DM Mono";font-weight:500;font-size:6.2pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.xh-g div span{font-family:"Fraunces";font-size:10pt;text-align:right;color:var(--ink2)}
+.xh-g div.tot{background:var(--t)}
+.xh-g div.tot span{color:var(--ink);font-weight:700}
+.xh-note{display:flex;justify-content:space-between;font-size:7.8pt;color:var(--ink2);margin:1.8mm .6mm 0;gap:4mm}
+.xh-note b{color:var(--ink)}
+/* sections */
+.sec{display:flex;align-items:center;gap:2.6mm;border-bottom:1.5pt solid var(--c);padding-bottom:1.2mm;margin-top:3.4mm}
+.sec .L{flex:none;width:8mm;height:8mm;border-radius:1.4mm;background:var(--c);color:#fff;font-family:"Fraunces";font-weight:700;font-size:13pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100}
+.sec h3{font-family:"Fraunces";font-weight:650;font-size:16pt;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1}
+.sec .sub{font-size:8.6pt;color:var(--ink2)}
+.sec .pts{margin-left:auto;font-family:"DM Mono";font-weight:500;font-size:7.4pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c);white-space:nowrap}
+.sec.cont h3{font-size:12pt}
+.instr{font-size:9pt;font-style:italic;color:var(--ink2);margin:1.8mm 0 0}
+/* items with marks in the margin */
+.it{display:grid;grid-template-columns:6.6mm 1fr 15.5mm;gap:0 2.2mm;padding:1mm 0 1.1mm;border-bottom:.5pt dashed #CDBFA6;font-size:9.4pt;line-height:1.33;break-inside:avoid}
+.it:last-child{border-bottom:0}
+.it>.n{width:6.2mm;height:6.2mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"Fraunces";font-weight:700;font-size:8.8pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100;margin-top:-.3mm}
+.it>.c>p+p,.it>.c>p+div,.it>.c>div+p{margin-top:1.2mm}
+.mk{align-self:start;justify-self:end;display:flex;align-items:flex-end;gap:.4mm;border:.8pt solid var(--ink);border-radius:1.2mm;padding:0 1.4mm .5mm;height:7mm;background:#fff;font-family:"DM Mono";font-weight:500;font-size:7.4pt;color:var(--ink)}
+.mk i{display:block;width:5.6mm;border-bottom:.7pt solid #9C927E;height:5mm;margin-bottom:.6mm}
+.mk b{font-weight:500}
+.q{font-weight:600}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:.6mm 5mm;margin-top:.8mm}
+.mc{display:grid;grid-template-columns:1fr 1fr;gap:.8mm 5mm;margin-top:1.2mm}
+.mc.four{grid-template-columns:repeat(4,auto);justify-content:start;gap:.8mm 6mm}
+.mc span{display:flex;align-items:flex-start;gap:1.4mm}
+.mc span:before{content:"";flex:none;width:3.6mm;height:3.6mm;border:.8pt solid var(--ink);border-radius:.6mm;background:#fff;margin-top:.6mm}
+.mc em{font-style:normal;font-family:"DM Mono";font-size:7.6pt;color:var(--c);font-weight:500;margin-right:.6mm}
+.vf{width:100%;border-collapse:collapse;margin-top:1.2mm;font-size:9.2pt}
+.vf td,.vf th{border:.7pt solid var(--rule);padding:.6mm 1.8mm;vertical-align:middle;background:#fff}
+.vf th{background:var(--t);font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.1em;text-transform:uppercase;text-align:left}
+.vf td.b{width:7mm;text-align:center}
+.vf td.cor{width:62mm}
+.vf td.cor span{display:block;border-bottom:.7pt solid #B9AE98;height:5.2mm}
+.ass{display:grid;grid-template-columns:1fr 12mm 1fr;gap:.8mm 2mm;align-items:center;margin-top:1.2mm;font-size:9.2pt}
+.ass .a,.ass .b{background:#fff;border:.7pt solid var(--rule);border-radius:1.2mm;padding:.6mm 2mm;line-height:1.25}
+.ass .a em,.ass .b em{font-style:normal;font-family:"DM Mono";font-size:7.4pt;font-weight:500;color:var(--c);margin-right:1mm}
+.ass .sq{justify-self:center;width:8mm;height:5.8mm;border:.8pt solid var(--ink);border-radius:1mm;background:#fff}
+.opts{display:flex;flex-wrap:wrap;gap:1.4mm;margin-top:1.2mm}
+.opts span{border:.8pt solid var(--c);border-radius:5mm;padding:.2mm 2.4mm;font-size:8.8pt;background:#fff}
+.plan{display:grid;gap:2.4mm;margin-top:1.6mm}
+.plan div{background:#fff;border:.7pt solid var(--rule);border-radius:1.4mm;padding:1.2mm 2.2mm;font-size:7.8pt;color:var(--ink2);min-height:17mm}
+.plan div b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--c)}
+.wr{margin-top:1.6mm;background:#FFFEF9;border:.7pt solid var(--rule);border-radius:1.4mm;padding:0 3mm 1.6mm;background-image:repeating-linear-gradient(transparent 0,transparent 7.6mm,#D9CFBE 7.6mm,#D9CFBE 7.85mm)}
+.wcount{font-family:"DM Mono";font-size:6.8pt;color:var(--ink2);text-align:right;margin-top:1mm;letter-spacing:.06em}
+.endnote{display:flex;align-items:center;gap:2.6mm;margin-top:3mm;font-size:8.6pt;color:var(--ink2)}
+.endnote img{width:11mm;mix-blend-mode:multiply}
+.endnote b{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+.dq{display:grid;grid-template-columns:24mm 1fr;gap:4mm;align-items:start;margin-top:2mm}
+.dq .qr svg{width:24mm;height:24mm}
+.dqnote{font-size:7.6pt;color:var(--ink2);line-height:1.28;margin-top:1.2mm}
+
+/* reading texts */
+.src{font-size:7.2pt;color:var(--ink2);font-style:italic;line-height:1.3}
+.art-box{background:#FFFDF8;border:.8pt solid var(--rule);border-radius:2mm;padding:3.4mm 5mm 3mm;margin-top:2.2mm}
+.art-h{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1.2pt solid var(--ink);padding-bottom:1.6mm}
+.art-h .vol{font-family:"DM Mono";font-size:6.4pt;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);text-align:right;line-height:1.5}
+.art-t{font-family:"Fraunces";font-size:27pt;font-weight:650;line-height:.95;font-variation-settings:"SOFT" 30,"WONK" 0,"opsz" 144}
+.art-sci{font-family:"Fraunces";font-style:italic;font-size:11pt;color:var(--c);margin-top:.6mm}
+.art-lead{font-family:"Fraunces";font-size:11pt;line-height:1.42;margin-top:2mm;font-variation-settings:"opsz" 18}
+.cols2{column-count:2;column-gap:6mm}
+.artgrid{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin-top:1.6mm;font-size:10.2pt;line-height:1.46}
+.artgrid h4:first-child{margin-top:0}
+.cols2 .keep{break-inside:avoid}
+.cols2 h4:first-child{margin-top:0}
+.fact{background:var(--t);border-radius:2mm;padding:2.6mm 3.2mm;font-size:8.4pt;break-inside:avoid}
+.fact h5{font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.14em;text-transform:uppercase;color:var(--c);margin-bottom:1.2mm}
+.fact dl{display:grid;grid-template-columns:auto 1fr;gap:.6mm 2.6mm}
+.fact dt{font-weight:800}
+.nar{counter-reset:par}
+.nar p{counter-increment:par;position:relative;text-indent:5mm}
+.nar p:before{content:counter(par);position:absolute;left:-7.4mm;top:.5mm;text-indent:0;font-family:"DM Mono";font-size:6.6pt;color:var(--c);width:4.6mm;height:4.6mm;border:.7pt solid var(--c);border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff}
+.nar p.dl{text-indent:0}
+.notice-in{font-family:"Figtree";font-weight:700;font-size:9.2pt;background:#fff;border:1pt solid var(--ink);padding:1.4mm 2.4mm;border-radius:1mm;display:block;margin:1mm 0;text-indent:0}
+.poem{font-family:"Fraunces";font-size:12pt;line-height:1.46;font-variation-settings:"opsz" 14;counter-reset:v}
+.poem .st{margin-bottom:3.6mm;break-inside:avoid}
+.poem .v{display:block;position:relative;counter-increment:v}
+.poem .v.n5:after{content:counter(v);position:absolute;left:-9mm;font-family:"DM Mono";font-size:6.8pt;color:var(--c);top:1.2mm}
+.poem-t{font-family:"Fraunces";font-weight:700;font-size:21pt;line-height:1;font-variation-settings:"SOFT" 100,"WONK" 1;margin-bottom:3.4mm}
+.drama{font-family:"Fraunces";font-size:10.4pt;line-height:1.46;font-variation-settings:"opsz" 12}
+.drama p{margin-bottom:1.3mm;padding-left:6mm;text-indent:-6mm}
+.drama .sp{font-family:"Figtree";font-weight:800;font-size:8.4pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.drama .dd{font-style:italic;color:#5a5f6d}
+.drama p.dd{padding-left:0;text-indent:0}
+.cast{display:flex;flex-wrap:wrap;gap:1mm 5mm;font-size:8.6pt;border-top:.8pt solid var(--ink);border-bottom:.8pt solid var(--ink);padding:1.4mm 0;margin:2mm 0 2.4mm}
+.cast b{font-family:"Figtree";font-weight:800;font-size:7.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+.pic{background:#fff;border:.8pt solid var(--rule);padding:1.6mm;box-shadow:1.2mm 1.2mm 0 var(--t)}
+.pic img{width:100%;display:block;mix-blend-mode:multiply}
+
+/* ============ RUBRICS ============ */
+.rub{width:100%;border-collapse:separate;border-spacing:0;font-size:8pt;line-height:1.27;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.rub th{background:var(--ink);color:#fff;font-family:"DM Mono";font-weight:500;font-size:6.4pt;letter-spacing:.08em;text-transform:uppercase;padding:1.4mm 1.8mm;text-align:left}
+.rub th span{display:block;font-family:"Fraunces";font-size:10pt;letter-spacing:0;text-transform:none}
+.rub td{border-top:.7pt solid var(--rule);padding:1.4mm 1.8mm;vertical-align:top}
+.rub td+td,.rub th+th{border-left:.7pt solid var(--rule)}
+.rub td.k{font-weight:800;font-size:8.4pt;width:28mm;background:var(--t)}
+.rub td.k small{display:block;font-weight:500;font-size:7pt;color:var(--ink2);margin-top:.6mm}
+.rub td.me{width:13mm;text-align:center;vertical-align:middle}
+.lvlkey{display:flex;gap:3mm;flex-wrap:wrap;font-size:8.2pt;margin-top:1.6mm;align-items:center}
+.lvlkey span{display:inline-flex;align-items:center;gap:1mm}
+.lvlkey i{font-style:normal;font-family:"Fraunces";font-weight:700;color:#fff;background:var(--c);width:5mm;height:5mm;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:8pt}
+
+/* ============ BALANÇO + TRACKER ============ */
+.can{display:grid;grid-template-columns:1fr 1fr;gap:3mm 4mm}
+.can .u{background:#fff;border:.8pt solid var(--rule);border-top:3pt solid var(--uc);border-radius:0 0 1.6mm 1.6mm;padding:1.8mm 2.4mm 1.4mm}
+.can .u h5{font-family:"Fraunces";font-size:10.4pt;color:var(--uc);display:flex;justify-content:space-between;align-items:baseline;line-height:1.1;margin-bottom:.8mm}
+.can .u h5 small{font-family:"DM Mono";font-weight:500;font-size:6pt;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.can .r{display:grid;grid-template-columns:1fr 5.4mm 5.4mm 5.4mm;gap:1.2mm;align-items:center;font-size:8.2pt;line-height:1.24;padding:.9mm 0;border-top:.5pt dashed var(--rule)}
+.can .hd{border-top:0;font-family:"DM Mono";font-size:5.6pt;letter-spacing:.02em;text-transform:uppercase;color:var(--ink2);text-align:center;padding:0}
+.can .hd span:first-child{text-align:left}
+.can .ring{width:4.6mm;height:4.6mm}
+.trk{width:100%;border-collapse:separate;border-spacing:0;font-size:8.4pt;background:#fff;border:.8pt solid var(--ink);border-radius:1.6mm;overflow:hidden}
+.trk th{background:var(--ink);color:#fff;font-family:"DM Mono";font-weight:500;font-size:6.2pt;letter-spacing:.06em;text-transform:uppercase;padding:1.3mm 1.6mm;text-align:center;line-height:1.2}
+.trk th:first-child{text-align:left}
+.trk td{border-top:.7pt solid var(--rule);padding:1mm 1.6mm;height:9.6mm;text-align:right;font-family:"Fraunces";color:var(--ink2);font-size:8.6pt;vertical-align:bottom}
+.trk td+td,.trk th+th{border-left:.7pt solid var(--rule)}
+.trk td:first-child{text-align:left;font-family:"Figtree";color:var(--ink);font-weight:800;vertical-align:middle}
+.trk td:first-child small{display:block;font-weight:500;font-size:7pt;color:var(--ink2)}
+.trk td.tt{background:#F1EDF8}
+.chart{display:grid;grid-template-columns:7mm repeat(4,1fr);gap:0 3mm;height:44mm;position:relative;background-image:repeating-linear-gradient(to top,#E3DACA 0,#E3DACA .5pt,transparent .5pt,transparent 8.4mm);border-bottom:1pt solid var(--ink);padding-left:0}
+.chart .ax{display:flex;flex-direction:column-reverse;justify-content:space-between;font-family:"DM Mono";font-size:5.8pt;color:var(--ink2);height:44mm;margin-top:-1.4mm}
+.chart .col{border:.8pt dashed var(--uc);border-bottom:0;border-radius:1.2mm 1.2mm 0 0;background:#fff;opacity:.9}
+.chart-l{display:grid;grid-template-columns:7mm repeat(4,1fr);gap:0 3mm;font-family:"DM Mono";font-size:6.2pt;letter-spacing:.06em;text-transform:uppercase;text-align:center;margin-top:1mm}
+.refl{background:#FFFEF9;border:.8pt solid var(--rule);border-radius:1.6mm;padding:2mm 3mm 1mm;font-size:8.6pt}
+.refl .r{display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end}
+.refl .r b{font-weight:700;color:var(--ultra)}
+.refl .r span{border-bottom:.7pt solid #B9AE98;height:6.8mm}
+.refl .ln.s{height:6.8mm}
+
+.aviso{border:1.6pt solid var(--verm);border-radius:1.4mm;background:#fff;padding:1.6mm 3.4mm 1.8mm;margin-top:1.2mm;font-size:9.2pt;line-height:1.7}
+.aviso>b{letter-spacing:.14em;color:var(--verm);font-size:8.4pt}
+.g3c{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1mm 4mm;margin-top:1mm}
+.g3c>span{display:block}
+.g3c .fill{display:block;width:100%;height:5mm;margin-top:1mm}
+.g3{display:grid;grid-template-columns:auto auto auto;justify-content:space-between;gap:.6mm 4mm;margin-top:1mm}
+.order{display:grid;grid-template-columns:1fr 1fr;gap:.8mm 4mm;margin-top:1.2mm;font-size:9.2pt}
+.order div{display:flex;align-items:center;gap:2mm;background:#fff;border:.7pt solid var(--rule);border-radius:1.2mm;padding:.6mm 2mm .6mm .8mm}
+.order .sq{flex:none;width:6.4mm;height:5.6mm;border:.8pt solid var(--ink);border-radius:1mm;background:#fff}
+.sqi{display:inline-block;width:5.4mm;height:4.8mm;border:.8pt solid var(--ink);border-radius:.8mm;background:#fff;vertical-align:-1.2mm;margin:0 .6mm 0 2.4mm}
+.story{margin-top:2.2mm}
+.story .txt{font-size:10.1pt;line-height:1.47}
+.nar p{counter-increment:par;text-indent:0;margin-bottom:1.3mm}
+.nar p:before{content:counter(par);position:static;display:inline-flex;vertical-align:1pt;margin-right:1.6mm;font-family:"DM Mono";font-size:6.2pt;color:var(--c);width:5.2mm;height:4.6mm;border:.7pt solid var(--c);border-radius:2.4mm;align-items:center;justify-content:center;background:#fff;line-height:1;letter-spacing:-.02em}
+
+.poemwrap{display:grid;grid-template-columns:1fr 66mm;gap:7mm;margin-top:3mm;align-items:stretch}
+.poembox{background:#FFFDF8;border:.8pt solid var(--rule);border-radius:2mm;padding:5mm 6mm 4mm 13mm}
+.cols-poem{column-count:1;font-size:12.8pt;line-height:1.52}
+.cols-poem .st{margin-bottom:4.4mm}
+.poemside .pic img{height:auto}
+.wgrid{display:grid;grid-template-columns:repeat(6,1fr);gap:2mm;margin-top:1.2mm;font-family:"Fraunces";font-size:10pt}
+.wgrid span{display:flex;align-items:center;justify-content:space-between;gap:1.4mm;background:#fff;border:.7pt solid var(--rule);border-radius:1.2mm;padding:.8mm 1mm .8mm 2mm}
+.wgrid i,.ono i{flex:none;width:6mm;height:5.4mm;border:.8pt solid var(--ink);border-radius:.8mm;background:#fff}
+.ono{display:flex;flex-wrap:wrap;gap:1.2mm 2.4mm;margin-top:1.2mm;font-family:"Fraunces";font-style:italic;font-size:9.6pt}
+.ono span{display:flex;align-items:center;gap:1.2mm}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:0 6mm;border-bottom:.5pt dashed #CDBFA6}
+.pair .it{border-bottom:0}
+.wr2{position:relative;background-image:linear-gradient(90deg,transparent calc(50% - .4pt),#D9CFBE calc(50% - .4pt),#D9CFBE calc(50% + .4pt),transparent calc(50% + .4pt)),repeating-linear-gradient(transparent 0,transparent 7.6mm,#D9CFBE 7.6mm,#D9CFBE 7.85mm)}
+.wr .tl{position:absolute;left:3mm;top:1.2mm;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.12em;text-transform:uppercase;color:#B7AD99}
+
+.dramabox .drama{font-size:10pt;line-height:1.42}
+.dramabox .drama p{margin-bottom:1mm}
+.dramabox{background:#FFFDF8;border:.8pt solid var(--rule);border-radius:2mm;padding:4mm 5mm 3.4mm;margin-top:2.4mm}
+.drama.cols2{column-count:2;column-gap:6mm}
+.drama.cols2 p{break-inside:avoid}
+.nbox{font-family:"Fraunces";font-size:9.8pt;line-height:1.45;background:var(--t);border-radius:1.6mm;padding:2mm 3mm;margin-top:1.2mm}
+
+.h2b{font-size:30pt;line-height:1;margin-top:1mm}
+.rub{width:100%;border-collapse:separate;border-spacing:0;margin-top:2mm;font-size:7.9pt;line-height:1.28;background:#fff;border:.8pt solid var(--rule);border-radius:1.8mm;overflow:hidden}
+.rub th{background:var(--c);color:#fff;font-weight:500;font-size:7.2pt;text-align:left;padding:1.6mm 2mm;letter-spacing:.02em}
+.rub th b{font-weight:800}
+.rub td{padding:1.6mm 2mm;border-top:.6pt solid var(--rule);border-left:.6pt solid var(--rule);vertical-align:top}
+.rub td.k{border-left:0;font-weight:800;color:var(--c);background:var(--t);width:26mm;font-size:8.2pt}
+.rub th.k{width:26mm}
+.rub .me{width:10.5mm;text-align:center;padding-left:0;padding-right:0}
+.rub td.me{background:#FFFDF8}
+.rub.oral td{padding:1.35mm 2mm}
+.sc3{display:inline-flex;align-items:center;gap:1mm;margin-left:3mm}
+.sc3 i,.can em i{display:inline-block;width:3.8mm;height:3.8mm;border-radius:50%;border:.9pt solid var(--ink);background:#fff}
+.sc3 i.o1,.can em i:nth-child(1){border-color:#B5462E}
+.sc3 i.o2,.can em i:nth-child(2){border-color:#C98A1E}
+.sc3 i.o3,.can em i:nth-child(3){border-color:#2F6E5C}
+.can{display:grid;grid-template-columns:1fr 1fr;gap:3mm 5mm;margin-top:2.2mm}
+.can>div{background:#FFFDF8;border:.8pt solid var(--rule);border-top:2.4mm solid var(--uc);border-radius:1.6mm;padding:1.8mm 3mm 1.4mm}
+.can b{display:block;font-size:8.8pt;color:var(--uc);margin-bottom:.8mm}
+.can p{display:flex;justify-content:space-between;align-items:center;gap:3mm;font-size:8.8pt;line-height:1.28;padding:1.6mm 0;border-top:.5pt dashed #D8CCB6}
+.can em{display:flex;gap:1.4mm;flex:none}
+.trk{display:grid;grid-template-columns:minmax(0,1fr) 38mm;gap:5mm;margin-top:2.2mm;align-items:start}
+.tr{width:100%;table-layout:fixed;border-collapse:collapse;font-size:8pt;background:#fff}
+.tr th,.tr td{border:.7pt solid var(--rule);padding:1mm 1.4mm;text-align:center}
+.tr tr:first-child th{background:var(--t);font-weight:700;font-size:7.4pt;line-height:1.15}
+.tr small{display:block;font-family:"DM Mono";font-size:6.6pt;color:var(--ink2);font-weight:400}
+.tr td{height:10.5mm}
+.tr tr+tr th{color:#fff;background:var(--uc);font-weight:800;width:17mm;white-space:nowrap}
+.tr .tt{background:#F4F1FA;font-weight:800}
+.tr .gl{width:34mm}
+.tr td:last-child{background-image:linear-gradient(transparent calc(100% - 2.6mm),#D9CFBE calc(100% - 2.6mm),#D9CFBE calc(100% - 2.3mm),transparent calc(100% - 2.3mm));background-origin:content-box}
+.rchart{display:block;background:#FFFDF8;border:.8pt solid var(--rule);border-radius:1.6mm;padding:1.8mm 2.4mm}
+.bars{display:grid;grid-template-columns:6mm repeat(4,1fr);gap:1.6mm;height:40mm;margin-top:2mm;background:repeating-linear-gradient(to top,#D9CFBE 0,#D9CFBE .5pt,transparent .5pt,transparent 25%)}
+.bars .ax{display:flex;flex-direction:column;justify-content:space-between;font-family:"DM Mono";font-size:5.6pt;color:var(--ink2);margin:-1.2mm 0;line-height:1}
+.bars .b{border:.8pt solid var(--uc);border-bottom-width:2pt;background:#fff}
+.bl{display:grid;grid-template-columns:6mm repeat(4,1fr);gap:1.6mm;font-family:"DM Mono";font-size:6.4pt;text-align:center;margin-top:1.6mm}
+.bl:before{content:""}
+.refl{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4mm;margin-top:3.4mm}
+.refl>div{background:var(--t);border-radius:1.8mm;padding:2mm 3mm 2.4mm}
+.refl b{font-size:8.6pt;color:var(--c)}
+.refl .ln{border-color:#A8AFCB}
+.endrow{display:grid;grid-template-columns:1fr auto;gap:6mm;align-items:center;margin-top:3.4mm}
+.qr.teach{background:#fff;border:.8pt solid var(--rule);border-radius:2mm;padding:2mm 3mm 2mm 2mm}
+.qr.teach span{font-size:7.8pt;line-height:1.3;max-width:34mm}
+.qr.teach span b{display:block;color:var(--c)}
+.fill.xs{min-width:9mm;width:9mm}
+.parts{display:flex;flex-wrap:wrap;gap:1mm 7mm;margin-top:1.2mm;align-items:center}
+.parts .sqi{margin:0 .4mm}
+.bars{display:grid !important;grid-template-columns:7mm 1fr !important;gap:0 !important;background:none !important;height:40mm;margin-top:2.4mm}
+.bars .plot{display:grid;grid-template-columns:repeat(4,1fr);gap:1.6mm;padding:0 .8mm;background:repeating-linear-gradient(to top,#D9CFBE 0,#D9CFBE .5pt,transparent .5pt,transparent 25%);border-bottom:.9pt solid var(--ink)}
+.bars .ax{margin:-1.4mm 1.4mm -1.4mm 0 !important;text-align:right}
+.bars .b{border-bottom-width:.8pt !important}
+.bl{grid-template-columns:7mm repeat(4,1fr) !important;margin-top:1.8mm !important;padding:0 .8mm 0 0}
+.rows{display:grid;grid-template-columns:max-content 1fr;gap:0 3mm;align-items:end;margin-top:.4mm}
+.rows .fill{display:block;min-width:0;width:100%;height:7.2mm}
+.fill.av{min-width:30mm}
+.wr{position:relative}
+.wr .wcount{position:absolute;right:-17.7mm;bottom:0;width:15.5mm;margin:0;text-align:right;line-height:1.3}
+.wr .wcount i{display:block;margin-top:.6mm;height:6mm;border:.8pt solid var(--ink);border-radius:1.2mm;background:#fff}
+.keyline{display:flex;flex-wrap:wrap;gap:1mm 2.4mm;margin-top:1.2mm;font-size:8.8pt}
+.keyline span{background:#fff;border:.7pt solid var(--rule);border-radius:1.2mm;padding:.3mm 2mm}
+.keyline em{font-style:normal;font-family:"DM Mono";font-size:7.4pt;font-weight:500;color:var(--c);margin-right:1mm}
+.vf td,.vf th{padding-top:.3mm;padding-bottom:.3mm}
+.sec{margin-top:2.8mm}
+.c.inl{display:flex;align-items:flex-start;gap:3mm;white-space:nowrap}
+.c.inl .q{margin-top:.2mm}
+.c.inl .mc{margin-top:0;gap:.8mm 3.2mm}
+/* ---- QA q6: writing room for a 10-year-old — every answer line >= 7 mm from the line above ---- */
+.ln.s{height:7.2mm}
+.refl .ln.s{height:7.2mm}
+.fill{height:5.6mm}
+.vf td.cor span{height:6.6mm}
+.g3c>span{display:flex;flex-direction:column}
+.g3c .fill{height:7mm;margin-top:auto}
+</style>
+</head>
+<body>
+
+<!-- ======================= 113 · OPENER ======================= -->
+<section class="page odd p-open r-ultra">
+  <div class="art"></div>
+  <div class="veil"></div>
+  <div class="ttl">
+    <div class="u"><span class="big">6</span><span>Unidade · Português · Year 5</span></div>
+    <h1 class="disp">Avaliação:<br><i>mostra o que já sabes</i></h1>
+    <div class="sub"><span>Quatro testes · um por unidade</span> leitura · gramática · escrita · oralidade</div>
+  </div>
+  <div class="tag"><div class="lab">Antes de começar</div><p>Respira fundo, lê com calma e confia no que aprendeste. Um teste é uma montra, não uma armadilha.</p></div>
+  <div class="brand">Prime School · Português Língua Materna</div>
+</section>
+
+<!-- ======================= 114 · HOW TO USE ======================= -->
+<section class="page even r-ultra">
+  <header class="run"><span>Avaliação</span><span><b>Unidade 6</b> · Como usar esta unidade</span></header>
+  <div class="tab"><span>Unidade 6 · Avaliação</span></div>
+  <div class="kick">Unidade 6 · Antes de começar</div>
+  <h1 class="disp">Como usar esta unidade</h1>
+  <p class="lead" style="margin-top:2.2mm;font-size:11pt">Aqui encontras <b>quatro testes</b>, um para cada unidade do ano. Cada um traz um texto que nunca leste: é assim que mostras que sabes ler, escrever e ouvir <b>qualquer</b> texto daquele género.</p>
+
+  <div class="tests" style="margin-top:3mm">
+    <div style="--tc:var(--verde)"><b>Teste 1</b>Unidade 1 · textos para informar e descrever<small>pp. 115–117</small></div>
+    <div style="--tc:#B8751A"><b>Teste 2</b>Unidade 2 · texto narrativo: contos e lendas<small>pp. 118–120</small></div>
+    <div style="--tc:var(--ameixa)"><b>Teste 3</b>Unidade 3 · texto poético<small>pp. 121–123</small></div>
+    <div style="--tc:var(--turq)"><b>Teste 4</b>Unidade 4 · texto dramático<small>pp. 124–126</small></div>
+  </div>
+
+  <p class="small" style="margin-top:1.6mm"><b>Depois de cada teste:</b> regista os teus pontos na p. 128. Na p. 127 vês como são avaliadas a escrita e a oralidade.</p>
+  <div class="anat" style="margin-top:3.4mm">
+    <div>
+      <div class="lab" style="margin-bottom:1.8mm">Como é feito cada teste · 100 pontos</div>
+      <div class="secrow"><span class="L">A</span><span><b>Leitura</b> — lês um texto novo e respondes a perguntas sobre ele.</span><span class="p">40 pontos</span></div>
+      <div class="secrow"><span class="L">B</span><span><b>Gramática</b> — mostras que sabes como funciona a língua.</span><span class="p">25 pontos</span></div>
+      <div class="secrow"><span class="L">C</span><span><b>Escrita</b> — escreves um texto teu, do mesmo género.</span><span class="p">25 pontos</span></div>
+      <div class="secrow"><span class="L">D</span><span><b>Compreensão do oral</b> — ouves um áudio duas vezes e respondes.</span><span class="p">10 pontos</span></div>
+      <div class="timebar"><span style="background:var(--ultra)">A · 25 min</span><span style="background:#4E66B8">B · 15 min</span><span style="background:#7486C9">C · 20 min</span></div>
+      <p class="small" style="margin-top:1.4mm">Tens <b>60 minutos</b> para as partes A, B e C. A parte D faz-se em turma, com o professor: são mais 10 minutos.</p>
+    </div>
+    <div>
+      <div class="lab" style="margin-bottom:1.8mm">Como ler a margem</div>
+      <div class="demo">
+        <div class="it" style="border:0;padding:0"><span class="n">3</span><div class="c"><span class="q">Completa com informação do texto.</span><br>A cortiça tira-se de <span class="fill s"></span> em <span class="fill s"></span> anos.</div><span class="mk"><i></i><b>/2</b></span></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3mm;margin-top:1.8mm">
+        <p class="callout">o número da pergunta; responde a todas, pela ordem que quiseres.</p>
+        <p class="callout" style="text-align:right">a pergunta vale 2 pontos; o professor escreve aqui quantos tiveste</p>
+      </div>
+      <p class="small" style="margin-top:1.4mm">Dentro de cada parte, as perguntas vão ficando <b>mais exigentes</b>: as primeiras aquecem, as últimas pedem que penses e justifiques.</p>
+    </div>
+  </div>
+
+  <div class="lab" style="margin:3.4mm 0 1.4mm">Tipos de pergunta · o que tens de fazer</div>
+  <table class="types">
+    <tr><td>Escolha múltipla</td><td>Assinala com <b>X</b> a única opção correta.</td><td>A <span class="chk" style="margin:0 2mm 0 1mm"></span>B <span class="chk xk" style="margin:0 0 0 1mm"></span></td></tr>
+    <tr><td>Verdadeiro / falso</td><td>Marca V ou F e <b>corrige</b> as afirmações falsas — a correção também conta.</td><td>F <span style="font-family:Figtree">→</span> corrige</td></tr>
+    <tr><td>Associação</td><td>Escreve no quadrado a letra ou o número que corresponde.</td><td>1 — C</td></tr>
+    <tr><td>Completamento</td><td>Escreve a palavra ou a expressão que falta, sem mudar o resto.</td><td>___</td></tr>
+    <tr><td>Resposta curta</td><td>Responde numa frase completa, com palavras tuas.</td><td>uma frase</td></tr>
+    <tr><td>Resposta extensa</td><td>Escreve um pequeno texto: dá a tua opinião e <b>justifica</b> com o texto.</td><td>porque… · por exemplo…</td></tr>
+    <tr><td>Transformação</td><td>Reescreve a frase como se pede (outro tempo, outro tipo de frase…).</td><td>A <span style="font-family:Figtree">→</span> B</td></tr>
+  </table>
+
+  <div class="lab" style="margin:3.4mm 0 1.4mm">As dicas da Mourinha para te regulares</div>
+  <div class="mtips">
+    <div><b>Antes</b>Lê o teste todo de relance (2 minutos). Vê onde estão as perguntas que valem mais pontos.</div>
+    <div><b>Durante</b>Sublinha as palavras-chave de cada pergunta. Começa pelo que sabes. Olha para o relógio no fim de cada parte.</div>
+    <div><b>Se bloqueares</b>Pousa o lápis, respira fundo três vezes e salta a pergunta. Volta a ela no fim — muitas vezes a resposta aparece.</div>
+    <div><b>No fim</b>Revê: respondeste a tudo? Acentos, maiúsculas e pontuação estão no sítio? Corrigiste as falsas?</div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 64mm;gap:5mm;margin-top:3.4mm;align-items:center">
+    <div>
+      <div class="lab" style="margin-bottom:1.6mm">Checklist antes do teste</div>
+      <div class="checklist">
+        <div><span class="chk"></span>Dormi bem e tomei o pequeno-almoço.</div>
+        <div><span class="chk"></span>Tenho lápis, borracha e caneta azul ou preta.</div>
+        <div><span class="chk"></span>Reli o balanço final da unidade.</div>
+        <div><span class="chk"></span>Sei quanto tempo tenho para cada parte.</div>
+        <div><span class="chk"></span>Escrevi o nome, o número, a turma e a data.</div>
+        <div><span class="chk"></span>Li o teste todo antes de começar.</div>
+      </div>
+    </div>
+    <div class="tip"><img src="../../art/mou-3.png" alt=""><div class="bub">Um teste não mede quanto vales: mostra <b style="white-space:nowrap">o que já sabes</b> e o que ainda vais aprender. Eu também demorei a subir a primeira parede!</div></div>
+  </div>
+  <footer class="folio">114</footer>
+</section>
+
+<!-- ======================= 115 · TESTE 1 · p1 ======================= -->
+<section class="page odd r-verde">
+  <header class="run"><span>Avaliação</span><span><b>Teste 1</b> · Unidade 1 · Textos para informar e descrever</span></header>
+  <div class="tab"><span>Teste 1 · Unidade 1</span></div>
+  <div class="xh">
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 1</b><span>Unidade 1 · Textos para informar e descrever</span></div></div>
+      <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
+    <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
+    <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
+  </div>
+  <div class="xh-note"><span><b>Duração:</b> 60 minutos (A, B, C) + 10 minutos (D, em turma).</span><span>Escreve a caneta azul ou preta. Não uses corretor.</span></div>
+
+  <div class="sec" data-sec="1A" data-pts="40"><span class="L">A</span><h3>Leitura</h3><span class="sub">artigo de enciclopédia</span><span class="pts">40 pontos</span></div>
+  <p class="instr">Lê com atenção o artigo. Depois, responde às perguntas das páginas seguintes.</p>
+  <div class="art-box">
+    <div class="art-h"><div><div class="art-t">O sobreiro</div><div class="art-sci"><i>Quercus suber</i> — a árvore da cortiça</div></div><div class="vol">Artigo de enciclopédia<br>escrito para este teste</div></div>
+    <p class="art-lead">O sobreiro é uma árvore de folha persistente que cresce nas regiões quentes e secas à volta do mar Mediterrâneo. Em Portugal, é mais abundante no Alentejo e no Ribatejo. Desde 2011, é a Árvore Nacional de Portugal.</p>
+    <div class="txt artgrid">
+      <div>
+      <h4>Aspeto</h4>
+      <p>É uma árvore de tronco grosso e ramos tortos, com uma copa larga que dá muita sombra. As folhas são pequenas, duras e verde-escuras. O fruto é a <b>bolota</b>. O que torna o sobreiro único é a casca: uma camada espessa, rugosa e leve, a que chamamos <b>cortiça</b>.</p>
+      <h4>Como se tira a cortiça</h4>
+      <p>A cortiça é retirada à mão, com uma machada, por trabalhadores especializados, entre maio e agosto. A primeira extração só se faz quando a árvore tem cerca de 25 anos. Depois, é preciso esperar nove anos até à extração seguinte. Para não se enganarem, os trabalhadores pintam no tronco, a branco, o último algarismo do ano em que tiraram a cortiça.</p>
+      <h4>Para que serve</h4>
+      <p>A cortiça é leve, flutua, não deixa passar a água e protege do calor e do frio. Por isso, usa-se em rolhas, pavimentos, solas de sapatos e até no isolamento de foguetões. Os montados de sobro dão abrigo a quase 400 espécies de animais vertebrados.</p>
+      </div>
+      <div>
+      <div class="pic"><img src="../art/sobreiro.jpg" alt="" style="height:50mm;object-fit:cover;object-position:50% 38%"></div><p class="cap" style="margin:1.4mm 0 .6mm">Sobreiro acabado de descortiçar: o tronco fica cor de tijolo e vai escurecendo à medida que a casca volta a crescer.</p>
+      <h4>Um recordista</h4>
+      <p>O Assobiador, em Águas de Moura (Palmela), foi plantado em 1783 e é considerado o maior sobreiro do mundo. Chama-se assim por causa das muitas aves que cantam nos seus ramos. Em 2018, foi eleito Árvore Europeia do Ano.</p>
+      <div class="fact"><h5>Ficha rápida</h5><dl>
+        <dt>Tipo</dt><dd>árvore de folha persistente</dd>
+        <dt>Fruto</dt><dd>bolota</dd>
+        <dt>Vida</dt><dd>até 250 a 300 anos</dd>
+        <dt>Extração</dt><dd>de 9 em 9 anos</dd>
+        <dt>Símbolo</dt><dd>Árvore Nacional (2011)</dd></dl></div>
+      </div>
+    </div>
+    <p class="src" style="margin-top:2mm">Fontes: Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; European Tree of the Year 2018. Texto escrito para este teste.</p>
+  </div>
+  <footer class="folio">115</footer>
+</section>
+
+<!-- ======================= 116 · TESTE 1 · p2 ======================= -->
+<section class="page even r-verde">
+  <header class="run"><span>Avaliação</span><span><b>Teste 1</b> · A · Leitura</span></header>
+  <div class="tab"><span>Teste 1 · Unidade 1</span></div>
+  <div class="sec cont" style="margin-top:0"><span class="L">A</span><h3>Leitura <span class="sub">(continuação)</span></h3><span class="pts">40 pontos</span></div>
+
+  <div class="it"><span class="n">1</span><div class="c inl"><span class="q">Este texto é</span>
+    <div class="mc four"><span><em>A</em>um conto.</span><span><em>B</em>um aviso.</span><span><em>C</em>um artigo de enciclopédia.</span><span><em>D</em>um poema.</span></div></div>{{M:1A:2}}</div>
+
+  <div class="it"><span class="n">2</span><div class="c"><span class="q">O principal objetivo do texto é</span>
+    <div class="mc four"><span><em>A</em>divertir o leitor.</span><span><em>B</em>informar o leitor.</span><span><em>C</em>dar ordens.</span><span><em>D</em>vender cortiça.</span></div></div>{{M:1A:2}}</div>
+
+  <div class="it"><span class="n">3</span><div class="c"><span class="q">Completa com informação do texto.</span>
+    <div class="g2"><span>a) A primeira extração faz-se quando a árvore tem cerca de <span class="fill s"></span> anos.</span><span>b) Entre duas extrações passam <span class="fill s"></span> anos.</span><span>c) Tira-se de <span class="fill s"></span> a <span class="fill s"></span>.</span><span>d) O fruto do sobreiro é a <span class="fill"></span>.</span></div></div>{{M:1A:4}}</div>
+
+  <div class="it"><span class="n">4</span><div class="c"><span class="q">Verdadeiro ou falso? Assinala e corrige as afirmações falsas.</span>
+    <table class="vf"><tr><th>Afirmação</th><th>V</th><th>F</th><th>Correção</th></tr>
+      <tr><td>a) O sobreiro perde as folhas no inverno.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>b) O Assobiador foi plantado no século XVIII.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>c) A cortiça é pesada e deixa passar a água.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr></table></div>{{M:1A:6}}</div>
+
+  <div class="it"><span class="n">5</span><div class="c"><span class="q">Em que parte do artigo encontras a resposta? Escreve a letra do subtítulo em cada quadrado.</span>
+    <div class="keyline"><span><em>A</em>Aspeto</span><span><em>B</em>Como se tira a cortiça</span><span><em>C</em>Para que serve</span><span><em>D</em>Um recordista</span><span><em>E</em>Ficha rápida</span></div>
+    <div class="ass" style="grid-template-columns:1fr 9mm 1fr 9mm">
+      <div class="a">Porque é que o Assobiador tem este nome?</div><span class="sq" style="width:7mm"></span>
+      <div class="a">Como são as folhas do sobreiro?</div><span class="sq" style="width:7mm"></span>
+      <div class="a">Em que objetos se usa a cortiça?</div><span class="sq" style="width:7mm"></span>
+      <div class="a">Quem retira a cortiça?</div><span class="sq" style="width:7mm"></span>
+      <div class="a">Quantos anos pode viver um sobreiro?</div><span class="sq" style="width:7mm"></span>
+    </div></div>{{M:1A:5}}</div>
+
+  <div class="it"><span class="n">6</span><div class="c"><span class="q">Explica, por palavras tuas, porque é que os trabalhadores pintam um algarismo no tronco.</span><span class="ln s"></span><span class="ln s"></span></div>{{M:1A:3}}</div>
+
+  <div class="it"><span class="n">7</span><div class="c"><span class="q">No site da enciclopédia, quatro leitores comentaram o artigo. Escreve F (facto) ou O (opinião).</span>
+    <div class="ass" style="grid-template-columns:1fr 9mm 1fr 9mm">
+      <div class="a">«Uma rolha de cortiça flutua na água.» — Vasco</div><span class="sq" style="width:7mm"></span>
+      <div class="a">«É a árvore mais bonita de Portugal!» — Leonor</div><span class="sq" style="width:7mm"></span>
+      <div class="a">«Acho que devíamos plantar sobreiros na escola.» — Rita</div><span class="sq" style="width:7mm"></span>
+      <div class="a">«O sobreiro é a Árvore Nacional desde 2011.» — Duarte</div><span class="sq" style="width:7mm"></span>
+    </div></div>{{M:1A:4}}</div>
+
+  <div class="it"><span class="n">8</span><div class="c"><span class="q">Um ditado popular diz: «Quem se preocupa com os netos planta um sobreiro.» Explica o sentido do ditado, usando duas informações do artigo.</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:1A:6}}</div>
+
+  <div class="it"><span class="n">9</span><div class="c"><span class="q">Lê o verbete e responde.</span>
+    <div style="display:grid;grid-template-columns:78mm 1fr;gap:4mm;align-items:start;margin-top:1.2mm">
+      <div class="box" style="font-family:Fraunces;font-size:9.4pt;line-height:1.42;background:#fff"><b style="font-size:11pt">bolota</b> <span style="font-family:'DM Mono';font-size:8pt;color:var(--ink2)">(bo·lo·ta)</span> <i style="color:var(--c)">n. f.</i> <b style="color:var(--c)">1.</b> Fruto do sobreiro, da azinheira e de outros carvalhos. <i style="color:#5a5f6d">Os porcos comem bolota no montado.</i> <b style="color:var(--c)">2.</b> Enfeite em forma de bolota, na ponta de um cordão.</div>
+      <div style="font-size:9.2pt;line-height:1.62">a) Classe e género: <span class="fill l"></span><br>b) Número de aceções: <span class="fill s"></span><br>c) Sílaba tónica: <span class="fill s"></span><br>d) Aceção usada em «Há bolotas no chão do montado»: <span class="fill s"></span></div>
+    </div></div>{{M:1A:8}}</div>
+  <footer class="folio">116</footer>
+</section>
+
+<!-- ======================= 117 · TESTE 1 · p3 ======================= -->
+<section class="page odd r-verde">
+  <header class="run"><span>Avaliação</span><span><b>Teste 1</b> · B · Gramática · C · Escrita · D · Oral</span></header>
+  <div class="tab"><span>Teste 1 · Unidade 1</span></div>
+  <div class="sec" data-sec="1B" data-pts="25" style="margin-top:0"><span class="L">B</span><h3>Gramática</h3><span class="sub">nomes coletivos · graus do adjetivo · imperativo</span><span class="pts">25 pontos</span></div>
+
+  <div class="it"><span class="n">10</span><div class="c"><span class="q">Completa com o nome coletivo.</span>
+    <p>Um conjunto de sobreiros é um <span class="fill"></span>; de abelhas, um <span class="fill"></span>; de ovelhas, um <span class="fill"></span>; de aves, um <span class="fill"></span>; de estrelas, uma <span class="fill"></span>.</p></div>{{M:1B:5}}</div>
+
+  <div class="it"><span class="n">11</span><div class="c"><span class="q">Indica o grau do adjetivo sublinhado.</span>
+    <div class="rows"><span>a) É o sobreiro <u>mais antigo</u> da região.</span><i class="fill"></i><span>b) A cortiça é <u>levíssima</u>.</span><i class="fill"></i><span>c) É <u>tão leve como</u> uma pena.</span><i class="fill"></i></div>
+    <p>d) Escreve o superlativo absoluto sintético: &nbsp;grosso → <span class="fill s"></span> &nbsp; antigo → <span class="fill s"></span> &nbsp; feliz → <span class="fill s"></span></p></div>{{M:1B:12}}</div>
+
+  <div class="it"><span class="n">12</span><div class="c"><span class="q">Completa o aviso com os verbos no imperativo (vocês).</span>
+    <div class="aviso"><b>AVISO · VISITANTES DO MONTADO</b><div class="g2"><span>(Respeitar) <span class="fill av"></span> os caminhos.</span><span>(Não deitar) <span class="fill av"></span> lixo.</span><span>(Não fazer) <span class="fill av"></span> lume.</span><span>(Levar) <span class="fill av"></span> água.</span></div></div></div>{{M:1B:8}}</div>
+
+  <div class="sec" data-sec="1C" data-pts="25"><span class="L">C</span><h3>Escrita</h3><span class="sub">retrato</span><span class="pts">25 pontos</span></div>
+  <div class="it" style="border:0"><span class="n">13</span><div class="c"><span class="q">Escreve o retrato de uma árvore, de um animal ou de uma pessoa que conheças bem (70 a 100 palavras).</span>
+    <p style="font-size:8.8pt;color:var(--ink2)">Descreve o aspeto (e, se for uma pessoa, a maneira de ser). Usa pelo menos <b>dois adjetivos em graus diferentes</b> e termina com a tua opinião. <b>Planifica primeiro:</b> quem ou o quê? como é? o que penso?</p>
+    <div class="wr" style="height:63.6mm"><div class="wcount">N.º de<br>palavras<i></i></div></div></div>{{M:1C:25}}</div>
+
+  <div class="sec" data-sec="1D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">reportagem de rádio</span><span class="pts">10 pontos</span></div>
+  <div class="dq">
+    <div><div class="qr">{{QR:a1}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div>
+      <div class="it" style="padding-top:0"><span class="n">14</span><div class="c"><div class="g2"><span>a) Em que dia se fez a plantação? <span class="fill"></span></span><span>b) Quantos sobreiros se plantaram? <span class="fill s"></span></span><span>c) Daqui a quantos anos darão cortiça? <span class="fill s"></span></span></div></div>{{M:1D:6}}</div>
+      <div class="it"><span class="n">15</span><div class="c"><span class="q">Facto (F) ou opinião (O)?</span><div class="g2"><span>a) «Foi a melhor manhã do ano!» <span class="sqi"></span></span><span>b) «As árvores foram oferecidas pelo viveiro.» <span class="sqi"></span></span></div></div>{{M:1D:4}}</div>
+    </div>
+  </div>
+  <footer class="folio">117</footer>
+</section>
+
+<!-- ======================= 118 · TESTE 2 · p1 ======================= -->
+<section class="page even r-ocre">
+  <header class="run"><span>Avaliação</span><span><b>Teste 2</b> · Unidade 2 · Texto narrativo</span></header>
+  <div class="tab"><span>Teste 2 · Unidade 2</span></div>
+  <div class="xh">
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 2</b><span>Unidade 2 · Texto narrativo: contos e lendas</span></div></div>
+      <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
+    <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
+    <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
+  </div>
+  <div class="xh-note"><span><b>Duração:</b> 60 minutos (A, B, C) + 10 minutos (D, em turma).</span><span>Escreve a caneta azul ou preta. Não uses corretor.</span></div>
+
+  <div class="sec" data-sec="2A" data-pts="40"><span class="L">A</span><h3>Leitura</h3><span class="sub">conto</span><span class="pts">40 pontos</span></div>
+  <p class="instr">Lê com atenção o conto. Os números à esquerda indicam os parágrafos.</p>
+  <div class="story">
+    <div class="story-t"><div><div class="poem-t" style="margin:0">A coruja que parou o relógio</div><div class="src" style="font-style:normal;margin-top:1mm">Conto original escrito para este teste</div></div></div>
+    <div class="txt nar cols2" style="margin-top:2.4mm">
+      <div class="pic keep" style="margin-bottom:3mm"><img src="../art/torre.jpg" alt="" style="height:44mm;object-fit:cover;object-position:50% 40%"></div>
+      <p>Na aldeia de Santa Clara, o relógio da torre da igreja nunca se atrasava. Há mais de cem anos que dava as horas a toda a gente: aos lavradores que iam para o campo, às crianças que corriam para a escola e ao padeiro, que acordava com a primeira badalada.</p>
+      <p>Numa manhã de abril, porém, o relógio parou às sete e vinte. A aldeia inteira ficou baralhada: o padeiro abriu a loja tarde, o autocarro partiu sem metade dos passageiros e a professora Glória chegou à escola a correr.</p>
+      <p>O avô Joaquim, que tratava do relógio desde rapaz, pegou na caixa das ferramentas e chamou a neta:</p>
+      <p>— Benedita, vens comigo? Preciso de alguém que me segure na lanterna.</p>
+      <p>A Benedita nem respondeu: já estava a calçar as botas. Subiram os oitenta degraus da escada de caracol. Lá em cima, o ar cheirava a pó e a óleo velho. O avô ergueu a lanterna e ficou imóvel.</p>
+      <p>— Olha, avô! — sussurrou a Benedita. — Está ali alguém!</p>
+      <p>Entre as rodas dentadas, num ninho de palha e penas, estava uma coruja branca, de cara em forma de coração. Debaixo das asas, espreitavam três corujinhas cobertas de penugem.</p>
+      <p>— Foi o ninho que travou o mecanismo — explicou o avô, baixinho. — Se eu tirar a palha, o relógio volta a andar.</p>
+      <p>— E as corujinhas? — perguntou a Benedita, aflita. — Ainda não sabem voar!</p>
+      <p>O avô coçou a cabeça e pensou durante muito tempo. Por fim, sorriu:</p>
+      <p>— Então, o relógio espera.</p>
+      <p>Nessa tarde, o avô pregou um aviso na porta da igreja: «Relógio parado por causa de um ninho. Volta a trabalhar quando as corujas aprenderem a voar.» Ao princípio, houve quem resmungasse. Depois, a aldeia inteira começou a passar pela praça só para espreitar a torre.</p>
+      <p>Dois meses mais tarde, numa noite de lua cheia, a Benedita viu três sombras brancas saírem pela janela da torre. No dia seguinte, o avô limpou o mecanismo e o relógio voltou a dar as horas.</p>
+      <p>Desde então, em Santa Clara, ninguém se zanga quando alguém chega atrasado. Diz-se apenas, a sorrir:</p>
+      <p>— Foi a coruja que parou o relógio.</p>
+    </div>
+    <p class="src" style="margin-top:1.4mm"><b>badalada</b> — som de cada pancada do sino. &nbsp;·&nbsp; <b>penugem</b> — penas finas e macias das aves pequenas. &nbsp;·&nbsp; A coruja-das-torres faz muitas vezes o ninho em torres, celeiros e casas abandonadas.</p>
+  </div>
+  <footer class="folio">118</footer>
+</section>
+
+<!-- ======================= 119 · TESTE 2 · p2 ======================= -->
+<section class="page odd r-ocre">
+  <header class="run"><span>Avaliação</span><span><b>Teste 2</b> · A · Leitura</span></header>
+  <div class="tab"><span>Teste 2 · Unidade 2</span></div>
+  <div class="sec cont" style="margin-top:0"><span class="L">A</span><h3>Leitura <span class="sub">(continuação)</span></h3><span class="pts">40 pontos</span></div>
+
+  <div class="it"><span class="n">1</span><div class="c inl"><span class="q">Este texto é</span>
+    <div class="mc four"><span><em>A</em>uma notícia.</span><span><em>B</em>um conto.</span><span><em>C</em>um poema.</span><span><em>D</em>um verbete.</span></div></div>{{M:2A:2}}</div>
+
+  <div class="it"><span class="n">2</span><div class="c"><span class="q">Indica os parágrafos que formam cada parte da narrativa.</span>
+    <div class="parts"><span><b>Introdução</b> § <span class="sqi"></span></span><span><b>Desenvolvimento</b> § <span class="sqi"></span> a § <span class="sqi"></span></span><span><b>Conclusão</b> § <span class="sqi"></span> a § <span class="sqi"></span></span></div></div>{{M:2A:6}}</div>
+
+  <div class="it"><span class="n">3</span><div class="c"><span class="q">Completa a ficha da narrativa.</span>
+    <div class="g2" style="line-height:1.6"><span>Personagem principal: <span class="fill"></span></span><span style="grid-column:span 2">Duas personagens secundárias: <span class="fill"></span> e <span class="fill"></span></span><span>Espaço (onde se passa): <span class="fill"></span></span><span>Tempo (quando começa): <span class="fill"></span></span><span>Quanto tempo dura a ação: <span class="fill"></span></span></div></div>{{M:2A:6}}</div>
+
+  <div class="it"><span class="n">4</span><div class="c"><span class="q">Numera os acontecimentos de 1 a 5, pela ordem em que aconteceram.</span>
+    <div class="order">
+      <div><span class="sq"></span>O avô pregou um aviso na porta da igreja.</div>
+      <div><span class="sq"></span>O relógio parou às sete e vinte.</div>
+      <div><span class="sq"></span>As corujinhas saíram a voar pela janela.</div>
+      <div><span class="sq"></span>A Benedita viu a coruja entre as rodas dentadas.</div>
+      <div><span class="sq"></span>O avô e a neta subiram a escada de caracol.</div>
+    </div></div>{{M:2A:5}}</div>
+
+  <div class="it"><span class="n">5</span><div class="c"><span class="q">Verdadeiro ou falso? Assinala e corrige as afirmações falsas.</span>
+    <table class="vf"><tr><th>Afirmação</th><th>V</th><th>F</th><th>Correção</th></tr>
+      <tr><td>a) O relógio da torre costumava atrasar-se.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>b) O avô tirou logo o ninho do mecanismo.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>c) As corujinhas voaram numa noite de lua cheia.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr></table></div>{{M:2A:6}}</div>
+
+  <div class="it"><span class="n">6</span><div class="c"><span class="q">Porque é que a Benedita ficou aflita quando o avô falou em tirar a palha?</span><span class="ln s"></span><span class="ln s"></span></div>{{M:2A:3}}</div>
+
+  <div class="it"><span class="n">7</span><div class="c"><span class="q">Indica duas qualidades do avô Joaquim e justifica cada uma com um comportamento dele.</span><span class="ln s"></span><span class="ln s"></span></div>{{M:2A:4}}</div>
+
+  <div class="it"><span class="n">8</span><div class="c"><span class="q">No teu entender, o avô tomou a decisão certa? Dá a tua opinião e justifica-a com duas razões (40 a 60 palavras).</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:2A:6}}</div>
+
+  <div class="it"><span class="n">9</span><div class="c"><span class="q">No § 14, a frase «Foi a coruja que parou o relógio» passou a ser dita quando alguém se atrasa. Isto mostra que a história</span>
+    <div class="mc"><span><em>A</em>foi esquecida pela aldeia.</span><span><em>B</em>deixou zangados os habitantes.</span><span><em>C</em>se tornou uma memória de toda a aldeia.</span><span><em>D</em>só foi conhecida pela Benedita.</span></div></div>{{M:2A:2}}</div>
+  <footer class="folio">119</footer>
+</section>
+
+<!-- ======================= 120 · TESTE 2 · p3 ======================= -->
+<section class="page even r-ocre">
+  <header class="run"><span>Avaliação</span><span><b>Teste 2</b> · B · Gramática · C · Escrita · D · Oral</span></header>
+  <div class="tab"><span>Teste 2 · Unidade 2</span></div>
+  <div class="sec" data-sec="2B" data-pts="25" style="margin-top:0"><span class="L">B</span><h3>Gramática</h3><span class="sub">discurso direto · pretéritos · conectores · palavras</span><span class="pts">25 pontos</span></div>
+
+  <div class="it"><span class="n">10</span><div class="c"><span class="q">Relê os §§ 6, 8 e 9.</span> a) Que sinal marca o início de cada fala? <span class="fill"></span><br>b) Transcreve os três verbos com que o narrador introduz as falas: <span class="fill s"></span> <span class="fill s"></span> <span class="fill s"></span></div>{{M:2B:5}}</div>
+
+  <div class="it"><span class="n">11</span><div class="c"><span class="q">Completa com o verbo no pretérito perfeito ou no pretérito imperfeito.</span>
+    <p style="line-height:1.75">Todos os dias, o relógio <span class="fill"></span> (dar) as horas. Numa manhã de abril, <span class="fill"></span> (parar). Enquanto a neta <span class="fill"></span> (segurar) a lanterna, o avô <span class="fill"></span> (examinar) o mecanismo.</p></div>{{M:2B:8}}</div>
+
+  <div class="it"><span class="n">12</span><div class="c"><span class="q">Completa com os conectores de tempo.</span> <span class="opts" style="display:inline-flex;margin:0 0 0 1mm;vertical-align:middle"><span>por fim</span><span>primeiro</span><span>enquanto</span><span>depois</span></span>
+    <p style="line-height:1.75"><span class="fill"></span>, o avô subiu a escada. <span class="fill"></span>, ergueu a lanterna. <span class="fill"></span> a coruja dormia, a Benedita observava-a. <span class="fill"></span>, desceram em silêncio.</p></div>{{M:2B:4}}</div>
+
+  <div class="it"><span class="n">13</span><div class="c"><span class="q">Palavras.</span>
+    <div class="g2"><span>a) Sinónimo de «aflita»: <span class="fill l"></span></span><span>b) Sinónimo de «imóvel»: <span class="fill l"></span></span><span>c) Antónimo de «tarde»: <span class="fill l"></span></span><span>d) Antónimo de «baixinho»: <span class="fill l"></span></span><span style="grid-column:span 2">e) Rodeia a intrusa: <b>coruja · corujinha · corujão · corrida</b></span><span style="grid-column:span 2">f) Escreve duas palavras da família de <i>relógio</i>: <span class="fill l"></span> <span class="fill l"></span></span></div></div>{{M:2B:8}}</div>
+
+  <div class="sec" data-sec="2C" data-pts="25"><span class="L">C</span><h3>Escrita</h3><span class="sub">relato na 1.ª pessoa</span><span class="pts">25 pontos</span></div>
+  <div class="it" style="border:0"><span class="n">14</span><div class="c"><span class="q">Imagina que és a Benedita. Conta, na 1.ª pessoa, a noite em que viste as corujas voar (80 a 110 palavras).</span>
+    <p style="font-size:8.8pt;color:var(--ink2)">Usa pelo menos <b>uma fala em discurso direto</b>, <b>três conectores de tempo</b> e verbos no <b>pretérito perfeito e imperfeito</b>. Dá um título ao teu relato. <b>Planifica primeiro:</b> início, meio e fim.</p>
+    <div class="wr" style="height:63.6mm"><div class="wcount">N.º de<br>palavras<i></i></div></div></div>{{M:2C:25}}</div>
+
+  <div class="sec" data-sec="2D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">conto «A bicicleta amarela»</span><span class="pts">10 pontos</span></div>
+  <div class="dq">
+    <div><div class="qr">{{QR:a2}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div>
+      <div class="it" style="padding-top:0"><span class="n">15</span><div class="c"><div class="g2"><span>a) Onde passou o Martim as férias? <span class="fill"></span></span><span>b) De quem tinha sido a bicicleta? <span class="fill"></span></span><span>c) O que fazia a tia quando ele gritou? <span class="fill l"></span></span></div></div>{{M:2D:6}}</div>
+      <div class="it"><span class="n">16</span><div class="c"><span class="q">Numera de 1 a 4:</span> <span class="sqi"></span> gritou «Tia, não me largues!» <span class="sqi"></span> encontrou a bicicleta <span class="sqi"></span> levou-a para Lisboa <span class="sqi"></span> caía muitas vezes</div>{{M:2D:4}}</div>
+    </div>
+  </div>
+  <footer class="folio">120</footer>
+</section>
+
+<!-- ======================= 121 · TESTE 3 · p1 ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>Avaliação</span><span><b>Teste 3</b> · Unidade 3 · Texto poético</span></header>
+  <div class="tab"><span>Teste 3 · Unidade 3</span></div>
+  <div class="xh">
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 3</b><span>Unidade 3 · Texto poético</span></div></div>
+      <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
+    <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
+    <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
+  </div>
+  <div class="xh-note"><span><b>Duração:</b> 60 minutos (A, B, C) + 10 minutos (D, em turma).</span><span>Escreve a caneta azul ou preta. Não uses corretor.</span></div>
+
+  <div class="sec" data-sec="3A" data-pts="40"><span class="L">A</span><h3>Leitura</h3><span class="sub">poema</span><span class="pts">40 pontos</span></div>
+  <p class="instr">Lê o poema em voz baixa, duas vezes. Os números à esquerda contam os versos.</p>
+  <div class="poemwrap">
+    <div class="poembox">
+      <div class="poem-t">O vento de outubro</div>
+      <div class="poem cols-poem">
+        <div class="st"><span class="v">Chegou o vento de outubro</span><span class="v">sem bater, sem dar sinal;</span><span class="v">despenteou os telhados</span><span class="v">e assobiou no quintal.</span></div>
+        <div class="st"><span class="v n5">Uuuu! — faz ele na chaminé,</span><span class="v">zás! — derruba um vaso ao chão.</span><span class="v">Salta muros, corre ruas,</span><span class="v">como um gato brincalhão.</span></div>
+        <div class="st"><span class="v">Leva lençóis, leva camisas,</span><span class="v n5">leva chapéus e jornais,</span><span class="v">leva as folhas do plátano,</span><span class="v">leva sempre mais e mais.</span></div>
+        <div class="st"><span class="v">As folhas são moedas de ouro</span><span class="v">que ele atira a quem passar:</span><span class="v n5">é um rei rico e distraído</span><span class="v">que não sabe o que é guardar.</span></div>
+        <div class="st" style="margin-bottom:0"><span class="v">Vento, vento de outubro,</span><span class="v">vento louco, vento amigo,</span><span class="v">quando fores para outras terras,</span><span class="v n5">leva o meu papagaio contigo!</span></div>
+      </div>
+      <p class="src" style="margin-top:3mm;font-style:normal">Poema original escrito para este teste.</p>
+    </div>
+    <div class="poemside" style="display:flex;flex-direction:column">
+      <div class="tint" style="font-size:8.6pt;line-height:1.35"><div class="lab" style="margin-bottom:1mm">Lembra-te</div>Num poema, cada linha é um <b>verso</b> e cada grupo de versos é uma <b>estrofe</b>. Quem «fala» no poema é o <b>sujeito poético</b>.</div>
+      <div class="tint" style="margin-top:3mm;font-size:8.6pt;line-height:1.4;background:#fff;border:.8pt solid var(--rule)"><div class="lab" style="margin-bottom:1mm">Antes de responderes</div><span class="chk"></span>Conta as estrofes e os versos.<br><span class="chk"></span>Sublinha as palavras que rimam.<br><span class="chk"></span>Procura palavras que imitam sons.</div>
+      <div class="gl" style="margin-top:3mm;font-size:8.2pt;line-height:1.4"><b>plátano</b> — árvore de folhas largas, comum em ruas e praças.<br><b>papagaio</b> — brinquedo de papel e canas que voa preso a um fio.</div>
+      <div class="pic" style="flex:1;margin-top:3.5mm;min-height:40mm;display:flex"><img src="../art/vento.jpg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:50% 40%"></div>
+    </div>
+  </div>
+  <footer class="folio">121</footer>
+</section>
+
+<!-- ======================= 122 · TESTE 3 · p2 ======================= -->
+<section class="page even r-ameixa">
+  <header class="run"><span>Avaliação</span><span><b>Teste 3</b> · A · Leitura</span></header>
+  <div class="tab"><span>Teste 3 · Unidade 3</span></div>
+  <div class="sec cont" style="margin-top:0"><span class="L">A</span><h3>Leitura <span class="sub">(continuação)</span></h3><span class="pts">40 pontos</span></div>
+
+  <div class="it"><span class="n">1</span><div class="c"><span class="q">Completa.</span> O poema tem <span class="fill s"></span> estrofes e <span class="fill s"></span> versos. Cada estrofe tem quatro versos, por isso chama-se <span class="fill"></span>.</div>{{M:3A:4}}</div>
+
+  <div class="it"><span class="n">2</span><div class="c"><span class="q">Transcreve as palavras que rimam</span>
+    <div class="g2"><span>a) na 1.ª estrofe: <span class="fill"></span> / <span class="fill"></span></span><span>b) na 5.ª estrofe: <span class="fill"></span> / <span class="fill"></span></span></div></div>{{M:3A:4}}</div>
+
+  <div class="it"><span class="n">3</span><div class="c"><span class="q">Em cada estrofe, rimam só o 2.º e o 4.º versos. O esquema rimático é</span>
+    <div class="mc four"><span><em>A</em>AABB</span><span><em>B</em>ABAB</span><span><em>C</em>ABCB</span><span><em>D</em>ABBA</span></div></div>{{M:3A:2}}</div>
+
+  <div class="it"><span class="n">4</span><div class="c"><span class="q">Associa cada verso ao recurso expressivo. Escreve a letra no quadrado.</span>
+    <div class="ass">
+      <div class="a">«Uuuu! — faz ele na chaminé»</div><span class="sq"></span><div class="b"><em>A</em>comparação</div>
+      <div class="a">«como um gato brincalhão»</div><span class="sq"></span><div class="b"><em>B</em>personificação</div>
+      <div class="a">«despenteou os telhados / e assobiou no quintal»</div><span class="sq"></span><div class="b"><em>C</em>metáfora</div>
+      <div class="a">«As folhas são moedas de ouro»</div><span class="sq"></span><div class="b"><em>D</em>repetição</div>
+      <div class="a">«Vento, vento de outubro, / vento louco, vento amigo»</div><span class="sq"></span><div class="b"><em>E</em>onomatopeia</div>
+    </div></div>{{M:3A:10}}</div>
+
+  <div class="it"><span class="n">5</span><div class="c"><span class="q">Na 3.ª estrofe há uma enumeração. Transcreve as quatro coisas que o vento leva.</span><span class="ln s"></span><span class="ln s"></span></div>{{M:3A:3}}</div>
+
+  <div class="it"><span class="n">6</span><div class="c"><span class="q">Verdadeiro ou falso? Assinala e corrige as afirmações falsas.</span>
+    <table class="vf"><tr><th>Afirmação</th><th>V</th><th>F</th><th>Correção</th></tr>
+      <tr><td>a) O vento pediu licença antes de chegar.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>b) O poema passa-se no outono.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>c) O sujeito poético tem medo do vento.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr></table></div>{{M:3A:6}}</div>
+
+  <div class="it"><span class="n">7</span><div class="c"><span class="q">Porque é que o vento é «um rei rico e distraído» (v. 15)? Explica por palavras tuas.</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:3A:4}}</div>
+
+  <div class="it"><span class="n">8</span><div class="c"><span class="q">Na última estrofe, o sujeito poético fala diretamente com o vento. O que lhe pede? Que sentimento mostra por ele? Justifica com palavras do poema.</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:3A:5}}</div>
+
+  <div class="it"><span class="n">9</span><div class="c"><span class="q">No verso 20, «papagaio» quer dizer</span>
+    <div class="mc four"><span><em>A</em>uma ave que fala.</span><span><em>B</em>um brinquedo de papel que voa.</span><span><em>C</em>um chapéu.</span><span><em>D</em>um amigo.</span></div></div>{{M:3A:2}}</div>
+  <footer class="folio">122</footer>
+</section>
+
+<!-- ======================= 123 · TESTE 3 · p3 ======================= -->
+<section class="page odd r-ameixa">
+  <header class="run"><span>Avaliação</span><span><b>Teste 3</b> · B · Gramática · C · Escrita · D · Oral</span></header>
+  <div class="tab"><span>Teste 3 · Unidade 3</span></div>
+  <div class="sec" data-sec="3B" data-pts="25" style="margin-top:0"><span class="L">B</span><h3>Gramática</h3><span class="sub">classes de palavras · rima · onomatopeia · comparação e metáfora</span><span class="pts">25 pontos</span></div>
+
+  <div class="it"><span class="n">10</span><div class="c"><span class="q">Classifica as palavras do poema: nome (N), adjetivo (A) ou verbo (V).</span>
+    <div class="wgrid"><span>vento <i></i></span><span>louco <i></i></span><span>assobiou <i></i></span><span>telhados <i></i></span><span>rico <i></i></span><span>leva <i></i></span></div></div>{{M:3B:6}}</div>
+
+  <div class="pair">
+    <div class="it"><span class="n">11</span><div class="c"><span class="q">Escreve uma palavra que rime com</span>
+      <div class="g2" style="line-height:1.7"><span>ouro <span class="fill"></span></span><span>chão <span class="fill"></span></span><span>vento <span class="fill"></span></span><span>janela <span class="fill"></span></span></div></div>{{M:3B:4}}</div>
+    <div class="it"><span class="n">12</span><div class="c"><span class="q">De quem é o som? Escreve a letra no quadrado.</span>
+      <div class="ono"><span>miau <i></i></span><span>tique-taque <i></i></span><span>trrrim <i></i></span><span>plic, ploc <i></i></span><span>zzzz <i></i></span></div>
+      <div class="small" style="margin-top:.8mm"><b>A</b> relógio · <b>B</b> abelha · <b>C</b> gato · <b>D</b> chuva · <b>E</b> campainha</div></div>{{M:3B:5}}</div>
+  </div>
+
+  <div class="it"><span class="n">13</span><div class="c"><span class="q">Transforma cada comparação numa metáfora.</span>
+    <div class="g3c"><span>a) As nuvens são como ovelhas cinzentas.<i class="fill"></i></span><span>b) A lua parece uma moeda de prata.<i class="fill"></i></span><span>c) O mar é como um espelho azul.<i class="fill"></i></span></div></div>{{M:3B:6}}</div>
+
+  <div class="it"><span class="n">14</span><div class="c"><span class="q">Reescreve o verso 7 no pretérito perfeito:</span> «Salta muros, corre ruas» → <span class="fill xl"></span></div>{{M:3B:4}}</div>
+
+  <div class="sec" data-sec="3C" data-pts="25"><span class="L">C</span><h3>Escrita</h3><span class="sub">poema</span><span class="pts">25 pontos</span></div>
+  <div class="it" style="border:0"><span class="n">15</span><div class="c"><span class="q">Escreve um poema com duas ou três quadras sobre outro elemento da natureza: a chuva, o sol, o mar ou a noite.</span>
+    <p style="font-size:8.8pt;color:var(--ink2)">Dá-lhe um <b>título</b>. Usa <b>rima</b> em pelo menos uma quadra e <b>dois recursos expressivos</b> diferentes (por exemplo, uma personificação e uma onomatopeia). <b>Planifica primeiro:</b> escolhe o tema e três pares de palavras que rimam.</p>
+    <div class="wr wr2" style="height:71mm"><span class="tl">título</span></div></div>{{M:3C:25}}</div>
+
+  <div class="sec" data-sec="3D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">poema «A chuva miudinha»</span><span class="pts">10 pontos</span></div>
+  <div class="dq">
+    <div><div class="qr">{{QR:a3}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div>
+      <div class="it" style="padding-top:0"><span class="n">16</span><div class="c"><div class="g2" style="grid-template-columns:1fr 1fr 1fr"><span>a) Quantas estrofes tem? <span class="fill s"></span></span><span>b) Que onomatopeia o abre? <span class="fill s"></span></span><span>c) Que verbo se repete na 2.ª estrofe? <span class="fill s"></span></span></div></div>{{M:3D:6}}</div>
+      <div class="it"><span class="n">17</span><div class="c">a) O verso «bate à porta como quem anda perdida» tem uma <span class="fill"></span>.<br>b) Completa: «e o arco-íris é a <span class="fill"></span> que o sol estende até ao chão».</div>{{M:3D:4}}</div>
+    </div>
+  </div>
+  <footer class="folio">123</footer>
+</section>
+
+<!-- ======================= 124 · TESTE 4 · p1 ======================= -->
+<section class="page even r-turq">
+  <header class="run"><span>Avaliação</span><span><b>Teste 4</b> · Unidade 4 · Texto dramático</span></header>
+  <div class="tab"><span>Teste 4 · Unidade 4</span></div>
+  <div class="xh">
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 4</b><span>Unidade 4 · Texto dramático</span></div></div>
+      <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
+    <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
+    <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
+  </div>
+  <div class="xh-note"><span><b>Duração:</b> 60 minutos (A, B, C) + 10 minutos (D, em turma).</span><span>Escreve a caneta azul ou preta. Não uses corretor.</span></div>
+
+  <div class="sec" data-sec="4A" data-pts="40"><span class="L">A</span><h3>Leitura</h3><span class="sub">texto dramático</span><span class="pts">40 pontos</span></div>
+  <p class="instr">Lê o texto com atenção. Repara nas falas e nas indicações entre parênteses.</p>
+  <div class="dramabox">
+    <div style="display:grid;grid-template-columns:1fr 58mm;gap:5mm;align-items:start">
+      <div>
+        <div class="poem-t" style="margin-bottom:1mm">O bolo desaparecido</div>
+        <div class="src" style="font-style:normal">Cena única · texto original escrito para este teste</div>
+        <div class="cast"><span><b>Dona Amélia</b>, a padeira</span><span><b>Rui</b>, o neto, de dez anos</span><span><b>Senhor Horácio</b>, cliente, polícia reformado</span><span><b>Canela</b>, o gato (não fala)</span></div>
+        <div class="drama"><p class="dd">(Uma pequena padaria de aldeia, de manhã cedo. Ao centro, um balcão de madeira com um prato vazio. Cheira a pão quente. Debaixo do balcão, o gato Canela dorme enrolado.)</p></div>
+      </div>
+      <div class="pic"><img src="../art/palco.jpg" alt=""></div>
+    </div>
+    <div class="drama cols2" style="margin-top:2mm">
+      <p><span class="sp">Dona Amélia</span> <span class="dd">(entrando com um tabuleiro de pães)</span> — Rui, já puseste o bolo de laranja na montra?</p>
+      <p><span class="sp">Rui</span> <span class="dd">(aponta para o prato, de olhos arregalados)</span> — Avó… o bolo… desapareceu!</p>
+      <p><span class="sp">Dona Amélia</span> <span class="dd">(pousa o tabuleiro de repente)</span> — Ai, que desgraça! O bolo da festa da Dona Rosa?!</p>
+      <p><span class="sp">Rui</span> — Eu não fui, juro! Estive a varrer a loja o tempo todo.</p>
+      <p class="dd">(Ouve-se a campainha da porta: trrrim! Entra o Senhor Horácio.)</p>
+      <p><span class="sp">Senhor Horácio</span> — Bom dia! Hum… que cheirinho! Mas o que se passa aqui?</p>
+      <p><span class="sp">Dona Amélia</span> — Roubaram-me o bolo de laranja, senhor Horácio!</p>
+      <p><span class="sp">Senhor Horácio</span> <span class="dd">(tira uma lupa do bolso, muito sério)</span> — Calma, minha senhora. Quarenta anos na polícia servem para alguma coisa. Ninguém sai daqui!</p>
+      <p class="dd">(Examina o balcão, o chão e a janela. Para de repente.)</p>
+      <p><span class="sp">Senhor Horácio</span> — Ora vejam! Pegadas de farinha… pequeninas… com quatro dedos…</p>
+      <p><span class="sp">Rui</span> <span class="dd">(baixando-se)</span> — Olhem! Vão dar a debaixo do balcão!</p>
+      <p class="dd">(Todos se debruçam. O gato abre um olho. Tem os bigodes cheios de açúcar.)</p>
+      <p><span class="sp">Dona Amélia</span> <span class="dd">(com as mãos na cintura)</span> — Canela! Seu gatuno!</p>
+      <p><span class="sp">Rui</span> <span class="dd">(a rir às gargalhadas)</span> — Ah, ah, ah! Afinal, o ladrão tem bigodes!</p>
+      <p><span class="sp">Senhor Horácio</span> <span class="dd">(guarda a lupa, satisfeito)</span> — Caso resolvido. Mas não seja severa com o suspeito, Dona Amélia: o bolo estava irresistível.</p>
+      <p><span class="sp">Dona Amélia</span> <span class="dd">(suspira, já a sorrir)</span> — Pronto, pronto… Rui, traz a farinha e os ovos. Vamos fazer outro bolo. E, desta vez, fecha a porta da cozinha!</p>
+      <p class="dd">(O gato espreguiça-se e volta a dormir. Cai o pano.)</p>
+    </div>
+  </div>
+  <footer class="folio">124</footer>
+</section>
+
+<!-- ======================= 125 · TESTE 4 · p2 ======================= -->
+<section class="page odd r-turq">
+  <header class="run"><span>Avaliação</span><span><b>Teste 4</b> · A · Leitura</span></header>
+  <div class="tab"><span>Teste 4 · Unidade 4</span></div>
+  <div class="sec cont" style="margin-top:0"><span class="L">A</span><h3>Leitura <span class="sub">(continuação)</span></h3><span class="pts">40 pontos</span></div>
+
+  <div class="it"><span class="n">1</span><div class="c inl"><span class="q">Este texto é</span>
+    <div class="mc four"><span><em>A</em>um conto.</span><span><em>B</em>um texto dramático.</span><span><em>C</em>um poema.</span><span><em>D</em>uma notícia.</span></div></div>{{M:4A:2}}</div>
+
+  <div class="it"><span class="n">2</span><div class="c"><span class="q">Completa.</span>
+    <div class="g2" style="line-height:1.7"><span style="grid-column:span 2">Personagens que falam: <span class="fill"></span> <span class="fill"></span> <span class="fill"></span></span><span>Personagem que não fala: <span class="fill"></span></span><span>Espaço: <span class="fill l"></span></span><span>Tempo: <span class="fill l"></span></span></div></div>{{M:4A:6}}</div>
+
+  <div class="it"><span class="n">3</span><div class="c"><span class="q">Transcreve uma didascália que indique</span>
+    <div class="rows"><span>a) o cenário:</span><i class="fill"></i><span>b) um gesto ou movimento de uma personagem:</span><i class="fill"></i><span>c) um som:</span><i class="fill"></i></div></div>{{M:4A:6}}</div>
+
+  <div class="it"><span class="n">4</span><div class="c"><span class="q">As didascálias servem para</span>
+    <div class="mc"><span><em>A</em>dizer o que as personagens falam.</span><span><em>B</em>indicar o cenário e o que os atores fazem.</span><span><em>C</em>contar a moral da história.</span><span><em>D</em>dar o título à peça.</span></div></div>{{M:4A:2}}</div>
+
+  <div class="it"><span class="n">5</span><div class="c"><span class="q">Verdadeiro ou falso? Assinala e corrige as afirmações falsas.</span>
+    <table class="vf"><tr><th>Afirmação</th><th>V</th><th>F</th><th>Correção</th></tr>
+      <tr><td>a) O Rui confessou que tinha comido o bolo.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>b) O Senhor Horácio trabalhou na polícia.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr>
+      <tr><td>c) No fim, a Dona Amélia fecha a padaria.</td><td class="b"><span class="chk"></span></td><td class="b"><span class="chk"></span></td><td class="cor"><span></span></td></tr></table></div>{{M:4A:6}}</div>
+
+  <div class="it"><span class="n">6</span><div class="c"><span class="q">Que duas pistas mostram que o «ladrão» foi o gato?</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:4A:4}}</div>
+
+  <div class="it"><span class="n">7</span><div class="c"><span class="q">A Dona Amélia chama «gatuno» ao Canela. Explica a graça desta palavra.</span><span class="ln s"></span><span class="ln s"></span></div>{{M:4A:3}}</div>
+
+  <div class="it"><span class="n">8</span><div class="c"><span class="q">Como se sente a Dona Amélia no início e no fim da cena? Justifica cada resposta com uma fala ou uma didascália.</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:4A:6}}</div>
+
+  <div class="it"><span class="n">9</span><div class="c"><span class="q">Imagina que és o encenador. Explica ao ator que faz de Senhor Horácio como deve falar e mover-se, com base no texto.</span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>{{M:4A:5}}</div>
+  <footer class="folio">125</footer>
+</section>
+
+<!-- ======================= 126 · TESTE 4 · p3 ======================= -->
+<section class="page even r-turq">
+  <header class="run"><span>Avaliação</span><span><b>Teste 4</b> · B · Gramática · C · Escrita · D · Oral</span></header>
+  <div class="tab"><span>Teste 4 · Unidade 4</span></div>
+  <div class="sec" data-sec="4B" data-pts="25" style="margin-top:0"><span class="L">B</span><h3>Gramática</h3><span class="sub">tipos de frase · interjeições · pontuação expressiva</span><span class="pts">25 pontos</span></div>
+
+  <div class="it"><span class="n">10</span><div class="c"><span class="q">Classifica cada frase: declarativa, interrogativa, exclamativa ou imperativa.</span>
+    <div class="g3c" style="grid-template-columns:1fr 1fr 1fr 1fr"><span>a) «Rui, já puseste o bolo na montra?»<i class="fill"></i></span><span>b) «Roubaram-me o bolo de laranja!»<i class="fill"></i></span><span>c) «Traz a farinha e os ovos.»<i class="fill"></i></span><span>d) «Estive a varrer a loja.»<i class="fill"></i></span></div></div>{{M:4B:8}}</div>
+
+  <div class="pair">
+    <div class="it"><span class="n">11</span><div class="c"><span class="q">Sublinha a interjeição e diz o que exprime.</span>
+      <p style="line-height:1.7">a) «Ai, que desgraça!» <span class="fill s"></span><br>b) «Hum… que cheirinho!» <span class="fill s"></span><br>c) «Ah, ah, ah! Afinal…» <span class="fill s"></span></p></div>{{M:4B:6}}</div>
+    <div class="it"><span class="n">12</span><div class="c"><span class="q">Pontuação expressiva.</span>
+      <p style="line-height:1.7">a) Pontua: que bolo tão bonito <span class="fill s"></span> · onde está o gato <span class="fill s"></span></p><p>b) Porque usa o Rui reticências em «Avó… o bolo… desapareceu!»?</p><span class="ln s"></span></div>{{M:4B:5}}</div>
+  </div>
+
+  <div class="it"><span class="n">13</span><div class="c"><span class="q">Transforma a frase «O gato comeu o bolo.»</span>
+    <div class="g3c"><span>a) numa frase interrogativa<i class="fill"></i></span><span>b) numa frase exclamativa<i class="fill"></i></span><span>c) numa frase imperativa, a pedir ao gato que não coma o bolo<i class="fill"></i></span></div></div>{{M:4B:6}}</div>
+
+  <div class="sec" data-sec="4C" data-pts="25"><span class="L">C</span><h3>Escrita</h3><span class="sub">da narrativa à cena</span><span class="pts">25 pontos</span></div>
+  <div class="it" style="border:0"><span class="n">14</span><div class="c"><span class="q">Transforma esta narrativa numa cena de texto dramático.</span>
+    <p class="nbox" style="font-size:9.4pt;line-height:1.4;padding:1.6mm 3mm">Na manhã do passeio da escola, a Marta acordou atrasada. Correu para a cozinha e perguntou à mãe, muito aflita, onde estavam as suas botas. A mãe, a rir, apontou para a porta: o irmão, o Tomás, já estava pronto para sair… com as botas da Marta calçadas! A Marta ficou furiosa e exigiu que ele as devolvesse. O Tomás, envergonhado, pediu desculpa e explicou que as dele estavam cheias de lama.</p>
+    <p style="font-size:8.8pt;color:var(--ink2)">Escreve a <b>lista de personagens</b>, uma <b>didascália inicial</b> (espaço e tempo) e as <b>falas</b> com o nome de quem fala. Usa pelo menos <b>duas didascálias</b> de gesto ou tom de voz, <b>uma interjeição</b> e frases de <b>três tipos</b>.</p>
+    <div class="wr" style="height:52mm"></div></div>{{M:4C:25}}</div>
+
+  <div class="sec" data-sec="4D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">cena «A coroa do rei»</span><span class="pts">10 pontos</span></div>
+  <div class="dq">
+    <div><div class="qr">{{QR:a4}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div>
+      <div class="it" style="padding-top:0"><span class="n">15</span><div class="c"><div class="g2" style="grid-template-columns:1fr 1fr 1fr"><span>a) Onde se passa a cena? <span class="fill s"></span></span><span>b) Quando? <span class="fill"></span></span><span>c) O que desapareceu? <span class="fill"></span></span></div></div>{{M:4D:6}}</div>
+      <div class="it"><span class="n">16</span><div class="c">a) Onde estava a coroa? <span class="fill l"></span><br>b) O que exprime o «Ufa!» do Diogo? <span class="fill"></span></div>{{M:4D:4}}</div>
+    </div>
+  </div>
+  <footer class="folio">126</footer>
+</section>
+
+<!-- ======================= 127 · RUBRICS ======================= -->
+<section class="page odd r-ultra">
+  <header class="run"><span>Avaliação</span><span><b>Unidade 6</b> · Critérios de avaliação</span></header>
+  <div class="tab"><span>Unidade 6 · Avaliação</span></div>
+  <div class="kick">Unidade 6 · Como és avaliado</div>
+  <h2 class="disp h2b">Critérios da escrita e da oralidade</h2>
+  <p class="lead" style="font-size:10.4pt;margin-top:1.6mm">Estas grelhas mostram o que o professor procura no teu texto e na tua apresentação oral. Antes de entregares, avalia-te tu também: escreve o nível que achas que tiveste.</p>
+
+  <div class="sec" style="margin-top:3.4mm"><span class="L">C</span><h3>Escrita</h3><span class="sub">parte C de todos os testes · 25 pontos</span><span class="pts">5 critérios × 5 pontos</span></div>
+  <table class="rub">
+    <tr><th class="k">Critério</th><th><b>Nível 4</b><br>5 pontos</th><th><b>Nível 3</b><br>4 pontos</th><th><b>Nível 2</b><br>3 pontos</th><th><b>Nível 1</b><br>1 ponto</th><th class="me">Eu</th><th class="me">Prof.</th></tr>
+    <tr><td class="k">Adequação ao tema e ao género</td><td>Faço tudo o que é pedido. O meu texto tem todas as marcas do género (título, estrofes, falas e didascálias…).</td><td>Respeito o tema. Falta uma marca do género ou uma parte do que é pedido.</td><td>Afasto-me um pouco do tema ou faltam várias marcas do género.</td><td>O texto não trata o tema ou não parece do género pedido.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Coerência e coesão</td><td>As ideias seguem uma ordem clara, sem repetições nem contradições. Uso parágrafos e conectores variados.</td><td>As ideias estão ordenadas. Uso alguns conectores e parágrafos.</td><td>Há ideias fora do sítio ou repetidas. Quase não uso conectores.</td><td>É difícil perceber a ordem das ideias.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Vocabulário</td><td>Uso palavras variadas e precisas, adjetivos expressivos, sem repetir.</td><td>Uso palavras adequadas, com poucas repetições.</td><td>Uso palavras simples e repito muitas vezes as mesmas.</td><td>Uso poucas palavras ou palavras que não servem.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Ortografia e pontuação</td><td>Dou 0 a 2 erros. A pontuação está correta, incluindo o travessão nas falas.</td><td>Dou 3 a 5 erros. A pontuação está quase sempre correta.</td><td>Dou 6 a 9 erros. Falta pontuação em vários sítios.</td><td>Dou 10 ou mais erros. Quase não uso pontuação.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Apresentação</td><td>Letra legível, título, margem e parágrafos. Texto limpo e do tamanho pedido.</td><td>Letra legível, com poucas rasuras.</td><td>Letra às vezes difícil de ler, muitas rasuras.</td><td>O texto é muito difícil de ler.</td><td class="me"></td><td class="me"></td></tr>
+  </table>
+  <p class="small" style="margin-top:1.2mm">Um critério que não se possa avaliar (por exemplo, texto em branco) vale 0 pontos. Um texto com menos de metade das palavras pedidas não passa do nível 2 em «adequação».</p>
+
+  <div class="sec" style="margin-top:4mm"><span class="L">D</span><h3>Oralidade</h3><span class="sub">apresentações, leitura em voz alta e dramatizações</span><span class="pts">níveis 1–4</span></div>
+  <table class="rub oral">
+    <tr><th class="k">Critério</th><th><b>Nível 4</b><br>muito bom</th><th><b>Nível 3</b><br>bom</th><th><b>Nível 2</b><br>suficiente</th><th><b>Nível 1</b><br>a melhorar</th><th class="me">Eu</th><th class="me">Prof.</th></tr>
+    <tr><td class="k">Voz: volume e dicção</td><td>Toda a turma me ouve bem. Pronuncio todas as palavras com clareza.</td><td>Ouve-se bem quase sempre.</td><td>Falo às vezes baixo ou depressa.</td><td>É difícil ouvir-me ou perceber-me.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Ritmo e expressividade</td><td>Faço pausas nos sinais de pontuação e mudo a voz conforme a emoção.</td><td>Faço pausas e leio com alguma expressão.</td><td>Leio sempre no mesmo tom.</td><td>Paro muitas vezes e perco-me.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Organização das ideias</td><td>Tenho início, meio e fim. Não me esqueço de nada importante.</td><td>Tenho início, meio e fim, mas salto uma ideia.</td><td>As ideias aparecem desordenadas.</td><td>Não consigo apresentar as ideias.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Vocabulário e correção</td><td>Uso palavras variadas e frases completas e corretas.</td><td>Uso palavras adequadas, com poucos erros.</td><td>Repito palavras e deixo frases a meio.</td><td>Uso muito poucas palavras.</td><td class="me"></td><td class="me"></td></tr>
+    <tr><td class="k">Postura e contacto visual</td><td>Estou direito, calmo e olho para quem me ouve.</td><td>Olho para a turma quase sempre.</td><td>Olho sobretudo para a folha.</td><td>Viro-me de costas ou escondo a cara.</td><td class="me"></td><td class="me"></td></tr>
+  </table>
+  <footer class="folio">127</footer>
+</section>
+
+<!-- ======================= 128 · BALANÇO + TRACKER ======================= -->
+<section class="page even r-ultra">
+  <header class="run"><span>Avaliação</span><span><b>Unidade 6</b> · Balanço do ano</span></header>
+  <div class="tab"><span>Unidade 6 · Avaliação</span></div>
+  <div class="kick">Unidade 6 · Fim do ano</div>
+  <h2 class="disp h2b">Balanço do ano</h2>
+  <p class="small" style="margin-top:1.4mm;font-size:9pt">Pinta uma bolinha em cada frase: <span class="sc3"><i class="o1"></i> ainda não</span> <span class="sc3"><i class="o2"></i> quase</span> <span class="sc3"><i class="o3"></i> sim!</span></p>
+  <div class="can">
+    <div style="--uc:var(--verde)"><b>Unidade 1 · Informar e descrever</b>
+      <p><span>Encontro informação num artigo e separo factos de opiniões.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Uso nomes coletivos e os graus do adjetivo.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Escrevo um retrato e um aviso com o imperativo.</span><em><i></i><i></i><i></i></em></p></div>
+    <div style="--uc:#B8751A"><b>Unidade 2 · Texto narrativo</b>
+      <p><span>Identifico introdução, desenvolvimento e conclusão.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Uso o discurso direto e os pretéritos perfeito e imperfeito.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Escrevo um relato com conectores de tempo.</span><em><i></i><i></i><i></i></em></p></div>
+    <div style="--uc:var(--ameixa)"><b>Unidade 3 · Texto poético</b>
+      <p><span>Conto versos e estrofes e encontro as rimas.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Reconheço comparação, metáfora, personificação e outros recursos.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Escrevo um poema curto com rima.</span><em><i></i><i></i><i></i></em></p></div>
+    <div style="--uc:var(--turq)"><b>Unidade 4 · Texto dramático</b>
+      <p><span>Distingo falas de didascálias.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Uso os tipos de frase, a pontuação expressiva e as interjeições.</span><em><i></i><i></i><i></i></em></p>
+      <p><span>Transformo uma narrativa numa cena.</span><em><i></i><i></i><i></i></em></p></div>
+  </div>
+
+  <div class="sec" style="margin-top:3.6mm"><span class="L"><svg viewBox="0 0 16 16" style="width:1em;height:1em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M2.5 8.6 6.3 12.2 13.6 3.8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Os meus resultados</h3><span class="sub">regista os pontos depois de cada teste</span><span class="pts">/100</span></div>
+  <div class="trk">
+    <table class="tr">
+      <tr><th></th><th>A · Leitura<small>/40</small></th><th>B · Gramática<small>/25</small></th><th>C · Escrita<small>/25</small></th><th>D · Oral<small>/10</small></th><th class="tt">Total<small>/100</small></th><th class="gl">Vou treinar…</th></tr>
+      <tr><th style="--uc:var(--verde)">Teste 1</th><td></td><td></td><td></td><td></td><td class="tt"></td><td></td></tr>
+      <tr><th style="--uc:#B8751A">Teste 2</th><td></td><td></td><td></td><td></td><td class="tt"></td><td></td></tr>
+      <tr><th style="--uc:var(--ameixa)">Teste 3</th><td></td><td></td><td></td><td></td><td class="tt"></td><td></td></tr>
+      <tr><th style="--uc:var(--turq)">Teste 4</th><td></td><td></td><td></td><td></td><td class="tt"></td><td></td></tr>
+    </table>
+    <div class="rchart"><div class="lab" style="color:var(--c);margin-bottom:1mm">Pinta até ao teu total</div>
+      <div class="bars"><div class="ax"><span>100</span><span>75</span><span>50</span><span>25</span><span>0</span></div><div class="plot"><div class="b" style="--uc:var(--verde)"></div><div class="b" style="--uc:#B8751A"></div><div class="b" style="--uc:var(--ameixa)"></div><div class="b" style="--uc:var(--turq)"></div></div></div>
+      <div class="bl"><span>T1</span><span>T2</span><span>T3</span><span>T4</span></div></div>
+  </div>
+
+  <div class="refl">
+    <div><b>O que aprendi melhor este ano</b><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
+    <div><b>O que ainda quero melhorar</b><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
+    <div><b>A minha meta para o 6.º ano</b><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
+  </div>
+  <div class="endrow">
+    <div class="tip"><img src="../../art/mou-1.png" alt="" style="width:14mm;mix-blend-mode:multiply"><div class="bub">Leste, escreveste, ouviste e representaste. <b>Parabéns pelo teu ano!</b> E lembra-te: um nível 1 não é um fracasso — é o ponto de partida para o próximo passo.</div></div>
+    <div class="qr teach">{{QR:solucoes}}<span><b>Para o professor</b>Soluções e critérios de correção dos quatro testes</span></div>
+  </div>
+  <footer class="folio">128</footer>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* static instances (fonts/static/): Chromium embeds these as TrueType; the variable files come out as Type3 */
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400.ttf) format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400i.ttf) format("truetype");font-weight:400;font-style:italic}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500.ttf) format("truetype");font-weight:500;font-style:normal}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500i.ttf) format("truetype");font-weight:500;font-style:italic}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-600.ttf) format("truetype");font-weight:600;font-style:normal}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:600;font-style:italic}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-700.ttf) format("truetype");font-weight:700;font-style:normal}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:700;font-style:italic}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:800;font-style:normal}
+@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:900;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400.ttf) format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-500.ttf) format("truetype");font-weight:500;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-600.ttf) format("truetype");font-weight:600;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-700.ttf) format("truetype");font-weight:700;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-800.ttf) format("truetype");font-weight:800;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-900.ttf) format("truetype");font-weight:900;font-style:normal}
+@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400i.ttf) format("truetype");font-weight:400 900;font-style:italic}
+@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-400.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-700.ttf) format("truetype");font-weight:700}
+@font-face{font-family:"DM Mono";src:url(../../fonts/DMMono-Regular.ttf) format("truetype");font-weight:400}
+@font-face{font-family:"DM Mono";src:url(../../fonts/DMMono-Medium.ttf) format("truetype");font-weight:500}
+
+@page{size:210mm 297mm;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --paper:#F6F0E4; --paper2:#EFE6D4; --ink:#1C2536; --ink2:#4B5467; --rule:#D8CCB6;
+  --ocre:#D9922A; --verde:#2F6E5C; --ultra:#2D4BA8; --ameixa:#7B3F6E; --verm:#DC4A2E; --turq:#1C7C89; --tinta:#1C2536;
+  --bronze:#B7723A; --prata:#8E99A6; --ouro:#D6A21E;
+  --y5:#C32480; --y5d:#7D1A52; --y5t:#F6DDEA; --sand:#F2EBDC;
+}
+html,body{background:#8a8577}
+body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact;font-variant-numeric:lining-nums}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;background:var(--paper);page-break-after:always;break-after:page;padding:19mm 16mm 17mm 16mm;--c:var(--y5);--t:var(--y5t)}
+.page:last-child{page-break-after:auto}
+/* running furniture — identical to Unit 1 */
+.run{position:absolute;top:8.5mm;left:16mm;right:16mm;display:flex;justify-content:space-between;font-family:"DM Mono";font-size:6.8pt;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);border-bottom:.6pt solid var(--rule);padding-bottom:1.6mm}
+.run b{color:var(--c);font-weight:500}
+.folio{position:absolute;bottom:8mm;width:9mm;height:9mm;border-radius:50%;background:var(--c);color:#fff;font-family:"Fraunces";font-weight:700;font-size:10pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100,"WONK" 0}
+.folio.rom{font-style:italic;font-weight:600;font-size:9.4pt;letter-spacing:.02em}
+.folio.rom.w{width:11mm;border-radius:4.5mm}
+.page.odd .folio{right:12mm}.page.even .folio{left:12mm}
+.foot{position:absolute;bottom:10.4mm;font-family:"DM Mono";font-size:6.4pt;letter-spacing:.06em;color:var(--ink2);text-transform:uppercase}
+.page.odd .foot{right:26mm}.page.even .foot{left:26mm}
+.tab{position:absolute;top:34mm;width:7mm;height:62mm;background:var(--c);color:#fff;font-family:"DM Mono";font-weight:500;font-size:7pt;letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;justify-content:center}
+.tab span{transform:rotate(90deg);white-space:nowrap}
+.page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
+.page.even .tab span{transform:rotate(-90deg)}
+/* type */
+.disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:600;letter-spacing:-.015em;line-height:.98}
+h1.disp{font-size:34pt;color:var(--ink)}
+h2.disp{font-size:24pt}
+.kick{font-family:"DM Mono";font-weight:500;font-size:7.6pt;letter-spacing:.16em;text-transform:uppercase;color:var(--c);margin-bottom:2.2mm;display:flex;align-items:center;gap:2mm}
+.kick:before{content:"";width:6mm;height:1.4pt;background:var(--c)}
+.lead{font-size:12pt;line-height:1.42;color:var(--ink);max-width:160mm}
+.lead em{font-family:"Fraunces";font-style:italic}
+.txt{font-family:"Fraunces";font-variation-settings:"SOFT" 50,"WONK" 0,"opsz" 12;font-weight:400;font-size:11.3pt;line-height:1.55;color:#20283a}
+.small{font-size:8.6pt;color:var(--ink2)}
+.mono{font-family:"DM Mono"}
+b,strong{font-weight:700}
+.lab{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.hand{font-family:"Caveat"}
+/* Unit 1 furniture reused as specimens */
+.act-h{display:flex;align-items:center;gap:2mm}
+.num{flex:none;width:6.6mm;height:6.6mm;border-radius:50%;background:var(--ink);color:#fff;font-family:"Fraunces";font-weight:700;font-size:9.6pt;display:flex;align-items:center;justify-content:center;font-variation-settings:"SOFT" 100}
+.act-h h3{font-family:"Figtree";font-weight:800;font-size:11pt;line-height:1.15}
+.skill{font-family:"DM Mono";font-size:6.4pt;letter-spacing:.12em;text-transform:uppercase;border:.7pt solid var(--c);color:var(--c);border-radius:1mm;padding:.5mm 1.3mm;margin-left:auto;white-space:nowrap}
+.key{flex:none;width:8.5mm;height:4.2mm}
+.ln{display:block;height:7.2mm;border-bottom:.7pt solid #B9AE98}
+.ln.s{height:6.2mm}
+.box{border:.8pt solid var(--rule);border-radius:2.4mm;background:#FBF7EF;padding:3mm 3.4mm}
+.tint{background:var(--t);border-radius:2.4mm;padding:3mm 3.6mm}
+.tip{display:flex;gap:3mm;align-items:center}
+.tip img{width:17mm;flex:none;mix-blend-mode:multiply}
+.tip .bub{background:#fff;border:.8pt solid var(--ink);border-radius:3mm;padding:2.2mm 3mm;font-size:9.4pt;line-height:1.35;position:relative}
+.tip .bub:before{content:"";position:absolute;left:-2.1mm;top:44%;width:3.4mm;height:3.4mm;background:#fff;border-left:.8pt solid var(--ink);border-bottom:.8pt solid var(--ink);transform:rotate(45deg)}
+.tip .bub b{color:var(--verm)}
+.chk{display:inline-block;width:3.4mm;height:3.4mm;border:.8pt solid var(--ink);border-radius:.6mm;vertical-align:-.5mm;margin-right:1.4mm;background:#fff}
+.qr{display:flex;gap:2.6mm;align-items:center}
+.qr svg{width:21mm;height:21mm;flex:none;background:#fff;border-radius:1.4mm}
+.qr .ql{font-size:8.2pt;line-height:1.3}
+.qr .ql b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.rule{background:var(--ink);color:#F6F0E4;border-radius:2.4mm;padding:3.4mm 4.4mm;font-size:10pt;line-height:1.4;position:relative}
+.rule b{color:#F4C56A}
+.rule .lab{color:#F4C56A;display:block;margin-bottom:1mm}
+.stars{display:inline-flex;gap:.8mm}.stars svg{width:4mm;height:4mm}
