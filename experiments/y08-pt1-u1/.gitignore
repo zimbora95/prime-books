@@ -11,3 +11,6 @@ texts/*.md
 texts/javanes.txt
 u2sheet.py
 fill_u3*.py
+fill_u4.py
+fill_u5.py
+texts/raw_*.md

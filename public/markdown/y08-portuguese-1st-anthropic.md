@@ -1,5 +1,5 @@
 # Portuguese 1st - Year 8 (Prime Book)
-> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (108 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y08-portuguese-1st-anthropic/book.pdf` (148 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
@@ -15,6 +15,8 @@ L Í N G U A M A T E R N A
 Unidade 1 · Publicidade e crítica
 Unidade 2 · Texto narrativo
 Unidade 3 · Texto poético
+Unidade 4 · Texto dramático
+Unidade 5 · Revisões anuais
 Unidade 7 · Contrato de leitura
 
 P R I M E S C H O O L
@@ -52,12 +54,12 @@ fim de cada unidade: resolve primeiro, confirma depois.
 **ESTA EDIÇÃO**
 
 **Inclui a Unidade 1 (Publicidade e crítica), a Unidade 2**
-**(Texto narrativo), a Unidade 3 (Texto poético) e a Unidade**
+**(Texto narrativo), a Unidade 3 (Texto poético), a Unidade 4**
 
-**7 (Contrato de leitura). As Unidades 4 (Texto dramático), 5**
+**(Texto dramático), a Unidade 5 (Revisões anuais) e a Uni-**
 
-(Revisões anuais) e 6 (Avaliação) juntam-se nas próximas
-edições, com a mesma organização.
+**dade 7 (Contrato de leitura). A Unidade 6 (Avaliação)**
+junta-se na próxima edição, com a mesma organização.
 
 **CONCEÇÃO**
 
@@ -69,37 +71,37 @@ lage Grotesque e DM Mono (SIL Open Font License).
 
 **TEXTOS E IMAGENS**
 
-O filme O Farol das Baleias, o Cinema Aurora, a vila de
-Vila Nova do Farol, as marcas, as campanhas, os jornais,
+Os filmes O Farol das Baleias e A Última Sessão, o Ci-
+nema Aurora, a vila de Vila Nova do Farol, as marcas, as
 
-os críticos e a revista A Lupa são ficcionais e foram cria-
+campanhas, os jornais, os críticos e a revista A Lupa são
 
-dos para este manual. «Mar Português», de Fernando
-Pessoa (Mensagem, 1934), e os textos integrais de Ale-
+ficcionais e foram criados para este manual. «Mar Portu-
+guês», de Fernando Pessoa (Mensagem, 1934), e os textos
 
-xandre Herculano, Trindade Coelho, Lima Barreto e Flor-
-bela Espanca e o vilancete de Camões estão em domínio
+integrais de Alexandre Herculano, Trindade Coelho, Lima
+Barreto e Florbela Espanca e Eça de Queirós, o vilancete
 
-público; as suas grafias foram atualizadas segundo o
+e o soneto de Camões estão em domínio público; as suas
 
-Acordo Ortográfico de 1990. Os excertos de Júlio Verne e
-Oscar Wilde foram traduzidos pela Prime School a partir
+grafias foram atualizadas segundo o Acordo Ortográfico
+de 1990. Os excertos de Júlio Verne e Oscar Wilde foram
 
-dos originais, em domínio público. De Manuel da Fonseca,
-Ondjaki, António Gedeão, Alexandre O'Neill, David Mou-
+traduzidos pela Prime School a partir dos originais, em
+domínio público. De Manuel da Fonseca, Ondjaki, António
 
-rão-Ferreira, Manuel Alegre, Ana Hatherly e Miguel
-Torga, obras protegidas, citam-se apenas frases e versos
+Gedeão, Alexandre O'Neill, David Mourão-Ferreira, Ma-
+nuel Alegre, Ana Hatherly, Miguel Torga e Alice Vieira,
 
-breves, com indicação da fonte, para fins de ensino; os
+obras protegidas, citam-se apenas frases e versos bre-
 
-textos completos leem-se na antologia da turma. Os títu-
-los sugeridos na Unidade 7 são obras publicadas, citadas
+ves, com indicação da fonte, para fins de ensino; os tex-
+tos completos leem-se na antologia da turma. Os títulos
 
+sugeridos na Unidade 7 são obras publicadas, citadas
 apenas pelo título e pelo autor.
 
 Ilustrações criadas com IA generativa sob direção de
-
 arte editorial. Vozes dos áudios sintetizadas.
 
 **Prime School · Portugal · primeira edição, setembro de 2026.**
@@ -117,174 +119,144 @@ O Q U E H Á N E S T E L I V R O
 
 ## 1
 **Promessa & Veredicto**
-## 4
+## 5
 
 Em cartaz · o programa da unidade
-**5**
+**6**
 
 Aquecimento · promessa ou veredicto?
-**6**
+**7**
 
 SESSÃO 1
 Anatomia de um cartaz · vender
 ou mudar?
 
-**7**
+**8**
 
 SESSÃO 2
 A caixa de ferramentas da per-
 suasão · Pessoa e o sal
 
-**10**
+**11**
 
 SESSÃO 3
-Ouvir para desmontar · explicar a
-intenção
+Ouvir para desmontar · explicar
+a intenção
 
-**13**
+**14**
 
 SESSÃO 4
-Oficina do anúncio · como nasce
-um slogan
+Oficina do anúncio · como
+nasce um slogan
 
-**15**
+**16**
 
 Intervalo · do anúncio à crítica
-**17**
+**18**
 
 SESSÃO 5
-O veredicto · críticas de cinema e
-de livro
+O veredicto · críticas de cinema
+e de livro
 
-**18**
+**19**
 
 SESSÃO 6
 Quem fez o quê? · frase ativa e
 passiva
 
-**23**
+**24**
 
 SESSÃO 7
-Oficina da crítica · da impressão
-ao veredicto
+Oficina da crítica · da impres-
+são ao veredicto
 
-**25**
+**26**
 
 A estreia · Festival Aurora na tua escola
-**27**
-
-Balanço · dez perguntas relâmpago
 **28**
 
-Glossário · soluções · transcrições
+Balanço · dez perguntas relâmpago
 **29**
+
+Glossário · soluções · transcrições
+**30**
 
 ## 2
 **Quem nos faz crescer?**
-## 30
+## 31
 
 Programa · mapa da narrativa · aquecimento
-**31**
+**32**
 
 1
 Herculano · O Castelo de Faria
-**34**
+**35**
 
 2
 Manuel da Fonseca · Mestre Finezas
-**42**
+**43**
 
 3
 Trindade Coelho · Parábola dos sete
 vimes
 
-**45**
+**46**
 
 4
 Ondjaki · Os da minha rua
-**49**
+**50**
 
 5
 Lima Barreto · O homem que sabia
 javanês
 
-**52**
+**53**
 
 6
-Júlio Verne · A volta ao mundo em 80 dias
-**60**
+Júlio Verne · A volta ao mundo em 80
+dias
+
+**61**
 
 7
 Oscar Wilde · O Fantasma de Canterville
-**66**
+**67**
 
 Clube dos Contadores · balanço · soluções
-**71**
+**72**
 
 ## 3
 **O que cabe num verso?**
-## 74
+## 75
 
 Programa · oficina do verso · aquecimento
-**75**
+**76**
 
 1
 Gedeão · Pedra filosofal
-**79**
+**80**
 
 2
 O'Neill · O poema pouco original do medo
-**82**
+**83**
 
 3–4
 Mourão-Ferreira · Manuel Alegre
-**85**
+**86**
 
 5–7
 Hatherly · Torga · Manuel da Fonseca
-**87**
+**88**
 
 8–9
 Florbela Espanca · dois sonetos
-**90**
+**91**
 
 Recursos · comentário · gramática do verso
-**92**
+**93**
 
 Sarau · balanço · soluções
-**95**
-
-## 7
-**Contrato de leitura**
-## 98
-
-Que leitor és tu?
-**99**
-
-Os teus direitos e os teus compromissos
-**100**
-
-O contrato
-**101**
-
-Carta de navegação · 24 livros para escolher
-**102**
-
-Diário de bordo · seis livros, seis registos
-**103**
-
-Passar a palavra · seis maneiras de partilhar
-um livro
-
-**106**
-
-Reflexão final · o que mudou em mim
-**107**
-
-P R Ó X I M A S E D I Ç Õ E S
-4 · Texto dramático
-5 · Revisões anuais
-6 · Avaliação
+**96**
 
 P U B L I C I D A D E E C R Í T I C A
 
@@ -292,12 +264,136 @@ T E X T O N A R R A T I V O · A U T O R E S E N A R R A T I V A S D E F O R M A
 
 T E X T O P O É T I C O · R E D O N D I L H A E E S Q U E M A R I M Á T I C O
 
-A T I V I D A D E S E X T R A · O T E U P E R C U R S O D E L E I T O R
-
 ÍNDICE
 3
 
 <!-- page 4 -->
+
+---
+Í N D I C E
+
+Í N D I C E
+C O N T I N U A Ç Ã O
+## Do palco ao leitor
+
+## 4
+**Sobe o pano**
+## 99
+
+Programa · mapa do texto dramático ·
+aquecimento
+
+**100**
+
+1
+Alice Vieira · Leandro, rei da Helíria
+**103**
+
+2
+Do Castelo de Faria à cena
+**108**
+
+Em cena! · balanço · soluções
+**113**
+
+## 5
+**Sessão de encerramento**
+## 116
+
+Programa · mapa do ano
+**117**
+
+1–2
+Um anúncio · uma crítica
+**120**
+
+3
+Eça de Queirós · O Tesouro
+**124**
+
+4–5
+Camões · A última bobina
+**129**
+
+Circuitos de gramática
+**131**
+
+Teste de treino · reflexão · soluções
+**133**
+
+## 7
+**Contrato de leitura**
+## 138
+
+Que leitor és tu?
+**139**
+
+Os teus direitos e os teus compromissos
+**140**
+
+O contrato
+**141**
+
+Carta de navegação · 24 livros para escolher
+**142**
+
+Diário de bordo · seis livros, seis registos
+**143**
+
+Passar a palavra · seis maneiras de partilhar
+um livro
+
+**146**
+
+Reflexão final · o que mudou em mim
+**147**
+
+P R Ó X I M A S E D I Ç Õ E S
+6 · Avaliação
+
+C O M O F U N C I O N A E S T E L I V R O
+
+**Cinco competências**
+
+Cada atividade diz o que treinas:
+ORALIDADE
+
+LEITURA
+ED. LITERÁRIA
+ESCRITA
+
+GRAMÁTICA
+
+**Uma cor por unidade**
+
+A barra lateral e o número da página mudam de
+
+**cor com a unidade. As páginas de oficina (es-**
+
+crita e gramática) têm a barra amarela.
+
+**Textos integrais e guias**
+
+Os textos em domínio público estão completos.
+Das obras protegidas citam-se passagens breves:
+lê-as na íntegra na antologia ou na biblioteca.
+
+**Ouvir e verificar**
+
+Os códigos QR abrem os áudios no telemóvel. No
+fim de cada unidade: balanço, cartão de memória
+e soluções.
+
+T E X T O D R A M Á T I C O
+
+R E V I S Õ E S A N U A I S
+
+A T I V I D A D E S E X T R A · O T E U P E R C U R S O D E L E I T O R
+
+ÍNDICE
+4
+
+<!-- page 5 -->
 
 ---
 U N I D A D E 1
@@ -321,9 +417,9 @@ Como se separa um facto de uma opinião?
 O que torna uma crítica digna de confiança?
 
 ABERTURA
-4
+5
 
-<!-- page 5 -->
+<!-- page 6 -->
 
 ---
 P R O G R A M A D A U N I D A D E
@@ -338,7 +434,7 @@ C I N E M A A U R O R A · V I L A N O V A D O F A R O L
 
 ## PARTE I A Promessa
 
-p. 7
+p. 8
 ## 1
 
 **ANATOMIA DE UM CARTAZ**
@@ -348,7 +444,7 @@ cial e não comercial.
 
 LEITURA
 
-## p. 10 2
+## p. 11 2
 
 **AS FERRAMENTAS DA PERSUASÃO**
 
@@ -359,7 +455,7 @@ GRAMÁTICA
 
 ED. LITERÁRIA
 
-## p. 13 3
+## p. 14 3
 
 **OUVIR PARA DESMONTAR**
 
@@ -367,7 +463,7 @@ Analisar dois anúncios de rádio e explicar a intenção de quem fala.
 
 ORALIDADE
 
-## p. 15 4
+## p. 16 4
 
 **OFICINA DO ANÚNCIO**
 
@@ -375,11 +471,11 @@ Criar um slogan que fica no ouvido e um anúncio completo.
 
 ESCRITA
 
-I N T E R V A L O · P . 1 7
+I N T E R V A L O · P . 1 8
 
 ## PARTE II O Veredicto
 
-## p. 18 5
+## p. 19 5
 
 **ANATOMIA DE UMA CRÍTICA**
 
@@ -388,7 +484,7 @@ são. Facto e apreciação.
 
 LEITURA
 
-## p. 23 6
+## p. 24 6
 
 **QUEM FEZ O QUÊ?**
 
@@ -397,7 +493,7 @@ desaparece.
 
 GRAMÁTICA
 
-## p. 25 7
+## p. 26 7
 
 **OFICINA DA CRÍTICA**
 
@@ -406,8 +502,8 @@ Escrever uma crítica com tese, argumentos e conclusão.
 ESCRITA
 
 **ESTREIA O teu festival · p.**
-**27  ·  Balanço · p.**
-28
+**28  ·  Balanço · p.**
+29
 
 COMO LER ESTE MANUAL
 
@@ -438,9 +534,9 @@ para ir mais longe
 código
 
 PROGRAMA
-5
+6
 
-<!-- page 6 -->
+<!-- page 7 -->
 
 ---
 A N T E S D A S E S S Ã O
@@ -537,9 +633,9 @@ falsa, independentemente de quem a diz.
 **concorda-se ou discorda-se, e por isso deve ser justificada.**
 
 AQUECIMENTO
-6
+7
 
-<!-- page 7 -->
+<!-- page 8 -->
 
 ---
 O Farol
@@ -571,7 +667,7 @@ DOCUMENTO 1 · CARTAZ DE CINEMA
 P A R T E I · A P R O M E S S A
 
 SESSÃO 1
-7
+8
 
 **1**
 
@@ -585,7 +681,7 @@ SESSÃO 1
 
 **6**
 
-<!-- page 8 -->
+<!-- page 9 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -669,9 +765,9 @@ destinatário a adotar um comportamento: comprar, aderir, participar, mudar. É 
 ser memorizado.
 
 SESSÃO 1 · ANATOMIA DE UM CARTAZ
-8
+9
 
-<!-- page 9 -->
+<!-- page 10 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -743,9 +839,9 @@ muitas vezes, uma entidade pública ou uma
 associação.
 
 SESSÃO 1 · VENDER OU MUDAR?
-9
+10
 
-<!-- page 10 -->
+<!-- page 11 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -859,9 +955,9 @@ O plástico cabe no mar.
 09
 
 SESSÃO 2 · FERRAMENTAS
-10
+11
 
-<!-- page 11 -->
+<!-- page 12 -->
 
 ---
 G R A M Á T I C A E M F O C O
@@ -932,9 +1028,9 @@ fresco do universo») não engana ninguém. Mas «elimina 100% das bactérias» 
 **verdadeira. Onde fica a fronteira? Discute com a turma.**
 
 SESSÃO 2 · HIPÉRBOLE E ENUMERAÇÃO
-11
+12
 
-<!-- page 12 -->
+<!-- page 13 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -1014,9 +1110,9 @@ A D I F E R E N Ç A E S S E N C I A L
 culo depois.
 
 SESSÃO 2 · EDUCAÇÃO LITERÁRIA
-12
+13
 
-<!-- page 13 -->
+<!-- page 14 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -1067,12 +1163,12 @@ Preenche a grelha enquanto ouves.
 
 **Intenção de quem fala**
 
-Sem telemóvel? O professor pode reproduzir os áudios na aula. As transcrições estão na p. 29 — lê-as só depois de ouvires.
+Sem telemóvel? O professor pode reproduzir os áudios na aula. As transcrições estão na p. 30 — lê-as só depois de ouvires.
 
 SESSÃO 3 · OUVIR
-13
+14
 
-<!-- page 14 -->
+<!-- page 15 -->
 
 ---
 P A R T E I · A P R O M E S S A
@@ -1171,9 +1267,9 @@ A V O Z T A M B É M C O N V E N C E
 **Olhar — levanta os olhos das notas.**
 
 SESSÃO 3 · FALAR
-14
+15
 
-<!-- page 15 -->
+<!-- page 16 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -1195,7 +1291,7 @@ indicada.
 
 **«Poupa água quando tomas banho.» → C ou D**
 
-## 2 Chuva de slogans. Escolhe o produto ou a causa do teu anúncio (p. 16) e escreve pelo menos seis slo-
+## 2 Chuva de slogans. Escolhe o produto ou a causa do teu anúncio (p. 17) e escreve pelo menos seis slo-
 gans possíveis. Não julgues ainda — primeiro, quantidade.
 
 ## 3 Lê os teus slogans a um colega. Ele escolhe o que ficou no ouvido. Assinala-o com ★. É esse que vais
@@ -1244,9 +1340,9 @@ Não deites plástico no mar.
 ## D
 
 SESSÃO 4 · OFICINA DO SLOGAN
-15
+16
 
-<!-- page 16 -->
+<!-- page 17 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -1269,7 +1365,7 @@ O que quero que o destinatário faça
 
 A minha promessa, numa frase
 
-ANTES DE ENTREGAR, CONFIRMA
+A N T E S D E E N T R E G A R , C O N F I R M A
 
 Tem slogan curto e memorável.
 Usa pelo menos uma hipérbole ou uma enumeração.
@@ -1288,9 +1384,9 @@ CORPO DE TEXTO
 MARCA · APELO À AÇÃO
 
 SESSÃO 4 · O TEU ANÚNCIO
-16
+17
 
-<!-- page 17 -->
+<!-- page 18 -->
 
 ---
 I N T E R V A L O
@@ -1323,15 +1419,15 @@ pesa qualidades e defeitos
 
 deve ser independente
 
-**Pergunta para a pausa: lembras-te do «Deslumbrante.» no cartaz da p. 7? Quando um anúncio cita um crítico,**
+**Pergunta para a pausa: lembras-te do «Deslumbrante.» no cartaz da p. 8? Quando um anúncio cita um crítico,**
 quem está a falar — o anúncio ou a crítica?
 
 I N T E R V A L O
 
 INTERVALO
-17
+18
 
-<!-- page 18 -->
+<!-- page 19 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1346,7 +1442,7 @@ JORNAL DA COSTA · CULTURA · CINEMA
 Com O Farol das Baleias, Marta Leal prova que o cinema português sabe contar aventuras sem
 gritar.
 
-**Por Inês Valadares**
+Por Inês Valadares
 
 F I C H A T É C N I C A
 
@@ -1418,9 +1514,9 @@ compensa.
 §3
 
 SESSÃO 5 · CRÍTICA DE CINEMA
-18
+19
 
-<!-- page 19 -->
+<!-- page 20 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1441,7 +1537,7 @@ vos valorativos que encontrares no §4.
 ## 2
 
 No §3, a crítica escreve: «Cada plano foi pensado como um quadro.» Quem pensou os planos? Porque
-não o diz a frase? (Vais voltar a esta frase na p. 24.)
+não o diz a frase? (Vais voltar a esta frase na p. 25.)
 
 ## 3 Os adjetivos valorativos são o «termómetro» da crítica. Arruma os que encontraste.
 
@@ -1543,9 +1639,9 @@ P A R A S A B E R · C R Í T I C A
 pode faltar é a justificação.
 
 SESSÃO 5 · ANATOMIA DE UMA CRÍTICA
-19
+20
 
-<!-- page 20 -->
+<!-- page 21 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1591,14 +1687,14 @@ Justifica.
 ## 7
 
 O cartaz da p.
-7 usa uma só palavra desta crítica: «Deslumbrante». A palavra nem sequer aparece
+8 usa uma só palavra desta crítica: «Deslumbrante». A palavra nem sequer aparece
 no texto! Achas que o cartaz é honesto?
 DESAFIO
 
 SESSÃO 5 · COMPREENSÃO
-20
+21
 
-<!-- page 21 -->
+<!-- page 22 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1645,9 +1741,9 @@ SÓ TOMÁS
 OS DOIS
 
 SESSÃO 5 · DOIS VEREDICTOS
-21
+22
 
-<!-- page 22 -->
+<!-- page 23 -->
 
 ---
 P A R T E I I · O V E R E D I C T O
@@ -1711,9 +1807,9 @@ e de finais surpreendentes. E não, não vou con‐
 tar como acaba.
 
 SESSÃO 5 · CRÍTICA DE LIVRO
-22
+23
 
-<!-- page 23 -->
+<!-- page 24 -->
 
 ---
 G R A M Á T I C A E M F O C O
@@ -1804,9 +1900,9 @@ A T E N Ç Ã O
 blico é complemento indireto. Experimenta: «O público foi agradado…» soa mal — e está errado.
 
 SESSÃO 6 · ATIVA E PASSIVA
-23
+24
 
-<!-- page 24 -->
+<!-- page 25 -->
 
 ---
 G R A M Á T I C A E M F O C O
@@ -1862,7 +1958,7 @@ Outras vezes, porque dá jeito a quem fala.
 
 «Os preços das pipocas foram atualizados.»
 
-«Cada plano foi pensado como um quadro.» (p. 18)
+«Cada plano foi pensado como um quadro.» (p. 19)
 
 ## 4
 
@@ -1871,9 +1967,9 @@ preferiu não dizer quem foi? Porquê?
 DESAFIO
 
 SESSÃO 6 · PRÁTICA
-24
+25
 
-<!-- page 25 -->
+<!-- page 26 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -1978,9 +2074,9 @@ por tudo isto
 assim
 
 SESSÃO 7 · PLANIFICAR A CRÍTICA
-25
+26
 
-<!-- page 26 -->
+<!-- page 27 -->
 
 ---
 O F I C I N A · E S C R E V E S T U
@@ -2013,9 +2109,9 @@ Usei conectores e vocabulário valorativo preciso (não «fixe», «giro»).
 Usei pelo menos uma frase passiva (por exemplo, na ficha ou no resumo).
 
 SESSÃO 7 · ESCREVER A CRÍTICA
-26
+27
 
-<!-- page 27 -->
+<!-- page 28 -->
 
 ---
 A E S T R E I A · P R O J E T O F I N A L
@@ -2072,7 +2168,7 @@ Convence com voz, pausa e olhar.
 campanha não comercial
 ligada ao tema do filme.
 
-Grupo · p. 15–16
+Grupo · p. 16–17
 
 ## 2
 
@@ -2082,7 +2178,7 @@ Anúncio de rádio de 30
 segundos, gravado no te-
 lemóvel, com duas vozes.
 
-Grupo · p. 13–14
+Grupo · p. 14–15
 
 ## 3
 
@@ -2092,7 +2188,7 @@ Depois da sessão, cada
 um escreve a sua crítica
 do filme.
 
-Individual · p. 25–26
+Individual · p. 26–27
 
 ## 4
 
@@ -2119,9 +2215,9 @@ SEMANA 2 · SEX.
 Críticas e defesa oral
 
 A ESTREIA
-27
+28
 
-<!-- page 28 -->
+<!-- page 29 -->
 
 ---
 B A L A N Ç O
@@ -2158,9 +2254,9 @@ escrever um anúncio com slogan e uma crítica fundamentada
 Depois desta unidade, que anúncio ou que crítica passaste a ver de outra maneira? E o que queres trei-
 nar mais na próxima unidade?
 
-«Traz a tua garrafa!» é exemplo de: hipérbole · im-
+«Traz a tua garrafa!» é exemplo de:
 
-perativo · enumeração
+hipérbole · imperativo · enumeração
 
 **1**
 Uma campanha de doação de sangue é publicidade
@@ -2187,9 +2283,9 @@ chama-se
 «Mar, vento, sal e silêncio.» Recurso:
 **8**
 
-Numa crítica de um livro, deve revelar-se o final. V ·
+Numa crítica de um livro, deve revelar-se o final.
 
-F
+V · F
 
 **9**
 «O filme tem 108 minutos» é um facto ou uma apre-
@@ -2198,9 +2294,9 @@ ciação?
 **10**
 
 BALANÇO
-28
+29
 
-<!-- page 29 -->
+<!-- page 30 -->
 
 ---
 G L O S S Á R I O · S O L U Ç Õ E S
@@ -2256,19 +2352,19 @@ Opinião principal que o texto defende.
 
 **Soluções**
 
-**p. 6 · Aquecimento. Anúncio: 1, 2, 5, 8, 10. Crítica: 3, 4, 6, 7, 9 (a 1, a 3 e a**
+**p. 7 · Aquecimento. Anúncio: 1, 2, 5, 8, 10. Crítica: 3, 4, 6, 7, 9 (a 1, a 3 e a**
 7 podiam aparecer nos dois). Factos: 1, 3, 7, 10. Apreciações: 2, 4, 6, 8,
 9. A 5 é um apelo — nem facto, nem apreciação.
 
-**p. 11 · Atividade 1. H · E · H · H · E · H+E.**
+**p. 12 · Atividade 1. H · E · H · H · E · H+E.**
 
-**p. 24 · Atividade 1. P · A · P · A · P · A. Atividade 2. a) A campanha foi**
+**p. 25 · Atividade 1. P · A · P · A · P · A. Atividade 2. a) A campanha foi**
 lançada pela Associação Amigos da Costa. b) O cartaz é pintado pe-
 los alunos do 8.º B. c) A jovem atriz será premiada pelo júri. d) O farol
 **era aceso pelo avô ao anoitecer. Atividade 3. a) Rui Vaz compôs a**
 banda sonora. b) A bilheteira do cinema venderá os bilhetes.
 
-**p. 28 · Relâmpago. 1 imperativo · 2 não comercial · 3 F · 4 hipérbole · 5**
+**p. 29 · Relâmpago. 1 imperativo · 2 não comercial · 3 F · 4 hipérbole · 5**
 O filme foi premiado pelo júri. · 6 pela associação · 7 tese · 8 enume-
 ração · 9 F · 10 facto.
 
@@ -2338,9 +2434,9 @@ agente (por). Só com verbos
 que pedem CD.
 
 GLOSSÁRIO · SOLUÇÕES
-29
+30
 
-<!-- page 30 -->
+<!-- page 31 -->
 
 ---
 U N I D A D E 2
@@ -2372,9 +2468,9 @@ O que nos transforma: as viagens, as pessoas ou as
 escolhas?
 
 UNIDADE 2
-30
+31
 
-<!-- page 31 -->
+<!-- page 32 -->
 
 ---
 P R O G R A M A
@@ -2397,7 +2493,7 @@ lealdade
 
 Categorias da narrativa · re-
 sumo · frase complexa
-**p. 34**
+**p. 35**
 
 ## 2
 **Mestre Finezas**
@@ -2409,7 +2505,7 @@ esquecimento
 
 Tema e valores · comentário ·
 pronome relativo
-**p. 42**
+**p. 43**
 
 ## 3
 **Parábola dos sete vimes**
@@ -2419,7 +2515,7 @@ TRINDADE COELHO
 Parábola · união
 Sentido figurado · texto de opi-
 nião · condicionais e finais
-**p. 45**
+**p. 46**
 
 ## 4
 **Os da minha rua**
@@ -2429,7 +2525,7 @@ ONDJAKI
 Contos · infância e lugar
 Memória e sentidos · narrativa
 breve · conjuntivo
-**p. 49**
+**p. 50**
 
 ## 5
 **O homem que sabia**
@@ -2443,7 +2539,7 @@ Ironia e crítica social · modifi-
 cador do nome · formação de
 palavras
 
-**p. 52**
+**p. 53**
 
 ## 6
 **A volta ao mundo em 80**
@@ -2457,7 +2553,7 @@ Tempo, espaço, transformação
 · texto expositivo · pronome
 átono
 
-**p. 60**
+**p. 61**
 
 ## 7
 **O Fantasma de**
@@ -2468,7 +2564,7 @@ OSCAR WILDE
 Novela · humor e medo
 Ponto de vista · reescrita · tem-
 pos verbais e locuções
-**p. 66**
+**p. 67**
 
 **Ler**
 
@@ -2492,20 +2588,20 @@ relativo · conjuntivo · pronome
 
 **Antes de partir**
 
-O mapa da narrativa · p. 32
+O mapa da narrativa · p. 33
 
 **No fim**
 
-Clube dos Contadores · p. 71
+Clube dos Contadores · p. 72
 
 **Verificar**
 
-Balanço e soluções · p. 72
+Balanço e soluções · p. 73
 
 PROGRAMA
-31
+32
 
-<!-- page 32 -->
+<!-- page 33 -->
 
 ---
 M A P A D A N A R R A T I V A
@@ -2640,9 +2736,9 @@ peripécias · clímax
 Desenlace
 
 MAPA DA NARRATIVA
-32
+33
 
-<!-- page 33 -->
+<!-- page 34 -->
 
 ---
 A Q U E C I M E N T O
@@ -2669,7 +2765,7 @@ O senhor Abílio olhou para a bobina, pousada há dez anos em cima do frigorífi
 
 pela primeira vez em muito tempo, riu-se.
 
-## 1 Preenche o mapa da narrativa desta micro-história (p. 32). Uma linha por caixa.
+## 1 Preenche o mapa da narrativa desta micro-história (p. 33). Uma linha por caixa.
 
 **Narrador**
 
@@ -2695,9 +2791,9 @@ Esta micro-história passa-se em Vila Nova do Farol, a vila da Unidade 1. As set
 tros lugares e de outros séculos — mas todas falam, como esta, de alguém que é transformado por outra pessoa.
 
 AQUECIMENTO
-33
+34
 
-<!-- page 34 -->
+<!-- page 35 -->
 
 ---
 N A R R A T I V A 1 · O C A S T E L O D E F A R I A
@@ -2770,9 +2866,9 @@ Observa a ilustração. Quem sobe o monte? Quem espera nas muralhas? O que achas
 mãos atadas vai fazer?
 
 NARRATIVA 1 · O CASTELO DE FARIA
-34
+35
 
-<!-- page 35 -->
+<!-- page 36 -->
 
 ---
 N A R R A T I V A 1 · O C A S T E L O D E F A R I A
@@ -2948,9 +3044,9 @@ castelhana.
 7
 
 NARRATIVA 1 · O CASTELO DE FARIA
-35
+36
 
-<!-- page 36 -->
+<!-- page 37 -->
 
 ---
 N A R R A T I V A 1 · O C A S T E L O D E F A R I A
@@ -3130,9 +3226,9 @@ os seus guardadores e falou com o filho:
 17
 
 NARRATIVA 1 · O CASTELO DE FARIA
-36
+37
 
-<!-- page 37 -->
+<!-- page 38 -->
 
 ---
 N A R R A T I V A 1 · O C A S T E L O D E F A R I A
@@ -3296,9 +3392,9 @@ I (1851). Texto em domínio público, com a ortografia atualizada se-
 gundo o Acordo Ortográfico de 1990. Fonte: Wikisource.
 
 NARRATIVA 1 · O CASTELO DE FARIA
-37
+38
 
-<!-- page 38 -->
+<!-- page 39 -->
 
 ---
 N A R R A T I V A 1 · O C A S T E L O D E F A R I A
@@ -3336,9 +3432,9 @@ a com a razão pela qual Herculano escreveu esta lenda.
 DESAFIO
 
 NARRATIVA 1 · O CASTELO DE FARIA
-38
+39
 
-<!-- page 39 -->
+<!-- page 40 -->
 
 ---
 N A R R A T I V A 1 · O C A S T E L O D E F A R I A
@@ -3413,9 +3509,9 @@ Nunes e a lição do
 narrador.
 
 NARRATIVA 1 · O CASTELO DE FARIA
-39
+40
 
-<!-- page 40 -->
+<!-- page 41 -->
 
 ---
 N A R R A T I V A 1 · E S C R I T A
@@ -3479,9 +3575,9 @@ depois, por isso, porque, no entanto, por fim.
 ## 4
 
 NARRATIVA 1 · ESCRITA
-40
+41
 
-<!-- page 41 -->
+<!-- page 42 -->
 
 ---
 N A R R A T I V A 1 · G R A M Á T I C A
@@ -3561,9 +3657,9 @@ b. Gonçalo não esquecia o pai. Deixou de ser cavaleiro. (C)
 c. O filho falou baixo. Não queria ser ouvido pelos castelhanos. (C)
 
 NARRATIVA 1 · GRAMÁTICA
-41
+42
 
-<!-- page 42 -->
+<!-- page 43 -->
 
 ---
 N A R R A T I V A 2 · M E S T R E F I N E Z A S
@@ -3623,9 +3719,9 @@ tem pelo Mestre na infância e na idade adulta?
 conto termina?
 
 NARRATIVA 2 · MESTRE FINEZAS
-42
+43
 
-<!-- page 43 -->
+<!-- page 44 -->
 
 ---
 N A R R A T I V A 2 · E S C R I T A
@@ -3692,9 +3788,9 @@ Escreve um comentário de 120 a 160 palavras: «O Mestre Finezas é uma personag
 cordas? Segue a estrutura acima.
 
 NARRATIVA 2 · ESCRITA
-43
+44
 
-<!-- page 44 -->
+<!-- page 45 -->
 
 ---
 N A R R A T I V A 2 · G R A M Á T I C A
@@ -3771,9 +3867,9 @@ Explica a diferença de sentido: «Os vizinhos que o esqueceram arrependeram-se.
 esqueceram, arrependeram-se.»
 
 NARRATIVA 2 · GRAMÁTICA
-44
+45
 
-<!-- page 45 -->
+<!-- page 46 -->
 
 ---
 N A R R A T I V A 3 · P A R Á B O L A D O S S E T E V I M E S
@@ -3929,9 +4025,9 @@ vencessem.
 24
 
 NARRATIVA 3 · PARÁBOLA DOS SETE VIMES
-45
+46
 
-<!-- page 46 -->
+<!-- page 47 -->
 
 ---
 N A R R A T I V A 3 · P A R Á B O L A D O S S E T E V I M E S
@@ -3976,9 +4072,9 @@ O que as palavras dizem, à letra.
 O que as palavras querem dizer, para lá da letra.
 
 NARRATIVA 3 · PARÁBOLA DOS SETE VIMES
-46
+47
 
-<!-- page 47 -->
+<!-- page 48 -->
 
 ---
 N A R R A T I V A 3 · E S C R I T A
@@ -4075,9 +4171,9 @@ Escreve o texto de opinião, com 150 a 200 palavras. Dá-lhe um título que desp
 ○ 150–200 palavras
 
 NARRATIVA 3 · ESCRITA
-47
+48
 
-<!-- page 48 -->
+<!-- page 49 -->
 
 ---
 N A R R A T I V A 3 · G R A M Á T I C A
@@ -4147,9 +4243,9 @@ Reescreve o último parágrafo da parábola começando por «Se os irmãos…».
 ção final.
 
 NARRATIVA 3 · GRAMÁTICA
-48
+49
 
-<!-- page 49 -->
+<!-- page 50 -->
 
 ---
 N A R R A T I V A 4 · O S D A M I N H A R U A
@@ -4202,9 +4298,9 @@ gola. Deduz o sentido pelo contexto.
 também social e afetivo?
 
 NARRATIVA 4 · OS DA MINHA RUA
-49
+50
 
-<!-- page 50 -->
+<!-- page 51 -->
 
 ---
 N A R R A T I V A 4 · E S C R I T A
@@ -4249,9 +4345,9 @@ nos uma descrição com três sentidos; pelo menos quatro falas de diálogo.
 ○ 180–250 palavras
 
 NARRATIVA 4 · ESCRITA
-50
+51
 
-<!-- page 51 -->
+<!-- page 52 -->
 
 ---
 N A R R A T I V A 4 · G R A M Á T I C A
@@ -4360,9 +4456,9 @@ Transforma, começando pela expressão dada: a) A avó faz café. → Espero que
 posta. → Talvez… c) Tu vens à festa. → Quando…
 
 NARRATIVA 4 · GRAMÁTICA
-51
+52
 
-<!-- page 52 -->
+<!-- page 53 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -4431,9 +4527,9 @@ Olha para o título e para a ilustração. O que prevês que vá acontecer? Regi
 firma-a no fim.
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-52
+53
 
-<!-- page 53 -->
+<!-- page 54 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -4630,9 +4726,9 @@ dora esperança:
 19
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-53
+54
 
-<!-- page 54 -->
+<!-- page 55 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -4834,9 +4930,9 @@ daqui, do Rio?
 36
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-54
+55
 
-<!-- page 55 -->
+<!-- page 56 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -5033,9 +5129,9 @@ farrábio antes de um ano.
 54
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-55
+56
 
-<!-- page 56 -->
+<!-- page 57 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -5231,9 +5327,9 @@ cachola aquelas coisas esquisitas.
 71
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-56
+57
 
-<!-- page 57 -->
+<!-- page 58 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -5393,9 +5489,9 @@ grafia atualizada segundo o Acordo Ortográfico de 1990 e man-
 tendo a variedade do português do Brasil. Fonte: Wikisource.
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-57
+58
 
-<!-- page 58 -->
+<!-- page 59 -->
 
 ---
 N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
@@ -5433,9 +5529,9 @@ Ainda é atual?
 DESAFIO
 
 NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
-58
+59
 
-<!-- page 59 -->
+<!-- page 60 -->
 
 ---
 N A R R A T I V A 5 · G R A M Á T I C A
@@ -5503,9 +5599,9 @@ frase sobre Castelo.
 Encontra no conto dois modificadores do nome apositivos e dois restritivos. Indica o § de cada um.
 
 NARRATIVA 5 · GRAMÁTICA
-59
+60
 
-<!-- page 60 -->
+<!-- page 61 -->
 
 ---
 N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
@@ -5537,7 +5633,7 @@ de bancos.
 **Lê o romance completo ao longo de quatro semanas, na**
 
 edição da biblioteca. Em aula, trabalhamos o início e o
-fim (p. 61–63).
+fim (p. 62–64).
 
 **O PLANO DE FOGG**
 
@@ -5598,9 +5694,9 @@ Semana 4 · cap. XXX–
 XXXVII
 
 NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
-60
+61
 
-<!-- page 61 -->
+<!-- page 62 -->
 
 ---
 N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
@@ -5782,9 +5878,9 @@ aposta — respondeu Phileas Fogg.
 30
 
 NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
-61
+62
 
-<!-- page 62 -->
+<!-- page 63 -->
 
 ---
 N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
@@ -5898,9 +5994,9 @@ a partir do original francês, em domínio
 público.
 
 NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
-62
+63
 
-<!-- page 63 -->
+<!-- page 64 -->
 
 ---
 N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
@@ -5970,9 +6066,9 @@ Na verdade, não se daria, por menos do que isto, a volta ao mundo?
 3
 
 NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
-63
+64
 
-<!-- page 64 -->
+<!-- page 65 -->
 
 ---
 N A R R A T I V A 6 · E S C R I T A
@@ -6046,9 +6142,9 @@ Conclusão
 Fontes
 
 NARRATIVA 6 · ESCRITA
-64
+65
 
-<!-- page 65 -->
+<!-- page 66 -->
 
 ---
 N A R R A T I V A 6 · G R A M Á T I C A
@@ -6127,9 +6223,9 @@ Com o futuro e o condicional, em
 registo cuidado.
 
 NARRATIVA 6 · GRAMÁTICA
-65
+66
 
-<!-- page 66 -->
+<!-- page 67 -->
 
 ---
 N A R R A T I V A 7 · O F A N T A S M A D E C A N T E R V I L L E
@@ -6274,9 +6370,9 @@ Oscar Wilde, The Canterville Ghost (1887), cap. I (excerto). Tradução
 ferro presas aos pés.
 
 NARRATIVA 7 · O FANTASMA DE CANTERVILLE
-66
+67
 
-<!-- page 67 -->
+<!-- page 68 -->
 
 ---
 N A R R A T I V A 7 · O F A N T A S M A D E C A N T E R V I L L E
@@ -6305,9 +6401,9 @@ o pragmatismo americano. Explica um desses contrastes.
 DESAFIO
 
 NARRATIVA 7 · O FANTASMA DE CANTERVILLE
-67
+68
 
-<!-- page 68 -->
+<!-- page 69 -->
 
 ---
 N A R R A T I V A 7 · E S C R I T A
@@ -6372,9 +6468,9 @@ Reescreve o excerto como uma página do diário de Sir Simon (180 a 230 palavras
 ○ 180–230 palavras
 
 NARRATIVA 7 · ESCRITA
-68
+69
 
-<!-- page 69 -->
+<!-- page 70 -->
 
 ---
 N A R R A T I V A 7 · G R A M Á T I C A
@@ -6449,9 +6545,9 @@ Sublinha as locuções prepositivas e escreve uma frase tua com cada uma: «Ao l
 entre os cortinados, apesar do medo, a criada espreitou.»
 
 NARRATIVA 7 · GRAMÁTICA
-69
+70
 
-<!-- page 70 -->
+<!-- page 71 -->
 
 ---
 S Í N T E S E
@@ -6511,9 +6607,9 @@ Em quase todas as histórias há alguém que ajuda outra pessoa a crescer (um pa
 nho). Escolhe dois exemplos e compara-os.
 
 SÍNTESE
-70
+71
 
-<!-- page 71 -->
+<!-- page 72 -->
 
 ---
 C L U B E D O S C O N T A D O R E S
@@ -6655,9 +6751,9 @@ história? Porque
 vale a pena?
 
 CLUBE DOS CONTADORES
-71
+72
 
-<!-- page 72 -->
+<!-- page 73 -->
 
 ---
 B A L A N Ç O
@@ -6691,9 +6787,9 @@ usar o conjuntivo e colocar bem o pronome átono
 
 Qual das sete personagens te fez pensar mais sobre ti próprio? Porquê?
 
-Em «O Castelo de Faria», o narrador é participante
+Em «O Castelo de Faria», o narrador é
 
-· não participante
+participante · não participante
 
 **1**
 O recuo ao passado numa narrativa chama-se
@@ -6729,9 +6825,9 @@ uma
 **10**
 
 BALANÇO
-72
+73
 
-<!-- page 73 -->
+<!-- page 74 -->
 
 ---
 G L O S S Á R I O · S O L U Ç Õ E S
@@ -6791,42 +6887,42 @@ pode ficar antes, depois ou no meio do verbo.
 
 **Soluções**
 
-**p. 33 · Aquecimento. Narrador não participante; personagens: o se-**
+**p. 34 · Aquecimento. Narrador não participante; personagens: o se-**
 nhor Abílio (principal) e a rapariga; espaço: a cabine do Cinema Au-
 rora e a casa; tempo: há dez anos / esta semana; ação: fechado e es-
 quecido, o senhor Abílio volta a ter um sentido para a vida. Analepse:
 «Na noite em que o Cinema Aurora fechou, há dez anos».
 
-**p. 41 · Frase complexa. 1. a) S · b) C · c) Sb · d) Sb. 2. a) Quando viram**
+**p. 42 · Frase complexa. 1. a) S · b) C · c) Sb · d) Sb. 2. a) Quando viram**
 as bandeiras, os habitantes fugiram para o castelo. b) Como não es-
 quecia o pai, Gonçalo deixou de ser cavaleiro. c) O filho falou baixo
 porque não queria ser ouvido pelos castelhanos.
 
-**p. 44 · Relativos. a) O violino, que era do Mestre, tinha cordas gastas.**
+**p. 45 · Relativos. a) O violino, que era do Mestre, tinha cordas gastas.**
 b) Carlinhos voltou à vila, onde ninguém se lembrava do Mestre. c) O
 Mestre era um artista cujos aplausos enchiam a sala. 2. Restritiva:
 só alguns vizinhos o esqueceram. Explicativa: todos os vizinhos o
 esqueceram.
 
-**p. 48 · Condicionais e finais. 1. a) F · b) Cd · c) Cd · d) F.**
+**p. 49 · Condicionais e finais. 1. a) F · b) Cd · c) Cd · d) F.**
 
-**p. 51 · Conjuntivo. a) voltemos · b) estivesse · c) vieres · d) façam · e)**
+**p. 52 · Conjuntivo. a) voltemos · b) estivesse · c) vieres · d) façam · e)**
 tivesse.
 
-**p. 59 · Modificadores e formação. 1. a) «o falso professor» A · b) «an-**
+**p. 60 · Modificadores e formação. 1. a) «o falso professor» A · b) «an-**
 tigo», «encadernado em couro» R · c) «desembargador vaidoso» A. 2. a)
 prefixação · b) sufixação · c) composição morfossintática · d) paras-
 síntese · e) composição morfológica.
 
-**p. 65 · Pronomes. a) arrumou-a · b) nunca o largou · c) ofereceram-lhe**
+**p. 66 · Pronomes. a) arrumou-a · b) nunca o largou · c) ofereceram-lhe**
 · d) entregá-lo-á (ou vai entregá-lo). 2. «Ao chegar a Londres», «calma-
 mente», «às oito e quarenta e cinco».
 
-**p. 69 · Tempos. 1. a) imperfeito (descrição) · b) perfeito (ação con-**
+**p. 70 · Tempos. 1. a) imperfeito (descrição) · b) perfeito (ação con-**
 cluída) · c) mais-que-perfeito simples (ação anterior). 2. apareça ·
 durma · desista.
 
-**p. 72 · Balanço. 1 não participante · 2 analepse · 3 temporal · 4 coletiva**
+**p. 73 · Balanço. 1 não participante · 2 analepse · 3 temporal · 4 coletiva**
 · 5 pronome relativo · 6 a união · 7 conjuntivo · 8 ironia · 9 Fogg não o
 consultou · 10 locução prepositiva.
 
@@ -6878,9 +6974,9 @@ Formação: derivação, parassín-
 tese, composição.
 
 GLOSSÁRIO · SOLUÇÕES
-73
+74
 
-<!-- page 74 -->
+<!-- page 75 -->
 
 ---
 U N I D A D E 3
@@ -6909,9 +7005,9 @@ outra?
 Um poema serve para alguma coisa?
 
 UNIDADE 3
-74
+75
 
-<!-- page 75 -->
+<!-- page 76 -->
 
 ---
 P R O G R A M A
@@ -6934,7 +7030,7 @@ Enumeração · anáfora · metá-
 fora · opinião · pleonasmo, hi-
 pérbole, completiva
 
-**p. 79**
+**p. 80**
 
 ## 2
 **O poema pouco original do**
@@ -6948,7 +7044,7 @@ O que diz e o que deixa enten-
 der · recriação em prosa · ad-
 vérbio, sujeito e predicado
 
-**p. 82**
+**p. 83**
 
 ## 3
 **E por vezes**
@@ -6956,7 +7052,7 @@ vérbio, sujeito e predicado
 DAVID MOURÃO-FERREIRA
 O tempo e o amor
 Anáfora · hipérbole · ritmo
-**p. 85**
+**p. 86**
 
 ## 4
 **Trova do vento que passa**
@@ -6965,7 +7061,7 @@ MANUEL ALEGRE
 A liberdade
 Redondilha maior · quadra ·
 rima cruzada
-**p. 86**
+**p. 87**
 
 ## 5
 **Tisanas e poesia visual**
@@ -6977,7 +7073,7 @@ palavra
 
 Poema em prosa · poema
 visual
-**p. 87**
+**p. 88**
 
 ## 6
 **Sísifo**
@@ -6986,7 +7082,7 @@ MIGUEL TORGA
 Recomeçar
 Imperativo · apóstrofe · verso
 livre
-**p. 88**
+**p. 89**
 
 ## 7
 **Tejo que levas as águas**
@@ -6995,7 +7091,7 @@ MANUEL DA FONSECA
 A cidade e a injustiça
 Personificação · redondilha
 maior
-**p. 89**
+**p. 90**
 
 ## 8·9
 **Ser Poeta · Fanatismo**
@@ -7004,28 +7100,28 @@ FLORBELA ESPANCA
 A paixão
 Soneto · decassílabo · esquema
 rimático
-**p. 90**
+**p. 91**
 
 **Oficina do verso**
 
-Estrofe, rima, métrica · p. 76
+Estrofe, rima, métrica · p. 77
 
 **Recursos expressivos**
 
-O guia dos recursos · p. 92
+O guia dos recursos · p. 93
 
 **No fim**
 
-Sarau de poesia · p. 95
+Sarau de poesia · p. 96
 
 Os poemas de Florbela Espanca estão em domínio público e reproduzem-se na íntegra. Dos outros sete poetas, cujas
 obras estão protegidas, citam-se apenas versos breves para fins de ensino: lê cada poema completo na antologia da
 turma ou na biblioteca.
 
 PROGRAMA
-75
+76
 
-<!-- page 76 -->
+<!-- page 77 -->
 
 ---
 O F I C I N A D O V E R S O
@@ -7138,9 +7234,9 @@ Volta às quadras da Unidade 1? Não: procura na tua memória uma canção que s
 uma estrofe, diz quantos versos tem, como se chama e qual é o esquema rimático.
 
 OFICINA DO VERSO
-76
+77
 
-<!-- page 77 -->
+<!-- page 78 -->
 
 ---
 O F I C I N A D O V E R S O
@@ -7288,9 +7384,9 @@ tre
 la
 
 OFICINA DO VERSO
-77
+78
 
-<!-- page 78 -->
+<!-- page 79 -->
 
 ---
 A Q U E C I M E N T O
@@ -7358,9 +7454,9 @@ cada página a virar
 é uma porta que cintila.
 
 AQUECIMENTO
-78
+79
 
-<!-- page 79 -->
+<!-- page 80 -->
 
 ---
 P O E M A 1 · P E D R A F I L O S O F A L
@@ -7423,9 +7519,9 @@ três.
 **5. Explica a metáfora «o sonho comanda a vida».**
 
 POEMA 1 · PEDRA FILOSOFAL
-79
+80
 
-<!-- page 80 -->
+<!-- page 81 -->
 
 ---
 P O E M A 1 · E S C R I T A
@@ -7492,9 +7588,9 @@ Escreve o teu texto (150 a 200 palavras). Título obrigatório.
 ○ 150–200 palavras
 
 POEMA 1 · ESCRITA
-80
+81
 
-<!-- page 81 -->
+<!-- page 82 -->
 
 ---
 P O E M A 1 · G R A M Á T I C A
@@ -7563,9 +7659,9 @@ Escreve duas frases sobre um sonho teu: uma com um pleonasmo expressivo, outra c
 pérbole. Sublinha o recurso.
 
 POEMA 1 · GRAMÁTICA
-81
+82
 
-<!-- page 82 -->
+<!-- page 83 -->
 
 ---
 P O E M A 2 · O ' N E I L L
@@ -7637,9 +7733,9 @@ torna o medo mais assustador?
 crito. Porque é que o medo podia «ter tudo»?
 
 POEMA 2 · O'NEILL
-82
+83
 
-<!-- page 83 -->
+<!-- page 84 -->
 
 ---
 P O E M A 2 · E S C R I T A
@@ -7688,9 +7784,9 @@ e uma personificação.
 ○ 150–200 palavras
 
 POEMA 2 · ESCRITA
-83
+84
 
-<!-- page 84 -->
+<!-- page 85 -->
 
 ---
 P O E M A 2 · G R A M Á T I C A
@@ -7765,9 +7861,9 @@ Acrescenta a cada frase um advérbio de modo e uma locução adverbial de tempo:
 veu. b) As pessoas falavam. c) O vento passa.
 
 POEMA 2 · GRAMÁTICA
-84
+85
 
-<!-- page 85 -->
+<!-- page 86 -->
 
 ---
 P O E M A 3 · E P O R V E Z E S
@@ -7845,9 +7941,9 @@ pausas.
 ORALIDADE
 
 POEMA 3 · E POR VEZES
-85
+86
 
-<!-- page 86 -->
+<!-- page 87 -->
 
 ---
 P O E M A 4 · T R O V A D O V E N T O Q U E P A S S A
@@ -7925,9 +8021,9 @@ nos diz isto sobre o país daquele tempo?
 nimo? Justifica com versos do poema completo.
 
 POEMA 4 · TROVA DO VENTO QUE PASSA
-86
+87
 
-<!-- page 87 -->
+<!-- page 88 -->
 
 ---
 P O E M A 5 · A N A H A T H E R L Y
@@ -7991,9 +8087,9 @@ chuva, voar, medo, sonho). A forma deve
 ajudar o sentido.
 
 POEMA 5 · ANA HATHERLY
-87
+88
 
-<!-- page 88 -->
+<!-- page 89 -->
 
 ---
 P O E M A 6 · S Í S I F O
@@ -8047,9 +8143,9 @@ forma de liberdade? Justifica.
 recomeçar.
 
 POEMA 6 · SÍSIFO
-88
+89
 
-<!-- page 89 -->
+<!-- page 90 -->
 
 ---
 P O E M A 7 · T E J O Q U E L E V A S A S Á G U A S
@@ -8107,9 +8203,9 @@ que peças ao rio da tua terra que leve alguma
 coisa.
 
 POEMA 7 · TEJO QUE LEVAS AS ÁGUAS
-89
+90
 
-<!-- page 90 -->
+<!-- page 91 -->
 
 ---
 P O E M A 8 · S E R P O E T A
@@ -8193,9 +8289,9 @@ E é amar-te, assim, perdidamente…
 E dizê-lo cantando a toda gente!
 
 POEMA 8 · SER POETA
-90
+91
 
-<!-- page 91 -->
+<!-- page 92 -->
 
 ---
 P O E M A 9 · F A N A T I S M O
@@ -8270,9 +8366,9 @@ E, olhos postos em ti, digo de rastros:
 Que tu és como Deus: princípio e fim!…»
 
 POEMA 9 · FANATISMO
-91
+92
 
-<!-- page 92 -->
+<!-- page 93 -->
 
 ---
 R E C U R S O S E X P R E S S I V O S
@@ -8391,9 +8487,9 @@ conselho.
 «Recomeça…» (Torga)
 
 RECURSOS EXPRESSIVOS
-92
+93
 
-<!-- page 93 -->
+<!-- page 94 -->
 
 ---
 E S C R I T A · C O M E N T Á R I O
@@ -8421,7 +8517,7 @@ Como evolui o poema, estrofe a estrofe. Quem fala? A quem?
 **Um recurso e o seu**
 **efeito**
 
-**Identifica, cita, explica o efeito (usa a fórmula da p. 92). Se possível, também a**
+**Identifica, cita, explica o efeito (usa a fórmula da p. 93). Se possível, também a**
 
 forma: estrofes, métrica, rima.
 
@@ -8443,9 +8539,9 @@ Escolhe um dos nove poemas e escreve um comentário (180 a 230 palavras) com o t
 nos, um recurso expressivo explicado.
 
 ESCRITA · COMENTÁRIO
-93
+94
 
-<!-- page 94 -->
+<!-- page 95 -->
 
 ---
 G R A M Á T I C A D O V E R S O
@@ -8525,9 +8621,9 @@ Pontua a estrofe citada de «Tejo que levas as águas» como achares que deve se
 das tuas escolhas.
 
 GRAMÁTICA DO VERSO
-94
+95
 
-<!-- page 95 -->
+<!-- page 96 -->
 
 ---
 S A R A U D E P O E S I A
@@ -8662,9 +8758,9 @@ sivo e o seu efeito,
 em 1 minuto.
 
 SARAU DE POESIA
-95
+96
 
-<!-- page 96 -->
+<!-- page 97 -->
 
 ---
 B A L A N Ç O
@@ -8728,16 +8824,16 @@ nada
 
 «De repente» é uma
 **9**
-«Entrar para dentro» é um pleonasmo expressivo ·
+«Entrar para dentro» é um pleonasmo
 
-vicioso
+expressivo · vicioso
 
 **10**
 
 BALANÇO
-96
+97
 
-<!-- page 97 -->
+<!-- page 98 -->
 
 ---
 G L O S S Á R I O · S O L U Ç Õ E S
@@ -8793,33 +8889,33 @@ Composição de gosto popular, feita para ser cantada.
 
 **Soluções**
 
-**p. 78 · Aquecimento. 1. Quadra 1: ABAB (cruzada) · quadra 2: ABAB (cru-**
+**p. 79 · Aquecimento. 1. Quadra 1: ABAB (cruzada) · quadra 2: ABAB (cru-**
 zada) · quadra 3: ABBA (interpolada). Nenhuma é emparelhada. 2. Ó /
 ve / lho / Ci / ne / ma_Au / ro(ra) = 7 · que_a / pos / sa_um / di / a_a /
 pa / gar = 7.
 
-**p. 81 · Pleonasmo e completivas. 1. a) H · b) E · c) P · d) H. 2. a) que o so-**
+**p. 82 · Pleonasmo e completivas. 1. a) H · b) E · c) P · d) H. 2. a) que o so-**
 nho faz o mundo avançar · b) se Gedeão era mais cientista ou mais
 poeta · c) que íamos ouvir o poema cantado.
 
-**p. 84 · Advérbios, sujeito e predicado. 1. De repente (tempo) · baixinho**
+**p. 85 · Advérbios, sujeito e predicado. 1. De repente (tempo) · baixinho**
 (modo) · às escondidas (modo) · nunca (tempo/negação). 2. a) S: Os vi-
 zinhos · P: desconfiavam uns dos outros · b) sujeito inexistente
 (verbo haver) · P: Nas paredes havia ouvidos · c) S: um homem de
 chapéu · P: Entrou na sala.
 
-**p. 86 · Trova. 1. e_o / ven / to / ca / la_a / des / gra(ça) = 7 · o / ven / to**
+**p. 87 · Trova. 1. e_o / ven / to / ca / la_a / des / gra(ça) = 7 · o / ven / to**
 / na / da / me / diz = 7. 2. ABAB, rima cruzada. 3. Apóstrofe (e personi-
 ficação do vento).
 
-**p. 89 · Tejo. 1. Te / jo / que / le / vas / as / á(guas) = 7 · le / va_as / má /**
+**p. 90 · Tejo. 1. Te / jo / que / le / vas / as / á(guas) = 7 · le / va_as / má /**
 goas / pa / ra_o / mar = 7. 2. ABAB.
 
-**p. 91 · Florbela. 1. 14 versos, 2 quadras + 2 tercetos; ABBA ABBA CCD**
+**p. 92 · Florbela. 1. 14 versos, 2 quadras + 2 tercetos; ABBA ABBA CCD**
 EED. 2. Meus / o / lhos / an / dam / ce / gos / de / te / ver = 10. 3.
 Anáfora.
 
-**p. 96 · Balanço. 1 quadra · 2 cruzada · 3 redondilha maior · 4 sete · 5**
+**p. 97 · Balanço. 1 quadra · 2 cruzada · 3 redondilha maior · 4 sete · 5**
 quadras, tercetos · 6 anáfora · 7 personificação · 8 completiva · 9 lo-
 cução adverbial · 10 vicioso.
 
@@ -8864,9 +8960,3238 @@ Sujeito (quem? o quê?) e predicado.
 Pleonasmo e hipérbole.
 
 GLOSSÁRIO · SOLUÇÕES
-97
+98
 
-<!-- page 98 -->
+<!-- page 99 -->
+
+---
+U N I D A D E 4
+T E X T O D R A M Á T I C O
+## Sobe o pano
+
+Um rei que quer saber qual das filhas o ama mais —
+e não percebe a resposta da mais sincera. Um velho
+alcaide que escolhe as suas últimas palavras. Nesta
+**unidade, o texto deixa de ser só para ler: é para di‐**
+**zer, mostrar e representar. E vais descobrir o que**
+muda quando uma história sai da página e sobe ao
+palco.
+
+**?**
+Como se conta uma história sem narrador?
+
+**?**
+
+Pode uma palavra — «sal» — decidir o destino de um
+reino?
+
+**?**
+O que ganha e o que perde uma história quando vai
+para o teatro?
+
+UNIDADE 4
+99
+
+<!-- page 100 -->
+
+---
+P R O G R A M A
+
+U N I D A D E 4
+O P R O G R A M A
+## Dois textos, um palco
+
+**Antes de começar**
+O mapa do texto dramático · p.
+
+101
+
+**No fim**
+Em cena! · p. 113
+
+**Verificar**
+Balanço e soluções · p. 114
+
+Leandro, rei da Helíria, de Alice Vieira, é uma obra protegida: lê a peça completa na edição da turma; aqui citam-se ape-
+nas falas breves. A adaptação dramática de «O Castelo de Faria» foi escrita para esta unidade, a partir do texto de Her-
+culano (domínio público), que já leste na Unidade 2.
+
+## Leandro, rei da Helíria
+
+Ato, cena, fala, didascálias
+Leitura em papéis e representação de uma
+
+cena
+Temas: o poder e a identidade
+Escrita: resumo da ação e comentário a uma
+
+escolha da personagem
+Gramática: didascálias e discurso das falas ·
+
+frase ativa e passiva
+
+## 1
+
+ALICE VIEIRA · PEÇA EM DOIS ATOS
+
+**p. 103**
+
+## Do Castelo de Faria à cena
+
+Comparar a narrativa com a cena dramatizada
+O que muda quando a narrativa passa a ter fa-
+las e indicações
+
+Escrita: duas cenas a partir de um episódio
+narrativo
+
+Gramática: sujeito, complemento direto, com-
+plemento indireto e modificador
+
+## 2
+
+ALEXANDRE HERCULANO · ADAPTAÇÃO DA PRIME
+
+SCHOOL
+
+**p. 108**
+
+PROGRAMA
+100
+
+<!-- page 101 -->
+
+---
+M A P A D O T E X T O D R A M Á T I C O
+
+U N I D A D E 4
+ED. LITERÁRIA
+R E F E R Ê N C I A
+## O mapa do texto dramático
+
+**Um texto dramático é escrito para ser representado. Não há narrador: a história avança**
+pelas falas das personagens e pelas indicações para quem o põe em cena.
+
+**Texto principal**
+
+**As falas das personagens. Formas:**
+
+**Diálogo — conversa entre personagens.**
+**Monólogo — uma personagem fala sozinha, em**
+
+voz alta.
+**Aparte — fala que só o público ouve (as outras**
+personagens «não ouvem»).
+
+**Texto secundário**
+
+**As didascálias (ou indicações cénicas): em itálico,**
+muitas vezes entre parênteses. Dizem:
+
+onde e quando (cenário, luz, som);
+
+quem entra e quem sai;
+como se fala e se move (tom, gestos,
+
+expressão).
+
+A E S T R U T U R A E X T E R N A
+
+**Ato**
+
+Grande divisão da peça; muitas
+
+vezes, muda o tempo ou o lugar.
+
+Marca-se com a descida do pano.
+
+**Cena**
+
+Divisão do ato; muda quando en-
+
+tra ou sai uma personagem.
+
+**Quadro**
+
+Divisão marcada por uma mu-
+
+dança de cenário.
+
+A E S T R U T U R A I N T E R N A
+
+**Exposição**
+
+Apresentação das personagens e
+
+da situação.
+
+**Conflito**
+
+O problema cresce até ao clímax.
+
+**Desenlace**
+
+A resolução do conflito.
+
+Q U E M F A Z O E S P E T Á C U L O
+
+**Encenador dirige tudo**
+**Atores dão corpo às personagens**
+**Cenógrafo cenário**
+
+**Figurinista guarda-roupa**
+**Luminotécnico luz**
+**Sonoplasta som e música**
+
+**Ponto sopra as falas esquecidas**
+
+E X E M P L O A N O T A D O · O C A S T E L O D E F A R I A , C E N A I ( P . 1 0 8 )
+
+(Saem SARMENTO e o SOLDADO. NUNO fica só. A luz da fogueira desce até lhe iluminar apenas o rosto.)
+
+NUNO (À parte, para o público.) Amanhã, meu filho, vais ouvir a voz de teu pai pela última vez.
+
+1
+**didascália de saída: muda a cena**
+2
+**didascália de luz: trabalho do luminotécnico**
+
+3
+**nome da personagem antes da fala**
+4
+**didascália de tom: é um aparte**
+
+## 1
+
+Explica, por palavras tuas, a diferença entre um monólogo e um aparte. Porque é que o público gosta
+de saber coisas que as personagens não sabem?
+
+MAPA DO TEXTO DRAMÁTICO
+101
+
+<!-- page 102 -->
+
+---
+A Q U E C I M E N T O
+
+A Q U E C I M E N T O
+1 5 M I N U T O S · A T R Ê S
+## Uma cena na bilheteira
+
+(Bilheteira do Cinema Aurora, em Vila Nova do Farol. Fim de tarde. Chove. Atrás do vidro, D. ROSA faz pala-
+vras cruzadas. Entra TIAGO, 13 anos, a correr, encharcado.)
+
+TIAGO Um bilhete para as sete, se faz favor!
+
+D. ROSA (Sem levantar os olhos.) Esgotado.
+
+TIAGO Esgotado? Mas é a estreia de O Farol das Baleias! Esperei um mês!
+
+D. ROSA Por isso mesmo. (Pausa. Olha-o por cima dos óculos.) Vieste sozinho?
+
+TIAGO (À parte.) Se lhe digo que fugi aos trabalhos de casa, estou feito.
+
+D. ROSA Então?
+
+TIAGO Vim com… com a minha avó. Está a estacionar.
+
+(Entra a AVÓ, de guarda-chuva, a sacudir a água.)
+
+AVÓ Tiago! Pensava que estavas a estudar!
+
+(D. ROSA ri-se, tira dois bilhetes da gaveta e empurra-os por baixo do vidro.)
+
+D. ROSA Guardei-os ontem. Sabia que vinhas. (Para a AVÓ.) A senhora também, não é, Graça? Uma
+sessão destas não se perde.
+
+(Escuro.)
+
+## 1
+
+Sublinha a azul as falas e a amarelo as didascálias. Encontra um aparte: o que tem de especial?
+
+## 2
+
+Quantas cenas tem este excerto, se contarmos uma nova cena sempre que entra ou sai uma persona-
+gem? Justifica.
+
+## 3
+
+Leiam a cena em voz alta, a três. Depois, mudem uma didascália (por exemplo, o tom de D. Rosa) e vol-
+tem a ler. O que muda?
+ORALIDADE
+
+## 4
+
+Escreve a cena seguinte (4 a 6 falas): Tiago e a Avó à entrada da sala. Usa pelo menos duas didascálias.
+
+DESAFIO
+
+AQUECIMENTO
+102
+
+<!-- page 103 -->
+
+---
+L E I T U R A 1 · L E A N D R O , R E I D A H E L Í R I A
+
+L E I T U R A 1
+ED. LITERÁRIA
+A N T E S D E L E R · L Ê A P E Ç A C O M P L E T A N A E D I Ç Ã O D A T U R M A
+## Leandro, rei da Helíria
+
+ALICE VIEIRA · TEATRO · DOIS ATOS, ONZE CENAS CADA
+
+**A AUTORA**
+
+**Alice Vieira (n. 1943), lisboeta, jornalista e escritora, é**
+uma das autoras mais lidas pelos jovens portugue-
+
+ses. Escreveu romances, poesia, contos e teatro.
+
+**A HISTÓRIA POR TRÁS DA HISTÓRIA**
+
+A peça parte de um conto popular — o do rei que per-
+gunta às filhas quanto gostam dele e expulsa a que
+responde «como a comida gosta do sal». É a mesma
+história que Shakespeare transformou em tragédia,
+O Rei Lear. Alice Vieira fê-la acabar de outra maneira.
+
+Estranho sonho tive esta noite…
+
+Leandro · 1.º ato, cena I
+
+Os sonhos são recados dos deuses.
+
+1.º ato, cena I
+
+**AS PERSONAGENS**
+
+**Leandro**
+rei da Helíria, velho e cansado;
+um sonho inquieta-o
+
+**O Bobo**
+o bobo da corte: faz rir, mas é
+quem diz as verdades
+
+**Amarílis**
+a filha mais velha
+
+**Hortênsia**
+a filha do meio
+
+**Violeta**
+a filha mais nova
+
+**Os**
+**pretendentes**
+
+os príncipes que querem casar
+com as princesas
+
+**O Pastor**
+um homem simples que o rei en-
+contra no caminho
+
+## 1
+
+Lê a lista de personagens da tua edição.
+Pelo nome e pela descrição, qual te parece
+que vai ser a mais importante? E a mais
+divertida?
+
+LEITURA 1 · LEANDRO, REI DA HELÍRIA
+103
+
+<!-- page 104 -->
+
+---
+L E I T U R A 1 · L E A N D R O , R E I D A H E L Í R I A
+
+L E I T U R A 1
+LEITURA
+G U I Ã O D E L E I T U R A P O R A T O S
+## O rei, as filhas e o sal
+
+## 1.º ato
+
+1. Cena I: onde se passa? Que didascália o in-
+dica? O que preocupa o rei?
+
+2. Porque é que o Bobo se queixa da vida que
+leva? O que pensa dos ricos e dos pobres?
+
+3. Que decisão toma o rei sobre o reino? Que
+prova pede às filhas?
+
+4. Compara as respostas de Amarílis e Hortên-
+sia com a de Violeta. Porque é que o rei se
+zanga?
+
+5. O que acontece a Violeta no fim do 1.º ato?
+
+## 2.º ato
+
+6. Como tratam as filhas mais velhas o pai, de-
+pois de receberem o reino? Dá um exemplo.
+
+7. Que papel tem o Pastor na viagem do rei?
+
+8. Na cena XI, Violeta serve ao pai pratos sem
+sal. Porquê? O que percebe finalmente
+Leandro?
+
+9. Que diferença há entre o final desta peça e o
+de O Rei Lear, que é uma tragédia?
+
+Como fui louco! E tanto que eu vos
+
+amava!
+
+Leandro · 2.º ato, cena XI
+
+✎
+
+Escolhe a cena que achaste mais importante em cada ato e explica porquê, numa frase para cada uma.
+
+Exposição
+1.º ato, cenas I–VI
+Conflito
+1.º ato, cena VII → 2.º ato, cena VIII
+Desenlace
+2.º ato, cenas IX–XI
+
+LEITURA 1 · LEANDRO, REI DA HELÍRIA
+104
+
+<!-- page 105 -->
+
+---
+L E I T U R A 1 · L E A N D R O , R E I D A H E L Í R I A
+
+L E I T U R A 1
+ED. LITERÁRIA
+ORALIDADE
+P O D E R E I D E N T I D A D E · L E I T U R A E M P A P É I S
+## Quem és tu, sem coroa?
+
+**O poder**
+
+O rei tem tudo e decide tudo. Mas
+decide mal: confunde palavras
+bonitas com amor verdadeiro.
+Quando entrega o poder, desco-
+bre como o tratam os que o
+bajulavam.
+
+**A identidade**
+
+Sem reino, Leandro é um velho
+errante. Quem é ele, então? O
+que fica de uma pessoa quando
+lhe tiram o título, a casa, o poder?
+
+**A verdade**
+
+O Bobo e Violeta dizem a ver-
+dade — um a rir, a outra a sério.
+Os dois são castigados por isso.
+Porque é tão difícil ouvir a
+verdade?
+
+1. No início, Leandro é rei. No fim, é pai. Explica esta frase com dois momentos da peça.
+
+2. «Gosto de vós como a comida gosta do sal.» Porque é que esta é a resposta mais sincera? Porque é que o
+rei não a entende?
+
+3. O Bobo é a personagem mais inteligente da peça? Justifica.
+DESAFIO
+
+L E I T U R A E M P A P É I S · C O M O P R E P A R A R
+
+**1**
+Em grupos, escolham uma cena curta (por exemplo, a das respostas das filhas).
+
+**2**
+**Distribuam as personagens e um leitor das didascálias.**
+
+**3**
+Marquem no texto: palavras a realçar, pausas (/), tom (irónico, zangado, doce…).
+
+**4**
+**Ensaiem duas vezes. Na segunda, os atores já não leem as didascálias: fazem-nas.**
+
+**5**
+Apresentem à turma. Os colegas dizem uma coisa que resultou e uma a melhorar.
+
+LEITURA 1 · LEANDRO, REI DA HELÍRIA
+105
+
+<!-- page 106 -->
+
+---
+L E I T U R A 1 · E S C R I T A
+
+L E I T U R A 1
+ESCRITA
+R E S U M O D A A Ç Ã O · C O M E N T Á R I O A U M A E S C O L H A
+## O que aconteceu e porquê
+
+**Resumo da ação**
+
+Um parágrafo por grande momento (exposição, con-
+flito, desenlace). 3.ª pessoa, presente do indicativo,
+sem falas copiadas. 100 a 130 palavras.
+
+**Comentário a uma escolha**
+
+Escolhe uma decisão de uma personagem. Explica-a,
+avalia-a com argumentos e diz o que farias no seu
+lugar. 120 a 160 palavras.
+
+## 1
+
+Resume a ação de Leandro, rei da Helíria.
+
+E S C O L H E U M A D E C I S Ã O P A R A C O M E N T A R
+
+Leandro expulsa Violeta
+Violeta diz «como a comida gosta do sal»
+
+As filhas mais velhas fecham a porta ao pai
+O Bobo acompanha o rei
+Violeta serve pratos sem sal
+
+## 2
+
+Escreve o comentário: tese (a decisão foi certa ou errada?), dois argumentos com exemplos da peça,
+conclusão.
+
+LEITURA 1 · ESCRITA
+106
+
+<!-- page 107 -->
+
+---
+L E I T U R A 1 · G R A M Á T I C A
+
+L E I T U R A 1
+GRAMÁTICA
+D I D A S C Á L I A S E D I S C U R S O D A S F A L A S · F R A S E A T I V A E P A S S I V A
+## Quem fala, como fala
+
+**A língua das didascálias**
+
+Frases curtas, muitas vezes sem verbo; presente do
+indicativo; 3.ª pessoa; informação objetiva.
+
+(No jardim do palácio. Entra o Bobo, a correr. To-
+cam as trombetas.)
+
+**A língua das falas**
+
+1.ª e 2.ª pessoas (eu, tu, vós); frases exclamativas e in-
+terrogativas; vocativos; interjeições; registo que de-
+pende da personagem.
+
+Ai, Senhor! Então não vedes que vos mentem?
+
+## 1
+
+Transforma este pequeno texto narrativo numa fala com didascália: «O rei, furioso, levantou-se do
+trono e gritou à filha mais nova que saísse do palácio e nunca mais voltasse.»
+
+## 2
+
+Faz o contrário: transforma em narração (3.ª pessoa, pretérito perfeito): VIOLETA (Baixando os olhos.)
+Gosto de vós, meu pai, como a comida gosta do sal.
+
+**Revisão · frase ativa e passiva**
+(Unidade 1)
+Ativa: O rei expulsou Violeta.
+
+Passiva: Violeta foi expulsa pelo rei.
+
+## 3
+
+Passa à passiva: a) As filhas receberam o reino. b) O Pastor acolheu o rei. c) Violeta preparará o ban-
+quete. Passa à ativa: d) O rei foi reconhecido pelo Bobo.
+
+## 4
+
+Porque é que, numa didascália, se escreve «Tocam as trombetas» e não «As trombetas são tocadas pe-
+los músicos»?
+DESAFIO
+
+LEITURA 1 · GRAMÁTICA
+107
+
+<!-- page 108 -->
+
+---
+L E I T U R A 2 · O C A S T E L O D E F A R I A E M C E N A
+
+L E I T U R A 2
+LEITURA
+ORALIDADE
+A D A P T A Ç Ã O D R A M Á T I C A
+## O Castelo de Faria
+
+C E N A S A P A R T I R D E A L E X A N D R E H E R C U L A N O · A D A P T A Ç Ã O D A P R I M E S C H O O L
+
+PERSONAGENS
+NUNO GONÇALVES, alcaide de Faria, velho · GONÇALO NUNES, seu
+filho · PEDRO RODRÍGUEZ SARMENTO, Adiantado da Galiza · O
+ARAUTO · O ALMOCADÉM castelhano · SOLDADOS · BESTEIROS · O
+POVO (vozes)
+
+LUGAR E TEMPO
+Minho, século XIV, durante a guerra en-
+tre D. Fernando de Portugal e Castela.
+
+C E N A I
+C E N A I I
+
+(Acampamento castelhano, no sopé do monte da Fran-
+queira. É noite. Uma fogueira ilumina a tenda do Adi-
+antado. Ao fundo, recortado contra o céu, o castelo de
+Faria. NUNO GONÇALVES, velho, de mãos atadas, está
+sentado num tronco. Entra PEDRO RODRÍGUEZ
+SARMENTO, Adiantado da Galiza, seguido de um
+SOLDADO.)
+
+SARMENTO Então, velho? Dizem-me que queres fa‐
+
+lar comigo. Vens pedir clemência?
+
+NUNO Venho oferecer-vos um castelo, senhor
+
+Adiantado.
+
+SARMENTO (Ri-se.) Um prisioneiro a oferecer caste‐
+los! E qual?
+
+NUNO (Aponta para o fundo.) Aquele. O de Faria. Go‐
+verna-o meu filho, Gonçalo Nunes, que me quer
+
+mais do que às pedras que guarda.
+
+SARMENTO E porque havia ele de o entregar?
+
+NUNO Porque, se me vir em ferros ao pé da bar‐
+bacã, e se eu lho pedir, não terá coragem de deixar
+
+morrer o pai. Levai-me lá amanhã. Falarei com ele.
+Sem uma gota de sangue, o castelo será vosso.
+
+SARMENTO (Desconfiado, anda à volta dele.) És
+muito generoso para um português.
+
+NUNO Sou velho, senhor. Os velhos querem morrer
+
+na cama.
+
+SARMENTO Seja. Ao nascer do sol, subimos o monte.
+
+(Ao SOLDADO.) Que não lhe falte nada esta noite.
+Nem ele fuja.
+
+(Saem SARMENTO e o SOLDADO. NUNO fica só. A luz
+da fogueira desce até lhe iluminar apenas o rosto.)
+
+NUNO (À parte, para o público.) Amanhã, meu filho,
+vais ouvir a voz de teu pai pela última vez. E hás de
+
+fazer-me a vontade.
+
+(Escuro.)
+
+(Diante da barbacã do castelo de Faria. Manhã. No
+alto das ameias, BESTEIROS com as bestas apontadas.
+No terreiro, atrás da cerca, ouve-se o POVO: choro de
+crianças, murmúrios. Entram, pela esquerda, o
+ARAUTO, o ALMOCADÉM e SOLDADOS castelhanos,
+trazendo NUNO GONÇALVES no meio deles. Pela di-
+reita, sobre o muro, aparece GONÇALO NUNES.)
+
+ARAUTO (Avança sozinho, com a bandeira erguida.)
+
+Moço alcaide, moço alcaide! Teu pai, cativo do mui
+nobre Pedro Rodríguez Sarmento, deseja falar
+contigo de fora de teu castelo!
+
+(As bestas inclinam-se para o chão. Silêncio total.)
+
+GONÇALO A Virgem proteja meu pai. Dizei-lhe que
+
+eu o espero.
+
+(O ARAUTO recua. NUNO dá dois passos em frente, so-
+zinho, e ergue a cabeça.)
+
+NUNO Sabes tu, Gonçalo Nunes, de quem é esse
+
+castelo que entreguei à tua guarda?
+
+GONÇALO É de nosso rei e senhor, D. Fernando de
+Portugal, a quem fizestes preito e menagem.
+
+NUNO E sabes tu que o dever de um leal alcaide é
+nunca o entregar a inimigos, embora fique enter‐
+
+rado debaixo das suas ruínas?
+
+GONÇALO (Em voz baixa, inclinado sobre o muro.)
+Sei, meu pai. Mas não vedes que a vossa morte é
+certa, se eles percebem o que me aconselhais?
+
+(Os SOLDADOS castelhanos começam a murmurar. O
+ALMOCADÉM leva a mão à espada.)
+
+NUNO (Gritando, para que todos ouçam.) Pois, se o
+sabes, cumpre o teu dever, alcaide do castelo de
+
+Faria! Maldito sejas tu, se os que me cercam entra‐
+rem nesse castelo sem tropeçarem no teu cadáver!
+
+ALMOCADÉM Traição! Morra! Morra o que nos
+
+enganou!
+
+LEITURA 2 · O CASTELO DE FARIA EM CENA
+108
+
+<!-- page 109 -->
+
+---
+L E I T U R A 2 · O C A S T E L O D E F A R I A E M C E N A
+
+C E N A I I I · E P Í L O G O
+
+C A D E R N O D O E N C E N A D O R
+
+CENA
+
+CENÁRIO
+
+LUZ
+
+SOM
+
+ADEREÇOS
+
+FIGURINOS
+
+MOMENTO-CHAVE
+
+PORQUÊ
+
+P A R A D I Z E R B E M
+
+(Os SOLDADOS lançam-se sobre NUNO. Ele cai. A luz
+fixa-se nele.)
+
+NUNO (Num fio de voz.) Defende-te… alcaide!
+
+GONÇALO (Desesperado, a correr ao longo do muro.)
+
+Pai! Pai! (Voltando-se para os BESTEIROS.) Dispa‐
+rai! Disparai!
+
+(Uma nuvem de setas. Gritos. O ruído do combate
+cresce e, de repente, corta-se. Escuro.)
+
+(Anos depois. Uma pequena igreja, ao pé do monte. Luz
+de velas. GONÇALO NUNES, com vestes de padre, reza
+sozinho diante do altar.)
+
+GONÇALO Defendi o castelo, meu pai. Levantaram o
+
+cerco; el-rei louvou-me; os homens chamam-me
+herói. E, no entanto, todas as noites ouço a vossa
+voz: «Defende-te, alcaide!». Deixei a espada ao pé
+
+deste altar. É com orações que vos pago o que vos
+devo. (Pausa. Olha para o público.) Do castelo, já
+
+não resta pedra sobre pedra. Mas enquanto alguém
+contar esta história, meu pai não morreu em vão.
+
+(A luz das velas apaga-se devagar. Pano.)
+
+Adaptação da Prime School a partir de «O Castelo de Faria», de Ale-
+
+xandre Herculano (Lendas e Narrativas, 1851). Algumas falas seguem
+
+de perto o texto original (Unidade 2).
+
+Escolhe uma cena e prepara-a como se fosses
+pô-la em palco.
+
+**Nuno, na cena II, começa calmo e acaba a gri‐**
+**tar: marca no texto onde a voz sobe. Gonçalo**
+fala «em voz baixa» — o público tem de o ouvir
+**na mesma. Como? O Arauto fala com soleni‐**
+dade: é a voz oficial do inimigo.
+
+LEITURA 2 · O CASTELO DE FARIA EM CENA
+109
+
+<!-- page 110 -->
+
+---
+L E I T U R A 2 · C O M P A R A R
+
+L E I T U R A 2
+ED. LITERÁRIA
+D A N A R R A T I V A À C E N A
+## O que muda no palco?
+
+NA NARRATIVA (HERCULANO, UNIDADE 2)
+NA CENA DRAMATIZADA
+
+**Quem conta**
+um narrador não participante, que comenta
+
+**O lugar**
+descrito ao longo de seis parágrafos
+
+**As personagens**
+caracterizadas pelo narrador
+
+**O que pensam**
+o narrador diz-nos
+
+**O tempo**
+séculos de história, do castelo ao convento
+
+**O final**
+o narrador tira a lição
+
+1. A cena I não existe em Herculano (lá, o ardil é contado num parágrafo). Porque é que o adaptador a
+inventou?
+
+**2. Encontra o aparte da cena I e o monólogo da cena III. Que informação dão ao público que as outras per-**
+sonagens não sabem?
+
+3. O narrador de Herculano descreve o incêndio do terreiro. Na cena II, como se mostra o combate? Que pro-
+fissionais do espetáculo tornam isso possível?
+
+4. Qual das versões te emocionou mais? Justifica com um momento de cada.
+DESAFIO
+
+LEITURA 2 · COMPARAR
+110
+
+<!-- page 111 -->
+
+---
+L E I T U R A 2 · E S C R I T A
+
+L E I T U R A 2
+ESCRITA
+D U A S C E N A S A P A R T I R D E U M E P I S Ó D I O N A R R A T I V O
+## A tua vez de adaptar
+
+**Escolhe um episódio de uma das narrativas da Unidade 2 e transforma-o em duas cenas,**
+com título, lista de personagens, didascálias e falas.
+
+E P I S Ó D I O S P O S S Í V E I S
+
+O pai e os sete vimes (Trindade Coelho)
+Castelo conhece o Barão (Lima Barreto)
+
+A aposta no Reform Club (Verne)
+O senhor Otis e o fantasma (Wilde)
+
+## 1
+
+Escreve as tuas duas cenas (250 a 350 palavras no total). Continua no caderno, se precisares.
+
+TÍTULO
+
+PERSONAGENS
+
+CENA I
+
+**Revê**
+○ título e personagens
+○ duas cenas bem marcadas
+○ didascálias de lugar, entradas e tom
+
+○ nome da personagem antes de cada fala
+○ 250–350 palavras
+
+**CortaEscolhe só os momentos que se podem**
+mostrar. O resto passa para as didascálias ou
+desaparece.
+## 1
+**DivideDuas cenas: muda de cena quando entra**
+ou sai uma personagem, ou quando muda o
+lugar.
+## 2
+
+**Dá vozO que o narrador dizia passa a ser dito**
+pelas personagens (ou mostrado).
+## 3
+**EncenaDidascálias de cenário, luz, som, entradas,**
+saídas, tom e gestos.
+## 4
+
+LEITURA 2 · ESCRITA
+111
+
+<!-- page 112 -->
+
+---
+L E I T U R A 2 · G R A M Á T I C A
+
+L E I T U R A 2
+GRAMÁTICA
+
+S U J E I T O · C O M P L E M E N T O D I R E T O · C O M P L E M E N T O I N D I R E T O · M O D I F I C A D O R
+## Quem faz o quê, a quem
+
+**Sujeito**
+
+quem pratica a ação ou
+de quem se fala
+
+Pergunta: quem? o quê? (an-
+
+tes do verbo)
+
+**Complemento**
+**direto**
+
+completa o verbo sem
+preposição; substitui-se
+por o, a, os, as
+
+Pergunta: o quê? quem?
+
+**Complemento**
+**indireto**
+
+o destinatário da ação;
+com a; substitui-se por
+lhe, lhes
+
+Pergunta: a quem?
+
+**Modificador**
+
+acrescenta informação
+(tempo, lugar, modo,
+causa…); pode sair da
+frase
+
+Pergunta: quando? onde?
+
+como?
+
+O arauto entregou a mensagem ao moço alcaide nessa manhã .
+
+SUJEITO
+VERBO
+CD
+CI
+MODIFICADOR
+
+## 1 Identifica as funções sintáticas sublinhando com as cores do quadro.
+
+a. Nuno Gonçalves ofereceu o castelo ao Adiantado.
+
+b. Na manhã seguinte, os soldados levaram o velho até à barbacã.
+
+c. Gonçalo respondeu ao pai em voz baixa.
+
+d. O rei deu o reino às duas filhas mais velhas.
+
+e. Violeta serviu ao pai pratos sem sal.
+
+## 2
+
+Substitui o CD e o CI por pronomes: a) O Bobo contou a verdade ao rei. b) Os besteiros apontaram as
+bestas aos castelhanos.
+
+## 3
+
+Escreve uma frase sobre uma das peças com sujeito, CD, CI e dois modificadores. Identifica cada
+função.
+
+## 4
+
+Numa fala, o CD e o CI aparecem muitas vezes como pronomes. Identifica-os: NUNO Dizei-lhe que eu o
+espero. · SARMENTO Que não lhe falte nada esta noite. · VIOLETA Eu dou-vos o meu amor.
+
+## 5
+
+Retira os modificadores e reescreve a frase: «Na manhã seguinte, junto à barbacã, o velho falou ao fi-
+lho em voz alta.» Que informação se perdeu? A frase continua correta?
+
+LEITURA 2 · GRAMÁTICA
+112
+
+<!-- page 113 -->
+
+---
+E M C E N A !
+
+P R O J E T O
+ORALIDADE
+E M G R U P O · 2 S E M A N A S
+## Em cena!
+
+O Cinema Aurora vai, pela primeira vez, abrir o palco ao teatro. Cada grupo apresenta uma
+cena de 5 a 8 minutos: uma cena de Leandro, rei da Helíria, a adaptação de «O Castelo de Fa‐
+ria», ou as duas cenas que escreveram.
+
+01
+
+**Escolher**
+
+02
+
+**Ler à mesa**
+
+03
+
+**Preparar**
+
+04
+
+**Ensaiar**
+
+05
+
+**Estrear**
+
+FUNÇÃO
+QUEM
+O QUE VAI FAZER
+
+Encenador
+
+Atores
+
+Cenário e adereços
+
+Luz e som
+
+CRITÉRIO
+EM CONSTRUÇÃO
+CONSOLIDADO
+EXCELENTE
+
+**Interpretação**
+falas ditas sem intenção
+tom adequado às
+personagens
+
+personagens vivas: voz, corpo e
+olhar
+
+**Didascálias**
+poucas indicações
+respeitadas
+
+entradas, saídas e tom
+respeitados
+
+didascálias transformadas em ação
+expressiva
+
+**Memorização**
+leitura
+de cor, com hesitações
+de cor e fluido
+
+**Encenação**
+sem cenário nem som
+elementos simples e
+coerentes
+
+soluções criativas de cenário, luz ou
+som
+
+**Trabalho de**
+**grupo**
+
+participação desigual
+todos contribuem
+equipa coordenada, papéis claros
+
+**Depois da estreia O que aprendeste sobre o texto dramático ao representá-lo que não tinhas percebido ao**
+lê-lo?
+
+A cena e os papéis:
+atores, encenador,
+cenógrafo, luz e
+som.
+
+Leitura em papéis,
+marcações no
+texto, discussão
+das personagens.
+
+Cenário simples,
+adereços, figurinos,
+música e ruídos.
+
+De cor, com movi-
+mento, entradas e
+saídas.
+
+A apresentação e
+uma conversa com
+o público.
+
+EM CENA!
+113
+
+<!-- page 114 -->
+
+---
+B A L A N Ç O
+
+B A L A N Ç O
+U N I D A D E 4
+## Dez perguntas de bastidores
+
+C o n s i g o … a i n d a n ã o q u a s e s i m !
+
+distinguir texto principal e texto secundário
+
+identificar ato, cena, diálogo, monólogo e aparte
+
+explicar o tema do poder e da identidade em Leandro
+
+ler uma cena em papéis, com expressividade
+
+comparar uma narrativa com a sua adaptação dramática
+
+escrever cenas com falas e didascálias
+
+identificar sujeito, CD, CI e modificador
+
+✎
+
+Que personagem de teatro gostavas de representar? Porquê?
+
+As indicações para a representação chamam-se
+**1**
+O texto das falas é o texto principal · secundário
+**2**
+
+Fala que só o público ouve:
+**3**
+Uma personagem sozinha, a falar em voz alta:
+**4**
+
+Muda-se de cena quando
+**5**
+Quem cuida da luz do espetáculo é o
+**6**
+
+Violeta compara o seu amor ao
+**7**
+Em «O rei deu o reino às filhas», «às filhas» é
+**8**
+
+Em «O arauto falou ao alcaide nessa manhã»,
+«nessa manhã» é
+
+**9**
+Passa à passiva: «O Bobo reconheceu Violeta.»
+**10**
+
+BALANÇO
+114
+
+<!-- page 115 -->
+
+---
+G L O S S Á R I O · S O L U Ç Õ E S
+
+**Glossário**
+
+**Aparte**
+Fala dirigida ao público, que as outras personagens
+não ouvem.
+
+**Ato**
+Grande divisão de uma peça de teatro.
+
+**Cena**
+Divisão de um ato; muda com a entrada ou saída de
+personagens.
+
+**Didascália**
+Indicação cénica: cenário, luz, som, movimentos, tom.
+
+**Diálogo**
+Troca de falas entre personagens.
+
+**Encenador**
+Quem dirige o espetáculo.
+
+**Exposição · conflito · desenlace**
+Os três momentos da estrutura interna da ação.
+
+**Figurinista**
+Quem desenha o guarda-roupa.
+
+**Luminotécnico · sonoplasta**
+Responsáveis pela luz e pelo som.
+
+**Quadro**
+Divisão da peça marcada por mudança de cenário.
+
+**Monólogo**
+Fala de uma personagem sozinha em cena.
+
+**Texto principal**
+O conjunto das falas.
+
+**Texto secundário**
+O conjunto das didascálias.
+
+**Complemento direto**
+Completa o verbo sem preposição; o, a, os, as.
+
+**Complemento indireto**
+Destinatário da ação; lhe, lhes.
+
+**Modificador**
+Informação acessória sobre a ação.
+
+**Soluções**
+
+**p. 102 · Aquecimento. 1. Aparte: «Se lhe digo que fugi aos trabalhos de**
+casa, estou feito.» — só o público o ouve. 2. Duas cenas: a entrada da
+Avó abre uma nova cena.
+
+**p. 107 · Falas e passiva. 1. Exemplo: LEANDRO (Levantando-se do trono,**
+furioso.) Sai do meu palácio e não voltes nunca mais! 2. Exemplo: Vi-
+oleta baixou os olhos e disse ao pai que gostava dele como a comida
+gosta do sal. 3. a) O reino foi recebido pelas filhas. b) O rei foi aco-
+lhido pelo Pastor. c) O banquete será preparado por Violeta. d) O Bobo
+reconheceu o rei. 4. As didascálias são curtas e objetivas; o agente
+não interessa.
+
+**p. 112 · Funções sintáticas. 1. a) S: Nuno Gonçalves · CD: o castelo · CI:**
+ao Adiantado. b) Mod: Na manhã seguinte · S: os soldados · CD: o ve-
+lho · Mod: até à barbacã. c) S: Gonçalo · CI: ao pai · Mod: em voz baixa.
+d) S: O rei · CD: o reino · CI: às duas filhas mais velhas. e) S: Violeta ·
+CI: ao pai · CD: pratos sem sal. 2. a) O Bobo contou-lha. b) Os bestei-
+ros apontaram-lhas.
+
+**p. 112 · 4 e 5. 4. lhe (CI) e o (CD) · lhe (CI) · vos (CI) e o meu amor (CD). 5.**
+«O velho falou ao filho.» Perdem-se o tempo, o lugar e o modo; a frase
+continua correta, porque os modificadores não são obrigatórios.
+
+**p. 110 · Comparar. Na cena: não há narrador; o lugar está nas didascá-**
+lias; as personagens mostram-se pelo que dizem e fazem; o que pen-
+sam diz-se em apartes e monólogos; o tempo é concentrado em três
+momentos; o final é um monólogo, sem lição explícita.
+
+**p. 114 · Balanço. 1 didascálias · 2 principal · 3 aparte · 4 monólogo · 5**
+entra ou sai uma personagem · 6 luminotécnico · 7 sal · 8 comple-
+mento indireto · 9 modificador · 10 Violeta foi reconhecida pelo Bobo.
+
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
+
+**O texto dramático**
+
+Texto principal (falas) e secundário
+(didascálias).
+
+Diálogo, monólogo, aparte.
+
+Ato, cena, quadro. Exposição, con-
+flito, desenlace.
+
+**Da página ao palco**
+
+Sem narrador: o que se pensa diz-
+se ou mostra-se.
+
+Encenador, atores, cenógrafo, figu-
+rinista, luminotécnico, sonoplasta.
+
+Adaptar: cortar, dividir, dar voz,
+encenar.
+
+**Gramática**
+
+Sujeito · CD (o, a) · CI (lhe) ·
+modificador.
+
+Didascálias: frases curtas, pre-
+sente, 3.ª pessoa.
+
+Falas: 1.ª/2.ª pessoa, exclamações,
+vocativos.
+
+Ativa e passiva (revisão).
+
+GLOSSÁRIO · SOLUÇÕES
+115
+
+<!-- page 116 -->
+
+---
+U N I D A D E 5
+R E V I S Õ E S A N U A I S
+## Sessão de
+encerramento
+
+Última noite do ano no Cinema Aurora. Na praça,
+cinco bancas iluminadas esperam por ti — um anún‐
+cio, uma crítica, um conto, um soneto e uma cena.
+Nenhum destes textos é conhecido: vais lê-los pela
+primeira vez, com tudo o que aprendeste desde se‐
+tembro. Depois, dois circuitos de gramática, um
+teste de treino e uma conversa contigo próprio so‐
+bre o leitor que és agora.
+
+**?**
+O que sabes fazer hoje que não sabias em setembro?
+
+**?**
+Consegues ler um texto novo sem ajuda — e explicar
+como funciona?
+
+**?**
+Qual foi o texto do ano que vais levar contigo?
+
+UNIDADE 5
+116
+
+<!-- page 117 -->
+
+---
+P R O G R A M A
+
+U N I D A D E 5
+O C I R C U I T O D A Ú L T I M A N O I T E
+## Cinco bancas, um ano inteiro
+
+**Cada banca revê uma unidade com um texto novo. Trabalha a pares; em cada banca tens**
+uma página de leitura e uma de oficina. Quando acabares uma banca, pede ao teu professor
+um carimbo no passaporte (p. 135).
+
+**Antes das bancas**
+
+O mapa do ano · p. 118
+
+**Circuitos de gramática**
+
+Frase e verbo · frase complexa e funções · p. 131
+
+**Teste de treino**
+
+Prova mista, como nos testes · p. 133
+
+**No fim**
+
+O leitor que és agora · p. 135
+
+E M T R Ê S A U L A S
+
+**Aula 1**
+
+Mapa do ano · bancas 1 e 2
+
+**Aula 2**
+
+Bancas 3, 4 e 5
+
+**Aula 3**
+
+Circuitos de gramática · teste de
+
+treino · reflexão
+
+C O M O T R A B A L H A R N U M A B A N C A
+
+**1**
+**Lê o texto duas vezes: a primeira, de seguida; a segunda, a sublinhar.**
+
+**2**
+**Responde sem voltar às unidades. Só depois consultas o mapa do ano.**
+
+**3**
+**Corrige com as soluções (p. 136) e regista o que falhaste.**
+
+**4**
+**Volta à página da unidade indicada para rever o que não sabias.**
+
+**Publici‐**
+**dade**
+
+**p. 120**
+
+## 1
+
+Um anúncio de
+bicicletas
+
+**Crítica**
+
+**p. 122**
+
+## 2
+
+Uma crítica de
+cinema
+
+**Narrativa**
+
+**p. 124**
+
+## 3
+
+«O Tesouro», de Eça
+de Queirós
+
+**Poesia**
+
+**p. 129**
+
+## 4
+
+Um soneto de
+Camões
+
+**Teatro**
+
+**p. 130**
+
+## 5
+
+A última bobina
+
+PROGRAMA
+117
+
+<!-- page 118 -->
+
+---
+M A P A D O A N O
+
+U N I D A D E 5
+R E F E R Ê N C I A · 1 D E 2
+## O mapa do ano
+
+## 1
+**Promessa & Veredicto**
+
+O ESSENCIAL
+
+Publicidade comercial (vende) e não comercial (muda
+
+comportamentos)
+
+Elementos do anúncio: imagem, título, texto, slogan,
+
+marca, público-alvo
+
+Recursos da persuasão: hipérbole, enumeração, impe-
+
+rativo, trocadilho, apelo às emoções
+
+Crítica: tese, argumentos, exemplos, facto e opinião,
+
+classificação
+
+GRAMÁTICA
+
+Frase ativa e frase passiva
+
+Hipérbole e enumeração
+
+**Rever: Persuasão p. 11 · Slogan p. 16 · Crítica p. 21 · Ativa e passiva p. 24**
+
+## 2
+**Quem nos faz crescer?**
+
+O ESSENCIAL
+
+Narrador: participante ou não participante; presente ou
+
+ausente
+
+Categorias: ação, personagens, espaço, tempo
+
+Estrutura: situação inicial, desenvolvimento, desenlace
+
+Modos de expressão: narração, descrição, diálogo; dis-
+
+curso direto e indireto
+
+GRAMÁTICA
+
+Frase simples e complexa · oração
+
+relativa
+
+Subordinadas condicionais e finais
+
+Conjuntivo · tempos do indicativo
+
+Modificador do nome e do grupo
+
+verbal · pronome átono
+
+**Rever: Mapa da narrativa p. 33 · Relativas p. 45 · Conjuntivo p. 52 · Modificadores p. 66**
+
+O S A U T O R E S D O A N O
+
+☐ Luís de Camões
+☐ Alexandre Herculano
+☐ Eça de Queirós
+☐ Trindade Coelho
+
+☐ Fernando Pessoa
+☐ Florbela Espanca
+☐ Lima Barreto
+☐ Miguel Torga
+
+☐ Manuel da Fonseca
+☐ António Gedeão
+☐ Alexandre O'Neill
+☐ David Mourão-Ferreira
+
+☐ Ana Hatherly
+☐ Manuel Alegre
+☐ Alice Vieira
+☐ Ondjaki
+☐ Júlio Verne
+☐ Oscar Wilde
+
+Assinala os que leste. Escolhe um para ler mais durante as férias.
+
+PUBLICIDADE E CRÍTICA
+
+TEXTO NARRATIVO
+
+MAPA DO ANO
+118
+
+<!-- page 119 -->
+
+---
+M A P A D O A N O
+
+U N I D A D E 5
+R E F E R Ê N C I A · 2 D E 2
+
+## 3
+**O que cabe num verso?**
+
+O ESSENCIAL
+
+Verso, estrofe (quadra, terceto…), soneto
+
+Rima emparelhada, cruzada, interpolada; esquema
+
+rimático
+
+Sílabas métricas: redondilha menor (5), maior (7), decas-
+
+sílabo (10)
+
+Recursos: anáfora, metáfora, comparação, personifica-
+
+ção, apóstrofe, antítese, paradoxo
+
+GRAMÁTICA
+
+Oração subordinada completiva
+
+Advérbio e locução adverbial
+
+Sujeito e predicado · pleonasmo
+
+**Rever: Oficina do verso p. 77 · Recursos p. 93 · Comentário p. 94**
+
+## 4
+**Sobe o pano**
+
+O ESSENCIAL
+
+Texto principal (falas) e secundário (didascálias)
+
+Diálogo, monólogo, aparte
+
+Ato, cena, quadro; exposição, conflito, desenlace
+
+Da narrativa ao palco: cortar, dividir, dar voz, encenar
+
+GRAMÁTICA
+
+Sujeito, complemento direto, com-
+
+plemento indireto, modificador
+
+Língua das didascálias e das falas
+
+**Rever: Mapa do texto dramático p. 101 · Funções sintáticas p. 112**
+
+ANTES DAS BANCAS: COMO ESTOU?
+PRECISO
+DE REVER
+
+MAIS OU
+
+MENOS
+DOMINO
+
+Publicidade e crítica
+
+Narrativa
+
+Poesia e métrica
+
+Texto dramático
+
+Gramática da frase
+
+TEXTO POÉTICO
+
+TEXTO DRAMÁTICO
+
+MAPA DO ANO
+119
+
+<!-- page 120 -->
+
+---
+B A N C A 1 · P U B L I C I D A D E
+
+B A N C A 1
+LEITURA
+T E X T O N O V O · P U B L I C I D A D E
+## Vai com a corrente
+
+1. É publicidade comercial ou não comercial? Justifica com duas marcas do texto.
+
+2. Qual é o público-alvo? Que palavras e imagens o mostram?
+
+**3. Transcreve uma hipérbole, uma comparação e uma enumeração. Explica o efeito de uma delas.**
+
+**4. Identifica duas formas verbais no imperativo. A quem se dirige o anúncio?**
+
+**5. O slogan tem duplo sentido (trocadilho). Explica os dois sentidos de «corrente».**
+
+6. Porque é que as letras pequenas estão… pequenas? O que escondem?
+
+M A R É
+## Pedala mais longe
+## do que o mar.
+
+**A nova Maré 8 é leve como uma gaivota, forte como o farol e mais rá-**
+
+pida do que o vento norte. Quadro de alumínio, sete mudanças, luzes
+
+LED, travões de disco e um cesto para levares o mundo contigo. Experi-
+
+menta-a este sábado na Praça do Cinema Aurora — e ganha um capa-
+
+cete na compra de qualquer bicicleta até 31 de maio.
+
+Maré. Vai com a corrente.
+
+BICICLETAS DESDE 1962
+
+BANCA 1 · PUBLICIDADE
+120
+
+*Oferta limitada ao stock existente. Capacete de modelo único, sujeito a disponibilidade.
+
+<!-- page 121 -->
+
+---
+B A N C A 1 · O F I C I N A
+
+B A N C A 1
+ESCRITA
+GRAMÁTICA
+D O C O M E R C I A L A O N Ã O C O M E R C I A L
+## Vender ou mudar?
+
+A Câmara Municipal de Vila Nova do Farol quer que mais alunos vão de bicicleta para a es‐
+**cola. Usa o que aprendeste com o anúncio da Maré para criar uma campanha não**
+**comercial.**
+
+ANÚNCIO MARÉ
+A TUA CAMPANHA
+
+**Emissor**
+a marca Maré
+
+**Objetivo**
+vender bicicletas
+
+**Público-alvo**
+
+**Argumento principal**
+
+**Slogan**
+Maré. Vai com a corrente.
+
+**Imagem**
+
+## 1
+
+Escreve o texto da campanha (60 a 80 palavras), com um título, uma hipérbole, uma enumeração, dois
+imperativos e o slogan.
+
+## 2
+
+Passa à passiva: a) Os ciclistas recomendam a Maré 8. b) A marca oferece um capacete. c) A Câmara
+lançará a campanha em setembro.
+
+## 3
+
+Na frase «Pedala mais longe do que o mar», qual é o sujeito? Porque não está escrito?
+DESAFIO
+
+BANCA 1 · OFICINA
+121
+
+<!-- page 122 -->
+
+---
+B A N C A 2 · C R Í T I C A
+
+B A N C A 2
+LEITURA
+T E X T O N O V O · C R Í T I C A D E C I N E M A
+
+A L U P A · C I N E M A
+★★★☆☆
+
+## A Última Sessão
+
+Realização de Inês Barros · Portugal, 2026 · 98 minutos · M/12
+
+por Marta Seixas
+
+**1. Qual é a tese da crítica? Em que parágrafo aparece**
+com mais clareza?
+
+**2. Transcreve dois factos e duas opiniões.**
+
+3. Que aspeto do filme é elogiado? Que argumento o
+sustenta?
+
+4. Que aspeto é criticado? Com que exemplo?
+
+5. «Os noventa e oito minutos parecem cento e vinte.»
+Que recurso? Com que intenção?
+
+6. A classificação (três estrelas) está de acordo com o
+texto? Justifica.
+
+Há filmes que se veem com os olhos e filmes
+
+que se veem com a memória. A Última Sessão,
+
+a segunda longa-metragem de Inês Barros,
+quer ser das duas espécies — e só às vezes
+
+consegue.
+
+1
+
+A história passa-se numa vila do Alentejo, em
+
+1998, na semana em que o único cinema vai
+
+fechar. O projecionista, Sr. Alberto (Rui Men‐
+des), tem setenta anos e uma sala vazia; a
+
+neta, Carolina (a estreante Sara Lopes), tem
+catorze e nenhuma vontade de ali estar. Ao
+
+longo de sete noites, os dois projetam os fil‐
+
+mes preferidos do avô para uma plateia que,
+pouco a pouco, volta a encher.
+
+2
+
+O melhor do filme está na imagem. A fotogra‐
+fia de Tiago Reis transforma a sala escura
+
+num lugar mágico: o feixe do projetor atra‐
+
+vessa o fumo como um farol, e cada rosto da
+
+plateia parece um retrato antigo. As cenas
+
+entre avô e neta, quase sem palavras, são das
+mais belas do cinema português recente.
+
+3
+
+O problema é o argumento. A partir de meio,
+o filme repete-se: cada noite traz mais um vi‐
+
+zinho, mais uma lágrima, mais uma lem‐
+
+brança. Sabemos, desde a primeira cena,
+como tudo vai acabar, e a realizadora não nos
+
+surpreende nem uma vez. Os noventa e oito
+minutos parecem cento e vinte.
+
+4
+
+Ainda assim, vale a pena ir. Por Rui Mendes,
+
+que diz mais com as mãos do que muitos ato‐
+res com a voz; por uma banda sonora que dá
+
+vontade de ouvir de novo; e porque um filme
+sobre o amor ao cinema merece ser visto
+
+numa sala escura — de preferência, cheia.
+
+5
+
+BANCA 2 · CRÍTICA
+122
+
+<!-- page 123 -->
+
+---
+B A N C A 2 · O F I C I N A
+
+B A N C A 2
+ESCRITA
+R E C O N S T R U I R E R E S P O N D E R
+## O teu veredicto
+
+A E S T R U T U R A D A C R Í T I C A D E M A R T A S E I X A S
+
+**§1**
+Introdução e tese
+
+**§2**
+Apresentação (factos)
+
+**§3**
+Argumento a favor
+
+**§4**
+Argumento contra
+
+**§5**
+Conclusão e recomendação
+
+## 1 Resume, em cada linha do quadro, a ideia principal do parágrafo (máx. 12 palavras).
+
+## 2
+
+Um leitor d'A Lupa discorda: acha que o filme merece cinco estrelas. Escreve a crítica dele (120 a 150
+palavras): tese, dois argumentos com exemplos do filme (usa as informações do texto), conclusão e
+classificação.
+
+## 3
+
+Transforma em frases passivas: a) Tiago Reis assina a fotografia. b) A plateia aplaudiu o projecionista.
+
+**Revê**
+○ tese clara
+○ factos e opiniões distinguidos
+○ conectores de oposição (mas, no entanto, ainda assim)
+
+○ classificação coerente
+
+BANCA 2 · OFICINA
+123
+
+<!-- page 124 -->
+
+---
+B A N C A 3 · N A R R A T I V A
+
+B A N C A 3
+LEITURA
+T E X T O N O V O · C O N T O I N T E G R A L · O R T O G R A F I A A T U A L I Z A D A
+## O Tesouro
+
+E Ç A D E Q U E I R Ó S · C O N T O S ( 1 9 0 2 )
+
+Eça de Queirós (1845–1900) é um dos maiores romancistas portu-
+gueses. Este conto, que se passa num Reino das Astúrias medie-
+val, tem a forma de uma fábula moral: três irmãos pobres encon-
+tram um cofre de ouro. O que fariam três irmãos com um tesouro
+para dividir?
+
+Os três irmãos de Medranhos, Rui, Guanes e
+
+Rostabal, eram então, em todo o Reino das As‐
+túrias, os fidalgos mais famintos e os mais
+
+remendados.
+
+1
+
+Nos Paços de Medranhos, a que o vento da
+
+serra levara vidraça e telha, passavam eles as
+tardes desse inverno, engelhados nos seus pelo‐
+
+tes de camelão, batendo as solas rotas sobre as
+
+lajes da cozinha, diante da vasta lareira negra,
+onde desde há muito não estalava lume, nem
+
+fervia a panela de ferro. Ao escurecer devora‐
+vam uma côdea de pão negro, esfregada com
+
+alho. Depois, sem candeia, através do pátio,
+
+fendendo a neve, iam dormir à estrebaria, para
+aproveitar o calor das três éguas lazarentas
+
+que, esfaimadas como eles, roíam as traves da
+manjedoura. E a miséria tornara estes senhores
+
+mais bravios que lobos.
+
+Ora, na primavera, por uma silenciosa manhã
+
+de domingo, andando todos três na mata de Ro‐
+quelanes a espiar pegadas de caça e a apanhar
+
+tortulhos entre os robles, enquanto as três
+
+éguas pastavam na relva nova de abril, os ir‐
+mãos de Medranhos encontraram, por trás de
+
+uma moita de espinheiros, numa cova de rocha,
+um velho cofre de ferro.
+
+Como se o resguardasse uma torre segura, con‐
+servava as suas três chaves nas suas três fecha‐
+
+duras. Sobre a tampa, mal decifrável através da
+
+ferrugem, corria um dístico em letras árabes. E
+dentro, até às bordas, estava cheio de dobrões
+
+de ouro!
+
+No terror e esplendor da emoção, os três se‐
+
+nhores ficavam mais lívidos do que círios. De‐
+pois, mergulhando furiosamente as suas mãos
+
+no ouro, estalaram a rir, num riso de tão larga
+
+rajada que as folhas tenras de olmos, em roda,
+tremiam... E de novo recuaram, bruscamente se
+
+encararam, com os olhos a flamejar, numa des‐
+
+confiança tão desabrida que Guanes e Rostabal
+apalpavam nos cintos os cabos das grandes fa‐
+
+cas. Então Rui, que era gordo e ruivo, e o mais
+avisado, ergueu o braço, com um árbitro, e co‐
+
+meçou por decidir que o tesouro, ou viesse de
+
+Deus ou do Demónio, pertencia aos três, e en‐
+tre eles se repartiria, rigidamente, e pesando-se
+
+o ouro em balanças. Mas como poderiam carre‐
+gar para Medranhos, para os cimos da serra,
+
+aquele cofre tão cheio? Nem convinha que saís‐
+
+sem da mata com o seu bem, antes de cerrar a
+escuridão. Por isso, ele entendia que o mano
+
+Guanes, como mais leve, devia trotar para a vila
+vizinha de Retortilho, levando já ouro na bolsi‐
+
+nha, a comprar três alforges de couro, três ma‐
+
+quias de cevada, três empadões de carne e três
+botelhas de vinho. Vinho e carne eram para
+
+eles, que não comiam desde a véspera; a cevada
+era para as éguas. E assim refeitos, senhores e
+
+cavalgaduras, ensacariam o ouro nos alforges e
+subiriam para Medranhos, sob a segurança da
+
+noite sem lua.
+
+— Bem tramado! — gritou Rostabal, homem
+
+mais alto que um pinheiro, de longa guedelha, e
+
+com uma barba que lhe caía desde os olhos rai‐
+ados de sangue até à fivela do cinturão.
+
+6
+
+Mas Guanes não se arredava do cofre, enru‐
+gado, desconfiado, puxando entre os dedos a
+
+pele negra do seu pescoço de grou. Por fim,
+brutalmente:
+
+— Manos! O cofre tem três chaves... Eu quero
+fechar a minha fechadura e levar a minha
+
+chave!
+
+— Também eu quero a minha, mil raios! — rugiu
+
+logo Rostabal.
+
+Rui sorriu. Decerto, decerto! A cada dono do
+
+ouro cabia uma das chaves que o guardavam.
+
+BANCA 3 · NARRATIVA
+124
+
+<!-- page 125 -->
+
+---
+B A N C A 3 · N A R R A T I V A
+
+E cada um em silêncio, agachado ante o cofre,
+
+cerrou a sua fechadura com força. Imediata‐
+mente, Guanes, desanuviado, saltou na égua,
+
+meteu pela vereda de olmos, a caminho de Re‐
+
+tortilho, atirando aos ramos a sua cantiga cos‐
+tumada e dolente:
+
+*Olé! Olé!*
+11
+
+*Sale la cruz de la iglésia*
+
+*Vestida de negro luto*...
+
+Na clareira, em frente à moita que encobria o
+tesouro (e que os três tinham desbastado a cu‐
+
+tiladas) um fio de água, brotando entre rochas,
+
+caía sobre uma vasta laje escavada, onde fazia
+como um tanque, claro e quieto, antes de se es‐
+
+coar para as relvas altas. E ao lado, na sombra
+de uma faia, jazia um velho pilar de granito,
+
+tombado e musgoso. Ali vieram sentar-se Rui e
+
+Rostabal, com os seus tremendos espadões en‐
+tre os joelhos. As duas éguas retouçavam a boa
+
+erva pintalgada de papoulas e botões-de-ouro.
+Pela ramaria andava um melro a assobiar. Um
+
+cheiro errante de violetas adoçava o ar lumi‐
+noso. E Rostabal, olhando o Sol, bocejava com
+
+fome.
+
+Então Rui, que tirara o sombrero e lhe confiava
+
+as velhas plumas roxas, começou a considerar,
+
+na sua fala avisada e mansa, que Guanes, nessa
+manhã, não quisera descer com eles à mata de
+
+Roquelanes. E assim era a sorte ruim! Pois que
+se Guanes tivesse quedado em Medranhos, só
+
+eles dois teriam descoberto o cofre, e só entre
+
+eles dois se dividira o ouro! Grande pena! Tanto
+mais que a parte de Guanes seria em breve dis‐
+
+sipada, com rufiões, aos dados, pelas tabernas.
+
+— Ah! Rostabal, Rostabal! Se Guanes, passando
+
+aqui sozinho, tivesse achado o ouro, não dividia
+connosco, Rostabal! O outro rosnou surda‐
+
+mente e com furor, dando um puxão às barbas
+
+negras:
+
+16
+
+— Não, mil raios! Guanes é sôfrego... Quando o
+
+ano passado, se te lembras, ganhou os cem du‐
+cados ao espadeiro de Fresno, nem me quis em‐
+
+prestar três para eu comprar um gibão novo!
+
+— Vês tu? — gritou Rui, resplandecendo. Ambos
+
+se tinham erguido do pilar de granito, como le‐
+vados pela mesma ideia, que os deslumbrava. E,
+
+através das suas largas passadas, as ervas altas
+
+silvavam.
+
+— E para quê — prosseguia Rui. — Para que lhe
+
+serve todo o ouro que nos leva? Tu não o ouves,
+de noite, como tosse? Ao redor da palha em que
+
+dorme, todo o chão está negro do sangue que
+
+escarra! Não dura até às outras neves, Rostabal!
+Mas até lá terá dissipado os bons dobrões que
+
+deviam ser nossos, para levantarmos a nossa
+casa, e para tu teres ginetes, e armas, e trajes
+
+nobre, e o teu terço de solarengos, como com‐
+
+pete a quem é, como tu, o mais velho dos de
+Medranhos...
+
+— Pois que morra, e morra hoje! — bradou
+Rostabal.
+
+— Queres?
+21
+
+Vivamente, Rui agarrara o braço do irmão e
+
+apontava para a vereda de olmos, por onde
+Guanes partira cantando:
+
+— Logo adiante, ao fim do trilho, há um sítio
+bom, nos silvados. E hás-de ser tu, Rostabal,
+
+que és o mais forte e o mais destro. Um golpe
+de ponta pelas costas. E é justiça de Deus que
+
+sejas tu, que muitas vezes, nas tabernas, sem
+pudor, Guanes te tratava de "cerdo" e de "torpe",
+
+por não saberes a letra nem os números.
+
+— Malvado!
+
+— Vem!
+
+Foram. Ambos se emboscaram por trás de um
+
+silvado que dominava o atalho, estreito e pe‐
+dregoso como um leito de torrente. Rostabal,
+
+assolapado na vala, já tinha a espada nua. Um
+
+vento leve arrepiou na encosta as folhas dos
+álamos — e sentiram o repique leve dos sinos
+
+de Retortilho. Rui, coçando a barba, calculava
+as horas pelo Sol, que já se inclinava para as
+
+serras. Um bando de corvos passou sobre eles,
+
+grasnando. E Rostabal, que lhes seguira o voo,
+recomeçou a bocejar, com fome, pensando nos
+
+empadões e no vinho que o outro trazia nos
+alforges
+
+26
+
+Enfim! Alerta! Era, na vereda, a cantiga dolente
+e rouca, atirada aos ramos:
+
+: : *Olé! Olé!* : *Sale la cruz de la inglésia,* :
+*Vestida de negro luto...*
+
+Rui murmurou: — Na ilharga! Mal que passe!
+
+BANCA 3 · NARRATIVA
+125
+
+<!-- page 126 -->
+
+---
+B A N C A 3 · N A R R A T I V A
+
+— O chouto da égua bateu o cascalho, uma
+
+pluma num sombrero vermelhejou por sobre a
+ponta das silvas.
+
+Rostabal rompeu de entre a sarça por uma bre‐
+cha, atirou o braço, a longa espada — e toda a
+
+lmina se embebeu molemente na ilharga de
+
+Guanes, quando ao rumor, bruscamente, ele se
+virara na sela. Com um surdo arranco, tombou
+
+ao lado, sobre as pedras. Já Rui se arremessava
+aos freios da égua — Rostabal, caindo sobre
+
+Guanes, que arquejava, de novo lhe mergulhou
+
+a espada, agarrada pela folha como um punhal,
+no peito e na garganta.
+
+— A chave! — gritou Rui.
+31
+
+E arrancada a chave do cofre do seio do morto,
+
+ambos largaram pela vereda — Rostabal adi‐
+ante, fugindo, com a pluma do *sombrero*
+
+quebrada e torta, a espada ainda nua entalada
+sob o braço, todo encolhido, arrepiado com o
+
+sabor do sangue que lhe espirrara com a boca;
+
+Rui atrás, puxava desesperadamente os freios
+da égua, que de patas fincadas no chão pedre‐
+
+goso, arreganhando a longa dentaduça amarela,
+não queria deixar o seu amo assim estirado,
+
+abandonado, ao comprido das sebes.
+
+Teve de lhe espicaçar as ancas lazarentas com
+
+a ponta da espada — e foi correndo sobre ela,
+de lmina alta, como se perseguisse um mouro,
+
+que desembocou na clareira onde o sol já não
+
+dourava as folhas. Rostabal arremessara para a
+relva o *sombrero* e a espada, e debruçado so‐
+
+bre a laje escavada em tanque, de mangas arre‐
+gaçadas, lavava, ruidosamente, a face e as
+
+barbas.
+
+A égua, quieta, recomeçou a pastar, carregadas
+
+com os alforges novos que Guanes comprara
+
+em Retortilho. Do mais largo, abarrotado, sur‐
+diam dois gargalos de garrafas. Então Rui tirou,
+
+lentamente, do cinto, a sua larga navalha. Sem
+um rumor na relva espessa, deslizou até Rosta‐
+
+bal, que resfolegava, com as longas barbas pin‐
+
+gando. E serenamente, como se pregasse uma
+estaca num canteiro, enterrou a folha toda no
+
+largo dorso dobrado, certeira sobre o coração.
+
+Rostabal caiu sobre o tanque, sem um gemido,
+
+com a face na água, os longos cabelos flutu‐
+ando na água. A sua velha escarcela de couro fi‐
+
+cara estalada sob a coxa. Para tirar de dentro a
+
+terceira chave do cofre, Rui solevou o corpo —
+e um sangue mais grosso jorrou, escorreu pela
+
+borda do tanque, fumegando.
+
+Agora eram dele, só dele, as três chaves do co‐
+
+fre!... E Rui, alargando os braços, respirou deli‐
+
+ciosamente. Mal a noite descesse, com o ouro
+metido nos alforges, guiando a fila das éguas
+
+pelos trilhos da serra, subiria a Medranhos e
+enterraria na adega o seu tesouro! E quando ali
+
+na fonte, e além rente aos silvados, só restas‐
+
+sem, sob as neves de Dezembro, alguns ossos
+sem nome, ele seria o magnífico senhor de Me‐
+
+dranhos, e na capela nova do solar renascido
+mandaria dizer missas ricas pelos seus dois ir‐
+
+mãos mortos... Mortos como? Como devem
+
+morrer os de Medranhos — a pelejar o Turco!
+
+36
+
+Abriu as três fechaduras, apanhou um pu‐
+
+nhado de dobrões, que fez retinir sobre as pe‐
+dras. Que puro ouro, de fino quilate! E era o seu
+
+ouro! Depois foi examinar a capacidade dos al‐
+forges — e encontrando as duas garrafas de vi‐
+
+nho, e um gordo capão assado, sentiu uma
+imensa fome. Desde a véspera só comera uma
+
+lasca de peixe seco. E há quanto tempo não
+
+provava capão.
+
+Com que delícia se sentou na relva, com as per‐
+
+nas abertas, e entre elas a ave loura, que res‐
+cendia, e o vinho cor de mbar! Ah! Guanes fora
+
+bom mordomo — nem esquecera azeitonas.
+Mas porque trouxera ele, para três convivas, só
+
+duas garrafas? Rasgou uma asa do capão: devo‐
+
+rada a grandes dentadas. A tarde descia, pensa‐
+tiva e doce, com nuvenzinhas cor-de-rosa.
+
+Para além, na vereda, um bando de corvos gras‐
+nava. As éguas fartas dormitavam, com o foci‐
+
+nho pendido. E a fonte cantava, lavando o
+morto.
+
+Rui ergueu à luz a garrafa de vinho. Com aquela
+cor velha e quente, não teria custado menos de
+
+três maravedis. E pondo o gargalo à boca, be‐
+
+beu em sorvos lentos, que lhe faziam ondular o
+pescoço peludo. Oh vinho bendito, que tão
+
+prontamente aquecia o sangue! Atirou a gar‐
+rafa vazia — destapou outra. Mas, como era avi‐
+
+sado, não bebeu, porque a jornada para a serra,
+
+com o tesouro, requeria firmeza e acerto.
+
+BANCA 3 · NARRATIVA
+126
+
+<!-- page 127 -->
+
+---
+B A N C A 3 · N A R R A T I V A
+
+VOCABULÁRIO
+
+ANTES DE RESPONDER · TRÊS PLANOS
+
+**Rui**
+
+**Rostabal**
+
+**Guanes**
+
+Estendido sobre o cotovelo, descansando, pen‐
+
+sava em Medranhos coberto de telha nova, nas
+altas chamas da lareira por noites de neve, e o
+
+seu leito com brocados, onde teria sempre
+
+mulheres.
+
+De repente, tomado de uma ansiedade, teve
+
+pressa de carregar os alforges. Já entre os tron‐
+cos a sombra se adensava. Puxou uma das
+
+éguas para junto do cofre, ergueu a tampa, to‐
+mou um punhado de ouro... Mas oscilou, lar‐
+
+gando os dobrões, que retilintaram no chão, e
+
+levou as duas mãos aflitas ao peito. Que é, D.
+Rui? Raios de Deus? Era um lume, um lume
+
+vivo, que se lhe acendera dentro, lhe subia até
+às goelas. Já rasgara o gibão, atirava os passos
+
+incertos, e, a arquejar, com a língua pendente,
+
+limpava as grossas bagas de um suor horrendo
+que o regelava como neve. Oh Virgem Mãe! Ou‐
+
+tra vez o lume, mais forte, que alastrava, o roía!
+Gritou:
+
+41
+
+— Socorro! Alguém! Guanes! Rostabal!
+
+Os seus braços torcidos batiam o ar desespera‐
+
+damente. E a chama dentro galgava — sentia os
+ossos a estalarem como as traves de uma casa
+
+em fogo.
+
+Cambeleou até à fonte para apagar aquela la‐
+
+bareda, tropeçou sobre Rostabal; e foi com o
+joelho ficando no morto, arranhando a rocha,
+
+que ele, entre uivos, procurava o fio de água,
+
+que recebia sobre os olhos, pelos cabelos. Mas
+a água mais o queimava, como se fosse um me‐
+
+tal derretido.
+
+Recuou, caiu para cima da relva, que arrancava
+
+aos punhados, e que mordia, mordendo os de‐
+dos, para lhe sugar a frescura. Ainda se ergueu,
+
+com uma baba densa a escorrer-lhe nas barbas:
+
+e de repente, esbugalhando pavorosamente os
+olhos, berrou, como se compreendesse enfim a
+
+traição, todo o horror:
+
+— É veneno!
+46
+
+Oh! D. Rui, o avisado, era veneno! Porque Gua‐
+nes, apenas chegara a Retortilho, mesmo antes
+
+de comprar os alforges, correra cantando a
+uma viela, por detrás a catedral, a comprar ao
+
+velho droguista judeu o veneno que, misturado
+
+ao vinho, o tornaria a ele, a ele somente, dono
+de todo o tesouro.
+
+Anoiteceu. Dois corvos, de entre o bando que
+grasnava além dos silvados, já tinham pousado
+
+sobre o corpo de Guanes. A fonte, cantando, la‐
+vava o outro morto. Meio enterrada na erva ne‐
+
+gra, toda a face de Rui se tornara negra. Uma
+
+estrelinha tremeluzia no céu.
+
+O tesouro ainda lá está, na mata de Roquelanes.
+
+Eça de Queirós, «O Tesouro», em Contos (1902). Domínio público.
+
+Texto da Wikisource, ortografia atualizada.
+
+**pelote casaco antigo, sem mangas · camelão tecido**
+**grosseiro · engelhados encolhidos, enrugados · laza‐**
+
+**rentas doentes, magras · tortulhos cogumelos · robles**
+**carvalhos · dobrões antigas moedas de ouro · lívidos**
+**muito pálidos · círios velas grandes · alforges sacos**
+**duplos para levar na montada · droguista vendedor de**
+drogas e remédios
+
+O que planeou cada irmão? Quem morre primeiro?
+
+Porque é que ninguém fica com o ouro?
+
+BANCA 3 · NARRATIVA
+127
+
+<!-- page 128 -->
+
+---
+B A N C A 3 · O F I C I N A
+
+B A N C A 3
+ED. LITERÁRIA
+GRAMÁTICA
+A S C A T E G O R I A S D A N A R R A T I V A
+## Três irmãos, um cofre
+
+CATEGORIA
+NO CONTO
+PROVA (§)
+
+**Narrador**
+
+participante?
+presente?
+
+**Espaço físico**
+
+**Espaço social**
+
+**Tempo**
+
+época · duração
+
+**Personagens**
+
+principais ·
+caracterização
+
+**1. Divide o conto em situação inicial, desenvolvimento**
+**e desenlace. Indica os parágrafos.**
+
+2. Que traço de caráter une os três irmãos? Justifica
+com uma frase do conto.
+
+3. Rui é «o mais avisado». No fim, o narrador chama-lhe
+«D. Rui, o avisado». Que efeito tem esta repetição?
+**(Pensa na ironia.)**
+
+4. «O tesouro ainda lá está, na mata de Roquelanes.»
+Qual é a lição (moralidade) do conto?
+
+**5. Transcreve uma comparação do 1.º ou do 2.º pará-**
+grafo e explica-a.
+
+6. Identifica e classifica a oração subordinada: «Ele en-
+tendia que o mano Guanes, como mais leve, devia
+trotar para a vila vizinha de Retortilho.»
+
+7. Classifica a oração sublinhada: «[Guanes foi com-
+prar] o veneno que, misturado ao vinho, o tornaria a
+ele, a ele somente, dono de todo o tesouro.»
+
+**8. Reescreve no discurso indireto: «— É veneno!», ber-**
+rou Rui.
+
+BANCA 3 · OFICINA
+128
+
+<!-- page 129 -->
+
+---
+B A N C A 4 · P O E S I A
+
+B A N C A 4
+ED. LITERÁRIA
+T E X T O N O V O · S O N E T O I N T E G R A L · O R T O G R A F I A A T U A L I Z A D A
+## Amor é um fogo
+
+LUÍS DE CAMÕES (C. 1524–1580) · RIMAS, EDI-
+ÇÃO PÓSTUMA
+
+Camões, o poeta de Os Lusíadas, escreveu também
+dezenas de sonetos. Este é, talvez, o mais conhe-
+**cido da língua portuguesa: uma tentativa de definir**
+o amor.
+
+Luís de Camões, soneto. Domínio público. Texto da Wikisource, ortografia atualizada.
+
+1. Confirma que é um soneto: estrofes, versos e es-
+quema rimático.
+
+2. Faz a escansão do verso 1. Quantas sílabas métri-
+cas tem? Como se chama este verso?
+
+3. Que palavra se repete no início de quase todos
+os versos? Como se chama o recurso?
+
+4. «contentamento descontente», «dor que desatina
+sem doer»: que recurso predomina? Porquê usá-
+lo para falar do amor?
+
+5. Os tercetos terminam com uma pergunta. O que
+pergunta o sujeito poético?
+
+6. Compara com «Fanatismo», de Florbela (p. 92):
+que visão do amor tem cada um?
+
+Amor é um fogo que arde sem se ver;
+1
+
+é ferida que dói, e não se sente;
+
+é um contentamento descontente;
+
+é dor que desatina sem doer.
+
+É um não querer mais que bem querer;
+5
+
+é solitário andar por entre a gente;
+
+é um não contentar-se de contente;
+
+é cuidar que se ganha em se perder.
+
+É um estar-se preso por vontade;
+
+é servir a quem vence, o vencedor;
+10
+
+é um ter com quem nos mata, lealdade.
+
+Mas como causar pode o seu favor
+
+nos mortais corações conformidade,
+sendo a si tão contrário o mesmo Amor?
+14
+
+BANCA 4 · POESIA
+129
+
+<!-- page 130 -->
+
+---
+B A N C A 5 · T E A T R O
+
+B A N C A 5
+ED. LITERÁRIA
+ORALIDADE
+T E X T O N O V O · C E N A
+## A última bobina
+
+(Cabina de projeção do Cinema Aurora. Noite. O projetor está desligado; só uma lâmpada pequena ilumina
+a mesa, cheia de latas de filme. O SR. ALBERTO, projecionista, enrola devagar uma bobina. Entra INÊS, 13
+anos, com um caderno.)
+
+INÊS Sr. Alberto? A professora disse que o senhor me podia mostrar como se projeta um filme a
+sério. Para o trabalho de Português.
+
+SR. ALBERTO (Sem se voltar.) Um filme a sério… Hoje já ninguém sabe o que isso é. Senta-te ali. Não
+mexas em nada.
+
+(INÊS senta-se num banco. Abre o caderno.)
+
+INÊS Há quanto tempo trabalha aqui?
+
+SR. ALBERTO Quarenta e dois anos. Entrei no dia em que estreou Os Pássaros. (Pausa. Pousa a bo-
+
+bina.) Amanhã passam tudo para digital. Carregam num botão e pronto.
+
+INÊS (À parte.) Então é por isso que está tão triste.
+
+SR. ALBERTO Queres ver a última? A última bobina de verdade?
+
+(Liga o projetor. Ouve-se o ruído do motor. Um feixe de luz atravessa a cabina e sai pela janelinha para a
+sala vazia. INÊS levanta-se e espreita.)
+
+INÊS (Baixinho, maravilhada.) Parece um farol.
+
+SR. ALBERTO (Sorri pela primeira vez.) É um farol. Durante quarenta e dois anos, guiou toda a gente
+desta vila para o mesmo sítio. (Estende-lhe a manivela.) Anda. A última, projetas tu.
+
+(INÊS pega na manivela. A luz do feixe ilumina-lhes os rostos. Escuro lento.)
+
+**1. Transcreve uma didascália de espaço, uma de luz e**
+**uma de tom.**
+
+**2. Onde está o aparte? Que informação dá ao público?**
+
+3. Como muda o Sr. Alberto do início para o fim da
+cena? Que didascália o mostra?
+
+**4. «É um farol.» Explica a metáfora.**
+
+5. Identifica o sujeito, o CD e o CI: «O Sr. Alberto estende
+a manivela à Inês.»
+
+6. A pares, leiam a cena em voz alta. Depois, escrevam
+mais três falas para a continuar.
+ORALIDADE
+
+BANCA 5 · TEATRO
+130
+
+<!-- page 131 -->
+
+---
+C I R C U I T O D E G R A M Á T I C A 1
+
+C I R C U I T O 1
+GRAMÁTICA
+O V E R B O E A F R A S E
+## Frase ativa, conjuntivo e relativas
+
+A
+**Ativa e passiva**
+p. 24
+
+Passa à passiva ou à ativa, mantendo o tempo
+verbal.
+
+a. O narrador descreve o castelo.
+
+b. Violeta foi expulsa pelo rei.
+
+c. Os três irmãos encontraram um cofre.
+
+d. O júri escolherá o melhor anúncio.
+
+B
+**Conjuntivo**
+p. 52
+
+Completa com o verbo no conjuntivo.
+
+a. Espero que tu
+
+(ler) o conto até sexta.
+
+b. Talvez o cinema
+
+(reabrir) no verão.
+
+c. Se eu
+(encon-
+
+trar) um tesouro, dividia-o.
+
+d. Quando
+(chegar)
+ao palco, respira fundo.
+
+C
+**Pronome relativo**
+p. 45
+
+Junta as frases com um pronome relativo (que,
+quem, o qual, onde, cujo).
+
+a. Li um conto. O conto passa-se nas Astúrias.
+
+b. Esta é a vila. Na vila fica o Cinema Aurora.
+
+c. O poeta escreveu «Sísifo». O nome verdadeiro
+
+do poeta era Adolfo.
+
+D
+**Tempos do indicativo**
+p. 70
+
+Identifica o tempo das formas sublinhadas.
+
+a. Os irmãos eram os fidalgos mais famintos.
+
+b. Guanes partiu para Retortilho.
+
+c. O tesouro ainda lá está.
+
+d. Rui tinha pensado em tudo.
+
+e. Amanhã projetarás tu.
+
+I
+**Formação de palavras**
+p. 60
+
+**Indica o processo de formação: derivação (prefixação, sufixação, parassíntese), composição ou outro.**
+
+a. projecionista
+
+b. descontente
+
+c. guarda-chuva
+
+d. entristecer
+
+e. bilheteira
+
+f. desconfiança
+
+g. madrugada (atenção: não é formada!)
+
+h. luso-descendente
+
+CIRCUITO DE GRAMÁTICA 1
+131
+
+<!-- page 132 -->
+
+---
+C I R C U I T O D E G R A M Á T I C A 2
+
+C I R C U I T O 2
+GRAMÁTICA
+A F R A S E C O M P L E X A E A S F U N Ç Õ E S S I N T Á T I C A S
+## Orações e funções
+
+E
+**Classificar orações**
+p. 42 · 49 · 82
+
+**Classifica a oração sublinhada: relativa, completiva, condicional ou final.**
+
+a. Rui disse que o tesouro era dos três.
+
+b. Se o sabes, cumpre o teu dever.
+
+c. Guanes foi à vila para comprar os alforges.
+
+d. O cofre que encontraram estava cheio de ouro.
+
+e. Não sei se o filme vale cinco estrelas.
+
+f. Caso chova, o sarau é no ginásio.
+
+F
+**Funções sintáticas**
+p. 112 · 60 · 66
+
+Identifica: sujeito (S), complemento direto (CD), complemento indireto (CI), modificador do grupo verbal (MGV),
+modificador do nome (MN).
+
+a. Na primavera, os três irmãos encontraram um velho cofre de ferro.
+
+b. O projecionista mostrou a cabina à rapariga curiosa.
+
+c. Violeta ofereceu ao pai um jantar sem sal.
+
+d. A crítica d'A Lupa elogiou a fotografia do filme.
+
+G
+**Pronomes átonos**
+p. 66
+
+Substitui os complementos por pronomes.
+
+a. Rostabal matou Guanes.
+
+b. Guanes deu o vinho aos irmãos.
+
+c. Vou contar a história à turma.
+
+H
+**Frase simples ou**
+**complexa?**
+
+p.
+42
+
+Conta os verbos e classifica.
+
+a. O tesouro ainda lá está.
+
+b. Rui ergueu o braço e começou a falar.
+
+c. Quando anoiteceu, dois corvos pousaram no
+
+corpo.
+
+CIRCUITO DE GRAMÁTICA 2
+132
+
+<!-- page 133 -->
+
+---
+T E S T E D E T R E I N O
+
+T E S T E D E T R E I N O
+4 5 M I N U T O S · I N D I V I D U A L · S E M C O N S U L T A
+## Prova mista
+
+T E X T O · C A R T A D E U M E S P E C T A D O R
+
+GRUPO I · LEITURA
+40%
+
+1. Qual é o motivo da carta? (8)
+
+2. «Não era pelos filmes.» Então, era porquê? Explica por palavras tuas. (10)
+
+3. Explica o sentido de «o homem invisível desta vila». (10)
+
+4. Transcreve uma antítese e uma metáfora. (12)
+
+GRUPO II · GRAMÁTICA
+30%
+
+5. Classifica a oração «Se um dia a cabina ficar vazia». (6)
+
+6. Identifica o tempo e o modo de «ficar» em «Se um dia a cabina ficar vazia». (6)
+
+7. Passa à passiva: «O avô trazia a neta ao Aurora.» (6)
+
+8. Indica a função sintática de «o meu avô» e de «todos os domingos» (§1). (6)
+
+9. Classifica a palavra «invisível» quanto ao processo de formação. (6)
+
+Caro Sr. Alberto: escrevo-lhe porque ontem, na última sessão em película, percebi finalmente por
+
+que razão o meu avô me trazia ao Aurora todos os domingos. Não era pelos filmes. Era pela escuri‐
+
+dão partilhada, por aquele minuto em que a sala inteira respira ao mesmo tempo.
+
+1
+
+O senhor foi, durante quarenta anos, o homem invisível desta vila. Ninguém o via, mas todos vía‐
+
+mos o que o senhor nos mostrava. Se um dia a cabina ficar vazia, espero que alguém se lembre de
+
+que houve uma luz que nunca se apagou. Obrigada. — Ana, 13 anos
+
+5
+
+TESTE DE TREINO
+133
+
+<!-- page 134 -->
+
+---
+T E S T E D E T R E I N O
+
+T E S T E D E T R E I N O
+C O N T I N U A Ç Ã O
+
+GRUPO III · ESCRITA
+30%
+
+**Planifica antes de escrever**
+
+**Saudação**
+
+**Agradeço…**
+
+**O momento**
+
+**O conselho**
+
+**Despedida**
+
+10. Responde à Ana como se fosses o Sr. Alberto (120 a 160 palavras): agradece, conta um momento marcante da
+tua vida no cinema e dá-lhe um conselho. (30)
+
+CRITÉRIOS DO GRUPO III
+PONTOS
+OS MEUS
+
+Formato de carta: saudação, corpo, despedida, assinatura
+5
+
+Conteúdo: agradecimento, momento narrado, conselho
+10
+
+Organização em parágrafos e uso de conectores
+5
+
+Correção linguística: ortografia, pontuação, concordâncias
+7
+
+Extensão (120–160 palavras)
+3
+
+TESTE DE TREINO
+134
+
+<!-- page 135 -->
+
+---
+O L E I T O R Q U E É S A G O R A
+
+U N I D A D E 5
+ESCRITA
+ORALIDADE
+R E F L E X Ã O
+## O leitor que és agora
+
+**Passaporte da última noite**
+carimbo do professor em cada banca
+
+**1**
+
+Publicidade
+
+**2**
+
+Crítica
+
+**3**
+
+Narrativa
+
+**4**
+
+Poesia
+
+**5**
+
+Teatro
+
+O M E U A N O E M C I N C O E S C O L H A S
+
+O texto que mais gostei de ler
+
+O verso que sei de cor
+
+A personagem que me ensinou alguma coisa
+
+O trabalho de que mais me orgulho
+
+O que ainda tenho de melhorar
+
+## 1
+
+Escreve uma carta ao aluno que vai começar o 8.º ano no próximo setembro (120 a 150 palavras): o que
+vai encontrar, o que vai adorar, o que vai achar difícil, e um conselho de leitor para leitor.
+
+## 2
+
+Lê a tua carta à turma em 1 minuto. Ouve as dos colegas: que conselho repetiram mais?
+ORALIDADE
+
+O LEITOR QUE ÉS AGORA
+135
+
+<!-- page 136 -->
+
+---
+S O L U Ç Õ E S
+
+U N I D A D E 5
+S O L U Ç Õ E S · 1 D E 2
+**p. 120 · Banca 1. 1. Comercial: há uma marca (Maré), um**
+produto e um preço/promoção («ganha um capacete na
+compra»). 2. Jovens e famílias que gostam de andar ao ar
+livre: «levares o mundo contigo», «pedala», a praça do ci-
+nema. 3. Hipérbole: «Pedala mais longe do que o mar» ·
+comparação: «leve como uma gaivota», «forte como o fa-
+rol» · enumeração: «Quadro de alumínio, sete mudanças,
+luzes LED…» — acumula vantagens e faz o produto parecer
+completo. 4. Pedala, Experimenta, ganha, Vai: dirige-se di-
+retamente ao leitor (tu). 5. A corrente da bicicleta e a cor-
+rente do mar (ou «ir com a corrente» = seguir a moda). 6.
+Para não chamarem a atenção: limitam a oferta (stock,
+modelo único).
+
+**p. 121 · Oficina 1. 2. a) A Maré 8 é recomendada pelos ci-**
+clistas. b) Um capacete é oferecido pela marca. c) A
+campanha será lançada pela Câmara em setembro. 3. Su-
+jeito nulo subentendido: tu (imperativo).
+
+**p. 122 · Banca 2. 1. O filme vale a pena, apesar de um argu-**
+mento repetitivo (§1 e §5). 2. Factos: realização de Inês
+Barros; 98 minutos; passa-se no Alentejo em 1998 · Opi-
+niões: «O melhor do filme está na imagem»; «O problema
+é o argumento». 3. A imagem/fotografia: o feixe do proje-
+tor, os rostos como retratos antigos. 4. O argumento: re-
+pete-se e não surpreende. 5. Hipérbole: sublinha que o
+filme parece longo e aborrecido. 6. Sim: há elogios e críti-
+cas equilibrados — nem ótimo, nem mau.
+
+**p. 123 · Oficina 2. 3. a) A fotografia é assinada por Tiago**
+Reis. b) O projecionista foi aplaudido pela plateia.
+
+MODELO · CAMPANHA (OFICINA 1)
+
+Vai à escola com as tuas pernas! Todas as ma‐
+
+nhãs, mil carros enchem a rua da escola. Tu
+podes mudar isso. A bicicleta é silenciosa, ba‐
+
+rata, saudável e não deita fumo. Pega na tua,
+chama um amigo e pedala até às aulas: che‐
+gas mais acordado do que o sol. A Câmara
+
+oferece estacionamento seguro em todas as
+**escolas. Vila Nova do Farol. Aqui, quem pe‐**
+**dala chega primeiro.**
+
+**p. 128 · Banca 3. Narrador não participante, ausente, que comenta**
+(«Oh! D. Rui, o avisado, era veneno!»). Espaço físico: Paços de Medra-
+nhos, mata de Roquelanes, Retortilho. Espaço social: fidalgos pobres,
+famintos. Tempo: Idade Média; a ação principal dura um dia de prima-
+vera (de manhã ao anoitecer). Personagens: os três irmãos — ambici-
+osos, desconfiados, violentos. 1. Situação inicial: a miséria dos ir-
+mãos (§1–2) · desenvolvimento: a descoberta e os planos de traição ·
+desenlace: as três mortes e a frase final. 2. A ganância/ambição: «a
+miséria tornara estes senhores mais bravios que lobos». 3. Ironia: o
+«avisado» é enganado e morre envenenado. 4. A ganância destrói
+quem a tem; o ouro não serviu a ninguém. 5. «mais bravios que lo-
+bos»: a fome tornou-os ferozes como animais. 6. Subordinada subs-
+tantiva completiva. 7. Subordinada adjetiva relativa. 8. Rui berrou que
+era veneno.
+
+**p. 129 · Banca 4. 1. Duas quadras e dois tercetos; ABBA ABBA CDC**
+DCD. 2. A / mor / é_um / fo / go / que_ar / de / sem / se / ver = 10 · de-
+cassílabo. 3. «é» — anáfora. 4. Antítese/paradoxo: o amor é feito de
+contrários, não se define com lógica. 5. Como pode o amor criar con-
+cordância nos corações, se é contraditório em si mesmo? 6. Camões
+define o amor em geral, com contradições; Florbela vive um amor
+absoluto, por uma pessoa, quase religioso.
+
+**p. 130 · Banca 5. 1. Espaço: «Cabina de projeção do Cinema Aurora» ·**
+luz: «Um feixe de luz atravessa a cabina» · tom: «(Baixinho, maravi-
+lhada.)». 2. «Então é por isso que está tão triste.»: o público percebe o
+que Inês pensa. 3. De fechado e triste para sorridente e generoso:
+«(Sorri pela primeira vez.)», «(Estende-lhe a manivela.)». 4. O projetor,
+como um farol, guiava as pessoas para o cinema. 5. S: O Sr. Alberto ·
+CD: a manivela · CI: à Inês.
+
+MODELO · CRÍTICA DE CINCO ESTRELAS (OFICINA 2)
+
+Há filmes que nos devolvem uma coisa que julgávamos
+perdida. A Última Sessão é um deles, e merece as cinco
+estrelas. Em primeiro lugar, pela imagem: o feixe do
+
+projetor, filmado por Tiago Reis como um farol, é das
+mais belas metáforas do cinema português. Em segundo
+
+lugar, porque a repetição das sete noites não é um de‐
+feito, é o próprio tema — a vila regressa, noite após
+noite, tal como nós regressamos aos filmes de que gos‐
+
+tamos. Rui Mendes, que diz tudo com as mãos, fecha o
+filme com uma dignidade rara. Sim, sabemos como
+acaba. Mas também sabemos como acaba um pôr do
+
+sol, e não deixamos de olhar. Obrigatório.
+
+SOLUÇÕES
+136
+
+<!-- page 137 -->
+
+---
+S O L U Ç Õ E S
+
+U N I D A D E 5
+S O L U Ç Õ E S · 2 D E 2
+**p. 131 · Circuito 1. A. a) O castelo é descrito pelo narrador.**
+b) O rei expulsou Violeta. c) Um cofre foi encontrado pe-
+los três irmãos. d) O melhor anúncio será escolhido pelo
+júri. B. a) leias · b) reabra · c) encontrasse · d) chegares. C.
+a) Li um conto que se passa nas Astúrias. b) Esta é a vila
+onde fica o Cinema Aurora. c) O poeta cujo nome verda-
+deiro era Adolfo escreveu «Sísifo». D. a) pretérito imper-
+feito · b) pretérito perfeito · c) presente · d) pretérito mais-
+que-perfeito composto · e) futuro. I. a) sufixação · b) prefi-
+xação · c) composição · d) parassíntese (en- + triste + -
+ecer) · e) sufixação · f) prefixação e sufixação (des- + con-
+fiar + -ança) · g) palavra simples (não formada) · h)
+composição.
+
+**p. 132 · Circuito 2. E. a) completiva · b) condicional · c) final**
+· d) relativa · e) completiva · f) condicional. F. a) MGV: Na
+primavera · S: os três irmãos · CD: um velho cofre de ferro
+(MN: velho, de ferro). b) S: O projecionista · CD: a cabina ·
+CI: à rapariga curiosa (MN: curiosa). c) S: Violeta · CI: ao
+pai · CD: um jantar sem sal (MN: sem sal). d) S: A crítica
+d'A Lupa (MN: d'A Lupa) · CD: a fotografia do filme (MN: do
+filme). G. a) Rostabal matou-o. b) Guanes deu-lho. c) Vou
+contar-lha. H. a) simples · b) complexa (coordenação) · c)
+complexa (subordinação).
+
+**p. 133 · Teste de treino. 1. Agradecer ao projecionista, depois da última**
+sessão em película. 2. Pela experiência de estar com os outros no
+escuro, a sentir o mesmo ao mesmo tempo. 3. Ninguém o via na ca-
+bina, mas era ele quem mostrava os filmes a todos. 4. Antítese: «Nin-
+guém o via, mas todos víamos» · metáfora: «uma luz que nunca se
+apagou». 5. Subordinada adverbial condicional. 6. Futuro do conjun-
+tivo. 7. A neta era trazida ao Aurora pelo avô. 8. «o meu avô»: sujeito ·
+«todos os domingos»: modificador do grupo verbal. 9. Derivação por
+prefixação (in- + visível). 10. Resposta pessoal; critérios: formato de
+carta, agradecimento, momento narrado, conselho, 120–160 palavras.
+
+MODELO · GRUPO III
+
+Querida Ana: a tua carta está pregada na porta da ca‐
+bina, onde a leio todas as manhãs. Obrigado. Durante
+
+quarenta anos pensei que ninguém sabia que eu existia
+— afinal, havia pelo menos uma espectadora atenta. O
+
+meu momento preferido foi em 1985, numa noite de tem‐
+poral: faltou a luz na vila, mas o gerador da cabina
+aguentou-se, e a sala inteira ficou a ver o filme como se
+
+estivesse num barco, no meio do mar. Ninguém saiu. O
+meu conselho é simples: nunca deixes de ir ao cinema
+
+com outras pessoas. Um filme visto sozinho é uma his‐
+tória; visto com os outros, é uma memória. Um abraço
+do teu projecionista, Alberto.
+
+**Grelha do teste**
+I · 40
+II · 30
+III · 30
+Total · 100
+
+C A R T Ã O D E M E M Ó R I A · O A N O N U M A P Á G I N A
+
+**Ler**
+
+Publicidade: quem vende? a quem?
+como?
+
+Crítica: tese, argumentos, factos e
+opiniões.
+
+Narrativa: narrador, ação, persona-
+gens, espaço, tempo.
+
+Poesia: estrofe, rima, métrica,
+recursos.
+
+Teatro: falas, didascálias, aparte,
+monólogo.
+
+**Escrever**
+
+Planifica · escreve · revê.
+
+Opinião: tese + 2 argumentos +
+exemplos + conclusão.
+
+Comentário: tema + recurso +
+efeito + citação.
+
+Cena: personagens, didascálias,
+falas.
+
+**Gramática**
+
+Ativa/passiva · conjuntivo ·
+tempos.
+
+Relativas, completivas, condicio-
+nais, finais.
+
+S, CD, CI, modificadores, prono-
+mes átonos.
+
+SOLUÇÕES
+137
+
+<!-- page 138 -->
 
 ---
 U N I D A D E 7
@@ -8894,9 +12219,9 @@ horas?
 Como se escolhe um livro sem conhecer a história?
 
 CONTRATO DE LEITURA
-98
+138
 
-<!-- page 99 -->
+<!-- page 139 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -8907,7 +12232,7 @@ P O N T O D E P A R T I D A · S E T E M B R O
 ## Que leitor és tu?
 
 Responde com honestidade: não há respostas certas, e só tu vais comparar este retrato com
-o de junho (p. 107).
+o de junho (p. 147).
 
 ## 1
 Quantos livros leste, por vontade própria, no último ano?
@@ -9000,9 +12325,9 @@ BD
 terror
 
 CONTRATO DE LEITURA
-99
+139
 
-<!-- page 100 -->
+<!-- page 140 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9075,9 +12400,9 @@ Um colega diz: «Eu não gosto de ler.» Escreve-lhe duas frases para o convence
 dade a um livro — sem promessas exageradas nem hipérboles enganosas (lembra-te da Unidade 1).
 
 CONTRATO DE LEITURA
-100
+140
 
-<!-- page 101 -->
+<!-- page 141 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9126,11 +12451,11 @@ minutos por dia, de preferência
 
 Por cada livro, o Leitor preenche um registo no diário de bordo e, uma vez por período, apresenta
 
-um livro à turma, num dos formatos da p. 106.
+um livro à turma, num dos formatos da p. 146.
 
 **Cláusula 5.ª · Direitos**
 
-O Leitor mantém todos os direitos enunciados na p. 100, incluindo o de abandonar um livro, nos
+O Leitor mantém todos os direitos enunciados na p. 140, incluindo o de abandonar um livro, nos
 
 termos aí previstos.
 
@@ -9150,9 +12475,9 @@ LIDO
 E ACEITE
 
 CONTRATO DE LEITURA
-101
+141
 
-<!-- page 102 -->
+<!-- page 142 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9307,9 +12632,9 @@ sugestão de casa
 a minha descoberta
 
 CONTRATO DE LEITURA
-102
+142
 
-<!-- page 103 -->
+<!-- page 143 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9377,9 +12702,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-103
+143
 
-<!-- page 104 -->
+<!-- page 144 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9442,9 +12767,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-104
+144
 
-<!-- page 105 -->
+<!-- page 145 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9507,9 +12832,9 @@ O MEU VEREDICTO
 Abandonei-o na página ____ — e tenho esse direito.
 
 DIÁRIO DE BORDO
-105
+145
 
-<!-- page 106 -->
+<!-- page 146 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9618,9 +12943,9 @@ DATA
 3.º
 
 CONTRATO DE LEITURA
-106
+146
 
-<!-- page 107 -->
+<!-- page 147 -->
 
 ---
 C O N T R A T O D E L E I T U R A
@@ -9630,7 +12955,7 @@ ESCRITA
 P O N T O D E C H E G A D A · J U N H O
 ## O que mudou em mim
 
-Volta ao teu retrato de setembro (p. 99) e ao teu diário de bordo. Depois responde — desta
+Volta ao teu retrato de setembro (p. 139) e ao teu diário de bordo. Depois responde — desta
 vez, com a distância de um ano inteiro.
 
 EM SETEMBRO
@@ -9664,9 +12989,9 @@ N A M I N H A P R Ó X I M A E S T A N T E
 ASSINATURA DO LEITOR · JUNHO DE 20___
 
 CONTRATO DE LEITURA
-107
+147
 
-<!-- page 108 -->
+<!-- page 148 -->
 
 ---
 P O R T U G U Ê S · 8 . º A N O · M A N U A L D O A L U N O
@@ -9685,9 +13010,9 @@ tica em que se pode confiar. Depois, sete narrativas — de Herculano a Oscar Wi
 
 mostram-te como se constrói uma história e como uma história nos constrói; nove poe-
 
-mas ensinam-te a ouvir o verso. E, porque só se aprende a julgar livros lendo-os, assi-
+mas ensinam-te a ouvir o verso; e o teatro leva tudo isto para o palco. E, porque só se
 
-nas um contrato de leitura contigo próprio.
+aprende a julgar livros lendo-os, assinas um contrato de leitura contigo próprio.
 
 Publicidade comercial e não comercial
 Crítica de cinema e de livro
@@ -9698,6 +13023,7 @@ Frase ativa e passiva
 Sete narrativas de formação
 
 Nove poemas, oito poetas
+Teatro: da página ao palco
 Contrato e diário de leitura
 
 **Lê este livro online**

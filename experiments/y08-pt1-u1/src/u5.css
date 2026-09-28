@@ -1,0 +1,137 @@
+/* ===================== UNIT 5 · REVISÕES ANUAIS (voice: teal) ===================== */
+:root { --teal: #157a6e; --teal-t: #d8ece8; }
+.v-rev .rail { background: var(--teal); }
+.v-rev .folio .n { background: var(--teal); }
+.v-rev h1.title em { color: var(--teal); }
+.v-rev .act > .num { color: var(--teal); }
+.v-rev.v-oficina-r .rail { background: var(--sun); } .v-rev.v-oficina-r .rail span { color: var(--ink); }
+.v-rev.v-oficina-r .folio .n { background: var(--sun); color: var(--ink); }
+.v-rev.v-oficina-r h1.title em { color: #b07b00; }
+.u5-opener .opener-card { background: rgba(251,247,239,.96); }
+.u5 .tu-h { background: var(--teal); }
+.toc-list a.tea b { background: var(--teal); color: #fff; }
+.u5-red { --c: var(--red); } .u5-sea { --c: var(--sea); } .u5-grn { --c: var(--forest); } .u5-plm { --c: var(--plum); } .u5-ind { --c: var(--indigo); }
+
+.u5-sts { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.6mm; margin: 4mm 0; }
+.u5-st { background: var(--c); color: #fff; border-radius: 3mm; padding: 3.4mm 3mm; min-height: 46mm; position: relative; display: flex; flex-direction: column; }
+.u5-st .n { font-family: var(--serif); font-style: italic; font-weight: 800; font-size: 26pt; line-height: 1; opacity: .75; }
+.u5-st b { font-family: var(--serif); font-size: 13pt; margin-top: 2mm; }
+.u5-st small { font-size: 8.4pt; line-height: 1.3; margin-top: 1mm; opacity: .92; }
+.u5-st .p { margin-top: auto; font-family: var(--serif); font-weight: 700; font-size: 10pt; }
+.u5-more { display: grid; grid-template-columns: 1fr 1fr; gap: 2.6mm; }
+.u5-more div { background: var(--teal-t); border-radius: 2.5mm; padding: 2.8mm 3.4mm; }
+.u5-more b { font-family: var(--serif); font-style: italic; font-size: 11.5pt; display: block; }
+.u5-more span { font-size: 8.8pt; }
+.u5-how { margin-top: 4mm; border: .4mm solid var(--teal); border-radius: 3mm; overflow: hidden; }
+.u5-how .h-h { background: var(--teal); color: #fff; font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; padding: 1.8mm 4mm; }
+.u5-how > div:not(.h-h) { display: grid; grid-template-columns: 9mm 1fr; padding: 2.4mm 4mm; border-top: .3mm solid var(--rule); font-size: 9.4pt; align-items: baseline; }
+.u5-how i { font-family: var(--serif); font-weight: 800; font-style: italic; color: var(--teal); font-size: 14pt; }
+
+/* year map */
+.u5-m { border-radius: 3mm; overflow: hidden; border: .4mm solid var(--c); margin-top: 4mm; }
+.u5-m .mh { background: var(--c); color: #fff; display: grid; grid-template-columns: 14mm 1fr; align-items: center; padding: 2.4mm 4mm; }
+.u5-m .mh span { font-family: var(--serif); font-style: italic; font-weight: 800; font-size: 24pt; line-height: 1; }
+.u5-m .mh b { font-family: var(--serif); font-size: 14pt; display: block; }
+.u5-m .mh small { font-family: var(--mono); font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; opacity: .85; }
+.u5-m .mb { display: grid; grid-template-columns: 1.5fr 1fr; gap: 4mm; padding: 3mm 4mm 1mm; background: #fff; }
+.u5-m h4 { font-family: var(--mono); font-size: 7pt; letter-spacing: .14em; text-transform: uppercase; color: var(--c); margin: 0 0 1mm; font-weight: 500; }
+.u5-m ul { margin: 0; padding-left: 4.4mm; font-size: 9.2pt; line-height: 1.5; }
+.u5-m .mr { background: #fff; padding: 1.6mm 4mm 3mm; font-size: 8.4pt; color: var(--mute); border-top: .3mm dashed var(--rule); }
+.u5-m .mr .ref { font-weight: 700; color: var(--ink); }
+.u5-self { margin-top: 5mm; }
+
+/* ad */
+.u5-ad { background: var(--sea); color: #fff; border-radius: 3mm; padding: 5mm 6mm; margin: 3mm 0; position: relative; overflow: hidden; }
+.u5-ad::after { content: ""; position: absolute; right: -14mm; bottom: -14mm; width: 60mm; height: 60mm; border-radius: 50%; border: 5mm solid var(--sun); opacity: .85; }
+.ad-top { display: flex; justify-content: space-between; align-items: baseline; }
+.ad-brand { font-family: var(--sans); font-weight: 800; letter-spacing: .3em; font-size: 12pt; color: var(--sun); }
+.ad-tag { font-family: var(--mono); font-size: 7pt; letter-spacing: .12em; text-transform: uppercase; opacity: .8; }
+.ad-h { font-family: var(--serif); font-weight: 800; font-size: 25pt; line-height: 1.05; margin: 3mm 0; }
+.ad-b { font-size: 10pt; line-height: 1.5; max-width: 118mm; margin: 0; }
+.ad-s { font-family: var(--serif); font-size: 15pt; margin: 3mm 0 2mm; } .ad-s em { color: var(--sun); }
+.u5-ad small { font-size: 6.4pt; opacity: .75; position: relative; z-index: 1; }
+.plan5 td { height: 10mm; font-size: 9pt; }
+
+/* review */
+.u5-rev { background: #fff; border: .3mm solid var(--rule); border-radius: 3mm; padding: 4mm 5mm; margin: 2mm 0 3mm; }
+.rv-top { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; color: var(--sea); border-bottom: .5mm solid var(--ink); padding-bottom: 1.4mm; }
+.rv-top .stars { color: var(--red); letter-spacing: .1em; font-size: 10pt; }
+.rv-t { font-family: var(--serif); font-style: italic; font-size: 22pt; margin: 2mm 0 0; }
+.rv-m { font-size: 8.4pt; color: var(--mute); margin: .6mm 0; } .rv-by { font-family: var(--mono); font-size: 7.4pt; margin: 0 0 2mm; }
+.rv-b { columns: 2; column-gap: 6mm; }
+.rv-b p { font-family: var(--serif); font-size: 9.8pt; line-height: 1.5; margin: 0 0 1.6mm; position: relative; padding-left: 5mm; }
+.rv-b .pn { position: absolute; left: 0; top: .6mm; font-family: var(--mono); font-size: 6.6pt; color: var(--sea); }
+.u5-arg { border: .4mm solid var(--teal); border-radius: 3mm; overflow: hidden; margin: 3mm 0; }
+.ag-h { background: var(--teal); color: #fff; font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; padding: 1.8mm 4mm; }
+.ag-r { display: grid; grid-template-columns: 10mm 44mm 1fr; gap: 2mm; padding: 2.6mm 4mm; border-top: .3mm solid var(--rule); align-items: end; font-size: 9pt; }
+.ag-r b { font-family: var(--serif); color: var(--teal); } .ag-r i { border-bottom: .3mm solid var(--ink); height: 5mm; }
+
+/* tesouro */
+.u5-th { display: grid; grid-template-columns: 1fr 70mm; gap: 5mm; align-items: start; }
+.u5-timg { height: 46mm; border-radius: 3mm; background-size: cover; background-position: center; }
+.u5-intro { font-size: 9.2pt; line-height: 1.45; margin: 1.6mm 0 0; }
+.u5-intro.narrow { max-width: 86mm; background: var(--teal-t); border-radius: 2.5mm; padding: 2.4mm 3.2mm; }
+.u5-voc { break-inside: avoid; background: var(--teal-t); border-radius: 2.5mm; padding: 2.6mm 3.2mm; margin-top: 3mm; }
+.u5-voc .vc-h { font-family: var(--mono); font-size: 7pt; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); }
+.u5-voc p { font-size: 8.4pt !important; line-height: 1.45 !important; text-indent: 0 !important; margin: 1mm 0 0 !important; padding: 0 !important; }
+.cat5 td { height: 13mm; font-size: 9pt; vertical-align: top; } .cat5 td small { display: block; font-size: 7.4pt; color: var(--mute); }
+ol.mini.two { columns: 2; column-gap: 6mm; }
+
+/* scene */
+.u5-play p.did { color: var(--teal); } .u5-play i.di { color: var(--teal); }
+
+/* grammar circuits */
+.u5-gc { display: grid; grid-template-columns: 1fr 1fr; gap: 3.4mm; margin-top: 3mm; }
+.gc { background: #fff; border: .3mm solid var(--rule); border-radius: 3mm; padding: 3.2mm 3.8mm; }
+.gc.wide { grid-column: 1 / -1; }
+.gc-h { display: flex; align-items: baseline; gap: 2mm; font-family: var(--serif); font-style: italic; font-size: 12.5pt; font-weight: 700; border-bottom: .3mm solid var(--rule); padding-bottom: 1.4mm; margin-bottom: 1.6mm; }
+.gc-h b { font-style: normal; background: var(--sun); border-radius: 1.2mm; padding: 0 2mm; font-size: 11pt; }
+.gc-h span { margin-left: auto; font-family: var(--mono); font-style: normal; font-weight: 400; font-size: 7pt; color: var(--mute); }
+.gc p { font-size: 9pt; margin: 0 0 1mm; }
+.gc ol.mini li { font-size: 9.2pt; margin-bottom: 1.2mm; }
+
+/* test */
+.u5-tx { background: #fff; border: .3mm solid var(--rule); border-radius: 3mm; padding: 3.4mm 4.4mm; margin: 2mm 0 3mm; }
+.u5-tx .tx-h { font-family: var(--mono); font-size: 7.2pt; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); margin-bottom: 1.4mm; }
+.u5-tx p { font-family: var(--serif); font-size: 10pt; line-height: 1.55; margin: 0 0 1.4mm; position: relative; padding-left: 5mm; }
+.u5-tx .pn { position: absolute; left: 0; top: .6mm; font-family: var(--mono); font-size: 6.6pt; color: var(--teal); }
+.tq-g { display: flex; justify-content: space-between; background: var(--teal); color: #fff; border-radius: 1.6mm; padding: 1.4mm 3mm; margin: 2.4mm 0 1.4mm; font-size: 9pt; }
+.tq-g b { font-family: var(--mono); font-size: 7.4pt; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; }
+.u5-tq ol.qs li { font-size: 9.2pt; } .pt { font-family: var(--mono); font-size: 7pt; color: var(--mute); }
+.u5-crit { display: flex; gap: 2mm; flex-wrap: wrap; align-items: center; margin-top: 3mm; font-size: 8.6pt; }
+.u5-crit b { font-family: var(--serif); font-style: italic; margin-right: 1mm; } .u5-crit span { background: var(--teal-t); border-radius: 10mm; padding: .6mm 2.6mm; }
+
+/* reflection */
+.u5-pass { border: .5mm dashed var(--teal); border-radius: 3mm; padding: 3mm 4mm; margin: 3mm 0; }
+.ps-h { display: flex; justify-content: space-between; align-items: baseline; }
+.ps-h b { font-family: var(--serif); font-style: italic; font-size: 13pt; color: var(--teal); } .ps-h span { font-size: 8pt; color: var(--mute); }
+.ps-g { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3mm; margin-top: 2.4mm; }
+.ps-g div { height: 26mm; border: .3mm solid var(--rule); border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding-bottom: 3mm; font-size: 8pt; background: #fff; }
+.ps-g i { font-family: var(--serif); font-style: italic; font-weight: 800; font-size: 13pt; color: var(--teal); }
+.u5-top { background: var(--teal-t); border-radius: 3mm; padding: 3mm 4mm; margin: 3mm 0; }
+.tp-h { font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); }
+.tp { display: grid; grid-template-columns: 70mm 1fr; gap: 2mm; align-items: end; padding: 2.2mm 0; font-size: 9pt; }
+.tp b { font-weight: 600; } .tp i { border-bottom: .3mm solid var(--ink); height: 5mm; }
+.u5-st { min-height: 62mm; }
+.u5-cal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.6mm; margin-top: 4mm; }
+.cl-h { grid-column: 1 / -1; font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); }
+.u5-cal > div:not(.cl-h) { border-left: 1.2mm solid var(--teal); padding: 1.4mm 3mm; background: #fff; border-radius: 0 2mm 2mm 0; }
+.u5-cal b { font-family: var(--serif); font-style: italic; display: block; font-size: 11.5pt; } .u5-cal span { font-size: 8.8pt; }
+.u5-m ul { font-size: 9.8pt; line-height: 1.55; } .u5-m .mb { padding: 3.6mm 4.4mm 1.6mm; }
+.u5-auth { margin-top: 5mm; display: flex; flex-wrap: wrap; gap: 1.6mm; font-size: 8.8pt; }
+.au-h { width: 100%; font-family: var(--mono); font-size: 7.4pt; letter-spacing: .16em; text-transform: uppercase; color: var(--teal); }
+.u5-auth span { border: .3mm solid var(--teal); border-radius: 10mm; padding: .8mm 3mm; background: #fff; }
+.u5-auth span::before { content: "☐ "; color: var(--teal); }
+.u5-auth p { width: 100%; font-size: 8.6pt; color: var(--mute); margin: 1.4mm 0 0; }
+.plan5 td { height: 12.5mm; } .cat5 td { height: 16mm; }
+.pl-r { display: grid; grid-template-columns: 20mm 1fr; gap: 2mm; align-items: end; padding: 1.2mm 0; }
+.pl-r b { font-family: var(--serif); font-style: italic; font-size: 9.6pt; color: var(--teal); } .pl-r i { border-bottom: .3mm solid var(--ink); height: 5.4mm; }
+.u5-plans p { margin-top: 2mm !important; }
+.v-rev .fan-p .vpoem { font-size: 12pt; }
+.u5-model { background: var(--teal-t); border-radius: 2.5mm; padding: 2.8mm 3.4mm; margin: 0 0 3mm; }
+.u5-model b { font-family: var(--mono); font-size: 7pt; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); font-weight: 500; }
+.u5-model p { font-family: var(--serif); font-size: 9.2pt; line-height: 1.5; margin: 1.2mm 0 0; } .u5-model p b { font-family: var(--serif); font-size: 9.2pt; letter-spacing: 0; text-transform: none; color: var(--ink); font-weight: 700; }
+.u5-rb { margin-top: 4mm; } .u5-rb td { font-size: 9pt; padding: 2.4mm; }
+.u5-pl { background: var(--teal-t); border-radius: 2.5mm; padding: 2.8mm 3.6mm; margin: 2mm 0 3mm; }
+.u5-pl > b { font-family: var(--serif); font-style: italic; font-size: 11pt; color: var(--teal); }
+.u5-m { margin-top: 5.5mm; } .u5-m ul { font-size: 10.2pt; }
