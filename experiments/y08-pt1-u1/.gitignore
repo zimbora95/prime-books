@@ -3,3 +3,10 @@ build/
 art/*.png
 src/_book.built.html
 __pycache__/
+texts/verne.txt
+texts/wilde.txt
+texts/wilde.txt.pt
+texts/jav.pdf
+texts/*.md
+texts/javanes.txt
+u2sheet.py
