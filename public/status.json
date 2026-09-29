@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-28 03:15 UTC",
+ "generated": "2026-09-29 03:23 UTC",
  "totals": {
-  "books": 130,
-  "pages": 13038,
+  "books": 131,
+  "pages": 13598,
   "withInput": 88,
-  "noInput": 42,
+  "noInput": 43,
   "standardized": 0,
   "years": 13,
   "machineClean": 6
@@ -792,14 +792,14 @@
     {
      "slug": "y04-portuguese-anthropic",
      "subject": "Portuguese",
-     "pages": 24,
+     "pages": 168,
      "input": null,
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 7,
-      "warnings": 3,
-      "state": "not built"
+      "failures": 3,
+      "warnings": 2,
+      "state": "not-standardised"
      }
     },
     {
@@ -847,7 +847,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 738
+   "pages": 882
   },
   {
    "year": 5,
@@ -949,7 +949,7 @@
     {
      "slug": "y05-portuguese-anthropic",
      "subject": "Portuguese",
-     "pages": 24,
+     "pages": 176,
      "input": null,
      "standardized": false
     },
@@ -980,7 +980,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 602
+   "pages": 754
   },
   {
    "year": 6,
@@ -1080,6 +1080,13 @@
      "standardized": false
     },
     {
+     "slug": "y06-portuguese-anthropic",
+     "subject": "Portuguese",
+     "pages": 132,
+     "input": null,
+     "standardized": false
+    },
+    {
      "slug": "y06-science",
      "subject": "Science",
      "pages": 2,
@@ -1106,7 +1113,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 654
+   "pages": 786
   },
   {
    "year": 7,
@@ -1320,7 +1327,7 @@
     {
      "slug": "y08-portuguese-1st-anthropic",
      "subject": "Portuguese 1st",
-     "pages": 40,
+     "pages": 172,
      "input": null,
      "standardized": false
     },
@@ -1351,7 +1358,7 @@
    ],
    "withInput": 7,
    "standardized": 0,
-   "pages": 952
+   "pages": 1084
   },
   {
    "year": 9,
@@ -1613,6 +1620,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-09-28 03:00 UTC",
+ "checked_at": "2026-09-29 03:00 UTC",
  "spec": "A-2.3-Y1-4"
 }
