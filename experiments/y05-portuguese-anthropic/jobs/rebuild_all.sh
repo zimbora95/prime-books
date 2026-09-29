@@ -16,3 +16,5 @@ for u in ["build","u2/build","u3/build","u4/build","u5/build","u6/build","u7/bui
     print(u,d.page_count,{k:v[:6] for k,v in fs.items()})
 E
 echo REBUILD-DONE
+cd $R/fm && PY=/root/.hermes/cache/scratch/exp-venv/bin/python && echo "fm start $(date +%T)" && timeout 1800 $PY harvest.py > $R/jobs/logs/rebuild-fm.log 2>&1 && timeout 1800 $PY build.py --check >> $R/jobs/logs/rebuild-fm.log 2>&1 && timeout 1800 $PY assemble.py >> $R/jobs/logs/rebuild-fm.log 2>&1 && timeout 1800 $PY qa.py >> $R/jobs/logs/rebuild-fm.log 2>&1; echo "fm exit $?"; tail -25 $R/jobs/logs/rebuild-fm.log
+echo ALL-REBUILT

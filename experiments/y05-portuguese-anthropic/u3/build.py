@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Unit 3 — O Coreto das Palavras (Português · Year 5, pp. 65–80).
+"""Build Unit 3 — O Coreto das Palavras (Português · 5.º Ano, pp. 65–80).
 
 src/base.css (Unit 1 type/colour system) + src/unit.html ({{…}} tokens)
   -> build/unit.html -> build/unit.pdf -> build/png/NN.png (NN = book folio 65..80)
@@ -12,21 +12,22 @@ import segno
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome")
 ART, BUILD = os.path.join(HERE, "art"), os.path.join(HERE, "build")
 PROFILE = os.path.join(BUILD, "chrome-profile-u3")   # own profile dir: concurrent unit builds never collide
 FIRST_FOLIO = 65
 
+# Only stable public resources (no self-recorded audio, no temporary site). Verified HTTP 200, 2026-09-28.
 QRS = {
-    "a1": SITE + "audio/u3-01-o-coreto-adormecido.mp3",
-    "a2": SITE + "audio/u3-02-tres-rimas.mp3",
-    "a3": SITE + "audio/u3-03-contar-silabas.mp3",
-    "a4": SITE + "audio/u3-04-o-vento-e-a-chuva.mp3",
-    "a5": SITE + "audio/u3-05-a-noite-da-mourinha.mp3",
-    "a6": SITE + "audio/u3-06-noite-e-dia-duas-vozes.mp3",
-    "solucoes": SITE + "solucoes-u3.html",
+    "fonico": "https://ensina.rtp.pt/explicador/recursos-expressivos-a-nivel-fonico/",       # p. 70 · rima (Pessoa, AABB)
+    "aula58": "https://www.rtp.pt/play/estudoemcasa/p7800/e549488/portugues-5-e-6-anos",     # p. 71 · a sílaba métrica
+    "semantico": "https://ensina.rtp.pt/explicador/recursos-expressivos-a-nivel-semantico-11/",  # p. 72 · personificação
 }
+
+# "say it aloud" icon: a speech bubble with sound arcs on the page accent (replaces the old audio QRs)
+SAYICON = ('<svg class="si" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" style="fill:var(--c)"/>'
+           '<path d="M6 8.5h8.5a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1-1.5 1.5H10l-3 2.4V15.5H6a1.5 1.5 0 0 1-1.5-1.5v-4A1.5 1.5 0 0 1 6 8.5z" fill="#fff"/>'
+           '<path d="M18.2 9.6q1.5 2.4 0 4.8M20.3 8.2q2.4 3.8 0 7.6" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round"/></svg>')
 
 KEYC = {"bronze": "#B7723A", "prata": "#8E99A6", "ouro": "#D6A21E"}
 
@@ -112,6 +113,7 @@ def render_html():
     for k in KEYC:
         html = html.replace("{{KEY:%s}}" % k, key_svg(k))
     html = html.replace("{{QRICON}}", '<svg viewBox="0 0 12 12" style="width:4mm;height:4mm"><path d="M1 1h4v4H1zM7 1h4v4H7zM1 7h4v4H1zM7 7h2v2H7zM9 9h2v2H9z" fill="#1C2536"/></svg>')
+    html = html.replace("{{SAYICON}}", SAYICON)
     for n, u in QRS.items():
         html = html.replace("{{QR:%s}}" % n, qr_svg(u))
     left = re.findall(r"\{\{[^}]+\}\}", html)

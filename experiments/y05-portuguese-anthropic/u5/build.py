@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Unit 5 — O Comboio das Quatro Estações (Revisões Anuais) · Português · Year 5 · pp. 97–112.
+"""Build Unit 5 — O Comboio das Quatro Estações (Revisões Anuais) · Português · 5.º Ano · pp. 97–112.
 
 u5/src/unit.html ({{…}} tokens) -> u5/build/unit.html -> u5/build/unit.pdf -> u5/build/png/NN.png
 The Unit 1 stylesheet (../src/unit.html) is read — never modified — and inlined so the type system is identical.
@@ -12,19 +12,15 @@ import segno
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome")
 ART, BUILD = os.path.join(HERE, "art"), os.path.join(HERE, "build")
 PROFILE = os.path.join(BUILD, "chrome-profile-u5")
 FIRST_FOLIO = 97
 
+# Only stable public sites (no self-recorded audio, no temporary hosting).
 QRS = {
-    "relato": SITE + "audio/u5-01-relato-linha-do-douro.mp3",
-    "ditado": SITE + "audio/u5-02-ditado.mp3",
-    "conto": SITE + "audio/u5-03-conto-a-mala-azul.mp3",
-    "poema": SITE + "audio/u5-04-poema-comboio-da-noite.mp3",
-    "cena": SITE + "audio/u5-05-cena-carruagem-5.mp3",
-    "solucoes": SITE + "solucoes-u5.html",
+    "onomatopeia": "https://dicionario.priberam.org/onomatopeia",
+    "priberam": "https://dicionario.priberam.org/",
     "pinhao": "https://www.ippatrimonio.pt/pt-pt/estacoes/estacao-do-pinhao",
     "barcelos": "https://www.cm-barcelos.pt/visitar/caminho-portugues-de-santiago/a-lenda-do-galo",
 }
@@ -101,6 +97,23 @@ def map_svg():
     return "".join(o)
 
 
+def icon_svg(kind):
+    """Square pictogram (same footprint as a QR) for offline tasks: 'voz' = read aloud / listen to the
+    teacher, 'livro' = back of the book. Drawn shapes only — no text in the image."""
+    c = "var(--c)"
+    body = {
+        "voz": (f'<path d="M5 6h15a2.4 2.4 0 0 1 2.4 2.4v7a2.4 2.4 0 0 1-2.4 2.4H11l-4.6 3.8v-3.8H5a2.4 2.4 0 0 1-2.4-2.4v-7A2.4 2.4 0 0 1 5 6z" fill="#fff" stroke="{c}" stroke-width="1.5" stroke-linejoin="round"/>'
+                f'<path d="M7 10.4h11M7 13.6h7.5" stroke="{c}" stroke-width="1.4" stroke-linecap="round"/>'
+                f'<path d="M16 20.6h7a2.4 2.4 0 0 0 2.4-2.4v-3.6" fill="none" stroke="#1C2536" stroke-width="1.3" stroke-linecap="round"/>'
+                f'<path d="M25.4 14.6v8.2l-3-2.4" fill="none" stroke="#1C2536" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>'),
+        "livro": (f'<path d="M15 8.5C12 6.6 8 6.2 4.6 6.8v15.4c3.4-.6 7.4-.2 10.4 1.7 3-1.9 7-2.3 10.4-1.7V6.8C22 6.2 18 6.6 15 8.5z" fill="#fff" stroke="{c}" stroke-width="1.5" stroke-linejoin="round"/>'
+                  f'<path d="M15 8.5v15.4" stroke="{c}" stroke-width="1.4"/>'
+                  f'<path d="M7.4 11h4.8M7.4 14h4.8M7.4 17h3.6M17.8 11h4.8M17.8 14h4.8M17.8 17h3.6" stroke="#1C2536" stroke-width="1.1" stroke-linecap="round"/>'),
+    }[kind]
+    return (f'<svg class="pict" viewBox="0 0 30 30" aria-hidden="true"><rect x=".6" y=".6" width="28.8" height="28.8" rx="2.4" '
+            f'fill="var(--t)" stroke="{c}" stroke-width=".9"/>{body}</svg>')
+
+
 def u1_css():
     src = open(os.path.join(ROOT, "src", "unit.html"), encoding="utf-8").read()
     css = src.split("<style>", 1)[1].split("/* ---------- per-page vertical tuning", 1)[0]
@@ -168,6 +181,8 @@ def render_html():
     for k in KEYC:
         html = html.replace("{{KEY:%s}}" % k, key_svg(k))
     html = html.replace("{{QRICON}}", '<svg viewBox="0 0 12 12" style="width:4mm;height:4mm"><path d="M1 1h4v4H1zM7 1h4v4H7zM1 7h4v4H1zM7 7h2v2H7zM9 9h2v2H9z" fill="#1C2536"/></svg>')
+    for k in ("voz", "livro"):
+        html = html.replace("{{ICON:%s}}" % k, icon_svg(k))
     for n, u in QRS.items():
         html = html.replace("{{QR:%s}}" % n, qr_svg(u))
     left = re.findall(r"\{\{[^}]+\}\}", html)

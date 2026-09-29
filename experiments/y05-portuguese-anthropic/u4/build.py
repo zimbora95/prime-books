@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Unit 4 — Texto Dramático (Português · Year 5), pp. 81–96.
+"""Build Unit 4 — Texto Dramático (Português · 5.º Ano), pp. 81–96.
 
 u4/src/unit.html (with {{…}} tokens) -> u4/build/unit.html -> u4/build/unit.pdf -> u4/build/png/NN.png
 Run with the experiment venv:
@@ -13,16 +13,13 @@ import segno
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell")  # light & fast under load
 ART, BUILD = os.path.join(HERE, "art"), os.path.join(HERE, "build")
 PROFILE = os.path.join(BUILD, "chrome-profile")  # own profile dir: concurrent builds must not collide
 
 QRS = {
-    "aviso": SITE + "audio/u4-01-o-aviso.mp3",
-    "chave": SITE + "audio/u4-02-a-chave-desaparecida.mp3",
-    "frases": SITE + "audio/u4-03-ouve-e-decide.mp3",
-    "solucoes": SITE + "solucoes-u4.html",
+    "contracena": "https://ensina.rtp.pt/artigo/a-contracena-no-teatro/",
+    "marcacao": "https://ensina.rtp.pt/artigo/sabe-o-que-e-uma-marcacao-em-teatro/",
     "tndm": "https://www.tndm.pt/historia",
 }
 

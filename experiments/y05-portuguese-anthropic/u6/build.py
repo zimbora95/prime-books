@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build Unit 6 — «Avaliação» (Português · Year 5), pp. 113–128.
+"""Build Unit 6 — «Avaliação» (Português · 5.º Ano), pp. 113–128.
 
 src/unit.html ({{…}} tokens) -> build/unit.html -> build/unit.pdf -> build/png/NN.png (NN = 113..128)
 Run with the experiment venv:
-    /root/.hermes/cache/scratch/exp-venv/bin/python build.py
+    /root/.venvs/y05exp/bin/python build.py
 Tokens:
     {{QR:name}}          QR code (segno, viewBox + 4-module quiet zone)
     {{M:sec:n}}          margin mark box «[ __ /n ]»; build checks that every section adds up to its data-pts
@@ -14,19 +14,12 @@ import segno
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome")
 BUILD = os.path.join(HERE, "build")
 FIRST_FOLIO = 113
 N_PAGES = 16
 
-QRS = {
-    "a1": SITE + "audio/u6-01-radio-escola.mp3",
-    "a2": SITE + "audio/u6-02-bicicleta-amarela.mp3",
-    "a3": SITE + "audio/u6-03-chuva-miudinha.mp3",
-    "a4": SITE + "audio/u6-04-coroa-do-rei.mp3",
-    "solucoes": SITE + "solucoes-u6.html",
-}
+QRS = {}  # no QR codes in this unit: part D is read aloud by the teacher; solutions are in the back matter
 
 
 def qr_svg(url):

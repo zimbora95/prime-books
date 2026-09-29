@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
-"""Assemble «Português · Year 5 — Manual do aluno» into fm/build/book.pdf.
+"""Assemble «Português · 5.º Ano — Manual do aluno» into fm/build/book.pdf.
 
     /root/.hermes/cache/scratch/exp-venv/bin/python assemble.py [--allow-missing]
 
-front.pdf (i–viii) + ./build/unit.pdf (1–24) + u2..u7/build/unit.pdf (25–144) + back.pdf (145–151 + back cover)
+covers.pdf p. 1 (i, the master's front in Portuguese) + front.pdf (ii–viii) + ./build/unit.pdf (1–24)
++ u2..u7/build/unit.pdf (25–144) + back.pdf (145 … Colofão: Soluções, Textos para o professor, Glossário …)
++ covers.pdf p. 2 (the master's back in Portuguese).
+
+The covers are 576 × 828 pt (the master's page): they are fitted to A4 by scaling to the width (595.28 / 576 = ×1.0335)
+and cropping the height symmetrically (855.7 − 841.9 = 13.8 pt, i.e. 6.9 pt ≈ 2.4 mm top and bottom).
 
 Checks: every part exists and has its planned page count; the printed folio of every page matches the plan
-(read from the text layer, bottom 22 mm); total = 160; fonts subset (pymupdf subset_fonts) and then no Type3 or
-base-14 (non-embedded) font anywhere. Writes build/assembly-report.md and build/assembly-report.json.
+(read from the text layer, bottom 22 mm); total = model.json's total and even; fonts subset (pymupdf subset_fonts) and
+then no Type3 or base-14 (non-embedded) font anywhere. Writes build/assembly-report.md and build/assembly-report.json.
 Never publishes: no writes outside fm/build/.
 """
 import json
@@ -21,22 +26,42 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 BUILD = os.path.join(HERE, "build")
 sys.path.insert(0, HERE)
-from plan import FRONT, TOTAL, UNITS  # noqa: E402
+from plan import UNITS  # noqa: E402
 
 BASE14 = {"Courier", "Helvetica", "Times-Roman", "Times", "Symbol", "ZapfDingbats", "Arial"}
 ROMAN = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii"]
+A4 = pymupdf.paper_rect("a4")
 
 
-def parts():
-    out = [dict(name="Abertura (front matter)", path=os.path.join(BUILD, "front.pdf"), pages=8,
-                folios=ROMAN, unnumbered={"i", "ii"})]
+def model():
+    return json.load(open(os.path.join(BUILD, "model.json")))
+
+
+def parts(M):
+    out = [dict(name="Capa (master, em português)", path=os.path.join(BUILD, "covers.pdf"), pages=2, take=[0], cover=True,
+                folios=["capa"], unnumbered={"capa"}),
+           dict(name="Abertura (front matter)", path=os.path.join(BUILD, "front.pdf"), pages=7,
+                folios=ROMAN[1:], unnumbered={"ii"})]
     for u in UNITS:
         out.append(dict(name=f"Unidade {u['n']}", path=os.path.join(ROOT, u["folder"], "build", "unit.pdf"),
                         pages=u["pages"], folios=[str(n) for n in range(u["first"], u["last"] + 1)],
                         unnumbered={str(u["first"])}))  # unit openers are full-bleed art pages without a folio
-    out.append(dict(name="Fim do livro (back matter)", path=os.path.join(BUILD, "back.pdf"), pages=8,
-                    folios=[str(n) for n in range(145, 152)] + ["contracapa"], unnumbered={"contracapa"}))
+    out.append(dict(name="Fim do livro (back matter)", path=os.path.join(BUILD, "back.pdf"), pages=len(M["back"]),
+                    folios=[str(p) for p, _ in M["back"]], unnumbered=set()))
+    out.append(dict(name="Contracapa (master, em português)", path=os.path.join(BUILD, "covers.pdf"), pages=2, take=[1], cover=True,
+                    folios=["contracapa"], unnumbered={"contracapa"}))
     return out
+
+
+def add_cover(book, src, pno):
+    """the master's 576 × 828 cover on an A4 page: scale to the width, crop the height symmetrically"""
+    r = src[pno].rect
+    k = A4.width / r.width
+    h = r.height * k
+    dy = (h - A4.height) / 2
+    pg = book.new_page(width=A4.width, height=A4.height)
+    pg.show_pdf_page(pymupdf.Rect(0, -dy, A4.width, A4.height + dy), src, pno, keep_proportion=True)
+    return round(k, 4), round(dy, 2)
 
 
 def printed_folio(pg, expect):
@@ -50,8 +75,10 @@ def printed_folio(pg, expect):
 def main():
     allow_missing = "--allow-missing" in sys.argv
     rep = dict(parts=[], problems=[], missing=[])
+    M = model()
+    TOTAL = M["total"]
     book = pymupdf.open()
-    for part in parts():
+    for part in parts(M):
         info = dict(name=part["name"], path=part["path"], planned=part["pages"])
         if not os.path.exists(part["path"]):
             info["status"] = "MISSING"
@@ -61,6 +88,12 @@ def main():
                 sys.exit(f"missing {part['path']} (use --allow-missing to assemble what exists)")
             continue
         d = pymupdf.open(part["path"])
+        if part.get("cover"):
+            k, dy = add_cover(book, d, part["take"][0])
+            info.update(pages=1, planned=1, mtime=os.path.getmtime(part["path"]), folio_errors=[], status="ok",
+                        fit=f"scale ×{k}, crop {dy} pt ({dy * 25.4 / 72:.2f} mm) top and bottom")
+            rep["parts"].append(info)
+            continue
         info["pages"] = d.page_count
         info["mtime"] = os.path.getmtime(part["path"])
         if d.page_count != part["pages"]:
@@ -97,16 +130,15 @@ def main():
     # outline (bookmarks)
     toc = [[1, "Capa", 1], [1, "Ficha técnica", 2], [1, "Como usar este livro", 3], [1, "Mapa do ano", 4], [1, "Índice", 5],
            [1, "O meu ano de leitura", 7], [1, "Quem sou eu como leitor", 8]]
-    model = json.load(open(os.path.join(BUILD, "model.json"))) if os.path.exists(os.path.join(BUILD, "model.json")) else {}
-    for u in model.get("units", UNITS):
+    for u in M.get("units", UNITS):
         if u["first"] + 8 <= book.page_count:
             toc.append([1, f"Unidade {u['n']} · {u['title']}", u["first"] + 8])
-    for p, t in [(145, "Glossário"), (147, "Recursos digitais"), (148, "Referências e créditos"), (149, "Planificação anual"),
-                 (150, "O meu 5.º ano — antes de fechar o livro"), (151, "Colofão"), (152, "Contracapa")]:
+    for t, p in M["back_index"]:
         if p + 8 <= book.page_count:
             toc.append([1, t, p + 8])
+    toc.append([1, "Contracapa", book.page_count])
     book.set_toc(toc)
-    book.set_metadata({"title": "Português · Year 5 — Manual do aluno", "author": "Prime School Press",
+    book.set_metadata({"title": "Português · 5.º Ano — Manual do aluno", "author": "Prime School Press",
                        "subject": "Português Língua Materna, 5.º ano", "creator": "Prime School Press",
                        "producer": "Prime School Press (Chromium + PyMuPDF)"})
     # fonts: subset, then verify nothing is Type3 or a non-embedded base-14 font
@@ -137,6 +169,7 @@ def main():
         rep["problems"].append(f"non-embedded base-14 fonts: {sorted(base14)}")
     rep["size_mb"] = round(os.path.getsize(out) / 1e6, 2)
     rep["out"] = out
+    rep["plan_total"] = TOTAL
     json.dump(rep, open(os.path.join(BUILD, "assembly-report.json"), "w"), ensure_ascii=False, indent=1)
     write_md(rep)
     print(f"book.pdf: {rep['total']} pages, {rep['size_mb']} MB -> {out}")
@@ -159,11 +192,11 @@ def compress(nums):
 
 
 def write_md(rep):
-    L = ["# Assembly report — Português · Year 5 — Manual do aluno", "",
-         f"Output: `{rep['out']}` — **{rep['total']} pages** (plan {TOTAL}), {rep['size_mb']} MB", "",
+    L = ["# Assembly report — Português · 5.º Ano — Manual do aluno", "",
+         f"Output: `{rep['out']}` — **{rep['total']} pages** (plan {rep['plan_total']}), {rep['size_mb']} MB", "",
          "| Part | Planned | Found | Status | Folio errors |", "|---|---|---|---|---|"]
     for p in rep["parts"]:
-        L.append(f"| {p['name']} | {p['planned']} | {p.get('pages', '—')} | {p['status']} | {len(p.get('folio_errors', []))} |")
+        L.append(f"| {p['name']} | {p['planned']} | {p.get('pages', '—')} | {p['status']}{' — ' + p['fit'] if p.get('fit') else ''} | {len(p.get('folio_errors', []))} |")
     L += ["", f"Font subsetting: {rep['subset']}", "", "Fonts in the book: " + ", ".join(f"{t} {n}" for t, n in rep["fonts"]), ""]
     L += ["## Problems", ""] + ([f"- {p}" for p in rep["problems"]] or ["- none"])
     if rep["missing"]:

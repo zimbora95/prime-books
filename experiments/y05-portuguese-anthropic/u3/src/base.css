@@ -37,6 +37,10 @@ body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-hei
 .tab span{transform:rotate(90deg);white-space:nowrap}
 .page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
 .page.even .tab span{transform:rotate(-90deg)}
+/* print-safe tabs: the label sits 5+ mm inside the trim once the page is fitted to US Letter */
+.tab{width:10.5mm!important;box-sizing:border-box;padding-right:4.3mm}
+.page.even .tab{padding-right:0;padding-left:4.3mm}
+
 /* ---------- type ---------- */
 .disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
 h1.disp{font-size:34pt;color:var(--ink)}

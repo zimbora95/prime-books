@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Write site/solucoes-u7.html (teacher solutions + audio scripts) from the SAME puzzle data the book prints."""
+"""Write site/solucoes-u7.html (teacher solutions) from the SAME puzzle data the book prints."""
 import html as H, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-import build, puzzles, audio_scripts as A  # noqa: E402
+import build, puzzles  # noqa: E402
 
 P = build.load_puzzles()
 cw, ws, dom = P["cw"], P["ws"], P["dom"]
@@ -17,19 +17,14 @@ chain = " → ".join(f"{a}|{b}" for a, b, _ in dom["chain"])
 pairs = "".join(f"<li>{w} — {'sinónimo' if rel == 'sin' else 'antónimo'}: <b>{a}</b></li>" for w, rel, a in puzzles.DOMINO)
 
 
-def script(name):
-    return "".join(f"<p>{H.escape(t)}</p>" for _, _, _, t, _ in A.TRACKS[name])
-
-
 page = f"""<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Soluções · Atividades Extra · Português Year 5 · Unidade 7</title>
+<title>Soluções · Atividades Extra · Português 5.º Ano · Unidade 7</title>
 <style>
 body{{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;max-width:780px;margin:0 auto;padding:24px 18px 60px;color:#1C2536;background:#F6F0E4;line-height:1.5}}
 h1{{font-family:Georgia,serif;font-size:1.9rem;margin:.2em 0}}h2{{font-family:Georgia,serif;margin-top:1.8em;border-bottom:2px solid #1C2536;padding-bottom:.2em}}
 .k{{font:600 .75rem ui-monospace,monospace;letter-spacing:.12em;text-transform:uppercase;color:#C9761C}}
 dl{{display:grid;grid-template-columns:max-content 1fr;gap:.3em 1em}}dt{{font-weight:700}}
-audio{{width:100%;margin:.4em 0 1em}}
 .note{{background:#fff;border-radius:8px;padding:.8em 1em;border:1px solid #D8CCB6}}
 .grids{{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}}
 table.cw,table.ws{{border-collapse:collapse;background:#fff}}
@@ -41,9 +36,9 @@ table.ws td.on{{background:#DCE1F3;color:#1C2536}}table.ws td.left{{background:#
 ol.c{{list-style:none;padding:0;columns:2}}ol.c li{{margin-bottom:.2em}}
 details{{background:#fff;border:1px solid #D8CCB6;border-radius:8px;padding:.6em 1em;margin:.6em 0}}summary{{font-weight:700;cursor:pointer}}
 </style></head><body>
-<div class="k">Português · Year 5 · Unidade 7 · Para o professor</div>
+<div class="k">Português · 5.º Ano · Unidade 7 · Para o professor</div>
 <h1>Atividades Extra — soluções</h1>
-<p class="note">Respostas dos jogos (pp. 131–144) e guiões dos áudios. As grelhas foram geradas e verificadas por programa: cada palavra está na grelha exatamente onde a pista indica. Nas tarefas de escrita e de oralidade, aceitam-se todas as respostas adequadas.</p>
+<p class="note">Respostas dos jogos e das atividades com recursos em linha (pp. 131–144). As grelhas foram geradas e verificadas por programa: cada palavra está na grelha exatamente onde a pista indica. Nas tarefas de escrita e de oralidade, aceitam-se todas as respostas adequadas.</p>
 
 <h2>1 · Palavras cruzadas do ano (p. 131)</h2>
 <div class="grids">{build.cw_grid(cw, solved=True)}
@@ -76,11 +71,11 @@ details{{background:#fff;border:1px solid #D8CCB6;border-radius:8px;padding:.6em
 <p style="font-size:.85rem"><b>O círculo completo</b> (peças como aparecem, metade esquerda|metade direita): {chain} → volta à primeira.</p>
 
 <h2>7–11 · Escrita criativa (pp. 135–137)</h2>
-<dl><dt>7–10</dt><dd>Respostas livres. Verificar: estrutura da narrativa (situação inicial, problema, tentativas, resolução); na carta — local e data, saudação, corpo, despedida, assinatura; no diário — 1.ª pessoa, pretérito perfeito e imperfeito.</dd>
+<dl><dt>7–10</dt><dd>Respostas livres. O começo impresso na p. 135 («No Cabo das Gaivotas…») é opcional; a versão completa, para o professor ler em voz alta, está nos textos do professor. Verificar: estrutura da narrativa (situação inicial, problema, tentativas, resolução); na carta — local e data, saudação, corpo, despedida, assinatura; no diário — 1.ª pessoa, pretérito perfeito e imperfeito.</dd>
 <dt>11</dt><dd>Respostas livres. Ouro — exemplo: «— Olha, Mourinha, é um mapa! — exclamou a Leonor, a apontar para o farol.»</dd></dl>
 
 <h2>12–15 · Oralidade (pp. 138–139)</h2>
-<dl><dt>12</dt><dd>Sons repetidos: m · ch · p · s · g · tr (aliteração).</dd>
+<dl><dt>12</dt><dd>Sons repetidos: m · ch · p · s · g · tr (aliteração). Vídeo do RTP Ensina (QR, «O rato roeu a rolha», série «A Ilha das Cores»): o som que se repete é o <b>r forte</b> — escrito <i>r</i> no início da palavra e <i>rr</i> entre vogais: «O rato roeu a rolha da garrafa do rei da Rússia».</dd>
 <dt>13</dt><dd>Jogo livre.</dd><dt>14</dt><dd>Imperfeito: era, brincavas, era (livro preferido); perfeito: mudou.</dd><dt>15</dt><dd>Livre.</dd></dl>
 
 <h2>16–19 · Clube de leitura (pp. 140–141)</h2>
@@ -91,16 +86,16 @@ details{{background:#fff;border:1px solid #D8CCB6;border-radius:8px;padding:.6em
 
 <h2>22–23 · Poesia visual e adivinhas (p. 144)</h2>
 <dl><dt>22</dt><dd>Texto do caligrama: «{H.escape(build.CALI_TEXT)}»</dd>
-<dt>23</dt><dd>1 o livro · 2 a osga · 3 o pente · 4 o escuro · 5 a agulha · 6 o mapa.</dd></dl>
+<dt>22 · Explorar</dt><dd>Segundo a Wikipédia (artigo «Caligrama», QR): o poeta francês <b>Guillaume Apollinaire</b>, o primeiro a usar a palavra <i>calligramme</i>, em <b>1918</b>.</dd>
+<dt>23</dt><dd>1 o livro · 2 a osga · 3 o pente · 4 o escuro · 5 a agulha · 6 o mapa.</dd>
+<dt>23 · Vídeo</dt><dd>RTP Ensina, «Adivinhas: que animal sou eu?» (série «A Ilha das Cores»): os três animais são o <b>leão</b> (o resmungão que ruge como um trovão), o <b>golfinho</b> (salta à velocidade de um torpedo) e o <b>cão</b> (esperto e corajoso).</dd></dl>
 
-<h2>Áudios</h2>
-<p>u7-01 · Trava-línguas da Mourinha (p. 138)</p><audio controls src="audio/u7-01-trava-linguas.mp3"></audio>
-<details><summary>Guião</summary>{script("u7-01-trava-linguas")}</details>
-<p>u7-02 · Adivinha, adivinha! (p. 144)</p><audio controls src="audio/u7-02-adivinhas.mp3"></audio>
-<details><summary>Guião</summary>{script("u7-02-adivinhas")}</details>
-<p>u7-03 · Começo de história: a chave do farol (p. 135)</p><audio controls src="audio/u7-03-comeco-de-historia.mp3"></audio>
-<details><summary>Guião</summary>{script("u7-03-comeco-de-historia")}</details>
-<p class="note">Vozes sintéticas em português europeu. Todos os textos gravados (trava-línguas, adivinhas, começo de história) são originais, escritos para este livro.</p>
+<h2>Recursos em linha desta unidade</h2>
+<ul><li>p. 132 · Dicionário Priberam da Língua Portuguesa — https://dicionario.priberam.org/</li>
+<li>p. 138 · RTP Ensina, «O rato roeu a rolha» — https://ensina.rtp.pt/artigo/o-rato-roeu-a-rolha/</li>
+<li>p. 144 · RTP Ensina, «Adivinhas: que animal sou eu?» — https://ensina.rtp.pt/artigo/adivinhas-que-animal-sou-eu/</li>
+<li>p. 144 · Wikipédia, «Caligrama» — https://pt.wikipedia.org/wiki/Caligrama</li></ul>
+<p class="note">Endereços verificados em setembro de 2026.</p>
 </body></html>
 """
 open(os.path.join(HERE, "site", "solucoes-u7.html"), "w", encoding="utf-8").write(page)

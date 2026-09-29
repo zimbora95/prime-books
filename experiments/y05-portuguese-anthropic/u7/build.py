@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Unit 7 — Atividades Extra (Português · Year 5), pp. 129–144.
+"""Build Unit 7 — Atividades Extra (Português · 5.º Ano), pp. 129–144.
 
 src/unit.html + src/base.css (Unit 1 type system) with {{…}} tokens
   -> build/unit.html -> build/unit.pdf -> build/png/NN.png   (NN = 01..16 = pp. 129..144)
@@ -14,18 +14,17 @@ sys.path.insert(0, HERE)
 import art_prep, puzzles  # noqa: E402
 
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome")
 BUILD = os.path.join(HERE, "build")
 PROFILE = os.path.join(BUILD, "chrome-profile")  # own profile dir: no clash with the other units' builds
 FIRST_FOLIO = 129
 
+# Only stable public resources (no self-recorded tracks, no temporary-site links). Verified 28 Sep 2026.
 QRS = {
-    "trava": SITE + "audio/u7-01-trava-linguas.mp3",
-    "adivinhas": SITE + "audio/u7-02-adivinhas.mp3",
-    "historia": SITE + "audio/u7-03-comeco-de-historia.mp3",
-    "solucoes": SITE + "solucoes-u7.html",
-    "priberam": "https://dicionario.priberam.org/",
+    "trava": "https://ensina.rtp.pt/artigo/o-rato-roeu-a-rolha/",            # p. 138 · RTP Ensina video
+    "adivinhas": "https://ensina.rtp.pt/artigo/adivinhas-que-animal-sou-eu/",  # p. 144 · RTP Ensina video
+    "caligrama": "https://pt.wikipedia.org/wiki/Caligrama",                    # p. 144 · Wikipédia (pt)
+    "priberam": "https://dicionario.priberam.org/",                            # p. 132
 }
 KEYC = {"bronze": "#B7723A", "prata": "#8E99A6", "ouro": "#D6A21E"}
 

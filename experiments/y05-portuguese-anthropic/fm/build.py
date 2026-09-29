@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the book matter of «Português · Year 5 — Manual do aluno».
+"""Build the book matter of «Português · 5.º Ano — Manual do aluno».
 
     /root/.hermes/cache/scratch/exp-venv/bin/python build.py [--harvest] [--check] [front|back]
 
@@ -25,54 +25,48 @@ ART = os.path.join(HERE, "art")
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell")
 sys.path.insert(0, HERE)
 import pages  # noqa: E402
+import solutions  # noqa: E402
 from glossary import G, TAUGHT_AT  # noqa: E402
-from plan import BACK, PAL, TOTAL, UNITS  # noqa: E402
+from plan import BACK_FIRST, PAL, UNITS, back_plan, total  # noqa: E402
 
 SHORT = {1: "Informar e descrever", 2: "Narrativa", 3: "Poesia", 4: "Teatro", 5: "Revisões", 6: "Avaliação", 7: "Extra"}
 
 # ---------------------------------------------------------------- curated overrides (edited by hand)
 QR_TITLES = {  # url fragment -> short title for the «Recursos digitais» page (edited by hand; unknown URLs fall back to the label)
-    "u2-05-o-misterio-das-coisas-de-la": "Ouvir: «O Mistério das Coisas de Lã»",
-    "u3-06-noite-e-dia-duas-vozes": "Ouvir: «Noite e Dia», a duas vozes",
-    "u6-03-chuva-miudinha": "Ouvir: Teste 3 — «Chuva miudinha»",
-    "u6-04-coroa-do-rei": "Ouvir: Teste 4 — a coroa do rei",
-    "audio/01-artigo-osga.mp3": "Ouvir: «A osga-comum»",
+    "cienciaviva.pt/meias-com-ciencia": "Ciência Viva: a ficha da osga-comum",
+    "arquivos.rtp.pt/conteudos/a-lenda-do-galo-de-barcelos": "RTP Arquivos: a Lenda do Galo de Barcelos",
+    "arquivos.rtp.pt/conteudos/o-palacio-da-pena": "RTP Arquivos: o Palácio da Pena",
+    "arquivos.rtp.pt/conteudos/um-electrico-chamado-28": "RTP Arquivos: um elétrico chamado 28",
+    "ensina.rtp.pt/artigo/wwii-sousa-mendes": "RTP Ensina: os refugiados de Sousa Mendes",
+    "ensina.rtp.pt/explicador/cinco-dicas-para-comunicar-com-sucesso": "RTP Ensina: cinco dicas para comunicar",
+    "ensina.rtp.pt/artigo/a-contracena-no-teatro": "RTP Ensina: a contracena no teatro",
+    "ensina.rtp.pt/artigo/sabe-o-que-e-uma-marcacao-em-teatro": "RTP Ensina: a marcação em teatro",
+    "ensina.rtp.pt/artigo/adivinhas-que-animal-sou-eu": "RTP Ensina: adivinhas — que animal sou eu?",
+    "ensina.rtp.pt/artigo/o-rato-roeu-a-rolha": "RTP Ensina: «O rato roeu a rolha»",
+    "ensina.rtp.pt/explicador/recursos-expressivos-a-nivel-fonico": "RTP Ensina: recursos expressivos fónicos",
+    "ensina.rtp.pt/explicador/recursos-expressivos-a-nivel-semantico": "RTP Ensina: recursos expressivos semânticos",
+    "rtp.pt/play/estudoemcasa": "RTP Play: #EstudoEmCasa, Português",
+    "wilder.pt/naturalistas": "Wilder: os pardais de Portugal",
+    "listavermelhadasaves.pt": "O pardal-comum na Lista Vermelha das Aves",
+    "pt.wikipedia.org/wiki/Caligrama": "«Caligrama» na Wikipédia",
+    "priberam.org/onomatopeia": "«onomatopeia» no Dicionário Priberam",
+    "priberam.org/pt-pt/lamela": "«lamela» no Dicionário Priberam",
     "tarentola-mauritanica": "A osga no Museu Virtual da Biodiversidade",
-    "audio/02-facto-ou-opiniao.mp3": "Ouvir: facto ou opinião?",
     "priberam.org/lamela": "«lamela» no Dicionário Priberam",
-    "audio/03-retratos.mp3": "Ouvir: os dois retratos",
-    "audio/04-visita-guiada-leonor.mp3": "Ouvir: a visita guiada da Leonor",
-    "u2-01-lenda-galo-barcelos": "Ouvir: a Lenda do Galo de Barcelos",
     "cm-barcelos.pt": "A lenda no site do Município de Barcelos",
-    "u2-02-relato-viagem-sintra": "Ouvir: «Um dia em Sintra»",
-    "u2-03-biografia-aristides": "Ouvir: a biografia de Aristides de Sousa Mendes",
     "aristides-de-sousa-mendes": "Aristides de Sousa Mendes no site da DGE",
-    "u2-04-os-pardais-da-horta": "Ouvir: «Os Pardais da Horta»",
-    "u2-05-misterio": "Ouvir: o conto de mistério",
-    "u2-06-no-eletrico-28": "Ouvir: «No Elétrico 28»",
-    "u3-01-o-coreto-adormecido": "Ouvir: «O Coreto Adormecido»",
-    "u3-02-tres-rimas": "Ouvir: três quadras, três rimas",
-    "u3-03-contar-silabas": "Ouvir: contar sílabas métricas",
-    "u3-04-o-vento-e-a-chuva": "Ouvir: «O Vento Brincalhão» e «Chuva na Cidade»",
-    "u3-05-a-noite-da-mourinha": "Ouvir: «A Noite da Mourinha»",
-    "u4-01-o-aviso": "Ouvir: a peça «O Aviso»",
     "tndm.pt": "A história do teatro no D. Maria II",
-    "u4-03-ouve-e-decide": "Ouvir: tipos de frase",
-    "u4-02-a-chave-desaparecida": "Ouvir: «A Chave Desaparecida»",
-    "u5-03-conto-a-mala-azul": "Ouvir: o conto «A mala azul»",
-    "u5-04-poema-comboio-da-noite": "Ouvir: «Comboio da noite»",
-    "u5-05-cena-carruagem-5": "Ouvir: a cena da carruagem 5",
-    "u5-01-relato-linha-do-douro": "Ouvir: diário na Linha do Douro",
     "estacao-do-pinhao": "Os azulejos da estação do Pinhão",
-    "u5-02-ditado": "Ouvir: o ditado",
-    "u6-01-radio-escola": "Ouvir: Teste 1 — a rádio da escola",
-    "u6-02-bicicleta-amarela": "Ouvir: Teste 2 — a bicicleta amarela",
-    "u6-03": "Ouvir: Teste 3",
-    "u6-04-ensaio-geral": "Ouvir: Teste 4 — o ensaio geral",
-    "u7-03-comeco-de-historia": "Ouvir: o começo de uma história",
-    "u7-01-trava-linguas": "Ouvir: trava-línguas",
-    "u7-02-adivinhas": "Ouvir: seis adivinhas",
     "dicionario.priberam.org/": "Dicionário Priberam (em linha)",
+}
+
+QR_SOURCES = {  # url fragment -> institution, for the references page
+    "arquivos.rtp.pt": "RTP Arquivos", "ensina.rtp.pt": "RTP Ensina", "rtp.pt/play": "RTP Play", "priberam.org": "Dicionário Priberam",
+    "cm-barcelos.pt": "Município de Barcelos", "dge.mec.pt": "DGE", "tndm.pt": "Teatro Nacional D. Maria II",
+    "ippatrimonio.pt": "IP Património", "museubiodiversidade.uevora.pt": "Museu Virtual da Biodiversidade",
+    "cienciaviva.pt": "Ciência Viva", "wilder.pt": "Wilder", "listavermelhadasaves.pt": "Lista Vermelha das Aves",
+    "wikipedia.org": "Wikipédia", "pnl2027.gov.pt": "Plano Nacional de Leitura", "bnportugal.gov.pt": "Biblioteca Nacional de Portugal",
+    "infopedia.pt": "Infopédia",
 }
 
 READINGS = [  # the year's readings in book order (unit, title, kind, regex of the heading of the page where it is read)
@@ -90,7 +84,7 @@ READINGS = [  # the year's readings in book order (unit, title, kind, regex of t
     (2, "«Os Pardais da Horta»", "narrativa: um problema para resolver", r"Os Pardais da Horta"),
     (2, "«O Mistério das Coisas de Lã»", "conto de mistério", r"Mistério das Coisas de Lã"),
     (2, "«No Elétrico 28»", "história contada com falas", r"No Elétrico 28"),
-    (3, "«O Alfabeto dos Bichos», José Jorge Letria", "poesia (excertos)", r"casa cheia de bichos"),
+    (3, "«O Alfabeto dos Bichos», José Jorge Letria", "poesia (excertos)", r"cheios de bichos"),
     (3, "«Noite e Dia»", "poema a duas vozes", r"Noite e Dia"),
     (4, "«O Aviso»", "texto dramático em duas cenas", r"Duas Cenas: O Aviso"),
     (4, "«A Chave Desaparecida»", "texto dramático", r"A Chave Desaparecida|Detetives da leitura"),
@@ -117,13 +111,13 @@ REFS = {  # every source cited in the units + every copyrighted work quoted (col
         "Wikipédia, «Polvo» e «<i>Octopus vulgaris</i>» (consultado em setembro de 2026) · p. 68",
         "«O Coreto Adormecido», «O Vento Brincalhão», «Chuva na Cidade», «A Noite da Mourinha» e «Noite e Dia»: poemas originais desta edição."],
     4: ["Teatro Nacional D. Maria II, «História». tndm.pt · p. 88",
-        "«Duas Cenas: O Aviso» e «A Chave Desaparecida»: textos dramáticos originais, escritos para o Grupo de Teatro do Year 5."],
+        "«Duas Cenas: O Aviso» e «A Chave Desaparecida»: textos dramáticos originais, escritos para o Grupo de Teatro do 5.º ano."],
     5: ["Aves de Portugal. avesdeportugal.info; ICNF — Instituto da Conservação da Natureza e das Florestas · p. 99",
         "Município de Barcelos, «A Lenda do Galo». cm-barcelos.pt · p. 104",
         "Portal da Literatura; Bertrand Editora · p. 106",
         "Infraestruturas de Portugal, «Estação do Pinhão». ippatrimonio.pt · p. 110",
         "Conto, poema «Comboio da noite», cena e relato: originais desta edição."],
-    6: ["Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; European Tree of the Year 2018 · p. 115",
+    6: ["Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; concurso Árvore Europeia do Ano 2018 · p. 115",
         "Os textos dos quatro testes foram escritos para esta edição."],
     7: ["<i>Dicionário Priberam da Língua Portuguesa</i> (em linha). dicionario.priberam.org · p. 132",
         "«A estante da Mourinha»: títulos e autores confirmados em setembro de 2026 nos catálogos da Caminho, Porto Editora, Planeta Tangerina e Wook e na Biblioteca Nacional de Portugal · p. 141",
@@ -133,8 +127,7 @@ REFS_GENERAL = [
     "Direção-Geral da Educação, <i>Aprendizagens Essenciais — Português, 5.º ano</i>. dge.mec.pt",
     "<i>Código do Direito de Autor e dos Direitos Conexos</i>, art. 75.º, n.º 2, al. h) — citação para fins de ensino.",
     "Tipos: Fraunces, Figtree, DM Mono e Caveat (SIL Open Font License).",
-    "Áudio: vozes sintéticas pt-PT (Microsoft Edge neural TTS).",
-    "Ilustrações: criadas para esta edição. Logótipo: Prime School.",
+    "Ilustrações: criadas para esta edição; capa e contracapa da coleção Prime Books. Logótipo: Prime School.",
 ]
 
 
@@ -192,14 +185,19 @@ def unit_entries(u, h):
             parts = parts[1:]  # «Unidade 6 · Como usar esta unidade» -> «Como usar esta unidade»
         key = parts[0]
         label = key if (len(parts) == 1 or re.match(r"(?i)unidade", parts[1])) else f"{parts[0]} · {parts[1]}"
-        if groups and groups[-1]["key"] == key:
+        new = not (groups and groups[-1]["key"] == key)
+        if not new:
             g = groups[-1]
         else:
-            g = dict(key=key, label=label, subs=[], page=folio)
+            g = dict(key=key, label=label, subs=[], page=folio, first_sub="")
             groups.append(g)
         h1 = h1.strip(" “”\"'«»")
+        if h1.lower().startswith(parts[-1].lower() + " "):
+            h1 = h1[len(parts[-1]):].strip()  # «O Palco A mala azul» (two display lines) under «Estação 4 · O Palco»
         if len(h1) >= 4 and h1 not in g["subs"] and h1.lower() != label.lower() and h1.lower() not in label.lower():
             g["subs"].append(h1)
+            if new:
+                g["first_sub"] = h1  # the Índice only shows a heading that is printed on the entry's own page
     return groups
 
 
@@ -245,9 +243,15 @@ def find_page(h, u, pattern, prefer_bold=True):
 
 
 
-def model():
+def model(n_sol=0, n_tpl=0):
     H = load_harvest()
+    BACK = back_plan(n_sol, n_tpl)
     bp = {t.replace(" (continuação)", ""): p for p, t in reversed(BACK)}
+    span = {}
+    for p, t in BACK:
+        k = t.replace(" (continuação)", "")
+        a, b = span.get(k, (p, p))
+        span[k] = (min(a, p), max(b, p))
     units = []
     for u in UNITS:
         h = H.get(str(u["n"]))
@@ -321,17 +325,38 @@ def model():
         for p in h.get("pages", []):
             for s in (p.get("html") or {}).get("sources", []):
                 refs_harvested.append((u["n"], p["pdf_page"], s))
+    # the institutions behind the book's public QR codes (one line; the addresses are on «Recursos digitais»)
+    qr_insts = []
+    for u in UNITS:
+        by = {}
+        for q in qrs:
+            if q["unit"] != u["n"] or "vercel" in q["url"] or q["url"].endswith(".mp3"):
+                continue
+            name = next((v for k, v in QR_SOURCES.items() if k in q["url"]), re.sub(r"^https?://(www\.)?", "", q["url"]).split("/")[0])
+            by.setdefault(name, [])
+            if q["page"] not in by[name]:
+                by[name].append(q["page"])
+        for n in by:
+            if n not in qr_insts:
+                qr_insts.append(n)
     # year plan: 34 weeks
-    plan = year_plan(units)
+    refs_general = list(REFS_GENERAL)
+    if qr_insts:
+        refs_general.insert(2, f"Códigos QR (lista completa na p. {bp['Recursos digitais']}): " + ", ".join(qr_insts) + ".")
+    plan = year_plan(units, bp)
     front_index = [("Como usar este livro", "iii"), ("Mapa do ano", "iv"), ("Índice", "v"), ("O meu ano de leitura", "vii"), ("Quem sou eu como leitor", "viii")]
-    back_index = [(t, p) for p, t in BACK if "continuação" not in t]
-    demo = next((q["url"] for q in qrs if q["url"].endswith(".mp3")), "https://prime-books-pi.vercel.app/library/y05-portuguese-anthropic/audio/01-artigo-osga.mp3")
+    back_index = [({"Textos para o professor": "Textos para o professor ler em voz alta"}.get(t, t), p) for p, t in BACK if "continuação" not in t]
+    pub = [q for q in qrs if "vercel" not in q["url"] and not q["url"].endswith(".mp3")]
+    dq = next((q for q in pub if "osga" in q["url"] or "tarentola" in q["url"]), pub[0] if pub else None)
+    demo = dq["url"] if dq else "https://dicionario.priberam.org/"
+    demo_what = f"abres «{dq['title']}» (p. {dq['page']})" if dq else "abres o Dicionário Priberam"
     return dict(units=units, qrs=qrs, n_qr=len(qrs), n_audio=n_audio, gloss_pages=gloss_pages, readings=readings,
-                own_rows=2, refs=refs, refs_harvested=refs_harvested, refs_general=REFS_GENERAL, plan=plan, weeks=34, bp=bp, total=TOTAL,
-                front_index=front_index, back_index=back_index, demo_qr=demo, index_split=3)
+                own_rows=1, refs=refs, refs_harvested=refs_harvested, refs_general=refs_general, plan=plan, weeks=34, bp=bp,
+                total=total(n_sol, n_tpl), back=BACK, span=span, back_first=BACK_FIRST, n_sol=n_sol, n_tpl=n_tpl,
+                front_index=front_index, back_index=back_index, demo_qr=demo, demo_what=demo_what, index_split=3)
 
 
-def year_plan(units):
+def year_plan(units, bp):
     U = {u["n"]: u for u in units}
 
     def rng(u, a=0, b=None):
@@ -358,7 +383,7 @@ def year_plan(units):
           row(5, "29–31", f"Unidade 5 · {U[5]['title']}"),
           row(6, "32–34", f"Unidade 6 · {U[6]['title']}"),
           dict(unit=7, weeks="todo o ano", what=f"Unidade 7 · {U[7]['title']}", detail="para quem acaba mais cedo, trabalhos de casa, clubes e férias", pages=f"pp. {U[7]['first']}–{U[7]['last']}"),
-          dict(unit=None, weeks="34", what="Fim do livro", detail="O meu 5.º ano — antes de fechar o livro · Diário de leitura completo", pages="p. 150")]
+          dict(unit=None, weeks="34", what="Fim do livro", detail="O meu 5.º ano — antes de fechar o livro · Diário de leitura completo", pages=f"p. {bp['O meu 5.º ano — antes de fechar o livro']}")]
     for r in P1 + P2 + P3:  # keep the detail line short
         if len(r["detail"]) > 190:
             r["detail"] = r["detail"][:187].rsplit("; ", 1)[0] + "; …"
@@ -411,7 +436,7 @@ def chrome(args, timeout=540):
 def render(name, sections, check):
     import pymupdf
     out = os.path.join(BUILD, f"{name}.html")
-    doc = html_doc(f"Português · Year 5 — {name}", sections)
+    doc = html_doc(f"Português · 5.º Ano — {name}", sections)
     open(out, "w", encoding="utf-8").write(doc)
     if check:
         chk = os.path.join(BUILD, f"{name}-chk.html")
@@ -440,22 +465,107 @@ def render(name, sections, check):
     return d.page_count
 
 
+FLOW_SIZES = [8.3, 8.1, 8.5, 7.9, 8.7, 7.7]  # solutions type size (pt): first one whose page count keeps the book even
+
+
+def flow_doc(sol_blocks, tpl_blocks, size):
+    body, start = pages.p_flow(sol_blocks, tpl_blocks, BACK_FIRST)
+    css = open(os.path.join(HERE, "src", "common.css"), encoding="utf-8").read() + open(os.path.join(HERE, "src", "pages.css"), encoding="utf-8").read()
+    return (f'<!doctype html>\n<html lang="pt-PT"><head><meta charset="utf-8"><title>Português · 5.º Ano — Soluções</title><style>\n{css}\n</style></head>'
+            f'<body data-start="{start}" style="--sfs:{size}pt">\n{body}\n{solutions.PAGINATE_JS}</body></html>\n')
+
+
+def flow_report(doc):
+    p = os.path.join(BUILD, "flow-chk.html")
+    open(p, "w", encoding="utf-8").write(doc)
+    r = chrome(["--virtual-time-budget=15000", "--window-size=794,1123", "--dump-dom", "file://" + p])
+    m = re.search(r'<pre id="report"[^>]*>(.*?)</pre>', r.stdout, re.S)
+    if not m:
+        sys.exit("flow: paginator produced no report\n" + r.stderr[-1500:])
+    import html as HH
+    return json.loads(HH.unescape(m.group(1)))
+
+
+def render_flow(M0):
+    """paginate «Soluções» + «Textos para o professor»; returns (n_sol, n_tpl, report)"""
+    sol, srep = solutions.solutions_blocks(ROOT, M0["units"])
+    tpl, trep = solutions.teacher_blocks(ROOT, M0["units"])
+    fixed = len(back_plan(0, 0))
+    cands = []
+    for size in FLOW_SIZES:
+        rows = flow_report(flow_doc(sol, tpl, size))
+        ns = sum(1 for r in rows if r[0] == "sol")
+        nt = sum(1 for r in rows if r[0] == "tpl")
+        tot = total(ns, nt)
+        lasts = [r[3] for k, r in enumerate(rows) if k == len(rows) - 1 or rows[k + 1][0] != r[0]]
+        print(f"[flow] {size}pt -> Soluções {ns} pp. + Textos {nt} pp. -> book {tot} pp. ({'even' if tot % 2 == 0 else 'odd'}); "
+              f"last-page fill {lasts}%")
+        if tot % 2 == 0:
+            cands.append((min(lasts), size, rows, ns, nt))
+            if min(lasts) >= 55:
+                break
+    if not cands:
+        sys.exit("flow: no type size gives an even page count")
+    # even book first; then the fullest last pages; the list order (8.3 first) breaks ties
+    chosen = max(cands, key=lambda c: (c[0] >= 45, -abs(c[1] - 8.3) if c[0] >= 45 else c[0]))[1:]
+    size, rows, ns, nt = chosen
+    bad = [r for r in rows if r[4]]
+    if bad:
+        sys.exit(f"flow: overflow on {bad}")
+    out = os.path.join(BUILD, "sol.html")
+    open(out, "w", encoding="utf-8").write(flow_doc(sol, tpl, size))
+    pdf = os.path.join(BUILD, "sol.pdf")
+    r = chrome(["--no-pdf-header-footer", "--virtual-time-budget=15000", f"--print-to-pdf={pdf}", "file://" + out])
+    if r.returncode:
+        sys.exit(r.stderr[-2000:])
+    import pymupdf
+    d = pymupdf.open(pdf)
+    assert d.page_count == ns + nt, (d.page_count, ns, nt)
+    rep = dict(size=size, n_sol=ns, n_tpl=nt, pages=rows, sources=srep, teacher=trep, fixed_back=fixed)
+    json.dump(rep, open(os.path.join(BUILD, "flow-report.json"), "w"), ensure_ascii=False, indent=1)
+    for x in srep + trep:
+        if x.get("dropped"):
+            print(f"[flow] u{x['unit']} {x['file']}: dropped {len(x['dropped'])} audio/vercel items: {[d[0] for d in x['dropped']]}")
+    return ns, nt
+
+
+def merge(parts, out):
+    import pymupdf
+    d = pymupdf.open()
+    for p in parts:
+        d.insert_pdf(pymupdf.open(p))
+    d.save(out, garbage=3, deflate=True)
+    pd = os.path.join(BUILD, "png-back")
+    os.makedirs(pd, exist_ok=True)
+    for f in os.listdir(pd):
+        os.remove(os.path.join(pd, f))
+    for i, pg in enumerate(d):
+        pg.get_pixmap(dpi=110).save(os.path.join(pd, f"{i+1:02d}.png"))
+    return d.page_count
+
+
 def main():
     args = sys.argv[1:]
     os.makedirs(BUILD, exist_ok=True)
     if "--harvest" in args:
         subprocess.run([sys.executable, os.path.join(HERE, "harvest.py")], check=True)
     prep_art()
-    M = model()
-    json.dump(M, open(os.path.join(BUILD, "model.json"), "w"), ensure_ascii=False, indent=1)
-    which = [a for a in args if a in ("front", "back")] or ["front", "back"]
     check = "--check" in args
-    if "front" in which:
-        n = render("front", "".join(f(M) for f in pages.FRONT_PAGES), check)
-        assert n == 8, f"front has {n} pages, expected 8"
-    if "back" in which:
-        n = render("back", "".join(f(M) for f in pages.BACK_PAGES), check)
-        assert n == 8, f"back has {n} pages, expected 8"
+    M0 = model()
+    ns, nt = render_flow(M0)
+    if "--flow-only" in args:
+        return
+    M = model(ns, nt)
+    assert M["total"] % 2 == 0, M["total"]
+    json.dump(M, open(os.path.join(BUILD, "model.json"), "w"), ensure_ascii=False, indent=1)
+    n = render("front", "".join(f(M) for f in pages.FRONT_PAGES), check)
+    assert n == 7, f"front has {n} pages, expected 7 (ii–viii)"
+    n = render("back-tail", "".join(f(M) for f in pages.BACK_PAGES), check)
+    assert n == len(back_plan(0, 0)), f"back tail has {n} pages"
+    n = merge([os.path.join(BUILD, "sol.pdf"), os.path.join(BUILD, "back-tail.pdf")], os.path.join(BUILD, "back.pdf"))
+    assert n == len(M["back"]), (n, len(M["back"]))
+    print(f"[book] front 1+7, units {sum(u['pages'] for u in UNITS)}, back {n} + back cover = {M['total']} pp.; "
+          f"Soluções pp. {M['span']['Soluções']}, Textos {M['span'].get('Textos para o professor')}")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 <html lang="pt-PT">
 <head>
 <meta charset="utf-8">
-<title>O Coreto das Palavras — Português · Year 5 · Unidade 3</title>
+<title>O Coreto das Palavras — Português · 5.º Ano · Unidade 3</title>
 <style>
 {{BASECSS}}
 
@@ -163,6 +163,14 @@
 .t76 td{height:9mm}
 .r79 td{height:12mm}
 .qr-big svg{width:25mm;height:25mm}
+/* oral task card: replaces the former audio QR blocks (same footprint, no recording) */
+.say{display:flex;gap:2.6mm;align-items:center;background:var(--t);border-radius:2mm;padding:2.4mm 3mm}
+.say svg.si{width:11mm;height:11mm;flex:none}
+.say .ql{font-size:8.2pt;line-height:1.32}
+.say .ql b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.4mm}
+.keys .si{width:4.2mm;height:4.2mm}
+.solnote{border:1pt solid var(--c);border-radius:2.4mm;background:#FBF7EF;padding:3.4mm 4mm;font-family:"Fraunces";font-weight:900;font-size:12.5pt;line-height:1.15;color:var(--ink)}
+.solnote b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.8mm}
 /* QA q3: answer lines >= 7 mm apart for 10-year-old handwriting (was 6.2 mm) */
 .ln,.ln.s{height:7.4mm}
 .pc78 .r span{height:7.6mm}
@@ -208,7 +216,7 @@
   <div class="art"></div>
   <div class="veil"></div>
   <div class="ttl">
-    <div class="u"><span class="big">3</span><span>Unidade · Português · Year 5</span></div>
+    <div class="u"><span class="big">3</span><span>Unidade · Português · 5.º Ano</span></div>
     <h1 class="disp">O Coreto das <i>Palavras</i></h1>
     <div class="sub"><span>Texto poético · linguagem figurada</span> verso · rima · ritmo · imagens · duas vozes</div>
   </div>
@@ -259,7 +267,7 @@
   <div class="keys">
     <b style="font-family:'DM Mono';font-weight:500;font-size:7pt;letter-spacing:.12em">AS CHAVES DO CORETO</b>
     <span>{{KEY:bronze}} aquecer</span><span>{{KEY:prata}} aplicar</span><span>{{KEY:ouro}} desafiar-me</span>
-    <span style="margin-left:auto">{{QRICON}} ouvir os poemas</span>
+    <span style="margin-left:auto">{{SAYICON}} dizer em voz alta</span><span>{{QRICON}} ver na RTP</span>
   </div>
   <footer class="folio">66</footer>
 </section>
@@ -419,7 +427,7 @@
     <div>
       <div class="defn" style="--c:var(--ameixa)"><div class="w">verso</div>Cada uma das linhas de um poema. Os números ao lado do poema contam os versos.<div class="ex">«Leram versos para o céu,» é o verso 10.</div></div>
       <div class="defn" style="margin-top:3mm"><div class="w">estrofe</div>Cada grupo de versos, separado dos outros por um espaço em branco. As estrofes têm nomes, conforme o número de versos.</div>
-      <div class="qr" style="margin-top:4mm">{{QR:a1}}<div class="ql"><b>Ouvir</b>Ouve o poema. Repara na pausa maior que se faz entre as estrofes.</div></div>
+      <div class="say" style="margin-top:4mm">{{SAYICON}}<div class="ql"><b>Ler a dois</b>Lê o poema a um colega: pausa curta no fim de cada verso, pausa maior entre estrofes (conta até dois, em silêncio). Depois, troquem.</div></div>
     </div>
   </div>
   <div class="lab" style="margin-top:5mm;margin-bottom:1.6mm">Os nomes das estrofes</div>
@@ -468,12 +476,12 @@
   </div>
   <div class="grid2" style="grid-template-columns:1fr 62mm;margin-top:1mm;align-items:end">
     <div class="act">
-      <div class="act-h"><span class="num">8</span>{{KEY:bronze}}<h3>Pares que rimam</h3><span class="skill">Ouvir e ler</span></div>
+      <div class="act-h"><span class="num">8</span>{{KEY:bronze}}<h3>Pares que rimam</h3><span class="skill">Ler</span></div>
       <p style="font-size:9.2pt;margin-bottom:1.6mm">Liga as palavras que rimam e escreve os quatro pares nas linhas.</p>
       <div class="pairs"><span>gato</span><span>canção</span><span>luar</span><span>caracol</span><span>coração</span><span>sapato</span><span>girassol</span><span>mar</span></div>
       <div class="grid2" style="grid-template-columns:1fr 1fr;gap:1mm 6mm;margin-top:1mm"><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
     </div>
-    <div class="qr">{{QR:a2}}<div class="ql"><b>Ouvir</b>Ouve as três quadras. Bate uma palma sempre que ouvires uma rima.</div></div>
+    <div class="qr">{{QR:fonico}}<div class="ql"><b>RTP Ensina · rima</b>Na página «Recursos expressivos a nível fónico», lê os versos de Fernando Pessoa. Que rima é? <span class="fill" style="min-width:16mm"></span></div></div>
   </div>
   <div class="grid2" style="grid-template-columns:1fr 1fr">
     <div class="act">
@@ -538,8 +546,8 @@
     </div>
     <div>
       <div class="act">
-        <div class="act-h"><span class="num">12</span>{{KEY:prata}}<h3>Ouve e confirma</h3><span class="skill">Ouvir</span></div>
-        <div class="qr">{{QR:a3}}<div class="ql"><b>Ouvir</b>Cada verso é dito inteiro e depois devagar, sílaba a sílaba. Confirma as tuas contas.</div></div>
+        <div class="act-h"><span class="num">12</span>{{KEY:prata}}<h3>Palmas a dois</h3><span class="skill">Oralidade</span></div>
+        <div class="qr">{{QR:aula58}}<div class="ql"><b>RTP · #EstudoEmCasa</b>Diz os versos da atividade 11 a um colega, com uma palma por sílaba. Depois, vejam a aula 58 (5.º e 6.º anos) sobre a sílaba métrica: o que aprendeste de novo?</div></div>
       </div>
       <div class="act">
         <div class="act-h"><span class="num">13</span>{{KEY:ouro}}<h3>Um verso de sete</h3><span class="skill">Escrever</span></div>
@@ -569,7 +577,7 @@
       </div>
     </div>
     <div><img src="../art/vento.jpg" class="mult" style="width:64mm;display:block" alt="Roupa estendida a voar ao vento, numa rua estreita">
-      <div class="qr" style="margin-top:3mm">{{QR:a4}}<div class="ql"><b>Ouvir</b>Ouve «O Vento Brincalhão» e «Chuva na Cidade» (p. 73).</div></div></div>
+      <div class="qr" style="margin-top:3mm">{{QR:semantico}}<div class="ql"><b>RTP Ensina · saber mais</b>Em «Recursos expressivos a nível semântico», procura o exemplo de personificação. Quem toca piano?</div></div></div>
   </div>
   <div class="figs" style="margin-top:4mm">
     <div class="fig3" style="background:var(--verde)"><div class="w">comparação</div>Aproxima duas coisas com uma palavra que compara.<div class="sig">como · parece · tal&nbsp;como · tal&nbsp;e&nbsp;qual</div><div class="ex">Os teus olhos brilham como estrelas.</div></div>
@@ -688,7 +696,7 @@
           <tr><td>uma enumeração</td><td></td></tr>
         </table>
       </div>
-      <div class="qr" style="margin-top:3.4mm">{{QR:a5}}<div class="ql"><b>Ouvir</b>Ouve o poema e repara: que versos são lidos mais devagar? Porquê?</div></div>
+      <div class="say" style="margin-top:3.4mm">{{SAYICON}}<div class="ql"><b>Três maneiras de dizer</b>Três colegas dizem a estrofe 2, cada um à sua maneira. Quem leu mais devagar? Em que verso? Porquê?</div></div>
     </div>
   </div>
   <div class="act" style="margin-top:4.4mm">
@@ -718,7 +726,7 @@
   <h1 class="disp">Noite e Dia</h1>
   <div class="grid2" style="grid-template-columns:1fr 66mm;margin-top:2.4mm;gap:6mm;align-items:center">
     <p class="lead" style="font-size:10.8pt">Um <b>poema em duas vozes</b> é lido por duas pessoas, como um dueto. Lê-se de cima para baixo, linha a linha: cada leitor lê a sua coluna — <b style="color:var(--ultra)">azul</b>, a Voz 1; <b style="color:#B8741E">amarela</b>, a Voz 2 — e os versos da <b style="color:var(--verde)">coluna do meio</b> dizem-se <b>em coro</b>, pelos dois.</p>
-    <div class="qr">{{QR:a6}}<div class="ql"><b>Ouvir</b>Ouve o poema dito a duas vozes. Nos versos em coro, as vozes juntam-se.</div></div>
+    <div class="say">{{SAYICON}}<div class="ql"><b>Primeira leitura</b>O professor lê a Voz 1, a turma lê a Voz 2 e todos juntos dizem o coro. Depois, troquem os papéis.</div></div>
   </div>
   <div class="duas" style="margin-top:3.4mm">
     <div class="hd"><div>Voz 1 · a osga<small>a noite</small></div><div>As duas vozes<small>em coro</small></div><div>Voz 2 · o pombo<small>o dia</small></div></div>
@@ -990,9 +998,9 @@
       <p><b>verso</b> — cada linha de um poema.</p>
     </div>
   </div>
-  <div style="position:absolute;left:24mm;right:14mm;bottom:21mm;display:grid;grid-template-columns:1fr 50mm;gap:8mm;align-items:center">
+  <div style="position:absolute;left:24mm;right:14mm;bottom:21mm;display:grid;grid-template-columns:1fr 44mm;gap:8mm;align-items:center">
     <div class="tip"><img src="../../art/mou-4.png" alt=""><div class="bub">Esta noite há recital no coreto. Eu vou estar lá, na parede, a ouvir — <b>diz o teu poema bem alto</b>!</div></div>
-    <div class="qr qr-big">{{QR:solucoes}}<div class="ql"><b>Para o professor</b>Soluções e textos dos áudios desta unidade.</div></div>
+    <div class="solnote"><b>Para o professor</b>Soluções:<br>no fim do livro.</div>
   </div>
   <footer class="folio">80</footer>
 </section>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Unit 2 — Lugar, Tempo e Memória (Português · Year 5), pp. 25–64.
+"""Build Unit 2 — Lugar, Tempo e Memória (Português · 5.º Ano), pp. 25–64.
 
 src/head.html + src/pages-*.html (with {{…}} tokens) -> build/unit.html -> build/unit.pdf -> build/png/NN.png
 Run with the experiment venv:
@@ -13,20 +13,17 @@ import segno
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell")  # light & fast under load
 ART, BUILD = os.path.join(HERE, "art"), os.path.join(HERE, "build")
 PROFILE = os.path.join(BUILD, "chrome-profile")  # private profile: no collisions with u3/u4 builds
 FIRST_FOLIO = 25
 
-QRS = {
-    "galo": SITE + "audio/u2-01-lenda-galo-barcelos.mp3",
-    "sintra": SITE + "audio/u2-02-relato-viagem-sintra.mp3",
-    "aristides": SITE + "audio/u2-03-biografia-aristides.mp3",
-    "pardais": SITE + "audio/u2-04-os-pardais-da-horta.mp3",
-    "misterio": SITE + "audio/u2-05-o-misterio-das-coisas-de-la.mp3",
-    "eletrico": SITE + "audio/u2-06-no-eletrico-28.mp3",
-    "solucoes": SITE + "solucoes-u2.html",
+QRS = {  # public, stable resources only (no self-recorded audio, no temporary hosting)
+    "galo_radio": "https://arquivos.rtp.pt/conteudos/a-lenda-do-galo-de-barcelos",
+    "pena_doc": "https://arquivos.rtp.pt/conteudos/o-palacio-da-pena",
+    "sousamendes_rep": "https://ensina.rtp.pt/artigo/wwii-sousa-mendes-10/",
+    "pardais_wilder": "https://wilder.pt/naturalistas/conheca-as-cinco-especies-de-pardais-de-portugal",
+    "eletrico_rtp": "https://arquivos.rtp.pt/conteudos/um-electrico-chamado-28",
     "panteao": "https://www.dge.mec.pt/noticias/honras-de-panteao-nacional-aristides-de-sousa-mendes",
     "cplp": "https://www.cplp.org/estados-membros",
     "barcelos": "https://www.cm-barcelos.pt/visitar/caminho-portugues-de-santiago/a-lenda-do-galo",

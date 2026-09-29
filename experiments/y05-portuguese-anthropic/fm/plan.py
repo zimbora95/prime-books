@@ -1,7 +1,8 @@
-"""The volume plan: «Português · Year 5 — Manual do aluno» (Prime School Press).
+"""The volume plan: «Português · 5.º Ano — Manual do aluno» (Prime School Press).
 
-Front matter i–viii (8 pp.) + Units 1–7 (pp. 1–144) + back matter pp. 145–151 + back cover = 160 pp.
-Unit accents stay inside Unit 1's palette; the book matter uses the Year 5 house magenta.
+Front matter i–viii (8 pp.; i = the master's cover) + Units 1–7 (pp. 1–144) + back matter from p. 145 (Soluções,
+Textos para o professor, Glossário … Colofão) + the master's back cover. The total must be even (build.py checks).
+Unit accents stay inside Unit 1's palette; the book matter uses the 5.º ano house magenta.
 Titles/sections given here are PROVISIONAL: build.py replaces them with what harvest.py reads
 from each unit's built PDF/HTML.
 """
@@ -50,17 +51,40 @@ for u in UNITS:
     u["c"], u["t"] = PAL[u["pal"]]
     u["pages"] = u["last"] - u["first"] + 1
 
-FRONT_PAGES = 8
-BACK_PAGES = 8
-TOTAL = FRONT_PAGES + sum(u["pages"] for u in UNITS) + BACK_PAGES  # 160
+FRONT_PAGES = 8   # i = the master's front cover (covers.py), ii–viii = front.pdf
+BACK_FIRST = 145  # first back-matter folio
 
-BACK = [  # back matter, pp. 145–151 (+ unnumbered back cover)
-    (145, "Glossário"), (146, "Glossário (continuação)"), (147, "Recursos digitais"),
-    (148, "Referências e créditos"), (149, "Planificação anual"), (150, "O meu 5.º ano — antes de fechar o livro"),
-    (151, "Colofão"),
-]
+# The back matter grows with the solutions: «Soluções» (n_sol pages) and «Textos para o professor ler em voz alta»
+# (n_tpl pages) open it, then the fixed pages below, then the master's back cover (unnumbered). build.py paginates the
+# solutions first, then calls back_plan(); assemble.py and qa.py read the result from build/model.json.
+BACK_TAIL = ["Glossário", "Glossário (continuação)", "Recursos digitais", "Referências e créditos", "Planificação anual",
+             "O meu 5.º ano — antes de fechar o livro", "Colofão"]
+UNIT_PAGES = sum(u["pages"] for u in UNITS)  # 144
+
+
+def back_plan(n_sol, n_tpl):
+    """[(folio, title), ...] of the numbered back-matter pages (the back cover is not listed)"""
+    out, f = [], BACK_FIRST
+    for k in range(n_sol):
+        out.append((f, "Soluções" + (" (continuação)" if k else "")))
+        f += 1
+    for k in range(n_tpl):
+        out.append((f, "Textos para o professor" + (" (continuação)" if k else "")))
+        f += 1
+    for t in BACK_TAIL:
+        out.append((f, t))
+        f += 1
+    return out
+
+
+def total(n_sol, n_tpl):
+    return FRONT_PAGES + UNIT_PAGES + len(back_plan(n_sol, n_tpl)) + 1  # + back cover
+
+
+# provisional (no solutions yet): kept so old imports keep working
+BACK = back_plan(0, 0)
+TOTAL = total(0, 0)
 FRONT = [  # (folio, title) — i and ii are unnumbered
     ("i", "Capa"), ("ii", "Ficha técnica"), ("iii", "Como usar este livro"), ("iv", "Mapa do ano"),
     ("v", "Índice"), ("vi", "Índice (continuação)"), ("vii", "O meu ano de leitura"), ("viii", "Quem sou eu como leitor"),
 ]
-assert TOTAL == 160, TOTAL

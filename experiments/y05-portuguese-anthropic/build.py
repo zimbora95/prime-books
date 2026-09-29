@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Unit 1 — O Gabinete das Coisas Verdadeiras (Português · Year 5).
+"""Build Unit 1 — O Gabinete das Coisas Verdadeiras (Português · 5.º Ano).
 
 src/unit.html (with {{…}} tokens) -> build/unit.html -> build/unit.pdf -> build/png/NN.png
 Run with the experiment venv (segno, pillow, pymupdf):
@@ -11,18 +11,32 @@ import segno
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SLUG = "y05-portuguese-anthropic"
-SITE = f"https://prime-books-pi.vercel.app/library/{SLUG}/"
 CHROME = os.path.expanduser("~/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome")
 ART, BUILD = os.path.join(HERE, "art"), os.path.join(HERE, "build")
 
+# Only stable public sites (no self-recorded audio, no temporary hosting).
 QRS = {
-    "artigo": SITE + "audio/01-artigo-osga.mp3",
-    "fo": SITE + "audio/02-facto-ou-opiniao.mp3",
-    "retratos": SITE + "audio/03-retratos.mp3",
-    "leonor": SITE + "audio/04-visita-guiada-leonor.mp3",
-    "solucoes": SITE + "solucoes.html",
+    "cviva": "https://www.cienciaviva.pt/meias-com-ciencia/index.php?accao=showobj&id_obj=4359",
+    "rtpdicas": "https://ensina.rtp.pt/explicador/cinco-dicas-para-comunicar-com-sucesso/",
     "museu": "https://museubiodiversidade.uevora.pt/elenco-de-especies/biodiversidade-actual/animais/cordados/repteis/tarentola-mauritanica/",
-    "priberam": "https://dicionario.priberam.org/lamela",
+    "priberam": "https://dicionario.priberam.org/pt-pt/lamela",
+}
+
+# Offline activity tiles: same 21 mm footprint as a QR, drawn in the room colour (no text).
+_T = '<svg class="tile" viewBox="0 0 40 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">%s</g></svg>'
+TILES = {
+    # the teacher reads aloud: a figure holding an open book, sound waves
+    "prof": _T % ('<circle cx="14" cy="10" r="4.2"/><path d="M6 33v-8a8 8 0 0 1 16 0v8"/>'
+                  '<path d="M9 22l5 2.4 5-2.4v7l-5 2.4-5-2.4z" fill="#fff"/><path d="M14 24.4v7"/>'
+                  '<path d="M26 9.5q3 3.5 0 7M30 7q5.5 6 0 12M34 4.5q8 8.5 0 17"/>'),
+    # reading in pairs: two heads facing, speech bubble between them
+    "pares": _T % ('<circle cx="9" cy="17" r="4"/><path d="M2.5 34v-5a6.5 6.5 0 0 1 13 0v5"/>'
+                   '<circle cx="31" cy="17" r="4"/><path d="M24.5 34v-5a6.5 6.5 0 0 1 13 0v5"/>'
+                   '<path d="M14 4h12a2.5 2.5 0 0 1 2.5 2.5v5A2.5 2.5 0 0 1 26 14h-6l-3.4 3v-3H14a2.5 2.5 0 0 1-2.5-2.5v-5A2.5 2.5 0 0 1 14 4z"/>'
+                   '<path d="M16 8h8M16 10.8h5"/>'),
+    # solutions at the back of the book: closed book with a tick and a page marker
+    "livro": _T % ('<path d="M9 5h21a2 2 0 0 1 2 2v26a2 2 0 0 1-2 2H9a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3z"/>'
+                   '<path d="M6 30a3 3 0 0 1 3-3h23"/><path d="M13 16l4 4 8-8"/><path d="M26 27v9l2.5-2 2.5 2v-9"/>'),
 }
 
 KEYC = {"bronze": "#B7723A", "prata": "#8E99A6", "ouro": "#D6A21E"}
@@ -152,6 +166,8 @@ def build(check=False):
     html = html.replace("{{QRICON}}", '<svg viewBox="0 0 12 12" style="width:4mm;height:4mm"><path d="M1 1h4v4H1zM7 1h4v4H7zM1 7h4v4H1zM7 7h2v2H7zM9 9h2v2H9z" fill="#1C2536"/></svg>')
     for n, u in QRS.items():
         html = html.replace("{{QR:%s}}" % n, qr_svg(u))
+    for n, svg in TILES.items():
+        html = html.replace("{{TILE:%s}}" % n, svg)
     left = re.findall(r"\{\{[^}]+\}\}", html)
     if left:
         sys.exit(f"unresolved tokens: {left}")

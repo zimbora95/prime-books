@@ -2,15 +2,16 @@
 <html lang="pt-PT">
 <head>
 <meta charset="utf-8">
-<title>O Gabinete das Coisas Verdadeiras — Português · Year 5 · Unidade 1</title>
+<title>O Gabinete das Coisas Verdadeiras — Português · 5.º Ano · Unidade 1</title>
 <style>
-@font-face{font-family:"Fraunces";src:url(../fonts/Fraunces.ttf) format("truetype");font-weight:100 900;font-style:normal}
-@font-face{font-family:"Fraunces";src:url(../fonts/Fraunces-Italic.ttf) format("truetype");font-weight:100 900;font-style:italic}
-@font-face{font-family:"Figtree";src:url(../fonts/Figtree.ttf) format("truetype");font-weight:300 900;font-style:normal}
-@font-face{font-family:"Figtree";src:url(../fonts/Figtree-Italic.ttf) format("truetype");font-weight:300 900;font-style:italic}
+*{font-synthesis:none}
+@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesText-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesText-400i.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesDisplay-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesDisplay-500i.ttf) format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesDisplay-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesDisplay-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Fraunces";src:url(../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-900.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../fonts/static/Figtree-400i.ttf) format("truetype");font-weight:400 900;font-style:italic}@font-face{font-family:"Caveat";src:url(../fonts/static/Caveat-400.ttf) format("truetype");font-weight:400}@font-face{font-family:"Caveat";src:url(../fonts/static/Caveat-700.ttf) format("truetype");font-weight:700}
+
+
+
 @font-face{font-family:"DM Mono";src:url(../fonts/DMMono-Regular.ttf) format("truetype");font-weight:400}
 @font-face{font-family:"DM Mono";src:url(../fonts/DMMono-Medium.ttf) format("truetype");font-weight:500}
-@font-face{font-family:"Caveat";src:url(../fonts/Caveat.ttf) format("truetype");font-weight:400 700}
+
 
 @page{size:210mm 297mm;margin:0}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -42,6 +43,10 @@ body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-hei
 .tab span{transform:rotate(90deg);white-space:nowrap}
 .page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
 .page.even .tab span{transform:rotate(-90deg)}
+/* print-safe tabs: the label sits 5+ mm inside the trim once the page is fitted to US Letter */
+.tab{width:10.5mm!important;box-sizing:border-box;padding-right:4.3mm}
+.page.even .tab{padding-right:0;padding-left:4.3mm}
+
 /* ---------- type ---------- */
 .disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
 h1.disp{font-size:34pt;color:var(--ink)}
@@ -90,6 +95,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
 .qr svg{width:21mm;height:21mm;flex:none;background:#fff;border-radius:1.4mm}
 .qr .ql{font-size:8.2pt;line-height:1.3}
 .qr .ql b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+.qr svg.tile{background:var(--t);color:var(--c);padding:2.8mm;border:.8pt solid var(--c)}
 .lab{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
 .mult{mix-blend-mode:multiply}
 .cap{font-size:8pt;color:var(--ink2);line-height:1.35}
@@ -393,7 +399,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
 /* ============ PAGE 23 — kit ============ */
 .kit{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-top:3mm}
 .cut{border:1pt dashed #6D6A63;border-radius:1.6mm;padding:3.4mm 4mm;background:#FFFDF7;position:relative}
-.cut:after{content:"✂";position:absolute;top:-3.4mm;left:5mm;background:var(--paper);font-size:10pt;padding:0 1mm;color:#6D6A63;font-family:"DejaVu Sans"}
+.cut:after{content:"";position:absolute;top:-2.6mm;left:5mm;width:5mm;height:5mm;background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%236D6A63' stroke-width='1.8'%3E%3Ccircle cx='6' cy='6' r='3'/%3E%3Ccircle cx='6' cy='18' r='3'/%3E%3Cpath d='M8.2 7.8 20 18M8.2 16.2 20 6'/%3E%3C/g%3E%3C/svg%3E") center/4mm 4mm no-repeat}
 .cut h5{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.14em;text-transform:uppercase;color:var(--kc);margin-bottom:1.4mm}
 .cut .r{display:grid;grid-template-columns:auto 1fr;gap:2mm;align-items:end;font-size:8pt;color:var(--ink2);margin-bottom:.2mm}
 .cut .r span{border-bottom:.7pt solid #9C927E;height:6.4mm}
@@ -503,7 +509,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="art"></div>
   <div class="veil"></div>
   <div class="ttl">
-    <div class="u"><span class="big">1</span><span>Unidade · Português · Year 5</span></div>
+    <div class="u"><span class="big">1</span><span>Unidade · Português · 5.º Ano</span></div>
     <h1 class="disp">O Gabinete das <i>Coisas Verdadeiras</i></h1>
     <div class="sub"><span>Textos para informar e descrever</span> artigo · verbete · aviso · retrato</div>
   </div>
@@ -543,7 +549,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="keys">
     <b style="font-family:'DM Mono';font-weight:500;font-size:7pt;letter-spacing:.12em">AS CHAVES DO GABINETE</b>
     <span>{{KEY:bronze}} aquecer</span><span>{{KEY:prata}} aplicar</span><span>{{KEY:ouro}} desafiar-me</span>
-    <span style="margin-left:auto">{{QRICON}} ouvir ou explorar online</span>
+    <span style="margin-left:auto">{{QRICON}} explorar online</span>
   </div>
   <footer class="folio">2</footer>
 </section>
@@ -618,10 +624,10 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <p class="art-lead">A osga-comum é um pequeno réptil que vive em quase todo o território de Portugal continental. É muitas vezes vista nas paredes das casas, ao fim do dia, à espera de insetos.</p>
   <div class="plate">
     <img src="../art/osga-plate.jpg" alt="Prancha científica da osga-comum">
-    <span class="fig" style="left:30%;top:10%">1</span>
-    <span class="fig" style="left:70%;top:6%">2</span>
-    <span class="fig" style="left:70%;top:41%">3</span>
-    <span class="fig" style="left:70%;top:73%">4</span>
+    <span class="fig" style="left:20.6%;top:4.8%">1</span>
+    <span class="fig" style="left:67.2%;top:1.3%">2</span>
+    <span class="fig" style="left:64.4%;top:35.6%">3</span>
+    <span class="fig" style="left:62.8%;top:60.6%">4</span>
   </div>
   <div class="grid2" style="margin-top:3mm;grid-template-columns:1fr 78mm">
     <p class="cap"><b>Fig. 1</b> Osga-comum vista de cima: repara nas filas de tubérculos nas costas. <b>Fig. 2</b> Planta da pata, com as lamelas adesivas debaixo dos dedos. <b>Fig. 3</b> Cabeça de perfil: o olho grande, de pupila vertical, ajuda-a a ver na penumbra. <b>Fig. 4</b> Osga com a cauda regenerada, mais curta e mais lisa.</p>
@@ -657,8 +663,8 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
 
   <div class="gloss" style="margin-top:4mm">
     <div style="grid-column:1/4" class="lab">Palavras do Gabinete</div>
-    <div><b>réptil</b> — animal de pele com escamas, que põe ovos e cuja temperatura depende do ambiente.</div>
-    <div><b>tubérculo</b> — pequeno alto, arredondado, na pele.</div>
+    <div><b>réptil</b> — animal de pele com escamas que, em geral, põe ovos e cuja temperatura depende do ambiente.</div>
+    <div><b>tubérculo</b> — pequeno alto arredondado na pele.</div>
     <div><b>crepuscular</b> — ativo ao crepúsculo, quando o dia está a acabar.</div>
     <div><b>lamela</b> — lâmina muito fina.</div>
     <div><b>predador</b> — animal que caça outros para se alimentar.</div>
@@ -666,7 +672,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   </div>
 
   <div class="grid2" style="margin-top:5mm">
-    <div class="qr">{{QR:artigo}}<div class="ql"><b>Ouvir</b>Ouve o artigo lido em voz alta. Acompanha com o dedo e repara nas pausas entre as partes.</div></div>
+    <div class="qr">{{QR:cviva}}<div class="ql"><b>Confirmar a fonte</b>O artigo cita o Ciência Viva. Abre a ficha da osga e encontra dois factos que aparecem nos dois textos.</div></div>
     <div class="qr">{{QR:museu}}<div class="ql"><b>Explorar</b>Visita a ficha verdadeira da osga no Museu Virtual da Biodiversidade. Que informação nova encontras?</div></div>
   </div>
   <div class="tip" style="position:absolute;left:16mm;right:24mm;bottom:21mm"><img src="../art/mou-4.png" alt=""><div class="bub">Este artigo é sobre mim! Repara: os <b>subtítulos</b> arrumam a informação por temas. Se só quiseres saber o que eu como, vais direto a «O que come».</div></div>
@@ -724,7 +730,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
         <li>Escreve uma pergunta a que o artigo <b>não</b> responde. Onde podias procurar a resposta?<span class="ln s"></span><span class="ln s"></span></li></ol></div>
     </div>
   </div>
-  <p class="small" style="margin-top:3mm">↺ Volta à página 3 e confirma as tuas previsões.</p>
+  <p class="small" style="margin-top:3mm"><svg viewBox="0 0 16 16" style="width:1em;height:1em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M3.2 8a4.8 4.8 0 1 0 1.5-3.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M1.6 2.2v3.9h3.9" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> Volta à página 3 e confirma as tuas previsões.</p>
   <footer class="folio">6</footer>
 </section>
 
@@ -764,7 +770,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="grid2">
     <div class="act">
       <div class="act-h"><span class="num">6</span>{{KEY:prata}}<h3>Ouve e decide</h3><span class="skill">Ouvir</span></div>
-      <div class="qr">{{QR:fo}}<div class="ql">Ouve oito frases. Depois de cada uma, escreve F ou O.</div></div>
+      <div class="qr">{{TILE:prof}}<div class="ql"><b>O professor lê</b>Ouve com atenção oito frases, ditas uma de cada vez. Depois de cada uma, escreve F ou O.</div></div>
       <div class="listen"><div>1<span></span></div><div>2<span></span></div><div>3<span></span></div><div>4<span></span></div><div>5<span></span></div><div>6<span></span></div><div>7<span></span></div><div>8<span></span></div></div>
     </div>
     <div class="act">
@@ -799,7 +805,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
       <span class="nb">1.</span> Pequena sala onde se trabalha ou estuda. <span class="ex">A diretora recebeu-nos no seu gabinete.</span>
       <span class="nb">2.</span> Sala onde se guardam e mostram coleções de objetos raros ou curiosos. <span class="ex">Visitámos um gabinete de curiosidades.</span>
       <span class="nb">3.</span> Grupo de pessoas que trabalham diretamente com um governante. <span class="ex">O ministro reuniu o seu gabinete.</span>
-      <span class="et">◆ Do francês <i>cabinet</i>. ◆ Pl. <i>gabinetes</i>.</span>
+      <span class="et"><svg viewBox="0 0 16 16" style="width:.8em;height:.8em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M8 3 13 8 8 13 3 8z" fill="currentColor"/></svg> Do francês <i>cabinet</i>. <svg viewBox="0 0 16 16" style="width:.8em;height:.8em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M8 3 13 8 8 13 3 8z" fill="currentColor"/></svg> Pl. <i>gabinetes</i>.</span>
     </div>
     <span class="tagl" style="left:52mm;bottom:-2.6mm"><i>4</i>aceções numeradas</span>
     <span class="tagl" style="left:98mm;bottom:-2.6mm"><i>5</i>exemplos</span>
@@ -819,9 +825,9 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <div class="act-h"><span class="num">8</span>{{KEY:bronze}}<h3>Qual é a aceção?</h3><span class="skill">Ler</span></div>
     <p>Escreve o número da aceção de <i>gabinete</i> usada em cada frase.</p>
     <ol class="qs" style="margin-top:1.6mm">
-      <li>No Gabinete das Coisas Verdadeiras há uma osga que dorme num candeeiro. <span class="stamp" style="margin-left:2mm"></span></li>
-      <li>O gabinete da primeira-ministra preparou a visita à escola. <span class="stamp" style="margin-left:2mm"></span></li>
-      <li>O meu pai tem um gabinete em casa, cheio de livros e papéis. <span class="stamp" style="margin-left:2mm"></span></li>
+      <li>No Gabinete das Coisas Verdadeiras há uma osga que dorme num candeeiro.<span class="stamp" style="margin-left:2mm"></span></li>
+      <li>O gabinete da primeira-ministra preparou a visita à escola.<span class="stamp" style="margin-left:2mm"></span></li>
+      <li>O meu pai tem um gabinete em casa, cheio de livros e papéis.<span class="stamp" style="margin-left:2mm"></span></li>
     </ol>
   </div>
 
@@ -877,7 +883,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
 
   <div class="act">
     <div class="act-h"><span class="num">12</span>{{KEY:ouro}}<h3>Uma palavra, vários sentidos</h3><span class="skill">Pesquisar</span></div>
-    <div class="qr">{{QR:priberam}}<div class="ql" style="font-size:9.2pt"><b>Dicionário online</b>No artigo da osga aparece a palavra <i>lamelas</i>. Procura <b>lamela</b> no dicionário online. Quantas aceções encontraste? Copia a que combina com o texto da página 5.<span class="ln s"></span></div></div>
+    <div class="qr">{{QR:priberam}}<div class="ql" style="font-size:9.2pt"><b>Dicionário online</b>No artigo da osga aparece a palavra <i>lamelas</i>. Procura <strong>lamela</strong> no dicionário online. Quantas aceções encontraste? Copia a que combina com o texto da página 5.<span class="ln s"></span><span class="ln s"></span></div></div>
   </div>
   <footer class="folio">9</footer>
 </section>
@@ -889,11 +895,11 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="kick">Sala 2 · Escrita</div>
   <h1 class="disp">Escrever um verbete</h1>
   <div class="steps" style="margin-top:4mm">
-    <div><b>1</b>Escolhe a <b>palavra</b> e escreve-a na forma base.</div>
-    <div><b>2</b>Divide-a em <b>sílabas</b>.</div>
-    <div><b>3</b>Indica a <b>classe</b> e o <b>género</b>.</div>
-    <div><b>4</b>Escreve a <b>definição</b>: clara e curta.</div>
-    <div><b>5</b>Junta um <b>exemplo</b> em itálico.</div>
+    <div><b>1</b>Escolhe a <strong>palavra</strong> e escreve-a na forma base.</div>
+    <div><b>2</b>Divide-a em <strong>sílabas</strong>.</div>
+    <div><b>3</b>Indica a <strong>classe</strong> e o <strong>género</strong>.</div>
+    <div><b>4</b>Escreve a <strong>definição</strong>: clara e curta.</div>
+    <div><b>5</b>Junta um <strong>exemplo</strong> em itálico.</div>
   </div>
   <div class="tint" style="margin-top:4mm">
     <div class="lab" style="margin-bottom:1.6mm">A fórmula de uma boa definição</div>
@@ -918,7 +924,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
       </div>
       <div>
         <p style="font-size:9.6pt">Há coisas que ainda não têm nome. Inventa uma palavra para uma delas e escreve o seu verbete, com todas as partes.</p>
-        <div class="vcard" style="margin-top:2mm;padding:2mm 3mm"><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
+        <div class="vcard" style="margin-top:2mm;padding:2mm 3mm"><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>
       </div>
     </div>
   </div>
@@ -959,7 +965,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="grid2" style="grid-template-columns:1.1fr 1fr">
     <div class="act">
       <div class="act-h"><span class="num">16</span>{{KEY:prata}}<h3>Mais coleções</h3><span class="skill">Gramática</span></div>
-      <p style="font-size:9.6pt;line-height:1.9">um <span class="fill"></span> de ovelhas · uma <span class="fill"></span> de pessoas · um <span class="fill"></span> de pinheiros · uma <span class="fill"></span> de navios · uma <span class="fill"></span> de músicos · uma <span class="fill"></span> de porcos</p>
+      <p class="nw" style="font-size:9.6pt;line-height:1.9"><span>um <span class="fill"></span> de ovelhas</span> · <span>uma <span class="fill"></span> de pessoas</span> · <span>um <span class="fill"></span> de pinheiros</span> · <span>uma <span class="fill"></span> de navios</span> · <span>uma <span class="fill"></span> de músicos</span> · <span>uma <span class="fill"></span> de porcos</span></p>
       <p class="small" style="margin-top:1mm">Palavras de apoio: vara · rebanho · pinhal · frota · orquestra · multidão</p>
     </div>
     <div class="act">
@@ -996,7 +1002,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
       <p>Mas o mais bonito da D. Guilhermina não se vê logo. É <span class="hl-p">muito paciente</span>: responde à mesma pergunta dez vezes sem se zangar. É <span class="hl-p">curiosíssima</span>: examina uma concha com a lupa como se fosse a primeira que via. E é <span class="hl-p">um bocadinho teimosa</span>, porque se recusa a pôr a osga Mourinha fora do Gabinete.</p>
       <p>Quando fala dos seus objetos, a voz dela fica mais alta e mais rápida do que o costume. Nesse momento, percebe-se que a D. Guilhermina não guarda apenas coisas: <b>guarda histórias</b>.</p>
       <div style="display:flex;gap:4mm;margin-top:4mm;font-family:Figtree;font-size:8.4pt;align-items:center"><span class="hl-o" style="padding:0 1mm">retrato físico</span><span class="hl-p" style="padding:0 1mm">retrato psicológico</span></div>
-      <div class="qr" style="margin-top:4mm;font-family:Figtree">{{QR:retratos}}<div class="ql"><b>Ouvir</b>Ouve os dois retratos desta sala. Fecha os olhos: consegues «ver» a D. Guilhermina e o sótão?</div></div>
+      <div class="qr" style="margin-top:4mm;font-family:Figtree">{{TILE:pares}}<div class="ql"><b>Ler a pares</b>Lê este retrato em voz alta a um colega de olhos fechados. Depois, troquem com o retrato do sótão (p. 13). Que três pormenores conseguiu cada um «ver»?</div></div>
     </div>
   </div>
   <footer class="folio">12</footer>
@@ -1079,7 +1085,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="scale">
     <div style="background:#8C8577"><b>Normal</b>O burro é <i>grande</i>.</div>
     <div style="background:#A0587F"><b>Comp. de superioridade</b>O elefante é <i>mais pesado do que</i> o burro.</div>
-    <div style="background:#8A4A70"><b>Comp. de igualdade</b>A raposa é <i>tão curiosa como</i> a osga.</div>
+    <div style="background:#8A4A70"><b>Comp. de igualdade</b>A raposa é <i>tão curiosa como</i> o rato.</div>
     <div style="background:#6E3960"><b>Comp. de inferioridade</b>O ouriço é <i>menos rápido do que</i> a raposa.</div>
     <div style="background:#562B4B"><b>Superlativo relativo</b>O elefante é <i>o maior</i> dos cinco. O rato é <i>o menos pesado</i>.</div>
     <div style="background:var(--ink)"><b>Superlativo absoluto</b>O rato é <i>muito pequeno</i>. É <i>pequeníssimo</i>!</div>
@@ -1112,7 +1118,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
       <div class="act">
         <div class="act-h"><span class="num">23</span>{{KEY:ouro}}<h3>A fábrica do -íssimo</h3></div>
         <p style="font-size:9pt;line-height:1.8">lindo → lindíssimo · fácil → facílimo<br>rápido → <span class="fill"></span> · velho → <span class="fill"></span><br>feliz → <span class="fill"></span> · antigo → <span class="fill"></span></p>
-        <p class="small" style="margin-top:1mm">⚠ O <i>-íssimo</i> já é o máximo: nunca digas «muito lindíssimo».</p>
+        <p class="small" style="margin-top:1mm"><svg viewBox="0 0 16 16" style="width:1em;height:1em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M8 1.6 15 14.2H1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 6v4.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="8" cy="12.2" r=".95" fill="currentColor"/></svg> O <i>-íssimo</i> já é o máximo: nunca digas «muito lindíssimo».</p>
       </div>
     </div>
   </div>
@@ -1127,7 +1133,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <h1 class="disp">Pinta o teu retrato</h1>
   <p class="lead" style="margin-top:2.4mm;font-size:11pt">Escolhe: o retrato de <b>uma pessoa</b> que conheces bem ou de <b>um lugar</b> onde gostas de estar. Primeiro planeia; depois escreve.</p>
   <div class="act">
-    <div class="act-h"><span class="num">24</span>{{KEY:prata}}<h3>O plano</h3><span class="skill">Escrever</span></div>
+    <div class="act-h"><span class="num">24</span>{{KEY:prata}}<h3>O plano</h3><span class="skill">Planear</span></div>
     <div class="grid2">
       <div class="box"><div class="lab">Retrato de uma pessoa</div><ol style="margin:1.4mm 0 0 4mm;font-size:8.8pt;line-height:1.35">
         <li><b>Apresentação:</b> quem é? como a conheces?</li><li><b>Por fora:</b> do geral para o pormenor — altura, cabelo, olhos, roupa e um pormenor especial.</li><li><b>Por dentro:</b> duas ou três qualidades, cada uma com uma prova.</li><li><b>Fecho:</b> o que sentes por ela.</li></ol></div>
@@ -1167,7 +1173,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <span class="lettertag" style="left:7mm;top:53mm">C</span>
     <div class="ntc nC"><span class="tape"></span><b>ATENÇÃO!</b><br>Osga a dormir no candeeiro da Sala 2. Falem baixinho e não acendam a luz.<br><span style="float:right">— G.</span></div>
     <span class="lettertag" style="right:94mm;top:72mm">D</span>
-    <div class="ntc nD"><div class="t">AVISO AOS ALUNOS DO YEAR 5</div>
+    <div class="ntc nD"><div class="t">AVISO AOS ALUNOS DO 5.º ANO</div>
       Na quinta-feira, dia 22 de outubro, vamos visitar o Gabinete das Coisas Verdadeiras.
       <ul><li><b>Saída:</b> às 9h00, do portão da escola.</li><li><b>Regresso:</b> às 12h30.</li><li><b>Tragam:</b> lanche, caderno e lápis.</li></ul>
       Sejam pontuais! <span style="float:right;font-style:italic">A professora Ana</span></div>
@@ -1207,9 +1213,9 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="trap" style="margin-top:4mm">
     <div><small>afirmativo</small>Toca!</div>
     <div><small>negativo — certo</small><b style="color:var(--verde)">Não toques!</b></div>
-    <div class="bad"><small style="text-decoration:none">negativo — errado</small>Não toca!</div>
+    <div class="bad"><small>negativo — errado</small><span class="x">Não toca!</span></div>
   </div>
-  <p class="small" style="margin-top:1.4mm">⚠ A armadilha mais comum: com <i>tu</i>, o negativo <b>muda de forma</b>. «Não toca» está errado.</p>
+  <p class="small" style="margin-top:1.4mm"><svg viewBox="0 0 16 16" style="width:1em;height:1em;vertical-align:-.14em;display:inline-block" aria-hidden="true"><path d="M8 1.6 15 14.2H1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M8 6v4.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="8" cy="12.2" r=".95" fill="currentColor"/></svg> A armadilha mais comum: com <i>tu</i>, o negativo <b>muda de forma</b>. «Não toca» está errado.</p>
   <div class="lab" style="margin:3.4mm 0 1.4mm">Os rebeldes: afirmativo / <span style="color:var(--verm)">negativo</span> (tu)</div>
   <div class="irrg">
     <div><b>ser</b>sê<br><span>não sejas</span></div><div><b>ir</b>vai<br><span>não vás</span></div><div><b>fazer</b>faz<br><span>não faças</span></div><div><b>dizer</b>diz<br><span>não digas</span></div><div><b>pôr</b>põe<br><span>não ponhas</span></div><div><b>ter</b>tem<br><span>não tenhas</span></div><div><b>vir</b>vem<br><span>não venhas</span></div>
@@ -1217,7 +1223,8 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:1mm">
     <div class="act">
       <div class="act-h"><span class="num">28</span>{{KEY:bronze}}<h3>Caça ao imperativo</h3><span class="skill">Gramática</span></div>
-      <p style="font-size:9.4pt">Sublinha os verbos no imperativo nos avisos da p. 17. Encontras seis: <span class="fill l"></span></p>
+      <p style="font-size:9.4pt">Sublinha os verbos no imperativo nos avisos da p. 17. Encontras seis. Copia-os:</p>
+      <span class="ln s"></span><span class="ln s"></span>
       <div class="act">
         <div class="act-h"><span class="num">29</span>{{KEY:ouro}}<h3>Regras da Sala dos Insetos</h3><span class="skill">Gramática</span></div>
         <p style="font-size:9.2pt;line-height:1.9">(guardar) <span class="fill"></span> as mochilas no cacifo.<br>(não correr) <span class="fill"></span> nos corredores.<br>(pôr) <span class="fill"></span> os telemóveis em silêncio.</p>
@@ -1228,7 +1235,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
       <div class="act-h"><span class="num">30</span>{{KEY:prata}}<h3>O aviso da Mourinha tem erros!</h3><span class="skill">Gramática</span></div>
       <div class="mnote">AVISO DA MOURINHA<br>Não acende a luz! Não faz barulho. Deixa-me dormir e não me acorda antes das nove!</div>
       <p style="font-size:9.2pt;margin-top:3mm">Reescreve o aviso sem erros:</p>
-      <span class="ln s"></span><span class="ln s"></span>
+      <span class="ln s"></span><span class="ln s"></span><span class="ln s"></span>
     </div>
   </div>
   <footer class="folio">18</footer>
@@ -1268,17 +1275,21 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="kick">Sala 5 · Exposição oral</div>
   <h1 class="disp">A visita guiada da Leonor</h1>
   <img src="../art/visita.jpg" style="width:100%;height:62mm;object-fit:cover;object-position:50% 34%;margin-top:3mm;border:.8pt solid var(--rule)" alt="">
-  <p class="lead" style="margin-top:3mm;font-size:10.6pt">Uma exposição oral é como uma visita guiada: sabes para onde vais, levas os ouvintes contigo e despedes-te no fim. Lê — e ouve — a apresentação da Leonor.</p>
+  <p class="lead" style="margin-top:3mm;font-size:10.6pt">Uma exposição oral é como uma visita guiada: sabes para onde vais, levas os ouvintes contigo e despedes-te no fim. Lê a apresentação da Leonor. Depois, um colega di-la em voz alta, sem pressa, e tu cronometras: quanto tempo demora?</p>
   <div class="oral-top" style="margin-top:3mm">
     <div class="speech">
-      <div class="seg" style="--sc:var(--ocre);--sh:#F4D18F"><div class="sl">Abertura</div><div class="st"><u>Olá a todos! Sabiam que dentro desta vitrine está um animal que é parente dos polvos e que traz a casa às costas?</u> Hoje vou apresentar-vos a concha do náutilo.<span class="ann">↑ uma pergunta para captar a atenção · anuncia o tema</span></div></div>
-      <div class="seg" style="--sc:var(--turq);--sh:#BFE0E3"><div class="sl">Desenvolvimento</div><div class="st"><u>Primeiro</u>, vou falar-vos do seu aspeto. A concha é enrolada em espiral e tem riscas cor de laranja sobre um fundo branco. Por dentro, está dividida em muitas câmaras, como uma casa com vários quartos. <u>Em segundo lugar</u>, o náutilo vive nos oceanos Índico e Pacífico, entre os 100 e os 500 metros de profundidade. <u>Por fim</u>, uma curiosidade: sobe e desce na água enchendo as câmaras com gás ou com líquido, como um submarino.<span class="ann">↑ três partes, por ordem, com conectores · só factos</span></div></div>
-      <div class="seg" style="--sc:var(--ameixa);--sh:#E5C4D9"><div class="sl">Fecho</div><div class="st"><u>Em resumo</u>, o náutilo tem uma concha em espiral, vive no fundo do mar e funciona como um submarino. <u>Na minha opinião</u>, é o objeto mais extraordinário do Gabinete. Obrigada pela vossa atenção! Alguém tem alguma pergunta?<span class="ann">↑ resumo · opinião assinalada · agradecimento</span></div></div>
+      <div class="seg" style="--sc:var(--ocre);--sh:#F4D18F"><div class="sl">Abertura</div><div class="st"><u>Olá a todos! Sabiam que dentro desta vitrine está um animal que é parente dos polvos e que traz a casa às costas?</u> Hoje vou apresentar-vos a concha do náutilo.<span class="ann"><span style="font-family:Figtree">↑</span> uma pergunta para captar a atenção · anuncia o tema</span></div></div>
+      <div class="seg" style="--sc:var(--turq);--sh:#BFE0E3"><div class="sl">Desenvolvimento</div><div class="st"><u>Primeiro</u>, vou falar-vos do seu aspeto. A concha é enrolada em espiral e tem riscas cor de laranja sobre um fundo branco. Por dentro, está dividida em muitas câmaras, como uma casa com vários quartos. <u>Em segundo lugar</u>, o náutilo vive nos oceanos Índico e Pacífico, entre os 100 e os 500 metros de profundidade. <u>Por fim</u>, uma curiosidade: sobe e desce na água enchendo as câmaras com gás ou com líquido, como um submarino.<span class="ann"><span style="font-family:Figtree">↑</span> três partes, por ordem, com conectores · só factos</span></div></div>
+      <div class="seg" style="--sc:var(--ameixa);--sh:#E5C4D9"><div class="sl">Fecho</div><div class="st"><u>Em resumo</u>, o náutilo tem uma concha em espiral, vive no fundo do mar e funciona como um submarino. <u>Na minha opinião</u>, é o objeto mais extraordinário do Gabinete. Obrigada pela vossa atenção! Alguém tem alguma pergunta?<span class="ann"><span style="font-family:Figtree">↑</span> resumo · opinião assinalada · agradecimento</span></div></div>
     </div>
     <div>
       <div class="cue"><div class="ct">A ficha da Leonor</div>NÁUTILO<br>1. aspeto: espiral, riscas, câmaras<br>2. onde vive: Índico e Pacífico, 100–500 m<br>3. curiosidade: submarino!<br>fecho: resumo + opinião + obrigada</div>
       <p class="small" style="margin-top:4mm">Repara: a ficha tem <b>palavras-chave</b>, não frases inteiras. A Leonor não lê — <b>lembra-se</b>.</p>
-      <div class="qr" style="margin-top:3mm">{{QR:leonor}}<div class="ql"><b>Ouvir</b>Ouve a Leonor. Quanto tempo demora?</div></div>
+      <div class="qr" style="margin-top:3mm">{{QR:rtpdicas}}<div class="ql"><b>RTP Ensina</b>Lê as «Cinco dicas para comunicar com sucesso». Que dica já segue a Leonor?</div></div>
+      <div class="tint guide"><div class="lab">Palavras que guiam quem ouve</div>
+        <p><b>Para abrir:</b> Olá a todos! · Sabiam que…? · Hoje vou apresentar-vos…</p>
+        <p><b>Para ordenar:</b> Primeiro · Em segundo lugar · Depois · Por fim</p>
+        <p><b>Para fechar:</b> Em resumo · Na minha opinião · Obrigado/a pela vossa atenção!</p></div>
     </div>
   </div>
   <footer class="folio">20</footer>
@@ -1328,13 +1339,13 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <div class="act-h"><span class="num">36</span>{{KEY:prata}}<h3>Enquanto ouves: o ouvinte atento</h3><span class="skill">Ouvir</span></div>
     <div class="grid2" style="grid-template-columns:1.3fr 1fr">
       <table class="rub"><tr><th style="text-align:left">O orador…</th><th>sim</th><th>quase</th><th>ainda não</th></tr>
-        <tr><td>apresentou o tema na abertura</td><td class="c">○</td><td class="c">○</td><td class="c">○</td></tr>
-        <tr><td>seguiu uma ordem, com conectores</td><td class="c">○</td><td class="c">○</td><td class="c">○</td></tr>
-        <tr><td>usou factos verdadeiros</td><td class="c">○</td><td class="c">○</td><td class="c">○</td></tr>
-        <tr><td>assinalou a opinião («na minha opinião»)</td><td class="c">○</td><td class="c">○</td><td class="c">○</td></tr>
-        <tr><td>fez um fecho com resumo</td><td class="c">○</td><td class="c">○</td><td class="c">○</td></tr>
-        <tr><td>falou alto, claro e olhou para nós</td><td class="c">○</td><td class="c">○</td><td class="c">○</td></tr></table>
-      <div class="box" style="font-size:8.8pt"><div class="lab" style="margin-bottom:1mm">Duas estrelas e um desejo</div>★ <span class="ln s" style="display:inline-block;width:88%"></span><br>★ <span class="ln s" style="display:inline-block;width:88%"></span><br>✦ <span class="ln s" style="display:inline-block;width:88%"></span></div>
+        <tr><td>apresentou o tema na abertura</td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td></tr>
+        <tr><td>seguiu uma ordem, com conectores</td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td></tr>
+        <tr><td>usou factos verdadeiros</td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td></tr>
+        <tr><td>assinalou a opinião («na minha opinião»)</td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td></tr>
+        <tr><td>fez um fecho com resumo</td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td></tr>
+        <tr><td>falou alto, claro e olhou para nós</td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td><td class="c"><span style="display:inline-block;width:3.2mm;height:3.2mm;border:.8pt solid currentColor;border-radius:50%;vertical-align:middle"></span></td></tr></table>
+      <div class="box stars" style="font-size:8.8pt"><div class="lab" style="margin-bottom:1mm">Duas estrelas e um desejo</div><div class="wi"><svg viewBox="0 0 16 16" style="width:1.15em;height:1.15em;flex:none;display:block;margin-top:.1em" aria-hidden="true"><path d="M8 1.2l2.1 4.4 4.8.6-3.5 3.3.9 4.8L8 12l-4.3 2.3.9-4.8L1.1 6.2l4.8-.6z" fill="currentColor"/></svg><div><span class="ln s"></span><span class="ln s"></span></div></div><div class="wi"><svg viewBox="0 0 16 16" style="width:1.15em;height:1.15em;flex:none;display:block;margin-top:.1em" aria-hidden="true"><path d="M8 1.2l2.1 4.4 4.8.6-3.5 3.3.9 4.8L8 12l-4.3 2.3.9-4.8L1.1 6.2l4.8-.6z" fill="currentColor"/></svg><div><span class="ln s"></span><span class="ln s"></span></div></div><div class="wi"><svg viewBox="0 0 16 16" style="width:1.15em;height:1.15em;flex:none;display:block;margin-top:.1em" aria-hidden="true"><path d="M8 1c.6 3.7 2.3 5.4 6 6-3.7.6-5.4 2.3-6 6-.6-3.7-2.3-5.4-6-6 3.7-.6 5.4-2.3 6-6z" fill="currentColor"/></svg><div><span class="ln s"></span><span class="ln s"></span></div></div></div>
     </div>
   </div>
   <footer class="folio">21</footer>
@@ -1403,8 +1414,8 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <div class="cut" style="--kc:var(--ameixa);grid-column:1/3"><h5>3 · O retrato</h5>
       <div style="display:grid;grid-template-columns:34mm 1fr;gap:4mm"><div style="border:.8pt solid var(--rule);border-radius:50%/42%;height:40mm;display:flex;align-items:center;justify-content:center;font-size:7.4pt;color:var(--ink2);text-align:center;background:#fff">desenho<br>ou fotografia</div>
       <div><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span><span class="ln"></span></div></div></div>
-    <div class="cut" style="--kc:var(--verm)"><h5>4 · Aviso da vitrine</h5>
-      <div style="border:2pt solid var(--verm);border-radius:1.4mm;padding:2mm 3mm;background:#fff"><div style="text-align:center;font-weight:900;letter-spacing:.2em;color:var(--verm)">AVISO</div><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div></div>
+    <div class="cut" style="--kc:var(--verm);display:flex;flex-direction:column"><h5>4 · Aviso da vitrine</h5>
+      <div style="flex:1;border:2pt solid var(--verm);border-radius:1.4mm;padding:2mm 3mm;background:#fff"><div style="text-align:center;font-weight:900;letter-spacing:.2em;color:var(--verm)">AVISO</div><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div></div>
     <div class="cut" style="--kc:var(--turq)"><h5>5 · Livro de Visitas</h5>
       <div class="r"><span style="border:0;height:auto;color:var(--verde);font-weight:700">um facto que aprendi</span><span></span></div><span class="ln s"></span>
       <div class="r"><span style="border:0;height:auto;color:var(--ameixa);font-weight:700">a minha opinião</span><span></span></div><span class="ln s"></span>
@@ -1436,14 +1447,14 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="act">
     <div class="act-h"><span class="num">40</span>{{KEY:prata}}<h3>Oito perguntas à saída</h3><span class="skill">Revisão</span></div>
     <div class="quiz">
-      <div><b>1</b><span>Que tipo de texto tem uma entrada a negrito e aceções numeradas? <span class="fill"></span></span></div>
-      <div><b>5</b><span>Facto ou opinião? «O sótão é o lugar mais bonito do mundo.» <span class="fill"></span></span></div>
-      <div><b>2</b><span>Muitas abelhas formam um <span class="fill"></span>.</span></div>
-      <div><b>6</b><span>Que informação nunca pode faltar num aviso? <span class="fill"></span></span></div>
-      <div><b>3</b><span>Imperativo negativo de <i>correr</i> (tu): <span class="fill"></span></span></div>
-      <div><b>7</b><span>Para que serve a abertura de uma exposição oral? <span class="fill"></span></span></div>
-      <div><b>4</b><span>Grau de <i>antiquíssimo</i>: <span class="fill"></span></span></div>
-      <div><b>8</b><span>Que três pistas te ajudam a prever o assunto de um texto? <span class="fill"></span></span></div>
+      <div><b>1</b><span><span class="qt">Que tipo de texto tem uma entrada a negrito e aceções numeradas?</span><span class="fill"></span></span></div>
+      <div><b>5</b><span><span class="qt">Facto ou opinião? «O sótão é o lugar mais bonito do mundo.»</span><span class="fill"></span></span></div>
+      <div><b>2</b><span><span class="qt">Muitas abelhas formam um…</span><span class="fill"></span></span></div>
+      <div><b>6</b><span><span class="qt">Que informação nunca pode faltar num aviso?</span><span class="fill"></span></span></div>
+      <div><b>3</b><span><span class="qt">Imperativo negativo de <i>correr</i> (tu):</span><span class="fill"></span></span></div>
+      <div><b>7</b><span><span class="qt">Para que serve a abertura de uma exposição oral?</span><span class="fill"></span></span></div>
+      <div><b>4</b><span><span class="qt">Grau de <i>antiquíssimo</i>:</span><span class="fill"></span></span></div>
+      <div><b>8</b><span><span class="qt">Que três pistas te ajudam a prever o assunto de um texto?</span><span class="fill"></span></span></div>
     </div>
   </div>
   <div class="act">
@@ -1464,7 +1475,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   </div>
   <div style="position:absolute;left:16mm;right:24mm;bottom:21mm;display:grid;grid-template-columns:1fr 60mm;gap:6mm;align-items:center">
     <div class="tip"><img src="../art/mou-2.png" alt=""><div class="bub">Volta sempre! E, se vires uma osga na parede, diz-lhe olá — agora já sabes que <b>não faz mal a ninguém</b>.</div></div>
-    <div class="qr">{{QR:solucoes}}<div class="ql"><b>Para o professor</b>Soluções e guiões dos áudios desta unidade.</div></div>
+    <div class="qr">{{TILE:livro}}<div class="ql"><b>Para o professor</b>Soluções: no fim do livro.</div></div>
   </div>
   <footer class="folio">24</footer>
 </section>

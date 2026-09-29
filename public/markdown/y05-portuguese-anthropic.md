@@ -1,23 +1,21 @@
 # Portuguese - Year 5 (Prime Book)
-> Markdown companion of `public/library/y05-portuguese-anthropic/book.pdf` (160 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y05-portuguese-anthropic/book.pdf` (176 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-P R I M E   S C H O O L   P R E S S
-Português
+## Português
 
-Year 5
+## 5.º Ano
+
 Manual do aluno
-
-P O R T U G U Ê S L Í N G U A M A T E R N A · 5 . º A N O
 
 <!-- page 2 -->
 
 ---
 P R I M E   S C H O O L   P R E S S
 
-Português · Year 5
+Português · 5.º Ano
 
 Manual do aluno · Português Língua Materna · 5.º ano
 
@@ -37,14 +35,16 @@ poemas e peças de teatro
 Atividades numeradas em três níveis: bronze, prata e
 ouro
 
-31 áudios e 46 códigos QR, todos reunidos na p. 147
+25 códigos QR para páginas públicas, todos reunidos
+na p. 163
 
 Quatro testes, grelhas de autoavaliação e um balanço
 do ano
 
-Glossário, referências e planificação nas pp. 145–151
+Soluções, glossário, referências e planificação nas pp.
+145–167
 
-1.ª edição, 2026. Formato A4 (210 × 297 mm), impressão a cores, 160 páginas.
+1.ª edição, 2026. Formato A4 (210 × 297 mm), impressão a cores, 176 páginas.
 
 A Prime School Press é a chancela editorial da Prime School, Portugal.
 
@@ -61,8 +61,8 @@ tradicionais são recontados por nós.
 Ilustrações criadas para esta edição, geradas digitalmente e revistas pela equipa editorial;
 não retratam pessoas reais.
 
-Faixas gravadas com vozes sintéticas em português europeu. Só se gravaram textos originais
-ou do domínio público.
+Os códigos QR levam só a páginas públicas de instituições e obras de referência
+(dicionários, museus, municípios, arquivos); foram todos testados em setembro de 2026.
 
 Conselho Editorial. Grupo Académico Pedagógico · Equipa Pedagógica · Departamento
 Pedagógico · Equipa de Criação de Conteúdos. Escrito, ilustrado e paginado no estúdio da
@@ -70,8 +70,8 @@ Prime School Press.
 
 Português europeu, segundo o Acordo Ortográfico de 1990.
 
-Soluções e guiões dos áudios em linha, para o professor: os códigos QR estão reunidos na p.
-147; planificação anual na p. 149.
+No fim do livro: soluções de todas as unidades (pp. 145–157), textos para o professor ler em
+voz alta (pp. 158–160), planificação anual (p. 165) e todos os códigos QR (p. 163).
 
 A atribuir na primeira impressão.
 
@@ -87,7 +87,7 @@ TEXTOS
 
 IMAGENS
 
-ÁUDIO
+EM LINHA
 
 CRÉDITOS
 
@@ -102,7 +102,7 @@ para uso nos seus próprios programas de estudo. Não é afiliada, licenciada, p
 aprovada pelo Ministério da Educação, por qualquer júri de exames ou por outra editora.
 Segue as Aprendizagens Essenciais de Português do 5.º ano.
 
-9–10 anos · Year 5
+9–10 anos · 5.º Ano
 
 www.primeschool.pt
 
@@ -159,14 +159,14 @@ aplicar o que aprendeste
 Ouro
 desafiar-te a ir mais longe
 
-5 · OUVIR E EXPLORAR
+5 · EXPLORAR EM LINHA
 
 EXPERIMENTA JÁ
-Aponta a câmara: ouves o primeiro áudio do
-livro.
+Aponta a câmara: abres «A osga no Museu
+Virtual da Biodiversidade» (p. 5).
 
-Os códigos QR levam a áudios lidos em voz alta e a
-páginas seguras. Estão todos na p. 147.
+Os códigos QR levam a páginas públicas e seguras —
+dicionários, museus, arquivos. Estão todos na p. 163.
 
 6 · A MOURINHA
 
@@ -215,7 +215,7 @@ Confirma e corrige
 No balanço, pinta o que já
 sabes e volta ao que falta.
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 ANTES DE COMEÇAR · COMO USAR ESTE LIVRO
 
 O GABINETE DAS COISAS
@@ -243,7 +243,7 @@ Um ano, sete viagens
 Cada unidade faz uma grande pergunta. No fim de cada viagem vais ser capaz de
 lhe responder — com textos que leste, escreveste e disseste em voz alta.
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 ANTES DE COMEÇAR · MAPA DO ANO
 
 1
@@ -361,19 +361,19 @@ leitura
 projetos
 
 FIM DO LIVRO · PP.
-145–151
+145–167
 A caixa de ferramentas
 
 PARA CONSULTAR DURANTE TODO O
 ANO
 
 ?
-Onde encontro uma palavra, um áudio ou uma
-fonte?
+Onde confirmo uma resposta, uma palavra ou
+uma fonte?
 
+soluções
 glossário
 recursos digitais
-referências
 planificação
 
 iv
@@ -434,7 +434,7 @@ Modo imperativo — Os verbos que mandam
 Sala 4 · Oficina de escrita — Escreve um aviso
 19
 
-Sala 5 · A Visita Guiada — A visita guiada da Leonor
+Sala 5 · A Visita Guiada — da Leonor
 20
 
 Oficina · A Minha Vitrine
@@ -595,7 +595,7 @@ recital
 Balanço · O que levo do coreto
 80
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 ÍNDICE
 
 v
@@ -619,7 +619,7 @@ pano
 
 83
 
-1.º ato · Duas Cenas: O Aviso — Raio-X de uma peça
+1.ª parte · Duas Cenas: O Aviso
 84
 
 Nos bastidores · O palco por dentro
@@ -631,9 +631,7 @@ emoção
 
 89
 
-2.º ato · A Chave Desaparecida — Detetives da
-leitura
-
+2.ª parte · A Chave Desaparecida
 90
 
 Ensaio geral · A Oficina de Teatro — Escrever e pôr
@@ -661,7 +659,7 @@ Estação 2 · A Memória — A mala azul da carruagem 3 102
 Estação 3 · A Poesia — Comboio da noite
 105
 
-Estação 4 · O Palco — O Palco A mala azul
+Estação 4 · O Palco — A mala azul
 107
 
 Oficina de Reparações · Clínica da gramática — O
@@ -717,19 +715,13 @@ UNIDADE 7 · O BAÚ DOS PASSATEMPOS
 Atividades Extra
 129
 
-Abrir o baú · Como escolher — Como escolher uma
-atividade
-
+Abrir o baú · Como escolher — uma atividade
 130
 
-Jogos de palavras · Palavras cruzadas — Palavras
-cruzadas do ano
-
+Jogos de palavras · Palavras cruzadas — do ano
 131
 
-Escrita criativa · Dados de histórias — Cartas e
-diários
-
+Escrita criativa · Dados de histórias
 135
 
 Oralidade · Trava-línguas — Brincar com a voz
@@ -764,25 +756,31 @@ vii
 Quem sou eu como leitor
 viii
 
-Glossário
+Soluções
 145
 
+Textos para o professor ler em voz alta
+158
+
+Glossário
+161
+
 Recursos digitais
-147
+163
 
 Referências e créditos
-148
+164
 
 Planificação anual
-149
+165
 
 O meu 5.º ano — antes de fechar o livro
-150
+166
 
 Colofão
-151
+167
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 ÍNDICE · CONTINUAÇÃO
 
 vi
@@ -865,7 +863,7 @@ história contada com falas · p. 60
 
 3
 «O Alfabeto dos Bichos», José Jorge Letria
-poesia (excertos) · p. 65
+poesia (excertos) · p. 67
 
 3
 «Noite e Dia»
@@ -882,10 +880,7 @@ texto dramático · p. 90
 +
 Por minha conta:
 
-+
-Por minha conta:
-
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 ANTES DE COMEÇAR · O MEU ANO DE LEITURA
 
 Cinco estrelas = quero reler!
@@ -973,7 +968,7 @@ Gramática
 
 por exemplo: conjugar bem os verbos no passado
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 ANTES DE COMEÇAR · QUEM SOU EU COMO LEITOR
 
 Um bom objetivo é pequeno e claro: «ler 10 minutos antes de dormir» ganha a «ler mais».
@@ -984,7 +979,7 @@ viii
 
 ---
 1
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
 O Gabinete das Coisas
 Verdadeiras
 
@@ -1120,7 +1115,7 @@ AS CHAVES DO GABINETE
 aquecer
 aplicar
 desafiar-me
-ouvir ou explorar online
+explorar online
 
 O GABINETE DAS COISAS VERDADEIRAS
 BEM-VINDO · UNIDADE 1
@@ -1245,7 +1240,6 @@ SALA 1 · A ENCICLOPÉDIA
 SALA 1 · ENCICLOPÉDIA
 
 1
-
 2
 
 3
@@ -1352,12 +1346,12 @@ Tecnológica.
 
 PALAVRAS DO GABINETE
 
-réptil — animal de pele com escamas,
-que põe ovos e cuja temperatura
-depende do ambiente.
+réptil — animal de pele com escamas
+que, em geral, põe ovos e cuja
+temperatura depende do ambiente.
 
-tubérculo — pequeno alto,
-arredondado, na pele.
+tubérculo — pequeno alto arredondado
+na pele.
 
 crepuscular — ativo ao crepúsculo,
 quando o dia está a acabar.
@@ -1368,9 +1362,10 @@ para se alimentar.
 
 inofensivo — que não faz mal.
 
-OUVIR
-Ouve o artigo lido em voz alta. Acompanha com
-o dedo e repara nas pausas entre as partes.
+CONFIRMAR A FONTE
+O artigo cita o Ciência Viva. Abre a ficha da osga
+e encontra dois factos que aparecem nos dois
+textos.
 
 EXPLORAR
 Visita a ficha verdadeira da osga no Museu
@@ -1526,8 +1521,9 @@ Frase 8: parece um facto, porque se pode verificar… mas o artigo diz outra coi
 Ouve e decide
 OUVIR
 
-Ouve oito frases. Depois de cada uma, escreve F
-ou O.
+O PROFESSOR LÊ
+Ouve com atenção oito frases, ditas uma de
+cada vez. Depois de cada uma, escreve F ou O.
 
 1
 2
@@ -1746,9 +1742,8 @@ Uma palavra, vários sentidos
 PESQUISAR
 
 DICIONÁRIO ONLINE
-No artigo da osga aparece a palavra lamelas. Procura
-LAMELA
-no dicionário online. Quantas aceções encontraste? Copia a que combina com o texto da página 5.
+No artigo da osga aparece a palavra lamelas. Procura lamela no dicionário online. Quantas aceções
+encontraste? Copia a que combina com o texto da página 5.
 
 O GABINETE DAS COISAS VERDADEIRAS
 SALA 2 · USAR O DICIONÁRIO
@@ -1773,31 +1768,22 @@ S A L A 2 · E S C R I T A
 Escrever um verbete
 
 1
-Escolhe a
-palavra
-e escreve-a na forma
+Escolhe a palavra e
+escreve-a na forma
 base.
 
 2
-Divide-a em
-sílabas
-.
-
+Divide-a em sílabas.
 3
-Indica a
-classe
-e o
-género
-.
+Indica a classe e o
+género.
 
 4
-Escreve a
-definição
-: clara e curta.
+Escreve a definição:
+clara e curta.
 
 5
-Junta um
-exemplo
+Junta um exemplo
 em itálico.
 
 A FÓRMULA DE UMA BOA DEFINIÇÃO
@@ -2029,9 +2015,10 @@ retrato físico
 
 retrato psicológico
 
-OUVIR
-Ouve os dois retratos desta sala. Fecha os olhos:
-consegues «ver» a D. Guilhermina e o sótão?
+LER A PARES
+Lê este retrato em voz alta a um colega de olhos
+fechados. Depois, troquem com o retrato do sótão (p.
+13). Que três pormenores conseguiu cada um «ver»?
 
 O GABINETE DAS COISAS VERDADEIRAS
 SALA 3 · OS RETRATOS
@@ -2261,7 +2248,7 @@ SUPERIORIDADE
 A raposa é
 tão curiosa
 como
-a osga.
+o rato.
 
 COMP. DE
 IGUALDADE
@@ -2319,7 +2306,7 @@ estar. Primeiro planeia; depois escreve.
 
 24
 O plano
-ESCREVER
+PLANEAR
 
 RETRATO DE UMA PESSOA
 
@@ -2437,7 +2424,7 @@ não acendam a luz.
 
 A professora Ana
 
-AVISO AOS ALUNOS DO YEAR 5
+AVISO AOS ALUNOS DO 5.º ANO
 Na quinta-feira, dia 22 de outubro, vamos visitar o
 Gabinete das Coisas Verdadeiras.
 
@@ -2544,7 +2531,7 @@ Caça ao imperativo
 GRAMÁTICA
 
 Sublinha os verbos no imperativo nos avisos da p. 17.
-Encontras seis:
+Encontras seis. Copia-os:
 
 29
 Regras da Sala dos Insetos
@@ -2680,14 +2667,26 @@ S A L A 5 · E X P O S I Ç Ã O O R A L
 A visita guiada da Leonor
 
 Uma exposição oral é como uma visita guiada: sabes para onde vais, levas os ouvintes
-contigo e despedes-te no fim. Lê — e ouve — a apresentação da Leonor.
+contigo e despedes-te no fim. Lê a apresentação da Leonor. Depois, um colega di-la em
+voz alta, sem pressa, e tu cronometras: quanto tempo demora?
 
 Repara: a ficha tem palavras-chave, não
 frases inteiras. A Leonor não lê — lembra-se.
 
-OUVIR
-Ouve a Leonor. Quanto
-tempo demora?
+RTP ENSINA
+Lê as «Cinco dicas para
+comunicar com sucesso».
+Que dica já segue a Leonor?
+
+PALAVRAS QUE GUIAM QUEM OUVE
+Para abrir: Olá a todos! · Sabiam
+que…? · Hoje vou apresentar-
+vos…
+Para ordenar: Primeiro · Em
+segundo lugar · Depois · Por fim
+Para fechar: Em resumo · Na
+minha opinião · Obrigado/a pela
+vossa atenção!
 
 O GABINETE DAS COISAS VERDADEIRAS
 SALA 5 · A VISITA GUIADA
@@ -2829,9 +2828,6 @@ fez um fecho com resumo
 falou alto, claro e olhou para nós
 
 DUAS ESTRELAS E UM DESEJO
-
-
-
 
 O GABINETE DAS COISAS VERDADEIRAS
 SALA 5 · PREPARAR A EXPOSIÇÃO
@@ -3058,8 +3054,7 @@ Facto ou opinião? «O sótão é o lugar mais bonito do
 mundo.»
 
 2
-Muitas abelhas formam um
-.
+Muitas abelhas formam um…
 6
 Que informação nunca pode faltar num aviso?
 
@@ -3115,8 +3110,7 @@ SAÍDA · O QUE LEVO DAQUI
 SAÍDA · BALANÇO
 
 PARA O PROFESSOR
-Soluções e guiões dos
-áudios desta unidade.
+Soluções: no fim do livro.
 
 Volta sempre! E, se vires uma osga na parede, diz-
 lhe olá — agora já sabes que não faz mal a
@@ -3128,7 +3122,7 @@ ninguém.
 
 ---
 2
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
 Lugar, Tempo e Memória
 
 TEXTO NARRATIVO
@@ -3426,9 +3420,9 @@ H
 
 Barcelos andava assustada. Alguém tinha
 
-cometido um crime e ninguém sabia quem era o
+cometido um crime e ninguém sabia quem era o culpado.
 
-culpado. As pessoas olhavam umas para as outras com
+As pessoas olhavam umas para as outras com
 
 desconfiança e trancavam as portas ao anoitecer.
 
@@ -3482,6 +3476,14 @@ LUGAR, TEMPO E MEMÓRIA
 <!-- page 37 -->
 
 ---
+OUVIR · ANTENA 1
+A lenda contada na rádio, na
+série Histórias Assim Mesmo
+(RTP Arquivos, 3 min). Ouve-a
+de olhos fechados e imagina
+Barcelos. Depois, reconta-a a
+um colega.
+
 O peregrino olhou para a travessa e disse, com voz firme:
 
 — É tão certo eu estar inocente como é certo esse galo
@@ -3539,17 +3541,12 @@ banquetear-se — comer uma refeição grande e festiva.
 forca — estrutura antiga onde se executavam os condenados.
 cruzeiro — grande cruz de pedra, num adro ou num caminho.
 
-OUVIR · FAIXA U2-01
-Ouve a lenda contada em voz alta. Na primeira
-vez, fecha os olhos e imagina a vila de Barcelos.
-
 EXPLORAR
-Lê a lenda no site do Município de Barcelos.
-Encontras alguma diferença em relação a este
-reconto?
+Lê a lenda no site do Município de Barcelos. Encontras alguma diferença em relação a este reconto?
 
-FONTES · Município de Barcelos, «A Lenda do Galo» (cm-barcelos.pt); Turismo de Portugal, «O Galo de Barcelos» (visitportugal.com). Reconto original
-em português europeu para esta edição.
+FONTES · Município de Barcelos, «A Lenda do Galo» (cm-barcelos.pt); RTP Arquivos, «A Lenda do Galo de Barcelos», Histórias Assim Mesmo, Antena 1,
+locução de Mafalda Lopes da Costa (arquivos.rtp.pt); Turismo de Portugal, «O Galo de Barcelos» (visitportugal.com). Reconto original em português
+europeu para esta edição.
 
 LUGAR, TEMPO E MEMÓRIA
 2.1 · A LENDA DO GALO DE BARCELOS
@@ -3676,7 +3673,7 @@ andar.
 
 Pretérito imperfeito
 
-Ação que durava, se repetia ou descrição no passado.
+Ação que durava ou se repetia; descrição no passado.
 
 «A vila andava assustada.»
 
@@ -3727,8 +3724,8 @@ cantavam
 comiam
 partiam
 
-Atenção ao acento: cantámos (ontem, perfeito) · cantamos (hoje, presente). Verbos irregulares: ser/ir → fui, foi · era; ter → tive,
-teve · tinha; fazer → fiz, fez · fazia.
+Atenção ao acento: cantámos (ontem, perfeito) · cantamos (hoje, presente). Verbos irregulares: ser → fui, foi · era; ir → fui, foi · ia;
+ter → tive, teve · tinha; fazer → fiz, fez · fazia.
 
 7
 Caça aos tempos na lenda
@@ -3789,7 +3786,7 @@ b)
 <!-- page 40 -->
 
 ---
-E S T A Ç Ã O 2 . 2 · L E R E O U V I R
+E S T A Ç Ã O 2 . 2 · L E R E V E R
 Um dia em Sintra
 
 RELATO DE VIAGEM · ESCRITO POR INÊS CARVALHO, ALUNA DO 5.º ANO
@@ -3801,43 +3798,62 @@ aconteceu. As horas e as palavras de tempo ajudam o leitor a acompanhar o percur
 
 N
 
-a sexta-feira passada, a minha turma fez uma visita de
+a sexta-feira passada, a minha turma fez uma
 
-estudo a Sintra. Eu estava tão entusiasmada que
+visita de estudo a Sintra. Eu estava tão
 
-acordei antes de o despertador tocar!
+entusiasmada que acordei antes de o despertador tocar!
 
 8h30 Primeiro, encontrámo-nos todos na estação do
 
 Rossio, em Lisboa, com a professora Graça. Às nove em
 
-ponto, o comboio partiu. Durante a viagem, que demorou
+ponto, o comboio partiu. Durante a viagem, que
 
-quase quarenta minutos, fomos a contar os túneis e a ver os
+demorou quase quarenta minutos, fomos a contar os
 
-prédios darem lugar a campos cada vez mais verdes.
+túneis e a ver os prédios darem lugar a campos cada vez
+
+mais verdes.
 
 9h40 Quando chegámos a Sintra, estava nevoeiro. A
 
-professora explicou que a serra fica perto do mar e apanha
+professora explicou que a serra fica perto do mar e
 
-muita humidade do oceano Atlântico, por isso está muitas
+apanha muita humidade do oceano Atlântico, por isso
 
-vezes coberta de neblina. Parecia que as árvores estavam a
+está muitas vezes coberta de neblina. Parecia que as
 
-respirar nuvens.
+árvores estavam a respirar nuvens.
 
 10h30 Depois, subimos de autocarro até ao Palácio da
 
-Pena. Eu nunca tinha visto um palácio amarelo e vermelho!
+Pena. Eu nunca tinha visto um palácio amarelo e
 
-Tem torres, cúpulas e varandas e parece saído de um conto
+vermelho! Tem torres, cúpulas e varandas e parece saído
 
-de fadas. A guia contou-nos que foi o rei D. Fernando II que o
+de um conto de fadas. A guia contou-nos que foi o rei D.
 
-mandou construir, a partir de 1838, no lugar de um antigo
+Fernando II que o mandou construir, a partir de 1838, no
 
-mosteiro.
+lugar de um antigo mosteiro.
+
+túnel — passagem por baixo da terra ou
+através de um monte.
+
+nevoeiro — nuvem muito baixa, junto ao
+chão, que não deixa ver ao longe.
+
+humidade — pequenas gotas de água que
+há no ar.
+
+neblina — nevoeiro fraco e pouco espesso.
+
+cúpula — teto redondo, em forma de meia
+bola.
+
+mosteiro — casa onde vivem monges ou
+freiras.
 
 LUGAR, TEMPO E MEMÓRIA
 2.2 · RELATO DE UMA VIAGEM
@@ -3857,53 +3873,79 @@ O palácio amarelo
 <!-- page 41 -->
 
 ---
-12h30 Em seguida, almoçámos no parque, debaixo de umas
+12h30 Em seguida, almoçámos no parque, debaixo de
 
-árvores enormes. O Tomás deixou cair a sandes e um melro
+umas árvores enormes. O Tomás deixou cair a sandes e
 
-atrevido quase lha roubou. Rimo-nos tanto que até nos doeu
+um melro atrevido quase lha roubou. Rimo-nos tanto
 
-a barriga.
+que até nos doeu a barriga.
 
 14h00 Mais tarde, fomos ao Castelo dos Mouros. As
 
-muralhas serpenteiam pela serra como um dragão de pedra.
+muralhas serpenteiam pela serra como um dragão de
 
-Subimos degraus e mais degraus e, lá do alto, víamos o
+pedra. Subimos degraus e mais degraus e, lá do alto,
 
-Palácio da Pena, a vila e, ao longe, o mar. A guia disse que o
+víamos o Palácio da Pena, a vila e, ao longe, o mar. A
 
-castelo foi construído pelos mouros há mais de mil anos.
+guia disse que o castelo foi construído pelos mouros há
 
-16h00 Antes de regressarmos, provámos os doces típicos
+mais de mil anos.
 
-de Sintra: as queijadas e os travesseiros, recheados com
+16h00 Antes de regressarmos, provámos os doces
 
-creme de ovos e amêndoa. Eu escolhi um travesseiro e fiquei
+típicos de Sintra: as queijadas e os travesseiros,
 
-com o nariz cheio de açúcar.
+recheados com creme de ovos e amêndoa. Eu escolhi um
 
-17h30 Finalmente, apanhámos o comboio de volta. Vinha
+travesseiro e fiquei com o nariz cheio de açúcar.
 
-cansada, mas muito feliz. Já em casa, escrevi este relato para
+17h30 Finalmente, apanhámos o comboio de volta.
 
-nunca me esquecer de um dia tão especial. Hei de voltar a
+Vinha cansada, mas muito feliz. Já em casa, escrevi este
 
-Sintra com a minha família!
+relato para nunca me esquecer de um dia tão especial.
+
+Hei de voltar a Sintra com a minha família!
+
+sandes — pão cortado ao meio, com
+recheio.
+
+melro — pássaro preto; o macho tem o
+bico amarelo.
+
+serpentear — avançar aos esses, como
+uma serpente.
+
+muralha — muro alto e grosso que protege
+um castelo.
+
+queijada — bolinho feito com queijo fresco,
+ovos e açúcar.
+
+típico — próprio de um lugar ou de uma
+região.
+
+atrevido — que não tem medo; ousado.
+regressar — voltar ao lugar de onde se
+partiu.
 
 SABIAS QUE…
 Em 1995, a UNESCO classificou a Paisagem Cultural de Sintra como Património Mundial: palácios,
 castelos, quintas e jardins, no meio de uma serra coberta de floresta.
 
-OUVIR · FAIXA U2-02
-Ouve o relato da Inês. Levanta a mão sempre
-que ouvires uma hora ou uma palavra que
-marca o tempo.
+VER · RTP ARQUIVOS
+No documentário O Palácio da Pena, vê do
+minuto 2 ao 5: as muralhas do Castelo dos
+Mouros e a Pena vista do castelo. O que viu a
+Inês às 14h00?
 
 FONTES · Parques de Sintra – Monte da Lua, «Palácio Nacional da Pena»
 e «Castelo dos Mouros» (parquesdesintra.pt); UNESCO, «Cultural
-Landscape of Sintra» (whc.unesco.org/en/list/723). Relato original
-escrito para esta edição; a Inês e a sua turma são personagens
+Landscape of Sintra» (whc.unesco.org/en/list/723); RTP Arquivos, O
+Palácio da Pena, série As Pedras e o Homem (arquivos.rtp.pt). Relato
+original escrito para esta edição; a Inês e a sua turma são personagens
 inventadas.
 
 LUGAR, TEMPO E MEMÓRIA
@@ -4246,17 +4288,18 @@ C · representante de um país numa cidade estrangeira
 reabilitar
 D · não cumprir uma ordem
 
-OUVIR · FAIXA U2-03
-Ouve a biografia. Que datas e lugares
-consegues apanhar à primeira?
+VER E OUVIR · RTP ENSINA
+Reportagem da RTP (2016): Lissy Jarvik e
+Stefan Rozenfeld receberam vistos de Aristides.
+Ouve-os. O que conseguiram graças a ele?
 
 EXPLORAR
 Lê a notícia da Direção-Geral da Educação
 sobre as honras de Panteão Nacional (2021).
 
 FONTES · Fundação Sousa Mendes, «Aristides de Sousa Mendes: His Life and Legacy» (sousamendesfoundation.org); Yad Vashem, «Righteous Among
-the Nations» (yadvashem.org); Direção-Geral da Educação, «Honras de Panteão Nacional a Aristides de Sousa Mendes» (dge.mec.pt). Texto biográfico
-original para esta edição.
+the Nations» (yadvashem.org); Direção-Geral da Educação, «Honras de Panteão Nacional a Aristides de Sousa Mendes» (dge.mec.pt); RTP Ensina,
+«Aristides de Sousa Mendes, o cônsul desobediente» (ensina.rtp.pt). Texto biográfico original para esta edição.
 
 LUGAR, TEMPO E MEMÓRIA
 2.3 · COMPREENDER A BIOGRAFIA
@@ -4315,7 +4358,7 @@ Exemplo
 «Aristides nasceu em 1885.»
 «Eu nasci em 1885.»
 
-O que tem
+Em comum
 factos verdadeiros · datas e lugares · ordem cronológica · pretérito perfeito e
 
 imperfeito
@@ -4406,8 +4449,8 @@ ORALIDADE
 
 Entrevista um avô, uma avó ou outro adulto da família.
 Pergunta onde nasceu, como era a escola no seu
-tempo e qual é a sua melhor memória. Apresenta-o à
-turma em dois minutos, na 3.ª pessoa.
+tempo e qual é a sua melhor memória. Apresenta essa
+pessoa à turma em dois minutos, na 3.ª pessoa.
 
 LUGAR, TEMPO E MEMÓRIA
 2.3 · OFICINA DE ESCRITA
@@ -4533,8 +4576,8 @@ em todas há escritores que contam histórias
 — como vais descobrir na página seguinte.
 
 SABIAS QUE…
-Desde 2019, a UNESCO celebra a 5 de maio o Dia Mundial da Língua Portuguesa. Nesse dia,
-escolas de todos estes países leem, cantam e contam histórias em português.
+Desde 2020, celebra-se a 5 de maio o Dia Mundial da Língua Portuguesa, criado pela UNESCO em
+2019. Nesse dia, escolas de todos estes países leem, cantam e contam histórias em português.
 
 FONTES · CPLP, «Estados-membros» (cplp.org); Camões, I.P., «A língua portuguesa no mundo» (instituto-camoes.pt). Mapa desenhado para esta
 edição a partir de dados cartográficos Natural Earth (domínio público). Texto original.
@@ -5157,9 +5200,11 @@ DE QUE TRATA O LIVRO? · RESUMO
 
 Ynari tem cinco tranças lindas, negras e compridas, que nunca se desfazem: a avó diz que ela já nasceu
 com elas e que um dia vai saber porquê. Certa tarde, junto ao rio, conhece um homem muito pequenino
+
 com um sorriso muito grande. Os dois tornam-se amigos e brincam com as palavras.
 
 O homem pequenino é mágico e leva Ynari à sua aldeia, onde vivem o velho muito velho que inventa as
+
 palavras e a velha muito velha que destrói as palavras. Ali, Ynari aprende que todos somos mágicos — mas
 cada um tem de descobrir a sua magia.
 
@@ -5479,7 +5524,7 @@ c)
 <!-- page 60 -->
 
 ---
-E S T A Ç Ã O 2 . 7 · L E R E O U V I R
+E S T A Ç Ã O 2 . 7 · L E R E E X P L O R A R
 Os Pardais da Horta
 
 CONTO ORIGINAL · NARRADOR QUE NÃO PARTICIPA (3.ª PESSOA)
@@ -5487,47 +5532,51 @@ N
 
 a Escola do Alto da Fonte, a turma do 5.º C
 
-tinha uma horta atrás do pavilhão. Em março,
+tinha uma horta atrás do pavilhão. Em
 
-a Leonor, o Rui e a Matilde semearam alfaces,
+março, a Leonor, o Rui e a Matilde semearam
 
-ervilhas e girassóis, e regavam a horta todas as
+alfaces, ervilhas e girassóis, e regavam a horta
 
-manhãs, antes das aulas.
+todas as manhãs, antes das aulas.
 
 Mas, numa segunda-feira, quando chegaram,
 
-tiveram uma surpresa desagradável: os canteiros
+tiveram uma surpresa desagradável: os
 
-estavam cheios de buracos e as sementes tinham
+canteiros estavam cheios de buracos e as
 
-desaparecido. Em cima do muro, um bando de pardais
+sementes tinham desaparecido. Em cima do
 
-piava, muito satisfeito.
+muro, um bando de pardais piava, muito
+
+satisfeito.
 
 — Os pardais comeram as sementes todas! —
 
 exclamou o Rui.
 
-Primeiro, o Rui construiu um espantalho com um
+Primeiro, o Rui construiu um espantalho com
 
-cabo de vassoura, uma camisola velha e um chapéu de
+um cabo de vassoura, uma camisola velha e um
 
-palha. Durante dois dias, os pardais fugiram dele. Ao
+chapéu de palha. Durante dois dias, os pardais
 
-terceiro dia, já estavam empoleirados no chapéu do
+fugiram dele. Ao terceiro dia, já estavam
 
-espantalho, a descansar ao sol.
+empoleirados no chapéu do espantalho, a
+
+descansar ao sol.
 
 Depois, a Matilde teve outra ideia: cobrir os
 
-canteiros com uma rede. Os pardais não conseguiam
+canteiros com uma rede. Os pardais não
 
-passar, mas as ervilhas também não: cresciam tortas,
+conseguiam passar, mas as ervilhas também não:
 
-presas nos buracos da rede, e regá-las tornou-se uma
+cresciam tortas, presas nos buracos da rede, e
 
-grande confusão.
+regá-las tornou-se uma grande confusão.
 
 ANTES DE CONTINUAR
 O espantalho e a rede não resultaram. Observa a ilustração: que nova ideia terão as crianças? Como
@@ -5612,13 +5661,15 @@ pássaros.
 
 estaca — pau espetado na terra.
 
-OUVIR · FAIXA U2-04
-Ouve o conto e conta, pelos dedos, as tentativas
-para afastar os pardais.
+EXPLORAR · WILDER
+Lê «Conheça as cinco espécies de pardais de
+Portugal». Em que dia se celebra o pardal-
+comum? Onde pode ele fazer o ninho?
 
 NOTA · Conto original escrito para esta edição. Os CD e os cataventos
 assustam as aves porque refletem a luz e se mexem com o vento; um
-comedouro afastado dá-lhes outra fonte de alimento.
+comedouro afastado dá-lhes outra fonte de alimento. Fonte do QR:
+Helena Geraldes, Wilder (wilder.pt), 2025.
 
 LUGAR, TEMPO E MEMÓRIA
 2.7 · OS PARDAIS DA HORTA
@@ -5806,10 +5857,8 @@ uma festa sem música…). Planeia aqui e escreve no caderno (150 a 200 palavras
 
 Situação inicial
 Problema
-Tentativa 1
-Tentativa 2 ·
-resolução
-
+Tentativas
+Resolução
 Situação final
 
 A minha história tem um problema claro.
@@ -5850,9 +5899,9 @@ uma manhã de inverno, na serra da Estrela, a
 
 aldeia acordou coberta de neve. O Duarte e a
 
-prima Beatriz estavam a passar as férias de
+prima Beatriz estavam a passar as férias de Natal em
 
-Natal em casa da avó Rosa.
+casa da avó Rosa.
 
 — Desapareceu a minha luva vermelha! — queixou-
 
@@ -5975,11 +6024,16 @@ SABIAS QUE…
 Os gatos recolhem as unhas quando andam, por isso as suas pegadas quase nunca mostram marcas
 de unhas. As pegadas dos cães, pelo contrário, mostram-nas quase sempre.
 
-OUVIR · FAIXA U2-05
-Ouve o conto — mas só depois de resolveres o
-mistério: a gravação inclui a revelação!
+LER EM VOZ ALTA · COM SUSPENSE
+Em grupos de quatro (narrador, avó Rosa,
+Beatriz e Duarte), leiam o conto. Façam uma
+pausa antes de cada pista e baixem a voz no
+«ganido». Quem ouve levanta um dedo a cada
+pista.
 
-NOTA · Conto original escrito para esta edição.
+NOTA · Conto original escrito para esta edição. Na leitura em voz alta,
+ninguém revela o culpado antes do fim: a solução está na p. 58, de
+pernas para o ar.
 
 LUGAR, TEMPO E MEMÓRIA
 2.8 · O MISTÉRIO DAS COISAS DE LÃ
@@ -6170,7 +6224,7 @@ parar de ler!
 <!-- page 68 -->
 
 ---
-E S T A Ç Ã O 2 . 9 · L E R E O U V I R A D U A S V O Z E S
+E S T A Ç Ã O 2 . 9 · L E R A D U A S V O Z E S
 No Elétrico 28
 
 CONTO ORIGINAL · CAROLINA E AVÔ JOAQUIM
@@ -6227,13 +6281,16 @@ pela primeira vez, aqui mesmo, neste miradouro.
 
 — Isso é outra história — respondeu o avô Joaquim, a sorrir. — Fica para a próxima viagem.
 
-OUVIR · FAIXA U2-06
-Ouve a história a duas vozes. Repara como
-muda a voz quando fala cada personagem.
+VER · RTP ARQUIVOS
+Reportagem do Telejornal sobre o elétrico 28 (4
+min), com o maquinista António dos Santos. O
+que é igual e o que é diferente do elétrico do
+conto?
 
 NOTA · Conto original. O elétrico 28 liga o Martim Moniz a Campo de
 Ourique e passa pela Graça, por Alfama e pelo Chiado. Os primeiros
 carros elétricos de Lisboa começaram a circular em 1901 (Carris).
+Reportagem: RTP Arquivos, Telejornal, RTP 1.
 
 LUGAR, TEMPO E MEMÓRIA
 2.9 · HISTÓRIA CONTADA COM FALAS
@@ -6479,6 +6536,10 @@ EU
 
 ADULTO
 
+EU
+
+ADULTO
+
 A NOSSA CONVERSA · PASSADA A LIMPO
 
 LUGAR, TEMPO E MEMÓRIA
@@ -6561,9 +6622,10 @@ uma palavra nova:
 
 uma coisa que quero melhorar:
 
-PARA O PROFESSOR
-Soluções das atividades da Unidade 2 e guia
-das faixas áudio.
+SOLUÇÕES
+Soluções: no fim do livro. Confirma lá as
+respostas do quiz relâmpago e marca, a lápis, as
+que acertaste.
 
 LUGAR, TEMPO E MEMÓRIA
 CHEGADA · BALANÇO DA UNIDADE
@@ -6579,7 +6641,7 @@ histórias que lá estão são tuas para sempre.
 
 ---
 3
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
 O Coreto das Palavras
 
 TEXTO POÉTICO · LINGUAGEM FIGURADA
@@ -6622,7 +6684,7 @@ de…
 UNIDADE 3
 
 Ler
-ler e compreender poemas, e identificar versos,
+ler e compreender poemas e identificar versos,
 estrofes e rimas.
 
 Educação literária
@@ -6645,7 +6707,8 @@ AS CHAVES DO CORETO
 aquecer
 aplicar
 desafiar-me
-ouvir os poemas
+dizer em voz alta
+ver na RTP
 
 O CORETO DAS PALAVRAS
 PROGRAMA · UNIDADE 3
@@ -6739,23 +6802,16 @@ cerca de duzentos livros,
 metade para os mais novos
 
 Quando era pequeno, José Jorge Letria andou na escola
-
 primária de Cascais. Hoje, essa escola tem o nome dele:
-
 chama-se Escola Básica José Jorge Letria.
 
 Foi jornalista durante mais de trinta anos e fez parte da
-
 equipa que criou a «Rua Sésamo» em Portugal. Nos anos
-
 70, também foi cantor, ao lado de José Afonso. Os seus
-
 livros estão traduzidos em mais de dez línguas.
 
 Muitos dos seus livros para crianças foram ilustrados pelo
-
 filho, o ilustrador André Letria — como O Alfabeto dos
-
 Bichos, onde cada animal tem o seu poema.
 
 ALGUNS LIVROS PARA OS MAIS NOVOS
@@ -6766,9 +6822,8 @@ primeiro?
 
 SABIAS QUE…?
 
-Em 2011, Avô Conta Outra Vez, com ilustrações de André Letria,
-recebeu um prémio da Fundação Nacional do Livro Infantil e Juvenil
-do Brasil.
+Em 2011, Avô Conta Outra Vez recebeu um prémio da Fundação
+Nacional do Livro Infantil e Juvenil, no Brasil.
 
 1
 Verdadeiro ou falso?
@@ -6816,7 +6871,9 @@ O Livro das Rimas Traquinas
 
 Versos de Fazer Ó-Ó
 
-O Homem que Tinha uma Árvore
+O Homem que Tinha
+
+uma Árvore na Cabeça
 
 Avô Conta Outra Vez
 
@@ -6907,6 +6964,7 @@ O POEMA FALA DE…
 O MEU VERSO PREFERIDO
 
 UMA RIMA QUE
+
 ENCONTREI
 
 UMA IMAGEM OU UM SOM
@@ -6940,29 +6998,27 @@ outros por um espaço em branco. As
 estrofes têm nomes, conforme o
 número de versos.
 
-OUVIR
-Ouve o poema. Repara na
-pausa maior que se faz entre
-as estrofes.
+LER A DOIS
+Lê o poema a um colega: pausa
+curta no fim de cada verso, pausa
+maior entre estrofes (conta até
+dois, em silêncio). Depois,
+troquem.
 
 OS NOMES DAS ESTROFES
 
 dístico
 
 2 versos
-
 terceto
 
 3 versos
-
 quadra
 
 4 versos
-
 quintilha
 
 5 versos
-
 sextilha
 
 6 versos
@@ -7061,7 +7117,7 @@ A música do fim do verso
 
 Há rima quando dois ou mais versos terminam com o
 mesmo som, a partir da vogal tónica (a vogal da sílaba mais
-forte): janela · estrela. Para mostrar como as rimas se
+forte): janela · cadela. Para mostrar como as rimas se
 organizam, damos a mesma letra aos versos que rimam
 entre si.
 
@@ -7089,25 +7145,24 @@ dentro do outro.
 
 8
 Pares que rimam
-OUVIR E LER
+LER
 
-Liga as palavras que rimam e escreve os pares nas linhas.
+Liga as palavras que rimam e escreve os quatro pares nas linhas.
 
-janela
 gato
 canção
 luar
-estrela
-
-coração
-sapato
-mar
 caracol
+coração
+
+sapato
 girassol
-OUVIR
-Ouve as três quadras. Bate
-uma palma sempre que
-ouvires uma rima.
+mar
+RTP ENSINA · RIMA
+Na página «Recursos
+expressivos a nível fónico», lê
+os versos de Fernando
+Pessoa. Que rima é?
 
 9
 Que rima é esta?
@@ -7278,15 +7333,19 @@ d) O mar escreve na areia
 sílabas
 
 12
-Ouve e confirma
+Palmas a dois
+ORALIDADE
 
-OUVIR
-Cada verso é dito inteiro e depois
-devagar, sílaba a sílaba. Confirma as tuas
-contas.
+RTP · #ESTUDOEMCASA
+Diz os versos da atividade 11 a um
+colega, com uma palma por sílaba.
+Depois, vejam a aula 58 (5.º e 6.º anos)
+sobre a sílaba métrica: o que aprendeste
+de novo?
 
 13
 Um verso de sete
+ESCREVER
 
 Escreve um verso com 7 sílabas sobre o teu jardim ou
 a tua rua.
@@ -7331,9 +7390,11 @@ Palavras que fazem ver
 Na linguagem figurada, as palavras não querem dizer só o que dizem: criam imagens
 na nossa cabeça. O vento não é um rapaz… mas, no poema, parece mesmo!
 
-OUVIR
-Ouve «O Vento Brincalhão» e
-«Chuva na Cidade» (p. 73).
+RTP ENSINA · SABER MAIS
+Em «Recursos expressivos a
+nível semântico», procura o
+exemplo de personificação.
+Quem toca piano?
 
 comparação
 
@@ -7365,18 +7426,22 @@ LER
 
 No poema, sublinha a
 
-verde duas comparações, a
+verde duas comparações,
+a
 
-lilás três
-personificações e a
+lilás três personificações e a
 
-amarelo uma metáfora.
+amarelo uma
+metáfora.
 
 15
-Esconde a comparação
+Esconde a
+comparação
+
 ESCREVER
 
-Transforma em metáfora: As nuvens parecem algodão.
+Transforma em metáfora: As nuvens parecem
+algodão.
 
 16
 C, P ou M?
@@ -7387,9 +7452,7 @@ C
 P
 M
 
-b) A estrada é uma cobra
-cinzenta.
-
+b) A estrada é uma cobra cinzenta.
 C
 P
 M
@@ -7399,9 +7462,7 @@ C
 P
 M
 
-d) As árvores dançam com o
-vento.
-
+d) As árvores dançam com o vento.
 C
 P
 M
@@ -7444,8 +7505,8 @@ e dorme, enroladinho,
 
 tal e qual um gatinho.
 
-COMO · PARECE · TAL COMO · TAL
-E QUAL
+COMO · PARECE · TAL COMO ·
+TAL E QUAL
 
 72
 
@@ -7504,31 +7565,21 @@ POEMA ORIGINAL
 
 Plic, ploc, plic, ploc,
 a chuva chegou à cidade!
-
 Plic, ploc, plic, ploc,
-
 lava os telhados à vontade.
 
 Molha os carros, molha os cães,
-
 molha os bancos do jardim,
-
 molha as tias e as mães
-
 e molha — chape! — até a mim!
 
 Guarda-chuvas, capas, botas,
-
 poças grandes e pequenas,
-
 nuvens carregadas de gotas
-
 e pombos a sacudir as penas.
 
 Catrapum! — ronca o trovão.
-
 Plic… ploc… a chuva abranda.
-
 Fecham-se os guarda-chuvas
 e o sol vem à varanda.
 
@@ -7544,6 +7595,10 @@ c)
 
 Que personificação encontras na última estrofe?
 d)
+
+Lê a estrofe 2 em voz alta e bate na
+mesa sempre que disseres «molha». A
+repetição ouve-se!
 
 73
 
@@ -7583,9 +7638,10 @@ onomatopeias
 
 uma enumeração
 
-OUVIR
-Ouve o poema e repara: que versos são
-lidos mais devagar? Porquê?
+TRÊS MANEIRAS DE DIZER
+Três colegas dizem a estrofe 2, cada um à sua
+maneira. Quem leu mais devagar? Em que
+verso? Porquê?
 
 21
 Três níveis de leitura
@@ -7593,7 +7649,8 @@ LER
 
 ENCONTRAR
 
-1. A que horas acontece o poema?
+1. Em que parte do dia acontece o
+poema?
 
 2. O que come a Mourinha?
 
@@ -7692,10 +7749,10 @@ dueto. Lê-se de cima para baixo, linha a linha: cada leitor lê a
 sua coluna — azul, a Voz 1; amarela, a Voz 2 — e os versos da
 coluna do meio dizem-se em coro, pelos dois.
 
-OUVIR
-Ouve o poema dito a duas
-vozes. Nos versos em coro, as
-vozes juntam-se.
+PRIMEIRA LEITURA
+O professor lê a Voz 1, a turma lê a
+Voz 2 e todos juntos dizem o coro.
+Depois, troquem os papéis.
 
 VOZ 1 · A OSGA
 AS DUAS VOZES
@@ -7766,6 +7823,11 @@ o dia
 ---
 3 . 2 · L E I T U R A E O R A L I D A D E
 Dois leitores, um só poema
+
+Voltem ao poema da p. 75. Primeiro,
+compreendam o que diz cada voz;
+depois, ensaiem para o dizerem a
+dois.
 
 23
 Compreender «Noite e Dia»
@@ -7879,15 +7941,15 @@ a chávena e o pires
 Diferentes e iguais
 PLANEAR
 
-O que é só de um vai para a coluna dele; o que é dos dois vai para o coro, na coluna do meio.
+O que é só de um escreve-se do lado dele; o que é dos dois escreve-se no meio — no poema, será dito em coro.
 
 28
 O nosso poema em duas vozes
 ESCREVER
 
+Usem pelo menos uma comparação, uma repetição e uma onomatopeia.
+
 Título:
-Usem pelo menos uma comparação, uma repetição e uma
-onomatopeia.
 
 VOZ 1
 AS DUAS VOZES
@@ -7955,8 +8017,8 @@ e numera as páginas?
 
 Ilustração
 Cada poeta ilustra os seus
-poemas. Quem ajuda na
-capa?
+poemas. Quem desenha os
+enfeites entre eles?
 
 Apresentação
 Quem abre e fecha o recital
@@ -7964,6 +8026,7 @@ e apresenta os poetas?
 
 30
 O calendário do livro
+PLANEAR
 
 31
 As minhas primeiras ideias
@@ -7977,8 +8040,7 @@ O MEU PAR PARA O DUETO
 
 A MINHA TAREFA NA TURMA
 
-TÍTULO QUE PROPONHO PARA O
-LIVRO
+TÍTULO PARA O LIVRO
 
 CONVIDADOS PARA O RECITAL
 
@@ -7989,7 +8051,7 @@ PROJETO · LIVRO E RECITAL
 
 SESSÃO 1
 Escrever os rascunhos
-das três peças.
+dos três poemas.
 
 SESSÃO 2
 Rever com um colega:
@@ -8206,12 +8268,9 @@ BALANÇO · O QUE LEVO DO CORETO
 
 BALANÇO
 
-PARA O
-PROFESSOR
-Soluções e
-textos dos
-áudios desta
-unidade.
+PARA O PROFESSOR
+Soluções:
+no fim do livro.
 
 Esta noite há recital no coreto. Eu vou estar lá, na parede, a
 ouvir — diz o teu poema bem alto!
@@ -8222,7 +8281,7 @@ ouvir — diz o teu poema bem alto!
 
 ---
 4
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
 Texto Dramático
 
 TEXTOS PARA REPRESENTAR
@@ -8230,13 +8289,13 @@ peça · cena · fala · didascália
 
 BILHETEIRA
 
-Sessão única, na Sala
+Sessão única, na
 
-Grande do Gabinete.
+Sala Grande do
 
-Entrada livre — traz a tua
+Gabinete. Entrada
 
-voz.
+livre — traz a tua voz.
 
 PRIME SCHOOL · PORTUGUÊS LÍNGUA MATERNA
 
@@ -8254,11 +8313,11 @@ Vão ler duas peças escritas para serem representadas: numa, há um
 
 aviso que ninguém lê até ao fim; na outra, há uma chave que
 
-desaparece. Vão descobrir como se escreve um texto que sobe ao
+desaparece. Vão descobrir como se escreve um texto que
 
-palco — e, no fim, vão escrever e representar a vossa própria
+sobe ao palco — e, no fim, vão escrever e representar a vossa
 
-cena.
+própria cena.
 
 Tragam a voz afinada e o corpo pronto. O pano vai subir!
 Guilhermina Vaz, guardiã do Gabinete
@@ -8294,7 +8353,7 @@ AS CHAVES DO GABINETE
 aquecer
 aplicar
 desafiar-me
-ouvir ou explorar online
+explorar online
 
 TEXTO DRAMÁTICO
 BEM-VINDO · UNIDADE 4
@@ -8309,10 +8368,10 @@ o programa, as personagens e um aviso escondido
 
 p. 83
 
-1.º ATO
+1.ª PARTE
 Duas Cenas: O Aviso
-ler uma peça · fala, réplica, didascália · monólogo e diálogo · narrativo e
-dramático
+ler uma peça · fala, réplica, didascália · monólogo e diálogo · narrativo
+e dramático
 
 pp. 84–87
 
@@ -8328,7 +8387,7 @@ tipos de frase · pontuação expressiva · interjeições
 
 p. 89
 
-2.º ATO
+2.ª PARTE
 A Chave Desaparecida
 ler a papéis · pistas e suspeitos · de dramático a narrativo · a cena que falta
 
@@ -8370,19 +8429,18 @@ guardiã do Gabinete
 
 SR. ANSELMO
 
-o faz-tudo do
-
-Gabinete
+o faz-tudo
+do Gabinete
 
 BEATRIZ
 
-10 anos, lê tudo até ao
-fim
+10 anos, lê
+tudo até ao fim
 
 LUCAS
 
-10 anos, tem sempre
-pressa
+10 anos, tem
+sempre pressa
 
 MOURINHA
 
@@ -8393,17 +8451,13 @@ O aviso escondido
 PREVER
 
 O aviso está pendurado à porta da Sala Grande. Mas uma osga
-adormeceu em cima da parte de baixo…
+instalou-se mesmo em cima da parte de baixo…
 
-Depois de leres a peça,
-confirma:
+Depois de leres a peça, confirma:
+
 acertei
-
-em
-parte
-
-enganei-
-me
+em parte
+enganei-me
 
 PALAVRAS DOS BASTIDORES
 
@@ -8433,7 +8487,7 @@ ANTES DO PANO · LER ANTES DE LER
 Quantas personagens tem a peça? Qual delas não diz uma única palavra?
 a)
 
-Já conheces duas destas personagens da Unidade 1. Quais são? Onde achas que a peça se vai passar?
+Já conheces algumas destas personagens da Unidade 1. Quais? Onde achas que a peça se vai passar?
 b)
 
 AVISO AO GRUPO DE TEATRO
@@ -8460,12 +8514,12 @@ c)
 4 . 1 · T E X T O D R A M Á T I C O
 Duas Cenas: O Aviso
 
-Peça em duas cenas, escrita para o Grupo de Teatro do Year 5
+Peça em duas cenas, escrita para o Grupo de Teatro do
+5.º ano
 
 PERSONAGENS
 
-D. GUILHERMINA, guardiã do
-Gabinete
+D. GUILHERMINA, guardiã do Gabinete
 
 SR. ANSELMO, o faz-tudo do Gabinete
 
@@ -8492,9 +8546,9 @@ Não há ensaio?! Mas a estreia é já daqui a uma semana!
 Lê tu mesma! (Aponta para o placard.) Acabou-se! Cancelaram tudo!
 
 4 BEATRIZ
-(aproximando-se do aviso) Espera… O aviso continua. Há mais letras aqui em
-baixo, mas estão escondidas debaixo de… (Dá um salto para trás.) Ui! De uma
-osga!
+(aproximando-se do aviso) Espera… O aviso continua. Há mais letras aqui
+em baixo, mas estão escondidas debaixo de… (Dá um salto para trás.) Ui! De
+uma osga!
 
 5 LUCAS
 Uma osga?! Eu não chego perto disso nem por nada!
@@ -8536,7 +8590,7 @@ MOURINHA abre um olho e volta a fechá-lo.) Pois… Amanhã venho cá mais cedo.
 (O candeeiro apaga-se. Escuro.)
 
 TEXTO DRAMÁTICO
-1.º ATO · DUAS CENAS: O AVISO
+1.ª PARTE · DUAS CENAS: O AVISO
 
 4.1 · O AVISO
 
@@ -8588,8 +8642,8 @@ empilhadinhas. Não há ensaio, pois não?
 Hã?! Estreia? Com público?! Oh, não!
 
 9 D. GUILHERMINA
-Depressa, que faltam vinte minutos! Beatriz, os fatos! Lucas e Sr. Anselmo, as
-cadeiras!
+Depressa, que faltam vinte minutos! Beatriz, os fatos! Lucas e Sr. Anselmo,
+as cadeiras!
 
 (Todos correm de um lado para o outro. Ouve-se a campainha da porta. A D. GUILHERMINA
 espreita pela cortina.)
@@ -8604,12 +8658,13 @@ tudo até ao fim!
 (O SR. ANSELMO pendura na parede um aviso novo: «LER ATÉ AO FIM!». A MOURINHA sobe
 pela parede e deita-se, satisfeita, mesmo em cima da palavra «FIM». Todos se riem. Pano.)
 
-OUVIR
-Ouve a peça, com uma voz para cada
-personagem. Qual é a fala mais divertida?
+VER · RTP ENSINA
+Vê o vídeo «A contracena no teatro». Quando
+dois atores contracenam, o que conta além
+das palavras?
 
 TEXTO DRAMÁTICO
-1.º ATO · DUAS CENAS: O AVISO
+1.ª PARTE · DUAS CENAS: O AVISO
 
 4.1 · O AVISO
 
@@ -8626,20 +8681,20 @@ Raio-X de uma peça
 
 lista de personagens
 
-No início: apresenta quem
-entra na peça.
+No início: apresenta
+quem entra na peça.
 
 ato e cena
 
-Partes da peça. Há uma
-nova cena quando mudam o
-lugar, o tempo ou as
-personagens.
+Partes da peça. Há
+uma nova cena quando
+mudam o lugar, o tempo
+ou as personagens.
 
 fala
 
-O que uma personagem diz,
-a seguir ao seu nome.
+O que uma personagem
+diz, a seguir ao seu nome.
 
 réplica
 
@@ -8649,9 +8704,9 @@ contam as réplicas.
 
 didascálias
 
-Indicações do autor, em itálico e entre parênteses: lugar,
-tempo, gestos, tom de voz, luz e sons. Não se dizem —
-representam-se!
+Indicações do autor, em itálico e entre
+parênteses: lugar, tempo, gestos, tom de voz,
+luz e sons. Não se dizem — representam-se!
 
 texto principal e secundário
 
@@ -8666,9 +8721,9 @@ saber o que ela pensa e sente.
 
 Diálogo
 
-Duas ou mais personagens falam umas
-com as outras, em réplicas que se
-respondem.
+Duas ou mais personagens falam
+umas com as outras, em réplicas que
+se respondem.
 
 3
 Caça às didascálias
@@ -8704,7 +8759,7 @@ Na réplica 1 da Cena 2, a D. Guilhermina fala «para o público, baixinho». O 
 outras personagens não sabem?
 
 TEXTO DRAMÁTICO
-1.º ATO · RAIO-X DO TEXTO DRAMÁTICO
+1.ª PARTE · RAIO-X DO TEXTO DRAMÁTICO
 
 4.1 · O AVISO
 
@@ -8748,14 +8803,11 @@ LER
 
 ENCONTRAR
 
-1. Em que dia e a que horas se passa
-cada cena?
+1. Quando se passa cada cena?
 
-2. O que tapava a parte de baixo do
-aviso?
+2. O que tapava parte do aviso?
 
-3. O que fez o Sr. Anselmo às
-cadeiras?
+3. Para onde foram as cadeiras?
 
 RELACIONAR
 
@@ -8768,8 +8820,8 @@ estreia para sábado?
 PENSAR
 
 6. O Sr. Anselmo também tem culpa
-da confusão? Justifica com uma
-fala.
+da confusão? Justifica com
+uma fala.
 
 7. Porque tem graça a osga deitar-se
 em cima da palavra «FIM»?
@@ -8803,12 +8855,12 @@ Texto dramático
 
 Quem conta?
 um narrador
-ninguém: as personagens falam
-diretamente
+ninguém: as personagens
+falam diretamente
 
 Como aparecem as falas?
-com travessão e verbos como disse, gritou,
-perguntou
+com travessão e verbos como disse,
+gritou, perguntou
 
 depois do nome da personagem
 
@@ -8824,15 +8876,15 @@ em atos e cenas
 Passa a texto dramático
 ESCREVER
 
-Nessa noite, o Sr. Anselmo chegou a casa cansado e disse à mulher, a D. Amélia, que no sábado não havia
-ensaio.
+Nessa noite, o Sr. Anselmo chegou a casa cansado e disse à mulher, a D. Amélia, que no sábado não
+havia ensaio.
 — Tens a certeza? — perguntou ela, desconfiada. — Leste o aviso até ao fim?
 O Sr. Anselmo coçou a cabeça e confessou, baixinho, que não.
 
 Começa por uma didascália com o lugar e o tempo. À esquerda, o nome da personagem; à direita, a fala.
 
 TEXTO DRAMÁTICO
-1.º ATO · COMPREENDER A PEÇA
+1.ª PARTE · COMPREENDER A PEÇA
 
 4.1 · O AVISO
 
@@ -8857,8 +8909,8 @@ pano de boca — a cortina que abre e
 fecha o espetáculo.
 
 4
-projetores — as luzes que iluminam os
-atores.
+projetores — as luzes que iluminam
+os atores.
 
 5
 pano de fundo — o cenário pintado ao
@@ -8869,8 +8921,8 @@ bastidores — os lados escondidos,
 onde os atores esperam para entrar.
 
 7
-palco — o chão onde os atores
-representam.
+palco — o chão onde os
+atores representam.
 
 8
 proscénio — a parte da frente do
@@ -8880,17 +8932,17 @@ palco, mais perto do público.
 plateia — o lugar do público.
 
 Cenário
-Tudo o que mostra onde se passa a
-ação: o pano de fundo, os móveis, as
-portas.
+Tudo o que mostra onde
+se passa a ação: o pano de
+fundo, os móveis, as portas.
 
 Guarda-roupa
-Os fatos, os chapéus e os sapatos
-que os atores vestem.
+Os fatos, os chapéus e os
+sapatos que os atores vestem.
 
 Adereços
-Os objetos que os atores usam ou
-levam na mão.
+Os objetos que os atores
+usam ou levam na mão.
 
 8
 Cenário, guarda-roupa ou adereço?
@@ -8989,8 +9041,8 @@ o que está escrito ou
 
 foi dito por alguém
 
-Interjeições são palavras que exprimem, de repente, uma emoção ou um pedido. Quase sempre levam ponto de
-exclamação.
+Interjeições são palavras que exprimem, de repente, uma emoção ou um pedido. Quase sempre levam ponto
+de exclamação.
 
 Ai! dor, aflição
 Ui! susto
@@ -9008,8 +9060,8 @@ Viva! alegria
 Que tipo de frase?
 GRAMÁTICA
 
-Rodeia: D declarativa · I interrogativa · E exclamativa · Im
-imperativa.
+Rodeia: D declarativa · I interrogativa · E exclamativa ·
+Im imperativa.
 
 Qual destas frases é negativa?
 
@@ -9017,8 +9069,9 @@ Qual destas frases é negativa?
 Ouve e decide
 OUVIR
 
-Ouve oito frases. Repara na voz: sobe, desce,
-explode? Escreve D, I, E ou Im.
+O professor vai dizer oito frases em voz alta. Repara na
+voz: sobe, desce, explode? Depois de cada frase,
+escreve D, I, E ou Im.
 
 1
 2
@@ -9028,6 +9081,10 @@ explode? Escreve D, I, E ou Im.
 6
 7
 8
+
+Agora és tu. Diz «Há estreia» de três maneiras: como
+quem informa, como quem pergunta e como quem está
+muito espantado. O teu par adivinha: D, I ou E?
 
 12
 A interjeição certa
@@ -9062,11 +9119,11 @@ Conforme a intenção de quem fala, as frases podem ser
 declarativas, interrogativas, exclamativas ou imperativas.
 Todas podem ser afirmativas ou negativas.
 
-informa ou declara alguma
-coisa.
+informa ou declara
+alguma coisa.
 
-«Sábado não há
-ensaio.»
+«Sábado não
+há ensaio.»
 
 .
 DECLARATIVA
@@ -9074,8 +9131,8 @@ DECLARATIVA
 faz uma pergunta; a voz
 sobe no fim.
 
-«Onde estão as
-cadeiras?»
+«Onde estão
+as cadeiras?»
 
 ?
 INTERROGATIVA
@@ -9124,7 +9181,8 @@ E
 Im
 d)
 
-Que vergonha, com os meninos à porta!
+Que vergonha, com os meninos
+à porta!
 
 D
 I
@@ -9147,19 +9205,19 @@ PERSONAGENS
 D. GUILHERMINA, guardiã do
 Gabinete, um bocadinho distraída
 
-SR. ANSELMO, o faz-tudo do
-Gabinete
+SR. ANSELMO, o faz-tudo
+do Gabinete
 
 D. ROSA, dona da pastelaria ao lado
 
 BEATRIZ, 10 anos, detetive de
 caderno na mão
 
-LUCAS, 10 anos, detetive de lupa na
-mão
+LUCAS, 10 anos, detetive de lupa
+na mão
 
-MOURINHA, a osga do Gabinete (não
-fala)
+MOURINHA, a osga do Gabinete
+(não fala)
 
 A ação passa-se no átrio do Gabinete
 das Coisas Verdadeiras, numa
@@ -9181,8 +9239,8 @@ debaixo da mesa. Ouve-se um tlim-tlim metálico.)
 (entrando, com um espanador) Bom dia, D. Guilhermina! Perdeu alguma coisa?
 
 3 D. GUILHERMINA
-A chave da Vitrine das Coisas Raras! A turma do Year 5 chega às dez, e eu prometi
-mostrar-lhes o relógio de bolso.
+A chave da Vitrine das Coisas Raras! A turma do 5.º ano chega às dez, e eu
+prometi mostrar-lhes o relógio de bolso.
 
 4 SR. ANSELMO
 A senhora não costumava pendurar a chave no fio dos óculos?
@@ -9200,8 +9258,8 @@ Chegámos cedo para ajudar! O que se passa?
 Desapareceu a chave da vitrine.
 
 8 LUCAS
-(com voz de detetive de cinema) Um mistério! Que ninguém saia daqui. São todos
-suspeitos!
+(com voz de detetive de cinema) Um mistério! Que ninguém saia daqui. São
+todos suspeitos!
 
 9 BEATRIZ
 (abrindo o caderno) Calma, Lucas. Primeiro, as perguntas. D. Guilhermina, quando
@@ -9214,7 +9272,7 @@ viu a chave pela última vez?
 (A BEATRIZ levanta os olhos do caderno, intrigada.)
 
 TEXTO DRAMÁTICO
-2.º ATO · A CHAVE DESAPARECIDA
+2.ª PARTE · A CHAVE DESAPARECIDA
 
 4.2 · A CHAVE
 
@@ -9248,8 +9306,8 @@ Depois, levei o tabuleiro para a pastelaria.
 (virando-se para o Sr. Anselmo) E o senhor? O que fez esta manhã?
 
 7 SR. ANSELMO
-Pus a brilhar os metais todos do Gabinete: os castiçais, os puxadores, a
-campainha…
+Pus a brilhar os metais todos do Gabinete: os castiçais, os puxadores,
+a campainha…
 
 8 LUCAS
 Os metais! E as chaves são de metal! Vire os bolsos do avesso!
@@ -9297,14 +9355,15 @@ levanta-se.) Já sei onde está a chave!
 6 TODOS
 (voltando-se para ela) Onde?!
 
-(Toca a campainha da porta: chegou a turma do Year 5. Escuro.)
+(Toca a campainha da porta: chegou a turma do 5.º ano. Escuro.)
 
-OUVIR
-Ouve a peça. Fecha os olhos quando ouvires o
-«tlim-tlim»: de onde virá?
+VER · RTP ENSINA
+Vê o vídeo «Sabe o que é uma marcação em
+teatro?». Antes de lerem a papéis (p. 92): quem
+decide as entradas e saídas dos atores?
 
 TEXTO DRAMÁTICO
-2.º ATO · A CHAVE DESAPARECIDA
+2.ª PARTE · A CHAVE DESAPARECIDA
 
 4.2 · A CHAVE
 
@@ -9329,11 +9388,11 @@ ENCONTRAR
 1. O que está dentro da Vitrine das
 Coisas Raras?
 
-2. A que horas chega a turma do Year
-5?
+2. A que horas chega a turma do
+5.º ano?
 
-3. O que caiu dos bolsos do Sr.
-Anselmo?
+3. O que caiu dos bolsos do
+Sr. Anselmo?
 
 RELACIONAR
 
@@ -9371,7 +9430,7 @@ Leitura a papéis
 FALAR
 
 Em grupos de cinco — quatro personagens e um narrador que lê as didascálias —, preparem a leitura da
-Cena 2. Antes de ler, marca o teu guião a lápis:
+Cena 2. Antes de lerem, cada um marca o seu guião a lápis:
 
 ↗
 pergunta: a voz sobe
@@ -9400,7 +9459,7 @@ Que personagem foi mais difícil de ler? Porquê?
 Que didascália mudou a tua maneira de dizer a fala?
 
 TEXTO DRAMÁTICO
-2.º ATO · LER E INVESTIGAR
+2.ª PARTE · LER E INVESTIGAR
 
 4.2 · A CHAVE
 
@@ -9459,7 +9518,7 @@ CENA 4
 Precisas de mais espaço? Continua no caderno — e guarda a tua cena para a Oficina de Teatro (p. 94).
 
 TEXTO DRAMÁTICO
-2.º ATO · OFICINA DE ESCRITA
+2.ª PARTE · OFICINA DE ESCRITA
 
 4.2 · A CHAVE
 
@@ -9481,24 +9540,24 @@ decide onde e como
 se movem os atores
 
 atores
-dão voz e corpo às
-personagens
+dão voz e corpo
+às personagens
 
 cenógrafo
 trata do cenário
 
 figurinista
-trata do guarda-
-roupa
+trata do
+guarda-roupa
 
 contrarregra
-trata dos adereços e
-dos sons
+trata dos adereços
+e dos sons
 
 ponto
-segue o guião e
-ajuda quem se
-esquece
+segue o guião
+e ajuda quem
+se esquece
 
 19
 Escolham a vossa cena
@@ -9520,8 +9579,8 @@ COMO SE RESOLVE
 
 A ÚLTIMA FALA
 
-COMO SE ESCREVE O
-GUIÃO
+COMO SE ESCREVE
+O GUIÃO
 
 NOME DA PERSONAGEM
 (didascália: tom ou gesto) A fala, tal e qual como vai
@@ -9542,24 +9601,24 @@ ENSAIO GERAL · A OFICINA DE TEATRO
 OFICINA · PROJETO
 
 OPÇÃO A · P. 93
-A Chave Desaparecida · Cena
-4
-Juntem as melhores ideias das
-vossas cenas finais e representem a
-revelação.
+A Chave
+Desaparecida · Cena 4
+Juntem as melhores ideias
+das vossas cenas finais e
+representem a revelação.
 
 OPÇÃO B · PP. 84–85
 O Aviso · Cena 3
 A estreia começa… mas alguém
-trocou os fatos! O que acontece em
-palco, à frente dos pais?
+trocou os fatos! O que acontece
+em palco, à frente dos pais?
 
 OPÇÃO C · CENA NOVA
 Um mal-entendido
-Um bilhete, um recado ou um
-objeto perdido provoca uma
-confusão na escola, no mercado ou
-na praia.
+Um bilhete, um recado ou
+um objeto perdido provoca
+uma confusão na escola,
+no mercado ou na praia.
 
 SESSÃO 1
 Escolher a cena e fazer
@@ -9570,8 +9629,8 @@ Escrever a cena, com
 falas e didascálias.
 
 SESSÃO 3
-Distribuir papéis e ler a
-papéis.
+Distribuir papéis e ler
+a papéis.
 
 SESSÃO 4
 Ensaiar com fatos,
@@ -9600,9 +9659,9 @@ depressa e sem tropeçar: «O rato roeu
 a rolha da garrafa do rei da Rússia.»
 
 O espelho
-Aos pares, frente a frente: um faz
-gestos lentos, o outro copia-os como
-se fosse o seu reflexo.
+Aos pares, frente a frente: um
+faz gestos lentos, o outro copia-
+os como se fosse o seu reflexo.
 
 Três emoções
 Diz «Há estreia» com alegria, depois
@@ -9642,36 +9701,36 @@ Sim!
 Volume
 a força da voz
 
-Fala tão baixo que a
-plateia não ouve.
+Fala tão baixo que
+a plateia não ouve.
 
-Ouve-se quase sempre, mas
-às vezes a voz perde-se.
+Ouve-se quase sempre,
+mas às vezes a voz perde-se.
 
-Ouve-se bem até à última fila,
-sem gritar.
+Ouve-se bem até à
+última fila, sem gritar.
 
 Ritmo
 a velocidade e as pausas
 
-Fala depressa demais ou
-para muitas vezes.
+Fala depressa demais
+ou para muitas vezes.
 
-Tem bom ritmo, mas esquece
-algumas pausas.
+Tem bom ritmo, mas
+esquece algumas pausas.
 
-Fala sem pressa e faz pausas
-para criar efeito.
+Fala sem pressa e faz
+pausas para criar efeito.
 
 Entoação
 a música da voz
 
 Diz tudo no mesmo tom.
-Mostra algumas emoções com
-a voz.
+Mostra algumas
+emoções com a voz.
 
-A voz sobe nas perguntas e
-muda com cada emoção.
+A voz sobe nas perguntas
+e muda com cada emoção.
 
 Expressão corporal
 o rosto, os gestos, o olhar
@@ -9679,11 +9738,11 @@ o rosto, os gestos, o olhar
 Fica parado ou de
 costas para o público.
 
-Faz alguns gestos das
-didascálias.
+Faz alguns gestos
+das didascálias.
 
-O rosto e os gestos mostram o
-que a personagem sente.
+O rosto e os gestos mostram
+o que a personagem sente.
 
 DUAS ESTRELAS E UM DESEJO
 
@@ -9758,39 +9817,39 @@ A lupa do Lucas é cenário, guarda-roupa ou adereço?
 
 GLOSSÁRIO DO TEATRO
 
-adereço — objeto que os atores usam em
-cena.
+adereço — objeto que os atores usam
+em cena.
 
 ato — grande parte de uma peça; pode ter
 várias cenas.
 
-bastidores — os lados escondidos do
-palco.
+bastidores — os lados escondidos
+do palco.
 
 cena — parte de um ato; muda quando
 muda o lugar, o tempo ou as personagens.
 
-cenário — o que mostra onde se passa a
-ação.
+cenário — o que mostra onde se passa
+a ação.
 
 deixa — a fala que vem antes da nossa e
 nos avisa de que é a nossa vez.
 
-diálogo — conversa entre duas ou mais
-personagens.
+diálogo — conversa entre duas ou
+mais personagens.
 
 didascália — indicação do autor sobre o
-lugar, o tempo, os gestos, o tom, a luz ou o
-som.
+lugar, o tempo, os gestos, o tom, a luz ou
+o som.
 
-guarda-roupa — os fatos das
-personagens.
+guarda-roupa — os fatos
+das personagens.
 
 interjeição — palavra que exprime de
 repente uma emoção: Ai! Ufa!
 
-monólogo — fala de uma personagem
-sozinha.
+monólogo — fala de uma
+personagem sozinha.
 
 réplica — fala que responde a outra.
 
@@ -9806,8 +9865,7 @@ APLAUSOS · O QUE LEVO DO PALCO
 BALANÇO
 
 PARA O PROFESSOR
-Soluções e guiões dos
-áudios desta unidade.
+Soluções: no fim do livro.
 
 Bravo! Agora já sabes: num aviso, lê-se tudo até ao
 fim. E, numa peça, até ao «Pano»!
@@ -9818,7 +9876,7 @@ fim. E, numa peça, até ao «Pano»!
 
 ---
 5
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
 O Comboio das Quatro
 Estações
 
@@ -9832,7 +9890,8 @@ Válido para as Unidades 1,
 2, 3 e 4. Sobe a bordo com
 um lápis e boa memória.
 
-PARTIDA · P. 98 CHEGADA · P. 112
+PARTIDA · P. 98
+CHEGADA · P. 112
 
 P R I M E S C H O O L · P O R T U G U Ê S L Í N G U A M A T E R N A
 
@@ -9935,7 +9994,7 @@ ler e escrever texto dramático, com falas,
 didascálias e pontuação expressiva.
 
 Ouvir e escrever
-compreender um relato de viagem ouvido e escrever um ditado sem erros.
+compreender um relato de viagem lido em voz alta e escrever um ditado sem erros.
 
 Carruagem de
 bronze
@@ -9957,8 +10016,9 @@ justificar e criar.
 
 Online
 
-Ouvir os textos e explorar
-lugares verdadeiros.
+Explorar lugares e palavras
+verdadeiros em sites
+públicos.
 
 O COMBOIO DAS QUATRO ESTAÇÕES
 PARTIDA · UNIDADE 5
@@ -10007,9 +10067,9 @@ O bico e as patas, compridos, são vermelhos.
 ONDE VIVE E O QUE COME
 
 Em Portugal, é mais comum a sul do rio Tejo. Procura
-alimento em campos, arrozais e zonas húmidas: come insetos,
+alimento em campos, arrozais e zonas húmidas: come insetos
 
-como os gafanhotos, rãs, peixes, minhocas e pequenos
+(como os gafanhotos), rãs, peixes, minhocas e pequenos
 
 roedores.
 
@@ -10231,7 +10291,7 @@ FALAR
 A Leonor vai apresentar a cegonha à turma, mas as fichas dela misturaram-se. Numera-as de 1 a 5 e diz em que parte da
 exposição está cada uma (A abertura · D desenvolvimento · F fecho).
 
-Depois, apresenta tu a cegonha a um colega em um minuto, usando as fichas e os factos da p. 99. Não leias — lembra-te!
+Depois, apresenta tu a cegonha a um colega num minuto, usando as fichas e os factos da p. 99. Não leias — lembra-te!
 
 O COMBOIO DAS QUATRO ESTAÇÕES
 ESTAÇÃO 1 · RETRATOS E AVISOS
@@ -10289,8 +10349,9 @@ Segunda paragem: as histórias, como na Unidade 2, «Lugar, Tempo e
 Memória». Lê este conto de mistério, que aconteceu — dizem — neste
 mesmo comboio.
 
-OUVIR
-Ouve o conto. Repara como a voz muda nas falas das personagens.
+LER A VOZES
+Em grupos de cinco: um narrador, a Inês, o Tomás, o avô e o senhor Albano. Mudem
+de voz em cada fala e leiam a do narrador com calma.
 
 A mala azul da carruagem 3
 
@@ -10369,7 +10430,7 @@ LER
 
 Completa cada paragem com o que acontece no conto.
 
-E a situação final? Que mudou na Inês depois desta viagem?
+E a situação final? O que mudou na Inês depois desta viagem?
 
 11
 O bilhete de identidade do conto
@@ -10510,13 +10571,12 @@ Autor
 País
 Uma obra que leste
 
-Sophia de Mello
-Breyner Andresen
+Sophia de Mello Breyner Andresen
 
 Ondjaki
 
-O português é a língua oficial de nove países.
-Escreve os que conheces:
+O português é a língua oficial de nove
+países. Escreve os que conheces:
 
 O COMBOIO DAS QUATRO ESTAÇÕES
 ESTAÇÃO 2 · LENDAS, TEMPOS E PALAVRAS
@@ -10560,9 +10620,12 @@ Comboio da noite
 
 Poema original escrito para este livro.
 
-OUVIR
-Ouve o poema. Bate o ritmo
-com o dedo na mesa.
+LER E CONFIRMAR
+Lê o poema em voz alta e bate
+o ritmo com o dedo na mesa.
+Depois, confirma a pista da
+Mourinha no Dicionário
+Priberam.
 
 18
 A forma do poema
@@ -10629,12 +10692,13 @@ verso. Quando uma palavra acaba em
 vogal e a seguinte começa por vogal,
 as duas sílabas juntam-se numa só.
 le · va_um · co · lar · de · ja · ne(las) = 7
+a · lu · a_a · bre_um · o · lho_e · mi(ra) =
+7
 
-«Pouca-terra, pouca-terra»
-é o som do comboio a
-andar. Qual é o nome deste
-recurso? Dou-te uma pista:
-começa por o…
+«Pouca-terra, pouca-terra» é o som do
+comboio a andar. Qual é o nome deste
+recurso? Dou-te uma pista: começa por
+o…
 
 O poema tem
 estrofes e
@@ -10721,9 +10785,9 @@ NA ESTANTE DA POESIA
 
 José Jorge Letria nasceu em Cascais, em
 1951. É poeta, jornalista e dramaturgo, e já
-publicou mais de duzentos livros — cerca de
-metade para crianças e jovens. Que poema
-dele leste este ano?
+publicou cerca de duzentos livros, muitos
+deles para crianças e jovens. Que poema dele
+leste este ano?
 
 Fontes: Portal da Literatura; Bertrand Editora.
 
@@ -10792,9 +10856,11 @@ TODOS — Ficou!
 
 (Ouve-se o apito do comboio. As luzes apagam-se devagar.)
 
-OUVIR
-Ouve a cena lida por vários atores. As didascálias
-não se leem em voz alta: representam-se!
+LEITURA DRAMATIZADA
+Em grupos de seis: cinco atores e um
+encenador, que segue as didascálias e dá as
+indicações. As didascálias não se leem em voz
+alta: representam-se!
 
 O COMBOIO DAS QUATRO ESTAÇÕES
 ESTAÇÃO 4 · O PALCO
@@ -10843,11 +10909,11 @@ Quem conta
 um narrador
 
 As falas
-travessão e verbos introdutores (perguntou, disse)
+travessão e verbos introdutores (perguntou,
+disse)
 
 Como se
 divide
-
 parágrafos
 
 Transforma este excerto do conto em texto dramático, com nomes das personagens, falas e uma didascália.
@@ -11018,13 +11084,13 @@ OFICINA · GRAMÁTICA
 C A R R U A G E M D A E S C U T A · C O M P R E E N S Ã O D O O R A L
 Ouvidos no carril
 
-O Tomás gravou um relato de viagem no telemóvel, no dia em que foi ao Pinhão. Ouve-
-o duas vezes: da primeira, só escutas; da segunda, respondes.
+O Tomás escreveu um relato de viagem no diário, no dia em que foi ao Pinhão. O
+professor lê-o duas vezes: da primeira, só escutas; da segunda, respondes.
 
-OUVIR · FAIXA 1
-«Diário de uma viagem na Linha do Douro»,
-contado pelo Tomás (pouco mais de um
-minuto).
+OUVIR · O PROFESSOR LÊ
+«Diário de uma viagem na Linha do Douro», do
+Tomás. O texto não está nesta página: escuta
+com atenção!
 
 EXPLORAR
 Vê os azulejos verdadeiros da estação do
@@ -11065,11 +11131,15 @@ paragem na Régua e primeiras vinhas
 
 primeiro · depois · mais tarde · por fim · enquanto
 
-Escreve um facto e uma opinião que o Tomás disse. Porque é que este texto é um relato de viagem?
+Ainda sobre o relato (29–30): escreve um facto e uma opinião que o Tomás disse. Porque é que este texto é um
+relato de viagem?
 
 31
 Ditado da última estação
 ESCREVER
+
+O professor dita cada frase duas vezes.
+No fim, lê o texto todo, sem parar.
 
 REVÊ O TEU DITADO
 
@@ -11081,10 +11151,11 @@ travessão nas falas
 
 vírgulas e pontos
 
-OUVIR · FAIXA 2
-O ditado é lido
-duas vezes, frase a
-frase.
+DEPOIS DE REVER
+Confirma no
+Dicionário Priberam
+as palavras em que
+hesitaste.
 
 O COMBOIO DAS QUATRO ESTAÇÕES
 CARRUAGEM DA ESCUTA · OUVIR E ESCREVER
@@ -11113,7 +11184,7 @@ O meu título:
 
 A MINHA PONTUAÇÃO:
 / 20
-8 a 12 · bilhete de
+até 12 · bilhete de
 bronze
 
 13 a 16 · bilhete de
@@ -11195,7 +11266,8 @@ conectores de tempo.
 Um poema
 
 duas quadras, com rima e
-duas figuras de estilo.
+dois recursos
+expressivos.
 
 Uma cena
 
@@ -11262,12 +11334,12 @@ O que mais me custou
 
 e como o venci
 
-A minha meta para o Year 6
+A minha meta para o 6.º ano
 
 em leitura ou escrita
 
 35
-A mala para o Year 6
+A mala para o 6.º ano
 
 Escreve três palavras que aprendeste este ano e que vais levar contigo na mala:
 
@@ -11279,9 +11351,10 @@ TERMINAL · BALANÇO DO ANO
 TERMINAL · BALANÇO
 
 PARA O PROFESSOR
-Soluções, guiões dos áudios
-e texto do ditado desta
-unidade.
+Soluções: no fim do livro. Lá
+estão também o relato do
+Tomás e o texto do ditado
+(p. 110), para ler em voz alta.
 
 Foi uma viagem e tanto! Nas férias, leva sempre
 um livro na mala — e, se vires uma cegonha,
@@ -11293,9 +11366,9 @@ lembra-te de que ela fala com o bico.
 
 ---
 6
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
-Avaliação: mostra o que já
-sabes
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
+Avaliação:
+mostra o que já sabes
 
 QUATRO TESTES · UM POR UNIDADE
 leitura · gramática · escrita · oralidade
@@ -11367,8 +11440,8 @@ mesmo género.
 25 pontos
 
 D
-Compreensão do oral — ouves um áudio
-duas vezes e respondes.
+Compreensão do oral — o professor lê um
+texto duas vezes e tu respondes.
 
 10 pontos
 
@@ -11480,15 +11553,17 @@ UNIDADE 6 · AVALIAÇÃO
 3
 Completa com informação do
 texto.
+
 A cortiça tira-se de
 em
+
 anos.
 
 /2
 
 Um teste não mede
-quanto vales: mostra o
-que já sabes e o que
+quanto vales: mostra
+o que já sabes e o que
 ainda vais aprender. Eu
 também demorei a subir
 a primeira parede!
@@ -11548,6 +11623,7 @@ O sobreiro
 Quercus suber — a árvore da cortiça
 
 ARTIGO DE ENCICLOPÉDIA
+
 ESCRITO PARA ESTE TESTE
 
 O sobreiro é uma árvore de folha persistente que cresce nas regiões quentes e secas à volta
@@ -11611,7 +11687,7 @@ de 9 em 9 anos
 Símbolo
 Árvore Nacional (2011)
 
-Fontes: Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; European Tree of the Year 2018. Texto
+Fontes: Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; Árvore Europeia do Ano 2018. Texto
 escrito para este teste.
 
 AVALIAÇÃO
@@ -11619,7 +11695,7 @@ TESTE 1 · UNIDADE 1 · TEXTOS PARA INFORMAR E DESCREVER
 
 TESTE 1 · UNIDADE 1
 
-P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · Y E A R 5
+P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · 5 . º A N O
 
 115
 
@@ -11632,7 +11708,6 @@ Leitura (continuação)
 
 1
 Este texto é
-
 A um conto.
 B um aviso.
 C um artigo de enciclopédia.
@@ -11654,6 +11729,7 @@ D vender cortiça.
 Completa com informação do texto.
 
 a) A primeira extração faz-se quando a árvore
+
 tem cerca de
 anos.
 
@@ -11687,20 +11763,20 @@ c) A cortiça é pesada e deixa passar a água.
 5
 Em que parte do artigo encontras a resposta? Escreve a letra do subtítulo em cada quadrado.
 
-Porque é que o Assobiador tem este nome?
 A Aspeto
-
-Como são as folhas do sobreiro?
 B Como se tira a cortiça
+C Para que serve
+D Um recordista
+E Ficha rápida
+
+Porque é que o Assobiador tem este
+nome?
+Como são as folhas do sobreiro?
 
 Em que objetos se usa a cortiça?
-C Para que serve
-
 Quem retira a cortiça?
-D Um recordista
 
 Quantos anos pode viver um sobreiro?
-E Ficha rápida
 
 /5
 
@@ -11736,6 +11812,7 @@ ditado, usando duas informações do artigo.
 Lê o verbete e responde.
 
 bolota (bo·lo·ta) n. f. 1. Fruto do sobreiro, da
+
 azinheira e de outros carvalhos. Os porcos
 comem bolota no montado. 2. Enfeite em forma
 de bolota, na ponta de um cordão.
@@ -11769,9 +11846,11 @@ nomes coletivos · graus do adjetivo · imperativo
 
 10
 Completa com o nome coletivo.
+
 Um conjunto de sobreiros é um
 ; de abelhas, um
 ; de ovelhas, um
+
 ; de aves, um
 ; de estrelas, uma
 .
@@ -11781,10 +11860,10 @@ Um conjunto de sobreiros é um
 11
 Indica o grau do adjetivo sublinhado.
 
-a) É o sobreiro mais antigo da
-região.
+a) É o sobreiro mais antigo da região.
 
 b) A cortiça é levíssima.
+
 c) É tão leve como uma pena.
 
 d) Escreve o superlativo absoluto sintético:  grosso →
@@ -11799,10 +11878,7 @@ Completa o aviso com os verbos no imperativo (vocês).
 AVISO · VISITANTES DO MONTADO
 
 (Respeitar)
-os
-
-caminhos.
-
+os caminhos.
 (Não deitar)
 lixo.
 
@@ -11819,13 +11895,10 @@ retrato
 25 PONTOS
 
 13
-
 Escreve o retrato de uma árvore, de um animal ou de uma pessoa que conheças bem (70 a 100
 palavras).
 Descreve o aspeto (e, se for uma pessoa, a maneira de ser). Usa pelo menos dois adjetivos em graus
 diferentes e termina com a tua opinião. Planifica primeiro: quem ou o quê? como é? o que penso?
-
-N.º de palavras: ____
 
 /25
 
@@ -11834,7 +11907,13 @@ Compreensão do oral
 reportagem de rádio
 10 PONTOS
 
-Ouves duas vezes.
+OUVIR
+2 vezes
+
+O professor lê;
+
+depois,
+respondes.
 
 14
 a) Em que dia se fez a plantação?
@@ -11857,6 +11936,9 @@ AVALIAÇÃO
 TESTE 1 · B · GRAMÁTICA · C · ESCRITA · D · ORAL
 
 TESTE 1 · UNIDADE 1
+
+N.º de
+palavras
 
 117
 
@@ -11920,11 +12002,10 @@ TESTE 2 · UNIDADE 2 · TEXTO NARRATIVO
 
 TESTE 2 · UNIDADE 2
 
-P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · Y E A R 5
+P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · 5 . º A N O
 
 1
 Na aldeia de Santa Clara, o relógio da torre da
-
 igreja nunca se atrasava. Há mais de cem anos que
 dava as horas a toda a gente: aos lavradores que
 iam para o campo, às crianças que corriam para a
@@ -11941,18 +12022,15 @@ chegou à escola a correr.
 
 3
 O avô Joaquim, que tratava do relógio desde
-
 rapaz, pegou na caixa das ferramentas e chamou a
 neta:
 
 4
 — Benedita, vens comigo? Preciso de alguém
-
 que me segure na lanterna.
 
 5
 A Benedita nem respondeu: já estava a calçar
-
 as botas. Subiram os oitenta degraus da escada de
 caracol. Lá em cima, o ar cheirava a pó e a óleo
 velho. O avô ergueu a lanterna e ficou imóvel.
@@ -11964,6 +12042,7 @@ alguém!
 
 7
 Entre as rodas dentadas, num ninho de palha e
+
 penas, estava uma coruja branca, de cara em forma
 de coração. Debaixo das asas, espreitavam três
 corujinhas cobertas de penugem.
@@ -11981,6 +12060,7 @@ aflita. — Ainda não sabem voar!
 
 10
 O avô coçou a cabeça e pensou durante muito
+
 tempo. Por fim, sorriu:
 
 11
@@ -11988,7 +12068,6 @@ tempo. Por fim, sorriu:
 
 12
 Nessa tarde, o avô pregou um aviso na porta da
-
 igreja: «Relógio parado por causa de um ninho.
 Volta a trabalhar quando as corujas aprenderem a
 voar.» Ao princípio, houve quem resmungasse.
@@ -11997,6 +12076,7 @@ praça só para espreitar a torre.
 
 13
 Dois meses mais tarde, numa noite de lua
+
 cheia, a Benedita viu três sombras brancas saírem
 pela janela da torre. No dia seguinte, o avô limpou o
 mecanismo e o relógio voltou a dar as horas.
@@ -12021,7 +12101,6 @@ Leitura (continuação)
 
 1
 Este texto é
-
 A uma notícia.
 B um conto.
 C um poema.
@@ -12131,6 +12210,7 @@ discurso direto · pretéritos · conectores · palavras
 
 10
 Relê os §§ 6, 8 e 9. a) Que sinal marca o início de cada fala?
+
 b) Transcreve os três verbos com que o narrador introduz as falas:
 
 /5
@@ -12144,9 +12224,7 @@ Todos os dias, o relógio
 
 Enquanto a neta
 (segurar) a lanterna, o avô
-(examinar) as rodas
-
-dentadas.
+(examinar) o mecanismo.
 
 /8
 
@@ -12169,26 +12247,15 @@ dormia, a Benedita observava-a.
 13
 Palavras.
 
-a) Sinónimo de
+a) Sinónimo de «aflita»:
+b) Sinónimo de «imóvel»:
 
-«aflita»:
+c) Antónimo de «tarde»:
+d) Antónimo de «baixinho»:
 
-b) Sinónimo de
+e) Rodeia a intrusa: coruja · corujinha · corujão · corrida
 
-«imóvel»:
-
-c) Antónimo de
-
-«tarde»:
-
-d) Antónimo de
-
-«baixinho»:
-
-e) Rodeia a intrusa: coruja · corujinha · corujão ·
-corrida
-
-f) Família de relógio:
+f) Escreve duas palavras da família de relógio:
 
 /8
 
@@ -12198,13 +12265,10 @@ relato na 1.ª pessoa
 25 PONTOS
 
 14
-
 Imagina que és a Benedita. Conta, na 1.ª pessoa, a noite em que viste as corujas voar (80 a 110
 palavras).
 Usa pelo menos uma fala em discurso direto, três conectores de tempo e verbos no pretérito perfeito e
 imperfeito. Dá um título ao teu relato. Planifica primeiro: início, meio e fim.
-
-N.º de palavras: ____
 
 /25
 
@@ -12213,7 +12277,13 @@ Compreensão do oral
 conto «A bicicleta amarela»
 10 PONTOS
 
-Ouves duas vezes.
+OUVIR
+2 vezes
+
+O professor lê;
+
+depois,
+respondes.
 
 15
 a) Onde passou o Martim as férias?
@@ -12227,6 +12297,7 @@ c) O que fazia a tia quando ele gritou?
 Numera de 1 a 4:
 gritou «Tia, não me largues!»
 encontrou a bicicleta
+
 levou-a para Lisboa
 caía muitas vezes
 
@@ -12236,6 +12307,9 @@ AVALIAÇÃO
 TESTE 2 · B · GRAMÁTICA · C · ESCRITA · D · ORAL
 
 TESTE 2 · UNIDADE 2
+
+N.º de
+palavras
 
 120
 
@@ -12314,10 +12388,9 @@ TESTE 3 · UNIDADE 3 · TEXTO POÉTICO
 
 TESTE 3 · UNIDADE 3
 
-P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · Y E A R 5
+P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · 5 . º A N O
 
 Chegou o vento de outubro
-
 sem bater, sem dar sinal;
 
 despenteou os telhados
@@ -12373,6 +12446,7 @@ Leitura (continuação)
 Completa. O poema tem
 estrofes e
 versos. Cada estrofe tem quatro versos, por
+
 isso chama-se
 .
 
@@ -12409,6 +12483,7 @@ B personificação
 
 «despenteou os telhados / e assobiou no
 quintal»
+
 C metáfora
 
 «As folhas são moedas de ouro»
@@ -12416,7 +12491,6 @@ D repetição
 
 «Vento, vento de outubro, / vento louco,
 vento amigo»
-
 E onomatopeia
 
 /10
@@ -12504,7 +12578,8 @@ janela
 
 /4
 12
-De quem é o som? Liga com a letra.
+De quem é o som? Escreve a letra no
+quadrado.
 
 miau
 tique-taque
@@ -12556,14 +12631,22 @@ Compreensão do oral
 poema «A chuva miudinha»
 10 PONTOS
 
-Ouves duas vezes.
+OUVIR
+2 vezes
+
+O professor lê;
+
+depois,
+respondes.
 
 16
 a) Quantas estrofes tem?
 b) Que onomatopeia o
+
 abre?
 
 c) Que verbo se repete
+
 na 2.ª estrofe?
 
 /6
@@ -12571,6 +12654,7 @@ na 2.ª estrofe?
 17
 a) O verso «bate à porta como quem anda perdida» tem uma
 .
+
 b) Completa: «e o arco-íris é a
 que o sol estende até ao chão».
 
@@ -12724,7 +12808,7 @@ TESTE 4 · UNIDADE 4 · TEXTO DRAMÁTICO
 
 TESTE 4 · UNIDADE 4
 
-P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · Y E A R 5
+P R O V A D E A V A L I A Ç Ã O · P O R T U G U Ê S · 5 . º A N O
 
 124
 
@@ -12737,7 +12821,6 @@ Leitura (continuação)
 
 1
 Este texto é
-
 A um conto.
 B um texto dramático.
 C um poema.
@@ -12750,10 +12833,9 @@ Completa.
 
 Personagens que falam:
 
-
 Personagem que não fala:
-
 Espaço:
+
 Tempo:
 
 /6
@@ -12890,7 +12972,6 @@ da narrativa à cena
 25 PONTOS
 
 14
-
 Transforma esta narrativa numa cena de texto dramático.
 
 Na manhã do passeio da escola, a Marta acordou atrasada. Correu para a cozinha e perguntou
@@ -12909,7 +12990,13 @@ Compreensão do oral
 cena «A coroa do rei»
 10 PONTOS
 
-Ouves duas vezes.
+OUVIR
+2 vezes
+
+O professor lê;
+
+depois,
+respondes.
 
 15
 a) Onde se passa a cena?
@@ -12919,6 +13006,7 @@ c) O que desapareceu?
 
 16
 a) Onde estava a coroa?
+
 b) O que exprime o «Ufa!» do Diogo?
 
 /4
@@ -13284,8 +13372,9 @@ O que ainda quero melhorar
 A minha meta para o 6.º ano
 
 Para o professor
-Soluções e critérios de
-correção dos quatro testes
+Soluções: no fim do livro. Aí estão
+também os critérios de correção e os
+textos da parte D, para ler em voz alta.
 
 AVALIAÇÃO
 UNIDADE 6 · BALANÇO DO ANO
@@ -13302,7 +13391,7 @@ ponto de partida para o próximo passo.
 
 ---
 7
-U N I D A D E · P O R T U G U Ê S · Y E A R 5
+U N I D A D E · P O R T U G U Ê S · 5 . º A N O
 Atividades Extra
 
 O BAÚ DOS PASSATEMPOS
@@ -13330,9 +13419,9 @@ o que te apetece treinar. Cada atividade liga-se
 a uma coisa que já aprendeste este ano.
 
 1 · Escolhe
-Na ementa, cruza o tempo que tens
-com o que queres treinar. Sozinho, a
-pares ou em grupo.
+Na ementa, cruza o tempo que
+tens com o que queres treinar.
+Sozinho, a pares ou em grupo.
 
 2 · Faz
 As chaves dizem-te o desafio:
@@ -13340,11 +13429,11 @@ As chaves dizem-te o desafio:
 aquecer,
 aplicar,
 desafiar-te.
-= ouvir ou ver online.
+= ver online.
 
 3 · Regista
-Quando acabares, pinta o círculo da
-atividade. Consegues pintá-los
+Quando acabares, pinta o círculo
+da atividade. Consegues pintá-los
 todos até às férias?
 
 O MEU REGISTO · ATIVIDADES 1 A 23
@@ -13600,8 +13689,10 @@ U1
 Parte de um ato, no texto dramático. (4)
 U4
 
-A etiqueta à direita de cada pista diz-te em que unidade aprendeste a palavra. Ficaste preso? Volta a essa unidade e procura-a no
-glossário.
+A etiqueta à direita de cada pista diz-te em que unidade
+aprendeste a palavra. Ficaste sem ideias? Volta a essa unidade e
+
+procura-a no glossário.
 
 ATIVIDADES EXTRA · UNIDADE 7
 JOGOS DE PALAVRAS · PALAVRAS CRUZADAS
@@ -13888,7 +13979,7 @@ Que foi pintado duas vezes.
 c
 Com pintas de várias cores.
 
-Joguem em grupo (ouro). Um jogador copia do dicionário a definição de
+Joguem em grupo. Um jogador copia do dicionário a definição de
 uma palavra que ninguém conhece; os outros inventam definições falsas,
 no estilo do dicionário. Leem-se todas e vota-se na verdadeira. Cada
 colega enganado vale um ponto!
@@ -14034,8 +14125,8 @@ uma das pontas, se a palavra certa estiver na sua mão; se
 não estiver, passa. Ganha quem ficar primeiro sem peças.
 
 Peças novas. Nas três peças em branco, inventa
-pares teus, em sinónimos ou antónimos. Consegues abrir
-o círculo e metê-las lá dentro sem o estragar?
+pares teus de sinónimos ou de antónimos. Consegues
+abrir o círculo e metê-las lá dentro sem o estragar?
 
 ATIVIDADES EXTRA · UNIDADE 7
 JOGOS DE PALAVRAS · DOMINÓ
@@ -14045,54 +14136,54 @@ JOGOS DE PALAVRAS
 medroso
 começar
 
-PROCURA O SINÓNIMO
+SINÓNIMO
 veloz
 generoso
 
-PROCURA O ANTÓNIMO
+ANTÓNIMO
 recusar
 alegre
 
-PROCURA O SINÓNIMO
+SINÓNIMO
 
 avarento
 esconder
 
-PROCURA O SINÓNIMO
+SINÓNIMO
 partir
 bonito
 
-PROCURA O SINÓNIMO
+SINÓNIMO
 moderno
 rápido
 
-PROCURA O SINÓNIMO
+SINÓNIMO
 
 contente
 corajoso
 
-PROCURA O ANTÓNIMO
+ANTÓNIMO
 iniciar
 antigo
 
-PROCURA O ANTÓNIMO
+ANTÓNIMO
 gigantesco
 chegar
 
-PROCURA O ANTÓNIMO
+ANTÓNIMO
 
 belo
 aceitar
 
-PROCURA O ANTÓNIMO
+ANTÓNIMO
 escuro
 enorme
 
-PROCURA O SINÓNIMO
+SINÓNIMO
 ocultar
 claro
 
-PROCURA O ANTÓNIMO
+ANTÓNIMO
 
 SIN. OU ANT.?
 SIN. OU ANT.?
@@ -14188,7 +14279,7 @@ tamanho de um elefante?
 
 U1
 E se…
-o galo de Barcelos voltasse a
+o Galo de Barcelos voltasse a
 cantar, hoje, no meio da tua
 escola?
 
@@ -14215,9 +14306,11 @@ na tua casa?
 
 livre
 
-OUVIR · SEM IDEIAS?
-Ouve o começo de uma história
-e continua-o tu.
+SEM IDEIAS? COMEÇA ASSIM
+
+«No Cabo das Gaivotas, ninguém podia entrar no farol.
+Até à manhã em que a Leonor encontrou no bolso uma
+chave antiga…» Continua tu!
 
 Uma boa história precisa de um problema. O que pode correr mal a um robô numa gruta com um
 guarda-chuva? Aposto que já tens uma ideia!
@@ -14381,13 +14474,14 @@ Trava-línguas da Mourinha
 FALAR
 
 Lê cada trava-línguas devagar, uma vez. Depois, tenta dizê-lo
-três vezes seguidas, cada vez mais depressa, sem tropeçar.
-Repara no som que se repete: é essa repetição que dá ritmo à
-frase.
+três vezes seguidas, cada vez mais depressa, enquanto um
+colega conta os tropeções. Repara no som que se repete: é essa
+repetição que dá ritmo à frase.
 
-OUVIR
-Ouve cada trava-línguas devagar
-e depressa. Depois, é a tua vez!
+VER · RTP ENSINA
+«O rato roeu a rolha»: que som
+se enrola na língua? Diz a frase
+de uma só vez!
 
 O meu trava-línguas (escolhe um som):
 
@@ -14453,7 +14547,7 @@ a osga Mourinha
 
 PERSONAGEM
 
-o galo de Barcelos
+o Galo de Barcelos
 
 LENDA
 
@@ -14589,7 +14683,9 @@ TEMPO
 
 3
 
-Nervoso antes de subir ao palco? Respira fundo três vezes, escolhe uma cara simpática na plateia e
+4
+
+Tens nervos antes de subir ao palco? Respira fundo três vezes, escolhe uma cara simpática na plateia e
 fala para ela. Resulta sempre!
 
 139
@@ -15050,6 +15146,7 @@ MANCHETE
 LEAD · QUEM, O QUÊ, QUANDO, ONDE
 
 LEGENDA
+
 Assinado por:
 
 A NOSSA OPINIÃO
@@ -15310,9 +15407,10 @@ FALAR · JOGAR
 Lê em voz alta a um colega. As pistas estão nas rimas! Sem
 espreitar as respostas.
 
-OUVIR
-Ouve as seis adivinhas, com
-tempo para pensares.
+VER · RTP ENSINA
+Mais três adivinhas: que
+animais estão escondidos
+nelas?
 
 ATIVIDADES EXTRA · UNIDADE 7
 POESIA E ADIVINHAS · CALIGRAMA · ADIVINHAS
@@ -15360,9 +15458,11 @@ e dobro-me para viajar.
 
 Respostas: 1. o livro · 2. a osga · 3. o pente · 4. o escuro · 5. a agulha · 6. o mapa
 
-PARA O PROFESSOR
-Soluções dos jogos e guiões
-dos áudios desta unidade.
+EXPLORAR · WIKIPÉDIA
+Que poeta deu nome ao
+caligrama? E em que ano?
+
+Soluções: no fim do livro.
 
 A adivinha 2 é sobre mim, claro! Agora inventa
 uma adivinha tua e leva-a para o microfone
@@ -15371,6 +15471,2660 @@ aberto. Boas férias e boas leituras!
 144
 
 <!-- page 153 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S
+Soluções
+
+Todas as respostas do livro, unidade a unidade. Nas perguntas abertas há um exemplo ou os critérios que orientam a
+resposta — aceitam-se todas as respostas bem justificadas com o texto. Primeiro, tenta sozinho; depois, confirma —
+e corrige a lápis.
+
+O Gabinete das Coisas Verdadeiras
+
+Respostas de referência. Nas perguntas abertas (níveis prata
+e ouro), aceitam-se todas as respostas bem justificadas com
+o texto.
+
+Átrio (p. 3)
+
+1
+A verbete de dicionário · B artigo de enciclopédia · C aviso
+
+· D retrato.
+
+2
+a) a osga-comum; b) dar informações — título com nome
+
+científico, subtítulos temáticos, imagem científica; c)
+resposta livre.
+
+Sala 1 (pp. 4–7)
+
+3
+De cima para baixo: 5 · 1 · 6 · 2 · 4 · 3.
+
+p. 5 Confirmar a fonte (QR Ciência Viva — ficha «Osga-
+
+comum»). Factos que aparecem nos dois textos (aceitam-
+se quaisquer dois): mede cerca de 15 cm com a cauda
+incluída; tem olhos grandes; o dorso é rugoso por causa
+dos tubérculos; a cor das costas varia entre o acastanhado
+e o esbranquiçado; a barriga é esbranquiçada, bege ou
+amarelada; é inofensiva, apesar da crença de que é
+venenosa; é útil porque come moscas e mosquitos.
+Explorar (Museu Virtual da Biodiversidade): resposta livre,
+desde que a informação nova venha da ficha do museu.
+
+4
+a) muros de pedra, rochas, troncos, ruínas, paredes de
+
+edifícios; b) «crepuscular»; c) lamelas; d) porque os
+insetos se juntam junto às lâmpadas; e) para distrair o
+predador e fugir; f) «Mitos e verdades»; g–h) respostas
+livres.
+
+5
+1 O · 2 F · 3 O · 4 F · 5 O · 6 F · 7 O · 8 afirmação que se
+
+pode verificar, mas falsa (a osga é inofensiva).
+
+6
+O professor lê as oito frases (texto em «Textos para o
+
+professor», no fim do livro, também reproduzido abaixo).
+1 F · 2 O · 3 O · 4 F · 5 O · 6 F · 7 F · 8 O.
+
+Sala 2 (pp. 8–11)
+
+8
+a) 2 · b) 3 · c) 1.
+
+9
+concha · fóssil · lagarto · lápis · livro · lupa · mapa · osga.
+
+10 Estão na página: luva, luz, madeira, manta. Não estão:
+lume, lua, marfim.
+
+11 osga · correr · lindo · soltar.
+
+12 Aceção 1 — «lâmina muito fina».
+
+13 Exemplo: vitrine (vi·tri·ne) n. f. Armário ou caixa com vidro
+onde se expõem objetos para serem vistos sem lhes tocar.
+A concha está na vitrine da Sala 1.
+
+15 cardume · enxame · alcateia · bando · manada · matilha ·
+arquipélago · constelação · biblioteca.
+
+16 rebanho · multidão · pinhal · frota · orquestra · vara.
+
+17 nadou · aplaudiu · intruso: abelha.
+
+Sala 3 (pp. 12–16)
+
+p. 12 Ler a pares. Tarefa oral, sem resposta única. Pormenores
+
+que o ouvinte deve conseguir «ver» (retrato da D.
+Guilhermina): cabelo branco e fofo num carrapito com um
+lápis amarelo; olhos escuros e vivos com ruguinhas; óculos
+redondos presos a um fio; casaco de malha verde-garrafa
+com um botão vermelho diferente. Retrato do sótão
+(p. 13): raio de sol com grãos de pó dourados; baús de
+couro; cavalo de baloiço branco; gaiola vazia; manequim
+com chapéu de palha; janela redonda com telhados cor de
+laranja e um pombo. Aceitam-se três pormenores corretos
+de cada retrato.
+
+18 Físico: pequena e magra; cabelo branco e fofo; olhos
+escuros e vivos; óculos redondos; casaco verde-garrafa.
+Psicológico: muito paciente; curiosíssima (examina a
+concha como se fosse a primeira); um bocadinho teimosa
+(não põe a Mourinha fora).
+
+19 Esquerda: baús de couro · centro: cavalo de baloiço e,
+atrás, a gaiola · direita: manequim com chapéu de palha ·
+fundo: janela redonda, telhados, pombo. Vê-se: raio de
+sol, grãos de pó; ouve-se: tique-taque do relógio, a
+escada a ranger; cheira a pó, papel velho, madeira; sente-
+se: ar morno.
+
+21 a) superlativo absoluto sintético; b) comparativo de
+superioridade; c) superlativo relativo de superioridade; d)
+superlativo absoluto analítico.
+
+23 rapidíssimo · velhíssimo · felicíssimo · antiquíssimo.
+
+Sala 4 (pp. 17–19)
+
+26 B: a Direção do Gabinete · os visitantes · encerramento da
+Sala dos Fósseis · sábado, 17 de outubro. D: a professora
+Ana · alunos do 5.º ano · visita ao Gabinete · quinta-feira,
+22 de outubro, 9h00–12h30.
+
+28 toquem · aproveitem · falem · acendam · tragam · sejam.
+
+29 Guardem · Não corram · Ponham.
+
+30 Não acendas a luz! Não faças barulho. Deixa-me dormir e
+não me acordes antes das nove!
+
+Sala 5 (pp. 20–21)
+
+p. 20 Cronometrar a Leonor. Lida sem pressa, a apresentação
+
+demora cerca de 1 minuto (aceitam-se valores entre 50
+segundos e 1 minuto e meio); conclusão esperada: a
+Leonor cabe folgadamente nos dois minutos
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 1
+
+Textos para informar e descrever · pp. 1–24
+
+145
+
+<!-- page 154 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+da p. 21. RTP Ensina — «Cinco dicas para comunicar com
+sucesso». Aceita-se qualquer dica justificada com a
+apresentação: Dica 1 (estrutura em três partes: abertura,
+mensagem e conclusão; começa com impacto — a
+pergunta «Sabiam que…?»); Dica 2 (frases curtas e claras,
+mensagem com surpresa: «como um submarino»); Dica 3
+(usa articuladores do discurso: «Primeiro», «Em segundo
+lugar», «Por fim», «Em resumo»); Dica 4 (fala com
+entusiasmo: «o objeto mais extraordinário do Gabinete»).
+
+Saída (p. 24)
+
+40 1 verbete de dicionário · 2 enxame · 3 não corras · 4
+superlativo absoluto sintético · 5 opinião · 6 o quê,
+quando, onde (e quem avisa) · 7 captar a atenção e
+apresentar o tema · 8 título, imagens, organização do
+texto.
+
+Texto para o professor ler (atividade 6, p. 7)
+
+Leia cada frase duas vezes, com uma pausa de cerca de 4
+segundos antes da seguinte.
+
+1. Lisboa é a capital de Portugal.
+
+2. Lisboa é a cidade mais bonita do mundo.
+
+3. Os dicionários são muito aborrecidos.
+
+4. O dicionário do Gabinete tem mais de cem anos.
+
+5. Na minha opinião, os lobos são assustadores.
+
+6. Uma alcateia é um grupo de lobos.
+
+7. Ao nível do mar, a água ferve a cem graus.
+
+8. O verão é a melhor estação do ano.
+
+Fontes do artigo: Museu Virtual da Biodiversidade
+(Universidade de Évora); Ciência Viva.
+
+Lugar, Tempo e Memória
+
+Respostas de referência (pp. 25–64). Nas perguntas abertas
+(níveis prata e ouro) e nas tarefas de escrita e oralidade,
+aceitam-se todas as respostas bem justificadas com o texto.
+As obras O Rapaz de Bronze e Ynari, a Menina das Cinco
+Tranças são lidas na íntegra na aula; os excertos do manual
+são curtos.
+
+A mala da avó Rosa (p. 27)
+
+1
+T · E · N · P · T (ou E) · A.
+
+2
+Resposta livre, com os cinco elementos preenchidos.
+
+3
+1.º excerto: participa (pista: «Eu», «Agarrei-me», verbos na
+
+1.ª pessoa) · 2.º excerto: não participa (pista: «O juiz»,
+verbos na 3.ª pessoa). A última alínea é livre.
+
+2.1 · A Lenda do Galo de Barcelos (pp. 28–31)
+
+4
+De cima para baixo: 5 · 1 · 3 · 2 · 4 · 6.
+
+5
+1) Vinha da Galiza e ia a pé até Santiago de Compostela.
+
+2) Estava a banquetear-se com os amigos. 3) No Paço dos
+
+Condes, em Barcelos. 4) Porque era estrangeiro e ninguém
+o conhecia. 5) Porque, apesar de rirem, ficaram com
+receio de que o galo cantasse mesmo. 6) O galo assado
+que se levanta e canta; é o elemento maravilhoso que
+prova a inocência do peregrino. 7) Por exemplo: não se
+deve julgar alguém sem provas, só por ser diferente.
+
+6
+Situação inicial: Barcelos assustada com um crime, na
+
+Idade Média · Problema: o peregrino é acusado e
+condenado · Maravilhoso: o galo assado canta · Desfecho:
+o juiz salva o peregrino · Explicação: a origem do galo
+como símbolo de Barcelos e de Portugal. Última alínea
+livre (ex.: Lenda das Amendoeiras em Flor, Lenda da Moura
+Encantada…).
+
+7
+Perfeito (vermelho): prenderam, condenou, entrou ·
+
+Imperfeito (azul): Trazia, ia, se banqueteava.
+
+8
+riam · levantou-se · trancavam · dormiu.
+
+9–10 Respostas livres (imperfeito para o cenário, perfeito para
+as ações).
+
+2.2 · Relato de uma viagem (pp. 32–35)
+
+11 8h30 estação do Rossio · 9h40 chegada a Sintra · 10h30
+Palácio da Pena · 12h30 almoço no parque · 14h00 Castelo
+dos Mouros · 17h30 comboio de regresso.
+
+12 1) De comboio. 2) O rei D. Fernando II. 3) Um travesseiro. 4)
+Porque a serra fica perto do mar e apanha muita humidade
+do oceano. 5) Que o nevoeiro saía das árvores como se
+fosse a respiração delas. 6) Porque as muralhas
+serpenteiam pela serra, compridas e ondulantes. 7)
+Resposta livre.
+
+13 Exemplos: «a minha turma», «encontrámo-nos» · Sintra,
+Rossio, Palácio da Pena · 8h30… 17h30, «Primeiro»,
+«Depois» · «estava tão entusiasmada», «cansada, mas
+muito feliz» · D. Fernando II / castelo com mais de mil anos
+· «como um dragão de pedra».
+
+14 Primeiro · Depois · Enquanto · Finalmente · No dia
+seguinte.
+
+15 Resposta livre, verificada com a lista de controlo.
+
+2.3 · Biografia (pp. 36–39)
+
+16 1938 é colocado como cônsul em Bordéus · 1940 passa
+milhares de vistos a refugiados, desobedecendo às ordens
+do governo · 1954 morre pobre, em Lisboa · 1988 é
+reabilitado pela Assembleia da República.
+
+17 1) Na Universidade de Coimbra (Direito). 2) César. 3) Uma
+autorização carimbada no passaporte. 4) Para
+atravessarem a Espanha e chegarem a Portugal, de onde
+podiam partir para outros continentes. 5) Foi castigado,
+afastado da carreira e ficou sem dinheiro. 6–7) Respostas
+livres (ex.: preferiu fazer o que achava justo, mesmo contra
+as ordens).
+
+18 refugiado B · cônsul C · desobedecer D · reabilitar A.
+
+19 A · B · A · B.
+
+20 «Em 1938, fui colocado em Bordéus. Pensei muito e tomei
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 2
+
+Texto narrativo · pp. 25–64
+
+146
+
+<!-- page 155 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+uma decisão corajosa. Fiquei sem dinheiro para sustentar a
+minha família.»
+
+21 nascer: nasci · nasceu · nascemos · nasceram — viver: vivi ·
+viveu · vivemos · viveram — estudar: estudei · estudou ·
+estudámos · estudaram — partir: parti · partiu · partimos ·
+partiram.
+
+22–24 Respostas livres.
+
+2.4 · Literaturas de língua portuguesa (pp. 40–43)
+
+25 1 (1919) · 5 (1926) · 2 (1941) · 3 (1945) · 8 (1955) · 9 (1958)
+· 4 (1959) · 7 (1977).
+
+26 1) Nove. 2) Na Ásia. 3) Ana Maria Machado. 4) Pelo mar,
+com os navegadores portugueses dos séculos XV e XVI. 5)
+Sophia de Mello Breyner Andresen, Germano Almeida e
+Mia Couto. 6–7) Respostas livres (ex.: cada país tem a sua
+maneira de falar, mas todos partilham a mesma língua).
+
+27 mata-bicho → pequeno-almoço · machimbombo →
+autocarro · geladeira → frigorífico · candengue → criança ·
+café da manhã → pequeno-almoço · morabeza →
+hospitalidade, simpatia.
+
+28 seis · Brasil · Timor-Leste.
+
+30 A · S · A · S · S · A · A · S.
+
+31 Ex.: «O palácio era bonito e o jardim também era lindo. A
+Inês estava contente e os colegas também estavam
+alegres.»
+
+32 desobedecer · infeliz · ilegal · desconhecido · impossível ·
+desarrumar · incapaz · invisível.
+
+29, 33 Respostas livres.
+
+2.5 · O Rapaz de Bronze (pp. 44–47)
+
+34 Quem manda: de dia, a dona da casa · de noite, o Rapaz
+de Bronze. As flores: de dia estão quietas · de noite falam,
+mexem-se e dançam. Sons: resposta livre, coerente com o
+texto (de dia, pessoas e jardineiro; de noite, conversas das
+flores, música da festa).
+
+35–36 Ex.: justo, amável, conciliador. «Inveja» revela que o
+Gladíolo é vaidoso e invejoso. Resto livre.
+
+37 As rosas são «sentimentais e fora de moda» · os cravos
+«cheiravam a dentista» · as tílias e as borboletas
+«estremecem» e «dizem: — É Primavera!».
+
+38 Têm personificação: 1.ª (o vento assobiava), 3.ª (a lua
+espreitava) e 5.ª (as árvores dormiam).
+
+39–42 Respostas livres.
+
+2.6 · Ynari, a Menina das Cinco Tranças (pp. 48–51)
+
+43 soba B · cubata D · capim A · olongo C · batuque F · mais-
+velhos E.
+
+44–45 Respostas livres (ex.: junto ao rio, a aldeia do homem
+pequenino).
+
+46 1) Junto ao rio. 2) Ninguém: Ynari já nasceu com elas. 3) O
+velho muito velho inventa as palavras; a velha muito velha
+destrói-as. 4–7) Respostas livres (ex.: uma palavra curta
+pode guardar um sentimento enorme).
+
+49 trança: trançado · paz: apaziguar, pacifista · casa: casota ·
+terra: terramoto · mar: marinho, maré.
+
+50 guarda · magro · livre.
+
+47, 48, 51 Respostas livres.
+
+2.7 · Os Pardais da Horta (pp. 52–55)
+
+52 Espantalho: o Rui · não (ao terceiro dia os pardais
+pousavam nele) · Rede: a Matilde · não (as ervilhas
+cresciam tortas e era difícil regar) · Cataventos e CD: a
+Leonor · sim (o movimento e os reflexos de luz afastaram
+os pardais).
+
+53 1) Alfaces, ervilhas e girassóis. 2) Atrás do pavilhão da
+escola. 3) A professora de Ciências. 4) Porque prendia as
+ervilhas e dificultava a rega. 5) Porque tinham comida no
+comedouro. 6) Salvou a horta e deu de comer aos pardais.
+7) Resposta livre.
+
+54 Situação inicial: a turma semeia a horta · Problema: os
+pardais comem as sementes · Tentativas: espantalho, rede,
+cataventos e CD · Resolução: os pardais afastam-se e
+recebem um comedouro · Situação final: em junho, a horta
+dá alfaces, ervilhas e girassóis.
+
+56 Nomes: espantalho, rede, alfaces · Adjetivos:
+desconfiados, tortas, velha · Verbos: giravam, semearam,
+pensou.
+
+55, 57, 58 Respostas livres.
+
+2.8 · O Mistério das Coisas de Lã (pp. 56–59)
+
+59 Gralha: tinha algo vermelho no bico → era só pão com
+doce de morango · Senhor Albano: resmungão, queixava-
+se das crianças → na noite em que o gorro desapareceu
+estava na Guarda · Farrusco: é o gato da vizinha e podia
+andar pelo quintal → detesta a neve e não sai de casa; além
+disso, as pegadas mostram unhas, e os gatos recolhem as
+unhas.
+
+60 1) Uma luva vermelha, duas meias de lã e um gorro. 2) Em
+casa da avó Rosa, numa aldeia da serra da Estrela. 3) A
+coisa vermelha no bico da gralha: parecia a luva da avó. 4)
+Que o «ladrão» é um animal pequeno. 5) Um cão pequeno
+(um cachorro): pegadas com marcas de unhas, buraco
+rente ao chão, fiapos de lã, ganido no palheiro, tudo de
+noite.
+
+61 Para fazer uma cama quente, porque era inverno e havia
+neve.
+
+62 estendal C · palheiro D · ganido A · fiapos B.
+
+63 caía · dormia · ouviu · correu.
+
+64 Resposta livre.
+
+2.9 · No Elétrico 28 (pp. 60–63)
+
+65 No conto: perguntou, respondeu, espantou-se, exclamou,
+quis saber (não está no quadro), suspirou, ralhou, admitiu,
+murmurou, pediu. Não aparecem: disse, gritou, explicou,
+sussurrou, acrescentou.
+
+66 Ex.: gritou · perguntou · sussurrou · festejou · murmurou.
+
+68 1) Para a escola, na Graça. 2) Porque um carro estava
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+147
+
+<!-- page 156 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+parado em cima dos carris. 3) Guarda-freio. 4) Que
+gastava o dinheiro do pão no bilhete: ficava com fome,
+mas fazia a viagem. 5) Já não se empurram carros nem se
+paga com o dinheiro do pão; o Tejo não mudou. 6–7)
+Respostas livres.
+
+69 A Carolina perguntou:
+— Avô, também havia miradouros no teu tempo?
+— Claro que sim — respondeu o avô. — Havia os
+mesmos, mas com menos turistas.
+
+70 D · I · I · D.
+
+71 Ex.: — Avô, conta-me como conheceste a avó! — pediu a
+Carolina. · Indireto: O avô disse que ia com ela ao
+miradouro.
+
+67, 72, 73 Respostas livres.
+
+Chegada · Balanço (p. 64)
+
+Quiz 1 pretérito perfeito · 2 culpado · 3 ex.: trançar, trancinha ·
+
+4 o travessão · 5 ex.: finalmente, por fim · 6 Angola.
+
+Recursos QR e tarefas orais (sem numeração)
+
+Todos os QR da unidade levam a sítios públicos (RTP Arquivos,
+RTP Ensina, Município de Barcelos, DGE, Wilder). A unidade
+não usa gravações próprias. Nas tarefas de audição e
+visionamento, só se pedem respostas que constam da
+descrição pública do recurso; as restantes são abertas.
+
+p. 29 Ouvir · Antena 1 (RTP Arquivos, Histórias Assim Mesmo,
+
+3 min): reconto oral livre; avaliar a sequência (situação
+inicial → problema → maravilhoso → desfecho) e o uso do
+perfeito/imperfeito. Explorar · Município de Barcelos:
+diferenças aceites, por ex.: no site, o peregrino jura ser
+devoto de Santiago, S. Paulo e Nossa Senhora; o site não
+descreve o chapéu, a capa e o bordão do peregrino; não
+diz que o galo se tornou símbolo de Portugal.
+Semelhanças: as palavras do peregrino («É tão certo eu
+estar inocente…»), o nó da corda mal apertado («nó
+lasso») e o cruzeiro erguido em louvor de Santiago e da
+Virgem.
+
+p. 33 Ver · RTP Arquivos (O Palácio da Pena, série As Pedras
+
+e o Homem; minutos 2–5: muralhas do Castelo dos
+Mouros, escadas das muralhas, a Pena vista do castelo): às
+14h00, a Inês estava no Castelo dos Mouros; subiu degraus
+e mais degraus e, lá do alto, via o Palácio da Pena, a vila e,
+ao longe, o mar.
+
+p. 37 Ver e ouvir · RTP Ensina (reportagem de 2016): Lissy
+
+Jarvik e Stefan Rozenfeld receberam vistos de Aristides de
+Sousa Mendes; graças a eles puderam chegar a Portugal e
+partir daqui para um lugar seguro — salvaram a vida.
+
+p. 53 Explorar · Wilder: o Dia Mundial do Pardal-comum
+
+celebra-se a 20 de março · o ninho pode ser feito em
+árvores, em edifícios, em postes de eletricidade ou até em
+cima de ninhos de aves maiores, como a cegonha-branca.
+
+p. 57 Ler em voz alta · com suspense (grupos de 4: narrador,
+
+avó Rosa, Beatriz, Duarte): quem ouve deve levantar o
+dedo pelo menos nas pistas da p. 57 — pegadas redondas
+com quatro dedos e marcas de unhas; buraco estreito
+
+rente ao chão; fiapos de lã vermelha; ganido baixinho no
+palheiro (e, se quiserem, a pista falsa da gralha, na p. 56).
+Avaliar pausas, entoação e mudança de voz nas falas.
+
+p. 60 Ver · RTP Arquivos (reportagem do Telejornal, 4 min 37
+
+s): resposta aberta. Aceitar semelhanças como o próprio
+elétrico 28 e o seu percurso (a reportagem mostra-o num
+gráfico), a entrada e saída de passageiros e quem o
+conduz (no conto «guarda-freio»; na reportagem, o
+maquinista António dos Santos), e diferenças como os
+turistas ou o painel de instrumentos visto por dentro.
+
+p. 64 As soluções passam a estar no fim do livro; o quiz
+
+relâmpago é corrigido pelo aluno com essas soluções.
+
+Fontes: Município de Barcelos («A Lenda do Galo»); RTP
+Arquivos; RTP Ensina; Parques de Sintra – Monte da Lua;
+UNESCO; Sousa Mendes Foundation; Direção-Geral da
+Educação; CPLP; Camões, I.P.; Plano Nacional de Leitura;
+Wilder.
+
+O Coreto das Palavras
+
+Respostas de referência. Nas perguntas abertas (níveis prata
+e ouro) e nas tarefas de escrita, aceitam-se todas as
+respostas bem justificadas. Os poemas sem autor indicado
+são originais, escritos para este livro; o poema completo de
+José Jorge Letria (p. 68) lê-se no livro dele, na aula. Esta
+unidade não usa gravações próprias: as tarefas de ouvir
+fazem-se com leitura em voz alta na aula (os textos estão
+impressos nas páginas) e com recursos públicos da RTP (QR
+nas pp. 70, 71 e 72).
+
+3.1 · O poeta (pp. 67–68)
+
+1
+a) F — nasceu em Cascais · b) F — escreve também para
+
+crianças e jovens · c) V · d) V — Escola Básica José Jorge
+Letria, em Cascais · e) V — André Letria.
+
+2
+Quatro de: jornalista; poeta; escritor de livros para
+
+crianças; autor de teatro; cantor (ao lado de José Afonso);
+membro da equipa que criou a «Rua Sésamo» em
+Portugal.
+
+3
+Resposta livre (uma pergunta sobre a maneira de escrever
+
+poemas).
+
+4
+1 Com o polvo. · 2 Que é veloz e inteligente. · 3
+
+permanente. · 4 Não: o polvo larga tinta para confundir o
+inimigo e fugir; o poeta brinca com os dois sentidos de
+«tinta» (a do polvo e a de escrever). · 5 Trata-o com
+respeito, como se fosse uma pessoa (personificação). · 6
+Por exemplo: funciona como um refrão, dá ritmo e mostra
+que o poeta está a conversar com o polvo. · 7 Resposta
+livre.
+
+5
+Resposta livre (diário de leitura).
+
+Ferramentas 1–3 (pp. 69–71)
+
+6
+13 versos e 4 estrofes. a) quadra · b) dístico · c) terceto (a
+
+estrofe 4 é outra quadra).
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 3
+
+Texto poético · linguagem figurada · pp. 65–80
+
+148
+
+<!-- page 157 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+7
+Três crianças da rua «leram versos para o céu, / leram alto,
+
+com cuidado». Dístico do nível ouro: resposta livre.
+
+Caixa «Ler a dois» (p. 69) Tarefa oral: verificar que o leitor faz
+
+uma pausa curta no fim de cada verso e uma pausa maior
+entre as quatro estrofes.
+
+8
+gato–sapato · canção–coração · luar–mar · caracol–
+
+girassol.
+
+QR RTP Ensina (p. 70) «Recursos expressivos a nível fónico»
+
+(RTP Ensina): na parte «Rima», os versos de Fernando
+Pessoa («As horas pela alameda / Arrastam vestes de seda
+/ Vestes de seda sonhada / Pela alameda alongada») têm
+rima emparelhada, A A B B (alameda/seda ·
+sonhada/alongada).
+
+9
+A B A B (cozinha/galinha · parar/contar) — rima cruzada.
+
+10 Exemplos: «e brilha como um farol.» · «e acorda o
+caracol.»
+
+11 a) 7 · b) 7 (E o juntam-se) · c) 7 (lha os juntam-se duas
+vezes) · d) 7 (na a juntam-se). Todos são redondilhas
+maiores.
+
+12 Tarefa oral a pares: as contas corretas são as da atividade
+11 (7 sílabas em todos os versos). QR: aula 58 do
+#EstudoEmCasa, Português 5.º e 6.º anos (RTP, 7 jun. 2021)
+— «O poema “Hipermercado”, de Luísa Ducla Soares. A
+sílaba métrica. O texto de opinião.» (27 min). Resposta
+livre: o aluno partilha uma ideia nova sobre a sílaba
+métrica.
+
+13 Resposta livre; verificar as 7 sílabas, contando até à última
+sílaba forte.
+
+Ferramentas 4–5 (pp. 72–73)
+
+14 Comparações: «como um bando de bailarinas», «tal e qual
+um gatinho». Personificações (três de): o vento «acorda a
+rua», «assobia», «vai espreitar», «deita-se», «dorme».
+Metáfora: «O vento é um rapazinho».
+
+QR RTP Ensina (p. 72) «Recursos expressivos a nível
+
+semântico» (RTP Ensina): o exemplo de personificação é
+«Era uma vez / um gato maltês. / Tocava piano / e falava
+francês.» — quem toca piano é um gato maltês (tem
+ações de pessoa).
+
+15 «As nuvens são algodão.»
+
+16 a) P · b) M · c) C · d) P · e) C. Frases do nível ouro:
+respostas livres.
+
+17 1 molha · 2 plic, ploc, chape, catrapum · 3 na estrofe 3
+(guarda-chuvas, capas, botas, poças, nuvens, pombos) · 4
+«e o sol vem à varanda» (também «ronca o trovão»).
+
+18 tique-taque — relógio · cocorocó — galo · trrrim —
+campainha ou despertador · atchim — espirro · zum-zum
+— abelha · toc-toc — bater à porta.
+
+19 Resposta livre (quadra com uma enumeração e duas
+onomatopeias).
+
+Ensaio geral (p. 74)
+
+20 4 estrofes · quatro quadras · estrofe 1: A B A B, cruzada
+(deita/espreita · luz/reluz) · comparação: «quieta como
+
+uma pedra» (v. 13) · metáforas: «olho de ouro» (v. 4), «a
+lua, lanterna do céu» (v. 15) · personificação: «a cidade se
+deita» (v. 1), «as janelas apagam a luz» (v. 2), «diz o
+relógio» (v. 5), «dançam» (v. 10), «a conversar» (v. 16) ·
+repetição: «devagar, devagarinho» (v. 8) ou «fica… / fica…»
+(vv. 14 e 16) · onomatopeias: «Tique-taque» (v. 5), «Zzz»
+(v. 6) · enumeração: «Mosquitos, moscas e traças» (v. 9).
+
+21 1 À noite. · 2 Mosquitos, moscas e traças. · 3 A luz atrai os
+insetos; por isso as osgas caçam junto aos candeeiros
+(Unidade 1). · 4 Resposta livre.
+
+22 Exemplos: noitada, noitinha, anoitecido, boa-noite.
+
+Caixa «Três maneiras de dizer» (p. 74) Resposta livre,
+
+justificada com o texto. Espera-se que notem que o verso
+«devagar, devagarinho» (v. 8) — e também «E ela sobe,
+sem ruído» (v. 7) — pede uma leitura mais lenta e mais
+baixa, porque as palavras falam de lentidão e silêncio (a
+Mourinha sobe sem fazer barulho).
+
+3.2 · Poema em duas vozes (pp. 75–77)
+
+Caixa «Primeira leitura» (p. 75) Leitura dirigida: o professor lê
+
+a Voz 1 (osga), a turma a Voz 2 (pombo) e todos o coro
+(coluna do meio); depois trocam.
+
+23 1 Uma osga e um pombo; moram no mesmo telhado. · 2 A
+osga come mosquitos; o pombo, migalhas. · 3 A osga
+acorda com a lua; o pombo, com o sol. · 4 Porque a osga
+é um animal noturno: ao nascer do sol vai dormir. · 5 «leve
+como uma folha seca», «redondo como um pão»;
+onomatopeia: «ru-ru». · 6 Porque, quando um dorme, o
+outro está acordado a guardar o telhado. · 7 Porque dizem
+o que é comum aos dois.
+
+24 Osga: acorda com a lua · leve como uma folha seca · sobe
+paredes, come mosquitos. Pombo: acorda com o sol ·
+redondo como um pão · voa sobre a praça, come
+migalhas. Em comum: moram no mesmo telhado;
+guardam o telhado; ninguém os convida para a mesa.
+
+25–28 Tarefas de oralidade e de escrita: avaliar com a lista da
+p. 76 e a regra da p. 77 (uma comparação, uma repetição,
+uma onomatopeia; versos em coro na coluna do meio).
+
+Projeto e balanço (pp. 78–80)
+
+29–35 Tarefas de projeto e autoavaliação: respostas livres. A
+grelha da p. 79 serve para a heteroavaliação no recital.
+
+36 1 quadra · 2 A B B A · 3 7 (pa-ra o juntam-se) · 4 como · 5
+metáfora · 6 por exemplo: miau, au-au, cocorocó, ru-ru · 7
+personificação · 8 os versos ditos pelas duas vozes, em
+coro.
+
+37 Resposta livre.
+
+Recursos públicos usados nesta unidade (verificados
+em setembro de 2026)
+
+• p. 70 — RTP Ensina, explicador «Recursos expressivos a
+nível fónico» (Sandra Duarte Tavares, 2022):
+https://ensina.rtp.pt/explicador/recursos-expressivos-a-
+nivel-fonico/
+
+• p. 71 — RTP Play, #EstudoEmCasa, Português 5.º e 6.º
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+149
+
+<!-- page 158 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+anos, aula 58 (7 jun. 2021):
+https://www.rtp.pt/play/estudoemcasa/p7800/e549488/p
+ortugues-5-e-6-anos
+
+• p. 72 — RTP Ensina, explicador «Recursos expressivos a
+nível semântico» (Sandra Duarte Tavares, 2022):
+https://ensina.rtp.pt/explicador/recursos-expressivos-a-
+nivel-semantico-11/
+
+Fontes (pp. 67–68)
+
+Sociedade Portuguesa de Autores, «José Jorge Letria»
+(spautores.pt); Wikipédia, «José Jorge Letria»; Agrupamento
+de Escolas Cidadela, «EB1 José Jorge Letria»; ficha editorial
+de O Alfabeto dos Bichos (Oficina do Livro, 2005, ilustrações
+de André Letria); Wikipédia, «Polvo» e «Octopus vulgaris». O
+excerto de «Polvo» (4 versos) é citado com indicação de
+autor e obra, para fins de ensino.
+
+Texto Dramático
+
+Respostas de referência. Nas perguntas abertas (níveis prata
+e ouro) e nas atividades de escrita e de representação,
+aceitam-se todas as respostas bem justificadas com o texto.
+As duas peças da unidade são originais.
+
+Antes do pano (p. 83)
+
+1
+a) Cinco personagens; a Mourinha, a osga, não diz
+
+nenhuma palavra. b) A D. Guilhermina e a Mourinha. A peça
+passa-se no Gabinete das Coisas Verdadeiras.
+
+2
+a) «Sábado não há ensaio» — parece que o ensaio de
+
+sábado foi cancelado. b) Resposta livre (por exemplo, «há
+estreia», «o ensaio passa para domingo»). c) Quem lê só
+metade pode perceber o contrário do que o aviso diz e
+faltar ou fazer uma coisa errada. Na peça, a osga tapava
+«há estreia! Às 10 horas, com público. Tragam os fatos.»
+
+1.ª parte · O Aviso (pp. 84–87)
+
+3
+Exemplos. Lugar e tempo: «(O átrio do Gabinete das
+
+Coisas Verdadeiras…)» (Cena 1); «(A Sala Grande, vazia…)»
+(Cena 2). Movimento ou gesto: «(Deixa cair a mochila.)»,
+«(Dá um salto para trás.)» (Cena 1); «(Todos correm de um
+lado para o outro.)» (Cena 2). Maneira de falar: «(lê em
+voz alta, sem parar)» (Cena 1); «(Para o público,
+baixinho.)», «(em coro)» (Cena 2). Luz ou som: «(O
+candeeiro apaga-se. Escuro.)» (Cena 1); «(Ouve-se a
+campainha da porta.)» (Cena 2).
+
+4
+a) diálogo; b) monólogo; c) Que foi a D. Guilhermina que
+
+mudou a estreia para sábado (porque o palco vai ser
+pintado) e que o aviso dizia «há estreia» — as outras
+personagens ainda não o sabem.
+
+5
+1) Cena 1: sexta-feira, ao fim da tarde; Cena 2: sábado, às
+
+nove e meia da manhã. 2) A Mourinha, a osga, que dormia
+em cima do papel. 3) Arrumou-as todas no armazém. 4)
+Porque só leu a primeira linha do aviso; o resto estava
+tapado pela osga. 5) Porque o palco vai ser pintado na
+semana seguinte. 6) Sim: não esperou para ler o aviso até
+
+ao fim, apesar do pedido da Beatriz — «Não há ensaio,
+não há cadeiras. É simples!» 7) Porque o novo aviso manda
+ler «até ao fim» e a osga volta a tapar precisamente a
+palavra «FIM»: a confusão podia repetir-se.
+
+Vídeo p. 85 RTP Ensina, «A contracena no teatro»
+
+(ensina.rtp.pt): além das palavras, contam os movimentos,
+as expressões e os sentimentos que a ação desperta —
+contracenar é exprimir-se e interagir com o outro ator.
+
+7
+Exemplo: (Casa do Sr. Anselmo. Sexta-feira, à noite. O Sr.
+
+Anselmo entra, cansado.)
+Sr. Anselmo No sábado não há ensaio.
+D. Amélia (desconfiada) Tens a certeza? Leste o aviso até
+ao fim?
+Sr. Anselmo (coçando a cabeça, baixinho) Não…
+
+Nos bastidores (p. 88)
+
+8
+placard C · escadote A · fatos da peça G · lupa A ·
+
+tabuleiro A · espanador A.
+
+9
+Cena 1 — cenário: átrio, porta da Sala Grande, placard de
+
+cortiça com o aviso, candeeiro; adereços: mochila do
+Lucas, escadote e lâmpada do Sr. Anselmo. Cena 2 —
+cenário: Sala Grande sem cadeiras, pequeno palco com
+cortina vermelha, cabide com fatos; adereços: o aviso (na
+mão da Beatriz), as cadeiras, o aviso novo «LER ATÉ AO
+FIM!». Som: campainha da porta.
+
+Fonte Teatro Nacional D. Maria II, «História» —
+
+tndm.pt/historia: inaugurado a 13 de abril de 1846; estátua
+de Gil Vicente no alto da fachada; incêndio em 1964;
+reabertura em 1978.
+
+Laboratório da Língua (p. 89)
+
+10 a) E · b) I · c) Im · d) D · e) E. A frase negativa é a d) («As
+osgas não fazem mal a ninguém.»).
+
+11 O professor lê as oito frases (texto em «Textos para o
+professor», no fim do livro). 1 D · 2 I · 3 E · 4 Im · 5 I · 6 E · 7
+D · 8 Im. «Agora és tu»: resposta oral; o par identifica
+declarativa (voz a descer), interrogativa (voz a subir) ou
+exclamativa (voz forte, com emoção).
+
+12 Ui! · Ufa! · Chiu! · Aha! (aceitam-se outras interjeições
+adequadas à emoção).
+
+13 «Não, pode entrar.» — dá autorização; «Não pode entrar.»
+— proíbe a entrada. Exemplos: «Não há ensaio: há
+estreia!» (não há ensaio) · «Não, há ensaio! Há estreia?»
+(afinal, há ensaio).
+
+2.ª parte · A Chave Desaparecida (pp. 90–93)
+
+A solução do mistério: a chave está pendurada no fio dos
+óculos da D. Guilhermina, por baixo do casaco abotoado até
+ao pescoço. Por hábito, pendurou-a lá, como fazia «dantes».
+As pistas: a pergunta do Sr. Anselmo sobre o fio dos óculos; o
+frio, que a fez abotoar o casaco e esconder o fio; o «tlim-tlim»
+sempre que ela se baixa ou se mexe; e a Mourinha, que não
+tira os olhos dela.
+
+14 1) Um relógio de bolso antigo. 2) Às dez. 3) Um pano aos
+quadrados e um pastel de nata. 4) A D. Rosa esteve junto
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 4
+
+Textos para representar · pp. 81–96
+
+150
+
+<!-- page 159 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+da D. Guilhermina às nove e levou o tabuleiro para a
+pastelaria; o Sr. Anselmo andou a limpar os metais e podia
+ter a chave nos bolsos. 5) Porque volta a ouvir o «tlim-
+tlim» quando a D. Guilhermina se baixa: o barulho vem
+dela. 6) «A senhora não costumava pendurar a chave no fio
+dos óculos?» 7) Resposta livre; espera-se que se refira que
+a Beatriz observa, faz perguntas e toma notas, enquanto o
+Lucas acusa sem provas.
+
+15 D. Rosa — parece culpada: esteve lá às nove e levou o
+tabuleiro; é inocente: lavou o tabuleiro e só tinha migalhas.
+Sr. Anselmo — parece culpado: andou a mexer nos metais;
+é inocente: nos bolsos só tinha um pano e um pastel.
+Teoria: ver a solução do mistério, acima.
+
+Vídeo p. 91 RTP Ensina, «Sabe o que é uma marcação em
+
+teatro?» (ensina.rtp.pt): é o encenador que estabelece a
+marcação — as entradas e saídas dos atores, a sua
+posição no cenário, e também a luz e o som.
+
+16 Leitura a papéis: avaliar com a grelha da p. 95.
+
+17 Exemplo de continuação: «O Lucas apontou-lhe a lupa e
+gritou: — Alto aí! D. Rosa, onde estava às nove horas? —
+Às nove? Aqui mesmo, a trazer o café à D. Guilhermina —
+respondeu ela, espantada. — Depois, levei o tabuleiro para
+a pastelaria. — Aha! — exclamou o Lucas, triunfante. — A
+chave caiu no tabuleiro!…»
+
+18 Escrita livre. Critérios: didascália inicial; didascálias de tom
+e de gesto em itálico e entre parênteses; pelo menos três
+tipos de frase; uma interjeição; solução coerente com as
+pistas; «Pano.» no fim.
+
+Oficina de Teatro (pp. 94–95)
+
+19–25 Projeto de grupo. Sugere-se uma cena de 2–3 minutos,
+com 4–5 personagens. A grelha da p. 95 serve para a
+autoavaliação e para a avaliação entre pares (volume,
+ritmo, entoação, expressão corporal).
+
+Aplausos · Balanço (p. 96)
+
+27 1 didascálias · 2 monólogo · 3 réplica · 4 nos bastidores · 5
+interrogativa · 6 Ufa! · 7 o narrador · 8 adereço.
+
+O Comboio das Quatro Estações
+
+Respostas de referência (pp. 97–112). Nas perguntas abertas
+(níveis prata e ouro), aceitam-se todas as respostas bem
+justificadas com o texto. Todos os textos da unidade são
+originais, escritos para este livro.
+
+Estação 1 · O Gabinete (pp. 99–101)
+
+1
+a) chaminés, torres de igrejas, postes de eletricidade; b)
+
+vermelhos; c) «Curiosidade»; d) o peso (2,3 kg a 4,4 kg)
+— e também as medidas exatas das asas abertas; e) tem
+título e nome científico, subtítulos, ficha rápida e fontes;
+dá informações verdadeiras, sem personagens nem ações
+inventadas, com vocabulário rigoroso.
+
+2
+F · O · O · F · F · O.
+
+3
+a) 2 · b) 1 · c) 3. Título: cabem as aceções 1 (as paragens do
+
+comboio) e 2 (as estações do ano — a viagem pelo ano
+letivo). É um jogo de palavras.
+
+4
+bando · rebanho · multidão · cardume.
+
+5
+a) A cegonha é mais alta do que a osga. b) A osga é menos
+
+pesada do que a cegonha. c) compridíssimo.
+
+6
+Físico: baixo e redondo, bigode grisalho, bochechas
+
+coradas, boné azul-escuro inclinado, casaco com botões
+dourados, lápis amarelo atrás da orelha. Psicológico:
+simpático (conhece os passageiros pelo nome, lembra-se
+de quem enjoa), rigoroso (ninguém viaja sem bilhete).
+Comparação: «tão brilhantes como moedas novas».
+Superlativo: «o revisor mais simpático da linha»
+(superlativo relativo); aceita-se «muito rigoroso»
+(superlativo absoluto analítico).
+
+7
+Não te debruces da janela! Não deixes lixo no chão. Valida
+
+o bilhete e não esqueças a mala!
+
+8
+Não corram na plataforma. · Ponham o cinto. · Não façam
+
+barulho.
+
+9
+Pela ordem das fichas na página: 3 (D) · 1 (A) · 5 (F) · 2 (D) ·
+
+4 (D).
+
+Estação 2 · A Memória (pp. 102–104)
+
+10 Situação inicial: a Inês, o avô e o Tomás viajam de
+comboio para o Pinhão. Problema: há uma mala azul sem
+dono. Tentativa 1: perguntam aos passageiros. Tentativa 2:
+procuram uma etiqueta (só encontram uma pena de
+cegonha). Tentativa 3: pedem ajuda ao revisor, que abre a
+mala e se lembra da senhora que mudou para a carruagem
+5. Resolução: encontram a Maria do Céu e devolvem-lhe a
+mala. Situação final: a Inês passa a espreitar sempre as
+prateleiras das bagagens.
+
+11 Principal: a Inês (aceita-se também o Tomás). Secundárias:
+avô Artur, Tomás, senhor Albano, Maria do Céu. Espaço: o
+comboio da Linha do Douro (carruagens 3 e 5). Tempo:
+uma manhã de abril. Narrador não participante — conta na
+3.ª pessoa («A Inês viajava…»). Mistério: há um enigma (de
+quem é a mala?), pistas (a pena, o caderno de desenhos) e
+um falso suspeito (o «espião»).
+
+p. 102 Ler a vozes (grupos de cinco): observar se o narrador lê
+
+as partes narrativas e se cada leitor muda de voz nas falas
+(pergunta da Inês, sussurro do Tomás, exclamação da Inês,
+«Já sei!» do revisor), respeitando travessões, pontos de
+interrogação e de exclamação.
+
+12 perguntou · sussurrou · exclamou · disse. Baixinho:
+sussurrou. Pontuação: — Obrigada! — exclamou a Maria
+do Céu. — Salvaram o meu livro!
+
+14 andavam · chegou · ia · pediu · jantava · estava · cantou.
+
+15 estranha: esquisita, invulgar ≠ normal, comum · pequena:
+pequenina, minúscula ≠ grande · aflita: preocupada,
+nervosa ≠ calma, tranquila. Intruso: vinha.
+
+16 A é uma biografia (3.ª pessoa); B é uma autobiografia (1.ª
+pessoa). Pistas: o avô Artur e o gosto pelas aves — foi a
+Inês.
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 5
+
+Revisões anuais · pp. 97–112
+
+151
+
+<!-- page 160 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+17 Sophia de Mello Breyner Andresen — Portugal — O
+Rapaz de Bronze. Ondjaki — Angola — Ynari, a Menina
+das Cinco Tranças. Os nove países: Angola, Brasil, Cabo
+Verde, Guiné-Bissau, Guiné Equatorial, Moçambique,
+Portugal, São Tomé e Príncipe, Timor-Leste.
+
+Estação 3 · A Poesia (pp. 105–106)
+
+18 3 estrofes, 12 versos; cada estrofe é uma quadra. Verso 9:
+Pas·sam·vi·nhas·pas·sam·mon(tes) = 7 sílabas métricas —
+redondilha maior. Esquemas: 1.ª AABB, rima emparelhada ·
+2.ª ABAB, rima cruzada · 3.ª ABBA, rima interpolada.
+
+19 Onomatopeia: «Pouca-terra, pouca-terra» (v. 1).
+Comparação: «acesas como as estrelas» (v. 4). Metáfora:
+«leva um colar de janelas» (v. 3) ou «as estrelas são
+sementes» (v. 11). Personificação: «O comboio já suspira»
+(v. 5), «a ponte treme de frio» (v. 6), «a lua abre um olho e
+mira» (v. 7), «dorme, calado, o rio» (v. 8). Repetição:
+«passam» (vv. 9–10) ou «pouca-terra» (v. 1). Enumeração:
+«vinhas, montes, casas, gentes» (vv. 9–10). Ouro: no v. 4 as
+janelas são parecidas com as estrelas (usa-se como); no v.
+11 diz-se que as estrelas são sementes — a comparação
+está escondida.
+
+p. 105 Leitura em voz alta: o ritmo de 7 sílabas por verso
+
+(redondilha maior) sente-se ao bater na mesa. QR
+(Dicionário Priberam, «onomatopeia»): palavra cujo som
+imita o som do que significa — «pouca-terra» imita o som
+do comboio a andar.
+
+20–21 Respostas livres. Na quadra, verificar o esquema ABAB
+e a presença de uma personificação.
+
+Estação 4 · O Palco (pp. 107–108)
+
+p. 107 Leitura dramatizada (grupos de seis): cinco atores (Inês,
+
+Tomás, Avô Artur, Maria do Céu, Senhor Albano) e um
+encenador. Critérios: as didascálias não são lidas, são
+representadas (gestos, tom, entradas); a fala «Ficou!» é
+dita em coro.
+
+22 a) Cenário: «(Uma carruagem antiga, com bancos verdes.
+Pela janela, veem-se vinhas…)»; gesto: «(Levanta-se e anda
+de um lado para o outro.)» ou «(a limpar a testa com um
+lenço)». b) Monólogo: a Maria do Céu está sozinha e fala
+para si mesma. c) «Na carruagem 3, na prateleira.
+Pensámos que era de um espião!»
+
+23 Cenário: bancos verdes, janela com vinhas. Guarda-roupa:
+chapéu de palha, farda e boné do revisor, casaco do avô.
+Adereços: mala azul, bolsa, caderno, lenço, apito, pena.
+Som e luz: apito do comboio, luzes a apagar. Cena 1:
+provavelmente na carruagem 3.
+
+24 Na cena: não há narrador (as didascálias indicam cenário,
+gestos e tons); o nome da personagem aparece antes da
+fala, sem verbos introdutores; divide-se em cenas (e atos).
+Exemplo: AVÔ ARTUR (baixa o jornal e sorri) — Ou de
+alguém com muita pressa e pouca memória.
+
+25 Im · I · D · E. Pontuação: Onde está a minha mala? · Que
+susto! · Talvez alguém a tenha encontrado…
+
+26 Ai! dor · Ufa! alívio · Oh! espanto · Chiu! pedido de silêncio
+· Viva! alegria · Hum… dúvida.
+
+Oficina de Reparações (p. 109)
+
+27 1 Tomás, não corras na plataforma! · 2 O bando de
+cegonhas voou para o ninho. · 3 Esta foi a melhor viagem
+do ano. · 4 A mala azul era lindíssima (ou muito linda). · 5
+Ontem, a Inês encontrou uma mala no comboio. · 6 — De
+quem é esta mala? — perguntou o avô. · 7 Meninos, não
+abram a porta do comboio! · 8 O antónimo de «aflita» é
+«calma» («preocupada» é sinónimo). · 9 É uma rima
+cruzada (ABAB). · 10 Que susto apanhámos!
+
+28 Resposta livre. Exemplo: — Que bando enorme! — gritou
+a Inês, quando viu as cegonhas no ninho mais alto da
+aldeia.
+
+Carruagem da Escuta (p. 110)
+
+O professor lê o relato do Tomás em voz alta duas vezes (texto
+no fim desta página e nos textos para o professor, no fim do
+livro) e dita o texto da atividade 31 (cada frase duas vezes,
+com a pontuação dita; no fim, o texto todo). No fim, os alunos
+podem confirmar a ortografia no Dicionário Priberam (QR da
+página).
+
+29 V · F (foi às oito da manhã) · V · V · F (mostram as
+vindimas e os barcos rabelos).
+
+30 Pela ordem da página: 3 · 1 · 4 · 2. Conectores: primeiro,
+depois, quando, enquanto, mais tarde, por fim.
+
+Ouro Facto: a estação do Pinhão tem 24 painéis de azulejos,
+
+colocados em 1937. Opinião: «é a estação mais bonita de
+Portugal» ou «foi o melhor sábado do ano». É um relato
+de viagem porque conta, na 1.ª pessoa e por ordem, uma
+viagem real, com datas, lugares, descrições e impressões
+de quem viajou.
+
+31 Texto do ditado:
+
+No fim da viagem, o comboio parou devagar na
+estação do Pinhão. Nas paredes, os azulejos azuis
+contavam a história das vindimas. A Inês desceu a
+correr e gritou:
+— Avô, olha os barcos no rio!
+O avô sorriu, pegou na mala e respondeu:
+— Parece que também eles vão de viagem.
+
+Desafio final · O Bilhete Dourado (p. 111)
+
+A 1 «Na minha opinião, é o barco mais bonito do rio.» (1) · 2
+
+rabelo (ra·be·lo) n. m. Barco tradicional do rio Douro, de
+fundo chato e vela quadrada, que transportava as pipas de
+vinho do Porto. (3: 1 pelas sílabas, 1 pela classe e género, 1
+pela definição)
+
+B 1 não participante (1) · 2 perfeito: partiu, olhou, viu ou
+
+gritou; imperfeito: brilhava (2) · 3 o travessão; «gritou» (2)
+
+C 1 os versos 2 e 4 (canção / Pinhão) (1) · 2
+
+O·ra·be·lo·des·ce_o·ri(o) = 7 (2) · 3 metáfora — «a vela é
+um lenço branco» (2)
+
+D 1 «(a puxar o leme)» (1) · 2 imperativa; exclamativa (2) · 3
+
+«Oh!» — espanto (1) · 4 resposta livre, com nome da
+personagem e travessão (2)
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+152
+
+<!-- page 161 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+32 Resposta livre, avaliada com a lista de verificação de cada
+tipo de texto.
+
+Texto do relato para ler em voz alta (atividades 29–
+30)
+
+Diário de viagem. Sábado, 12 de abril. Olá! Sou o
+Tomás e hoje fiz a minha primeira viagem na
+Linha do Douro. Primeiro, apanhámos o
+comboio na estação de São Bento, no Porto, às
+oito da manhã. A estação estava cheia de gente, e
+as paredes estavam cobertas de azulejos azuis e
+brancos. Depois de uma hora de viagem, o
+comboio encontrou o rio Douro e, a partir daí,
+seguiu sempre ao lado dele. Quando parámos na
+Régua, começaram as vinhas: milhares de
+socalcos, como degraus gigantes, a descer até à
+água. Enquanto o comboio atravessava os túneis,
+a Inês tapava os ouvidos e eu contava até dez.
+Mais tarde, chegámos ao Pinhão. A estação é
+pequena, mas tem vinte e quatro painéis de
+azulejos, colocados em 1937. Mostram as
+vindimas, as pessoas a carregar cestos de uvas e
+os barcos rabelos, que levavam o vinho do Porto
+pelo rio abaixo. Para mim, é a estação mais
+bonita de Portugal! Por fim, antes de
+regressarmos, demos um passeio num barco
+rabelo. A água estava verde e calma, e o
+barqueiro contou-nos histórias do rio. Foi o
+melhor sábado do ano. Na próxima viagem,
+quero ir até ao fim da linha, no Pocinho.
+
+Fontes: Aves de Portugal (avesdeportugal.info) e ICNF
+(cegonha-branca); Infraestruturas de Portugal — IP
+Património (estação do Pinhão: 24 painéis de azulejos, 1937);
+Município de Barcelos (lenda do galo); Dicionário Priberam da
+Língua Portuguesa (onomatopeia); Portal da Literatura e
+Bertrand Editora (José Jorge Letria); Prémio Literário José
+Saramago (Ondjaki).
+
+Avaliação: mostra o que já sabes
+
+Quatro testes de 100 pontos (A Leitura 40 · B Gramática 25 ·
+C Escrita 25 · D Compreensão do oral 10). Duração: 60
+minutos para A–C; a parte D faz-se em turma (cerca de 10
+min), com o professor a ler o texto em voz alta duas vezes
+(textos em «Textos para o professor ler em voz alta»; não
+estão na página do aluno). Nas respostas abertas, aceitam-se
+todas as formulações corretas e bem justificadas com o texto.
+Salvo indicação em contrário, não se desconta ortografia fora
+da parte C, desde que a resposta seja compreensível. Nas
+perguntas de escolha múltipla, duas opções assinaladas valem
+0 pontos.
+
+Classificação qualitativa sugerida: 0–49 Insuficiente · 50–69
+Suficiente · 70–89 Bom · 90–100 Muito Bom.
+
+Parte C — Escrita (todos os testes)
+
+Grelha da p. 127 do livro: cinco critérios, cada um com 5
+pontos (nível 4 = 5 · nível 3 = 4 · nível 2 = 3 · nível 1 = 1 ·
+critério não avaliável = 0). Total 25.
+
+• Adequação ao tema e ao género — cumpre as instruções
+específicas de cada teste (listadas abaixo). Texto com
+menos de metade das palavras pedidas: máximo nível 2
+neste critério. Texto fora do tema: nível 1 em adequação e,
+no máximo, nível 2 nos restantes.
+
+• Coerência e coesão — progressão lógica, parágrafos
+(quando aplicável), conectores, sem contradições.
+
+• Vocabulário — variedade, precisão, adjetivação.
+
+• Ortografia e pontuação — 0–2 erros nível 4; 3–5 nível 3;
+6–9 nível 2; 10 ou mais nível 1. O mesmo erro repetido
+conta uma vez; acentuação conta como erro de ortografia.
+
+• Apresentação — legibilidade, título, margens, rasuras.
+
+Teste 1 — Unidade 1 · texto informativo (pp. 115–117)
+
+A · Leitura — 40 pontos
+
+1
+C — um artigo de enciclopédia. 2 p.
+
+2
+B — informar o leitor. 2 p.
+
+3
+a) 25 · b) nove (9) · c) maio e agosto · d) bolota. 1 ponto
+
+cada. 4 p.
+
+4
+a) F — o sobreiro é de folha persistente (não perde as
+
+folhas no inverno). b) V. c) F — a cortiça é leve e não deixa
+passar a água. Por afirmação: 1 ponto V/F + 1 ponto
+correção (a correção só pontua se o V/F estiver certo; em
+b) a afirmação verdadeira vale 2 pontos se assinalada V).
+
+6 p.
+
+5
+Assobiador → D · folhas → A · objetos → C · quem retira →
+
+B · quantos anos vive → E. 1 ponto cada. 5 p.
+
+6
+Para saberem em que ano a cortiça foi tirada e, assim,
+
+quando podem voltar a tirá-la (nove anos depois) / para
+não se enganarem. 3 = ideia completa (registo do ano +
+saber quando voltar); 2 = só «para não se enganarem» sem
+explicar; 0 = resposta errada. 3 p.
+
+7
+Vasco F · Leonor O · Rita O · Duarte F. 1 ponto cada. 4 p.
+
+8
+O sobreiro cresce devagar e só dá cortiça muitos anos
+
+depois de plantado (primeira extração aos cerca de 25
+anos, depois de 9 em 9 anos; vive 250–300 anos): quem o
+planta está a pensar no futuro, nas gerações seguintes. 6 =
+sentido do ditado + duas informações do texto; 4 =
+sentido + uma informação; 2 = só o sentido ou só
+informações sem relação; 0 = errada. 6 p.
+
+9
+a) nome feminino · b) duas (2) · c) «lo» (bo·lo·ta) · d)
+
+aceção 1. 2 pontos cada. 8 p.
+
+B · Gramática — 25 pontos
+
+10 sobreiral (aceita-se também «montado») · enxame ·
+rebanho · bando · constelação. 1 ponto cada. 5 p.
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 6
+
+Quatro testes · um por unidade · pp. 113–128
+
+153
+
+<!-- page 162 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+felicíssimo (2 pontos cada). 12 p.
+
+12 Respeitem · Não deitem · Não façam · Levem. 2 pontos
+cada (1 ponto se a forma estiver certa mas na pessoa
+errada, ex.: «respeita»). 8 p.
+
+C · Escrita — 25 pontos (item 13)
+
+Adequação: retrato de uma árvore, animal ou pessoa, 70–100
+palavras; características físicas (e psicológicas, se for pessoa);
+pelo menos dois adjetivos em graus diferentes; opinião final.
+
+D · Compreensão do oral — 10 pontos
+
+14 a) sexta-feira, 21 de março (Dia da Árvore) · b) vinte (20) ·
+c) cerca de 25 anos. 2 pontos cada. 6 p.
+
+15 a) O (opinião) · b) F (facto). 2 pontos cada. 4 p.
+
+Texto para o professor ler em voz alta (Teste 1 · parte D)
+
+Rádio Escola. Boletim da manhã. Bom dia a todos! Eu sou a
+Carolina Mendes e estou no recreio da nossa escola, onde
+hoje, sexta-feira, vinte e um de março, Dia da Árvore,
+aconteceu uma coisa diferente. Esta manhã, os alunos do 5.º
+ano plantaram vinte sobreiros junto ao muro do campo de
+jogos. As pequenas árvores foram oferecidas pelo viveiro
+municipal e medem, cada uma, cerca de quarenta centímetros.
+Cada turma adotou quatro árvores e deu-lhes um nome. No
+verão, os alunos vão regá-las duas vezes por semana. —
+Tiago, o que achaste desta manhã? — Acho que foi a melhor
+manhã do ano! E o nosso sobreiro, o Bolota, é o mais bonito
+de todos. E a professora Ana Lopes, que organizou a
+plantação, explicou-nos porquê o sobreiro: — O sobreiro é a
+Árvore Nacional de Portugal e aguenta bem o calor e a secura.
+Estas árvores só vão dar a primeira cortiça daqui a cerca de
+vinte e cinco anos. Na minha opinião, é o melhor presente que
+podíamos deixar a quem vier depois de nós. Para a Rádio
+Escola, no recreio, Carolina Mendes.
+
+Teste 2 — Unidade 2 · texto narrativo (pp. 118–120)
+
+A · Leitura — 40 pontos
+
+1
+B — um conto. 2 p.
+
+2
+Introdução § 1 · Desenvolvimento § 2 a § 13 · Conclusão §
+
+14 a § 15. Aceita-se desenvolvimento § 2–12 e conclusão §
+13–15. 2 pontos por parte. 6 p.
+
+3
+Principal: Benedita (aceita-se o avô Joaquim, ou ambos) ·
+
+secundárias: duas de entre avô Joaquim / a coruja / a
+professora Glória / o padeiro · espaço: a aldeia de Santa
+Clara / a torre da igreja · tempo: numa manhã de abril ·
+duração: cerca de dois meses. 1 ponto cada um dos 6
+espaços. 6 p.
+
+4
+De cima para baixo: 4 · 1 · 5 · 3 · 2. 1 ponto por posição
+
+certa. 5 p.
+
+5
+a) F — nunca se atrasava. b) F — decidiu esperar que as
+
+corujinhas aprendessem a voar. c) V. 1 ponto V/F + 1 ponto
+correção (c: 2 pontos se V). 6 p.
+
+6
+Porque as corujinhas ainda não sabiam voar e ficariam sem
+
+ninho / em perigo. 3 = com a razão; 1 = só «porque tinha
+pena». 3 p.
+
+7
+Duas qualidades justificadas, ex.: responsável/dedicado
+
+(trata do relógio desde rapaz, vai logo resolver o
+
+problema); respeitador da natureza / bondoso (não tira o
+ninho); paciente/ponderado (pensa muito antes de
+decidir); bem-humorado (aviso). 2 pontos por qualidade
+justificada (1 sem justificação). 4 p.
+
+8
+Opinião pessoal com duas razões ligadas ao texto (40–60
+
+palavras). 6 = opinião + 2 razões; 4 = opinião + 1 razão; 2
+= só opinião; desconta-se 1 ponto se o texto for muito
+curto ou confuso. 6 p.
+
+9
+C — se tornou uma memória de toda a aldeia. 2 p.
+
+B · Gramática — 25 pontos
+
+10 a) o travessão (—) (2 pontos) · b) sussurrou · explicou ·
+perguntou (1 ponto cada). 5 p.
+
+11 dava · parou · segurava · examinava (aceita-se
+«examinou»). 2 pontos cada. 8 p.
+
+12 Primeiro · Depois · Enquanto · Por fim. 1 ponto cada. 4 p.
+
+13 a) preocupada / assustada / nervosa · b) parado / quieto ·
+c) cedo · d) alto (em voz alta) · e) corrida · f) relojoeiro,
+relojoaria, relojinho… 1 ponto cada em a)–d); 2 pontos em
+e); 2 pontos em f) (1 por palavra). 8 p.
+
+C · Escrita — 25 pontos (item 14)
+
+Adequação: relato na 1.ª pessoa, como Benedita, da noite em
+que as corujas voaram (80–110 palavras); pelo menos uma fala
+em discurso direto (com travessão), três conectores de tempo,
+pretérito perfeito e imperfeito; título.
+
+D · Compreensão do oral — 10 pontos
+
+15 a) em Tavira, em casa da tia Natércia · b) da mãe do
+Martim · c) estava parada, lá atrás, a bater palmas (já o
+tinha largado). 2 pontos cada. 6 p.
+
+16 Pela ordem dos quadrados: 3 (gritou) · 1 (encontrou) · 4
+(levou para Lisboa) · 2 (caía). 1 ponto cada. 4 p.
+
+Texto para o professor ler em voz alta (Teste 2 · parte D)
+
+A bicicleta amarela. Naquele verão, o Martim foi passar as
+férias a casa da tia Natércia, em Tavira. Um dia, na garagem,
+debaixo de uma lona, encontrou uma bicicleta amarela, velha
+e cheia de ferrugem. — Era da tua mãe, quando tinha a tua
+idade — disse a tia. O Martim ainda não sabia andar de
+bicicleta sem rodinhas. Por isso, todas as tardes, a tia segurava
+no selim e corria atrás dele pela rua da praia. Ao princípio, o
+Martim caía muitas vezes. Depois, começou a dar três
+pedaladas, cinco, dez… Uma tarde, no fim de agosto, gritou:
+— Tia, não me largues! Mas a tia já o tinha largado há muito
+tempo: estava lá atrás, parada no meio da rua, a bater palmas.
+Quando voltou para Lisboa, o Martim levou a bicicleta
+amarela no carro. Agora, é ele quem a limpa, lhe enche os
+pneus e lhe dá voltas no bairro.
+
+Teste 3 — Unidade 3 · texto poético (pp. 121–123)
+
+A · Leitura — 40 pontos
+
+1
+5 estrofes (1) · 20 versos (1) · quadra (2). 4 p.
+
+2
+a) sinal / quintal · b) amigo / contigo. 2 pontos cada. 4 p.
+
+3
+C — ABCB. 2 p.
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+154
+
+<!-- page 163 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+4
+«Uuuu!…» E · «como um gato brincalhão» A ·
+
+«despenteou…/assobiou…» B · «As folhas são moedas de
+ouro» C · «Vento, vento…» D. 2 pontos cada. 10 p.
+
+5
+lençóis, camisas, chapéus, jornais (aceita-se também «as
+
+folhas do plátano»). 3 = quatro elementos; 2 = três; 1 =
+dois. 3 p.
+
+6
+a) F — chegou «sem bater, sem dar sinal». b) V. c) F —
+
+chama-lhe «amigo» e pede-lhe que leve o papagaio. 1 + 1
+por afirmação (b: 2 se V). 6 p.
+
+7
+Porque espalha as folhas (as «moedas de ouro») por toda
+
+a gente, sem as guardar, como um rei cheio de riquezas
+que não se preocupa em poupá-las. 4 = relação
+folhas/moedas + ideia de dar sem guardar; 2 = só uma das
+ideias. 4 p.
+
+8
+Pede-lhe que leve o seu papagaio (de papel) quando for
+
+para outras terras (2); mostra amizade, carinho, confiança,
+admiração (2); justificação com «vento amigo» ou «leva o
+meu papagaio contigo» (1). 5 p.
+
+9
+B — um brinquedo de papel que voa. 2 p.
+
+B · Gramática — 25 pontos
+
+10 vento N · louco A · assobiou V · telhados N · rico A · leva
+V. 1 ponto cada. 6 p.
+
+11 Ex.: ouro — tesouro, louro, touro · chão — mão, pão,
+balão · vento — momento, lento, atento · janela — panela,
+estrela, vela. 1 ponto cada (rima tem de ser consoante na
+sílaba tónica e seguintes). 4 p.
+
+12 miau C · tique-taque A · trrrim E · plic, ploc D · zzzz B. 1
+ponto cada. 5 p.
+
+13 a) As nuvens são ovelhas cinzentas. b) A lua é uma moeda
+de prata. c) O mar é um espelho azul. 2 pontos cada (0 se
+mantiver «como»/«parece»). 6 p.
+
+14 «Saltou muros, correu ruas». 2 pontos por verbo. 4 p.
+
+C · Escrita — 25 pontos (item 15)
+
+Adequação: poema de duas ou três quadras sobre a chuva, o
+sol, o mar ou a noite; título; rima em pelo menos uma quadra;
+dois recursos expressivos diferentes. Em «coerência e
+coesão», avalia-se a unidade do tema e a organização em
+estrofes; em «ortografia e pontuação», é aceitável a ausência
+de pontuação no fim dos versos se for uma opção coerente.
+
+D · Compreensão do oral — 10 pontos
+
+16 a) três (3) · b) «Plic, ploc» · c) lava. 2 pontos cada. 6 p.
+
+17 a) comparação (aceita-se personificação, pois a chuva
+«bate à porta») · b) ponte. 2 pontos cada. 4 p.
+
+Texto para o professor ler em voz alta (Teste 3 · parte D)
+
+A chuva miudinha
+Plic, ploc, na vidraça,
+a chuva chegou de mansinho;
+bate à porta como quem
+anda perdida no caminho.
+
+Lava as ruas, lava os carros,
+lava as árvores do jardim,
+e dá de beber aos canteiros
+
+de rosas e de alecrim.
+
+Depois, cansada, adormece
+numa nuvem de algodão,
+e o arco-íris é a ponte
+que o sol estende até ao chão.
+
+Teste 4 — Unidade 4 · texto dramático (pp. 124–126)
+
+A · Leitura — 40 pontos
+
+1
+B — um texto dramático. 2 p.
+
+2
+Falam: Dona Amélia, Rui, Senhor Horácio (1 cada) · não
+
+fala: o gato Canela (1) · espaço: uma padaria de aldeia (1) ·
+tempo: de manhã cedo (1). 6 p.
+
+3
+a) «(Uma pequena padaria de aldeia, de manhã cedo. Ao
+
+centro, um balcão…)» · b) por ex. «(tira uma lupa do
+bolso…)», «(baixando-se)», «(com as mãos na cintura)»,
+«(Todos se debruçam…)» · c) «(Ouve-se a campainha da
+porta: trrrim!…)». 2 pontos cada; aceita-se transcrição
+parcial desde que identifique a didascália. 6 p.
+
+4
+B — indicar o cenário e o que os atores fazem. 2 p.
+
+5
+a) F — o Rui diz «Eu não fui, juro!». b) V. c) F — decide
+
+fazer outro bolo (e manda fechar a porta da cozinha). 1 + 1
+por afirmação (b: 2 se V). 6 p.
+
+6
+Pegadas de farinha pequeninas, com quatro dedos, que
+
+iam dar a debaixo do balcão; os bigodes do gato cheios
+de açúcar. 2 pontos cada pista. 4 p.
+
+7
+«Gatuno» quer dizer ladrão e parece-se com «gato» — o
+
+ladrão é mesmo um gato. 3 = as duas ideias; 2 = só «quer
+dizer ladrão»; 1 = só a semelhança com «gato». 3 p.
+
+8
+Início: aflita / preocupada / zangada — «Ai, que
+
+desgraça!», «(pousa o tabuleiro de repente)». Fim: calma,
+bem-disposta, conformada — «(suspira, já a sorrir)»,
+«Pronto, pronto…». 3 pontos por momento (sentimento 2 +
+justificação 1). 6 p.
+
+9
+Resposta com base no texto: fala com calma e seriedade,
+
+como um polícia experiente; mostra a lupa, examina
+devagar o balcão, o chão e a janela, para de repente; no
+fim, guarda a lupa satisfeito e fala com humor. 5 = voz +
+movimentos + duas referências ao texto; 3 = voz ou
+movimentos com uma referência; 1 = genérica. 5 p.
+
+B · Gramática — 25 pontos
+
+10 a) interrogativa · b) exclamativa · c) imperativa · d)
+declarativa. 2 pontos cada. 8 p.
+
+11 a) Ai — aflição / susto / tristeza · b) Hum — prazer, gosto
+(apetite) · c) Ah, ah, ah — riso, alegria. 1 ponto pela
+interjeição + 1 pelo sentimento. 6 p.
+
+12 a) Que bolo tão bonito! (1) · Onde está o gato? (1) · b) para
+mostrar hesitação, susto, surpresa — o Rui está tão
+espantado que fala aos bocadinhos (3). 5 p.
+
+13 a) O gato comeu o bolo? · b) O gato comeu o bolo!
+(aceita-se «Que o gato comeu o bolo!» ou com
+interjeição) · c) Gato, não comas o bolo! / Não comas o
+bolo! 2 pontos cada. 6 p.
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+155
+
+<!-- page 164 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+C · Escrita — 25 pontos (item 14)
+
+Adequação: lista de personagens (Marta, mãe, Tomás);
+didascália inicial com espaço e tempo; falas precedidas do
+nome da personagem; pelo menos duas didascálias de
+gesto/tom; uma interjeição; frases de três tipos. Toda a
+informação da narrativa deve passar para falas ou didascálias
+(não pode ficar em narração).
+
+D · Compreensão do oral — 10 pontos
+
+15 a) no palco da escola · b) na véspera da festa de Natal · c)
+a coroa do rei. 2 pontos cada. 6 p.
+
+16 a) na cabeça do boneco de neve · b) alívio. 2 pontos cada.
+
+4 p.
+
+Texto para o professor ler em voz alta (Teste 4 · parte D)
+
+A coroa do rei. Cena única. O palco da escola, na véspera da
+festa de Natal.
+PROFESSORA HELENA — Atenção, meninos! É o último
+ensaio. Luzes, por favor!
+SOFIA — Professora Helena! A coroa do rei desapareceu!
+PROFESSORA HELENA — Oh, não! Outra vez? Quem estava
+com ela?
+DIOGO — Fui eu… quer dizer, estava comigo até ao lanche.
+Depois, pousei-a numa cadeira…
+SOFIA — Ali! Olhem! Está na cabeça do boneco de neve!
+DIOGO — Ufa! Que alívio!
+PROFESSORA HELENA — Muito bem. Diogo, põe a coroa.
+Sofia, vai para o teu lugar. E agora, silêncio: vamos começar!
+NARRADOR — E o ensaio começou, com o rei mais aliviado
+do mundo.
+
+Grelha de oralidade (p. 127)
+
+Usar em apresentações orais, leitura em voz alta e
+dramatizações ao longo do ano (por exemplo, dramatizar a
+cena do Teste 4 ou ler o poema do Teste 3). Cinco critérios ×
+níveis 1–4; converter, se necessário, com nível 4 = 4 pontos,
+total /20.
+
+Todos os textos, poemas e cenas desta unidade são originais,
+escritos para estes testes. Factos do Teste 1: Florestas.pt,
+«Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º
+Inventário Florestal Nacional; Árvore Europeia do Ano 2018
+(Assobiador, Águas de Moura).
+
+Atividades Extra
+
+Respostas dos jogos e das atividades com recursos em linha
+(pp. 131–144). As grelhas foram geradas e verificadas por
+programa: cada palavra está na grelha exatamente onde a
+pista indica. Nas tarefas de escrita e de oralidade, aceitam-se
+todas as respostas adequadas.
+
+1 · Palavras cruzadas do ano (p. 131)
+
+Horizontais
+1 ONOMATOPEIA
+5 VERBETE
+9 DIDASCALIA
+10 OSGA
+11 RIMA
+12 ESTROFE
+13 METAFORA
+
+Verticais
+2 NARRADOR
+3 LENDA
+4 PERSONAGEM
+5 VERSO
+6 AVISO
+7 FACTO
+8 CENA
+
+2 · Sopa de letras com segredo (p. 132)
+
+Azul: as 14 palavras. Amarelo: as letras que sobram.Frase secreta:
+«Ler é viajar sem sair da cadeira.»POEMA (linha 6, coluna 3, →) ·
+ESTROFE (linha 1, coluna 3, ↘) · RIMA (linha 1, coluna 7, ↓) ·
+VERSO (linha 9, coluna 4, →) · LENDA (linha 1, coluna 2, →) ·
+CONTO (linha 4, coluna 1, ↓) · FABULA (linha 1, coluna 9, ↓) ·
+TEATRO (linha 3, coluna 2, ↓) · CENA (linha 5, coluna 5, ←) · FALA
+(linha 1, coluna 8, ↓) · ARTIGO (linha 10, coluna 7, ←) · AVISO
+(linha 7, coluna 3, →) · RETRATO (linha 8, coluna 3, →) · NOTICIA
+(linha 4, coluna 10, ↓)Escritas ao contrário (←): CENA e ARTIGO.
+
+3 · O jogo do dicionário (p. 132)
+
+alfarrábio a) livro antigo e, geralmente, muito grande.
+
+almocreve b) pessoa que conduzia animais de carga, a
+
+transportar mercadorias.
+
+bátega c) chuva grossa e forte que cai de repente.
+
+galhofa b) risota, brincadeira barulhenta.
+
+mafarrico a) criança traquina, endiabrada (em sentido
+
+figurado; também quer dizer «diabo»).
+
+sarapintado c) com pintas de várias cores.
+
+Definições verdadeiras confirmadas no Dicionário Priberam
+da Língua Portuguesa. As falsas foram inventadas para o jogo.
+
+4–5 · O jogo das famílias e a fábrica de palavras
+(p. 133)
+
+MAR maresia, marinheiro, marítimo, maré
+
+LIVRO livraria, livrinho, livreiro, livrete
+
+PEDRA pedreiro, pedregulho, empedrado, pedrada
+
+FLOR florista, floreira, florir, florido
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+UNIDADE 7
+
+O baú dos passatempos · pp. 129–144
+
+O
+1
+N
+2
+O
+M
+A
+T
+O
+P
+E
+I
+A
+
+A
+
+R
+L
+3
+P
+4
+
+V
+5
+E
+R
+B
+E
+T
+E
+A
+6
+
+E
+A
+N
+R
+F
+7
+V
+C
+8
+
+R
+D
+9
+I
+D
+A
+S
+C
+A
+L
+I
+A
+E
+
+S
+O
+A
+O
+C
+S
+N
+
+O
+R
+N
+T
+O
+10
+S
+G
+A
+
+R
+11
+I
+M
+A
+O
+
+G
+
+E
+12
+S
+T
+R
+O
+F
+E
+
+M
+13
+E
+T
+A
+F
+O
+R
+A
+
+L
+L
+E
+N
+D
+A
+R
+F
+F
+E
+
+R
+E
+V
+S
+I
+A
+I
+A
+A
+J
+
+A
+T
+R
+S
+T
+E
+M
+L
+B
+M
+
+C
+E
+S
+A
+I
+R
+A
+A
+U
+N
+
+O
+A
+N
+E
+C
+R
+O
+D
+L
+O
+
+N
+T
+P
+O
+E
+M
+A
+F
+A
+T
+
+T
+R
+A
+V
+I
+S
+O
+A
+E
+I
+
+O
+O
+R
+E
+T
+R
+A
+T
+O
+C
+
+C
+A
+D
+V
+E
+R
+S
+O
+E
+I
+
+I
+O
+G
+I
+T
+R
+A
+R
+A
+A
+
+156
+
+<!-- page 165 -->
+
+---
+F I M D O L I V R O · S O L U Ç Õ E S · C O N T I N U A Ç Ã O
+
+Impostoras flauta, livre (de liberdade), pedal (de pé),
+
+marmelada (de marmelo)
+
+5
+desfazer (voltar a separar o que estava feito) · reler (ler
+
+outra vez) · infeliz (que não é feliz) · sapateiro (quem faz
+ou arranja sapatos) · casinha (casa pequena) · colherada (o
+que cabe numa colher).
+
+Ouro Família de terra (exemplos): terreno, terreiro, terrestre,
+
+terráqueo, terramoto, enterrar, desenterrar, aterrar,
+aterragem, território, conterrâneo, térreo. As pistas:
+terramoto (treme), extraterrestre (vem de outro planeta),
+aterrar (o avião, no fim da viagem).
+
+6 · Dominó dos sinónimos e dos antónimos (p. 134)
+
+• alegre — sinónimo: contente
+
+• corajoso — antónimo: medroso
+
+• começar — sinónimo: iniciar
+
+• antigo — antónimo: moderno
+
+• rápido — sinónimo: veloz
+
+• generoso — antónimo: avarento
+
+• esconder — sinónimo: ocultar
+
+• claro — antónimo: escuro
+
+• enorme — sinónimo: gigantesco
+
+• chegar — antónimo: partir
+
+• bonito — sinónimo: belo
+
+• aceitar — antónimo: recusar
+
+O círculo completo (peças como aparecem, metade
+esquerda|metade direita): recusar|alegre → contente|corajoso
+→ medroso|começar → iniciar|antigo → moderno|rápido →
+veloz|generoso → avarento|esconder → ocultar|claro →
+escuro|enorme → gigantesco|chegar → partir|bonito →
+belo|aceitar → volta à primeira.
+
+7–11 · Escrita criativa (pp. 135–137)
+
+7–10 Respostas livres. O começo impresso na p. 135 («No
+Cabo das Gaivotas…») é opcional; a versão completa, para
+o professor ler em voz alta, está nos textos do professor.
+Verificar: estrutura da narrativa (situação inicial, problema,
+tentativas, resolução); na carta — local e data, saudação,
+corpo, despedida, assinatura; no diário — 1.ª pessoa,
+pretérito perfeito e imperfeito.
+
+11 Respostas livres. Ouro — exemplo: «— Olha, Mourinha, é
+um mapa! — exclamou a Leonor, a apontar para o farol.»
+
+12–15 · Oralidade (pp. 138–139)
+
+12 Sons repetidos: m · ch · p · s · g · tr (aliteração). Vídeo do
+RTP Ensina (QR, «O rato roeu a rolha», série «A Ilha das
+Cores»): o som que se repete é o r forte — escrito r no
+início da palavra e rr entre vogais: «O rato roeu a rolha da
+garrafa do rei da Rússia».
+
+13 Jogo livre.
+
+14 Imperfeito: era, brincavas, era (livro preferido); perfeito:
+mudou.
+
+15 Livre.
+
+16–19 · Clube de leitura (pp. 140–141)
+
+Livre. Os dez livros recomendados na p. 141 foram
+confirmados em catálogos de editoras e livrarias e na
+Biblioteca Nacional de Portugal (setembro de 2026).
+
+20–21 · O jornal da turma (pp. 142–143)
+
+Projeto livre. Na manchete: frase curta, com verbo. No lead:
+quem, o quê, quando, onde (e, se couber, como e porquê).
+
+22–23 · Poesia visual e adivinhas (p. 144)
+
+22 Texto do caligrama: «devagar, devagarinho, o caracol vai
+para a escola com a casa às costas; nunca se perde e
+nunca se atrasa, porque, onde quer que chegue, já está em
+casa»
+
+22 · Explorar Segundo a Wikipédia (artigo «Caligrama», QR):
+o poeta francês Guillaume Apollinaire, o primeiro a usar a
+palavra calligramme, em 1918.
+
+23 1 o livro · 2 a osga · 3 o pente · 4 o escuro · 5 a agulha · 6 o
+mapa.
+
+23 · Vídeo RTP Ensina, «Adivinhas: que animal sou eu?» (série
+«A Ilha das Cores»): os três animais são o leão (o
+resmungão que ruge como um trovão), o golfinho (salta à
+velocidade de um torpedo) e o cão (esperto e corajoso).
+
+Recursos em linha desta unidade
+
+• p. 132 · Dicionário Priberam da Língua Portuguesa —
+https://dicionario.priberam.org/
+
+• p. 138 · RTP Ensina, «O rato roeu a rolha» —
+https://ensina.rtp.pt/artigo/o-rato-roeu-a-rolha/
+
+• p. 144 · RTP Ensina, «Adivinhas: que animal sou eu?» —
+https://ensina.rtp.pt/artigo/adivinhas-que-animal-sou-eu/
+
+• p. 144 · Wikipédia, «Caligrama» —
+https://pt.wikipedia.org/wiki/Caligrama
+
+Endereços verificados em setembro de 2026.
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · SOLUÇÕES
+
+157
+
+<!-- page 166 -->
+
+---
+F I M D O L I V R O · P A R A O P R O F E S S O R
+Textos para o professor ler em voz alta
+
+Nas atividades de compreensão do oral e nos ditados, o professor lê estes textos em voz alta, na aula. Não
+aparecem nas páginas das atividades: quem ouve não os lê antes. Cada texto indica a página e a atividade.
+
+O Gabinete das Coisas Verdadeiras
+
+Atividade 6 «Ouve e decide» (p. 7) — o professor lê
+em voz alta
+
+Leia cada frase duas vezes, com uma pausa de cerca de 4
+segundos antes da seguinte. Os alunos escrevem F (facto) ou O
+(opinião) nas casas 1–8.
+
+Antes de começar: «Vais ouvir oito frases. Depois de cada
+uma, escreve F, se for um facto, ou O, se for uma opinião.»
+
+1. Lisboa é a capital de Portugal.
+
+2. Lisboa é a cidade mais bonita do mundo.
+
+3. Os dicionários são muito aborrecidos.
+
+4. O dicionário do Gabinete tem mais de cem anos.
+
+5. Na minha opinião, os lobos são assustadores.
+
+6. Uma alcateia é um grupo de lobos.
+
+7. Ao nível do mar, a água ferve a cem graus.
+
+8. O verão é a melhor estação do ano.
+
+No fim: «Compara as tuas respostas com as de um colega.
+Qual foi a frase mais difícil de decidir?»
+
+Soluções: 1 F · 2 O · 3 O · 4 F · 5 O · 6 F · 7 F · 8 O.
+
+Notas sobre as outras atividades orais (sem texto a
+ler)
+
+• p. 5 — a leitura do artigo passa a ser feita no livro; o QR
+leva à ficha pública «Osga-comum» do Ciência Viva
+(confirmar a fonte).
+
+• p. 12 — «Ler a pares»: os alunos leem os retratos das
+pp. 12 e 13 um ao outro; nenhum texto adicional.
+
+• p. 20 — a apresentação da Leonor está impressa na
+página; um aluno di-la em voz alta e outro cronometra. O
+QR leva ao explicador RTP Ensina «Cinco dicas para
+comunicar com sucesso».
+
+Texto Dramático
+
+Atividade 11 · Ouve e decide (p. 89)
+
+O professor diz cada frase uma vez, com a entoação indicada,
+e faz uma pausa de cerca de quatro segundos para os alunos
+escreverem D, I, E ou Im. Diga o número antes de cada frase
+(«Frase um.»…). Não mostre as frases escritas: os alunos
+decidem só pela voz.
+
+1. Há estreia. (voz a descer no fim: informa)
+
+2. Há estreia? (voz a subir no fim: pergunta)
+
+3. Há estreia! (voz forte, com surpresa e alegria)
+
+4. Tragam os fatos. (tom de ordem, firme)
+
+5. Onde está a chave? (pergunta; a voz sobe no fim)
+
+6. Que frio está hoje! (emoção forte, com um arrepio)
+
+7. Não há ensaio. (informa, voz a descer)
+
+8. Sentem-se, por favor. (pedido amável)
+
+Soluções: 1 D · 2 I · 3 E · 4 Im · 5 I · 6 E · 7 D · 8 Im.
+
+Extensão «Agora és tu» (chave ouro): em pares, um aluno diz
+«Há estreia» como declarativa, interrogativa ou exclamativa; o
+par identifica o tipo. As frases 1–3 servem de modelo.
+
+O Comboio das Quatro Estações
+
+Estes textos não estão na página do aluno. O professor lê-os
+em voz alta na aula.
+
+p. 110 · Atividades 29 e 30 (e pergunta de ouro) —
+«Diário de uma viagem na Linha do Douro»
+
+Leia o texto duas vezes, com calma. Na primeira leitura, os
+alunos só escutam. Na segunda, respondem às atividades 29 e
+30.
+
+Diário de viagem. Sábado, 12 de abril.
+
+Olá! Sou o Tomás e hoje fiz a minha primeira
+viagem na Linha do Douro.
+
+Primeiro, apanhámos o comboio na estação de
+São Bento, no Porto, às oito da manhã. A estação
+estava cheia de gente, e as paredes estavam
+cobertas de azulejos azuis e brancos.
+
+Depois de uma hora de viagem, o comboio
+encontrou o rio Douro e, a partir daí, seguiu
+sempre ao lado dele. Quando parámos na Régua,
+começaram as vinhas: milhares de socalcos,
+como degraus gigantes, a descer até à água.
+Enquanto o comboio atravessava os túneis, a Inês
+tapava os ouvidos e eu contava até dez.
+
+Mais tarde, chegámos ao Pinhão. A estação é
+pequena, mas tem vinte e quatro painéis de
+azulejos, colocados em 1937. Mostram as
+vindimas, as pessoas a carregar cestos de uvas e
+os barcos rabelos, que levavam o vinho do Porto
+pelo rio abaixo. Para mim, é a estação mais
+bonita de Portugal!
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · TEXTOS PARA O PROFESSOR
+
+UNIDADE 1
+
+Textos para informar e descrever · pp. 1–24
+
+UNIDADE 4
+
+Textos para representar · pp. 81–96
+
+UNIDADE 5
+
+Revisões anuais · pp. 97–112
+
+158
+
+<!-- page 167 -->
+
+---
+F I M D O L I V R O · P A R A O P R O F E S S O R · C O N T I N U A Ç Ã O
+
+Foi o melhor sábado do ano. Na próxima viagem,
+quero ir até ao fim da linha, no Pocinho.
+
+Fonte dos factos: Infraestruturas de Portugal — IP Património,
+«Estação do Pinhão» (24 painéis de azulejos, 1937, cenas e
+costumes da região vinhateira).
+
+p. 110 · Atividade 31 — Ditado da última estação
+
+Antes de começar: «Vou ler cada frase duas vezes. Escreve
+com atenção e não te esqueças das maiúsculas e dos acentos.»
+Dite cada frase duas vezes, dizendo a pontuação («vírgula»,
+«ponto final», «dois pontos», «parágrafo», «travessão»,
+«ponto de exclamação»). No fim, leia o texto todo, sem parar
+e sem dizer a pontuação.
+
+1. No fim da viagem, o comboio parou devagar na estação
+do Pinhão.
+
+2. Nas paredes, os azulejos azuis contavam a história das
+vindimas.
+
+3. A Inês desceu a correr e gritou: (parágrafo)
+
+4. — Avô, olha os barcos no rio! (parágrafo)
+
+5. O avô sorriu, pegou na mala e respondeu: (parágrafo)
+
+6. — Parece que também eles vão de viagem.
+
+Texto completo:
+
+No fim da viagem, o comboio parou devagar na
+estação do Pinhão. Nas paredes, os azulejos azuis
+contavam a história das vindimas. A Inês desceu
+a correr e gritou:
+— Avô, olha os barcos no rio!
+O avô sorriu, pegou na mala e respondeu:
+— Parece que também eles vão de viagem.
+
+Avaliação: mostra o que já sabes
+
+A parte D (Compreensão do oral) de cada teste faz-se em
+turma, com o professor (cerca de 10 minutos). O texto não
+está impresso na página do aluno. Leia-o duas vezes, em ritmo
+calmo e natural: na primeira leitura, os alunos só ouvem; antes
+da segunda, dê-lhes cerca de 1 minuto para lerem as
+perguntas; na segunda, respondem. No fim, conceda 2 a 3
+minutos para concluírem.
+
+Antes de começar: «Vou ler o texto duas vezes. Na primeira
+vez, ouve com atenção. Na segunda, responde às perguntas.»
+
+Teste 1 · D «Reportagem de rádio» (p. 117) — itens 14
+e 15
+
+Leia como uma repórter de rádio. As falas do Tiago e da
+professora Ana Lopes podem ser lidas com outro tom de voz
+(ou por um aluno, se preferir, desde que tenha preparado a
+leitura fora da sala).
+
+Rádio Escola. Boletim da manhã.
+
+Bom dia a todos! Eu sou a Carolina Mendes e estou no recreio
+da nossa escola, onde hoje, sexta-feira, 21 de março, Dia da
+
+Árvore, aconteceu uma coisa diferente.
+
+Esta manhã, os alunos do 5.º ano plantaram vinte sobreiros
+junto ao muro do campo de jogos. As pequenas árvores foram
+oferecidas pelo viveiro municipal e medem, cada uma, cerca
+de quarenta centímetros.
+
+Cada turma adotou quatro árvores e deu-lhes um nome. No
+verão, os alunos vão regá-las duas vezes por semana.
+
+— Tiago, o que achaste desta manhã?
+
+— Acho que foi a melhor manhã do ano! E o nosso sobreiro, o
+Bolota, é o mais bonito de todos.
+
+E a professora Ana Lopes, que organizou a plantação,
+explicou-nos porquê o sobreiro:
+
+— O sobreiro é a Árvore Nacional de Portugal e aguenta bem
+o calor e a secura. Estas árvores só vão dar a primeira cortiça
+daqui a cerca de vinte e cinco anos. Na minha opinião, é o
+melhor presente que podíamos deixar a quem vier depois de
+nós.
+
+Para a Rádio Escola, no recreio, Carolina Mendes.
+
+Soluções: 14 a) sexta-feira, 21 de março (Dia da Árvore) · b)
+vinte (20) · c) cerca de 25 anos · 15 a) O · b) F.
+
+Teste 2 · D Conto «A bicicleta amarela» (p. 120) —
+itens 15 e 16
+
+Leia como um narrador; mude ligeiramente a voz nas falas da
+tia e do Martim.
+
+A bicicleta amarela.
+
+Naquele verão, o Martim foi passar as férias a casa da tia
+Natércia, em Tavira. Um dia, na garagem, debaixo de uma
+lona, encontrou uma bicicleta amarela, velha e cheia de
+ferrugem.
+
+— Era da tua mãe, quando tinha a tua idade — disse a tia.
+
+O Martim ainda não sabia andar de bicicleta sem rodinhas. Por
+isso, todas as tardes, a tia segurava no selim e corria atrás dele
+pela rua da praia. Ao princípio, o Martim caía muitas vezes.
+Depois, começou a dar três pedaladas, cinco, dez…
+
+Uma tarde, no fim de agosto, gritou:
+
+— Tia, não me largues!
+
+Mas a tia já o tinha largado há muito tempo: estava lá atrás,
+parada no meio da rua, a bater palmas.
+
+Quando voltou para Lisboa, o Martim levou a bicicleta
+amarela no carro. Agora, é ele quem a limpa, lhe enche os
+pneus e lhe dá voltas no bairro.
+
+Soluções: 15 a) em Tavira, em casa da tia Natércia · b) da mãe
+do Martim · c) estava parada, lá atrás, no meio da rua, a bater
+palmas (já o tinha largado) · 16 pela ordem dos quadrados: 3
+(gritou) · 1 (encontrou) · 4 (levou-a para Lisboa) · 2 (caía).
+
+Teste 3 · D Poema «A chuva miudinha» (p. 123) —
+itens 16 e 17
+
+Diga o poema devagar, marcando o fim de cada verso e
+fazendo uma pausa clara entre as estrofes (os alunos têm de
+contar as estrofes). Dê expressividade à onomatopeia inicial.
+
+A chuva miudinha
+
+Plic, ploc, na vidraça, a chuva chegou de mansinho; bate à
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · TEXTOS PARA O PROFESSOR
+
+UNIDADE 6
+
+Quatro testes · um por unidade · pp. 113–128
+
+159
+
+<!-- page 168 -->
+
+---
+F I M D O L I V R O · P A R A O P R O F E S S O R · C O N T I N U A Ç Ã O
+
+porta como quem anda perdida no caminho.
+
+Lava as ruas, lava os carros, lava as árvores do jardim, e dá de
+beber aos canteiros de rosas e de alecrim.
+
+Depois, cansada, adormece numa nuvem de algodão, e o
+arco-íris é a ponte que o sol estende até ao chão.
+
+Soluções: 16 a) três · b) «plic, ploc» · c) «lava» · 17 a)
+comparação (aceita-se personificação) · b) «ponte».
+
+Teste 4 · D Cena «A coroa do rei» (p. 126) — itens 15
+e 16
+
+Leia a didascália inicial com voz neutra e diferencie as três
+personagens pelo tom (Professora Helena, Sofia, Diogo). Não
+mostre o texto aos alunos.
+
+A coroa do rei. Cena única. (O palco da escola, na véspera da
+festa de Natal.)
+
+PROFESSORA HELENA — Atenção, meninos! É o último
+ensaio. Luzes, por favor! SOFIA — Professora Helena! A coroa
+do rei desapareceu! PROFESSORA HELENA — Oh, não! Outra
+vez? Quem estava com ela? DIOGO — Fui eu… quer dizer,
+estava comigo até ao lanche. Depois, pousei-a numa cadeira…
+SOFIA — Ali! Olhem! Está na cabeça do boneco de neve!
+DIOGO — Ufa! Que alívio! PROFESSORA HELENA — Muito
+bem. Diogo, põe a coroa. Sofia, vai para o teu lugar. E agora,
+silêncio: vamos começar! (E o ensaio começou, com o rei mais
+aliviado do mundo.)
+
+Soluções: 15 a) no palco da escola · b) na véspera da festa de
+Natal · c) a coroa do rei · 16 a) na cabeça do boneco de neve ·
+b) alívio.
+
+Notas
+
+• Todos os textos acima são originais, escritos para estes
+testes; podem ser fotocopiados para uso na turma.
+
+• Estes textos servem também a grelha de oralidade da
+p. 127: depois de corrigido o teste, os alunos podem ler o
+poema do Teste 3 em voz alta ou dramatizar a cena do
+Teste 4.
+
+Atividades Extra
+
+p. 135 · Atividade 7 «Dados de histórias» — começo
+de história «A chave do farol»
+
+Texto original, escrito para este livro. No manual, o aluno tem
+apenas um resumo de duas frases deste começo (cartão «Sem
+ideias? Começa assim»). O professor pode ler o começo
+completo à turma e pedir que cada aluno o continue, usando
+os dados de histórias para decidir quem aparece a seguir.
+
+Na pequena vila do Cabo das Gaivotas, toda a
+gente sabia três coisas: que o pão da Dona Aurora
+era o melhor da costa, que o farol nunca se
+apagava e que ninguém, mas mesmo ninguém,
+podia entrar lá dentro.
+
+Até à manhã de nevoeiro em que o velho
+faroleiro, o senhor Baltazar, apareceu na praça,
+de boné na mão e bigode a tremer.
+
+— Perdi a chave do farol! — gritou ele. — E esta
+noite vem aí a maior tempestade do ano!
+
+Foi nesse preciso momento que a Leonor sentiu
+qualquer coisa a mexer-se no bolso do casaco.
+Meteu lá a mão, devagarinho, e tirou uma chave
+antiga, de latão, que nunca tinha visto na vida.
+Presa à chave, havia uma etiqueta de papel, já
+amarelada, com uma única palavra escrita.
+
+A Leonor leu-a em voz baixa… e arregalou os
+olhos.
+
+Perguntas para lançar a escrita: Que palavra estaria escrita na
+etiqueta? Como foi a chave parar ao bolso da Leonor? O que
+acontece quando a tempestade chegar?
+
+PORTUGUÊS · 5.º ANO
+FIM DO LIVRO · TEXTOS PARA O PROFESSOR
+
+UNIDADE 7
+
+O baú dos passatempos · pp. 129–144
+
+160
+
+<!-- page 169 -->
 
 ---
 F I M D O L I V R O · G L O S S Á R I O
@@ -15494,12 +18248,12 @@ que compare.
 modo imperativo 18 — forma do verbo para ordenar,
 pedir ou aconselhar.
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · GLOSSÁRIO
 
-145
+161
 
-<!-- page 154 -->
+<!-- page 170 -->
 
 ---
 F I M D O L I V R O · G L O S S Á R I O ( C O N T I N U A Ç Ã O )
@@ -15599,7 +18353,7 @@ dizer, perguntar, responder, exclamar….
 
 verso 69 — cada linha de um poema.
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · GLOSSÁRIO (CONTINUAÇÃO)
 
 O MEU GLOSSÁRIO · PALAVRAS NOVAS QUE ENCONTREI ESTE ANO
@@ -15609,394 +18363,238 @@ palavra? Procura-a no
 dicionário — aprendeste
 a usá-lo na p. 8.
 
-146
+162
 
-<!-- page 155 -->
+<!-- page 171 -->
 
 ---
 F I M D O L I V R O · R E C U R S O S
 D I G I T A I S
 Recursos digitais
 
-Os 46 códigos QR do livro, pela ordem das páginas (um endereço repetido aparece
-uma vez). Áudios e soluções: prime-books-pi.vercel.app/library/y05-
-portuguese-anthropic/, abreviado …/; nos endereços longos, «…» substitui o
-meio — o código tem o endereço completo.
+Os 25 códigos QR do livro, pela ordem das páginas (um endereço repetido aparece
+uma vez). Todos levam a páginas públicas de instituições e obras de referência,
+testadas em setembro de 2026; nos endereços longos, «…» substitui o meio — o
+código tem o endereço completo.
 
 1
 p. 5
 
-Ouvir: «A osga-
-comum»
-…/audio/01-artigo-o
-sga.mp3
+Ciência Viva: a
+ficha da osga-
+comum
+www.cienciaviva.pt/…/
+index.php?accao=showo
+bj&id_obj=4359
 
 1
 p. 5
 
 A osga no Museu
 Virtual
-museubiodiversidad
-e.uevora.pt/…/tare…
-
-1
-p. 7
-
-Ouvir: facto ou
-opinião?
-…/audio/02-facto-ou
--opiniao.mp3
+museubiodiversidade.u
+evora.pt/…/tarentola-
+mauritanica
 
 1
 p. 9
 
 «lamela» no
-Dicionário
-Priberam
-dicionario.pribera
-m.org/lamela
-
-1
-p. 12
-
-Ouvir: os dois
-retratos
-
-…/audio/03-retrato
-s.mp3
+Dicionário Priberam
+dicionario.priberam.o
+rg/pt-pt/lamela
 
 1
 p. 20
 
-Ouvir: a visita
-guiada da Leonor
-
-…/audio/04-visita-g
-uiada-leonor.mp3
-
-1
-p. 24
-
-Soluções
-(professor)
-…/solucoes.html
+RTP Ensina: cinco
+dicas para
+comunicar
+ensina.rtp.pt/…/cinco
+-dicas-para-comunicar
+-com-sucesso
 
 2
 p. 29
 
-Ouvir: a Lenda do
-Galo de Barcelos
-
-…/audio/u2-01-lenda
--galo-barcelos.mp3
+RTP Arquivos: a
+Lenda do Galo de
+Barcelos
+arquivos.rtp.pt/…/a-l
+enda-do-galo-de-barce
+los
 
 2
 pp. 29 e 104
 
 A lenda no site de
 Barcelos
-www.cm-barcelos.p
-t/…/a-lenda-do-galo
+
+www.cm-barcelos.pt/…/
+a-lenda-do-galo
 
 2
 p. 33
 
-Ouvir: «Um dia
-em Sintra»
-…/audio/u2-02-relat
-o-viagem-sintra.mp3
+RTP Arquivos: o
+Palácio da Pena
+arquivos.rtp.pt/conte
+udos/o-palacio-da-pen
+a
 
 2
 p. 37
 
-Ouvir: a
-biografia de
-Aristides
+RTP Ensina: os
+refugiados de
+Sousa Mendes
 
-…/audio/u2-03-biogr
-afia-aristides.mp3
+ensina.rtp.pt/artigo/
+wwii-sousa-mendes-10/
 
 2
 p. 37
 
-Aristides no site
-da DGE
-www.dge.mec.pt/…/ho
-nras-de-panteao-na…
+Aristides no site da
+DGE
+www.dge.mec.pt/…/honr
+as-de-panteao-naciona
+l-aristides-de-sousa…
 
 2
 p. 53
 
-Ouvir: «Os
-Pardais da
-Horta»
-…/audio/u2-04-os-pa
-rdais-da-horta.mp3
+Wilder: os pardais
+de Portugal
 
-2
-p. 57
-
-Ouvir: «O
-Mistério das
-Coisas de Lã»
-…/…/u2-05-o-misteri
-o-das-coisas-de-la…
+wilder.pt/…/conheca-a
+s-cinco-especies-de-p
+ardais-de-portugal
 
 2
 p. 60
 
-Ouvir: «No
-Elétrico 28»
-…/audio/u2-06-no-el
-etrico-28.mp3
+RTP Arquivos: um
+elétrico chamado
+28
 
-2
-p. 64
-
-Soluções
-(professor)
-…/solucoes-u2.html
-
-3
-p. 69
-
-Ouvir: «O Coreto
-Adormecido»
-…/audio/u3-01-o-cor
-eto-adormecido.mp3
+arquivos.rtp.pt/…/um-
+electrico-chamado-28
 
 3
 p. 70
 
-Ouvir: três
-quadras, três
-rimas
-…/audio/u3-02-tres-
-rimas.mp3
+RTP Ensina:
+recursos
+expressivos fónicos
+ensina.rtp.pt/…/recur
+sos-expressivos-a-niv
+el-fonico
 
 3
 p. 71
 
-Ouvir: contar
-sílabas métricas
-…/audio/u3-03-conta
-r-silabas.mp3
+RTP Play:
+#EstudoEmCasa,
+Português
+www.rtp.pt/…/portugue
+s-5-e-6-anos
 
 3
 p. 72
 
-Ouvir: o vento e a
-chuva
-…/audio/u3-04-o-ven
-to-e-a-chuva.mp3
-
-3
-p. 74
-
-Ouvir: «A Noite
-da Mourinha»
-…/audio/u3-05-a-noi
-te-da-mourinha.mp3
-
-3
-p. 75
-
-Ouvir: «Noite e
-Dia», a duas
-vozes
-…/audio/u3-06-noite
--e-dia-duas-vozes.…
-
-3
-p. 80
-
-Soluções
-(professor)
-…/solucoes-u3.html
+RTP Ensina:
+recursos
+expressivos
+semânticos
+ensina.rtp.pt/…/recur
+sos-expressivos-a-niv
+el-semantico-11
 
 4
 p. 85
 
-Ouvir: a peça «O
-Aviso»
-…/audio/u4-01-o-avi
-so.mp3
+RTP Ensina: a
+contracena no
+teatro
+
+ensina.rtp.pt/artigo/
+a-contracena-no-teatr
+o/
 
 4
 p. 88
 
 O teatro no D.
 Maria II
-www.tndm.pt/histori
-a
-
-4
-p. 89
-
-Ouvir: tipos de
-frase
-…/audio/u4-03-ouve-
-e-decide.mp3
+www.tndm.pt/historia
 
 4
 p. 91
 
-Ouvir: «A Chave
-Desaparecida»
-…/audio/u4-02-a-cha
-ve-desaparecida.mp3
+RTP Ensina: a
+marcação em teatro
 
-4
-p. 96
-
-Soluções
-(professor)
-…/solucoes-u4.html
-
-5
-p. 102
-
-Ouvir: o conto
-«A mala azul»
-…/audio/u5-03-conto
--a-mala-azul.mp3
+ensina.rtp.pt/…/sabe-
+o-que-e-uma-marcacao-
+em-teatro
 
 5
 p. 105
 
-Ouvir: «Comboio
-da noite»
-…/audio/u5-04-poema
--comboio-da-noite.…
-
-5
-p. 107
-
-Ouvir: a cena da
-carruagem 5
-…/audio/u5-05-cena-
-carruagem-5.mp3
-
-5
-p. 110
-
-Ouvir: diário na
-Linha do Douro
-…/audio/u5-01-relat
-o-linha-do-douro.m…
+«onomatopeia» no
+Dicionário Priberam
+dicionario.priberam.o
+rg/onomatopeia
 
 5
 p. 110
 
 Os azulejos da
-estação do
-Pinhão
+estação do Pinhão
 www.ippatrimonio.p
-t/…/estacao-do-pin…
+t/…/estacao-do-pinhao
 
 5
-p. 110
+pp. 110 e 132
 
-Ouvir: o ditado
-…/audio/u5-02-ditad
-o.mp3
-
-5
-p. 112
-
-Soluções
-(professor)
-…/solucoes-u5.html
-
-6
-p. 117
-
-Ouvir: Teste 1 —
-a rádio da escola
-
-…/audio/u6-01-radio
--escola.mp3
-
-6
-p. 120
-
-Ouvir: Teste 2 —
-a bicicleta
-amarela
-
-…/audio/u6-02-bicic
-leta-amarela.mp3
-
-6
-p. 123
-
-Ouvir: Teste 3 —
-«Chuva
-miudinha»
-
-…/audio/u6-03-chuva
--miudinha.mp3
-
-6
-p. 126
-
-Ouvir: Teste 4 —
-a coroa do rei
-…/audio/u6-04-coroa
--do-rei.mp3
-
-6
-p. 128
-
-Soluções
-(professor)
-…/solucoes-u6.html
-
-7
-p. 132
-
-Dicionário
-Priberam
-dicionario.pribera
-m.org/
-
-7
-p. 135
-
-Ouvir: o começo
-de uma história
-…/audio/u7-03-comec
-o-de-historia.mp3
+Dicionário Priberam
+dicionario.priberam.o
+rg/
 
 7
 p. 138
 
-Ouvir: trava-
-línguas
-…/audio/u7-01-trava
--linguas.mp3
+RTP Ensina: «O rato
+roeu a rolha»
+ensina.rtp.pt/artigo/
+o-rato-roeu-a-rolha/
 
 7
 p. 144
 
-Ouvir: seis
-adivinhas
-…/audio/u7-02-adivi
-nhas.mp3
+RTP Ensina:
+adivinhas — que
+animal sou eu?
+
+ensina.rtp.pt/…/adivi
+nhas-que-animal-sou-e
+u
 
 7
 p. 144
 
-Soluções
-(professor)
-…/solucoes-u7.html
+«Caligrama» na
+Wikipédia
+pt.wikipedia.org/wik
+i/Caligrama
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · RECURSOS DIGITAIS
 
-147
+163
 
-<!-- page 156 -->
+<!-- page 172 -->
 
 ---
 F I M D O L I V R O · R E F E R Ê N C I A S E C R É D I T O S
@@ -16101,7 +18699,7 @@ Teatro Nacional D. Maria II, «História». tndm.pt · p. 88
 
 «Duas Cenas: O Aviso» e «A Chave Desaparecida»: textos
 
-dramáticos originais, escritos para o Grupo de Teatro do Year 5.
+dramáticos originais, escritos para o Grupo de Teatro do 5.º ano.
 
 5
 O Comboio das Quatro Estações
@@ -16127,8 +18725,8 @@ Avaliação: mostra o que já sabes
 
 Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º
 
-Inventário Florestal Nacional; European Tree of the Year 2018 · p.
-115
+Inventário Florestal Nacional; concurso Árvore Europeia do Ano
+2018 · p. 115
 
 Os textos dos quatro testes foram escritos para esta edição.
 
@@ -16159,20 +18757,26 @@ Código do Direito de Autor e dos Direitos Conexos, art. 75.º, n.º 2, al.
 
 h) — citação para fins de ensino.
 
+Códigos QR (lista completa na p. 163): Ciência Viva, Museu Virtual
+
+da Biodiversidade, Dicionário Priberam, RTP Ensina, RTP Arquivos,
+Município de Barcelos, DGE, Wilder, RTP Play, Teatro Nacional D.
+Maria II, IP Património, Wikipédia.
+
 Tipos: Fraunces, Figtree, DM Mono e Caveat (SIL Open Font
 
 License).
 
-Áudio: vozes sintéticas pt-PT (Microsoft Edge neural TTS).
+Ilustrações: criadas para esta edição; capa e contracapa da coleção
 
-Ilustrações: criadas para esta edição. Logótipo: Prime School.
+Prime Books. Logótipo: Prime School.
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · REFERÊNCIAS E CRÉDITOS
 
-148
+164
 
-<!-- page 157 -->
+<!-- page 173 -->
 
 ---
 F I M D O L I V R O · P L A N I F I C A Ç Ã O A N U A L
@@ -16250,9 +18854,9 @@ abril – junho
 4
 Unidade 4 · Texto Dramático
 
-Bem-vindo; Antes do pano · Ler antes de ler; 1.º ato · Duas Cenas: O
+Bem-vindo; Antes do pano · Ler antes de ler; 1.ª parte · Duas Cenas: O
 Aviso; Nos bastidores · O palco por dentro; gramática: Tipos de frase e
-interjeições; 2.º ato · A Chave Desaparecida; …
+interjeições; …
 
 pp. 82–96
 
@@ -16288,14 +18892,14 @@ Fim do livro
 
 O meu 5.º ano — antes de fechar o livro · Diário de leitura completo
 
-p. 150
+p. 166
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · PLANIFICAÇÃO ANUAL
 
-149
+165
 
-<!-- page 158 -->
+<!-- page 174 -->
 
 ---
 F I M D O L I V R O · O M E U 5 . º A N O
@@ -16327,7 +18931,7 @@ O livro que vou ler nas férias é…
 Uma pergunta que ainda tenho sobre a língua
 portuguesa é…
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · O MEU 5.º ANO
 
 ASSINATURA DO LEITOR
@@ -16335,9 +18939,9 @@ ASSINATURA DO LEITOR
 Foi um ano cheio de palavras. Obrigada pela
 companhia — e boas leituras de verão!
 
-150
+166
 
-<!-- page 159 -->
+<!-- page 175 -->
 
 ---
 F I M D O L I V R O · C O L O F Ã O
@@ -16359,28 +18963,31 @@ licença SIL Open Font License, integradas no PDF.
 
 ILUSTRAÇÃO
 
-Imagens criadas para esta edição com ferramentas
-digitais de geração de imagem, à maneira do guache e
-do lápis de cor dos livros ilustrados europeus de
-meados do século XX, com grão de papel visível e cor
-mate.
+Capa e contracapa da coleção Prime Books do 5.º ano.
+Imagens interiores criadas para esta edição com
+ferramentas digitais de geração de imagem, à maneira
+do guache e do lápis de cor, com grão de papel visível
+e cor mate.
 
-ÁUDIO
+PARA O PROFESSOR
 
-31 faixas em português europeu, gravadas com vozes
-sintéticas (Microsoft Edge neural TTS, vozes pt-PT).
-Só se gravaram textos originais ou tradicionais.
+As soluções de todas as unidades estão no fim do
+livro (pp. 145–157). Nas atividades de compreensão
+do oral, o professor lê em voz alta os textos das pp.
+158–160. Não há gravações: os textos para ouvir são
+lidos pela voz do professor.
 
 IMPRESSÃO
 
-Formato A4 (210 × 297 mm), a cores, 160 páginas: 8
-de abertura (i–viii), 144 de unidades e 8 de fim do
+Formato A4 (210 × 297 mm), a cores, 176 páginas: 8
+de abertura (i–viii), 144 de unidades e 24 de fim do
 livro. Cada unidade tem a sua cor.
 
 RECURSOS DIGITAIS
 
-46 códigos QR, todos testados antes da impressão
-(setembro de 2026) e reunidos na p. 147.
+25 códigos QR, só para páginas públicas, todos
+testados antes da impressão (setembro de 2026) e
+reunidos na p. 163.
 
 «Minha pátria é a língua portuguesa.»
 
@@ -16390,7 +18997,7 @@ ESTE LIVRO PERTENCE A
 TURMA
 ANO LETIVO
 
-PORTUGUÊS · YEAR 5
+PORTUGUÊS · 5.º ANO
 FIM DO LIVRO · COLOFÃO
 
 1 Informar e
@@ -16402,40 +19009,43 @@ descrever
 6 Avaliação
 7 Extra
 
-PRIME SCHOOL PRESS · PORTUGUÊS · YEAR 5 · 1.ª EDIÇÃO, 2026
-151
+PRIME SCHOOL PRESS · PORTUGUÊS · 5.º ANO · 1.ª EDIÇÃO, 2026
+167
 
-<!-- page 160 -->
+<!-- page 176 -->
 
 ---
-P R I M E   S C H O O L   P R E S S
-Português
+**P R I M E  B O O K S**
 
-Year 5 · Prime School Press · Manual do aluno
+## Português
 
-Um ano inteiro a ler, a escrever e a falar — com uma osga por
-companhia.
+5.º Ano · Manual do aluno
 
-Português Língua Materna para o 5.º ano: textos que informam e descrevem, lendas e contos,
+Ler, escrever e falar. Cada vez melhor.
 
-a literatura dos países de língua portuguesa, poesia e teatro. Cada página foi desenhada para
+O português do 5.º ano: leitura de textos longos, escrita com intenção e fala em
 
-se ler com gosto e para se escrever nela a lápis.
+público. Gramática e ortografia sempre em contexto, nunca decoradas.
 
-N E S T E   L I V R O
+**NESTE LIVRO**
 
-Sete unidades, do artigo de enciclopédia ao teatro
+•
+Leitura, escrita e fala em todas as unidades
 
-A Lenda do Galo de Barcelos, «O Rapaz de Bronze» e «Ynari»
+•
+Textos longos e oficinas de escrita
 
-Poemas para dizer a duas vozes e peças para pôr em cena
+•
+Gramática e ortografia em contexto
 
-Atividades em três níveis: bronze, prata e ouro
+•
+Apresentações orais guiadas
 
-31 áudios em português europeu, com códigos QR
+•
+Ilustração original em aguarela
 
-Quatro testes, balanço do ano, glossário e planificação
+**Prime Books · Português**
 
-Prime School Press · Português
-9–10 anos · Year 5
-primeschool.pt
+9–10 anos · 2.º Ciclo do Ensino Básico
+
+**primeschool.pt**

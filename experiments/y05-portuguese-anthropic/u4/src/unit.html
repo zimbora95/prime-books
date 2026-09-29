@@ -2,7 +2,7 @@
 <html lang="pt-PT">
 <head>
 <meta charset="utf-8">
-<title>Texto Dramático — Português · Year 5 · Unidade 4</title>
+<title>Texto Dramático — Português · 5.º Ano · Unidade 4</title>
 <style>
 *{font-synthesis:none}
 body{text-wrap:pretty}
@@ -46,6 +46,10 @@ body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-hei
 .tab span{transform:rotate(90deg);white-space:nowrap}
 .page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
 .page.even .tab span{transform:rotate(-90deg)}
+/* print-safe tabs: the label sits 5+ mm inside the trim once the page is fitted to US Letter */
+.tab{width:10.5mm!important;box-sizing:border-box;padding-right:4.3mm}
+.page.even .tab{padding-right:0;padding-left:4.3mm}
+
 /* ---------- type ---------- */
 .disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
 h1.disp{font-size:34pt;color:var(--ink)}
@@ -93,6 +97,8 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
 .qr{display:flex;gap:2.6mm;align-items:center}
 .qr svg{width:21mm;height:21mm;flex:none;background:#fff;border-radius:1.4mm}
 .qr .ql{font-size:8.2pt;line-height:1.3}
+.solnote{border:.8pt solid var(--ink);border-radius:1.4mm;background:#fff;padding:2.6mm 3.4mm;font-size:9pt;line-height:1.3}
+.solnote b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:.6mm}
 .qr .ql b{display:block;font-family:"DM Mono";font-weight:500;font-size:6.6pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
 .lab{font-family:"DM Mono";font-weight:500;font-size:6.8pt;letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
 .mult{mix-blend-mode:multiply}
@@ -604,7 +610,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="art"></div>
   <div class="veil"></div>
   <div class="ttl">
-    <div class="u"><span class="big">4</span><span>Unidade · Português · Year 5</span></div>
+    <div class="u"><span class="big">4</span><span>Unidade · Português · 5.º Ano</span></div>
     <h1 class="disp">Texto <i>Dramático</i></h1>
     <div class="sub"><span>Textos para representar</span> peça · cena · fala · didascália</div>
   </div>
@@ -656,7 +662,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   <div class="keys">
     <b style="font-family:'DM Mono';font-weight:500;font-size:7pt;letter-spacing:.12em">AS CHAVES DO GABINETE</b>
     <span>{{KEY:bronze}} aquecer</span><span>{{KEY:prata}} aplicar</span><span>{{KEY:ouro}} desafiar-me</span>
-    <span style="margin-left:auto">{{QRICON}} ouvir ou explorar online</span>
+    <span style="margin-left:auto">{{QRICON}} explorar online</span>
   </div>
   <footer class="folio">82</footer>
 </section>
@@ -726,7 +732,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <div>
       <div class="kick">4.1 · Texto dramático</div>
       <h1 class="disp">Duas Cenas: O Aviso</h1>
-      <div class="byline4">Peça em duas cenas, escrita para o Grupo de Teatro do Year 5</div>
+      <div class="byline4">Peça em duas cenas, escrita para o Grupo de Teatro do 5.º ano</div>
     </div>
     <div class="dram"><h5>Personagens</h5>
       <p><b>D. Guilhermina</b>, guardiã do Gabinete</p>
@@ -783,7 +789,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <p class="dd">(O <span class="caps">SR. ANSELMO</span> pendura na parede um aviso novo: «LER ATÉ AO FIM!». A <span class="caps">MOURINHA</span> sobe pela parede e deita-se, satisfeita, mesmo em cima da palavra «FIM». Todos se riem. Pano.)</p>
   </div>
   <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:3mm;align-items:center">
-    <div class="qr">{{QR:aviso}}<div class="ql"><b>Ouvir</b>Ouve a peça, com uma voz para cada personagem. Qual é a fala mais divertida?</div></div>
+    <div class="qr">{{QR:contracena}}<div class="ql"><b>Ver · RTP Ensina</b>Vê o vídeo «A contracena no teatro». Quando dois atores contracenam, o que conta além das palavras?</div></div>
     <div class="tip"><img src="../../art/mou-4.png" alt="" style="width:15mm"><div class="bub">Confesso: a osga do aviso era eu. O papel estava <b>quentinho</b>, debaixo do candeeiro…</div></div>
   </div>
   <footer class="folio">85</footer>
@@ -973,8 +979,9 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     </div>
     <div class="act">
       <div class="act-h"><span class="num">11</span>{{KEY:prata}}<h3>Ouve e decide</h3><span class="skill">Ouvir</span></div>
-      <div class="qr">{{QR:frases}}<div class="ql">Ouve oito frases. Repara na voz: sobe, desce, explode? Escreve D, I, E ou Im.</div></div>
+      <p style="font-size:9pt">O professor vai dizer <b>oito frases</b> em voz alta. Repara na voz: sobe, desce, explode? Depois de cada frase, escreve <b>D</b>, <b>I</b>, <b>E</b> ou <b>Im</b>.</p>
       <div class="listen"><div>1<span></span></div><div>2<span></span></div><div>3<span></span></div><div>4<span></span></div><div>5<span></span></div><div>6<span></span></div><div>7<span></span></div><div>8<span></span></div></div>
+      <p class="small" style="margin-top:2.4mm">{{KEY:ouro}} <b>Agora és tu.</b> Diz «Há estreia» de três maneiras: como quem informa, como quem pergunta e como quem está muito espantado. O teu par adivinha: D, I ou E?</p>
     </div>
   </div>
   <div class="grid2" style="grid-template-columns:1.1fr 1fr">
@@ -1015,7 +1022,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <p class="dd first">(Nove e quarenta e cinco. Ao centro, a Vitrine das Coisas Raras, fechada com um cadeado; lá dentro, um relógio de bolso antigo. À esquerda, um bengaleiro; à direita, uma mesinha com uma chávena de café. Faz frio. A <span class="caps">D. GUILHERMINA</span> procura qualquer coisa em todos os bolsos.)</p>
     <div class="r"><span class="w">D. Guilhermina</span><span>Aqui não está… Aqui também não… Ai, meu Deus! <i class="d">(Baixa-se para espreitar debaixo da mesa. Ouve-se um tlim-tlim metálico.)</i></span></div>
     <div class="r"><span class="w">Sr. Anselmo</span><span><i class="d">(entrando, com um espanador)</i> Bom dia, D. Guilhermina! Perdeu alguma coisa?</span></div>
-    <div class="r"><span class="w">D. Guilhermina</span><span>A chave da Vitrine das Coisas Raras! A turma do Year 5 chega às dez, e eu prometi mostrar-lhes o relógio de bolso.</span></div>
+    <div class="r"><span class="w">D. Guilhermina</span><span>A chave da Vitrine das Coisas Raras! A turma do 5.º ano chega às dez, e eu prometi mostrar-lhes o relógio de bolso.</span></div>
     <div class="r"><span class="w">Sr. Anselmo</span><span>A senhora não costumava pendurar a chave no fio dos óculos?</span></div>
     <div class="r"><span class="w">D. Guilhermina</span><span>Isso era dantes! Agora guardo-a sempre no bolso. <i class="d">(Treme de frio e abotoa o casaco até ao pescoço.)</i> Brrr! Que frio está hoje!</span></div>
     <p class="dd">(Entram a <span class="caps">BEATRIZ</span> e o <span class="caps">LUCAS</span>. Ele traz uma lupa enorme; ela, um caderno.)</p>
@@ -1058,10 +1065,10 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <div class="r"><span class="w">Lucas</span><span>A osga? Está só a olhar para a D. Guilhermina.</span></div>
     <div class="r"><span class="w">Beatriz</span><span>Pois está. Há dez minutos que não olha para mais nada. <i class="d">(Fecha o caderno e levanta-se.)</i> Já sei onde está a chave!</span></div>
     <div class="r"><span class="w">Todos</span><span><i class="d">(voltando-se para ela)</i> Onde?!</span></div>
-    <p class="dd">(Toca a campainha da porta: chegou a turma do Year 5. Escuro.)</p>
+    <p class="dd">(Toca a campainha da porta: chegou a turma do 5.º ano. Escuro.)</p>
   </div>
   <div class="grid2" style="grid-template-columns:1fr 1fr;margin-top:4mm;align-items:center">
-    <div class="qr">{{QR:chave}}<div class="ql"><b>Ouvir</b>Ouve a peça. Fecha os olhos quando ouvires o «tlim-tlim»: de onde virá?</div></div>
+    <div class="qr">{{QR:marcacao}}<div class="ql"><b>Ver · RTP Ensina</b>Vê o vídeo «Sabe o que é uma marcação em teatro?». Antes de lerem a papéis (p. 92): quem decide as entradas e saídas dos atores?</div></div>
     <div class="tip"><img src="../../art/mou-2.png" alt="" style="width:15mm"><div class="bub">Eu vi tudo… mas as osgas não falam! A <b>Cena 4</b> ainda não foi escrita: vais escrevê-la tu, na p. 93.</div></div>
   </div>
   <footer class="folio">91</footer>
@@ -1078,7 +1085,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
     <div class="lvl">
       <div class="col" style="--k:var(--bronze)"><div class="lab">{{KEY:bronze}} Encontrar</div><ol>
         <li>O que está dentro da Vitrine das Coisas Raras?<span class="ln s"></span></li>
-        <li>A que horas chega a turma do Year 5?<span class="ln s"></span></li>
+        <li>A que horas chega a turma do 5.º ano?<span class="ln s"></span></li>
         <li>O que caiu dos bolsos do Sr. Anselmo?<span class="ln s"></span></li></ol></div>
       <div class="col" style="--k:var(--prata)"><div class="lab">{{KEY:prata}} Relacionar</div><ol start="4">
         <li>Porque desconfia o Lucas da D. Rosa? E do Sr. Anselmo?<span class="ln s"></span><span class="ln s"></span></li>
@@ -1302,7 +1309,7 @@ ol.qs>li:before{content:counter(q, lower-alpha) ")";position:absolute;left:-5mm;
   </div>
   <div style="position:absolute;left:24mm;right:16mm;bottom:17mm;display:grid;grid-template-columns:1fr 60mm;gap:6mm;align-items:center" class="pin-bottom">
     <div class="tip"><img src="../../art/mou-2.png" alt=""><div class="bub">Bravo! Agora já sabes: num aviso, lê-se <b>tudo até ao fim</b>. E, numa peça, <b>até ao «Pano»</b>!</div></div>
-    <div class="qr">{{QR:solucoes}}<div class="ql"><b>Para o professor</b>Soluções e guiões dos áudios desta unidade.</div></div>
+    <div class="solnote"><b>Para o professor</b>Soluções: no fim do livro.</div>
   </div>
   <footer class="folio">96</footer>
 </section>

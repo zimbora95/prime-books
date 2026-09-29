@@ -65,7 +65,7 @@ def p_cover(M):
   <div class="brandrow"><img src="../art/logo_prime_school.png" alt=""><span>P R I M E &nbsp; S C H O O L &nbsp; P R E S S</span></div>
   <div class="ttl">
     <h1 class="disp">Português</h1>
-    <div class="yr"><span class="pill">Year 5</span><span class="man">Manual do aluno</span></div>
+    <div class="yr"><span class="pill">5.º Ano</span><span class="man">Manual do aluno</span></div>
     <div class="sub">Português Língua Materna · 5.º ano</div>
   </div>
 </section>"""
@@ -78,10 +78,10 @@ def p_imprint(M):
         ("Direitos", "© Prime School 2026. Todos os direitos reservados. Nenhuma parte desta publicação pode ser reproduzida, armazenada ou transmitida, por qualquer forma ou meio, sem autorização prévia e escrita do editor."),
         ("Textos", "Os textos originais desta edição são © Prime School. As obras protegidas — de Sophia de Mello Breyner Andresen, Ondjaki e José Jorge Letria — aparecem só em excertos breves, ao abrigo do direito de citação para fins de ensino (Código do Direito de Autor, art. 75.º, n.º 2, al. h), sempre com o nome do autor e da obra; as obras completas leem-se na aula. Os textos tradicionais são recontados por nós."),
         ("Imagens", "Ilustrações criadas para esta edição, geradas digitalmente e revistas pela equipa editorial; não retratam pessoas reais."),
-        ("Áudio", "Faixas gravadas com vozes sintéticas em português europeu. Só se gravaram textos originais ou do domínio público."),
+        ("Em linha", "Os códigos QR levam só a páginas públicas de instituições e obras de referência (dicionários, museus, municípios, arquivos); foram todos testados em setembro de 2026."),
         ("Créditos", "Conselho Editorial. Grupo Académico Pedagógico · Equipa Pedagógica · Departamento Pedagógico · Equipa de Criação de Conteúdos. Escrito, ilustrado e paginado no estúdio da Prime School Press."),
         ("Ortografia", "Português europeu, segundo o Acordo Ortográfico de 1990."),
-        ("Professores", f"Soluções e guiões dos áudios em linha, para o professor: os códigos QR estão reunidos na p. {M['bp']['Recursos digitais']}; planificação anual na p. {M['bp']['Planificação anual']}."),
+        ("Professores", f"No fim do livro: soluções de todas as unidades ({pp(*M['span']['Soluções'])}){tpl_ref(M)}, planificação anual (p. {M['bp']['Planificação anual']}) e todos os códigos QR (p. {M['bp']['Recursos digitais']})."),
         ("ISBN", "A atribuir na primeira impressão."),
     ]
     rh = "".join(f'<div class="r"><b>{k}</b><span>{v}</span></div>' for k, v in rows)
@@ -89,15 +89,15 @@ def p_imprint(M):
         "Sete unidades: informar e descrever, narrar, poesia, teatro, revisões, avaliação e atividades extra",
         "Lenda, relato, biografia, «O Rapaz de Bronze», «Ynari», poemas e peças de teatro",
         "Atividades numeradas em três níveis: bronze, prata e ouro",
-        f"{M['n_audio']} áudios e {M['n_qr']} códigos QR, todos reunidos na p. {M['bp']['Recursos digitais']}",
+        f"{M['n_qr']} códigos QR para páginas públicas, todos reunidos na p. {M['bp']['Recursos digitais']}",
         "Quatro testes, grelhas de autoavaliação e um balanço do ano",
-        f"Glossário, referências e planificação nas pp. {M['bp']['Glossário']}–{M['bp']['Colofão']}",
+        f"Soluções, glossário, referências e planificação nas pp. {M['back_first']}–{M['bp']['Colofão']}",
     ]
     ih = "".join(f"<li>{E(x)}</li>" for x in inside)
     return f"""
 <section class="page even imprint">
   <div class="capline"><span>P R I M E &nbsp; S C H O O L &nbsp; P R E S S</span><img src="../art/logo_prime_school.png" alt=""></div>
-  <h1 class="disp">Português · Year 5</h1>
+  <h1 class="disp">Português · 5.º Ano</h1>
   <div class="st">Manual do aluno · Português Língua Materna · 5.º ano</div>
   <div class="bar"></div>
   <p class="hook">Ler para saber, ler para sonhar — e escrever e falar com as próprias palavras.</p>
@@ -106,7 +106,7 @@ def p_imprint(M):
   <div class="card"><div class="ctab">F I C H A &nbsp; T É C N I C A</div>{rh}</div>
   <div class="ifoot">
     <p><b>Publicação independente.</b> Esta é uma publicação independente, produzida pela Prime School para uso nos seus próprios programas de estudo. Não é afiliada, licenciada, patrocinada nem aprovada pelo Ministério da Educação, por qualquer júri de exames ou por outra editora. Segue as Aprendizagens Essenciais de Português do 5.º ano.</p>
-    <div class="rt"><span>9–10 anos · Year 5</span><b>www.primeschool.pt</b></div>
+    <div class="rt"><span>9–10 anos · 5.º Ano</span><b>www.primeschool.pt</b></div>
   </div>
 </section>"""
 
@@ -116,7 +116,7 @@ def p_howto(M):
     demo_qr = M["demo_qr"]
     return f"""
 <section class="page odd howto">
-  {run("Português · Year 5", "Antes de começar", "Como usar este livro")}
+  {run("Português · 5.º Ano", "Antes de começar", "Como usar este livro")}
   <div class="kick">Antes de começar</div>
   <h1 class="disp">Como usar este livro</h1>
   <p class="lead" style="margin-top:3mm">Sete unidades, cada uma com a sua cor: quatro tipos de texto, as revisões, os testes e um baú de jogos. Conhece as peças que se repetem em todas as páginas.</p>
@@ -145,9 +145,9 @@ def p_howto(M):
       </div>
     </div>
     <div class="hc">
-      <div class="lab">5 · Ouvir e explorar</div>
-      <div class="qr">{qr_svg(demo_qr)}<div class="ql"><b>Experimenta já</b>Aponta a câmara: ouves o primeiro áudio do livro.</div></div>
-      <p style="margin-top:2mm">Os <b>códigos QR</b> levam a áudios lidos em voz alta e a páginas seguras. Estão todos na p. {M['bp']['Recursos digitais']}.</p>
+      <div class="lab">5 · Explorar em linha</div>
+      <div class="qr">{qr_svg(demo_qr)}<div class="ql"><b>Experimenta já</b>Aponta a câmara: {E(M['demo_what'])}.</div></div>
+      <p style="margin-top:2mm">Os <b>códigos QR</b> levam a páginas públicas e seguras — dicionários, museus, arquivos. Estão todos na p. {M['bp']['Recursos digitais']}.</p>
     </div>
     <div class="hc">
       <div class="lab">6 · A Mourinha</div>
@@ -194,15 +194,15 @@ def p_map(M):
     cards.append(f"""
     <div class="mc fim">
       <img src="../art/v-livros.png" alt="">
-      <div class="mtop"><div class="mh"><span class="big">{SPARK}</span><span class="lab">Fim do livro · {pp(bp['Glossário'], bp['Colofão'])}</span></div>
+      <div class="mtop"><div class="mh"><span class="big">{SPARK}</span><span class="lab">Fim do livro · {pp(M['back_first'], bp['Colofão'])}</span></div>
       <h3>A caixa de ferramentas</h3>
       <div class="gen">Para consultar durante todo o ano</div></div>
-      <p class="bq">Onde encontro uma palavra, um áudio ou uma fonte?</p>
-      <div class="kinds"><span>glossário</span><span>recursos digitais</span><span>referências</span><span>planificação</span></div>
+      <p class="bq">Onde confirmo uma resposta, uma palavra ou uma fonte?</p>
+      <div class="kinds"><span>soluções</span><span>glossário</span><span>recursos digitais</span><span>planificação</span></div>
     </div>""")
     return f"""
 <section class="page even map">
-  {run("Português · Year 5", "Antes de começar", "Mapa do ano")}
+  {run("Português · 5.º Ano", "Antes de começar", "Mapa do ano")}
   <div class="kick">Mapa do ano · Prime School Press</div>
   <h1 class="disp">Um ano, sete viagens</h1>
   <p class="lead" style="margin-top:2.6mm">Cada unidade faz uma <b>grande pergunta</b>. No fim de cada viagem vais ser capaz de lhe responder — com textos que leste, escreveste e disseste em voz alta.</p>
@@ -214,7 +214,7 @@ def p_map(M):
 def _index_card(u):
     ents = []
     for e in u["entries"]:
-        subs = f'<i> — {E(e["subs"][0])}</i>' if e["subs"] else ""
+        subs = f'<i> — {E(e["first_sub"])}</i>' if e.get("first_sub") else ""
         lab = E(e["label"])
         lab = re.sub(r"^Laborat[óo]rio da L[íi]ngua · ", '<em class="lab-pill">Lab</em>', lab)
         lab = re.sub(r"^Oficina de escrita · ", '<em class="lab-pill of">Oficina</em>', lab)
@@ -243,7 +243,7 @@ def p_index(M):
     ante = "".join(f'<li><span class="t"><b>{E(t)}</b></span><span class="pg">{p}</span></li>' for t, p in M["front_index"])
     return f"""
 <section class="page odd index">
-  {run("Português · Year 5", "Índice", "")}
+  {run("Português · 5.º Ano", "Índice", "")}
   <div class="kick">Índice</div>
   <h1 class="disp">O ano em sete unidades</h1>
   {_colour_bar(M)}
@@ -251,13 +251,13 @@ def p_index(M):
   {folio("v", True)}
 </section>
 <section class="page even index">
-  {run("Português · Year 5", "Índice", "continuação")}
+  {run("Português · 5.º Ano", "Índice", "continuação")}
   <div class="kick">Índice · continuação</div>
   {b}
   <div class="ic fimc">
     <div class="ib"><span>{SPARK}</span></div>
     <div class="ibody">
-      <div class="ih"><div><div class="lab">Antes de começar e fim do livro</div><h3>Ferramentas para o ano inteiro</h3></div><div class="ipg">{bp['Glossário']}</div></div>
+      <div class="ih"><div><div class="lab">Antes de começar e fim do livro</div><h3>Ferramentas para o ano inteiro</h3></div><div class="ipg">{M['back_first']}</div></div>
       <div class="fimgrid"><ul>{ante}</ul><ul>{fim}</ul></div>
     </div>
   </div>
@@ -274,7 +274,7 @@ def p_reading(M):
         rows.append(f'<tr class="own"><td class="u"><span class="o">+</span></td><td class="w"><i>Por minha conta:</i></td><td class="d"></td><td class="s">{STARS}</td><td class="f"></td></tr>')
     return f"""
 <section class="page odd reading">
-  {run("Português · Year 5", "Antes de começar", "O meu ano de leitura")}
+  {run("Português · 5.º Ano", "Antes de começar", "O meu ano de leitura")}
   <div class="kick">Antes de começar · O meu ano de leitura</div>
   <div class="rtop">
     <div>
@@ -299,7 +299,7 @@ def p_profile(M):
         <p class="ex">por exemplo: <span class="hand">{ex}</span></p><span class="ln s"></span><span class="ln s"></span><span class="ln s"></span></div>"""
     return f"""
 <section class="page even profile">
-  {run("Português · Year 5", "Antes de começar", "Quem sou eu como leitor")}
+  {run("Português · 5.º Ano", "Antes de começar", "Quem sou eu como leitor")}
   <div class="kick">Antes de começar · Quem sou eu como leitor</div>
   <h1 class="disp">Eu, leitor — e os meus objetivos</h1>
   <div class="pgrid">
@@ -342,7 +342,7 @@ def p_glossary(M):
         par = "odd" if pno % 2 else "even"
         out.append(f"""
 <section class="page {par} gloss-p">
-  {run("Português · Year 5", "Fim do livro", "Glossário" + (" (continuação)" if k else ""))}
+  {run("Português · 5.º Ano", "Fim do livro", "Glossário" + (" (continuação)" if k else ""))}
   {head}
   <div class="gcols">{''.join(body)}</div>
   {'<div class="gfoot"><div class="mygl"><div class="lab">O meu glossário · palavras novas que encontrei este ano</div>' + ''.join('<div class="myr"><span></span><span></span></div>' for _ in range(4)) + '</div><div class="tip"><img src="' + MOU.format(2) + '" alt=""><div class="bub">Não encontras uma palavra? Procura-a no <b>dicionário</b> — aprendeste a usá-lo na p. 8.</div></div></div>' if k == len(cols) - 1 else ''}
@@ -365,7 +365,6 @@ SHORT_TITLES = {  # the resource cards hold two lines of title: shorter forms, e
 
 def p_resources(M):
     pno = M["bp"]["Recursos digitais"]
-    base = "prime-books-pi.vercel.app/library/y05-portuguese-anthropic/"
     groups = {}
     for q in M["qrs"]:  # one card per address; a code printed on two pages shows both pages
         groups.setdefault(q["url"], []).append(q)
@@ -373,23 +372,22 @@ def p_resources(M):
     for url, qs in groups.items():
         q = qs[0]
         u = ucolor(q["unit"])
-        short = q["short"].replace(base, "…/") if q["short"].startswith(base) else q["short"]
+        short = q["short"]
         segs = short.rstrip("/").split("/")
         if len(short) > 44 and len(segs) > 2:  # long external address: domain/…/last-segment (the QR holds the full URL)
             short = f"{segs[0]}/…/{segs[-1]}"
         title = SHORT_TITLES.get(q["title"], q["title"])
-        if title.startswith("Soluções da Unidade"):
-            title = "Soluções (professor)"
         pages = "p. " + str(q["page"]) if len(qs) == 1 else "pp. " + " e ".join(str(x["page"]) for x in qs)
-        cells.append(f"""<div class="rq" style="--c:{u['c']};--t:{u['t']}">{qr_svg(url, "l", 1 if len(url) > 110 else 2)}<div class="rl"><span class="rp"><i>{q['unit']}</i>{pages}</span><b>{E(title)}</b><small>{E(short)}</small></div></div>""")
+        qz = 4 if len(groups) <= 24 else (1 if len(url) > 110 else 2)  # few codes: the full 4-module quiet zone
+        cells.append(f"""<div class="rq" style="--c:{u['c']};--t:{u['t']}">{qr_svg(url, "m" if qz == 4 else "l", qz)}<div class="rl"><span class="rp"><i>{q['unit']}</i>{pages}</span><b>{E(title)}</b><small>{E(short)}</small></div></div>""")
     legend = "".join(f'<span><i style="background:{u["c"]}">{u["n"]}</i>{E(u["short"])}</span>' for u in M["units"])
     return f"""
 <section class="page {'odd' if pno % 2 else 'even'} res">
-  {run("Português · Year 5", "Fim do livro", "Recursos digitais")}
+  {run("Português · 5.º Ano", "Fim do livro", "Recursos digitais")}
   <div class="rhead"><div><div class="kick">Fim do livro · Recursos digitais</div>
   <h1 class="disp">Recursos digitais</h1></div>
-  <p class="lead res-lead">Os {M['n_qr']} códigos QR do livro, pela ordem das páginas (um endereço repetido aparece uma vez). Áudios e soluções: <b class="mono">{base}</b>, abreviado <b class="mono">…/</b>; nos endereços longos, «…» substitui o meio — o código tem o endereço completo.</p></div>
-  <div class="rg">{''.join(cells)}</div>
+  <p class="lead res-lead">Os {M['n_qr']} códigos QR do livro, pela ordem das páginas{" (um endereço repetido aparece uma vez)" if len(groups) < M['n_qr'] else ""}. Todos levam a <b>páginas públicas</b> de instituições e obras de referência, testadas em setembro de 2026; nos endereços longos, «…» substitui o meio — o código tem o endereço completo.</p></div>
+  <div class="rg{" big" if len(groups) <= 24 else ""}">{''.join(cells)}</div>
   {folio(pno)}
 </section>"""
 
@@ -406,7 +404,7 @@ def p_refs(M):
     gen = "".join(f"<li>{r}</li>" for r in M["refs_general"])
     return f"""
 <section class="page {'odd' if pno % 2 else 'even'} refs">
-  {run("Português · Year 5", "Fim do livro", "Referências e créditos")}
+  {run("Português · 5.º Ano", "Fim do livro", "Referências e créditos")}
   <div class="kick">Fim do livro · Referências e créditos</div>
   <h1 class="disp">Referências e créditos</h1>
   <p class="lead" style="margin-top:2mm;font-size:10.4pt">Obras, edições e fontes usadas em cada unidade. As obras protegidas por direitos de autor aparecem apenas em <b>excertos breves</b>, com fins de ensino e com indicação do autor e da obra; lê-as inteiras na aula ou na biblioteca.</p>
@@ -429,7 +427,7 @@ def p_plan(M):
             first = False
     return f"""
 <section class="page {'odd' if pno % 2 else 'even'} plan">
-  {run("Português · Year 5", "Fim do livro", "Planificação anual")}
+  {run("Português · 5.º Ano", "Fim do livro", "Planificação anual")}
   <div class="kick">Fim do livro · Planificação anual</div>
   <h1 class="disp">Planificação anual</h1>
   <p class="lead" style="margin-top:2mm;font-size:10.4pt">Uma proposta para <b>{M['weeks']} semanas</b> de aulas, ao ritmo das aulas de Português de cada semana. O professor ajusta o ritmo à turma; as <b>Atividades Extra</b> (Unidade 7) usam-se ao longo de todo o ano.</p>
@@ -446,7 +444,7 @@ def p_close(M):
     ph = "".join(f'<div class="cp"><b><i>{k+1}</i>{E(t)}</b><span class="ln"></span><span class="ln"></span><span class="ln"></span></div>' for k, t in enumerate(prompts))
     return f"""
 <section class="page {'odd' if pno % 2 else 'even'} close">
-  {run("Português · Year 5", "Fim do livro", "O meu 5.º ano")}
+  {run("Português · 5.º Ano", "Fim do livro", "O meu 5.º ano")}
   <div class="kick">Fim do livro · O meu 5.º ano</div>
   <h1 class="disp">Antes de fechar o livro</h1>
   <p class="lead" style="margin-top:2.4mm">Oito frases para completar no último dia de aulas. Guarda esta página: no 6.º ano, vais gostar de a reler.</p>
@@ -464,16 +462,16 @@ def p_colophon(M):
     cards = [
         ("Texto e língua", "Português europeu, segundo o Acordo Ortográfico de 1990. Os textos originais foram escritos para esta edição; os excertos de obras protegidas são breves e citados com autor e obra."),
         ("Tipografia", "Fraunces (títulos e textos para ler), Figtree (instruções e atividades), DM Mono (etiquetas e legendas) e Caveat (notas manuscritas) — todas com licença SIL Open Font License, integradas no PDF."),
-        ("Ilustração", "Imagens criadas para esta edição com ferramentas digitais de geração de imagem, à maneira do guache e do lápis de cor dos livros ilustrados europeus de meados do século XX, com grão de papel visível e cor mate."),
-        ("Áudio", f"{M['n_audio']} faixas em português europeu, gravadas com vozes sintéticas (Microsoft Edge neural TTS, vozes pt-PT). Só se gravaram textos originais ou tradicionais."),
-        ("Impressão", f"Formato A4 (210 × 297 mm), a cores, {M['total']} páginas: 8 de abertura (i–viii), 144 de unidades e 8 de fim do livro. Cada unidade tem a sua cor."),
-        ("Recursos digitais", f"{M['n_qr']} códigos QR, todos testados antes da impressão (setembro de 2026) e reunidos na p. {M['bp']['Recursos digitais']}."),
+        ("Ilustração", "Capa e contracapa da coleção Prime Books do 5.º ano. Imagens interiores criadas para esta edição com ferramentas digitais de geração de imagem, à maneira do guache e do lápis de cor, com grão de papel visível e cor mate."),
+        ("Para o professor", f"As soluções de todas as unidades estão no fim do livro ({pp(*M['span']['Soluções'])}).{tpl_colo(M)} Não há gravações: os textos para ouvir são lidos pela voz do professor."),
+        ("Impressão", f"Formato A4 (210 × 297 mm), a cores, {M['total']} páginas: 8 de abertura (i–viii), 144 de unidades e {M['total'] - 152} de fim do livro. Cada unidade tem a sua cor."),
+        ("Recursos digitais", f"{M['n_qr']} códigos QR, só para páginas públicas, todos testados antes da impressão (setembro de 2026) e reunidos na p. {M['bp']['Recursos digitais']}."),
     ]
     ch = "".join(f'<div class="cc"><div class="lab">{t}</div><p>{E(x)}</p></div>' for t, x in cards)
     bar = "".join(f'<span style="background:{u["c"]}"></span>' for u in M["units"])
     return f"""
 <section class="page {'odd' if pno % 2 else 'even'} colo">
-  {run("Português · Year 5", "Fim do livro", "Colofão")}
+  {run("Português · 5.º Ano", "Fim do livro", "Colofão")}
   <div class="kick">Fim do livro · Colofão</div>
   <h1 class="disp">Como este livro foi feito</h1>
   <div class="ccgrid">{ch}</div>
@@ -481,7 +479,7 @@ def p_colophon(M):
   <blockquote><p>«Minha pátria é a língua portuguesa.»</p><cite>Bernardo Soares (Fernando Pessoa), <i>Livro do Desassossego</i></cite></blockquote>
   <div class="owner"><div class="lab">Este livro pertence a</div><span class="l1"></span><div class="lab">Turma</div><span class="l2"></span><div class="lab">Ano letivo</div><span class="l3"></span></div>
   <div class="vstrip">{''.join(f'<figure style="--c:{u["c"]}"><img src="../art/{u["vign"]}.png" alt=""><figcaption><b>{u["n"]}</b>{E(u["short"])}</figcaption></figure>' for u in M["units"])}</div>
-  <div class="imprint-mini"><img src="../art/logo_prime_school.png" alt=""><span>Prime School Press · Português · Year 5 · 1.ª edição, 2026</span></div>
+  <div class="imprint-mini"><img src="../art/logo_prime_school.png" alt=""><span>Prime School Press · Português · 5.º Ano · 1.ª edição, 2026</span></div>
   {folio(pno)}
 </section>"""
 
@@ -499,14 +497,47 @@ def p_backcover(M):
     <div class="imp">P R I M E &nbsp; S C H O O L &nbsp; P R E S S</div>
     <h1 class="disp">Português</h1>
     <div class="abar"></div>
-    <div class="sub">Year 5 · Prime School Press · Manual do aluno</div>
+    <div class="sub">5.º Ano · Prime School Press · Manual do aluno</div>
     <p class="hook">Um ano inteiro a ler, a escrever e a falar — com uma osga por companhia.</p>
     <p class="blurb">Português Língua Materna para o 5.º ano: textos que informam e descrevem, lendas e contos, a literatura dos países de língua portuguesa, poesia e teatro. Cada página foi desenhada para se ler com gosto e para se escrever nela a lápis.</p>
     <div class="card"><div class="lab">N E S T E &nbsp; L I V R O</div><ul>{bh}</ul></div>
   </div>
-  <div class="bfoot"><b>Prime School Press · Português</b><span>9–10 anos · Year 5</span><em>primeschool.pt</em></div>
+  <div class="bfoot"><b>Prime School Press · Português</b><span>9–10 anos · 5.º Ano</span><em>primeschool.pt</em></div>
 </section>"""
 
 
-FRONT_PAGES = [p_cover, p_imprint, p_howto, p_map, p_index, p_reading, p_profile]
-BACK_PAGES = [p_glossary, p_resources, p_refs, p_plan, p_close, p_colophon, p_backcover]
+def tpl_ref(M):
+    return f", textos para o professor ler em voz alta ({pp(*M['span']['Textos para o professor'])})" if M["span"].get("Textos para o professor") else ""
+
+
+def tpl_colo(M):
+    return f" Nas atividades de compreensão do oral, o professor lê em voz alta os textos das {pp(*M['span']['Textos para o professor'])}." if M["span"].get("Textos para o professor") else ""
+
+
+# ============================================================ SOLUÇÕES + TEXTOS PARA O PROFESSOR (one flowing document)
+def _flow_template(sec, first, kick, title, lead, right):
+    head = f'<div class="kick">{kick}</div><h1 class="disp">{title}</h1><p class="lead sol-lead">{lead}</p>' if first else f'<div class="kick">{kick} · continuação</div>'
+    return (f'<template data-sec="{sec}" data-first="{1 if first else 0}"><section class="page sol sec-{sec}">'
+            f'{run("Português · 5.º Ano", "Fim do livro", right)}{head}<div class="cols"></div><footer class="folio"></footer></section></template>')
+
+
+SOL_LEAD = ("Todas as respostas do livro, unidade a unidade. Nas perguntas abertas há um <b>exemplo</b> ou os <b>critérios</b> "
+            "que orientam a resposta — aceitam-se todas as respostas bem justificadas com o texto. Primeiro, tenta sozinho; "
+            "depois, confirma — e corrige a lápis.")
+TPL_LEAD = ("Nas atividades de <b>compreensão do oral</b> e nos ditados, o professor lê estes textos em voz alta, na aula. "
+            "Não aparecem nas páginas das atividades: quem ouve não os lê antes. Cada texto indica a página e a atividade.")
+
+
+def p_flow(sol_blocks, tpl_blocks, start):
+    T = [_flow_template("sol", True, "Fim do livro · Soluções", "Soluções", SOL_LEAD, "Soluções"),
+         _flow_template("sol", False, "Fim do livro · Soluções", "Soluções", SOL_LEAD, "Soluções")]
+    src = f'<div class="flowsrc" data-sec="sol">{"".join(sol_blocks)}</div>'
+    if tpl_blocks:
+        T += [_flow_template("tpl", True, "Fim do livro · Para o professor", "Textos para o professor ler em voz alta", TPL_LEAD, "Textos para o professor"),
+              _flow_template("tpl", False, "Fim do livro · Para o professor", "Textos para o professor", TPL_LEAD, "Textos para o professor")]
+        src += f'<div class="flowsrc" data-sec="tpl">{"".join(tpl_blocks)}</div>'
+    return f'<div id="pg-templates" style="display:none">{"".join(T)}</div>{src}', start
+
+
+FRONT_PAGES = [p_imprint, p_howto, p_map, p_index, p_reading, p_profile]  # i (cover) = the master's front, set by covers.py
+BACK_PAGES = [p_glossary, p_resources, p_refs, p_plan, p_close, p_colophon]  # the back cover = the master's back, covers.py

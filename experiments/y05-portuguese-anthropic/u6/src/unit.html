@@ -2,7 +2,7 @@
 <html lang="pt-PT">
 <head>
 <meta charset="utf-8">
-<title>Avaliação — Português · Year 5 · Unidade 6</title>
+<title>Avaliação — Português · 5.º Ano · Unidade 6</title>
 <style>
 *{font-synthesis:none}
 @font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400i.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500i.ttf) format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-900.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400i.ttf) format("truetype");font-weight:400 900;font-style:italic}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-400.ttf) format("truetype");font-weight:400}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-700.ttf) format("truetype");font-weight:700}
@@ -41,6 +41,10 @@ body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-hei
 .tab span{transform:rotate(90deg);white-space:nowrap}
 .page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
 .page.even .tab span{transform:rotate(-90deg)}
+/* print-safe tabs: the label sits 5+ mm inside the trim once the page is fitted to US Letter */
+.tab{width:10.5mm!important;box-sizing:border-box;padding-right:4.3mm}
+.page.even .tab{padding-right:0;padding-left:4.3mm}
+
 /* ---------- type ---------- */
 .disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
 h1.disp{font-size:34pt;color:var(--ink)}
@@ -189,6 +193,10 @@ b,strong{font-weight:700}
 .dq{display:grid;grid-template-columns:24mm 1fr;gap:4mm;align-items:start;margin-top:2mm}
 .dq .qr svg{width:24mm;height:24mm}
 .dqnote{font-size:7.6pt;color:var(--ink2);line-height:1.28;margin-top:1.2mm}
+.rd{background:var(--t);border:.8pt solid var(--c);border-radius:1.8mm;min-height:24mm;gap:1mm;box-sizing:border-box;padding:1.8mm 1.6mm;display:flex;flex-direction:column;justify-content:space-between;text-align:center}
+.rd .lab{font-size:6pt;letter-spacing:.1em}
+.rd b{font-family:"Fraunces";font-weight:900;font-size:12.5pt;line-height:1;color:var(--c);white-space:nowrap}
+.rd span.t{font-size:7pt;line-height:1.2;color:var(--ink)}
 
 /* reading texts */
 .src{font-size:7.2pt;color:var(--ink2);font-style:italic;line-height:1.3}
@@ -348,6 +356,8 @@ b,strong{font-weight:700}
 .qr.teach{background:#fff;border:.8pt solid var(--rule);border-radius:2mm;padding:2mm 3mm 2mm 2mm}
 .qr.teach span{font-size:7.8pt;line-height:1.3;max-width:34mm}
 .qr.teach span b{display:block;color:var(--c)}
+.qr.teach.sol{border-left:2.4mm solid var(--c);padding:2.4mm 3.4mm}
+.qr.teach.sol span{max-width:52mm;font-size:8.2pt}
 .fill.xs{min-width:9mm;width:9mm}
 .parts{display:flex;flex-wrap:wrap;gap:1mm 7mm;margin-top:1.2mm;align-items:center}
 .parts .sqi{margin:0 .4mm}
@@ -386,7 +396,7 @@ b,strong{font-weight:700}
   <div class="art"></div>
   <div class="veil"></div>
   <div class="ttl">
-    <div class="u"><span class="big">6</span><span>Unidade · Português · Year 5</span></div>
+    <div class="u"><span class="big">6</span><span>Unidade · Português · 5.º Ano</span></div>
     <h1 class="disp">Avaliação:<br><i>mostra o que já sabes</i></h1>
     <div class="sub"><span>Quatro testes · um por unidade</span> leitura · gramática · escrita · oralidade</div>
   </div>
@@ -416,7 +426,7 @@ b,strong{font-weight:700}
       <div class="secrow"><span class="L">A</span><span><b>Leitura</b> — lês um texto novo e respondes a perguntas sobre ele.</span><span class="p">40 pontos</span></div>
       <div class="secrow"><span class="L">B</span><span><b>Gramática</b> — mostras que sabes como funciona a língua.</span><span class="p">25 pontos</span></div>
       <div class="secrow"><span class="L">C</span><span><b>Escrita</b> — escreves um texto teu, do mesmo género.</span><span class="p">25 pontos</span></div>
-      <div class="secrow"><span class="L">D</span><span><b>Compreensão do oral</b> — ouves um áudio duas vezes e respondes.</span><span class="p">10 pontos</span></div>
+      <div class="secrow"><span class="L">D</span><span><b>Compreensão do oral</b> — o professor lê um texto duas vezes e tu respondes.</span><span class="p">10 pontos</span></div>
       <div class="timebar"><span style="background:var(--ultra)">A · 25 min</span><span style="background:#4E66B8">B · 15 min</span><span style="background:#7486C9">C · 20 min</span></div>
       <p class="small" style="margin-top:1.4mm">Tens <b>60 minutos</b> para as partes A, B e C. A parte D faz-se em turma, com o professor: são mais 10 minutos.</p>
     </div>
@@ -474,7 +484,7 @@ b,strong{font-weight:700}
   <header class="run"><span>Avaliação</span><span><b>Teste 1</b> · Unidade 1 · Textos para informar e descrever</span></header>
   <div class="tab"><span>Teste 1 · Unidade 1</span></div>
   <div class="xh">
-    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 1</b><span>Unidade 1 · Textos para informar e descrever</span></div></div>
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · 5.º Ano</div><div class="xh-n"><b>Teste 1</b><span>Unidade 1 · Textos para informar e descrever</span></div></div>
       <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
     <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
     <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
@@ -507,7 +517,7 @@ b,strong{font-weight:700}
         <dt>Símbolo</dt><dd>Árvore Nacional (2011)</dd></dl></div>
       </div>
     </div>
-    <p class="src" style="margin-top:2mm">Fontes: Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; European Tree of the Year 2018. Texto escrito para este teste.</p>
+    <p class="src" style="margin-top:2mm">Fontes: Florestas.pt, «Sobreiro: a árvore mãe da cortiça» (2020); ICNF, 6.º Inventário Florestal Nacional; Árvore Europeia do Ano 2018. Texto escrito para este teste.</p>
   </div>
   <footer class="folio">115</footer>
 </section>
@@ -586,7 +596,7 @@ b,strong{font-weight:700}
 
   <div class="sec" data-sec="1D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">reportagem de rádio</span><span class="pts">10 pontos</span></div>
   <div class="dq">
-    <div><div class="qr">{{QR:a1}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div><div class="rd"><span class="lab">Ouvir</span><b>2 vezes</b><span class="t">O professor lê; depois, respondes.</span></div></div>
     <div>
       <div class="it" style="padding-top:0"><span class="n">14</span><div class="c"><div class="g2"><span>a) Em que dia se fez a plantação? <span class="fill"></span></span><span>b) Quantos sobreiros se plantaram? <span class="fill s"></span></span><span>c) Daqui a quantos anos darão cortiça? <span class="fill s"></span></span></div></div>{{M:1D:6}}</div>
       <div class="it"><span class="n">15</span><div class="c"><span class="q">Facto (F) ou opinião (O)?</span><div class="g2"><span>a) «Foi a melhor manhã do ano!» <span class="sqi"></span></span><span>b) «As árvores foram oferecidas pelo viveiro.» <span class="sqi"></span></span></div></div>{{M:1D:4}}</div>
@@ -600,7 +610,7 @@ b,strong{font-weight:700}
   <header class="run"><span>Avaliação</span><span><b>Teste 2</b> · Unidade 2 · Texto narrativo</span></header>
   <div class="tab"><span>Teste 2 · Unidade 2</span></div>
   <div class="xh">
-    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 2</b><span>Unidade 2 · Texto narrativo: contos e lendas</span></div></div>
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · 5.º Ano</div><div class="xh-n"><b>Teste 2</b><span>Unidade 2 · Texto narrativo: contos e lendas</span></div></div>
       <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
     <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
     <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
@@ -699,7 +709,7 @@ b,strong{font-weight:700}
 
   <div class="sec" data-sec="2D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">conto «A bicicleta amarela»</span><span class="pts">10 pontos</span></div>
   <div class="dq">
-    <div><div class="qr">{{QR:a2}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div><div class="rd"><span class="lab">Ouvir</span><b>2 vezes</b><span class="t">O professor lê; depois, respondes.</span></div></div>
     <div>
       <div class="it" style="padding-top:0"><span class="n">15</span><div class="c"><div class="g2"><span>a) Onde passou o Martim as férias? <span class="fill"></span></span><span>b) De quem tinha sido a bicicleta? <span class="fill"></span></span><span>c) O que fazia a tia quando ele gritou? <span class="fill l"></span></span></div></div>{{M:2D:6}}</div>
       <div class="it"><span class="n">16</span><div class="c"><span class="q">Numera de 1 a 4:</span> <span class="sqi"></span> gritou «Tia, não me largues!» <span class="sqi"></span> encontrou a bicicleta <span class="sqi"></span> levou-a para Lisboa <span class="sqi"></span> caía muitas vezes</div>{{M:2D:4}}</div>
@@ -713,7 +723,7 @@ b,strong{font-weight:700}
   <header class="run"><span>Avaliação</span><span><b>Teste 3</b> · Unidade 3 · Texto poético</span></header>
   <div class="tab"><span>Teste 3 · Unidade 3</span></div>
   <div class="xh">
-    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 3</b><span>Unidade 3 · Texto poético</span></div></div>
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · 5.º Ano</div><div class="xh-n"><b>Teste 3</b><span>Unidade 3 · Texto poético</span></div></div>
       <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
     <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
     <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
@@ -813,7 +823,7 @@ b,strong{font-weight:700}
 
   <div class="sec" data-sec="3D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">poema «A chuva miudinha»</span><span class="pts">10 pontos</span></div>
   <div class="dq">
-    <div><div class="qr">{{QR:a3}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div><div class="rd"><span class="lab">Ouvir</span><b>2 vezes</b><span class="t">O professor lê; depois, respondes.</span></div></div>
     <div>
       <div class="it" style="padding-top:0"><span class="n">16</span><div class="c"><div class="g2" style="grid-template-columns:1fr 1fr 1fr"><span>a) Quantas estrofes tem? <span class="fill s"></span></span><span>b) Que onomatopeia o abre? <span class="fill s"></span></span><span>c) Que verbo se repete na 2.ª estrofe? <span class="fill s"></span></span></div></div>{{M:3D:6}}</div>
       <div class="it"><span class="n">17</span><div class="c">a) O verso «bate à porta como quem anda perdida» tem uma <span class="fill"></span>.<br>b) Completa: «e o arco-íris é a <span class="fill"></span> que o sol estende até ao chão».</div>{{M:3D:4}}</div>
@@ -827,7 +837,7 @@ b,strong{font-weight:700}
   <header class="run"><span>Avaliação</span><span><b>Teste 4</b> · Unidade 4 · Texto dramático</span></header>
   <div class="tab"><span>Teste 4 · Unidade 4</span></div>
   <div class="xh">
-    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · Year 5</div><div class="xh-n"><b>Teste 4</b><span>Unidade 4 · Texto dramático</span></div></div>
+    <div class="xh-top"><div class="l"><div class="xh-k">Prova de avaliação · Português · 5.º Ano</div><div class="xh-n"><b>Teste 4</b><span>Unidade 4 · Texto dramático</span></div></div>
       <div class="xh-sc"><b>Classificação</b><div class="v"><i></i>/100</div></div></div>
     <div class="xh-f"><span>Nome <i></i></span><span>N.º <i></i></span><span>Turma <i></i></span><span>Data <i></i></span></div>
     <div class="xh-g"><div><b>A · Leitura</b><span>/40</span></div><div><b>B · Gramática</b><span>/25</span></div><div><b>C · Escrita</b><span>/25</span></div><div><b>D · Oral</b><span>/10</span></div><div class="tot"><b>Total</b><span>/100</span></div><div><b>Professor(a) · Enc. de educação</b><span>&nbsp;</span></div></div>
@@ -930,7 +940,7 @@ b,strong{font-weight:700}
 
   <div class="sec" data-sec="4D" data-pts="10"><span class="L">D</span><h3>Compreensão do oral</h3><span class="sub">cena «A coroa do rei»</span><span class="pts">10 pontos</span></div>
   <div class="dq">
-    <div><div class="qr">{{QR:a4}}</div><p class="dqnote">Ouves duas vezes.</p></div>
+    <div><div class="rd"><span class="lab">Ouvir</span><b>2 vezes</b><span class="t">O professor lê; depois, respondes.</span></div></div>
     <div>
       <div class="it" style="padding-top:0"><span class="n">15</span><div class="c"><div class="g2" style="grid-template-columns:1fr 1fr 1fr"><span>a) Onde se passa a cena? <span class="fill s"></span></span><span>b) Quando? <span class="fill"></span></span><span>c) O que desapareceu? <span class="fill"></span></span></div></div>{{M:4D:6}}</div>
       <div class="it"><span class="n">16</span><div class="c">a) Onde estava a coroa? <span class="fill l"></span><br>b) O que exprime o «Ufa!» do Diogo? <span class="fill"></span></div>{{M:4D:4}}</div>
@@ -1017,7 +1027,7 @@ b,strong{font-weight:700}
   </div>
   <div class="endrow">
     <div class="tip"><img src="../../art/mou-1.png" alt="" style="width:14mm;mix-blend-mode:multiply"><div class="bub">Leste, escreveste, ouviste e representaste. <b>Parabéns pelo teu ano!</b> E lembra-te: um nível 1 não é um fracasso — é o ponto de partida para o próximo passo.</div></div>
-    <div class="qr teach">{{QR:solucoes}}<span><b>Para o professor</b>Soluções e critérios de correção dos quatro testes</span></div>
+    <div class="qr teach sol"><span><b>Para o professor</b>Soluções: no fim do livro. Aí estão também os critérios de correção e os textos da parte D, para ler em voz alta.</span></div>
   </div>
   <footer class="folio">128</footer>
 </section>

@@ -2,7 +2,7 @@
 <html lang="pt-PT">
 <head>
 <meta charset="utf-8">
-<title>Lugar, Tempo e Memória — Português · Year 5 · Unidade 2</title>
+<title>Lugar, Tempo e Memória — Português · 5.º Ano · Unidade 2</title>
 <style>
 *{font-synthesis:none}
 @font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-400i.ttf) format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-500i.ttf) format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesDisplay-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-600i.ttf) format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Fraunces";src:url(../../fonts/static/FrauncesText-800.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400.ttf) format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-500.ttf) format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-600.ttf) format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-700.ttf) format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-800.ttf) format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-900.ttf) format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"Figtree";src:url(../../fonts/static/Figtree-400i.ttf) format("truetype");font-weight:400 900;font-style:italic}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-400.ttf) format("truetype");font-weight:400}@font-face{font-family:"Caveat";src:url(../../fonts/static/Caveat-700.ttf) format("truetype");font-weight:700}
@@ -43,6 +43,10 @@ body{font-family:"Figtree",sans-serif;color:var(--ink);font-size:10.4pt;line-hei
 .tab span{transform:rotate(90deg);white-space:nowrap}
 .page.odd .tab{right:0;border-radius:2mm 0 0 2mm}.page.even .tab{left:0;border-radius:0 2mm 2mm 0}
 .page.even .tab span{transform:rotate(-90deg)}
+/* print-safe tabs: the label sits 5+ mm inside the trim once the page is fitted to US Letter */
+.tab{width:10.5mm!important;box-sizing:border-box;padding-right:4.3mm}
+.page.even .tab{padding-right:0;padding-left:4.3mm}
+
 /* ---------- type ---------- */
 .disp{font-family:"Fraunces";font-variation-settings:"SOFT" 100,"WONK" 1,"opsz" 144;font-weight:620;letter-spacing:-.015em;line-height:.98}
 h1.disp{font-size:34pt;color:var(--ink)}
