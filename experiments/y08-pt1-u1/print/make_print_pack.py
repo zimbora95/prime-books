@@ -19,7 +19,7 @@ Live-text clearance after the transform is checked first (>= 20 mm gutter, >= 5 
 Run from the experiment dir, in the background (PDF/X conversion takes minutes):
     .venv/bin/python print/make_print_pack.py
 """
-import importlib, pathlib, shutil, sys
+import importlib, os, pathlib, shutil, sys
 
 import pymupdf
 
@@ -177,7 +177,13 @@ def build(spine_mm=None):
     sys.path.insert(0, str(REPO / "tools"))
     mb = importlib.import_module("make_bookvault_files")
     mb.LIBRARY = STAGE                          # read the print master, write the pack beside it
-    r = mb.build(SLUG, force=True, do_pdfx=True, spine_per_page_mm=None, spine_mm=spine_mm,
+    # PB_PDFX=0 ships the file as RGB. This book needs it: the CMYK pass manufactures
+    # a Type 3 font on p. 16 (the master carries none), BookVault then rejects the
+    # upload with "1 key font was unembedded ('Unknown')", and clearing it by
+    # outlining takes the file from 48 MB to 136 MB -- past GitHub's limit, for a
+    # conversion their own preflight does (guide p.6).
+    pdfx = os.environ.get("PB_PDFX", "1") != "0"
+    r = mb.build(SLUG, force=True, do_pdfx=pdfx, spine_per_page_mm=None, spine_mm=spine_mm,
                  pad_12n=False, cover_only=False)
     fails = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "fail"]
     opens = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "warn"]

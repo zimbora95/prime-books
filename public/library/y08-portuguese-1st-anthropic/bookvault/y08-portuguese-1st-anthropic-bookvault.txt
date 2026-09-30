@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Portuguese 1st - Year 8
 slug y08-portuguese-1st-anthropic
-generated 2026-09-30 18:39 UTC
+generated 2026-09-30 19:40 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -30,8 +30,7 @@ STEP 2  Upload the two files
 --------------------------------------------------------------------------
   TEXT FILE   y08-portuguese-1st-anthropic-text-file.pdf
               175 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
-              PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
-              font check still open -- 10 page(s) lost text in the invisible layer, first page 55
+              left as RGB (--no-pdfx)
   COVER FILE  y08-portuguese-1st-anthropic-cover-file.pdf
               5291 x 3366 px at 300 DPI = 447.97 x 284.99 mm
               = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)
@@ -48,7 +47,7 @@ STEP 3  Checks
   [PASS] Bleed continues the page edge
          no point across the cut lines puts a whitish colour against a coloured one (6300 points checked), so no white nick can print
   [OPEN] Bleed approximates the artwork at the cut
-         254 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
+         259 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
   [PASS] Bleed seam matches the artwork
@@ -67,12 +66,12 @@ STEP 3  Checks
          the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
   [PASS] All fonts embedded
          every font is embedded (guide p.3)
-  [OPEN] No Type 3 glyph-program fonts
-         1 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves
+  [PASS] No Type 3 glyph-program fonts
+         none: every font is a real embedded font file (guide p.3)
   [PASS] Transparency flattened
          no soft masks, transparency groups or blend modes left (guide p.3)
   [OPEN] Images at 300 DPI or better
-         31 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI
+         23 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI
   [PASS] Master page box fitted to their trim
          master page box 216.0 x 279.0 mm matches the trim within a printer's tolerance; no rescaling
   [PASS] Artwork covers the printed area
@@ -81,8 +80,8 @@ STEP 3  Checks
          closest text is 32.9 mm from the left edge on page 59; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
-  [PASS] Text file is PDF/X-1a:2001 with CMYK
-         PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  [OPEN] Text file is PDF/X-1a:2001 with CMYK
+         left as RGB (--no-pdfx)
   [PASS] Cover file is a perfect-bound spread
          447.97 x 284.99 mm = back 216 + spine 10 + front 216 + 3 mm bleed, by their p.18 formula
   [OPEN] Barcode area clear on the back cover
@@ -119,9 +118,4 @@ NOTES
     This file is converted to CMYK through Ghostscript's default CMYK
     profile, not a FOGRA one - ask BookVault for their output profile and
     rebuild with --profile <icc> if the press is calibrated.
-  * This book carries 1 Type 3 fonts (headings drawn as
-    glyph programs rather than an embedded font). Ghostscript 10.02.1
-    segfaults converting those to CMYK, so the interior is RGB - which
-    BookVault accept and convert themselves (guide p.6). The real fix
-    is in the source book: those headings should use an embedded font.
 

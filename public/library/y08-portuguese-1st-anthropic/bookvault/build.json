@@ -1,8 +1,8 @@
 {
  "slug": "y08-portuguese-1st-anthropic",
- "built": "2026-09-30T18:39:53+00:00",
+ "built": "2026-09-30T19:40:41+00:00",
  "source_pages": 177,
- "source_mtime": 1790792951.3718743,
+ "source_mtime": 1790796921.4817438,
  "source_bytes": 47802365,
  "spine_per_page_mm": null,
  "spine_mm": null,
@@ -16,7 +16,7 @@
  "text": {
   "file": "y08-portuguese-1st-anthropic-text-file.pdf",
   "url": "/library/y08-portuguese-1st-anthropic/bookvault/y08-portuguese-1st-anthropic-text-file.pdf",
-  "bytes": 47921861,
+  "bytes": 49419417,
   "pages": 175,
   "content_pages": 175,
   "padded_pages": 0,
@@ -44,15 +44,15 @@
   ],
   "bleed_mm": 3.0,
   "cover_stripped": true,
-  "type3": 1,
+  "type3": 0,
   "text_outlined": false,
   "invisible_text_spans": 0,
   "fonts_outlined": [],
-  "outline_note": "font check still open -- 10 page(s) lost text in the invisible layer, first page 55",
-  "pdfx": true,
+  "outline_note": "",
+  "pdfx": false,
   "flattened": false,
   "transparent_pages": 0,
-  "note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text"
+  "note": "left as RGB (--no-pdfx)"
  },
  "cover": {
   "file": "y08-portuguese-1st-anthropic-cover-file.pdf",
@@ -124,7 +124,7 @@
   {
    "name": "Bleed approximates the artwork at the cut",
    "pass": false,
-   "detail": "254 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "detail": "259 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
    "level": "warn"
   },
   {
@@ -183,9 +183,9 @@
   },
   {
    "name": "No Type 3 glyph-program fonts",
-   "pass": false,
-   "detail": "1 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves",
-   "level": "warn"
+   "pass": true,
+   "detail": "none: every font is a real embedded font file (guide p.3)",
+   "level": "ok"
   },
   {
    "name": "Transparency flattened",
@@ -196,7 +196,7 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "31 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI",
+   "detail": "23 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI",
    "level": "warn"
   },
   {
@@ -225,9 +225,9 @@
   },
   {
    "name": "Text file is PDF/X-1a:2001 with CMYK",
-   "pass": true,
-   "detail": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
-   "level": "ok"
+   "pass": false,
+   "detail": "left as RGB (--no-pdfx)",
+   "level": "warn"
   },
   {
    "name": "Cover file is a perfect-bound spread",

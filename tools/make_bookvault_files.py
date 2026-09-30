@@ -73,6 +73,7 @@ Usage
 from __future__ import annotations
 
 import argparse
+import collections
 import io
 import json
 import math
@@ -85,7 +86,7 @@ import tempfile
 from datetime import datetime, timezone
 
 import pymupdf
-from PIL import Image
+from PIL import Image, ImageChops, ImageStat
 
 REPO = pathlib.Path(__file__).resolve().parent.parent
 LIBRARY = REPO / "public" / "library"
@@ -960,27 +961,155 @@ def flatten_transparency(src_pdf: pathlib.Path, dst_pdf: pathlib.Path) -> tuple[
 
 INVISIBLE_TEXT_TTF = REPO / "tools" / "cover_assets" / "Andika-Regular.ttf"
 OUTLINE_INK_TOLERANCE_PCT = 12.0   # per-page ink may not move more than this
+OUTLINE_LUMA_DIFF = 10.0   # mean |dL| per pixel (0-255, 72 dpi) that is artwork lost,
+                           # not the anti-aliasing noise a re-rendered page always carries
+RASTER_REPAIR_DPI = 300    # BookVault's required image resolution (guide p.9)
 
-def glyph_ink(page, dpi: int = 72) -> float:
+def glyph_ink(page, dpi: int = 150) -> float:
     """Share of inked pixels on a page -- the measure the outline pass must not
     change. Rendered, not read: this is about what prints. Binned through PIL's
-    C histogram so 116 pages of it is a second, not a minute."""
+    C histogram so a couple of hundred pages of it is seconds, not minutes.
+
+    150 dpi, not 72: at 1 pixel per point a glyph stem lands on a pixel boundary
+    and the outlined copy (unhinted paths) can flip hundreds of edge pixels on a
+    mostly-white page, which reads as a 14% ink move on a page that has not
+    changed at all -- measured on the y04-gp contents page. Sampling at 2x
+    device pixels drops the same page to 2%, while a real loss (a dropped image,
+    a missing text block) still moves the ink far past the tolerance.
+    """
     pix = page.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
     img = Image.frombytes("RGB", (pix.width, pix.height), pix.samples).convert("L")
     hist = img.histogram()
     return sum(hist[:128]) / max(1, pix.width * pix.height)
 
 
-def outline_glyphs(src_pdf: pathlib.Path, dst_pdf: pathlib.Path) -> tuple[bool, str]:
+def gs_page_ink(pdf: pathlib.Path, pno: int, dpi: int = 150) -> float | None:
+    """Inked share of ONE page as GHOSTSCRIPT renders it (1-based page number).
+
+    The second opinion the outline guard needs. MuPDF and Ghostscript composite
+    a page carrying a tiling pattern, a luminosity soft mask or an ICC image
+    differently, so on such a page MuPDF can show a large ink move between the
+    master and the outlined copy while Ghostscript draws the two one on top of
+    the other. Judging that page on Ghostscript's OWN before/after pair is the
+    only comparison that is not across engines: when Ghostscript agrees the ink
+    moved, the move is real.
+
+    None means "could not be rendered" -- the caller must treat that as a
+    rejection, never as a pass.
+    """
+    if not GHOSTSCRIPT:
+        return None
+    with tempfile.TemporaryDirectory() as td:
+        out = pathlib.Path(td) / f"p{pno}.png"
+        cmd = [
+            GHOSTSCRIPT, "-q", "-dBATCH", "-dNOPAUSE", "-dSAFER",
+            "-sDEVICE=png16m", f"-r{dpi}",
+            f"-dFirstPage={pno}", f"-dLastPage={pno}",
+            f"-sOutputFile={out}", str(pdf),
+        ]
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+        except subprocess.TimeoutExpired:
+            return None
+        if r.returncode != 0 or not out.is_file():
+            return None
+        try:
+            img = Image.open(out).convert("L")
+        except Exception:                         # noqa: BLE001 -- a render we cannot read is a rejection
+            return None
+        hist = img.histogram()
+        return sum(hist[:128]) / max(1, img.width * img.height)
+
+
+def page_luma_diff(a: pymupdf.Page, b: pymupdf.Page, dpi: int = 72) -> float:
+    """Mean absolute luminance difference between two renders of ONE page.
+
+    The ink share says a page moved; this says whether anything was LOST. Every
+    page re-rendered by another engine moves its ink a little (unhinted paths,
+    edge pixels at 150 dpi), but only a handful of units of difference per pixel;
+    an overlay that stopped being painted moves tens of units across the whole
+    area it covered. So the ink test finds the candidates cheaply and this decides
+    between noise and artwork, at 1 pixel per point where it costs milliseconds.
+    """
+    pa = a.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
+    pb = b.get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
+    ia = Image.frombytes("RGB", (pa.width, pa.height), pa.samples).convert("L")
+    ib = Image.frombytes("RGB", (pb.width, pb.height), pb.samples).convert("L")
+    if ia.size != ib.size:
+        return 255.0
+    diff = ImageChops.difference(ia, ib)
+    return ImageStat.Stat(diff).mean[0]
+
+
+def rasterise_pages(src_pdf: pathlib.Path, outlined_pdf: pathlib.Path,
+                    pages: list[int], dst_pdf: pathlib.Path,
+                    dpi: int = RASTER_REPAIR_DPI) -> None:
+    """Replace the listed 1-based pages of `outlined_pdf` with a raster of `src_pdf`.
+
+    A page the outlining engine cannot paint faithfully is not repaired by
+    editing its pattern: the two engines disagree about it, so the file would then
+    print one thing and read as another. Rendering that page ONCE, from the file
+    the reader shows (MuPDF -- the engine the teacher's reader uses), gives an
+    image every engine and every RIP agrees on, and it carries no font at all,
+    which is exactly what BookVault's font check asks for. Every other page keeps
+    its vector text. `dpi` is BookVault's required image resolution.
+    """
+    src = pymupdf.open(src_pdf)
+    outlined = pymupdf.open(outlined_pdf)
+    dst = pymupdf.open()
+    want = set(pages)
+    try:
+        if src.page_count != outlined.page_count:
+            raise RuntimeError(f"page count {src.page_count} -> {outlined.page_count}")
+        for i in range(outlined.page_count):
+            if (i + 1) in want:
+                pix = src[i].get_pixmap(dpi=dpi, colorspace=pymupdf.csRGB)
+                # The page's MediaBox as its siblings carry it, verbatim: a page
+                # whose box differs by a thousandth of a point is a page the
+                # printer's dimension check can read as a second size, and an
+                # aspect inset would leave a hairline of paper at an edge.
+                mb = outlined.xref_get_key(outlined[i].xref, "MediaBox")[1]
+                nums = [float(v) for v in re.findall(r"-?\d+\.?\d*", mb or "")] or \
+                       [0.0, 0.0, outlined[i].rect.width, outlined[i].rect.height]
+                x0, y0, x1, y1 = nums[:4]
+                page = dst.new_page(width=x1 - x0, height=y1 - y0)
+                page.set_mediabox(pymupdf.Rect(x0, y0, x1, y1))
+                page.insert_image(pymupdf.Rect(x0, y0, x1, y1),
+                                  stream=pix.tobytes("jpeg", jpg_quality=90),
+                                  keep_proportion=False)
+            else:
+                dst.insert_pdf(outlined, from_page=i, to_page=i)
+        dst.set_metadata(outlined.metadata or {})
+        dst.save(str(dst_pdf), garbage=4, deflate=True)
+    finally:
+        src.close()
+        outlined.close()
+        dst.close()
+
+
+def outline_glyphs(src_pdf: pathlib.Path,
+                   dst_pdf: pathlib.Path) -> tuple[bool, str, list[int]]:
     """Every glyph as vector artwork: Ghostscript's -dNoOutputFonts.
 
     This is the pass that removes a font BookVault will not accept. It is only
     used on pages whose glyphs are ALREADY vector art (a Type 3 font is a
     drawing program), so the page must come back pixel for pixel the same -- a
     page whose ink moves is a rejected pass, not a shipped file.
+
+    The ink comparison is made in ONE engine. MuPDF is the reader engine the
+    teacher sees, so it judges first; a page it flags is then re-judged on
+    Ghostscript's own before/after pair, because the two engines composite a
+    patterned overlay differently and MuPDF can show a move on a page
+    Ghostscript renders identically. Only a move BOTH engines see is damage.
+
+    Returns (ok, what to tell the teacher, pages to ship as rasters). A page whose
+    MuPDF render lost real artwork -- tens of units of luminance over the area the
+    overlay covered -- is NOT a rejected pass and not a pass either: Ghostscript
+    drops the overlay in its output, so shipping that copy would print a page the
+    reader does not show. Such a page is listed for rasterise_pages().
     """
     if not GHOSTSCRIPT:
-        return False, "Ghostscript not installed -- the glyphs stay as fonts"
+        return False, "Ghostscript not installed -- the glyphs stay as fonts", []
     cmd = [
         GHOSTSCRIPT, "-dBATCH", "-dNOPAUSE", "-dSAFER",
         "-sDEVICE=pdfwrite", "-dCompatibilityLevel=1.4",
@@ -993,27 +1122,91 @@ def outline_glyphs(src_pdf: pathlib.Path, dst_pdf: pathlib.Path) -> tuple[bool, 
     try:
         r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
     except subprocess.TimeoutExpired:
-        return False, "the outline pass timed out (15 min)"
+        return False, "the outline pass timed out (15 min)", []
     if r.returncode != 0 or not dst_pdf.is_file():
-        return False, f"the outline pass failed (Ghostscript exit {r.returncode})"
+        return False, f"the outline pass failed (Ghostscript exit {r.returncode})", []
 
     a = pymupdf.open(src_pdf)
     b = pymupdf.open(dst_pdf)
+    second: list[tuple[int, float, float, float, float]] = []
+    lost: list[tuple[int, float]] = []
     try:
         if a.page_count != b.page_count:
-            return False, f"page count {a.page_count} -> {b.page_count}"
+            return False, f"page count {a.page_count} -> {b.page_count}", []
         if (abs(a[0].rect.width - b[0].rect.width) > 0.1
                 or abs(a[0].rect.height - b[0].rect.height) > 0.1):
-            return False, "the media box moved"
+            return False, "the media box moved", []
+        moved = []
         for i in range(a.page_count):
             ia, ib = glyph_ink(a[i]), glyph_ink(b[i])
-            if ia > 0.002 and abs(ib - ia) / ia * 100 > OUTLINE_INK_TOLERANCE_PCT:
-                return False, (f"page {i + 1}: ink {ia:.2%} -> {ib:.2%} -- the pass "
-                               f"changed the artwork")
+            if ia > 0.002 and abs(ib - ia) > 0.005 and abs(ib - ia) / ia * 100 > OUTLINE_INK_TOLERANCE_PCT:
+                moved.append((i + 1, ia, ib))
+        # The ink share only says a page MOVED. Whether it LOST anything is settled
+        # on the pixels: a re-rendered page drifts a few units everywhere, a page
+        # whose patterned overlay stopped being painted loses tens of them over the
+        # area the overlay covered.
+        for pno, ia, ib in moved:
+            d = page_luma_diff(a[pno - 1], b[pno - 1])
+            if d > OUTLINE_LUMA_DIFF:
+                lost.append((pno, d))
     finally:
         a.close()
         b.close()
-    return True, "every glyph is vector artwork"
+
+    # MuPDF flagged these. Re-judge each on Ghostscript's own before/after pair:
+    # a patterned or softly-masked overlay is composited differently by the two
+    # engines, and the outlined copy normalises it, so MuPDF alone would reject a
+    # faithful pass on every such page. A page Ghostscript cannot render, or one
+    # whose ink Ghostscript also moves, is a rejected pass. Pages scheduled for
+    # raster repair are skipped: they are replaced with the reader's render anyway.
+    repair_set = {p for p, _ in lost}
+    for pno, ia, ib in moved:
+        if pno in repair_set:
+            continue
+        ga = gs_page_ink(src_pdf, pno)
+        gb = gs_page_ink(dst_pdf, pno)
+        if ga is None or gb is None or ga <= 0.002:
+            return False, (f"page {pno}: ink {ia:.2%} -> {ib:.2%} -- the pass "
+                           f"changed the artwork"), []
+        if abs(gb - ga) > 0.005 and abs(gb - ga) / ga * 100 > OUTLINE_INK_TOLERANCE_PCT:
+            return False, (f"page {pno}: ink {ia:.2%} -> {ib:.2%} in MuPDF, "
+                           f"{ga:.2%} -> {gb:.2%} in Ghostscript -- the pass "
+                           f"changed the artwork"), []
+        second.append((pno, ia, ib, ga, gb))
+
+    repair = [p for p, _ in lost]
+    if repair:
+        detail = ", ".join(f"page {p} (mean |dL| {d:.0f})" for p, d in lost[:4])
+        note = (f"every glyph is vector artwork; {len(repair)} page(s) lose their "
+                f"patterned overlay when Ghostscript re-writes them ({detail}) and "
+                f"are shipped as rasters of the reader's own render instead")
+        if second:
+            pno, _, _, ga, gb = second[0]
+            note += (f"; on page {pno} MuPDF's ink moved while Ghostscript's own "
+                     f"pair did not ({ga:.2%} -> {gb:.2%})")
+        return True, note, repair
+    if second:
+        pages = ", ".join(str(p) for p, *_ in second)
+        pno, _, _, ga, gb = second[0]
+        return True, (f"every glyph is vector artwork; page {pages} carries a "
+                      f"patterned overlay the two engines composite differently "
+                      f"(MuPDF ink moved, Ghostscript's own pair is "
+                      f"{ga:.2%} -> {gb:.2%}), so it was judged on Ghostscript"), []
+    return True, "every glyph is vector artwork", []
+
+
+def layer_text(text: str) -> str:
+    """The span text as the invisible layer can carry it.
+
+    A span goes into the TextWriter as ONE string, and a single control
+    character in it -- U+0000 is what an unmapped glyph leaves in a master set
+    in Type 3 -- makes the extractor abandon the whole run: the words around it
+    stop being searchable, silently. The glyphs are vector artwork by this
+    point, so nothing visible rests on these characters: keep the words and
+    blank the controls out.
+    """
+    return "".join(" " if ord(c) < 32 else c for c in text) if \
+        any(ord(c) < 32 for c in text) else text
 
 
 def relayer_invisible_text(original: pathlib.Path, outlined: pathlib.Path,
@@ -1044,37 +1237,104 @@ def relayer_invisible_text(original: pathlib.Path, outlined: pathlib.Path,
     for pno in range(min(a.page_count, d.page_count)):
         page = d[pno]
         tw = pymupdf.TextWriter(page.rect)
+        turned = []                       # spans set along a rotated baseline
         here = 0
         for b in a[pno].get_text("dict")["blocks"]:
             for line in b.get("lines", []):
+                dirv = tuple(line.get("dir") or (1.0, 0.0))
                 for s in line["spans"]:
                     text, size = s["text"], s["size"]
                     if not text.strip() or size <= 0:
                         continue
+                    text = layer_text(text)
                     fs = size
                     try:
                         w = font.text_length(text, fontsize=size)
                     except Exception:
                         w = 0.0
                     if w > 0.01:
-                        fs = size * (s["bbox"][2] - s["bbox"][0]) / w
+                        # The run is matched to the span's length ALONG ITS OWN
+                        # BASELINE. On a rotated span (the page-edge rails) the
+                        # bbox's width is the span's HEIGHT -- a few points -- so
+                        # matching it collapses the type size and the re-laid run
+                        # then overruns the page and its tail is dropped.
+                        box = s["bbox"]
+                        reach = (abs((box[2] - box[0]) * dirv[0])
+                                 + abs((box[3] - box[1]) * dirv[1]))
+                        fs = size * reach / w
                         fs = max(size * 0.2, min(size * 5.0, fs))
                     if fs <= 0.4:
                         continue
+                    pos = pymupdf.Point(s["origin"][0], s["origin"][1])
+                    if abs(dirv[1]) > 0.01:      # not set horizontally
+                        turned.append((pos, text, fs, dirv))
+                        here += 1
+                        continue
                     try:
-                        tw.append(pymupdf.Point(s["origin"][0], s["origin"][1]),
-                                  text, font=font, fontsize=fs)
+                        tw.append(pos, text, font=font, fontsize=fs)
                     except Exception:
                         continue
                     here += 1
         if here:
             tw.write_text(page, render_mode=3)
             spans += here
+        # A TextWriter takes no per-span matrix, so a rotated run needs its own
+        # writer and a morph that turns it about its own origin. Without it the
+        # rail's header is laid horizontally across the page and reads as moved.
+        for pos, text, fs, dirv in turned:
+            # The morph is read in the content stream, where y runs the other way
+            # to the page coordinates `dir` is reported in: the angle is negated,
+            # or the run sets off in the opposite direction from its own origin.
+            th = -math.atan2(dirv[1], dirv[0])
+            rot = pymupdf.Matrix(math.cos(th), math.sin(th),
+                                 -math.sin(th), math.cos(th), 0, 0)
+            twr = pymupdf.TextWriter(page.rect)
+            try:
+                twr.append(pos, text, font=font, fontsize=fs)
+            except Exception:
+                continue
+            twr.write_text(page, render_mode=3, morph=(pos, rot))
     d.subset_fonts()
     d.save(str(dst_pdf), garbage=4, deflate=True)
     a.close()
     d.close()
     return spans
+
+
+def layer_covers_text(original: pathlib.Path, built: pathlib.Path) -> tuple[bool, str]:
+    """Is every character of the master still IN the built file's text layer?
+
+    Per page, and by CHARACTER COUNT rather than by the text as a string. The
+    re-laid spans re-tokenise -- a marker glyph that used to be its own span now
+    sits inside the next word -- so word COUNT is not the question; a character
+    the layer dropped is.
+
+    The comparison deliberately ignores ORDER. Extraction order is not a property
+    of the page: a run set at an angle (the page-edge rails) is emitted at a
+    different point in the text stream once it is re-laid rotated, which reorders
+    characters on a page that lost nothing -- 132 pages read as damaged on
+    y08-portuguese before this was settled. A dropped character is what matters,
+    and a count sees one whether or not the order moved; a page that silently
+    gained characters fails too.
+    """
+    def face(page) -> "collections.Counter":
+        return collections.Counter(re.sub(r"[\s\x00-\x1f]", "", page.get_text()))
+
+    a, b = pymupdf.open(original), pymupdf.open(built)
+    try:
+        if a.page_count != b.page_count:
+            return False, f"page count {a.page_count} -> {b.page_count}"
+        lost = [(i + 1, face(a[i]) - face(b[i])) for i in range(a.page_count)]
+        lost = [(n, d) for n, d in lost if d]
+        if lost:
+            n, drop = lost[0]
+            missing = "".join(k for k, _ in drop.most_common(8))
+            return False, (f"{len(lost)} page(s) lost text in the invisible layer, "
+                           f"first page {n} (missing {missing!r})")
+    finally:
+        a.close()
+        b.close()
+    return True, "ok"
 
 
 def strip_fonts(path: pathlib.Path, slug: str) -> tuple[bool, int, str]:
@@ -1086,14 +1346,29 @@ def strip_fonts(path: pathlib.Path, slug: str) -> tuple[bool, int, str]:
     """
     stem = path.name.replace(".pdf", "")
     out = path.with_name(f".{stem}.outlined.pdf")
+    fixed = path.with_name(f".{stem}.raster.pdf")
     inv = path.with_name(f".{stem}.invisible.pdf")
-    out.unlink(missing_ok=True)
-    inv.unlink(missing_ok=True)
+    for f in (out, fixed, inv):
+        f.unlink(missing_ok=True)
 
-    ok, why = outline_glyphs(path, out)
+    ok, why, repair = outline_glyphs(path, out)
     if not ok:
         out.unlink(missing_ok=True)
         return False, 0, f"font check still open -- {why}"
+
+    # The pages the outline pass cannot paint as the reader paints them are
+    # replaced by a raster of the reader's own render, at BookVault's required
+    # resolution. They carry no font either, so the font check still clears; what
+    # they carry is the overlay the reader shows and Ghostscript drops.
+    if repair:
+        try:
+            rasterise_pages(path, out, repair, fixed)
+        except Exception as exc:                  # noqa: BLE001 -- report, never crash a pack
+            out.unlink(missing_ok=True)
+            fixed.unlink(missing_ok=True)
+            return False, 0, (f"font check still open -- the raster repair failed "
+                              f"({exc})")
+        shutil.move(str(fixed), str(out))
 
     try:
         spans = relayer_invisible_text(path, out, inv)
@@ -1112,9 +1387,22 @@ def strip_fonts(path: pathlib.Path, slug: str) -> tuple[bool, int, str]:
         left = ", ".join(missing[:3]) if missing else f"{t3} Type 3 fonts"
         return False, 0, f"font check still open -- the outline pass left {left}"
 
+    covered, why = layer_covers_text(path, inv)
+    if not covered:
+        out.unlink(missing_ok=True)
+        inv.unlink(missing_ok=True)
+        return False, 0, f"font check still open -- {why}"
+
     shutil.move(str(inv), str(path))
     out.unlink(missing_ok=True)
-    return True, spans, f"outlined glyphs, text re-laid invisibly ({spans} spans)"
+    note = f"outlined glyphs, text re-laid invisibly ({spans} spans)"
+    if repair:
+        listed = ", ".join(str(p) for p in repair)
+        note += (f"; pages {listed} shipped as {RASTER_REPAIR_DPI} DPI rasters of "
+                 f"the reader's render -- Ghostscript cannot paint their patterned "
+                 f"overlay, and the outlined copy would print a page the reader "
+                 f"does not show")
+    return True, spans, note
 
 
 def conversion_is_faithful(before: pathlib.Path, after: pathlib.Path) -> tuple[bool, str]:
@@ -1334,7 +1622,7 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
         "transparent_pages": len(left_transparent),
         "note": note + (f"; transparency left on {len(left_transparent)} pages "
                         f"(the flattening pass could not clear it)"
-                        if flat_note and not flattened else ""),
+                        if flat_note and not flattened and left_transparent else ""),
     }
     doc.close()
     return rec
@@ -1343,7 +1631,57 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
 # ------------------------------------------------------------------ cover file
 
 
-SPINE_TEXT_MIN_MM = 6.0    # below this the spine holds no type at all
+SPINE_TEXT_MIN_MM = 4.0        # the narrowest spine the standard line is set on
+SPINE_TEXT_CLEARANCE_MM = 1.0  # kept clear of each spine edge (guide p.19)
+SPINE_TEXT_MIN_PT = 4.0        # the standard's smallest text is 4 pt
+SPINE_TEXT_SORA_PX = 34        # the subject line, at 300 DPI
+SPINE_TEXT_SPECTRAL_PX = 26    # the imprint line, at 300 DPI
+
+
+def spine_text_plan(spine_mm: float, spine_w: int, line1: str, line2: str) -> dict:
+    """Whether this spine can carry the standard spine line, and at what size.
+
+    The old rule was a bare 6 mm cut-off, and it put one book's two covers out
+    of step: an 82-page Year 4 title computed a 5 mm spine, so the BookVault
+    cover file went out plain while the KDP wrap for the SAME book printed
+    'ART & DESIGN - YEAR 4 / PRIME BOOKS' on it. A teacher comparing spines
+    across a year group sees that as a title that lost its standard.
+
+    Two measured rules replace the cut-off:
+      1. the line is set only from SPINE_TEXT_MIN_MM (4 mm). Industry practice
+         (KDP, Ingram) refuses spine type under 6 mm, but this house already
+         ships the line on 4 mm spines: BookVault's own sizing calculator puts
+         a 72-page US Letter title at 4.0 mm and a 70-page one at 3.9 mm, and
+         a 5 mm cut-off therefore decided a book's standard on a 0.1 mm
+         difference in paper thickness - the Year 9 Art & Design spine went out
+         blank beside its Year 7 and 8 siblings, all three on 4 mm. The 4 pt
+         floor in rule 2 is what keeps a genuinely thin spine plain: a 3 mm
+         spine can only carry 3.4 pt and stays bare;
+      2. it is FITTED to the spine's usable width (the spine less the
+         clearance the guide asks for at each edge, p.19) and is never set
+         below the standard's 4 pt floor, so a narrower spine gets smaller
+         type rather than type running off the edge.
+    """
+    from PIL import ImageDraw
+    probe = ImageDraw.Draw(Image.new("RGBA", (8, 8)))
+    clear_px = round(SPINE_TEXT_CLEARANCE_MM / 25.4 * DPI)
+    usable = spine_w - 2 * clear_px
+
+    def glyph_h(font_name: str, size: int, text: str) -> float:
+        f = mwc.font(font_name, max(1, size))
+        b = probe.textbbox((0, 0), text, font=f)
+        return float(b[3] - b[1])
+
+    base_h = max(glyph_h("Sora.dl", SPINE_TEXT_SORA_PX, line1),
+                 glyph_h("Spectral-Medium.ttf.dl", SPINE_TEXT_SPECTRAL_PX, line2))
+    scale = min(1.0, usable / base_h) if base_h > 0 and usable > 0 else 0.0
+    sora_px = max(0, int(SPINE_TEXT_SORA_PX * scale))
+    spec_px = max(0, int(SPINE_TEXT_SPECTRAL_PX * scale))
+    pt = round(sora_px / DPI * 72, 1)
+    carries = (spine_mm >= SPINE_TEXT_MIN_MM and sora_px > 0
+               and pt >= SPINE_TEXT_MIN_PT)
+    return {"carries": bool(carries), "sora_px": sora_px, "spectral_px": spec_px,
+            "pt": pt, "usable_px": usable, "base_px": round(base_h, 1)}
 
 
 def spine_mm_for(pages: int, per_page_mm: float | None = None,
@@ -1417,15 +1755,23 @@ def build_cover_file(slug: str, spine_per_page_mm: float | None, spine_mm: float
         back_src = "synthetic"
     canvas.paste(mwc.fit(front, front_w, H), (back_w + spine_w, 0))
 
-    col = mwc.spine_colour(year)
+    col = mwc.spine_colour(year, book)
     canvas.paste(Image.new("RGB", (spine_w, H), col), (back_w, 0))
-    spine_text = spine_mm >= SPINE_TEXT_MIN_MM
+
+    # The spine line is the same in every Prime Book: subject, year, imprint.
+    # A book whose own language is not English may carry its own line from its
+    # library.json row ("spine_line" / "spine_imprint"); every other book is unchanged.
+    # Whether it is set here is measured, not assumed (see spine_text_plan).
+    t1 = meta.get("spine_line") or f"{subject.upper()}  \u00b7  YEAR {year}"
+    t2 = meta.get("spine_imprint") or "PRIME BOOKS"
+    plan = spine_text_plan(spine_mm, spine_w, t1, t2)
+    spine_text = plan["carries"]
     if spine_text:
         from PIL import ImageDraw
         strip = Image.new("RGBA", (H, spine_w), (0, 0, 0, 0))
         sd = ImageDraw.Draw(strip)
-        f1 = mwc.font("Sora.dl", 34)
-        f2 = mwc.font("Spectral-Medium.ttf.dl", 26)
+        f1 = mwc.font("Sora.dl", plan["sora_px"])
+        f2 = mwc.font("Spectral-Medium.ttf.dl", plan["spectral_px"])
         lum = 0.299 * col[0] + 0.587 * col[1] + 0.114 * col[2]
         ink = (32, 38, 48) if lum > 140 else mwc.CREAM
 
@@ -1435,8 +1781,6 @@ def build_cover_file(slug: str, spine_per_page_mm: float | None, spine_mm: float
                     font=f, fill=colour + (255,))
             return sd.textlength(text, font=f)
 
-        t1 = f"{subject.upper()}  \u00b7  YEAR {year}"
-        t2 = "PRIME BOOKS"
         w1, w2 = sd.textlength(t1, font=f1), sd.textlength(t2, font=f2)
         gap = 160
         x0 = (H - (w1 + gap + w2)) // 2
@@ -1473,10 +1817,14 @@ def build_cover_file(slug: str, spine_per_page_mm: float | None, spine_mm: float
         "trim_mm": [TRIM_W_MM, TRIM_H_MM],
         "interior_pages": interior_pages,
         "spine_text": spine_text,
+        "spine_text_pt": plan["pt"],
+        "spine_text_floor_mm": SPINE_TEXT_MIN_MM,
+        "spine_text_clearance_mm": SPINE_TEXT_CLEARANCE_MM,
         "barcode_mm": [BARCODE_MM[0], BARCODE_MM[1]],
         "barcode_ink": barcode_ink,
         "barcode_box_px": barcode_box,
         "spine_confirmed": spine_confirmed,
+        "spine_colour": list(col),
     }
 
 
@@ -2158,6 +2506,11 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
              f"{text['trim_mm'][0]:g} x {text['trim_mm'][1]:g} mm trim "
              f"+ {text['bleed_mm']:g} mm bleed")
     L.append(f"              {text['note']}")
+    # The font-side line the teacher needs when a page had to be shipped as a
+    # raster: BookVault judges the file on the fonts it carries, and a page that
+    # is an image carries none -- say so, with the resolution and the reason.
+    if text.get("outline_note"):
+        L.append(f"              {text['outline_note']}")
     L.append(f"  COVER FILE  {cover['file']}")
     L.append(f"              {cover['px'][0]} x {cover['px'][1]} px at {DPI} DPI "
              f"= {mm(cover['full_cover_mm'][0])} x {mm(cover['full_cover_mm'][1])} mm")
@@ -2245,7 +2598,8 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
 
 def build(slug: str, force: bool = False, do_pdfx: bool = True,
           spine_per_page_mm: float | None = None,
-          spine_mm: float | None = None, pad_12n: bool = False) -> dict:
+          spine_mm: float | None = None, pad_12n: bool = False,
+          cover_only: bool = False) -> dict:
     od = out_dir(slug)
     od.mkdir(parents=True, exist_ok=True)
     text_path = od / f"{slug}-text-file.pdf"
@@ -2257,18 +2611,36 @@ def build(slug: str, force: bool = False, do_pdfx: bool = True,
     pages = doc.page_count
     doc.close()
 
-    fresh = (not force and text_path.is_file() and cover_path.is_file()
-             and text_path.stat().st_mtime > source.stat().st_mtime
-             and cover_path.stat().st_mtime > source.stat().st_mtime)
-    if fresh:
-        text = json.loads((od / "build.json").read_text()) if (od / "build.json").is_file() else None
-        if text and text.get("spine_mm") == spine_mm and \
-           text.get("spine_per_page_mm") == spine_per_page_mm and \
-           bool(text.get("pad_12n")) == bool(pad_12n):
-            return {**text, "reused": True}
+    prev = {}
+    rec_path = od / "build.json"
+    if rec_path.is_file():
+        try:
+            prev = json.loads(rec_path.read_text())
+        except ValueError:
+            prev = {}
+
+    if cover_only:
+        # The cover derives from the book's own page 1 and last page, so a
+        # cover-side change (the spine line, a re-run of the wrap) must not
+        # churn an interior the teacher has already approved: rebuild only the
+        # cover file and keep the interior block exactly as it was built.
+        text = prev.get("text")
+        if not text:
+            raise SystemExit(f"{slug}: --cover-only needs an existing build.json "
+                             f"with its interior block; run a full build first")
+    else:
+        fresh = (not force and text_path.is_file() and cover_path.is_file()
+                 and text_path.stat().st_mtime > source.stat().st_mtime
+                 and cover_path.stat().st_mtime > source.stat().st_mtime)
+        if fresh:
+            stored = prev or None
+            if stored and stored.get("spine_mm") == spine_mm and \
+               stored.get("spine_per_page_mm") == spine_per_page_mm and \
+               bool(stored.get("pad_12n")) == bool(pad_12n):
+                return {**stored, "reused": True}
+        text = build_text_file(slug, force, do_pdfx, pad_12n)
 
     settings = settings_for(slug)
-    text = build_text_file(slug, force, do_pdfx, pad_12n)
     cover = build_cover_file(slug, spine_per_page_mm, spine_mm, force, pad_12n)
     checks = validate(slug, text, cover)
     sheet = write_spec_sheet(slug, text, cover, checks, settings)
@@ -2309,6 +2681,9 @@ def main() -> None:
     ap.add_argument("--spine-mm", type=float, default=None,
                     help="exact spine width in whole mm from BookVault's sizing "
                          "calculator; clears the OPEN spine check")
+    ap.add_argument("--cover-only", action="store_true",
+                    help="rebuild the cover file only, keeping the interior "
+                         "block already recorded in build.json")
     a = ap.parse_args()
 
     slugs = a.slugs
@@ -2317,7 +2692,7 @@ def main() -> None:
     for slug in slugs:
         r = build(slug, force=a.force, do_pdfx=not a.no_pdfx,
                   spine_per_page_mm=a.spine_per_page_mm, spine_mm=a.spine_mm,
-                  pad_12n=a.pad_12n)
+                  pad_12n=a.pad_12n, cover_only=a.cover_only)
         fails = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "fail"]
         opens = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "warn"]
         print(f"{slug}: text {r['text']['pages']}pp "
