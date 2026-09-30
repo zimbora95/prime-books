@@ -12,8 +12,8 @@ over GitHub's 100 MB limit. So the print master is built in VECTOR instead:
     the page's own binding-edge column (a 1 pt strip rendered at 300 dpi and stretched),
     inside BookVault's 20 mm binding zone -- on the covers that strip lands on the spine side
     (a width crop would cut the cover's bottom line);
-  * one blank leaf goes in front of p. 2, so odd folios print on rectos as designed and the
-    block becomes 4n-1 pages (the master must have 4n pages).
+  * one blank leaf goes in front of p. 2, so odd folios print on rectos as designed, and
+    blank end leaves pad the block to 4n-1 pages (the last one is clear for their barcode).
 
 Live-text clearance after the transform is checked first (>= 20 mm gutter, >= 5 mm elsewhere).
 Run from the experiment dir, in the background (PDF/X conversion takes minutes):
@@ -145,7 +145,6 @@ def place_native(dst, cov, i, flat):
 def stage() -> pathlib.Path:
     src = pymupdf.open(MASTER)
     n = src.page_count
-    assert n % 4 == 0, f"master has {n} pages; BookVault's 4n-1 block needs a multiple of 4"
     sys.path.insert(0, str(REPO / "tools"))
     mb = importlib.import_module("make_bookvault_files")
     flat = set()
@@ -159,6 +158,10 @@ def stage() -> pathlib.Path:
     out.new_page(width=W, height=H)                                # blank flyleaf (recto)
     for i in range(1, n - 1):                                      # book p.2 .. p.n-1
         place(out, src, i, binding_left=(i + 1) % 2 == 1, flat=i in flat)
+    interior = out.page_count - 1                                  # everything after the front cover
+    pad = (-(interior + 1)) % 4                                    # BookVault: 4n-1 interior pages
+    for _ in range(pad):                                           # blank end leaves; the last one
+        out.new_page(width=W, height=H)                            # also carries their barcode
     place_native(out, cov, 1, flat=1 in cflat)                     # back cover, native trim
     d = STAGE / SLUG
     if d.exists():
@@ -166,7 +169,7 @@ def stage() -> pathlib.Path:
     d.mkdir(parents=True)
     path = d / "book.pdf"
     out.save(path, garbage=4, deflate=True)
-    print(f"staged {out.page_count} pages ({n} in the master + 1 flyleaf) -> {path} ({path.stat().st_size/1e6:.1f} MB)")
+    print(f"staged {out.page_count} pages ({n} in the master + 1 flyleaf + {pad} blank end leaves) -> {path} ({path.stat().st_size/1e6:.1f} MB)")
     return path
 
 

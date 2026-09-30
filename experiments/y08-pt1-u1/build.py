@@ -83,6 +83,21 @@ def to_pdf(html_path: pathlib.Path, pdf: pathlib.Path):
             }
           });
         }""")
+        # ruled writing lines: real vector rules (one bordered 7.2 mm row per line), because
+        # Chromium prints the CSS gradient/SVG-tile backgrounds as soft, uneven or missing bands
+        pg.evaluate("""() => {
+          const mm = 96 / 25.4, pitch = 7.2 * mm;
+          document.querySelectorAll('.lines').forEach(l => {
+            const n = Math.round(l.getBoundingClientRect().height / pitch);
+            if (!n || l.children.length) return;
+            l.style.backgroundImage = 'none';
+            for (let k = 0; k < n; k++) {
+              const r = document.createElement('i');
+              r.className = 'rule';
+              l.appendChild(r);
+            }
+          });
+        }""")
         # pagination is computed, never typed: parity, folios and cross-references
         pg.evaluate("""() => {
           const secs = [...document.querySelectorAll('section.page')];
@@ -125,9 +140,15 @@ def std_covers(pdf: pathlib.Path):
         print("  (no covers/std-covers-a4.pdf - HTML covers kept)")
         return
     src, c = pymupdf.open(pdf), pymupdf.open(cov)
+    imp = ROOT / "covers" / "std-imprint-a4.pdf"
     out = pymupdf.open()
     out.insert_pdf(c, from_page=0, to_page=0)
-    out.insert_pdf(src, from_page=1, to_page=src.page_count - 2)
+    if imp.exists():   # page 2 of the HTML is the empty #f-std-imprint placeholder
+        assert not src[1].get_text().strip(), "page 2 is not the imprint placeholder"
+        out.insert_pdf(pymupdf.open(imp))
+        out.insert_pdf(src, from_page=2, to_page=src.page_count - 2)
+    else:
+        out.insert_pdf(src, from_page=1, to_page=src.page_count - 2)
     out.insert_pdf(c, from_page=1, to_page=1)
     assert out.page_count == src.page_count
     tmp = pdf.with_suffix(".tmp.pdf")

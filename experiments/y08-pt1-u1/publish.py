@@ -26,6 +26,9 @@ ROW = {
     "display_name": "Português · 8.º ano — Promessa & Veredicto",
     "finished_full": True,
     "preview": [f"/library/{SLUG}/preview/01.webp", f"/library/{SLUG}/preview/02.webp", f"/library/{SLUG}/preview/last.webp"],
+    # the BookVault wrap's spine (make_bookvault_files reads these; default is English)
+    "spine_line": "PORTUGUÊS 1.ª LÍNGUA  ·  8.º ANO",
+    "spine_imprint": "PRIME SCHOOL PRESS",
 }
 
 

@@ -1,9 +1,9 @@
 {
  "slug": "y08-portuguese-1st-anthropic",
- "built": "2026-09-30T17:39:50+00:00",
- "source_pages": 173,
- "source_mtime": 1790789467.027462,
- "source_bytes": 47414038,
+ "built": "2026-09-30T18:39:53+00:00",
+ "source_pages": 177,
+ "source_mtime": 1790792951.3718743,
+ "source_bytes": 47802365,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,13 +16,13 @@
  "text": {
   "file": "y08-portuguese-1st-anthropic-text-file.pdf",
   "url": "/library/y08-portuguese-1st-anthropic/bookvault/y08-portuguese-1st-anthropic-text-file.pdf",
-  "bytes": 49034287,
-  "pages": 171,
-  "content_pages": 171,
+  "bytes": 47921861,
+  "pages": 175,
+  "content_pages": 175,
   "padded_pages": 0,
   "guide_suggested_pages": 179,
   "pad_12n": false,
-  "pages_rule": "12n-1 supply (12n-1); packed 171 content pages, guide p.5 suggests 179 -- blank padding not supplied at the owner's request",
+  "pages_rule": "12n-1 supply (12n-1); packed 175 content pages, guide p.5 suggests 179 -- blank padding not supplied at the owner's request",
   "trim_mm": [
    216.0,
    279.0
@@ -44,15 +44,15 @@
   ],
   "bleed_mm": 3.0,
   "cover_stripped": true,
-  "type3": 0,
+  "type3": 1,
   "text_outlined": false,
   "invisible_text_spans": 0,
   "fonts_outlined": [],
-  "outline_note": "",
-  "pdfx": false,
+  "outline_note": "font check still open -- 10 page(s) lost text in the invisible layer, first page 55",
+  "pdfx": true,
   "flattened": false,
   "transparent_pages": 0,
-  "note": "conversion damaged the file (page 22: ink 7.53% -> 14.44% (rasterised?)) -- kept RGB"
+  "note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text"
  },
  "cover": {
   "file": "y08-portuguese-1st-anthropic-cover-file.pdf",
@@ -79,7 +79,7 @@
    216.0,
    279.0
   ],
-  "interior_pages": 171,
+  "interior_pages": 175,
   "spine_text": true,
   "spine_text_pt": 8.2,
   "spine_text_floor_mm": 4.0,
@@ -118,13 +118,13 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "no point across the cut lines puts a whitish colour against a coloured one (6156 points checked), so no white nick can print",
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (6300 points checked), so no white nick can print",
    "level": "ok"
   },
   {
    "name": "Bleed approximates the artwork at the cut",
    "pass": false,
-   "detail": "261 of 6156 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "detail": "254 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
    "level": "warn"
   },
   {
@@ -142,32 +142,32 @@
   {
    "name": "Live text clears their 20 mm gutter",
    "pass": true,
-   "detail": "closest live text is 32.7 mm off the gutter (page 146); guide p.3 asks for 20 mm",
+   "detail": "closest live text is 32.7 mm off the gutter (page 148); guide p.3 asks for 20 mm",
    "level": "ok"
   },
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": true,
-   "detail": "closest live text is 5.3 mm from the right edge (page 29); their template draws a 5 mm safety line",
+   "detail": "closest live text is 5.3 mm from the right edge (page 31); their template draws a 5 mm safety line",
    "level": "ok"
   },
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "171 single pages, portrait, all 222.0 mm wide",
+   "detail": "175 single pages, portrait, all 222.0 mm wide",
    "level": "ok"
   },
   {
    "name": "Page count is 12n-1",
    "pass": false,
-   "detail": "171 pages (171 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "detail": "175 pages (175 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
    "level": "warn"
   },
   {
    "name": "Last page is clear for their barcode",
-   "pass": false,
-   "detail": "the final page carries content -- their barcode will be printed over it",
-   "level": "warn"
+   "pass": true,
+   "detail": "the final page is blank, so the barcode they add lands on nothing",
+   "level": "ok"
   },
   {
    "name": "Cover pages stripped from the interior",
@@ -183,9 +183,9 @@
   },
   {
    "name": "No Type 3 glyph-program fonts",
-   "pass": true,
-   "detail": "none: every font is a real embedded font file (guide p.3)",
-   "level": "ok"
+   "pass": false,
+   "detail": "1 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves",
+   "level": "warn"
   },
   {
    "name": "Transparency flattened",
@@ -196,7 +196,7 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "22 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI",
+   "detail": "31 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI",
    "level": "warn"
   },
   {
@@ -214,7 +214,7 @@
   {
    "name": "Binding-edge clearance",
    "pass": true,
-   "detail": "closest text is 32.9 mm from the left edge on page 29; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 32.9 mm from the left edge on page 59; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "ok"
   },
   {
@@ -225,9 +225,9 @@
   },
   {
    "name": "Text file is PDF/X-1a:2001 with CMYK",
-   "pass": false,
-   "detail": "conversion damaged the file (page 22: ink 7.53% -> 14.44% (rasterised?)) -- kept RGB",
-   "level": "warn"
+   "pass": true,
+   "detail": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
+   "level": "ok"
   },
   {
    "name": "Cover file is a perfect-bound spread",
@@ -244,7 +244,7 @@
   {
    "name": "Spine width taken from their sizing calculator",
    "pass": false,
-   "detail": "built at 10 mm from 171 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "detail": "built at 10 mm from 175 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
    "level": "warn"
   }
  ],

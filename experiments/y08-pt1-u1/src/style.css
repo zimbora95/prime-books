@@ -230,3 +230,16 @@ img.fit { display: block; width: 100%; height: 100%; object-fit: cover; }
    the rail band still bleeds to the edge, but its label sits on the band's inner side */
 .recto .rail span { transform: translateX(-3.1mm) rotate(90deg); }
 .verso .rail span { transform: translateX(3.1mm) rotate(-90deg); }
+/* Ruled writing lines as a tiled VECTOR rule. The repeating-linear-gradient above prints
+   unreliably from Chromium to PDF (soft 1 mm bands, rules drifting to the top of the
+   period or vanishing: 812 of 1220 rules failed the pixel audit). One 7.2 mm tile, one
+   0.35 mm rule at its foot, same colour. */
+.lines {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 720' preserveAspectRatio='none'><rect x='0' y='685' width='100' height='35' fill='%23b3a891'/></svg>");
+  background-size: 100% 7.2mm;
+  background-repeat: repeat-y;
+}
+.lines > i.rule { display: block; height: 7.2mm; box-sizing: border-box; border-bottom: .35mm solid #b3a891; }
+/* print: no grey desk under the pages -- Chromium paints the html/body background beneath
+   every page, and it peeked through as a grey hairline at a cream page's trimmed corner */
+@media print { html, body { background: var(--paper); } }

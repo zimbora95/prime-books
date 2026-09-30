@@ -995,3 +995,17 @@ ol.mini li { margin-bottom: 1.4mm; }
    spine-side trim and 3.3-28.3 mm up; the wrap enlarges the cover ~2% into a 3 mm bleed */
 .barcode-panel { right: 0; bottom: 0; width: 50mm; height: 33mm; border-radius: 2.4mm 0 0 0; }
 .back .back-foot { padding-right: 52mm; }
+/* 4 · Este manual é teu */
+.own { display: flex; flex-direction: column; }
+.own-id { margin-top: 9mm; display: grid; gap: 5mm; }
+.own-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6mm; }
+.own-promise { margin-top: 11mm; border-top: .3mm solid var(--ink); padding-top: 6mm; }
+.own-promise h2 { font-family: var(--serif); font-style: italic; font-weight: 700; font-size: 15pt; margin: 0 0 2.5mm; }
+.own-promise > p { font-size: 10pt; line-height: 1.55; margin: 0 0 6mm; max-width: 150mm; }
+.own-q { margin-bottom: 6mm; }
+.own-q b { font-size: 10pt; }
+.own-sign { margin-top: auto; display: grid; grid-template-columns: 2fr 1fr; gap: 8mm; }
+/* after the 2-page front-matter insert: refs are one digit longer in places */
+.gi { padding: 2.1mm 0; }
+.own-promise { margin-top: 8mm; }
+.own-id { margin-top: 7mm; }
