@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Portuguese - Year 5
 slug y05-portuguese-anthropic
-generated 2026-09-30 15:43 UTC
+generated 2026-09-30 16:10 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs

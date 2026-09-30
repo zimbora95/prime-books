@@ -123,12 +123,12 @@ def stage() -> pathlib.Path:
     return path
 
 
-def build(spine_mm=None):
+def build(spine_mm=None, cover_only=False):
     sys.path.insert(0, str(REPO / "tools"))
     mb = importlib.import_module("make_bookvault_files")
     mb.LIBRARY = STAGE                          # read the print master, write the pack beside it
-    r = mb.build(SLUG, force=True, do_pdfx=True, spine_per_page_mm=None, spine_mm=spine_mm,
-                 pad_12n=False, cover_only=False)
+    r = mb.build(SLUG, force=not cover_only, do_pdfx=True, spine_per_page_mm=None, spine_mm=spine_mm,
+                 pad_12n=False, cover_only=cover_only)
     fails = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "fail"]
     opens = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "warn"]
     print("FAIL:", fails or "none")
@@ -137,9 +137,7 @@ def build(spine_mm=None):
         if not c["pass"]:
             print(f"  [{c['level']}] {c['name']}: {str(c.get('detail', ''))[:400]}")
     dst = REPO / "public" / "library" / SLUG / "bookvault"
-    if dst.exists():
-        shutil.rmtree(dst)
-    shutil.copytree(STAGE / SLUG / "bookvault", dst)
+    shutil.copytree(STAGE / SLUG / "bookvault", dst, dirs_exist_ok=True)
     print("pack ->", dst)
 
 
@@ -149,4 +147,4 @@ if __name__ == "__main__":
     ok = w["gutter"][0] >= 20 and min(w[e][0] for e in ("outer", "top", "bottom")) >= 5
     print("BookVault margins:", "PASS" if ok else "FAIL")
     stage()
-    build()
+    build(cover_only="--cover-only" in sys.argv)
