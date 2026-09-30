@@ -4,42 +4,55 @@
 <!-- page 1 -->
 
 ---
-## Portuguese 1st
+## Português 1.ª Língua
 
-## Year 8
+## 8.º Ano
 
-Student Manual
+Manual do Aluno
 
 <!-- page 2 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
-## Portuguese 1st
+## Português 1.ª Língua
 
-anations, worked examples and practice that builds,
+8.º Ano · Prime School Press · Manual do Aluno
 
-**INSIDE THIS BOOK**
+**«Um anúncio promete. Um crítico julga. Tu decides.»**
+
+Numa vila da costa, um cinema reabre com a estreia de um filme sobre uma baleia e um
+farol. Ao longo de sete sessões, vais desmontar cartazes, anúncios de rádio e campanhas;
+ler críticas que se contradizem; descobrir o que Fernando Pessoa e um pacote de sal têm
+em comum; e aprender a escrever um slogan que fica no ouvido e uma crítica em que se
+pode confiar. Depois, sete narrativas — de Herculano a Oscar Wilde — mostram-te como
+se constrói uma história e como uma história nos constrói; nove poemas ensinam-te a
+ouvir o verso; o teatro leva tudo isto para o palco; e, no fim, dois testes e um veredicto
+que dás a ti próprio. E, porque só se aprende a julgar livros lendo-os, assinas um contrato
+de leitura contigo próprio.
+
+**NESTE LIVRO**
 
 •
-Carefully sequenced units
+Publicidade, crítica de cinema e de livro
 
 •
-Worked examples in every chapter
+Sete narrativas de formação
 
 •
-Practice that builds from guided to independent
+Nove poemas, oito poetas
 
 •
-Projects and reviews each term
+Teatro: da página ao palco
 
 •
-Designed for the Cambridge classroom
+Rádio ao vivo, revisões e dois testes com critérios
 
-**Prime Books · Portuguese 1st**
+•
+Contrato e diário de leitura
 
-Ages 12–13 · Lower Secondary
+**Prime School Press · Português 1.ª Língua**
+
+12–13 anos · 3.º Ciclo do Ensino Básico
 
 **primeschool.pt**
-
-Student Manual

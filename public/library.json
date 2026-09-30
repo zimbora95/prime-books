@@ -2896,16 +2896,18 @@
     "done": false,
     "pdf": "/library/y08-portuguese-1st-anthropic/book.pdf",
     "cover": "/library/y08-portuguese-1st-anthropic/cover.webp",
-    "mb": 22.43,
+    "mb": 23.93,
     "buildable": false,
     "editable": false,
-    "edition": "Edição 5 (completa): Unidades 1–7 — Promessa & Veredicto · Quem nos faz crescer? · O que cabe num verso? · Sobe o pano · Sessão de encerramento · O teu veredicto · Contrato de leitura. 172 pp. A4; gravações em QR no Wikimedia Commons; pacote BookVault (US Letter).",
+    "edition": "Edição 5 (completa): Unidades 1–7 — Promessa & Veredicto · Quem nos faz crescer? · O que cabe num verso? · Sobe o pano · Sessão de encerramento · O teu veredicto · Contrato de leitura. 172 pp. A4; capas no padrão da coleção (Português 1.ª Língua · 8.º Ano); gravações em QR no Wikimedia Commons; pacote BookVault (US Letter).",
     "display_name": "Português · 8.º ano — Promessa & Veredicto",
     "finished_full": true,
     "preview": [
       "/library/y08-portuguese-1st-anthropic/preview/01.webp",
       "/library/y08-portuguese-1st-anthropic/preview/02.webp",
       "/library/y08-portuguese-1st-anthropic/preview/last.webp"
-    ]
+    ],
+    "spine_line": "PORTUGUÊS 1.ª LÍNGUA  ·  8.º ANO",
+    "spine_imprint": "PRIME SCHOOL PRESS"
   }
 ]

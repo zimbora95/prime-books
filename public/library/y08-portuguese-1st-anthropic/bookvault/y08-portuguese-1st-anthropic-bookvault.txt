@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Portuguese 1st - Year 8
 slug y08-portuguese-1st-anthropic
-generated 2026-09-28 19:48 UTC
+generated 2026-09-30 17:39 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -84,8 +84,8 @@ STEP 3  Checks
          conversion damaged the file (page 22: ink 7.53% -> 14.44% (rasterised?)) -- kept RGB
   [PASS] Cover file is a perfect-bound spread
          447.97 x 284.99 mm = back 216 + spine 10 + front 216 + 3 mm bleed, by their p.18 formula
-  [PASS] Barcode area clear on the back cover
-         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+  [OPEN] Barcode area clear on the back cover
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 2.5% covered by artwork; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
          built at 10 mm from 171 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 

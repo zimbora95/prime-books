@@ -117,6 +117,26 @@ def to_pdf(html_path: pathlib.Path, pdf: pathlib.Path):
         b.close()
 
 
+def std_covers(pdf: pathlib.Path):
+    """Swap page 1 and the last page for the house-standard covers (covers/std_covers.py).
+    The HTML keeps #s1/#s28 as placeholders so the page count and parity stay put."""
+    cov = ROOT / "covers" / "std-covers-a4.pdf"
+    if not cov.exists():
+        print("  (no covers/std-covers-a4.pdf - HTML covers kept)")
+        return
+    src, c = pymupdf.open(pdf), pymupdf.open(cov)
+    out = pymupdf.open()
+    out.insert_pdf(c, from_page=0, to_page=0)
+    out.insert_pdf(src, from_page=1, to_page=src.page_count - 2)
+    out.insert_pdf(c, from_page=1, to_page=1)
+    assert out.page_count == src.page_count
+    tmp = pdf.with_suffix(".tmp.pdf")
+    out.save(tmp, garbage=4, deflate=True)
+    src.close(); out.close()
+    tmp.replace(pdf)
+    print("  covers: house standard (front + back) from", cov.name)
+
+
 def renders(pdf: pathlib.Path, pages=None, dpi=70):
     doc = pymupdf.open(pdf)
     idx = range(len(doc)) if pages is None else [p - 1 for p in pages]
@@ -130,5 +150,6 @@ if __name__ == "__main__":
     h = render_html()
     pdf = BUILD / "book.pdf"
     to_pdf(h, pdf)
+    std_covers(pdf)
     n = renders(pdf, pages)
     print("pages:", n, "size MB:", round(pdf.stat().st_size / 1e6, 2))

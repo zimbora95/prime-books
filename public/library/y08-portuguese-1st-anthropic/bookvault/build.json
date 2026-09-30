@@ -1,9 +1,9 @@
 {
  "slug": "y08-portuguese-1st-anthropic",
- "built": "2026-09-28T19:48:26+00:00",
+ "built": "2026-09-30T17:39:50+00:00",
  "source_pages": 173,
- "source_mtime": 1790624402.590304,
- "source_bytes": 49984688,
+ "source_mtime": 1790789467.027462,
+ "source_bytes": 47414038,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y08-portuguese-1st-anthropic-text-file.pdf",
   "url": "/library/y08-portuguese-1st-anthropic/bookvault/y08-portuguese-1st-anthropic-text-file.pdf",
-  "bytes": 49034094,
+  "bytes": 49034287,
   "pages": 171,
   "content_pages": 171,
   "padded_pages": 0,
@@ -58,7 +58,7 @@
   "file": "y08-portuguese-1st-anthropic-cover-file.pdf",
   "url": "/library/y08-portuguese-1st-anthropic/bookvault/y08-portuguese-1st-anthropic-cover-file.pdf",
   "preview": "/library/y08-portuguese-1st-anthropic/bookvault/y08-portuguese-1st-anthropic-cover-file.png",
-  "bytes": 2217314,
+  "bytes": 1326504,
   "px": [
    5291,
    3366
@@ -88,7 +88,7 @@
    38.0,
    25.0
   ],
-  "barcode_ink": 0.0,
+  "barcode_ink": 0.025,
   "barcode_box_px": [
    2062,
    2996,
@@ -97,9 +97,9 @@
   ],
   "spine_confirmed": false,
   "spine_colour": [
-   91,
-   42,
-   134
+   84,
+   110,
+   158
   ]
  },
  "checks": [
@@ -237,9 +237,9 @@
   },
   {
    "name": "Barcode area clear on the back cover",
-   "pass": true,
-   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK",
-   "level": "ok"
+   "pass": false,
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 2.5% covered by artwork; a barcode is required printing outside the UK",
+   "level": "warn"
   },
   {
    "name": "Spine width taken from their sizing calculator",

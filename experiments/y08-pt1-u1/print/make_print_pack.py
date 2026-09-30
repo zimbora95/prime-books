@@ -96,6 +96,7 @@ def margins():
 
 BUILT = pathlib.Path(__file__).resolve().parent.parent / "src" / "_book.built.html"
 COVER_IDS = ("s1", "s28")
+HERE_COVERS = pathlib.Path(__file__).resolve().parent.parent / "covers"
 
 
 def covers_native() -> pymupdf.Document:
@@ -104,6 +105,11 @@ def covers_native() -> pymupdf.Document:
     or need a smeared strip that shows on cover art. Both covers are full-bleed designs
     anchored to the top and bottom, so they reflow to the new box cleanly."""
     from playwright.sync_api import sync_playwright
+    std = HERE_COVERS / "std-covers-letter.pdf"
+    if std.exists():                    # house-standard covers, built natively at the trim
+        d = pymupdf.open(std)
+        assert d.page_count == 2 and abs(d[0].rect.width - W) < 1 and abs(d[0].rect.height - H) < 1
+        return d
     out = STAGE / "covers.pdf"
     STAGE.mkdir(parents=True, exist_ok=True)
     keep = ",".join("#" + i for i in COVER_IDS)
