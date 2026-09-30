@@ -28,6 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BUILD = os.path.join(HERE, "build")
 REPO = "/root/prime-books"
 MASTER = os.path.join(REPO, "public/library/y05-portuguese/book.pdf")
+FRONT_DY = 44.0   # pt: logo + title block moved down so the print wrap does not crop the logo
 ASSETS = os.path.join(REPO, "tools/cover_assets")
 F_XB = os.path.join(ASSETS, "Poppins-ExtraBold.ttf")
 F_SB = os.path.join(ASSETS, "Poppins-SemiBold.ttf")
@@ -90,12 +91,32 @@ def front(out):
     pg.apply_redactions(images=pymupdf.PDF_REDACT_IMAGE_NONE, graphics=pymupdf.PDF_REDACT_LINE_ART_NONE,
                         text=pymupdf.PDF_REDACT_TEXT_REMOVE)
     assert not pg.get_text().strip(), "front: redaction left text"
+    # The print wrap crops ~13 mm off the top of this page when it is fitted to BookVault's
+    # 216 x 279 mm trim (A4-ish master, taller aspect), which put the logo on the cut. Move the
+    # logo and the title block down by FRONT_DY so they clear the trim and the 5 mm safety line
+    # with room to spare; the art below (from y = 315 pt) is untouched.
+    logo = [im for im in pg.get_image_info(xrefs=True) if im["bbox"][3] < 200]
+    assert len(logo) == 1, logo
+    lx, lb = logo[0]["xref"], pymupdf.Rect(logo[0]["bbox"])
+    pix = pymupdf.Pixmap(out, lx)
+    if pix.alpha == 0:
+        smask = out.xref_get_key(lx, "SMask")[1]
+        if smask not in ("null", ""):
+            pix = pymupdf.Pixmap(pix, pymupdf.Pixmap(out, int(smask.split()[0])))
+    logo_png = pix.tobytes("png")
+    # hide the original placement under the page's own flat cream ground (drawing 0 = full-page fill;
+    # the logo sits inside a form XObject, which redaction does not reach)
+    ground = pg.get_drawings()[0]
+    assert ground["rect"] == pg.rect and ground.get("fill"), ground
+    pg.draw_rect(lb + (-1, -1, 1, 1), color=None, fill=ground["fill"], overlay=True)
+    pg.insert_image(lb + (0, FRONT_DY, 0, FRONT_DY), stream=logo_png)
     for old, (new, ff) in want.items():
         s = found[old]
         c = s["color"]
         rgb = ((c >> 16 & 255) / 255, (c >> 8 & 255) / 255, (c & 255) / 255)
         name = {F_XB: "PoppinsXB", F_SB: "PoppinsSB", F_AN: "Andika"}[ff]
-        pg.insert_text(s["origin"], new, fontsize=s["size"], fontname=name, fontfile=ff, color=rgb)
+        o = s["origin"]
+        pg.insert_text((o[0], o[1] + FRONT_DY), new, fontsize=s["size"], fontname=name, fontfile=ff, color=rgb)
     return [(s["text"], s["font"], round(s["size"], 2), hex(s["color"]), [round(v, 1) for v in s["origin"]]) for s in spans]
 
 
