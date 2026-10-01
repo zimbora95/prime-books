@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-30 03:14 UTC",
+ "generated": "2026-10-01 03:14 UTC",
  "totals": {
   "books": 131,
-  "pages": 13598,
+  "pages": 13600,
   "withInput": 88,
   "noInput": 43,
   "standardized": 0,
@@ -1327,7 +1327,7 @@
     {
      "slug": "y08-portuguese-1st-anthropic",
      "subject": "Portuguese 1st",
-     "pages": 172,
+     "pages": 174,
      "input": null,
      "standardized": false
     },
@@ -1358,7 +1358,7 @@
    ],
    "withInput": 7,
    "standardized": 0,
-   "pages": 1084
+   "pages": 1086
   },
   {
    "year": 9,
@@ -1620,6 +1620,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-09-30 03:00 UTC",
+ "checked_at": "2026-10-01 03:00 UTC",
  "spec": "A-2.3-Y1-4"
 }
