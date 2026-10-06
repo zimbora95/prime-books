@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Global Perspectives - Year 8
 slug y08-global-perspectives
-generated 2026-10-06 19:56 UTC
+generated 2026-10-06 22:34 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -22,8 +22,8 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
-  Content position ... content moved 12.3 mm toward the outer edge and 0.5 mm down: closest live text is now 17.4 mm off the gutter (was 5.1), 6.0 mm from the outer trim (was 18.3) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 10, 8.1 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm
-  Page size ......... master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 72/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
+  Content position ... content moved 12.0 mm toward the outer edge and 0.5 mm down: closest live text is now 17.2 mm off the gutter (was 5.1), 6.0 mm from the outer trim (was 18.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 10, 8.1 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm
+  Page size ......... master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 78/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
@@ -31,7 +31,7 @@ STEP 2  Upload the two files
   TEXT FILE   y08-global-perspectives-text-file.pdf
               238 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
               kept RGB: 3 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 1 pages (the flattening pass could not clear it)
-              font check still open -- 2 page(s) lost text in the invisible layer, first page 14 (missing 'eoinstar')
+              font check still open -- 2 page(s) lost text in the invisible layer, first page 14 (missing 'eoitnsar')
   COVER FILE  y08-global-perspectives-cover-file.pdf
               5339 x 3366 px at 300 DPI = 452.04 x 284.99 mm
               = back 216 + spine 14 + front 216 + 3 mm bleed (guide p.18)
@@ -48,15 +48,15 @@ STEP 3  Checks
   [PASS] Bleed continues the page edge
          no point across the cut lines puts a whitish colour against a coloured one (8568 points checked), so no white nick can print
   [OPEN] Bleed approximates the artwork at the cut
-         217 of 8568 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
+         223 of 8568 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
   [OPEN] Bleed seam matches the artwork
           -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected
   [FAIL] Live text clears their 20 mm gutter
-         closest live text is 17.4 mm off the gutter (page 10); guide p.3 asks for 20 mm
+         closest live text is 17.2 mm off the gutter (page 10); guide p.3 asks for 20 mm
   [PASS] Live text clears their 5 mm trim safety
-         closest live text is 6.0 mm from the right edge (page 23); their template draws a 5 mm safety line
+         closest live text is 6.0 mm from the right edge (page 1); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
          238 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
@@ -72,13 +72,13 @@ STEP 3  Checks
   [OPEN] Transparency flattened
          1 pages still carry it (page 58: image soft mask); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)
   [OPEN] Images at 300 DPI or better
-         101 below 300 DPI, e.g. page 2: 300 DPI; page 3: 299 DPI; page 3: 299 DPI
+         176 below 300 DPI, e.g. page 2: 150 DPI; page 2: 150 DPI; page 2: 150 DPI
   [PASS] Master page box fitted to their trim
-         master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 72/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
+         master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 78/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
   [PASS] Artwork covers the printed area
-         the artwork reaches 3.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 9.3 mm inside the trim -- within the binding zone and the page's own edge colour
+         the artwork reaches 3.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 9.0 mm inside the trim -- within the binding zone and the page's own edge colour
   [OPEN] Binding-edge clearance
-         closest text is 17.4 mm from the right edge on page 40; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         closest text is 17.2 mm from the right edge on page 40; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [OPEN] Text file is PDF/X-1a:2001 with CMYK
@@ -86,7 +86,7 @@ STEP 3  Checks
   [PASS] Cover file is a perfect-bound spread
          452.04 x 284.99 mm = back 216 + spine 14 + front 216 + 3 mm bleed, by their p.18 formula
   [OPEN] Barcode area clear on the back cover
-         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 38.3% covered by artwork; a barcode is required printing outside the UK
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 2.7% covered by artwork; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
          built at 14 mm from 238 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 

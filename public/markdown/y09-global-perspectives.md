@@ -4,28 +4,77 @@
 <!-- page 1 -->
 
 ---
-## Prime Books
+## Global Perspectives
 
-## Global
-## Perspectives
-## 9
-## Stage 9  Student’s Book
-Look closer. Think wider.
+## Year 9
+
+Student Manual
 
 <!-- page 2 -->
 
 ---
-## Prime Books
+**P R I M E  S C H O O L  P R E S S**
 
-## Global
-## Perspectives
-## 9
-## Stage 9
+## Global Perspectives
+
+**Year 9 · Student Book**
 
 Look closer. Think wider.
 
-**Student's Book**
-**Seven units, one full year**
+Seven units, one full year — a student's book for Stage 9.
+
+**I N S I D E  T H I S  B O O K**
+
+Seven units, one for each skill, and a final research
+report — from microbes to mock trials
+
+Every unit ends with a Level up page showing what
+a top answer looks like
+
+A Skills toolkit that explains command words
+and every skill, step by step
+
+Real research, real sources: checklists, case
+files and evidence files throughout
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Global Perspectives 9 · Student Book. Full colour, 216 × 303
+mm, 174 pages. Cambridge Lower Secondary pathway; an independent
+publication, not certified or endorsed by Cambridge University Press &
+Assessment. ISBN to be assigned; printed on demand.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**DATA & LINKS**
+Data sources are listed at the end of each unit; charts and maps were drawn by
+Prime Books from the data cited. Websites and QR codes were checked on 3
+October 2026 — websites change, so if a link stops working, search for the
+organisation and page title printed beside the code.
+
+**CREDITS**
+Editorial Board. Illustrations created for Prime Books with AI image-generation
+tools under human art direction. Type: Archivo, Atkinson Hyperlegible Next and
+Caveat (SIL Open Font License). The health information in this book is for
+learning; it is not medical advice.
+
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**A g e s  1 3 – 1 4  ·  L o w e r  S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
+**2**
 
 <!-- page 3 -->
 
@@ -9156,40 +9205,36 @@ The model extract on page 139, its sources and figures, and the practice data on
 <!-- page 174 -->
 
 ---
-## Look closer.
-## Think wider.
+**P R I M E  S C H O O L  P R E S S**
 
-A full-year student’s book for Stage 9 Global Perspectives. Seven units, one for each skill
-and a final research report, take you from microbes to mock trials, from tourism to fair
-shares.
+## Global Perspectives
 
-Every unit ends with a Level up page showing what a top answer looks like. A Skills toolkit
-explains command words and every skill, step by step.
+Year 9 · Prime School Press · Student Manual
 
-**1**
-**Can disease be prevented?**
+**Look closer. Think wider.**
 
-**2**
-**Understanding each other**
+A full-year student's book for Stage 9 Global Perspectives. Seven units, one for each skill and
+a final research report, take you from microbes to mock trials, from tourism to fair shares.
+Every unit ends with a Level up page showing what a top answer looks like.
 
-**3**
-**Sport for all?**
+**INSIDE THIS BOOK**
 
-**4**
-**Feeling safe**
+•
+Seven units: Can disease be prevented? · Understanding each other ·
 
-**5**
-**Is tourism good for everyone?**
+Sport for all? · Feeling safe · Is tourism good for everyone? · Fair
+shares? · Your research report
+•
+A Skills toolkit: command words and every skill, step by step
 
-**6**
-**Fair shares?**
+•
+Level up pages: what a top answer looks like
 
-**7**
-**Your research report**
+•
+Real research: checklists, case files and evidence files throughout
 
-Written for the Cambridge Lower Secondary Global Perspectives curriculum framework, Stage 9. An independent
-publication, not endorsed by Cambridge University Press & Assessment.
+**Prime School Press · Global Perspectives**
 
-ISBN barcode area
+Ages 13–14 · Lower Secondary
 
-**Prime Books**
+**primeschool.pt**

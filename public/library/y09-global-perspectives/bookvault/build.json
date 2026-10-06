@@ -1,9 +1,9 @@
 {
  "slug": "y09-global-perspectives",
- "built": "2026-10-06T19:21:41+00:00",
+ "built": "2026-10-06T22:37:35+00:00",
  "source_pages": 174,
- "source_mtime": 1791313304.4693797,
- "source_bytes": 121935937,
+ "source_mtime": 1791324175.6391735,
+ "source_bytes": 15406101,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y09-global-perspectives-text-file.pdf",
   "url": "/library/y09-global-perspectives/bookvault/y09-global-perspectives-text-file.pdf",
-  "bytes": 47522064,
+  "bytes": 969824,
   "pages": 172,
   "content_pages": 172,
   "padded_pages": 0,
@@ -28,12 +28,12 @@
    279.0
   ],
   "page_fit_scale": 1.0,
-  "page_fit_note": "master 216.0 x 303.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 141/255). Enlarging it would move its text further outside their gutter and trim margins rather than closer, so the page is placed 1:1 and its type sizes are untouched; the outer 0.00 mm of the printed page carries a soft continuation of the page edge. Re-export this master at 216 x 279 mm with wider margins to remove it",
+  "page_fit_note": "master 216.0 x 303.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 36/255). Enlarging it would move its text further outside their gutter and trim margins rather than closer, so the page is placed 1:1 and its type sizes are untouched; the outer 0.00 mm of the printed page carries a soft continuation of the page edge. Re-export this master at 216 x 279 mm with wider margins to remove it",
   "content_shift_mm": [
-   0.0,
+   0.21,
    0.0
   ],
-  "content_shift_note": "the master already carries their 20 mm binding margin (23.0 mm off the gutter as built), so the page is placed 1:1 on the trim and nothing is moved: no sliver opens at the gutter for the smear to fill",
+  "content_shift_note": "content moved 0.2 mm toward the outer edge and 0.0 mm down: closest live text is now 20.0 mm off the gutter (was 19.8), 6.0 mm from the outer trim (was 6.2) and 5.5 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 1, 19.8 mm off the gutter); the full 1 mm headroom will not fit, the rule itself does",
   "media_mm": [
    222.0,
    285.0
@@ -50,15 +50,15 @@
   "fonts_outlined": [],
   "outline_note": "",
   "pdfx": false,
-  "flattened": false,
-  "transparent_pages": 172,
-  "note": "conversion damaged the file (page 1: ink 5.94% -> 3.82% (rasterised?)) -- kept RGB; transparency left on 172 pages (the flattening pass could not clear it)"
+  "flattened": true,
+  "transparent_pages": 0,
+  "note": "conversion damaged the file (page 43: ink 3.07% -> 0.76% (rasterised?)) -- kept RGB"
  },
  "cover": {
   "file": "y09-global-perspectives-cover-file.pdf",
   "url": "/library/y09-global-perspectives/bookvault/y09-global-perspectives-cover-file.pdf",
   "preview": "/library/y09-global-perspectives/bookvault/y09-global-perspectives-cover-file.png",
-  "bytes": 1171846,
+  "bytes": 1125352,
   "px": [
    5291,
    3366
@@ -88,7 +88,7 @@
    38.0,
    25.0
   ],
-  "barcode_ink": 0.5171,
+  "barcode_ink": 0.475,
   "barcode_box_px": [
    2062,
    2996,
@@ -97,9 +97,9 @@
   ],
   "spine_confirmed": false,
   "spine_colour": [
-   226,
-   51,
-   107
+   196,
+   148,
+   58
   ]
  },
  "checks": [
@@ -118,7 +118,7 @@
   {
    "name": "Bleed continues the page edge",
    "pass": false,
-   "detail": "19 of 6192 points put a whitish colour against a coloured one -- a white sliver would print",
+   "detail": "145 of 6192 points put a whitish colour against a coloured one -- a white sliver would print",
    "level": "fail"
   },
   {
@@ -129,20 +129,20 @@
   },
   {
    "name": "Bleed seam matches the artwork",
-   "pass": false,
-   "detail": " -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected",
-   "level": "warn"
+   "pass": true,
+   "detail": "the smear meets the page with no visible step in the bleed",
+   "level": "ok"
   },
   {
    "name": "Live text clears their 20 mm gutter",
-   "pass": true,
-   "detail": "closest live text is 23.0 mm off the gutter (page 18); guide p.3 asks for 20 mm",
-   "level": "ok"
+   "pass": false,
+   "detail": "closest live text is 20.0 mm off the gutter (page 1); guide p.3 asks for 20 mm",
+   "level": "fail"
   },
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": false,
-   "detail": "closest live text is 0.4 mm from the bottom edge (page 3); their template draws a 5 mm safety line",
+   "detail": "closest live text is 0.4 mm from the bottom edge (page 158); their template draws a 5 mm safety line",
    "level": "fail"
   },
   {
@@ -183,33 +183,33 @@
   },
   {
    "name": "Transparency flattened",
-   "pass": false,
-   "detail": "172 pages still carry it (page 1: transparency group); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)",
-   "level": "warn"
+   "pass": true,
+   "detail": "no soft masks, transparency groups or blend modes left (guide p.3) -- cleared by a Ghostscript flattening pass",
+   "level": "ok"
   },
   {
    "name": "Images at 300 DPI or better",
-   "pass": false,
-   "detail": "2 below 300 DPI, e.g. page 1: 254 DPI; page 1: 254 DPI",
-   "level": "warn"
+   "pass": true,
+   "detail": "every image is 300 DPI or better (guide p.9)",
+   "level": "ok"
   },
   {
    "name": "Master page box fitted to their trim",
    "pass": true,
-   "detail": "master 216.0 x 303.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 141/255). Enlarging it would move its text further outside their gutter and trim margins rather than closer, so the page is placed 1:1 and its type sizes are untouched; the outer 0.00 mm of the printed page carries a soft continuation of the page edge. Re-export this master at 216 x 279 mm with wider margins to remove it",
+   "detail": "master 216.0 x 303.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 36/255). Enlarging it would move its text further outside their gutter and trim margins rather than closer, so the page is placed 1:1 and its type sizes are untouched; the outer 0.00 mm of the printed page carries a soft continuation of the page edge. Re-export this master at 216 x 279 mm with wider margins to remove it",
    "level": "ok"
   },
   {
    "name": "Artwork covers the printed area",
    "pass": true,
-   "detail": "the artwork reaches -0.0 mm past the 216 x 279 mm trim on every visible edge",
+   "detail": "the artwork reaches 0.2 mm past the 216 x 279 mm trim on every visible edge",
    "level": "ok"
   },
   {
    "name": "Binding-edge clearance",
-   "pass": true,
-   "detail": "closest text is 23.0 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
-   "level": "ok"
+   "pass": false,
+   "detail": "closest text is 20.0 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "level": "warn"
   },
   {
    "name": "No trim or bleed marks",
@@ -220,7 +220,7 @@
   {
    "name": "Text file is PDF/X-1a:2001 with CMYK",
    "pass": false,
-   "detail": "conversion damaged the file (page 1: ink 5.94% -> 3.82% (rasterised?)) -- kept RGB; transparency left on 172 pages (the flattening pass could not clear it)",
+   "detail": "conversion damaged the file (page 43: ink 3.07% -> 0.76% (rasterised?)) -- kept RGB",
    "level": "warn"
   },
   {
@@ -232,7 +232,7 @@
   {
    "name": "Barcode area clear on the back cover",
    "pass": false,
-   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 51.7% covered by artwork; a barcode is required printing outside the UK",
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 47.5% covered by artwork; a barcode is required printing outside the UK",
    "level": "warn"
   },
   {

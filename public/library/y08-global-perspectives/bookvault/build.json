@@ -1,9 +1,9 @@
 {
  "slug": "y08-global-perspectives",
- "built": "2026-10-06T19:56:35+00:00",
+ "built": "2026-10-06T22:34:36+00:00",
  "source_pages": 240,
- "source_mtime": 1791313304.0853462,
- "source_bytes": 136468659,
+ "source_mtime": 1791324171.6188223,
+ "source_bytes": 27902811,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y08-global-perspectives-text-file.pdf",
   "url": "/library/y08-global-perspectives/bookvault/y08-global-perspectives-text-file.pdf",
-  "bytes": 106825018,
+  "bytes": 38295760,
   "pages": 238,
   "content_pages": 238,
   "padded_pages": 0,
@@ -28,12 +28,12 @@
    279.0
   ],
   "page_fit_scale": 1.0,
-  "page_fit_note": "master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 72/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it",
+  "page_fit_note": "master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 78/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it",
   "content_shift_mm": [
-   12.26,
+   12.04,
    0.45
   ],
-  "content_shift_note": "content moved 12.3 mm toward the outer edge and 0.5 mm down: closest live text is now 17.4 mm off the gutter (was 5.1), 6.0 mm from the outer trim (was 18.3) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 10, 8.1 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm",
+  "content_shift_note": "content moved 12.0 mm toward the outer edge and 0.5 mm down: closest live text is now 17.2 mm off the gutter (was 5.1), 6.0 mm from the outer trim (was 18.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 10, 8.1 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm",
   "media_mm": [
    222.0,
    285.0
@@ -48,7 +48,7 @@
   "text_outlined": false,
   "invisible_text_spans": 0,
   "fonts_outlined": [],
-  "outline_note": "font check still open -- 2 page(s) lost text in the invisible layer, first page 14 (missing 'eoinstar')",
+  "outline_note": "font check still open -- 2 page(s) lost text in the invisible layer, first page 14 (missing 'eoitnsar')",
   "pdfx": false,
   "flattened": false,
   "transparent_pages": 1,
@@ -58,7 +58,7 @@
   "file": "y08-global-perspectives-cover-file.pdf",
   "url": "/library/y08-global-perspectives/bookvault/y08-global-perspectives-cover-file.pdf",
   "preview": "/library/y08-global-perspectives/bookvault/y08-global-perspectives-cover-file.png",
-  "bytes": 1241310,
+  "bytes": 1235993,
   "px": [
    5339,
    3366
@@ -88,7 +88,7 @@
    38.0,
    25.0
   ],
-  "barcode_ink": 0.3829,
+  "barcode_ink": 0.0267,
   "barcode_box_px": [
    2062,
    2996,
@@ -97,9 +97,9 @@
   ],
   "spine_confirmed": false,
   "spine_colour": [
-   91,
-   42,
-   134
+   84,
+   110,
+   158
   ]
  },
  "checks": [
@@ -124,7 +124,7 @@
   {
    "name": "Bleed approximates the artwork at the cut",
    "pass": false,
-   "detail": "217 of 8568 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "detail": "223 of 8568 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
    "level": "warn"
   },
   {
@@ -142,13 +142,13 @@
   {
    "name": "Live text clears their 20 mm gutter",
    "pass": false,
-   "detail": "closest live text is 17.4 mm off the gutter (page 10); guide p.3 asks for 20 mm",
+   "detail": "closest live text is 17.2 mm off the gutter (page 10); guide p.3 asks for 20 mm",
    "level": "fail"
   },
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": true,
-   "detail": "closest live text is 6.0 mm from the right edge (page 23); their template draws a 5 mm safety line",
+   "detail": "closest live text is 6.0 mm from the right edge (page 1); their template draws a 5 mm safety line",
    "level": "ok"
   },
   {
@@ -196,25 +196,25 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "101 below 300 DPI, e.g. page 2: 300 DPI; page 3: 299 DPI; page 3: 299 DPI",
+   "detail": "176 below 300 DPI, e.g. page 2: 150 DPI; page 2: 150 DPI; page 2: 150 DPI",
    "level": "warn"
   },
   {
    "name": "Master page box fitted to their trim",
    "pass": true,
-   "detail": "master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 72/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it",
+   "detail": "master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 78/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer -3.00 mm (sides) and -3.00 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it",
    "level": "ok"
   },
   {
    "name": "Artwork covers the printed area",
    "pass": true,
-   "detail": "the artwork reaches 3.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 9.3 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "detail": "the artwork reaches 3.5 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 9.0 mm inside the trim -- within the binding zone and the page's own edge colour",
    "level": "ok"
   },
   {
    "name": "Binding-edge clearance",
    "pass": false,
-   "detail": "closest text is 17.4 mm from the right edge on page 40; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 17.2 mm from the right edge on page 40; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "warn"
   },
   {
@@ -238,7 +238,7 @@
   {
    "name": "Barcode area clear on the back cover",
    "pass": false,
-   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 38.3% covered by artwork; a barcode is required printing outside the UK",
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 2.7% covered by artwork; a barcode is required printing outside the UK",
    "level": "warn"
   },
   {

@@ -4,91 +4,77 @@
 <!-- page 1 -->
 
 ---
-P R I M E
+## Global Perspectives
 
-B O O K S
-P
+## Year 8
 
-LEARNER’S BOOK
-
-CAMBRIDGE LOWER SECONDARY
-
-Global
-Perspectives 8
-
-S T A G E
-
-Six challenges. Three lenses.
-One world — and it’s changing fast.
-
-AGES 12–13
-RESEARCH
-ANALYSIS
-EVALUATION
-REFLECTION
-COLLABORATION
-COMMUNICATION
-
-INÊS · LISBON
-AMARA · LAGOS
-MATEO · CUSCO
-JI-WOO · SEOUL
+Student Manual
 
 <!-- page 2 -->
 
 ---
-THIS BOOK BELONGS TO
-A future-maker called…
+**P R I M E  S C H O O L  P R E S S**
 
-NAME
+## Global Perspectives
 
-CLASS
+**Year 8 · Student Book**
 
-SCHOOL · TOWN · COUNTRY
+Six challenges. Three lenses. One world.
 
-ADMIT ONE · YEAR 2050
+For everyone who is going to live in the future. That means you.
 
-In 2050 I will be ______
-years old. I think my
-world will be…
+**I N S I D E  T H I S  B O O K**
 
-For everyone who is going to live in the future.
-That means you.
+Six six-hour Challenges mapped to the Cambridge
+Lower Secondary Global Perspectives framework
 
-PRIME BOOKS · Global Perspectives · Stage 8 · Learner’s Book. First edition
-2026. Text, design and illustrations © Prime Books 2026. All rights reserved. No
-part of this publication may be reproduced, stored or transmitted in any form
-without the prior written permission of the publisher, except for pages marked as
-photocopiable for classroom use.
+Real data, checked — up-to-date evidence from the
+UN, OECD, UNESCO and more, always referenced
 
-ISBN: to be assigned. Printed on demand by bookvault.
+Learn by doing: surveys, futures wheels, design
+studios and write-in activities on every spread
 
-This book was written to support the Cambridge Lower Secondary Global
-Perspectives (1129) curriculum framework and its Stage 8 learning objectives. It
-has not been through the Cambridge International endorsement process.
-Cambridge, Cambridge Lower Secondary and Cambridge Global Perspectives are
-trademarks of Cambridge University Press & Assessment.
+Six thinking tools — PROVE IT, The Mirror,
+SLICE IT, the Research Loop, REACH and the
+Message Maker
 
-Data. Every statistic was checked against a primary or official source (UN
-agencies, the OECD, the World Bank and others) in October 2026. Each unit ends
-with a full list of its sources — a model of how to reference your own research.
+**I M P R I N T**
 
-Links. QR codes lead to free, public websites that were checked when this book
-went to press. Websites change: teachers should check each link before use, and
+**EDITION**
+First edition, 2026. Global Perspectives 8 · Student Book. Full colour, 222 × 285
+mm, 240 pages. An independent publication for the Cambridge Lower Secondary
+pathway; not endorsed by Cambridge. ISBN to be assigned; printed on demand.
 
-learners should always go online with an adult’s permission.
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Illustrations were created for Prime Books with AI image-generation tools under
-human art direction. All characters are fictional. Diagrams and charts are drawn
-from the data cited.
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored or transmitted in any form without the prior written
+permission of the publisher, except for pages marked as photocopiable for
+classroom use.
 
-Type. Bricolage Grotesque, Fraunces, JetBrains Mono and Atkinson Hyperlegible
-Next — designed with the Braille Institute so that every letter is easy to tell apart.
+**DATA & LINKS**
+Statistics checked against primary or official sources (UN agencies, the OECD, the
+World Bank) in October 2026; each unit lists its sources. QR codes lead to free,
+public websites checked at press time — teachers should check each link before
+use.
 
-All are open-licence fonts.
+**CREDITS**
+Editorial Board. Illustrations created for Prime Books with AI image-generation
+tools under human art direction; all characters are fictional. Type: Bricolage
+Grotesque, Fraunces, JetBrains Mono, Atkinson Hyperlegible Next.
 
-2
-PRIME GLOBAL PERSPECTIVES 8
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
+
+**A g e s  1 2 – 1 3  ·  L o w e r  S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
+**2**
 
 <!-- page 3 -->
 
@@ -21345,72 +21331,41 @@ CREDITS
 <!-- page 240 -->
 
 ---
-Six challenges.
-Three lenses. One world.
+**P R I M E  S C H O O L  P R E S S**
 
-Whose predictions should we trust? What makes me who I am? Why do people eat what they eat? Can we use
-the planet without using it up? Who decides what help is needed? How can one message change many minds?
-Join Inês, Amara, Mateo and Ji-woo — four students in four countries — as they tackle real questions with
-real evidence, and build the six skills at the heart of Global Perspectives: research, analysis, evaluation,
-reflection, collaboration and communication.
+## Global Perspectives
 
-Built for Stage 8
+Year 8 · Prime School Press · Student Manual
 
-Six six-hour Challenges mapped to the Cambridge Lower Secondary
-Global Perspectives framework.
+**Six challenges. Three lenses. One world.**
 
-Real data, checked
+Whose predictions should we trust? What makes me who I am? Why do people eat what they
+eat? Can we use the planet without using it up? Who decides what help is needed? How can one
+message change many minds? Join Inês, Amara, Mateo and Ji-woo — four students in four
+countries — as they tackle real questions with real evidence, and build the six skills at the heart
+of Global Perspectives: research, analysis, evaluation, reflection, collaboration and
+communication.
 
-Up-to-date evidence from the UN, OECD, UNESCO and more —
-always referenced.
+**INSIDE THIS BOOK**
 
-Learn by doing
+•
+Six Challenges: Signals from Tomorrow · The Map of Me · On Your Plate
 
-Surveys, futures wheels, design studios and write-in activities on
-every spread.
+· Running on Empty? · What Everyone Needs · Make Some Noise
+•
+Built for Stage 8: six-hour Challenges mapped to the Cambridge Lower
 
-Six thinking tools
+Secondary framework
+•
+Real data, checked: UN, OECD, UNESCO and more — always referenced
 
-PROVE IT, The Mirror, SLICE IT, the Research Loop, REACH and the
-Message Maker — habits for any subject.
+•
+Six thinking tools: PROVE IT, The Mirror, SLICE IT, the Research Loop,
 
-1
+REACH, the Message Maker
 
-Signals from Tomorrow
+**Prime School Press · Global Perspectives**
 
-2
+Ages 12–13 · Lower Secondary
 
-The Map of Me
-
-3
-
-On Your Plate
-
-4
-
-Running on Empty?
-
-5
-
-What Everyone Needs
-
-6
-
-Make Some Noise
-
-INÊS
-
-AMARA
-
-MATEO
-
-JI-WOO
-
-P R I M E
-
-B O O K S
-P
-
-Written to support the Cambridge Lower Secondary Global Perspectives (1129)
-curriculum framework. Not endorsed by Cambridge University Press &
-Assessment.
+**primeschool.pt**
