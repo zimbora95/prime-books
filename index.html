@@ -7601,8 +7601,16 @@ function rr(x, px, py, w, h, r) {
          (/book/<slug>/amazon). A real navigation, not pushState, because
          amazon.html is its own document — the flipbook session survives
          via the browser's back button / the page's Back button. */
+      /* A brand card on /finished carries a virtual slug (base + "-<brand>")
+         that only edition books own; the pack pages key on a real library
+         row, so fall back to the base slug when the exact one is not one. */
+      function packPageSlug(meta) {
+        if (!meta) return "";
+        if (meta.slug && BOOK_BY_SLUG[meta.slug]) return meta.slug;
+        return meta.baseSlug || meta.slug || "";
+      }
       document.getElementById("fbAmazonBtn").addEventListener("click", () => {
-        const slug = fbBookMeta && fbBookMeta.slug;
+        const slug = packPageSlug(fbBookMeta);
         if (slug) location.href = "/book/" + slug + "/amazon";
       });
       /* BookVault print pack: /book/<slug>/bookvault, same route family. That
@@ -7611,7 +7619,7 @@ function rr(x, px, py, w, h, r) {
          with no PDF yet have nothing to build, so they toast instead. */
       document.getElementById("fbVaultBtn").addEventListener("click", () => {
         const meta = fbBookMeta;
-        const slug = meta && meta.slug;
+        const slug = packPageSlug(meta);
         if (!slug) return;
         if (!meta.pdf || !meta.pdfUrl) {
           toast("This book has no PDF yet, so there is nothing to prepare for BookVault.");

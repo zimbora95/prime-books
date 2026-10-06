@@ -331,6 +331,18 @@
             if (Array.isArray(rows)) {
               for (var i = 0; i < rows.length; i++)
                 if (rows[i] && rows[i].slug === slug) { row = rows[i]; break; }
+              if (!row) {
+                /* Brand cards on /finished link here with a virtual slug
+                   (base + "-<brand>") that only edition books own. Fall back
+                   to the base row so the pack page works from every card. */
+                var base = slug
+                  .replace(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/, "")
+                  .replace(/-standard$/, "");
+                if (base !== slug) {
+                  for (var j = 0; j < rows.length; j++)
+                    if (rows[j] && rows[j].slug === base) { row = rows[j]; slug = base; break; }
+                }
+              }
             }
             cb();
           }, cb);
