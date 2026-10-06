@@ -4784,15 +4784,19 @@ Prime School Press · www.primeschool.pt
 <!-- page 118 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Global Perspectives
+
+Year 6 · Prime School Press · Student Manual
 
 Six units, six questions about the world.
 
 Improving communications, obeying the law, globalisation, the world of work,
 
-rking with other countries, the digital world. Research it, debate it, then act on
+working with other countries, the digital world. Research it, debate it, then act on
+
+it.
 
 **INSIDE THIS BOOK**
 
@@ -4811,10 +4815,8 @@ A team project in every unit
 •
 QR codes for every unit, adult-supervised
 
-**Prime Books · Global Perspectives**
+**Prime School Press · Global Perspectives**
 
 Ages 10–11 · Upper Primary
 
 **primeschool.pt**
-
-              

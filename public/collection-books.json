@@ -370,6 +370,12 @@
     "cover": "/collection-covers/Y08-English.webp"
   },
   {
+    "key": "Y08-GlobalPerspectives",
+    "year": 8,
+    "subject": "Global Perspectives",
+    "cover": "/collection-covers/Y08-GlobalPerspectives.webp"
+  },
+  {
     "key": "Y08-HumanitiesHistoryGeography",
     "year": 8,
     "subject": "Humanities (History & Geography)",
@@ -434,6 +440,12 @@
     "year": 9,
     "subject": "English",
     "cover": "/collection-covers/Y09-English.webp"
+  },
+  {
+    "key": "Y09-GlobalPerspectives",
+    "year": 9,
+    "subject": "Global Perspectives",
+    "cover": "/collection-covers/Y09-GlobalPerspectives.webp"
   },
   {
     "key": "Y09-HumanitiesHistoryGeography",
