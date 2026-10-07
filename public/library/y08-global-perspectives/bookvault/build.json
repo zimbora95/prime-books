@@ -1,9 +1,9 @@
 {
  "slug": "y08-global-perspectives",
- "built": "2026-10-07T01:07:47+00:00",
+ "built": "2026-10-07T01:56:07+00:00",
  "source_pages": 240,
- "source_mtime": 1791333690.8785617,
- "source_bytes": 27902814,
+ "source_mtime": 1791336569.2690485,
+ "source_bytes": 27916525,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y08-global-perspectives-text-file.pdf",
   "url": "/library/y08-global-perspectives/bookvault/y08-global-perspectives-text-file.pdf",
-  "bytes": 38295760,
+  "bytes": 36884898,
   "pages": 238,
   "content_pages": 238,
   "padded_pages": 0,
@@ -44,15 +44,15 @@
   ],
   "bleed_mm": 3.0,
   "cover_stripped": true,
-  "type3": 3,
+  "type3": 0,
   "text_outlined": false,
   "invisible_text_spans": 0,
   "fonts_outlined": [],
-  "outline_note": "font check still open -- 2 page(s) lost text in the invisible layer, first page 14 (missing 'eoitnsar')",
-  "pdfx": false,
+  "outline_note": "",
+  "pdfx": true,
   "flattened": false,
-  "transparent_pages": 1,
-  "note": "kept RGB: 3 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 1 pages (the flattening pass could not clear it)"
+  "transparent_pages": 0,
+  "note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text"
  },
  "cover": {
   "file": "y08-global-perspectives-cover-file.pdf",
@@ -124,7 +124,7 @@
   {
    "name": "Bleed approximates the artwork at the cut",
    "pass": false,
-   "detail": "223 of 8568 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "detail": "207 of 8568 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
    "level": "warn"
   },
   {
@@ -148,7 +148,7 @@
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": true,
-   "detail": "closest live text is 6.0 mm from the right edge (page 1); their template draws a 5 mm safety line",
+   "detail": "closest live text is 6.0 mm from the top edge (page 85); their template draws a 5 mm safety line",
    "level": "ok"
   },
   {
@@ -183,15 +183,15 @@
   },
   {
    "name": "No Type 3 glyph-program fonts",
-   "pass": false,
-   "detail": "3 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves",
-   "level": "warn"
+   "pass": true,
+   "detail": "none: every font is a real embedded font file (guide p.3)",
+   "level": "ok"
   },
   {
    "name": "Transparency flattened",
-   "pass": false,
-   "detail": "1 pages still carry it (page 58: image soft mask); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)",
-   "level": "warn"
+   "pass": true,
+   "detail": "no soft masks, transparency groups or blend modes left (guide p.3)",
+   "level": "ok"
   },
   {
    "name": "Images at 300 DPI or better",
@@ -225,9 +225,9 @@
   },
   {
    "name": "Text file is PDF/X-1a:2001 with CMYK",
-   "pass": false,
-   "detail": "kept RGB: 3 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 1 pages (the flattening pass could not clear it)",
-   "level": "warn"
+   "pass": true,
+   "detail": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
+   "level": "ok"
   },
   {
    "name": "Cover file is a perfect-bound spread",

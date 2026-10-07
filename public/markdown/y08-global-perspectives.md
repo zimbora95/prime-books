@@ -5265,7 +5265,7 @@ correct you.
 
 ✕ NOT REALLY LISTENING
 
-✓ ACTIVE LISTENING
+ACTIVE LISTENING
 
 My mum sings Cape Verdean songs when she
 cooks. It’s the only time she—
@@ -8679,17 +8679,12 @@ leads the final talk.
 NAME
 
 TABLE RULES
-
-✓
 Every student can eat a full meal, every day
-✓
 Every dish is labelled with symbols (page 112)
 
-✓
 Needs are collected anonymously — nobody
 has to explain
 
-✓
 No dish, and no person, is laughed at
 
 YOU WILL
@@ -10312,7 +10307,6 @@ FACTORY
 3
 SHIP
 
-↺
 BACK TO THE START?
 
 STATION 2 · EXPLORE
@@ -10387,10 +10381,7 @@ THE DRAWER
 7
 E-WASTE DUMP
 
-↺
 REPAIR
-
-↺
 RECYCLE
 
 62 million tonnes
