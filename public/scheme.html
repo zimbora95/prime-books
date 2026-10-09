@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Prime Books Scheme & Anatomy Architecture</title>
+<!-- Supplies window.__PB_LIVE_BASES / __PB_LIVE_BASE so fetchManifest() really
+     does try the workshop file server first, as the contract in its comment
+     says. Without this include the page silently read only the deployed copy. -->
+<script src="/pb-live-probe.js"></script>
 <link rel="icon" href="/Logo-Prime-School.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

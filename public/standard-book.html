@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Standardised Edition · Prime School Books</title>
+<!-- Supplies window.__PB_LIVE_BASES so candidateUrls() really does try the live
+     tunnel bases first, as the contract in its comment says. Without this
+     include the reader silently fetched only the deployed copy. -->
+<script src="/pb-live-probe.js"></script>
 <style>
   :root{
     --cream:#FBF6EC; --ink:#1c1a13; --moss:#487025; --sage:#A8BF9B;
