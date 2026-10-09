@@ -4,11 +4,11 @@
 <!-- page 1 -->
 
 ---
-**PRIME SCHOOL PRESS**
 ## English
+
 ## Year 1
 
-Student book · Cambridge pathway
+Student Manual
 
 <!-- page 2 -->
 
@@ -2268,16 +2268,37 @@ again, and bring your word book back in September.
 <!-- page 71 -->
 
 ---
-## A word a day is nine stops along the way.
-
-English · Year 1 walks the whole year in nine stops: letters and their sounds, ten
-words you will know by heart, and a story to tell aloud in every unit. Written and
-illustrated for the children of Prime School, in the village of Pippin Hollow, where
-a wren says every new word three times and a badger keeps losing the word
-book.
-
 **P R I M E  S C H O O L  P R E S S**
 
-primeschool.pt · Cambridge pathway
+## English
 
-Barcode area - kept clear for production
+Year 1 · Prime School Press · Student Manual
+
+A word a day is nine stops along the way.
+
+Meet the friends who will read with you all year. Learn a new word best when your
+
+brain meets it nine times, then use it in your own story the same day.
+
+**INSIDE THIS BOOK**
+
+•
+Nine stops along the reading railway
+
+•
+Every new word met nine times, then used
+
+•
+Reading, writing, speaking and listening together
+
+•
+A story to share in every unit
+
+•
+Original watercolour illustration throughout
+
+**Prime School Press · English**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**

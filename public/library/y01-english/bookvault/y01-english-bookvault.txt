@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 English - Year 1
 slug y01-english
-generated 2026-09-18 16:47 UTC
+generated 2026-10-09 23:01 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -41,7 +41,7 @@ STEP 2  Upload the two files
 STEP 3  Checks
 --------------------------------------------------------------------------
   [PASS] Text file page size is 222 x 285 mm
-         222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)
+         222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their published text template for this trim is 222 x 285)
   [PASS] Bleed is 3 mm on all four edges
          guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
   [PASS] Bleed continues the page edge
@@ -85,7 +85,7 @@ STEP 3  Checks
   [PASS] Cover file is a perfect-bound spread
          441.96 x 284.99 mm = back 216 + spine 4 + front 216 + 3 mm bleed, by their p.18 formula
   [PASS] Barcode area clear on the back cover
-         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 6.4 mm up) is empty; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
          built at 4 mm from 69 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 

@@ -4,11 +4,11 @@
 <!-- page 1 -->
 
 ---
-**PRIME SCHOOL PRESS**
 ## Physical Education
+
 ## Year 1
 
-Student book · Cambridge pathway
+Student Manual
 
 <!-- page 2 -->
 
@@ -2027,15 +2027,37 @@ move you are proud of, a question to ask.
 <!-- page 71 -->
 
 ---
-## Six animals. One meadow. A whole year of moving.
-
-Physical Education Year 1 is the student's own book: six units of walking,
-running, hopping, skipping, throwing and stopping, a page in every unit where
-the child does the moving, and pages at the back to look back at the year.
-Written and illustrated by the teachers of Prime School for the Cambridge
-pathway.
-
 **P R I M E  S C H O O L  P R E S S**
 
-primeschool.pt · Cambridge pathway
-Barcode area - kept clear for production
+## Physical Education
+
+Year 1 · Prime School Press · Student Manual
+
+Run, jump, throw, and know why it worked.
+
+Your first full year of physical education. Find the space, move safely, take your
+
+turn, and learn the games you will play for the rest of your life.
+
+**INSIDE THIS BOOK**
+
+•
+Every Early Years movement skill, in units
+
+•
+The rule of the game, printed every time
+
+•
+A decision to make on every topic
+
+•
+Named jobs, so everybody has one
+
+•
+A festival of games to finish the year
+
+**Prime School Press · Physical Education**
+
+Ages 5–6 · Lower Primary
+
+**primeschool.pt**

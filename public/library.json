@@ -374,7 +374,7 @@
   "mb": 21.33,
   "buildable": true,
   "editable": true,
-  "wrapCover": null,
+  "wrapCover": "/library/y01-physical-education/cover-wrap-amazon.png",
   "preview": [
    "/library/y01-physical-education/preview/01.webp",
    "/library/y01-physical-education/preview/02.webp",
@@ -464,7 +464,8 @@
    "units 1-6",
    "back matter"
   ],
-  "built_from_scratch": true
+  "built_from_scratch": true,
+  "wrapCoverPdf": "/library/y01-physical-education/cover-wrap-amazon.pdf"
  },
  {
   "slug": "y01-portuguese",

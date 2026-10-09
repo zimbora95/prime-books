@@ -1,9 +1,9 @@
 {
  "slug": "y01-english",
- "built": "2026-09-18T16:47:10+00:00",
+ "built": "2026-10-09T23:01:27+00:00",
  "source_pages": 71,
- "source_mtime": 1789626470.4136622,
- "source_bytes": 28225969,
+ "source_mtime": 1791586618.8464506,
+ "source_bytes": 27588639,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y01-english-text-file.pdf",
   "url": "/library/y01-english/bookvault/y01-english-text-file.pdf",
-  "bytes": 21612824,
+  "bytes": 21612820,
   "pages": 69,
   "content_pages": 69,
   "padded_pages": 0,
@@ -58,7 +58,7 @@
   "file": "y01-english-cover-file.pdf",
   "url": "/library/y01-english/bookvault/y01-english-cover-file.pdf",
   "preview": "/library/y01-english/bookvault/y01-english-cover-file.png",
-  "bytes": 2100027,
+  "bytes": 1069522,
   "px": [
    5220,
    3366
@@ -88,12 +88,12 @@
    38.0,
    25.0
   ],
-  "barcode_ink": 0.0,
+  "barcode_ink": 0.0054,
   "barcode_box_px": [
    2062,
-   2996,
+   2959,
    2511,
-   3291
+   3255
   ],
   "spine_confirmed": false,
   "spine_colour": [
@@ -106,7 +106,7 @@
   {
    "name": "Text file page size is 222 x 285 mm",
    "pass": true,
-   "detail": "222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)",
+   "detail": "222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their published text template for this trim is 222 x 285)",
    "level": "ok"
   },
   {
@@ -238,7 +238,7 @@
   {
    "name": "Barcode area clear on the back cover",
    "pass": true,
-   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK",
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 6.4 mm up) is empty; a barcode is required printing outside the UK",
    "level": "ok"
   },
   {
