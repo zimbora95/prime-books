@@ -1,8409 +1,15278 @@
 # Portuguese 1st - Year 7 (Prime Book)
-> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (192 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y07-portuguese-1st/book.pdf` (174 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
-## Portuguese 1st
+## Português
 
-## Year 7
+## 7.º Ano
 
-Student Manual
+Manual do Aluno
 
 <!-- page 2 -->
 
 ---
-PRIME SCHOOL PRESS · YEAR 7 PORTUGUESE
+**P R I M E  S C H O O L  P R E S S**
 
-## Índice
+**7.º Ano · Manual do Aluno · Promessa & Veredicto**
 
-**UNIDADE 1 · TEXTOS DOS MEDIA (pág. 3)**
+«Um anúncio promete. Um crítico julga. Tu decides.»
 
-A notícia ............................................................
-4
-Ler uma notícia ..................................................
-5
-Exercícios · A notícia ...........................................
-6
-Ler outra notícia .................................................
-7
-Gramática · As classes de palavras ......................
-8
-Oralidade · Escutar a notícia ................................
-9
-Escrever uma notícia .........................................
-10
-A biografia .......................................................
-11
-Fernando Pessoa .............................................
-12
-Ler outra biografia .............................................
-13
-Gramática · O adjectivo e o verbo .......................
-14
-Gramática · Conjugações ...................................
-15
-Gramática · Tempos em acção ...........................
-16
-Escrever uma biografia ......................................
-17
-O artigo de opinião ............................................
-18
-Exercícios · Artigo de opinião .............................
-19
-Ler outro artigo de opinião .................................
-20
-O texto publicitário ............................................
-21
-Exercícios · O texto publicitário ...........................
-22
-A publicidade em esquema ................................
-23
-Revisão da Unidade 1 .......................................
-26
+Um ano para aprenderes a julgar o que lês, da publicidade ao teatro.
 
-**UNIDADE 2 · UMA VIAGEM (pág. 28)**
+**I N S I D E  T H I S  B O O K**
 
-Abertura da Unidade 2 ......................................
-28
-Palavras para partir ...........................................
-29
-Vamos ler · O Cavaleiro da Dinamarca ................
-30
-Missão do leitor ................................................
-31
-Compreender e justificar ....................................
-32
-Personagem, espaço e tempo ............................
-33
-Palavras em viagem ..........................................
-34
-Gramática · Tempos verbais ..............................
-35
-Pretérito perfeito ou imperfeito? ..........................
-36
-A viagem como símbolo ....................................
-37
-Vamos ler · O Rapaz de Bronze .........................
-38
-Exercícios · O Rapaz de Bronze .........................
-39
-Ler nas entrelinhas ...........................................
-40
-Vamos ler · A Floresta .......................................
-41
-Caracterização e escrita ....................................
-42
-Exercícios · A Floresta .......................................
-43
-Isabel e a floresta .............................................
-44
-Explícito e implícito ...........................................
-45
-Vocabulário e gramática ....................................
-46
-Comparação e desafio final ................................
-47
-Conhece a autora · Menéres ..............................
-48
-Ulisses · uma história de aventura ......................
-49
-Ulisses · antes de ler .........................................
-50
-Vamos ler · Ulisses e Polifemo ...........................
-51
-Exercícios · Ulisses e Polifemo ...........................
-52
-Recursos expressivos · Ulisses ..........................
-53
-Exercícios · Ulisses (escolha múltipla) .................
-54
-Ler nas entrelinhas · Ulisses ..............................
-55
-Pintar com palavras ..........................................
-70
-Fala e escuta · viajantes ....................................
-74
-Literatura em imagem · mapa .............................
-75
-Autoavaliação · Ulisses ......................................
-93
-O passaporte do leitor .......................................
-95
+Sete unidades: publicidade e crítica, narrativa,
+poesia, teatro, revisões, avaliação e contrato de
+leitura
 
-Ficha de revisão · Unidade 2 ..............................
-96
+Textos integrais em domínio público — Camões,
+Herculano, Eça, Florbela, Pessoa — e textos
+originais
 
-**O ÚLTIMO GRIMM · MAGALHÃES (pág. 97)**
+Gramática em contexto; oralidade e escrita
+com planificação, grelhas e modelos em três
+níveis
 
-O Último Grimm · abertura .................................
-97
-Conhece o autor · Magalhães .............................
-98
-Vamos ler · O Último Grimm ...............................
-99
-Vamos ler · O Último Grimm (cont.) ...................
-100
-Compreensão do texto ....................................
-101
-Lê nas entrelinhas ...........................................
-102
-Verdadeiro ou falso .........................................
-103
-Escolha múltipla ..............................................
-104
-As personagens ..............................................
-105
-História dentro da história ................................
-106
-O real e o fantástico ........................................
-107
-Vocabulário ....................................................
-108
-Gramática em contexto ....................................
-109
-O diálogo .......................................................
-110
-A estrutura do excerto .....................................
-111
-Oficina de escrita ............................................
-112
-Escrita criativa ................................................
-113
-Relembra e passaporte ....................................
-114
+Gravações em QR no Wikimedia Commons; dois
+testes com critérios e soluções
 
-**A BICICLETA QUE TINHA BIGODES · ONDJAKI (pág. 115)**
+**I M P R I N T**
 
-Abertura · Ondjaki ...........................................
-115
-Conhece o autor · Ondjaki ................................
-116
-Vamos ler · A Bicicleta .....................................
-117
-Vamos ler · A Bicicleta (cont.) ...........................
-118
-Compreensão do texto ....................................
-119
-A conversa com o CamaradaMudo ...................
-120
-Verdadeiro ou falso .........................................
-121
-Escolha múltipla ..............................................
-122
-Explícito e inferência .......................................
-123
-O narrador ......................................................
-124
-Personagens · tio Rui e Isaura ..........................
-125
-Vocabulário ....................................................
-126
-Gramática · discurso directo .............................
-127
-Recursos expressivos ......................................
-128
-Educação literária ...........................................
-129
-Interpretação aprofundada ...............................
-130
-Oficina de escrita ............................................
-131
-Escrita criativa · a bicicleta ...............................
-132
-Passaporte literário .........................................
-133
+**EDITION**
+First edition, 2026. Promessa & Veredicto · Português 7. Full colour, A4 (210 × 297
+mm), 174 pages. European Portuguese, 1990 Orthographic Agreement. Prime
+School pathway; not certified by the Ministry of Education. ISBN at first printing.
 
-**UNIDADE 3 · O PALCO À ESPERA (pág. 134)**
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
 
-Abertura da Unidade 3 .....................................
-134
-Conhece a autora · Ducla Soares .....................
-135
-Gulliver chega a Portugal! ................................
-136
-Antes de ler ....................................................
-137
-Vamos ler · Gulliver em Portugal .......................
-138
-Gulliver (continuação) ......................................
-139
-Depois da leitura .............................................
-140
-Verdadeiro ou falso · Gulliver ............................
-141
-Lê nas entrelinhas · Gulliver .............................
-142
-Quem é quem? ...............................................
-143
-Onde e quando? .............................................
-144
-As palavras do texto ........................................
-145
-Lê como um actor ...........................................
-146
-Gramática em contexto ....................................
-147
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
 
-Rir... e pensar .................................................
-148
-Pensa como um leitor ......................................
-149
-Oficina de escrita · Gulliver ...............................
-150
-Um novo olhar sobre Portugal ..........................
-151
-Debate · viajar muda-nos? ...............................
-152
-Gulliver chega à tua escola! .............................
-153
-Relembra · texto dramático ..............................
-154
-Autoavaliação · Gulliver ...................................
-155
+**TEXTS**
+Original texts written for this edition, marked as such. Camões, Herculano, Eça,
+Florbela, Pessoa and others in full (public domain); Verne and Wilde translated
+here; protected authors quoted briefly (CDADC, art. 75.º).
 
-**OS PIRATAS · PINA (pág. 156)**
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Illustrations made with generative AI,
+reviewed by the editors. QR codes link only to Wikimedia Commons and
+primeschool.pt. Typefaces: Fraunces, Bricolage Grotesque, DM Mono, Poppins,
+Andika (SIL OFL).
 
-Os Piratas · abertura .......................................
-156
-Conhece o autor · Pina ....................................
-157
-Vamos ler · Os Piratas .....................................
-158
-Vamos ler · Os Piratas (cont.) ...........................
-159
-Compreensão do texto ....................................
-160
-Verdadeiro ou falso .........................................
-161
-Escolha múltipla ..............................................
-162
-Explícito e inferência .......................................
-163
-As personagens ..............................................
-164
-Conflito dramático ...........................................
-165
-Vocabulário · a bordo ......................................
-166
-Gramática em contexto ....................................
-167
-Recursos expressivos ......................................
-168
-Educação literária ...........................................
-169
-Da página para o palco ....................................
-170
-A leitura dramatizada .......................................
-171
-Transformar o texto em cena ............................
-172
-Oficina de escrita ............................................
-173
-Escrita criativa · o diário ...................................
-174
-Relembra e passaporte teatral ..........................
-175
+Independent publication. This is an independent publication produced
+by Prime School for use within its own programmes of study. It is not
+affiliated with, licensed by, endorsed by or approved by any
+examination board, or by any other publisher.
 
-**UNIDADE 4 · A PALAVRA EM MÚSICA (pág. 176)**
+**A g e s  1 1 – 1 2  ·  L o w e r  S e c o n d a r y**
 
-Abertura da Unidade 4 .....................................
-176
-Como se faz um poema ...................................
-177
-Vamos ler · Mar Português ...............................
-178
-Missão do leitor ...............................................
-179
-Vamos ler · Amar! ...........................................
-180
-Missão do leitor · Amar! ...................................
-181
-Gramática · Orações coordenadas ....................
-182
-Gramática · Activa e passiva ............................
-183
-Laboratório · comentar um poema .....................
-184
-Laboratório · os teus poemas ...........................
-185
-Fala e escuta · declamar poesia .......................
-186
-Literatura em imagem · poema visual ................
-187
-Comenta com precisão ....................................
-188
-Relembra · o que aprendi .................................
-189
-O passaporte do leitor .....................................
-190
+**w w w . p r i m e s c h o o l . p t**
 
-**RECURSOS (pág. 191)**
+**2**
 
-Dossier do escritor · Soluções ..........................
-191
-
-Prime School Press · www.primeschool.pt
+## Português
 
 <!-- page 3 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P R I M E S C H O O L
+M A N U A L D O A L U N O
+## Promessa
+& Veredicto
 
-Prime School Press · www.primeschool.pt
+P O R T U G U Ê S · L Í N G U A M A T E R N A · 7 . º A N O
 
-## Unidade 1 – Textos dos Media
+**Como usar este livro**
 
-Todos os dias somos cercados por textos dos media: a notícia que o pai lê ao pequeno-almoço, o
-anúncio do autocarro, a biografia de um desportista numa revista, o vídeo que um amigo partilha.
-Nesta unidade vais aprender a ler estes textos com olhos de detective: quem escreveu, para quem,
-com que intenção.
+Este manual acompanha-te na aula e fora dela. Cada página diz-te, no topo, que competência vais treinar —
 
-ORALIDADE – compreender textos orais e destacar a informação essencial.
-LEITURA – a notícia, a biografia, o artigo de opinião e o texto publicitário.
-EDUCAÇÃO LITERÁRIA – interpretar textos em função do género.
-ESCRITA – biografia, notícia e texto de opinião.
-GRAMÁTICA – classes e subclasses de palavras, com tabelas e esquemas de estudo.
+LEITURA
+ORALIDADE
+ESCRITA
+GRAMÁTICA
+ED. LITERÁRIA
+— e a faixa colorida na margem
 
-**PARA COMEÇAR**
-Durante um dia inteiro, regista no caderno todos os textos dos media que passarem por ti. Quantos
-conseguiste contar? Qual te marcou mais e porquê? Compara o teu registo com o do teu colega: as
-vossas listas são parecidas?
+**diz-te de que lado estás: a vermelho, o lado de quem vende; a azul, o lado de quem julga; a amarelo, a oficina**
 
-3
+onde constróis; a âmbar, o teu percurso de leitor.
+
+Os códigos QR abrem gravações de poemas no Wikimedia Commons, o arquivo público da Wikipédia. As solu-
+
+ções das atividades de verificação estão no fim de cada unidade: resolve primeiro, confirma depois.
+
+**ESTA EDIÇÃO**
+
+**Edição completa, com as sete unidades do 7 .º ano: 1 Publi-**
+**cidade e crítica · 2 Texto narrativo · 3 Texto poético · 4**
+
+**Texto dramático · 5 Revisões anuais · 6 Avaliação (testes,**
+
+**tarefas, critérios e secção do professor) · 7 Contrato de**
+leitura.
+
+**CONCEÇÃO**
+
+Texto, edição, design e direção de arte: equipa de Portu-
+
+guês da Prime School. Composição em Fraunces, Brico-
+
+lage Grotesque e DM Mono (SIL Open Font License).
+
+**TEXTOS E IMAGENS**
+
+Os filmes O Farol das Baleias e A Última Sessão, o Ci-
+nema Aurora, a vila de Vila Nova do Farol, as marcas, as
+
+campanhas, os jornais, os críticos e a revista A Lupa são
+
+ficcionais e foram criados para este manual. «Mar Portu-
+guês», de Fernando Pessoa (Mensagem, 1934), e os textos
+
+integrais de Alexandre Herculano, Trindade Coelho, Lima
+Barreto e Florbela Espanca e Eça de Queirós («O Te-
+
+souro», «O Suave Milagre»), os poemas de Camões estão
+
+em domínio público; as suas grafias foram atualizadas
+segundo o Acordo Ortográfico de 1990. Os excertos de
+
+Júlio Verne e Oscar Wilde foram traduzidos pela Prime
+School a partir dos originais, em domínio público. De Ma-
+
+nuel da Fonseca, Ondjaki, António Gedeão, Alexandre
+O'Neill, David Mourão-Ferreira, Manuel Alegre, Ana
+
+Hatherly, Miguel Torga e Alice Vieira, obras protegidas,
+
+citam-se apenas frases e versos breves, com indicação
+da fonte, para fins de ensino; os textos completos leem-
+
+se na antologia da turma. Os títulos sugeridos na Uni-
+dade 7 são obras publicadas, citadas apenas pelo título e
+
+pelo autor.
+
+Ilustrações criadas com IA generativa sob direção de
+
+arte editorial. As gravações ligadas pelos códigos QR es-
+tão no Wikimedia Commons: «Ser poeta», «Amar!» e
+
+«Amor é fogo…» lidos por Daniel Barbosa (domínio pú-
+
+blico); «Mar Português» recitado por NMaia (CC BY-SA
+4.0).
+
+**Prime School · Portugal · primeira edição, setembro de 2026.**
+
+© 2026 Prime School. Uso reservado aos alunos e professores da escola. Reprodução para fins letivos na própria turma autorizada.
 
 <!-- page 4 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P R I M E S C H O O L
+M A N U A L D O A L U N O
+## Este manual
+é teu.
 
-Prime School Press · www.primeschool.pt
+P O R T U G U Ê S · L Í N G U A M A T E R N A · 7 . º A N O
 
-## A notícia
+Nome
 
-**LEITURA · ESTUDAR O GÉNERO**
+Turma
+Número
+Ano letivo
 
-A notícia é um texto que informa sobre um facto recente e verdadeiro. Responde sempre a seis
-perguntas, as famosas 6 W: Quem? O quê? Quando? Onde? Como? Porquê? Organiza-se em três
-partes – o TÍTULO, que resume o assunto; o LEAD (entradilha), o primeiro parágrafo com a
-informação essencial; e o CORPO, que desenvolve os factos por ordem decrescente de importância.
+Professor(a) de Português
 
-**TÍTULO**
+## A minha promessa para o 7.º ano
 
-**LEAD**
+Este livro começa com uma promessa e acaba com um veredicto. Antes de começares, es-
 
-**CORPO**
+**creve a tua: o que queres conseguir este ano? No fim, no Veredicto do ano (p. 160), vais vol-**
 
-**INFO ACESSÓRIA**
+tar aqui e julgar se a cumpriste.
 
-**TÍTULO**
+**Quero ler…**
 
-resume o assunto numa frase
+**Na escrita, quero melhorar…**
 
-**LEAD**
+**Quando falo em público, quero…**
 
-Quem? O quê? Quando?
-Onde? Como? Porquê?
+**Um livro que prometo acabar**
 
-**CORPO**
-
-declarações, contexto,
-pormenores
-
-**INFO ACESSÓRIA**
-
-o que pode ser cortado
-sem perder o essencial
-
-**▼  ordem decrescente de importância**
-
-**CARACTERÍSTICAS DA NOTÍCIA**
-• Texto factual: factos verdadeiros e verificáveis.
-• Objectividade: o jornalista não dá a sua opinião.
-• Clareza e concisão: frases curtas, informação directa.
-• Actualidade: acontecimentos recentes.
-• Linguagem acessível: todo o leitor deve entender.
-
-**Notícia**
-**Publicidade**
-
-Objectivo
-Informar
-Convencer
-
-Opinião
-Não tem (objectiva)
-Está cheia dela
-
-Linguagem
-Neutra, precisa
-Imperativos, adjectivos
-
-4
+Assinatura
+Data
 
 <!-- page 5 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+Í N D I C E
 
-Prime School Press · www.primeschool.pt
+Í N D I C E
+O Q U E H Á N E S T E L I V R O
+## Sessões em cartaz
 
-## Ler uma notícia
+## 1
+**Promessa & Veredicto**
+## 7
 
-**LEITURA · TEXTO 1**
+Em cartaz · o programa da unidade
+**8**
 
-**TEENAGERS RESGATAM CÃO QUE CAIU NO RIO DOURO**
-Dois alunos de uma escola do Porto foram ontem aclamados
-como heróis depois de resgatarem um cão que caiu ao rio
-Douro, junto à Ribeira. O animal, um labrador de três anos
-chamado Baguete, escorregou da margem durante o passeio
-da tarde.
+Aquecimento · promessa ou veredicto?
+**9**
 
-Martim, de 12 anos, avisou imediatamente os bombeiros pelo
-112, enquanto a colega Beatriz usava a trela improvisada para
-segurar o animal junto às escadas do cais. «Agimos sem
-pensar. O Baguete é o melhor amigo da nossa vizinha»,
-declarou a jovem ao jornal local.
+SESSÃO 1
+Anatomia de um cartaz · vender
+ou mudar?
 
-Os bombeiros chegaram em sete minutos e retiraram o animal
-da água com uma escada de salvamento. O cão passou por
-uma consulta veterinária e está bem de saúde.
+**10**
 
-A Câmara Municipal do Porto vai entregar aos dois alunos uma
-medalha de mérito civil na próxima sexta-feira, no Salão Nobre
-dos Paços do Concelho. «São o exemplo do que a cidade quer
-dos seus mais novos», afirmou a presidente da Câmara.
+SESSÃO 2
+A caixa de ferramentas da per-
+suasão · Pessoa e o sal
 
-VOCABULÁRIO: entradilha – primeiro parágrafo da notícia · mérito civil –
-distinção por acto de coragem · curiosos – quem assiste.
+**13**
 
-**DESENHA A PIRÂMIDE DESTE NOTÍCIA**
-No espaço ao lado, desenha a pirâmide invertida aplicada a esta notícia: escreve o título no topo, o lead no
-segundo nível e dois pormenores do corpo abaixo.
+SESSÃO 3
+Ouvir para desmontar · explicar
+a intenção
 
+**16**
+
+SESSÃO 4
+Oficina do anúncio · como
+nasce um slogan
+
+**18**
+
+Intervalo · do anúncio à crítica
+**20**
+
+SESSÃO 5
+O veredicto · críticas de cinema
+e de livro
+
+**21**
+
+SESSÃO 6
+Quem fez o quê? · frase ativa e
+passiva
+
+**26**
+
+SESSÃO 7
+Oficina da crítica · da impres-
+são ao veredicto
+
+**28**
+
+A estreia · Festival Aurora na tua escola
+**30**
+
+Balanço · dez perguntas relâmpago
+**31**
+
+Glossário · soluções · transcrições
+**32**
+
+## 2
+**Quem nos faz crescer?**
+## 33
+
+Programa · mapa da narrativa · aquecimento
+**34**
+
+1
+Herculano · O Castelo de Faria
+**37**
+
+2
+Manuel da Fonseca · Mestre Finezas
+**45**
+
+3
+Trindade Coelho · Parábola dos sete
+vimes
+
+**48**
+
+4
+Ondjaki · Os da minha rua
+**52**
+
+5
+Lima Barreto · O homem que sabia
+javanês
+
+**55**
+
+6
+Júlio Verne · A volta ao mundo em 80
+dias
+
+**63**
+
+7
+Oscar Wilde · O Fantasma de Canterville
+**69**
+
+Clube dos Contadores · balanço · soluções
+**74**
+
+## 3
+**O que cabe num verso?**
+## 77
+
+Programa · oficina do verso · aquecimento
+**78**
+
+1
+Gedeão · Pedra filosofal
+**82**
+
+2
+O'Neill · O poema pouco original do medo
+**85**
+
+3–4
+Mourão-Ferreira · Manuel Alegre
+**88**
+
+5–7
+Hatherly · Torga · Manuel da Fonseca
+**90**
+
+8–9
+Florbela Espanca · dois sonetos
+**93**
+
+Recursos · comentário · gramática do verso
+**95**
+
+Sarau · balanço · soluções
+**98**
+
+P U B L I C I D A D E E C R Í T I C A
+
+T E X T O N A R R A T I V O · A U T O R E S E N A R R A T I V A S D E F O R M A Ç Ã O
+
+T E X T O P O É T I C O · R E D O N D I L H A E E S Q U E M A R I M Á T I C O
+
+ÍNDICE
 5
 
 <!-- page 6 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+Í N D I C E
 
-Prime School Press · www.primeschool.pt
+Í N D I C E
+C O N T I N U A Ç Ã O
+## Do palco ao leitor
 
-## Exercícios – A notícia
+## 4
+**Sobe o pano**
+## 101
 
-**EXERCÍCIOS 1**
-1. Completa as seis perguntas da notícia do cão Baguete:
+Programa · mapa do texto dramático ·
+aquecimento
 
-**Quem?**
-**Onde?**
+**102**
 
-**O quê?**
-**Como?**
+1
+Alice Vieira · Leandro, rei da Helíria
+**105**
 
-**Quando?**
-**Porquê?**
+2
+Do Castelo de Faria à cena
+**110**
 
-2. Numera de 1 a 3, pela ordem em que aparecem na notícia: ( ) Pormenores finais (consulta veterinária,
-medalha). ( ) Informação essencial (o resgate). ( ) Desenvolvimento dos factos (declarações dos jovens).
+Em cena! · balanço · soluções
+**115**
 
-3. Escreve dois títulos diferentes para esta notícia: um sério e um chamativo. Qual atrairia mais leitores?
+## 5
+**Sessão de encerramento**
+## 118
 
-4. Retira do texto as duas citações directas e identifica quem fala em cada uma.
+Programa · mapa do ano
+**119**
 
-5. Se o jornalista só pudesse publicar o primeiro parágrafo, o leitor ficaria a saber o essencial? Porquê?
+1–2
+Um anúncio · uma crítica
+**122**
 
+3
+Eça de Queirós · O Tesouro
+**126**
+
+4–5
+Camões · A última bobina
+**131**
+
+Circuitos de gramática
+**133**
+
+Teste de treino · reflexão · soluções
+**135**
+
+## 6
+**O teu veredicto**
+## 140
+
+Programa e critérios
+**141**
+
+T1
+Teste do 1.º semestre
+**142**
+
+T2
+Teste do 2.º semestre
+**147**
+
+Autocorreção · oral · escrita · modelos
+**151**
+
+Cena de teatro · secção do professor
+**156**
+
+Veredicto do ano
+**160**
+
+## 7
+**Contrato de leitura**
+## 161
+
+Que leitor és tu?
+**162**
+
+Os teus direitos e os teus compromissos
+**163**
+
+O contrato
+**164**
+
+Carta de navegação · 24 livros para escolher
+**165**
+
+Diário de bordo · seis livros, seis registos
+**166**
+
+Passar a palavra · seis maneiras de partilhar
+um livro
+
+**169**
+
+Reflexão final · o que mudou em mim
+**170**
+
+C O M O F U N C I O N A E S T E L I V R O
+
+**Cinco competências**
+
+Cada atividade diz o que treinas:
+ORALIDADE
+
+LEITURA
+ED. LITERÁRIA
+ESCRITA
+
+GRAMÁTICA
+
+**Uma cor por unidade**
+
+A barra lateral e o número da página mudam de
+
+**cor com a unidade. As páginas de oficina (es-**
+
+crita e gramática) têm a barra amarela.
+
+**Textos integrais e guias**
+
+Os textos em domínio público estão completos.
+Das obras protegidas citam-se passagens breves:
+lê-as na íntegra na antologia ou na biblioteca.
+
+**Ouvir e verificar**
+
+Os códigos QR abrem gravações de poemas no
+Wikimedia Commons. No fim de cada unidade: ba-
+lanço, cartão de memória e soluções.
+
+T E X T O D R A M Á T I C O
+
+R E V I S Õ E S A N U A I S
+
+A V A L I A Ç Ã O
+
+A T I V I D A D E S E X T R A · O T E U P E R C U R S O D E L E I T O R
+
+ÍNDICE
 6
 
 <!-- page 7 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+U N I D A D E 1
+P U B L I C I D A D E E C R Í T I C A
+## Todos os dias,
+## alguém tenta
+convencer-te.
 
-Prime School Press · www.primeschool.pt
+**Um anúncio promete. Um crítico julga. Um quer**
+que faças alguma coisa; o outro quer que acredites
+no que ele pensa. Nesta unidade vais aprender a
+desmontar os dois — e depois a construir os teus.
 
-## Ler outra notícia
+**?**
+O que é que um anúncio quer, de facto, de ti?
 
-**LEITURA · TEXTO 2**
+**?**
+Como se separa um facto de uma opinião?
 
-**TORMENTA VENCE TORNEIO ESCOLAR NO ÚLTIMO SEGUNDO**
+**?**
+O que torna uma crítica digna de confiança?
 
-A equipa da Escola da Colina venceu ontem o torneio de futsal inter-escolas, na cidade de Setúbal, com
-um golo nos últimos segundos do jogo. Foi o primeiro título da escola, que juntou doze equipas de todo o
-distrito.
-
-O extremo Rui Neto, de doze anos, marcou o golo da vitória. «Passei a bola sem olhar e, quando ouvi a
-buzina, já o Rui estava a celebrar», contou o guarda-redes Tomás Ferreira. A final, jogada no pavilhão
-municipal, terminou 3-2, com um penálti da capitã Sofia Marques a empatar a meio do segundo tempo.
-
-O professor Augusto Rivera, treinador da equipa, elogiou a atitude das crianças: «Ganharam com fair play.
-É isto que interessa.» Os campeões receberam o troféu das mãos da presidente da Câmara.
-
-**VOCABULÁRIO**
-
-extremo – jogador que joga na lateral · penálti – marcação de grande penalidade · fair play – jogo limpo
-
-**EXERCÍCIOS 2**
-
-1. Aplica a pirâmide invertida a esta notícia: identifica título, lead e corpo.
-
-2. Classifica os quantificadores que encontrares (doze, 3-2, últimos, sete).
-
-3. Retira as duas citações directas e escreve uma delas em discurso indirecto.
-
+ABERTURA
 7
 
 <!-- page 8 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P R O G R A M A D A U N I D A D E
 
-Prime School Press · www.primeschool.pt
+E M C A R T A Z
+C I N E M A A U R O R A · V I L A N O V A D O F A R O L
+## O programa desta unidade
 
-## Gramática – As classes de palavras
+**Numa vila da costa, o velho Cinema Aurora reabre com a estreia de um filme, O**
+**Farol das Baleias. Vais ver como o filme é vendido — no cartaz, na rádio, no**
+**balde de pipocas — e como é julgado pelos críticos. No fim, fazes as duas coisas.**
 
-**GRAMÁTICA · COM O TEXTO DA NOTÍCIA**
+## PARTE I A Promessa
 
-As palavras portuguesas agrupam-se em dez classes, conforme a função que têm na frase. Observa
-a tabela e o esquema.
+## p. 10 1
 
-**AS DEZ CLASSES DE PALAVRAS**
+**ANATOMIA DE UM CARTAZ**
 
-**Classe**
-**Função**
-**Exemplos**
+Ler um texto publicitário: imagem, slogan, marca, apelo. Publicidade comer-
+cial e não comercial.
 
-Nome
-Nomeia seres, coisas, ideias
-aluno, cão, Douro
+LEITURA
 
-Adjectivo
-Qualifica o nome
-jovem, improvisada
+## p. 13 2
 
-Verbo
-Acção ou estado
-resgataram, declarou
+**AS FERRAMENTAS DA PERSUASÃO**
 
-Pronome
-Substitui o nome
-que, alguém
+Hipérbole e enumeração — no anúncio e no poema. O mesmo recurso,
+duas intenções.
 
-Determinante
-Acompanha o nome
-o, uma, este livro
+GRAMÁTICA
 
-Quantificador
-Indica quantidade ou número
-dois, três, 112
+ED. LITERÁRIA
 
-Advérbio
-Modifica verbo/adjectivo
-ontem, imediatamente
+## p. 16 3
 
-Preposição
-Liga palavras
-de, em, com, para
+**OUVIR PARA DESMONTAR**
 
-Conjunção
-Liga orações/palavras
-e, mas, enquanto
+Analisar dois anúncios de rádio e explicar a intenção de quem fala.
 
-Interjeição
-Emoção súbita
-Oh! Uau!
+ORALIDADE
 
-**ESQUEMA · VARIÁVEL OU INVARIÁVEL?**
+## p. 18 4
 
-**PALAVRAS VARIÁVEIS**
+**OFICINA DO ANÚNCIO**
 
-• nome · adjectivo · verbo
-• pronome · determinante · quantificador
-• MUDAM de género, número ou pessoa
+Criar um slogan que fica no ouvido e um anúncio completo.
 
-**PALAVRAS INVARIÁVEIS**
+ESCRITA
 
-• advérbio · preposição · conjunção
-• interjeição
-• NUNCA mudam
+I N T E R V A L O · P . 2 0
 
-**EXERCÍCIOS 3**
-1. Na frase «Ontem, os dois alunos corajosos salvaram imediatamente o cão», encontra: um advérbio,
-um quantificador, um adjectivo, um determinante e um verbo.
+## PARTE II O Veredicto
 
-2. Classifica as palavras destacadas: «A jovem telefona para Lisboa e sorri.» (jovem · para · e · sorri)
+## p. 21 5
 
+**ANATOMIA DE UMA CRÍTICA**
+
+Ler críticas de um filme e de um livro: tese, argumentos, exemplos, conclu-
+são. Facto e apreciação.
+
+LEITURA
+
+## p. 26 6
+
+**QUEM FEZ O QUÊ?**
+
+Frase ativa e frase passiva — e o que se esconde quando o agente
+desaparece.
+
+GRAMÁTICA
+
+## p. 28 7
+
+**OFICINA DA CRÍTICA**
+
+Escrever uma crítica com tese, argumentos e conclusão.
+
+ESCRITA
+
+**ESTREIA O teu festival · p.**
+**30  ·  Balanço · p.**
+31
+
+COMO LER ESTE MANUAL
+
+**Margem**
+**vermelha**
+
+fala a voz do anún-
+cio: a Promessa.
+
+**Margem**
+**azul**
+
+fala a voz do crítico: o
+Veredicto.
+
+**Margem**
+**amarela**
+
+é oficina: aqui es-
+creves tu.
+
+A PARES
+trabalho com um colega
+DESAFIO
+para ir mais longe
+
+ouvir: aponta o telemóvel ao
+código
+
+PROGRAMA
 8
 
 <!-- page 9 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+A N T E S D A S E S S Ã O
 
-Prime School Press · www.primeschool.pt
+A Q U E C I M E N T O
+1 5 M I N U T O S · A P A R E S
+## Promessa ou veredicto?
 
-## Oralidade – Escutar a notícia
+Estas dez frases foram apanhadas à porta do Cinema Aurora. Umas saíram de
+anúncios, outras de críticas. Umas dizem factos, outras dão opiniões. Conse‐
+gues separá-las?
 
-**ORALIDADE · TREINAR A ESCUTA**
+## 1 Escreve no quadrado de cada frase A se achas que vem de um anúncio ou C se vem de uma crítica.
 
-Ouvir bem exige técnica: primeira escuta para perceber o assunto geral; segunda escuta para
-registar Quem? O quê? Quando? Onde?; terceira escuta para confirmar detalhes e distinguir factos
-de opiniões.
+## 2 Agora sublinha a
 
-**EXERCÍCIOS DE ORALIDADE 4**
-1. EM GRUPO: o professor lê em voz alta a notícia do cão Baguete (duas vezes). Na primeira escuta,
-escreve apenas o assunto geral. Na segunda, completa as quatro perguntas com notas rápidas.
+azul as frases que dizem um facto e a
 
-2. FACTO OU OPINIÃO: o professor lê cinco frases ouvidas num noticiário. Para cada uma, decide: facto
-ou opinião? Justifica com uma palavra («achar», «melhor», «devia» denunciam opinião).
+vermelho as que exprimem uma apreciação.
+Há frases difíceis de decidir? Quais? Porquê?
 
-3. PASSA A MENSAGEM: em fila, o primeiro aluno ouve uma notícia de três frases e passa-a de ouvido
-em ouvido. O último conta a versão que chegou. Que informação essencial se perdeu?
+## 3 Qual das dez frases te convenceria
+mais a ir ver o filme? E qual te daria
+mais confiança? São a mesma?
 
-4. NOTICIÁRIO EM DIRECTO: em pares, um é o jornalista e lê a notícia; o outro é o ouvinte que toma
-notas. Depois trocam.
+## 4 A frase 6 é uma apreciação. Reescreve-a como um facto que alguém pudesse verificar. Depois faz o
+contrário com a frase 3: transforma-a numa apreciação.
+DESAFIO
 
-5. O ANÚNCIO SONORO: o professor lê um anúncio de rádio. Que palavras se repetem? Qual é o slogan?
+Frase 6 → facto
+Frase 3 → apreciação
 
-Registo da escuta (exercício 1): escreve as notas rápidas e transforma-as em frases completas.
+«
 
-Dica: usa siglas e palavras-chave abreviadas ao tomar notas; depois transforma-as em frases completas.
+O Farol
+das
+Baleias
 
-**Escuta um noticiário RTP**
-**Play e regista o essencial**
+estreia a 3 de outubro no
+Cinema Aurora.»
 
+1
+«A aventura mais emocionante de
+todos os tempos!»
+
+2
+
+«O filme tem uma hora e quarenta e
+oito minutos.»
+
+3
+«A banda sonora é o que o filme tem
+de melhor.»
+
+4
+
+«Não percas! Traz a família inteira!»
+
+5
+«A segunda metade arrasta-se sem
+necessidade.»
+
+6
+
+«O filme foi realizado por Marta
+Leal.»
+
+7
+«Pipocas Maré: estalam como
+ondas.»
+
+8
+
+«Apesar das falhas, é um filme que
+merece ser visto.»
+
+9
+«Bilhetes a 4 euros para
+estudantes.»
+
+10
+
+A P R I M E I R A F E R R A M E N T A D O L E I T O R C R Í T I C O
+
+**Facto — informação que pode ser verificada: é verdadeira ou**
+falsa, independentemente de quem a diz.
+
+**Apreciação — juízo de valor de quem fala. Não se verifica:**
+**concorda-se ou discorda-se, e por isso deve ser justificada.**
+
+AQUECIMENTO
 9
 
 <!-- page 10 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+O Farol
+O Farol
 
-Prime School Press · www.primeschool.pt
+das Baleias
+das Baleias
 
-## Escrever uma notícia
+Há coisas que só se veem no escuro.
 
-**ESCRITA · A TUA NOTÍCIA**
+A V A G A F I L M E S A P R E S E N T A · U M F I L M E D E M A R T A L E A L
 
-Escreve uma notícia (15 a 20 linhas) sobre um acontecimento real da tua escola ou da tua rua: uma
-festa de final de período, um jogo desportivo, uma obra no bairro, uma acção de voluntariado.
+★★★★
+**«Deslum-**
+**brante.»**
 
-**PLANO**
-1. Responde às seis perguntas (Quem? O quê? Quando? Onde? Como? Porquê?).
-2. Escreve o título: curto e informativo.
-3. Escreve o lead com o essencial no primeiro parágrafo.
-4. No corpo, desenvolve por ordem decrescente, com uma citação directa.
-5. Revisa: apagaste todas as opiniões? A notícia deve ser objectiva.
+J O R N A L D A C O S T A
 
-**RASCUNHO**
+## 3 de outubro · só no Cinema Aurora · M/6
 
+R E S E R V A J Á O T E U L U G A R   →  C I N E M A A U R O R A . P T
+
+**LEONOR PAIS   JOAQUIM SEIXAS   EM O FAROL DAS BALEIAS   FOTOGRAFIA SOFIA BRANDÃO   MÚSICA RUI VAZ   ARGU-**
+
+**MENTO E REALIZAÇÃO MARTA LEAL**
+
+DOCUMENTO 1 · CARTAZ DE CINEMA
+
+P A R T E I · A P R O M E S S A
+
+SESSÃO 1
 10
+
+**1**
+
+**2**
+
+**3**
+
+**4**
+
+**5**
+
+**6**
 
 <!-- page 11 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I · A P R O M E S S A
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 1
+LEITURA
+## Anatomia de um cartaz
 
-## A biografia
+Um cartaz parece dizer pouco. Na verdade, cada centímetro foi decidido para te
+levar a fazer uma coisa: comprar um bilhete.
 
-**LEITURA · ESTUDAR O GÉNERO**
+## 1 Quem é o emissor deste cartaz? A quem se dirige (o destinatário)? Justifica com um elemento do
+cartaz.
 
-A biografia é o texto que conta a vida de uma pessoa real: os factos principais, a infância, a
-formação, as conquistas. Quem escreve é outra pessoa, por isso o texto usa a 3.ª pessoa (ele/ela).
-A autobiografia é escrita pela própria pessoa, em 1.ª pessoa (eu).
+## 2 O slogan diz: «Há coisas que só se veem no escuro.» Pensa em dois «escuros» diferentes a que a frase
+pode referir-se. Porque é que essa ambiguidade é útil a quem vende o filme?
 
-**Biografia**
-**Autobiografia**
+## 3 O cartaz cita um jornal: «Deslumbrante.» Porque é que um anúncio pede emprestada a voz de um crí-
+tico? Que palavras da crítica original poderão ter ficado de fora?
+DESAFIO
 
-Quem escreve
-Outra pessoa
-A própria pessoa
+## 4 Completa com exemplos do cartaz.
 
-Pessoa gramatical
-3.ª (ele/ela)
-1.ª (eu)
+Linguagem verbal
+Linguagem não verbal
 
-Exemplo
-«Florbela nasceu em 1894.»
-«Escrevi o meu primeiro poema.»
+**1**
 
-**GRAMÁTICA · SUBCLASSES DOS NOMES**
+**Imagem**
 
-**Subclasse**
-**Definição**
-**Exemplos**
+Fala antes das palavras. Aqui, a ba-
+leia gigante sob o barco cria misté-
+rio e perigo.
 
-Próprio
-Nomeia um ser único
-Lisboa, Pessoa, Durban
+**2**
 
-Comum
-Nomeia uma classe de seres
-poeta, livro, cidade
+**Título / marca**
 
-Colectivo
-Singular que designa um conjunto
-biblioteca, rebanho
+O nome do «produto», em letras
+grandes, para ser lembrado.
 
-**EXERCÍCIOS 5**
-1. Classifica os nomes: Lisboa · poeta · biblioteca · Mensagem · rebanho · cidade.
+**3**
 
-2. Completa com um nome colectivo: uma ____ de peixes; uma ____ de aves; uma ____ de ovelhas.
+**Slogan**
 
-3. Escreve duas frases sobre a tua turma usando um nome próprio e um nome colectivo.
+Frase curta, fácil de memorizar, que
+resume a promessa.
 
+**4**
+
+**Testemunho**
+
+Uma voz de fora que garante a qua-
+lidade — neste caso, a de um crítico.
+
+**5**
+
+**Texto informativo**
+
+Os dados práticos: quem, quando,
+onde.
+
+**6**
+
+**Apelo à ação**
+
+O que o destinatário deve fazer a
+seguir.
+
+P A R A S A B E R · T E X T O P U B L I C I T Á R I O
+
+**Texto que combina linguagem verbal (palavras) e não verbal (imagem, cor, som, tipo de letra) para persuadir o**
+destinatário a adotar um comportamento: comprar, aderir, participar, mudar. É curto, apelativo e pensado para
+ser memorizado.
+
+SESSÃO 1 · ANATOMIA DE UM CARTAZ
 11
 
 <!-- page 12 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I · A P R O M E S S A
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 1
+LEITURA
+## Vender ou mudar?
 
-## Fernando Pessoa
+Estes dois anúncios estavam lado a lado, na parede do cinema. Um quer o teu di‐
+nheiro. O outro quer outra coisa.
 
-**LEITURA · TEXTO 3 · BIOGRAFIA**
+## 1 Compara os dois anúncios.
+A PARES
 
-Fernando Nogueira Pessoa nasceu em Lisboa a 13 de Junho de 1888 e
-morreu na mesma cidade a 30 de Novembro de 1935. É considerado um
-dos maiores poetas da língua portuguesa.
+DOCUMENTO 2 · PIPOCAS MARÉ
+DOCUMENTO 3 · MAR LIMPO
 
-O pai morreu de tuberculose quando Fernando tinha cinco anos. A mãe
-casou novamente com o cônsul de Portugal em Durban, na África do Sul. Foi
-lá, em inglês, que o jovem Pessoa fez os estudos e escreveu os primeiros
-poemas, assinados com nomes inventados.
+**Emissor**
 
-Em 1914 criou os seus heterónimos, Alberto Caeiro, Ricardo Reis e Álvaro
-de Campos: poetas completos, com biografia e ideias próprias. Publicou em
-vida um único livro em português, Mensagem (1934). Morreu com 47 anos;
-repousa no Mosteiro dos Jerónimos.
+**O que «vende»**
 
-VOCABULÁRIO: heterónimo – poeta inventado, com personalidade própria.
+**O que pede ao**
+**destinatário**
 
-**EXERCÍCIOS 6**
+**Apelo mais forte**
 
-1. Onde e quando nasceu Fernando Pessoa? Em que ano morreu?
+**(razão, emoção, hu-**
 
-2. Porque estudou o jovem Pessoa em inglês, na África do Sul?
+**mor, medo)**
 
-3. O que são heterónimos? Dá três exemplos.
+## 2 Uma marca de refrigerantes lança uma campanha contra o plástico nas praias. É publicidade comer-
+cial ou não comercial? Discute com a turma.
+DESAFIO
 
-4. Que livro único publicou Pessoa em vida, em português? Que frase famosa deixou no leito de morte?
+P I P O C A S M A R É
+Cada balde,
+uma onda.
 
-5. Completa a linha do tempo: 1888 nasce →____ →1896 África do Sul →____ →1914 heterónimos →____
-→ 1935 morre.
+Estaladiças, douradas e com uma pitada de sal do
+Atlântico. Um balde chega para o filme inteiro — e para
+partilhar, se fores generoso.
 
+NO BAR DO CINEMA AURORA · BALDE MÉDIO 3,50 €
+
+DOCUMENTO 2
+
+**O mar não cabe numa garrafa.**
+**O plástico cabe no mar.**
+
+Todos os anos, milhões de toneladas de plástico che-
+gam aos oceanos. Leva a tua garrafa. Recusa o
+descartável.
+
+CAMPANHA MAR LIMPO · ASSOCIAÇÃO AMIGOS DA COSTA
+
+DOCUMENTO 3
+
+P U B L I C I D A D E C O M E R C I A L
+
+**Promove um produto, serviço ou marca com o ob-**
+jetivo de obter lucro. O emissor é, normalmente,
+uma empresa.
+
+P U B L I C I D A D E N Ã O C O M E R C I A L
+
+**Promove uma ideia, causa ou comportamento cí-**
+**vico — poupar água, doar sangue, votar. O emissor é,**
+muitas vezes, uma entidade pública ou uma
+associação.
+
+SESSÃO 1 · VENDER OU MUDAR?
 12
 
 <!-- page 13 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I · A P R O M E S S A
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 2
+LEITURA
+GRAMÁTICA
+## A caixa de ferramentas da
+persuasão
 
-## Ler outra biografia – uma campeã
+Os publicitários usam sempre as mesmas ferramentas, em combinações dife‐
+rentes. Quem as conhece, vê o anúncio por dentro.
 
-**LEITURA · TEXTO 4 · BIOGRAFIA**
+## 1 Caça às ferramentas. Volta aos documentos 1, 2 e 3. Encontra um exemplo de cada ferramenta que
+conseguires e regista-o. Que ferramenta aparece mais vezes?
 
-**A CARREIRA DE UMA CAMPEÃ**
-Carolina Mendes nasceu numa pequena vila do Alentejo, filha de um
-electricista e de uma professora primária, e desde criança trocou as
-bonecas por uma bola de futebol. Treinou primeiro na rua, com os
-primos, até o anoitecer, marcando golos contra a parede da adega do
-avô.
+## 2 Qual destas ferramentas te parece mais «perigosa» para um consumidor distraído? Justifica em duas
+frases.
 
-Aos doze anos entrou na formação de um clube da região, onde a mãe a
-levava de carro duas vezes por semana, sessenta quilómetros por cada
-treino. Aos dezasseis estreou-se na equipa principal; aos vinte e um
-vestiu pela primeira vez a camisola da selecção nacional, num jogo em
-Alvalade que a família assistiu em lágrimas.
+## 3 Slogan-relâmpago. Sorteia duas ferramentas (lança um dado duas vezes: 1–9) e usa-as juntas num slo-
+gan para o bar do Cinema Aurora.
+A PARES
 
-Hoje, com mais de cem jogos internacionais, é capitã e exemplo: criou
-uma fundação que leva treinos e material desportivo a aldeias do
-interior. «Se uma menina do Alentejo chegou ao topo, todas podem»,
-costuma repetir em entrevistas.
+Ferramenta n.º
++ n.º
 
-**EXERCÍCIOS 7**
+**IMPERATIVO**
 
-1. Constrói a linha do tempo de Carolina Mendes com cinco marcos.
+Dá ordens com simpatia.
 
-2. Que sacrifícios a família fez pela carreira? Retira duas provas do texto.
+Não percas! Reserva já.
 
-3. Retira a citação e explica porque é forte no fecho.
+01
+**TRATAMENTO POR TU**
 
-**DESAFIO CRIATIVO 8**
+Fala contigo, e só contigo.
 
-Imagina a tua própria biografia futura: «Um dia serei campeão/campeã de·». Escreve 5-6 linhas sobre o maior obstáculo que terás
-de superar e a frase marcante que dirias no final, à maneira de Carolina: «Se eu consegui, tu também consegues.»
+Lembras-te do cheiro das
+pipocas?
 
+02
+**HIPÉRBOLE**
+
+Exagera para impressionar.
+
+A aventura mais emocionante
+de todos os tempos!
+
+03
+
+E M F O C O N A P . 9
+
+**ENUMERAÇÃO**
+
+Acumula elementos para dar ideia
+de abundância.
+
+Mar, vento, coragem e uma
+baleia.
+
+04
+
+E M F O C O N A P . 9
+
+**PERGUNTA RETÓRICA**
+
+Pergunta sem esperar resposta —
+faz pensar.
+
+E se o mar te pedisse ajuda?
+
+05
+**DUPLO SENTIDO**
+
+Uma frase, dois significados.
+
+Há coisas que só se veem no
+escuro.
+
+06
+
+**RIMA E RITMO**
+
+Fica no ouvido como uma canção.
+
+Quem vem à Aurora nunca vai
+embora.
+
+07
+**TESTEMUNHO**
+
+Uma voz com autoridade garante a
+qualidade.
+
+«Deslumbrante.» — Jornal da
+Costa
+
+08
+**CONTRASTE**
+
+Opõe duas ideias para as tornar
+mais fortes.
+
+O mar não cabe numa garrafa.
+O plástico cabe no mar.
+
+09
+
+SESSÃO 2 · FERRAMENTAS
 13
 
 <!-- page 14 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+G R A M Á T I C A E M F O C O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 2
+GRAMÁTICA
+R E C U R S O S E X P R E S S I V O S
+## Aumentar e acumular
 
-## Gramática – O adjectivo e o verbo
+Dois recursos que a publicidade adora — e que a literatura usa há séculos. Um
+funciona como uma lupa; o outro, como uma lista que não para de crescer.
 
-**GRAMÁTICA · SUBCLASSES DO ADJECTIVO E DO VERBO**
+HIPÉRBOLE
 
-**Adjectivo**
-**Definição**
-**Exemplos**
+**Exagero intencional: diz-se mais do que é real,**
+para impressionar, emocionar ou fazer rir. Ninguém
+a lê à letra — e é por isso que resulta.
 
-Qualificativo
-Diz uma qualidade; tem grau
-corajosa, muito forte
+**Já te disse isto um milhão de vezes.**
 
-Relacional
-Indica relação ou origem; sem grau
-comercial, escolar
+Morri de riso com esta cena.
 
-**EXERCÍCIOS 8**
-1. Copia as expressões, sublinha o adjectivo e classifica-o: uma escola primária · um vinho generoso ·
-uma revista semanal · uma equipa forte · um problema matemático.
+**O gelado mais fresco do universo.**
 
-2. Escreve o feminino e o plural: aluno corajoso · jogador capaz · rapariga leitor.
+ENU­MERA­ÇÃO
 
-3. Escreve o superlativo absoluto sintético: forte · capaz · fácil · feliz.
+**Sequência de elementos da mesma natureza, se-**
+parados por vírgulas (ou por e), que cria ideia de
+abundância, intensidade ou ritmo.
 
-**SUBCLASSES DO VERBO · TABELA**
+**Trouxe toalha, chapéu, protetor e um**
+**livro.**
 
-**Subclasse**
-**Função**
-**Exemplos**
+**Mar, vento, coragem e uma baleia.**
 
-Principal
-Traz o significado
-escreveu, nasceu
+Doce, salgado, estaladiço: é Maré.
 
-Auxiliar
-Ajuda outro verbo
-tinha estudado, vai chegar
+## 1 Hipérbole (H), enumeração (E) ou as duas (H+E)? Escreve na caixa.
 
-Copulativo
-Liga o sujeito a uma qualidade
-ser, estar, parecer
+Esperei uma eternidade na fila das pipocas.
+No bar há pipocas, sumos, gomas e
+chocolates.
 
-**EXERCÍCIOS 9**
-4. Principal, auxiliar ou copulativo? «Pessoa tinha escrito poemas.» / «A mãe estava preocupada.» / «Vou
-escrever a minha biografia.» / «A jogadora parece feliz.»
+Um sabor que vais recordar para o resto da
+vida.
+Chorei rios de lágrimas no fim do filme.
 
+Cor, música, aventura, amizade: está tudo
+aqui.
+Mil ondas, mil sonhos, mil razões para vir.
+
+## 2 Torna estas frases «publicitárias». Usa uma hipérbole na primeira e uma enumeração na segunda.
+
+«Este gelado é bom.»
+«A biblioteca da escola tem livros.»
+
+## 3 Escreve uma frase para o anúncio do Cinema Aurora que junte, ao mesmo tempo, uma enumeração
+de quatro elementos e uma hipérbole. Sublinha cada recurso com uma cor diferente.
+DESAFIO
+
+P E N S A C O M O U M C I D A D Ã O
+
+**Em Portugal, o Código da Publicidade proíbe a publicidade enganosa. Uma hipérbole evidente («o gelado mais**
+fresco do universo») não engana ninguém. Mas «elimina 100% das bactérias» já é uma afirmação que tem de ser
+**verdadeira. Onde fica a fronteira? Discute com a turma.**
+
+SESSÃO 2 · HIPÉRBOLE E ENUMERAÇÃO
 14
 
 <!-- page 15 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I · A P R O M E S S A
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 2
+EDUCAÇÃO LITERÁRIA
+## O mesmo recurso, duas intenções
 
-## Gramática – As conjugações dos verbos
+Um poema escrito em 1934 e um anúncio de sal usam as mesmas ferramentas.
+Mas querem coisas muito diferentes de ti.
 
-**GRAMÁTICA · OS TEMPOS E AS CONJUGAÇÕES**
+DOCUMENTO 4 · TEXTO LITERÁRIO
+## Mar Português
 
-Os verbos portugueses agrupam-se em três conjugações, conforme a terminação do infinitivo: 1.ª
-(-AR), 2.ª (-ER) e 3.ª (-IR). Observa as tabelas e treina.
+Fernando Pessoa, Mensagem, 1934
 
-**AS TRÊS CONJUGAÇÕES · TABELA**
+**Bojador — cabo na costa de África, que os navegadores portugue-**
+ses temiam ultrapassar e que Gil Eanes dobrou em 1434.
 
-**Conjugação**
-**Infinitivo em…**
-**Exemplos**
+## 2 Nos versos 3 a 5 há uma enumeração. Quem
+é enumerado? Que efeito tem a repetição de
+quantas… quantos… quantas?
 
-1.ª conjugação
--ar
-falar, chegar, resgatar
+## 3 Encontra uma hipérbole e uma enumeração
+no documento 5. Depois completa a tabela.
 
-2.ª conjugação
--er
-comer, escrever, viver
+MAR
+PORTUGUÊS
 
-3.ª conjugação
--ir
-partir, dormir, sentir
+SAL
+ATLÂNTICO
 
-**CONJUGAÇÃO NO PRESENTE DO INDICATIVO**
+**O que quer do**
+**leitor?**
 
-**falar (1.ª)**
-**comer (2.ª)**
-**partir (3.ª)**
-**tradução**
+**Quanto tempo**
+**«vive»?**
 
-eu falo
-eu como
-eu parto
-—
+OUVE O POEMA
 
-tu falas
-tu comes
-tu partes
-—
+RECITADO
 
-ele fala
-ele come
-ele parte
-—
+Ó mar salgado, quanto do teu sal
+1
 
-nós falamos
-nós comemos
-nós partimos
-—
+São lágrimas de Portugal!
+Por te cruzarmos, quantas mães choraram,
+Quantos filhos em vão rezaram!
+Quantas noivas ficaram por casar
+5
 
-vós falais
-vós comeis
-vós partis
-—
+Para que fosses nosso, ó mar!
 
-eles falam
-eles comem
-eles partem
-—
+Valeu a pena? Tudo vale a pena
+Se a alma não é pequena.
+Quem quer passar além do Bojador
+Tem que passar além da dor.
+10
 
-**CONJUGAÇÃO NO PRETÉRITO PERFEITO DO INDICATIVO**
+Deus ao mar o perigo e o abismo deu,
+Mas nele é que espelhou o céu.
 
-**falar (1.ª)**
-**comer (2.ª)**
-**partir (3.ª)**
-**tradução**
+A D I F E R E N Ç A E S S E N C I A L
 
-eu falei
-eu comi
-eu parti
-—
+**Na publicidade, o recurso está ao serviço de uma**
+**ação: comprar, aderir, mudar. No texto literário,**
+**está ao serviço do sentido e da emoção — o po-**
+ema não te pede nada em troca, e por isso conti-
+nua a ser lido quase um século depois.
 
-tu falaste
-tu comeste
-tu partiste
-—
-
-ele falou
-ele comeu
-ele partiu
-—
-
-nós falámos
-nós comemos
-nós partimos
-—
-
-vós falastes
-vós comestes
-vós partistes
-—
-
-eles falaram
-eles comeram
-eles partiram
-—
-
+SESSÃO 2 · EDUCAÇÃO LITERÁRIA
 15
 
 <!-- page 16 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I · A P R O M E S S A
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 3
+ORALIDADE
+C O M P R E E N S Ã O
+## Ouvir para desmontar
 
-## Gramática – Os tempos verbais em acção
+N O A R
 
-**GRAMÁTICA · TREINAR A CONJUGAÇÃO**
+GUIÃO A · 2 VO-
+ZES · 30 S
+**Cinema Au‐**
+**rora reabre**
 
-**CONJUGAÇÃO NO PRETÉRITO IMPERFEITO DO INDICATIVO**
+Anúncio de rádio ·
 
-**falar (1.ª)**
-**comer (2.ª)**
-**partir (3.ª)**
+guião na p. 32
 
-eu falava
-eu comia
-eu partia
+N O A R
 
-tu falavas
-tu comias
-tu partias
+GUIÃO B · 1 VOZ
++ MAR · 45 S
+**Campanha**
+**Mar Limpo**
 
-ele falava
-ele comia
-ele partia
+Anúncio de rádio ·
 
-nós falávamos
-nós comíamos
-nós partíamos
+guião na p. 32
 
-eles falavam
-eles comiam
-eles partiam
+Na rádio, o anúncio não tem imagem. Tudo o que te convence tem de caber na
+**voz, na música e no silêncio. Hoje, a rádio é a turma: dois grupos de locutores**
+ensaiam os guiões e dizem-nos em direto, com o som do mar e a música feitos
+na sala. Quem ouve fecha o livro e ouve cada anúncio duas vezes.
 
-**CONJUGAÇÃO NO FUTURO DO INDICATIVO**
+ANTES
+Pelo título, o que esperas ouvir em cada anúncio? Que tipo de voz e de música imaginas?
 
-**falar (1.ª)**
-**comer (2.ª)**
-**partir (3.ª)**
+1.ª AUDIÇÃO
+Ouve sem escrever. Qual dos dois te ficou mais na cabeça? Porquê?
 
-eu falarei
-eu comerei
-eu partirei
+2.ª AUDIÇÃO
+Preenche a grelha enquanto ouves.
 
-tu falarás
-tu comerás
-tu partirás
+GUIÃO A · CINEMA AURORA
+GUIÃO B · MAR LIMPO
 
-ele falará
-ele comerá
-ele partirá
+**Quantas vozes? Como**
+**são?**
 
-nós falaremos
-nós comeremos
-nós partiremos
+**Som de fundo e ritmo**
 
-eles falarão
-eles comerão
-eles partirão
+**Verbos no imperativo**
 
-**OS TEMPOS VERBAIS DO INDICATIVO**
+**Uma pergunta ou um**
+**exagero**
 
-**Tempo**
-**Uso**
+**O que promete ou pede?**
 
-Presente
-Facto actual
+**Intenção de quem fala**
 
-Pretérito perfeito
-Acção terminada
+Os locutores ensaiam 5 minutos à parte: marcam no guião (p. 32) as pausas, a palavra mais forte de cada frase e o momento da música. Quem ouve
+só abre o guião no fim, para confirmar a grelha. Depois, trocam os papéis.
 
-Pretérito imperfeito
-Hábito ou descrição no passado
-
-Pret. mais-que-perfeito
-Passado antes do passado
-
-Futuro
-Acção futura
-
-**EXERCÍCIO · CONJUGA O VERBO 11**
-
-Completa as frases conjugando o verbo entre parênteses no tempo pedido:
-
-Ontem, os alunos (estudar) ______________________ muito para o teste.
-
-(pretérito perfeito)
-Antigamente, nós (jogar) ______________________ à bola no recreio todos os dias.
-
-(pretérito imperfeito)
-Quando a mãe chegou, o Pedro já (fazer) ______________________ os trabalhos de casa.
-
-(mais-que-perfeito composto: ter + particípio)
-Amanhã, a turma (fazer) ______________________ uma visita de estudo ao museu.
-
-(futuro)
-DICA: no mais-que-perfeito composto usa «ter» no imperfeito + particípio (tinha feito); no futuro o verbo inteiro muda (fará).
-
+SESSÃO 3 · OUVIR
 16
 
 <!-- page 17 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I · A P R O M E S S A
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 3
+ORALIDADE
+E X P R E S S Ã O
+## Explica a intenção em 90 segundos
 
-## Escrever uma biografia
+Escolhe um dos dois anúncios de rádio — ou um anúncio que tenhas ouvido esta
+semana — e apresenta à turma a tua análise. Não basta dizer o que ouviste: tens
+**de explicar o que quem fala quer de nós.**
 
-**ESCRITA · A TUA BIOGRAFIA**
+0–15 s
 
-Escreve a biografia (20 a 25 linhas) de uma pessoa que admires: um desportista, uma cientista, um
-músico ou um familiar.
+**ABERTURA**
 
-**PLANO**
-1. Pesquisa: datas, lugares, família, estudos, conquistas.
-2. Escreve por ordem cronológica: infância → juventude → vida adulta → hoje.
-3. Usa sempre a 3.ª pessoa e o pretérito perfeito («nasceu», «cresceu», «venceu»).
-4. Inclui uma citação ou um facto curioso.
-5. Termina com a importância dessa pessoa.
+Identifica o anúncio: o que é,
+quem o emite, a quem se dirige.
 
-**CHECKLIST**
-☐ Escreveste tudo em 3.ª pessoa? ☐ Seguiste a ordem cronológica?
-☐ Incluíste datas verificáveis? ☐ Há uma citação ou facto curioso?
+«O anúncio que escolhi é… É
+emitido por… e dirige-se so-
+bretudo a…»
 
-**RASCUNHO**
+15–70 s
 
+**DESENVOLVIMENTO**
+
+**Apresenta três recursos e o efeito de**
+cada um.
+
+«Para nos convencer, recorre a… Este
+recurso tem como efeito… Além
+disso…»
+
+70–90 s
+
+**FECHO**
+
+Conclui com a intenção e dá a
+tua opinião, justificada.
+
+«Em suma, a intenção de
+quem fala é… Na minha opi-
+nião, o anúncio resulta
+porque…»
+
+## 1 Prepara as tuas notas: só palavras-chave, nunca o texto inteiro.
+
+Abertura
+3 recursos + efeito
+Fecho
+
+## 2 Ensaia com o cronómetro do telemóvel. Grava-te uma vez e ouve-te: em que momento falaste de-
+pressa demais? O que vais mudar?
+
+**Cartão do ouvinte**
+A PARES
+
+★ Uma coisa que o colega fez muito
+
+bem
+
+★ Outra coisa que fez muito bem
+➜ Um conselho para a próxima vez
+
+V E R B O S P A R A D I Z E R A I N T E N Ç Ã O
+
+persuadir
+seduzir
+alertar
+sensibilizar
+
+convencer
+mobilizar
+informar
+
+tranquilizar
+provocar
+
+Evita «o anúncio quer que as pessoas gostem». Sê
+**preciso: «pretende sensibilizar os banhistas para…»**
+
+A V O Z T A M B É M C O N V E N C E
+
+**Tom — varia; não leias em linha reta.**
+
+**Ritmo — abranda nas ideias importantes.**
+
+**Pausas — antes da conclusão, respira.**
+**Olhar — levanta os olhos das notas.**
+
+SESSÃO 3 · FALAR
 17
 
 <!-- page 18 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+O F I C I N A · E S C R E V E S T U
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 4
+ESCRITA
+O F I C I N A D O A N Ú N C I O
+## Como nasce um slogan
 
-## O artigo de opinião
+Um bom slogan cabe numa respiração, fica no ouvido e diz uma promessa. Os
+publicitários escrevem dezenas antes de escolherem um. Tu também vais.
 
-**LEITURA · ESTUDAR O GÉNERO · TEXTO 5**
+## 1 Laboratório. Estes slogans foram reprovados pela agência. Reescreve cada um usando a técnica
+indicada.
 
-O artigo de opinião é um texto em que o autor defende uma ideia pessoal sobre um tema da
-actualidade. A tese é a opinião principal; os argumentos são as razões que a apoiam; o
-contra-argumento reconhece a força da opinião contrária.
+**«A cantina serve comida saudável todos os dias da semana.» → A**
 
-**Parte**
-**O que contém**
-**Conectores úteis**
+**«O clube de teatro precisa de mais alunos.» → B**
 
-Introdução
-Tema e tese
-Em primeiro lugar…
+**«Poupa água quando tomas banho.» → C ou D**
 
-Desenvolvimento
-Argumentos com exemplos
-Além disso, por exemplo…
+## 2 Chuva de slogans. Escolhe o produto ou a causa do teu anúncio (p. 19) e escreve pelo menos seis slo-
+gans possíveis. Não julgues ainda — primeiro, quantidade.
 
-Contra-argumento
-Opinião contrária
-No entanto…
+## 3 Lê os teus slogans a um colega. Ele escolhe o que ficou no ouvido. Assinala-o com ★. É esse que vais
+usar.
+A PARES
 
-Conclusão
-Reforça a tese
-Portanto, em conclusão…
+**CURTO**
 
-TELEMÓVEIS NA ESCOLA: SIM OU NÃO? (TEXTO 5)
+Sete palavras, no máximo.
 
-Em primeiro lugar, defendo que os telemóveis não devem ser proibidos na escola. São ferramentas de
-trabalho como qualquer outra, e o mundo para o qual a escola prepara já não funciona sem eles. Proibir seria
-fingir que o mundo não existe.
+A nossa escola tem uma biblioteca com muitos li-
+vros novos.
 
-Além disso, com o telemóvel podemos pesquisar no dicionário online, tirar fotografias aos resumos do
-quadro, consultar horários e gravar leituras em voz alta para revisão. Proibir é uma solução fácil; educar para
-o bom uso é uma solução melhor, ainda que exija mais de todos nós.
+**Livros novos. Mundos novos.**
 
-No entanto, reconheço o perigo das notificações durante as aulas: o ping de uma mensagem rouba a
-atenção de uma sala inteira. Por isso, defendo uma regra simples e clara: telemóvel no modo de silêncio
-dentro da mochila, e utilização apenas quando o professor autorizar.
+## A
+**COM RITMO OU RIMA**
 
-Em conclusão, não é o telemóvel que perturba a aula: é a falta de regras claras. Educar para o uso
-responsável prepara-nos melhor para o mundo de hoje do que proibir e fingir que o mundo não existe.
+Soa bem em voz alta.
 
-**VOCABULÁRIO**
+O cinema reabriu e é bom.
 
-tese – opinião principal defendida · contra-argumento – razão da opinião contrária, reconhecida
+**Quem vem à Aurora nunca vai**
+**embora.**
 
-**FACTO OU OPINIÃO? · COMPARA COM EXEMPLOS**
+## B
 
-**Facto**
-**Opinião**
+**COM DUPLO SENTIDO**
 
-O que é
-Informação verificável
-Ponto de vista pessoal
+Uma palavra, dois significados.
 
-Como se reconhece
-Pode confirmar-se
-Palavras como «achar», «melhor»
+Vê o nosso filme sobre o mar.
 
-Exemplo
-«A escola termina às 16h30.»
-«O horário da escola é cansativo.»
+**Há coisas que só se veem no escuro.**
 
-Exemplo
-«Os bombeiros chegaram em sete minutos.»«Proibir é uma solução fácil.»
+## C
+**COM CONTRASTE**
 
+Duas ideias frente a frente.
+
+Não deites plástico no mar.
+
+**O mar não cabe numa garrafa. O**
+**plástico cabe no mar.**
+
+## D
+
+SESSÃO 4 · OFICINA DO SLOGAN
 18
 
 <!-- page 19 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+O F I C I N A · E S C R E V E S T U
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 4
+ESCRITA
+P R O D U Ç Ã O
+## O teu anúncio
 
-## Exercícios – O artigo de opinião
+**A encomenda: cria um anúncio impresso — comercial para um produto ou ser‐**
+**viço do Cinema Aurora, ou não comercial para uma causa da tua escola.**
 
-**EXERCÍCIOS 10**
-1. Qual é a tese do artigo? Copia a frase que a mostra.
+Emissor
+Destinatário
 
-2. Indica os dois argumentos a favor e o contra-argumento.
+Comercial ou não comercial?
+O que quero que o destinatário faça
 
-3. Facto (F) ou opinião (O)? ( ) «A escola termina às 16h30.» ( ) «O horário é cansativo.» ( ) «Proibir é
-uma solução fácil.»
+A minha promessa, numa frase
 
-**GRAMÁTICA · O ADVÉRBIO**
-O advérbio é uma palavra INVARIÁVEL que modifica o verbo, o adjectivo ou outro advérbio: diz como,
-quando, onde ou quanto algo acontece. Não tem género nem número.
+A N T E S D E E N T R E G A R , C O N F I R M A
 
-**Subclasse**
-**Pergunta**
-**Exemplos**
+Tem slogan curto e memorável.
+Usa pelo menos uma hipérbole ou uma enumeração.
 
-Tempo
-Quando?
-ontem, hoje, já, cedo
+Tem pelo menos um verbo no imperativo.
+Imagem e texto dizem a mesma coisa.
 
-Modo
-Como?
-bem, devagar, assim
+Tem apelo à ação claro.
+Não promete o que não é verdade.
 
-Lugar
-Onde?
-aqui, ali, abaixo, longe
+ESPAÇO DO ANÚNCIO · IMAGEM + SLOGAN + TEXTO + MARCA + APELO
 
-Negação
-—
-não, nunca, tampouco
+IMAGEM
+SLOGAN
+CORPO DE TEXTO
+MARCA · APELO À AÇÃO
 
-Quantidade
-Quanto?
-muito, pouco, mais, tão
-
-Dúvida
-—
-talvez, possivelmente
-
-Afirmação
-—
-sim, certamente
-
-**EXERCÍCIOS 11**
-4. Copia as frases seguintes, sublinha os advérbios e classifica-os: «Amanhã, o jogo começa cedo.» /
-«Certamente ela joga bem.» / «Talvez não venham hoje.» / «O cão latiu muito.»
-
-5. Escreve uma frase com um advérbio de modo e outra com um de dúvida.
-
+SESSÃO 4 · O TEU ANÚNCIO
 19
 
 <!-- page 20 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+I N T E R V A L O
+## Até aqui, ouviste quem vende.
+## Agora, vais ouvir quem julga.
 
-Prime School Press · www.primeschool.pt
+**O anúncio…**
 
-## Ler outro artigo de opinião
+promete
 
-**LEITURA · TEXTO 6**
+fala a toda a gente
 
-**LIVROS EM PAPEL: AINDA TÊM FUTURO? (TEXTO 6)**
+mostra só as qualidades
 
-Em primeiro lugar, defendo que o livro em papel não vai desaparecer das escolas. E explico porquê com
-uma imagem: ninguém fotografa a sua estante de e-books para mostrar aos amigos.
+**quer uma ação**
 
-Além disso, há algo que o e-book não substitui: o cheiro das páginas, o dedo a marcar o sítio onde ficámos,
-a estante que conta a nossa vida aos visitantes, o caderno de capa gasta que abrimos dez anos depois e
-encontramos a nossa caligrafia de criança. A leitura é também um prazer dos sentidos e da memória.
+é pago por quem vende
 
-No entanto, reconheço as vantagens do e-book: pesa menos na mochila, o dicionário abre num toque, uma
-biblioteca inteira cabe no bolso e o brilho ajusta-se à luz da cama. Para viagens e consultas rápidas, é
-imbatível.
+vs.
 
-Por isso, a minha proposta é de paz: que cada formato cumpra a sua missão. O papel para os livros que
-amamos e queremos guardar e emprestar; o digital para os que usamos e devolvemos.
+**A crítica…**
 
-Em conclusão, o futuro da leitura não é escolher entre papel e ecrã: é ler mais, em qualquer suporte.
+avalia
 
-**EXERCÍCIOS 12**
+fala a quem quer decidir
 
-1. Qual é a tese deste artigo? E a da proposta de «paz» no quarto parágrafo?
+pesa qualidades e defeitos
 
-2. Indica dois argumentos a favor do papel e duas vantagens reconhecidas do e-book.
+**quer uma opinião fundamentada**
 
-3. Facto ou opinião? «Uma biblioteca cabe no bolso.» · «O e-book pesa menos.» · «A leitura é um prazer
-dos sentidos.»
+deve ser independente
 
-**ESCRITA · A TUA PROPOSTA DE PAZ 13**
+**Pergunta para a pausa: lembras-te do «Deslumbrante.» no cartaz da p. 10? Quando um anúncio cita um crí-**
+tico, quem está a falar — o anúncio ou a crítica?
 
-Escreve um parágrafo (8-10 linhas) com a tua proposta de paz entre duas coisas que as pessoas põem em rivalidade: papel
-e ecrã · cidade e campo · futebol e ballet · aulas presenciais e online. Usa: em primeiro lugar (tese) · além disso (argumento) ·
-no entanto (contra-argumento) · em conclusão.
+I N T E R V A L O
 
+INTERVALO
 20
 
 <!-- page 21 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I I · O V E R E D I C T O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 5
+LEITURA
+D O C U M E N T O 6 · C R Í T I C A D E C I N E M A
 
-## O texto publicitário
+JORNAL DA COSTA · CULTURA · CINEMA
+## Uma baleia de luz num mar de silêncio
 
-**LEITURA · ESTUDAR O GÉNERO · TEXTO 7 · ANÚNCIO**
+Com O Farol das Baleias, Marta Leal prova que o cinema português sabe contar aventuras sem
+gritar.
 
-O texto publicitário quer convencer: vender um produto, promover um serviço ou mudar um
-comportamento. Usa estratégias próprias, do slogan imperativo à imagem que vende um estilo de
-vida. A notícia INFORMA; a publicidade CONVENCE.
+Por Inês Valadares
 
-**Estratégia**
-**O que é**
-**Exemplo**
+F I C H A T É C N I C A
 
-Slogan
-Frase curta e memorável
-«Pão quente, manhã serena.»
+TÍTULO
+O Farol das Baleias
 
-Imperativo
-Verbos que dão ordem
-«Pede o teu pão.»
+REALIZAÇÃO E ARGUMENTO
+Marta Leal
 
-Superlativo
-Exagero positivo
-«O melhor pão do mundo.»
+FOTOGRAFIA
+Sofia Brandão
 
-Público-alvo
-A quem se dirige
-famílias do bairro
+MÚSICA
+Rui Vaz
 
-Emoção
-Vende sentimentos
-tradição, aconchego
+ELENCO
+Leonor Pais, Joaquim
+Seixas
 
-**PÃO QUENTE, MANHÃ SERENA.**
-PADARIA DO PONTO · DESDE 1962
+GÉNERO
+Aventura, drama
 
-Acorda cedo. Passa a correr. Cheira a fila? Não: cheira a pão.
+DURAÇÃO
+108 min · M/6
 
-O pão saído do forno às 7h, feito como antigamente: fermento
-lento, massa estendida à mão, crosta que estala. Três gerações
-da mesma família, o mesmo forno de lenha.
+CLASSIFICAÇÃO
+★★★★☆
 
-PEDE O TEU PÃO DE ONTEM, PARA HOJE.
+Rita (Leonor Pais) e o avô (Joaquim Seixas) numa cena de O Farol das Baleias.
 
-PADARIA DO PONTO · RUA DAS FLORES, 12 · ABRE ÀS 6H
+H á dez anos que o Cinema Aurora, em Vila Nova do Farol, não acendia
 
-**NOTÍCIA VERSUS PUBLICIDADE · COMPARA**
+o projetor. Reabriu esta semana com a estreia de O Farol das Baleias, a
 
-**Notícia**
-**Publicidade**
+primeira longa-metragem de Marta Leal. A história é simples: Rita,
 
-Objectivo
-Informar
-Convencer
+uma rapariga de doze anos, vai passar o inverno com o avô, o último
 
-Opinião
-Não tem (objectiva)
-Está cheia dela
+faroleiro da costa, e descobre que uma baleia ferida se aproxima das
 
-Linguagem
-Neutra, precisa
-Imperativos, adjectivos
+rochas todas as noites, atraída pela luz. Quando chega a notícia de que
 
-Veracidade
-Factos verificáveis
-Promessas e emoções
+o farol vai ser automatizado e de que o avô terá de partir, Rita decide
 
+que alguém tem de ficar a vigiar o mar.
+
+§1
+
+Digo-o já: é um dos filmes mais belos e mais honestos que vi este ano —
+
+ainda que não seja perfeito.
+
+§2
+
+O primeiro trunfo do filme é a imagem. A diretora de fotografia, Sofia
+
+Brandão, filma o mar como se fosse uma personagem: ora calmo e pra‐
+
+teado, ora negro e ameaçador. Cada plano foi pensado como um qua‐
+
+dro. A cena em que a luz do farol varre a água e revela, por segundos, o
+
+dorso da baleia é daquelas que ficam na memória muito depois de sair‐
+
+mos da sala. Não há efeitos ruidosos; há paciência, e a paciência
+
+compensa.
+
+§3
+
+SESSÃO 5 · CRÍTICA DE CINEMA
 21
 
 <!-- page 22 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I I · O V E R E D I C T O
 
-Prime School Press · www.primeschool.pt
+V E R E D I C T O
+★★★★☆  MUITO BOM
 
-## Exercícios – O texto publicitário
+COMO ESTÁ CONSTRUÍDA ESTA
+CRÍTICA
 
-**ANÁLISE · O ESQUEMA DO ANÚNCIO**
+## 1 Sublinha a
 
-**AS CARACTERÍSTICAS DO ANÚNCIO · ESQUEMA**
+azul três factos e a
 
-**ANÚNCIO**
+vermelho três apreciações nos §1 e §3. Depois circunda todos os adjeti-
+vos valorativos que encontrares no §4.
 
-Padaria do Ponto
+## 2 No §3, a crítica escreve: «Cada plano foi pensado como um quadro.» Quem pensou os planos? Porque
+não o diz a frase? (Vais voltar a esta frase na p. 27.)
 
-**SLOGAN**
+## 3 Os adjetivos valorativos são o «termómetro» da crítica. Arruma os que encontraste.
 
-«Pão quente, manhã serena»
+ELOGIAM
+CRITICAM
+MODERAM (NEM BEM, NEM MAL)
 
-**IMPERATIVO**
+## 4 Onde está a 1.ª pessoa? Transcreve duas expressões em que a crítica fala de si própria. Porque é que
+isso não torna o texto menos sério?
 
-«Pede o teu pão»
+O segundo trunfo são os atores. A jovem Leonor Pais, no pa‐
 
-**SUPERLATIVO**
+pel de Rita, nunca parece estar a representar: desconfia,
 
-«feito como antigamente»
+teima, erra e cresce diante de nós. Ao seu lado, Joaquim Sei‐
 
-**PÚBLICO-ALVO**
+xas compõe um avô de poucas palavras, cuja ternura se vê
 
-famílias do bairro
+mais nas mãos do que no rosto. Quando os dois partilham,
 
-**EMOÇÃO**
+em silêncio, uma sopa quente depois da tempestade, percebe‐
 
-tradição e aconchego
+mos tudo o que o argumento não precisa de dizer.
 
-O esquema mostra como o anúncio combina cinco estratégias: o slogan fica na memória, o imperativo dá
-ordem directa, o superlativo exalta a qualidade, o público-alvo é claro e a emoção vende tradição e
-aconchego.
+§4
 
-**EXERCÍCIOS 13**
-1. Qual é o produto e o público-alvo do anúncio?
+Nem tudo, porém, está à mesma altura. A segunda metade
 
-2. «PÃO QUENTE, MANHÃ SERENA» – que relação o slogan cria entre o produto e o bem-estar?
+arrasta-se: há cenas repetidas de vigília noturna que pouco
 
-3. Que palavra ou ideia é repetida três vezes no anúncio? Que efeito produz?
+acrescentam, e o conflito com os técnicos que vêm automati‐
 
-4. Escreve o teu anúncio para um produto imaginário: nome, slogan e três frases persuasivas.
+zar o farol é resolvido depressa demais, como se o filme ti‐
 
-**Publicidade portuguesa:**
-**mais exemplos**
+vesse pressa de chegar ao fim. A banda sonora, bonita, insiste
 
+por vezes em dizer-nos o que devemos sentir.
+
+§5
+
+Ainda assim, estes defeitos não apagam o essencial. O Farol
+
+das Baleias é um filme sobre cuidar do que é frágil — um ani‐
+
+mal, um avô, uma profissão que está a desaparecer — e fá-lo
+
+com uma delicadeza rara. Recomendo-o a quem tem doze
+
+anos e a quem já se esqueceu de como era ter doze anos. Le‐
+
+vem um casaco: o mar, aqui, sente-se na pele.
+
+§6
+
+**Contextualização**
+Apresenta a obra e resume
+a história, sem revelar o
+final.
+
+§1
+
+**Tese**
+A opinião principal do crí-
+tico, numa frase.
+
+§2
+
+**Argumento 1 + exemplo**
+A imagem — e uma cena
+concreta que o prova.
+
+§3
+
+**Argumento 2 + exemplo**
+Os atores — e a cena da
+sopa.
+
+§4
+
+**Reserva**
+Os defeitos. Tornam a crítica
+mais credível.
+
+§5
+
+**Conclusão**
+Retoma a tese e faz uma
+recomendação.
+
+§6
+
+P A R A S A B E R · C R Í T I C A
+
+**Texto de opinião em que o autor avalia uma obra (filme, livro, disco, espetáculo) e fundamenta essa avaliação**
+**com argumentos e exemplos. Combina informação (ficha técnica, resumo) com apreciação (juízos de valor). As**
+**marcas de subjetividade — 1.ª pessoa, adjetivos valorativos, advérbios — são normais e esperadas; o que não**
+pode faltar é a justificação.
+
+SESSÃO 5 · ANATOMIA DE UMA CRÍTICA
 22
 
 <!-- page 23 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I I · O V E R E D I C T O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 5
+LEITURA
+C O M P R E E N D E R , I N F E R I R , A V A L I A R
+## Ler a crítica por dentro
 
-## Gramática – Os pronomes e o verbo
+NÍVEL 1
+**Localizar**
+## 1 Resume a história do filme numa só frase, sem nenhuma apreciação.
 
-**GRAMÁTICA · A COLOCAÇÃO DOS PRONOMES**
+## 2 Transcreve a frase que exprime a tese.
 
-A posição do pronome varia consoante o tipo de frase e as palavras que antecedem o verbo:
+NÍVEL 2
+**Relacionar**
+## 3 Completa o esquema da argumentação.
 
-**Posição**
-**Regra principal**
-**Frase base**
-**Com pronome**
+ARGUMENTO
+EXEMPLO QUE O PROVA
 
-Depois do verbo
-Frases afirmativas simples
-O João comprou o livro.
-O João comprou-o.
+## 4 Explica por palavras tuas: «cuja ternura se vê mais nas mãos do que no rosto».
 
-Antes do verbo
-Frases negativas (não,
-nunca, jamais)
-Não vi o teu irmão.
-Não o vi.
+NÍVEL 3
+**Avaliar**
 
-Antes do verbo
-Perguntas e exclamações
-Quem chamou a Maria? Quem a chamou?
+## 5 A crítica recomenda o filme mas aponta-lhe defeitos no §5. Isso enfraquece ou fortalece o texto?
+Justifica.
 
-Antes do verbo
-Orações subordinadas
-(que, porque)
-Este é o bolo que fiz.
-Este é o bolo que o fiz.
+## 6 «Levem um casaco: o mar, aqui, sente-se na pele.» Deve ler-se esta frase à letra? Que elogio esconde?
 
-Antes do verbo
-Certos advérbios (já,
-ainda, talvez, bem)
-Ele já leu a notícia.
-Ele já a leu.
+## 7 O cartaz da p.
+10 usa uma só palavra desta crítica: «Deslumbrante». A palavra nem sequer apa-
+rece no texto! Achas que o cartaz é honesto?
+DESAFIO
 
-No interior do verbo
-Futuro ou condicional
-Eu trarei o livro.
-Eu tra-lo-ei.
-
-**REGRA DE OURO**
-
-Verbo no início da frase positiva → pronome DEPOIS («Comprou-o.»). Palavra atractora antes (não, já,
-quem, que) → pronome ANTES («Já o comprou.»).
-
-**TABELA GERAL DE COLOCAÇÃO DO PRONOME**
-
+SESSÃO 5 · COMPREENSÃO
 23
 
 <!-- page 24 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I I · O V E R E D I C T O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 5
+LEITURA
+D O C U M E N T O 7 · C R Í T I C A E M B L O G U E
+## Dois críticos, um filme
 
-## Gramática – Alterações fonéticas e contração
+Nem todos saíram da sala deslumbrados. Esta crítica foi publicada no mesmo
+dia num blogue de cinema.
 
-**GRAMÁTICA · AS MUDANÇAS NO PRONOME**
+sessaocontinua.blog / criticas / o-farol-das-baleias
 
-Quando o pronome o/a/os/as fica DEPOIS de um verbo, a sua forma pode mudar consoante a última
-letra do verbo:
+Bonito, mas lento como uma maré vazia
 
-**ALTERAÇÕES FONÉTICAS · TABELA**
+**Tomás Rebelo · Sessão Contínua · ★★☆☆☆**
 
-**Verbo termina…**
-**O que acontece**
-**Frase base**
-**Com pronome**
+Vou ser sincero: saí de O Farol das Baleias com mais sono do que emoção. É verdade que as imagens
 
--r, -s, -z
-Cai a consoante:
-lo, la, los, las
+do mar são lindíssimas — ninguém o nega. Mas um filme não é um postal. Durante quase duas horas,
+esperamos que aconteça alguma coisa, e o que acontece é quase sempre o mesmo: Rita olha para o
 
-Vou vender o carro.
-Ele faz os trabalhos.
+mar, o avô olha para Rita, a baleia aparece e desaparece. À minha volta, os mais novos mexiam-se nas
+cadeiras. Quem procurar a aventura que o cartaz promete vai ficar desiludido. Fica a fotografia; o resto
 
-Vou vendê-lo.
-Ele fá-los.
+afunda-se.
 
-Som nasal
-(-m, -ão, -õe)
+## 1 Em que concordam os dois críticos? Em que discordam? Completa o diagrama.
 
-Verbo não muda:
-no, na, nos, nas
+## 2 Tomás escreve «a aventura que o cartaz promete». De que acusa o cartaz? Relaciona com o que apren-
+deste na Parte I.
 
-Eles põem os pratos.
-Eles viram o filme.
+## 3 Qual das duas críticas está mais bem fundamentada? Dá dois argumentos. Atenção: não é a mesma
+coisa que perguntar de qual gostaste mais.
 
-Eles põem-nos.
-Eles viram-no.
+SÓ INÊS
+SÓ TOMÁS
 
-**CONTRAÇÃO DE PRONOMES · CI + CD**
-No 7.º ano aprendes a juntar o Complemento Indirecto com o Complemento Directo na mesma frase:
+OS DOIS
 
-**Combinação**
-**Resultado**
-
-me + o/a/os/as
-mo, ma, mos, mas
-
-te + o/a/os/as
-to, ta, tos, tas
-
-lhe + o/a/os/as
-lho, lha, lhos, lhas
-
-nos + o/a/os/as
-no-lo, no-la, no-los, no-las
-
-vos + o/a/os/as
-vo-lo, vo-la, vo-los, vo-las
-
-lhes + o/a/os/as
-lho, lha, lhos, lhas (igual ao singular)
-
-Escreve um mini-diálogo de 4 falas entre dois amigos sobre um objecto perdido, usando pelo menos uma
-vez: um pronome depois do verbo (ex.: «encontrei-o»), um pronome antes (ex.: «não o encontrei») e uma
-contração (ex.: «dei-lho»).
-
-EXEMPLO: «Dei o livro à Maria.» · Dei-lhe (CI) o livro (CD). · Dei-lho.
-
-**DESAFIO CRIATIVO**
-
+SESSÃO 5 · DOIS VEREDICTOS
 24
 
 <!-- page 25 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+P A R T E I I · O V E R E D I C T O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 5
+LEITURA
+D O C U M E N T O 8 · C R Í T I C A D E L I V R O
+## E se for um livro?
 
-## Exercícios – A colocação dos pronomes
+Uma aluna do 7.º ano escreveu esta crítica para a revista da escola. É sobre um
+livro que vais ler este ano.
 
-**GRAMÁTICA · TREINAR**
+## 1 Assinala na margem do texto: T (tese), A1 e A2 (argumentos), R (reserva) e C (conclusão).
 
-1. O João comprou o caderno. → _______________________________
+## 2 Uma crítica de cinema avalia a imagem e os atores. O que avalia uma crítica de livro? Dá dois exemplos
+tirados do texto.
 
-2. Nós não vimos a Joana na escola. → _______________________________
+## 3 Porque é que a Beatriz não conta o final? Que regra das críticas está a respeitar?
 
-3. Os alunos vão ler os livros amanhã. → _______________________________
+A L U P A · R E V I S T A D A E S C O L A · N . º 1 2
+## Oitenta dias que passam a correr
 
-4. Eles comeram o bolo todo. → _______________________________
+Beatriz Sá, 7 .º B · sobre A Volta ao Mundo em 80 Dias, de Júlio Verne
 
-5. Quem trouxe estas flores? → _______________________________
+Quando a professora nos disse que íamos ler
+um livro escrito em 1872, confesso que torci o
+nariz. Enganei-me. A Volta ao Mundo em 80 Dias,
+de Júlio Verne, é um dos livros mais divertidos
+que já li.
 
-**NÍVEL 2 · FUTURO, CONDICIONAL E CONTRAÇÃO 15**
-1. Eu entregarei o teste ao professor. (futuro) → _______________________________
+Tudo começa com uma aposta: o inglês Phileas
+Fogg, um homem tão pontual que parece um re‐
+lógio, garante aos colegas do clube que conse‐
+gue dar a volta ao mundo em oitenta dias. Parte
+nessa mesma noite, com o criado francês, Pas‐
+separtout, e perseguido por um detetive, Fix, que
+o julga um ladrão.
 
-2. O Pedro comprou um gelado para mim. (contração) → O Pedro comprou-______.
+O que mais me agradou foi o ritmo. Cada capí‐
+tulo traz um obstáculo novo — uma linha de
 
-3. Nós daríamos as novidades aos nossos pais. (contração + condicional) → Nós dar-______.
+comboio que não chega ao fim, um resgate na
+Índia, uma tempestade no mar — e é impossível
+não querer saber o que vem a seguir. Gostei
+também do contraste entre Fogg, frio e calcu‐
+lista, e Passepartout, trapalhão e generoso: é ele
+que dá humor ao livro.
 
-1. O João comprou-o. 2. Nós não a vimos na escola. 3. Os alunos vão lê-los amanhã. 4. Eles
-comeram-no todo. 5. Quem as trouxe? (Nível 2) 1. Eu entregá-lo-ei ao professor. 2. O Pedro
+Há, no entanto, descrições longas de países e de
+meios de transporte que me fizeram saltar li‐
+nhas. E algumas personagens de outros povos
+são retratadas com os preconceitos do século
+XIX, o que hoje nos faz pensar.
 
-DESAFIO CRIATIVO: escreve três frases sobre o teu dia: uma com ênclise (pronome depois do verbo), uma
-com próclise (palavra atractora antes) e uma com contração (CI+CD). Sublinha os pronomes.
+Recomendo este livro a quem gosta de aventura
+e de finais surpreendentes. E não, não vou con‐
+tar como acaba.
 
-**NÍVEL 1 · COLOCAÇÃO E ALTERAÇÕES**
-
-Confere depois de fazer · Nível 1: O João comprou-o. / Nós não a vimos na escola. / Os alunos vão lê-los amanhã.
-Nível 2: Eu entregá-lo-ei ao professor. / O Pedro comprou-mo. / Nós dar-lhas-íamos. (Soluções completas nos Recursos.)
-
+SESSÃO 5 · CRÍTICA DE LIVRO
 25
 
 <!-- page 26 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+G R A M Á T I C A E M F O C O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 6
+GRAMÁTICA
+F R A S E A T I V A E F R A S E P A S S I V A
+## Quem fez o quê?
 
-## Revisão da Unidade 1
+A mesma ação pode ser contada de dois pontos de vista. Pensa numa câmara: na
+**frase ativa, aponta para quem faz a ação; na passiva, para quem a sofre.**
 
-**REVISÃO · O QUE APRENDI**
+**Ativa**
+**Marta Leal**
+**realizou**
+**o filme.**
 
-LEITURA – notícia (6 perguntas, pirâmide invertida), biografia (3.ª pessoa, cronologia), artigo de
-opinião (tese, argumentos, contra-argumento), publicidade (slogan, persuasão).
+↘
+↙
 
-ESCRITA – escrevi uma notícia, uma biografia e um texto de opinião.
+**Passiva**
+**O filme**
+**foi realizado**
+**por Marta Leal.**
 
-ORALIDADE – escutei textos orais e destaquei a informação essencial.
+TEMPO
+ATIVA
+PASSIVA
 
-GRAMÁTICA – classes e subclasses de palavras, conjugações e tempos verbais, colocação dos
-pronomes (ênclise, próclise, mesóclise e contrações), com tabelas e esquemas.
+**Presente**
+**A câmara filma o mar.**
+**O mar é filmado pela câmara.**
 
-**CHECKLIST DE REVISÃO**
-☐ Sei dizer as seis perguntas da notícia de cor?
+**Pretérito perfeito**
+**A câmara filmou o mar.**
+**O mar foi filmado pela câmara.**
 
-☐ Consigo desenhar a pirâmide invertida e explicá-la?
+**Pretérito imperfeito**
+**A câmara filmava o mar.**
+**O mar era filmado pela câmara.**
 
-☐ Distingo facto de opinião com uma prova no texto?
+**Futuro**
+**A câmara filmará o mar.**
+**O mar será filmado pela câmara.**
 
-☐ Sei três subclasses do advérbio com exemplos?
+**Pret. mais-que-perf.**
+**composto**
 
-☐ Sei conjugar um verbo no presente e no pretérito perfeito?
+**A câmara tinha filmado o mar.**
+**O mar tinha sido filmado pela câmara.**
 
-is ou dentro do verbo?
+## 1 Experimenta já. Passa para a passiva, sem mudar o tempo verbal.
 
-**TESTE-TREINO · GRUPO ÚNICO 16**
-1. Quais são as seis perguntas da notícia? 2. Como distinguir biografia de autobiografia? 3. O que é a
-tese de um artigo de opinião? 4. Dá duas características do texto publicitário. 5. Um exemplo de nome
-colectivo e um advérbio de dúvida. 6. «Tinha estudado»: qual é o verbo auxiliar?
+a. A realizadora escolheu uma atriz desconhecida.
 
-Cria um cartaz de campanha escolar (contra o desperdício de papel, a favor da leitura, etc.): inventa um
-slogan curto e memorável, um imperativo e uma frase emotiva. Desenha-o no caderno ou em cartolina e
-apresenta-o à turma em 1 minuto.
+b. O vento derrubava as redes dos pescadores.
 
+c. Milhares de espectadores verão o filme.
+
+d. Os turistas fotografam o farol todos os verões.
+
+SUJEITO
+VERBO
+COMPLEMENTO DIRETO
+
+SUJEITO
+SER + PARTICÍPIO PASSADO
+COMPLEMENTO AGENTE DA PASSIVA
+
+**O complemento direto da ativa passa a sujeito.**
+## 1
+**O verbo passa a ser + particípio passado, no**
+mesmo tempo e modo.
+## 2
+
+**O sujeito da ativa passa a complemento agente**
+**da passiva, com por (pelo, pela, pelos, pelas).**
+## 3
+**O particípio concorda com o novo sujeito: As ce-**
+**nas foram filmadas.**
+## 4
+
+A T E N Ç Ã O
+
+**Só há passiva com verbos que têm complemento direto. «O filme agradou ao público» não se transforma: ao pú-**
+blico é complemento indireto. Experimenta: «O público foi agradado…» soa mal — e está errado.
+
+SESSÃO 6 · ATIVA E PASSIVA
 26
-
-**DESAFIO CRIATIVO 21**
 
 <!-- page 27 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 1 · TEXTOS DOS MEDIA
+G R A M Á T I C A E M F O C O
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 6
+GRAMÁTICA
+P R Á T I C A
+## A câmara muda de lugar
 
-## Ficha de revisão – Unidade 1
+## 1 Ativa (A) ou passiva (P)?
 
-**TESTE-TREINO · COMO UM TESTE**
+O cartaz foi desenhado por uma ilustradora
+da vila.
+A associação lançou a campanha em junho.
 
-Responde no caderno ou nas linhas, sem consultar o manual. Tempo sugerido: 45 minutos. No fim,
-consulta as soluções nos Recursos.
+As pipocas são oferecidas às quartas-feiras.
+Os críticos elogiaram a fotografia do filme.
 
-**GRUPO I · A NOTÍCIA 17**
+O farol tinha sido construído pelos avós dos
+pescadores.
+Rita vigiava o mar todas as noites.
 
-Lê o parágrafo seguinte (o lead de uma notícia) e identifica:
+## 2 Passa para a passiva. Mantém o tempo verbal.
 
-«Ontem à tarde, a equipa de robótica da Escola Secundária de Estoril venceu o
-torneio nacional de tecnologia em Lisboa. Os três jovens estudantes conquistaram o
-primeiro lugar graças a um protótipo de robô sustentável feito com materiais reciclados.»
+a. A Associação Amigos da Costa lançou a campanha.
 
-O quê (o acontecimento):
+b. Os alunos do 7.º B pintam o cartaz.
 
-Quem (os protagonistas):
+c. O júri premiará a jovem atriz.
 
-Quando (o momento):
+d. O avô acendia o farol ao anoitecer.
 
-Onde (o local):
+e. A crítica tinha elogiado os atores.
 
-**GRUPO II · A BIOGRAFIA 18**
+## 3 Passa para a ativa.
 
-Identifica a única alternativa que apresenta uma característica obrigatória de um texto biográfico:
+a. A banda sonora foi composta por Rui Vaz.
 
-A) Uso da 1.ª pessoa do singular («eu») e foco nos sentimentos inventados do autor.
-B) Relato real e cronológico da vida de uma pessoa, escrito na 3.ª pessoa («ele/ela»).
-C) Presença de um slogan apelativo e rimas para convencer o leitor.
+b. Os bilhetes serão vendidos pela bilheteira do cinema.
 
-**GRUPO III · O TEXTO PUBLICITÁRIO 19**
+c. A baleia era observada pela Rita todas as noites.
 
-Imagina o seguinte anúncio a um par de sapatilhas ecológicas: «Dá um passo pelo planeta. Sapatilhas
-EcoEarth: o futuro nos teus pés. Compre já!»
+**Onde está o agente?**
 
-a) Qual é o slogan deste anúncio?
+**A passiva permite esconder quem fez a ação. Às vezes, porque não importa («O farol foi construído em 1890»).**
+Outras vezes, porque dá jeito a quem fala.
 
-b) Qual é a principal função da linguagem publicitária (o modo imperativo)?
+«Foram detetados erros no preço dos bilhetes.»
 
-**GRUPO IV · O ARTIGO DE OPINIÃO 20**
+«Os preços das pipocas foram atualizados.»
 
-Assinala a opção que descreve a estrutura correcta do artigo de opinião:
+«Cada plano foi pensado como um quadro.» (p. 21)
 
-A) Tese (opinião defendida) → Argumentos (razões e exemplos) → Conclusão.
-B) Título → Lead (o quê, quem, quando, onde) → Corpo da notícia.
-C) Introdução à vida da personagem → Data de nascimento → Morte.
+## 4 Para cada frase, inventa um agente provável e reescreve-a na ativa. Em qual delas achas que o emissor
+preferiu não dizer quem foi? Porquê?
+DESAFIO
 
+SESSÃO 6 · PRÁTICA
 27
 
 <!-- page 28 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+O F I C I N A · E S C R E V E S T U
 
-## Unidade 2 · Uma viagem, muitas histórias
+S E S S Ã O 7
+ESCRITA
+P L A N I F I C A Ç Ã O
+## Da primeira impressão ao
+veredicto
 
-**Sophia de Mello Breyner Andresen · O Cavaleiro da Dinamarca**
+Vais escrever a crítica de um filme ou de um livro que conheças bem. Um crítico
+nunca começa a escrever sem antes ter decidido o que pensa — e porquê.
 
-**PARA PENSAR**
+TERMÓMETRO DO VEREDICTO · ESCOLHE A PALAVRA EXATA
 
-O que podemos descobrir quando partimos à aventura? Escreve três ideias: uma sobre lugares, uma sobre pessoas e
-uma sobre ti próprio.
+dececionante
+previsível
+arrastado
+desigual
+competente
+envolvente
+comovente
+notável
+extraordinário
 
-**ENTRA NA HISTÓRIA · UMA VIAGEM COMEÇA...**
-Imagina que tens de partir de casa durante muitos meses. Não sabes exactamente o que vais encontrar. Vais conhecer
-lugares desconhecidos, pessoas diferentes e talvez viver situações inesperadas. Que sentimentos terias?
+← negativo
+positivo →
 
-**ANTES DE LER**
-1. O que associas à palavra viagem?
-2. Preferias viajar sozinho ou acompanhado? Porquê?
-3. O que pode uma pessoa aprender durante uma viagem?
-4. Achas que regressamos iguais depois de uma grande viagem? Justifica.
+## 1
+**OBRA**
 
-Prime School Press · www.primeschool.pt
+título, autor/realizador, ano, género
+## 2
+**RESUMO SEM FINAL**
 
+duas frases, só factos
+
+## 3
+**TESE**
+
+a minha opinião principal, numa frase
+
+## 4
+**ARGUMENTO 1**
+
+exemplo concreto (cena, frase, personagem)
+
+**ARGUMENTO 2**
+
+exemplo concreto
+
+## 5
+**RESERVA**
+
+um defeito, com honestidade
+## 6
+**CONCLUSÃO E RECOMENDAÇÃO**
+
+a quem recomendas? porquê?
+
+**Regras de ouro do crítico**
+
+**Nunca contes o final. Quem te lê ainda não viu.**
+**Cada «gostei» pede um «porque». Apreciação sem ra-**
+zão não convence.
+
+**Mostra, não digas. Uma cena concreta vale mais do que**
+três adjetivos.
+
+**Sê justo. Até o filme de que gostaste tem defeitos — e o**
+contrário também.
+
+PARA JUNTAR ARGUMENTOS
+PARA EXEMPLIFICAR
+PARA CONTRAPOR
+PARA CONCLUIR
+
+em primeiro lugar
+além disso
+
+por outro lado
+
+por exemplo
+é o caso de
+
+basta pensar em
+
+no entanto
+contudo
+
+ainda que
+
+em suma
+por tudo isto
+
+assim
+
+SESSÃO 7 · PLANIFICAR A CRÍTICA
 28
 
 <!-- page 29 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+O F I C I N A · E S C R E V E S T U
 
-Prime School Press · www.primeschool.pt
+S E S S Ã O 7
+ESCRITA
+T E X T U A L I Z A Ç Ã O E R E V I S Ã O
+## A tua crítica
 
-## Palavras para partir
+Título da crítica
+Classificação
+☆ ☆ ☆ ☆ ☆
 
-**VOCABULÁRIO · ANTES DA LEITURA**
+Entre 180 e 250 palavras · quatro a seis parágrafos · não reveles o final.
 
-**Palavra**
-**Significado**
+REVISÃO
+EU
+COLEGA
 
-cavaleiro
-homem que, na Idade Média, combatia a cavalo
+A tese está clara e aparece cedo.
 
-peregrinação
-viagem feita por motivos religiosos ou espirituais
+Há dois argumentos, cada um com um exemplo concreto.
 
-aventura
-experiência inesperada que pode envolver risco ou
-descoberta
+Há uma reserva honesta.
 
-regresso
-acto de voltar ao lugar de onde se partiu
+A conclusão retoma a tese e recomenda.
 
-**CONHECE A AUTORA**
-Sophia de Mello Breyner Andresen (1919-2004) foi uma das mais importantes escritoras portuguesas do
-século XX. A sua obra inclui poesia, contos e histórias para crianças e jovens. O mar, a natureza, a
-justiça, a liberdade, a beleza e a relação entre o ser humano e o mundo são temas muito presentes na
-sua escrita.
+Usei conectores e vocabulário valorativo preciso (não «fixe», «giro»).
 
-Entre as suas obras para jovens encontram-se: A Fada Oriana · O Rapaz de Bronze · O Cavaleiro da
-Dinamarca.
+Usei pelo menos uma frase passiva (por exemplo, na ficha ou no resumo).
 
-**SABIAS QUE...**
-
-Sophia recebeu, em 1999, o Prémio Camões, uma das mais importantes distinções literárias da
-língua portuguesa.
-
-**REPARA**
-
-Na escrita de Sophia, a natureza não é apenas um cenário. O mar, a floresta, a luz, a noite e outros
-elementos naturais podem contribuir para criar ambientes, transmitir emoções ou adquirir um
-significado simbólico.
-
-1. Escreve uma frase com cada palavra do vocabulário: cavaleiro · peregrinação · aventura · regresso.
-
-2. Imagina a mala do cavaleiro: que cinco objectos levaria numa viagem a pé até Jerusalém? Justifica cada
-escolha numa frase.
-
+SESSÃO 7 · ESCREVER A CRÍTICA
 29
-
-**EXERCÍCIOS 22**
 
 <!-- page 30 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+A E S T R E I A · P R O J E T O F I N A L
 
-Prime School Press · www.primeschool.pt
+E S T R E I A
+P R O J E T O F I N A L · G R U P O S D E Q U A T R O · D U A S S E M A N A S
+## Festival Aurora na tua escola
 
-## Vamos ler – O Cavaleiro da Dinamarca
+A tua turma vai organizar uma sessão de cinema na escola. Cada grupo vende-a
+**e julga-a — tal como fizeram o cartaz e os críticos nesta unidade.**
 
-**TEXTO LITERÁRIO · SOPHIA DE M. B. ANDRESEN**
+CRITÉRIO
+EM CONSTRUÇÃO
+CONSOLIDADO
+EXCELENTE
 
-«O Cavaleiro da Dinamarca» conta a história de um nobre dinamarquês que parte de casa numa longa
-viagem a pé, através da Europa, até Jerusalém. Ao longo do caminho encontra reis, povos diferentes e
-situações inesperadas. Lemos agora o início da viagem, adaptado para estudo.
+**Persuasão**
+Slogan pouco claro; o apelo
+não se percebe.
 
-Era uma tarde de Inverno, cinzenta e fria, quando o cavaleiro deixou o castelo onde tinha nascido. A
-neve cobria os campos e os rios estavam gelados. Ele caminhava devagar, com o manto pesado e a
-espada ao lado, e não olhava para trás.
+Slogan eficaz; usa dois
+recursos.
 
-Durante muitos dias atravessou florestas escuras e aldeias adormecidas. À noite, dormia junto ao
-fogo e sonhava com o mar que ainda não tinha visto. Pela manhã, o frio mordia-lhe as mãos, mas
-ele continuava, passo a passo, para sul.
+Imagem, som e texto convencem
+em conjunto.
 
-Na companhia de outros peregrinos cruzou montanhas e vales. Por vezes, o caminho desaparecia
-sob a neve e era preciso adivinhá-lo. O cavaleiro perguntava aos camponeses que estrada levar e
-estes, admirados, olhavam para o seu manto estrangeiro e apontavam para longe.
+**Crítica**
+Opinião sem justificação.
+Tese, dois argumentos e
+conclusão.
 
-Assim, pouco a pouco, o cavaleiro da Dinamarca ia deixando para trás a terra dos seus avós e
-aproximava-se de mundos que não conhecia: onde se falavam outras línguas, se cantavam outras
-canções e se adoravam outros deuses.
+Argumentos com exemplos, reserva
+e estilo próprio.
 
-(Adaptado de Sophia de Mello Breyner Andresen, O Cavaleiro da Dinamarca, 1964.)
+**Língua**
+Erros frequentes.
+Conectores e passiva
+corretos.
 
-**ENQUANTO LÊS... ASSINALA NO TEXTO**
-• uma informação sobre a personagem principal
-• uma indicação de espaço • uma indicação temporal
-• um acontecimento importante
+Vocabulário preciso e variado.
 
-**EXERCÍCIOS 1**
-1. Qual é a estação do ano em que a viagem começa? Retira a expressão do texto.
+**Oralidade**
+Lê as notas.
+Explica a intenção com
+clareza.
 
-2. Para que direcção viaja o cavaleiro? Que expressão do texto o mostra?
+Convence com voz, pausa e olhar.
 
-1. Copia do texto duas palavras que revelem o frio e duas que revelem o movimento do cavaleiro.
+## 1
 
+**O CARTAZ**
+
+**Anúncio da sessão ou**
+campanha não comercial
+ligada ao tema do filme.
+
+Grupo · p. 18–19
+
+## 2
+
+**O SPOT**
+
+Anúncio de rádio de 30
+segundos, gravado no te-
+lemóvel, com duas vozes.
+
+Grupo · p. 16–17
+
+## 3
+
+**A CRÍTICA**
+
+Depois da sessão, cada
+um escreve a sua crítica
+do filme.
+
+Individual · p. 28–29
+
+## 4
+
+**A DEFESA**
+
+Em 90 segundos, o
+grupo explica a intenção
+do seu cartaz e do seu
+spot.
+
+Grupo · oral
+
+SEMANA 1 · SEG.
+Escolher o filme e formar
+grupos
+
+SEMANA 1 · QUI.
+Cartaz e guião do spot
+
+SEMANA 2 · TER.
+Gravação e sessão de cinema
+
+SEMANA 2 · SEX.
+Críticas e defesa oral
+
+A ESTREIA
 30
-
-**EXERCÍCIOS 1**
 
 <!-- page 31 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A L A N Ç O
 
-Prime School Press · www.primeschool.pt
+B A L A N Ç O
+V E R E D I C T O F I N A L — S O B R E T I
+## Dez perguntas relâmpago
 
-## Missão do leitor
+CONSIGO…
+AINDA NÃO
+QUASE
+SIM!
 
-**LEITURA ORIENTADA**
+identificar os elementos de um texto publicitário
 
-Enquanto lês (ou relês) o excerto, procura descobrir:
+distinguir publicidade comercial de não comercial
 
-**Pergunta**
-**O que procuras**
+explicar oralmente a intenção de quem fala num anúncio
 
-Quem?
-Quem é a personagem principal?
+reconhecer e usar a hipérbole e a enumeração
 
-Onde?
-Onde começa a história?
+distinguir o uso de um recurso na publicidade e na literatura
 
-Quando?
-Em que época decorre?
+distinguir facto de apreciação
 
-O quê?
-Qual é o acontecimento que desencadeia a viagem?
+identificar tese, argumentos e conclusão numa crítica
 
-Porquê?
-Qual é a razão da viagem?
+transformar frases ativas em passivas, e vice-versa
 
-**EXERCÍCIOS 2**
-1. Quem é a personagem principal do texto?
+escrever um anúncio com slogan e uma crítica fundamentada
 
-2. Onde vive inicialmente? Em que época decorre a narrativa?
+✎Depois desta unidade, que anúncio ou que crítica passaste a ver de outra maneira? E o que queres trei-
 
-3. Que decisão toma? Qual é a razão dessa decisão?
+nar mais na próxima unidade?
 
-4. Que obstáculos ou dificuldades surgem pela road adiante?
+«Traz a tua garrafa!» é exemplo de:
 
-5. Como reage a personagem perante as dificuldades?
+hipérbole · imperativo · enumeração
 
-**VERDADEIRO OU FALSO? (indica V ou F e corrige as falsas)**
+**1**
+Uma campanha de doação de sangue é publicidade
+**2**
 
-**Afirmação**
-**V/F**
+Uma crítica só deve apontar qualidades. V · F
+**3**
+«Este bolo é tão bom que acorda os mortos.» Re-
+curso:
 
-A personagem principal inicia uma viagem.
+**4**
 
-A narrativa decorre num contexto contemporâneo.
+Passa à passiva: «O júri premiou o filme.»
+**5**
+Em «A campanha foi lançada pela associação», o
+complemento agente da passiva é
 
-A viagem implica afastamento do espaço familiar.
+**6**
 
-A personagem enfrenta situações inesperadas.
+A parte da crítica que contém a opinião principal
+chama-se
 
-O regresso é irrelevante para a narrativa.
+**7**
+«Mar, vento, sal e silêncio.» Recurso:
+**8**
 
+Numa crítica de um livro, deve revelar-se o final.
+
+V · F
+
+**9**
+«O filme tem 108 minutos» é um facto ou uma apre-
+ciação?
+
+**10**
+
+BALANÇO
 31
 
 <!-- page 32 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+G L O S S Á R I O · S O L U Ç Õ E S
 
-Prime School Press · www.primeschool.pt
+**Glossário**
 
-## Compreender e justificar
+**Apelo à ação**
+Parte do anúncio que diz ao destinatário o que fazer a
+seguir.
 
-**INTERPRETAÇÃO · PRIMEIRO OLHAR**
+**Apreciação**
+Juízo de valor; exprime a opinião de quem fala.
 
-A. A viagem é também uma experiência de aprendizagem. Concordas? Justifica a tua resposta com duas
-informações do texto.
+**Argumento**
+Razão que sustenta uma tese.
 
-**LER NAS ENTRELINHAS · DETECTIVE DO TEXTO**
-Nem toda a informação aparece directamente escrita. Um bom leitor consegue inferir informações a
-partir de pistas.
+**Complemento agente da passiva**
+Na frase passiva, indica quem pratica a ação; é intro-
+duzido por por.
 
-EXEMPLO: se o texto diz «A personagem olha demoradamente para o mar antes de partir», podemos
-inferir que está a pensar na viagem, que sente alguma emoção perante a partida e que o mar poderá ter
-importância simbólica.
+**Crítica**
+Texto de opinião que avalia, de forma fundamentada,
+uma obra.
 
-**EXERCÍCIOS 3**
-1. Que sentimentos da personagem consegues inferir? Que pistas do texto te permitem chegar a essa
-conclusão?
+**Destinatário**
+A quem a mensagem se dirige.
 
-2. A personagem parece corajosa? Justifica.
+**Emissor**
+Quem produz a mensagem.
 
-3. O que poderá representar a viagem?
+**Enumeração**
+Sequência de elementos da mesma natureza.
 
-**LER + INFERIR**
+**Facto**
+Informação que pode ser verificada.
 
-Quando uma pergunta pede uma inferência, não basta copiar uma frase do texto. 1. Encontra a
-pista. 2. Pensa no que essa pista significa. 3. Explica a tua conclusão. Fórmula útil: pista do texto +
-interpretação = inferência.
+**Frase passiva**
+Frase em que o sujeito sofre a ação: ser + particípio
+passado.
 
-DESAFIO: reescreve a última frase do texto em tempo presente, como se estivesses a ver o cavaleiro ao
-longe.
+**Hipérbole**
+Exagero intencional, com fins expressivos.
 
+**Reserva**
+Numa crítica, a parte que aponta limitações da obra.
+
+**Slogan**
+Frase curta e memorável que resume a promessa de
+um anúncio.
+
+**Tese**
+Opinião principal que o texto defende.
+
+**Soluções**
+
+**p. 9 · Aquecimento. Anúncio: 1, 2, 5, 8, 10. Crítica: 3, 4, 6, 7, 9 (a 1, a 3 e a**
+7 podiam aparecer nos dois). Factos: 1, 3, 7, 10. Apreciações: 2, 4, 6, 8,
+9. A 5 é um apelo — nem facto, nem apreciação.
+
+**p. 14 · Atividade 1. H · E · H · H · E · H+E.**
+
+**p. 27 · Atividade 1. P · A · P · A · P · A. Atividade 2. a) A campanha foi**
+lançada pela Associação Amigos da Costa. b) O cartaz é pintado pe-
+los alunos do 7 .º B. c) A jovem atriz será premiada pelo júri. d) O farol
+**era aceso pelo avô ao anoitecer. Atividade 3. a) Rui Vaz compôs a**
+banda sonora. b) A bilheteira do cinema venderá os bilhetes.
+
+**p. 31 · Relâmpago. 1 imperativo · 2 não comercial · 3 F · 4 hipérbole · 5**
+O filme foi premiado pelo júri. · 6 pela associação · 7 tese · 8 enume-
+ração · 9 F · 10 facto.
+
+**Guiões de rádio**
+
+**Guião A · duas vozes, música alegre. — Lembras-te do cheiro das pi‐**
+pocas? Do escuro, mesmo antes de o filme começar? — O Cinema Au‐
+rora está de volta! Depois de dez anos de portas fechadas, a sala mais
+antiga da costa reabre a 3 de outubro, com a estreia de O Farol das Ba-
+leias: a aventura que está a encher salas por todo o país! — Bilhetes a
+quatro euros para estudantes. E, às quartas-feiras, as pipocas Maré
+são oferecidas pela casa! — Cinema Aurora. Quem vem à Aurora
+nunca vai embora.
+
+**Guião B · uma voz calma, som do mar (feito com as mãos ou uma**
+**garrafa de água). Ouve. Este é o som do mar. […] Todos os anos, mi‐**
+lhões de toneladas de plástico chegam aos oceanos. Uma única gar‐
+rafa pode demorar centenas de anos a desaparecer. E, enquanto não
+desaparece, alguém a come, alguém fica preso nela. — Tu podes mu‐
+dar isto. Leva a tua garrafa. Recusa o descartável. — O mar não cabe
+numa garrafa. Mas o plástico cabe no mar. Campanha Mar Limpo,
+uma iniciativa da Associação Amigos da Costa.
+
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
+
+**O anúncio promete**
+
+Quer que o destinatário faça al-
+guma coisa: comprar, aderir,
+mudar.
+
+Comercial (produto, lucro) ou
+não comercial (ideia, causa).
+
+Imagem + slogan + corpo de
+texto + marca + apelo à ação.
+
+Ferramentas: imperativo, tu, hi-
+pérbole, enumeração, pergunta
+retórica, duplo sentido, rima,
+autoridade, números, emoção.
+
+**A crítica julga**
+
+Quer que o leitor acredite
+numa apreciação
+fundamentada.
+
+Contexto → tese → argumentos
+com exemplos → reserva → con-
+clusão e recomendação.
+
+Separa factos (verificáveis) de
+apreciações (juízos de valor).
+
+Não revela o final; justifica
+cada juízo.
+
+**Gramática**
+
+**Hipérbole: exagero intencional.**
+**Enumeração: sequência de**
+elementos da mesma natureza.
+
+**Passiva: CD → sujeito; ser + par-**
+ticípio no tempo do verbo origi-
+nal; sujeito → complemento
+agente (por). Só com verbos
+que pedem CD.
+
+GLOSSÁRIO · SOLUÇÕES
 32
 
 <!-- page 33 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+U N I D A D E 2
 
-Prime School Press · www.primeschool.pt
+T E X T O N A R R A T I V O · A U T O R E S E N A R R A T I V A S D E
+F O R M A Ç Ã O
+## Quem nos faz
+crescer?
 
-## Personagem, espaço e tempo
+Um pai que escolhe morrer para não trair. Um bar‐
+beiro que já foi o maior artista da vila. Sete irmãos e
+um feixe de vimes. Uma rua de Luanda. Um impos‐
+tor genial. Um cavalheiro que aposta metade da for‐
+tuna. Um fantasma a quem ninguém tem medo.
+**Sete histórias, sete maneiras de crescer — e as fer‐**
+ramentas para perceberes como cada uma foi
+construída.
 
-**ANÁLISE · PERFIL DA PERSONAGEM**
+**?**
+Quem conta uma história — e o que muda se for ou-
+tra pessoa a contá-la?
 
-**QUEM? · PREENCHE O PERFIL DA PERSONAGEM PRINCIPAL**
+**?**
+Pode uma história curta ensinar uma lição sem a
+dizer?
 
-Nome:
+**?**
+O que nos transforma: as viagens, as pessoas ou as
+escolhas?
 
-Idade aproximada:
-Características físicas:
-
-Características psicológicas:
-
-Objectivo:
-
-Principal dificuldade:
-
-**ONDE? · OS ESPAÇOS DA NARRATIVA**
-Identifica os espaços referidos no texto. Depois explica como contribui o espaço para criar o ambiente
-da narrativa.
-
-**QUANDO? · A ÉPOCA DA NARRATIVA**
-Retira do texto duas informações que permitam situar temporalmente a narrativa.
-
-Desenha o retrato-robô do cavaleiro dinamarquês a partir das pistas do texto (manto pesado, espada, a
-andar para sul no Inverno) e escreve três frases que o descrevam: uma com a aparência, uma com um
-sentimento e uma com um objectivo.
-
+UNIDADE 2
 33
-
-**DESAFIO CRIATIVO 23**
 
 <!-- page 34 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P R O G R A M A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 2
+O P R O G R A M A
+## Sete narrativas, sete viagens
 
-açã
+**Cada narrativa é uma paragem com três momentos: ler (compreender e interpretar), escre‐**
+**ver (um género de texto por paragem) e descobrir como a língua funciona (gramática).**
+**No fim, o Clube dos Contadores junta tudo.**
 
-ro
+## 1
+**O Castelo de Faria**
 
-## Palavras em viagem
+ALEXANDRE HERCULANO
 
-**VOCABULÁRIO**
+Lenda histórica ·
+lealdade
 
-**1. RELACIONA CADA PALAVRA COM O SIGNIFICADO**
+Categorias da narrativa · re-
+sumo · frase complexa
+**p. 37**
 
-**Palavra**
-**Significado**
+## 2
+**Mestre Finezas**
 
-1. peregrino
-(escreve a letra)
+MANUEL DA FONSECA
 
-2. jornada
-(escreve a letra)
+Conto · memória e
+esquecimento
 
-3. destino
-(escreve a letra)
+Tema e valores · comentário ·
+pronome relativo
+**p. 45**
 
-4. travessia
-(escreve a letra)
+## 3
+**Parábola dos sete vimes**
 
-a.
-caminho ou percurso
+TRINDADE COELHO
 
-b.
-pessoa que faz uma peregrinação
+Parábola · união
+Sentido figurado · texto de opi-
+nião · condicionais e finais
+**p. 48**
 
-c.
-lugar para onde alguém se dirige
+## 4
+**Os da minha rua**
 
-d.
-passagem de um lugar para outro
+ONDJAKI
 
-**2. FAMÍLIA DE PALAVRAS · COMPLETA**
-viajar · viagem · ________________
+Contos · infância e lugar
+Memória e sentidos · narrativa
+breve · conjuntivo
+**p. 52**
 
-partir · partida · ________________
+## 5
+**O homem que sabia**
+**javanês**
 
-regressar · regresso · ________________
+LIMA BARRETO
 
-**3. SINÓNIMOS · PROCURA NO TEXTO OU NO DICIONÁRIO**
-corajoso ·
+Conto · ironia
 
-caminho ·
+Ironia e crítica social · modifi-
+cador do nome · formação de
+palavras
 
-difícil ·
+**p. 55**
 
-feliz ·
+## 6
+**A volta ao mundo em 80**
+**dias**
 
-**DESAFIO CRIATIVO**
-Escreve uma frase de viagem que use três palavras desta página (ex.: «O peregrino iniciou a longa travessia»).
-Sublinha-as.
+JÚLIO VERNE
 
-**VOCABULÁRIO EM ACÇÃO**
+Romance de aventuras
 
+Tempo, espaço, transformação
+· texto expositivo · pronome
+átono
+
+**p. 63**
+
+## 7
+**O Fantasma de**
+**Canterville**
+
+OSCAR WILDE
+
+Novela · humor e medo
+Ponto de vista · reescrita · tem-
+pos verbais e locuções
+**p. 69**
+
+**Ler**
+
+Antes de ler · texto · compreender
+
+e interpretar · mapa da narrativa
+
+**Escrever**
+
+Resumo · comentário · opinião ·
+
+narrativa · expositivo · reescrita
+
+**Gramática**
+
+Frase complexa · subordinadas ·
+
+relativo · conjuntivo · pronome
+
+átono · formação de palavras
+
+**Antes de partir**
+
+O mapa da narrativa · p. 35
+
+**No fim**
+
+Clube dos Contadores · p. 74
+
+**Verificar**
+
+Balanço e soluções · p. 75
+
+PROGRAMA
 34
 
 <!-- page 35 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+M A P A D A N A R R A T I V A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 2
+ED. LITERÁRIA
+R E F E R Ê N C I A · V O L T A A Q U I S E M P R E Q U E P R E C I S A R E S
+## O mapa da narrativa
 
-## Gramática – Os tempos verbais na narrativa
+Qualquer história — um conto de três páginas ou um romance de trezentas — pode ser des‐
+montada com as mesmas cinco perguntas.
 
-**GRAMÁTICA EM CONTEXTO**
+## 1 QUEM CONTA?
 
-Os verbos são fundamentais numa narrativa porque permitem apresentar acções, acontecimentos
-e estados. Observa:
+N A R R A D O R
 
-**O cavaleiro partiu.  ·  Durante a viagem, encontrou diferentes pessoas.**
+**Presença: participante (é personagem, usa a 1.ª**
+**pessoa: «eu») ou não participante (fica de fora,**
+usa a 3.ª pessoa).
 
-**Quando chegou, descobriu novas realidades.**
+**Posição: objetivo (relata sem comentar) ou sub-**
+**jetivo (comenta, avalia, emociona-se).**
 
-Os verbos destacados estão no pretérito perfeito do indicativo.
+## 2 QUEM VIVE A HISTÓRIA?
 
-**RELEMBRA**
+P E R S O N A G E N S
 
-O pretérito perfeito do indicativo apresenta, geralmente, uma acção passada e concluída.
+**Relevo: principal, secundária, figurante.**
 
-**EXERCÍCIOS 4**
-1. Retira do texto três verbos no pretérito perfeito e dois no pretérito imperfeito.
+**Caracterização: direta (o narrador ou outra per-**
+**sonagem diz como é) ou indireta (deduzimos**
+pelas ações, falas e gestos). Física e psicológica.
 
-Pretérito perfeito:
+## 3 ONDE?
 
-Pretérito imperfeito:
-2. Completa as frases:
+E S P A Ç O
 
-Quando era criança, o cavaleiro
+**Físico (lugares), social (o ambiente, os costu-**
+**mes, as classes) e psicológico (o interior das**
+personagens: memórias, sonhos, medos).
 
-Um dia,
+## 4 QUANDO?
 
-Durante a viagem,
+T E M P O
 
-3. Escreve três frases sobre o teu dia de ontem: uma no presente, uma no pretérito perfeito e uma no
-pretérito imperfeito.
+**Histórico (a época), cronológico (a sucessão**
+**dos acontecimentos: horas, dias, anos) e psico-**
+**lógico (o tempo vivido por dentro).**
 
-Reconta a partida do cavaleiro em 4 frases: duas no pretérito imperfeito (descrições) e duas no pretérito
-perfeito (acções). Sublinha os verbos.
+**Analepse: recuo ao passado. Prolepse: anteci-**
+pação do futuro.
 
+## 5 O QUE ACONTECE?
+
+A Ç Ã O
+
+**Ação principal e ações secundárias. Pode ser fechada (o conflito resolve-se) ou aberta (o leitor fica a**
+imaginar).
+
+O S G É N E R O S N A R R A T I V O S D E S T A U N I D A D E
+
+**Lenda**
+
+História tradicional
+
+que mistura factos
+
+históricos e fanta-
+
+sia. O Castelo de
+
+Faria
+
+**Conto**
+
+Narrativa curta, com
+
+poucas persona-
+
+gens e uma ação
+
+concentrada. Mes-
+
+tre Finezas · O ho-
+
+mem que sabia
+
+javanês
+
+**Parábola**
+
+Narrativa breve com
+
+uma lição moral. Pa-
+
+rábola dos sete
+
+vimes
+
+**Novela**
+
+Mais longa do que
+
+o conto, mais curta
+
+do que o romance.
+
+O Fantasma de
+
+Canterville
+
+**Romance**
+
+Narrativa longa,
+
+com várias ações e
+
+muitas persona-
+
+gens. A volta ao
+
+mundo em 80 dias
+
+**Truque de leitor Quando leres uma narrativa, desenha estas cinco caixas na margem do caderno. Se con-**
+seguires preencher as cinco numa linha cada, percebeste a história.
+
+Situação inicial
+Desenvolvimento
+
+peripécias · clímax
+
+Desenlace
+
+MAPA DA NARRATIVA
 35
-
-**EXERCÍCIOS 4**
 
 <!-- page 36 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+A Q U E C I M E N T O
 
-Prime School Press · www.primeschool.pt
+A Q U E C I M E N T O
+1 5 M I N U T O S · A P A R E S
+## Uma história em cem palavras
 
-## Pretérito perfeito ou imperfeito?
+**A última sessão**
 
-**GRAMÁTICA · DUAS FORMAS DE CONTAR O PASSADO**
+Na noite em que o Cinema Aurora fechou, há dez anos, o senhor Abílio ficou sozinho na
 
-Compara:
+cabine de projeção. Tinha passado ali quarenta anos. Ninguém lhe agradeceu. Rebobi‐
 
-**O cavaleiro caminhava pela floresta.  (imperfeito)**
+nou a última bobina devagar, como quem dobra uma bandeira, e levou-a para casa de‐
 
-**O cavaleiro encontrou um viajante.  (perfeito)**
+baixo do braço.
 
-**PRETÉRITO IMPERFEITO**
+Esta semana, quando o cinema reabriu, uma rapariga de doze anos bateu-lhe à porta. —
 
-• descrever;
-• apresentar situações habituais;
-• indicar acções em desenvolvimento.
+O meu avô diz que o senhor sabe tudo sobre filmes. Ensina-me?
 
-**PRETÉRITO PERFEITO**
+O senhor Abílio olhou para a bobina, pousada há dez anos em cima do frigorífico. E,
 
-• apresentar acontecimentos concluídos;
-• fazer avançar a acção.
+pela primeira vez em muito tempo, riu-se.
 
-**EXERCÍCIOS 5**
-Completa o texto com os verbos adequados (imperfeito ou perfeito).
+## 1 Preenche o mapa da narrativa desta micro-história (p. 35). Uma linha por caixa.
 
-A noite ______ (estar) fria e o cavaleiro ______ (caminhar) lentamente.
+**Narrador**
 
-De repente, ______ (ouvir) um ruído. ______ (parar) e
+**Personagens**
 
-______ (olhar) à sua volta.
+**Espaço**
 
-Explica, em 3-4 linhas, porque é importante escolher correctamente os tempos verbais numa narrativa.
+**Tempo**
 
-«A noite em que a floresta suspirou»: escreve um parágrafo (5-6 linhas) sobre uma noite na floresta,
-usando o imperfeito para descrever o cenário e o perfeito para os acontecimentos súbitos.
+**Ação**
 
+## 2 Encontra na história um recuo ao passado (analepse). Que efeito tem?
+
+## 3 O título diz que esta é «a última sessão». Mas o final sugere o contrário. Explica, numa frase, o que
+muda na vida do senhor Abílio.
+DESAFIO
+
+Esta micro-história passa-se em Vila Nova do Farol, a vila da Unidade 1. As sete narrativas que se seguem vêm de ou-
+tros lugares e de outros séculos — mas todas falam, como esta, de alguém que é transformado por outra pessoa.
+
+AQUECIMENTO
 36
-
-**EXERCÍCIOS 5**
 
 <!-- page 37 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · O C A S T E L O D E F A R I A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 1
+ED. LITERÁRIA
+A N T E S D E L E R
+## O Castelo de Faria
 
-## A viagem como símbolo
+ALEXANDRE HERCULANO · LENDAS E NARRATIVAS (1851)
 
-**INTERPRETAÇÃO · MAIS DO QUE UMA VIAGEM**
+**O AUTOR**
 
-Uma viagem pode representar:
+**Alexandre Herculano (1810–1877) foi escritor, historiador**
+e um dos introdutores do Romantismo em Portugal. Gos-
+tava de ir aos documentos antigos buscar episódios es-
+quecidos e de os transformar em narrativas que exaltam
+o passado e os valores de um povo.
 
-**crescimento**
-**descoberta**
-**coragem**
-**conhecimento**
-**transformação**
+**A ÉPOCA DA HISTÓRIA**
 
-Na narrativa, a viagem pode transformar a personagem. Completa:
+Século XIV. D. Fernando, rei de Portugal, entra em guerra
+com Castela. Os castelhanos cercam Lisboa, e um exér-
+cito vindo da Galiza invade o Minho. Cada castelo era go-
 
-No início da história, a personagem é
+**vernado por um alcaide, que jurava ao rei defendê-lo até**
+à morte.
 
-Durante a viagem, aprende
+**PALAVRAS PARA A VIAGEM**
 
-No final, percebe
+**alcaide**
+governador de um castelo
 
-**EXERCÍCIOS 8**
-QUESTÃO DE INTERPRETAÇÃO: consideras que uma pessoa pode conhecer melhor o mundo e, ao
-mesmo tempo, conhecer melhor a si própria? Escreve um pequeno texto de 80 a 100 palavras.
+**barbacã**
+muro exterior, à frente da
+muralha principal
 
-Cria uma «mala dos sentimentos» da viagem do cavaleiro: desenha a mala e coloca lá dentro cinco
-objectos-símbolo (um para cada sentimento que ele sente). Explica cada objecto numa frase: «A pedra
-representa o cansaço porque…»
+**ameias**
+recortes no alto das mura-
+lhas, para abrigar quem
+defende
 
+**besta · besteiro**
+arma que dispara setas · o
+soldado que a usa
+
+**Adiantado**
+governador militar de uma
+província castelhana
+
+**arauto**
+mensageiro que anuncia
+em voz alta
+
+**preito e menagem**
+juramento de fidelidade ao
+rei
+
+**almocadém**
+chefe de um grupo de
+soldados
+
+**cervilheira · saio**
+capacete · veste do
+cavaleiro
+
+## 1 Observa a ilustração. Quem sobe o monte? Quem espera nas muralhas? O que achas que o velho de
+mãos atadas vai fazer?
+
+NARRATIVA 1 · O CASTELO DE FARIA
 37
-
-**EXERCÍCIOS 8**
 
 <!-- page 38 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · O C A S T E L O D E F A R I A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 1
+LEITURA
+T E X T O I N T E G R A L · O R T O G R A F I A A T U A L I Z A D A
+## O Castelo de Faria
 
-## Vamos ler · O Rapaz de Bronze
+A L E X A N D R E H E R C U L A N O
 
-**TEXTO LITERÁRIO · SOPHIA DE M. BREYNER ANDRESEN · ADAPTADO**
-**O JARDIM QUE ACORDAVA À NOITE**
+A breve distância da vila de Barcelos, nas faldas
 
-Durante o dia, o jardim parecia pertencer às pessoas. Havia árvores altas, canteiros de flores, arbustos e
+da Franqueira, alveja ao longe um convento de
+franciscanos. Aprazível é o sítio, sombreado de
 
-caminhos por onde os habitantes da casa passeavam. O jardineiro tratava das plantas, cortava os ramos,
+velhas árvores. Sente-se ali o murmurar das
+águas e a bafagem suave do vento, harmonia da
 
-regava as flores e cuidava para que tudo estivesse sempre bonito.
+natureza, que quebra o silêncio daquela soli‐
 
-Mas, quando chegava a noite, o jardim transformava-se. As flores deixavam de estar silenciosas. As plantas
+dão, a qual, para nos servirmos de uma expres‐
+são de Fr. Bernardo de Brito, com a saudade de
 
-começavam a conversar umas com as outras e cada uma revelava a sua maneira de ser.
+seus horizontes parece encaminhar e chamar o
+espírito à contemplação das cousas celestes.
 
-Entre todas, havia flores que gostavam muito de falar sobre si próprias. Os gladíolos, por exemplo, sentiam-se
+1
 
-importantes. Achavam que eram flores muito elegantes e não escondiam a admiração que tinham pela sua
+O monte que se alevanta ao pé do humilde con‐
+vento é formoso, mas áspero e severo como
 
-própria beleza.
+quase todos os montes do Minho. Da sua coroa
 
-Os buxos, mais antigos e discretos, observavam tudo com atenção. Não gostavam muito do comportamento
+descobre-se ao longe o mar, semelhante a man‐
+cha azul entornada na face da terra. O especta‐
 
-dos gladíolos e, quando estes começavam a falar das suas qualidades, ouviam-nos em silêncio.
+dor colocado no cimo daquela eminência volta-
+se para um e outro lado, e as povoações e os
 
-Havia também outras flores, mais simples, que não procuravam chamar a atenção. Algumas cresciam perto
+rios, e os prados e as fragas, e os soutos e os pi‐
 
-do chão; outras apareciam entre as árvores ou junto dos caminhos. Cada uma tinha a sua beleza, mesmo que
+nhais apresentam-lhe o panorama variadíssimo
+que se descobre de qualquer ponto elevado da
 
-os gladíolos não a reconhecessem.
+província de Entre-Douro-e-Minho.
 
-No centro daquele universo existia uma figura muito especial: um rapaz feito de bronze. Durante o dia,
+2
 
-permanecia imóvel, como qualquer estátua. À noite, porém, tornava-se uma presença viva no jardim. Era
+Este monte, ora ermo, silencioso e esquecido, já
 
-respeitado pelas plantas e pelas flores e conhecia todos os segredos daquele lugar.
+se viu regado de sangue: já sobre ele se ouviram
+gritos de combatentes, ânsias de moribundos,
 
-Certa noite, o jardim parecia particularmente animado. As flores conversavam sobre uma festa e sobre aquilo
+estridor de habitações incendiadas, sibilar de
+setas e estrondo de máquinas de guerra. Claros
 
-que poderia acontecer quando todos se reunissem.
+sinais de que aí viveram homens; porque é com
 
-Os gladíolos estavam entusiasmados. Queriam que a festa fosse magnífica e desejavam que todos
+estas balizas que eles costumam deixar assina‐
+lados os sítios que escolheram para habitar na
 
-reparassem neles.
+terra.
 
-Mas havia uma questão que ainda precisava de ser resolvida: era necessário pedir autorização ao Rapaz de
+3
 
-Bronze. E, quando a noite ficou mais escura, as flores começaram a preparar-se para descobrir se a festa
+O castelo de Faria, com suas torres e ameias,
 
-poderia realmente acontecer.
+com sua barbacã e fosso, com seus postigos e
+alçapões ferrados, campeou aí como domina‐
 
-**ENQUANTO LÊS · OBSERVA**
+dor dos vales vizinhos. Castelo real da meia-
 
-• Sublinha, no texto, três verbos no pretérito imperfeito que retratam o jardim de noite.
-• Rodeia o adjectivo que melhor descreve os gladíolos e os buxos.
-• Que flores gostam de falar de si próprias? Como é o Rapaz de Bronze de dia? E de noite?
+idade, a sua origem some-se nas trevas dos
+tempos que já lá vão há muito: mas a febre
 
+lenta que costuma devorar os gigantes de már‐
+more e de granito, o tempo, coou-lhe pelos
+
+membros, e o antigo alcácer das eras dos reis
+
+de Leão desmoronou-se e caiu. Ainda no século
+dezassete parte da sua ossada estava dispersa
+
+por aquelas encostas; no século seguinte já ne‐
+nhuns vestígios dele restavam, segundo o teste‐
+
+munho de um historiador nosso. Um eremité‐
+
+rio fundado pelo célebre Egas Moniz era o
+
+único eco do passado que aí restava. Na ermida
+
+servia de altar uma pedra trazida de Ceuta pelo
+primeiro duque de Bragança, D. Afonso. Era
+
+esta laje a mesa em que costumava comer Sa‐
+lat-ibn-Salat, último senhor de Ceuta. D.
+
+Afonso, que seguira seu pai, D. João I, na con‐
+
+quista daquela cidade, trouxe esta pedra entre
+os despojos que lhe pertenceram, levando-a
+
+consigo para a vila de Barcelos, cujo conde era.
+De mesa de banquetes mouriscos converteu-se
+
+essa pedra em ara do cristianismo. Se ainda
+
+existe, quem sabe qual será o seu futuro
+destino?
+
+4
+
+Serviram os fragmentos do castelo de Faria
+para se construir o convento edificado ao sopé
+
+do monte. Assim se converteram em dormitó‐
+rios as salas de armas, as ameias das torres em
+
+bordas de sepulturas, os umbrais das balestei‐
+
+ras e postigos em janelas claustrais. O ruído dos
+combates calou no alto do monte, e nas faldas
+
+dele alevantou-se a harmonia dos salmos e o
+sussurro das orações.
+
+5
+
+Este antigo castelo tinha recordações de glória.
+Os nossos maiores, porém, curavam mais de
+
+praticar façanhas do que de conservar os mo‐
+numentos delas. Deixaram por isso, sem remor‐
+
+sos, sumir nas paredes de um claustro pedras
+
+que foram testemunhas de um dos mais heroi‐
+cos feitos de corações portugueses.
+
+6
+
+Reinava entre nós D. Fernando. Este príncipe,
+que tanto degenerara de seus antepassados em
+
+valor e prudência, fora obrigado a fazer paz
+com os castelhanos depois de uma guerra infe‐
+
+liz, intentada sem justificados motivos, e em
+
+que esgotou inteiramente os tesouros do Es‐
+tado. A condição principal com que se pôs
+
+termo a esta luta desastrosa foi que D. Fer‐
+nando casasse com a filha d'el-rei de Castela;
+
+mas brevemente a guerra se acendeu de novo,
+
+porque D. Fernando, namorado de D. Leonor
+Teles, sem lhe importar o contrato de que de‐
+
+pendia o repouso dos seus vassalos, a recebeu
+por
+mulher,
+com
+afronta
+da
+princesa
+
+castelhana.
+
+7
+
+NARRATIVA 1 · O CASTELO DE FARIA
 38
 
 <!-- page 39 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · O C A S T E L O D E F A R I A
 
-Prime School Press · www.primeschool.pt
+Resolveu-se o pai a tomar vingança da injúria,
 
-## Exercícios · O Rapaz de Bronze
+ao que o aconselhavam ainda outros motivos.
+Entrou em Portugal com um exército e, recu‐
 
-**COMPREENSÃO DO TEXTO**
+sando D. Fernando aceitar-lhe batalha, veio so‐
 
-**EXERCÍCIOS 1**
-1. Onde decorrem os acontecimentos? Como é o jardim durante o dia?
+bre Lisboa e cercou-a. Não sendo o nosso pro‐
+pósito narrar os sucessos deste sítio, volvere‐
 
-Seleciona as opções correctas — o jardim de dia é:
+mos o fio do discurso para o que sucedeu no
+Minho.
 
-☐ silencioso ☐ cuidado pelo jardineiro ☐ habitado apenas por animais
-☐ cheio de flores ☐ frequentado por pessoas
-2. O que acontece quando chega a noite?
+O Adiantado da Galiza, Pedro Rodríguez Sar‐
+mento, entrou pela província de Entre-Douro-
 
-3. Que característica distingue os gladíolos das outras flores? Como reagem os buxos?
+e-Minho com um grosso corpo de gente de pé e
 
-4. Quem é o Rapaz de Bronze? Porque é que as flores o respeitam?
+de cavalo, enquanto a maior parte do exército
+português trabalhava ou por defender ou por
 
-5. Qual é o acontecimento que começa a ganhar importância no final do texto?
+descercar Lisboa. Prendendo, matando e sa‐
+queando, veio o Adiantado até às imediações de
 
-**VERDADEIRO OU FALSO 2**
+Barcelos sem achar quem lhe atalhasse o passo;
 
-**Afirmação**
-**V/F**
+aqui, porém, saiu-lhe ao encontro D. Henrique
+Manuel, conde de Seia e tio d'el-rei D. Fer‐
 
-Durante o dia, o jardim é tratado pelo jardineiro.
+nando, com a gente que pôde ajuntar. Foi terrí‐
+vel o conflito; mas por fim foram desbaratados
 
-As flores permanecem sempre em silêncio.
+os portugueses, caindo alguns nas mãos dos
 
-Os gladíolos consideram-se importantes.
+castelhanos.
 
-Os buxos são apresentados como flores muito vaidosas.
+8
 
-O Rapaz de Bronze é uma figura importante no jardim.
+Entre os prisioneiros contava-se o alcaide-mor
+do castelo de Faria, Nuno Gonçalves. Saíra este
 
-As flores estão a preparar uma festa.
+com alguns soldados para socorrer o conde de
 
-Corrige as afirmações falsas.
+Seia, vindo assim a ser companheiro na comum
+desgraça. Cativo, o valoroso alcaide pensava
 
+em como salvaria o castelo d'el-rei seu senhor
+das mãos dos inimigos. Governava-o, em sua
+
+ausência, um seu filho; e era de crer que, vendo
+
+o pai em ferros, de bom grado desse a fortaleza
+para o libertar, muito mais quando os meios de
+
+defensão escasseavam. Estas considerações su‐
+geriram um ardil a Nuno Gonçalves. Pediu ao
+
+Adiantado que o mandasse conduzir ao pé dos
+
+muros do castelo, porque ele, com suas exorta‐
+ções, faria com que seu filho o entregasse sem
+
+derramamento de sangue.
+
+9
+
+Um troço de besteiros e de homens-d'armas su‐
+
+bia a encosta do monte da Franqueira, levando
+no meio de si o bom alcaide Nuno Gonçalves. O
+
+Adiantado da Galiza seguia atrás com o grosso
+
+da hoste, e a costaneira, ou ala direita, capita‐
+neada por João Rodríguez de Viedma, estendia-
+
+se rodeando o castelo pelo outro lado. O exér‐
+cito vitorioso ia tomar posse do castelo de Fa‐
+
+ria, que lhe prometera dar nas mãos o seu ca‐
+
+tivo alcaide.
+
+10
+
+De roda da barbacã alvejavam as casinhas da
+
+pequena povoação de Faria, mas silenciosas e
+ermas. Os seus habitantes, apenas enxergaram
+
+ao longe as bandeiras castelhanas, que esvoaça‐
+
+vam soltas ao vento, e viram o refulgir cinti‐
+lante das armas inimigas, abandonando os seus
+
+lares, foram-se acolher no terreiro que se es‐
+tendia entre os muros negros do castelo e a
+
+cerca exterior, ou barbacã.
+
+11
+
+Nas torres, os atalaias vigiavam atentamente a
+
+campanha, e os almocadéns corriam com a
+
+rolda pelas quadrelas do muro e subiam aos cu‐
+belos colocados nos ângulos das muralhas. O
+
+terreiro onde se haviam acolhido os habitantes
+da povoação estava coberto de choupanas col‐
+
+madas, nas quais se abrigava a turba dos velhos,
+
+das mulheres e das crianças, que ali se julgavam
+seguros da violência de inimigos desapiedados.
+
+12
+
+Quando o troço dos homens-d'armas que leva‐
+vam preso Nuno Gonçalves vinha já a pouca
+
+distância da barbacã, os besteiros que coroa‐
+vam as ameias encurvaram as bestas, os ho‐
+
+mens dos engenhos prepararam-se para arrojar
+sobre os contrários os seus quadrelos e viro‐
+
+tões, enquanto o clamor e o choro se alevanta‐
+
+vam no terreiro, onde o povo inerme estava
+apinhado.
+
+13
+
+Um arauto saiu do meio da gente da vanguarda
+inimiga e caminhou para a barbacã: todas as
+
+bestas se inclinaram para o chão, e o ranger das
+máquinas converteu-se num silêncio profundo.
+
+14
+
+— Moço alcaide, moço alcaide! — bradou o
+arauto. — Teu pai, cativo do mui nobre Pedro
+
+Rodríguez Sarmento, Adiantado da Galiza pelo
+
+mui excelente e temido D. Henrique de Castela,
+deseja falar contigo de fora de teu castelo.
+
+15
+
+Gonçalo Nunes, o filho do velho alcaide, atra‐
+vessou então o terreiro e, chegando à barbacã,
+
+disse ao arauto:
+— A Virgem proteja meu pai: dizei-lhe que eu o
+
+espero.
+
+16
+
+O arauto voltou ao grosso de soldados que ro‐
+
+deavam Nuno Gonçalves e, depois de breve de‐
+
+mora, o tropel aproximou-se da barbacã. Che‐
+gados ao pé dela, o velho guerreiro saiu d'entre
+
+os seus guardadores e falou com o filho:
+
+17
+
+NARRATIVA 1 · O CASTELO DE FARIA
 39
 
 <!-- page 40 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · O C A S T E L O D E F A R I A
 
-Prime School Press · www.primeschool.pt
+— Sabes tu, Gonçalo Nunes, de quem é esse cas‐
 
-## Ler nas entrelinhas
+telo que, segundo o regimento de guerra, entre‐
+guei à tua guarda quando vim em socorro e
 
-**INFERÊNCIAS E RECURSOS**
+ajuda do esforçado conde de Seia?
 
-**LÊ NAS ENTRELINHAS 3**
-1. Os gladíolos gostam muito de falar de si próprias. O que podemos inferir sobre a sua personalidade?
-☐ humildes ☐ vaidosos ☐ tímidos ☐ indiferentes
-Justifica:
+18
 
-2. Os buxos são mais antigos e observadores. Que imagem deles é criada pelo texto?
+— É — respondeu Gonçalo Nunes — de nosso rei
 
-3. Porque será que a autora apresenta flores com personalidades diferentes?
+e senhor D. Fernando de Portugal, a quem por
 
-**AS FLORES SÃO PERSONAGENS 4**
-Neste texto, as flores comportam-se como pessoas: falam, pensam, têmopiniões,sentem, discutem e organizam uma
-festa. Como se chama este recurso?
+ele fizeste preito e menagem.
 
-Explica pelas tuas palavras e encontra no texto duas acções humanas atribuídas às flores.
+19
 
+— Sabes tu, Gonçalo Nunes, que o dever de um
+
+leal alcaide é de nunca entregar, por nenhum
+caso, o seu castelo a inimigos, embora fique en‐
+
+terrado debaixo das ruínas dele?
+
+20
+
+— Sei, oh meu pai! — prosseguiu Gonçalo Nunes
+
+em voz mais baixa, para não ser ouvido dos cas‐
+telhanos, que começavam a murmurar. — Mas
+
+não vês que a tua morte é certa, se os inimigos
+
+percebem que me aconselhaste a resistência?
+
+21
+
+Nuno Gonçalves, como se não tivera ouvido as
+
+reflexões do filho, clamou então:
+— Pois, se o sabes, cumpre o teu dever, alcaide
+
+do castelo de Faria! Maldito por mim, sepultado
+sejas tu no inferno, como Judas, o traidor, na
+
+hora em que os que me cercam entrarem nesse
+castelo sem tropeçarem no teu cadáver!
+
+22
+
+— Morra! — gritou o almocadém castelhano. —
+Morra o que nos atraiçoou!
+
+E Nuno Gonçalves caiu no chão, atravessado de
+
+muitas espadas e lanças.
+
+23
+
+— Defende-te, alcaide! — foram as últimas pala‐
+
+vras que ele murmurou.
+
+24
+
+Gonçalo Nunes corria como louco ao redor da
+
+barbacã, clamando vingança. Uma nuvem de
+frechas partiu do alto dos muros: grande por‐
+
+ção dos assassinos de Nuno Gonçalves mistura‐
+ram o próprio sangue com o sangue do homem
+
+leal ao seu juramento.
+
+25
+
+Os castelhanos acometeram o castelo: no pri‐
+
+meiro dia de combate, o terreiro da barbacã fi‐
+
+cou alastrado de cadáveres tisnados e de col‐
+
+mos e ramos reduzidos a cinzas. Um soldado de
+
+Pedro Rodríguez Sarmento tinha sacudido,
+com a ponta da sua longa chuça, um colmeiro
+
+incendiado para dentro da cerca; o vento suão
+
+soprava nesse dia com violência, e dentro em
+pouco os habitantes da povoação, que haviam
+
+buscado o amparo do castelo, pereceram junta‐
+mente com as suas frágeis moradas.
+
+26
+
+Mas Gonçalo Nunes lembrava-se da maldição
+de seu pai: lembrava-se de que o vira mori‐
+
+bundo no meio dos seus matadores, e ouvia a
+
+todos os momentos o último grito do bom
+Nuno Gonçalves:
+
+— Defende-te, alcaide!
+
+27
+
+O orgulhoso Sarmento viu a sua soberba aba‐
+
+tida diante dos torvos muros do castelo de Fa‐
+ria. O moço alcaide defendia-se como um leão,
+
+e o exército castelhano foi constrangido a le‐
+
+vantar o cerco.
+
+28
+
+Gonçalo Nunes, acabada a guerra, era alta‐
+
+mente louvado pelo seu brioso procedimento e
+pelas façanhas que obrara na defensão da for‐
+
+taleza, cuja guarda lhe fora encomendada por
+seu pai no último transe da vida. Mas a lem‐
+
+brança do horrível sucesso estava sempre pre‐
+sente no espírito do moço alcaide; e, pedindo a
+
+el-rei que o desonerasse do cargo, que tão bem
+
+desempenhara, foi depor ao pé dos altares a
+cervilheira e o saio de cavaleiro, para se cobrir
+
+com as vestes pacíficas do sacerdócio. Ministro
+do santuário, era com lágrimas e preces que ele
+
+podia pagar a seu pai o ter coberto de perpétua
+
+glória o nome dos alcaides de Faria.
+
+29
+
+Mas esta glória, não há hoje aí uma única pedra
+
+que a ateste. As relações dos historiadores fo‐
+ram mais duradouras que o mármore.
+
+30
+
+Alexandre Herculano, «O Castelo de Faria», Lendas e Narrativas, tomo
+I (1851). Texto em domínio público, com a ortografia atualizada se-
+
+gundo o Acordo Ortográfico de 1990. Fonte: Wikisource.
+
+NARRATIVA 1 · O CASTELO DE FARIA
 40
 
 <!-- page 41 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · O C A S T E L O D E F A R I A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 1
+LEITURA
+C O M P R E E N D E R E I N T E R P R E T A R
+## Leal até ao fim
 
-## Vamos ler · A Floresta
+LOCALIZAR
 
-**TEXTO LITERÁRIO · SOPHIA DE M. BREYNER ANDRESEN · ADAPTADO**
-**ISABEL E A QUINTA**
+1. Onde fica o monte de que fala o narrador no início (§ 1–2)? O que existe lá hoje?
 
-Isabel tinha onze anos e vivia numa quinta situada nos arredores de uma cidade.
+2. Qual é o ardil de Nuno Gonçalves (§ 9)? O que promete ao Adiantado?
 
-A quinta era grande e bonita. Estava rodeada por muros e dentro dela havia árvores, jardins, fontes, lagos e
+3. Transcreve as três perguntas que Nuno Gonçalves faz ou a que responde o filho (§ 18–21).
 
-muitos caminhos. Em cada estação do ano, o lugar parecia mudar.
+RELACIONAR
 
-Na primavera, surgiam novas cores nos jardins. No verão, os dias eram longos e luminosos. No outono, as
+**4. Nuno Gonçalves engana os castelhanos. Porque é que, para o narrador, esse engano é um ato de leal-**
+**dade e não de traição?**
 
-folhas começavam a mudar de cor e cobriam os caminhos. No inverno, a quinta parecia mais silenciosa e
+5. A frase «Defende-te, alcaide!» aparece duas vezes (§ 24 e 27). Que função tem essa repetição na vida de
+Gonçalo Nunes?
 
-misteriosa.
+6. O incêndio do terreiro (§ 26) é causado por um único soldado e pelo vento. Que efeito tem este pormenor
+no leitor?
 
-Isabel gostava muito daquele lugar. Entre todos os espaços da quinta, havia um que despertava
+AVALIAR
 
-especialmente a sua curiosidade: a floresta.
+7. Depois da vitória, Gonçalo Nunes torna-se padre (§ 29). Vitória ou derrota? Justifica com o texto.
 
-Desde pequena que Isabel gostava de imaginar que nela poderiam viver seres fantásticos. Tinha uma
+8. «As relações dos historiadores foram mais duradouras que o mármore» (§ 30). Explica a frase e relaciona-
+a com a razão pela qual Herculano escreveu esta lenda.
+DESAFIO
 
-preferência especial pelos anões. Durante muito tempo procurara um.
-
-Quando era mais pequena, espreitava atrás das árvores, procurava junto das pedras e observava
-
-atentamente os buracos existentes no chão. Esperava encontrar, a qualquer momento, uma pequena porta ou
-
-uma casa escondida.
-
-Nunca encontrara nenhum anão. Por isso, pouco a pouco, começou a pensar que talvez eles não existissem.
-
-Mesmo assim, não abandonou completamente a esperança.
-
-Certa tarde de Outubro, Isabel caminhou até à floresta. O lugar estava tranquilo. Entre as árvores encontrou
-
-um enorme carvalho cujas raízes formavam pequenos espaços semelhantes a grutas.
-
-Isabel ficou a observar aquelas raízes. Teve então uma ideia: talvez aquele fosse o lugar perfeito para
-
-construir uma casa para um anão.
-
-Começou a imaginar como seria a pequena casa: onde ficaria a porta, onde poderia existir uma cama e como
-
-seria o espaço onde o seu habitante viveria.
-
-Naquele momento, a floresta deixou de ser apenas uma floresta. Para Isabel, transformou-se num lugar onde
-
-alguma coisa extraordinária poderia acontecer.
-
-**ENQUANTO LÊS · OBSERVA**
-
+NARRATIVA 1 · O CASTELO DE FARIA
 41
 
 <!-- page 42 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · O C A S T E L O D E F A R I A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 1
+ED. LITERÁRIA
+O M A P A A P L I C A D O
+## Desmontar a lenda
 
-## Caracterização e escrita
+§ 1–6
+**Moldura**
 
-**ANÁLISE E PRODUÇÃO**
+§ 7
+**Contexto**
 
-**CARACTERIZAÇÃO · COMPLETA 5**
+§ 8–28
+**A ação**
 
-**GLADÍOLOS**
+§ 29–30
+**Epílogo**
 
-Como são?
+## 1 Completa o mapa da narrativa com exemplos do texto.
 
-O que pensam de si próprios?
+CATEGORIA
+O QUE DESCOBRI
+PROVA (§ E CITAÇÃO
+CURTA)
 
-Como se relacionam com as outras flores?
+**Narrador**
 
-**O DIA E A NOITE · COMPLETA O QUADRO**
+presença · posição
 
-**Durante o dia**
-**Durante a noite**
+**Personagem princi-**
+**pal**
 
-O jardim pertence às pessoas·
-O jardim transforma-se·
+caracterização
 
-Porque é importante a mudança do dia para a noite neste texto?
+**Espaço físico**
 
-**ESCREVE · A CARTA 6**
-Imagina que uma das flores do jardim decide escrever uma carta ao Rapaz de Bronze a pedir autorizaçãopara a festa.
-Escreve 80 a 100 palavras, com saudação, pedido argumentado e despedida.
+**Tempo histórico**
 
+**Dois tempos**
+
+do narrador · da ação
+
+## 2 O narrador não participa na história, mas não é neutro. Encontra duas expressões em que mostra a
+sua opinião (por exemplo, sobre D. Fernando ou sobre «os nossos maiores»).
+
+## 3 Uma lenda mistura factos históricos com elementos inventados ou engrandecidos. Aponta um ele-
+mento que parece histórico e outro que parece engrandecido pela lenda.
+
+HISTÓRICO
+ENGRANDECIDO
+
+## 4 Desenha o espaço do § 11–13: a barbacã, o terreiro com as choupanas, as muralhas e as torres. Assinala
+onde estão os besteiros, o povo e o troço castelhano.
+
+O narrador, no presente,
+descreve o lugar e la-
+menta o esquecimento.
+
+A guerra de D. Fer-
+nando com
+Castela.
+
+Prisão, ardil, morte, cerco e vitória.
+O destino de Gonçalo
+Nunes e a lição do
+narrador.
+
+NARRATIVA 1 · O CASTELO DE FARIA
 42
 
 <!-- page 43 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 1
+ESCRITA
+R E S U M O
+## Dizer muito com pouco
 
-## Exercícios · A Floresta
+**Resumir não é copiar frases soltas nem contar tudo. É reescrever o essencial, com as tuas**
+**palavras, pela ordem do texto, em cerca de um quarto do tamanho original.**
 
-**COMPREENSÃO DO TEXTO**
+A S S I M N Ã O
 
-**EXERCÍCIOS 7**
-1. Quantos anos tem Isabel? Onde vive? Indica quatro elementos existentes na quinta.
+«Um troço de besteiros e de homens-d'armas subia
+a encosta do monte da Franqueira, levando no
+meio de si o bom alcaide.»
 
-2. Que espaço da quinta desperta especialmente a curiosidade de Isabel? Porquê?
+É uma cópia, não um resumo.
 
-3. O que fazia Isabel quando era mais pequena? O que começa a pensar depois de nunca encontrar nenhum anão?
+A S S I M S I M
 
-4. Em que estação do ano decorre o episódio final? Que árvore encontra? Que ideia tem?
+Os castelhanos levaram Nuno Gonçalves até ao
+castelo, convencidos de que ele ia mandar o filho
+render-se.
 
-**O TEMPO · COMPLETA 8**
+Frase nova, só com o essencial.
 
-**Estação**
-**O que acontece na quinta**
+C O M E Ç A A S S I M
 
-Primavera
+Perto de Barcelos, no alto do monte da Franqueira, existiu o castelo de Faria, de que hoje não resta ne‐
 
-Verão
+nhuma pedra. O narrador lamenta que se tenha esquecido o feito heroico que ali aconteceu.
 
-Outono
+Bloco 1 · moldura
 
-Inverno
+## 1 Continua o resumo com os blocos 2, 3 e 4 (100 a 130 palavras no total, contando com o bloco 1).
 
-Porque é que a autora apresenta as quatro estações? O que isso mostra sobre a quinta?
+**Revê**
+○ 4 parágrafos, pela ordem do texto
+○ 3.ª pessoa, sem opinião
+○ sem frases copiadas
 
+○ conectores de tempo e causa
+○ 100–130 palavras
+
+**DivideSepara o texto em blocos de sentido (na**
+lenda: moldura, contexto, ação, epílogo).
+## 1
+**SublinhaEm cada bloco, a ideia principal. Ignora**
+descrições e pormenores.
+## 2
+
+**ReescreveUma ou duas frases por bloco, na 3.ª**
+pessoa, sem opiniões nem citações.
+## 3
+**LigaUsa conectores de tempo e causa: quando,**
+depois, por isso, porque, no entanto, por fim.
+## 4
+
+NARRATIVA 1 · ESCRITA
 43
 
 <!-- page 44 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 1 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 1
+GRAMÁTICA
+F R A S E S I M P L E S E F R A S E C O M P L E X A
+## Uma ação ou várias?
 
-## Isabel e a floresta
+**Frase simples**
 
-**PERSONAGEM E ESPAÇO**
+Tem uma só forma verbal (uma oração).
 
-**RETRATO PSICOLÓGICO DE ISABEL 9**
-Seleciona:
+O moço alcaide defendia -se como um leão.
 
-☐ curiosa ☐ imaginativa ☐ persistente ☐ indiferente ☐ sonhadora ☐ observadora
-Escolhe três características e justifica cada uma com informação do texto.
+**Frase complexa**
 
-Porque…
+Tem duas ou mais orações, ligadas por coordenação
+ou por subordinação.
 
-Porque…
+O arauto voltou e o tropel aproximou -se.
 
-Porque…
+**Coordenação**
 
-**A FLORESTA PELOS SENTIDOS 10**
-Antes de Isabel entrar na floresta, imagina: o que vê?O que ouve? O que sente? Que cheiro sente? Porque pode uma
-floresta ser um espaço perfeito para uma história fantástica?
+**As orações têm o mesmo valor; cada uma faz sen-**
+tido sozinha. Conjunções: e, mas, ou, porém, logo,
+pois.
 
+**Foi terrível o conflito, mas os portugueses foram**
+desbaratados.
+
+**Subordinação**
+
+**Uma oração (subordinante) manda; a outra (subor-**
+**dinada) depende dela e completa o seu sentido.**
+
+**Os habitantes fugiram quando viram as**
+**bandeiras.**
+
+**Subordinada adverbial temporal**
+
+Diz quando. quando, enquanto, logo que, assim que,
+depois que, antes que, sempre que
+
+**Enquanto**
+o exército cercava Lisboa, o Adiantado invadiu
+o Minho.
+
+**Subordinada adverbial causal**
+
+Diz porquê. porque, como (no início), visto que, uma
+vez que, já que
+
+**Como**
+o vento soprava com violência, o fogo espalhou-
+se.
+
+## 1 Classifica cada frase: S (simples), C (complexa por coordenação) ou Sb (complexa por subordinação).
+
+a. Nuno Gonçalves caiu no chão.
+
+b. Gonçalo Nunes lembrava-se da maldição e ouvia o último grito.
+
+c. O exército levantou o cerco porque o alcaide se defendia como um leão.
+
+d. Logo que o arauto falou, as bestas inclinaram-se para o chão.
+
+## 2 Junta cada par numa frase complexa com uma subordinada temporal (T) ou causal (C), como se
+indica.
+
+a. Os habitantes viram as bandeiras. Fugiram para o castelo. (T)
+
+b. Gonçalo não esquecia o pai. Deixou de ser cavaleiro. (C)
+
+c. O filho falou baixo. Não queria ser ouvido pelos castelhanos. (C)
+
+NARRATIVA 1 · GRAMÁTICA
 44
 
 <!-- page 45 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 2 · M E S T R E F I N E Z A S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 2
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O C O N T O N A A N T O L O G I A D A T U R M A
+## Mestre Finezas
 
-## Explícito e implícito
+MANUEL DA FONSECA · CONTO PUBLICADO EM O FOGO E AS CINZAS (1953)
 
-**INFORMAÇÃO E INTERPRETAÇÃO**
+**O AUTOR**
 
-**EXPLÍCITO (E) OU INFERÊNCIA (I)? 11**
+**Manuel da Fonseca (1911–1993), alentejano de Santi-**
+ago do Cacém, contou como poucos a vida das vilas
 
-**Afirmação**
-**E/I**
+e dos campos do Alentejo: a solidão, a pobreza, os
+sonhos adiados.
 
-Isabel tem onze anos.
+**O QUE VAIS ENCONTRAR**
 
-Isabel vive numa quinta.
+Carlinhos, já adulto, entra na barbearia do Mestre Fi-
+nezas — barbeiro, ator de teatro amador e violinista
+— e recorda o tempo em que, criança, tinha medo
+**dele. Duas épocas entrelaçam-se: a da glória do Mes-**
+**tre, aplaudido por toda a vila, e a do esquecimento,**
 
-Isabel é imaginativa.
+em que só o narrador o escuta.
 
-Isabel gosta muito de anões.
+«pernas esguias, carão severo de magro, o corpo
 
-A floresta desperta curiosidade em Isabel.
+alto, curvado»
 
-Isabel acredita que algo extraordinário pode acontecer.
-Explica uma das tuas respostas de inferência.
+«mãos trémulas que já mal seguram (…) a navalha»
 
-**A FRASE MAIS IMPORTANTE 12**
-Relê:«Naquelemomento, a floresta deixou de ser apenas uma floresta.» 1. O que significa esta frase? 2. O que mudou: ☐a
-floresta ☐ a imaginação de Isabel ☐ o tempo ☐ a quinta? 3. Explica a tua escolha.
+Manuel da Fonseca, «Mestre Finezas». Citações breves para fins de
+ensino.
 
-**O REAL E O FANTÁSTICO 13**
+**ENQUANTO LÊS**
 
-**Real**
-**Fantástico**
+**1. Marca a azul as passagens do passado e a ver-**
+**melho as do presente. Onde muda o tempo?**
 
-Isabel tem 11 anos e vive numa quinta.
-Isabel espera encontrar um anão.
+2. Quais são os «três ofícios» do Mestre? Qual de-
+les lhe dava mais orgulho?
 
-Existe um carvalho.
+3. Como era o Mestre visto pela vila no passado?
+E agora?
 
-Em que momento começa a surgir a possibilidade de entrar no mundo fantástico?
+**4. O narrador é participante. Que sentimentos**
+tem pelo Mestre na infância e na idade adulta?
 
+5. Porque é que a vila pode ser considerada uma
+**personagem coletiva?**
+
+6. Que sentimento transmite a música com que o
+conto termina?
+
+NARRATIVA 2 · MESTRE FINEZAS
 45
 
 <!-- page 46 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 2 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 2
+ESCRITA
+T E M A , V A L O R E S E C O M E N T Á R I O
+## Do que fala esta história?
 
-## Vocabulário e gramática em contexto
+**Assunto**
 
-**PALAVRAS E VERBOS DO TEXTO**
+O que acontece, em resumo.
 
-**VOCABULÁRIO · EXPLICA PELO CONTEXTO 14**
+Um homem recorda o barbeiro-
+artista da sua infância, agora ve-
+lho e esquecido.
 
-Substitui: «Isabel ficou a observar aquelas raízes.» → Isabel ficou a ____________ aquelas raízes.
+**Tema**
 
-**GRAMÁTICA · OS VERBOS 15**
-1. Retira do texto três verbos no pretérito imperfeito e três no pretérito perfeito.
+A ideia de fundo, numa palavra ou
+expressão.
 
-2. Porque é que o pretérito imperfeito é muito utilizado na descrição da quinta?
+A ingratidão do esquecimento · a
+passagem do tempo.
 
-**ESCREVER UMA DESCRIÇÃO 16**
-A floresta pelos olhos de Isabel: escreve uma descriçãode 100-120 palavras com elementos da natureza, cores, sons,
-sensações, pelo menos três adjectivos e uma comparação. Dica: não escrevas «a floresta era bonita» — mostra porquê.
+**Valores**
 
+O que o texto defende ou põe em
+causa.
+
+O respeito pelos mais velhos · a
+arte · a amizade · a memória.
+
+## 1 Discutam em grupo: de quem é a culpa do esquecimento do Mestre — da vila, do tempo ou do próprio
+Mestre? Anotem as duas melhores razões de cada lado.
+EM GRUPO
+
+O C O M E N T Á R I O · U M A E S T R U T U R A Q U E F U N C I O N A
+
+**1**
+**Tese**
+A tua opinião, numa frase clara.
+«Em "Mestre Finezas", Manuel da Fonseca mostra que uma comunidade pode
+ser cruel com quem mais lhe deu.»
+
+**2**
+**Argumento 1 + prova**
+Uma razão, com um exemplo ou uma citação curta do conto.
+
+**3**
+**Argumento 2 + prova**
+Outra razão, diferente da primeira. Liga-a com além disso, por outro lado.
+
+**4**
+**Conclusão**
+Retoma a tese com outras palavras e alarga-a: o que nos ensina este conto
+hoje?
+
+## 2 Escreve um comentário de 120 a 160 palavras: «O Mestre Finezas é uma personagem trágica.» Con-
+cordas? Segue a estrutura acima.
+
+NARRATIVA 2 · ESCRITA
 46
 
 <!-- page 47 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 2 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 2
+GRAMÁTICA
+P R O N O M E R E L A T I V O E O R A Ç Ã O R E L A T I V A
+## A palavra que liga
 
-## Comparação e desafio final
+**O pronome relativo retoma uma palavra que já apareceu (o antecedente) e introduz uma**
+**oração que a caracteriza: a oração subordinada adjetiva relativa. Funciona como um ad‐**
+jetivo gigante.
 
-**SOPHIA DE MELLO BREYNER ANDRESEN**
+## O barbeiro que tocava violino ficou sozinho.
 
-**COMPARA OS DOIS TEXTOS 17**
+ANTECEDENTE
+PRONOME RELATIVO
+ORAÇÃO RELATIVA
 
-**O Rapaz de Bronze**
-**A Floresta**
+PRONOME
+QUANDO SE USA
+EXEMPLO
 
-Espaço principal
+**que**
+o mais comum: pessoas e coisas
+**A vila que o aplaudia esqueceu-o.**
 
-Elementos naturais
+**quem**
+pessoas, depois de preposição
+**O Mestre, a quem todos pediam autógrafos,**
+envelheceu só.
 
-Personagens fantásticas
+**o qual, a**
+**qual…**
 
-Relação com a natureza
-De que forma Sophia transforma espaços naturais em lugares de fantasia? Escreve 120-150 palavras.
+concorda com o antecedente; útil depois de prepo-
+sições longas
 
-**RELEMBRA · O QUE APRENDI 18**
+**A barbearia, dentro da qual se ouvia o violino,**
+estava vazia.
 
-Ὡ A narrativa apresenta personagens, espaço, tempo e acontecimentos.
-Ἳ A natureza pode ter um papel fundamental na história.
-✨ O fantástico permite ultrapassar os limites da realidade.
-Ἲ A personificação atribui características humanas a seres ou objectos.
+**cujo, cuja…**
+indica posse; concorda com o que vem a seguir
+**O Mestre, cujas mãos tremiam, pegou na**
+navalha.
 
-**DESAFIO FINAL · CRIA A TUA PERSONAGEM 19**
+**onde**
+lugar (= em que)
+**A rua onde Carlinhos cresceu mudou.**
 
-Escolhe uma flor, uma árvore,um animal ou uma estátua.Dá-lhenome, personalidade, maior desejo, maior medo e um
-segredo —e escreve uma narrativa de 180-220 palavras em que essa personagem conhece Isabel ou uma das
-personagens do jardim.
+**Restritiva · sem vírgulas**
 
-Nome: ____________________ Personalidade: ____________________
-Desejo: ____________________ Medo: ____________________ Segredo: ____________________
+**Seleciona: Os atores que ensaiavam com ele**
+partiram. (só esses)
 
+**Explicativa · entre vírgulas**
+
+**Acrescenta informação: Os atores, que ensaia-**
+**vam com ele, partiram. (todos)**
+
+## 1 Liga as frases com o pronome relativo adequado.
+
+a. O violino era do Mestre. O violino tinha cordas gastas.
+
+b. Carlinhos voltou à vila. Na vila, ninguém se lembrava do Mestre.
+
+c. O Mestre era um artista. Os aplausos ao artista enchiam a sala.
+
+## 2 Explica a diferença de sentido: «Os vizinhos que o esqueceram arrependeram-se.» / «Os vizinhos, que o
+esqueceram, arrependeram-se.»
+
+NARRATIVA 2 · GRAMÁTICA
 47
-
-**DESAFIO FINAL · CRIA A TUA PERSONAGEM 19**
 
 <!-- page 48 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 3 · P A R Á B O L A D O S S E T E V I M E S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 3
+LEITURA
+ORALIDADE
+T E X T O I N T E G R A L
 
-## Conhece a autora – Maria Alberta Menéres
+## Parábola dos sete
+## vimes
 
-**LITERATURA · A AUTORA**
+T R I N D A D E C O E L H O · O S M E U S A M O R E S ( 1 8 9 1 )
 
-A viagem de Ulisses (ilustração).
+**Trindade Coelho (1861–1908), transmontano, magistrado e escri-**
+**tor, recolheu nos seus contos a vida simples das aldeias. Uma pa-**
+**rábola é uma narrativa curta que, através de uma situação con-**
+creta, transmite uma lição.
 
-Maria Alberta Menéres foi uma das mais importantes escritoras portuguesas de
-literatura para crianças e jovens. Nasceu em Vila Nova de Gaia, em 1930, e morreu
-em 2019. Foi professora, escritora, poetisa e autora de numerosos livros
-destinados a crianças e jovens.
+## 3
+VOZES
 
-A sua escrita caracteriza-se pela imaginação, pelo humor e pela capacidade de
-transformar histórias antigas em narrativas próximas dos leitores mais novos.
+**Leitura a três vozes. Narrador, pai e filhos: divi-**
+dam o texto, marquem as pausas e leiam-no em
+voz alta. Qual é a fala do pai que tem de soar
+mais devagar?
 
-Entre as suas obras encontra-se Ulisses, uma recriação da famosa viagem do herói grego Ulisses,
-personagem central da Odisseia, de Homero. Nesta obra, a autora apresenta aventuras, perigos,
-monstros, deuses e lugares fantásticos, mas também explora características humanas como a coragem,
-a inteligência, a curiosidade, a astúcia e a perseverança.
+**vime: vara fina e flexível de vimeiro · vincelho: atilho feito de vime ou palha. Trin-**
+dade Coelho, «Parábola dos sete vimes», Os Meus Amores (1891). Texto em domí-
+nio público.
 
-**SABIAS QUE?**
+Era uma vez um pai que tinha sete filhos.
+Quando estava para morrer, chamou-os todos
+sete e disse-lhes assim:
 
-A história de Ulisses tem origem numa das grandes obras da literatura da Antiguidade: a Odisseia,
-atribuída ao poeta grego Homero. Maria Alberta Menéres recria essa história numa linguagem
-acessível aos leitores mais jovens, aproximando uma narrativa com milhares de anos do público de
-hoje.
+1
 
+— Filhos, já sei que não posso durar muito; mas
+
+antes de morrer, quero que cada um de vós me
+vá buscar um vime seco, e mo traga aqui.
+
+2
+
+— Eu também? — perguntou o mais pequeno que
+tinha só 4 anos. O mais velho tinha 25, e era um
+
+rapaz muito reforçado e o mais valente da
+freguesia.
+
+3
+
+— Tu também — respondeu o pai ao pequeno.
+4
+
+Saíram os sete filhos; e daí a pouco tornaram a
+voltar, trazendo cada um seu vime seco.
+
+5
+
+O pai pegou no vime que trouxe o filho mais ve‐
+lho, e entregou-o ao mais novinho, dizendo-lhe:
+
+6
+
+— Parte esse vime.
+7
+
+O pequeno partiu o vime, e não lhe custou nada
+a partir.
+
+8
+
+Depois o pai entregou outro vime ao mesmo fi‐
+lho mais novo, e disse-lhe:
+
+9
+
+— Agora parte também esse.
+10
+
+O pequeno partiu-o; e partiu, um a um, todos os
+outros, que o pai lhe foi entregando, e não lhe
+custou nada parti-los todos. Partido o último, o
+pai disse outra vez aos filhos:
+
+11
+
+— Agora ide por outro vime e trazei-mo.
+12
+
+Os filhos tornaram a sair, e daí a pouco estavam
+outra vez ao pé do pai, cada um com seu vime.
+
+13
+
+— Agora dai-mos cá — disse o pai.
+14
+
+E dos vimes todos fez um feixe, atando-os com
+um vincelho. E voltando-se para o filho mais ve‐
+lho, disse-lhe assim:
+
+15
+
+— Toma este feixe! Parte-o!
+16
+
+O filho empregou quanta força tinha, mas não
+foi capaz de partir o feixe.
+
+17
+
+— Não podes? — perguntou ele ao filho.
+18
+
+— Não, meu pai, não posso.
+19
+
+— E algum de vós é capaz de o partir?
+
+Experimentai.
+
+20
+
+Não foi nenhum capaz de o partir, nem dois jun‐
+tos, nem três, nem todos juntos.
+
+21
+
+O pai disse-lhes então:
+22
+
+— Meus filhos, o mais pequenino de vós partiu
+sem lhe custar nada todos os vimes, enquanto os
+partiu um por um; e o mais velho de vós, não
+pôde parti-los todos juntos; nem vós, todos jun‐
+
+tos, fostes capazes de partir o feixe. Pois bem,
+lembrai-vos disto e do que vos vou dizer: en‐
+quanto vós todos estiverdes unidos, como ir‐
+mãos que sois, ninguém zombará de vós, nem
+vos fará mal, ou vencerá. Mas logo que vos sepa‐
+reis, ou reine entre vós a desunião, facilmente
+
+sereis vencidos.
+
+23
+
+Acabou de dizer isto e morreu — e os filhos fo‐
+ram muito felizes, porque viveram sempre em
+boa irmandade, ajudando-se sempre uns aos ou‐
+tros; e como não houve forças que os desunis‐
+
+sem, também nunca houve forças que os
+vencessem.
+
+24
+
+NARRATIVA 3 · PARÁBOLA DOS SETE VIMES
 48
 
 <!-- page 49 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 3 · P A R Á B O L A D O S S E T E V I M E S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 3
+ED. LITERÁRIA
+S E N T I D O L I T E R A L E S E N T I D O F I G U R A D O
+## O que dizem os vimes?
 
-## Ulisses – uma história de aventura
+**Sentido literal**
 
-**LITERATURA · A OBRA**
+Um feixe de vimes é mais difícil de partir do
+que um vime sozinho.
 
-Ulisses é rei de Ítaca e um dos grandes heróis da mitologia grega. Depois da guerra de Troia, inicia uma
-longa viagem de regresso à sua terra. No caminho, enfrenta tempestades, monstros, deuses e muitos
-outros perigos.
+→
 
-Mas Ulisses não vence apenas pela força. A sua maior arma é frequentemente a inteligência. Ao longo
-da viagem, precisa de observar, pensar rapidamente e encontrar soluções para situações
-aparentemente impossíveis.
+**Sentido figurado**
 
-Um dos episódios mais conhecidos é o encontro com Polifemo, um ciclope gigantesco que vive numa
-gruta. É neste episódio que Ulisses terá de usar a sua inteligência para salvar a sua vida e a dos seus
-companheiros.
+Quem está unido é mais forte do que quem
+está sozinho.
 
-**UMA HISTÓRIA DE AVENTURA**
+**1. Porque é que o pai escolhe o filho mais novo para partir os vimes um a um, e o mais velho para tentar**
+partir o feixe?
 
-Uma boa narrativa de aventura precisa de: conflito · viagem · perigo · personagens marcantes ·
-estratégias · suspense · consequências.
-Enquanto lês, procura estes elementos no texto.
+**2. O que representam, no sentido figurado: a) cada vime? b) o feixe? c) o vincelho que os ata?**
 
+3. A lição é dita de forma explícita. Transcreve a frase que a resume.
+
+4. O último parágrafo repete a estrutura «não houve forças que… / nunca houve forças que…». Que efeito
+tem esta repetição?
+
+5. Uma parábola é quase sempre intemporal. Dá um exemplo atual (numa turma, numa equipa, num país) em
+que esta lição se aplique.
+
+✎Leitura expressiva. Em grupos de três (narrador, pai, filhos), preparem a leitura em voz alta. Marquem
+
+no texto as pausas (/) e as palavras a realçar (sublinhado). Comparem com a gravação.
+ORALIDADE
+
+O que as palavras dizem, à letra.
+O que as palavras querem dizer, para lá da letra.
+
+NARRATIVA 3 · PARÁBOLA DOS SETE VIMES
 49
 
 <!-- page 50 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 3 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 3
+ESCRITA
+T E X T O D E O P I N I Ã O
+## «A união faz a força»?
 
-## Ulisses – antes de ler
+**O pai tem razão? Será que estar unido é sempre melhor? No texto de opinião defendes uma**
+posição e convences o leitor com razões — e mostras que conheces a posição contrária.
 
-**PRÉ-LEITURA**
+## 1
 
-**Observa a imagem de Polifemo.**
+**Introdução**
 
-Imagina que estás dentro da sua gruta.
-O que esperarias encontrar?
+Apresenta o tema e a tua
+**posição**
+(tese).
 
-**1. O QUE SIGNIFICA SER ASTUTO?**
+## 2
 
-☐  Ser muito forte.
+**Argumentos**
 
-☐  Ser capaz de pensar rapidamente e encontrar soluções.
+Duas ou três razões,
+cada uma com um
+**exemplo**
+concreto.
 
-☐  Ser mais rápido do que os outros.
+## 3
 
-☐  Não ter medo de ninguém.
+**Contra-**
+**argumento**
 
-**2. COMPLETA AS PREVISÕES**
+«Há quem pense que…
+No entanto…» — e
+refutas.
 
-Ulisses poderá ter problemas porque ______________________________
+## 4
 
-Polifemo parece ser perigoso porque ______________________________
+**Conclusão**
 
-Para escapar, Ulisses provavelmente irá ______________________________
+Reafirma a tese e deixa
+uma ideia final forte.
 
-**3. DESAFIO: força / inteligência / velocidade / coragem?**
+PARA OPINAR
 
-Qual seria mais importante para escapar de um gigante? Escolhe uma e justifica.
+Na minha opinião · Con-
 
+sidero que · Defendo que
+
+· Estou convicto de que
+
+PARA ARGUMENTAR
+
+Em primeiro lugar · Além
+
+disso · Por exemplo · De
+
+facto
+
+PARA CONTRAPOR
+
+No entanto · Contudo ·
+
+Apesar de · Embora
+
+PARA CONCLUIR
+
+Em suma · Assim · Por
+
+tudo isto
+
+## 1 Planifica. Tese:
+
+IDEIA
+EXEMPLO
+
+Argumento 1
+
+Argumento 2
+
+Contra-argumento
+
+## 2 Escreve o texto de opinião, com 150 a 200 palavras. Dá-lhe um título que desperte curiosidade.
+
+○ tese clara na introdução
+○ dois argumentos com exemplos
+○ um contra-argumento refutado
+
+○ conectores variados
+○ 150–200 palavras
+
+NARRATIVA 3 · ESCRITA
 50
 
 <!-- page 51 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 3 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 3
+GRAMÁTICA
+S U B O R D I N A D A S A D V E R B I A I S C O N D I C I O N A I S E F I N A I S
+## Se… para que…
 
-## Vamos ler – Ulisses e Polifemo
+**Condicional**
 
-**TEXTO LITERÁRIO · MARIA ALBERTA MENÉRES · ADAPTADO**
+Indica a condição para que algo aconteça. se, caso,
+desde que, a menos que, a não ser que
 
-1  Chegados à ilha, Ulisses e os seus companheiros avistaram, no cimo de um monte, uma gruta enorme,
+**Se**
 
-sombreada por loureiros. Junto à entrada havia currais fechados com pedras enormes, cheios de queijos
+estiverdes unidos, ninguém vos vencerá.
 
-e de cordeiros. Os companheiros de Ulisses aconselharam-no a levar os queijos e os animais e a fugir
+**Caso**
+vos separeis, sereis vencidos.
 
-depressa para o navio. Mas Ulisses quis, antes, conhecer o dono daquele lugar.
+**Final**
 
-2  Entraram, pois, na gruta e acenderam um fogo. Esperaram. Ao cair da tarde, o dono chegou: era um
+Indica a finalidade, o objetivo. para que, a fim de que,
+para (+ infinitivo)
 
-ciclope gigantesco, que só tinha um olho no meio da testa, chamado Polifemo. Trazia às costas uma
+O pai chamou os filhos
+**para que**
+aprendessem a lição.
 
-carga de lenha seca, que atirou ao chão com um estrondo que fez tremer a caverna. Aterrados, os
+Ataram os vimes
+**para**
+fazer um feixe.
 
-companheiros de Ulisses esconderam-se nos cantos mais escuros.
+**Atenção ao modo Com caso, desde que, a menos que, para que, a fim de que, o verbo vai para o conjuntivo :**
+caso vos separeis · para que aprendessem. Com se, depende do sentido: se estiverdes unidos (futuro do
+conjuntivo).
 
-3  Polifemo ordenou aos animais que entrassem e tamponou a entrada da gruta com uma pedra tão grande
+## 1 Sublinha a oração subordinada e classifica-a: Cd (condicional) ou F (final).
 
-que vinte carros não a teriam conseguido mover. Depois, ordenhou as ovelhas e fez o seu jantar. Foi
+a. O pequeno partiu os vimes para mostrar que era capaz.
 
-então que viu os homens. «Quem sois?», rugiu. Ninguém respondeu. «Respondei, ou não saireis vivos
+b. Se trouxerem os vimes, farei um feixe.
 
-daqui!»
+c. O feixe não parte, a menos que os vimes se separem.
 
-4  Ulisses, com a voz firme, disse: «Somos gregos, vindos de Troia. Viemos pedir a tua hospitalidade. Tem
+d. O pai falou devagar a fim de que todos o ouvissem.
 
-piedade de nós, que os deuses castigam quem não respeita os viajantes.»
+## 2 Completa com uma oração do tipo indicado.
 
-5  Polifemo riu-se. «Os ciclopes não têm lei nem temor dos deuses.» E, num gesto de fúria, agarrou em dois
+a. A turma ganha o torneio (condicional)
 
-companheiros de Ulisses e, como se fossem cachorros, bateu-lhes as cabeças nas pedras e devorou-os.
+b. Os irmãos ajudavam-se (final)
 
-6  Durante toda a noite, Ulisses pensou. Não podia matar o gigante adormecido, porque ninguém, sozinho,
+c. Ninguém vos fará mal (condicional, com desde que)
 
-conseguiria remover a pedra da entrada. Precisava de um plano. Ao amanhecer, viu o gigante sair com
+## 3 Escreve a «moral» da parábola numa frase complexa com uma condicional e uma final.
+DESAFIO
 
-os rebanhos e voltou a tapar a entrada. Então, com os seus homens, preparou a armadilha: cortou um
+## 4 Reescreve o último parágrafo da parábola começando por «Se os irmãos…». Usa pelo menos uma ora-
+ção final.
 
-tronco de oliveira, aguilhou-o na ponta e endureceu-o ao fogo.
-
-7  Quando Polifemo regressou, à tarde, Ulisses ofereceu-lhe vinho. O gigante bebeu três vezes e,
-
-entusiasmado, perguntou: «Diz-me o teu nome, estrangeiro, e eu dar-te-ei uma recompensa.» «O meu
-
-nome é Ninguém», respondeu Ulisses. «Ninguém será o último a ser devorado, prometo.»
-
-8  O vinho, generoso, fez o sono do gigante. Então, Ulisses e quatro companheiros espetaram no seu único
-
-olho o madeiro ardente, e giraram-no como uma broca. Polifemo despertou com um urro que fez tremer
-
-a ilha, e arrancou do olho o tronco aceso.
-
-9  Os ciclopes, vizinhos, acudiram de todas as partes e gritaram de fora da gruta: «Polifemo, quem te
-
-magoa?» «Ninguém me mata! Ninguém me engana!», uivava ele. «Se ninguém te faz mal», disseram os
-
-ciclopes, «então estás doente e a dor não se cura.» E foram-se embora, resmungando.
-
-10 Ulisses e os seus homens, porém, amarraram-se por baixo dos carneiros mais corpulentos. Quando a
-
-manhã abriu a entrada, os animais saíram um a um, e Polifemo, cego, apalpava o dorso de cada um, sem
-
-sentir os homens pendurados. Assim escaparam para o navio. E, já no mar, Ulisses gritou, vaidoso: «Se
-
-alguém te perguntar quem te cegou, responde que foi Ulisses, o saqueador de cidades!» E deste modo,
-
-por não saber calar, atraiu sobre si novas desgraças.
-
-(Adaptado de Maria Alberta Menéres, Ulisses, episódio de Polifemo.)
-
-**ENQUANTO LÊS · OBSERVA**
-
-• Sublinha três expressões que mostrem a força de Polifemo.
-• Numera mentalmente as etapas do plano de Ulisses.
-
+NARRATIVA 3 · GRAMÁTICA
 51
 
 <!-- page 52 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 4 · O S D A M I N H A R U A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 4
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê D O I S C O N T O S N A A N T O L O G I A D A T U R M A
+## Os da minha rua
 
-## Exercícios – Ulisses e Polifemo
+ONDJAKI · OS DA MINHA RUA (CAMINHO, 2007)
 
-**COMPREENSÃO DO TEXTO**
+**O AUTOR**
 
-**EXERCÍCIO 1 · RESPONDE DE FORMA COMPLETA**
+**Ondjaki (Ndalu de Almeida) nasceu em Luanda, em**
+1977. É poeta, romancista e contista, e um dos escri-
 
-1. Onde se encontram Ulisses e os seus companheiros? Por que razão entram naquele lugar?
+tores angolanos mais lidos em Portugal.
 
-2. Quem é Polifemo? Que características o tornam uma personagem ameaçadora?
+**O LIVRO**
 
-3. O que acontece quando Polifemo descobre a presença dos marinheiros?
+São 22 contos curtos, contados por um narrador
+que recorda a infância em Luanda, nos anos 80: a fa-
+mília, os vizinhos, a escola, as brincadeiras, as festas
+**e as despedidas. A memória chega-nos pelos senti-**
+**dos — cheiros, sons, sabores — e por uma língua**
+cheia de palavras de Angola.
 
-4. Como reage Ulisses perante o perigo? Que estratégia utiliza para escapar?
+«A infância é uma coisa assim bonita: caímos juntos
+na relva, magoamo-nos um bocadinho, mas sobre-
 
-5. Por que razão a estratégia depende mais da inteligência do que da força?
+tudo rimos.»
 
-6. O que acontece quando os outros ciclopes ouvem os gritos de Polifemo?
+Ondjaki, Os da Minha Rua. Citação breve para fins de ensino.
 
-7. Por que razão não compreendem aquilo que Polifemo está a tentar explicar?
+**ENQUANTO LÊS**
 
+1. Quem é o narrador? Que idade parece ter
+**quando conta e quando viveu o que conta?**
+
+2. Faz uma lista dos vizinhos e familiares que apa-
+recem. Quem te parece mais marcante?
+
+**3. Recolhe três expressões ligadas aos sentidos**
+(um cheiro, um som, uma cor).
+
+4. Encontra duas palavras do português de An-
+gola. Deduz o sentido pelo contexto.
+
+**5. Que papel tem a rua: é só um espaço físico, ou**
+também social e afetivo?
+
+NARRATIVA 4 · OS DA MINHA RUA
 52
 
 <!-- page 53 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 4 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 4
+ESCRITA
+N A R R A T I V A B R E V E C O M D E S C R I Ç Ã O E D I Á L O G O
+## Os da minha rua (a tua)
 
-## Exercícios – Ulisses e Polifemo
+Escreve um conto curto, na 1.ª pessoa, sobre uma pessoa ou um momento da tua rua, do teu
+**bairro ou da tua aldeia. Como Ondjaki, faz o leitor ver, ouvir e cheirar o lugar.**
 
-**COMPREENSÃO DO TEXTO**
+**Vejo**
+**Ouço**
+**Cheiro · provo**
+**Sinto**
 
-**EXERCÍCIO 2 · RECONSTITUI A ACÇÃO**
+C O M O S E E S C R E V E U M D I Á L O G O
 
-Ordena os acontecimentos de 1 a 6:
+— Onde vais tão cedo? — perguntou a avó, sem tirar os olhos do café.
 
-___ Ulisses e os seus companheiros entram na gruta.
+— À praia — respondi. — Hoje há ondas.
 
-___ Polifemo descobre a presença dos estrangeiros.
+**Cada fala começa numa linha nova, com travessão (—).**
+A intervenção do narrador vai entre travessões: — À praia — respondi.
+Varia os verbos: perguntou, murmurou, gritou, riu-se, protestou.
 
-___ Ulisses pensa numa estratégia.
+## 1 Escreve a tua narrativa (180 a 250 palavras) com: situação inicial, um acontecimento, um final; pelo me-
+nos uma descrição com três sentidos; pelo menos quatro falas de diálogo.
 
-___ Polifemo pede ajuda aos outros ciclopes.
+**Revê**
+○ 1.ª pessoa
+○ três sentidos na descrição
+○ quatro falas com travessão
 
-___ Os outros ciclopes interpretam mal as palavras de Polifemo.
+○ situação inicial · acontecimento · final
+○ 180–250 palavras
 
-___ Ulisses consegue concretizar o seu plano.
-
-**EXERCÍCIO 3 · VERDADEIRO OU FALSO**
-
-**Afirmação**
-**V**
-**F**
-
-Ulisses viaja acompanhado por outros marinheiros.
-☐
-☐
-
-Polifemo é uma personagem humana.
-☐
-☐
-
-A gruta constitui um espaço importante da acção.
-☐
-☐
-
-Ulisses enfrenta Polifemo apenas através da força física.
-☐
-☐
-
-Polifemo pede ajuda aos outros ciclopes.
-☐
-☐
-
-Os outros ciclopes compreendem imediatamente o que Polifemo quer dizer.
-☐
-☐
-
-Existe um equívoco provocado pelas palavras de Ulisses.
-☐
-☐
-
-A inteligência de Ulisses desempenha um papel fundamental na fuga.
-☐
-☐
-
-No final, o perigo desaparece imediatamente para todos.
-☐
-☐
-
-Corrige as afirmações falsas.
-
+NARRATIVA 4 · ESCRITA
 53
 
 <!-- page 54 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 4 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 4
+GRAMÁTICA
+C O N J U N T I V O : Q U A N D O É O B R I G A T Ó R I O
+## Desejos, dúvidas e condições
 
-## Exercícios – Ulisses e Polifemo
+**O indicativo apresenta os factos como certos: A avó faz café. O conjuntivo apresenta-os**
+como desejados, possíveis, duvidosos ou dependentes: Espero que a avó faça café. Há pala‐
+**vras que obrigam ao conjuntivo.**
 
-**ESCOLHA MÚLTIPLA**
+**Desejo · vontade**
 
-1. O principal conflito do excerto resulta...
+quero que · espero que · oxalá · to-
+mara que
 
-☐  A. da discussão entre os marinheiros.
+Espero que voltes à rua.
 
-☐  B. do encontro entre Ulisses e Polifemo.
+**Dúvida · possibilidade**
 
-☐  C. da tempestade no mar.
+talvez · duvido que · é possível que
 
-☐  D. da discussão entre os ciclopes.
+Talvez o vizinho saiba a
+resposta.
 
-2. Ulisses destaca-se sobretudo pela sua...
+**Necessidade · ordem**
 
-☐  A. força.
+é preciso que · é necessário que ·
+peço que
 
-☐  B. velocidade.
+É preciso que tragas a bola.
 
-☐  C. astúcia.
+**Sentimento**
 
-☐  D. autoridade.
+gosto que · lamento que · tenho
+medo que
 
-3. A situação de Polifemo torna-se particularmente cómica porque...
+Lamento que partas.
 
-☐  A. ele não consegue encontrar a saída da gruta.
+**Concessão · finalidade**
 
-☐  B. os outros ciclopes interpretam as suas palavras de forma diferente daquilo que ele pretendia.
+embora · ainda que · para que · a fim
+de que
 
-☐  C. Ulisses começa a rir.
+Embora chova, vamos brincar.
 
-☐  D. os marinheiros fogem antes de ele os encontrar.
+**Tempo futuro**
 
-4. O episódio decorre predominantemente...
+quando · logo que · assim que (+ fu-
+turo do conjuntivo)
 
-☐  A. num palácio.
+Quando chegares, liga-me.
 
-☐  B. numa floresta.
+VERBO
+PRESENTE DO CONJUNTIVO
+PRETÉRITO IMPERFEITO
+FUTURO
 
-☐  C. numa gruta.
+brincar
+que eu brinque
+se eu brincasse
+quando eu brincar
 
-☐  D. num navio.
+fazer
+que eu faça
+se eu fizesse
+quando eu fizer
 
-5. O narrador apresenta os acontecimentos...
+ir
+que eu vá
+se eu fosse
+quando eu for
 
-☐  A. na primeira pessoa.
+ser
+que eu seja
+se eu fosse
+quando eu for
 
-☐  B. na terceira pessoa.
+## 1 Completa com o verbo no modo e tempo adequados.
 
-☐  C. através de cartas.
+a. A mãe pede que nós
+(voltar) antes de escurecer.
 
-☐  D. através de diálogos exclusivamente.
+b. Embora
+(estar) cansado, o tio Chico contou mais uma história.
 
-6. O suspense resulta principalmente...
+c. Quando tu
+(vir) a Luanda, mostro-te a minha rua.
 
-☐  A. da ausência de personagens.
+d. Talvez os vizinhos
+(fazer) uma festa no sábado.
 
-☐  B. do perigo enfrentado pelos marinheiros.
+e. Se eu
+(ter) uma bicicleta, dava a volta ao bairro.
 
-☐  C. da descrição da paisagem.
+## 2 Escreve três desejos para a tua rua, cada um começado por uma expressão diferente que obrigue ao
+conjuntivo.
 
-☐  D. da viagem de regresso a Ítaca.
+## 3 Transforma, começando pela expressão dada: a) A avó faz café. → Espero que… b) O vizinho sabe a res-
+posta. → Talvez… c) Tu vens à festa. → Quando…
 
+NARRATIVA 4 · GRAMÁTICA
 54
 
 <!-- page 55 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 5
+ED. LITERÁRIA
+A N T E S D E L E R
+## O homem que sabia javanês
 
-## Ler nas entrelinhas – Ulisses
+LIMA BARRETO · CONTO PUBLICADO NA GAZETA DA TARDE, RIO DE JANEIRO (1911)
 
-**EXPLÍCITO E IMPLÍCITO**
+**O AUTOR**
 
-**EXERCÍCIO 4 · INFORMAÇÃO EXPLÍCITA**
+**Lima Barreto (1881–1922), escritor carioca, foi um crítico**
+feroz da sociedade brasileira do seu tempo: a vaidade, o
 
-Retira do texto informações que comprovem:
+gosto pelas aparências, os «doutores» que ninguém
+questionava. Escreveu com humor, mas um humor que
+morde.
 
-• Polifemo é fisicamente poderoso.
+**A LÍNGUA DO CONTO**
 
-• Ulisses é responsável pela estratégia de fuga.
+**O texto está escrito em português do Brasil do início do**
+século XX. Vais encontrar formas como fato (facto), ingê-
+nua (ingénua) ou o pronome antes do verbo onde em
+Portugal o poríamos depois. Não são erros: é outra vari-
 
-• Os outros ciclopes não percebem a mensagem de Polifemo.
+edade da nossa língua.
 
-**EXERCÍCIO 5 · AGORA, INFERIR**
+**A IRONIA**
 
-1. Por que razão Ulisses não enfrenta Polifemo directamente?
+**Ironia é dizer uma coisa querendo que o leitor**
+perceba outra — muitas vezes o contrário.
+Serve para criticar, fazendo rir.
 
-2. O que podemos concluir sobre a personalidade de Ulisses?
+Chove torrencialmente e alguém diz: «Que
 
-3. Por que razão o mal-entendido é essencial para a fuga?
+dia lindo para ir à praia!»
 
-4. O que revela a reacção de Polifemo sobre o seu estado emocional?
+Neste conto, o narrador, Castelo, conta ao
+**amigo como se tornou professor, sábio e côn-**
+**sul graças a uma língua de que não sabia uma**
+palavra. Enquanto lês, pergunta-te: de quem é
+que Lima Barreto se está realmente a rir?
 
-**FÓRMULA: IDEIA + PROVA DO TEXTO + EXPLICAÇÃO.**
+**Gil Blas**
+herói aventureiro de um romance
+francês
 
+**bacharel**
+licenciado (em Direito)
+
+**réis**
+moeda da época
+
+**desembargador juiz de um tribunal superior**
+
+## 1 Já alguma vez fingiste saber uma coisa que não sabias? O que aconteceu? Conta à turma, em três
+frases.
+
+## 2 Olha para o título e para a ilustração. O que prevês que vá acontecer? Regista a tua previsão e con-
+firma-a no fim.
+
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 55
 
 <!-- page 56 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 5
+LEITURA
+T E X T O I N T E G R A L · P O R T U G U Ê S D O B R A S I L
+## O homem que sabia javanês
 
-## Caracterização das personagens
+L I M A B A R R E T O
 
-**PERSONAGENS**
+Em uma confeitaria, certa vez, ao meu amigo
 
-**EXERCÍCIO 6 · POLIFEMO**
+Castro, contava eu as partidas que havia pre‐
+gado às convicções e às respeitabilidades, para
 
-Seleciona as características adequadas: gigantesco · astuto · impulsivo · assustador · ingénuo · agressivo
-· inteligente · vulnerável
+poder viver.
 
-Escolhe quatro e justifica duas com elementos do texto.
+1
 
-**EXERCÍCIO 7 · ULISSES**
+Houve mesmo, uma dada ocasião, quando es‐
 
-Seleciona: corajoso · estratega · impulsivo · inteligente · observador · determinado · ingénuo · astuto
+tive em Manaus, em que fui obrigado a escon‐
+der a minha qualidade de bacharel, para mais
 
-Escolhe quatro e justifica duas.
+confiança obter dos clientes, que afluíam ao
 
-**EXERCÍCIO 8 · CARACTERIZAÇÃO DIREITA E INDIRECTA**
+meu escritório de feiticeiro e adivinho. Contava
+eu isso.
 
-**Personagem**
-**Característica**
-**Como percebemos?**
+2
 
-Ulisses
+O meu amigo ouvia-me calado, embevecido,
+gostando daquele meu Gil Blas vivido, até que,
 
-Ulisses
+em uma pausa da conversa, ao esgotarmos os
+copos, observou a esmo:
 
-Polifemo
+3
 
-Polifemo
+— Tens levado uma vida bem engraçada,
+Castelo!
 
-**PENSA**
+4
 
-Polifemo é fisicamente mais poderoso do que Ulisses. Então, por que razão Ulisses consegue
-dominá-lo? Responde no caderno com uma frase completa.
+— Só assim se pode viver... Isto de uma ocupa‐
+ção única: sair de casa a certas horas, voltar a
 
+outras, aborrece, não achas? Não sei como me
+
+tenho aguentado lá, no consulado!
+
+5
+
+— Cansa-se; mas, não é disso que me admiro. O
+
+que me admira, é que tenhas corrido tantas
+aventuras
+aqui,
+neste
+Brasil
+imbecil
+e
+
+burocrático.
+
+6
+
+— Qual! Aqui mesmo, meu caro Castro, se po‐
+
+dem arranjar belas páginas de vida. Imagina tu
+que eu já fui professor de javanês!
+
+7
+
+— Quando? Aqui, depois que voltaste do
+consulado?
+
+8
+
+— Não; antes. E, por sinal, fui nomeado cônsul
+por isso.
+
+9
+
+— Conta lá como foi. Bebes mais cerveja?
+10
+
+— Bebo.
+11
+
+Mandamos buscar mais outra garrafa, enche‐
+
+mos os copos, e continuei:
+
+12
+
+— Eu tinha chegado havia pouco ao Rio estava
+
+literalmente na miséria. Vivia fugido de casa de
+
+pensão em casa de pensão, sem saber onde e
+como ganhar dinheiro, quando li no Jornal do
+
+Comércio o anuncio seguinte:
+
+13
+
+"Precisa-se de um professor de língua javanesa.
+
+Cartas, etc." Ora, disse cá comigo, está ali uma
+colocação que não terá muitos concorrentes;
+
+se eu capiscasse quatro palavras, ia apresentar-
+me. Saí do café e andei pelas ruas, sempre a
+
+imaginar-me professor de javanês, ganhando
+
+dinheiro, andando de bonde e sem encontros
+desagradáveis com os "cadáveres". Insensivel‐
+
+mente dirigi-me à Biblioteca Nacional. Não sa‐
+bia bem que livro iria pedir; mas, entrei, entre‐
+
+guei o chapéu ao porteiro, recebi a senha e
+
+subi. Na escada, acudiu-me pedir a Grande
+Encyclopédie, letra J, a fim de consultar o ar‐
+
+tigo relativo a Java e a língua javanesa. Dito e
+feito. Fiquei sabendo, ao fim de alguns minutos,
+
+que Java era uma grande ilha do arquipélago de
+
+Sonda, colônia holandesa, e o javanês, língua
+aglutinante do grupo maleo-polinésico, possuía
+
+uma literatura digna de nota e escrita em ca‐
+racteres derivados do velho alfabeto hindu.
+
+14
+
+A Encyclopédie dava-me indicação de traba‐
+lhos sobre a tal língua malaia e não tive dúvidas
+
+em consultar um deles. Copiei o alfabeto, a sua
+
+pronunciação figurada e saí. Andei pelas ruas,
+perambulando e mastigando letras. Na minha
+
+cabeça dançavam hieróglifos; de quando em
+quando consultava as minhas notas; entrava
+
+nos jardins e escrevia estes calungas na areia
+para guardá-los bem na memória e habituar a
+
+mão a escrevê-los.
+
+15
+
+À noite, quando pude entrar em casa sem ser
+
+visto, para evitar indiscretas perguntas do en‐
+
+carregado, ainda continuei no quarto a engolir
+o meu "a-b-c" malaio, e, com tanto afinco levei o
+
+propósito
+que,
+de
+manhã,
+o
+sabia
+perfeitamente.
+
+16
+
+Convenci-me que aquela era a língua mais fácil
+do mundo e saí; mas não tão cedo que não me
+
+encontrasse com o encarregado dos aluguéis
+
+dos cômodos:
+
+17
+
+— Senhor Castelo, quando salda a sua conta?
+18
+
+Respondi-lhe então eu, com a mais encanta‐
+
+dora esperança:
+
+19
+
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 56
 
 <!-- page 57 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+— Breve... Espere um pouco... Tenha paciência...
 
-## Espaço e tempo – Ulisses
+Vou ser nomeado professor de javanês, e...
 
-**ANÁLISE DO TEXTO**
+20
 
-**EXERCÍCIO 9 · O ESPAÇO**
+Por aí o homem interrompeu-me:
+21
 
-1. Identifica o espaço principal da acção.
+— Que diabo vem a ser isso, Senhor Castelo?
+22
 
-2. Retira do texto duas expressões que caracterizem esse espaço.
+Gostei da diversão e ataquei o patriotismo do
 
-3. Consideras este espaço seguro ou ameaçador? Justifica.
+homem:
 
-4. Explica de que forma a gruta contribui para criar suspense.
+23
 
-**EXERCÍCIO 10 · O TEMPO**
+— É uma língua que se fala lá pelas bandas do
 
-Momento do dia: __________________________
-Duração aproximada dos acontecimentos: ____________________
-Expressão que indica passagem temporal: ______________
+Timor. Sabe onde é?
 
+24
+
+Oh! alma ingênua! O homem esqueceu-se da
+
+minha dívida e disse-me com aquele falar forte
+dos portugueses:
+
+25
+
+— Eu cá por mim, não sei bem; mas ouvi dizer
+que são umas terras que temos lá para os lados
+
+de Macau. E o senhor sabe isso, Senhor
+Castelo?
+
+26
+
+Animado com esta saída feliz que me deu o ja‐
+vanês, voltei a procurar o anúncio. Lá estava
+
+ele. Resolvi animosamente propor-me ao pro‐
+
+fessorado do idioma oceânico. Redigi a res‐
+posta, passei pelo Jornal e lá deixei a carta. Em
+
+seguida, voltei à biblioteca e continuei os meus
+estudos de javanês. Não fiz grandes progressos
+
+nesse dia, não sei se por julgar o alfabeto java‐
+nês o único saber necessário a um professor de
+
+língua malaia ou se por ter me empenhado mais
+
+na bibliografia e história literária do idioma
+que ia ensinar.
+
+27
+
+Ao cabo de dois dias, recebia eu uma carta para
+ir falar ao doutor Manuel Feliciano Soares Al‐
+
+bernaz, Barão de Jacuecanga, à Rua Conde de
+Bonfim, não me recordo bem que numero. E
+
+preciso não te esqueceres que entrementes
+
+continuei estudando o meu malaio, isto é, o tal
+javanês. Além do alfabeto, fiquei sabendo o
+
+nome de alguns autores, também perguntar e
+responder "como está o senhor?" — e duas ou
+
+três regras de gramática, lastrado todo esse sa‐
+
+ber com vinte palavras do léxico.
+
+28
+
+Não imaginas as grandes dificuldades com que
+
+lutei, para arranjar os quatrocentos réis da via‐
+gem! É mais fácil — podes ficar certo — apren‐
+
+der o javanês... Fui a pé. Cheguei suadíssimo; e,
+com maternal carinho, as anosas mangueiras,
+
+que se perfilavam em alameda diante da casa
+
+do titular, me receberam, me acolheram e me
+reconfortaram. Em toda a minha vida, foi o
+
+único momento em que cheguei a sentir a sim‐
+patia da natureza...
+
+29
+
+Era uma casa enorme que parecia estar deserta;
+
+estava mal tratada, mas não sei porque me veio
+pensar que nesse mau tratamento havia mais
+
+desleixo e cansaço de viver que mesmo po‐
+
+breza. Devia haver anos que não era pintada. As
+paredes descascavam e os beirais do telhado,
+
+daquelas telhas vidradas de outros tempos, es‐
+tavam desguarnecidos aqui e ali, como denta‐
+
+duras decadentes ou mal cuidadas.
+
+30
+
+Olhei um pouco o jardim e vi a pujança vinga‐
+
+tiva com que a tiririca e o carrapicho tinham
+
+expulsado os tinhorões e as begônias. Os cró‐
+tons continuavam, porém, a viver com a sua fo‐
+
+lhagem de cores mortiças. Bati. Custaram-me a
+abrir. Veio, por fim, um antigo preto africano,
+
+cujas barbas e cabelo de algodão davam à sua
+
+fisionomia uma aguda impressão de velhice,
+doçura e sofrimento.
+
+31
+
+Na sala, havia uma galeria de retratos: arrogan‐
+tes senhores de barba em colar se perfilavam
+
+enquadrados em imensas molduras douradas, e
+doces perfis de senhoras, em bandós, com
+
+grandes leques, pareciam querer subir aos ares,
+enfunadas pelos redondos vestidos à balão;
+
+mas, daquelas velhas coisas, sobre as quais a
+
+poeira punha mais antiguidade e respeito, a que
+gostei mais de ver foi um belo jarrão de porce‐
+
+lana da China ou da Índia, como se diz. Aquela
+pureza da louça, a sua fragilidade, a ingenui‐
+
+dade do desenho e aquele seu fosco brilho de
+
+luar, diziam-me a mim que aquele objeto tinha
+sido feito por mãos de criança, a sonhar, para
+
+encanto
+dos
+olhos
+fatigados
+dos
+velhos
+desiludidos...
+
+32
+
+Esperei um instante o dono da casa. Tardou um
+pouco. Um tanto trôpego, com o lenço de alco‐
+
+baça na mão, tomando veneravelmente o si‐
+
+monte de antanho, foi cheio de respeito que o
+vi chegar. Tive vontade de ir-me embora.
+
+Mesmo se não fosse ele o discípulo, era sempre
+um crime mistificar aquele ancião, cuja velhice
+
+trazia à tona do meu pensamento alguma coisa
+
+de augusto, de sagrado. Hesitei, mas fiquei.
+
+33
+
+— Eu sou, avancei, o professor de javanês, que o
+
+senhor disse precisar.
+
+34
+
+— Sente-se, respondeu-me o velho. O senhor é
+
+daqui, do Rio?
+
+35
+
+— Não, sou de Canavieiras.
+36
+
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 57
 
 <!-- page 58 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+— Como? fez ele. Fale um pouco alto, que sou
 
-## Vocabulário – Ulisses
+surdo, — Sou de Canavieiras, na Bahia, insisti
+eu. — Onde fez os seus estudos?
 
-**PALAVRAS DO TEXTO**
+37
 
-**EXERCÍCIO 11 · CONTEXTO**
+— Em São Salvador.
+38
 
-ciclope: ____________________________________
+— Em onde aprendeu o javanês? indagou ele,
 
-astúcia: ____________________________________
+com aquela teimosia peculiar aos velhos.
 
-acudir: ____________________________________
+39
 
-cerrada: ____________________________________
+Não contava com essa pergunta, mas imediata‐
 
-retirar-se: __________________________________
+mente arquitetei uma mentira. Contei-lhe que
+meu pai era javanês. Tripulante de um navio
 
-**EXERCÍCIO 12 · SINÓNIMOS**
+mercante, viera ter à Bahia, estabelecera-se nas
 
-**Palavra**
-**Sinónimo**
+proximidades de Canavieiras como pescador,
+casara, prosperara e fora com ele que aprendi
 
-zangado
+javanês.
 
-palermas
+40
 
-enorme
+— E ele acreditou? E o físico? perguntou meu
 
-perigoso
+amigo, que até então me ouvira calado.
 
-**EXERCÍCIO 13 · ANTÓNIMOS**
+41
 
-**Palavra**
-**Antónimo**
+— Não sou, objetei, lá muito diferente de um ja‐
 
-entrar
+vanês. Estes meus cabelos corridos, duros e
+grossos e a minha pele basané podem dar-me
 
-acordado
+muito bem o aspecto de um mestiço de
 
-perto
+malaio...Tu sabes bem que, entre nós, há de
+tudo: índios, malaios, taitianos, malgaches,
 
-forte
+guanches, até godos. É uma comparsaria de ra‐
+ças e tipos de fazer inveja ao mundo inteiro.
 
-**EXERCÍCIO 14 · EXPRESSÕES**
+42
 
-Explica o sentido de «mau génio» e de «dor de dentes». A segunda expressão é usada pelos ciclopes
-com o seu sentido habitual ou com um sentido relacionado com a situação? Explica.
+— Bem, fez o meu amigo, continua.
+43
 
+— O velho, emendei eu, ouviu-me atentamente,
+
+considerou demoradamente o meu físico, pare‐
+ceu que me julgava de fato filho de malaio e
+
+perguntou-me com doçura:
+
+44
+
+— Então está disposto a ensinar-me javanês?
+45
+
+— A resposta saiu-me sem querer: — Pois não.
+46
+
+— O senhor há de ficar admirado, aduziu o Ba‐
+
+rão de Jacuecanga, que eu, nesta idade, ainda
+queira aprender qualquer coisa, mas...
+
+47
+
+— Não tenho que admirar. Têm-se visto exem‐
+plos e exemplos muito fecundos...
+
+48
+
+— O que eu quero, meu caro senhor....
+49
+
+— Castelo, adiantei eu.
+50
+
+— O que eu quero, meu caro Senhor Castelo, é
+
+cumprir um juramento de família. Não sei se o
+
+senhor sabe que eu sou neto do Conselheiro Al‐
+bernaz, aquele que acompanhou Pedro I,
+
+quando abdicou. Voltando de Londres, trouxe
+para aqui um livro em língua esquisita, a que ti‐
+
+nha grande estimação. Fora um hindu ou sia‐
+
+mês que lho dera, em Londres, em agradeci‐
+mento a não sei que serviço prestado por meu
+
+avô. Ao morrer meu avô, chamou meu pai e lhe
+
+disse: "Filho, tenho este livro aqui, escrito em
+javanês. Disse-me quem mo deu que ele evita
+
+desgraças e traz felicidades para quem o tem.
+
+Eu não sei nada ao certo. Em todo o caso,
+guarda-o; mas, se queres que o fado que me
+
+deitou o sábio oriental se cumpra, faze com que
+teu filho o entenda, para que sempre a nossa
+
+raça seja feliz." Meu pai, continuou o velho ba‐
+
+rão, não acreditou muito na história; contudo,
+guardou o livro. Às portas da morte, ele mo deu
+
+e disse-me o que prometera ao pai. Em começo,
+pouco caso fiz da história do livro. Deitei-o a
+
+um canto e fabriquei minha vida. Cheguei até a
+
+esquecer-me dele; mas, de uns tempos a esta
+parte, tenho passado por tanto desgosto, tantas
+
+desgraças têm caído sobre a minha velhice que
+me lembrei do talismã da família. Tenho que o
+
+ler, que o compreender, se não quero que os
+
+meus últimos dias anunciem o desastre da mi‐
+nha posteridade; e, para entendê-lo, é claro,
+
+que preciso entender o javanês. Eis aí.
+
+51
+
+Calou-se e notei que os olhos do velho se ti‐
+
+nham orvalhado. Enxugou discretamente os
+olhos e perguntou-me se queria ver o tal livro.
+
+Respondi-lhe que sim. Chamou o criado, deu-
+lhe as instruções e explicou-me que perdera to‐
+
+dos os filhos, sobrinhos, só lhe restando uma fi‐
+
+lha casada, cuja prole, porém, estava reduzida a
+um filho, débil de corpo e de saúde frágil e
+
+oscilante.
+
+52
+
+Veio o livro. Era um velho calhamaço, um in-
+
+quarto antigo, encadernado em couro, im‐
+presso em grandes letras, em um papel amare‐
+
+lado e grosso. Faltava a folha do rosto e por isso
+
+não se podia ler a data da impressão. Tinha
+ainda umas páginas de prefácio, escritas em in‐
+
+glês, onde li que se tratava das histórias do
+príncipe Kulanga, escritor javanês de muito
+
+mérito.
+
+53
+
+Logo informei disso o velho barão que, não
+
+percebendo que eu tinha chegado aí pelo in‐
+
+glês, ficou tendo em alta consideração o meu
+saber malaio. Estive ainda folheando o cartapá‐
+
+cio, à laia de quem sabe magistralmente aquela
+espécie de vasconço, até que afinal contrata‐
+
+mos as condições de preço e de hora, compro‐
+
+metendo-me a fazer com que ele lesse o tal al‐
+farrábio antes de um ano.
+
+54
+
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 58
 
 <!-- page 59 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+Dentro em pouco, dava a minha primeira lição,
 
-## Gramática em contexto – Ulisses
+mas o velho não foi tão diligente quanto eu.
+Não conseguia aprender a distinguir e a escre‐
 
-**GRAMÁTICA · PRONOMES INDEFINIDOS**
+ver nem sequer quatro letras. Enfim, com me‐
 
-**EXERCÍCIO 15 · IDENTIFICA**
+tade do alfabeto levamos um mês e o Senhor
+Barão de Jacuecanga não ficou lá muito senhor
 
-Identifica os pronomes indefinidos:
+da matéria: aprendia e desaprendia.
 
-«Ninguém quer matar-me.» · «Alguns marinheiros ficaram na gruta.» · «Todos procuravam uma
-solução.» · «Nenhum dos ciclopes percebeu o plano.»
+55
 
-**EXERCÍCIO 16 · PRONOME OU DETERMINANTE?**
+A filha e o genro (penso que até aí nada sabiam
 
-Ninguém apareceu. → __________________
+da história do livro) vieram a ter notícias do es‐
+tudo do velho; não se incomodaram. Acharam
 
-Alguns marinheiros fugiram. → __________
+graça e julgaram a coisa boa para distraí-lo.
 
-Todos compreenderam. → _______________
+56
 
-Alguns homens chegaram. → _____________
+Mas com o que tu vais ficar assombrado, meu
 
-**EXERCÍCIO 17 · VERBOS DO TEXTO**
+caro Castro, é com a admiração que o genro fi‐
 
-Retira do excerto: dois verbos no pretérito perfeito; dois no pretérito imperfeito; dois no presente.
+cou tendo pelo professor de javanês. Que coisa
+Única! Ele não se cansava de repetir: "É um as‐
 
-**EXERCÍCIO 18 · DISCURSO DIRECTO**
+sombro! Tão moço! Se eu soubesse isso, ah!
+onde estava!"
 
-Escolhe uma fala de Polifemo. Identifica: personagem · verbo introdutor · sinais de pontuação. Depois,
-transforma-a em discurso indirecto.
+57
 
+O marido de Dona Maria da Glória (assim se
+chamava a filha do barão), era desembargador,
+
+homem relacionado e poderoso; mas não se pe‐
+
+java em mostrar diante de todo o mundo a sua
+admiração pelo meu javanês. Por outro lado, o
+
+barão estava contentíssimo. Ao fim de dois me‐
+ses, desistira da aprendizagem e pedira-me que
+
+lhe traduzisse, um dia sim outro não, um trecho
+do livro encantado. Bastava entendê-lo, disse-
+
+me ele; nada se opunha que outrem o tradu‐
+
+zisse e ele ouvisse. Assim evitava a fadiga do es‐
+tudo e cumpria o encargo.
+
+58
+
+Sabes bem que até hoje nada sei de javanês,
+mas compus umas histórias bem tolas e im‐
+
+pingi-as ao velhote como sendo do crônicon.
+Como ele ouvia aquelas bobagens!...
+
+59
+
+Ficava extático, como se estivesse a ouvir pala‐
+vras de um anjo. E eu crescia aos seus olhos!
+
+60
+
+Fez-me morar em sua casa, enchia-me de pre‐
+sentes, aumentava-me o ordenado. Passava, en‐
+
+fim, uma vida regalada.
+
+61
+
+Contribuiu muito para isso o fato de vir ele a
+
+receber uma herança de um seu parente esque‐
+
+cido que vivia em Portugal. O bom velho atri‐
+buiu a cousa ao meu javanês; e eu estive quase a
+
+crê-lo também.
+
+62
+
+Fui perdendo os remorsos; mas, em todo o
+
+caso, sempre tive medo que me aparecesse pela
+frente alguém que soubesse o tal patuá malaio.
+
+E esse meu temor foi grande, quando o doce
+
+barão me mandou com uma carta ao Visconde
+
+de Caruru, para que me fizesse entrar na diplo‐
+macia. Fiz-lhe todas as objeções: a minha feal‐
+
+dade, a falta de elegância, o meu aspecto tagalo.
+
+— "Qual! retrucava ele. Vá, menino; você sabe
+javanês!" Fui. Mandou-me o visconde para a Se‐
+
+cretaria dos Estrangeiros com diversas reco‐
+mendações. Foi um sucesso.
+
+63
+
+O diretor chamou os chefes de secção: "Vejam
+só, um homem que sabe javanês — que
+
+portento!"
+
+64
+
+Os chefes de secção levaram-me aos oficiais e
+
+amanuenses e houve um destes que me olhou
+
+mais com ódio do que com inveja ou admira‐
+ção. E todos diziam: "Então sabe javanês? É difí‐
+
+cil? Não há quem o saiba aqui!"
+
+65
+
+O tal amanuense, que me olhou com ódio, acu‐
+
+diu então: "É verdade, mas eu sei canaque. O se‐
+nhor sabe?" Disse-lhe que não e fui à presença
+
+do ministro.
+
+66
+
+A alta autoridade levantou-se, pôs as mãos às
+
+cadeiras, concertou o pince-nez no nariz e per‐
+guntou: "Então, sabe javanês?" Respondi-lhe
+
+que sim; e, à sua pergunta onde o tinha apren‐
+
+dido, contei-lhe a história do tal pai javanês.
+"Bem, disse-me o ministro, o senhor não deve ir
+
+para a diplomacia; o seu físico não se presta... O
+bom seria um consulado na Ásia ou Oceania.
+
+Por ora, não há vaga, mas vou fazer uma re‐
+
+forma e o senhor entrará. De hoje em diante,
+porém, fica adido ao meu ministério e quero
+
+que, para o ano, parta para Bâle, onde vai re‐
+presentar o Brasil no Congresso de Linguística.
+
+Estude, leia o Hovelacque, o Max Müller, e
+
+outros!"
+
+67
+
+Imagina tu que eu até aí nada sabia de javanês,
+
+mas estava empregado e iria representar o Bra‐
+sil em um congresso de sábios.
+
+68
+
+O velho barão veio a morrer, passou o livro ao
+genro para que o fizesse chegar ao neto,
+
+quando tivesse a idade conveniente e fez-me
+uma deixa no testamento.
+
+69
+
+Pus-me com afã no estudo das línguas maleo-
+polinésicas; mas não havia meio!
+
+70
+
+Bem jantado, bem vestido, bem dormido, não
+tinha energia necessária para fazer entrar na
+
+cachola aquelas coisas esquisitas.
+
+71
+
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 59
 
 <!-- page 60 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+Comprei livros, assinei revistas: Revue Anthro‐
 
-## Recursos expressivos – Ulisses
+pologique et Linguistique, Proceedings of the
+English-Oceanic Association, Archivo Glottolo‐
 
-**LITERÁRIO · COM O TEXTO**
+gico Italiano, o diabo, mas nada! E a minha
 
-**EXERCÍCIO 19 · HIPÉRBOLE**
+fama crescia. Na rua, os informados aponta‐
+vam-me, dizendo aos outros: "Lá vai o sujeito
 
-Polifemo é apresentado com características que acentuam a sua dimensão e força. Explica o efeito
-dessa descrição.
+que sabe javanês." Nas livrarias, os gramáticos
+consultavam-me sobre a colocação dos prono‐
 
-**EXERCÍCIO 20 · COMPARAÇÃO**
+mes no tal jargão das ilhas de Sonda. Recebia
 
-Procura no excerto uma comparação. Copia a expressão necessária e identifica os elementos
-comparados e a palavra comparativa.
+cartas dos eruditos do interior, os jornais cita‐
+vam o meu saber e recusei aceitar uma turma
 
-**EXERCÍCIO 21 · HUMOR E REPETIÇÃO**
+de alunos sequiosos de entenderem o tal java‐
+nês. A convite da redação, escrevi, no Jornal do
 
-O humor nasce, em grande parte, do diálogo entre Polifemo e os outros ciclopes. Explica porquê.
+Comércio um artigo de quatro colunas sobre a
 
-A repetição de palavras contribui para: ☐ criar suspense · ☐ reforçar a confusão · ☐ tornar a situação
-mais cómica · ☐ caracterizar uma personagem. Podes escolher mais do que uma. Justifica.
+literatura javanesa antiga e moderna...
 
+— Como, se tu nada sabias? interrompeu-me o
+
+atento Castro.
+
+72
+
+— Muito simplesmente: primeiramente, des‐
+
+crevi a ilha de Java, com o auxílio de dicioná‐
+rios e umas poucas de geografias, e depois citei
+
+a mais não poder.
+
+73
+
+— E nunca duvidaram? perguntou-me ainda o
+
+meu amigo.
+
+74
+
+— Nunca. Isto é, uma vez quase fico perdido. A
+
+polícia prendeu um sujeito, um marujo, um tipo
+bronzeado que só falava uma língua esquisita.
+
+Chamaram diversos intérpretes, ninguém o en‐
+tendia. Fui também chamado, com todos os
+
+respeitos que a minha sabedoria merecia, natu‐
+
+ralmente. Demorei-me em ir, mas fui afinal. O
+homem já estava solto, graças à intervenção do
+
+cônsul holandês, a quem ele se fez compreen‐
+der com meia dúzia de palavras holandesas. E o
+
+tal marujo era javanês — uf!
+
+75
+
+Chegou, enfim, a época do congresso, e lá fui
+
+para a Europa. Que delícia! Assisti à inaugura‐
+
+ção e às sessões preparatórias. Inscreveram-me
+na secção do tupi-guarani e eu abalei para Pa‐
+
+ris. Antes, porém, fiz publicar no Mensageiro de
+
+Bâle o meu retrato, notas biográficas e biblio‐
+gráficas. Quando voltei, o presidente pediu-me
+
+desculpas por me ter dado aquela secção; não
+
+conhecia os meus trabalhos e julgara que, por
+ser eu americano brasileiro, me estava natural‐
+
+mente indicada a secção do tupi- guarani. Acei‐
+tei as explicações e até hoje ainda não pude es‐
+
+crever as minhas obras sobre o javanês, para
+
+lhe mandar, conforme prometi.
+
+76
+
+Acabado o congresso, fiz publicar extratos do
+
+artigo do Mensageiro de Bâle, em Berlim, em
+Turim e Paris, onde os leitores de minhas obras
+
+me ofereceram um banquete, presidido pelo
+Senador Gorot. Custou-me toda essa brinca‐
+
+deira, inclusive o banquete que me foi ofere‐
+
+cido, cerca de dez mil francos, quase toda a he‐
+rança do crédulo e bom Barão de Jacuecanga.
+
+77
+
+Não perdi meu tempo nem meu dinheiro. Pas‐
+sei a ser uma glória nacional e, ao saltar no cais
+
+Pharoux, recebi uma ovação de todas as classes
+sociais e o presidente da república, dias depois,
+
+convidava-me para almoçar em sua companhia.
+
+78
+
+Dentro de seis meses fui despachado cônsul em
+
+Havana, onde estive seis anos e para onde vol‐
+tarei, a fim de aperfeiçoar os meus estudos das
+
+línguas da Malaia, Melanésia e Polinésia.
+
+79
+
+— É fantástico, observou Castro, agarrando o
+
+copo de cerveja.
+
+80
+
+— Olha: se não fosse estar contente, sabes que
+
+ia ser?
+
+81
+
+— Que?
+82
+
+— Bacteriologista eminente. Vamos?
+83
+
+— Vamos.
+84
+
+Lima Barreto, «O homem que sabia javanês», Gazeta da Tarde (1911);
+em Histórias e Sonhos (1920). Texto em domínio público, com a orto-
+
+grafia atualizada segundo o Acordo Ortográfico de 1990 e man-
+
+tendo a variedade do português do Brasil. Fonte: Wikisource.
+
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 60
 
 <!-- page 61 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · O H O M E M Q U E S A B I A J A V A N Ê S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 5
+LEITURA
+C O M P R E E N D E R A I R O N I A
+## Rir de quem?
 
-## Educação literária – a aventura
+LOCALIZAR
 
-**EDUCAÇÃO LITERÁRIA**
+1. Onde estão Castelo e Castro enquanto conversam (§ 1, 12)? Que efeito tem este cenário descontraído?
 
-**EXERCÍCIO 22 · A NARRATIVA DE AVENTURA**
+2. Como é que Castelo «aprende» javanês (§ 15–17)? Quanto tempo demora?
 
-Encontra exemplos no texto de: perigo · conflito · estratégia · suspense · acção.
+3. Qual é o juramento de família do Barão de Jacuecanga (§ 51–53)?
 
-**EXERCÍCIO 23 · ESTRUTURA NARRATIVA**
+RELACIONAR
 
-**Momento**
-**O que acontece no episódio**
+4. O narrador é participante e conta a história ao amigo muito tempo depois. Que sinais mostram que ele
+**não se arrepende?**
 
-Situação inicial
+5. Castelo sobe na vida: explicador, protegido do barão, funcionário, congressista, cônsul. Ordena as etapas
+e diz o que as torna possíveis.
 
-Conflito
+6. Explica a ironia do título: é verdade que ele «sabia» javanês?
 
-Desenvolvimento
+AVALIAR
 
-Clímax
+7. A crítica do conto não é só a Castelo. Quem mais é criticado — o barão, o genro, o ministro, a imprensa, o
+público? Escolhe dois e justifica.
 
-Desenlace
+8. No final, Castelo diz que podia ter sido «bacteriologista eminente». Que ideia sobre a sociedade fica no ar?
+Ainda é atual?
+DESAFIO
 
-**QUESTÃO LITERÁRIA**
-
-Por que razão podemos considerar Ulisses um herói diferente de um herói que vence apenas pela
-força?
-
+NARRATIVA 5 · O HOMEM QUE SABIA JAVANÊS
 61
 
 <!-- page 62 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 5 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 5
+GRAMÁTICA
+M O D I F I C A D O R D O N O M E · F O R M A Ç Ã O D E P A L A V R A S
+## Palavras que se agarram a palavras
 
-## Interpretação aprofundada – Ulisses
+**Modificador do nome restritivo**
 
-**INTERPRETAÇÃO**
+Restringe, especifica o nome. Não tem vírgulas.
 
-1. «A inteligência pode ser mais poderosa do que a força.» Explica esta afirmação relacionando-a com
-Ulisses.
+um professor de javanês · a casa enorme · o livro
 
-2. Polifemo é assustador, mas também acaba por provocar humor. Como consegue a autora criar
-simultaneamente medo e comicidade?
+que o avô deixou
 
-3. O engano desempenha um papel fundamental no episódio. Consideras que o comportamento de
-Ulisses é justificável? Porquê?
+**Modificador do nome apositivo**
 
-4. Imagina que os outros ciclopes tinham compreendido imediatamente a mensagem de Polifemo.
-Como mudaria a história?
+Acrescenta informação acessória. Vai entre vírgulas.
 
-**QUESTÃO DE VALORES**
+O barão, um velho surdo e crédulo , contratou-o.
 
-Qual destas características é mais importante para ultrapassar uma situação difícil? coragem ·
-inteligência · força · trabalho de equipa. Escolhe uma e apresenta dois argumentos.
+## 1 Sublinha os modificadores do nome e classifica-os: R (restritivo) ou A (apositivo).
 
+a. Castelo, o falso professor, bebia cerveja.
+
+b. Era um calhamaço antigo encadernado em couro.
+
+c. O genro, desembargador vaidoso, admirava-o.
+
+C O M O N A S C E M A S P A L A V R A S
+
+Derivação por prefixação
+infeliz · desconhecido · reler
+
+Derivação por sufixação
+javanês · professorado · cônsul → consulado
+
+Parassíntese
+entardecer · amanhecer (prefixo e sufixo ao mesmo tempo)
+
+Composição morfológica
+biblioteca · filólogo · luso-brasileiro
+
+Composição morfossintática
+guarda-chuva · couve-flor · amor-perfeito
+
+## 2 Indica o processo de formação: a) desonesto
+b) enciclopédia → enciclopé-
+dico
+c) surdo-mudo
+d) envelhecer
+e) geografia
+
+## 3 Forma, a partir de sábio e de mentira, duas palavras derivadas de cada uma e usa uma delas numa
+frase sobre Castelo.
+
+## 4 Encontra no conto dois modificadores do nome apositivos e dois restritivos. Indica o § de cada um.
+
+NARRATIVA 5 · GRAMÁTICA
 62
 
 <!-- page 63 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 6
+ED. LITERÁRIA
+L E I T U R A I N T E G R A L · M A P A D E L E I T U R A
+## A volta ao mundo em 80 dias
 
-## Oficina de escrita – Ulisses
+JÚLIO VERNE · LE TOUR DU MONDE EN QUATRE-VINGTS JOURS (1872–1873)
 
-**ESCRITA · RECONTAR A FUGA**
+**O AUTOR E O LIVRO**
 
-Reconta o episódio do ponto de vista de um dos companheiros de Ulisses. Escreve 180 a 220 palavras.
+**Júlio Verne (1828–1905), escritor francês, é um dos pais**
+da ficção de aventuras e da ficção científica. Em 1872, o
 
-Deves: usar a primeira pessoa · incluir os acontecimentos principais · transmitir o medo da personagem ·
-incluir pelo menos um momento de diálogo · utilizar conectores temporais · descrever uma reacção
-emocional · terminar com a fuga da gruta.
+mundo acabava de «encolher»: o canal do Suez abrira em
+1869 e o caminho de ferro já atravessava a Índia e os Es-
+tados Unidos.
 
-**BANCO DE CONECTORES**
+Phileas Fogg, um inglês pontualíssimo, aposta no seu
+clube que consegue dar a volta ao mundo em 80 dias.
+Parte na mesma noite com o criado francês, Passepar-
+tout, perseguido pelo detetive Fix, que o julga um ladrão
+de bancos.
 
-primeiro · entretanto · de repente · nesse momento · finalmente · assim que · depois · por fim
+**COMO VAMOS LER**
 
+**Lê o romance completo ao longo de quatro semanas, na**
+
+edição da biblioteca. Em aula, trabalhamos o início e o
+fim (p. 64–66).
+
+**O PLANO DE FOGG**
+
+ETAPA
+TRANSPORTE
+DIAS
+
+Londres → Suez
+comboio e
+paquete
+
+7
+
+Suez → Bombaim
+paquete
+13
+
+Bombaim → Calcutá
+comboio
+3
+
+Calcutá → Hong Kong
+paquete
+13
+
+Hong Kong → Iocoama
+paquete
+6
+
+Iocoama → São Francisco
+paquete
+22
+
+São Francisco → Nova
+Iorque
+
+comboio
+7
+
+Nova Iorque → Londres
+paquete e
+comboio
+
+9
+
+**Total**
+80
+
+Segundo o cálculo lido no clube, no capítulo III.
+
+**Diário de leitura**
+
+Semana 1 · cap. I–X
+Semana 2 · cap. XI–XX
+
+Semana 3 · cap. XXI–XXIX
+Semana 4 · cap. XXX–
+XXXVII
+
+NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
 63
 
 <!-- page 64 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 6
+LEITURA
+E X C E R T O 1 · C A P Í T U L O I I I · T R A D U Ç Ã O N O S S A
+## A aposta
 
-## Escrita criativa – um novo monstro
+No Reform Club, em Londres, Fogg joga whist (um jogo de cartas) com os colegas. Discutem uma notícia de jornal:
+agora, com o novo caminho de ferro na Índia, seria possível dar a volta ao mundo em oitenta dias.
 
-**ESCRITA · E SE ULISSES TIVESSE ENCONTRADO OUTRO MONSTRO?**
+— Sim, oitenta dias! — exclamou Andrew
 
-Cria uma nova aventura. O monstro deve: viver num espaço inesperado · possuir uma característica
-extraordinária · apresentar um desafio a Ulisses · obrigar o herói a usar a inteligência. Escreve 200 a 250
-palavras.
+Stuart, que, por distração, cortou uma carta
+de trunfo. — Mas sem contar com o mau
 
-Inclui obrigatoriamente: uma descrição · diálogo · uma comparação · uma pergunta · um momento de
-suspense · uma solução inesperada.
+tempo, os ventos contrários, os naufrágios,
+os descarrilamentos, etc.
 
+1
+
+— Contando com tudo — respondeu Phileas
+
+Fogg, continuando a jogar, porque, desta
+vez, a discussão já não respeitava o whist.
+
+2
+
+— Mesmo que os hindus ou os índios arran‐
+quem os carris! — exclamou Andrew Stuart.
+
+— Mesmo que parem os comboios, pilhem os
+vagões, escalpem os viajantes!
+
+3
+
+— Contando com tudo — respondeu Phileas
+
+Fogg, que, pousando o jogo na mesa, acres‐
+centou: — Dois trunfos.
+
+4
+
+Andrew Stuart, a quem cabia dar as cartas,
+apanhou-as, dizendo:
+
+— Em teoria, tem razão, senhor Fogg, mas na
+prática…
+
+5
+
+— Na prática também, senhor Stuart.
+6
+
+— Gostava de o ver fazê-lo.
+7
+
+— Só depende de si. Partamos juntos.
+8
+
+— Deus me livre! — exclamou Stuart. — Mas
+
+apostava de bom grado quatro mil libras em
+como uma viagem dessas, feita nessas con‐
+
+dições, é impossível.
+
+9
+
+— Muito possível, pelo contrário — respon‐
+deu o senhor Fogg.
+
+10
+
+— Pois então faça-a!
+11
+
+— A volta ao mundo em oitenta dias?
+12
+
+— Sim.
+13
+
+— Com todo o gosto.
+14
+
+— Quando?
+15
+
+— Imediatamente.
+16
+
+— É uma loucura! — exclamou Andrew Stu‐
+
+art, que começava a irritar-se com a insis‐
+tência do parceiro. — Olhe, joguemos antes.
+
+17
+
+— Então volte a dar — respondeu Phileas
+
+Fogg —, porque as cartas foram mal dadas.
+
+18
+
+Andrew Stuart pegou nas cartas com a mão
+
+febril; depois, de repente, pousou-as na
+mesa:
+
+— Pois bem, sim, senhor Fogg — disse ele. —
+Sim, aposto quatro mil libras!
+
+19
+
+— Meu caro Stuart — disse Fallentin —,
+
+acalme-se. Isto não é a sério.
+
+20
+
+— Quando eu digo «aposto» — respondeu
+
+Andrew Stuart —, é sempre a sério.
+
+21
+
+— Seja! — disse o senhor Fogg. E, voltando-
+se para os colegas: — Tenho vinte mil libras
+
+depositadas no banco dos irmãos Baring.
+Arrisco-as de boa vontade…
+
+22
+
+— Vinte mil libras! — exclamou John Sulli‐
+van. — Vinte mil libras que um atraso impre‐
+
+visto lhe pode fazer perder!
+
+23
+
+— O imprevisto não existe — respondeu sim‐
+plesmente Phileas Fogg.
+
+24
+
+— Mas, senhor Fogg, esse prazo de oitenta
+dias é calculado apenas como um tempo
+
+mínimo!
+
+25
+
+— Um mínimo bem aproveitado chega para
+tudo.
+
+26
+
+— Mas, para não o ultrapassar, é preciso sal‐
+tar matematicamente dos comboios para os
+
+paquetes e dos paquetes para os comboios!
+
+27
+
+— Saltarei matematicamente.
+28
+
+— É uma brincadeira!
+29
+
+— Um bom inglês nunca brinca quando se
+trata de uma coisa tão séria como uma
+
+aposta — respondeu Phileas Fogg.
+
+30
+
+NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
 64
 
 <!-- page 65 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
 
-Prime School Press · www.primeschool.pt
+**Pausa de leitura**
 
-## Debate – inteligência ou força?
+1. Que traços da personalidade de Fogg apare-
+cem neste excerto? Dá dois exemplos.
 
-**ORALIDADE · DEBATE**
+2. Porque é que os colegas ficam «comovidos» e
+não entusiasmados com a aposta?
 
-«A inteligência é mais importante do que a força para ultrapassar dificuldades.»
+3. Faz uma previsão: que obstáculo achas que vai
+ser o mais difícil? Confirma-a durante a leitura.
 
-Prepara a tua posição: Eu concordo / discordo porque...
+4. Fogg diz que 80 dias são «mil novecentas e
+vinte horas, ou cento e quinze mil e duzentos
+minutos». Confirma as contas. O que revela
+este pormenor sobre ele?
 
-Argumento 1: ______________________ Exemplo: ______________________
+— Aposto vinte mil libras contra quem quiser
 
-Argumento 2: ______________________ Exemplo: ______________________
+em como darei a volta à Terra em oitenta
+dias ou menos, ou seja, mil novecentas e
 
-**NO DEBATE**
+vinte horas, ou cento e quinze mil e duzentos
+minutos. Aceitam?
 
-Deves: apresentar argumentos · ouvir opiniões diferentes · responder aos argumentos dos colegas ·
-utilizar exemplos · evitar repetir a mesma ideia.
+— Aceitamos — responderam os senhores
 
-FRASES ÚTEIS: Na minha opinião... · Concordo com esta ideia porque... · Discordo parcialmente porque...
-· Um exemplo que demonstra isto é... · No entanto...
+Stuart, Fallentin, Sullivan, Flanagan e Ralph,
+depois de se entenderem.
 
+31
+
+— Muito bem — disse o senhor Fogg. — O
+comboio de Dover parte às oito e quarenta e
+
+cinco. Vou apanhá-lo.
+
+32
+
+— Esta mesma noite? — perguntou Stuart.
+33
+
+— Esta mesma noite — respondeu Phileas
+
+Fogg. — Portanto — acrescentou, consul‐
+tando um calendário de bolso —, visto que
+
+hoje é quarta-feira, 2 de outubro, deverei es‐
+tar de volta a Londres, neste mesmo salão
+
+do Reform Club, no sábado, 21 de dezembro,
+às oito e quarenta e cinco da noite; se não es‐
+
+tiver, as vinte mil libras depositadas neste
+momento em meu nome no banco dos ir‐
+
+mãos Baring passarão a pertencer-lhes, de
+facto e de direito, meus senhores. Aqui está
+
+um cheque dessa quantia.
+
+34
+
+Foi redigido e assinado no mesmo instante,
+pelos seis interessados, um auto da aposta.
+
+Phileas Fogg continuava frio. Não apostara,
+certamente, para ganhar, e só arriscara
+
+aquelas vinte mil libras — metade da sua for‐
+tuna — porque previa que talvez tivesse de
+
+gastar a outra metade para levar a bom
+termo aquele projeto difícil, para não dizer
+
+impossível. Quanto aos adversários, esses
+pareciam comovidos, não por causa do va‐
+
+lor da aposta, mas porque sentiam uma es‐
+pécie de escrúpulo em lutar naquelas
+
+condições.
+
+35
+
+Batiam então as sete horas. Ofereceram ao
+
+senhor Fogg a interrupção do whist, para
+que pudesse fazer os preparativos da
+
+partida.
+
+36
+
+— Estou sempre pronto! — respondeu aquele
+impassível cavalheiro. E, dando as cartas: —
+
+Viro ouros — disse. — É a sua vez de jogar,
+senhor Stuart.
+
+37
+
+Júlio Verne, Le Tour du monde en quatre-vingts
+
+jours (1873), cap. III. Tradução da Prime School
+a partir do original francês, em domínio
+
+público.
+
+NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
 65
 
 <!-- page 66 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 6 · A V O L T A A O M U N D O E M 8 0 D I A S
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 6
+LEITURA
 
-## Desafio final – escapa da gruta!
+E X C E R T O 2 · C A P Í T U L O X X X V I I · L Ê S Ó D E P O I S D E A C A B A R E S O L I V R O
+## O que ganhou Phileas Fogg?
 
-**DESAFIO · EM GRUPO**
+Júlio Verne, cap. XXXVII (as últimas linhas do romance). Tradução da Prime School.
 
-Imagina que és um dos companheiros de Ulisses. O plano original falhou. Tens cinco minutos para criar
-uma nova estratégia de fuga.
+**Tempo**
 
-1. O PROBLEMA: qual é a situação?
+O tempo é o inimigo do herói: da-
+tas, horas e minutos marcam cada
+capítulo.
 
-2. OS RECURSOS (escolhe apenas três): cordas · madeira · animais · fogo · tecidos · inteligência
+Um exemplo do excerto 1:
 
-3. O PLANO: explica passo a passo (três passos).
+**Espaço**
 
-4. TESTA O PLANO: outro grupo deve tentar descobrir uma falha na tua estratégia.
+O mundo inteiro. Cada lugar traz
+um obstáculo diferente.
 
-5. REFLECTE: o que aprendeste com Ulisses?
+Um lugar e o seu obstáculo:
 
-Passo 1: ______________________________________________
+**Transformação**
 
-Passo 2: ______________________________________________
+Fogg parte «frio» e «impassível».
+Chega diferente.
 
-Passo 3: ______________________________________________
+O que mudou nele:
 
+**1. No excerto 1, retira duas falas que mostram que Fogg é calculista e confia na matemática.**
+
+2. «O imprevisto não existe.» No fim do livro, esta frase continua verdadeira? Justifica com um episódio que
+leste.
+
+3. O narrador pergunta «O que tinha ganhado?» e responde «Nada […] a não ser uma encantadora mulher».
+Que valor dá o romance à viagem: vencer a aposta ou mudar a vida?
+
+4. Aouda, Passepartout, Fix: escolhe uma destas personagens e explica como contribui para a transforma-
+ção de Fogg.
+
+Assim, Phileas Fogg tinha ganhado a aposta. Tinha feito em oitenta dias aquela viagem
+
+à volta do mundo! Para isso, tinha usado todos os meios de transporte: paquetes,
+
+comboios, carruagens, iates, navios mercantes, trenós, elefante. O excêntrico cava‐
+
+lheiro tinha mostrado, em toda esta aventura, as suas maravilhosas qualidades de
+
+sangue-frio e de exatidão. Mas, e depois? O que tinha ganhado com esta deslocação? O
+
+que tinha trazido desta viagem?
+
+1
+
+Nada, dir-se-á? Nada, seja — a não ser uma encantadora mulher, que, por mais inve‐
+
+rosímil que isso possa parecer, fez dele o mais feliz dos homens!
+
+2
+
+Na verdade, não se daria, por menos do que isto, a volta ao mundo?
+3
+
+NARRATIVA 6 · A VOLTA AO MUNDO EM 80 DIAS
 66
 
 <!-- page 67 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 6 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 6
+ESCRITA
+T E X T O E X P O S I T I V O
+## Explicar o mundo
 
-## Autoavaliação – Ulisses
+**O texto expositivo explica um tema de forma clara e objetiva, com informação verificada.**
+**Não conta uma história nem dá opiniões: informa. É o texto das enciclopédias, dos manuais**
+e dos trabalhos de pesquisa.
 
-**AUTOAVALIAÇÃO**
+## 1
 
-**MARCA A TUA RESPOSTA**
+**Introdução**
 
-**Consigo...**
+Apresenta o tema e o que vais
+explicar.
 
-identificar o conflito de uma narrativa
-☐
-☐
-☐
+## 2
 
-localizar uma acção no espaço e no tempo
-☐
-☐
-☐
+**Desenvolvimento**
 
-caracterizar uma personagem
-☐
-☐
-☐
+Um parágrafo por subtema, com
+factos, datas, números e
+exemplos.
 
-distinguir informação explícita de inferência
-☐
-☐
-☐
+## 3
 
-reconhecer recursos expressivos
-☐
-☐
-☐
+**Conclusão**
 
-identificar pronomes indefinidos
-☐
-☐
-☐
+Síntese do essencial, sem opinião
+pessoal.
 
-reconhecer características da narrativa de aventura
-☐
-☐
-☐
+**Marcas do expositivo**
 
-justificar uma interpretação
-☐
-☐
-☐
+3.ª pessoa · presente do indicativo · vocabulário rigo-
+roso · conectores de organização (em primeiro lugar,
+além disso, por exemplo, ou seja, em síntese) · fontes
+indicadas.
 
-escrever uma narrativa coerente
-☐
-☐
-☐
+**A evitar**
 
-defender uma opinião num debate
-☐
-☐
-☐
+«Eu acho que…» · adjetivos de opinião (fantástico, hor-
+rível) · informação sem fonte · copiar frases da
+internet.
 
-A minha maior descoberta nesta unidade foi...
+## 1 Escolhe um tema e escreve um texto expositivo de 150 a 200 palavras. Indica, no fim, as duas fontes
+que usaste.
 
-A competência que preciso de melhorar é...
+O canal do Suez e a volta ao mundo
+Viajar no século XIX: paquetes e comboios a vapor
 
-Na próxima unidade vou tentar...
+Os fusos horários e o «dia ganho» por Fogg
+Júlio Verne, o escritor que imaginou o futuro
 
+PLANO
+IDEIAS PRINCIPAIS
+
+Introdução
+
+Subtema 1
+
+Subtema 2
+
+Conclusão
+
+Fontes
+
+NARRATIVA 6 · ESCRITA
 67
 
 <!-- page 68 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 6 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 6
+GRAMÁTICA
+M O D I F I C A D O R D O G R U P O V E R B A L · P R O N O M E P E S S O A L Á T O N O
+## Onde se põe o pronome?
 
-## Passaporte literário – Ulisses
+**Modificador do grupo verbal**
 
-**REGISTO DE LEITURA**
+Acrescenta informação sobre a ação (tempo, lugar,
+modo, causa…). Pode ser retirado sem a frase ficar
+agramatical.
 
-Obra: Ulisses
+Fogg partiu nessa mesma noite . · Saltou matemati-
+camente para o comboio.
 
-Autora: Maria Alberta Menéres
+**Pronome pessoal átono**
 
-Episódio: Ulisses e Polifemo
+Substitui complementos: me, te, se, o, a, lhe, nos, vos,
+os, as, lhes.
 
-A personagem que mais me marcou: ______________________
+Fogg apostou vinte mil libras → Fogg apostou- as .
 
-A característica mais importante de Ulisses: ______________
+**Ênclise · depois do verbo,**
+com hífen
 
-Polifemo em três palavras: ________ · ________ · ________
+Fogg consultou-o. · Deram-lhe
 
-A estratégia de Ulisses, em poucas palavras: ______________
+um cheque.
 
-O que aprendi com esta aventura: ________________________________
+**Próclise · antes do verbo**
 
-**A MINHA FRASE**
+Fogg não o consultou. · Já lhe
 
-«Depois de conhecer a aventura de Ulisses, percebi que...»
+deram o cheque. · Quem o viu?
 
+**Mesóclise · no meio do**
+verbo
+
+Dar-lhe-ei o cheque. · Aceitá-lo-
+
+iam?
+
+## 1 Substitui a expressão sublinhada pelo pronome átono, na posição correta.
+
+a. Passepartout arrumou a mala.
+
+b. Fix nunca largou o senhor Fogg.
+
+c. Os colegas ofereceram ao senhor Fogg uma pausa no jogo.
+
+d. Fogg entregará o cheque aos colegas.
+
+## 2 Sublinha os modificadores do grupo verbal: «Ao chegar a Londres, Fogg entrou calmamente no clube,
+às oito e quarenta e cinco.»
+
+## 3 Passa para a negativa e corrige a posição do pronome: a) Fogg consultou-o. b) Passepartout seguiu-o.
+c) Deram-lhe o cheque. d) Esperá-lo-ão em Londres.
+
+É a regra em frases afirmativas.
+
+Com negação, advérbios como já,
+sempre, também, ainda, só, prono-
+mes relativos e interrogativos, con-
+junções subordinativas.
+
+Com o futuro e o condicional, em
+registo cuidado.
+
+NARRATIVA 6 · GRAMÁTICA
 68
 
 <!-- page 69 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 7 · O F A N T A S M A D E C A N T E R V I L L E
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 7
+ED. LITERÁRIA
+E X C E R T O · C A P Í T U L O I · T R A D U Ç Ã O N O S S A
+## O Fantasma de Canterville
 
-## Como interpretar um texto narrativo
+O S C A R W I L D E · T H E C A N T E R V I L L E G H O S T ( 1 8 8 7 )
 
-**RELEMBRA · A ESTRUTURA**
+**Oscar Wilde (1854–1900), escritor irlandês, é famoso pelo humor e pelas fra-**
+ses brilhantes. Nesta novela, uma família americana, os Otis, compra um cas-
+telo inglês assombrado há trezentos anos por Sir Simon de Canterville. O pro-
+blema? Os Otis não acreditam em fantasmas — e o fantasma não sabe o que
+fazer com gente que não tem medo dele.
 
-Um texto narrativo apresenta acontecimentos vividos por personagens, num determinado tempo e
-espaço, contados por um narrador.
+**Enquanto lês, marca a vermelho o que devia assustar e a amarelo o que faz**
+**rir.**
 
-**OS 5 ELEMENTOS ESSENCIAIS**
+O senhor Otis foi acordado por um ruído estra‐
+nho no corredor, à porta do quarto. Parecia o
 
-**Elemento**
-**Pergunta**
+tinir de metal e dava a impressão de se aproxi‐
+mar a cada instante. Levantou-se de imediato,
 
-Personagens
-Quem participa na história?
+riscou um fósforo e viu as horas. Era exata‐
 
-Espaço
-Onde acontecem os acontecimentos?
+mente uma da manhã. Estava perfeitamente
+calmo e tomou o pulso, que não mostrava sinal
 
-Tempo
-Quando acontecem?
+nenhum de febre. O ruído estranho continuava
+e, com ele, ouvia distintamente o som de pas‐
 
-Narrador
-Quem conta a história?
+sos. Calçou os chinelos, tirou do estojo de via‐
 
-Acção
-O que acontece?
+gem um pequeno frasco comprido e abriu a
+porta. Mesmo à sua frente, à luz pálida da lua,
 
-**A ESTRUTURA DA NARRATIVA**
+viu um velho de aspeto terrível. Os olhos eram
+vermelhos como brasas; longos cabelos grisa‐
 
-**SITUAÇÃO INICIAL**
+lhos caíam-lhe sobre os ombros em madeixas
 
-conhecemos personagens, espaço e situação
+emaranhadas; as roupas, de corte antigo, esta‐
+vam sujas e esfarrapadas, e dos pulsos e dos
 
-**▼**
+tornozelos pendiam-lhe pesadas algemas e gri‐
+lhetas ferrugentas.
 
-**DESENVOLVIMENTO**
+1
 
-surge um problema ou acontecimento
+— Meu caro senhor — disse o senhor Otis —, te‐
+nho mesmo de insistir para que lubrifique essas
 
-**▼**
+correntes, e trouxe-lhe, para esse efeito, um
+frasquinho do Lubrificante Sol Nascente de
 
-**CLÍMAX**
+Tammany. Dizem que é absolutamente eficaz
 
-momento de maior tensão ou importância
+logo à primeira aplicação, e há vários testemu‐
+nhos nesse sentido no rótulo, assinados por al‐
 
-**▼**
+guns dos nossos mais eminentes religiosos. Vou
+deixá-lo aqui, junto às velas do quarto, e terei
 
-**DESFECHO**
+todo o gosto em arranjar-lhe mais, se precisar.
 
-a situação é resolvida ou transformada
+2
 
-**DICA**
+Com estas palavras, o ministro dos Estados
 
-Quando leres uma narrativa, pergunta primeiro: Quem? Onde? Quando? O quê? Porquê?
+Unidos pousou o frasco numa mesa de már‐
 
+more e, fechando a porta, foi deitar-se.
+
+3
+
+Por um momento, o fantasma de Canterville fi‐
+
+cou completamente imóvel, numa indignação
+
+muito natural; depois, atirando o frasco com vi‐
+olência contra o soalho encerado, fugiu pelo
+
+corredor, soltando gemidos cavos e emitindo
+uma horrível luz verde. No preciso momento,
+
+porém, em que chegava ao cimo da grande es‐
+
+cadaria de carvalho, abriu-se de repente uma
+porta, apareceram duas figurinhas vestidas de
+
+branco e uma grande almofada passou-lhe a zu‐
+nir junto à cabeça! Era evidente que não havia
+
+tempo a perder e, adotando à pressa a Quarta
+
+Dimensão do Espaço como meio de fuga, desa‐
+pareceu através dos lambris, e a casa ficou em
+
+completo silêncio.
+
+4
+
+Ao chegar a um pequeno quarto secreto na ala
+
+esquerda, encostou-se a um raio de luar para
+recuperar o fôlego e começou a tentar perce‐
+
+ber a sua situação. Nunca, numa carreira bri‐
+lhante e ininterrupta de trezentos anos, tinha
+
+sido tão grosseiramente insultado. Pensou na
+
+duquesa viúva, a quem pregara um susto tal
+que ela tivera um ataque de nervos quando se
+
+contemplava ao espelho, toda de rendas e dia‐
+mantes; nas quatro criadas que tinham caído
+
+em histeria só porque ele lhes sorrira por entre
+
+os cortinados de um dos quartos de hóspedes;
+no pároco da freguesia, a quem apagara a vela
+
+quando ele regressava, certa noite, tarde, da bi‐
+blioteca, e que desde então nunca mais se li‐
+
+vrara dos médicos, verdadeiro mártir dos ner‐
+
+vos. […] Todas as suas grandes façanhas lhe vol‐
+taram à memória.
+
+5
+
+Oscar Wilde, The Canterville Ghost (1887), cap. I (excerto). Tradução
+**da Prime School a partir do original inglês, em domínio público. lam-**
+
+**bris: revestimento de madeira das paredes · grilhetas: argolas de**
+
+ferro presas aos pés.
+
+NARRATIVA 7 · O FANTASMA DE CANTERVILLE
 69
 
 <!-- page 70 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 7 · O F A N T A S M A D E C A N T E R V I L L E
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 7
+LEITURA
+H U M O R E M E D O
+## Um fantasma ofendido
 
-## Pintar com palavras – a descrição
+**O que devia dar medo**
+**O que dá vontade de rir**
 
-**ESCRITA · DESCRIÇÃO**
+1. Descreve o fantasma (§ 1). Que tipo de caracterização usa o narrador: direta ou indireta?
 
-Uma boa descrição permite ao leitor imaginar uma personagem, um lugar ou uma situação.
-Observa as palavras que podem construir uma descrição:
+2. A reação do senhor Otis é a que esperávamos? Transcreve duas expressões que mostram a sua calma.
 
-**luz**
-**escuro**
-**silencioso**
-**distante**
-**imenso**
-**frio**
-**luminoso**
-**misterioso**
+3. O senhor Otis fala do lubrificante como se fizesse um anúncio (lembra-te da Unidade 1!). Identifica dois re-
+cursos publicitários na sua fala.
 
-**EXERCÍCIOS 6**
-Descreve agora o espaço da viagem do cavaleiro. Utiliza: pelo menos 3 adjectivos · uma referência a um
-som · uma referência à luz · uma comparação.
+**4. No último parágrafo, o narrador mostra o que o fantasma pensa e sente. Que sentimento domina? Por-**
+que é que isso é cómico?
 
-**A MINHA DESCRIÇÃO**
+**5. O humor de Wilde nasce do contraste: entre o que se espera e o que acontece; entre a tradição inglesa e**
+o pragmatismo americano. Explica um desses contrastes.
+DESAFIO
 
+NARRATIVA 7 · O FANTASMA DE CANTERVILLE
 70
-
-**EXERCÍCIOS 6**
-
-**DICA**
-
-Uma descrição eficaz não consiste em fazer uma lista de adjectivos. Escolhe pormenores
-específicos que ajudem o leitor a imaginar o lugar.
-
-**EXERCÍCIOS 6 · CONTINUAÇÃO**
-
-Descreve agora um lugar que conheças bem (o teu quarto, a rua da escola, a casa dos
-avós) em 5-6 linhas, com os mesmos requisitos: três adjectivos, um som, a luz e uma
-
-comparação.
 
 <!-- page 71 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 7 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 7
+ESCRITA
+R E E S C R I T A C O M M U D A N Ç A D E P O N T O D E V I S T A
+## Agora conta o fantasma
 
-## A arte do diálogo
+**No excerto, o narrador está fora da história (3.ª pessoa). E se fosse Sir Simon a contar**
+aquela noite, na 1.ª pessoa, indignado, no seu diário de fantasma com trezentos anos de
+carreira?
 
-**ESCRITA · QUANDO AS PERSONAGENS FALAM**
+NARRADOR NÃO PARTICIPANTE
 
-O diálogo permite: conhecer melhor as personagens · apresentar informação · desenvolver a acção ·
-criar tensão · tornar a narrativa mais dinâmica.
+«Por um momento, o fantasma de Canter-
+ville ficou completamente imóvel, numa in-
+dignação muito natural.»
+→
 
-**EXERCÍCIOS 7**
-Imagina que o cavaleiro encontra uma pessoa desconhecida durante a viagem. Escreve um diálogo de 8
-a 10 falas. Deves incluir: uma pergunta · uma resposta inesperada · uma descrição breve · um momento
-de surpresa.
+NARRADOR PARTICIPANTE
 
-**ESCREVE O TEU DIÁLOGO**
+«Fiquei ali, paralisado. Eu, Sir Simon de Can-
+terville, que fiz desmaiar uma duquesa! Ofe-
+recerem-me óleo, como se eu fosse uma porta
+a ranger!»
 
-Cavaleiro:
+**Muda**
 
-Estranho:
+a pessoa verbal (ele → eu) · os pos-
 
-Cavaleiro:
+sessivos (seu → meu) · os deíticos
 
-Estranho:
+(aquela noite → esta noite)
 
-Cavaleiro:
+**Acrescenta**
 
-**DICA**
+pensamentos e sentimentos do
 
-Escreve cada fala numa linha nova, com o nome da personagem seguido de dois pontos. Usa o
-travessão (—) quando a personagem fala dentro da narração.
+fantasma · a sua opinião sobre os
 
-Transforma uma cena do teu dia-a-dia (o pequeno-almoço, o recreio, o autocarro) num mini-diálogo teatral
-de 6 falas, com duas didascálias.
+Otis · pormenores que só ele sabe
 
+**Mantém**
+
+os acontecimentos pela mesma or-
+
+dem · o tom cómico · o diálogo do
+
+senhor Otis
+
+## 1 Reescreve o excerto como uma página do diário de Sir Simon (180 a 230 palavras). Começa por:
+«Canterville Chase, uma e cinco da madrugada. Nunca, em trezentos anos…»
+
+○ 1.ª pessoa (Sir Simon)
+○ pensamentos e sentimentos
+○ mesma ordem dos acontecimentos
+
+○ tom cómico
+○ 180–230 palavras
+
+NARRATIVA 7 · ESCRITA
 71
-
-**EXERCÍCIOS 7**
 
 <!-- page 72 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+N A R R A T I V A 7 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+N A R R A T I V A 7
+GRAMÁTICA
 
-**ESCRITA · NARRATIVA DE 180 A 220 PALAVRAS**
+T E M P O S D O I N D I C A T I V O · P R E S E N T E D O C O N J U N T I V O · L O C U Ç Ã O P R E P O S I T I V A
+## Quando e como
 
-Imagina que vais partir numa viagem para um lugar completamente desconhecido. Escreve uma
-narrativa de 180 a 220 palavras que inclua:
+INDICATIVO
+SERVE PARA…
+EXEMPLO DO TEXTO
 
-☑ uma personagem principal ☑ um espaço desconhecido ☑ uma viagem
-☑ um acontecimento inesperado ☑ um momento de tensão ☑ um diálogo ☑ um desfecho
+**Pretérito perfeito**
+ações concluídas, uma a uma
+Levantou-se, riscou um fósforo e viu as
+horas.
 
-**PLANIFICA ANTES DE ESCREVER**
+**Pretérito imperfeito**
+descrições, cenários, ações habituais ou
+em curso
 
-Quem?
+Os olhos eram vermelhos; o ruído
+continuava.
 
-Para onde?
+**Pretérito mais-que-**
+**perfeito**
 
-Porquê?
+uma ação anterior a outra, já passada
+Nunca tinha sido tão insultado. · pregara
+um susto
 
-Qual é o problema?
+**Presente**
+o momento da fala; verdades gerais
+Dizem que é absolutamente eficaz.
 
-O que acontece no momento de maior tensão?
+**Futuro**
+o que vai acontecer
+Terei todo o gosto em arranjar-lhe mais.
 
-Como termina?
+**Presente do conjuntivo**
 
-**O MEU RASCUNHO**
+Depois de expressões de vontade, dúvida, necessi-
+dade: Tenho de insistir para que lubrifique essas cor-
+rentes. · Espero que o fantasma não volte.
 
-Escreve o primeiro parágrafo da tua narrativa «in medias res»: começa pelo momento de maior tensão (o
-barco a entrar na tempestade, a porta que se abre sozinha, o comboio que não pára) e só depois recua no
-tempo para explicar como lá chegaste.
+**Locução prepositiva**
 
-## Laboratório de Escrita · a tua viagem
+Grupo de palavras que funciona como uma preposi-
+ção: junto a, à frente de, por entre, através de, em vez
+de, apesar de, por causa de, ao lado de.
+Desapareceu através dos lambris.
 
+## 1 Identifica o tempo verbal e explica porque foi usado: a) «Era exatamente uma da manhã.» b) «Pousou o
+frasco numa mesa de mármore.» c) «a quem pregara um susto»
+
+## 2 Completa com o presente do conjuntivo: Os gémeos querem que o fantasma
+(aparecer). É preciso que a família
+(dormir).
+Talvez Sir Simon
+(desistir).
+
+## 3 Sublinha as locuções prepositivas e escreve uma frase tua com cada uma: «Ao lado da escadaria, por
+entre os cortinados, apesar do medo, a criada espreitou.»
+
+NARRATIVA 7 · GRAMÁTICA
 72
 
 <!-- page 73 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+S Í N T E S E
 
-Prime School Press · www.primeschool.pt
+S Í N T E S E
+ED. LITERÁRIA
+A S S E T E N A R R A T I V A S L A D O A L A D O
+## Quem cresceu?
 
-**ESCRITA · FRASES ÚTEIS**
+Todas estas narrativas falam de alguém que muda — ou que se recusa a mudar. Completa a
+galeria e depois compara.
 
-**PARA COMEÇAR**
+PERSONAGEM
+NO INÍCIO…
+O QUE A TRANSFORMA
+NO FIM…
 
-• Era uma manhã...
-• Tudo começou quando...
-• Nunca imaginara que...
-• Há muito tempo...
+**Gonçalo Nunes**
 
-**PARA FAZER AVANÇAR A ACÇÃO**
+O Castelo de Faria
 
-• De repente...
-• Pouco depois...
-• Entretanto...
-• Nesse momento...
-• Sem avisar...
+**Carlinhos**
 
-**PARA CRIAR TENSÃO**
+Mestre Finezas
 
-• O silêncio tornou-se...
-• Algo não estava certo.
-• Por um instante, ficou imóvel.
-• Não sabia o que fazer.
+**Os sete irmãos**
 
-**PARA TERMINAR**
+Parábola dos sete
+vimes
 
-• Finalmente...
-• A partir desse dia...
-• Quando regressou...
-• Nunca mais se esqueceu de...
+**O narrador**
 
-**LIGA AS TUAS IDEIAS**
+Os da minha rua
 
-Evita frases isoladas. Utiliza conectores: primeiro → depois → entretanto → por isso → contudo →
-finalmente.
+**Castelo**
 
-## Caixa de ferramentas do escritor
+O homem que sabia
+javanês
 
+**Phileas Fogg**
+
+A volta ao mundo em
+80 dias
+
+**Sir Simon**
+
+O Fantasma de
+Canterville
+
+## 1 Qual das personagens muda mais? E qual não muda nada? Justifica as duas escolhas.
+
+## 2 Em quase todas as histórias há alguém que ajuda outra pessoa a crescer (um pai, um amigo, um vizi-
+nho). Escolhe dois exemplos e compara-os.
+
+SÍNTESE
 73
 
 <!-- page 74 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+C L U B E D O S C O N T A D O R E S
 
-Prime School Press · www.primeschool.pt
+P R O J E T O
+ORALIDADE
+ESCRITA
+E M G R U P O · 2 S E M A N A S
+## O Clube dos Contadores
 
-## Fala e escuta – conversa de viajantes
+**A biblioteca de Vila Nova do Farol vai abrir um podcast de histórias e pediu ajuda à tua**
+**turma. Cada grupo prepara um episódio de 5 minutos sobre uma das sete narrativas da**
+unidade.
 
-**ORALIDADE · EM PARES**
+00:00
 
-Trabalha com um colega. SITUAÇÃO: um de vocês acabou de regressar de uma viagem extraordinária; o
-outro quer saber tudo.
+**Abertura**
 
-**PERGUNTA AO TEU COLEGA**
-1. Para onde foste?
-2. Porque decidiste partir?
-3. Qual foi o momento mais difícil?
-4. Conheceste alguém especial?
-5. O que aprendeste?
-6. Voltarias a fazer a mesma viagem?
+00:30
 
-**DESAFIO DE ORALIDADE 9**
-No final, apresenta o teu colega à turma. Deves dizer: «A viagem do/a ______ foi especial porque...»
+**A obra**
 
-Regista aqui as notas para a tua apresentação:
+01:30
 
-**CRITÉRIOS**
+**Leitura**
+**expressiva**
 
-Fala devagar e com volume alto · olha para a audiência · usa conectores («em primeiro lugar», «para
-terminar») · controla o corpo: postura erecta, gestos naturais.
+02:30
 
-Grava, com o telemóvel de um colega, um «podcast de viajante» de 1 minuto: descreve a viagem
-imaginária mais incrível que farias, com início, peripécia e regresso. Depois ouve a gravação e avalia: falei
-devagar? usei conectores?
+**A conversa**
 
+04:00
+
+**Veredicto**
+
+SEMANA 1 · DIA 1
+Escolher a narrativa e
+
+distribuir os papéis
+
+SEMANA 1 · DIA 3
+Guião escrito entregue
+
+ao professor
+
+SEMANA 2 · DIA 1
+Ensaio e gravação
+
+SEMANA 2 · DIA 4
+Estreia: audição na
+
+turma e votação
+
+**Papéis**
+Apresentador · abre e fecha
+Narrador · lê o excerto
+Personagens · dão voz às falas
+
+Debatedores · defendem posições
+Técnico · grava e edita
+
+CRITÉRIO
+EM CONSTRUÇÃO
+CONSOLIDADO
+EXCELENTE
+
+**Conhecimento da**
+**obra**
+
+resumo com
+falhas
+
+categorias da narrativa
+corretas
+
+interpretação original e justificada
+
+**Leitura expressiva**
+leitura hesitante
+ritmo e pausas adequados
+vozes distintas, emoção, pausas
+intencionais
+
+**Argumentação**
+opiniões sem
+razões
+
+opiniões com um
+argumento
+
+argumentos com provas do texto
+
+**Língua**
+erros frequentes
+discurso claro e correto
+vocabulário rico, conectores variados
+
+**Trabalho de grupo**
+participação
+desigual
+
+todos intervêm
+papéis claros e bem articulados
+
+**Depois da estreia cada membro responde:**
+
+O QUE FIZ BEM
+O QUE FARIA DIFERENTE
+
+**Guião escrito. Antes de gravar, o grupo entrega o guião (300 a 400 palavras) com as falas de cada membro. Gravação**
+no telemóvel, num lugar silencioso. Ficheiro em MP3.
+
+Nome do podcast,
+do episódio e do
+grupo. Uma frase-
+gancho.
+
+Autor, época, gé-
+nero. O mapa da
+narrativa em 60
+segundos.
+
+Um excerto curto,
+lido com vozes di-
+ferentes para nar-
+rador e
+personagens.
+
+Dois membros dis-
+cutem uma per-
+gunta de interpre-
+tação, com opi-
+niões diferentes.
+
+Recomendação:
+para quem é esta
+história? Porque
+vale a pena?
+
+CLUBE DOS CONTADORES
 74
-
-**DESAFIO DE ORALIDADE 9**
 
 <!-- page 75 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A L A N Ç O
 
-Prime School Press · www.primeschool.pt
+B A L A N Ç O
+U N I D A D E 2
+## Dez perguntas de narrador
 
-## Literatura em imagem – o mapa da viagem
+CONSIGO…
+AINDA NÃO
+QUASE
+SIM!
 
-**PROJECTO CRIATIVO**
+identificar narrador, personagens, espaço, tempo e ação
 
-Cria um mapa da viagem da personagem. Em cada etapa, escreve uma frase explicando o que
-acontece.
+distinguir tema, assunto e valores de um texto
 
-**ponto de partida →**
+explicar o sentido figurado e a ironia
 
-**primeiro destino →**
+resumir, comentar e dar a minha opinião por escrito
 
-**obstáculo →**
+escrever uma narrativa com descrição e diálogo
 
-**novo lugar →**
+reescrever um texto mudando o ponto de vista
 
-**descoberta →**
+reconhecer subordinadas temporais, causais, condicionais, finais e relativas
 
-**regresso**
+usar o conjuntivo e colocar bem o pronome átono
 
-**CRIATIVIDADE EXTRA**
+✎Qual das sete personagens te fez pensar mais sobre ti próprio? Porquê?
 
-Escolhe um símbolo para representar a viagem. Desenha-o e explica: «O meu símbolo representa a
-viagem porque...»
-O MEU MAPA DA VIAGEM (desenha aqui o teu mapa, com as etapas e um símbolo):
+Em «O Castelo de Faria», o narrador é
 
-Escreve uma frase-poema para cada etapa do teu mapa: a partida, o obstáculo e o regresso. Junta as três
-frases: tens um mini-poema de viagem!
+participante · não participante
 
+**1**
+O recuo ao passado numa narrativa chama-se
+**2**
+
+Em «Os habitantes fugiram quando viram as bandei-
+ras», a oração «quando viram as bandeiras» é subor-
+dinada
+
+**3**
+Em «Mestre Finezas», a vila é uma personagem
+**4**
+
+«O Mestre, cujas mãos tremiam…» — classe de pala-
+vra:
+
+**5**
+O feixe de vimes, no sentido figurado, representa
+**6**
+
+«Espero que tu voltes» — modo verbal:
+**7**
+Dizer o contrário do que se pensa, para criticar ou
+fazer rir:
+
+**8**
+
+Coloca o pronome: «Fogg não consultou o relógio» →
+**9**
+«Desapareceu através dos lambris» — através de é
+uma
+
+**10**
+
+BALANÇO
 75
-
-**DESAFIO CRIATIVO 29**
 
 <!-- page 76 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+G L O S S Á R I O · S O L U Ç Õ E S
 
-Prime School Press · www.primeschool.pt
+**Glossário**
 
-## O Assalto · uma história de suspense
+**Analepse**
+Recuo no tempo da narrativa, para contar algo que
+aconteceu antes.
 
-**José Eduardo Agualusa**
+**Caracterização direta / indireta**
+Dita pelo narrador ou por uma personagem / deduzida
+das ações, falas e gestos.
 
-**PERGUNTA DE PARTIDA**
+**Comentário**
+Texto em que se interpreta e avalia uma obra, defen-
+dendo uma tese com argumentos.
 
-Quando entramos num lugar desconhecido, podemos confiar no que vemos? Imagina que entras numa casa
-aparentemente vazia. O que te faria desconfiar de que afinal não estás sozinho?
+**Desenlace**
+Parte final da ação, em que o conflito se resolve (ou
+não).
 
-**NESTA HISTÓRIA VAIS APRENDER A**
-compreender um texto narrativo e identificar informação explícita e implícita;
-caracterizar uma personagem pelas suas acções e reacções;
-reconhecer os elementos que criam suspense e analisar o espaço e o ambiente;
-distinguir pretérito perfeito de pretérito imperfeito;
-identificar discurso directo e reconhecer recursos expressivos;
-escrever uma narrativa de suspense.
+**Ironia**
+Dizer uma coisa querendo que se entenda outra, geral-
+mente para criticar.
 
-**UMA ESCURINHADA NA ESCURIDÃO**
-Há histórias que nos prendem logo nas primeiras linhas. Um rapaz sozinho, uma rua deserta, uma porta alta de
-madeira escura, uma chave fria na mão… e uma voz inesperada no fundo do corredor. Vamos descobrir como
-um escritor constrói o medo e a curiosidade, palavra a palavra.
+**Lenda**
+Narrativa que mistura factos históricos com elemen-
+tos inventados ou engrandecidos.
 
+**Narrador participante**
+Narrador que é personagem da história; usa a 1.ª
+pessoa.
+
+**Parábola**
+Narrativa breve que transmite uma lição moral através
+de uma situação concreta.
+
+**Personagem coletiva**
+Grupo que age como uma só personagem (a vila, o
+povo).
+
+**Ponto de vista**
+Perspetiva a partir da qual a história é contada.
+
+**Sentido figurado**
+Sentido que vai além do significado literal das
+palavras.
+
+**Texto expositivo**
+Texto que explica um tema de forma objetiva e
+documentada.
+
+**Pronome átono**
+Pronome pessoal sem acento próprio (o, a, lhe, me…);
+pode ficar antes, depois ou no meio do verbo.
+
+**Soluções**
+
+**p. 36 · Aquecimento. Narrador não participante; personagens: o se-**
+nhor Abílio (principal) e a rapariga; espaço: a cabine do Cinema Au-
+rora e a casa; tempo: há dez anos / esta semana; ação: fechado e es-
+quecido, o senhor Abílio volta a ter um sentido para a vida. Analepse:
+«Na noite em que o Cinema Aurora fechou, há dez anos».
+
+**p. 44 · Frase complexa. 1. a) S · b) C · c) Sb · d) Sb. 2. a) Quando viram**
+as bandeiras, os habitantes fugiram para o castelo. b) Como não es-
+quecia o pai, Gonçalo deixou de ser cavaleiro. c) O filho falou baixo
+porque não queria ser ouvido pelos castelhanos.
+
+**p. 47 · Relativos. a) O violino, que era do Mestre, tinha cordas gastas.**
+b) Carlinhos voltou à vila, onde ninguém se lembrava do Mestre. c) O
+Mestre era um artista cujos aplausos enchiam a sala. 2. Restritiva:
+só alguns vizinhos o esqueceram. Explicativa: todos os vizinhos o
+esqueceram.
+
+**p. 51 · Condicionais e finais. 1. a) F · b) Cd · c) Cd · d) F.**
+
+**p. 54 · Conjuntivo. a) voltemos · b) estivesse · c) vieres · d) façam · e)**
+tivesse.
+
+**p. 62 · Modificadores e formação. 1. a) «o falso professor» A · b) «an-**
+tigo», «encadernado em couro» R · c) «desembargador vaidoso» A. 2. a)
+prefixação · b) sufixação · c) composição morfossintática · d) paras-
+síntese · e) composição morfológica.
+
+**p. 68 · Pronomes. a) arrumou-a · b) nunca o largou · c) ofereceram-lhe**
+· d) entregá-lo-á (ou vai entregá-lo). 2. «Ao chegar a Londres», «calma-
+mente», «às oito e quarenta e cinco».
+
+**p. 72 · Tempos. 1. a) imperfeito (descrição) · b) perfeito (ação concluída)**
+· c) mais-que-perfeito simples (ação anterior). 2. apareça · durma ·
+desista.
+
+**p. 75 · Balanço. 1 não participante · 2 analepse · 3 temporal · 4 coletiva**
+· 5 pronome relativo · 6 a união · 7 conjuntivo · 8 ironia · 9 Fogg não o
+consultou · 10 locução prepositiva.
+
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
+
+**Ler uma narrativa**
+
+Narrador: participante / não parti-
+cipante; objetivo / subjetivo.
+
+Personagens: relevo e caracteriza-
+ção (direta, indireta).
+
+Espaço físico, social, psicológico.
+Tempo histórico, cronológico, psi-
+cológico; analepse.
+
+Ação: situação inicial, desenvolvi-
+mento, desenlace.
+
+**Escrever**
+
+Resumo: essencial, 3.ª pessoa, sem
+cópia.
+
+Comentário e opinião: tese, argu-
+mentos com provas, contra-argu-
+mento, conclusão.
+
+Narrativa: descrição com sentidos,
+diálogo com travessão.
+
+Expositivo: objetivo, informado,
+com fontes.
+
+**Gramática**
+
+Subordinadas: temporais, causais,
+condicionais, finais, relativas.
+
+Conjuntivo depois de vontade, dú-
+vida, necessidade, embora, para
+que, quando.
+
+Pronome átono: ênclise, próclise,
+mesóclise.
+
+Formação: derivação, parassín-
+tese, composição.
+
+GLOSSÁRIO · SOLUÇÕES
 76
 
 <!-- page 77 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+U N I D A D E 3
 
-Prime School Press · www.primeschool.pt
+T E X T O P O É T I C O · R E D O N D I L H A E E S Q U E M A
+R I M Á T I C O
+## O que cabe
+## num verso?
 
-## Conhece o autor · José Eduardo Agualusa
+Um sonho que faz o mundo avançar. O medo de um
+país inteiro. Uma pergunta ao vento. Um rio que
+leva as mágoas para o mar. Nove poemas de oito
+poetas portugueses — e as ferramentas para perce‐
+**beres como um poema funciona: o verso, a estrofe,**
+a rima, o ritmo, as imagens.
 
-**LITERATURA · O AUTOR**
+**?**
+Porque é que um poema se lembra mais facilmente
+do que um texto em prosa?
 
-José Eduardo Agualusa nasceu em Angola e é um dos mais conhecidos escritores de língua portuguesa da
-actualidade. A sua obra inclui romances, contos e livros para crianças e jovens.
+**?**
+Pode um poema dizer uma coisa e querer dizer
+outra?
 
-**TEMAS FREQUENTES NA SUA ESCRITA**
-• identidade e cultura • viagens e descoberta • relações humanas
+**?**
+Um poema serve para alguma coisa?
 
-• imaginação • memória • natureza
-
-A literatura de Agualusa permite também conhecer diferentes realidades e espaços do mundo de língua
-portuguesa.
-
-**RELEMBRA**
-
-Angola é um país africano onde o português é língua oficial. Na literatura angolana podem surgir referências
-culturais, linguísticas e sociais próprias desse contexto.
-
-**ANTES DE LER · O QUE ESPERAS ENCONTRAR?**
-Observa o título: «O Assalto». O título faz-te pensar numa história:
-
-☐ cómica ☐ misteriosa ☐ romântica ☐ policial ☐ de aventura
-
-(Podes escolher mais do que uma opção.)
-
-1. Quem poderá estar envolvido num assalto?
-
-2. Onde poderá acontecer?
-
-3. Que sentimentos esperas encontrar?
-
-4. Completa: «Um assalto pode tornar-se perigoso quando…»
-
+UNIDADE 3
 77
 
 <!-- page 78 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P R O G R A M A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 3
+O P R O G R A M A
+## Nove poemas, oito vozes
 
-## Vocabulário antes da leitura
+**Primeiro, montas a tua oficina do verso: aprendes a contar sílabas, a desenhar esquemas**
+rimáticos e a reconhecer a redondilha. Depois, cada poema é uma paragem para ler, ouvir,
+**escrever e pensar a língua. No fim, o Sarau junta a turma à volta dos poemas.**
 
-**PALAVRAS DO TEXTO**
+## 1
+**Pedra filosofal**
 
-**LIGA CADA PALAVRA AO SIGNIFICADO ADEQUADO**
+ANTÓNIO GEDEÃO
+O desejo de saber
 
-**Palavra**
-**Significado**
+Enumeração · anáfora · metá-
+fora · opinião · pleonasmo, hi-
+pérbole, completiva
 
-castelo
-(escreve a letra)
+**p. 82**
 
-casarão
-(escreve a letra)
+## 2
+**O poema pouco original do**
+**medo**
 
-corredor
-(escreve a letra)
+ALEXANDRE O'NEILL
 
-penumbra
-(escreve a letra)
+Ironia e enumeração
 
-metal
-(escreve a letra)
+O que diz e o que deixa enten-
+der · recriação em prosa · ad-
+vérbio, sujeito e predicado
 
-A.
-lugar por onde se passa
+**p. 85**
 
-B.
-construção grande e antiga
+## 3
+**E por vezes**
 
-C.
-edifício grande, geralmente antigo
+DAVID MOURÃO-FERREIRA
+O tempo e o amor
+Anáfora · hipérbole · ritmo
+**p. 88**
 
-D.
-espaço comprido que liga divisões
+## 4
+**Trova do vento que passa**
 
-E.
-pouca luz; iluminação fraca
+MANUEL ALEGRE
+A liberdade
+Redondilha maior · quadra ·
+rima cruzada
+**p. 89**
 
-**DESAFIO 31**
-Que três palavras desta página poderiam contribuir para criar uma atmosfera de suspense? Explica.
+## 5
+**Tisanas e poesia visual**
 
+ANA HATHERLY
+
+A experiência da
+palavra
+
+Poema em prosa · poema
+visual
+**p. 90**
+
+## 6
+**Sísifo**
+
+MIGUEL TORGA
+Recomeçar
+Imperativo · apóstrofe · verso
+livre
+**p. 91**
+
+## 7
+**Tejo que levas as águas**
+
+MANUEL DA FONSECA
+A cidade e a injustiça
+Personificação · redondilha
+maior
+**p. 92**
+
+## 8·9
+**Ser Poeta · Fanatismo**
+
+FLORBELA ESPANCA
+A paixão
+Soneto · decassílabo · esquema
+rimático
+**p. 93**
+
+**Oficina do verso**
+
+Estrofe, rima, métrica · p. 79
+
+**Recursos expressivos**
+
+O guia dos recursos · p. 95
+
+**No fim**
+
+Sarau de poesia · p. 98
+
+Os poemas de Florbela Espanca estão em domínio público e reproduzem-se na íntegra. Dos outros sete poetas, cujas
+obras estão protegidas, citam-se apenas versos breves para fins de ensino: lê cada poema completo na antologia da
+turma ou na biblioteca.
+
+PROGRAMA
 78
 
 <!-- page 79 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+O F I C I N A D O V E R S O
 
-Prime School Press · www.primeschool.pt
+O F I C I N A D O V E R S O
+ED. LITERÁRIA
+R E F E R Ê N C I A · 1
+## Verso, estrofe e rima
 
-## Vamos ler · O Assalto
+**Verso**
 
-**TEXTO LITERÁRIO · JOSÉ EDUARDO AGUALUSA · ADAPTADO**
+Cada linha de um poema.
 
-O rapaz avançou pela rua deserta, com o coração a bater com força contra as costelas. O plano parecia simples
-na sua cabeça, mas agora, diante da porta alta de madeira escura, tudo parecia mais difícil. Olhou para um lado e
-para o outro. Não havia ninguém.
+**Estrofe**
 
-Introduziu a mão no bolso do casaco e sentiu o metal frio da chave que conseguira encontrar no dia anterior. A
-fechadura rangeu, um som agudo que lhe pareceu ecoar por toda a cidade. Empurrou a porta devagar. O interior
-da casa estava mergulhado numa penumbra densa, cheirando a livros velhos e a tempo guardado.
+Grupo de versos separado por
+um espaço em branco.
 
-— Quem está aí? — perguntou uma voz súbita, vinda do fundo do corredor.
+**Rima**
 
-O rapaz congelou. Não esperava encontrar ninguém àquela hora. A voz não era ameaçadora; era a voz cansada
-de um velho que parecia já ter visto tudo nesta vida. O jovem pensou em fugir, mas os seus pés recusaram
-mover-se, presos ao chão de madeira como se fizessem parte da própria estrutura da casa.
+Repetição de sons no fim dos
+versos, a partir da última vogal
+tónica: mar / luar.
 
-**PRIMEIRA LEITURA**
-Depois de leres, escolhe três palavras que, na tua opinião, criam maior suspense:
+VERSOS
+ESTROFE
+VERSOS
+ESTROFE
 
-1.
+1
+monóstico
+6
+sextilha
 
-2.
+2
+dístico
+7
+sétima
 
-3.
+3
+terceto
+8
+oitava
 
-**ENQUANTO LÊS·**
+4
+quadra
+9
+nona
 
-Observa como o ambiente muda a cada passo: rua deserta →porta escura →chave →fechadura →penumbra →
-voz.
+5
+quintilha
+10
+décima
 
-A porta alta de madeira escura.
+**Esquema rimático**
 
+Dá-se a mesma letra aos versos que rimam entre si. Um verso que não rima com nenhum é
+**um verso solto (usa-se uma letra nova ou um traço).**
+
+A A B B
+**Emparelhada**
+
+fogueira A
+
+lareira A
+
+serão B
+
+canção B
+
+A B A B
+**Cruzada**
+
+passa A
+
+país B
+
+desgraça A
+
+diz B
+
+A B B A
+**Interpolada**
+
+maior A
+
+beija B
+
+seja B
+
+Dor A
+
+**Rima consoante**
+
+Os sons coincidem por completo, vogais e consoan-
+tes: vida / perdida.
+
+**Rima toante**
+
+Só coincidem as vogais: prata / cama.
+
+## 1 Liga as palavras que rimam e diz se a rima é consoante (C) ou toante (T): coração · canção · cinzenta ·
+lenta · casa · asa · sonho · risonho · vida · lida.
+
+## 2 Volta às quadras da Unidade 1? Não: procura na tua memória uma canção que saibas de cor. Escreve
+uma estrofe, diz quantos versos tem, como se chama e qual é o esquema rimático.
+
+OFICINA DO VERSO
 79
 
 <!-- page 80 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+O F I C I N A D O V E R S O
 
-Prime School Press · www.primeschool.pt
+O F I C I N A D O V E R S O
+ED. LITERÁRIA
+R E F E R Ê N C I A · 2
+## Contar sílabas métricas
 
-## Compreensão · primeiro olhar
+**No verso não se contam as sílabas gramaticais, mas as sílabas métricas — as que se ouvem**
+quando o verso é dito. Três regras chegam para começar:
 
-**LEITURA · RESPONDE COM FRASES COMPLETAS**
+## 1
 
-**EXERCÍCIOS 32**
-1. Onde se encontra o rapaz no início do texto?
+**Conta até à última sílaba**
+**tónica**
 
-2. Como é caracterizada a rua? E a porta?
+O que vem depois dela não conta:
+## Pergunto ao
+## vento que
+## pas(sa).
 
-3. O que tem o rapaz no bolso? O que acontece quando introduz a chave na fechadura?
+## 2
 
-4. Como é descrito o interior da casa?
+**Junta as vogais que se**
+**encontram**
 
-5. Quem fala a partir do fundo do corredor? Como é essa voz?
+Vogal final + vogal inicial fazem,
+muitas vezes, uma só sílaba (
+**elisão**
 
-6. Como reage o rapaz quando ouve a voz?
+## ): to_ao, cala_a.
 
+## 3
+
+**Diz o verso em voz alta**
+
+O ouvido é o melhor juiz. Bate as
+sílabas com os dedos.
+
+**Redondilha maior · 7 sílabas**
+
+Manuel Alegre, «Trova do vento que passa» (versos 1–2)
+
+**Redondilha menor · 5 sílabas**
+
+Luís de Camões, vilancete «Pastora da serra» (domínio público)
+
+**Decassílabo · 10 sílabas**
+
+O verso do soneto: Meus / o / lhos / an / dam / ce /
+gos / de / te / ver. (Florbela Espanca)
+
+**Verso livre**
+
+Sem medida fixa e, muitas vezes, sem rima. Comum
+na poesia moderna (Torga, O'Neill, Mourão-Ferreira).
+
+**Nem sempre há elisão Quando a vogal seguinte é tónica, o poeta pode separá-las (hiato ): lu / a, pa / ís. Na dú-**
+vida, diz o verso: o ritmo mostra-te a escolha certa.
+
+## 1 Faz a escansão. Escreve uma sílaba métrica em cada caixa e sublinha a última tónica.
+
+correndo de par em par
+
+perco-me por ela
+
+Per
+
+1
+gun
+
+2
+to_ao
+
+3
+ven
+
+4
+to
+
+5
+que
+
+6
+pas
+
+7
+sa
+
+no
+
+1
+tí
+
+2
+cias
+
+3
+do
+
+4
+meu
+
+5
+pa
+
+6
+ís
+
+7
+
+Pas
+
+1
+to
+
+2
+ra
+
+3
+da
+
+4
+ser
+
+5
+ra
+
+da
+
+1
+ser
+
+2
+ra
+
+3
+da_Es
+
+4
+tre
+
+5
+la
+
+OFICINA DO VERSO
 80
 
 <!-- page 81 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+A Q U E C I M E N T O
 
-Prime School Press · www.primeschool.pt
+A Q U E C I M E N T O
+2 0 M I N U T O S · A P A R E S
+## Três quadras de Vila Nova do Farol
 
-## Verdadeiro ou falso
+Estas quadras foram escritas «ao gosto popular», como as que se cantam nas festas das al‐
+deias portuguesas. Todas têm versos de sete sílabas.
 
-**LEITURA · INDICA V OU F**
+## 1 Escreve o esquema rimático de cada quadra. Qual é emparelhada, cruzada ou interpolada? Há alguma
+de cada tipo?
 
-**VERDADEIRO OU FALSO 33**
+## 2 Faz a escansão (conta as sílabas métricas) do primeiro verso da quadra 2 e do último verso da quadra
+1. Mostra as elisões.
 
-**Afirmação**
-**V/F**
+## 3 Escreve a tua quadra sobre a escola ou a tua rua: quatro versos de sete sílabas, com rima cruzada.
 
-O rapaz caminha por uma rua movimentada.
+DESAFIO
 
-O rapaz está nervoso.
+## 4 Diz a tua quadra à turma. Os colegas batem as sílabas com os dedos: são mesmo sete? Regista o que
+tiveste de mudar.
+ORALIDADE
 
-O plano parecia simples antes de ele chegar à casa.
+Esquema:
 
-A porta é pequena e clara.
+## 1
+Fui ao farol esta noite
 
-O rapaz tem uma chave.
+ver a sua luz girar;
 
-A fechadura faz um ruído.
+não há vento nem açoite
 
-A casa está muito iluminada.
+que a possa um dia apagar.
 
-O rapaz esperava encontrar alguém.
+Esquema:
 
-Uma voz chama pelo rapaz.
+## 2
+Ó velho Cinema Aurora,
 
-O rapaz decide fugir imediatamente.
-Corrige as afirmações falsas:
+abre as portas ao luar;
 
+quem entra não vai embora
+
+sem um sonho p'ra contar.
+
+Esquema:
+
+## 3
+Tenho um livro na mochila
+
+que pesa mais do que o mar:
+
+cada página a virar
+
+é uma porta que cintila.
+
+AQUECIMENTO
 81
 
 <!-- page 82 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 1 · P E D R A F I L O S O F A L
 
-Prime School Press · www.primeschool.pt
+P O E M A 1
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+## Pedra filosofal
 
-## Escolha múltipla
+ANTÓNIO GEDEÃO · MOVIMENTO PERPÉTUO (1956)
 
-**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+**O POETA**
 
-**EXERCÍCIOS 34**
-1. O estado emocional do rapaz no início é sobretudo de:
-A. alegria B. nervosismo
-C. indiferença D. entusiasmo
+**António Gedeão era o nome de poeta de Rómulo de**
+Carvalho (1906–1997), professor de Física e Química e
 
-2. A rua é descrita como:
-A. movimentada B. barulhenta
-C. deserta D. perigosa
+divulgador de ciência. Na sua poesia, a ciência e o so-
+nho andam de mãos dadas. O poema tornou-se fa-
+moso cantado por Manuel Freire.
 
-3. O interior da casa encontra-se:
-A. completamente iluminado B. mergulhado numa penumbra
-C. cheio de pessoas D. vazio e moderno
+Eles não sabem que o sonho
 
-4. A voz que surge pertence:
-A. a uma criança B. a uma mulher
-C. a um jovem D. a um velho
+é uma constante da vida
 
-5. O rapaz não consegue fugir porque:
-A. não conhece o caminho B. perdeu a chave
-C. fica paralisado D. alguém o segura
+tão concreta e definida
 
+como outra coisa qualquer,
+
+António Gedeão, «Pedra filosofal», versos
+
+1–4
+
+Eles não sabem, nem sonham,
+
+que o sonho comanda a vida.
+
+versos finais
+
+**A PEDRA FILOSOFAL**
+
+Os alquimistas da Idade Média procuravam uma «pe-
+dra filosofal» capaz de transformar metais em ouro.
+No poema, o que transforma o mundo é outra coisa.
+
+**ENQUANTO LÊS**
+
+1. Quem são «eles»? Porque é que o poeta não os
+nomeia?
+
+2. O sonho é comparado a coisas concretas (uma
+pedra, um ribeiro…). Porquê?
+
+**3. Na segunda parte, o poeta faz uma longa enu-**
+**meração de invenções e descobertas. Copia**
+três.
+
+4. Que palavra ou expressão se repete no início
+**de vários versos (anáfora)? Que efeito cria?**
+
+**5. Explica a metáfora «o sonho comanda a vida».**
+
+POEMA 1 · PEDRA FILOSOFAL
 82
 
 <!-- page 83 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 1 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+P O E M A 1
+ESCRITA
+T E X T O D E O P I N I Ã O S O B R E A I D E I A D O P O E M A
+## O sonho comanda a vida?
 
-## Lê nas entrelinhas
+Gedeão defende que é o sonho — a imaginação, a curiosidade, o desejo de saber — que faz o
+**mundo avançar. Concordas? Escreve um texto de opinião com dois argumentos, cada um**
+com um exemplo concreto (da ciência, da história, da tua vida).
 
-**INFORMAÇÃO EXPLÍCITA E IMPLÍCITA**
+## 1
 
-**LÊ NAS ENTRELINHAS 35**
-Nem tudo é dito directamente. Uma inferência deve ser baseada em pistas presentes no texto.
+**Introdução**
 
-1. O rapaz está tranquilo? (sim / não) Apresenta uma prova do texto.
+Apresenta a ideia do po-
+ema e a tua posição.
 
-2. Como sabemos que ele está nervoso?
+## 2
 
-3. Porque é que ele empurra a porta devagar?
+**Argumento 1**
 
-4. Porque poderá o som da fechadura parecer-lhe tão alto?
+Uma razão + um exem-
+plo (uma invenção, uma
+pessoa, um momento).
 
-5. O que podemos concluir sobre o estado de espírito do rapaz quando ouve a voz?
+## 3
 
-**DICA**
+**Argumento 2**
 
-Uma inferência é uma conclusão retirada de pistas do texto, não uma adivinhação. Pista + interpretação =
-inferência.
+Outra razão + outro
+exemplo.
 
+## 4
+
+**Conclusão**
+
+Retoma a posição e fe-
+cha com uma frase forte
+— talvez um verso do
+poema.
+
+**Ideias para pensar**
+a ida à Lua
+as vacinas
+a internet
+os Descobrimentos
+
+um sonho teu que já cumpriste
+sonhos que correram mal
+
+## 1 Escreve o teu texto (150 a 200 palavras). Título obrigatório.
+
+**Revê**
+○ posição clara
+○ dois argumentos, dois exemplos
+○ conectores
+○ conclusão forte
+
+○ 150–200 palavras
+
+POEMA 1 · ESCRITA
 83
 
 <!-- page 84 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 1 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+P O E M A 1
+GRAMÁTICA
+P L E O N A S M O E H I P É R B O L E · O R A Ç Ã O S U B O R D I N A D A C O M P L E T I V A
+## Dizer a mais, de propósito
 
-## Quem é o rapaz?
+**Pleonasmo**
 
-**PERSONAGEM · CARACTERIZAÇÃO**
+Repetição de uma ideia já contida noutra palavra,
+para reforçar.
 
-O texto não descreve fisicamente o rapaz. No entanto, conhecemos algumas características através das suas acções
-e reacções. Escolhe as que consideras adequadas:
+Vi com os meus próprios olhos. · Subir lá acima.
 
-☐ corajoso ☐ nervoso ☐ determinado ☐ assustado
+Quando não tem intenção expressiva, é um erro: en-
+trar para dentro.
 
-☐ curioso ☐ indiferente ☐ impulsivo ☐ cauteloso
+**Hipérbole**
 
-Escolhe três e justifica cada uma com uma prova do texto:
+Exagero intencional (lembra-te da Unidade 1!).
 
-1.
-Prova:
+Os meses oceanos. (Mourão-Ferreira) · Morrer de
+saudade.
 
-2.
-Prova:
+## 1 Classifica: P (pleonasmo expressivo), E (pleonasmo vicioso, erro) ou H (hipérbole).
 
-3.
-Prova:
+a. Chorei rios de lágrimas.
 
-**«COM O CORAÇÃO A BATER COM FORÇA»**
-1. O coração do rapaz está literalmente a bater contra as costelas? (sim / não) O que significa a expressão e que
-sentimento transmite?
+b. Sobe lá para cima!
 
-2. Completa outras possibilidades:
+c. Ouvi-o com estes ouvidos que a terra há de comer.
 
-O coração batia como·
+d. Já te disse isto mil vezes.
 
-As mãos estavam·
+**Oração subordinada substantiva completiva**
 
-A respiração tornou-se·
+Completa o sentido de um verbo (quase sempre como complemento direto). É introduzida por que ou se.
 
-**DESAFIO 36**
-Escreve uma frase que mostre que uma personagem está assustada sem usares a palavra «assustada».
+**Eles não sabem que o sonho é uma constante da vida.**
 
+**Pergunto-me se o vento sabe notícias do meu país.**
+
+**Teste Substitui a oração por isso: «Eles não sabem isso.» Se a frase continua a fazer sentido, é completiva.**
+
+## 2 Sublinha as orações completivas.
+
+a. O poeta afirma que o sonho faz o mundo avançar.
+
+b. Não sei se Gedeão era mais cientista ou mais poeta.
+
+c. A professora disse que íamos ouvir o poema cantado.
+
+d. Perguntei-lhe se o sonho comanda mesmo a vida.
+
+## 3 Completa com uma oração completiva: a) Eu acredito
+b) Nin-
+guém sabe
+
+## 4 Escreve duas frases sobre um sonho teu: uma com um pleonasmo expressivo, outra com uma hi-
+pérbole. Sublinha o recurso.
+
+POEMA 1 · GRAMÁTICA
 84
 
 <!-- page 85 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 2 · O ' N E I L L
 
-Prime School Press · www.primeschool.pt
+P O E M A 2
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+## O poema pouco original do medo
 
-## Uma casa misteriosa
+ALEXANDRE O'NEILL · ABANDONO VIGIADO (1960)
 
-**ESPAÇO E AMBIENTE**
+**O POETA E O TEMPO**
 
-O espaço é fundamental para criar o ambiente do texto. Identifica as informações fornecidas pelo narrador:
+**Alexandre O'Neill (1924–1986) foi poeta e também pu-**
+blicitário (inventou slogans que ainda hoje se ouvem).
 
-A RUA é ·
+Viveu sob a ditadura do Estado Novo, quando havia
+censura e uma polícia política, a PIDE, que vigiava e
+prendia quem discordava do regime.
 
-A PORTA é ·
+O medo vai ter tudo
 
-O INTERIOR está ·
+pernas
 
-O CORREDOR é ·
+ambulâncias
 
-O CHÃO é ·
+e o luxo blindado
 
-**VOCABULÁRIO**
+de alguns automóveis
 
-Penumbra: zona de iluminação fraca, onde não há luz suficiente para ver claramente.
-Porque é que o autor não apresenta a casa como um espaço luminoso e acolhedor?
+Alexandre O'Neill, «O poema pouco original
 
-**O ESPAÇO GANHA VIDA · OS SENTIDOS**
+do medo», versos 1–5
 
-**Sentido**
-**Expressão do texto**
-**Que efeito produz?**
+**A IRONIA**
 
-Audição
-«um som agudo»
+O título diz que o poema é «pouco original». Porque é
+que um poeta diria isso do seu próprio poema?
+Pensa que, naquele tempo, o medo era tão comum
 
-Olfacção
-«cheirando a livros velhos»
+que falar dele já não era novidade.
 
-Visão
-«uma penumbra densa»
+**O QUE DIZ · O QUE DEIXA**
+**ENTENDER**
 
-Tato
-«o metal frio da chave»
+O POEMA DIZ…
+…E DEIXA ENTENDER
 
+«O medo vai ter
+tudo»
+
+o medo vai ter olhos
+e ouvidos
+
+a enumeração de
+coisas que o medo
+terá
+
+o título «pouco
+original»
+
+1. O medo é tratado como se fosse uma pessoa
+(personificação). Dá um exemplo.
+
+**2. Porque é que a enumeração de coisas banais**
+torna o medo mais assustador?
+
+3. Relaciona o poema com o tempo em que foi es-
+crito. Porque é que o medo podia «ter tudo»?
+
+POEMA 2 · O'NEILL
 85
 
 <!-- page 86 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 2 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+P O E M A 2
+ESCRITA
+R E C R I A Ç Ã O E M P R O S A
+## Contar o poema por outras palavras
 
-## A construção do suspense
+Recriar um poema em prosa não é resumi-lo, nem explicá-lo: é contar, num pequeno texto,
+**o sentido do poema — como se fosse uma cena, uma carta ou um diário. O leitor deve reco‐**
+nhecer o poema sem que copies um único verso.
 
-**INTERPRETAÇÃO · PORQUE É QUE QUEREMOS CONTINUAR A LER?**
+**Uma cena**
 
-**EXERCÍCIOS 37**
-Numera as etapas pela ordem em que aparecem no texto:
+Uma rua de Lisboa em 1960. Des-
+creve o que as pessoas fazem, o
+que não dizem, de que
+desconfiam.
 
-( ) O rapaz ouve uma voz.
-( ) O rapaz chega a uma casa.
-( ) O rapaz introduz a chave.
-( ) O rapaz entra na casa.
-( ) O rapaz percebe que está alguém no interior.
+**Uma carta**
 
-Qual é o momento de maior suspense do excerto? Justifica.
+Alguém escreve a um amigo
+emigrado a contar como é viver
+com medo — com cuidado, por-
+que as cartas podem ser abertas.
 
-**COMO O AUTOR AUMENTA A TENSÃO**
-Observa a sequência: rua deserta → porta escura → chave → fechadura → penumbra → voz
+**Um diário**
 
-1. O ambiente torna-se progressivamente mais tranquilo ou mais tenso? Porquê?
+O próprio Medo escreve o seu
+diário: onde esteve hoje, a quem
+entrou em casa, o que conseguiu
+calar.
 
-2. Qual destes elementos contribui mais para o suspense?
-☐ a rua ☐ a chave ☐ o silêncio ☐ a voz
+## 1 Escolhe um formato e escreve a tua recriação (150 a 200 palavras). Usa pelo menos uma enumeração
+e uma personificação.
 
-**DICA DO LEITOR**
+**Revê**
+○ o sentido do poema está lá
+○ nenhum verso copiado
+○ uma enumeração
+○ uma personificação
 
-Num texto de suspense, o autor revela a informação pouco a pouco, fazendo o leitor esperar pelo que vai
-acontecer.
+○ 150–200 palavras
 
+POEMA 2 · ESCRITA
 86
 
 <!-- page 87 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 2 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+P O E M A 2
+GRAMÁTICA
+A D V É R B I O E L O C U Ç Ã O A D V E R B I A L · S U J E I T O E P R E D I C A D O
+## Como, quando, onde e quem
 
-## Gramática · Os tempos verbais
+**Advérbio**
 
-**GRAMÁTICA EM CONTEXTO**
+Palavra invariável que modifica um verbo, um adje-
+tivo ou outro advérbio.
 
-Observa as frases do texto:
+O medo entrou silenciosamente . · muito escuro ·
 
-«O rapaz avançou pela rua deserta·»
-«O plano parecia simples·»
-«Olhou para um lado e para o outro.»
-«Não havia ninguém.»
+bem depressa
 
-**RELEMBRA · OS DOIS TEMPOS**
+**Locução adverbial**
 
-**Pretérito perfeito**
-**Pretérito imperfeito**
-**Exemplos do texto**
+Grupo de palavras com o valor de um advérbio.
 
-Acção passada e concluída
-Estado, descrição ou acção em desenvolvimentoavançou / parecia, havia
+às escondidas · de repente · a pouco e pouco · de
+vez em quando
 
-**EXERCÍCIOS 38**
-1. Retira do texto dois verbos no pretérito perfeito.
+VALOR
+ADVÉRBIOS
+LOCUÇÕES ADVERBIAIS
 
-2. Retira dois verbos no pretérito imperfeito.
+modo
+assim, bem, mal, depressa, devagar, -
+mente
 
-3. Qual dos tempos apresenta acções concluídas? E qual é mais usado para descrever situações e estados?
+às escondidas, à pressa, de cor
 
-**APLICA · COMPLETA COM A FORMA CORRECTA**
+tempo
+hoje, ontem, já, sempre, nunca, cedo
+de vez em quando, à noite, de repente
 
-O rapaz ______ pela rua.
-(avançar)
+lugar
+aqui, ali, lá, perto, longe, dentro
+por aqui, ao longe, em cima
 
-A rua ______ deserta.
-(estar)
+negação · afirmação ·
+dúvida
 
-O plano ______ simples.
-(parecer)
+não, sim, talvez, certamente
+de modo nenhum, com certeza, se
+calhar
 
-O rapaz ______ a porta.
-(empurrar)
+O medo vai ter tudo.
 
-Não ______ ninguém.
-(haver)
+SUJEITO · DE QUEM SE FALA
+PREDICADO · O QUE SE DIZ DO SUJEITO (TEM O VERBO)
 
+**Para encontrar o sujeito, pergunta quem? ou o quê? antes do verbo: Quem vai ter tudo? — O medo. O sujeito pode**
+vir depois do verbo: Chegou o medo.
+
+## 1 Sublinha os advérbios e as locuções adverbiais e indica o valor: «De repente, as pessoas calaram-se.
+Falavam baixinho, às escondidas, e nunca diziam o que pensavam.»
+
+## 2 Separa o sujeito (S) do predicado (P): a) Os vizinhos desconfiavam uns dos outros. b) Nas paredes ha-
+via ouvidos. c) Entrou na sala um homem de chapéu.
+
+## 3 Acrescenta a cada frase um advérbio de modo e uma locução adverbial de tempo: a) O poeta escre-
+veu. b) As pessoas falavam. c) O vento passa.
+
+POEMA 2 · GRAMÁTICA
 87
 
 <!-- page 88 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 3 · E P O R V E Z E S
 
-Prime School Press · www.primeschool.pt
+P O E M A 3
+ED. LITERÁRIA
+ORALIDADE
 
-## Discurso directo e recursos expressivos
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+## E por vezes
 
-**GRAMÁTICA E LEITURA · AS PALAVRAS GANHAM VIDA**
+DAVID MOURÃO-FERREIRA (1927–1996)
 
-**A VOZ NO CORREDOR**
-No texto encontramos: «— Quem está aí? — perguntou uma voz súbita…» Esta fala está em discurso directo.
+**David Mourão-Ferreira, lisboeta, foi poeta, ficcio-**
+nista, professor universitário e secretário de Estado
 
-1. Quem fala? Que sinal de pontuação introduz a fala?
+da Cultura. Escreveu sobretudo sobre o amor e o
+tempo, com uma música muito própria.
 
-2. O que esta pergunta provoca no leitor?
+E por vezes as noites duram meses
 
-TRANSFORMA · passa para discurso indirecto:
+E por vezes os meses oceanos
 
-O velho perguntou: — Quem está aí?
-O velho perguntou
+David Mourão-Ferreira, «E por vezes», ver-
 
-**DICA**
+sos 1–2
 
-No discurso directo reproduzimos as palavras da personagem; no indirecto transmitimos o que a personagem
-disse.
+**Três coisas a observar**
 
-**«CHEIRANDO A LIVROS VELHOS E A TEMPO GUARDADO»**
-1. O «tempo» pode realmente ser guardado numa casa? (sim / não) O que significa esta expressão e que imagem
-cria?
+Anáfora — «E por vezes» abre quase todos os ver-
+sos. É o motor do poema: cria ritmo, insistência,
+quase uma respiração.
 
-2. Encontra outra expressão do texto que torne o ambiente mais misterioso.
+Hipérbole — «as noites duram meses», «os meses
+oceanos»: o tempo vivido por dentro (tempo psico-
+lógico) é maior do que o tempo do relógio.
 
-**«PRESOS AO CHÃO»**
-1. O rapaz está literalmente preso ao chão? O que significa? Identifica a palavra que introduz a comparação.
+Verso livre — os versos não têm todos a mesma
+medida; o ritmo nasce da repetição.
 
-2. Cria uma comparação para descrever uma pessoa muito assustada.
+**Tempo do relógio · tempo por dentro**
 
+Uma hora à espera de alguém
+
+Uma hora com os amigos
+
+Uma noite sem dormir
+
+Diz quanto tempo «parece» durar cada uma. É deste
+
+tempo que o poema fala.
+
+**ENQUANTO LÊS E OUVES**
+
+1. Quantas vezes se repete «E por vezes»? O que
+muda nos versos que se seguem a cada
+repetição?
+
+2. O que significa, para ti, que «as noites duram
+meses»? Em que situações o tempo parece
+mais longo?
+
+3. O poema fala de coisas que se perdem e de
+coisas que se encontram. Dá um exemplo de
+cada.
+
+4. O último verso é diferente dos outros? Que
+efeito tem no leitor?
+
+✎Escreve três versos teus que comecem
+
+por «E por vezes». Lê-os em voz alta, com
+pausas.
+ORALIDADE
+
+POEMA 3 · E POR VEZES
 88
 
 <!-- page 89 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 4 · T R O V A D O V E N T O Q U E P A S S A
 
-Prime School Press · www.primeschool.pt
+P O E M A 4
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê E O U V E O P O E M A C O M P L E T O
+## Trova do vento que passa
 
-## O narrador e a interpretação
+MANUEL ALEGRE · PRAÇA DA CANÇÃO (1965)
 
-**ANÁLISE · QUEM CONTA E O QUE SIGNIFICA**
+**Manuel Alegre (n. 1936), poeta e político, escreveu**
 
-**QUEM CONTA?**
-O narrador descreve o que o rapaz faz, aquilo que vê, sente e pensa.
+este poema em 1963, no tempo da ditadura; pouco
+depois partiria para o exílio. Musicado por António
+Portugal e cantado por Adriano Correia de Oliveira,
+tornou-se um hino de resistência e de liberdade.
 
-1. O narrador participa directamente na história? (sim / não)
+Pergunto ao vento que passa
 
-2. Como sabemos que conhece os pensamentos do rapaz?
+notícias do meu país
 
-3. O narrador ajuda a criar suspense? (sim / não) Explica.
+e o vento cala a desgraça
 
-**PENSA MAIS FUNDO 39**
-1. «O plano parecia simples na sua cabeça, mas agora tudo parecia mais difícil.» Porque é que a situação muda
-quando o rapaz chega à casa?
+o vento nada me diz.
 
-2. O que existe entre aquilo que o rapaz esperava encontrar e aquilo que realmente encontra?
+Manuel Alegre, «Trova do vento que
 
-3. Porque é importante o texto referir que «não havia ninguém» antes de aparecer a voz?
+passa», 1.ª estrofe
 
-4. A voz do velho é ameaçadora? (sim / não) Justifica com o texto.
+**UMA TROVA**
 
-**O MOMENTO DE MAIOR TENSÃO**
-Qual consideras ser o momento de maior tensão?
-A. Quando chega à casa. B. Quando introduz a chave. C. Quando ouve a voz. D. Quando fica imóvel.
+Trova é uma composição ao gosto popular, feita
 
-Escolhi:
-Justificação:
+**para ser cantada: quadras em redondilha maior,**
+com rima e muitas repetições.
 
+1933 Começa o Estado Novo: censura e polícia
+
+política.
+
+1963 Manuel Alegre escreve a «Trova»; é musi-
+
+cada por António Portugal.
+
+1964 Alegre parte para o exílio, em Argel.
+
+1974 25 de Abril: a Revolução dos Cravos devolve
+
+a liberdade.
+
+✎Ouve a canção. A música torna o poema
+
+mais triste, mais forte, mais esperançoso?
+
+ORALIDADE
+
+**OFICINA**
+
+1. Faz a escansão do 3.º e do 4.º versos da estrofe ci-
+tada. Confirma que são redondilhas maiores.
+
+2. Qual é o esquema rimático da quadra? Como se
+chama este tipo de rima?
+
+3. O sujeito poético pergunta ao vento e, noutras es-
+trofes, aos rios. Que figura de estilo é dirigir-se a
+quem não pode responder?
+
+4. Porque é que o vento «cala a desgraça»? O que
+nos diz isto sobre o país daquele tempo?
+
+5. O poema termina com esperança ou com desâ-
+nimo? Justifica com versos do poema completo.
+
+POEMA 4 · TROVA DO VENTO QUE PASSA
 89
 
 <!-- page 90 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 5 · A N A H A T H E R L Y
 
-Prime School Press · www.primeschool.pt
+P O E M A 5
+ED. LITERÁRIA
+ESCRITA
+P O E S I A E X P E R I M E N T A L
+## Quando o poema se vê
 
-## Oficina de escrita · continua o suspense
+ANA HATHERLY (1929–2015) · TISANAS E POESIA VISUAL
 
-**ESCRITA · 180 A 220 PALAVRAS**
+**Ana Hatherly foi poeta, artista plástica, cineasta e**
+professora universitária. Nos anos 60, fez parte do
+**grupo da Poesia Experimental portuguesa, que quis**
+libertar o poema das regras: o poema podia ser de-
+senho, colagem, letra espalhada pela página.
 
-**EXERCÍCIOS 40**
-O excerto termina com o rapaz imóvel no corredor. Continua a história. Escreve 180 a 220 palavras, incluindo:
-☐ o que o rapaz vê ☐ quem é o velho ☐ duas falas em discurso directo
-☐ uma descrição do espaço ☐ um momento de tensão ☐ um desfecho
+**AS TISANAS**
 
-**PLANO**
+**São pequenos poemas em prosa, numerados, que**
+Hatherly foi escrevendo ao longo de décadas: histó-
 
-1. O rapaz·
+rias absurdas, paradoxos, jogos com a lógica e com
+as palavras. Não têm verso nem rima — e, no entanto,
+são poesia. Porquê? Pela concentração, pela sur-
+presa, pela imagem.
 
-2. O velho·
+**A POESIA VISUAL**
 
-3. De repente·
+**Nos poemas visuais, a forma faz parte do sentido: as**
+letras desenham, caem, sobem, apagam-se. O leitor lê
+e vê ao mesmo tempo.
 
-4. Finalmente·
+c
+a
+i
+r
 
-**RASCUNHO**
+o mar o mar o mar o mar
+o mar o mar o mar o mar
+o mar o mar o farol o mar
 
+Dois exemplos criados para esta unidade.
+
+**NA ANTOLOGIA**
+
+1. Lê duas Tisanas. O que te surpreendeu em
+cada uma?
+
+2. Porque podemos chamar «poema» a um texto
+sem versos?
+
+3. Observa um poema visual de Hatherly. O que
+vês antes de ler? E depois?
+
+✎Cria um poema visual com uma só pala-
+
+vra ou uma frase curta (por exemplo:
+chuva, voar, medo, sonho). A forma deve
+ajudar o sentido.
+
+POEMA 5 · ANA HATHERLY
 90
 
 <!-- page 91 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 6 · S Í S I F O
 
-Prime School Press · www.primeschool.pt
+P O E M A 6
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê O P O E M A C O M P L E T O N A A N T O L O G I A
+Sísifo
 
-## Escrever com os cinco sentidos
+MIGUEL TORGA · DIÁRIO XIII (1983)
 
-**ESCRITA · UMA CASA MISTERIOSA**
+**Miguel Torga (1907–1995), pseudónimo de Adolfo**
+Correia da Rocha, médico e escritor transmontano,
 
-**EXERCÍCIOS 41**
-Escreve um pequeno parágrafo sobre uma casa misteriosa. Tens de utilizar: uma sensação visual, uma auditiva, uma
-olfativa e uma táctil.
-Exemplo de início: «A porta abriu-se lentamente. Lá dentro…»
+escreveu um Diário em dezasseis volumes, com
+prosa e poemas.
 
-**DESAFIO DE ESCRITA · CENA DE SUSPENSE 42**
-Imagina: é noite. Estás sozinho numa casa antiga. Ouves um ruído vindo do andar de cima. Escreve 200 a 250
-palavras com:
+**O MITO**
 
-⭐ descrição do espaço ⭐ pensamentos da personagem ⭐ 3 verbos no imperfeito
-⭐ 5 verbos no pretérito perfeito ⭐ um diálogo ⭐ uma comparação
-⭐ um momento de suspense ⭐ um final surpreendente
+**Na mitologia grega, Sísifo foi condenado pelos deu-**
+ses a empurrar uma enorme pedra até ao cimo de
+um monte. Sempre que lá chegava, a pedra rolava de
+novo para baixo — e ele tinha de recomeçar. Para
+sempre.
 
+Recomeça…
+
+Se puderes,
+
+Sem angústia
+
+E sem pressa.
+
+Miguel Torga, «Sísifo», versos 1–4
+
+**ENQUANTO LÊS**
+
+**1. O poema começa com um verbo no imperativo.**
+A quem se dirige o sujeito poético? (A si pró-
+prio? Ao leitor? A todos?)
+
+2. Os versos são muito curtos. Que efeito tem
+esse ritmo?
+
+3. Para Torga, recomeçar é um castigo ou uma
+forma de liberdade? Justifica.
+
+4. Relaciona o título com o conselho do poema.
+
+5. Dá um exemplo da tua vida em que tiveste de
+recomeçar.
+
+POEMA 6 · SÍSIFO
 91
 
 <!-- page 92 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 7 · T E J O Q U E L E V A S A S Á G U A S
 
-Prime School Press · www.primeschool.pt
+P O E M A 7
+ED. LITERÁRIA
+G U I A D E L E I T U R A · L Ê E O U V E O P O E M A C O M P L E T O
+## Tejo que levas as águas
 
-## Relembra e passaporte literário
+MANUEL DA FONSECA · POEMAS PARA ADRIANO (1972)
 
-**REVISÃO · O QUE APRENDI**
+**Já conheces Manuel da Fonseca do conto «Mestre**
+Finezas» (Unidade 2). Também foi poeta. Este po-
 
-TEXTO NARRATIVO – apresenta acontecimentos com personagens, num tempo e espaço.
-SUSPENSE – criado pela expectativa, incerteza e informação revelada gradualmente.
-CARACTERIZAÇÃO – conhecemos a personagem pelas acções, palavras, pensamentos e reacções.
-ESPAÇO – contribui para criar a atmosfera do texto.
-DISCURSO DIRECTO – reproduz as palavras das personagens.
-PRETÉRITO PERFEITO – acções concluídas. PRETÉRITO IMPERFEITO – estados e descrições.
+ema foi cantado por Adriano Correia de Oliveira.
 
-**PASSAPORTE LITERÁRIO · JOSÉ EDUARDO AGUALUSA**
+Tejo que levas as águas
 
-**«O Assalto»**
-**O teu registo**
+correndo de par em par
 
-Personagem principal
+lava a cidade de mágoas
 
-Espaço / ambiente
+leva as mágoas para o mar
 
-Conflito
+Manuel da Fonseca, «Tejo que levas as
 
-Momento de maior suspense
+águas», 1.ª estrofe
 
-Recurso expressivo de que me lembro
+**A observar**
 
-A minha opinião — gostei do texto?
-☐ Muito ☐ Bastante ☐ Mais ou menos ☐ Pouco
+Apóstrofe — o sujeito poético fala diretamente
+com o rio: «Tejo que levas…».
 
-Porquê?
+Personificação — o rio pode «lavar» e «levar»: é
+como alguém a quem se pede ajuda.
 
+Redondilha maior e rima cruzada — o poema
+pede para ser cantado.
+
+**OFICINA**
+
+1. Faz a escansão dos versos 1 e 4 da estrofe citada.
+
+2. Esquema rimático da estrofe:
+
+3. Que «mágoas» da cidade pede o poeta ao rio que
+leve? Procura-as nas estrofes seguintes.
+
+4. Compara com a «Trova do vento que passa»: o
+que têm em comum o vento e o rio nos dois
+poemas?
+
+5. Escreve uma quadra tua em redondilha maior em
+que peças ao rio da tua terra que leve alguma
+coisa.
+
+POEMA 7 · TEJO QUE LEVAS AS ÁGUAS
 92
 
 <!-- page 93 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 8 · S E R P O E T A
 
-Prime School Press · www.primeschool.pt
+P O E M A 8
+LEITURA
+ORALIDADE
+P O E M A I N T E G R A L
+## Ser Poeta
 
-## Relembra – o que aprendi
+FLORBELA ESPANCA · CHARNECA EM FLOR (1931)
 
-**REVISÃO DA UNIDADE 2**
+Florbela Espanca, «Ser Poeta», Charneca em Flor (1931). Domínio público.
 
-**TEXTO NARRATIVO**
-Um texto narrativo apresenta: PERSONAGENS + ACÇÃO + ESPAÇO + TEMPO + NARRADOR.
+**Ouve o soneto**
+(Wikimedia Com-
+mons, leitura de
+Daniel Barbosa,
+com pronúncia
+do Brasil) e re-
+para onde a voz
+para: no fim do
+verso ou a meio?
 
-**APRENDI A...**
-☑ identificar personagens e o seu perfil
-☑ identificar o espaço e o tempo
-☑ reconhecer a estrutura narrativa (situação inicial → desenvolvimento → clímax → desfecho)
-☑ distinguir informação explícita de implícita e fazer inferências
-☑ utilizar o pretérito perfeito e o pretérito imperfeito
-☑ construir uma descrição e escrever diálogos
-☑ utilizar conectores e justificar as minhas respostas
+**Florbela Espanca (1894–1930), alente-**
+jana de Vila Viçosa, é uma das gran-
+des vozes da poesia portuguesa. Es-
+creveu sobretudo sonetos, com uma
+intensidade rara: o amor, a dor, o de-
+sejo de absoluto.
 
-**A VIAGEM COMO SÍMBOLO**
-crescimento · descoberta · coragem · conhecimento · transformação
+A N A T O M I A D E U M S O N E T O
 
-Uma frase para levar contigo: as grandes viagens não mudam apenas o lugar onde estamos. Podem
-mudar a forma como vemos o mundo.
+**14 versos**
 
+2 quadras + 2 tercetos
+**Decassílabos**
+
+10 sílabas métricas
+**Esquema**
+
+ABBA ABBA CDC EDE
+
+**Chave de ouro**
+
+o último verso fecha a
+
+ideia com força
+
+✎Lê o soneto em voz alta duas vezes, a primeira depressa, a segunda devagar, com pausas nas vírgulas
+
+e nas reticências. Qual das leituras respeita melhor o poema? Porquê?
+ORALIDADE
+
+Ser Poeta é ser mais alto, é ser maior
+1
+
+Do que os homens! Morder como quem beija!
+
+É ser mendigo e dar como quem seja
+
+Rei do Reino de Aquém e de Além Dor!
+
+É ter de mil desejos o esplendor
+5
+
+E não saber sequer que se deseja!
+
+É ter cá dentro um astro que flameja,
+
+É ter garras e asas de condor!
+
+É ter fome, é ter sede de Infinito!
+
+Por elmo, as manhãs de oiro e de cetim…
+10
+
+É condensar o mundo num só grito!
+
+E é amar-te, assim, perdidamente…
+
+É seres alma e sangue e vida em mim
+
+E dizê-lo cantando a toda gente!
+
+POEMA 8 · SER POETA
 93
 
 <!-- page 94 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P O E M A 9 · F A N A T I S M O
 
-Prime School Press · www.primeschool.pt
+P O E M A 9
+LEITURA
+P O E M A I N T E G R A L · C O M P A R A R
 
-**AUTOAVALIAÇÃO**
+Fanatismo
 
-Classifica o teu desempenho em cada competência.
+FLORBELA ESPANCA · LIVRO DE SÓROR SAUDADE
+(1923)
 
-**Consigo...**
-**Ainda não**
-**Com ajuda**
-**Sozinho**
+**Ouve outro soneto de Florbela,**
+**«Amar!» (Wikimedia Commons).**
+Que palavras e sentimentos tem
+em comum com «Fanatismo»?
 
-Identificar a personagem principal
+Florbela Espanca, «Fanatismo», Livro de Sóror Saudade (1923). Domínio público.
 
-Identificar o espaço e o tempo
+**OS DOIS SONETOS**
 
-Explicar a estrutura da narrativa
+1. Confirma que «Fanatismo» é um soneto: número
+de versos, tipo de estrofes, esquema rimático.
 
-Fazer uma inferência
+2. Faz a escansão do verso 2: Meus olhos andam ce-
+gos de te ver.
 
-Justificar uma resposta
+3. Em «Ser Poeta», «É ser…», «É ter…» repetem-se no
+início dos versos. Como se chama este recurso?
 
-Utilizar correctamente os tempos verbais
+4. «Meus olhos andam cegos de te ver» parece uma
+**contradição. Explica o sentido deste paradoxo.**
 
-Escrever uma descrição
+5. Os dois sonetos terminam com uma declaração
+de amor. Qual das «chaves de ouro» te parece
+mais forte? Porquê?
 
-Construir um diálogo
+6. O que é, para Florbela, «ser poeta»? Escolhe dois
+versos que o mostrem.
 
-Organizar uma narrativa
+7. Qual dos dois sonetos preferes ler em voz alta?
+Porquê?
 
-**O MEU PRÓXIMO OBJECTIVO**
-Na próxima unidade quero melhorar...
+Minh'alma, de sonhar-te, anda perdida.
+1
 
-Escreve uma carta de 6-8 linhas ao cavaleiro da Dinamarca: conta-lhe uma viagem tua (real ou imaginada)
-e pergunta-lhe o que ele aprendeu com a dele. Usa pelo menos dois tempos verbais diferentes.
+Meus olhos andam cegos de te ver.
 
-## Balanço da unidade · missão cumprida?
+Não és sequer razão do meu viver
 
+Pois que tu és já toda a minha vida!
+
+Não vejo nada assim enlouquecida…
+5
+
+Passo no mundo, meu Amor, a ler
+
+No misterioso livro do teu ser
+
+A mesma história tantas vezes lida!…
+
+«Tudo no mundo é frágil, tudo passa…»
+
+Quando me dizem isto, toda a graça
+10
+
+Duma boca divina fala em mim!
+
+E, olhos postos em ti, digo de rastros:
+
+«Ah! podem voar mundos, morrer astros,
+
+Que tu és como Deus: princípio e fim!…»
+
+POEMA 9 · FANATISMO
 94
 
 <!-- page 95 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+R E C U R S O S E X P R E S S I V O S
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 3
+ED. LITERÁRIA
+R E F E R Ê N C I A
+## O guia dos recursos
 
-## O passaporte do leitor
+Os recursos expressivos são as ferramentas do poeta. Reconhecê-los é o primeiro passo; o
+**segundo — o mais importante — é explicar o efeito que produzem.**
 
-**DESAFIO FINAL · REGISTO DE LEITURA**
+**Fórmula para o comentário «No verso __, o poeta recorre a (recurso) — (citação) — para (efeito: su-**
 
-Completa o teu primeiro registo de leitura.
+blinhar, intensificar, sugerir, contrastar…).»
 
-**Campo**
-**O teu registo**
+**Anáfora**
 
-Autor
-Sophia de Mello Breyner Andresen
+Repetição de palavras no início de
+versos ou frases.
 
-Obra
-O Cavaleiro da Dinamarca
+«E por vezes… / E por vezes…»
 
-País
-Portugal
+(Mourão-Ferreira)
 
-Género
-Narrativa
+**Enumeração**
 
-Tema principal
+Sequência de elementos da mesma
+natureza.
 
-Personagem que mais me marcou
+«pernas / ambulâncias / e o
 
-O que aprendi com esta história
+luxo blindado» (O'Neill)
 
-A minha palavra favorita do texto:
-A minha classificação:
+**Metáfora**
 
-**★**
-**★**
-**★**
-**★**
-**★**
+Comparação implícita, sem «como».
 
-**UMA FRASE PARA LEVAR CONTIGO**
+«o sonho comanda a vida»
 
-As grandes viagens não mudam apenas o lugar onde estamos. Podem mudar a forma como vemos o
-mundo.
+(Gedeão)
 
+**Comparação**
+
+Aproximação de duas realidades
+com «como», «tal como»…
+
+«tu és como Deus: princípio e
+
+fim» (Florbela)
+
+**Personificação**
+
+Dar qualidades humanas a seres
+não humanos.
+
+«o vento cala a desgraça»
+
+(Alegre)
+
+**Apóstrofe**
+
+Chamamento ou interpelação de al-
+guém ou de algo.
+
+«Tejo que levas as águas»
+
+(Fonseca)
+
+**Hipérbole**
+
+Exagero intencional.
+
+«os meses oceanos» (Mourão-
+
+Ferreira)
+
+**Antítese**
+
+Aproximação de ideias opostas.
+
+«Morder como quem beija»
+
+(Florbela)
+
+**Paradoxo**
+
+Ideias que parecem contraditórias
+mas fazem sentido.
+
+«Meus olhos andam cegos de te
+
+ver» (Florbela)
+
+**Pleonasmo**
+
+Repetição de uma ideia para a
+reforçar.
+
+«Vi com os meus próprios
+olhos»
+
+**Aliteração**
+
+Repetição de sons consonânticos.
+
+«Rei do Reino de Aquém e de
+
+Além Dor» (Florbela)
+
+**Imperativo**
+
+Forma verbal de ordem, pedido ou
+conselho.
+
+«Recomeça…» (Torga)
+
+RECURSOS EXPRESSIVOS
 95
 
 <!-- page 96 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+E S C R I T A · C O M E N T Á R I O
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 3
+ESCRITA
+C O M E N T Á R I O A U M P O E M A
+## Comentar um poema
 
-## Ficha de revisão – Unidade 2
+**Um comentário de poema responde a duas perguntas: de que fala o poema (tema) e como o**
+**diz (recursos, forma, ritmo). Tudo com provas — versos citados entre aspas.**
 
-**TESTE-TREINO · COMO UM TESTE**
+E S T R U T U R A E M Q U A T R O P A R Á G R A F O S
 
-Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos. No fim, consulta as soluções
-nos Recursos.
+**1**
+**Apresentação**
+Título, autor, e o tema numa frase. «Em "Sísifo", Miguel Torga reflete sobre a ne-
+cessidade de recomeçar.»
 
-**GRUPO I · LEITURA 11**
-1. Quem é a personagem principal e qual é o seu objectivo? 2. Identifica dois espaços e uma indicação
-temporal do texto. 3. Qual é o acontecimento que desencadeia a viagem?
+**2**
+**O tema desenvolvido**
+Como evolui o poema, estrofe a estrofe. Quem fala? A quem?
 
-**GRUPO II · GRAMÁTICA 12**
-1. Classifica os verbos: «O cavaleiro caminhava devagar.» / «Encontrou um viajante.» 2. Completa: «A
-noite ______ (estar) fria e ele ______ (seguir) viagem.»
+**3**
+**Um recurso e o seu**
+**efeito**
 
-**GRUPO III · VOCABULÁRIO 13**
-1. Relaciona: peregrino · jornada · destino · travessia. 2. Escreve um sinónimo de: corajoso · caminho ·
-difícil.
+**Identifica, cita, explica o efeito (usa a fórmula da p. 95). Se possível, também a**
 
-**GRUPO IV · ESCRITA 14**
-Escreve um parágrafo (60-80 palavras) em que descrevas o momento em que o cavaleiro decide partir.
-Usa dois verbos no imperfeito e dois no perfeito.
+forma: estrofes, métrica, rima.
 
+**4**
+**Apreciação**
+O que o poema te fez pensar ou sentir, e porquê. Pode ser atual?
+
+E X E M P L O D E P A R Á G R A F O 3
+
+Logo no primeiro verso, o poeta usa o imperativo — «Recomeça…» — como se desse um conselho ao
+
+leitor e a si próprio. As reticências prolongam a palavra e sugerem que recomeçar é um gesto que se
+
+repete, tal como o de Sísifo.
+
+## 1 Escolhe um dos nove poemas e escreve um comentário (180 a 230 palavras) com o tema e, pelo me-
+nos, um recurso expressivo explicado.
+
+ESCRITA · COMENTÁRIO
 96
 
 <!-- page 97 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+G R A M Á T I C A D O V E R S O
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 3
+GRAMÁTICA
+C L A S S E S D E P A L A V R A S N O V E R S O · P O N T U A Ç Ã O E R I T M O
+## As palavras que o verso escolhe
 
-## O Último Grimm · um segredo na família
+**Num poema, cada palavra conta. Observar as classes de palavras ajuda a perceber o estilo:**
+um poema cheio de verbos tem movimento; um poema cheio de nomes e adjetivos é mais
+descritivo, mais parado.
 
-**Álvaro Magalhães**
+Tejo
+que
+levas
+as
+águas
 
-**PERGUNTA DE PARTIDA**
+NOME
+PRONOME RELATIVO
+VERBO
+DETERMINANTE
+ADJETIVO
+ADVÉRBIO
 
-O que te sugere a palavra «último»? E quem será o «Grimm» do título? Observa o título «O Último Grimm» e
-responde: o que esperas encontrar numa história com este título?
+## 1 Classifica as palavras do verso de Florbela: «É ter cá dentro um astro que flameja».
 
-**NESTA HISTÓRIA VAIS APRENDER A**
-compreender um texto narrativo com elementos fantásticos;
-distinguir informação explícita de informação implícita;
-caracterizar personagens pelas suas falas e acções;
-reconhecer o real e o fantástico numa narrativa;
-analisar o espaço e o ambiente de mistério;
-estudar classes de palavras e o discurso directo;
-escrever diálogos e narrativas de suspense.
+## 2 Em «Ser Poeta», predominam os verbos no infinitivo (ser, morder, dar, ter…). Que efeito tem essa
+escolha?
 
-**IMAGINA...**
+**Pontuação e ritmo**
 
-William descobre que a sua família guarda um segredo relacionado com duendes, fadas e outras criaturas.
-Acreditarias que a história é verdadeira? Explica a tua resposta.
+## . ! ?
 
-O jardim onde, dizem, passavam as criaturas.
+pausa longa; entoação de
 
+afirmação, emoção ou
+
+pergunta
+
+## , ;
+
+pausa breve; separa ele-
+
+mentos de uma
+
+enumeração
+
+## …
+
+suspensão; algo fica por
+
+dizer, prolonga-se
+
+## sem
+## pontuação
+
+o leitor decide as pausas;
+
+o ritmo nasce do verso
+
+(O'Neill, Alegre)
+
+## 3 Lê em voz alta a primeira quadra de «Fanatismo» duas vezes: primeiro, parando no fim de cada verso;
+depois, respeitando só a pontuação. Qual das leituras preferes? Porquê?
+
+## 4 Pontua a estrofe citada de «Tejo que levas as águas» como achares que deve ser lida e justifica uma
+das tuas escolhas.
+
+GRAMÁTICA DO VERSO
 97
 
 <!-- page 98 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+S A R A U D E P O E S I A
 
-Prime School Press · www.primeschool.pt
+P R O J E T O
+ORALIDADE
+E M G R U P O · 2 S E M A N A S
+## Sarau no farol
 
-## Conhece o autor · Álvaro Magalhães
+**A turma organiza um sarau de poesia — uma noite (ou uma aula) em que os poemas são di‐**
+tos, cantados e mostrados. Cada grupo prepara um momento de 4 a 6 minutos.
 
-**LITERATURA · O AUTOR**
+01
 
-Álvaro Magalhães nasceu no Porto, em 1951, e é um dos mais originais escritores portugueses para jovens. Foi
-professor, desenhador e publicitário antes de dedicar-se por inteiro à literatura.
+**Escolher**
 
-**A SUA ESCRITA**
-Escreveu mais de quarenta livros, entre os quais a trilogia O Último Grimm (O Primeiro Antes do Primeiro, O
-Segundo Antes do Segundo, O Terceiro Antes do Terceiro). Mistura o quotidiano com o fantástico, o humor com
-o mistério, e os seus protagonistas são quase sempre adolescentes curiosos.
+02
 
-**SABIAS QUE...**
+**Apresentar**
 
-Os irmãos Grimm, Jacob e Wilhelm, foram dois alemães que recolheram histórias tradicionais como «Hansel e
-Gretel» e «Branca de Neve». Nesta obra, a família de William, os Zimmer, tem uma ligação surpreendente a eles.
+03
 
-**ANTES DE LER · O TÍTULO**
-1. O que te sugere a palavra «último» no título?
+**Dizer**
 
-2. Quem imaginas que seja o «Grimm» referido no título?
+04
 
-3. O que esperas encontrar numa história com este título?
+**Transformar**
 
-4. Que histórias de duendes, fadas e criaturas mágicas conheces?
+05
 
-O segredo dos Zimmer: um antigo tratado.
+**Explicar**
 
+**Para dizer bem**
+olha o público
+respeita a pontuação
+não corras
+
+faz pausas antes das palavras importantes
+varia o volume
+
+CRITÉRIO
+EM CONSTRUÇÃO
+CONSOLIDADO
+EXCELENTE
+
+**Dizer o poema**
+leitura hesitante
+de cor, ritmo adequado
+expressivo, pausas intencionais, contacto
+visual
+
+**Conheci-**
+**mento**
+
+informação vaga
+poeta e contexto
+corretos
+
+ligação clara entre contexto e poema
+
+**Análise**
+recurso identificado
+recurso e efeito
+efeito relacionado com o tema
+
+**Criatividade**
+transformação
+simples
+
+transformação cuidada
+transformação original que ilumina o poema
+
+**Grupo**
+participação desigual
+todos participam
+momento coeso e bem ensaiado
+
+MOMENTO
+QUEM
+O QUÊ
+TEMPO
+
+Apresentar
+
+Dizer
+
+Transformar
+
+Explicar
+
+SEMANA 1 · DIA 1
+Escolher poemas e dis-
+
+tribuir tarefas
+
+SEMANA 1 · DIA 3
+Guião do momento
+
+entregue
+
+SEMANA 2 · DIA 2
+Ensaio geral, com
+
+cronómetro
+
+SEMANA 2 · DIA 4
+Sarau: turma, famílias,
+
+convidados
+
+**Depois do sarau Qual foi o momento de outro grupo que mais te tocou? Porquê?**
+
+Um dos nove poe-
+mas e um poema
+de um poeta à
+vossa escolha.
+
+30 segundos sobre
+o poeta e o tempo
+em que escreveu.
+
+O poema dito de
+cor, com pausas,
+volume e intenção.
+
+Um poema visual,
+uma quadra vossa,
+ou a canção.
+
+Um recurso expres-
+sivo e o seu efeito,
+em 1 minuto.
+
+SARAU DE POESIA
 98
 
 <!-- page 99 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A L A N Ç O
 
-Prime School Press · www.primeschool.pt
+B A L A N Ç O
+U N I D A D E 3
+## Dez perguntas em verso
 
-## Vamos ler · O Último Grimm
+CONSIGO…
+AINDA NÃO
+QUASE
+SIM!
 
-**TEXTO LITERÁRIO · ÁLVARO MAGALHÃES · ADAPTADO · O PRIMEIRO ANTES DO PRIMEIRO**
+identificar estrofes e desenhar o esquema rimático
 
-O tio Nathan pousou um braço nos ombros do sobrinho e veio a caminhar ao lado dele até ao alpendre.
+contar sílabas métricas e reconhecer a redondilha
 
-— Dizem que sim, que eu dizia que via os duendes a passarem aqui, neste jardim, em noites como esta. Mas não
-me lembro. Há tantas coisas de que não me lembro...
+reconhecer um soneto e o decassílabo
 
-— Que idade tinha o tio quando lhe aconteceu isso?
+identificar recursos expressivos e explicar o efeito
 
-— Talvez a tua idade.
+distinguir o que o poema diz do que deixa entender
 
-— Catorze?
+escrever um comentário a um poema
 
-— Sim. Catorze.
+reconhecer completivas, advérbios, sujeito e predicado
 
-— Hum!
+dizer um poema em voz alta, com expressividade
 
-Era a idade, sabia William, em que as coisas começavam a acontecer.
+✎Que verso desta unidade gostavas de guardar de cor? Porquê?
 
-— Desde então, estive quase sempre doente — continuou o tio.
+Uma estrofe de quatro versos chama-se
+**1**
+O esquema ABAB corresponde à rima
+**2**
 
-— Foi quando começou a ter os problemas na coluna?
+Um verso de sete sílabas métricas é uma
+**3**
+«Pergunto ao vento que passa» tem
+sílabas métricas.
 
-— Como é que sabes?
+**4**
 
-— Não sabia. Se soubesse, não tinha perguntado. Estava a pensar se o tio não teria sido um daqueles Zimmer
-que veem as criaturas...
+O soneto tem 14 versos: duas
 
-— Que história é essa? Também não me lembro.
+e dois
 
-— É outra história da família, como a do diamante escondido debaixo de uma pedra azul.
+**5**
+«E por vezes… / E por vezes…» — recurso:
+**6**
 
-— Essa conheço e acredito nela; a outra, nunca ninguém ma contou.
+«o vento cala a desgraça» — recurso:
+**7**
+Em «Eles não sabem que o sonho comanda a vida»,
+a oração «que o sonho comanda a vida» é subordi-
+nada
 
-— Conto-lha eu. Quer?
+**8**
 
-— Se quero!
+«De repente» é uma
+**9**
+«Entrar para dentro» é um pleonasmo
 
-— Então ouça, tio. Acho que começou por causa da dedicatória que o Wilhelm Grimm fez ao Primeiro: «Para o
-meu tio Carl, que me abriu as portas de um novo mundo». A partir daí nasceu a lenda de que os Zimmer, e os
-irmãos Grimm, que eram descendentes de um ramo dos Zimmer, viam os duendes e as fadas e podiam visitar o
-seu mundo e regressar e espalhar as histórias deles pela Terra.
+expressivo · vicioso
 
-**ENQUANTO LÊS**
+**10**
 
-Repara nas perguntas de William: cada uma abre uma porta nova na conversa. É assim que o mistério cresce.
-
+BALANÇO
 99
 
 <!-- page 100 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+G L O S S Á R I O · S O L U Ç Õ E S
 
-Prime School Press · www.primeschool.pt
+**Glossário**
 
-## Vamos ler · O Último Grimm (continuação)
+**Chave de ouro**
+Último verso de um soneto, que fecha a ideia com
+força.
 
-**TEXTO LITERÁRIO · ÁLVARO MAGALHÃES · ADAPTADO**
+**Decassílabo**
+Verso de dez sílabas métricas.
 
-— É uma bela história. E, vendo bem, foi isso que fizeram os dois Grimm — disse o tio, a recostar-se melhor numa
-espreguiçadeira. Estava a gostar daquilo. Ao tempo que não lhe contavam histórias. Mesmo assim, estava a suar e
-um pouco congestionado. E também respirava com dificuldade.
+**Elisão**
+Junção, numa só sílaba métrica, de uma vogal final
+com a vogal inicial seguinte.
 
-— Está bem, tio? — perguntou William, a abanar o ar diante da sua cara afogueada.
+**Escansão**
+Divisão de um verso em sílabas métricas.
 
-— Estou. Só um pouco cansado. Acho que me vou deitar. Mas antes queria mostrar-te uma coisa de que acabo de
-me lembrar. Acendeste uma luz na minha cabeça, rapaz.
+**Esquema rimático**
+Representação, com letras, da disposição das rimas.
 
-Entraram na casa, subiram as escadas e passaram à ala dos quartos fechados. Se não estivesse acompanhado, e
-na pista de um novo segredo, William não ousaria estar ali àquela hora da noite.
+**Poema em prosa**
+Texto poético sem divisão em versos.
 
-O tio Nathan abriu a porta de um dos quartos vazios, o maior, que estava atravancado de mobílias velhas e
-objectos caídos em desuso.
+**Poesia visual**
+Poesia em que a forma gráfica faz parte do sentido.
 
-— Era aqui que dormia o velho Zimmer, o que construiu esta casa — disse ele, a arrastar uma cómoda que estava
-a impedir a passagem.
+**Redondilha maior / menor**
+Verso de sete / de cinco sílabas métricas.
 
-William ajudou-o. Afastaram umas caixas cheias de jornais velhos e chegaram ao canto do quarto. Aí, havia uma
-cavidade, ao nível do chão, que estava dissimulada na parede de madeira e funcionava como um pequeno cofre.
+**Soneto**
+Poema de catorze versos: duas quadras e dois
+tercetos.
 
-O tio Nathan abriu-a sem dificuldade e retirou de lá um rolo de papel duro e amarelecido que estava amarrado com
-uma fita lilás.
+**Sujeito poético**
+A voz que fala no poema (não é, necessariamente, o
+autor).
 
-— Cá está — disse ele. — É um Tratado entre o velho Zimmer e as criaturas.
+**Verso livre**
+Verso sem medida fixa.
 
-— As criaturas?
+**Verso solto**
+Verso que não rima com nenhum outro.
 
-— Duendes, gnomos, fadas, isso. Eles existem mesmo, Willy. E a história que me contaste, fica a saber, é uma
-história verdadeira.
+**Hiato**
+Separação, em duas sílabas métricas, de vogais
+seguidas.
 
-Nathan Zimmer sentou-se numa cadeira velha e abriu o rolo de papel, com muito cuidado. Mesmo assim, o papel,
-demasiado duro e seco, estalou e partiu aqui e ali.
+**Trova**
+Composição de gosto popular, feita para ser cantada.
 
-William aproximou-se e os olhos dele percorreram o documento, que estava escrito à mão, com uma letra incerta
-numa língua estranha e impenetrável. Só reconheceu algumas letras do nosso alfabeto, ou algo que se
-assemelhasse.
+**Soluções**
 
+**p. 81 · Aquecimento. 1. Quadra 1: ABAB (cruzada) · quadra 2: ABAB (cru-**
+zada) · quadra 3: ABBA (interpolada). Nenhuma é emparelhada. 2. Ó /
+ve / lho / Ci / ne / ma_Au / ro(ra) = 7 · que_a / pos / sa_um / di / a_a /
+pa / gar = 7.
+
+**p. 84 · Pleonasmo e completivas. 1. a) H · b) E · c) P · d) H. 2. a) que o**
+sonho faz o mundo avançar · b) se Gedeão era mais cientista ou mais
+poeta · c) que íamos ouvir o poema cantado.
+
+**p. 87 · Advérbios, sujeito e predicado. 1. De repente (tempo) · baixinho**
+(modo) · às escondidas (modo) · nunca (tempo/negação). 2. a) S: Os vi-
+zinhos · P: desconfiavam uns dos outros · b) sujeito inexistente
+(verbo haver) · P: Nas paredes havia ouvidos · c) S: um homem de
+chapéu · P: Entrou na sala.
+
+**p. 89 · Trova. 1. e_o / ven / to / ca / la_a / des / gra(ça) = 7 · o / ven / to**
+/ na / da / me / diz = 7. 2. ABAB, rima cruzada. 3. Apóstrofe (e personi-
+ficação do vento).
+
+**p. 92 · Tejo. 1. Te / jo / que / le / vas / as / á(guas) = 7 · le / va_as / má /**
+goas / pa / ra_o / mar = 7. 2. ABAB.
+
+**p. 94 · Florbela. 1. 14 versos, 2 quadras + 2 tercetos; ABBA ABBA CCD**
+EED. 2. Meus / o / lhos / an / dam / ce / gos / de / te / ver = 10. 3.
+Anáfora.
+
+**p. 99 · Balanço. 1 quadra · 2 cruzada · 3 redondilha maior · 4 sete · 5**
+quadras, tercetos · 6 anáfora · 7 personificação · 8 completiva · 9 lo-
+cução adverbial · 10 vicioso.
+
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
+
+**A forma**
+
+Estrofes: dístico, terceto, quadra…
+soneto (4+4+3+3).
+
+Rima: emparelhada AABB, cruzada
+ABAB, interpolada ABBA.
+
+Métrica: contar até à última tónica;
+elisões. Redondilha maior 7, menor
+5; decassílabo 10.
+
+**O sentido**
+
+Tema: de que fala o poema.
+
+Sujeito poético: quem fala.
+
+Recursos: anáfora, enumeração,
+metáfora, comparação, personifi-
+cação, apóstrofe, hipérbole, antí-
+tese, paradoxo.
+
+O que diz e o que deixa entender
+(ironia).
+
+**Gramática**
+
+Completiva: completa um verbo
+(que, se).
+
+Advérbio e locução adverbial:
+modo, tempo, lugar…
+
+Sujeito (quem? o quê?) e predicado.
+
+Pleonasmo e hipérbole.
+
+GLOSSÁRIO · SOLUÇÕES
 100
 
 <!-- page 101 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+U N I D A D E 4
+T E X T O D R A M Á T I C O
+## Sobe o pano
 
-Prime School Press · www.primeschool.pt
+Um rei que quer saber qual das filhas o ama mais —
+e não percebe a resposta da mais sincera. Um velho
+alcaide que escolhe as suas últimas palavras. Nesta
+**unidade, o texto deixa de ser só para ler: é para di‐**
+**zer, mostrar e representar. E vais descobrir o que**
+muda quando uma história sai da página e sobe ao
+palco.
 
-## Compreensão · o que acontece?
+**?**
+Como se conta uma história sem narrador?
 
-**LEITURA · RESPONDE COM FRASES COMPLETAS**
+**?**
 
-**EXERCÍCIOS 43**
-1. Onde estão William e Nathan no início do excerto?
+Pode uma palavra — «sal» — decidir o destino de um
+reino?
 
-2. O que pergunta William ao tio sobre a idade dele?
+**?**
+O que ganha e o que perde uma história quando vai
+para o teatro?
 
-3. Quantos anos tinha Nathan quando, segundo a história, começaram a acontecer «as coisas»?
-
-4. Porque é que Nathan não consegue recordar claramente esses acontecimentos?
-
-5. Que problema de saúde é referido no texto?
-
-6. Que história da família é mencionada antes da história dos Zimmer?
-
-7. Segundo William, que relação existia entre os Zimmer e os irmãos Grimm?
-
-8. O que diz a dedicatória de Wilhelm Grimm?
-
-9. Que descoberta faz Nathan depois da conversa com William?
-
-10. Onde estava escondido o documento? Como era?
-
-11. Em que língua estava escrito o tratado?
-
-12. O que é que William reconhece no documento?
-
+UNIDADE 4
 101
 
 <!-- page 102 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P R O G R A M A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 4
+O P R O G R A M A
+## Dois textos, um palco
 
-## Lê nas entrelinhas
+**Antes de começar**
+O mapa do texto dramático · p.
 
-**INFORMAÇÃO EXPLÍCITA E IMPLÍCITA**
+103
 
-**LÊ NAS ENTRELINHAS 44**
-Nem tudo é dito directamente. Procura as pistas do texto.
+**No fim**
+Em cena! · p. 115
 
-1. William demonstra grande curiosidade. Indica duas perguntas que ele faz a Nathan e que comprovam essa
-afirmação.
+**Verificar**
+Balanço e soluções · p. 116
 
-2. Nathan começa por não se lembrar da história, mas depois parece ficar interessado. Que elementos do texto
-mostram essa mudança?
+Leandro, rei da Helíria, de Alice Vieira, é uma obra protegida: lê a peça completa na edição da turma; aqui citam-se ape-
+nas falas breves. A adaptação dramática de «O Castelo de Faria» foi escrita para esta unidade, a partir do texto de Her-
+culano (domínio público), que já leste na Unidade 2.
 
-3. Explica, por palavras tuas, o sentido da expressão: «Acendeste uma luz na minha cabeça, rapaz.»
+## Leandro, rei da Helíria
 
-4. Porque é que William não teria coragem de entrar sozinho na ala dos quartos fechados?
+Ato, cena, fala, didascálias
+Leitura em papéis e representação de uma
 
-5. O que podemos concluir sobre o estado de espírito de William quando encontra o documento? Justifica.
+cena
+Temas: o poder e a identidade
+Escrita: resumo da ação e comentário a uma
 
-**DICA**
+escolha da personagem
+Gramática: didascálias e discurso das falas ·
 
-Uma inferência baseia-se em pistas do texto: pista + interpretação = inferência. Nunca é apenas uma adivinhação.
+frase ativa e passiva
 
+## 1
+
+ALICE VIEIRA · PEÇA EM DOIS ATOS
+
+**p. 105**
+
+## Do Castelo de Faria à cena
+
+Comparar a narrativa com a cena dramatizada
+O que muda quando a narrativa passa a ter fa-
+las e indicações
+
+Escrita: duas cenas a partir de um episódio
+narrativo
+
+Gramática: sujeito, complemento direto, com-
+plemento indireto e modificador
+
+## 2
+
+ALEXANDRE HERCULANO · ADAPTAÇÃO DA PRIME
+
+SCHOOL
+
+**p. 110**
+
+PROGRAMA
 102
 
 <!-- page 103 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+M A P A D O T E X T O D R A M Á T I C O
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 4
+ED. LITERÁRIA
+R E F E R Ê N C I A
+## O mapa do texto dramático
 
-## Verdadeiro ou falso
+**Um texto dramático é escrito para ser representado. Não há narrador: a história avança**
+pelas falas das personagens e pelas indicações para quem o põe em cena.
 
-**LEITURA · ASSINALA V OU F**
+**Texto principal**
 
-**VERDADEIRO OU FALSO 45**
+**As falas das personagens. Formas:**
 
-**Afirmação**
-**V/F**
+**Diálogo — conversa entre personagens.**
+**Monólogo — uma personagem fala sozinha, em**
 
-a) Nathan diz que se lembra perfeitamente de ver duendes.
+voz alta.
+**Aparte — fala que só o público ouve (as outras**
+personagens «não ouvem»).
 
-b) Nathan tinha catorze anos quando os acontecimentos terão ocorrido.
+**Texto secundário**
 
-c) William acredita que pode existir uma ligação entre os Zimmer e as criaturas.
+**As didascálias (ou indicações cénicas): em itálico,**
+muitas vezes entre parênteses. Dizem:
 
-d) Nathan rejeita imediatamente a história de William.
+onde e quando (cenário, luz, som);
 
-e) William relaciona os Zimmer com os irmãos Grimm.
+quem entra e quem sai;
+como se fala e se move (tom, gestos,
 
-f) Nathan recorda-se de uma coisa que quer mostrar a William.
+expressão).
 
-g) O documento estava numa gaveta.
+A E S T R U T U R A E X T E R N A
 
-h) O documento era um tratado entre o velho Zimmer e as criaturas.
+**Ato**
 
-i) O documento estava escrito numa língua fácil de compreender.
+Grande divisão da peça; muitas
 
-j) No final, William consegue ler todo o documento.
+vezes, muda o tempo ou o lugar.
 
-Corrige as afirmações falsas:
+Marca-se com a descida do pano.
 
+**Cena**
+
+Divisão do ato; muda quando en-
+
+tra ou sai uma personagem.
+
+**Quadro**
+
+Divisão marcada por uma mu-
+
+dança de cenário.
+
+A E S T R U T U R A I N T E R N A
+
+**Exposição**
+
+Apresentação das personagens e
+
+da situação.
+
+**Conflito**
+
+O problema cresce até ao clímax.
+
+**Desenlace**
+
+A resolução do conflito.
+
+Q U E M F A Z O E S P E T Á C U L O
+
+**Encenador dirige tudo**
+**Atores dão corpo às personagens**
+**Cenógrafo cenário**
+
+**Figurinista guarda-roupa**
+**Luminotécnico luz**
+**Sonoplasta som e música**
+
+**Ponto sopra as falas esquecidas**
+
+E X E M P L O A N O T A D O · O C A S T E L O D E F A R I A , C E N A I ( P . 1 1 0 )
+
+(Saem SARMENTO e o SOLDADO. NUNO fica só. A luz da fogueira desce até lhe iluminar apenas o rosto.)
+
+NUNO (À parte, para o público.) Amanhã, meu filho, vais ouvir a voz de teu pai pela última vez.
+
+1
+**didascália de saída: muda a cena**
+2
+**didascália de luz: trabalho do luminotécnico**
+
+3
+**nome da personagem antes da fala**
+4
+**didascália de tom: é um aparte**
+
+## 1 Explica, por palavras tuas, a diferença entre um monólogo e um aparte. Porque é que o público gosta
+de saber coisas que as personagens não sabem?
+
+MAPA DO TEXTO DRAMÁTICO
 103
 
 <!-- page 104 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+A Q U E C I M E N T O
 
-Prime School Press · www.primeschool.pt
+A Q U E C I M E N T O
+1 5 M I N U T O S · A T R Ê S
+## Uma cena na bilheteira
 
-## Escolha múltipla
+(Bilheteira do Cinema Aurora, em Vila Nova do Farol. Fim de tarde. Chove. Atrás do vidro, D. ROSA faz pala-
+vras cruzadas. Entra TIAGO, 13 anos, a correr, encharcado.)
 
-**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+TIAGO Um bilhete para as sete, se faz favor!
 
-**EXERCÍCIOS 46**
-1. A conversa entre William e Nathan começa porque William quer saber se o tio:
-A. encontrou um tesouro. B. viu duendes e fadas quando era criança.
-C. conheceu Wilhelm Grimm. D. escreveu um livro.
+D. ROSA (Sem levantar os olhos.) Esgotado.
 
-2. Nathan diz que não se lembra porque:
-A. era demasiado jovem. B. não gostava das criaturas.
-C. há tantas coisas de que já não se lembra. D. nunca viveu naquela casa.
+TIAGO Esgotado? Mas é a estreia de O Farol das Baleias! Esperei um mês!
 
-3. Segundo a história contada por William, os Zimmer:
-A. eram inimigos dos Grimm. B. podiam ver as criaturas e visitar o seu mundo.
-C. construíram todos os livros dos Grimm. D. não acreditavam em fadas.
+D. ROSA Por isso mesmo. (Pausa. Olha-o por cima dos óculos.) Vieste sozinho?
 
-4. O que Nathan encontra?
-A. Uma fotografia. B. Uma carta.
-C. Um diário. D. Um tratado.
+TIAGO (À parte.) Se lhe digo que fugi aos trabalhos de casa, estou feito.
 
-5. O documento estava:
-A. dentro de uma caixa. B. debaixo da cama.
-C. escondido numa cavidade da parede. D. sobre uma cómoda.
+D. ROSA Então?
 
-6. No final do excerto, William:
-A. compreende o documento inteiro. B. reconhece apenas algumas letras.
-C. destrói o documento. D. decide escondê-lo.
+TIAGO Vim com… com a minha avó. Está a estacionar.
 
+(Entra a AVÓ, de guarda-chuva, a sacudir a água.)
+
+AVÓ Tiago! Pensava que estavas a estudar!
+
+(D. ROSA ri-se, tira dois bilhetes da gaveta e empurra-os por baixo do vidro.)
+
+D. ROSA Guardei-os ontem. Sabia que vinhas. (Para a AVÓ.) A senhora também, não é, Graça? Uma
+sessão destas não se perde.
+
+(Escuro.)
+
+## 1 Sublinha a azul as falas e a amarelo as didascálias. Encontra um aparte: o que tem de especial?
+
+## 2 Quantas cenas tem este excerto, se contarmos uma nova cena sempre que entra ou sai uma persona-
+gem? Justifica.
+
+## 3 Leiam a cena em voz alta, a três. Depois, mudem uma didascália (por exemplo, o tom de D. Rosa) e vol-
+tem a ler. O que muda?
+ORALIDADE
+
+## 4 Escreve a cena seguinte (4 a 6 falas): Tiago e a Avó à entrada da sala. Usa pelo menos duas didascálias.
+
+DESAFIO
+
+AQUECIMENTO
 104
 
 <!-- page 105 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 1 · L E A N D R O , R E I D A H E L Í R I A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 1
+ED. LITERÁRIA
+A N T E S D E L E R · L Ê A P E Ç A C O M P L E T A N A E D I Ç Ã O D A T U R M A
+## Leandro, rei da Helíria
 
-## As personagens
+ALICE VIEIRA · TEATRO · DOIS ATOS, ONZE CENAS CADA
 
-**PERSONAGENS · CARACTERIZAÇÃO**
+**A AUTORA**
 
-**WILLIAM · COMPLETA O QUADRO**
+**Alice Vieira (n. 1943), lisboeta, jornalista e escritora, é**
+uma das autoras mais lidas pelos jovens portugue-
 
-**Característica**
-**Prova retirada do excerto**
+ses. Escreveu romances, poesia, contos e teatro.
 
-Curioso
+**A HISTÓRIA POR TRÁS DA HISTÓRIA**
 
-Persistente
+A peça parte de um conto popular — o do rei que per-
+gunta às filhas quanto gostam dele e expulsa a que
+responde «como a comida gosta do sal». É a mesma
+história que Shakespeare transformou em tragédia,
+O Rei Lear. Alice Vieira fê-la acabar de outra maneira.
 
-Imaginativo
+Estranho sonho tive esta noite…
 
-Atento
+Leandro · 1.º ato, cena I
 
-William é uma personagem que procura respostas. Explica esta afirmação em 4–5 linhas.
+Os sonhos são recados dos deuses.
 
-**NATHAN**
-1. Nathan parece ser:
-☐esquecido ☐curioso ☐indiferente
+1.º ato, cena I
 
-☐interessado ☐doente ☐agressivo
+**AS PERSONAGENS**
 
-2. Escolhe duas características e justifica-as com elementos do texto.
+**Leandro**
+rei da Helíria, velho e cansado;
+um sonho inquieta-o
 
+**O Bobo**
+o bobo da corte: faz rir, mas é
+quem diz as verdades
+
+**Amarílis**
+a filha mais velha
+
+**Hortênsia**
+a filha do meio
+
+**Violeta**
+a filha mais nova
+
+**Os**
+**pretendentes**
+
+os príncipes que querem casar
+com as princesas
+
+**O Pastor**
+um homem simples que o rei en-
+contra no caminho
+
+## 1 Lê a lista de personagens da tua edição.
+Pelo nome e pela descrição, qual te parece
+que vai ser a mais importante? E a mais
+divertida?
+
+LEITURA 1 · LEANDRO, REI DA HELÍRIA
 105
 
 <!-- page 106 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 1 · L E A N D R O , R E I D A H E L Í R I A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 1
+LEITURA
+G U I Ã O D E L E I T U R A P O R A T O S
+## O rei, as filhas e o sal
 
-## Uma história dentro da história
+## 1.º ato
 
-**ANÁLISE · A LENDA DOS ZIMMER**
+1. Cena I: onde se passa? Que didascália o in-
+dica? O que preocupa o rei?
 
-William conta a Nathan uma explicação para a origem da lenda. Completa o esquema:
+2. Porque é que o Bobo se queixa da vida que
+leva? O que pensa dos ricos e dos pobres?
 
-Dedicatória de Wilhelm Grimm
+3. Que decisão toma o rei sobre o reino? Que
+prova pede às filhas?
 
-Nasce uma lenda sobre os Zimmer
+4. Compara as respostas de Amarílis e Hortên-
+sia com a de Violeta. Porque é que o rei se
+zanga?
 
-Os Zimmer e os Grimm podiam ver·
+5. O que acontece a Violeta no fim do 1.º ato?
 
-As criaturas e o seu mundo
+## 2.º ato
 
-As histórias chegam à Terra
+6. Como tratam as filhas mais velhas o pai, de-
+pois de receberem o reino? Dá um exemplo.
 
-Porque é importante esta história para o desenvolvimento do mistério?
+7. Que papel tem o Pastor na viagem do rei?
 
-**O MISTÉRIO AUMENTA**
-Observa a sequência e responde:
+8. Na cena XI, Violeta serve ao pai pratos sem
+sal. Porquê? O que percebe finalmente
+Leandro?
 
-pergunta →recordação →nova história →lembrança →quarto fechado →documento escondido →confirmação
+9. Que diferença há entre o final desta peça e o
+de O Rei Lear, que é uma tragédia?
 
-Como é que o autor aumenta o suspense ao longo do excerto? Escreve um pequeno texto de 6–8 linhas.
+Como fui louco! E tanto que eu vos
 
+amava!
+
+Leandro · 2.º ato, cena XI
+
+✎Escolhe a cena que achaste mais importante em cada ato e explica porquê, numa frase para cada uma.
+
+Exposição
+1.º ato, cenas I–VI
+Conflito
+1.º ato, cena VII → 2.º ato, cena VIII
+Desenlace
+2.º ato, cenas IX–XI
+
+LEITURA 1 · LEANDRO, REI DA HELÍRIA
 106
 
 <!-- page 107 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 1 · L E A N D R O , R E I D A H E L Í R I A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 1
+ED. LITERÁRIA
+ORALIDADE
+P O D E R E I D E N T I D A D E · L E I T U R A E M P A P É I S
+## Quem és tu, sem coroa?
 
-## O real e o fantástico
+**O poder**
 
-**ANÁLISE · DOIS MUNDOS**
+O rei tem tudo e decide tudo. Mas
+decide mal: confunde palavras
+bonitas com amor verdadeiro.
+Quando entrega o poder, desco-
+bre como o tratam os que o
+bajulavam.
 
-**MUNDO REAL · retira quatro elementos do texto**
+**A identidade**
 
-**MUNDO FANTÁSTICO · retira quatro elementos do texto**
+Sem reino, Leandro é um velho
+errante. Quem é ele, então? O
+que fica de uma pessoa quando
+lhe tiram o título, a casa, o poder?
 
-**PENSA**
+**A verdade**
 
-O momento em que Nathan afirma «Eles existem mesmo, Willy.» é importante porque transforma uma
-possibilidade numa certeza dentro da narrativa. Explica porquê.
+O Bobo e Violeta dizem a ver-
+dade — um a rir, a outra a sério.
+Os dois são castigados por isso.
+Porque é tão difícil ouvir a
+verdade?
 
-**O ESPAÇO**
-1. Ordena os espaços pela ordem em que aparecem:
-( ) quarto do velho Zimmer ( ) alpendre ( ) casa ( ) jardim
+1. No início, Leandro é rei. No fim, é pai. Explica esta frase com dois momentos da peça.
 
-2. Qual destes espaços contribui mais para a criação do suspense? Justifica.
+2. «Gosto de vós como a comida gosta do sal.» Porque é que esta é a resposta mais sincera? Porque é que o
+rei não a entende?
 
-3. Retira do texto três elementos que criam um ambiente misterioso no quarto.
+3. O Bobo é a personagem mais inteligente da peça? Justifica.
+DESAFIO
 
+L E I T U R A E M P A P É I S · C O M O P R E P A R A R
+
+**1**
+Em grupos, escolham uma cena curta (por exemplo, a das respostas das filhas).
+
+**2**
+**Distribuam as personagens e um leitor das didascálias.**
+
+**3**
+Marquem no texto: palavras a realçar, pausas (/), tom (irónico, zangado, doce…).
+
+**4**
+**Ensaiem duas vezes. Na segunda, os atores já não leem as didascálias: fazem-nas.**
+
+**5**
+Apresentem à turma. Os colegas dizem uma coisa que resultou e uma a melhorar.
+
+LEITURA 1 · LEANDRO, REI DA HELÍRIA
 107
 
 <!-- page 108 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 1 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 1
+ESCRITA
+R E S U M O D A A Ç Ã O · C O M E N T Á R I O A U M A E S C O L H A
+## O que aconteceu e porquê
 
-## Vocabulário · descobre pelo contexto
+**Resumo da ação**
 
-**PALAVRAS DO TEXTO**
+Um parágrafo por grande momento (exposição, con-
+flito, desenlace). 3.ª pessoa, presente do indicativo,
+sem falas copiadas. 100 a 130 palavras.
 
-**EXPLICA O SIGNIFICADO DE CADA PALAVRA**
+**Comentário a uma escolha**
 
-**Palavra**
-**O teu significado**
+Escolhe uma decisão de uma personagem. Explica-a,
+avalia-a com argumentos e diz o que farias no seu
+lugar. 120 a 160 palavras.
 
-dedicatória
+## 1 Resume a ação de Leandro, rei da Helíria.
 
-lenda
+E S C O L H E U M A D E C I S Ã O P A R A C O M E N T A R
 
-descendentes
+Leandro expulsa Violeta
+Violeta diz «como a comida gosta do sal»
 
-cavidade
+As filhas mais velhas fecham a porta ao pai
+O Bobo acompanha o rei
+Violeta serve pratos sem sal
 
-dissimulada
+## 2 Escreve o comentário: tese (a decisão foi certa ou errada?), dois argumentos com exemplos da peça,
+conclusão.
 
-atravancado
-
-impenetrável
-
-Escolhe duas palavras e escreve uma frase com cada uma:
-
-**SABIAS QUE...**
-
-«Dissimulada» significa escondida, disfarçada. A cavidade «estava dissimulada na parede» — logo, o segredo
-estava bem guardado.
-
+LEITURA 1 · ESCRITA
 108
 
 <!-- page 109 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 1 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 1
+GRAMÁTICA
+D I D A S C Á L I A S E D I S C U R S O D A S F A L A S · F R A S E A T I V A E P A S S I V A
+## Quem fala, como fala
 
-## Gramática em contexto
+**A língua das didascálias**
 
-**GRAMÁTICA · CLASSES DE PALAVRAS**
+Frases curtas, muitas vezes sem verbo; presente do
+indicativo; 3.ª pessoa; informação objetiva.
 
-**EXERCÍCIOS 47**
-Retira do texto 3 nomes, 3 verbos, 3 adjectivos e 2 advérbios. Depois organiza-os:
+(No jardim do palácio. Entra o Bobo, a correr. To-
+cam as trombetas.)
 
-**Nome**
-**Verbo**
-**Adjectivo**
-**Advérbio**
+**A língua das falas**
 
-**O ADJECTIVO NA DESCRIÇÃO**
-Observa: «um rolo de papel duro e amarelecido» · «uma língua estranha e impenetrável»
+1.ª e 2.ª pessoas (eu, tu, vós); frases exclamativas e in-
+terrogativas; vocativos; interjeições; registo que de-
+pende da personagem.
 
-1. Identifica os adjectivos das duas expressões.
+Ai, Senhor! Então não vedes que vos mentem?
 
-2. Explica o que acrescentam à descrição.
+## 1 Transforma este pequeno texto narrativo numa fala com didascália: «O rei, furioso, levantou-se do
+trono e gritou à filha mais nova que saísse do palácio e nunca mais voltasse.»
 
-3. Substitui um dos adjectivos por outro que mantenha o sentido geral.
+## 2 Faz o contrário: transforma em narração (3.ª pessoa, pretérito perfeito): VIOLETA (Baixando os olhos.)
+Gosto de vós, meu pai, como a comida gosta do sal.
 
-**RELEMBRA**
+**Revisão · frase ativa e passiva**
+(Unidade 1)
+Ativa: O rei expulsou Violeta.
 
-O adjectivo qualifica o nome. Dois adjectivos ligados por «e» intensificam a caracterização: o papel não era só
-duro, era também amarelecido pelo tempo.
+Passiva: Violeta foi expulsa pelo rei.
 
+## 3 Passa à passiva: a) As filhas receberam o reino. b) O Pastor acolheu o rei. c) Violeta preparará o ban-
+quete. Passa à ativa: d) O rei foi reconhecido pelo Bobo.
+
+## 4 Porque é que, numa didascália, se escreve «Tocam as trombetas» e não «As trombetas são tocadas pe-
+los músicos»?
+DESAFIO
+
+LEITURA 1 · GRAMÁTICA
 109
 
 <!-- page 110 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 2 · O C A S T E L O D E F A R I A E M C E N A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 2
+LEITURA
+ORALIDADE
+A D A P T A Ç Ã O D R A M Á T I C A
+## O Castelo de Faria
 
-## O diálogo
+C E N A S A P A R T I R D E A L E X A N D R E H E R C U L A N O · A D A P T A Ç Ã O D A P R I M E S C H O O L
 
-**GRAMÁTICA · DISCURSO DIRECTO**
+PERSONAGENS
+NUNO GONÇALVES, alcaide de Faria, velho · GONÇALO NUNES, seu
+filho · PEDRO RODRÍGUEZ SARMENTO, Adiantado da Galiza · O
+ARAUTO · O ALMOCADÉM castelhano · SOLDADOS · BESTEIROS · O
+POVO (vozes)
 
-**A VOZ DAS PERSONAGENS**
-Este excerto apresenta muito discurso directo: quase tudo acontece através de falas.
+LUGAR E TEMPO
+Minho, século XIV, durante a guerra en-
+tre D. Fernando de Portugal e Castela.
 
-1. Retira uma pergunta feita por William.
+C E N A I
+C E N A I I
 
-2. Retira uma resposta dada por Nathan.
+(Acampamento castelhano, no sopé do monte da Fran-
+queira. É noite. Uma fogueira ilumina a tenda do Adi-
+antado. Ao fundo, recortado contra o céu, o castelo de
+Faria. NUNO GONÇALVES, velho, de mãos atadas, está
+sentado num tronco. Entra PEDRO RODRÍGUEZ
+SARMENTO, Adiantado da Galiza, seguido de um
+SOLDADO.)
 
-3. Que sinal de pontuação introduz as falas?
+SARMENTO Então, velho? Dizem-me que queres fa‐
 
-4. Porque é que o diálogo é importante neste excerto?
+lar comigo. Vens pedir clemência?
 
-**RELEMBRA**
+NUNO Venho oferecer-vos um castelo, senhor
 
-O diálogo permite-nos conhecer directamente o que as personagens pensam, sentem, sabem e escondem — e a
-relação que estabelecem umas com as outras.
+Adiantado.
 
-**UMA EXPRESSÃO IMPORTANTE**
-Relê: «Acendeste uma luz na minha cabeça, rapaz.»
+SARMENTO (Ri-se.) Um prisioneiro a oferecer caste‐
+los! E qual?
 
-1. Nathan acendeu realmente uma luz? O que significa a expressão?
+NUNO (Aponta para o fundo.) Aquele. O de Faria. Go‐
+verna-o meu filho, Gonçalo Nunes, que me quer
 
-2. Que recurso expressivo está presente?
+mais do que às pedras que guarda.
 
-3. Explica o efeito desta expressão no texto.
+SARMENTO E porque havia ele de o entregar?
 
+NUNO Porque, se me vir em ferros ao pé da bar‐
+bacã, e se eu lho pedir, não terá coragem de deixar
+
+morrer o pai. Levai-me lá amanhã. Falarei com ele.
+Sem uma gota de sangue, o castelo será vosso.
+
+SARMENTO (Desconfiado, anda à volta dele.) És
+muito generoso para um português.
+
+NUNO Sou velho, senhor. Os velhos querem morrer
+
+na cama.
+
+SARMENTO Seja. Ao nascer do sol, subimos o monte.
+
+(Ao SOLDADO.) Que não lhe falte nada esta noite.
+Nem ele fuja.
+
+(Saem SARMENTO e o SOLDADO. NUNO fica só. A luz
+da fogueira desce até lhe iluminar apenas o rosto.)
+
+NUNO (À parte, para o público.) Amanhã, meu filho,
+vais ouvir a voz de teu pai pela última vez. E hás de
+
+fazer-me a vontade.
+
+(Escuro.)
+
+(Diante da barbacã do castelo de Faria. Manhã. No
+alto das ameias, BESTEIROS com as bestas apontadas.
+No terreiro, atrás da cerca, ouve-se o POVO: choro de
+crianças, murmúrios. Entram, pela esquerda, o
+ARAUTO, o ALMOCADÉM e SOLDADOS castelhanos,
+trazendo NUNO GONÇALVES no meio deles. Pela di-
+reita, sobre o muro, aparece GONÇALO NUNES.)
+
+ARAUTO (Avança sozinho, com a bandeira erguida.)
+
+Moço alcaide, moço alcaide! Teu pai, cativo do mui
+nobre Pedro Rodríguez Sarmento, deseja falar
+contigo de fora de teu castelo!
+
+(As bestas inclinam-se para o chão. Silêncio total.)
+
+GONÇALO A Virgem proteja meu pai. Dizei-lhe que
+
+eu o espero.
+
+(O ARAUTO recua. NUNO dá dois passos em frente, so-
+zinho, e ergue a cabeça.)
+
+NUNO Sabes tu, Gonçalo Nunes, de quem é esse
+
+castelo que entreguei à tua guarda?
+
+GONÇALO É de nosso rei e senhor, D. Fernando de
+Portugal, a quem fizestes preito e menagem.
+
+NUNO E sabes tu que o dever de um leal alcaide é
+nunca o entregar a inimigos, embora fique enter‐
+
+rado debaixo das suas ruínas?
+
+GONÇALO (Em voz baixa, inclinado sobre o muro.)
+Sei, meu pai. Mas não vedes que a vossa morte é
+certa, se eles percebem o que me aconselhais?
+
+(Os SOLDADOS castelhanos começam a murmurar. O
+ALMOCADÉM leva a mão à espada.)
+
+NUNO (Gritando, para que todos ouçam.) Pois, se o
+sabes, cumpre o teu dever, alcaide do castelo de
+
+Faria! Maldito sejas tu, se os que me cercam entra‐
+rem nesse castelo sem tropeçarem no teu cadáver!
+
+ALMOCADÉM Traição! Morra! Morra o que nos
+
+enganou!
+
+LEITURA 2 · O CASTELO DE FARIA EM CENA
 110
 
 <!-- page 111 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 2 · O C A S T E L O D E F A R I A E M C E N A
 
-Prime School Press · www.primeschool.pt
+C E N A I I I · E P Í L O G O
 
-## A estrutura do excerto
+C A D E R N O D O E N C E N A D O R
 
-**EDUCAÇÃO LITERÁRIA · COMPLETA**
+CENA
 
-**Situação inicial**
+CENÁRIO
 
-William pergunta a Nathan sobre ...
+LUZ
 
-**Desenvolvimento**
+SOM
 
-William conta a história ...
+ADEREÇOS
 
-**Momento de viragem**
+FIGURINOS
 
-Nathan lembra-se de ...
+MOMENTO-CHAVE
 
-**Descoberta**
+PORQUÊ
 
-Os dois encontram ...
+P A R A D I Z E R B E M
 
-**Final do excerto**
+(Os SOLDADOS lançam-se sobre NUNO. Ele cai. A luz
+fixa-se nele.)
 
-William percebe que ...
+NUNO (Num fio de voz.) Defende-te… alcaide!
 
-**INTERPRETAÇÃO 48**
-1. A certa altura, Nathan diz que a história é «bela». Ele acredita nela? Justifica com duas informações do texto.
+GONÇALO (Desesperado, a correr ao longo do muro.)
 
-2. Porque é que a descoberta do tratado é mais importante do que simplesmente encontrar um objecto antigo?
+Pai! Pai! (Voltando-se para os BESTEIROS.) Dispa‐
+rai! Disparai!
 
-3. O documento está escrito numa língua que William não compreende. Porque é que o autor termina o excerto dessa
-forma?
+(Uma nuvem de setas. Gritos. O ruído do combate
+cresce e, de repente, corta-se. Escuro.)
 
-4. Qual é, na tua opinião, a principal pergunta que fica na cabeça do leitor no final?
+(Anos depois. Uma pequena igreja, ao pé do monte. Luz
+de velas. GONÇALO NUNES, com vestes de padre, reza
+sozinho diante do altar.)
 
+GONÇALO Defendi o castelo, meu pai. Levantaram o
+
+cerco; el-rei louvou-me; os homens chamam-me
+herói. E, no entanto, todas as noites ouço a vossa
+voz: «Defende-te, alcaide!». Deixei a espada ao pé
+
+deste altar. É com orações que vos pago o que vos
+devo. (Pausa. Olha para o público.) Do castelo, já
+
+não resta pedra sobre pedra. Mas enquanto alguém
+contar esta história, meu pai não morreu em vão.
+
+(A luz das velas apaga-se devagar. Pano.)
+
+Adaptação da Prime School a partir de «O Castelo de Faria», de Ale-
+
+xandre Herculano (Lendas e Narrativas, 1851). Algumas falas seguem
+
+de perto o texto original (Unidade 2).
+
+Escolhe uma cena e prepara-a como se fosses
+pô-la em palco.
+
+**Nuno, na cena II, começa calmo e acaba a gri‐**
+**tar: marca no texto onde a voz sobe. Gonçalo**
+fala «em voz baixa» — o público tem de o ouvir
+**na mesma. Como? O Arauto fala com soleni‐**
+dade: é a voz oficial do inimigo.
+
+LEITURA 2 · O CASTELO DE FARIA EM CENA
 111
 
 <!-- page 112 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 2 · C O M P A R A R
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 2
+ED. LITERÁRIA
+D A N A R R A T I V A À C E N A
+## O que muda no palco?
 
-## Oficina de escrita · continua o diálogo
+NA NARRATIVA (HERCULANO, UNIDADE 2)
+NA CENA DRAMATIZADA
 
-**ESCRITA · 120 A 150 PALAVRAS**
+**Quem conta**
+um narrador não participante, que comenta
 
-**EXERCÍCIOS 49**
-Imagina que Nathan e William continuam a observar o documento. Escreve 120 a 150 palavras. O teu diálogo deve
-incluir:
-☐pelo menos quatro falas de William ☐quatro falas de Nathan
-☐uma descoberta ☐uma pergunta sem resposta ☐um momento de suspense
+**O lugar**
+descrito ao longo de seis parágrafos
 
-**DICA**
+**As personagens**
+caracterizadas pelo narrador
 
-Evita repetir «disse William» e «disse Nathan». Podes utilizar: perguntou | respondeu | murmurou | exclamou |
-acrescentou | explicou | sussurrou.
+**O que pensam**
+o narrador diz-nos
 
-**O MEU DIÁLOGO**
+**O tempo**
+séculos de história, do castelo ao convento
 
+**O final**
+o narrador tira a lição
+
+1. A cena I não existe em Herculano (lá, o ardil é contado num parágrafo). Porque é que o adaptador a
+inventou?
+
+**2. Encontra o aparte da cena I e o monólogo da cena III. Que informação dão ao público que as outras per-**
+sonagens não sabem?
+
+3. O narrador de Herculano descreve o incêndio do terreiro. Na cena II, como se mostra o combate? Que pro-
+fissionais do espetáculo tornam isso possível?
+
+4. Qual das versões te emocionou mais? Justifica com um momento de cada.
+DESAFIO
+
+LEITURA 2 · COMPARAR
 112
 
 <!-- page 113 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 2 · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 2
+ESCRITA
+D U A S C E N A S A P A R T I R D E U M E P I S Ó D I O N A R R A T I V O
+## A tua vez de adaptar
 
-## Escrita criativa · a língua desconhecida
+**Escolhe um episódio de uma das narrativas da Unidade 2 e transforma-o em duas cenas,**
+com título, lista de personagens, didascálias e falas.
 
-**ESCRITA · 150 A 180 PALAVRAS**
+E P I S Ó D I O S P O S S Í V E I S
 
-**ESCRITA CRIATIVA 50**
-William reconhece algumas letras do documento, mas não compreende a língua. Imagina que consegues ajudá-lo a
-decifrar a primeira frase. Escreve uma narrativa em que:
-☐descobres o significado da primeira frase;
-☐percebes que se trata de uma mensagem secreta;
-☐descobres algo inesperado sobre as criaturas;
-☐terminas com uma frase que crie suspense.
+O pai e os sete vimes (Trindade Coelho)
+Castelo conhece o Barão (Lima Barreto)
 
-**DESAFIO CRIATIVO 51**
-O texto termina quando William vê o antigo tratado. Agora és tu o escritor: cria três regras que poderiam fazer parte
-desse tratado.
+A aposta no Reform Club (Verne)
+O senhor Otis e o fantasma (Wilde)
 
-Por exemplo — Regra 1: Os humanos não podem entrar no mundo das criaturas sem autorização.
+## 1 Escreve as tuas duas cenas (250 a 350 palavras no total). Continua no caderno, se precisares.
 
-**Regra 1:**
+TÍTULO
 
-**Regra 2:**
+PERSONAGENS
 
-**Regra 3:**
-Agora cria uma quarta regra SECRETA, que William só descobriria mais tarde…
+CENA I
 
-**Regra secreta:**
+**Revê**
+○ título e personagens
+○ duas cenas bem marcadas
+○ didascálias de lugar, entradas e tom
 
+○ nome da personagem antes de cada fala
+○ 250–350 palavras
+
+**CortaEscolhe só os momentos que se podem**
+mostrar. O resto passa para as didascálias ou
+desaparece.
+## 1
+**DivideDuas cenas: muda de cena quando entra**
+ou sai uma personagem, ou quando muda o
+lugar.
+## 2
+
+**Dá vozO que o narrador dizia passa a ser dito**
+pelas personagens (ou mostrado).
+## 3
+**EncenaDidascálias de cenário, luz, som, entradas,**
+saídas, tom e gestos.
+## 4
+
+LEITURA 2 · ESCRITA
 113
 
 <!-- page 114 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+L E I T U R A 2 · G R A M Á T I C A
 
-Prime School Press · www.primeschool.pt
+L E I T U R A 2
+GRAMÁTICA
 
-## Relembra e passaporte literário
+S U J E I T O · C O M P L E M E N T O D I R E T O · C O M P L E M E N T O I N D I R E T O · M O D I F I C A D O R
+## Quem faz o quê, a quem
 
-**REVISÃO · O QUE APRENDI**
+**Sujeito**
 
-William é curioso, atento e procura respostas; as suas perguntas movem a história.
-Nathan tem falhas de memória, mas a conversa com William desperta-lhe recordações.
-O diálogo permite conhecer directamente as personagens.
-O espaço (alpendre →casa →quarto fechado) contribui para criar suspense.
-O fantástico aparece associado aos duendes, gnomos, fadas e ao seu mundo.
-A descoberta do tratado altera a percepção da história.
-A informação explícita está directamente no texto; a implícita constrói-se com pistas.
+quem pratica a ação ou
+de quem se fala
 
-**PASSAPORTE LITERÁRIO · O ÚLTIMO GRIMM**
+Pergunta: quem? o quê? (an-
 
-**O meu registo**
-**Resposta**
+tes do verbo)
 
-Personagem que mais me interessou
+**Complemento**
+**direto**
 
-A descoberta mais surpreendente
+completa o verbo sem
+preposição; substitui-se
+por o, a, os, as
 
-A parte mais misteriosa
+Pergunta: o quê? quem?
 
-Uma palavra nova
+**Complemento**
+**indireto**
 
-A pergunta que ficou na minha cabeça
+o destinatário da ação;
+com a; substitui-se por
+lhe, lhes
 
-Classifico este excerto:
-☐★☐★★☐★★★☐★★★★☐★★★★★
+Pergunta: a quem?
 
+**Modificador**
+
+acrescenta informação
+(tempo, lugar, modo,
+causa…); pode sair da
+frase
+
+Pergunta: quando? onde?
+
+como?
+
+O arauto entregou a mensagem ao moço alcaide nessa manhã .
+
+SUJEITO
+VERBO
+CD
+CI
+MODIFICADOR
+
+## 1 Identifica as funções sintáticas sublinhando com as cores do quadro.
+
+a. Nuno Gonçalves ofereceu o castelo ao Adiantado.
+
+b. Na manhã seguinte, os soldados levaram o velho até à barbacã.
+
+c. Gonçalo respondeu ao pai em voz baixa.
+
+d. O rei deu o reino às duas filhas mais velhas.
+
+e. Violeta serviu ao pai pratos sem sal.
+
+## 2 Substitui o CD e o CI por pronomes: a) O Bobo contou a verdade ao rei. b) Os besteiros apontaram as
+bestas aos castelhanos.
+
+## 3 Escreve uma frase sobre uma das peças com sujeito, CD, CI e dois modificadores. Identifica cada
+função.
+
+## 4 Numa fala, o CD e o CI aparecem muitas vezes como pronomes. Identifica-os: NUNO Dizei-lhe que eu o
+espero. · SARMENTO Que não lhe falte nada esta noite. · VIOLETA Eu dou-vos o meu amor.
+
+## 5 Retira os modificadores e reescreve a frase: «Na manhã seguinte, junto à barbacã, o velho falou ao fi-
+lho em voz alta.» Que informação se perdeu? A frase continua correta?
+
+LEITURA 2 · GRAMÁTICA
 114
 
 <!-- page 115 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+E M C E N A !
 
-Prime School Press · www.primeschool.pt
+P R O J E T O
+ORALIDADE
+E M G R U P O · 2 S E M A N A S
+## Em cena!
 
-## A Bicicleta que Tinha Bigodes
+O Cinema Aurora vai, pela primeira vez, abrir o palco ao teatro. Cada grupo apresenta uma
+cena de 5 a 8 minutos: uma cena de Leandro, rei da Helíria, a adaptação de «O Castelo de Fa‐
+ria», ou as duas cenas que escreveram.
 
-**Ondjaki**
+01
 
-**PERGUNTA DE PARTIDA**
+**Escolher**
 
-Uma bicicleta pode ter bigodes? O que te faz imaginar este título? E se pudesses ganhar uma bicicleta colorida
-num concurso de histórias, que história inventarias?
+02
 
-**NESTA HISTÓRIA VAIS APRENDER A**
-compreender um texto narrativo e identificar o narrador e as personagens;
-distinguir narrador e autor;
-localizar a acção no espaço e no tempo;
-reconhecer acontecimentos principais e secundários;
-interpretar informação explícita e implícita;
-compreender a importância do diálogo numa narrativa;
-explorar palavras e expressões da linguagem da obra;
-identificar comparações e outras formas de expressão;
-escrever uma narrativa a partir de uma situação imaginada.
+**Ler à mesa**
 
-**NESTE EXCERTO VAIS DESCOBRIR...**
-• Como surgiu o desejo de ganhar a bicicleta? • O que anuncia a rádio?
+03
 
-• Porque é que o narrador pensa no tio Rui?
+**Preparar**
 
-• O que há de especial nos seus bigodes?
+04
 
-A bicicleta colorida: amarela, vermelha e preta.
+**Ensaiar**
 
+05
+
+**Estrear**
+
+FUNÇÃO
+QUEM
+O QUE VAI FAZER
+
+Encenador
+
+Atores
+
+Cenário e adereços
+
+Luz e som
+
+CRITÉRIO
+EM CONSTRUÇÃO
+CONSOLIDADO
+EXCELENTE
+
+**Interpretação**
+falas ditas sem intenção
+tom adequado às
+personagens
+
+personagens vivas: voz, corpo e
+olhar
+
+**Didascálias**
+poucas indicações
+respeitadas
+
+entradas, saídas e tom
+respeitados
+
+didascálias transformadas em ação
+expressiva
+
+**Memorização**
+leitura
+de cor, com hesitações
+de cor e fluido
+
+**Encenação**
+sem cenário nem som
+elementos simples e
+coerentes
+
+soluções criativas de cenário, luz ou
+som
+
+**Trabalho de**
+**grupo**
+
+participação desigual
+todos contribuem
+equipa coordenada, papéis claros
+
+**Depois da estreia O que aprendeste sobre o texto dramático ao representá-lo que não tinhas percebido ao**
+lê-lo?
+
+A cena e os papéis:
+atores, encenador,
+cenógrafo, luz e
+som.
+
+Leitura em papéis,
+marcações no
+texto, discussão
+das personagens.
+
+Cenário simples,
+adereços, figurinos,
+música e ruídos.
+
+De cor, com movi-
+mento, entradas e
+saídas.
+
+A apresentação e
+uma conversa com
+o público.
+
+EM CENA!
 115
 
 <!-- page 116 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A L A N Ç O
 
-Prime School Press · www.primeschool.pt
+B A L A N Ç O
+U N I D A D E 4
+## Dez perguntas de bastidores
 
-## Conhece o autor · Ondjaki
+C o n s i g o … a i n d a n ã o q u a s e s i m !
 
-**LITERATURA · O AUTOR**
+distinguir texto principal e texto secundário
 
-Ondjaki é o nome literário de Ndalu de Almeida, escritor angolano nascido em Luanda. A sua obra inclui poesia,
-ficção e literatura para crianças e jovens.
+identificar ato, cena, diálogo, monólogo e aparte
 
-Em muitos dos seus textos encontramos memórias de infância, personagens marcantes, humor, imaginação e
-situações do quotidiano. A linguagem das suas personagens aproxima-se frequentemente da oralidade e
-incorpora expressões próprias do universo angolano.
+explicar o tema do poder e da identidade em Leandro
 
-**SABIAS QUE...?**
+ler uma cena em papéis, com expressividade
 
-Em A Bicicleta que Tinha Bigodes, a infância é apresentada através do olhar de um rapaz que vive numa rua de
-Luanda. É através dos seus olhos que conhecemos as pessoas, os animais, as brincadeiras e as histórias daquele
-mundo.
+comparar uma narrativa com a sua adaptação dramática
 
-**A OBRA**
-A obra conta a história de um grupo de crianças que deseja ganhar uma bicicleta colorida oferecida como prémio
-de um concurso da Rádio Nacional. O narrador vive numa rua onde mora também o tio Rui, um escritor que
-desperta a curiosidade das crianças. A partir dessa situação, a realidade e a imaginação começam a misturar-se.
+escrever cenas com falas e didascálias
 
-**ANTES DE LER · UMA BICICLETA MUITO ESPECIAL 67**
-1. Uma bicicleta pode ter bigodes? (sim / não) Explica a tua resposta.
+identificar sujeito, CD, CI e modificador
 
-2. O que poderá ser uma «bicicleta que tinha bigodes»?
-☐uma bicicleta verdadeira ☐uma bicicleta decorada
+✎Que personagem de teatro gostavas de representar? Porquê?
 
-☐uma invenção de uma criança ☐uma bicicleta mágica
+As indicações para a representação chamam-se
+**1**
+O texto das falas é o texto principal · secundário
+**2**
 
-· outra hipótese:
+Fala que só o público ouve:
+**3**
+Uma personagem sozinha, a falar em voz alta:
+**4**
 
-3. Imagina que podes ganhar uma bicicleta num concurso. Que tipo de bicicleta gostarias de ganhar?
+Muda-se de cena quando
+**5**
+Quem cuida da luz do espetáculo é o
+**6**
 
+Violeta compara o seu amor ao
+**7**
+Em «O rei deu o reino às filhas», «às filhas» é
+**8**
+
+Em «O arauto falou ao alcaide nessa manhã»,
+«nessa manhã» é
+
+**9**
+Passa à passiva: «O Bobo reconheceu Violeta.»
+**10**
+
+BALANÇO
 116
 
 <!-- page 117 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+G L O S S Á R I O · S O L U Ç Õ E S
 
-Prime School Press · www.primeschool.pt
+**Glossário**
 
-Na minha rua vive o tio Rui, que é escritor e inventa estórias e poemas que até chegam a outros países muito
-internacionais.
+**Aparte**
+Fala dirigida ao público, que as outras personagens
+não ouvem.
 
-O CamaradaMudo, um senhor gordo que fala pouco e está sempre sentado na esquina da nossa rua, disse que
-essas estórias já foram transformadas em peças de teatro num país com nome comprido, parece que se diz
-«Jugoeslávia».
+**Ato**
+Grande divisão de uma peça de teatro.
 
-Quando ouvi a notícia na rádio, que iam dar uma bicicleta bem bonita, amarela, vermelha e preta, lembrei-me logo
-de falar com o tio Rui. Era um concurso nacional com primeiro prémio de uma bicicleta colorida que já apareceu na
-televisão, mas nesse dia na nossa rua não havia luz.
+**Cena**
+Divisão de um ato; muda com a entrada ou saída de
+personagens.
 
-De noite, a falar com a minha almofada, eu até já prometi bem as coisas: «se eu ganhar a bicicleta colorida, vou
-deixar todos da minha rua andarem sem pedir nada em troca, nem gelados nem xuínga».
+**Didascália**
+Indicação cénica: cenário, luz, som, movimentos, tom.
 
-Essa promessa assim bem dura de fazer é que me fazia acreditar que eu ia mesmo ganhar a bicicleta.
+**Diálogo**
+Troca de falas entre personagens.
 
-Mas eu não tenho jeito nenhum para essa coisa das estórias. Falei com outros miúdos, para saber quem tinha
-ideias, quem queria participar no concurso nacional da bicicleta colorida, mas todos me gozam a dizer que essa
-bicicleta já deve ter dono, que já sabem quem é que vai ganhar.
+**Encenador**
+Quem dirige o espetáculo.
 
-Não entendi aquilo, mas não desisti. Fui ainda falar com o CamaradaMudo.
+**Exposição · conflito · desenlace**
+Os três momentos da estrutura interna da ação.
 
-**ENQUANTO LÊS**
+**Figurinista**
+Quem desenha o guarda-roupa.
 
-Repara nas palavras «estória», «xuínga», «bué», «cacimbo»: a linguagem do narrador tem o sabor da oralidade
-angolana.
+**Luminotécnico · sonoplasta**
+Responsáveis pela luz e pelo som.
 
-## Vamos ler · A Bicicleta que Tinha Bigodes
+**Quadro**
+Divisão da peça marcada por mudança de cenário.
 
-**TEXTO LITERÁRIO · ONDJAKI · TEXTO ORIGINAL**
+**Monólogo**
+Fala de uma personagem sozinha em cena.
+
+**Texto principal**
+O conjunto das falas.
+
+**Texto secundário**
+O conjunto das didascálias.
+
+**Complemento direto**
+Completa o verbo sem preposição; o, a, os, as.
+
+**Complemento indireto**
+Destinatário da ação; lhe, lhes.
+
+**Modificador**
+Informação acessória sobre a ação.
+
+**Soluções**
+
+**p. 104 · Aquecimento. 1. Aparte: «Se lhe digo que fugi aos trabalhos de**
+casa, estou feito.» — só o público o ouve. 2. Duas cenas: a entrada da
+Avó abre uma nova cena.
+
+**p. 109 · Falas e passiva. 1. Exemplo: LEANDRO (Levantando-se do trono,**
+furioso.) Sai do meu palácio e não voltes nunca mais! 2. Exemplo: Vi-
+oleta baixou os olhos e disse ao pai que gostava dele como a comida
+gosta do sal. 3. a) O reino foi recebido pelas filhas. b) O rei foi aco-
+lhido pelo Pastor. c) O banquete será preparado por Violeta. d) O Bobo
+reconheceu o rei. 4. As didascálias são curtas e objetivas; o agente
+não interessa.
+
+**p. 114 · Funções sintáticas. 1. a) S: Nuno Gonçalves · CD: o castelo · CI:**
+ao Adiantado. b) Mod: Na manhã seguinte · S: os soldados · CD: o ve-
+lho · Mod: até à barbacã. c) S: Gonçalo · CI: ao pai · Mod: em voz baixa.
+d) S: O rei · CD: o reino · CI: às duas filhas mais velhas. e) S: Violeta ·
+CI: ao pai · CD: pratos sem sal. 2. a) O Bobo contou-lha. b) Os bestei-
+ros apontaram-lhas.
+
+**p. 114 · 4 e 5. 4. lhe (CI) e o (CD) · lhe (CI) · vos (CI) e o meu amor (CD). 5.**
+«O velho falou ao filho.» Perdem-se o tempo, o lugar e o modo; a frase
+continua correta, porque os modificadores não são obrigatórios.
+
+**p. 112 · Comparar. Na cena: não há narrador; o lugar está nas didascá-**
+lias; as personagens mostram-se pelo que dizem e fazem; o que pen-
+sam diz-se em apartes e monólogos; o tempo é concentrado em três
+momentos; o final é um monólogo, sem lição explícita.
+
+**p. 116 · Balanço. 1 didascálias · 2 principal · 3 aparte · 4 monólogo · 5**
+entra ou sai uma personagem · 6 luminotécnico · 7 sal · 8 comple-
+mento indireto · 9 modificador · 10 Violeta foi reconhecida pelo Bobo.
+
+C A R T Ã O D E M E M Ó R I A · A U N I D A D E N U M A P Á G I N A
+
+**O texto dramático**
+
+Texto principal (falas) e secundário
+(didascálias).
+
+Diálogo, monólogo, aparte.
+
+Ato, cena, quadro. Exposição, con-
+flito, desenlace.
+
+**Da página ao palco**
+
+Sem narrador: o que se pensa diz-
+se ou mostra-se.
+
+Encenador, atores, cenógrafo, figu-
+rinista, luminotécnico, sonoplasta.
+
+Adaptar: cortar, dividir, dar voz,
+encenar.
+
+**Gramática**
+
+Sujeito · CD (o, a) · CI (lhe) ·
+modificador.
+
+Didascálias: frases curtas, pre-
+sente, 3.ª pessoa.
+
+Falas: 1.ª/2.ª pessoa, exclamações,
+vocativos.
+
+Ativa e passiva (revisão).
+
+GLOSSÁRIO · SOLUÇÕES
+117
 
 <!-- page 118 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+U N I D A D E 5
+R E V I S Õ E S A N U A I S
+## Sessão de
+encerramento
 
-Prime School Press · www.primeschool.pt
+Última noite do ano no Cinema Aurora. Na praça,
+cinco bancas iluminadas esperam por ti — um anún‐
+cio, uma crítica, um conto, um soneto e uma cena.
+Nenhum destes textos é conhecido: vais lê-los pela
+primeira vez, com tudo o que aprendeste desde se‐
+tembro. Depois, dois circuitos de gramática, um
+teste de treino e uma conversa contigo próprio so‐
+bre o leitor que és agora.
 
-— É verdade que essa bicicleta que estão a anunciar na rádio não é de verdade?
+**?**
+O que sabes fazer hoje que não sabias em setembro?
 
-— Claro que é de verdade — o CamaradaMudo respondeu. — Tu tens uma boa estória?
+**?**
+Consegues ler um texto novo sem ajuda — e explicar
+como funciona?
 
-— Eu só tenho uma boa vontade de ganhar essa bicicleta.
+**?**
+Qual foi o texto do ano que vais levar contigo?
 
-— Mas para ganhares tens de inventar uma estória.
-
-— Tou masé a pensar que devíamos pedir patrocínio no tio Rui, aquele que escreve bué de poemas.
-
-— Isso não é batota?
-
-— Batota porquê?
-
-— E as outras crianças?
-
-— Quero lá saber, não tenho culpa que o tio Rui vive aqui na minha rua. Eles que descubram também o escritor da
-rua deles.
-
-O tio Rui é simpático e tem sempre bué de pressa. Às vezes nos dá dinheiro para irmos comprar gelado e, no dia 1
-de junho, podemos entrar todos no quintal da casa dele para ouvir algumas estórias que ele lê directamente dos
-papéis amarelos onde ele escreve. Fala com uma voz constipada e algumas palavras mesmo são difíceis de
-entender. Eu pensava que era só o modo de falar, mas a minha amiga Isaura é que me explicou um dia.
-
-— Não vês como são os bigodes do tio Rui?
-
-— São como?
-
-— São assim tipo capim que já não se corta desde o último cacimbo.
-
-— E depois?
-
-— Depois que alguns sons e algumas palavras ficam presas no bigode. Então só ouvimos já o resto.
-
-As estórias do tio Rui, no quintal, no dia 1 de Junho.
-
-## Vamos ler · A Bicicleta que Tinha Bigodes (continuação)
-
-**TEXTO LITERÁRIO · ONDJAKI · TEXTO ORIGINAL**
+UNIDADE 5
+118
 
 <!-- page 119 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+P R O G R A M A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 5
+O C I R C U I T O D A Ú L T I M A N O I T E
+## Cinco bancas, um ano inteiro
 
-## Compreensão · a bicicleta e o concurso
+**Cada banca revê uma unidade com um texto novo. Trabalha a pares; em cada banca tens**
+uma página de leitura e uma de oficina. Quando acabares uma banca, pede ao teu professor
+um carimbo no passaporte (p. 137).
 
-**LEITURA · RESPONDE COM FRASES COMPLETAS**
+**Antes das bancas**
 
-**EXERCÍCIOS 68**
-1. Quem vive na rua do narrador?
+O mapa do ano · p. 120
 
-2. Quem é o tio Rui? E o CamaradaMudo?
+**Circuitos de gramática**
 
-3. O que anuncia a rádio? Quais são as cores da bicicleta?
+Frase e verbo · frase complexa e funções · p. 133
 
-4. Porque pensa o narrador imediatamente no tio Rui?
+**Teste de treino**
 
-5. Que promessa faz o narrador à almofada?
+Prova mista, como nos testes · p. 135
 
-6. Porque é que os outros miúdos gozam com ele?
+**No fim**
 
-7. Que solução encontra o narrador para conseguir uma estória?
+O leitor que és agora · p. 137
 
-8. Como explica Isaura a voz constipada do tio Rui?
+E M T R Ê S A U L A S
 
+**Aula 1**
+
+Mapa do ano · bancas 1 e 2
+
+**Aula 2**
+
+Bancas 3, 4 e 5
+
+**Aula 3**
+
+Circuitos de gramática · teste de
+
+treino · reflexão
+
+C O M O T R A B A L H A R N U M A B A N C A
+
+**1**
+**Lê o texto duas vezes: a primeira, de seguida; a segunda, a sublinhar.**
+
+**2**
+**Responde sem voltar às unidades. Só depois consultas o mapa do ano.**
+
+**3**
+**Corrige com as soluções (p. 138) e regista o que falhaste.**
+
+**4**
+**Volta à página da unidade indicada para rever o que não sabias.**
+
+**Publici‐**
+**dade**
+
+**p. 122**
+
+## 1
+
+Um anúncio de
+bicicletas
+
+**Crítica**
+
+**p. 124**
+
+## 2
+
+Uma crítica de
+cinema
+
+**Narrativa**
+
+**p. 126**
+
+## 3
+
+«O Tesouro», de Eça
+de Queirós
+
+**Poesia**
+
+**p. 131**
+
+## 4
+
+Um soneto de
+Camões
+
+**Teatro**
+
+**p. 132**
+
+## 5
+
+A última bobina
+
+PROGRAMA
 119
 
 <!-- page 120 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+M A P A D O A N O
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 5
+R E F E R Ê N C I A · 1 D E 2
+## O mapa do ano
 
-## A conversa com o CamaradaMudo
+## 1
+**Promessa & Veredicto**
 
-**LEITURA · APROXIMA AO DIÁLOGO**
+O ESSENCIAL
 
-**EXERCÍCIOS 69**
-1. O narrador tem uma boa história para o concurso? (sim / não) Justifica com uma informação do texto.
+Publicidade comercial (vende) e não comercial (muda
 
-2. O que tem ele, afinal?
+comportamentos)
 
-3. O CamaradaMudo considera essa solução correcta? (sim / não) Justifica.
+Elementos do anúncio: imagem, título, texto, slogan,
 
-4. O que revela a resposta do narrador: «Quero lá saber, não tenho culpa que o tio Rui vive aqui na minha rua.»?
+marca, público-alvo
 
-**A PERSONAGEM DO CAMARADAMUDO**
-1. Como é apresentado o CamaradaMudo?
+Recursos da persuasão: hipérbole, enumeração, impe-
 
-2. O seu nome corresponde exactamente ao seu comportamento? Explica.
+rativo, trocadilho, apelo às emoções
 
-3. Que papel desempenha na acção?
+Crítica: tese, argumentos, exemplos, facto e opinião,
 
+classificação
+
+GRAMÁTICA
+
+Frase ativa e frase passiva
+
+Hipérbole e enumeração
+
+**Rever: Persuasão p. 13 · Slogan p. 18 · Crítica p. 23 · Ativa e passiva p. 26**
+
+## 2
+**Quem nos faz crescer?**
+
+O ESSENCIAL
+
+Narrador: participante ou não participante; presente ou
+
+ausente
+
+Categorias: ação, personagens, espaço, tempo
+
+Estrutura: situação inicial, desenvolvimento, desenlace
+
+Modos de expressão: narração, descrição, diálogo; dis-
+
+curso direto e indireto
+
+GRAMÁTICA
+
+Frase simples e complexa · oração
+
+relativa
+
+Subordinadas condicionais e finais
+
+Conjuntivo · tempos do indicativo
+
+Modificador do nome e do grupo
+
+verbal · pronome átono
+
+**Rever: Mapa da narrativa p. 35 · Relativas p. 47 · Conjuntivo p. 54 · Modificadores p. 68**
+
+O S A U T O R E S D O A N O
+
+☐ Luís de Camões
+☐ Alexandre Herculano
+☐ Eça de Queirós
+☐ Trindade Coelho
+
+☐ Fernando Pessoa
+☐ Florbela Espanca
+☐ Lima Barreto
+☐ Miguel Torga
+
+☐ Manuel da Fonseca
+☐ António Gedeão
+☐ Alexandre O'Neill
+☐ David Mourão-Ferreira
+
+☐ Ana Hatherly
+☐ Manuel Alegre
+☐ Alice Vieira
+☐ Ondjaki
+☐ Júlio Verne
+☐ Oscar Wilde
+
+Assinala os que leste. Escolhe um para ler mais durante as férias.
+
+PUBLICIDADE E CRÍTICA
+
+TEXTO NARRATIVO
+
+MAPA DO ANO
 120
 
 <!-- page 121 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+M A P A D O A N O
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 5
+R E F E R Ê N C I A · 2 D E 2
 
-## Verdadeiro ou falso
+## 3
+**O que cabe num verso?**
 
-**LEITURA · ASSINALA V OU F**
+O ESSENCIAL
 
-**VERDADEIRO OU FALSO 70**
+Verso, estrofe (quadra, terceto…), soneto
 
-**Afirmação**
-**V/F**
+Rima emparelhada, cruzada, interpolada; esquema
 
-a) O tio Rui é escritor.
+rimático
 
-b) O CamaradaMudo fala muito.
+Sílabas métricas: redondilha menor (5), maior (7), decas-
 
-c) O concurso é anunciado na rádio.
+sílabo (10)
 
-d) A bicicleta é amarela, vermelha e preta.
+Recursos: anáfora, metáfora, comparação, personifica-
 
-e) O narrador já tem uma história preparada.
+ção, apóstrofe, antítese, paradoxo
 
-f) Os outros miúdos acreditam que ele vai ganhar.
+GRAMÁTICA
 
-g) O narrador desiste de participar no concurso.
+Oração subordinada completiva
 
-h) O narrador fala com o CamaradaMudo.
+Advérbio e locução adverbial
 
-i) O tio Rui escreve poemas.
+Sujeito e predicado · pleonasmo
 
-j) Segundo Isaura, sons ficam presos no bigode do tio Rui.
+**Rever: Oficina do verso p. 79 · Recursos p. 95 · Comentário p. 96**
 
-Corrige as afirmações falsas:
+## 4
+**Sobe o pano**
 
+O ESSENCIAL
+
+Texto principal (falas) e secundário (didascálias)
+
+Diálogo, monólogo, aparte
+
+Ato, cena, quadro; exposição, conflito, desenlace
+
+Da narrativa ao palco: cortar, dividir, dar voz, encenar
+
+GRAMÁTICA
+
+Sujeito, complemento direto, com-
+
+plemento indireto, modificador
+
+Língua das didascálias e das falas
+
+**Rever: Mapa do texto dramático p. 103 · Funções sintáticas p. 114**
+
+ANTES DAS BANCAS: COMO ESTOU?
+PRECISO
+DE REVER
+
+MAIS OU
+
+MENOS
+DOMINO
+
+Publicidade e crítica
+
+Narrativa
+
+Poesia e métrica
+
+Texto dramático
+
+Gramática da frase
+
+TEXTO POÉTICO
+
+TEXTO DRAMÁTICO
+
+MAPA DO ANO
 121
 
 <!-- page 122 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 1 · P U B L I C I D A D E
 
-Prime School Press · www.primeschool.pt
+B A N C A 1
+LEITURA
+T E X T O N O V O · P U B L I C I D A D E
+## Vai com a corrente
 
-## Escolha múltipla
+1. É publicidade comercial ou não comercial? Justifica com duas marcas do texto.
 
-**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+2. Qual é o público-alvo? Que palavras e imagens o mostram?
 
-**EXERCÍCIOS 71**
-1. Qual é o primeiro prémio do concurso?
-A. Uma televisão. B. Uma bicicleta colorida.
-C. Um rádio. D. Um livro.
+**3. Transcreve uma hipérbole, uma comparação e uma enumeração. Explica o efeito de uma delas.**
 
-2. O que faz o narrador quando ouve a notícia?
-A. Vai para casa. B. Telefona ao CamaradaMudo.
-C. Pensa em falar com o tio Rui. D. Escreve um poema.
+**4. Identifica duas formas verbais no imperativo. A quem se dirige o anúncio?**
 
-3. Porque não sabe o narrador participar no concurso?
-A. Não sabe andar de bicicleta. B. Não tem jeito para inventar histórias.
-C. Não gosta de concursos. D. Não ouviu as regras.
+**5. O slogan tem duplo sentido (trocadilho). Explica os dois sentidos de «corrente».**
 
-4. Quem sugere que se peça ajuda ao tio Rui?
-A. Isaura. B. O CamaradaMudo.
-C. O próprio narrador. D. Os outros miúdos.
+6. Porque é que as letras pequenas estão… pequenas? O que escondem?
 
-5. Como é descrita a voz do tio Rui?
-A. Muito aguda. B. Constipada.
-C. Muito baixa. D. Rouca como a de um pirata.
+M A R É
+## Pedala mais longe
+## do que o mar.
 
-6. Segundo Isaura, o que acontece aos sons e às palavras?
-A. Desaparecem no ar. B. Ficam presos no papel.
-C. Ficam presos no bigode. D. Entram na rádio.
+**A nova Maré 8 é leve como uma gaivota, forte como o farol e mais rá-**
 
+pida do que o vento norte. Quadro de alumínio, sete mudanças, luzes
+
+LED, travões de disco e um cesto para levares o mundo contigo. Experi-
+
+menta-a este sábado na Praça do Cinema Aurora — e ganha um capa-
+
+cete na compra de qualquer bicicleta até 31 de maio.
+
+Maré. Vai com a corrente.
+
+BICICLETAS DESDE 1962
+
+BANCA 1 · PUBLICIDADE
 122
+
+*Oferta limitada ao stock existente. Capacete de modelo único, sujeito a disponibilidade.
 
 <!-- page 123 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 1 · O F I C I N A
 
-Prime School Press · www.primeschool.pt
+B A N C A 1
+ESCRITA
+GRAMÁTICA
+D O C O M E R C I A L A O N Ã O C O M E R C I A L
+## Vender ou mudar?
 
-## Explícito e inferência
+A Câmara Municipal de Vila Nova do Farol quer que mais alunos vão de bicicleta para a es‐
+**cola. Usa o que aprendeste com o anúncio da Maré para criar uma campanha não**
+**comercial.**
 
-**LÊ NAS ENTRELINHAS · NEM TUDO ESTÁ DITO DIRECTAMENTE**
+ANÚNCIO MARÉ
+A TUA CAMPANHA
 
-**EXPLÍCITO E INFERÊNCIA 72**
-1. O narrador quer muito ganhar a bicicleta. Indica duas informações do texto que comprovam esta ideia.
+**Emissor**
+a marca Maré
 
-2. «Essa promessa assim bem dura de fazer é que me fazia acreditar que eu ia mesmo ganhar a bicicleta.» O que
-percebemos sobre o narrador?
+**Objetivo**
+vender bicicletas
 
-3. Porque será que o narrador fala com a almofada?
+**Público-alvo**
 
-4. Os outros miúdos parecem não acreditar que o narrador possa ganhar. Como percebemos isso?
+**Argumento principal**
 
-5. O narrador considera que pedir ajuda ao tio Rui é batota? (sim / não) Explica.
+**Slogan**
+Maré. Vai com a corrente.
 
-6. A explicação de Isaura sobre os bigodes é realista ou imaginária? Porque combina com o universo da história?
+**Imagem**
 
-**DICA**
+## 1 Escreve o texto da campanha (60 a 80 palavras), com um título, uma hipérbole, uma enumeração, dois
+imperativos e o slogan.
 
-Pista do texto + interpretação = inferência.
+## 2 Passa à passiva: a) Os ciclistas recomendam a Maré 8. b) A marca oferece um capacete. c) A Câmara
+lançará a campanha em setembro.
 
+## 3 Na frase «Pedala mais longe do que o mar», qual é o sujeito? Porque não está escrito?
+DESAFIO
+
+BANCA 1 · OFICINA
 123
 
 <!-- page 124 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 2 · C R Í T I C A
 
-Prime School Press · www.primeschool.pt
+B A N C A 2
+LEITURA
+T E X T O N O V O · C R Í T I C A D E C I N E M A
 
-## O narrador · quem conta a história?
+A L U P A · C I N E M A
+★★★☆☆
 
-**NARRAÇÃO · A VOZ QUE CONTA**
+## A Última Sessão
 
-**QUEM CONTA?**
-Observa: «Quando ouvi a notícia na rádio [...] lembrei-me logo de falar com o tio Rui.»
+Realização de Inês Barros · Portugal, 2026 · 98 minutos · M/12
 
-1. Quem conta os acontecimentos? A história é contada na primeira ou na terceira pessoa?
+por Marta Seixas
 
-2. Retira do texto dois verbos que comprovem a tua resposta.
+**1. Qual é a tese da crítica? Em que parágrafo aparece**
+com mais clareza?
 
-3. O narrador participa nos acontecimentos? (sim / não) Justifica.
+**2. Transcreve dois factos e duas opiniões.**
 
-**RELEMBRA · NARRADOR · AUTOR**
+3. Que aspeto do filme é elogiado? Que argumento o
+sustenta?
 
-O autor é a pessoa real que escreve a obra. O narrador é a voz que conta a história — pode ou não coincidir com
-o autor.
-Completa:
+4. Que aspeto é criticado? Com que exemplo?
 
-Autor:
+5. «Os noventa e oito minutos parecem cento e vinte.»
+Que recurso? Com que intenção?
 
-Narrador:
+6. A classificação (três estrelas) está de acordo com o
+texto? Justifica.
 
-**AS PERSONAGENS · O NARRADOR**
-Assinala as características que consegues justificar:
-☐sonhador ☐determinado ☐curioso ☐desistente ☐ambicioso ☐imaginativo
+Há filmes que se veem com os olhos e filmes
 
-Escolhe duas características e justifica com informações do texto.
+que se veem com a memória. A Última Sessão,
 
+a segunda longa-metragem de Inês Barros,
+quer ser das duas espécies — e só às vezes
+
+consegue.
+
+1
+
+A história passa-se numa vila do Alentejo, em
+
+1998, na semana em que o único cinema vai
+
+fechar. O projecionista, Sr. Alberto (Rui Men‐
+des), tem setenta anos e uma sala vazia; a
+
+neta, Carolina (a estreante Sara Lopes), tem
+catorze e nenhuma vontade de ali estar. Ao
+
+longo de sete noites, os dois projetam os fil‐
+
+mes preferidos do avô para uma plateia que,
+pouco a pouco, volta a encher.
+
+2
+
+O melhor do filme está na imagem. A fotogra‐
+fia de Tiago Reis transforma a sala escura
+
+num lugar mágico: o feixe do projetor atra‐
+
+vessa o fumo como um farol, e cada rosto da
+
+plateia parece um retrato antigo. As cenas
+
+entre avô e neta, quase sem palavras, são das
+mais belas do cinema português recente.
+
+3
+
+O problema é o argumento. A partir de meio,
+o filme repete-se: cada noite traz mais um vi‐
+
+zinho, mais uma lágrima, mais uma lem‐
+
+brança. Sabemos, desde a primeira cena,
+como tudo vai acabar, e a realizadora não nos
+
+surpreende nem uma vez. Os noventa e oito
+minutos parecem cento e vinte.
+
+4
+
+Ainda assim, vale a pena ir. Por Rui Mendes,
+
+que diz mais com as mãos do que muitos ato‐
+res com a voz; por uma banda sonora que dá
+
+vontade de ouvir de novo; e porque um filme
+sobre o amor ao cinema merece ser visto
+
+numa sala escura — de preferência, cheia.
+
+5
+
+BANCA 2 · CRÍTICA
 124
 
 <!-- page 125 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 2 · O F I C I N A
 
-Prime School Press · www.primeschool.pt
+B A N C A 2
+ESCRITA
+R E C O N S T R U I R E R E S P O N D E R
+## O teu veredicto
 
-## As personagens · tio Rui e Isaura
+A E S T R U T U R A D A C R Í T I C A D E M A R T A S E I X A S
 
-**PERSONAGENS · CARACTERIZAÇÃO**
+**§1**
+Introdução e tese
 
-**O TIO RUI**
-1. Como é apresentado pelo narrador? Indica duas características.
+**§2**
+Apresentação (factos)
 
-2. O que o torna especial aos olhos das crianças?
+**§3**
+Argumento a favor
 
-**ISAURA**
-3. O que explica Isaura ao narrador?
+**§4**
+Argumento contra
 
-4. A explicação dela é realista ou fantástica? Justifica.
+**§5**
+Conclusão e recomendação
 
-**ESPAÇO E TEMPO**
-1. Onde vivem as personagens? Que espaço aparece referido várias vezes?
-☐escola ☐rua ☐praia ☐floresta
+## 1 Resume, em cada linha do quadro, a ideia principal do parágrafo (máx. 12 palavras).
 
-2. Indica dois lugares concretos referidos no excerto.
+## 2 Um leitor d'A Lupa discorda: acha que o filme merece cinco estrelas. Escreve a crítica dele (120 a 150
+palavras): tese, dois argumentos com exemplos do filme (usa as informações do texto), conclusão e
+classificação.
 
-3. Em que momento do dia o narrador fala com a almofada? Quando podem as crianças entrar no quintal do tio Rui?
+## 3 Transforma em frases passivas: a) Tiago Reis assina a fotografia. b) A plateia aplaudiu o projecionista.
 
+**Revê**
+○ tese clara
+○ factos e opiniões distinguidos
+○ conectores de oposição (mas, no entanto, ainda assim)
+
+○ classificação coerente
+
+BANCA 2 · OFICINA
 125
 
 <!-- page 126 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 3 · N A R R A T I V A
 
-Prime School Press · www.primeschool.pt
+B A N C A 3
+LEITURA
+T E X T O N O V O · C O N T O I N T E G R A L · O R T O G R A F I A A T U A L I Z A D A
+## O Tesouro
 
-## Vocabulário · palavras do texto
+E Ç A D E Q U E I R Ó S · C O N T O S ( 1 9 0 2 )
 
-**A LINGUAGEM ANGOLANA DA OBRA**
+Eça de Queirós (1845–1900) é um dos maiores romancistas portu-
+gueses. Este conto, que se passa num Reino das Astúrias medie-
+val, tem a forma de uma fábula moral: três irmãos pobres encon-
+tram um cofre de ouro. O que fariam três irmãos com um tesouro
+para dividir?
 
-**EXERCÍCIOS 73**
-1. Relaciona cada palavra com o significado mais adequado.
+Os três irmãos de Medranhos, Rui, Guanes e
 
-**Palavra**
-**Letra**
-**Significado**
+Rostabal, eram então, em todo o Reino das As‐
+túrias, os fidalgos mais famintos e os mais
 
-1. estória
-a.
-pessoa que ajuda um projecto
+remendados.
 
-2. patrocínio
-b.
-história
+1
 
-3. cacimbo
-c.
-estação seca e fresca de Angola
+Nos Paços de Medranhos, a que o vento da
 
-4. bué
-d.
-muito
+serra levara vidraça e telha, passavam eles as
+tardes desse inverno, engelhados nos seus pelo‐
 
-5. xuínga
-e.
-termo do universo linguístico angolano
+tes de camelão, batendo as solas rotas sobre as
 
-2. Procura no texto uma palavra ou expressão que não uses habitualmente. O que pensas que significa?
+lajes da cozinha, diante da vasta lareira negra,
+onde desde há muito não estalava lume, nem
 
-3. Porque é interessante encontrar diferentes variedades do português num texto literário?
+fervia a panela de ferro. Ao escurecer devora‐
+vam uma côdea de pão negro, esfregada com
 
+alho. Depois, sem candeia, através do pátio,
+
+fendendo a neve, iam dormir à estrebaria, para
+aproveitar o calor das três éguas lazarentas
+
+que, esfaimadas como eles, roíam as traves da
+manjedoura. E a miséria tornara estes senhores
+
+mais bravios que lobos.
+
+Ora, na primavera, por uma silenciosa manhã
+
+de domingo, andando todos três na mata de Ro‐
+quelanes a espiar pegadas de caça e a apanhar
+
+tortulhos entre os robles, enquanto as três
+
+éguas pastavam na relva nova de abril, os ir‐
+mãos de Medranhos encontraram, por trás de
+
+uma moita de espinheiros, numa cova de rocha,
+um velho cofre de ferro.
+
+Como se o resguardasse uma torre segura, con‐
+servava as suas três chaves nas suas três fecha‐
+
+duras. Sobre a tampa, mal decifrável através da
+
+ferrugem, corria um dístico em letras árabes. E
+dentro, até às bordas, estava cheio de dobrões
+
+de ouro!
+
+No terror e esplendor da emoção, os três se‐
+
+nhores ficavam mais lívidos do que círios. De‐
+pois, mergulhando furiosamente as suas mãos
+
+no ouro, estalaram a rir, num riso de tão larga
+
+rajada que as folhas tenras de olmos, em roda,
+tremiam... E de novo recuaram, bruscamente se
+
+encararam, com os olhos a flamejar, numa des‐
+
+confiança tão desabrida que Guanes e Rostabal
+apalpavam nos cintos os cabos das grandes fa‐
+
+cas. Então Rui, que era gordo e ruivo, e o mais
+avisado, ergueu o braço, com um árbitro, e co‐
+
+meçou por decidir que o tesouro, ou viesse de
+
+Deus ou do Demónio, pertencia aos três, e en‐
+tre eles se repartiria, rigidamente, e pesando-se
+
+o ouro em balanças. Mas como poderiam carre‐
+gar para Medranhos, para os cimos da serra,
+
+aquele cofre tão cheio? Nem convinha que saís‐
+
+sem da mata com o seu bem, antes de cerrar a
+escuridão. Por isso, ele entendia que o mano
+
+Guanes, como mais leve, devia trotar para a vila
+vizinha de Retortilho, levando já ouro na bolsi‐
+
+nha, a comprar três alforges de couro, três ma‐
+
+quias de cevada, três empadões de carne e três
+botelhas de vinho. Vinho e carne eram para
+
+eles, que não comiam desde a véspera; a cevada
+era para as éguas. E assim refeitos, senhores e
+
+cavalgaduras, ensacariam o ouro nos alforges e
+subiriam para Medranhos, sob a segurança da
+
+noite sem lua.
+
+— Bem tramado! — gritou Rostabal, homem
+
+mais alto que um pinheiro, de longa guedelha, e
+
+com uma barba que lhe caía desde os olhos rai‐
+ados de sangue até à fivela do cinturão.
+
+6
+
+Mas Guanes não se arredava do cofre, enru‐
+gado, desconfiado, puxando entre os dedos a
+
+pele negra do seu pescoço de grou. Por fim,
+brutalmente:
+
+— Manos! O cofre tem três chaves... Eu quero
+fechar a minha fechadura e levar a minha
+
+chave!
+
+— Também eu quero a minha, mil raios! — rugiu
+
+logo Rostabal.
+
+Rui sorriu. Decerto, decerto! A cada dono do
+
+ouro cabia uma das chaves que o guardavam.
+
+BANCA 3 · NARRATIVA
 126
 
 <!-- page 127 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 3 · N A R R A T I V A
 
-Prime School Press · www.primeschool.pt
+E cada um em silêncio, agachado ante o cofre,
 
-## Gramática em contexto · o discurso directo
+cerrou a sua fechadura com força. Imediata‐
+mente, Guanes, desanuviado, saltou na égua,
 
-**GRAMÁTICA · AS FALAS DA HISTÓRIA**
+meteu pela vereda de olmos, a caminho de Re‐
 
-**O DISCURSO DIRECTO**
-Observa:
+tortilho, atirando aos ramos a sua cantiga cos‐
+tumada e dolente:
 
-· É verdade que essa bicicleta [...] não é de verdade?
+*Olé! Olé!*
+11
 
-· Claro que é de verdade · o CamaradaMudo respondeu.
+*Sale la cruz de la iglésia*
 
-1. Quem fala em cada caso?
+*Vestida de negro luto*...
 
-2. Que sinais de pontuação introduzem as falas?
+Na clareira, em frente à moita que encobria o
+tesouro (e que os três tinham desbastado a cu‐
 
-3. Retira do texto uma fala do narrador e uma fala do CamaradaMudo.
+tiladas) um fio de água, brotando entre rochas,
 
-Narrador:
+caía sobre uma vasta laje escavada, onde fazia
+como um tanque, claro e quieto, antes de se es‐
 
-CamaradaMudo:
+coar para as relvas altas. E ao lado, na sombra
+de uma faia, jazia um velho pilar de granito,
 
-**OS VERBOS DO DIÁLOGO**
-1. No excerto, o CamaradaMudo «respondeu». Identifica o verbo que introduz a fala e procura no texto outro verbo
-relacionado com o acto de falar.
+tombado e musgoso. Ali vieram sentar-se Rui e
 
-2. Escreve três outros verbos que poderias utilizar para introduzir uma fala.
+Rostabal, com os seus tremendos espadões en‐
+tre os joelhos. As duas éguas retouçavam a boa
 
-**RELEMBRA**
+erva pintalgada de papoulas e botões-de-ouro.
+Pela ramaria andava um melro a assobiar. Um
 
-No discurso directo, a fala da personagem é reproduzida com as suas palavras, introduzida por travessão ou por
-dois pontos e aspas.
+cheiro errante de violetas adoçava o ar lumi‐
+noso. E Rostabal, olhando o Sol, bocejava com
 
+fome.
+
+Então Rui, que tirara o sombrero e lhe confiava
+
+as velhas plumas roxas, começou a considerar,
+
+na sua fala avisada e mansa, que Guanes, nessa
+manhã, não quisera descer com eles à mata de
+
+Roquelanes. E assim era a sorte ruim! Pois que
+se Guanes tivesse quedado em Medranhos, só
+
+eles dois teriam descoberto o cofre, e só entre
+
+eles dois se dividira o ouro! Grande pena! Tanto
+mais que a parte de Guanes seria em breve dis‐
+
+sipada, com rufiões, aos dados, pelas tabernas.
+
+— Ah! Rostabal, Rostabal! Se Guanes, passando
+
+aqui sozinho, tivesse achado o ouro, não dividia
+connosco, Rostabal! O outro rosnou surda‐
+
+mente e com furor, dando um puxão às barbas
+
+negras:
+
+16
+
+— Não, mil raios! Guanes é sôfrego... Quando o
+
+ano passado, se te lembras, ganhou os cem du‐
+cados ao espadeiro de Fresno, nem me quis em‐
+
+prestar três para eu comprar um gibão novo!
+
+— Vês tu? — gritou Rui, resplandecendo. Ambos
+
+se tinham erguido do pilar de granito, como le‐
+vados pela mesma ideia, que os deslumbrava. E,
+
+através das suas largas passadas, as ervas altas
+
+silvavam.
+
+— E para quê — prosseguia Rui. — Para que lhe
+
+serve todo o ouro que nos leva? Tu não o ouves,
+de noite, como tosse? Ao redor da palha em que
+
+dorme, todo o chão está negro do sangue que
+
+escarra! Não dura até às outras neves, Rostabal!
+Mas até lá terá dissipado os bons dobrões que
+
+deviam ser nossos, para levantarmos a nossa
+casa, e para tu teres ginetes, e armas, e trajes
+
+nobre, e o teu terço de solarengos, como com‐
+
+pete a quem é, como tu, o mais velho dos de
+Medranhos...
+
+— Pois que morra, e morra hoje! — bradou
+Rostabal.
+
+— Queres?
+21
+
+Vivamente, Rui agarrara o braço do irmão e
+
+apontava para a vereda de olmos, por onde
+Guanes partira cantando:
+
+— Logo adiante, ao fim do trilho, há um sítio
+bom, nos silvados. E hás-de ser tu, Rostabal,
+
+que és o mais forte e o mais destro. Um golpe
+de ponta pelas costas. E é justiça de Deus que
+
+sejas tu, que muitas vezes, nas tabernas, sem
+pudor, Guanes te tratava de "cerdo" e de "torpe",
+
+por não saberes a letra nem os números.
+
+— Malvado!
+
+— Vem!
+
+Foram. Ambos se emboscaram por trás de um
+
+silvado que dominava o atalho, estreito e pe‐
+dregoso como um leito de torrente. Rostabal,
+
+assolapado na vala, já tinha a espada nua. Um
+
+vento leve arrepiou na encosta as folhas dos
+álamos — e sentiram o repique leve dos sinos
+
+de Retortilho. Rui, coçando a barba, calculava
+as horas pelo Sol, que já se inclinava para as
+
+serras. Um bando de corvos passou sobre eles,
+
+grasnando. E Rostabal, que lhes seguira o voo,
+recomeçou a bocejar, com fome, pensando nos
+
+empadões e no vinho que o outro trazia nos
+alforges
+
+26
+
+Enfim! Alerta! Era, na vereda, a cantiga dolente
+e rouca, atirada aos ramos:
+
+: : *Olé! Olé!* : *Sale la cruz de la inglésia,* :
+*Vestida de negro luto...*
+
+Rui murmurou: — Na ilharga! Mal que passe!
+
+BANCA 3 · NARRATIVA
 127
 
 <!-- page 128 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 3 · N A R R A T I V A
 
-Prime School Press · www.primeschool.pt
+— O chouto da égua bateu o cascalho, uma
 
-## Recursos expressivos · comparar para imaginar
+pluma num sombrero vermelhejou por sobre a
+ponta das silvas.
 
-**LEITURA · AS PALAVRAS PINTAM IMAGENS**
+Rostabal rompeu de entre a sarça por uma bre‐
+cha, atirou o braço, a longa espada — e toda a
 
-**EXERCÍCIOS 74**
-Observa: «São assim tipo capim que já não se corta desde o último cacimbo.»
+lmina se embebeu molemente na ilharga de
 
-1. Com o que são comparados os bigodes do tio Rui? Que imagem constróis a partir desta comparação?
+Guanes, quando ao rumor, bruscamente, ele se
+virara na sela. Com um surdo arranco, tombou
 
-2. Que recurso expressivo está presente?
-☐metáfora ☐comparação ☐personificação ☐enumeração
+ao lado, sobre as pedras. Já Rui se arremessava
+aos freios da égua — Rostabal, caindo sobre
 
-**A BICICLETA**
-O narrador descreve a bicicleta através das cores: «amarela, vermelha e preta».
+Guanes, que arquejava, de novo lhe mergulhou
 
-3. Que efeito tem esta enumeração?
+a espada, agarrada pela folha como um punhal,
+no peito e na garganta.
 
-4. Escreve uma descrição de uma bicicleta fantástica utilizando pelo menos três cores e uma comparação.
+— A chave! — gritou Rui.
+31
 
+E arrancada a chave do cofre do seio do morto,
+
+ambos largaram pela vereda — Rostabal adi‐
+ante, fugindo, com a pluma do *sombrero*
+
+quebrada e torta, a espada ainda nua entalada
+sob o braço, todo encolhido, arrepiado com o
+
+sabor do sangue que lhe espirrara com a boca;
+
+Rui atrás, puxava desesperadamente os freios
+da égua, que de patas fincadas no chão pedre‐
+
+goso, arreganhando a longa dentaduça amarela,
+não queria deixar o seu amo assim estirado,
+
+abandonado, ao comprido das sebes.
+
+Teve de lhe espicaçar as ancas lazarentas com
+
+a ponta da espada — e foi correndo sobre ela,
+de lmina alta, como se perseguisse um mouro,
+
+que desembocou na clareira onde o sol já não
+
+dourava as folhas. Rostabal arremessara para a
+relva o *sombrero* e a espada, e debruçado so‐
+
+bre a laje escavada em tanque, de mangas arre‐
+gaçadas, lavava, ruidosamente, a face e as
+
+barbas.
+
+A égua, quieta, recomeçou a pastar, carregadas
+
+com os alforges novos que Guanes comprara
+
+em Retortilho. Do mais largo, abarrotado, sur‐
+diam dois gargalos de garrafas. Então Rui tirou,
+
+lentamente, do cinto, a sua larga navalha. Sem
+um rumor na relva espessa, deslizou até Rosta‐
+
+bal, que resfolegava, com as longas barbas pin‐
+
+gando. E serenamente, como se pregasse uma
+estaca num canteiro, enterrou a folha toda no
+
+largo dorso dobrado, certeira sobre o coração.
+
+Rostabal caiu sobre o tanque, sem um gemido,
+
+com a face na água, os longos cabelos flutu‐
+ando na água. A sua velha escarcela de couro fi‐
+
+cara estalada sob a coxa. Para tirar de dentro a
+
+terceira chave do cofre, Rui solevou o corpo —
+e um sangue mais grosso jorrou, escorreu pela
+
+borda do tanque, fumegando.
+
+Agora eram dele, só dele, as três chaves do co‐
+
+fre!... E Rui, alargando os braços, respirou deli‐
+
+ciosamente. Mal a noite descesse, com o ouro
+metido nos alforges, guiando a fila das éguas
+
+pelos trilhos da serra, subiria a Medranhos e
+enterraria na adega o seu tesouro! E quando ali
+
+na fonte, e além rente aos silvados, só restas‐
+
+sem, sob as neves de Dezembro, alguns ossos
+sem nome, ele seria o magnífico senhor de Me‐
+
+dranhos, e na capela nova do solar renascido
+mandaria dizer missas ricas pelos seus dois ir‐
+
+mãos mortos... Mortos como? Como devem
+
+morrer os de Medranhos — a pelejar o Turco!
+
+36
+
+Abriu as três fechaduras, apanhou um pu‐
+
+nhado de dobrões, que fez retinir sobre as pe‐
+dras. Que puro ouro, de fino quilate! E era o seu
+
+ouro! Depois foi examinar a capacidade dos al‐
+forges — e encontrando as duas garrafas de vi‐
+
+nho, e um gordo capão assado, sentiu uma
+imensa fome. Desde a véspera só comera uma
+
+lasca de peixe seco. E há quanto tempo não
+
+provava capão.
+
+Com que delícia se sentou na relva, com as per‐
+
+nas abertas, e entre elas a ave loura, que res‐
+cendia, e o vinho cor de mbar! Ah! Guanes fora
+
+bom mordomo — nem esquecera azeitonas.
+Mas porque trouxera ele, para três convivas, só
+
+duas garrafas? Rasgou uma asa do capão: devo‐
+
+rada a grandes dentadas. A tarde descia, pensa‐
+tiva e doce, com nuvenzinhas cor-de-rosa.
+
+Para além, na vereda, um bando de corvos gras‐
+nava. As éguas fartas dormitavam, com o foci‐
+
+nho pendido. E a fonte cantava, lavando o
+morto.
+
+Rui ergueu à luz a garrafa de vinho. Com aquela
+cor velha e quente, não teria custado menos de
+
+três maravedis. E pondo o gargalo à boca, be‐
+
+beu em sorvos lentos, que lhe faziam ondular o
+pescoço peludo. Oh vinho bendito, que tão
+
+prontamente aquecia o sangue! Atirou a gar‐
+rafa vazia — destapou outra. Mas, como era avi‐
+
+sado, não bebeu, porque a jornada para a serra,
+
+com o tesouro, requeria firmeza e acerto.
+
+BANCA 3 · NARRATIVA
 128
 
 <!-- page 129 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 3 · N A R R A T I V A
 
-Prime School Press · www.primeschool.pt
+VOCABULÁRIO
 
-## Educação literária · como se constrói uma narrativa
+ANTES DE RESPONDER · TRÊS PLANOS
 
-**ESTRUTURA · DA SITUAÇÃO INICIAL AO DESFECHO**
+**Rui**
 
-**Elemento**
-**O que é**
+**Rostabal**
 
-Situação inicial
-Conhecemos as personagens e o contexto.
+**Guanes**
 
-Problema / desejo
-Surge algo que desencadeia a acção.
+Estendido sobre o cotovelo, descansando, pen‐
 
-Desenvolvimento
-As personagens procuram resolver o problema.
+sava em Medranhos coberto de telha nova, nas
+altas chamas da lareira por noites de neve, e o
 
-Momentos importantes
-A acção vai avançando.
+seu leito com brocados, onde teria sempre
 
-Desfecho
-A situação é resolvida.
+mulheres.
 
-**NESTE EXCERTO...**
-Situação inicial: conhecemos a rua, o tio Rui e o CamaradaMudo.
+De repente, tomado de uma ansiedade, teve
 
-Desejo do narrador:
+pressa de carregar os alforges. Já entre os tron‐
+cos a sombra se adensava. Puxou uma das
 
-Problema:
+éguas para junto do cofre, ergueu a tampa, to‐
+mou um punhado de ouro... Mas oscilou, lar‐
 
-Primeira solução pensada:
+gando os dobrões, que retilintaram no chão, e
 
-Nova informação:
+levou as duas mãos aflitas ao peito. Que é, D.
+Rui? Raios de Deus? Era um lume, um lume
 
-**O MUNDO REAL E O MUNDO DA IMAGINAÇÃO**
-Este texto mistura elementos do quotidiano com elementos fantásticos.
+vivo, que se lhe acendera dentro, lhe subia até
+às goelas. Já rasgara o gibão, atirava os passos
 
-MUNDO REAL · escreve quatro elementos que poderiam existir na realidade:
+incertos, e, a arquejar, com a língua pendente,
 
-MUNDO DA IMAGINAÇÃO · escreve dois elementos do universo imaginário:
+limpava as grossas bagas de um suor horrendo
+que o regelava como neve. Oh Virgem Mãe! Ou‐
 
-O que acontece quando estes dois mundos se misturam?
+tra vez o lume, mais forte, que alastrava, o roía!
+Gritou:
 
+41
+
+— Socorro! Alguém! Guanes! Rostabal!
+
+Os seus braços torcidos batiam o ar desespera‐
+
+damente. E a chama dentro galgava — sentia os
+ossos a estalarem como as traves de uma casa
+
+em fogo.
+
+Cambeleou até à fonte para apagar aquela la‐
+
+bareda, tropeçou sobre Rostabal; e foi com o
+joelho ficando no morto, arranhando a rocha,
+
+que ele, entre uivos, procurava o fio de água,
+
+que recebia sobre os olhos, pelos cabelos. Mas
+a água mais o queimava, como se fosse um me‐
+
+tal derretido.
+
+Recuou, caiu para cima da relva, que arrancava
+
+aos punhados, e que mordia, mordendo os de‐
+dos, para lhe sugar a frescura. Ainda se ergueu,
+
+com uma baba densa a escorrer-lhe nas barbas:
+
+e de repente, esbugalhando pavorosamente os
+olhos, berrou, como se compreendesse enfim a
+
+traição, todo o horror:
+
+— É veneno!
+46
+
+Oh! D. Rui, o avisado, era veneno! Porque Gua‐
+nes, apenas chegara a Retortilho, mesmo antes
+
+de comprar os alforges, correra cantando a
+uma viela, por detrás a catedral, a comprar ao
+
+velho droguista judeu o veneno que, misturado
+
+ao vinho, o tornaria a ele, a ele somente, dono
+de todo o tesouro.
+
+Anoiteceu. Dois corvos, de entre o bando que
+grasnava além dos silvados, já tinham pousado
+
+sobre o corpo de Guanes. A fonte, cantando, la‐
+vava o outro morto. Meio enterrada na erva ne‐
+
+gra, toda a face de Rui se tornara negra. Uma
+
+estrelinha tremeluzia no céu.
+
+O tesouro ainda lá está, na mata de Roquelanes.
+
+Eça de Queirós, «O Tesouro», em Contos (1902). Domínio público.
+
+Texto da Wikisource, ortografia atualizada.
+
+**pelote casaco antigo, sem mangas · camelão tecido**
+**grosseiro · engelhados encolhidos, enrugados · laza‐**
+
+**rentas doentes, magras · tortulhos cogumelos · robles**
+**carvalhos · dobrões antigas moedas de ouro · lívidos**
+**muito pálidos · círios velas grandes · alforges sacos**
+**duplos para levar na montada · droguista vendedor de**
+drogas e remédios
+
+O que planeou cada irmão? Quem morre primeiro?
+
+Porque é que ninguém fica com o ouro?
+
+BANCA 3 · NARRATIVA
 129
 
 <!-- page 130 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 3 · O F I C I N A
 
-Prime School Press · www.primeschool.pt
+B A N C A 3
+ED. LITERÁRIA
+GRAMÁTICA
+A S C A T E G O R I A S D A N A R R A T I V A
+## Três irmãos, um cofre
 
-## Interpretação aprofundada
+CATEGORIA
+NO CONTO
+PROVA (§)
 
-**PENSA MAIS FUNDO**
+**Narrador**
 
-**INTERPRETAÇÃO 75**
-1. O narrador quer ganhar a bicicleta apenas para si? Justifica.
+participante?
+presente?
 
-2. O que revela a promessa que ele faz sobre a sua relação com as outras crianças?
+**Espaço físico**
 
-3. Porque assume a bicicleta tanta importância para o narrador?
+**Espaço social**
 
-4. Achas que o narrador é uma personagem realista ou sonhadora? Justifica com elementos do texto.
+**Tempo**
 
-5. Porque é que a explicação de Isaura sobre a voz do tio Rui é importante para a história?
+época · duração
 
-**PARA PENSAR**
+**Personagens**
 
-A promessa «bem dura de fazer» — deixar todos andarem na bicicleta sem pedir nada em troca — mostra que o
-desejo do narrador não é egoísta: é um desejo partilhado com a rua inteira.
+principais ·
+caracterização
 
+**1. Divide o conto em situação inicial, desenvolvimento**
+**e desenlace. Indica os parágrafos.**
+
+2. Que traço de caráter une os três irmãos? Justifica
+com uma frase do conto.
+
+3. Rui é «o mais avisado». No fim, o narrador chama-lhe
+«D. Rui, o avisado». Que efeito tem esta repetição?
+**(Pensa na ironia.)**
+
+4. «O tesouro ainda lá está, na mata de Roquelanes.»
+Qual é a lição (moralidade) do conto?
+
+**5. Transcreve uma comparação do 1.º ou do 2.º pará-**
+grafo e explica-a.
+
+6. Identifica e classifica a oração subordinada: «Ele en-
+tendia que o mano Guanes, como mais leve, devia
+trotar para a vila vizinha de Retortilho.»
+
+7. Classifica a oração sublinhada: «[Guanes foi com-
+prar] o veneno que, misturado ao vinho, o tornaria a
+ele, a ele somente, dono de todo o tesouro.»
+
+**8. Reescreve no discurso indireto: «— É veneno!», ber-**
+rou Rui.
+
+BANCA 3 · OFICINA
 130
 
 <!-- page 131 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 4 · P O E S I A
 
-Prime School Press · www.primeschool.pt
+B A N C A 4
+ED. LITERÁRIA
+T E X T O N O V O · S O N E T O I N T E G R A L · O R T O G R A F I A A T U A L I Z A D A
+## Amor é um fogo
 
-## Oficina de escrita · um objecto mágico
+LUÍS DE CAMÕES (C. 1524–1580) · RIMAS, EDI-
+ÇÃO PÓSTUMA
 
-**ESCRITA · 150 A 200 PALAVRAS**
+Camões, o poeta de Os Lusíadas, escreveu também
+dezenas de sonetos. Este é, talvez, o mais conhe-
+**cido da língua portuguesa: uma tentativa de definir**
+o amor.
 
-**EXERCÍCIOS 76**
-Imagina que existe um objecto especial na tua rua. Pode ser: uma mochila que guarda segredos · uma caneta que
-escreve o futuro · um rádio que fala com os animais · uma bicicleta que sabe para onde quer ir · um livro que muda as
-histórias.
+Luís de Camões, soneto. Domínio público. Texto da Wiki-
+source, ortografia atualizada.
 
-Escreve uma narrativa de 150 a 200 palavras. Deves incluir:
-☐um narrador ☐duas personagens ☐o objecto mágico
-☐um problema ☐uma situação inesperada ☐um final
+**Ouve o soneto (Wikimedia Commons, leitura**
+de Daniel Barbosa, domínio público). A lei-
+tura respeita as pausas das vírgulas?
 
-**A MINHA NARRATIVA**
+1. Confirma que é um soneto: estrofes, versos e es-
+quema rimático.
 
+2. Faz a escansão do verso 1. Quantas sílabas métri-
+cas tem? Como se chama este verso?
+
+3. Que palavra se repete no início de quase todos
+os versos? Como se chama o recurso?
+
+4. «contentamento descontente», «dor que desatina
+sem doer»: que recurso predomina? Porquê usá-
+lo para falar do amor?
+
+5. Os tercetos terminam com uma pergunta. O que
+pergunta o sujeito poético?
+
+6. Compara com «Fanatismo», de Florbela (p. 94):
+que visão do amor tem cada um?
+
+Amor é um fogo que arde sem se ver;
+1
+
+é ferida que dói, e não se sente;
+
+é um contentamento descontente;
+
+é dor que desatina sem doer.
+
+É um não querer mais que bem querer;
+5
+
+é solitário andar por entre a gente;
+
+é um não contentar-se de contente;
+
+é cuidar que se ganha em se perder.
+
+É um estar-se preso por vontade;
+
+é servir a quem vence, o vencedor;
+10
+
+é um ter com quem nos mata, lealdade.
+
+Mas como causar pode o seu favor
+
+nos mortais corações conformidade,
+sendo a si tão contrário o mesmo Amor?
+14
+
+BANCA 4 · POESIA
 131
 
 <!-- page 132 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+B A N C A 5 · T E A T R O
 
-Prime School Press · www.primeschool.pt
+B A N C A 5
+ED. LITERÁRIA
+ORALIDADE
+T E X T O N O V O · C E N A
+## A última bobina
 
-## Escrita criativa · a bicicleta ganhou vida
+(Cabina de projeção do Cinema Aurora. Noite. O projetor está desligado; só uma lâmpada pequena ilumina
+a mesa, cheia de latas de filme. O SR. ALBERTO, projecionista, enrola devagar uma bobina. Entra INÊS, 13
+anos, com um caderno.)
 
-**ESCRITA · 180 A 220 PALAVRAS**
+INÊS Sr. Alberto? A professora disse que o senhor me podia mostrar como se projeta um filme a
+sério. Para o trabalho de Português.
 
-**ESCRITA CRIATIVA 77**
-Imagina que, durante a noite, a bicicleta do concurso aparece à porta da casa do narrador. Quando ele se aproxima, a
-bicicleta começa a falar. O que lhe diria? Escreve a continuação da história. Não te esqueças de:
-☐descrever a bicicleta ☐criar diálogo ☐incluir uma situação surpreendente
-☐utilizar pelo menos uma comparação ☐criar um final
+SR. ALBERTO (Sem se voltar.) Um filme a sério… Hoje já ninguém sabe o que isso é. Senta-te ali. Não
+mexas em nada.
 
-**DESAFIO · O TEU CONCURSO DE HISTÓRIAS 78**
-A Rádio Nacional lançou um novo concurso. PRÉMIO: a bicicleta mais extraordinária do mundo! Mas há uma regra:
-para ganhar, tens de escrever uma história que faça os jurados acreditar que a bicicleta tem vida própria. Cria o INÍCIO
-dessa história em 100 palavras, começando por:
-«Naquela manhã, a bicicleta estava à minha espera.»
+(INÊS senta-se num banco. Abre o caderno.)
 
+INÊS Há quanto tempo trabalha aqui?
+
+SR. ALBERTO Quarenta e dois anos. Entrei no dia em que estreou Os Pássaros. (Pausa. Pousa a bo-
+
+bina.) Amanhã passam tudo para digital. Carregam num botão e pronto.
+
+INÊS (À parte.) Então é por isso que está tão triste.
+
+SR. ALBERTO Queres ver a última? A última bobina de verdade?
+
+(Liga o projetor. Ouve-se o ruído do motor. Um feixe de luz atravessa a cabina e sai pela janelinha para a
+sala vazia. INÊS levanta-se e espreita.)
+
+INÊS (Baixinho, maravilhada.) Parece um farol.
+
+SR. ALBERTO (Sorri pela primeira vez.) É um farol. Durante quarenta e dois anos, guiou toda a gente
+desta vila para o mesmo sítio. (Estende-lhe a manivela.) Anda. A última, projetas tu.
+
+(INÊS pega na manivela. A luz do feixe ilumina-lhes os rostos. Escuro lento.)
+
+**1. Transcreve uma didascália de espaço, uma de luz e**
+**uma de tom.**
+
+**2. Onde está o aparte? Que informação dá ao público?**
+
+3. Como muda o Sr. Alberto do início para o fim da
+cena? Que didascália o mostra?
+
+**4. «É um farol.» Explica a metáfora.**
+
+5. Identifica o sujeito, o CD e o CI: «O Sr. Alberto estende
+a manivela à Inês.»
+
+6. A pares, leiam a cena em voz alta. Depois, escrevam
+mais três falas para a continuar.
+ORALIDADE
+
+BANCA 5 · TEATRO
 132
 
 <!-- page 133 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 2 · UMA VIAGEM, MUITAS HISTÓRIAS
+C I R C U I T O D E G R A M Á T I C A 1
 
-Prime School Press · www.primeschool.pt
+C I R C U I T O 1
+GRAMÁTICA
+O V E R B O E A F R A S E
+## Frase ativa, conjuntivo e relativas
 
-## Passaporte literário · A Bicicleta que Tinha Bigodes
+A
+**Ativa e passiva**
+p. 26
 
-**REGISTO DE LEITURA**
+Passa à passiva ou à ativa, mantendo o tempo
+verbal.
 
-**A MINHA LEITURA**
+a. O narrador descreve o castelo.
 
-**O meu registo**
-**Resposta**
+b. Violeta foi expulsa pelo rei.
 
-Tipo de texto
+c. Os três irmãos encontraram um cofre.
 
-A personagem de que mais gostei
+d. O júri escolherá o melhor anúncio.
 
-A personagem que gostaria de conhecer
+B
+**Conjuntivo**
+p. 54
 
-O elemento mais engraçado
+Completa com o verbo no conjuntivo.
 
-O elemento mais fantástico
+a. Espero que tu
 
-Uma palavra nova que aprendi
+(ler) o conto até sexta.
 
-Uma expressão de que gostei
+b. Talvez o cinema
 
-Se eu pudesse entrar nesta história...
+(reabrir) no verão.
 
-**UMA FRASE PARA LEVAR CONTIGO**
+c. Se eu
+(encon-
 
-«Se eu ganhar a bicicleta colorida, vou deixar todos da minha rua andarem sem pedir nada em troca.» — O melhor
-prémio é o que se partilha.
+trar) um tesouro, dividia-o.
 
+d. Quando
+(chegar)
+ao palco, respira fundo.
+
+C
+**Pronome relativo**
+p. 47
+
+Junta as frases com um pronome relativo (que,
+quem, o qual, onde, cujo).
+
+a. Li um conto. O conto passa-se nas Astúrias.
+
+b. Esta é a vila. Na vila fica o Cinema Aurora.
+
+c. O poeta escreveu «Sísifo». O nome verdadeiro
+
+do poeta era Adolfo.
+
+D
+**Tempos do indicativo**
+p. 72
+
+Identifica o tempo das formas sublinhadas.
+
+a. Os irmãos eram os fidalgos mais famintos.
+
+b. Guanes partiu para Retortilho.
+
+c. O tesouro ainda lá está.
+
+d. Rui tinha pensado em tudo.
+
+e. Amanhã projetarás tu.
+
+I
+**Formação de palavras**
+p. 62
+
+**Indica o processo de formação: derivação (prefixação, sufixação, parassíntese), composição ou outro.**
+
+a. projecionista
+
+b. descontente
+
+c. guarda-chuva
+
+d. entristecer
+
+e. bilheteira
+
+f. desconfiança
+
+g. madrugada (atenção: não é formada!)
+
+h. luso-descendente
+
+CIRCUITO DE GRAMÁTICA 1
 133
 
 <!-- page 134 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C I R C U I T O D E G R A M Á T I C A 2
 
-Prime School Press · www.primeschool.pt
+C I R C U I T O 2
+GRAMÁTICA
+A F R A S E C O M P L E X A E A S F U N Ç Õ E S S I N T Á T I C A S
+## Orações e funções
 
-## Unidade 3 · O Palco à Espera
+E
+**Classificar orações**
+p. 44 · 51 · 84
 
-**Luísa Ducla Soares · Gulliver em Portugal**
+**Classifica a oração sublinhada: relativa, completiva, condicional ou final.**
 
-[palco]
+a. Rui disse que o tesouro era dos três.
 
-**PARA PENSAR**
+b. Se o sabes, cumpre o teu dever.
 
-E se um gigante chegasse a Portugal? O que é que ele veria de diferente em nós · e nós nele?
+c. Guanes foi à vila para comprar os alforges.
 
-ORALIDADE · ler em voz alta como um actor, debate.
-LEITURA · o texto dramático: acto, cena, fala, didascália.
-EDUCAÇÃO LITERÁRIA · Luísa Ducla Soares e Gulliver em Portugal.
-ESCRITA · entrevista e cena de teatro.
-GRAMÁTICA · frases simples e complexas, em contexto.
+d. O cofre que encontraram estava cheio de ouro.
 
-**ANTES DE LER**
-1. Conheces o Gulliver? O que sabes das suas viagens?
-2. Imagina que um personagem gigante chega à tua cidade: que surpresas o esperam?
-3. O que é preciso para transformar um texto escrito num espectáculo?
+e. Não sei se o filme vale cinco estrelas.
 
+f. Caso chova, o sarau é no ginásio.
+
+F
+**Funções sintáticas**
+p. 114 · 62 · 68
+
+Identifica: sujeito (S), complemento direto (CD), complemento indireto (CI), modificador do grupo verbal (MGV),
+modificador do nome (MN).
+
+a. Na primavera, os três irmãos encontraram um velho cofre de ferro.
+
+b. O projecionista mostrou a cabina à rapariga curiosa.
+
+c. Violeta ofereceu ao pai um jantar sem sal.
+
+d. A crítica d'A Lupa elogiou a fotografia do filme.
+
+G
+**Pronomes átonos**
+p. 68
+
+Substitui os complementos por pronomes.
+
+a. Rostabal matou Guanes.
+
+b. Guanes deu o vinho aos irmãos.
+
+c. Vou contar a história à turma.
+
+H
+**Frase simples ou**
+**complexa?**
+
+p.
+44
+
+Conta os verbos e classifica.
+
+a. O tesouro ainda lá está.
+
+b. Rui ergueu o braço e começou a falar.
+
+c. Quando anoiteceu, dois corvos pousaram no
+
+corpo.
+
+CIRCUITO DE GRAMÁTICA 2
 134
 
 <!-- page 135 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E D E T R E I N O
 
-Prime School Press · www.primeschool.pt
+T E S T E D E T R E I N O
+4 5 M I N U T O S · I N D I V I D U A L · S E M C O N S U L T A
+## Prova mista
 
-## Conhece a autora – Luísa Ducla Soares
+T E X T O · C A R T A D E U M E S P E C T A D O R
 
-**LITERATURA · A AUTORA**
+GRUPO I · LEITURA
+40%
 
-Lisboa, cenário da história (ilustração).
+1. Qual é o motivo da carta? (8)
 
-Luísa Ducla Soares nasceu em Lisboa, em 1939, e é uma das mais importantes
-escritoras portuguesas para crianças e jovens. Ao longo da sua carreira, escreveu
-poesia, contos, teatro e muitos outros textos. A sua obra caracteriza-se pelo
-humor, pela criatividade, pelo gosto pelas palavras e pela capacidade de
-transformar situações conhecidas em histórias surpreendentes.
+2. «Não era pelos filmes.» Então, era porquê? Explica por palavras tuas. (10)
 
-A autora também gosta de recuperar personagens e histórias da literatura universal, dando-lhes
-novos caminhos e aproximando-as dos leitores portugueses. É isso que acontece em As Viagens
-de Gulliver com Escala em Portugal: a personagem Gulliver faz uma nova viagem e chega a
-Portugal. Através do seu olhar de viajante, o leitor descobre um país diferente e observa
-costumes, pessoas e acontecimentos de uma forma divertida e inesperada.
+3. Explica o sentido de «o homem invisível desta vila». (10)
 
-**SABIAS QUE?**
+4. Transcreve uma antítese e uma metáfora. (12)
 
-A personagem Gulliver foi criada pelo escritor irlandês Jonathan Swift, no século XVIII. Luísa Ducla
-Soares recupera esta personagem e imagina uma passagem por Portugal.
-PALAVRAS-CHAVE: viagem · aventura · humor · teatro · imaginação · crítica
+GRUPO II · GRAMÁTICA
+30%
 
+5. Classifica a oração «Se um dia a cabina ficar vazia». (6)
+
+6. Identifica o tempo e o modo de «ficar» em «Se um dia a cabina ficar vazia». (6)
+
+7. Passa à passiva: «O avô trazia a neta ao Aurora.» (6)
+
+8. Indica a função sintática de «o meu avô» e de «todos os domingos» (§1). (6)
+
+9. Classifica a palavra «invisível» quanto ao processo de formação. (6)
+
+Caro Sr. Alberto: escrevo-lhe porque ontem, na última sessão em película, percebi finalmente por
+
+que razão o meu avô me trazia ao Aurora todos os domingos. Não era pelos filmes. Era pela escuri‐
+
+dão partilhada, por aquele minuto em que a sala inteira respira ao mesmo tempo.
+
+1
+
+O senhor foi, durante quarenta anos, o homem invisível desta vila. Ninguém o via, mas todos vía‐
+
+mos o que o senhor nos mostrava. Se um dia a cabina ficar vazia, espero que alguém se lembre de
+
+que houve uma luz que nunca se apagou. Obrigada. — Ana, 13 anos
+
+5
+
+TESTE DE TREINO
 135
 
 <!-- page 136 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E D E T R E I N O
 
-Prime School Press · www.primeschool.pt
+T E S T E D E T R E I N O
+C O N T I N U A Ç Ã O
 
-## Gulliver chega a Portugal!
+GRUPO III · ESCRITA
+30%
 
-**LITERATURA · A OBRA**
+**Planifica antes de escrever**
 
-Gulliver é um viajante extraordinário. Já conheceu lugares muito diferentes, encontrou povos
-desconhecidos e viveu aventuras que dificilmente alguém acreditaria. Mas uma nova viagem leva-o até
-Portugal.
+**Saudação**
 
-Estamos em Lisboa, no tempo de D. João V. Gulliver observa tudo com atenção: as pessoas, as roupas,
-os costumes e a riqueza da sociedade portuguesa despertam a sua curiosidade.
+**Agradeço…**
 
-Gulliver vê Portugal com olhos de estrangeiro: aquilo que para os portugueses pode parecer normal
-pode parecer estranho a alguém que chega de um lugar distante. É precisamente esse olhar que torna
-esta aventura divertida.
+**O momento**
 
-**NESTA UNIDADE VAIS...**
+**O conselho**
 
-descobrir como funciona um texto dramático · conhecer melhor as personagens · identificar espaço
-e tempo · aprender a fazer inferências · interpretar diálogos · trabalhar palavras compostas ·
-escrever e representar uma cena.
+**Despedida**
 
+10. Responde à Ana como se fosses o Sr. Alberto (120 a 160 palavras): agradece, conta um momento marcante da
+tua vida no cinema e dá-lhe um conselho. (30)
+
+CRITÉRIOS DO GRUPO III
+PONTOS
+OS MEUS
+
+Formato de carta: saudação, corpo, despedida, assinatura
+5
+
+Conteúdo: agradecimento, momento narrado, conselho
+10
+
+Organização em parágrafos e uso de conectores
+5
+
+Correção linguística: ortografia, pontuação, concordâncias
+7
+
+Extensão (120–160 palavras)
+3
+
+TESTE DE TREINO
 136
 
 <!-- page 137 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+O L E I T O R Q U E É S A G O R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 5
+ESCRITA
+ORALIDADE
+R E F L E X Ã O
+## O leitor que és agora
 
-## Antes de ler
+**Passaporte da última noite**
+carimbo do professor em cada banca
 
-**PRÉ-LEITURA**
+**1**
 
-Imagina que chegas a um país desconhecido. Não conheces as pessoas, não conheces os costumes, não
-sabes o que é normal naquele lugar.
+Publicidade
 
-**1. O QUE OBSERVARIAS PRIMEIRO? ESCOLHE TRÊS.**
+**2**
 
-☐  as pessoas
-☐  a comida
+Crítica
 
-☐  as casas
-☐  as roupas
+**3**
 
-☐  os transportes
-☐  os monumentos
+Narrativa
 
-☐  os costumes
-☐  a paisagem
+**4**
 
-**2. EXPLICA UMA DAS TUAS ESCOLHAS.**
+Poesia
 
-**3. OBSERVA O TÍTULO**
+**5**
 
-As Viagens de Gulliver com Escala em Portugal. O que significa fazer uma escala durante uma viagem?
+Teatro
 
-**4. FAZ UMA PREVISÃO**
+O M E U A N O E M C I N C O E S C O L H A S
 
-O que poderá surpreender Gulliver quando chegar a Portugal?
+O texto que mais gostei de ler
 
-**PENSA**
+O verso que sei de cor
 
-Será que vemos o nosso país da mesma maneira que um estrangeiro o vê?
+A personagem que me ensinou alguma coisa
 
+O trabalho de que mais me orgulho
+
+O que ainda tenho de melhorar
+
+## 1 Escreve uma carta ao aluno que vai começar o 7.º ano no próximo setembro (120 a 150 palavras): o que
+vai encontrar, o que vai adorar, o que vai achar difícil, e um conselho de leitor para leitor.
+
+## 2 Lê a tua carta à turma em 1 minuto. Ouve as dos colegas: que conselho repetiram mais?
+ORALIDADE
+
+O LEITOR QUE ÉS AGORA
 137
 
 <!-- page 138 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+S O L U Ç Õ E S
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 5
+S O L U Ç Õ E S · 1 D E 2
+**p. 122 · Banca 1. 1. Comercial: há uma marca (Maré), um**
+produto e um preço/promoção («ganha um capacete na
+compra»). 2. Jovens e famílias que gostam de andar ao ar
+livre: «levares o mundo contigo», «pedala», a praça do ci-
+nema. 3. Hipérbole: «Pedala mais longe do que o mar» ·
+comparação: «leve como uma gaivota», «forte como o fa-
+rol» · enumeração: «Quadro de alumínio, sete mudanças,
+luzes LED…» — acumula vantagens e faz o produto parecer
+completo. 4. Pedala, Experimenta, ganha, Vai: dirige-se di-
+retamente ao leitor (tu). 5. A corrente da bicicleta e a cor-
+rente do mar (ou «ir com a corrente» = seguir a moda). 6.
+Para não chamarem a atenção: limitam a oferta (stock,
+modelo único).
 
-## Vamos ler – Gulliver em Portugal
+**p. 123 · Oficina 1. 2. a) A Maré 8 é recomendada pelos ci-**
+clistas. b) Um capacete é oferecido pela marca. c) A
+campanha será lançada pela Câmara em setembro. 3. Su-
+jeito nulo subentendido: tu (imperativo).
 
-**TEXTO DRAMÁTICO · LUÍSA DUCLA SOARES**
+**p. 124 · Banca 2. 1. O filme vale a pena, apesar de um argu-**
+mento repetitivo (§1 e §5). 2. Factos: realização de Inês
+Barros; 98 minutos; passa-se no Alentejo em 1998 · Opi-
+niões: «O melhor do filme está na imagem»; «O problema
+é o argumento». 3. A imagem/fotografia: o feixe do proje-
+tor, os rostos como retratos antigos. 4. O argumento: re-
+pete-se e não surpreende. 5. Hipérbole: sublinha que o
+filme parece longo e aborrecido. 6. Sim: há elogios e críti-
+cas equilibrados — nem ótimo, nem mau.
 
-**ESPAÇO**
-**TEMPO**
-**PERSONAGENS**
+**p. 125 · Oficina 2. 3. a) A fotografia é assinada por Tiago**
+Reis. b) O projecionista foi aplaudido pela plateia.
 
-Lisboa
-Tempo de D. João V
-Gulliver · Maria · Manuel · Crianças · D. Pedro Mendes
+MODELO · CAMPANHA (OFICINA 1)
 
-Lisboa, no tempo de D. João V.
+Vai à escola com as tuas pernas! Todas as ma‐
 
-O cenário é uma varanda com bancos de azulejo e, ao fundo, a vista da cidade.
+nhãs, mil carros enchem a rua da escola. Tu
+podes mudar isso. A bicicleta é silenciosa, ba‐
 
-(Gulliver, junto à face exterior do palco, dirige-se às crianças.)
+rata, saudável e não deita fumo. Pega na tua,
+chama um amigo e pedala até às aulas: che‐
+gas mais acordado do que o sol. A Câmara
 
-**GULLIVER — Apetrechei um barco e fiz-me novamente ao mar. Sonhava ir viver para uma ilha deserta. Mas a**
+oferece estacionamento seguro em todas as
+**escolas. Vila Nova do Farol. Aqui, quem pe‐**
+**dala chega primeiro.**
 
-ilha onde fui ter estava cheia de selvagens. Atacaram-me. Sabem quem me salvou?
+**p. 130 · Banca 3. Narrador não participante, ausente, que comenta**
+(«Oh! D. Rui, o avisado, era veneno!»). Espaço físico: Paços de Medra-
+nhos, mata de Roquelanes, Retortilho. Espaço social: fidalgos pobres,
+famintos. Tempo: Idade Média; a ação principal dura um dia de prima-
+vera (de manhã ao anoitecer). Personagens: os três irmãos — ambici-
+osos, desconfiados, violentos. 1. Situação inicial: a miséria dos ir-
+mãos (§1–2) · desenvolvimento: a descoberta e os planos de traição ·
+desenlace: as três mortes e a frase final. 2. A ganância/ambição: «a
+miséria tornara estes senhores mais bravios que lobos». 3. Ironia: o
+«avisado» é enganado e morre envenenado. 4. A ganância destrói
+quem a tem; o ouro não serviu a ninguém. 5. «mais bravios que lo-
+bos»: a fome tornou-os ferozes como animais. 6. Subordinada subs-
+tantiva completiva. 7. Subordinada adjetiva relativa. 8. Rui berrou que
+era veneno.
 
-**MARIA — Um golfinho...**
+**p. 131 · Banca 4. 1. Duas quadras e dois tercetos; ABBA ABBA CDC DCD.**
+2. A / mor / é_um / fo / go / que_ar / de / sem / se / ver = 10 · decassí-
+labo. 3. «é» — anáfora. 4. Antítese/paradoxo: o amor é feito de contrá-
+rios, não se define com lógica. 5. Como pode o amor criar concordân-
+cia nos corações, se é contraditório em si mesmo? 6. Camões define
+o amor em geral, com contradições; Florbela vive um amor absoluto,
+por uma pessoa, quase religioso.
 
-**GULLIVER — Quem me recolheu foram os marinheiros de um navio. Adivinham quem eram eles?**
+**p. 132 · Banca 5. 1. Espaço: «Cabina de projeção do Cinema Aurora» ·**
+luz: «Um feixe de luz atravessa a cabina» · tom: «(Baixinho, maravi-
+lhada.)». 2. «Então é por isso que está tão triste.»: o público percebe o
+que Inês pensa. 3. De fechado e triste para sorridente e generoso:
+«(Sorri pela primeira vez.)», «(Estende-lhe a manivela.)». 4. O projetor,
+como um farol, guiava as pessoas para o cinema. 5. S: O Sr. Alberto ·
+CD: a manivela · CI: à Inês.
 
-**MANUEL — Eram piratas!**
+MODELO · CRÍTICA DE CINCO ESTRELAS (OFICINA 2)
 
-**MARIA — Eram pescadores!**
+Há filmes que nos devolvem uma coisa que julgávamos
+perdida. A Última Sessão é um deles, e merece as cinco
+estrelas. Em primeiro lugar, pela imagem: o feixe do
 
-**GULLIVER — Eram portugueses, os grandes senhores dos mares. Vocês por acaso já ouviram falar dos**
+projetor, filmado por Tiago Reis como um farol, é das
+mais belas metáforas do cinema português. Em segundo
 
-portugueses?
+lugar, porque a repetição das sete noites não é um de‐
+feito, é o próprio tema — a vila regressa, noite após
+noite, tal como nós regressamos aos filmes de que gos‐
 
-A cena continua na página seguinte…
+tamos. Rui Mendes, que diz tudo com as mãos, fecha o
+filme com uma dignidade rara. Sim, sabemos como
+acaba. Mas também sabemos como acaba um pôr do
 
+sol, e não deixamos de olhar. Obrigatório.
+
+SOLUÇÕES
 138
 
 <!-- page 139 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+S O L U Ç Õ E S
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 5
+S O L U Ç Õ E S · 2 D E 2
+**p. 133 · Circuito 1. A. a) O castelo é descrito pelo narrador.**
+b) O rei expulsou Violeta. c) Um cofre foi encontrado pe-
+los três irmãos. d) O melhor anúncio será escolhido pelo
+júri. B. a) leias · b) reabra · c) encontrasse · d) chegares. C.
+a) Li um conto que se passa nas Astúrias. b) Esta é a vila
+onde fica o Cinema Aurora. c) O poeta cujo nome verda-
+deiro era Adolfo escreveu «Sísifo». D. a) pretérito imper-
+feito · b) pretérito perfeito · c) presente · d) pretérito mais-
+que-perfeito composto · e) futuro. I. a) sufixação · b) prefi-
+xação · c) composição · d) parassíntese (en- + triste + -
+ecer) · e) sufixação · f) prefixação e sufixação (des- + con-
+fiar + -ança) · g) palavra simples (não formada) · h)
+composição.
 
-## Gulliver em Portugal (continuação)
+**p. 134 · Circuito 2. E. a) completiva · b) condicional · c) final**
+· d) relativa · e) completiva · f) condicional. F. a) MGV: Na
+primavera · S: os três irmãos · CD: um velho cofre de ferro
+(MN: velho, de ferro). b) S: O projecionista · CD: a cabina ·
+CI: à rapariga curiosa (MN: curiosa). c) S: Violeta · CI: ao
+pai · CD: um jantar sem sal (MN: sem sal). d) S: A crítica
+d'A Lupa (MN: d'A Lupa) · CD: a fotografia do filme (MN: do
+filme). G. a) Rostabal matou-o. b) Guanes deu-lho. c) Vou
+contar-lha. H. a) simples · b) complexa (coordenação) · c)
+complexa (subordinação).
 
-**TEXTO DRAMÁTICO · CONTINUAÇÃO**
+**p. 135 · Teste de treino. 1. Agradecer ao projecionista, depois da última**
+sessão em película. 2. Pela experiência de estar com os outros no
+escuro, a sentir o mesmo ao mesmo tempo. 3. Ninguém o via na ca-
+bina, mas era ele quem mostrava os filmes a todos. 4. Antítese: «Nin-
+guém o via, mas todos víamos» · metáfora: «uma luz que nunca se
+apagou». 5. Subordinada adverbial condicional. 6. Futuro do conjun-
+tivo. 7. A neta era trazida ao Aurora pelo avô. 8. «o meu avô»: sujeito ·
+«todos os domingos»: modificador do grupo verbal. 9. Derivação por
+prefixação (in- + visível). 10. Resposta pessoal; critérios: formato de
+carta, agradecimento, momento narrado, conselho, 120–160 palavras.
 
-**CRIANÇAS — Nós vivemos em Portugal!**
+MODELO · GRUPO III
 
-**GULLIVER — A princípio, tive medo que eles fossem uma espécie de macacos como os que vivem na Ilha dos**
+Querida Ana: a tua carta está pregada na porta da ca‐
+bina, onde a leio todas as manhãs. Obrigado. Durante
 
-Cavalos. (...) De facto, não podiam ser mais gentis, simpáticos e acolhedores. Vou
+quarenta anos pensei que ninguém sabia que eu existia
+— afinal, havia pelo menos uma espectadora atenta. O
 
-apresentar-lhes o capitão do navio que me recolheu, D. Pedro Mendes. Levou-me para sua casa.
+meu momento preferido foi em 1985, numa noite de tem‐
+poral: faltou a luz na vila, mas o gerador da cabina
+aguentou-se, e a sala inteira ficou a ver o filme como se
 
-Ele aí vem.
+estivesse num barco, no meio do mar. Ninguém saiu. O
+meu conselho é simples: nunca deixes de ir ao cinema
 
-(Gulliver sobe para o palco. D. Pedro Mendes avança e cumprimenta Gulliver.)
+com outras pessoas. Um filme visto sozinho é uma his‐
+tória; visto com os outros, é uma memória. Um abraço
+do teu projecionista, Alberto.
 
-**D. PEDRO — Então, meu amigo, chegámos a bom porto. É hora de descansar das viagens.**
+**Grelha do teste**
+I · 40
+II · 30
+III · 30
+Total · 100
 
-(Gulliver relincha.)
+C A R T Ã O D E M E M Ó R I A · O A N O N U M A P Á G I N A
 
-**D. PEDRO — Senhor Gulliver, não se esqueça de que já não está na terra dos cavalos. Lisboa é uma cidade**
+**Ler**
 
-de muitas e variadas gentes, onde quem governa é Sua Majestade D. João V.
+Publicidade: quem vende? a quem?
+como?
 
-(Começam a entrar os fidalgos e as fidalgas, ricamente vestidos, conversando e fazendo salamaleques.
+Crítica: tese, argumentos, factos e
+opiniões.
 
-Gulliver olha-os, espantado.)
+Narrativa: narrador, ação, persona-
+gens, espaço, tempo.
 
-**GULLIVER — Tantas joias! Tanto ouro! Portugal é um país cheio de minas?**
+Poesia: estrofe, rima, métrica,
+recursos.
 
-**D. PEDRO — Tudo isto vem do Brasil. Lisboa é uma das cidades mais esplêndidas do mundo.**
+Teatro: falas, didascálias, aparte,
+monólogo.
 
-**GULLIVER — É sem dúvida um belo país, cheio de sol. E a gente mais amável que conheci. Mas tenho um**
+**Escrever**
 
-barco à minha espera...
+Planifica · escreve · revê.
 
-(Gulliver escapa-se, (...) De um extremo do palco diz adeus à plateia com um lenço branco.)
+Opinião: tese + 2 argumentos +
+exemplos + conclusão.
 
-Luísa Ducla Soares (adapt. livre), As viagens de Gulliver com escala em Portugal, Porto, Porto Editora, 2015.
+Comentário: tema + recurso +
+efeito + citação.
 
-**ENQUANTO LÊS · COM LÁPIS DE CORES**
+Cena: personagens, didascálias,
+falas.
 
-Marca com cores diferentes: as FALAS de Gulliver · as falas das outras personagens · as
-DIDASCÁLIAS (indicações entre parênteses) · as informações sobre Portugal.
+**Gramática**
 
+Ativa/passiva · conjuntivo ·
+tempos.
+
+Relativas, completivas, condicio-
+nais, finais.
+
+S, CD, CI, modificadores, prono-
+mes átonos.
+
+SOLUÇÕES
 139
 
 <!-- page 140 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+U N I D A D E 6
+A V A L I A Ç Ã O
+## O teu veredicto
 
-Prime School Press · www.primeschool.pt
+Chegou a vez de mostrares o que sabes. Nesta uni‐
+dade estão os dois testes do ano, as tarefas de orali‐
+dade, de escrita e de teatro, os critérios com que
+vais ser avaliado — e exemplos de respostas a três
+níveis, para perceberes o que separa um trabalho
+razoável de um trabalho excelente. Não há surpre‐
+sas: tudo o que se avalia aqui, já o treinaste.
 
-## Depois da leitura
+**?**
+Sabes exatamente o que te vai ser pedido — e como
+vai ser avaliado?
 
-**PRIMEIRA REACÇÃO**
+**?**
+Consegues corrigir o teu próprio teste e descobrir
+porque erraste?
 
-Escolhe uma palavra para descrever a reacção de Gulliver perante Portugal:
+**?**
+Que nota dás ao teu ano como leitor?
 
-surpresa · curiosidade · medo · admiração · desconfiança
-
-A minha escolha, porque...
-
-**EXERCÍCIO 1 · COMPREENDER O TEXTO**
-
-1. Onde se encontra Gulliver no início da cena?
-
-2. Quem são as crianças que encontra? Que informação dão?
-
-3. Quem é D. Pedro Mendes e como recebe Gulliver?
-
-4. O que chama a atenção de Gulliver nos portugueses? Que relação tem o ouro com o Brasil?
-
-5. Como termina a cena?
-
-**CAMBRIDGE FOCUS: resposta + evidência do texto = resposta completa.**
-
+UNIDADE 6
 140
 
 <!-- page 141 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+P R O G R A M A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 6
+O Q U E E S T Á N E S T A U N I D A D E
+## Seis provas, regras claras
 
-## Verdadeiro ou falso – Gulliver
+C O M O V A I S S E R A V A L I A D O
 
-**COMPREENSÃO**
+DOMÍNIO
+PESO
 
-**EXERCÍCIO 2 · ASSINALA V OU F**
+Leitura e Educação literária
+(testes)
 
-**Afirmação**
-**V**
-**F**
+35%
 
-Gulliver chega a Portugal depois de uma viagem.
-☐
-☐
+Gramática (testes)
+20%
 
-Gulliver é salvo por marinheiros portugueses.
-☐
-☐
+Escrita (testes e texto escrito)
+25%
 
-☐
-☐
+Oralidade (apresentação e cena)
+20%
 
-D. Pedro Mendes é um capitão de marinha.
-☐
-☐
+Pesos de referência: cada escola ajusta-os aos seus critérios.
 
-A acção decorre em Lisboa.
-☐
-☐
+E S C A L A D E C L A S S I F I C A Ç Ã O
 
-A história decorre no reinado de D. João V.
-☐
-☐
+0–19
+Muito insuficiente
 
-Gulliver fica surpreendido com a riqueza que observa.
-☐
-☐
+20–49
+Insuficiente
 
-O ouro mencionado está relacionado com o Brasil.
-☐
-☐
+50–69
+Suficiente
 
-Gulliver decide ficar para sempre em Portugal.
-☐
-☐
+70–89
+Bom
 
-O texto apresenta indicações destinadas à representação.
-☐
-☐
+90–100
+Muito bom
 
-Corrige as afirmações falsas.
+AN-
+TES
+DE
+QUAL-
+QUER
+TESTE
 
-Gulliver pensa inicialmente que os portugueses podem ser selvagens.
+**1**
+**Lê todas as perguntas antes de começares. Começa pelo grupo em que te sentes mais seguro.**
 
+**2**
+Olha para a cotação: uma pergunta de 6 pontos pede mais do que uma linha.
+
+**3**
+**Responde com frases completas e prova tudo com o texto (cita entre aspas).**
+
+**4**
+Guarda 10 minutos para reler: acentos, concordâncias, pontuação.
+
+**5**
+**Depois da correção, preenche a grelha de autocorreção (p. 151).**
+
+**As soluções e os critérios de correção dos testes estão na secção do professor (p. 157): o professor decide quando os**
+mostra.
+
+**Teste 1**
+
+Narrativa e publicidade · gramá-
+tica · artigo de opinião
+
+## 1
+
+1.º SEMESTRE · 90 MIN
+
+**p. 142**
+
+**Teste 2**
+
+Poesia e teatro · gramática · es-
+crita de uma cena
+
+## 2
+
+2.º SEMESTRE · 90 MIN
+
+**p. 147**
+
+**Apresentação oral**
+
+Um livro, três minutos
+
+## 3
+
+INDIVIDUAL · 3 MIN
+
+**p. 152**
+
+**Texto escrito**
+
+Crítica ou artigo de opinião
+
+## 4
+
+INDIVIDUAL · EM AULA
+
+**p. 153**
+
+**Cena de teatro**
+
+Escrever e representar
+
+## 5
+
+EM GRUPO · 2 SEMANAS
+
+**p. 156**
+
+**Veredicto do ano**
+
+O teu balanço final
+
+## 6
+
+AUTOAVALIAÇÃO
+
+**p. 160**
+
+PROGRAMA
 141
 
 <!-- page 142 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 1 · G R U P O I
 
-Prime School Press · www.primeschool.pt
+T E S T E D E A V A L I A Ç Ã O 1
+## Português · 7.º ano
 
-## Lê nas entrelinhas – Gulliver
+1.º semestre · 90 minutos · sem consulta
 
-**EXPLÍCITO E IMPLÍCITO**
+NOME
 
-**EXERCÍCIO 3 · INFERIR**
+N.º
+TURMA
+DATA
 
-1. Gulliver compara aquilo que encontra em Portugal com experiências que viveu antes. O que mostra
-esta comparação sobre a personagem?
+COTAÇÕES
+I · 35
+II · 15
+III · 20
+IV · 30
+Total · 100
+CLASSIFICAÇÃO
 
-2. Como reage Gulliver à riqueza das igrejas e das ruas? O que concluis sobre a sociedade que
-observa?
+GRUPO I · LEITURA E EDUCAÇÃO LITERÁRIA
+35 pontos
 
-3. Porque é que a perspectiva de Gulliver pode provocar humor?
+## O Suave Milagre (final)
 
-4. «Que terra é esta, que gasta em pedras o que outros guardariam para o pão?» Que crítica se
-esconde nesta pergunta?
+E Ç A D E Q U E I R Ó S · C O N T O S ( 1 9 0 2 ) · D O M Í N I O P Ú B L I C O
 
-**COMO FAZER UMA INFERÊNCIA**
+**O início do conto. Na Galileia, corre a notícia de um Rabi que faz mi-**
+lagres. Dois homens poderosos querem encontrá-lo: Obed, um ve-
+lho rico que perdeu os rebanhos e as vinhas, e Públio Sétimo, um
+centurião romano cuja filha única está doente. Mandam servos e
+soldados à sua procura — mas ninguém o encontra. Lê agora o
+final.
 
-Encontra uma pista → pensa sobre ela → tira uma conclusão.
-Não copies simplesmente uma frase do texto: explica o que ela permite concluir.
+**Depois do teste, ouve o**
+conto inteiro (LibriVox, Wi-
+kimedia Commons, domí-
+nio público).
 
+Ora entre Enganim e Cesareia, num casebre
+desgarrado, sumido na prega dum cerro, vivia a
+
+esse tempo uma viúva, mais desgraçada mulher
+que todas as mulheres de Israel. O seu filhinho
+
+único, todo aleijado, passara do magro peito a
+
+que ela o criara para os farrapos da enxerga
+apodrecida, onde jazera, sete anos passados,
+
+mirrando e gemendo. Também a ela a doença a
+engelhara dentro dos trapos nunca mudados,
+
+mais escura e torcida que uma cepa arrancada.
+E, sobre ambos, espessamente a miséria cres‐
+
+ceu como o bolor sobre cacos perdidos num
+
+ermo. Até na lâmpada de barro vermelho, se‐
+cara há muito o azeite. Dentro da arca pintada
+
+não restava grão ou côdea. No estio, sem pasto,
+a cabra morrera. Depois, no quinteiro, secara a
+
+figueira. Tão longe do povoado, nunca esmola
+
+de pão ou mel entrava o portal. E só ervas apa‐
+nhadas nas fendas das rochas, cozidas sem sal,
+
+nutriam aquelas criaturas de Deus na Terra Es‐
+colhida, onde até às aves maléficas sobrava o
+
+sustento!
+
+1
+
+Um dia um mendigo entrou no casebre, repar‐
+
+tiu o seu farnel com a mãe amargurada, e um
+
+momento sentado na pedra da lareira, coçando
+as feridas das pernas, contou dessa grande es‐
+
+perança dos tristes, esse Rabi que aparecera na
+Galileia, e de um pão no mesmo cesto fazia sete,
+
+e amava todas as criancinhas, e enxugava todos
+
+os prantos, e prometia aos pobres um grande e
+luminoso Reino, de abundância maior que a
+
+Corte de Salomão. A mulher escutava, com
+olhos famintos. E esse doce Rabi, esperança dos
+
+tristes, onde se encontrava? O mendigo suspi‐
+rou. Ah, esse doce Rabi! quantos o desejavam,
+
+que se desperançavam! A sua fama andava por
+sobre toda a Judeia, como o sol que até por
+
+qualquer velho muro se estende e se goza; mas
+
+para enxergar a claridade do seu rosto, só
+aqueles ditosos que o seu desejo escolhia.
+
+Obed, tão rico, mandara os seus servos por
+toda a Galileia para que procurassem Jesus, o
+
+chamassem com promessas a Enganim; Sétimo,
+tão soberano, destacara os seus soldados até à
+
+costa do mar, para que buscassem Jesus, o con‐
+
+duzissem, por seu mando, a Cesareia. Errando,
+esmolando por tantas estradas, ele topara os
+
+servos de Obed, depois os legionários de Sé‐
+timo. E todos voltavam, como derrotados, com
+
+as sandálias rotas, sem ter descoberto em que
+
+mata ou cidade, em que toca ou palácio, se es‐
+condia Jesus.
+
+A tarde caía. O mendigo apanhou o seu bordão,
+desceu pelo duro trilho, entre a urze e a rocha.
+
+A mãe retomou o seu canto, mais vergada, mais
+abandonada. E então o filhinho, num murmúrio
+
+mais débil que o roças de uma asa, pediu à mãe
+
+que lhe trouxesse esse Rabi, que amava as cri‐
+ancinhas ainda as mais pobres, sarava os males
+
+ainda os mais antigos. A mãe apertou a cabeça
+esguedelhada:
+
+— Oh filho! e como queres que te deixe, e me
+meta aos caminhos, à procura do Rabi da Gali‐
+
+leia? Obed é rico, e tem servos, e debalde bus‐
+
+caram Jesus, por areais e colinas, desde Chora‐
+zim até ao país de Moab.
+
+TESTE 1 · GRUPO I
 142
 
 <!-- page 143 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 1 · G R U P O I
 
-Prime School Press · www.primeschool.pt
+GRUPO I · QUESTÕES
 
-## Quem é quem?
+1. Onde e como vivem a viúva e o filho? Transcreve
+duas expressões que mostrem a sua pobreza. (5)
 
-**PERSONAGENS**
+2. «espessamente a miséria cresceu como o bolor so-
+bre cacos perdidos num ermo» (§1). Identifica o re-
+curso expressivo e explica o seu efeito. (5)
 
-**EXERCÍCIO 4 · GULLIVER**
+3. Que papel tem o mendigo no desenvolvimento da
+ação? (4)
 
-Assinala as características que melhor o descrevem:
+4. Porque é que a mãe não quer partir à procura do
+Rabi? Apresenta duas razões. (5)
 
-☐ curioso · ☐ observador · ☐ aventureiro · ☐ indiferente · ☐ surpreendido · ☐ crítico · ☐ desconfiado · ☐
-agressivo
+5. Classifica o narrador quanto à presença na histó-
+ria. Justifica. (4)
 
-Escolhe duas e apresenta, para cada uma, uma prova do texto.
+6. Divide o excerto em três momentos e dá um título
+a cada um. (6)
 
-**EXERCÍCIO 5 · D. PEDRO MENDES · MARIA E MANUEL**
+7. Os ricos e os fortes não encontraram Jesus; foi ele
+que veio ter com a criança pobre. Explica o título
+do conto a partir do final. (6)
 
-O que descobrimos sobre D. Pedro Mendes através das suas acções e das suas palavras? Que papel
-desempenham Maria e Manuel na cena?
+VOCABULÁRIO
 
-**DESAFIO**
+Sétimo é forte, e tem soldados, e debalde corre‐
 
-Qual das personagens gostarias de representar? Porquê?
+ram por Jesus, desde o Hebron até ao mar!
+Como queres que te deixe? Jesus anda por
 
+muito longe e a nossa dor mora conosco, den‐
+
+tro destas paredes, e dentro delas nos prende. E
+mesmo que o encontrasse, como convenceria
+
+eu o Rabi tão desejado, por quem ricos e fortes
+suspiram, a que descesse através das cidades
+
+até este ermo, para sarar um entrevadinho tão
+
+pobre, sobre enxerga tão rota?
+
+A criança, com duas longas lágrimas na face
+
+magrinha, murmurou:
+
+5
+
+— Oh mãe! Jesus ama todos os pequeninos. E eu
+
+ainda tão pequeno, e com um mal tão pesado, e
+que tanto queria sarar!
+
+E a mãe, em soluços:
+
+— Oh meu filho, como te posso deixar? Longas
+
+são as estradas da Galileia, e curta a piedade
+dos homens. Tão rota, tão trôpega, tão triste,
+
+até os cães me ladrariam da porta dos casais.
+Ninguém atenderia o meu recado, e me aponta‐
+
+ria a morada do doce Rabi. Oh filho! talvez Je‐
+sus morresse... Nem mesmo os ricos e os fortes
+
+o encontram. O Céu o trouxe, o Céu o levou. E
+
+com ele para sempre morreu a esperança dos
+tristes.
+
+De entre os negros trapos, erguendo as suas po‐
+bres
+mãozinhas
+que
+tremiam,
+a
+criança
+
+murmurou:
+
+— Mãe, eu queria ver Jesus...
+10
+
+E logo, abrindo devagar a porta e sorrindo, Je‐
+sus disse à criança:
+
+— Aqui estou.
+
+Eça de Queirós, «O Suave Milagre», em Contos (1902). Texto da Wiki-
+
+source, ortografia atualizada.
+
+**enxerga colchão pobre · jazer estar deitado · mirrar**
+
+**secar, definhar · engelhar enrugar · ermo lugar de‐**
+**serto · quinteiro pátio · farnel provisões para a viagem**
+**· entrevado que não se pode mexer · trôpega que anda**
+**com dificuldade · Rabi mestre (tratamento dado a**
+Jesus)
+
+TESTE 1 · GRUPO I
 143
 
 <!-- page 144 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 1 · G R U P O S I I E I I I
 
-Prime School Press · www.primeschool.pt
+GRUPO II · LEITURA · TEXTO PUBLICITÁRIO
+15 pontos
 
-## Onde e quando?
+8. É publicidade comercial ou não comercial? Justifica.
 
-**ESPAÇO E TEMPO**
+(3)
 
-**EXERCÍCIO 6 · O ESPAÇO E O CENÁRIO**
+9. Identifica o recurso expressivo do slogan e explica-o.
 
-1. Indica o espaço principal da acção.
+(4)
 
-2. Retira do texto dois elementos do cenário que ajudem a situar a acção.
+10. Transcreve dois verbos no imperativo. A quem se di-
+rige o anúncio? (4)
 
-3. Que elementos do texto mostram que estamos num período histórico diferente do actual?
+11. Transcreve um facto e uma opinião do anúncio. (4)
 
-**EXERCÍCIO 7 · CENÓGRAFO POR UM DIA**
+GRUPO III · GRAMÁTICA
+20 pontos
 
-Imagina que montas esta cena num palco. Escolhe três objectos que não poderiam faltar.
+12. Passa à frase passiva: «O mendigo contou a história à viúva.» (3)
 
-1 ______________________________
+**13. Classifica as orações sublinhadas: a) Se o Rabi viesse, o menino sararia. b) A mãe saiu de casa para procu-**
+rar o Rabi. (4)
 
-2 ______________________________
+14. Junta as duas frases numa só, usando um pronome relativo: «A viúva vivia num casebre. O casebre ficava
+na prega dum cerro.» (3)
 
-3 ______________________________
+**15. Completa com o verbo no conjuntivo: a) Espero que o Rabi**
+**(vir) depressa. b)**
+Quando tu
+(encontrar) o Rabi, fala-lhe de mim. (4)
 
+16. Identifica as funções sintáticas dos constituintes: «Um dia, um mendigo deu pão à viúva.» (4)
+
+17. Classifica a palavra «devagar» em «abrindo devagar a porta» e indica o seu valor. (2)
+
+Ler é a viagem mais barata do mundo.
+
+Uma iniciativa da Câmara Municipal e da Biblioteca Municipal.
+
+TESTE 1 · GRUPOS II E III
 144
+
+## Uma feira onde os livros
+## te escolhem a ti.
+
+**Feira do Livro de Vila Nova do Farol · Praça do Cinema Aurora · 1 a 10 de junho. Mais**
+de 5000 livros, 30 editoras, sessões de autógrafos todos os dias às 18 h. Traz a tua
+família, descobre um autor novo e leva para casa uma história que nunca mais vais
+esquecer. Entrada livre.
 
 <!-- page 145 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 1 · G R U P O I V
 
-Prime School Press · www.primeschool.pt
+GRUPO IV · ESCRITA
+30 pontos
 
-## As palavras do texto
+**Escolhe um dos temas e escreve um texto de 180 a 240 palavras.**
 
-**VOCABULÁRIO**
+**A · Artigo de opinião**
+«Os ricos e os fortes não encontraram Jesus; encontrou-o uma criança pobre.» A
+humildade abre portas que o poder fecha? Defende a tua posição com dois argu-
+mentos e exemplos.
 
-**EXERCÍCIO 8 · DESCOBRE PELO CONTEXTO**
+**B · Crítica**
+Escreve a crítica de um livro ou filme que tenhas conhecido este semestre: apre-
+sentação, tese, dois argumentos (um pode ser uma reserva), conclusão e
+classificação.
 
-fidalgo → ____________________________________
+P L A N I F I C A Ç Ã O ( N Ã O C O N T A P A R A A C L A S S I F I C A Ç Ã O )
 
-selvagem → __________________________________
+Tese
 
-acolhedor → __________________________________
+Argumento 1
 
-apetrechar → __________________________________
+Argumento 2
 
-salamaleque → ________________________________
+Conclusão
 
-**EXERCÍCIO 9 · SINÓNIMOS**
+CRITÉRIOS
+Tema e tese · 8
+Argumentação · 10
+Estrutura e coesão · 6
+Correção linguística · 6
 
-**Palavra**
-**Sinónimo**
-
-espantado
-
-simpático
-
-rico
-
-gentil
-
-**EXERCÍCIO 10 · EXPRESSÃO**
-
-«Chegámos a bom porto.» O que significa esta expressão no contexto? Pode também ser usada com
-sentido figurado? Explica.
-
+TESTE 1 · GRUPO IV
 145
 
 <!-- page 146 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 1 · G R U P O I V
 
-Prime School Press · www.primeschool.pt
+T E S T E 1
+G R U P O I V · C O N T I N U A Ç Ã O
 
-## Lê como um actor
+Número de palavras
+Revi: acentos
+concordâncias
+pontuação
+parágrafos
 
-**TEXTO DRAMÁTICO**
+F I M D O T E S T E 1
 
-Este texto não foi escrito apenas para ser lido. Foi pensado para ser representado.
-
-FALA — aquilo que uma personagem diz. DIDASCÁLIA — indicação que ajuda os actores: movimentos,
-gestos, expressões, entradas, saídas, cenário, sons.
-
-**EXERCÍCIO 11 · OBSERVA O EXCERTO**
-
-Encontra no texto: 1 didascália · 1 fala de Gulliver · 1 fala de outra personagem.
-
-AGORA PENSA: escolhe uma didascália. O que aconteceria se ela desaparecesse?
-
-**TRANSFORMA**
-
-Escolhe uma didascália do texto e explica-a como se estivesses a dar uma instrução a um actor:
-«Deves...»
-
+TESTE 1 · GRUPO IV
 146
 
 <!-- page 147 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 2 · G R U P O I
 
-Prime School Press · www.primeschool.pt
+T E S T E D E A V A L I A Ç Ã O 2
+## Português · 7.º ano
 
-## Gramática em contexto
+2.º semestre · 90 minutos · sem consulta
 
-**GRAMÁTICA · PALAVRAS COMPOSTAS**
+NOME
 
-COMPOSIÇÃO é o processo de formar uma palavra pela junção de duas ou mais palavras ou elementos.
+N.º
+TURMA
+DATA
 
-Exemplo: guarda + chuva → guarda-chuva.
+COTAÇÕES
+I · 35
+II · 15
+III · 20
+IV · 30
+Total · 100
+CLASSIFICAÇÃO
 
-**EXERCÍCIO 12 · ANALISA**
+GRUPO I · EDUCAÇÃO LITERÁRIA · TEXTO POÉTICO
+35 pontos
+## Descalça vai para a fonte
 
-**Palavra composta**
-**Elementos que a formam**
+L U Í S D E C A M Õ E S · V I L A N C E T E · D O M Í N I O P Ú B L I C O
 
-porta-chaves
-porta + chaves
+MOTE
+1.ª VOLTA
+2.ª VOLTA
 
-porco-espinho
-porco + espinho
+Luís de Camões, Rimas. Texto da Wikisource; mantém-se a grafia antiga de «Lianor» e «fermosa».
 
-couve-flor
-couve + flor
+VOCABULÁRIO
 
-passatempo
-passa + tempo
+**Lianor Leonor · fermosa formosa · segura tranquila, sem perigo ·**
 
-**EXERCÍCIO 13 · AGORA CRIA**
+**testo tampa · escarlata tecido vermelho, fino · sainho casaquinho**
+**curto · chamerlote tecido de pelo de cabra · vasquinha de cote saia**
+**de todos os dias · touca pano que cobre a cabeça**
 
-Forma palavras compostas relacionadas com: viagem · mar · escola · aventura. (Uma para cada tema.)
+**Depois do teste, ouve o po-**
+ema (Carlos Gomes, Wikime-
+dia Commons, domínio
+público).
 
-**PENSA**
+**1. O poema é um vilancete: um mote seguido de voltas.**
+Indica quantos versos tem o mote e quantos tem
+cada volta. (4)
 
-Porque razão é importante observar as palavras dentro do contexto em que aparecem?
+2. Faz a escansão do verso 1 e classifica o verso
+quanto ao número de sílabas métricas. (5)
 
+3. Indica o esquema rimático da 1.ª volta. (5)
+
+4. Que verso se repete no fim de cada volta? Que efeito
+tem essa repetição? (5)
+
+5. Transcreve uma metáfora e uma comparação usa-
+das para descrever Lianor e explica uma delas. (6)
+
+6. «Tão linda que o mundo espanta» (v. 14): identifica o
+recurso expressivo. (4)
+
+7. «Vai fermosa, e não segura.» Porque é que Lianor,
+sendo tão bela, «não vai segura»? Apresenta a tua in-
+terpretação. (6)
+
+Descalça vai para a fonte
+1
+
+Lianor pela verdura;
+Vai fermosa, e não segura.
+
+Leva na cabeça o pote,
+
+O testo nas mãos de prata,
+5
+
+Cinta de fina escarlata,
+
+Sainho de chamerlote;
+Traz a vasquinha de cote,
+Mais branca que a neve pura.
+
+Vai fermosa e não segura.
+10
+
+Descobre a touca a garganta,
+
+Cabelos de ouro entrançado
+Fita de cor de encarnado,
+
+Tão linda que o mundo espanta.
+Chove nela graça tanta,
+15
+
+Que dá graça à fermosura.
+
+Vai fermosa e não segura.
+
+TESTE 2 · GRUPO I
 147
 
 <!-- page 148 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 2 · G R U P O I I
 
-Prime School Press · www.primeschool.pt
+GRUPO II · EDUCAÇÃO LITERÁRIA · TEXTO DRAMÁTICO
+15 pontos
 
-## Rir... e pensar
+## O ensaio geral
 
-**HUMOR E CRÍTICA**
+(Palco do auditório da escola, na véspera da estreia. Um trono de cartão, uma coroa de papel dourado caída
+no chão. MARTA, a encenadora, 14 anos, tem o guião na mão. RUI, que faz de rei, está sentado na beira do
+palco, de braços cruzados. Entra SOFIA, a correr, com o figurino de princesa ainda por abotoar.)
 
-1. Que situações do texto podem provocar humor?
+SOFIA Desculpem, desculpem! O autocarro…
 
-2. Porque é que o olhar de Gulliver é importante para o leitor português?
+MARTA (Sem levantar os olhos do guião.) Vinte minutos, Sofia. Amanhã vêm os pais todos.
 
-3. Gulliver observa a riqueza, as joias e o ouro. A autora estará apenas a mostrar uma sociedade rica,
-ou também a criticar a ostentação? Justifica.
+RUI Pois. E o rei, amanhã, também não entra. (Levanta-se e pontapeia a coroa.) Já disse: não digo
+aquela fala.
 
-**PENSA**
+MARTA Que fala?
 
-Às vezes, uma história divertida também nos faz pensar sobre a sociedade.
+RUI «Minha filha, perdoa a este velho louco.» Toda a gente se vai rir de mim.
 
+SOFIA (À parte, a abotoar o vestido.) Ninguém se ri de quem diz uma coisa daquelas a sério.
+
+MARTA (Fecha o guião. Pausa longa.) Rui, é a fala mais importante da peça. É o momento em que o
+rei deixa de ser rei.
+
+RUI (Baixinho.) É por isso mesmo.
+
+(Silêncio. SOFIA apanha a coroa do chão, sacode-lhe o pó e estende-a a RUI.)
+
+SOFIA Então diz-ma a mim. Só uma vez. Sem público.
+
+(RUI hesita. Olha para MARTA, que se senta na plateia vazia. A luz desce até ficarem só os dois no centro do
+palco.)
+
+Texto escrito para este manual.
+
+**8. Transcreve uma didascália de espaço, uma de movi-**
+**mento e uma de luz. (4)**
+
+**9. Identifica o aparte e explica o que revela sobre Sofia.**
+
+(4)
+
+10. Qual é o conflito da cena? Entre que personagens? (4)
+
+11. Como achas que a cena termina? Justifica com um
+pormenor do texto. (3)
+
+TESTE 2 · GRUPO II
 148
 
 <!-- page 149 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 2 · G R U P O S I I I E I V
 
-Prime School Press · www.primeschool.pt
+GRUPO III · GRAMÁTICA
+20 pontos
 
-## Pensa como um leitor
+12. Classifica a oração sublinhada: «Marta sabe que a fala é a mais importante da peça.» (3)
 
-**EDUCAÇÃO LITERÁRIA**
+**13. Substitui os constituintes sublinhados por pronomes: a) Sofia estende a coroa ao Rui. b) Marta explica a**
+cena aos atores. (4)
 
-1. «Gulliver é um viajante, mas é também um observador.» Explica esta afirmação.
+14. Sublinha os advérbios e as locuções adverbiais e indica o seu valor: «De repente, Rui falou baixinho e
+nunca mais olhou para a plateia.» (3)
 
-2. Qual é a vantagem de conhecer outras culturas?
+**15. Identifica o sujeito e o predicado: a) Chegou a Sofia. b) Desculpem! (Que tipo de sujeito tem?) (4)**
 
-3. A autora escolheu um estrangeiro para observar Portugal. Consideras que esta escolha torna a
-história mais interessante? Justifica.
+16. Identifica as funções sintáticas: «Na véspera da estreia, a encenadora deu o guião aos atores.» (4)
 
-4. Completa: «Através dos olhos de Gulliver, Portugal aparece como...»
+17. Indica o processo de formação da palavra «encenadora». (2)
 
-5. Escolhe uma palavra para definir este excerto: humorístico · histórico · fantástico · crítico ·
-aventureiro.
+GRUPO IV · ESCRITA
+30 pontos
 
+**Escreve a cena seguinte de «O ensaio geral» (150 a 200 palavras). A cena deve ter:**
+
+título e lista de personagens
+pelo menos quatro didascálias (espaço, luz, tom, movimento)
+
+um aparte ou um monólogo
+a resolução do conflito: Rui diz a fala — ou não
+
+CRITÉRIOS
+Adequação ao género · 10
+Coerência com a cena · 8
+Criatividade · 6
+Correção linguística · 6
+
+TESTE 2 · GRUPOS III E IV
 149
 
 <!-- page 150 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E S T E 2 · G R U P O I V
 
-Prime School Press · www.primeschool.pt
+T E S T E 2
+G R U P O I V · C O N T I N U A Ç Ã O
 
-## Oficina de escrita – entrevista a Gulliver
+Número de palavras
+Revi: didascálias em itálico ou entre parênteses
+nomes antes das falas
 
-**ESCRITA · 200 A 250 PALAVRAS**
+pontuação
 
-Imagina que és jornalista e acabaste de conhecer Gulliver. Escreve uma entrevista.
+F I M D O T E S T E 2
 
-Deve incluir: uma introdução · pelo menos cinco perguntas · respostas desenvolvidas · uma pergunta
-sobre a viagem · uma sobre Portugal · uma sobre o que mais o surpreendeu · uma sobre o futuro · uma
-conclusão.
-
-**PLANIFICA PRIMEIRO**
-
-Pergunta 1: ____________________________
-
-Pergunta 2: ____________________________
-
-Pergunta 3: ____________________________
-
-Pergunta 4: ____________________________
-
-Pergunta 5: ____________________________
-
-**DICA**
-
-Evita perguntas de resposta sim/não. Usa: Como...? Porquê...? O que pensaste quando...? Qual foi...?
-Se pudesses..., o que...?
-
+TESTE 2 · GRUPO IV
 150
 
 <!-- page 151 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+A U T O C O R R E Ç Ã O
 
-Prime School Press · www.primeschool.pt
+D E P O I S D O S T E S T E S
+METACOGNIÇÃO
+G R E L H A S D E A U T O C O R R E Ç Ã O
+## Onde falhei?
 
-## Um novo olhar sobre Portugal
+Depois de receberes o teste corrigido, preenche a grelha. Na coluna «Rever» está a página
+do livro onde podes voltar a estudar o que falhaste.
 
-**ESCRITA CRIATIVA · 200 A 250 PALAVRAS**
+T E S T E 1
 
-Imagina que és um viajante estrangeiro que acaba de chegar a Portugal. Escreve um texto que
-apresente:
+ITEM
+O QUE SE
+AVALIA
 
-1. a chegada · 2. uma coisa que te surpreenda · 3. uma pessoa que conheças · 4. um mal-entendido · 5.
-um momento humorístico · 6. uma opinião sobre Portugal.
+COT.
+TIVE
+REVER
 
-DESAFIO: escreve duas falas em discurso directo.
+1–7
+Narrativa: es-
+paço, narra-
+dor, estrutura,
+recursos
 
-**ANTES DE ESCREVER**
+35
+p. 35
 
-Quem sou? _______________________________
+8–11
+Publicidade:
+tipo, slogan,
+imperativo,
+facto/opinião
 
-De onde venho? ___________________________
+15
+p. 13
 
-O que me surpreende? _____________________
+12
+Frase passiva
+3
+p. 26
 
-Quem encontro? __________________________
+13
+Subordina-
+das condici-
+onais e finais
 
-Como termina? ___________________________
+4
+p. 51
 
+14
+Pronome
+relativo
+
+3
+p. 47
+
+15
+Conjuntivo
+4
+p. 54
+
+16
+Funções
+sintáticas
+
+4
+p. 114
+
+17
+Advérbio
+2
+p. 87
+
+IV
+Escrita
+30
+p. 153
+
+T E S T E 2
+
+ITEM
+O QUE SE
+AVALIA
+
+COT.
+TIVE
+REVER
+
+1–4
+Poesia:
+forma, mé-
+trica, rima,
+refrão
+
+19
+p. 79
+
+5–7
+Recursos
+expressi-
+vos e
+interpreta-
+ção
+
+16
+p. 95
+
+8–11
+Texto
+dramático
+
+15
+p. 103
+
+12
+Oração
+comple-
+tiva
+
+3
+p. 84
+
+13
+Pronomes
+átonos
+
+4
+p. 68
+
+14
+Advérbio e
+locução
+adverbial
+
+3
+p. 87
+
+15
+Sujeito e
+predicado
+
+4
+p. 87
+
+16
+Funções
+sintáticas
+
+4
+p. 114
+
+17
+Formação
+de
+palavras
+
+2
+p. 62
+
+IV
+Escrita de
+uma cena
+
+30
+p. 113
+
+P O R Q U E E R R E I ? A S S I N A L A
+
+☐ não li a pergunta até ao fim
+☐ não sabia a matéria
+☐ não justifiquei com o texto
+☐ faltou tempo
+
+☐ confundi dois conceitos
+☐ erros de ortografia
+☐ escrevi pouco para a cotação
+
+✎O meu plano para o próximo teste (três ações concretas):
+
+AUTOCORREÇÃO
 151
 
 <!-- page 152 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+A P R E S E N T A Ç Ã O O R A L
 
-Prime School Press · www.primeschool.pt
+P R O V A 3
+ORALIDADE
+I N D I V I D U A L · 3 M I N U T O S
+## Um livro, três minutos
 
-## Debate – viajar muda a nossa forma de ver o mundo?
+Apresenta à turma um livro que leste este ano (pode ser do teu contrato de leitura) e con‐
+vence os colegas a lê-lo — ou a não o ler. Tens três minutos, nem mais, nem menos.
 
-**ORALIDADE · DEBATE**
+0:00
+**Gancho**
 
-GRUPO A · SIM: viajar permite conhecer outras pessoas, culturas e formas de viver.
+Uma pergunta, uma frase
+do livro, um objeto.
+Agarra o público.
 
-GRUPO B · NÃO NECESSARIAMENTE: é possível conhecer outras culturas sem viajar.
+0:30
+**O livro**
 
-Cada grupo deve preparar: 2 argumentos · 1 exemplo · 1 possível argumento do grupo contrário · 1
-resposta.
+Título, autor, género,
+época. O enredo em qua-
+tro frases — sem revelar o
+final.
 
-**EXPRESSÕES ÚTEIS**
+1:30
+**A tua opinião**
 
-Na minha opinião... · Considero que... · Um argumento importante é... · Por outro lado... · Não
-concordo porque... · Um exemplo é... · Concluindo...
+Dois argumentos com
+exemplos. Lê um excerto
+curto (20 segundos).
 
+2:30
+**Veredicto**
+
+Recomendação clara: a
+quem, porquê. Termina
+com força.
+
+P O D E S U S A R
+
+um cartão com cinco palavras-chave · o próprio livro · uma imagem
+
+N Ã O P O D E S
+
+ler um texto escrito · ultrapassar 3 min 15 s · contar o final
+
+O T E U C A R T Ã O · C I N C O P A L A V R A S - C H A V E
+
+**1**
+
+GANCHO
+
+**2**
+
+O LIVRO
+
+**3**
+
+ARGUMENTO
+
+**4**
+
+ARGUMENTO
+
+**5**
+
+VEREDICTO
+
+CRITÉRIO
+1 · EM CONSTRUÇÃO
+2 · CONSOLIDADO
+3 · EXCELENTE
+PTS
+
+**Conteúdo**
+informação vaga ou
+incorreta
+
+livro bem apresentado
+apresentação rigorosa e seletiva
+/6
+
+**Argumentação**
+«gostei porque sim»
+dois argumentos com
+exemplos
+
+argumentos fortes, excerto bem
+escolhido
+
+/6
+
+**Estrutura e**
+**tempo**
+
+sem gancho, fora do
+tempo
+
+quatro partes, no tempo
+transições naturais, final
+memorável
+
+/4
+
+**Voz e corpo**
+lê, voz baixa, sem contacto
+visual
+
+audível, algum contacto
+visual
+
+expressivo, pausas, olha o
+público
+
+/4
+
+**Língua**
+muitos bordões («tipo»,
+«pronto»)
+
+registo cuidado
+vocabulário rico e preciso
+/4
+
+A V A L I A Ç Ã O P E L O S C O L E G A S · D O I S E S T R E L A S E U M D E S E J O
+
+★
+
+★
+
+**Desejo**
+
+APRESENTAÇÃO ORAL
 152
 
 <!-- page 153 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+T E X T O E S C R I T O
 
-Prime School Press · www.primeschool.pt
+P R O V A 4
+ESCRITA
+I N D I V I D U A L · E M A U L A · 6 0 M I N U T O S
+## Crítica ou opinião
 
-## Gulliver chega à tua escola!
+**Opção A · Artigo de**
+**opinião**
 
-**DESAFIO FINAL · EM GRUPO**
+«Os telemóveis devem ficar à porta da sala de aula.» Concordas? Escreve um
+artigo de opinião para o jornal da escola (200 a 260 palavras).
 
-MISSÃO: Gulliver viajou novamente e chegou à tua escola. Mas há um problema: ele não percebe nada
-do que está a acontecer! Criem uma pequena cena teatral de 3-4 minutos.
+**Opção B · Crítica**
+Escreve a crítica de um livro que leste este ano para a revista A Lupa (200 a
+260 palavras), com classificação de uma a cinco estrelas.
 
-A cena deve ter: 4 personagens · pelo menos 12 falas · pelo menos 5 didascálias · um momento de
-humor · uma surpresa · uma diferença cultural · uma mensagem final.
+## 1 Planificar
 
-**PLANIFICAÇÃO**
+10 min · tese, dois argumentos,
+exemplos, conclusão
 
-Título: ________________________________
+## 2 Escrever
 
-Personagens: ____________________________
+35 min · um parágrafo por ideia,
+conectores
 
-Local: ___________________________________
+## 3 Rever
 
-Problema: ________________________________
+15 min · lê em voz baixa, corrige,
+conta as palavras
 
-Momento mais divertido: ____________________
+CRITÉRIO
+1 · EM CONSTRUÇÃO
+2 · CONSOLIDADO
+3 · EXCELENTE
+PTS
 
-Final: ____________________________________
+**Tema e tese**
+tese ausente ou confusa
+tese clara no início
+tese clara, retomada na conclusão
+com força
 
-**DEPOIS DA REPRESENTAÇÃO**
+/5
 
-O que aprendemos ao observar a nossa escola através dos olhos de Gulliver?
+**Argumentação**
+opiniões sem razões
+dois argumentos com
+exemplos
 
+argumentos variados, contra-argu-
+mento refutado
+
+/7
+
+**Estrutura e**
+**coesão**
+
+um bloco de texto; «e
+depois»
+
+parágrafos; conectores
+simples
+
+progressão clara; conectores varia-
+dos e precisos
+
+/4
+
+**Correção**
+**linguística**
+
+erros frequentes que dificul-
+tam a leitura
+
+erros pontuais
+texto correto, vocabulário rico
+/4
+
+P L A N I F I C A Ç Ã O
+
+Tese
+
+Argumento 1 + exemplo
+
+Argumento 2 + exemplo
+
+Contra-argumento
+
+Refutação
+
+Conclusão
+
+**Conectores que fazem a diferença**
+Em primeiro lugar
+Além disso
+Por exemplo
+No entanto
+
+Há quem defenda que… mas
+Por conseguinte
+Em suma
+
+Três respostas-modelo a esta tarefa (Opção A), uma de cada nível, estão nas pp. 154–155.
+
+TEXTO ESCRITO
 153
 
 <!-- page 154 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+M O D E L O S · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+P R O V A 4
+ESCRITA
+R E S P O S T A S - M O D E L O A N O T A D A S · O P Ç Ã O A
+## Três respostas, três níveis
 
-## Relembra – texto dramático
+Lê as três respostas à mesma pergunta. As notas à direita mostram o que pesa na avaliação.
+Antes de leres as notas, classifica cada texto com a grelha da p. 153 e usa os códigos de cor‐
+reção para marcar os erros.
 
-**SÍNTESE**
+**NÍVEL 1 Em construção**
+8 / 20 pontos
 
-**O ESSENCIAL DO TEXTO DRAMÁTICO**
+Eu acho que os telemóveis não devem ficar à porta porque são
+muito uteis. Por exemplo eu uso o telemovel para ver as horas e
 
-**Elemento**
-**Lembra-te**
+para falar com a minha mãe. E tambem da para pesquisar coisas. Os
+profesores dizem que distrai mas eu acho que não distrai nada se a
+gente tiver juízo. E depois se houver uma emergência como é que a
+gente liga?
 
-Fala
-aquilo que a personagem diz
+Por isso os telemóveis deviam ficar na sala.
 
-Didascália
-indicação para a representação
+**Tese existe, mas «eu acho» repetido**
+enfraquece-a.
 
-Personagem
-participa na acção
+**Argumentos exemplos pessoais; o**
+contra-argumento («distrai») é recu-
+sado sem razões.
 
-Cena
-unidade da acção dramática
+**Estrutura quase sem introdução; con-**
+clusão de uma linha; «E depois».
 
-Acção
-acontecimentos representados
+**Língua «uteis», «telemovel», «tambem»,**
+«profesores», «da» sem acento; «a
+gente» é registo oral.
 
-INFERÊNCIA: pista → raciocínio → conclusão.
+**Extensão cerca de 90 palavras: muito**
+abaixo do pedido.
 
-COMPOSIÇÃO: dois ou mais elementos → nova palavra.
+**NÍVEL 2 Consolidado**
+14 / 20 pontos
 
-**DICA DO LEITOR · LÊ COMO UM ENCENADOR**
+Muitas escolas portuguesas já proibiram os telemóveis nas sa‐
+las de aula. Na minha opinião, essa é uma boa decisão.
 
-Quando encontrares uma didascália, pergunta: O que acontece? Quem faz? Como faz? Onde
-acontece? Que emoção transmite?
-Num texto dramático, as palavras e as acções trabalham juntas para contar a história.
+Em primeiro lugar, o telemóvel distrai. Basta uma notificação
+para um aluno deixar de ouvir a explicação e, quando volta a
+prestar atenção, já perdeu metade da matéria. Eu próprio já me
+distraí muitas vezes assim.
 
+Além disso, sem telemóveis, os alunos falam mais uns com os
+outros. Nos intervalos, em vez de estarem todos a olhar para o
+ecrã, conversam, jogam e resolvem problemas juntos.
+
+Há quem diga que o telemóvel é útil para pesquisar. No en‐
+tanto, a escola tem computadores e biblioteca para isso.
+
+Em suma, os telemóveis devem ficar à porta da sala, para
+aprendermos melhor e convivermos mais.
+
+**Tese clara logo no 1.º parágrafo.**
+
+**Argumentos dois argumentos com**
+exemplos; contra-argumento refutado,
+embora de forma breve.
+
+**Estrutura um parágrafo por ideia; co-**
+nectores adequados («Em primeiro lu-
+gar», «Além disso», «No entanto»).
+
+**A melhorar exemplos pouco desen-**
+volvidos; conclusão repete a tese sem
+a enriquecer; 150 palavras, abaixo do
+mínimo.
+
+C Ó D I G O S D E C O R R E Ç Ã O D O P R O F E S S O R
+
+Ort ortografia
+Ac acentuação
+Pont pontuação
+Conc concordância
+Rep repetição
+
+Reg registo oral
+¶ falta parágrafo
+? ideia pouco clara
++ muito bem
+
+MODELOS · ESCRITA
 154
 
 <!-- page 155 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+M O D E L O S · E S C R I T A
 
-Prime School Press · www.primeschool.pt
+**NÍVEL 3 Excelente**
+19 / 20 pontos
 
-## Autoavaliação – Gulliver
+Quantas vezes, numa aula, olhaste para o ecrã «só um se‐
+gundo» e voltaste dez minutos depois? A pergunta não é se o te‐
+lemóvel é útil — é evidente que é —, mas se a sala de aula é o lu‐
+gar certo para ele. Defendo que não: os telemóveis devem ficar à
+porta.
 
-**AUTOAVALIAÇÃO**
+Em primeiro lugar, porque a atenção é o material escolar mais
+caro que temos, e o telemóvel foi desenhado para a roubar. Cada
+notificação é um pequeno anúncio que grita «olha para mim!».
+Ninguém aprende a comentar um soneto de Camões com uma
+mensagem a vibrar no bolso.
 
-**MARCA A TUA RESPOSTA**
+Em segundo lugar, porque a escola é um dos poucos lugares
+onde ainda aprendemos a estar juntos. Quando os ecrãs se apa‐
+gam, há conversas, discussões, gargalhadas — e é aí que muitas
+vezes se aprende mais.
 
-**Consigo...**
+Há quem defenda que o telemóvel é uma ferramenta de pes‐
+quisa indispensável. É verdade; mas, quando for preciso, o pro‐
+fessor pode pedir que o tragam para uma tarefa concreta. Ficar
+à porta não é desaparecer: é esperar pela sua vez.
 
-compreender o texto dramático
-☐
-☐
-☐
+Em suma, guardar o telemóvel durante a aula não é voltar ao
+passado. É escolher, durante cinquenta minutos, estar inteira‐
+mente presente — e isso, hoje, é quase revolucionário.
 
-encontrar informação explícita
-☐
-☐
-☐
+**Tese introduzida por uma pergunta re-**
+tórica; delimitada com precisão.
 
-fazer inferências
-☐
-☐
-☐
+**Argumentos dois argumentos fortes,**
+com imagens expressivas (metáfora
+da atenção, personificação da
+notificação).
 
-caracterizar personagens
-☐
-☐
-☐
+**Contra-argumento apresentado com**
+justiça e refutado com uma proposta.
 
-identificar espaço e tempo
-☐
-☐
-☐
+**Estrutura progressão clara; conecto-**
+res variados; conclusão que retoma e
+amplia a tese.
 
-reconhecer falas e didascálias
-☐
-☐
-☐
+**Língua vocabulário rico, pontuação ex-**
+pressiva; 240 palavras.
 
-compreender o humor
-☐
-☐
-☐
+O Q U E S E P A R A O S N Í V E I S
 
-reconhecer palavras compostas
-☐
-☐
-☐
+**Do 1 ao 2**
+tese logo no início · um parágrafo por ideia · exemplos gerais, não só pessoais · ortografia
+revista
 
-escrever uma entrevista
-☐
-☐
-☐
+**Do 2 ao 3**
+abertura que prende · argumentos desenvolvidos com imagens · contra-argumento levado a
+sério · conclusão que acrescenta
 
-participar num debate
-☐
-☐
-☐
+✎Reescreve a resposta de nível 1 até ela chegar ao nível 2. Mantém as ideias do aluno; muda a organiza-
 
-**PASSAPORTE LITERÁRIO**
+ção, os conectores e a correção.
 
-Autora: Luísa Ducla Soares
-
-Obra: As Viagens de Gulliver com Escala em Portugal
-
-Personagem favorita: ____________________
-
-Uma coisa que aprendi: __________________
-
-Uma palavra nova: ______________________
-
-O que mais gostei: _____________________
-
+MODELOS · ESCRITA
 155
 
 <!-- page 156 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C E N A D E T E A T R O
 
-Prime School Press · www.primeschool.pt
+P R O V A 5
+ORALIDADE
+ESCRITA
+E M G R U P O S D E 3 O U 4 · 2 S E M A N A S
+## Escrever e representar
 
-## Os Piratas · a bordo de um navio de piratas
+O grupo escreve uma cena original de 3 a 5 minutos, inspirada num texto lido este ano —
+uma personagem, um conflito ou um lugar — e representa-a para a turma.
 
-**Manuel António Pina**
+P O N T O S D E P A R T I D A
 
-**PERGUNTA DE PARTIDA**
+Leandro e o sal
+Os três irmãos de Medranhos
+O projecionista do Cinema Aurora
 
-Imagina que estás escondido num navio ocupado por piratas. De repente, ouves passos a aproximarem-se. O que
-farias?
+O homem que sabia javanês
+Sísifo e a pedra
+Lianor a caminho da fonte
 
-**NESTA HISTÓRIA VAIS APRENDER A**
-compreender um texto dramático e identificar personagens e relações entre elas;
-reconhecer o conflito e a tensão dramática;
-distinguir fala, narração e acção;
-analisar a linguagem das personagens;
-compreender a importância do espaço e do ambiente;
-explorar o texto através da representação;
-transformar uma passagem narrativa num momento teatral;
-escrever uma cena dramática.
+**Entrega 1 · guião**
 
-**NESTE EXCERTO VAIS DESCOBRIR...**
-• Quem está em perigo? • O que pretendem os piratas?
+Semana 1 · título, personagens, 1 a 2
 
-• Como evitam o rapaz e o velho ser descobertos?
+páginas com didascálias; cada
 
-• O que acontece quando o capitão avista a vila?
+aluno assina as falas que escreveu.
 
-Escondidos entre as enxárcias, no nevoeiro.
+**Entrega 2 · ensaio**
 
+Semana 2 · ensaio com o professor;
+
+lista de adereços, luz e som.
+
+**Entrega 3 · estreia**
+
+Apresentação e dois minutos de
+
+conversa com o público sobre as
+
+escolhas do grupo.
+
+F I C H A D O G U I Ã O
+
+Título
+
+Texto de partida
+
+Personagens e atores
+
+Lugar e tempo
+
+O conflito, numa frase
+
+CRITÉRIO
+1 · EM CONSTRUÇÃO
+2 · CONSOLIDADO
+3 · EXCELENTE
+PTS
+
+**Guião**
+falas sem didascálias;
+conflito pouco claro
+
+estrutura clara, didascá-
+lias de espaço e tom
+
+conflito forte, didascálias expressivas,
+aparte ou monólogo bem usado
+
+/6
+
+**Ligação ao**
+**texto de partida**
+
+ligação superficial
+ligação clara
+releitura original do texto de partida
+/4
+
+**Interpretação**
+falas lidas, sem
+intenção
+
+de cor, tom adequado
+personagens vivas: voz, corpo, olhar,
+pausas
+
+/6
+
+**Encenação**
+sem cenário, luz ou
+som
+
+elementos simples e
+coerentes
+
+soluções criativas ao serviço da cena
+/2
+
+**Trabalho de**
+**grupo**
+
+participação desigual
+todos contribuem
+equipa coordenada, papéis claros
+/2
+
+D I Á R I O D O G R U P O · U M A L I N H A P O R S E S S Ã O
+
+**Sessão 1**
+
+**Sessão 2**
+
+**Sessão 3**
+
+**Sessão 4**
+
+CENA DE TEATRO
 156
 
 <!-- page 157 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+S E C Ç Ã O D O P R O F E S S O R
 
-Prime School Press · www.primeschool.pt
+S E C Ç Ã O D O P R O F E S S O R
+Teste 1 · soluções e critérios de classificação
 
-## Conhece o autor · Manuel António Pina
+ITEM
+RESPOSTA ESPERADA (CENÁRIO DE RESPOSTA)
+CRITÉRIOS
 
-**LITERATURA · O AUTOR**
+1
+Num casebre isolado, num cerro, entre Enganim e Cesareia; na miséria. Ex.: «far-
+rapos da enxerga apodrecida», «Dentro da arca pintada não restava grão ou cô-
+dea», «ervas […] cozidas sem sal».
 
-Manuel António Pina foi um escritor, jornalista e poeta português, autor de uma vasta obra para crianças e
-jovens. A sua escrita combina frequentemente imaginação, humor, aventura e fantasia, criando situações que
-convidam o leitor a participar na história.
+5 = local + duas transcrições
+corretas; 3 = local + uma
 
-Em Os Piratas, encontramos uma aventura marcada pelo perigo, pelo mistério e pela acção: um rapaz e um
-velho escondidos num navio pirata que se prepara para assaltar uma vila.
+2
+Comparação (e metáfora: a miséria «cresce»): a pobreza é apresentada como
+algo vivo, que se espalha e apodrece tudo, sugerindo abandono total.
 
-**SABIAS QUE...?**
+5 = recurso + efeito; 2 = só
+recurso
 
-Um texto dramático pode ser lido, mas foi pensado para ser representado. Quando leres Os Piratas, imagina: as
-personagens em palco, os seus movimentos, a voz e a entoação, os objectos, os sons, a iluminação e o espaço
-onde decorre a acção.
+3
+Leva a notícia do Rabi à viúva: é o elemento que desencadeia a esperança e o
+conflito final (ir ou não ir).
 
-**ANTES DE LER · O TÍTULO**
-1. Observa o título «Os Piratas» e escreve cinco palavras que associes imediatamente a ele.
+4 / 2
 
-2. Assinala os elementos que esperarias encontrar num navio pirata:
-☐capitão ☐marinheiros ☐bússola ☐óculo ☐espadas
+4
+Não pode deixar o filho doente; é pobre e fraca («tão rota, tão trôpega»); nin-
+guém lhe daria atenção; nem os ricos o encontraram; talvez Jesus tivesse
+morrido.
 
-☐fuzis ☐lampiões ☐botes ☐tesouro ☐computador
+5 = duas razões
+fundamentadas
 
-3. Que sentimentos poderias sentir na situação da pergunta de partida?
-☐medo ☐curiosidade ☐coragem ☐ansiedade ☐tranquilidade ☐surpresa
+5
+Narrador ausente (não participa na história): narra na 3.ª pessoa («vivia»,
+«contou»).
 
-Escolhe dois e explica.
+4 = classificação +
+justificação
 
+6
+Ex.: 1) A miséria da viúva e do filho (§1); 2) A esperança trazida pelo mendigo e o
+desânimo da mãe (§2 até ao diálogo); 3) O desejo da criança e o milagre (final).
+
+6 = três momentos delimita-
+dos e titulados
+
+7
+O milagre é «suave» porque acontece sem esforço nem poder: Jesus aparece
+por si, à porta, a quem nada tem e apenas deseja vê-lo — o contrário dos pode-
+rosos, que o procuraram com servos e soldados.
+
+6 = relação título/final + con-
+traste com o início
+
+8
+Não comercial: não vende um produto; promove a leitura; emissor institucional
+(Câmara, Biblioteca); entrada livre.
+
+3
+
+9
+Metáfora (ler = viagem) e hipérbole («a mais barata do mundo»): sugere que ler
+leva longe sem custar nada.
+
+4 = recurso + explicação
+
+10
+«Traz», «descobre», «leva»; dirige-se ao leitor jovem (tu) e às famílias.
+4
+
+11
+Facto: «1 a 10 de junho», «30 editoras», «Entrada livre». Opinião: «uma história que
+nunca mais vais esquecer», slogan.
+
+4 = 2 + 2
+
+12
+A história foi contada à viúva pelo mendigo.
+3
+
+13
+a) subordinada adverbial condicional; b) subordinada adverbial final.
+2 + 2
+
+14
+A viúva vivia num casebre que ficava na prega dum cerro.
+3
+
+15
+a) venha; b) encontrares.
+2 + 2
+
+16
+Um dia: modificador do grupo verbal · um mendigo: sujeito · pão: complemento di-
+reto · à viúva: complemento indireto.
+
+1 por função
+
+17
+Advérbio de modo.
+2
+
+GRUPO IV Tema e tese (8) · argumentação (10) · estrutura e coesão (6) · correção (6). Desvalorizar 1 ponto por cada 10
+palavras abaixo do limite mínimo (máx. 5). Textos com menos de 60 palavras: classificação 0 em todos os critérios ex-
+ceto correção.
+
+SECÇÃO DO PROFESSOR
 157
 
 <!-- page 158 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+S E C Ç Ã O D O P R O F E S S O R
 
-Prime School Press · www.primeschool.pt
+S E C Ç Ã O D O P R O F E S S O R
+Teste 2 · soluções e critérios de classificação
 
-## Vamos ler · Os Piratas
+ITEM
+RESPOSTA ESPERADA (CENÁRIO DE RESPOSTA)
+CRITÉRIOS
 
-**TEXTO DRAMÁTICO · MANUEL ANTÓNIO PINA · ADAPTADO**
+1
+Mote de 3 versos; duas voltas de 7 versos cada.
+4
 
-Ficámos os dois muito quietos, escondidos entre as enxárcias do mastro da mezena. O velho chegou-se perto de
-mim:
+2
+Des / cal / ça / vai / pa / ra_a / fon(te) = 7 sílabas métricas · redondilha maior.
+3 escansão + 2
+classificação
 
-VELHO — Não faças barulho. É um navio de piratas. Passaram aqui a noite por causa do nevoeiro. Vão assaltar a
-vila e pilhar tudo. Mas o pior é que raptam as mulheres e levam-nas com eles. Temos que salvar a ilha!
+3
+ABBAACC (pote / prata / escarlata / chamerlote / cote / pura / segura).
+5 · aceitar ABBAA + CC
 
-RAPAZ — E se nos descobrem?
+4
+«Vai fermosa e não segura.» Refrão: cria musicalidade, insiste na ideia central e
+liga as voltas ao mote.
 
-VELHO — Se nos descobrem enforcam-nos, ou atiram-nos ao mar, não faças barulho.
+5 = verso + efeito
 
-Os piratas corriam no convés de um lado para o outro, e um de grande chapéu, barba negra e olhos brilhantes,
-esquadrinhava a costa com um óculo e resmungava:
+5
+Metáfora: «mãos de prata» (brancura, delicadeza) ou «Cabelos de ouro»; compa-
+ração: «Mais branca que a neve pura».
 
-CAPITÃO — «Onde está o raio do porto? Onde está o porto?»
+6 = 2 + 2 + explicação 2
 
-Depois ia à bitácula olhar a bússola e voltava, coxeando, à amurada perscrutando a ilha, envolta em névoa.
+6
+Hipérbole.
+4
 
-CAPITÃO — Alem a vela, suas bestas! Braceiem-me as vergas, que o vento dá de popa! — berrava da ponte para
-os marinheiros.
+7
+Interpretação aberta. Ex.: a sua beleza atrai olhares e perigos; vai insegura, tal-
+vez apaixonada ou inquieta; a beleza não a protege.
 
-A algazarra era enorme. Pelas escadas de bombordo subiam piratas carregando braçadas de espadas e de fuzis.
-Outros subiam aos mastros à procura das luzes da vila. O capitão, a falar sozinho, entre dentes, aproximou-se do
-sítio onde estávamos, sempre a olhar pelo óculo. E, dando comigo, gritou:
+6 = interpretação coerente e
+fundamentada
 
-CAPITÃO — E tu que estás aqui a fazer, grumete? Vai-me lá abaixo buscar outra garrafa!
+8
+Espaço: «Palco do auditório da escola» · movimento: «Levanta-se e pontapeia a
+coroa» · luz: «A luz desce até ficarem só os dois».
 
-Levantei-me cheio de medo e ele empurrou-me e tornou a gritar:
+4
 
-CAPITÃO — De que estás à espera? Mexe-me essas pernas ou mando-te atirar aos tubarões!
+9
+«Ninguém se ri de quem diz uma coisa daquelas a sério.» Revela sensibilidade e
+maturidade: percebe o valor da fala.
 
-VELHO — Vai — disse-me o velho baixinho. — Faz o que ele diz...
+4
 
-**ENQUANTO LÊS**
+10
+Rui recusa dizer a fala por vergonha; conflito entre Rui e Marta (e consigo
+próprio).
 
-Repara nas falas do capitão: quase todas são ordens. Que retrato se vai desenhar dele, palavra a palavra?
+4
 
+11
+Resposta aberta, coerente com a cena (ex.: Rui diz a fala a Sofia; a luz a descer
+sugere intimidade).
+
+3
+
+12
+Subordinada substantiva completiva.
+3
+
+13
+a) Sofia estende-lha. b) Marta explica-lha.
+2 + 2
+
+14
+De repente: locução adverbial de tempo · baixinho: advérbio de modo · nunca
+mais: locução adverbial de tempo (negação).
+
+3
+
+15
+a) S: a Sofia (posposto) · P: Chegou. b) Sujeito nulo subentendido (vós/vocês) · P:
+Desculpem.
+
+2 + 2
+
+16
+Na véspera da estreia: MGV · a encenadora: S · o guião: CD · aos atores: CI.
+1 por função
+
+17
+Derivação por sufixação (encenar + -dora).
+2
+
+GRUPO IV Adequação ao género (10): título, personagens, didascálias, nomes antes das falas, aparte ou monólogo ·
+coerência com a cena (8) · criatividade (6) · correção (6).
+
+SECÇÃO DO PROFESSOR
 158
 
 <!-- page 159 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+S E C Ç Ã O D O P R O F E S S O R
 
-Prime School Press · www.primeschool.pt
+S E C Ç Ã O D O P R O F E S S O R
+Registo da turma · conversão de classificações · notas
 
-## Vamos ler · Os Piratas (continuação)
+ALUNO
+T1
+T2
+ORAL
+ESCRITA
+CENA
+FINAL
 
-**TEXTO DRAMÁTICO · MANUEL ANTÓNIO PINA · ADAPTADO**
+C O N V E R S Ã O P A R A 1 0 0
 
-Desci as escadas e fui ao camarote. Peguei em duas garrafas sujíssimas de debaixo do beliche e trouxe-lhas.
+Oral: pontos × 4 (máx. 24 → 96, arredondar a 100 com bonificação
+de tempo exato) · Escrita: pontos × 5 · Cena: pontos × 5. Média
+ponderada com os pesos da p. 141.
 
-CAPITÃO — Agora põe-te a mexer. Vai guardar os lampiões! E apanha o lenço, não quero ver ninguém sem o
-lenço na cabeça!
+A D A P T A Ç Õ E S
 
-Ao meu lado, no chão, estava um lenço vermelho que alguém, algum marinheiro, acho eu, deixara cair. Apanhei-o
-e voltei para o pé do velho, a tremer.
+Tempo suplementar de 25%; enunciado ampliado; leitura do enun-
+ciado em voz alta; Grupo IV com planificação guiada (p. 153).
 
-VELHO — Uff — disse ele. — Safámo-nos de boa... Anda, além estamos melhor, aqui ainda nos descobrem.
+N O T A S P A R A A C O R R E Ç Ã O
 
-Fui atrás dele em silêncio. Nessa altura, o capitão soltou um urro medonho:
+Valorizar respostas completas e fundamentadas com citações. Nas perguntas abertas (I-7, II-11, IV) aceitar interpretações diferentes das do ce-
+nário, desde que coerentes com o texto. Na gramática, a terminologia segue o Dicionário Terminológico. Os testes usam textos em domínio pú-
+blico (Eça de Queirós, Luís de Camões) e textos escritos para este manual.
 
-CAPITÃO — Terra! É aqui, tudo a estibordo, tudo a estibordo!
-
-Dava grandes saltos, a correr para a ponte de comando, com o óculo numa mão e uma garrafa na outra. O veleiro
-deu um abanão tal que tropecei na confusão de cabos e caí desamparado. O velho ajudou-me a levantar e
-murmurou:
-
-VELHO — Descobriram a vila. Vão desembarcar.
-
-Os piratas gritavam como doidos, descendo os botes e atirando-os à água. Em pouco tempo remavam já para
-terra, furiosamente, no meio de um alarido infernal.
-
-O capitão tirou a espada e saltou também, e eu e o velho seguimo-lo.
-
-Amanhecera por completo. O sol coava-se tenuemente entre a névoa. Ao fundo, contra a mole escura dos
-rochedos, desenhavam-se as casas da vila, adormecidas. A cruz grande da igreja pairava incertamente no céu,
-acima dos telhados.
-
-VELHO — Se não conseguimos avisá-los a tempo são todos mortos — disse-me o velho ao ouvido.
-
-**NOTA**
-
-Os nomes VELHO, RAPAZ e CAPITÃO foram acrescentados para facilitar a leitura dramatizada; o texto e as falas
-são mantidos.
-
+SECÇÃO DO PROFESSOR
 159
 
 <!-- page 160 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+V E R E D I C T O D O A N O
 
-Prime School Press · www.primeschool.pt
+P R O V A 6
+A U T O A V A L I A Ç Ã O F I N A L
+## Veredicto do ano
 
-## Compreensão · o que acontece?
+No primeiro dia, o bilhete dizia «Admite 1 leitor crítico». Agora és tu o crítico — de ti pró‐
+prio. Dá de uma a cinco estrelas a cada unidade: o quanto aprendeste, não o quanto
+gostaste.
 
-**LEITURA · RESPONDE COM FRASES COMPLETAS**
+## 1
+**Promessa & Veredicto**
 
-**EXERCÍCIOS 52**
-A SITUAÇÃO INICIAL
+## 2
+**Quem nos faz crescer?**
 
-1. Onde estão o rapaz e o velho?
+## 3
+**O que cabe num verso?**
 
-2. Porque razão estão escondidos?
+## 4
+**Sobe o pano**
 
-3. Porque motivo permaneceram os piratas naquela zona?
+## 5
+**Sessão de encerramento**
 
-4. O que pretendem fazer à vila?
+## 6
+**O teu veredicto**
 
-A ACÇÃO
+## 7
+**Contrato de leitura**
 
-5. O que faz o capitão enquanto procura a vila?
+**O meu maior progresso**
+**O que ainda me custa**
 
-6. O que acontece quando o capitão encontra o rapaz?
+**O livro que vou ler nas férias**
+**A classificação que acho que mereço, e**
+**porquê**
 
-7. Que ordens recebe o rapaz?
+O ALUNO
+O ENCARREGADO DE EDUCAÇÃO
+O PROFESSOR
 
-8. O que acontece quando o capitão avista a terra?
+A D M I T E
+## 1 leitor
+que já não precisa de bilhete
 
-9. Porque razão está o velho preocupado no final?
-
+VEREDICTO DO ANO
 160
 
 <!-- page 161 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+U N I D A D E 7
 
-Prime School Press · www.primeschool.pt
+A T I V I D A D E S E X T R A · C O N T R A T O D E L E I T U R A
+## Um leitor
+## não nasce.
+Faz-se.
 
-## Verdadeiro ou falso
+Na Unidade 1 aprendeste a desconfiar de quem te
+quer convencer. Aqui é ao contrário: és tu quem es‐
+**colhe. Durante o ano vais assinar um contrato con‐**
+**tigo próprio — escolher livros, lê-los ao teu ritmo,**
+registar o que te fizeram e, no fim, perceber que lei‐
+tor te tornaste.
 
-**LEITURA · CLASSIFICA AS AFIRMAÇÕES COMO V OU F**
+**?**
+Que livro te fez, alguma vez, perder a noção das
+horas?
 
-**VERDADEIRO OU FALSO 53**
+**?**
+É preciso acabar todos os livros que se começam?
 
-**Afirmação**
-**V/F**
+**?**
+Como se escolhe um livro sem conhecer a história?
 
-a) O rapaz e o velho estão escondidos no navio.
-
-b) O navio permaneceu ali por causa do nevoeiro.
-
-c) Os piratas pretendem assaltar a vila.
-
-d) O capitão utiliza um mapa para procurar a vila.
-
-e) O capitão encontra o rapaz.
-
-f) O rapaz recebe ordens para ir buscar uma garrafa.
-
-g) O rapaz encontra um lenço azul.
-
-h) O capitão avista a vila.
-
-i) Os piratas descem os botes à água.
-
-j) A vila está acordada e preparada para os receber.
-
-Corrige as afirmações falsas:
-
+CONTRATO DE LEITURA
 161
 
 <!-- page 162 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+LEITURA
+P O N T O D E P A R T I D A · S E T E M B R O
+## Que leitor és tu?
 
-## Escolha múltipla
+Responde com honestidade: não há respostas certas, e só tu vais comparar este retrato com
+o de junho (p. 170).
 
-**LEITURA · ASSINALA A OPÇÃO CORRECTA**
+## 1
+Quantos livros leste, por vontade própria, no último ano?
 
-**EXERCÍCIOS 54**
-1. Quem avisa o rapaz sobre o perigo?
-A. O capitão B. Um marinheiro
-C. O velho D. Outro pirata
+## 2
+Onde e quando lês melhor?
 
-2. Como é descrito o capitão?
-A. Grande chapéu, barba negra e olhos brilhantes B. Chapéu vermelho e barba branca
-C. Baixo e silencioso D. Um jovem marinheiro
+## 3
+O que te faz pegar num livro? (podes escolher vários)
 
-3. Que objecto utiliza o capitão para observar?
-A. Uma espada B. Um óculo
-C. Um mapa D. Uma lanterna
+## 4
+Que géneros te chamam mais?
 
-4. O que vai o rapaz buscar?
-A. Uma espada B. Uma bússola
-C. Duas garrafas D. Um mapa
+## 5
+O que te faz desistir de um livro?
 
-5. Que objecto encontra o rapaz no chão?
-A. Um lenço vermelho B. Um lenço azul
-C. Uma espada D. Uma corda
+## 6
+O livro de que mais gostaste até hoje — e uma razão.
 
-6. O que fazem os piratas depois de descobrir a vila?
-A. Escondem-se B. Regressam ao navio
-C. Descem os botes e vão para terra D. Esperam pelo amanhecer
+## 7
+Um livro que gostavas de ler e ainda não leste.
 
+C O M Q U A L T E P A R E C E S M A I S A G O R A ?
+
+**O explorador**
+
+Lê um pouco de tudo,
+
+salta de género em
+
+género.
+
+**O fiel**
+
+Tem um autor ou uma
+
+saga e não os larga.
+
+**O maratonista**
+
+Lê pouco durante me-
+
+ses — e depois devora
+
+três livros numa
+
+semana.
+
+**O desconfiado**
+
+Ainda não encontrou o
+
+livro certo. Talvez seja
+
+este ano.
+
+nenhum
+1–2
+3–5
+6–10
+mais de 10
+
+na cama
+nos transportes
+na biblioteca
+ao fim de semana
+nas férias
+
+raramente leio
+
+a capa
+o título
+um amigo recomendou
+vi o filme ou a série
+o autor
+
+a primeira página
+um booktuber
+
+aventura
+mistério
+fantasia
+ficção científica
+histórias reais
+humor
+
+romance
+poesia
+BD
+terror
+
+CONTRATO DE LEITURA
 162
 
 <!-- page 163 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+ORALIDADE
+D E B A T E E M T U R M A
+## Direitos e compromissos
 
-## Explícito e inferência
+Um contrato tem duas faces. De um lado, a liberdade de quem lê; do outro, aquilo a que se
+compromete. Os direitos abaixo inspiram-se nas ideias do escritor francês Daniel Pennac,
+no ensaio Como um Romance.
 
-**LÊ NAS ENTRELINHAS**
+**Os meus direitos de leitor**
 
-**EXPLÍCITO E INFERÊNCIA 55**
-1. Lê: «Ficámos os dois muito quietos». O que podemos concluir sobre a situação?
+**1. Escolher. Posso escolher o que leio, den-**
+tro da carta de navegação ou fora dela.
 
-2. Lê: «Levantei-me cheio de medo». Como se sente o rapaz?
+**2. Abandonar. Posso deixar um livro que não**
+me diz nada — desde que explique porquê.
 
-3. Porque razão o velho fala «baixinho»?
+**3. Saltar. Posso saltar páginas, sobretudo as**
+que me aborrecem.
 
-4. O que significa a expressão «Safámo-nos de boa...»?
+**4. Reler. Posso voltar a um livro de que gos-**
+tei, mesmo que já saiba o fim.
 
-5. Porque é que a descoberta da vila aumenta o perigo?
+**5. Ler em qualquer lado e em qualquer for-**
+mato: papel, ecrã, áudio.
 
-6. O que podemos concluir a partir da última fala do velho?
+**6. Calar-me. Posso guardar para mim o que**
+um livro me fez sentir.
 
-**DICA**
+**Os meus compromissos**
 
-Uma inferência baseia-se em pistas do texto: pista + interpretação = inferência.
+**1. Dar uma oportunidade. Leio pelo menos**
+30 páginas antes de abandonar um livro.
 
+**2. Registar. Preencho o diário de bordo de**
+cada livro que termino ou abandono.
+
+**3. Variar. Ao longo do ano, leio pelo menos**
+um livro de um género que nunca
+escolheria.
+
+**4. Partilhar. Apresento à turma, uma vez por**
+período, um livro que li.
+
+**5. Cumprir o ritmo que eu próprio defini no**
+contrato.
+
+**6. Respeitar os gostos dos outros leitores.**
+
+## 1 Em grupo, escolham o direito com que mais concordam e aquele de que mais desconfiam. Preparem
+dois argumentos para cada um e defendam-nos num debate de dez minutos.
+EM GRUPO
+
+## 2 Acrescenta um direito e um compromisso teus, escritos em frase curta, como os de cima.
+DESAFIO
+
+DIREITO
+COMPROMISSO
+
+## 3 Um colega diz: «Eu não gosto de ler.» Escreve-lhe duas frases para o convencer a dar uma oportuni-
+dade a um livro — sem promessas exageradas nem hipérboles enganosas (lembra-te da Unidade 1).
+
+CONTRATO DE LEITURA
 163
 
 <!-- page 164 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+ESCRITA
+D O C U M E N T O P A R A A S S I N A R
 
-## As personagens
+P R I M E S C H O O L · P O R T U G U Ê S · 7 . º A N O
+## Contrato de leitura
 
-**PERSONAGENS · CARACTERIZAÇÃO**
+A N O L E T I V O 2 0 _ _ _ / 2 0 _ _ _
 
-**O RAPAZ**
-1. Assinala as características que consegues justificar:
-☐assustado ☐obediente ☐atento ☐agressivo ☐indiferente ☐prudente
+Entre
+, aluno(a) do 7 .º ano, turma
+, adiante
 
-2. Retira do texto duas expressões que mostrem o medo do rapaz.
+**designado(a) o Leitor, e**
+, professor(a) de Português, é cele-
 
-3. Apesar do medo, o rapaz cumpre as ordens do capitão. Justifica.
+brado o presente contrato, que se rege pelas cláusulas seguintes.
 
-**O VELHO**
-4. Qual é a principal preocupação do velho? Como tenta proteger o rapaz?
+**Cláusula 1.ª · Objeto**
 
-5. O velho conhece o perigo. Retira uma informação do texto que o demonstre.
+O Leitor compromete-se a ler, por escolha própria,
+livros ao longo do ano letivo, dos
 
-**O CAPITÃO**
-6. Selecciona três características:
-☐autoritário ☐agressivo ☐ameaçador ☐hesitante ☐enérgico ☐tranquilo
+quais pelo menos um de um autor de língua portuguesa e pelo menos um de um género que
 
-7. Escolhe uma fala do capitão que justifique uma das tuas escolhas.
+nunca escolheria.
 
+**Cláusula 2.ª · Calendário**
+
+1.º PERÍODO · ATÉ DEZEMBRO
+2.º PERÍODO · ATÉ MARÇO
+3.º PERÍODO · ATÉ JUNHO
+
+**Cláusula 3.ª · Ritmo**
+
+O Leitor reserva para a leitura
+minutos por dia, de preferência
+
+(quando e onde).
+
+**Cláusula 4.ª · Registo e partilha**
+
+Por cada livro, o Leitor preenche um registo no diário de bordo e, uma vez por período, apresenta
+
+um livro à turma, num dos formatos da p. 169.
+
+**Cláusula 5.ª · Direitos**
+
+O Leitor mantém todos os direitos enunciados na p. 163, incluindo o de abandonar um livro, nos
+
+termos aí previstos.
+
+**Cláusula 6.ª · Revisão**
+
+O contrato é revisto no fim de cada período e pode ser alterado por acordo entre as partes. A ava-
+
+liação considera o cumprimento, a qualidade dos registos e a partilha — não o número de páginas.
+
+O LEITOR
+O(A) PROFESSOR(A)
+O(A) ENCARREGADO(A) DE
+
+EDUCAÇÃO
+
+LIDO
+E ACEITE
+
+CONTRATO DE LEITURA
 164
 
 <!-- page 165 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+ED. LITERÁRIA
+S U G E S T Õ E S P A R A E S C O L H E R
+## Carta de navegação
 
-## Conflito dramático
+**Vinte e quatro livros em seis rotas. Não é uma lista obrigatória: é um mapa. Marca com ○ os**
+**que te chamam, com ● os que já leste — e aceita sugestões de colegas, da biblioteca e de**
+casa.
 
-**ANÁLISE · A TENSAO DA CENA**
+C L Á S S I C O S E M P O R T U G U Ê S
+D O O U T R O L A D O D O A T L Â N T I C O
+G R A N D E S A V E N T U R A S
 
-**EXERCÍCIOS 56**
-1. Completa:
+C R E S C E R
+V I D A S R E A I S
+R O T A L I V R E
 
-O rapaz e o velho querem:
+**Biblioteca escolar**
 
-Os piratas querem:
+Pede ao professor bibli-
 
-O principal perigo é:
-2. Explica o conflito presente no excerto.
+otecário a estante do 7.º
 
-3. No final do excerto, o conflito está resolvido? (sim / não) Justifica.
+ano e pergunta pelas
 
-**ESPAÇO E TEMPO**
-1. Onde decorre a maior parte da acção?
+novidades.
 
-2. Identifica quatro elementos do espaço marítimo presentes no texto.
+**Biblioteca**
+**municipal**
 
-3. Que condições atmosféricas encontramos? Que ambiente é criado pelo nevoeiro?
+O cartão de leitor é gra-
 
-4. Que expressão indica que amanheceu?
+tuito e dá acesso a mi-
 
+lhares de livros — e, em
+
+muitas, a livros digitais.
+
+**Troca na turma**
+
+Uma caixa na sala: dei-
+
+xas um livro que leste,
+
+levas um que alguém
+
+recomendou.
+
+**Audiolivro**
+
+Ouvir também é ler.
+
+Conta para o contrato,
+
+desde que faças o
+
+registo.
+
+**Como escolher sem conhecer a história? Aplica o teste dos três minutos: lê a contracapa (desconfia**
+dela — lembra-te da Unidade 1!), a primeira página e uma página ao acaso do meio. Se, ao fim de três mi-
+nutos, quiseres saber o que acontece a seguir, é um bom candidato.
+
+**Bichos**
+
+Miguel Torga
+
+**O Cavaleiro da Dinamarca**
+
+Sophia de Mello Breyner Andresen
+
+**Ulisses**
+
+Maria Alberta Menéres
+
+**A Lua de Joana**
+Maria Teresa Maia Gonzalez
+
+**O Meu Pé de Laranja Lima**
+
+José Mauro de Vasconcelos
+
+**O Gato Malhado e a Ando-**
+**rinha Sinhá**
+Jorge Amado
+
+**Mar Me Quer**
+
+Mia Couto
+
+**A Maior Flor do Mundo**
+
+José Saramago
+
+**A Ilha do Tesouro**
+
+Robert Louis Stevenson
+
+**Viagem ao Centro da Terra**
+
+Júlio Verne
+
+**O Hobbit**
+
+J. R. R. Tolkien
+
+**Harry Potter e a Pedra**
+**Filosofal**
+
+J. K. Rowling
+
+**Wonder**
+
+R. J. Palacio
+
+**O Rapaz do Pijama às**
+**Riscas**
+
+John Boyne
+
+**A Rapariga que Roubava**
+**Livros**
+Markus Zusak
+
+**O Principezinho**
+
+Antoine de Saint-Exupéry
+
+**O Diário de Anne Frank**
+
+Anne Frank
+
+**Eu Sou Malala**
+Malala Yousafzai
+
+**Persépolis**
+
+Marjane Satrapi · BD
+
+**O Diário de Zlata**
+Zlata Filipović
+
+sugestão de um colega
+
+sugestão da biblioteca
+
+sugestão de casa
+
+a minha descoberta
+
+CONTRATO DE LEITURA
 165
 
 <!-- page 166 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+LEITURA
+ESCRITA
+D I Á R I O D E B O R D O
 
-## Vocabulário · a bordo
+**Seis livros, seis registos. Preenche um por livro, logo que o terminas (ou o abandonas).**
+Não é um resumo: é a memória do que o livro te fez.
 
-**PALAVRAS DO TEXTO**
+## Livro 1
+TÍTULO
+AUTOR(A)
 
-**EXERCÍCIOS 57**
-1. Relaciona cada palavra com o significado correcto.
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
 
-**Palavra**
-**Letra**
-**Significado**
+não ficção
 
-1. enxárcias
-a.
-instrumento para observar ao longe
+A primeira frase
+Em três palavras
 
-2. mezena
-b.
-cabos que sustentam os mastros
+Uma frase que sublinhei (página ___)
+A personagem que convidaria para jantar — e porquê
 
-3. óculo
-c.
-mastro traseiro do navio
+O que este livro mudou na minha maneira de ler
 
-4. amurada
-d.
-parte lateral do navio
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
 
-5. bitácula
-e.
-suporte da bússola
+## Livro 2
+TÍTULO
+AUTOR(A)
 
-6. vergas
-f.
-peças horizontais das velas
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
 
-2. Escolhe três palavras e escreve uma frase com cada uma, relacionada com o universo marítimo.
+não ficção
 
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+DIÁRIO DE BORDO
 166
 
 <!-- page 167 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+D I Á R I O D E B O R D O · C O N T I N U A Ç Ã O
 
-## Gramática em contexto
+## Livro 3
+TÍTULO
+AUTOR(A)
 
-**GRAMÁTICA · O IMPERATIVO E O VOCATIVO**
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
 
-**O IMPERATIVO · O CAPITÃO DÁ MUITAS ORDENS**
+não ficção
 
-«Vai-me lá abaixo buscar outra garrafa!»
-«Mexe-me essas pernas...»
-«Vai guardar os lampiões!»
-«Apanha o lenço...»
+A primeira frase
+Em três palavras
 
-1. Retira do texto cinco verbos utilizados para dar ordens.
+Uma frase que sublinhei (página ___)
+A personagem que convidaria para jantar — e porquê
 
-2. Em que modo verbal se encontram?
+O que este livro mudou na minha maneira de ler
 
-3. Reescreve uma das ordens de forma educada:
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
 
-Original:
+## Livro 4
+TÍTULO
+AUTOR(A)
 
-Nova versão:
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
 
-**O VOCATIVO · «E TU QUE ESTÁS AQUI A FAZER, GRUMETE?»**
-4. Qual é o vocativo desta fala? A quem se refere?
+não ficção
 
-5. Identifica o vocativo em cada frase:
+A primeira frase
+Em três palavras
 
-a) «Rapaz, vem cá!»
-b) «Capitão, avistámos terra!»
-c) «Marinheiros, preparem os botes!»
+Uma frase que sublinhei (página ___)
+A personagem que convidaria para jantar — e porquê
 
-**RELEMBRA**
+O que este livro mudou na minha maneira de ler
 
-O vocativo é a palavra usada para chamar alguém: na fala, vem separada por vírgula. O imperativo dá ordens — é
-o modo das falas do capitão.
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
 
+DIÁRIO DE BORDO
 167
 
 <!-- page 168 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+D I Á R I O D E B O R D O · C O N T I N U A Ç Ã O
 
-## Recursos expressivos
+## Livro 5
+TÍTULO
+AUTOR(A)
 
-**LEITURA · AS PALAVRAS PINTAM A CENA**
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
 
-**EXERCÍCIOS 58**
-1. Explica o efeito da expressão «um alarido infernal».
+não ficção
 
-2. Observa: «gritou» · «berrava» · «soltou um urro medonho». Que efeito produzem estes verbos?
+A primeira frase
+Em três palavras
 
-3. Explica a imagem presente em: «O sol coava-se tenuemente entre a névoa.»
+Uma frase que sublinhei (página ___)
+A personagem que convidaria para jantar — e porquê
 
-4. Que ambiente é criado pela expressão «as casas da vila, adormecidas»?
+O que este livro mudou na minha maneira de ler
 
-«Onde está o raio do porto?», resmugava o capitão.
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
 
+## Livro 6
+TÍTULO
+AUTOR(A)
+
+COMECEI
+TERMINEI
+PÁGINAS
+romance
+contos
+poesia
+teatro
+BD
+
+não ficção
+
+A primeira frase
+Em três palavras
+
+Uma frase que sublinhei (página ___)
+A personagem que convidaria para jantar — e porquê
+
+O que este livro mudou na minha maneira de ler
+
+O MEU VEREDICTO
+Abandonei-o na página ____ — e tenho esse direito.
+
+DIÁRIO DE BORDO
 168
 
 <!-- page 169 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+ORALIDADE
+ESCRITA
+U M A V E Z P O R P E R Í O D O
+## Passar a palavra
 
-## Educação literária · o texto dramático
+Um livro lido e guardado é uma sessão para uma pessoa só. Escolhe, em cada período, uma
+destas formas de o partilhar — e não repitas a mesma.
 
-**ESTRUTURA · O QUE ENCONTRAMOS NUM TEXTO DRAMÁTICO**
+01
 
-**O TEXTO DRAMÁTICO É ESCRITO PARA SER REPRESENTADO EM PALCO**
+**Booktalk de 2**
+**minutos**
 
-**Elemento**
-**O que é**
+Apresenta o livro à turma sem
+contar o final. Termina com a
+pergunta: «Quem é que eu
+acho que devia ler isto?»
 
-Personagens
-Participam na acção.
+02
 
-Falas
-Aquilo que as personagens dizem.
+**Booktrailer**
 
-Acção
-Aquilo que acontece.
+Um vídeo de 45 segundos,
+como o trailer de um filme.
+Usa o que aprendeste sobre
+slogans e apelos (Sessão 4).
 
-Conflito
-O problema que faz avançar a acção.
+03
 
-Espaço cénico
-O lugar onde a acção é representada.
+**Carta a uma**
+**personagem**
 
-Didascálias
-Indicações relativas à representação.
+Escreve-lhe no momento mais
+difícil da história. O que lhe di-
+rias? O que lhe perguntarias?
 
-**NESTE EXCERTO...**
+04
 
-Personagens:
+**Capa alternativa**
 
-Conflito:
+Desenha uma nova capa e es-
+creve uma contracapa de 80
+palavras — honesta, sem pro-
+messas exageradas.
 
-Espaço:
+05
 
-Acção principal:
+**A banda sonora do**
+**livro**
 
-**FALA OU ACÇÃO? 59**
-Classifica cada passagem com F (fala) ou A (acção/narração):
+Cinco músicas para cinco mo-
+mentos do livro, com uma
+frase a justificar cada escolha.
 
-a) «E se nos descobrem?»
+06
 
-b) «Os piratas corriam no convés de um lado para o outro.»
+**Crítica para a revista**
+**A Lupa**
 
-c) «Terra! É aqui, tudo a estibordo...»
+180 a 250 palavras, com tese,
+dois argumentos, uma reserva
+e uma recomendação (Sessão
+7).
 
-d) «Peguei em duas garrafas [...] e trouxe-lhas.»
+**Guião do booktalk · 2 minutos**
 
-e) «Vão desembarcar.»
+0:00
+**Gancho**
+Uma frase do livro, uma pergunta ou um objeto.
 
-Porque é que esta combinação de fala e acção é importante numa representação?
+0:20
+**Quem, onde, que problema A situação inicial — sem revelar o desenlace.**
 
+1:00
+**Porque vale a pena**
+Duas razões concretas, com um exemplo cada.
+
+1:40
+**O teu veredicto**
+Para quem é este livro? E para quem não é?
+
+**Uma boa partilha…**
+não conta o final
+dá razões concretas
+lê ou mostra um excerto
+
+diz para quem é o livro
+cabe no tempo
+
+✎Regista as tuas partilhas.
+
+PERÍODO
+LIVRO
+FORMATO
+DATA
+
+1.º
+
+2.º
+
+3.º
+
+CONTRATO DE LEITURA
 169
 
 <!-- page 170 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+C O N T R A T O D E L E I T U R A
 
-Prime School Press · www.primeschool.pt
+U N I D A D E 7
+ESCRITA
+P O N T O D E C H E G A D A · J U N H O
+## O que mudou em mim
 
-## Da página para o palco
+Volta ao teu retrato de setembro (p. 162) e ao teu diário de bordo. Depois responde — desta
+vez, com a distância de um ano inteiro.
 
-**INTERPRETAÇÃO · IMAGINA QUE ÉS O ENCENADOR**
+EM SETEMBRO
+EM JUNHO
 
-**EXERCÍCIOS 60**
-1. Que objectos precisarias de colocar em palco?
-☐mastro ☐cordas ☐óculo ☐garrafas ☐lampiões
+Livros lidos por vontade própria
 
-☐espada ☐lenço vermelho ☐bússola ☐botes
+O meu género preferido
 
-2. Escolhe cinco e explica a sua importância.
+O tipo de leitor que era / que sou
 
-**3. ONDE COLOCARIAS...**
+O que me fazia / faz desistir
 
-o capitão?
+## 1 Qual dos livros deste ano te obrigou a ler de outra maneira — mais devagar, com mais atenção, com
+mais perguntas? Explica o que mudou, com um exemplo.
 
-o rapaz e o velho?
+## 2 Cumpriste o contrato? Avalia cada cláusula com honestidade e diz o que farias de outra maneira no
+próximo ano.
 
-os marinheiros?
+N A M I N H A P R Ó X I M A E S T A N T E
 
-**CRIAR DIDASCÁLIAS 61**
-No excerto, muitas acções aparecem na narração. Imagina como poderiam ser representadas em palco.
+**1**
+**2**
+**3**
 
-Exemplo: «Levantei-me cheio de medo.» →[O rapaz levanta-se lentamente, olhando assustado para o capitão.]
+«Um leitor não nasce. Faz-se.» Tu já começaste.
+ASSINATURA DO LEITOR · JUNHO DE 20___
 
-a) «O velho chegou-se perto de mim.»
-
-[
-]
-b) «O capitão [...] aproximou-se do sítio onde estávamos.»
-
-[
-]
-c) «O veleiro deu um abanão tal que tropecei [...] e caí.»
-
-[
-]
-d) «O velho ajudou-me a levantar.»
-
-[
-]
-
+CONTRATO DE LEITURA
 170
 
 <!-- page 171 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+G L O S S Á R I O G E R A L
 
-Prime School Press · www.primeschool.pt
+G L O S S Á R I O G E R A L
+O S C O N C E I T O S D O A N O · O N D E O S A P R E N D E S T E
+## Da A à Z
 
-## A leitura dramatizada
+**Advérbio e locução adverbial**
+Palavra ou grupo de palavras que modifica o
+verbo: modo, tempo, lugar…
 
-**ORALIDADE · EM GRUPO**
+p. 87
 
-**LEITURA DRAMATIZADA · EM GRUPO 62**
-Distribuam as personagens: Rapaz · Velho · Capitão · Marinheiros · Narrador.
+**Alcance da crítica · classificação**
+Juízo final expresso em estrelas, notas ou
+recomendação.
 
-Durante a leitura, presta atenção a:
-☐volume da voz ☐entoação ☐ritmo ☐pausas
+p. 23
 
-☐expressão facial ☐movimentos ☐emoções
+**Anáfora**
+Repetição de palavras no início de versos ou
+frases.
 
-**DEPOIS DA LEITURA**
-1. Qual foi a fala mais difícil de representar?
+p. 95
 
-2. Que personagem exigiu maior expressividade?
+**Antítese**
+Aproximação de ideias opostas.
 
-3. Que som poderia tornar a cena mais realista?
+p. 95
 
-**O MOMENTO DE MAIOR TENSÃO**
-Relê: CAPITÃO — «Terra! É aqui, tudo a estibordo, tudo a estibordo!»
+**Anúncio comercial / não**
+**comercial**
+Vende um produto / defende uma causa ou
+um comportamento.
 
-1. Como deve dizer esta fala o actor que interpreta o capitão?
-☐muito baixo ☐lentamente ☐aos gritos ☐com entusiasmo ☐com medo
+p. 11, 12
 
-(Podes escolher mais do que uma opção.)
+**Aparte**
+Fala que só o público ouve.
 
-2. Que movimentos deveria fazer? Que sons deveriam ouvir-se? Como deveria estar a iluminação?
+p. 103
 
+**Apelo à ação**
+Parte do anúncio que diz o que fazer a seguir.
+
+p. 13
+
+**Apóstrofe**
+Interpelação de alguém ou de algo.
+
+p. 95
+
+**Argumento · tese**
+Razão que sustenta uma opinião · opinião
+principal.
+
+p. 23, 153
+
+**Artigo de opinião**
+Texto que defende uma tese com
+argumentos.
+
+p. 83, 153
+
+**Ato · cena · quadro**
+Divisões da peça de teatro.
+
+p. 103
+
+**Comentário de poema**
+Tema + recursos + efeito, com citações.
+
+p. 96
+
+**Comparação**
+Aproximação de duas realidades com «como».
+
+p. 95
+
+**Complemento direto / indireto**
+Completa o verbo sem preposição (o, a) / desti-
+natário (lhe).
+
+p. 114
+
+**Conjuntivo**
+Modo do desejo, da dúvida, da hipótese.
+
+p. 54, 72
+
+**Crítica**
+Texto que avalia, de forma fundamentada,
+uma obra.
+
+p. 20, 23
+
+**Decassílabo**
+Verso de dez sílabas métricas.
+
+p. 80
+
+**Didascália**
+Indicação cénica: espaço, luz, som, movi-
+mento, tom.
+
+p. 103, 109
+
+**Discurso direto / indireto**
+Falas reproduzidas tal e qual / contadas pelo
+narrador.
+
+p. 35
+
+**Elisão · hiato**
+Junção / separação de vogais na contagem
+métrica.
+
+p. 80
+
+**Enumeração**
+Sequência de elementos da mesma natureza.
+
+p. 14
+
+**Escansão**
+Divisão do verso em sílabas métricas.
+
+p. 80
+
+**Esquema rimático**
+Letras que mostram como rimam os versos.
+
+p. 79
+
+**Estrofe**
+Grupo de versos: dístico, terceto, quadra…
+
+p. 79
+
+**Estrutura da narrativa**
+Situação inicial, desenvolvimento, desenlace.
+
+p. 35
+
+**Exposição · conflito · desenlace**
+Estrutura interna do texto dramático.
+
+p. 103
+
+**Facto / opinião**
+Informação verificável / juízo de valor.
+
+p. 23
+
+**Formação de palavras**
+Derivação, composição, parassíntese.
+
+p. 62
+
+**Frase ativa / passiva**
+O sujeito pratica / sofre a ação (ser + particípio).
+
+p. 26
+
+**Frase simples / complexa**
+Uma forma verbal / mais do que uma.
+
+p. 44
+
+GLOSSÁRIO GERAL
 171
 
 <!-- page 172 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+G L O S S Á R I O G E R A L
 
-Prime School Press · www.primeschool.pt
+G L O S S Á R I O G E R A L
+C O N T I N U A Ç Ã O
 
-## Transformar o texto em cena
+**Hipérbole**
+Exagero intencional.
 
-**ESCRITA · DA NARRAÇÃO AO TEATRO**
+p. 14, 84
 
-**TRANSFORMA O TEXTO 63**
-Transforma a passagem em que o capitão descobre a vila numa verdadeira cena teatral. Escreve a cena com: nome
-das personagens, falas, didascálias, movimentos e sons.
+**Imperativo**
+Modo da ordem e do conselho; forte na
+publicidade.
 
-**CAPITÃO:**
+p. 13
 
-[
-]
+**Leitura em papéis**
+Leitura em voz alta de uma peça, com persona-
+gens distribuídas.
 
-**RAPAZ:**
+p. 107
 
-[
-]
+**Metáfora**
+Comparação implícita.
 
-**VELHO:**
+p. 95
 
-[
-]
+**Modificador do grupo verbal**
+Informação acessória: tempo, lugar, modo.
 
+p. 68, 114
+
+**Modificador do nome**
+Acrescenta informação ao nome (adjetivo, grupo
+preposicional).
+
+p. 62
+
+**Monólogo**
+Fala de uma personagem sozinha.
+
+p. 103
+
+**Narrador**
+Quem conta: participante ou não participante.
+
+p. 35
+
+**Oração completiva**
+Completa o sentido de um verbo (que, se).
+
+p. 84
+
+**Oração condicional / final**
+Exprime condição (se) / finalidade (para).
+
+p. 51
+
+**Oração relativa**
+Introduzida por pronome relativo; modifica um
+nome.
+
+p. 47
+
+**Paradoxo**
+Ideias que parecem contraditórias mas fazem
+sentido.
+
+p. 95
+
+**Personagens · espaço · tempo**
+Categorias da narrativa.
+
+p. 35
+
+**Personificação**
+Qualidades humanas dadas a seres não
+humanos.
+
+p. 95
+
+**Pleonasmo**
+Repetição de uma ideia, expressiva ou viciosa.
+
+p. 84
+
+**Poesia visual · poema em prosa**
+A forma faz parte do sentido · poema sem versos.
+
+p. 90
+
+**Pronome pessoal átono**
+Me, te, o, a, lhe…, junto do verbo.
+
+p. 68
+
+**Pronome relativo**
+Que, quem, o qual, onde, cujo.
+
+p. 47
+
+**Recriação em prosa**
+Contar o sentido de um poema por outras
+palavras.
+
+p. 86
+
+**Redondilha maior / menor**
+Verso de sete / cinco sílabas métricas.
+
+p. 80
+
+**Rima cruzada · emparelhada ·**
+**interpolada**
+ABAB · AABB · ABBA.
+
+p. 79
+
+**Slogan**
+Frase curta e memorável de um anúncio.
+
+p. 18
+
+**Soneto**
+Duas quadras e dois tercetos.
+
+p. 93
+
+**Sujeito poético**
+A voz que fala no poema.
+
+p. 79
+
+**Sujeito · predicado**
+De quem se fala · o que se diz dele.
+
+p. 87
+
+**Tempos do indicativo**
+Presente, pretéritos, futuro.
+
+p. 72
+
+**Texto principal / secundário**
+Falas / didascálias.
+
+p. 103
+
+**Trocadilho · duplo sentido**
+Jogo com os sentidos de uma palavra.
+
+p. 18, 122
+
+**Verso livre**
+Verso sem medida fixa.
+
+p. 80
+
+**Vilancete**
+Mote seguido de voltas, com refrão.
+
+p. 147
+
+GLOSSÁRIO GERAL
 172
 
 <!-- page 173 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
+F O N T E S E C R É D I T O S
 
-Prime School Press · www.primeschool.pt
+F O N T E S E C R É D I T O S
+T U D O O Q U E E S T Á N E S T E L I V R O , E D E O N D E V E M
+## Fontes e créditos
 
-## Oficina de escrita · um minuto antes do desembarque
+T E X T O S
 
-**ESCRITA · 150 A 200 PALAVRAS**
+AUTOR
+TEXTO
+OBRA ·
+DATA
 
-**EXERCÍCIOS 64**
-Imagina que a acção continua durante o minuto que antecede o desembarque. Escreve uma pequena cena. Deves
-incluir:
-☐o capitão · o rapaz · o velho ☐pelo menos 6 falas ☐3 didascálias
-☐um momento de tensão ☐um som ou ruído ☐um final que deixe o leitor curioso
+ESTATUTO
 
-**A MINHA CENA**
+**Luís de Camões**
+«Pastora da serra» · «Amor é um
+fogo…» · «Descalça vai para a
+fonte»
 
+Rimas (séc.
+XVI)
+
+domínio público ·
+Wikisource
+
+**Alexandre Herculano**
+«O Castelo de Faria»
+Lendas e Nar-
+rativas (1851)
+
+domínio público
+
+**Trindade Coelho**
+«Parábola dos sete vimes»
+Os Meus Amo-
+res (1891)
+
+domínio público
+
+**Eça de Queirós**
+«O Tesouro» · «O Suave Milagre»
+(final)
+
+Contos (1902)
+domínio público ·
+Wikisource
+
+**Lima Barreto**
+«O homem que sabia javanês»
+1911
+domínio público
+
+**Florbela Espanca**
+«Ser Poeta» · «Fanatismo»
+1923 · 1931
+domínio público
+
+**Fernando Pessoa**
+«Mar Português»
+Mensagem
+(1934)
+
+domínio público
+
+**Júlio Verne · Oscar Wilde**
+excertos traduzidos para este
+manual
+
+1872 · 1887
+originais em domínio
+público
+
+**Gedeão, O'Neill, Mourão-Ferreira, Alegre,**
+**Hatherly, Torga, M. da Fonseca, Ondjaki, Alice**
+**Vieira**
+
+versos e frases breves, com fonte
+—
+obras protegidas: cita-
+ção para fins de ensino
+
+G R A V A Ç Õ E S ( C Ó D I G O S Q R )
+
+GRAVAÇÃO
+LICENÇA
+ENDEREÇO PERMANENTE
+NO
+LIVRO
+
+**«Mar Português»**
+recitado por NMaia
+
+CC BY-SA 4.0
+commons.wikimedia.org/wiki/File:Mar_Portuguez_recitado.
+ogg
+
+p. 15
+
+**«Ser Poeta»**
+Florbela Espanca · leitura de Da-
+niel Barbosa
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Florbela_Espanca_-_Ser_
+poeta.ogg
+
+p. 93
+
+**«Amar!»**
+Florbela Espanca · leitura de Da-
+niel Barbosa
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Florbela_Espanca_-_Ama
+r.ogg
+
+p. 94
+
+**«Amor é fogo que arde sem se**
+**ver»**
+Camões · leitura de Daniel
+Barbosa
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Amorefogoqueardesemseve
+r_08_camoes.ogg
+
+p. 131
+
+**«O Suave Milagre»**
+Eça de Queirós · LibriVox, leitura
+de Lena
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Eça_de_Queirós_-_O_Suav
+e_Milagre.ogg
+
+p. 142
+
+**«Descalça vai para a fonte»**
+Camões · leitura de Carlos
+Gomes
+
+domínio
+público
+
+commons.wikimedia.org/wiki/File:Spc109_descalcavaiparaa
+fonte_camoes_ccg.ogg
+
+p. 147
+
+Todos os códigos QR deste livro apontam para arquivos públicos e permanentes (Wikimedia Commons) ou para o sítio
+da escola (primeschool.pt). Nenhum depende de um endereço temporário.
+
+C O N T E Ú D O S C R I A D O S P A R A E S T E M A N U A L
+
+Vila Nova do Farol, o Cinema Aurora, os filmes O Farol das
+Baleias e A Última Sessão, a revista A Lupa, as marcas, os
+anúncios, as críticas, as cenas «O ensaio geral», «A última bo-
+
+bina» e a adaptação de «O Castelo de Faria», as quadras de
+aquecimento e as respostas-modelo.
+
+I M A G E M E T I P O G R A F I A
+
+Ilustrações criadas com IA generativa sob direção de arte
+editorial, em estilo de risografia de três tintas; as capas se-
+guem o padrão da coleção Prime School (natureza-morta em
+
+3D na frente, lápis e aguarela no verso). Composição em
+Fraunces, Bricolage Grotesque e DM Mono; capas em Pop-
+pins e Andika (SIL Open Font License).
+
+FONTES E CRÉDITOS
 173
 
 <!-- page 174 -->
 
 ---
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
-
-Prime School Press · www.primeschool.pt
-
-## Escrita criativa · o diário do rapaz
-
-**ESCRITA · 180 A 220 PALAVRAS**
-
-**ESCRITA CRIATIVA 65**
-Imagina que, depois dos acontecimentos, o rapaz escreve no seu diário. Escreve sobre: o medo, o navio, o capitão, as
-ordens que recebeu, o lenço vermelho, a descoberta da vila e o perigo que os habitantes enfrentam.
-
-**DESAFIO · O ENCENADOR 66**
-Agora és tu quem vai preparar a representação de Os Piratas. Responde:
-
-CENÁRIO · como será o navio?
-
-ADEREÇOS · que objectos serão necessários?
-
-ILUMINAÇÃO · noite, nevoeiro e amanhecer?
-
-SONS · que sons ouvirá o público?
-
-GUARDA-ROUPA · como estarão vestidos?
-
-MOVIMENTO · como se movimentarão os piratas?
-
-174
-
-<!-- page 175 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 3 · O PALCO À ESPERA
-
-Prime School Press · www.primeschool.pt
-
-## Relembra e passaporte teatral
-
-**REVISÃO · O QUE APRENDI**
-
-**O TEXTO DRAMÁTICO**
-PERSONAGENS – quem participa na acção? FALAS – o que dizem as personagens?
-ACÇÃO – o que acontece? CONFLITO – qual é o problema ou oposição?
-ESPAÇO CÉNICO – onde decorre a acção? DIDASCÁLIAS – que indicações ajudam à representação?
-
-**DICA · LÊ COMO UM ACTOR!**
-
-Quando leres um texto dramático, não perguntes apenas «o que acontece?». Pergunta também: Quem está em
-palco? Onde estão? Como falam? O que sentem? O que fazem? Como seria a iluminação? Que sons ouviríamos?
-Ler teatro é começar a imaginar a representação.
-
-**PASSAPORTE TEATRAL · OS PIRATAS**
-
-**O meu registo**
-**Resposta**
-
-Tipo de texto
-
-Personagem que mais me chamou a atenção
-
-Personagem que gostaria de representar
-
-O momento de maior tensão
-
-O objecto cénico mais importante
-
-Uma palavra nova que aprendi
-
-Uma fala que gostaria de representar
-
-O que torna este excerto adequado à representação?
-
-175
-
-<!-- page 176 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Unidade 4 – A Palavra em Música
-
-**Fernando Pessoa · Mar Português  |  Florbela Espanca · Amar!**
-
-**PENSA**
-
-Porque é que certas palavras, postas em certa ordem, nos ficam na memória para sempre?
-COMPETÊNCIAS: Ler · Compreender · Interpretar · Oralidade · Escrita · Gramática.
-
-**ENTRA NA POESIA · LÊ EM VOZ ALTA**
-O poema é o texto em que a palavra vale pela música e pela imagem, tanto como pelo significado.
-Nesta unidade vais ler dois dos maiores poetas portugueses, Fernando Pessoa e Florbela Espanca,
-aprender os segredos do verso e da rima e escrever os teus próprios poemas.
-
-**ANTES DE LER**
-1. Lê em voz alta o primeiro verso que te aparecer à frente. Que sons se repetem?
-2. Sabes algum poema ou canção de cor? Qual?
-3. O que distingue um poema de uma notícia? E de uma história?
-
-**VOCABULÁRIO DA POESIA**
-
-verso – cada linha do poema · estrofe – grupo de versos · rima – repetição de sons no fim dos versos ·
-métrica – número de sílabas até à última tónica.
-
-176
-
-<!-- page 177 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Como se faz um poema
-
-**LEITURA · ESTUDAR O GÉNERO**
-
-O poema organiza-se em VERSOS (linhas) agrupados em ESTROFES. A rima e a métrica dão-lhe
-música; os recursos expressivos dão-lhe imagens. Ler um poema é ouvir com os olhos.
-
-**A FORMA DO POEMA · TABELA**
-
-**Conceito**
-**Definição**
-**Exemplo**
-
-Verso
-Cada linha do poema
-«Ó mar salgado…»
-
-Estrofe
-Grupo de versos
-4 versos = quadra
-
-Rima
-Sons que se repetem no fim
-sal / Portugal
-
-Métrica
-Sílabas até à última tónica
-10 = decassílabo
-
-**ESQUEMA · TIPOS DE VERSO E RIMA**
-
-**VERSOS (sílabas)**
-
-• 5 — redondilha menor
-• 7 — redondilha maior
-• 10 — decassílabo
-
-**RIMAS (esquema)**
-
-• AABB — emparelhada
-• ABAB — cruzada
-• ABBA — interpolada
-
-**RECURSOS EXPRESSIVOS ESSENCIAIS · TABELA**
-
-**Recurso**
-**O que faz**
-**Exemplo**
-
-Comparação
-Liga com «como»
-«branca como a neve»
-
-Metáfora
-Substitui um termo
-«teu sal são lágrimas»
-
-Personificação
-Dá características humanas
-«Deus ao mar deu perigo»
-
-Hipérbole
-Exagero expressivo
-«amar toda a gente»
-
-Apóstrofe
-Chamamento directo
-«Ó mar salgado!»
-
-Anáfora
-Repetição no início dos versos
-«Quantas… Quantos…»
-
-**DICA**
-
-Como escandir um verso: conta as sílabas em voz alta até à ÚLTIMA TÓNICA:
-«Quan-tas-noi-vas-fi-ca-ram-por-ca-sar» = 10 → decassílabo.
-
-177
-
-<!-- page 178 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Vamos ler – Mar Português
-
-**TEXTO LITERÁRIO · FERNANDO PESSOA · TEXTO INTEGRAL**
-
-**MAR PORTUGUÊS**
-
-Ó mar salgado, quanto do teu sal
-
-São lágrimas de Portugal!
-
-Por te cruzarmos, quantas mães choraram,
-
-Quantos filhos em vão rezaram!
-
-Quantas noivas ficaram por casar
-
-Para que fosses nosso, ó mar!
-
-Valeu a pena? Tudo vale a pena
-
-Se a alma não é pequena.
-
-Quem quer passar além do Bojador
-
-Tem que passar além da dor.
-
-Deus ao mar o perigo e o abismo deu,
-
-Mas nele é que espelhou o céu.
-
-Fernando Pessoa, Mensagem, 1934
-**ENQUANTO LÊS... ESCUTA OS SONS**
-• Lê o poema em voz alta, duas vezes: primeiro depressa, depois devagar. Que sons se repetem?
-• Sublinha a apóstrofe (o chamamento ao mar) e as repetições «Quantas… Quantos…».
-
-178
-
-<!-- page 179 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Missão do leitor
-
-**LEITURA ORIENTADA · MAR PORTUGUÊS**
-
-**PROCURA DESCOBRIR**
-
-**Pergunta**
-**O que procuras**
-
-Quem?
-Quem fala no poema (o eu lírico)? A quem se dirige?
-
-O quê?
-Que imagem o poeta constrói do mar?
-
-Como?
-Que recursos expressivos dão força aos versos?
-
-**EXERCÍCIOS 1**
-1. Porque é o mar «salgado», segundo o poema? Que metáfora o poeta constrói (sal = ______)?
-
-2. Quem chorou por causa do mar? Como se chama a figura que repete «Quantas… Quantos…»?
-
-3. «Passar além do Bojador» e «passar além da dor»: que ligam estas duas frases?
-
-4. Explica os dois últimos versos: que contraste há entre «perigo e abismo» e «espelhou o céu»?
-
-5. Escande o primeiro verso e confirma que é um decassílabo.
-
-6. Quantas estrofes e quantos versos tem o poema? Copia um par de versos que rimem.
-
-179
-
-<!-- page 180 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Vamos ler – Amar!
-
-**TEXTO LITERÁRIO · FLORBELA ESPANCA · TEXTO INTEGRAL**
-
-Florbela Espanca (1894-1930) nasceu em Vila Viçosa e é uma das grandes vozes da poesia portuguesa.
-Escreveu sobre o amor, a liberdade e o desejo de ser outra. Lê o soneto em voz alta.
-
-**AMAR!**
-
-Eu quero amar, amar perdidamente!
-
-Amar só por amar: aqui… além…
-
-Mais Este e Aquele, o Outro e toda a gente…
-
-Amar! Amar! E não amar ninguém!
-
-Recordar? Esquecer? Indiferente!…
-
-Prender ou desprender? É mal? É bem?
-
-Quem disser que se pode amar alguém
-
-Durante a vida inteira é porque mente!
-
-Há uma Primavera em cada vida:
-
-É preciso cantá-la assim florida,
-
-Pois se Deus nos deu voz, foi pra cantar!
-
-E se um dia hei-de ser pó, cinza e nada
-
-Que seja a minha noite uma alvorada,
-
-Que me saiba perder… pra me encontrar…
-
-Florbela Espanca, Charneca em Flor
-
-**ENQUANTO LÊS... SENTE A EMOÇÃO**
-• Que emoção domina a primeira quadra? E a última estrofe?
-• O poema é um soneto: confirma a estrutura (duas quadras + dois tercetos).
-
-180
-
-<!-- page 181 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Missão do leitor – Amar!
-
-**LEITURA ORIENTADA · AMAR!**
-
-**EXERCÍCIOS 2**
-1. Como quer a poetisa amar? Escolhe o verso que resume a sua atitude.
-
-2. «Há uma Primavera em cada vida» – o que representa a Primavera?
-
-3. «Amar! Amar! E não amar ninguém!» – que contraste há entre «amar toda a gente» e «não amar
-ninguém»? Que nome se dá a este contraste?
-
-4. Explica a oposição perder / encontrar do último verso.
-
-5. Copia o esquema de rimas da primeira quadra. Que tipo de rima é?
-
-**COMPARA OS DOIS POEMAS · ESQUEMA**
-
-**MAR PORTUGUÊS**
-
-• tema: o mar e o destino
-• sentimento: saudade e orgulho
-• tom: solene, épico
-
-**AMAR!**
-
-• tema: o amor universal
-• sentimento: desejo ardente
-• tom: intimo, apaixonado
-
-**EXERCÍCIOS 3**
-6. Compara os dois poemas com a ajuda do esquema: o que muda quando Pessoa fala do mar e Florbela
-fala do amor? Escreve seis linhas.
-
-181
-
-<!-- page 182 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Gramática – Orações coordenadas
-
-**GRAMÁTICA · COM OS POEMAS**
-
-As orações coordenadas são INDEPENDENTES: cada uma se entende sozinha. Ligam-se por
-conjunções coordenativas em cinco grupos.
-
-**OS CINCO GRUPOS · TABELA**
-
-**Grupo**
-**Conjunções**
-**Efeito / Exemplo**
-
-Aditiva
-e, também
-soma: «Amar e não amar ninguém»
-
-Adversativa
-mas, porém
-opõe: «Tremia, mas cantou.»
-
-Disjuntiva
-ou… ou
-alterna: «Ou ensaias ou falhas.»
-
-Conclusiva
-logo, portanto
-conclui: «Estava pronta, portanto passou.»
-
-Explicativa
-porque, pois
-explica: «Canta, pois gosta de cantar.»
-
-**TESTE DA INDEPENDÊNCIA · ESQUEMA**
-
-**TAPA UMA ORAÇÃO**
-
-a que fica faz sentido sozinha? → COORDENADAS
-
-**«Se eu falhar, tu finges»**
-
-«Tu finges» sim; «Se eu falhar» não → SUBORDINAÇÃO
-
-**EXERCÍCIOS 4**
-
-1. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» / «Ou ensaias ou falhas.» / «Estava
-pronta, portanto passou.»
-
-2.
-Classifica
-«Recordar?
-Esquecer?
-Indiferente!»
-e
-escreve
-uma
-frase
-tua
-com
-cada
-grupo
-de
-coordenadas.
-
-182
-
-<!-- page 183 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Gramática – Activa, passiva e subordinadas
-
-**GRAMÁTICA · AS DUAS CARAS DA FRASE**
-
-FRASE ACTIVA: o sujeito pratica a acção («Deus deu o perigo ao mar.»). FRASE PASSIVA: o sujeito
-sofre a acção («O perigo foi dado ao mar por Deus.»). A mesma verdade, dois pontos de vista.
-
-**PASSAR DE ACTIVA PARA PASSIVA · TABELA**
-
-**Passo**
-**Regra**
-**Exemplo**
-
-1
-O CD da activa torna-se sujeito
-o perigo → S
-
-2
-Verbo: ser (no mesmo tempo) + particípio
-deu → foi dado
-
-3
-O sujeito da activa vira «por…»
-Deus → por Deus
-
-**SUBORDINADAS ADVERBIAIS · TABELA**
-
-**Tipo**
-**Conjunção**
-**Exemplo dos poemas**
-
-Temporal
-quando, enquanto
-«Quando a luz desvanece, saem.»
-
-Causal
-porque
-«Cantou porque estava feliz.»
-
-Condicional
-se
-«Se eu falhar, tu finges.»
-
-Concessiva
-embora
-«Embora temesse, cantou.»
-
-**EXERCÍCIOS 5**
-1. Passa para a passiva: «Florbela escreveu este soneto.» / «Os marinheiros cruzaram o mar.»
-
-2. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» / «Quando a luz desvanece, os
-actores saem.» / «Embora temesse, cantou.»
-
-3. Junta cada par numa frase complexa: «Estudámos o poema. Fizemos o comentário.» / «O poeta
-perdeu o caderno. Continuou a escrever.» (embora)
-
-183
-
-<!-- page 184 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Writing Lab – comentar um poema
-
-**ESCRITA · COMENTÁRIO DE 25 A 30 LINHAS**
-
-Comentar um poema é explicá-lo: mostrar como a FORMA serve o CONTEÚDO. Escreve um comentário
-sobre Mar Português ou Amar!
-
-**A ESTRUTURA DO COMENTÁRIO · TABELA**
-
-**Parte**
-**O que escreves**
-**Ferramenta**
-
-Introdução
-Título, autor, tema
-2-3 linhas
-
-Conteúdo
-Assunto e sentimentos, com citações
-Aspas («verso»)
-
-Forma
-Estrofes, rima, um recurso e o SEU efeito
-Nome + efeito
-
-Conclusão
-A mensagem para ti
-Voz pessoal
-
-**MODELO DE FRASE**
-
-«Na primeira estrofe, a apóstrofe ‘Ó mar salgado!’ (v. 1) dirige-se directamente ao mar, como se o
-poeta conversasse com ele, o que torna a saudade mais intensa e dramática.» Nota as três partes:
-onde está o verso · o nome do recurso · o efeito.
-
-**EXERCÍCIOS 6**
-Escreve agora o teu comentário. Planifica primeiro: 1. INTRODUÇÃO (2 linhas) · 2. CONTEÚDO com duas
-citações (8 linhas) · 3. FORMA com um recurso e o seu efeito (8 linhas) · 4. CONCLUSÃO (4 linhas).
-
-184
-
-<!-- page 185 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Writing Lab – escreve os teus poemas
-
-**ESCRITA · A TUA PRÓPRIA POESIA**
-
-**EXERCÍCIOS 7**
-1. O POEMA DO MAR: escreve um poema de duas estrofes (4 versos cada) sobre o mar, imitando Mar
-Português: uma apóstrofe («Ó…»), uma comparação e uma interrogação retórica.
-
-2. POEMA DO DIA-A-DIA: escreve um poema de 6 versos com rima emparelhada (AABB) sobre uma coisa
-simples: o autocarro da manhã, o cheiro da cantina, o recreio.
-
-**DICAS DE POETA INICIANTE**
-
-Lê o teu poema em voz alta: o ritmo acerta? Troca palavras até o som ficar bom. Não forces a rima:
-um verso sem rima mas com sentido vale mais do que uma rima vazia. Um bom título é meio poema.
-
-185
-
-<!-- page 186 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Fala e escuta – declamar poesia
-
-**ORALIDADE · LEITURA EXPRESSIVA**
-
-Declamar é mais do que ler alto: é dar a cada verso a sua voz, o seu ritmo e a sua emoção. Trabalha em
-pares: um declama, o outro escuta e avalia.
-
-**DECIDE E REGISTA (com o teu colega)**
-
-Ritmo: onde fazes pausas? Onde aceleras?
-
-Voz: que versos dizes mais alto? Quais quase em segredo?
-
-Emoção: que sentimento dominou a tua leitura?
-
-Gesto: precisas de mexer as mãos? O corpo?
-
-**DESAFIO DE ORALIDADE 8**
-Cada par declama um dos poemas à turma (1 minuto). A turma avalia com a grelha: ritmo · volume ·
-emoção · contacto visual. Cada comentário começa com um elogio e acaba com uma sugestão.
-
-Notas para a minha declamação:
-
-**CRITÉRIOS**
-
-Pausa onde há vírgula · respira nas estrofes · sente o que dizes · olha o público, não o papel.
-
-186
-
-<!-- page 187 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Literatura em imagem – o poema visual
-
-**PROJECTO CRIATIVO**
-
-Transforma Mar Português numa imagem: desenha o que o poema te faz ver (o mar salgado, as mães, o
-navio além do Bojador, o céu espelhado).
-
-O MEU POEMA VISUAL:
-
-**CAMBRIDGE FOCUS**
-
-A imagem não ilustra o poema: interpreta-o. Escolhe os elementos que traduzem o SENTIDO dos
-versos, não apenas o cenário.
-
-187
-
-<!-- page 188 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Cambridge Focus – comentar com precisão
-
-**INTERPRETAÇÃO · EVIDÊNCIA + EXPLICAÇÃO**
-
-No comentário de poesia, cada afirmação precisa de três apoios: o verso citado, o nome do recurso
-e o efeito.
-
-**RESPOSTA FRACA**
-
-«O poema fala do mar.» ✗ Não cita nem explica.
-
-**RESPOSTA MELHOR**
-
-«O mar é comparado a lágrimas: “teu sal são lágrimas de Portugal”, o que mostra a dor dos que
-perderam alguém no mar.»
-
-**RESPOSTA AINDA MELHOR**
-
-«A metáfora “teu sal são lágrimas de Portugal” (v. 1-2) transforma a água do mar na dor acumulada
-de todo um povo: o sal deixa de ser química e torna-se memória, o que dá ao mar um rosto humano
-e chorado.»
-
-**REGRA DE OURO**
-
-Não basta dizer. Explica. Pergunta sempre: «Como sei isso?» Cita o verso, diz o recurso, explica o
-efeito.
-
-**EXERCÍCIOS 9**
-Escreve a TUA resposta forte: «Que efeito produz a anáfora “Quantas… Quantos…” na segunda
-estrofe?»
-
-188
-
-<!-- page 189 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## Relembra – o que aprendi
-
-**REVISÃO DA UNIDADE 4**
-
-**O POEMA**
-Verso · estrofe · rima (emparelhada, cruzada, interpolada) · métrica (até à última tónica) · recursos de
-sentido, de som e de estrutura.
-
-**APRENDI A...**
-☑ escandir versos e contar sílabas métricas
-☑ identificar rima, estrofes e esquemas (AABB, ABAB)
-☑ reconhecer comparação, metáfora, personificação, apóstrofe, anáfora
-☑ classificar orações coordenadas e subordinadas
-☑ passar frases da activa para a passiva
-☑ comentar um poema com citação + recurso + efeito
-☑ escrever poemas e declamá-los
-
-**CHECKPOINT · CLASSIFICA O TEU DESEMPENHO**
-
-**Consigo...**
-**Ainda não**
-**Com ajuda**
-**Sozinho**
-
-Identificar rima e estrofes
-
-Escandir um verso
-
-Reconhecer um recurso expressivo
-
-Explicar o efeito de um recurso
-
-Classificar coordenadas e subordinadas
-
-Comentar um poema com evidência
-
-Escrever um poema com rima
-
-**O MEU PRÓXIMO OBJECTIVO**
-Para o Year 8 quero melhorar...
-
-189
-
-<!-- page 190 -->
-
----
-PORTUGUÊS Y7 · UNIDADE 4 · A PALAVRA EM MÚSICA
-
-Prime School Press · www.primeschool.pt
-
-## O passaporte do leitor
-
-**DESAFIO FINAL · REGISTO DE LEITURA**
-
-**Campo**
-**O teu registo**
-
-Autores
-Fernando Pessoa · Florbela Espanca
-
-Obras
-Mensagem · Charneca em Flor
-
-País
-Portugal
-
-Género
-Texto poético (soneto e odes)
-
-Tema principal
-
-Poema que mais me marcou
-
-O que aprendi com estes poemas
-
-O meu verso favorito:
-A minha classificação:
-
-**★**
-**★**
-**★**
-**★**
-**★**
-
-**UMA FRASE PARA LEVAR CONTIGO**
-
-A poesia não se explica: escuta-se. Mas quem a explica bem, ouve-a duas vezes.
-
-**FICHA DE REVISÃO · COMO UM TESTE 10**
-
-Responde no caderno, sem consultar o manual. Tempo sugerido: 45 minutos.
-GRUPO I · LEITURA: 1. Define: verso, estrofe, rima. 2. Diferença entre comparação e metáfora, com um
-exemplo. 3. Que recurso há em «Ó mar salgado!»? 4. Escande «Valeu a pena? Tudo vale a pena».
-GRUPO II · GRAMÁTICA: 5. Classifica: «Tremia, mas cantou.» / «Cantou porque estava feliz.» 6. Passa para a
-passiva: «Os alunos escreveram poemas.»
-
-190
-
-<!-- page 191 -->
-
----
-PORTUGUÊS Y7 · RECURSOS
-
-## Dossier do escritor
-
-Ao longo do ano, constrói um dossiê com os teus melhores textos: a notícia, a biografia, o texto de
-opinião, a narrativa, a cena de teatro, os poemas e o comentário.
-
-PARA CADA TRABALHO, RESPONDE:
-1. O que fiz bem neste texto?
-2. O que quero melhorar no próximo?
-3. Que conteúdo gramático usei a favor da escrita?
-
-Guia o dossiê com um índice e uma capa feita por ti. No fim do ano, terás o retrato do escritor que
-te tornaste.
-
-**CHECKLIST FINAL DO ANO**
-
-Li textos dos media, narrativos, dramáticos e poéticos? Escrevi nos quatro géneros? Identifico
-classes, subclasses e funções sintáticas? Conjugo verbos nos tempos e modos certos? Sei passar
-frases da activa para a passiva? Comento um poema com citações e recursos? Se sim: estás pronto
-para o Year 8.
-
-Prime School Press · www.primeschool.pt
-
-191
-
-<!-- page 192 -->
-
----
-**P R I M E  B O O K S**
-
-## Portuguese 1st
-
-tura, escrita, gramática e oralidade
-
-**INSIDE THIS BOOK**
+**P R I M E  S C H O O L  P R E S S**
+
+7.º Ano · Prime School Press · Manual do Aluno
+
+**«Um anúncio promete. Um crítico julga. Tu decides.»**
+
+Numa vila da costa, um cinema reabre com a estreia de um filme sobre uma baleia e um
+farol. Ao longo de sete sessões, vais desmontar cartazes, anúncios de rádio e campanhas;
+ler críticas que se contradizem; descobrir o que Fernando Pessoa e um pacote de sal têm
+em comum; e aprender a escrever um slogan que fica no ouvido e uma crítica em que se
+pode confiar. Depois, sete narrativas — de Herculano a Oscar Wilde — mostram-te como
+se constrói uma história e como uma história nos constrói; nove poemas ensinam-te a
+ouvir o verso; o teatro leva tudo isto para o palco; e, no fim, dois testes e um veredicto
+que dás a ti próprio. E, porque só se aprende a julgar livros lendo-os, assinas um contrato
+de leitura contigo próprio.
+
+**NESTE LIVRO**
 
 •
-Leitura e interpretação de textos
+Publicidade, crítica de cinema e de livro
 
 •
-Escrita guiada e criativa
+Sete narrativas de formação
 
 •
-Gramática em contexto
+Nove poemas, oito poetas
 
 •
-Oralidade e debate
+Teatro: da página ao palco
 
 •
-Balanço no fim de cada unidade
+Rádio ao vivo, revisões e dois testes com critérios
 
-**Prime Books · Portuguese 1st**
+•
+Contrato e diário de leitura
 
-Ages 11–12 · Lower Secondary
+## Português
 
 **primeschool.pt**
 
-Student Manual
+11–12 anos · 3.º Ciclo do Ensino Básico
+
+**Prime School Press · Português**

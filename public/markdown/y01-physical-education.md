@@ -1,14 +1,14 @@
 # Physical Education - Year 1 (Prime Book)
-> Markdown companion of `public/library/y01-physical-education/book.pdf` (98 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
+> Markdown companion of `public/library/y01-physical-education/book.pdf` (71 pages).> RULE: when the PDF is edited, this file must be updated in the same change.
 
 <!-- page 1 -->
 
 ---
+**PRIME SCHOOL PRESS**
 ## Physical Education
-
 ## Year 1
 
-Student Manual
+Student book · Cambridge pathway
 
 <!-- page 2 -->
 
@@ -17,88 +17,244 @@ Student Manual
 
 ## Physical Education
 
-**Year 1 · Student Book**
+## Year 1 · Student Book
 
 Run, jump, throw, and know why it worked.
 
 **I N S I D E T H I S B O O K**
 
-Every Early Years movement skill, in units
+Every Early Years movement skill, unit by unit
 
-The rule of the game, printed every time
+A decision to make in every topic
 
-A decision to make on every topic
+The rule of the game, printed where it is needed
 
 Named jobs, so everybody has one
 
-A festival of games to finish the year
+A festival of games to close the year
 
 **I M P R I N T**
 
 **EDITION**
-First edition, 2026. Printed in full colour on white stock.
+First edition, 2026, printed in full colour. Print this book from the school library
+or read it on screen.
+
+**PATHWAY**
+Cambridge Primary Physical Education, Year 1. Strands: moving well,
+understanding movement, moving creatively, taking part, taking responsibility,
+healthy bodies.
 
 **PUBLISHER**
-Prime School Press is the publishing imprint of Prime School, Portugal.
+Prime School Press, the publishing imprint of Prime School, Portugal.
+primeschool.pt
 
 **RIGHTS**
 © Prime School 2026. All rights reserved. No part of this publication may be
-reproduced, stored in a retrieval system or transmitted in any form or by any
+reproduced, stored in a retrieval system, or transmitted in any form or by any
 means without the prior written permission of the publisher.
 
 **CREDITS**
-Editorial Board. Pedagogical Academic Group · Pedagogical Team ·
-Pedagogical Department · Content Creation Team. Written, illustrated and
-typeset in the Prime School Press studio, Lisbon.
+Written, illustrated and typeset in the Prime School Press studio for this
+subject and this cast. Every illustration in this book was made for it, plate by
+plate. No photograph, artwork or data were copied from another publisher.
 
 **LICENCE**
-It is not affiliated with, licensed by, endorsed by or approved by any
+This book is not affiliated with, licensed by, endorsed by or approved by any
 examination board, or by any other publisher.
 
 **SAFETY**
-The teacher carries out their own risk assessment and follows the school
-safety policy. Where a task carries a particular risk, the book says so in a
-Safety first panel.
+The teacher carries out their own risk assessment and follows the school safety
+policy. Where a task carries a particular risk, this book says so in a Safety first
+panel.
 
-Independent publication. This is an independent publication produced by Prime
-School for use within its own programmes of study. It is not affiliated with,
-licensed by, endorsed by or approved by any examination board, or by any
-other publisher.
+An independent publication produced by Prime School for use within its own programmes of study.
 
-**A g e s 5 t o 6 · L o w e r P r i m a r y**
+Ages 5 to 6 · Lower Primary
+www.primeschool.pt
 
-**www.primeschool.pt**
-
-**2**
 **2**
 
 <!-- page 3 -->
 
 ---
-**P R I M E S C H O O L P R E S S**
+## Contents
 
-**P H Y S I C A L E D U C A T I O N · Y E A R 1**
-## Welcome
+Eight parts, six units, six colours - and your own pages at the back. Find the
+colour you are in, and the page number will be there.
 
-Behind the school there is a meadow. Grass, little flowers, room to run. When it rains,
-there is the hall instead: wooden floor, wall bars, mats in a stack. This book uses both
-places, and the jobs do not change.
+**UNIT 0**
+**Getting started**
 
-You will move. You will watch. You will take turns. You will stop when the teacher says stop.
-Success in this book is trying, looking after a partner, and leaving the space tidy.
+Cover
+1
+Physical Education · Year 1
+2
+Contents
+3
+Welcome to the meadow
+4
+Signs to look for
+5
+What we use in the meadow
+6
+The hall, and safety first
+7
 
-**T H E S I X W H O M O V E W I T H Y O U**
+**UNIT 1**
+**Moving Well**
 
-**P**
+Walk, run, stop
+10
+The chalk line
+11
+Hop, skip, join
+13
+Ready, steady, try
+14
+Fast and slow
+15
+How did it go?
+16
+
+**UNIT 2**
+**Understanding Movement**
+
+Names for my body
+18
+Draw and name
+19
+Watch, then copy
+21
+Show me good
+22
+Ready, steady, try
+23
+Words we used
+24
+
+**UNIT 3**
+**Moving Creatively**
+
+Shapes you invent
+26
+What can a hoop do?
+28
+Words for shapes
+29
+Ready, steady, try
+30
+Show an answer
+31
+Look up
+32
+
+**UNIT 4**
+**Taking Part**
+
+Three jobs
+34
+How to join in
+35
+Your turn to lead
+36
+Ready, steady, try
+37
+Listen, then move
+39
+Look up
+41
+
+**UNIT 5**
+**Taking Responsibility**
+
+Taking turns
+43
+Carrying kit
+44
+Ready, steady, try
+46
+Words we used
+47
+Ask for help
+48
+Look up
+49
+
+**UNIT 6**
+**Healthy Bodies**
+
+What changes
+51
+My moving body
+52
+Rest, then go again
+54
+Ready, steady, try
+55
+Before and after
+56
+Look up
+58
+
+**UNIT 7**
+**Looking back**
+
+What I can do now
+59
+The kit we use
+60
+What we do with it
+61
+How our bodies feel
+62
+Show me
+63
+Our sources
+64
+Codes and links
+65
+Every word this year (1)
+66
+Every word this year (2)
+67
+If the class gets stuck
+68
+Well tried
+69
+My notes and drawings
+70
+Back cover
+71
+
+**3**
+
+<!-- page 4 -->
+
+---
+**Unit 0 · Getting started**
+Getting started
+
+**G E T T I N G S T A R T E D**
+
+## Welcome to the meadow
+
+This is your book for moving. Six animals come with you through it,
+and they are all beginners, exactly like you. Pip tries first and gets it
+wrong. Sorrel is fast and has to learn to wait. Tuft is small and does
+not like being watched.
+
+Every unit has a colour, a page where you do the moving, and a page
+where you say honestly how it went. Nobody marks this book but
+you.
+
+## The six who move with you
 
 **Pip**
 
-A red squirrel in
-a mustard
-jumper. He tries
-first.
-
-**B**
+A red squirrel
+in a mustard
+jumper. He
+tries first.
 
 **Bramble**
 
@@ -107,507 +263,296 @@ teal jacket.
 Steady, and he
 likes to count.
 
-**S**
-
 **Sorrel**
 
-A brown hare in
-an olive vest.
-She is fast.
-
-**T**
+A brown hare
+in an olive
+vest. She is
+fast.
 
 **Tuft**
 
 A small
 hedgehog in a
-terracotta vest.
-Careful.
-
-**W**
+terracotta
+vest. Careful.
 
 **Willow**
 
-A barn owl. She
-watches, and
-says what she
-saw.
-
-**R**
+A barn owl.
+She watches,
+and says what
+she saw.
 
 **Rowan**
 
 An otter in a
 green vest. He
-likes games with
-a ball.
-
-**H O W T H I S B O O K W O R K S**
-
-**Try it**
-**Watch, then copy**
-**Talk about it**
-**How did it go?**
-**Safety first**
-
-**Words we used**
-
-Every topic runs the same way: a short teaching page, a modelled attempt to watch, then your turn. Unit
-checks are called How did it go? and they are yours to colour in, not to be marked.
-
-**W E L C O M E**
-
-For teachers: nothing in this book is a test. How did it go? is the pupil’s own check. Every
-task assumes a teacher present, a space checked before the lesson and apparatus set out by
-an adult.
-
-**www.primeschool.pt**
-
-**3**
-**3**
-
-<!-- page 4 -->
-
----
-**Prime School Press**
-Physical Education · Year 1
-
-**PHYSICAL EDUCATION · YEAR 1**
-## What is inside?
-
-Six units, one after another. Every unit has its own colour.
-
-Welcome
-**3**
-Contents
-**4**
-The year at a glance
-**5**
-Welcome to the meadow
-**6**
-Meet the six
-**8**
-How to use this book
-**9**
-Getting set up
-**10**
-The hall, and safety first
-**11**
-
-**UNIT 1**
-**11**
-**Moving Well**
-Space, walking, running, stopping, skipping.
-
-1.1  Space, walk, run, stop
-**13**
-1.2  Hop, skip, join
-**16**
-1.3  Fast, slow, high, low
-**19**
-1.4  Hoops, benches, mats
-**23**
-Unit 1 · How did it go?
-**26**
-
-**UNIT 2**
-**21**
-**Understanding Movement**
-Words for a body, watching, copying, one rule.
-
-2.1  Words for a body
-**28**
-2.2  Watch, then copy
-**31**
-2.3  What good looks like
-**33**
-2.4  A simple rule
-**35**
-Unit 2 · How did it go?
-**37**
-
-**UNIT 3**
-**29**
-**Moving Creatively**
-New shapes, kit ideas, answering with a body.
-
-3.1  New shapes
-**39**
-3.2  What the kit suggests
-**41**
-3.3  Answer with your body
-**43**
-3.4  Moving like weather
-**44**
-Unit 3 · How did it go?
-**48**
-
-**UNIT 4**
-**37**
-**Taking Part**
-Joining in, jobs in a game, leading a turn.
-
-4.1  Joining in
-**50**
-4.2  Thrower, catcher, collector
-**51**
-4.3  Your own goal
-**53**
-4.4  A turn at leading
-**55**
-4.5  What I can do
-**56**
-4.6  Listen, then move
-**58**
-Unit 4 · How did it go?
-**61**
-
-**UNIT 5**
-**46**
-**Taking Responsibility**
-Sharing, kit, fair play, asking for help.
-
-5.1  Share and take turns
-**63**
-5.2  Carry kit safely
-**65**
-5.3  Fair play
-**66**
-5.4  Ask for help
-**68**
-5.5  Kind words
-**69**
-Unit 5 · How did it go?
-**73**
-
-**UNIT 6**
-**54**
-**Healthy Bodies**
-What moving changes, how hard is hard enough.
-
-6.1  What changes when you move
-**75**
-6.2  Name the working parts
-**78**
-6.3  How hard is hard enough
-**79**
-6.4  Knowing your limit today
-**80**
-6.5  Before, and afterwards
-**81**
-6.6  Food and water for a moving body
-**82**
-Unit 6 · How did it go?
-**85**
-
-Look back: the whole year
-**86**
-Words we used (1)
-**88**
-Words we used (2)
-**89**
-Answers for every unit (1)
-**90**
-Answers for every unit (2)
-**92**
-Where the facts came from
-**93**
-Our sources
-**95**
-Watch and learn (for the teacher)
-**97**
-
-CONTENTS
+likes games
+with a ball.
 
 **4**
 
 <!-- page 5 -->
 
 ---
-**Prime School Press**
-Physical Education · Year 1
+**Unit 0 · Getting started**
+Before Unit 1
 
-**PHYSICAL EDUCATION · YEAR 1**
-## The year at a glance
+## Signs to look for
 
-Three terms. Three chances to show what your body can do.
+Every page in this book works the same way. Look for these six signs.
 
-**TERM 1 · Move and watch**
+## The colour band
 
-Units 1 and 2.
-Space, run, jump,
-hop. Words for a
-movement. Look
-back in December.
+The band at the top tells you
+which unit you are in. Every
+unit has its own colour, and
+the same colour on the
+contents page.
 
-**TERM 2 · Create and join**
+## Ready, steady, try
 
-Units 3 and 4.
-Shapes and dance.
-Jobs in a small game.
-Look back in March.
+Once in every unit there is a
+page where you do the
+moving. Three tries to tick,
+and a box to draw yourself in.
 
-**TERM 3 · Care and health**
+## Your turn
 
-Units 5 and 6. Fair
-play and kit. Heart,
-rest, food, water.
-Look back in June.
+A box to draw or write in.
+Nobody marks this box. It is
+yours.
 
-**THE TEACHER SHOULD CONFIRM**
+## How did it go?
 
-Dates follow the Prime School year 2026/27: December 2026, March 2027, June
-2027.
+At the end of the unit you
+colour a circle for each line.
+Three circles, three honest
+answers.
 
-THE YEAR AT A GLANCE
+## Words we used
+
+The words this unit taught, in
+one place at the end of the
+unit.
+
+## Safety first
+
+When a task needs care, this
+sign arrives with the one thing
+to watch. Read it before you
+move.
 
 **5**
 
 <!-- page 6 -->
 
 ---
-**Prime School Press**
+**Unit 0 · Getting started**
 Before Unit 1
 
-**GETTING STARTED · WELCOME TO THE MEADOW**
-## Welcome to the meadow
+## What we use in the meadow
 
-Behind the school there is a meadow. Grass, little flowers,room to run.
+Everything here lives in the hall. Take it out, use it, put it back.
 
-When it rains, there is the hall instead. Wooden floor, wall bars,
-mats in a stack. This book uses both places. The jobs do not change.
+**Chalk and cones**
 
-You will move. You will watch. You will take turns. You will stop
-when the teacher says stop.
+A white line on
+the grass and
+small cones for
+stopping. One
+cone for each
+pair, please.
 
-**Picture 0.1 Six friends arriving at the meadow gate. Look at the space they leave between each**
-other.
+**Hoops and ropes**
 
-**COME OUT TO THE MEADOW**
+Wooden hoops
+and skipping
+ropes. A hoop
+is carried at
+your side,
+never over
+your head.
 
-Take off your jumper if you are hot. Drink some water. Look at the
-space. Are you ready?
+**Mats and bench**
 
-**OUTSIDE, ALL YEAR**
+A low bench
+and two blue
+mats. Two
+carriers for the
+bench, one at
+each end.
 
-Outdoor activities for the meadow, the park or the garden.
+## Water
 
-woodlandtrust.org.uk/naturedetectives/
-outdoor lesson
-
-WELCOME TO THE MEADOW
+A named bottle
+for every child.
+Drink before
+you feel
+thirsty, not
+after.
 
 **6**
 
 <!-- page 7 -->
 
 ---
-**Prime School Press**
+**Unit 0 · Getting started**
 Before Unit 1
 
-**GETTING STARTED · WELCOME TO THE MEADOW**
-## Welcome to the meadow (continued)
+## The hall, and safety first
+Four rules. We say them out loud at the start of every lesson.
 
-**RSPB — FUN AND LEARNING FOR KIDS**
+## 1
+## Look before you move
 
-Bird and wildlife activities to do outside.
+Stand still, look around, find
+the space that is yours. Then
+move.
 
-rspb.org.uk/fun-and-learning/for-kids
-outdoor lesson
+## 2
+## Stop means stop
 
-WELCOME TO THE MEADOW
+When the teacher says stop,
+feet stop and hands go quiet.
+Everybody, at the same time.
+
+## 3
+## Tell a grown-up
+
+If something hurts, or if you
+feel wobbly, say so straight
+away. Stopping is not losing.
+
+## 4
+## Leave it tidy
+
+Kit goes back where it lives.
+A tidy hall is how the next
+class finds it.
 
 **7**
 
 <!-- page 8 -->
 
 ---
-**Prime School Press**
-Before Unit 1
+**U N I T O N E**
 
-**GETTING STARTED · MEET THE SIX**
-## Meet the six
+## 1
+## Moving Well
 
-You will see them on almost every page. They are pupils, like you.
-They are not coaches.
+Walk, run, hop, skip
 
-**Picture 0.2 Pip, Bramble, Sorrel, Tuft, Willow and Rowan, standing so you can see each one**
-whole.
+1.1 Walk, run, stop
+1.2 Hop, skip, join
+1.3 Fast and slow
 
-**Pip**
+Walk and run on a line
+Stop when you hear 'stop'
+Hop, skip and join a partner
 
-A red squirrel in a
-mustard jumper. He
-tries first.
-
-**Bramble**
-
-A badger in a teal
-jacket. He is steady,
-and he likes to
-count.
-
-**Sorrel**
-
-A brown hare in an
-olive vest. She is
-fast.
-
-**Tuft**
-
-A small hedgehog in
-a terracotta vest.
-He is careful.
-
-**Willow**
-
-A barn owl. She
-watches, and she
-says what she saw.
-
-**Rowan**
-
-An otter in a green
-vest. He likes games
-with a ball.
-
-MEET THE SIX
+This unit is about moving in the meadow and in the hall. You will walk a line, stop
+on a cone, and find out how fast your feet can go.
 
 **8**
 
 <!-- page 9 -->
 
 ---
-**Prime School Press**
-Before Unit 1
+**H A V E A L O O K**
 
-**GETTING STARTED · HOW TO USE THIS BOOK**
-## How to use this book
+## How many ways can you
+## cross the meadow?
 
-Each topic uses a few kinds of panel. Learn them once.
+Pip runs. Bramble walks. Sorrel hops. Tuft rolls. Every body crosses
+the grass in its own way. Which way is yours?
 
-**PANEL**
-**WHAT YOU DO**
+**1**
+Say each word three times: walk, run, stop. Then say it as quietly as
+you can.
 
-The kit you need
-Read it before anybody moves.
-
-Move it
-A short warm-up.
-
-Watch me try
-One of the six shows the idea slowly.
-
-Try it
-Your turn, with a body, not only a pencil.
-
-Play together
-A game with at least one other person.
-
-Safety first
-Read this. Then move.
-
-Willow's notes
-What a watcher actually saw.
-
-Look what I can do
-Tick what is true for you today.
-
-Scan and show
-A link an adult opens for the whole class.
-
-**WHO OPENS A LINK**
-
-A teacher or another adult holds any device that opens a link. You do
-not scan codes on your own.
-
-HOW TO USE THIS BOOK
+**2**
+Go a bit further: stand at the wall. Point at one thing you could run around.
 
 **9**
 
 <!-- page 10 -->
 
 ---
-**Prime School Press**
-Before Unit 1
+**Unit 1 · Moving Well**
+1.1 Space, walk, run, stop
 
-**GETTING STARTED · GETTING SET UP**
-## Getting set up
+## Walk, run, stop
 
-You need: a clear floor, trainers or bare feet as the teacher says,
-water, and the kit named on the page.
+quiet feet
 
-**Picture 0.3 The kit for a Year 1 lesson, laid out so every object is whole: cones, hoop, beanbags,**
-mat, rope, water, bell.
+fast feet
 
-**REMEMBER EVERY LESSON**
+still feet
 
-Look at the space before you move into it.
-Know which kit is yours today.
-Leave the space tidy at the end.
+the chalk line
 
-**BBC TEACH SUPER MOVERS — KS1**
+Say 'freeze' and hold your own hand up. Feet stop when the hand goes up.
 
-Songs and movement routines the class can copy together.
+**1**
+Point at each picture. Say the word out loud.
 
-bbc.co.uk/teach/supermovers/ks1-collection/zbr4scw
-about 5 minutes each
+**walk**
 
-GETTING SET UP
+**run**
+
+**stop**
+
+**2**
+One word has floated away. Write it in the empty box.
+
+## walk
+## run
 
 **10**
 
 <!-- page 11 -->
 
 ---
-**Prime School Press**
-Before Unit 1
+**Unit 1 · Moving Well**
+Your turn
 
-**GETTING STARTED · THE HALL, AND SAFETY FIRST**
-## The hall, and safety first
+## The chalk line
 
-When it rains, the floor is the lesson.
+Walk the line to the cone. Run back along the line.
+Stop before you touch the cone.
 
-**Picture 0.4 The hall on a wet day. Pip comes in from the rain. The floor is the lesson now.**
+Walk it first, then do it on your own.
 
-**SAFETY FIRST**
+**1**
+Put your foot on the dot. Walk the line slowly.
 
-Listen to the teacher. Leave a space you could lie down in. Stop when
-you hear the bell or the word stop. Tell an adult if something hurts.
-Drink water. Take turns.
+**start**
 
-**BEFORE EVERY LESSON**
+**look**
+**now walk it**
 
-My space is a lie-down space.
-My water is at the side, not on the running line.
-I know where the mats are.
+**2**
+Now do it on your own. Run to the cone and stop.
 
-THE HALL, AND SAFETY FIRST
+**mark where you stopped**
+
+**3**
+Copy the word once. Say it before you write it.
+
+## stop
+
+Say the word as your feet go: that is how your feet remember it.
 
 **11**
 
 <!-- page 12 -->
 
 ---
-**U N I T  O N E**
+**L O O K U P**
 
-## 1
-## Moving well
-
-## The Open Meadow
-
-This ground is about using a space, then using a body: walk, run, stop,
-hop, skip, and kit that changes the floor.
-
-Pip runs. Bramble leaves a space. Willow watches the stop.
-
-**1.1 Space, walk, run, stop**
-**1.2 Hop, skip, join**
-
-**1.3 Fast, slow, high, low**
-**1.4 Hoops, benches, mats**
-
-**Picture 1.0 The Open Meadow at the start of the year. Six friends, six bodies, plenty of grass.**
+## Sorrel stops in one step. Watch her front paws.
 
 **12**
 
@@ -615,2807 +560,1482 @@ Pip runs. Bramble leaves a space. Willow watches the stop.
 
 ---
 **Unit 1 · Moving Well**
-The Open Meadow
+1.2 Hop, skip, join
 
-**UNIT 1 · TOPIC 1.1**
-## Space, walk, run, stop
+## Hop, skip, join
 
-**Picture 1.1 Pip and Bramble walk with a wide space between them. Sorrel waits further back.**
-Look how nobody is touching.
+## 1
+Hop on one foot. Three hops,
+then swap.
 
-**TODAY YOU WILL**
+**Tries**
 
-leave a space and stop when asked
-hop, skip and join two movements
-change speed and level on purpose
-move on, over and through simple apparatus
+## 2
+Skip to the bench. Skip all the
+way back.
 
-**THE KIT YOU NEED**
+**Tries**
 
-Four cones, a clear floor, and a teacher with a bell or a clear word for
-stop.
+## 3
+Hold a partner's hand. Move
+together.
 
-1.1  SPACE, WALK, RUN, STOP
+**Tries**
+
 **13**
 
 <!-- page 14 -->
 
 ---
 **Unit 1 · Moving Well**
-The Open Meadow
+Ready, steady, try
 
-**UNIT 1 · TOPIC 1.1 · WALK, RUN AND STOP**
-## Walk, run and stop
+## Ready, steady, try
 
-A space is a gap you can see. In Year 1, a good space is one you
-could lie down in without touching anyone.
+Stand still on one foot. Count to three out loud. Then try the
+other foot. Nobody is racing you.
 
-Walk uses both feet, one after the other. Run uses both feet too, but
-there is a moment when both are off the floor. Stop means freeze:
-feet still, eyes on the teacher.
+**1**
+Tick every body that is moving. There are six.
 
-**MOVE IT**
+**2**
+## how many?
+Play again tomorrow. Beat your score?
 
-Walk anywhere for one minute. Change direction when you meet
-somebody. Do not touch. Then stand still.
+## Stand on one foot
 
-**WATCH ME TRY**
+**1**
+**2**
+**3**
 
-Pip runs. Bramble calls stop. Pip's feet finish the step they
-started, then they stay. He does not skid into Sorrel.
-
-**SAFETY FIRST**
-
-Look where you are going. Leave a lie-down space. Stop means stop,
-even if the game is exciting.
-
-1.1  WALK, RUN AND STOP
 **14**
 
 <!-- page 15 -->
 
 ---
 **Unit 1 · Moving Well**
-The Open Meadow
+1.3 Fast, slow, high, low
 
-**UNIT 1 · TOPIC 1.1 · WALK, RUN AND STOP**
-## Walk, run and stop (continued)
+## Fast and slow
 
-**TRY IT**
+Do each one. Then circle how it felt.
 
-**1**
-Walk the space. Count how many children you can see without
-turning your head.
+Fast feet
 
-**2**
-Run to a cone and stop before you touch it. Do this four times.
+**How did it feel?**
 
-**3**
-When the teacher says stop, freeze. Tick if your feet were still.
+Slow feet
 
-**LOOK WHAT I CAN DO**
+**How did it feel?**
 
-I left a space.
-I stopped when I was asked.
+High jump
 
-1.1  WALK, RUN AND STOP
+**How did it feel?**
+
+Low crouch
+
+**How did it feel?**
+
+**4**
+Read each word out loud three times. Tick it when you can.
+
+## walk
+## run
+## stop
+## hop
+
+## skip
+## jump
+## fast
+## slow
+
 **15**
 
 <!-- page 16 -->
 
 ---
 **Unit 1 · Moving Well**
-The Open Meadow
+How did it go?
 
-**UNIT 1 · TOPIC 1.2**
-## Hop, skip, join
+## Unit 1 · How did it go?
 
-**Picture 1.2 Pip hops on one foot. Bramble skips with a rope. Two different movements, both**
-using a spring.
+Colour one face for each line. There is no wrong answer here.
 
-**PLAY TOGETHER**
+**green = yes**
+**amber = nearly**
+**red = not yet**
+Not yet is a good answer.
 
-Traffic. Green means walk. Yellow means slow. Red means stop. Play
-for two minutes. Nobody is out. If you bump, you just start again
-with a bigger space.
+I walked the line
 
-**THE KIT YOU NEED**
+**Colour one face**
 
-Skipping ropes if you have them, or just a clear floor. Work in pairs.
+I stopped on 'stop'
 
-**MOVE IT**
+**Colour one face**
 
-Ten heel raises. Ten gentle jumps on the spot. Shake your feet.
+I hopped and skipped
 
-1.2  HOP, SKIP, JOIN
+**Colour one face**
+
+I moved with a partner
+
+**Colour one face**
+
+**Did you know?**
+
+You have twenty-six bones in each foot - more than anywhere else.
+
+**For the grown-up**
+If the class cannot stop on the word, clap instead of saying it - feet stop on the
+clap.
+
 **16**
 
 <!-- page 17 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**U N I T T W O**
 
-**UNIT 1 · TOPIC 1.2 · THE JOIN**
-## The join
+## 2
+## Understanding Movement
 
-A hop is a spring on one foot, landing on the same foot. A skip is a
-step and a hop, repeating. To join them, you finish the hop and start
-the skip with no long pause in the middle.
+Look, name, copy
 
-**WATCH ME TRY**
+2.1 Names for my body
+2.2 Watch, then copy
+2.3 Show me good
+2.4 Words we used
 
-Tuft hops three times on his right foot. Then he skips to the
-cone. The join is the third landing, which becomes the first
-skip.
+2.4 Words we used
 
-**SAFETY FIRST**
+Name four parts of your body
+Watch, then copy a shape
+Show what good looks like
 
-Land softly, with a little bend in the knee. If you wobble, put the
-other foot down. That is still good work.
+In this unit you will watch a shape, name the parts of it, and copy it. Then a
+partner will watch you.
 
-**TRY IT**
-
-**1**
-Hop four times on each foot. Hold a wall if you need to.
-
-**2**
-Skip to a cone and skip back.
-
-**3**
-Join them: hop, hop, skip, skip. Draw the order.
-
-**MY SEQUENCE**
-
-1.2  THE JOIN
 **17**
 
 <!-- page 18 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 2 · Understanding Movement**
+2.1 Words for a body
 
-**UNIT 1 · TOPIC 1.2 · THE JOIN**
-## The join (continued)
+## Names for my body
 
-**CHALLENGE**
+head
+arms
+legs
+feet
 
-Do hop-hop-skip across the meadow without stopping in the middle.
-A partner watches the join.
+Point to your head. Point to your arms. Point to your legs. Point
+to your feet. A watcher needs these four words.
 
-1.2  THE JOIN
+**Say this**
+Name the part as you touch it. The word lands better with a hand on it.
+
 **18**
 
 <!-- page 19 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 2 · Understanding Movement**
+Your turn
 
-**UNIT 1 · TOPIC 1.3**
-## Fast, slow, high, low
+## Draw and name
 
-**Picture 1.3 Sorrel sprints. Tuft creeps. Same meadow, two speeds. Look at how high each body**
-is.
+Draw your body in the box. Put a dot on your head,
+your arms, your legs and your feet.
 
-Speed is how quickly a movement happens. Level is how high or low
-the body is. You can change one of them on purpose.
+Draw your body. Say each part out loud.
 
-Fast is not better than slow. Slow is often harder to hold.
+**start**
 
-**THE KIT YOU NEED**
-
-Two cones about eight metres apart, and a partner who watches.
-
-**MOVE IT**
-
-Walk, then jog, then walk. Thirty seconds each.
-
-1.3  FAST, SLOW, HIGH, LOW
 **19**
 
 <!-- page 20 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**L O O K U P**
 
-**UNIT 1 · TOPIC 1.3**
-## Fast, slow, high, low (continued)
+## Willow watches first. Then she says exactly what
+## she saw.
 
-**BBC TEACH SUPER MOVERS — KS1**
-
-Songs and movement routines the class can copy together. about 5
-minutes each
-
-bbc.co.uk/teach/supermovers/ks1-collection/zbr4scw
-about 5 minutes each
-
-1.3  FAST, SLOW, HIGH, LOW
 **20**
 
 <!-- page 21 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 2 · Understanding Movement**
+2.2 Watch, then copy
 
-**UNIT 1 · TOPIC 1.3 · FAST AND SLOW**
-## Fast and slow
+## Watch, then copy
 
-**WATCH ME TRY**
+## 1
+Watch the shape. Say what
+you see.
 
-Sorrel runs the eight metres as fast as she can. Then she
-crosses again as slowly as she can without stopping. Willow
-times both with a count of “one-elephant, two-elephant”.
+**Tries**
 
-**SAFETY FIRST**
+## 2
+Copy the shape. Hold it still.
 
-Fast needs a long space behind the finish cone so you can slow down.
-Do not run at a wall.
+**Tries**
 
-**TRY IT**
+## 3
+Let a partner copy you. Watch
+them do it.
 
-**1**
-Cross fast. Cross slow. Tell your partner which felt harder.
+**Tries**
 
-**2**
-Walk on tiptoes (high). Walk in a small squat (low).
-
-**3**
-Tick the sentence that is true for you.
-
-Slow was harder than fast.
-High made me wobble.
-I could change speed when asked.
-
-**FAST**
-
-a long low run, arms working
-
-**SLOW**
-
-a small careful creep,
-body low
-
-1.3  FAST AND SLOW
 **21**
 
 <!-- page 22 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 2 · Understanding Movement**
+2.3 What good looks like
 
-**UNIT 1 · TOPIC 1.3 · FAST AND SLOW**
-## Fast and slow (continued)
+## Show me good
 
-**NHS 10 MINUTE SHAKE UP**
+Do each one. Then circle how ready it felt.
 
-Ten-minute movement games, made for children aged 5 to 11. 10
-minutes
+Standing tall
 
-nhs.uk/healthier-families/activities/10-minute-shake-up/
-10 minutes
+**How did it feel?**
 
-1.3  FAST AND SLOW
+Looking ahead
+
+**How did it feel?**
+
+Feet apart
+
+**How did it feel?**
+
+Quiet hands
+
+**How did it feel?**
+
 **22**
 
 <!-- page 23 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 2 · Understanding Movement**
+Ready, steady, try
 
-**UNIT 1 · TOPIC 1.4**
-## Hoops, benches, mats
+## Ready, steady, try
 
-**Picture 1.4 Pip crawls through a hoop. A bench and a mat wait behind. The whole hoop is in the**
-picture, and so are Pip's feet.
+Make one shape with your body. Hold it while a partner counts
+to five. Then swap and copy their shape.
+## Hold a shape
 
-Apparatus is kit you move on, over or through. The movement you
-already know must still work when the floor changes.
+**1**
+**2**
+**3**
 
-**THE KIT YOU NEED**
+What shape did you make?
 
-Hoops, a low bench or a line of mats, and a teacher who has tested
-the bench.
+Draw yourself doing it
 
-**MOVE IT**
+**one foot**
 
-Bear walk to a hoop and stand inside it.
-
-**WOODLAND TRUST — NATURE DETECTIVES**
-
-Outdoor activities for the meadow, the park or the garden. outdoor
-lesson
-
-woodlandtrust.org.uk/naturedetectives/
-outdoor lesson
-
-1.4  HOOPS, BENCHES, MATS
 **23**
 
 <!-- page 24 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 2 · Understanding Movement**
+Words we used
 
-**UNIT 1 · TOPIC 1.4 · THE MEADOW GAMES**
-## The meadow games
+## Words we used
 
-Play three stations. Spend four minutes at each.
+## watch
 
-**WATCH ME TRY**
+look with your whole eyes, and wait
 
-Pip steps into the hoop, crawls through, then walks along
-the bench with his eyes on the far end. He does not rush the
-bench.
+## copy
 
-**SAFETY FIRST**
+make the same shape as someone
 
-Only one child on a bench. An adult stands at the side. Mats stay flat.
-Never jump off a bench in this topic: step down.
+## shape
 
-**TRY IT**
+what your body makes, standing or moving
 
-**1**
-Through a hoop, then along a line of mats.
+## still
 
-**2**
-Change the order: mats first, hoop second.
+not moving at all
 
-**3**
-Tell Willow one thing that changed when the kit was there.
+## ready
 
-**1**
-**Space tag**
+set, and waiting to go
 
-Walk only. If you
-are tagged, freeze
-until someone gives
-you a thumbs-up
-from a lie-down
-space away.
+## turn
 
-**2**
-**Join the hop**
+your go, then someone else's
 
-Hop to a cone, skip
-home.
-
-**3**
-**Hoop path**
-
-Three hoops in a
-line. In, through,
-out.
-
-1.4  THE MEADOW GAMES
 **24**
 
 <!-- page 25 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**U N I T T H R E E**
 
-**UNIT 1 · TOPIC 1.4 · THE MEADOW GAMES**
-## The meadow games (continued)
+## 3
+## Moving Creatively
 
-**LOOK WHAT I CAN DO**
+Shapes, kit, weather
 
-I can stop when I am asked.
-I can hop and skip.
-I can change speed.
-I can use a hoop or a mat without rushing.
+3.1 Shapes you invent
+3.2 What can a hoop do?
+3.3 Show an answer
 
-1.4  THE MEADOW GAMES
+Invent three new shapes
+Use a hoop for an idea
+Move like wind and rain
+
+In this unit you will invent shapes with your body, let the kit give you ideas, and
+move like the weather.
+
 **25**
 
 <!-- page 26 -->
 
 ---
-**Unit 1 · Moving Well**
-The Open Meadow
+**Unit 3 · Moving Creatively**
+3.1 New shapes
 
-**UNIT 1 · HOW DID IT GO?**
-## How did it go?
+## Shapes you invent
 
-Colour one circle in each row. Green means yes, yellow means
-nearly, and red means not yet. Not yet is a fine answer: it just means
-you have more to do.
+tree
+stone
+bridge
 
-I can stop when I am asked.
+Stand tall like a tree. Curl small like a stone. Stretch long like a
+bridge. Your body can make any shape you think of.
 
-I can hop and skip.
-
-I can change speed.
-
-I can use a hoop or a mat without rushing.
-
-Which page in this unit did you enjoy most? Turn back to it and show someone why.
-
-UNIT 1 · HOW DID IT GO?
+**Say this**
+Ask for one shape at a time, and let the class hold it while you count to three.
 
 **26**
 
 <!-- page 27 -->
 
 ---
-**U N I T  T W O**
+**L O O K U P**
 
-## 2
-## Understanding movement
-
-## Watching Hedge
-
-This ground is about words, watching, and a rule you can say out loud.
-
-Willow sees the jump. Then she says what the body did.
-
-**2.1 Words for a body**
-**2.2 Watch, then copy**
-
-**2.3 What good looks like**
-**2.4 A simple rule**
-
-**Picture 2.0 Willow on the hedge post. Bramble jumps. One of them is moving. The other one is**
-
-working too.
+## The wind makes shapes too. Watch the leaves go.
 
 **27**
 
 <!-- page 28 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 3 · Moving Creatively**
+3.2 What the kit suggests
 
-**UNIT 2 · TOPIC 2.1**
-## Words for a body
+## What can a hoop do?
 
-**Picture 2.1 Willow points at a jumping hare. She is naming the movement, not guessing.**
+Pick up a hoop. Make a shape with it. Try three
+different shapes.
 
-**TODAY YOU WILL**
+Draw the best shape you made with the hoop.
 
-use simple words for a movement
-watch one thing and say what you saw
-name what good looks like today
-follow one rule in a small game
+**start**
 
-**THE KIT YOU NEED**
-
-A partner, and a list of words on the board: walk, run, hop, jump,
-skip, stop, roll.
-
-**BBC TEACH SUPER MOVERS**
-
-Watch a routine, then name the movements you saw. about 5
-minutes each
-
-bbc.co.uk/teach/supermovers
-about 5 minutes each
-
-2.1  WORDS FOR A BODY
 **28**
 
 <!-- page 29 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 3 · Moving Creatively**
+Words we used
 
-**UNIT 2 · TOPIC 2.1 · NAMING WHAT YOU SAW**
-## Naming what you saw
+## Words for shapes
 
-A movement word is a name for what a body did. Jump is not the same
-as hop. If you use the wrong word, the watcher cannot help you.
+## shape
 
-**MOVE IT**
+what your body makes
 
-The teacher says a word. You do it for five seconds.
+## curl
 
-**WATCH ME TRY**
+round, like a stone
 
-Willow says: “Sorrel jumped. Two feet left the grass. Two
-feet came back.” That is a description, not a score.
+## stretch
 
-**TRY IT**
+long, like a bridge
 
-**1**
-Watch your partner do one movement. Write or tick the word.
+## balance
 
-**2**
-Swap. Do they agree with your word?
+still, and not falling over
 
-**3**
-Draw the movement you named.
+## weather
 
-**THE MOVEMENT I SAW**
+wind, rain, sun - and how they move
 
-2.1  NAMING WHAT YOU SAW
+## idea
+
+something you think of yourself
+
 **29**
 
 <!-- page 30 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 3 · Moving Creatively**
+Ready, steady, try
 
-**UNIT 2 · TOPIC 2.1 · NAMING WHAT YOU SAW**
-## Naming what you saw (continued)
+## Ready, steady, try
 
-**WATCH, THEN NAME IT**
+Be the weather. Make a wind shape, then a rain shape, then a
+sun shape. Hold each one while a partner watches.
+## Be the weather
 
-Watch a movement routine, then name every movement you saw.
+**1**
+**2**
+**3**
 
-bbc.co.uk/teach/supermovers
-about 5 minutes each
+Which weather shape was easiest?
 
-2.1  NAMING WHAT YOU SAW
+Draw yourself doing it
+
+**one foot**
+
 **30**
 
 <!-- page 31 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 3 · Moving Creatively**
+3.3 Answer with your body
 
-**UNIT 2 · TOPIC 2.2**
-## Watch, then copy
+## Show an answer
 
-**Picture 2.2 Willow watches from the post. Bramble jumps on the meadow. Look at Willow's still**
-body.
+Listen to the word. Answer with your body, not your
+voice.
 
-A watcher looks at one thing: feet, or arms, or the landing. Not the
-whole body at once.
+Rain
 
-**THE KIT YOU NEED**
+**How did it feel?**
 
-Pairs. One mover, one watcher. Swap every three goes.
+Wind
 
-**WILLOW'S NOTES**
+**How did it feel?**
 
-Feet together at take-off. Soft knees at landing. He looked at the grass, not at me.
+Tree
 
-**TRY IT**
+**How did it feel?**
 
-**1**
-Watch three jumps. Say one true sentence each time.
+Stone
 
-2.2  WATCH, THEN COPY
+**How did it feel?**
+
 **31**
 
 <!-- page 32 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**L O O K U P**
 
-**UNIT 2 · TOPIC 2.2**
-## Watch, then copy (continued)
+## Rain makes every shape the same shape. Water
+## finds the low place.
 
-**RSPB — FUN AND LEARNING FOR KIDS**
-
-Bird and wildlife activities to do outside. outdoor lesson
-
-rspb.org.uk/fun-and-learning/for-kids
-outdoor lesson
-
-2.2  WATCH, THEN COPY
 **32**
 
 <!-- page 33 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**U N I T F O U R**
 
-**UNIT 2 · TOPIC 2.3**
-## What good looks like
+## 4
+## Taking Part
 
-**Picture 2.3 Pip lands a jump with bent knees and arms out. That landing is the criterion for this**
-page.
+Jobs, turns, leading
 
-A criterion is a picture of good, for today. For a Year 1 jump, good is:
-take off on two feet, land on two feet, knees a little bent, still at the
-end.
+4.2 Three jobs
+4.1 How to join in
+4.4 Your turn to lead
+4.6 Listen, then move
 
-**CHECK**
-**GO 1**
-**GO 2**
-**GO 3**
+Join a game without being asked
+Take a job: thrower, catcher, collector
+Lead one turn
 
-Two feet off
+In this unit you will join a game, take a job in it, and lead one turn yourself. Every
+job matters.
 
-Two feet land
-
-Knees bent
-
-Still at the end
-
-**TRY IT**
-
-**1**
-Jump. Check the four things. Colour the ones you did.
-
-**2**
-Copy the jump you liked. Keep the same one thing.
-
-**3**
-Tick: I watched before I copied.
-
-2.3  WHAT GOOD LOOKS LIKE
 **33**
 
 <!-- page 34 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 4 · Taking Part**
+4.2 Thrower, catcher, collector
 
-**UNIT 2 · TOPIC 2.3**
-## What good looks like (continued)
+## Three jobs
 
-**TICK WHAT IS TRUE**
+thrower
+catcher
+collector
 
-I watched first.
+The thrower sends the ball. The catcher waits with two hands
+ready. The collector keeps the bean bags in the basket. Three
+jobs, one game.
 
-**GONOODLE**
+**Say this**
+Give every child a job name before the game starts. A child with a job joins in
+without being asked.
 
-Short movement and team games for a classroom or a hall. 3 to 10
-minutes
-
-gonoodle.com/
-3 to 10 minutes
-
-2.3  WHAT GOOD LOOKS LIKE
 **34**
 
 <!-- page 35 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 4 · Taking Part**
+4.1 Joining in
 
-**UNIT 2 · TOPIC 2.4**
-## A simple rule
+## How to join in
 
-**Picture 2.4 Three friends wait behind a chalk line. The hoop is ahead. Nobody has crossed the**
-line yet.
+Stand where you can be seen. Wait for a gap. Then
+say: can I play?
 
-A rule is an agreement. In this game the rule is: wait behind the line
-until your name is called.
+I stood where I could be seen
 
-**SAFETY FIRST**
+**How did it feel?**
 
-Land on the mat if the floor is hard. Do not bounce straight into
-another jump.
+I waited for a gap
 
-**TRY IT**
+**How did it feel?**
 
-**1**
-Circle the go that was your best.
+I asked to play
 
-2.4  A SIMPLE RULE
+**How did it feel?**
+
+I took my turn
+
+**How did it feel?**
+
 **35**
 
 <!-- page 36 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 4 · Taking Part**
+4.4 A turn at leading
 
-**UNIT 2 · TOPIC 2.4 · WATCHER'S DAY**
-## Watcher's day
+## Your turn to lead
 
-A tactic is a small plan inside the rule. Walking to the hoop is safer
-than running, because the line is close.
+## 1
+Choose one game. Say the
+rules out loud.
 
-Spend the lesson as mover and watcher, half and half.
+**Tries**
 
-**PLAY TOGETHER**
+## 2
+Show the start line and the
+finish line.
 
-Call and go. Wait behind the line. When you hear your name, walk to
-the hoop, stand in it, and walk back. If you go early, you just walk
-back and wait again. Nobody is out.
+**Tries**
 
-**THINK ABOUT IT**
+## 3
+Say 'go'. Then play with
+everyone else.
 
-Why does the line help? Write one word or draw the line.
+**Tries**
 
-**THE LINE HELPS BECAUSE**
-
-**LOOK WHAT I CAN DO**
-
-I can name a movement with the right word.
-I can watch one thing.
-I can say what good looks like today.
-I can wait behind a line.
-
-2.4  WATCHER'S DAY
 **36**
 
 <!-- page 37 -->
 
 ---
-**Unit 2 · Understanding Movement**
-Watching Hedge
+**Unit 4 · Taking Part**
+Ready, steady, try
 
-**UNIT 2 · HOW DID IT GO?**
-## How did it go?
+## Ready, steady, try
 
-Colour one circle in each row. Green means yes, yellow means
-nearly, and red means not yet. Not yet is a fine answer: it just means
-you have more to do.
+Lead one turn of a game. Say the rules, then say go. Ask the
+others one question afterwards.
+## Lead one turn
 
-I can name a movement with the right word.
+**1**
+**2**
+**3**
 
-I can watch one thing.
+What did the others say?
 
-I can say what good looks like today.
+Draw yourself doing it
 
-I can wait behind a line.
-
-Which page in this unit did you enjoy most? Turn back to it and show someone why.
-
-UNIT 2 · HOW DID IT GO?
+**one foot**
 
 **37**
 
 <!-- page 38 -->
 
 ---
-**U N I T  T H R E E**
+**L O O K U P**
 
-## 3
-## Moving creatively
-
-## The Dance Ring
-
-This ground asks for a movement nobody showed you first.
-
-A ribbon, a hoop, a mood. The answer is a body.
-
-**3.1 New shapes**
-**3.2 What the kit suggests**
-
-**3.3 Answer with your body**
-**3.4 Moving like weather**
-
-**Picture 3.0 The Dance Ring. Sorrel moves with a ribbon. Willow watches the shape, not the**
-
-score.
+## A red ball, in the air, for one moment.
 
 **38**
 
 <!-- page 39 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 4 · Taking Part**
+4.6 Listen, then move
 
-**UNIT 3 · TOPIC 3.1**
-## New shapes
+## Listen, then move
 
-**Picture 3.1 Tuft makes a wide star. Sorrel makes a tall thin shape. Two answers to the same**
-request: make a shape.
+Listen to the whole instruction first. Then move.
 
-**TODAY YOU WILL**
+I listened to the end
 
-make a new body shape
-let apparatus suggest a movement
-answer a task with a body
-move like a mood or the weather
+**How did it feel?**
 
-**MOVE IT**
+I moved after the word go
 
-Shake hands, shake feet, make a tiny ball shape, then a wide shape.
+**How did it feel?**
 
-3.1  NEW SHAPES
+I knew my job
+
+**How did it feel?**
+
+I helped pack away
+
+**How did it feel?**
+
 **39**
 
 <!-- page 40 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 4 · Taking Part**
+How did it go?
 
-**UNIT 3 · TOPIC 3.1 · SHAPES YOU INVENT**
-## Shapes you invent
+## Unit 4 · How did it go?
 
-A shape is how the body fills the space: wide, tall, small, twisted.
-There is no single right shape.
+Colour one circle for each line. There is no wrong answer here.
 
-**TRY IT**
+I joined in
 
-**1**
-Make wide, tall, small, twisted. Hold each for a count of three.
+**Colour one face**
 
-**2**
-Invent a fifth shape. Draw it.
+I took a job in the game
 
-**3**
-Show it to a partner. Can they copy it?
+**Colour one face**
 
-**MY FIFTH SHAPE**
+I took my turn
 
-**WIDE**
+**Colour one face**
 
-arms and legs spread like
-a star
+I led one turn
 
-**TALL**
+**Colour one face**
 
-stretched right up on tiptoe
+**For the grown-up**
+If a child will not join in, give them the job of collector and no other words. The job
+is the invitation.
 
-3.1  SHAPES YOU INVENT
 **40**
 
 <!-- page 41 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**L O O K U P**
 
-**UNIT 3 · TOPIC 3.2**
-## What the kit suggests
+## Everyone sits down at the end. The grass is still.
 
-**Picture 3.2 A hoop on the grass like a river. Rowan steps in and out. The hoop suggested the**
-game.
-
-The kit is not only for the use printed on the box. A hoop can be a
-river, a nest, a window, a cave.
-
-**THE KIT YOU NEED**
-
-One hoop between two children.
-
-**TRY IT**
-
-**1**
-Name three things your hoop could be. Try two of them.
-
-**2**
-Swap hoops with another pair. Does the new hoop suggest the
-same ideas?
-
-**SAFETY FIRST**
-
-Hoops stay on the floor in this topic, unless the teacher says you may
-lift them. Never swing a hoop at a head.
-
-3.2  WHAT THE KIT SUGGESTS
 **41**
 
 <!-- page 42 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**U N I T F I V E**
 
-**UNIT 3 · TOPIC 3.2**
-## What the kit suggests (continued)
+## 5
+## Taking Responsibility
 
-**COSMIC KIDS — LEARN**
+Sharing, kit, care
 
-Story-led yoga and movement for Early Years and Key Stage 1. 5 to
-20 minutes
+5.1 Taking turns
+5.2 Carrying kit
+5.3 Words we used
+5.4 Ask for help
 
-cosmickids.com/learn/
-5 to 20 minutes
+Share and take turns
+Carry kit safely
+Use kind words when someone is stuck
 
-3.2  WHAT THE KIT SUGGESTS
+In this unit you will share the kit, carry it safely, play fairly and use kind words.
+The meadow stays good when everyone helps.
+
 **42**
 
 <!-- page 43 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 5 · Taking Responsibility**
+5.1 Share and take turns
 
-**UNIT 3 · TOPIC 3.3**
-## Answer with your body
+## Taking turns
 
-**Picture 3.3 A path of cones, a hoop and a bench. Pip is halfway, choosing the next movement.**
+One hoop, two bodies. Decide who goes first. Then
+swap.
 
-A task is a job with a start and an end. The teacher might say: cross
-the meadow without using a run. Your body answers.
+We decided who was first
 
-**TRY IT**
+**How did it feel?**
 
-**1**
-Cross without running. Tick what you used.
+We swapped without being asked
 
-**2**
-Now cross without using the movement you chose first.
+**How did it feel?**
 
-walk
-hop
-crawl
-skip
+We both had the same time
 
-**CHALLENGE**
+**How did it feel?**
 
-The path must include one hoop and one change of level. Show Willow.
+We put the hoop back
 
-3.3  ANSWER WITH YOUR BODY
+**How did it feel?**
+
 **43**
 
 <!-- page 44 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 5 · Taking Responsibility**
+5.2 Carry kit safely
 
-**UNIT 3 · TOPIC 3.4**
-## Moving like weather
+## Carrying kit
 
-**Picture 3.4 Sorrel dances with a ribbon in the Dance Ring. Willow watches the weather in the**
-movement.
+hoop at your side
+bench with two carriers
+mats roll
 
-Storm is fast and strong. Leaf is light and slow. Rain is little repeated
-taps. You choose how your body says that.
+A hoop goes at your side, both paws on it. A bench takes two
+carriers, one at each end. A mat rolls, it does not drag.
 
-**THE KIT YOU NEED**
+**Say this**
+Give the heavy things two carriers every time, and say who carries which end.
 
-Ribbons or scarves if you have them. Music the teacher has chosen,
-or a drum.
-
-**PLAY TOGETHER**
-
-The teacher names a weather. Everyone moves. When you hear sun,
-freeze in a shape.
-
-**COSMIC KIDS — LEARN**
-
-Story-led yoga and movement for Early Years and Key Stage 1.
-
-cosmickids.com/learn/
-5 to 20 minutes
-
-3.4  MOVING LIKE WEATHER
 **44**
 
 <!-- page 45 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**L O O K U P**
 
-**UNIT 3 · TOPIC 3.4**
-## Moving like weather (continued)
+## The hall, when everyone has gone home.
 
-**BBC TEACH SUPER MOVERS — KS1**
-
-Songs and movement routines the class can copy together. about 5
-minutes each
-
-bbc.co.uk/teach/supermovers/ks1-collection/zbr4scw
-about 5 minutes each
-
-3.4  MOVING LIKE WEATHER
 **45**
 
 <!-- page 46 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 5 · Taking Responsibility**
+Ready, steady, try
 
-**UNIT 3 · TOPIC 3.4 · SHOW A DANCE**
-## Show a dance
+## Ready, steady, try
 
-In twos, make an eight-count dance: two shapes, one kit idea, one
-weather. Show it once.
+Carry one piece of kit across the hall with a partner. Put it
+down where it belongs. Then do it again, faster.
+## Carry kit together
 
-**THINK ABOUT IT**
+**1**
+**2**
+**3**
 
-Which weather was hardest to show? Why?
+Who carried which end?
 
-**LOOK WHAT I CAN DO**
+Draw yourself doing it
 
-I made a shape nobody showed me.
-I used kit as more than one thing.
-I answered a task with my body.
-I moved like a mood.
+**one foot**
 
-3.4  SHOW A DANCE
 **46**
 
 <!-- page 47 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 5 · Taking Responsibility**
+Words we used
 
-**UNIT 3 · TOPIC 3.4 · SHOW A DANCE**
-## Show a dance (continued)
+## Words we used
 
-**GONOODLE**
+## share
 
-Short movement and team games for a classroom or a hall. 3 to 10
-minutes
+both of you use it
 
-gonoodle.com/
-3 to 10 minutes
+## turn
 
-3.4  SHOW A DANCE
+your go, then mine
+
+## fair
+
+the same rules for everyone
+
+## safe
+
+nobody gets hurt
+
+## kind
+
+words that help someone
+
+## tidy
+
+everything back where it lives
+
 **47**
 
 <!-- page 48 -->
 
 ---
-**Unit 3 · Moving Creatively**
-The Dance Ring
+**Unit 5 · Taking Responsibility**
+5.4 Ask for help
 
-**UNIT 3 · HOW DID IT GO?**
-## How did it go?
+## Ask for help
 
-Colour one circle in each row. Green means yes, yellow means
-nearly, and red means not yet. Not yet is a fine answer: it just means
-you have more to do.
+If something is too heavy, say so. If you are stuck,
+ask. Both are the right thing to do.
 
-I made a shape nobody showed me.
+I asked for help
 
-I used kit as more than one thing.
+**How did it feel?**
 
-I answered a task with my body.
+I helped someone else
 
-I moved like a mood.
+**How did it feel?**
 
-Which page in this unit did you enjoy most? Turn back to it and show someone why.
+I said a kind word
 
-UNIT 3 · HOW DID IT GO?
+**How did it feel?**
+
+I packed away
+
+**How did it feel?**
 
 **48**
 
 <!-- page 49 -->
 
 ---
-**U N I T  F O U R**
+**L O O K U P**
 
-## 4
-## Taking part
-
-## The Team Patch
-
-This ground is about joining a group, having a job, and listening before
-you move.
-
-A ball, a circle, a turn. Everybody has work.
-
-**4.1 Joining in**
-**4.2 Thrower, catcher, collector**
-
-**4.3 Your own goal**
-**4.4 A turn at leading**
-
-**4.5 What I can do**
-**4.6 Listen, then move**
-
-**Picture 4.0 The Team Patch. Six friends in a ring with one ball. Look who is waiting.**
+## Rowan holds the door open. Everybody goes out.
 
 **49**
 
 <!-- page 50 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**U N I T S I X**
 
-**UNIT 4 · TOPIC 4.1**
-## Joining in
+## 6
+## Healthy Bodies
 
-**Picture 4.1 A ring on the meadow and a yellow ball. Everybody is in. Nobody is left on the**
-hedge.
+Breath, heart, water
 
-Joining in means going to the circle, leaving a space, and staying in
-the game when it is not your throw.
+6.1 What changes
+6.2 My moving body
+6.4 Rest, then go again
+6.5 Before and after
 
-**TODAY YOU WILL**
+6.5 Before and after
 
-join a group activity
-know your job and someone else's
-practise one goal on your own
-take a turn at leading
-notice a strength
-listen, then move
+Feel your heart after moving
+Notice your breath
+Drink water before you are thirsty
 
-4.1  JOINING IN
+In this unit you will feel your heart, hear your breath, and find out when to rest
+and when to drink.
+
 **50**
 
 <!-- page 51 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 6 · Healthy Bodies**
+6.1 What changes when you move
 
-**UNIT 4 · TOPIC 4.2**
-## Thrower, catcher, collector
+## What changes
 
-**Picture 4.2 Rowan throws a spotted ball. Pip catches it with both paws. Two jobs, one ball.**
+heart faster
+breath quicker
+face warm
 
-**PLAY TOGETHER**
+Your heart goes faster. Your breath gets quicker. Your face goes
+warm. That is your body working well.
 
-Circle roll. Sit in a ring. Roll the ball to the child you name. Say the
-name first. If the ball leaves the ring, the nearest child fetches it and
-the game goes on.
+**Say this**
+Put a hand on your own chest and ask the class to copy you. Then wait in silence
+while everyone feels it.
 
-**TICK WHAT YOU DID**
-
-I sat in the ring.
-I said a name before I rolled.
-I fetched the ball without a fuss.
-
-**THROWER**
-
-sends the ball under-arm
-
-**CATCHER**
-
-two paws, eyes on the ball
-
-4.2  THROWER, CATCHER, COLLECTOR
 **51**
 
 <!-- page 52 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 6 · Healthy Bodies**
+6.2 Name the working parts
 
-**UNIT 4 · TOPIC 4.2**
-## Thrower, catcher, collector (continued)
+## My moving body
 
-**GONOODLE**
+Move fast for one minute. Then stop and feel.
 
-Short movement and team games for a classroom or a hall. 3 to 10
-minutes
+My heart felt faster
 
-gonoodle.com/
-3 to 10 minutes
+**How did it feel?**
 
-4.2  THROWER, CATCHER, COLLECTOR
+My breath felt quicker
+
+**How did it feel?**
+
+My face felt warm
+
+**How did it feel?**
+
+I needed a rest
+
+**How did it feel?**
+
 **52**
 
 <!-- page 53 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**L O O K U P**
 
-**UNIT 4 · TOPIC 4.3**
-## Your own goal
+## Six bodies, still, looking at clouds.
 
-The thrower sends. The catcher receives. The collector picks up what
-is missed. Swap every five throws.
-
-A goal is one thing you will try for the next ten throws. Not “be
-better”. Something a watcher can see: catch with two hands, or
-throw to the chest.
-
-Keep the same ball and the same three jobs. The new work is the
-goal you write down, then watch.
-
-**THE KIT YOU NEED**
-
-One beanbag or a soft ball between three: thrower, catcher, collector.
-
-**SAFETY FIRST**
-
-Under-arm throws in this topic. No ball at a face. If it hurts, stop and
-tell an adult.
-
-4.3  YOUR OWN GOAL
 **53**
 
 <!-- page 54 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 6 · Healthy Bodies**
+6.4 Knowing your limit today
 
-**UNIT 4 · TOPIC 4.3**
-## Your own goal (continued)
+## Rest, then go again
 
-**TRY IT**
+## 1
+Move until your breath is
+quick.
 
-**1**
-Five throws each job.
+**Tries**
 
-**2**
-Tick the job you want to practise next week.
+## 2
+Stop. Put a paw on your chest.
 
-**3**
-Write your goal in five words or fewer.
+**Tries**
 
-**MY GOAL IN FIVE WORDS**
+## 3
+Breathe slowly. Count four in,
+four out.
 
-thrower
-catcher
-collector
+**Tries**
 
-4.3  YOUR OWN GOAL
 **54**
 
 <!-- page 55 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 6 · Healthy Bodies**
+Ready, steady, try
 
-**UNIT 4 · TOPIC 4.4**
-## A turn at leading
+## Ready, steady, try
 
-**Picture 4.4 Sorrel leads. Tuft, Pip and Rowan copy the hop. The leader is a pupil, not a coach.**
-
-Leading in Year 1 is showing one movement and waiting while the
-line copies. Then you go to the back.
-
-**PLAY TOGETHER**
-
-Follow me. The leader chooses walk, hop or skip. After the line
-reaches a cone, the leader goes to the back and the next child leads.
-
-**TRY IT**
+Move fast for one minute. Then sit and count your breaths until
+they slow down. Nobody is racing you.
+## Count your breaths
 
 **1**
-Ten throws at that goal. A partner tallies yes or no.
-
 **2**
-Did the goal get easier? Circle: yes / not yet / I changed it.
+**3**
 
-yes
-not yet
-I changed it
+How many breaths before you felt calm?
 
-4.4  A TURN AT LEADING
+Draw yourself doing it
+
+**one foot**
+
 **55**
 
 <!-- page 56 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 6 · Healthy Bodies**
+6.5 Before, and afterwards
 
-**UNIT 4 · TOPIC 4.5**
-## What I can do
+## Before and after
 
-Different bodies are good at different things today. Pip is quick.
-Bramble is steady. Tuft is careful. None of those is a rank.
+Draw your face before you move. Draw your face
+after you move.
 
-**SAFETY FIRST**
+Draw both faces. Circle the one that is warmer.
 
-The leader looks where they are going, not only at the line behind.
+**start**
 
-**TRY IT**
-
-**1**
-Name one thing you did well today.
-
-**2**
-Name one thing a partner did well. Tell them.
-
-**3**
-Name one thing you will try next lesson.
-
-**NEXT TIME I WILL TRY**
-
-4.5  WHAT I CAN DO
 **56**
 
 <!-- page 57 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 6 · Healthy Bodies**
+Words we used
 
-**UNIT 4 · TOPIC 4.5**
-## What I can do (continued)
+## Words we used
 
-**YOUTH SPORT TRUST**
+## heart
 
-Inclusive games and fair-play guidance for primary schools. teacher
-planning
+it beats faster when you move
 
-youthsporttrust.org/
-teacher planning
+## breath
 
-4.5  WHAT I CAN DO
+air in, air out
+
+## rest
+
+stop and let your body catch up
+
+## water
+
+drink before you feel thirsty
+
+## warm
+
+your face and hands feel hot
+
+## calm
+
+slow breath, quiet body
+
 **57**
 
 <!-- page 58 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**L O O K U P**
 
-**UNIT 4 · TOPIC 4.6**
-## Listen, then move
+## A cup of water on the bench. Cold, and full.
 
-**Picture 4.6 Pip's ears are up. Bramble is speaking. Then Pip hops. The listen comes first.**
-
-**PLAY TOGETHER**
-
-Listen and go. Freeze. The teacher gives one instruction. Move only
-when the instruction is finished. If you go early, walk back and wait.
-
-**LOOK WHAT I CAN DO**
-
-I joined the ring.
-I knew my job.
-I had a goal I could see.
-I led once.
-I said something kind about a partner.
-
-4.6  LISTEN, THEN MOVE
 **58**
 
 <!-- page 59 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 7 · Looking back**
+My year in movement
 
-**UNIT 4 · TOPIC 4.6 · THE MINI MATCH**
-## The mini match
+## What I can do now
 
-A four-minute mini game: circle roll, then three jobs with a beanbag.
-Swap jobs when the bell goes. No scores against each other. The
-score is how many kind waits you noticed.
+Colour a circle when you can do the line without help. Come back to
+this page at the end of every term.
 
-**Job 1 · Thrower**
+## Unit 1
+Moving Well
 
-Send the beanbag
-under-arm to the
-catcher's chest.
+I can walk, run, stop and hop on a line.
 
-**Job 2 · Catcher**
+## Unit 2
+Understanding Movement
 
-Two paws, eyes on
-the beanbag, feet
-still.
+I can watch a shape and copy it, and I know the words for my body.
 
-**Job 3 · Collector**
+## Unit 3
+Moving Creatively
 
-Fetch what is
-missed, then back to
-the ring.
+I can make a new shape, and move like the weather.
 
-**TICK WHAT YOU DID**
+## Unit 4
+Taking Part
 
-I waited until the instruction ended.
+I can join a game, take a job in it, and lead one turn.
 
-**GONOODLE**
+## Unit 5
+Taking Responsibility
 
-Short movement and team games for a classroom or a hall.
+I can share the kit, carry it safely and use kind words.
 
-gonoodle.com/
-3 to 10 minutes
+## Unit 6
+Healthy Bodies
 
-4.6  THE MINI MATCH
+I can feel my heart and my breath, and I know when to rest.
+
 **59**
 
 <!-- page 60 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 7 · Looking back**
+The words and the pictures
 
-**UNIT 4 · TOPIC 4.6 · THE MINI MATCH**
-## The mini match (continued)
+## The kit we use
 
-**BBC TEACH SUPER MOVERS**
+## hoop
 
-Watch a routine, then name the movements you saw. about 5
-minutes each
+a round wooden ring. Carry it at your side.
 
-bbc.co.uk/teach/supermovers
-about 5 minutes each
+## cone
 
-4.6  THE MINI MATCH
+a small marker. You stop before you touch it.
+
+## chalk line
+
+a white line on the grass. Walk, run or hop along it.
+
+## mat
+
+a soft blue mat for landing on.
+
+## wall bars
+
+the wooden bars on the hall wall. Look, do not climb.
+
 **60**
 
 <!-- page 61 -->
 
 ---
-**Unit 4 · Taking Part**
-The Team Patch
+**Unit 7 · Looking back**
+The words and the pictures
 
-**UNIT 4 · HOW DID IT GO?**
-## How did it go?
+## What we do with it
 
-Colour one circle in each row. Green means yes, yellow means
-nearly, and red means not yet. Not yet is a fine answer: it just means
-you have more to do.
+## balance
 
-I joined the ring.
+still, and not falling over.
 
-I knew my job.
+## hop
 
-I had a goal I could see.
+one foot, then the other.
 
-I led once.
+## skip
 
-I said something kind about a partner.
+step and a little jump, again and again.
 
-Which page in this unit did you enjoy most? Turn back to it and show someone why.
+## crouch
 
-UNIT 4 · HOW DID IT GO?
+low, with bent knees.
+
+## stretch
+
+long and tall, like a bridge.
 
 **61**
 
 <!-- page 62 -->
 
 ---
-**U N I T  F I V E**
+**Unit 7 · Looking back**
+The words and the pictures
 
-## 5
-## Taking responsibility
+## How our bodies feel
 
-## The Kit Basket
+## heart
 
-This ground is about sharing, carrying, fair play, asking for help, and
-kind words.
+it beats faster when you move.
 
-Two bodies, one mat. The kit is everybody's.
+## breath
 
-**5.1 Share and take turns**
-**5.2 Carry kit safely**
+air in, air out. Quicker when you run.
 
-**5.3 Fair play**
-**5.4 Ask for help**
+## rest
 
-**5.5 Kind words**
+stop and let your body catch up.
 
-**Picture 5.0 Bramble and Pip carry a mat together. Look at both pairs of hands.**
+## water
+
+drink before you feel thirsty.
+
+## calm
+
+slow breath, quiet body, ready again.
 
 **62**
 
 <!-- page 63 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Looking back
 
-**UNIT 5 · TOPIC 5.1**
-## Share and take turns
+## Show me
 
-Sharing is using the same kit without grabbing. Taking turns is
-waiting, then going, then letting the next child go.
+Six moves. Look at the words, then show the class.
 
-**TODAY YOU WILL**
+## 1
+## Standing ready
+Feet apart, eyes ahead, hands still. This is how every
+move starts.
 
-share space and kit, and take turns
-carry and put down equipment safely
-play fairly
-ask for help at the right moment
-give a kind, useful word
+## 2
+## Walking a line
+Quiet feet, one in front of the other, looking where
+you go.
 
-**PLAY TOGETHER**
+## 3
+## Stopping
+Feet side by side, still, on the word. No extra steps.
 
-One hoop, two children. One minute in the hoop, one minute
-watching. Swap when the teacher claps. If you both want it, the
-watcher goes next.
+## 4
+## Hopping
+One foot, small hops, the other foot ready to take
+over.
 
-**TICK WHAT YOU DID**
+## 5
+## Throwing
+Step, look at the target, send the ball, follow with
+your hand.
 
-I waited.
-I went.
-I let the next child go.
+## 6
+## Finishing
+Slow breath, kit away, tell your partner one thing
+that went well.
 
-5.1  SHARE AND TAKE TURNS
 **63**
 
 <!-- page 64 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Looking back
 
-**UNIT 5 · TOPIC 5.1**
-## Share and take turns (continued)
+## Our sources
 
-**YOUTH SPORT TRUST**
+This book was written for Prime School from the school's own Year 1
+programme, checked against these references.
 
-Inclusive games and fair-play guidance for primary schools. teacher
-planning
+## Cambridge Primary Physical Education
+The curriculum framework and its learning objectives for
+learners aged 5 to 6.
 
-youthsporttrust.org/
-teacher planning
+## The school's own scheme of work
+Unit names, the order of the topics and the words the
+children use in the hall come from Prime School's Year 1
+plan.
 
-5.1  SHARE AND TAKE TURNS
+## The teachers who teach it
+Every activity in this book has been taught in the hall or the
+meadow by the staff who teach it now.
+
+## The illustrations
+Made for this book, plate by plate, for this subject and this
+cast. Nothing was copied from another publisher.
+
 **64**
 
 <!-- page 65 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Looking back
 
-**UNIT 5 · TOPIC 5.2**
-## Carry kit safely
+## Codes and links
 
-**Picture 5.2 Two friends carry one mat. The weight is shared. The mat is whole in the picture.**
+If a code will not scan, type the address. Every link in this book is
+written out here as well.
 
-**THE KIT YOU NEED**
+## primeschool.pt
+The school's own site: term dates, kit lists and the parent
+letters.
 
-Mats, hoops, cones. An adult names who carries with whom.
+## primeschool.pt/pe
+The physical education page: the scheme of work, unit by
+unit.
 
-**SAFETY FIRST**
+## primeschool.pt/library
+Every Prime Book, read on screen or printed at school.
 
-Two children to a mat. Walk, do not run. Put the mat down together.
-Fingers stay out from under the edge. Cones in two hands, against
-your chest.
+## No code needed
+Nothing in this book requires a phone to be finished. The
+codes only show a class what to do next.
 
-**TRY IT**
-
-**1**
-Carry a mat with a partner to a cone and back.
-
-**2**
-Stack hoops. Count them out loud.
-
-5.2  CARRY KIT SAFELY
 **65**
 
 <!-- page 66 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Words we used
 
-**UNIT 5 · TOPIC 5.3**
-## Fair play
+## Every word this year (1)
 
-**Picture 5.3 Tuft and Rowan with one yellow ball. One waits. One rolls. That wait is fair play.**
+## balance
+still, and not falling over
 
-Fair play in Year 1 is: same turn length, no pushing, tell the truth if
-the ball was out, and keep playing after a mistake.
+## bench
+a low wooden seat to walk along
 
-**TICK IF NOBODY'S FINGERS WERE UNDER A MAT**
+## breath
+air in, air out
 
-Fingers safe.
+## calm
+slow breath, quiet body
 
-**THINK ABOUT IT**
+## catcher
+the job of waiting for the ball
 
-If two children reach the ball together, what is a fair choice?
+## chalk line
+a white line on the grass
 
-**WAITS**
+## collector
+the job of keeping the kit together
 
-paws in the lap, eyes on
-the ball
+## cone
+a small marker to stop before
 
-**ROLLS**
+## copy
+make the same shape as someone
 
-one steady under-arm roll
+## crouch
+low, with bent knees
 
-5.3  FAIR PLAY
+## fair
+the same rules for everyone
+
+## heart
+it beats faster when you move
+
 **66**
 
 <!-- page 67 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Words we used
 
-**UNIT 5 · TOPIC 5.3**
-## Fair play (continued)
+## Every word this year (2)
 
-**RSPB — FUN AND LEARNING FOR KIDS**
+## hoop
+a round wooden ring
 
-Bird and wildlife activities to do outside. outdoor lesson
+## hop
+one foot, then the other
 
-rspb.org.uk/fun-and-learning/for-kids
-outdoor lesson
+## kind
+words that help someone
 
-5.3  FAIR PLAY
+## lead
+to say the rules and start the game
+
+## mat
+a soft mat for landing on
+
+## ready
+set, and waiting to go
+
+## rest
+stop and let your body catch up
+
+## safe
+nobody gets hurt
+
+## shape
+what your body makes
+
+## share
+both of you use it
+
+## still
+not moving at all
+
+## tidy
+everything back where it lives
+
 **67**
 
 <!-- page 68 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Looking back
 
-**UNIT 5 · TOPIC 5.4**
-## Ask for help
+## If the class gets stuck
 
-**Picture 5.4 Tuft asks Willow for help beside spilled beanbags. Asking is a skill, not a failure.**
+One line each, for the adult in the hall. These are the things worth
+saying out loud.
 
-Ask when the kit is too heavy, when you cannot see a safe path, or
-when something hurts. Ask before you guess with a risky movement.
+## They will not stop on the word
+Clap instead of saying it. Feet stop on the clap, and the clap
+is easier to hear in a hall.
 
-**PLAY TOGETHER**
+## Too many children, too little space
+Half the class moves, half watches with a job in mind. Then
+swap. The watchers are working too.
 
-Roll and wait. Five rolls each. If you take an extra turn, you give the
-next two turns to your partner.
+## A child will not join in
+Give them one job - collector, holder of the cone - and no
+other words. The job is the invitation.
 
-**TRY IT**
+## Someone is always first
+Change the line-up every lesson, and name the child who
+waited well, not the child who won.
 
-**1**
-Practise the sentence: Please can you help me with this mat?
-
-**2**
-When would you ask? Tick.
-
-The mat is too heavy.
-
-5.4  ASK FOR HELP
 **68**
 
 <!-- page 69 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Looking back
 
-**UNIT 5 · TOPIC 5.5**
-## Kind words
+## Well tried
 
-**Picture 5.5 Friends clap for Tuft after a jump. Kind words are specific: “soft knees”, not only**
-“good”.
+You moved, you watched, you took turns, and you looked after each
+other. That is the whole of it.
 
-Kind words name what you actually saw. “Soft knees” helps. “Good”
-does not say what to do next time.
+## Keep going
+Walking, running, hopping, skipping - the meadow is always
+there tomorrow.
 
-**TWO THINGS YOU CAN SAY**
+## Keep asking
+What does my body do when I move? You will have better
+answers next year.
 
-I feel a pinch in my knee.
-I want to go first.
+## Keep the meadow
+Kit away, chalk washed off, doors closed. The next class
+deserves it as you found it.
 
-The last box is a want, not a need. The teacher can still help you wait.
+## Prime School Press
+Physical Education · Year 1 · written and illustrated for the
+children of Prime School.
 
-**WILLOW'S NOTES**
-
-Soft knees. You looked at the grass. That landing was still.
-
-**TRY IT**
-
-**1**
-Watch a partner. Say one true, kind sentence.
-
-**2**
-Write the sentence, or draw the moment.
-
-5.5  KIND WORDS
 **69**
 
 <!-- page 70 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+**Unit 7 · Looking back**
+Looking back
 
-**UNIT 5 · TOPIC 5.5**
-## Kind words (continued)
+## My notes and drawings
 
-**BRITISH HEART FOUNDATION — STAYING ACTIVE**
+Space for anything you want to remember: a game you made up, a
+move you are proud of, a question to ask.
 
-How an active day helps the heart. teacher reading
+## A game I made up
 
-bhf.org.uk/informationsupport/support/healthy-living/staying-active
-teacher reading
+## A move I am proud of
 
-5.5  KIND WORDS
+## A question I want to ask
+
 **70**
 
 <!-- page 71 -->
 
 ---
-**Unit 5 · Taking Responsibility**
-The Kit Basket
+## Six animals. One meadow. A whole year of moving.
 
-**UNIT 5 · TOPIC 5.5 · KIT INSPECT**
-## Kit inspect
+Physical Education Year 1 is the student's own book: six units of walking,
+running, hopping, skipping, throwing and stopping, a page in every unit where
+the child does the moving, and pages at the back to look back at the year.
+Written and illustrated by the teachers of Prime School for the Cambridge
+pathway.
 
-Before you leave: mats stacked, hoops counted, water bottles off the
-floor, fingers checked.
-
-**LOOK WHAT I CAN DO**
-
-I took turns.
-I carried kit with a partner.
-I played fairly.
-I asked for help when I needed it.
-I said something kind and true.
-
-**THE KIND SENTENCE**
-
-5.5  KIT INSPECT
-**71**
-
-<!-- page 72 -->
-
----
-**Unit 5 · Taking Responsibility**
-The Kit Basket
-
-**UNIT 5 · TOPIC 5.5 · KIT INSPECT**
-## Kit inspect (continued)
-
-**YOUTH SPORT TRUST**
-
-Inclusive games and fair-play guidance for primary schools.
-
-youthsporttrust.org/
-teacher planning
-
-5.5  KIT INSPECT
-**72**
-
-<!-- page 73 -->
-
----
-**Unit 5 · Taking Responsibility**
-The Kit Basket
-
-**UNIT 5 · HOW DID IT GO?**
-## How did it go?
-
-Colour one circle in each row. Green means yes, yellow means
-nearly, and red means not yet. Not yet is a fine answer: it just means
-you have more to do.
-
-I took turns.
-
-I carried kit with a partner.
-
-I played fairly.
-
-I asked for help when I needed it.
-
-I said something kind and true.
-
-Which page in this unit did you enjoy most? Turn back to it and show someone why.
-
-UNIT 5 · HOW DID IT GO?
-
-**73**
-
-<!-- page 74 -->
-
----
-**U N I T  S I X**
-
-## 6
-## Healthy bodies
-
-## Resting Oak
-
-This ground is about what a body does when it works, and what it needs
-afterwards.
-
-A faster heart, a drink of water, a rest in the shade.
-
-**6.1 What changes when you move**
-**6.2 Name the working parts**
-
-**6.3 How hard is hard enough**
-**6.4 Knowing your limit today**
-
-**6.5 Before, and afterwards**
-**6.6 Food and water for a moving body**
-
-**Picture 6.0 Pip under the oak after a run. Paw on chest, water on the grass. Look how still he is**
-
-now.
-
-**74**
-
-<!-- page 75 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.1**
-## What changes when you move
-
-**Picture 6.1 Pip sits under the oak after running. His paw is on his chest. The water bottle is**
-waiting.
-
-**TODAY YOU WILL**
-
-notice what changes when you move
-name the body parts doing the work
-choose an intensity that fits the task
-stop when you have reached your limit today
-warm up and cool down
-choose food and water that help a moving body
-
-**WHY MOVING MATTERS**
-
-What happens inside a body when it moves, from the NHS.
-
-nhs.uk/better-health/get-active/
-teacher reading
-
-6.1  WHAT CHANGES WHEN YOU MOVE
-**75**
-
-<!-- page 76 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.1 · A FASTER HEART**
-## A faster heart
-
-When you run, your heart beats faster. You breathe faster. You may
-feel warm. Those changes are the body doing its job, not a problem.
-
-**MOVE IT**
-
-Sit still. Put a hand on your chest. Then jog on the spot for twenty
-seconds. Hand on chest again.
-
-**DID YOU KNOW?**
-
-A child's heart beats faster during play because the muscles need
-more blood. When you rest, the beat slows again. (NHS, physical
-activity and children.)
-
-**TRY IT**
-
-**1**
-Count “beats” with a hand on your chest for ten seconds, before
-and after a jog. The number does not have to be exact. Did it get
-faster?
-
-**2**
-Draw a still Pip and a running Pip.
-
-**STILL**
-**AFTER A JOG**
-
-6.1  A FASTER HEART
-**76**
-
-<!-- page 77 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.1 · A FASTER HEART**
-## A faster heart (continued)
-
-**NHS — GET ACTIVE**
-
-Why moving every day matters, and how much is enough. teacher
-reading
-
-nhs.uk/better-health/get-active/
-teacher reading
-
-6.1  A FASTER HEART
-**77**
-
-<!-- page 78 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.2**
-## Name the working parts
-
-**Picture 6.2 Bramble shows the parts that work in a jump: knees, elbows, paws.**
-
-**TRY IT**
-
-**1**
-Point to knees, ankles, hips, shoulders, elbows on yourself.
-
-**2**
-Which parts work hardest in a jump? Tick two.
-
-knees
-ankles
-ears
-nose
-
-**WILLOW'S NOTES**
-
-Knees and ankles did the spring. Arms helped him balance. Ears did not jump.
-
-6.2  NAME THE WORKING PARTS
-**78**
-
-<!-- page 79 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.3**
-## How hard is hard enough
-
-Intensity is how hard the work feels. A walk to a cone is light. A
-thirty second run is harder. A lesson needs both.
-
-**TRY IT**
-
-**1**
-Walk a lap. Jog a lap. Walk a lap. Which one could you do for a
-whole lesson?
-
-**2**
-Circle how the jog felt: easy / just right / too much today.
-
-easy
-just right
-too much today
-
-**LIGHT**
-
-a walk to a cone, easy
-breathing
-
-**HARDER**
-
-a thirty second run, quick
-breathing
-
-6.3  HOW HARD IS HARD ENOUGH
-**79**
-
-<!-- page 80 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.4**
-## Knowing your limit today
-
-Your limit today is not a score against a friend. It is the moment you
-need to rest, drink, or choose a lighter job.
-
-**SAFETY FIRST**
-
-Harder is not always better. If you feel dizzy or a sharp pain, stop
-and tell an adult.
-
-**TRY IT**
-
-**1**
-After a run, sit until your breathing feels easy again.
-
-**2**
-Tick the honest sentence.
-
-I could have done one more go.
-I needed a rest.
-Something hurt, so I stopped.
-
-6.4  KNOWING YOUR LIMIT TODAY
-**80**
-
-<!-- page 81 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.5**
-## Before, and afterwards
-
-**Picture 6.5 The six friends stretch arms up before a game. A warm body is ready. A cold body is**
-not.
-
-A warm-up wakes the body: walk, gentle jumps, shoulder rolls. A
-cool-down slows it: walk, stretch, sit, water.
-
-All three can be right on different days.
-
-**TRY IT**
-
-**1**
-Lead a thirty-second warm-up for a partner.
-
-**2**
-After the game, walk one lap and sit. Drink water.
-
-**BRITISH HEART FOUNDATION — STAYING ACTIVE**
-
-How an active day helps the heart. teacher reading
-
-bhf.org.uk/informationsupport/support/healthy-living/staying-active
-teacher reading
-
-6.5  BEFORE, AND AFTERWARDS
-**81**
-
-<!-- page 82 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.6**
-## Food and water for a moving body
-
-**Picture 6.6 A picnic under the oak: fruit, bread, cheese, carrot, water. Look at the water bottle.**
-
-**DID YOU KNOW?**
-
-Warming up and slowing down help the body go from rest to play and
-back again. You do not skip them because the game looks more fun.
-(NHS, activity for children.)
-
-**DID YOU KNOW?**
-
-Children need regular drinks of water, especially when they have
-been running about. Fruit and vegetables are part of everyday food.
-(NHS, drinks and “5 a day”.)
-
-**NHS — 5 A DAY**
-
-What counts towards fruit and vegetables, and how much.
-
-nhs.uk/live-well/eat-well/5-a-day/
-teacher reading
-
-6.6  FOOD AND WATER FOR A MOVING BODY
-**82**
-
-<!-- page 83 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.6 · HEALTHY ME**
-## Healthy me
-
-A last circuit: warm up, a one-minute jog, a rest under the oak,
-water, a kind sentence to a partner, kit away.
-
-**TRY IT**
-
-**1**
-Circle the drink for a PE lesson: water / a fizzy drink.
-
-**2**
-Draw one fruit you might eat after the lesson.
-
-**3**
-Why does a moving body need water? One short sentence.
-
-**AFTER PE**
-
-**SAFETY FIRST**
-
-Water at the side of the hall, not on the running line. Tell an adult if
-you feel too hot.
-
-**LOOK WHAT I CAN DO**
-
-I felt my heart change.
-I named two body parts that worked.
-I chose a pace I could keep.
-I rested when I needed to.
-I warmed up and cooled down.
-I chose water.
-
-6.6  HEALTHY ME
-**83**
-
-<!-- page 84 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · TOPIC 6.6 · HEALTHY ME**
-## Healthy me (continued)
-
-**NHS — HEALTHIER FAMILIES: FOOD FACTS**
-
-Everyday food and drink advice for families.
-
-nhs.uk/healthier-families/food-facts/
-for families
-
-**NHS — 5 A DAY**
-
-What counts towards fruit and vegetables, and how much. teacher
-reading
-
-nhs.uk/live-well/eat-well/5-a-day/
-teacher reading
-
-6.6  HEALTHY ME
-**84**
-
-<!-- page 85 -->
-
----
-**Unit 6 · Healthy Bodies**
-Resting Oak
-
-**UNIT 6 · HOW DID IT GO?**
-## How did it go?
-
-Colour one circle in each row. Green means yes, yellow means
-nearly, and red means not yet. Not yet is a fine answer: it just means
-you have more to do.
-
-I felt my heart change.
-
-I named two body parts that worked.
-
-I chose a pace I could keep.
-
-I rested when I needed to.
-
-I warmed up and cooled down.
-
-I chose water.
-
-Which page in this unit did you enjoy most? Turn back to it and show someone why.
-
-UNIT 6 · HOW DID IT GO?
-
-**85**
-
-<!-- page 86 -->
-
----
-**Physical Education · Year 1**
-Look back
-
-**THE YEAR · LOOK BACK**
-## Look back
-
-**TERM 1 · Units 1 and 2**
-
-Can you still leave a
-space, stop, hop,
-skip, name a
-movement, and wait
-behind a line?
-
-**TERM 2 · Units 3 and 4**
-
-A shape, a kit idea, a
-job in a ring, a listen.
-
-**TERM 3 · Units 5 and 6**
-
-Fair play, kit, heart,
-water.
-
-**Picture 7.0 The festival of games at the end of the year. Every game in this book comes back for**
-one afternoon.
-
-**TRY IT**
-
-**1**
-Show a hop-hop-skip to a partner.
-
-**2**
-Watch one jump and say one true sentence.
-
-**3**
-Play Traffic for one minute.
-
-**LOOK WHAT I CAN DO**
-
-I can stop.
-I can name a movement.
-I can wait my turn.
-
-LOOK BACK
-
-**86**
-
-<!-- page 87 -->
-
----
-**Physical Education · Year 1**
-Look back
-
-**THE YEAR · LOOK BACK**
-## Look back (continued)
-
-**BBC TEACH SUPER MOVERS**
-
-Watch a routine, then name the movements you saw.
-
-bbc.co.uk/teach/supermovers
-about 5 minutes each
-
-LOOK BACK
-
-**87**
-
-<!-- page 88 -->
-
----
-**Physical Education · Year 1**
-Words we used
-
-**WORDS WE USED · 1 TO 8**
-## Words we used
-
-Every word here is used somewhere in this book. Read it, say it, then
-use it.
-
-## space
-A gap you can see. In
-Year 1, one you could
-lie down in.
-
-## stop
-Freeze. Feet still. Eyes
-on the teacher.
-
-## hop
-A spring on one foot,
-landing on the same foot.
-
-## skip
-A step and a hop,
-repeating.
-
-## join
-Finishing one movement
-and starting the next
-with no long pause.
-
-## speed
-How quickly a
-movement happens.
-
-## level
-How high or low the
-body is.
-
-## apparatus
-Kit you move on, over
-or through.
-
-WORDS WE USED 1
-
-**88**
-
-<!-- page 89 -->
-
----
-**Physical Education · Year 1**
-Words we used
-
-**WORDS WE USED · 9 TO 14**
-## Words we used
-
-## watcher
-The person who looks at
-one thing and says what
-they saw.
-
-## rule
-An agreement the
-group will keep.
-
-## goal
-One thing you will try,
-that a watcher can see.
-
-## fair play
-Same turns, no
-pushing, truth about
-the ball, keep going
-
-## warm-up
-Gentle movement
-before the hard work.
-
-## cool-down
-Slowing the body after
-the hard work.
-
-**TRY IT**
-
-**1**
-Carry a mat with a partner.
-
-**2**
-Jog twenty seconds, then rest and drink water.
-
-**3**
-Say one kind, true sentence.
-
-**A BODY THAT KEEPS MOVING**
-
-How an active day helps the heart, from the British Heart Foundation.
-
-bhf.org.uk/informationsupport/support/healthy-living/staying-active
-teacher reading
-
-WORDS WE USED 2
-
-**89**
-
-<!-- page 90 -->
-
----
-**Physical Education · Year 1**
-Answers for every unit
-
-**ANSWERS · UNITS 1, 2 AND 3**
-## Answers for every unit
-
-Most PE tasks are answered with a body. Where a tick or a word is
-asked for, this page says what a good answer contains.
-
-## Unit 1
-
-**TOPIC**
-**GOOD ANSWER**
-
-1.1 stop
-Feet still. Space kept.
-
-1.2 join
-Hop then skip with no long pause.
-
-1.3 harder
-Slow is an acceptable answer.
-
-1.4 bench
-Step down, one child, adult at the side.
-
-## Unit 2
-
-**TOPIC**
-**GOOD ANSWER**
-
-2.1 word
-The word matches the movement (jump is not hop).
-
-2.3 landing
-Two feet, bent knees, still at the end.
-
-2.4 line
-Wait until your name is called.
-
-## Unit 3
-
-ANSWERS 1
-
-**90**
-
-<!-- page 91 -->
-
----
-**Physical Education · Year 1**
-Answers for every unit
-
-**ANSWERS · UNITS 1, 2 AND 3**
-## Answers for every unit (continued)
-
-**TOPIC**
-**GOOD ANSWER**
-
-3.1 fifth shape
-Any held shape that is not the four named ones.
-
-3.3 no run
-Walk, hop, crawl or skip. Not a run.
-
-3.4 weather
-A movement that matches storm, leaf or rain.
-
-ANSWERS 1
-
-**91**
-
-<!-- page 92 -->
-
----
-**Physical Education · Year 1**
-Answers for every unit
-
-**ANSWERS · UNITS 4, 5 AND 6**
-## Answers for every unit
-## Unit 4
-
-**TOPIC**
-**GOOD ANSWER**
-
-4.2 jobs
-Thrower, catcher, collector, swapped.
-
-4.3 goal
-A body detail a watcher can see, not “be better”.
-
-4.6 listen
-Move only after the instruction ends.
-
-## Unit 5
-
-**TOPIC**
-**GOOD ANSWER**
-
-5.2 fingers
-Out from under the mat.
-
-5.3 extra turn
-Give the next two turns to the partner.
-
-5.4 last box
-“I want to go first” is a want, not a need.
-
-## Unit 6
-
-**TOPIC**
-**GOOD ANSWER**
-
-6.1 heart
-Faster after a jog, slower after rest.
-
-6.2 parts
-Knees and ankles (not ears or nose).
-
-6.6 drink
-Water.
-
-ANSWERS 2
-
-**92**
-
-<!-- page 93 -->
-
----
-**Physical Education · Year 1**
-Answers for every unit
-
-**ANSWERS · WHERE THE FACTS CAME FROM**
-## Where the facts came from
-
-Every Did you know? in this book was read on the named page on
-2026-08-19.
-
-**CLAIM**
-**SOURCE**
-
-The heart beats faster during play
-because muscles need more blood, then
-slows at rest
-
-NHS, physical activity for children and
-young people
-
-Warm up before harder play; slow down
-afterwards
-
-NHS, activity advice for children
-
-Children need water when they have been
-running about
-
-NHS, drinks and hydration for children
-
-Fruit and vegetables are part of everyday
-food
-
-NHS, 5 a day
-
-**WHY THE SOURCES ARE PRINTED**
-
-A teacher or a family can check every one of these for themselves.
-The full addresses are listed on the next page.
-
-WHERE THE FACTS CAME FROM
-
-**93**
-
-<!-- page 94 -->
-
----
-**Prime School Press**
-Physical Education · Year 1
-
-**SCAN AND SHOW · FOR THE TEACHER**
-## Scan and show
-
-Every address in this book, in one place, so an adult can check one
-before the lesson and open it on a screen.
-
-**THE ROUTINE WE USE MOST**
-
-BBC Teach Super Movers: songs and movement for Key Stage 1.
-about 5 minutes each
-
-bbc.co.uk/teach/supermovers/ks1-collection/zbr4scw
-about 5 minutes each
-
-**1**
-**British Heart Foundation — staying active**
-https://www.bhf.org.uk/informationsupport/support/healthy-living/staying-active
-
-teacher reading
-
-**2**
-**Cosmic Kids — learn**
-https://cosmickids.com/learn/
-
-5 to 20 minutes
-
-**3**
-**GoNoodle**
-https://www.gonoodle.com/
-
-3 to 10 minutes
-
-**4**
-**Woodland Trust — Nature Detectives**
-https://www.woodlandtrust.org.uk/naturedetectives/
-
-outdoor lesson
-
-**5**
-**NHS — get active**
-https://www.nhs.uk/better-health/get-active/
-
-teacher reading
-
-**6**
-**NHS — exercise**
-https://www.nhs.uk/live-well/exercise/
-
-teacher reading
-
-**7**
-**NHS — 5 A Day**
-https://www.nhs.uk/live-well/eat-well/5-a-day/
-
-teacher reading
-
-**8**
-**RSPB — fun and learning for kids**
-https://www.rspb.org.uk/fun-and-learning/for-kids
-
-outdoor lesson
-
-**9**
-**NHS 10 Minute Shake Up**
-https://www.nhs.uk/healthier-families/activities/10-minute-shake-up/
-
-10 minutes
-
-**10**
-**BBC Teach Super Movers — KS1**
-https://www.bbc.co.uk/teach/supermovers/ks1-collection/zbr4scw
-
-about 5 minutes each
-
-**11**
-**BBC Teach Super Movers**
-https://www.bbc.co.uk/teach/supermovers
-
-about 5 minutes each
-
-**12**
-**Youth Sport Trust**
-https://www.youthsporttrust.org/
-
-teacher planning
-
-SCAN AND SHOW
-
-**94**
-
-<!-- page 95 -->
-
----
-**Prime School Press**
-Sources
-
-**OUR SOURCES · FOR THE TEACHER**
-## Our sources
-
-Every fact and every address in this book comes from a named
-organisation, so an adult can look it up.
-
-**1**
-**BBC Teach Super Movers — KS1**
-https://www.bbc.co.uk/teach/supermovers/ks1-collection/zbr4scw
-
-about 5 minutes each
-
-**2**
-**NHS 10 Minute Shake Up**
-https://www.nhs.uk/healthier-families/activities/10-minute-shake-up/
-
-10 minutes
-
-**3**
-**BBC Teach Super Movers**
-https://www.bbc.co.uk/teach/supermovers
-
-about 5 minutes each
-
-**4**
-**Cosmic Kids — learn**
-https://cosmickids.com/learn/
-
-5 to 20 minutes
-
-**5**
-**GoNoodle**
-https://www.gonoodle.com/
-
-3 to 10 minutes
-
-**6**
-**Youth Sport Trust**
-https://www.youthsporttrust.org/
-
-teacher planning
-
-**7**
-**NHS — get active**
-https://www.nhs.uk/better-health/get-active/
-
-teacher reading
-
-**8**
-**NHS — 5 A Day**
-https://www.nhs.uk/live-well/eat-well/5-a-day/
-
-teacher reading
-
-**9**
-**NHS — healthier families: food facts**
-https://www.nhs.uk/healthier-families/food-facts/
-
-for families
-
-**10**
-**NHS — exercise**
-https://www.nhs.uk/live-well/exercise/
-
-teacher reading
-
-**11**
-**Woodland Trust — Nature Detectives**
-https://www.woodlandtrust.org.uk/naturedetectives/
-
-outdoor lesson
-
-**12**
-**RSPB — fun and learning for kids**
-https://www.rspb.org.uk/fun-and-learning/for-kids
-
-outdoor lesson
-
-**13**
-**British Heart Foundation — staying active**
-https://www.bhf.org.uk/informationsupport/support/healthy-living/staying-active
-
-teacher reading
-
-**14**
-**Cambridge Primary**
-https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-primary/
-
-teacher planning
-
-**15**
-**Prime School**
-https://primeschool.pt/
-
-school site
-
-OUR SOURCES
-
-**95**
-
-<!-- page 96 -->
-
----
-**Prime School Press**
-Sources
-
-**OUR SOURCES · FOR THE TEACHER**
-## Our sources (continued)
-
-**ILLUSTRATIONS**
-
-Every illustration in this book is original artwork made for Prime
-Books, drawn in the Prime School Press studio. There are no
-photographs of real people in this book.
-
-OUR SOURCES
-
-**96**
-
-<!-- page 97 -->
-
----
-**Prime School Press**
-Sources
-
-**OUR SOURCES · FOR THE TEACHER**
-## Watch and learn
-
-Every link in this book, in one place. Open these on a staff device
-first, then show the class.
-
-BBC Teach Super
-
-NHS 10 Minute
-
-Cosmic Kids — learn
-
-GoNoodle
-
-Youth Sport Trust
-
-NHS — get active
-
-NHS — 5 A Day
-
-Woodland Trust —
-
-RSPB — fun and
-
-British Heart
-
-NHS — healthier
-
-Cambridge Primary
-
-All of these addresses were opened and checked before this book went to print. If an address
-ever stops working, the teacher can find the same organisation by name.
-
-WATCH AND LEARN
-
-**97**
-
-<!-- page 98 -->
-
----
 **P R I M E  S C H O O L  P R E S S**
 
-## Physical Education
-
-Year 1 · Prime School Press · Student Manual
-
-Run, jump, throw, and know why it worked.
-
-Your first full year of physical education. Find the space, move safely, take your
-
-turn, and learn the games you will play for the rest of your life.
-
-**INSIDE THIS BOOK**
-
-•
-Every Early Years movement skill, in units
-
-•
-The rule of the game, printed every time
-
-•
-A decision to make on every topic
-
-•
-Named jobs, so everybody has one
-
-•
-A festival of games to finish the year
-
-**Prime School Press · Physical Education**
-
-Ages 5–6 · Lower Primary
-
-**primeschool.pt**
+primeschool.pt · Cambridge pathway
+Barcode area - kept clear for production

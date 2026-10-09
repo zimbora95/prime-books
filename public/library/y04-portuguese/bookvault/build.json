@@ -1,9 +1,9 @@
 {
  "slug": "y04-portuguese",
- "built": "2026-10-07T22:50:09+00:00",
- "source_pages": 114,
- "source_mtime": 1791413039.5532184,
- "source_bytes": 13525137,
+ "built": "2026-10-07T22:57:26+00:00",
+ "source_pages": 168,
+ "source_mtime": 1791413041.1663594,
+ "source_bytes": 35004844,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,13 +16,13 @@
  "text": {
   "file": "y04-portuguese-text-file.pdf",
   "url": "/library/y04-portuguese/bookvault/y04-portuguese-text-file.pdf",
-  "bytes": 13659908,
-  "pages": 112,
-  "content_pages": 112,
+  "bytes": 37656901,
+  "pages": 166,
+  "content_pages": 166,
   "padded_pages": 0,
-  "guide_suggested_pages": 119,
+  "guide_suggested_pages": 167,
   "pad_12n": false,
-  "pages_rule": "12n-1 supply (12n-1); packed 112 content pages, guide p.5 suggests 119 -- blank padding not supplied at the owner's request",
+  "pages_rule": "12n-1 supply (12n-1); packed 166 content pages, guide p.5 suggests 167 -- blank padding not supplied at the owner's request",
   "trim_mm": [
    216.0,
    279.0
@@ -30,10 +30,10 @@
   "page_fit_scale": 1.0,
   "page_fit_note": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
   "content_shift_mm": [
-   5.39,
+   5.89,
    0.0
   ],
-  "content_shift_note": "content moved 5.4 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 15.6), 10.5 mm from the outer trim (was 15.9) and 18.4 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 9, 15.6 mm off the gutter)",
+  "content_shift_note": "content moved 5.9 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 15.1), 12.2 mm from the outer trim (was 18.0) and 6.3 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 8, 15.1 mm off the gutter)",
   "media_mm": [
    222.0,
    285.0
@@ -49,29 +49,29 @@
   "invisible_text_spans": 0,
   "fonts_outlined": [],
   "outline_note": "",
-  "pdfx": true,
+  "pdfx": false,
   "flattened": false,
   "transparent_pages": 0,
-  "note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text"
+  "note": "conversion damaged the file (page 21: ink 11.37% -> 14.53% (rasterised?)) -- kept RGB"
  },
  "cover": {
   "file": "y04-portuguese-cover-file.pdf",
   "url": "/library/y04-portuguese/bookvault/y04-portuguese-cover-file.pdf",
   "preview": "/library/y04-portuguese/bookvault/y04-portuguese-cover-file.png",
-  "bytes": 1151023,
+  "bytes": 1022709,
   "px": [
-   5256,
+   5291,
    3366
   ],
-  "spine_mm": 7.0,
+  "spine_mm": 10.0,
   "full_cover_mm": [
-   445.01,
+   447.97,
    284.99
   ],
-  "width_mm": 445.01,
+  "width_mm": 447.97,
   "height_mm": 284.99,
   "formula_mm": [
-   445.0,
+   448.0,
    285.0
   ],
   "back_src": "pdf-back",
@@ -79,7 +79,7 @@
    216.0,
    279.0
   ],
-  "interior_pages": 112,
+  "interior_pages": 166,
   "spine_text": true,
   "spine_text_pt": 8.2,
   "spine_text_floor_mm": 4.0,
@@ -118,13 +118,13 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "no point across the cut lines puts a whitish colour against a coloured one (4032 points checked), so no white nick can print",
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (5976 points checked), so no white nick can print",
    "level": "ok"
   },
   {
    "name": "Bleed approximates the artwork at the cut",
    "pass": false,
-   "detail": "90 of 4032 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "detail": "774 of 5976 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
    "level": "warn"
   },
   {
@@ -142,25 +142,25 @@
   {
    "name": "Live text clears their 20 mm gutter",
    "pass": true,
-   "detail": "closest live text is 20.7 mm off the gutter (page 89); guide p.3 asks for 20 mm",
+   "detail": "closest live text is 21.0 mm off the gutter (page 8); guide p.3 asks for 20 mm",
    "level": "ok"
   },
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": true,
-   "detail": "closest live text is 9.4 mm from the bottom edge (page 1); their template draws a 5 mm safety line",
+   "detail": "closest live text is 6.1 mm from the bottom edge (page 133); their template draws a 5 mm safety line",
    "level": "ok"
   },
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "112 single pages, portrait, all 222.0 mm wide",
+   "detail": "166 single pages, portrait, all 222.0 mm wide",
    "level": "ok"
   },
   {
    "name": "Page count is 12n-1",
    "pass": false,
-   "detail": "112 pages (112 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "detail": "166 pages (166 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
    "level": "warn"
   },
   {
@@ -195,9 +195,9 @@
   },
   {
    "name": "Images at 300 DPI or better",
-   "pass": true,
-   "detail": "every image is 300 DPI or better (guide p.9)",
-   "level": "ok"
+   "pass": false,
+   "detail": "70 below 300 DPI, e.g. page 2: 300 DPI; page 5: 241 DPI; page 11: 293 DPI",
+   "level": "warn"
   },
   {
    "name": "Master page box fitted to their trim",
@@ -208,13 +208,13 @@
   {
    "name": "Artwork covers the printed area",
    "pass": true,
-   "detail": "the artwork reaches 0.2 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 5.4 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "detail": "the artwork reaches 0.2 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 5.9 mm inside the trim -- within the binding zone and the page's own edge colour",
    "level": "ok"
   },
   {
    "name": "Binding-edge clearance",
    "pass": true,
-   "detail": "closest text is 21.3 mm from the left edge on page 55; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 23.6 mm from the left edge on page 55; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "ok"
   },
   {
@@ -225,14 +225,14 @@
   },
   {
    "name": "Text file is PDF/X-1a:2001 with CMYK",
-   "pass": true,
-   "detail": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
-   "level": "ok"
+   "pass": false,
+   "detail": "conversion damaged the file (page 21: ink 11.37% -> 14.53% (rasterised?)) -- kept RGB",
+   "level": "warn"
   },
   {
    "name": "Cover file is a perfect-bound spread",
    "pass": true,
-   "detail": "445.01 x 284.99 mm = back 216 + spine 7 + front 216 + 3 mm bleed, by their p.18 formula",
+   "detail": "447.97 x 284.99 mm = back 216 + spine 10 + front 216 + 3 mm bleed, by their p.18 formula",
    "level": "ok"
   },
   {
@@ -244,7 +244,7 @@
   {
    "name": "Spine width taken from their sizing calculator",
    "pass": false,
-   "detail": "built at 7 mm from 112 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "detail": "built at 10 mm from 166 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
    "level": "warn"
   }
  ],

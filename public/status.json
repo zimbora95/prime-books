@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-09 04:01 UTC",
+ "generated": "2026-10-09 19:07 UTC",
  "totals": {
   "books": 134,
-  "pages": 14188,
+  "pages": 14434,
   "withInput": 88,
   "noInput": 46,
   "standardized": 0,
@@ -48,7 +48,7 @@
     {
      "slug": "y01-english",
      "subject": "English",
-     "pages": 186,
+     "pages": 71,
      "input": {
       "kind": "PDF",
       "file": "y01-english - input.pdf"
@@ -56,8 +56,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 5,
-      "warnings": 3,
+      "failures": 1,
+      "warnings": 0,
       "state": "not-standardised"
      }
     },
@@ -154,7 +154,7 @@
     {
      "slug": "y01-physical-education",
      "subject": "Physical Education",
-     "pages": 98,
+     "pages": 71,
      "input": {
       "kind": "XLSX",
       "file": "y01-physical-education - input.xlsx"
@@ -163,7 +163,7 @@
      "checked": {
       "ok": false,
       "failures": 1,
-      "warnings": 2,
+      "warnings": 0,
       "state": "not-standardised"
      }
     },
@@ -238,7 +238,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 1740
+   "pages": 1598
   },
   {
    "year": 2,
@@ -776,7 +776,7 @@
     {
      "slug": "y04-portuguese",
      "subject": "Portuguese",
-     "pages": 114,
+     "pages": 168,
      "input": {
       "kind": "XLSX",
       "file": "y04-portuguese - input.xlsx"
@@ -784,8 +784,8 @@
      "standardized": false,
      "checked": {
       "ok": false,
-      "failures": 1,
-      "warnings": 3,
+      "failures": 3,
+      "warnings": 2,
       "state": "not-standardised"
      }
     },
@@ -847,7 +847,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 882
+   "pages": 936
   },
   {
    "year": 5,
@@ -939,7 +939,7 @@
     {
      "slug": "y05-portuguese",
      "subject": "Portuguese",
-     "pages": 134,
+     "pages": 176,
      "input": {
       "kind": "XLSX",
       "file": "y05-portuguese - input.xlsx"
@@ -980,7 +980,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 754
+   "pages": 796
   },
   {
    "year": 6,
@@ -1072,7 +1072,7 @@
     {
      "slug": "y06-portuguese",
      "subject": "Portuguese",
-     "pages": 110,
+     "pages": 132,
      "input": {
       "kind": "XLSX",
       "file": "y06-portuguese - input.xlsx"
@@ -1113,7 +1113,7 @@
    ],
    "withInput": 9,
    "standardized": 0,
-   "pages": 786
+   "pages": 808
   },
   {
    "year": 7,
@@ -1205,7 +1205,7 @@
     {
      "slug": "y07-portuguese-1st",
      "subject": "Portuguese 1st",
-     "pages": 192,
+     "pages": 174,
      "input": {
       "kind": "XLSX",
       "file": "y07-portuguese-1st - input.xlsx"
@@ -1252,7 +1252,7 @@
    ],
    "withInput": 11,
    "standardized": 0,
-   "pages": 1574
+   "pages": 1556
   },
   {
    "year": 8,
@@ -1331,7 +1331,7 @@
     {
      "slug": "y08-portuguese-1st",
      "subject": "Portuguese 1st",
-     "pages": 2,
+     "pages": 174,
      "input": {
       "kind": "XLSX",
       "file": "y08-portuguese-1st - input.xlsx"
@@ -1372,7 +1372,7 @@
    ],
    "withInput": 7,
    "standardized": 0,
-   "pages": 1326
+   "pages": 1498
   },
   {
    "year": 9,
@@ -1451,7 +1451,7 @@
     {
      "slug": "y09-portuguese",
      "subject": "Portuguese",
-     "pages": 52,
+     "pages": 168,
      "input": {
       "kind": "XLSX",
       "file": "y09-portuguese - input.xlsx"
@@ -1502,7 +1502,7 @@
    ],
    "withInput": 8,
    "standardized": 0,
-   "pages": 1516
+   "pages": 1632
   },
   {
    "year": 10,
@@ -1641,6 +1641,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-10-09 03:45 UTC",
+ "checked_at": "2026-10-09 18:51 UTC",
  "spec": "A-2.3-Y1-4"
 }

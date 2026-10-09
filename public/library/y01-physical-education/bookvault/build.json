@@ -1,29 +1,28 @@
 {
  "slug": "y01-physical-education",
- "built": "2026-09-17T16:25:09+00:00",
- "source_pages": 98,
- "source_mtime": 1789364144.5683124,
- "source_bytes": 11115152,
+ "built": "2026-09-18T16:48:01+00:00",
+ "source_pages": 71,
+ "source_mtime": 1789621542.7061124,
+ "source_bytes": 22361845,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
   "binding": "Perfect bound (paperback)",
   "paper": "Colour interior, 80 gsm uncoated",
   "lamination": "Matte",
-  "isbn": "978-1-9999-3624-0",
-  "printType": "",
-  "spineMm": ""
+  "isbn": "",
+  "printType": "Standard"
  },
  "text": {
   "file": "y01-physical-education-text-file.pdf",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-text-file.pdf",
-  "bytes": 9313819,
-  "pages": 96,
-  "content_pages": 96,
+  "bytes": 14699865,
+  "pages": 69,
+  "content_pages": 69,
   "padded_pages": 0,
-  "guide_suggested_pages": 107,
+  "guide_suggested_pages": 71,
   "pad_12n": false,
-  "pages_rule": "12n-1 supply (12n-1); packed 96 content pages, no blank padding (count is already a multiple of 12)",
+  "pages_rule": "12n-1 supply (12n-1); packed 69 content pages, guide p.5 suggests 71 -- blank padding not supplied at the owner's request",
   "trim_mm": [
    216.0,
    279.0
@@ -31,10 +30,10 @@
   "page_fit_scale": 1.0,
   "page_fit_note": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
   "content_shift_mm": [
-   7.03,
-   1.68
+   0.0,
+   0.0
   ],
-  "content_shift_note": "content moved 7.0 mm toward the outer edge and 1.7 mm down: closest live text is now 20.1 mm off the gutter (was 13.0), 6.0 mm from the outer trim (was 13.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 11, 13.0 mm off the gutter); the full 1 mm headroom will not fit, the rule itself does",
+  "content_shift_note": "the master already carries their 20 mm binding margin (20.1 mm off the gutter as built), so the page is placed 1:1 on the trim and nothing is moved: no sliver opens at the gutter for the smear to fill",
   "media_mm": [
    222.0,
    285.0
@@ -46,8 +45,10 @@
   "bleed_mm": 3.0,
   "cover_stripped": true,
   "type3": 0,
-  "fonts_embedded": true,
-  "fonts_note": "",
+  "text_outlined": false,
+  "invisible_text_spans": 0,
+  "fonts_outlined": [],
+  "outline_note": "",
   "pdfx": true,
   "flattened": false,
   "transparent_pages": 0,
@@ -57,20 +58,20 @@
   "file": "y01-physical-education-cover-file.pdf",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-cover-file.pdf",
   "preview": "/library/y01-physical-education/bookvault/y01-physical-education-cover-file.png",
-  "bytes": 1079915,
+  "bytes": 1875914,
   "px": [
-   5244,
+   5220,
    3366
   ],
-  "spine_mm": 6.0,
+  "spine_mm": 4.0,
   "full_cover_mm": [
-   443.99,
+   441.96,
    284.99
   ],
-  "width_mm": 443.99,
+  "width_mm": 441.96,
   "height_mm": 284.99,
   "formula_mm": [
-   444.0,
+   442.0,
    285.0
   ],
   "back_src": "pdf-back",
@@ -78,10 +79,10 @@
    216.0,
    279.0
   ],
-  "interior_pages": 96,
+  "interior_pages": 69,
   "spine_text": true,
-  "spine_text_pt": 8.2,
-  "spine_text_floor_mm": 5.0,
+  "spine_text_pt": 7.2,
+  "spine_text_floor_mm": 4.0,
   "spine_text_clearance_mm": 1.0,
   "barcode_mm": [
    38.0,
@@ -117,8 +118,14 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "no point across the cut lines puts a whitish colour against a coloured one (3456 points checked), so no white nick can print",
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (2484 points checked), so no white nick can print",
    "level": "ok"
+  },
+  {
+   "name": "Bleed approximates the artwork at the cut",
+   "pass": false,
+   "detail": "616 of 2484 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "level": "warn"
   },
   {
    "name": "Page artwork survives assembly",
@@ -128,32 +135,32 @@
   },
   {
    "name": "Bleed seam matches the artwork",
-   "pass": true,
-   "detail": "the smear meets the page with no visible step in the bleed",
-   "level": "ok"
+   "pass": false,
+   "detail": " -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected",
+   "level": "warn"
   },
   {
    "name": "Live text clears their 20 mm gutter",
    "pass": true,
-   "detail": "closest live text is 20.1 mm off the gutter (page 11); guide p.3 asks for 20 mm",
+   "detail": "closest live text is 20.1 mm off the gutter (page 16); guide p.3 asks for 20 mm",
    "level": "ok"
   },
   {
    "name": "Live text clears their 5 mm trim safety",
    "pass": true,
-   "detail": "closest live text is 5.8 mm from the top edge (page 3); their template draws a 5 mm safety line",
+   "detail": "closest live text is 5.4 mm from the top edge (page 3); their template draws a 5 mm safety line",
    "level": "ok"
   },
   {
    "name": "Single pages, portrait",
    "pass": true,
-   "detail": "96 single pages, portrait, all 222.0 mm wide",
+   "detail": "69 single pages, portrait, all 222.0 mm wide",
    "level": "ok"
   },
   {
    "name": "Page count is 12n-1",
    "pass": false,
-   "detail": "96 pages (96 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "detail": "69 pages (69 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
    "level": "warn"
   },
   {
@@ -189,7 +196,7 @@
   {
    "name": "Images at 300 DPI or better",
    "pass": false,
-   "detail": "58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI",
+   "detail": "29 below 300 DPI, e.g. page 3: 225 DPI; page 5: 290 DPI; page 5: 290 DPI",
    "level": "warn"
   },
   {
@@ -201,13 +208,13 @@
   {
    "name": "Artwork covers the printed area",
    "pass": true,
-   "detail": "the artwork reaches 1.9 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 7.1 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "detail": "the artwork reaches -0.1 mm past the 216 x 279 mm trim on every visible edge",
    "level": "ok"
   },
   {
    "name": "Binding-edge clearance",
    "pass": true,
-   "detail": "closest text is 24.8 mm from the left edge on page 17; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "detail": "closest text is 20.1 mm from the left edge on page 1; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
    "level": "ok"
   },
   {
@@ -225,7 +232,7 @@
   {
    "name": "Cover file is a perfect-bound spread",
    "pass": true,
-   "detail": "443.99 x 284.99 mm = back 216 + spine 6 + front 216 + 3 mm bleed, by their p.18 formula",
+   "detail": "441.96 x 284.99 mm = back 216 + spine 4 + front 216 + 3 mm bleed, by their p.18 formula",
    "level": "ok"
   },
   {
@@ -237,7 +244,7 @@
   {
    "name": "Spine width taken from their sizing calculator",
    "pass": false,
-   "detail": "built at 6 mm from 96 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "detail": "built at 4 mm from 69 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
    "level": "warn"
   }
  ],
