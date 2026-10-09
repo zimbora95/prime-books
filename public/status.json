@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-01 03:14 UTC",
+ "generated": "2026-10-09 03:12 UTC",
  "totals": {
-  "books": 131,
-  "pages": 13600,
+  "books": 134,
+  "pages": 14188,
   "withInput": 88,
-  "noInput": 43,
+  "noInput": 46,
   "standardized": 0,
   "years": 13,
   "machineClean": 6
@@ -1213,6 +1213,13 @@
      "standardized": false
     },
     {
+     "slug": "y07-portuguese-1st-anthropic",
+     "subject": "Portuguese 1st",
+     "pages": 174,
+     "input": null,
+     "standardized": false
+    },
+    {
      "slug": "y07-portuguese-2nd",
      "subject": "Portuguese 2nd",
      "pages": 76,
@@ -1245,7 +1252,7 @@
    ],
    "withInput": 11,
    "standardized": 0,
-   "pages": 1400
+   "pages": 1574
   },
   {
    "year": 8,
@@ -1275,6 +1282,13 @@
       "kind": "PDF",
       "file": "y08-english - input.pdf"
      },
+     "standardized": false
+    },
+    {
+     "slug": "y08-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 240,
+     "input": null,
      "standardized": false
     },
     {
@@ -1358,7 +1372,7 @@
    ],
    "withInput": 7,
    "standardized": 0,
-   "pages": 1086
+   "pages": 1326
   },
   {
    "year": 9,
@@ -1388,6 +1402,13 @@
       "kind": "XLSX",
       "file": "y09-english - input.xlsx"
      },
+     "standardized": false
+    },
+    {
+     "slug": "y09-global-perspectives",
+     "subject": "Global Perspectives",
+     "pages": 174,
+     "input": null,
      "standardized": false
     },
     {
@@ -1481,7 +1502,7 @@
    ],
    "withInput": 8,
    "standardized": 0,
-   "pages": 1342
+   "pages": 1516
   },
   {
    "year": 10,
@@ -1620,6 +1641,6 @@
    "pages": 32
   }
  ],
- "checked_at": "2026-10-01 03:00 UTC",
+ "checked_at": "2026-10-09 02:51 UTC",
  "spec": "A-2.3-Y1-4"
 }

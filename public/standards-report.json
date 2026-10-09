@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01 03:00 UTC",
+ "generated": "2026-10-09 02:51 UTC",
  "spec": "A-2.3-Y1-4",
  "certified_by": "the teacher, click by click on /status",
  "machine_cannot_check": [
@@ -13,7 +13,7 @@
  "scope": "Years 1 to 4 only; other years are measured only with --all-years",
  "totals": {
   "books": 54,
-  "out_of_scope": 77,
+  "out_of_scope": 80,
   "built": 33,
   "not_built": 21,
   "machine_clean": 6,
@@ -2892,7 +2892,7 @@
     "text outside the content box on page(s) [4, 5, 13, 41, 98]"
    ],
    "warnings": [
-    "font families outside the house set: ['', 'DejaVu Sans Bold', 'Helvetica', 'Kalam', 'Lexend Regular', 'LiberationSans', 'Noto Sans Symbols2 Regular', 'Source Sans 3 Bold', 'Source Sans 3 Regular']",
+    "font families outside the house set: ['', 'DejaVu Sans Bold', 'Helvetica', 'Kalam', 'Lexend Regular', 'LiberationSans', 'Noto Sans Symbols2 Regular']",
     "extent 124 is not a legal BookVault count; nearest are [119, 131]",
     "fill recorded only (this is a master, not a standardised edition): 43 page(s) end short of the foot, 9 stop two thirds down"
    ],
@@ -2906,18 +2906,13 @@
      "Andika Bold",
      "Andika Regular",
      "DejaVu Sans Bold",
-     "Gelasio Regular",
      "Helvetica",
      "Kalam",
      "Lexend Regular",
      "LiberationSans",
      "Noto Sans Symbols2 Regular",
      "Poppins ExtraBold",
-     "Poppins Medium",
-     "Poppins Regular",
-     "Poppins SemiBold",
-     "Source Sans 3 Bold",
-     "Source Sans 3 Regular"
+     "Poppins SemiBold"
     ],
     "contents_page": null,
     "unit_count": null,
@@ -4233,12 +4228,16 @@
     ],
     "font_families": [
      "Andika",
+     "Andika Italic",
+     "Andika Regular",
      "FrauncesDisplay",
      "FrauncesHead",
      "FrauncesSub",
      "FrauncesText",
      "PatrickHand",
-     "Poppins"
+     "Poppins",
+     "Poppins ExtraBold",
+     "Poppins SemiBold"
     ],
     "contents_page": null,
     "unit_count": null,
@@ -5341,6 +5340,39 @@
   },
   {
    "slug": "y08-portuguese-1st-anthropic",
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "reason": "not a Years 1-4 title"
+   }
+  },
+  {
+   "slug": "y07-portuguese-1st-anthropic",
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "reason": "not a Years 1-4 title"
+   }
+  },
+  {
+   "slug": "y08-global-perspectives",
+   "ok": null,
+   "scope": false,
+   "state": "out of scope",
+   "failures": [],
+   "warnings": [],
+   "facts": {
+    "reason": "not a Years 1-4 title"
+   }
+  },
+  {
+   "slug": "y09-global-perspectives",
    "ok": null,
    "scope": false,
    "state": "out of scope",
