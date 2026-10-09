@@ -127,21 +127,24 @@ SPINE_PER_PAGE_MM = 0.056  # guide p.18: 100 pages on 80 gsm bond = 5.6 mm
 PAGES_MODULO = 12          # guide p.5: "one less than a divisible of 12"
 
 # ---- Books whose BookVault TITLE declares 210 x 297 mm (A4), not the US
-# Letter trim this file is built around. Both Portuguese 1st-edition twins
-# (y07/y08) are A4 masters and their titles are A4: forcing them onto the
-# Letter trim cropped ~9 mm off top and bottom, shifted the artwork 10.8 mm
-# sideways and left transparency on 30 pages (caught on the teacher's upload).
-# So for these slugs the pack is placed 1:1 on their own trim -- no Letter
-# crop, no edge-strip fill -- and the interior is staged to 4n-1 pages (the
-# help-centre count rule above US Royal): one blank flyleaf before p.2, so odd
-# folios print on rectos as designed, and blank end leaves so their production
-# barcode lands on a blank last page. The site's Build button, the wrap sweep
-# and build_all all run THIS script, so the recipe lives here: every path
-# builds these books correctly, and every other book still takes the stock
-# Letter path, unchanged.
+# Letter trim this file is built around. The Portuguese 1st-edition twins
+# (y07/y08) and the Year 9 Global Perspectives book are A4 masters: forcing
+# them onto the Letter trim cropped ~9 mm off top and bottom and shifted the
+# artwork (caught on the teacher's upload); the y09 GP master is an exact
+# A4+bleed canvas (216 x 303), so the Letter pack centre-cropped 11 mm and
+# raised its front block ~11 mm off the shelf on the teacher's BookVault
+# preview. So for these slugs the pack is placed 1:1 on their own trim -- no
+# Letter crop, no edge-strip fill -- and the interior is staged to 4n-1 pages
+# (the help-centre count rule above US Royal): one blank flyleaf before p.2,
+# so odd folios print on rectos as designed, and blank end leaves so their
+# production barcode lands on a blank last page. The site's Build button, the
+# wrap sweep and build_all all run THIS script, so the recipe lives here:
+# every path builds these books correctly, and every other book still takes
+# the stock Letter path, unchanged.
 A4_TITLE_BOOKS: dict[str, dict] = {
     "y07-portuguese-1st-anthropic": {"trim_mm": (210.0, 297.0), "stage": True},
     "y08-portuguese-1st-anthropic": {"trim_mm": (210.0, 297.0), "stage": True},
+    "y09-global-perspectives": {"trim_mm": (210.0, 297.0), "stage": True},
 }
 
 TRIM_W = TRIM_W_MM * PT_PER_MM          # 612.28 pt (was 612: US Letter)
