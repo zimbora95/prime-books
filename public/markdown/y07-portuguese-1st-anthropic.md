@@ -13,9 +13,11 @@ Manual do Aluno
 <!-- page 2 -->
 
 ---
+**P R I M E  S C H O O L  P R E S S**
 
-**.º Ano · Manual do Aluno · Promessa & Veredicto**
+**7.º Ano · Manual do Aluno · Promessa & Veredicto**
 
+«Um anúncio promete. Um crítico julga. Tu decides.»
 
 Um ano para aprenderes a julgar o que lês, da publicidade ao teatro.
 
@@ -36,10 +38,11 @@ níveis
 Gravações em QR no Wikimedia Commons; dois
 testes com critérios e soluções
 
+**I M P R I N T**
+
 **EDITION**
-First edition, 2026. Promessa & Veredicto · Português . Full colour, A4 (210 × 297
-mm), 174 pages. European Portuguese, 1990 Orthogr
-hic Agreement. Prime
+First edition, 2026. Promessa & Veredicto · Português 7. Full colour, A4 (210 × 297
+mm), 174 pages. European Portuguese, 1990 Orthographic Agreement. Prime
 School pathway; not certified by the Ministry of Education. ISBN at first printing.
 
 **PUBLISHER**
@@ -67,31 +70,13 @@ by Prime School for use within its own programmes of study. It is not
 affiliated with, licensed by, endorsed by or approved by any
 examination board, or by any other publisher.
 
-**A g e s  1  – 1   ·  L o w e r  S e c o n d a r y**
-
-
-## Português
-
-**7**
-
-7
-
-**1**
-**2**
-
-**P R I M E**
-**S C H O O L**
-**P R E S S**
-
-«Um anúncio promete. Um crítico julga. Tu decides.»
+**A g e s  1 1 – 1 2  ·  L o w e r  S e c o n d a r y**
 
 **w w w . p r i m e s c h o o l . p t**
 
-**I M P R I N T**
-
 **2**
 
-ap
+## Português
 
 <!-- page 3 -->
 
@@ -101,8 +86,7 @@ M A N U A L D O A L U N O
 ## Promessa
 & Veredicto
 
-P O R T U G U Ê S · L Í N G U A M A T E R N A ·
-. º A N O
+P O R T U G U Ê S · L Í N G U A M A T E R N A · 7 . º A N O
 
 **Como usar este livro**
 
@@ -125,7 +109,7 @@ Os códigos QR abrem gravações de poemas no Wikimedia Commons, o arquivo públ
 
 **ESTA EDIÇÃO**
 
-**Edição completa, com as sete unidades do .º ano: 1 Publi-**
+**Edição completa, com as sete unidades do 7 .º ano: 1 Publi-**
 **cidade e crítica · 2 Texto narrativo · 3 Texto poético · 4**
 
 **Texto dramático · 5 Revisões anuais · 6 Avaliação (testes,**
@@ -189,10 +173,6 @@ blico); «Mar Português» recitado por NMaia (CC BY-SA
 
 © 2026 Prime School. Uso reservado aos alunos e professores da escola. Reprodução para fins letivos na própria turma autorizada.
 
-7
-
-7
-
 <!-- page 4 -->
 
 ---
@@ -201,8 +181,7 @@ M A N U A L D O A L U N O
 ## Este manual
 é teu.
 
-P O R T U G U Ê S · L Í N G U A M A T E R N A ·
-. º A N O
+P O R T U G U Ê S · L Í N G U A M A T E R N A · 7 . º A N O
 
 Nome
 
@@ -212,7 +191,7 @@ Ano letivo
 
 Professor(a) de Português
 
-## A minha promessa para o .º ano
+## A minha promessa para o 7.º ano
 
 Este livro começa com uma promessa e acaba com um veredicto. Antes de começares, es-
 
@@ -230,10 +209,6 @@ tar aqui e julgar se a cumpriste.
 
 Assinatura
 Data
-
-7
-
-## 7
 
 <!-- page 5 -->
 
@@ -1861,7 +1836,7 @@ LEITURA
 D O C U M E N T O 8 · C R Í T I C A D E L I V R O
 ## E se for um livro?
 
-Uma aluna do .º ano escreveu esta crítica para a revista da escola. É sobre um
+Uma aluna do 7.º ano escreveu esta crítica para a revista da escola. É sobre um
 livro que vais ler este ano.
 
 ## 1 Assinala na margem do texto: T (tese), A1 e A2 (argumentos), R (reserva) e C (conclusão).
@@ -1874,7 +1849,7 @@ tirados do texto.
 A L U P A · R E V I S T A D A E S C O L A · N . º 1 2
 ## Oitenta dias que passam a correr
 
-Beatriz Sá, .º B · sobre A Volta ao Mundo em 80 Dias, de Júlio Verne
+Beatriz Sá, 7 .º B · sobre A Volta ao Mundo em 80 Dias, de Júlio Verne
 
 Quando a professora nos disse que íamos ler
 um livro escrito em 1872, confesso que torci o
@@ -1912,10 +1887,6 @@ tar como acaba.
 
 SESSÃO 5 · CRÍTICA DE LIVRO
 25
-
-7
-
-7
 
 <!-- page 26 -->
 
@@ -2035,7 +2006,7 @@ Rita vigiava o mar todas as noites.
 
 a. A Associação Amigos da Costa lançou a campanha.
 
-b. Os alunos do .º B pintam o cartaz.
+b. Os alunos do 7.º B pintam o cartaz.
 
 c. O júri premiará a jovem atriz.
 
@@ -2068,8 +2039,6 @@ DESAFIO
 
 SESSÃO 6 · PRÁTICA
 27
-
-7
 
 <!-- page 28 -->
 
@@ -2455,7 +2424,7 @@ Opinião principal que o texto defende.
 
 **p. 27 · Atividade 1. P · A · P · A · P · A. Atividade 2. a) A campanha foi**
 lançada pela Associação Amigos da Costa. b) O cartaz é pintado pe-
-los alunos do .º B. c) A jovem atriz será premiada pelo júri. d) O farol
+los alunos do 7 .º B. c) A jovem atriz será premiada pelo júri. d) O farol
 **era aceso pelo avô ao anoitecer. Atividade 3. a) Rui Vaz compôs a**
 banda sonora. b) A bilheteira do cinema venderá os bilhetes.
 
@@ -2532,8 +2501,6 @@ que pedem CD.
 
 GLOSSÁRIO · SOLUÇÕES
 32
-
-7
 
 <!-- page 33 -->
 
@@ -11909,7 +11876,7 @@ O trabalho de que mais me orgulho
 
 O que ainda tenho de melhorar
 
-## 1 Escreve uma carta ao aluno que vai começar o º ano no próximo setembro (120 a 150 palavras): o que
+## 1 Escreve uma carta ao aluno que vai começar o 7.º ano no próximo setembro (120 a 150 palavras): o que
 vai encontrar, o que vai adorar, o que vai achar difícil, e um conselho de leitor para leitor.
 
 ## 2 Lê a tua carta à turma em 1 minuto. Ouve as dos colegas: que conselho repetiram mais?
@@ -11917,8 +11884,6 @@ ORALIDADE
 
 O LEITOR QUE ÉS AGORA
 137
-
-**7.**
 
 <!-- page 138 -->
 
@@ -12312,8 +12277,8 @@ PROGRAMA
 ---
 T E S T E 1 · G R U P O I
 
-T E S T E D E A V A L I A Ç Ã O
-## Português · .º ano
+T E S T E D E A V A L I A Ç Ã O 1
+## Português · 7.º ano
 
 1.º semestre · 90 minutos · sem consulta
 
@@ -12459,10 +12424,6 @@ zim até ao país de Moab.
 
 TESTE 1 · GRUPO I
 142
-
-## 7
-
-1
 
 <!-- page 143 -->
 
@@ -12694,8 +12655,8 @@ TESTE 1 · GRUPO IV
 ---
 T E S T E 2 · G R U P O I
 
-T E S T E D E A V A L I A Ç Ã O
-## Português · .º ano
+T E S T E D E A V A L I A Ç Ã O 2
+## Português · 7.º ano
 
 2.º semestre · 90 minutos · sem consulta
 
@@ -12795,10 +12756,6 @@ Vai fermosa e não segura.
 
 TESTE 2 · GRUPO I
 147
-
-## 7
-
-2
 
 <!-- page 148 -->
 
@@ -14172,15 +14129,13 @@ U N I D A D E 7
 ESCRITA
 D O C U M E N T O P A R A A S S I N A R
 
-P R I M E S C H O O L · P O R T U G U Ê S ·
-. º A N O
+P R I M E S C H O O L · P O R T U G U Ê S · 7 . º A N O
 ## Contrato de leitura
 
 A N O L E T I V O 2 0 _ _ _ / 2 0 _ _ _
 
 Entre
-, aluno(a) do
-.º ano, turma
+, aluno(a) do 7 .º ano, turma
 , adiante
 
 **designado(a) o Leitor, e**
@@ -14240,10 +14195,6 @@ E ACEITE
 CONTRATO DE LEITURA
 164
 
-7
-
-7
-
 <!-- page 165 -->
 
 ---
@@ -14270,7 +14221,7 @@ R O T A L I V R E
 
 Pede ao professor bibli-
 
-otecário a estante do º
+otecário a estante do 7.º
 
 ano e pergunta pelas
 
@@ -14400,8 +14351,6 @@ a minha descoberta
 
 CONTRATO DE LEITURA
 165
-
-7.
 
 <!-- page 166 -->
 
@@ -15286,7 +15235,7 @@ FONTES E CRÉDITOS
 ---
 **P R I M E  S C H O O L  P R E S S**
 
-.º Ano · Prime School Press · Manual do Aluno
+7.º Ano · Prime School Press · Manual do Aluno
 
 **«Um anúncio promete. Um crítico julga. Tu decides.»**
 
@@ -15322,13 +15271,8 @@ Contrato e diário de leitura
 
 ## Português
 
-1 –1 anos · 3.º Ciclo do Ensino Básico
+**primeschool.pt**
+
+11–12 anos · 3.º Ciclo do Ensino Básico
 
 **Prime School Press · Português**
-
-7
-
-1
-2
-
-**primeschool.pt**

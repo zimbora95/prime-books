@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Português · 7.º Ano — Manual do Aluno
 slug y07-portuguese-1st-anthropic
-generated 2026-10-09 03:14 UTC
+generated 2026-10-09 03:44 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs

@@ -1,9 +1,9 @@
 {
  "slug": "y07-portuguese-1st-anthropic",
- "built": "2026-10-09T03:14:51+00:00",
+ "built": "2026-10-09T03:44:01+00:00",
  "source_pages": 174,
- "source_mtime": 1791513808.2088764,
- "source_bytes": 23903672,
+ "source_mtime": 1791517128.5669713,
+ "source_bytes": 23802733,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y07-portuguese-1st-anthropic-text-file.pdf",
   "url": "/library/y07-portuguese-1st-anthropic/bookvault/y07-portuguese-1st-anthropic-text-file.pdf",
-  "bytes": 24986046,
+  "bytes": 24910938,
   "pages": 172,
   "content_pages": 172,
   "padded_pages": 0,
