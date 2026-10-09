@@ -34,11 +34,17 @@
     margin-top:3px}
 
   .controls{position:sticky; top:0; z-index:5; background:var(--cream);
-    border-bottom:1px solid var(--line); padding:12px 0; margin:18px 0 4px;
-    display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    border-bottom:1px solid var(--line); padding:12px 0; margin:18px 0 4px}
+  .filter-main,.filter-status{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+  .filter-status{padding-top:10px}
   .controls input[type=search]{flex:1; min-width:200px; font-family:Verdana,Arial,sans-serif;
     font-size:13px; padding:8px 11px; border:1px solid var(--sage); border-radius:7px;
     background:#fffdf7; color:var(--ink)}
+  .filter-label{font:10px Verdana,Arial,sans-serif; letter-spacing:.8px; text-transform:uppercase;
+    color:var(--grey); margin-left:4px}
+  .controls select{font:12px Verdana,Arial,sans-serif; padding:8px 26px 8px 9px;
+    border:1px solid var(--sage); border-radius:7px; background:#fffdf7; color:var(--ink);
+    max-width:190px}
   .chip{font-family:Verdana,Arial,sans-serif; font-size:11.5px; letter-spacing:.4px;
     padding:7px 13px; border:1px solid var(--sage); border-radius:14px; background:#fffdf7;
     color:var(--ink); cursor:pointer}
@@ -55,7 +61,9 @@
   .yearhead .meta{letter-spacing:.3px; text-transform:none; color:var(--grey); font-size:11.5px}
   .yearhead .bar{margin-left:auto; letter-spacing:.3px; text-transform:none; color:var(--grey);
     font-size:11.5px}
+  .table-wrap{width:100%; max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch}
   table{width:100%; border-collapse:collapse}
+  @media(max-width:720px){table{min-width:720px}}
   th{text-align:left; font-family:Verdana,Arial,sans-serif; font-size:10.5px;
     letter-spacing:1.1px; text-transform:uppercase; color:var(--grey); font-weight:normal;
     padding:9px 8px 5px; border-bottom:1px solid var(--sage)}
@@ -77,6 +85,10 @@
   a.openbook.muted{color:#b9b2a2; border-color:var(--line)}
   td.subject a{color:var(--ink); text-decoration:none; border-bottom:1px dotted var(--sage)}
   td.subject a:hover{color:var(--moss); border-bottom-color:var(--moss)}
+  .subject-meta{display:flex; align-items:center; gap:7px; flex-wrap:wrap; margin-top:2px}
+  .subject-meta code{font:10px Verdana,Arial,sans-serif; color:var(--grey)}
+  .edition-badge{font:9px Verdana,Arial,sans-serif; letter-spacing:.3px; color:#405d2b;
+    background:#edf3e7; border:1px solid #c8d7bd; border-radius:9px; padding:1px 6px}
   .kind{font-family:Verdana,Arial,sans-serif; font-size:11.5px}
   .kind.yes{color:var(--moss)}
   .kind.no{color:#b9b2a2}
@@ -138,14 +150,23 @@
     <div class="hint" id="t-clean-hint">checking…</div></div>
 </div>
 
-<div class="controls">
-  <input type="search" id="q" placeholder="Filter by subject, slug or year…" autocomplete="off">
-  <button class="chip on" data-f="all">All</button>
-  <button class="chip" data-f="input">Has input</button>
-  <button class="chip" data-f="missing">Missing input</button>
-  <button class="chip" data-f="std">Standardised</button>
-  <button class="chip" data-f="clean">Machine clean</button>
-  <span class="count" id="shown"></span>
+<div class="controls" aria-label="Filter titles">
+  <div class="filter-main">
+    <input type="search" id="q" aria-label="Search titles" placeholder="Search subject, slug or edition…" autocomplete="off">
+    <label class="filter-label" for="year-filter">Year</label>
+    <select id="year-filter" aria-label="Filter by year"><option value="all">All years</option></select>
+    <label class="filter-label" for="subject-filter">Subject</label>
+    <select id="subject-filter" aria-label="Filter by subject"><option value="all">All subjects</option></select>
+  </div>
+  <div class="filter-status" aria-label="Filter by status">
+    <button class="chip on" data-f="all" aria-pressed="true">All</button>
+    <button class="chip" data-f="input" aria-pressed="false">Has input</button>
+    <button class="chip" data-f="missing" aria-pressed="false">Missing input</button>
+    <button class="chip" data-f="std" aria-pressed="false">Standardised</button>
+    <button class="chip" data-f="clean" aria-pressed="false">Machine clean</button>
+    <button class="chip" id="clear-filters" type="button">Clear filters</button>
+    <span class="count" id="shown" aria-live="polite"></span>
+  </div>
 </div>
 
 <div id="years"><div class="empty">Loading the point of situation…</div></div>
@@ -168,9 +189,11 @@
   empty, so every title reads as not yet standardised rather than being inferred from
   the presence of an input file. The two columns are deliberately separate: the bot cannot see
   whether teacher content was preserved, whether an image is licensed, whether a QR code scans off
-  paper or whether a proof copy was held, so clean never means certified. Save from the workshop page — the deployed site is
-  read-only. A title with no input is not necessarily unbuilt: many books were made
-  from a source that never reached this repository.
+  paper or whether a proof copy was held, so clean never means certified. Edition tags identify
+  input-backed entries and named AI builds (for example, Anthropic or OpenAI); the slug beneath each
+  subject is the unique catalogue ID. Save from the workshop page — the deployed site is read-only.
+  A title with no input is not necessarily unbuilt: many books were made from a source that never
+  reached this repository.
 </div>
 
 <p class="updated">Generated <span id="gen">–</span> · <a href="/">Catalogue</a> ·
@@ -216,7 +239,7 @@
       });
   }
 
-  var DATA = null, filter = "all", query = "";
+  var DATA = null, filter = "all", query = "", selectedYear = "all", selectedSubject = "all";
 
   function inputCell(inp, slug) {
     if (!inp) return '<span class="kind no">—</span>';
@@ -255,15 +278,30 @@
                 : '<span class="ck no" title="' + esc(t) + '">' + c.failures +
                   " fail" + (c.failures === 1 ? "" : "s") + "</span>";
   }
+  function editionLabel(r) {
+    if (/-anthropic$/.test(r.slug)) return "Anthropic build";
+    if (/-openai$/.test(r.slug)) return "OpenAI build";
+    if (/-standard$/.test(r.slug)) return "Standard edition";
+    if (r.input) return "Input-backed";
+    return "";
+  }
+  function matches(r, y) {
+    if (selectedYear !== "all" && String(y.year) !== selectedYear) return false;
+    if (selectedSubject !== "all" && r.subject !== selectedSubject) return false;
+    var hay = (r.subject + " " + r.slug + " " + editionLabel(r)).toLowerCase();
+    if (query && hay.indexOf(query) === -1) return false;
+    if (filter === "input" && !r.input) return false;
+    if (filter === "missing" && r.input) return false;
+    if (filter === "std" && !r.standardized) return false;
+    if (filter === "clean" && !(r.checked && r.checked.ok)) return false;
+    return true;
+  }
   function rowHtml(r) {
-    var hay = (r.subject + " " + r.slug).toLowerCase();
-    if (query && hay.indexOf(query) === -1) return "";
-    if (filter === "input" && !r.input) return "";
-    if (filter === "missing" && r.input) return "";
-    if (filter === "std" && !r.standardized) return "";
-    if (filter === "clean" && !(r.checked && r.checked.ok)) return "";
+    var label = editionLabel(r);
+    var identity = '<div class="subject-meta"><code>' + esc(r.slug) + '</code>' +
+      (label ? '<span class="edition-badge">' + esc(label) + '</span>' : '') + '</div>';
     return '<tr data-miss="' + (r.input ? "0" : "1") + '">' +
-      '<td class="subject"><a href="/book/' + esc(r.slug) + '" title="open the Prime Book">' + esc(r.subject) + "</a></td>" +
+      '<td class="subject"><a href="/book/' + esc(r.slug) + '" title="open the Prime Book">' + esc(r.subject) + "</a>" + identity + "</td>" +
       '<td class="pages">' + (r.pages || "–") + "</td>" +
       '<td class="input">' + inputCell(r.input, r.slug) + "</td>" +
       '<td class="flag">' + stdCell(r.standardized, r.slug) + "</td>" +
@@ -275,19 +313,23 @@
     if (!DATA) return;
     var total = 0, html = "";
     DATA.years.forEach(function (y) {
-      var rows = y.books.map(rowHtml).filter(function (s) { return s; });
-      if (!rows.length) return;
-      total += rows.length;
+      var books = y.books.filter(function (r) { return matches(r, y); });
+      if (!books.length) return;
+      var nInput = books.filter(function (r) { return r.input; }).length;
+      var nStd = books.filter(function (r) { return r.standardized; }).length;
+      var nClean = books.filter(function (r) { return r.checked && r.checked.ok; }).length;
+      var pages = books.reduce(function (n, r) { return n + (r.pages || 0); }, 0);
+      total += books.length;
       html += '<section class="yearblock">' +
         '<h2 class="yearhead">Year ' + (y.year < 10 ? "0" + y.year : y.year) +
-        '<span class="meta">' + y.books.length + " titles · " + y.pages + " pages</span>" +
-        '<span class="bar">input ' + y.withInput + "/" + y.books.length +
-        " · standardised " + y.standardized + "/" + y.books.length +
-        " · machine clean " + (y.clean || 0) + "/" + y.books.length + "</span></h2>" +
-        '<table><thead><tr><th>Subject</th><th class="pages">Pages</th>' +
+        '<span class="meta">' + books.length + " shown · " + pages + " pages</span>" +
+        '<span class="bar">input ' + nInput + "/" + books.length +
+        " · standardised " + nStd + "/" + books.length +
+        " · machine clean " + nClean + "/" + books.length + "</span></h2>" +
+        '<div class="table-wrap"><table><thead><tr><th>Subject / edition</th><th class="pages">Pages</th>' +
         '<th class="input">Input</th><th class="flag">Standardised</th>' +
         '<th class="checks">Checks</th><th class="book">Book</th></tr></thead>' +
-        "<tbody>" + rows.join("") + "</tbody></table></section>";
+        "<tbody>" + books.map(rowHtml).join("") + "</tbody></table></div></section>";
     });
     document.getElementById("years").innerHTML =
       html || '<div class="empty">Nothing matches that filter.</div>';
@@ -382,22 +424,62 @@
     });
   });
 
+  function setActiveFilter() {
+    Array.prototype.forEach.call(document.querySelectorAll(".chip[data-f]"), function (c) {
+      var active = c.dataset.f === filter;
+      c.classList.toggle("on", active);
+      c.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+  }
   document.getElementById("q").addEventListener("input", function (e) {
     query = e.target.value.trim().toLowerCase();
     render();
   });
-  Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (c) {
+  document.getElementById("year-filter").addEventListener("change", function (e) {
+    selectedYear = e.target.value;
+    render();
+  });
+  document.getElementById("subject-filter").addEventListener("change", function (e) {
+    selectedSubject = e.target.value;
+    render();
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".chip[data-f]"), function (c) {
     c.addEventListener("click", function () {
       filter = c.dataset.f;
-      Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (o) {
-        o.classList.toggle("on", o === c);
-      });
+      setActiveFilter();
       render();
     });
+  });
+  document.getElementById("clear-filters").addEventListener("click", function () {
+    query = "";
+    selectedYear = "all";
+    selectedSubject = "all";
+    filter = "all";
+    document.getElementById("q").value = "";
+    document.getElementById("year-filter").value = "all";
+    document.getElementById("subject-filter").value = "all";
+    setActiveFilter();
+    render();
   });
 
   fetchBases("/status.json", 0, function (j) {
     DATA = j;
+    var years = document.getElementById("year-filter");
+    var subjects = {};
+    DATA.years.forEach(function (y) {
+      var option = document.createElement("option");
+      option.value = String(y.year);
+      option.textContent = "Year " + (y.year < 10 ? "0" + y.year : y.year);
+      years.appendChild(option);
+      y.books.forEach(function (r) { subjects[r.subject] = true; });
+    });
+    Object.keys(subjects).sort(function (a, b) { return a.localeCompare(b); })
+      .forEach(function (subject) {
+        var option = document.createElement("option");
+        option.value = subject;
+        option.textContent = subject;
+        document.getElementById("subject-filter").appendChild(option);
+      });
     retally();          /* sets the per-year machine-clean roll-up before the header is written */
     render();
   }, function () {

@@ -26,8 +26,8 @@ REPO = Path("/root/prime-books")
 INPUTS = REPO / "public" / "inputs"
 RAW = REPO / "public" / "inputs-raw"
 
-UNIT_ONLY = re.compile(r"^unit\s*(\d+)\s*(.*)$", re.I)          # "Unit 1 Moving Well" / "Unit 1: Sports"
-UNIT_SUB = re.compile(r"^unit\s*(\d+)\.(\d+)\s*[.:·-]?\s*(.*)$", re.I)  # "Unit 1.1: Self, Family…"
+UNIT_ONLY = re.compile(r"^(unit|unidade)\s*(\d+)\s*(.*)$", re.I)          # English/Portuguese unit labels
+UNIT_SUB = re.compile(r"^(unit|unidade)\s*(\d+)\.(\d+)\s*[.:·-]?\s*(.*)$", re.I)  # dotted subunits
 SUB_ONLY = re.compile(r"^(\d+)\.(\d+)\s*[.:·-]?\s*(.*)$")        # "1.1 Practise…"
 NUM_UNIT = re.compile(r"^(\d+)\s*[.:·]\s*(\S.*)$")               # "2. Cross Country"
 
@@ -39,8 +39,10 @@ def classify(name):
         return None
     m = UNIT_SUB.match(n)
     if m:
-        a, b, rest = int(m.group(1)), int(m.group(2)), m.group(3).strip()
-        return ("subunit", (a, b), f"{a}.{b} {rest}".strip())
+        prefix, major, minor, rest = m.groups()
+        a, b, rest = int(major), int(minor), rest.strip()
+        title = f"Unidade {a}.{b} - {rest}".strip() if prefix.lower() == "unidade" else f"{a}.{b} {rest}".strip()
+        return ("subunit", (a, b), title)
     m = SUB_ONLY.match(n)
     if m:
         a, b, rest = int(m.group(1)), int(m.group(2)), m.group(3).strip()
@@ -48,7 +50,10 @@ def classify(name):
             return ("subunit", (a, b), f"{a}.{b} {rest}".strip())
     m = UNIT_ONLY.match(n)
     if m:
-        a, rest = int(m.group(1)), m.group(2).lstrip(" .:·-–")
+        prefix, number, rest = m.groups()
+        a, rest = int(number), rest.lstrip(" .:·-–")
+        if prefix.lower() == "unidade":
+            return ("unit", a, f"Unidade {a} - {rest}".strip() if rest else f"Unidade {a}")
         return ("unit", a, f"Unit {a} · {rest}".strip() if rest else f"Unit {a}")
     m = NUM_UNIT.match(n)
     if m:
@@ -155,7 +160,13 @@ def main():
             continue
         nums = [classify(r[1])[1] for r in rows if r[0] == "Unit" and classify(r[1])]
         ordered = nums == sorted(nums)
-        shutil.copy2(path, RAW / path.name)
+        archive = RAW / path.name
+        if archive.exists() and archive.read_bytes() != path.read_bytes():
+            archive = RAW / f"{path.stem} - before-standardise.xlsx"
+        if archive.exists() and archive.read_bytes() != path.read_bytes():
+            raise FileExistsError(f"Refusing to overwrite different raw input: {archive}")
+        if not archive.exists():
+            shutil.copy2(path, archive)
         wb = openpyxl.Workbook()
         ws = wb.active
         ws.title = "Contents"

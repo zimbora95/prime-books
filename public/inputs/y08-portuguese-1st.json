@@ -1,0 +1,116 @@
+{
+ "file": "y08-portuguese-1st - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 0 - Avaliação Diagnóstica",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 - Publicidade e Crítica",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 - Texto Narrativo - Autores e Narrativas de Formação",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.1 - Texto Narrativo - Alexandre Herculano - O Castelo de Faria",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.2 - Texto Narrativo - Manuel da Fonseca - Mestre Finezas",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.3 - Texto Narrativo - Trindade Coelho - A Parábola dos Sete Vimes",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.4 - Texto Narrativo - Literaturas de Língua Portuguesa",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.5 - Texto Narrativo - Ondjaki - Os da Minha Rua",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.6 - Texto Narrativo - Lima Barreto - O Homem que Sabia Javanês",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.7 - Texto Narrativo - Imaginação e Viagem",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.8 - Texto Narrativo - Júlio Verne - A Volta ao Mundo em 80 Dias",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.9 - Texto Narrativo - Oscar Wilde - O Fantasma de Canterville",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 3 - Texto Poético - Redondilha e Esquema Rimático",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 3.1 - Texto Poético - António Gedeão - Pedra Filosofal",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 3.2 - Texto Poético - Alexandre O'neill",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 - Texto Dramático",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.1 - Texto Dramático - Alice Vieira - Leandro, Rei da Helíria",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.2 - Texto Dramático - Do Castelo de Faria à Cena",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 5 - Revisões Anuais",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 - Avaliação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 - Atividades Extra",
+   "Page": ""
+  }
+ ]
+}

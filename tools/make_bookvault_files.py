@@ -69,6 +69,10 @@ Usage
     .venv/bin/python tools/make_bookvault_files.py <slug> [slug ...]
     .venv/bin/python tools/make_bookvault_files.py --all
     .venv/bin/python tools/make_bookvault_files.py <slug> --force --no-pdfx
+
+Books in A4_TITLE_BOOKS (the A4-titled Portuguese 1st-edition twins) build at
+their own 210 x 297 mm trim with the staged 4n-1 interior on every path -- no
+flags needed, whichever caller (Build button, sweep, build_all) invokes them.
 """
 from __future__ import annotations
 
@@ -111,9 +115,34 @@ BINDING_SAFETY_MM = 17.0   # template: "17 mm on the binding edge" (guide text s
 GUTTER_SAFETY_MM = 20.0    # guide p.3, interior files: "safety margin of 20mm on the gutter"
 MARGIN_HEADROOM_MM = 1.0   # aim a millimetre past each rule, so trimming drift is absorbed
 BARCODE_MM = (38.0, 25.0)  # template's barcode placement box
-BARCODE_FROM_TRIM_MM = (6.4, 3.3)   # ...and its inset from the back cover trim
+BARCODE_FROM_TRIM_MM = (6.4, 6.4)   # ...and its inset from the back cover trim
+# Measured off docs/bookvault/v4_PerfectBound_Cover_279_216_5.pdf (2026-10-07):
+# its black "Barcode Placement" box is x 174.50..212.60, y 250.25..275.65 on a
+# 443 x 285 mm wrap whose trim runs x 3.17..440.27, y 3.17..282.22 (0.125 in
+# bleed) - a quarter inch (6.4 mm) in from the right trim AND up from the
+# bottom trim. The vertical figure here used to read 3.3, which put the panel
+# ~3 mm too low: the printer's barcode then sat high inside it with a strip of
+# empty cream below, and the teacher caught it on BookVault's 3D proof.
 SPINE_PER_PAGE_MM = 0.056  # guide p.18: 100 pages on 80 gsm bond = 5.6 mm
 PAGES_MODULO = 12          # guide p.5: "one less than a divisible of 12"
+
+# ---- Books whose BookVault TITLE declares 210 x 297 mm (A4), not the US
+# Letter trim this file is built around. Both Portuguese 1st-edition twins
+# (y07/y08) are A4 masters and their titles are A4: forcing them onto the
+# Letter trim cropped ~9 mm off top and bottom, shifted the artwork 10.8 mm
+# sideways and left transparency on 30 pages (caught on the teacher's upload).
+# So for these slugs the pack is placed 1:1 on their own trim -- no Letter
+# crop, no edge-strip fill -- and the interior is staged to 4n-1 pages (the
+# help-centre count rule above US Royal): one blank flyleaf before p.2, so odd
+# folios print on rectos as designed, and blank end leaves so their production
+# barcode lands on a blank last page. The site's Build button, the wrap sweep
+# and build_all all run THIS script, so the recipe lives here: every path
+# builds these books correctly, and every other book still takes the stock
+# Letter path, unchanged.
+A4_TITLE_BOOKS: dict[str, dict] = {
+    "y07-portuguese-1st-anthropic": {"trim_mm": (210.0, 297.0), "stage": True},
+    "y08-portuguese-1st-anthropic": {"trim_mm": (210.0, 297.0), "stage": True},
+}
 
 TRIM_W = TRIM_W_MM * PT_PER_MM          # 612.28 pt (was 612: US Letter)
 TRIM_H = TRIM_H_MM * PT_PER_MM          # 790.87 pt (was 792)
@@ -165,6 +194,18 @@ def slug_meta(slug: str) -> dict:
         if r.get("slug") == slug:
             return r
     raise SystemExit(f"slug not in library.json: {slug}")
+
+
+def bv_label(meta: dict, slug: str = "") -> str:
+    """The title line a pack carries: the sheet header and the PDF metadata.
+
+    A book whose own language is not English may carry its own line from its
+    library.json row ("bookvault_title") - the imprint, in the same words the
+    cover and the spine use. Every other book keeps the subject-and-year
+    wording, byte for byte.
+    """
+    return (meta.get("bookvault_title")
+            or f"{meta.get('subject', slug)} - Year {meta.get('year', '')}")
 
 
 def read_settings() -> dict:
@@ -1531,7 +1572,7 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
 
     meta = slug_meta(slug)
     work.set_metadata({
-        "title": f"{meta.get('subject', slug)} - Year {meta.get('year', '')} (interior)",
+        "title": bv_label(meta, slug) + " (interior)",
         "author": "Prime School Press",
         "producer": "Prime Books - BookVault text file",
         "creator": "Prime Books",
@@ -1543,7 +1584,8 @@ def build_text_file(slug: str, force: bool, do_pdfx: bool, pad_12n: bool = False
 
     ok, note = (False, "left as RGB (--no-pdfx)")
     if do_pdfx:
-        ok, note = to_pdfx(tmp, final, f"{meta.get('subject', slug)} Year {meta.get('year', '')}")
+        ok, note = to_pdfx(tmp, final, meta.get("bookvault_title")
+                           or f"{meta.get('subject', slug)} Year {meta.get('year', '')}")
         tmp.unlink(missing_ok=True)
     else:
         shutil.move(str(tmp), str(final))
@@ -1832,7 +1874,7 @@ def barcode_area_ink(canvas: Image.Image) -> tuple[float, list[int]]:
     """How busy is BookVault's barcode area on the back cover?
 
     Their cover template reserves a 38 x 25 mm box 6.4 mm in from the right trim
-    edge and 3.3 mm up from the bottom of the back cover, and their guide notes
+    edge and 6.4 mm up from the bottom of the back cover, and their guide notes
     the barcode is required when printing outside the UK. Anything printed there
     will sit under it, so the share of non-background pixels is measured and
     reported rather than assumed.
@@ -2260,11 +2302,15 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
                        (pt_to_mm(_master_size(slug)[0]) < TRIM_W_MM - 1.0 or
                         pt_to_mm(_master_size(slug)[1]) < TRIM_H_MM - 1.0))
 
-    add("Text file page size is 222 x 285 mm",
+    add(f"Text file page size is {TRIM_W_MM + 2 * BLEED_MM:g} x "
+        f"{TRIM_H_MM + 2 * BLEED_MM:g} mm",
         abs(media_w - (TRIM_W_MM + 2 * BLEED_MM)) < 0.5 and
         abs(media_h - (TRIM_H_MM + 2 * BLEED_MM)) < 0.5,
         f"{media_w:.2f} x {media_h:.2f} mm = {TRIM_W_MM:g} x {TRIM_H_MM:g} mm trim "
-        f"plus {BLEED_MM:g} mm bleed (their text template is 222 x 285)")
+        f"plus {BLEED_MM:g} mm bleed"
+        + (" (their published text template for this trim is 222 x 285)"
+           if (TRIM_W_MM, TRIM_H_MM) == (216.0, 279.0)
+           else " (trim + bleed on every edge, their p.5/p.18 formula)"))
     add("Bleed is 3 mm on all four edges", True,
         f"guide p.5 requires 3 mm; media extends {BLEED_MM:g} mm past the trim "
         f"on every side")
@@ -2433,7 +2479,7 @@ def validate(slug: str, text: dict, cover: dict) -> list[dict]:
     ink = cover.get("barcode_ink", 0.0)
     add("Barcode area clear on the back cover", ink < 0.02,
         f"the {BARCODE_MM[0]:g} x {BARCODE_MM[1]:g} mm box their template reserves "
-        f"(6.4 mm in from the right trim, 3.3 mm up) is "
+        f"(6.4 mm in from the right trim, 6.4 mm up) is "
         + ("empty" if ink < 0.02 else f"{ink * 100:.1f}% covered by artwork")
         + "; a barcode is required printing outside the UK", level="warn")
     add("Spine width taken from their sizing calculator",
@@ -2454,7 +2500,7 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     thin = "-" * 74
     L = []
     L.append(f"PRIME BOOKS -- BOOKVAULT UPLOAD SHEET")
-    L.append(f"{meta.get('subject','')} - Year {meta.get('year','')}")
+    L.append(bv_label(meta, slug))
     L.append(f"slug {slug}")
     L.append(f"generated {datetime.now(timezone.utc):%Y-%m-%d %H:%M} UTC")
     L.append("")
@@ -2468,13 +2514,24 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     # ("216 x 279 (US Letter)", verified against quote.bookvault.app): telling the
     # teacher to pick CUSTOM invites a mistyped size on their form, and a size
     # that does not match the file is one of the things their validator rejects.
-    L.append(f"  Trim size .......... 216 x 279 (US Letter) -- the standard option in their")
-    L.append(f"                       SIZE list. Their own template for this book is")
-    L.append(f"                       v4_Text_279_216.pdf: {TRIM_W_MM + 2 * BLEED_MM:g} x "
-             f"{TRIM_H_MM + 2 * BLEED_MM:g} mm")
-    L.append(f"                       with {BLEED_MM:g} mm bleed, i.e. {TRIM_W_MM:g} x {TRIM_H_MM:g} mm "
-             f"finished. Pick the standard size;")
-    L.append(f"                       use CUSTOM only if that option is missing from your list.")
+    if (TRIM_W_MM, TRIM_H_MM) == (216.0, 279.0):
+        L.append("  Trim size .......... 216 x 279 (US Letter) -- the standard option in their")
+        L.append("                       SIZE list. Their own template for this book is")
+        L.append(f"                       v4_Text_279_216.pdf: {TRIM_W_MM + 2 * BLEED_MM:g} x "
+                 f"{TRIM_H_MM + 2 * BLEED_MM:g} mm")
+        L.append(f"                       with {BLEED_MM:g} mm bleed, i.e. {TRIM_W_MM:g} x {TRIM_H_MM:g} mm "
+                 f"finished. Pick the standard size;")
+        L.append("                       use CUSTOM only if that option is missing from your list.")
+    else:
+        # A non-Letter trim (the A4 editions): BookVault list A4 among their own
+        # book sizes, and the size entered on the title and the media of this
+        # pack must agree or their validator rejects the file on its SIZE row.
+        L.append(f"  Trim size .......... {TRIM_W_MM:g} x {TRIM_H_MM:g} (A4) -- one of BookVault's own")
+        L.append("                       book sizes. The size entered on the title must read")
+        L.append(f"                       this. Media is {TRIM_W_MM + 2 * BLEED_MM:g} x "
+                 f"{TRIM_H_MM + 2 * BLEED_MM:g} mm = {TRIM_W_MM:g} x")
+        L.append(f"                       {TRIM_H_MM:g} mm finished with {BLEED_MM:g} mm bleed "
+                 f"(their p.5/p.18 formula).")
     L.append(f"  Page count ......... {text['pages']} (interior only, covers excluded)")
     if text["padded_pages"]:
         L.append(f"                       = {text['content_pages']} pages of book + "
@@ -2543,7 +2600,7 @@ def write_spec_sheet(slug: str, text: dict, cover: dict, checks: list[dict],
     L.append(f"      trim + bleed = {TRIM_W_MM + 2 * BLEED_MM:g} x {TRIM_H_MM + 2 * BLEED_MM:g} mm (p.5,p.18)")
     # The guide's p.5 rule (one less than a multiple of 12) is written for Royal
     # size or smaller; their current help centre gives one less than a multiple
-    # of 4 for anything larger, which is what this 216 x 279 mm trim is. Either
+    # of 4 for anything larger, which is what this trim is. Either
     # way their production barcode page is added at the rear, so state the count
     # that was actually supplied rather than a rule it does not satisfy.
     L.append(f"      page count supplied: {text['pages']} "
@@ -2665,6 +2722,132 @@ def build(slug: str, force: bool = False, do_pdfx: bool = True,
     return rec
 
 
+def _a4_trim_apply(spec: dict) -> tuple:
+    """Point the trim-derived globals at one A4-title book, for one build."""
+    global TRIM_W_MM, TRIM_H_MM, TRIM_W, TRIM_H, TEXT_W, TEXT_H, PAGES_MODULO
+    keep = (TRIM_W_MM, TRIM_H_MM, TRIM_W, TRIM_H, TEXT_W, TEXT_H, PAGES_MODULO)
+    w, h = spec["trim_mm"]
+    TRIM_W_MM, TRIM_H_MM = float(w), float(h)
+    TRIM_W, TRIM_H = TRIM_W_MM * PT_PER_MM, TRIM_H_MM * PT_PER_MM
+    TEXT_W, TEXT_H = TRIM_W + 2 * BLEED_PT, TRIM_H + 2 * BLEED_PT
+    PAGES_MODULO = 4       # 4n-1 above US Royal (their help centre), not 12n-1
+    return keep
+
+
+def _a4_trim_restore(keep: tuple) -> None:
+    global TRIM_W_MM, TRIM_H_MM, TRIM_W, TRIM_H, TEXT_W, TEXT_H, PAGES_MODULO
+    (TRIM_W_MM, TRIM_H_MM, TRIM_W, TRIM_H, TEXT_W, TEXT_H, PAGES_MODULO) = keep
+
+
+def _a4_stage(slug: str, tmp: pathlib.Path) -> tuple[int, int]:
+    """Stage a copy of the library dir for one A4 build: the master byte for
+    byte (copy2 keeps its mtime, so the build's freshness check still compares
+    against the real master), plus a blank flyleaf before p.2 and blank end
+    leaves up to 4n-1 interior pages, inserted BEFORE the back cover so the
+    cover pass still finds it, and saved INCREMENTALLY so every original
+    object -- fonts, streams, xrefs -- stays byte-identical (a full rewrite
+    trips the outline pass and 5x's the file for nothing). Returns the book
+    page count and the blank end leaves added, for the sheet's count block."""
+    src_dir = LIBRARY / slug
+    dst_dir = tmp / slug
+    dst_dir.mkdir(parents=True, exist_ok=True)
+    for f in src_dir.iterdir():
+        if f.name == "bookvault":
+            continue
+        if f.is_dir():
+            shutil.copytree(f, dst_dir / f.name, dirs_exist_ok=True)
+        else:
+            shutil.copy2(f, dst_dir / f.name)
+    d = pymupdf.open(dst_dir / "book.pdf")
+    r = d[0].rect
+    interior = d.page_count - 2                     # book pages (covers aside)
+    pad = (3 - (interior + 1)) % PAGES_MODULO       # 172 -> 2 end leaves -> 175
+    d.insert_page(1, width=r.width, height=r.height)                    # flyleaf
+    for _ in range(pad):
+        d.insert_page(d.page_count - 1, width=r.width, height=r.height)  # rear
+    d.save(str(dst_dir / "book.pdf"), incremental=True,
+           encryption=pymupdf.PDF_ENCRYPT_KEEP)
+    print(f"{slug}: staged {d.page_count} pages ({interior} book + 1 flyleaf "
+          f"+ {pad} blank end leaves)", flush=True)
+    d.close()
+    return interior, pad
+
+
+def _a4_sheet_note(slug: str, book: int, pad: int) -> None:
+    """Rewrite the sheet's count block from the build's own numbers.
+
+    The staged flyleaf and end leaves are real pages of the supplied interior,
+    so the stock note would call them content and deny the blanks; the truth is
+    spelled out instead and the 4n-1 rule named, exactly as the y05 print
+    pack's sheet did. Numbers come from the staging step, not the record: the
+    record's source_pages describes the staged file, which is not the truth the
+    teacher needs on the sheet."""
+    od = out_dir(slug)
+    path = od / f"{slug}-bookvault.txt"
+    if not path.is_file() or book < 1 or pad < 1:
+        return
+    total = book + 1 + pad
+    lines = path.read_text().splitlines()
+    out, i, done = [], 0, False
+    while i < len(lines):
+        l = lines[i]
+        if not done and l.startswith("  Page count") and str(total) in l:
+            out.append(l)
+            j = i + 1
+            while j < len(lines) and lines[j].startswith("                       "):
+                j += 1
+            out += [
+                f"                       = {book} pages of book + 1 flyleaf before p.2",
+                "                       (so odd folios print on rectos exactly as",
+                f"                       designed) + {pad} blank "
+                f"{'page' if pad == 1 else 'pages'} at the rear so their",
+                "                       production barcode lands on a blank last",
+                f"                       page. {total} = one less than a multiple of",
+                "                       4, their help centre\u2019s count rule above",
+                "                       US Royal size.",
+            ]
+            done = True
+            i = j
+            continue
+        out.append(l)
+        i += 1
+    if done:
+        path.write_text("\n".join(out) + "\n", encoding="utf-8")
+        print(f"{slug}: sheet count block rewritten "
+              f"({book} + 1 + {pad} = {total})", flush=True)
+
+
+def _a4_build(slug: str, spec: dict, a) -> dict:
+    """One A4-title book: the trim patched for this run, and full builds run
+    from a staged copy so the interior lands on 4n-1 pages. Cover-only builds
+    read the real master -- the cover is cut from its own front and back pages,
+    which staging never touches -- and keep the interior block already
+    recorded. Either way, every path that runs this script builds the book
+    correctly: the site's Build button, the wrap sweep, build_all, a human."""
+    global LIBRARY
+    real, keep, tmp = LIBRARY, _a4_trim_apply(spec), None
+    book = pad = 0
+    try:
+        if not a.cover_only and spec.get("stage", True):
+            tmp = pathlib.Path(tempfile.mkdtemp(prefix=f"pb-a4-{slug}-"))
+            book, pad = _a4_stage(slug, tmp)
+            LIBRARY = tmp
+        r = build(slug, force=a.force, do_pdfx=not a.no_pdfx,
+                  spine_per_page_mm=a.spine_per_page_mm, spine_mm=a.spine_mm,
+                  pad_12n=a.pad_12n, cover_only=a.cover_only)
+        if tmp is not None:
+            shutil.copytree(tmp / slug / "bookvault", real / slug / "bookvault",
+                            dirs_exist_ok=True)
+        if book:
+            _a4_sheet_note(slug, book, pad)
+        return r
+    finally:
+        LIBRARY = real
+        _a4_trim_restore(keep)
+        if tmp is not None:
+            shutil.rmtree(tmp, ignore_errors=True)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -2689,10 +2872,25 @@ def main() -> None:
     slugs = a.slugs
     if a.all or not slugs:
         slugs = [r["slug"] for r in rows() if (LIBRARY / r["slug"] / "book.pdf").is_file()]
+    skipped = []
     for slug in slugs:
-        r = build(slug, force=a.force, do_pdfx=not a.no_pdfx,
-                  spine_per_page_mm=a.spine_per_page_mm, spine_mm=a.spine_mm,
-                  pad_12n=a.pad_12n, cover_only=a.cover_only)
+        try:
+            a4 = A4_TITLE_BOOKS.get(slug)
+            if a4:
+                # Declared A4 on BookVault: build at its own trim, from the
+                # staged 4n-1 interior, whichever flag set got us here.
+                r = _a4_build(slug, a4, a)
+            else:
+                r = build(slug, force=a.force, do_pdfx=not a.no_pdfx,
+                          spine_per_page_mm=a.spine_per_page_mm, spine_mm=a.spine_mm,
+                          pad_12n=a.pad_12n, cover_only=a.cover_only)
+        except SystemExit as e:
+            # A per-book refusal (a stub master with no printable interior, a
+            # missing file) must not end the batch: report it and go on to the
+            # next slug, and say so in the exit code at the end.
+            skipped.append(slug)
+            print(str(e) or f"{slug}: skipped")
+            continue
         fails = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "fail"]
         opens = [c["name"] for c in r["checks"] if not c["pass"] and c["level"] == "warn"]
         print(f"{slug}: text {r['text']['pages']}pp "
@@ -2702,6 +2900,9 @@ def main() -> None:
               f"spine {r['cover']['spine_mm']:g}mm, "
               f"{'OK' if not fails else 'FAIL: ' + '; '.join(fails)}"
               + (f" | open: {'; '.join(opens)}" if opens else ""))
+    if skipped:
+        print(f"skipped {len(skipped)}: {', '.join(skipped)}")
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

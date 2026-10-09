@@ -9,97 +9,107 @@
  "rows": [
   {
    "Section type": "Unit",
-   "Title": "Unit 1 · Reading: Comprehension of texts",
-   "Page": ""
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Texts: Narrative, Descriptive, Discursive, Argumentative, Letter, Summary, Report, Email, Speech - 1st Term",
-   "Page": ""
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Texts: Narrative, Descriptive, Discursive, Argumentative, Letter, Summary, Report, Email, Speech - 2nd Term",
-   "Page": ""
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Texts: Narrative, Descriptive, Discursive, Argumentative, Letter, Summary, Report, Email, Speech - 3rd Term",
+   "Title": "Unidade 0 - Avaliação Diagnóstica",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 2 · Writing",
-   "Page": ""
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Production different styles: Narrative, Descriptive, Argumentative, Discursive, Letter, Summary, Report, Email, Speech - 2nd Term",
-   "Page": ""
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Production different styles: Narrative, Descriptive, Argumentative, Discursive, Letter, Summary, Report, Email, Speech -1st Term",
-   "Page": ""
-  },
-  {
-   "Section type": "Subunit",
-   "Title": "Production different styles: Narrative, Descriptive, Argumentative, Discursive, Letter, Summary, Report, Email, Speech - 3rd Term",
+   "Title": "Unidade 1 - Paper 1, Question 1: Identifique e Explique",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 3 · Speaking & Listening",
+   "Title": "Unidade 2 - Analise, Compare e Avalie",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Group discussion and debate - 1st Term",
+   "Title": "Unidade 2.1 - Paper 1, Question 2: Analise",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Group discussion and debate - 2nd Term",
+   "Title": "Unidade 2.2 - Comente e Avalie",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Group discussion and debate - 3rd Term",
+   "Title": "Unidade 2.3 - Compare",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Practice oral expression and listening comprehension - 1st Term",
+   "Title": "Unidade 2.4 - Literaturas de Língua Portuguesa dos Séculos XX e XXI",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Practice oral expression and listening comprehension - 2nd Term",
+   "Title": "Unidade 2.5 - Texto Narrativo - Djaimilia Pereira de Almeida - Luanda, Lisboa, Paraíso",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Practice oral expression and listening comprehension - 3rd Term",
+   "Title": "Unidade 2.6 - Texto Narrativo - Conceição Evaristo - Olhos D'água",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.7 - Não Ficção Ligada para a Question 3",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.8 - Paper 1, Question 3: Discuta",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.9 - Paper 1, Question 3: Sugira",
    "Page": ""
   },
   {
    "Section type": "Unit",
-   "Title": "Unit 4 · Grammar",
+   "Title": "Unidade 3 - Paper 2, Secção a: Discuta e Dê a Sua Opinião",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Vocabulary and grammar exercises - 1st Term",
+   "Title": "Unidade 3.1 - Escrita Discursiva - Um Ano de Serviço Cívico",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Vocabulary and grammar exercises - 2nd Term",
+   "Title": "Unidade 3.2 - Escrita Argumentativa - Deve um Museu Devolver Peças",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 - Paper 2, Secção B: Descreva e Narre",
    "Page": ""
   },
   {
    "Section type": "Subunit",
-   "Title": "Vocabulary and grammar exercises - 3rd Term",
+   "Title": "Unidade 4.1 - Escrita Descritiva - Um Mercado Antes de Abrir",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.2 - Escrita Narrativa - O Último Turno de uma Padaria",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 5 - Revisões Anuais",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 - Avaliação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 - Atividades Extra",
    "Page": ""
   }
  ]

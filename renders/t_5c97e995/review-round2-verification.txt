@@ -1,0 +1,86 @@
+REVIEW ROUND 2 - INDEPENDENT VERIFICATION (execution lens)
+card t_5c97e995 - y01-physical-education-standard - 2026-09-15
+
+Everything below was run by the reviewer against the artefact on disk; none of
+it is the implementer's own script output unless stated.
+
+1. GATE (acceptance 1) - run by reviewer
+   $ cd /root/prime-books && .venv/bin/python tools/standards_check.py y01-physical-education-standard
+     y01-physical-education-standard   124 pp   0 fail   1 warn   CLEAN   (exit 0)
+   JSON: ok true, failures [], warnings ["extent 124 is not a legal BookVault
+   count; nearest are [119, 131]"]
+   facts: 612x792; contents_page 3; unit_count 6; contents_segments 6;
+   unit_openers [14,31,46,60,77,94]; pages_without_band 0;
+   pages_without_folio 0; text_outside_box_pages []; modal_text_size_pt 16.0;
+   ladder {1:16.0, 2:16.0, 3:15.0, 4:14.5}
+
+2. THE ROUND-1 CROP DEFECT - re-measured by the reviewer, own slide-align code
+   (extract_image + resize to a common width + exhaustive offset search):
+     master p43 -> new p52 : master picture aspect 2.05, new 1.50 (= source) ->
+                             new holds MORE of the source, not less
+     master p55 -> new p66 : master 2.16, new 1.50 -> new holds more
+     master p16 -> new p18 : master 1.78, new 1.50 -> new holds more
+     master p28 -> new p32 : master 2.26, new 1.50 -> new holds more
+   Direction test across the whole book (reviewer's own code): of the 51 large
+   pictures in the new edition, 46 are embedded at the source art's own aspect
+   (>=1.45) - i.e. the whole generated plate, nothing re-cut. The 5 that are
+   narrower are: p1 cover 1.17 and p124 back cover 0.78 (the master embeds the
+   identical files), and openers p14 1.43 / p31 1.36 (the master's own openers
+   p12 1.43 / p27 1.36 embed the same aspects). No page is cut tighter than the
+   master's own treatment of the same art. DEFECT FIXED.
+
+3. THE IMPLEMENTER'S ART CHECK - re-run by the reviewer
+   $ .venv/bin/python tools/y01pe_std_art_check.py
+     49 bands checked, 0 pictures not whole, 0 crop signatures vs master,
+     narrowest picture 82% of its band.
+
+4. CONTENT PRESERVATION - reviewer's own word-set difference over both PDFs
+   master distinct words 1046 | new 1060 | master words missing from new: 0.
+
+5. STRUCTURE AND FURNITURE - reviewer's own page sweep
+   124 pages, every one 612x792, count even.
+   interior pages under 15 characters of text: 0 (no blank leaves).
+   pages without a folio: none.
+   band: pages 2 and 4 carry none - the imprint and the welcome, exactly as the
+   master's own front matter does; every content page carries the 0-47pt band
+   and its rule (gate: pages_without_band 0).
+
+6. FONTS - reviewer's own get_fonts sweep over all 124 pages
+   families Andika / Fredoka / Gelasio / Caveat / Poppins, all Type0 (ttf)
+   embedded; zero base-14 names; zero Type3.
+
+7. UNIT COLOUR SYSTEM - reviewer's own fill sampling against
+   public/standards/years-1-4.json rungs
+   opener p14 #4A3173 violet | p31 #96204A rose | p46 #8C3A12 terracotta |
+   p60 #0B3C85 blue | p77 #2F5233 sage | p94 #6B4A0C ochre
+   -> exact rung "deep" hexes. Content-page band + rule take each unit's rung
+   "mid" tone (#6B4BA1, #D6336C, #C4561F, #1256B8, #4E7C52, #9A6A12).
+
+8. EVIDENCE INTEGRITY - the attached before/after renders were correlated
+   against the current book.pdf: the after half tracks the current build, so the
+   attachments are not a stale render.
+
+9. RELEASE-LEVEL CHECKS
+   $ .venv/bin/python tools/md_sync.py --check -> ALL SYNCED 79/79
+   cover.webp md5 c7aea31276cf9e2400545b6edf54c3ff == a fresh render of page 1
+   public/library.json carries the new row (family "standardised", edition
+   "Standard A-2.3-Y1-4", pages 124); the master's row is unchanged.
+   master public/library/y01-physical-education/book.pdf md5 == its HEAD blob
+   (ec2ed6c743c1b06a93ec63369309b0b4) - untouched by this card.
+
+10. TRAILING WHITE - reviewer's own measure, against the master as baseline
+    new edition: 37 of 122 interior pages carry >300pt of trailing white.
+    master     : 25 of 96 interior pages carry >300pt of trailing white.
+    Same design character (short instruction + large working space), not a
+    regression introduced by the rebuild.
+
+11. VISUAL PASS - reviewer rendered the current pages and inspected them
+    CONTENTS: colour bar + six tinted unit cards whose page numbers match the
+    real openers (14/31/46/60/77/94). UNIT OPENER: full-bleed deep tone, arched
+    picture, topic pills, folio badge. CONTENT PAGE: running head + rule, whole
+    illustration on white, PLAY TOGETHER / KIT panels, folio badge. BACK COVER:
+    imprint, INSIDE THIS BOOK card, footer. No overlap, no missing text.
+
+NOT VERIFIABLE BY A REVIEWER
+  Acceptance 3 - the teacher's approval of the pilot. A machine cannot grant it,
+  and the card says nothing else runs until it is given.

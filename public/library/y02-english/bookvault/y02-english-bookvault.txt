@@ -1,0 +1,129 @@
+PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
+English - Year 2
+slug y02-english
+generated 2026-09-17 16:38 UTC
+
+--------------------------------------------------------------------------
+STEP 1  Add the title on bookvault.app, then enter these specs
+--------------------------------------------------------------------------
+  Binding ............ Perfect bound (paperback)
+  Paper stock ........ Colour interior, 80 gsm uncoated
+  Cover lamination ... Matte
+  Trim size .......... 216 x 279 (US Letter) -- the standard option in their
+                       SIZE list. Their own template for this book is
+                       v4_Text_279_216.pdf: 222 x 285 mm
+                       with 3 mm bleed, i.e. 216 x 279 mm finished. Pick the standard size;
+                       use CUSTOM only if that option is missing from your list.
+  Page count ......... 208 (interior only, covers excluded)
+                       = 208 pages of book. No blank pages at the rear, by request:
+                       their guide suggests 215 (one less than a multiple of 12) so their
+                       production barcode lands on a blank last page. Here the last page carries content.
+  Colour pages ....... 208
+  Mono pages ......... 0
+  ISBN ............... (none yet - BookVault can issue a dummy)
+  Print type ......... Standard
+  Content position ... content moved 4.1 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 16.9), 12.9 mm from the outer trim (was 16.9) and 13.1 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 164, 13.9 mm off the gutter)
+  Page size ......... master 209.9 x 269.9 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 77/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer 3.06 mm (sides) and 4.54 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
+
+--------------------------------------------------------------------------
+STEP 2  Upload the two files
+--------------------------------------------------------------------------
+  TEXT FILE   y02-english-text-file.pdf
+              208 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              kept RGB: 109 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 14 pages (the flattening pass could not clear it)
+  COVER FILE  y02-english-cover-file.pdf
+              5315 x 3366 px at 300 DPI = 450 x 284.99 mm
+              = back 216 + spine 12 + front 216 + 3 mm bleed (guide p.18)
+              spine 12 mm from 208 interior pages (padded count)
+              back cover art: pdf-back
+
+--------------------------------------------------------------------------
+STEP 3  Checks
+--------------------------------------------------------------------------
+  [PASS] Text file page size is 222 x 285 mm
+         222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)
+  [PASS] Bleed is 3 mm on all four edges
+         guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
+  [PASS] Bleed continues the page edge
+         no point across the cut lines puts a whitish colour against a coloured one (7488 points checked), so no white nick can print
+  [OPEN] Bleed approximates the artwork at the cut
+         9 of 7488 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
+  [PASS] Page artwork survives assembly
+         sampled interior pages carry the master's artwork
+  [PASS] Bleed seam matches the artwork
+         the smear meets the page with no visible step in the bleed
+  [PASS] Live text clears their 20 mm gutter
+         closest live text is 21.0 mm off the gutter (page 164); guide p.3 asks for 20 mm
+  [PASS] Live text clears their 5 mm trim safety
+         closest live text is 7.8 mm from the bottom edge (page 43); their template draws a 5 mm safety line
+  [PASS] Single pages, portrait
+         208 single pages, portrait, all 222.0 mm wide
+  [OPEN] Page count is 12n-1
+         208 pages (208 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+  [OPEN] Last page is clear for their barcode
+         the final page carries content -- their barcode will be printed over it
+  [PASS] Cover pages stripped from the interior
+         the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
+  [PASS] All fonts embedded
+         every font is embedded (guide p.3)
+  [OPEN] No Type 3 glyph-program fonts
+         109 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves
+  [OPEN] Transparency flattened
+         14 pages still carry it (page 7: transparency group); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)
+  [OPEN] Images at 300 DPI or better
+         112 below 300 DPI, e.g. page 5: 150 DPI; page 11: 150 DPI; page 12: 150 DPI
+  [PASS] Master page box fitted to their trim
+         master 209.9 x 269.9 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 77/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer 3.06 mm (sides) and 4.54 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
+  [OPEN] Artwork covers the printed area
+         416 pages carry a soft continuation of the page edge up to 4.5 mm inside the trim: this master is smaller than the trim and cannot be enlarged without losing its gutter margin (see the page-size line above) -- re-export it at 216 x 279 mm to print artwork to the cut
+  [PASS] Binding-edge clearance
+         closest text is 23.1 mm from the left edge on page 35; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+  [PASS] No trim or bleed marks
+         none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
+  [OPEN] Text file is PDF/X-1a:2001 with CMYK
+         kept RGB: 109 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 14 pages (the flattening pass could not clear it)
+  [PASS] Cover file is a perfect-bound spread
+         450 x 284.99 mm = back 216 + spine 12 + front 216 + 3 mm bleed, by their p.18 formula
+  [PASS] Barcode area clear on the back cover
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+  [OPEN] Spine width taken from their sizing calculator
+         built at 12 mm from 208 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
+
+--------------------------------------------------------------------------
+NOTES
+--------------------------------------------------------------------------
+  * In a Prime Books PDF, page 1 is the front cover and the last page
+    is the back cover. Both are reprinted inside the cover file, so
+    they are removed from the text file: y02-english.pdf has 210 pages,
+    this text file has 208.
+  * Rules followed here are from BookVault's 'Your Guide to Supplying
+    Print-Ready PDF Files', kept in docs/bookvault/ together with the
+    two templates they published for this book:
+      bleed 3 mm on every edge (p.5); text file media box is
+      trim + bleed = 222 x 285 mm (p.5,p.18)
+      page count supplied: 208 (208 of book); their production barcode
+      page is added at the rear whatever count is supplied (guide p.5;
+      over Royal/US Royal size their help centre asks for 4n-1)
+      first page prints on the first right-hand page (p.5), so page 1 is a
+      recto. Prime Books pages are not mirrored, so no layout moves; the
+      binding-edge check below measures the real clearance instead
+      covers inset: content kept 5 mm clear of the cover trim (p.19)
+  * Bleed is extended from each page's own edge artwork, so the running-
+    header band and any full-bleed art carry to the trim line with no gap.
+  * Spine: guide p.18 takes it from the sizing calculator and rounds UP to
+    a whole mm. This build uses 0.056 mm per page (their 80gsm bond example:
+    100 pages = 5.6 mm). Run the calculator for the paper you choose, then
+    rebuild with --spine-mm <mm> and the OPEN check below clears.
+  * Colour: guide p.6 prefers CMYK with a FOGRA profile, and accepts RGB.
+    This file is converted to CMYK through Ghostscript's default CMYK
+    profile, not a FOGRA one - ask BookVault for their output profile and
+    rebuild with --profile <icc> if the press is calibrated.
+  * This book carries 109 Type 3 fonts (headings drawn as
+    glyph programs rather than an embedded font). Ghostscript 10.02.1
+    segfaults converting those to CMYK, so the interior is RGB - which
+    BookVault accept and convert themselves (guide p.6). The real fix
+    is in the source book: those headings should use an embedded font.
+  * 14 pages still carry transparency that
+    Ghostscript's flattening pass could not clear; run a preflight
+    flatten before the print run, or fix the same source.
+

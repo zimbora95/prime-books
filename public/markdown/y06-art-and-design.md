@@ -8,7 +8,6 @@
 
 ## Year 6
 
-Cambridge Primary
 Student Manual
 
 <!-- page 2 -->
@@ -3396,11 +3395,11 @@ ART & DESIGN  YEAR 6
 <!-- page 98 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Art & Design
 
-Year 6 · Cambridge Primary · Student Manual
+Year 6 · Prime School Press · Student Manual
 
 Welcome to the Loft Studio.
 
@@ -3425,7 +3424,7 @@ A portfolio that is yours alone
 •
 An exhibition of your own to finish
 
-**Prime Books · Art & Design**
+**Prime School Press · Art & Design**
 
 Ages 10–11 · Upper Primary
 

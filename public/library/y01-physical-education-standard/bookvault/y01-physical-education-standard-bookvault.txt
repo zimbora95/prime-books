@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Physical Education - Year 1
 slug y01-physical-education-standard
-generated 2026-09-17 00:45 UTC
+generated 2026-09-18 16:48 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs

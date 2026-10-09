@@ -6,5 +6,21 @@
   "paper": "Colour interior, 80 gsm uncoated",
   "printType": "",
   "spineMm": ""
+ },
+ "y03-global-perspectives": {
+  "binding": "Perfect bound (paperback)",
+  "isbn": "",
+  "lamination": "Matte",
+  "paper": "White 80gsm Bond",
+  "printType": "Standard",
+  "spineMm": 9
+ },
+ "y07-humanities": {
+  "binding": "Perfect bound (paperback)",
+  "isbn": "",
+  "lamination": "Matte",
+  "paper": "Colour interior, 80 gsm uncoated",
+  "printType": "",
+  "spineMm": ""
  }
 }

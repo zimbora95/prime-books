@@ -1,0 +1,26 @@
+{
+  "slug": "y08-humanities",
+  "year": 8,
+  "title": "Humanities",
+  "sub": "Year 8 · Student Book",
+  "hook": "Learn to read the world.",
+  "lead": "Civilisations, empires and the medieval world. Twenty chapters in five parts run from map skills and landforms through Greece, Alexander, Rome and medieval Europe to stronger monarchies and national identity. Portugal appears inside the global story, never as a chapter of its own. About 250 pages.",
+  "bullets": [
+    "Part one: maps, landforms, population and trade",
+    "Part two: Ancient Greece — Athens, Sparta, war and ideas",
+    "Part three: Alexander and the Hellenistic world",
+    "Part four: Rome, from the Republic to the Empire",
+    "Part five: the medieval world and stronger monarchies"
+  ],
+  "rows": [
+    ["EDITION", "First edition, 2026. Printed in full colour on white stock."],
+    ["PUBLISHER", "Prime School Press is the publishing imprint of Prime School, Portugal."],
+    ["RIGHTS", "© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means without the prior written permission of the publisher."],
+    ["CREDITS", "Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content Creation Team. Written and typeset in the Prime School Press studio, Lisbon."],
+    ["CURRICULUM", "Cambridge Lower Secondary, Stage 8. Ages about 12 to 13."],
+    ["LICENCE", "It is an independent publication and is not an official Cambridge Assessment International Education or Oxford University Press publication."]
+  ],
+  "ages": "Ages 12 to 13",
+  "band": "Lower Secondary",
+  "folio": 2
+}

@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Portuguese - Year 5
 slug y05-portuguese-anthropic
-generated 2026-09-30 16:10 UTC
+generated 2026-09-30 16:40 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -14,27 +14,27 @@ STEP 1  Add the title on bookvault.app, then enter these specs
                        v4_Text_279_216.pdf: 222 x 285 mm
                        with 3 mm bleed, i.e. 216 x 279 mm finished. Pick the standard size;
                        use CUSTOM only if that option is missing from your list.
-  Page count ......... 175 (interior only, covers excluded)
-                       = 175 pages of book. No blank pages at the rear, by request:
+  Page count ......... 174 (interior only, covers excluded)
+                       = 174 pages of book. No blank pages at the rear, by request:
                        their guide suggests 179 (one less than a multiple of 12) so their
                        production barcode lands on a blank last page. Here the last page carries content.
-  Colour pages ....... 175
+  Colour pages ....... 174
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
-  Content position ... no live text on the interior pages (a picture book); nothing to move
-  Page size ......... master page box 216.0 x 279.0 mm matches the trim within a printer's tolerance; no rescaling
+  Content position ... content moved 12.6 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 8.4), 6.2 mm from the outer trim (was 18.8) and -0.5 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 82, 5.4 mm off the gutter)
+  Page size ......... master 209.9 x 297.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 101/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer 3.05 mm (sides) and -9.02 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
 --------------------------------------------------------------------------
   TEXT FILE   y05-portuguese-anthropic-text-file.pdf
-              175 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
-              conversion damaged the file (page 127: ink 3.71% -> 2.71% (rasterised?)) -- kept RGB
+              174 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
+              conversion damaged the file (page 22: ink 15.65% -> 78.07% (rasterised?)) -- kept RGB; transparency left on 168 pages (the flattening pass could not clear it)
   COVER FILE  y05-portuguese-anthropic-cover-file.pdf
               5291 x 3366 px at 300 DPI = 447.97 x 284.99 mm
               = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)
-              spine 10 mm from 175 interior pages (padded count)
+              spine 10 mm from 174 interior pages (padded count)
               back cover art: pdf-back
 
 --------------------------------------------------------------------------
@@ -45,63 +45,63 @@ STEP 3  Checks
   [PASS] Bleed is 3 mm on all four edges
          guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
   [PASS] Bleed continues the page edge
-         no point across the cut lines puts a whitish colour against a coloured one (6300 points checked), so no white nick can print
+         no point across the cut lines puts a whitish colour against a coloured one (6264 points checked), so no white nick can print
   [OPEN] Bleed approximates the artwork at the cut
-         64 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
+         44 of 6264 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
   [PASS] Bleed seam matches the artwork
          the smear meets the page with no visible step in the bleed
   [PASS] Live text clears their 20 mm gutter
-         closest live text is 999.0 mm off the gutter (page 0); guide p.3 asks for 20 mm
-  [PASS] Live text clears their 5 mm trim safety
-         closest live text is 999.0 mm from the  edge (page 0); their template draws a 5 mm safety line
+         closest live text is 21.0 mm off the gutter (page 82); guide p.3 asks for 20 mm
+  [FAIL] Live text clears their 5 mm trim safety
+         closest live text is -0.5 mm from the top edge (page 18); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
-         175 single pages, portrait, all 222.0 mm wide
+         174 single pages, portrait, all 222.0 mm wide
   [OPEN] Page count is 12n-1
-         175 pages (175 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
-  [PASS] Last page is clear for their barcode
-         the final page is blank, so the barcode they add lands on nothing
+         174 pages (174 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+  [OPEN] Last page is clear for their barcode
+         the final page carries content -- their barcode will be printed over it
   [PASS] Cover pages stripped from the interior
          the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
   [PASS] All fonts embedded
          every font is embedded (guide p.3)
   [PASS] No Type 3 glyph-program fonts
          none: every font is a real embedded font file (guide p.3)
-  [PASS] Transparency flattened
-         no soft masks, transparency groups or blend modes left (guide p.3)
+  [OPEN] Transparency flattened
+         168 pages still carry it (page 1: transparency group); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)
   [OPEN] Images at 300 DPI or better
-         175 below 300 DPI, e.g. page 1: 300 DPI; page 2: 300 DPI; page 3: 300 DPI
+         92 below 300 DPI, e.g. page 8: 124 DPI; page 9: 285 DPI; page 20: 220 DPI
   [PASS] Master page box fitted to their trim
-         master page box 216.0 x 279.0 mm matches the trim within a printer's tolerance; no rescaling
+         master 209.9 x 297.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 101/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer 3.05 mm (sides) and -9.02 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it
   [PASS] Artwork covers the printed area
-         the artwork reaches -0.0 mm past the 216 x 279 mm trim on every visible edge
+         the artwork reaches 9.0 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 15.6 mm inside the trim -- within the binding zone and the page's own edge colour
   [PASS] Binding-edge clearance
-         closest text is 999.0 mm from the  edge on page 0; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         closest text is 21.0 mm from the right edge on page 146; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
          none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
   [OPEN] Text file is PDF/X-1a:2001 with CMYK
-         conversion damaged the file (page 127: ink 3.71% -> 2.71% (rasterised?)) -- kept RGB
+         conversion damaged the file (page 22: ink 15.65% -> 78.07% (rasterised?)) -- kept RGB; transparency left on 168 pages (the flattening pass could not clear it)
   [PASS] Cover file is a perfect-bound spread
          447.97 x 284.99 mm = back 216 + spine 10 + front 216 + 3 mm bleed, by their p.18 formula
   [PASS] Barcode area clear on the back cover
          the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
-         built at 10 mm from 175 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
+         built at 10 mm from 174 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 
 --------------------------------------------------------------------------
 NOTES
 --------------------------------------------------------------------------
   * In a Prime Books PDF, page 1 is the front cover and the last page
     is the back cover. Both are reprinted inside the cover file, so
-    they are removed from the text file: y05-portuguese-anthropic.pdf has 177 pages,
-    this text file has 175.
+    they are removed from the text file: y05-portuguese-anthropic.pdf has 176 pages,
+    this text file has 174.
   * Rules followed here are from BookVault's 'Your Guide to Supplying
     Print-Ready PDF Files', kept in docs/bookvault/ together with the
     two templates they published for this book:
       bleed 3 mm on every edge (p.5); text file media box is
       trim + bleed = 222 x 285 mm (p.5,p.18)
-      page count supplied: 175 (175 of book); their production barcode
+      page count supplied: 174 (174 of book); their production barcode
       page is added at the rear whatever count is supplied (guide p.5;
       over Royal/US Royal size their help centre asks for 4n-1)
       first page prints on the first right-hand page (p.5), so page 1 is a

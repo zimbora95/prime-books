@@ -1,0 +1,50 @@
+NEW BUILD - Physical Education, Year 01  (PILOT for every other book)
+
+This card is NOT an in-place restyle. Build a COMPLETELY NEW standardised edition
+of this book, page by page, on the house standard. The teacher's verdict of
+15 Sep 2026 governs it: clearing the checker while the page still looks like the
+old book is a defect, not a pass. The result must look unmistakably like a Prime
+Books standard edition.
+
+CONTENT SOURCE (the teacher's content is not yours to change)
+  public/library/y01-physical-education/book.pdf - 98 pages, machine clean.
+  Every word, exercise, illustration and page must survive into the new edition.
+  Never delete, move between pages, or reword the teacher's content. If something
+  cannot be carried over, or the content is not there, kanban_block with ONE
+  precise question naming the page and the exact text.
+
+DELIVERABLE (a new slug; the master is left exactly as it is)
+  * public/library/y01-physical-education-standard/book.pdf   the new edition
+  * public/library/y01-physical-education-standard/cover.webp
+  * public/markdown/y01-physical-education-standard.md        companion
+  * a row for the new slug in public/library.json so the edition appears in the
+    catalogue beside the master. Do not touch the master's own library.json row.
+
+THE STANDARD - A-2.3-Y1-4 (public/standards/years-1-4.json, /standard/years-1-4)
+Required, and required to be VISIBLE:
+  * US Letter 612x792 trim, even page count, no blank pages - an empty leaf
+    becomes a MY NOTES workspace page
+  * the running-header band on every content page
+  * a full-bleed unit opener for every unit, in that unit's palette tone
+  * a folio badge on every interior page
+  * a contents page carrying one colour-bar segment and one tinted card per unit
+  * Year 1 reading ladder: body text on the 16 pt rung. The gate measures the
+    modal reading size - 9.8 pt is what a previous pass left behind.
+  * the imprint page; embedded fonts only (no base-14, no Type3)
+  * QR codes, scans and photographs exactly as the teacher has them
+
+ACCEPTANCE - all three. The card is not done without them.
+  1. cd /root/prime-books && .venv/bin/python tools/standards_check.py y01-physical-education-standard
+     exits 0 with "ok": true. Paste that output into your summary.
+  2. Before/after renders attached to this card:
+     hermes kanban attach <this task id> before.png after.png
+     At least six pairs: the cover, the contents page, one unit opener, one dense
+     content page, one table or diagram page, the back cover. A summary without
+     attached renders is not accepted and the publisher will not ship the book.
+  3. The teacher's approval of the pilot. NOTHING ELSE RUNS until this card's
+     verdict: the other 50 titles wait on it. Do not touch another slug.
+
+METHOD
+  Take the master's content (text extraction plus its images), rebuild each page
+  on the standard's grid, then proof every rebuilt page against the original
+  before attaching the renders. Do not edit the master in place.

@@ -1,6 +1,6 @@
 {
  "slug": "y01-physical-education",
- "built": "2026-09-14T14:18:10+00:00",
+ "built": "2026-09-17T16:25:09+00:00",
  "source_pages": 98,
  "source_mtime": 1789364144.5683124,
  "source_bytes": 11115152,
@@ -17,7 +17,7 @@
  "text": {
   "file": "y01-physical-education-text-file.pdf",
   "url": "/library/y01-physical-education/bookvault/y01-physical-education-text-file.pdf",
-  "bytes": 9306015,
+  "bytes": 9313819,
   "pages": 96,
   "content_pages": 96,
   "padded_pages": 0,
@@ -28,6 +28,8 @@
    216.0,
    279.0
   ],
+  "page_fit_scale": 1.0,
+  "page_fit_note": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
   "content_shift_mm": [
    7.03,
    1.68
@@ -44,6 +46,8 @@
   "bleed_mm": 3.0,
   "cover_stripped": true,
   "type3": 0,
+  "fonts_embedded": true,
+  "fonts_note": "",
   "pdfx": true,
   "flattened": false,
   "transparent_pages": 0,
@@ -76,6 +80,9 @@
   ],
   "interior_pages": 96,
   "spine_text": true,
+  "spine_text_pt": 8.2,
+  "spine_text_floor_mm": 5.0,
+  "spine_text_clearance_mm": 1.0,
   "barcode_mm": [
    38.0,
    25.0
@@ -87,7 +94,12 @@
    2511,
    3291
   ],
-  "spine_confirmed": false
+  "spine_confirmed": false,
+  "spine_colour": [
+   241,
+   179,
+   0
+  ]
  },
  "checks": [
   {
@@ -105,7 +117,7 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "96 of 96 points across the cut lines are flat",
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (3456 points checked), so no white nick can print",
    "level": "ok"
   },
   {
@@ -179,6 +191,18 @@
    "pass": false,
    "detail": "58 below 300 DPI, e.g. page 4: 138 DPI; page 5: 138 DPI; page 7: 138 DPI",
    "level": "warn"
+  },
+  {
+   "name": "Master page box fitted to their trim",
+   "pass": true,
+   "detail": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
+   "level": "ok"
+  },
+  {
+   "name": "Artwork covers the printed area",
+   "pass": true,
+   "detail": "the artwork reaches 1.9 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 7.1 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "level": "ok"
   },
   {
    "name": "Binding-edge clearance",

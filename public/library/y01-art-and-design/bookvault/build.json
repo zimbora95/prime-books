@@ -1,9 +1,9 @@
 {
  "slug": "y01-art-and-design",
- "built": "2026-09-14T14:19:41+00:00",
+ "built": "2026-09-17T16:06:50+00:00",
  "source_pages": 88,
- "source_mtime": 1789235016.6810155,
- "source_bytes": 10941554,
+ "source_mtime": 1789568677.017924,
+ "source_bytes": 11127663,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -16,7 +16,7 @@
  "text": {
   "file": "y01-art-and-design-text-file.pdf",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-text-file.pdf",
-  "bytes": 5243100,
+  "bytes": 5220133,
   "pages": 86,
   "content_pages": 86,
   "padded_pages": 0,
@@ -27,6 +27,8 @@
    216.0,
    279.0
   ],
+  "page_fit_scale": 1.0,
+  "page_fit_note": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
   "content_shift_mm": [
    7.05,
    0.56
@@ -43,6 +45,10 @@
   "bleed_mm": 3.0,
   "cover_stripped": true,
   "type3": 0,
+  "text_outlined": false,
+  "invisible_text_spans": 0,
+  "fonts_outlined": [],
+  "outline_note": "",
   "pdfx": true,
   "flattened": false,
   "transparent_pages": 0,
@@ -52,7 +58,7 @@
   "file": "y01-art-and-design-cover-file.pdf",
   "url": "/library/y01-art-and-design/bookvault/y01-art-and-design-cover-file.pdf",
   "preview": "/library/y01-art-and-design/bookvault/y01-art-and-design-cover-file.png",
-  "bytes": 1070379,
+  "bytes": 1077046,
   "px": [
    5232,
    3366
@@ -74,7 +80,10 @@
    279.0
   ],
   "interior_pages": 86,
-  "spine_text": false,
+  "spine_text": true,
+  "spine_text_pt": 8.2,
+  "spine_text_floor_mm": 5.0,
+  "spine_text_clearance_mm": 1.0,
   "barcode_mm": [
    38.0,
    25.0
@@ -86,7 +95,12 @@
    2511,
    3291
   ],
-  "spine_confirmed": false
+  "spine_confirmed": false,
+  "spine_colour": [
+   241,
+   179,
+   0
+  ]
  },
  "checks": [
   {
@@ -104,8 +118,14 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "112 of 112 points across the cut lines are flat",
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (3096 points checked), so no white nick can print",
    "level": "ok"
+  },
+  {
+   "name": "Bleed approximates the artwork at the cut",
+   "pass": false,
+   "detail": "18 of 3096 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "level": "warn"
   },
   {
    "name": "Page artwork survives assembly",
@@ -178,6 +198,18 @@
    "pass": false,
    "detail": "107 below 300 DPI, e.g. page 2: 150 DPI; page 3: 150 DPI; page 4: 274 DPI",
    "level": "warn"
+  },
+  {
+   "name": "Master page box fitted to their trim",
+   "pass": true,
+   "detail": "master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling",
+   "level": "ok"
+  },
+  {
+   "name": "Artwork covers the printed area",
+   "pass": true,
+   "detail": "the artwork reaches 0.8 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 7.1 mm inside the trim -- within the binding zone and the page's own edge colour",
+   "level": "ok"
   },
   {
    "name": "Binding-edge clearance",

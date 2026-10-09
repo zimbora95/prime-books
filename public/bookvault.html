@@ -632,10 +632,16 @@
             });
             el("bvLoading").style.display = "none";
             el("bvBody").style.display = "";
+            /* A book whose own language is not English carries its own name
+               ("bookvault_title" in library.json: the same line its sheet, its
+               spine and its imprint use). Every other book keeps subject, band
+               and year, wording unchanged. */
             el("bvSub").innerHTML =
-              "Preparing <b>" + esc(row.subject) + "</b>" +
-              (row.band ? " &middot; " + esc(row.band) : "") +
-              (row.year ? " &middot; Year " + row.year : "") +
+              (row.bookvault_title
+                ? "Preparing <b>" + esc(row.bookvault_title) + "</b>"
+                : "Preparing <b>" + esc(row.subject) + "</b>" +
+                  (row.band ? " &middot; " + esc(row.band) : "") +
+                  (row.year ? " &middot; Year " + row.year : "")) +
               " for BookVault &mdash; specifications are global and permanent.";
 
             loadSettings(function () {

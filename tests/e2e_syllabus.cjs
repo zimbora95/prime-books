@@ -157,6 +157,7 @@ function ok(name, cond, extra) {
       units: Array.from(c.querySelectorAll(".unit .u")).map((e) => e.textContent.trim()),
       terms: Array.from(c.querySelectorAll(".term")).map((e) => e.textContent.trim()),
       furn: Array.from(c.querySelectorAll(".furn")).map((e) => e.textContent.trim()),
+      subs: Array.from(c.querySelectorAll("ul.subs li")).map((e) => e.textContent.trim()),
       meta: c.querySelector(".meta").textContent,
       text: c.textContent,
     };
@@ -184,9 +185,12 @@ function ok(name, cond, extra) {
     JSON.stringify(m3.units.slice(0, 4)));
 
   const pt = await cardOf("y04-portuguese");
-  ok("a Portuguese fused label is repaired too",
-    pt.units.some((t) => t.startsWith("Unit 7 · A gota e o jardim")),
-    JSON.stringify(pt.units[6]));
+  ok("the Year 4 Portuguese card uses the editable, title-cased workbook hierarchy",
+    pt.units[0].startsWith("Unidade 0 - Avaliação Diagnóstica") &&
+      pt.units[2].startsWith("Unidade 2 - Texto Narrativo - Autores para a Infância e Tradição Popular") &&
+      pt.units[7].startsWith("Unidade 7 - Atividades Extra") &&
+      pt.subs.some((t) => t.startsWith("Unidade 2.4 - Texto Narrativo - Literaturas de Língua Portuguesa")) &&
+      pt.text.includes("XLSX"), JSON.stringify({ units: pt.units, subs: pt.subs }));
 
   const pe13 = await cardOf("y13-physical-education");
   ok("unusable numbers are renumbered 1..N",
@@ -207,6 +211,35 @@ function ok(name, cond, extra) {
     titles.includes("Unit 1 · Futsal") && titles.includes("Unit 2 · Cross Country") &&
     !titles.some((t) => t === t.toUpperCase() && /[A-Z]{3}/.test(t)),
     JSON.stringify(titles.slice(0, 3)));
+
+  /* Six teacher-provided CSV exports are canonical editable Excel workbooks;
+     the Contents sheet remains visible on /syllabus and in each reader's Input panel. */
+  const workbookSlugs = ["y04-portuguese", "y05-portuguese", "y06-portuguese",
+    "y08-portuguese-1st", "y10-portuguese-1st", "y11-portuguese-1st"];
+  const workbookRows = data.years.flatMap((y) => y.books).filter((b) => workbookSlugs.includes(b.slug));
+  const workbookLinks = await page.evaluate((slugs) => slugs.map((slug) => {
+    const card = document.getElementById(slug);
+    const link = card && card.querySelector(".links a.grey");
+    return {
+      slug,
+      href: link ? decodeURIComponent(new URL(link.href).pathname) : "",
+      hasDownload: !!(link && link.hasAttribute("download")),
+      units: card ? card.querySelectorAll(".unit").length : 0,
+      subs: card ? card.querySelectorAll("ul.subs li").length : 0,
+    };
+  }), workbookSlugs);
+  ok("all six requested Portuguese sources are editable XLSX workbooks and fully listed",
+    workbookRows.length === 6 && workbookRows.every((b) => b.source === "input" &&
+      b.input && b.input.kind === "XLSX" && b.input.file === b.slug + " - input.xlsx" &&
+      b.units.length === 8 && b.units.reduce((n, u) => n + u.subs.length, 0) === 13) &&
+      workbookLinks.every((r) => r.href === "/inputs/" + r.slug + " - input.xlsx" &&
+        r.hasDownload && r.units === 8 && r.subs === 13),
+    JSON.stringify({ rows: workbookRows.length, links: workbookLinks }));
+  const liveStatus = await fetch(BASE + "/status.json").then((r) => r.json());
+  const statusRows = liveStatus.years.flatMap((y) => y.books).filter((b) => workbookSlugs.includes(b.slug));
+  ok("reader metadata identifies all six editable inputs as XLSX",
+    statusRows.length === 6 && statusRows.every((b) => b.input && b.input.kind === "XLSX" &&
+      b.input.file === b.slug + " - input.xlsx"), JSON.stringify(statusRows.map((b) => b.input)));
 
   const pt8 = await cardOf("y08-portuguese-2nd");
   ok("a contents-page row is marked, not counted as a unit",
@@ -272,6 +305,9 @@ function ok(name, cond, extra) {
   await page.click('.chip[data-f="all"]');
   await page.waitForTimeout(150);
 
+  await page.evaluate(() => document.getElementById("y04-portuguese").scrollIntoView({ block: "center" }));
+  await page.waitForTimeout(250);
+  await page.screenshot({ path: SHOT.replace(/\.png$/, "-year4.png") });
   await page.screenshot({ path: SHOT });
   await page.screenshot({
     path: SHOT.replace(/\.png$/, "-mid.png"),

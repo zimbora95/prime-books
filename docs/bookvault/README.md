@@ -38,8 +38,12 @@ BookVault change a figure, update this folder first, then the tool.
 - Keep spine content central and clear of its edges (p.19); if the inside of the
   cover is printed, leave 5 mm blank either side of the spine for the glue.
 - **Barcode area**: their template reserves a **38 x 25 mm** box on the back
-  cover, 6.4 mm in from the right trim and 3.3 mm up. A barcode is required for
-  printing outside the UK - Prime School is in Portugal, so keep it clear.
+  cover, **6.4 mm in from the right trim and 6.4 mm up** — a quarter inch both
+  ways. Measured off the template's own black "Barcode Placement" box
+  (`v4_PerfectBound_Cover_279_216_5.pdf`): x 174.50..212.60, y 250.25..275.65 mm
+  on its 443 x 285 mm wrap, whose trim runs x 3.17..440.27, y 3.17..282.22. A
+  barcode is required for printing outside the UK - Prime School is in Portugal,
+  so keep it clear.
 - Content stays 5 mm clear of the trim; no trim or bleed marks (p.3, p.19).
 
 ## Binding options

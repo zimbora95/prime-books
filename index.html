@@ -1984,9 +1984,8 @@
         text-transform: uppercase;
         color: var(--red-hi);
       }
-      /* Input panel: same overlay family as the Sections (toc) panel, so the
-         two side panels read as one system. It shares .toc-head for the title
-         and adds its own body styles for the scheme-of-work table. */
+      /* Input panel: same overlay family as Sections, with a source-file
+         preview/download for editable workbooks and an embedded view for PDFs. */
       .fb-input {
         position: absolute;
         top: 74px;
@@ -2038,6 +2037,95 @@
       }
       .fb-input.viewer .fb-input-note {
         padding: 0 10px 8px;
+      }
+      .fb-input.spreadsheet {
+        width: min(720px, calc(100vw - 44px));
+        max-height: calc(100vh - 190px);
+        display: flex;
+        flex-direction: column;
+      }
+      .fb-input.spreadsheet .toc-head {
+        padding: 6px 10px 10px;
+      }
+      .fb-input.spreadsheet .fb-input-note {
+        padding: 0 10px 10px;
+        color: rgba(235, 242, 245, 0.78);
+        line-height: 1.45;
+      }
+      .fb-input.spreadsheet .fb-input-note a {
+        color: #a8e2dc;
+        font-weight: 800;
+      }
+      .fb-input.spreadsheet #fbInputBody {
+        display: flex;
+        flex: 1;
+        min-height: 0;
+        flex-direction: column;
+      }
+      .fb-input-sheet-meta {
+        padding: 0 10px 8px;
+        color: rgba(235, 242, 245, 0.7);
+        font-size: 11px;
+        font-weight: 700;
+      }
+      .fb-input-sheet-wrap {
+        flex: 1;
+        min-height: 0;
+        overflow: auto;
+        border: 1px solid rgba(246, 241, 230, 0.14);
+        border-radius: 12px;
+      }
+      .fb-input-sheet {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+        line-height: 1.4;
+      }
+      .fb-input-sheet th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 9px 10px;
+        background: #1c3a4b;
+        color: #fff;
+        text-align: left;
+        font-size: 10px;
+        letter-spacing: 0.04em;
+      }
+      .fb-input-sheet td {
+        padding: 8px 10px;
+        border-top: 1px solid rgba(246, 241, 230, 0.09);
+        color: rgba(245, 248, 249, 0.9);
+        vertical-align: top;
+      }
+      .fb-input-sheet tr.unit td {
+        background: rgba(24, 122, 120, 0.24);
+        color: #fff;
+        font-weight: 800;
+      }
+      .fb-input-sheet tr.subunit td {
+        background: rgba(255, 255, 255, 0.035);
+      }
+      .fb-input-sheet td:first-child {
+        width: 92px;
+        white-space: nowrap;
+        color: #a8e2dc;
+        font-weight: 700;
+      }
+      .fb-input-sheet td:last-child {
+        width: 55px;
+        text-align: center;
+        color: rgba(235, 242, 245, 0.62);
+      }
+      @media (max-width: 600px) {
+        .fb-input.spreadsheet {
+          width: calc(100vw - 24px);
+          right: 12px;
+          max-height: calc(100vh - 150px);
+        }
+        .fb-input-sheet {
+          font-size: 11px;
+        }
       }
       /* A section row with no printed page (a unit that came from the Edu360
          syllabus and could not be located inside this book): it is a label to
@@ -2449,7 +2537,7 @@
           <button class="fb-btn" id="fbTocBtn" aria-label="Book sections">
             &#9776;&nbsp;Sections
           </button>
-          <button class="fb-btn" id="fbInputBtn" style="display:none" aria-label="Input source for this book" title="The input document this book was built from (shown as a PDF)">
+          <button class="fb-btn" id="fbInputBtn" style="display:none" aria-label="Input source for this book" title="Open or download the source spreadsheet or PDF for this book">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>&nbsp;Input
           </button>
           <button class="fb-btn fb-btn-amz" id="fbAmazonBtn" aria-label="Amazon KDP preparation" title="Amazon KDP preparation for this book">
@@ -7685,18 +7773,12 @@ function rr(x, px, py, w, h, r) {
       });
       /* -------------------------------------------------------------------
          INPUT panel: the source document each Prime Book was built from.
-         Two shapes, two treatments (status.json says which):
-           - a spreadsheet of the scheme of work (one per book, the documented
-             1-input invariant) -> its units ARE the book's sections, so they
-             are served by the SECTIONS panel (sectionsFromInput() below) and
-             the Input button does not appear at all;
-           - a PDF the school issued -> the button appears and the panel is a
-             viewer showing that document, with a download link.
-         Sources: public/inputs/<slug> - input.<ext> is the one canonical
-         location; public/inputs/<slug>.json (tools/inputs_to_json.py) is the
-         spreadsheet rendered for the browser. Files resolve through the live
-         tunnel when the workshop machine is on, so a freshly edited input
-         shows on refresh.
+         Excel inputs open a read-only Contents preview and a download link; the
+         same workbook drives the Sections list. PDF inputs open in the embedded
+         document viewer. status.json determines the input kind and source file.
+         Sources live at public/inputs/<slug> - input.<ext>; spreadsheet JSON is
+         generated from the active Contents sheet. Finished editions inherit the
+         source from their base master unless they have their own input.
          ------------------------------------------------------------------- */
       const fbInputPanel = document.getElementById("fbInputPanel");
       const fbInputBody = document.getElementById("fbInputBody");
@@ -7707,7 +7789,7 @@ function rr(x, px, py, w, h, r) {
           fbTocPanel.classList.remove("on"); /* one side panel at a time */
           renderInputPanel();
         } else {
-          fbInputPanel.classList.remove("viewer");
+          fbInputPanel.classList.remove("viewer", "spreadsheet");
         }
       });
       /* Deep links from the point-of-situation page: #sections opens the
@@ -7715,21 +7797,32 @@ function rr(x, px, py, w, h, r) {
          event (the book opens asynchronously and the panels read fbBookMeta),
          never on a timer.
 
-         The input is one of two things and they must not be confused:
-           - a SPREADSHEET (scheme of work): its units ARE this book's
-             sections, so it is no longer a second button - sectionsFromInput()
-             feeds them into the Sections panel, where clicking a unit jumps to
-             it. That is the panel the teacher actually wants;
-           - a PDF: a document the school issued, which cannot become a table,
-             so the Input button appears and shows the document itself.
-         status.json is the one place that knows which, so it is fetched once
-         per session and cached; until it answers the button stays hidden
-         rather than opening an empty panel. */
+         Spreadsheet and PDF inputs both have a source panel: workbooks show a
+         structured Contents preview and download link; PDFs show the document in
+         an embedded viewer. Spreadsheet rows also feed sectionsFromInput(), so the
+         Sections panel remains the navigable version. status.json is authoritative
+         for each input kind. Finished/brand editions fall back to their base slug
+         when they have no separate source row. The map is fetched once per session
+         and cached; until it answers the button stays hidden rather than opening
+         an empty panel. */
       let pbInputKinds = null;
       function pbBase() {
         return window.__PB_LIVE && window.__PB_LIVE_BASE
           ? window.__PB_LIVE_BASE
           : "";
+      }
+      function inputSlugs(slug) {
+        const candidates = [];
+        function add(candidate) {
+          if (!candidate || candidates.includes(candidate)) return;
+          candidates.push(candidate);
+          const unbranded = candidate.replace(/-(openai|anthropic|google|deepseek|glm|kimi|grok)$/, "");
+          if (unbranded !== candidate) add(unbranded);
+          if (candidate.endsWith("-standard")) add(candidate.slice(0, -9));
+        }
+        add(slug);
+        if (fbBookMeta && fbBookMeta.slug === slug) add(fbBookMeta.baseSlug);
+        return candidates;
       }
       function inputKind(slug) {
         if (!slug) return Promise.resolve(null);
@@ -7753,22 +7846,28 @@ function rr(x, px, py, w, h, r) {
             });
         }
         return pbInputKinds.then(function (m) {
-          return m[slug] || null;
+          for (const candidate of inputSlugs(slug)) {
+            if (m[candidate]) return Object.assign({ sourceSlug: candidate }, m[candidate]);
+          }
+          return null;
         });
       }
-      /* Show the Input button only when the input really is a PDF document. */
+      /* Show Input for supported source files: spreadsheets have a Contents
+         preview + download; PDFs are shown in the embedded viewer. */
       function applyInputButton() {
         const btn = document.getElementById("fbInputBtn");
         if (!btn) return;
         btn.style.display = "none";
-        fbInputPanel.classList.remove("viewer");
+        fbInputPanel.classList.remove("viewer", "spreadsheet");
         if (location.hash !== "#input") fbInputPanel.classList.remove("on");
         const slug = (fbBookMeta && fbBookMeta.slug) || "";
         if (!slug) return;
         inputKind(slug).then(function (inp) {
           if (((fbBookMeta && fbBookMeta.slug) || "") !== slug) return;
-          if (inp && String(inp.kind).toUpperCase() === "PDF") {
+          const kind = String((inp && inp.kind) || "").toUpperCase();
+          if (["PDF", "XLSX", "CSV"].includes(kind)) {
             btn.style.display = "";
+            btn.title = kind === "PDF" ? "Preview and download the source PDF" : "Preview and download the editable source spreadsheet";
             if (location.hash === "#input") openInputFromHash();
           }
         });
@@ -7784,7 +7883,8 @@ function rr(x, px, py, w, h, r) {
         }
         if (h !== "#input") return;
         inputKind((fbBookMeta && fbBookMeta.slug) || "").then(function (inp) {
-          if (!inp || String(inp.kind).toUpperCase() !== "PDF") return;
+          const kind = String((inp && inp.kind) || "").toUpperCase();
+          if (!["PDF", "XLSX", "CSV"].includes(kind)) return;
           fbTocPanel.classList.remove("on");
           fbInputPanel.classList.add("on");
           renderInputPanel();
@@ -7824,15 +7924,60 @@ function rr(x, px, py, w, h, r) {
           }[c];
         });
       }
-      /* The Input panel shows the input DOCUMENT, and only for a PDF input
-         (the button is hidden otherwise, so this is reached only for a PDF).
-         A spreadsheet's units are the Sections list instead - see
-         sectionsFromInput() - so the table renderer that used to live here is
-         gone: it showed the same units as Sections, which is exactly why the
-         two buttons read as duplicates. */
+      function renderSpreadsheetInput(slug, inp) {
+        const sourceSlug = inp.sourceSlug || slug;
+        const note = document.getElementById("fbInputNote");
+        const head = document.getElementById("fbInputHead");
+        const url = pbBase() + "/inputs/" + encodeURIComponent(inp.file);
+        if (head) head.textContent = inp.kind === "CSV" ? "CSV input" : "Excel workbook input";
+        fbInputPanel.classList.remove("viewer");
+        fbInputPanel.classList.add("spreadsheet");
+        if (note) {
+          note.style.display = "";
+          note.innerHTML = "Editable source spreadsheet · <a href=\"" + esc(url) +
+            "\" download=\"" + esc(inp.file) + "\" target=\"_blank\" rel=\"noopener\">download " +
+            esc(inp.file) + "</a>. This read-only preview is the Contents sheet used by Sections.";
+        }
+        fbInputBody.innerHTML = '<div class="inp-empty">Loading Contents sheet…</div>';
+        fetchBookInput(sourceSlug).then(function (data) {
+          if (((fbBookMeta && fbBookMeta.slug) || "") !== slug) return;
+          const headers = (data && data.headers) || [];
+          const rows = (data && data.rows) || [];
+          const typeKey = headers.find((h) => /type|kind/i.test(String(h)));
+          const titleKey = headers.find((h) => /title|name/i.test(String(h)));
+          const pageKey = headers.find((h) => /^page$/i.test(String(h).trim()));
+          if (!titleKey || !rows.length) {
+            fbInputBody.innerHTML = '<div class="inp-empty">Workbook download is available; no table preview was generated.</div>';
+            return;
+          }
+          const columns = [typeKey, titleKey, pageKey].filter(Boolean);
+          const unitCount = rows.filter((r) => typeKey && /^unit$/i.test(String(r[typeKey] || "").trim())).length;
+          const subCount = rows.filter((r) => typeKey && /^subunit$/i.test(String(r[typeKey] || "").trim())).length;
+          const body = rows.map(function (row) {
+            const kindLabel = String((typeKey && row[typeKey]) || "").trim();
+            const rowClass = /^unit$/i.test(kindLabel) ? "unit" : /^subunit$/i.test(kindLabel) ? "subunit" : "";
+            return '<tr class="' + rowClass + '">' + columns.map(function (column) {
+              const value = String(row[column] == null || row[column] === "" ? "—" : row[column]);
+              return "<td>" + esc(value) + "</td>";
+            }).join("") + "</tr>";
+          }).join("");
+          fbInputBody.innerHTML = '<div class="fb-input-sheet-meta">' + esc(data.sheet || "Contents") +
+            " · " + unitCount + " units · " + subCount + " subunits</div>" +
+            '<div class="fb-input-sheet-wrap"><table class="fb-input-sheet"><thead><tr>' +
+            columns.map((column) => "<th>" + esc(column) + "</th>").join("") +
+            "</tr></thead><tbody>" + body + "</tbody></table></div>";
+        }).catch(function () {
+          if (((fbBookMeta && fbBookMeta.slug) || "") !== slug) return;
+          fbInputBody.innerHTML = '<div class="inp-empty">Workbook download is available; preview could not be loaded.</div>';
+        });
+      }
+      /* The Input panel previews the Contents sheet for spreadsheets and embeds
+         school-issued PDFs. The workbook remains downloadable for editing. */
       function renderInputPanel() {
         const slug = (fbBookMeta && fbBookMeta.slug) || "";
         const note = document.getElementById("fbInputNote");
+        const head = document.getElementById("fbInputHead");
+        fbInputPanel.classList.remove("viewer", "spreadsheet");
         if (note) note.style.display = "none";
         if (!slug) {
           fbInputBody.innerHTML = '<div class="inp-empty">No book open.</div>';
@@ -7842,7 +7987,13 @@ function rr(x, px, py, w, h, r) {
           '<div class="inp-empty">Looking for this book\u2019s input\u2026</div>';
         inputKind(slug).then(function (inp) {
           if (((fbBookMeta && fbBookMeta.slug) || "") !== slug) return;
-          if (!inp || String(inp.kind).toUpperCase() !== "PDF") {
+          const kind = String((inp && inp.kind) || "").toUpperCase();
+          if (inp && ["XLSX", "CSV"].includes(kind)) {
+            renderSpreadsheetInput(slug, inp);
+            return;
+          }
+          if (head) head.textContent = "PDF input";
+          if (!inp || kind !== "PDF") {
             fbInputBody.innerHTML =
               '<div class="inp-empty"><b>This book\u2019s input is a spreadsheet.</b><br>' +
               "Its units are the <b>Sections</b> list \u2014 open that panel " +
@@ -7876,7 +8027,7 @@ function rr(x, px, py, w, h, r) {
       if (fbCloseBtnEl) {
         fbCloseBtnEl.addEventListener("click", function () {
           fbInputPanel.classList.remove("on");
-          fbInputPanel.classList.remove("viewer");
+          fbInputPanel.classList.remove("viewer", "spreadsheet");
         });
       }
       fbPageInput.addEventListener("keydown", (e) => {

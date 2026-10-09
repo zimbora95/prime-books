@@ -1,0 +1,116 @@
+{
+ "file": "y06-portuguese - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 0 - Avaliação Diagnóstica",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 - Textos Expositivos e de Opinião",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 - Texto Narrativo - Mitos, Clássicos e Autores",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.1 - Texto Narrativo - Mito de Dédalo e Ícaro",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.2 - Texto Narrativo - Ulisses, Adaptação de Maria Alberta Menéres",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.3 - Texto Narrativo - Sophia de Mello Breyner Andresen - A Fada Oriana",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.4 - Texto Narrativo - Literaturas de Língua Portuguesa",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.5 - Texto Narrativo - Sophia de Mello Breyner Andresen - O Cavaleiro da Dinamarca",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.6 - Texto Narrativo - Mia Couto - O Beijo da Palavrinha",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.7 - Texto Narrativo - Lendas de Origens",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.8 - Texto Narrativo - Lenda das Amendoeiras",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.9 - Texto Narrativo - Lenda do Saci-Pererê",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 3 - Texto Poético - Romance Tradicional",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 3.1 - Texto Poético - Eugénio de Andrade",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 3.2 - Texto Poético - Poema de um Ofício",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 - Texto Dramático",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.1 - Texto Dramático - O Julgamento da Escolha",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.2 - Texto Dramático - Ícaro em Cena",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 5 - Revisões Anuais",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 - Avaliação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 - Atividades Extra",
+   "Page": ""
+  }
+ ]
+}

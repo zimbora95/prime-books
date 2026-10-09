@@ -13,7 +13,7 @@ import openpyxl
 
 INPUTS = Path("/root/prime-books/public/inputs")
 UNUM = re.compile(r"^(unit|unidade|unidad|module|modulo|theme|topic|part|stop|section|chapter|term|termo)\s*(\d+)\b", re.I)
-SUBN = re.compile(r"^(\d+)\.(\d+)\b")
+SUBN = re.compile(r"^(?:unidade\s+)?(\d+)\.(\d+)\b", re.I)
 
 
 def audit(path: Path):

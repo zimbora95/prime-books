@@ -278,29 +278,55 @@ def _crop_to(path, want):
     return src.crop(box)
 
 
-def plate_png(path, out, w_pt, h_pt, r_top_pt, r_bot_pt, corner=None, maxpx=980):
-    img = _crop_to(path, w_pt / h_pt)
-    if img.width > maxpx:
-        img = img.resize((maxpx, int(img.height * maxpx / img.width)), Image.LANCZOS)
-    w, h = img.size
-    fill = corner or img.getpixel((2, 2))
-    m = Image.new("L", (w, h), 0)
-    d = ImageDraw.Draw(m)
+def plate_png(path, out, w_pt, h_pt, r_top_pt, r_bot_pt, corner=None, maxpx=980,
+              fit="contain"):
+    """Lay one plate into the band (w_pt x h_pt points).
+
+    fit="contain" is the house rule (teacher-directed, and enforced by the
+    Standard A-2.3 review): the picture is scaled down to sit INSIDE the band at
+    its own aspect - not one pixel of the artwork is re-cut - and the spare
+    space is left as margin in the band's own fill colour. fit="cover" keeps the
+    old centre-crop, for callers that must fill the band edge to edge.
+    """
+    src = Image.open(path).convert("RGB")
+    if fit == "cover":
+        img = _crop_to(path, w_pt / h_pt)
+        if img.width > maxpx:
+            img = img.resize((maxpx, int(img.height * maxpx / img.width)),
+                             Image.LANCZOS)
+        w, h = img.size
+        fill = corner or img.getpixel((2, 2))
+        base = Image.new("RGB", (w, h), fill)
+        pic = img
+        at = (0, 0)
+    else:
+        cw = min(maxpx, src.width)
+        ch = max(1, int(round(cw * h_pt / w_pt)))
+        want = cw / ch
+        have = src.width / src.height
+        if have > want:                    # wider than the band: fit the width
+            nw, nh = cw, max(1, int(round(cw * src.height / src.width)))
+        else:                              # taller: fit the height
+            nh, nw = ch, max(1, int(round(ch * src.width / src.height)))
+        w, h = cw, ch
+        fill = corner or src.getpixel((2, 2))
+        base = Image.new("RGB", (w, h), fill)
+        pic = src.resize((nw, nh), Image.LANCZOS)
+        at = ((cw - nw) // 2, (ch - nh) // 2)
     rt = int(r_top_pt * w / w_pt)
     rb = int(r_bot_pt * w / w_pt)
-    if rt:
-        d.rectangle([0, rt, w - 1, h - 1], fill=255)
-        d.rectangle([rt, 0, w - 1 - rt, h - 1], fill=255)
-        d.pieslice([0, 0, 2 * rt, 2 * rt], 180, 270, fill=255)
-        d.pieslice([w - 1 - 2 * rt, 0, w - 1, 2 * rt], 270, 360, fill=255)
-    else:
-        d.rectangle([0, 0, w - 1, h - 1], fill=255)
-    if rb:
-        d.rectangle([0, h - 1 - rb, w - 1, h - 1], fill=255)
-        d.pieslice([0, h - 1 - 2 * rb, 2 * rb, h - 1], 90, 180, fill=255)
-        d.pieslice([w - 1 - 2 * rb, h - 1 - 2 * rb, w - 1, h - 1], 0, 90, fill=255)
-    base = Image.new("RGB", (w, h), fill)
-    base.paste(img, (0, 0), m)
+    base.paste(pic, at)
+    # the band's rounded corners, painted in the band's own fill colour (the
+    # picture is never cut by them unless it reaches a corner itself)
+    if rt or rb:
+        dd = ImageDraw.Draw(base)
+        if rt:
+            dd.pieslice([0, 0, 2 * rt, 2 * rt], 180, 270, fill=fill)
+            dd.pieslice([w - 1 - 2 * rt, 0, w - 1, 2 * rt], 270, 360, fill=fill)
+        if rb:
+            dd.pieslice([0, h - 1 - 2 * rb, 2 * rb, h - 1], 90, 180, fill=fill)
+            dd.pieslice([w - 1 - 2 * rb, h - 1 - 2 * rb, w - 1, h - 1], 0, 90,
+                        fill=fill)
     base.save(out, quality=84)
     return out
 
@@ -905,13 +931,17 @@ def d_plate(pg, y, b):
     if arch:
         rrect(pg, r, arch, fill=fill)
         pg.draw_rect(pymupdf.Rect(ML, r.y1 - arch, MR, r.y1), color=None, fill=fill)
-    else:
-        rrect(pg, r, 9, fill=fill)
+    # No card behind a content picture (Standard A-2.3): the illustration is laid
+    # at its own aspect inside the band and the paper shows around it, so an
+    # illustration that does not fill the band still reads as a placed picture
+    # rather than as a coloured band with a hole in it.
     tmp = "/tmp/_pl_%s.jpg" % b["img"]
     corner = b["corner"]
+    if not arch and corner is None:
+        corner = (255, 255, 255)
     if corner == "white" and not arch:
         corner = (255, 255, 255)
-    plate_png(path, tmp, CW, h, arch if arch else 9, 0 if arch else 9, corner)
+    plate_png(path, tmp, CW, h, arch, 0, corner)
     pg.insert_image(r, filename=tmp)
     out = r.y1
     if b["caption"]:
@@ -1217,14 +1247,15 @@ def d_toc(pg, y, b):
     """Contents: a six-segment colour bar, then one card per unit."""
     groups = b["groups"]
     col_w = _toc_col_w()
-    seg = CW / 6.0
-    for i in range(6):
+    seg = CW / max(1, len([g for g in groups if g["kind"] == "unit"]))
+    nseg = max(1, len([g for g in groups if g["kind"] == "unit"]))
+    for i in range(nseg):
         r = pymupdf.Rect(ML + i * seg, y, ML + (i + 1) * seg, y + 5.0)
         if i:
             r.x0 -= 0.4
-        if i < 5:
+        if i < nseg - 1:
             r.x1 += 0.4
-        if i in (0, 5):
+        if i in (0, nseg - 1):
             rrect(pg, r, 2.5, fill=theme_for(i + 1)["mid"])
         else:
             pg.draw_rect(r, color=None, fill=theme_for(i + 1)["mid"])
@@ -1331,7 +1362,7 @@ def render_opener(doc, spec, num):
     rrect(pg, pymupdf.Rect(36.8, 64, 98.8, 126), 16, fill=amber)
     draw_c(pg, 67.8, 108.5, str(spec["num"]), "F", 30, deep)
     draw(pg, 124.7, 113.6, spec["title"], "F",
-         fit_size(spec["title"], "F", 44, 575.0 - 124.7, floor=26.0), (1, 1, 1))
+         fit_size(spec["title"], "F", 44, 575.0 - 124.7, floor=21.0), (1, 1, 1))
     draw(pg, 36.8, 158, spec["ground"], "F", 17, hx("F5B82A"))
     y = 168.0
     for ln in autowrap([(spec["blurb"], "A")], 470, 14.0)[0]:
@@ -1360,7 +1391,7 @@ def render_opener(doc, spec, num):
     pg.draw_rect(pymupdf.Rect(60, r.y1 - 96, 552, r.y1), color=None, fill=cf)
     tmp = "/tmp/_op_%s.jpg" % spec["img"]
     plate_png(_img(spec["img"]), tmp, r.width, r.height, 96.0, 0.0,
-              tuple(round(c * 255) for c in deep))
+              tuple(round(c * 255) for c in deep), fit="cover")
     pg.insert_image(r, filename=tmp)
     lab, txt = spec["caption"]
     labw = tw(lab + " ", "AB", 11.5)

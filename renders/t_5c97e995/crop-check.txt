@@ -1,0 +1,5 @@
+bands checked            : 49
+pictures NOT whole        : 0 []
+crop signatures vs master : 0 []
+narrowest picture         : 82 % of the band
+widest margin             : 18.0 % of a picture band

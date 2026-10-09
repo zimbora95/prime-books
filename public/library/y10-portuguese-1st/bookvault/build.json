@@ -1,0 +1,246 @@
+{
+ "slug": "y10-portuguese-1st",
+ "built": "2026-09-17T17:58:42+00:00",
+ "source_pages": 422,
+ "source_mtime": 1789235067.4664526,
+ "source_bytes": 5892149,
+ "spine_per_page_mm": null,
+ "spine_mm": null,
+ "settings": {
+  "binding": "Perfect bound (paperback)",
+  "paper": "Colour interior, 80 gsm uncoated",
+  "lamination": "Matte",
+  "isbn": "",
+  "printType": "Standard"
+ },
+ "text": {
+  "file": "y10-portuguese-1st-text-file.pdf",
+  "url": "/library/y10-portuguese-1st/bookvault/y10-portuguese-1st-text-file.pdf",
+  "bytes": 2098060,
+  "pages": 420,
+  "content_pages": 420,
+  "padded_pages": 0,
+  "guide_suggested_pages": 431,
+  "pad_12n": false,
+  "pages_rule": "12n-1 supply (12n-1); packed 420 content pages, no blank padding (count is already a multiple of 12)",
+  "trim_mm": [
+   216.0,
+   279.0
+  ],
+  "page_fit_scale": 1.0,
+  "page_fit_note": "master 209.9 x 269.9 mm sits 6.11 mm inside the trim on the sides and 9.08 mm top and bottom; its edges are flat (worst step 0/255) so the margin continues them invisibly -- no rescaling",
+  "content_shift_mm": [
+   3.32,
+   0.0
+  ],
+  "content_shift_note": "content moved 3.3 mm toward the outer edge and 0.0 mm down: closest live text is now 21.0 mm off the gutter (was 17.7), 14.8 mm from the outer trim (was 18.1) and 18.7 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 420, 14.6 mm off the gutter)",
+  "media_mm": [
+   222.0,
+   285.0
+  ],
+  "trim_pt": [
+   629.29,
+   807.87
+  ],
+  "bleed_mm": 3.0,
+  "cover_stripped": true,
+  "type3": 0,
+  "pdfx": true,
+  "flattened": false,
+  "transparent_pages": 0,
+  "note": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text"
+ },
+ "cover": {
+  "file": "y10-portuguese-1st-cover-file.pdf",
+  "url": "/library/y10-portuguese-1st/bookvault/y10-portuguese-1st-cover-file.pdf",
+  "preview": "/library/y10-portuguese-1st/bookvault/y10-portuguese-1st-cover-file.png",
+  "bytes": 1030073,
+  "px": [
+   5457,
+   3366
+  ],
+  "spine_mm": 24.0,
+  "full_cover_mm": [
+   462.03,
+   284.99
+  ],
+  "width_mm": 462.03,
+  "height_mm": 284.99,
+  "formula_mm": [
+   462.0,
+   285.0
+  ],
+  "back_src": "pdf-back",
+  "trim_mm": [
+   216.0,
+   279.0
+  ],
+  "interior_pages": 420,
+  "spine_text": true,
+  "spine_text_pt": 8.2,
+  "spine_text_floor_mm": 5.0,
+  "spine_text_clearance_mm": 1.0,
+  "barcode_mm": [
+   38.0,
+   25.0
+  ],
+  "barcode_ink": 0.0004,
+  "barcode_box_px": [
+   2062,
+   2996,
+   2511,
+   3291
+  ],
+  "spine_confirmed": false,
+  "spine_colour": [
+   130,
+   46,
+   66
+  ]
+ },
+ "checks": [
+  {
+   "name": "Text file page size is 222 x 285 mm",
+   "pass": true,
+   "detail": "222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed is 3 mm on all four edges",
+   "pass": true,
+   "detail": "guide p.5 requires 3 mm; media extends 3 mm past the trim on every side",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed continues the page edge",
+   "pass": true,
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (15120 points checked), so no white nick can print",
+   "level": "ok"
+  },
+  {
+   "name": "Page artwork survives assembly",
+   "pass": true,
+   "detail": "sampled interior pages carry the master's artwork",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed seam matches the artwork",
+   "pass": true,
+   "detail": "the smear meets the page with no visible step in the bleed",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 20 mm gutter",
+   "pass": true,
+   "detail": "closest live text is 21.0 mm off the gutter (page 420); guide p.3 asks for 20 mm",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 5 mm trim safety",
+   "pass": true,
+   "detail": "closest live text is 14.8 mm from the right edge (page 65); their template draws a 5 mm safety line",
+   "level": "ok"
+  },
+  {
+   "name": "Single pages, portrait",
+   "pass": true,
+   "detail": "420 single pages, portrait, all 222.0 mm wide",
+   "level": "ok"
+  },
+  {
+   "name": "Page count is 12n-1",
+   "pass": false,
+   "detail": "420 pages (420 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "level": "warn"
+  },
+  {
+   "name": "Last page is clear for their barcode",
+   "pass": false,
+   "detail": "the final page carries content -- their barcode will be printed over it",
+   "level": "warn"
+  },
+  {
+   "name": "Cover pages stripped from the interior",
+   "pass": true,
+   "detail": "the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice",
+   "level": "ok"
+  },
+  {
+   "name": "All fonts embedded",
+   "pass": true,
+   "detail": "every font is embedded (guide p.3)",
+   "level": "ok"
+  },
+  {
+   "name": "No Type 3 glyph-program fonts",
+   "pass": true,
+   "detail": "none: every font is a real embedded font file (guide p.3)",
+   "level": "ok"
+  },
+  {
+   "name": "Transparency flattened",
+   "pass": true,
+   "detail": "no soft masks, transparency groups or blend modes left (guide p.3)",
+   "level": "ok"
+  },
+  {
+   "name": "Images at 300 DPI or better",
+   "pass": false,
+   "detail": "6 below 300 DPI, e.g. page 3: 122 DPI; page 5: 122 DPI; page 8: 150 DPI",
+   "level": "warn"
+  },
+  {
+   "name": "Master page box fitted to their trim",
+   "pass": true,
+   "detail": "master 209.9 x 269.9 mm sits 6.11 mm inside the trim on the sides and 9.08 mm top and bottom; its edges are flat (worst step 0/255) so the margin continues them invisibly -- no rescaling",
+   "level": "ok"
+  },
+  {
+   "name": "Artwork covers the printed area",
+   "pass": false,
+   "detail": "840 pages carry a soft continuation of the page edge up to 4.5 mm inside the trim: this master is smaller than the trim and cannot be enlarged without losing its gutter margin (see the page-size line above) -- re-export it at 216 x 279 mm to print artwork to the cut",
+   "level": "warn"
+  },
+  {
+   "name": "Binding-edge clearance",
+   "pass": true,
+   "detail": "closest text is 21.5 mm from the left edge on page 211; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "level": "ok"
+  },
+  {
+   "name": "No trim or bleed marks",
+   "pass": true,
+   "detail": "none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any",
+   "level": "ok"
+  },
+  {
+   "name": "Text file is PDF/X-1a:2001 with CMYK",
+   "pass": true,
+   "detail": "PDF/X-1a:2001, CMYK, fonts embedded, text kept as text",
+   "level": "ok"
+  },
+  {
+   "name": "Cover file is a perfect-bound spread",
+   "pass": true,
+   "detail": "462.03 x 284.99 mm = back 216 + spine 24 + front 216 + 3 mm bleed, by their p.18 formula",
+   "level": "ok"
+  },
+  {
+   "name": "Barcode area clear on the back cover",
+   "pass": true,
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK",
+   "level": "ok"
+  },
+  {
+   "name": "Spine width taken from their sizing calculator",
+   "pass": false,
+   "detail": "built at 24 mm from 420 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "level": "warn"
+  }
+ ],
+ "sheet": {
+  "file": "y10-portuguese-1st-bookvault.txt",
+  "url": "/library/y10-portuguese-1st/bookvault/y10-portuguese-1st-bookvault.txt"
+ },
+ "ok": true
+}

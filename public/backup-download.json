@@ -1,0 +1,1062 @@
+{
+ "generated": "2026-09-14 01:05 UTC",
+ "base": "https://methods-museum-quizzes-muscles.trycloudflare.com",
+ "files": [
+  {
+   "src": "library/y01-art-and-design/book.pdf",
+   "dest": "Year 01/Art & Design/y01-art-and-design-output.pdf",
+   "bytes": 10941554,
+   "sha256": "7bf143ab68901df224cb5ba97059e5cdeac6c281e22c6ab69e12ed7d9d7dbb52"
+  },
+  {
+   "src": "input-corrections/y01-art-and-design - input.xlsx",
+   "dest": "Year 01/Art & Design/y01-art-and-design-input-corrected.xlsx",
+   "bytes": 5639,
+   "sha256": "14faff1bea1328888108a12e3920c487caa5cb85092d309d1342b9b6714dde17"
+  },
+  {
+   "src": "library/y01-computing-and-robotics/book.pdf",
+   "dest": "Year 01/Computing & Robotics/y01-computing-and-robotics-output.pdf",
+   "bytes": 12631141,
+   "sha256": "259863ca3ed73f98e97c73d40d307befd7a965ed2406635f5348d3a81370a85b"
+  },
+  {
+   "src": "library/y01-english/book.pdf",
+   "dest": "Year 01/English/y01-english-output.pdf",
+   "bytes": 16433373,
+   "sha256": "4adfc68815ee9a318305317dd7dc1dc0371eba1b99b25a9a50c333a87d8197e3"
+  },
+  {
+   "src": "inputs/y01-english - input.pdf",
+   "dest": "Year 01/English/y01-english-input.pdf",
+   "bytes": 12641225,
+   "sha256": "f561e0d73af4891f76f316e54ec85994d59090da8214ed5eeecd4b3d6ed92369"
+  },
+  {
+   "src": "library/y01-german-a1a2/book.pdf",
+   "dest": "Year 01/German A1-A2/y01-german-a1a2-output.pdf",
+   "bytes": 7081257,
+   "sha256": "6d3a7a8ecf4d3c56e253f95ba27f7d10836588a071158be5cc5281032317df4f"
+  },
+  {
+   "src": "library/y01-german-b1b2/book.pdf",
+   "dest": "Year 01/German B1-B2/y01-german-b1b2-output.pdf",
+   "bytes": 3071732,
+   "sha256": "dd488676ced84bd84543d68f81c28bfb8a42083604c70d7ea34e350838f205ad"
+  },
+  {
+   "src": "library/y01-global-perspectives/book.pdf",
+   "dest": "Year 01/Global Perspectives/y01-global-perspectives-output.pdf",
+   "bytes": 19308959,
+   "sha256": "528c205a9f9684c0b12dd32d84d5192d933e91dba625dc8961c929ebb9c0e1b8"
+  },
+  {
+   "src": "library/y01-mathematics/book.pdf",
+   "dest": "Year 01/Mathematics/y01-mathematics-output.pdf",
+   "bytes": 19558276,
+   "sha256": "3cfc956c8f80b58ff63a115fa575a3d923b65bc9e31e2df2cbbc4f48ac4c7e4d"
+  },
+  {
+   "src": "library/y01-music-and-drama/book.pdf",
+   "dest": "Year 01/Music & Drama/y01-music-and-drama-output.pdf",
+   "bytes": 21381970,
+   "sha256": "3a197e7fd541e404bf6d7f5b5ae71f27e500240559e23e2f8baae00a1324ec7a"
+  },
+  {
+   "src": "library/y01-physical-education/book.pdf",
+   "dest": "Year 01/Physical Education/y01-physical-education-output.pdf",
+   "bytes": 11888291,
+   "sha256": "745aadeeea7dc197cb1b71779723f945a019c91f6435951b778e0a803892c3ee"
+  },
+  {
+   "src": "inputs/y01-physical-education - input.xlsx",
+   "dest": "Year 01/Physical Education/y01-physical-education-input.xlsx",
+   "bytes": 19905,
+   "sha256": "8946f6a381cc1cb11675b63a73468a4836787722e8cff0bb6d09041d46876369"
+  },
+  {
+   "src": "input-corrections/y01-physical-education - input.xlsx",
+   "dest": "Year 01/Physical Education/y01-physical-education-input-corrected.xlsx",
+   "bytes": 19905,
+   "sha256": "8946f6a381cc1cb11675b63a73468a4836787722e8cff0bb6d09041d46876369"
+  },
+  {
+   "src": "library/y01-portuguese/book.pdf",
+   "dest": "Year 01/Portuguese 1st Language/y01-portuguese-output.pdf",
+   "bytes": 7542191,
+   "sha256": "92bc26fca68f1a4932719ffb580947dbfc826d974fe484fbb282a8da89b581d3"
+  },
+  {
+   "src": "library/y01-science/book.pdf",
+   "dest": "Year 01/Science/y01-science-output.pdf",
+   "bytes": 10945323,
+   "sha256": "520e0a8f2fe9ed1874c6315c78651de65517efa7c7f6b52ec69a708733fd28c2"
+  },
+  {
+   "src": "inputs/y01-science - input.pdf",
+   "dest": "Year 01/Science/y01-science-input.pdf",
+   "bytes": 36392784,
+   "sha256": "0bf4ccfcd634edf6cd88025f06787bb7421b7746d8c4bf23c4336a51219189d3"
+  },
+  {
+   "src": "library/y01-spanish-a1a2/book.pdf",
+   "dest": "Year 01/Spanish A1-A2/y01-spanish-a1a2-output.pdf",
+   "bytes": 3851002,
+   "sha256": "bc83931744fa4075104fcae45b244dbf008cff4bf81b79592bbfad40e08f9b8f"
+  },
+  {
+   "src": "library/y01-spanish-b1b2/book.pdf",
+   "dest": "Year 01/Spanish B1-B2/y01-spanish-b1b2-output.pdf",
+   "bytes": 3937338,
+   "sha256": "0484787ee90faf840cf89d64f11f97daab0ed1100d8e21d7cfd71168c717c762"
+  },
+  {
+   "src": "library/y02-art-and-design/book.pdf",
+   "dest": "Year 02/Art & Design/y02-art-and-design-output.pdf",
+   "bytes": 9588409,
+   "sha256": "f658eb0740ab4b8ba7b81d323d812d5872b0044c076ca26bad2d6c76b96402d5"
+  },
+  {
+   "src": "library/y02-computing-and-robotics/book.pdf",
+   "dest": "Year 02/Computing & Robotics/y02-computing-and-robotics-output.pdf",
+   "bytes": 15915343,
+   "sha256": "8fd542daa0159a3a41446e7843ed858d5e93ab21d6218605194ec8d6271fbab7"
+  },
+  {
+   "src": "inputs/y02-computing-and-robotics - input.xlsx",
+   "dest": "Year 02/Computing & Robotics/y02-computing-and-robotics-input.xlsx",
+   "bytes": 6351,
+   "sha256": "03273bddf97d18912d8ca0a2e6d609a8488633079969f76c8f212a0c298b6212"
+  },
+  {
+   "src": "input-corrections/y02-computing-and-robotics - input.xlsx",
+   "dest": "Year 02/Computing & Robotics/y02-computing-and-robotics-input-corrected.xlsx",
+   "bytes": 6351,
+   "sha256": "03273bddf97d18912d8ca0a2e6d609a8488633079969f76c8f212a0c298b6212"
+  },
+  {
+   "src": "library/y02-english/book.pdf",
+   "dest": "Year 02/English/y02-english-output.pdf",
+   "bytes": 11072246,
+   "sha256": "534164ab276ec78625592406cc9a83d7bfa0cd9e826335b948217c0bbad0209c"
+  },
+  {
+   "src": "library/y02-german-a1a2/book.pdf",
+   "dest": "Year 02/German A1-A2/y02-german-a1a2-output.pdf",
+   "bytes": 3059362,
+   "sha256": "0d4b310fd2c355c5ee7be896803e0df355e6adbfa23dcb648c652aa219263f88"
+  },
+  {
+   "src": "library/y02-german-b1b2/book.pdf",
+   "dest": "Year 02/German B1-B2/y02-german-b1b2-output.pdf",
+   "bytes": 4175161,
+   "sha256": "7f7482465ab5dbc8d7709463cc1d574c2a5034e5dbdc853c517c37ad5bfe2efe"
+  },
+  {
+   "src": "library/y02-global-perspectives/book.pdf",
+   "dest": "Year 02/Global Perspectives/y02-global-perspectives-output.pdf",
+   "bytes": 19402277,
+   "sha256": "53a5403b1ec730a8ea06948173a4c6925529888cfe82179e5530f089bdca6156"
+  },
+  {
+   "src": "inputs/y02-global-perspectives - input.xlsx",
+   "dest": "Year 02/Global Perspectives/y02-global-perspectives-input.xlsx",
+   "bytes": 10213,
+   "sha256": "af74f92395b2f346e1925f5f1be20853f58394914e71e4fa9254eb85731025a8"
+  },
+  {
+   "src": "input-corrections/y02-global-perspectives - input.xlsx",
+   "dest": "Year 02/Global Perspectives/y02-global-perspectives-input-corrected.xlsx",
+   "bytes": 10213,
+   "sha256": "af74f92395b2f346e1925f5f1be20853f58394914e71e4fa9254eb85731025a8"
+  },
+  {
+   "src": "library/y02-mathematics/book.pdf",
+   "dest": "Year 02/Mathematics/y02-mathematics-output.pdf",
+   "bytes": 19476890,
+   "sha256": "13ce5eadcc1da2ded1c6cf30504291ea0ac3e204b7cb0c7aac9b205936a019a4"
+  },
+  {
+   "src": "inputs/y02-mathematics - input.pdf",
+   "dest": "Year 02/Mathematics/y02-mathematics-input.pdf",
+   "bytes": 8932117,
+   "sha256": "23310b6563a55756d46b806d8537525d7ab59e5a12a3272a46e8372ead736d6f"
+  },
+  {
+   "src": "library/y02-music-and-drama/book.pdf",
+   "dest": "Year 02/Music & Drama/y02-music-and-drama-output.pdf",
+   "bytes": 17804225,
+   "sha256": "b203271cbb4835f5a6b95520b6c00773c61620aebd162c585ac77db41fa36250"
+  },
+  {
+   "src": "library/y02-physical-education/book.pdf",
+   "dest": "Year 02/Physical Education/y02-physical-education-output.pdf",
+   "bytes": 17900016,
+   "sha256": "b7123366d35590557ef8115b561d496b22bdb2e501fab0e7d800a66b20de5ead"
+  },
+  {
+   "src": "inputs/y02-physical-education - input.xlsx",
+   "dest": "Year 02/Physical Education/y02-physical-education-input.xlsx",
+   "bytes": 17990,
+   "sha256": "504df1e1866b636dbf2c80dd23cda4103016e58659e27c6db8f7e3614c552d50"
+  },
+  {
+   "src": "input-corrections/y02-physical-education - input.xlsx",
+   "dest": "Year 02/Physical Education/y02-physical-education-input-corrected.xlsx",
+   "bytes": 17990,
+   "sha256": "504df1e1866b636dbf2c80dd23cda4103016e58659e27c6db8f7e3614c552d50"
+  },
+  {
+   "src": "library/y02-science/book.pdf",
+   "dest": "Year 02/Science/y02-science-output.pdf",
+   "bytes": 10615754,
+   "sha256": "fbfb282cdafe1bfbe8821536d3f0866888b2ef143753940b7afb4a054c058c64"
+  },
+  {
+   "src": "library/y02-spanish-a1a2/book.pdf",
+   "dest": "Year 02/Spanish A1-A2/y02-spanish-a1a2-output.pdf",
+   "bytes": 3051968,
+   "sha256": "2b13e2bd2cf82295260b9bb34692feda6d20e1bd96694e1d8a907fdfd0a37952"
+  },
+  {
+   "src": "library/y02-spanish-b1b2/book.pdf",
+   "dest": "Year 02/Spanish B1-B2/y02-spanish-b1b2-output.pdf",
+   "bytes": 3026302,
+   "sha256": "b7496e655a7a126a7a0e10433c4572b96cf03034a9170f1351a6693456fe094c"
+  },
+  {
+   "src": "library/y03-art-and-design/book.pdf",
+   "dest": "Year 03/Art & Design/y03-art-and-design-output.pdf",
+   "bytes": 6655056,
+   "sha256": "9fce685d789c9bbb46c0afac2134418749d2aaa39c690273e640ce9dd62ddec8"
+  },
+  {
+   "src": "library/y03-computing-and-robotics/book.pdf",
+   "dest": "Year 03/Computing & Robotics/y03-computing-and-robotics-output.pdf",
+   "bytes": 3900478,
+   "sha256": "5a15be466dc07c1694a095dca308c838194b04dac0c29df5a565c359dce04ef0"
+  },
+  {
+   "src": "inputs/y03-computing-and-robotics - input.xlsx",
+   "dest": "Year 03/Computing & Robotics/y03-computing-and-robotics-input.xlsx",
+   "bytes": 6316,
+   "sha256": "4b0e05f871f05eec796ec87731e48868171498cc91573e322f63ceb3c7e05585"
+  },
+  {
+   "src": "input-corrections/y03-computing-and-robotics - input.xlsx",
+   "dest": "Year 03/Computing & Robotics/y03-computing-and-robotics-input-corrected.xlsx",
+   "bytes": 6316,
+   "sha256": "4b0e05f871f05eec796ec87731e48868171498cc91573e322f63ceb3c7e05585"
+  },
+  {
+   "src": "library/y03-english/book.pdf",
+   "dest": "Year 03/English/y03-english-output.pdf",
+   "bytes": 3138457,
+   "sha256": "b1a850157cfff0ea51c3e88196c663c95be6641032dff1185685748dc983f60d"
+  },
+  {
+   "src": "library/y03-german-a1a2/book.pdf",
+   "dest": "Year 03/German A1-A2/y03-german-a1a2-output.pdf",
+   "bytes": 3056320,
+   "sha256": "3fc8d66892a463638769a99477de0e34ee8b16566b1a8446995cacc05be47809"
+  },
+  {
+   "src": "library/y03-german-b1b2/book.pdf",
+   "dest": "Year 03/German B1-B2/y03-german-b1b2-output.pdf",
+   "bytes": 3066504,
+   "sha256": "f0db3ed19c4e508eacae3c2a72d6d1c5e03a983069c5c023cb83f247e25b89cf"
+  },
+  {
+   "src": "library/y03-global-perspectives/book.pdf",
+   "dest": "Year 03/Global Perspectives/y03-global-perspectives-output.pdf",
+   "bytes": 61093254,
+   "sha256": "3bc5f4128a80f02688fccd56a93cf137c691d4d75f4a154f9758c9ddf42ab4ab"
+  },
+  {
+   "src": "inputs/y03-global-perspectives - input.xlsx",
+   "dest": "Year 03/Global Perspectives/y03-global-perspectives-input.xlsx",
+   "bytes": 10605,
+   "sha256": "08d59a16756abf441698c99267b497e4b0e4f0ce0d47b867d87f99f68d24d336"
+  },
+  {
+   "src": "input-corrections/y03-global-perspectives - input.xlsx",
+   "dest": "Year 03/Global Perspectives/y03-global-perspectives-input-corrected.xlsx",
+   "bytes": 10605,
+   "sha256": "08d59a16756abf441698c99267b497e4b0e4f0ce0d47b867d87f99f68d24d336"
+  },
+  {
+   "src": "library/y03-mathematics/book.pdf",
+   "dest": "Year 03/Mathematics/y03-mathematics-output.pdf",
+   "bytes": 4055836,
+   "sha256": "bf6a2d72baaf4e19e033ba359361bbbe806e0e210eca0e51049f1cc9f318688e"
+  },
+  {
+   "src": "inputs/y03-mathematics - input.pdf",
+   "dest": "Year 03/Mathematics/y03-mathematics-input.pdf",
+   "bytes": 35804777,
+   "sha256": "81ba237bfb6f3fb9feb0a069f7ed670a5a2606b9fd8006f94e5c4306bdbd8d94"
+  },
+  {
+   "src": "library/y03-music-and-drama/book.pdf",
+   "dest": "Year 03/Music & Drama/y03-music-and-drama-output.pdf",
+   "bytes": 3035009,
+   "sha256": "1f4a2a2525267f50f3f27cc8bc3a013b7ba0af542e71118343e3dfeeb7b8d564"
+  },
+  {
+   "src": "library/y03-physical-education/book.pdf",
+   "dest": "Year 03/Physical Education/y03-physical-education-output.pdf",
+   "bytes": 14195137,
+   "sha256": "c991aae99f374a2c42924aca283c9c15d64108873dfb52fd2b434932efe107b5"
+  },
+  {
+   "src": "inputs/y03-physical-education - input.xlsx",
+   "dest": "Year 03/Physical Education/y03-physical-education-input.xlsx",
+   "bytes": 12333,
+   "sha256": "daf70bc1fec9d0f6f1d8752fd9132930d6239e0442044fc4667a31c9bb121016"
+  },
+  {
+   "src": "input-corrections/y03-physical-education - input.xlsx",
+   "dest": "Year 03/Physical Education/y03-physical-education-input-corrected.xlsx",
+   "bytes": 12333,
+   "sha256": "daf70bc1fec9d0f6f1d8752fd9132930d6239e0442044fc4667a31c9bb121016"
+  },
+  {
+   "src": "library/y03-portuguese/book.pdf",
+   "dest": "Year 03/Portuguese/y03-portuguese-output.pdf",
+   "bytes": 21223598,
+   "sha256": "e57fe41b6d0b9eab9cae200b2284471643fb6c9e5198738033e26aac01e98b67"
+  },
+  {
+   "src": "library/y03-science/book.pdf",
+   "dest": "Year 03/Science/y03-science-output.pdf",
+   "bytes": 3050683,
+   "sha256": "456c7fbc60164a98f14cc4a9aa3b223a68e3b15900f8f9b108f14daaa60c25a8"
+  },
+  {
+   "src": "inputs/y03-science - input.pdf",
+   "dest": "Year 03/Science/y03-science-input.pdf",
+   "bytes": 9474644,
+   "sha256": "c52b960b6bc6af882a27989dae02fa55d906b2a940fcf740c4163f689414ef9c"
+  },
+  {
+   "src": "library/y03-spanish-a1a2/book.pdf",
+   "dest": "Year 03/Spanish A1-A2/y03-spanish-a1a2-output.pdf",
+   "bytes": 3015196,
+   "sha256": "606ca916d337316a4e59d96b3b183f56377dd675ecd19ce8679001ecbc84e331"
+  },
+  {
+   "src": "library/y03-spanish-b1b2/book.pdf",
+   "dest": "Year 03/Spanish B1-B2/y03-spanish-b1b2-output.pdf",
+   "bytes": 3077446,
+   "sha256": "8dc0aff307153703d1c98506c4d4071dfb2650b699656e597a4e01241151ab26"
+  },
+  {
+   "src": "library/y04-art-and-design/book.pdf",
+   "dest": "Year 04/Art & Design/y04-art-and-design-output.pdf",
+   "bytes": 17916648,
+   "sha256": "174a9a2800f2eb06a2075d398622c69e209c6ffc71925e10a769f5f99b0a44f4"
+  },
+  {
+   "src": "library/y04-computing-and-robotics/book.pdf",
+   "dest": "Year 04/Computing & Robotics/y04-computing-and-robotics-output.pdf",
+   "bytes": 55859354,
+   "sha256": "173ce47272e160c3798adb59e304447d3b32e11ddb4418f0a306e022a5bf5a89"
+  },
+  {
+   "src": "inputs/y04-computing-and-robotics - input.xlsx",
+   "dest": "Year 04/Computing & Robotics/y04-computing-and-robotics-input.xlsx",
+   "bytes": 6339,
+   "sha256": "1060b1e0cadc121e05a9cea727dcb1d8383335ffd83086e0863ea70fa80d5e23"
+  },
+  {
+   "src": "input-corrections/y04-computing-and-robotics - input.xlsx",
+   "dest": "Year 04/Computing & Robotics/y04-computing-and-robotics-input-corrected.xlsx",
+   "bytes": 6339,
+   "sha256": "1060b1e0cadc121e05a9cea727dcb1d8383335ffd83086e0863ea70fa80d5e23"
+  },
+  {
+   "src": "library/y04-english/book.pdf",
+   "dest": "Year 04/English/y04-english-output.pdf",
+   "bytes": 4264292,
+   "sha256": "7a9dfab18643452c1661bb5fc9c0cc5e384eff97966c3dc11cf9889661b26d50"
+  },
+  {
+   "src": "library/y04-german-a1a2/book.pdf",
+   "dest": "Year 04/German A1-A2/y04-german-a1a2-output.pdf",
+   "bytes": 3032674,
+   "sha256": "62bdc2a0d1a27dde7d9751828a3f351c9269ba02d8fb39b0993e05ddc8f678cd"
+  },
+  {
+   "src": "library/y04-german-b1b2/book.pdf",
+   "dest": "Year 04/German B1-B2/y04-german-b1b2-output.pdf",
+   "bytes": 3060415,
+   "sha256": "dc425b389ecf64c4750433fae042ad4ca0dd7e76ed564a080a2996de81c5857d"
+  },
+  {
+   "src": "library/y04-global-perspectives/book.pdf",
+   "dest": "Year 04/Global Perspectives/y04-global-perspectives-output.pdf",
+   "bytes": 31850137,
+   "sha256": "51826cc7e7998610bb28f50fbda274f2186a942aef4c216a9a996000f72050e0"
+  },
+  {
+   "src": "library/y04-mathematics/book.pdf",
+   "dest": "Year 04/Mathematics/y04-mathematics-output.pdf",
+   "bytes": 5805788,
+   "sha256": "f7dbe4ac8b87394a6b8d9c8cb214f53afd1b89637fe5e9952420f3358e048b03"
+  },
+  {
+   "src": "inputs/y04-mathematics - input.pdf",
+   "dest": "Year 04/Mathematics/y04-mathematics-input.pdf",
+   "bytes": 31309958,
+   "sha256": "05fc6b75edb848723af6b279b3dcd6c12c38d77850c02d947ca221574a75de39"
+  },
+  {
+   "src": "library/y04-music-and-drama/book.pdf",
+   "dest": "Year 04/Music & Drama/y04-music-and-drama-output.pdf",
+   "bytes": 3105761,
+   "sha256": "9eb89661d6d382564e1370b01324f485e441c298766757be5bb4a47add163545"
+  },
+  {
+   "src": "library/y04-physical-education/book.pdf",
+   "dest": "Year 04/Physical Education/y04-physical-education-output.pdf",
+   "bytes": 16004262,
+   "sha256": "dd389aadc181fd4c6c985bf4adeabb9ff4fee48264523563bd8c815f73b2391b"
+  },
+  {
+   "src": "inputs/y04-physical-education - input.xlsx",
+   "dest": "Year 04/Physical Education/y04-physical-education-input.xlsx",
+   "bytes": 12316,
+   "sha256": "106b011e682dd364d41e371d1bcc453fd652660c26603be88def7d27b5d0210f"
+  },
+  {
+   "src": "input-corrections/y04-physical-education - input.xlsx",
+   "dest": "Year 04/Physical Education/y04-physical-education-input-corrected.xlsx",
+   "bytes": 12316,
+   "sha256": "106b011e682dd364d41e371d1bcc453fd652660c26603be88def7d27b5d0210f"
+  },
+  {
+   "src": "library/y04-portuguese/book.pdf",
+   "dest": "Year 04/Portuguese/y04-portuguese-output.pdf",
+   "bytes": 14560334,
+   "sha256": "f76a7052ee1278ee1b92bd5565da60c4fe675e8a5c280acea1620b916089054e"
+  },
+  {
+   "src": "library/y04-science/book.pdf",
+   "dest": "Year 04/Science/y04-science-output.pdf",
+   "bytes": 3553905,
+   "sha256": "90e21e5625d9f70d0a9c906603b3648251d797a18b850e08d66cf88e9bcfc128"
+  },
+  {
+   "src": "inputs/y04-science - input.pdf",
+   "dest": "Year 04/Science/y04-science-input.pdf",
+   "bytes": 29306216,
+   "sha256": "11bcc005189748209843cdff5c4d95cdd003ba18a025ca0d345544b2b2be9fed"
+  },
+  {
+   "src": "library/y04-spanish-a1a2/book.pdf",
+   "dest": "Year 04/Spanish A1-A2/y04-spanish-a1a2-output.pdf",
+   "bytes": 3012033,
+   "sha256": "01557b0705089758d301ffc9fd1d07bef8b1d7081e7efdbf23b1623e99364790"
+  },
+  {
+   "src": "library/y04-spanish-b1b2/book.pdf",
+   "dest": "Year 04/Spanish B1-B2/y04-spanish-b1b2-output.pdf",
+   "bytes": 3069161,
+   "sha256": "6aea9286dded74035c58e6e319a73d7b3ee75cfc0a91af2de13b21be56de608b"
+  },
+  {
+   "src": "library/y05-art-and-design/book.pdf",
+   "dest": "Year 05/Art & Design/y05-art-and-design-output.pdf",
+   "bytes": 7971823,
+   "sha256": "617185f2d3483387dda1d490690ce118a25a1e57aef28bde8b8282c36de28d9e"
+  },
+  {
+   "src": "library/y05-computing-and-robotics/book.pdf",
+   "dest": "Year 05/Computing & Robotics/y05-computing-and-robotics-output.pdf",
+   "bytes": 3110062,
+   "sha256": "e38ed866de32e7c3f9096a2fbbf046474c5929e8d28852711aa11ab3c3b967da"
+  },
+  {
+   "src": "inputs/y05-computing-and-robotics - input.pdf",
+   "dest": "Year 05/Computing & Robotics/y05-computing-and-robotics-input.pdf",
+   "bytes": 205065,
+   "sha256": "218e40e62e5abaf48bcba58c3009636c92f93ccaddcbf80a59cea465a9c12816"
+  },
+  {
+   "src": "library/y05-english/book.pdf",
+   "dest": "Year 05/English/y05-english-output.pdf",
+   "bytes": 3743954,
+   "sha256": "b731b1ab27ab6e173f8791d41aa990f1ff471c5495e7deeabfa26ae7830b44b9"
+  },
+  {
+   "src": "inputs/y05-english - input.pdf",
+   "dest": "Year 05/English/y05-english-input.pdf",
+   "bytes": 29298339,
+   "sha256": "18d0dd4ac0c1d414a2a20414c60202f7505b194ca33eec76115bfcbe99b8a386"
+  },
+  {
+   "src": "library/y05-german-a1a2/book.pdf",
+   "dest": "Year 05/German A1-A2/y05-german-a1a2-output.pdf",
+   "bytes": 3017782,
+   "sha256": "c23284412616aa65b01f5393980c8606f5000b97a88c181a21bd8bdf317c5134"
+  },
+  {
+   "src": "library/y05-german-b1b2/book.pdf",
+   "dest": "Year 05/German B1-B2/y05-german-b1b2-output.pdf",
+   "bytes": 3079073,
+   "sha256": "513b556dd9465bc2cbb18752c63fcaa86758b86d704f68eb326db1fbb740f5aa"
+  },
+  {
+   "src": "library/y05-global-perspectives/book.pdf",
+   "dest": "Year 05/Global Perspectives/y05-global-perspectives-output.pdf",
+   "bytes": 43769708,
+   "sha256": "5a286c930a000fcb25825a4786cdbd0b745f1e292c5c0fd44e820f572640f543"
+  },
+  {
+   "src": "library/y05-mathematics/book.pdf",
+   "dest": "Year 05/Mathematics/y05-mathematics-output.pdf",
+   "bytes": 3480020,
+   "sha256": "f52162796e0147cf905be76f712c58ba69ffc9995f7b21b6d48adb316cf8fd8a"
+  },
+  {
+   "src": "inputs/y05-mathematics - input.pdf",
+   "dest": "Year 05/Mathematics/y05-mathematics-input.pdf",
+   "bytes": 67828930,
+   "sha256": "7233cee8bb342d8465e4fd8436e8769e8b077966d90e92811562d94d546f07a8"
+  },
+  {
+   "src": "library/y05-music-and-drama/book.pdf",
+   "dest": "Year 05/Music & Drama/y05-music-and-drama-output.pdf",
+   "bytes": 3004416,
+   "sha256": "a871e9220091d337f56f99db5081e2cd6b0df725b5bd55027523b11772314130"
+  },
+  {
+   "src": "library/y05-physical-education/book.pdf",
+   "dest": "Year 05/Physical Education/y05-physical-education-output.pdf",
+   "bytes": 17067819,
+   "sha256": "698b43c69470727d609e9b75300286b86b6853088e3ab889e00fc01d795d0db8"
+  },
+  {
+   "src": "inputs/y05-physical-education - input.xlsx",
+   "dest": "Year 05/Physical Education/y05-physical-education-input.xlsx",
+   "bytes": 12316,
+   "sha256": "106b011e682dd364d41e371d1bcc453fd652660c26603be88def7d27b5d0210f"
+  },
+  {
+   "src": "input-corrections/y05-physical-education - input.xlsx",
+   "dest": "Year 05/Physical Education/y05-physical-education-input-corrected.xlsx",
+   "bytes": 12316,
+   "sha256": "106b011e682dd364d41e371d1bcc453fd652660c26603be88def7d27b5d0210f"
+  },
+  {
+   "src": "library/y05-portuguese/book.pdf",
+   "dest": "Year 05/Portuguese/y05-portuguese-output.pdf",
+   "bytes": 16923113,
+   "sha256": "39b0c722cf18cfd84cb9178a255e74a2476d235a3943ae1eba132cb7fef21a7a"
+  },
+  {
+   "src": "library/y05-science/book.pdf",
+   "dest": "Year 05/Science/y05-science-output.pdf",
+   "bytes": 2656351,
+   "sha256": "033928d21ffd3ecf0d4010446ef5a145d7712b256a488cc86a60e697c44b42bb"
+  },
+  {
+   "src": "library/y05-spanish-a1a2/book.pdf",
+   "dest": "Year 05/Spanish A1-A2/y05-spanish-a1a2-output.pdf",
+   "bytes": 3084254,
+   "sha256": "61e5841175f74480137082cf467709a11f13fa6f3e0721dd6ef119fe4d750533"
+  },
+  {
+   "src": "library/y05-spanish-b1b2/book.pdf",
+   "dest": "Year 05/Spanish B1-B2/y05-spanish-b1b2-output.pdf",
+   "bytes": 2998078,
+   "sha256": "7f76ed6fdb65a2610428b8cc0c4fcadccbf81c3c78d63803cf7eacb6ef798955"
+  },
+  {
+   "src": "library/y06-art-and-design/book.pdf",
+   "dest": "Year 06/Art & Design/y06-art-and-design-output.pdf",
+   "bytes": 12081325,
+   "sha256": "312feb7456d9d2e6b8d12a5e210bff75a3c55fcc66d01baa5c2e2dbf54428cd7"
+  },
+  {
+   "src": "library/y06-computing-and-robotics/book.pdf",
+   "dest": "Year 06/Computing & Robotics/y06-computing-and-robotics-output.pdf",
+   "bytes": 3167026,
+   "sha256": "2032f19fef1eebf0e303285d1cdd0e6665d404dd3b59481b3651149c9f5b09b9"
+  },
+  {
+   "src": "inputs/y06-computing-and-robotics - input.pdf",
+   "dest": "Year 06/Computing & Robotics/y06-computing-and-robotics-input.pdf",
+   "bytes": 214742,
+   "sha256": "663e211f0ba4d51c9564006059197b57376b828db68c3b5bba7e1f2d7f072324"
+  },
+  {
+   "src": "library/y06-english/book.pdf",
+   "dest": "Year 06/English/y06-english-output.pdf",
+   "bytes": 3158886,
+   "sha256": "1c1e83cb147dec0a171c9b5fa4eeae13ff447dedb6f6530258edf36864cb5b8d"
+  },
+  {
+   "src": "library/y06-german-a1a2/book.pdf",
+   "dest": "Year 06/German A1-A2/y06-german-a1a2-output.pdf",
+   "bytes": 3336724,
+   "sha256": "a15fe4326804e3a18f0bbe8a3ca443edae28f2287739d2966ae5803695138d35"
+  },
+  {
+   "src": "library/y06-german-b1b2/book.pdf",
+   "dest": "Year 06/German B1-B2/y06-german-b1b2-output.pdf",
+   "bytes": 3476735,
+   "sha256": "11d924799d135fd272c001755a478c770e529bcc437d89445ff69025937b3329"
+  },
+  {
+   "src": "library/y06-global-perspectives/book.pdf",
+   "dest": "Year 06/Global Perspectives/y06-global-perspectives-output.pdf",
+   "bytes": 27992594,
+   "sha256": "440994a4e03d8bcc2d63abd817228e5084ff7805ebc5ed744cb3d9b7fc69c004"
+  },
+  {
+   "src": "library/y06-mathematics/book.pdf",
+   "dest": "Year 06/Mathematics/y06-mathematics-output.pdf",
+   "bytes": 5554359,
+   "sha256": "c943b4e750ea5b5ef0f4a9e62e52570bf54af570b261f9b34c7fd0e2e359e1f2"
+  },
+  {
+   "src": "inputs/y06-mathematics - input.pdf",
+   "dest": "Year 06/Mathematics/y06-mathematics-input.pdf",
+   "bytes": 16438084,
+   "sha256": "70208f07b6fd8ca5bd313299c1aaa75a22db49c9084b7d944b0fc8510116a3f9"
+  },
+  {
+   "src": "library/y06-music-and-drama/book.pdf",
+   "dest": "Year 06/Music & Drama/y06-music-and-drama-output.pdf",
+   "bytes": 3302591,
+   "sha256": "8264770ce08b766288dd1df64e4f4ebccc205e868ce61e803c1d0b345f05c3bf"
+  },
+  {
+   "src": "library/y06-physical-education/book.pdf",
+   "dest": "Year 06/Physical Education/y06-physical-education-output.pdf",
+   "bytes": 19797091,
+   "sha256": "cf332b8d5594ce46471f7827a5154c2e569105bbd8dcec689c6b153ee2b91493"
+  },
+  {
+   "src": "inputs/y06-physical-education - input.xlsx",
+   "dest": "Year 06/Physical Education/y06-physical-education-input.xlsx",
+   "bytes": 11529,
+   "sha256": "2c1954dcb2a67382fde208657317c26f18ac7157172312b234bb3437933b7e99"
+  },
+  {
+   "src": "input-corrections/y06-physical-education - input.xlsx",
+   "dest": "Year 06/Physical Education/y06-physical-education-input-corrected.xlsx",
+   "bytes": 11529,
+   "sha256": "2c1954dcb2a67382fde208657317c26f18ac7157172312b234bb3437933b7e99"
+  },
+  {
+   "src": "library/y06-portuguese/book.pdf",
+   "dest": "Year 06/Portuguese/y06-portuguese-output.pdf",
+   "bytes": 7394451,
+   "sha256": "1320ba27b911d26f613132ebe738aafbf22a5a2ecfc9e5486a952fdc239d7fb8"
+  },
+  {
+   "src": "library/y06-science/book.pdf",
+   "dest": "Year 06/Science/y06-science-output.pdf",
+   "bytes": 3059321,
+   "sha256": "2c379987e0910160c819458c45ee5c97a4ef68b97a5fc0ac8b719a8e531f9247"
+  },
+  {
+   "src": "library/y06-spanish-a1a2/book.pdf",
+   "dest": "Year 06/Spanish A1-A2/y06-spanish-a1a2-output.pdf",
+   "bytes": 3465952,
+   "sha256": "5cbdb45d55ae8edd02257cd5e8092d8154124008632de9e24c515dadbf03f0a2"
+  },
+  {
+   "src": "library/y06-spanish-b1b2/book.pdf",
+   "dest": "Year 06/Spanish B1-B2/y06-spanish-b1b2-output.pdf",
+   "bytes": 3276198,
+   "sha256": "da1e865d67fbf257c96526d4e1fc06515cca62e0d777181b1b6203e1bf37a500"
+  },
+  {
+   "src": "library/y07-art-and-design/book.pdf",
+   "dest": "Year 07/Art & Design/y07-art-and-design-output.pdf",
+   "bytes": 15172464,
+   "sha256": "9cb88888b88ba29c1d3d75603ca53a5132b672688d41208fb84ba4224ecebc5c"
+  },
+  {
+   "src": "library/y07-art-and-design-standard/book.pdf",
+   "dest": "Year 07/Art & Design/y07-art-and-design-standard-output.pdf",
+   "bytes": 13820832,
+   "sha256": "441f44db146cd099b124da312d1c35597f45c7942eda946f302a6bbc9cb34e1a"
+  },
+  {
+   "src": "library/y07-computing-and-robotics/book.pdf",
+   "dest": "Year 07/Computing & Robotics/y07-computing-and-robotics-output.pdf",
+   "bytes": 9648323,
+   "sha256": "3a22534df8517c6f99711fa17254aff4363da69e3ee3e60640bba4cc30de27b8"
+  },
+  {
+   "src": "inputs/y07-computing-and-robotics - input.pdf",
+   "dest": "Year 07/Computing & Robotics/y07-computing-and-robotics-input.pdf",
+   "bytes": 17002740,
+   "sha256": "09ec3fb6d3f98559876b9cf36938546ac06510ab08c0d3171005c542eb4b0c95"
+  },
+  {
+   "src": "library/y07-computing-structured/book.pdf",
+   "dest": "Year 07/Computing & Robotics (Structured)/y07-computing-structured-output.pdf",
+   "bytes": 7154199,
+   "sha256": "1b57fcce7dd885b5690d8e488fcfbd4321a922db5a624b8ac49dd00882478dde"
+  },
+  {
+   "src": "library/y07-english/book.pdf",
+   "dest": "Year 07/English/y07-english-output.pdf",
+   "bytes": 4113029,
+   "sha256": "f71383e5758e96bcd7156b25dc6c44aab6fe5ffa096cbd1b9ec621cbf489de51"
+  },
+  {
+   "src": "library/y07-global-perspectives/book.pdf",
+   "dest": "Year 07/Global Perspectives/y07-global-perspectives-output.pdf",
+   "bytes": 4804497,
+   "sha256": "8b8c057b39d947533284b6b978703b8aa0b63ee2097358d90f7bd17a23abcbd0"
+  },
+  {
+   "src": "library/y07-humanities/book.pdf",
+   "dest": "Year 07/Humanities/y07-humanities-output.pdf",
+   "bytes": 26471214,
+   "sha256": "963009ead89207a5497e57f86bae684e68174c70adfd12094571b610c26995bb"
+  },
+  {
+   "src": "inputs/y07-humanities - input.pdf",
+   "dest": "Year 07/Humanities/y07-humanities-input.pdf",
+   "bytes": 58954998,
+   "sha256": "9769c770dc05e9cdc93fa819f3d481b570a252fc421fbcd30696b71f06fb7614"
+  },
+  {
+   "src": "library/y07-mathematics/book.pdf",
+   "dest": "Year 07/Mathematics/y07-mathematics-output.pdf",
+   "bytes": 4345161,
+   "sha256": "188079108a859469ff1d1e239ee30dcade0269cf10527ae8478ab58dbbd85354"
+  },
+  {
+   "src": "library/y07-physical-education/book.pdf",
+   "dest": "Year 07/Physical Education/y07-physical-education-output.pdf",
+   "bytes": 11155281,
+   "sha256": "dd4568882128e5aced37418aab68eacf5fe61c723aa939cb8c69c6830dd4a29c"
+  },
+  {
+   "src": "input-corrections/y07-physical-education - input.xlsx",
+   "dest": "Year 07/Physical Education/y07-physical-education-input-corrected.xlsx",
+   "bytes": 5552,
+   "sha256": "728836c944563b55904981430d7e09322977ff674a1229ddbe8ca066092a1d7d"
+  },
+  {
+   "src": "library/y07-portuguese-1st/book.pdf",
+   "dest": "Year 07/Portuguese 1st/y07-portuguese-1st-output.pdf",
+   "bytes": 8356524,
+   "sha256": "6f2f92f94fb84459848d296ff203b940775996b88d8996f1dc5d46531ee87b04"
+  },
+  {
+   "src": "library/y07-portuguese-2nd/book.pdf",
+   "dest": "Year 07/Portuguese 2nd/y07-portuguese-2nd-output.pdf",
+   "bytes": 20900219,
+   "sha256": "89e043deb6af194642b27e2a046ce5d248f8504ae88eb6e15cc9d89dd67a3afc"
+  },
+  {
+   "src": "library/y07-science/book.pdf",
+   "dest": "Year 07/Science/y07-science-output.pdf",
+   "bytes": 4033298,
+   "sha256": "4bad2dd1d0ddccf486db06e88fae093635478c22d64debaaf71983df86ca815a"
+  },
+  {
+   "src": "input-corrections/y07-science - input.xlsx",
+   "dest": "Year 07/Science/y07-science-input-corrected.xlsx",
+   "bytes": 5085,
+   "sha256": "ad287971ef8471122ba63c761fc943493df7c50556fe5ba100994324ffae8dc1"
+  },
+  {
+   "src": "library/y07-spanish/book.pdf",
+   "dest": "Year 07/Spanish/y07-spanish-output.pdf",
+   "bytes": 9605539,
+   "sha256": "e749b0857757ef351b5b9dd78ba059fc3fbca1840db6eaa3d8d6e468d160ebe5"
+  },
+  {
+   "src": "inputs/y07-spanish - input.xlsx",
+   "dest": "Year 07/Spanish/y07-spanish-input.xlsx",
+   "bytes": 10221,
+   "sha256": "6b96408880efdfdbd83919bf2bf84ed08436e407ebec2d10bd7bdea0b418f637"
+  },
+  {
+   "src": "input-corrections/y07-spanish - input.xlsx",
+   "dest": "Year 07/Spanish/y07-spanish-input-corrected.xlsx",
+   "bytes": 10221,
+   "sha256": "6b96408880efdfdbd83919bf2bf84ed08436e407ebec2d10bd7bdea0b418f637"
+  },
+  {
+   "src": "library/y08-art-and-design/book.pdf",
+   "dest": "Year 08/Art & Design/y08-art-and-design-output.pdf",
+   "bytes": 13112626,
+   "sha256": "75598b078210be2105b176a1900675f8dcf4e56bfe16d80e1eca03f4d93b9eed"
+  },
+  {
+   "src": "library/y08-computing-and-robotics/book.pdf",
+   "dest": "Year 08/Computing & Robotics/y08-computing-and-robotics-output.pdf",
+   "bytes": 3337379,
+   "sha256": "e255c2c27dcd1321467cfa8f26def6c4937cc1bc6d34b959ca0d2b7a9cf252fb"
+  },
+  {
+   "src": "library/y08-english/book.pdf",
+   "dest": "Year 08/English/y08-english-output.pdf",
+   "bytes": 3859705,
+   "sha256": "f2abbd4e06b44f63fc95cb526780f6c2531b073a41652280c1acbe3b22355276"
+  },
+  {
+   "src": "inputs/y08-english - input.pdf",
+   "dest": "Year 08/English/y08-english-input.pdf",
+   "bytes": 25975253,
+   "sha256": "dcee9ab95cfd54b9fdcb5a91f662f6546687763b696a25059b73d7e734787fc8"
+  },
+  {
+   "src": "library/y08-humanities/book.pdf",
+   "dest": "Year 08/Humanities/y08-humanities-output.pdf",
+   "bytes": 143129757,
+   "sha256": "1f95d25aae9704b63ed025478fa5caa0bb4be42c71b295f26a396e342b6aa1ed"
+  },
+  {
+   "src": "inputs/y08-humanities - input.pdf",
+   "dest": "Year 08/Humanities/y08-humanities-input.pdf",
+   "bytes": 98074627,
+   "sha256": "a7a11b069e902951c2adb60e807d121417d1c82dfe42e6fe41a8c0438c595b47"
+  },
+  {
+   "src": "library/y08-mathematics/book.pdf",
+   "dest": "Year 08/Mathematics/y08-mathematics-output.pdf",
+   "bytes": 3885533,
+   "sha256": "26191c8a61602ead5ea60db45034c4e0fa0ca6b8c1e88ef9d174d403331e6700"
+  },
+  {
+   "src": "library/y08-music-and-drama/book.pdf",
+   "dest": "Year 08/Music & Drama/y08-music-and-drama-output.pdf",
+   "bytes": 3398424,
+   "sha256": "c41489877da47c5d294ef9f9750d4744c37091d2a748a22333ff0f4fe83f9229"
+  },
+  {
+   "src": "library/y08-physical-education/book.pdf",
+   "dest": "Year 08/Physical Education/y08-physical-education-output.pdf",
+   "bytes": 16980734,
+   "sha256": "683d58974f63bafc1a74d7d734e8f36666145743c6aac08df3941594e9fc6e7f"
+  },
+  {
+   "src": "inputs/y08-physical-education - input.xlsx",
+   "dest": "Year 08/Physical Education/y08-physical-education-input.xlsx",
+   "bytes": 61591,
+   "sha256": "c59853e23597719473cb4615390613889469ba448ac5c616ed88c1624829151f"
+  },
+  {
+   "src": "input-corrections/y08-physical-education - input.xlsx",
+   "dest": "Year 08/Physical Education/y08-physical-education-input-corrected.xlsx",
+   "bytes": 61591,
+   "sha256": "c59853e23597719473cb4615390613889469ba448ac5c616ed88c1624829151f"
+  },
+  {
+   "src": "library/y08-portuguese-1st/book.pdf",
+   "dest": "Year 08/Portuguese 1st/y08-portuguese-1st-output.pdf",
+   "bytes": 3635812,
+   "sha256": "10536c257278136faa1880a224612d670a35576877ecd044430572773e1f8b98"
+  },
+  {
+   "src": "library/y08-portuguese-2nd/book.pdf",
+   "dest": "Year 08/Portuguese 2nd/y08-portuguese-2nd-output.pdf",
+   "bytes": 28206147,
+   "sha256": "d045570f6476279c9dfd2559235cb288ec80623494455a28e4e7672c6a8f0dbf"
+  },
+  {
+   "src": "library/y08-science/book.pdf",
+   "dest": "Year 08/Science/y08-science-output.pdf",
+   "bytes": 3933339,
+   "sha256": "d61ae316ee30954ae534d89fb4f8f7145c532775c9a89ceac06b53de8a05299a"
+  },
+  {
+   "src": "input-corrections/y08-science - input.xlsx",
+   "dest": "Year 08/Science/y08-science-input-corrected.xlsx",
+   "bytes": 4995,
+   "sha256": "5db8ab115b45e93cf981a4286ab5adc2a35ffa642f48967cbed78e6e80486fb2"
+  },
+  {
+   "src": "library/y08-spanish/book.pdf",
+   "dest": "Year 08/Spanish/y08-spanish-output.pdf",
+   "bytes": 4026391,
+   "sha256": "c033352e2a79b66a9c027a7bf1b7aa09772a6002e9d476ae2284d863eb94421e"
+  },
+  {
+   "src": "library/y09-art-and-design/book.pdf",
+   "dest": "Year 09/Art & Design/y09-art-and-design-output.pdf",
+   "bytes": 27903639,
+   "sha256": "1bd798f47a01c38e80c25df6b0b6e4804696293146d53fb1768d5f4f1a4a9811"
+  },
+  {
+   "src": "library/y09-computing-and-robotics/book.pdf",
+   "dest": "Year 09/Computing & Robotics/y09-computing-and-robotics-output.pdf",
+   "bytes": 3046561,
+   "sha256": "021ce76eb2c99dc6c2cc6b4d09c7c4fef9ccda9c33ed83df3be0ffd43790c42a"
+  },
+  {
+   "src": "library/y09-english/book.pdf",
+   "dest": "Year 09/English/y09-english-output.pdf",
+   "bytes": 4125006,
+   "sha256": "1aa203bdf8875a89df346ace0b95bfcb1041fe621217ce624343bdaf24be3ce7"
+  },
+  {
+   "src": "library/y09-humanities/book.pdf",
+   "dest": "Year 09/Humanities/y09-humanities-output.pdf",
+   "bytes": 13765755,
+   "sha256": "667656e46ab7b6da9e5c1b8d890496e199e687847281cebdb2c4a318166156bd"
+  },
+  {
+   "src": "inputs/y09-humanities - input.pdf",
+   "dest": "Year 09/Humanities/y09-humanities-input.pdf",
+   "bytes": 10309904,
+   "sha256": "91b57891938a29468d95956b66d0dcac11d3f795134a6bfaf163aade60a155cc"
+  },
+  {
+   "src": "library/y09-mathematics/book.pdf",
+   "dest": "Year 09/Mathematics/y09-mathematics-output.pdf",
+   "bytes": 4133004,
+   "sha256": "e0e26aa6808cb7dd3bfb2d9038625d3bd3d9a9d385935fd7ad02df1e53411271"
+  },
+  {
+   "src": "inputs/y09-mathematics - input.pdf",
+   "dest": "Year 09/Mathematics/y09-mathematics-input.pdf",
+   "bytes": 34077819,
+   "sha256": "7c204b0a3f69f131bfbbda86bdc6344afb33c9eb597af1eab6d69d0f79b6b67b"
+  },
+  {
+   "src": "library/y09-music-and-drama/book.pdf",
+   "dest": "Year 09/Music and Drama/y09-music-and-drama-output.pdf",
+   "bytes": 5195138,
+   "sha256": "33dfd926e649cb9d21883bdbd6abd98cc1e668a3dbd5378a71b64d550b595e3a"
+  },
+  {
+   "src": "library/y09-physical-education/book.pdf",
+   "dest": "Year 09/Physical Education/y09-physical-education-output.pdf",
+   "bytes": 13073649,
+   "sha256": "7efd3cfb74babfe0721c40a64eb13c4ce3f54a6a80c0f675a54bb5d1ec53c91d"
+  },
+  {
+   "src": "inputs/y09-physical-education - input.xlsx",
+   "dest": "Year 09/Physical Education/y09-physical-education-input.xlsx",
+   "bytes": 58407,
+   "sha256": "e707861d479f8b012d6caeaa7e6dd2b7f7aa4b39990820c33d162c3a6822585c"
+  },
+  {
+   "src": "input-corrections/y09-physical-education - input.xlsx",
+   "dest": "Year 09/Physical Education/y09-physical-education-input-corrected.xlsx",
+   "bytes": 58407,
+   "sha256": "e707861d479f8b012d6caeaa7e6dd2b7f7aa4b39990820c33d162c3a6822585c"
+  },
+  {
+   "src": "library/y09-portuguese/book.pdf",
+   "dest": "Year 09/Portuguese/y09-portuguese-output.pdf",
+   "bytes": 10554142,
+   "sha256": "f540587ff0b5697058069dc113536e291c8a2fe92a1c3841c89545c52d69db15"
+  },
+  {
+   "src": "library/y09-portuguese-2nd/book.pdf",
+   "dest": "Year 09/Portuguese 2nd/y09-portuguese-2nd-output.pdf",
+   "bytes": 7833332,
+   "sha256": "427cf26b235744a61bf1010d9b8930b1c0e3848127630f31f37710334aa22b71"
+  },
+  {
+   "src": "library/y09-science/book.pdf",
+   "dest": "Year 09/Science/y09-science-output.pdf",
+   "bytes": 31785825,
+   "sha256": "87dd42f9ff6ed8c5dd704d9e64b0fcd7c077a8aaea55db0117cadbe6c1fa5390"
+  },
+  {
+   "src": "library/y09-spanish/book.pdf",
+   "dest": "Year 09/Spanish/y09-spanish-output.pdf",
+   "bytes": 13404694,
+   "sha256": "92b46f0023eb3495ce79cfdf336e793689eb73172819299cc563c9057db6a1a9"
+  },
+  {
+   "src": "inputs/y09-spanish - input.xlsx",
+   "dest": "Year 09/Spanish/y09-spanish-input.xlsx",
+   "bytes": 9337,
+   "sha256": "b7ff0d2beb287bc515bbf0f5f33e96dd8e90ba72e5f061d8aeb9479060e004b1"
+  },
+  {
+   "src": "input-corrections/y09-spanish - input.xlsx",
+   "dest": "Year 09/Spanish/y09-spanish-input-corrected.xlsx",
+   "bytes": 9337,
+   "sha256": "b7ff0d2beb287bc515bbf0f5f33e96dd8e90ba72e5f061d8aeb9479060e004b1"
+  },
+  {
+   "src": "library/y10-business-btec-l2/book.pdf",
+   "dest": "Year 10/Business BTEC L2/y10-business-btec-l2-output.pdf",
+   "bytes": 3887037,
+   "sha256": "e56300247c81a3d2b2d1dc53ea2aad9b90e9f4edfcc624aaee2405426b5a0499"
+  },
+  {
+   "src": "library/y10-physical-education/book.pdf",
+   "dest": "Year 10/Physical Education/y10-physical-education-output.pdf",
+   "bytes": 10436444,
+   "sha256": "b59cee62f13fb9921903e8f3bace5eac496523aa9f5f24867353ca395e634449"
+  },
+  {
+   "src": "input-corrections/y10-physical-education - input.xlsx",
+   "dest": "Year 10/Physical Education/y10-physical-education-input-corrected.xlsx",
+   "bytes": 5321,
+   "sha256": "d4b5772918e54180cf4f7e4acf955edc7130271aee2190d06a73979e89db4ce2"
+  },
+  {
+   "src": "library/y10-portuguese-1st/book.pdf",
+   "dest": "Year 10/Portuguese 1st/y10-portuguese-1st-output.pdf",
+   "bytes": 5892149,
+   "sha256": "3702b8042099ffd90b4c837bd0f29d256a330544f3aa895bb84bea5b2933ed5c"
+  },
+  {
+   "src": "library/y10-portuguese-1st-igcse/book.pdf",
+   "dest": "Year 10/Portuguese 1st IGCSE/y10-portuguese-1st-igcse-output.pdf",
+   "bytes": 7588695,
+   "sha256": "81ea1dd06d7b5203a38f50c8090e3ec8640e0c04281e7f29c2c3e1d02101d6d9"
+  },
+  {
+   "src": "library/y10-spanish-1st-igcse/book.pdf",
+   "dest": "Year 10/Spanish 1st IGCSE/y10-spanish-1st-igcse-output.pdf",
+   "bytes": 5605996,
+   "sha256": "ac84075f344c9bb2e347e81688ea17780980f5c8310d661197f7094200e3e251"
+  },
+  {
+   "src": "library/y11-physical-education/book.pdf",
+   "dest": "Year 11/Physical Education/y11-physical-education-output.pdf",
+   "bytes": 5579143,
+   "sha256": "a4cf5160f5414481efdabdcb7c9772a685da52760ddab28d150d5bb54a0fce7f"
+  },
+  {
+   "src": "library/y11-portuguese-1st/book.pdf",
+   "dest": "Year 11/Portuguese 1st/y11-portuguese-1st-output.pdf",
+   "bytes": 5949583,
+   "sha256": "0464847ab9aad03696d3b21821113305cb304497f6d8b1e1db97d390ef72e1ff"
+  },
+  {
+   "src": "library/y12-physical-education/book.pdf",
+   "dest": "Year 12/Physical Education/y12-physical-education-output.pdf",
+   "bytes": 7273828,
+   "sha256": "2fab823957b579aa6cbe4e5347eaa20882332477e293f79aa0607c920394909e"
+  },
+  {
+   "src": "library/y12-portuguese-a-level/book.pdf",
+   "dest": "Year 12/Portuguese A Level/y12-portuguese-a-level-output.pdf",
+   "bytes": 4298602,
+   "sha256": "e41879e50c3ddba9ee5d130d3330f5b59e96633650887a0e0a23915f783ac5e7"
+  },
+  {
+   "src": "library/y12-spanish-a-level/book.pdf",
+   "dest": "Year 12/Spanish A Level/y12-spanish-a-level-output.pdf",
+   "bytes": 4485097,
+   "sha256": "fda864c0f5dddf022d4a699c5d142700731c758dd9ff2782480e9a051b8367e6"
+  },
+  {
+   "src": "library/y13-physical-education/book.pdf",
+   "dest": "Year 13/Physical Education/y13-physical-education-output.pdf",
+   "bytes": 5474798,
+   "sha256": "08d05698145883a9ec099b8d2a987bf8a4d7f049a85498a8f53b75c9a2c17abe"
+  }
+ ]
+}

@@ -34,7 +34,7 @@ INPUT_RE = re.compile(r"^(?P<slug>[a-z0-9-]+) - input\.(?P<ext>[a-z0-9]+)$")
 
 
 def input_map() -> dict:
-    """slug -> {"kind": "XLSX", "file": "<name>"} for every book with a source."""
+    """slug -> {"kind": <extension>, "file": <name>} for every book with a source."""
     found = {}
     if not INPUTS.is_dir():
         return found

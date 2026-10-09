@@ -2,7 +2,7 @@
 /* Screenshot /status (full page + first screen) for visual review. */
 const { chromium } = require('/tmp/node_modules/playwright-core');
 const BASE = process.env.PB_BASE || 'http://127.0.0.1:8645';
-const EXE = '/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome';
+const EXE = process.env.PB_CHROMIUM || chromium.executablePath();
 (async () => {
   const b = await chromium.launch({ executablePath: EXE, args: ['--no-sandbox'] });
   const p = await b.newPage({ viewport: { width: 1180, height: 900 } });

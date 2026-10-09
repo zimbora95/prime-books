@@ -1,9 +1,9 @@
 {
  "slug": "y01-physical-education-standard",
- "built": "2026-09-17T00:45:56+00:00",
+ "built": "2026-09-18T16:48:01+00:00",
  "source_pages": 71,
- "source_mtime": 1789601930.4184568,
- "source_bytes": 21882718,
+ "source_mtime": 1789621542.7061124,
+ "source_bytes": 22361845,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -58,7 +58,7 @@
   "file": "y01-physical-education-standard-cover-file.pdf",
   "url": "/library/y01-physical-education-standard/bookvault/y01-physical-education-standard-cover-file.pdf",
   "preview": "/library/y01-physical-education-standard/bookvault/y01-physical-education-standard-cover-file.png",
-  "bytes": 1869548,
+  "bytes": 1875914,
   "px": [
    5220,
    3366
@@ -80,7 +80,10 @@
    279.0
   ],
   "interior_pages": 69,
-  "spine_text": false,
+  "spine_text": true,
+  "spine_text_pt": 7.2,
+  "spine_text_floor_mm": 4.0,
+  "spine_text_clearance_mm": 1.0,
   "barcode_mm": [
    38.0,
    25.0
@@ -92,7 +95,12 @@
    2511,
    3291
   ],
-  "spine_confirmed": false
+  "spine_confirmed": false,
+  "spine_colour": [
+   241,
+   179,
+   0
+  ]
  },
  "checks": [
   {

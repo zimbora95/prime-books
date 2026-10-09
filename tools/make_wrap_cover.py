@@ -68,8 +68,52 @@ YEAR_COLOURS = {
 }
 
 
-def spine_colour(year: int) -> tuple:
+def spine_colour(year: int, book=None) -> tuple:
+    """The colour of the wrap's spine.
+
+    The year ladder is the PRIMARY series rule, but the secondary covers carry a
+    subject/level stripe instead (Y7 teal, Y8 slate, Y9 ochre, Y10 burgundy,
+    Y11 forest, Y12-13 navy), so a wrap's spine has to be the colour of the
+    book's OWN stripe. Taken from the year number, the Year 7 Humanities spine
+    came out gold against a teal book.
+    """
+    if book is not None:
+        own = book_stripe_colour(book)
+        if own:
+            return own
     return YEAR_COLOURS.get(int(year), YEAR_COLOURS[12])
+
+
+def book_stripe_colour(book):
+    """Sample the spine stripe drawn on the book's own cover pages.
+
+    Looks for a full-height band hugging the left edge on the last page (the
+    designed back) and then on page 1, and returns its RGB. None when the book
+    has no such vector band (a raster cover or a standard shell), so the caller
+    falls back to the year ladder.
+    """
+    try:
+        doc = pymupdf.open(str(book))
+    except Exception:
+        return None
+    try:
+        for idx in (-1, 0):
+            if not -doc.page_count <= idx < doc.page_count:
+                continue
+            page = doc[idx]
+            H = page.rect.height
+            for dr in page.get_drawings():
+                r, fill = dr["rect"], dr.get("fill")
+                if not fill:
+                    continue
+                if r.x0 <= 1.0 and 15 < r.width < 70 and r.height > 0.75 * H:
+                    c = tuple(round(v * 255) for v in fill)
+                    if min(c) > 245:        # a white page box is not a stripe
+                        continue
+                    return c
+    finally:
+        doc.close()
+    return None
 
 
 def font(name: str, size: int) -> ImageFont.FreeTypeFont:
@@ -281,8 +325,8 @@ def build(slug: str) -> pathlib.Path:
 
     canvas.paste(fit(front, front_w, H), (back_w + spine_w, 0))  # FRONT
 
-    # ---- spine: official year colour, solid; text only when KDP allows ----
-    col = spine_colour(year)
+    # ---- spine: the book's OWN stripe colour, solid; text when KDP allows ----
+    col = spine_colour(year, LIBRARY / slug / "book.pdf")
     canvas.paste(Image.new("RGB", (spine_w, H), col), (back_w, 0))
     if n >= MIN_SPINE_TEXT_PAGES:
         # Text on a TRANSPARENT strip pasted over the year colour — never a

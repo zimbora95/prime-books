@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Global Perspectives - Year 8
 slug y08-global-perspectives
-generated 2026-10-07 01:56 UTC
+generated 2026-10-07 23:30 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -85,7 +85,7 @@ STEP 3  Checks
   [PASS] Cover file is a perfect-bound spread
          452.04 x 284.99 mm = back 216 + spine 14 + front 216 + 3 mm bleed, by their p.18 formula
   [PASS] Barcode area clear on the back cover
-         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 6.4 mm up) is empty; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
          built at 14 mm from 238 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 

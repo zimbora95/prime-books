@@ -1,8 +1,8 @@
 {
  "slug": "y01-computing-and-robotics",
- "built": "2026-09-14T14:31:04+00:00",
+ "built": "2026-09-17T16:11:31+00:00",
  "source_pages": 182,
- "source_mtime": 1789235017.4460824,
+ "source_mtime": 1789568677.667981,
  "source_bytes": 12631141,
  "spine_per_page_mm": null,
  "spine_mm": null,
@@ -75,6 +75,9 @@
   ],
   "interior_pages": 180,
   "spine_text": true,
+  "spine_text_pt": 8.2,
+  "spine_text_floor_mm": 5.0,
+  "spine_text_clearance_mm": 1.0,
   "barcode_mm": [
    38.0,
    25.0
@@ -86,7 +89,12 @@
    2511,
    3291
   ],
-  "spine_confirmed": false
+  "spine_confirmed": false,
+  "spine_colour": [
+   241,
+   179,
+   0
+  ]
  },
  "checks": [
   {
@@ -104,8 +112,14 @@
   {
    "name": "Bleed continues the page edge",
    "pass": true,
-   "detail": "96 of 96 points across the cut lines are flat",
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (6480 points checked), so no white nick can print",
    "level": "ok"
+  },
+  {
+   "name": "Bleed approximates the artwork at the cut",
+   "pass": false,
+   "detail": "9 of 6480 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away",
+   "level": "warn"
   },
   {
    "name": "Page artwork survives assembly",
@@ -116,7 +130,7 @@
   {
    "name": "Bleed seam matches the artwork",
    "pass": false,
-   "detail": "a step over 10.6 mm at the bottom edge of page 91, 10.6 mm of the bleed -- a flat bleed can only approximate artwork whose colour runs along the cut as a steep gradient; the page inside the trim is unaffected",
+   "detail": "a step over 10.6 mm at the bottom edge of page 91, 10.6 mm of the bleed -- the clamp-to-edge continuation of a detailed page edge, on a master -6.0 mm narrower than the trim and -6.0 mm shorter (see the page-size line above); the artwork itself is untouched inside the trim",
    "level": "warn"
   },
   {
@@ -177,6 +191,18 @@
    "name": "Images at 300 DPI or better",
    "pass": false,
    "detail": "163 below 300 DPI, e.g. page 2: 150 DPI; page 4: 150 DPI; page 5: 150 DPI",
+   "level": "warn"
+  },
+  {
+   "name": "Master page box fitted to their trim",
+   "pass": true,
+   "detail": "placed 1:1 on the trim",
+   "level": "ok"
+  },
+  {
+   "name": "Artwork covers the printed area",
+   "pass": false,
+   "detail": "360 pages carry a soft continuation of the page edge up to 4.5 mm inside the trim: this master is smaller than the trim and cannot be enlarged without losing its gutter margin (see the page-size line above) -- re-export it at 216 x 279 mm to print artwork to the cut",
    "level": "warn"
   },
   {

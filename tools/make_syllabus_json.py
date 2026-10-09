@@ -10,8 +10,9 @@ One row per catalogue book:
     {slug, subject, pages, input: {kind, file} | null, source, units, extras}
 
 `source` is honest and never inferred:
-  "input"  the book's input is a SPREADSHEET and every row of it is on the page
-           (public/inputs/<slug>.json, written by tools/inputs_to_json.py);
+  "input"  a structured scheme-of-work table is available, either from a
+           spreadsheet or from a PDF rendered from a source export; rows are in
+           public/inputs/<slug>.json;
   "book"   no input table exists, so the section list was read from the BOOK's
            own contents page (public/book-sections.json, written by
            tools/make_book_sections_json.py) - the same list the reader's
@@ -20,15 +21,17 @@ One row per catalogue book:
            yielded no section list, so there is nothing to show but the file;
   "none"   no input file and no section list.
 
-Where a spreadsheet exists, the Input is the source of truth: it is the school's
-own scheme of work, and it is NOT the book's printed contents page (a different
-source, parsed page by page, and the only thing available when there is no
-spreadsheet). The two are never mixed inside one title.
+Where structured scheme-of-work rows exist, they are the source of truth; the
+book's printed contents page is used only when no structured rows are available.
+A PDF rendered from a source spreadsheet may carry a marked JSON sidecar so the
+same rows remain available to the syllabus and Sections panel.
 
-Run after adding or editing any input spreadsheet:
+Run after adding or editing an input:
 
+    .venv/bin/python tools/build_input_workbooks.py   # supplied CSV -> editable XLSX
     .venv/bin/python tools/inputs_to_json.py          # xlsx -> public/inputs/<slug>.json
-    .venv/bin/python tools/make_book_sections_json.py # books -> public/book-sections.json
+    .venv/bin/python tools/qa_inputs.py               # ordering / contiguity gate
+    .venv/bin/python tools/make_status_json.py        # inputs -> public/status.json
     .venv/bin/python tools/make_syllabus_json.py      # -> public/syllabus.json
 """
 from __future__ import annotations
@@ -57,7 +60,7 @@ FRONT = "front"  # anything that carries no unit/subunit name at all
 
 
 def input_map() -> dict:
-    """slug -> {"kind": "XLSX", "file": "<name>"} for every book with a source."""
+    """slug -> {"kind": <extension>, "file": <name>} for every book with a source."""
     found = {}
     if not INPUTS.is_dir():
         return found
@@ -134,6 +137,20 @@ def parse_input(slug: str):
     return units, extras
 
 
+def has_structured_pdf_rows(slug: str) -> bool:
+    """A PDF can retain a table only when its sidecar explicitly says so.
+
+    This keeps ordinary school-issued PDFs on the book-reading path while
+    allowing a professionally rendered spreadsheet export to preserve its
+    scheme-of-work hierarchy for /syllabus and the reader's Sections panel.
+    """
+    try:
+        data = json.loads((INPUTS / f"{slug}.json").read_text(encoding="utf-8"))
+    except Exception:
+        return False
+    return data.get("source_table") is True
+
+
 def clean_unit(u: dict) -> dict:
     """One unit as the page wants it: the label, the page, its subunits, and the
     extras that mark a row as something other than a unit ('term' dividers,
@@ -180,7 +197,10 @@ def main() -> int:
     for b in books:
         slug = b["slug"]
         inp = inputs.get(slug)
-        units, extras = parse_input(slug) if inp and inp["kind"] != "PDF" else ([], [])
+        has_input_table = bool(inp) and (
+            inp["kind"] != "PDF" or has_structured_pdf_rows(slug)
+        )
+        units, extras = parse_input(slug) if has_input_table else ([], [])
         kind = ""
         derived_from = ""
         if units:

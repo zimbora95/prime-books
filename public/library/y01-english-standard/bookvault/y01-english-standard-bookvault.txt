@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 English - Year 1
 slug y01-english-standard
-generated 2026-09-17 06:37 UTC
+generated 2026-09-18 16:47 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs

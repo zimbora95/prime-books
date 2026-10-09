@@ -1,9 +1,9 @@
 {
  "slug": "y08-global-perspectives",
- "built": "2026-10-07T01:56:07+00:00",
+ "built": "2026-10-07T23:30:57+00:00",
  "source_pages": 240,
- "source_mtime": 1791336569.2690485,
- "source_bytes": 27916525,
+ "source_mtime": 1791413073.4121766,
+ "source_bytes": 27939246,
  "spine_per_page_mm": null,
  "spine_mm": null,
  "settings": {
@@ -58,7 +58,7 @@
   "file": "y08-global-perspectives-cover-file.pdf",
   "url": "/library/y08-global-perspectives/bookvault/y08-global-perspectives-cover-file.pdf",
   "preview": "/library/y08-global-perspectives/bookvault/y08-global-perspectives-cover-file.png",
-  "bytes": 1236181,
+  "bytes": 1236085,
   "px": [
    5339,
    3366
@@ -91,9 +91,9 @@
   "barcode_ink": 0.0,
   "barcode_box_px": [
    2062,
-   2996,
+   2959,
    2511,
-   3291
+   3255
   ],
   "spine_confirmed": false,
   "spine_colour": [
@@ -238,7 +238,7 @@
   {
    "name": "Barcode area clear on the back cover",
    "pass": true,
-   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK",
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 6.4 mm up) is empty; a barcode is required printing outside the UK",
    "level": "ok"
   },
   {

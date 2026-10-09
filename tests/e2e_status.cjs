@@ -19,7 +19,7 @@
 const { chromium } = require('/tmp/node_modules/playwright-core');
 
 const BASE = process.env.PB_BASE || 'http://127.0.0.1:8645';
-const EXE = '/root/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome';
+const EXE = process.env.PB_CHROMIUM || chromium.executablePath();
 
 let pass = 0, fail = 0;
 function ok(label, cond, extra) {
@@ -75,6 +75,42 @@ function ok(label, cond, extra) {
   const firstLink = await page.getAttribute('#years tbody tr td.subject a', 'href');
   ok('a title links to its own book page', /^\/book\/[a-z0-9-]+$/.test(firstLink || ''),
      String(firstLink));
+
+  await page.selectOption('#year-filter', '9');
+  await page.selectOption('#subject-filter', 'Portuguese');
+  const portugueseRows = await page.$$eval('#years tbody tr', (rows) => rows.map((r) => ({
+    slug: r.querySelector('.subject-meta code').textContent,
+    tag: r.querySelector('.edition-badge')?.textContent || '',
+  })));
+  const portugueseIds = portugueseRows.map((r) => r.slug).sort();
+  ok('Year + subject filters compose to Year 9 Portuguese first-language entries',
+     JSON.stringify(portugueseIds) === JSON.stringify([
+       'y09-portuguese', 'y09-portuguese-anthropic', 'y09-portuguese-openai'
+     ].sort()), JSON.stringify(portugueseIds));
+  const tags = Object.fromEntries(portugueseRows.map((r) => [r.slug, r.tag]));
+  ok('edition tags distinguish the source-backed title and model builds',
+     tags['y09-portuguese'] === 'Input-backed' &&
+     tags['y09-portuguese-anthropic'] === 'Anthropic build' &&
+     tags['y09-portuguese-openai'] === 'OpenAI build', JSON.stringify(tags));
+  ok('filtered title count reflects combined filters',
+     (await page.textContent('#shown')) === '3 of ' + totals.books + ' titles shown',
+     await page.textContent('#shown'));
+  await page.click('#clear-filters');
+  ok('Clear filters restores the complete list',
+     (await page.textContent('#shown')) === `${totals.books} of ${totals.books} titles shown`);
+  await page.setViewportSize({ width: 390, height: 844 });
+  const mobileLayout = await page.evaluate(() => ({
+    width: document.documentElement.scrollWidth,
+    viewport: document.documentElement.clientWidth,
+    controls: ['#q', '#year-filter', '#subject-filter'].every((s) => {
+      const r = document.querySelector(s).getBoundingClientRect();
+      return r.width > 0 && r.left >= 0 && r.right <= window.innerWidth;
+    }),
+  }));
+  ok('mobile filters fit without horizontal overflow',
+     mobileLayout.width <= mobileLayout.viewport && mobileLayout.controls,
+     JSON.stringify(mobileLayout));
+  await page.setViewportSize({ width: 1180, height: 900 });
 
   /* --- filters ------------------------------------------------------------ */
   const kindOf = () => page.$$eval('#years tbody tr', (rows) =>

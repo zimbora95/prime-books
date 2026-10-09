@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
 Art & Design - Year 1
 slug y01-art-and-design
-generated 2026-09-14 14:19 UTC
+generated 2026-09-17 16:06 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -9,10 +9,11 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Binding ............ Perfect bound (paperback)
   Paper stock ........ Colour interior, 80 gsm uncoated
   Cover lamination ... Matte
-  Trim size .......... CUSTOM 216 mm wide x 279 mm high
-                       (Their own template for this book is v4_Text_279_216.pdf: 222 x 285 mm
-                       with 3 mm bleed, i.e. 216 x 279 mm finished. BookVault's standard
-                       list has no such size, so choose the custom option.)
+  Trim size .......... 216 x 279 (US Letter) -- the standard option in their
+                       SIZE list. Their own template for this book is
+                       v4_Text_279_216.pdf: 222 x 285 mm
+                       with 3 mm bleed, i.e. 216 x 279 mm finished. Pick the standard size;
+                       use CUSTOM only if that option is missing from your list.
   Page count ......... 86 (interior only, covers excluded)
                        = 86 pages of book. No blank pages at the rear, by request:
                        their guide suggests 95 (one less than a multiple of 12) so their
@@ -22,6 +23,7 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
   Content position ... content moved 7.0 mm toward the outer edge and 0.6 mm down: closest live text is now 20.1 mm off the gutter (was 13.0), 6.0 mm from the outer trim (was 13.0) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 7, 13.0 mm off the gutter); the full 1 mm headroom will not fit, the rule itself does
+  Page size ......... master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
@@ -43,7 +45,9 @@ STEP 3  Checks
   [PASS] Bleed is 3 mm on all four edges
          guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
   [PASS] Bleed continues the page edge
-         112 of 112 points across the cut lines are flat
+         no point across the cut lines puts a whitish colour against a coloured one (3096 points checked), so no white nick can print
+  [OPEN] Bleed approximates the artwork at the cut
+         18 of 3096 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
   [PASS] Bleed seam matches the artwork
@@ -68,6 +72,10 @@ STEP 3  Checks
          no soft masks, transparency groups or blend modes left (guide p.3)
   [OPEN] Images at 300 DPI or better
          107 below 300 DPI, e.g. page 2: 150 DPI; page 3: 150 DPI; page 4: 274 DPI
+  [PASS] Master page box fitted to their trim
+         master page box 215.9 x 279.4 mm matches the trim within a printer's tolerance; no rescaling
+  [PASS] Artwork covers the printed area
+         the artwork reaches 0.8 mm past the 216 x 279 mm trim on every visible edge; at the gutter, where the page gives way to reach their 20 mm rule, the fill sits 7.1 mm inside the trim -- within the binding zone and the page's own edge colour
   [PASS] Binding-edge clearance
          closest text is 24.7 mm from the left edge on page 15; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
   [PASS] No trim or bleed marks
@@ -93,7 +101,9 @@ NOTES
     two templates they published for this book:
       bleed 3 mm on every edge (p.5); text file media box is
       trim + bleed = 222 x 285 mm (p.5,p.18)
-      page count one less than a multiple of 12: 86 (p.5)
+      page count supplied: 86 (86 of book); their production barcode
+      page is added at the rear whatever count is supplied (guide p.5;
+      over Royal/US Royal size their help centre asks for 4n-1)
       first page prints on the first right-hand page (p.5), so page 1 is a
       recto. Prime Books pages are not mirrored, so no layout moves; the
       binding-edge check below measures the real clearance instead

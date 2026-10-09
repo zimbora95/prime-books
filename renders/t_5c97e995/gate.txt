@@ -1,0 +1,5 @@
+book                                  pp  fail  warn  verdict
+y01-physical-education-standard      124     0     1  CLEAN
+
+1/1 books pass every machine check
+machine-clean is not standardised: the manual checklist still applies

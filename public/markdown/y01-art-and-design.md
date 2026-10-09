@@ -85,6 +85,9 @@ other publisher.
 
 Four rooms in one studio. Each room has its own colour, and you will work in all four this year.
 
+CONTENTS
+**3**
+
 **Unit 1 · The Mark Room**
 **08**
 
@@ -159,9 +162,6 @@ Art all through the year
 
 **Where we found out**
 **86**
-
-CONTENTS
-**3**
 
 <!-- page 4 -->
 
@@ -373,14 +373,12 @@ This is called a scribble drawing, and real artists do it to warm up too.
 
 **1**
 
-**one long line, never lift the crayon**
-
 **Unit 1 · The Mark Room**
 Drawing and mark making
 
 **10**
 
-one long line, never lift the crayon
+**one long line, never lift the crayon**
 
 <!-- page 11 -->
 
@@ -391,16 +389,6 @@ one long line, never lift the crayon
 
 Marks have names, just like animals do. When you know the name,
 you can ask for the mark you want.
-
-**line**
-**dots**
-**zigzag**
-**wave**
-**spiral**
-**loops**
-
-Six marks your hand can make.
-Try each one, then invent a new one.
 
 **Figure 1.1 Six marks and their names. Say each name aloud as you point at it.**
 
@@ -425,6 +413,16 @@ Drawing and mark making
 1.1 MARKS AND LINES
 **11**
 
+**line**
+**dots**
+**zigzag**
+**wave**
+**spiral**
+**loops**
+
+Six marks your hand can make.
+Try each one, then invent a new one.
+
 <!-- page 12 -->
 
 ---
@@ -448,15 +446,15 @@ Drawing and mark making
 1.1 MARKS AND LINES
 **12**
 
-line
-dots
-zigzag
+**line**
+**dots**
+**zigzag**
 
-wave
-spiral
-loops
+**wave**
+**spiral**
+**loops**
 
-invent a brand new mark of your own
+**invent a brand new mark of your own**
 
 <!-- page 13 -->
 
@@ -480,13 +478,16 @@ studio.
 
 **1**
 
-**soft → hard**
+**soft**
+**hard**
 
 **Unit 1 · The Mark Room**
 Drawing and mark making
 
 1.1 MARKS AND LINES
 **13**
+
+**→**
 
 <!-- page 14 -->
 
@@ -1017,15 +1018,6 @@ Weaving needs two sets of threads. One set waits, stretched tight.
 The other set travels across, going over one thread and under the
 next.
 
-**warp: the threads that wait**
-
-**weft:**
-the thread
-that travels
-
-Over, under, over, under.
-The next row starts the other way round.
-
 **Figure 2.1 Plain weave. Follow the rose thread with your finger: over, under, over, under. The next**
 row starts the other way round.
 
@@ -1046,6 +1038,15 @@ Weaving and sewing
 
 2.1 WEAVING
 **28**
+
+**warp: the threads that wait**
+
+**weft:**
+the thread
+that travels
+
+Over, under, over, under.
+The next row starts the other way round.
 
 <!-- page 29 -->
 
@@ -1103,15 +1104,6 @@ A stitch is a mark made with thread instead of a pencil. The simplest
 ## one of all is called running stitch, because the thread runs in and
 out of the cloth.
 
-**up**
-
-down
-
-**Running stitch: up, down, up, down**
-
-Every stitch is the same size.
-Every gap is the same size too.
-
 **Figure 2.5 Running stitch. The thread shows on top for a stitch and hides underneath for a gap.**
 
 **Figure 2.6 Push the blunt needle up through the hole, then down through the next one.**
@@ -1121,6 +1113,15 @@ Weaving and sewing
 
 2.2 STITCH AND LACE
 **30**
+
+**up**
+
+down
+
+**Running stitch: up, down, up, down**
+
+Every stitch is the same size.
+Every gap is the same size too.
 
 <!-- page 31 -->
 
@@ -1152,24 +1153,6 @@ Weaving and sewing
 ## Lacing is sewing round the outside of a shape. The holes are already
 punched for you, so all you do is follow the numbers.
 
-**1**
-
-**2**
-
-**3**
-**4**
-
-**5**
-
-**6**
-
-**7**
-
-**Lacing: in at 1, out at 2, in at 3**
-
-A solid thread is on top.
-A dotted thread is behind the card.
-
 **Figure 2.7 In at 1, out at 2, in at 3. Keep going all the way round.**
 
 **Your turn**
@@ -1190,8 +1173,28 @@ Weaving and sewing
 2.2 STITCH AND LACE
 **32**
 
+**1**
+
+**2**
+
+**3**
+**4**
+
+**5**
+
+**6**
+
+**7**
+
+**Lacing: in at 1, out at 2, in at 3**
+
+A solid thread is on top.
+A dotted thread is behind the card.
+
 Draw a row of running stitch along the dotted line below, the way a
+
 needle and thread would go. Count your stitches out loud.
+
 If you have a needle and thread, try it on cloth or a punched card!
 
 <!-- page 33 -->
@@ -1591,26 +1594,6 @@ Making shapes you can hold
 ## A circle you draw is flat. A ball you hold is solid. They look related,
 ## but only one of them has a back. A solid one is called a form.
 
-circle
-
-**sphere**
-
-square
-
-**cube**
-
-triangle
-
-**cone**
-
-rectangle
-
-**cylinder**
-
-The top shape is flat. The bottom form is solid,
-
-so you can hold it and turn it round.
-
 **Figure 3.1 Four flat shapes on the top row, and the solid form that matches each one underneath.**
 
 **Look and learn**
@@ -1632,6 +1615,26 @@ Making shapes you can hold
 
 3.1 SOLID FORMS
 **44**
+
+circle
+
+**sphere**
+
+square
+
+**cube**
+
+triangle
+
+**cone**
+
+rectangle
+
+**cylinder**
+
+The top shape is flat. The bottom form is solid,
+
+so you can hold it and turn it round.
 
 <!-- page 45 -->
 
@@ -1768,14 +1771,6 @@ If you just rest one lump of clay on another, it will fall off when it
 dries. There are four steps that make a join hold, and you need all
 four.
 
-**1. scratch**
-**2. wet**
-**3. press**
-**4. smooth**
-Do all four steps and your clay pieces
-
-stay together when they dry.
-
 **Figure 3.6 Scratch, wet, press, smooth. Miss one out and the join will crack.**
 
 **Unit 3 · The Clay Room**
@@ -1783,6 +1778,14 @@ Making shapes you can hold
 
 3.3 TEXTURE
 **49**
+
+**1. scratch**
+**2. wet**
+**3. press**
+**4. smooth**
+Do all four steps and your clay pieces
+
+stay together when they dry.
 
 <!-- page 50 -->
 
@@ -2139,10 +2142,10 @@ Brushes, colours, big and small
 4.1 BRUSHES AND TOOLS
 **60**
 
-fat brush
-thin brush
-sponge
-roller
+**fat brush**
+**thin brush**
+**sponge**
+**roller**
 
 <!-- page 61 -->
 
@@ -2154,6 +2157,23 @@ roller
 ## Red, yellow and blue are called the primary colours. You cannot mix
 them from anything else. But mix any two of them together and you
 get a brand new colour.
+
+**Figure 4.2 The colour wheel. The three big white circles are the primary colours. The colour**
+between any two of them is what you get when you mix them.
+
+**The three mixes to remember**
+
+## yellow + blue makes green
+
+## yellow + red makes orange
+
+## red + blue makes violet
+
+**Unit 4 · The Paint Room**
+Brushes, colours, big and small
+
+4.2 MIXING COLOUR
+**61**
 
 **1**
 
@@ -2176,23 +2196,6 @@ The three big white circles are the first colours.
 
 Mix two of them to make the one in between.
 
-**Figure 4.2 The colour wheel. The three big white circles are the primary colours. The colour**
-between any two of them is what you get when you mix them.
-
-**The three mixes to remember**
-
-## yellow + blue makes green
-
-## yellow + red makes orange
-
-## red + blue makes violet
-
-**Unit 4 · The Paint Room**
-Brushes, colours, big and small
-
-4.2 MIXING COLOUR
-**61**
-
 <!-- page 62 -->
 
 ---
@@ -2204,13 +2207,6 @@ Brushes, colours, big and small
 and swirl.
 
 ## Four ways to move the brush
-
-**dab**
-**sweep**
-**dry brush**
-**wash**
-One brush, four different marks.
-It is how you move your hand that changes them.
 
 **Figure 4.4 Dab, sweep, dry brush and wash. Same brush, same colour, four different results, with**
 the name of each one printed under the mark it makes.
@@ -2232,6 +2228,13 @@ Brushes, colours, big and small
 
 4.2 MIXING COLOUR
 **62**
+
+**dab**
+**sweep**
+**dry brush**
+**wash**
+One brush, four different marks.
+It is how you move your hand that changes them.
 
 <!-- page 63 -->
 

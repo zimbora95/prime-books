@@ -1,0 +1,116 @@
+{
+ "file": "y05-portuguese - input.xlsx",
+ "sheet": "Contents",
+ "headers": [
+  "Section type",
+  "Title",
+  "Page"
+ ],
+ "rows": [
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 0 - Avaliação Diagnóstica",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 1 - Textos para Informar e Descrever",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 2 - Texto Narrativo - Lugar, Tempo e Memória",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.1 - Texto Narrativo - Lenda do Galo de Barcelos",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.2 - Texto Narrativo - Relato de uma Viagem",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.3 - Texto Narrativo - Biografia",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.4 - Texto Narrativo - Literaturas de Língua Portuguesa",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.5 - Texto Narrativo - Sophia de Mello Breyner Andresen - O Rapaz de Bronze",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.6 - Texto Narrativo - Ondjaki - Ynari, A Menina das Cinco Tranças",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.7 - Texto Narrativo - Um Problema para Resolver",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.8 - Texto Narrativo - Conto de Mistério",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 2.9 - Texto Narrativo - História Contada com Falas",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 3 - Texto Poético - Linguagem Figurada",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 3.1 - Texto Poético - José Jorge Letria",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 3.2 - Texto Poético - Poema em Duas Vozes",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 4 - Texto Dramático",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.1 - Texto Dramático - Duas Cenas: O Aviso",
+   "Page": ""
+  },
+  {
+   "Section type": "Subunit",
+   "Title": "Unidade 4.2 - Texto Dramático - A Chave Desaparecida",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 5 - Revisões Anuais",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 6 - Avaliação",
+   "Page": ""
+  },
+  {
+   "Section type": "Unit",
+   "Title": "Unidade 7 - Atividades Extra",
+   "Page": ""
+  }
+ ]
+}

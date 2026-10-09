@@ -1,0 +1,246 @@
+{
+ "slug": "y04-english",
+ "built": "2026-09-17T17:19:53+00:00",
+ "source_pages": 98,
+ "source_mtime": 1789235038.6659365,
+ "source_bytes": 4264292,
+ "spine_per_page_mm": null,
+ "spine_mm": null,
+ "settings": {
+  "binding": "Perfect bound (paperback)",
+  "paper": "Colour interior, 80 gsm uncoated",
+  "lamination": "Matte",
+  "isbn": "",
+  "printType": "Standard"
+ },
+ "text": {
+  "file": "y04-english-text-file.pdf",
+  "url": "/library/y04-english/bookvault/y04-english-text-file.pdf",
+  "bytes": 2502503,
+  "pages": 96,
+  "content_pages": 96,
+  "padded_pages": 0,
+  "guide_suggested_pages": 107,
+  "pad_12n": false,
+  "pages_rule": "12n-1 supply (12n-1); packed 96 content pages, no blank padding (count is already a multiple of 12)",
+  "trim_mm": [
+   216.0,
+   279.0
+  ],
+  "page_fit_scale": 1.0,
+  "page_fit_note": "master 209.9 x 269.9 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 102/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer 3.06 mm (sides) and 4.54 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it",
+  "content_shift_mm": [
+   0.0,
+   1.95
+  ],
+  "content_shift_note": "content moved 0.0 mm toward the outer edge and 2.0 mm down: closest live text is now 18.9 mm off the gutter (was 18.9), 3.1 mm from the outer trim (was 3.1) and 6.0 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 3, 15.9 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm",
+  "media_mm": [
+   222.0,
+   285.0
+  ],
+  "trim_pt": [
+   629.29,
+   807.87
+  ],
+  "bleed_mm": 3.0,
+  "cover_stripped": true,
+  "type3": 52,
+  "pdfx": false,
+  "flattened": false,
+  "transparent_pages": 1,
+  "note": "kept RGB: 52 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 1 pages (the flattening pass could not clear it)"
+ },
+ "cover": {
+  "file": "y04-english-cover-file.pdf",
+  "url": "/library/y04-english/bookvault/y04-english-cover-file.pdf",
+  "preview": "/library/y04-english/bookvault/y04-english-cover-file.png",
+  "bytes": 1196089,
+  "px": [
+   5244,
+   3366
+  ],
+  "spine_mm": 6.0,
+  "full_cover_mm": [
+   443.99,
+   284.99
+  ],
+  "width_mm": 443.99,
+  "height_mm": 284.99,
+  "formula_mm": [
+   444.0,
+   285.0
+  ],
+  "back_src": "pdf-back",
+  "trim_mm": [
+   216.0,
+   279.0
+  ],
+  "interior_pages": 96,
+  "spine_text": true,
+  "spine_text_pt": 8.2,
+  "spine_text_floor_mm": 5.0,
+  "spine_text_clearance_mm": 1.0,
+  "barcode_mm": [
+   38.0,
+   25.0
+  ],
+  "barcode_ink": 0.0129,
+  "barcode_box_px": [
+   2062,
+   2996,
+   2511,
+   3291
+  ],
+  "spine_confirmed": false,
+  "spine_colour": [
+   96,
+   187,
+   70
+  ]
+ },
+ "checks": [
+  {
+   "name": "Text file page size is 222 x 285 mm",
+   "pass": true,
+   "detail": "222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed is 3 mm on all four edges",
+   "pass": true,
+   "detail": "guide p.5 requires 3 mm; media extends 3 mm past the trim on every side",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed continues the page edge",
+   "pass": true,
+   "detail": "no point across the cut lines puts a whitish colour against a coloured one (3456 points checked), so no white nick can print",
+   "level": "ok"
+  },
+  {
+   "name": "Page artwork survives assembly",
+   "pass": true,
+   "detail": "sampled interior pages carry the master's artwork",
+   "level": "ok"
+  },
+  {
+   "name": "Bleed seam matches the artwork",
+   "pass": true,
+   "detail": "the smear meets the page with no visible step in the bleed",
+   "level": "ok"
+  },
+  {
+   "name": "Live text clears their 20 mm gutter",
+   "pass": false,
+   "detail": "closest live text is 18.9 mm off the gutter (page 3); guide p.3 asks for 20 mm",
+   "level": "fail"
+  },
+  {
+   "name": "Live text clears their 5 mm trim safety",
+   "pass": false,
+   "detail": "closest live text is 3.1 mm from the left edge (page 10); their template draws a 5 mm safety line",
+   "level": "fail"
+  },
+  {
+   "name": "Single pages, portrait",
+   "pass": true,
+   "detail": "96 single pages, portrait, all 222.0 mm wide",
+   "level": "ok"
+  },
+  {
+   "name": "Page count is 12n-1",
+   "pass": false,
+   "detail": "96 pages (96 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page",
+   "level": "warn"
+  },
+  {
+   "name": "Last page is clear for their barcode",
+   "pass": true,
+   "detail": "the final page is blank, so the barcode they add lands on nothing",
+   "level": "ok"
+  },
+  {
+   "name": "Cover pages stripped from the interior",
+   "pass": true,
+   "detail": "the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice",
+   "level": "ok"
+  },
+  {
+   "name": "All fonts embedded",
+   "pass": true,
+   "detail": "every font is embedded (guide p.3)",
+   "level": "ok"
+  },
+  {
+   "name": "No Type 3 glyph-program fonts",
+   "pass": false,
+   "detail": "52 Type 3 fonts. These carry headings as drawing programs instead of an embedded font, so preflight rates them lowest of all font types, and Ghostscript 10.02.1 segfaults converting them to CMYK -- this book therefore stays RGB, which BookVault accept and convert themselves",
+   "level": "warn"
+  },
+  {
+   "name": "Transparency flattened",
+   "pass": false,
+   "detail": "1 pages still carry it (page 10: transparency group); Ghostscript's flattening pass ran and left it in place, so it has to be cleared before a print run (guide p.3)",
+   "level": "warn"
+  },
+  {
+   "name": "Images at 300 DPI or better",
+   "pass": false,
+   "detail": "2 below 300 DPI, e.g. page 10: 120 DPI; page 96: 150 DPI",
+   "level": "warn"
+  },
+  {
+   "name": "Master page box fitted to their trim",
+   "pass": true,
+   "detail": "master 209.9 x 269.9 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 102/255). Enlarging it to reach the cut would push its text out of the 20 mm gutter, so the page is placed 1:1: the outer 3.06 mm (sides) and 4.54 mm (top and bottom) of the printed page carry a soft continuation of the page edge. Re-export this master at 216 x 279 mm to remove it",
+   "level": "ok"
+  },
+  {
+   "name": "Artwork covers the printed area",
+   "pass": false,
+   "detail": "192 pages carry a soft continuation of the page edge up to 3.1 mm inside the trim: this master is smaller than the trim and cannot be enlarged without losing its gutter margin (see the page-size line above) -- re-export it at 216 x 279 mm to print artwork to the cut",
+   "level": "warn"
+  },
+  {
+   "name": "Binding-edge clearance",
+   "pass": false,
+   "detail": "closest text is 18.9 mm from the left edge on page 33; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm",
+   "level": "warn"
+  },
+  {
+   "name": "No trim or bleed marks",
+   "pass": true,
+   "detail": "none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any",
+   "level": "ok"
+  },
+  {
+   "name": "Text file is PDF/X-1a:2001 with CMYK",
+   "pass": false,
+   "detail": "kept RGB: 52 Type 3 fonts block Ghostscript's CMYK conversion (guide p.6 accepts RGB, their preflight converts); transparency left on 1 pages (the flattening pass could not clear it)",
+   "level": "warn"
+  },
+  {
+   "name": "Cover file is a perfect-bound spread",
+   "pass": true,
+   "detail": "443.99 x 284.99 mm = back 216 + spine 6 + front 216 + 3 mm bleed, by their p.18 formula",
+   "level": "ok"
+  },
+  {
+   "name": "Barcode area clear on the back cover",
+   "pass": true,
+   "detail": "the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK",
+   "level": "ok"
+  },
+  {
+   "name": "Spine width taken from their sizing calculator",
+   "pass": false,
+   "detail": "built at 6 mm from 96 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>",
+   "level": "warn"
+  }
+ ],
+ "sheet": {
+  "file": "y04-english-bookvault.txt",
+  "url": "/library/y04-english/bookvault/y04-english-bookvault.txt"
+ },
+ "ok": false
+}

@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
-Portuguese 1st - Year 8
+Português · 8.º Ano — Manual do Aluno
 slug y08-portuguese-1st-anthropic
-generated 2026-09-30 19:40 UTC
+generated 2026-10-09 16:35 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -9,83 +9,87 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Binding ............ Perfect bound (paperback)
   Paper stock ........ Colour interior, 80 gsm uncoated
   Cover lamination ... Matte
-  Trim size .......... 216 x 279 (US Letter) -- the standard option in their
-                       SIZE list. Their own template for this book is
-                       v4_Text_279_216.pdf: 222 x 285 mm
-                       with 3 mm bleed, i.e. 216 x 279 mm finished. Pick the standard size;
-                       use CUSTOM only if that option is missing from your list.
+  Trim size .......... 210 x 297 (A4) -- one of BookVault's own
+                       book sizes. The size entered on the title must read
+                       this. Media is 216 x 303 mm = 210 x
+                       297 mm finished with 3 mm bleed (their p.5/p.18 formula).
   Page count ......... 175 (interior only, covers excluded)
-                       = 175 pages of book. No blank pages at the rear, by request:
-                       their guide suggests 179 (one less than a multiple of 12) so their
-                       production barcode lands on a blank last page. Here the last page carries content.
+                       = 172 pages of book + 1 flyleaf before p.2
+                       (so odd folios print on rectos exactly as
+                       designed) + 2 blank pages at the rear so their
+                       production barcode lands on a blank last
+                       page. 175 = one less than a multiple of
+                       4, their help centre’s count rule above
+                       US Royal size.
   Colour pages ....... 175
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
-  Content position ... the master already carries their 20 mm binding margin (32.7 mm off the gutter as built), so the page is placed 1:1 on the trim and nothing is moved: no sliver opens at the gutter for the smear to fill
-  Page size ......... master page box 216.0 x 279.0 mm matches the trim within a printer's tolerance; no rescaling
+  Content position ... content moved 0.0 mm toward the outer edge and 0.0 mm down: closest live text is now 13.8 mm off the gutter (was 13.8), 5.7 mm from the outer trim (was 5.7) and 6.7 mm from the top trim (their rules: 20 mm gutter, 5 mm trim; tightest page 94, 13.8 mm off the gutter); this page cannot reach 20 mm without pushing the outer margin under 5 mm
+  Page size ......... master page box 210.0 x 297.0 mm matches the trim within a printer's tolerance; no rescaling
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
 --------------------------------------------------------------------------
   TEXT FILE   y08-portuguese-1st-anthropic-text-file.pdf
-              175 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
-              left as RGB (--no-pdfx)
+              175 pages, media box 216.00 x 303.00 mm = 210 x 297 mm trim + 3 mm bleed
+              kept RGB: the master sets its text in fonts that cannot be embedded (1 Type 3 glyph programs); the pack outlines those glyphs so BookVault's font check passes, and their preflight converts the RGB (guide p.6)
+              outlined glyphs, text re-laid invisibly (11346 spans)
   COVER FILE  y08-portuguese-1st-anthropic-cover-file.pdf
-              5291 x 3366 px at 300 DPI = 447.97 x 284.99 mm
-              = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)
+              5150 x 3579 px at 300 DPI = 436.03 x 303.02 mm
+              = back 210 + spine 10 + front 210 + 3 mm bleed (guide p.18)
               spine 10 mm from 175 interior pages (padded count)
               back cover art: pdf-back
 
 --------------------------------------------------------------------------
 STEP 3  Checks
 --------------------------------------------------------------------------
-  [PASS] Text file page size is 222 x 285 mm
-         222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)
+  [PASS] Text file page size is 216 x 303 mm
+         216.00 x 303.00 mm = 210 x 297 mm trim plus 3 mm bleed (trim + bleed on every edge, their p.5/p.18 formula)
   [PASS] Bleed is 3 mm on all four edges
          guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
   [PASS] Bleed continues the page edge
          no point across the cut lines puts a whitish colour against a coloured one (6300 points checked), so no white nick can print
   [OPEN] Bleed approximates the artwork at the cut
-         259 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
+         267 of 6300 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
   [PASS] Page artwork survives assembly
          sampled interior pages carry the master's artwork
   [PASS] Bleed seam matches the artwork
          the smear meets the page with no visible step in the bleed
-  [PASS] Live text clears their 20 mm gutter
-         closest live text is 32.7 mm off the gutter (page 148); guide p.3 asks for 20 mm
-  [PASS] Live text clears their 5 mm trim safety
-         closest live text is 5.3 mm from the right edge (page 31); their template draws a 5 mm safety line
+  [FAIL] Live text clears their 20 mm gutter
+         closest live text is 13.8 mm off the gutter (page 94); guide p.3 asks for 20 mm
+  [FAIL] Live text clears their 5 mm trim safety
+         closest live text is 4.1 mm from the right edge (page 149); their template draws a 5 mm safety line
   [PASS] Single pages, portrait
-         175 single pages, portrait, all 222.0 mm wide
-  [OPEN] Page count is 12n-1
-         175 pages (175 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+         175 single pages, portrait, all 216.0 mm wide
+  [PASS] Page count is 4n-1
+         175 pages (175 of book); guide p.5: supply one less than a divisible of 4, the production barcode is added to the last page
   [PASS] Last page is clear for their barcode
          the final page is blank, so the barcode they add lands on nothing
   [PASS] Cover pages stripped from the interior
          the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
   [PASS] All fonts embedded
-         every font is embedded (guide p.3)
+         every font is embedded: the book's glyphs are outlined as the vector artwork they always were, and the one font left -- the invisible, searchable text layer -- is embedded (guide p.3)
   [PASS] No Type 3 glyph-program fonts
-         none: every font is a real embedded font file (guide p.3)
+         none: the Type 3 glyph programs this book was set in are now vector artwork in the page itself (guide p.3)
   [PASS] Transparency flattened
          no soft masks, transparency groups or blend modes left (guide p.3)
   [OPEN] Images at 300 DPI or better
-         23 below 300 DPI, e.g. page 2: 7 DPI; page 3: 7 DPI; page 5: 7 DPI
+         25 below 300 DPI, e.g. page 7: 124 DPI; page 10: 124 DPI; page 12: 1 DPI
   [PASS] Master page box fitted to their trim
-         master page box 216.0 x 279.0 mm matches the trim within a printer's tolerance; no rescaling
+         master page box 210.0 x 297.0 mm matches the trim within a printer's tolerance; no rescaling
   [PASS] Artwork covers the printed area
-         the artwork reaches -0.0 mm past the 216 x 279 mm trim on every visible edge
-  [PASS] Binding-edge clearance
-         closest text is 32.9 mm from the left edge on page 59; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+         the artwork reaches -0.0 mm past the 210 x 297 mm trim on every visible edge
+  [FAIL] Binding-edge clearance
+         closest text is 15.1 mm from the left edge on page 59; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm -- this is under even the template's figure
   [PASS] No trim or bleed marks
-         none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
-  [OPEN] Text file is PDF/X-1a:2001 with CMYK
-         left as RGB (--no-pdfx)
+         none are drawn, and the media box is exactly trim + bleed (216.00 x 303.00 mm), leaving no room for any
+  [PASS] Text file is PDF/X-1a:2001 with CMYK
+         kept RGB: the master sets its text in fonts that cannot be embedded (1 Type 3 glyph programs); the pack outlines those glyphs so BookVault's font check passes, and their preflight converts the RGB (guide p.6)
   [PASS] Cover file is a perfect-bound spread
-         447.97 x 284.99 mm = back 216 + spine 10 + front 216 + 3 mm bleed, by their p.18 formula
-  [OPEN] Barcode area clear on the back cover
-         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is 2.5% covered by artwork; a barcode is required printing outside the UK
+         436.03 x 303.02 mm = back 210 + spine 10 + front 210 + 3 mm bleed, by their p.18 formula
+  [PASS] Barcode area clear on the back cover
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 6.4 mm up) is empty; a barcode is required printing outside the UK
   [OPEN] Spine width taken from their sizing calculator
          built at 10 mm from 175 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
 
@@ -100,7 +104,7 @@ NOTES
     Print-Ready PDF Files', kept in docs/bookvault/ together with the
     two templates they published for this book:
       bleed 3 mm on every edge (p.5); text file media box is
-      trim + bleed = 222 x 285 mm (p.5,p.18)
+      trim + bleed = 216 x 303 mm (p.5,p.18)
       page count supplied: 175 (175 of book); their production barcode
       page is added at the rear whatever count is supplied (guide p.5;
       over Royal/US Royal size their help centre asks for 4n-1)
@@ -118,4 +122,13 @@ NOTES
     This file is converted to CMYK through Ghostscript's default CMYK
     profile, not a FOGRA one - ask BookVault for their output profile and
     rebuild with --profile <icc> if the press is calibrated.
+  * FONT EMBEDDING (BookVault's check, the one this book failed):
+    the interior carried fonts with no program behind them -- base-14
+    Helvetica, which pymupdf edits leave behind, and Type 3 fonts,
+    which are glyph programs rather than font files. Neither can be
+    embedded, so the pack outlines those glyphs: they were vector art
+    already, and the page renders pixel for pixel the same. The
+    11346 text spans are re-laid invisibly in ONE
+    embedded font, so the file still searches and still copy-pastes.
+    Fonts replaced: (all Type 3)
 

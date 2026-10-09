@@ -184,20 +184,17 @@
   <b>1..N in the book's order</b> (<span class="ui">Unit 2, Unit 4, Unit 6</span> → <b>Unit 1,
   Unit 2, Unit 3</b>). A <b>Term 1</b> row heads the units under it instead of being
   numbered as one, and a row that is really the book's own <b>contents page</b> is marked as
-  such. Spelling the book corroborates is left exactly as the author wrote it, and the
-  corrections to a title whose source is a spreadsheet are written back into that
-  spreadsheet, so they are permanent rather than a display trick.
-  <span class="ui">.venv/bin/python tools/normalise_titles.py</span> lists every change.
+  such. Spreadsheet-backed rows come from the workbook's Contents sheet; the Excel source
+  stays downloadable and editable, while PDF sources remain downloadable documents.
+  <span class="ui">.venv/bin/python tools/normalise_titles.py</span> lists label changes.
   <br>
   <b>Where this comes from.</b> Two sources, and every title says which one it is on.
-  Where a title has an <b>input spreadsheet</b> — the school's own scheme of work, kept at
-  <span class="ui">public/inputs/&lt;slug&gt; - input.&lt;ext&gt;</span> — its rows are
-  expanded exactly as they stand: <b>Unit</b>, then its <b>Subunits</b> in order, then the
-  term, revision and assessment <b>sections</b> that belong to no unit.
-  Where the input is a <b>PDF document</b>, or there is no input at all, the list comes from
-  the <b>book itself</b> instead — it is captured by opening the book in the reader and
-  reading the panel, so it is the same list you see under <b>Sections</b>, with the reader's
-  own page numbers. Each such block says so.
+  Where a title has a <b>structured scheme-of-work table</b>, its units and subunits are
+  shown directly, in order. Spreadsheet titles link to the editable <b>XLSX</b>; PDF inputs
+  remain available as downloadable <b>PDF</b> documents.
+  Where there are no structured source rows, the list comes from the <b>book itself</b> —
+  captured from the reader's <b>Sections</b> panel, with the reader's own page numbers.
+  Each such block says so.
   Blank pages are the scheme's own blanks; nothing here is inferred, and no title mixes the
   two sources. A title with <b>no list yet</b> is one nothing can be read from — the 2-page
   shells, the PDFs with no contents page, and the books whose contents page the reader cannot

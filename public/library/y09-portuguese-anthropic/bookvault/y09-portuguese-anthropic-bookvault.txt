@@ -1,7 +1,7 @@
 PRIME BOOKS -- BOOKVAULT UPLOAD SHEET
-Português 9.º ano · volume único · Unidades 1–7 + soluções, glossário, recursos, planificação e referências
+Portuguese - Year 9
 slug y09-portuguese-anthropic
-generated 2026-09-23 02:59 UTC
+generated 2026-09-23 03:24 UTC
 
 --------------------------------------------------------------------------
 STEP 1  Add the title on bookvault.app, then enter these specs
@@ -9,12 +9,21 @@ STEP 1  Add the title on bookvault.app, then enter these specs
   Binding ............ Perfect bound (paperback)
   Paper stock ........ Colour interior, 80 gsm uncoated
   Cover lamination ... Matte
-  Trim size .......... 216 x 279 (US Letter) -- their template v4_Text_279_216.pdf (222 x 285 with 3 mm bleed)
+  Trim size .......... 216 x 279 (US Letter) -- the standard option in their
+                       SIZE list. Their own template for this book is
+                       v4_Text_279_216.pdf: 222 x 285 mm
+                       with 3 mm bleed, i.e. 216 x 279 mm finished. Pick the standard size;
+                       use CUSTOM only if that option is missing from your list.
   Page count ......... 166 (interior only, covers excluded)
+                       = 166 pages of book. No blank pages at the rear, by request:
+                       their guide suggests 167 (one less than a multiple of 12) so their
+                       production barcode lands on a blank last page. Here the last page carries content.
   Colour pages ....... 166
   Mono pages ......... 0
   ISBN ............... (none yet - BookVault can issue a dummy)
   Print type ......... Standard
+  Content position ... the master already carries their 20 mm binding margin (20.4 mm off the gutter as built), so the page is placed 1:1 on the trim and nothing is moved: no sliver opens at the gutter for the smear to fill
+  Page size ......... master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 59/255), so a flat margin would show: the page is enlarged 0.0 % so the artwork reaches the edge of the 3 mm bleed
 
 --------------------------------------------------------------------------
 STEP 2  Upload the two files
@@ -23,9 +32,10 @@ STEP 2  Upload the two files
               166 pages, media box 222.00 x 285.00 mm = 216 x 279 mm trim + 3 mm bleed
               PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
   COVER FILE  y09-portuguese-anthropic-cover-file.pdf
-              448.00 x 285.00 mm = back 216 + spine 10 + front 216 + 3 mm bleed
-              spine 10 mm from 166 pages x 0.056 mm (rounded up) -- CONFIRM on their sizing calculator
-              PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+              5291 x 3366 px at 300 DPI = 447.97 x 284.99 mm
+              = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)
+              spine 10 mm from 166 interior pages (padded count)
+              back cover art: pdf-back
 
 --------------------------------------------------------------------------
 STEP 3  Checks
@@ -33,32 +43,79 @@ STEP 3  Checks
   [PASS] Text file page size is 222 x 285 mm
          222.00 x 285.00 mm = 216 x 279 mm trim plus 3 mm bleed (their text template is 222 x 285)
   [PASS] Bleed is 3 mm on all four edges
-         every page is built at 222 x 285 mm with art to the media edge; TrimBox declared 3 mm inside
-  [PASS] Single pages, portrait
-         166 single pages, portrait
+         guide p.5 requires 3 mm; media extends 3 mm past the trim on every side
+  [PASS] Bleed continues the page edge
+         no point across the cut lines puts a whitish colour against a coloured one (5976 points checked), so no white nick can print
+  [OPEN] Bleed approximates the artwork at the cut
+         136 of 5976 points differ by more than 30 units where both sides are coloured detail: the flat smear's limit on artwork that runs along the cut, entirely inside the 3 mm that is trimmed away
+  [PASS] Page artwork survives assembly
+         sampled interior pages carry the master's artwork
+  [PASS] Bleed seam matches the artwork
+         the smear meets the page with no visible step in the bleed
   [PASS] Live text clears their 20 mm gutter
-         closest live text is 20.3 mm off the gutter; guide p.3 asks for 20 mm
+         closest live text is 20.3 mm off the gutter (page 91); guide p.3 asks for 20 mm
   [PASS] Live text clears their 5 mm trim safety
-         outer 9.1 · top 7.3 · bottom 6.5 mm from the trim
-  [OPEN] Page count is 12n-1 (guide suggestion)
-         166 pages; the guide (p.5) suggests 12n-1 (155 or 167) for whole 12-page sections -- advisory only, even counts print; no blank pages added
-  [PASS] Cover art not repeated in the interior
-         interior page 1 is the title page; the cover art is printed only on the cover file
+         closest live text is 6.5 mm from the bottom edge (page 30); their template draws a 5 mm safety line
+  [PASS] Single pages, portrait
+         166 single pages, portrait, all 222.0 mm wide
+  [OPEN] Page count is 12n-1
+         166 pages (166 of book); guide p.5: supply one less than a divisible of 12, the production barcode is added to the last page
+  [OPEN] Last page is clear for their barcode
+         the final page carries content -- their barcode will be printed over it
+  [PASS] Cover pages stripped from the interior
+         the front cover and the back cover are removed: they belong in the cover file, and leaving them in prints the cover twice
   [PASS] All fonts embedded
-         every font is a real embedded TrueType program (guide p.3)
+         every font is embedded (guide p.3)
   [PASS] No Type 3 glyph-program fonts
-         none
-  [FAIL] Images at 300 DPI or more
-         page 1: 132 DPI; page 1: 213 DPI; page 1: 82 DPI
-  [PASS] No live transparency
-         no soft masks, no blend modes: overlays are baked into the pixels
-  [PASS] PDF/X-1a:2001, CMYK
-         text: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text; cover: PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
-  [PASS] Cover file size
-         448.00 x 285.00 mm = back 216 + spine 10 + front 216 + 3 mm bleed (guide p.18)
-  [OPEN] Spine width confirmed on their sizing calculator
-         10 mm = ceil(0.056 mm x 166 pages), the house caliper; confirm on bookvault.app > help > sizing calculator for the paper chosen, then rebuild with SPINE_MM=<mm> if it differs
-  [PASS] Barcode zone on the back is clear
-         0.00% ink inside their 38 x 25 mm barcode box
-  [PASS] QR codes open public sites only
-         91 codes decoded; none points at the build site: http://arquivopessoa.net/textos/2705 · http://noticias.centromariodionisio.org?p=6877 · https://arquivos.rtp.pt/conteudos/auto-da-barca-do-inferno-de-gil-vicente · https://camoesdigital.pt/ · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/aparte-e-monologo/30420 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/didascalias/17824 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-conceito-de-amalgama/16233 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/os-quantificadores-e-as-suas-subclasses/20602 · https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/sinalefa-e-crase-na-divisao-de-versos-em-silabas-metricas/29583 · https://dicionario.priberam.org/ · https://dt.dge.mec.pt/ · https://dt.dge.mec.pt/index.php?id=n263 · https://ensina.rtp.pt/artigo/amor-e-um-fogo-que-arde-sem-se-ver-de-luis-de-camoes/ · https://ensina.rtp.pt/artigo/antonio-gedeao-1906-1997 · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente-2/ · https://ensina.rtp.pt/artigo/auto-da-barca-do-inferno-de-gil-vicente/ · https://ensina.rtp.pt/artigo/autopsicografia-de-fernando-pessoa/ · https://ensina.rtp.pt/artigo/como-se-recupera-uma-praia/ · https://ensina.rtp.pt/artigo/fernando-pessoa-mar-portugues/ · https://ensina.rtp.pt/artigo/jorge-amado-capitao-das-letras/ · https://ensina.rtp.pt/artigo/jorge-de-sena/ · https://ensina.rtp.pt/artigo/luis-vaz-de-camoes/ · https://ensina.rtp.pt/artigo/mia-couto-construtor-da-lingua-portuguesa/ · https://ensina.rtp.pt/artigo/miguel-torga-1907-1995/ · https://ensina.rtp.pt/artigo/minibiografia-de-almeida-garrett/ · https://ensina.rtp.pt/artigo/o-diario-de-anne-frank-uma-peca-para-conhecer-a-menina-judia/ · https://ensina.rtp.pt/artigo/um-litoral-ameacado/ · https://estudoautonomo.dge.mec.pt/recurso/auto-da-barca-do-inferno-cena-introdutoria · https://estudoemcasaapoia.dge.mec.pt/recurso/barca-bela-de-garrett-folhas-caidas · https://estudoemcasaapoia.dge.mec.pt/recurso/discurso-direto-e-discurso-indireto · https://estudoemcasaapoia.dge.mec.pt/recurso/historia-breve-da-lua-de-antonio-gedeao-1 · https://estudoemcasaapoia.dge.mec.pt/recurso/oracoes-subordinadas-adjetivas-relativas · https://pt.wikisource.org/wiki/Auto_da_Barca_do_Inferno · https://pt.wikisource.org/wiki/Descal%C3%A7a_vai_para_a_fonte · https://pt.wikisource.org/wiki/O_Tesouro · https://purl.pt/12157/1/ficcao/historia-lua.html · https://purl.pt/96/1/ · https://www.annefrank.org/en/anne-frank/who-was-anne-frank/quem-foi-anne-frank/ · https://www.cplp.org/estados-membros · https://www.museusemonumentos.pt/ · https://www.pnl2027.gov.pt/ · https://www.pnl2027.gov.pt/np4/file/2634/Vanessa_vai_a_luta..._e_leva_os__leitore.pdf · https://www.tndm.pt/ · https://www.tnsj.pt/pt/espetaculos/5802/vanessa-vai-a-luta · https://www.tolkienestate.com/life/biography/
+         none: every font is a real embedded font file (guide p.3)
+  [PASS] Transparency flattened
+         no soft masks, transparency groups or blend modes left (guide p.3)
+  [OPEN] Images at 300 DPI or better
+         29 below 300 DPI, e.g. page 3: 150 DPI; page 7: 150 DPI; page 8: 150 DPI
+  [PASS] Master page box fitted to their trim
+         master 222.0 x 285.0 mm is smaller than the 216 x 279 mm trim and its edges carry detail (worst step 59/255), so a flat margin would show: the page is enlarged 0.0 % so the artwork reaches the edge of the 3 mm bleed
+  [PASS] Artwork covers the printed area
+         the artwork reaches 3.0 mm past the 216 x 279 mm trim on every visible edge
+  [PASS] Binding-edge clearance
+         closest text is 20.4 mm from the right edge on page 136; guide p.3 asks for 20 mm on the gutter, their template prints 17 mm
+  [PASS] No trim or bleed marks
+         none are drawn, and the media box is exactly trim + bleed (222.00 x 285.00 mm), leaving no room for any
+  [PASS] Text file is PDF/X-1a:2001 with CMYK
+         PDF/X-1a:2001, CMYK, fonts embedded, text kept as text
+  [PASS] Cover file is a perfect-bound spread
+         447.97 x 284.99 mm = back 216 + spine 10 + front 216 + 3 mm bleed, by their p.18 formula
+  [PASS] Barcode area clear on the back cover
+         the 38 x 25 mm box their template reserves (6.4 mm in from the right trim, 3.3 mm up) is empty; a barcode is required printing outside the UK
+  [OPEN] Spine width taken from their sizing calculator
+         built at 10 mm from 166 pages x 0.056 mm per page, rounded up (guide p.18). Run home > help > sizing calculator for the real paper and rebuild with --spine-mm <mm>
+
+--------------------------------------------------------------------------
+NOTES
+--------------------------------------------------------------------------
+  * In a Prime Books PDF, page 1 is the front cover and the last page
+    is the back cover. Both are reprinted inside the cover file, so
+    they are removed from the text file: y09-portuguese-anthropic.pdf has 168 pages,
+    this text file has 166.
+  * Rules followed here are from BookVault's 'Your Guide to Supplying
+    Print-Ready PDF Files', kept in docs/bookvault/ together with the
+    two templates they published for this book:
+      bleed 3 mm on every edge (p.5); text file media box is
+      trim + bleed = 222 x 285 mm (p.5,p.18)
+      page count supplied: 166 (166 of book); their production barcode
+      page is added at the rear whatever count is supplied (guide p.5;
+      over Royal/US Royal size their help centre asks for 4n-1)
+      first page prints on the first right-hand page (p.5), so page 1 is a
+      recto. Prime Books pages are not mirrored, so no layout moves; the
+      binding-edge check below measures the real clearance instead
+      covers inset: content kept 5 mm clear of the cover trim (p.19)
+  * Bleed is extended from each page's own edge artwork, so the running-
+    header band and any full-bleed art carry to the trim line with no gap.
+  * Spine: guide p.18 takes it from the sizing calculator and rounds UP to
+    a whole mm. This build uses 0.056 mm per page (their 80gsm bond example:
+    100 pages = 5.6 mm). Run the calculator for the paper you choose, then
+    rebuild with --spine-mm <mm> and the OPEN check below clears.
+  * Colour: guide p.6 prefers CMYK with a FOGRA profile, and accepts RGB.
+    This file is converted to CMYK through Ghostscript's default CMYK
+    profile, not a FOGRA one - ask BookVault for their output profile and
+    rebuild with --profile <icc> if the press is calibrated.
+

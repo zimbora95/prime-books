@@ -456,7 +456,7 @@
       285.0
     ],
     "cover_wrap_formula": "2 x trim width + spine + 3 mm + 3 mm, by trim height + 3 mm + 3 mm",
-    "spine": "BookVault's sizing calculator figure for the stock actually ordered, rounded up to a whole millimetre. The 0.056 mm per page in their worked example is a bond-paper figure: measure the first proof with calipers and correct spine_per_page_mm if it is out by more than 0.5 mm. Spine text only from 6 mm, centred and K only",
+    "spine": "BookVault's sizing calculator figure for the stock actually ordered, rounded up to a whole millimetre. The 0.056 mm per page in their worked example is a bond-paper figure: measure the first proof with calipers and correct spine_per_page_mm if it is out by more than 0.5 mm. The spine line is identical in every book -- SUBJECT, then YEAR N, then the imprint -- set from 5 mm, fitted to the spine's usable width and never below the 4 pt floor, centred, K only; a narrower spine stays plain",
     "barcode_box_mm": [
       38.0,
       25.0

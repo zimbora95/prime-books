@@ -13,25 +13,69 @@ Student Manual
 <!-- page 2 -->
 
 ---
-Humanities
+**P R I M E S C H O O L P R E S S**
 
-Year 9
+## Humanities
 
-Cambridge Lower Secondary
+**Year 9 · Student Book**
 
-Student Book · Prime Books
+Learn to read the world.
 
-ABOUT TH I S BOOK
+One subject, in two parts. Part one builds your position on the planet: the lines, the coordinates, the
+climates and the two ways of halving a world. Part two then runs one unbroken causal line from the
+Renaissance to the world you live in. Ten chapters, 60 numbered topics, and eight Portugal in the global
+story sections, with the answers, a glossary, the sources and an index at the back.
 
-One subject, in two parts. Part one builds your position on the planet: the lines, the
+**I N S I D E T H I S B O O K**
 
-coordinates, the climates and the two ways of halving a world. Part two then runs one
+Part one: your position on the planet — the grid,
+coordinates and climates
 
-unbroken causal line from the Renaissance to the world you live in.
+Part two: from the Renaissance to the world you
+live in
 
-Ten chapters, 60 numbered topics, and eight Portugal in the global story
+Ten chapters and sixty numbered topics
 
-sections, with the answers, a glossary, the sources and an index at the back.
+Eight Portugal in the global story sections
+
+Answers, glossary, sources and index at the
+back
+
+**I M P R I N T**
+
+**EDITION**
+First edition, 2026. Printed in full colour on white stock.
+
+**PUBLISHER**
+Prime School Press is the publishing imprint of Prime School, Portugal.
+
+**RIGHTS**
+© Prime School 2026. All rights reserved. No part of this publication may be
+reproduced, stored in a retrieval system or transmitted in any form or by any
+means without the prior written permission of the publisher.
+
+**CREDITS**
+Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical
+Department · Content Creation Team. Written and typeset in the Prime School
+Press studio, Lisbon.
+
+**CURRICULUM**
+Cambridge Lower Secondary, Stage 9. Ages about 13 to 14.
+
+**LICENCE**
+It is an independent publication and is not an official Cambridge Assessment
+International Education or Oxford University Press publication.
+
+Independent publication. This is an independent publication produced by Prime
+School for use within its own programmes of study. It is not affiliated with,
+licensed by, endorsed by or approved by any examination board, or by any other
+publisher.
+
+**A g e s 1 3 t o 1 4 · L o w e r S e c o n d a r y**
+
+**w w w . p r i m e s c h o o l . p t**
+
+**2**
 
 <!-- page 3 -->
 
@@ -6566,11 +6610,17 @@ Prime School Press - www.primeschool.pt
 <!-- page 126 -->
 
 ---
-**P R I M E  B O O K S**
+**P R I M E  S C H O O L  P R E S S**
 
 ## Humanities
 
-ourse:
+Year 9 · Prime School Press · Student Manual
+
+Learn to read the world.
+
+Year 9 humanities weaves history, geography and citizenship into one course:
+
+sources, maps, case studies and big questions about people and place.
 
 **INSIDE THIS BOOK**
 
@@ -6589,10 +6639,8 @@ Skills practice: sources, data, essays
 •
 Unit reviews with model answers
 
-**Prime Books · Humanities**
+**Prime School Press · Humanities**
 
 Ages 13–14 · Lower Secondary
 
 **primeschool.pt**
-
-Student Manual

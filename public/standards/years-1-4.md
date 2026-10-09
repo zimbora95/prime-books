@@ -164,7 +164,10 @@ evidence in the same medium.
 
 - Trim 216 x 279 mm, media 222 x 285 mm, 3 mm bleed, safe area as above.
 - Cover wrap 443 x 285 mm: back, spine and front on one sheet. Spine width from BookVault's sizing
-  calculator for the stock ordered, rounded up to a whole millimetre; spine text only from 6 mm.
+  calculator for the stock ordered, rounded up to a whole millimetre. The spine line is the same in
+  every book: the subject and year, then the imprint, set from 5 mm, fitted to the spine's usable
+  width and never below the 4 pt floor; a narrower spine stays plain rather than set at a size that
+  would run against the fold.
 - Barcode zone 38 x 25 mm, 6.4 mm in from the back cover trim edge, 3.3 mm up. Mandatory.
 - Smallest text 4 pt, thinnest line 0.25 pt, body and heading black 100 percent K only.
 - Images 300 dpi, 150 dpi floor. Transparency flattened. Fonts embedded and subset.

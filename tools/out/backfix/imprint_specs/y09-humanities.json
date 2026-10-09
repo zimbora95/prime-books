@@ -1,0 +1,26 @@
+{
+  "slug": "y09-humanities",
+  "year": 9,
+  "title": "Humanities",
+  "sub": "Year 9 · Student Book",
+  "hook": "Learn to read the world.",
+  "lead": "One subject, in two parts. Part one builds your position on the planet: the lines, the coordinates, the climates and the two ways of halving a world. Part two then runs one unbroken causal line from the Renaissance to the world you live in. Ten chapters, 60 numbered topics, and eight Portugal in the global story sections, with the answers, a glossary, the sources and an index at the back.",
+  "bullets": [
+    "Part one: your position on the planet — the grid, coordinates and climates",
+    "Part two: from the Renaissance to the world you live in",
+    "Ten chapters and sixty numbered topics",
+    "Eight Portugal in the global story sections",
+    "Answers, glossary, sources and index at the back"
+  ],
+  "rows": [
+    ["EDITION", "First edition, 2026. Printed in full colour on white stock."],
+    ["PUBLISHER", "Prime School Press is the publishing imprint of Prime School, Portugal."],
+    ["RIGHTS", "© Prime School 2026. All rights reserved. No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form or by any means without the prior written permission of the publisher."],
+    ["CREDITS", "Editorial Board. Pedagogical Academic Group · Pedagogical Team · Pedagogical Department · Content Creation Team. Written and typeset in the Prime School Press studio, Lisbon."],
+    ["CURRICULUM", "Cambridge Lower Secondary, Stage 9. Ages about 13 to 14."],
+    ["LICENCE", "It is an independent publication and is not an official Cambridge Assessment International Education or Oxford University Press publication."]
+  ],
+  "ages": "Ages 13 to 14",
+  "band": "Lower Secondary",
+  "folio": 2
+}

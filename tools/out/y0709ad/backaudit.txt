@@ -1,0 +1,370 @@
+audited 125: 28 on-standard, 97 with findings
+  ON  y01-art-and-design                 back p88
+  ON  y01-global-perspectives            back p174
+  ON  y01-physical-education             back p98
+  ON  y01-portuguese                     back p12
+  ON  y02-art-and-design                 back p164
+  ON  y02-global-perspectives            back p180
+  ON  y03-art-and-design                 back p96
+  ON  y03-global-perspectives            back p158
+  ON  y03-physical-education             back p158
+  ON  y03-portuguese                     back p124
+  ON  y04-art-and-design                 back p84
+  ON  y04-computing-and-robotics         back p30
+  ON  y04-global-perspectives            back p110
+  ON  y04-physical-education             back p170
+  ON  y04-portuguese                     back p114
+  ON  y05-art-and-design                 back p126
+  ON  y05-global-perspectives            back p114
+  ON  y06-art-and-design                 back p98
+  ON  y06-global-perspectives            back p118
+  ON  y07-art-and-design                 back p74
+  ON  y07-humanities                     back p176
+  ON  y07-spanish                        back p178
+  ON  y08-art-and-design                 back p110
+  ON  y08-humanities                     back p250
+  ON  y08-spanish                        back p248
+  ON  y09-art-and-design                 back p72
+  ON  y09-humanities                     back p126
+  ON  y09-spanish                        back p238
+  OFF y01-computing-and-robotics         back p182 [vector]
+        - card top [352] != 364
+  OFF y01-english                        back p186 [vector]
+        - card top [352] != 364
+  OFF y01-english-standard               back p71 [vector]
+        - imprint top 642 != 68
+        - no 33pt title line
+        - no "Year N ... Student Manual" subtitle line
+        - no accent bar
+        - card top [0] != 364
+        - only 1 footer lines
+  OFF y01-german-a1a2                    back p100 [vector]
+        - card top [352] != 364
+  OFF y01-german-b1b2                    back p4 [vector]
+        - card top [352] != 364
+  OFF y01-mathematics                    back p364 [vector]
+        - card top [352] != 364
+  OFF y01-music-and-drama                back p198 [vector]
+        - card top [352] != 364
+  OFF y01-science                        back p184 [vector]
+        - card top [352] != 364
+  OFF y01-spanish-a1a2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y01-spanish-b1b2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y02-computing-and-robotics         back p256 [vector]
+        - card top [358] != 364
+  OFF y02-english                        back p210 [vector]
+        - card top [352] != 364
+  OFF y02-german-a1a2                    back p4 [vector]
+        - card top [352] != 364
+  OFF y02-german-b1b2                    back p100 [vector]
+        - no 33pt title line
+        - subtitle top 181 != 175
+        - accent bar y [172] != 166
+        - footer starts 715 != 718 (bottom-anchored, H=792)
+  OFF y02-mathematics                    back p752 [vector]
+        - card top [358] != 364
+  OFF y02-music-and-drama                back p256 [vector]
+        - card top [352] != 364
+  OFF y02-physical-education             back p244 [vector]
+        - card top [358] != 364
+  OFF y02-science                        back p186 [vector]
+        - no 33pt title line
+        - subtitle top 181 != 175
+        - accent bar y [172] != 166
+        - footer starts 715 != 718 (bottom-anchored, H=792)
+  OFF y02-spanish-a1a2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y02-spanish-b1b2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y03-computing-and-robotics         back p40 [vector]
+        - subtitle top 211 != 175
+        - accent bar y [202] != 166
+        - card top [339] != 364
+        - MANIFEST pages 32 != 40
+  OFF y03-english                        back p4 [vector]
+        - card top [352] != 364
+  OFF y03-german-a1a2                    back p4 [vector]
+        - card top [352] != 364
+  OFF y03-german-b1b2                    back p4 [vector]
+        - card top [352] != 364
+  OFF y03-mathematics                    back p80 [vector]
+        - no 33pt title line
+        - subtitle top 181 != 175
+        - accent bar y [172] != 166
+        - footer starts 715 != 718 (bottom-anchored, H=792)
+  OFF y03-music-and-drama                back p4 [vector]
+        - card top [352] != 364
+  OFF y03-science                        back p4 [vector]
+        - card top [352] != 364
+  OFF y03-spanish-a1a2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y03-spanish-b1b2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y04-english                        back p98 [vector]
+        - card top [352] != 364
+  OFF y04-german-a1a2                    back p4 [vector]
+        - card top [352] != 364
+  OFF y04-german-b1b2                    back p4 [vector]
+        - card top [352] != 364
+  OFF y04-mathematics                    back p70 [vector]
+        - card top [358] != 364
+  OFF y04-music-and-drama                back p4 [vector]
+        - card top [352] != 364
+  OFF y04-science                        back p18 [vector]
+        - card top [352] != 364
+  OFF y04-spanish-a1a2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y04-spanish-b1b2                   back p4 [vector]
+        - card top [352] != 364
+  OFF y05-computing-and-robotics         back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y05-english                        back p20 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - footer starts 691 != 718 (bottom-anchored, H=792)
+  OFF y05-german-a1a2                    back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y05-german-b1b2                    back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y05-mathematics                    back p32 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 0, 352] != 364
+  OFF y05-music-and-drama                back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y05-physical-education             back p138 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - footer starts 691 != 718 (bottom-anchored, H=792)
+  OFF y05-portuguese                     back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - subtitle lacks "Prime School Press": 'Year 5 · Student Manual'
+        - card top [348] != 364
+  OFF y05-science                        back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y05-spanish-a1a2                   back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y05-spanish-b1b2                   back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-computing-and-robotics         back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-english                        back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-german-a1a2                    back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-german-b1b2                    back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-mathematics                    back p122 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, -646, 0, 0, 352] != 364
+  OFF y06-music-and-drama                back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-physical-education             back p190 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - footer starts 691 != 718 (bottom-anchored, H=792)
+  OFF y06-portuguese                     back p110 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [381] != 364
+        - only 1 footer lines
+  OFF y06-science                        back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-spanish-a1a2                   back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y06-spanish-b1b2                   back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y07-computing-and-robotics         back p118 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, -113, 538, 321] != 364
+  OFF y07-computing-structured           back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [321] != 364
+  OFF y07-english                        back p24 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, -658, 0, 0, 321] != 364
+  OFF y07-global-perspectives            back p146 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - title top 236 != 93
+        - no "Year N ... Student Manual" subtitle line
+        - accent bar y [309] != 166
+        - card top [428, 428, 428, 428] != 364
+  OFF y07-mathematics                    back p30 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y07-physical-education             back p146 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y07-portuguese-1st                 back p192 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - title top 120 != 93
+        - no "Year N ... Student Manual" subtitle line
+        - accent bar y [193] != 166
+        - card top [348] != 364
+  OFF y07-portuguese-2nd                 back p76 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - title top 120 != 93
+        - no "Year N ... Student Manual" subtitle line
+        - accent bar y [193] != 166
+        - card top [27, 348] != 364
+  OFF y07-science                        back p28 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y08-computing-and-robotics         back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y08-english                        back p14 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y08-mathematics                    back p18 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y08-music-and-drama                back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y08-physical-education             back p146 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y08-portuguese-1st                 back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [352] != 364
+  OFF y08-portuguese-2nd                 back p100 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [321] != 364
+  OFF y08-science                        back p20 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y09-english                        back p14 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y09-mathematics                    back p16 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y09-music-and-drama                back p74 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y09-physical-education             back p182 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y09-portuguese                     back p52 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y09-portuguese-2nd                 back p110 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [321] != 364
+  OFF y09-science                        back p122 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [0, 0, 321] != 364
+  OFF y09-computing-and-robotics         back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [321] != 364
+  OFF y10-business-btec-l2               back p42 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y10-physical-education             back p148 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y10-portuguese-1st                 back p422 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y10-portuguese-1st-igcse           back p252 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y10-spanish-1st-igcse              back p260 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y11-physical-education             back p32 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [354] != 364
+  OFF y11-portuguese-1st                 back p426 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y12-physical-education             back p628 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y12-portuguese-a-level             back p156 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y12-spanish-a-level                back p176 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y13-physical-education             back p32 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [354] != 364
+  OFF y07-art-and-design-standard        back p2 [vector]
+        - imprint not PRIME SCHOOL PRESS: 'P R I M E  B O O K S'
+        - no "Year N ... Student Manual" subtitle line
+        - card top [333] != 364
+  OFF y01-physical-education-standard    back p71 [vector]
+        - imprint top 642 != 68
+        - no 33pt title line
+        - no "Year N ... Student Manual" subtitle line
+        - no accent bar
+        - card top [0] != 364
+        - only 0 footer lines

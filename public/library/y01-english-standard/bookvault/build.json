@@ -1,6 +1,6 @@
 {
  "slug": "y01-english-standard",
- "built": "2026-09-17T06:37:06+00:00",
+ "built": "2026-09-18T16:47:10+00:00",
  "source_pages": 71,
  "source_mtime": 1789626470.4136622,
  "source_bytes": 28225969,
@@ -58,7 +58,7 @@
   "file": "y01-english-standard-cover-file.pdf",
   "url": "/library/y01-english-standard/bookvault/y01-english-standard-cover-file.pdf",
   "preview": "/library/y01-english-standard/bookvault/y01-english-standard-cover-file.png",
-  "bytes": 2095516,
+  "bytes": 2100027,
   "px": [
    5220,
    3366
@@ -80,7 +80,10 @@
    279.0
   ],
   "interior_pages": 69,
-  "spine_text": false,
+  "spine_text": true,
+  "spine_text_pt": 7.2,
+  "spine_text_floor_mm": 4.0,
+  "spine_text_clearance_mm": 1.0,
   "barcode_mm": [
    38.0,
    25.0
@@ -92,7 +95,12 @@
    2511,
    3291
   ],
-  "spine_confirmed": false
+  "spine_confirmed": false,
+  "spine_colour": [
+   241,
+   179,
+   0
+  ]
  },
  "checks": [
   {
