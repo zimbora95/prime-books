@@ -4,20 +4,16 @@
 <!-- page 1 -->
 
 ---
-## Portuguese 1st Language
+## Português
 
-## Year 4
+## 4.º Ano
 
-Student Manual
+Manual do Aluno
 
 <!-- page 2 -->
 
 ---
 **P R I M E S C H O O L P R E S S**
-
-## Portuguese
-
-**Year 4 · Student Book**
 
 Este é o teu livro de Português.
 
@@ -61,6 +57,10 @@ other publisher.
 **www.primeschool.pt**
 
 **2**
+
+## Português
+
+**4.º Ano · Manual do Aluno**
 
 <!-- page 3 -->
 
@@ -4100,10 +4100,6 @@ Prime School Press · www.primeschool.pt
 ---
 **P R I M E  S C H O O L  P R E S S**
 
-## Portuguese 1st Language
-
-Year 4 · Prime School Press · Student Manual
-
 Este é o teu livro de Português.
 
 Vasco a raposa e os teus outros guias acompanham-te na leitura, na escrita e na
@@ -4127,8 +4123,12 @@ Oficinas de escrita guiadas
 •
 Ilustração original em aguarela
 
-**Prime School Press · Portuguese 1st Language**
-
 Ages 8–9 · Lower Primary
 
 **primeschool.pt**
+
+## Português
+
+4.º Ano · Prime School Press · Manual do Aluno
+
+**Prime School Press · Português**

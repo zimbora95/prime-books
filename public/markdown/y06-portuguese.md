@@ -4,11 +4,11 @@
 <!-- page 1 -->
 
 ---
-## Portuguese 1st Language
+## Português
 
-## Year 6
+## 6.º Ano
 
-Student Manual
+Manual do Aluno
 
 <!-- page 2 -->
 
@@ -18,7 +18,7 @@ PRIME SCHOOL PRESS · YEAR 6 PORTUGUESE
 
 Prime School Press
 
-**Prime School Press · Portuguese 1st · Year 6 · Student Book**
+**Prime School Press**
 
 Publisher: Prime School Press, imprint of Prime School · www.primeschool.pt
 
@@ -39,6 +39,8 @@ professional integrity, and the continuous advancement of teaching and learning.
 Independent publication of Prime School.
 
 Prime School Press · www.primeschool.pt
+
+· Português · 6.º Ano · Manual do Aluno
 
 <!-- page 3 -->
 
@@ -3967,9 +3969,11 @@ Prime School Press · www.primeschool.pt
 ---
 **P R I M E  B O O K S**
 
-## Portuguese 1st Language
+O último ano do ensino primário, em português.
 
-enção,
+Leitura, escrita e fala em nível de exame. Textos longos, escrita com intenção,
+
+apresentações orais, e a gramática e a ortografia sempre em contexto.
 
 **INSIDE THIS BOOK**
 
@@ -3988,10 +3992,12 @@ Apresentações orais guiadas
 •
 Ilustração original em aguarela
 
-**Prime Books · Portuguese 1st Language**
-
 Ages 10–11 · Upper Primary
 
 **primeschool.pt**
 
-Student Manual
+## Português
+
+6.º Ano · Manual do Aluno
+
+**Prime Books · Português**

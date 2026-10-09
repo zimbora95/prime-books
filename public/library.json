@@ -831,6 +831,8 @@
   "mb": 8.29,
   "buildable": true,
   "editable": true,
+  "spine_line": "PORTUGUÊS  ·  3.º ANO",
+  "bookvault_title": "Português · 3.º Ano — Manual do Aluno",
   "wrapCover": "/library/y03-portuguese/cover-wrap-amazon.png",
   "wrapCoverPdf": "/library/y03-portuguese/cover-wrap-amazon.pdf",
   "preview": [
@@ -1102,6 +1104,8 @@
   "mb": 0.99,
   "buildable": false,
   "editable": true,
+  "spine_line": "PORTUGUÊS  ·  4.º ANO",
+  "bookvault_title": "Português · 4.º Ano — Manual do Aluno",
   "wrapCover": null,
   "preview": [
    "/library/y04-portuguese/preview/01.webp",
@@ -1661,6 +1665,8 @@
   "mb": 4.11,
   "buildable": false,
   "editable": true,
+  "spine_line": "PORTUGUÊS  ·  6.º ANO",
+  "bookvault_title": "Português · 6.º Ano — Manual do Aluno",
   "wrapCover": null,
   "preview": [
    "/library/y06-portuguese/preview/01.webp",
@@ -1932,6 +1938,8 @@
   "mb": 6.95,
   "buildable": true,
   "editable": true,
+  "spine_line": "PORTUGUÊS 2.ª LÍNGUA  ·  7.º ANO",
+  "bookvault_title": "Português 2.ª Língua · 7.º Ano — Manual do Aluno",
   "preview": [
    "/library/y07-portuguese-2nd/preview/01.webp",
    "/library/y07-portuguese-2nd/preview/02.webp",
@@ -2138,6 +2146,8 @@
   "mb": 0.5,
   "done": false,
   "editable": true,
+  "spine_line": "PORTUGUÊS  ·  8.º ANO",
+  "bookvault_title": "Português · 8.º Ano — Manual do Aluno",
   "buildable": false,
   "preview": [
    "/library/y08-portuguese-1st/preview/01.webp",
@@ -2158,6 +2168,8 @@
   "mb": 27.39,
   "done": false,
   "editable": true,
+  "spine_line": "PORTUGUÊS 2.ª LÍNGUA  ·  8.º ANO",
+  "bookvault_title": "Português 2.ª Língua · 8.º Ano — Manual do Aluno",
   "buildable": false,
   "preview": [
    "/library/y08-portuguese-2nd/preview/01.webp",
@@ -2412,8 +2424,10 @@
   "mb": 34.21,
   "buildable": false,
   "editable": false,
+  "spine_line": "PORTUGUÊS  ·  4.º ANO",
+  "bookvault_title": "Português · 4.º Ano — Manual do Aluno",
   "edition": "Edição completa — Rua das Palavras: 7 unidades, Manual do aluno com notas para o professor (168 pp.)",
-  "display_name": "Português · Year 4 — Rua das Palavras",
+  "display_name": "Português · 4.º Ano — Rua das Palavras",
   "finished_full": true,
   "preview": [
    "/library/y04-portuguese-anthropic/preview/01.webp",
@@ -2435,15 +2449,16 @@
   "mb": 44.22,
   "buildable": false,
   "editable": false,
+  "spine_line": "PORTUGUÊS  ·  6.º ANO",
+  "bookvault_title": "Português · 6.º Ano — Manual do Aluno",
   "edition": "Farol · Português 6",
-  "display_name": "Português · Year 6 — Farol",
+  "display_name": "Português · 6.º Ano — Farol",
   "finished_full": true,
   "preview": [
    "/library/y06-portuguese-anthropic/preview/01.webp",
    "/library/y06-portuguese-anthropic/preview/02.webp",
    "/library/y06-portuguese-anthropic/preview/last.webp"
   ],
-  "spine_line": "PORTUGUÊS 1.ª LÍNGUA  ·  6.º ANO",
   "spine_imprint": "PRIME SCHOOL PRESS"
  },
  {
@@ -2460,6 +2475,8 @@
   "mb": 4.05,
   "buildable": false,
   "editable": true,
+  "spine_line": "PORTUGUÊS 2.ª LÍNGUA  ·  9.º ANO",
+  "bookvault_title": "Português 2.ª Língua · 9.º Ano — Manual do Aluno",
   "preview": [
    "/library/y09-portuguese-2nd/preview/01.webp",
    "/library/y09-portuguese-2nd/preview/02.webp",
@@ -2901,6 +2918,8 @@
   "mb": 23.72,
   "buildable": false,
   "editable": false,
+  "spine_line": "PORTUGUÊS  ·  8.º ANO",
+  "bookvault_title": "Português · 8.º Ano — Manual do Aluno",
   "edition": "Edição 5 (completa): Unidades 1–7 — Promessa & Veredicto · Quem nos faz crescer? · O que cabe num verso? · Sobe o pano · Sessão de encerramento · O teu veredicto · Contrato de leitura. 174 pp. A4; ficha técnica no padrão da casa; capas no padrão da coleção (Português 1.ª Língua · 8.º Ano); gravações em QR no Wikimedia Commons; pacote BookVault (US Letter).",
   "display_name": "Português · 8.º ano — Promessa & Veredicto",
   "finished_full": true,
@@ -2909,7 +2928,32 @@
    "/library/y08-portuguese-1st-anthropic/preview/02.webp",
    "/library/y08-portuguese-1st-anthropic/preview/last.webp"
   ],
-  "spine_line": "PORTUGUÊS 1.ª LÍNGUA  ·  8.º ANO",
+  "spine_imprint": "PRIME SCHOOL PRESS"
+ },
+ {
+  "slug": "y07-portuguese-1st-anthropic",
+  "year": 7,
+  "subject": "Portuguese 1st",
+  "band": "Cambridge Lower Secondary",
+  "family": "experiment",
+  "level": "Lower Secondary",
+  "pages": 174,
+  "done": false,
+  "pdf": "/library/y07-portuguese-1st-anthropic/book.pdf",
+  "cover": "/library/y07-portuguese-1st-anthropic/cover.webp",
+  "mb": 23.9,
+  "buildable": false,
+  "editable": false,
+  "spine_line": "PORTUGUÊS  ·  7.º ANO",
+  "bookvault_title": "Português · 7.º Ano — Manual do Aluno",
+  "edition": "Edição 5 (completa): Unidades 1–7 — Promessa & Veredicto · Quem nos faz crescer? · O que cabe num verso? · Sobe o pano · Sessão de encerramento · O teu veredicto · Contrato de leitura. 174 pp. A4; ficha técnica no padrão da casa; capas no padrão da coleção (Português 1.ª Língua · 7.º Ano); gravações em QR no Wikimedia Commons; pacote BookVault (US Letter).",
+  "display_name": "Português · 7.º ano — Promessa & Veredicto",
+  "finished_full": true,
+  "preview": [
+   "/library/y07-portuguese-1st-anthropic/preview/01.webp",
+   "/library/y07-portuguese-1st-anthropic/preview/02.webp",
+   "/library/y07-portuguese-1st-anthropic/preview/last.webp"
+  ],
   "spine_imprint": "PRIME SCHOOL PRESS"
  },
  {
